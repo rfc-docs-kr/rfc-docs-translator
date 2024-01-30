@@ -1,0 +1,1 @@
+   각 SIP 메시지는 단일 WebSocket 메시지 내에서 전달되어야 하며 WebSocket 메시지는 둘 이상의 SIP 메시지를 포함해서는 안 됩니다. WebSocket 전송은 메시지 경계를 유지하므로 WebSocket 하위 프로토콜을 사용하여 전송되는 경우 SIP 메시지에 Content-Length 헤더를 사용할 필요가 없습니다.

@@ -1,0 +1,29 @@
+"hash": |-
+  4aaee3e1ebe37a25908b37f695660a813bb52ddb5b8820cfacb98e23f587506d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                  SGP                             ASP1
+                   |                               |
+                   |<------------ASP Up------------|
+                   |----------ASP Up Ack---------->|
+                   |                               |
+                   |                               |
+                   |<----REGISTER REQ(LRCn,RKn)----|  LRC: Local Routing
+                   |                               |       Key Id
+                   |----REGISTER RESP(LRCn,RCn)--->|   RK: Routing Key
+                   |                               |   RC: Routing Context
+                   |----NTFY(AS-INACTIVE)(RCn)---->|
+                   |                               |
+                   |                               |
+                   |<------- ASP Active(RCn)-------|
+                   |-----ASP Active Ack (RCn)----->|
+                   |                               |
+                   |-----NTFY(AS-ACTIVE)(RCn)----->|
+                   |                               |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

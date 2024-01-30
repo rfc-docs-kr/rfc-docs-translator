@@ -1,0 +1,19 @@
+"hash": |-
+  a8926adc3b5291c74b97ecb2e9e1c0036edd58ab37be5df26a1c88d59d50b001
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SGP SHOULD respond to a DAUD message with the MTP3
+     availability/congestion status of the routeset associated with each
+     Destination Point Codes in the DAUD message.  The status of each SS7
+     destination requested is indicated in a DUNA message (if
+     unavailable), a DAVA message (if available), or a DRST (if restricted
+     and the SGP supports this feature in national networks).  For
+     national networks, the SGP SHOULD additionally respond with a SCON
+     message (if the destination is congested) before the DAVA or DRST.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

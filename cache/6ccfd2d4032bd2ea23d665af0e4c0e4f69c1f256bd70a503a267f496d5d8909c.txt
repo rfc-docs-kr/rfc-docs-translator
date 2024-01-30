@@ -1,0 +1,3 @@
+      S: 220 foo.com 간편 메일 전송 서비스 준비 완료
+
+- C: EHLO bar.com S: 250-foo.com Greetings bar.com S: 250-8BITMIME S: 250-SIZE S: 250-DSN S: 250 HELP C: MAIL FROM:<JQP@bar.com> S : 250 OK C: RCPT TO:<Jones@XYZ.COM> S: 250 OK C: DATA S: 354 메일 입력 시작; <CRLF>로 끝납니다.<CRLF> C: 날짜: 1998년 5월 21일 목요일 05:33:29 -0700 C: 보낸 사람: John Q. Public <JQP@bar.com> C: 제목: 다음 이사회 회의 C: 받는 사람: Jones@xyz.com C: C: Bill: C: 다음 이사회 회의는 화요일 C:입니다. 답: 존. 씨: . S: 250 OK C: QUIT S: 221 foo.com 서비스가 전송 채널을 닫는 중입니다.

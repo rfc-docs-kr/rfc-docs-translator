@@ -1,0 +1,19 @@
+"hash": |-
+  e8ef51ecd0798df06b10a2385c8788b3e7014bcd2f70dc8bdda6018c5906291a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In this example, the <users> and <user> nodes are both containment
+     nodes, and <name> is a content match node.  Since no sibling nodes of
+     <name> are specified (and therefore no containment or selection
+     nodes), all of the sibling nodes of <name> are returned in the filter
+     output.  Only "user" nodes in the
+     "http://example.com/schema/1.2/config" namespace that match the
+     element hierarchy and for which the <name> element is equal to "fred"
+     will be included in the filter output.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

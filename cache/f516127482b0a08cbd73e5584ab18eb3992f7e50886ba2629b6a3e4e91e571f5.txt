@@ -1,0 +1,1 @@
+   SCSI REPORT LUNS 명령은 대상 SCSI 계층에 LU 인벤토리(LUN 목록)를 개시자 SCSI 계층으로 반환하도록 요청합니다([SPC3]의 절 6.21 참조). 이 LUN 목록의 크기는 REPORT LUNS 명령을 실행할 때 개시자 SCSI 계층에 알려지지 않을 수 있습니다. 개시자가 준비된 것보다 더 많은 LUN 목록 데이터를 전송하지 않도록 REPORT LUNS CDB에는 이 명령에 대해 개시자로 전송될 최대 데이터 양을 지정하는 ALLOCATION LENGTH 필드가 포함되어 있습니다. 개시자 SCSI 계층이 과소평가된 경우

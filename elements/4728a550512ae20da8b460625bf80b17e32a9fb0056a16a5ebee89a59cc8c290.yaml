@@ -1,0 +1,22 @@
+"hash": |-
+  4728a550512ae20da8b460625bf80b17e32a9fb0056a16a5ebee89a59cc8c290
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [3] The authenticator sends an additional Request packet, and the
+         peer replies with a Response.  The sequence of Requests and
+         Responses continues as long as needed.  EAP is a 'lock step'
+         protocol, so that other than the initial Request, a new Request
+         cannot be sent prior to receiving a valid Response.  The
+         authenticator is responsible for retransmitting requests as
+         described in Section 4.1.  After a suitable number of
+         retransmissions, the authenticator SHOULD end the EAP
+         conversation.  The authenticator MUST NOT send a Success or
+         Failure packet when retransmitting or when it fails to get a
+         response from the peer.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

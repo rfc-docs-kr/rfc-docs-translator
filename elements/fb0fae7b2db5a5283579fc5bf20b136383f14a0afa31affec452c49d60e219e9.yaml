@@ -1,0 +1,43 @@
+"hash": |-
+  fb0fae7b2db5a5283579fc5bf20b136383f14a0afa31affec452c49d60e219e9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* Procedure SendFrame:
+   *
+   *  Arguments:
+   *    start_seq: The sequence number for the first packet of the current
+   *               frame.
+   *    ts: RTP timestamp for the current frame
+   *    ssrc: RTP SSRC value
+   *    jpeg_data: Huffman encoded JPEG scan data
+   *    len: Length of the JPEG scan data
+   *    type: The value the RTP/JPEG type field should be set to
+   *    typespec: The value the RTP/JPEG type-specific field should be set
+   *              to
+   *    width: The width in pixels of the JPEG image
+   *    height: The height in pixels of the JPEG image
+   *    dri: The number of MCUs between restart markers (or 0 if there
+   *         are no restart markers in the data
+   *    q: The Q factor of the data, to be specified using the Independent
+   *       JPEG group's algorithm if 1 <= q <= 99, specified explicitly
+   *       with lqt and cqt if q >= 128, or undefined otherwise.
+   *    lqt: The quantization table for the luminance channel if q >= 128
+   *    cqt: The quantization table for the chrominance channels if
+   *         q >= 128
+   *
+   *  Return value:
+   *    the sequence number to be sent for the first packet of the next
+   *    frame.
+   *
+   * The following are assumed to be defined:
+   *
+   * PACKET_SIZE                         - The size of the outgoing packet
+   * send_packet(u_int8 *data, int len)  - Sends the packet to the network
+   */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

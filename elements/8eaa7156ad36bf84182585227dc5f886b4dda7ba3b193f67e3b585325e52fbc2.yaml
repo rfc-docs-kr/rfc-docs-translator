@@ -1,0 +1,18 @@
+"hash": |-
+  8eaa7156ad36bf84182585227dc5f886b4dda7ba3b193f67e3b585325e52fbc2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver of a Capabilities-Exchange-Request (CER) message that does
+     not have any applications in common with the sender MUST return a
+     Capabilities-Exchange-Answer (CEA) with the Result-Code AVP set to
+     DIAMETER_NO_COMMON_APPLICATION and SHOULD disconnect the transport
+     layer connection.  Note that receiving a CER or CEA from a peer
+     advertising itself as a relay (see Section 2.4) MUST be interpreted
+     as having common applications with the peer.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

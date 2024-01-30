@@ -1,0 +1,1 @@
+   bytes_in_flight: 최소한 하나의 승인 유도 또는 PADDING 프레임을 포함하고 승인되지 않았거나 손실되었다고 선언되지 않은 모든 전송된 패킷의 크기(바이트)의 합계입니다. 크기에는 IP 또는 UDP 오버헤드가 포함되지 않지만 QUIC 헤더 및 AEAD(Authenticated Encryption with Associated Data) 오버헤드는 포함됩니다. ACK 프레임만 포함하는 패킷은 혼잡 제어가 혼잡 피드백을 방해하지 않도록 하기 위해 bytes_in_flight에 포함되지 않습니다.

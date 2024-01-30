@@ -1,0 +1,32 @@
+"hash": |-
+  1991147f801e6688b4bcdccaac570c1f99473a83e044c9a1965612097446d9b3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           SGP                      ASP1                       ASP2
+            |                        |                          |
+            |<---------ASP Up--------|                          |
+            |--------ASP Up Ack----->|                          |
+            |                        |                          |
+            |--NOTIFY(AS-INACTIVE)-->|                          |
+            |                        |                          |
+            |<-----------------------------ASP Up---------------|
+            |----------------------------ASP Up Ack------------>|
+            |                        |                          |
+            |--------------------------NOTIFY(AS-INACTIVE)----->|
+            |                        |                          |
+            |<--ASP Active (Ldshr)---|                          |
+            |-----ASP-Active Ack---->|                          |
+            |                        |                          |
+            |---NOTIFY (AS-ACTIVE)-->|                          |
+            |-----------------------------NOTIFY(AS-ACTIVE)---->|
+            |                        |                          |
+            |<---------------------------ASP Active (Ldshr)-----|
+            |------------------------------ASP Active Ack------>|
+            |                        |                          |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

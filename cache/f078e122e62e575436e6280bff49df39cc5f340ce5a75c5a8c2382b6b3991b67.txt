@@ -1,0 +1,1 @@
+   4. 응답에 |Sec-WebSocket-Accept|가 없는 경우 헤더 필드 또는 |Sec-WebSocket-Accept| |Sec-WebSocket-Key| 연결의 base64 인코딩 SHA-1 이외의 값이 포함되어 있습니다. (base64로 디코딩되지 않은 문자열로) 문자열 "258EAFA5-E914-47DA-95CA-C5AB0DC85B11"을 포함하지만 선행 및 후행 공백을 무시하면 클라이언트는 반드시 _WebSocket 연결 실패_를 해야 합니다.

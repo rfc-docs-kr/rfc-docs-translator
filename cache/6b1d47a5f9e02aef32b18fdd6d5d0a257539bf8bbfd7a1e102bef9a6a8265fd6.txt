@@ -1,0 +1,3 @@
+   if ((rttSampleCount >= N_RTT_SAMPLE) AND
+
+- (currentRoundMinRTT != 무한대) AND (lastRoundMinRTT != 무한대)) RttThresh = max(MIN_RTT_THRESH, min(lastRoundMinRTT / MIN_RTT_DIVISOR, MAX_RTT_THRESH)) if (currentRoundMinRTT >= (lastRoundMinRTT + RttThresh)) cssBaselineMinRtt = currentRound MinRTT 종료 슬로우 스타트 및 CSS 입력

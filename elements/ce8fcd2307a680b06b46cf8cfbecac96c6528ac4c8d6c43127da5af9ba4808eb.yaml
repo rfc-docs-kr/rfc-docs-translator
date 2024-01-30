@@ -1,0 +1,21 @@
+"hash": |-
+  ce8fcd2307a680b06b46cf8cfbecac96c6528ac4c8d6c43127da5af9ba4808eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In general, only generation of duplicates due to failover or re-
+     sending of records in non-volatile storage can be reliably detected
+     by Diameter clients or agents.  In such cases, the Diameter client or
+     agents can mark the message as a possible duplicate by setting the T
+     flag.  Since the Diameter server is responsible for duplicate
+     detection, it can choose whether or not to make use of the T flag, in
+     order to optimize duplicate detection.  Since the T flag does not
+     affect interoperability, and it may not be needed by some servers,
+     generation of the T flag is REQUIRED for Diameter clients and agents,
+     but it MAY be implemented by Diameter servers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

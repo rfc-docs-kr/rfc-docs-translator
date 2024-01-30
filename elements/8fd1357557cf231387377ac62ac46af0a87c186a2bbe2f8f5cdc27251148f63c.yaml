@@ -1,0 +1,18 @@
+"hash": |-
+  8fd1357557cf231387377ac62ac46af0a87c186a2bbe2f8f5cdc27251148f63c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server cannot produce a certificate chain that is signed only
+     via the indicated supported algorithms, then it SHOULD continue the
+     handshake by sending the client a certificate chain of its choice
+     that may include algorithms that are not known to be supported by the
+     client.  This fallback chain SHOULD NOT use the deprecated SHA-1 hash
+     algorithm in general, but MAY do so if the client's advertisement
+     permits it, and MUST NOT do so otherwise.
+"fixed": |-
+  If the server cannot produce a certificate chain that is signed only via the indicated supported algorithms, then it SHOULD continue the handshake by sending the client a certificate chain of its choice that may include algorithms that are not known to be supported by the client.  This fallback chain SHOULD NOT use the deprecated SHA-1 hash algorithm in general, but MAY do so if the client's advertisement permits it, and MUST NOT do so otherwise.
+"ko": |-
+  서버가 표시된 지원 알고리즘을 통해서만 서명된 인증서 체인을 생성할 수 없는 경우 클라이언트가 지원하는 것으로 알려지지 않은 알고리즘을 포함할 수 있는 선택한 인증서 체인을 클라이언트에 보내 핸드셰이크를 계속해야 합니다. 이 폴백 체인은 일반적으로 더 이상 사용되지 않는 SHA-1 해시 알고리즘을 사용해서는 안 되지만, 클라이언트의 광고가 허용하는 경우에는 사용할 수 있고 그렇지 않은 경우에는 사용하면 안 됩니다.

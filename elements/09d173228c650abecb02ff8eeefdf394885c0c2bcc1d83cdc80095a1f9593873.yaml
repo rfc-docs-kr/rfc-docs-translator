@@ -1,0 +1,18 @@
+"hash": |-
+  09d173228c650abecb02ff8eeefdf394885c0c2bcc1d83cdc80095a1f9593873
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ABNF has been corrected to allow the path component to be empty.
+     This also allows an absolute-URI to consist of nothing after the
+     "scheme:", as is present in practice with the "dav:" namespace
+     [RFC2518] and with the "about:" scheme used internally by many WWW
+     browser implementations.  The ambiguity regarding the boundary
+     between authority and path has been eliminated through the use of
+     five separate path matching rules.
+"fixed": |-
+  The ABNF has been corrected to allow the path component to be empty. This also allows an absolute-URI to consist of nothing after the "scheme:", as is present in practice with the "dav:" namespace [RFC2518] and with the "about:" scheme used internally by many WWW browser implementations.  The ambiguity regarding the boundary between authority and path has been eliminated through the use of five separate path matching rules.
+"ko": |-
+  경로 구성 요소가 비어 있을 수 있도록 ABNF가 수정되었습니다. 이는 또한 실제로 "dav:" 네임스페이스[RFC2518]와 많은 WWW 브라우저 구현에서 내부적으로 사용되는 "about:" 체계에 존재하는 것처럼 절대 URI가 "scheme:" 뒤에 아무것도 구성되지 않도록 허용합니다. 5개의 별도 경로 일치 규칙을 사용하여 권한과 경로 사이의 경계에 대한 모호성을 제거했습니다.

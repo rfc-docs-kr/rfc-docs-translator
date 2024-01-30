@@ -1,0 +1,1 @@
+   동일한 확장 유형이 해당 ClientHello에 나타나지 않는 한 확장 유형은 ServerHello에 나타나지 않아야 합니다(MUST NOT). 클라이언트가 연결된 ClientHello에서 요청하지 않은 확장 유형을 ServerHello에서 수신하는 경우 unsupported_extension 치명적 경고와 함께 핸드셰이크를 중단해야 합니다(MUST).

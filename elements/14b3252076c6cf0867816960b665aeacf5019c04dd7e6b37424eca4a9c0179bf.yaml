@@ -1,0 +1,28 @@
+"hash": |-
+  14b3252076c6cf0867816960b665aeacf5019c04dd7e6b37424eca4a9c0179bf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  DiffServMultiFieldClfrEntry ::= SEQUENCE {
+      diffServMultiFieldClfrId           IndexInteger,
+      diffServMultiFieldClfrAddrType     InetAddressType,
+      diffServMultiFieldClfrDstAddr      InetAddress,
+      diffServMultiFieldClfrDstPrefixLength InetAddressPrefixLength,
+      diffServMultiFieldClfrSrcAddr      InetAddress,
+      diffServMultiFieldClfrSrcPrefixLength InetAddressPrefixLength,
+      diffServMultiFieldClfrDscp         DscpOrAny,
+      diffServMultiFieldClfrFlowId       Unsigned32,
+      diffServMultiFieldClfrProtocol     Unsigned32,
+      diffServMultiFieldClfrDstL4PortMin InetPortNumber,
+      diffServMultiFieldClfrDstL4PortMax InetPortNumber,
+      diffServMultiFieldClfrSrcL4PortMin InetPortNumber,
+      diffServMultiFieldClfrSrcL4PortMax InetPortNumber,
+      diffServMultiFieldClfrStorage      StorageType,
+      diffServMultiFieldClfrStatus       RowStatus
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

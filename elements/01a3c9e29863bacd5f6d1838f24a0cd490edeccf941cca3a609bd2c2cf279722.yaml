@@ -1,0 +1,19 @@
+"hash": |-
+  01a3c9e29863bacd5f6d1838f24a0cd490edeccf941cca3a609bd2c2cf279722
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In addition, resources requested from the server for a particular
+     connection MUST be automatically released when the connection closes,
+     making failure recovery simpler and more robust.  For example, when a
+     lock is acquired by a client, the lock persists until either it is
+     explicitly released or the server determines that the connection has
+     been terminated.  If a connection is terminated while the client
+     holds a lock, the server can perform any appropriate recovery.  The
+     <lock> operation is further discussed in Section 7.5.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

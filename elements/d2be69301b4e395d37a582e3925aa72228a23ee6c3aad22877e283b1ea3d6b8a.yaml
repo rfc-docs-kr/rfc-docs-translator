@@ -1,0 +1,28 @@
+"hash": |-
+  d2be69301b4e395d37a582e3925aa72228a23ee6c3aad22877e283b1ea3d6b8a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        On point-to-point data links, full TFC can be provided by
+        enciphering all PDUs and also generating a continuous, random data
+        stream to seamlessly fill all gaps between PDUs. To a wiretapper,
+        the link then appears to be carrying an unbroken stream of
+        enciphered data. In other cases -- including on a shared or
+        broadcast medium, or end-to-end in a network -- only partial TFC
+        is possible, and that may require a combination of techniques. For
+        example, a LAN that uses "carrier sense multiple access with
+        collision detection" (CSMA/CD; a.k.a. "listen while talk") to
+        control access to the medium, relies on detecting intervals of
+        silence, which prevents using full TFC. Partial TFC can be
+        provided on that LAN by measures such as adding spurious PDUs,
+        padding PDUs to a constant size, or enciphering addresses just
+        above the Physical Layer; but these measures reduce the efficiency
+        with which the LAN can carry traffic. At higher protocol layers,
+        SDUs can be protected, but addresses and other items of PCI must
+        be visible at the layers below.
+"fixed": |-
+  - On point-to-point data links, full TFC can be provided by enciphering all PDUs and also generating a continuous, random data stream to seamlessly fill all gaps between PDUs. To a wiretapper, the link then appears to be carrying an unbroken stream of enciphered data. In other cases -- including on a shared or broadcast medium, or end-to-end in a network -- only partial TFC is possible, and that may require a combination of techniques. For example, a LAN that uses "carrier sense multiple access with collision detection" (CSMA/CD; a.k.a. "listen while talk") to control access to the medium, relies on detecting intervals of silence, which prevents using full TFC. Partial TFC can be provided on that LAN by measures such as adding spurious PDUs, padding PDUs to a constant size, or enciphering addresses just above the Physical Layer; but these measures reduce the efficiency with which the LAN can carry traffic. At higher protocol layers, SDUs can be protected, but addresses and other items of PCI must be visible at the layers below.
+"ko": |-
+  - 지점 간 데이터 링크에서는 모든 PDU를 암호화하고 연속적이고 무작위적인 데이터 스트림을 생성하여 PDU 사이의 모든 간격을 원활하게 채워 전체 TFC를 제공할 수 있습니다. 도청자에게는 링크가 암호화된 데이터의 연속적인 스트림을 전달하는 것처럼 보입니다. 공유 매체나 방송 매체 또는 네트워크의 종단 간을 포함하여 다른 경우에는 부분 TFC만 가능하며 여기에는 기술 조합이 필요할 수 있습니다. 예를 들어, 매체에 대한 액세스를 제어하기 위해 "충돌 감지를 통한 캐리어 감지 다중 액세스"(CSMA/CD, 일명 "대화 중 듣기")를 사용하는 LAN은 무음 간격 감지에 의존하므로 전체 TFC 사용을 방지합니다. 가짜 PDU 추가, PDU를 일정한 크기로 패딩, 물리 계층 바로 위의 주소 암호화 등의 조치를 통해 해당 LAN에 부분 TFC를 제공할 수 있습니다. 그러나 이러한 조치는 LAN이 트래픽을 전달할 수 있는 효율성을 감소시킵니다. 상위 프로토콜 계층에서는 SDU를 보호할 수 있지만 PCI의 주소 및 기타 항목은 아래 계층에서 볼 수 있어야 합니다.

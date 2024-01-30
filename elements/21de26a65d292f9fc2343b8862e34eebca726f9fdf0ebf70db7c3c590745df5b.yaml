@@ -1,0 +1,21 @@
+"hash": |-
+  21de26a65d292f9fc2343b8862e34eebca726f9fdf0ebf70db7c3c590745df5b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This example shows an architecture where no Signalling Gateway is
+     used.  In this example, SCCP messages are exchanged directly between
+     two IP-resident IPSPs with resident SCCP-User protocol instances,
+     such as RANAP or TCAP.  SS7 network interworking is not required;
+     therefore, there is no MTP3 network management status information for
+     the SCCP and SCCP-User protocols to consider.  Any MTP-PAUSE, MTP-
+     RESUME, or MTP-STATUS indications from the M3UA layer to the SCCP
+     layer should consider the status of the SCTP Association and
+     underlying IP network and any congestion information received from
+     the remote site.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

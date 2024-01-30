@@ -1,0 +1,17 @@
+"hash": |-
+  d5f38f93e96e614e7f8fda8a08ce90fbb6f04bbfe2009e0c9c2c22aff8560caa
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            ContentType type;       /* same as TLSPlaintext.type */
+            ProtocolVersion version;/* same as TLSPlaintext.version */
+            uint16 length;
+            opaque fragment[TLSCompressed.length];
+        } TLSCompressed;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

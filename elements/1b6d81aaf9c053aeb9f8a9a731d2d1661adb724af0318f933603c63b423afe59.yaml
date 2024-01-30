@@ -1,0 +1,22 @@
+"hash": |-
+  1b6d81aaf9c053aeb9f8a9a731d2d1661adb724af0318f933603c63b423afe59
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At this point, a ChangeCipherSpec message is sent by the client, and
+     the client copies the pending Cipher Spec into the current Cipher
+     Spec.  The client then immediately sends the Finished message under
+     the new algorithms, keys, and secrets.  In response, the server will
+     send its own ChangeCipherSpec message, transfer the pending to the
+     current Cipher Spec, and send its Finished message under the new
+     Cipher Spec.  At this point, the handshake is complete, and the
+     client and server may begin to exchange application layer data.  (See
+     flow chart below.)  Application data MUST NOT be sent prior to the
+     completion of the first handshake (before a cipher suite other than
+     TLS_NULL_WITH_NULL_NULL is established).
+"fixed": |-
+  At this point, a ChangeCipherSpec message is sent by the client, and the client copies the pending Cipher Spec into the current Cipher Spec.  The client then immediately sends the Finished message under the new algorithms, keys, and secrets.  In response, the server will send its own ChangeCipherSpec message, transfer the pending to the current Cipher Spec, and send its Finished message under the new Cipher Spec.  At this point, the handshake is complete, and the client and server may begin to exchange application layer data.  (See flow chart below.)  Application data MUST NOT be sent prior to the completion of the first handshake (before a cipher suite other than TLS_NULL_WITH_NULL_NULL is established).
+"ko": |-
+  이 시점에서 클라이언트는 ChangeCipherSpec 메시지를 전송하고 클라이언트는 보류 중인 Cipher Spec을 현재 Cipher Spec에 복사합니다. 그런 다음 클라이언트는 즉시 새 알고리즘, 키 및 비밀에 따라 Finished 메시지를 보냅니다. 이에 대한 응답으로 서버는 자체 ChangeCipherSpec 메시지를 보내고 보류 중인 내용을 현재 Cipher Spec으로 전송한 다음 새 Cipher Spec에 따라 Finished 메시지를 보냅니다. 이 시점에서 핸드셰이크가 완료되고 클라이언트와 서버는 애플리케이션 계층 데이터 교환을 시작할 수 있습니다. (아래 흐름도를 참조하십시오.) 애플리케이션 데이터는 첫 번째 핸드셰이크가 완료되기 전(TLS_NULL_WITH_NULL_NULL 이외의 암호화 제품군이 설정되기 전)에 전송되어서는 안 됩니다.

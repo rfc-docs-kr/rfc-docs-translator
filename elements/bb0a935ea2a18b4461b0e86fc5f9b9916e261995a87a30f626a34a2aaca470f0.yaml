@@ -1,0 +1,18 @@
+"hash": |-
+  bb0a935ea2a18b4461b0e86fc5f9b9916e261995a87a30f626a34a2aaca470f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     URI producers should not provide a URI that contains a username or
+     password that is intended to be secret.  URIs are frequently
+     displayed by browsers, stored in clear text bookmarks, and logged by
+     user agent history and intermediary applications (proxies).  A
+     password appearing within the userinfo component is deprecated and
+     should be considered an error (or simply ignored) except in those
+     rare cases where the 'password' parameter is intended to be public.
+"fixed": |-
+  URI producers should not provide a URI that contains a username or password that is intended to be secret.  URIs are frequently displayed by browsers, stored in clear text bookmarks, and logged by user agent history and intermediary applications (proxies).  A password appearing within the userinfo component is deprecated and should be considered an error (or simply ignored) except in those rare cases where the 'password' parameter is intended to be public.
+"ko": |-
+  URI 생산자는 비밀로 유지하려는 사용자 이름이나 비밀번호가 포함된 URI를 제공해서는 안 됩니다. URI는 브라우저에 자주 표시되고 일반 텍스트 책갈피에 저장되며 사용자 에이전트 기록 및 중개 애플리케이션(프록시)에 의해 기록됩니다. userinfo 구성요소 내에 표시되는 비밀번호는 더 이상 사용되지 않으며 'password' 매개변수가 공개되도록 의도된 드문 경우를 제외하고는 오류로 간주되거나 단순히 무시되어야 합니다.

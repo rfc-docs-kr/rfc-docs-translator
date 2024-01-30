@@ -1,0 +1,17 @@
+"hash": |-
+  365bcf8355fc81f3357208e97578fb19de20d242820fd8ea782928f902d4622d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3. The implementation receives the next flight of messages: if this
+        is the final flight of messages, the implementation transitions to
+        FINISHED.  If the implementation needs to send a new flight, it
+        transitions to the PREPARING state.  Partial reads (whether
+        partial messages or only some of the messages in the flight) do
+        not cause state transitions or timer resets.
+"fixed": |-
+  1. The implementation receives the next flight of messages: if this is the final flight of messages, the implementation transitions to FINISHED.  If the implementation needs to send a new flight, it transitions to the PREPARING state.  Partial reads (whether partial messages or only some of the messages in the flight) do not cause state transitions or timer resets.
+"ko": |-
+  1. 구현은 다음 메시지 비행을 수신합니다. 이것이 메시지의 마지막 비행인 경우 구현은 FINISHED로 전환됩니다. 구현에서 새 항공편을 보내야 하는 경우 PREPARING 상태로 전환됩니다. 부분 읽기(부분 메시지이든 비행 중인 메시지 중 일부만이든)는 상태 전환이나 타이머 재설정을 유발하지 않습니다.

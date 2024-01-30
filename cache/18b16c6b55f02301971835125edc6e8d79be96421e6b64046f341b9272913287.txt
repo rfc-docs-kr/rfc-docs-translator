@@ -1,0 +1,1 @@
+   o SP4_SSV. spa_how가 SP4_SSV인 경우 클라이언트는 RPCSEC_GSS를 보안 특성으로 사용하고 RPC_GSS_SVC_INTEGRITY 또는 RPC_GSS_SVC_PRIVACY 서비스를 사용하여 EXCHANGE_ID 요청을 보내야 합니다. SP4_SSV가 지정되면 클라이언트는 SSV를 사용하여 상태를 보호하려고 합니다. 서버는 요청에 사용된 자격 증명을 eia_clientowner.co_owner에 대한 컴퓨터 자격 증명(위에 정의된 대로)으로 기록합니다. 클라이언트 ID를 확인하는 CREATE_SESSION 작업은 동일한 컴퓨터 자격 증명을 사용해야 합니다.

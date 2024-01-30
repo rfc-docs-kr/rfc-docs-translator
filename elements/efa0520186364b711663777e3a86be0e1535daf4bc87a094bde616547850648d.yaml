@@ -1,0 +1,19 @@
+"hash": |-
+  efa0520186364b711663777e3a86be0e1535daf4bc87a094bde616547850648d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     SecondRequestedEvent ::= SEQUENCE
+     {
+          pkgdName                PkgdName,
+          streamID                StreamID OPTIONAL,
+          eventAction             SecondRequestedActions OPTIONAL,
+          evParList               SEQUENCE OF EventParameter,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

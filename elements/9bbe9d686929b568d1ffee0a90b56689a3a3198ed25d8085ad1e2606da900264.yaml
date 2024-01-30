@@ -1,0 +1,22 @@
+"hash": |-
+  9bbe9d686929b568d1ffee0a90b56689a3a3198ed25d8085ad1e2606da900264
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        2.   A routing domain which performs summarization of multiple
+             routes must discard packets which match the summarization but
+             do not match any of the explicit routes which makes up the
+             summarization. This is necessary to prevent routing loops in
+             the presence of less-specific information (such as a default
+             route).  Implementation note - one simple way to implement
+             this rule would be for the border router to maintain a "sink"
+             route for each of its aggregations. By the rule of longest
+             match, this would cause all traffic destined to components of
+             the aggregation which are not explicitly known to be
+             discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   ZKDF(zkey, label): /* 블라인드 팩터 계산 */ PRK_h := HKDF-Extract("key-derivation", zkey) h := HKDF-Expand(PRK_h, label || "gns", 512 / 8) /* h == h mod L인지 확인하세요. */ h := h mod L

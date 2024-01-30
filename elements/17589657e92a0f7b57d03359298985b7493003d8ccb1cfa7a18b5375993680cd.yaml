@@ -1,0 +1,18 @@
+"hash": |-
+  17589657e92a0f7b57d03359298985b7493003d8ccb1cfa7a18b5375993680cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Disconnect-Peer-Request message is used by a Diameter node to
+     inform its peer of its intent to disconnect the transport layer and
+     that the peer shouldn't reconnect unless it has a valid reason to do
+     so (e.g., message to be forwarded).  Upon receipt of the message, the
+     Disconnect-Peer-Answer message is returned, which SHOULD contain an
+     error if messages have recently been forwarded, and are likely in
+     flight, which would otherwise cause a race condition.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

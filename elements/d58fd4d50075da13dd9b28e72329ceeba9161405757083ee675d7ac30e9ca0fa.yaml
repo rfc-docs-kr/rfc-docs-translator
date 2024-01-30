@@ -1,0 +1,22 @@
+"hash": |-
+  d58fd4d50075da13dd9b28e72329ceeba9161405757083ee675d7ac30e9ca0fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A DigitMap is a dialing plan resident in the Media Gateway used for
+     detecting and reporting digit events received on a Termination.  The
+     DigitMap Descriptor contains a DigitMap name and the DigitMap to be
+     assigned.  A digit map may be preloaded into the MG by management
+     action and referenced by name in an EventsDescriptor, may be defined
+     dynamically and subsequently referenced by name, or the actual
+     digitmap itself may be specified in the EventsDescriptor. It is
+     permissible for a digit map completion event within an Events
+     Descriptor to refer by name to a DigitMap which is defined by a
+     DigitMap Descriptor within the same command, regardless of the
+     transmitted order of the respective descriptors.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

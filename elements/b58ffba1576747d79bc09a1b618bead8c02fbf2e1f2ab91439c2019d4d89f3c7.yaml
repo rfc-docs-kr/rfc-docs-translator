@@ -1,0 +1,18 @@
+"hash": |-
+  b58ffba1576747d79bc09a1b618bead8c02fbf2e1f2ab91439c2019d4d89f3c7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the lock is already held, the <error-tag> element will be
+        "lock-denied" and the <error-info> element will include the
+        <session-id> of the lock owner.  If the lock is held by a non-
+        NETCONF entity, a <session-id> of 0 (zero) is included.  Note that
+        any other entity performing a lock on even a partial piece of a
+        target will prevent a NETCONF lock (which is global) from being
+        obtained on that target.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,28 @@
+"hash": |-
+  461f1cc66f761250f20d2966ae13017ef75455baf9aafe9f4b19bffae2d501ef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     S: <waits for connection on TCP port 25>
+     C: <opens connection>
+     S: 220 mail.imc.org SMTP service ready
+     C: EHLO mail.example.com
+     S: 250-mail.imc.org offers a warm hug of welcome
+     S: 250-8BITMIME
+     S: 250-STARTTLS
+     S: 250 DSN
+     C: STARTTLS
+     S: 220 Go ahead
+     C: <starts TLS negotiation>
+     C & S: <negotiate a TLS session>
+     C & S: <check result of negotiation>
+     C: EHLO mail.example.com
+     S: 250-mail.imc.org touches your hand gently for a moment
+     S: 250-8BITMIME
+     S: 250 DSN
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

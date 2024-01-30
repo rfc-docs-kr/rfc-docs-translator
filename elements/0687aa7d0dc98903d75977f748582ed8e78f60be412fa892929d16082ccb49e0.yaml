@@ -1,0 +1,19 @@
+"hash": |-
+  0687aa7d0dc98903d75977f748582ed8e78f60be412fa892929d16082ccb49e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The following is a discussion of routing alternatives that may be
+     pursued for the end-to-end RSA-IP packets within private realm.  One
+     approach would be to tunnel the packet to the destination. The outer
+     header can be translated by NAT as normal without affecting the
+     addresses used in the internal header. Another approach would be to
+     set up a bi-directional tunnel between the RSA-IP Client and the
+     border router straddling the two address realms. Packets to and from
+     the client would be tunneled, but packets would be forwarded as
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

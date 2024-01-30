@@ -1,0 +1,18 @@
+"hash": |-
+  14f8eaf32855b298bf16ed1097c28c286c92e786201ac46e5f3b4a0dc2dbdb31
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        Wait-Returns     Win-Election     I-Disc,R-Snd-CEA R-Open
+                         I-Peer-Disc      I-Disc,          R-Open
+                                          R-Snd-CEA
+                         I-Rcv-CEA        R-Disc           I-Open
+                         R-Peer-Disc      R-Disc           Wait-I-CEA
+                         R-Conn-CER       R-Reject         Wait-Returns
+                         Timeout          Error            Closed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

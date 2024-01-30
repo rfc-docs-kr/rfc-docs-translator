@@ -1,0 +1,17 @@
+"hash": |-
+  da38f59a73a8cf3ad6d087da24db6aedf3e66f1952ce354014948824abf5fc6f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              The normal TCP close sequence delivers buffered data
+              reliably in both directions.  Since the two directions of a
+              TCP connection are closed independently, it is possible for
+              a connection to be "half closed," i.e., closed in only one
+              direction, and a host is permitted to continue sending data
+              in the open direction on a half-closed connection.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

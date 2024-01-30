@@ -1,0 +1,1 @@
+   구현 참고 사항: 공개 키로 암호화된 데이터는 불투명 벡터 <0..2^16-1>로 표시됩니다(섹션 4.7 참조). 따라서 ClientKeyExchange의 RSA 암호화 PreMasterSecret 앞에는 2바이트 길이가 있습니다. EncryptedPreMasterSecret이 ClientKeyExchange의 유일한 데이터이므로 길이를 명확하게 결정할 수 있기 때문에 이러한 바이트는 RSA의 경우 중복됩니다. SSLv3 사양은 공개 키 암호화 데이터의 인코딩에 대해 명확하지 않았으므로 많은 SSLv3 구현에는 길이 바이트가 포함되지 않고 ClientKeyExchange 메시지에서 RSA 암호화 데이터를 직접 인코딩합니다.

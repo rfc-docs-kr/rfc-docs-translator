@@ -1,0 +1,21 @@
+"hash": |-
+  997acb1fa9ba1b4b80f0bbd2c16ca2ec6c6e053c993f7b0e911241b5ac9674bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Expanded Nak Type is only sent when the Request contains an
+        Expanded Type (254) as defined in Section 5.7.  The Vendor-Data
+        field of the Nak Response MUST contain one or more authentication
+        Types (4 or greater), all in expanded format, 8 octets per Type,
+        or the value zero (0), also in Expanded Type format, to indicate
+        no proposed alternative.  The desired authentication Types may
+        include a mixture of Vendor-Specific and IETF Types.  For example,
+        an Expanded Nak Response indicating a preference for OTP (Type 5),
+        and an MIT (Vendor-Id=20) Expanded Type of 6 would appear as
+        follows:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

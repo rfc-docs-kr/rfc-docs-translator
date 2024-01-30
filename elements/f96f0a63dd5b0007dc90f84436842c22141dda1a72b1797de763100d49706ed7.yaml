@@ -1,0 +1,19 @@
+"hash": |-
+  f96f0a63dd5b0007dc90f84436842c22141dda1a72b1797de763100d49706ed7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: TLS defines two generic alerts (see Section 6) to use upon
+     failure to parse a message.  Peers which receive a message which
+     cannot be parsed according to the syntax (e.g., have a length
+     extending beyond the message boundary or contain an out-of-range
+     length) MUST terminate the connection with a "decode_error" alert.
+     Peers which receive a message which is syntactically correct but
+     semantically invalid (e.g., a DHE share of p - 1, or an invalid enum)
+     MUST terminate the connection with an "illegal_parameter" alert.
+"fixed": |-
+  Note: TLS defines two generic alerts (see Section 6) to use upon failure to parse a message.  Peers which receive a message which cannot be parsed according to the syntax (e.g., have a length extending beyond the message boundary or contain an out-of-range length) MUST terminate the connection with a "decode_error" alert. Peers which receive a message which is syntactically correct but semantically invalid (e.g., a DHE share of p - 1, or an invalid enum) MUST terminate the connection with an "illegal_parameter" alert.
+"ko": |-
+  참고: TLS는 메시지 구문 분석 실패 시 사용할 두 가지 일반 경고(섹션 6 참조)를 정의합니다. 구문에 따라 구문 분석할 수 없는 메시지(예: 메시지 경계를 넘어서는 길이를 가지거나 범위를 벗어난 길이를 포함하는 메시지)를 수신하는 피어는 "decode_error" 경고와 함께 연결을 종료해야 합니다. 구문상으로는 정확하지만 의미상 유효하지 않은 메시지(예: p - 1의 DHE 공유 또는 유효하지 않은 열거형)를 수신한 피어는 "illegal_parameter" 경고와 함께 연결을 종료해야 합니다.

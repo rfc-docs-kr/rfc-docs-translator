@@ -1,0 +1,1 @@
+- 위의 "Folding Long Header Fields"에 대한 Messages" 섹션 및 아래의 "Case Independence"에 대한 섹션). 이러한 프로그램의 경우 "CRLF LWSP-char"를 quoted-string의 일부인 CRLF로 해석하는 것이 합리적입니다. 즉, CRLF는 유지되고 LWSP-char는 폐기됩니다. 따옴표로 묶인 CRLF(즉, 백슬래시 다음에 CR 다음에 LF가 오는 것)도 접기 규칙을 따르지만 인용 문자(백슬래시)의 존재는 CRLF가 인용된 문자열에 대한 데이터임을 명시적으로 나타냅니다. 인용된 CRLF를 구문 분석할 때 다음 첫 번째 LWSP 문자를 끄는 것도 적합합니다.

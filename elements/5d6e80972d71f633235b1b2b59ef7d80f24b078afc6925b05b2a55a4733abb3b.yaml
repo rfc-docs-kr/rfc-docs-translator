@@ -1,0 +1,21 @@
+"hash": |-
+  5d6e80972d71f633235b1b2b59ef7d80f24b078afc6925b05b2a55a4733abb3b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As discussed in Section 2, TLS generally uses a common set of
+     messages for authentication, key confirmation, and handshake
+     integrity: Certificate, CertificateVerify, and Finished.  (The PSK
+     binders also perform key confirmation, in a similar fashion.)  These
+     three messages are always sent as the last messages in their
+     handshake flight.  The Certificate and CertificateVerify messages are
+     only sent under certain circumstances, as defined below.  The
+     Finished message is always sent as part of the Authentication Block.
+     These messages are encrypted under keys derived from the
+     [sender]_handshake_traffic_secret.
+"fixed": |-
+  As discussed in Section 2, TLS generally uses a common set of messages for authentication, key confirmation, and handshake integrity: Certificate, CertificateVerify, and Finished.  (The PSK binders also perform key confirmation, in a similar fashion.)  These three messages are always sent as the last messages in their handshake flight.  The Certificate and CertificateVerify messages are only sent under certain circumstances, as defined below.  The Finished message is always sent as part of the Authentication Block. These messages are encrypted under keys derived from the [sender]_handshake_traffic_secret.
+"ko": |-
+  섹션 2에서 설명한 것처럼 TLS는 일반적으로 인증, 키 확인 및 핸드셰이크 무결성을 위해 인증서, 인증서 확인 및 완료됨이라는 공통 메시지 세트를 사용합니다. (PSK 바인더도 비슷한 방식으로 키 확인을 수행합니다.) 이 세 가지 메시지는 항상 핸드셰이크 비행의 마지막 메시지로 전송됩니다. Certificate 및 CertificateVerify 메시지는 아래 정의된 특정 상황에서만 전송됩니다. 완료 메시지는 항상 인증 블록의 일부로 전송됩니다. 이러한 메시지는 [sender]_handshake_traffic_secret에서 파생된 키로 암호화됩니다.

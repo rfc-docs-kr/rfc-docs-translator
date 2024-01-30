@@ -1,0 +1,17 @@
+"hash": |-
+  0b96b41d3691a2a94ef0dbbeddd0ff00742ccf3f429c6f7de4ffd67bfc75fc8d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            ClientCertificateType certificate_types<1..2^8-1>;
+            SignatureAndHashAlgorithm
+              supported_signature_algorithms<2^16-1>;
+            DistinguishedName certificate_authorities<0..2^16-1>;
+        } CertificateRequest;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

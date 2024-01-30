@@ -1,0 +1,1 @@
+   TLV는 자동 대역폭 조정 기능이 활성화된 동안 LSP에 대한 모든 PCEP 메시지에 인코딩됩니다. TLV가 없으면 PCEP 발언자가 기능을 비활성화하려고 함을 나타냅니다. 이 TLV에는 여러 개의 AUTO-BANDWIDTH-ATTRIBUTES 하위 TLV가 포함되어 있습니다. PCEP 메시지에 전송된 마지막 정보 이후 변경 사항이 있는 경우 AUTOBANDWIDTH-ATTRIBUTES 하위 TLV가 포함됩니다. 누락된 하위 TLV에 대한 기본값은 LSP의 첫 번째 PCEP 메시지에 적용됩니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  ed188fcd9f42d7b4c1c7a5de4a25292273f054f30e268a0109302a514820d014
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     No whitespace should be introduced after a hyphen ("-") character.
+     Because some typesetters and printers may (erroneously) introduce a
+     hyphen at the end of line when breaking it, the interpreter of a URI
+     containing a line break immediately after a hyphen should ignore all
+     whitespace around the line break and should be aware that the hyphen
+     may or may not actually be part of the URI.
+"fixed": |-
+  No whitespace should be introduced after a hyphen ("-") character. Because some typesetters and printers may (erroneously) introduce a hyphen at the end of line when breaking it, the interpreter of a URI containing a line break immediately after a hyphen should ignore all whitespace around the line break and should be aware that the hyphen may or may not actually be part of the URI.
+"ko": |-
+  하이픈("-") 문자 뒤에는 공백이 들어가지 않아야 합니다. 일부 식자기와 프린터는 줄바꿈을 할 때 줄 끝에 하이픈을 (잘못) 삽입할 수 있기 때문에 하이픈 바로 뒤에 줄바꿈이 포함된 URI의 해석기는 줄바꿈 주위의 모든 공백을 무시해야 하며 하이픈이 나타날 수 있다는 점을 인식해야 합니다. 또는 실제로 URI의 일부가 아닐 수도 있습니다.

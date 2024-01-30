@@ -1,0 +1,28 @@
+"hash": |-
+  e341f2e28cdd20529d0484089f27407d57df0fe4114df03348624f59af064f86
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     "Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)"
+     [RFC7800] defined the "cnf" (confirmation) claim that enables
+     confirmation key information to be carried in a JWT.  However, the
+     same proof-of-possession semantics are also useful for introspected
+     access tokens whereby the protected resource obtains the confirmation
+     key data as metainformation of a token introspection response and
+     uses that information in verifying proof-of-possession.  Therefore,
+     this specification defines and registers proof-of-possession
+     semantics for OAuth 2.0 Token Introspection [RFC7662] using the "cnf"
+     structure.  When included as a top-level member of an OAuth token
+     introspection response, "cnf" has the same semantics and format as
+     the claim of the same name defined in [RFC7800].  While this
+     specification only explicitly uses the "x5t#S256" confirmation method
+     member (see Section 3.2), it needs to define and register the higher-
+     level "cnf" structure as an introspection response member in order to
+     define and use the more specific certificate thumbprint confirmation
+     method.
+"fixed": |-
+  "Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)" [RFC7800] defined the "cnf" (confirmation) claim that enables confirmation key information to be carried in a JWT.  However, the same proof-of-possession semantics are also useful for introspected access tokens whereby the protected resource obtains the confirmation key data as metainformation of a token introspection response and uses that information in verifying proof-of-possession.  Therefore, this specification defines and registers proof-of-possession semantics for OAuth 2.0 Token Introspection [RFC7662] using the "cnf" structure.  When included as a top-level member of an OAuth token introspection response, "cnf" has the same semantics and format as the claim of the same name defined in [RFC7800].  While this specification only explicitly uses the "x5t#S256" confirmation method member (see Section 3.2), it needs to define and register the higher- level "cnf" structure as an introspection response member in order to define and use the more specific certificate thumbprint confirmation method.
+"ko": |-
+  "JWT(JSON 웹 토큰)에 대한 소유 증명 키 의미 체계" [RFC7800]는 확인 키 정보를 JWT에 전달할 수 있는 "cnf"(확인) 클레임을 정의했습니다. 그러나 동일한 소유 증명 의미 체계는 보호된 리소스가 토큰 자체 검사 응답의 메타 정보로 확인 키 데이터를 얻고 해당 정보를 소유 증명을 확인하는 데 사용하는 자체 검사 액세스 토큰에도 유용합니다. 따라서 본 사양에서는 "cnf" 구조를 사용하여 OAuth 2.0 Token Introspection [RFC7662]에 대한 소유 증명 의미 체계를 정의하고 등록합니다. OAuth 토큰 내부 검사 응답의 최상위 멤버로 포함된 경우 "cnf"는 [RFC7800]에 정의된 동일한 이름의 클레임과 동일한 의미 및 형식을 갖습니다. 이 사양은 명시적으로 "x5t#S256" 확인 메서드 멤버(섹션 3.2 참조)만 사용하지만, 보다 구체적인 인증서를 정의하고 사용하려면 자체 검사 응답 멤버로 상위 수준 "cnf" 구조를 정의하고 등록해야 합니다. 지문 확인 방법.

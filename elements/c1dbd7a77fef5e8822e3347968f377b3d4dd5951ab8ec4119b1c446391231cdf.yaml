@@ -1,0 +1,22 @@
+"hash": |-
+  c1dbd7a77fef5e8822e3347968f377b3d4dd5951ab8ec4119b1c446391231cdf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Deprecated the use of the Inband-Security AVP for negotiating
+        Transport Layer Security (TLS) [RFC5246].  It has been generally
+        considered that bootstrapping of TLS via Inband-Security AVP
+        creates certain security risks because it does not completely
+        protect the information carried in the CER/CEA (Capabilities-
+        Exchange-Request/Capabilities-Exchange-Answer).  This version of
+        Diameter adopts the common approach of defining a well-known
+        secured port that peers should use when communicating via TLS/TCP
+        and DTLS/SCTP.  This new approach augments the existing in-band
+        security negotiation, but it does not completely replace it.  The
+        old method is kept for backward compatibility reasons.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

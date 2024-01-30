@@ -1,0 +1,19 @@
+"hash": |-
+  0aa6ae46163d552b9525686c406cdf0803b1d74777d7c65929c3a1c99128bca5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Host name validation is security-critical for all common TLS use
+     cases.  Without it, TLS ensures that the certificate is valid and
+     guarantees possession of the private key but does not ensure that the
+     connection terminates at the desired endpoint.  Readers are referred
+     to [RFC6125] for further details regarding generic host name
+     validation in the TLS context.  In addition, that RFC contains a long
+     list of application protocols, some of which implement a policy very
+     different from HTTPS.
+"fixed": |-
+  Host name validation is security-critical for all common TLS use cases.  Without it, TLS ensures that the certificate is valid and guarantees possession of the private key but does not ensure that the connection terminates at the desired endpoint.  Readers are referred to [RFC6125] for further details regarding generic host name validation in the TLS context.  In addition, that RFC contains a long list of application protocols, some of which implement a policy very different from HTTPS.
+"ko": |-
+  호스트 이름 검증은 모든 일반적인 TLS 사용 사례에서 보안에 중요합니다. 이것이 없으면 TLS는 인증서가 유효한지 확인하고 개인 키의 소유를 보장하지만 원하는 끝점에서 연결이 종료되는지는 보장하지 않습니다. TLS 컨텍스트의 일반 호스트 이름 유효성 검사에 관한 자세한 내용은 [RFC6125]를 참조하세요. 또한 해당 RFC에는 애플리케이션 프로토콜의 긴 목록이 포함되어 있으며 그 중 일부는 HTTPS와 매우 다른 정책을 구현합니다.

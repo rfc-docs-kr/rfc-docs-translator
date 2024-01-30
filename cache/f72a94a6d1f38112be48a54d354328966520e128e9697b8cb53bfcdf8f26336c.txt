@@ -1,0 +1,1 @@
+- - 특정 채널에 대한 활성 '금지' 목록을 나열할 때 서버는 RPL_BANLIST 및 RPL_ENDOFBANLIST 메시지를 사용하여 목록을 다시 보내야 합니다. 각 활성 banid에 대해 별도의 RPL_BANLIST가 전송됩니다. banid가 나열된 후(또는 아무것도 없는 경우) RPL_ENDOFBANLIST를 보내야 합니다.

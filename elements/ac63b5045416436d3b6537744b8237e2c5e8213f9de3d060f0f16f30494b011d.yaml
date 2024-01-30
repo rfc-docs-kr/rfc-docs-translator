@@ -1,0 +1,20 @@
+"hash": |-
+  ac63b5045416436d3b6537744b8237e2c5e8213f9de3d060f0f16f30494b011d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMultiFieldClfrSrcL4PortMin OBJECT-TYPE
+      SYNTAX         InetPortNumber
+      MAX-ACCESS     read-create
+      STATUS         current
+      DESCRIPTION
+         "The minimum value that the layer-4 source port number in the
+         packet must have in order to match this classifier entry."
+      DEFVAL         { 0 }
+      ::= { diffServMultiFieldClfrEntry 12 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

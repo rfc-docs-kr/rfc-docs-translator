@@ -1,0 +1,16 @@
+"hash": |-
+  d98023ce3fefe35dfbff02788a79fa897e49ba54a9fdf52a266affeafbe29c43
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If either the re-auth or the STR message delivery fails, resend
+        the failed message without the Destination-Host AVP present.  If
+        the second delivery fails for re-auth, assume re-authorization
+        succeeded.  If the second delivery fails for STR, terminate the
+        session.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

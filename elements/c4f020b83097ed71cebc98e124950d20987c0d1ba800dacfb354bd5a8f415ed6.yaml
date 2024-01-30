@@ -1,0 +1,20 @@
+"hash": |-
+  c4f020b83097ed71cebc98e124950d20987c0d1ba800dacfb354bd5a8f415ed6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          There is still the possibility of a routing loop in RFC 2178
+          when both a) virtual links are in use and b) the same external
+          route is being imported by multiple ASBRs, each of which is in a
+          separate area. To fix this problem, Section 16.4.1 has been
+          revised. To choose the correct ASBR/forwarding address, intra-
+          area paths through non-backbone areas are always preferred.
+          However, intra-area paths through the backbone area (Area 0) and
+          inter-area paths are now of equal preference, and must be
+          compared solely based on cost.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  d8475136fcc8b12462446cfd74a5bead260fb475249cd3165859e7be747c0052
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  Updating the "pre_shared_key" extension if present by recomputing
+        the "obfuscated_ticket_age" and binder values and (optionally)
+        removing any PSKs which are incompatible with the server's
+        indicated cipher suite.
+"fixed": |-
+  -  Updating the "pre_shared_key" extension if present by recomputing the "obfuscated_ticket_age" and binder values and (optionally) removing any PSKs which are incompatible with the server's indicated cipher suite.
+"ko": |-
+  - "obfuscated_ticket_age" 및 바인더 값을 다시 계산하고 (선택적으로) 서버에 표시된 암호화 제품군과 호환되지 않는 PSK를 제거하여 "pre_shared_key" 확장이 있는 경우 업데이트합니다.

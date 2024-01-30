@@ -1,0 +1,23 @@
+"hash": |-
+  74081975ace732dd560345f33d0c1dcc42f489ee2ed77a939a10bc0df3f2b778
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In partial failure, or manual maintenance reasons, an MGC may wish to
+     direct its controlled MGs to use a different MGC.  To do so, it sends
+     a ServiceChange method to the MG with a "HandOff" method, and its
+     designated replacement in ServiceChangeMgcId. The MG should send a
+     ServiceChange message with a "Handoff" method and a "MGC directed
+     change" reason to the designated MGC.  If it fails to get a reply, or
+     fails to see an Audit command subsequently, it should behave as if
+     its MGC failed, and start contacting secondary MGCs.  If the MG is
+     unable to establish a control relationship with any MGC, it shall
+     wait a random amount of time as described in section 9.2 and then
+     start contacting its primary, and if necessary, its secondary MGCs
+     again.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

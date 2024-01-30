@@ -1,0 +1,15 @@
+"hash": |-
+  ae1cce3058d601e4c836e5961f8721bfa137d94820ff3c30b37f158beff6f3ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to support the Self-Signed Certificate method alone, the
+     authorization server would configure the TLS stack in such a way that
+     it does not verify whether the certificate presented by the client
+     during the handshake is signed by a trusted CA certificate.
+"fixed": |-
+  In order to support the Self-Signed Certificate method alone, the authorization server would configure the TLS stack in such a way that it does not verify whether the certificate presented by the client during the handshake is signed by a trusted CA certificate.
+"ko": |-
+  자체 서명된 인증서 방법만 지원하기 위해 인증 서버는 핸드셰이크 중에 클라이언트가 제시한 인증서가 신뢰할 수 있는 CA 인증서에 의해 서명되었는지 여부를 확인하지 않는 방식으로 TLS 스택을 구성합니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  79d3bf7b1c8fca73aa7fc2639fdf7cbe0b43bdb8749736dc2fdbc01b6c4cf5ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is not recommended to use a generic big number library such as the
+     one in OpenSSL for the arithmetic operations in Poly1305.  Such
+     libraries use dynamic allocation to be able to handle an integer of
+     any size, but that flexibility comes at the expense of performance as
+     well as side-channel security.  More efficient implementations that
+     run in constant time are available, one of them in D. J. Bernstein's
+     own library, NaCl ([NaCl]).  A constant-time but not optimal approach
+     would be to naively implement the arithmetic operations for 288-bit
+     integers, because even a naive implementation will not exceed 2^288
+     in the multiplication of (acc+block) and r.  An efficient constant-
+     time implementation can be found in the public domain library
+     poly1305-donna ([Poly1305_Donna]).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

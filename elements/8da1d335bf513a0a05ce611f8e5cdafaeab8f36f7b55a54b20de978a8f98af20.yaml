@@ -1,0 +1,59 @@
+"hash": |-
+  8da1d335bf513a0a05ce611f8e5cdafaeab8f36f7b55a54b20de978a8f98af20
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      typedef error-tag-type {
+        type enumeration {
+           enum in-use {
+             description
+               "The request requires a resource that
+                already is in use.";
+           }
+           enum invalid-value {
+             description
+               "The request specifies an unacceptable value for one
+                or more parameters.";
+           }
+           enum too-big {
+             description
+               "The request or response (that would be generated) is
+                too large for the implementation to handle.";
+           }
+           enum missing-attribute {
+             description
+               "An expected attribute is missing.";
+           }
+           enum bad-attribute {
+             description
+               "An attribute value is not correct; e.g., wrong type,
+                out of range, pattern mismatch.";
+           }
+           enum unknown-attribute {
+             description
+               "An unexpected attribute is present.";
+           }
+           enum missing-element {
+             description
+               "An expected element is missing.";
+           }
+           enum bad-element {
+             description
+               "An element value is not correct; e.g., wrong type,
+                out of range, pattern mismatch.";
+           }
+           enum unknown-element {
+             description
+               "An unexpected element is present.";
+           }
+           enum unknown-namespace {
+             description
+               "An unexpected namespace is present.";
+           }
+           enum access-denied {
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

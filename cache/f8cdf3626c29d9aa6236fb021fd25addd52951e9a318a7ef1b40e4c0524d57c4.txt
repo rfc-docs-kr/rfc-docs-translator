@@ -1,0 +1,1 @@
+- - Seal(key, nonce, aad, pt): 대칭 키 키와 nonce nonce를 사용하여 관련 데이터 aad로 일반 텍스트 pt를 암호화하고 인증하여 암호문 및 태그 ct를 산출합니다. 이 함수는 실패 시 MessageLimitReachedError를 발생시킬 수 있습니다.

@@ -1,0 +1,1 @@
+   개시자는 SA 페이로드의 SA 제안, Ni 페이로드의 nonce, KEi 페이로드의 Diffie-Hellman 값을 보냅니다. KEi 페이로드가 포함되어야 합니다. SA 페이로드의 SPI 필드에 새로운 개시자 SPI가 제공됩니다. 피어가 IKE SA 키 재설정 요청을 수신하거나 IKE SA 키 재설정 요청을 전송하면 키 재설정 중인 IKE SA에서 새로운 CREATE_CHILD_SA 교환을 시작해서는 안 됩니다.

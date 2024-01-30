@@ -1,0 +1,1 @@
+   UpdatePath를 포함하는 Commit 메시지를 처리할 때 클라이언트는 커미터의 새 리프에 대한 parent_hash의 예상 값을 다시 계산하고 제공된 leaf_node의 parent_hash 값과 일치하는지 확인해야 합니다. 트리에 병합된 후 UpdatePath의 노드는 커미터의 리프에서 루트까지 상위-해시 체인을 형성합니다.

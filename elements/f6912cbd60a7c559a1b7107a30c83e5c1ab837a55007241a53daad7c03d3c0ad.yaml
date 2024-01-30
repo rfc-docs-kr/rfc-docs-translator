@@ -1,0 +1,33 @@
+"hash": |-
+  f6912cbd60a7c559a1b7107a30c83e5c1ab837a55007241a53daad7c03d3c0ad
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              If there is at least one intervening router in the current
+              shortest path between the destination and the root, the
+              destination simply inherits the set of next hops from the
+              parent.  Otherwise, there are two cases.  In the first case,
+              the parent vertex is the root (the calculating router
+              itself).  This means that the destination is either a
+              directly connected network or directly connected router.
+              The outgoing interface in this case is simply the OSPF
+              interface connecting to the destination network/router. If
+              the destination is a router which connects to the
+              calculating router via a Point-to-MultiPoint network, the
+              destination's next hop IP address(es) can be determined by
+              examining the destination's router-LSA: each link pointing
+              back to the calculating router and having a Link Data field
+              belonging to the Point-to-MultiPoint network provides an IP
+              address of the next hop router. If the destination is a
+              directly connected network, or a router which connects to
+              the calculating router via a point-to-point interface, no
+              next hop IP address is required. If the destination is a
+              router connected to the calculating router via a virtual
+              link, the setting of the next hop should be deferred until
+              the calculation in Section 16.3.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

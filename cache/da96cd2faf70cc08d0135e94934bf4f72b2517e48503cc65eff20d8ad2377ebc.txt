@@ -1,0 +1,1 @@
+   EXCHANGE_ID는 SEQUENCE로 시작하는 COMPOUND 프로시저에서 전송될 수 있습니다. 그러나 클라이언트가 처음으로 서버와 통신할 때는 세션이 없으므로 SEQUENCE를 사용할 수 없습니다. EXCHANGE_ID가 선행 SEQUENCE 없이 전송되면 이는 COMPOUND 프로시저 요청의 유일한 작업이어야 합니다. 그렇지 않은 경우 서버는 NFS4ERR_NOT_ONLY_OP를 반환해야 합니다.

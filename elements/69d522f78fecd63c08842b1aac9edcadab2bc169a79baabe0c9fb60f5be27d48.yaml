@@ -1,0 +1,21 @@
+"hash": |-
+  69d522f78fecd63c08842b1aac9edcadab2bc169a79baabe0c9fb60f5be27d48
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     <high 32 bits> and <low 32 bits> are decimal representations of the
+     high and low 32 bits of a monotonically increasing 64-bit value.  The
+     64-bit value is rendered in two part to simplify formatting by 32-bit
+     processors.  At startup, the high 32 bits of the 64-bit value MAY be
+     initialized to the time in NTP format [RFC5905], and the low 32 bits
+     MAY be initialized to zero.  This will for practical purposes
+     eliminate the possibility of overlapping Session-Ids after a reboot,
+     assuming the reboot process takes longer than a second.
+     Alternatively, an implementation MAY keep track of the increasing
+     value in non-volatile memory.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

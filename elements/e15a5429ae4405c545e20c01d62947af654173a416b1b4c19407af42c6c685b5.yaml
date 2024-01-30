@@ -1,0 +1,24 @@
+"hash": |-
+  e15a5429ae4405c545e20c01d62947af654173a416b1b4c19407af42c6c685b5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  -- Dual Leaky Bucket algorithm, specify their rates using multiple
+  -- Maximum Rate Parameter Entries with the same diffServMaxRateId but
+  -- different diffServMaxRateLevels.
+  --
+  -- The diffServMaxRateLevel/Abs/Rel attributes are used as
+  -- parameters to the non-work-conserving portion of a scheduler:
+  -- non-work-conserving implies that the scheduler may sometimes not
+  -- emit a packet, even if there is data available at its input(s).
+  -- This has the effect of limiting the servicing of the queue/scheduler
+  -- input or output, in effect performing shaping of the packet stream
+  -- passing through the queue/scheduler, as described in the Informal
+  -- Differentiated Services Model section 7.2.
+  --
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

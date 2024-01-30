@@ -1,0 +1,25 @@
+"hash": |-
+  b89a845f79ae310f835bb28e696548b2b250b3c000d222b0ab75f775de874714
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As an interim solution, an optional AH header is defined within the
+     H.248 protocol header. The header fields are exactly those of the
+     SPI, SEQUENCE NUMBER and DATA fields as defined in [RFC2402]. The
+     semantics of the header fields are the same as the "transport mode"
+     of [RFC2402], except for the calculation of the Integrity Check value
+     (ICV). In IPsec, the ICV is calculated over the entire IP packet
+     including the IP header. This prevents spoofing of the IP addresses.
+     To retain the same functionality, the ICV calculation should be
+     performed across the entire transaction prepended by a synthesized IP
+     header consisting of a 32 bit source IP address, a 32 bit destination
+     address and a 16 bit UDP destination port encoded as 10 hex digits.
+     When the interim AH mechanism is employed when TCP is the transport
+     Layer, the UDP Port above becomes the TCP port, and all other
+     operations are the same.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

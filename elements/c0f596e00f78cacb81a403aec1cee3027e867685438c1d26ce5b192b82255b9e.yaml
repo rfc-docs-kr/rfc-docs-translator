@@ -1,0 +1,20 @@
+"hash": |-
+  c0f596e00f78cacb81a403aec1cee3027e867685438c1d26ce5b192b82255b9e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The protocol is organized as a set of transactions, each of which is
+     composed request and a response, commonly referred to as an
+     acknowledgement.  The protocol messages, being carried over UDP, may
+     be subject to losses. In the absence of a timely response,
+     transactions are repeated. Entities are expected to keep in memory a
+     list of the responses that they sent to recent transactions, i.e. a
+     list of all the responses they sent over the last LONG-TIMER
+     seconds, and a list of the transactions that are currently being
+     executed.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

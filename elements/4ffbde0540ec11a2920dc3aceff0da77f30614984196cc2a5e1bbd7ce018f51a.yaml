@@ -1,0 +1,23 @@
+"hash": |-
+  4ffbde0540ec11a2920dc3aceff0da77f30614984196cc2a5e1bbd7ce018f51a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   In an implementation with a segment retransmission
+                   queue, TCP performance may be enhanced by repacketizing
+                   the segments awaiting acknowledgment when the first
+                   retransmission timeout occurs.  That is, the
+                   outstanding segments that fitted would be combined into
+                   one maximum-sized segment, with a new IP Identification
+                   value.  The TCP would then retain this combined segment
+                   in the retransmit queue until it was acknowledged.
+                   However, if the first two segments in the
+                   retransmission queue totalled more than one maximum-
+                   sized segment, the TCP would retransmit only the first
+                   segment using the original IP Identification field.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

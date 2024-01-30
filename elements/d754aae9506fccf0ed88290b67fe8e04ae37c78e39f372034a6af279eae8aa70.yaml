@@ -1,0 +1,19 @@
+"hash": |-
+  d754aae9506fccf0ed88290b67fe8e04ae37c78e39f372034a6af279eae8aa70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At this point, the handshake is complete, and the client and server
+     derive the keying material required by the record layer to exchange
+     application-layer data protected through authenticated encryption.
+     Application Data MUST NOT be sent prior to sending the Finished
+     message, except as specified in Section 2.3.  Note that while the
+     server may send Application Data prior to receiving the client's
+     Authentication messages, any data sent at that point is, of course,
+     being sent to an unauthenticated peer.
+"fixed": |-
+  At this point, the handshake is complete, and the client and server derive the keying material required by the record layer to exchange application-layer data protected through authenticated encryption. Application Data MUST NOT be sent prior to sending the Finished message, except as specified in Section 2.3.  Note that while the server may send Application Data prior to receiving the client's Authentication messages, any data sent at that point is, of course, being sent to an unauthenticated peer.
+"ko": |-
+  이 시점에서 핸드셰이크가 완료되고 클라이언트와 서버는 인증된 암호화를 통해 보호되는 애플리케이션 계층 데이터를 교환하기 위해 레코드 계층에 필요한 키 자료를 파생합니다. 섹션 2.3에 지정된 경우를 제외하고는 완료 메시지를 보내기 전에 애플리케이션 데이터를 보내서는 안 됩니다. 서버는 클라이언트의 인증 메시지를 받기 전에 애플리케이션 데이터를 보낼 수 있지만 해당 시점에 전송된 모든 데이터는 물론 인증되지 않은 피어로 전송됩니다.

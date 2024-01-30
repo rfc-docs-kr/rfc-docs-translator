@@ -1,0 +1,1 @@
+   thisUpdate 및 nextUpdate 필드는 권장되는 유효 간격을 정의합니다. 이 간격은 CRL의 {thisUpdate, nextUpdate} 간격에 해당합니다. nextUpdate 값이 로컬 시스템 시간 값보다 빠른 응답은 신뢰할 수 없는 것으로 간주해야 합니다(SHOULD). thisUpdate 시간이 로컬 시스템 시간보다 늦은 응답은 신뢰할 수 없는 것으로 간주해야 합니다(SHOULD). nextUpdate 값이 설정되지 않은 응답은 nextUpdate에 대한 시간이 없는 CRL과 동일합니다(섹션 2.4 참조).

@@ -1,0 +1,16 @@
+"hash": |-
+  7f1bf4505f58360f6ba4a26d3178fb3077d75155260989da00f60b0e868c0ae2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client validates the certificate chain, extracts the server's
+     public key, and checks that the key type is appropriate for the
+     negotiated key exchange algorithm.  (A possible reason for a fatal
+     handshake failure is that the client's capabilities for handling
+     elliptic curves and point formats are exceeded; cf. Section 5.1.)
+"fixed": |-
+  The client validates the certificate chain, extracts the server's public key, and checks that the key type is appropriate for the negotiated key exchange algorithm.  (A possible reason for a fatal handshake failure is that the client's capabilities for handling elliptic curves and point formats are exceeded; cf. Section 5.1.)
+"ko": |-
+  클라이언트는 인증서 체인의 유효성을 검사하고, 서버의 공개 키를 추출하고, 키 유형이 협상된 키 교환 알고리즘에 적합한지 확인합니다. (치명적인 핸드셰이크 실패의 가능한 이유는 타원 곡선 및 점 형식을 처리하는 클라이언트의 기능이 초과되었기 때문입니다. 섹션 5.1 참조)

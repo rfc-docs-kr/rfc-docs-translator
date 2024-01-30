@@ -1,0 +1,20 @@
+"hash": |-
+  0440e4774160051829b1f21aeda565b3bd5dfb4a9e169a3b0155c83bc47c84bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RFC 4492 anticipated the standardization of a mechanism for
+     specifying the required hash function in the certificate, perhaps in
+     the parameters field of the subjectPublicKeyInfo.  Such
+     standardization never took place, and as a result, SHA-1 is used in
+     TLS 1.1 and earlier (except for EdDSA, which uses identity function).
+     TLS 1.2 added a SignatureAndHashAlgorithm parameter to the
+     DigitallySigned struct, thus allowing agility in choosing the
+     signature hash.  EdDSA signatures MUST have HashAlgorithm of 8
+     (Intrinsic).
+"fixed": |-
+  RFC 4492 anticipated the standardization of a mechanism for specifying the required hash function in the certificate, perhaps in the parameters field of the subjectPublicKeyInfo.  Such standardization never took place, and as a result, SHA-1 is used in TLS 1.1 and earlier (except for EdDSA, which uses identity function). TLS 1.2 added a SignatureAndHashAlgorithm parameter to the DigitallySigned struct, thus allowing agility in choosing the signature hash.  EdDSA signatures MUST have HashAlgorithm of 8 (Intrinsic).
+"ko": |-
+  RFC 4492는 인증서(아마도 subjectPublicKeyInfo의 매개변수 필드)에 필요한 해시 함수를 지정하기 위한 메커니즘의 표준화를 예상했습니다. 이러한 표준화는 이루어지지 않았으며 결과적으로 TLS 1.1 이하에서는 SHA-1이 사용됩니다(ID 기능을 사용하는 EdDSA 제외). TLS 1.2는 DigitallySigned 구조체에 SignatureAndHashAlgorithm 매개변수를 추가하여 서명 해시 선택 시 민첩성을 허용합니다. EdDSA 서명에는 HashAlgorithm 8(내재)이 있어야 합니다.

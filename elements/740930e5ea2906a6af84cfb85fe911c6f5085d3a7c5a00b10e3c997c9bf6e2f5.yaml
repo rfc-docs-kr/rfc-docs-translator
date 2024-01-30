@@ -1,0 +1,18 @@
+"hash": |-
+  740930e5ea2906a6af84cfb85fe911c6f5085d3a7c5a00b10e3c997c9bf6e2f5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Timeout is interpreted differently from the definition in OWAMP
+     [RFC4656].  In TWAMP, Timeout is the interval that the Session-
+     Reflector MUST wait after receiving a Stop-Sessions message.  In case
+     there are test packets still in transit, the Session-Reflector MUST
+     reflect them if they arrive within the Timeout interval following the
+     reception of the Stop-Sessions message.  The Session-Reflector MUST
+     NOT reflect packets that are received beyond the timeout.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

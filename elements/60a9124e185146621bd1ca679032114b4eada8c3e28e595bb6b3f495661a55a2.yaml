@@ -1,0 +1,18 @@
+"hash": |-
+  60a9124e185146621bd1ca679032114b4eada8c3e28e595bb6b3f495661a55a2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Using this authentication type, a 64-bit field is configured on
+          a per-network basis.  All packets sent on a particular network
+          must have this configured value in their OSPF header 64-bit
+          authentication field.  This essentially serves as a "clear" 64-
+          bit password. In addition, the entire contents of each OSPF
+          packet (other than the 64-bit authentication field) are
+          checksummed in order to detect data corruption.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

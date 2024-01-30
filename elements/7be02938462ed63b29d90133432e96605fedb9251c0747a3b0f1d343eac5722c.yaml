@@ -1,0 +1,17 @@
+"hash": |-
+  7be02938462ed63b29d90133432e96605fedb9251c0747a3b0f1d343eac5722c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Messages, being carried over TCP, are not subject to transport
+     losses, but loss of a transaction request or its reply may
+     nonetheless be noted in real implementations. In the absence of a
+     timely response, commands are repeated. Most commands are not
+     idempotent.  The state of the MG would become unpredictable if, for
+     example, Add commands were executed several times.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,35 @@
+"hash": |-
+  b370fcc3f6a67e2307fd5ffb81dfe6dfc6581f8bf1126cee35326a5c9c05a24d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Mutual-TLS OAuth client authentication and certificate-bound access
+     tokens can be used independently of each other.  Use of certificate-
+     bound access tokens without mutual-TLS OAuth client authentication,
+     for example, is possible in support of binding access tokens to a TLS
+     client certificate for public clients (those without authentication
+     credentials associated with the "client_id").  The authorization
+     server would configure the TLS stack in the same manner as for the
+     Self-Signed Certificate method such that it does not verify that the
+     certificate presented by the client during the handshake is signed by
+     a trusted CA.  Individual instances of a client would create a self-
+     signed certificate for mutual TLS with both the authorization server
+     and resource server.  The authorization server would not use the
+     mutual-TLS certificate to authenticate the client at the OAuth layer
+     but would bind the issued access token to the certificate for which
+     the client has proven possession of the corresponding private key.
+     The access token is then bound to the certificate and can only be
+     used by the client possessing the certificate and corresponding
+     private key and utilizing them to negotiate mutual TLS on connections
+     to the resource server.  When the authorization server issues a
+     refresh token to such a client, it SHOULD also bind the refresh token
+     to the respective certificate and check the binding when the refresh
+     token is presented to get new access tokens.  The implementation
+     details of the binding of the refresh token are at the discretion of
+     the authorization server.
+"fixed": |-
+  Mutual-TLS OAuth client authentication and certificate-bound access tokens can be used independently of each other.  Use of certificate- bound access tokens without mutual-TLS OAuth client authentication, for example, is possible in support of binding access tokens to a TLS client certificate for public clients (those without authentication credentials associated with the "client_id").  The authorization server would configure the TLS stack in the same manner as for the Self-Signed Certificate method such that it does not verify that the certificate presented by the client during the handshake is signed by a trusted CA.  Individual instances of a client would create a self- signed certificate for mutual TLS with both the authorization server and resource server.  The authorization server would not use the mutual-TLS certificate to authenticate the client at the OAuth layer but would bind the issued access token to the certificate for which the client has proven possession of the corresponding private key. The access token is then bound to the certificate and can only be used by the client possessing the certificate and corresponding private key and utilizing them to negotiate mutual TLS on connections to the resource server.  When the authorization server issues a refresh token to such a client, it SHOULD also bind the refresh token to the respective certificate and check the binding when the refresh token is presented to get new access tokens.  The implementation details of the binding of the refresh token are at the discretion of the authorization server.
+"ko": |-
+  상호 TLS OAuth 클라이언트 인증과 인증서 바인딩 액세스 토큰은 서로 독립적으로 사용될 수 있습니다. 예를 들어 상호 TLS OAuth 클라이언트 인증 없이 인증서 바인딩된 액세스 토큰을 사용하면 공용 클라이언트("client_id"와 연결된 인증 자격 증명이 없는 클라이언트)의 TLS 클라이언트 인증서에 액세스 토큰을 바인딩하는 지원이 가능합니다. 인증 서버는 핸드셰이크 중에 클라이언트가 제시한 인증서가 신뢰할 수 있는 CA에서 서명되었는지 확인하지 않도록 자체 서명 인증서 방법과 동일한 방식으로 TLS 스택을 구성합니다. 클라이언트의 개별 인스턴스는 인증 서버 및 리소스 서버 모두와의 상호 TLS에 대한 자체 서명된 인증서를 생성합니다. 권한 부여 서버는 OAuth 계층에서 클라이언트를 인증하기 위해 상호 TLS 인증서를 사용하지 않지만 클라이언트가 해당 개인 키를 소유하고 있음이 입증된 인증서에 발급된 액세스 토큰을 바인딩합니다. 그런 다음 액세스 토큰은 인증서에 바인딩되며 인증서와 해당 개인 키를 소유하고 이를 활용하여 리소스 서버에 대한 연결에서 상호 TLS를 협상하는 클라이언트에서만 사용할 수 있습니다. 인증 서버가 해당 클라이언트에 새로 고침 토큰을 발급할 때 새로 고침 토큰을 해당 인증서에 바인딩하고 새로 고침 토큰이 제시될 때 바인딩을 확인하여 새 액세스 토큰을 받아야 합니다. 새로 고침 토큰 바인딩의 구현 세부 사항은 인증 서버의 재량에 따라 결정됩니다.

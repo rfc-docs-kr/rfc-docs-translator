@@ -1,0 +1,26 @@
+"hash": |-
+  ec1cb8b91e1eb5507b925ca43723345ebcf0da8b925fab716e471537cf63e769
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * RTP data header from RFC1889
+   */
+  typedef struct {
+          unsigned int version:2;   /* protocol version */
+          unsigned int p:1;         /* padding flag */
+          unsigned int x:1;         /* header extension flag */
+          unsigned int cc:4;        /* CSRC count */
+          unsigned int m:1;         /* marker bit */
+          unsigned int pt:7;        /* payload type */
+          u_int16 seq;              /* sequence number */
+          u_int32 ts;               /* timestamp */
+          u_int32 ssrc;             /* synchronization source */
+          u_int32 csrc[1];          /* optional CSRC list */
+  } rtp_hdr_t;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  d921f7e6a4b39c0bf6beb35ba2400e25158b525bda09fdaa6c05286e98d2477f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     func right_pad_to_multiple_of_16_bytes(input) {
+       while (bytelen(input) % 16 != 0) {
+         input = input ++ "\x00"
+       }
+       return input
+     }
+"fixed": |-
+  func right_pad_to_multiple_of_16_bytes(input) { while (bytelen(input) % 16 != 0) { input = input ++ "\x00" } return input }
+"ko": |-
+  func right_pad_to_multiple_of_16_bytes(input) { while (bytelen(input) % 16 != 0) { input = input ++ "\x00" } return input }

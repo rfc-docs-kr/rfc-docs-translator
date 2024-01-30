@@ -1,0 +1,20 @@
+"hash": |-
+  815da733d1e8806bc2429c2fbe7d4306811bb849726ddeb4a0fa08d63ee43968
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the sender creates a segment and transmits it, the sender
+     advances SND.NXT.  When the receiver accepts a segment, it advances
+     RCV.NXT and sends an acknowledgment.  When the data sender receives
+     an acknowledgment, it advances SND.UNA.  The extent to which the
+     values of these variables differ is a measure of the delay in the
+     communication.  The amount by which the variables are advanced is the
+     length of the data and SYN or FIN flags in the segment.  Note that,
+     once in the ESTABLISHED state, all segments must carry current
+     acknowledgment information.
+"fixed": |-
+  When the sender creates a segment and transmits it, the sender advances SND.NXT.  When the receiver accepts a segment, it advances RCV.NXT and sends an acknowledgment.  When the data sender receives an acknowledgment, it advances SND.UNA.  The extent to which the values of these variables differ is a measure of the delay in the communication.  The amount by which the variables are advanced is the length of the data and SYN or FIN flags in the segment.  Note that, once in the ESTABLISHED state, all segments must carry current acknowledgment information.
+"ko": |-
+  송신자가 세그먼트를 생성하여 전송할 때 송신자는 SND.NXT를 진행합니다. 수신자가 세그먼트를 수락하면 RCV.NXT를 진행하고 승인을 보냅니다. 데이터 송신자는 승인을 받으면 SND.UNA를 진행합니다. 이러한 변수의 값이 다른 정도는 통신 지연의 척도입니다. 변수가 향상되는 양은 세그먼트의 데이터 길이와 SYN 또는 FIN 플래그입니다. 일단 ESTABLISHED 상태가 되면 모든 세그먼트는 현재 승인 정보를 전달해야 합니다.

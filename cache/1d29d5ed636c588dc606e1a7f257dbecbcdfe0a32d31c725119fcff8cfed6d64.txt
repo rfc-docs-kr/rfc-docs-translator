@@ -1,0 +1,1 @@
+   암호화 및 암호 해독 논스가 정렬되도록 암호화 및 암호 해독이 적절한 순서로 수행되도록 하는 것은 애플리케이션에 달려 있습니다. ContextS.Seal() 또는 ContextR.Open()으로 인해 seq 필드가 오버플로되면 구현은 오류와 함께 실패해야 합니다. (아래 의사 코드에서 Context<ROLE>.IncrementSeq()는 seq가 오버플로될 때 오류와 함께 실패합니다. 이로 인해 ContextS.Seal() 및 ContextR.Open()이 그에 따라 실패합니다.) 내부 Seal() 및 Open( ) 내부 호출은 컨텍스트의 AEAD 알고리즘에 해당합니다.

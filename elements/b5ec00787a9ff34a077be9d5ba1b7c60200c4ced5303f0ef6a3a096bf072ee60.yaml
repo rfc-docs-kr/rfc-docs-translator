@@ -1,0 +1,19 @@
+"hash": |-
+  b5ec00787a9ff34a077be9d5ba1b7c60200c4ced5303f0ef6a3a096bf072ee60
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     GHASH also has a different mapping between 128-bit strings and field
+     elements.  Whereas POLYVAL takes the least significant to most
+     significant bits of the first byte to be the coefficients of x^0 to
+     x^7, GHASH takes them to be the coefficients of x^7 to x^0.  This
+     continues until, for the last byte, POLYVAL takes the least
+     significant to most significant bits to be the coefficients of x^120
+     to x^127, while GHASH takes them to be the coefficients of x^127 to
+     x^120.
+"fixed": |-
+  GHASH also has a different mapping between 128-bit strings and field elements.  Whereas POLYVAL takes the least significant to most significant bits of the first byte to be the coefficients of x^0 to x^7, GHASH takes them to be the coefficients of x^7 to x^0.  This continues until, for the last byte, POLYVAL takes the least significant to most significant bits to be the coefficients of x^120 to x^127, while GHASH takes them to be the coefficients of x^127 to x^120.
+"ko": |-
+  GHASH는 또한 128비트 문자열과 필드 요소 간에 서로 다른 매핑을 가지고 있습니다. POLYVAL은 첫 번째 바이트의 최하위 비트부터 최상위 비트까지를 x^0부터 x^7까지의 계수로 취하는 반면, GHASH는 이를 x^7부터 x^0까지의 계수로 취합니다. 이는 마지막 바이트의 경우 POLYVAL이 가장 중요하지 않은 비트부터 가장 중요한 비트까지 x^120에서 x^127의 계수로 사용하는 반면 GHASH에서는 이를 x^127에서 x^120의 계수로 사용할 때까지 계속됩니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  7d33acc4082ae9f6e9c86e72394f7498c6eb5a326980927f27cd106dcc5732d4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServClfrEntry OBJECT-TYPE
+      SYNTAX       DiffServClfrEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An entry in the classifier table describes a single classifier.
+         All classifier elements belonging to the same classifier use the
+         classifier's diffServClfrId as part of their index."
+      INDEX { diffServClfrId }
+      ::= { diffServClfrTable 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

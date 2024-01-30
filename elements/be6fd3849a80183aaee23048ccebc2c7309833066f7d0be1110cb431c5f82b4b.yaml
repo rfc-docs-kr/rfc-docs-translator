@@ -1,0 +1,35 @@
+"hash": |-
+  be6fd3849a80183aaee23048ccebc2c7309833066f7d0be1110cb431c5f82b4b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-----------+---------------+--------------------------------------+
+     | ContextID | TerminationID | Information Obtained                 |
+     +-----------+---------------+--------------------------------------+
+     | Specific  | wildcard      | Audit of matching Terminations in a  |
+     |           |               | Context                              |
+     +-----------+---------------+--------------------------------------+
+     | Specific  | specific      | Audit of a single Termination in a   |
+     |           |               | Context                              |
+     +-----------+---------------+--------------------------------------+
+     | Null      | Root          | Audit of Media Gateway state and     |
+     |           |               | events                               |
+     +-----------+---------------+--------------------------------------+
+     | Null      | wildcard      | Audit of all matching Terminations   |
+     |           |               | in the Null Context                  |
+     +-----------+---------------+--------------------------------------+
+     | Null      | specific      | Audit of a single Termination        |
+     |           |               | outside of any Context               |
+     +-----------+---------------+--------------------------------------+
+     | All       | wildcard      | Audit of all matching Terminations   |
+     |           |               | and the Context to which they are    |
+     |           |               | associated
+     +-----------+---------------+--------------------------------------+
+     | All       | Root          | List of all ContextIds               |
+     +-----------+---------------+--------------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

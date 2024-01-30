@@ -1,0 +1,19 @@
+"hash": |-
+  dd673cffe58c8f639a46377ad02312c2a739ec254cb04040419518a3ed020bd2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Simple password authentication guards against routers
+          inadvertently joining the routing domain; each router must first
+          be configured with its attached networks' passwords before it
+          can participate in routing.  However, simple password
+          authentication is vulnerable to passive attacks currently
+          widespread in the Internet (see [Ref16]). Anyone with physical
+          access to the network can learn the password and compromise the
+          security of the OSPF routing domain.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

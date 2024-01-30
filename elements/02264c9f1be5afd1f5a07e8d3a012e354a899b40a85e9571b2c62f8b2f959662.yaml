@@ -1,0 +1,18 @@
+"hash": |-
+  02264c9f1be5afd1f5a07e8d3a012e354a899b40a85e9571b2c62f8b2f959662
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that supports this specification SHALL send a
+     "delegated_credential" extension in the CertificateRequest message
+     when requesting client authentication.  The body of the extension
+     consists of a SignatureSchemeList.  If the server receives a
+     delegated credential without having indicated support in its
+     CertificateRequest, then the server MUST abort with an
+     "unexpected_message" alert.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

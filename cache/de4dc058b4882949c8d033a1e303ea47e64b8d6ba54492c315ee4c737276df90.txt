@@ -1,0 +1,1 @@
+새로운 URI 체계가 UCS(Universal Character Set)의 문자로 구성된 텍스트 데이터를 나타내는 구성 요소를 정의하는 경우 데이터는 먼저 UTF-8 문자 인코딩[STD63]에 따라 옥텟으로 인코딩되어야 합니다. 그러면 예약되지 않은 집합의 문자에 해당하지 않는 옥텟만 백분율로 인코딩되어야 합니다. 예를 들어 문자 A는 "A"로 표시되고 LATIN CAPITAL LETTER A WITH GRAVE 문자는 "%C3%80"으로 표시되며 KATAKANA LETTER A 문자는 "%E3%82%A2"로 표시됩니다. ".

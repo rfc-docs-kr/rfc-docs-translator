@@ -1,0 +1,22 @@
+"hash": |-
+  9ad820eae2ef0a504743e4eba37369b663398dff93e3ba241ba464d99029aee1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServMeterTable OBJECT-TYPE
+      SYNTAX       SEQUENCE OF DiffServMeterEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "This table enumerates specific meters that a system may use to
+         police a stream of traffic. The traffic stream to be metered is
+         determined by the Differentiated Services Functional Data Path
+         Element(s) upstream of the meter i.e. by the object(s) that point
+         to each entry in this table.  This may include all traffic on an
+         interface.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

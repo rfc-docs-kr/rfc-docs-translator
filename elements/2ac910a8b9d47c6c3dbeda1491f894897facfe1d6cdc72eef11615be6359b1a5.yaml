@@ -1,0 +1,16 @@
+"hash": |-
+  2ac910a8b9d47c6c3dbeda1491f894897facfe1d6cdc72eef11615be6359b1a5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This command causes all pending SENDs and RECEIVES to be aborted, the
+     TCB to be removed, and a special RST message to be sent to the remote
+     TCP peer of the connection.  Depending on the implementation, users
+     may receive abort indications for each outstanding SEND or RECEIVE,
+     or may simply receive an ABORT-acknowledgment.
+"fixed": |-
+  This command causes all pending SENDs and RECEIVES to be aborted, the TCB to be removed, and a special RST message to be sent to the remote TCP peer of the connection.  Depending on the implementation, users may receive abort indications for each outstanding SEND or RECEIVE, or may simply receive an ABORT-acknowledgment.
+"ko": |-
+  이 명령을 사용하면 보류 중인 모든 SEND 및 RECEIVES가 중단되고 TCB가 제거되며 특수 RST 메시지가 연결의 원격 TCP 피어로 전송됩니다. 구현에 따라 사용자는 미해결된 각 SEND 또는 RECEIVE에 대해 중단 표시를 받거나 단순히 ABORT 승인을 받을 수 있습니다.

@@ -1,0 +1,1 @@
+     // DetectAndRemoveAckedPackets는 새로 확인된 패킷을 찾아서 // sent_packets에서 제거합니다. new_acked_packets = DetectAndRemoveAckedPackets(ack, pn_space) // 새로 승인된 패킷이 없으면 아무 작업도 수행하지 않습니다. if (newly_acked_packets.empty()): 반환

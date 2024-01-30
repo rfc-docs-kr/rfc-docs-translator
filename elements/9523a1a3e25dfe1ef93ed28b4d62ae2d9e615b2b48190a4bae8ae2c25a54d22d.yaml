@@ -1,0 +1,23 @@
+"hash": |-
+  9523a1a3e25dfe1ef93ed28b4d62ae2d9e615b2b48190a4bae8ae2c25a54d22d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Key derivation in TLS 1.3 uses HKDF as defined in [RFC5869] and its
+     two components, HKDF-Extract and HKDF-Expand.  The full rationale for
+     the HKDF construction can be found in [Kraw10] and the rationale for
+     the way it is used in TLS 1.3 in [KW16].  Throughout this document,
+     each application of HKDF-Extract is followed by one or more
+     invocations of HKDF-Expand.  This ordering should always be followed
+     (including in future revisions of this document); in particular, one
+     SHOULD NOT use an output of HKDF-Extract as an input to another
+     application of HKDF-Extract without an HKDF-Expand in between.
+     Multiple applications of HKDF-Expand to some of the same inputs are
+     allowed as long as these are differentiated via the key and/or the
+     labels.
+"fixed": |-
+  Key derivation in TLS 1.3 uses HKDF as defined in [RFC5869] and its two components, HKDF-Extract and HKDF-Expand.  The full rationale for the HKDF construction can be found in [Kraw10] and the rationale for the way it is used in TLS 1.3 in [KW16].  Throughout this document, each application of HKDF-Extract is followed by one or more invocations of HKDF-Expand.  This ordering should always be followed (including in future revisions of this document); in particular, one SHOULD NOT use an output of HKDF-Extract as an input to another application of HKDF-Extract without an HKDF-Expand in between. Multiple applications of HKDF-Expand to some of the same inputs are allowed as long as these are differentiated via the key and/or the labels.
+"ko": |-
+  TLS 1.3의 키 파생은 [RFC5869]에 정의된 HKDF와 두 구성 요소인 HKDF-Extract 및 HKDF-Expand를 사용합니다. HKDF 구성에 대한 전체 근거는 [Kraw10]에서 찾을 수 있으며, 이것이 [KW16]의 TLS 1.3에서 사용되는 방식에 대한 근거를 찾을 수 있습니다. 이 문서 전체에서 HKDF-Extract를 적용할 때마다 HKDF-Expand가 하나 이상 호출됩니다. 이 순서는 항상 따라야 합니다(이 문서의 향후 개정판 포함). 특히, 중간에 HKDF-Expand 없이 HKDF-Extract의 출력을 다른 HKDF-Extract 애플리케이션의 입력으로 사용하면 안 됩니다. 키 및/또는 라벨을 통해 구별되는 한 동일한 입력 중 일부에 HKDF-Expand를 여러 번 적용하는 것이 허용됩니다.

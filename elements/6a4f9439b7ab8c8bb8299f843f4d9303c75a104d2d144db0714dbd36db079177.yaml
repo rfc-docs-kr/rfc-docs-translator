@@ -1,0 +1,21 @@
+"hash": |-
+  6a4f9439b7ab8c8bb8299f843f4d9303c75a104d2d144db0714dbd36db079177
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A forwarding proxy or NAS MUST NOT modify existing Proxy-State,
+     State, or Class attributes present in the packet.  The forwarding
+     proxy or NAS MUST treat any Proxy-State attributes already in the
+     packet as opaque data.  Its operation MUST NOT depend on the content
+     of Proxy-State attributes added by previous proxies.  The forwarding
+     proxy MUST NOT modify any other Proxy-State attributes that were in
+     the packet; it may choose not to forward them, but it MUST NOT change
+     their contents.  If the forwarding proxy omits the Proxy-State
+     attributes in the request, it MUST attach them to the response before
+     sending it.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

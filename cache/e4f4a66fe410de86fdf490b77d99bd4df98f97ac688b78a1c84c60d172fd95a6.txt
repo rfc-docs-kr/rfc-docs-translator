@@ -1,0 +1,1 @@
+   ssa_digest 필드는 SSV4_SUBKEY_MIC_I2T에서 파생된 하위 키와 현재 SSV를 키로 사용하여 HMAC(RFC 2104 [11])의 출력으로 계산됩니다(하위 키에 대한 설명은 섹션 2.10.9 참조). 데이터 유형 ssa_digest_input4. sdi_seqargs 필드는 SET_SSV가 포함된 COMPOUND 프로시저에 대한 SEQUENCE 작업의 인수와 동일합니다.

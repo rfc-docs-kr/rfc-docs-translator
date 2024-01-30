@@ -1,0 +1,19 @@
+"hash": |-
+  5803f5cd06b2236f68c4c66d0d1cbfc502c4412cefb93083750a5b410593a936
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        input {
+          leaf confirmed {
+            if-feature confirmed-commit;
+            type empty;
+            description
+              "Requests a confirmed commit.";
+            reference "RFC 6241, Section 8.3.4.1";
+          }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

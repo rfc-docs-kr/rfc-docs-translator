@@ -1,0 +1,23 @@
+"hash": |-
+  29eab654d7e926941c29d530ce499009532c83dba4b1bf18aed653963d834994
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        However, there also are other ways to indicate such usage. The
+        certificate may have a "key Usage" extension that indicates the
+        purposes for which the public key may be used, and one of the
+        values that X.509 defines for that extension is "keyCertSign", to
+        indicate that the certificate may be used for verifying a CA's
+        signature on certificates. If "keyCertSign" is present in a
+        certificate that also has a "basicConstraints" extension, then
+        "cA" is set to "TRUE" in that extension. Alternatively, a CA could
+        be issued a certificate in which "keyCertSign" is asserted without
+        "basicConstraints" being present; and an entity that acts as a CA
+        could be issued a certificate with "keyUsage" set to other values,
+        either with or without "keyCertSign".
+"fixed": |-
+  - However, there also are other ways to indicate such usage. The certificate may have a "key Usage" extension that indicates the purposes for which the public key may be used, and one of the values that X.509 defines for that extension is "keyCertSign", to indicate that the certificate may be used for verifying a CA's signature on certificates. If "keyCertSign" is present in a certificate that also has a "basicConstraints" extension, then "cA" is set to "TRUE" in that extension. Alternatively, a CA could be issued a certificate in which "keyCertSign" is asserted without "basicConstraints" being present; and an entity that acts as a CA could be issued a certificate with "keyUsage" set to other values, either with or without "keyCertSign".
+"ko": |-
+  - 그러나 이러한 용도를 나타내는 다른 방법도 있습니다. 인증서에는 공개 키가 사용될 수 있는 목적을 나타내는 "키 사용" 확장이 있을 수 있으며 X.509가 해당 확장에 대해 정의하는 값 중 하나는 인증서가 다음 용도로 사용될 수 있음을 나타내는 "keyCertSign"입니다. 인증서에서 CA 서명을 확인합니다. "basicConstraints" 확장도 있는 인증서에 "keyCertSign"이 있는 경우 해당 확장에서 "cA"는 "TRUE"로 설정됩니다. 또는 "basicConstraints"가 존재하지 않고 "keyCertSign"이 주장되는 인증서를 CA에서 발급할 수 있습니다. CA 역할을 하는 엔터티는 "keyCertSign"이 있든 없든 "keyUsage"가 다른 값으로 설정된 인증서를 발급받을 수 있습니다.

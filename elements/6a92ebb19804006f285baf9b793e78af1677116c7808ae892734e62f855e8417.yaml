@@ -1,0 +1,21 @@
+"hash": |-
+  6a92ebb19804006f285baf9b793e78af1677116c7808ae892734e62f855e8417
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     point: This is the byte string representation of an elliptic curve
+     point following the conversion routine in Section 4.3.6 of
+     [ANSI.X9-62.2005].  This byte string may represent an elliptic curve
+     point in uncompressed, compressed, or hybrid format, but this
+     specification deprecates all but the uncompressed format.  For the
+     NIST curves, the format is repeated in Section 5.4.1 for convenience.
+     For the X25519 and X448 curves, the only valid representation is the
+     one specified in [RFC7748], a 32- or 56-octet representation of the u
+     value of the point.  This structure MUST NOT be used with Ed25519 and
+     Ed448 public keys.
+"fixed": |-
+  point: This is the byte string representation of an elliptic curve point following the conversion routine in Section 4.3.6 of [ANSI.X9-62.2005].  This byte string may represent an elliptic curve point in uncompressed, compressed, or hybrid format, but this specification deprecates all but the uncompressed format.  For the NIST curves, the format is repeated in Section 5.4.1 for convenience. For the X25519 and X448 curves, the only valid representation is the one specified in [RFC7748], a 32- or 56-octet representation of the u value of the point.  This structure MUST NOT be used with Ed25519 and Ed448 public keys.
+"ko": |-
+  point: 이는 [ANSI.X9-62.2005]의 섹션 4.3.6에 있는 변환 루틴을 따르는 타원 곡선 점의 바이트 문자열 표현입니다. 이 바이트 문자열은 압축되지 않은 형식, 압축된 형식 또는 하이브리드 형식의 타원 곡선 점을 나타낼 수 있지만 이 사양에서는 압축되지 않은 형식을 제외한 모든 형식을 더 이상 사용하지 않습니다. NIST 곡선의 경우 편의를 위해 섹션 5.4.1에서 형식이 반복됩니다. X25519 및 X448 곡선의 경우 유일한 유효한 표현은 점의 u 값에 대한 32 또는 56 옥텟 표현인 [RFC7748]에 지정된 것입니다. 이 구조는 Ed25519 및 Ed448 공개 키와 함께 사용하면 안 됩니다.

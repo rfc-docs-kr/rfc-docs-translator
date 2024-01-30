@@ -1,0 +1,23 @@
+"hash": |-
+  91cfc78d38b10a685fff5e5cbaf0e58b8174db9a89538b3cd4cdfd48874c3c1a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          When receiving an Hello Packet from a neighbor on a broadcast,
+          Point-to-MultiPoint or NBMA network, set the neighbor
+          structure's Neighbor ID equal to the Router ID found in the
+          packet's OSPF header.  For these network types, the neighbor
+          structure's Router Priority field, Neighbor's Designated Router
+          field, and Neighbor's Backup Designated Router field are also
+          set equal to the corresponding fields found in the received
+          Hello Packet; changes in these fields should be noted for
+          possible use in the steps below.  When receiving an Hello on a
+          point-to-point network (but not on a virtual link) set the
+          neighbor structure's Neighbor IP address to the packet's IP
+          source address.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

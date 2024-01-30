@@ -1,0 +1,15 @@
+"hash": |-
+  c9377ee751a7c07e939dc88f301c95d4217801e52179668a39a1e88860633779
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Parsers must be careful in handling cases where there are more ".."
+     segments in a relative-path reference than there are hierarchical
+     levels in the base URI's path.  Note that the ".." syntax cannot be
+     used to change the authority component of a URI.
+"fixed": |-
+  Parsers must be careful in handling cases where there are more ".." segments in a relative-path reference than there are hierarchical levels in the base URI's path.  Note that the ".." syntax cannot be used to change the authority component of a URI.
+"ko": |-
+  파서는 기본 URI 경로에 계층적 수준이 있는 것보다 상대 경로 참조에 ".." 세그먼트가 더 많은 경우를 처리할 때 주의해야 합니다. ".." 구문은 URI의 권한 구성 요소를 변경하는 데 사용할 수 없습니다.

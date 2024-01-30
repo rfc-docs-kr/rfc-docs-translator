@@ -1,0 +1,14 @@
+"hash": |-
+  0cdc36ae5ce47f03015e9f6a85c9863c8cb486a0f934aa2c3c9366093f18c613
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that explicitly constructing the pre_master_secret with the
+     ClientHello.client_version produces an invalid master_secret if the
+     client has sent the wrong version in the original pre_master_secret.
+"fixed": |-
+  Note that explicitly constructing the pre_master_secret with the ClientHello.client_version produces an invalid master_secret if the client has sent the wrong version in the original pre_master_secret.
+"ko": |-
+  ClientHello.client_version을 사용하여 pre_master_secret을 명시적으로 구성하면 클라이언트가 원래 pre_master_secret에서 잘못된 버전을 보낸 경우 잘못된 master_secret이 생성됩니다.

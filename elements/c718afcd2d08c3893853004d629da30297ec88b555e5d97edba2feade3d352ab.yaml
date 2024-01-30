@@ -1,0 +1,18 @@
+"hash": |-
+  c718afcd2d08c3893853004d629da30297ec88b555e5d97edba2feade3d352ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  Do you correctly handle handshake messages that are fragmented to
+        multiple TLS records (see Section 5.1)?  Do you correctly handle
+        corner cases like a ClientHello that is split into several small
+        fragments?  Do you fragment handshake messages that exceed the
+        maximum fragment size?  In particular, the Certificate and
+        CertificateRequest handshake messages can be large enough to
+        require fragmentation.
+"fixed": |-
+  -  Do you correctly handle handshake messages that are fragmented to multiple TLS records (see Section 5.1)?  Do you correctly handle corner cases like a ClientHello that is split into several small fragments?  Do you fragment handshake messages that exceed the maximum fragment size?  In particular, the Certificate and CertificateRequest handshake messages can be large enough to require fragmentation.
+"ko": |-
+  - 여러 TLS 레코드로 조각화된 핸드셰이크 메시지를 올바르게 처리합니까(섹션 5.1 참조)? 여러 개의 작은 조각으로 분할된 ClientHello와 같은 특수 사례를 올바르게 처리합니까? 최대 조각 크기를 초과하는 핸드셰이크 메시지를 조각화합니까? 특히, Certificate 및 CertificateRequest 핸드셰이크 메시지는 조각화가 필요할 만큼 커질 수 있습니다.

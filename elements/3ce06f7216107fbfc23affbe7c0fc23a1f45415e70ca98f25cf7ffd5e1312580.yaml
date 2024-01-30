@@ -1,0 +1,23 @@
+"hash": |-
+  3ce06f7216107fbfc23affbe7c0fc23a1f45415e70ca98f25cf7ffd5e1312580
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     PropertyParm ::= SEQUENCE
+     {
+          name            PkgdName,
+          value           SEQUENCE OF OCTET STRING,
+          extraInfo       CHOICE
+                  {
+                          relation        Relation,
+                          range           BOOLEAN,
+                          sublist         BOOLEAN
+                  } OPTIONAL,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

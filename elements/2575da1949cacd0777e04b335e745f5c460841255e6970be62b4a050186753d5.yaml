@@ -1,0 +1,22 @@
+"hash": |-
+  2575da1949cacd0777e04b335e745f5c460841255e6970be62b4a050186753d5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      (8) Else, the database copy is more recent.  If the database copy
+          has LS age equal to MaxAge and LS sequence number equal to
+          MaxSequenceNumber, simply discard the received LSA without
+          acknowledging it. (In this case, the LSA's LS sequence number is
+          wrapping, and the MaxSequenceNumber LSA must be completely
+          flushed before any new LSA instance can be introduced).
+          Otherwise, as long as the database copy has not been sent in a
+          Link State Update within the last MinLSArrival seconds, send the
+          database copy back to the sending neighbor, encapsulated within
+          a Link State Update Packet. The Link State Update Packet should
+          be sent directly to the neighbor. In so doing, do not put the
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

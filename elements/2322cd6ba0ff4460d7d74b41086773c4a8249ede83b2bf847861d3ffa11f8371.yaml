@@ -1,0 +1,19 @@
+"hash": |-
+  2322cd6ba0ff4460d7d74b41086773c4a8249ede83b2bf847861d3ffa11f8371
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          In order to take advantage of the OSPF stub area support,
+          default routing must be used in the stub area.  This is
+          accomplished as follows.  One or more of the stub area's area
+          border routers must advertise a default route into the stub area
+          via summary-LSAs.  These summary defaults are flooded throughout
+          the stub area, but no further.  (For this reason these defaults
+          pertain only to the particular stub area).  These summary
+          default routes will be used for any destination that is not
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

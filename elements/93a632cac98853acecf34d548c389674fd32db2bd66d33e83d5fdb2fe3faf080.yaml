@@ -1,0 +1,20 @@
+"hash": |-
+  93a632cac98853acecf34d548c389674fd32db2bd66d33e83d5fdb2fe3faf080
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The end of a TCP session is detected when FIN is acknowledged by both
+     halves of the session or when either half receives a segment with the
+     RST bit in TCP flags field. However, because it is impossible for a
+     NAT device to know whether the packets it sees will actually be
+     delivered to the destination (they may be dropped between the NAT
+     device and the destination), the NAT device cannot safely assume that
+     the segments containing FINs or SYNs will be the last packets of the
+     session (i.e., there could be retransmissions).  Consequently, a
+     session can be assumed to have been terminated only after a period of
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

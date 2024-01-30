@@ -1,0 +1,1 @@
+- CREATE_SESSION4_FLAG_CONN_RDMA가 csa_flags에 설정되어 있고 CREATE_SESSION 작업이 도착한 연결이 현재 비RDMA 모드에 있지만 RDMA 모드에서 작동할 수 있는 기능이 있는 경우 클라이언트는 서버가 RDMA 모드로 "단계화"하도록 요청하는 것입니다. 연결에. 서버가 동의하면 결과 필드 csr_flags에 CREATE_SESSION4_FLAG_CONN_RDMA를 설정합니다. CREATE_SESSION4_FLAG_CONN_RDMA가 설정되지 않은 경우

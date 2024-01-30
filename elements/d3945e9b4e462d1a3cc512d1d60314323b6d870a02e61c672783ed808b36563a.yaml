@@ -1,0 +1,26 @@
+"hash": |-
+  d3945e9b4e462d1a3cc512d1d60314323b6d870a02e61c672783ed808b36563a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   One reason for ACKing out-of-order segments might be to
+                   support an experimental algorithm known as "fast
+                   retransmit".   With this algorithm, the sender uses the
+                   "redundant" ACK's to deduce that a segment has been
+                   lost before the retransmission timer has expired.  It
+                   counts the number of times an ACK has been received
+                   with the same value of SEG.ACK and with the same right
+                   window edge.  If more than a threshold number of such
+                   ACK's is received, then the segment containing the
+                   octets starting at SEG.ACK is assumed to have been lost
+                   and is retransmitted, without awaiting a timeout.  The
+                   threshold is chosen to compensate for the maximum
+                   likely segment reordering in the Internet.  There is
+                   not yet enough experience with the fast retransmit
+                   algorithm to determine how useful it is.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

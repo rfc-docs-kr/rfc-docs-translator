@@ -1,0 +1,23 @@
+"hash": |-
+  d0ed16b9949f360d4f9d00d5adc21e468390c7f54a395cbaa8cba6f077c35647
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Relaying packets through a relay server is often the NAT traversal
+     technique that has the highest success probability: communicating via
+     a relay that is in the public Internet looks like normal client-
+     server communication for the NATs and is supported in practice by all
+     existing NATs, regardless of their filtering and mapping behavior.
+     However, using a relay has several drawbacks, e.g., it usually
+     results in a sub-optimal path for the packets, the relay needs to
+     exist and it needs to be discovered, the relay is a possible single
+     point of failure, relaying consumes potentially a lot of resources of
+     the relay server, etc.  Therefore, relaying is often used as the last
+     resort when no direct path can be created with other NAT traversal
+     techniques.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

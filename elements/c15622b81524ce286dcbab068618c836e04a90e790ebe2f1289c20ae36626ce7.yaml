@@ -1,0 +1,22 @@
+"hash": |-
+  c15622b81524ce286dcbab068618c836e04a90e790ebe2f1289c20ae36626ce7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a CoA-Request packet including a Service-Type value of "Authorize
+     Only" is successfully processed, the NAS MUST respond with a CoA-NAK
+     containing a Service-Type Attribute with value "Authorize Only", and
+     an Error-Cause Attribute with value 507 (Request Initiated).  The NAS
+     then MUST send an Access-Request to the RADIUS server including a
+     Service-Type Attribute with value "Authorize Only", along with a
+     State Attribute.  This Access-Request SHOULD contain the NAS
+     identification attributes from the CoA-Request, as well as the
+     session identification attributes from the CoA-Request permitted in
+     an Access-Request; it also MAY contain other attributes permitted in
+     an Access-Request.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

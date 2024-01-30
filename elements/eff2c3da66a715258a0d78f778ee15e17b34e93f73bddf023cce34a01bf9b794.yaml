@@ -1,0 +1,18 @@
+"hash": |-
+  eff2c3da66a715258a0d78f778ee15e17b34e93f73bddf023cce34a01bf9b794
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When sending a HelloRetryRequest, the server MAY provide a "cookie"
+     extension to the client (this is an exception to the usual rule that
+     the only extensions that may be sent are those that appear in the
+     ClientHello).  When sending the new ClientHello, the client MUST copy
+     the contents of the extension received in the HelloRetryRequest into
+     a "cookie" extension in the new ClientHello.  Clients MUST NOT use
+     cookies in their initial ClientHello in subsequent connections.
+"fixed": |-
+  When sending a HelloRetryRequest, the server MAY provide a "cookie" extension to the client (this is an exception to the usual rule that the only extensions that may be sent are those that appear in the ClientHello).  When sending the new ClientHello, the client MUST copy the contents of the extension received in the HelloRetryRequest into a "cookie" extension in the new ClientHello.  Clients MUST NOT use cookies in their initial ClientHello in subsequent connections.
+"ko": |-
+  HelloRetryRequest를 보낼 때 서버는 클라이언트에 "쿠키" 확장을 제공할 수 있습니다(이는 ClientHello에 나타나는 확장만이 전송될 수 있다는 일반적인 규칙에 대한 예외입니다). 새 ClientHello를 보낼 때 클라이언트는 HelloRetryRequest에서 수신된 확장의 콘텐츠를 새 ClientHello의 "쿠키" 확장에 복사해야 합니다. 클라이언트는 후속 연결의 초기 ClientHello에서 쿠키를 사용해서는 안 됩니다.

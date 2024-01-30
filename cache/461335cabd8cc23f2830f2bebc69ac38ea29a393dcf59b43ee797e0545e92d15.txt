@@ -1,0 +1,1 @@
+- AU-Index 필드가 AU 헤더 섹션의 첫 번째 AU-헤더에 있으면 AU-Index-delta 필드는 후속(첫 번째가 아닌) AU-헤더에 있어야 합니다. AU-Index-delta가 0 값으로 코딩되면 Access Unit이 디코딩 순서에 따라 연속적임을 나타냅니다. AU-Index-delta 값이 0보다 크면 인터리빙이 적용된 신호입니다.

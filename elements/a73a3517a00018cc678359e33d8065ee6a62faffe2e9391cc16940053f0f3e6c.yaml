@@ -1,0 +1,17 @@
+"hash": |-
+  a73a3517a00018cc678359e33d8065ee6a62faffe2e9391cc16940053f0f3e6c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a client or server wishes to close the connection, it SHOULD
+     initiate the exchange of TLS close alerts before TCP connection
+     termination.  The client MAY, after sending a TLS close alert,
+     gracefully close the TCP connection (e.g., call the close() function
+     on the TCP socket or otherwise issue a TCP CLOSE ([RFC793],
+     Section 3.5)) without waiting for a TLS response from the server.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

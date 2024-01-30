@@ -1,0 +1,20 @@
+"hash": |-
+  673f4a5d2c4b09a890066e85f1fd6d0616ef8f138350cb0f27f7e54961084c73
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     certificate_authorities
+        A list of the distinguished names [X501] of acceptable
+        certificate_authorities, represented in DER-encoded format.  These
+        distinguished names may specify a desired distinguished name for a
+        root CA or for a subordinate CA; thus, this message can be used to
+        describe known roots as well as a desired authorization space.  If
+        the certificate_authorities list is empty, then the client MAY
+        send any certificate of the appropriate ClientCertificateType,
+        unless there is some external arrangement to the contrary.
+"fixed": |-
+  certificate_authorities  -  A list of the distinguished names [X501] of acceptable certificate_authorities, represented in DER-encoded format.  These distinguished names may specify a desired distinguished name for a root CA or for a subordinate CA; thus, this message can be used to describe known roots as well as a desired authorization space.  If the certificate_authorities list is empty, then the client MAY send any certificate of the appropriate ClientCertificateType, unless there is some external arrangement to the contrary.
+"ko": |-
+  Certificate_authorities - DER 인코딩 형식으로 표시되는 허용되는 인증서 권한의 고유 이름 [X501] 목록입니다. 이러한 고유 이름은 루트 CA 또는 하위 CA에 대해 원하는 고유 이름을 지정할 수 있습니다. 따라서 이 메시지는 알려진 루트와 원하는 인증 공간을 설명하는 데 사용될 수 있습니다. Certificate_authorities 목록이 비어 있는 경우, 반대되는 외부 조정이 없는 한 클라이언트는 적절한 ClientCertificateType의 인증서를 보낼 수 있습니다.

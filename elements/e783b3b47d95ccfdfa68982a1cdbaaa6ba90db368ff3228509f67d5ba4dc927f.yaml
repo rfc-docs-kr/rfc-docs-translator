@@ -1,0 +1,16 @@
+"hash": |-
+  e783b3b47d95ccfdfa68982a1cdbaaa6ba90db368ff3228509f67d5ba4dc927f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When generating a TLSCiphertext record, implementations MAY choose to
+     pad.  An unpadded record is just a record with a padding length of
+     zero.  Padding is a string of zero-valued bytes appended to the
+     ContentType field before encryption.  Implementations MUST set the
+     padding octets to all zeros before encrypting.
+"fixed": |-
+  When generating a TLSCiphertext record, implementations MAY choose to pad.  An unpadded record is just a record with a padding length of zero.  Padding is a string of zero-valued bytes appended to the ContentType field before encryption.  Implementations MUST set the padding octets to all zeros before encrypting.
+"ko": |-
+  TLSCiphertext 레코드를 생성할 때 구현에서는 패딩을 선택할 수 있습니다. 패딩되지 않은 레코드는 패딩 길이가 0인 레코드입니다. 패딩은 암호화 전에 ContentType 필드에 추가된 0값 바이트 문자열입니다. 구현에서는 암호화하기 전에 패딩 옥텟을 모두 0으로 설정해야 합니다.

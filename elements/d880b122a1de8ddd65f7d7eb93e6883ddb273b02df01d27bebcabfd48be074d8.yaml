@@ -1,0 +1,18 @@
+"hash": |-
+  d880b122a1de8ddd65f7d7eb93e6883ddb273b02df01d27bebcabfd48be074d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Master/Slave
+          When the two neighbors are exchanging databases, they form a
+          master/slave relationship.  The master sends the first Database
+          Description Packet, and is the only part that is allowed to
+          retransmit.  The slave can only respond to the master's Database
+          Description Packets.  The master/slave relationship is
+          negotiated in state ExStart.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

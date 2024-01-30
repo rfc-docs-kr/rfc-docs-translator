@@ -1,0 +1,1 @@
+   HelloRetryRequest에서 이 확장을 수신하면 클라이언트는 (1) selected_group 필드가 원래 ClientHello의 "supported_groups" 확장에 제공된 그룹에 해당하고 (2) selected_group 필드가 그룹에 해당하지 않는지 확인해야 합니다. 이는 원래 ClientHello의 "key_share" 확장에서 제공되었습니다. 이러한 검사 중 하나라도 실패하면 클라이언트는 "illegal_parameter" 경고와 함께 핸드셰이크를 중단해야 합니다. 그렇지 않으면 새 ClientHello를 보낼 때 클라이언트는 반드시

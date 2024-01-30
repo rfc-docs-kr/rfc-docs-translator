@@ -1,0 +1,1 @@
+   RSASSA-PSS는 RSASP1 및 RSAVP1 프리미티브를 EMSA-PSS 인코딩 방법과 결합합니다. 이는 IEEE P1363a 초안[27]에서 개정된 IFSSA 방식과 호환되며, 여기서 서명 및 검증 프리미티브는 IEEE Std 1363-2000[26]에 정의된 IFSP-RSA1 및 IFVP-RSA1이고 메시지 인코딩 방법은 EMSA4입니다. . EMSA4는 옥텟 문자열이 아닌 비트 문자열에서 작동하므로 EMSA-PSS보다 약간 더 일반적입니다. EMSA-PSS는 피연산자, 해시 및 솔트 값이 옥텟 문자열인 경우로 제한되는 EMSA4와 동일합니다.

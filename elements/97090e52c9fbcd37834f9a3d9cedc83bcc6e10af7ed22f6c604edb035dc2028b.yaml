@@ -1,0 +1,23 @@
+"hash": |-
+  97090e52c9fbcd37834f9a3d9cedc83bcc6e10af7ed22f6c604edb035dc2028b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            AlgDrop                                   Queue
+            +-----------------+                       +-------+
+        --->| Next   ---------+--+------------------->| Next -+--> ...
+            | QMeasure -------+--+                    | ...   |
+            | QThreshold      |     RandomDrop        +-------+
+            | Type=randomDrop |     +----------------+
+            | Specific -------+---->| MinThreshBytes |
+            +-----------------+     | MaxThreshBytes |
+                                    | ProbMax        |
+                                    | Weight         |
+                                    | SamplingRate   |
+                                    +----------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

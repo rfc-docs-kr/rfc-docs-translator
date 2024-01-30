@@ -1,0 +1,15 @@
+"hash": |-
+  48835b801432ab988f7a2dd85c4d9710fe7b5a3de58210f8e8c4c62f22a7bfde
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is extremely important to remember that ACK segments that contain
+     no data are not reliably transmitted by TCP.  Consequently, if a
+     keep-alive mechanism is implemented it MUST NOT interpret failure to
+     respond to any specific probe as a dead connection (MUST-29).
+"fixed": |-
+  It is extremely important to remember that ACK segments that contain no data are not reliably transmitted by TCP.  Consequently, if a keep-alive mechanism is implemented it MUST NOT interpret failure to respond to any specific probe as a dead connection (MUST-29).
+"ko": |-
+  데이터가 포함되지 않은 ACK 세그먼트는 TCP에 의해 안정적으로 전송되지 않는다는 점을 기억하는 것이 매우 중요합니다. 결과적으로, 연결 유지 메커니즘이 구현된 경우 특정 프로브에 대한 응답 실패를 데드 연결로 해석하면 안 됩니다(MUST-29).

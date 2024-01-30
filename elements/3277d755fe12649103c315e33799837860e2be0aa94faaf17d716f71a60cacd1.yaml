@@ -1,0 +1,20 @@
+"hash": |-
+  3277d755fe12649103c315e33799837860e2be0aa94faaf17d716f71a60cacd1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The Hello packet's Options field describes the router's optional
+          OSPF capabilities.  One optional capability is defined in this
+          specification (see Sections 4.5 and A.2).  The E-bit of the
+          Options field should be set if and only if the attached area is
+          capable of processing AS-external-LSAs (i.e., it is not a stub
+          area).  If the E-bit is set incorrectly the neighboring routers
+          will refuse to accept the Hello Packet (see Section 10.5).
+          Unrecognized bits in the Hello Packet's Options field should be
+          set to zero.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   서버가 "seqid"가 0임을 발견하면 NFS4ERR_BAD_STATEID 오류가 클라이언트에 반환됩니다. 서버는 "seqid"의 유효성을 추가로 검증하여 병렬 처리 범위 VALID_SEQID_RANGE 내에 있는지 확인합니다. "seqid" 값이 해당 범위를 벗어나면 NFS4ERR_OLD_STATEID 오류가 클라이언트에 반환됩니다. NFS4ERR_OLD_STATEID를 수신하면 클라이언트는 다른 레이아웃 요청 처리를 기반으로 레이아웃 요청의 stateid를 업데이트하고 해당 작업을 서버에 다시 보냅니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  74643f7e8a01c989e696d5c28a7811150e9335f1e21eef0ab2ad47056d54fbcb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Sending delayed acknowledgments accomplishes several things: 1)
+          it facilitates the packaging of multiple acknowledgments in a
+          single Link State Acknowledgment packet, 2) it enables a single
+          Link State Acknowledgment packet to indicate acknowledgments to
+          several neighbors at once (through multicasting) and 3) it
+          randomizes the Link State Acknowledgment packets sent by the
+          various routers attached to a common network.  The fixed
+          interval between a router's delayed transmissions must be short
+          (less than RxmtInterval) or needless retransmissions will ensue.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   CANCEL 메시지에는 피어 P가 더 이상 요청하지 않으려는 청크의 사양이 포함되어 있습니다. 또한 Peer Q가 Peer P로부터 긴급 데이터에 대한 HAVE 메시지를 수신하면 Peer Q는 Peer P의 이전 REQUEST도 취소해야 합니다. 즉, HAVE 메시지는 암시적인 CANCEL 역할을 합니다.

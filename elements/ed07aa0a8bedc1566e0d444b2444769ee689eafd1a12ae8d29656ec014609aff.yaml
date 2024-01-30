@@ -1,0 +1,26 @@
+"hash": |-
+  ed07aa0a8bedc1566e0d444b2444769ee689eafd1a12ae8d29656ec014609aff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Sending an ICMP Echo Request [RFC792] would not be an acceptable way
+     of testing a candidate configuration, since sending any IP packet
+     generally requires an ARP Request/Reply exchange and, as explained
+     above, ARP packets may not be broadcast safely until after the
+     candidate configuration has been confirmed.  Also, where a host moves
+     from one private network to another, an ICMP Echo Request can result
+     in an ICMP Echo Response even when the MAC address has changed, as
+     long as the IPv4 address remains the same.  This can occur, for
+     example, where a host moves from one home network using prefix
+     192.168/16 to another one.  In addition, if the ping is sent with TTL
+     > 1, then an ICMP Echo Response can be received from an off-link
+     router.  As a result, if the MAC address of the test node is not
+     checked, the host can mistakenly confirm attachment, potentially
+     resulting in an address conflict.  As a result, sending an ICMP Echo
+     Request SHOULD NOT be used as a substitute for the reachability test.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

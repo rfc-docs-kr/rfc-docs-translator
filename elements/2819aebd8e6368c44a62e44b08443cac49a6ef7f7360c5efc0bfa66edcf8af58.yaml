@@ -1,0 +1,20 @@
+"hash": |-
+  2819aebd8e6368c44a62e44b08443cac49a6ef7f7360c5efc0bfa66edcf8af58
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                        (where >> represents the pointer).  If (A) is
+                        sent, the datagram received at D will contain the
+                        option: {G1, G2, ... Gn >>}, with S and D as the
+                        IP source and destination addresses.  If (B) were
+                        sent, the datagram received at D would again
+                        contain S and D as the same IP source and
+                        destination addresses, but the option would be:
+                        {S, G1, ...Gn >>}; i.e., the originating host
+                        would be the first hop in the route.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

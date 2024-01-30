@@ -1,0 +1,1 @@
+   * 백채널에 대한 GSS 컨텍스트 및 RPCSEC_GSS 핸들을 유지합니다. 클라이언트가 서버가 콜백에 대해 RPCSEC_GSS 보안 특성을 사용하도록 요구하는 경우 RPCSEC_GSS 핸들 및/또는 BACKCHANNEL_CTL 또는 CREATE_SESSION을 통해 서버에 전달되는 해당 GSS 컨텍스트가 만료되지 않았는지 확인해야 합니다.

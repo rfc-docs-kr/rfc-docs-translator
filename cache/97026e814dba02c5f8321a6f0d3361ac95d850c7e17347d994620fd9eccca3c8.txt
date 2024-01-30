@@ -1,0 +1,3 @@
+   SEQ4_STATUS_RESTART_RECLAIM_NEEDED
+
+- 설정되면 서버 다시 시작으로 인해 클라이언트가 잠금 상태를 회복해야 함을 나타냅니다. 클라이언트가 전역 RECLAIM_COMPLETE(섹션 18.51)를 보낼 때까지 모든 SEQUENCE 작업은 SEQ4_STATUS_RESTART_RECLAIM_NEEDED를 반환합니다.

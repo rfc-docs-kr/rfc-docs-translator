@@ -1,0 +1,1 @@
+      참고: 일부 사후 핸드셰이크 메시지는 요청/응답 패턴을 따르지만 이것이 반드시 수신을 의미하는 것은 아닙니다. 예를 들어 request_update가 "update_requested"로 설정된 KeyUpdate에 대한 응답으로 전송된 KeyUpdate는 이전 KeyUpdate 메시지를 암시적으로 승인하지 않습니다. 왜냐하면 두 개의 KeyUpdate 메시지가 이동 중에 교차했을 수 있기 때문입니다.

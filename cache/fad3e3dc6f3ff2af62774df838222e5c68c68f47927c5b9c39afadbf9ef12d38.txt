@@ -1,0 +1,1 @@
+   - 개시자 알고리즘은 Status SNACK을 생성하기 위해 원치 않는 NOP-In PDU만 처리합니다. 요청된 NOP-In PDU에는 순서가 잘못된 경우 명령 내 알고리즘에서 잘못된 순서의 StatSN 처리를 트리거하여 다시 Recover-Status-if-Possible로 이어질 수 있는 할당된 StatSN이 있습니다.

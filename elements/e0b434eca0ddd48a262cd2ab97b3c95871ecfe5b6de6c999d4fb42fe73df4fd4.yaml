@@ -1,0 +1,21 @@
+"hash": |-
+  e0b434eca0ddd48a262cd2ab97b3c95871ecfe5b6de6c999d4fb42fe73df4fd4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServRandomDropSamplingRate OBJECT-TYPE
+      SYNTAX       Unsigned32 (0..1000000)
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The number of times per second the queue is sampled for queue
+         average calculation.  A value of zero is used to mean that the
+         queue is sampled approximately each time a packet is enqueued (or
+         dequeued)."
+      ::= { diffServRandomDropEntry 8 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   PUSH_PROMISE는 스트림을 예약하므로 PUSH_PROMISE 프레임을 무시하면 스트림 상태가 불확실해집니다. 수신자는 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 "개방"도 "반폐쇄(로컬)"도 아닌 스트림에서 PUSH_PROMISE 수신을 처리해야 합니다. 그러나 연결된 스트림에서 RST_STREAM을 보낸 엔드포인트는 RST_STREAM 프레임을 수신하고 처리하기 전에 생성되었을 수 있는 PUSH_PROMISE 프레임을 처리해야 합니다.

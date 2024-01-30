@@ -1,0 +1,19 @@
+"hash": |-
+  26b7d8b44895b3669952f6cd1f6d468951ab829939ecd4d638c5a75bccb304ce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      AS-external-LSAs usually describe a particular external destination.
+      For these LSAs the Link State ID field specifies an IP network
+      number (if necessary, the Link State ID can also have one or more of
+      the network's "host" bits set; see Appendix E for details).  AS-
+      external-LSAs are also used to describe a default route.  Default
+      routes are used when no specific route exists to the destination.
+      When describing a default route, the Link State ID is always set to
+      DefaultDestination (0.0.0.0) and the Network Mask is set to 0.0.0.0.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

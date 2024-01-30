@@ -1,0 +1,22 @@
+"hash": |-
+  9ccd3348b65d9f5031dd12a8a95cba2f7302331d86f63d43d4f09453985e583d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The router's optional OSPF capabilities (see Section 4.5) are
+          transmitted to the neighbor in the Options field of the Database
+          Description packet.  The router should maintain the same set of
+          optional capabilities throughout the Database Exchange and
+          flooding procedures.  If for some reason the router's optional
+          capabilities change, the Database Exchange procedure should be
+          restarted by reverting to neighbor state ExStart.  One optional
+          capability is defined in this specification (see Sections 4.5
+          and A.2). The E-bit should be set if and only if the attached
+          network belongs to a non-stub area. Unrecognized bits in the
+          Options field should be set to zero.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

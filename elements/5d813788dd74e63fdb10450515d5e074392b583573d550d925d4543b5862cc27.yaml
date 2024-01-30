@@ -1,0 +1,23 @@
+"hash": |-
+  5d813788dd74e63fdb10450515d5e074392b583573d550d925d4543b5862cc27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     different values may be appropriate.  For example, if the overhead of
+     a UDP tunnel is not an issue, those candidates should be prioritized
+     higher since they are likely to have a high success probability.
+     Also, simultaneous-open is prioritized higher than active and passive
+     candidates for NAT-assisted and server reflexive candidates since if
+     TCP S-O is supported by the operating systems of both endpoints, it
+     should work at least as well as the active-passive approach.  If an
+     implementation is uncertain whether S-O candidates are supported, it
+     may be reasonable to prioritize them lower.  For host, UDP-tunneled,
+     and relayed candidates, the S-O candidates are prioritized lower than
+     active and passive since active-passive candidates should work with
+     them at least as well as the S-O candidates.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

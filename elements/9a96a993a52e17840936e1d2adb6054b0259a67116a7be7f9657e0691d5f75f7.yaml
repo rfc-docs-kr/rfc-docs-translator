@@ -1,0 +1,23 @@
+"hash": |-
+  9a96a993a52e17840936e1d2adb6054b0259a67116a7be7f9657e0691d5f75f7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <rpc message-id="101"
+            xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <get>
+           <filter type="subtree">
+             <t:top xmlns:t="http://example.com/schema/1.2/stats">
+               <t:interfaces>
+                 <t:interface t:ifName="eth0"/>
+               </t:interfaces>
+             </t:top>
+           </filter>
+         </get>
+       </rpc>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

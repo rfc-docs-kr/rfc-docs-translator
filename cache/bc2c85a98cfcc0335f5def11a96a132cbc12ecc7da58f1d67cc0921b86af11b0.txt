@@ -1,0 +1,1 @@
+   mode 속성에서 유효한 것으로 정의되지 않은 비트는 mode_set_masked 속성의 어느 단어에서도 유효하지 않습니다. SETATTR에서 해당 비트가 1로 설정된 경우 서버는 NFS4ERR_INVAL을 반환해야 합니다. mode 및 mode_set_masked 속성이 모두 동일한 SETATTR에 지정된 경우 서버는 NFS4ERR_INVAL도 반환해야 합니다.

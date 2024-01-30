@@ -1,0 +1,22 @@
+"hash": |-
+  a2f097949c3e78710ee4094a2c79b587993d770176527f0247763a2f28bc7d86
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          leaf test-option {
+            if-feature validate;
+            type enumeration {
+              enum test-then-set {
+                description
+                  "The server will test and then set if no errors.";
+              }
+              enum set {
+                description
+                  "The server will set without a test first.";
+              }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

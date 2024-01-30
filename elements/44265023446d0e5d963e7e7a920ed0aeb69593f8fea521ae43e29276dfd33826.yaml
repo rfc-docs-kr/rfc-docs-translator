@@ -1,0 +1,38 @@
+"hash": |-
+  44265023446d0e5d963e7e7a920ed0aeb69593f8fea521ae43e29276dfd33826
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        Relationships:  === one-to-one, ==> one-to-many, <=> many-to-many.
+                    +- - - - - - - - - - - - - - - - - - - - - - - - - - +
+                    |                      PKI System                    |
+        + - - - - + | +------------------+   +-------------------------+ |
+        |  User,  | | |Subscriber, i.e., |   | Identity of Subscriber  | |
+        |i.e., one| | | Registered User, |   |    is system-unique     | |
+        | of the  | | | is system-unique |   | +---------------------+ | |
+        |following| | | +--------------+ |   | |     Subscriber      | | |
+        |         | | | | User's core  | |   | |     Identity's      | | |
+        | +-----+ |===| | Registration | |==>| |  Registration data  | | |
+        | |human| | | | | data, i.e.,  | |   | |+-------------------+| | |
+        | |being| | | | | an entity's  | |   | ||  same core data   || | |
+        | +-----+ | | | |distinguishing|========|for all Identities || | |
+        |   or    | | | |  attribute   | |   | || of the same User  || | |
+        | +-----+ | | | |   values     | | +===|+-------------------+| | |
+        | |auto-| | | | +--------------+ | | | +---------------------+ | |
+        | |mated| | | +------------------+ | +------------|------------+ |
+        | |pro- | | |         |    +=======+              |              |
+        | |cess | | | +-------v----|----------------------|------------+ |
+        | +-----+ | | | +----------v---+     +------------v----------+ | |
+        |   or    | | | |Authentication|<===>|Identifier of Identity | | |
+        |+-------+| | | | Information  |     |    is system-unique   | | |
+        || a set || | | +--------------+     +-----------------------+ | |
+        ||  of   || | | Identifier Credential that associates unit of  | |
+        || either|| | | Authentication Information with the Identifier | |
+        |+-------+| | +------------------------------------------------+ |
+        + - - - - + + - - - - - - - - - - - - - - - - - - - - - - - - - -+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

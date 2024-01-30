@@ -1,0 +1,1 @@
+   보호된 요청은 SignedData 또는 AuthenticatedData에 캡슐화된 CVRequest로 구성되며, 이는 다시 ContentInfo에 캡슐화됩니다. 즉, SignedData 또는 AuthenticatedData의 EncapsulatedContentInfo 필드는 값이 id-ct-scvp-certValRequest인 eContentType 필드와 DER(Distinguished Encoding Rules)로 인코딩된 CVRequest가 포함된 eContent 필드로 구성됩니다. SignedData는 요청이 디지털 서명될 때 사용됩니다. AuthenticatedData는 메시지 인증 코드(MAC)와 함께 사용됩니다.

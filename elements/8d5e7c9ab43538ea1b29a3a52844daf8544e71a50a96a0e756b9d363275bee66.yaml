@@ -1,0 +1,20 @@
+"hash": |-
+  8d5e7c9ab43538ea1b29a3a52844daf8544e71a50a96a0e756b9d363275bee66
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServSchedulerTable OBJECT-TYPE
+      SYNTAX       SEQUENCE OF DiffServSchedulerEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "The Scheduler Table enumerates packet schedulers. Multiple
+         scheduling algorithms can be used on a given data path, with each
+         algorithm described by one diffServSchedulerEntry."
+      ::= { diffServScheduler 2 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

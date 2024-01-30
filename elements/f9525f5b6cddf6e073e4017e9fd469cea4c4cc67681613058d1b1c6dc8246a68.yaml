@@ -1,0 +1,25 @@
+"hash": |-
+  f9525f5b6cddf6e073e4017e9fd469cea4c4cc67681613058d1b1c6dc8246a68
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     limited to a simple echo function.  However, the most common facility
+     for round-trip measurements is the ICMP Echo Request/Reply (used by
+     the ping tool), and issues with this method are documented in Section
+     2.6 of [RFC2681].  This memo specifies the Two-Way Active Measurement
+     Protocol, or TWAMP.  TWAMP uses the methodology and architecture of
+     OWAMP [RFC4656] to define an open protocol for measurement of two-way
+     or round-trip metrics (henceforth in this document the term two-way
+     also signifies round-trip), in addition to the one-way metrics of
+     OWAMP.  TWAMP employs time stamps applied at the echo destination
+     (reflector) to enable greater accuracy (processing delays can be
+     accounted for).  The TWAMP measurement architecture is usually
+     comprised of only two hosts with specific roles, and this allows for
+     some protocol simplifications, making it an attractive alternative to
+     OWAMP in some circumstances.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

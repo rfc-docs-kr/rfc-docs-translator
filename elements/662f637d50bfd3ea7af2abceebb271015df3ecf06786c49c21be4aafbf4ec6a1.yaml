@@ -1,0 +1,22 @@
+"hash": |-
+  662f637d50bfd3ea7af2abceebb271015df3ecf06786c49c21be4aafbf4ec6a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is therefore possible for an ASP to route signalling messages
+     destined to the SS7 network using more than one SGP.  In this model,
+     a Signalling Gateway is deployed as a cluster of hosts acting as a
+     single SG.  A primary/backup redundancy model is possible, where the
+     unavailability of the SCTP association to a primary SGP could be used
+     to reroute affected traffic to an alternate SGP.  A loadsharing model
+     is possible, where the signalling messages are loadshared between
+     multiple SGPs.  A broadcast model is also possible, where signalling
+     messages are sent to each active SGP in the SG.  The distribution of
+     the MTP3-user messages over the SGPs should be done in such a way to
+     minimize message missequencing, as required by the SS7 User Parts.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

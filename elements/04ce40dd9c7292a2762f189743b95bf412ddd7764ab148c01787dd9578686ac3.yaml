@@ -1,0 +1,25 @@
+"hash": |-
+  04ce40dd9c7292a2762f189743b95bf412ddd7764ab148c01787dd9578686ac3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Prior to the original deployment of CIDR, common practice was to
+     propagate routes learned via exterior routing protocols (i.e., EGP or
+     BGP) through a site's interior routing protocol (typically, OSPF,
+     IS-IS, or RIP).  This was done to ensure that consistent and correct
+     exit points were chosen for traffic to be sent to a destination
+     learned through those protocols.  Four evolutionary effects -- the
+     advent of CIDR, explosive growth of global routing state, widespread
+     adoption of BGP4, and a requirement to propagate full path
+     information -- have combined to deprecate that practice.  To ensure
+     proper path propagation and prevent inter-AS routing inconsistency
+     (BGP4's loop detection/prevention mechanism requires full path
+     propagation), transit networks must use internal BGP (iBGP) for
+     carrying routes learned from other providers both within and through
+     their networks.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

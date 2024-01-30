@@ -1,0 +1,1 @@
+   # 두 노드의 공통 조상은 두 리프의 # 직접 경로에 있는 최하위 노드입니다. def common_ancestor_direct(x, y, _): # 하나가 다른 lx의 조상인 경우 처리, ly = level(x)+1, level(y)+1 if (lx <= ly) and (x>> ly == y>>ly): y elif 반환 (ly <= lx) 및 (x>>lx == y>>lx): x 반환

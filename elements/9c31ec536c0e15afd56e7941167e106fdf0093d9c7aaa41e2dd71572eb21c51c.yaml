@@ -1,0 +1,18 @@
+"hash": |-
+  9c31ec536c0e15afd56e7941167e106fdf0093d9c7aaa41e2dd71572eb21c51c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Result-Code AVP values that are used to report protocol errors MUST
+     only be present in answer messages whose 'E' bit is set.  When a
+     request message is received that causes a protocol error, an answer
+     message is returned with the 'E' bit set, and the Result-Code AVP is
+     set to the appropriate protocol error value.  As the answer is sent
+     back towards the originator of the request, each proxy or relay agent
+     MAY take action on the message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

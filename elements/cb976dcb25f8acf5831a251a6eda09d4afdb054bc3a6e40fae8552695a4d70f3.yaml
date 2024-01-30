@@ -1,0 +1,25 @@
+"hash": |-
+  cb976dcb25f8acf5831a251a6eda09d4afdb054bc3a6e40fae8552695a4d70f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        State changes resulting from a CoA-Request MUST be atomic: if the
+        CoA-Request is successful for all matching sessions, the NAS MUST
+        send a CoA-ACK in reply, and all requested authorization changes
+        MUST be made.  If the CoA-Request is unsuccessful for any matching
+        sessions, the NAS MUST send a CoA-NAK in reply, and the requested
+        authorization changes MUST NOT be made for any of the matching
+        sessions.  Similarly, a state change MUST NOT occur as a result of
+        a Disconnect-Request that is unsuccessful with respect to any of
+        the matching sessions; a NAS MUST send a Disconnect-NAK in reply
+        if any of the matching sessions cannot be successfully terminated.
+        A NAS that does not support dynamic authorization changes applying
+        to multiple sessions MUST send a CoA-NAK or Disconnect-NAK in
+        reply; an Error-Cause Attribute with value 508 (Multiple Session
+        Selection Unsupported) SHOULD be included.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

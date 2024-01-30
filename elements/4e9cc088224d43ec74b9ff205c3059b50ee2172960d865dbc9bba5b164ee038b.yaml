@@ -1,0 +1,21 @@
+"hash": |-
+  4e9cc088224d43ec74b9ff205c3059b50ee2172960d865dbc9bba5b164ee038b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      This section details the OSPF routing table calculation.  Using its
+      attached areas' link state databases as input, a router runs the
+      following algorithm, building its routing table step by step.  At
+      each step, the router must access individual pieces of the link
+      state databases (e.g., a router-LSA originated by a certain router).
+      This access is performed by the lookup function discussed in Section
+      12.2.  The lookup process may return an LSA whose LS age is equal to
+      MaxAge.  Such an LSA should not be used in the routing table
+      calculation, and is treated just as if the lookup process had
+      failed.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

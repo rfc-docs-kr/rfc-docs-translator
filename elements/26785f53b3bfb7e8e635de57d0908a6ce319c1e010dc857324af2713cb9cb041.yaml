@@ -1,0 +1,16 @@
+"hash": |-
+  26785f53b3bfb7e8e635de57d0908a6ce319c1e010dc857324af2713cb9cb041
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            select (certificate_type) {
+                case RawPublicKey:
+                  /* From RFC 7250 ASN.1_subjectPublicKeyInfo */
+                  opaque ASN1_subjectPublicKeyInfo<1..2^24-1>;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

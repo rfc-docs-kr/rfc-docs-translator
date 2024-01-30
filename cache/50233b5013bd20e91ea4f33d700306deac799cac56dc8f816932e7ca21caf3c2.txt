@@ -1,0 +1,1 @@
+PSK 바인더 값은 PSK와 현재 핸드셰이크 간의 바인딩뿐만 아니라 PSK가 생성된 핸드셰이크(NewSessionTicket 메시지를 통한 경우)와 현재 핸드셰이크 간의 바인딩도 형성합니다. 바인더 목록의 각 항목은 PreSharedKeyExtension.identities 필드까지 부분 ClientHello를 포함하는 기록 해시(섹션 4.4.1 참조)에 대한 HMAC로 계산됩니다. 즉, 모든 ClientHello를 포함하지만 바인더 목록 자체는 포함하지 않습니다. 메시지의 길이 필드(전체 길이, 확장 블록의 길이 및 "pre_shared_key" 확장의 길이 포함)는 모두 올바른 길이의 바인더가 있는 것처럼 설정됩니다.

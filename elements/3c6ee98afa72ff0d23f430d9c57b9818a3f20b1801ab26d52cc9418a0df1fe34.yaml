@@ -1,0 +1,21 @@
+"hash": |-
+  3c6ee98afa72ff0d23f430d9c57b9818a3f20b1801ab26d52cc9418a0df1fe34
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Concatenating the keystream blocks from the successive blocks forms a
+     keystream.  The ChaCha20 function then performs an XOR of this
+     keystream with the plaintext.  Alternatively, each keystream block
+     can be XORed with a plaintext block before proceeding to create the
+     next block, saving some memory.  There is no requirement for the
+     plaintext to be an integral multiple of 512 bits.  If there is extra
+     keystream from the last block, it is discarded.  Specific protocols
+     MAY require that the plaintext and ciphertext have certain length.
+     Such protocols need to specify how the plaintext is padded and how
+     much padding it receives.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

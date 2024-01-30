@@ -1,0 +1,17 @@
+"hash": |-
+  84ccd1f913c611a378a7a2fb8b9bdceb43a0779517c2c8e54dae82ef000853d5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the MGC sets an EventsDescriptor containing a hook state
+     transition event (on-hook or off-hook) with the "strict" (0x0001)
+     parameter set to "failWrong", and the hook state is already what the
+     transition implies, the execution of the command containing that
+     EventsDescriptor fails.  The MG SHALL include error code 540
+     "Unexpected initial hook state" in its reponse.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  d699b555eb653f63500de8cc97997e0189beddb554bc04b6bc29cd6fcb20583c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     appropriate to use the partially implicit nonce technique described
+     in Section 3.2.1 of [AEAD]; with record_iv_length being the length of
+     the explicit part.  In this case, the implicit part SHOULD be derived
+     from key_block as client_write_iv and server_write_iv (as described
+     in Section 6.3), and the explicit part is included in
+     GenericAEAEDCipher.nonce_explicit.
+"fixed": |-
+  appropriate to use the partially implicit nonce technique described in Section 3.2.1 of [AEAD]; with record_iv_length being the length of the explicit part.  In this case, the implicit part SHOULD be derived from key_block as client_write_iv and server_write_iv (as described in Section 6.3), and the explicit part is included in GenericAEAEDCipher.nonce_explicit.
+"ko": |-
+  [AEAD]의 섹션 3.2.1에 설명된 부분적으로 암시적인 nonce 기술을 사용하는 데 적합합니다. Record_iv_length는 명시적인 부분의 길이입니다. 이 경우 암시적 부분은 key_block에서 client_write_iv 및 server_write_iv(섹션 6.3에 설명됨)로 파생되어야 하며 명시적 부분은 GenericAEAEDCipher.nonce_explicit에 포함됩니다.

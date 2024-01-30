@@ -1,0 +1,1 @@
+   TARGET WARM RESET 기능과 TARGET COLD RESET 기능의 구현은 선택 사항이며 구현 시 아래 설명된 대로 작동해야 합니다. TARGET WARM RESET은 또한 [SPC3]에 정의된 대로 요청 개시자에 대한 SCSI 액세스 제어의 적용을 받습니다. 인증이 대상에서 실패하면 섹션 11.6.1에 설명된 적절한 응답이 대상에 의해 반환되어야 합니다. TARGET COLD RESET 기능은 SCSI 액세스 제어의 대상이 아니지만 해당 실행 권한은 로그인 인증과 같은 iSCSI 메커니즘을 통해 관리될 수 있습니다.

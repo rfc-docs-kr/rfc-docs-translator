@@ -1,0 +1,18 @@
+"hash": |-
+  d12d80e1ab213cbf0223b914f7ad66a3d09cfad914c2eff368012d8de382055e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: Assume that H is a generic cryptographic hash in which a
+        function is iterated on data blocks of length B bytes. L is the
+        length of the of hash result of H. K is a secret key of length L
+        <= K <= B. The values IPAD and OPAD are fixed strings used as
+        inner and outer padding and defined as follows: IPAD = the byte
+        0x36 repeated B times, and OPAD = the byte 0x5C repeated B times.
+        HMAC is computed by H(K XOR OPAD, H(K XOR IPAD, inputdata)).
+"fixed": |-
+  - Tutorial: Assume that H is a generic cryptographic hash in which a function is iterated on data blocks of length B bytes. L is the length of the of hash result of H. K is a secret key of length L <= K <= B. The values IPAD and OPAD are fixed strings used as inner and outer padding and defined as follows: IPAD = the byte 0x36 repeated B times, and OPAD = the byte 0x5C repeated B times. HMAC is computed by H(K XOR OPAD, H(K XOR IPAD, inputdata)).
+"ko": |-
+  - 튜토리얼: H가 B 바이트 길이의 데이터 블록에서 함수가 반복되는 일반 암호화 해시라고 가정합니다. L은 H의 해시 결과의 길이입니다. K는 길이 L <= K <= B의 비밀 키입니다. IPAD 및 OPAD 값은 내부 및 외부 패딩으로 사용되는 고정 문자열이며 다음과 같이 정의됩니다. IPAD = 바이트 0x36이 B번 반복되고, OPAD = 바이트 0x5C가 B번 반복됩니다. HMAC는 H(K XOR OPAD, H(K XOR IPAD, 입력 데이터))로 계산됩니다.

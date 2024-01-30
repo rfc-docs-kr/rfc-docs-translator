@@ -1,0 +1,3 @@
+   LAYOUTRECALL4_FILE
+
+- 레이아웃이 리콜 요청과 일치하려면 clora_type, clora_iomode, lor_fh 및 lor_offset 및 lor_length로 지정된 바이트 범위 필드의 값이 레이아웃의 값과 일치해야 합니다. clora_iomode 필드는 LAYOUTIOMODE4_ANY라는 특별한 값을 가질 수 있습니다. 특수 값 LAYOUTIOMODE4_ANY는 원래 레이아웃에 반환된 모든 iomode와 일치합니다. 따라서 와일드카드 역할을 합니다. 사용된 다른 특수 값은 lor_length에 대한 것입니다. lor_length의 값이 NFS4_UINT64_MAX인 경우 lor_length 필드는 가능한 최대 파일 크기를 의미합니다. 일치하는 레이아웃이 발견되면 반드시 LAYOUTRETURN 연산을 사용하여 반환해야 합니다(섹션 18.44 참조). 필드의 특수 값 사용의 예는 clora_iomode가 LAYOUTIOMODE4_ANY이고 lor_offset이 0이고 lor_length가 NFS4_UINT64_MAX인 경우 전체 레이아웃이 반환되는 것입니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  372e904911fa5068747da322d6de14600473177c68d22256d2b1b5326856ba34
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     AuditDescriptor ::= SEQUENCE
+     {
+          auditToken      BIT STRING
+          {
+                  muxToken(0), modemToken(1), mediaToken(2),
+                  eventsToken(3), signalsToken(4),
+                  digitMapToken(5), statsToken(6),
+                  observedEventsToken(7),
+                  packagesToken(8), eventBufferToken(9)
+          } OPTIONAL,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

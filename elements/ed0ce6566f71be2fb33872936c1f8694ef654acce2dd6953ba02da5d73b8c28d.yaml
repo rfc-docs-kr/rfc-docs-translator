@@ -1,0 +1,15 @@
+"hash": |-
+  ed0ce6566f71be2fb33872936c1f8694ef654acce2dd6953ba02da5d73b8c28d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        if defined(authority) then
+           append "//" to result;
+           append authority to result;
+        endif;
+"fixed": |-
+  - if defined(authority) then append "//" to result; append authority to result; endif;
+"ko": |-
+  - 정의된 경우(권한) 결과에 "//"를 추가합니다. 결과에 권한을 추가합니다. 종료;

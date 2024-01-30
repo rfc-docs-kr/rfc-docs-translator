@@ -1,0 +1,19 @@
+"hash": |-
+  25bd4d8c2797232b852b500387117de67894784349ec50d5720970e5c7e2ef75
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The reachability test is performed by sending a unicast ARP Request.
+     The host MUST set the target protocol address (ar$tpa) to the IPv4
+     address of the node being tested, and the sender protocol address
+     field (ar$spa) to its own candidate IPv4 address.  The ARP Request
+     MUST use the host MAC address as the source, and the test node MAC
+     address as the destination.  The host includes its MAC address in the
+     sender hardware address field (ar$sha) and sets the target hardware
+     address field (ar$tha) to 0.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

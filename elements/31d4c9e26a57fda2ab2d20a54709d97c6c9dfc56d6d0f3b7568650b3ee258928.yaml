@@ -1,0 +1,17 @@
+"hash": |-
+  31d4c9e26a57fda2ab2d20a54709d97c6c9dfc56d6d0f3b7568650b3ee258928
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A lock should be acquired to prevent simultaneous updates from
+     multiple sources.  If multiple sources are affecting the device, the
+     application is hampered in both testing of its change to the
+     configuration and in recovery if the update fails.  Acquiring a
+     short-lived lock is a simple defense to prevent other parties from
+     introducing unrelated changes.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

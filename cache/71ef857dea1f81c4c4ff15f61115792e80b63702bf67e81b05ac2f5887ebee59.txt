@@ -1,0 +1,1 @@
+   "subkey_cert_fingerprint" 태그를 사용하여 전체 인증서를 보내는 대신 OpenPGP 지문을 보내는 옵션도 사용할 수 있습니다. 이 태그는 OpenPGPSubKeyFingerprint 구조를 사용하며 기본 키 지문을 지정해야 하며 이 세션에 사용할 하위 키 ID도 필요합니다. 피어는 주어진 지문이 있는 인증서를 찾을 수 없는 경우 "certificate_unobtainable" 치명적 경고로 응답해야 합니다. "certificate_unobtainable" 치명적인 경고는 [RFC6066]의 섹션 5에 정의되어 있습니다.

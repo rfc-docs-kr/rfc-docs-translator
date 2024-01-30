@@ -1,0 +1,23 @@
+"hash": |-
+  d9741f957fc8daebcbcf8eadf1c426bdd8c80e6bfbb91f77faca41d44333fd52
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     with a retransmit of the last flight.  This avoids deadlock
+     conditions if the last flight gets lost.  This requirement applies to
+     DTLS 1.0 as well, and though not explicit in [DTLS1], it was always
+     required for the state machine to function correctly.  To see why
+     this is necessary, consider what happens in an ordinary handshake if
+     the server's Finished message is lost: the server believes the
+     handshake is complete but it actually is not.  As the client is
+     waiting for the Finished message, the client's retransmit timer will
+     fire and it will retransmit the client's Finished message.  This will
+     cause the server to respond with its own Finished message, completing
+     the handshake.  The same logic applies on the server side for the
+     resumed handshake.
+"fixed": |-
+  with a retransmit of the last flight.  This avoids deadlock conditions if the last flight gets lost.  This requirement applies to DTLS 1.0 as well, and though not explicit in [DTLS1], it was always required for the state machine to function correctly.  To see why this is necessary, consider what happens in an ordinary handshake if the server's Finished message is lost: the server believes the handshake is complete but it actually is not.  As the client is waiting for the Finished message, the client's retransmit timer will fire and it will retransmit the client's Finished message.  This will cause the server to respond with its own Finished message, completing the handshake.  The same logic applies on the server side for the resumed handshake.
+"ko": |-
+  마지막 항공편을 재전송합니다. 이는 마지막 비행이 손실되는 경우 교착 상태를 방지합니다. 이 요구 사항은 DTLS 1.0에도 적용되며 [DTLS1]에서는 명시적이지 않지만 상태 기계가 올바르게 작동하려면 항상 필요했습니다. 이것이 왜 필요한지 알아보려면 서버의 Finished 메시지가 손실된 경우 일반적인 핸드셰이크에서 어떤 일이 발생하는지 생각해 보세요. 서버는 핸드셰이크가 완료되었다고 믿지만 실제로는 그렇지 않습니다. 클라이언트가 완료 메시지를 기다리는 동안 클라이언트의 재전송 타이머가 실행되고 클라이언트의 완료 메시지가 재전송됩니다. 그러면 서버가 자체 Finished 메시지로 응답하여 핸드셰이크를 완료하게 됩니다. 재개된 핸드셰이크에 대해 서버 측에도 동일한 논리가 적용됩니다.

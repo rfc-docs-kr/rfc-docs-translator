@@ -1,0 +1,1 @@
+- 2. Content-Transfer-Encoding 헤더 필드를 인식하고 quoted-printable 또는 base64 구현으로 인코딩된 모든 수신 데이터를 디코딩합니다. 기본 전송 메커니즘이 7비트가 아닌 데이터를 지원하지 않는 한 이러한 변환 중 하나를 사용하여 7비트 메일 준비 표현이 아닌 전송된 모든 데이터를 인코딩하고 적절한 Content-Transfer-Encoding 헤더 필드를 포함합니다.

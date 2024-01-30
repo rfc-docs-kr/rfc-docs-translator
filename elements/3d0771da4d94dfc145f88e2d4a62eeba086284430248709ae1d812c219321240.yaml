@@ -1,0 +1,18 @@
+"hash": |-
+  3d0771da4d94dfc145f88e2d4a62eeba086284430248709ae1d812c219321240
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ; octetString is used to describe SDP defined in RFC2327.
+     ; Caution should be taken if CRLF in RFC2327 is used.
+     ; To be safe, use EOL in this ABNF.
+     ; Whenever "}" appears in SDP, it is escaped by "\", e.g., "\}"
+     octetString          = *(nonEscapeChar)
+     nonEscapeChar        = ( "\}" / %x01-7C / %x7E-FF )
+     quotedString         = DQUOTE 1*(SafeChar / RestChar/ WSP) DQUOTE
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

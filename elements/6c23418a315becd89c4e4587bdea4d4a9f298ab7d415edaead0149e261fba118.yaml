@@ -1,0 +1,19 @@
+"hash": |-
+  6c23418a315becd89c4e4587bdea4d4a9f298ab7d415edaead0149e261fba118
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a URI contains percent-encoded octets that match the delimiters
+     for a given resolution or dereference protocol (for example, CR and
+     LF characters for the TELNET protocol), these percent-encodings must
+     not be decoded before transmission across that protocol.  Transfer of
+     the percent-encoding, which might violate the protocol, is less
+     harmful than allowing decoded octets to be interpreted as additional
+     operations or parameters, perhaps triggering an unexpected and
+     possibly harmful remote operation.
+"fixed": |-
+  When a URI contains percent-encoded octets that match the delimiters for a given resolution or dereference protocol (for example, CR and LF characters for the TELNET protocol), these percent-encodings must not be decoded before transmission across that protocol.  Transfer of the percent-encoding, which might violate the protocol, is less harmful than allowing decoded octets to be interpreted as additional operations or parameters, perhaps triggering an unexpected and possibly harmful remote operation.
+"ko": |-
+  URI에 지정된 확인 또는 역참조 프로토콜의 구분 기호와 일치하는 백분율 인코딩 옥텟(예: TELNET 프로토콜의 CR 및 LF 문자)이 포함된 경우 해당 프로토콜을 통해 전송하기 전에 이러한 백분율 인코딩을 디코딩하면 안 됩니다. 프로토콜을 위반할 수 있는 퍼센트 인코딩 전송은 디코딩된 옥텟이 추가 작업이나 매개변수로 해석되도록 허용하여 예상치 못한 해로울 수 있는 원격 작업을 트리거하는 것보다 덜 해롭습니다.

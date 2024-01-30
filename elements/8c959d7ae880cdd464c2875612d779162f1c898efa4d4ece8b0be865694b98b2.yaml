@@ -1,0 +1,24 @@
+"hash": |-
+  8c959d7ae880cdd464c2875612d779162f1c898efa4d4ece8b0be865694b98b2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To illustrate the problem diagnosis issue mentioned in Section 5.1,
+     consider what happens if PA loses connectivity to C7 (the site that
+     is assigned out of PB's space).  In a stateful protocol, PA will
+     announce to BB that 10.32.0.0/20 has become unreachable.  Now, when
+     BB flushes this information out of its routing table, any future
+     traffic sent through it for this destination will be forwarded to PB
+     (where it will be dropped according to Rule #2) by virtue of PB's
+     less-specific match, 10.32.0.0/13.  Although this does not cause an
+     operational problem (C7 is unreachable in any case), it does create
+     some extra traffic across "BB" (and may also prove confusing to
+     someone trying to debug the outage with "traceroute").  A mechanism
+     to cache such unreachable state might be nice, but it is beyond the
+     scope of this document.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

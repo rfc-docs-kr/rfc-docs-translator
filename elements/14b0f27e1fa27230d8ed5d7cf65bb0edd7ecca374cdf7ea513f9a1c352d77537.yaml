@@ -1,0 +1,19 @@
+"hash": |-
+  14b0f27e1fa27230d8ed5d7cf65bb0edd7ecca374cdf7ea513f9a1c352d77537
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      rpc cancel-commit {
+        if-feature confirmed-commit;
+        description
+          "This operation is used to cancel an ongoing confirmed commit.
+           If the confirmed commit is persistent, the parameter
+           'persist-id' must be given, and it must match the value of the
+           'persist' parameter.";
+        reference "RFC 6241, Section 8.4.4.1";
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

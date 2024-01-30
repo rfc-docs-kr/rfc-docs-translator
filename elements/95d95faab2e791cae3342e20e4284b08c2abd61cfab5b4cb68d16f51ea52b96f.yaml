@@ -1,0 +1,23 @@
+"hash": |-
+  95d95faab2e791cae3342e20e4284b08c2abd61cfab5b4cb68d16f51ea52b96f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The entities should be able to derive from the past history an
+     estimate of the packet loss rate due to transmission errors.  In a
+     properly configured system, this loss rate should be kept very low,
+     typically less than 1%.  If a Media Gateway Controller or a Media
+     Gateway has to repeat a message more than a few times, it is very
+     legitimate to assume that something else than a transmission error
+     is occurring.  For example, given a loss rate of 1%, the probability
+     that five consecutive transmission attempts fail is 1 in 100
+     billion, an event that should occur less than once every 10 days for
+     a Media Gateway Controller that processes 1 000 transactions per
+     second. (Indeed, the number of repetition that is considered
+     excessive should be a function of the prevailing packet loss rate.)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

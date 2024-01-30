@@ -1,0 +1,18 @@
+"hash": |-
+  4979e6f75f3fc2ee435317cbdf4ccf438d8a31fbec40933a39361e873025a458
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Vendor-Specific-Application-Id AVP MUST contain exactly one of
+     either Auth-Application-Id or Acct-Application-Id.  If a Vendor-
+     Specific-Application-Id is received without one of these two AVPs,
+     then the recipient SHOULD issue an answer with a Result-Code set to
+     DIAMETER_MISSING_AVP.  The answer SHOULD also include a Failed-AVP,
+     which MUST contain an example of an Auth-Application-Id AVP and an
+     Acct-Application-Id AVP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

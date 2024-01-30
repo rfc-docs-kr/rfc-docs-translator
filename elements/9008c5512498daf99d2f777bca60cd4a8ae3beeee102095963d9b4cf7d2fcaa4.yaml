@@ -1,0 +1,20 @@
+"hash": |-
+  9008c5512498daf99d2f777bca60cd4a8ae3beeee102095963d9b4cf7d2fcaa4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Accounting-Record-Number AVP (AVP Code 485) is of type Unsigned32
+     and identifies this record within one session.  As Session-Id AVPs
+     are globally unique, the combination of Session-Id and Accounting-
+     Record-Number AVPs is also globally unique and can be used in
+     matching accounting records with confirmations.  An easy way to
+     produce unique numbers is to set the value to 0 for records of type
+     EVENT_RECORD and START_RECORD and set the value to 1 for the first
+     INTERIM_RECORD, 2 for the second, and so on until the value for
+     STOP_RECORD is one more than for the last INTERIM_RECORD.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

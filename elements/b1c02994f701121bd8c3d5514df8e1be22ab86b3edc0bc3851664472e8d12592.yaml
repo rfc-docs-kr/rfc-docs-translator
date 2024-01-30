@@ -1,0 +1,18 @@
+"hash": |-
+  b1c02994f701121bd8c3d5514df8e1be22ab86b3edc0bc3851664472e8d12592
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Each LSA specified in the Link State Request packet should be
+          located in the router's database, and copied into Link State
+          Update packets for transmission to the neighbor.  These LSAs
+          should NOT be placed on the Link state retransmission list for
+          the neighbor.  If an LSA cannot be found in the database,
+          something has gone wrong with the Database Exchange process, and
+          neighbor event BadLSReq should be generated.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

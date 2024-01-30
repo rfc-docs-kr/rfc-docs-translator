@@ -1,0 +1,21 @@
+"hash": |-
+  82321f8e1fd715acce0d71addfaa7fecc0d6a67457b15325405aaacd833e4da2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: The requirement that the server request a certificate is just a
+     restatement of the TLS protocol rules, e.g., Section 7.4.6 of
+     [RFC5246].  The requirement that the client not send a certificate
+     not known to be acceptable to the server is pragmatic in multiple
+     ways: the current TLS protocol provides no way for the client to know
+     which of the potentially multiple certificates it should use; also,
+     when the client sends a certificate, it is potentially disclosing its
+     identity (or its user's identity) to both the server and any party
+     with access to the transmission medium, perhaps unnecessarily and for
+     no useful purpose.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

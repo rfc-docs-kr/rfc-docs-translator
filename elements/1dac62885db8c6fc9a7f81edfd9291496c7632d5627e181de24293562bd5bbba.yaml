@@ -1,0 +1,24 @@
+"hash": |-
+  1dac62885db8c6fc9a7f81edfd9291496c7632d5627e181de24293562bd5bbba
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   In brief, SWS is caused by the receiver advancing the
+                   right window edge whenever it has any new buffer space
+                   available to receive data and by the sender using any
+                   incremental window, no matter how small, to send more
+                   data [TCP:5].  The result can be a stable pattern of
+                   sending tiny data segments, even though both sender and
+                   receiver have a large total buffer space for the
+                   connection.  SWS can only occur during the transmission
+                   of a large amount of data; if the connection goes
+                   quiescent, the problem will disappear.  It is caused by
+                   typical straightforward implementation of window
+                   management, but the sender and receiver algorithms
+                   given below will avoid it.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

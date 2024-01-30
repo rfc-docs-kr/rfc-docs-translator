@@ -1,0 +1,21 @@
+"hash": |-
+  58bd8cec7f7b4c02df8d88b3cdf5066c45c0156f2ddd570d3acd3d492b988c7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Diameter clients MAY have non-volatile memory for the safe storage of
+     accounting records over reboots or extended network failures, network
+     partitions, and server failures.  If such memory is available, the
+     client SHOULD store new accounting records there as soon as the
+     records are created and until a positive acknowledgement of their
+     reception from the Diameter server has been received.  Upon a reboot,
+     the client MUST start sending the records in the non-volatile memory
+     to the accounting server with the appropriate modifications in
+     termination cause, session length, and other relevant information in
+     the records.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

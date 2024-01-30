@@ -1,0 +1,1 @@
+- RST 비트가 꺼지고 SND.UNA < SEG.ACK =< SND.NXT인 경우 SND.UNA <- SEG.ACK를 설정하고 재전송 대기열에서 확인된 세그먼트를 제거하고 ESTABLISHED 상태로 들어갑니다.

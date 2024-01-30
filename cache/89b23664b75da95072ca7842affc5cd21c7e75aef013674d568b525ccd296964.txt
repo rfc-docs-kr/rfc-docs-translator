@@ -1,0 +1,1 @@
+   o 서버는 "renegotiation_info" 확장이 ClientHello에 포함되어 있는지 확인해야 합니다. 확장이 있는 경우 secure_renegotiation 플래그를 TRUE로 설정합니다. 그런 다음 서버는 "renegotiated_connection" 필드의 길이가 0인지 확인해야 하며 그렇지 않은 경우 핸드셰이크를 중단해야 합니다(MUST).

@@ -1,0 +1,18 @@
+"hash": |-
+  48ef8a0fe326e9c148ad8a63f6718c37fc2788155fab20d26c4b56af8c636be6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a URI contains an authority component, then the path component
+     must either be empty or begin with a slash ("/") character.  Non-
+     validating parsers (those that merely separate a URI reference into
+     its major components) will often ignore the subcomponent structure of
+     authority, treating it as an opaque string from the double-slash to
+     the first terminating delimiter, until such time as the URI is
+     dereferenced.
+"fixed": |-
+  If a URI contains an authority component, then the path component must either be empty or begin with a slash ("/") character.  Non- validating parsers (those that merely separate a URI reference into its major components) will often ignore the subcomponent structure of authority, treating it as an opaque string from the double-slash to the first terminating delimiter, until such time as the URI is dereferenced.
+"ko": |-
+  URI에 권한 구성 요소가 포함된 경우 경로 구성 요소는 비어 있거나 슬래시("/") 문자로 시작되어야 합니다. 유효성을 검사하지 않는 파서(URI 참조를 주요 구성 요소로 단순히 분리하는 파서)는 기관의 하위 구성 요소 구조를 종종 무시하여 URI가 다음과 같이 될 때까지 이중 슬래시부터 첫 번째 종료 구분 기호까지 불투명한 문자열로 처리합니다. 역참조됨.

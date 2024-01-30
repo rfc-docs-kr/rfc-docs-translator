@@ -1,0 +1,16 @@
+"hash": |-
+  2f4c103694692280c36fd008d4fb0f1ca77bb6677b1e6e331452c4f0d81cff94
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         A non-anonymous server can optionally request a certificate from
+         the client, if appropriate for the selected cipher suite.  This
+         message, if sent, will immediately follow the ServerKeyExchange
+         message (if it is sent; otherwise, this message follows the
+         server's Certificate message).
+"fixed": |-
+  - A non-anonymous server can optionally request a certificate from the client, if appropriate for the selected cipher suite.  This message, if sent, will immediately follow the ServerKeyExchange message (if it is sent; otherwise, this message follows the server's Certificate message).
+"ko": |-
+  - 비익명 서버는 선택한 암호화 제품군에 적합한 경우 선택적으로 클라이언트로부터 인증서를 요청할 수 있습니다. 이 메시지는 전송된 경우 ServerKeyExchange 메시지 바로 뒤에 표시됩니다(전송된 경우에는 이 메시지가 서버의 인증서 메시지 뒤에 표시됩니다).

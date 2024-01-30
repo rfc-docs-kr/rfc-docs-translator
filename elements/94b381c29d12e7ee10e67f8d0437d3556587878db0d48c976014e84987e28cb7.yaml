@@ -1,0 +1,20 @@
+"hash": |-
+  94b381c29d12e7ee10e67f8d0437d3556587878db0d48c976014e84987e28cb7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A classic retransmission algorithm would simply count the number of
+     successive repetitions, and conclude that the association is broken
+     after retransmitting the packet an excessive number of times
+     (typically between 7 and 11 times.) In order to account for the
+     possibility of an undetected or in-progress "failover", we modify
+     the classic algorithm so that if the Media Gateway receives a valid
+     ServiceChange message announcing a failover, it will start
+     transmitting outstanding commands to that new MGC.  Responses to
+     commands are still transmitted to the source address of the command.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

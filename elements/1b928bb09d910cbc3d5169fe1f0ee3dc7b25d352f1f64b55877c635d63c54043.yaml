@@ -1,0 +1,16 @@
+"hash": |-
+  1b928bb09d910cbc3d5169fe1f0ee3dc7b25d352f1f64b55877c635d63c54043
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS/DTLS 1.2 clients MUST NOT fall back to earlier TLS versions,
+     since those versions have been deprecated [RFC8996].  As a result,
+     the downgrade-protection Signaling Cipher Suite Value (SCSV)
+     mechanism [RFC7507] is no longer needed for clients.  In addition,
+     TLS 1.3 implements a new version-negotiation mechanism.
+"fixed": |-
+  TLS/DTLS 1.2 clients MUST NOT fall back to earlier TLS versions, since those versions have been deprecated [RFC8996].  As a result, the downgrade-protection Signaling Cipher Suite Value (SCSV) mechanism [RFC7507] is no longer needed for clients.  In addition, TLS 1.3 implements a new version-negotiation mechanism.
+"ko": |-
+  TLS/DTLS 1.2 클라이언트는 이전 TLS 버전이 더 이상 사용되지 않으므로 [RFC8996] 이전 TLS 버전으로 대체하면 안 됩니다. 결과적으로 다운그레이드 보호 SCSV(Signaling Cipher Suite Value) 메커니즘[RFC7507]은 더 이상 클라이언트에 필요하지 않습니다. 또한 TLS 1.3은 새로운 버전 협상 메커니즘을 구현합니다.

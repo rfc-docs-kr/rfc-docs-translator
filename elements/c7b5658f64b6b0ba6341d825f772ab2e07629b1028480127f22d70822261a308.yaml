@@ -1,0 +1,15 @@
+"hash": |-
+  c7b5658f64b6b0ba6341d825f772ab2e07629b1028480127f22d70822261a308
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     cipher_suite:  The single cipher suite selected by the server from
+        the list in ClientHello.cipher_suites.  A client which receives a
+        cipher suite that was not offered MUST abort the handshake with an
+        "illegal_parameter" alert.
+"fixed": |-
+  cipher_suite:  The single cipher suite selected by the server from the list in ClientHello.cipher_suites.  A client which receives a cipher suite that was not offered MUST abort the handshake with an "illegal_parameter" alert.
+"ko": |-
+  cipher_suite: ClientHello.cipher_suites의 목록에서 서버가 선택한 단일 암호 제품군입니다. 제공되지 않은 암호 모음을 수신한 클라이언트는 "illegal_parameter" 경고와 함께 핸드셰이크를 중단해야 합니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  b59dba0678135806d6ec9c2021c6098bbc970b37aae2b2719ccf690294234fc3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that selects an ECC cipher suite in response to a
+     ClientHello message including a Supported Point Formats Extension
+     appends this extension (along with others) to its ServerHello
+     message, enumerating the point formats it can parse.  The Supported
+     Point Formats Extension, when used, MUST contain the value 0
+     (uncompressed) as one of the items in the list of point formats.
+"fixed": |-
+  A server that selects an ECC cipher suite in response to a ClientHello message including a Supported Point Formats Extension appends this extension (along with others) to its ServerHello message, enumerating the point formats it can parse.  The Supported Point Formats Extension, when used, MUST contain the value 0 (uncompressed) as one of the items in the list of point formats.
+"ko": |-
+  Supported Point Formats Extension을 포함하는 ClientHello 메시지에 대한 응답으로 ECC 암호 모음을 선택하는 서버는 이 확장을 다른 확장과 함께 ServerHello 메시지에 추가하여 구문 분석할 수 있는 포인트 형식을 열거합니다. 지원되는 포인트 형식 확장은 사용 시 포인트 형식 목록의 항목 중 하나로 값 0(압축되지 않음)을 포함해야 합니다.

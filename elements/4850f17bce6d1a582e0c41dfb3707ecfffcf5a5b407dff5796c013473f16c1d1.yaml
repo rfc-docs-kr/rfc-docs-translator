@@ -1,0 +1,24 @@
+"hash": |-
+  4850f17bce6d1a582e0c41dfb3707ecfffcf5a5b407dff5796c013473f16c1d1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        indicators to provide some amount of error detection and
+        correction.  If the frame not copied bit is set but the address
+        not recognized bit is reset, receiver congestion has occurred.  It
+        is suggested, though not required, that hosts should retransmit
+        the offending packet a small number of times (4) or until
+        congestion no longer occurs.  If the address not recognized bit is
+        set, an implementation has 3 options: (1) ignore the error and
+        throw the packet away, (2) return an ICMP destination unreachable
+        message to the source, or (3) delete the ARP entry which was used
+        to send this packet and send a new ARP request to the destination
+        address.  The latter option is the preferred approach since it
+        will allow graceful recovery from first hop bridge and router
+        failures and changed hardware addresses.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

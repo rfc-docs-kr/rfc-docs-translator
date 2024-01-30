@@ -1,0 +1,1 @@
+   서버가 PSK를 선택하면 클라이언트의 "psk_key_exchange_modes" 확장이 나타내는 세트에서 키 설정 모드도 선택해야 합니다(현재 PSK 단독 또는 (EC)DHE 포함). PSK를 (EC)DHE 없이 사용할 수 있는 경우 "supported_groups" 매개변수의 비중첩이 치명적일 필요는 없습니다. 이는 이전 단락에서 논의된 PSK가 아닌 경우와 같습니다.

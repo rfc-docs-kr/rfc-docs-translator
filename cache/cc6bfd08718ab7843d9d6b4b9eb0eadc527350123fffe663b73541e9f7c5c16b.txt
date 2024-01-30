@@ -1,0 +1,1 @@
+   서버가 모듈 C의 개정 날짜를 지정하지 않고 모듈 C를 가져오는 모듈 A를 구현하고 서버가 C를 구현하지 않는 경우(예: C가 일부 typedef만 정의하는 경우) 서버는 "/modules- state/module" 목록을 "ietf-yang-library" [RFC7895]에서 선택하고 이 모듈에 대해 리프 "conformance-type"을 "import"로 설정해야 합니다.

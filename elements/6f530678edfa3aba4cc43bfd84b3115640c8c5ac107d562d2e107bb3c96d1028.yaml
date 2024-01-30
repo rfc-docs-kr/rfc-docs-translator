@@ -1,0 +1,22 @@
+"hash": |-
+  6f530678edfa3aba4cc43bfd84b3115640c8c5ac107d562d2e107bb3c96d1028
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          leaf persist-id {
+            if-feature confirmed-commit;
+            type string;
+            description
+              "This parameter is given in order to commit a persistent
+               confirmed commit.  The value must be equal to the value
+               given in the 'persist' parameter to the <commit> operation.
+               If it does not match, the operation fails with an
+              'invalid-value' error.";
+            reference "RFC 6241, Section 8.3.4.1";
+          }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

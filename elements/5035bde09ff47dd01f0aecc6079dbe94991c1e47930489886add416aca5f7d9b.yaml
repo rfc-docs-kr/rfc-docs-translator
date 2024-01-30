@@ -1,0 +1,20 @@
+"hash": |-
+  5035bde09ff47dd01f0aecc6079dbe94991c1e47930489886add416aca5f7d9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Separated the path merge routine into two routines: merge, for
+        describing combination of the base URI path with a relative-path
+        reference, and remove_dot_segments, for describing how to remove
+        the special "." and ".." segments from a composed path.  The
+        remove_dot_segments algorithm is now applied to all URI reference
+        paths in order to match common implementations and to improve the
+        normalization of URIs in practice.  This change only impacts the
+        parsing of abnormal references and same-scheme references wherein
+        the base URI has a non-hierarchical path.
+"fixed": |-
+  -  Separated the path merge routine into two routines: merge, for describing combination of the base URI path with a relative-path reference, and remove_dot_segments, for describing how to remove the special "." and ".." segments from a composed path.  The remove_dot_segments algorithm is now applied to all URI reference paths in order to match common implementations and to improve the normalization of URIs in practice.  This change only impacts the parsing of abnormal references and same-scheme references wherein the base URI has a non-hierarchical path.
+"ko": |-
+  - 경로 병합 루틴을 두 개의 루틴으로 분리했습니다. 즉, 기본 URI 경로와 상대 경로 참조의 조합을 설명하기 위한 병합과 특수 "."를 제거하는 방법을 설명하기 위한 Remove_dot_segments입니다. 구성된 경로의 ".." 세그먼트입니다. 이제 일반적인 구현을 일치시키고 실제로 URI 정규화를 개선하기 위해 모든 URI 참조 경로에 Remove_dot_segments 알고리즘이 적용됩니다. 이 변경 사항은 기본 URI에 비계층 경로가 있는 비정상적인 참조 및 동일 체계 참조의 구문 분석에만 영향을 미칩니다.

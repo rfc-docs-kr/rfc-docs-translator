@@ -1,0 +1,19 @@
+"hash": |-
+  7f4a8c34f707240ded028afe3041673b7d9576868952bb048216f57854df20ac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The original article ([Poly1305]) is titled "The Poly1305-AES
+     message-authentication code", and the MAC function there requires a
+     128-bit AES key, a 128-bit "additional key", and a 128-bit (non-
+     secret) nonce.  AES is used there for encrypting the nonce, so as to
+     get a unique (and secret) 128-bit string, but as the paper states,
+     "There is nothing special about AES here.  One can replace AES with
+     an arbitrary keyed function from an arbitrary set of nonces to
+     16-byte strings."
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

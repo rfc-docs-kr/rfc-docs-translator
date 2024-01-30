@@ -1,0 +1,32 @@
+"hash": |-
+  42f84e79f2651a0e7d5e2e71d52c844488d2f3ec4c883b0f5c8b2946c47c66bb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          enum {
+              ecdsa(3),
+              ed25519(7)
+              ed448(8)
+          } SignatureAlgorithm;
+          select (SignatureAlgorithm) {
+             case ecdsa:
+                  digitally-signed struct {
+                      opaque sha_hash[sha_size];
+                  };
+             case ed25519,ed448:
+                  digitally-signed struct {
+                      opaque rawdata[rawdata_size];
+                  };
+          } Signature;
+        ServerKeyExchange.signed_params.sha_hash
+            SHA(ClientHello.random + ServerHello.random +
+                                   ServerKeyExchange.params);
+        ServerKeyExchange.signed_params.rawdata
+            ClientHello.random + ServerHello.random +
+                                   ServerKeyExchange.params;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

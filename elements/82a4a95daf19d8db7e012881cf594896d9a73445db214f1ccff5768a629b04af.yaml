@@ -1,0 +1,19 @@
+"hash": |-
+  82a4a95daf19d8db7e012881cf594896d9a73445db214f1ccff5768a629b04af
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (d) Install the new LSA in the link state database (replacing
+              the current database copy).  This may cause the routing
+              table calculation to be scheduled.  In addition, timestamp
+              the new LSA with the current time (i.e., the time it was
+              received).  The flooding procedure cannot overwrite the
+              newly installed LSA until MinLSArrival seconds have elapsed.
+              The LSA installation process is discussed further in Section
+              13.2.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

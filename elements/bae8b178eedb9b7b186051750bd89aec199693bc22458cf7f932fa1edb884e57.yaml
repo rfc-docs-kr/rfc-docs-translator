@@ -1,0 +1,15 @@
+"hash": |-
+  bae8b178eedb9b7b186051750bd89aec199693bc22458cf7f932fa1edb884e57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  As a server, do you send a HelloRetryRequest to clients which
+        support a compatible (EC)DHE group but do not predict it in the
+        "key_share" extension?  As a client, do you correctly handle a
+        HelloRetryRequest from the server?
+"fixed": |-
+  -  As a server, do you send a HelloRetryRequest to clients which support a compatible (EC)DHE group but do not predict it in the "key_share" extension?  As a client, do you correctly handle a HelloRetryRequest from the server?
+"ko": |-
+  - 서버로서 호환되는 (EC)DHE 그룹을 지원하지만 "key_share" 확장에서 이를 예측하지 않는 클라이언트에 HelloRetryRequest를 보내나요? 클라이언트로서 서버의 HelloRetryRequest를 올바르게 처리합니까?

@@ -1,0 +1,25 @@
+"hash": |-
+  a0ceaf0515561a91813b281a2707d74a0a5ef2a1c3d2513cab2d65d6cf9fd2b9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                       +------------------+
+                       |     Diameter     |
+                       |  Redirect Agent  |
+                       +------------------+
+                        ^    |    2. command + 'E' bit
+         1. Request     |    |    Result-Code =
+        joe@example.com |    |    DIAMETER_REDIRECT_INDICATION +
+                        |    |    Redirect-Host AVP(s)
+                        |    v
+                    +-------------+  3. Request  +-------------+
+                    | example.com |------------->| example.net |
+                    |    Relay    |              |   Diameter  |
+                    |    Agent    |<-------------|    Server   |
+                    +-------------+  4. Answer   +-------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

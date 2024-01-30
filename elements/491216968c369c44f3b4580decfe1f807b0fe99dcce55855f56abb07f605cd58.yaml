@@ -1,0 +1,23 @@
+"hash": |-
+  491216968c369c44f3b4580decfe1f807b0fe99dcce55855f56abb07f605cd58
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Rationale: TLS 1.2 is implemented and deployed more widely than
+        TLS 1.3 at this time, and when the recommendations in this
+        document are followed to mitigate known attacks, the use of TLS
+        1.2 is as safe as the use of TLS 1.3.  In most application
+        protocols that reuse TLS and DTLS, there is no immediate need to
+        migrate solely to TLS 1.3.  Indeed, because many application
+        clients are dependent on TLS libraries or operating systems that
+        do not yet support TLS 1.3, proactively deprecating TLS 1.2 would
+        introduce significant interoperability issues, thus harming
+        security more than helping it.  Nevertheless, it is expected that
+        a future version of this BCP will deprecate the use of TLS 1.2
+        when it is appropriate to do so.
+"fixed": |-
+  - Rationale: TLS 1.2 is implemented and deployed more widely than TLS 1.3 at this time, and when the recommendations in this document are followed to mitigate known attacks, the use of TLS 1.2 is as safe as the use of TLS 1.3.  In most application protocols that reuse TLS and DTLS, there is no immediate need to migrate solely to TLS 1.3.  Indeed, because many application clients are dependent on TLS libraries or operating systems that do not yet support TLS 1.3, proactively deprecating TLS 1.2 would introduce significant interoperability issues, thus harming security more than helping it.  Nevertheless, it is expected that a future version of this BCP will deprecate the use of TLS 1.2 when it is appropriate to do so.
+"ko": |-
+  - 근거: TLS 1.2는 현재 TLS 1.3보다 더 광범위하게 구현 및 배포되며, 알려진 공격을 완화하기 위해 이 문서의 권장 사항을 따르면 TLS 1.2의 사용은 TLS 1.3의 사용만큼 안전합니다. TLS 및 DTLS를 재사용하는 대부분의 애플리케이션 프로토콜에서는 TLS 1.3으로만 즉시 마이그레이션할 필요가 없습니다. 실제로 많은 애플리케이션 클라이언트가 아직 TLS 1.3을 지원하지 않는 TLS 라이브러리나 운영 체제에 의존하기 때문에 TLS 1.2를 적극적으로 지원하지 않으면 상당한 상호 운용성 문제가 발생하여 보안에 도움이 되기보다 해를 끼치게 됩니다. 그럼에도 불구하고 이 BCP의 향후 버전에서는 적절한 경우 TLS 1.2의 사용을 더 이상 사용하지 않을 것으로 예상됩니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  d44e19331c410fa89db3ca51e3390c1e982aeb4d2ee37dac1789577292d6c285
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since both the ASR/ASA and Disconnect-Request/Disconnect-
+     NAK/Disconnect-ACK exchanges involve just a request and response,
+     inclusion of an "Authorize Only" Service-Type within a Disconnect-
+     Request is not needed to assist in Diameter/RADIUS translation, and
+     may make translation more difficult.  As a result, as noted in
+     Section 3.2, the Service-Type Attribute MUST NOT be used within a
+     Disconnect-Request.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  e5d635a64499b3364ed1ffd2948b7fe3ceb81703988903bfa28e40c05c508e62
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The protected resource MUST obtain, from its TLS implementation
+     layer, the client certificate used for mutual TLS and MUST verify
+     that the certificate matches the certificate associated with the
+     access token.  If they do not match, the resource access attempt MUST
+     be rejected with an error, per [RFC6750], using an HTTP 401 status
+     code and the "invalid_token" error code.
+"fixed": |-
+  The protected resource MUST obtain, from its TLS implementation layer, the client certificate used for mutual TLS and MUST verify that the certificate matches the certificate associated with the access token.  If they do not match, the resource access attempt MUST be rejected with an error, per [RFC6750], using an HTTP 401 status code and the "invalid_token" error code.
+"ko": |-
+  보호되는 리소스는 TLS 구현 계층에서 상호 TLS에 사용되는 클라이언트 인증서를 획득해야 하며 인증서가 액세스 토큰과 연결된 인증서와 일치하는지 확인해야 합니다. 일치하지 않는 경우 리소스 액세스 시도는 [RFC6750]에 따라 HTTP 401 상태 코드 및 "invalid_token" 오류 코드를 사용하여 오류와 함께 거부되어야 합니다.

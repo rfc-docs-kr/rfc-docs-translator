@@ -1,0 +1,18 @@
+"hash": |-
+  eef8dc80fb291990e3d9fd5cb063d1819562bffb042b8822e3d8d65f362f9209
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ContextRequest ::= SEQUENCE
+     {
+          priority                INTEGER(0..15) OPTIONAL,
+          emergency               BOOLEAN OPTIONAL,
+          topologyReq             SEQUENCE OF TopologyRequest OPTIONAL,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

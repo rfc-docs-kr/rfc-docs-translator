@@ -1,0 +1,16 @@
+"hash": |-
+  1ace769ca41c8d3d2d15760f426f4c87263d6c3daa1fb8e5bde019096ecb44f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If at site A the connection no longer exists, then an attempt by the
+     user at site B to send any data on it will result in the site B TCP
+     endpoint receiving a reset control message.  Such a message indicates
+     to the site B TCP endpoint that something is wrong, and it is
+     expected to abort the connection.
+"fixed": |-
+  If at site A the connection no longer exists, then an attempt by the user at site B to send any data on it will result in the site B TCP endpoint receiving a reset control message.  Such a message indicates to the site B TCP endpoint that something is wrong, and it is expected to abort the connection.
+"ko": |-
+  사이트 A에 연결이 더 이상 존재하지 않는 경우 사이트 B의 사용자가 사이트에 데이터를 보내려고 시도하면 사이트 B TCP 끝점이 재설정 제어 메시지를 받게 됩니다. 이러한 메시지는 사이트 B TCP 끝점에 무언가 잘못되었음을 나타내며 연결이 중단될 것으로 예상됩니다.

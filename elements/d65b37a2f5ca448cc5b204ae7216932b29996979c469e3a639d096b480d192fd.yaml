@@ -1,0 +1,27 @@
+"hash": |-
+  d65b37a2f5ca448cc5b204ae7216932b29996979c469e3a639d096b480d192fd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o  Trials are inexpensive.  DNAv4 performs its checks using small
+           unicast packets.  An IPv4 ARP packet on Ethernet is just 42
+           octets, including the Ethernet header.  This means that the
+           cost of an unsuccessful attempt is small, whereas the cost of a
+           missed opportunity (having the right address available as a
+           candidate and choosing not to try it for some reason) is large.
+           As a result, the best strategy is often to try all available
+           candidate configurations, rather than try to determine which
+           candidates, if any, may be correct for this link, based on
+           heuristics or hints.  For a heuristic to offer the prospect of
+           being a potentially useful way to eliminate inappropriate
+           configurations from the candidate list, that heuristic has to
+           (a) be fast and inexpensive to compute, as compared to sending
+           a 42-octet unicast packet, and (b) have high probability of not
+           falsely eliminating a candidate configuration that could be
+           found to be the correct one.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   서버가 이전에 lock_owner 상태를 해제한 후 LOCK, LOCKU, OPEN_DOWNGRADE 또는 CLOSE가 재전송되는 경우 서버는 lock_owner에 열려 있는 파일이 없음을 확인하고 클라이언트에 오류가 반환됩니다. lock_owner에 파일이 열려 있으면 stateid가 일치하지 않으며 클라이언트에 다시 오류가 반환됩니다.

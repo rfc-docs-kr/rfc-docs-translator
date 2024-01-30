@@ -1,0 +1,1 @@
+   이 문서에서 "DHE" 또는 "FFDHE"라는 용어는 TLS의 유한 필드 기반 Diffie-Hellman 임시 키 교환 메커니즘을 나타내는 데 사용됩니다. TLS는 ECDHE(Elliptic Curve Diffie-Hellman Ephemeral) 키 교환 [RFC4492]도 지원하지만 이 문서에서는 해당 사용을 문서화하지 않습니다. 이전에 ECDHE 지원 구현에서만 사용되었던 레지스트리가 이 문서에서 확장되어 FFDHE 그룹도 포함됩니다. 이 문서에서 "FFDHE 암호 모음"은 FFDHE 키 교환 메커니즘을 사용하는 암호 모음만을 참조하기 위해 사용되지만 이러한 모음은 일반적으로 TLS_DHE_ 접두사로 레이블이 지정됩니다.

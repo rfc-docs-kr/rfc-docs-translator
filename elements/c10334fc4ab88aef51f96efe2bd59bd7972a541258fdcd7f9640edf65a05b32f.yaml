@@ -1,0 +1,26 @@
+"hash": |-
+  c10334fc4ab88aef51f96efe2bd59bd7972a541258fdcd7f9640edf65a05b32f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                    +------+
+                                    |      |
+                                    | DRD  |
+                                    |      |
+                                    +------+
+                                     ^    |
+                         2. Request  |    | 3. Redirection
+                                     |    |    Notification
+                                     |    v
+         +------+    --------->     +------+     --------->    +------+
+         |      |    1. Request     |      |     4. Request    |      |
+         | NAS  |                   | DRL  |                   | HMS  |
+         |      |    6. Answer      |      |     5. Answer     |      |
+         +------+    <---------     +------+     <---------    +------+
+        example.net                example.net               example.com
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  5fd6d231d0a0255c12441a4acf6443e2ac7bdfc0c74c35cac6bd9141e238a976
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the server desires a rehandshake, it transitions from the
+     FINISHED state to the PREPARING state to transmit the HelloRequest.
+     When the client receives a HelloRequest, it transitions from FINISHED
+     to PREPARING to transmit the ClientHello.
+"fixed": |-
+  When the server desires a rehandshake, it transitions from the FINISHED state to the PREPARING state to transmit the HelloRequest. When the client receives a HelloRequest, it transitions from FINISHED to PREPARING to transmit the ClientHello.
+"ko": |-
+  서버가 rehandshake를 원하면 FINISHED 상태에서 PREPARING 상태로 전환하여 HelloRequest를 전송합니다. 클라이언트가 HelloRequest를 받으면 FINISHED에서 PREPARING으로 전환하여 ClientHello를 전송합니다.

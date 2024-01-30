@@ -1,0 +1,25 @@
+"hash": |-
+  a9ed9317d05f541a5bf42ea711da482581948397fa1b5b952d07460935b60241
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The third change is to step 8 in Section 13. Confusion between
+          routers as to which LSA instance is more recent can cause a
+          disastrous amount of flooding in a link-state protocol (see
+          [Ref26]). OSPF guards against this problem in two ways: a) the
+          LS age field is used like a TTL field in flooding, to eventually
+          remove looping LSAs from the network (see Section 13.3), and b)
+          routers refuse to accept LSA updates more frequently than once
+          every MinLSArrival seconds (see Section 13).  However, there is
+          still one case in RFC 2178 where disagreements regarding which
+          LSA is more recent can cause a lot of flooding traffic:
+          responding to old LSAs by reflooding the database copy.  For
+          this reason, Step 8 of Section 13 has been amended to only
+          respond with the database copy when that copy has not been sent
+          in any Link State Update within the last MinLSArrival seconds.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

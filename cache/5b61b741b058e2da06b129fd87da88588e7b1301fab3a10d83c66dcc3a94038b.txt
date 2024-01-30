@@ -1,0 +1,1 @@
+   결과 코드 AVP(AVP 코드 268)는 Unsigned32 유형이며 특정 요청이 성공적으로 완료되었는지 또는 오류가 발생했는지 여부를 나타냅니다. IETF 애플리케이션에 정의된 모든 Diameter 응답 메시지는 하나의 결과 코드 AVP를 포함해야 합니다. 비성공적인 결과 코드 AVP(DIAMETER_REDIRECT_INDICATION 이외의 2xxx가 아닌 값을 포함하는 것)는 결과 코드 AVP를 설정하는 호스트가 Origin-Host AVP에 인코딩된 ID와 다른 경우 오류 보고 호스트 AVP를 포함해야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  b7d2e1ead3e5cc1ceb6a245fdc3fdd2d084e39889d1d280c4067068f60ffc36c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This message conveys the client's certificate chain to the server;
+        the server will use it when verifying the CertificateVerify
+        message (when the client authentication is based on signing) or
+        calculating the premaster secret (for non-ephemeral Diffie-
+        Hellman).  The certificate MUST be appropriate for the negotiated
+        cipher suite's key exchange algorithm, and any negotiated
+        extensions.
+"fixed": |-
+  - This message conveys the client's certificate chain to the server; the server will use it when verifying the CertificateVerify message (when the client authentication is based on signing) or calculating the premaster secret (for non-ephemeral Diffie- Hellman).  The certificate MUST be appropriate for the negotiated cipher suite's key exchange algorithm, and any negotiated extensions.
+"ko": |-
+  - 이 메시지는 클라이언트의 인증서 체인을 서버에 전달합니다. 서버는 CertificateVerify 메시지를 확인할 때(클라이언트 인증이 서명을 기반으로 하는 경우) 또는 프리마스터 비밀을 계산할 때(일시적이지 않은 Diffie-Hellman의 경우) 이를 사용합니다. 인증서는 협상된 암호 제품군의 키 교환 알고리즘 및 협상된 확장에 적합해야 합니다.

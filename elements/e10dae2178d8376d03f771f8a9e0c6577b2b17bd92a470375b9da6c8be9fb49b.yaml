@@ -1,0 +1,19 @@
+"hash": |-
+  e10dae2178d8376d03f771f8a9e0c6577b2b17bd92a470375b9da6c8be9fb49b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (5) Next, look up the routing table entry for the destination N.
+              (If N is an AS boundary router, look up the "router" routing
+              table entry associated with Area A).  If no entry exists for
+              N or if the entry's path type is "type 1 external" or "type
+              2 external", then install the inter-area path to N, with
+              associated area Area A, cost IAC, next hop equal to the list
+              of next hops to router BR, and Advertising router equal to
+              BR.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  127d169764efa599e2bbb8f760572d54c053a90d0be5ea6dee10ee1beda01323
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Whenever an implementation encounters a condition which is defined as
+     a fatal alert, it MUST send the appropriate alert prior to closing
+     the connection.  For all errors where an alert level is not
+     explicitly specified, the sending party MAY determine at its
+     discretion whether to treat this as a fatal error or not.  If the
+     implementation chooses to send an alert but intends to close the
+     connection immediately afterwards, it MUST send that alert at the
+     fatal alert level.
+"fixed": |-
+  Whenever an implementation encounters a condition which is defined as a fatal alert, it MUST send the appropriate alert prior to closing the connection.  For all errors where an alert level is not explicitly specified, the sending party MAY determine at its discretion whether to treat this as a fatal error or not.  If the implementation chooses to send an alert but intends to close the connection immediately afterwards, it MUST send that alert at the fatal alert level.
+"ko": |-
+  구현이 치명적인 경고로 정의된 조건을 만날 때마다 연결을 닫기 전에 적절한 경고를 보내야 합니다. 경고 수준이 명시적으로 지정되지 않은 모든 오류의 경우 전송 당사자는 이를 치명적인 오류로 처리할지 여부를 재량에 따라 결정할 수 있습니다. 구현이 경고를 보내기로 선택했지만 이후에 즉시 연결을 닫으려는 경우 치명적인 경고 수준에서 해당 경고를 보내야 합니다.

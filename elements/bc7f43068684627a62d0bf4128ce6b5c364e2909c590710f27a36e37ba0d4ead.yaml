@@ -1,0 +1,19 @@
+"hash": |-
+  bc7f43068684627a62d0bf4128ce6b5c364e2909c590710f27a36e37ba0d4ead
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the value of the EventBufferControl property equals LockStep,
+     following detection of such an event, normal handling of events is
+     suspended. Any event which is subsequently detected and occurs in the
+     EventBuffer Descriptor is added to the end of the EventBuffer (a FIFO
+     queue), along with the time that it was detected.   The MG SHALL wait
+     for a new EventsDescriptor to be loaded.  A new EventsDescriptor can
+     be loaded either as the result of receiving a command with a new
+     EventsDescriptor, or by activating an embedded EventsDescriptor.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

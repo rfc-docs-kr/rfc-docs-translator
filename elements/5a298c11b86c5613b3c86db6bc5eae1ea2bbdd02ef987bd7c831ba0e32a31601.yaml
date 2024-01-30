@@ -1,0 +1,17 @@
+"hash": |-
+  5a298c11b86c5613b3c86db6bc5eae1ea2bbdd02ef987bd7c831ba0e32a31601
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Notice how, in test vector #2, r is equal to zero.  The part of the
+     Poly1305 algorithm where the accumulator is multiplied by r means
+     that with r equal zero, the tag will be equal to s regardless of the
+     content of the text.  Fortunately, all the proposed methods of
+     generating r are such that getting this particular weak key is very
+     unlikely.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

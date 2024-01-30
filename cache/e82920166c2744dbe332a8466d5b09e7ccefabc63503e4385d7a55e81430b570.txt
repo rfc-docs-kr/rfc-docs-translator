@@ -1,0 +1,1 @@
+     // 비트 수는 새 패킷을 포함하여 // 연속된 미확인 패킷 번호 수의 밑이 2인 // 로그보다 적어도 하나 더 많아야 합니다. Large_acked가 None인 경우: num_unacked = full_pn + 1 그렇지 않은 경우: num_unacked = full_pn - maximum_acked

@@ -1,0 +1,1 @@
+   필요한 경우 응답 코드를 SCSI 서비스 응답 코드 값으로 매핑하는 것은 이 문서의 범위를 벗어납니다. 그러나 기호 측면에서 응답 값 0과 1은 FUNCTION COMPLETE의 SCSI 서비스 응답에 매핑됩니다. 응답 값 2는 INCORRECT LOGICAL UNIT NUMBER의 SCSI 서비스 응답에 매핑됩니다. 다른 모든 응답 값은 FUNCTION REJECTED의 SCSI 서비스 응답에 매핑됩니다. 세션이 종료되기 전에 작업 관리 기능 응답 PDU가 도착하지 않으면 SCSI 서비스 응답은 SERVICE DELIVERY OR TARGET FAILURE입니다.

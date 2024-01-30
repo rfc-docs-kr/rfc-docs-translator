@@ -1,0 +1,1 @@
+   달력 컬렉션에 포함된 달력 객체 리소스는 VTIMEZONE 구성 요소를 제외하고 두 가지 유형 이상의 달력 구성 요소(예: VEVENT, VTODO, VJOURNAL, VFREEBUSY 등)를 포함해서는 안 됩니다. iCalendar 객체. 예를 들어 달력 개체 리소스에는 VEVENT 구성 요소 하나와 VTIMEZONE 구성 요소 하나가 포함될 수 있지만 VEVENT 구성 요소 하나와 VTODO 구성 요소 하나는 포함될 수 없습니다. 대신 VEVENT 및 VTODO 구성 요소는 동일한 컬렉션의 별도 달력 개체 리소스에 저장되어야 합니다.

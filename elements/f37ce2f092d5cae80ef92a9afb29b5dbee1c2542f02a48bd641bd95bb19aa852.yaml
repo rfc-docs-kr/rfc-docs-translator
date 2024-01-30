@@ -1,0 +1,17 @@
+"hash": |-
+  f37ce2f092d5cae80ef92a9afb29b5dbee1c2542f02a48bd641bd95bb19aa852
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        1. TLS does not allow independent decryption of individual
+           records.  Because the integrity check depends on the sequence
+           number, if record N is not received, then the integrity check
+           on record N+1 will be based on the wrong sequence number and
+           thus will fail.  (Note that prior to TLS 1.1, there was no
+           explicit IV and so decryption would also fail.)
+"fixed": |-
+  1. TLS does not allow independent decryption of individual records.  Because the integrity check depends on the sequence number, if record N is not received, then the integrity check on record N+1 will be based on the wrong sequence number and thus will fail.  (Note that prior to TLS 1.1, there was no explicit IV and so decryption would also fail.)
+"ko": |-
+  1. TLS는 개별 기록의 독립적인 암호 해독을 허용하지 않습니다. 무결성 검사는 시퀀스 번호에 따라 달라지므로 레코드 N이 수신되지 않으면 레코드 N+1에 대한 무결성 검사가 잘못된 시퀀스 번호를 기반으로 하여 실패하게 됩니다. (TLS 1.1 이전에는 명시적인 IV가 없었으므로 암호 해독도 실패했습니다.)

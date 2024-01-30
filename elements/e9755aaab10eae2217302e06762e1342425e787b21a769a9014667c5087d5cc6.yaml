@@ -1,0 +1,24 @@
+"hash": |-
+  e9755aaab10eae2217302e06762e1342425e787b21a769a9014667c5087d5cc6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           o  RFC 5961 [9], Section 5 describes a potential blind data
+              injection attack, and mitigation that implementations MAY
+              choose to include (MAY-12).  TCP stacks that implement RFC
+              5961 MUST add an input check that the ACK value is
+              acceptable only if it is in the range of ((SND.UNA -
+              MAX.SND.WND) =< SEG.ACK =< SND.NXT).  All incoming segments
+              whose ACK value doesn't satisfy the above condition MUST be
+              discarded and an ACK sent back.  The new state variable
+              MAX.SND.WND is defined as the largest window that the local
+              sender has ever received from its peer (subject to window
+              scaling) or may be hard-coded to a maximum permissible
+              window value.  When the ACK value is acceptable, the per-
+              state processing below applies:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

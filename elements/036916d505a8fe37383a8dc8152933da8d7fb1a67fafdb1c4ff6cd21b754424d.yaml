@@ -1,0 +1,20 @@
+"hash": |-
+  036916d505a8fe37383a8dc8152933da8d7fb1a67fafdb1c4ff6cd21b754424d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Heartbeat message may optionally contain an opaque Heartbeat Data
+     parameter that MUST be echoed back unchanged in the related Heartbeat
+     Ack message.  The sender, upon examining the contents of the returned
+     Heartbeat Ack message, MAY choose to consider the remote M3UA peer as
+     unavailable.  The contents/format of the Heartbeat Data parameter is
+     implementation-dependent and only of local interest to the original
+     sender.  The contents may be used, for example, to support a
+     Heartbeat sequence algorithm (to detect missing Heartbeats), and/or a
+     timestamp mechanism (to evaluate delays).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

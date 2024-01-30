@@ -1,0 +1,24 @@
+"hash": |-
+  42e1666e3b17b9bc954faaeddd33f34ed614c3230980e66447a26eb74a7572e5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          LS age = 0                     ;always true on origination
+          Options = (E-bit)              ;
+          LS type = 1                    ;indicates router-LSA
+          Link State ID = 192.1.1.3      ;RT3's router ID
+          Advertising Router = 192.1.1.3 ;RT3's router ID
+          bit E = 0                      ;not an AS boundary router
+          bit B = 1                      ;area border router
+          #links = 1
+                 Link ID = 18.10.0.6     ;Neighbor's Router ID
+                 Link Data = 0.0.0.3     ;MIB-II ifIndex of P-P link
+                 Type = 1                ;connects to router
+                 # TOS metrics = 0
+                 metric = 8
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

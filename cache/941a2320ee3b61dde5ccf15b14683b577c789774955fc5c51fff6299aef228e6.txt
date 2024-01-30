@@ -1,0 +1,1 @@
+- CREATE_SESSION4_FLAG_CONN_BACK_CHAN이 csa_flags에 설정된 경우 클라이언트는 CREATE_SESSION 작업이 도착한 연결이 포어 채널 외에도 세션의 백채널과 연결되도록 요청합니다. 서버가 동의하면 결과 필드 csr_flags에 CREATE_SESSION4_FLAG_CONN_BACK_CHAN을 설정합니다. CREATE_SESSION4_FLAG_CONN_BACK_CHAN이 csa_flags에 설정되지 않은 경우 CREATE_SESSION4_FLAG_CONN_BACK_CHAN을 csr_flags에 설정하면 안 됩니다.

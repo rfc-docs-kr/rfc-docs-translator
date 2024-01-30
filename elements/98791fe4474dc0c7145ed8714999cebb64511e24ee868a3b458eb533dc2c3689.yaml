@@ -1,0 +1,19 @@
+"hash": |-
+  98791fe4474dc0c7145ed8714999cebb64511e24ee868a3b458eb533dc2c3689
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The time window used for duplicate detection MUST be the same as the
+     window used to detect a stale Event-Timestamp Attribute.  Since the
+     RADIUS Identifier cannot be repeated within the selected time window,
+     no more than 256 Requests can be accepted within the time window.  As
+     a result, the chosen time window will depend on the expected maximum
+     volume of CoA/Disconnect-Requests, so that unnecessary discards can
+     be avoided.  A default time window of 300 seconds should be adequate
+     in many circumstances.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

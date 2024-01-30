@@ -1,0 +1,1 @@
+   클라이언트가 userhash 매개변수를 지원하고 WWW-Authentication 헤더 필드의 userhash 매개변수 값이 "true"로 설정된 경우 클라이언트는 다른 해시 계산 후에 사용자 이름의 해시를 계산하고 해당 값에 userhash 매개변수를 포함해야 합니다. Authorization 헤더 필드가 "true"입니다. 클라이언트가 사용자 이름을 해시 값으로 제공하지 않거나 userhash 매개변수 값이 "true"인 경우 서버는 요청을 거부할 수 있습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  5b4f136dee2336e3cadccba13abbddfc31c1dc0cec8a0ea68a5124f9e6a161a3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In testing for equivalence, applications should not directly compare
+     relative references; the references should be converted to their
+     respective target URIs before comparison.  When URIs are compared to
+     select (or avoid) a network action, such as retrieval of a
+     representation, fragment components (if any) should be excluded from
+     the comparison.
+"fixed": |-
+  In testing for equivalence, applications should not directly compare relative references; the references should be converted to their respective target URIs before comparison.  When URIs are compared to select (or avoid) a network action, such as retrieval of a representation, fragment components (if any) should be excluded from the comparison.
+"ko": |-
+  동등성을 테스트할 때 애플리케이션은 상대 참조를 직접 비교해서는 안 됩니다. 비교하기 전에 참조를 해당 대상 URI로 변환해야 합니다. 표현 검색과 같은 네트워크 작업을 선택(또는 회피)하기 위해 URI를 비교할 때 조각 구성 요소(있는 경우)는 비교에서 제외되어야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  9b7ca178e6df22451cbb3284c118b5db53562bebb3566772f235259d571818da
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          /* Initialize quantization table header
+           */
+          if (q >= 128) {
+                  qtblhdr.mbz = 0;
+                  qtblhdr.precision = 0; /* This code uses 8 bit tables only */
+                  qtblhdr.length = 128;  /* 2 64-byte tables */
+          }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

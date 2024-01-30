@@ -1,0 +1,22 @@
+"hash": |-
+  116c8d2c424953dd4ca2b436a85a99acf4496e8cc0422cdfd5f9712016e88bb7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServMinRateRelative OBJECT-TYPE
+      SYNTAX       Unsigned32  (1..4294967295)
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The minimum rate that a downstream scheduler element should
+         allocate to this queue, relative to the maximum rate of the
+         interface as reported by ifSpeed or ifHighSpeed, in units of
+         1/1000 of 1. If the value is zero, then there is effectively no
+         minimum rate guarantee. If the value is non-zero, the scheduler
+         will assure the servicing of this queue to at least this rate.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

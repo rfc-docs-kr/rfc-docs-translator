@@ -1,0 +1,20 @@
+"hash": |-
+  355ac13d20c529e0eb2f431add5f207996e5b6bb2259499ac73a1a38bbb897cf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              DISCUSSION:
+                   Many TCP implementations become confused if the window
+                   shrinks from the right after data has been sent into a
+                   larger window.  Note that TCP has a heuristic to select
+                   the latest window update despite possible datagram
+                   reordering; as a result, it may ignore a window update
+                   with a smaller window than previously offered if
+                   neither the sequence number nor the acknowledgment
+                   number is increased.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

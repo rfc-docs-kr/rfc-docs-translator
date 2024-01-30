@@ -1,0 +1,16 @@
+"hash": |-
+  eb1212ec9f63e34333a0bc6b17f80bc2ce2d38f72abe1fdd7a86706c89557c9c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that the general effect of this algorithm is to advance RCV.WND
+     in increments of Eff.snd.MSS (for realistic receive buffers:
+     Eff.snd.MSS < RCV.BUFF/2).  Note also that the receiver must use its
+     own Eff.snd.MSS, making the assumption that it is the same as the
+     sender's.
+"fixed": |-
+  Note that the general effect of this algorithm is to advance RCV.WND in increments of Eff.snd.MSS (for realistic receive buffers: Eff.snd.MSS < RCV.BUFF/2).  Note also that the receiver must use its own Eff.snd.MSS, making the assumption that it is the same as the sender's.
+"ko": |-
+  이 알고리즘의 일반적인 효과는 Eff.snd.MSS의 증분으로 RCV.WND를 향상시키는 것입니다(현실적인 수신 버퍼의 경우: Eff.snd.MSS < RCV.BUFF/2). 또한 수신자는 자신의 Eff.snd.MSS를 사용해야 하며 송신자의 것과 동일하다고 가정해야 합니다.

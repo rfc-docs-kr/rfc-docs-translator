@@ -1,0 +1,29 @@
+"hash": |-
+  4525587dda5aa38384e16b87a9f7c432090a732d261b36ee20c26490bd17c8e8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          ClientHello
+          + key_share             -------->
+                                                    HelloRetryRequest
+                                  <--------               + key_share
+          ClientHello
+          + key_share             -------->
+                                                          ServerHello
+                                                          + key_share
+                                                {EncryptedExtensions}
+                                                {CertificateRequest*}
+                                                       {Certificate*}
+                                                 {CertificateVerify*}
+                                                           {Finished}
+                                  <--------       [Application Data*]
+          {Certificate*}
+          {CertificateVerify*}
+          {Finished}              -------->
+          [Application Data]      <------->        [Application Data]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

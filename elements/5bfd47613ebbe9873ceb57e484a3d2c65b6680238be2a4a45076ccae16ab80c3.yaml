@@ -1,0 +1,18 @@
+"hash": |-
+  5bfd47613ebbe9873ceb57e484a3d2c65b6680238be2a4a45076ccae16ab80c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [a] In order to avoid synchronization behaviors that can occur with
+         fixed timers among distributed systems, the retransmission timer
+         is calculated with a jitter by using the RTO value and randomly
+         adding a value drawn between -RTOmin/2 and RTOmin/2.  Alternative
+         calculations to create jitter MAY be used.  These MUST be
+         pseudo-random.  For a discussion of pseudo-random number
+         generation, see [RFC1750].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  3376f79d5b4428854e5f696eb453b32baf8baf19771784493e2075585a6b8c01
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At the ASP, the ASP Active Ack message received is not acknowledged.
+     Layer Management is informed with an M-ASP_ACTIVE confirm primitive.
+     It is possible for the ASP to receive Data messages before the ASP
+     Active Ack message as the ASP Active Ack and Data messages from an SG
+     or IPSP may be sent on different SCTP streams.  Message loss is
+     possible, as the ASP does not consider itself in the ASP-ACTIVE state
+     until receipt of the ASP Active Ack message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

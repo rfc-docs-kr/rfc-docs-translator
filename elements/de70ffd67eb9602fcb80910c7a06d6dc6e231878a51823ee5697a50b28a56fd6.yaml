@@ -1,0 +1,59 @@
+"hash": |-
+  de70ffd67eb9602fcb80910c7a06d6dc6e231878a51823ee5697a50b28a56fd6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    |    01110 - 48 kbit/s Recommendations V.6 and X.1                   |
+    |    01111 - 56 kbit/s Recommendation V.6                            |
+    |    10010 - 57.6 kbit/s Recommendation V.14 extended                |
+    |    10011 - 28.8 kbit/s Recommendation V.110                        |
+    |    10100 - 24 kbit/s Recommendation V.110                          |
+    |    10101 - 0.1345 kbit/s Recommendation X.1                        |
+    |    10110 - 0.100 kbit/s Recommendation X.1                         |
+    |    10111 - 0.075/1.2 kbit/s Recommendations V.6 and X.1            |
+    |    11000 - 1.2/0.075 kbit/s Recommendations V.6 and X.1            |
+    |    11001 - 0.050 kbit/s Recommendations V.6 and X.1                |
+    |    11010 - 0.075 kbit/s Recommendations V.6 and X.1                |
+    |    11011 - 0.110 kbit/s Recommendations V.6 and X.1                |
+    |    11100 - 0.150 kbit/s Recommendations V.6 and X.1                |
+    |    11101 - 0.200 kbit/s Recommendations V.6 and X.1                |
+    |    11110 - 0.300 kbit/s Recommendations V.6 and X.1                |
+    |    11111 - 12 kbit/s Recommendation V.6                            |
+    |    All other values are reserved.                                  |
+    +----------------+---------+-----------------+-----------------------+
+    | INTRATE        | 900C    | 2 BITS          |  Intermediate Rate    |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bit 2 1                                                         |
+    |    00 - Not used                                                   |
+    |    01 - 8 kbit/s                                                   |
+    |    10 - 16 kbit/s                                                  |
+    |    11 - 32 kbit/s                                                  |
+    +----------------+---------+-----------------+-----------------------+
+    | nictx          | 900D    | BOOLEAN         |  Network Independent  |
+    |                |         |                 |  Clock (NIC) on       |
+    |                |         |                 |  transmission         |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - Not required to send data with network independent clock    |
+    |    1 - Required to send data with network independent clock        |
+    +----------------+---------+-----------------+-----------------------+
+    | nicrx          | 900E    | BOOLEAN         |  Network independent  |
+    |                |         |                 |  clock (NIC) on       |
+    |                |         |                 |  reception            |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - Cannot accept data with network independent clock (i.e.     |
+    |        sender does not support this optional procedure)            |
+    |    1 - Can accept data with network independent clock (i.e. sender |
+    |        does support this optional procedure)                       |
+    +----------------+---------+-----------------+-----------------------+
+    | flowconttx     | 900F    | BOOLEAN         |  Flow Control on      |
+    |                |         |                 |  transmission (Tx)    |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - Not required to send data with flow control mechanism       |
+    |    1 - Required to send data with flow control mechanism           |
+    +----------------+---------+-----------------+-----------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

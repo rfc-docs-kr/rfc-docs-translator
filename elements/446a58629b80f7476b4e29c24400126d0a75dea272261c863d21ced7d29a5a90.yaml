@@ -1,0 +1,17 @@
+"hash": |-
+  446a58629b80f7476b4e29c24400126d0a75dea272261c863d21ced7d29a5a90
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a redirect agent receives a request whose routing entry is set
+     to REDIRECT, it MUST reply with an answer message with the 'E' bit
+     set, while maintaining the Hop-by-Hop Identifier in the header, and
+     include the Result-Code AVP to DIAMETER_REDIRECT_INDICATION.  Each of
+     the servers associated with the routing entry are added in a separate
+     Redirect-Host AVP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

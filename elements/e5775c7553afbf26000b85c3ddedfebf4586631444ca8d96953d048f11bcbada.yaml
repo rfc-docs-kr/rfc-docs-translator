@@ -1,0 +1,15 @@
+"hash": |-
+  e5775c7553afbf26000b85c3ddedfebf4586631444ca8d96953d048f11bcbada
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  For any state if the user timeout expires, flush all queues,
+        signal the user "error: connection aborted due to user timeout" in
+        general and for any outstanding calls, delete the TCB, enter the
+        CLOSED state, and return.
+"fixed": |-
+  *  For any state if the user timeout expires, flush all queues, signal the user "error: connection aborted due to user timeout" in general and for any outstanding calls, delete the TCB, enter the CLOSED state, and return.
+"ko": |-
+  * 어떤 상태에서든 사용자 시간 초과가 만료되면 모든 대기열을 비우고 일반적으로 사용자에게 "오류: 사용자 시간 초과로 인해 연결이 중단되었습니다"라는 신호를 보내고 미해결 호출의 경우 TCB를 삭제하고 CLOSED 상태로 들어간 다음 반환합니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  a5e415e2a007318df8b5d70b9f8bdd0a3db3f2219b3991f195d49be67cca9ee5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          This section has assumed that packets destined for external
+          destinations are always routed through the advertising AS
+          boundary router.  This is not always desirable.  For example,
+          suppose in Figure 2 there is an additional router attached to
+          Network N6, called Router RTX.  Suppose further that RTX does
+          not participate in OSPF routing, but does exchange BGP
+          information with the AS boundary router RT7.  Then, Router RT7
+          would end up advertising OSPF external routes for all
+          destinations that should be routed to RTX.  An extra hop will
+          sometimes be introduced if packets for these destinations need
+          always be routed first to Router RT7 (the advertising router).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

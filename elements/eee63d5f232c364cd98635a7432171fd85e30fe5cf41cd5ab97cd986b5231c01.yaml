@@ -1,0 +1,25 @@
+"hash": |-
+  eee63d5f232c364cd98635a7432171fd85e30fe5cf41cd5ab97cd986b5231c01
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   At present, pinging (i.e., using ICMP Echo messages) is
+                   the mechanism for gateway probing when absolutely
+                   required.  A successful ping guarantees that the
+                   addressed interface and its associated machine are up,
+                   but it does not guarantee that the machine is a gateway
+                   as opposed to a host.  The normal inference is that if
+                   a Redirect or other evidence indicates that a machine
+                   was a gateway, successful pings will indicate that the
+                   machine is still up and hence still a gateway.
+                   However, since a host silently discards packets that a
+                   gateway would forward or redirect, this assumption
+                   could sometimes fail.  To avoid this problem, a new
+                   ICMP message under development will ask "are you a
+                   gateway?"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   SECINFO는 아래쪽으로만 작동하므로 LOOKUPP가 SECINFO_NO_NAME 없이 NFS4ERR_WRONGSEC를 반환할 수 있는 방법은 없습니다. SECINFO_NO_NAME은 SECINFO와 반대 방향으로 작동하는 SECINFO_STYLE4_PARENT 스타일을 통해 이 문제를 해결합니다. 섹션 2.6.3.1.1.3과 마찬가지로, LOOKUPP 다음에 오는 파일 핸들 넣기 작업은 NFS4ERR_WRONGSEC를 반환해서는 안 됩니다. 서버가 SECINFO_NO_NAME을 지원하지 않는 경우 클라이언트의 유일한 방법은 지원하는 모든 보안 튜플과 함께 파일 핸들 넣기 작업, LOOKUPP, GETFH 작업 시퀀스를 보내는 것입니다.

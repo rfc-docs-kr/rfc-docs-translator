@@ -1,0 +1,1 @@
+   RENEWING 및 REBINDING 상태 모두에서 클라이언트가 DHCPREQUEST 메시지에 대한 응답을 받지 못한 경우 클라이언트는 T2(RENEWING 상태)까지 남은 시간의 절반을 기다려야 하고, REBINDING 상태에서 남은 임대 시간의 절반을 기다려야 합니다. , DHCPREQUEST 메시지를 재전송하기 전에 최소 60초로 줄였습니다.

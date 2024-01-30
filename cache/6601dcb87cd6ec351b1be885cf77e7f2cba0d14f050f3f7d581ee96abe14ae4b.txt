@@ -1,0 +1,1 @@
+   Accounting-Sub-Session-Id의 특정 값은 재전송 목적을 제외하고 DIAMETER 클라이언트의 하나의 회계 레코드 시퀀스에만 나타나야 합니다. 전송되는 하나의 시퀀스는 EVENT_RECORD 값으로 설정된 Accounting-Record-Type AVP가 있는 하나의 레코드이거나, 값이 START_RECORD인 레코드로 시작하고 그 뒤에 0개 이상의 INTERIM_RECORD와 단일 STOP_RECORD가 따라오는 여러 레코드여야 합니다. 특정 Diameter 애플리케이션 사양은 반드시 사용해야 하는 시퀀스 유형을 정의해야 합니다.

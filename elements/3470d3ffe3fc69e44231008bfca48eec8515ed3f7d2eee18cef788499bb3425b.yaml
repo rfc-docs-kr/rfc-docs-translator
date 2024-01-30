@@ -1,0 +1,17 @@
+"hash": |-
+  3470d3ffe3fc69e44231008bfca48eec8515ed3f7d2eee18cef788499bb3425b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The DTLS MAC is the same as that of TLS 1.2. However, rather than
+     using TLS's implicit sequence number, the sequence number used to
+     compute the MAC is the 64-bit value formed by concatenating the epoch
+     and the sequence number in the order they appear on the wire.  Note
+     that the DTLS epoch + sequence number is the same length as the TLS
+     sequence number.
+"fixed": |-
+  The DTLS MAC is the same as that of TLS 1.2. However, rather than using TLS's implicit sequence number, the sequence number used to compute the MAC is the 64-bit value formed by concatenating the epoch and the sequence number in the order they appear on the wire.  Note that the DTLS epoch + sequence number is the same length as the TLS sequence number.
+"ko": |-
+  DTLS MAC은 TLS 1.2와 동일합니다. 그러나 TLS의 암시적 시퀀스 번호를 사용하는 대신 MAC을 계산하는 데 사용되는 시퀀스 번호는 회선에 나타나는 순서대로 에포크와 시퀀스 번호를 연결하여 형성된 64비트 값입니다. DTLS 에포크 + 시퀀스 번호는 TLS 시퀀스 번호와 길이가 동일합니다.

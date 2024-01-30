@@ -1,0 +1,23 @@
+"hash": |-
+  88b3b969a53bcc48bae7cf6338c5933fe9f64597c213c33857a73e8a57c7d889
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Figure 7 shows the resulting link-state database for the Area 1.
+          The figure completely describes that area's intra-area routing.
+          It also shows the complete view of the internet for the two
+          internal routers RT1 and RT2.  It is the job of the area border
+          routers, RT3 and RT4, to advertise into Area 1 the distances to
+          all destinations external to the area.  These are indicated in
+          Figure 7 by the dashed stub routes.  Also, RT3 and RT4 must
+          advertise into Area 1 the location of the AS boundary routers
+          RT5 and RT7.  Finally, AS-external-LSAs from RT5 and RT7 are
+          flooded throughout the entire AS, and in particular throughout
+          Area 1.  These LSAs are included in Area 1's database, and yield
+          routes to Networks N12-N15.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

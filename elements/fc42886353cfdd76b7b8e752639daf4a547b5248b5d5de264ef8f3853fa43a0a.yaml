@@ -1,0 +1,17 @@
+"hash": |-
+  fc42886353cfdd76b7b8e752639daf4a547b5248b5d5de264ef8f3853fa43a0a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        "./../g"        =  "http://a/b/g"
+        "./g/."         =  "http://a/b/c/g/"
+        "g/./h"         =  "http://a/b/c/g/h"
+        "g/../h"        =  "http://a/b/c/h"
+        "g;x=1/./y"     =  "http://a/b/c/g;x=1/y"
+        "g;x=1/../y"    =  "http://a/b/c/y"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

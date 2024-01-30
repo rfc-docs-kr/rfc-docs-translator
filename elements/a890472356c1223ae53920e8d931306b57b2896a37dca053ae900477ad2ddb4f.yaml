@@ -1,0 +1,21 @@
+"hash": |-
+  a890472356c1223ae53920e8d931306b57b2896a37dca053ae900477ad2ddb4f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Rationale: For various reasons, in practice, DH keys are typically
+     generated in lengths that are powers of two (e.g., 2^10 = 1024 bits,
+     2^11 = 2048 bits, 2^12 = 4096 bits).  Because a DH key of 1228 bits
+     would be roughly equivalent to only an 80-bit symmetric key
+     [RFC3766], it is better to use keys longer than that for the "DHE"
+     family of cipher suites.  A DH key of 1926 bits would be roughly
+     equivalent to a 100-bit symmetric key [RFC3766].  A DH key of 2048
+     bits (equivalent to a 112-bit symmetric key) is the minimum allowed
+     by the latest revision of [NIST.SP.800-56A] as of this writing (see
+     in particular Appendix D of that document).
+"fixed": |-
+  Rationale: For various reasons, in practice, DH keys are typically generated in lengths that are powers of two (e.g., 2^10 = 1024 bits, 2^11 = 2048 bits, 2^12 = 4096 bits).  Because a DH key of 1228 bits would be roughly equivalent to only an 80-bit symmetric key [RFC3766], it is better to use keys longer than that for the "DHE" family of cipher suites.  A DH key of 1926 bits would be roughly equivalent to a 100-bit symmetric key [RFC3766].  A DH key of 2048 bits (equivalent to a 112-bit symmetric key) is the minimum allowed by the latest revision of [NIST.SP.800-56A] as of this writing (see in particular Appendix D of that document).
+"ko": |-
+  근거: 다양한 이유로 인해 실제로 DH 키는 일반적으로 2의 거듭제곱인 길이로 생성됩니다(예: 2^10 = 1024비트, 2^11 = 2048비트, 2^12 = 4096비트). 1228비트의 DH 키는 대략 80비트 대칭 키[RFC3766]와 동일하므로 "DHE" 암호 제품군의 키보다 긴 키를 사용하는 것이 좋습니다. 1926비트의 DH 키는 대략 100비트 대칭 키[RFC3766]와 동일합니다. 2048비트의 DH 키(112비트 대칭 키와 동일)는 이 글을 쓰는 시점에서 [NIST.SP.800-56A]의 최신 개정판에서 허용하는 최소값입니다(특히 해당 문서의 부록 D 참조).

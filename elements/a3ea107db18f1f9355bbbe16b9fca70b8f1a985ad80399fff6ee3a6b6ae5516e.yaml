@@ -1,0 +1,16 @@
+"hash": |-
+  a3ea107db18f1f9355bbbe16b9fca70b8f1a985ad80399fff6ee3a6b6ae5516e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        path-abempty  = *( "/" segment )
+        path-absolute = "/" [ segment-nz *( "/" segment ) ]
+        path-noscheme = segment-nz-nc *( "/" segment )
+        path-rootless = segment-nz *( "/" segment )
+        path-empty    = 0<pchar>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

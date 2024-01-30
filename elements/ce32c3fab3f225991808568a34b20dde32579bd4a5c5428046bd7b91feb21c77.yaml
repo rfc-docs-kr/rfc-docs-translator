@@ -1,0 +1,20 @@
+"hash": |-
+  ce32c3fab3f225991808568a34b20dde32579bd4a5c5428046bd7b91feb21c77
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In some Autonomous Systems, the majority of the link-state
+          database may consist of AS-external-LSAs.  An OSPF AS-external-
+          LSA is usually flooded throughout the entire AS.  However, OSPF
+          allows certain areas to be configured as "stub areas".  AS-
+          external-LSAs are not flooded into/throughout stub areas;
+          routing to AS external destinations in these areas is based on a
+          (per-area) default only.  This reduces the link-state database
+          size, and therefore the memory requirements, for a stub area's
+          internal routers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

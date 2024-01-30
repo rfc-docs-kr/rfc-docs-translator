@@ -1,0 +1,18 @@
+"hash": |-
+  4295e3e17182eb6b4605671c87bde215a3dce352e1c904f2611770e979fd4a3e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        With the second approach, an RSA-IP-Server could be any router
+        (including a NAT router) that can be a tunnel end-point with
+        RSA-IP-Clients.  It would detunnel end-to-end packets outbound
+        from RSA-IP-Clients and forward to external hosts. On the
+        return path, it would locate RSA-IP-Client tunnel, based on the
+        destination address of the end-to-end packet and encapsulate the
+        packet in a tunnel to forward to RSA-IP-Client.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

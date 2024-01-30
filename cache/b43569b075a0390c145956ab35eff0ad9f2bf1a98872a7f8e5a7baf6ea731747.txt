@@ -1,0 +1,1 @@
+   각 서브프레임의 최종 피치 지연은 Silk_decode_pitch()(decode_pitch.c)에 수집됩니다. lag를 현재 SILK 프레임에 대한 주요 피치 래그라고 하고, Contour_index를 VQ 코드북의 인덱스라고 하고, lag_cb[contour_index][k]를 k번째 서브프레임에 대해 위에 주어진 적절한 테이블로부터의 코드북의 해당 항목이라고 합니다. 그런 다음 해당 서브프레임의 최종 피치 지연은 다음과 같습니다.

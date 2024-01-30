@@ -1,0 +1,20 @@
+"hash": |-
+  5dbec6be42140c8e008df6237494814298b8326b512c0db866afe5154346e156
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: There is no single, obvious choice for a technical
+        definition of this term. Different PKIs can use different
+        certificate profiles, and X.509 provides several choices of how to
+        issue certificates to CAs. For example, one possible definition is
+        the following: A v3 X.509 public-key certificate that has a
+        "basicConstraints" extension containing a "cA" value of "TRUE".
+        That would specifically indicate that "the certified public key
+        may be used to verify certificate signatures", i.e., that the
+        private key may be used by a CA.
+"fixed": |-
+  - Tutorial: There is no single, obvious choice for a technical definition of this term. Different PKIs can use different certificate profiles, and X.509 provides several choices of how to issue certificates to CAs. For example, one possible definition is the following: A v3 X.509 public-key certificate that has a "basicConstraints" extension containing a "cA" value of "TRUE". That would specifically indicate that "the certified public key may be used to verify certificate signatures", i.e., that the private key may be used by a CA.
+"ko": |-
+  - 튜토리얼: 이 용어의 기술적 정의에 대한 단일하고 명확한 선택은 없습니다. 다양한 PKI는 다양한 인증서 프로필을 사용할 수 있으며 X.509는 CA에 인증서를 발급하는 방법에 대한 여러 가지 선택 사항을 제공합니다. 예를 들어, 가능한 정의 중 하나는 다음과 같습니다. "TRUE"의 "cA" 값을 포함하는 "basicConstraints" 확장자가 있는 v3 X.509 공개 키 인증서입니다. 이는 특히 "인증된 공개 키를 사용하여 인증서 서명을 확인할 수 있음", 즉 CA에서 개인 키를 사용할 수 있음을 나타냅니다.

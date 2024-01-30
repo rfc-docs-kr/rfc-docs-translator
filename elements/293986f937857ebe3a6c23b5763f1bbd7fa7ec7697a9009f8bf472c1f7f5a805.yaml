@@ -1,0 +1,14 @@
+"hash": |-
+  293986f937857ebe3a6c23b5763f1bbd7fa7ec7697a9009f8bf472c1f7f5a805
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  Do not process the FIN if the state is CLOSED, LISTEN, or SYN-
+           SENT since the SEG.SEQ cannot be validated; drop the segment
+           and return.
+"fixed": |-
+  -  Do not process the FIN if the state is CLOSED, LISTEN, or SYN- SENT since the SEG.SEQ cannot be validated; drop the segment and return.
+"ko": |-
+  - SEG.SEQ를 검증할 수 없으므로 상태가 CLOSED, LISTEN 또는 SYNSENT인 경우 FIN을 처리하지 마십시오. 세그먼트를 삭제하고 돌아옵니다.

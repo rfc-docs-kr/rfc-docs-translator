@@ -1,0 +1,35 @@
+"hash": |-
+  01f24a1bc83b6ec93800227bf203637d29a9e9f8a9c1c91f27298ad32ec88e1d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMIBMultiFieldClfrGroup OBJECT-GROUP
+      OBJECTS {
+                diffServMultiFieldClfrNextFree,
+                diffServMultiFieldClfrAddrType,
+                diffServMultiFieldClfrDstAddr,
+                diffServMultiFieldClfrDstPrefixLength,
+                diffServMultiFieldClfrFlowId,
+                diffServMultiFieldClfrSrcAddr,
+                diffServMultiFieldClfrSrcPrefixLength,
+                diffServMultiFieldClfrDscp,
+                diffServMultiFieldClfrProtocol,
+                diffServMultiFieldClfrDstL4PortMin,
+                diffServMultiFieldClfrDstL4PortMax,
+                diffServMultiFieldClfrSrcL4PortMin,
+                diffServMultiFieldClfrSrcL4PortMax,
+                diffServMultiFieldClfrStorage,
+                diffServMultiFieldClfrStatus
+      }
+      STATUS       current
+      DESCRIPTION
+         "The Multi-field Classifier Group defines the MIB Objects that
+         describe a classifier element for matching on various fields of
+         an IP and upper-layer protocol header."
+      ::= { diffServMIBGroups 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

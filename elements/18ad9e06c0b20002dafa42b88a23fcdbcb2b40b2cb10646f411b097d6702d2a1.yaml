@@ -1,0 +1,21 @@
+"hash": |-
+  18ad9e06c0b20002dafa42b88a23fcdbcb2b40b2cb10646f411b097d6702d2a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The generation of an aggregate route is usually specified either
+     statically or in response to learning an active dynamic route for a
+     prefix contained within the aggregate route.  If such dynamic
+     aggregate route advertisement is done, care should be taken that
+     routes are not excessively added or withdrawn (known as "route
+     flapping").  In general, a dynamic aggregate route advertisement is
+     added when at least one component of the aggregate becomes reachable
+     and it is withdrawn only when all components become unreachable.
+     Properly configured, aggregated routes are more stable than non-
+     aggregated routes and thus improve global routing stability.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

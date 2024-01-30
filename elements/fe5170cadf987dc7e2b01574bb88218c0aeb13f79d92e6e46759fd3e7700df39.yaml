@@ -1,0 +1,18 @@
+"hash": |-
+  fe5170cadf987dc7e2b01574bb88218c0aeb13f79d92e6e46759fd3e7700df39
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Applications should prevent dereference of a URI that specifies a TCP
+     port number within the "well-known port" range (0 - 1023) unless the
+     protocol being used to dereference that URI is compatible with the
+     protocol expected on that well-known port.  Although IANA maintains a
+     registry of well-known ports, applications should make such
+     restrictions user-configurable to avoid preventing the deployment of
+     new services.
+"fixed": |-
+  Applications should prevent dereference of a URI that specifies a TCP port number within the "well-known port" range (0 - 1023) unless the protocol being used to dereference that URI is compatible with the protocol expected on that well-known port.  Although IANA maintains a registry of well-known ports, applications should make such restrictions user-configurable to avoid preventing the deployment of new services.
+"ko": |-
+  응용 프로그램은 해당 URI를 역참조하는 데 사용되는 프로토콜이 해당 잘 알려진 포트에서 예상되는 프로토콜과 호환되지 않는 한 "잘 알려진 포트" 범위(0 - 1023) 내에서 TCP 포트 번호를 지정하는 URI의 역참조를 방지해야 합니다. IANA는 잘 알려진 포트의 레지스트리를 유지 관리하지만 애플리케이션은 새로운 서비스 배포를 방해하지 않도록 이러한 제한을 사용자가 구성할 수 있도록 해야 합니다.

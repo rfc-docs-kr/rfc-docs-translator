@@ -1,0 +1,17 @@
+"hash": |-
+  85fb345d69c465dbccce6c4beeac5b7ed1280865bd55a4d7d211416368d5af84
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  Request that the client send another ClientHello by responding
+        with a HelloRetryRequest.  A client MUST NOT include the
+        "early_data" extension in its followup ClientHello.  The server
+        then ignores early data by skipping all records with an external
+        content type of "application_data" (indicating that they are
+        encrypted), up to the configured max_early_data_size.
+"fixed": |-
+  -  Request that the client send another ClientHello by responding with a HelloRetryRequest.  A client MUST NOT include the "early_data" extension in its followup ClientHello.  The server then ignores early data by skipping all records with an external content type of "application_data" (indicating that they are encrypted), up to the configured max_early_data_size.
+"ko": |-
+  - 클라이언트가 HelloRetryRequest로 응답하여 다른 ClientHello를 보내도록 요청합니다. 클라이언트는 후속 ClientHello에 "early_data" 확장을 포함하면 안 됩니다. 그런 다음 서버는 구성된 max_early_data_size까지 외부 콘텐츠 유형이 "application_data"(암호화되었음을 나타냄)인 모든 레코드를 건너뛰어 초기 데이터를 무시합니다.

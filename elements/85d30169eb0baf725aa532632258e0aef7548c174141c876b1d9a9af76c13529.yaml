@@ -1,0 +1,18 @@
+"hash": |-
+  85d30169eb0baf725aa532632258e0aef7548c174141c876b1d9a9af76c13529
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client MUST send the delegated credential as an extension in the
+     CertificateEntry of its end-entity certificate; the server MUST NOT
+     use delegated credentials sent as extensions to any other
+     certificate, and SHOULD ignore them, but MAY abort the handshake with
+     an "illegal_parameter" alert.  If the client sends multiple delegated
+     credentials extensions in a single CertificateEntry, the server MUST
+     abort the handshake with an "illegal_parameter" alert.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

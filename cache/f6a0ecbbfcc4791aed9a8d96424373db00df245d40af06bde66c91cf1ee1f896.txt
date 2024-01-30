@@ -1,0 +1,3 @@
+   구조체 {
+
+- 선택(KeyExchangeAlgorithm) { 케이스 dh_anon: ServerDHParams 매개변수; 케이스 dhe_dss: 케이스 dhe_rsa: ServerDHParams 매개변수; 디지털 서명된 구조체 { opaque client_random[32]; 불투명한 서버_랜덤[32]; ServerDHParams 매개변수; } signed_params; 케이스 rsa: 케이스 dh_dss: 케이스 dh_rsa: struct {} ; /* rsa, dh_dss 및 dh_rsa의 경우 메시지가 생략됩니다. */ /* 확장될 수 있습니다(예: ECDH의 경우) -- [TLSECC] 참조 */ } ServerKeyExchange;

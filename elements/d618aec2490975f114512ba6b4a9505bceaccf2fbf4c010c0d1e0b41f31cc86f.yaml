@@ -1,0 +1,18 @@
+"hash": |-
+  d618aec2490975f114512ba6b4a9505bceaccf2fbf4c010c0d1e0b41f31cc86f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because the percent ("%") character serves as the indicator for
+     percent-encoded octets, it must be percent-encoded as "%25" for that
+     octet to be used as data within a URI.  Implementations must not
+     percent-encode or decode the same string more than once, as decoding
+     an already decoded string might lead to misinterpreting a percent
+     data octet as the beginning of a percent-encoding, or vice versa in
+     the case of percent-encoding an already percent-encoded string.
+"fixed": |-
+  Because the percent ("%") character serves as the indicator for percent-encoded octets, it must be percent-encoded as "%25" for that octet to be used as data within a URI.  Implementations must not percent-encode or decode the same string more than once, as decoding an already decoded string might lead to misinterpreting a percent data octet as the beginning of a percent-encoding, or vice versa in the case of percent-encoding an already percent-encoded string.
+"ko": |-
+  퍼센트("%") 문자는 퍼센트 인코딩된 옥텟에 대한 표시기 역할을 하기 때문에 해당 옥텟이 URI 내에서 데이터로 사용되려면 "%25"로 퍼센트 인코딩되어야 합니다. 구현 시 동일한 문자열을 두 번 이상 퍼센트 인코딩하거나 디코딩해서는 안 됩니다. 이미 디코딩된 문자열을 디코딩하면 퍼센트 데이터 옥텟을 퍼센트 인코딩의 시작으로 잘못 해석할 수 있고, 그 반대의 경우도 마찬가지입니다. 퍼센트 인코딩된 문자열입니다.

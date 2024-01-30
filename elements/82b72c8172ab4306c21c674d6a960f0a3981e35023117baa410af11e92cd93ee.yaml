@@ -1,0 +1,20 @@
+"hash": |-
+  82b72c8172ab4306c21c674d6a960f0a3981e35023117baa410af11e92cd93ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The <rpc> element has a mandatory attribute "message-id", which is a
+     string chosen by the sender of the RPC that will commonly encode a
+     monotonically increasing integer.  The receiver of the RPC does not
+     decode or interpret this string but simply saves it to be used as a
+     "message-id" attribute in any resulting <rpc-reply> message.  The
+     sender MUST ensure that the "message-id" value is normalized
+     according to the XML attribute value normalization rules defined in
+     [W3C.REC-xml-20001006] if the sender wants the string to be returned
+     unmodified.  For example:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

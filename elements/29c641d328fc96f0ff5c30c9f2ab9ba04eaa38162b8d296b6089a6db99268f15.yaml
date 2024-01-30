@@ -1,0 +1,24 @@
+"hash": |-
+  29c641d328fc96f0ff5c30c9f2ab9ba04eaa38162b8d296b6089a6db99268f15
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServRandomDropMaxThreshPkts OBJECT-TYPE
+      SYNTAX       Unsigned32  (1..4294967295)
+      UNITS        "packets"
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The average queue depth beyond which traffic has a probability
+         indicated by diffServRandomDropProbMax of being dropped or
+         marked. Note that this differs from the physical queue limit,
+         which is stored in diffServAlgDropQThreshold. Changes in this
+         variable may or may not be reflected in the reported value of
+         diffServRandomDropMaxThreshBytes."
+      ::= { diffServRandomDropEntry 5 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

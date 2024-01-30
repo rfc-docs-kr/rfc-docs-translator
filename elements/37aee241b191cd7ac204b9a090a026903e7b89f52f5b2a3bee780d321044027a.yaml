@@ -1,0 +1,20 @@
+"hash": |-
+  37aee241b191cd7ac204b9a090a026903e7b89f52f5b2a3bee780d321044027a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a service makes use of the authentication and/or authorization
+     portion of an application, and a user requests access to the network,
+     the Diameter client issues an auth request to its local server.  The
+     auth request is defined in a service-specific Diameter application
+     (e.g., NASREQ).  The request contains a Session-Id AVP, which is used
+     in subsequent messages (e.g., subsequent authorization, accounting,
+     etc.) relating to the user's session.  The Session-Id AVP is a means
+     for the client and servers to correlate a Diameter message with a
+     user session.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  7f22111fc9610fe1c31ca1a462ecbc52bc9c89800c9953203212f97ff824afd3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        RADIUS implementations typically require that the name or address
+        of servers or clients be manually configured, along with the
+        corresponding shared secrets.  This results in a large
+        administrative burden and creates the temptation to reuse the
+        RADIUS shared secret, which can result in major security
+        vulnerabilities if the Request Authenticator is not globally and
+        temporally unique as required in [RFC2865].  Through DNS, Diameter
+        enables dynamic discovery of peers (see Section 5.2).  Derivation
+        of dynamic session keys is enabled via transmission-level
+        security.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

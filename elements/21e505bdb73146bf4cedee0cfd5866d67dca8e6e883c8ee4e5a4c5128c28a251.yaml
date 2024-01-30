@@ -1,0 +1,21 @@
+"hash": |-
+  21e505bdb73146bf4cedee0cfd5866d67dca8e6e883c8ee4e5a4c5128c28a251
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Transaction ::= CHOICE
+     {
+          transactionRequest      TransactionRequest,
+          transactionPending      TransactionPending,
+          transactionReply        TransactionReply,
+          transactionResponseAck  TransactionResponseAck,
+               -- use of response acks is dependent on underlying
+     transport
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

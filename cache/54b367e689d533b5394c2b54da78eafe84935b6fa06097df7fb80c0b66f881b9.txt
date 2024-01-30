@@ -1,0 +1,1 @@
+   이 섹션에 정의된 프로토콜 동작은 이 문서를 준수하는 모든 iSCSI 구현으로 구현되어야 하며, 아래 일부 단계는 [RFC3720] 의미 체계와 호환되지 않을 수 있다는 점에 유의하세요. 그러나 이 섹션에 정의된 프로토콜 동작은 해당 세션에서 TaskReporting(섹션 13.23) 키를 "FastAbort"로 협상할 때 iSCSI 세션의 iSCSI 구현에 의해 표시되어야 합니다. ABORT TASK SET, CLEAR TASK SET, LOGICAL UNIT RESET, TARGET WARM RESET 및 TARGET COLD RESET TMF 요청의 실행은 지정된 당사자에서 지정된 순서로 다음 작업 시퀀스로 구성됩니다.

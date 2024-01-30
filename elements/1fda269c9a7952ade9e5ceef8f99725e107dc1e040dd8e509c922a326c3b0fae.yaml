@@ -1,0 +1,22 @@
+"hash": |-
+  1fda269c9a7952ade9e5ceef8f99725e107dc1e040dd8e509c922a326c3b0fae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As of TLS 1.3, servers are permitted to send the "supported_groups"
+     extension to the client.  Clients MUST NOT act upon any information
+     found in "supported_groups" prior to successful completion of the
+     handshake but MAY use the information learned from a successfully
+     completed handshake to change what groups they use in their
+     "key_share" extension in subsequent connections.  If the server has a
+     group it prefers to the ones in the "key_share" extension but is
+     still willing to accept the ClientHello, it SHOULD send
+     "supported_groups" to update the client's view of its preferences;
+     this extension SHOULD contain all groups the server supports,
+     regardless of whether they are currently supported by the client.
+"fixed": |-
+  As of TLS 1.3, servers are permitted to send the "supported_groups" extension to the client.  Clients MUST NOT act upon any information found in "supported_groups" prior to successful completion of the handshake but MAY use the information learned from a successfully completed handshake to change what groups they use in their "key_share" extension in subsequent connections.  If the server has a group it prefers to the ones in the "key_share" extension but is still willing to accept the ClientHello, it SHOULD send "supported_groups" to update the client's view of its preferences; this extension SHOULD contain all groups the server supports, regardless of whether they are currently supported by the client.
+"ko": |-
+  TLS 1.3부터 ​​서버는 "supported_groups" 확장을 클라이언트에 보내는 것이 허용됩니다. 클라이언트는 핸드셰이크가 성공적으로 완료되기 전에 "supported_groups"에서 발견된 정보에 따라 조치를 취해서는 안 되지만(MUST NOT) 성공적으로 완료된 핸드셰이크에서 배운 정보를 사용하여 후속 연결의 "key_share" 확장에서 사용하는 그룹을 변경할 수 있습니다. 서버에 "key_share" 확장의 그룹보다 선호하는 그룹이 있지만 여전히 ClientHello를 수락할 의향이 있는 경우 "supported_groups"를 전송하여 클라이언트의 기본 설정 보기를 업데이트해야 합니다. 이 확장은 클라이언트가 현재 지원하는지 여부에 관계없이 서버가 지원하는 모든 그룹을 포함해야 합니다.

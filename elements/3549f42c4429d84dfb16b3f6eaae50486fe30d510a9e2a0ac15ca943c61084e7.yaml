@@ -1,0 +1,13 @@
+"hash": |-
+  3549f42c4429d84dfb16b3f6eaae50486fe30d510a9e2a0ac15ca943c61084e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  This step should be reached only if the ACK is ok, or there is
+           no ACK, and the segment did not contain a RST.
+"fixed": |-
+  -  This step should be reached only if the ACK is ok, or there is no ACK, and the segment did not contain a RST.
+"ko": |-
+  - 이 단계는 ACK가 정상이거나 ACK가 없고 세그먼트에 RST가 포함되지 않은 경우에만 도달해야 합니다.

@@ -1,0 +1,25 @@
+"hash": |-
+  33c19b6c362ad3bef08dfb610c160eff4de4093b0e29b347c9dff28d87cd82f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  HTTP client and server implementations intended for use in the
+        World Wide Web (see Section 5) MUST support the HTTP Strict
+        Transport Security (HSTS) header field [RFC6797] so that web
+        servers can advertise that they are willing to accept TLS-only
+        clients.  Web servers SHOULD use HSTS to indicate that they are
+        willing to accept TLS-only clients, unless they are deployed in
+        such a way that using HSTS would in fact weaken overall security
+        (e.g., it can be problematic to use HSTS with self-signed
+        certificates, as described in Section 11.3 of [RFC6797]).  Similar
+        technologies exist for non-HTTP application protocols, such as
+        Mail Transfer Agent Strict Transport Security (MTA-STS) for mail
+        transfer agents [RFC8461] and methods based on DNS-Based
+        Authentication of Named Entities (DANE) [RFC6698] for SMTP
+        [RFC7672] and XMPP [RFC7712].
+"fixed": |-
+  *  HTTP client and server implementations intended for use in the World Wide Web (see Section 5) MUST support the HTTP Strict Transport Security (HSTS) header field [RFC6797] so that web servers can advertise that they are willing to accept TLS-only clients.  Web servers SHOULD use HSTS to indicate that they are willing to accept TLS-only clients, unless they are deployed in such a way that using HSTS would in fact weaken overall security (e.g., it can be problematic to use HSTS with self-signed certificates, as described in Section 11.3 of [RFC6797]).  Similar technologies exist for non-HTTP application protocols, such as Mail Transfer Agent Strict Transport Security (MTA-STS) for mail transfer agents [RFC8461] and methods based on DNS-Based Authentication of Named Entities (DANE) [RFC6698] for SMTP [RFC7672] and XMPP [RFC7712].
+"ko": |-
+  * World Wide Web(섹션 5 참조)에서 사용하기 위한 HTTP 클라이언트 및 서버 구현은 웹 서버가 TLS 전용 클라이언트를 허용할 의사가 있음을 광고할 수 있도록 HSTS(HTTP Strict Transport Security) 헤더 필드[RFC6797]를 지원해야 합니다. . 웹 서버는 HSTS를 사용하여 실제로 전체 보안을 약화시키는 방식으로 배포되지 않는 한 TLS 전용 클라이언트를 허용할 의사가 있음을 나타내기 위해 HSTS를 사용해야 합니다(예: 자체 서명된 인증서와 함께 HSTS를 사용하는 것이 문제가 될 수 있음). , [RFC6797]의 섹션 11.3에 설명된 대로). 메일 전송 에이전트를 위한 MTA-STS(Mail Transfer Agent Strict Transport Security) [RFC8461] 및 SMTP를 위한 DANE(DNS-Based Authentication of Named Entities) [RFC6698] 기반 방법과 같은 비HTTP 애플리케이션 프로토콜에도 유사한 기술이 존재합니다. RFC7672] 및 XMPP [RFC7712].

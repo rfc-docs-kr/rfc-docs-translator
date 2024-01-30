@@ -1,0 +1,2 @@
+IV
+- 초기화 벡터(IV)는 무작위로 선택되어야 하며 예측할 수 없어야 합니다. 1.1 이전 버전의 TLS에는 IV 필드가 없었고 이전 레코드의 마지막 암호문 블록("CBC 잔여물")이 IV로 사용되었습니다. 이는 [CBCATT]에 설명된 공격을 방지하기 위해 변경되었습니다. 블록 암호의 경우 IV 길이는 SecurityParameters.record_iv_length이며, 이는 SecurityParameters.block_size와 동일합니다.

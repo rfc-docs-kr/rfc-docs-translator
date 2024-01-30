@@ -1,0 +1,26 @@
+"hash": |-
+  1d142fe33d86f7355a7bdab076e666e12350749c841a395aaf055147b709678d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to support supernetting efficiently, it is clear that some
+     changes will need to be made to both routing protocols themselves and
+     to the way in which routing information is interpreted. In the case
+     of "new" inter-domain protocols, the actual protocol syntax changes
+     should be relatively minor. This mechanism will not work with older
+     inter-domain protocols such as EGP2; the only ways to interoperate
+     with old systems using such protocols are either to use existing
+     mechanisms for providing "default" routes or b) require that new
+     routers talking to old routers "explode" supernet information into
+     individual network numbers.  Since the first of these is trivial
+     while the latter is cumbersome (at best -- consider the memory
+     requirements it imposes on the receiver of the exploded information),
+     it is recommended that the first approach be used -- that older
+     systems to continue to the mechanisms they currently employ for
+     default handling.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

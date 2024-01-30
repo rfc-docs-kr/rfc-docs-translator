@@ -1,0 +1,1 @@
+   여러 데이터 플레인은 동일한 Flex-Algorithm 값을 동시에 사용할 수 있으므로 FAD를 공유할 수 있습니다. 예를 들어 SR-MPLS와 IP는 모두 공통 Flex-Algorithm을 사용할 수 있습니다. SR-MPLS에 대한 트래픽은 Flex 알고리즘별 SR SID를 기반으로 전달됩니다. IP Flex-Algorithm에 대한 트래픽은 Flex-Algorithm별 접두사 연결 가능성 알림을 기반으로 전달됩니다. 특정 Flex-Algorithm의 경우 특정 IP 접두사에 대해 단일 데이터 플레인에 대해 계산되고 설치된 경로만 있습니다.

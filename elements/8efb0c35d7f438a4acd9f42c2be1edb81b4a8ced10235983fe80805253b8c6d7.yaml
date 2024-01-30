@@ -1,0 +1,15 @@
+"hash": |-
+  8efb0c35d7f438a4acd9f42c2be1edb81b4a8ced10235983fe80805253b8c6d7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS_NULL_WITH_NULL_NULL is specified and is the initial state of a
+     TLS connection during the first handshake on that channel, but MUST
+     NOT be negotiated, as it provides no more protection than an
+     unsecured connection.
+"fixed": |-
+  TLS_NULL_WITH_NULL_NULL is specified and is the initial state of a TLS connection during the first handshake on that channel, but MUST NOT be negotiated, as it provides no more protection than an unsecured connection.
+"ko": |-
+  TLS_NULL_WITH_NULL_NULL이 지정되고 해당 채널의 첫 번째 핸드셰이크 중 TLS 연결의 초기 상태이지만 보안되지 않은 연결보다 더 많은 보호를 제공하지 않으므로 협상해서는 안 됩니다.

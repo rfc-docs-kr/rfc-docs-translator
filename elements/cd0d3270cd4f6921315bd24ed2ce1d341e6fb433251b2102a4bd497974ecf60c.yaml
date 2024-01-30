@@ -1,0 +1,21 @@
+"hash": |-
+  cd0d3270cd4f6921315bd24ed2ce1d341e6fb433251b2102a4bd497974ecf60c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 |                                          |
+                 |                                          |   LISTEN
+     SYN_SENT    |-----------------------                   |
+                 |                       \ syn j            |
+                 |                        ----------------->|   SYN_RCVD
+                 |                                          |
+                 |                        ------------------|
+                 |        syn k, ack j+1 /                  |
+     ESTABLISHED |<----------------------                   |
+                 |                                          |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

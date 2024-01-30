@@ -1,0 +1,1 @@
+   o PacketType(p)는 패킷 p가 RTCP 보고서(BYE 아님)인 경우 PACKET_RTCP_REPORT를 반환하고, BYE RTCP 패킷인 경우 PACKET_BYE를, 일반 RTP 데이터 패킷인 경우 PACKET_RTP를 반환합니다.

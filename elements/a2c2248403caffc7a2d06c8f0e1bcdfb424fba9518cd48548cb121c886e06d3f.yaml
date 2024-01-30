@@ -1,0 +1,21 @@
+"hash": |-
+  a2c2248403caffc7a2d06c8f0e1bcdfb424fba9518cd48548cb121c886e06d3f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        As explained in [R1457], the form that is taken by security labels
+        of a protocol's packets varies depending on the OSIRM layer in
+        which the protocol operates. Like meta-data generally, a security
+        label of a data packet may be either explicit (e.g., IPSO) or
+        implicit (e.g., Alice treats all messages received from Bob as
+        being labeled "Not For Public Release"). In a connectionless
+        protocol, every packet might have an explicit label; but in a
+        connection-oriented protocol, all packets might have the same
+        implicit label that is determined at the time the connection is
+        established.
+"fixed": |-
+  - As explained in [R1457], the form that is taken by security labels of a protocol's packets varies depending on the OSIRM layer in which the protocol operates. Like meta-data generally, a security label of a data packet may be either explicit (e.g., IPSO) or implicit (e.g., Alice treats all messages received from Bob as being labeled "Not For Public Release"). In a connectionless protocol, every packet might have an explicit label; but in a connection-oriented protocol, all packets might have the same implicit label that is determined at the time the connection is established.
+"ko": |-
+  - [R1457]에서 설명한 것처럼 프로토콜 패킷의 보안 레이블이 취하는 형식은 프로토콜이 작동하는 OSIRM 계층에 따라 다릅니다. 일반적으로 메타데이터와 마찬가지로 데이터 패킷의 보안 레이블은 명시적(예: IPSO)이거나 암시적일 수 있습니다(예: Alice는 Bob으로부터 수신한 모든 메시지를 "공개 공개 금지" 레이블로 처리함). 연결 없는 프로토콜에서는 모든 패킷에 명시적인 레이블이 있을 수 있습니다. 그러나 연결 지향 프로토콜에서는 모든 패킷이 연결이 설정될 때 결정되는 동일한 암시적 레이블을 가질 수 있습니다.

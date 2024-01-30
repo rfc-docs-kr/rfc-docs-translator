@@ -1,0 +1,15 @@
+"hash": |-
+  d94c7dc6bcbfbaa838d1f2cf9b4df52d3ed7d0e028aa6436d512506b72b336bb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              (g)  Check ACK field, ESTABLISHED state, p. 72: The ACK is a
+                   duplicate if SEG.ACK =< SND.UNA (the = was omitted).
+                   Similarly, the window should be updated if: SND.UNA =<
+                   SEG.ACK =< SND.NXT.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  417c89fbfdefbd61055e4577adee676a3e716a3c25bbbe5e0c6204005f8e2f9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Rationale: Session resumption is another kind of TLS handshake and
+     therefore must be as secure as the initial handshake.  This document
+     (Section 4) recommends the use of cipher suites that provide forward
+     secrecy, i.e., that prevent an attacker who gains momentary access to
+     the TLS endpoint (either client or server) and its secrets from
+     reading either past or future communication.  The tickets must be
+     managed so as not to negate this security property.
+"fixed": |-
+  Rationale: Session resumption is another kind of TLS handshake and therefore must be as secure as the initial handshake.  This document (Section 4) recommends the use of cipher suites that provide forward secrecy, i.e., that prevent an attacker who gains momentary access to the TLS endpoint (either client or server) and its secrets from reading either past or future communication.  The tickets must be managed so as not to negate this security property.
+"ko": |-
+  이유: 세션 재개는 또 다른 종류의 TLS 핸드셰이크이므로 초기 핸드셰이크만큼 안전해야 합니다. 이 문서(섹션 4)에서는 순방향 비밀성을 제공하는 암호화 제품군의 사용을 권장합니다. 즉, TLS 엔드포인트(클라이언트 또는 서버)에 일시적으로 액세스하는 공격자가 과거 또는 미래의 통신을 읽지 못하도록 방지하는 암호화 제품군을 사용할 것을 권장합니다. 이 보안 속성이 무효화되지 않도록 티켓을 관리해야 합니다.

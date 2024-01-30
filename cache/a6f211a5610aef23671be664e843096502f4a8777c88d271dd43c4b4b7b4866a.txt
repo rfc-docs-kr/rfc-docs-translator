@@ -1,0 +1,1 @@
+   제안이 포함된 FramedContent를 수신할 때 클라이언트는 FramedContentAuthData 내부의 서명을 확인해야 하며 둘러싸는 FramedContent의 epoch 필드가 현재 GroupContext 개체의 epoch 필드와 동일한지 확인해야 합니다. 검증에 성공하면 나중에 Commit 메시지에서 해시(ProposalOrRef 객체로)로 검색할 수 있는 방식으로 제안을 캐시해야 합니다.

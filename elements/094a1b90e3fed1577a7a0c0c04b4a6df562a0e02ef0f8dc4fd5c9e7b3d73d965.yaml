@@ -1,0 +1,18 @@
+"hash": |-
+  094a1b90e3fed1577a7a0c0c04b4a6df562a0e02ef0f8dc4fd5c9e7b3d73d965
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          A router may only prematurely age its own self-originated LSAs.
+          The router may not prematurely age LSAs that have been
+          originated by other routers. An LSA is considered self-
+          originated when either 1) the LSA's Advertising Router is equal
+          to the router's own Router ID or 2) the LSA is a network-LSA and
+          its Link State ID is equal to one of the router's own IP
+          interface addresses.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

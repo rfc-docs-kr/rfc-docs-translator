@@ -1,0 +1,1 @@
+   AliasMode의 주요 목적은 CNAME이 허용되지 않는 zone apex에서 앨리어싱을 허용하는 것입니다(예: [RFC1912], 섹션 2.4 참조). AliasMode에서 TargetName은 SVCB, AAAA 및/또는 A 레코드로 확인되는 도메인의 이름이 됩니다. (SVCB 호환 RR 유형의 별칭 지정은 섹션 6을 참조하십시오.) CNAME과 달리 AliasMode 레코드는 다른 RR 유형의 확인에 영향을 주지 않으며 전체 도메인 이름이 아닌 특정 서비스에만 적용됩니다.

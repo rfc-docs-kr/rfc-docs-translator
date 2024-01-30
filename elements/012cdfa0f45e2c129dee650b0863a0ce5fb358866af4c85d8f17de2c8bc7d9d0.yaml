@@ -1,0 +1,17 @@
+"hash": |-
+  012cdfa0f45e2c129dee650b0863a0ce5fb358866af4c85d8f17de2c8bc7d9d0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Length field is two octets and indicates the length of the EAP
+        packet including the Code, Identifier, Length, Type, and Type-Data
+        fields.  Octets outside the range of the Length field should be
+        treated as Data Link Layer padding and MUST be ignored upon
+        reception.  A message with the Length field set to a value larger
+        than the number of received octets MUST be silently discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

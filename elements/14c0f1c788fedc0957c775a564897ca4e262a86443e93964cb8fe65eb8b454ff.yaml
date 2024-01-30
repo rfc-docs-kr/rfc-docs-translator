@@ -1,0 +1,18 @@
+"hash": |-
+  14c0f1c788fedc0957c775a564897ca4e262a86443e93964cb8fe65eb8b454ff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server which negotiates a version of TLS prior to TLS 1.3 MUST set
+     ServerHello.version and MUST NOT send the "supported_versions"
+     extension.  A server which negotiates TLS 1.3 MUST respond by sending
+     a "supported_versions" extension containing the selected version
+     value (0x0304).  It MUST set the ServerHello.legacy_version field to
+     0x0303 (TLS 1.2).  Clients MUST check for this extension prior to
+     processing the rest of the ServerHello (although they will have to
+"fixed": |-
+  A server which negotiates a version of TLS prior to TLS 1.3 MUST set ServerHello.version and MUST NOT send the "supported_versions" extension.  A server which negotiates TLS 1.3 MUST respond by sending a "supported_versions" extension containing the selected version value (0x0304).  It MUST set the ServerHello.legacy_version field to 0x0303 (TLS 1.2).  Clients MUST check for this extension prior to processing the rest of the ServerHello (although they will have to
+"ko": |-
+  TLS 1.3 이전의 TLS 버전을 협상하는 서버는 ServerHello.version을 설정해야 하며 "supported_versions" 확장을 보내서는 안 됩니다. TLS 1.3을 협상하는 서버는 선택된 버전 값(0x0304)이 포함된 "supported_versions" 확장을 전송하여 응답해야 합니다. ServerHello.legacy_version 필드를 0x0303(TLS 1.2)으로 설정해야 합니다. 클라이언트는 ServerHello의 나머지 부분을 처리하기 전에 이 확장을 확인해야 합니다.

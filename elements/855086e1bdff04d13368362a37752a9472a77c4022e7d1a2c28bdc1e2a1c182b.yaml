@@ -1,0 +1,41 @@
+"hash": |-
+  855086e1bdff04d13368362a37752a9472a77c4022e7d1a2c28bdc1e2a1c182b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                    SGP                             ASP1
+                     |                               |
+                     |<------------ASP Up------------|
+                     |----------ASP Up Ack---------->|
+                     |                               |
+                     |                               |
+                     |<---REGISTER REQ({LRC1,RK1},   |
+                     |                   ...,        |
+                     |                 {LRCn,RKn}),--|
+                     |                               |
+                     |---REGISTER RESP({LRC1,RC1},-->|
+                     |                  ...,         |
+                     |                 (LRCn,RCn})   |
+                     |                               |
+                     |--NTFY(AS-INACTIVE)(RC1..RCn)->|
+                     |                               |
+                     |                               |
+                     |<------- ASP Active(RC1)-------|
+                     |-----ASP Active Ack (RC1)----->|
+                     |                               |
+                     |----NOTIFY(AS-ACTIVE)(RC1)---->|
+                     |                               |
+                     :                               :
+                     :                               :
+                     |                               |
+                     |<------- ASP Active(RCn)-------|
+                     |-----ASP Active Ack (RCn)----->|
+                     |                               |
+                     |----NOTIFY(AS-ACTIVE)(RCn)---->|
+                     |                               |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

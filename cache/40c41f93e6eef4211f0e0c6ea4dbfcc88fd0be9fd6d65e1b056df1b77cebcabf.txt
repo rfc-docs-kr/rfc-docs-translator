@@ -1,0 +1,1 @@
+   이 섹션에서는 KDF(Scrypt Key Derivation Function)에 대한 ASN.1 구문을 정의합니다. 이는 PKCS#5의 PBKDF2와 동일한 추상화 수준에서 작동하기 위한 것입니다. 아래의 OID id-scrypt는 id-PBKDF2가 사용되는 곳에 사용될 수 있으며, scrypt-params는 PBKDF2-params에 해당합니다. 이러한 정의의 의도된 적용에는 PKCS #8 및 키 관리를 위한 기타 구문이 포함됩니다.

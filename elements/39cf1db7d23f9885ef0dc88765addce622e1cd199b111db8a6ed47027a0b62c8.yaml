@@ -1,0 +1,15 @@
+"hash": |-
+  39cf1db7d23f9885ef0dc88765addce622e1cd199b111db8a6ed47027a0b62c8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  The "server_name" [RFC6066] and "certificate_authorities"
+        extensions are used to guide certificate selection.  As servers
+        MAY require the presence of the "server_name" extension, clients
+        SHOULD send this extension, when applicable.
+"fixed": |-
+  -  The "server_name" [RFC6066] and "certificate_authorities" extensions are used to guide certificate selection.  As servers MAY require the presence of the "server_name" extension, clients SHOULD send this extension, when applicable.
+"ko": |-
+  - "server_name" [RFC6066] 및 "certificate_authorities" 확장은 인증서 선택을 안내하는 데 사용됩니다. 서버는 "server_name" 확장의 존재를 요구할 수 있으므로 클라이언트는 해당되는 경우 이 확장을 보내야 합니다.

@@ -1,0 +1,1 @@
+   각 ROUTE_ADVERTISEMENT에는 주소 범위의 전체 목록이 포함됩니다. 여러 ROUTE_ADVERTISEMENT 캡슐이 한 방향으로 전송되는 경우 각 ROUTE_ADVERTISEMENT 캡슐이 이전 캡슐보다 우선합니다. 즉, 주어진 주소 범위가 이전 캡슐에 있었지만 가장 최근에 수신된 ROUTE_ADVERTISEMENT 캡슐에 해당 주소 범위가 포함되어 있지 않은 경우 수신자는 해당 범위가 철회된 것으로 간주합니다.

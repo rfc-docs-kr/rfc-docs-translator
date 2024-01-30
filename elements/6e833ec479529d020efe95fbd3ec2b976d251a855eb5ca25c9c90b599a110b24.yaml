@@ -1,0 +1,14 @@
+"hash": |-
+  6e833ec479529d020efe95fbd3ec2b976d251a855eb5ca25c9c90b599a110b24
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  An incoming RST segment could not be valid since it could not
+           have been sent in response to anything sent by this incarnation
+           of the connection.  An incoming RST should be ignored.  Return.
+"fixed": |-
+  -  An incoming RST segment could not be valid since it could not have been sent in response to anything sent by this incarnation of the connection.  An incoming RST should be ignored.  Return.
+"ko": |-
+  - 들어오는 RST 세그먼트는 이 연결 화신에 의해 전송된 어떤 것에 대한 응답으로 전송될 수 없기 때문에 유효할 수 없습니다. 들어오는 RST는 무시되어야 합니다. 반품.

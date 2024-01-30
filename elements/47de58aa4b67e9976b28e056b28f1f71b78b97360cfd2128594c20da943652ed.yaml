@@ -1,0 +1,19 @@
+"hash": |-
+  47de58aa4b67e9976b28e056b28f1f71b78b97360cfd2128594c20da943652ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the ASP sends an ASP Up message, it starts timer T(ack).  If the
+     ASP does not receive a response to an ASP Up message within T(ack),
+     the ASP MAY restart T(ack) and resend ASP Up messages until it
+     receives an ASP Up Ack message.  T(ack) is provisionable, with a
+     default of 2 seconds.  Alternatively, retransmission of ASP Up
+     messages MAY be put under control of Layer Management.  In this
+     method, expiry of T(ack) results in an M-ASP_UP confirm primitive
+     carrying a negative indication.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

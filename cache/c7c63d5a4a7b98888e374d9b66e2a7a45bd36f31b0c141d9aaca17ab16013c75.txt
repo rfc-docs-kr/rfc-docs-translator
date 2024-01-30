@@ -1,0 +1,1 @@
+   미디어 체인저 장치의 경우 EXCHANGE MEDIUM 명령(SOURCE ADDRESS와 DESTINATION ADDRESS가 동일하여 스왑 수행)이 실행된 후 해당 명령에 대해 수신된 상태가 없기 때문에 다시 실행되는 시나리오를 고려하십시오. 첫 번째 EXCHANGE MEDIUM 명령이 실제로 처리된 경우 재발행된 EXCHANGE MEDIUM 명령이 처리되면 스왑을 다시 수행합니다. 결과적으로 스왑이 수행되지 않아 데이터 무결성이 위험해집니다.

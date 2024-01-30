@@ -1,0 +1,21 @@
+"hash": |-
+  72528e04fb44a8de93a9d2f897c0b8994dd94f9da37c6d495d41a69f56a7eb92
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a TCP connection is established for the "submissions" service
+     (default port 465), a TLS handshake begins immediately.  Clients MUST
+     implement the certificate validation mechanism described in
+     [RFC7817].  Once the TLS session is established, Message Submission
+     protocol data [RFC6409] is exchanged as TLS application data for the
+     remainder of the TCP connection.  (Note: The "submissions" service
+     name is defined in Section 7.3 of this document and follows the usual
+     convention that the name of a service layered on top of Implicit TLS
+     consists of the name of the service as used without TLS, with an "s"
+     appended.)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

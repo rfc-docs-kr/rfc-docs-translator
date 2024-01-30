@@ -1,0 +1,1 @@
+- REFER 요청이 Refer-To 헤더 필드의 대상으로 SIP 웹소켓 클라이언트의 연락처 URI를 포함하여 세 번째 SIP 사용자 에이전트로 전송되는 경우 이러한 URI는 전역적으로 연결된 경우에만 세 번째 SIP UA에 의해 도달할 수 있습니다. 라우팅 가능한 URI. GRUU(Globally Routable User Agent URI)는 이러한 시나리오를 위한 솔루션이며 세 번째 SIP 사용자 에이전트에서 들어오는 요청이 아웃바운드 에지 프록시를 통해 SIP WebSocket 클라이언트로 요청을 라우팅하는 SIP 등록자로 전송되도록 합니다.

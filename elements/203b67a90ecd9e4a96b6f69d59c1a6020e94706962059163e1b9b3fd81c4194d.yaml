@@ -1,0 +1,16 @@
+"hash": |-
+  203b67a90ecd9e4a96b6f69d59c1a6020e94706962059163e1b9b3fd81c4194d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After receiving a 220 response to a STARTTLS command, the client MUST
+     start the TLS negotiation before giving any other SMTP commands.  If,
+     after having issued the STARTTLS command, the client finds out that
+     some failure prevents it from actually starting a TLS handshake, then
+     it SHOULD abort the connection.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

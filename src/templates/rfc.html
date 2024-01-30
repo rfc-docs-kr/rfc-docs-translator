@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7RE9BKG4G4"></script>
+        <script>
+                 window.dataLayer = window.dataLayer || [];
+                 function gtag(){dataLayer.push(arguments);}
+                 gtag('js', new Date());
+
+                 gtag('config', 'G-7RE9BKG4G4');
+        </script>
+        <title>RFC {{ id }} 한글 번역 문서</title>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/a11y-dark.min.css">
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/highlight.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+	    font-family: 'Arial', sans-serif;
+	    line-height: 2;
+            transition: background-color 0.5s, color 0.5s;
+        }
+	a {
+		color: #1a0dab;
+	}
+
+	.dark-mode .hljs {
+		background: #2b2b2b;
+		color: #f8f8f2;
+	}
+
+	.hljs {
+		transition: background-color 0.5s, color 0.5s;
+		font-family: 'Roboto Mono';
+		background: #ededed;
+		color: #333;
+		font-size: 14px;
+	    	line-height: 1.5;
+	}
+
+	.dark-mode a {
+		color: #66afe9;
+	}
+        .dark-mode {
+            background-color: #333;
+            color: white;
+        }
+        .search-container {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .search-box {
+            flex-grow: 1;
+            padding: 10px;
+        }
+        .search-button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .toggle-switch {
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="dark-mode">
+    <script>
+        function gorfc() {
+            var searchText = document.getElementById('searchText').value;
+            window.location.href = '/rfc' + encodeURIComponent(searchText);
+        }
+    </script>
+
+    <div class="toggle-switch" onclick="toggleDarkMode()">🌓</div>
+    <div class="search-container">
+        <input type="text" class="search-box" id="searchText"  placeholder="rfc number only">
+        <button onclick="gorfc()" class="search-button">Search</button>
+    </div>
+	<code id="markdown-content" style="display: none;">
+{{ content }}
+        </code>
+
+	<pre><code>공지 : 일부 번역되지 않은 콘텐츠에 관하여
+
+
+이번에 만들게된 번역 서비스를 공개하고 나니 google 번역 api 비용이 생각 보다 많이 청구 되었습니다.
+충분히 검토 하지 못하고 마음만 앞서서 여기저기에 홍보한 결과라 생각 하고 반성 중입니다.
+
+기존의 해당 서비스의 구조가
+
+rfc 문서 -> 영역별 컨텐츠 식별 -> 번역 가능한 컨텐츠의 전처리(줄바꿈 및 공백 제거) 
+                               -> 번역 api를 통한 번역 -> 마크다운으로 변환
+
+이러한 흐름으로 기능이 작성 되었다면 
+
+rfc 문서 -> 영역별 컨텐츠 식별 -> 번역 가능한 컨텐츠의 전처리(줄바꿈 및 공백 제거) 
+                               -> 마크다운으로 변환 -> 브라우저 번역 기능으로 번역
+
+위의 방식으로 변경이 되었습니다.
+
+번역 api비용 문제를 해결 하기 전까지는 브라우저의 자체 번역기능으로 번역을 이용 해주시면 감사하겠습니다.
+
+브라우저 별로 번역 품질이 달라질 수 있으나, 기존 번역 방식에 비해서는 품질이 크게 저하되지 않을 것으로 보입니다.</code></pre>
+
+
+        <div id="rendered-content"></div>
+
+	 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            window.onload = function () {
+                var markdownContent = document.getElementById('markdown-content').innerText;
+                document.getElementById('rendered-content').innerHTML = marked.parse(markdownContent);
+                document.getElementById('markdown-content').style = "display: none;"
+                hljs.highlightAll();
+            }
+        </script>
+
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <p>original document link : <a href="https://www.ietf.org/rfc/rfc{{ id }}.txt">https://www.ietf.org/rfc/rfc{{ id }}.txt</a></p>
+    <p>Disclaimer of Accuracy for Translation:</p>
+    <p>This document is a translation of the original (RFC {{ id }}). While every effort has been made to ensure the accuracy of this translation, it may contain errors or discrepancies. For verification of the content and to ensure consistency with the original document, please refer to the original version.</p>
+    <p>Non-Commercial Use and Educational Purpose Statement:</p>
+    <p>This translated document is intended solely for educational purposes and is not to be used for any commercial purposes. The content of this translation is provided to facilitate learning and understanding of the original (RFC {{ id }}) and should not be utilized in any commercial context.</p>
+    <p>translator : yevgeny hong, used google translator api </p>
+    <p>contact : hongyevgeny@gmail.com </p>
+</body>
+</html>

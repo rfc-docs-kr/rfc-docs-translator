@@ -1,0 +1,17 @@
+"hash": |-
+  e9a120291984a5ee2499bf8b98bbb8f008ea0e655259cf470da630e36d0adc01
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     StreamID             = UINT16
+     pkgdName             = (PackageName SLASH ItemID) ;specific item
+                      / (PackageName SLASH "*") ;all events in package
+                      / ("*" SLASH "*") ; all events supported by the MG
+     PackageName          = NAME
+     ItemID               = NAME
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

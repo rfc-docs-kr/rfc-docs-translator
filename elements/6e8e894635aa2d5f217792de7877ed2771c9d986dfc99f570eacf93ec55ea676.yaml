@@ -1,0 +1,19 @@
+"hash": |-
+  6e8e894635aa2d5f217792de7877ed2771c9d986dfc99f570eacf93ec55ea676
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+             ContentType type;
+             ProtocolVersion version;
+             uint16 epoch;                                    // New field
+             uint48 sequence_number;                          // New field
+             uint16 length;
+             opaque fragment[DTLSPlaintext.length];
+           } DTLSPlaintext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

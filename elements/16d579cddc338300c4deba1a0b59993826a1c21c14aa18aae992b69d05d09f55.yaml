@@ -1,0 +1,15 @@
+"hash": |-
+  16d579cddc338300c4deba1a0b59993826a1c21c14aa18aae992b69d05d09f55
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  The end-entity certificate provided by the client MUST contain a
+        key that is compatible with certificate_types.  If the key is a
+        signature key, it MUST be usable with some hash/signature
+        algorithm pair in supported_signature_algorithms.
+"fixed": |-
+  -  The end-entity certificate provided by the client MUST contain a key that is compatible with certificate_types.  If the key is a signature key, it MUST be usable with some hash/signature algorithm pair in supported_signature_algorithms.
+"ko": |-
+  - 클라이언트가 제공하는 최종 엔터티 인증서에는 Certificate_types와 호환되는 키가 포함되어야 합니다. 키가 서명 키인 경우 Supported_signature_algorithms의 일부 해시/서명 알고리즘 쌍과 함께 사용할 수 있어야 합니다.

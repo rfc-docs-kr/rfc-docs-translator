@@ -1,0 +1,15 @@
+"hash": |-
+  248c03068863a3c046a9e8750bbafc3c39ffb14ba1be1ef446e6371423d06f8c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        if defined(fragment) then
+           append "#" to result;
+           append fragment to result;
+        endif;
+"fixed": |-
+  - if defined(fragment) then append "#" to result; append fragment to result; endif;
+"ko": |-
+  - 정의된 경우(조각) 결과에 "#"을 추가합니다. 결과에 조각을 추가합니다. 종료;

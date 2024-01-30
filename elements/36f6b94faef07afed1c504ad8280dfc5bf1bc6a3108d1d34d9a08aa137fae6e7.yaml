@@ -1,0 +1,19 @@
+"hash": |-
+  36f6b94faef07afed1c504ad8280dfc5bf1bc6a3108d1d34d9a08aa137fae6e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Type-Data field in the Request contains a displayable message
+        greater than zero octets in length.  The length of the message is
+        determined by the Length field of the Request packet.  The message
+        MUST NOT be null terminated.  A Response MUST be sent in reply to
+        the Request with a Type field of 6 (Generic Token Card).  The
+        Response contains data from the Token Card required for
+        authentication.  The length of the data is determined by the
+        Length field of the Response packet.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

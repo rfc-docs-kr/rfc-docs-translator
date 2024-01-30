@@ -1,0 +1,20 @@
+"hash": |-
+  7e8178f9be85b8ed4122cdbd92b2b1429e5d3fe576023010283a70bbf0e30a4b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: Replay protection may be selected by the receiver when a
+        security association is established. AH authenticates the upper-
+        layer PDU that is carried as an IP SDU, and also authenticates as
+        much of the IP PCI (i.e., the IP header) as possible. However,
+        some IP header fields may change in transit, and the value of
+        these fields, when the packet arrives at the receiver, may not be
+        predictable by the sender. Thus, the values of such fields cannot
+        be protected end-to-end by AH; protection of the IP header by AH
+        is only partial when such fields are present.
+"fixed": |-
+  - Tutorial: Replay protection may be selected by the receiver when a security association is established. AH authenticates the upper- layer PDU that is carried as an IP SDU, and also authenticates as much of the IP PCI (i.e., the IP header) as possible. However, some IP header fields may change in transit, and the value of these fields, when the packet arrives at the receiver, may not be predictable by the sender. Thus, the values of such fields cannot be protected end-to-end by AH; protection of the IP header by AH is only partial when such fields are present.
+"ko": |-
+  - 튜토리얼: 보안 연결이 설정되면 수신자가 재생 보호를 선택할 수 있습니다. AH는 IP SDU로 운반되는 상위 계층 PDU를 인증하고, 가능한 많은 IP PCI(즉, IP 헤더)도 인증합니다. 그러나 일부 IP 헤더 필드는 전송 중에 변경될 수 있으며, 패킷이 수신자에게 도착할 때 이러한 필드의 값을 발신자가 예측하지 못할 수도 있습니다. 따라서 이러한 필드의 값은 AH에 의해 엔드 투 엔드로 보호될 수 없습니다. AH에 의한 IP 헤더 보호는 해당 필드가 있는 경우에만 부분적으로 이루어집니다.

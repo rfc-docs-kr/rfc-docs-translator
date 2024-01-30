@@ -1,0 +1,1 @@
+- 앞으로 모든 이메일 시스템이 RFC 1425 및 RFC 1426에 정의된 완전히 투명한 8비트 이메일을 구현할 때 이 표준에서 설명하는 메시지 본문 인코딩 단계는 더 이상 필요하지 않습니다. 이 경우 필수 MIME 헤더는 다음과 같이 수정됩니다. MIME-Version: 1.0 Content-type: text/plain; charset=ISO-8859-7 Content-transfer-encoding: 8BIT RFC 1425를 사용하는 경우에도 Q 또는 B 인코딩은 다음 섹션에 설명된 대로 메시지 헤더에 계속 적용됩니다.

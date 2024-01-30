@@ -1,0 +1,16 @@
+"hash": |-
+  e25dce5f3a583276a28f1914e3dadb962f7fb91fcd0f34648ae464a0776120b9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       output = ""
+       while bytelen(in) > 0 {
+         keystream_block = AES(key = key, block = block)
+         block[0:4] = little_endian_uint32(
+             read_little_endian_uint32(block[0:4]) + 1)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

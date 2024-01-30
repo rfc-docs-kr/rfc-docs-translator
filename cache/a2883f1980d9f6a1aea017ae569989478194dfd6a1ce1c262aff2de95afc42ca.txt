@@ -1,0 +1,3 @@
+   - 생략된 AVP로 명령이 수신되었으나 아직
+
+- 명령의 ABNF에 따라 필수입니다. 수신자는 DIAMETER_MISSING_AVP로 설정된 결과 코드를 사용하여 응답을 발행하고 누락된 AVP에 예상대로 설정된 AVP 코드 및 기타 필드를 사용하여 AVP를 생성합니다. 생성된 AVP는 Failed-AVP AVP에 추가됩니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  eb9ef54462457af6323501e0f0184925c20b1d5369a298e3bf94f3a93605adfd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            select (Handshake.msg_type) {
+                case new_session_ticket:   uint32 max_early_data_size;
+                case client_hello:         Empty;
+                case encrypted_extensions: Empty;
+            };
+        } EarlyDataIndication;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  1961edd8ef7e72d436524991ab381cd6b76f61bfc78825377d432c785ab79e81
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   If host receives a datagram containing a completed
+                   source route (i.e., the pointer points beyond the last
+                   field), the datagram has reached its final destination;
+                   the option as received (the recorded route) MUST be
+                   passed up to the transport layer (or to ICMP message
+                   processing).  This recorded route will be reversed and
+                   used to form a return source route for reply datagrams
+                   (see discussion of IP Options in Section 4).  When a
+                   return source route is built, it MUST be correctly
+                   formed even if the recorded route included the source
+                   host (see case (B) in the discussion below).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

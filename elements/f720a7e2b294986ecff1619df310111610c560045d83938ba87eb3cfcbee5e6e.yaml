@@ -1,0 +1,17 @@
+"hash": |-
+  f720a7e2b294986ecff1619df310111610c560045d83938ba87eb3cfcbee5e6e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       The window size MUST be treated as an unsigned number, or else
+       large window sizes will appear like negative windows and TCP will
+       not work (MUST-1).  It is RECOMMENDED that implementations will
+       reserve 32-bit fields for the send and receive window sizes in the
+       connection record and do all window computations with 32 bits (REC-
+       1).
+"fixed": |-
+  The window size MUST be treated as an unsigned number, or else large window sizes will appear like negative windows and TCP will not work (MUST-1).  It is RECOMMENDED that implementations will reserve 32-bit fields for the send and receive window sizes in the connection record and do all window computations with 32 bits (REC- 1).
+"ko": |-
+  창 크기는 부호 없는 숫자로 처리되어야 합니다. 그렇지 않으면 큰 창 크기가 음수 창처럼 나타나고 TCP가 작동하지 않습니다(MUST-1). 구현 시 연결 레코드의 전송 및 수신 창 크기에 대해 32비트 필드를 예약하고 모든 창 계산을 32비트(REC-1)로 수행하는 것이 권장됩니다.

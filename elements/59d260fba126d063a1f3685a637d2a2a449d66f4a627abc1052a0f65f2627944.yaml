@@ -1,0 +1,26 @@
+"hash": |-
+  59d260fba126d063a1f3685a637d2a2a449d66f4a627abc1052a0f65f2627944
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  An organization that changes service provider but does not
+        renumber.  This has the effect of "punching a hole" in one of the
+        original service provider's aggregated route advertisements.  CIDR
+        handles this situation by requiring that the newer service
+        provider to advertise a specific advertisement for the re-homed
+        organization; this advertisement is preferred over provider
+        aggregates because it is a longer match.  To maintain efficiency
+        of aggregation, it is recommended that an organization that
+        changes service providers plan eventually to migrate its network
+        into a an prefix assigned from its new provider's address space.
+        To this end, it is recommended that mechanisms to facilitate such
+        migration, such as dynamic host address assignment that uses
+        [RFC2131]), be deployed wherever possible, and that additional
+        protocol work be done to develop improved technology for
+        renumbering.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

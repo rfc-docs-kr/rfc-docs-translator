@@ -1,0 +1,1 @@
+   이 값은 티켓에 인코딩될 수 있으므로 각 미결 티켓의 상태를 유지할 필요가 없습니다. 서버는 클라이언트의 "pre_shared_key" 확장에 있는 "obfuscated_ticket_age" 매개변수에서 티켓의 "ticket_age_add" 값을 빼서 티켓의 나이에 대한 클라이언트 보기를 결정할 수 있습니다. 서버는 ClientHello의 expected_arrival_time을 다음과 같이 결정할 수 있습니다.

@@ -1,0 +1,58 @@
+"hash": |-
+  e478aa8841be83604868c60fb2854d6b1a5b913c7122af950dc154ac3e1a006d
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+        4.6. Post-Handshake Messages ...................................73
+             4.6.1. New Session Ticket Message .........................73
+             4.6.2. Post-Handshake Authentication ......................75
+             4.6.3. Key and Initialization Vector Update ...............76
+     5. Record Protocol ................................................77
+        5.1. Record Layer ..............................................78
+        5.2. Record Payload Protection .................................80
+        5.3. Per-Record Nonce ..........................................82
+        5.4. Record Padding ............................................83
+        5.5. Limits on Key Usage .......................................84
+     6. Alert Protocol .................................................85
+        6.1. Closure Alerts ............................................87
+        6.2. Error Alerts ..............................................88
+     7. Cryptographic Computations .....................................90
+        7.1. Key Schedule ..............................................91
+        7.2. Updating Traffic Secrets ..................................94
+        7.3. Traffic Key Calculation ...................................95
+        7.4. (EC)DHE Shared Secret Calculation .........................95
+             7.4.1. Finite Field Diffie-Hellman ........................95
+             7.4.2. Elliptic Curve Diffie-Hellman ......................96
+        7.5. Exporters .................................................97
+     8. 0-RTT and Anti-Replay ..........................................98
+        8.1. Single-Use Tickets ........................................99
+        8.2. Client Hello Recording ....................................99
+        8.3. Freshness Checks .........................................101
+     9. Compliance Requirements .......................................102
+        9.1. Mandatory-to-Implement Cipher Suites .....................102
+        9.2. Mandatory-to-Implement Extensions ........................103
+        9.3. Protocol Invariants ......................................104
+     10. Security Considerations ......................................106
+     11. IANA Considerations ..........................................106
+     12. References ...................................................109
+        12.1. Normative References ....................................109
+        12.2. Informative References ..................................112
+     Appendix A. State Machine ........................................120
+       A.1. Client ....................................................120
+       A.2. Server ....................................................121
+     Appendix B. Protocol Data Structures and Constant Values .........122
+       B.1. Record Layer ..............................................122
+       B.2. Alert Messages ............................................123
+       B.3. Handshake Protocol ........................................124
+         B.3.1. Key Exchange Messages .................................125
+         B.3.2. Server Parameters Messages ............................131
+         B.3.3. Authentication Messages ...............................132
+         B.3.4. Ticket Establishment ..................................132
+         B.3.5. Updating Keys .........................................133
+       B.4. Cipher Suites .............................................133
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

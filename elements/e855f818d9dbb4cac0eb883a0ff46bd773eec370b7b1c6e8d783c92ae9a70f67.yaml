@@ -1,0 +1,19 @@
+"hash": |-
+  e855f818d9dbb4cac0eb883a0ff46bd773eec370b7b1c6e8d783c92ae9a70f67
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          PollInterval
+              If a neighboring router has become inactive (Hello Packets
+              have not been seen for RouterDeadInterval seconds), it may
+              still be necessary to send Hello Packets to the dead
+              neighbor.  These Hello Packets will be sent at the reduced
+              rate PollInterval, which should be much larger than
+              HelloInterval.  Sample value for a PDN X.25 network: 2
+              minutes.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

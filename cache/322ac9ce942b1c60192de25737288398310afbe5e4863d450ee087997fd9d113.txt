@@ -1,0 +1,1 @@
+   o 조합이 일반적으로 유효하지만 stateid가 사용되는 컨텍스트에 적합하지 않은 경우(예: LOCK 작업에서 OPEN stateid가 필요할 때 모두 0인 stateid가 사용되는 경우) NFS4ERR_BAD_STATEID 오류도 반환됩니다.

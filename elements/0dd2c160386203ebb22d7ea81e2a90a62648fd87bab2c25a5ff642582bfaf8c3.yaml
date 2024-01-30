@@ -1,0 +1,33 @@
+"hash": |-
+  0dd2c160386203ebb22d7ea81e2a90a62648fd87bab2c25a5ff642582bfaf8c3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       +--------+                                 +---------------+
+       |        |                                 |               |
+       |        |<--(A)-- Get an access token --->| Authorization |
+       |        |                                 |     Server    |
+       |        |                                 |               |
+       |        |                                 +---------------+
+       |        |                                         ^
+       |        |                                         |
+       |        |
+       |        |                               (C)       |
+       | Client |                           Validate the
+       |        |                           access token  |
+       |        |
+       |        |                                         |
+       |        |                                         v
+       |        |                                 +---------------+
+       |        |                                 |      (C)      |
+       |        |                                 |               |
+       |        |<--(B)-- Use the access token -->|   Protected   |
+       |        |                                 |    Resource   |
+       |        |                                 |               |
+       +--------+                                 +---------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

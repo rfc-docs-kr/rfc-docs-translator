@@ -1,0 +1,21 @@
+"hash": |-
+  d8ff0147a8e0cb797ecd8f9ca049a669e5af663ebdfd1a32eea207ec14084e3a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              A router also indicates whether it is an area border router,
+              or an AS boundary router, by setting the appropriate bits
+              (bit B and bit E, respectively) in its router-LSAs. This
+              enables paths to those types of routers to be saved in the
+              routing table, for later processing of summary-LSAs and AS-
+              external-LSAs.  Bit B should be set whenever the router is
+              actively attached to two or more areas, even if the router
+              is not currently attached to the OSPF backbone area.  Bit E
+              should never be set in a router-LSA for a stub area (stub
+              areas cannot contain AS boundary routers).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

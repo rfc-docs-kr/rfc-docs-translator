@@ -1,0 +1,24 @@
+"hash": |-
+  f8ebdc8f486cc455ac4cbab5783486689fe6c8b7697a3eeb25fc27307615e55a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For weighted scheduling methods, such as WFQ or WRR, the "weight" of
+     a given scheduler input is represented with a Minimum Service Rate
+     leaky-bucket profile which provides a guaranteed minimum bandwidth to
+     that input, if required.  This is represented by a rate
+     diffServMinRateAbsolute; the classical weight is the ratio between
+     that rate and the interface speed, or perhaps the ratio between that
+     rate and the sum of the configured rates for classes.  The rate may
+     be represented by a relative value, as a fraction of the interface's
+     current line rate, diffServMinRateRelative, to assist in cases where
+     line rates are variable or where a higher-level policy might be
+     expressed in terms of fractions of network resources.  The two rate
+     parameters are inter-related and changes in one may be reflected in
+     the other.  An example is found in figure 3.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

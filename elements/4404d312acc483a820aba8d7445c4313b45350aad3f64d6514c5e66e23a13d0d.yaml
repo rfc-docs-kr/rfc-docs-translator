@@ -1,0 +1,16 @@
+"hash": |-
+  4404d312acc483a820aba8d7445c4313b45350aad3f64d6514c5e66e23a13d0d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Compute the expected tag by XORing S_s and the nonce, clearing the
+     most significant bit of the last byte and encrypting with the
+     message-encryption key.  Compare the provided and expected tag values
+     in constant time.  Fail the decryption if they do not match (and do
+     not release the plaintext); otherwise, return the plaintext.
+"fixed": |-
+  Compute the expected tag by XORing S_s and the nonce, clearing the most significant bit of the last byte and encrypting with the message-encryption key.  Compare the provided and expected tag values in constant time.  Fail the decryption if they do not match (and do not release the plaintext); otherwise, return the plaintext.
+"ko": |-
+  S_s와 nonce를 XOR하고 마지막 바이트의 최상위 비트를 지우고 메시지 암호화 키로 암호화하여 예상 태그를 계산합니다. 제공된 태그 값과 예상 태그 값을 일정한 시간에 비교합니다. 일치하지 않으면 암호 해독이 실패합니다(및 일반 텍스트를 해제하지 않음). 그렇지 않으면 일반 텍스트를 반환합니다.

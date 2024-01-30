@@ -1,0 +1,22 @@
+"hash": |-
+  e4dca5e494639e505d63abefc9c5c8e6b7efd78ae9819bca0665433f02c9bbbd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To support partial frame decoding, the frame is broken into "chunks"
+     each containing an integral number of restart intervals. The Restart
+     Count field contains the position of the first restart interval in
+     the current "chunk" so that receivers know which part of the frame
+     this data corresponds to.  A Restart Interval value SHOULD be chosen
+     to allow a "chunk" to completely fit within a single packet.  In this
+     case, both the F and L bits of the packet are set to 1.  However, if
+     a chunk needs to be spread across multiple packets, the F bit will be
+     set to 1 in the first packet of the chunk (and only that one) and the
+     L bit will be set to 1 in the last packet of the chunk (and only that
+     one).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  010e38878e42c345536415907a5a55edfff79ad49d617ef58ab3a1ead4a186b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that during failures, partial routing of traffic to a site that
+     takes its address space from one service provider but that is
+     actually reachable only through another (i.e., the case of a site
+     that has changed service providers) may occur because such traffic
+     will be forwarded along the path advertised by the aggregated route.
+     Rule #2 will prevent packet misdelivery by causing such traffic to be
+     discarded by the advertiser of the aggregated route, but the output
+     of "traceroute" and other similar tools will suggest that a problem
+     exists within that network rather than in the network that is no
+     longer advertising the more-specific prefix.  This may be confusing
+     to those trying to diagnose connectivity problems; see the example in
+     Section 6.2 for details.  A solution to this perceived "problem" is
+     beyond the scope of this document; it lies with better education of
+     the user/operator community, not in routing technology.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

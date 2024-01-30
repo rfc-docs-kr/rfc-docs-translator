@@ -1,0 +1,22 @@
+"hash": |-
+  542399997b68ab4662e4c9efc5740ea341ecde3cbf1c78c067fa7097eda6bc38
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RFC 1122 required implementation of Van Jacobson's congestion control
+     algorithms slow start and congestion avoidance together with
+     exponential backoff for successive RTO values for the same segment.
+     RFC 2581 provided IETF Standards Track description of slow start and
+     congestion avoidance, along with fast retransmit and fast recovery.
+     RFC 5681 is the current description of these algorithms and is the
+     current Standards Track specification providing guidelines for TCP
+     congestion control.  RFC 6298 describes exponential backoff of RTO
+     values, including keeping the backed-off value until a subsequent
+     segment with new data has been sent and acknowledged without
+     retransmission.
+"fixed": |-
+  RFC 1122 required implementation of Van Jacobson's congestion control algorithms slow start and congestion avoidance together with exponential backoff for successive RTO values for the same segment. RFC 2581 provided IETF Standards Track description of slow start and congestion avoidance, along with fast retransmit and fast recovery. RFC 5681 is the current description of these algorithms and is the current Standards Track specification providing guidelines for TCP congestion control.  RFC 6298 describes exponential backoff of RTO values, including keeping the backed-off value until a subsequent segment with new data has been sent and acknowledged without retransmission.
+"ko": |-
+  RFC 1122에서는 동일한 세그먼트에 대한 연속 RTO 값에 대한 지수 백오프와 함께 Van Jacobson의 혼잡 제어 알고리즘 느린 시작 및 혼잡 회피를 구현하도록 요구했습니다. RFC 2581은 빠른 재전송 및 빠른 복구와 함께 느린 시작 및 혼잡 회피에 대한 IETF 표준 트랙 설명을 제공했습니다. RFC 5681은 이러한 알고리즘에 대한 현재 설명이며 TCP 혼잡 제어에 대한 지침을 제공하는 현재 표준 트랙 사양입니다. RFC 6298은 새 데이터가 포함된 후속 세그먼트가 전송되고 재전송 없이 승인될 때까지 백오프 값을 유지하는 것을 포함하여 RTO 값의 지수 백오프에 대해 설명합니다.

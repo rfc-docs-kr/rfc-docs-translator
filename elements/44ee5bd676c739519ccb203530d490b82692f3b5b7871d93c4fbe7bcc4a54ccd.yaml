@@ -1,0 +1,43 @@
+"hash": |-
+  44ee5bd676c739519ccb203530d490b82692f3b5b7871d93c4fbe7bcc4a54ccd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    +----------------+---------+-----------------+-----------------------+
+    | PropertyID     | Property| Type            | Value                 |
+    |                | Tag     |                 |                       |
+    +----------------+---------+-----------------+-----------------------+
+    | BIR            | See     | 29 OCTETS       | GIT (Generic          |
+    |                | Table   |                 | Identifier Transport) |
+    |                | C.3     |                 |                       |
+    |    Ref.: Recommendation Q.2941.1                                   |
+    +----------------+---------+-----------------+-----------------------+
+    | AAL1ST         | 8001    | 1 OCTET         | AAL1 Subtype:         |
+    |    Reference: ITU Recommendation Q.2931                            |
+    |    00000000       Null                                             |
+    |    00000001       voiceband signal transport on 64kbit/s           |
+    |    00000010       circuit transport                                |
+    |    00000100       high-quality audio signal transport              |
+    |    00000101       video signal transport                           |
+    +----------------+---------+-----------------+-----------------------+
+    | CBRR           | 8002    | 1 OCTET         |  CBR Rate             |
+    |    Reference: ITU Recommendation Q.2931                            |
+    |    00000001         64 kbit/s                                      |
+    |    00000100       1544 kbit/s                                      |
+    |    00000101       6312 kbit/s                                      |
+    |    00000110      32064 kbit/s                                      |
+    |    00000111      44736 kbit/s                                      |
+    |    00001000      97728 kbit/s                                      |
+    |    00010000       2048 kbit/s                                      |
+    |    00010001       8448 kbit/s                                      |
+    |    00010010      34368 kbit/s                                      |
+    |    00010011     139264 kbit/s                                      |
+    |    01000000     n x 64 kbit/s                                      |
+    |    01000001      n * 8 kbit/s                                      |
+    +----------------+---------+-----------------+-----------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

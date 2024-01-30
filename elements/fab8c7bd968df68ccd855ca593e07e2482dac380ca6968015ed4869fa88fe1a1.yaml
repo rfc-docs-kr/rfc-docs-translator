@@ -1,0 +1,17 @@
+"hash": |-
+  fab8c7bd968df68ccd855ca593e07e2482dac380ca6968015ed4869fa88fe1a1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            ContentType opaque_type = application_data; /* 23 */
+            ProtocolVersion legacy_record_version = 0x0303; /* TLS v1.2 */
+            uint16 length;
+            opaque encrypted_record[TLSCiphertext.length];
+        } TLSCiphertext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

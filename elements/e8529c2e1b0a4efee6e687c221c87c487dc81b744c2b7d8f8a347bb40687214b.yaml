@@ -1,0 +1,18 @@
+"hash": |-
+  e8529c2e1b0a4efee6e687c221c87c487dc81b744c2b7d8f8a347bb40687214b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Where DNAv4 and DHCP are tried in parallel, one strategy is to
+     forsake reachability test retransmissions and to allow only the DHCP
+     client to retransmit.  In order to reduce competition between DNAv4
+     and DHCP retransmissions, a DNAv4 implementation that retransmits may
+     utilize the retransmission strategy described in Section 4.1 of the
+     DHCP specification [RFC2131], scheduling DNAv4 retransmissions
+     between DHCP retransmissions.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

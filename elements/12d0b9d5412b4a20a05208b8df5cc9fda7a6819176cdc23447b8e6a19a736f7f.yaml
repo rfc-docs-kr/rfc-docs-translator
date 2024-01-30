@@ -1,0 +1,19 @@
+"hash": |-
+  12d0b9d5412b4a20a05208b8df5cc9fda7a6819176cdc23447b8e6a19a736f7f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client which receives a cipher suite that was not offered MUST
+     abort the handshake.  Servers MUST ensure that they negotiate the
+     same cipher suite when receiving a conformant updated ClientHello (if
+     the server selects the cipher suite as the first step in the
+     negotiation, then this will happen automatically).  Upon receiving
+     the ServerHello, clients MUST check that the cipher suite supplied in
+     the ServerHello is the same as that in the HelloRetryRequest and
+     otherwise abort the handshake with an "illegal_parameter" alert.
+"fixed": |-
+  A client which receives a cipher suite that was not offered MUST abort the handshake.  Servers MUST ensure that they negotiate the same cipher suite when receiving a conformant updated ClientHello (if the server selects the cipher suite as the first step in the negotiation, then this will happen automatically).  Upon receiving the ServerHello, clients MUST check that the cipher suite supplied in the ServerHello is the same as that in the HelloRetryRequest and otherwise abort the handshake with an "illegal_parameter" alert.
+"ko": |-
+  제공되지 않은 암호 모음을 수신한 클라이언트는 핸드셰이크를 중단해야 합니다. 서버는 적합하게 업데이트된 ClientHello를 수신할 때 동일한 암호 제품군을 협상하는지 확인해야 합니다(서버가 협상의 첫 번째 단계로 암호 제품군을 선택한 경우 이는 자동으로 발생합니다). ServerHello를 수신하면 클라이언트는 ServerHello에 제공된 암호 그룹이 HelloRetryRequest의 암호 그룹과 동일한지 확인해야 하며, 그렇지 않으면 "illegal_parameter" 경고와 함께 핸드셰이크를 중단해야 합니다.

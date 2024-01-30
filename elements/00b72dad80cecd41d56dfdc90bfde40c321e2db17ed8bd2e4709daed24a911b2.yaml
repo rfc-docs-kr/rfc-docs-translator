@@ -1,0 +1,19 @@
+"hash": |-
+  00b72dad80cecd41d56dfdc90bfde40c321e2db17ed8bd2e4709daed24a911b2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For TLS/TCP and DTLS/SCTP connections to be established in the open
+     state, the CER/CEA exchange MUST include an Inband-Security-ID AVP
+     with a value of TLS/TCP and DTLS/SCTP.  The TLS/TCP and DTLS/SCTP
+     handshake will begin when both ends successfully reach the open
+     state, after completion of the CER/CEA exchange.  If the TLS/TCP and
+     DTLS/SCTP handshake is successful, all further messages will be sent
+     via TLS/TCP and DTLS/SCTP.  If the handshake fails, both ends MUST
+     move to the closed state.  See Section 13.1 for more details.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  51db3f0aa6173028a48a45177cfa29af474c7238636b22333f0505198e83d9ff
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServDscpMarkActEntry OBJECT-TYPE
+      SYNTAX       DiffServDscpMarkActEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An entry in the DSCP mark action table that describes a single
+         DSCP used for marking."
+      INDEX { diffServDscpMarkActDscp }
+      ::= { diffServDscpMarkActTable 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

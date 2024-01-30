@@ -1,0 +1,1 @@
+   PreSharedKey 제안 또는 psks 필드가 설정된 GroupSecrets 개체가 포함된 Commit을 수신하면 수신 클라이언트는 각각 Commit 또는 psks 필드에 나열된 순서대로 키 일정에 포함합니다. 재개 PSK의 경우 PSK는 PreSharedKeyID 개체에 지정된 그룹 및 에포크의 resumption_psk로 정의됩니다. 특히 psk_secret은 다음과 같이 계산됩니다.

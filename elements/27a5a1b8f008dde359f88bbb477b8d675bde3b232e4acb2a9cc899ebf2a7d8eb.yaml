@@ -1,0 +1,19 @@
+"hash": |-
+  27a5a1b8f008dde359f88bbb477b8d675bde3b232e4acb2a9cc899ebf2a7d8eb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           o  In the following it is assumed that the segment is the
+              idealized segment that begins at RCV.NXT and does not exceed
+              the window.  One could tailor actual segments to fit this
+              assumption by trimming off any portions that lie outside the
+              window (including SYN and FIN) and only processing further
+              if the segment then begins at RCV.NXT.  Segments with higher
+              beginning sequence numbers SHOULD be held for later
+              processing (SHLD-31).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  cc5154ec28d546c550a451c2b22f1e56c015719030cdc4ae663308421969bf86
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     AS-ACTIVE: The Application Server is available and application
+     traffic is active.  The AS moves to this state after being in AS-
+     INACTIVE and getting n ASPs (n is the number of ASPs required to be
+     in ASP-ACTIVE state before AS can transition to AS-ACTIVE; n = 1 for
+     Override Traffic Mode) in ASP-ACTIVE state or after reaching AS-
+     ACTIVE and keeping one or more ASPs in ASP-ACTIVE state.  When one
+     ASP is considered enough to handle traffic (smooth start), the AS in
+     AS-INACTIVE MAY reach the AS-ACTIVE as soon as the first ASP moves to
+     the ASP-ACTIVE state.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

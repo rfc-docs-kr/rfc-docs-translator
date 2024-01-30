@@ -1,0 +1,19 @@
+"hash": |-
+  f9a3e16b32ff103df368eab756c29fcdba8e387b9fef98d710e886ab7627d123
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: The server includes a unique time stamp in its greeting
+        to the client. The subsequent APOP command sent by the client to
+        the server contains the client's name and the hash result of
+        applying MD5 to a string formed from both the time stamp and a
+        shared secret value that is known only to the client and the
+        server. APOP was designed to provide an alternative to using
+        POP3's USER and PASS (i.e., password) command pair, in which the
+        client sends a cleartext password to the server.
+"fixed": |-
+  - Tutorial: The server includes a unique time stamp in its greeting to the client. The subsequent APOP command sent by the client to the server contains the client's name and the hash result of applying MD5 to a string formed from both the time stamp and a shared secret value that is known only to the client and the server. APOP was designed to provide an alternative to using POP3's USER and PASS (i.e., password) command pair, in which the client sends a cleartext password to the server.
+"ko": |-
+  - 튜토리얼: 서버는 클라이언트에 대한 인사말에 고유한 타임스탬프를 포함합니다. 클라이언트가 서버로 보낸 후속 APOP 명령에는 클라이언트 이름과 타임스탬프와 클라이언트와 서버만 아는 공유 비밀 값으로 구성된 문자열에 MD5를 적용한 해시 결과가 포함됩니다. APOP는 클라이언트가 서버에 일반 텍스트 비밀번호를 보내는 POP3의 USER 및 PASS(즉, 비밀번호) 명령 쌍을 사용하는 것에 대한 대안을 제공하도록 설계되었습니다.

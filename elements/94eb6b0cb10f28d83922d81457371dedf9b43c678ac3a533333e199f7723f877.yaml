@@ -1,0 +1,14 @@
+"hash": |-
+  94eb6b0cb10f28d83922d81457371dedf9b43c678ac3a533333e199f7723f877
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ; Total length of pathNAME must not exceed 64 chars.
+     pathNAME        = ["*"] NAME *("/" / "*"/ ALPHA / DIGIT /"_" / "$" )
+                            ["@" pathDomainName ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

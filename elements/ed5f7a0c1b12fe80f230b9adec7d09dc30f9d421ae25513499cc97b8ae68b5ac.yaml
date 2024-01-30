@@ -1,0 +1,14 @@
+"hash": |-
+  ed5f7a0c1b12fe80f230b9adec7d09dc30f9d421ae25513499cc97b8ae68b5ac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because DTLS clients send the first message (ClientHello), they start
+     in the PREPARING state.  DTLS servers start in the WAITING state, but
+     with empty buffers and no retransmit timer.
+"fixed": |-
+  Because DTLS clients send the first message (ClientHello), they start in the PREPARING state.  DTLS servers start in the WAITING state, but with empty buffers and no retransmit timer.
+"ko": |-
+  DTLS 클라이언트는 첫 번째 메시지(ClientHello)를 보내기 때문에 PREPARING 상태에서 시작합니다. DTLS 서버는 WAITING 상태에서 시작되지만 버퍼가 비어 있고 재전송 타이머가 없습니다.

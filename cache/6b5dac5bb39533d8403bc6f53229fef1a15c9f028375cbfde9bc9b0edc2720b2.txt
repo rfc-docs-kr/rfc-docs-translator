@@ -1,0 +1,1 @@
+   HTTP 기반 OCSP 응답은 적절한 HTTP 헤더와 OCSPResponse의 DER 인코딩의 이진 값으로 구성됩니다. Content-Type 헤더에는 "application/ocsp-response" 값이 있습니다. Content-Length 헤더는 응답의 길이를 지정해야 합니다(SHOULD). 다른 HTTP 헤더가 있을 수 있으며 요청자가 이해하지 못하는 경우 무시할 수 있습니다.

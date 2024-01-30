@@ -1,0 +1,20 @@
+"hash": |-
+  7f3a2eae577834ab6c0ffb47131c0492e449c40d5e54e13e6b3eb01d49b9ba7b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        R-Open           Send-Message     R-Snd-Message    R-Open
+                         R-Rcv-Message    Process          R-Open
+                         R-Rcv-DWR        Process-DWR,     R-Open
+                                          R-Snd-DWA
+                         R-Rcv-DWA        Process-DWA      R-Open
+                         R-Conn-CER       R-Reject         R-Open
+                         Stop             R-Snd-DPR        Closing
+                         R-Rcv-DPR        R-Snd-DPA        Closing
+                         R-Peer-Disc      R-Disc           Closed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

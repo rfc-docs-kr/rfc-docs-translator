@@ -1,0 +1,29 @@
+"hash": |-
+  455d042d760694422ed0b1105d7728e8be5eb25d96115fffc244e4c4537942a4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When both UDP and TCP candidates are offered for the same media
+     stream, and one transport protocol should be preferred over the
+     other, the type preferences for the preferred transport protocol
+     candidates SHOULD be increased and/or the type preferences for the
+     other transport protocol candidates SHOULD be decreased.  How much
+     the values should be increased or decreased depends on whether it is
+     more important to choose a certain transport protocol or a certain
+     candidate type.  If the candidate type is more important (e.g., even
+     if UDP is preferred, TCP host candidates are preferred over UDP
+     server reflexive candidates) changing type preference values by one
+     for the other transport protocol candidates is enough.  On the other
+     hand, if the transport protocol is more important (e.g., any UDP
+     candidate is preferred over any TCP candidate), all the preferred
+     transport protocol candidates SHOULD have type preference higher than
+     the other transport protocol candidates.  However, it is RECOMMENDED
+     that the relayed candidates are still preferred lower than the other
+     candidate types.  For RTP-based media streams, it is RECOMMENDED that
+     UDP candidates are preferred over TCP candidates.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

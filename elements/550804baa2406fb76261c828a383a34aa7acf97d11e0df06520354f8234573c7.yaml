@@ -1,0 +1,39 @@
+"hash": |-
+  550804baa2406fb76261c828a383a34aa7acf97d11e0df06520354f8234573c7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    | USI            | 9008    | 5 BITS          | User Information Layer|
+    |                |         |                 |  1 Protocol           |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bits 5 4 3 2 1                                                  |
+    |    00001 - CCITT standardized rate adaption V.110 and X.30.        |
+    |    00010 - Recommendation G.711  u-law                             |
+    |    00011 - Recommendation G.711 A-law                              |
+    |    00100 - Recommendation G.721 32 kbit/s ADPCM and Recommendation |
+    |            I.460.                                                  |
+    |    00101 - Recommendations H.221 and H.242                         |
+    |    00110 - Recommendations H.223 and H.245                         |
+    |    00111 - Non-ITU-T standardized rate adaption.                   |
+    |    01000 - ITU-T standardized rate adaption V.120.                 |
+    |    01001 - CCITT standardized rate adaption X.31 HDLC flag         |
+    |            stuffing.                                               |
+    |    All other values are reserved.                                  |
+    +----------------+---------+-----------------+-----------------------+
+    | syncasync      | 9009    | BOOLEAN         |  Synchronous/         |
+    |                |         |                 |  Asynchronous         |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - Synchronous data                                            |
+    |    1 - Asynchronous data                                           |
+    +----------------+---------+-----------------+-----------------------+
+    | negotiation    | 900A    | BOOLEAN         |  Negotiation          |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - In-band negotiation possible                                |
+    |    1 - In-band negotiation not possible                            |
+    +----------------+---------+-----------------+-----------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

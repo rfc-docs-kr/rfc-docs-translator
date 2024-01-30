@@ -1,0 +1,21 @@
+"hash": |-
+  42227505120e7fba06cdd040c2221a1402075d3f69eeaeb44a7c5e06d80ce737
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case of an Override mode AS, receipt of an ASP Active message
+     at an SGP causes the (re)direction of all traffic for the AS to the
+     ASP that sent the ASP Active message.  Any previously active ASP in
+     the AS is now considered to be in the state ASP-INACTIVE and SHOULD
+     no longer receive traffic from the SGP within the AS.  The SGP or
+     IPSP then MUST send a Notify message ("Alternate ASP_Active") to the
+     previously active ASP in the AS and SHOULD stop traffic to/from that
+     ASP.  The ASP receiving this Notify MUST consider itself now in the
+     ASP-INACTIVE state, if it is not already aware of this via inter-ASP
+     communication with the Overriding ASP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

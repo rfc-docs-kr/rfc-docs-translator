@@ -1,0 +1,1 @@
+   loss_Detection_timer.reset() pto_count = 0 late_rtt = 0 smoothed_rtt = kInitialRtt rttvar = kInitialRtt / 2 min_rtt = 0 first_rtt_sample = 0 for pn_space in [ 초기, 핸드셰이크, ApplicationData ]: maximum_acked_packet[pn_space] = 무한 time_of_last_ack_eliciting_packet[pn_ 공간] = 0 loss_time[ pn_공간] = 0

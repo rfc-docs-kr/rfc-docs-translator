@@ -1,0 +1,14 @@
+"hash": |-
+  7bcb6f0027e5694b9331bdd86147ac9c2ed3619c799dd3fa56a2f1146436d21f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Upon receipt of the ServerHelloDone message, the client SHOULD
+        verify that the server provided a valid certificate, if required,
+        and check that the server hello parameters are acceptable.
+"fixed": |-
+  - Upon receipt of the ServerHelloDone message, the client SHOULD verify that the server provided a valid certificate, if required, and check that the server hello parameters are acceptable.
+"ko": |-
+  - ServerHelloDone 메시지를 수신하면 클라이언트는 필요한 경우 서버가 유효한 인증서를 제공했는지 확인하고 서버 hello 매개변수가 허용되는지 확인해야 합니다.

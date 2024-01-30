@@ -1,0 +1,19 @@
+"hash": |-
+  89156596dc3bf2441fddce0d40df4a0d38eaf75f56aea376b4b0ecf1a76fc709
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An Abort-Session-Answer (ASA) command is sent in response to an ASR
+     in order to indicate the disposition of the request.  A
+     Diameter/RADIUS gateway receiving a Disconnect-ACK translates this to
+     an ASA command with a Result-Code AVP of "DIAMETER_SUCCESS".  A
+     Disconnect-NAK received from the NAS is translated to an ASA command
+     with a Result-Code AVP that depends on the value of the Error-Cause
+     Attribute.  Suggested translations between Error-Cause Attribute
+     values and Result-Code AVP values are included below:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

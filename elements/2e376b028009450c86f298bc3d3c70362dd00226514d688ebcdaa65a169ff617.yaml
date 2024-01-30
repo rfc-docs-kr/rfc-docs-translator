@@ -1,0 +1,20 @@
+"hash": |-
+  2e376b028009450c86f298bc3d3c70362dd00226514d688ebcdaa65a169ff617
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServAlgDropId OBJECT-TYPE
+      SYNTAX       IndexInteger
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An index that enumerates the Algorithmic Dropper entries.
+         Managers obtain new values for row creation in this table by
+         reading diffServAlgDropNextFree."
+      ::= { diffServAlgDropEntry 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

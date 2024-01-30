@@ -1,0 +1,22 @@
+"hash": |-
+  b283dd1be97259425077ca1220976a22234c54c91a0b57e61e4a60420dbe11d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to fully provide confidentiality, integrity protection, and
+     authentication for TCP connections (including their control flags),
+     IPsec is the only current effective method.  For integrity protection
+     and authentication, the TCP Authentication Option (TCP-AO) [38] is
+     available, with a proposed extension to also provide confidentiality
+     for the segment payload.  Other methods discussed in this section may
+     provide confidentiality or integrity protection for the payload, but
+     for the TCP header only cover either a subset of the fields (e.g.,
+     tcpcrypt [57]) or none at all (e.g., TLS).  Other security features
+     that have been added to TCP (e.g., ISN generation, sequence number
+     checks, and others) are only capable of partially hindering attacks.
+"fixed": |-
+  In order to fully provide confidentiality, integrity protection, and authentication for TCP connections (including their control flags), IPsec is the only current effective method.  For integrity protection and authentication, the TCP Authentication Option (TCP-AO) [38] is available, with a proposed extension to also provide confidentiality for the segment payload.  Other methods discussed in this section may provide confidentiality or integrity protection for the payload, but for the TCP header only cover either a subset of the fields (e.g., tcpcrypt [57]) or none at all (e.g., TLS).  Other security features that have been added to TCP (e.g., ISN generation, sequence number checks, and others) are only capable of partially hindering attacks.
+"ko": |-
+  TCP 연결(제어 플래그 포함)에 대한 기밀성, 무결성 보호 및 인증을 완벽하게 제공하기 위해 IPsec은 현재 유일하게 효과적인 방법입니다. 무결성 보호 및 인증을 위해 TCP-AO(TCP 인증 옵션)[38]를 사용할 수 있으며, 세그먼트 페이로드에 대한 기밀성을 제공하기 위한 확장도 제안되었습니다. 이 섹션에서 논의된 다른 방법은 페이로드에 대한 기밀성 또는 무결성 보호를 제공할 수 있지만 TCP 헤더의 경우 필드의 하위 집합(예: tcpcrypt [57])만 다루거나 전혀 포함하지 않습니다(예: TLS). TCP에 추가된 기타 보안 기능(예: ISN 생성, 시퀀스 번호 확인 등)은 공격을 부분적으로만 방해할 수 있습니다.

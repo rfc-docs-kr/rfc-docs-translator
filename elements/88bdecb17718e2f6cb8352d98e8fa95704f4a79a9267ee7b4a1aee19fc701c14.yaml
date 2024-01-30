@@ -1,0 +1,40 @@
+"hash": |-
+  88bdecb17718e2f6cb8352d98e8fa95704f4a79a9267ee7b4a1aee19fc701c14
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    | MULT           | See     |                 | Multiplier, or n x    |
+    |                | Table   |                 | 64k/8k/300            |
+    |                | C.9     |                 |                       |
+    |    Reference: ITU Recommendation Q.2931                            |
+    +----------------+---------+-----------------+-----------------------+
+    | SCRI           | 8003    | 1 OCTECT        | Source Clock Frequency|
+    |                |         |                 |  Recovery Method      |
+    |    Reference: ITU Recommendation Q.2931                            |
+    |    00000000    NULL                                                |
+    |    00000001    SRTS                                                |
+    |    00000010    ACM                                                 |
+    +----------------+---------+-----------------+-----------------------+
+    | ECM            | 8004    | 1 OCTECT        |  Error Correction     |
+    |                |         |                 |  Method               |
+    |    Reference: ITU Recommendation Q.2931                            |
+    |    00000000    Null                                                |
+    |    00000001    FEC-LOSS                                            |
+    |    00000010    FEC-DELAY                                           |
+    +----------------+---------+-----------------+-----------------------+
+    | SDTB           | 8005    | 16 bit integer  |  Structured Data      |
+    |                |         |                 |  Transfer Blocksize   |
+    |    Reference: ITU Recommendation I.363.1                           |
+    |    Block size of SDT CBR service                                   |
+    +----------------+---------+-----------------+-----------------------+
+    | PFCI           | 8006    | 8 bit integer   | Partially filled cells|
+    |                |         |                 |  identifier           |
+    |    Reference: ITU Recommendation I.363.1                           |
+    |    1-47                                                            |
+    +--------------------------------------------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

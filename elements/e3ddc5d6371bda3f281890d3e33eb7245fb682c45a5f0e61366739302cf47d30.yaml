@@ -1,0 +1,21 @@
+"hash": |-
+  e3ddc5d6371bda3f281890d3e33eb7245fb682c45a5f0e61366739302cf47d30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Similarly, if a transit has been assigned address space from a class
+     A network number, it is likely that it was not assigned the entire
+     class A, and that other transit domains will get address space from
+     this class A.  In this case, the transit would also have to inject
+     routing information about the remainder of the class A into it's IGP.
+     This is analogous to the situation above, with the same
+     complications.  For this reason, we recommend that the use of a class
+     A for CIDR only be attempted if IGP's with variable length subnet
+     mask support be used throughout the class A.  Note that the IGP's
+     need not support supernetting, as discussed above.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

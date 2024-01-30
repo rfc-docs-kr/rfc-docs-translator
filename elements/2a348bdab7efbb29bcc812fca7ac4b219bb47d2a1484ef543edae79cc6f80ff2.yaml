@@ -1,0 +1,24 @@
+"hash": |-
+  2a348bdab7efbb29bcc812fca7ac4b219bb47d2a1484ef543edae79cc6f80ff2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are two fundamental changes which must be applied to Inter-
+     Domain routing protocols in order for this plan to work. First, the
+     concept of network "class" needs to be deprecated - this plan assumes
+     that routing destinations are represented by network and mask pairs
+     and that routing is done on a longest-match basis (i.e., for a given
+     destination which matches multiple network+mask pairs, the match with
+     the longest mask is used).  Second, current inter-domain protocols
+     generally do not support the concept of route aggregation, so the new
+     semantics need to be implemented in a new set of inter-domain
+     protocols. In particular, when doing aggregation, dealing with
+     multi-homed sites or destinations which change service providers is
+     difficult. Fortunately, it is possible to define several fairly
+     simple rules for dealing with such cases.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

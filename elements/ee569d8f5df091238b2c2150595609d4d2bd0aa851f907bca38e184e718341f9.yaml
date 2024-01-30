@@ -1,0 +1,15 @@
+"hash": |-
+  ee569d8f5df091238b2c2150595609d4d2bd0aa851f907bca38e184e718341f9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TCP implementations MUST act on an ICMP error message passed up from
+     the IP layer, directing it to the connection that created the error
+     (MUST-54).  The necessary demultiplexing information can be found in
+     the IP header contained within the ICMP message.
+"fixed": |-
+  TCP implementations MUST act on an ICMP error message passed up from the IP layer, directing it to the connection that created the error (MUST-54).  The necessary demultiplexing information can be found in the IP header contained within the ICMP message.
+"ko": |-
+  TCP 구현은 IP 계층에서 전달된 ICMP 오류 메시지에 따라 이를 오류를 생성한 연결로 전달해야 합니다(MUST-54). 필요한 역다중화 정보는 ICMP 메시지에 포함된 IP 헤더에서 찾을 수 있습니다.

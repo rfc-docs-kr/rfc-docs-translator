@@ -1,0 +1,17 @@
+"hash": |-
+  92d4159c0c69c58471eb0747a4a69af8d212d8b912354aa8770feb881319dabd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     0-RTT data cannot be duplicated within a connection (i.e., the server
+     will not process the same data twice for the same connection), and an
+     attacker will not be able to make 0-RTT data appear to be 1-RTT data
+     (because it is protected with different keys).  Appendix E.5 contains
+     a description of potential attacks, and Section 8 describes
+     mechanisms which the server can use to limit the impact of replay.
+"fixed": |-
+  0-RTT data cannot be duplicated within a connection (i.e., the server will not process the same data twice for the same connection), and an attacker will not be able to make 0-RTT data appear to be 1-RTT data (because it is protected with different keys).  Appendix E.5 contains a description of potential attacks, and Section 8 describes mechanisms which the server can use to limit the impact of replay.
+"ko": |-
+  0-RTT 데이터는 연결 내에서 복제될 수 없으며(즉, 서버는 동일한 연결에 대해 동일한 데이터를 두 번 처리하지 않습니다), 공격자는 0-RTT 데이터를 1-RTT 데이터인 것처럼 보이게 만들 수 없습니다(왜냐하면). 다른 키로 보호됩니다.) 부록 E.5에는 잠재적인 공격에 대한 설명이 포함되어 있으며 섹션 8에서는 서버가 재생의 영향을 제한하는 데 사용할 수 있는 메커니즘에 대해 설명합니다.

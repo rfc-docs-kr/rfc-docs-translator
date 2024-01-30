@@ -1,0 +1,19 @@
+"hash": |-
+  7d47573c16a084678796c80d80741d07d8ac4db353717fdf40cd7b31b7e0b453
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (5) If this cost is less than the cost occurring in N's routing
+              table entry, overwrite N's list of next hops with those used
+              for BR, and set N's routing table cost to IAC. Else, if IAC
+              is the same as N's current cost, add BR's list of next hops
+              to N's list of next hops. In any case, the area associated
+              with N's routing table entry must remain the backbone area,
+              and the path type (either intra-area or inter-area) must
+              also remain the same.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

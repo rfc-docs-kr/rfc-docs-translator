@@ -1,0 +1,18 @@
+"hash": |-
+  0c03f0ce5994fc437844c43988782233af546d3768ace0357f0783aeb25a0e5c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the <persist> element is not given in the confirmed commit
+     operation, any follow-up commit and the confirming commit MUST be
+     issued on the same session that issued the confirmed commit.  If the
+     <persist> element is given in the confirmed <commit> operation, a
+     follow-up commit and the confirming commit can be given on any
+     session, and they MUST include a <persist-id> element with a value
+     equal to the given value of the <persist> element.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

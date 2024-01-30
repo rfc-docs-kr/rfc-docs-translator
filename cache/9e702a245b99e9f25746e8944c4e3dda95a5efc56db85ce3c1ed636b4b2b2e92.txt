@@ -1,0 +1,1 @@
+이 문서 전체에서 "상호 TLS"라는 용어는 인증서를 사용한 일반적인 TLS 서버 인증 외에도 TLS 협상 시 클라이언트가 X.509 인증서를 제시하고 해당 개인 키의 소유를 서버에 증명하는 프로세스를 나타냅니다. 세션. TLS [RFC5246] [RFC8446]의 최신 버전에서는 클라이언트가 핸드셰이크 중에 Certificate 및 CertificateVerify 메시지를 보내고 서버가 CertificateVerify 및 Finished 메시지를 확인하도록 요구합니다.

@@ -1,0 +1,25 @@
+"hash": |-
+  f44bc645f2604ab1e8ebdb2dcb824106bc9d0d55a1d785c40e9e6e2ca7c4ea57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Under normal conditions, TCP implementations keep track of the next
+     sequence number to emit and the oldest awaiting acknowledgment so as
+     to avoid mistakenly reusing a sequence number before its first use
+     has been acknowledged.  This alone does not guarantee that old
+     duplicate data is drained from the net, so the sequence space has
+     been made large to reduce the probability that a wandering duplicate
+     will cause trouble upon arrival.  At 2 megabits/sec., it takes 4.5
+     hours to use up 2^32 octets of sequence space.  Since the maximum
+     segment lifetime in the net is not likely to exceed a few tens of
+     seconds, this is deemed ample protection for foreseeable nets, even
+     if data rates escalate to 10s of megabits/sec.  At 100 megabits/sec.,
+     the cycle time is 5.4 minutes, which may be a little short but still
+     within reason.  Much higher data rates are possible today, with
+     implications described in the final paragraph of this subsection.
+"fixed": |-
+  Under normal conditions, TCP implementations keep track of the next sequence number to emit and the oldest awaiting acknowledgment so as to avoid mistakenly reusing a sequence number before its first use has been acknowledged.  This alone does not guarantee that old duplicate data is drained from the net, so the sequence space has been made large to reduce the probability that a wandering duplicate will cause trouble upon arrival.  At 2 megabits/sec., it takes 4.5 hours to use up 2^32 octets of sequence space.  Since the maximum segment lifetime in the net is not likely to exceed a few tens of seconds, this is deemed ample protection for foreseeable nets, even if data rates escalate to 10s of megabits/sec.  At 100 megabits/sec., the cycle time is 5.4 minutes, which may be a little short but still within reason.  Much higher data rates are possible today, with implications described in the final paragraph of this subsection.
+"ko": |-
+  정상적인 조건에서 TCP 구현은 첫 번째 사용이 승인되기 전에 시퀀스 번호를 실수로 재사용하는 것을 방지하기 위해 내보낼 다음 시퀀스 번호와 가장 오래 대기 중인 승인을 추적합니다. 이것만으로는 오래된 중복 데이터가 네트에서 유출된다는 것을 보장하지 않으므로 떠돌아다니는 중복 데이터가 도착 시 문제를 일으킬 가능성을 줄이기 위해 시퀀스 공간을 크게 만들었습니다. 2메가비트/초에서는 2^32 옥텟의 시퀀스 공간을 모두 사용하는 데 4.5시간이 걸립니다. 네트워크의 최대 세그먼트 수명은 수십 초를 초과할 가능성이 없으므로 이는 데이터 속도가 초당 수십 메가비트로 증가하더라도 예측 가능한 네트워크에 대한 충분한 보호로 간주됩니다. 100메가비트/초에서 주기 시간은 5.4분으로 약간 짧을 수 있지만 여전히 합리적인 수준입니다. 오늘날 훨씬 더 높은 데이터 속도가 가능하며, 이 하위 섹션의 마지막 단락에 설명된 의미가 있습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  6538f659b6edf1df41b258ef5b37848994923ac5c7f83293bcac80056d01051d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              Interval timers should be implemented to avoid drift.  In
+              some router implementations, packet processing can affect
+              timer execution.  When multiple routers are attached to a
+              single network, all doing broadcasts, this can lead to the
+              synchronization of routing packets (which should be
+              avoided).  If timers cannot be implemented to avoid drift,
+              small random amounts should be added to/subtracted from the
+              interval timer at each firing.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

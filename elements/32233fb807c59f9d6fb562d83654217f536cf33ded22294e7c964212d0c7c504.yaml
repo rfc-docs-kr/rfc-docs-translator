@@ -1,0 +1,19 @@
+"hash": |-
+  32233fb807c59f9d6fb562d83654217f536cf33ded22294e7c964212d0c7c504
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           A host IP layer implementation MAY have a configuration flag
+           "All-Subnets-MTU", indicating that the MTU of the connected
+           network is to be used for destinations on different subnets
+           within the same network, but not for other networks.  Thus,
+           this flag causes the network class mask, rather than the subnet
+           address mask, to be used to choose an EMTU_S.  For a multihomed
+           host, an "All-Subnets-MTU" flag is needed for each network
+           interface.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  8af4f5eb246a0cf60b7eb77abf600dc2c9dcdf88931ee636e2e7e403d89a2cf4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Restart markers in the JPEG data denote a point where the decoder
+     should reset its state.  As defined by JPEG, restart markers are the
+     only type of marker that may appear embedded in the entropy-coded
+     segment, and they may only appear on an MCU boundary.  A "restart
+     interval" is defined to be a block of data containing a restart
+     marker followed by some fixed number of MCUs.  An exception is made
+     for the first restart interval in each frame, which omits the initial
+     restart marker and just begins with the MCU data.  When these markers
+     are used, each frame is composed of some fixed number of back-to-back
+     restart intervals.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

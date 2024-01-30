@@ -1,0 +1,1 @@
+   IRAS의 구성에서 지정된 ID IDi에 대해 CP를 사용해야 하지만 IRAC가 CP(CFG_REQUEST) 전송에 실패한 경우 IRAS는 요청을 실패하고 FAILED_CP_REQUIRED 오류로 하위 SA 생성을 종료해야 합니다. FAILED_CP_REQUIRED는 IKE SA에 치명적이지 않습니다. 이는 단순히 하위 SA 생성이 실패하는 원인이 됩니다. 개시자는 나중에 새로운 구성 페이로드 요청을 시작하여 이 문제를 해결할 수 있습니다. FAILED_CP_REQUIRED 오류에는 관련 데이터가 없습니다.

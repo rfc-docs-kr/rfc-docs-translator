@@ -1,0 +1,15 @@
+"hash": |-
+  fabdb1ece470bc11273a5319c89b63dce81cedc6789b710af84211270c503a93
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  The ECDH shared secret is the result of applying the ECDH scalar
+        multiplication function to the secret key (into scalar input) and
+        the peer's public key (into u-coordinate point input).  The output
+        is used raw, with no processing.
+"fixed": |-
+  -  The ECDH shared secret is the result of applying the ECDH scalar multiplication function to the secret key (into scalar input) and the peer's public key (into u-coordinate point input).  The output is used raw, with no processing.
+"ko": |-
+  - ECDH 공유 비밀은 비밀 키(스칼라 입력)와 피어의 공개 키(u 좌표점 입력)에 ECDH 스칼라 곱셈 함수를 적용한 결과입니다. 출력은 처리 없이 원시로 사용됩니다.

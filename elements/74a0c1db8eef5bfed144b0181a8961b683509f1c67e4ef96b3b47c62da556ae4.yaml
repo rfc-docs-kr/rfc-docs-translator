@@ -1,0 +1,20 @@
+"hash": |-
+  74a0c1db8eef5bfed144b0181a8961b683509f1c67e4ef96b3b47c62da556ae4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the Request to a primary Dynamic Authorization Server fails, a
+        secondary Dynamic Authorization Server must be queried, if
+        available; issues relating to failover algorithms are described in
+        [RFC3539].  Since this represents a new request, a new Request
+        Authenticator and Identifier MUST be used.  However, where the
+        Dynamic Authorization Client is sending directly to the NAS,
+        failover typically does not make sense, since CoA-Request or
+        Disconnect-Request packets need to be delivered to the NAS where
+        the session resides.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

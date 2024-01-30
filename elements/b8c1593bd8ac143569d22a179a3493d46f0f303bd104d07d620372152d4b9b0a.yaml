@@ -1,0 +1,17 @@
+"hash": |-
+  b8c1593bd8ac143569d22a179a3493d46f0f303bd104d07d620372152d4b9b0a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Replays of the ClientHello produce the same early exporter, thus
+     requiring additional care by applications which use these exporters.
+     In particular, if these exporters are used as an authentication
+     channel binding (e.g., by signing the output of the exporter), an
+     attacker who compromises the PSK can transplant authenticators
+     between connections without compromising the authentication key.
+"fixed": |-
+  Replays of the ClientHello produce the same early exporter, thus requiring additional care by applications which use these exporters. In particular, if these exporters are used as an authentication channel binding (e.g., by signing the output of the exporter), an attacker who compromises the PSK can transplant authenticators between connections without compromising the authentication key.
+"ko": |-
+  ClientHello의 재생은 동일한 초기 내보내기를 생성하므로 이러한 내보내기를 사용하는 애플리케이션에서는 추가적인 주의가 필요합니다. 특히 이러한 내보내기가 인증 채널 바인딩으로 사용되는 경우(예: 내보내기의 출력에 서명) PSK를 손상시키는 공격자는 인증 키를 손상시키지 않고 연결 간에 인증자를 이식할 수 있습니다.

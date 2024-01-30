@@ -1,0 +1,17 @@
+"hash": |-
+  af97570f37fc69b3bac3b94ef2041c9d60dba4e24269d5bcbc29007620870dea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As with TLS, the ChangeCipherSpec message is not technically a
+     handshake message but MUST be treated as part of the same flight as
+     the associated Finished message for the purposes of timeout and
+     retransmission.  This creates a potential ambiguity because the order
+     of the ChangeCipherSpec cannot be established unambiguously with
+     respect to the handshake messages in case of message loss.
+"fixed": |-
+  As with TLS, the ChangeCipherSpec message is not technically a handshake message but MUST be treated as part of the same flight as the associated Finished message for the purposes of timeout and retransmission.  This creates a potential ambiguity because the order of the ChangeCipherSpec cannot be established unambiguously with respect to the handshake messages in case of message loss.
+"ko": |-
+  TLS와 마찬가지로 ChangeCipherSpec 메시지는 기술적으로 핸드셰이크 메시지가 아니지만 시간 초과 및 재전송을 위해 연결된 Finished 메시지와 동일한 플라이트의 일부로 처리되어야 합니다. 이는 메시지 손실 시 핸드셰이크 메시지와 관련하여 ChangeCipherSpec의 순서를 명확하게 설정할 수 없기 때문에 잠재적인 모호성을 만듭니다.

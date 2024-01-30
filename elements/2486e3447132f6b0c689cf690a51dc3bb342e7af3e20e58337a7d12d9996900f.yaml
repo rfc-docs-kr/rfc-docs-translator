@@ -1,0 +1,20 @@
+"hash": |-
+  2486e3447132f6b0c689cf690a51dc3bb342e7af3e20e58337a7d12d9996900f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServQId OBJECT-TYPE
+      SYNTAX       IndexInteger
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An index that enumerates the Queue entries.  Managers obtain new
+         values for row creation in this table by reading
+         diffServQNextFree."
+      ::= { diffServQEntry 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  19bf101fec37d911f2172d00bfbcc520bf5852521b50f8feff5876a7da1dcc03
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An AEAD algorithm used in TLS 1.3 MUST NOT produce an expansion
+     greater than 255 octets.  An endpoint that receives a record from its
+     peer with TLSCiphertext.length larger than 2^14 + 256 octets MUST
+     terminate the connection with a "record_overflow" alert.  This limit
+     is derived from the maximum TLSInnerPlaintext length of 2^14 octets +
+     1 octet for ContentType + the maximum AEAD expansion of 255 octets.
+"fixed": |-
+  An AEAD algorithm used in TLS 1.3 MUST NOT produce an expansion greater than 255 octets.  An endpoint that receives a record from its peer with TLSCiphertext.length larger than 2^14 + 256 octets MUST terminate the connection with a "record_overflow" alert.  This limit is derived from the maximum TLSInnerPlaintext length of 2^14 octets + 1 octet for ContentType + the maximum AEAD expansion of 255 octets.
+"ko": |-
+  TLS 1.3에서 사용되는 AEAD 알고리즘은 255옥텟보다 큰 확장을 생성해서는 안 됩니다. TLSCiphertext.length가 2^14 + 256 옥텟보다 큰 피어로부터 레코드를 수신하는 엔드포인트는 "record_overflow" 경고와 함께 연결을 종료해야 합니다. 이 제한은 최대 TLSInnerPlaintext 길이인 2^14옥텟 + ContentType의 1옥텟 + 최대 AEAD 확장인 255옥텟에서 파생됩니다.

@@ -1,0 +1,1 @@
+   이 섹션의 하위 TLV는 조정 간격 매개변수를 PCEP 피어에 알리기 위해 인코딩됩니다. 조정 간격 하위 TLV는 상향(Up-Adjustment-Interval) 및 하향(Down-Adjustment-Interval) 추세 모두에 대한 시간 간격을 지정합니다. 구현에서는 대역폭 사용 추세가 위쪽으로 이동할 때 사용된 추세와 아래쪽으로 이동할 때 다른 조정 간격 값을 설정해야 할 수도 있습니다. 이 경우 운영자는 Down-Adjustment-Interval의 조정 간격 값을 재정의하는 Down-Adjustment-Interval 하위 TLV를 사용할 수 있습니다.

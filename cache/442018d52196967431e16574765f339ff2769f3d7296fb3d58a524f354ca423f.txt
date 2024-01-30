@@ -1,0 +1,1 @@
+- TSopt 옵션을 확인하세요. 발견되면 SEG.TSval을 TS.Recent 변수에 저장하고 연결 제어 블록에서 Snd.TS.OK 비트를 켭니다. ACK 비트가 설정된 경우 my.TSclock - SEG.TSecr를 초기 RTT 추정치로 사용합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  1309f8057475af24e536953e28cb2458a8fcc8f5634a43d69cd36e1437125b16
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a connection request is received from a Diameter peer, it is
+     not, in the general case, possible to know the identity of that peer
+     until a CER is received from it.  This is because host and port
+     determine the identity of a Diameter peer; the source port of an
+     incoming connection is arbitrary.  Upon receipt of a CER, the
+     identity of the connecting peer can be uniquely determined from the
+     Origin-Host.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

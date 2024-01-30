@@ -1,0 +1,1 @@
+   gdia_device_id에 알 수 없는 장치 ID가 제공되면 서버는 NFS4ERR_NOENT를 반환합니다. 그렇지 않으면 장치 주소 정보가 gdir_device_addr에 반환됩니다. 마지막으로, 서버가 장치 ID 매핑에 대한 알림을 지원하는 경우 gdir_notification 결과에는 실제로 클라이언트에 보낼 알림에 대한 비트맵이 포함됩니다(CB_NOTIFY_DEVICEID를 통해, 섹션 20.12 참조).

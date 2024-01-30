@@ -1,0 +1,24 @@
+"hash": |-
+  6926f9798e6c151833b79ec34811123ef40d88bc07c9dd7504dbf767576d290a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To simplify translation between RADIUS and Diameter, Dynamic
+     Authorization Clients can include a Service-Type Attribute with value
+     "Authorize Only" within a CoA-Request, as described in Section 3.2.
+     A Diameter/RADIUS gateway receiving a CoA-Request containing a
+     Service-Type Attribute with a value "Authorize Only" translates this
+     to a RAR with Re-Auth-Request-Type AVP with value "AUTHORIZE ONLY".
+     The received RAA is then translated to a CoA-NAK with a Service-Type
+     Attribute with value "Authorize Only".  If the Result-Code AVP in the
+     RAA has a value in the success category, then an Error-Cause
+     Attribute with value "Request Initiated" is included in the CoA-NAK.
+     If the Result-Code AVP in the RAA has a value indicating a Protocol
+     Error or a Transient or Permanent Failure, then an alternate Error-
+     Cause Attribute is returned as suggested below.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

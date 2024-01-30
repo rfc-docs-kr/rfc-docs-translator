@@ -1,0 +1,22 @@
+"hash": |-
+  1fee4484bb989b02d04748bdf37a65f656f8f395047f4df5b50af0c99745286a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   Some TCP implementations send an MSS option only if the
+                   destination host is on a non-connected network.
+                   However, in general the TCP layer may not have the
+                   appropriate information to make this decision, so it is
+                   preferable to leave to the IP layer the task of
+                   determining a suitable MTU for the Internet path.  We
+                   therefore recommend that TCP always send the option (if
+                   not 536) and that the IP layer determine MMS_R as
+                   specified in 3.3.3 and 3.4.  A proposed IP-layer
+                   mechanism to measure the MTU would then modify the IP
+                   layer without changing TCP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

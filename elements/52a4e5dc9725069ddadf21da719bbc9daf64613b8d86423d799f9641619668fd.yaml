@@ -1,0 +1,16 @@
+"hash": |-
+  52a4e5dc9725069ddadf21da719bbc9daf64613b8d86423d799f9641619668fd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  If the FIN bit is set, signal the user "connection closing" and
+           return any pending RECEIVEs with same message, advance RCV.NXT
+           over the FIN, and send an acknowledgment for the FIN.  Note
+           that FIN implies PUSH for any segment text not yet delivered to
+           the user.
+"fixed": |-
+  -  If the FIN bit is set, signal the user "connection closing" and return any pending RECEIVEs with same message, advance RCV.NXT over the FIN, and send an acknowledgment for the FIN.  Note that FIN implies PUSH for any segment text not yet delivered to the user.
+"ko": |-
+  - FIN 비트가 설정되면 사용자에게 "연결 종료" 신호를 보내고 동일한 메시지와 함께 보류 중인 RECEIVE를 반환하고 FIN을 통해 RCV.NXT를 진행하고 FIN에 대한 승인을 보냅니다. FIN은 아직 사용자에게 전달되지 않은 세그먼트 텍스트에 대해 PUSH를 의미합니다.

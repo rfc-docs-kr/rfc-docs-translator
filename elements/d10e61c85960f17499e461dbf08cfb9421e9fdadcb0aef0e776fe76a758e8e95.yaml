@@ -1,0 +1,15 @@
+"hash": |-
+  d10e61c85960f17499e461dbf08cfb9421e9fdadcb0aef0e776fe76a758e8e95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        if defined(scheme) then
+           append scheme to result;
+           append ":" to result;
+        endif;
+"fixed": |-
+  - if defined(scheme) then append scheme to result; append ":" to result; endif;
+"ko": |-
+  - 정의된 경우(구성표) 결과에 구성표를 추가합니다. 결과에 ":"를 추가합니다. 종료;

@@ -1,0 +1,21 @@
+"hash": |-
+  1fcc56aa40b956c1c148405d48de4d65ff3677b81488ebf8e2a201d96633a61c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a relay or proxy agent receives an answer with a Result-Code AVP
+     indicating a failure, it MUST NOT modify the contents of the AVP.
+     Any additional local errors detected SHOULD be logged but not
+     reflected in the Result-Code AVP.  If the agent receives an answer
+     message with a Result-Code AVP indicating success, and it wishes to
+     modify the AVP to indicate an error, it MUST modify the Result-Code
+     AVP to contain the appropriate error in the message destined towards
+     the access device as well as include the Error-Reporting-Host AVP; it
+     MUST also issue an STR on behalf of the access device towards the
+     Diameter server.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

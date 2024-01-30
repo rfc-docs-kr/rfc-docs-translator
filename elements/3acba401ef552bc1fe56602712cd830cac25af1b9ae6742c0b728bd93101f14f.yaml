@@ -1,0 +1,15 @@
+"hash": |-
+  3acba401ef552bc1fe56602712cd830cac25af1b9ae6742c0b728bd93101f14f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  For DTLS over TCP or SCTP, which automatically fragment and
+        reassemble datagrams, there is no PMTU limitation.  However, the
+        upper layer protocol MUST NOT write any record that exceeds the
+        maximum record size of 2^14 bytes.
+"fixed": |-
+  -  For DTLS over TCP or SCTP, which automatically fragment and reassemble datagrams, there is no PMTU limitation.  However, the upper layer protocol MUST NOT write any record that exceeds the maximum record size of 2^14 bytes.
+"ko": |-
+  - 데이터그램을 자동으로 조각화하고 재조립하는 TCP 또는 SCTP를 통한 DTLS의 경우 PMTU 제한이 없습니다. 그러나 상위 계층 프로토콜은 최대 레코드 크기인 2^14바이트를 초과하는 레코드를 작성해서는 안 됩니다.

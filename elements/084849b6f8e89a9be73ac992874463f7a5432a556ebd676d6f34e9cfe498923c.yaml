@@ -1,0 +1,20 @@
+"hash": |-
+  084849b6f8e89a9be73ac992874463f7a5432a556ebd676d6f34e9cfe498923c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Slave
+              Sets the DD sequence number in the neighbor data structure
+              to the DD sequence number appearing in the received packet.
+              The slave must send a Database Description Packet in reply.
+              If the received packet has the more bit (M) set to 0, and
+              the packet to be sent by the slave will also have the M-bit
+              set to 0, the neighbor event ExchangeDone is generated.
+              Note that the slave always generates this event before the
+              master.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

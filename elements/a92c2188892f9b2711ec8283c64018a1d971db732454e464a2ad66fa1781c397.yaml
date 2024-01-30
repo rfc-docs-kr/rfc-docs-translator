@@ -1,0 +1,19 @@
+"hash": |-
+  a92c2188892f9b2711ec8283c64018a1d971db732454e464a2ad66fa1781c397
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Executing some transactions may require a long time. Long execution
+     times may interact with the timer based retransmission procedure.
+     This may result either in an inordinate number of retransmissions,
+     or in timer values that become too long to be efficient. Entities
+     that can predict that a transaction will require a long execution
+     time may send a provisional response, "Transaction Pending".  They
+     SHOULD send this response if they receive a repetition of a
+     transaction that is still being executed.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

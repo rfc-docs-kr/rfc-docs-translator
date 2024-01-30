@@ -1,0 +1,1 @@
+   MIME에는 HTTP의 Content-Encoding 헤더 필드와 동일한 개념이 포함되어 있지 않습니다. 이는 미디어 유형에 대한 수정자 역할을 하기 때문에 HTTP에서 MIME 호환 프로토콜로의 프록시 및 게이트웨이는 메시지를 전달하기 전에 Content-Type 헤더 필드의 값을 변경하거나 표현을 디코딩해야 합니다. (인터넷 메일에 대한 Content-Type의 일부 실험적 응용 프로그램에서는 Content-Encoding과 동등한 기능을 수행하기 위해 ";conversions=<content-coding>"이라는 media-type 매개 변수를 사용했습니다. 그러나 이 매개 변수는 MIME 표준의 일부가 아닙니다. .)

@@ -1,0 +1,18 @@
+"hash": |-
+  61d2d95c547c04ca280927a3c54f4a9d38aa78e1913d34ee60b1e7ed8ca65de5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              (2) The checksum field in the standard OSPF header is set to
+                  the standard IP checksum of the entire contents of the
+                  packet, starting with the OSPF packet header but
+                  excluding the 64-bit authentication field.  This
+                  checksum is calculated as the 16-bit one's complement of
+                  the one's complement sum of all the 16-bit words in the
+                  packet, excepting the authentication field.  If the
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

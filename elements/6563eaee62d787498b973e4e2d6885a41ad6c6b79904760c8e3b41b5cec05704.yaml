@@ -1,0 +1,28 @@
+"hash": |-
+  6563eaee62d787498b973e4e2d6885a41ad6c6b79904760c8e3b41b5cec05704
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are many reasons why ICE support for TCP is important.  First,
+     there are media protocols that only run over TCP.  Such protocols are
+     used, for example, for screen sharing and instant messaging
+     [RFC4975].  For these protocols to work in the presence of NAT,
+     unless they define their own NAT traversal mechanisms, ICE support
+     for TCP is needed.  In addition, RTP can also run over TCP [RFC4571].
+     Typically, it is preferable to run RTP over UDP, and not TCP.
+     However, in a variety of network environments, overly restrictive NAT
+     and firewall devices prevent UDP-based communications altogether, but
+     general TCP-based communications are permitted.  In such
+     environments, sending RTP over TCP, and thus establishing the media
+     session, may be preferable to having it fail altogether.  With this
+     specification, agents can gather UDP and TCP candidates for a media
+     stream, list the UDP ones with higher priority, and then only use the
+     TCP-based ones if the UDP ones fail.  This provides a fallback
+     mechanism that allows multimedia communications to be highly
+     reliable.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

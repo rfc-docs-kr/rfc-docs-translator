@@ -1,0 +1,20 @@
+"hash": |-
+  eb1b8d6223168182fbb091c1d968c9d9b0658a89aff7533ebd8d66693a6c23b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1. UDP sessions are inherently unsafe. Responses to a datagram
+        could come from an address different from the target address
+        used by sender ([Ref 4]). As a result, an incoming UDP packet
+        might match the outbound session of a traditional NAT router
+        only in part (the destination address and UDP port number of
+        the packet match, but the source address and port number may
+        not). In such a case, there is a potential security compromise
+        for the NAT device in permitting inbound packets with partial
+        match. This UDP security issue is also inherent to firewalls.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

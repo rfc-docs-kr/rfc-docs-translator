@@ -1,0 +1,23 @@
+"hash": |-
+  b0007091f756f918d281848e85443f5106cbf7280e77b2144d9595bd5dd5f0b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Internet architecture generally provides little protection
+     against spoofing of IP source addresses, so any security mechanism
+     that is based upon verifying the IP source address of a datagram
+     should be treated with suspicion.  However, in restricted
+     environments some source-address checking may be possible.  For
+     example, there might be a secure LAN whose gateway to the rest of the
+     Internet discarded any incoming datagram with a source address that
+     spoofed the LAN address.  In this case, a host on the LAN could use
+     the source address to test for local vs. remote source.  This problem
+     is complicated by source routing, and some have suggested that
+     source-routed datagram forwarding by hosts (see Section 3.3.5) should
+     be outlawed for security reasons.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

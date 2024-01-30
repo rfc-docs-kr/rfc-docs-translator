@@ -1,0 +1,21 @@
+"hash": |-
+  529d9226e86f0c23f471d01afa69ac12dd3c54f0f0071911096764eaa2d259f9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Notify message reflecting a change in the AS state MUST be sent to
+     all ASPs in the AS, except those in the ASP-DOWN state, with
+     appropriate Status Information and any ASP Identifier of the failed
+     ASP.  At the ASP, Layer Management is informed with an M-NOTIFY
+     indication primitive.  The Notify message must be sent whether the AS
+     state change was a result of an ASP failure or receipt of an ASP
+     State management (ASPSM) / ASP Traffic Management (ASPTM) message.
+     In the second case, the Notify message MUST be sent after any related
+     acknowledgement messages (e.g., ASP Up Ack, ASP Down Ack, ASP Active
+     Ack, or ASP Inactive Ack).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

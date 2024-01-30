@@ -1,0 +1,15 @@
+"hash": |-
+  c3c590fca36f4255423c7acec52b2583c81601209e4fc0c668dbd0b0206f8a7c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that attempts to send 0-RTT data MUST fail a connection if
+     it receives a ServerHello with TLS 1.2 or older.  It can then retry
+     the connection with 0-RTT disabled.  To avoid a downgrade attack, the
+     client SHOULD NOT disable TLS 1.3, only 0-RTT.
+"fixed": |-
+  A client that attempts to send 0-RTT data MUST fail a connection if it receives a ServerHello with TLS 1.2 or older.  It can then retry the connection with 0-RTT disabled.  To avoid a downgrade attack, the client SHOULD NOT disable TLS 1.3, only 0-RTT.
+"ko": |-
+  0-RTT 데이터 전송을 시도하는 클라이언트는 TLS 1.2 이하 버전의 ServerHello를 수신하는 경우 연결에 실패해야 합니다. 그런 다음 0-RTT가 비활성화된 상태에서 연결을 다시 시도할 수 있습니다. 다운그레이드 공격을 방지하려면 클라이언트는 TLS 1.3을 비활성화해서는 안 되며 0-RTT만 비활성화해야 합니다.

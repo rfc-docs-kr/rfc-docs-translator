@@ -1,0 +1,1 @@
+   o 이것이 연결을 위한 초기 핸드셰이크인 경우 "renegotiated_connection" 필드는 ClientHello 및 ServerHello 모두에서 길이가 0입니다. 따라서 확장의 전체 인코딩은 ff 01 00 01 00입니다. 처음 두 옥텟은 확장 유형을 나타내고 세 번째와 네 번째 옥텟은 확장 자체의 길이를 나타내며 마지막 옥텟은 "renegotiated_connection" 필드의 길이가 0인 바이트입니다. .

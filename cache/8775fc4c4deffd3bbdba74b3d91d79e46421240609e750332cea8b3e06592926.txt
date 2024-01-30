@@ -1,0 +1,1 @@
+   Content-Transfer-Encoding 필드의 정의에 명시된 바와 같이 "multipart" 유형의 엔터티에 대해 "7bit", "8bit" 또는 "binary" 이외의 인코딩은 허용되지 않습니다. 다중 부분 구분 기호 및 헤더 필드는 어떤 경우에도 항상 7비트 ASCII로 표시되며(헤더 필드는 [RFC-1522]에 따라 비ASCII 헤더 텍스트를 인코딩할 수 있음) 본문 부분 내의 데이터는 부분에서 인코딩할 수 있습니다. -각 적절한 본문 부분에 대한 Content-Transfer-Encoding 필드가 있는 부분 기반.

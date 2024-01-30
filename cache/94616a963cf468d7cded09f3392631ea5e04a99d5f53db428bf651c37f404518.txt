@@ -1,0 +1,1 @@
+   SCVP 서버가 requestorRef 항목이 포함된 요청을 수신하면 서버는 자체 식별자에 대해 requestorRef 항목의 이름 순서를 확인해야 합니다. 서버가 requestorRef 항목에서 자신의 식별자를 발견하면 반드시 오류로 응답해야 하며 responseStatus 항목의 statusCode를 40으로 설정해야 합니다.

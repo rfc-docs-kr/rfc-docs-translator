@@ -1,0 +1,20 @@
+"hash": |-
+  7a0cde2d2f258da45192fec0dd75071f17c21652fa5f1f2793c01f8d240f363a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CERs received from unknown peers MAY be silently discarded, or a CEA
+     MAY be issued with the Result-Code AVP set to DIAMETER_UNKNOWN_PEER.
+     In both cases, the transport connection is closed.  If the local
+     policy permits receiving CERs from unknown hosts, a successful CEA
+     MAY be returned.  If a CER from an unknown peer is answered with a
+     successful CEA, the lifetime of the peer entry is equal to the
+     lifetime of the transport connection.  In case of a transport
+     failure, all the pending transactions destined to the unknown peer
+     can be discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

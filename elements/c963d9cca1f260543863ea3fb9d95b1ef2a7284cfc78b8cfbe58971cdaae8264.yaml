@@ -1,0 +1,20 @@
+"hash": |-
+  c963d9cca1f260543863ea3fb9d95b1ef2a7284cfc78b8cfbe58971cdaae8264
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServRandomDropId OBJECT-TYPE
+      SYNTAX       IndexInteger
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An index that enumerates the Random Drop entries.  Managers
+         obtain new values for row creation in this table by reading
+         diffServRandomDropNextFree."
+      ::= { diffServRandomDropEntry 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

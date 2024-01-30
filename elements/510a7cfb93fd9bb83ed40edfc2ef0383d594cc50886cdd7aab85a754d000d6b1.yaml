@@ -1,0 +1,22 @@
+"hash": |-
+  510a7cfb93fd9bb83ed40edfc2ef0383d594cc50886cdd7aab85a754d000d6b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an agent wants to send a TCP-based connectivity check, it first
+     opens a TCP connection, if none yet exists, for the 5-tuple defined
+     by the candidate pair for which the check is to be sent.  This
+     connection is opened from the local candidate of the pair to the
+     remote candidate of the pair.  If the local candidate is tcp-active,
+     the agent MUST open a connection from the interface associated with
+     that local candidate.  This connection SHOULD be opened from an
+     unallocated port.  For host candidates, this is readily done by
+     connecting from the local candidate's interface.  For relayed, NAT-
+     assisted, and UDP-tunneled candidates, the agent may need to use
+     additional procedures specific to the protocol.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

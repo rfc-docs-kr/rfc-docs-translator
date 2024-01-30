@@ -1,0 +1,20 @@
+"hash": |-
+  c16ba653969cbe2f9711846c8ab2a6b221dff9f403380005952d4d2dfaa8e110
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The effective MTU can sometimes vary, as when used with variable
+     compression, e.g., RObust Header Compression (ROHC) [37].  It is
+     tempting for a TCP implementation to advertise the largest possible
+     MSS, to support the most efficient use of compressed payloads.
+     Unfortunately, some compression schemes occasionally need to transmit
+     full headers (and thus smaller payloads) to resynchronize state at
+     their endpoint compressors/decompressors.  If the largest MTU is used
+     to calculate the value to advertise in the MSS Option, TCP
+     retransmission may interfere with compressor resynchronization.
+"fixed": |-
+  The effective MTU can sometimes vary, as when used with variable compression, e.g., RObust Header Compression (ROHC) [37].  It is tempting for a TCP implementation to advertise the largest possible MSS, to support the most efficient use of compressed payloads. Unfortunately, some compression schemes occasionally need to transmit full headers (and thus smaller payloads) to resynchronize state at their endpoint compressors/decompressors.  If the largest MTU is used to calculate the value to advertise in the MSS Option, TCP retransmission may interfere with compressor resynchronization.
+"ko": |-
+  효과적인 MTU는 ROHC(RObust Header Compression) [37]와 같은 가변 압축과 함께 사용될 때와 같이 때때로 달라질 수 있습니다. 압축된 페이로드의 가장 효율적인 사용을 지원하기 위해 가능한 가장 큰 MSS를 광고하는 것은 TCP 구현에 대한 유혹입니다. 불행하게도 일부 압축 방식은 엔드포인트 압축기/압축 해제기에서 상태를 재동기화하기 위해 전체 헤더(따라서 더 작은 페이로드)를 전송해야 하는 경우가 있습니다. MSS 옵션에 광고할 값을 계산하는 데 가장 큰 MTU가 사용되는 경우 TCP 재전송으로 인해 압축기 재동기화가 방해될 수 있습니다.

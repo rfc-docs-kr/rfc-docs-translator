@@ -1,0 +1,15 @@
+"hash": |-
+  447c42b4b787e3b24e6dd6f25f478f758629605397c5f2b5df3f1b3599f5ee64
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     GHASH and POLYVAL both operate in GF(2^128), although with different
+     irreducible polynomials: POLYVAL works modulo x^128 + x^127 + x^126 +
+     x^121 + 1 and GHASH works modulo x^128 + x^7 + x^2 + x + 1.  Note
+     that these irreducible polynomials are the "reverse" of each other.
+"fixed": |-
+  GHASH and POLYVAL both operate in GF(2^128), although with different irreducible polynomials: POLYVAL works modulo x^128 + x^127 + x^126 + x^121 + 1 and GHASH works modulo x^128 + x^7 + x^2 + x + 1.  Note that these irreducible polynomials are the "reverse" of each other.
+"ko": |-
+  GHASH와 POLYVAL은 둘 다 GF(2^128)에서 작동하지만, 다른 기약 다항식을 사용합니다. POLYVAL은 모듈로 x^128 + x^127 + x^126 + x^121 + 1로 작동하고 GHASH는 모듈로 x^128 + x^7로 작동합니다. + x^2 + x + 1. 이러한 기약 다항식은 서로 "역"입니다.

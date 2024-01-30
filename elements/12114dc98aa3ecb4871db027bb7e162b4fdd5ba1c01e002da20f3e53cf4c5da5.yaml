@@ -1,0 +1,22 @@
+"hash": |-
+  12114dc98aa3ecb4871db027bb7e162b4fdd5ba1c01e002da20f3e53cf4c5da5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          /* Initialize RTP header
+           */
+          rtphdr.version = 2;
+          rtphdr.p = 0;
+          rtphdr.x = 0;
+          rtphdr.cc = 0;
+          rtphdr.m = 0;
+          rtphdr.pt = RTP_PT_JPEG;
+          rtphdr.seq = start_seq;
+          rtphdr.ts = ts;
+          rtphdr.ssrc = ssrc;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

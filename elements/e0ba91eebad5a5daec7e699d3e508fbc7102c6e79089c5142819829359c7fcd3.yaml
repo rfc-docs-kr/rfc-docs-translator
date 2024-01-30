@@ -1,0 +1,21 @@
+"hash": |-
+  e0ba91eebad5a5daec7e699d3e508fbc7102c6e79089c5142819829359c7fcd3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              IMPLEMENTATION:
+                   There is a common implementation error in UDP
+                   checksums.  Unlike the TCP checksum, the UDP checksum
+                   is optional; the value zero is transmitted in the
+                   checksum field of a UDP header to indicate the absence
+                   of a checksum.  If the transmitter really calculates a
+                   UDP checksum of zero, it must transmit the checksum as
+                   all 1's (65535).  No special action is required at the
+                   receiver, since zero and 65535 are equivalent in 1's
+                   complement arithmetic.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

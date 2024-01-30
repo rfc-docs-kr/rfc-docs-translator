@@ -1,0 +1,16 @@
+"hash": |-
+  42269b388d6831b2882c31cbb8e9adadf12763c07db8450df0a523dd341d3f15
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Allowing the MGC to send duplicate messages to both MGs accommodates
+     pairs of MGs that are capable of redundant failover of one of the
+     MGs.  Only the Working MG shall accept or reject transactions.  Upon
+     failover, the Primary MG sends a ServiceChange command with a
+     "Failover" method and a "MG Impending Failure" reason.  The MGC then
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  f12e3dc6757e0fc679dab01399d18758ebec8adfca387a6364a20dd761bffea6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <rpc message-id="101"
+            xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <edit-config>
+           <target>
+             <running/>
+           </target>
+           <default-operation>none</default-operation>
+           <config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+             <top xmlns="http://example.com/schema/1.2/config">
+               <interface xc:operation="delete">
+                 <name>Ethernet0/0</name>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

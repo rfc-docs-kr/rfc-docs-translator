@@ -1,0 +1,24 @@
+"hash": |-
+  a958c262858264b83a0a35da9fa4636d3f8e96c9b5cc0844ec465886fa8e5190
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          If the packet type is Hello, it should then be further processed
+          by the Hello Protocol (see Section 10.5).  All other packet
+          types are sent/received only on adjacencies.  This means that
+          the packet must have been sent by one of the router's active
+          neighbors.  If the receiving interface connects to a broadcast
+          network, Point-to-MultiPoint network or NBMA network the sender
+          is identified by the IP source address found in the packet's IP
+          header.  If the receiving interface connects to a point-to-point
+          network or a virtual link, the sender is identified by the
+          Router ID (source router) found in the packet's OSPF header.
+          The data structure associated with the receiving interface
+          contains the list of active neighbors.  Packets not matching any
+          active neighbor are discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

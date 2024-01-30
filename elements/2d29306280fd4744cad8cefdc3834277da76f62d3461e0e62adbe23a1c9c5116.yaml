@@ -1,0 +1,14 @@
+"hash": |-
+  2d29306280fd4744cad8cefdc3834277da76f62d3461e0e62adbe23a1c9c5116
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     AES-GCM allows a constant additional-data input to be precomputed in
+     order to save per-message computation.  AES-GCM-SIV varies the
+     authenticator key based on the nonce and so does not permit this.
+"fixed": |-
+  AES-GCM allows a constant additional-data input to be precomputed in order to save per-message computation.  AES-GCM-SIV varies the authenticator key based on the nonce and so does not permit this.
+"ko": |-
+  AES-GCM을 사용하면 메시지별 계산을 절약하기 위해 일정한 추가 데이터 입력을 미리 계산할 수 있습니다. AES-GCM-SIV는 nonce를 기반으로 인증자 키를 변경하므로 이를 허용하지 않습니다.

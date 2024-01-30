@@ -1,0 +1,13 @@
+"hash": |-
+  456f7875b8feac4c3411311e1e3dac08fb1c2aa900601d87ba967f84a76d68d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        2. The TLS handshake layer assumes that handshake messages are
+           delivered reliably and breaks if those messages are lost.
+"fixed": |-
+  1. The TLS handshake layer assumes that handshake messages are delivered reliably and breaks if those messages are lost.
+"ko": |-
+  1. TLS 핸드셰이크 계층은 핸드셰이크 메시지가 안정적으로 전달된다고 가정하고 해당 메시지가 손실되면 중단됩니다.

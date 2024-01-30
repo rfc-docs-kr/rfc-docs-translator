@@ -1,0 +1,28 @@
+"hash": |-
+  bafb6450c659353c489ee80971021cf2d56e000072c6605a6f609249e1532b5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The framing defined in RFC 4571 MUST be used when sending media.  For
+     media streams that are not RTP-based and do not normally use RFC
+     4571, the agent treats the media stream as a byte stream and assumes
+     that it has its own framing of some sort, if needed.  It then takes
+     an arbitrary number of bytes from the byte stream and places that as
+     a payload in the RFC 4571 frames, including the length.  Next, the
+     sender checks to see if the resulting set of bytes would be viewed as
+     a STUN packet based on the rules in Sections 6 and 8 of [RFC5389].
+     This includes a check on the most significant two bits, the magic
+     cookie, the length, and the fingerprint.  If, based on those rules,
+     the bytes would be viewed as a STUN message, the sender MUST utilize
+     a different number of bytes so that the length checks will fail.
+     Though it is normally highly unlikely that an arbitrary number of
+     bytes from a byte stream would resemble a STUN packet based on all of
+     the checks, it can happen if the content of the application stream
+     happens to contain a STUN message (for example, a file transfer of
+     logs from a client that includes STUN messages).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

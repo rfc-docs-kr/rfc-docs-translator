@@ -1,0 +1,14 @@
+"hash": |-
+  b0d71090623a7bae045115964a99f3358f7ba478e9bc7f6b773b256dcfdbca2b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     rehandshake, this implies that the HelloRequest will have message_seq
+     = 0 and the ServerHello will have message_seq = 1.  When a message is
+     retransmitted, the same message_seq value is used.  For example:
+"fixed": |-
+  rehandshake, this implies that the HelloRequest will have message_seq = 0 and the ServerHello will have message_seq = 1.  When a message is retransmitted, the same message_seq value is used.  For example:
+"ko": |-
+  rehandshake, 이는 HelloRequest가 message_seq = 0을 가지며 ServerHello가 message_seq = 1을 갖는다는 것을 의미합니다. 메시지가 재전송될 때 동일한 message_seq 값이 사용됩니다. 예를 들어:

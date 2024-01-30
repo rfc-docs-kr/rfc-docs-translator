@@ -1,0 +1,25 @@
+"hash": |-
+  db312b7a1c82e0e6cba10f822aeca81316bbebdae2ea5879790ac5ee40b33d27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Typically, an address is manually assigned on a network because a
+     dynamically assigned address was not suitable for some reason.
+     Therefore, where DNAv4 and DHCP are run in parallel and DNAv4
+     confirms a manual configuration, it may be undesirable to allow this
+     configuration to be overridden by DHCP, as described in Section 2.1.
+     However, packet loss may cause the reachability test to fail while
+     DHCP completes successfully, resulting in the host obtaining a
+     dynamic address where a static address is desired.  In order to
+     provide for reliable reconfirmation of manually assigned addresses,
+     reachability tests for manual configurations require a more
+     aggressive retransmission strategy than that detailed in Section 4.1
+     of the DHCP specification [RFC2131].  For example, shorter
+     retransmission intervals and more persistent retransmissions may be
+     required.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

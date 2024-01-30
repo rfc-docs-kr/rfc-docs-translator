@@ -1,0 +1,18 @@
+"hash": |-
+  65dd4ad09bfeb815f0347d8feac0dded3dec5d19efa620b6da683daecf70845a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An interesting alternative case occurs when TCP Peer A reboots and
+     TCP Peer B tries to send data on what it thinks is a synchronized
+     connection.  This is illustrated in Figure 10.  In this case, the
+     data arriving at TCP Peer A from TCP Peer B (line 2) is unacceptable
+     because no such connection exists, so TCP Peer A sends a RST.  The
+     RST is acceptable so TCP Peer B processes it and aborts the
+     connection.
+"fixed": |-
+  An interesting alternative case occurs when TCP Peer A reboots and TCP Peer B tries to send data on what it thinks is a synchronized connection.  This is illustrated in Figure 10.  In this case, the data arriving at TCP Peer A from TCP Peer B (line 2) is unacceptable because no such connection exists, so TCP Peer A sends a RST.  The RST is acceptable so TCP Peer B processes it and aborts the connection.
+"ko": |-
+  흥미로운 대체 사례는 TCP 피어 A가 재부팅되고 TCP 피어 B가 동기화된 연결이라고 생각하는 데이터를 보내려고 할 때 발생합니다. 이는 그림 10에 설명되어 있습니다. 이 경우 TCP 피어 B(라인 2)에서 TCP 피어 A에 도착하는 데이터는 해당 연결이 존재하지 않기 때문에 허용되지 않으므로 TCP 피어 A는 RST를 보냅니다. RST가 허용되므로 TCP 피어 B가 이를 처리하고 연결을 중단합니다.

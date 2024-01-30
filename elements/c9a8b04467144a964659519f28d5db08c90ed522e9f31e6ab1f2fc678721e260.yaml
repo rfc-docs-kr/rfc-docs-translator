@@ -1,0 +1,16 @@
+"hash": |-
+  c9a8b04467144a964659519f28d5db08c90ed522e9f31e6ab1f2fc678721e260
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the received record falls within the window and is new, or if the
+     packet is to the right of the window, then the receiver proceeds to
+     MAC verification.  If the MAC validation fails, the receiver MUST
+     discard the received record as invalid.  The receive window is
+     updated only if the MAC verification succeeds.
+"fixed": |-
+  If the received record falls within the window and is new, or if the packet is to the right of the window, then the receiver proceeds to MAC verification.  If the MAC validation fails, the receiver MUST discard the received record as invalid.  The receive window is updated only if the MAC verification succeeds.
+"ko": |-
+  수신된 레코드가 창 내에 있고 새 레코드이거나 패킷이 창 오른쪽에 있는 경우 수신기는 MAC 확인을 진행합니다. MAC 검증이 실패하면 수신자는 수신된 레코드를 유효하지 않은 것으로 폐기해야 합니다. 수신 창은 MAC 확인이 성공한 경우에만 업데이트됩니다.

@@ -1,0 +1,32 @@
+"hash": |-
+  db41f38313a35a6d9e3e76be104e36e83c1ca71b1471eb66a125b71749b3fc1e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For example, if the verification step in a user authentication
+        process employs public-key technology, then the process involves
+        at least three data items: (a) the user's private key, (b) a
+        signed value -- signed with that private key and passed to the
+        system, perhaps in response to a challenge from the system -- and
+        (c) the user's public-key certificate, which is validated by the
+        system and provides the public key needed to verify the signature.
+        -  Private key: The private key is *not* a credential, because it
+           is never transferred or presented. Instead, the private key is
+           "authentication information", which is associated with the
+           user's identifier for a specified period of time and can be
+           used in multiple authentications during that time.
+        -  Signed value: The signed value is *not* a credential; the
+           signed value is only ephemeral, not long lasting. The OSIRM
+           definition could be interpreted to call the signed value a
+           credential, but that would conflict with general English.
+        -  Certificate: The user's certificate *is* a credential. It can
+           be "transferred" or "presented" to any person or process that
+           needs it at any time. A public-key certificate may be used as
+           an "identity credential", and an attribute certificate may be
+           used as an "authorization credential".
+"fixed": |-
+  - For example, if the verification step in a user authentication process employs public-key technology, then the process involves at least three data items: (a) the user's private key, (b) a signed value -- signed with that private key and passed to the system, perhaps in response to a challenge from the system -- and (c) the user's public-key certificate, which is validated by the system and provides the public key needed to verify the signature. -  Private key: The private key is *not* a credential, because it is never transferred or presented. Instead, the private key is "authentication information", which is associated with the user's identifier for a specified period of time and can be used in multiple authentications during that time. -  Signed value: The signed value is *not* a credential; the signed value is only ephemeral, not long lasting. The OSIRM definition could be interpreted to call the signed value a credential, but that would conflict with general English. -  Certificate: The user's certificate *is* a credential. It can be "transferred" or "presented" to any person or process that needs it at any time. A public-key certificate may be used as an "identity credential", and an attribute certificate may be used as an "authorization credential".
+"ko": |-
+  - 예를 들어 사용자 인증 프로세스의 확인 단계에서 공개 키 기술을 사용하는 경우 프로세스에는 (a) 사용자의 개인 키, (b) 해당 개인 키로 서명된 서명된 값의 세 가지 데이터 항목이 포함됩니다. (c) 시스템에 의해 검증되고 서명을 확인하는 데 필요한 공개 키를 제공하는 사용자의 공개 키 인증서. - 개인 키: 개인 키는 전송되거나 제시되지 않으므로 자격 증명이 *아닙니다*. 대신, 개인 키는 "인증 정보"로, 지정된 기간 동안 사용자의 식별자와 연결되어 해당 기간 동안 여러 인증에 사용될 수 있습니다. - 서명된 값: 서명된 값은 자격 증명이 *아닙니다*. 서명된 값은 일시적일 뿐 오래 지속되지는 않습니다. OSIRM 정의는 서명된 값을 자격 증명이라고 해석할 수 있지만 이는 일반 영어와 충돌합니다. - 인증서: 사용자의 인증서는 자격 증명 *입니다*. 언제든지 필요한 사람이나 프로세스에 "전송"되거나 "제시"될 수 있습니다. 공개 키 인증서는 "신원 자격 증명"으로 사용될 수 있으며 속성 인증서는 "인증 자격 증명"으로 사용될 수 있습니다.

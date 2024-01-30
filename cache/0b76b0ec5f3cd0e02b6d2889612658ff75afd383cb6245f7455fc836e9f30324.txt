@@ -1,0 +1,3 @@
+      구조체 {
+
+- select (VariantTag) { /* 선택기의 값은 암시적입니다 */ case apple: V1; /* VariantBody, 태그 = apple */ 케이스 오렌지: 케이스 바나나: V2; /* VariantBody, 태그 = 오렌지 또는 바나나 */ } Variant_body; /* 변형의 선택적 레이블 */ } VariantRecord;

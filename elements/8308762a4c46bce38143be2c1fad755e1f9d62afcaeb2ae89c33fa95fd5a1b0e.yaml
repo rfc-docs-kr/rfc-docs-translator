@@ -1,0 +1,23 @@
+"hash": |-
+  8308762a4c46bce38143be2c1fad755e1f9d62afcaeb2ae89c33fa95fd5a1b0e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Virtual links configured
+          The virtual links configured with this router as one endpoint.
+          In order to have configured virtual links, the router itself
+          must be an area border router.  Virtual links are identified by
+          the Router ID of the other endpoint -- which is another area
+          border router.  These two endpoint routers must be attached to a
+          common area, called the virtual link's Transit area.  Virtual
+          links are part of the backbone, and behave as if they were
+          unnumbered point-to-point networks between the two routers.  A
+          virtual link uses the intra-area routing of its Transit area to
+          forward packets.  Virtual links are brought up and down through
+          the building of the shortest-path trees for the Transit area.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  6ae98bf6375f7b96d3812aa99b095da2686e1866d7b336bf6653a626715767be
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      [5]It is instructive to see what happens when the Designated Router
+      for the network crashes.  Call the Designated Router for the network
+      RT1, and the Backup Designated Router RT2.  If Router RT1 crashes
+      (or maybe its interface to the network dies), the other routers on
+      the network will detect RT1's absence within RouterDeadInterval
+      seconds.  All routers may not detect this at precisely the same
+      time; the routers that detect RT1's absence before RT2 does will,
+      for a time, select RT2 to be both Designated Router and Backup
+      Designated Router.  When RT2 detects that RT1 is gone it will move
+      itself to Designated Router.  At this time, the remaining router
+      having highest Router Priority will be selected as Backup Designated
+      Router.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  e7a7e2fec3ff08db705bf0d6e6d2551ee59f652d18a0f5176481bac79cf1fff6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Delegated credentials allow a peer to terminate (D)TLS connections on
+     behalf of the certificate owner.  If a credential is stolen, there is
+     no mechanism for revoking it without revoking the certificate itself.
+     To limit exposure in case of the compromise of a delegated
+     credential's private key, delegated credentials have a maximum
+     validity period.  In the absence of an application profile standard
+     specifying otherwise, the maximum validity period is set to 7 days.
+     Peers MUST NOT issue credentials with a validity period longer than
+     the maximum validity period or that extends beyond the validity
+     period of the delegation certificate.  This mechanism is described in
+     detail in Section 4.1.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

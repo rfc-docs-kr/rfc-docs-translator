@@ -1,0 +1,22 @@
+"hash": |-
+  0398ebda34f6581f5de4ff4252abb7c319c18664d6e249dbe8ad4b1624519305
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When using IPv6-in-IPv6 tunneling, in order to respect the IPv6 Hop
+     Limit value of the original datagram, a RPL router generating an SRH
+     MUST set the Segments Left to less than the original datagram's IPv6
+     Hop Limit value upon forwarding.  In the case that the source route
+     is longer than the original datagram's IPv6 Hop Limit, only the
+     initial hops (determined by the original datagram's IPv6 Hop Limit)
+     should be included in the SRH.  If the RPL router is not the source
+     of the original datagram, the original datagram's IPv6 Hop Limit
+     field is decremented before generating the SRH.  After generating the
+     SRH, the RPL router decrements the original datagram's IPv6 Hop Limit
+     value by the SRH Segments Left value.  Processing the SRH Segments
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,28 @@
+"hash": |-
+  5bdaa5cfa39abc1a0290be935cbadcfb68e62ed69502f4ebb7d54cd27e3b3e2f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A fourth solution involves assignment of a particular address
+        prefix for routing domains which are attached to precisely two (or
+        more) specific routing domains. For example, suppose that there
+        are two providers "SouthNorthNet" and "NorthSouthNet" which have a
+        very large number of customers in common (i.e., there are a large
+        number of routing domains which are attached to both). Rather than
+        getting two address prefixes these organizations could obtain
+        three prefixes.  Those routing domains which are attached to
+        NorthSouthNet but not attached to SouthNorthNet obtain an address
+        assignment based on one of the prefixes. Those routing domains
+        which are attached to SouthNorthNet but not to NorthSouthNet would
+        obtain an address based on the second prefix. Finally, those
+        routing domains which are multi-homed to both of these networks
+        would obtain an address based on the third prefix.  Each of these
+        two TRDs would then advertise two prefixes to other TRDs, one
+        prefix for leaf routing domains attached to it only, and one
+        prefix for leaf routing domains attached to both.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  97a033bf80d2e67481b936a0079eb8bd09c997fc39042472d645043f88142481
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The record layer fragments information blocks into TLSPlaintext
+     records carrying data in chunks of 2^14 bytes or less.  Message
+     boundaries are handled differently depending on the underlying
+     ContentType.  Any future content types MUST specify appropriate
+     rules.  Note that these rules are stricter than what was enforced in
+     TLS 1.2.
+"fixed": |-
+  The record layer fragments information blocks into TLSPlaintext records carrying data in chunks of 2^14 bytes or less.  Message boundaries are handled differently depending on the underlying ContentType.  Any future content types MUST specify appropriate rules.  Note that these rules are stricter than what was enforced in TLS 1.2.
+"ko": |-
+  레코드 계층은 정보 블록을 2^14바이트 이하의 청크로 데이터를 전달하는 TLSPlaintext 레코드로 조각화합니다. 메시지 경계는 기본 ContentType에 따라 다르게 처리됩니다. 모든 향후 콘텐츠 유형은 적절한 규칙을 지정해야 합니다. 이러한 규칙은 TLS 1.2에서 시행된 것보다 더 엄격합니다.

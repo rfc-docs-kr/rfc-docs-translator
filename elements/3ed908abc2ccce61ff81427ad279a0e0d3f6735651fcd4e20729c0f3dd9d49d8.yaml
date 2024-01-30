@@ -1,0 +1,25 @@
+"hash": |-
+  3ed908abc2ccce61ff81427ad279a0e0d3f6735651fcd4e20729c0f3dd9d49d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Another option for measuring transport performance would be to use
+     QoS metrics, not at the output of the network like with IPPM, but at
+     the input to the application.  For a live video-streaming application
+     the relevant metrics would be startup latency, playout lag, and
+     playout continuity.  The benefit of this approach is that it
+     abstracts away all details of the underlying transport network, so it
+     can be readily applied to compare between networks of different
+     concepts (host-centric, information-centric, or other).  As implied
+     earlier, the drawback of the approach is its dependence on the
+     application, so it is likely that different types of applications
+     will require different metrics.  It might be possible to identify
+     standard metrics for each type of application, but the situation is
+     not as clear as with IPPM metrics, and further investigation is
+     necessary.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

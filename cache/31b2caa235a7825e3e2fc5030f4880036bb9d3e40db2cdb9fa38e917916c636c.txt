@@ -1,0 +1,1 @@
+- csa_flags에서 CREATE_SESSION4_FLAG_CONN_RDMA를 csr_flags에 설정하면 안 됩니다. 서버가 한 단계 더 나아가는 데 동의하면 서버와 클라이언트는 레코드 표시([8])가 아닌 RPC RDMA 프레이밍을 사용하여 연결의 모든 향후 트래픽을 교환해야 합니다.

@@ -1,0 +1,26 @@
+"hash": |-
+  e2fc7e03f8aeb95421ceba49a05842ceca37cae68827ae2681560b9ea49f005a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  --
+  -- Maximum Rate Parameter Table
+  --
+  -- The parameters used by a scheduler for its inputs or outputs are
+  -- maintained separately from the Queue or Scheduler table entries for
+  -- reusability reasons and so that they may be used by both queues and
+  -- schedulers.  This follows the approach for separation of data path
+  -- elements from parameterization that is used throughout this MIB.
+  -- Use of these Maximum Rate Parameter Table entries by Queues and
+  -- Schedulers allows the modeling of hierarchical scheduling systems.
+  --
+  -- Specifically, a Scheduler has one or more inputs and one output.
+  -- Any queue feeding a scheduler, or any scheduler which feeds a second
+  -- scheduler, might specify a maximum transfer rate by pointing to a
+  -- Maximum Rate Parameter Table entry. Multi-rate shapers, such as a
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

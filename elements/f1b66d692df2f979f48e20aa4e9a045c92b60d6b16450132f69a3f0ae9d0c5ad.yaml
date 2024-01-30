@@ -1,0 +1,22 @@
+"hash": |-
+  f1b66d692df2f979f48e20aa4e9a045c92b60d6b16450132f69a3f0ae9d0c5ad
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (4) Else, call the destination described by the LSA N (for Type
+              3 summary-LSAs, N's address is obtained by masking the LSA's
+              Link State ID with the network/subnet mask contained in the
+              body of the LSA), and the area border originating the LSA
+              BR.  Look up the routing table entry for BR having Area A as
+              its associated area.  If no such entry exists for router BR
+              (i.e., BR is unreachable in Area A), do nothing with this
+              LSA and consider the next in the list.  Else, this LSA
+              describes an inter-area path to destination N, whose cost is
+              the distance to BR plus the cost specified in the LSA. Call
+              the cost of this inter-area path IAC.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

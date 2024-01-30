@@ -1,0 +1,42 @@
+"hash": |-
+  374dca0ca706cf15d99c3d8ca5225dae51ab4b8ed01c45bec63fef9ec5de4aeb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              Down                                          Down
+                              Hello(DR=0,seen=0)
+                         ------------------------------>
+                           Hello (DR=RT2,seen=RT1,...)      Init
+                         <------------------------------
+              ExStart        D-D (Seq=x,I,M,Master)
+                         ------------------------------>
+                             D-D (Seq=y,I,M,Master)         ExStart
+                         <------------------------------
+              Exchange       D-D (Seq=y,M,Slave)
+                         ------------------------------>
+                             D-D (Seq=y+1,M,Master)         Exchange
+                         <------------------------------
+                             D-D (Seq=y+1,M,Slave)
+                         ------------------------------>
+                                       ...
+                                       ...
+                                       ...
+                             D-D (Seq=y+n, Master)
+                         <------------------------------
+                             D-D (Seq=y+n, Slave)
+               Loading   ------------------------------>
+                                   LS Request                Full
+                         ------------------------------>
+                                   LS Update
+                         <------------------------------
+                                   LS Request
+                         ------------------------------>
+                                   LS Update
+                         <------------------------------
+               Full
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

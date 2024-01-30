@@ -1,0 +1,23 @@
+"hash": |-
+  a69d93c136796f68b3023870d004bc34e92ad4ccb1f7b5442c9b506eda564966
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          This distillation is accomplished as follows: Each area border
+          router is by definition connected to the backbone.  Each area
+          border router summarizes the topology of its attached non-
+          backbone areas for transmission on the backbone, and hence to
+          all other area border routers.  An area border router then has
+          complete topological information concerning the backbone, and
+          the area summaries from each of the other area border routers.
+          From this information, the router calculates paths to all
+          inter-area destinations.  The router then advertises these paths
+          into its attached areas.  This enables the area's internal
+          routers to pick the best exit router when forwarding traffic
+          inter-area destinations.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

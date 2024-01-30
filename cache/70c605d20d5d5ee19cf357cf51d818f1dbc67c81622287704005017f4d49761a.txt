@@ -1,0 +1,1 @@
+   언급한 대로 서버의 보안 정책은 클라이언트 요청이 NFS4ERR_WRONGSEC를 수신하는 시기를 결정합니다. 이 오류를 수신할 수 있는 작업은 LINK, LOOKUP, LOOKUPP, OPEN, PUTFH, PUTPUBFH, PUTROOTFH, RENAME, RESTOREFH 및 간접적인 READDIR입니다. LINK 및 RENAME은 작업에 사용된 보안이 저장된 파일 핸들에 적합하지 않은 경우에만 이 오류를 수신합니다. 와 더불어

@@ -1,0 +1,56 @@
+"hash": |-
+  d6a41135467636258055fda8d688360b28565ac598b8a3ed87b3a243e3d8a68a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    | flowcontrx     | 9010    | BOOLEAN         |  Flow control on      |
+    |                |         |                 |  reception (Rx)       |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - Cannot accept data with flow control mechanism (i.e. sender |
+    |        does not support this optional procedure)                   |
+    |    1 - Can accept data with flow control mechanism (i.e. sender    |
+    |        does support this optional procedure)                       |
+    +----------------+---------+-----------------+-----------------------+
+    | rateadapthdr   | 9011    | BOOLEAN         |  Rate adaption        |
+    |                |         |                 |  header/no header     |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - Rate adaption header not included                           |
+    |    1 - Rate adaption header included                               |
+    +----------------+---------+-----------------+-----------------------+
+    | multiframe     | 9012    | BOOLEAN         |  Multiple frame       |
+    |                |         |                 |  establishment support|
+    |                |         |                 |  in data link         |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - Multiple frame establishment not supported. Only UI frames  |
+    |        allowed.                                                    |
+    |    1 - Multiple frame establishment supported                      |
+    +----------------+---------+-----------------+-----------------------+
+    | OPMODE         | 9013    | BOOLEAN         |  Mode of operation    |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 Bit transparent mode of operation                             |
+    |    1 Protocol sensitive mode of operation                          |
+    +----------------+---------+-----------------+-----------------------+
+    | llidnegot      | 9014    | BOOLEAN         | Logical link          |
+    |                |         |                 | identifier negotiation|
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 Default, LLI = 256 only                                       |
+    |    1 Full protocol negotiation                                     |
+    +----------------+---------+-----------------+-----------------------+
+    | assign         | 9015    | BOOLEAN         |  Assignor/assignee    |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 Message originator is "Default assignee"                      |
+    |    1 Message originator is "Assignor only"                         |
+    +----------------+---------+-----------------+-----------------------+
+    | inbandneg      | 9016    | BOOLEAN         |  In-band/out-band     |
+    |                |         |                 |  negotiation          |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0- Negotiation is done with USER INFORMATION messages on a      |
+    |    temporary signalling connection                                 |
+    |    1- Negotiation is done in-band using logical link zero          |
+    +----------------+---------+-----------------+-----------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

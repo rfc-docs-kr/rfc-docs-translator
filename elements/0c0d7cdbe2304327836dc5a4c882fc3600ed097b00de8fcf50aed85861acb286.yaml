@@ -1,0 +1,41 @@
+"hash": |-
+  0c0d7cdbe2304327836dc5a4c882fc3600ed097b00de8fcf50aed85861acb286
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                                    |       | | | |S| |
+                                                    |       | | | |H| |F
+                                                    |       | | | |O|M|o
+                                                    |       | |S| |U|U|o
+                                                    |       | |H| |L|S|t
+                                                    |       |M|O| |D|T|n
+                                                    |       |U|U|M| | |o
+                                                    |       |S|L|A|N|N|t
+                                                    |       |T|D|Y|O|O|t
+  FEATURE                                           |SECTION| | | |T|T|e
+  --------------------------------------------------|-------|-|-|-|-|-|--
+                                                    |       | | | | | |
+  Trailer encapsulation                             |2.3.1  | | |x| | |
+  Send Trailers by default without negotiation      |2.3.1  | | | | |x|
+  ARP                                               |2.3.2  | | | | | |
+    Flush out-of-date ARP cache entries             |2.3.2.1|x| | | | |
+    Prevent ARP floods                              |2.3.2.1|x| | | | |
+    Cache timeout configurable                      |2.3.2.1| |x| | | |
+    Save at least one (latest) unresolved pkt       |2.3.2.2| |x| | | |
+  Ethernet and IEEE 802 Encapsulation               |2.3.3  | | | | | |
+    Host able to:                                   |2.3.3  | | | | | |
+      Send & receive RFC-894 encapsulation          |2.3.3  |x| | | | |
+      Receive RFC-1042 encapsulation                |2.3.3  | |x| | | |
+      Send RFC-1042 encapsulation                   |2.3.3  | | |x| | |
+        Then config. sw. to select, RFC-894 dflt    |2.3.3  |x| | | | |
+    Send K1=6 encapsulation                         |2.3.3  | | | | |x|
+    Use ARP on Ethernet and IEEE 802 nets           |2.3.3  |x| | | | |
+  Link layer report b'casts to IP layer             |2.4    |x| | | | |
+  IP layer pass TOS to link layer                   |2.4    |x| | | | |
+  No ARP cache entry treated as Dest. Unreach.      |2.4    | | | | |x|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

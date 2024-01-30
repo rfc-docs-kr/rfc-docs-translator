@@ -1,0 +1,19 @@
+"hash": |-
+  ff09aa6ca08cdf0e922660f22d6dd41d28cd42cbc25b04839076812c771bb7de
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (2) Call the vertex just added to the tree vertex V.  Examine
+              the LSA associated with vertex V.  This is a lookup in the
+              Area A's link state database based on the Vertex ID.  If
+              this is a router-LSA, and bit V of the router-LSA (see
+              Section A.4.2) is set, set Area A's TransitCapability to
+              TRUE.  In any case, each link described by the LSA gives the
+              cost to an adjacent vertex.  For each described link, (say
+              it joins vertex V to vertex W):
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

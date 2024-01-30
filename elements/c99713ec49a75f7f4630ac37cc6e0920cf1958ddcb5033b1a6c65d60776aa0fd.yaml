@@ -1,0 +1,23 @@
+"hash": |-
+  c99713ec49a75f7f4630ac37cc6e0920cf1958ddcb5033b1a6c65d60776aa0fd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In addition to the direct effects of replays, there is a class of
+     attacks where even operations normally considered idempotent could be
+     exploited by a large number of replays (timing attacks, resource
+     limit exhaustion and others, as described in Appendix E.5).  Those
+     can be mitigated by ensuring that every 0-RTT payload can be replayed
+     only a limited number of times.  The server MUST ensure that any
+     instance of it (be it a machine, a thread, or any other entity within
+     the relevant serving infrastructure) would accept 0-RTT for the same
+     0-RTT handshake at most once; this limits the number of replays to
+     the number of server instances in the deployment.  Such a guarantee
+     can be accomplished by locally recording data from recently received
+     ClientHellos and rejecting repeats, or by any other method that
+"fixed": |-
+  In addition to the direct effects of replays, there is a class of attacks where even operations normally considered idempotent could be exploited by a large number of replays (timing attacks, resource limit exhaustion and others, as described in Appendix E.5).  Those can be mitigated by ensuring that every 0-RTT payload can be replayed only a limited number of times.  The server MUST ensure that any instance of it (be it a machine, a thread, or any other entity within the relevant serving infrastructure) would accept 0-RTT for the same 0-RTT handshake at most once; this limits the number of replays to the number of server instances in the deployment.  Such a guarantee can be accomplished by locally recording data from recently received ClientHellos and rejecting repeats, or by any other method that
+"ko": |-
+  재생의 직접적인 효과 외에도 일반적으로 멱등성으로 간주되는 작업조차도 다수의 재생(부록 E.5에 설명된 타이밍 공격, 리소스 제한 고갈 및 기타)에 의해 악용될 수 있는 공격 클래스가 있습니다. 모든 0-RTT 페이로드가 제한된 횟수만 재생될 수 있도록 함으로써 이러한 문제를 완화할 수 있습니다. 서버는 모든 인스턴스(머신, 스레드 또는 관련 제공 인프라 내의 다른 엔터티)가 최대 한 번 동일한 0-RTT 핸드셰이크에 대해 0-RTT를 허용하도록 해야 합니다. 이는 재생 횟수를 배포의 서버 인스턴스 수로 제한합니다. 이러한 보장은 최근 수신된 ClientHellos의 데이터를 로컬로 기록하고 반복을 거부하거나 다른 방법을 사용하여 수행할 수 있습니다.

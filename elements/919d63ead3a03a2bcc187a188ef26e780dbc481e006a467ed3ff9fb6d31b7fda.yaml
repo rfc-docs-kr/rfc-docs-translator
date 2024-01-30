@@ -1,0 +1,15 @@
+"hash": |-
+  919d63ead3a03a2bcc187a188ef26e780dbc481e006a467ed3ff9fb6d31b7fda
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  In the RSA-encrypted Premaster Secret, do you correctly send and
+        verify the version number? When an error is encountered, do you
+        continue the handshake to avoid the Bleichenbacher attack (see
+        Section 7.4.7.1)?
+"fixed": |-
+  -  In the RSA-encrypted Premaster Secret, do you correctly send and verify the version number? When an error is encountered, do you continue the handshake to avoid the Bleichenbacher attack (see Section 7.4.7.1)?
+"ko": |-
+  - RSA로 암호화된 Premaster Secret에 버전번호가 정확하게 전송되고 검증되었나요? 오류가 발생하면 Bleichenbacher 공격을 피하기 위해 핸드셰이크를 계속합니까(섹션 7.4.7.1 참조)?

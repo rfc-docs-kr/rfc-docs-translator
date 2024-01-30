@@ -1,0 +1,19 @@
+"hash": |-
+  44442da6da0c62d009827b5f6e2d7e7512f43b4aa594c112907100dec0c9b835
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a user session that required Diameter authorization terminates,
+     the access device that provided the service MUST issue a Session-
+     Termination-Request (STR) message to the Diameter server that
+     authorized the service, to notify it that the session is no longer
+     active.  An STR MUST be issued when a user session terminates for any
+     reason, including user logoff, expiration of Session-Timeout,
+     administrative action, termination upon receipt of an Abort-Session-
+     Request (see below), orderly shutdown of the access device, etc.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

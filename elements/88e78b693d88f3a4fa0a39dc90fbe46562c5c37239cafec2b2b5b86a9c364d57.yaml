@@ -1,0 +1,18 @@
+"hash": |-
+  88e78b693d88f3a4fa0a39dc90fbe46562c5c37239cafec2b2b5b86a9c364d57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      All LSAs begin with a common 20 byte header.  This header contains
+      enough information to uniquely identify the LSA (LS type, Link State
+      ID, and Advertising Router).  Multiple instances of the LSA may
+      exist in the routing domain at the same time.  It is then necessary
+      to determine which instance is more recent.  This is accomplished by
+      examining the LS age, LS sequence number and LS checksum fields that
+      are also contained in the LSA header.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

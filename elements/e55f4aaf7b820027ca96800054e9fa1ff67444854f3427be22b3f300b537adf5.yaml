@@ -1,0 +1,19 @@
+"hash": |-
+  e55f4aaf7b820027ca96800054e9fa1ff67444854f3427be22b3f300b537adf5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          ExternalRoutingCapability
+              Entire OSPF areas can be configured as "stubs" (see Section
+              3.6).  AS-external-LSAs will not be flooded into stub areas.
+              This capability is represented by the E-bit in the OSPF
+              Options field (see Section A.2).  In order to ensure
+              consistent configuration of stub areas, all routers
+              interfacing to such an area must have the E-bit clear in
+              their Hello packets (see Sections 9.5 and 10.5).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

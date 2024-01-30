@@ -1,0 +1,20 @@
+"hash": |-
+  3ea84d80cbbb5b6e5409cb8f18a7daf2fbc3aed09188147a3ec16a01ab7eaaa2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (1) The LS age field of one of the router's self-originated LSAs
+              reaches the value LSRefreshTime. In this case, a new
+              instance of the LSA is originated, even though the contents
+              of the LSA (apart from the LSA header) will be the same.
+              This guarantees periodic originations of all LSAs.  This
+              periodic updating of LSAs adds robustness to the link state
+              algorithm.  LSAs that solely describe unreachable
+              destinations should not be refreshed, but should instead be
+              flushed from the routing domain (see Section 14.1).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

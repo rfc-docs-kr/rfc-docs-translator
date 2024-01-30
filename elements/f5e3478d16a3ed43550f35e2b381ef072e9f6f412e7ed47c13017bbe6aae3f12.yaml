@@ -1,0 +1,21 @@
+"hash": |-
+  f5e3478d16a3ed43550f35e2b381ef072e9f6f412e7ed47c13017bbe6aae3f12
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server is using a site certificate, the domain name in the
+     NAPTR query and the domain name in the replacement field MUST both be
+     valid based on the site certificate handed out by the server in the
+     TLS/TCP and DTLS/SCTP or Internet Key Exchange Protocol (IKE)
+     exchange.  Similarly, the domain name in the SRV query and the domain
+     name in the target in the SRV record MUST both be valid based on the
+     same site certificate.  Otherwise, an attacker could modify the DNS
+     records to contain replacement values in a different domain, and the
+     client could not validate whether this was the desired behavior or
+     the result of an attack.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

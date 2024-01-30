@@ -1,0 +1,21 @@
+"hash": |-
+  71c47d0f4ba74e79f276eb2a62c607226d65603e88e77fcc175cc34d502dc46f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The PSK binder value forms a binding between a PSK and the current
+     handshake, as well as between the session where the PSK was
+     established and the current session.  This binding transitively
+     includes the original handshake transcript, because that transcript
+     is digested into the values which produce the resumption master
+     secret.  This requires that both the KDF used to produce the
+     resumption master secret and the MAC used to compute the binder be
+     collision resistant.  See Appendix E.1.1 for more on this.  Note: The
+     binder does not cover the binder values from other PSKs, though they
+     are included in the Finished MAC.
+"fixed": |-
+  The PSK binder value forms a binding between a PSK and the current handshake, as well as between the session where the PSK was established and the current session.  This binding transitively includes the original handshake transcript, because that transcript is digested into the values which produce the resumption master secret.  This requires that both the KDF used to produce the resumption master secret and the MAC used to compute the binder be collision resistant.  See Appendix E.1.1 for more on this.  Note: The binder does not cover the binder values from other PSKs, though they are included in the Finished MAC.
+"ko": |-
+  PSK 바인더 값은 PSK와 현재 핸드셰이크 간뿐만 아니라 PSK가 설정된 세션과 현재 세션 간 바인딩을 형성합니다. 이 바인딩에는 원본 핸드셰이크 기록이 전이적으로 포함됩니다. 그 이유는 해당 기록이 재개 마스터 암호를 생성하는 값으로 소화되기 때문입니다. 이를 위해서는 재개 마스터 암호를 생성하는 데 사용되는 KDF와 바인더를 계산하는 데 사용되는 MAC가 모두 충돌 방지 기능을 갖추어야 합니다. 이에 대한 자세한 내용은 부록 E.1.1을 참조하세요. 참고: 다른 PSK의 바인더 값은 Finished MAC에 포함되어 있지만 바인더는 이를 포함하지 않습니다.

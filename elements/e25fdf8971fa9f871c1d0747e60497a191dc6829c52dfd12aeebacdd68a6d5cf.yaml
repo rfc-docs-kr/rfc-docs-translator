@@ -1,0 +1,27 @@
+"hash": |-
+  e25fdf8971fa9f871c1d0747e60497a191dc6829c52dfd12aeebacdd68a6d5cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that one provider may choose to perform aggregation on the
+     routes it receives from another without explicit agreement; this is
+     termed "proxy aggregation".  This can be a useful tool for reducing
+     the amount of routing state that an AS must carry and propagate to
+     its customers and neighbors.  However, proxy aggregation can also
+     create unintended consequences in traffic engineering.  Consider what
+     happens if both AS 2 and 3 receive routes from AS 1 but AS 2 performs
+     proxy aggregation while AS 3 does not.  Other ASes that receive
+     transit routing information from both AS 2 and AS 3 will see an
+     inconsistent view of the routing information originated by AS 1.
+     This may cause an unexpected shift of traffic toward AS 1 through AS
+     3 for AS 3's customers and any others receiving transit routes from
+     AS 3.  Because proxy aggregation can cause unanticipated consequences
+     for parts of the Internet that have no relationship with either the
+     source of the aggregated routes or the party providing aggregation,
+     it should be used with extreme caution.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

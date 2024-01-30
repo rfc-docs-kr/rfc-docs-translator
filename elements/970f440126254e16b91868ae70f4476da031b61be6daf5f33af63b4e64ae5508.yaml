@@ -1,0 +1,15 @@
+"hash": |-
+  970f440126254e16b91868ae70f4476da031b61be6daf5f33af63b4e64ae5508
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     EAP methods export the MSK and EMSK, but not Transient Session Keys
+     so as to allow EAP methods to be ciphersuite and media independent.
+     Keying material exported by EAP methods MUST be independent of the
+     ciphersuite negotiated to protect data.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

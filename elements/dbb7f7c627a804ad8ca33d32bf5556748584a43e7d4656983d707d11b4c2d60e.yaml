@@ -1,0 +1,17 @@
+"hash": |-
+  dbb7f7c627a804ad8ca33d32bf5556748584a43e7d4656983d707d11b4c2d60e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      o   Use of IP multicast.  Some OSPF messages are multicast, when
+          sent over broadcast networks.  Two distinct IP multicast
+          addresses are used.  Packets sent to these multicast addresses
+          should never be forwarded; they are meant to travel a single hop
+          only.  To ensure that these packets will not travel multiple
+          hops, their IP TTL must be set to 1.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   o CA/RA가 GenMsg에서 폐기 암호(OID 및 섹션 5.3.19.9에 지정된 값)를 수신하는 경우 섹션 5.3.19.9에 지정된 OID(값 없음)를 포함하는 GenRep 메시지를 구성하고 전송해야 합니다. CA/RA가 PKIMessage의 PKIHeader에 있는 GeneralInfo 필드에서 폐기 암호 문구를 수신하는 경우 해당 응답 PKIMessage의 PKIHeader에 있는 GeneralInfo 필드에 OID(값 없음)를 포함해야 합니다. CA/RA가 어떤 이유로든 적절한 응답 메시지를 반환할 수 없는 경우 "거부" 상태와 선택적으로 실패 정보 이유가 설정된 오류 메시지를 보내야 합니다.

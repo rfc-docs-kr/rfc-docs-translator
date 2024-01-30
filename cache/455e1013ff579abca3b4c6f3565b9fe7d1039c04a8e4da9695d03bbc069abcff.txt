@@ -1,0 +1,1 @@
+   서버는 CLAIM_DELEGATE_PREV 및 CLAIM_DELEG_PREV_FH의 클레임 유형을 지원할 수 있으며, 지원하는 경우 EXCHANGE_ID에 의해 생성된 클라이언트 ID를 확인하는 CREATE_SESSION 시 위임을 제거해서는 안 됩니다. 대신 서버는 Lease_time 속성 값 이상의 기간 동안 클라이언트가 CLAIM_DELEGATE_PREV 및/또는 CLAIM_DELEG_PREV_FH 요청을 보낼 수 있는 시간을 허용하도록 클라이언트의 위임을 유지해야 합니다. CLAIM_DELEGATE_PREV 및/또는 CLAIM_DELEG_PREV_FH를 지원하는 서버는 DELEGPURGE 작업을 지원해야 합니다.

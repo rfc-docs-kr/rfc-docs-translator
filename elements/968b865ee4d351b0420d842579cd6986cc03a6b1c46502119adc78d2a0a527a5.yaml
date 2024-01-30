@@ -1,0 +1,24 @@
+"hash": |-
+  968b865ee4d351b0420d842579cd6986cc03a6b1c46502119adc78d2a0a527a5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the TCP connection is established, the framing of RFC 4571 is
+     utilized.  If the agent opened the connection and is a full agent, it
+     MUST send a STUN connectivity check.  An agent MUST be prepared to
+     receive a connectivity check over a connection it opened or accepted
+     (note that this is true in general; ICE requires that an agent be
+     prepared to receive a connectivity check at any time, even after ICE
+     processing completes).  If a full agent receives a connectivity check
+     after re-establishment of the connection, it MUST generate a
+     triggered check over that connection in response if it has not
+     already sent a check.  Once an agent has sent a check and received a
+     successful response, the connection is considered Valid, and media
+     can be sent (which includes a TLS or DTLS-SRTP session resumption or
+     restart).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

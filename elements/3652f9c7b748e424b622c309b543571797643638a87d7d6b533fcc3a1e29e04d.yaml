@@ -1,0 +1,18 @@
+"hash": |-
+  3652f9c7b748e424b622c309b543571797643638a87d7d6b533fcc3a1e29e04d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Say, a host on private network initiated a multicast session.
+        Datagram sent by the private host could trigger responses in the
+        reverse direction from multiple external hosts. Traditional-NAT
+        implementations that use a single state to track a multicast
+        session cannot determine for certain if the incoming UDP packet
+        is in response to an existing multicast session or the start of
+        new UDP session initiated by an attacker.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

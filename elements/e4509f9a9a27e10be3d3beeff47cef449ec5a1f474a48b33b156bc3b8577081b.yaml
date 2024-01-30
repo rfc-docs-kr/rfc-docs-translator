@@ -1,0 +1,17 @@
+"hash": |-
+  e4509f9a9a27e10be3d3beeff47cef449ec5a1f474a48b33b156bc3b8577081b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              +  Note that SND.WND is an offset from SND.UNA, that SND.WL1
+                 records the sequence number of the last segment used to
+                 update SND.WND, and that SND.WL2 records the
+                 acknowledgment number of the last segment used to update
+                 SND.WND.  The check here prevents using old segments to
+                 update the window.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

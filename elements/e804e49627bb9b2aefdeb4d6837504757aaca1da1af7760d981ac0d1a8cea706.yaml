@@ -1,0 +1,16 @@
+"hash": |-
+  e804e49627bb9b2aefdeb4d6837504757aaca1da1af7760d981ac0d1a8cea706
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All ICMP error messages (with the exception of Redirect message type)
+     will need to be modified, when passed through NAT. The ICMP error
+     message types needing NAT modification would include Destination-
+     Unreachable, Source-Quench, Time-Exceeded and Parameter-Problem.  NAT
+     should not attempt to modify a Redirect message type.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

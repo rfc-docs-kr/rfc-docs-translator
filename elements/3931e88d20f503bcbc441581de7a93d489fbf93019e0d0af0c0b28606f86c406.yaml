@@ -1,0 +1,20 @@
+"hash": |-
+  3931e88d20f503bcbc441581de7a93d489fbf93019e0d0af0c0b28606f86c406
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In RSA signing, the opaque vector contains the signature generated
+     using the RSASSA-PKCS1-v1_5 signature scheme defined in [PKCS1].  As
+     discussed in [PKCS1], the DigestInfo MUST be DER-encoded [X680]
+     [X690].  For hash algorithms without parameters (which includes
+     SHA-1), the DigestInfo.AlgorithmIdentifier.parameters field MUST be
+     NULL, but implementations MUST accept both without parameters and
+     with NULL parameters.  Note that earlier versions of TLS used a
+     different RSA signature scheme that did not include a DigestInfo
+     encoding.
+"fixed": |-
+  In RSA signing, the opaque vector contains the signature generated using the RSASSA-PKCS1-v1_5 signature scheme defined in [PKCS1].  As discussed in [PKCS1], the DigestInfo MUST be DER-encoded [X680] [X690].  For hash algorithms without parameters (which includes SHA-1), the DigestInfo.AlgorithmIdentifier.parameters field MUST be NULL, but implementations MUST accept both without parameters and with NULL parameters.  Note that earlier versions of TLS used a different RSA signature scheme that did not include a DigestInfo encoding.
+"ko": |-
+  RSA 서명에서 불투명 벡터에는 [PKCS1]에 정의된 RSASSA-PKCS1-v1_5 서명 체계를 사용하여 생성된 서명이 포함됩니다. [PKCS1]에서 논의된 것처럼 DigestInfo는 DER로 인코딩된 [X680] [X690]이어야 합니다. 매개변수가 없는 해시 알고리즘(SHA-1 포함)의 경우 DigestInfo.AlgorithmIdentifier.parameters 필드는 NULL이어야 하지만 구현에서는 매개변수가 없는 것과 NULL 매개변수가 있는 것을 모두 허용해야 합니다. 이전 버전의 TLS는 DigestInfo 인코딩을 포함하지 않은 다른 RSA 서명 체계를 사용했습니다.

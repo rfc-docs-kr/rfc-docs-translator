@@ -1,0 +1,1 @@
+   이 작업은 클라이언트 ID(이전 SEQUENCE 작업의 세션 ID에서 파생됨), lora_layout_type 및 lora_iomode로 표시되는 하나 이상의 레이아웃을 클라이언트에서 서버로 반환합니다. lr_returntype이 LAYOUTRETURN4_FILE인 경우 반환된 레이아웃은 현재 파일 핸들, lrf_offset, lrf_length 및 lrf_stateid로 추가로 식별됩니다. lrf_length 필드가 NFS4_UINT64_MAX인 경우, 모두

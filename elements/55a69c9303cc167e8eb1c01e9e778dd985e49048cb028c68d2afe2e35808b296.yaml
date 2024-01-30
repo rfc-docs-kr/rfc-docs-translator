@@ -1,0 +1,21 @@
+"hash": |-
+  55a69c9303cc167e8eb1c01e9e778dd985e49048cb028c68d2afe2e35808b296
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An implementation following these rules should also be generalized,
+     so that an arbitrary network number and mask are accepted for all
+     routing destinations.  The only outstanding constraint is that the
+     mask must be left contiguous.  Note that the degenerate route to
+     prefix 0.0.0.0/0 is used as a default route and MUST be accepted by
+     all implementations.  Further, to protect against accidental
+     advertisements of this route via the inter-domain protocol, this
+     route should only be advertised to another routing domain when a
+     router is explicitly configured to do so, never as a non-configured,
+     "default" option.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

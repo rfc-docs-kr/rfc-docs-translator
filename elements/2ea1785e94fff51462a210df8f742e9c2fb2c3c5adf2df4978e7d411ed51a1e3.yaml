@@ -1,0 +1,18 @@
+"hash": |-
+  2ea1785e94fff51462a210df8f742e9c2fb2c3c5adf2df4978e7d411ed51a1e3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              (1) The checksum field in the OSPF header must be verified.
+                  It must be set to the 16-bit one's complement of the
+                  one's complement sum of all the 16-bit words in the
+                  packet, excepting the authentication field.  (If the
+                  packet's length is not an integral number of 16-bit
+                  words, the packet is padded with a byte of zero before
+                  checksumming.)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

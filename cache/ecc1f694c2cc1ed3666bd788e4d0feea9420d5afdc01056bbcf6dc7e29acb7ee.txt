@@ -1,0 +1,1 @@
+   2. 값 필드가 0이 아닌 값으로 설정된 AVP를 포함한다는 것은 INTERIM_RECORD 레코드가 START_RECORD와 STOP_RECORD 레코드 사이에 생성되어야 함을 의미합니다. 이 AVP의 값 필드는 이러한 레코드 간의 명목상 간격(초)입니다. 클라이언트로 알려진 회계 정보를 발생시키는 Diameter 노드는 대략 이 명목 간격이 START_RECORD에서 경과되는 시점에 첫 번째 INTERIM_RECORD 레코드를 생성해야 하며, 간격이 다시 한 번 경과하면 다음 레코드를 다시 생성해야 합니다. 세션이 종료되고 STOP_RECORD 레코드가 생성됩니다.

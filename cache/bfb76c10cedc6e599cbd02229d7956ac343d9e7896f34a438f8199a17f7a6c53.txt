@@ -1,0 +1,1 @@
+   HFSM은 "다운" 상태에서 시작하여 NBMA 레벨 연결이 설정된 후 "대기" 상태로 전환됩니다. 대기 상태가 되면 LS는 Hello 메시지를 DCS로 보내기 시작합니다. Hello 메시지는 다음을 포함합니다: LS의 ID(LSID)로 설정된 Sender ID, LS가 최근에 Hello 메시지를 들은 DCS를 식별하는 0개 이상의 수신자 ID(아래 설명됨) 및 HelloInterval 및 DeadFactor 아래에서 설명합니다. 이 시점에서 DCS는 자체 Hello 메시지를 LS에 이미 전송 중일 수도 있고 아닐 수도 있습니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  80a12bd75c5ef382eb259ff8c89e3be59592ae37b1a83857f256f41cc0ede35e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        When a DiameterIdentity value is used to identify a Diameter node,
+        the contents of the string MUST be the Fully Qualified Domain Name
+        (FQDN) of the Diameter node.  If multiple Diameter nodes run on
+        the same host, each Diameter node MUST be assigned a unique
+        DiameterIdentity.  If a Diameter node can be identified by several
+        FQDNs, a single FQDN should be picked at startup and used as the
+        only DiameterIdentity for that node, whatever the connection on
+        which it is sent.  In this document, note that DiameterIdentity is
+        in ASCII form in order to be compatible with existing DNS
+        infrastructure.  See Appendix D for interactions between the
+        Diameter protocol and Internationalized Domain Names (IDNs).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

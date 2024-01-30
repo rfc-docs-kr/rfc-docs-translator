@@ -1,0 +1,21 @@
+"hash": |-
+  871e76e9460a3159e65f9986b9d1371e033e0b647e259f9667a081500e891c1a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: S-BGP incorporates three security mechanisms:
+        -  A PKI supports authentication of ownership of IP address
+           blocks, autonomous system (AS) numbers, an AS's identity, and a
+           BGP router's identity and its authorization to represent an AS.
+           This PKI parallels and takes advantage of the Internet's
+           existing IP address and AS number assignment system.
+        -  A new, optional, BGP transitive path attribute carries digital
+           signatures (in "attestations") covering the routing information
+           in a BGP UPDATE. These signatures along with certificates from
+           the S-BGP PKI enable the receiver of a BGP routing UPDATE to
+"fixed": |-
+  - Tutorial: S-BGP incorporates three security mechanisms: -  A PKI supports authentication of ownership of IP address blocks, autonomous system (AS) numbers, an AS's identity, and a BGP router's identity and its authorization to represent an AS. This PKI parallels and takes advantage of the Internet's existing IP address and AS number assignment system. -  A new, optional, BGP transitive path attribute carries digital signatures (in "attestations") covering the routing information in a BGP UPDATE. These signatures along with certificates from the S-BGP PKI enable the receiver of a BGP routing UPDATE to
+"ko": |-
+  - 튜토리얼: S-BGP는 세 가지 보안 메커니즘을 통합합니다. - PKI는 IP 주소 블록의 소유권, AS(자치 시스템) 번호, AS의 ID, BGP 라우터의 ID 및 AS를 나타내는 권한 부여에 대한 인증을 지원합니다. 이 PKI는 인터넷의 기존 IP 주소 및 AS 번호 할당 시스템과 유사하며 이를 활용합니다. - 새로운 선택적 BGP 전이적 경로 속성은 BGP 업데이트의 라우팅 정보를 포함하는 디지털 서명("증명")을 전달합니다. S-BGP PKI의 인증서와 함께 이러한 서명을 사용하면 BGP 라우팅 업데이트의 수신자가 다음을 수행할 수 있습니다.

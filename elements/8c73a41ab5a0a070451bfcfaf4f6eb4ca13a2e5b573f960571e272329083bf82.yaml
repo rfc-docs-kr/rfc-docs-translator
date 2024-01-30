@@ -1,0 +1,21 @@
+"hash": |-
+  8c73a41ab5a0a070451bfcfaf4f6eb4ca13a2e5b573f960571e272329083bf82
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The basic design philosophy of DTLS is to construct "TLS over
+     datagram transport".  The reason that TLS cannot be used directly in
+     datagram environments is simply that packets may be lost or
+     reordered.  TLS has no internal facilities to handle this kind of
+     unreliability; therefore, TLS implementations break when rehosted on
+     datagram transport.  The purpose of DTLS is to make only the minimal
+     changes to TLS required to fix this problem.  To the greatest extent
+     possible, DTLS is identical to TLS.  Whenever we need to invent new
+     mechanisms, we attempt to do so in such a way that preserves the
+     style of TLS.
+"fixed": |-
+  The basic design philosophy of DTLS is to construct "TLS over datagram transport".  The reason that TLS cannot be used directly in datagram environments is simply that packets may be lost or reordered.  TLS has no internal facilities to handle this kind of unreliability; therefore, TLS implementations break when rehosted on datagram transport.  The purpose of DTLS is to make only the minimal changes to TLS required to fix this problem.  To the greatest extent possible, DTLS is identical to TLS.  Whenever we need to invent new mechanisms, we attempt to do so in such a way that preserves the style of TLS.
+"ko": |-
+  DTLS의 기본 설계 철학은 "데이터그램 전송을 통한 TLS"를 구성하는 것입니다. 데이터그램 환경에서 TLS를 직접 사용할 수 없는 이유는 단순히 패킷이 손실되거나 재정렬될 수 있기 때문입니다. TLS에는 이러한 종류의 불안정성을 처리할 수 있는 내부 시설이 없습니다. 따라서 데이터그램 전송 시 다시 호스트되면 TLS 구현이 중단됩니다. DTLS의 목적은 이 문제를 해결하는 데 필요한 TLS를 최소한으로 변경하는 것입니다. 가능한 한 DTLS는 TLS와 동일합니다. 새로운 메커니즘을 개발해야 할 때마다 우리는 TLS 스타일을 유지하는 방식으로 그렇게 하려고 노력합니다.

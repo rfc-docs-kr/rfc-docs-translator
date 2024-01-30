@@ -1,0 +1,22 @@
+"hash": |-
+  f3ddb5a960b90721e15a8c98d1a65fe22a89a096641da55ab480e8bdb8df3947
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the connection is established, the agent MUST utilize the shim
+     defined in RFC 4571 [RFC4571] for the duration this connection
+     remains open.  The STUN Binding requests and responses are sent on
+     top of this shim, so that the length field defined in RFC 4571
+     precedes each STUN message.  If TLS or DTLS-SRTP is to be utilized
+     for the media session, the TLS or DTLS-SRTP handshakes will take
+     place on top of this shim as well.  However, they only start once ICE
+     processing has completed.  In essence, the TLS or DTLS-SRTP
+     handshakes are considered a part of the media protocol.  STUN is
+     never run within the TLS or DTLS-SRTP session as part of the ICE
+     procedures.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

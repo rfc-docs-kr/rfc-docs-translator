@@ -1,0 +1,20 @@
+"hash": |-
+  cc10e54931f9aa53278fc1988650cad64efa73a7ef575bad6120c1ed00a90d49
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The Authenticator field in a Response packet (e.g.,
+           Disconnect-ACK, Disconnect-NAK, CoA-ACK, or CoA-NAK) is called
+           the Response Authenticator, and contains a one-way MD5 hash
+           calculated over a stream of octets consisting of the Code,
+           Identifier, Length, the Request Authenticator field from the
+           packet being replied to, and the response attributes if any,
+           followed by the shared secret.  The resulting 16-octet MD5 hash
+           value is stored in the Authenticator field of the Response
+           packet.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

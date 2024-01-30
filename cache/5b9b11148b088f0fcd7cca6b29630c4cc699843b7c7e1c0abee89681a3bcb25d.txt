@@ -1,0 +1,3 @@
+        /*
+
+- * HMAC_MD5 변환은 다음과 같습니다. * * MD5(K XOR opad, MD5(K XOR ipad, text)) * * 여기서 K는 n 바이트 키입니다. * ipad는 64번 반복되는 바이트 0x36입니다.

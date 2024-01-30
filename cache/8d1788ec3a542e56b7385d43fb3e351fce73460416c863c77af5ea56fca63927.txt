@@ -1,0 +1,1 @@
+   도메인 이름은 제목 필드, 발급자 필드, subjectAltName 확장 또는 issuerAltName 확장의 도메인 구성 요소를 사용하여 고유 이름으로 표시될 수도 있습니다. GeneralName 유형의 dNSName과 마찬가지로 이 속성의 값은 IA5String으로 정의됩니다. 각 domainComponent 속성은 단일 레이블을 나타냅니다. 고유 이름으로 IDN의 레이블을 나타내려면 구현 시 RFC 3490의 섹션 4.1에 지정된 "ToASCII" 레이블 변환을 수행해야 합니다. 레이블은 "저장된 문자열"로 간주됩니다. 즉, AllowUnsigned 플래그는 설정되어서는 안 됩니다.

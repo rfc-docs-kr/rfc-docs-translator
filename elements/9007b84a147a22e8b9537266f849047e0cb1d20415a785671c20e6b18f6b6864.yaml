@@ -1,0 +1,25 @@
+"hash": |-
+  9007b84a147a22e8b9537266f849047e0cb1d20415a785671c20e6b18f6b6864
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        bridges.  However, these "copies" will have taken different routes
+        so the contents of the RIF will differ.  An implementation of ARP
+        in this context must determine which of these "copies" to use and
+        to ignore the others.  There are three obvious and legal
+        strategies: (1) take the first and ignore the rest (that is, once
+        you have an entry in the ARP cache don't change it), (2) take the
+        last, (that is, always up date the ARP cache with the latest ARP
+        message), or (3) take the one with the shortest path, (that is,
+        replace the ARP cache information with the latest ARP message data
+        if it is a shorter route).  Since there is no problem of
+        incompatibility for interworking of different implementations if
+        different strategies are chosen, the choice is up to each
+        implementor.  The recipient of the ARP request must send an ARP
+        reply as a point to point message using the RIF information.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

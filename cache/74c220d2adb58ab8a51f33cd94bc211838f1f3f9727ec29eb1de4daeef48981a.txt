@@ -1,0 +1,1 @@
+   레코드 보호 기능은 TLSPlaintext 구조를 TLSCiphertext 구조로 변환합니다. 보호 해제 기능은 프로세스를 반대로 합니다. TLS 1.3에서는 이전 버전의 TLS와 달리 모든 암호가 "AEAD(Authenticated Encryption with Associated Data)"[RFC5116]로 모델링됩니다. AEAD 기능은 일반 텍스트를 인증된 암호문으로 변환하고 다시 되돌리는 통합 암호화 및 인증 작업을 제공합니다. 각 암호화된 레코드는 일반 텍스트 헤더와 그 자체로 유형 및 선택적 패딩을 포함하는 암호화된 본문으로 구성됩니다.

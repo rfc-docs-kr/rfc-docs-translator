@@ -1,0 +1,16 @@
+"hash": |-
+  68d0b98f91d8f3369a48406a58c423a01076066ecee4c967a6b10a425f030b29
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       These are hard error conditions, so TCP implementations SHOULD
+       abort the connection (SHLD-26).  [35] notes that some
+       implementations do not abort connections when an ICMP hard error is
+       received for a connection that is in any of the synchronized
+       states.
+"fixed": |-
+  These are hard error conditions, so TCP implementations SHOULD abort the connection (SHLD-26).  [35] notes that some implementations do not abort connections when an ICMP hard error is received for a connection that is in any of the synchronized states.
+"ko": |-
+  이는 심각한 오류 조건이므로 TCP 구현은 연결을 중단해야 합니다(SHLD-26). [35] 일부 구현에서는 동기화된 상태에 있는 연결에 대해 ICMP 하드 오류가 수신될 때 연결을 중단하지 않습니다.

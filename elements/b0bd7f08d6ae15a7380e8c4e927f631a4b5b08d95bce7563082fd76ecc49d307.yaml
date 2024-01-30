@@ -1,0 +1,15 @@
+"hash": |-
+  b0bd7f08d6ae15a7380e8c4e927f631a4b5b08d95bce7563082fd76ecc49d307
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Compression must be lossless and may not increase the content length
+     by more than 1024 bytes.  If the decompression function encounters a
+     TLSCompressed.fragment that would decompress to a length in excess of
+     2^14 bytes, it MUST report a fatal decompression failure error.
+"fixed": |-
+  Compression must be lossless and may not increase the content length by more than 1024 bytes.  If the decompression function encounters a TLSCompressed.fragment that would decompress to a length in excess of 2^14 bytes, it MUST report a fatal decompression failure error.
+"ko": |-
+  압축은 무손실이어야 하며 콘텐츠 길이를 1024바이트 이상 늘릴 수 없습니다. 압축 해제 기능이 2^14바이트를 초과하는 길이로 압축을 해제하는 TLSCompressed.fragment를 발견하는 경우 치명적인 압축 해제 실패 오류를 보고해야 합니다.

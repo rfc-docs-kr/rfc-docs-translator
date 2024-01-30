@@ -1,0 +1,3 @@
+   double rtcp_interval(int 멤버,
+
+- int senders, double rtcp_bw, int we_sent, int packet_size, int *avg_rtcp_size, intinitial) { /* * 이 사이트의 RTCP 패킷 간 최소 시간(초)입니다. * 이번에는 세션이 * 작거나 대수의 법칙이 트래픽을 원활하게 * 돕는 데 도움이 되지 않을 때 보고서가 '뭉쳐지는' 것을 방지합니다. 또한 * 네트워크 파티션과 같은 일시적인 중단 중에 보고 간격이 터무니없이 작아지는 것을 방지합니다. */ double const RTCP_MIN_TIME = 5.; /* * 활성 발신자 간에 공유될 RTCP 대역폭의 비율입니다. (이 부분은 하나 또는 두 명의 활성 발신자가 있는 일반적인 * 세션에서 계산된 보고 시간이 * 우리가 수신자 보고를 불필요하게 느리게 하지 않도록 * 최소 보고 시간과 대략 동일하도록 선택되었습니다.) * 수신자 비율은 1이어야 합니다(발신자 비율). */ double const RTCP_SENDER_BW_FRACTION = 0.25; 이중 const RTCP_RCVR_BW_FRACTION = (1-RTCP_SENDER_BW_FRACTION); /* * 저역 통과 필터에 대한 이득(평활 상수)

@@ -1,0 +1,3 @@
+      논의:
+
+- 디렉토리에 새 파일을 추가하기 위한 권한입니다. nfs_ftype4가 NF4LNK, NF4BLK, NF4CHR, NF4SOCK 또는 NF4FIFO인 경우 CREATE 작업이 영향을 받습니다. (NF4DIR은 ACE4_ADD_SUBDIRECTORY에 포함되어 나열되지 않습니다.) OPEN은 일반 파일을 생성하는 데 사용될 때 영향을 받습니다. LINK 및 RENAME은 항상 영향을 받습니다.

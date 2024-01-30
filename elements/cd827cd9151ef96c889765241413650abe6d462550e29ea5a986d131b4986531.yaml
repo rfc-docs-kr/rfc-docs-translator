@@ -1,0 +1,18 @@
+"hash": |-
+  cd827cd9151ef96c889765241413650abe6d462550e29ea5a986d131b4986531
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The external PSK and resumption PSK bootstrap from a long-term shared
+     secret into a unique per-connection set of short-term session keys.
+     This secret may have been established in a previous handshake.  If
+     PSK with (EC)DHE key establishment is used, these session keys will
+     also be forward secret.  The resumption PSK has been designed so that
+     the resumption master secret computed by connection N and needed to
+     form connection N+1 is separate from the traffic keys used by
+"fixed": |-
+  The external PSK and resumption PSK bootstrap from a long-term shared secret into a unique per-connection set of short-term session keys. This secret may have been established in a previous handshake.  If PSK with (EC)DHE key establishment is used, these session keys will also be forward secret.  The resumption PSK has been designed so that the resumption master secret computed by connection N and needed to form connection N+1 is separate from the traffic keys used by
+"ko": |-
+  외부 PSK 및 재개 PSK 부트스트랩은 장기 공유 비밀에서 고유한 연결별 단기 세션 키 세트로 전환됩니다. 이 비밀은 이전 핸드셰이크에서 설정되었을 수 있습니다. (EC)DHE 키 설정이 포함된 PSK를 사용하는 경우 이러한 세션 키도 전달 비밀이 됩니다. 재개 PSK는 연결 N에 의해 ​​계산되고 연결 N+1을 형성하는 데 필요한 재개 마스터 비밀이 연결 N+1에서 사용되는 트래픽 키와 분리되도록 설계되었습니다.

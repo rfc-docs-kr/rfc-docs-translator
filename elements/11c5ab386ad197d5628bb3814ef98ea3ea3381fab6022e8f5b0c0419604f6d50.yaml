@@ -1,0 +1,20 @@
+"hash": |-
+  11c5ab386ad197d5628bb3814ef98ea3ea3381fab6022e8f5b0c0419604f6d50
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the transport receiver does not authenticate the transport sender,
+     it may accept data from an attacker.  Unless it has another way of
+     authenticating the source of the data, the data should not be
+     trusted.  This is especially important if the syslog data is going to
+     be used to detect and react to security incidents.  The transport
+     receiver may also increase its vulnerability to denial of service,
+     resource consumption, and other attacks if it does not authenticate
+     the transport sender.  Because of the increased vulnerability to
+     attack, this type of configuration is NOT RECOMMENDED.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

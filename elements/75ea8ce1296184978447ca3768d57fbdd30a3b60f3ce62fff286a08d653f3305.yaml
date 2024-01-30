@@ -1,0 +1,33 @@
+"hash": |-
+  75ea8ce1296184978447ca3768d57fbdd30a3b60f3ce62fff286a08d653f3305
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Traffic | Catalog  |  Mean Object Size  |  Popularity Distribution
+     Load    | Size     |  [Zhou11] [Fri12]  |  [Cha07] [Fri12] [Yu06]
+             |[Goog08]  |  [Marciniak08]     |  [Breslau99] [Mahanti00]
+             |[Zhang10a]|  [Bellissimo04]    |
+             |[Cha07]   |  [Psaras11]        |
+             |[Fri12]   |  [Carofiglio11]    |
+             |          |                    |
+             |          |                    |
+             |          |                    |
+     ===================================================================
+     Web     |  10^12   | Chunk: 1-10 KB     | Zipf with
+             |          |                    | 0.64 <= alpha <= 0.83
+     -------------------------------------------------------------------
+     File    | 5x10^6   | Chunk: 250-4096 KB | Zipf with
+     sharing |          | Object: ~800 MB    | 0.75 <= alpha <= 0.82
+     -------------------------------------------------------------------
+     UGC     |  10^8    | Object: ~10 MB     | Zipf, alpha >= 2
+     -------------------------------------------------------------------
+     VoD     |  10^4    | Object: ~100 MB    | Zipf, 0.65 <= alpha <= 1
+     (+HLS)  |          |    ~1 KB (*)       |
+     (+DASH) |          |    ~5.6 KB (*)     |
+     ===================================================================
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

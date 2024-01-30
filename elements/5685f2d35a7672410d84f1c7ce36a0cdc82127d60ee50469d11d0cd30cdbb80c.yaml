@@ -1,0 +1,18 @@
+"hash": |-
+  5685f2d35a7672410d84f1c7ce36a0cdc82127d60ee50469d11d0cd30cdbb80c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It should be noted that the syslog transport specified in this
+     document does not use application-layer acknowledgments.  TCP uses
+     retransmissions to provide protection against some forms of data
+     loss.  However, if the TCP connection (or TLS session) is broken for
+     some reason (or closed by the transport receiver), the syslog
+     transport sender cannot always know what messages were successfully
+     delivered to the syslog application at the other end.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

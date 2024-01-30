@@ -1,0 +1,16 @@
+"hash": |-
+  c308482599a6414b327901a57b28e12cde304a94436e23cdfe84b81d9d9f7b2d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     We note that POLYVAL(H, X_1, X_2, ...) is equal to
+     ByteReverse(GHASH(ByteReverse(H) * x, ByteReverse(X_1),
+     ByteReverse(X_2), ...)), where ByteReverse is a function that
+     reverses the order of 16 bytes.  See Appendix A for a more detailed
+     explanation.
+"fixed": |-
+  We note that POLYVAL(H, X_1, X_2, ...) is equal to ByteReverse(GHASH(ByteReverse(H) * x, ByteReverse(X_1), ByteReverse(X_2), ...)), where ByteReverse is a function that reverses the order of 16 bytes.  See Appendix A for a more detailed explanation.
+"ko": |-
+  POLYVAL(H, X_1, X_2, ...)은 ByteReverse(GHASH(ByteReverse(H) * x, ByteReverse(X_1), ByteReverse(X_2), ...))와 같습니다. 여기서 ByteReverse는 함수입니다. 16바이트의 순서가 바뀌는 것입니다. 자세한 설명은 부록 A를 참조하세요.

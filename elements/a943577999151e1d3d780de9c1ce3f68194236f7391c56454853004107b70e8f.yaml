@@ -1,0 +1,18 @@
+"hash": |-
+  a943577999151e1d3d780de9c1ce3f68194236f7391c56454853004107b70e8f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     With RSA, key exchange and server authentication are combined.  The
+     public key is contained in the server's certificate.  Note that
+     compromise of the server's static RSA key results in a loss of
+     confidentiality for all sessions protected under that static key.
+     TLS users desiring Perfect Forward Secrecy should use DHE cipher
+     suites.  The damage done by exposure of a private key can be limited
+     by changing one's private key (and certificate) frequently.
+"fixed": |-
+  With RSA, key exchange and server authentication are combined.  The public key is contained in the server's certificate.  Note that compromise of the server's static RSA key results in a loss of confidentiality for all sessions protected under that static key. TLS users desiring Perfect Forward Secrecy should use DHE cipher suites.  The damage done by exposure of a private key can be limited by changing one's private key (and certificate) frequently.
+"ko": |-
+  RSA를 사용하면 키 교환과 서버 인증이 결합됩니다. 공개 키는 서버의 인증서에 포함되어 있습니다. 서버의 정적 RSA 키가 손상되면 해당 정적 키로 보호되는 모든 세션의 기밀성이 손실됩니다. Perfect Forward Secrecy를 원하는 TLS 사용자는 DHE 암호화 제품군을 사용해야 합니다. 개인 키(및 인증서)를 자주 변경하면 개인 키 노출로 인한 피해를 제한할 수 있습니다.

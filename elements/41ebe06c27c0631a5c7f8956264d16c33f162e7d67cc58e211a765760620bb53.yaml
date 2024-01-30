@@ -1,0 +1,25 @@
+"hash": |-
+  41ebe06c27c0631a5c7f8956264d16c33f162e7d67cc58e211a765760620bb53
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              A router that has formerly been the Designated Router for a
+              network, but is no longer, should flush the network-LSA that
+              it had previously originated.  This LSA is no longer used in
+              the routing table calculation.  It is flushed by prematurely
+              incrementing the LSA's age to MaxAge and reflooding (see
+              Section 14.1). In addition, in those rare cases where a
+              router's Router ID has changed, any network-LSAs that were
+              originated with the router's previous Router ID must be
+              flushed. Since the router may have no idea what it's
+              previous Router ID might have been, these network-LSAs are
+              indicated by having their Link State ID equal to one of the
+              router's IP interface addresses and their Advertising Router
+              equal to some value other than the router's current Router
+              ID (see Section 13.4 for more details).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

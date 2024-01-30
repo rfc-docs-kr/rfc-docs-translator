@@ -1,0 +1,22 @@
+"hash": |-
+  f9612ff1c8d9f06f645973cd056e7bb44e2520cc431afe0476154d331f47f702
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Here handshake_messages refers to all handshake messages sent or
+        received, starting at client hello and up to, but not including,
+        this message, including the type and length fields of the
+        handshake messages.  This is the concatenation of all the
+        Handshake structures (as defined in Section 7.4) exchanged thus
+        far.  Note that this requires both sides to either buffer the
+        messages or compute running hashes for all potential hash
+        algorithms up to the time of the CertificateVerify computation.
+        Servers can minimize this computation cost by offering a
+        restricted set of digest algorithms in the CertificateRequest
+        message.
+"fixed": |-
+  - Here handshake_messages refers to all handshake messages sent or received, starting at client hello and up to, but not including, this message, including the type and length fields of the handshake messages.  This is the concatenation of all the Handshake structures (as defined in Section 7.4) exchanged thus far.  Note that this requires both sides to either buffer the messages or compute running hashes for all potential hash algorithms up to the time of the CertificateVerify computation. Servers can minimize this computation cost by offering a restricted set of digest algorithms in the CertificateRequest message.
+"ko": |-
+  - 여기서 handshake_messages는 클라이언트 hello에서 시작하여 이 메시지를 포함하지 않고 핸드셰이크 메시지의 유형 및 길이 필드를 포함하여 보내거나 받은 모든 핸드셰이크 메시지를 나타냅니다. 이는 지금까지 교환된 모든 Handshake 구조(섹션 7.4에 정의됨)를 연결한 것입니다. 이를 위해서는 양측이 CertificateVerify 계산 시점까지 모든 잠재적 해시 알고리즘에 대해 메시지를 버퍼링하거나 실행 중인 해시를 계산해야 합니다. 서버는 CertificateRequest 메시지에 제한된 다이제스트 알고리즘 세트를 제공하여 이 계산 비용을 최소화할 수 있습니다.

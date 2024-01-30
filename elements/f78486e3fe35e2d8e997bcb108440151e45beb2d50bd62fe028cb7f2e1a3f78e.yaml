@@ -1,0 +1,18 @@
+"hash": |-
+  f78486e3fe35e2d8e997bcb108440151e45beb2d50bd62fe028cb7f2e1a3f78e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           o  If the security/compartment in the segment does not exactly
+              match the security/compartment in the TCB, then send a
+              reset; any outstanding RECEIVEs and SEND should receive
+              "reset" responses.  All segment queues should be flushed.
+              Users should also receive an unsolicited general "connection
+              reset" signal.  Enter the CLOSED state, delete the TCB, and
+              return.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

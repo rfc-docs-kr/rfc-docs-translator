@@ -1,0 +1,18 @@
+"hash": |-
+  cfc53c2ee293e4cda86e93ea0443b653227df7f23a474a8ffc28adf38ed08037
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            VariantTag type;
+            select (VariantRecord.type) {
+                case apple:  V1;
+                case orange: V2;
+            };
+        } VariantRecord;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  38baa655a848304c49b4b5819c575dda90ad4368d83f65ac80764c7e11e78de6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              +  If SND.UNA =< SEG.ACK =< SND.NXT, the send window should
+                 be updated.  If (SND.WL1 < SEG.SEQ or (SND.WL1 = SEG.SEQ
+                 and SND.WL2 =< SEG.ACK)), set SND.WND <- SEG.WND, set
+                 SND.WL1 <- SEG.SEQ, and set SND.WL2 <- SEG.ACK.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  4580847edb7805020708fe50ff9928a4d68329b408979c16e468fd396acd9680
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At the first failing Command in a Transaction, processing of the
+     remaining Commands in that Transaction stops.  If a command contains
+     a wildcarded TerminationID, the command is attempted with each of the
+     actual TerminationIDs matching the wildcard.  A response within the
+     TransactionReply is included for each matching TerminationID, even if
+     one or more instances generated an error.  If any TerminationID
+     matching a wildcard results in an error when executed, any commands
+     following the wildcarded command are not attempted.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

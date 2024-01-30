@@ -1,0 +1,21 @@
+"hash": |-
+  3c2ca4fd39eb42e7caa828a81fcf26259aa609a08d264b086631450b79bfbe20
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a URI contains an authority component, then the path component
+     must either be empty or begin with a slash ("/") character.  If a URI
+     does not contain an authority component, then the path cannot begin
+     with two slash characters ("//").  In addition, a URI reference
+     (Section 4.1) may be a relative-path reference, in which case the
+     first path segment cannot contain a colon (":") character.  The ABNF
+     requires five separate rules to disambiguate these cases, only one of
+     which will match the path substring within a given URI reference.  We
+     use the generic term "path component" to describe the URI substring
+     matched by the parser to one of these rules.
+"fixed": |-
+  If a URI contains an authority component, then the path component must either be empty or begin with a slash ("/") character.  If a URI does not contain an authority component, then the path cannot begin with two slash characters ("//").  In addition, a URI reference (Section 4.1) may be a relative-path reference, in which case the first path segment cannot contain a colon (":") character.  The ABNF requires five separate rules to disambiguate these cases, only one of which will match the path substring within a given URI reference.  We use the generic term "path component" to describe the URI substring matched by the parser to one of these rules.
+"ko": |-
+  URI에 권한 구성 요소가 포함된 경우 경로 구성 요소는 비어 있거나 슬래시("/") 문자로 시작되어야 합니다. URI에 권한 구성 요소가 포함되어 있지 않으면 경로는 두 개의 슬래시 문자("//")로 시작할 수 없습니다. 또한 URI 참조(섹션 4.1)는 상대 경로 참조일 수 있으며, 이 경우 첫 번째 경로 세그먼트에는 콜론(":") 문자가 포함될 수 없습니다. ABNF에는 이러한 경우를 명확하게 하기 위해 5가지 별도의 규칙이 필요하며, 그 중 하나만 주어진 URI 참조 내의 경로 하위 문자열과 일치합니다. 우리는 파서가 이러한 규칙 중 하나와 일치하는 URI 하위 문자열을 설명하기 위해 "경로 구성 요소"라는 일반적인 용어를 사용합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  2d3c88b7eb84a3b6fd84c3cf70ab1c818e2de55e8317f9e8ec2964e3a5673607
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For encryption of a message, m, to be sent to Bob, Alice uses
+        Bob's public key (n,e) to compute m**e (mod n) = c. She sends c to
+        Bob. Bob computes c**d (mod n) = m. Only Bob knows d, so only Bob
+        can compute c**d (mod n) to recover m.
+"fixed": |-
+  - For encryption of a message, m, to be sent to Bob, Alice uses Bob's public key (n,e) to compute m**e (mod n) = c. She sends c to Bob. Bob computes c**d (mod n) = m. Only Bob knows d, so only Bob can compute c**d (mod n) to recover m.
+"ko": |-
+  - Bob에게 보낼 메시지 m의 암호화를 위해 Alice는 Bob의 공개 키(n,e)를 사용하여 m**e(mod n) = c를 계산합니다. 그녀는 c를 Bob에게 보냅니다. Bob은 c**d (mod n) = m을 계산합니다. Bob만이 d를 알고 있으므로 Bob만이 m을 복구하기 위해 c**d(mod n)를 계산할 수 있습니다.

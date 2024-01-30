@@ -1,0 +1,1 @@
+   세그먼트 = *pchar [";" *pchar] 세그먼트-nz = ( 1*pchar [";" *pchar]) / (";" *pchar) 세그먼트-nz-nc = ( 1*pchar-nc [";" *pchar-nc]) / (";" *pchar-nc) ; 콜론 ":"이 없는 길이가 0이 아닌 세그먼트; 경로 내부에는 매개변수(;로 구분)가 없습니다.

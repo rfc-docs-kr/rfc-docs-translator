@@ -1,0 +1,26 @@
+"hash": |-
+  d21f5606efdd9f2da76b683b422c6368c6b403270289b3f83df7159537cb67f8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           <RAA>  ::= < Diameter Header: 258, PXY >
+                      < Session-Id >
+                      { Result-Code }
+                      { Origin-Host }
+                      { Origin-Realm }
+                      [ User-Name ]
+                      [ Origin-State-Id ]
+                      [ Error-Message ]
+                      [ Error-Reporting-Host ]
+                      [ Failed-AVP ]
+                    * [ Redirect-Host ]
+                      [ Redirect-Host-Usage ]
+                      [ Redirect-Max-Cache-Time ]
+                    * [ Proxy-Info ]
+                    * [ AVP ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

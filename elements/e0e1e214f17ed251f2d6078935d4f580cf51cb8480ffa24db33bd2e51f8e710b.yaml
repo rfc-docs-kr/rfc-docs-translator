@@ -1,0 +1,16 @@
+"hash": |-
+  e0e1e214f17ed251f2d6078935d4f580cf51cb8480ffa24db33bd2e51f8e710b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since the Identifier is only a single octet, it is easy to guess,
+     allowing an attacker to successfully inject or replay EAP packets.
+     An attacker may also modify EAP headers (Code, Identifier, Length,
+     Type) within EAP packets where the header is unprotected.  This could
+     cause packets to be inappropriately discarded or misinterpreted.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

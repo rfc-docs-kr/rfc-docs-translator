@@ -1,0 +1,14 @@
+"hash": |-
+  93426b98b7d9a8f5e7bd8d61059367d126b38d6cd8dba184dcfe2052d11a0d58
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     session_id_length
+        This field MUST have a value of zero for a client that claims to
+        support TLS 1.2.
+"fixed": |-
+  session_id_length  -  This field MUST have a value of zero for a client that claims to support TLS 1.2.
+"ko": |-
+  session_id_length - 이 필드는 TLS 1.2를 지원한다고 주장하는 클라이언트에 대해 0 값을 가져야 합니다.

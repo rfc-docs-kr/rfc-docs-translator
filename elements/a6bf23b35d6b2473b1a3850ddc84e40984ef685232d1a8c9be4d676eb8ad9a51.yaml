@@ -1,0 +1,21 @@
+"hash": |-
+  a6bf23b35d6b2473b1a3850ddc84e40984ef685232d1a8c9be4d676eb8ad9a51
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          o   The cost or path type of a routing table entry has changed.
+              If the destination described by this entry is a Network or
+              AS boundary router, and this is not simply a change of AS
+              external routes, new summary-LSAs may have to be generated
+              (potentially one for each attached area, including the
+              backbone).  See Section 12.4.3 for more information.  If a
+              previously advertised entry has been deleted, or is no
+              longer advertisable to a particular area, the LSA must be
+              flushed from the routing domain by setting its LS age to
+              MaxAge and reflooding (see Section 14.1).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+TLS CertificateVerify 메시지와 기본 서명 유형은 TLS 기본 사양에 정의되어 있으며 후자는 여기 섹션 5.4에서 확장됩니다. "ecdsa" 및 "eddsa" 사례의 경우 CertificateVerify 메시지의 서명 필드에는 지금까지 교환된 핸드셰이크 메시지를 통해 계산된 ECDSA 또는 EdDSA(각각) 서명이 포함되어 있으며 이는 다른 서명 알고리즘을 사용하는 CertificateVerify와 완전히 유사합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  90cce213efdd6d2970b081fbbc40a228eb32e894987b34244108a5388d041c81
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      An LSA's LS age is never incremented past the value MaxAge.  LSAs
+      having age MaxAge are not used in the routing table calculation.  As
+      a router ages its link state database, an LSA's LS age may reach
+      MaxAge.[21] At this time, the router must attempt to flush the LSA
+      from the routing domain.  This is done simply by reflooding the
+      MaxAge LSA just as if it was a newly originated LSA (see Section
+      13.3).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

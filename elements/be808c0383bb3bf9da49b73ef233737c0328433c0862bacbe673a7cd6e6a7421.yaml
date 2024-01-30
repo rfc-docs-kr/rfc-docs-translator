@@ -1,0 +1,21 @@
+"hash": |-
+  be808c0383bb3bf9da49b73ef233737c0328433c0862bacbe673a7cd6e6a7421
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The home Diameter server, prior to authorizing a session, MUST check
+     the Route-Record AVPs to make sure that the route traversed by the
+     request is acceptable.  For example, administrators within the home
+     realm may not wish to honor requests that have been routed through an
+     untrusted realm.  By authorizing a request, the home Diameter server
+     is implicitly indicating its willingness to engage in the business
+     transaction as specified by any contractual relationship between the
+     server and the previous hop.  A DIAMETER_AUTHORIZATION_REJECTED error
+     message (see Section 7.1.5) is sent if the route traversed by the
+     request is unacceptable.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

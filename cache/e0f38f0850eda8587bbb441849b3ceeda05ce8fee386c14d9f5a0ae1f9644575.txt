@@ -1,0 +1,1 @@
+   AF 정책 조치는 경찰 조치, 토큰 버킷 트래픽 프로필 및 SimplePolicyAction 클래스의 세 인스턴스로 구성됩니다. 각각의 단순 정책 작업 인스턴스는 서로 다른 표시 작업을 모델링합니다. 각 SimplePolicyAction은 집계 PolicyVariableInSimplePolicyAction을 사용하여 연결된 PolicyDSCPVariable이 적절한 정수 값으로 설정되도록 지정합니다. 이는 PolicyValueInSimplePolicyAction 집계를 사용하여 수행됩니다. 적절한 SimplePolicyActions를 적절한 DSCP와 연결하는 세 가지 PolicyVariableInSimplePolicyAction 집계

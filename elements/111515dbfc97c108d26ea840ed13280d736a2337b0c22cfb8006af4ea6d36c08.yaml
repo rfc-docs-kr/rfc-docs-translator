@@ -1,0 +1,26 @@
+"hash": |-
+  111515dbfc97c108d26ea840ed13280d736a2337b0c22cfb8006af4ea6d36c08
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-----------+-------------------------+-----------------------------+
+     | Mode      | Handshake Context       | Base Key                    |
+     +-----------+-------------------------+-----------------------------+
+     | Server    | ClientHello ... later   | server_handshake_traffic_   |
+     |           | of EncryptedExtensions/ | secret                      |
+     |           | CertificateRequest      |                             |
+     |           |                         |                             |
+     | Client    | ClientHello ... later   | client_handshake_traffic_   |
+     |           | of server               | secret                      |
+     |           | Finished/EndOfEarlyData |                             |
+     |           |                         |                             |
+     | Post-     | ClientHello ... client  | client_application_traffic_ |
+     | Handshake | Finished +              | secret_N                    |
+     |           | CertificateRequest      |                             |
+     +-----------+-------------------------+-----------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

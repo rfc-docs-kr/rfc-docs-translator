@@ -1,0 +1,1 @@
+   클라이언트가 처음 서버에 연결할 때 첫 번째 TLS 메시지로 ClientHello를 보내는 것이 필요합니다. 클라이언트는 또한 서버가 HelloRetryRequest로 ClientHello에 응답했을 때 ClientHello를 보냅니다. 이 경우 클라이언트는 다음을 제외하고 수정 없이 동일한 ClientHello를 보내야 합니다.

@@ -1,0 +1,3 @@
+       # 하위 트리의 루트를 식별합니다.
+
+- d = 0 while (2**(d+1)) < len(nodes): d += 1 R = 2**d - 1 root = Node(nodes[R]) root.left = subtree_root(nodes[ :R]) root.right = subtree_root(nodes[(R+1):]) 루트 반환

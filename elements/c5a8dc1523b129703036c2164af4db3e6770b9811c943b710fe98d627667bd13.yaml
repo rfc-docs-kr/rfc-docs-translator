@@ -1,0 +1,48 @@
+"hash": |-
+  c5a8dc1523b129703036c2164af4db3e6770b9811c943b710fe98d627667bd13
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    - Default at least 2 hrs.                      |4.2.3.6 |x| | | | |
+    - Tolerant of lost ACK's                       |4.2.3.6 |x| | | | |
+                                                   |        | | | | | |
+  IP Options                                       |        | | | | | |
+    Ignore options TCP doesn't understand          |4.2.3.8 |x| | | | |
+    Time Stamp support                             |4.2.3.8 | | |x| | |
+    Record Route support                           |4.2.3.8 | | |x| | |
+    Source Route:                                  |        | | | | | |
+      ALP can specify                              |4.2.3.8 |x| | | | |1
+        Overrides src rt in datagram               |4.2.3.8 |x| | | | |
+      Build return route from src rt               |4.2.3.8 |x| | | | |
+      Later src route overrides                    |4.2.3.8 | |x| | | |
+                                                   |        | | | | | |
+  Receiving ICMP Messages from IP                  |4.2.3.9 |x| | | | |
+    Dest. Unreach (0,1,5) => inform ALP            |4.2.3.9 | |x| | | |
+    Dest. Unreach (0,1,5) => abort conn            |4.2.3.9 | | | | |x|
+    Dest. Unreach (2-4) => abort conn              |4.2.3.9 | |x| | | |
+    Source Quench => slow start                    |4.2.3.9 | |x| | | |
+    Time Exceeded => tell ALP, don't abort         |4.2.3.9 | |x| | | |
+    Param Problem => tell ALP, don't abort         |4.2.3.9 | |x| | | |
+                                                   |        | | | | | |
+  Address Validation                               |        | | | | | |
+    Reject OPEN call to invalid IP address         |4.2.3.10|x| | | | |
+    Reject SYN from invalid IP address             |4.2.3.10|x| | | | |
+    Silently discard SYN to bcast/mcast addr       |4.2.3.10|x| | | | |
+                                                   |        | | | | | |
+  TCP/ALP Interface Services                       |        | | | | | |
+    Error Report mechanism                         |4.2.4.1 |x| | | | |
+    ALP can disable Error Report Routine           |4.2.4.1 | |x| | | |
+    ALP can specify TOS for sending                |4.2.4.2 |x| | | | |
+      Passed unchanged to IP                       |4.2.4.2 | |x| | | |
+    ALP can change TOS during connection           |4.2.4.2 | |x| | | |
+    Pass received TOS up to ALP                    |4.2.4.2 | | |x| | |
+    FLUSH call                                     |4.2.4.3 | | |x| | |
+    Optional local IP addr parm. in OPEN           |4.2.4.4 |x| | | | |
+  -------------------------------------------------|--------|-|-|-|-|-|--
+  -------------------------------------------------|--------|-|-|-|-|-|--
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

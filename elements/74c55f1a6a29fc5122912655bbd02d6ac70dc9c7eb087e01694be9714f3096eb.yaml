@@ -1,0 +1,14 @@
+"hash": |-
+  74c55f1a6a29fc5122912655bbd02d6ac70dc9c7eb087e01694be9714f3096eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        18 for AES-GCM with an 8 octet ICV;
+        19 for AES-GCM with a 12 octet ICV; and
+        20 for AES-GCM with a 16 octet ICV.
+"fixed": |-
+  - 18 for AES-GCM with an 8 octet ICV; 19 for AES-GCM with a 12 octet ICV; and 20 for AES-GCM with a 16 octet ICV.
+"ko": |-
+  - 8옥텟 ICV를 갖춘 AES-GCM의 경우 18개; 12 옥텟 ICV를 갖춘 AES-GCM의 경우 19; 16옥텟 ICV를 갖춘 AES-GCM의 경우 20개입니다.

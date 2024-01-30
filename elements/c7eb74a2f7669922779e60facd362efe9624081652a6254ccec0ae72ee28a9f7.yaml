@@ -1,0 +1,20 @@
+"hash": |-
+  c7eb74a2f7669922779e60facd362efe9624081652a6254ccec0ae72ee28a9f7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The receiver of the Capabilities-Exchange-Request (CER) MUST
+     determine common applications by computing the intersection of its
+     own set of supported Application Ids against all of the
+     Application-Id AVPs (Auth-Application-Id, Acct-Application-Id, and
+     Vendor-Specific-Application-Id) present in the CER.  The value of the
+     Vendor-Id AVP in the Vendor-Specific-Application-Id MUST NOT be used
+     during computation.  The sender of the Capabilities-Exchange-Answer
+     (CEA) SHOULD include all of its supported applications as a hint to
+     the receiver regarding all of its application capabilities.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

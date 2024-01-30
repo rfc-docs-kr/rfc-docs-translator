@@ -1,0 +1,20 @@
+"hash": |-
+  287be3f5ffaa6db9087012e32ce4ec6be3594b74935bd06c5b6cb39d54924b4e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMeterEntry OBJECT-TYPE
+      SYNTAX       DiffServMeterEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An entry in the meter table describes a single conformance level
+         of a meter."
+      INDEX { diffServMeterId }
+      ::= { diffServMeterTable 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

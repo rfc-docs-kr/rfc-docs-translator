@@ -1,0 +1,17 @@
+"hash": |-
+  3a73e1b0da3e06fcb0280fbc453adf0d249c3eab828a80bf0d39d78b6ee167b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the SENDING state, the implementation transmits the buffered
+     flight of messages.  Once the messages have been sent, the
+     implementation then enters the FINISHED state if this is the last
+     flight in the handshake.  Or, if the implementation expects to
+     receive more messages, it sets a retransmit timer and then enters the
+     WAITING state.
+"fixed": |-
+  In the SENDING state, the implementation transmits the buffered flight of messages.  Once the messages have been sent, the implementation then enters the FINISHED state if this is the last flight in the handshake.  Or, if the implementation expects to receive more messages, it sets a retransmit timer and then enters the WAITING state.
+"ko": |-
+  SENDING 상태에서 구현은 버퍼링된 메시지 비행을 전송합니다. 메시지가 전송되면 이것이 핸드셰이크의 마지막 비행인 경우 구현은 FINISHED 상태로 들어갑니다. 또는 구현에서 더 많은 메시지를 받을 것으로 예상되면 재전송 타이머를 설정한 다음 WAITING 상태로 들어갑니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  560f0e8ff5bd667f3bed5c187eea426dbef1f77268b57c3778f542e97bda021e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The aead_output consists of the ciphertext output by the AEAD
+     encryption operation.  The length will generally be larger than
+     TLSCompressed.length, but by an amount that varies with the AEAD
+     cipher.  Since the ciphers might incorporate padding, the amount of
+     overhead could vary with different TLSCompressed.length values.  Each
+     AEAD cipher MUST NOT produce an expansion of greater than 1024 bytes.
+     Symbolically,
+"fixed": |-
+  The aead_output consists of the ciphertext output by the AEAD encryption operation.  The length will generally be larger than TLSCompressed.length, but by an amount that varies with the AEAD cipher.  Since the ciphers might incorporate padding, the amount of overhead could vary with different TLSCompressed.length values.  Each AEAD cipher MUST NOT produce an expansion of greater than 1024 bytes. Symbolically,
+"ko": |-
+  aead_output은 AEAD 암호화 작업에 의한 암호문 출력으로 구성됩니다. 길이는 일반적으로 TLSCompressed.length보다 크지만 AEAD 암호에 따라 그 양이 달라집니다. 암호에는 패딩이 포함될 수 있으므로 오버헤드의 양은 TLSCompressed.length 값에 따라 달라질 수 있습니다. 각 AEAD 암호는 1024바이트보다 큰 확장을 생성해서는 안 됩니다. 상징적으로,

@@ -1,0 +1,17 @@
+"hash": |-
+  72ca1dc5a277b5db7ed5d65ca851ae5b8732048b1499dad7b22b8f7533f9e90e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  A received command that is missing AVPs that are defined as
+        required in the commands CCF; examples are AVPs indicated as
+        {AVP}.  The receiver issues an answer with the Result-Code set to
+        DIAMETER_MISSING_AVP and creates an AVP with the AVP Code and
+        other fields set as expected in the missing AVP.  The created AVP
+        is then added to the Failed-AVP AVP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

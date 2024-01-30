@@ -1,0 +1,18 @@
+"hash": |-
+  2b84e462cf64d7f646b18ef0ea005a15ca7eecbb70e2a6dcba5dbc34ab5d8341
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The reasoning behind this change is as follows. When virtual
+          links are in use, an intra-area backbone path for one router can
+          turn into an inter-area path in a router several hops closer to
+          the destination. Hence, intra-area backbone paths and inter-area
+          paths must be of equal preference. We can safely compare their
+          costs, preferring the path with the smallest cost, due to the
+          calculations in Section 16.3.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  00e69d1b83c74e778987afa78b61ab774f2635ca25fd132f131b6d3bf59cc641
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For the purposes of DNAv4, manually assigned addresses may be treated
+     as equivalent to DHCP-assigned addresses with an infinite lifetime.
+     This does not significantly increase the probability of an address
+     conflict as long as the manually assigned address is reserved by the
+     DHCP server or is outside the scope of addresses assigned by a DHCP
+     server.  However, where the manually assigned address is within an
+     address scope utilized by a DHCP server, it is possible that the host
+     will be unavailable when the DHCP server checks for a conflict prior
+     to assigning the conflicting address.  In this case, a host utilizing
+     DNAv4 could confirm an address that had been assigned to another
+     host.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

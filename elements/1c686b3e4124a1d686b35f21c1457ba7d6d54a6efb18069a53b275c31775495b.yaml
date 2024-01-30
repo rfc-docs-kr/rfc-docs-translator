@@ -1,0 +1,29 @@
+"hash": |-
+  1c686b3e4124a1d686b35f21c1457ba7d6d54a6efb18069a53b275c31775495b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     MGC to MG1:
+     MEGACO/1 [123.123.123.4]:55555
+     Transaction = 9999 {
+         Context = - {
+             Modify = A4444 {
+                 Media { Stream = 1 {
+                          LocalControl {
+                              Mode = SendReceive,
+                              tdmc/gain=2,  ; in dB,
+                              tdmc/ec=on
+                          },
+                          Local {
+     v=0
+     c=IN IP4 $
+     m=audio $ RTP/AVP 0
+     a=fmtp:PCMU VAD=X-NNVAD ; special voice activity
+                             ; detection algorithm
+                          }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

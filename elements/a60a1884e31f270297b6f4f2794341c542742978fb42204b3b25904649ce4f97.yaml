@@ -1,0 +1,23 @@
+"hash": |-
+  a60a1884e31f270297b6f4f2794341c542742978fb42204b3b25904649ce4f97
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TLS server can also receive a ClientHello indicating a version
+     number smaller than its highest supported version.  If the
+     "supported_versions" extension is present, the server MUST negotiate
+     using that extension as described in Section 4.2.1.  If the
+     "supported_versions" extension is not present, the server MUST
+     negotiate the minimum of ClientHello.legacy_version and TLS 1.2.  For
+     example, if the server supports TLS 1.0, 1.1, and 1.2, and
+     legacy_version is TLS 1.0, the server will proceed with a TLS 1.0
+     ServerHello.  If the "supported_versions" extension is absent and the
+     server only supports versions greater than
+     ClientHello.legacy_version, the server MUST abort the handshake with
+     a "protocol_version" alert.
+"fixed": |-
+  A TLS server can also receive a ClientHello indicating a version number smaller than its highest supported version.  If the "supported_versions" extension is present, the server MUST negotiate using that extension as described in Section 4.2.1.  If the "supported_versions" extension is not present, the server MUST negotiate the minimum of ClientHello.legacy_version and TLS 1.2.  For example, if the server supports TLS 1.0, 1.1, and 1.2, and legacy_version is TLS 1.0, the server will proceed with a TLS 1.0 ServerHello.  If the "supported_versions" extension is absent and the server only supports versions greater than ClientHello.legacy_version, the server MUST abort the handshake with a "protocol_version" alert.
+"ko": |-
+  TLS 서버는 지원되는 가장 높은 버전보다 작은 버전 번호를 나타내는 ClientHello를 수신할 수도 있습니다. "supported_versions" 확장이 있는 경우 서버는 섹션 4.2.1에 설명된 대로 해당 확장을 사용하여 협상해야 합니다. "supported_versions" 확장이 없으면 서버는 최소 ClientHello.legacy_version 및 TLS 1.2를 협상해야 합니다. 예를 들어 서버가 TLS 1.0, 1.1, 1.2를 지원하고 Legacy_version이 TLS 1.0인 경우 서버는 TLS 1.0 ServerHello를 진행합니다. "supported_versions" 확장이 없고 서버가 ClientHello.legacy_version보다 높은 버전만 지원하는 경우 서버는 "protocol_version" 경고와 함께 핸드셰이크를 중단해야 합니다.

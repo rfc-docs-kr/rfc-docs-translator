@@ -1,0 +1,19 @@
+"hash": |-
+  fd6710a9e42da3bc8f07e1135fe61e111cfe25765f4bdd94007ae641f632068a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each SignatureScheme value lists a single signature algorithm that
+     the client is willing to verify.  The values are indicated in
+     descending order of preference.  Note that a signature algorithm
+     takes as input an arbitrary-length message, rather than a digest.
+     Algorithms which traditionally act on a digest should be defined in
+     TLS to first hash the input with a specified hash algorithm and then
+     proceed as usual.  The code point groups listed above have the
+     following meanings:
+"fixed": |-
+  Each SignatureScheme value lists a single signature algorithm that the client is willing to verify.  The values are indicated in descending order of preference.  Note that a signature algorithm takes as input an arbitrary-length message, rather than a digest. Algorithms which traditionally act on a digest should be defined in TLS to first hash the input with a specified hash algorithm and then proceed as usual.  The code point groups listed above have the following meanings:
+"ko": |-
+  각 SignatureScheme 값은 클라이언트가 확인하려는 단일 서명 알고리즘을 나열합니다. 값은 선호도가 높은 순서대로 표시됩니다. 서명 알고리즘은 다이제스트가 아닌 임의 길이의 메시지를 입력으로 사용합니다. 전통적으로 다이제스트에 작용하는 알고리즘은 먼저 지정된 해시 알고리즘으로 입력을 해시한 다음 평소대로 진행하도록 TLS에 정의되어야 합니다. 위에 나열된 코드 포인트 그룹의 의미는 다음과 같습니다.

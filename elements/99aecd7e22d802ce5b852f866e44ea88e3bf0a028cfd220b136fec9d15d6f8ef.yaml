@@ -1,0 +1,19 @@
+"hash": |-
+  99aecd7e22d802ce5b852f866e44ea88e3bf0a028cfd220b136fec9d15d6f8ef
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServCountActNextFree OBJECT-TYPE
+      SYNTAX       IndexIntegerNextFree
+      MAX-ACCESS   read-only
+      STATUS       current
+      DESCRIPTION
+         "This object contains an unused value for
+         diffServCountActId, or a zero to indicate that none exist."
+      ::= { diffServAction 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

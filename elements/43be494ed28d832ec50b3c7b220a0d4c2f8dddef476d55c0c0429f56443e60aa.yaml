@@ -1,0 +1,27 @@
+"hash": |-
+  43be494ed28d832ec50b3c7b220a0d4c2f8dddef476d55c0c0429f56443e60aa
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          +----------+          IA2AC              +-------------+
+          |    AS-   |---------------------------->|     AS-     |
+          | INACTIVE |                             |   ACTIVE    |
+          |          |<-----------                 |             |
+          +----------+            \                +-------------+
+             ^   |                 \                    ^   |
+             |   | IA2DN            \ PN2IA             |   | AC2PN
+             |   |                   \                  |   |
+       DN2IA |   |                    \          PN2AC  |   |
+             |   v                     \                |   v
+          +----------+                  \          +-------------+
+          |          |                   ----------|             |
+          | AS-DOWN  |                             | AS-PENDING  |
+          |          |                  PN2DN      |  (queueing) |
+          |          |<----------------------------|             |
+          +----------+                             +-------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

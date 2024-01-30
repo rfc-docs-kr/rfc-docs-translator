@@ -1,0 +1,15 @@
+"hash": |-
+  555165194b8c45653e320a6cba91919865343c18fea31e132a36b7554f2eec8d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  For any state if the retransmission timeout expires on a segment
+        in the retransmission queue, send the segment at the front of the
+        retransmission queue again, reinitialize the retransmission timer,
+        and return.
+"fixed": |-
+  *  For any state if the retransmission timeout expires on a segment in the retransmission queue, send the segment at the front of the retransmission queue again, reinitialize the retransmission timer, and return.
+"ko": |-
+  * 어떤 상태에서든 재전송 대기열의 세그먼트에서 재전송 시간 초과가 만료되면 재전송 대기열의 앞쪽에 있는 세그먼트를 다시 보내고 재전송 타이머를 다시 초기화한 후 반환합니다.

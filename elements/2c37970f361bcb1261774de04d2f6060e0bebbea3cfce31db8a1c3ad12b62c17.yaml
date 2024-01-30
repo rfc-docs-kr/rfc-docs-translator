@@ -1,0 +1,22 @@
+"hash": |-
+  2c37970f361bcb1261774de04d2f6060e0bebbea3cfce31db8a1c3ad12b62c17
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The cipher suite list, passed from the client to the server in the
+     ClientHello message, contains the combinations of cryptographic
+     algorithms supported by the client in order of the client's
+     preference (favorite choice first).  Each cipher suite defines a key
+     exchange algorithm, a bulk encryption algorithm (including secret key
+     length), a MAC algorithm, and a PRF.  The server will select a cipher
+     suite or, if no acceptable choices are presented, return a handshake
+     failure alert and close the connection.  If the list contains cipher
+     suites the server does not recognize, support, or wish to use, the
+     server MUST ignore those cipher suites, and process the remaining
+     ones as usual.
+"fixed": |-
+  The cipher suite list, passed from the client to the server in the ClientHello message, contains the combinations of cryptographic algorithms supported by the client in order of the client's preference (favorite choice first).  Each cipher suite defines a key exchange algorithm, a bulk encryption algorithm (including secret key length), a MAC algorithm, and a PRF.  The server will select a cipher suite or, if no acceptable choices are presented, return a handshake failure alert and close the connection.  If the list contains cipher suites the server does not recognize, support, or wish to use, the server MUST ignore those cipher suites, and process the remaining ones as usual.
+"ko": |-
+  ClientHello 메시지를 통해 클라이언트에서 서버로 전달되는 암호화 제품군 목록에는 클라이언트가 선호하는 순서(선호하는 항목부터)에 따라 클라이언트가 지원하는 암호화 알고리즘의 조합이 포함되어 있습니다. 각 암호화 제품군은 키 교환 알고리즘, 대량 암호화 알고리즘(비밀 키 길이 포함), MAC 알고리즘 및 PRF를 정의합니다. 서버는 암호 제품군을 선택하거나, 허용 가능한 선택 사항이 없으면 핸드셰이크 실패 경고를 반환하고 연결을 닫습니다. 목록에 서버가 인식하지 않거나 지원하지 않거나 사용하기를 원하는 암호 그룹이 포함된 경우 서버는 해당 암호 그룹을 무시하고 나머지 암호 그룹을 평소대로 처리해야 합니다.

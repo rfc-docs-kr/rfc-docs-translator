@@ -1,0 +1,23 @@
+"hash": |-
+  30af46baa2c781ce6127a5f9deff720cb5133652a0be2c1c882d278d49127685
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The key here is that, prior to the listen() call, the full set of
+     sockets that need to be utilized for outgoing connections must be
+     allocated and bound to the local IP address and port.  This number,
+     MAX, represents the maximum number of TCP connections to different
+     destinations that might need to be established from the same local
+     candidate.  This number can be potentially large for simultaneous-
+     open candidates.  If a request forks, ICE procedures may take place
+     with multiple peers.  Furthermore, for each peer, connections would
+     need to be established to each passive or simultaneous-open candidate
+     for the same component.  If we assume a worst case of 5 forked
+     branches, and for each peer, five simultaneous-open candidates, that
+     results in MAX=25.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

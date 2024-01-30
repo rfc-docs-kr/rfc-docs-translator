@@ -1,0 +1,23 @@
+"hash": |-
+  9048d9d7a6da7f6b81dbed2a45dfd2647ca7d0f0b693fcdf6ddaa69c6b23228e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (2) If this step is reached, the stub network's routing table
+              entry must be updated.  Calculate the set of next hops that
+              would result from using the stub network link.  This
+              calculation is shown in Section 16.1.1; input to this
+              calculation is the destination (the stub network) and the
+              parent vertex (the router vertex).  If the distance D is the
+              same as the current routing table cost, simply add this set
+              of next hops to the routing table entry's list of next hops.
+              In this case, the routing table already has a Link State
+              Origin.  If this Link State Origin is a router-LSA whose
+              Link State ID is smaller than V's Router ID, reset the Link
+              State Origin to V's router-LSA.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

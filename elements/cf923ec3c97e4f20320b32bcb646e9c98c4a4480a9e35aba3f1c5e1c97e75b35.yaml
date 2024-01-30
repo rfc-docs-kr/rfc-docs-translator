@@ -1,0 +1,15 @@
+"hash": |-
+  cf923ec3c97e4f20320b32bcb646e9c98c4a4480a9e35aba3f1c5e1c97e75b35
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  If the connection does not exist (CLOSED), then a reset is sent
+         in response to any incoming segment except another reset.  A SYN
+         segment that does not match an existing connection is rejected by
+         this means.
+"fixed": |-
+  1.  If the connection does not exist (CLOSED), then a reset is sent in response to any incoming segment except another reset.  A SYN segment that does not match an existing connection is rejected by this means.
+"ko": |-
+  1. 연결이 존재하지 않는 경우(CLOSED) 다른 재설정을 제외한 모든 수신 세그먼트에 대한 응답으로 재설정이 전송됩니다. 기존 연결과 일치하지 않는 SYN 세그먼트는 이 방법으로 거부됩니다.

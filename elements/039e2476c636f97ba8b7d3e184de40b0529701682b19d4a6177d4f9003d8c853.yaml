@@ -1,0 +1,20 @@
+"hash": |-
+  039e2476c636f97ba8b7d3e184de40b0529701682b19d4a6177d4f9003d8c853
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For Poly1305, the operations are addition, multiplication. and
+     modulus, all on numbers with greater than 128 bits.  This can be done
+     in constant time, but a naive implementation (such as using some
+     generic big number library) will not be constant time.  For example,
+     if the multiplication is performed as a separate operation from the
+     modulus, the result will sometimes be under 2^256 and sometimes be
+     above 2^256.  Implementers should be careful about timing side-
+     channels for Poly1305 by using the appropriate implementation of
+     these operations.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  73afaf686cea84332714ed07bf3cb895d7cf83faceeaec1d6a2f44eacf7221b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The MSS value to be sent in an MSS Option should be equal to the
+     effective MTU minus the fixed IP and TCP headers.  By ignoring both
+     IP and TCP Options when calculating the value for the MSS Option, if
+     there are any IP or TCP Options to be sent in a packet, then the
+     sender must decrease the size of the TCP data accordingly.  RFC 6691
+     [43] discusses this in greater detail.
+"fixed": |-
+  The MSS value to be sent in an MSS Option should be equal to the effective MTU minus the fixed IP and TCP headers.  By ignoring both IP and TCP Options when calculating the value for the MSS Option, if there are any IP or TCP Options to be sent in a packet, then the sender must decrease the size of the TCP data accordingly.  RFC 6691 [43] discusses this in greater detail.
+"ko": |-
+  MSS 옵션으로 전송되는 MSS 값은 유효 MTU에서 고정 IP 및 TCP 헤더를 뺀 값과 같아야 합니다. MSS 옵션 값을 계산할 때 IP 옵션과 TCP 옵션을 모두 무시함으로써 패킷에 전송할 IP 또는 TCP 옵션이 있는 경우 송신자는 그에 따라 TCP 데이터의 크기를 줄여야 합니다. RFC 6691 [43]에서는 이에 대해 더 자세히 논의합니다.

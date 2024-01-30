@@ -1,0 +1,18 @@
+"hash": |-
+  a8d644ca67e96324161ebdcf2e8cd429c6020d8eebe28f73452857b0dabc9c63
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An alternative form of anti-replay is to record a unique value
+     derived from the ClientHello (generally either the random value or
+     the PSK binder) and reject duplicates.  Recording all ClientHellos
+     causes state to grow without bound, but a server can instead record
+     ClientHellos within a given time window and use the
+     "obfuscated_ticket_age" to ensure that tickets aren't reused outside
+     that window.
+"fixed": |-
+  An alternative form of anti-replay is to record a unique value derived from the ClientHello (generally either the random value or the PSK binder) and reject duplicates.  Recording all ClientHellos causes state to grow without bound, but a server can instead record ClientHellos within a given time window and use the "obfuscated_ticket_age" to ensure that tickets aren't reused outside that window.
+"ko": |-
+  재생 방지의 또 다른 형태는 ClientHello에서 파생된 고유 값(일반적으로 임의 값 또는 PSK 바인더)을 기록하고 중복을 거부하는 것입니다. 모든 ClientHellos를 기록하면 상태가 제한 없이 증가하지만, 대신 서버는 주어진 기간 내에 ClientHellos를 기록하고 "obfuscated_ticket_age"를 사용하여 해당 기간 외부에서 티켓이 재사용되지 않도록 할 수 있습니다.

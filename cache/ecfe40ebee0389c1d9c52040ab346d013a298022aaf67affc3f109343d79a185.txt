@@ -1,0 +1,1 @@
+- 핸드셰이크 메시지는 키 변경을 포괄해서는 안 됩니다. 구현에서는 키 변경 직전의 모든 메시지가 레코드 경계와 일치하는지 확인해야 합니다. 그렇지 않은 경우 "unexpected_message" 경고와 함께 연결을 종료해야 합니다. ClientHello, EndOfEarlyData, ServerHello, Finished 및 KeyUpdate 메시지는 키 변경 바로 앞에 올 수 있으므로 구현에서는 레코드 경계에 맞춰 이러한 메시지를 보내야 합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  cce36debae4da0fef705b6f373d2e0a8c4accaaa09e2d5d5cd12434e989f4e2e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Rule #2 guarantees that no routing loops form due to aggregation.
+     Consider a site that has been assigned 192.168.64/19 by its "parent"
+     provider, which has 192.168.0.0/16.  The "parent" network will
+     advertise 192.168.0.0/16 to the "child" network.  If the "child"
+     network were to lose internal connectivity to 192.168.65.0/24 (which
+     is part of its aggregate), traffic from the "parent" to the to the
+     "child" destined for 192.168.65.1 will follow the "child's"
+     advertised route.  When that traffic gets to the "child", however,
+     the child *must not* follow the route 192.168.0.0/16 back up to the
+     "parent", since that would result in a forwarding loop.  Rule #2 says
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

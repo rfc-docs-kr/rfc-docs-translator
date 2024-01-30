@@ -1,0 +1,1 @@
+    resp-text = ["[" resp-text-code "]" SP ] UTF8-TEXT-CHAR *(UTF8-TEXT-CHAR / "[") ; 서버가 다른 언어로 변경된 후; i-default, 이 resp-text 규칙은 resp-text를 대체합니다. [RFC3501]의 규칙.

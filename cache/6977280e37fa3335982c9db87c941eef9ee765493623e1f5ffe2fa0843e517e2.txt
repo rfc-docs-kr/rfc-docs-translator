@@ -1,0 +1,1 @@
+   이 문서는 WebSocket이 HTTP 전달 프록시와 상호 작용하는 방식을 변경하지 않습니다. WebSocket을 사용하려는 클라이언트가 HTTP/2를 통해 HTTP 프록시에 연결하는 경우 계속해서 전통적인 CONNECT(즉, :protocol 의사 헤더 필드가 아닌)를 사용하여 해당 프록시를 통해 HTTP를 통해 WebSocket 서버로 터널링해야 합니다.

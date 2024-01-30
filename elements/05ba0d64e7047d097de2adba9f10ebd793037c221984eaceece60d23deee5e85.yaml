@@ -1,0 +1,17 @@
+"hash": |-
+  05ba0d64e7047d097de2adba9f10ebd793037c221984eaceece60d23deee5e85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For Q values 128-255, dynamically defined quantization tables are
+     used.  These tables may be specified either in-band or out of band by
+     something like a session setup protocol, but the Quantization Table
+     header MUST be present in the first packet of every frame. When the
+     tables are specified out of band, they may be omitted from the packet
+     by setting the Length field in this header to 0.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

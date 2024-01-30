@@ -1,0 +1,20 @@
+"hash": |-
+  001d800b0472ce9c4de9f2f4b5941a986c6ac63b619502404f1c4597a4933ef8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          At the beginning of Figure 14, Router RT1's interface to the
+          network becomes operational.  It begins sending Hello Packets,
+          although it doesn't know the identity of the Designated Router
+          or of any other neighboring routers.  Router RT2 hears this
+          hello (moving the neighbor to Init state), and in its next Hello
+          Packet indicates that it is itself the Designated Router and
+          that it has heard Hello Packets from RT1.  This in turn causes
+          RT1 to go to state ExStart, as it starts to bring up the
+          adjacency.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

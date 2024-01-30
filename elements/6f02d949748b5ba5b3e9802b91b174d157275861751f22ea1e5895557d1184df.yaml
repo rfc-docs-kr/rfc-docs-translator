@@ -1,0 +1,18 @@
+"hash": |-
+  6f02d949748b5ba5b3e9802b91b174d157275861751f22ea1e5895557d1184df
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All ECDH calculations for the NIST curves (including parameter and
+     key generation as well as the shared secret calculation) are
+     performed according to [IEEE.P1363] using the ECKAS-DH1 scheme with
+     the identity map as the Key Derivation Function (KDF) so that the
+     premaster secret is the x-coordinate of the ECDH shared secret
+     elliptic curve point represented as an octet string.  Note that this
+     octet string (Z in IEEE 1363 terminology), as output by FE2OSP (Field
+"fixed": |-
+  All ECDH calculations for the NIST curves (including parameter and key generation as well as the shared secret calculation) are performed according to [IEEE.P1363] using the ECKAS-DH1 scheme with the identity map as the Key Derivation Function (KDF) so that the premaster secret is the x-coordinate of the ECDH shared secret elliptic curve point represented as an octet string.  Note that this octet string (Z in IEEE 1363 terminology), as output by FE2OSP (Field
+"ko": |-
+  NIST 곡선에 대한 모든 ECDH 계산(매개변수 및 키 생성, 공유 비밀 계산 포함)은 ID 맵을 키 파생 함수(KDF)로 사용하는 ECKAS-DH1 체계를 사용하여 [IEEE.P1363]에 따라 수행됩니다. 프리마스터 비밀은 옥텟 문자열로 표시되는 ECDH 공유 비밀 타원 곡선 점의 x 좌표입니다. 이 옥텟 문자열(IEEE 1363 용어로 Z)은 FE2OSP(필드

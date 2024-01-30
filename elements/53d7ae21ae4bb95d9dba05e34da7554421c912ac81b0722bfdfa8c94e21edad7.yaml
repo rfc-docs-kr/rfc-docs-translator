@@ -1,0 +1,17 @@
+"hash": |-
+  53d7ae21ae4bb95d9dba05e34da7554421c912ac81b0722bfdfa8c94e21edad7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Existing EAP methods define message integrity checks (MICs) that
+     cover more than one EAP packet.  For example, EAP-TLS [RFC2716]
+     defines a MIC over a TLS record that could be split into multiple
+     fragments; within the FINISHED message, the MIC is computed over
+     previous messages.  Where the MIC covers more than one EAP packet, a
+     MIC validation failure is typically considered a fatal error.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

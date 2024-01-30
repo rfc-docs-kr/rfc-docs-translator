@@ -1,0 +1,18 @@
+"hash": |-
+  2c8ab6ac50dd500ab99c13e109eda2cb4f789f9e8446b7ea5632bd470a2f53e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the client moves between networks, the address re-validation
+     attempt may be unsuccessful; a DHCPNAK may be received in response to
+     a DHCPREQUEST, causing the client to restart the configuration
+     process by moving to the INIT state.  If an address previously
+     obtained on the new network is still operable, DNAv4 enables the host
+     to confirm the new configuration quickly, bypassing restart of the
+     configuration process and conflict detection.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

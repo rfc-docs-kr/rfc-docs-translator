@@ -1,0 +1,19 @@
+"hash": |-
+  ed9533c52ceacc0d5ad1ec6f80a7bb93955cea583660b9bf0165ad690b28f407
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The general pattern here is that the secrets shown down the left side
+     of the diagram are just raw entropy without context, whereas the
+     secrets down the right side include Handshake Context and therefore
+     can be used to derive working keys without additional context.  Note
+     that the different calls to Derive-Secret may take different Messages
+     arguments, even with the same secret.  In a 0-RTT exchange,
+     Derive-Secret is called with four distinct transcripts; in a
+     1-RTT-only exchange, it is called with three distinct transcripts.
+"fixed": |-
+  The general pattern here is that the secrets shown down the left side of the diagram are just raw entropy without context, whereas the secrets down the right side include Handshake Context and therefore can be used to derive working keys without additional context.  Note that the different calls to Derive-Secret may take different Messages arguments, even with the same secret.  In a 0-RTT exchange, Derive-Secret is called with four distinct transcripts; in a 1-RTT-only exchange, it is called with three distinct transcripts.
+"ko": |-
+  여기서 일반적인 패턴은 다이어그램 왼쪽에 표시된 비밀은 컨텍스트가 없는 원시 엔트로피인 반면, 오른쪽 아래의 비밀은 핸드셰이크 컨텍스트를 포함하므로 추가 컨텍스트 없이 작업 키를 파생하는 데 사용할 수 있다는 것입니다. Derive-Secret에 대한 다른 호출은 동일한 비밀을 사용하더라도 다른 메시지 인수를 사용할 수 있습니다. 0-RTT 교환에서는 Derive-Secret이 4개의 개별 성적표와 함께 호출됩니다. 1-RTT 전용 교환에서는 세 가지 별도의 기록으로 호출됩니다.

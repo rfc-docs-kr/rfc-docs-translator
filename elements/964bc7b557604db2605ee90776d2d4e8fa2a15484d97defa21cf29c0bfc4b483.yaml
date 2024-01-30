@@ -1,0 +1,18 @@
+"hash": |-
+  964bc7b557604db2605ee90776d2d4e8fa2a15484d97defa21cf29c0bfc4b483
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  TLS 1.3 (Section 4.4.2.1 of [RFC8446]) allows the association of
+        OCSP information with intermediate certificates by using an
+        extension to the CertificateEntry structure.  However, using this
+        facility remains impractical because many certification
+        authorities (CAs) either do not publish OCSP for CA certificates
+        or publish OCSP reports with a lifetime that is too long to be
+        useful.
+"fixed": |-
+  *  TLS 1.3 (Section 4.4.2.1 of [RFC8446]) allows the association of OCSP information with intermediate certificates by using an extension to the CertificateEntry structure.  However, using this facility remains impractical because many certification authorities (CAs) either do not publish OCSP for CA certificates or publish OCSP reports with a lifetime that is too long to be useful.
+"ko": |-
+  * TLS 1.3([RFC8446]의 섹션 4.4.2.1)은 CertificateEntry 구조에 대한 확장을 사용하여 OCSP 정보와 중간 인증서의 연결을 허용합니다. 그러나 많은 인증 기관(CA)이 CA 인증서에 대한 OCSP를 게시하지 않거나 수명이 너무 길어 유용하지 않은 OCSP 보고서를 게시하지 않기 때문에 이 기능을 사용하는 것은 여전히 ​​비실용적입니다.

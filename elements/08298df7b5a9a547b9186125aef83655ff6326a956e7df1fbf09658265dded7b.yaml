@@ -1,0 +1,17 @@
+"hash": |-
+  08298df7b5a9a547b9186125aef83655ff6326a956e7df1fbf09658265dded7b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Rationale: TLS 1.0 (published in 1999) does not support many
+        modern, strong cipher suites.  In addition, TLS 1.0 lacks a per-
+        record Initialization Vector (IV) for cipher suites based on
+        cipher block chaining (CBC) and does not warn against common
+        padding errors.  This and other recommendations in this section
+        are in line with [RFC8996].
+"fixed": |-
+  - Rationale: TLS 1.0 (published in 1999) does not support many modern, strong cipher suites.  In addition, TLS 1.0 lacks a per- record Initialization Vector (IV) for cipher suites based on cipher block chaining (CBC) and does not warn against common padding errors.  This and other recommendations in this section are in line with [RFC8996].
+"ko": |-
+  - 근거: TLS 1.0(1999년에 게시됨)은 현대적이고 강력한 암호화 제품군을 많이 지원하지 않습니다. 또한 TLS 1.0에는 CBC(암호 블록 체인) 기반 암호화 제품군에 대한 레코드별 초기화 벡터(IV)가 없으며 일반적인 패딩 오류에 대해 경고하지 않습니다. 이 섹션의 권장 사항과 기타 권장 사항은 [RFC8996]과 일치합니다.

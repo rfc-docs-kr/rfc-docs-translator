@@ -1,0 +1,22 @@
+"hash": |-
+  112719d4a553fc0130744621e7577ad52adb57682bc5ed561caf6cfe0f64e396
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A relay or proxy agent MAY include the Proxy-Info AVP in requests if
+     it requires access to any local state information when the
+     corresponding response is received.  The Proxy-Info AVP has security
+     implications as state information is distributed to other entities.
+     As such, it is RECOMMENDED that the content of the Proxy-Info AVP be
+     protected with cryptographic mechanisms, for example, by using a
+     keyed message digest such as HMAC-SHA1 [RFC2104].  Such a mechanism,
+     however, requires the management of keys, although only locally at
+     the Diameter server.  Still, a full description of the management of
+     the keys used to protect the Proxy-Info AVP is beyond the scope of
+     this document.  Below is a list of common recommendations:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

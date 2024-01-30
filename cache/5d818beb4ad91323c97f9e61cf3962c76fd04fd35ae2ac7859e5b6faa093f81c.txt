@@ -1,0 +1,1 @@
+TLS 1.2 클라이언트는 클라이언트 Hello에서 renegotiation_info를 보내야 합니다. 서버가 확장을 승인하지 않으면 클라이언트는 연결을 종료하기 전에 치명적인 handshake_failure 경고를 생성해야 합니다.

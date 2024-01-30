@@ -1,0 +1,1 @@
+   [RFC6066] 및 [RFC6961]은 OCSP 응답을 클라이언트에 보내는 서버를 협상하기 위한 확장을 제공합니다. TLS 1.2 이하에서 서버는 이 확장의 협상을 나타내기 위해 빈 확장으로 응답하고 OCSP 정보는 CertificateStatus 메시지에 전달됩니다. TLS 1.3에서 서버의 OCSP 정보는 연결된 인증서를 포함하는 CertificateEntry의 확장으로 전달됩니다. 특히 서버의 "status_request" 확장 본문은 [RFC6066]에 정의된 대로 CertificateStatus 구조여야 하며 [RFC6960]에 정의된 대로 해석됩니다.

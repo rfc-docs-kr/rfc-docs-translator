@@ -1,0 +1,17 @@
+"hash": |-
+  9fa962f1d9ee4cc631d22c82a8fdfbab122caff445e8b2b4261057f7d1b346ca
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      struct {
+          select (Handshake.msg_type) {
+              case client_hello: OfferedPsks;
+              case server_hello: uint16 selected_identity;
+          };
+      } PreSharedKeyExtension;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  6ce48845b54cac3758594e6c3f93566a4f1fb5e3cacda2cd3c1561c76c8d8f72
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServDscpMarkActDscp OBJECT-TYPE
+      SYNTAX       Dscp
+      MAX-ACCESS   read-only
+      STATUS       current
+      DESCRIPTION
+         "The DSCP that this Action will store into the DSCP field of the
+         subject. It is quite possible that the only packets subject to
+         this Action are already marked with this DSCP. Note also that
+         Differentiated Services processing may result in packet being
+         marked on both ingress to a network and on egress from it, and
+         that ingress and egress can occur in the same router."
+      ::= { diffServDscpMarkActEntry 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

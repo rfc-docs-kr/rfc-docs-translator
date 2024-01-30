@@ -1,0 +1,16 @@
+"hash": |-
+  9aba15b723c4c80baa14917dc3077472ed54fb1062d4ff0d4299b2233818d9e7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     eventBufferDescriptor= EventBufferToken LBRKT eventSpec
+                            *( COMMA eventSpec ) RBRKT
+     eventSpec            = pkgdName [ LBRKT eventSpecParameter
+                              *(COMMA eventSpecParameter) RBRKT ]
+     eventSpecParameter   = (eventStream / eventOther)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

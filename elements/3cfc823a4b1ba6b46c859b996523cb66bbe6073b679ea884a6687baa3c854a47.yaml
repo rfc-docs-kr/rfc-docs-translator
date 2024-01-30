@@ -1,0 +1,38 @@
+"hash": |-
+  3cfc823a4b1ba6b46c859b996523cb66bbe6073b679ea884a6687baa3c854a47
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  --
+  -- Minimum Rate Parameters Table
+  --
+  -- The parameters used by a scheduler for its inputs or outputs are
+  -- maintained separately from the Queue or Scheduler table entries for
+  -- reusability reasons and so that they may be used by both queues and
+  -- schedulers.  This follows the approach for separation of data path
+  -- elements from parameterization that is used throughout this MIB.
+  -- Use of these Minimum Rate Parameter Table entries by Queues and
+  -- Schedulers allows the modeling of hierarchical scheduling systems.
+  --
+  -- Specifically, a Scheduler has one or more inputs and one output.
+  -- Any queue feeding a scheduler, or any scheduler which feeds a second
+  -- scheduler, might specify a minimum transfer rate by pointing to an
+  -- Minimum Rate Parameter Table entry.
+  --
+  -- The diffServMinRatePriority/Abs/Rel attributes are used as
+  -- parameters to the work-conserving portion of a scheduler:
+  -- "work-conserving" implies that the scheduler can continue to emit
+  -- data as long as there is data available at its input(s).  This has
+  -- the effect of guaranteeing a certain priority relative to other
+  -- scheduler inputs and/or a certain minimum proportion of the
+  -- available output bandwidth. Properly configured, this means a
+  -- certain minimum rate, which may be exceeded should traffic be
+  -- available should there be spare bandwidth after all other classes
+  -- have had opportunities to consume their own minimum rates.
+  --
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  c61c4adac0eebcce4da9d61d73a0d6aec84dc8f9415132af28558bf27700b671
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The implication of this is that, for any media stream protected by
+     (D)TLS, the agent will first run ICE procedures, exchanging STUN
+     messages.  Then, once ICE completes, (D)TLS procedures begin.  ICE
+     and (D)TLS are thus "peers" in the protocol stack.  The STUN messages
+     are not sent over the (D)TLS connection, even ones sent for the
+     purposes of keepalive in the middle of the media session.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

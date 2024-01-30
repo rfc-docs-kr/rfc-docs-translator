@@ -1,0 +1,19 @@
+"hash": |-
+  6f614afb89350b392bf6c770e8f625dffb0e86bcd1f3f5d6b232e9ef608db7d0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     (Note that this use of the identity KDF is a technicality.  The
+     complete picture is that ECDH is employed with a non-trivial KDF
+     because TLS does not directly use the premaster secret for anything
+     other than for computing the master secret.  In TLS 1.0 and 1.1, this
+     means that the MD5- and SHA-1-based TLS Pseudorandom Function (PRF)
+     serves as a KDF; in TLS 1.2, the KDF is determined by ciphersuite,
+     and it is conceivable that future TLS versions or new TLS extensions
+     introduced in the future may vary this computation.)
+"fixed": |-
+  (Note that this use of the identity KDF is a technicality.  The complete picture is that ECDH is employed with a non-trivial KDF because TLS does not directly use the premaster secret for anything other than for computing the master secret.  In TLS 1.0 and 1.1, this means that the MD5- and SHA-1-based TLS Pseudorandom Function (PRF) serves as a KDF; in TLS 1.2, the KDF is determined by ciphersuite, and it is conceivable that future TLS versions or new TLS extensions introduced in the future may vary this computation.)
+"ko": |-
+  (이러한 ID KDF 사용은 기술적인 문제입니다. 전체 그림은 TLS가 마스터 비밀번호를 계산하는 것 이외의 다른 용도로 프리마스터 비밀번호를 직접 사용하지 않기 때문에 ECDH가 중요하지 않은 KDF와 함께 사용된다는 것입니다. TLS 1.0 및 이는 MD5 및 SHA-1 기반 TLS 의사 난수 함수(PRF)가 KDF 역할을 한다는 의미이며, TLS 1.2에서는 KDF가 암호 모음에 의해 결정되며 향후 TLS 버전이나 새로운 TLS 확장이 도입될 가능성이 있습니다. 미래에는 이 계산이 달라질 수 있습니다.)

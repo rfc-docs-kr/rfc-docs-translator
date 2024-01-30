@@ -1,0 +1,30 @@
+"hash": |-
+  37cca943529949a8fd5c7520f050999f3f492d58dde1846d54fe329d675d84a7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       Acct-Multi-Session-Id 50   [RFC2866]  The identifier uniquely
+                                             identifying related sessions.
+       NAS-Port-Id           87   [RFC2869]  String identifying the port
+                                             where a session is.
+       Chargeable-User-      89   [RFC4372]  The CUI associated with one
+       Identity                              or more sessions.  Needed
+                                             where a privacy Network
+                                             Access Identifier (NAI) is
+                                             used, since in this case the
+                                             User-Name (e.g., "anonymous")
+                                             may not identify sessions
+                                             belonging to a given user.
+       Framed-Interface-Id   96   [RFC3162]  The IPv6 Interface Identifier
+                                             associated with a session,
+                                             always sent with
+                                             Framed-IPv6-Prefix.
+       Framed-IPv6-Prefix    97   [RFC3162]  The IPv6 prefix associated
+                                             with a session, always sent
+                                             with Framed-Interface-Id.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,26 @@
+"hash": |-
+  218159b0273a45ee680b847e7e4512b109cb86e79c2963368b0a75754210726e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   Each route cache entry defines the endpoints of an
+                   Internet path.  Although the connecting path may change
+                   dynamically in an arbitrary way, the transmission
+                   characteristics of the path tend to remain
+                   approximately constant over a time period longer than a
+                   single typical host-host transport connection.
+                   Therefore, a route cache entry is a natural place to
+                   cache data on the properties of the path.  Examples of
+                   such properties might be the maximum unfragmented
+                   datagram size (see Section 3.3.3), or the average
+                   round-trip delay measured by a transport protocol.
+                   This data will generally be both gathered and used by a
+                   higher layer protocol, e.g., by TCP, or by an
+                   application using UDP.  Experiments are currently in
+                   progress on caching path properties in this manner.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

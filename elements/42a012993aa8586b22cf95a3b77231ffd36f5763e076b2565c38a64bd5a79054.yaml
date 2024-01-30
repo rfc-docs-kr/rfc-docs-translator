@@ -1,0 +1,23 @@
+"hash": |-
+  42a012993aa8586b22cf95a3b77231ffd36f5763e076b2565c38a64bd5a79054
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMIBAlgDropGroup OBJECT-GROUP
+      OBJECTS {
+                diffServAlgDropNextFree, diffServAlgDropType,
+                diffServAlgDropNext, diffServAlgDropQMeasure,
+                diffServAlgDropQThreshold, diffServAlgDropSpecific,
+                diffServAlgDropStorage, diffServAlgDropStatus
+      }
+      STATUS       current
+      DESCRIPTION
+         "The Algorithmic Drop Group contains the objects that describe
+         algorithmic dropper operation and configuration."
+      ::= { diffServMIBGroups 10 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

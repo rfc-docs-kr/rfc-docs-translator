@@ -1,0 +1,18 @@
+"hash": |-
+  3e48a6b42ee7f391d2db54175cf1c76f9525deb94833059d5cb331284fb391cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        It is assumed to be difficult to compute the private key (n,d)
+        from the public key (n,e). However, if n can be factored into p
+        and q, then the private key d can be computed easily. Thus, RSA
+        security depends on the assumption that it is computationally
+        difficult to factor a number that is the product of two large
+        prime numbers. (Of course, p and q are treated as part of the
+        private key, or else are destroyed after computing n.)
+"fixed": |-
+  - It is assumed to be difficult to compute the private key (n,d) from the public key (n,e). However, if n can be factored into p and q, then the private key d can be computed easily. Thus, RSA security depends on the assumption that it is computationally difficult to factor a number that is the product of two large prime numbers. (Of course, p and q are treated as part of the private key, or else are destroyed after computing n.)
+"ko": |-
+  - 공개키(n,e)로부터 개인키(n,d)를 계산하는 것은 어렵다고 가정한다. 그러나 n을 p와 q로 인수분해할 수 있으면 개인 키 d를 쉽게 계산할 수 있습니다. 따라서 RSA 보안은 두 개의 큰 소수의 곱인 숫자를 인수분해하는 것이 계산상 어렵다는 가정에 따라 달라집니다. (물론 p와 q는 개인 키의 일부로 처리되거나 n을 계산한 후 파기됩니다.)

@@ -1,0 +1,1 @@
+   o TLS_FALLBACK_SCSV가 ClientHello.cipher_suites에 나타나고 서버에서 지원하는 가장 높은 프로토콜 버전이 ClientHello.client_version에 표시된 버전보다 높은 경우 서버는 치명적인 inproper_fallback 경고로 응답해야 합니다(지정된 버전 때문에 치명적인 프로토콜_버전 경고로 응답하지 않는 한). ClientHello.client_version은 지원되지 않습니다). 이 경고의 레코드 레이어 버전 번호는 ClientHello.client_version(서버가 핸드셰이크를 계속하는 경우 Server Hello 메시지의 경우와 동일) 또는 클라이언트가 사용하는 레코드 레이어 버전 번호로 설정되어야 합니다.

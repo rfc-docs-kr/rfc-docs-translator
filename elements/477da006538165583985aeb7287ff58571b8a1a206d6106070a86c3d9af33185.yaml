@@ -1,0 +1,29 @@
+"hash": |-
+  477da006538165583985aeb7287ff58571b8a1a206d6106070a86c3d9af33185
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +--------------------+--------------------------+-------------------+
+     | Operation          | Parameters               | Notes             |
+     +--------------------+--------------------------+-------------------+
+     | <get-config>       | <source>                 |                   |
+     |                    |                          |                   |
+     | <copy-config>      | <source> <target>        |                   |
+     |                    |                          |                   |
+     | <lock>             | <target>                 |                   |
+     |                    |                          |                   |
+     | <unlock>           | <target>                 |                   |
+     |                    |                          |                   |
+     | <validate>         | <source>                 | If :validate:1.1  |
+     |                    |                          | is advertised     |
+     |                    |                          |                   |
+     | <delete-config>    | <target>                 | Resets the device |
+     |                    |                          | to its factory    |
+     |                    |                          | defaults          |
+     +--------------------+--------------------------+-------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

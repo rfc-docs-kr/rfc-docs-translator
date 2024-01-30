@@ -1,0 +1,1 @@
+   LAYOUTRECALL4_FSID의 CB_LAYOUTRECALL이 전송되면 서버는 클라이언트가 LAYOUTCOMMIT 작업을 제외하고 지정된 fsid를 가진 파일을 참조하는 레이아웃 상태 ID를 사용하도록 허용해서는 안 됩니다. 클라이언트가 LAYOUTRECALL4_ALL의 CB_LAYOUTRECALL을 수신하면 LAYOUTCOMMIT 작업을 제외하고 지정된 fsid가 있는 파일을 참조하는 레이아웃 상태 ID를 사용해서는 안 됩니다. LAYOUTRETURN4_FSID의 LAYOUTRETURN이 전송되면 참조된 fsid에 부여된 모든 레이아웃 상태 ID가 해제됩니다. 클라이언트는 해제된 항목을 사용해서는 안 됩니다.

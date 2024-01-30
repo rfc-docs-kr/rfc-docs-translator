@@ -1,0 +1,33 @@
+"hash": |-
+  57e4d71f9450a66eb1226726dcc3b22a3d4e18f133903316b102b01e8cf4c0bc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        OSIRM Layers       Examples          IPS Layers     Examples
+        ------------------ ---------------  --------------- --------------
+        Message Format:    P2   [X420]      Message Format: ARPA (RFC 822)
+        +----------------+                  +-------------+
+        |7.Application   | P1   [X419]      | Application | SMTP (RFC 821)
+        +----------------+ -  -  -  -  -  - |             |
+        |6.Presentation  |      [I8823]     |             |
+        +----------------+ -  -  -  -  -  - |             |
+        |5.Session       |      [I8327]     +-------------+
+        +----------------+ -  -  -  -  -  - |  Transport  | TCP  (RFC 793)
+        |4.Transport     | TP4  [I8073]     |             |
+        +----------------+ -  -  -  -  -  - +-------------+
+        |3.Network       | CLNP [I8473]     |  Internet   | IP   (RFC 791)
+        |                |                  +-------------+
+        |                |                  |   Network   | IP over IEEE
+        +----------------+ -  -  -  -  -  - |  Interface  | 802 (RFC 1042)
+        |2.Data Link     |                  +-------------+
+        |                | LLC  [I8802-2]   -   Network   - The IPS does
+        |                | MAC  [I8802-3]   -  Hardware   - not include
+        +----------------+                  - (or Network - standards for
+        |1.Physical      | Baseband         -  Substrate) - this layer.
+        +----------------+ Signaling [Stal] + - - - - - - +
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

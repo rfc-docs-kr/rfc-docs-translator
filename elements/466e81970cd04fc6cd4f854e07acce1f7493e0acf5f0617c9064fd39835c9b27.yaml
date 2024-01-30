@@ -1,0 +1,20 @@
+"hash": |-
+  466e81970cd04fc6cd4f854e07acce1f7493e0acf5f0617c9064fd39835c9b27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An ICE TCP agent, full or lite, MUST be prepared to receive incoming
+     TCP connection requests on the base of any TCP candidate that is
+     simultaneous-open or passive.  When the connection request is
+     received, the agent MUST accept it.  The agent MUST utilize the
+     framing defined in RFC 4571 [RFC4571] for the lifetime of this
+     connection.  Due to this framing, the agent will receive data in
+     discrete frames.  Each frame could be media (such as RTP or SRTP),
+     TLS, DTLS, or STUN packets.  The STUN packets are extracted as
+     described in Section 10.2.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

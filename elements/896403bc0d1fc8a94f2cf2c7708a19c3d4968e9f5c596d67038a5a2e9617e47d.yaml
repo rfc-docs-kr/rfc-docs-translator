@@ -1,0 +1,24 @@
+"hash": |-
+  896403bc0d1fc8a94f2cf2c7708a19c3d4968e9f5c596d67038a5a2e9617e47d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      The routing table data structure contains all the information
+      necessary to forward an IP data packet toward its destination.  Each
+      routing table entry describes the collection of best paths to a
+      particular destination.  When forwarding an IP data packet, the
+      routing table entry providing the best match for the packet's IP
+      destination is located.  The matching routing table entry then
+      provides the next hop towards the packet's destination.  OSPF also
+      provides for the existence of a default route (Destination ID =
+      DefaultDestination, Address Mask =  0x00000000).  When the default
+      route exists, it matches all IP destinations (although any other
+      matching entry is a better match).  Finding the routing table entry
+      that best matches an IP destination is further described in Section
+      11.1.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

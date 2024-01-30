@@ -1,0 +1,1 @@
+   time_access_set 및 time_modify_set 속성은 전환 통합으로 구성된 쓰기 전용 속성이므로 클라이언트가 서버에 시간 값 설정을 지시할 수 있습니다. Switched Union이 SET_TO_CLIENT_TIME4를 지정하는 경우 클라이언트는 작업에 사용할 nfstime4를 제공한 것입니다. 스위치 통합이 SET_TO_CLIENT_TIME4를 지정하지 않으면 서버는 SETATTR 작업에 현재 시간을 사용합니다.

@@ -1,0 +1,1 @@
+   새 명령을 수신하면 이전 명령이 중단되는 경우 새 명령의 성공 여부에 관계없이 이전 명령을 중단해야 합니다. 예를 들어, 캡슐화된 알림 요청으로 인해 자체적으로 실패하는 DeleteConnection 명령에 의해 ModifyConnection 명령이 중단된 경우 ModifyConnection 명령은 계속 중단됩니다.

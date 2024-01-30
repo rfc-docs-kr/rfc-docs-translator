@@ -1,0 +1,20 @@
+"hash": |-
+  30a93f9f0e44f02d37f48fc6a1ee64df00caddb528408cdd1f8cc16e7a938702
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Diameter request message routing is done via realms and Application
+     Ids. A Diameter message that may be forwarded by Diameter agents
+     (proxies, redirect agents, or relay agents) MUST include the target
+     realm in the Destination-Realm AVP.  Request routing SHOULD rely on
+     the Destination-Realm AVP and the Application Id present in the
+     request message header to aid in the routing decision.  The realm MAY
+     be retrieved from the User-Name AVP, which is in the form of a
+     Network Access Identifier (NAI).  The realm portion of the NAI is
+     inserted in the Destination-Realm AVP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

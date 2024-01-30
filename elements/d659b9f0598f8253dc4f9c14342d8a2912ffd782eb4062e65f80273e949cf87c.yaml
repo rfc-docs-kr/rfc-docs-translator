@@ -1,0 +1,19 @@
+"hash": |-
+  d659b9f0598f8253dc4f9c14342d8a2912ffd782eb4062e65f80273e949cf87c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Address[1..n]       Vector of addresses, numbered 1 to n.  Each
+                         vector element in [1..n-1] has size (16 - CmprI)
+                         and element [n] has size (16-CmprE).  The
+                         originator of an SRH places the next (first)
+                         hop's IPv6 address in the IPv6 header's IPv6
+                         Destination Address and the second hop's IPv6
+                         address as the first address in Address[1..n]
+                         (i.e., Address[1]).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

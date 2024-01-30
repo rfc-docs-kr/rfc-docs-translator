@@ -1,0 +1,18 @@
+"hash": |-
+  61f004c21193bffeb39d3f7c2152b32b4e38455c10d83620eb9d3e36d02c164b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The value handshake_messages includes all handshake messages starting
+     at ClientHello up to, but not including, this Finished message.  This
+     may be different from handshake_messages in Section 7.4.8 because it
+     would include the CertificateVerify message (if sent).  Also, the
+     handshake_messages for the Finished message sent by the client will
+     be different from that for the Finished message sent by the server,
+     because the one that is sent second will include the prior one.
+"fixed": |-
+  The value handshake_messages includes all handshake messages starting at ClientHello up to, but not including, this Finished message.  This may be different from handshake_messages in Section 7.4.8 because it would include the CertificateVerify message (if sent).  Also, the handshake_messages for the Finished message sent by the client will be different from that for the Finished message sent by the server, because the one that is sent second will include the prior one.
+"ko": |-
+  handshake_messages 값에는 ClientHello에서 시작하여 이 Finished 메시지까지의 모든 핸드셰이크 메시지가 포함됩니다. 이는 CertificateVerify 메시지(전송된 경우)를 포함하므로 섹션 7.4.8의 handshake_messages와 다를 수 있습니다. 또한 클라이언트가 보낸 Finished 메시지의 handshake_messages는 두 번째로 보낸 메시지에 이전 메시지가 포함되므로 서버가 보낸 Finished 메시지의 handshake_messages와 다릅니다.

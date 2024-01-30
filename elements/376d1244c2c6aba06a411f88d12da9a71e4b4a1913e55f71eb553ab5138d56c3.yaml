@@ -1,0 +1,17 @@
+"hash": |-
+  376d1244c2c6aba06a411f88d12da9a71e4b4a1913e55f71eb553ab5138d56c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Traditional NAT implementations that do not track datagrams on
+        a per-session basis but lump states of multiple UDP sessions
+        using the same address binding into a single unified session
+        could compromise the security even further. This is because,
+        the granularity of packet matching would be further limited to
+        just the destination address of the inbound UDP packets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   * 클라이언트 ID는 SP4_SSV 보호로 설정되었으며, 여기에 설명된 조건에서 EXCHANGE_ID가 SP4_MACH_CRED 상태 보호로 전송되었습니다. SSV는 클라이언트와 서버가 다시 시작되는 동안 지속되지 않을 수 있고 클라이언트가 EXCHANGE_ID를 서버에 처음 보낼 때 SSV가 없기 때문에 클라이언트는 SSV RPCSEC_GSS 핸들 없이 후속 EXCHANGE_ID를 보낼 수 있습니다. 대신, SP4_MACH_CRED 보호와 마찬가지로 주체는 RPCSEC_GSS 인증을 기반으로 해야 하고, 사용된 RPCSEC_GSS 서비스는 무결성 또는 개인 정보 보호여야 하며, 클라이언트 ID가 생성될 때 사용된 것과 동일한 GSS 메커니즘 및 주체를 사용해야 합니다.

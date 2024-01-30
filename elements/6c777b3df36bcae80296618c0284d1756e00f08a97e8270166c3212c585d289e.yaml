@@ -1,0 +1,20 @@
+"hash": |-
+  6c777b3df36bcae80296618c0284d1756e00f08a97e8270166c3212c585d289e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           DISCUSSION:
+                These rules will prevent the "broadcast storms" that have
+                resulted from hosts returning ICMP error messages in
+                response to broadcast datagrams.  For example, a broadcast
+                UDP segment to a non-existent port could trigger a flood
+                of ICMP Destination Unreachable datagrams from all
+                machines that do not have a client for that destination
+                port.  On a large Ethernet, the resulting collisions can
+                render the network useless for a second or more.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

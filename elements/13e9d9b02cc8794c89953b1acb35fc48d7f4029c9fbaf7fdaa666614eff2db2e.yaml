@@ -1,0 +1,22 @@
+"hash": |-
+  13e9d9b02cc8794c89953b1acb35fc48d7f4029c9fbaf7fdaa666614eff2db2e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              If the forwarding address is set to 0.0.0.0, packets should
+              be sent to the ASBR itself. Among the multiple routing table
+              entries for the ASBR, select the preferred entry as follows.
+              If RFC1583Compatibility is set to "disabled", prune the set
+              of routing table entries for the ASBR as described in
+              Section 16.4.1. In any case, among the remaining routing
+              table entries, select the routing table entry with the least
+              cost; when there are multiple least cost routing table
+              entries the entry whose associated area has the largest OSPF
+              Area ID (when considered as an unsigned 32-bit integer) is
+              chosen.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

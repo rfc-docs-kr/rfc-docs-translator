@@ -1,0 +1,17 @@
+"hash": |-
+  138d55755e9212e7c4d09b086fc70ee7a451cbd45acdc3a878c4fb4f8052ecde
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  Note that RFC 793 specified one minute (60 seconds) as a
+           constant for the TTL because the assumed maximum segment
+           lifetime was two minutes.  This was intended to explicitly ask
+           that a segment be destroyed if it could not be delivered by the
+           internet system within one minute.  RFC 1122 updated RFC 793 to
+           require that the TTL be configurable.
+"fixed": |-
+  - *  Note that RFC 793 specified one minute (60 seconds) as a constant for the TTL because the assumed maximum segment lifetime was two minutes.  This was intended to explicitly ask that a segment be destroyed if it could not be delivered by the internet system within one minute.  RFC 1122 updated RFC 793 to require that the TTL be configurable.
+"ko": |-
+  - * 가정된 최대 세그먼트 수명이 2분이었으므로 RFC 793에서는 TTL의 상수로 1분(60초)을 지정했습니다. 이는 인터넷 시스템에서 1분 이내에 세그먼트를 전달할 수 없는 경우 세그먼트를 파기하도록 명시적으로 요청하기 위한 것입니다. RFC 1122는 TTL을 구성할 수 있도록 요구하도록 RFC 793을 업데이트했습니다.

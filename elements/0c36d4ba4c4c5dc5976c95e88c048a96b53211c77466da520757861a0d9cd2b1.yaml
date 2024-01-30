@@ -1,0 +1,22 @@
+"hash": |-
+  0c36d4ba4c4c5dc5976c95e88c048a96b53211c77466da520757861a0d9cd2b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An entire frame can be identified as a sequence of packets beginning
+     with a packet having a zero fragment offset and ending with a packet
+     having the RTP marker bit set.  Missing packets can be detected
+     either with RTP sequence numbers or with the fragment offset and
+     lengths of each packet.  Reassembly could be carried out without the
+     offset field (i.e., using only the RTP marker bit and sequence
+     numbers), but an efficient single-copy implementation would not
+     otherwise be possible in the presence of misordered packets.
+     Moreover, if the last packet of the previous frame (containing the
+     marker bit) were dropped, then a receiver could not always detect
+     that the current frame is entirely intact.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

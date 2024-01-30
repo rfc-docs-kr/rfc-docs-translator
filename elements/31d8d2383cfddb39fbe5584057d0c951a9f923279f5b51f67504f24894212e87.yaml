@@ -1,0 +1,17 @@
+"hash": |-
+  31d8d2383cfddb39fbe5584057d0c951a9f923279f5b51f67504f24894212e87
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  It is now required in Section 5.1 that if the Type-Data field of
+        an Identity Request contains a NUL-character, only the part before
+        the null is displayed.  RFC 2284 prohibits the null termination of
+        the Type-Data field of Identity messages.  This rule has been
+        relaxed for Identity Request messages and the Identity Request
+        Type-Data field may now be null terminated.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

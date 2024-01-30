@@ -1,0 +1,59 @@
+"hash": |-
+  2ccb330d16633674774336364284a946bde3a4bc6eb9e3b38d5df9f582ebb169
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           <xs:enumeration value="bad-attribute"/>
+           <xs:enumeration value="unknown-attribute"/>
+           <xs:enumeration value="missing-element"/>
+           <xs:enumeration value="bad-element"/>
+           <xs:enumeration value="unknown-element"/>
+           <xs:enumeration value="unknown-namespace"/>
+           <xs:enumeration value="access-denied"/>
+           <xs:enumeration value="lock-denied"/>
+           <xs:enumeration value="resource-denied"/>
+           <xs:enumeration value="rollback-failed"/>
+           <xs:enumeration value="data-exists"/>
+           <xs:enumeration value="data-missing"/>
+           <xs:enumeration value="operation-not-supported"/>
+           <xs:enumeration value="operation-failed"/>
+           <xs:enumeration value="partial-operation"/>
+           <xs:enumeration value="malformed-message"/>
+         </xs:restriction>
+       </xs:simpleType>
+       <xs:simpleType name="ErrorSeverity">
+         <xs:restriction base="xs:string">
+           <xs:enumeration value="error"/>
+           <xs:enumeration value="warning"/>
+         </xs:restriction>
+       </xs:simpleType>
+       <xs:complexType name="errorInfoType">
+         <xs:sequence>
+           <xs:choice>
+             <xs:element name="session-id" type="SessionIdOrZero"/>
+             <xs:sequence minOccurs="0" maxOccurs="unbounded">
+               <xs:sequence>
+                 <xs:element name="bad-attribute" type="xs:QName"
+                             minOccurs="0" maxOccurs="1"/>
+                 <xs:element name="bad-element" type="xs:QName"
+                             minOccurs="0" maxOccurs="1"/>
+                 <xs:element name="ok-element" type="xs:QName"
+                             minOccurs="0" maxOccurs="1"/>
+                 <xs:element name="err-element" type="xs:QName"
+                             minOccurs="0" maxOccurs="1"/>
+                 <xs:element name="noop-element" type="xs:QName"
+                             minOccurs="0" maxOccurs="1"/>
+                 <xs:element name="bad-namespace" type="xs:string"
+                             minOccurs="0" maxOccurs="1"/>
+               </xs:sequence>
+             </xs:sequence>
+           </xs:choice>
+           <!-- elements from any other namespace are also allowed
+                to follow the NETCONF elements -->
+           <xs:any namespace="##other" processContents="lax"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

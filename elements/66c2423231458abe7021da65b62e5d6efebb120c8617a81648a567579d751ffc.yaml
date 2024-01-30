@@ -1,0 +1,18 @@
+"hash": |-
+  66c2423231458abe7021da65b62e5d6efebb120c8617a81648a567579d751ffc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The total length of a parameter (including Tag, Parameter Length,
+        and Value fields) MUST be a multiple of 4 octets.  If the length
+        of the parameter is not a multiple of 4 octets, the sender pads
+        the Parameter at the end (i.e., after the Parameter Value field)
+        with all zero octets.  The length of the padding is NOT included
+        in the parameter length field.  A sender MUST NOT pad with more
+        than 3 octets.  The receiver MUST ignore the padding octets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

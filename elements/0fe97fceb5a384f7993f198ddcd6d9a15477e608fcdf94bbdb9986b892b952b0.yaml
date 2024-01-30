@@ -1,0 +1,16 @@
+"hash": |-
+  0fe97fceb5a384f7993f198ddcd6d9a15477e608fcdf94bbdb9986b892b952b0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       counter_block = tag
+       counter_block[15] |= 0x80
+       plaintext = AES_CTR(key = message_encryption_key,
+                           initial_counter_block = counter_block,
+                           in = ciphertext[:bytelen(ciphertext)-16])
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

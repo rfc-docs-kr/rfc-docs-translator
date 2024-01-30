@@ -1,0 +1,21 @@
+"hash": |-
+  c93a1502a05295095a11e1bfda182757e84753384b5e32272b3c14d08928caf9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              If the router is eligible to become Designated Router, it
+              must periodically send Hello Packets to all neighbors that
+              are also eligible.  In addition, if the router is itself the
+              Designated Router or Backup Designated Router, it must also
+              send periodic Hello Packets to all other neighbors.  This
+              means that any two eligible routers are always exchanging
+              Hello Packets, which is necessary for the correct operation
+              of the Designated Router election algorithm.  To minimize
+              the number of Hello Packets sent, the number of eligible
+              routers on an NBMA network should be kept small.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

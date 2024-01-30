@@ -1,0 +1,1 @@
+- FIN에 대한 승인을 보냅니다. 사용자에게 "연결 종료" 신호를 보내고 동일한 메시지와 함께 보류 중인 RECEIVE를 반환합니다. FIN은 아직 사용자에게 전달되지 않은 세그먼트 텍스트에 대해 EOL을 의미합니다. 현재 상태가 ESTABLISHED이면 CLOSE-WAIT 상태로 들어갑니다. 현재 상태가 FIN-WAIT-1이면 CLOSING 상태로 진입한다. 현재 상태가 FIN-WAIT-2이면 TIME-WAIT 상태로 진입한다.

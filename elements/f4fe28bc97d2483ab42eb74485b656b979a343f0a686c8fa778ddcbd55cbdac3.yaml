@@ -1,0 +1,16 @@
+"hash": |-
+  f4fe28bc97d2483ab42eb74485b656b979a343f0a686c8fa778ddcbd55cbdac3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  Allowing the server to offload state to the client, thus allowing
+        it to send a HelloRetryRequest without storing any state.  The
+        server can do this by storing the hash of the ClientHello in the
+        HelloRetryRequest cookie (protected with some suitable integrity
+        protection algorithm).
+"fixed": |-
+  -  Allowing the server to offload state to the client, thus allowing it to send a HelloRetryRequest without storing any state.  The server can do this by storing the hash of the ClientHello in the HelloRetryRequest cookie (protected with some suitable integrity protection algorithm).
+"ko": |-
+  - 서버가 상태를 클라이언트로 오프로드하여 상태를 저장하지 않고 HelloRetryRequest를 보낼 수 있도록 허용합니다. 서버는 HelloRetryRequest 쿠키(적절한 무결성 보호 알고리즘으로 보호됨)에 ClientHello의 해시를 저장하여 이를 수행할 수 있습니다.

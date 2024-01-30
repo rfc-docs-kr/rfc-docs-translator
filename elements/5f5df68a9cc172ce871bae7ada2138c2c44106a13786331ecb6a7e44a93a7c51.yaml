@@ -1,0 +1,22 @@
+"hash": |-
+  5f5df68a9cc172ce871bae7ada2138c2c44106a13786331ecb6a7e44a93a7c51
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Message ::= SEQUENCE
+     {    version         INTEGER(0..99),
+          -- The version of the protocol defined here is equal to 1.
+          mId             MId,    -- Name/address of message originator
+          messageBody             CHOICE
+          {
+                  messageError    ErrorDescriptor,
+                  transactions    SEQUENCE OF Transaction
+          },
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

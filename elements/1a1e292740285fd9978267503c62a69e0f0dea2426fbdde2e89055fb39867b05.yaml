@@ -1,0 +1,21 @@
+"hash": |-
+  1a1e292740285fd9978267503c62a69e0f0dea2426fbdde2e89055fb39867b05
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          o   The packet must be authenticated.  The authentication
+              procedure is indicated by the setting of AuType (see
+              Appendix D).  The authentication procedure may use one or
+              more Authentication keys, which can be configured on a per-
+              interface basis.  The authentication procedure may also
+              verify the checksum field in the OSPF packet header (which,
+              when used, is set to the standard IP 16-bit one's complement
+              checksum of the OSPF packet's contents after excluding the
+              64-bit authentication field).  If the authentication
+              procedure fails, the packet should be discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

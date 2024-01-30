@@ -1,0 +1,18 @@
+"hash": |-
+  ff150a258f48c2c50b86fe62d3fdecf3e05939e451409e8eb5ecc11684b32580
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As described in Section 3, an access token is bound to a specific
+     client certificate, which means that the same certificate must be
+     used for mutual TLS on protected resource access.  It also implies
+     that access tokens are invalidated when a client updates the
+     certificate, which can be handled similarly to expired access tokens
+     where the client requests a new access token (typically with a
+     refresh token) and retries the protected resource request.
+"fixed": |-
+  As described in Section 3, an access token is bound to a specific client certificate, which means that the same certificate must be used for mutual TLS on protected resource access.  It also implies that access tokens are invalidated when a client updates the certificate, which can be handled similarly to expired access tokens where the client requests a new access token (typically with a refresh token) and retries the protected resource request.
+"ko": |-
+  섹션 3에 설명된 대로 액세스 토큰은 특정 클라이언트 인증서에 바인딩됩니다. 이는 보호되는 리소스 액세스에 대한 상호 TLS에 동일한 인증서를 사용해야 함을 의미합니다. 이는 또한 클라이언트가 인증서를 업데이트할 때 액세스 토큰이 무효화됨을 의미합니다. 이는 클라이언트가 새 액세스 토큰(일반적으로 새로 고침 토큰 사용)을 요청하고 보호된 리소스 요청을 재시도하는 만료된 액세스 토큰과 유사하게 처리될 수 있습니다.

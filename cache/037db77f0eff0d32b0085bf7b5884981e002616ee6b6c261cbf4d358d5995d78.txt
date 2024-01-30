@@ -1,0 +1,1 @@
+   연결은 수명 동안 일련의 상태를 통해 진행됩니다. 상태는 LISTEN, SYN-SENT, SYN-RECEIVED, ESTABLISHED, FIN-WAIT-1, FIN-WAIT-2, CLOSE-WAIT, CLOSING, LAST-ACK, TIME-WAIT 및 가상 상태 CLOSED입니다. CLOSED는 TCB가 없어 연결이 없는 상태를 나타내므로 허구입니다. 간략하게 상태의 의미는 다음과 같습니다.

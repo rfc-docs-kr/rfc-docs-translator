@@ -1,0 +1,1 @@
+   DTLS 구현은 (적어도 개념적으로는) next_receive_seq 카운터를 유지합니다. 이 카운터는 처음에 0으로 설정됩니다. 메시지가 수신되면 해당 시퀀스 번호가 next_receive_seq와 일치하면 next_receive_seq가 증가하고 메시지는 다음과 같습니다.

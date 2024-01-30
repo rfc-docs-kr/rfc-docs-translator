@@ -1,0 +1,23 @@
+"hash": |-
+  c191d341474018085f4a65813a0959f56ed53234391555cc951a1e602b5af519
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TCP endpoint SHOULD implement a delayed ACK (SHLD-18), but an ACK
+     should not be excessively delayed; in particular, the delay MUST be
+     less than 0.5 seconds (MUST-40).  An ACK SHOULD be generated for at
+     least every second full-sized segment or 2*RMSS bytes of new data
+     (where RMSS is the MSS specified by the TCP endpoint receiving the
+     segments to be acknowledged, or the default value if not specified)
+     (SHLD-19).  Excessive delays on ACKs can disturb the round-trip
+     timing and packet "clocking" algorithms.  More complete discussion of
+     delayed ACK behavior is in Section 4.2 of RFC 5681 [8], including
+     recommendations to immediately acknowledge out-of-order segments,
+     segments above a gap in sequence space, or segments that fill all or
+     part of a gap, in order to accelerate loss recovery.
+"fixed": |-
+  A TCP endpoint SHOULD implement a delayed ACK (SHLD-18), but an ACK should not be excessively delayed; in particular, the delay MUST be less than 0.5 seconds (MUST-40).  An ACK SHOULD be generated for at least every second full-sized segment or 2*RMSS bytes of new data (where RMSS is the MSS specified by the TCP endpoint receiving the segments to be acknowledged, or the default value if not specified) (SHLD-19).  Excessive delays on ACKs can disturb the round-trip timing and packet "clocking" algorithms.  More complete discussion of delayed ACK behavior is in Section 4.2 of RFC 5681 [8], including recommendations to immediately acknowledge out-of-order segments, segments above a gap in sequence space, or segments that fill all or part of a gap, in order to accelerate loss recovery.
+"ko": |-
+  TCP 엔드포인트는 지연된 ACK(SHLD-18)를 구현해야 하지만 ACK가 과도하게 지연되어서는 안 됩니다. 특히 지연은 0.5초 미만이어야 합니다(MUST-40). ACK는 적어도 두 번째 전체 크기 세그먼트 또는 새 데이터의 2*RMSS 바이트마다 생성되어야 합니다(여기서 RMSS는 승인할 세그먼트를 수신하는 TCP 끝점에 의해 지정된 MSS이거나 지정되지 않은 경우 기본값입니다)(SHLD -19). ACK의 과도한 지연은 왕복 타이밍 및 패킷 "클럭킹" 알고리즘을 방해할 수 있습니다. 지연된 ACK 동작에 대한 보다 완전한 논의는 RFC 5681[8]의 섹션 4.2에 있습니다. 여기에는 순서가 잘못된 세그먼트, 시퀀스 공간의 갭 위에 있는 세그먼트 또는 갭의 전부 또는 일부를 채우는 세그먼트를 즉시 승인하는 권장 사항이 포함됩니다. 손실회복을 가속화하기 위해

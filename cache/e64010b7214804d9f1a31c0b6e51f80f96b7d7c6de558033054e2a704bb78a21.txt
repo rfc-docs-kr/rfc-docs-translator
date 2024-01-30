@@ -1,0 +1,10 @@
+DNS는 <local-part>를 단일 레이블로 인코딩하고
+<mail-domain>을 도메인 이름으로 사용합니다. <local-part>의 단일 레이블
+도메인을 형성하기 위해 <mail-domain>의 도메인 이름 앞에 붙습니다.
+사서함에 해당하는 이름입니다. 따라서 사서함 HOSTMASTER@SRI-
+NIC.ARPA는 도메인 이름 HOSTMASTER.SRI-NIC.ARPA에 매핑됩니다. 만약
+<local-part>에는 점이나 기타 특수 문자가 포함되어 있습니다.
+마스터 파일로 표현하려면 백슬래시를 사용해야 합니다.
+도메인 이름이 올바르게 인코딩되었는지 확인하기 위해 인용합니다. 을 위한
+예를 들어 사서함 Action.domains@ISI.EDU는 다음과 같이 표시됩니다.
+작업\.도메인.ISI.EDU.

@@ -1,0 +1,1 @@
+    - gss_init_sec_context가 GSS_S_CONTINUE_NEEDED를 반환하면 클라이언트는 서버가 후속 하위 협상 응답에서 토큰을 발급할 것으로 예상해야 합니다. 클라이언트는 gss_init_sec_context에 대한 다른 호출에 토큰을 전달하고 "계속" 작업이 완료될 때까지 이 절차를 반복해야 합니다.

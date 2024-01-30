@@ -1,0 +1,1 @@
+- 세그먼트가 시퀀스 번호 및 승인 번호 테스트를 통과하면 전송 창을 업데이트해야 합니다. SND.WL =< SEG.SEQ인 경우 SND.WND <- SEG.WND를 설정하고 SND.WL <- SEG.SEQ를 설정합니다.

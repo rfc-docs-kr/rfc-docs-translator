@@ -1,0 +1,19 @@
+"hash": |-
+  c943b085d38b5e2dafe03a7163dca64d278f4ff1b8ab85274c33dcb3da138ab9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The resolvers on all internal hosts, both public and private, query
+     only the internal nameserver.  The external server resolves queries
+     from resolvers outside the enterprise and is linked into the global
+     DNS.  The internal server forwards all queries for information
+     outside the enterprise to the external nameserver, so all internal
+     hosts can access the global DNS.  This ensures that information about
+     private hosts does not reach resolvers and nameservers outside the
+     enterprise.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

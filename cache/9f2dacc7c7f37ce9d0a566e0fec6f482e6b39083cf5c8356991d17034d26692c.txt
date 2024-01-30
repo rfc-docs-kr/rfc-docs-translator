@@ -1,0 +1,1 @@
+   씨. 네트워크 운영자는 대기열을 만들지 않을 만큼 충분히 원활하고 낮은 속도로 진행되는 것으로 간주되는 경우 응답하지 않는 특정 비L4S 트래픽을 L4S 대기열에 포함하기를 원할 수 있습니다(예: VoIP, 온라인 동기화를 위한 저속 데이터그램). 게임, 상대적으로 낮은 속도의 애플리케이션 제한 트래픽, DNS, LDAP(Lightweight Directory Access Protocol) 등. 이 트래픽에는 EF(Expedited Forwarding)와 같은 지연 시간이 짧은 Diffserv 코드 포인트와 같은 특정 식별자로 태그가 지정되어야 합니다. [RFC3246 ], NQB(Non-Queue-Building) [NQB-PHB] 또는 운영자별 식별자.

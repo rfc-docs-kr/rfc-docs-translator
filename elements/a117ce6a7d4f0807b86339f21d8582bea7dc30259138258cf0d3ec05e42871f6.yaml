@@ -1,0 +1,23 @@
+"hash": |-
+  a117ce6a7d4f0807b86339f21d8582bea7dc30259138258cf0d3ec05e42871f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To generate such a key pair (r,s), we will use the ChaCha20 block
+     function described in Section 2.3.  This assumes that we have a
+     256-bit session key for the Message Authentication Code (MAC)
+     function, such as SK_ai and SK_ar in Internet Key Exchange Protocol
+     version 2 (IKEv2) ([RFC7296]), the integrity key in the Encapsulating
+     Security Payload (ESP) and Authentication Header (AH), or the
+     client_write_MAC_key and server_write_MAC_key in TLS.  Any document
+     that specifies the use of Poly1305 as a MAC algorithm for some
+     protocol must specify that 256 bits are allocated for the integrity
+     key.  Note that in the AEAD construction defined in Section 2.8, the
+     same key is used for encryption and key generation, so the use of
+     SK_a* or *_write_MAC_key is only for stand-alone Poly1305.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

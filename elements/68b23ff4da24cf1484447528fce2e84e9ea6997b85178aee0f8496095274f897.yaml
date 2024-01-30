@@ -1,0 +1,18 @@
+"hash": |-
+  68b23ff4da24cf1484447528fce2e84e9ea6997b85178aee0f8496095274f897
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          In addition, a non-decreasing sequence number is included in
+          each OSPF protocol packet to protect against replay attacks.
+          This provides long term protection; however, it is still
+          possible to replay an OSPF packet until the sequence number
+          changes. To implement this feature, each neighbor data structure
+          contains a new field called the "cryptographic sequence number".
+          This field is initialized to zero, and is also set to zero
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,3 @@
+       # 기타 케이스 처리
+
+- xn, yn = x, y k = 0 동안 xn != yn: xn, yn = xn >> 1, yn >> 1 k += 1 return (xn << k) + (1 << (k-1) ) - 1

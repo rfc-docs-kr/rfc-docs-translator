@@ -1,0 +1,1 @@
+   RestartInProgress가 연결이 끊어진 동안 수신된 명령에 대한 응답(R)과 함께 피기백되는 경우 이 특정 RestartInProgress의 재전송에는 응답 R의 피기백이 필요하지 않습니다. 그러나 엔드포인트의 연결이 끊어진 동안 응답 R을 다시 보내면 RestartInProgress가 응답과 함께 피기백되어 두 항목이 순서대로 전달되도록 해야 합니다.

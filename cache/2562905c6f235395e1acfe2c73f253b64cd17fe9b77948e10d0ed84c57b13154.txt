@@ -1,0 +1,1 @@
+   멀티캐스트를 사용하려면 IPv4 및 IPv6 네트워크 계층 프로토콜의 작동을 조정하기 위해 호출해야 하는 전송 API의 추가 기본 요소가 필요합니다. 예를 들어, 그룹으로 전송된 데이터그램을 받으려면 끝점은 먼저 네트워크 계층에서 멀티캐스트 그룹의 구성원이 되어야 합니다. 로컬 멀티캐스트 수신은 IGMP(Internet Group Management Protocol) [RFC3376] [RFC4604]에 의해 IPv4에 대한 신호를 받습니다. IPv6은 ICMPv6을 통해 전달되는 동등한 MLD(Multicast Listener Discovery) 프로토콜 [RFC3810] [RFC5790]을 사용합니다. 이러한 프로토콜의 경량 버전도 지정되었습니다[RFC5790].

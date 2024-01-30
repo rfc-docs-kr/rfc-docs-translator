@@ -1,0 +1,22 @@
+"hash": |-
+  5ca9a321924ede72c1b3859eb211310f545be4624ba9c6ce60bc8d2630ea8469
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (2) Calculate the new Backup Designated Router for the network
+              as follows.  Only those routers on the list that have not
+              declared themselves to be Designated Router are eligible to
+              become Backup Designated Router.  If one or more of these
+              routers have declared themselves Backup Designated Router
+              (i.e., they are currently listing themselves as Backup
+              Designated Router, but not as Designated Router, in their
+              Hello Packets) the one having highest Router Priority is
+              declared to be Backup Designated Router.  In case of a tie,
+              the one having the highest Router ID is chosen.  If no
+              routers have declared themselves Backup Designated Router,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

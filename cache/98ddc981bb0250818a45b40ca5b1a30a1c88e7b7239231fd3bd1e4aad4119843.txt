@@ -1,0 +1,1 @@
+   HelloVerifyRequest에 응답할 때 클라이언트는 원래 ClientHello에서와 동일한 매개변수 값(version, random, session_id, cipher_suites, 압축_method)을 사용해야 합니다. 서버는 해당 값을 사용하여 쿠키를 생성하고 쿠키 수신 시 해당 값이 올바른지 확인해야 합니다. 서버는 ServerHello를 보낼 때 사용할 HelloVerifyRequest에서 동일한 버전 번호를 사용해야 합니다. ServerHello를 수신하면 클라이언트는 서버 버전 값이 일치하는지 확인해야 합니다.

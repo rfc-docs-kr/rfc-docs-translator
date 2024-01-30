@@ -1,0 +1,20 @@
+"hash": |-
+  07892ac8a4afdfcd10204af53ba9e2c370146657a8e048dd64e6be2984f0f3c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If no other ASPs in the Application Server are in the state ASP-
+     ACTIVE, the SGP MUST send a Notify message ("AS-Pending") to all ASPs
+     in the AS that are in the state ASP-INACTIVE.  The SGP SHOULD start
+     buffering the incoming messages for T(r) seconds, after which
+     messages MAY be discarded.  T(r) is configurable by the network
+     operator.  If the SGP receives an ASP Active message from an ASP in
+     the AS before expiry of T(r), the buffered traffic is directed to
+     that ASP, and the timer is cancelled.  If T(r) expires, the AS is
+     moved to the AS-INACTIVE state.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

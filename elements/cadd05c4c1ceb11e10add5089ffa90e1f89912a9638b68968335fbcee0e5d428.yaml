@@ -1,0 +1,20 @@
+"hash": |-
+  cadd05c4c1ceb11e10add5089ffa90e1f89912a9638b68968335fbcee0e5d428
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If H produces a hash result N bits long, then to find an s' where
+        H(s') = H(s) for a specific given s, the amount of computation
+        required is O(2**n); i.e., it is necessary to try on the order of
+        2 to the power n values of s' before finding a collision. However,
+        to simply find any pair of values s and s' that collide, the
+        amount of computation required is only O(2**(n/2)); i.e., after
+        computing H(s) for 2 to the power n/2 randomly chosen values of s,
+        the probability is greater than 1/2 that two of those values have
+        the same hash result. (See: birthday attack.)
+"fixed": |-
+  - If H produces a hash result N bits long, then to find an s' where H(s') = H(s) for a specific given s, the amount of computation required is O(2**n); i.e., it is necessary to try on the order of 2 to the power n values of s' before finding a collision. However, to simply find any pair of values s and s' that collide, the amount of computation required is only O(2**(n/2)); i.e., after computing H(s) for 2 to the power n/2 randomly chosen values of s, the probability is greater than 1/2 that two of those values have the same hash result. (See: birthday attack.)
+"ko": |-
+  - H가 N 비트 길이의 해시 결과를 생성하는 경우 특정 주어진 s에 대해 H(s') = H(s)인 s'를 찾으려면 필요한 계산 양은 O(2**n)입니다. 즉, 충돌을 발견하기 전에 s'의 n 값에 대한 2의 거듭제곱을 시도해 볼 필요가 있습니다. 그러나 단순히 충돌하는 값 s와 s' 쌍을 찾는 데 필요한 계산량은 O(2**(n/2))입니다. 즉, 2에 대한 H(s)를 s의 무작위로 선택된 n/2 값의 거듭제곱으로 계산한 후 해당 값 중 두 개가 동일한 해시 결과를 가질 확률은 1/2보다 큽니다. (참조: 생일 공격.)

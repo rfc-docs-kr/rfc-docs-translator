@@ -1,0 +1,19 @@
+"hash": |-
+  d14f127c30c18c3950d2f0c7d1fecb1c778b3702aa50556915ab552a0766ea45
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Session-Server-Failover AVP (AVP Code 271) is of type Enumerated
+     and MAY be present in application-specific authorization answer
+     messages that either do not include the Session-Binding AVP or
+     include the Session-Binding AVP with any of the bits set to a zero
+     value.  If present, this AVP MAY inform the Diameter client that if a
+     re-auth or STR message fails due to a delivery problem, the Diameter
+     client SHOULD issue a subsequent message without the Destination-Host
+     AVP.  When absent, the default value is REFUSE_SERVICE.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

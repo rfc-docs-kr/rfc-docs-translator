@@ -1,0 +1,16 @@
+"hash": |-
+  2fcb839a865c007977df1a8c15554ef3cb395df05dedbd08995ade88cc102de7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Rationale: The former cipher suites, which have assigned values
+        prefixed by "TLS_DH_*", have several drawbacks, especially the
+        fact that they do not support forward secrecy.  The latter
+        ("TLS_ECDH_*") also lack forward secrecy and are subject to
+        invalid curve attacks [Jager2015].
+"fixed": |-
+  - Rationale: The former cipher suites, which have assigned values prefixed by "TLS_DH_*", have several drawbacks, especially the fact that they do not support forward secrecy.  The latter ("TLS_ECDH_*") also lack forward secrecy and are subject to invalid curve attacks [Jager2015].
+"ko": |-
+  - 이유: "TLS_DH_*"라는 접두사가 붙은 값을 할당한 이전 암호 제품군에는 특히 순방향 보안을 지원하지 않는다는 점과 같은 몇 가지 단점이 있습니다. 후자("TLS_ECDH_*")도 순방향 비밀성이 부족하고 잘못된 곡선 공격을 받기 쉽습니다[Jager2015].

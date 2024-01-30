@@ -1,0 +1,1 @@
+   차단된 발신자는 STREAM_DATA_BLOCKED 또는 DATA_BLOCKED 프레임을 보낼 필요가 없습니다. 따라서 수신기는 MAX_STREAM_DATA 또는 MAX_DATA 프레임을 보내기 전에 STREAM_DATA_BLOCKED 또는 DATA_BLOCKED 프레임을 기다리면 안 됩니다. 그렇게 하면 발신자가 나머지 연결 동안 차단될 수 있습니다. 발신자가 이러한 프레임을 보내더라도 이를 기다리면 발신자가 적어도 전체 왕복 동안 차단됩니다.

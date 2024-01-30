@@ -1,0 +1,20 @@
+"hash": |-
+  ae7c3d520ad47b2bb38a41a6be92b445579f512fe9da59f222e686fa9202e65d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Changes to ICMP error message will include changes to the original IP
+     packet (or portions thereof) embedded in the payload of the ICMP
+     error message. In order for NAT to be completely transparent to end
+     hosts, the IP address of the IP header embedded in the payload of the
+     ICMP packet must be modified, the checksum field of the same IP
+     header must correspondingly be modified, and the accompanying
+     transport header. The ICMP header checksum must also be modified to
+     reflect changes made to the IP and transport headers in the payload.
+     Furthermore, the normal IP header must also be modified.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  5f769203dea5dfe3da3cbc04d3a99070bcd9e276487af32d1d4e308771ab3264
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The IP source address should be set to the IP address of the
+          sending interface.  Interfaces to unnumbered point-to-point
+          networks have no associated IP address.  On these interfaces,
+          the IP source should be set to any of the other IP addresses
+          belonging to the router.  For this reason, there must be at
+          least one IP address assigned to the router.[2] Note that, for
+          most purposes, virtual links act precisely the same as
+          unnumbered point-to-point networks.  However, each virtual link
+          does have an IP interface address (discovered during the routing
+          table build process) which is used as the IP source when sending
+          packets over the virtual link.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  3432f87f78dcd87be633d44618b41e1f24ab5810635ad92a4803f9e4d43b3a88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server MUST derive the storage key only from validated sections
+     of the ClientHello.  If the ClientHello contains multiple PSK
+     identities, then an attacker can create multiple ClientHellos with
+     different binder values for the less-preferred identity on the
+     assumption that the server will not verify it (as recommended by
+     Section 4.2.11).  I.e., if the client sends PSKs A and B but the
+     server prefers A, then the attacker can change the binder for B
+     without affecting the binder for A.  If the binder for B is part of
+     the storage key, then this ClientHello will not appear as a
+     duplicate, which will cause the ClientHello to be accepted, and may
+     cause side effects such as replay cache pollution, although any 0-RTT
+     data will not be decryptable because it will use different keys.  If
+     the validated binder or the ClientHello.random is used as the storage
+     key, then this attack is not possible.
+"fixed": |-
+  The server MUST derive the storage key only from validated sections of the ClientHello.  If the ClientHello contains multiple PSK identities, then an attacker can create multiple ClientHellos with different binder values for the less-preferred identity on the assumption that the server will not verify it (as recommended by Section 4.2.11).  I.e., if the client sends PSKs A and B but the server prefers A, then the attacker can change the binder for B without affecting the binder for A.  If the binder for B is part of the storage key, then this ClientHello will not appear as a duplicate, which will cause the ClientHello to be accepted, and may cause side effects such as replay cache pollution, although any 0-RTT data will not be decryptable because it will use different keys.  If the validated binder or the ClientHello.random is used as the storage key, then this attack is not possible.
+"ko": |-
+  서버는 ClientHello의 검증된 섹션에서만 스토리지 키를 파생해야 합니다. ClientHello에 여러 PSK ID가 포함되어 있는 경우 공격자는 서버가 이를 확인하지 않는다는 가정하에(섹션 4.2.11에서 권장하는 대로) 덜 선호하는 ID에 대해 서로 다른 바인더 값을 사용하여 여러 ClientHello를 생성할 수 있습니다. 즉, 클라이언트가 PSK A와 B를 전송하지만 서버가 A를 선호하는 경우 공격자는 A의 바인더에 영향을 주지 않고 B의 바인더를 변경할 수 있습니다. B의 바인더가 저장소 키의 일부인 경우 이 ClientHello는 나타나지 않습니다. 이는 ClientHello가 허용되도록 하고 재생 캐시 오염과 같은 부작용을 일으킬 수 있지만 0-RTT 데이터는 다른 키를 사용하기 때문에 해독할 수 없습니다. 검증된 바인더 또는 ClientHello.random이 저장소 키로 사용되는 경우 이 공격은 불가능합니다.

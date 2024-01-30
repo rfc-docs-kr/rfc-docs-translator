@@ -1,0 +1,24 @@
+"hash": |-
+  ec71e17cde3d629623720033b00b9606ec9371075eca3b60eba5dff1203b0762
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        1. version                 Identifies v1, v2, or v3.
+        2. serialNumber            Certificate serial number;
+                                   an integer assigned by the issuer.
+        3. signature               OID of algorithm that was used to
+                                   sign the certificate.
+        4. issuer                  DN of the issuer (the CA who signed).
+        5. validity                Validity period; a pair of UTCTime
+                                   values: "not before" and "not after".
+        6. subject                 DN of entity who owns the public key.
+        7. subjectPublicKeyInfo    Public key value and algorithm OID.
+        8. issuerUniqueIdentifier  Defined for v2, v3; optional.
+        9. subjectUniqueIdentifier Defined for v2, v2; optional.
+        10. extensions             Defined only for v3; optional.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,27 @@
+"hash": |-
+  d38edab5e50c4fcc5642985911dcc90b845493e24f3ac8182f8e87e88aa533ac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     From the perspective of the M3UA layer at an ASP, a particular SG is
+     capable of transferring traffic to a provisioned SS7 destination X if
+     an SCTP association with at least one SGP of the SG is established,
+     the SGP has returned an acknowledgement to the ASP to indicate that
+     the ASP is actively handling traffic for that destination X, the SGP
+     has not indicated that the destination X is inaccessible, and the SGP
+     has not indicated MTP Restart.  When an ASP is configured to use
+     multiple SGPs for transferring traffic to the SS7 network, the ASP
+     must maintain knowledge of the current capability of the SGPs to
+     handle traffic to destinations of interest.  This information is
+     crucial to the overall reliability of the service, for active/backup,
+     loadsharing, and broadcast models, in the event of failures and
+     recovery and maintenance activities.  The ASP M3UA may also use this
+     information for congestion avoidance purposes.  The distribution of
+     the MTP3-user messages over the SGPs should be done in such a way as
+     to minimize message missequencing, as required by the SS7 User Parts.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  e586a87889f45e7d2a49a89f9c159a843ac1af3ef795184f648147b084b1146d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     $ subordinate DN
+        (I) An X.500 DN is subordinate to another X.500 DN if it begins
+        with a set of attributes that is the same as the entire second DN
+        except for the terminal attribute of the second DN (which is
+        usually the name of a CA). For example, the DN <C=FooLand, O=Gov,
+        OU=Treasurer, CN=DukePinchpenny> is subordinate to the DN
+        <C=FooLand, O=Gov, CN=KingFooCA>.
+"fixed": |-
+  $ subordinate DN  -  (I) An X.500 DN is subordinate to another X.500 DN if it begins with a set of attributes that is the same as the entire second DN except for the terminal attribute of the second DN (which is usually the name of a CA). For example, the DN <C=FooLand, O=Gov, OU=Treasurer, CN=DukePinchpenny> is subordinate to the DN <C=FooLand, O=Gov, CN=KingFooCA>.
+"ko": |-
+  $ 하위 DN - (I) X.500 DN이 두 번째 DN의 터미널 속성(일반적으로 CA 이름). 예를 들어, DN <C=FooLand, O=Gov, OU=Treasurer, CN=DukePinchpenny>는 DN <C=FooLand, O=Gov, CN=KingFooCA>의 하위 항목입니다.

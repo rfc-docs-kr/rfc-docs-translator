@@ -1,0 +1,16 @@
+"hash": |-
+  e872e9597667b66671d2b17451e398ae51abbc1e5a32dd4ac714b946c7c5168f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Similarly, implementations MUST NOT allow the epoch to wrap, but
+     instead MUST establish a new association, terminating the old
+     association as described in Section 4.2.8.  In practice,
+     implementations rarely rehandshake repeatedly on the same channel, so
+     this is not likely to be an issue.
+"fixed": |-
+  Similarly, implementations MUST NOT allow the epoch to wrap, but instead MUST establish a new association, terminating the old association as described in Section 4.2.8.  In practice, implementations rarely rehandshake repeatedly on the same channel, so this is not likely to be an issue.
+"ko": |-
+  마찬가지로 구현은 에포크 랩핑을 허용해서는 안 되며, 대신 섹션 4.2.8에 설명된 대로 이전 연결을 종료하여 새 연결을 설정해야 합니다. 실제로 구현 시 동일한 채널에서 반복적으로 재핸드셰이크를 수행하는 경우는 거의 없으므로 이는 문제가 되지 않습니다.

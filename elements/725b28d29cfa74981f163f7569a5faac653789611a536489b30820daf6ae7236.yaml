@@ -1,0 +1,21 @@
+"hash": |-
+  725b28d29cfa74981f163f7569a5faac653789611a536489b30820daf6ae7236
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The sender's SWS avoidance algorithm is more difficult than the
+     receiver's because the sender does not know (directly) the receiver's
+     total buffer space (RCV.BUFF).  An approach that has been found to
+     work well is for the sender to calculate Max(SND.WND), which is the
+     maximum send window it has seen so far on the connection, and to use
+     this value as an estimate of RCV.BUFF.  Unfortunately, this can only
+     be an estimate; the receiver may at any time reduce the size of
+     RCV.BUFF.  To avoid a resulting deadlock, it is necessary to have a
+     timeout to force transmission of data, overriding the SWS avoidance
+     algorithm.  In practice, this timeout should seldom occur.
+"fixed": |-
+  The sender's SWS avoidance algorithm is more difficult than the receiver's because the sender does not know (directly) the receiver's total buffer space (RCV.BUFF).  An approach that has been found to work well is for the sender to calculate Max(SND.WND), which is the maximum send window it has seen so far on the connection, and to use this value as an estimate of RCV.BUFF.  Unfortunately, this can only be an estimate; the receiver may at any time reduce the size of RCV.BUFF.  To avoid a resulting deadlock, it is necessary to have a timeout to force transmission of data, overriding the SWS avoidance algorithm.  In practice, this timeout should seldom occur.
+"ko": |-
+  송신자의 SWS 회피 알고리즘은 수신자의 SWS 회피 알고리즘보다 더 어렵습니다. 왜냐하면 송신자는 수신자의 전체 버퍼 공간(RCV.BUFF)을 (직접) 모르기 때문입니다. 잘 작동하는 것으로 확인된 접근 방식은 송신자가 지금까지 연결에서 본 최대 송신 창인 Max(SND.WND)를 계산하고 이 값을 RCV.BUFF의 추정치로 사용하는 것입니다. 안타깝게도 이는 추정치일 뿐입니다. 수신기는 언제든지 RCV.BUFF의 크기를 줄일 수 있습니다. 결과적인 교착 상태를 방지하려면 SWS 회피 알고리즘을 재정의하여 데이터를 강제로 전송하는 시간 초과가 필요합니다. 실제로 이러한 시간 초과는 거의 발생하지 않습니다.

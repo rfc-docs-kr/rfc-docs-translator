@@ -1,0 +1,28 @@
+"hash": |-
+  53e95f96eca4d3998198be450e34c41974be770d95f0fe4e7ea24d3a8e616da3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The possibility exists for Control-Client failure after TWAMP-
+     Control connection establishment, or the path between the Control-
+     Client and Server may fail while a connection is in progress.  The
+     Server MAY discontinue any established control connection when no
+     packet associated with that connection has been received within
+     SERVWAIT seconds.  The Server SHALL suspend monitoring control
+     connection activity after receiving a Start-Sessions command, and
+     SHALL resume after receiving a Stop-Sessions command (IF the SERVWAIT
+     option is supported).  Note that the REFWAIT timeout (described
+     below) covers failures during test sessions, and if REFWAIT expires
+     on ALL test sessions initiated by a TWAMP-Control connection, then
+     the SERVWAIT monitoring SHALL resume (as though a Stop-Sessions
+     command had been received).  An implementation that supports the
+     SERVWAIT timeout SHOULD also implement the REFWAIT timeout.  The
+     default value of SERVWAIT SHALL be 900 seconds, and this waiting time
+     MAY be configurable.  This timeout allows the Server to free up
+     resources in case of failure.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

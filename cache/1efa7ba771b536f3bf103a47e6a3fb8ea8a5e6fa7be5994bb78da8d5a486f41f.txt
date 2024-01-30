@@ -1,0 +1,1 @@
+   제어 데이터와 메시지 콘텐츠가 포함된 요청 헤더를 포함하는 HTTP POST 요청은 하나의 HEADERS 프레임으로 전송되며, 요청 헤더를 포함하는 0개 이상의 CONTINUATION 프레임, 마지막 CONTINUATION(또는 HEADERS)이 포함된 하나 이상의 DATA 프레임이 뒤따릅니다. END_HEADERS 플래그가 설정된 프레임과 END_STREAM 플래그가 설정된 마지막 DATA 프레임:

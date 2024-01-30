@@ -1,0 +1,21 @@
+"hash": |-
+  1c5d54e2806c347003c3ffc92d02ce85f61b98cf9605b2103da9b36924aa5095
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        When an ARP request or reply is received, all implementations are
+        required to understand frames with no RIF (local ring) and frames
+        with an empty RIF (also from the local ring).  If the
+        implementation supports multi-ring source routing, then a non-
+        empty RIF is stored for future transmissions to the host
+        originating the ARP request or reply.  If source routing is not
+        supported them all packets with non-empty RIFs should be
+        gracefully ignored.  This policy will allow all implementations in
+        a single ring environment, to interoperate, whether or not they
+        support the multi-ring extensions.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

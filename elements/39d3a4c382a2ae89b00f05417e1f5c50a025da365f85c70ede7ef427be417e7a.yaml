@@ -1,0 +1,22 @@
+"hash": |-
+  39d3a4c382a2ae89b00f05417e1f5c50a025da365f85c70ede7ef427be417e7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The example provided in Figure 2 depicts a request issued from a NAS,
+     which is an access device, for the user bob@example.com.  Prior to
+     issuing the request, the NAS performs a Diameter route lookup, using
+     "example.com" as the key, and determines that the message is to be
+     relayed to a DRL, which is a Diameter relay.  The DRL performs the
+     same route lookup as the NAS, and relays the message to the HMS,
+     which is example.com's home server.  The HMS identifies that the
+     request can be locally supported (via the realm), processes the
+     authentication and/or authorization request, and replies with an
+     answer, which is routed back to the NAS using saved transaction
+     state.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

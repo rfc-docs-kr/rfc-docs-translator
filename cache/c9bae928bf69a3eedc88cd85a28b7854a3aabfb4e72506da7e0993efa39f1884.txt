@@ -1,0 +1,1 @@
+   SCVP 클라이언트가 요청에서 userPolicySet을 anyPolicy 이외의 값으로 채우지만 requireExplicitPolicy 플래그를 설정하지 않은 경우 서버는 지정된 정책을 충족하지 않는 경로에 대해 긍정 응답을 반환할 수 있습니다. 일반적으로 클라이언트가 요청에서 userPolicySet을 anyPolicy가 아닌 값으로 채울 때 requireExplicitPolicy 플래그도 설정되어야 합니다. 이는 모든 유효한 경로가 요청된 정책 중 하나 이상을 충족함을 보장합니다.

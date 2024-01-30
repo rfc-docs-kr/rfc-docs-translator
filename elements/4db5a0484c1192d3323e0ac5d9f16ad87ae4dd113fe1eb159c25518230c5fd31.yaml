@@ -1,0 +1,22 @@
+"hash": |-
+  4db5a0484c1192d3323e0ac5d9f16ad87ae4dd113fe1eb159c25518230c5fd31
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              o   The one remaining case is an intra-area route to a
+                  network.  This means that the network is contained in
+                  one of the router's directly attached areas.  In
+                  general, this information must be condensed before
+                  appearing in summary-LSAs.  Remember that an area has a
+                  configured list of address ranges, each range consisting
+                  of an [address,mask] pair and a status indication of
+                  either Advertise or DoNotAdvertise.  At most a single
+                  Type 3 summary-LSA is originated for each range. When
+                  the range's status indicates Advertise, a Type 3
+                  summary-LSA is generated with Link State ID equal to the
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

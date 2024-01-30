@@ -1,0 +1,17 @@
+"hash": |-
+  4eb57cabcb6d0d2b5b2be4aee07b261f0b9db561d9d28f6c8074d96314293f80
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              When a TCP connection is OPENed passively and a packet
+              arrives with a completed IP Source Route option (containing
+              a return route), TCP MUST save the return route and use it
+              for all segments sent on this connection.  If a different
+              source route arrives in a later segment, the later
+              definition SHOULD override the earlier one.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

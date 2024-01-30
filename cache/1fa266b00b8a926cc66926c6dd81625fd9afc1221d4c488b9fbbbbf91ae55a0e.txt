@@ -1,0 +1,1 @@
+   보호된 응답은 SignedData 또는 AuthenticatedData에 캡슐화된 CVResponse로 구성되며, 이는 다시 ContentInfo에 캡슐화됩니다. 즉, SignedData 또는 AuthenticatedData의 EncapsulatedContentInfo 필드는 id-ct-scvp-certValResponse 값을 가진 eContentType 필드와 DER로 인코딩된 CVResponse를 포함하는 eContent 필드로 구성됩니다.

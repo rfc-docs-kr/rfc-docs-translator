@@ -1,0 +1,28 @@
+"hash": |-
+  1d96f5fcdcc33c9bd787966a609121091c7423b32fd46450803d0a51b6a5e68c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <rpc message-id="101"
+            xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <get-config>
+           <source>
+             <running/>
+           </source>
+           <filter type="subtree">
+             <top xmlns="http://example.com/schema/1.2/config">
+               <users>
+                 <user>
+                   <name>fred</name>
+                 </user>
+               </users>
+             </top>
+           </filter>
+         </get-config>
+       </rpc>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

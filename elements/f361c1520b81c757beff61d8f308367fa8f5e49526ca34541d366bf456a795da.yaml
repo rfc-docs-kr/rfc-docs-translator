@@ -1,0 +1,24 @@
+"hash": |-
+  f361c1520b81c757beff61d8f308367fa8f5e49526ca34541d366bf456a795da
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     signalName           = pkgdName
+     ;at-most-once sigStream, at-most-once sigSignalType,
+     ;at-most-once sigDuration, every signalParameterName at most once
+     sigParameter    = sigStream / sigSignalType / sigDuration / sigOther
+                     / notifyCompletion / KeepActiveToken
+     sigStream            = StreamToken EQUAL StreamID
+     sigOther             = sigParameterName parmValue
+     sigParameterName     = NAME
+     sigSignalType        = SignalTypeToken EQUAL signalType
+     signalType           = (OnOffToken / TimeOutToken / BriefToken)
+     sigDuration          = DurationToken EQUAL UINT16
+     notifyCompletion     = NotifyCompletionToken EQUAL (LBRKT
+                     notificationReason *(COMMA notificationReason) RBRKT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

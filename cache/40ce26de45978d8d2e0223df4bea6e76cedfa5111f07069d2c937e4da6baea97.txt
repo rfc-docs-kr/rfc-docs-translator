@@ -1,0 +1,1 @@
+   lrf_offset에서 시작하는 레이아웃 바이트가 반환됩니다. lr_returntype이 LAYOUTRETURN4_FSID인 경우 현재 파일 핸들을 사용하여 파일 시스템을 식별하고 클라이언트 ID와 일치하는 모든 레이아웃, 파일 시스템의 fsid, lora_layout_type 및 lora_iomode가 반환됩니다. lr_returntype이 LAYOUTRETURN4_ALL이면 클라이언트 ID, lora_layout_type 및 lora_iomode와 일치하는 모든 레이아웃이 반환되고 현재 파일 핸들은 사용되지 않습니다. 이 호출 후에 클라이언트는 반환된 레이아웃 및 관련 저장 프로토콜을 사용하여 파일 데이터에 액세스해서는 안 됩니다.

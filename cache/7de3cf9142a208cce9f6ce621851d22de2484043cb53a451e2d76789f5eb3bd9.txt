@@ -1,0 +1,1 @@
+   개시자는 IKE_SA_INIT에 Diffie-Hellman 값을 보내기 때문에 응답자가 지원되는 그룹 목록에서 선택할 Diffie-Hellman 그룹을 추측해야 합니다. 개시자가 잘못 추측하면 응답자는 선택한 그룹을 나타내는 INVALID_KE_PAYLOAD 유형의 알림 페이로드로 응답합니다. 이 경우 개시자는 수정된 Diffie-Hellman 그룹을 사용하여 IKE_SA_INIT를 재시도해야 합니다. 개시자는 거부 때문에 허용 가능한 전체 암호화 제품군 세트를 다시 제안해야 합니다.

@@ -1,0 +1,1 @@
+   이러한 오류가 API에서 표현되거나 애플리케이션에서 처리되는 방식은 구현별 세부 사항입니다. 예를 들어 일부 구현은 DeriveKeyPairError가 무시할 수 있는 확률로만 발생하는 경우 중단되거나 패닉이 발생할 수 있지만 다른 구현은 실패한 DeriveKeyPair 작업을 다시 시도할 수 있습니다. 자세한 내용은 섹션 7.1.3을 참조하십시오. 또 다른 예로, 이 문서에 지정된 DHKEM의 일부 구현은 DH()의 ValidationError를 각각 Encap() 또는 Decap()의 EncapError 또는 DecapError로 변환하도록 선택할 수 있는 반면 다른 구현은 수정되지 않은 ValidationError를 발생하도록 선택할 수 있습니다.

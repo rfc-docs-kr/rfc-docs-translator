@@ -1,0 +1,21 @@
+"hash": |-
+  c56fc8046ce79bc61ca8766fd1768dff66ef4c49fbf954e50fa48fe2701db053
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Random droppers often have their drop probability function described
+     as a plot of drop probability (P) against averaged queue length (Q).
+     (Qmin,Pmin) then defines the start of the characteristic plot.
+     Normally Pmin=0, meaning with average queue length below Qmin, there
+     will be no drops.  (Qmax,Pmax) defines a "knee" on the plot, after
+     which point the drop probability becomes more progressive (greater
+     slope).  (Qclip,1) defines the queue length at which all packets will
+     be dropped.  Notice this is different from Tail Drop because this
+     uses an averaged queue length, although it is possible for Qclip to
+     equal Qmax.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

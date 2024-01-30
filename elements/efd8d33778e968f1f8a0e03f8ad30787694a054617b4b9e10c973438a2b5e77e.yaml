@@ -1,0 +1,18 @@
+"hash": |-
+  efd8d33778e968f1f8a0e03f8ad30787694a054617b4b9e10c973438a2b5e77e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     POLYVAL, like GHASH (the authenticator in AES-GCM; see [GCM],
+     Section 6.4), operates in a binary field of size 2^128.  The field is
+     defined by the irreducible polynomial x^128 + x^127 + x^126 + x^121 +
+     1.  The sum of any two elements in the field is the result of XORing
+     them.  The product of any two elements is calculated using standard
+     (binary) polynomial multiplication followed by reduction modulo the
+     irreducible polynomial.
+"fixed": |-
+  POLYVAL, like GHASH (the authenticator in AES-GCM; see [GCM], Section 6.4), operates in a binary field of size 2^128.  The field is defined by the irreducible polynomial x^128 + x^127 + x^126 + x^121 + 1.  The sum of any two elements in the field is the result of XORing them.  The product of any two elements is calculated using standard (binary) polynomial multiplication followed by reduction modulo the irreducible polynomial.
+"ko": |-
+  GHASH(AES-GCM의 인증자, [GCM], 섹션 6.4 참조)와 마찬가지로 POLYVAL은 크기가 2^128인 이진 필드에서 작동합니다. 필드는 기약 다항식 x^128 + x^127 + x^126 + x^121 + 1로 정의됩니다. 필드에 있는 두 요소의 합은 두 요소를 XOR한 결과입니다. 두 요소의 곱은 표준(이진) 다항식 곱셈과 기약 다항식의 모듈로 감소를 사용하여 계산됩니다.

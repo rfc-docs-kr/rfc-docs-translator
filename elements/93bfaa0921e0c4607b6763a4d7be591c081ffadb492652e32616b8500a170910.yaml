@@ -1,0 +1,18 @@
+"hash": |-
+  93bfaa0921e0c4607b6763a4d7be591c081ffadb492652e32616b8500a170910
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       counter_block = tag
+       counter_block[15] |= 0x80
+       return AES_CTR(key = message_encryption_key,
+                      initial_counter_block = counter_block,
+                      in = plaintext) ++
+              tag
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

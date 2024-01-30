@@ -1,0 +1,16 @@
+"hash": |-
+  31d8d7745111f162dbd649cf4adc0761a136f31c065fc24097c9a149f417532f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Sending a DHCPREQUEST to the unicast address in INIT-REBOOT state is
+     not appropriate, since if the DHCP client has moved to another
+     subnet, a DHCP server response cannot be routed back to the client
+     since the DHCPREQUEST will bypass the DHCP relay and will contain an
+     invalid source address.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

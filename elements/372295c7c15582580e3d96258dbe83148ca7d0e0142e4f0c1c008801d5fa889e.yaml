@@ -1,0 +1,19 @@
+"hash": |-
+  372295c7c15582580e3d96258dbe83148ca7d0e0142e4f0c1c008801d5fa889e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because TLS allows the server to provide arbitrary DH groups, the
+     client should verify that the DH group is of suitable size as defined
+     by local policy.  The client SHOULD also verify that the DH public
+     exponent appears to be of adequate size.  [KEYSIZ] provides a useful
+     guide to the strength of various group sizes.  The server MAY choose
+     to assist the client by providing a known group, such as those
+     defined in [IKEALG] or [MODP].  These can be verified by simple
+     comparison.
+"fixed": |-
+  Because TLS allows the server to provide arbitrary DH groups, the client should verify that the DH group is of suitable size as defined by local policy.  The client SHOULD also verify that the DH public exponent appears to be of adequate size.  [KEYSIZ] provides a useful guide to the strength of various group sizes.  The server MAY choose to assist the client by providing a known group, such as those defined in [IKEALG] or [MODP].  These can be verified by simple comparison.
+"ko": |-
+  TLS를 사용하면 서버가 임의의 DH 그룹을 제공할 수 있으므로 클라이언트는 DH 그룹이 로컬 정책에 정의된 대로 적절한 크기인지 확인해야 합니다. 클라이언트는 또한 DH 공개 지수가 적절한 크기인지 확인해야 합니다. [KEYSIZ]는 다양한 그룹 규모의 강점에 대한 유용한 가이드를 제공합니다. 서버는 [IKEALG] 또는 [MODP]에 정의된 것과 같은 알려진 그룹을 제공하여 클라이언트를 지원하도록 선택할 수 있습니다. 이는 간단한 비교를 통해 확인할 수 있습니다.

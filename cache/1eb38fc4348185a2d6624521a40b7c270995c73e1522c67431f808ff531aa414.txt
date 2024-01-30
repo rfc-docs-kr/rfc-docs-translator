@@ -1,0 +1,1 @@
+   serverConfigurationID 항목은 유효성 검사 정책, 유효성 검사 Algs, authPolicies, defaultPolicyValues ​​및 clockSkew로 표시되는 서버 구성 버전을 고유하게 나타내는 정수입니다. 이러한 값 중 하나라도 변경되면 서버는 새 serverConfigurationID를 사용하여 새 ValPolResponse를 생성해야 합니다. 구성이 변경되지 않은 경우 서버는 여러 서버에서 serverConfigurationID를 재사용할 수 있습니다.

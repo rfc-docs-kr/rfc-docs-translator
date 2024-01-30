@@ -1,0 +1,16 @@
+"hash": |-
+  8bec9e5a07d44c19fcaaa8ad69ad10288637ac790664826406c218a91c823914
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        - The FTP server that is being used to initiate a false connection
+          will always be a 'server' in the TLS context.  Therefore, only
+          services that act as 'clients' in the TLS context could be
+          vulnerable.  This would be a counter-intuitive way to implement
+          TLS on a service.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

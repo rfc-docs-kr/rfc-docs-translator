@@ -1,0 +1,20 @@
+"hash": |-
+  8073cb312b28ab94bad45b104aae3224f987271685f51bd9d48bfc307018d422
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In IPSec transport mode, both AH and ESP have an integrity check
+     covering the entire payload. When the payload is TCP or UDP, the
+     TCP/UDP checksum is covered by the integrity check. When a NAT device
+     modifies an address the checksum is no longer valid with respect to
+     the new address. Normally, NAT also updates the checksum, but this is
+     ineffective when AH and ESP are used.  Consequently, receivers will
+     discard a packet either because it fails the IPSec integrity check
+     (if the NAT device updates the checksum), or because the checksum is
+     invalid (if the NAT device leaves the checksum unmodified).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,14 @@
+"hash": |-
+  5bb2a584f64d34ed9c31b760610ee37b287564dbd557eefa6e3288a0a8ef3ca9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        master_secret = PRF(pre_master_secret, "master secret",
+                            ClientHello.random + ServerHello.random)
+                            [0..47];
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  4a8a747dd11cd6d9c7032a7e8a7cc0f5dfca6f7f215598da3e98d6ebd3f53366
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         If the incoming segment has an ACK field, the reset takes its
+         sequence number from the ACK field of the segment; otherwise, the
+         reset has sequence number zero and the ACK field is set to the
+         sum of the sequence number and segment length of the incoming
+         segment.  The connection remains in the same state.
+"fixed": |-
+  - If the incoming segment has an ACK field, the reset takes its sequence number from the ACK field of the segment; otherwise, the reset has sequence number zero and the ACK field is set to the sum of the sequence number and segment length of the incoming segment.  The connection remains in the same state.
+"ko": |-
+  - 들어오는 세그먼트에 ACK 필드가 있는 경우 재설정은 세그먼트의 ACK 필드에서 시퀀스 번호를 가져옵니다. 그렇지 않으면 재설정의 시퀀스 번호가 0이 되고 ACK 필드는 들어오는 세그먼트의 시퀀스 번호와 세그먼트 길이의 합으로 설정됩니다. 연결은 동일한 상태로 유지됩니다.

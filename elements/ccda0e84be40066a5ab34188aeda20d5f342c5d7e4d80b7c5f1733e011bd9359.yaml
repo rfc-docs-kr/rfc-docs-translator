@@ -1,0 +1,17 @@
+"hash": |-
+  ccda0e84be40066a5ab34188aeda20d5f342c5d7e4d80b7c5f1733e011bd9359
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "signature_algorithms_cert" extension was added to allow
+     implementations which supported different sets of algorithms for
+     certificates and in TLS itself to clearly signal their capabilities.
+     TLS 1.2 implementations SHOULD also process this extension.
+     Implementations which have the same policy in both cases MAY omit the
+     "signature_algorithms_cert" extension.
+"fixed": |-
+  The "signature_algorithms_cert" extension was added to allow implementations which supported different sets of algorithms for certificates and in TLS itself to clearly signal their capabilities. TLS 1.2 implementations SHOULD also process this extension. Implementations which have the same policy in both cases MAY omit the "signature_algorithms_cert" extension.
+"ko": |-
+  "signature_algorithms_cert" 확장은 인증서에 대한 다양한 알고리즘 세트를 지원하는 구현과 TLS 자체에서 해당 기능을 명확하게 알리는 구현을 허용하기 위해 추가되었습니다. TLS 1.2 구현은 이 확장도 처리해야 합니다(SHOULD). 두 경우 모두 동일한 정책을 갖는 구현에서는 "signature_algorithms_cert" 확장을 생략할 수 있습니다.

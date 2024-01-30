@@ -1,0 +1,1 @@
+- 이 경우 각 stateid는 지정된 클라이언트 ID/open-owner/filehandle 트리플에 대한 OPEN 상태를 나타냅니다. 이러한 stateid는 업그레이드 및 OPEN_DOWNGRADE 작업을 초래하는 OPEN에 대한 응답으로 변경될 수 있습니다(결과적으로 stateid의 seqid가 증가함).

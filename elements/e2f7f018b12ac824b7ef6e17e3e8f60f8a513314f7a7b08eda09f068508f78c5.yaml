@@ -1,0 +1,22 @@
+"hash": |-
+  e2f7f018b12ac824b7ef6e17e3e8f60f8a513314f7a7b08eda09f068508f78c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The protocol will specify a 96-bit or 64-bit nonce.  This MUST be
+        unique per invocation with the same key, so it MUST NOT be
+        randomly generated.  A counter is a good way to implement this,
+        but other methods, such as a Linear Feedback Shift Register (LFSR)
+        are also acceptable.  ChaCha20 as specified here requires a 96-bit
+        nonce.  So if the provided nonce is only 64-bit, then the first 32
+        bits of the nonce will be set to a constant number.  This will
+        usually be zero, but for protocols with multiple senders it may be
+        different for each sender, but should be the same for all
+        invocations of the function with the same key by a particular
+        sender.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

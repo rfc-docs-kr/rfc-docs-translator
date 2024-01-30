@@ -1,0 +1,21 @@
+"hash": |-
+  b0135aa4d69216273d6284be50b97a5f40f8f08a8a21aa94a757f178c955f6bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Many of the use cases for delegated credentials can also be addressed
+     using purely server-side mechanisms that do not require changes to
+     client behavior (e.g., a PKCS#11 interface or a remote signing
+     mechanism, [KEYLESS] being one example).  These mechanisms, however,
+     incur per-transaction latency, since the front-end server has to
+     interact with a back-end server that holds a private key.  The
+     mechanism proposed in this document allows the delegation to be done
+     offline, with no per-transaction latency.  The figure below compares
+     the message flows for these two mechanisms with (D)TLS 1.3 [RFC8446]
+     [RFC9147].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

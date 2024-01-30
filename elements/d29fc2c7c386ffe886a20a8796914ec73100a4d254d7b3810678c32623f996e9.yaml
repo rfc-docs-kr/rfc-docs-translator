@@ -1,0 +1,39 @@
+"hash": |-
+  d29fc2c7c386ffe886a20a8796914ec73100a4d254d7b3810678c32623f996e9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Request   ACK      NAK   #   Attribute
+     0-1       0        0     1   User-Name (Note 1)
+     0-1       0        0     4   NAS-IP-Address (Note 1)
+     0-1       0        0     5   NAS-Port (Note 1)
+     0         0        0     6   Service-Type
+     0         0        0     8   Framed-IP-Address (Note 1)
+     0+        0        0    18   Reply-Message (Note 2)
+     0         0        0    24   State
+     0+        0        0    25   Class (Note 4)
+     0+        0        0    26   Vendor-Specific (Note 7)
+     0-1       0        0    30   Called-Station-Id (Note 1)
+     0-1       0        0    31   Calling-Station-Id (Note 1)
+     0-1       0        0    32   NAS-Identifier (Note 1)
+     0+        0+       0+   33   Proxy-State
+     0-1       0        0    44   Acct-Session-Id (Note 1)
+     0-1       0-1      0    49   Acct-Terminate-Cause
+     0-1       0        0    50   Acct-Multi-Session-Id (Note 1)
+     0-1       0-1      0-1  55   Event-Timestamp
+     0         0        0    61   NAS-Port-Type
+     0+        0-1      0    79   EAP-Message (Note 2)
+     0-1       0-1      0-1  80   Message-Authenticator
+     0-1       0        0    87   NAS-Port-Id (Note 1)
+     0-1       0        0    89   Chargeable-User-Identity (Note 1)
+     0-1       0        0    95   NAS-IPv6-Address (Note 1)
+     0         0        0    96   Framed-Interface-Id (Note 1)
+     0         0        0    97   Framed-IPv6-Prefix (Note 1)
+     0         0        0+  101   Error-Cause
+     Request   ACK      NAK   #   Attribute
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

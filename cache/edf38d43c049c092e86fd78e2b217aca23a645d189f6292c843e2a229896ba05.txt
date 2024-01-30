@@ -1,0 +1,1 @@
+   DetectAndRemoveLostPackets는 ACK가 수신되거나 시간 임계값 손실 감지 타이머가 만료될 때마다 호출됩니다. 이 함수는 해당 패킷 번호 공간에 대한 sent_packets에서 작동하고 손실된 것으로 새로 감지된 패킷 목록을 반환합니다.

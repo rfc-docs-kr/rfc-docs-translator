@@ -1,0 +1,22 @@
+"hash": |-
+  47a2360e4fe05831a4bbf82376d16caea53d567a5a5dc7120e8b09e3903ef237
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In a link-state routing algorithm, it is very important for all
+          routers' link-state databases to stay synchronized.  OSPF
+          simplifies this by requiring only adjacent routers to remain
+          synchronized.  The synchronization process begins as soon as the
+          routers attempt to bring up the adjacency.  Each router
+          describes its database by sending a sequence of Database
+          Description packets to its neighbor.  Each Database Description
+          Packet describes a set of LSAs belonging to the router's
+          database.  When the neighbor sees an LSA that is more recent
+          than its own database copy, it makes a note that this newer LSA
+          should be requested.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

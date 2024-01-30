@@ -1,0 +1,19 @@
+"hash": |-
+  a52d20172261d6adea0c26f5350ecac2083517343e3d8d882bcd4a7bc5758a59
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           o  For implementations that do not follow RFC 5961, the
+              original behavior described in RFC 793 follows in this
+              paragraph.  If the SYN is in the window it is an error: send
+              a reset, any outstanding RECEIVEs and SEND should receive
+              "reset" responses, all segment queues should be flushed, the
+              user should also receive an unsolicited general "connection
+              reset" signal, enter the CLOSED state, delete the TCB, and
+              return.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  d0ccbd0f54d7e4cd62b54dcb86b0333e64b35e36815bf21cdd2750fcf597aa4f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that the Session-Reflector Test packet formats are larger than
+     the Sender's formats.  The Session-Reflector SHOULD reduce the length
+     of the Sender's Packet Padding to achieve equal IP packet payload
+     lengths in each direction of transmission, when sufficient padding is
+     present.  The Session-Reflector MAY re-use the Sender's Packet
+     Padding (since the requirements for padding generation are the same
+     for each), and in this case the Session-Reflector SHOULD truncate the
+     padding such that the highest-number octets are discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

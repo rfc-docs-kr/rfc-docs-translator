@@ -1,0 +1,1 @@
+   * OPEN_DELEGATE_WRITE 위임의 경우 회수 시 파일이 OPEN4_SHARE_ACCESS_WRITE/OPEN4_SHARE_ACCESS_BOTH에 대해 열려 있지 않으면 파일에 대해 수정된 모든 데이터를 서버로 플러시해야 합니다. 위임이 존재하지 않았다면 클라이언트는 CLOSE 작업 전에 이 데이터 플러시를 수행했을 것입니다.

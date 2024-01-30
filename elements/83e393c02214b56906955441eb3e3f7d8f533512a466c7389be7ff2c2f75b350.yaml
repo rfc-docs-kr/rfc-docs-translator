@@ -1,0 +1,25 @@
+"hash": |-
+  83e393c02214b56906955441eb3e3f7d8f533512a466c7389be7ff2c2f75b350
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        all the subscribers into groups, such that traffic destined to all
+        the subscribers within a group should flow through a particular
+        attachment point. Once the partitioning is done, the address space
+        of the provider is subdivided along the group boundaries. A leaf
+        routing domain that is willing to accept prefixes derived from its
+        direct provider gets a prefix from the provider's address space
+        subdivision associated with the group the domain belongs to. Note
+        that the advertisement by the direct provider of the routing
+        information associated with each subdivision must be done with
+        care to ensure that such an advertisement would not result in a
+        global distribution of separate reachability information
+        associated with each subdivision, unless such distribution is
+        warranted for some other purposes (e.g., supporting certain
+        aspects of policy-based routing).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+이 문서에서는 TLS(전송 계층 보안) 프로토콜 버전 1.2와 DTLS(데이터그램 전송 계층 보안) 프로토콜 버전 1.2에 대한 몇 가지 새로운 암호 제품군을 정의합니다. 이러한 암호화 제품군은 Ephemeral Elliptic Curve Diffie-Hellman with Pre-Shared Key(ECDHE_PSK) 키 교환과 AEAD(Authenticated Encryption with Associated Data) 알고리즘 AES-GCM 및 AES-CCM을 기반으로 합니다. PSK는 가볍고 효율적인 인증을 제공하고, ECDHE는 순방향 비밀성을 제공하며, AES-GCM 및 AES-CCM은 암호화 및 무결성 보호를 제공합니다.

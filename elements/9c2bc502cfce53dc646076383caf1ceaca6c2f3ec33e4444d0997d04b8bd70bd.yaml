@@ -1,0 +1,54 @@
+"hash": |-
+  9c2bc502cfce53dc646076383caf1ceaca6c2f3ec33e4444d0997d04b8bd70bd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                        +-----------+
+                        | PREPARING |
+                  +---> |           | <--------------------+
+                  |     |           |                      |
+                  |     +-----------+                      |
+                  |           |                            |
+                  |           | Buffer next flight         |
+                  |           |                            |
+                  |          \|/                           |
+                  |     +-----------+                      |
+                  |     |           |                      |
+                  |     |  SENDING  |<------------------+  |
+                  |     |           |                   |  | Send
+                  |     +-----------+                   |  | HelloRequest
+          Receive |           |                         |  |
+             next |           | Send flight             |  | or
+           flight |  +--------+                         |  |
+                  |  |        | Set retransmit timer    |  | Receive
+                  |  |       \|/                        |  | HelloRequest
+                  |  |  +-----------+                   |  | Send
+                  |  |  |           |                   |  | ClientHello
+                  +--)--|  WAITING  |-------------------+  |
+                  |  |  |           |   Timer expires   |  |
+                  |  |  +-----------+                   |  |
+                  |  |         |                        |  |
+                  |  |         |                        |  |
+                  |  |         +------------------------+  |
+                  |  |                Read retransmit      |
+          Receive |  |                                     |
+             last |  |                                     |
+           flight |  |                                     |
+                  |  |                                     |
+                 \|/\|/                                    |
+                                                           |
+              +-----------+                                |
+              |           |                                |
+              | FINISHED  | -------------------------------+
+              |           |
+              +-----------+
+                   |  /|\
+                   |   |
+                   |   |
+                   +---+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

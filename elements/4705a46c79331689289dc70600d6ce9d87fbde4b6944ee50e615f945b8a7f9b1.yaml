@@ -1,0 +1,57 @@
+"hash": |-
+  4705a46c79331689289dc70600d6ce9d87fbde4b6944ee50e615f945b8a7f9b1
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1. Introduction ....................................................6
+        1.1. Scope ......................................................6
+        1.2. Terminology ................................................6
+        1.3. M3UA Overview ..............................................9
+             1.3.1. Protocol Architecture ...............................9
+             1.3.2. Services Provided by the M3UA Layer ................10
+                    1.3.2.1. Support for the Transport of
+                             MTP3-User Messages ........................10
+                    1.3.2.2. Native Management Functions ...............11
+                    1.3.2.3. Interworking with MTP3 Network
+                             Management Functions ......................11
+                    1.3.2.4. Support for the Management of SCTP
+                             Associations between the ..................11
+                    1.3.2.5. Support for the Management of
+                             Connections to Multiple SGPs ..............12
+        1.4. Functional Areas ..........................................12
+             1.4.1. Signalling Point Code Representation ...............12
+             1.4.2. Routing Contexts and Routing Keys ..................14
+                    1.4.2.1. Overview ..................................14
+                    1.4.2.2. Routing Key Limitations ...................15
+                    1.4.2.3. Managing Routing Contexts and
+                             Routing Keys ..............................15
+                    1.4.2.4. Message Distribution at the SGP ...........15
+                    1.4.2.5. Message Distribution at the ASP ...........16
+             1.4.3. SS7 and M3UA Interworking ..........................16
+                    1.4.3.1. Signalling Gateway SS7 Layers .............16
+                    1.4.3.2. SS7 and M3UA Interworking at the SG .......17
+                    1.4.3.3. Application Server ........................17
+                    1.4.3.4. IPSP Considerations .......................18
+             1.4.4. Redundancy Models ..................................18
+                    1.4.4.1. Application Server Redundancy .............18
+             1.4.5. Flow Control .......................................18
+             1.4.6. Congestion Management ..............................19
+             1.4.7. SCTP Stream Mapping ................................19
+             1.4.8. SCTP Client/Server Model ...........................19
+        1.5. Sample Configuration ......................................20
+             1.5.1. Example 1: ISUP Message Transport ..................20
+             1.5.2. Example 2: SCCP Transport between IPSPs ............21
+             1.5.3. Example 3: SGP Resident SCCP Layer, with
+                    Remote ASP .........................................22
+        1.6. Definition of M3UA Boundaries .............................23
+             1.6.1. Definition of the Boundary between M3UA and
+                    an MTP3-User .......................................23
+             1.6.2. Definition of the Boundary between M3UA and SCTP ...23
+             1.6.3. Definition of the Boundary between M3UA and
+                    Layer Management ...................................24
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  a986f7059d6ead3a4ece9eefe7c467e7bf0f4be9ed0086ddaa4ea24d9040b545
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Maintenance of DNS with a subnetted class A is somewhat painful.  As
+     part of the mechanism for providing reverse address lookups, DNS
+     maintains a "IN-ADDR.ARPA" reverse domain.  This is configured by
+     reversing the dotted decimal network number, appending "IN-ADDR.ARPA"
+     and using this as a type of pseudo-domain.  Individual hosts then end
+     up pointing back to a host name.  Thus, for example, 131.108.1.111
+     has a DNS record "111.1.108.131.IN-ADDR.ARPA."  Since the pseudo-
+     domains can only be delegated on a byte boundary, this becomes
+     painful if a stub domain receives a block of address space that does
+     not fall on a byte boundary.  The solution in this case is to
+     enumerate all of the possible byte combinations involved.  This is
+     painful, but workable.  This is discussed further below.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  7169acb9110c4e94ed4ba7891887c0e56aad5c8506c94a60a899d58ff1d54017
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Diameter client or access device increments the value of the
+     Origin-State-Id every time it is started or powered up.  The new
+     Origin-State-Id is then sent in the CER/CEA message immediately upon
+     connection to the server.  The Diameter server receiving the new
+     Origin-State-Id can determine whether the sending Diameter client had
+     abruptly shut down by comparing the old value of the Origin-State-Id
+     it has kept for that specific client is less than the new value and
+     whether it has un-terminated sessions originating from that client.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+또한 서명 알고리즘은 보낸 사람의 최종 엔터티 인증서에 있는 키와 호환되어야 합니다. RSA 서명은 RSASSA-PKCS1-v1_5 알고리즘이 "signature_algorithms"에 나타나는지 여부에 관계없이 RSASSA-PSS 알고리즘을 사용해야 합니다. SHA-1 알고리즘은 CertificateVerify 메시지의 서명에 사용되어서는 안 됩니다.

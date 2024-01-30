@@ -1,0 +1,22 @@
+"hash": |-
+  356100345836fee24cbc48b6fc108ad4365e097a028a38eec60c2d24949e879f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Vendor-ID field is present if the 'V' bit is set in the AVP
+        Flags field.  The optional four-octet Vendor-ID field contains the
+        IANA-assigned "SMI Network Management Private Enterprise Codes"
+        [ENTERPRISE] value, encoded in network byte order.  Any vendors or
+        standardization organizations that are also treated like vendors
+        in the IANA-managed "SMI Network Management Private Enterprise
+        Codes" space wishing to implement a vendor-specific Diameter AVP
+        MUST use their own Vendor-ID along with their privately managed
+        AVP address space, guaranteeing that they will not collide with
+        any other vendor's vendor-specific AVP(s) or with future IETF
+        AVPs.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

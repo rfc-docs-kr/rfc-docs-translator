@@ -1,0 +1,1 @@
+   관찰되지 않은 방향의 종단 간 손실(eloss_unobserved)은 "3/4" 연결 손실(tqloss) 및 관찰된 방향의 업스트림 손실(uloss)과 관련됩니다(1-eloss_unobserved)(1-uloss)=1- tqloss. 따라서 eloss_unobserved=(tqloss-uloss)/(1-uloss)입니다.

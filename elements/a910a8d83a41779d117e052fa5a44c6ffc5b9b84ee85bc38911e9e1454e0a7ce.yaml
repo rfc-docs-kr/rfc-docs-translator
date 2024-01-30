@@ -1,0 +1,22 @@
+"hash": |-
+  a910a8d83a41779d117e052fa5a44c6ffc5b9b84ee85bc38911e9e1454e0a7ce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     legacy_compression_methods:  Versions of TLS before 1.3 supported
+        compression with the list of supported compression methods being
+        sent in this field.  For every TLS 1.3 ClientHello, this vector
+        MUST contain exactly one byte, set to zero, which corresponds to
+        the "null" compression method in prior versions of TLS.  If a
+        TLS 1.3 ClientHello is received with any other value in this
+        field, the server MUST abort the handshake with an
+        "illegal_parameter" alert.  Note that TLS 1.3 servers might
+        receive TLS 1.2 or prior ClientHellos which contain other
+        compression methods and (if negotiating such a prior version) MUST
+        follow the procedures for the appropriate prior version of TLS.
+"fixed": |-
+  legacy_compression_methods:  Versions of TLS before 1.3 supported compression with the list of supported compression methods being sent in this field.  For every TLS 1.3 ClientHello, this vector MUST contain exactly one byte, set to zero, which corresponds to the "null" compression method in prior versions of TLS.  If a TLS 1.3 ClientHello is received with any other value in this field, the server MUST abort the handshake with an "illegal_parameter" alert.  Note that TLS 1.3 servers might receive TLS 1.2 or prior ClientHellos which contain other compression methods and (if negotiating such a prior version) MUST follow the procedures for the appropriate prior version of TLS.
+"ko": |-
+  Legacy_compression_methods: 1.3 이전의 TLS 버전은 이 필드에 전송되는 지원되는 압축 방법 목록과 함께 압축을 지원했습니다. 모든 TLS 1.3 ClientHello에 대해 이 벡터는 이전 TLS 버전의 "null" 압축 방법에 해당하는 0으로 설정된 정확히 1바이트를 포함해야 합니다. 이 필드에 다른 값이 포함된 TLS 1.3 ClientHello가 수신되면 서버는 "illegal_parameter" 경고와 함께 핸드셰이크를 중단해야 합니다. TLS 1.3 서버는 다른 압축 방법이 포함된 TLS 1.2 또는 이전 ClientHellos를 수신할 수 있으며 (이전 버전을 협상하는 경우) 적절한 이전 버전의 TLS에 대한 절차를 따라야 합니다.

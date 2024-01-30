@@ -1,0 +1,1 @@
+   ACCESS 응답에 ACCESS4_READ 또는 ACCESS_EXECUTE가 설정된 경우 사용자는 파일을 OPEN(섹션 18.16) 또는 READ(섹션 18.22)할 수 있는 권한도 갖습니다. 즉, 클라이언트가 액세스 필드에 ACCESS4_READ 및 ACCESS_EXECUTE가 설정된 ACCESS 요청(또는 두 개의 별도 요청, ACCESS4_READ가 설정된 요청과 ACCESS4_EXECUTE가 설정된 요청)을 보내고 응답의 액세스 필드에 ACCESS4_EXECUTE가 설정된 경우 (또는 단 하나의 응답에 ACCESS4_EXECUTE가 설정되어 있는 경우) 사용자는 파일을 열거나 읽을 수 있는 권한을 갖습니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  c6b1ae17d0d2f1b955447d2068a37bf14a51244c6d6425124b96a7b0abcb398e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Alert messages (Section 6) MUST NOT be fragmented across records, and
+     multiple alert messages MUST NOT be coalesced into a single
+     TLSPlaintext record.  In other words, a record with an Alert type
+     MUST contain exactly one message.
+"fixed": |-
+  Alert messages (Section 6) MUST NOT be fragmented across records, and multiple alert messages MUST NOT be coalesced into a single TLSPlaintext record.  In other words, a record with an Alert type MUST contain exactly one message.
+"ko": |-
+  경고 메시지(섹션 6)는 레코드 전체에 걸쳐 조각화되어서는 안 되며, 여러 경고 메시지가 단일 TLSPlaintext 레코드로 통합되어서는 안 됩니다. 즉, 경고 유형의 레코드에는 정확히 하나의 메시지가 포함되어야 합니다.

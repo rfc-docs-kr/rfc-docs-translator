@@ -1,0 +1,18 @@
+"hash": |-
+  b574460ce74964ca93780c496f45d0e7b22990313c81e332068c567d6914873e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Master
+              Increments the DD sequence number in the neighbor data
+              structure.  If the router has already sent its entire
+              sequence of Database Description Packets, and the just
+              accepted packet has the more bit (M) set to 0, the neighbor
+              event ExchangeDone is generated.  Otherwise, it should send
+              a new Database Description to the slave.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

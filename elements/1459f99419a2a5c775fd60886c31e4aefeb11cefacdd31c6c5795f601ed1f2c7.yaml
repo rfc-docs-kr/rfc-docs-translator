@@ -1,0 +1,24 @@
+"hash": |-
+  1459f99419a2a5c775fd60886c31e4aefeb11cefacdd31c6c5795f601ed1f2c7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMIBClfrElementGroup OBJECT-GROUP
+      OBJECTS {
+                diffServClfrElementNextFree,
+                diffServClfrElementPrecedence, diffServClfrElementNext,
+                diffServClfrElementSpecific, diffServClfrElementStorage,
+                diffServClfrElementStatus
+      }
+      STATUS       current
+      DESCRIPTION
+         "The Classifier Element Group defines the MIB Objects that
+         describe the classifier elements that make up a generic
+         classifier."
+      ::= { diffServMIBGroups 3 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

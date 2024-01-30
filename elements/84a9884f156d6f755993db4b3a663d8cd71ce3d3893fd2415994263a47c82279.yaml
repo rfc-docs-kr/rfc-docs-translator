@@ -1,0 +1,19 @@
+"hash": |-
+  84a9884f156d6f755993db4b3a663d8cd71ce3d3893fd2415994263a47c82279
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the ASP sends an ASP Active message, it starts the timer T(ack).
+     If the ASP does not receive a response to an ASP Active message
+     within T(ack), the ASP MAY restart T(ack) and resend ASP Active
+     messages until it receives an ASP Active Ack message.  T(ack) is
+     provisionable, with a default of 2 seconds.  Alternatively,
+     retransmission of ASP Active messages MAY be put under control of
+     Layer Management.  In this method, expiry of T(ack) results in an M-
+     ASP_ACTIVE confirm primitive carrying a negative indication.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

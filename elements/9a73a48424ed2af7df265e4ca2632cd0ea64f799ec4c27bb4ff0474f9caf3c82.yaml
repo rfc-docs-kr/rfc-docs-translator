@@ -1,0 +1,22 @@
+"hash": |-
+  9a73a48424ed2af7df265e4ca2632cd0ea64f799ec4c27bb4ff0474f9caf3c82
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMultiFieldClfrProtocol OBJECT-TYPE
+      SYNTAX         Unsigned32 (0..255)
+      MAX-ACCESS     read-create
+      STATUS         current
+      DESCRIPTION
+         "The IP protocol to match against the IPv4 protocol number or the
+         IPv6 Next- Header number in the packet. A value of 255 means
+         match all.  Note the protocol number of 255 is reserved by IANA,
+         and Next-Header number of 0 is used in IPv6."
+      DEFVAL         { 255 }
+      ::= { diffServMultiFieldClfrEntry 9 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

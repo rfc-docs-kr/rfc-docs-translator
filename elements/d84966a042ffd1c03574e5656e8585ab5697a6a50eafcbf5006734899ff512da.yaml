@@ -1,0 +1,54 @@
+"hash": |-
+  d84966a042ffd1c03574e5656e8585ab5697a6a50eafcbf5006734899ff512da
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1. Introduction ....................................................4
+        1.1. Requirements Terminology ...................................5
+     2. Usage Model .....................................................5
+     3. Overview of DTLS ................................................5
+        3.1. Loss-Insensitive Messaging .................................6
+        3.2. Providing Reliability for Handshake ........................6
+             3.2.1. Packet Loss .........................................6
+             3.2.2. Reordering ..........................................7
+             3.2.3. Message Size ........................................7
+        3.3. Replay Detection ...........................................7
+     4. Differences from TLS ............................................7
+        4.1. Record Layer ...............................................8
+             4.1.1. Transport Layer Mapping ............................10
+                    4.1.1.1. PMTU Issues ...............................10
+             4.1.2. Record Payload Protection ..........................12
+                    4.1.2.1. MAC .......................................12
+                    4.1.2.2. Null or Standard Stream Cipher ............13
+                    4.1.2.3. Block Cipher ..............................13
+                    4.1.2.4. AEAD Ciphers ..............................13
+                    4.1.2.5. New Cipher Suites .........................13
+                    4.1.2.6. Anti-Replay ...............................13
+                    4.1.2.7. Handling Invalid Records ..................14
+        4.2. The DTLS Handshake Protocol ...............................14
+             4.2.1. Denial-of-Service Countermeasures ..................15
+             4.2.2. Handshake Message Format ...........................18
+             4.2.3. Handshake Message Fragmentation and Reassembly .....19
+             4.2.4. Timeout and Retransmission .........................20
+                    4.2.4.1. Timer Values ..............................24
+             4.2.5. ChangeCipherSpec ...................................25
+             4.2.6. CertificateVerify and Finished Messages ............25
+             4.2.7. Alert Messages .....................................25
+             4.2.8. Establishing New Associations with Existing
+                    Parameters .........................................25
+        4.3. Summary of New Syntax .....................................26
+             4.3.1. Record Layer .......................................26
+             4.3.2. Handshake Protocol .................................27
+     5. Security Considerations ........................................27
+     6. Acknowledgments ................................................28
+     7. IANA Considerations ............................................28
+     8. Changes since DTLS 1.0 .........................................29
+     9. References .....................................................30
+        9.1. Normative References ......................................30
+        9.2. Informative References ....................................31
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

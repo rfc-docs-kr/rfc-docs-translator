@@ -1,0 +1,1 @@
+   클라이언트는 "pre_shared_key" 확장을 제공하는 경우 "psk_key_exchange_modes" 확장을 제공해야 합니다. 클라이언트가 "psk_key_exchange_modes" 확장 없이 "pre_shared_key"를 제공하는 경우 서버는 핸드셰이크를 중단해야 합니다. 서버는 클라이언트가 나열하지 않은 키 교환 모드를 선택하면 안 됩니다(MUST NOT). 이 확장은 또한 PSK 재개와 함께 사용할 모드를 제한합니다. 서버는 광고된 모드와 호환되지 않는 티켓과 함께 NewSessionTicket을 보내면 안 됩니다(SHOULD NOT). 그러나 서버가 그렇게 하면 영향은 클라이언트의 재개 시도가 실패한다는 것입니다.

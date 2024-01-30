@@ -1,0 +1,19 @@
+"hash": |-
+  f5cafbf9a32b37062dd45b5c687bcb8661c81558c870b5f111d575d6738a95ca
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   (1)  Timeout -- Periodically time out cache entries,
+                        even if they are in use.  Note that this timeout
+                        should be restarted when the cache entry is
+                        "refreshed" (by observing the source fields,
+                        regardless of target address, of an ARP broadcast
+                        from the system in question).  For proxy ARP
+                        situations, the timeout needs to be on the order
+                        of a minute.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

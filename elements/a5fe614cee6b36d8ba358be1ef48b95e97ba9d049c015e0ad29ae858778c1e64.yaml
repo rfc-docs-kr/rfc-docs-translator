@@ -1,0 +1,21 @@
+"hash": |-
+  a5fe614cee6b36d8ba358be1ef48b95e97ba9d049c015e0ad29ae858778c1e64
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      SYNTAX      RowStatus
+      MAX-ACCESS  read-create
+      STATUS      current
+      DESCRIPTION
+         "The status of this conceptual row. All writable objects in this
+         row may be modified at any time. Setting this variable to
+         'destroy' when the MIB contains one or more RowPointers pointing
+         to it results in destruction being delayed until the row is no
+         longer used."
+      ::= { diffServMultiFieldClfrEntry 15 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  7db5547cc92402c2f20f9bf137e25722ebc45f71d4fc1f620b4fbcefb916354c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        - The primary rule for avoiding loops is "never broadcast a
+          datagram on the hardware network it was received on". It is not
+          sufficient simply to avoid repeating datagrams that a gateway
+          has heard from itself; this still allows loops if there are
+          several gateways on a hardware network.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

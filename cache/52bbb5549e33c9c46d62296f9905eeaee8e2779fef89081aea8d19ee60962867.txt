@@ -1,0 +1,1 @@
+   KeyTransRecipientInfo 암호화된 키는 RSAES-OAEP 알고리즘을 사용하여 수신자의 RSA 공개 키에 있는 콘텐츠 암호화 키를 암호화한 결과입니다. RSA 공개 키의 길이는 최소 1024비트여야 합니다. Triple-DES[3DES] 콘텐츠 암호화 키를 사용할 때 구현에서는 RSAES-OAEP 암호화 이전에 Triple-DES 키를 구성하는 각 DES 키의 각 옥텟에 대해 홀수 패리티를 보장하기 위해 패리티 비트를 조정해야 합니다.

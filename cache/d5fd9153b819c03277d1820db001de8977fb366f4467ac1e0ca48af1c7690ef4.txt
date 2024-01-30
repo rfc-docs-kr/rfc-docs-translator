@@ -1,0 +1,3 @@
+   토큰 유형:
+
+- 이 매개변수는 [RFC6749]의 필수(REQUIRED)와 달리 선택사항(OPTIONAL)입니다. 기본적으로 이 프레임워크의 구현은 token_type이 "PoP"라고 가정해야 합니다(SHOULD). 특정 사용 사례에서 다른 token_type(예: "Bearer")을 사용해야 하는 경우 이 매개변수가 필수입니다.

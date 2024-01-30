@@ -1,0 +1,25 @@
+"hash": |-
+  ff4b0a7ed83d4f0fe875e04f7433818cde10c88ca7d6d4aeecdbf2c9a37ca18d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4. The current dial string is compared to the candidate alternative
+        event sequences.  If and only if a sequence expecting a long-
+        duration event at this position is matched (i.e. the event had
+        long duration and met the specification for this position), then
+        any alternative event sequences not specifying a long duration
+        event at this position are discarded, and the current dial string
+        is modified by inserting a "Z" in front of the symbol representing
+        the latest event.  Any sequence expecting a long-duration event at
+        this position but not matching the observed event is discarded
+        from the candidate set.   If alternative event sequences not
+        specifying a long duration event in the given position remain in
+        the candidate set after application of the above rules, the
+        observed event duration is treated as irrelevant in assessing
+        matches to them.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

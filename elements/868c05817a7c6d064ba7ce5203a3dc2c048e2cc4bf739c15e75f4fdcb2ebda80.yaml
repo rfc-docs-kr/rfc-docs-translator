@@ -1,0 +1,20 @@
+"hash": |-
+  868c05817a7c6d064ba7ce5203a3dc2c048e2cc4bf739c15e75f4fdcb2ebda80
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMeterId OBJECT-TYPE
+      SYNTAX       IndexInteger
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An index that enumerates the Meter entries.  Managers obtain new
+         values for row creation in this table by reading
+         diffServMeterNextFree."
+      ::= { diffServMeterEntry 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

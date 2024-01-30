@@ -1,0 +1,1 @@
+   OCSP와 같은 인증서 상태 프로토콜을 지원하는 클라이언트는 별도의 연결을 통해 데이터를 다운로드하는 대신 TLS 핸드셰이크를 사용하여 이러한 데이터를 전송하기 위해 서버에 "status_request_v2" 확장을 보낼 수 있습니다. 이 확장을 사용할 때 확장의 "extension_data" 필드([RFC5246]의 섹션 7.4.1.4에 정의됨)는 CertificateStatusRequestListV2를 포함해야 합니다.

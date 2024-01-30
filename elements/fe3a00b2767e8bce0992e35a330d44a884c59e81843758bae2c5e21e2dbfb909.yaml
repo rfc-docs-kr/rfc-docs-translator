@@ -1,0 +1,24 @@
+"hash": |-
+  fe3a00b2767e8bce0992e35a330d44a884c59e81843758bae2c5e21e2dbfb909
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that has sent authentication data to a server, either during
+     the handshake or in post-handshake authentication, cannot be sure
+     whether the server afterwards considers the client to be
+     authenticated or not.  If the client needs to determine if the server
+     considers the connection to be unilaterally or mutually
+     authenticated, this has to be provisioned by the application layer.
+     See [CHHSV17] for details.  In addition, the analysis of
+     post-handshake authentication from [Kraw16] shows that the client
+     identified by the certificate sent in the post-handshake phase
+     possesses the traffic key.  This party is therefore the client that
+     participated in the original handshake or one to whom the original
+     client delegated the traffic key (assuming that the traffic key has
+     not been compromised).
+"fixed": |-
+  A client that has sent authentication data to a server, either during the handshake or in post-handshake authentication, cannot be sure whether the server afterwards considers the client to be authenticated or not.  If the client needs to determine if the server considers the connection to be unilaterally or mutually authenticated, this has to be provisioned by the application layer. See [CHHSV17] for details.  In addition, the analysis of post-handshake authentication from [Kraw16] shows that the client identified by the certificate sent in the post-handshake phase possesses the traffic key.  This party is therefore the client that participated in the original handshake or one to whom the original client delegated the traffic key (assuming that the traffic key has not been compromised).
+"ko": |-
+  핸드셰이크 도중이나 핸드셰이크 후 인증에서 서버에 인증 데이터를 보낸 클라이언트는 나중에 서버가 클라이언트를 인증된 것으로 간주하는지 여부를 확신할 수 없습니다. 클라이언트가 서버가 연결을 일방적으로 인증할지 상호 인증으로 간주할지 결정해야 하는 경우 이는 애플리케이션 계층에서 제공되어야 합니다. 자세한 내용은 [CHHSV17]을 참조하세요. 또한, [Kraw16]의 사후 핸드셰이크 인증 분석에서는 사후 핸드셰이크 단계에서 전송된 인증서로 식별된 클라이언트가 트래픽 키를 소유하고 있음을 보여줍니다. 따라서 이 당사자는 원래 핸드셰이크에 참여한 클라이언트이거나 원래 클라이언트가 트래픽 키를 위임한 클라이언트입니다(트래픽 키가 손상되지 않았다고 가정).

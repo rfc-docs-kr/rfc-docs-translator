@@ -1,0 +1,26 @@
+"hash": |-
+  430af6f3b1d1aca27d9ecbd375f0d9309d04a09f114ade5dcd80d94e7e5a1079
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   A careless implementation can send two or more
+                   acknowledgment segments per data segment received.  For
+                   example, suppose the receiver acknowledges every data
+                   segment immediately.  When the application program
+                   subsequently consumes the data and increases the
+                   available receive buffer space again, the receiver may
+                   send a second acknowledgment segment to update the
+                   window at the sender.  The extreme case occurs with
+                   single-character segments on TCP connections using the
+                   Telnet protocol for remote login service.  Some
+                   implementations have been observed in which each
+                   incoming 1-character segment generates three return
+                   segments: (1) the acknowledgment, (2) a one byte
+                   increase in the window, and (3) the echoed character,
+                   respectively.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

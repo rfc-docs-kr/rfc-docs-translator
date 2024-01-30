@@ -1,0 +1,20 @@
+"hash": |-
+  40add622c01db034c7a55758de1096b861cddf684d8aa76679106f76804cd757
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The DAC may require access to data from RADIUS authentication or
+     accounting packets.  It uses this data to compose compliant CoA-
+     Request or Disconnect-Request packets.  For example, as described in
+     Section 3.3, a CoA-Request packet containing a Service-Type Attribute
+     with a value of "Authorize Only" is required to contain a State
+     Attribute.  The NAS will subsequently transmit this attribute to the
+     RADIUS server in an Access-Request.  In order for the DAC to include
+     a State Attribute that the RADIUS server will subsequently accept,
+     some coordination between the two parties may be required.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

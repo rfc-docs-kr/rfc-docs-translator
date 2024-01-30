@@ -1,0 +1,19 @@
+"hash": |-
+  5892285256c121a780e6fd33706b9bcf75962f5e1c6b4020c2b057b79e37f18d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  X.509 semantics are very rich.  This can cause unintended
+        consequences if a service owner creates a proxy certificate where
+        the properties differ from the leaf certificate.  Proxy
+        certificates can be useful in controlled environments, but remain
+        a risk in scenarios where the additional flexibility they provide
+        is not necessary.  For this reason, delegated credentials have
+        very restricted semantics that should not conflict with X.509
+        semantics.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

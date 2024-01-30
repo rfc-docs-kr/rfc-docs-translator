@@ -1,0 +1,1 @@
+   "signature_algorithms_cert" 확장이 추가되어 인증서 및 TLS 자체에 대한 다양한 알고리즘 세트를 지원하는 구현이 기능을 명확하게 신호할 수 있도록 했습니다. TLS 1.2 구현도 이 확장을 처리해야 합니다(SHOULD). 두 경우 모두 동일한 정책을 가진 구현은 "signature_algorithms_cert" 확장자를 생략할 수 있습니다(MAY).

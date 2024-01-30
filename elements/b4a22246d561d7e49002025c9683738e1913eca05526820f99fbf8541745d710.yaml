@@ -1,0 +1,21 @@
+"hash": |-
+  b4a22246d561d7e49002025c9683738e1913eca05526820f99fbf8541745d710
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation note: Public-key-encrypted data is represented as an
+     opaque vector <0..2^16-1> (see Section 4.7).  Thus, the RSA-encrypted
+     PreMasterSecret in a ClientKeyExchange is preceded by two length
+     bytes.  These bytes are redundant in the case of RSA because the
+     EncryptedPreMasterSecret is the only data in the ClientKeyExchange
+     and its length can therefore be unambiguously determined.  The SSLv3
+     specification was not clear about the encoding of public-key-
+     encrypted data, and therefore many SSLv3 implementations do not
+     include the length bytes -- they encode the RSA-encrypted data
+     directly in the ClientKeyExchange message.
+"fixed": |-
+  Implementation note: Public-key-encrypted data is represented as an opaque vector <0..2^16-1> (see Section 4.7).  Thus, the RSA-encrypted PreMasterSecret in a ClientKeyExchange is preceded by two length bytes.  These bytes are redundant in the case of RSA because the EncryptedPreMasterSecret is the only data in the ClientKeyExchange and its length can therefore be unambiguously determined.  The SSLv3 specification was not clear about the encoding of public-key- encrypted data, and therefore many SSLv3 implementations do not include the length bytes -- they encode the RSA-encrypted data directly in the ClientKeyExchange message.
+"ko": |-
+  구현 참고 사항: 공개 키로 암호화된 데이터는 불투명 벡터 <0..2^16-1>로 표시됩니다(섹션 4.7 참조). 따라서 ClientKeyExchange의 RSA로 암호화된 PreMasterSecret 앞에는 2바이트 길이가 옵니다. EncryptedPreMasterSecret이 ClientKeyExchange의 유일한 데이터이고 길이가 명확하게 결정될 수 있기 때문에 RSA의 경우 이러한 바이트는 중복됩니다. SSLv3 사양은 공개 키로 암호화된 데이터의 인코딩에 대해 명확하지 않았으므로 많은 SSLv3 구현에서는 길이 바이트를 포함하지 않습니다. 즉, RSA로 암호화된 데이터를 ClientKeyExchange 메시지에 직접 인코딩합니다.

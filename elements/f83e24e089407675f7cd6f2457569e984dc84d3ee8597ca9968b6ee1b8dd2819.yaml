@@ -1,0 +1,39 @@
+"hash": |-
+  f83e24e089407675f7cd6f2457569e984dc84d3ee8597ca9968b6ee1b8dd2819
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              }
+              leaf running {
+                type empty;
+                description
+                  "The running configuration is the config source.";
+              }
+              leaf startup {
+                if-feature startup;
+                type empty;
+                description
+                  "The startup configuration is the config source.";
+              }
+              leaf url {
+                if-feature url;
+                type inet:uri;
+                description
+                  "The URL-based configuration is the config source.";
+              }
+              anyxml config {
+                description
+                  "Inline Config content: <config> element.  Represents
+                   an entire configuration datastore, not
+                   a subset of the running datastore.";
+              }
+            }
+          }
+        }
+      }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

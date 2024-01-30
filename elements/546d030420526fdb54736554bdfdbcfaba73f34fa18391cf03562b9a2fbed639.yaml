@@ -1,0 +1,21 @@
+"hash": |-
+  546d030420526fdb54736554bdfdbcfaba73f34fa18391cf03562b9a2fbed639
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the receiver encounters an error such that it cannot determine a
+     legal Action, it will return a TransactionReply consisting of the
+     TransactionID and a single error descriptor, 422 Syntax Error in
+     Action. If the end of an action cannot be reliably determined but one
+     or more Actions can be parsed, it will process them and then send 422
+     Syntax Error in Action as the last action for the transaction.  If
+     the receiver encounters an error such that is cannot determine a
+     legal Transaction, it will return a TransactionReply with a null
+     TransactionID and a single error descriptor (403 Syntax Error in
+     Transaction).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

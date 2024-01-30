@@ -1,0 +1,23 @@
+"hash": |-
+  b24b694bc1e352f66ca178c1ac7bccd2bd10e78cfc5527a6cd67d763f8c33b3f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <rpc message-id="101"
+            xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <get-config>
+           <source>
+             <running/>
+           </source>
+           <!-- get the user named fred -->
+           <filter xmlns:t="http://example.com/schema/1.2/config"
+                   type="xpath"
+                   select="/t:top/t:users/t:user[t:name='fred']"/>
+          </get-config>
+       </rpc>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   이 문서는 위에 나열된 KDF를 기반으로 LabeledExtract() 및 LabeledExpand()를 정의합니다. 이러한 함수는 KDF의 Extract() 및 Expand() 함수를 호출하기 전에 해당 입력 ikm 및 info에 접두사를 추가합니다. 이로 인해 입력 psk, psk_id, info, exporter_context, ikm, 즉 HPKE 애플리케이션에서 제공하는 가변 길이 매개변수에 사용할 수 있는 최대 입력 길이가 줄어듭니다. 다음 표에는 이 문서에 정의된 KDF에 대한 이러한 필드의 최대 허용 길이가 포함 범위(바이트)로 나열되어 있습니다.

@@ -1,0 +1,32 @@
+"hash": |-
+  d776da66be9e8873bf7add3dee7b438af243f71a04137448877ef676aae4655e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Due to differences in handling change-of-authorization requests in
+     RADIUS and Diameter, it may be difficult or impossible for a
+     Diameter/RADIUS gateway to successfully translate a Diameter
+     Re-Auth-Request (RAR) to a CoA-Request and vice versa.  For example,
+     since a CoA-Request only initiates an authorization change but does
+     not initiate re-authentication, a RAR command containing a
+     Re-Auth-Request-Type AVP with value "AUTHORIZE_AUTHENTICATE" cannot
+     be directly translated to a CoA-Request.  A Diameter/RADIUS gateway
+     receiving a CoA-Request containing authorization changes will need to
+     translate this into two Diameter exchanges.  First, the
+     Diameter/RADIUS gateway will issue a RAR command including a
+     Session-Id AVP and a Re-Auth-Request-Type AVP with value "AUTHORIZE
+     ONLY".  Then the Diameter/RADIUS gateway will respond to the ensuing
+     access request with a response including the authorization attributes
+     gleaned from the CoA-Request.  To enable translation, the CoA-Request
+     SHOULD include a Acct-Session-Id Attribute.  If the Diameter client
+     uses the same Session-Id for both authorization and accounting, then
+     the Diameter/RADIUS gateway can copy the contents of the Acct-
+     Session-Id Attribute into the Session-Id AVP;  otherwise, it will
+     need to map the Acct-Session-Id value to an equivalent Session-Id for
+     use within a RAR command.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

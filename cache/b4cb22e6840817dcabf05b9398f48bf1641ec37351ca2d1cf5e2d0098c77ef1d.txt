@@ -1,0 +1,1 @@
+   NotifiedEntity는 Notify 또는 DeleteConnection 명령을 보내야 하는 위치를 지정하는 선택적 매개 변수입니다. 매개변수가 없는 경우 Notify 또는 DeleteConnection 명령은 마지막으로 수신된 알림 엔터티로 전송되어야 하며, 끝점에 대해 알림 엔터티가 수신되지 않은 경우 CreateConnection 명령의 작성자에게 전송되어야 합니다.

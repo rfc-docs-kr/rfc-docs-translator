@@ -1,0 +1,47 @@
+"hash": |-
+  d1f24d091c34946c721cffa0d6bb80c7bed0832fb9ac3e235894ad99d1abb2df
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          }
+          enum create {
+            description
+              "The configuration data identified by the element
+               containing this attribute is added to the
+               configuration if and only if the configuration
+               data does not already exist in the configuration
+               datastore.  If the configuration data exists, an
+               <rpc-error> element is returned with an
+               <error-tag> value of 'data-exists'.";
+          }
+          enum delete {
+            description
+              "The configuration data identified by the element
+               containing this attribute is deleted from the
+               configuration if and only if the configuration
+               data currently exists in the configuration
+               datastore.  If the configuration data does not
+               exist, an <rpc-error> element is returned with
+               an <error-tag> value of 'data-missing'.";
+          }
+          enum remove {
+            description
+              "The configuration data identified by the element
+               containing this attribute is deleted from the
+               configuration if the configuration
+               data currently exists in the configuration
+               datastore.  If the configuration data does not
+               exist, the 'remove' operation is silently ignored
+               by the server.";
+          }
+        }
+        default "merge";
+        description "NETCONF 'operation' attribute values";
+        reference "RFC 6241, Section 7.2";
+      }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

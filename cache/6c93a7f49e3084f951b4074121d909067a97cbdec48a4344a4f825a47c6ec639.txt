@@ -1,0 +1,1 @@
+   hashAlg 항목에는 서버가 응답에서 requestHash 항목에 대한 해시 값을 계산하기 위해 사용해야 하는 해시 알고리즘을 나타내는 개체 식별자가 포함되어 있습니다. SCVP 클라이언트는 fullRequestInResponse가 TRUE로 설정된 경우 이 항목을 포함해서는 안 됩니다. 포함된 경우 hashAlg 항목은 서버의 유효성 검사 정책 응답 메시지의 hashAlgorithms 항목에 지정된 해시 알고리즘 중 하나를 지정해야 합니다.

@@ -1,0 +1,27 @@
+"hash": |-
+  efd96256fbf37c7e283055786a455d4a66756d5103c48edb3eb715e34922d012
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        o    Organizations which are multi-homed. Because multi-homed
+             organizations must be advertised into the system by each of
+             their service providers, it is often not feasible to
+             aggregate their routing information into the address space
+             any one of those providers. Note that they still may receive
+             their address allocation out of a transit domain's address
+             space (which has other advantages), but their routing
+             information must still be explicitly advertised by most of
+             their service providers (the exception being that if the
+             site's allocation comes out of its least-preferable service
+             provider, then that service provider need not advertise the
+             explicit route - longest-match will insure that its
+             aggregated route is used to get to the site on a backup
+             basis).  For this reason, the routing cost for these
+             organizations will typically be about the same as it is
+             today.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

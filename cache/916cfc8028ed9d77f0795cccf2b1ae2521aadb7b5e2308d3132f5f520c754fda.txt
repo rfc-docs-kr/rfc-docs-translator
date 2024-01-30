@@ -1,0 +1,1 @@
+- (1) allowedSubtrees가 인증서에 있는 경우 allowed_subtrees 상태 변수를 이전 값과 확장 필드에 표시된 값의 교차점으로 설정합니다. allowedSubtrees에 특정 이름 유형이 포함되지 않은 경우 allowed_subtrees 상태 변수는 해당 이름 유형에 대해 변경되지 않습니다. 예를 들어 example.com과 foo.example.com의 교집합은 foo.example.com입니다. 그리고 example.com과 example.net의 교집합은 공집합입니다.

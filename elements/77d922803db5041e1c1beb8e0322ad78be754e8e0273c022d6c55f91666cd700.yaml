@@ -1,0 +1,21 @@
+"hash": |-
+  77d922803db5041e1c1beb8e0322ad78be754e8e0273c022d6c55f91666cd700
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The AVP Flags field informs the receiver how each attribute must
+        be handled.  New Diameter applications SHOULD NOT define
+        additional AVP Flag bits.  However, note that new Diameter
+        applications MAY define additional bits within the AVP header, and
+        an unrecognized bit SHOULD be considered an error.  The sender of
+        the AVP MUST set 'R' (reserved) bits to 0 and the receiver SHOULD
+        ignore all 'R' (reserved) bits.  The 'P' bit has been reserved for
+        future usage of end-to-end security.  At the time of writing,
+        there are no end-to-end security mechanisms specified; therefore,
+        the 'P' bit SHOULD be set to 0.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

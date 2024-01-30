@@ -1,0 +1,1 @@
+   S-IMCK[0] = session_key_seed j = 1 ~ n-1의 경우 do IMCK[j] = TLS-Exporter("EXPORTER: 내부 메서드 복합 키", S-IMCK[j-1] || IMSK[j], 60) S-IMCK[j] = IMCK[j]의 처음 40옥텟 CMK[j] = IMCK[j]의 마지막 20옥텟

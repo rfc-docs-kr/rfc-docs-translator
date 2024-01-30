@@ -1,0 +1,15 @@
+"hash": |-
+  dc13b876d24771c0b05e5df6e54f5da7b1106c495083e39d8a09272cfa47fbe1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  If the caller does not have access to the local socket specified,
+        return "error: connection illegal for this process".  If there is
+        no room to create a new connection, return "error: insufficient
+        resources".
+"fixed": |-
+  *  If the caller does not have access to the local socket specified, return "error: connection illegal for this process".  If there is no room to create a new connection, return "error: insufficient resources".
+"ko": |-
+  * 호출자가 지정된 로컬 소켓에 액세스할 수 없는 경우 "오류: 이 프로세스에 대한 연결이 잘못되었습니다"를 반환합니다. 새 연결을 생성할 공간이 없으면 "오류: 리소스 부족"을 반환합니다.

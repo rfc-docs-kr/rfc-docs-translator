@@ -1,0 +1,40 @@
+"hash": |-
+  b7bea793ac37f5d3938883a9787c94b6422fd9e62d520de3fe44394789b68707
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 IPSP-A                           IPSP-B
+                   |                                |
+                   |<-------------ASP Up------------|
+                   |-----------ASP Up Ack---------->|
+                   |                                |
+                   |-------------ASP Up------------>|  (optional)
+                   |<----------ASP Up Ack-----------|  (optional)
+                   |                                |
+                   |<------- ASP Active(RCb)--------|  RC: Routing Context
+                   |-----ASP Active Ack (RCb)------>|      (optional)
+                   |                                |
+                   |------- ASP Active(RCa)-------->|  RC: Routing Context
+                   |<-----ASP Active Ack (RCa)------|      (optional)
+                   |                                |
+                   |<=========  DATA (RCa) =========|
+                   |==========  DATA (RCb) ========>|
+                   |                                |
+                   |<-----ASP Inactive (RCb)--------|  RC: Routing Context
+                   |----ASP Inactive Ack (RCb)----->|
+                   |                                |
+                   |------ASP Inactive (RCa)------->|  RC: Routing Context
+                   |<----ASP Inactive Ack (RCa)-----|
+                   |                                |
+                   |<-----------ASP Down------------|
+                   |---------ASP Down Ack---------->|
+                   |                                |
+                   |------------ASP Down----------->|  (optional)
+                   |<--------ASP Down Ack-----------|  (optional)
+                   |                                |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,14 @@
+"hash": |-
+  431cc20419119cfefe18017e9ddbf37dc0a275aa95276f99319dd13ee5e9b63a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     POLYVAL takes a field element, H, and a series of field elements
+     X_1, ..., X_s.  Its result is S_s, where S is defined by the
+     iteration S_0 = 0; S_j = dot(S_{j-1} + X_j, H), for j = 1..s.
+"fixed": |-
+  POLYVAL takes a field element, H, and a series of field elements X_1, ..., X_s.  Its result is S_s, where S is defined by the iteration S_0 = 0; S_j = dot(S_{j-1} + X_j, H), for j = 1..s.
+"ko": |-
+  POLYVAL은 필드 요소 H와 일련의 필드 요소 X_1, ..., X_s를 사용합니다. 그 결과는 S_s입니다. 여기서 S는 반복 S_0 = 0으로 정의됩니다. S_j = 도트(S_{j-1} + X_j, H), j = 1..s인 경우.

@@ -1,0 +1,19 @@
+"hash": |-
+  0ee3bd3d24409ff0d3af57ea728c6f57e9c7b464a80c6959e3d5585f20cd436a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the SMTP client decides that the level of authentication or
+     privacy is not high enough for it to continue, it SHOULD issue an
+     SMTP QUIT command immediately after the TLS negotiation is complete.
+     If the SMTP server decides that the level of authentication or
+     privacy is not high enough for it to continue, it SHOULD reply to
+     every SMTP command from the client (other than a QUIT command) with
+     the 554 reply code (with a possible text string such as "Command
+     refused due to lack of security").
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

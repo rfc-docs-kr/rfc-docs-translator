@@ -1,0 +1,19 @@
+"hash": |-
+  6ee5edc29b7aafe097077848a3726ce474d016cf85f91382dc57f410e89d6a2f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ServiceChangeResParm ::= SEQUENCE
+     {
+          serviceChangeMgcId      MId OPTIONAL,
+          serviceChangeAddress    ServiceChangeAddress OPTIONAL,
+          serviceChangeVersion    INTEGER(0..99) OPTIONAL,
+          serviceChangeProfile    ServiceChangeProfile OPTIONAL,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

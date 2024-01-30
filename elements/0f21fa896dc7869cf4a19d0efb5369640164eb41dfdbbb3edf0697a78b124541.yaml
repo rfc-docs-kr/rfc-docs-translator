@@ -1,0 +1,19 @@
+"hash": |-
+  0f21fa896dc7869cf4a19d0efb5369640164eb41dfdbbb3edf0697a78b124541
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Queue Table entries are pointed at by the "next" attributes of the
+     upstream elements, such as diffServMeterSucceedNext or
+     diffServActionNext.  Note that multiple upstream elements may direct
+     their traffic to the same Queue Table entry.  For example, the
+     Assured Forwarding PHB suggests that all traffic marked AF11, AF12 or
+     AF13 be placed in the same queue, after metering, without reordering.
+     To accomplish that, the upstream diffServAlgDropNext pointers each
+     point to the same diffServQEntry.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+- 클라이언트가 HelloRetryRequest로 응답하여 다른 ClientHello를 보내도록 요청합니다. 클라이언트는 후속 ClientHello에 "early_data" 확장을 포함하면 안 됩니다. 그런 다음 서버는 구성된 max_early_data_size까지 외부 콘텐츠 유형이 "application_data"(암호화되었음을 나타냄)인 모든 레코드를 건너뛰어 초기 데이터를 무시합니다.

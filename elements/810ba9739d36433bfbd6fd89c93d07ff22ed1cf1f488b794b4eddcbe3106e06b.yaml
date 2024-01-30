@@ -1,0 +1,31 @@
+"hash": |-
+  810ba9739d36433bfbd6fd89c93d07ff22ed1cf1f488b794b4eddcbe3106e06b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             Action:  The router must list the contents of its entire area
+                      link state database in the neighbor Database summary
+                      list.  The area link state database consists of the
+                      router-LSAs, network-LSAs and summary-LSAs contained
+                      in the area structure, along with the AS-external-
+                      LSAs contained in the global structure.  AS-
+                      external-LSAs are omitted from a virtual neighbor's
+                      Database summary list.  AS-external-LSAs are omitted
+                      from the Database summary list if the area has been
+                      configured as a stub (see Section 3.6).  LSAs whose
+                      age is equal to MaxAge are instead added to the
+                      neighbor's Link state retransmission list.  A
+                      summary of the Database summary list will be sent to
+                      the neighbor in Database Description packets.  Each
+                      Database Description Packet has a DD sequence
+                      number, and is explicitly acknowledged.  Only one
+                      Database Description Packet is allowed outstanding
+                      at any one time.  For more detail on the sending and
+                      receiving of Database Description packets, see
+                      Sections 10.8 and 10.6.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

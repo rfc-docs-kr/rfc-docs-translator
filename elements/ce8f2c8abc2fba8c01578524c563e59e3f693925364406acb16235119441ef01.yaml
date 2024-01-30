@@ -1,0 +1,19 @@
+"hash": |-
+  ce8f2c8abc2fba8c01578524c563e59e3f693925364406acb16235119441ef01
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To avoid confusion, we must prevent segments from one incarnation of
+     a connection from being used while the same sequence numbers may
+     still be present in the network from an earlier incarnation.  We want
+     to assure this even if a TCP endpoint loses all knowledge of the
+     sequence numbers it has been using.  When new connections are
+     created, an initial sequence number (ISN) generator is employed that
+     selects a new 32-bit ISN.  There are security issues that result if
+     an off-path attacker is able to predict or guess ISN values [42].
+"fixed": |-
+  To avoid confusion, we must prevent segments from one incarnation of a connection from being used while the same sequence numbers may still be present in the network from an earlier incarnation.  We want to assure this even if a TCP endpoint loses all knowledge of the sequence numbers it has been using.  When new connections are created, an initial sequence number (ISN) generator is employed that selects a new 32-bit ISN.  There are security issues that result if an off-path attacker is able to predict or guess ISN values [42].
+"ko": |-
+  혼란을 피하기 위해 동일한 시퀀스 번호가 이전 구현의 네트워크에 계속 존재할 수 있는 동안 연결의 한 구현에서 세그먼트가 사용되는 것을 방지해야 합니다. 우리는 TCP 엔드포인트가 지금까지 사용해 온 시퀀스 번호에 대한 모든 지식을 잃어버린 경우에도 이를 보장하고 싶습니다. 새로운 연결이 생성되면 새로운 32비트 ISN을 선택하는 초기 시퀀스 번호(ISN) 생성기가 사용됩니다. 경로를 벗어난 공격자가 ISN 값을 예측하거나 추측할 수 있는 경우 보안 문제가 발생합니다[42].

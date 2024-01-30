@@ -1,0 +1,17 @@
+"hash": |-
+  98ee85c8b30808226e3e474938485214587c63401f1cdb2ea2443aa11910fa6f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The TLS Certificate Status Request extension (Section 8 of
+        [RFC6066]), commonly called "OCSP stapling", resolves the
+        operational issues with OCSP.  However, it is still ineffective in
+        the presence of an active on-path attacker because the attacker
+        can simply ignore the client's request for a stapled OCSP
+        response.
+"fixed": |-
+  *  The TLS Certificate Status Request extension (Section 8 of [RFC6066]), commonly called "OCSP stapling", resolves the operational issues with OCSP.  However, it is still ineffective in the presence of an active on-path attacker because the attacker can simply ignore the client's request for a stapled OCSP response.
+"ko": |-
+  * 일반적으로 "OCSP 스테이플링"이라고 불리는 TLS 인증서 상태 요청 확장([RFC6066]의 섹션 8)은 OCSP의 운영 문제를 해결합니다. 그러나 공격자가 기본 OCSP 응답에 대한 클라이언트의 요청을 간단히 무시할 수 있기 때문에 활성 경로 공격자가 있는 경우에는 여전히 효과적이지 않습니다.

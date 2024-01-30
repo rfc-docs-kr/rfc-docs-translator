@@ -1,0 +1,1 @@
+   LAYOUTRECALL4_ALL의 CB_LAYOUTRECALL이 전송되면 서버는 클라이언트가 LAYOUTCOMMIT 작업을 제외한 모든 레이아웃 상태 ID를 사용하도록 허용해서는 안 됩니다. 클라이언트가 LAYOUTRECALL4_ALL의 CB_LAYOUTRECALL을 수신하면 LAYOUTCOMMIT 작업을 제외하고 레이아웃 상태 ID를 사용해서는 안 됩니다. LAYOUTRETURN4_ALL의 LAYOUTRETURN이 전송되면 클라이언트 ID에 부여된 모든 레이아웃 상태 ID가 해제됩니다. 클라이언트는 레이아웃 상태 ID를 다시 사용해서는 안 됩니다. 새로운 레이아웃 상태 ID를 얻으려면 반드시 LAYOUTGET을 사용해야 합니다.

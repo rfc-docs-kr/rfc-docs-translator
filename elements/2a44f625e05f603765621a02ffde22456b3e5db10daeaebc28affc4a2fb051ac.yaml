@@ -1,0 +1,19 @@
+"hash": |-
+  2a44f625e05f603765621a02ffde22456b3e5db10daeaebc28affc4a2fb051ac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Expanded Nak Type is valid only in Response messages.  It MUST
+        be sent only in reply to a Request of Type 254 (Expanded Type)
+        where the authentication Type is unacceptable.  The Expanded Nak
+        Type uses the Expanded Type format itself, and the Response
+        contains one or more authentication Types desired by the peer, all
+        in Expanded Type format.  Type zero (0) is used to indicate that
+        the sender has no viable alternatives.  The general format of the
+        Expanded Type is described in Section 5.7.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

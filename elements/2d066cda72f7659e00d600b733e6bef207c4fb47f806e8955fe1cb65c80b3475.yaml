@@ -1,0 +1,15 @@
+"hash": |-
+  2d066cda72f7659e00d600b733e6bef207c4fb47f806e8955fe1cb65c80b3475
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After running the block function, we have a 512-bit state.  We take
+     the first 256 bits or the serialized state, and use those as the one-
+     time Poly1305 key: the first 128 bits are clamped and form "r", while
+     the next 128 bits become "s".  The other 256 bits are discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   Alt-Svc 및 HTTPS 레코드에 대한 지원을 구현하고 캐시된 Alt-Svc 응답을 기반으로 연결하는 클라이언트는 Alt-Svc alt-authority에 대한 모든 HTTPS 레코드를 검색하고 연결 시도가 Alt-Svc 및 Alt-Svc 응답과 일치하는지 확인해야 합니다. -Svc 매개변수 및 수신된 모든 HTTPS SvcParams. 존재하는 경우 HTTPS 레코드의 TargetName 및 포트가 연결 설정에 사용됩니다(섹션 3에 따라). 예를 들어 "https://example.com"이 다음 Alt-Svc 필드 값을 전송한다고 가정합니다.

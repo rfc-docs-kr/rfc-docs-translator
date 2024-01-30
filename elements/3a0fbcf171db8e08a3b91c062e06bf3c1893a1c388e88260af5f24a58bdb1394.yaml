@@ -1,0 +1,20 @@
+"hash": |-
+  3a0fbcf171db8e08a3b91c062e06bf3c1893a1c388e88260af5f24a58bdb1394
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Supported-Vendor-Id AVP (AVP Code 265) is of type Unsigned32 and
+     contains the IANA "SMI Network Management Private Enterprise Codes"
+     [ENTERPRISE] value assigned to a vendor other than the device vendor
+     but including the application vendor.  This is used in the CER and
+     CEA messages in order to inform the peer that the sender supports (a
+     subset of) the Vendor-Specific AVPs defined by the vendor identified
+     in this AVP.  The value of this AVP MUST NOT be set to zero.
+     Multiple instances of this AVP containing the same value SHOULD NOT
+     be sent.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

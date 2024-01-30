@@ -1,0 +1,20 @@
+"hash": |-
+  26d3f91088ebc07e1d1e150b063951f2148d4b6be700a05bf762d4ebd1d18134
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Below is an example of an authorization server metadata document with
+     the "mtls_endpoint_aliases" parameter, which indicates aliases for
+     the token, revocation, and introspection endpoints that an OAuth
+     client intending to do mutual TLS would use in preference to the
+     conventional token, revocation, and introspection endpoints.  Note
+     that the endpoints in "mtls_endpoint_aliases" use a different host
+     than their conventional counterparts, which allows the authorization
+     server (via TLS "server_name" extension [RFC6066] or actual distinct
+     hosts) to differentiate its TLS behavior as appropriate.
+"fixed": |-
+  Below is an example of an authorization server metadata document with the "mtls_endpoint_aliases" parameter, which indicates aliases for the token, revocation, and introspection endpoints that an OAuth client intending to do mutual TLS would use in preference to the conventional token, revocation, and introspection endpoints.  Note that the endpoints in "mtls_endpoint_aliases" use a different host than their conventional counterparts, which allows the authorization server (via TLS "server_name" extension [RFC6066] or actual distinct hosts) to differentiate its TLS behavior as appropriate.
+"ko": |-
+  다음은 "mtls_endpoint_aliases" 매개변수가 포함된 인증 서버 메타데이터 문서의 예입니다. 이는 상호 TLS를 수행하려는 OAuth 클라이언트가 기존 토큰, 취소 및 내부 검사 엔드포인트보다 우선적으로 사용할 토큰, 취소 및 자체 검사 끝점에 대한 별칭을 나타냅니다. 자체 검사 끝점. "mtls_endpoint_aliases"의 엔드포인트는 기존 엔드포인트와 다른 호스트를 사용하므로 인증 서버(TLS "server_name" 확장 [RFC6066] 또는 실제 고유 호스트를 통해)가 TLS 동작을 적절하게 구별할 수 있습니다.

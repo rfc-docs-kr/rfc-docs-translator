@@ -1,0 +1,17 @@
+"hash": |-
+  619fdce67c42563c32c33ce45d0157c095f6031cdf1d5e4732730e0c70eaf503
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS 1.2 and prior supported an "Extended Master Secret" [RFC7627]
+     extension which digested large parts of the handshake transcript into
+     the master secret.  Because TLS 1.3 always hashes in the transcript
+     up to the server Finished, implementations which support both TLS 1.3
+     and earlier versions SHOULD indicate the use of the Extended Master
+     Secret extension in their APIs whenever TLS 1.3 is used.
+"fixed": |-
+  TLS 1.2 and prior supported an "Extended Master Secret" [RFC7627] extension which digested large parts of the handshake transcript into the master secret.  Because TLS 1.3 always hashes in the transcript up to the server Finished, implementations which support both TLS 1.3 and earlier versions SHOULD indicate the use of the Extended Master Secret extension in their APIs whenever TLS 1.3 is used.
+"ko": |-
+  TLS 1.2 및 이전 버전은 핸드셰이크 기록의 상당 부분을 마스터 비밀로 소화하는 "확장 마스터 비밀" [RFC7627] 확장을 지원했습니다. TLS 1.3은 항상 서버 완료까지 기록에서 해시하기 때문에 TLS 1.3과 이전 버전을 모두 지원하는 구현은 TLS 1.3이 사용될 때마다 API에서 확장 마스터 비밀 확장의 사용을 표시해야 합니다.

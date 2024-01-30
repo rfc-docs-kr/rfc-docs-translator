@@ -1,0 +1,18 @@
+"hash": |-
+  b2a0e29834c27930e3a62265a8217faf9149f16691881b32a029af3e2d9dcf89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that the Reflector test packet formats are larger than the
+     Sender's formats.  The Session-Sender MAY append sufficient Packet
+     Padding to allow the same IP packet payload lengths to be used in
+     each direction of transmission (this is usually desirable).  To
+     compensate for the Reflector's larger test packet format, the Sender
+     appends at least 27 octets of padding in unauthenticated mode, and at
+     least 56 octets in authenticated and encrypted modes.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

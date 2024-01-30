@@ -1,0 +1,1 @@
+     그러한 변경을 필요로 하는 다른 매개변수가 명시적으로 제공되지 않는 한, 해당 매개변수를 현재 값에서 변경하는 것을 삼가야 합니다(SHOULD). 예를 들어 코덱을 변경하려면 묵음 억제를 변경해야 할 수 있습니다. RemoteConnectionDescriptor가 제공되면 실제로 ModifyConnection 명령과 함께 제공되는 LocalConnectionOptions만 코덱 협상에 영향을 미칩니다(섹션 2.6에 설명되어 있음).

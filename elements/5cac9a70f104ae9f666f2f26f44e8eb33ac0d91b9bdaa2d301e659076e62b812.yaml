@@ -1,0 +1,38 @@
+"hash": |-
+  5cac9a70f104ae9f666f2f26f44e8eb33ac0d91b9bdaa2d301e659076e62b812
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    +------------------+---------+--------------+------------------------+
+    | PropertyID       | Property| Type         | Value                  |
+    |                  | Tag     |              |                        |
+    +------------------+---------+--------------+------------------------+
+    | AESA             | 4001    | 20 OCTETS    | ATM End System Address |
+    +------------------+---------+--------------+------------------------+
+    | VPVC             | 4002    | 2 x 16 bit   | VPCI/VCI               |
+    |                  |         | integer      |                        |
+    |   Reference ITU-T Recommendation Q.2931                            |
+    +------------------+---------+--------------+------------------------+
+    | SC               | 4003    | Enumeration  | Service Category       |
+    |    Reference: ATM Forum UNI 4.0:                                   |
+    |    CBR(0), nrt-VBR1(1), nrt-VBR2(2), nrt-VBR3(3), rt-VBR1(4), rt-  |
+    |    VBR2(5), rt-VBR3(6), UBR1(7), UBR2(8), ABR(9).                  |
+    +------------------+---------+--------------+------------------------+
+    | BCOB             | 4004    | 5 bit integer  Broadband Bearer Class |
+    |    Reference: ITU Recommendation Q.2961.2                          |
+    +------------------+---------+--------------+------------------------+
+    | BBTC             | 4005    | 7 bit integer| Broadband Transfer     |
+    |                  |         |              | Capability             |
+    |    Reference: ITU Recommendation Q.2961                            |
+    +------------------+---------+--------------+------------------------+
+    |  ATC             |  4006   |  Enumeration |  I.371 ATM Traffic     |
+    |                  |         |              |  Capability            |
+    |    Reference: ITU Recommendation I.371:                            |
+    |    DBR(0), SBR1(1), SBR2(2), SBR3(3), ABT/IT(4), ABT/DT(5), ABR(6) |
+    +------------------+---------+--------------+------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

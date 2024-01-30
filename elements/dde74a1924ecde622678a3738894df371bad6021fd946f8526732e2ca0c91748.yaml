@@ -1,0 +1,20 @@
+"hash": |-
+  dde74a1924ecde622678a3738894df371bad6021fd946f8526732e2ca0c91748
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              +  If SND.UNA < SEG.ACK =< SND.NXT, then set SND.UNA <-
+                 SEG.ACK.  Any segments on the retransmission queue that
+                 are thereby entirely acknowledged are removed.  Users
+                 should receive positive acknowledgments for buffers that
+                 have been SENT and fully acknowledged (i.e., SEND buffer
+                 should be returned with "ok" response).  If the ACK is a
+                 duplicate (SEG.ACK =< SND.UNA), it can be ignored.  If
+                 the ACK acks something not yet sent (SEG.ACK > SND.NXT),
+                 then send an ACK, drop the segment, and return.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

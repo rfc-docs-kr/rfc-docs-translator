@@ -1,0 +1,14 @@
+"hash": |-
+  6f8c1d445bbd8b474baaf56c6ecbceba1ca1f41014e914da1a54f3920007440f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     transactionResponseAck = ResponseAckToken LBRKT transactionAck
+                                          *(COMMA transactionAck) RBRKT
+     transactionAck = transactionID / (transactionID "-" transactionID)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

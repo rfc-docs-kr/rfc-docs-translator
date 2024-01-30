@@ -1,0 +1,26 @@
+"hash": |-
+  d709c9baf8d9c0387c5c2af78dc7832482980eb834da61de45a6467a78c2f468
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMaxRateLevel OBJECT-TYPE
+      SYNTAX       Unsigned32 (1..32)
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An index that indicates which level of a multi-rate shaper is
+         being given its parameters. A multi-rate shaper has some number
+         of rate levels. Frame Relay's dual rate specification refers to a
+         'committed' and an 'excess' rate; ATM's dual rate specification
+         refers to a 'mean' and a 'peak' rate. This table is generalized
+         to support an arbitrary number of rates. The committed or mean
+         rate is level 1, the peak rate (if any) is the highest level rate
+         configured, and if there are other rates they are distributed in
+         monotonically increasing order between them."
+      ::= { diffServMaxRateEntry 2 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

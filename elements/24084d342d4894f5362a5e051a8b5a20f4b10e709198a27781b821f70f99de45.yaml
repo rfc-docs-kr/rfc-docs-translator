@@ -1,0 +1,27 @@
+"hash": |-
+  24084d342d4894f5362a5e051a8b5a20f4b10e709198a27781b821f70f99de45
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <rpc message-id="101"
+            xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <edit-config>
+           <target>
+             <running/>
+           </target>
+           <config>
+             <top xmlns="http://example.com/schema/1.2/config">
+               <interface>
+                 <name>Ethernet0/0</name>
+                 <mtu>1500</mtu>
+               </interface>
+             </top>
+           </config>
+         </edit-config>
+       </rpc>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

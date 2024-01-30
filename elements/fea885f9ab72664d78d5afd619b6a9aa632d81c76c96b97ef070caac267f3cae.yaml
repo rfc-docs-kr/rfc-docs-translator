@@ -1,0 +1,23 @@
+"hash": |-
+  fea885f9ab72664d78d5afd619b6a9aa632d81c76c96b97ef070caac267f3cae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     MUAs MAY implement client certificate authentication on the Implicit
+     TLS port.  An MUA MUST NOT provide a client certificate during the
+     TLS handshake unless the server requests one and the MUA has been
+     authorized to use that client certificate with that account.  Having
+     the end user explicitly configure a client certificate for use with a
+     given account is sufficient to meet this requirement.  However,
+     installing a client certificate for use with one account MUST NOT
+     automatically authorize the use of that certificate with other
+     accounts.  This is not intended to prohibit site-specific
+     authorization mechanisms, such as (a) a site-administrator-controlled
+     mechanism to authorize the use of a client certificate with a given
+     account or (b) a domain-name-matching mechanism.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

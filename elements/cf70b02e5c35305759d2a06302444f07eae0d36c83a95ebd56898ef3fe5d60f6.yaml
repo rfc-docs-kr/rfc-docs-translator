@@ -1,0 +1,20 @@
+"hash": |-
+  cf70b02e5c35305759d2a06302444f07eae0d36c83a95ebd56898ef3fe5d60f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This document synthesizes, from experience in the deployment of hosts
+     supporting ARP [RFC826], DHCP [RFC2131], and IPv4 Link-Local
+     addresses [RFC3927], a set of steps known as Detecting Network
+     Attachment for IPv4 (DNAv4).  DNAv4 optimizes the (common) case of
+     re-attachment to a network that one has been connected to previously
+     by attempting to re-use a previous (but still valid) configuration,
+     reducing the re-attachment time on LANs to a few milliseconds.  Since
+     this procedure is dependent on the ARP protocol, it is not suitable
+     for use on media that do not support ARP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

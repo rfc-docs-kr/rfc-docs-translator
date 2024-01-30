@@ -1,0 +1,15 @@
+"hash": |-
+  715024bf4140872974d059d9ab5ade2d85508706be196390a0a4f92f63f96088
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Strictly speaking, this is an error and should receive an "error:
+        connection closing" response.  An "ok" response would be
+        acceptable, too, as long as a second FIN is not emitted (the first
+        FIN may be retransmitted, though).
+"fixed": |-
+  *  Strictly speaking, this is an error and should receive an "error: connection closing" response.  An "ok" response would be acceptable, too, as long as a second FIN is not emitted (the first FIN may be retransmitted, though).
+"ko": |-
+  * 엄밀히 말하면 이는 오류이므로 "error:connectionclosing" 응답을 받아야 합니다. 두 번째 FIN이 전송되지 않는 한 "ok" 응답도 허용됩니다(단, 첫 번째 FIN은 재전송될 수 있음).

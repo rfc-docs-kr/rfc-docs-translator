@@ -1,0 +1,17 @@
+"hash": |-
+  a4628822a0e1807479776da3e9c5eba98e272f0e45d5ba6f6ac0663efa5ff206
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To implement an EF and two AF classes, one must use a combination of
+     priority and WRR/WFQ scheduling.  This requires us to cascade two
+     schedulers.  If one were to additionally shape the output of the
+     system to a rate lower than the interface rate, one must place an
+     upper bound rate on the output of the priority scheduler.  See figure
+     6.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

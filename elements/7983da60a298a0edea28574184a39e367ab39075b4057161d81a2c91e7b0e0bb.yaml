@@ -1,0 +1,20 @@
+"hash": |-
+  7983da60a298a0edea28574184a39e367ab39075b4057161d81a2c91e7b0e0bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This character comparison requires that each pair of characters be
+     put in comparable form.  For example, should one URI be stored in a
+     byte array in EBCDIC encoding and the second in a Java String object
+     (UTF-16), bit-for-bit comparisons applied naively will produce
+     errors.  It is better to speak of equality on a character-for-
+     character basis rather than on a byte-for-byte or bit-for-bit basis.
+     In practical terms, character-by-character comparisons should be done
+     codepoint-by-codepoint after conversion to a common character
+     encoding.
+"fixed": |-
+  This character comparison requires that each pair of characters be put in comparable form.  For example, should one URI be stored in a byte array in EBCDIC encoding and the second in a Java String object (UTF-16), bit-for-bit comparisons applied naively will produce errors.  It is better to speak of equality on a character-for- character basis rather than on a byte-for-byte or bit-for-bit basis. In practical terms, character-by-character comparisons should be done codepoint-by-codepoint after conversion to a common character encoding.
+"ko": |-
+  이 문자 비교를 위해서는 각 문자 쌍을 비교 가능한 형식으로 입력해야 합니다. 예를 들어, 하나의 URI가 EBCDIC 인코딩의 바이트 배열에 저장되고 두 번째 URI가 Java 문자열 객체(UTF-16)에 저장되는 경우 순진하게 적용된 비트별 비교는 오류를 생성합니다. 바이트 대 바이트 또는 비트 대 비트보다는 문자 대 문자를 기준으로 동등성을 말하는 것이 더 좋습니다. 실제로 문자별 비교는 공통 문자 인코딩으로 변환한 후 코드포인트별로 수행되어야 합니다.

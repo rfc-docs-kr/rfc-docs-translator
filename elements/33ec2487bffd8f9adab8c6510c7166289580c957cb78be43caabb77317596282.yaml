@@ -1,0 +1,16 @@
+"hash": |-
+  33ec2487bffd8f9adab8c6510c7166289580c957cb78be43caabb77317596282
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If these conditions are not met, the client SHOULD send a client
+     Certificate message containing no certificates.  In this case, the
+     ClientKeyExchange MUST be sent as described in Section 2, and the
+     CertificateVerify MUST NOT be sent.  If the server requires client
+     authentication, it may respond with a fatal handshake failure alert.
+"fixed": |-
+  If these conditions are not met, the client SHOULD send a client Certificate message containing no certificates.  In this case, the ClientKeyExchange MUST be sent as described in Section 2, and the CertificateVerify MUST NOT be sent.  If the server requires client authentication, it may respond with a fatal handshake failure alert.
+"ko": |-
+  이러한 조건이 충족되지 않으면 클라이언트는 인증서가 포함되지 않은 클라이언트 인증서 메시지를 보내야 합니다. 이 경우 ClientKeyExchange는 섹션 2에 설명된 대로 전송되어야 하며 CertificateVerify는 전송되어서는 안 됩니다. 서버에 클라이언트 인증이 필요한 경우 치명적인 핸드셰이크 실패 경고로 응답할 수 있습니다.

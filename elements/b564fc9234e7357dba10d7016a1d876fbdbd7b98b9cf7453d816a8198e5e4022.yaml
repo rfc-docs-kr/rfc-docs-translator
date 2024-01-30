@@ -1,0 +1,50 @@
+"hash": |-
+  b564fc9234e7357dba10d7016a1d876fbdbd7b98b9cf7453d816a8198e5e4022
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         +----------+--------------------------------------------------+
+         | Topology |    Description                                   |
+         |----------+--------------------------------------------------|
+         |    1     | No topology descriptors                          |
+         |----------+--------------------------------------------------|
+         | When no topology descriptors are included, all terminations |
+         | have a both way connection to all other terminations.       |
+         |----------+--------------------------------------------------|
+         |    2     | T1, T2, Isolate                                  |
+         |----------+--------------------------------------------------|
+         | Removes the connection between T1 and T2.                   |
+         | T3 has a both way connection with both T1 and T2.  T1 and   |
+         | T2 have bothway connection to T3.                           |
+         |----------+--------------------------------------------------|
+         |    3     | T3, T2, oneway                                   |
+         |----------+--------------------------------------------------|
+         | A oneway connection from T3 to T2 (i.e. T2 receives media   |
+         | flow from T3).  A bothway connection between T1 and T3.     |
+         |----------+--------------------------------------------------|
+         |    4     | T2, T3, oneway                                   |
+         |----------+--------------------------------------------------|
+         | A oneway connection between T2 to T3.                       |
+         | T1 and T3 remain bothway connected                          |
+         |----------+--------------------------------------------------|
+         |    5     | T2, T3 bothway                                   |
+         |----------+--------------------------------------------------|
+         | T2 is bothway connected to T3.  This results in the same    |
+         | as 2.
+         |----------+--------------------------------------------------|
+         |    6     | T1, T2 bothway (T2, T3 bothway and T1,T3 bothway |
+         |          | may be implied or explicit).                     |
+         |----------+--------------------------------------------------|
+         | All terminations have a bothway connection to all other     |
+         | terminations.                                               |
+         |----------+--------------------------------------------------|
+         | A oneway connection must implemented in such a way that the |
+         | other Terminations in the Context are not aware of the      |
+         | change in topology.                                         |
+         +-------------------------------------------------------------|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

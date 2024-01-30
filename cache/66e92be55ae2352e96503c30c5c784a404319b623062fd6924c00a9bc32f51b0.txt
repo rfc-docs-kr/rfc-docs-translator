@@ -1,0 +1,1 @@
+   TLS 1.3 이전의 TLS 버전을 협상하는 서버는 ServerHello.version을 설정해야 하며 "supported_versions" 확장자를 전송하면 안 됩니다(MUST NOT). TLS 1.3을 협상하는 서버는 선택한 버전 값(0x0304)을 포함하는 "supported_versions" 확장을 전송하여 응답해야 합니다. ServerHello.legacy_version 필드를 0x0303(TLS 1.2)으로 설정해야 합니다. 클라이언트는 나머지 ServerHello를 처리하기 전에 이 확장을 확인해야 합니다.

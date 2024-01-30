@@ -1,0 +1,25 @@
+"hash": |-
+  ae02aaa1c56b9643a1163a5bf9cbceda64d512ecb06866be9b4044a4f04a3cd8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     No recommendation is made on how the MGCs involved in the Handoff
+     maintain state information; this is considered to be out of scope of
+     this recommendation. The MGC and MG may take the following steps when
+     Handoff occurs.  When the MGC initiates a HandOff, the handover
+     should be transparent to Operations on the Media Gateway.
+     Transactions can be executed in any order, and could be in progress
+     when the ServiceChange is executed.  Accordingly, commands in
+     progress continue, transaction replies are sent to the new MGC (after
+     a new control association is established), and the MG should expect
+     outstanding transaction replies from the new MGC.  No new messages
+     shall be sent to the new MGC until the control association is
+     established.  Repeated transaction requests shall be directed to the
+     new MGC.  The MG shall maintain state on all terminations and
+     contexts.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

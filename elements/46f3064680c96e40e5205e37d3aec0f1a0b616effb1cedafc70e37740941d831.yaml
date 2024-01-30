@@ -1,0 +1,19 @@
+"hash": |-
+  46f3064680c96e40e5205e37d3aec0f1a0b616effb1cedafc70e37740941d831
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The problem does not exist within the Diameter protocol [RFC3588], in
+     which server-initiated authorization change is initiated using a
+     Re-Auth-Request (RAR) command identifying the session via User-Name
+     and Session-Id Attribute Value Pairs (AVPs) and containing a
+     Re-Auth-Request-Type AVP with value "AUTHORIZE_ONLY".  This results
+     in initiation of a standard Request/Response sequence where
+     authorization changes are supplied.  As a result, in no command can
+     Diameter AVPs have multiple potential meanings.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

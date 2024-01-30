@@ -1,0 +1,16 @@
+"hash": |-
+  7e33493eabf2e97cbfd6c64a7bff71e35b2f95cf2aafbab2bbe0d25691554866
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This structure is intended to prevent an attack on previous versions
+     of TLS in which the ServerKeyExchange format meant that attackers
+     could obtain a signature of a message with a chosen 32-byte prefix
+     (ClientHello.random).  The initial 64-byte pad clears that prefix
+     along with the server-controlled ServerHello.random.
+"fixed": |-
+  This structure is intended to prevent an attack on previous versions of TLS in which the ServerKeyExchange format meant that attackers could obtain a signature of a message with a chosen 32-byte prefix (ClientHello.random).  The initial 64-byte pad clears that prefix along with the server-controlled ServerHello.random.
+"ko": |-
+  이 구조는 ServerKeyExchange 형식을 통해 공격자가 선택한 32바이트 접두사(ClientHello.random)가 있는 메시지 서명을 얻을 수 있었던 이전 버전의 TLS에 대한 공격을 방지하기 위한 것입니다. 초기 64바이트 패드는 서버 제어 ServerHello.random과 함께 해당 접두사를 지웁니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  72186fdc7a71f35e5bda5256640eafc1c08cc59efdbc015d2fbae7f7ab2cd14d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     cached routes for the same realm and Application Id.  However, one
+     has a redirect usage of ALL_SESSION, where matching requests will be
+     forwarded to one peer; the other has a redirect usage of ALL_REALM,
+     where request are forwarded to another peer.  Therefore, an incoming
+     request that matches the realm and Application Id of both routes will
+     need additional resolution.  In such a case, a routing precedence
+     rule MUST be used against the redirect usage value to resolve the
+     contention.  The precedence rule can be found in Section 6.13.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

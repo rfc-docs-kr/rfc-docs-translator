@@ -1,0 +1,1 @@
+   PATCH 응답 본문이 리소스 표현임을 나타내는 Request-URI와 일치하는 Content-Location 헤더뿐만 아니라 명시적인 신선도 정보(예: Expires 헤더 또는 "Cache-Control: max-age" 지시어)를 포함합니다. 캐시된 PATCH 응답은 후속 GET 및 HEAD 요청에 응답하는 데에만 사용할 수 있습니다. 다른 방법(특히 PATCH)에 응답하는 데 사용해서는 안 됩니다.

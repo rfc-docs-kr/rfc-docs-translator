@@ -1,0 +1,18 @@
+"hash": |-
+  71ace1e99ccd10e58ca2a2ef2ffbd6457d2dafe5297d2da9c31dc578681d9a44
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Where a peer receives a Request for an unacceptable authentication
+        Type (4-253,255), or a peer lacking support for Expanded Types
+        receives a Request for Type 254, a Nak Response (Type 3) MUST be
+        sent.  The Type-Data field of the Nak Response (Type 3) MUST
+        contain one or more octets indicating the desired authentication
+        Type(s), one octet per Type, or the value zero (0) to indicate no
+        proposed alternative.  A peer supporting Expanded Types that
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

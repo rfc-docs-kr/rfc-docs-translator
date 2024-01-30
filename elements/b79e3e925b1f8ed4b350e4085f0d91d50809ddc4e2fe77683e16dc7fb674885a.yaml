@@ -1,0 +1,17 @@
+"hash": |-
+  b79e3e925b1f8ed4b350e4085f0d91d50809ddc4e2fe77683e16dc7fb674885a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Additionally, all implementations MUST support the use of the
+     "server_name" extension with applications capable of using it.
+     Servers MAY require clients to send a valid "server_name" extension.
+     Servers requiring this extension SHOULD respond to a ClientHello
+     lacking a "server_name" extension by terminating the connection with
+     a "missing_extension" alert.
+"fixed": |-
+  Additionally, all implementations MUST support the use of the "server_name" extension with applications capable of using it. Servers MAY require clients to send a valid "server_name" extension. Servers requiring this extension SHOULD respond to a ClientHello lacking a "server_name" extension by terminating the connection with a "missing_extension" alert.
+"ko": |-
+  또한 모든 구현은 이를 사용할 수 있는 애플리케이션에서 "server_name" 확장의 사용을 지원해야 합니다. 서버는 클라이언트가 유효한 "server_name" 확장자를 보내도록 요구할 수 있습니다. 이 확장이 필요한 서버는 "missing_extension" 경고로 연결을 종료하여 "server_name" 확장이 없는 ClientHello에 응답해야 합니다.

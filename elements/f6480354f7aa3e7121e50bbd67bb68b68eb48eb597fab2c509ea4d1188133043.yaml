@@ -1,0 +1,27 @@
+"hash": |-
+  f6480354f7aa3e7121e50bbd67bb68b68eb48eb597fab2c509ea4d1188133043
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In order to make the transition to a new Designated Router
+          smoother, there is a Backup Designated Router for each broadcast
+          and NBMA network.  The Backup Designated Router is also adjacent
+          to all routers on the network, and becomes Designated Router
+          when the previous Designated Router fails.  If there were no
+          Backup Designated Router, when a new Designated Router became
+          necessary, new adjacencies would have to be formed between the
+          new Designated Router and all other routers attached to the
+          network.  Part of the adjacency forming process is the
+          synchronizing of link-state databases, which can potentially
+          take quite a long time.  During this time, the network would not
+          be available for transit data traffic.  The Backup Designated
+          obviates the need to form these adjacencies, since they already
+          exist.  This means the period of disruption in transit traffic
+          lasts only as long as it takes to flood the new LSAs (which
+          announce the new Designated Router).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

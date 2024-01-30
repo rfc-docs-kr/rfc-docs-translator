@@ -1,0 +1,1 @@
+   RESTCONF 프로토콜은 YANG 데이터 모델링 언어로 정의된 개념적 데이터 저장소에서 작동합니다. 서버는 [RFC7895]에 정의된 "ietf-yang-library" YANG 모듈을 사용하여 지원하는 각 YANG 모듈을 나열합니다. 서버는 "modules-state/module" 목록에서 서버가 사용하는 모든 YANG 모듈을 식별해야 하는 "ietf-yang-library" 모듈을 구현해야 합니다. 개념적 데이터 저장소 콘텐츠, 데이터 모델별 RPC 작업 및 이벤트 알림은 이 YANG 모듈 세트로 식별됩니다.

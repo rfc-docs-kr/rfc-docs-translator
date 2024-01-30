@@ -1,0 +1,19 @@
+"hash": |-
+  33fda6160a5731b8eb0d425bec20033a8de917223fc921fef262876acdb097f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Percent-encoded octets must be decoded at some point during the
+     dereference process.  Applications must split the URI into its
+     components and subcomponents prior to decoding the octets, as
+     otherwise the decoded octets might be mistaken for delimiters.
+     Security checks of the data within a URI should be applied after
+     decoding the octets.  Note, however, that the "%00" percent-encoding
+     (NUL) may require special handling and should be rejected if the
+     application is not expecting to receive raw data within a component.
+"fixed": |-
+  Percent-encoded octets must be decoded at some point during the dereference process.  Applications must split the URI into its components and subcomponents prior to decoding the octets, as otherwise the decoded octets might be mistaken for delimiters. Security checks of the data within a URI should be applied after decoding the octets.  Note, however, that the "%00" percent-encoding (NUL) may require special handling and should be rejected if the application is not expecting to receive raw data within a component.
+"ko": |-
+  백분율로 인코딩된 옥텟은 역참조 프로세스 중 특정 시점에서 디코딩되어야 합니다. 애플리케이션은 옥텟을 디코딩하기 전에 URI를 해당 구성 요소와 하위 구성 요소로 분할해야 합니다. 그렇지 않으면 디코딩된 옥텟이 구분 기호로 오해될 수 있습니다. 옥텟을 디코딩한 후에는 URI 내의 데이터에 대한 보안 검사를 적용해야 합니다. 그러나 "%00" 퍼센트 인코딩(NUL)은 특별한 처리가 필요할 수 있으며 애플리케이션이 구성 요소 내에서 원시 데이터를 수신할 것으로 예상하지 않는 경우 거부되어야 합니다.

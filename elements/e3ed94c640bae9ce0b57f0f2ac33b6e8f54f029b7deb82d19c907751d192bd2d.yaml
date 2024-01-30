@@ -1,0 +1,16 @@
+"hash": |-
+  e3ed94c640bae9ce0b57f0f2ac33b6e8f54f029b7deb82d19c907751d192bd2d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             struct {
+                 select (KeyExchangeAlgorithm) {
+                     case ec_diffie_hellman: ClientECDiffieHellmanPublic;
+                 } exchange_keys;
+             } ClientKeyExchange;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

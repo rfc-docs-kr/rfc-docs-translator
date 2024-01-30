@@ -1,0 +1,27 @@
+"hash": |-
+  60efbb494aa4e94107826ccc64acf5fd52657932f43406b1b5252b317d3f567e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  TLS SignatureScheme registry: Values with the first byte in the
+        range 0-253 (decimal) are assigned via Specification Required
+        [RFC8126].  Values with the first byte 254 or 255 (decimal) are
+        reserved for Private Use [RFC8126].  Values with the first byte in
+        the range 0-6 or with the second byte in the range 0-3 that are
+        not currently allocated are reserved for backward compatibility.
+        This registry has a "Recommended" column.  The registry has been
+        initially populated with the values described in Section 4.2.3.
+        The following values are marked as "Recommended":
+        ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384,
+        rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512,
+        rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, and
+        ed25519.  The "Recommended" column is assigned a value of "N"
+        unless explicitly requested, and adding a value with a
+        "Recommended" value of "Y" requires Standards Action [RFC8126].
+        IESG Approval is REQUIRED for a Y->N transition.
+"fixed": |-
+  -  TLS SignatureScheme registry: Values with the first byte in the range 0-253 (decimal) are assigned via Specification Required [RFC8126].  Values with the first byte 254 or 255 (decimal) are reserved for Private Use [RFC8126].  Values with the first byte in the range 0-6 or with the second byte in the range 0-3 that are not currently allocated are reserved for backward compatibility. This registry has a "Recommended" column.  The registry has been initially populated with the values described in Section 4.2.3. The following values are marked as "Recommended": ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, and ed25519.  The "Recommended" column is assigned a value of "N" unless explicitly requested, and adding a value with a "Recommended" value of "Y" requires Standards Action [RFC8126]. IESG Approval is REQUIRED for a Y->N transition.
+"ko": |-
+  - TLS SignatureScheme 레지스트리: 0-253(십진수) 범위의 첫 번째 바이트 값은 사양 필수 [RFC8126]을 통해 할당됩니다. 첫 번째 바이트가 254 또는 255(10진수)인 값은 개인용으로 예약되어 있습니다[RFC8126]. 현재 할당되지 않은 0-6 범위의 첫 번째 바이트 또는 0-3 범위의 두 번째 바이트가 있는 값은 이전 버전과의 호환성을 위해 예약되어 있습니다. 이 레지스트리에는 "권장" 열이 있습니다. 레지스트리는 처음에 섹션 4.2.3에 설명된 값으로 채워졌습니다. 다음 값은 "권장"으로 표시됩니다: ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss _pss_sha512 및 ed25519. 명시적으로 요청하지 않는 한 "권장" 열에는 "N" 값이 할당되며 "권장" 값 "Y"가 있는 값을 추가하려면 표준 조치 [RFC8126]가 필요합니다. Y->N 전환에는 IESG 승인이 필요합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  ae692ea2c50e3ea461a15476512b98cf77bfc0a61ffc3679300020a2ddcb332f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        - Explicit packet-oriented delivery (not stream-oriented)
+        - Sequenced delivery of user messages within multiple streams,
+          with an option for order-of-arrival delivery of individual
+          user messages
+        - Optional multiplexing of user messages into SCTP datagrams
+        - Network-level fault tolerance through support of multi-homing
+          at either or both ends of an association
+        - Resistance to flooding and masquerade attacks
+        - Data segmentation to conform to discovered path MTU size
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

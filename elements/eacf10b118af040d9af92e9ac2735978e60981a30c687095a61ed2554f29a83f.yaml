@@ -1,0 +1,16 @@
+"hash": |-
+  eacf10b118af040d9af92e9ac2735978e60981a30c687095a61ed2554f29a83f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation note: It is now known that remote timing-based attacks
+     on TLS are possible, at least when the client and server are on the
+     same LAN.  Accordingly, implementations that use static RSA keys MUST
+     use RSA blinding or some other anti-timing technique, as described in
+     [TIMING].
+"fixed": |-
+  Implementation note: It is now known that remote timing-based attacks on TLS are possible, at least when the client and server are on the same LAN.  Accordingly, implementations that use static RSA keys MUST use RSA blinding or some other anti-timing technique, as described in [TIMING].
+"ko": |-
+  구현 참고 사항: 이제 적어도 클라이언트와 서버가 동일한 LAN에 있을 때 TLS에 대한 원격 타이밍 기반 공격이 가능하다는 것이 알려져 있습니다. 따라서 정적 RSA 키를 사용하는 구현은 [TIMING]에 설명된 대로 RSA 블라인드 또는 다른 타이밍 방지 기술을 사용해야 합니다.

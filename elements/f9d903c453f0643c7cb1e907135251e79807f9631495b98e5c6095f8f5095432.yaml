@@ -1,0 +1,21 @@
+"hash": |-
+  f9d903c453f0643c7cb1e907135251e79807f9631495b98e5c6095f8f5095432
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an agent is utilizing SRTP [RFC3711], it MAY include a mix of UDP
+     and TCP candidates.  If ICE selects a TCP candidate pair, it is
+     RECOMMENDED that the agent still utilizes SRTP but runs it over the
+     connection established by ICE.  The alternative, RTP over TLS, breaks
+     RTP header compression and on-path RTP analysis tools and hence
+     SHOULD be avoided.  In the case of DTLS-SRTP [RFC5764], the
+     directionality attributes (a=setup) are utilized strictly to
+     determine the direction of the DTLS handshake.  Directionality of the
+     TCP connection establishment is determined by the ICE attributes and
+     procedures defined here.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  f39d5b00259ef76ec28423e1a4eb0ce6651d18e44ff77ebb5e03e8612c91f9d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ABNF for URI and URI-reference has been redesigned to make them
+     more friendly to LALR parsers and to reduce complexity.  As a result,
+     the layout form of syntax description has been removed, along with
+     the uric, uric_no_slash, opaque_part, net_path, abs_path, rel_path,
+     path_segments, rel_segment, and mark rules.  All references to
+     "opaque" URIs have been replaced with a better description of how the
+     path component may be opaque to hierarchy.  The relativeURI rule has
+     been replaced with relative-ref to avoid unnecessary confusion over
+     whether they are a subset of URI.  The ambiguity regarding the
+     parsing of URI-reference as a URI or a relative-ref with a colon in
+     the first segment has been eliminated through the use of five
+     separate path matching rules.
+"fixed": |-
+  The ABNF for URI and URI-reference has been redesigned to make them more friendly to LALR parsers and to reduce complexity.  As a result, the layout form of syntax description has been removed, along with the uric, uric_no_slash, opaque_part, net_path, abs_path, rel_path, path_segments, rel_segment, and mark rules.  All references to "opaque" URIs have been replaced with a better description of how the path component may be opaque to hierarchy.  The relativeURI rule has been replaced with relative-ref to avoid unnecessary confusion over whether they are a subset of URI.  The ambiguity regarding the parsing of URI-reference as a URI or a relative-ref with a colon in the first segment has been eliminated through the use of five separate path matching rules.
+"ko": |-
+  URI 및 URI 참조에 대한 ABNF는 LALR 파서에 더 친숙해지고 복잡성을 줄이기 위해 다시 설계되었습니다. 결과적으로 uric, uric_no_slash, opaque_part, net_path, abs_path, rel_path, path_segments, rel_segment 및 mark 규칙과 함께 구문 설명의 레이아웃 형식이 제거되었습니다. "불투명" URI에 대한 모든 참조는 경로 구성 요소가 계층 구조에 어떻게 불투명할 수 있는지에 대한 더 나은 설명으로 대체되었습니다. URI의 하위 집합인지 여부에 대한 불필요한 혼란을 피하기 위해 상대 URI 규칙은 상대 참조로 대체되었습니다. 첫 번째 세그먼트에 콜론이 있는 URI 또는 ​​상대 참조로 URI 참조를 구문 분석하는 것과 관련된 모호성은 5개의 별도 경로 일치 규칙을 사용하여 제거되었습니다.

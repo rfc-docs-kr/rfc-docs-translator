@@ -1,0 +1,1 @@
+   UpdateRtt(ack_delay): if (first_rtt_sample == 0): min_rtt = 최신_rtt smoothed_rtt = 최신_rtt rttvar = 최신_rtt / 2 first_rtt_sample = now() return

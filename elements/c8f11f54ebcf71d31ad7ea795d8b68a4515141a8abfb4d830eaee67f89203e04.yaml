@@ -1,0 +1,20 @@
+"hash": |-
+  c8f11f54ebcf71d31ad7ea795d8b68a4515141a8abfb4d830eaee67f89203e04
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServRandomDropTable OBJECT-TYPE
+      SYNTAX       SEQUENCE OF DiffServRandomDropEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "The random drop table contains entries describing a process that
+         drops packets randomly. Entries in this table are pointed to by
+         diffServAlgDropSpecific."
+      ::= { diffServAlgDrop 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  a510e7af32d97753298baba94ab5cd22d77eaacbae7f423fd96006fb09043f1e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       xor_sum = 0
+       for i := 0; i < bytelen(expected_tag); i++ {
+         xor_sum |= expected_tag[i] ^ tag[i]
+       }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

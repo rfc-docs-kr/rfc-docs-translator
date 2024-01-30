@@ -1,0 +1,19 @@
+"hash": |-
+  2261279b237953292b1dde18b5aa9647ba8f9960fc473441629fa0e9933b210b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          OSPF attaches an IP address mask to each advertised route.  The
+          mask indicates the range of addresses being described by the
+          particular route.  For example, a summary-LSA for the
+          destination 128.185.0.0 with a mask of 0xffff0000 actually is
+          describing a single route to the collection of destinations
+          128.185.0.0 - 128.185.255.255.  Similarly, host routes are
+          always advertised with a mask of 0xffffffff, indicating the
+          presence of only a single destination.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

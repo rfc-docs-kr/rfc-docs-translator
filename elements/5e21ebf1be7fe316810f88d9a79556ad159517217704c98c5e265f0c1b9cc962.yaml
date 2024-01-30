@@ -1,0 +1,15 @@
+"hash": |-
+  5e21ebf1be7fe316810f88d9a79556ad159517217704c98c5e265f0c1b9cc962
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        if defined(query) then
+           append "?" to result;
+           append query to result;
+        endif;
+"fixed": |-
+  - if defined(query) then append "?" to result; append query to result; endif;
+"ko": |-
+  - 정의된 경우(쿼리) "?"를 추가합니다. 결과적으로; 결과에 쿼리를 추가합니다. 종료;

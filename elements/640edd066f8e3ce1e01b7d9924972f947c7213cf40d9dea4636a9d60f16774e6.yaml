@@ -1,0 +1,18 @@
+"hash": |-
+  640edd066f8e3ce1e01b7d9924972f947c7213cf40d9dea4636a9d60f16774e6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon reception of a command containing the ct signal and cmp event,
+     the MG initiates the continuity test tone for the specified
+     termination.  If the return tone is detected and any other required
+     conditions are satisfied before the signal times out, the cmp event
+     shall be generated with the value of the result parameter equal to
+     success.  In all other cases, the cmp event shall be generated with
+     the value of the result parameter equal to failure.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

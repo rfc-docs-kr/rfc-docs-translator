@@ -1,0 +1,21 @@
+"hash": |-
+  bbc34a8df8c4b610791e25fbcbcff447cde62243d8dd4b5a9edb212edd922844
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Neighbor IP address
+          The IP address of the neighboring router's interface to the
+          attached network.  Used as the Destination IP address when
+          protocol packets are sent as unicasts along this adjacency.
+          Also used in router-LSAs as the Link ID for the attached network
+          if the neighboring router is selected to be Designated Router
+          (see Section 12.4.1).  The Neighbor IP address is learned when
+          Hello packets are received from the neighbor.  For virtual
+          links, the Neighbor IP address is learned during the routing
+          table build process (see Section 15).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

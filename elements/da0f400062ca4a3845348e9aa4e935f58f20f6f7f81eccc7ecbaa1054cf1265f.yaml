@@ -1,0 +1,18 @@
+"hash": |-
+  da0f400062ca4a3845348e9aa4e935f58f20f6f7f81eccc7ecbaa1054cf1265f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For PSKs provisioned via NewSessionTicket, a server MUST validate
+     that the ticket age for the selected PSK identity (computed by
+     subtracting ticket_age_add from PskIdentity.obfuscated_ticket_age
+     modulo 2^32) is within a small tolerance of the time since the ticket
+     was issued (see Section 8).  If it is not, the server SHOULD proceed
+     with the handshake but reject 0-RTT, and SHOULD NOT take any other
+     action that assumes that this ClientHello is fresh.
+"fixed": |-
+  For PSKs provisioned via NewSessionTicket, a server MUST validate that the ticket age for the selected PSK identity (computed by subtracting ticket_age_add from PskIdentity.obfuscated_ticket_age modulo 2^32) is within a small tolerance of the time since the ticket was issued (see Section 8).  If it is not, the server SHOULD proceed with the handshake but reject 0-RTT, and SHOULD NOT take any other action that assumes that this ClientHello is fresh.
+"ko": |-
+  NewSessionTicket을 통해 프로비저닝된 PSK의 경우, 서버는 선택한 PSK ID의 티켓 수명(PskIdentity.obfuscated_ticket_age 모듈로 2^32에서 ticket_age_add를 빼서 계산)이 티켓이 발행된 이후 시간의 작은 허용 범위 내에 있는지 확인해야 합니다(섹션 8 참조). ). 그렇지 않은 경우 서버는 핸드셰이크를 진행해야 하지만 0-RTT를 거부해야 하며 이 ClientHello가 신선하다고 가정하는 다른 조치를 취해서는 안 됩니다.

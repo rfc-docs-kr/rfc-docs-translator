@@ -1,0 +1,27 @@
+"hash": |-
+  8aa9c57fd57427662bc1d9722f0efa6ddcb9eeb91721153322ae2d84c4291ed6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since a RowPointer is not tied to any specific object except by the
+     value it contains, it is possible and acceptable to use RowPointers
+     to merge data paths.  An obvious example of such a use is in the
+     classifier: traffic matching the DSCPs AF11, AF12, and AF13 might be
+     presented to the same meter in order to perform the processing
+     described in the Assured Forwarding PHB.  Another use would be to
+     merge data paths from several interfaces; if they represent a single
+     service contract, having them share a common set of counters and
+     common policy may be a desirable configuration.  Note well, however,
+     that such configurations may have related implementation issues - if
+     Differentiated Services processing for the interfaces is implemented
+     in multiple forwarding engines, the engines will need to communicate
+     if they are to implement such a feature.  An implementation that
+     fails to provide this capability is not considered to have failed the
+     intention of this MIB or of the [MODEL]; an implementation that does
+     provide it is not considered superior from a standards perspective.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

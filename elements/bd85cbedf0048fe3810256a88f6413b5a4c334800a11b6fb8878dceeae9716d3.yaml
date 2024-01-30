@@ -1,0 +1,23 @@
+"hash": |-
+  bd85cbedf0048fe3810256a88f6413b5a4c334800a11b6fb8878dceeae9716d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     - ASPSM messages.  When ASPSM messages are exchanged using only a
+       single exchange (only one request and one acknowledgement).
+       Example (see Section 5.6.2): Whenever a DE-IPSP is taking the
+       leading role to start communication to a peer DE-IPSP, it sends an
+       ASP Up message to the peer DE-IPSP.  The peer MAY consider the
+       initiating DE-IPSPs to be in ASP-INACTIVE state, as it already sent
+       a message, and answer back with ASP Up Ack.  Upon receipt of this
+       answer by the initiating DE-IPSP, it also MAY consider the peer to
+       be in ASP-INACTIVE state, since it did respond.  Therefore, a
+       second ASP Up message exchange to be started by the peer DE-IPSP
+       could be avoided.  In this case, the receipt of ASP Up Ack will
+       turn into a state change.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

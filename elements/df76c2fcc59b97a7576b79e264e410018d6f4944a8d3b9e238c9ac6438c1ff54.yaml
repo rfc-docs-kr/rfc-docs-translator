@@ -1,0 +1,18 @@
+"hash": |-
+  df76c2fcc59b97a7576b79e264e410018d6f4944a8d3b9e238c9ac6438c1ff54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In encrypted mode, the first six blocks (96 octets) are encrypted
+     using AES-CBC mode.  The AES Session-key to use is obtained in the
+     same way as the key for authenticated mode.  Each TWAMP-Test packet
+     is encrypted as a separate stream, with just one chaining operation;
+     chaining does not span multiple packets so that lost, duplicated, or
+     reordered packets do not cause problems.  The initialization vector
+     for the CBC encryption is a value with all bits equal to zero.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

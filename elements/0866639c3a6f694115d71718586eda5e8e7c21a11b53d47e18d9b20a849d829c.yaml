@@ -1,0 +1,22 @@
+"hash": |-
+  0866639c3a6f694115d71718586eda5e8e7c21a11b53d47e18d9b20a849d829c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Diameter implementations SHOULD be able to interpret ICMP protocol
+     port unreachable messages as explicit indications that the server is
+     not reachable, subject to security policy on trusting such messages.
+     Further guidance regarding the treatment of ICMP errors can be found
+     in [RFC5927] and [RFC5461].  Diameter implementations SHOULD also be
+     able to interpret a reset from the transport and timed-out connection
+     attempts.  If Diameter receives data from the lower layer that cannot
+     be parsed or identified as a Diameter error made by the peer, the
+     stream is compromised and cannot be recovered.  The transport
+     connection MUST be closed using a RESET call (send a TCP RST bit) or
+     an SCTP ABORT message (graceful closure is compromised).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

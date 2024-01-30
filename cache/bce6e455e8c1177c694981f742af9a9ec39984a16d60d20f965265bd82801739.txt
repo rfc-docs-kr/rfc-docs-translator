@@ -1,0 +1,1 @@
+   init_key의 값은 cipher_suite에 의해 정의된 비대칭 암호화 체계에 대한 공개 키여야 하며 이 클라이언트가 생성한 KeyPackage 세트 간에 고유해야 합니다. 마찬가지로, leaf_node 필드는 encryption_key 및 signature_key 필드를 모두 포함하여 암호화 제품군에 대해 유효해야 합니다(MUST). 전체 구조는 클라이언트의 서명 키를 사용하여 서명됩니다. 잘못된 서명 필드가 있는 KeyPackage 개체는 형식이 잘못된 것으로 간주해야 합니다.

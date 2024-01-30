@@ -1,0 +1,17 @@
+"hash": |-
+  8020f9d08224b29afd7af7c90ef6bb5c57dc7bde4653628ff34bcbc1276c598c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          termStateDescr  TerminationStateDescriptor OPTIONAL,
+          streams         CHOICE
+                  {
+                          oneStream       StreamParms,
+                          multiStream     SEQUENCE OF StreamDescriptor
+                  },
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

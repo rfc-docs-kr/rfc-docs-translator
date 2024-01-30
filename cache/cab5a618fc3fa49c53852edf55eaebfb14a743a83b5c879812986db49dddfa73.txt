@@ -1,0 +1,1 @@
+   이 문서에서는 구현 시 정기적으로 새 임시 주소를 생성할 것을 권장합니다. 이는 (TEMP_PREFERRED_LIFETIME - REGEN_ADVANCE - DESYNC_FACTOR) 시간 단위마다 적어도 한 번씩 새로운 무작위 인터페이스 식별자를 생성함으로써 자동으로 달성될 수 있습니다. 위에서 설명한 대로 임시 주소가 더 이상 사용되지 않기 전에 새로운 임시 주소 REGEN_ADVANCE 시간 단위를 생성하면 TEMP_PREFERRED_LIFETIME보다 크지 않은 기본 수명을 가진 주소가 생성됩니다. DESYNC_FACTOR 값은 클라이언트가

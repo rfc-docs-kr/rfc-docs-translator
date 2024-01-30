@@ -1,0 +1,1 @@
+   CLAIM_DELEGATE_PREV: 클라이언트가 이전 클라이언트 인스턴스에 부여된 위임을 요청하고 있습니다. 이 클레임 유형은 두 가지 상황(클라이언트 재부팅 후 및 모든 잠금 상태가 손실된 임대 만료 후)에서 SETCLIENTID_CONFIRM 이후 및 해당 DELEGPURGE 이전에 사용됩니다. 서버는 CLAIM_DELEGATE_PREV를 지원할 수 있습니다. CLAIM_DELEGATE_PREV를 지원하는 경우 SETCLIENTID_CONFIRM은 클라이언트의 위임 상태를 제거해서는 안 되며 서버는 DELEGPURGE 작업을 지원해야 합니다.

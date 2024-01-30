@@ -1,0 +1,27 @@
+"hash": |-
+  31cdc2a9d5205d6173189d9bf771494b2afa4d7158e5284d8010ab9bbb970622
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A MG is pre-provisioned by a management mechanism outside the scope
+     of this protocol with a Primary and (optionally) an ordered list of
+     Secondary MGCs.  Upon a cold start of the MG, it will issue a
+     ServiceChange command with a "Restart" method, on the Root
+     Termination to its primary MGC.  If the MGC accepts the MG, it will
+     send a Transaction Accept, with the ServiceChangeMgcId set to itself.
+     If the MG receives an ServiceChangeMgcId not equal to the MGC it
+     contacted, it sends a ServiceChange to the MGC specified in the
+     ServiceChangeMgcId.  It continues this process until it gets a
+     controlling MGC to accept its registration, or it fails to get a
+     reply.  Upon failure to obtain a reply, either from the Primary MGC,
+     or a designated successor, the MG tries its pre-provisioned Secondary
+     MGCs, in order.  If the MG is unable to establish a control
+     relationship with any MGC, it shall wait a random amount of time as
+     described in section 9.2 and then start contacting its primary, and
+     if necessary, its secondary MGCs again.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

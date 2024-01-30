@@ -1,0 +1,19 @@
+"hash": |-
+  3a62ec53c52215204ed1b14794ce6847b28a2c7c8be382690ac764508b46e607
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.  If the connection is in a synchronized state (ESTABLISHED, FIN-
+         WAIT-1, FIN-WAIT-2, CLOSE-WAIT, CLOSING, LAST-ACK, TIME-WAIT),
+         any unacceptable segment (out-of-window sequence number or
+         unacceptable acknowledgment number) must be responded to with an
+         empty acknowledgment segment (without any user data) containing
+         the current send sequence number and an acknowledgment indicating
+         the next sequence number expected to be received, and the
+         connection remains in the same state.
+"fixed": |-
+  1.  If the connection is in a synchronized state (ESTABLISHED, FIN- WAIT-1, FIN-WAIT-2, CLOSE-WAIT, CLOSING, LAST-ACK, TIME-WAIT), any unacceptable segment (out-of-window sequence number or unacceptable acknowledgment number) must be responded to with an empty acknowledgment segment (without any user data) containing the current send sequence number and an acknowledgment indicating the next sequence number expected to be received, and the connection remains in the same state.
+"ko": |-
+  1. 연결이 동기화된 상태(ESTABLISHED, FIN-WAIT-1, FIN-WAIT-2, CLOSE-WAIT, CLOSING, LAST-ACK, TIME-WAIT)인 경우, 허용되지 않는 세그먼트(out-of-window 시퀀스) 번호 또는 승인할 수 없는 승인 번호)에는 현재 전송 시퀀스 번호와 수신될 것으로 예상되는 다음 시퀀스 번호를 나타내는 승인이 포함된 빈 승인 세그먼트(사용자 데이터 없음)로 응답해야 하며 연결은 동일한 상태로 유지됩니다.

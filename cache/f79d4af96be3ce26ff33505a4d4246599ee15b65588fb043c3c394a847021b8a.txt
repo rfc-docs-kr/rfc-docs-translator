@@ -1,0 +1,3 @@
+      (CALDAV:valid-filter): CALDAV:filter XML 요소(참조:
+
+- REPORT 요청에 지정된 섹션 9.7)은 유효해야 합니다. 예를 들어 CALDAV:filter는 <C:comp name="VTODO"> 요소에 <C:comp name="VEVENT"> 요소를 중첩할 수 없으며 CALDAV:filter는 <C:time-range start를 중첩할 수 없습니다. ="..." end="..."> <C:prop name="SUMMARY"> 요소의 요소입니다.

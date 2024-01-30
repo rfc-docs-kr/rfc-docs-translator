@@ -1,0 +1,18 @@
+"hash": |-
+  b6d12374e783eabc7e4c984d6bfa567dc734a08724e5c491ed5f63a453fc8cca
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            uint32 ticket_lifetime;
+            uint32 ticket_age_add;
+            opaque ticket_nonce<0..255>;
+            opaque ticket<1..2^16-1>;
+            Extension extensions<0..2^16-2>;
+        } NewSessionTicket;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

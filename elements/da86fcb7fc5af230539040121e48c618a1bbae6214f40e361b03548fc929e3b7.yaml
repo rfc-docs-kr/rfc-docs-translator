@@ -1,0 +1,21 @@
+"hash": |-
+  da86fcb7fc5af230539040121e48c618a1bbae6214f40e361b03548fc929e3b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is, however, important that the maximum delay of retransmissions
+     be bounded.  Prior to any retransmission, it is checked that the
+     time elapsed since the sending of the initial datagram is no greater
+     than T-MAX. If more than T-MAX time has elapsed, the MG concludes
+     that the MGC has failed, and it begins its recovery process. The MG
+     shall use a ServiceChange with ServiceChangeMethod set to
+     Disconnected so that the new MGC will be aware that the MG lost one
+     or more transactions.  The value T-MAX is related to the LONG-TIMER
+     value: the LONG-TIMER value is obtained by adding to T-MAX the
+     maximum propagation delay in the network.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

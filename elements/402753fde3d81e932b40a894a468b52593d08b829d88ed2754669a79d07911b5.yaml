@@ -1,0 +1,19 @@
+"hash": |-
+  402753fde3d81e932b40a894a468b52593d08b829d88ed2754669a79d07911b5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMeterNextFree OBJECT-TYPE
+      SYNTAX       IndexIntegerNextFree
+      MAX-ACCESS   read-only
+      STATUS       current
+      DESCRIPTION
+         "This object contains an unused value for diffServMeterId, or a
+         zero to indicate that none exist."
+      ::= { diffServMeter 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

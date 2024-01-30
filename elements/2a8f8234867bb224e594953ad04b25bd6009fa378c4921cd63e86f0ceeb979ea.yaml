@@ -1,0 +1,25 @@
+"hash": |-
+  2a8f8234867bb224e594953ad04b25bd6009fa378c4921cd63e86f0ceeb979ea
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMultiFieldClfrDstPrefixLength OBJECT-TYPE
+      SYNTAX         InetAddressPrefixLength
+      UNITS          "bits"
+      MAX-ACCESS     read-create
+      STATUS         current
+      DESCRIPTION
+         "The length of the CIDR Prefix carried in
+         diffServMultiFieldClfrDstAddr. In IPv4 addresses, a length of 0
+         indicates a match of any address; a length of 32 indicates a
+         match of a single host address, and a length between 0 and 32
+         indicates the use of a CIDR Prefix. IPv6 is similar, except that
+         prefix lengths range from 0..128."
+      DEFVAL         { 0 }
+      ::= { diffServMultiFieldClfrEntry 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

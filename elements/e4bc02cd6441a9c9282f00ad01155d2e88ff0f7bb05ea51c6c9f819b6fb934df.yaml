@@ -1,0 +1,51 @@
+"hash": |-
+  e4bc02cd6441a9c9282f00ad01155d2e88ff0f7bb05ea51c6c9f819b6fb934df
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                START <-----+
+                 Recv ClientHello |         | Send HelloRetryRequest
+                                  v         |
+                               RECVD_CH ----+
+                                  | Select parameters
+                                  v
+                               NEGOTIATED
+                                  | Send ServerHello
+                                  | K_send = handshake
+                                  | Send EncryptedExtensions
+                                  | [Send CertificateRequest]
+   Can send                       | [Send Certificate + CertificateVerify]
+   app data                       | Send Finished
+   after   -->                    | K_send = application
+   here                  +--------+--------+
+                No 0-RTT |                 | 0-RTT
+                         |                 |
+     K_recv = handshake  |                 | K_recv = early data
+   [Skip decrypt errors] |    +------> WAIT_EOED -+
+                         |    |       Recv |      | Recv EndOfEarlyData
+                         |    | early data |      | K_recv = handshake
+                         |    +------------+      |
+                         |                        |
+                         +> WAIT_FLIGHT2 <--------+
+                                  |
+                         +--------+--------+
+                 No auth |                 | Client auth
+                         |                 |
+                         |                 v
+                         |             WAIT_CERT
+                         |        Recv |       | Recv Certificate
+                         |       empty |       v
+                         | Certificate |    WAIT_CV
+                         |             |       | Recv
+                         |             v       | CertificateVerify
+                         +-> WAIT_FINISHED <---+
+                                  | Recv Finished
+                                  | K_recv = application
+                                  v
+                              CONNECTED
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   SignDerived(d, label, message): /* 키 확장 */ dh := SHA-512(d) /* EdDSA 클램핑 */ a := dh[0..31] a[0] := a[0] & 248 a[31] := a[31] & 127 a[31] := a[31] | 64 /* d에 해당하는 zkey를 계산합니다 */ zkey := a * G

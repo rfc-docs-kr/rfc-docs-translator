@@ -1,0 +1,1 @@
+   LDAP를 통해 정보를 사용할 수 있는 경우 accessLocation은uniformResourceIdentifier여야 합니다. LDAP URI [RFC4516]에는 인증서를 보유하는 항목의 고유 이름을 포함하는 <dn> 필드가 포함되어야 하며, DER로 인코딩된 인증서 또는 교차 인증서 쌍을 보유하는 속성에 대한 적절한 속성 설명을 나열하는 <attributes> 필드가 포함되어야 합니다. [RFC4523], <host>(예: <ldap://ldap.example.com/cn=CA, dc=example,dc=com?cACertificate;binary,crossCertificatePair;binary>)를 포함해야 합니다.

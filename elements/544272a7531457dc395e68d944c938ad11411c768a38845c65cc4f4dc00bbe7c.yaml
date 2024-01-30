@@ -1,0 +1,15 @@
+"hash": |-
+  544272a7531457dc395e68d944c938ad11411c768a38845c65cc4f4dc00bbe7c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If HelloVerifyRequest is used, the initial ClientHello and
+     HelloVerifyRequest are not included in the calculation of the
+     handshake_messages (for the CertificateVerify message) and
+     verify_data (for the Finished message).
+"fixed": |-
+  If HelloVerifyRequest is used, the initial ClientHello and HelloVerifyRequest are not included in the calculation of the handshake_messages (for the CertificateVerify message) and verify_data (for the Finished message).
+"ko": |-
+  HelloVerifyRequest를 사용하는 경우 초기 ClientHello 및 HelloVerifyRequest는 handshake_messages(CertificateVerify 메시지의 경우) 및 verify_data(Finished 메시지의 경우) 계산에 포함되지 않습니다.

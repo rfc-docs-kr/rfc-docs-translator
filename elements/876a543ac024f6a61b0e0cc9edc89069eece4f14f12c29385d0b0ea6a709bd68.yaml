@@ -1,0 +1,14 @@
+"hash": |-
+  876a543ac024f6a61b0e0cc9edc89069eece4f14f12c29385d0b0ea6a709bd68
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     URI producers and normalizers should omit the ":" delimiter that
+     separates host from port if the port component is empty.  Some
+     schemes do not allow the userinfo and/or port subcomponents.
+"fixed": |-
+  URI producers and normalizers should omit the ":" delimiter that separates host from port if the port component is empty.  Some schemes do not allow the userinfo and/or port subcomponents.
+"ko": |-
+  URI 생성자와 노멀라이저는 포트 구성 요소가 비어 있는 경우 호스트와 포트를 구분하는 ":" 구분 기호를 생략해야 합니다. 일부 체계에서는 userinfo 및/또는 port 하위 구성 요소를 허용하지 않습니다.

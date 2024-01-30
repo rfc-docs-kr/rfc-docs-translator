@@ -1,0 +1,21 @@
+"hash": |-
+  68d55e541c9becee815aef3b90256c7b2f57bd45257ba5502aed17a68799b288
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Other MIB modules may define similar filters in the same way.  For
+     example, a filter for Ethernet information might define source and
+     destination MAC addresses of "any", Ethernet Packet Type, IEEE 802.2
+     SAPs, and IEEE 802.1 priorities.  A filter related to policy routing
+     might be structured like the diffServMultiFieldClfrTable, but contain
+     the BGP Communities of the source and destination prefix rather than
+     the prefix itself, meaning "any prefix in this community".  For such
+     a filter, a table similar to diffServMultiFieldClfrTable is
+     constructed, and diffServClfrElementSpecific is configured to point
+     to it.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

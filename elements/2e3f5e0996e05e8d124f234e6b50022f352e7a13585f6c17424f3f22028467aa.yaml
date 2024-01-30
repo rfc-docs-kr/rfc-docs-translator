@@ -1,0 +1,19 @@
+"hash": |-
+  2e3f5e0996e05e8d124f234e6b50022f352e7a13585f6c17424f3f22028467aa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        limit the size of packets forwarded to 552 octets, with a MAC
+        header+trailer of 36 octets and the LLC+SNAP of 8 octets, the IP
+        datagram (including the IP header) may be limited to 508 octets.
+        This is less that the default IP MTU of 576 octets, and may cause
+        significant performance problems due to excessive datagram
+        fragmentation.  An implementation is not required to support an
+        MTU of less than 576 octets, although it is suggest that the MTU
+        be a user-configurable parameter to allow for it.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

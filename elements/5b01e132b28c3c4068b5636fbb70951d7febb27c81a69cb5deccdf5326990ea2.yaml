@@ -1,0 +1,29 @@
+"hash": |-
+  5b01e132b28c3c4068b5636fbb70951d7febb27c81a69cb5deccdf5326990ea2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMIBRandomDropGroup OBJECT-GROUP
+      OBJECTS {
+                diffServRandomDropNextFree,
+                diffServRandomDropMinThreshBytes,
+                diffServRandomDropMinThreshPkts,
+                diffServRandomDropMaxThreshBytes,
+                diffServRandomDropMaxThreshPkts,
+                diffServRandomDropProbMax,
+                diffServRandomDropWeight,
+                diffServRandomDropSamplingRate,
+                diffServRandomDropStorage,
+                diffServRandomDropStatus
+      }
+      STATUS       current
+      DESCRIPTION
+         "The Random Drop Group augments the Algorithmic Drop Group for
+         random dropper operation and configuration."
+      ::= { diffServMIBGroups 11 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

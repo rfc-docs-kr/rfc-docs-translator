@@ -1,0 +1,20 @@
+"hash": |-
+  64d5b1ef409d797a9e659b8b2e843112700e06acd2ef8c4721c2c46e98c89b7b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In a connection with a one-way data flow, the window information will
+     be carried in acknowledgment segments that all have the same sequence
+     number, so there will be no way to reorder them if they arrive out of
+     order.  This is not a serious problem, but it will allow the window
+     information to be on occasion temporarily based on old reports from
+     the data receiver.  A refinement to avoid this problem is to act on
+     the window information from segments that carry the highest
+     acknowledgment number (that is, segments with an acknowledgment
+     number equal to or greater than the highest previously received).
+"fixed": |-
+  In a connection with a one-way data flow, the window information will be carried in acknowledgment segments that all have the same sequence number, so there will be no way to reorder them if they arrive out of order.  This is not a serious problem, but it will allow the window information to be on occasion temporarily based on old reports from the data receiver.  A refinement to avoid this problem is to act on the window information from segments that carry the highest acknowledgment number (that is, segments with an acknowledgment number equal to or greater than the highest previously received).
+"ko": |-
+  단방향 데이터 흐름과 관련하여 창 정보는 모두 동일한 시퀀스 번호를 갖는 승인 세그먼트에 전달되므로 순서가 잘못되어 도착하면 순서를 바꿀 방법이 없습니다. 이는 심각한 문제는 아니지만 때때로 데이터 수신기의 이전 보고서를 기반으로 창 정보가 일시적으로 표시될 수 있습니다. 이 문제를 피하기 위한 개선 방법은 가장 높은 승인 번호를 전달하는 세그먼트(즉, 이전에 수신한 가장 높은 승인 번호와 같거나 큰 승인 번호를 가진 세그먼트)의 창 정보에 대해 조치를 취하는 것입니다.

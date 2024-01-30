@@ -1,0 +1,1 @@
+   보호된 요청 및 응답의 경우 SCVP 서버는 SignedData를 지원해야 하며 AuthenticatedData를 지원해야 합니다. 어떤 유형이 사용되는지는 로컬 정책의 문제입니다. 보호된 응답이 필요한 경우 SCVP 서버는 보호된 전송(예: TLS)을 사용하여 트랜잭션이 수행되는 경우에도 SignedData 또는 AuthenticatedData를 사용해야 합니다.

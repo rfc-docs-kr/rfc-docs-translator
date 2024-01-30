@@ -1,0 +1,1 @@
+   끝점은 패킷을 보낼 때 사용할 수 있는 피어에서 받은 연결 ID 집합을 유지 관리합니다. 끝점이 사용에서 연결 ID를 제거하려는 경우 RETIRE_CONNECTION_ID 프레임을 해당 피어로 보냅니다. RETIRE_CONNECTION_ID 프레임을 보내는 것은 연결 ID가 다시 사용되지 않음을 나타내며 피어가 NEW_CONNECTION_ID 프레임을 사용하여 새 연결 ID로 교체하도록 요청합니다.

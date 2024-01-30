@@ -1,0 +1,23 @@
+"hash": |-
+  f68e7eca193baf677879ebcea10e61b3e96cef49e9208735c6821edee052e30c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        For example, a bridge CA (BCA)                 CA1
+        could cross-certify with four                   ^
+        PKIs that have the roots CA1,                   |
+        CA2, CA3, and CA4. The cross-                   v
+        certificates that the roots            CA2 <-> BCA <-> CA3
+        exchange with the BCA enable an                 ^
+        end entity EE1 certified under                  |
+        under CA1 in PK1 to construct                   v
+        a certification path needed to                 CA4
+        validate the certificate of
+        end entity EE2 under CA2,           CA1 -> BCA -> CA2 -> EE2
+        or vice versa.                     CA2 -> BCA -> CA1 -> EE1
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

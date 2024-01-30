@@ -1,0 +1,1 @@
+request_update 필드가 "update_requested"로 설정된 경우 수신자는 다음 애플리케이션 데이터 레코드를 보내기 전에 request_update가 "update_not_requested"로 설정된 자체 KeyUpdate를 보내야 합니다. 이 메커니즘을 사용하면 어느 쪽이든 전체 연결을 강제로 업데이트할 수 있지만 구현에서는 수신되는 결과가 발생합니다.

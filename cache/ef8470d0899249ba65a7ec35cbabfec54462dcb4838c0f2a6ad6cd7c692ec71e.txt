@@ -1,0 +1,1 @@
+   P2는 또한 Request-URI에 표시된 리소스(u2.domain.com이 아닌 domain.com에 대한 책임)에 대해 책임이 없다는 것을 알아차리고 이를 변경하지 않습니다. 첫 번째 Route 헤더 필드 값에서 자체적으로 확인되므로 이를 제거하고 Request-URI에 대한 DNS 조회를 기반으로 다음을 u2.domain.com으로 전달합니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  2387ae680ca35e7381745afeffdbf72f3ee689e730d7fd6eea29a0706f6c5aba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case where the answer message itself contains errors, any
+     related session SHOULD be terminated by sending an STR or ASR
+     message.  The Termination-Cause AVP in the STR MAY be filled with the
+     appropriate value to indicate the cause of the error.  An application
+     MAY also send an application-specific request instead of an STR or
+     ASR message to signal the error in the case where no state is
+     maintained or to allow for some form of error recovery with the
+     corresponding Diameter entity.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

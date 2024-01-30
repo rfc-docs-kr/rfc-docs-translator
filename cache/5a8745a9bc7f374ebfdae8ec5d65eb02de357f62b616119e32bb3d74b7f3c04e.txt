@@ -1,0 +1,1 @@
+   * SP4_MACH_CRED. spa_how가 SP4_MACH_CRED인 경우 클라이언트는 RPCSEC_GSS를 보안 특성으로 사용하고 RPC_GSS_SVC_INTEGRITY 또는 RPC_GSS_SVC_PRIVACY 서비스를 사용하여 EXCHANGE_ID 작업을 보내야 합니다. SP4_MACH_CRED가 지정되면 클라이언트는 RPCSEC_GSS 기반 시스템 자격 증명을 사용하여 상태를 보호하려고 합니다. 서버는 EXCHANGE_ID 작업이 전송된 주체와 사용된 GSS 메커니즘을 기록해야 합니다. 이러한 메모는 집합적으로 머신 자격 증명을 구성합니다.

@@ -1,0 +1,26 @@
+"hash": |-
+  3ce6a7cf5b49debc231a6c951630f46dd695e5fa3e8463fe314580a9209f83c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Anytime after the ASP has received an ASP Up Ack message from the SGP
+     or IPSP, the ASP MAY send an ASP Active message to the SGP,
+     indicating that the ASP is ready to start processing traffic.  This
+     action MAY be initiated at the ASP by an M-ASP_ACTIVE request
+     primitive from Layer Management or MAY be initiated automatically by
+     an M3UA management function.  In the case where an ASP wishes to
+     process the traffic for more than one Application Server across a
+     common SCTP association, the ASP Active message(s) SHOULD contain a
+     list of one or more Routing Contexts to indicate for which
+     Application Servers the ASP Active message applies.  It is not
+     necessary for the ASP to include all Routing Contexts of interest in
+     a single ASP Active message, thus requesting to become active in all
+     Routing Contexts at the same time.  Multiple ASP Active messages MAY
+     be used to activate within the Application Servers independently, or
+     in sets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

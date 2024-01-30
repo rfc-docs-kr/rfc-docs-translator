@@ -1,0 +1,22 @@
+"hash": |-
+  54890f3946d7c8c9bd8b406190af784287a31c72f3bdcea4838963715dd41cd6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     legacy_session_id:  Versions of TLS before TLS 1.3 supported a
+        "session resumption" feature which has been merged with pre-shared
+        keys in this version (see Section 2.2).  A client which has a
+        cached session ID set by a pre-TLS 1.3 server SHOULD set this
+        field to that value.  In compatibility mode (see Appendix D.4),
+        this field MUST be non-empty, so a client not offering a
+        pre-TLS 1.3 session MUST generate a new 32-byte value.  This value
+        need not be random but SHOULD be unpredictable to avoid
+        implementations fixating on a specific value (also known as
+        ossification).  Otherwise, it MUST be set as a zero-length vector
+        (i.e., a zero-valued single byte length field).
+"fixed": |-
+  legacy_session_id:  Versions of TLS before TLS 1.3 supported a "session resumption" feature which has been merged with pre-shared keys in this version (see Section 2.2).  A client which has a cached session ID set by a pre-TLS 1.3 server SHOULD set this field to that value.  In compatibility mode (see Appendix D.4), this field MUST be non-empty, so a client not offering a pre-TLS 1.3 session MUST generate a new 32-byte value.  This value need not be random but SHOULD be unpredictable to avoid implementations fixating on a specific value (also known as ossification).  Otherwise, it MUST be set as a zero-length vector (i.e., a zero-valued single byte length field).
+"ko": |-
+  Legacy_session_id: TLS 1.3 이전의 TLS 버전은 이 버전의 사전 공유 키와 병합된 "세션 재개" 기능을 지원했습니다(섹션 2.2 참조). TLS 1.3 이전 서버에 의해 설정된 캐시된 세션 ID를 가진 클라이언트는 이 필드를 해당 값으로 설정해야 합니다. 호환 모드(부록 D.4 참조)에서 이 필드는 비어 있지 않아야 하므로 TLS 1.3 이전 세션을 제공하지 않는 클라이언트는 새로운 32바이트 값을 생성해야 합니다. 이 값은 무작위일 필요는 없지만 특정 값에 고정되는 구현(골화라고도 함)을 방지하려면 예측할 수 없어야 합니다. 그렇지 않으면 길이가 0인 벡터(즉, 값이 0인 단일 바이트 길이 필드)로 설정되어야 합니다.

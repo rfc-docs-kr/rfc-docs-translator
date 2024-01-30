@@ -1,0 +1,22 @@
+"hash": |-
+  e3bae3dd2a67797d8ac7b854d7c3346450c5751cebfdbf1b848145deb7c1352e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  u_char *
+  MakeQuantHeader(u_char *p, u_char *qt, int tableNo)
+  {
+          *p++ = 0xff;
+          *p++ = 0xdb;            /* DQT */
+          *p++ = 0;               /* length msb */
+          *p++ = 67;              /* length lsb */
+          *p++ = tableNo;
+          memcpy(p, qt, 64);
+          return (p + 64);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

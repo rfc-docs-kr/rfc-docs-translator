@@ -1,0 +1,20 @@
+"hash": |-
+  df78eff8f54662d8fea2d24616c406fbf5da8f2ae86cc8218731c37ffc1155e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     However, it is possible for an attacker to forge a Success packet
+     after the server has authenticated to the peer, but before the peer
+     has authenticated to the server.  If the peer were to accept the
+     forged Success packet and attempt to access the network when it had
+     not yet successfully authenticated to the server, a denial of service
+     attack could be mounted against the peer.  After such an attack, if
+     the lower layer supports failure indications, the authenticator can
+     synchronize state with the peer by providing a lower layer failure
+     indication.  See Section 7.12 for details.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  7d1ad887e23f65a74c74467bb70a2261cbb091f06dd0c59d7f32f2b7b3d1f5ac
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          /* Initialize JPEG header
+           */
+          jpghdr.tspec = typespec;
+          jpghdr.off = 0;
+          jpghdr.type = type | ((dri != 0) ? RTP_JPEG_RESTART : 0);
+          jpghdr.q = q;
+          jpghdr.width = width / 8;
+          jpghdr.height = height / 8;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

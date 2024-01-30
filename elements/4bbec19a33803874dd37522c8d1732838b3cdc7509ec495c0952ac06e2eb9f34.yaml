@@ -1,0 +1,17 @@
+"hash": |-
+  4bbec19a33803874dd37522c8d1732838b3cdc7509ec495c0952ac06e2eb9f34
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            ContentType type;
+            ProtocolVersion legacy_record_version;
+            uint16 length;
+            opaque fragment[TLSPlaintext.length];
+        } TLSPlaintext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

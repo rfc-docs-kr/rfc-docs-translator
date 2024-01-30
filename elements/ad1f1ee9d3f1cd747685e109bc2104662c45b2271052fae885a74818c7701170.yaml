@@ -1,0 +1,19 @@
+"hash": |-
+  ad1f1ee9d3f1cd747685e109bc2104662c45b2271052fae885a74818c7701170
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unless the authenticator implements one or more authentication
+     methods locally which support the authenticator role, the EAP method
+     layer header fields (Type, Type-Data) are not examined as part of the
+     forwarding decision.  Where the authenticator supports local
+     authentication methods, it MAY examine the Type field to determine
+     whether to act on the packet itself or forward it.  Compliant pass-
+     through authenticator implementations MUST by default forward EAP
+     packets of any Type.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  f9c34daf5edeb74bf4c1f9bc63141660e6a47bf625e5f54e3c13f592f168eaa1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are three modes of Application Server traffic handling in the
+     SGP M3UA layer: Override, Loadshare and Broadcast.  When included,
+     the Traffic Mode Type parameter in the ASP Active message indicates
+     the traffic handling mode to be used in a particular Application
+     Server.  If the SGP determines that the mode indicated in an ASP
+     Active message is unsupported or incompatible with the mode currently
+     configured for the AS, the SGP responds with an Error message
+     ("Unsupported / Invalid Traffic Handling Mode").  If the traffic
+     handling mode of the Application Server is not already known via
+     configuration data, then the traffic handling mode indicated in the
+     first ASP Active message causing the transition of the Application
+     Server state to AS-ACTIVE MAY be used to set the mode.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

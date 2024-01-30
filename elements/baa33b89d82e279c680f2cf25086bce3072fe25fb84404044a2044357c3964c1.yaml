@@ -1,0 +1,20 @@
+"hash": |-
+  baa33b89d82e279c680f2cf25086bce3072fe25fb84404044a2044357c3964c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the SYN arrives at line 3, TCP Peer B, being in a synchronized
+     state, and the incoming segment outside the window, responds with an
+     acknowledgment indicating what sequence it next expects to hear (ACK
+     100).  TCP Peer A sees that this segment does not acknowledge
+     anything it sent and, being unsynchronized, sends a reset (RST)
+     because it has detected a half-open connection.  TCP Peer B aborts at
+     line 5.  TCP Peer A will continue to try to establish the connection;
+     the problem is now reduced to the basic three-way handshake of
+     Figure 6.
+"fixed": |-
+  When the SYN arrives at line 3, TCP Peer B, being in a synchronized state, and the incoming segment outside the window, responds with an acknowledgment indicating what sequence it next expects to hear (ACK 100).  TCP Peer A sees that this segment does not acknowledge anything it sent and, being unsynchronized, sends a reset (RST) because it has detected a half-open connection.  TCP Peer B aborts at line 5.  TCP Peer A will continue to try to establish the connection; the problem is now reduced to the basic three-way handshake of Figure 6.
+"ko": |-
+  SYN이 라인 3에 도착하면 동기화된 상태에 있는 TCP 피어 B와 창 외부의 들어오는 세그먼트는 다음에 들을 것으로 예상되는 시퀀스(ACK 100)를 나타내는 승인으로 응답합니다. TCP 피어 A는 이 세그먼트가 자신이 보낸 어떤 것도 승인하지 않는다는 것을 확인하고, 동기화되지 않은 상태에서 반개방 연결을 감지했기 때문에 재설정(RST)을 보냅니다. TCP 피어 B는 라인 5에서 중단됩니다. TCP 피어 A는 계속해서 연결 설정을 시도합니다. 이제 문제는 그림 6의 기본 3방향 핸드셰이크로 축소되었습니다.

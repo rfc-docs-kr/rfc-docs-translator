@@ -1,0 +1,19 @@
+"hash": |-
+  806a60e09979e681894cb2cadaaa7f17c99bfbc9a088f53c4e31d2bd32943f03
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The PROT command, as specified in [RFC-2228], allows client/server
+        negotiation of the security level of the data connection.  Once a
+        PROT command has been issued by the client and accepted by the
+        server returning the '200' reply, the security of subsequent data
+        connections MUST be at that level until another PROT command is
+        issued and accepted; the session ends and a REIN command is
+        issued, or the security of the session (via an AUTH command) is
+        re-negotiated.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   1. 소스 노드(클라이언트 C)의 애플리케이션은 DNS 이름 확인 함수(예: gethostbyname())를 호출하여 대상 노드(Destination D)의 IP 주소 정보를 가져오려고 시도합니다. 이때 Destination D의 논리적 호스트 이름("FQDN") 정보는 호출된 API의 인수로 응용 프로그램의 *Socks Lib*에 전달됩니다.

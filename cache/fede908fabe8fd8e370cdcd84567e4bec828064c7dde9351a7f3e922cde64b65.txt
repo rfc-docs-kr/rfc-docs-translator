@@ -1,0 +1,1 @@
+   많은 프로토콜은 TLS(전송 계층 보안) [RFC5246] 또는 데이터그램 TLS(DTLS) [RFC4347]를 활용하여 키 설정을 수행하지만 자체 목적을 위해 일부 키 자료를 사용하려고 합니다. 일반적인 예로는 DTLS를 사용하여 키 교환을 수행하고 SRTP [RFC3711] 보호 제품군을 협상한 후 DTLS를 사용하는 SRTP(Secure Real-time Transport Protocol)의 키 관리 체계인 DTLS-SRTP[DTLS-SRTP]가 있습니다. master_secret을 사용하여 SRTP 키를 생성합니다.

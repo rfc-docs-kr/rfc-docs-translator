@@ -1,0 +1,24 @@
+"hash": |-
+  cb654fef3e0c8175bad491ba039e830fc5e36ea80d9291a0a434fcfa6b22335f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For example, suppose that Europe is assigned a prefix of
+        <194.0.0.0 254.0.0.0>, such that European routing also contains
+        the longer prefixes <194.1.0.0 255.255.0.0> and <194.2.0.0
+        255.255.0.0>.  All of the longer European prefixes may be
+        advertised across a trans-Atlantic link to North America.  The
+        router in North America would then aggregate these routes, and
+        only advertise the prefix <194.0.0.0 255.0.0.0> into North
+        American routing.  Packets which are destined for 194.1.1.1 would
+        traverse North American routing, but would encounter the North
+        American router which performed the European aggregation.  If the
+        prefix <194.1.0.0 255.255.0.0> is unreachable, the router would
+        drop the packet and send an ICMP Unreachable without using the
+        trans-Atlantic link.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

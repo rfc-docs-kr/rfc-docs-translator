@@ -1,0 +1,15 @@
+"hash": |-
+  5172f51aa94ae937195f5164b685072cb75c356d4ea36d0a296fcdb8cc6ce0d7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "pre_shared_key" extension MUST be the last extension in the
+     ClientHello (this facilitates implementation as described below).
+     Servers MUST check that it is the last extension and otherwise fail
+     the handshake with an "illegal_parameter" alert.
+"fixed": |-
+  The "pre_shared_key" extension MUST be the last extension in the ClientHello (this facilitates implementation as described below). Servers MUST check that it is the last extension and otherwise fail the handshake with an "illegal_parameter" alert.
+"ko": |-
+  "pre_shared_key" 확장은 ClientHello의 마지막 확장이어야 합니다(이것은 아래 설명된 구현을 용이하게 합니다). 서버는 반드시 그것이 마지막 확장인지 확인해야 하며, 그렇지 않으면 "illegal_parameter" 경고와 함께 핸드셰이크가 실패합니다.

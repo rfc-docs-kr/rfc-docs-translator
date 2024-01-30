@@ -1,0 +1,1 @@
+   즉시 명령에 의해 생성된 작업에 대해 ABORT TASK가 발행된 경우 RefCmdSN은 작업 관리 요청 자체의 것이어야 합니다(즉, CmdSN과 RefCmdSN이 동일함). 그렇지 않으면 RefCmdSN을 중단할 작업의 CmdSN(CmdSN보다 낮은 값)으로 설정해야 합니다.

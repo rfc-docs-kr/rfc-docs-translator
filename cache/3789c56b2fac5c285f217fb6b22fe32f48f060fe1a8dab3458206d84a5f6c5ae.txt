@@ -1,0 +1,1 @@
+   준수 구현은 PrintableString 또는 UTF8String으로 인코딩된 고유 이름 속성 비교의 기초로 [RFC4518]에 지정된 대로 LDAP StringPrep 프로필(미미한 공간 처리 포함)을 사용해야 합니다. 준수 구현은 caseIgnoreMatch를 사용하여 이름 비교를 지원해야 합니다(MUST). 다른 동등 일치 규칙을 사용하는 속성 유형에 대한 지원은 선택 사항입니다.

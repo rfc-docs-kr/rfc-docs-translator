@@ -1,0 +1,19 @@
+"hash": |-
+  4f5ad92b5a2f43f5b315c311f79900245404801e5257afb510f23a729589bd85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Datagram integrity service usually is designed only to attempt to
+        detect changes to the SDU in each packet, but it might also
+        attempt to detect changes to some or all of the PCI in each packet
+        (see: selective field integrity). In contrast to this simple,
+        one-at-a-time service, some security situations demand a more
+        complex service that also attempts to detect deleted, inserted, or
+        reordered datagrams within a stream of datagrams (see: stream
+        integrity service).
+"fixed": |-
+  - Datagram integrity service usually is designed only to attempt to detect changes to the SDU in each packet, but it might also attempt to detect changes to some or all of the PCI in each packet (see: selective field integrity). In contrast to this simple, one-at-a-time service, some security situations demand a more complex service that also attempts to detect deleted, inserted, or reordered datagrams within a stream of datagrams (see: stream integrity service).
+"ko": |-
+  - 데이터그램 무결성 서비스는 일반적으로 각 패킷의 SDU에 대한 변경 사항을 감지하도록 설계되었지만 각 패킷의 PCI 일부 또는 전체에 대한 변경 사항을 감지하려고 시도할 수도 있습니다(선택적 필드 무결성 참조). 한 번에 하나씩 제공되는 이 간단한 서비스와 달리 일부 보안 상황에서는 데이터그램 스트림 내에서 삭제, 삽입 또는 재정렬된 데이터그램을 검색하려고 시도하는 더 복잡한 서비스가 필요합니다(스트림 무결성 서비스 참조).

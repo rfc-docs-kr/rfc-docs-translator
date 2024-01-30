@@ -1,0 +1,19 @@
+"hash": |-
+  69b2d96becda08eb6d3a8aa9757f33b92da66c812781262fee6904bcdab86a12
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     On the peer, once the method completes unsuccessfully (that is,
+     either the authenticator sends a failure result indication, or the
+     peer decides that it does not want to continue the conversation,
+     possibly after sending a failure result indication), the peer MUST
+     terminate the conversation and indicate failure to the lower layer.
+     The peer MUST silently discard Success packets and MAY silently
+     discard Failure packets.  As a result, loss of a Failure packet need
+     not result in a timeout.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

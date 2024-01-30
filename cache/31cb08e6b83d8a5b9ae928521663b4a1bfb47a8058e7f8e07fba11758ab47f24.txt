@@ -1,0 +1,1 @@
+   P-256, P-384 및 P-521의 경우 KEM의 SerializePublicKey() 함수는 [SECG]에 따라 압축되지 않은 Elliptic-Curve-Point-to-Octet-String 변환을 수행합니다. DeserializePublicKey()는 압축되지 않은 Octet-String-to-Elliptic-Curve-Point 변환을 수행합니다.

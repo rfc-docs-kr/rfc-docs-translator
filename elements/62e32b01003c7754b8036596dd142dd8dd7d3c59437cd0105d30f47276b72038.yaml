@@ -1,0 +1,21 @@
+"hash": |-
+  62e32b01003c7754b8036596dd142dd8dd7d3c59437cd0105d30f47276b72038
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an ASP or group of ASPs is available to the SS7 network via more
+     than one SG, each with its own Point Code, the ASP(s) will typically
+     be represented by a Point Code that is separate from any SG Point
+     Code.  This allows, for example, these SGs to be viewed from the SS7
+     network as "STPs", each having an ongoing "route" to the same ASP(s).
+     Under failure conditions where the ASP(s) become(s) unavailable from
+     one of the SGs, this approach enables MTP3 route management messaging
+     between the SG and SS7 network, allowing simple SS7 rerouting through
+     an alternate SG without changing the Destination Point Code Address
+     of SS7 traffic to the ASP(s).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

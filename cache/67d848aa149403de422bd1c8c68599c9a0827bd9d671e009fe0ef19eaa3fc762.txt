@@ -1,0 +1,1 @@
+   클라이언트가 서버가 이미 삭제한 확인되지 않은 레코드에 대해 SETCLIENTID_CONFIRM을 보내는 경우 클라이언트는 NFS4ERR_STALE_CLIENTID를 다시 받게 됩니다. 그렇다면 클라이언트는 다시 시작하고 SETCLIENTID를 보내 확인되지 않은 클라이언트 레코드를 다시 설정하고 확인되지 않은 클라이언트 ID와 setclientid_confirm 검증자를 다시 가져와야 합니다. 그런 다음 클라이언트는 SETCLIENTID_CONFIRM을 보내 클라이언트 ID를 확인해야 합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  9d9ad0a9a60b928b6697ab6b2cd49068fe054dd321cce5e0b25ae5b876c21068
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  In some implementations, the application may not directly talk to
+        the network, in which case the DTLS stack may absorb ICMP
+        [RFC1191] "Datagram Too Big" indications or ICMPv6 [RFC4443]
+        "Packet Too Big" indications.
+"fixed": |-
+  -  In some implementations, the application may not directly talk to the network, in which case the DTLS stack may absorb ICMP [RFC1191] "Datagram Too Big" indications or ICMPv6 [RFC4443] "Packet Too Big" indications.
+"ko": |-
+  - 일부 구현에서는 애플리케이션이 네트워크와 직접 통신하지 못할 수 있습니다. 이 경우 DTLS 스택은 ICMP [RFC1191] "데이터그램 너무 큼" 표시 또는 ICMPv6 [RFC4443] "패킷 너무 큼" 표시를 흡수할 수 있습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  d8a3bfddfd9e194ee00b64c7e2466ac397a21900106ab5ac7072216f730fb51e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Length field is two octets.  It indicates the length of the
+        packet including the Code, Identifier, Length, Authenticator and
+        Attribute fields.  Octets outside the range of the Length field
+        MUST be treated as padding and ignored on reception.  If the
+        packet is shorter than the Length field indicates, it MUST be
+        silently discarded.  The minimum length is 20 and maximum length
+        is 4095.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

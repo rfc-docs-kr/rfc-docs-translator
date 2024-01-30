@@ -1,0 +1,32 @@
+"hash": |-
+  0b102176217573cbbac367e0489baa14db26081e7505e22f8e790692b27681d3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    | Echocanc          | 100B | Enumeration | Echo Canceller: Off(0),   |
+    |                   |      |             | G.165(1), G168(2)         |
+    +-------------------+------+-------------+---------------------------+
+    | Gain              | 100C | Unsigned    | Gain in db: 0-65535       |
+    |                   |      | Integer     |                           |
+    +-------------------+------+-------------+---------------------------+
+    | Jitterbuff        | 100D | Unsigned    | Jitter buffer size in ms: |
+    |                   |      | Integer     | 0-65535                   |
+    +-------------------+------+-------------+---------------------------+
+    | PropDelay         | 100E | Unsigned    | Propagation Delay:        |
+    |                   |      | Integer     | 0..65535                  |
+    +-------------------+------+-------------+---------------------------+
+    | Maximum propagation delay in milliseconds for the bearer           |
+    | connection between two  media gateways. The maximum delay will be  |
+    | dependent on the bearer technology.                                |
+    +-------------------+------+-------------+---------------------------+
+    |RTPpayload         | 100F | integer     | Payload type in RTP       |
+    +-------------------+------+-------------+---------------------------+
+    | Profile for Audio and Video Conferences with Minimal Control       |
+    | Ref.: RFC 1890                                                     |
+    +--------------------------------------------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

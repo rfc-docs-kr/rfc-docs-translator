@@ -1,0 +1,14 @@
+"hash": |-
+  15820d0da1b17696396c6bf87389c307b86d1fa48339fe7888e1dc88ab7dc0a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  When verifying RSA signatures, do you accept both NULL and missing
+        parameters (see Section 4.7)? Do you verify that the RSA padding
+        doesn't have additional data after the hash value?  [FI06]
+"fixed": |-
+  -  When verifying RSA signatures, do you accept both NULL and missing parameters (see Section 4.7)? Do you verify that the RSA padding doesn't have additional data after the hash value?  [FI06]
+"ko": |-
+  - RSA 서명을 확인할 때 NULL 및 누락된 매개변수를 모두 허용합니까(섹션 4.7 참조)? RSA 패딩에 해시 값 뒤에 추가 데이터가 없는지 확인합니까? [FI06]

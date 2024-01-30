@@ -1,0 +1,24 @@
+"hash": |-
+  b774a102236a31bd48035cc052680b33f40143ef3b7d9f7e1d30895687e51145
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          It may be the case the router no longer wishes to originate the
+          received LSA. Possible examples include: 1) the LSA is a
+          summary-LSA or AS-external-LSA and the router no longer has an
+          (advertisable) route to the destination, 2) the LSA is a
+          network-LSA but the router is no longer Designated Router for
+          the network or 3) the LSA is a network-LSA whose Link State ID
+          is one of the router's own IP interface addresses but whose
+          Advertising Router is not equal to the router's own Router ID
+          (this latter case should be rare, and it indicates that the
+          router's Router ID has changed since originating the LSA).  In
+          all these cases, instead of updating the LSA, the LSA should be
+          flushed from the routing domain by incrementing the received
+          LSA's LS age to MaxAge and reflooding (see Section 14.1).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

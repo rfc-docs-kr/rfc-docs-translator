@@ -1,0 +1,19 @@
+"hash": |-
+  1f6a5857c249dad4b9dddc29de6b3f5c4b5e51aa5c6288a0c3350d62fc603169
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     accounting request corresponding to the authorization response, the
+     local realm implicitly indicates its agreement to provide the service
+     indicated in the authorization response.  If the service cannot be
+     provided by the local realm, then a DIAMETER_UNABLE_TO_COMPLY error
+     message MUST be sent within the accounting request; a Diameter client
+     receiving an authorization response for a service that it cannot
+     perform MUST NOT substitute an alternate service and then send
+     accounting requests for the alternate service instead.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

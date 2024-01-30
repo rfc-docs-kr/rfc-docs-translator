@@ -1,0 +1,1 @@
+- - NAMES 메시지에 응답하기 위해 RPL_NAMREPLY 및 RPL_ENDOFNAMES로 구성된 응답 쌍이 서버에서 클라이언트로 다시 전송됩니다. 쿼리에서와 같이 채널이 발견되지 않으면 RPL_ENDOFNAMES만 반환됩니다. 이에 대한 예외는 NAMES 메시지가 매개변수 없이 전송되고 모든 표시 채널과 콘텐츠가 끝을 표시하기 위해 RPL_ENDOFNAMES와 함께 일련의 RPL_NAMEREPLY 메시지로 다시 전송되는 경우입니다.

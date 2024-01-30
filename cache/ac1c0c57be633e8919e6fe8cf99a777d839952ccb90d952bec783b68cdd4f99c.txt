@@ -1,0 +1,1 @@
+   다른 많은 음성 코덱과 달리 SILK는 LSF에 가변 비트 전송률 코딩을 사용합니다. 이는 평균 R-D(Rate-Distortion) 균형을 개선하고 이상값을 줄입니다. 가변 비트레이트 코딩은 가중 양자화 오류와 비트레이트의 선형 결합을 최소화합니다. 양자화 오류에 대한 가중치는 Laroia et al.이 제안한 IHMW(Inverse Harmonic Mean Weighting) 함수입니다. ([LAROIA-ICASSP] 참조). 이러한 가중치를 여기서는 Laroia 가중치라고 합니다.

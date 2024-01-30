@@ -1,0 +1,1 @@
+   서버가 OAuth 공개 클라이언트에 의한 PKCE(Proof Key for Code Exchange)를 요구하고 클라이언트가 요청에서 "code_challenge"를 보내지 않는 경우, 인증 끝점은 "invalid_request"로 설정된 "error" 값을 사용하여 인증 오류 응답을 반환해야 합니다. . "error_description" 또는 "error_uri"의 응답은 오류의 성격(예: 필요한 코드 확인)을 설명해야 합니다.

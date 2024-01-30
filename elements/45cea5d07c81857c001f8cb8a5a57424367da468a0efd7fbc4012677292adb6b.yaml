@@ -1,0 +1,26 @@
+"hash": |-
+  45cea5d07c81857c001f8cb8a5a57424367da468a0efd7fbc4012677292adb6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     a) The temporal dynamics of popularity, i.e., how requests are
+        distributed in time.  The popularity distribution expresses the
+        number of requests submitted for each information item
+        participating into a certain workload.  However, they do not
+        describe how these requests are distributed in time.  This aspect
+        is of primary importance when considering the performance of
+        caching schemes since the ordering of the requests obviously
+        affects the contents of a cache.  For example, with a Least
+        Frequently Used (LFU) cache replacement policy, if all requests
+        for a certain item are submitted close in time, the item is
+        unlikely to be evicted from the cache, even by a (globally) more
+        popular item whose requests are more evenly distributed in time.
+        The temporal ordering of requests gains even more importance when
+        considering workloads consisting of various applications, all
+        competing for the same cache space.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

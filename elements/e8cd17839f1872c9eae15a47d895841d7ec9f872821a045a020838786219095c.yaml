@@ -1,0 +1,16 @@
+"hash": |-
+  e8cd17839f1872c9eae15a47d895841d7ec9f872821a045a020838786219095c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An extension type MUST NOT appear in the ServerHello unless the same
+     extension type appeared in the corresponding ClientHello.  If a
+     client receives an extension type in ServerHello that it did not
+     request in the associated ClientHello, it MUST abort the handshake
+     with an unsupported_extension fatal alert.
+"fixed": |-
+  An extension type MUST NOT appear in the ServerHello unless the same extension type appeared in the corresponding ClientHello.  If a client receives an extension type in ServerHello that it did not request in the associated ClientHello, it MUST abort the handshake with an unsupported_extension fatal alert.
+"ko": |-
+  해당 ClientHello에 동일한 확장 유형이 표시되지 않는 한 확장 유형은 ServerHello에 표시되어서는 안 됩니다. 클라이언트가 연결된 ClientHello에서 요청하지 않은 확장 유형을 ServerHello에서 수신하는 경우 unsupported_extension fatal 경고와 함께 핸드셰이크를 중단해야 합니다.

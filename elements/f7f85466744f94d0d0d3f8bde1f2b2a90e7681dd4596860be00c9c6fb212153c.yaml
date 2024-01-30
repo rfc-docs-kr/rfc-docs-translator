@@ -1,0 +1,25 @@
+"hash": |-
+  f7f85466744f94d0d0d3f8bde1f2b2a90e7681dd4596860be00c9c6fb212153c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   Some TCP implementations, however, have included a
+                   keep-alive mechanism.  To confirm that an idle
+                   connection is still active, these implementations send
+                   a probe segment designed to elicit a response from the
+                   peer TCP.  Such a segment generally contains SEG.SEQ =
+                   SND.NXT-1 and may or may not contain one garbage octet
+                   of data.  Note that on a quiet connection SND.NXT =
+                   RCV.NXT, so that this SEG.SEQ will be outside the
+                   window.  Therefore, the probe causes the receiver to
+                   return an acknowledgment segment, confirming that the
+                   connection is still live.  If the peer has dropped the
+                   connection due to a network partition or a crash, it
+                   will respond with a RST instead of an acknowledgment
+                   segment.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  c8bca8ee0915832a04f7c05fc7ad1d7819e31acc264b764007d48deb2d137c68
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In order to achieve smooth key transition, KeyStartAccept should
+          be less than KeyStartGenerate and KeyStopGenerate should be less
+          than KeyStopAccept. If KeyStopGenerate and KeyStopAccept are
+          left unspecified, the key's lifetime is infinite. When a new key
+          replaces an old, the KeyStartGenerate time for the new key must
+          be less than or equal to the KeyStopGenerate time of the old
+          key.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

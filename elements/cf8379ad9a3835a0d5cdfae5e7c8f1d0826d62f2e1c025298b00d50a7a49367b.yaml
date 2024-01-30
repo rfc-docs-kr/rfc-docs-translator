@@ -1,0 +1,17 @@
+"hash": |-
+  cf8379ad9a3835a0d5cdfae5e7c8f1d0826d62f2e1c025298b00d50a7a49367b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When using ECDSA signatures for authentication of TLS peers, it is
+     RECOMMENDED that implementations use the NIST curve P-256.  In
+     addition, to avoid predictable or repeated nonces (which could reveal
+     the long-term signing key), it is RECOMMENDED that implementations
+     implement "deterministic ECDSA" as specified in [RFC6979] and in line
+     with the recommendations in [RFC8446].
+"fixed": |-
+  When using ECDSA signatures for authentication of TLS peers, it is RECOMMENDED that implementations use the NIST curve P-256.  In addition, to avoid predictable or repeated nonces (which could reveal the long-term signing key), it is RECOMMENDED that implementations implement "deterministic ECDSA" as specified in [RFC6979] and in line with the recommendations in [RFC8446].
+"ko": |-
+  TLS 피어 인증을 위해 ECDSA 서명을 사용할 때 구현 시 NIST 곡선 P-256을 사용하는 것이 좋습니다. 또한 예측 가능하거나 반복되는 nonce(장기 서명 키를 노출할 수 있음)를 방지하려면 [RFC6979]에 지정되고 [RFC8446]의 권장 사항에 따라 구현 시 "결정론적 ECDSA"를 구현하는 것이 좋습니다.

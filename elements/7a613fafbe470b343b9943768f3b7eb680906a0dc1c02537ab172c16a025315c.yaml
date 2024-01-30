@@ -1,0 +1,18 @@
+"hash": |-
+  7a613fafbe470b343b9943768f3b7eb680906a0dc1c02537ab172c16a025315c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        if Segments Left is greater than n {
+           send an ICMP Parameter Problem, Code 0, message to the Source
+           Address, pointing to the Segments Left field, and discard the
+           packet
+        }
+        else {
+           decrement Segments Left by 1
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

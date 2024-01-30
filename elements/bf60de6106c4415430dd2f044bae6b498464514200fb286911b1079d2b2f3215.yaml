@@ -1,0 +1,15 @@
+"hash": |-
+  bf60de6106c4415430dd2f044bae6b498464514200fb286911b1079d2b2f3215
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations MUST limit their scanning to the cleartext returned
+     from the AEAD decryption.  If a receiving implementation does not
+     find a non-zero octet in the cleartext, it MUST terminate the
+     connection with an "unexpected_message" alert.
+"fixed": |-
+  Implementations MUST limit their scanning to the cleartext returned from the AEAD decryption.  If a receiving implementation does not find a non-zero octet in the cleartext, it MUST terminate the connection with an "unexpected_message" alert.
+"ko": |-
+  구현에서는 AEAD 암호 해독에서 반환된 일반 텍스트로 검색을 제한해야 합니다. 수신 구현이 일반 텍스트에서 0이 아닌 옥텟을 찾지 못하면 "unexpected_message" 경고와 함께 연결을 종료해야 합니다.

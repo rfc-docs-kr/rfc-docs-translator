@@ -1,0 +1,16 @@
+"hash": |-
+  7be5604ace651ee2a6e498917053b02b3396b041cbe6cb3c7bf7487f326a2930
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For AES-GCM, up to 2^24.5 full-size records (about 24 million) may be
+     encrypted on a given connection while keeping a safety margin of
+     approximately 2^-57 for Authenticated Encryption (AE) security.  For
+     ChaCha20/Poly1305, the record sequence number would wrap before the
+     safety limit is reached.
+"fixed": |-
+  For AES-GCM, up to 2^24.5 full-size records (about 24 million) may be encrypted on a given connection while keeping a safety margin of approximately 2^-57 for Authenticated Encryption (AE) security.  For ChaCha20/Poly1305, the record sequence number would wrap before the safety limit is reached.
+"ko": |-
+  AES-GCM의 경우 AE(인증된 암호화) 보안을 위해 약 2^-57의 안전 여유를 유지하면서 최대 2^24.5개의 전체 크기 레코드(약 2,400만 개)를 특정 연결에서 암호화할 수 있습니다. ChaCha20/Poly1305의 경우 안전 한계에 도달하기 전에 레코드 시퀀스 번호가 줄바꿈됩니다.

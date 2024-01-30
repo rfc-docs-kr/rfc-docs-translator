@@ -1,0 +1,19 @@
+"hash": |-
+  b4913dc9abc29a4a0ca7ed9db65880c8fb9e8642c57ac84bb7ddadd3804c6475
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  Note that it is legal to send and receive application data on
+           SYN segments (this is the "text in the segment" mentioned
+           above).  There has been significant misinformation and
+           misunderstanding of this topic historically.  Some firewalls
+           and security devices consider this suspicious.  However, the
+           capability was used in T/TCP [21] and is used in TCP Fast Open
+           (TFO) [48], so is important for implementations and network
+           devices to permit.
+"fixed": |-
+  -  Note that it is legal to send and receive application data on SYN segments (this is the "text in the segment" mentioned above).  There has been significant misinformation and misunderstanding of this topic historically.  Some firewalls and security devices consider this suspicious.  However, the capability was used in T/TCP [21] and is used in TCP Fast Open (TFO) [48], so is important for implementations and network devices to permit.
+"ko": |-
+  - SYN 세그먼트(위에서 언급한 "세그먼트 내 텍스트")에서 애플리케이션 데이터를 보내고 받는 것이 합법적이라는 점에 유의하세요. 역사적으로 이 주제에 대해 심각한 잘못된 정보와 오해가 있어 왔습니다. 일부 방화벽과 보안 장치는 이를 의심스러운 것으로 간주합니다. 그러나 이 기능은 T/TCP[21]에서 사용되었고 TCP Fast Open(TFO)[48]에서 사용되므로 구현 및 네트워크 장치에서 허용하는 것이 중요합니다.

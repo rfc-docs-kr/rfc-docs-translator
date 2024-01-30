@@ -1,0 +1,23 @@
+"hash": |-
+  63ae6c44755cb34167083edb9fc71d487a43a05db933b827789639e665a6c4c0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServAlgDropNext OBJECT-TYPE
+      SYNTAX       RowPointer
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "This selects the next Differentiated Services Functional Data
+         Path Element to handle traffic for this data path. This
+         RowPointer should point to an instance of one of:
+           diffServClfrEntry
+           diffServMeterEntry
+           diffServActionEntry
+           diffServQEntry
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

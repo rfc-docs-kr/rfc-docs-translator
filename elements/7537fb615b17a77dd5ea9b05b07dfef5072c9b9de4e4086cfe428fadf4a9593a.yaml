@@ -1,0 +1,16 @@
+"hash": |-
+  7537fb615b17a77dd5ea9b05b07dfef5072c9b9de4e4086cfe428fadf4a9593a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Suppose the total receive buffer space is RCV.BUFF.  At any given
+     moment, RCV.USER octets of this total may be tied up with data that
+     has been received and acknowledged but that the user process has not
+     yet consumed.  When the connection is quiescent, RCV.WND = RCV.BUFF
+     and RCV.USER = 0.
+"fixed": |-
+  Suppose the total receive buffer space is RCV.BUFF.  At any given moment, RCV.USER octets of this total may be tied up with data that has been received and acknowledged but that the user process has not yet consumed.  When the connection is quiescent, RCV.WND = RCV.BUFF and RCV.USER = 0.
+"ko": |-
+  총 수신 버퍼 공간이 RCV.BUFF라고 가정합니다. 언제든지 이 총계의 RCV.USER 옥텟은 수신 및 승인되었지만 사용자 프로세스가 아직 사용하지 않은 데이터와 연결될 수 있습니다. 연결이 정지된 경우 RCV.WND = RCV.BUFF 및 RCV.USER = 0입니다.

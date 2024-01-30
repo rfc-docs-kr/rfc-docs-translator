@@ -1,0 +1,1 @@
+   sspt_orig_plain 필드는 원래 일반 텍스트이며 GSS_Wrap()에 전달된 "input_message" 입력입니다([7]의 섹션 2.3.3 참조). SSV 메커니즘의 GSS_GetMIC() 진입점에 의한 일반 텍스트 처리와 마찬가지로 GSS_Wrap()의 진입점은 일반 텍스트에 대한 포인터를 예상하고 불투명 배열을 다른 필드와 함께 일반 텍스트를 나타내는 sspt_orig_plain으로 XDR 인코딩합니다. 데이터 유형 ssv_seal_plain_tkn4의 인스턴스입니다.

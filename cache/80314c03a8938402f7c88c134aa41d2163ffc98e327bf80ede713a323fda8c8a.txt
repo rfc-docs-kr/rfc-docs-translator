@@ -1,0 +1,1 @@
+   클라이언트는 original_destination_connection_id, preferred_address, retry_source_connection_id 또는 stateless_reset_token과 같은 서버 전용 전송 매개변수를 포함하면 안 됩니다(MUST NOT). 서버는 이러한 전송 매개변수의 수신을 TRANSPORT_PARAMETER_ERROR 유형의 연결 오류로 처리해야 합니다.

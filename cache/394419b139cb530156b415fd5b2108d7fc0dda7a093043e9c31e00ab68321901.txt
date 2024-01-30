@@ -1,0 +1,1 @@
+   o 위에 대한 예외로, 클라이언트가 세션을 재개하려고 하고 ClientHello.client_version을 해당 세션에 대해 협상된 프로토콜 버전으로 설정하는 경우 ClientHello.cipher_suites에 TLS_FALLBACK_SCSV를 포함하면 안 됩니다. (이 경우 클라이언트는 서버가 지원하는 가장 높은 프로토콜 버전을 이미 알고 있다고 가정합니다. [RFC5246]의 부록 E.1을 참조하세요.)

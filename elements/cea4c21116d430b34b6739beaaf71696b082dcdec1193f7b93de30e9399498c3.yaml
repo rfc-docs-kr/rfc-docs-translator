@@ -1,0 +1,17 @@
+"hash": |-
+  cea4c21116d430b34b6739beaaf71696b082dcdec1193f7b93de30e9399498c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the quantization tables are sent in-band, they need not be sent
+     with every frame.  Like the out of band case, frames which do not
+     contain tables will have a Quantization Table header with a Length
+     field of 0.  While this does decrease the overhead of including the
+     tables, new receivers will be unable to properly decode frames from
+     the time they start up until they receive the tables.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

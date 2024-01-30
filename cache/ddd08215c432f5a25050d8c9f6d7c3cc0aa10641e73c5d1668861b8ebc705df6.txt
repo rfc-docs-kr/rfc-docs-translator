@@ -1,0 +1,1 @@
+- END_STREAM 플래그가 포함된 DATA 또는 HEADERS 프레임이 전송된 후 짧은 시간 동안 이 상태에서 WINDOW_UPDATE 또는 RST_STREAM 프레임을 수신할 수 있습니다. 원격 피어는 RST_STREAM 또는 END_STREAM 플래그가 포함된 프레임을 수신하고 처리할 때까지 이러한 유형의 프레임을 보낼 수 있습니다. 엔드포인트는 이 상태에서 수신된 WINDOW_UPDATE 또는 RST_STREAM 프레임을 무시해야 합니다(MUST). 하지만 엔드포인트는 END_STREAM을 보낸 후 상당한 시간이 지난 후 도착하는 프레임을 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리하도록 선택할 수 있습니다.

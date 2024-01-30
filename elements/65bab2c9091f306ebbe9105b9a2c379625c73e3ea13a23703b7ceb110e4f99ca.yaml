@@ -1,0 +1,29 @@
+"hash": |-
+  65bab2c9091f306ebbe9105b9a2c379625c73e3ea13a23703b7ceb110e4f99ca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This MIB is similar in design to [MODEL], although it can be used to
+     build functional data paths that the model would not well describe.
+     The model conceptually describes ingress and egress interfaces of an
+     n-port router, which may find some interfaces at a network edge and
+     others facing into the network core.  It describes the configuration
+     and management of a Differentiated Services interface in terms of one
+     or more Traffic Conditioning Blocks (TCB), each containing, arranged
+     in the specified order, by definition, zero or more classifiers,
+     meters, actions, algorithmic droppers, queues and schedulers.
+     Traffic may be classified, and classified traffic may be metered.
+     Each stream of traffic identified by a combination of classifiers and
+     meters may have some set of actions performed on it; it may have
+     dropping algorithms applied and it may ultimately be stored into a
+     queue before being scheduled out to its next destination, either onto
+     a link or to another TCB.  At times, the treatment for a given packet
+     must have any of those elements repeated.  [MODEL] models this by
+     cascading multiple TCBs, while this MIB describes the policy by
+     directly linking the functional data path elements.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

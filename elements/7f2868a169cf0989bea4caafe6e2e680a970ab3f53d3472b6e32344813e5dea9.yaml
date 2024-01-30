@@ -1,0 +1,22 @@
+"hash": |-
+  7f2868a169cf0989bea4caafe6e2e680a970ab3f53d3472b6e32344813e5dea9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Class AVP (AVP Code 25) is of type OctetString and is used by
+     Diameter servers to return state information to the access device.
+     When one or more Class AVPs are present in application-specific
+     authorization answer messages, they MUST be present in subsequent re-
+     authorization, session termination and accounting messages.  Class
+     AVPs found in a re-authorization answer message override the ones
+     found in any previous authorization answer message.  Diameter server
+     implementations SHOULD NOT return Class AVPs that require more than
+     4096 bytes of storage on the Diameter client.  A Diameter client that
+     receives Class AVPs whose size exceeds local available storage MUST
+     terminate the session.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

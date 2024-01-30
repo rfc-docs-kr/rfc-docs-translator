@@ -1,0 +1,21 @@
+"hash": |-
+  7f3b897a696974fe26041d3c0211bd4400262c7a8fcc9c171d91d59033e025fb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     (Note 6) Since the Framed-IP-Address, Framed-IPv6-Prefix, and
+     Framed-Interface-Id attributes are used for session identification,
+     renumbering cannot be accomplished by including values of these
+     attributes within a CoA-Request.  Instead, a CoA-Request including a
+     Service-Type Attribute with a value of "Authorize Only" is sent; new
+     values can be supplied in an Access-Accept sent in response to the
+     ensuing Access-Request.  Note that renumbering will not be possible
+     in all situations.  For example, in order to change an IP address,
+     IPCP or IPv6CP re-negotiation could be required, which is not
+     supported by all PPP implementations.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

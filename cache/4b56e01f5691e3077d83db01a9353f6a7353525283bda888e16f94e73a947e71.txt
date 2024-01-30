@@ -1,0 +1,1 @@
+   compression_methods: 클라이언트 기본 설정에 따라 정렬된 클라이언트에서 지원하는 압축 방법 목록입니다. session_id 필드가 비어 있지 않은 경우(세션 재개 요청을 의미) 이 벡터에는 적어도 해당 세션의 compression_method가 포함되어야 합니다. 모든 구현은 CompressionMethod.null을 지원해야 합니다.

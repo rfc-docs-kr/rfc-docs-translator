@@ -1,0 +1,1 @@
+   "connection_id" 확장을 협상하지 않았거나 빈 CID 수신을 협상한 구현은 NewConnectionId를 보내면 안 됩니다(MUST NOT). 구현은 빈 연결 ID를 보낼 때 RequestConnectionId를 보내면 안 됩니다(MUST NOT). 이러한 규칙의 위반을 감지하는 구현은 "unexpected_message" 경고와 함께 연결을 종료해야 합니다.

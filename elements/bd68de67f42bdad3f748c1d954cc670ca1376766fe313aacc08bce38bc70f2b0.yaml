@@ -1,0 +1,16 @@
+"hash": |-
+  bd68de67f42bdad3f748c1d954cc670ca1376766fe313aacc08bce38bc70f2b0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        In a CRL, if a program does not recognize a critical extension
+        that is associated with a specific certificate, the program is
+        required to assume that the listed certificate has been revoked
+        and is no longer valid, and then take whatever action is required
+        by local policy.
+"fixed": |-
+  - In a CRL, if a program does not recognize a critical extension that is associated with a specific certificate, the program is required to assume that the listed certificate has been revoked and is no longer valid, and then take whatever action is required by local policy.
+"ko": |-
+  - CRL에서 프로그램이 특정 인증서와 연결된 중요한 확장을 인식하지 못하는 경우 프로그램은 나열된 인증서가 해지되어 더 이상 유효하지 않다고 가정한 다음 로컬에서 요구하는 모든 조치를 취해야 합니다. 정책.

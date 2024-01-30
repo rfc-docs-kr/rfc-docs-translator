@@ -1,0 +1,21 @@
+"hash": |-
+  6c2bcc577770279581a49e276d3badd5a2872270a890db63b9548174960a58b0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a transport failure is detected, if possible, all messages in
+     the queue are sent to an alternate agent with the T flag set.  On
+     booting a Diameter client or agent, the T flag is also set on any
+     remaining records in non-volatile storage that are still waiting to
+     be transmitted.  An example of a case where it is not possible to
+     forward the message to an alternate server is when the message has a
+     fixed destination, and the unavailable peer is the message's final
+     destination (see Destination-Host AVP).  Such an error requires that
+     the agent return an answer message with the 'E' bit set and the
+     Result-Code AVP set to DIAMETER_UNABLE_TO_DELIVER.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

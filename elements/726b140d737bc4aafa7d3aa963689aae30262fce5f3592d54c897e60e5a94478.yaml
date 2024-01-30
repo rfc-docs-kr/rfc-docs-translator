@@ -1,0 +1,17 @@
+"hash": |-
+  726b140d737bc4aafa7d3aa963689aae30262fce5f3592d54c897e60e5a94478
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     AS-PENDING: An active ASP has transitioned to ASP-INACTIVE or ASP
+     DOWN and it was the last remaining active ASP in the AS.  A recovery
+     timer T(r) SHOULD be started, and all incoming signalling messages
+     SHOULD be queued by the SGP.  If an ASP becomes ASP-ACTIVE before
+     T(r) expires, the AS is moved to the AS-ACTIVE state, and all the
+     queued messages will be sent to the ASP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

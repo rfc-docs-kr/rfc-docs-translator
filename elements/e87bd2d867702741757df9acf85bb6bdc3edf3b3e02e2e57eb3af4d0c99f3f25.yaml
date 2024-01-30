@@ -1,0 +1,20 @@
+"hash": |-
+  e87bd2d867702741757df9acf85bb6bdc3edf3b3e02e2e57eb3af4d0c99f3f25
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                If the reassembly timeout is set too high, buffer
+                resources in the receiving host will be tied up too long,
+                and the MSL (Maximum Segment Lifetime) [TCP:1] will be
+                larger than necessary.  The MSL controls the maximum rate
+                at which fragmented datagrams can be sent using distinct
+                values of the 16-bit Ident field; a larger MSL lowers the
+                maximum rate.  The TCP specification [TCP:1] arbitrarily
+                assumes a value of 2 minutes for MSL.  This sets an upper
+                limit on a reasonable reassembly timeout value.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

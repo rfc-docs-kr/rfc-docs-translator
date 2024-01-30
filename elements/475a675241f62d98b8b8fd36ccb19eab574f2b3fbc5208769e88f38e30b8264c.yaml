@@ -1,0 +1,19 @@
+"hash": |-
+  475a675241f62d98b8b8fd36ccb19eab574f2b3fbc5208769e88f38e30b8264c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Five bits of the OSPF Options field have been assigned, although
+      only one (the E-bit) is described completely by this memo. Each bit
+      is described briefly below. Routers should reset (i.e.  clear)
+      unrecognized bits in the Options field when sending Hello packets or
+      Database Description packets and when originating LSAs. Conversely,
+      routers encountering unrecognized Option bits in received Hello
+      Packets, Database Description packets or LSAs should ignore the
+      capability and process the packet/LSA normally.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

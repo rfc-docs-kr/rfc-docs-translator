@@ -1,0 +1,17 @@
+"hash": |-
+  3702589a98916d61a83470c08e85ba4e0b5d9aa37d360dd2cf7e79d250f53abe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are cryptographic limits on the amount of plaintext which can
+     be safely encrypted under a given set of keys.  [AEAD-LIMITS]
+     provides an analysis of these limits under the assumption that the
+     underlying primitive (AES or ChaCha20) has no weaknesses.
+     Implementations SHOULD do a key update as described in Section 4.6.3
+     prior to reaching these limits.
+"fixed": |-
+  There are cryptographic limits on the amount of plaintext which can be safely encrypted under a given set of keys.  [AEAD-LIMITS] provides an analysis of these limits under the assumption that the underlying primitive (AES or ChaCha20) has no weaknesses. Implementations SHOULD do a key update as described in Section 4.6.3 prior to reaching these limits.
+"ko": |-
+  특정 키 세트로 안전하게 암호화할 수 있는 일반 텍스트의 양에는 암호화 제한이 있습니다. [AEAD-LIMITS]는 기본 프리미티브(AES 또는 ChaCha20)에 약점이 없다는 가정하에 이러한 제한에 대한 분석을 제공합니다. 구현은 이러한 제한에 도달하기 전에 섹션 4.6.3에 설명된 대로 주요 업데이트를 수행해야 합니다.

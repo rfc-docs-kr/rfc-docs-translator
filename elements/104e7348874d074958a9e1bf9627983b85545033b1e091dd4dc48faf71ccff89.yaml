@@ -1,0 +1,18 @@
+"hash": |-
+  104e7348874d074958a9e1bf9627983b85545033b1e091dd4dc48faf71ccff89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In addition, operations on configurations could have unintended
+     consequences if those operations are also not guarded by the global
+     lock on the files or objects being operated upon.  For instance, if
+     the running configuration is not locked, a partially complete access
+     list could be committed from the candidate configuration unbeknownst
+     to the owner of the lock of the candidate configuration, leading to
+     either an insecure or inaccessible device.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+msg-att-static = "ENVELOPE" SP 봉투 / "INTERNALDATE" SP 날짜-시간 / "RFC822" [".HEADER" / ".TEXT"] SP nstring / "RFC822.SIZE" SP 번호 / "BODY" [" STRUCTURE"] SP 본문 / "BODY" 섹션 ["<" 숫자 ">"] SP nstring / "UID" SP 고유 ID ; 메시지를 변경하면 안 됩니다.

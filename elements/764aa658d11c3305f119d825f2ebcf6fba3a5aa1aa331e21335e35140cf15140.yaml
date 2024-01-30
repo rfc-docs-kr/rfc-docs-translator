@@ -1,0 +1,20 @@
+"hash": |-
+  764aa658d11c3305f119d825f2ebcf6fba3a5aa1aa331e21335e35140cf15140
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client receives the 454 response, the client must decide
+     whether or not to continue the SMTP session.  Such a decision is
+     based on local policy.  For instance, if TLS was being used for
+     client authentication, the client might try to continue the session,
+     in case the server allows it even with no authentication.  However,
+     if TLS was being negotiated for encryption, a client that gets a 454
+     response needs to decide whether to send the message anyway with no
+     TLS encryption, whether to wait and try again later, or whether to
+     give up and notify the sender of the error.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

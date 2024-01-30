@@ -1,0 +1,18 @@
+"hash": |-
+  3e6d1e08463ca4fe9d5450da972c2d4d275915ac34b421f2b3f6414fe0aa5aac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Within EAP, the Code field functions much like a protocol number in
+     IP.  It is assumed that the EAP layer demultiplexes incoming EAP
+     packets according to the Code field.  Received EAP packets with
+     Code=1 (Request), 3 (Success), and 4 (Failure) are delivered by the
+     EAP layer to the EAP peer layer, if implemented.  EAP packets with
+     Code=2 (Response) are delivered to the EAP authenticator layer, if
+     implemented.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

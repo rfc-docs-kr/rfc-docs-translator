@@ -1,0 +1,19 @@
+"hash": |-
+  12dc0e0f16a5ccffb55d8ad7cb8462555431d948520b3ef52e223dc2a30f8fd7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If both agents use the lite mode, no connectivity checks are sent,
+     and additional procedures (e.g., media-level security) are needed to
+     validate the connection.  The lack of connectivity checks is
+     especially problematic if one of the hosts is behind a NAT and has an
+     address from a private address space: the peer may accidentally
+     connect to a host in a different subnet that uses the same private
+     address space.  This is one of the reasons why the lite mode is not
+     appropriate for an ICE agent located behind a NAT.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

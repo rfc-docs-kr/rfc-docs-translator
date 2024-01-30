@@ -1,0 +1,13 @@
+"hash": |-
+  722ab4b9287ed61a75b0759190d157e94cc52d3047ff3a9305b5def205ab4e30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations MUST NOT send zero-length fragments of Handshake
+     types, even if those fragments contain padding.
+"fixed": |-
+  Implementations MUST NOT send zero-length fragments of Handshake types, even if those fragments contain padding.
+"ko": |-
+  구현에서는 길이가 0인 Handshake 유형의 조각을 전송해서는 안 됩니다. 이는 해당 조각에 패딩이 포함되어 있는 경우에도 마찬가지입니다.

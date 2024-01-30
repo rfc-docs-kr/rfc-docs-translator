@@ -1,0 +1,17 @@
+"hash": |-
+  9b5b93e9b401a9075c7c5893d460552e6f73d8ee95d02bba9ca1a62514672029
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server SHOULD only check the status of the data protection level
+     (for options 3 and 4 above) on the actual command that will initiate
+     the data transfer (and not on the PORT or PASV).  The following
+     commands, defined in [RFC-959], cause data connections to be opened
+     and thus may be rejected before any 1xx message due to an incorrect
+     PROT setting.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

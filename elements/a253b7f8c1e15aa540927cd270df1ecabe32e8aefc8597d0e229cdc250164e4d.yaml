@@ -1,0 +1,18 @@
+"hash": |-
+  a253b7f8c1e15aa540927cd270df1ecabe32e8aefc8597d0e229cdc250164e4d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to be clear which field a given operation is performed in,
+     let mulX_GHASH be a function that takes a 16-byte string, converts it
+     to an element of GHASH's field using GHASH's convention, multiplies
+     it by x, and converts it back to a string.  Likewise, let
+     mulX_POLYVAL be a function that converts a 16-byte string to an
+     element of POLYVAL's field using POLYVAL's convention, multiplies it
+     by x, and converts it back.
+"fixed": |-
+  In order to be clear which field a given operation is performed in, let mulX_GHASH be a function that takes a 16-byte string, converts it to an element of GHASH's field using GHASH's convention, multiplies it by x, and converts it back to a string.  Likewise, let mulX_POLYVAL be a function that converts a 16-byte string to an element of POLYVAL's field using POLYVAL's convention, multiplies it by x, and converts it back.
+"ko": |-
+  특정 작업이 수행되는 필드를 명확하게 하기 위해 mulX_GHASH를 16바이트 문자열을 가져와 GHASH 규칙을 사용하여 GHASH 필드의 요소로 변환하고 x를 곱한 다음 다시 문자열로 변환하는 함수로 만듭니다. 끈. 마찬가지로 mulX_POLYVAL을 POLYVAL의 규칙을 사용하여 16바이트 문자열을 POLYVAL 필드의 요소로 변환하고 x를 곱한 다음 다시 변환하는 함수라고 가정합니다.

@@ -1,0 +1,27 @@
+"hash": |-
+  9376326e265bbc9bf6572a20d73beea4874d59eb5d871caa9f8280a55fd1fe2d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Initial Handshake:
+            ClientHello
+            + key_share               -------->
+                                                            ServerHello
+                                                            + key_share
+                                                  {EncryptedExtensions}
+                                                  {CertificateRequest*}
+                                                         {Certificate*}
+                                                   {CertificateVerify*}
+                                                             {Finished}
+                                      <--------     [Application Data*]
+            {Certificate*}
+            {CertificateVerify*}
+            {Finished}                -------->
+                                      <--------      [NewSessionTicket]
+            [Application Data]        <------->      [Application Data]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  5a29658a97cc3375f6489894fb0f0b9c2633ad44615ea0eb73815531234904ba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The example provided in Figure 3 depicts a request issued from the
+     access device, NAS, for the user bob@example.com.  The message is
+     forwarded by the NAS to its relay, DRL, which does not have a routing
+     entry in its Diameter routing table for example.com.  The DRL has a
+     default route configured to DRD, which is a redirect agent that
+     returns a redirect notification to DRL, as well as the HMS' contact
+     information.  Upon receipt of the redirect notification, the DRL
+     establishes a transport connection with the HMS, if one doesn't
+     already exist, and forwards the request to it.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

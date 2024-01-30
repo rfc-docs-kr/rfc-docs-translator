@@ -1,0 +1,20 @@
+"hash": |-
+  43afc6430bd71b7e606b081faaf5d7479059431bfafb89b365a1a200ce43be28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        a) If the event in the queue is in the events listed in the new
+           EventsDescriptor, the MG acts on the event and removes the
+           event from the EventBuffer.  The time stamp of the Notify shall
+           be the time the event was actually detected.  The MG then waits
+           for a new EventsDescriptor. While waiting for a new
+           EventsDescriptor, any events detected that appear in the
+           EventsBufferDescriptor will be placed in the EventBuffer.  When
+           a new EventsDescriptor is received, the event processing will
+           repeat from step 1.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

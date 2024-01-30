@@ -1,0 +1,25 @@
+"hash": |-
+  4f8fdc3cc94d51d8ccbedade19c499918022e121de48fa6e0bb60df14c557efd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The M3UA Layer at an ASP or IPSP provides the equivalent set of
+     primitives at its upper layer to the MTP3-Users as provided by the
+     MTP Level 3 to its local MTP3-Users at an SS7 SEP.  In this way, the
+     ISUP and/or SCCP layer at an ASP or IPSP is unaware that the expected
+     MTP3 services are offered remotely from an MTP3 Layer at an SGP, and
+     not by a local MTP3 layer.  The MTP3 layer at an SGP may also be
+     unaware that its local users are actually remote user parts over
+     M3UA.  In effect, the M3UA extends access to the MTP3 layer services
+     to a remote IP-based application.  The M3UA layer does not itself
+     provide the MTP3 services.  However, in the case where an ASP is
+     connected to more than one SG, the M3UA layer at an ASP should
+     maintain the status of configured SS7 destinations and route messages
+     according to the availability and congestion status of the routes to
+     these destinations via each SG.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

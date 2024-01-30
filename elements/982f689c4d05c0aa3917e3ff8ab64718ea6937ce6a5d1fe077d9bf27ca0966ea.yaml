@@ -1,0 +1,19 @@
+"hash": |-
+  982f689c4d05c0aa3917e3ff8ab64718ea6937ce6a5d1fe077d9bf27ca0966ea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Application Data records may contain a zero-length
+     TLSInnerPlaintext.content if the sender desires.  This permits
+     generation of plausibly sized cover traffic in contexts where the
+     presence or absence of activity may be sensitive.  Implementations
+     MUST NOT send Handshake and Alert records that have a zero-length
+     TLSInnerPlaintext.content; if such a message is received, the
+     receiving implementation MUST terminate the connection with an
+     "unexpected_message" alert.
+"fixed": |-
+  Application Data records may contain a zero-length TLSInnerPlaintext.content if the sender desires.  This permits generation of plausibly sized cover traffic in contexts where the presence or absence of activity may be sensitive.  Implementations MUST NOT send Handshake and Alert records that have a zero-length TLSInnerPlaintext.content; if such a message is received, the receiving implementation MUST terminate the connection with an "unexpected_message" alert.
+"ko": |-
+  발신자가 원하는 경우 애플리케이션 데이터 레코드에는 길이가 0인 TLSInnerPlaintext.content가 포함될 수 있습니다. 이를 통해 활동 유무가 민감한 상황에서 그럴듯한 크기의 커버 트래픽을 생성할 수 있습니다. 구현은 길이가 0인 TLSInnerPlaintext.content가 있는 핸드셰이크 및 경고 레코드를 전송해서는 안 됩니다. 그러한 메시지가 수신되면 수신 구현은 "unexpected_message" 경고와 함께 연결을 종료해야 합니다.

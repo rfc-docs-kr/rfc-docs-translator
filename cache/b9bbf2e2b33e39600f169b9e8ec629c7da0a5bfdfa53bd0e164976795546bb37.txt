@@ -1,0 +1,1 @@
+DNS는 <local-part>를 단일 레이블로 인코딩하고, <mail-domain>을 도메인 이름으로 인코딩합니다. <local-part>의 단일 레이블은 <mail-domain>의 도메인 이름 앞에 추가되어 사서함에 해당하는 도메인 이름을 형성합니다. 따라서 사서함 HOSTMASTER@SRI-NIC.ARPA는 도메인 이름 HOSTMASTER.SRI-NIC.ARPA에 매핑됩니다. <local-part>에 점이나 기타 특수 문자가 포함된 경우 마스터 파일에 표시하려면 도메인 이름이 올바르게 인코딩되도록 백슬래시 인용을 사용해야 합니다. 예를 들어 Action.domains@ISI.EDU 사서함은 Action\.domains.ISI.EDU로 표시됩니다.

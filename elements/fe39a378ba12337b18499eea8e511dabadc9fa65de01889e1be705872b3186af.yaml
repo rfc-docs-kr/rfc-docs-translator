@@ -1,0 +1,26 @@
+"hash": |-
+  fe39a378ba12337b18499eea8e511dabadc9fa65de01889e1be705872b3186af
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The MD5-Challenge Type is analogous to the PPP CHAP protocol
+        [RFC1994] (with MD5 as the specified algorithm).  The Request
+        contains a "challenge" message to the peer.  A Response MUST be
+        sent in reply to the Request.  The Response MAY be either of Type
+        4 (MD5-Challenge), Nak (Type 3), or Expanded Nak (Type 254).  The
+        Nak reply indicates the peer's desired authentication Type(s).
+        EAP peer and EAP server implementations MUST support the MD5-
+        Challenge mechanism.  An authenticator that supports only pass-
+        through MUST allow communication with a backend authentication
+        server that is capable of supporting MD5-Challenge, although the
+        EAP authenticator implementation need not support MD5-Challenge
+        itself.  However, if the EAP authenticator can be configured to
+        authenticate peers locally (e.g., not operate in pass-through),
+        then the requirement for support of the MD5-Challenge mechanism
+        applies.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

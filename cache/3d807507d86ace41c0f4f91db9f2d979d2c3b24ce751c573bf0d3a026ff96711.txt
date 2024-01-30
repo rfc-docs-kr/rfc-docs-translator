@@ -1,0 +1,1 @@
+   * 두 번째 작업이 불법 작업이거나 NFSv4의 이전 마이너 버전에서 적법했고 현재 마이너 버전(예: SETCLIENTID)에서 지원되어서는 안 되는 작업인 경우 응답자는 NFS4ERR_RETRY_UNCACHED_REP를 반환해서는 안 됩니다. 대신 응답자는 NFS4ERR_OP_ILLEGAL, NFS4ERR_BADXDR 또는 NFS4ERR_NOTSUPP를 적절하게 반환해야 합니다.

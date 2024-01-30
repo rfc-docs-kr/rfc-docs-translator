@@ -1,0 +1,15 @@
+"hash": |-
+  11a7189c4b43a6645f603a5996b8f6cca77da81fb7e22d5975920ae82840ab74
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     request_update:  Indicates whether the recipient of the KeyUpdate
+        should respond with its own KeyUpdate.  If an implementation
+        receives any other value, it MUST terminate the connection with an
+        "illegal_parameter" alert.
+"fixed": |-
+  request_update:  Indicates whether the recipient of the KeyUpdate should respond with its own KeyUpdate.  If an implementation receives any other value, it MUST terminate the connection with an "illegal_parameter" alert.
+"ko": |-
+  request_update: KeyUpdate 수신자가 자체 KeyUpdate로 응답해야 하는지 여부를 나타냅니다. 구현이 다른 값을 수신하는 경우 "illegal_parameter" 경고와 함께 연결을 종료해야 합니다.

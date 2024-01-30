@@ -1,0 +1,20 @@
+"hash": |-
+  3a66c17138c0a8e9ed48274432b8c2839d21813a9080185c99d942a56740451f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              DISCUSSION:
+                   Passing all received IP options to the transport layer
+                   is a deliberate "violation of strict layering" that is
+                   designed to ease the introduction of new transport-
+                   relevant IP options in the future.  Each layer must
+                   pick out any options that are relevant to its own
+                   processing and ignore the rest.  For this purpose,
+                   every IP option except NOP and END-OF-LIST will include
+                   a specification of its own length.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

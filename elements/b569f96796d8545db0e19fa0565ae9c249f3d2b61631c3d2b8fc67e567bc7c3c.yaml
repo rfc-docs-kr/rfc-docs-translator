@@ -1,0 +1,24 @@
+"hash": |-
+  b569f96796d8545db0e19fa0565ae9c249f3d2b61631c3d2b8fc67e567bc7c3c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TCP endpoints consume sequence number space each time a segment is
+     formed and entered into the network output queue at a source host.
+     The duplicate detection and sequencing algorithm in TCP relies on the
+     unique binding of segment data to sequence space to the extent that
+     sequence numbers will not cycle through all 2^32 values before the
+     segment data bound to those sequence numbers has been delivered and
+     acknowledged by the receiver and all duplicate copies of the segments
+     have "drained" from the internet.  Without such an assumption, two
+     distinct TCP segments could conceivably be assigned the same or
+     overlapping sequence numbers, causing confusion at the receiver as to
+     which data is new and which is old.  Remember that each segment is
+     bound to as many consecutive sequence numbers as there are octets of
+     data and SYN or FIN flags in the segment.
+"fixed": |-
+  TCP endpoints consume sequence number space each time a segment is formed and entered into the network output queue at a source host. The duplicate detection and sequencing algorithm in TCP relies on the unique binding of segment data to sequence space to the extent that sequence numbers will not cycle through all 2^32 values before the segment data bound to those sequence numbers has been delivered and acknowledged by the receiver and all duplicate copies of the segments have "drained" from the internet.  Without such an assumption, two distinct TCP segments could conceivably be assigned the same or overlapping sequence numbers, causing confusion at the receiver as to which data is new and which is old.  Remember that each segment is bound to as many consecutive sequence numbers as there are octets of data and SYN or FIN flags in the segment.
+"ko": |-
+  TCP 끝점은 세그먼트가 형성되어 소스 호스트의 네트워크 출력 대기열에 입력될 때마다 시퀀스 번호 공간을 사용합니다. TCP의 중복 감지 및 시퀀싱 알고리즘은 해당 시퀀스 번호에 바인딩된 세그먼트 데이터가 전달되고 승인되기 전에 시퀀스 번호가 모든 2^32 값을 순환하지 않는 범위까지 세그먼트 데이터의 시퀀스 공간에 대한 고유한 바인딩에 의존합니다. 수신기와 세그먼트의 모든 중복 복사본이 인터넷에서 "소진"되었습니다. 이러한 가정이 없으면 두 개의 서로 다른 TCP 세그먼트에 동일하거나 겹치는 시퀀스 번호가 할당되어 수신자에게 어떤 데이터가 새 데이터이고 어떤 데이터가 오래된 것인지 혼동을 일으킬 수 있습니다. 각 세그먼트는 세그먼트에 있는 데이터 옥텟과 SYN 또는 FIN 플래그 수만큼 연속된 시퀀스 번호에 바인딩된다는 점을 기억하세요.

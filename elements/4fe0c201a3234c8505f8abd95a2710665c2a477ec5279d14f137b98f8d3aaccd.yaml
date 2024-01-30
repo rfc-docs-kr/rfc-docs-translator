@@ -1,0 +1,24 @@
+"hash": |-
+  4fe0c201a3234c8505f8abd95a2710665c2a477ec5279d14f137b98f8d3aaccd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Security mechanisms require a "cryptographic hash function" (e.g.,
+        MD2, MD4, MD5, SHA-1, Snefru), i.e., a good hash function that
+        also has the one-way property and one of the two collision-free
+        properties:
+        -  "One-way property": Given H and a hash result h = H(s), it is
+           hard (i.e., computationally infeasible, "impossible") to find
+           s. (Of course, given H and an input s, it must be relatively
+           easy to compute the hash result H(s).)
+        -  "Weakly collision-free property": Given H and an input s, it is
+           hard (i.e., computationally infeasible, "impossible") to find a
+           different input, s', such that H(s) = H(s').
+        -  "Strongly collision-free property": Given H, it is hard to find
+           any pair of inputs s and s' such that H(s) = H(s').
+"fixed": |-
+  - Security mechanisms require a "cryptographic hash function" (e.g., MD2, MD4, MD5, SHA-1, Snefru), i.e., a good hash function that also has the one-way property and one of the two collision-free properties: -  "One-way property": Given H and a hash result h = H(s), it is hard (i.e., computationally infeasible, "impossible") to find s. (Of course, given H and an input s, it must be relatively easy to compute the hash result H(s).) -  "Weakly collision-free property": Given H and an input s, it is hard (i.e., computationally infeasible, "impossible") to find a different input, s', such that H(s) = H(s'). -  "Strongly collision-free property": Given H, it is hard to find any pair of inputs s and s' such that H(s) = H(s').
+"ko": |-
+  - 보안 메커니즘에는 "암호화 해시 함수"(예: MD2, MD4, MD5, SHA-1, Snefru)가 필요합니다. 즉, 단방향 속성과 두 가지 충돌 방지 속성 중 하나를 갖는 좋은 해시 함수입니다. - "단방향 속성": H와 해시 결과 h = H(s)가 주어지면 s를 찾는 것이 어렵습니다(즉, 계산적으로 실행 불가능, "불가능"). (물론 H와 입력 s가 주어지면 해시 결과 H(s)를 계산하는 것이 상대적으로 쉬워야 합니다.) - "약한 충돌 방지 속성": H와 입력 s가 주어지면 어렵습니다(즉, 계산적으로 실행 불가능, "불가능") H(s) = H(s')가 되는 다른 입력 s'를 찾는 것입니다. - "충돌이 없는 특성": H가 주어지면 H(s) = H(s')가 되는 입력 s 및 s' 쌍을 찾기가 어렵습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  b080455d4a7e1a4aa552fc1d4614f50b511da1c18dda4284c8c11ad20d71748f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TransactionResponse Acknowledgement parameter can be found in
+     any message. It carries a set of "confirmed transaction-id ranges".
+     Entities may choose to delete the copies of the responses to
+     transactions whose id is included in "confirmed transaction-id
+     ranges" received in the transaction response messages. They should
+     silently discard further commands when the transaction-id falls
+     within these ranges.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

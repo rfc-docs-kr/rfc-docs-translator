@@ -1,0 +1,1 @@
+   이 작업에 지정된 share_access 및 share_deny 비트는 지정된 열린 파일에 대한 현재 비트를 대체합니다. 지정된 share_access 및 share_deny 비트는 현재 파일의 현재 openowner에 대해 유효한 OPEN의 일부 하위 집합에 대해 지정된 share_access 및 share_deny 비트의 합집합과 정확히 동일해야 합니다. 해당 제약 조건이 준수되지 않으면 NFS4ERR_INVAL 오류가 반환되어야 합니다. share_access 및 share_deny 비트는 이미 부여된 비트의 하위 집합이므로 공유 예약 충돌로 인해 이 요청이 거부될 수 없습니다.

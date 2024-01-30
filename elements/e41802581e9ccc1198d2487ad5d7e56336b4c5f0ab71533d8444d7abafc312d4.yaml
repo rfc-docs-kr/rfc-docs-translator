@@ -1,0 +1,27 @@
+"hash": |-
+  e41802581e9ccc1198d2487ad5d7e56336b4c5f0ab71533d8444d7abafc312d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: Data integrity service may be implemented in a protocol
+        to protect the SDU part of packets, the PCI part, or both.
+        -  SDU protection: When service is provided for SDUs, it usually
+           is applied to entire SDUs, but it might be applied only to
+           parts of SDUs in some situations. For example, an IPS
+           Application-Layer protocol might need protection of only part
+           of each packet, and this might enable faster processing.
+        -  PCI protection: To prevent active wiretapping, it might be
+           desirable to apply data integrity service to the entire PCI,
+           but some PCI fields in some protocols need to be mutable in
+           transit. For example, the "Time to Live" field in IPv4 is
+           changed each time a packet passes through a router in the
+           Internet Layer. Thus, the value that the field will have when
+           the packet arrives at its destination is not predictable by the
+           sender and cannot be included in a checksum computed by the
+           sender. (See: Authentication Header.)
+"fixed": |-
+  - Tutorial: Data integrity service may be implemented in a protocol to protect the SDU part of packets, the PCI part, or both. -  SDU protection: When service is provided for SDUs, it usually is applied to entire SDUs, but it might be applied only to parts of SDUs in some situations. For example, an IPS Application-Layer protocol might need protection of only part of each packet, and this might enable faster processing. -  PCI protection: To prevent active wiretapping, it might be desirable to apply data integrity service to the entire PCI, but some PCI fields in some protocols need to be mutable in transit. For example, the "Time to Live" field in IPv4 is changed each time a packet passes through a router in the Internet Layer. Thus, the value that the field will have when the packet arrives at its destination is not predictable by the sender and cannot be included in a checksum computed by the sender. (See: Authentication Header.)
+"ko": |-
+  - 튜토리얼: 데이터 무결성 서비스는 패킷의 SDU 부분, PCI 부분 또는 둘 다를 보호하기 위해 프로토콜에서 구현될 수 있습니다. - SDU 보호: SDU에 대해 서비스를 제공하는 경우 일반적으로 SDU 전체에 적용되지만, 상황에 따라 SDU의 일부에만 적용되는 경우도 있습니다. 예를 들어, IPS 응용 프로그램 계층 프로토콜은 각 패킷의 일부만 보호해야 할 수 있으며 이를 통해 처리 속도가 더 빨라질 수 있습니다. - PCI 보호: 활성 도청을 방지하려면 전체 PCI에 데이터 무결성 서비스를 적용하는 것이 바람직할 수 있지만 일부 프로토콜의 일부 PCI 필드는 전송 중에 변경 가능해야 합니다. 예를 들어, IPv4의 "Time to Live" 필드는 패킷이 인터넷 계층의 라우터를 통과할 때마다 변경됩니다. 따라서 패킷이 목적지에 도착할 때 필드에 포함되는 값은 보낸 사람이 예측할 수 없으며 보낸 사람이 계산한 체크섬에 포함될 수 없습니다. (참조: 인증 헤더.)

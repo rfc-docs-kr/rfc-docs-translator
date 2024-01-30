@@ -1,0 +1,23 @@
+"hash": |-
+  de389962927e3842c309ab6b2857177e231f99a8fcd95ed50196bf1569d91cba
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        <answer-message> ::= < Diameter Header: code, ERR [, PXY] >
+                          0*1< Session-Id >
+                             { Origin-Host }
+                             { Origin-Realm }
+                             { Result-Code }
+                             [ Origin-State-Id ]
+                             [ Error-Message ]
+                             [ Error-Reporting-Host ]
+                             [ Failed-AVP ]
+                             [ Experimental-Result ]
+                           * [ Proxy-Info ]
+                           * [ AVP ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

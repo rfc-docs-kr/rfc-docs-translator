@@ -1,0 +1,16 @@
+"hash": |-
+  e1e8bb51c8dfa828df68c2c568e7bce16f5876fe53d1cdf335d406e07fd64496
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When TCP is used in a situation where either the IP or TCP headers
+     are not fixed, the sender must reduce the amount of TCP data in any
+     given packet by the number of octets used by the IP and TCP options.
+     This has been a point of confusion historically, as explained in RFC
+     6691, Section 3.1.
+"fixed": |-
+  When TCP is used in a situation where either the IP or TCP headers are not fixed, the sender must reduce the amount of TCP data in any given packet by the number of octets used by the IP and TCP options. This has been a point of confusion historically, as explained in RFC 6691, Section 3.1.
+"ko": |-
+  IP 또는 TCP 헤더가 고정되지 않은 상황에서 TCP를 사용하는 경우 보낸 사람은 IP 및 TCP 옵션에서 사용하는 옥텟 수만큼 특정 패킷의 TCP 데이터 양을 줄여야 합니다. RFC 6691, 섹션 3.1에 설명된 것처럼 이는 역사적으로 혼란스러운 지점이었습니다.

@@ -1,0 +1,50 @@
+"hash": |-
+  58ec29c852bdfefad80da87371ccaccab8d8a609b43f310afd3d177502f17f83
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    | Contcheck      | 9003    | BOOLEAN         |  Continuity Check     |
+    |     Reference: ITU Recommendation Q.763                            |
+    |     0 - Not required on this circuit                               |
+    |     1 - Required on this circuit                                   |
+    +----------------+---------+-----------------+-----------------------+
+    |  ITC           | 9004    | 5 BITS          |  Information Transfer |
+    |                |         |                 |   Capability          |
+    |     Reference: ITU Recommendation Q.763                            |
+    |     Bits 5 4 3 2 1                                                 |
+    |     00000 - Speech                                                 |
+    |     01000 - Unrestricted digital information                       |
+    |     01001 - Restricted digital information                         |
+    |     10000 - 3.1 kHz audio                                          |
+    |     10001 - Unrestricted digital information with                  |
+    |                tones/announcements                                 |
+    |     11000 - Video                                                  |
+    |     All other values are reserved.                                 |
+    +----------------+---------+-----------------+-----------------------+
+    | TransMode      | 9005    | 2 BITS          |  Transfer Mode        |
+    |     Reference: ITU Recommendation Q.931                            |
+    |     Bit 2 1                                                        |
+    |     00 - Circuit mode                                              |
+    |     10 - Packet mode                                               |
+    +----------------+---------+-----------------+-----------------------+
+    | TransRate      | 9006    | 5 BITS          |  Transfer Rate        |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bit 5 4 3 2 1                                                   |
+    |    00000 - This code shall be used for packet mode calls           |
+    |    10000 - 64 kbit/s                                               |
+    |    10001 - 2 x 64 kbit/s                                           |
+    |    10011 -384 kbit/s                                               |
+    |    10101 -1536 kbit/s                                              |
+    |    10111 -1920 kbit/s                                              |
+    |    11000 - Multirate (64 kbit/s base rate)                         |
+    +----------------+---------+-----------------+-----------------------+
+    | MULT           | 9007    | 7 BITS          |  Rate Multiplier      |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Any value from 2 to n (maximum number of B-channels)            |
+    +----------------+---------+-----------------+-----------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

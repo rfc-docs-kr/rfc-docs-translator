@@ -1,0 +1,49 @@
+"hash": |-
+  3da9f6cf0933003cf945c0b3ea88a61e4c4b92d066c2191557b724f604ddf9e1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                       Action taken in state
+     Circumstances            Backup                All other states
+     _________________________________________________________________
+     LSA  has                 No  acknowledgment    No  acknowledgment
+     been  flooded back       sent.                 sent.
+     out receiving  in-
+     terface  (see Sec-
+     tion 13, step 5b).
+     _________________________________________________________________
+     LSA   is                 Delayed acknowledg-   Delayed       ack-
+     more  recent  than       ment sent if adver-   nowledgment sent.
+     database copy, but       tisement   received
+     was   not  flooded       from    Designated
+     back out receiving       Router,  otherwise
+     interface                do nothing
+     _________________________________________________________________
+     LSA is a                 Delayed acknowledg-   No  acknowledgment
+     duplicate, and was       ment sent if adver-   sent.
+     treated as an  im-       tisement   received
+     plied  acknowledg-       from    Designated
+     ment (see  Section       Router,  otherwise
+     13, step 7a).            do nothing
+     _________________________________________________________________
+     LSA is a                 Direct acknowledg-    Direct acknowledg-
+     duplicate, and was       ment sent.            ment sent.
+     not treated as  an
+     implied       ack-
+     nowledgment.
+     _________________________________________________________________
+     LSA's LS                 Direct acknowledg-    Direct acknowledg-
+     age is equal to          ment sent.            ment sent.
+     MaxAge, and there is
+     no current instance
+     of the LSA
+     in the link state
+     database, and none
+     of router's neighbors
+     are in states Exchange
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

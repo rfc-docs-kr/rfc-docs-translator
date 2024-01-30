@@ -1,0 +1,20 @@
+"hash": |-
+  fe527f61322593cb81e0361c0320f07881971d95aedcdce238f25fb4c76d6a22
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because the ClientHello indicates the time at which the client sent
+     it, it is possible to efficiently determine whether a ClientHello was
+     likely sent reasonably recently and only accept 0-RTT for such a
+     ClientHello, otherwise falling back to a 1-RTT handshake.  This is
+     necessary for the ClientHello storage mechanism described in
+     Section 8.2 because otherwise the server needs to store an unlimited
+     number of ClientHellos, and is a useful optimization for self-
+     contained single-use tickets because it allows efficient rejection of
+     ClientHellos which cannot be used for 0-RTT.
+"fixed": |-
+  Because the ClientHello indicates the time at which the client sent it, it is possible to efficiently determine whether a ClientHello was likely sent reasonably recently and only accept 0-RTT for such a ClientHello, otherwise falling back to a 1-RTT handshake.  This is necessary for the ClientHello storage mechanism described in Section 8.2 because otherwise the server needs to store an unlimited number of ClientHellos, and is a useful optimization for self- contained single-use tickets because it allows efficient rejection of ClientHellos which cannot be used for 0-RTT.
+"ko": |-
+  ClientHello는 클라이언트가 보낸 시간을 나타내기 때문에 ClientHello가 최근에 합리적으로 전송되었는지 여부를 효율적으로 판단하고 그러한 ClientHello에 대해 0-RTT만 허용하고, 그렇지 않으면 1-RTT 핸드셰이크로 폴백하는 것이 가능합니다. 이는 섹션 8.2에 설명된 ClientHello 저장 메커니즘에 필요합니다. 그렇지 않으면 서버가 ClientHellos를 무제한으로 저장해야 하고, 사용할 수 없는 ClientHellos를 효율적으로 거부할 수 있으므로 자체 포함된 일회용 티켓에 유용한 최적화입니다. 0-RTT.

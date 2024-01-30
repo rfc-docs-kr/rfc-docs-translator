@@ -1,0 +1,20 @@
+"hash": |-
+  439e8baccc1cd081b723ae841b7fb182df7609d64ef935b893583adc894a8fc8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A host's claim on an IPv4 Link-Local address is valid only as long as
+     that host remains connected to the link, actively defending against
+     probes for its chosen address.  As soon as a host shuts down, sleeps,
+     or otherwise disconnects from a link, it immediately relinquishes any
+     claim it may have had on any IPv4 Link-Local address on that link.  A
+     host wishing to reclaim a previously used IPv4 Link-Local address
+     MUST perform the full probing and announcement process required by
+     "Dynamic Configuration of IPv4 Link-Local Addresses" [RFC3927] and
+     MUST NOT attempt to use DNAv4 as a shortcut to bypass that process.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,24 @@
+"hash": |-
+  14cf7cad605dd8778eb9136c1f49a2c7f6c3ea9452d3a7c6ac08bc496199e6bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This document describes binding an access token to the client
+     certificate presented on the TLS connection from the client to the
+     authorization server's token endpoint, however, such binding of
+     access tokens issued directly from the authorization endpoint via the
+     implicit grant flow is explicitly out of scope.  End users interact
+     directly with the authorization endpoint using a web browser, and the
+     use of client certificates in user's browsers bring operational and
+     usability issues that make it undesirable to support certificate-
+     bound access tokens issued in the implicit grant flow.
+     Implementations wanting to employ certificate-bound access tokens
+     should utilize grant types that involve the client making an access
+     token request directly to the token endpoint (e.g., the authorization
+     code and refresh token grant types).
+"fixed": |-
+  This document describes binding an access token to the client certificate presented on the TLS connection from the client to the authorization server's token endpoint, however, such binding of access tokens issued directly from the authorization endpoint via the implicit grant flow is explicitly out of scope.  End users interact directly with the authorization endpoint using a web browser, and the use of client certificates in user's browsers bring operational and usability issues that make it undesirable to support certificate- bound access tokens issued in the implicit grant flow. Implementations wanting to employ certificate-bound access tokens should utilize grant types that involve the client making an access token request directly to the token endpoint (e.g., the authorization code and refresh token grant types).
+"ko": |-
+  이 문서에서는 클라이언트에서 인증 서버의 토큰 엔드포인트로의 TLS 연결에 제시된 클라이언트 인증서에 액세스 토큰을 바인딩하는 방법을 설명합니다. 그러나 암시적 승인 흐름을 통해 인증 엔드포인트에서 직접 발급된 액세스 토큰의 바인딩은 명시적으로 범위를 벗어납니다. 최종 사용자는 웹 브라우저를 사용하여 인증 끝점과 직접 상호 작용하며, 사용자 브라우저에서 클라이언트 인증서를 사용하면 암시적 승인 흐름에서 발급된 인증서 바인딩된 액세스 토큰을 지원하는 것이 바람직하지 않게 만드는 운영 및 유용성 문제가 발생합니다. 인증서 바인딩된 액세스 토큰을 사용하려는 구현에서는 클라이언트가 토큰 엔드포인트에 직접 액세스 토큰 요청을 하는 것과 관련된 부여 유형(예: 인증 코드 및 새로 고침 토큰 부여 유형)을 활용해야 합니다.

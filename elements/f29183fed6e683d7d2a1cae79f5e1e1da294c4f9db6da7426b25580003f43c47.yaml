@@ -1,0 +1,24 @@
+"hash": |-
+  f29183fed6e683d7d2a1cae79f5e1e1da294c4f9db6da7426b25580003f43c47
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     We also wish to note that the probability of successful forgery
+     increases with the number of attempts that an attacker is permitted.
+     The advantage defined in [key-derive] and used above is specified in
+     terms of the ability of an attacker to distinguish ciphertexts from
+     random bit strings.  It thus covers both confidentiality and
+     integrity, and Theorem 6.2 in [key-derive] shows that the advantage
+     increases with the number of decryption attempts, although much more
+     slowly than with the number of encryptions; the dependence on the
+     number of decryption queries for forgery is actually only linear, not
+     quadratic.  The latter is an artifact of the bound in the paper not
+     being tight.  If an attacker is permitted extremely large numbers of
+     attempts, then the tiny probability that any given attempt succeeds
+     may sum to a non-trivial chance.
+"fixed": |-
+  We also wish to note that the probability of successful forgery increases with the number of attempts that an attacker is permitted. The advantage defined in [key-derive] and used above is specified in terms of the ability of an attacker to distinguish ciphertexts from random bit strings.  It thus covers both confidentiality and integrity, and Theorem 6.2 in [key-derive] shows that the advantage increases with the number of decryption attempts, although much more slowly than with the number of encryptions; the dependence on the number of decryption queries for forgery is actually only linear, not quadratic.  The latter is an artifact of the bound in the paper not being tight.  If an attacker is permitted extremely large numbers of attempts, then the tiny probability that any given attempt succeeds may sum to a non-trivial chance.
+"ko": |-
+  또한 공격자가 허용되는 시도 횟수에 따라 위조 성공 확률이 높아진다는 점에 유의하고 싶습니다. [key-derive]에서 정의되고 위에서 사용된 이점은 공격자가 암호문을 임의의 비트 문자열과 구별할 수 있는 능력이라는 측면에서 지정됩니다. 따라서 기밀성과 무결성을 모두 다루고 [키 파생]의 정리 6.2는 암호화 횟수보다 훨씬 느리긴 하지만 해독 시도 횟수에 따라 이점이 증가한다는 것을 보여줍니다. 위조에 대한 암호 해독 쿼리 수에 대한 의존성은 실제로 2차가 아닌 선형일 뿐입니다. 후자는 종이의 경계가 빡빡하지 않은 인공물입니다. 공격자에게 극도로 많은 시도가 허용되는 경우 특정 시도가 성공할 확률은 적지 않은 확률로 합산될 수 있습니다.

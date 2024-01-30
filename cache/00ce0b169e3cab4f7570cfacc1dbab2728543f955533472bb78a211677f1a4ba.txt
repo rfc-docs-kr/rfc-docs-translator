@@ -1,0 +1,1 @@
+   이 방정식에서 max_size_hash_input은 기본 해시 함수의 최대 입력 길이(바이트), Nb는 기본 해시 함수의 블록 크기(바이트), size_version_label은 "HPKE-v1"의 크기(바이트)이고 7과 같습니다. size_suite_id는 suite_id의 바이트 단위 크기이며 DHKEM(ikm 관련)의 경우 5, HPKE의 나머지 부분(psk, psk_id, info 및 exporter_context 관련)의 경우 10과 같습니다. size_input_label은 LabeledExtract() 또는 LabeledExpand(), 이 문서의 모든 레이블에서 최대값은 13입니다.

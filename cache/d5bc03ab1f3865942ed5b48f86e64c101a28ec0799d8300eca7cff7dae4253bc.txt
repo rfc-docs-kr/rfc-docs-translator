@@ -1,0 +1,1 @@
+   * id-sha1, id-sha256, id-sha384 및 id-sha512에 대한 AlgorithmIdentifier 값의 매개변수가 NULL이어야 한다는 요구 사항이 매개변수를 생략하라는 권장 사항으로 변경되었습니다(매개변수는 여전히 NULL이 되도록 허용함). 이는 NIST가 원래 발표한 정의와 일치하기 위한 것입니다. 구현에서는 매개변수가 없는 경우와 NULL 매개변수가 있는 경우 모두 AlgorithmIdentifier 값을 허용해야 합니다.

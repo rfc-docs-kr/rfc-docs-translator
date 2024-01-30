@@ -1,0 +1,1 @@
+     /* 블라인드 인자 계산 */ PRK_h := HKDF-Extract("key-derivation", zkey) h := HKDF-Expand(PRK_h, label || "gns", 512 / 8) /* h == h인지 확인 모드 L */ h := h 모드 L

@@ -1,0 +1,20 @@
+"hash": |-
+  14a2620e2d4e8b69d5152e65937aabf05535a5a77603f4eda833f13a3c2dbc3c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Router ID
+          A 32-bit number that uniquely identifies this router in the AS.
+          One possible implementation strategy would be to use the
+          smallest IP interface address belonging to the router. If a
+          router's OSPF Router ID is changed, the router's OSPF software
+          should be restarted before the new Router ID takes effect.  In
+          this case the router should flush its self-originated LSAs from
+          the routing domain (see Section 14.1) before restarting, or they
+          will persist for up to MaxAge minutes.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

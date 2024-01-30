@@ -1,0 +1,1 @@
+   세션에 작업 채널과 연결된 비RDMA 연결만 있는 경우 클라이언트는 슬롯 ID > rsa_target_highest_slotid인 모든 미해결 요청이 완료될 때까지 기다린 다음 sa_highestslot 필드와 함께 단일 SEQUENCE 작업으로 구성된 단일 COMPOUND를 보내면 됩니다. rsa_target_highest_slotid로 설정합니다. 작업 채널과 연결된 RDMA 기반 연결이 있는 경우 클라이언트는 총 RDMA 크레딧 수를 rsa_target_highest_slotid + 1 이하로 가져오기 위해 길이가 0인 "RDMA 보내기" 메시지도 충분히 보내야 합니다.

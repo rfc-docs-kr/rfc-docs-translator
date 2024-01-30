@@ -1,0 +1,1 @@
+   * 모든 CDN이 HTTPS 레코드를 게시하지 않는 경우 클라이언트는 때때로 HTTPS 쿼리에 대해 NODATA를 수신하지만(위의 cdn3.svc3.example과 같이) 다른 CDN에서 A/AAAA 레코드를 수신할 수도 있습니다. 클라이언트는 HTTPS 레코드를 활용하지 않고 이 CDN에 연결을 시도합니다.

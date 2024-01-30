@@ -1,0 +1,12 @@
+TYPE에 입력된 값을 참조하기 위해 다음을 정의합니다.
+이더넷 패킷 헤더의 필드:
+에테르_유형$XEROX_PUP,
+에테르_유형$DOD_INTERNET,
+에테르_유형$CHAOS,
+그리고 새로운 것 :
+에테르_유형$ADDRESS_RESOLUTION.
+또한 다음 값을 정의합니다(나중에 설명).
+ares_op$REQUEST(= 1, 상위 바이트가 먼저 전송됨) 및
+ares_op$REPLY (= 2),
+그리고
+ares_hrd$Ethernet (= 1).

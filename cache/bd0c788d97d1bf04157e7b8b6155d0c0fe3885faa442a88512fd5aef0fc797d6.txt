@@ -1,0 +1,3 @@
+   IKEv2
+
+- [RFC4306]에 정의된 IKEv2(Internet Key Exchange v2)는 EAP에 대한 지원을 포함하고 유니캐스트 보안 연결 설정(2a단계)을 처리합니다. 그러나 멀티캐스트 보안 연결(2b단계) 설정에는 일반적으로 EAP가 포함되지 않으며 GDOI(Group Domain of Interpretation) [RFC3547], GSAKMP(Group Secure Association Key Management Protocol)와 같은 그룹 키 관리 프로토콜에 의해 처리되어야 합니다. [RFC4535], 멀티미디어 인터넷 키잉(MIKEY) [RFC3830] 또는 그룹 키 분배 프로토콜(GKDP) [GKDP]. IPsec 보안 게이트웨이 검색을 위해 여러 가지 메커니즘이 제안되었습니다. [RFC2230]에서는 IPsec 게이트웨이 검색을 위한 KX(Key eXchange) RR(리소스 레코드) 사용에 대해 설명합니다. KX RR은 많은 DNS(도메인 이름 서비스) 서버 구현에서 지원되지만 아직 널리 배포되지는 않았습니다. 또는 DNS SRV RR [RFC2782]을 이 목적으로 사용할 수 있습니다. 게이트웨이 위치에 DNS가 사용되는 경우 DNS 보안(DNSSEC)([RFC4033], [RFC4035]), TSIG [RFC2845] 및 단순 보안 동적 업데이트[RFC3007]와 같은 DNS 보안 메커니즘을 사용할 수 있습니다.

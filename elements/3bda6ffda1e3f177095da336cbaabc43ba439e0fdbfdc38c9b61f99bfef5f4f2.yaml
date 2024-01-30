@@ -1,0 +1,19 @@
+"hash": |-
+  3bda6ffda1e3f177095da336cbaabc43ba439e0fdbfdc38c9b61f99bfef5f4f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This temptation must be resisted.  An ARP server should never
+        respond to a request whose target is a broadcast address.  Such a
+        request can only come from a host that does not recognize the
+        broadcast address as such, and so honoring it would almost
+        certainly lead to a forwarding loop.  If there are N such hosts on
+        the physical network that do not recognize this address as a
+        broadcast, then a datagram sent with a Time-To-Live of T could
+        potentially give rise to T**N spurious re-broadcasts.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

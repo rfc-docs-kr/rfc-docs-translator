@@ -1,0 +1,15 @@
+"hash": |-
+  0e2a5a1d5f1a1acf903074d31c20e6b855e40d6be65b5abd4581cc85acd7c9a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When implementations are freshly started, they SHOULD reject 0-RTT as
+     long as any portion of their recording window overlaps the startup
+     time.  Otherwise, they run the risk of accepting replays which were
+     originally sent during that period.
+"fixed": |-
+  When implementations are freshly started, they SHOULD reject 0-RTT as long as any portion of their recording window overlaps the startup time.  Otherwise, they run the risk of accepting replays which were originally sent during that period.
+"ko": |-
+  구현이 새로 시작되면 기록 창의 일부가 시작 시간과 겹치는 한 0-RTT를 거부해야 합니다(SHOULD). 그렇지 않으면 해당 기간 동안 원래 전송된 재생을 수락할 위험이 있습니다.

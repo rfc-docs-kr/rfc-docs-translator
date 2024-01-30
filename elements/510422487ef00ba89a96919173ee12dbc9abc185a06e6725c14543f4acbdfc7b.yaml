@@ -1,0 +1,14 @@
+"hash": |-
+  510422487ef00ba89a96919173ee12dbc9abc185a06e6725c14543f4acbdfc7b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that, for each message, GCM calls the block cipher once for each
+     full 16-octet block in the payload, once for any remaining octets in
+     the payload, and one additional time for computing the ICV.
+"fixed": |-
+  Note that, for each message, GCM calls the block cipher once for each full 16-octet block in the payload, once for any remaining octets in the payload, and one additional time for computing the ICV.
+"ko": |-
+  각 메시지에 대해 GCM은 페이로드의 전체 16옥텟 블록마다 한 번씩, 페이로드의 나머지 옥텟에 대해 한 번, ICV 계산을 위해 한 번 더 블록 암호를 호출합니다.

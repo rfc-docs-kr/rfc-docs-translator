@@ -1,0 +1,19 @@
+"hash": |-
+  32476791e61ea1300043661c714747f8bc445317ce05fee0d7a2c9f900fd79c6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     With the NIST curves, each party MUST validate the public key sent by
+     its peer in the ClientKeyExchange and ServerKeyExchange messages.  A
+     receiving party MUST check that the x and y parameters from the
+     peer's public value satisfy the curve equation, y^2 = x^3 + ax + b
+     mod p.  See Section 2.3 of [Menezes] for details.  Failing to do so
+     allows attackers to gain information about the private key to the
+     point that they may recover the entire private key in a few requests
+     if that key is not really ephemeral.
+"fixed": |-
+  With the NIST curves, each party MUST validate the public key sent by its peer in the ClientKeyExchange and ServerKeyExchange messages.  A receiving party MUST check that the x and y parameters from the peer's public value satisfy the curve equation, y^2 = x^3 + ax + b mod p.  See Section 2.3 of [Menezes] for details.  Failing to do so allows attackers to gain information about the private key to the point that they may recover the entire private key in a few requests if that key is not really ephemeral.
+"ko": |-
+  NIST 곡선을 사용하면 각 당사자는 ClientKeyExchange 및 ServerKeyExchange 메시지에서 피어가 보낸 공개 키를 검증해야 합니다. 수신측은 피어 공개 값의 x 및 y 매개변수가 곡선 방정식 y^2 = x^3 + ax + b mod p를 충족하는지 확인해야 합니다. 자세한 내용은 [Menezes]의 섹션 2.3을 참조하세요. 그렇게 하지 않으면 공격자는 해당 키가 실제로 일시적이지 않은 경우 몇 번의 요청으로 전체 개인 키를 복구할 수 있을 정도로 개인 키에 대한 정보를 얻을 수 있습니다.

@@ -1,0 +1,52 @@
+"hash": |-
+  b256078aa6ad89090d1767b2358cc270ffb45cbd494ae6b4ea73489b89c9ef1a
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1. Introduction ....................................................3
+        1.1. Conventions Used in This Document ..........................4
+     2. The Algorithms ..................................................4
+        2.1. The ChaCha Quarter Round ...................................4
+             2.1.1. Test Vector for the ChaCha Quarter Round ............5
+        2.2. A Quarter Round on the ChaCha State ........................5
+             2.2.1. Test Vector for the Quarter Round on the
+                    ChaCha State ........................................6
+        2.3. The ChaCha20 Block Function ................................6
+             2.3.1. The ChaCha20 Block Function in Pseudocode ...........8
+             2.3.2. Test Vector for the ChaCha20 Block Function .........9
+        2.4. The ChaCha20 Encryption Algorithm .........................10
+             2.4.1. The ChaCha20 Encryption Algorithm in Pseudocode ....11
+             2.4.2. Example and Test Vector for the ChaCha20 Cipher ....11
+        2.5. The Poly1305 Algorithm ....................................13
+             2.5.1. The Poly1305 Algorithms in Pseudocode ..............15
+             2.5.2. Poly1305 Example and Test Vector ...................15
+        2.6. Generating the Poly1305 Key Using ChaCha20 ................17
+             2.6.1. Poly1305 Key Generation in Pseudocode ..............18
+             2.6.2. Poly1305 Key Generation Test Vector ................18
+        2.7. A Pseudorandom Function for Crypto Suites based on
+             ChaCha/Poly1305 ...........................................18
+        2.8. AEAD Construction .........................................19
+             2.8.1. Pseudocode for the AEAD Construction ...............21
+             2.8.2. Example and Test Vector for
+                    AEAD_CHACHA20_POLY1305 .............................22
+     3. Implementation Advice ..........................................24
+     4. Security Considerations ........................................24
+     5. IANA Considerations ............................................26
+     6. References .....................................................26
+        6.1. Normative References ......................................26
+        6.2. Informative References ....................................26
+     Appendix A. Additional Test Vectors ...............................29
+       A.1. The ChaCha20 Block Functions ...............................29
+       A.2. ChaCha20 Encryption ........................................32
+       A.3. Poly1305 Message Authentication Code .......................34
+       A.4. Poly1305 Key Generation Using ChaCha20 .....................40
+       A.5. ChaCha20-Poly1305 AEAD Decryption ..........................41
+     Appendix B. Performance Measurements of ChaCha20 ..................44
+     Acknowledgements ..................................................45
+     Authors' Addresses ................................................45
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

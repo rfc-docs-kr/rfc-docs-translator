@@ -1,0 +1,18 @@
+"hash": |-
+  3a879ddf342e36d8f277ad7064545884933173242550fa51b5a77d93efb99123
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In authenticated mode, only the sequence number in the first block is
+     encrypted, and the subsequent timestamps and sequence numbers are
+     sent in clear text.  Sending the timestamp in clear text allows one
+     to reduce the time between when a timestamp is obtained by a
+     Session-Reflector and when that packet is sent out.  This potentially
+     improves the timestamp accuracy, because the sequence number can be
+     encrypted before the timestamp is fetched.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

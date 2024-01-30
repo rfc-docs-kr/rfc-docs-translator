@@ -1,0 +1,56 @@
+"hash": |-
+  55147bbc36dbcc3cfac9a5b50c3c3cdef0d653ec2d42c5321d39660bfee43a54
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    |  FD              |  4011   |  Boolean     |  Frame Discard         |
+    |     Reference: ATM Forum UNI 4.0:                                  |
+    |        0 -- no frame discard is allowed                            |
+    |        1 -- frame discard is allowed                               |
+    +------------------+---------+--------------+------------------------+
+    |  A2PCDV          |  4012   |  24 bit      | Acceptable 2-point CDV |
+    |                  |         |  integer     |                        |
+    |     Reference: ITU-T Recommendation Q.2965.2                       |
+    +------------------+---------+--------------+------------------------+
+    |  C2PCDV          |  4013   |  24 bit      | Cumulative 2-point CDV |
+    |                  |         |  integer     |                        |
+    |     Reference: ITU-T Recommendation Q.2965.2                       |
+    +------------------+---------+--------------+------------------------+
+    |  APPCDV          |  4014   |  24 bit      |  Acceptable P-P CDV    |
+    |                  |         |  integer     |                        |
+    |     Reference: ATM Forum UNI 4.0                                   |
+    +------------------+---------+--------------+------------------------+
+    |  CPPCDV          |  4015   |  24 bit      |  Cumulative P-P CDV    |
+    |                  |         |  integer     |                        |
+    |     Reference: ATM Forum UNI 4.0                                   |
+    +------------------+---------+--------------+------------------------+
+    |  ACLR            |  4016   | 8 bit integer|  Acceptable Cell Loss  |
+    |                  |         |              |  Ratio                 |
+    |     Reference: ITU-T Recommendation Q.2965.2, ATM Forum UNI 4.0    |
+    +------------------+---------+--------------+------------------------+
+    |  MEETD           |  4017   |  16 bit      |  Maximum end-to-end    |
+    |                  |         |  integer     |  transit delay         |
+    |     Reference: ITU-T Recommendation Q.2965.2, ATM Forum UNI 4.0    |
+    +------------------+---------+--------------+------------------------+
+    |  CEETD           |  4018   |  16 bit      |  Cumulative end-to-end |
+    |                  |         |  integer     |  transit delay         |
+    |     Reference: ITU-T Recommendation Q.2965.2, ATM Forum UNI 4.0    |
+    +------------------+---------+--------------+------------------------+
+    |  QosClass        |  4019   |  Integer 0-5 |  QOS Class             |
+    |     Reference: ITU-T Recommendation Q.2965.1                       |
+    |            Qos Class           Meaning                             |
+    |            ---------           -------------------------------     |
+    |                0               Default QoS associated with the ATC |
+    |                                as defined in ITU Rec. Q.2961.2     |
+    |                1               Stringent                           |
+    |                2               Tolerant                            |
+    |                3               Bi-level                            |
+    |                4               Unbounded                           |
+    |                5               Stringent bi-level                  |
+    +------------------+---------+--------------+------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

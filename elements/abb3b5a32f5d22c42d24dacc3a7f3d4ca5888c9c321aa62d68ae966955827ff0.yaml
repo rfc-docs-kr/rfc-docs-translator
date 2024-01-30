@@ -1,0 +1,19 @@
+"hash": |-
+  abb3b5a32f5d22c42d24dacc3a7f3d4ca5888c9c321aa62d68ae966955827ff0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The procedure and guidelines for stopping test sessions is similar to
+     that defined in Section 3.8 of OWAMP [RFC4656].  The Stop-Sessions
+     command can only be issued by the Control-Client.  The message MUST
+     NOT contain any session description records or skip ranges.  The
+     message is terminated with a single block HMAC to complete the Stop-
+     Sessions command.  Since the TWAMP Stop-Sessions command does not
+     convey SIDs, it applies to all sessions previously requested and
+     started with a Start-Sessions command.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

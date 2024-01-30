@@ -1,0 +1,24 @@
+"hash": |-
+  fb7f8bc1dd9f0dc10a444bfe270635f5662254147906839ed78f05822e1a5a87
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Media Gateway Controllers are typically dimensioned to handle the
+     peak hour traffic load, during which, in average, 10% of the lines
+     will be busy, placing calls whose average duration is typically 3
+     minutes.  The processing of a call typically involves 5 to 6 Media
+     Gateway Controller transactions between each Media Gateway and the
+     Media Gateway Controller.  This simple calculation shows that the
+     Media Gateway Controller is expected to handle 5 to 6 transactions
+     for each Termination, every 30 minutes on average, or, to put it
+     otherwise, about one transaction per Termination every 5 to 6 minutes
+     on average.  This suggests that a reasonable value of MWD for a
+     residential gateway would be 10 to 12 minutes.  In the absence of
+     explicit configuration, residential gateways should adopt a value of
+     600 seconds for MWD.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

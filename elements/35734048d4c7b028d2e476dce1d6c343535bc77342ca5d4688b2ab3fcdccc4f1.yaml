@@ -1,0 +1,21 @@
+"hash": |-
+  35734048d4c7b028d2e476dce1d6c343535bc77342ca5d4688b2ab3fcdccc4f1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServAlgDropStorage OBJECT-TYPE
+      SYNTAX       StorageType
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The storage type for this conceptual row.  Conceptual rows
+         having the value 'permanent' need not allow write-access to any
+         columnar objects in the row."
+      DEFVAL { nonVolatile }
+      ::= { diffServAlgDropEntry 11 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   생성되는 개체가 디렉터리인 경우 상속된 ACL은 상위 디렉터리, 즉 ACE4_FILE_INHERIT_ACE 또는 ACE4_DIRECTORY_INHERIT_ACE 플래그가 설정된 디렉터리에서 상속 가능한 모든 ACE를 상속해야 합니다. 상속 가능한 ACE에 ACE4_FILE_INHERIT_ACE가 설정되어 있지만 ACE4_DIRECTORY_INHERIT_ACE가 지워진 경우 새로 생성된 디렉터리의 상속된 ACE에는 디렉터리가 아닌 디렉터리를 위한 ACE의 영향을 받지 않도록 디렉터리가 설정된 ACE4_INHERIT_ONLY_ACE 플래그가 있어야 합니다.

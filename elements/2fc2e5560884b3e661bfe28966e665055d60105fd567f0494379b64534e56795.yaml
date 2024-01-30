@@ -1,0 +1,18 @@
+"hash": |-
+  2fc2e5560884b3e661bfe28966e665055d60105fd567f0494379b64534e56795
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      ;;        order pref flags service   regexp replacement
+      IN NAPTR  50    50   "s"   "aaa:diameter.tls.tcp" ""
+                   _diameter._tls.ex1.example.com
+      IN NAPTR  100   50   "s"   "aaa:diameter.tcp"     ""
+                   _aaa._tcp.ex1.example.com
+      IN NAPTR  150   50   "s"   "aaa:diameter.sctp"    ""
+                   _diameter._sctp.ex1.example.com
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

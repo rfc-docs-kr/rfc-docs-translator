@@ -1,0 +1,21 @@
+"hash": |-
+  8e6e5892920ddb258ab3e7b7d5e21c8095c0d98ee806644e5fa95bcc478b4897
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An ECDHE key exchange using X25519 (curve x25519) goes as follows:
+     (1) each party picks a secret key d uniformly at random and computes
+     the corresponding public key x = X25519(d, G); (2) parties exchange
+     their public keys and compute a shared secret as x_S = X25519(d,
+     x_peer); and (3), if either party obtains all-zeroes x_S, it MUST
+     abort the handshake (as required by definition of X25519 and X448).
+     ECDHE for X448 works similarly, replacing X25519 with X448 and x25519
+     with x448.  The derived shared secret is used directly as the
+     premaster secret, which is always exactly 32 bytes when ECDHE with
+     X25519 is used and 56 bytes when ECDHE with X448 is used.
+"fixed": |-
+  An ECDHE key exchange using X25519 (curve x25519) goes as follows: (1) each party picks a secret key d uniformly at random and computes the corresponding public key x = X25519(d, G); (2) parties exchange their public keys and compute a shared secret as x_S = X25519(d, x_peer); and (3), if either party obtains all-zeroes x_S, it MUST abort the handshake (as required by definition of X25519 and X448). ECDHE for X448 works similarly, replacing X25519 with X448 and x25519 with x448.  The derived shared secret is used directly as the premaster secret, which is always exactly 32 bytes when ECDHE with X25519 is used and 56 bytes when ECDHE with X448 is used.
+"ko": |-
+  X25519(곡선 x25519)를 사용하는 ECDHE 키 교환은 다음과 같습니다. (1) 각 당사자는 비밀 키 d를 무작위로 균일하게 선택하고 해당 공개 키 x = X25519(d, G)를 계산합니다. (2) 당사자들은 공개 키를 교환하고 공유 비밀을 x_S = X25519(d, x_peer)로 계산합니다. (3) 어느 쪽이든 모두 0인 x_S를 획득하면 X25519 및 X448의 정의에 따라 핸드셰이크를 중단해야 합니다. X448용 ECDHE는 유사하게 작동하여 X25519를 X448로, x25519를 x448로 대체합니다. 파생된 공유 비밀은 premaster 비밀로 직접 사용됩니다. 이는 X25519가 포함된 ECDHE가 사용되는 경우 항상 정확히 32바이트이고 X448이 포함된 ECDHE가 사용되는 경우 56바이트입니다.

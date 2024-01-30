@@ -1,0 +1,1 @@
+   클라이언트가 OPEN4_SHARE_ACCESS_WANT_SIGNAL_DELEG_WHEN_RESRC_AVAIL을 지정하는 경우 OPEN 결과에 위임이 포함되지 않은 경우 위임에 대한 "원함"을 등록하려고 합니다. 그렇다면 서버는 리소스 부족으로 인해 위임을 거부하고 나중에 CB_RECALLABLE_OBJ_AVAIL 작업을 통해 리소스 제한 조건이 완화되었음을 클라이언트에 알릴 수 있습니다. 서버는 결과의 delegation_type을 OPEN_DELEGATE_NONE_EXT로 설정하고 ond_why를 WND4_RESOURCE로 설정하여 향후 CB_RECALLABLE_OBJ_AVAIL 작업을 보내겠다고 클라이언트에 알립니다.

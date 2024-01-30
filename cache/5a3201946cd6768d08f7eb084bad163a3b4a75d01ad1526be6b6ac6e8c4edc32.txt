@@ -1,0 +1,1 @@
+   서버는 백채널에 할당된 RPCSEC_GSS 핸들 수가 1에 도달할 때와 핸들 하나가 만료에 가까워졌을 때(즉, 임대 시간의 1~2 기간 사이)를 모니터링하고 모든 SEQUENCE 응답의 sr_status_flags 필드에 이를 표시해야 합니다. 서버는 모든 SEQUENCE 응답의 sr_status_flags 필드를 통해 백채널에 할당된 RPCSEC_GSS 핸들이 모두 만료되는 시기를 표시해야 합니다.

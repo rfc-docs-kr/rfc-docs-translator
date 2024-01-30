@@ -1,0 +1,23 @@
+"hash": |-
+  3d2ff011286d9fd15d33f34abb3611e412c74ca701551b17f40f565f1ea1f949
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TCP initial sequence numbers are generated from a number sequence
+     that monotonically increases until it wraps, known loosely as a
+     "clock".  This clock is a 32-bit counter that typically increments at
+     least once every roughly 4 microseconds, although it is neither
+     assumed to be realtime nor precise, and need not persist across
+     reboots.  The clock component is intended to ensure that with a
+     Maximum Segment Lifetime (MSL), generated ISNs will be unique since
+     it cycles approximately every 4.55 hours, which is much longer than
+     the MSL.  Please note that for modern networks that support high data
+     rates where the connection might start and quickly advance sequence
+     numbers to overlap within the MSL, it is recommended to implement the
+     Timestamp Option as mentioned later in Section 3.4.3.
+"fixed": |-
+  TCP initial sequence numbers are generated from a number sequence that monotonically increases until it wraps, known loosely as a "clock".  This clock is a 32-bit counter that typically increments at least once every roughly 4 microseconds, although it is neither assumed to be realtime nor precise, and need not persist across reboots.  The clock component is intended to ensure that with a Maximum Segment Lifetime (MSL), generated ISNs will be unique since it cycles approximately every 4.55 hours, which is much longer than the MSL.  Please note that for modern networks that support high data rates where the connection might start and quickly advance sequence numbers to overlap within the MSL, it is recommended to implement the Timestamp Option as mentioned later in Section 3.4.3.
+"ko": |-
+  TCP 초기 시퀀스 번호는 느슨하게 "시계"라고 알려진 래핑될 때까지 단조롭게 증가하는 숫자 시퀀스에서 생성됩니다. 이 클록은 일반적으로 약 4마이크로초마다 적어도 한 번씩 증가하는 32비트 카운터입니다. 하지만 실시간이거나 정확하다고 가정되지 않으며 재부팅 후에도 지속될 필요가 없습니다. 클록 구성 요소는 MSL(최대 세그먼트 수명)을 사용하여 생성된 ISN이 MSL보다 훨씬 긴 약 4.55시간마다 주기 때문에 고유하도록 보장하기 위한 것입니다. 연결이 시작되고 시퀀스 번호가 MSL 내에서 겹치도록 빠르게 증가하는 높은 데이터 속도를 지원하는 최신 네트워크의 경우 나중에 섹션 3.4.3에서 언급한 대로 타임스탬프 옵션을 구현하는 것이 좋습니다.

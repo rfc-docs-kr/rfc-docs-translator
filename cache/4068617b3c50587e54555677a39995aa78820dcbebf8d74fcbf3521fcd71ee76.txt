@@ -1,0 +1,1 @@
+   SCVPCertID를 생성할 때 certHash는 서명을 포함하여 전체 DER로 인코딩된 인증서에 대해 계산됩니다. certHash를 계산하는 데 사용되는 해시 알고리즘은 hashAlgorithm에 지정됩니다. certHash를 계산하는 데 사용되는 해시 알고리즘은 서버의 유효성 검사 정책 응답 메시지의 hashAlgorithms 항목에 지정된 해시 알고리즘 중 하나여야 합니다.

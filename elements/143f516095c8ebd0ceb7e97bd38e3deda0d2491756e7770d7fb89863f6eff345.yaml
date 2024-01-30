@@ -1,0 +1,18 @@
+"hash": |-
+  143f516095c8ebd0ceb7e97bd38e3deda0d2491756e7770d7fb89863f6eff345
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each AEAD algorithm will specify a range of possible lengths for the
+     per-record nonce, from N_MIN bytes to N_MAX bytes of input [RFC5116].
+     The length of the TLS per-record nonce (iv_length) is set to the
+     larger of 8 bytes and N_MIN for the AEAD algorithm (see [RFC5116],
+     Section 4).  An AEAD algorithm where N_MAX is less than 8 bytes
+     MUST NOT be used with TLS.  The per-record nonce for the AEAD
+     construction is formed as follows:
+"fixed": |-
+  Each AEAD algorithm will specify a range of possible lengths for the per-record nonce, from N_MIN bytes to N_MAX bytes of input [RFC5116]. The length of the TLS per-record nonce (iv_length) is set to the larger of 8 bytes and N_MIN for the AEAD algorithm (see [RFC5116], Section 4).  An AEAD algorithm where N_MAX is less than 8 bytes MUST NOT be used with TLS.  The per-record nonce for the AEAD construction is formed as follows:
+"ko": |-
+  각 AEAD 알고리즘은 입력 [RFC5116]의 N_MIN바이트에서 N_MAX바이트까지 레코드당 nonce에 대해 가능한 길이 범위를 지정합니다. TLS 레코드별 nonce(iv_length)의 길이는 AEAD 알고리즘의 경우 8바이트와 N_MIN 중 더 큰 값으로 설정됩니다([RFC5116], 섹션 4 참조). N_MAX가 8바이트 미만인 AEAD 알고리즘은 TLS와 함께 사용하면 안 됩니다. AEAD 구성에 대한 레코드별 임시값은 다음과 같이 구성됩니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  631cf137db362bd6b62200e66ec214a60fd9873ec6cbd31ec10fa3b30f3acc0e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        poly1305_key_gen(key,nonce):
+           counter = 0
+           block = chacha20_block(key,counter,nonce)
+           return block[0..31]
+           end
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

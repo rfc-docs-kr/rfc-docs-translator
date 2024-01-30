@@ -1,0 +1,1 @@
+   LAYOUTGET 작업은 지정된 바이트 범위에 대한 레이아웃 정보(레이아웃)를 반환합니다. 클라이언트는 실제로 loga_offset 필드의 오프셋에서 시작하는 두 가지 범위를 지정합니다. 첫 번째 범위는 loga_offset과 loga_offset + loga_length - 1 사이입니다. 이 범위는 클라이언트가 레이아웃에서 다루기를 원하는 범위를 나타냅니다. 두 번째 범위는 loga_offset과 loga_offset + loga_minlength - 1 사이입니다. 이 범위는 클라이언트가 레이아웃에서 처리해야 하는 필수 범위를 나타냅니다. 따라서 loga_minlength는 loga_length보다 작거나 같아야 합니다.

@@ -1,0 +1,1 @@
+   BaseCRLNumber 값은 이 델타 CRL 생성 시 시작점으로 사용된 기본 CRL의 CRL 번호를 식별합니다. delta-CRL에는 기본 CRL과 delta-CRL과 함께 발급된 현재 CRL 간의 변경 사항이 포함됩니다. Delta-CRL 제공 여부는 CA가 결정합니다. 다시 말하지만, delta-CRL은 상응하는 완전한 CRL 없이 발행되어서는 안 됩니다. delta-CRL과 해당 전체 CRL의 CRLNumber 값은 동일해야 합니다.

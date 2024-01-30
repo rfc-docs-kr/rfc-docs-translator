@@ -1,0 +1,55 @@
+"hash": |-
+  be9a8ea90f2cf68e08795531d0b783980b0352daffc1c42f3c8edb9ef55b180c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    +-----------+-------+-------------------------+----------------------+
+    | PropertyID| Tag n | Type                    | Value                |
+    +-----------+-------+-------------------------+----------------------+
+    | AESA      | 7001  | 20 OCTETS  | AAL2 service endpoint             |
+    |           |       |            | address                           |
+    +-----------+-------+--------------------------+---------------------+
+    |   as defined in Reference: ITU Recommendation Q.2630.1             |
+    |     ESEA                                                           |
+    |     NSEA                                                           |
+    +-----------+-------+-------------------------+----------------------+
+    | BIR       |See C.3| 4 OCTETS                | Served user          |
+    |           |       |                         | reference            |
+    +-----------+-------+-------------------------+----------------------+
+    |   as defined in Reference: ITU Recommendation Q.2630.1 SUGR        |
+    +-----------+-------+-------------------------+----------------------+
+    | ALC       | 7002  | 12 OCTETS               | AAL2 link            |
+    |           |       |                         | characteristics      |
+    +-----------+-------+-------------------------+----------------------+
+    |   as defined in Reference: ITU Recommendation Q.2630.1             |
+    |     max/average CPS-SDU bitrate,                                   |
+    |     max/average CPS-SDU size                                       |
+    +-----------+-------+-------------------------+----------------------+
+    | SSCS      | 7003  | I.366.2:                | Service specific     |
+    |           |       | audio (8 OCTETS)        | convergence sublayer |
+    |           |       | multirate (3 OCTETS)    | information          |
+    |           |       | or I.366.1:             |                      |
+    |           |       | SAR-assured (14 OCTETS)/|                      |
+    |           |       | unassured (7 OCTETS)    |                      |
+    +-----------+-------+-------------------------+----------------------+
+    |  as defined in Reference: Q.2630.1 and used in I.366.1 and I.366.2 |
+    |     I.366.2: audio/multirate                                       |
+    |     I.366.1: SAR-assured/unassured                                 |
+    +-----------+-------+-------------------------+----------------------+
+    | SUT       | 7004  | 1..254 octets           |Served user transport |
+    |           |       |                         | parameter            |
+    +-----------+-------+-------------------------+----------------------+
+    |  as defined in Reference: ITU Recommendation Q.2630.1              |
+    | TCI       | 7005  |BOOLEAN                  | Test connection      |
+    |           |       |                         |  indicator           |
+    +-----------+-------+-------------------------+----------------------+
+    |  as defined in Reference: ITU Recommendation  Q.2630.1             |
+    +-----------+-------+-------------------------+----------------------+
+    | Timer_CU  | 7006  |32 bit integer           | Timer-CU:            |
+    +-----------+-------+-------------------------+----------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

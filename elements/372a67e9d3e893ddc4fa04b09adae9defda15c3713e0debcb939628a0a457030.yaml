@@ -1,0 +1,28 @@
+"hash": |-
+  372a67e9d3e893ddc4fa04b09adae9defda15c3713e0debcb939628a0a457030
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        It is RECOMMENDED that the Identity Response be used primarily for
+        routing purposes and selecting which EAP method to use.  EAP
+        Methods SHOULD include a method-specific mechanism for obtaining
+        the identity, so that they do not have to rely on the Identity
+        Response.  Identity Requests and Responses are sent in cleartext,
+        so an attacker may snoop on the identity, or even modify or spoof
+        identity exchanges.  To address these threats, it is preferable
+        for an EAP method to include an identity exchange that supports
+        per-packet authentication, integrity and replay protection, and
+        confidentiality.  The Identity Response may not be the appropriate
+        identity for the method; it may have been truncated or obfuscated
+        so as to provide privacy, or it may have been decorated for
+        routing purposes.  Where the peer is configured to only accept
+        authentication methods supporting protected identity exchanges,
+        the peer MAY provide an abbreviated Identity Response (such as
+        omitting the peer-name portion of the NAI [RFC2486]).  For further
+        discussion of identity protection, see Section 7.3.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

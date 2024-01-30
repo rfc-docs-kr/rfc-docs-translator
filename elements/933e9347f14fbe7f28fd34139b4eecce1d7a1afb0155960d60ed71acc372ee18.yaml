@@ -1,0 +1,17 @@
+"hash": |-
+  933e9347f14fbe7f28fd34139b4eecce1d7a1afb0155960d60ed71acc372ee18
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (q < 1) factor = 1;
+    if (q > 99) factor = 99;
+    if (q < 50)
+      q = 5000 / factor;
+    else
+      q = 200 - factor*2;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

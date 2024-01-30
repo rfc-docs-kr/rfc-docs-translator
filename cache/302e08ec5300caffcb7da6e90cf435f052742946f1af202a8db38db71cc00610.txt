@@ -1,0 +1,1 @@
+   o 섹션 5.3.19.9에 지정된 OID 및 값은 언제든지 GenMsg 메시지로 전송되거나 PKIMessage의 PKIHeader에 있는 GeneralInfo 필드에서 전송될 수 있습니다. (특히, EncryptedValue는 초기화 요청이나 인증서 요청 메시지에서 요청된 인증서의 수락을 확인하는 certConf 메시지의 헤더에 전송될 수 있습니다.) 이는 엔터티가 선택한 폐기 암호 문구(즉, encValue의 해독된 바이트)를 전달합니다. 필드) 관련 CA/RA에 전달합니다. 또한 전송은 적절한 기밀성 특성을 통해 수행됩니다(암호 문구가 CA/RA의 프로토콜EncryptionKey에 따라 암호화되기 때문).

@@ -1,0 +1,21 @@
+"hash": |-
+  f8c20483624ae941317dfaf373a1758b33a7c1bc90b38d58de9a0cf4f13f0254
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      All OSPF protocol exchanges are authenticated. OSPF supports
+      multiple types of authentication; the type of authentication in use
+      can be configured on a per network segment basis. One of OSPF's
+      authentication types, namely the Cryptographic authentication
+      option, is believed to be secure against passive attacks and provide
+      significant protection against active attacks. When using the
+      Cryptographic authentication option, each router appends a "message
+      digest" to its transmitted OSPF packets. Receivers then use the
+      shared secret key and received digest to verify that each received
+      OSPF packet is authentic.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

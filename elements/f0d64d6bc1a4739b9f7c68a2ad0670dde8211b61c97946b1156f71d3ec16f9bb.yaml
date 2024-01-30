@@ -1,0 +1,30 @@
+"hash": |-
+  f0d64d6bc1a4739b9f7c68a2ad0670dde8211b61c97946b1156f71d3ec16f9bb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              DISCUSSION:
+                   When a gateway does fail, the other gateways on the
+                   connected network will learn of the failure through
+                   some inter-gateway routing protocol.  However, this
+                   will not happen instantaneously, since gateway routing
+                   protocols typically have a settling time of 30-60
+                   seconds.  If the host switches to an alternative
+                   gateway before the gateways have agreed on the failure,
+                   the new target gateway will probably forward the
+                   datagram to the failed gateway and send a Redirect back
+                   to the host pointing to the failed gateway (!).  The
+                   result is likely to be a rapid oscillation in the
+                   contents of the host's route cache during the gateway
+                   settling period.  It has been proposed that the dead-
+                   gateway logic should include some hysteresis mechanism
+                   to prevent such oscillations.  However, experience has
+                   not shown any harm from such oscillations, since
+                   service cannot be restored to the host until the
+                   gateways' routing information does settle down.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

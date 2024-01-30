@@ -1,0 +1,32 @@
+S: * 확인 IMAP4rev1 서비스 준비됨
+C: a001 로그인 MRC 비밀
+S: a001 OK 로그인 완료
+C: a002 받은편지함 선택
+S: * 18개 존재
+S: * 플래그(\답변\플래그됨\삭제됨\본\초안)
+S: * 최근 2개
+S: * OK [UNSEEN 17] 메시지 17은 첫 번째로 보지 못한 메시지입니다.
+S: * 확인 [UIDVALIDITY 3857529045] UID가 유효함
+S: a002 OK [읽기-쓰기] 선택 완료
+C: a003 12개 전체 가져오기
+S: * 12 가져오기 (FLAGS (\Seen) INTERNALDATE "1996년 7월 17일 02:44:25 -0700" RFC822.SIZE 4286 ENVELOPE ("1996년 7월 17일 수요일 02:23:25 -0700 (PDT)" " IMAP4rev1 WG mtg 요약 및 분" (("Terry Gray" NIL "gray" "cac.washington.edu")) (("Terry Gray" NIL "gray" "cac.washington.edu")) (("Terry Gray " NIL "회색" "cac.washington.edu")) ((NIL NIL "imap" "cac.washington.edu")) ((NIL NIL "분" "CNRI.Reston.VA.US") ("John Klensin" NIL "KLENSIN" "MIT.EDU")) NIL NIL "<B27397-0100000@cac.washington.edu>") BODY ("TEXT" "PLAIN" ("CHARSET" "US-ASCII") NIL NIL " 7비트" 3028 92))
+S: a003 OK 가져오기 완료됨
+C: a004 12개 본문[헤더] 가져오기
+S: * 12 가져오기(본문[헤더] {342}
+S: 날짜: 1996년 7월 17일 수요일 02:23:25 -0700(PDT)
+수신자: 보낸 사람: Terry Gray <gray@cac.washington.edu>
+S: 제목: IMAP4rev1 WG mtg 요약 및 회의록
+S: 받는 사람: imap@cac.washington.edu
+S: 참조: Minute@CNRI.Reston.VA.US, John Klensin <KLENSIN@MIT.EDU>
+S: 메시지 ID: <B27397-0100000@cac.washington.edu>
+S: MIME 버전: 1.0
+S: 콘텐츠 유형: TEXT/PLAIN; 문자세트=US-ASCII
+에스:
+님: )
+S: a004 OK 가져오기 완료됨
+C: a005 저장소 12 +플래그 \삭제됨
+S: * 12 가져오기 (플래그 (\표시 \삭제됨))
+S: a005 OK +FLAGS 완료
+C: a006 로그아웃
+S: * BYE IMAP4rev1 서버 연결을 종료합니다
+S: a006 OK 로그아웃 완료

@@ -1,0 +1,15 @@
+"hash": |-
+  2c2a7b6589077df8d090ca90e49ae84d3c9674e4a09d6f4715eecd3f0d530652
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations MUST NOT send any records with a version less than
+     0x0300.  Implementations SHOULD NOT accept any records with a version
+     less than 0x0300 (but may inadvertently do so if the record version
+     number is ignored completely).
+"fixed": |-
+  Implementations MUST NOT send any records with a version less than 0x0300.  Implementations SHOULD NOT accept any records with a version less than 0x0300 (but may inadvertently do so if the record version number is ignored completely).
+"ko": |-
+  구현 시 버전이 0x0300보다 작은 레코드를 보내면 안 됩니다. 구현은 0x0300보다 낮은 버전의 레코드를 허용해서는 안 됩니다(그러나 레코드 버전 번호가 완전히 무시되는 경우 실수로 허용할 수 있음).

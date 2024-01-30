@@ -1,0 +1,17 @@
+"hash": |-
+  cd6851f48d007b6a3adb883b327e1bb2ac33dd85eeb5f7c188013227df2ff024
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The master secret is expanded into a sequence of secure bytes, which
+     is then split to a client write MAC key, a server write MAC key, a
+     client write encryption key, and a server write encryption key.  Each
+     of these is generated from the byte sequence in that order.  Unused
+     values are empty.  Some AEAD ciphers may additionally require a
+     client write IV and a server write IV (see Section 6.2.3.3).
+"fixed": |-
+  The master secret is expanded into a sequence of secure bytes, which is then split to a client write MAC key, a server write MAC key, a client write encryption key, and a server write encryption key.  Each of these is generated from the byte sequence in that order.  Unused values are empty.  Some AEAD ciphers may additionally require a client write IV and a server write IV (see Section 6.2.3.3).
+"ko": |-
+  마스터 비밀은 일련의 보안 바이트로 확장된 다음 클라이언트 쓰기 MAC 키, 서버 쓰기 MAC 키, 클라이언트 쓰기 암호화 키 및 서버 쓰기 암호화 키로 분할됩니다. 이들 각각은 해당 순서대로 바이트 시퀀스에서 생성됩니다. 사용되지 않은 값은 비어 있습니다. 일부 AEAD 암호에는 클라이언트 쓰기 IV와 서버 쓰기 IV가 추가로 필요할 수 있습니다(섹션 6.2.3.3 참조).

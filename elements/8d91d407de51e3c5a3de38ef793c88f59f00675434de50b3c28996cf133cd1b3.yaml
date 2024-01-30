@@ -1,0 +1,59 @@
+"hash": |-
+  8d91d407de51e3c5a3de38ef793c88f59f00675434de50b3c28996cf133cd1b3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                                   |        | | | | | |
+  Closing Connections                              |        | | | | | |
+    RST can contain data                           |4.2.2.12| |x| | | |
+    Inform application of aborted conn             |4.2.2.13|x| | | | |
+    Half-duplex close connections                  |4.2.2.13| | |x| | |
+      Send RST to indicate data lost               |4.2.2.13| |x| | | |
+    In TIME-WAIT state for 2xMSL seconds           |4.2.2.13|x| | | | |
+      Accept SYN from TIME-WAIT state              |4.2.2.13| | |x| | |
+                                                   |        | | | | | |
+  Retransmissions                                  |        | | | | | |
+    Jacobson Slow Start algorithm                  |4.2.2.15|x| | | | |
+    Jacobson Congestion-Avoidance algorithm        |4.2.2.15|x| | | | |
+    Retransmit with same IP ident                  |4.2.2.15| | |x| | |
+    Karn's algorithm                               |4.2.3.1 |x| | | | |
+    Jacobson's RTO estimation alg.                 |4.2.3.1 |x| | | | |
+    Exponential backoff                            |4.2.3.1 |x| | | | |
+    SYN RTO calc same as data                      |4.2.3.1 | |x| | | |
+    Recommended initial values and bounds          |4.2.3.1 | |x| | | |
+                                                   |        | | | | | |
+  Generating ACK's:                                |        | | | | | |
+    Queue out-of-order segments                    |4.2.2.20| |x| | | |
+    Process all Q'd before send ACK                |4.2.2.20|x| | | | |
+    Send ACK for out-of-order segment              |4.2.2.21| | |x| | |
+    Delayed ACK's                                  |4.2.3.2 | |x| | | |
+      Delay < 0.5 seconds                          |4.2.3.2 |x| | | | |
+      Every 2nd full-sized segment ACK'd           |4.2.3.2 |x| | | | |
+    Receiver SWS-Avoidance Algorithm               |4.2.3.3 |x| | | | |
+                                                   |        | | | | | |
+  Sending data                                     |        | | | | | |
+    Configurable TTL                               |4.2.2.19|x| | | | |
+    Sender SWS-Avoidance Algorithm                 |4.2.3.4 |x| | | | |
+    Nagle algorithm                                |4.2.3.4 | |x| | | |
+      Application can disable Nagle algorithm      |4.2.3.4 |x| | | | |
+                                                   |        | | | | | |
+  Connection Failures:                             |        | | | | | |
+    Negative advice to IP on R1 retxs              |4.2.3.5 |x| | | | |
+    Close connection on R2 retxs                   |4.2.3.5 |x| | | | |
+    ALP can set R2                                 |4.2.3.5 |x| | | | |1
+    Inform ALP of  R1<=retxs<R2                    |4.2.3.5 | |x| | | |1
+    Recommended values for R1, R2                  |4.2.3.5 | |x| | | |
+    Same mechanism for SYNs                        |4.2.3.5 |x| | | | |
+      R2 at least 3 minutes for SYN                |4.2.3.5 |x| | | | |
+                                                   |        | | | | | |
+  Send Keep-alive Packets:                         |4.2.3.6 | | |x| | |
+    - Application can request                      |4.2.3.6 |x| | | | |
+    - Default is "off"                             |4.2.3.6 |x| | | | |
+    - Only send if idle for interval               |4.2.3.6 |x| | | | |
+    - Interval configurable                        |4.2.3.6 |x| | | | |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

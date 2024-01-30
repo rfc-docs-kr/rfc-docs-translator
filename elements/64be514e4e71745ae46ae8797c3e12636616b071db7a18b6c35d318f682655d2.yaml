@@ -1,0 +1,22 @@
+"hash": |-
+  64be514e4e71745ae46ae8797c3e12636616b071db7a18b6c35d318f682655d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Peer protocol entities are expected to keep in memory a list of the
+     responses that they sent to recent transactions and a list of the
+     transactions that are currently outstanding. The transaction
+     identifier of each incoming message is compared to the transaction
+     identifiers of the recent responses sent to the same MId. If a match
+     is found, the entity does not execute the transaction, but simply
+     repeats the response. If no match is found, the message will be
+     compared to the list of currently outstanding transactions. If a
+     match is found in that list, indicating a duplicate transaction, the
+     entity does not execute the transaction (see section D.1.4 for
+     procedures on sending TransactionPending).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

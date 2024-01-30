@@ -1,0 +1,23 @@
+"hash": |-
+  6e38065467f584e22a5c9eedb240071e1dc43974198bb8ee58d67f514885b47b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                  RT3 originates two router-LSAs, one for Area 1 and one
+                  for the backbone.  Assume that Router RT4 has been
+                  selected as the Designated router for network 192.1.1.0.
+                  RT3's router-LSA for Area 1 is then shown below.  It
+                  indicates that RT3 has two connections to Area 1, the
+                  first a link to the transit network 192.1.1.0 and the
+                  second a link to the stub network 192.1.4.0.  Note that
+                  the transit network is identified by the IP interface of
+                  its Designated Router (i.e., the Link ID = 192.1.1.4
+                  which is the Designated Router RT4's IP interface to
+                  192.1.1.0).  Note also that RT3 has indicated that it is
+                  an area border router.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

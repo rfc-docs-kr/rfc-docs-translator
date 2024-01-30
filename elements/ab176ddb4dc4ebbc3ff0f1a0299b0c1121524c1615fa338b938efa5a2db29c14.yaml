@@ -1,0 +1,17 @@
+"hash": |-
+  ab176ddb4dc4ebbc3ff0f1a0299b0c1121524c1615fa338b938efa5a2db29c14
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Where a Diameter client utilizes the same Session-Id for both
+     authorization and accounting, inclusion of an Acct-Session-Id
+     Attribute in a Disconnect-Request or CoA-Request can assist with
+     Diameter/RADIUS translation, since Diameter RAR and ASR commands
+     include a Session-Id AVP.  An Acct-Session-Id Attribute SHOULD be
+     included in Disconnect-Request and CoA-Request packets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

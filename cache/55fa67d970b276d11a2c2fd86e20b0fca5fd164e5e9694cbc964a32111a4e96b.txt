@@ -1,0 +1,1 @@
+   srTCM(Single Rate Three Color Marker)은 IP 패킷 스트림을 측정하고 해당 패킷을 녹색, 노란색 또는 빨간색으로 표시합니다. 표시는 CIR(Committed Information Rate) 및 두 가지 관련 버스트 크기인 CBS(Committed Burst Size)와 EBS(Excess Burst Size)를 기반으로 합니다. 패킷은 CBS를 초과하지 않으면 녹색으로 표시되고, CBS를 초과하지만 EBS를 초과하지 않으면 노란색으로 표시되며, 그렇지 않으면 빨간색으로 표시됩니다. 예를 들어, srTCM은 버스트의 최대 속도가 아닌 길이만 서비스 적격성을 결정하는 서비스의 수신 정책에 유용합니다.

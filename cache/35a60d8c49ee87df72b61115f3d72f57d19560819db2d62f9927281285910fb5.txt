@@ -1,0 +1,5 @@
+TEMP_VALID_LIFETIME -- 기본값: 1주. 사용자는 기본값을 재정의할 수 있어야 합니다.
+TEMP_PREFERRED_LIFETIME -- 기본값: 1일. 사용자는 기본값을 재정의할 수 있어야 합니다.
+REGEN_ADVANCE - 5초
+MAX_DESYNC_FACTOR - 10분. DESYNC_FACTOR의 상한입니다.
+DESYNC_FACTOR - 0 - MAX_DESYNC_FACTOR 범위 내의 임의 값입니다. 이는 시스템 시작 시(사용될 때마다가 아니라) 한 번 계산되며 (TEMP_VALID_LIFETIME - REGEN_ADVANCE)보다 클 수 없습니다.

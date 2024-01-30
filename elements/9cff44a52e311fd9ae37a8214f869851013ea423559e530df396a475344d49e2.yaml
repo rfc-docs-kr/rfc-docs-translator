@@ -1,0 +1,25 @@
+"hash": |-
+  9cff44a52e311fd9ae37a8214f869851013ea423559e530df396a475344d49e2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              AS-external-LSAs describe routes to destinations external to
+              the Autonomous System.  Most AS-external-LSAs describe
+              routes to specific external destinations; in these cases the
+              LSA's Link State ID is set to the destination network's IP
+              address (if necessary, the Link State ID can also have one
+              or more of the network's "host" bits set; see Appendix E for
+              details).  However, a default route for the Autonomous
+              System can be described in an AS-external-LSA by setting the
+              LSA's Link State ID to DefaultDestination (0.0.0.0).  AS-
+              external-LSAs are originated by AS boundary routers.  An AS
+              boundary router originates a single AS-external-LSA for each
+              external route that it has learned, either through another
+              routing protocol (such as BGP), or through configuration
+              information.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

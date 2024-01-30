@@ -1,0 +1,18 @@
+"hash": |-
+  3018ce45a6f1a286ec079dac652919bd03da82e35077cffab7c5745b3f9985bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     - If (1) the RC parameter is not included in the ASP Active message,
+       (2) there are RKs defined (by either static configuration or
+       dynamic registration) and (3) RC is not mandatory, the peer node
+       MUST respond with an ASP Active Ack message if it is ready to
+       handle traffic; otherwise, it will send an ERROR message with the
+       Error Code "No Configured AS for ASP" (meaning that it is not ready
+       to become active).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

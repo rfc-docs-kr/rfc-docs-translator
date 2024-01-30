@@ -1,0 +1,19 @@
+"hash": |-
+  c80a26982120191c1098fcd60da0341838c674a7249b623a0789c83efbdd99d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TLS handshake establishes one or more input secrets which are
+     combined to create the actual working keying material, as detailed
+     below.  The key derivation process incorporates both the input
+     secrets and the handshake transcript.  Note that because the
+     handshake transcript includes the random values from the Hello
+     messages, any given handshake will have different traffic secrets,
+     even if the same input secrets are used, as is the case when the same
+     PSK is used for multiple connections.
+"fixed": |-
+  The TLS handshake establishes one or more input secrets which are combined to create the actual working keying material, as detailed below.  The key derivation process incorporates both the input secrets and the handshake transcript.  Note that because the handshake transcript includes the random values from the Hello messages, any given handshake will have different traffic secrets, even if the same input secrets are used, as is the case when the same PSK is used for multiple connections.
+"ko": |-
+  TLS 핸드셰이크는 아래에 설명된 대로 실제 작동하는 키 자료를 생성하기 위해 결합되는 하나 이상의 입력 비밀을 설정합니다. 키 파생 프로세스에는 입력 비밀과 핸드셰이크 기록이 모두 포함됩니다. 핸드셰이크 기록에는 Hello 메시지의 임의 값이 포함되어 있으므로 동일한 PSK가 여러 연결에 사용되는 경우와 같이 동일한 입력 비밀이 사용되더라도 특정 핸드셰이크에는 다른 트래픽 비밀이 있습니다.

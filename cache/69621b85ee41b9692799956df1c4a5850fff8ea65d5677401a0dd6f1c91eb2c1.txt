@@ -1,0 +1,1 @@
+   Kerberos V5의 경우 nfs/hostname은 Kerberos 키 배포 센터 데이터베이스의 서버 주체가 됩니다. 이는 클라이언트가 SETCLIENTID 작업을 실행할 때 GSS-API 컨텍스트를 획득한 것과 동일한 주체이므로 서버 주체의 영역 이름은 SETCLIENTID와 마찬가지로 콜백에서도 동일해야 합니다.

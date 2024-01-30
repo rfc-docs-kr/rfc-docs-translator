@@ -1,0 +1,21 @@
+"hash": |-
+  948cf74b562e6e5df5c192138661d0eb3e61a5b6804fef1d9758b5cb11bae933
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     sequence number
+        Each connection state contains a sequence number, which is
+        maintained separately for read and write states.  The sequence
+        number MUST be set to zero whenever a connection state is made the
+        active state.  Sequence numbers are of type uint64 and may not
+        exceed 2^64-1.  Sequence numbers do not wrap.  If a TLS
+        implementation would need to wrap a sequence number, it must
+        renegotiate instead.  A sequence number is incremented after each
+        record: specifically, the first record transmitted under a
+        particular connection state MUST use sequence number 0.
+"fixed": |-
+  sequence number  -  Each connection state contains a sequence number, which is maintained separately for read and write states.  The sequence number MUST be set to zero whenever a connection state is made the active state.  Sequence numbers are of type uint64 and may not exceed 2^64-1.  Sequence numbers do not wrap.  If a TLS implementation would need to wrap a sequence number, it must renegotiate instead.  A sequence number is incremented after each record: specifically, the first record transmitted under a particular connection state MUST use sequence number 0.
+"ko": |-
+  시퀀스 번호 - 각 연결 상태에는 읽기 및 쓰기 상태에 대해 별도로 유지되는 시퀀스 번호가 포함됩니다. 연결 상태가 활성 상태가 될 때마다 시퀀스 번호는 0으로 설정되어야 합니다. 시퀀스 번호는 uint64 유형이며 2^64-1을 초과할 수 없습니다. 시퀀스 번호는 줄 바꿈되지 않습니다. TLS 구현이 시퀀스 번호를 래핑해야 하는 경우 대신 재협상해야 합니다. 시퀀스 번호는 각 레코드 이후에 증가합니다. 특히 특정 연결 상태에서 전송된 첫 번째 레코드는 시퀀스 번호 0을 사용해야 합니다.

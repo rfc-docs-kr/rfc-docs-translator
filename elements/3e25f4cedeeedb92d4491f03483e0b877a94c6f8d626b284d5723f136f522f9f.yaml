@@ -1,0 +1,18 @@
+"hash": |-
+  3e25f4cedeeedb92d4491f03483e0b877a94c6f8d626b284d5723f136f522f9f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Number of Sessions MUST contain the number of send sessions started
+     by the Control-Client that have not been previously terminated by a
+     Stop-Sessions command (i.e., the Control-Client MUST account for each
+     accepted Request-Session).  If the Stop-Sessions message does not
+     account for exactly the number of sessions in progress, then it is to
+     be considered invalid, the TWAMP-Control connection SHOULD be closed,
+     and any results obtained considered invalid.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  816b12f25e2e0a3e3e7f15bcf2c5da81eebf31ceec4007c5ef8382fd36cb5d51
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A simultaneous CLOSE by users at both ends of a connection causes
+        FIN segments to be exchanged (Figure 13).  When all segments
+        preceding the FINs have been processed and acknowledged, each TCP
+        peer can ACK the FIN it has received.  Both will, upon receiving
+        these ACKs, delete the connection.
+"fixed": |-
+  - A simultaneous CLOSE by users at both ends of a connection causes FIN segments to be exchanged (Figure 13).  When all segments preceding the FINs have been processed and acknowledged, each TCP peer can ACK the FIN it has received.  Both will, upon receiving these ACKs, delete the connection.
+"ko": |-
+  - 연결의 양쪽 끝에서 사용자가 동시에 CLOSE하면 FIN 세그먼트가 교환됩니다(그림 13). FIN 앞의 모든 세그먼트가 처리되고 승인되면 각 TCP 피어는 수신한 FIN을 ACK할 수 있습니다. 둘 다 이러한 ACK를 받으면 연결을 삭제합니다.

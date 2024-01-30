@@ -1,0 +1,22 @@
+"hash": |-
+  11fc960082fb90a94027e2ad5ac1341f4ecacfbdfa947d1dca6cebd7b1b1324a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The M3UA layer does not impose a 272-octet signalling information
+     field (SIF) length limit as specified by the SS7 MTP Level 2 protocol
+     [7,8,9].  Larger information blocks can be accommodated directly by
+     M3UA/SCTP, without the need for an upper layer segmentation/
+     re-assembly procedure as specified in recent SCCP or ISUP versions.
+     However, in the context of an SG, the maximum 272-octet block size
+     must be followed when interworking to a SS7 network that does not
+     support the transfer of larger information blocks to the final
+     destination.  This avoids potential ISUP or SCCP fragmentation
+     requirements at the SGPs.  The provisioning and configuration of the
+     SS7 network determines the restriction placed on the maximum block
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

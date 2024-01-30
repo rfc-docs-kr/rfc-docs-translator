@@ -1,0 +1,3 @@
+   ACE4_FAILED_ACCESS_ACE_FLAG
+
+- ACE4_SUCCESSFUL_ACCESS_ACE_FLAG(SUCCESS) 및 ACE4_FAILED_ACCESS_ACE_FLAG(FAILED) 플래그 비트는 ACE4_SYSTEM_AUDIT_ACE_TYPE(AUDIT) 및 ACE4_SYSTEM_ALARM_ACE_TYPE(ALARM) ACE 유형에만 설정할 수 있습니다. 파일의 ACL을 처리하는 동안 서버가 OPEN을 시도하는 주체와 일치하는 AUDIT 또는 ALARM ACE를 발견하면 서버는 해당 사실과 AUDIT 또는 ALARM에서 발견된 SUCCESS 및 FAILED 플래그의 존재 여부를 기록합니다. 에이스. 서버가 ACL 처리를 완료하면 작업이 성공했는지 실패했는지 기록됩니다. 작업이 성공하고 일치하는 AUDIT 또는 ALARM ACE에 대해 SUCCESS 플래그가 설정된 경우 적절한 AUDIT 또는 ALARM 이벤트가 발생합니다. 작업이 실패하고 일치하는 AUDIT 또는 ALARM ACE에 대해 FAILED 플래그가 설정된 경우 적절한 AUDIT 또는 ALARM 이벤트가 발생합니다. SUCCESS 또는 FAILED 중 하나 또는 둘 다를 설정할 수 있지만 둘 다 설정하지 않으면 AUDIT 또는 ALARM ACE가 유용하지 않습니다.

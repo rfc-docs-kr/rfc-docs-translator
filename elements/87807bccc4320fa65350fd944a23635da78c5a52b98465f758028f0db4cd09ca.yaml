@@ -1,0 +1,18 @@
+"hash": |-
+  87807bccc4320fa65350fd944a23635da78c5a52b98465f758028f0db4cd09ca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TCP MSS Option specifies an upper bound for the size of packets
+     that can be received (see [43]).  Hence, setting the value in the MSS
+     Option too small can impact the ability for PMTUD or PLPMTUD to find
+     a larger path MTU.  RFC 1191 discusses this implication of many older
+     TCP implementations setting the TCP MSS to 536 (corresponding to the
+     IPv4 576 byte default MTU) for non-local destinations, rather than
+     deriving it from the MTUs of connected interfaces as recommended.
+"fixed": |-
+  The TCP MSS Option specifies an upper bound for the size of packets that can be received (see [43]).  Hence, setting the value in the MSS Option too small can impact the ability for PMTUD or PLPMTUD to find a larger path MTU.  RFC 1191 discusses this implication of many older TCP implementations setting the TCP MSS to 536 (corresponding to the IPv4 576 byte default MTU) for non-local destinations, rather than deriving it from the MTUs of connected interfaces as recommended.
+"ko": |-
+  TCP MSS 옵션은 수신할 수 있는 패킷 크기의 상한을 지정합니다([43] 참조). 따라서 MSS 옵션의 값을 너무 작게 설정하면 PMTUD 또는 PLPMTUD가 더 큰 경로 MTU를 찾는 기능에 영향을 미칠 수 있습니다. RFC 1191에서는 권장되는 대로 연결된 인터페이스의 MTU에서 파생되는 대신 로컬이 아닌 대상에 대해 TCP MSS를 536(IPv4 576바이트 기본 MTU에 해당)으로 설정하는 많은 이전 TCP 구현의 의미를 논의합니다.

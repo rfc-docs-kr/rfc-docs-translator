@@ -1,0 +1,20 @@
+"hash": |-
+  ac2d87dd8119350e008b1b059807480cddb23b7b1805ebd632ddd80ca0019be3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          OSPF routes IP packets based solely on the destination IP
+          address found in the IP packet header.  IP packets are routed
+          "as is" -- they are not encapsulated in any further protocol
+          headers as they transit the Autonomous System.  OSPF is a
+          dynamic routing protocol.  It quickly detects topological
+          changes in the AS (such as router interface failures) and
+          calculates new loop-free routes after a period of convergence.
+          This period of convergence is short and involves a minimum of
+          routing traffic.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

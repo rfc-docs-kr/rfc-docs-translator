@@ -1,0 +1,18 @@
+"hash": |-
+  e5187eff0c18de8f09634b689723db3e9e32b011e4c43c640f6d4dc38c803c69
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To send an urgent indication, the user must also send at least one
+     data octet.  If the sending user also indicates a push, timely
+     delivery of the urgent information to the destination process is
+     enhanced.  Note that because changes in the urgent pointer correspond
+     to data being written by a sending application, the urgent pointer
+     cannot "recede" in the sequence space, but a TCP receiver should be
+     robust to invalid urgent pointer values.
+"fixed": |-
+  To send an urgent indication, the user must also send at least one data octet.  If the sending user also indicates a push, timely delivery of the urgent information to the destination process is enhanced.  Note that because changes in the urgent pointer correspond to data being written by a sending application, the urgent pointer cannot "recede" in the sequence space, but a TCP receiver should be robust to invalid urgent pointer values.
+"ko": |-
+  긴급 표시를 보내려면 사용자는 최소한 하나의 데이터 옥텟도 보내야 합니다. 보내는 사용자가 푸시를 나타내면 긴급 정보를 대상 프로세스에 적시에 전달하는 것이 향상됩니다. 긴급 포인터의 변경 사항은 전송 애플리케이션에서 기록되는 데이터에 해당하기 때문에 긴급 포인터는 시퀀스 공간에서 "후퇴"될 수 없지만 TCP 수신기는 유효하지 않은 긴급 포인터 값에 대해 견고해야 합니다.

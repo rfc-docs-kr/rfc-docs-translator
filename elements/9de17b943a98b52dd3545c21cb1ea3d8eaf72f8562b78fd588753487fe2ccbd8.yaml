@@ -1,0 +1,22 @@
+"hash": |-
+  9de17b943a98b52dd3545c21cb1ea3d8eaf72f8562b78fd588753487fe2ccbd8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Suzuki et al. [multi-birthday] show that even if nonces are selected
+     uniformly at random, the probability that one or more values would be
+     repeated 256 or more times is negligible until the number of nonces
+     reaches 2^102.  (Specifically, the probability is 1/((2^96)^(255)) *
+     Binomial(q, 256), where q is the number of nonces.)  Since 2^102 is
+     vastly greater than the limit on the number of plaintexts per key
+     given above, we don't feel that this limit on the number of repeated
+     nonces will be a problem.  This also means that selecting nonces at
+     random is a safe practice with AES-GCM-SIV.  The bounds obtained for
+     random nonces are as follows (as above, for these bounds, the
+     adversary's advantage is at most 2^-32):
+"fixed": |-
+  Suzuki et al. [multi-birthday] show that even if nonces are selected uniformly at random, the probability that one or more values would be repeated 256 or more times is negligible until the number of nonces reaches 2^102.  (Specifically, the probability is 1/((2^96)^(255)) * Binomial(q, 256), where q is the number of nonces.)  Since 2^102 is vastly greater than the limit on the number of plaintexts per key given above, we don't feel that this limit on the number of repeated nonces will be a problem.  This also means that selecting nonces at random is a safe practice with AES-GCM-SIV.  The bounds obtained for random nonces are as follows (as above, for these bounds, the adversary's advantage is at most 2^-32):
+"ko": |-
+  Suzukiet al. [multi-birthday]는 nonce가 균일하게 무작위로 선택되더라도 nonce의 수가 2^102에 도달할 때까지 하나 이상의 값이 256회 이상 반복될 확률은 무시할 수 있음을 보여줍니다. (구체적으로 확률은 1/((2^96)^(255)) * Binomial(q, 256)입니다. 여기서 q는 nonce의 수입니다.) 2^102는 nonce 수의 한계보다 훨씬 크므로 위에 주어진 키당 일반 텍스트 수를 고려하면 반복되는 nonce 수에 대한 제한이 문제가 될 것이라고 생각하지 않습니다. 이는 또한 AES-GCM-SIV를 사용하여 무작위로 nonce를 선택하는 것이 안전한 방식임을 의미합니다. 임의 nonce에 대해 얻은 경계는 다음과 같습니다(위와 마찬가지로 이러한 경계에 대해 적의 이점은 최대 2^-32입니다).

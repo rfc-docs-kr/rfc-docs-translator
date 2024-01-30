@@ -1,0 +1,22 @@
+"hash": |-
+  7cbcaf8f37dc133c77ba927ab1f9d60ed0d3e462505e32c84906eea29d1889a5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMeterFailNext OBJECT-TYPE
+      SYNTAX       RowPointer
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "If the traffic does not conform, this selects the next
+         Differentiated Services Functional Data Path element to handle
+         traffic for this data path. This RowPointer should point to an
+         instance of one of:
+           diffServClfrEntry
+           diffServMeterEntry
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

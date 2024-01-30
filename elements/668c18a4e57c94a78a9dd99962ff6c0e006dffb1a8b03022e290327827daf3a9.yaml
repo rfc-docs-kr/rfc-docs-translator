@@ -1,0 +1,19 @@
+"hash": |-
+  668c18a4e57c94a78a9dd99962ff6c0e006dffb1a8b03022e290327827daf3a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: Because client authentication could involve prompting the user,
+     servers MUST be prepared for some delay, including receiving an
+     arbitrary number of other messages between sending the
+     CertificateRequest and receiving a response.  In addition, clients
+     which receive multiple CertificateRequests in close succession MAY
+     respond to them in a different order than they were received (the
+     certificate_request_context value allows the server to disambiguate
+     the responses).
+"fixed": |-
+  Note: Because client authentication could involve prompting the user, servers MUST be prepared for some delay, including receiving an arbitrary number of other messages between sending the CertificateRequest and receiving a response.  In addition, clients which receive multiple CertificateRequests in close succession MAY respond to them in a different order than they were received (the certificate_request_context value allows the server to disambiguate the responses).
+"ko": |-
+  참고: 클라이언트 인증에는 사용자에게 메시지를 표시하는 작업이 포함될 수 있으므로 서버는 CertificateRequest 전송과 응답 수신 사이에 임의의 수의 다른 메시지 수신을 포함하여 약간의 지연에 대비해야 합니다. 또한 여러 개의 CertificateRequest를 연속적으로 수신하는 클라이언트는 수신된 순서와 다른 순서로 응답할 수 있습니다(certificate_request_context 값을 사용하면 서버가 응답을 명확하게 할 수 있습니다).

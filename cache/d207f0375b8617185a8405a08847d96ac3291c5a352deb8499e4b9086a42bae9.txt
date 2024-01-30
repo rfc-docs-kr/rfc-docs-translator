@@ -1,0 +1,1 @@
+   aead_output은 AEAD 암호화 작업에 의한 암호문 출력으로 구성됩니다. 길이는 일반적으로 TLSCompressed.length보다 크지만 AEAD 암호에 따라 다릅니다. 암호에 패딩이 포함될 수 있으므로 오버헤드의 양은 TLSCompressed.length 값에 따라 달라질 수 있습니다. 각 AEAD 암호는 1024바이트보다 큰 확장을 생성해서는 안 됩니다(MUST NOT). 상징적으로,

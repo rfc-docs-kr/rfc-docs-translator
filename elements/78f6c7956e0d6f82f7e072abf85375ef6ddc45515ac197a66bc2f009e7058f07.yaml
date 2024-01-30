@@ -1,0 +1,22 @@
+"hash": |-
+  78f6c7956e0d6f82f7e072abf85375ef6ddc45515ac197a66bc2f009e7058f07
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Routing within a class A used for CIDR is also an interesting
+     challenge.  The usual case will be that a domain will be assigned a
+     portion of the class A address space.  The domain can either use an
+     IGP which allows variable length subnets or it can pick a single
+     subnet mask to be used throughout the domain.  In the latter case,
+     difficulties arise because other domains have been allocated other
+     parts of the class A address space and may be using a different
+     subnet mask.  If the domain is itself a transit, it may also need to
+     allocate some portion of its space to a client, which might also use
+     a different subnet mask.  The client would then need routing
+     information about the remainder of the class A.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

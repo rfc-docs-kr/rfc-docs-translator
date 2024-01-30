@@ -1,0 +1,21 @@
+"hash": |-
+  479ad589d313cdf6644a7acfed69054795571d52bdc635e54b53ff79d0c596e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although a Diameter node may have many possible peers with which it
+     is able to communicate, it may not be economical to have an
+     established connection to all of them.  At a minimum, a Diameter node
+     SHOULD have an established connection with two peers per realm, known
+     as the primary and secondary peers.  Of course, a node MAY have
+     additional connections, if it is deemed necessary.  Typically, all
+     messages for a realm are sent to the primary peer but, in the event
+     that failover procedures are invoked, any pending requests are sent
+     to the secondary peer.  However, implementations are free to load
+     balance requests between a set of peers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

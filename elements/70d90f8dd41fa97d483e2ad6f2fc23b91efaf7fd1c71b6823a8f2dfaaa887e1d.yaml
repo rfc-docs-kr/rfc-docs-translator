@@ -1,0 +1,22 @@
+"hash": |-
+  70d90f8dd41fa97d483e2ad6f2fc23b91efaf7fd1c71b6823a8f2dfaaa887e1d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A transport sender MUST close the associated TLS connection if the
+     connection is not expected to deliver any syslog messages later.  It
+     MUST send a TLS close_notify alert before closing the connection.  A
+     transport sender (TLS client) MAY choose to not wait for the
+     transport receiver's close_notify alert and simply close the
+     connection, thus generating an incomplete close on the transport
+     receiver (TLS server) side.  Once the transport receiver gets a
+     close_notify from the transport sender, it MUST reply with a
+     close_notify unless it becomes aware that the connection has already
+     been closed by the transport sender (e.g., the closure was indicated
+     by TCP).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

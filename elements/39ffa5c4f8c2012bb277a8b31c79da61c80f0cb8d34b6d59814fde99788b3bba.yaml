@@ -1,0 +1,21 @@
+"hash": |-
+  39ffa5c4f8c2012bb277a8b31c79da61c80f0cb8d34b6d59814fde99788b3bba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A fundamental notion in the design is that every octet of data sent
+     over a TCP connection has a sequence number.  Since every octet is
+     sequenced, each of them can be acknowledged.  The acknowledgment
+     mechanism employed is cumulative so that an acknowledgment of
+     sequence number X indicates that all octets up to but not including X
+     have been received.  This mechanism allows for straightforward
+     duplicate detection in the presence of retransmission.  The numbering
+     scheme of octets within a segment is as follows: the first data octet
+     immediately following the header is the lowest numbered, and the
+     following octets are numbered consecutively.
+"fixed": |-
+  A fundamental notion in the design is that every octet of data sent over a TCP connection has a sequence number.  Since every octet is sequenced, each of them can be acknowledged.  The acknowledgment mechanism employed is cumulative so that an acknowledgment of sequence number X indicates that all octets up to but not including X have been received.  This mechanism allows for straightforward duplicate detection in the presence of retransmission.  The numbering scheme of octets within a segment is as follows: the first data octet immediately following the header is the lowest numbered, and the following octets are numbered consecutively.
+"ko": |-
+  디자인의 기본 개념은 TCP 연결을 통해 전송되는 모든 데이터 옥텟에 시퀀스 번호가 있다는 것입니다. 모든 옥텟은 순서가 지정되어 있으므로 각각을 인식할 수 있습니다. 사용된 승인 메커니즘은 누적되므로 시퀀스 번호 X의 승인은 X를 포함하지 않는 최대 옥텟이 모두 수신되었음을 나타냅니다. 이 메커니즘을 사용하면 재전송이 있을 때 간단한 중복 감지가 가능합니다. 세그먼트 내 옥텟의 번호 지정 방식은 다음과 같습니다. 헤더 바로 다음의 첫 번째 데이터 옥텟이 가장 낮은 번호가 지정되고 다음 옥텟에는 연속적으로 번호가 지정됩니다.

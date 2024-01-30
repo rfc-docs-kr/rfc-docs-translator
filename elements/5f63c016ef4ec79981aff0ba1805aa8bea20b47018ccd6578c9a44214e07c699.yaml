@@ -1,0 +1,14 @@
+"hash": |-
+  5f63c016ef4ec79981aff0ba1805aa8bea20b47018ccd6578c9a44214e07c699
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Queue for processing after entering ESTABLISHED state.  If there
+        is no room to queue this request, respond with "error:
+        insufficient resources".
+"fixed": |-
+  *  Queue for processing after entering ESTABLISHED state.  If there is no room to queue this request, respond with "error: insufficient resources".
+"ko": |-
+  * ESTABLISHED 상태 진입 후 처리를 위한 큐입니다. 이 요청을 대기열에 넣을 공간이 없으면 "오류: 리소스 부족"으로 응답합니다.

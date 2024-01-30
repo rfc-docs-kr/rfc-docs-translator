@@ -1,0 +1,15 @@
+"hash": |-
+  d3be26321e6ab7f61128c64669c5cfc74ab9bff2205f5261bc4acb4b781c56c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If there is unacknowledged data (i.e., SND.NXT > SND.UNA), then the
+     sending TCP endpoint buffers all user data (regardless of the PSH
+     bit) until the outstanding data has been acknowledged or until the
+     TCP endpoint can send a full-sized segment (Eff.snd.MSS bytes).
+"fixed": |-
+  If there is unacknowledged data (i.e., SND.NXT > SND.UNA), then the sending TCP endpoint buffers all user data (regardless of the PSH bit) until the outstanding data has been acknowledged or until the TCP endpoint can send a full-sized segment (Eff.snd.MSS bytes).
+"ko": |-
+  확인되지 않은 데이터(예: SND.NXT > SND.UNA)가 있는 경우 전송 TCP 끝점은 미해결 데이터가 확인될 때까지 또는 TCP 끝점에서 전체 데이터를 보낼 수 있을 때까지 PSH 비트에 관계없이 모든 사용자 데이터를 버퍼링합니다. 크기가 지정된 세그먼트(Eff.snd.MSS 바이트).

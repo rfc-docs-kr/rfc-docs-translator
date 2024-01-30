@@ -1,0 +1,19 @@
+"hash": |-
+  1b5a82a035dd72ea9bd124689dafd5fc5f328dbfb1a7fabdfc66e517f13a57ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once a peer has sent a Response of the same Type as the initial
+     Request, an authenticator MUST NOT send a Request of a different Type
+     prior to completion of the final round of a given method (with the
+     exception of a Notification-Request) and MUST NOT send a Request for
+     an additional method of any Type after completion of the initial
+     authentication method; a peer receiving such Requests MUST treat them
+     as invalid, and silently discard them.  As a result, Identity Requery
+     is not supported.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

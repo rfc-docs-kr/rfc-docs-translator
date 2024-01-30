@@ -1,0 +1,1 @@
+   * 상태 병합의 경우 서버가 Transparent State Migration을 시도하지 않았을 가능성이 있으며, 이 경우 상태는 SEQ4_STATUS 비트에 반영되지 않고 손실될 수 있습니다. 이러한 일이 발생했는지 확인하기 위해 클라이언트는 TEST_STATEID를 사용하여 원본 서버에서 생성된 stateid가 대상 서버에서 계속 액세스 가능한지 확인할 수 있습니다. 단일 stateid가 성공적으로 전송된 것으로 확인되면 클라이언트는 Transparent State Migration이 시작되었다고 결론을 내릴 수 있으며 모든 stateid 전송에 실패하면 SEQ4_STATUS 비트에 반영됩니다. 그렇지 않으면 투명 상태 마이그레이션이 발생하지 않은 것입니다.

@@ -1,0 +1,1 @@
+- 보다 정확하게는 각 경로에 Route.dest라는 대상 속성과 Route.length라는 해당 접두사 길이가 있어 Route.dest의 어느 비트가 중요한지 지정한다고 가정합니다. 전달되는 패킷의 IP 대상 주소는 ip.dest입니다. 이 규칙은 Route.dest와 ip.dest의 가장 중요한 Route.length 비트가 동일한 경로를 제외하고 후보 집합에서 모든 경로를 삭제합니다.

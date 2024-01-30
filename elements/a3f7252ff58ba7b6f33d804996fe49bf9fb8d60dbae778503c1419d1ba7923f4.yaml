@@ -1,0 +1,24 @@
+"hash": |-
+  a3f7252ff58ba7b6f33d804996fe49bf9fb8d60dbae778503c1419d1ba7923f4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the value of a Reserve property is False, the MG SHALL choose one
+     of the alternatives specified in the local descriptor (if present)
+     and one of the alternatives specified in the remote descriptor (if
+     present).  If the MG has not yet reserved resources to support the
+     selected alternative, it SHALL reserve the resources.  If, on the
+     other hand, it already reserved resources for the Termination
+     addressed (because of a prior exchange with ReserveValue and/or
+     ReserveGroup equal to True), it SHALL release any excess resources it
+     reserved previously.  Finally, the MG shall send a reply to the MGC
+     containing the alternatives for the local and/or remote descriptor
+     that it selected.  If the MG does not have sufficient resources to
+     support any of the alternatives specified, is SHALL respond with
+     error 510 (insufficient resources).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

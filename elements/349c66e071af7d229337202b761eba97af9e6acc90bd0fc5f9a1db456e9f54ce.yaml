@@ -1,0 +1,19 @@
+"hash": |-
+  349c66e071af7d229337202b761eba97af9e6acc90bd0fc5f9a1db456e9f54ce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This vector MAY be empty if the client is requesting a
+     HelloRetryRequest.  Each KeyShareEntry value MUST correspond to a
+     group offered in the "supported_groups" extension and MUST appear in
+     the same order.  However, the values MAY be a non-contiguous subset
+     of the "supported_groups" extension and MAY omit the most preferred
+     groups.  Such a situation could arise if the most preferred groups
+     are new and unlikely to be supported in enough places to make
+     pregenerating key shares for them efficient.
+"fixed": |-
+  This vector MAY be empty if the client is requesting a HelloRetryRequest.  Each KeyShareEntry value MUST correspond to a group offered in the "supported_groups" extension and MUST appear in the same order.  However, the values MAY be a non-contiguous subset of the "supported_groups" extension and MAY omit the most preferred groups.  Such a situation could arise if the most preferred groups are new and unlikely to be supported in enough places to make pregenerating key shares for them efficient.
+"ko": |-
+  클라이언트가 HelloRetryRequest를 요청하는 경우 이 벡터는 비어 있을 수 있습니다. 각 KeyShareEntry 값은 "supported_groups" 확장에서 제공되는 그룹과 일치해야 하며 동일한 순서로 나타나야 합니다. 그러나 값은 "supported_groups" 확장의 연속되지 않은 하위 집합일 수 있으며 가장 선호하는 그룹을 생략할 수 있습니다. 이러한 상황은 가장 선호하는 그룹이 새로운 그룹이고 사전 생성된 주요 공유를 효율적으로 만들 수 있는 충분한 장소에서 지원되지 않을 경우 발생할 수 있습니다.

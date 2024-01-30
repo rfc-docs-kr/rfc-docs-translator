@@ -1,0 +1,1 @@
+   ClientHello.client_version보다 크지 않은 서버에서 지원하는 가장 높은 버전. 예를 들어 서버가 TLS 1.0, 1.1, 1.2를 지원하고 client_version이 TLS 1.0인 경우 서버는 TLS 1.0 ServerHello로 진행합니다. 서버가 client_version보다 큰 버전만 지원하는 경우(또는 사용하려는 경우) "protocol_version" 경고 메시지를 보내고 연결을 닫아야 합니다.

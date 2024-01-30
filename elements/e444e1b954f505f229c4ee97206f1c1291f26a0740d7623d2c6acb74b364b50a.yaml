@@ -1,0 +1,19 @@
+"hash": |-
+  e444e1b954f505f229c4ee97206f1c1291f26a0740d7623d2c6acb74b364b50a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an SCTP association has been successfully established, the SCTP
+     will send an SCTP-COMMUNICATION_UP notification primitive to the
+     local M3UA layer.  At the SGP or IPSP that initiated the request, the
+     M3UA layer will send an M-SCTP_ESTABLISH confirm primitive to Layer
+     Management when the association setup is complete.  At the peer M3UA
+     layer, an M-SCTP_ESTABLISH indication primitive is sent to Layer
+     Management upon successful completion of an incoming SCTP association
+     setup.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

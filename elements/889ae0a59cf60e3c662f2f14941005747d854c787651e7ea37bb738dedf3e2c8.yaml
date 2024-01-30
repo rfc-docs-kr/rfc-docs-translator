@@ -1,0 +1,24 @@
+"hash": |-
+  889ae0a59cf60e3c662f2f14941005747d854c787651e7ea37bb738dedf3e2c8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServClfrElementPrecedence OBJECT-TYPE
+      SYNTAX       Unsigned32  (1..4294967295)
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The relative order in which classifier elements are applied:
+         higher numbers represent classifier element with higher
+         precedence.  Classifier elements with the same order must be
+         unambiguous i.e. they must define non-overlapping patterns, and
+         are considered to be applied simultaneously to the traffic
+         stream. Classifier elements with different order may overlap in
+         their filters:  the classifier element with the highest order
+         that matches is taken.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

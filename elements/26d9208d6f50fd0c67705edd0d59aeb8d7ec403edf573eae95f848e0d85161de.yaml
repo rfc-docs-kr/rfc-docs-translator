@@ -1,0 +1,19 @@
+"hash": |-
+  26d9208d6f50fd0c67705edd0d59aeb8d7ec403edf573eae95f848e0d85161de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To follow rule #1, PA will need to advertise the block of addresses
+     that it was given and C7.  Since C4 is multi-homed and primary
+     through PA, it must also be advertised.  C5 is multi-homed and
+     primary through PB.  In principle (and in the example above), it need
+     not be advertised, since longest match by PB will automatically
+     select PB as primary and the advertisement of PA's aggregate will be
+     used as a secondary.  In actual practice, C5 will normally be
+     advertised via both providers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

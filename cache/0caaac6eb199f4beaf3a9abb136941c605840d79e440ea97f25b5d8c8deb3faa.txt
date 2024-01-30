@@ -1,0 +1,1 @@
+   표 B.2는 주로 대소문자를 구분하지 않는 비교를 처리하기 위한 것이므로 일반적으로 nfs4_cs_prep 프로필의 일부가 아닙니다. 그러나 NFSv4.1 파일 서버가 case_insensitive 파일 시스템 속성을 지원하고 case_insensitive가 TRUE인 경우 NFSv4.1 서버는 utf8str_cs 문자열을 처리할 때 Table B.2(Table B1 외에)를 사용해야 하며 NFSv4.1은 클라이언트는 (표 B.1 외에) 표 B.2가 사용되고 있다고 가정해야 합니다.

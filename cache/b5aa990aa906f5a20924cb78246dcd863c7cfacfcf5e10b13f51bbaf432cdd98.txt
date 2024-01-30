@@ -1,0 +1,1 @@
+   OPEN 작업으로 인해 반환된 stateid에 이미 할당된 stateid와 일치하는 "other" 값이 있고 표시되는 잠금의 변경을 나타내는 새로운 "seqid"가 있는 업그레이드가 발생하는 경우 OPEN4_RESULT_MAY_NOTIFY_LOCK 플래그의 값 앞으로 해당 시점부터 처리되는 새로운 OPEN 컨트롤에 응답할 때. 동일한 파일 및 오픈 소유자에 대해 병렬 OPEN이 수행되면 반환된 stateid의 "seqid" 필드 순서(랩어라운드 적용)를 사용하여 OPEN4_RESULT_MAY_NOTIFY_LOCK 플래그의 제어 값을 선택합니다.

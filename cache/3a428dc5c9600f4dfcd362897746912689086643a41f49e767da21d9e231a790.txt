@@ -1,0 +1,1 @@
+   3. mustExclude는 PASSporT에 표시되어서는 안 되는 JWT 클레임을 나타냅니다. 기본 PASSporT 클레임("iat", "orig" 및 "dest")은 항상 허용되며 이러한 클레임은 mustExclude 목록의 일부가 되어서는 안 됩니다. 이러한 기본 PASSporT 클레임 중 하나가 mustExclude 목록에 나타나면 인증서는 확장이 없는 것처럼 처리되어야 합니다.

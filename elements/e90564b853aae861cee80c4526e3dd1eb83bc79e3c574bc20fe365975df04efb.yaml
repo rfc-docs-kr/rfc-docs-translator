@@ -1,0 +1,21 @@
+"hash": |-
+  e90564b853aae861cee80c4526e3dd1eb83bc79e3c574bc20fe365975df04efb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ICE requires an agent to demultiplex STUN and application-layer
+     traffic, since they appear on the same port.  This demultiplexing is
+     described in [RFC5245] and is done using the magic cookie and other
+     fields of the message.  Stream-oriented transports introduce another
+     wrinkle, since they require a way to frame the connection so that the
+     application and STUN packets can be extracted in order to
+     differentiate STUN packets from application-layer traffic.  For this
+     reason, TCP media streams utilizing ICE use the basic framing
+     provided in RFC 4571 [RFC4571], even if the application layer
+     protocol is not RTP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

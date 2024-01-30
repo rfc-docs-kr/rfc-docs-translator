@@ -1,0 +1,19 @@
+"hash": |-
+  b3186ea3287bf39f5a360884d3783ad2c30a06b105bdaaa30dfb6405d2125ddd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     RequestedActions ::= SEQUENCE
+     {
+          keepActive              BOOLEAN,
+          eventDM                 EventDM OPTIONAL,
+          secondEvent             SecondEventsDescriptor OPTIONAL,
+          signalsDescriptor       SignalsDescriptor OPTIONAL,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

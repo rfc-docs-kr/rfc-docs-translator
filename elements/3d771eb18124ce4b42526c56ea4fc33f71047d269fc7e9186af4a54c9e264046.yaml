@@ -1,0 +1,29 @@
+"hash": |-
+  3d771eb18124ce4b42526c56ea4fc33f71047d269fc7e9186af4a54c9e264046
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           +----------------+               +-------------------+
+           | Session-Sender |<-TWAMP-Test-->| Session-Reflector |
+           +----------------+               +-------------------+
+             ^                                     ^
+             |                                     |
+             |                                     |
+             |                                     |
+             |  +----------------+<----------------+
+             |  |     Server     |
+             |  +----------------+
+             |    ^
+             |    |
+             | TWAMP-Control
+             |    |
+             v    v
+           +----------------+
+           | Control-Client |
+           +----------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

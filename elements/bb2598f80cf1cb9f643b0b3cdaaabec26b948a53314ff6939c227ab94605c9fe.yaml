@@ -1,0 +1,20 @@
+"hash": |-
+  bb2598f80cf1cb9f643b0b3cdaaabec26b948a53314ff6939c227ab94605c9fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: The attacker sends ICMP echo request ("ping") packets
+        that appear to originate not from the attacker's own IP address,
+        but from the address of the host or router that is the target of
+        the attack. Each packet is addressed to an IP broadcast address,
+        e.g., to all IP addresses in a given network. Thus, each echo
+        request that is sent by the attacker results in many echo
+        responses being sent to the target address. This attack can
+        disrupt service at a particular host, at the hosts that depend on
+        a particular router, or in an entire network.
+"fixed": |-
+  - Tutorial: The attacker sends ICMP echo request ("ping") packets that appear to originate not from the attacker's own IP address, but from the address of the host or router that is the target of the attack. Each packet is addressed to an IP broadcast address, e.g., to all IP addresses in a given network. Thus, each echo request that is sent by the attacker results in many echo responses being sent to the target address. This attack can disrupt service at a particular host, at the hosts that depend on a particular router, or in an entire network.
+"ko": |-
+  - 튜토리얼: 공격자는 공격자 자신의 IP 주소가 아닌 공격 대상인 호스트 또는 라우터의 주소에서 시작된 것처럼 보이는 ICMP 에코 요청("ping") 패킷을 보냅니다. 각 패킷은 IP 브로드캐스트 주소(예: 특정 네트워크의 모든 IP 주소)로 주소가 지정됩니다. 따라서 공격자가 보내는 각 에코 요청은 많은 에코 응답을 대상 주소로 보내는 결과를 낳습니다. 이 공격은 특정 호스트, 특정 라우터에 의존하는 호스트 또는 전체 네트워크의 서비스를 중단시킬 수 있습니다.

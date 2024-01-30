@@ -1,0 +1,1 @@
+TLS 1.3에서 사용되는 AEAD 알고리즘은 255옥텟보다 큰 확장을 생성해서는 안 됩니다. TLSCiphertext.length가 2^14 + 256 옥텟보다 큰 피어로부터 레코드를 수신하는 엔드포인트는 "record_overflow" 경고와 함께 연결을 종료해야 합니다. 이 제한은 최대 TLSInnerPlaintext 길이인 2^14옥텟 + ContentType의 1옥텟 + 최대 AEAD 확장인 255옥텟에서 파생됩니다.

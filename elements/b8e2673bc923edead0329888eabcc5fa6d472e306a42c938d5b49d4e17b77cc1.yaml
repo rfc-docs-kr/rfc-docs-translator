@@ -1,0 +1,51 @@
+"hash": |-
+  b8e2673bc923edead0329888eabcc5fa6d472e306a42c938d5b49d4e17b77cc1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          LS     LSA                LSA description
+          type   name
+          ________________________________________________________
+          1      Router-LSAs        Originated by all routers.
+                                    This LSA describes
+                                    the collected states of the
+                                    router's interfaces to an
+                                    area. Flooded throughout a
+                                    single area only.
+          ________________________________________________________
+          2      Network-LSAs       Originated for broadcast
+                                    and NBMA networks by
+                                    the Designated Router. This
+                                    LSA contains the
+                                    list of routers connected
+                                    to the network. Flooded
+                                    throughout a single area only.
+          ________________________________________________________
+          3,4    Summary-LSAs       Originated by area border
+                                    routers, and flooded through-
+                                    out the LSA's associated
+                                    area. Each summary-LSA
+                                    describes a route to a
+                                    destination outside the area,
+                                    yet still inside the AS
+                                    (i.e., an inter-area route).
+                                    Type 3 summary-LSAs describe
+                                    routes to networks. Type 4
+                                    summary-LSAs describe
+                                    routes to AS boundary routers.
+          ________________________________________________________
+          5      AS-external-LSAs   Originated by AS boundary
+                                    routers, and flooded through-
+                                    out the AS. Each
+                                    AS-external-LSA describes
+                                    a route to a destination in
+                                    another Autonomous System.
+                                    Default routes for the AS can
+                                    also be described by
+                                    AS-external-LSAs.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

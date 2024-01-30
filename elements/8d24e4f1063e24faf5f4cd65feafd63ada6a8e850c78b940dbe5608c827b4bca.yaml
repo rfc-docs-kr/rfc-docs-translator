@@ -1,0 +1,26 @@
+"hash": |-
+  8d24e4f1063e24faf5f4cd65feafd63ada6a8e850c78b940dbe5608c827b4bca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The MG is provisioned with a name or address (such as DNS name or IP
+     address) of a primary and zero or more secondary MGCs (see section
+     7.2.8) that is the address the MG uses to send messages to the MGC.
+     If TCP or UDP is used as the protocol transport and the port to which
+     the initial ServiceChange request is to be sent is not otherwise
+     known, that request should be sent to the default port number for the
+     protocol.  This port number is 2944 for text-encoded operation or
+     2945 for binary-encoded operation, for either UDP or TCP.  The MGC
+     receives the message containing the ServiceChange request from the MG
+     and can determine the MG's address from it.  As described in section
+     7.2.8, either the MG or the MGC may supply an address in the
+     ServiceChangeAddress parameter to which subsequent transaction
+     requests must be addressed, but responses (including the response to
+     the initial ServiceChange request) must always be sent back to the
+     address which was the source of the corresponding request.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

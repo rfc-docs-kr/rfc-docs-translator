@@ -1,0 +1,31 @@
+"hash": |-
+  4e475bac11101c5d67e9748593c3f2d841740544bcdf674456f59fc6c729e424
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At a higher level of abstraction, we could measure the network's
+     transport performance at the application output.  This entails
+     measuring the quality of the transported and reconstructed
+     information as perceived by the user during consumption.  In such an
+     instance we would use Quality of Experience (QoE) metrics, which are
+     by definition dependent on the application.  For example, the
+     standardized methods for obtaining a Mean Opinion Score (MOS) for
+     VoIP (e.g., ITU-T Recommendation P.800) is quite different from those
+     for IPTV (e.g., Perceptual Evaluation of Video Quality (PEVQ)).
+     These methods are notoriously hard to implement, as they involve real
+     users in a controlled environment.  Such constraints can be relaxed
+     or dropped by using methods that model human perception under certain
+     environments, but these methods are typically intrusive.  The most
+     important drawback of measuring network performance at the output of
+     the application is that only one part of each measurement is related
+     to network performance.  The rest is related to application
+     performance, e.g., video coding, or even device capabilities, both of
+     which are irrelevant to our purposes here and are generally hard to
+     separate.  We therefore see the use of QoE metrics in measuring ICN
+     performance as a poor choice at this stage.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

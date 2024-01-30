@@ -1,0 +1,1 @@
+- 내부 SSV GSS 메커니즘과 SET_SSV 작업에 필요한 다이제스트를 계산하기 위해 클라이언트가 지원하는 알고리즘 세트입니다. 각 알고리즘은 OID(객체 식별자)로 지정됩니다. 서버에 필요한 알고리즘은 id-sha1, id-sha224, id-sha256, id-sha384 및 id-sha512[28]입니다. 서버가 그 집합 중에서 선택하는 알고리즘은 spr_ssv_prot_info의 필드인 spi_hash_alg에 표시됩니다. spi_hash_alg 필드는 ssp_hash_algs 배열에 대한 인덱스입니다. 만약

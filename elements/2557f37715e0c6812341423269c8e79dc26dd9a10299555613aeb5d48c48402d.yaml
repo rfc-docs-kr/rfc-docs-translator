@@ -1,0 +1,47 @@
+"hash": |-
+  2557f37715e0c6812341423269c8e79dc26dd9a10299555613aeb5d48c48402d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     MEGACO/1 [125.125.125.111]:55555
+     Reply = 50007 {
+        Context = - {
+     AuditValue = A5556 {
+               Media {
+                   TerminationState { ServiceStates = InService,
+                          Buffer = OFF },
+                  Stream = 1 {
+                      LocalControl { Mode = SendReceive,
+                         nt/jit=40 },
+                      Local {
+     v=0
+     c=IN IP4 125.125.125.111
+     m=audio 1111 RTP/AVP  4
+     a=ptime:30
+                     },
+                      Remote {
+     v=0
+     c=IN IP4 124.124.124.222
+     m=audio 2222 RTP/AVP  4
+     a=ptime:30
+                      } } },
+               Events,
+               Signals,
+               DigitMap,
+               Packages {nt-1, rtp-1},
+               Statistics { rtp/ps=1200,  ; packets sent
+                            nt/os=62300, ; octets sent
+                            rtp/pr=700, ; packets received
+                            nt/or=45100, ; octets received
+                            rtp/pl=0.2,  ; % packet loss
+                            rtp/jit=20,
+                            rtp/delay=40 } ; avg latency
+            }
+         }
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

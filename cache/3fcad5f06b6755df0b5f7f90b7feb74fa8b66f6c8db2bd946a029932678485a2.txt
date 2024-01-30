@@ -1,0 +1,1 @@
+   명령에는 캡슐화된 알림 요청 명령이 선택적으로 포함될 수 있습니다. 이 경우 RequestIdentifier 매개변수는 물론 선택적으로 RequestedEvents DigitMap, SignalRequests, QuarantineHandling 및 DetectEvents 매개변수도 제공됩니다. 캡슐화된 알림 요청은 연결 생성과 동시에 실행됩니다. 예를 들어 통화 에이전트가 주거용 게이트웨이에 대한 통화를 시작하려는 경우 다음을 수행해야 합니다.

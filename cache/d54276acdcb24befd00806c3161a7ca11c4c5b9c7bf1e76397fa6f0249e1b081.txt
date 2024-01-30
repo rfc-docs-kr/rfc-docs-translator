@@ -1,0 +1,1 @@
+   VNTM 기능은 PCE-VNTM 협력 모델과 NMS-VNTM 모델 모두에 필요합니다. PCE-VNTM 협력 모델에서는 PCE와 VNTM 간, VNTM과 국경 LSR 간 통신이 필요합니다. 상위 계층 PCE와 VNTM 간의 통신은 이벤트 알림이며 PCE MIB 모듈[PCE-MIB]의 SNMP(Simple Network Management Protocol) 알림을 사용할 수 있습니다. PCE에서 VNTM으로의 통신에는 승인이 없습니다. VNTM-LSR 통신은 기존 GMPLS-TE MIB 모듈 [RFC4802]을 사용할 수 있습니다.

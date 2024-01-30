@@ -1,0 +1,32 @@
+"hash": |-
+  d09ff477f85582dc0c8929889b2c33f5f38186d25c0b26c44129d8d0f0e6e0d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A ServiceChange Command specifying the "Root" for the TerminationID
+     and ServiceChangeMethod equal to Restart is a registration command by
+     which a Media Gateway announces its existence to the Media Gateway
+     Controller.  The Media Gateway is expected to be provisioned with the
+     name of one primary and optionally some number of alternate Media
+     Gateway Controllers.  Acknowledgement of the ServiceChange Command
+     completes the registration process, except when the MGC has returned
+     an alternative ServiceChangeMgcId as described in the following
+     paragraph.  The MG may specify the transport ServiceChangeAddress to
+     be used by the MGC for sending messages in the ServiceChangeAddress
+     parameter in the input ServiceChangeDescriptor. The MG may specify an
+     address in the ServiceChangeAddress parameter of the ServiceChange
+     request, and the MGC may also do so in the ServiceChange reply.  In
+     either case, the recipient must use the supplied address as the
+     destination for all subsequent transaction requests within the
+     association.  At the same time, as indicated in section 9,
+     transaction replies and pending indications must be sent to the
+     address from which the corresponding requests originated.  This must
+     be done even if it implies extra messaging because commands and
+     responses cannot be packed together. The TimeStamp parameter shall be
+     sent with a registration command and its response.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  a8a73021af787bf8f45563e398a2e7ebd14e59c132648e469ca2d0248ff5ebb1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TCP implementation MUST (MUST-32) inform the application layer
+     asynchronously whenever it receives an urgent pointer and there was
+     previously no pending urgent data, or whenever the urgent pointer
+     advances in the data stream.  The TCP implementation MUST (MUST-33)
+     provide a way for the application to learn how much urgent data
+     remains to be read from the connection, or at least to determine
+     whether more urgent data remains to be read [19].
+"fixed": |-
+  A TCP implementation MUST (MUST-32) inform the application layer asynchronously whenever it receives an urgent pointer and there was previously no pending urgent data, or whenever the urgent pointer advances in the data stream.  The TCP implementation MUST (MUST-33) provide a way for the application to learn how much urgent data remains to be read from the connection, or at least to determine whether more urgent data remains to be read [19].
+"ko": |-
+  TCP 구현은 긴급 포인터를 수신하고 이전에 보류 중인 긴급 데이터가 없었을 때마다 또는 긴급 포인터가 데이터 스트림에서 진행될 때마다 애플리케이션 계층에 비동기적으로 알려야 합니다(MUST-32). TCP 구현은 애플리케이션이 연결에서 읽어야 할 긴급 데이터의 양을 알거나 적어도 더 긴급한 데이터를 읽어야 할지 여부를 판단할 수 있는 방법을 제공해야 합니다[19].

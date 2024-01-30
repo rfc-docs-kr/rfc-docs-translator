@@ -1,0 +1,16 @@
+"hash": |-
+  7d26317aecae4ff5a38884fc9a4002acf38c72b2f9496b6a6ea8ee210d810f5e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         struct {
+             uint16 length = Length;
+             opaque label<7..255> = "tls13 " + Label;
+             opaque context<0..255> = Context;
+         } HkdfLabel;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

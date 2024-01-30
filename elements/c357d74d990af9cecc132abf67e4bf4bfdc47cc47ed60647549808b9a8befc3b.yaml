@@ -1,0 +1,14 @@
+"hash": |-
+  c357d74d990af9cecc132abf67e4bf4bfdc47cc47ed60647549808b9a8befc3b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     TLS-Exporter(label, context_value, key_length) =
+         HKDF-Expand-Label(Derive-Secret(Secret, label, ""),
+                           "exporter", Hash(context_value), key_length)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

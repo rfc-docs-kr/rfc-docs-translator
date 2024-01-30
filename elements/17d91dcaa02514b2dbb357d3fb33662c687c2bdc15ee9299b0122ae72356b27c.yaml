@@ -1,0 +1,23 @@
+"hash": |-
+  17d91dcaa02514b2dbb357d3fb33662c687c2bdc15ee9299b0122ae72356b27c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In TLS versions prior to TLS 1.3, the Server Name Identification
+     (SNI) value was intended to be associated with the session (Section 3
+     of [RFC6066]), with the server being required to enforce that the SNI
+     value associated with the session matches the one specified in the
+     resumption handshake.  However, in reality the implementations were
+     not consistent on which of two supplied SNI values they would use,
+     leading to the consistency requirement being de facto enforced by the
+     clients.  In TLS 1.3, the SNI value is always explicitly specified in
+     the resumption handshake, and there is no need for the server to
+     associate an SNI value with the ticket.  Clients, however, SHOULD
+     store the SNI with the PSK to fulfill the requirements of
+     Section 4.6.1.
+"fixed": |-
+  In TLS versions prior to TLS 1.3, the Server Name Identification (SNI) value was intended to be associated with the session (Section 3 of [RFC6066]), with the server being required to enforce that the SNI value associated with the session matches the one specified in the resumption handshake.  However, in reality the implementations were not consistent on which of two supplied SNI values they would use, leading to the consistency requirement being de facto enforced by the clients.  In TLS 1.3, the SNI value is always explicitly specified in the resumption handshake, and there is no need for the server to associate an SNI value with the ticket.  Clients, however, SHOULD store the SNI with the PSK to fulfill the requirements of Section 4.6.1.
+"ko": |-
+  TLS 1.3 이전의 TLS 버전에서는 서버 이름 식별(SNI) 값이 세션과 연결되도록 의도되었으며([RFC6066]의 섹션 3), 서버는 세션과 연결된 SNI 값이 세션과 일치하도록 강제해야 합니다. 재개 핸드셰이크에 지정된 것입니다. 그러나 실제로 구현은 제공된 두 SNI 값 중 어떤 값을 사용할지 일관성이 없었으며, 이로 인해 일관성 요구 사항이 클라이언트에 의해 사실상 강제되었습니다. TLS 1.3에서는 SNI 값이 항상 재개 핸드셰이크에 명시적으로 지정되므로 서버가 SNI 값을 티켓과 연결할 필요가 없습니다. 그러나 클라이언트는 섹션 4.6.1의 요구 사항을 충족하기 위해 SNI를 PSK와 함께 저장해야 합니다.

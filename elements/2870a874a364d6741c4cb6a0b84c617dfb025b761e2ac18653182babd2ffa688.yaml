@@ -1,0 +1,22 @@
+"hash": |-
+  2870a874a364d6741c4cb6a0b84c617dfb025b761e2ac18653182babd2ffa688
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As discussed in [RFC2975], real-time transfer of accounting records
+     is a requirement, such as the need to perform credit-limit checks and
+     fraud detection.  Note that batch accounting is not a requirement,
+     and is therefore not supported by Diameter.  Should batched
+     accounting be required in the future, a new Diameter application will
+     need to be created, or it could be handled using another protocol.
+     Note, however, that even if at the Diameter layer, accounting
+     requests are processed one by one; transport protocols used under
+     Diameter typically batch several requests in the same packet under
+     heavy traffic conditions.  This may be sufficient for many
+     applications.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

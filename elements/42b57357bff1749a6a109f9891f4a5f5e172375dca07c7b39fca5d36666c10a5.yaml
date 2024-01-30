@@ -1,0 +1,14 @@
+"hash": |-
+  42b57357bff1749a6a109f9891f4a5f5e172375dca07c7b39fca5d36666c10a5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations MUST NOT use the Truncated HMAC extension, defined in
+     Section 7 of [RFC6066], as it is not applicable to AEAD algorithms
+     and has been shown to be insecure in some scenarios.
+"fixed": |-
+  Implementations MUST NOT use the Truncated HMAC extension, defined in Section 7 of [RFC6066], as it is not applicable to AEAD algorithms and has been shown to be insecure in some scenarios.
+"ko": |-
+  구현 시 [RFC6066]의 섹션 7에 정의된 Truncated HMAC 확장을 사용하면 안 됩니다. 이는 AEAD 알고리즘에 적용할 수 없고 일부 시나리오에서 안전하지 않은 것으로 나타났기 때문입니다.

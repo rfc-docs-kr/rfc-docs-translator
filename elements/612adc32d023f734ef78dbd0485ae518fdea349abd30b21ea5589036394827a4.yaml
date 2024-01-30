@@ -1,0 +1,20 @@
+"hash": |-
+  612adc32d023f734ef78dbd0485ae518fdea349abd30b21ea5589036394827a4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation Note: The peer MAY obtain the Identity via user input.
+     It is suggested that the authenticator retry the Identity Request in
+     the case of an invalid Identity or authentication failure to allow
+     for potential typos on the part of the user.  It is suggested that
+     the Identity Request be retried a minimum of 3 times before
+     terminating the authentication.  The Notification Request MAY be used
+     to indicate an invalid authentication attempt prior to transmitting a
+     new Identity Request (optionally, the failure MAY be indicated within
+     the message of the new Identity Request itself).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  d5c60cc35512c90960005a679e3615a12a3b73fd86a40dc8885641e9c8defd9d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The type code determines whether restart markers are present.  If a
+     type supports restart markers, the packet MUST contain a non-zero
+     Restart Interval value in a Restart Marker Header and restart markers
+     MUST appear on byte aligned boundaries beginning with an 0xFF between
+     MCUs at that interval.  Additional 0xFF bytes MAY appear between
+     restart intervals.  This can be used in the packetization process to
+     align data to something like a word boundary for more efficient
+     copying.  Restart markers MUST NOT appear anywhere else in the JPEG
+     payload.  Types which do not support restart makers MUST NOT contain
+     restart markers anywhere in the JPEG payload. All packets MUST
+     contain a "stuffed" 0x00 byte following any true 0xFF byte generated
+     by the entropy coder [1, Sec.  B.1.1.5].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  f580b162f75ef8d827863912bf8915f1c802267650f56c53bea48cbb755528c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As soon as the client and the server have exchanged enough
+     information to establish shared keys, the remainder of the handshake
+     is encrypted, thus providing protection against passive attackers,
+     even if the computed shared key is not authenticated.  Because the
+     server authenticates before the client, the client can ensure that if
+     it authenticates to the server, it only reveals its identity to an
+     authenticated server.  Note that implementations must use the
+     provided record-padding mechanism during the handshake to avoid
+     leaking information about the identities due to length.  The client's
+     proposed PSK identities are not encrypted, nor is the one that the
+     server selects.
+"fixed": |-
+  As soon as the client and the server have exchanged enough information to establish shared keys, the remainder of the handshake is encrypted, thus providing protection against passive attackers, even if the computed shared key is not authenticated.  Because the server authenticates before the client, the client can ensure that if it authenticates to the server, it only reveals its identity to an authenticated server.  Note that implementations must use the provided record-padding mechanism during the handshake to avoid leaking information about the identities due to length.  The client's proposed PSK identities are not encrypted, nor is the one that the server selects.
+"ko": |-
+  클라이언트와 서버가 공유 키를 설정하기에 충분한 정보를 교환하자마자 나머지 핸드셰이크가 암호화되어 계산된 공유 키가 인증되지 않은 경우에도 수동적 공격자로부터 보호할 수 있습니다. 서버가 클라이언트보다 먼저 인증하기 때문에 클라이언트는 서버에 인증하는 경우 인증된 서버에만 해당 ID를 공개하도록 할 수 있습니다. 구현 시에는 길이로 인해 ID에 대한 정보가 유출되는 것을 방지하기 위해 핸드셰이크 중에 제공된 레코드 패딩 메커니즘을 사용해야 합니다. 클라이언트가 제안한 PSK ID는 암호화되지 않으며 서버가 선택하는 ID도 아닙니다.

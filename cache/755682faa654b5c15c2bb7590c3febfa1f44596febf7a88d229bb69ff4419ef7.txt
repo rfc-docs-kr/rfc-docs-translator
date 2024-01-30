@@ -1,0 +1,1 @@
+   또한 서버는 보내는 메시지(HelloRetryRequest 제외)에 대한 재전송 타이머를 유지하고 해당 타이머가 만료되면 재전송합니다. HelloRetryRequest에 재전송을 적용하지 않으면 서버에서 상태를 생성할 필요가 없습니다. HelloRetryRequest는 충분히 작게 설계되어 자체적으로 조각화되지 않으므로 여러 HelloRetryRequest의 인터리빙에 대한 우려를 피할 수 있습니다.

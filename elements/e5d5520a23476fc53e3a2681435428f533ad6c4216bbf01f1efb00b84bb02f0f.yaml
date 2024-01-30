@@ -1,0 +1,14 @@
+"hash": |-
+  e5d5520a23476fc53e3a2681435428f533ad6c4216bbf01f1efb00b84bb02f0f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After sending the ClientHello message, the client waits for a
+     ServerHello message.  Any handshake message returned by the server,
+     except for a HelloRequest, is treated as a fatal error.
+"fixed": |-
+  After sending the ClientHello message, the client waits for a ServerHello message.  Any handshake message returned by the server, except for a HelloRequest, is treated as a fatal error.
+"ko": |-
+  ClientHello 메시지를 보낸 후 클라이언트는 ServerHello 메시지를 기다립니다. HelloRequest를 제외하고 서버에서 반환된 모든 핸드셰이크 메시지는 치명적인 오류로 처리됩니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  af48c7bf64d5724c2c3671c5494e668ef4fa721c061eb4f5d8dc10a19ea7d084
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Statistics parameter provides information describing the status
+     and usage of a Termination during its existence within a specific
+     Context.  There is a set of standard statistics kept for each
+     termination where appropriate (number of octets sent and received for
+     example).  The particular statistical properties that are reported
+     for a given Termination are determined by the Packages realized by
+     the Termination.  By default, statistics are reported when the
+     Termination is Subtracted from the Context.  This behavior can be
+     overridden by including an empty AuditDescriptor in the Subtract
+     command.  Statistics may also be returned from the AuditValue
+     command, or any Add/Move/Modify command using the Audit descriptor.
+     Statistics are cumulative; reporting Statistics does not reset them.
+     Statistics are reset when a Termination is Subtracted from a Context.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

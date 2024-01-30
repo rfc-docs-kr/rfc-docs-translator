@@ -1,0 +1,1 @@
+- 사용자 시스템이 Telnet으로 보내기 전에 자동으로 LF를 CR에 추가하거나 CR을 ASCII '37이 아닌 일부 EOL 코드로 변환하는 경우 Telnet은 NLS(NIC)에 CR 또는 ASCII '37만 보낼 것으로 예상합니다. CRLF를 받으면 출력 시 CRLFLF를 보냅니다.

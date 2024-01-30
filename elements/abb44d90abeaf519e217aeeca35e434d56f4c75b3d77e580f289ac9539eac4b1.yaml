@@ -1,0 +1,15 @@
+"hash": |-
+  abb44d90abeaf519e217aeeca35e434d56f4c75b3d77e580f289ac9539eac4b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  When the server has requested a client certificate but no suitable
+        certificate is available, do you correctly send an empty
+        Certificate message, instead of omitting the whole message (see
+        Section 4.4.2)?
+"fixed": |-
+  -  When the server has requested a client certificate but no suitable certificate is available, do you correctly send an empty Certificate message, instead of omitting the whole message (see Section 4.4.2)?
+"ko": |-
+  - 서버가 클라이언트 인증서를 요청했지만 적합한 인증서를 사용할 수 없는 경우 전체 메시지를 생략하는 대신 빈 인증서 메시지를 올바르게 보내나요(섹션 4.4.2 참조)?

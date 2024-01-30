@@ -1,0 +1,1 @@
+   def SealAuthPSK(pkR, 정보, aad, pt, psk, psk_id, skS): enc, ctx = SetupAuthPSKS(pkR, 정보, psk, psk_id, skS) ct = ctx.Seal(aad, pt) 반환 enc, ct

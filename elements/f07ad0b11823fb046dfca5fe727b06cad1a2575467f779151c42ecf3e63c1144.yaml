@@ -1,0 +1,18 @@
+"hash": |-
+  f07ad0b11823fb046dfca5fe727b06cad1a2575467f779151c42ecf3e63c1144
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The major difference with CCM is that the CCM ESP mechanism requires
+     an 11-octet nonce, whereas the GCM ESP mechanism requires using a
+     12-octet nonce.  GCM is specially optimized to handle the 12-octet
+     nonce case efficiently.  Nonces of other lengths would cause
+     unnecessary, additional complexity and delays, particularly in
+     hardware implementations.  The additional octet of nonce is used to
+     increase the size of the salt.
+"fixed": |-
+  The major difference with CCM is that the CCM ESP mechanism requires an 11-octet nonce, whereas the GCM ESP mechanism requires using a 12-octet nonce.  GCM is specially optimized to handle the 12-octet nonce case efficiently.  Nonces of other lengths would cause unnecessary, additional complexity and delays, particularly in hardware implementations.  The additional octet of nonce is used to increase the size of the salt.
+"ko": |-
+  CCM과의 주요 차이점은 CCM ESP 메커니즘에는 11옥텟 논스가 필요한 반면, GCM ESP 메커니즘에는 12옥텟 논스를 사용해야 한다는 것입니다. GCM은 12옥텟 nonce 사례를 효율적으로 처리하도록 특별히 최적화되었습니다. 다른 길이의 Nonce는 특히 하드웨어 구현에서 불필요하고 추가적인 복잡성과 지연을 유발합니다. nonce의 추가 옥텟은 솔트의 크기를 늘리는 데 사용됩니다.

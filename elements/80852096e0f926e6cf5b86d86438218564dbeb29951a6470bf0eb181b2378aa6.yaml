@@ -1,0 +1,36 @@
+"hash": |-
+  80852096e0f926e6cf5b86d86438218564dbeb29951a6470bf0eb181b2378aa6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <rpc message-id="101"
+            xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+         <edit-config>
+           <target>
+             <running/>
+           </target>
+           <default-operation>none</default-operation>
+           <config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+             <top xmlns="http://example.com/schema/1.2/config">
+               <protocols>
+                 <ospf>
+                   <area>
+                     <name>0.0.0.0</name>
+                     <interfaces>
+                       <interface xc:operation="delete">
+                         <name>192.0.2.4</name>
+                       </interface>
+                     </interfaces>
+                   </area>
+                 </ospf>
+               </protocols>
+             </top>
+           </config>
+         </edit-config>
+       </rpc>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

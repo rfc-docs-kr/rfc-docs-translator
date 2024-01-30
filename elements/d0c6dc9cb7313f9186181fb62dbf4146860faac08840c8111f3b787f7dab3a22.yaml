@@ -1,0 +1,20 @@
+"hash": |-
+  d0c6dc9cb7313f9186181fb62dbf4146860faac08840c8111f3b787f7dab3a22
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Informally, the signature-based modes of TLS 1.3 provide for the
+     establishment of a unique, secret, shared key established by an
+     (EC)DHE key exchange and authenticated by the server's signature over
+     the handshake transcript, as well as tied to the server's identity by
+     a MAC.  If the client is authenticated by a certificate, it also
+     signs over the handshake transcript and provides a MAC tied to both
+     identities.  [SIGMA] describes the design and analysis of this type
+     of key exchange protocol.  If fresh (EC)DHE keys are used for each
+     connection, then the output keys are forward secret.
+"fixed": |-
+  Informally, the signature-based modes of TLS 1.3 provide for the establishment of a unique, secret, shared key established by an (EC)DHE key exchange and authenticated by the server's signature over the handshake transcript, as well as tied to the server's identity by a MAC.  If the client is authenticated by a certificate, it also signs over the handshake transcript and provides a MAC tied to both identities.  [SIGMA] describes the design and analysis of this type of key exchange protocol.  If fresh (EC)DHE keys are used for each connection, then the output keys are forward secret.
+"ko": |-
+  비공식적으로, TLS 1.3의 서명 기반 모드는 (EC)DHE 키 교환에 의해 설정되고 핸드셰이크 기록을 통해 서버 서명으로 인증되며 서버의 ID에 연결된 고유한 비밀 공유 키의 설정을 제공합니다. MAC으로. 클라이언트가 인증서로 인증되면 핸드셰이크 기록에 서명하고 두 ID에 연결된 MAC도 제공합니다. [SIGMA]는 이러한 유형의 키 교환 프로토콜의 설계 및 분석을 설명합니다. 각 연결에 새로운 (EC)DHE 키가 사용되는 경우 출력 키는 전달 비밀입니다.

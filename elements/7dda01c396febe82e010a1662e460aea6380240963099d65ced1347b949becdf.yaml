@@ -1,0 +1,14 @@
+"hash": |-
+  7dda01c396febe82e010a1662e460aea6380240963099d65ced1347b949becdf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because the size of sequence numbers is 64-bit, they should not wrap.
+     If a TLS implementation would need to wrap a sequence number, it MUST
+     either rekey (Section 4.6.3) or terminate the connection.
+"fixed": |-
+  Because the size of sequence numbers is 64-bit, they should not wrap. If a TLS implementation would need to wrap a sequence number, it MUST either rekey (Section 4.6.3) or terminate the connection.
+"ko": |-
+  시퀀스 번호의 크기는 64비트이므로 줄 바꿈되어서는 안 됩니다. TLS 구현이 시퀀스 번호를 래핑해야 하는 경우 키를 다시 입력하거나(섹션 4.6.3) 연결을 종료해야 합니다.

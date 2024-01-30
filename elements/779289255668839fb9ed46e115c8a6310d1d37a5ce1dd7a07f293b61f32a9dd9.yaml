@@ -1,0 +1,20 @@
+"hash": |-
+  779289255668839fb9ed46e115c8a6310d1d37a5ce1dd7a07f293b61f32a9dd9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            select (VariantTag) { /* value of selector is implicit */
+                case apple:
+                  V1;   /* VariantBody, tag = apple */
+                case orange:
+                case banana:
+                  V2;   /* VariantBody, tag = orange or banana */
+            } variant_body;       /* optional label on variant */
+        } VariantRecord;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

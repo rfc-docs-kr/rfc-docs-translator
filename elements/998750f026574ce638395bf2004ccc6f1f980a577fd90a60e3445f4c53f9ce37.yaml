@@ -1,0 +1,17 @@
+"hash": |-
+  998750f026574ce638395bf2004ccc6f1f980a577fd90a60e3445f4c53f9ce37
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The presence of padding does not change the overall record size
+     limitations: the full encoded TLSInnerPlaintext MUST NOT exceed 2^14
+     + 1 octets.  If the maximum fragment length is reduced -- as, for
+     example, by the record_size_limit extension from [RFC8449] -- then
+     the reduced limit applies to the full plaintext, including the
+     content type and padding.
+"fixed": |-
+  The presence of padding does not change the overall record size limitations: the full encoded TLSInnerPlaintext MUST NOT exceed 2^14 + 1 octets.  If the maximum fragment length is reduced -- as, for example, by the record_size_limit extension from [RFC8449] -- then the reduced limit applies to the full plaintext, including the content type and padding.
+"ko": |-
+  패딩이 있어도 전체 레코드 크기 제한은 변경되지 않습니다. 전체 인코딩된 TLSInnerPlaintext는 2^14 + 1 옥텟을 초과해서는 안 됩니다. 예를 들어 [RFC8449]의 Record_size_limit 확장에 의해 최대 조각 길이가 감소하면 감소된 제한은 콘텐츠 유형 및 패딩을 포함한 전체 일반 텍스트에 적용됩니다.

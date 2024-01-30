@@ -1,0 +1,30 @@
+"hash": |-
+  1bd5f35db859f2f7c896fc343ed1a98ce99b719476418832330dfec8b439946b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  --
+  -- An entry of diffServQTable represents a FIFO queue Differentiated
+  -- Services Functional Data Path element as described in the Informal
+  -- Differentiated Services Model section 7.1.1. Note that the
+  -- specification of scheduling parameters for a queue as part of the
+  -- input to a scheduler functional data path element as described in
+  -- the Informal Differentiated Services Model section 7.1.2. This
+  -- allows building of hierarchical queuing/scheduling. A queue
+  -- therefore has these attributes:
+  --
+  -- 1. Which scheduler will service this queue, diffServQNext.
+  -- 2. How the scheduler will service this queue, with respect
+  --    to all the other queues the same scheduler needs to service,
+  --    diffServQMinRate.
+  --
+  -- Note that upstream Differentiated Services Functional Data Path
+  -- elements may point to a shared diffServQTable entry as described
+  -- in the Informal Differentiated Services Model section 7.1.1.
+  --
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

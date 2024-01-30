@@ -1,0 +1,3 @@
+   ratchet_secret_[N]_[j]
+
+- | +--> DeriveTreeSecret(., "nonce", j, AEAD.Nn) | = ratchet_nonce_[N]_[j] | +--> DeriveTreeSecret(., "키", j, AEAD.Nk) | = 래칫_키_[N]_[j] | V DeriveTreeSecret(., "비밀", j, KDF.Nh) = ratchet_secret_[N]_[j+1]

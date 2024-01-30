@@ -1,0 +1,18 @@
+"hash": |-
+  bc2c19e8d79389756ac67c569391641e456b29cc7f5526d3adce4f6d515dbff7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  Extract the Sender TTL value from the TTL/Hop Limit value of
+        received packets.  Session-Reflector implementations SHOULD fetch
+        the TTL/Hop Limit value from the IP header of the packet,
+        replacing the value of 255 set by the Session-Sender.  If an
+        implementation does not fetch the actual TTL value (the only good
+        reason not to do so is an inability to access the TTL field of
+        arriving packets), it MUST set the Sender TTL value as 255.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

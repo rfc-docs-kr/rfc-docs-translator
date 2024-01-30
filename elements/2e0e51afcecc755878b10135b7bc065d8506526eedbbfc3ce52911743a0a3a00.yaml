@@ -1,0 +1,22 @@
+"hash": |-
+  2e0e51afcecc755878b10135b7bc065d8506526eedbbfc3ce52911743a0a3a00
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              DISCUSSION:
+                   Note that ICMP error messages resulting from sending a
+                   UDP datagram are received asynchronously.  A UDP-based
+                   application that wants to receive ICMP error messages
+                   is responsible for maintaining the state necessary to
+                   demultiplex these messages when they arrive; for
+                   example, the application may keep a pending receive
+                   operation for this purpose.  The application is also
+                   responsible to avoid confusion from a delayed ICMP
+                   error message resulting from an earlier use of the same
+                   port(s).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,26 @@
+"hash": |-
+  e49a5d9a04fd8ac7c9175fa1b42736e93a7fbc528d95b5748bbc6dba82ab11fa
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                                   |        | | | | | |
+  MULTICAST:                                       |        | | | | | |
+    Support local IP multicasting (RFC-1112)       |3.3.7   | |x| | | |
+    Support IGMP (RFC-1112)                        |3.3.7   | | |x| | |
+    Join all-hosts group at startup                |3.3.7   | |x| | | |
+    Higher layers learn i'face m'cast capability   |3.3.7   | |x| | | |
+                                                   |        | | | | | |
+  INTERFACE:                                       |        | | | | | |
+    Allow transport layer to use all IP mechanisms |3.4     |x| | | | |
+    Pass interface ident up to transport layer     |3.4     |x| | | | |
+    Pass all IP options up to transport layer      |3.4     |x| | | | |
+    Transport layer can send certain ICMP messages |3.4     |x| | | | |
+    Pass spec'd ICMP messages up to transp. layer  |3.4     |x| | | | |
+       Include IP hdr+8 octets or more from orig.  |3.4     |x| | | | |
+    Able to leap tall buildings at a single bound  |3.5     | |x| | | |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

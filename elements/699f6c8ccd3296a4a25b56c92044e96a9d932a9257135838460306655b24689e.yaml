@@ -1,0 +1,26 @@
+"hash": |-
+  699f6c8ccd3296a4a25b56c92044e96a9d932a9257135838460306655b24689e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          A virtual link appears in router-LSAs (for the backbone) as if
+          it were a separate router interface to the backbone.  As such,
+          it has all of the parameters associated with a router interface
+          (see Section C.3).  Although a virtual link acts like an
+          unnumbered point-to-point link, it does have an associated IP
+          interface address.  This address is used as the IP source in
+          OSPF protocol packets it sends along the virtual link, and is
+          set dynamically during the routing table build process.
+          Interface output cost is also set dynamically on virtual links
+          to be the cost of the intra-area path between the two routers.
+          The parameter RxmtInterval must be configured, and should be
+          well over the expected round-trip delay between the two routers.
+          This may be hard to estimate for a virtual link; it is better to
+          err on the side of making it too large.  Router Priority is not
+          used on virtual links.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

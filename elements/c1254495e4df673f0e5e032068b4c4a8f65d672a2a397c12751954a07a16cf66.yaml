@@ -1,0 +1,18 @@
+"hash": |-
+  c1254495e4df673f0e5e032068b4c4a8f65d672a2a397c12751954a07a16cf66
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "right" edge of the window represents the highest validated
+     sequence number value received on this session.  Records that contain
+     sequence numbers lower than the "left" edge of the window are
+     rejected.  Packets falling within the window are checked against a
+     list of received packets within the window.  An efficient means for
+     performing this check, based on the use of a bit mask, is described
+     in Section 3.4.3 of [ESP].
+"fixed": |-
+  The "right" edge of the window represents the highest validated sequence number value received on this session.  Records that contain sequence numbers lower than the "left" edge of the window are rejected.  Packets falling within the window are checked against a list of received packets within the window.  An efficient means for performing this check, based on the use of a bit mask, is described in Section 3.4.3 of [ESP].
+"ko": |-
+  창의 "오른쪽" 가장자리는 이 세션에서 수신된 가장 높은 검증된 시퀀스 번호 값을 나타냅니다. 창의 "왼쪽" 가장자리보다 낮은 시퀀스 번호를 포함하는 레코드는 거부됩니다. 창 내에 있는 패킷은 창 내에서 수신된 패킷 목록과 비교하여 확인됩니다. 비트 마스크 사용을 기반으로 이 검사를 수행하는 효율적인 방법은 [ESP]의 섹션 3.4.3에 설명되어 있습니다.

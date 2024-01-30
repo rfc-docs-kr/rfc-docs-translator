@@ -1,0 +1,24 @@
+"hash": |-
+  e71d47e6fab5b747b70659a9a2d3d14aac9c2f126eb9eb7810ae01dd2f65c28c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As with any peer-to-peer protocol, proper configuration of the trust
+     model within a Diameter peer is essential to security.  When
+     certificates are used, it is necessary to configure the root
+     certificate authorities trusted by the Diameter peer.  These root CAs
+     are likely to be unique to Diameter usage and distinct from the root
+     CAs that might be trusted for other purposes such as Web browsing.
+     In general, it is expected that those root CAs will be configured so
+     as to reflect the business relationships between the organization
+     hosting the Diameter peer and other organizations.  As a result, a
+     Diameter peer will typically not be configured to allow connectivity
+     with any arbitrary peer.  With certificate authentication, Diameter
+     peers may not be known beforehand and therefore peer discovery may be
+     required.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

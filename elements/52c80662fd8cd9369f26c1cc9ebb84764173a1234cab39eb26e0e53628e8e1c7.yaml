@@ -1,0 +1,23 @@
+"hash": |-
+  52c80662fd8cd9369f26c1cc9ebb84764173a1234cab39eb26e0e53628e8e1c7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: Each user host connects to its own bump-in-the-wire
+        encryption device called a BLACKER Front End (BFE, TSEC/KI-111),
+        through which the host connects to the subnetwork. The system also
+        includes two types of centralized devices: one or more KDCs
+        connect to the subnetwork and communicate with assigned sets of
+        BFEs, and one or more ACCs connect to the subnetwork and
+        communicate with assigned KDCs. BLACKER uses only symmetric
+        encryption. A KDC distributes session keys to BFE pairs as
+        authorized by an ACC. Each ACC maintains a database for a set of
+        BFEs, and the database determines which pairs from that set (i.e.,
+        which pairs of user hosts behind the BFEs) are authorized to
+        communicate and at what security levels.
+"fixed": |-
+  - Tutorial: Each user host connects to its own bump-in-the-wire encryption device called a BLACKER Front End (BFE, TSEC/KI-111), through which the host connects to the subnetwork. The system also includes two types of centralized devices: one or more KDCs connect to the subnetwork and communicate with assigned sets of BFEs, and one or more ACCs connect to the subnetwork and communicate with assigned KDCs. BLACKER uses only symmetric encryption. A KDC distributes session keys to BFE pairs as authorized by an ACC. Each ACC maintains a database for a set of BFEs, and the database determines which pairs from that set (i.e., which pairs of user hosts behind the BFEs) are authorized to communicate and at what security levels.
+"ko": |-
+  - 튜토리얼: 각 사용자 호스트는 BLACKER 프런트 엔드(BFE, TSEC/KI-111)라는 자체 Bump-in-the-Wire 암호화 장치에 연결되며, 이를 통해 호스트는 서브네트워크에 연결됩니다. 또한 시스템에는 두 가지 유형의 중앙 집중식 장치가 포함되어 있습니다. 하나 이상의 KDC는 서브네트워크에 연결되어 할당된 BFE 세트와 통신하고, 하나 이상의 ACC는 서브네트워크에 연결되어 할당된 KDC와 통신합니다. BLACKER는 대칭 암호화만 사용합니다. KDC는 ACC의 승인을 받아 세션 키를 BFE 쌍에 배포합니다. 각 ACC는 BFE 세트에 대한 데이터베이스를 유지 관리하며, 데이터베이스는 해당 세트의 어느 쌍(즉, BFE 뒤의 사용자 호스트 쌍)이 통신하도록 승인되었는지, 그리고 어떤 보안 수준에서인지를 결정합니다.

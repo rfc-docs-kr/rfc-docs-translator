@@ -1,0 +1,20 @@
+"hash": |-
+  236cac37a6b6c68e66b6849e0714c0bd3d3351608c0adff55f3552eb7113c08d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a protocol server provides service for more than one mail domain,
+     it MAY use a separate IP address for each domain and/or a server
+     certificate that advertises multiple domains.  This will generally be
+     necessary unless and until it is acceptable to impose the constraint
+     that the server and all clients support the Server Name Indication
+     (SNI) extension to TLS [RFC6066].  Mail servers supporting the SNI
+     need to support the post-SRV hostname to interoperate with MUAs that
+     have not implemented [RFC6186].  For more discussion of this problem,
+     see Section 5.1 of [RFC7817].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  cb2f24bfde850541f42639cd8acb0b869a9d5728f6bbd8f25d9bd5771828ec55
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              When multiple intra-AS paths are available to
+              ASBRs/forwarding addresses, the following rules indicate
+              which paths are preferred. These rules apply when the same
+              ASBR is reachable through multiple areas, or when trying to
+              decide which of several AS-external-LSAs should be
+              preferred. In the former case the paths all terminate at the
+              same ASBR, while in the latter the paths terminate at
+              separate ASBRs/forwarding addresses. In either case, each
+              path is represented by a separate routing table entry as
+              defined in Section 11.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

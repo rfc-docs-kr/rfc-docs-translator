@@ -1,0 +1,36 @@
+"hash": |-
+  2f1b73f35c48525bf1517a9d74737b6deb3dfb1310abc317d02d058acaa3f731
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Having it be configurable, and then configuring it to be off, is far
+     better than not having the capability at all.  An important goal of
+     this specification is to provide a single mechanism that can be used
+     across all types of endpoints.  As such, it is preferable to account
+     for provider and network variation through configuration instead of
+     hard-coded limitations in an implementation.  Besides, network
+     characteristics and connectivity assumptions can, and will, change
+     over time.  Just because an agent is communicating with a server on
+     the public network today doesn't mean that it won't need to
+     communicate with one behind a NAT tomorrow.  Just because an agent is
+     behind a NAT with endpoint-independent mapping today doesn't mean
+     that tomorrow it won't pick up its agent and take it to a public
+     network access point where there is a NAT with address- and port-
+     dependent mapping properties or one that only allows outbound TCP.
+     The way to handle these cases and build a reliable system is for
+     agents to implement a diverse set of techniques for allocating
+     addresses, so that at least one of them is almost certainly going to
+     work in any situation.  Implementors should consider very carefully
+     any assumptions made about deployments before electing not to
+     implement one of the mechanisms for address allocation.  In
+     particular, implementors should consider whether the elements in the
+     system may be mobile and connect through different networks with
+     different connectivity.  They should also consider whether endpoints
+     that are under their control, in terms of location and network
+     connectivity, would always be under their control.  In environments
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,24 @@
+"hash": |-
+  5b8818d4c30023f46fceb16920f52190f77d06b7f78e331a702f30a8a3e0b258
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                This scheme, using extra trailer ARP reply packets rather
+                than sending an ARP request for the trailer protocol type,
+                was designed to avoid a continuous exchange of ARP packets
+                with a misbehaving host that, contrary to any
+                specification or common sense, responded to an ARP reply
+                for trailers with another ARP reply for IP.  This problem
+                is avoided by sending a trailer ARP reply in response to
+                an IP ARP reply only when the IP ARP reply answers an
+                outstanding request; this is true when the hardware
+                address for the host is still unknown when the IP ARP
+                reply is received.  A trailer ARP reply may always be sent
+                along with an IP ARP reply responding to an IP ARP
+                request.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

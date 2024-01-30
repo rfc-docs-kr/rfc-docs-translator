@@ -1,0 +1,57 @@
+"hash": |-
+  a5348c5948eb4ca67beebc464121c6ad4352bc23afa757ffbc47747058bf92fc
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1. Introduction ....................................................3
+     2. Audience ........................................................5
+     3. Overview ........................................................5
+     4. Session Negotiation on the Control Port .........................5
+        4.1. Client Wants a Secured Session .............................5
+        4.2. Server Wants a Secured Session .............................6
+     5. Clearing the Control Port .......................................6
+     6. Response to the FEAT Command ....................................7
+     7. Data Connection Behaviour .......................................8
+     8. Mechanisms for the AUTH Command .................................9
+     9. Data Connection Security ........................................9
+     10. A Discussion of Negotiation Behaviour .........................11
+        10.1. The Server's View of the Control Connection ..............11
+        10.2. The Server's View of the Data Connection .................12
+        10.3. The Client's View of the Control Connection ..............14
+        10.4. The Client's View of the Data Connection .................15
+     11. Who Negotiates What, Where, and How ...........................15
+        11.1. Do we protect at all? ....................................15
+        11.2. What level of protection do we use on the Control
+              connection? ..............................................15
+        11.3. Do we protect data connections in general? ...............16
+        11.4. Is protection required for a particular data transfer? ...16
+        11.5. What level of protection is required for a
+              particular data ..........................................16
+     12. Timing Diagrams ...............................................16
+        12.1. Establishing a Protected Session .........................17
+        12.2. Establishing a Protected Session Without a
+              Password Request .........................................18
+        12.3. Establishing a Protected Session and then
+              Clearing with the CCC ....................................19
+        12.4. A Standard Data Transfer Without Protection ..............20
+        12.5. A Firewall-Friendly Data Transfer Without Protection .....20
+        12.6. A Standard Data Transfer with Protection .................21
+        12.7. A Firewall-Friendly Data Transfer with Protection ........21
+     13. Discussion of the REIN Command ................................22
+     14. Discussion of the STAT and ABOR Commands ......................22
+     15. Security Considerations .......................................23
+        15.1. Verification of Authentication Tokens ....................23
+             15.1.1. Server Certificates ...............................23
+             15.1.2. Client Certificates ...............................23
+        15.2. Addressing FTP Security Considerations [RFC-2577] ........24
+             15.2.1. Bounce Attack .....................................24
+             15.2.2. Restricting Access ................................24
+             15.2.3. Protecting Passwords ..............................24
+             15.2.4. Privacy ...........................................24
+             15.2.5. Protecting Usernames ..............................24
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

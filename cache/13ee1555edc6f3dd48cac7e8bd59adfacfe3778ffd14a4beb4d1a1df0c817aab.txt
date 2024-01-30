@@ -1,0 +1,1 @@
+   COMPOUND 인수에는 "minorversion" 필드가 포함되어 있습니다. NFSv4.1의 경우 이 필드의 값은 1입니다. 서버가 지원하지 않는 마이너 버전 필드 값이 있는 COMPOUND 프로시저를 수신하는 경우 서버는 NFS4ERR_MINOR_VERS_MISMATCH 오류와 길이가 0인 결과 데이터 배열을 반환해야 합니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  f5f8b0d02fe69c07eb66237869c9f1f82b9764e1721b0cfff21a40c4ef7a26e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SRH also differs from RH0 in the processing rules to alleviate
+     security concerns that led to the deprecation of RH0 [RFC5095].
+     First, RPL routers implement a strict source route policy where each
+     and every IPv6 hop between the source and destination of the source
+     route is specified within the SRH.  Note that the source route may be
+     a subset of the path between the actual source and destination and is
+     discussed further below.  Second, an SRH is only used between RPL
+     routers within a RPL routing domain.  RPL Border Routers, responsible
+     for connecting other RPL routing domains and IP domains that use
+     other routing protocols, do not allow datagrams already carrying an
+     SRH header to enter or exit a RPL routing domain.  Third, a RPL
+     router drops datagrams that include multiple addresses assigned to
+     any interfaces on that router to avoid forwarding loops.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

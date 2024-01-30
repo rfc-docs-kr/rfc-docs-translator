@@ -1,0 +1,1 @@
+   모든 레코드는 현재 세션 상태에 정의된 압축 알고리즘을 사용하여 압축됩니다. 항상 활성 압축 알고리즘이 있습니다. 그러나 처음에는 CompressionMethod.null로 정의됩니다. 압축 알고리즘은 SSLPlaintext 구조를 SSLCompressed 구조로 변환합니다. 압축 기능은 CipherSpec이 교체될 때마다 상태 정보를 지웁니다.

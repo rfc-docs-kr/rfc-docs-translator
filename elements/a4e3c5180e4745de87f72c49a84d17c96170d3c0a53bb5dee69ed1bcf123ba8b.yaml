@@ -1,0 +1,19 @@
+"hash": |-
+  a4e3c5180e4745de87f72c49a84d17c96170d3c0a53bb5dee69ed1bcf123ba8b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An interface has an ingress and an egress direction, and will
+     generally have a different policy in each direction.  As traffic
+     enters an edge interface, it may be classified, metered, counted, and
+     marked.  Traffic leaving the same interface might be remarked
+     according to the contract with the next network, queued to manage the
+     bandwidth, and so on.  As [MODEL] points out, the functional datapath
+     elements used on ingress and egress are of the same type, but may be
+     structured in very different ways to implement the relevant policies.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

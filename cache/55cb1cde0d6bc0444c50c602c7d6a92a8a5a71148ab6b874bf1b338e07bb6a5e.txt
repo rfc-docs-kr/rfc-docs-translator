@@ -1,0 +1,1 @@
+   3단계: HOTP 값 계산 Let Snum = StToNum(Sbits) // S를 0...2^{31}-1의 숫자로 변환 Return D = Snum mod 10^Digit // D는 범위의 숫자입니다. 0...10^{숫자}-1

@@ -1,0 +1,1 @@
+- Last.ACK.sent는 승인의 SEG.ACK로 설정됩니다. Snd.Echo.OK 비트가 켜져 있으면 이 ACK 세그먼트에 타임스탬프 옵션 <TSval=my.TSclock,TSecr=TS.Recent>를 포함합니다. Last.ACK.sent를 SEG.ACK로 설정하고 ACK 세그먼트를 보냅니다. 승인을 보낸 후 허용되지 않는 세그먼트를 삭제하고 반환합니다.

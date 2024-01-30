@@ -1,0 +1,1 @@
+   요청 헤더 필드와 페이로드 데이터를 포함하는 HTTP POST 요청은 하나의 HEADERS 프레임으로 전송되며, 요청 헤더 필드를 포함하는 0개 이상의 CONTINUATION 프레임, 하나 이상의 DATA 프레임, 마지막 CONTINUATION(또는 HEADERS) 프레임은 END_HEADERS 플래그 세트 및 END_STREAM 플래그 세트가 있는 최종 DATA 프레임:

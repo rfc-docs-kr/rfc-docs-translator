@@ -1,0 +1,1 @@
+- 흐름 논리적으로 이는 "마스크"에 속합니다. 그러나 이는 Telnet TOGGLE-FLOW-Control 옵션과 겹치므로 대신 Telnet TOGGLE-FLOW-Control 옵션이 사용됩니다. DO/WILL LINEMODE가 협상되면 DO/WILL TOGGLE-FLOW-Control도 협상되어야 합니다. 올바른 사용법은 RFC 1080, "Telnet Remote Flow Control"을 참조하십시오.

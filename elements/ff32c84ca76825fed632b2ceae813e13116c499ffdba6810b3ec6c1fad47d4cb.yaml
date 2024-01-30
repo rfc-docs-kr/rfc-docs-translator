@@ -1,0 +1,20 @@
+"hash": |-
+  ff32c84ca76825fed632b2ceae813e13116c499ffdba6810b3ec6c1fad47d4cb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              Status  Set to either Advertise or DoNotAdvertise.  Routing
+                      information is condensed at area boundaries.
+                      External to the area, at most a single route is
+                      advertised (via a summary-LSA) for each address
+                      range. The route is advertised if and only if the
+                      address range's Status is set to Advertise.
+                      Unadvertised ranges allow the existence of certain
+                      networks to be intentionally hidden from other
+                      areas. Status is set to Advertise by default.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

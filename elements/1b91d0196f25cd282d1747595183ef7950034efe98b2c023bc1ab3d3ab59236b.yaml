@@ -1,0 +1,16 @@
+"hash": |-
+  1b91d0196f25cd282d1747595183ef7950034efe98b2c023bc1ab3d3ab59236b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If enough data arrive to fill the buffer before a PUSH is seen, the
+     PUSH flag will not be set in the response to the RECEIVE.  The buffer
+     will be filled with as much data as it can hold.  If a PUSH is seen
+     before the buffer is filled, the buffer will be returned partially
+     filled and PUSH indicated.
+"fixed": |-
+  If enough data arrive to fill the buffer before a PUSH is seen, the PUSH flag will not be set in the response to the RECEIVE.  The buffer will be filled with as much data as it can hold.  If a PUSH is seen before the buffer is filled, the buffer will be returned partially filled and PUSH indicated.
+"ko": |-
+  PUSH가 표시되기 전에 버퍼를 채울 만큼 충분한 데이터가 도착하면 RECEIVE에 대한 응답에 PUSH 플래그가 설정되지 않습니다. 버퍼는 보유할 수 있는 만큼의 데이터로 채워집니다. 버퍼가 채워지기 전에 PUSH가 나타나면 버퍼는 부분적으로 채워진 상태로 반환되고 PUSH가 표시됩니다.

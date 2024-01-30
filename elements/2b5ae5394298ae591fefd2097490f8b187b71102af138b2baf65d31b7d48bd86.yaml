@@ -1,0 +1,22 @@
+"hash": |-
+  2b5ae5394298ae591fefd2097490f8b187b71102af138b2baf65d31b7d48bd86
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServSchedulerStatus OBJECT-TYPE
+      SYNTAX       RowStatus
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The status of this conceptual row. All writable objects in this
+         row may be modified at any time. Setting this variable to
+         'destroy' when the MIB contains one or more RowPointers pointing
+         to it results in destruction being delayed until the row is no
+         longer used."
+      ::= { diffServSchedulerEntry 7 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

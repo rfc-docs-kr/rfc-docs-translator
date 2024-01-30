@@ -1,0 +1,19 @@
+"hash": |-
+  2a9a9f09009c30d2426382266a0442f8f522911dd4f8079b9b28c5d2573cc5df
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                It has been suggested that a host could determine the MTU
+                over a given path by sending a zero-offset datagram
+                fragment and waiting for the receiver to time out the
+                reassembly (which cannot complete!) and return an ICMP
+                Time Exceeded message.  This message would include the
+                largest remaining fragment header in its body.  More
+                direct mechanisms are being experimented with, but have
+                not yet been adopted (see e.g., RFC-1063).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

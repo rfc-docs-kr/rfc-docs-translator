@@ -1,0 +1,17 @@
+"hash": |-
+  c7e206c2d6ac9c0fd1818cd790e73af1d18e985dae053b06cc6872dbb5d3fdc3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     user_canceled:  This alert notifies the recipient that the sender is
+        canceling the handshake for some reason unrelated to a protocol
+        failure.  If a user cancels an operation after the handshake is
+        complete, just closing the connection by sending a "close_notify"
+        is more appropriate.  This alert SHOULD be followed by a
+        "close_notify".  This alert generally has AlertLevel=warning.
+"fixed": |-
+  user_canceled:  This alert notifies the recipient that the sender is canceling the handshake for some reason unrelated to a protocol failure.  If a user cancels an operation after the handshake is complete, just closing the connection by sending a "close_notify" is more appropriate.  This alert SHOULD be followed by a "close_notify".  This alert generally has AlertLevel=warning.
+"ko": |-
+  user_canceled: 이 경고는 발신자가 프로토콜 오류와 관련 없는 어떤 이유로 핸드셰이크를 취소하고 있음을 수신자에게 알립니다. 핸드셰이크가 완료된 후 사용자가 작업을 취소하는 경우 "close_notify"를 전송하여 연결을 종료하는 것이 더 적절합니다. 이 경고 뒤에는 "close_notify"가 와야 합니다. 이 경고에는 일반적으로 AlertLevel=warning이 있습니다.

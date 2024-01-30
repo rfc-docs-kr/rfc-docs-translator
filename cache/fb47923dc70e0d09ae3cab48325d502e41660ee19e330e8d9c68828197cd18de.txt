@@ -1,0 +1,1 @@
+   LAYOUTRETURN4_FSID를 사용하여 파일 시스템의 모든 레이아웃을 반환하는 것은 일반적으로 해당 파일 시스템에 대한 CB_LAYOUTRECALL에 대한 응답으로 최종 반환 작업으로 수행됩니다. 마찬가지로 LAYOUTRETURN4_ALL은 모든 레이아웃에 대한 호출 콜백에 대한 응답으로 사용됩니다. 클라이언트가 이미 개별 LAYOUTRETURN 호출을 통해 일부 뛰어난 레이아웃을 반환했으며 LAYOUTRETURN4_FSID 또는 LAYOUTRETURN4_ALL에 대한 호출이 LAYOUTRETURN 시퀀스의 끝을 표시했을 가능성이 있습니다. 자세한 내용은 섹션 12.5.5.1을 참조하세요.

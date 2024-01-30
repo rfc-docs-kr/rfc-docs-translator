@@ -1,0 +1,1 @@
+   CREATE_SESSION4_FLAG_PERSIST가 CREATE_SESSION 결과에 설정된 경우 응답 캐시는 지속됩니다(섹션 18.36 참조). EXCHGID4_FLAG_USE_PNFS_MDS 플래그가 EXCHANGE_ID의 결과에 설정된 경우 서버는 pNFS 서버입니다(섹션 18.35 참조). 클라이언트가 영구 세션 또는 EXCHGID4_FLAG_USE_PNFS_MDS 클라이언트 ID에서 파생된 세션에서 EXCLUSIVE4를 사용하려고 시도하는 경우 서버는 NFS4ERR_INVAL을 반환해야 합니다.

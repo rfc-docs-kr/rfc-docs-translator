@@ -1,0 +1,16 @@
+"hash": |-
+  56991e4522fe2897bcc4f528ea9e8271aa3351b8de6774bf2cd2990299821b20
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to use PSKs, clients MUST also send a
+     "psk_key_exchange_modes" extension.  The semantics of this extension
+     are that the client only supports the use of PSKs with these modes,
+     which restricts both the use of PSKs offered in this ClientHello and
+     those which the server might supply via NewSessionTicket.
+"fixed": |-
+  In order to use PSKs, clients MUST also send a "psk_key_exchange_modes" extension.  The semantics of this extension are that the client only supports the use of PSKs with these modes, which restricts both the use of PSKs offered in this ClientHello and those which the server might supply via NewSessionTicket.
+"ko": |-
+  PSK를 사용하려면 클라이언트가 "psk_key_exchange_modes" 확장도 보내야 합니다. 이 확장의 의미는 클라이언트가 이러한 모드의 PSK 사용만 지원한다는 것입니다. 이는 이 ClientHello에서 제공되는 PSK의 사용과 서버가 NewSessionTicket을 통해 제공할 수 있는 PSK의 사용을 모두 제한합니다.

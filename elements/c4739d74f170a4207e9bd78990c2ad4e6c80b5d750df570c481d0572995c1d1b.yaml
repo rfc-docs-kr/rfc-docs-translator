@@ -1,0 +1,27 @@
+"hash": |-
+  c4739d74f170a4207e9bd78990c2ad4e6c80b5d750df570c481d0572995c1d1b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     We have taken advantage of the numbering scheme to protect certain
+     control information as well.  This is achieved by implicitly
+     including some control flags in the sequence space so they can be
+     retransmitted and acknowledged without confusion (i.e., one and only
+     one copy of the control will be acted upon).  Control information is
+     not physically carried in the segment data space.  Consequently, we
+     must adopt rules for implicitly assigning sequence numbers to
+     control.  The SYN and FIN are the only controls requiring this
+     protection, and these controls are used only at connection opening
+     and closing.  For sequence number purposes, the SYN is considered to
+     occur before the first actual data octet of the segment in which it
+     occurs, while the FIN is considered to occur after the last actual
+     data octet in a segment in which it occurs.  The segment length
+     (SEG.LEN) includes both data and sequence space-occupying controls.
+     When a SYN is present, then SEG.SEQ is the sequence number of the
+     SYN.
+"fixed": |-
+  We have taken advantage of the numbering scheme to protect certain control information as well.  This is achieved by implicitly including some control flags in the sequence space so they can be retransmitted and acknowledged without confusion (i.e., one and only one copy of the control will be acted upon).  Control information is not physically carried in the segment data space.  Consequently, we must adopt rules for implicitly assigning sequence numbers to control.  The SYN and FIN are the only controls requiring this protection, and these controls are used only at connection opening and closing.  For sequence number purposes, the SYN is considered to occur before the first actual data octet of the segment in which it occurs, while the FIN is considered to occur after the last actual data octet in a segment in which it occurs.  The segment length (SEG.LEN) includes both data and sequence space-occupying controls. When a SYN is present, then SEG.SEQ is the sequence number of the SYN.
+"ko": |-
+  특정 제어 정보도 보호하기 위해 번호 매기기 체계를 활용했습니다. 이는 혼란 없이 재전송 및 승인될 수 있도록 시퀀스 공간에 일부 제어 플래그를 암시적으로 포함함으로써 달성됩니다(즉, 하나의 제어 복사본만 작동됩니다). 제어 정보는 세그먼트 데이터 공간에 물리적으로 전달되지 않습니다. 결과적으로 제어에 암시적으로 시퀀스 번호를 할당하는 규칙을 채택해야 합니다. SYN 및 FIN은 이러한 보호가 필요한 유일한 컨트롤이며 이러한 컨트롤은 연결을 열고 닫을 때만 사용됩니다. 시퀀스 번호 목적으로 SYN은 발생하는 세그먼트의 첫 번째 실제 데이터 옥텟 이전에 발생하는 것으로 간주되는 반면, FIN은 발생하는 세그먼트의 마지막 실제 데이터 옥텟 이후에 발생하는 것으로 간주됩니다. 세그먼트 길이(SEG.LEN)에는 데이터 및 시퀀스 공간 점유 컨트롤이 모두 포함됩니다. SYN이 있는 경우 SEG.SEQ는 SYN의 시퀀스 번호입니다.

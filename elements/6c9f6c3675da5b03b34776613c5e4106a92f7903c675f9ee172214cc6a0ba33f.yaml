@@ -1,0 +1,17 @@
+"hash": |-
+  6c9f6c3675da5b03b34776613c5e4106a92f7903c675f9ee172214cc6a0ba33f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The cipher suites defined in this document MUST NOT be negotiated for
+     any version of (D)TLS other than version 1.2.  Servers MUST NOT
+     select one of these cipher suites when selecting a (D)TLS version
+     other than version 1.2.  A client MUST treat the selection of these
+     cipher suites in combination with a different version of (D)TLS as an
+     error and generate a fatal 'illegal_parameter' TLS alert.
+"fixed": |-
+  The cipher suites defined in this document MUST NOT be negotiated for any version of (D)TLS other than version 1.2.  Servers MUST NOT select one of these cipher suites when selecting a (D)TLS version other than version 1.2.  A client MUST treat the selection of these cipher suites in combination with a different version of (D)TLS as an error and generate a fatal 'illegal_parameter' TLS alert.
+"ko": |-
+  이 문서에 정의된 암호 제품군은 버전 1.2 이외의 (D)TLS 버전에 대해 협상되어서는 안 됩니다. 서버는 버전 1.2가 아닌 (D)TLS 버전을 선택할 때 이러한 암호화 제품군 중 하나를 선택해서는 안 됩니다. 클라이언트는 다른 버전의 (D)TLS와 결합된 이러한 암호 모음 선택을 오류로 처리하고 치명적인 'illegal_parameter' TLS 경고를 생성해야 합니다.

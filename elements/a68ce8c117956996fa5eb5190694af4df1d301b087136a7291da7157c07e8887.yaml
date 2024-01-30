@@ -1,0 +1,23 @@
+"hash": |-
+  a68ce8c117956996fa5eb5190694af4df1d301b087136a7291da7157c07e8887
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The Designated Router election algorithm proceeds as follows:
+          Call the router doing the calculation Router X.  The list of
+          neighbors attached to the network and having established
+          bidirectional communication with Router X is examined.  This
+          list is precisely the collection of Router X's neighbors (on
+          this network) whose state is greater than or equal to 2-Way (see
+          Section 10.1).  Router X itself is also considered to be on the
+          list.  Discard all routers from the list that are ineligible to
+          become Designated Router.  (Routers having Router Priority of 0
+          are ineligible to become Designated Router.)  The following
+          steps are then executed, considering only those routers that
+          remain on the list:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

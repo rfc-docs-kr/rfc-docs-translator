@@ -1,0 +1,19 @@
+"hash": |-
+  8b10337beb161076a6563cad16b20b6c8f8151d31e57a466c6020671ce73b05c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: some server implementations are known to implement version
+     negotiation incorrectly.  For example, there are buggy TLS 1.0
+     servers that simply close the connection when the client offers a
+     version newer than TLS 1.0.  Also, it is known that some servers will
+     refuse the connection if any TLS extensions are included in
+     ClientHello.  Interoperability with such buggy servers is a complex
+     topic beyond the scope of this document, and may require multiple
+     connection attempts by the client.
+"fixed": |-
+  Note: some server implementations are known to implement version negotiation incorrectly.  For example, there are buggy TLS 1.0 servers that simply close the connection when the client offers a version newer than TLS 1.0.  Also, it is known that some servers will refuse the connection if any TLS extensions are included in ClientHello.  Interoperability with such buggy servers is a complex topic beyond the scope of this document, and may require multiple connection attempts by the client.
+"ko": |-
+  참고: 일부 서버 구현은 버전 협상을 잘못 구현하는 것으로 알려져 있습니다. 예를 들어, 클라이언트가 TLS 1.0보다 최신 버전을 제공할 때 단순히 연결을 닫는 버그가 있는 TLS 1.0 서버가 있습니다. 또한 ClientHello에 TLS 확장이 포함되어 있으면 일부 서버가 연결을 거부하는 것으로 알려져 있습니다. 이러한 버그가 있는 서버와의 상호 운용성은 이 문서의 범위를 벗어나는 복잡한 주제이며 클라이언트가 여러 번 연결을 시도해야 할 수도 있습니다.

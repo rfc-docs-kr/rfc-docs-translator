@@ -1,0 +1,31 @@
+"hash": |-
+  3958d39f09b3803ea9f03caff00e04cede81df0327afab14431badfdfb96babb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Taking a more systematic approach, and with the purpose of modeling
+     the traffic load, we can resort to measurement studies that
+     investigate the composition of Internet traffic, such as [Labovitz10]
+     and [Maier09].  In [Labovitz10], a large-scale measurement study was
+     performed, with the purpose of studying the traffic crossing inter-
+     domain links.  The results indicate the dominance of Web traffic,
+     amounting to 52% over all measured traffic.  However, Deep Packet
+     Inspection (DPI) techniques reveal that 25-40% of all HTTP traffic
+     actually carries video traffic.  Results from DPI techniques also
+     reveal the difficulty in correctly identifying the application type
+     in the case of P2P traffic: mapping observed port numbers to well-
+     known applications shows P2P traffic constituting only 0.85% of
+     overall traffic, while DPI raises this percentage to 18.32%
+     [Labovitz10].  Relevant studies on a large ISP show that the
+     percentage of P2P traffic ranges from 17% to 19% of overall traffic
+     [Maier09].  Table 1 provides an overview of these figures.  The
+     "other" traffic type denotes traffic that cannot be classified in any
+     of the first three application categories, and it consists of
+     unclassified traffic and traffic heavily fragmented into several
+     applications (e.g., 0.17% DNS traffic).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  199e8bcb662c8668205fb7eb75b9afa659b2137d5362a1dfc75e61c58c86b0ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          When the neighbor responds to these requests with the proper
+          Link State Update packet(s), the Link state request list is
+          truncated and a new Link State Request packet is sent.  This
+          process continues until the Link state request list becomes
+          empty. LSAs on the Link state request list that have been
+          requested, but not yet received, are packaged into Link State
+          Request packets for retransmission at intervals of RxmtInterval.
+          There should be at most one Link State Request packet
+          outstanding at any one time.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  4562c4e8f7506c57f1fb15a7282a7fb23416d0c96a905db3e985086b256a85be
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         EAP is a lock-step protocol, which implies a certain inefficiency
+         when handling fragmentation and reassembly.  Therefore, if the
+         lower layer supports fragmentation and reassembly (such as where
+         EAP is transported over IP), it may be preferable for
+         fragmentation and reassembly to occur in the lower layer rather
+         than in EAP.  This can be accomplished by providing an
+         artificially large EAP MTU to EAP, causing fragmentation and
+         reassembly to be handled within the lower layer.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

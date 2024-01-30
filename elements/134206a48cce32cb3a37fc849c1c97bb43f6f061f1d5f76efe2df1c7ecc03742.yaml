@@ -1,0 +1,19 @@
+"hash": |-
+  134206a48cce32cb3a37fc849c1c97bb43f6f061f1d5f76efe2df1c7ecc03742
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4. In some cases, an implicitly or explicitly wildcarded Subtract
+        command that applies to a group of Terminations may step in front
+        of a pending Add command.  The Media Gateway Controller should
+        individually delete all Terminations for which an Add command was
+        pending at the time of the global Subtract command.  Also, new Add
+        commands for Terminations named by the wild-carding (or implied in
+        a Multiplex descriptor) should not be sent until the wild-carded
+        Subtract command is acknowledged.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

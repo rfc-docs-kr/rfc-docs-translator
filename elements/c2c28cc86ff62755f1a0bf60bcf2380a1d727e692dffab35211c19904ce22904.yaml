@@ -1,0 +1,18 @@
+"hash": |-
+  c2c28cc86ff62755f1a0bf60bcf2380a1d727e692dffab35211c19904ce22904
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Rationale: Secure deployment of TLS 1.3 is significantly easier
+        and less error prone than secure deployment of TLS 1.2.  When
+        designing a new secure transport protocol such as QUIC, there is
+        no reason to support TLS 1.2.  By contrast, new application
+        protocols that reuse TLS need to support both TLS 1.3 and TLS 1.2
+        in order to take advantage of underlying library or operating
+        system support for both versions.
+"fixed": |-
+  - Rationale: Secure deployment of TLS 1.3 is significantly easier and less error prone than secure deployment of TLS 1.2.  When designing a new secure transport protocol such as QUIC, there is no reason to support TLS 1.2.  By contrast, new application protocols that reuse TLS need to support both TLS 1.3 and TLS 1.2 in order to take advantage of underlying library or operating system support for both versions.
+"ko": |-
+  - 근거: TLS 1.3의 보안 배포는 TLS 1.2의 보안 배포보다 훨씬 쉽고 오류 발생 가능성이 낮습니다. QUIC와 같은 새로운 보안 전송 프로토콜을 설계할 때 TLS 1.2를 지원할 이유가 없습니다. 이와 대조적으로 TLS를 재사용하는 새로운 애플리케이션 프로토콜은 두 버전에 대한 기본 라이브러리 또는 운영 체제 지원을 활용하려면 TLS 1.3과 TLS 1.2를 모두 지원해야 합니다.

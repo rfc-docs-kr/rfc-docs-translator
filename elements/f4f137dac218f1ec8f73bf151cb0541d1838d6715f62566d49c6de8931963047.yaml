@@ -1,0 +1,19 @@
+"hash": |-
+  f4f137dac218f1ec8f73bf151cb0541d1838d6715f62566d49c6de8931963047
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Destination-Realm AVP (AVP Code 283) is of type DiameterIdentity
+     and contains the realm to which the message is to be routed.  The
+     Destination-Realm AVP MUST NOT be present in answer messages.
+     Diameter clients insert the realm portion of the User-Name AVP.
+     Diameter servers initiating a request message use the value of the
+     Origin-Realm AVP from a previous message received from the intended
+     target host (unless it is known a priori).  When present, the
+     Destination-Realm AVP is used to perform message routing decisions.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

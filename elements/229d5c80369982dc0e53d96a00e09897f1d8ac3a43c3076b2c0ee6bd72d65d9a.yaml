@@ -1,0 +1,18 @@
+"hash": |-
+  229d5c80369982dc0e53d96a00e09897f1d8ac3a43c3076b2c0ee6bd72d65d9a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     These two rules are related; the closure of connection on completion
+     of ICE implies that a regular selection algorithm has to be used.
+     This is because aggressive selection might cause transient pairs to
+     be selected.  Once such a pair is selected, the agents would close
+     the other connections, one of which may be about to be selected as a
+     better choice.  This race condition may result in TCP connections
+     being accidentally closed for the pair that ICE selects.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

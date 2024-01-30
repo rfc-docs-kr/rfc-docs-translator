@@ -1,0 +1,17 @@
+"hash": |-
+  a1000a4cb20c75297421064677a0384156a63db1fe4efcef00ae10cc31dfee4c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If RSA is being used for key agreement and authentication, the
+        client generates a 48-byte premaster secret, encrypts it using the
+        public key from the server's certificate, and sends the result in
+        an encrypted premaster secret message.  This structure is a
+        variant of the ClientKeyExchange message and is not a message in
+        itself.
+"fixed": |-
+  - If RSA is being used for key agreement and authentication, the client generates a 48-byte premaster secret, encrypts it using the public key from the server's certificate, and sends the result in an encrypted premaster secret message.  This structure is a variant of the ClientKeyExchange message and is not a message in itself.
+"ko": |-
+  - 키 합의 및 인증에 RSA가 사용되는 경우 클라이언트는 48바이트 프리마스터 비밀을 생성하고 서버 인증서의 공개 키를 사용하여 암호화한 후 암호화된 프리마스터 비밀 메시지로 결과를 보냅니다. 이 구조는 ClientKeyExchange 메시지의 변형이며 그 자체로는 메시지가 아닙니다.

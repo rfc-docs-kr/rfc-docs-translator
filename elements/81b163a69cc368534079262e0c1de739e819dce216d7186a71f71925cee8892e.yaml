@@ -1,0 +1,23 @@
+"hash": |-
+  81b163a69cc368534079262e0c1de739e819dce216d7186a71f71925cee8892e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        input {
+          leaf persist-id {
+            type string;
+            description
+              "This parameter is given in order to cancel a persistent
+               confirmed commit.  The value must be equal to the value
+               given in the 'persist' parameter to the <commit> operation.
+               If it does not match, the operation fails with an
+              'invalid-value' error.";
+          }
+        }
+      }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

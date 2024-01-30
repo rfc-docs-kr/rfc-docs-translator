@@ -1,0 +1,17 @@
+"hash": |-
+  dab314ae9cffacc0b04423d9e9feb8707ca047a5bea477c763f0146ba6cea507
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Routing protocol packets should always be sent with the IP TOS
+          field set to 0.  If at all possible, routing protocol packets
+          should be given preference over regular IP data traffic, both
+          when being sent and received.  As an aid to accomplishing this,
+          OSPF protocol packets should have their IP precedence field set
+          to the value Internetwork Control (see [Ref5]).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

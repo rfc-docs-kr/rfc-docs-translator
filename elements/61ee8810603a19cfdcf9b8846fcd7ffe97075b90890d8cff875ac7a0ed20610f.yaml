@@ -1,0 +1,19 @@
+"hash": |-
+  61ee8810603a19cfdcf9b8846fcd7ffe97075b90890d8cff875ac7a0ed20610f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       If this option is present, then it communicates the maximum receive
+       segment size at the TCP endpoint that sends this segment.  This
+       value is limited by the IP reassembly limit.  This field may be
+       sent in the initial connection request (i.e., in segments with the
+       SYN control bit set) and MUST NOT be sent in other segments (MUST-
+       65).  If this option is not used, any segment size is allowed.  A
+       more complete description of this option is provided in
+       Section 3.7.1.
+"fixed": |-
+  If this option is present, then it communicates the maximum receive segment size at the TCP endpoint that sends this segment.  This value is limited by the IP reassembly limit.  This field may be sent in the initial connection request (i.e., in segments with the SYN control bit set) and MUST NOT be sent in other segments (MUST- 65).  If this option is not used, any segment size is allowed.  A more complete description of this option is provided in Section 3.7.1.
+"ko": |-
+  이 옵션이 있으면 이 세그먼트를 보내는 TCP 끝점에서 최대 수신 세그먼트 크기를 전달합니다. 이 값은 IP 리어셈블리 제한에 의해 제한됩니다. 이 필드는 초기 연결 요청(즉, SYN 제어 비트가 설정된 세그먼트)에서 전송될 수 있으며 다른 세그먼트에서는 전송되어서는 안 됩니다(MUST-65). 이 옵션을 사용하지 않으면 모든 세그먼트 크기가 허용됩니다. 이 옵션에 대한 자세한 설명은 섹션 3.7.1에 나와 있습니다.

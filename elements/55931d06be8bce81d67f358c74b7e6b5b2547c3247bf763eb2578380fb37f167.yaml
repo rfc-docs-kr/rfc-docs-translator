@@ -1,0 +1,19 @@
+"hash": |-
+  55931d06be8bce81d67f358c74b7e6b5b2547c3247bf763eb2578380fb37f167
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Server-Greeting message (defined in OWAMP, Section 3.1 of
+     [RFC4656]) includes a Count field to specify the iteration counter
+     used in PKCS #5 to generate keys from shared secrets.  OWAMP
+     recommends a lower limit of 1024 iterations, but no upper limit.  The
+     Count field provides an opportunity for a denial-of-service (DOS)
+     attack because it is 32 bits long.  If an attacking system set the
+     maximum value in Count (2**32), then the system under attack would
+     stall for a significant period of time while it attempts to generate
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

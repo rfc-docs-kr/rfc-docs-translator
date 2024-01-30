@@ -1,0 +1,22 @@
+"hash": |-
+  05df2996af97df2e0ef4d77562d294c0eaec61656437dbf8008327b8fa91fc02
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Signal ::= SEQUENCE
+     {
+          signalName              SignalName,
+          streamID                StreamID OPTIONAL,
+          sigType                 SignalType OPTIONAL,
+          duration                INTEGER (0..65535) OPTIONAL,
+          notifyCompletion        NotifyCompletion OPTIONAL,
+          keepActive              BOOLEAN OPTIONAL,
+          sigParList              SEQUENCE OF SigParameter,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

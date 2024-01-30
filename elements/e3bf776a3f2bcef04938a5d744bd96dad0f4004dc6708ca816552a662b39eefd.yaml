@@ -1,0 +1,15 @@
+"hash": |-
+  e3bf776a3f2bcef04938a5d744bd96dad0f4004dc6708ca816552a662b39eefd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If implementations independently send their own KeyUpdates with
+     request_update set to "update_requested" and they cross in flight,
+     then each side will also send a response, with the result that each
+     side increments by two generations.
+"fixed": |-
+  If implementations independently send their own KeyUpdates with request_update set to "update_requested" and they cross in flight, then each side will also send a response, with the result that each side increments by two generations.
+"ko": |-
+  구현이 request_update를 "update_requested"로 설정하여 자체 KeyUpdate를 독립적으로 전송하고 비행 중에 교차하는 경우 각 측면도 응답을 전송하며 결과는 각 측면에서 2세대씩 증가합니다.

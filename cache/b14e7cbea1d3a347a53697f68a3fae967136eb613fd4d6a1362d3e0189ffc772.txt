@@ -1,0 +1,7 @@
+끝점 이름 = localEndpointName "@" 도메인 이름
+LocalEndpointName = LocalNamePart 0*("/" LocalNamePart)
+LocalNamePart = AnyName / AllName / NameString
+AnyName = "$"
+모든 이름 = "*"
+NameString = 1*(허용되는 문자 범위)
+도메인 이름 = 1*256(ALPHA / DIGIT / "." / "-") ; RFC 821에 정의된 대로

@@ -1,0 +1,1 @@
+   CB_COMPOUND 프로시저의 요청과 응답은 COMPOUND와 비슷한 형태이지만 SEQUENCE 연산 대신 CB_SEQUENCE 연산이 있다. CB_COMPOUND에는 "callback_ident"라는 추가 필드도 있는데, 이는 NFSv4.1에서는 불필요하며 클라이언트에서는 무시해야 합니다. CB_SEQUENCE는 SEQUENCE와 동일한 정보를 가지며 콜백 경합을 해결하는 데 필요한 기타 정보도 포함합니다(2.10.6.3 단원).

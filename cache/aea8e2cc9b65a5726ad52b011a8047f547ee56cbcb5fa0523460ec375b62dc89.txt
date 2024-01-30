@@ -1,0 +1,1 @@
+- MPEG-4 오디오 스트림의 경우 config는 ISO/IEC 14496-3에 정의된 오디오 개체 유형별 디코더 구성 데이터 AudioSpecificConfig()입니다. 구조화된 오디오의 경우 AudioSpecificConfig()는 이 사양에서 정의되지 않은 다른 방법으로 전달될 수 있습니다. AudioSpecificConfig()가 구조적 오디오에 대한 다른 수단으로 전달되는 경우 구성은 다음과 같이 인용된 빈 16진수 옥텟 문자열이어야 합니다: config="".

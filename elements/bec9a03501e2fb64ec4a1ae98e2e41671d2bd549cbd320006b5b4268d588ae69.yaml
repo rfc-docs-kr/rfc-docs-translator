@@ -1,0 +1,21 @@
+"hash": |-
+  bec9a03501e2fb64ec4a1ae98e2e41671d2bd549cbd320006b5b4268d588ae69
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In order to get better aggregation at area boundaries, area
+          address ranges can be employed (see Section C.2 for more
+          details).  Each address range is defined as an [address,mask]
+          pair.  Many separate networks may then be contained in a single
+          address range, just as a subnetted network is composed of many
+          separate subnets.  Area border routers then summarize the area
+          contents (for distribution to the backbone) by advertising a
+          single route for each address range.  The cost of the route is
+          the maximum cost to any of the networks falling in the specified
+          range.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

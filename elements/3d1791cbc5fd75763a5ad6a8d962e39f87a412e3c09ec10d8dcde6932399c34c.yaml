@@ -1,0 +1,22 @@
+"hash": |-
+  3d1791cbc5fd75763a5ad6a8d962e39f87a412e3c09ec10d8dcde6932399c34c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMIBMaxRateGroup OBJECT-GROUP
+      OBJECTS {
+                diffServMaxRateNextFree, diffServMaxRateAbsolute,
+                diffServMaxRateRelative, diffServMaxRateThreshold,
+                diffServMaxRateStorage, diffServMaxRateStatus
+      }
+      STATUS       current
+      DESCRIPTION
+         "The Maximum Rate Parameter Group contains the objects that
+         describe packet schedulers' maximum rate guarantees."
+      ::= { diffServMIBGroups 15 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

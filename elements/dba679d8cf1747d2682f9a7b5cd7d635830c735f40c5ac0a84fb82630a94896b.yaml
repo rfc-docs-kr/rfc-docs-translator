@@ -1,0 +1,16 @@
+"hash": |-
+  dba679d8cf1747d2682f9a7b5cd7d635830c735f40c5ac0a84fb82630a94896b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  return a string consisting of the reference's path component
+        appended to all but the last segment of the base URI's path (i.e.,
+        excluding any characters after the right-most "/" in the base URI
+        path, or excluding the entire base URI path if it does not contain
+        any "/" characters).
+"fixed": |-
+  -  return a string consisting of the reference's path component appended to all but the last segment of the base URI's path (i.e., excluding any characters after the right-most "/" in the base URI path, or excluding the entire base URI path if it does not contain any "/" characters).
+"ko": |-
+  - 기본 URI 경로의 마지막 세그먼트를 제외한 모든 부분에 추가된 참조 경로 구성 요소로 구성된 문자열을 반환합니다. 즉, 기본 URI 경로에서 가장 오른쪽 "/" 다음의 모든 문자를 제외하거나, 다음과 같은 경우 전체 기본 URI 경로를 제외합니다. "/" 문자를 포함하지 않습니다.)

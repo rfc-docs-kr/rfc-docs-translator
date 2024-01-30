@@ -1,0 +1,1 @@
+   이로 인해 몇 가지 결과가 발생합니다. 복합 유형의 엔터티 본문에는 각각 자체 MIME 및 HTTP 헤더(Content-MD5, Content-Transfer-Encoding 및 Content-Encoding 헤더 포함)가 있는 많은 본문 부분이 포함될 수 있습니다. 본문 부분에 Content-Transfer-Encoding 또는 Content-Encoding 헤더가 있는 경우 본문 부분의 콘텐츠에 인코딩이 적용되었다고 가정하고 본문 부분은 그대로 Content-MD5 다이제스트에 포함됩니다. -- 즉, 신청 후. Transfer-Encoding 헤더 필드는 본문 부분 내에서 허용되지 않습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  5eace211f1d0dd3a320f95308eb10c597734de0df4106bfe1bcfd2c321b4349f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Define the "length block" as a 16-byte value that is the
+     concatenation of the 64-bit, little-endian encodings of
+     bytelen(additional_data) * 8 and bytelen(plaintext) * 8.  Pad the
+     plaintext and additional data with zeros until they are each a
+     multiple of 16 bytes, the AES block size.  Then X_1, X_2, ... (the
+     series of field elements that are inputs to POLYVAL) are the
+     concatenation of the padded additional data, the padded plaintext,
+     and the length block.
+"fixed": |-
+  Define the "length block" as a 16-byte value that is the concatenation of the 64-bit, little-endian encodings of bytelen(additional_data) * 8 and bytelen(plaintext) * 8.  Pad the plaintext and additional data with zeros until they are each a multiple of 16 bytes, the AES block size.  Then X_1, X_2, ... (the series of field elements that are inputs to POLYVAL) are the concatenation of the padded additional data, the padded plaintext, and the length block.
+"ko": |-
+  "길이 블록"을 bytelen(additional_data) * 8 및 bytelen(plaintext) * 8의 64비트 리틀 엔디안 인코딩을 연결한 16바이트 값으로 정의합니다. 일반 텍스트와 추가 데이터를 0으로 채웁니다. 각각은 AES 블록 크기인 16바이트의 배수입니다. 그런 다음 X_1, X_2, ...(POLYVAL에 입력되는 일련의 필드 요소)는 패딩된 추가 데이터, 패딩된 ​​일반 텍스트 및 길이 블록의 연결입니다.

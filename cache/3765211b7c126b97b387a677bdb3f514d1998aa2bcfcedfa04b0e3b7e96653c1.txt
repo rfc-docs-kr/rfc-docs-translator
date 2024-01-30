@@ -1,0 +1,1 @@
+- Transfer-Encoding 및 Content-Length 헤더 필드가 모두 포함된 메시지가 수신되면 Transfer-Encoding이 Content-Length를 재정의합니다. 이러한 메시지는 요청 밀수(섹션 9.5) 또는 응답 분할(섹션 9.4)을 수행하려는 시도를 나타낼 수 있으며 오류로 처리되어야 합니다. 발신자는 그러한 메시지를 다운스트림으로 전달하기 전에 수신된 Content-Length 필드를 제거해야 합니다.

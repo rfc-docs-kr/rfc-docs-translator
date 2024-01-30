@@ -1,0 +1,17 @@
+"hash": |-
+  fc02667d7cb5fbfbd6a48267a5efd019468942058840856169873d26dbedb805
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        state            event              action         next state
+        -----------------------------------------------------------------
+        Closed           Start            I-Snd-Conn-Req   Wait-Conn-Ack
+                         R-Conn-CER       R-Accept,        R-Open
+                                          Process-CER,
+                                          R-Snd-CEA
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

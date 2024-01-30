@@ -1,0 +1,26 @@
+"hash": |-
+  2a2ed76fe2dc46d80e00cef12cacc5569dad0153faad05ef7861edd7a4447537
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          After the shortest-path tree has been calculated for the
+          backbone in Section 16.1, Router RT1 (left end of the virtual
+          link) will have calculated a path through Router RT4 for all
+          data traffic destined for Network N1. However, since Router RT5
+          is so much closer to Network N1, all routers internal to Area 1
+          (e.g., Routers RT2 and RT3) will forward their Network N1
+          traffic towards Router RT5, instead of RT4. And indeed, after
+          examining Area 1's summary-LSAs by the above calculation, Router
+          RT1 will also forward Network N1 traffic towards RT5. Note that
+          in this example the virtual link enables transit data traffic to
+          be forwarded through Area 1, but the actual path the transit
+          data traffic takes does not follow the virtual link.  In other
+          words, virtual links allow transit traffic to be forwarded
+          through an area, but do not dictate the precise path that the
+          traffic will take.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

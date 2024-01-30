@@ -1,0 +1,29 @@
+"hash": |-
+  8a84e98b715fdb9f266a3d27e4266bd97a57f088cb9c83102c23ece513d6f39f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          leaf default-operation {
+            type enumeration {
+              enum merge {
+                description
+                  "The default operation is merge.";
+              }
+              enum replace {
+                description
+                  "The default operation is replace.";
+              }
+              enum none {
+                description
+                  "There is no default operation.";
+              }
+            }
+            default "merge";
+            description
+              "The default operation to use.";
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

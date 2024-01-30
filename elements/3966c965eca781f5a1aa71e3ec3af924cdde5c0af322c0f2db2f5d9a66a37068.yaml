@@ -1,0 +1,20 @@
+"hash": |-
+  3966c965eca781f5a1aa71e3ec3af924cdde5c0af322c0f2db2f5d9a66a37068
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          ExStart
+              If the received packet matches one of the following cases,
+              then the neighbor state machine should be executed with the
+              event NegotiationDone (causing the state to transition to
+              Exchange), the packet's Options field should be recorded in
+              the neighbor structure's Neighbor Options field and the
+              packet should be accepted as next in sequence and processed
+              further (see below).  Otherwise, the packet should be
+              ignored.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

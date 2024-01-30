@@ -1,0 +1,21 @@
+"hash": |-
+  7a0c7f9b193edfc96671fde31ed92c1e05b1e3ce2a61f8607d847a45a7b46531
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: In this structure, one CA is the top CA, the highest
+        level of the hierarchy. (See: root, top CA.) The top CA may issue
+        public-key certificates to one or more additional CAs that form
+        the second-highest level. Each of these CAs may issue certificates
+        to more CAs at the third-highest level, and so on. The CAs at the
+        second-lowest level issue certificates only to non-CA entities
+        that form the lowest level (see: end entity). Thus, all
+        certification paths begin at the top CA and descend through zero
+        or more levels of other CAs. All certificate users base path
+        validations on the top CA's public key.
+"fixed": |-
+  - Tutorial: In this structure, one CA is the top CA, the highest level of the hierarchy. (See: root, top CA.) The top CA may issue public-key certificates to one or more additional CAs that form the second-highest level. Each of these CAs may issue certificates to more CAs at the third-highest level, and so on. The CAs at the second-lowest level issue certificates only to non-CA entities that form the lowest level (see: end entity). Thus, all certification paths begin at the top CA and descend through zero or more levels of other CAs. All certificate users base path validations on the top CA's public key.
+"ko": |-
+  - 튜토리얼: 이 구조에서는 하나의 CA가 계층 구조의 가장 높은 수준인 최상위 CA입니다. (참조: 루트, 최상위 CA.) 최상위 CA는 두 번째로 높은 수준을 구성하는 하나 이상의 추가 CA에 공개 키 인증서를 발급할 수 있습니다. 이러한 각 CA는 세 번째로 높은 수준에 있는 더 많은 CA에 인증서를 발급할 수 있습니다. 두 번째로 낮은 수준에 있는 CA는 가장 낮은 수준을 구성하는 CA가 아닌 엔터티에만 인증서를 발급합니다(최종 엔터티 참조). 따라서 모든 인증 경로는 최상위 CA에서 시작하여 0개 이상의 다른 CA 수준을 거쳐 내려갑니다. 모든 인증서 사용자는 최상위 CA의 공개 키에 대한 경로 유효성 검사를 기본으로 합니다.

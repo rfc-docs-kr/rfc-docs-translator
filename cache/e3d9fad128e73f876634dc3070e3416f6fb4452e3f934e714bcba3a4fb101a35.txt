@@ -1,0 +1,1 @@
+   * LocalConnectionDescriptor는 CreateConnection에 대한 긍정적인 응답(코드 200)과 함께 전송되어야 합니다. 또한 수정으로 인해 세션 매개변수가 수정된 경우 ModifyConnection 명령에 대한 응답으로 전송되어야 합니다. LocalConnectionDescriptor는 섹션 3.4에 정의된 대로 "세션 설명"으로 인코딩됩니다. 응답 헤더와 빈 줄로 구분됩니다.

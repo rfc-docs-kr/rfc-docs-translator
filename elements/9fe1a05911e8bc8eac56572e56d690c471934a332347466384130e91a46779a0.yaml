@@ -1,0 +1,23 @@
+"hash": |-
+  9fe1a05911e8bc8eac56572e56d690c471934a332347466384130e91a46779a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the TLS negotiation fails or if the client receives a 454
+     response, the client has to decide what to do next.  There are three
+     main choices: go ahead with the rest of the SMTP session, retry TLS
+     at a later time, or give up and return the mail to the sender.  If a
+     failure or error occurs, the client can assume that the server may be
+     able to negotiate TLS in the future, and should try negotiate TLS in
+     a later session, until some locally-chosen timeout occurs, at which
+     point, the client should return the mail to the sender.  However, if
+     the client and server were only using TLS for authentication, the
+     client may want to proceed with the SMTP session, in case some of the
+     operations the client wanted to perform are accepted by the server
+     even if the client is unauthenticated.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

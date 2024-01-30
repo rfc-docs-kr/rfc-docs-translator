@@ -1,0 +1,1 @@
+   expected_arrival_time이 창에 있으면 서버는 일치하는 ClientHello를 기록했는지 확인합니다. 하나가 발견되면 "illegal_parameter" 경고와 함께 핸드셰이크를 중단하거나 PSK를 수락하지만 0-RTT를 거부합니다. 일치하는 ClientHello가 없으면 0-RTT를 수락한 다음 expected_arrival_time이 창 안에 있는 동안 ClientHello를 저장합니다. 서버는 또한 0-RTT를 거부하여 명백한 재생에 응답해야 하지만 핸드셰이크를 중단해서는 안 되는 블룸 필터와 같은 오탐으로 데이터 저장소를 구현할 수도 있습니다(MUST NOT).

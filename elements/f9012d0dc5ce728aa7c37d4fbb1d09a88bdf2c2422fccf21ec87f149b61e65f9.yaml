@@ -1,0 +1,20 @@
+"hash": |-
+  f9012d0dc5ce728aa7c37d4fbb1d09a88bdf2c2422fccf21ec87f149b61e65f9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a MGC wants the MG to respond to a continuity test, it sends a
+     command to the MG containing a signals descriptor with the rsp
+     signal.  Upon reception of a command with the rsp signal, the MG
+     either applies a loopback or (for 2-wire circuits) awaits reception
+     of a continuity test tone.  In the loopback case, any incoming
+     information shall be reflected back as outgoing information.  In the
+     2-wire case, any time the appropriate test tone is received, the
+     appropriate response tone should be sent.  The MGC determines when to
+     remove the rsp signal.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

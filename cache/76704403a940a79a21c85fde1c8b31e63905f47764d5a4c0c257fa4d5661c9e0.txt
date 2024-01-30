@@ -1,0 +1,1 @@
+   DTEND가 VEVENT에 없지만 DURATION이 있는 경우 테스트는 대신 '유효한' DTEND, 즉 DTSTART+DURATION에서 작동해야 합니다. 마찬가지로 DUE가 VTODO에 없지만 DTSTART 및 DURATION이 있는 경우 테스트는 대신 '유효' DUE, 즉 DTSTART+DURATION에서 작동해야 합니다.

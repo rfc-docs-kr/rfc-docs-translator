@@ -1,0 +1,16 @@
+"hash": |-
+  59a79d5a1097cb0752e022d647a31038f3782c6975534fc086f15348e066f80f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In addition, the signature algorithm MUST be compatible with the key
+     in the sender's end-entity certificate.  RSA signatures MUST use an
+     RSASSA-PSS algorithm, regardless of whether RSASSA-PKCS1-v1_5
+     algorithms appear in "signature_algorithms".  The SHA-1 algorithm
+     MUST NOT be used in any signatures of CertificateVerify messages.
+"fixed": |-
+  In addition, the signature algorithm MUST be compatible with the key in the sender's end-entity certificate.  RSA signatures MUST use an RSASSA-PSS algorithm, regardless of whether RSASSA-PKCS1-v1_5 algorithms appear in "signature_algorithms".  The SHA-1 algorithm MUST NOT be used in any signatures of CertificateVerify messages.
+"ko": |-
+  또한 서명 알고리즘은 보낸 사람의 최종 엔터티 인증서에 있는 키와 호환되어야 합니다. RSA 서명은 RSASSA-PKCS1-v1_5 알고리즘이 "signature_algorithms"에 나타나는지 여부에 관계없이 RSASSA-PSS 알고리즘을 사용해야 합니다. SHA-1 알고리즘은 CertificateVerify 메시지의 서명에 사용되어서는 안 됩니다.

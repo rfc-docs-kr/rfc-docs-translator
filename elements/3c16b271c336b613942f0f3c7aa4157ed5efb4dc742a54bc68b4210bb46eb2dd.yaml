@@ -1,0 +1,19 @@
+"hash": |-
+  3c16b271c336b613942f0f3c7aa4157ed5efb4dc742a54bc68b4210bb46eb2dd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To represent the hash of a certificate in a JWT, this specification
+     defines the new JWT Confirmation Method [RFC7800] member "x5t#S256"
+     for the X.509 Certificate SHA-256 Thumbprint.  The value of the
+     "x5t#S256" member is a base64url-encoded [RFC4648] SHA-256 [SHS] hash
+     (a.k.a., thumbprint, fingerprint, or digest) of the DER encoding
+     [X690] of the X.509 certificate [RFC5280].  The base64url-encoded
+     value MUST omit all trailing pad '=' characters and MUST NOT include
+     any line breaks, whitespace, or other additional characters.
+"fixed": |-
+  To represent the hash of a certificate in a JWT, this specification defines the new JWT Confirmation Method [RFC7800] member "x5t#S256" for the X.509 Certificate SHA-256 Thumbprint.  The value of the "x5t#S256" member is a base64url-encoded [RFC4648] SHA-256 [SHS] hash (a.k.a., thumbprint, fingerprint, or digest) of the DER encoding [X690] of the X.509 certificate [RFC5280].  The base64url-encoded value MUST omit all trailing pad '=' characters and MUST NOT include any line breaks, whitespace, or other additional characters.
+"ko": |-
+  JWT에서 인증서 해시를 나타내기 위해 이 사양에서는 X.509 인증서 SHA-256 지문에 대한 새로운 JWT 확인 방법 [RFC7800] 멤버 "x5t#S256"을 정의합니다. "x5t#S256" 멤버의 값은 X.509 인증서 [RFC5280]의 DER 인코딩 [X690]의 base64url 인코딩 [RFC4648] SHA-256 [SHS] 해시(즉, 지문, 지문 또는 다이제스트)입니다. ]. base64url로 인코딩된 값은 모든 후행 패드 '=' 문자를 생략해야 하며 줄 바꿈, 공백 또는 기타 추가 문자를 포함해서는 안 됩니다.

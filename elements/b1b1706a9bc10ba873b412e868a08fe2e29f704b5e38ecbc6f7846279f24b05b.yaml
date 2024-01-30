@@ -1,0 +1,17 @@
+"hash": |-
+  b1b1706a9bc10ba873b412e868a08fe2e29f704b5e38ecbc6f7846279f24b05b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the proxy receives a response to a CoA-Request or Disconnect-
+     Request, it MUST remove its own Proxy-State Attribute (the last
+     Proxy-State in the packet) before forwarding the response.  Since
+     Disconnect and CoA responses are authenticated on the entire packet
+     contents, the stripping of the Proxy-State Attribute invalidates the
+     integrity check, so the proxy MUST recompute it.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

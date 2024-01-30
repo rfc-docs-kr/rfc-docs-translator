@@ -1,0 +1,21 @@
+"hash": |-
+  f277ff4b92bdab8ff9fb1286c5edf48c89196d24a5a1ae04231dcb3c80f37ad0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     cipher_suites:  A list of the symmetric cipher options supported by
+        the client, specifically the record protection algorithm
+        (including secret key length) and a hash to be used with HKDF, in
+        descending order of client preference.  Values are defined in
+        Appendix B.4.  If the list contains cipher suites that the server
+        does not recognize, support, or wish to use, the server MUST
+        ignore those cipher suites and process the remaining ones as
+        usual.  If the client is attempting a PSK key establishment, it
+        SHOULD advertise at least one cipher suite indicating a Hash
+        associated with the PSK.
+"fixed": |-
+  cipher_suites:  A list of the symmetric cipher options supported by the client, specifically the record protection algorithm (including secret key length) and a hash to be used with HKDF, in descending order of client preference.  Values are defined in Appendix B.4.  If the list contains cipher suites that the server does not recognize, support, or wish to use, the server MUST ignore those cipher suites and process the remaining ones as usual.  If the client is attempting a PSK key establishment, it SHOULD advertise at least one cipher suite indicating a Hash associated with the PSK.
+"ko": |-
+  cipher_suites: 클라이언트가 지원하는 대칭 암호 옵션 목록, 특히 레코드 보호 알고리즘(비밀 키 길이 포함) 및 HKDF와 함께 사용할 해시(클라이언트 선호도 내림차순)입니다. 값은 부록 B.4에 정의되어 있습니다. 목록에 서버가 인식하지 못하거나 지원하지 않거나 사용하려는 암호 모음이 포함된 경우 서버는 해당 암호 모음을 무시하고 나머지 암호 모음을 평소대로 처리해야 합니다. 클라이언트가 PSK 키 설정을 시도하는 경우 PSK와 관련된 해시를 나타내는 하나 이상의 암호 제품군을 광고해야 합니다.

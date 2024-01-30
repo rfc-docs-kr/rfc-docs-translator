@@ -1,0 +1,55 @@
+"hash": |-
+  c9d2f9c42ec22b76811db7412b67e9f14abd2395552bd0bdb817131ccc86595d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------------+-----------------------------------------------+
+     | Descriptor Name  | Description                                   |
+     |------------------|-----------------------------------------------|
+     | Modem            | Identifies modem type and properties          |
+     |                  | when applicable.                              |
+     | Mux              | Describes multiplex type for multimedia       |
+     |                  | terminations (e.g. H.221, H.223, H.225.0)     |
+     |                  | and Terminations forming the input mux.       |
+     | Media            | A list of media stream specifications         |
+     |                  | (see 7.1.4).                                  |
+     | TerminationState | Properties of a Termination (which can be     |
+     |                  | defined in Packages) that are not stream      |
+     |                  | specific.                                     |
+     | Stream           | A list of remote/local/localControl           |
+     |                  | descriptors for a single stream.              |
+     | Local            | Contains properties that specify the media    |
+     |                  | flows that the MG receives from the remote    |
+     |                  | entity.                                       |
+     | Remote           | Contains properties that specify the media    |
+     |                  | flows that the MG sends to the remote entity. |
+     | LocalControl     | Contains properties (which can be defined in  |
+     |                  | packages) that are of interest between the MG |
+     |                  | and the MGC.                                  |
+     | Events           | Describes events to be detected by the MG and |
+     |                  | what to do when an event is detected.         |
+     | EventBuffer      | Describes events to be detected by the MG     |
+     |                  | when Event Buffering is active.               |
+     | Signals          | Describes signals and/or actions to be        |
+     |                  | applied (e.g. Busy Tone) to the Terminations. |
+     | Audit            | In Audit commands, identifies which           |
+     |                  | information is desired.                       |
+     | Packages         | In AuditValue, returns a list of Packages     |
+     |                  | realized by Termination.                      |
+     | DigitMap         | Defines patterns against which sequences of a |
+     |                  | specified set of events are to be matched so  |
+     |                  | they can be reported as a group rather than   |
+     |                  | singly.                                       |
+     | ServiceChange    | In ServiceChange, what, why service change    |
+     |                  | occurred, etc.                                |
+     | ObservedEvents   | In Notify or AuditValue, report of events     |
+     |                  | observed.                                     |
+     | Statistics       | In Subtract and Audit, Report of Statistics   |
+     |                  | kept on a Termination.                        |
+     +------------------------------------------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

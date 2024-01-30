@@ -1,0 +1,22 @@
+"hash": |-
+  958c2ebcac2521f3b157912e87d1e0b3762177d1f34572ca4dd5aec6823d4ff1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServMinRateAbsolute OBJECT-TYPE
+      SYNTAX       Unsigned32  (1..4294967295)
+      UNITS        "kilobits per second"
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The minimum absolute rate, in kilobits/sec, that a downstream
+         scheduler element should allocate to this queue. If the value is
+         zero, then there is effectively no minimum rate guarantee. If the
+         value is non-zero, the scheduler will assure the servicing of
+         this queue to at least this rate.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

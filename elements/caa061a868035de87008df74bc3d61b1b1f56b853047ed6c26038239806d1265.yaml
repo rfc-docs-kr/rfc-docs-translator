@@ -1,0 +1,18 @@
+"hash": |-
+  caa061a868035de87008df74bc3d61b1b1f56b853047ed6c26038239806d1265
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a server encounters multiple errors during the processing of an
+     <rpc> request, the <rpc-reply> MAY contain multiple <rpc-error>
+     elements.  However, a server is not required to detect or report more
+     than one <rpc-error> element, if a request contains multiple errors.
+     A server is not required to check for particular error conditions in
+     a specific sequence.  A server MUST return an <rpc-error> element if
+     any error conditions occur during processing.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

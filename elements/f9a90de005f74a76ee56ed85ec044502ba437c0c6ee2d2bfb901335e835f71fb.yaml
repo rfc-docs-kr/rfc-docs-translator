@@ -1,0 +1,22 @@
+"hash": |-
+  f9a90de005f74a76ee56ed85ec044502ba437c0c6ee2d2bfb901335e835f71fb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Origin-State-Id, if present, MUST reflect the state of the entity
+     indicated by Origin-Host.  If a proxy modifies Origin-Host, it MUST
+     either remove Origin-State-Id or modify it appropriately as well.
+     Typically, Origin-State-Id is used by an access device that always
+     starts up with no active sessions; that is, any session active prior
+     to restart will have been lost.  By including Origin-State-Id in a
+     message, it allows other Diameter entities to infer that sessions
+     associated with a lower Origin-State-Id are no longer active.  If an
+     access device does not intend for such inferences to be made, it MUST
+     either not include Origin-State-Id in any message or set its value to
+     0.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

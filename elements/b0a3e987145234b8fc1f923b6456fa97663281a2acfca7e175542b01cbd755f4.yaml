@@ -1,0 +1,15 @@
+"hash": |-
+  b0a3e987145234b8fc1f923b6456fa97663281a2acfca7e175542b01cbd755f4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  The Extended Key Usage extension in a certificate matches the
+        request when all key purpose OIDs present in the request are also
+        found in the Extended Key Usage certificate extension.  The
+        special anyExtendedKeyUsage OID MUST NOT be used in the request.
+"fixed": |-
+  -  The Extended Key Usage extension in a certificate matches the request when all key purpose OIDs present in the request are also found in the Extended Key Usage certificate extension.  The special anyExtendedKeyUsage OID MUST NOT be used in the request.
+"ko": |-
+  - 요청에 존재하는 모든 키 목적 OID가 확장 키 사용 인증서 확장에서도 발견되면 인증서의 확장 키 사용 확장이 요청과 일치합니다. 특별한 anyExtendedKeyUsage OID는 요청에 사용되어서는 안 됩니다.

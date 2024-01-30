@@ -1,0 +1,1 @@
+   HTTP GET 요청은 요청 헤더 필드를 포함하고 페이로드 본문은 포함하지 않으므로 단일 HEADERS 프레임으로 전송되며, 요청 헤더 필드의 직렬화된 블록을 포함하는 0개 이상의 CONTINUATION 프레임이 이어집니다. 다음의 HEADERS 프레임에는 END_HEADERS 및 END_STREAM 플래그가 모두 설정되어 있습니다. CONTINUATION 프레임이 전송되지 않습니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  160813de1de5654186d5210c2cce3216204f1905fa8b1dff92e402b0ed9c0bf2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Out-of-order delivery has special concerns during a connection
+     establishment and termination.  When a connection is established, the
+     responder side sends a CEA message and moves to R-Open state as
+     specified in Section 5.6.  If an application message is sent shortly
+     after the CEA and delivered out-of-order, the initiator side, still
+     in Wait-I-CEA state, will discard the application message and close
+     the connection.  In order to avoid this race condition, the receiver
+     side SHOULD NOT use out-of-order delivery methods until the first
+     message has been received from the initiator, proving that it has
+     moved to I-Open state.  To trigger such a message, the receiver side
+     could send a DWR immediately after sending a CEA.  Upon reception of
+     the corresponding DWA, the receiver side should start using out-of-
+     order delivery methods to counter the HOL blocking.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

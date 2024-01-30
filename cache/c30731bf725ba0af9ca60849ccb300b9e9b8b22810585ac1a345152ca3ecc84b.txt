@@ -1,0 +1,1 @@
+   o SET_SSV 요청은 SSV를 SET_SSV에 대한 인수로 대체하지 않습니다. 대신 서버의 현재 SSV는 SET_SSV에 대한 인수와 논리적으로 배타적 OR(XOR)입니다. 새로운 주체가 처음으로 클라이언트 ID를 사용할 때마다 클라이언트는 RPCSEC_GSS 서비스가 RPC_GSS_SVC_PRIVACY로 설정된 상태에서 해당 주체의 RPCSEC_GSS 자격 증명과 함께 SET_SSV를 보내야 합니다.

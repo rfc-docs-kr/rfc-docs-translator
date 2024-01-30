@@ -1,0 +1,18 @@
+"hash": |-
+  eefd2b995e8c54da6d8f2ce1d83464f86020102a727fdfe5e97d09db513ef53f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     struct {
+       ProtocolVersion client_version;
+       Random random;
+       SessionID session_id;
+       opaque cookie<0..2^8-1>;                             // New field
+       CipherSuite cipher_suites<2..2^16-1>;
+       CompressionMethod compression_methods<1..2^8-1>; } ClientHello;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

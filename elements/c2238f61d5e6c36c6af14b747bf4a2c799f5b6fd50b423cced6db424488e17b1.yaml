@@ -1,0 +1,19 @@
+"hash": |-
+  c2238f61d5e6c36c6af14b747bf4a2c799f5b6fd50b423cced6db424488e17b1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     receive window
+             This represents the sequence numbers the local (receiving)
+             TCP endpoint is willing to receive.  Thus, the local TCP
+             endpoint considers that segments overlapping the range
+             RCV.NXT to RCV.NXT + RCV.WND - 1 carry acceptable data or
+             control.  Segments containing sequence numbers entirely
+             outside this range are considered duplicates or injection
+             attacks and discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

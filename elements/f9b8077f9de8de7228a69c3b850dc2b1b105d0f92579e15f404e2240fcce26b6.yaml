@@ -1,0 +1,19 @@
+"hash": |-
+  f9b8077f9de8de7228a69c3b850dc2b1b105d0f92579e15f404e2240fcce26b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An ASP MAY dynamically deregister with an SGP as an ASP within an
+     Application Server using the DEREG REQ message.  A Routing Context
+     parameter in the DEREG REQ message specifies which Routing Keys to
+     deregister.  An ASP SHOULD move to the ASP-INACTIVE state for an
+     Application Server before attempting to deregister the Routing Key
+     (i.e., deregister after receiving an ASP Inactive Ack).  Also, an ASP
+     SHOULD deregister from all Application Servers of which it is a
+     member before attempting to move to the ASP-Down state.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

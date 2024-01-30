@@ -1,0 +1,21 @@
+"hash": |-
+  a374492f15e626d076f209c83e26e2463c0d05e570a9f013aee69d9c6d97672c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server rejects the "early_data" extension, the client
+     application MAY opt to retransmit the Application Data previously
+     sent in early data once the handshake has been completed.  Note that
+     automatic retransmission of early data could result in incorrect
+     assumptions regarding the status of the connection.  For instance,
+     when the negotiated connection selects a different ALPN protocol from
+     what was used for the early data, an application might need to
+     construct different messages.  Similarly, if early data assumes
+     anything about the connection state, it might be sent in error after
+     the handshake completes.
+"fixed": |-
+  If the server rejects the "early_data" extension, the client application MAY opt to retransmit the Application Data previously sent in early data once the handshake has been completed.  Note that automatic retransmission of early data could result in incorrect assumptions regarding the status of the connection.  For instance, when the negotiated connection selects a different ALPN protocol from what was used for the early data, an application might need to construct different messages.  Similarly, if early data assumes anything about the connection state, it might be sent in error after the handshake completes.
+"ko": |-
+  서버가 "early_data" 확장을 거부하는 경우 클라이언트 애플리케이션은 핸드셰이크가 완료된 후 이전에 초기 데이터로 전송된 애플리케이션 데이터를 재전송하도록 선택할 수 있습니다. 초기 데이터의 자동 재전송으로 인해 연결 상태에 관한 잘못된 가정이 발생할 수 있습니다. 예를 들어 협상된 연결이 초기 데이터에 사용된 것과 다른 ALPN 프로토콜을 선택하는 경우 애플리케이션은 다른 메시지를 구성해야 할 수도 있습니다. 마찬가지로 초기 데이터가 연결 상태에 대해 가정하는 경우 핸드셰이크가 완료된 후 오류가 발생하여 전송될 수 있습니다.

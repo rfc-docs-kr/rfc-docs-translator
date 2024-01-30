@@ -1,0 +1,21 @@
+"hash": |-
+  2ca8eea91fa60efda9b664478039c3461e691730a0bdc9fd10647dd2036723d5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a URI is dereferenced, the components and subcomponents
+     significant to the scheme-specific dereferencing process (if any)
+     must be parsed and separated before the percent-encoded octets within
+     those components can be safely decoded, as otherwise the data may be
+     mistaken for component delimiters.  The only exception is for
+     percent-encoded octets corresponding to characters in the unreserved
+     set, which can be decoded at any time.  For example, the octet
+     corresponding to the tilde ("~") character is often encoded as "%7E"
+     by older URI processing implementations; the "%7E" can be replaced by
+     "~" without changing its interpretation.
+"fixed": |-
+  When a URI is dereferenced, the components and subcomponents significant to the scheme-specific dereferencing process (if any) must be parsed and separated before the percent-encoded octets within those components can be safely decoded, as otherwise the data may be mistaken for component delimiters.  The only exception is for percent-encoded octets corresponding to characters in the unreserved set, which can be decoded at any time.  For example, the octet corresponding to the tilde ("~") character is often encoded as "%7E" by older URI processing implementations; the "%7E" can be replaced by "~" without changing its interpretation.
+"ko": |-
+  URI가 역참조될 때 체계별 역참조 프로세스에 중요한 구성 요소 및 하위 구성 요소(있는 경우)는 해당 구성 요소 내의 백분율 인코딩 옥텟이 안전하게 디코딩될 수 있기 전에 구문 분석되고 분리되어야 합니다. 그렇지 않으면 데이터가 구성 요소로 오해될 수 있습니다. 구분 기호. 유일한 예외는 언제든지 디코딩할 수 있는 예약되지 않은 세트의 문자에 해당하는 백분율로 인코딩된 옥텟입니다. 예를 들어 물결표("~") 문자에 해당하는 옥텟은 이전 URI 처리 구현에서 "%7E"로 인코딩되는 경우가 많습니다. "%7E"는 해석을 변경하지 않고 "~"로 대체될 수 있습니다.

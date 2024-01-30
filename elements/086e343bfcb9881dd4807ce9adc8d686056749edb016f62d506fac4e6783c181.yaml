@@ -1,0 +1,16 @@
+"hash": |-
+  086e343bfcb9881dd4807ce9adc8d686056749edb016f62d506fac4e6783c181
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  The certificate MUST allow the key to be used for signing (i.e.,
+        the digitalSignature bit MUST be set if the Key Usage extension is
+        present) with a signature scheme indicated in the client's
+        "signature_algorithms"/"signature_algorithms_cert" extensions (see
+        Section 4.2.3).
+"fixed": |-
+  -  The certificate MUST allow the key to be used for signing (i.e., the digitalSignature bit MUST be set if the Key Usage extension is present) with a signature scheme indicated in the client's "signature_algorithms"/"signature_algorithms_cert" extensions (see Section 4.2.3).
+"ko": |-
+  - 인증서는 클라이언트의 "signature_algorithms"/"signature_algorithms_cert" 확장에 표시된 서명 체계를 사용하여 서명에 키를 사용할 수 있도록 허용해야 합니다(즉, 키 사용 확장이 있는 경우 digitalSignature 비트를 설정해야 함)(섹션 4.2. 삼).

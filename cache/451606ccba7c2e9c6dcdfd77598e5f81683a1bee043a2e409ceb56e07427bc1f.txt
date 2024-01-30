@@ -1,0 +1,1 @@
+   인증 실패(AUTHENTICATION_FAILED 및 EAP 실패)와 잘못된 메시지(INVALID_SYNTAX)만 삭제 페이로드를 전달하는 명시적인 INFORMATIONAL 교환을 요구하지 않고 IKE SA를 삭제하게 됩니다. 정책에 따라 이것이 필요하다고 지시하는 경우 다른 오류 조건에서는 그러한 교환이 필요할 수 있습니다. EAP 실패로 교환이 종료되면 AUTHENTICATION_FAILED 알림이 전송되지 않습니다.

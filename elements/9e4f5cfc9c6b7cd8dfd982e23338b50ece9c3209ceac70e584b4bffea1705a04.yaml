@@ -1,0 +1,20 @@
+"hash": |-
+  9e4f5cfc9c6b7cd8dfd982e23338b50ece9c3209ceac70e584b4bffea1705a04
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Router Priority
+              An 8-bit unsigned integer.  When two routers attached to a
+              network both attempt to become Designated Router, the one
+              with the highest Router Priority takes precedence.  If there
+              is still a tie, the router with the highest Router ID takes
+              precedence.  A router whose Router Priority is set to 0 is
+              ineligible to become Designated Router on the attached
+              network.  Router Priority is only configured for interfaces
+              to broadcast and NBMA networks.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

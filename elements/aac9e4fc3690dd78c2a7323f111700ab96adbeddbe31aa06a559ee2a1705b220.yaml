@@ -1,0 +1,22 @@
+"hash": |-
+  aac9e4fc3690dd78c2a7323f111700ab96adbeddbe31aa06a559ee2a1705b220
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        In CoA-Request and Disconnect-Request packets, all attributes MUST
+        be treated as mandatory.  If one or more authorization changes
+        specified in a CoA-Request cannot be carried out, the NAS MUST
+        send a CoA-NAK.  A NAS MUST respond to a CoA-Request containing
+        one or more unsupported attributes or Attribute values with a
+        CoA-NAK; an Error-Cause Attribute with value 401 (Unsupported
+        Attribute) or 407 (Invalid Attribute Value) MAY be included.  A
+        NAS MUST respond to a Disconnect-Request containing one or more
+        unsupported attributes or Attribute values with a Disconnect-NAK;
+        an Error-Cause Attribute with value 401 (Unsupported Attribute) or
+        407 (Invalid Attribute Value) MAY be included.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

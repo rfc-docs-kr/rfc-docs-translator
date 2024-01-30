@@ -1,0 +1,3 @@
+      회수 모드에서 LAYOUTCOMMIT를 전송하기 위해 클라이언트는
+
+- 작업 인수(18.42.1절)의 loca_reclaim 필드를 TRUE로 설정합니다. 메타데이터 서버의 복구 유예 기간 동안(복구 유예 기간 동안에만) 메타데이터 서버는 loca_reclaim 필드가 TRUE로 설정된 LAYOUTCOMMIT 요청을 수락할 준비가 되어 있습니다.

@@ -1,0 +1,32 @@
+"hash": |-
+  17eb6f8eed52426aceee4b0e2032db37d5d01f470b66ee688388769113469642
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          leaf error-option {
+            type enumeration {
+              enum stop-on-error {
+                description
+                  "The server will stop on errors.";
+              }
+              enum continue-on-error {
+                description
+                  "The server may continue on errors.";
+              }
+              enum rollback-on-error {
+                description
+                  "The server will roll back on errors.
+                   This value can only be used if the 'rollback-on-error'
+                   feature is supported.";
+              }
+            }
+            default "stop-on-error";
+            description
+              "The error option to use.";
+          }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

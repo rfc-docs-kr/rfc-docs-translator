@@ -1,0 +1,23 @@
+"hash": |-
+  96ec6bdcde13e4f98c29a7aa5f2341bbec5b27ab93dba2fe8c6cb138c0c1559a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        One possible solution is for each multi-homed organization to
+        obtain its IP address space independently from the providers to
+        which it is attached.  This allows each multi-homed organization
+        to base its IP assignments on a single prefix, and to thereby
+        summarize the set of all IP addresses reachable within that
+        organization via a single prefix.  The disadvantage of this
+        approach is that since the IP address for that organization has no
+        relationship to the addresses of any particular TRD, the TRDs to
+        which this organization is attached will need to advertise the
+        prefix for this organization to other providers.  Other providers
+        (potentially worldwide) will need to maintain an explicit entry
+        for that organization in their routing tables.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

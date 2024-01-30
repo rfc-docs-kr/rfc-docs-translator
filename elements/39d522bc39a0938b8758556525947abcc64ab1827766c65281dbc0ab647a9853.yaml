@@ -1,0 +1,22 @@
+"hash": |-
+  39d522bc39a0938b8758556525947abcc64ab1827766c65281dbc0ab647a9853
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The mechanism to generate a fingerprint is to take the hash of the
+     DER-encoded certificate using a cryptographically strong algorithm,
+     and convert the result into colon-separated, hexadecimal bytes, each
+     represented by 2 uppercase ASCII characters.  When a fingerprint
+     value is displayed or configured, the fingerprint is prepended with
+     an ASCII label identifying the hash function followed by a colon.
+     Implementations MUST support SHA-1 as the hash algorithm and use the
+     ASCII label "sha-1" to identify the SHA-1 algorithm.  The length of a
+     SHA-1 hash is 20 bytes and the length of the corresponding
+     fingerprint string is 65 characters.  An example certificate
+     fingerprint is:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

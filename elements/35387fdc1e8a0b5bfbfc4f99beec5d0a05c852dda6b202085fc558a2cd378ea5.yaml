@@ -1,0 +1,17 @@
+"hash": |-
+  35387fdc1e8a0b5bfbfc4f99beec5d0a05c852dda6b202085fc558a2cd378ea5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     AEAD algorithms take as input a single key, a nonce, a plaintext, and
+     "additional data" to be included in the authentication check, as
+     described in Section 2.1 of [RFC5116].  The key is either the
+     client_write_key or the server_write_key, the nonce is derived from
+     the sequence number and the client_write_iv or server_write_iv (see
+     Section 5.3), and the additional data input is the record header.
+"fixed": |-
+  AEAD algorithms take as input a single key, a nonce, a plaintext, and "additional data" to be included in the authentication check, as described in Section 2.1 of [RFC5116].  The key is either the client_write_key or the server_write_key, the nonce is derived from the sequence number and the client_write_iv or server_write_iv (see Section 5.3), and the additional data input is the record header.
+"ko": |-
+  AEAD 알고리즘은 [RFC5116]의 섹션 2.1에 설명된 대로 인증 확인에 포함될 단일 키, nonce, 일반 텍스트 및 "추가 데이터"를 입력으로 사용합니다. 키는 client_write_key 또는 server_write_key이고 nonce는 시퀀스 번호와 client_write_iv 또는 server_write_iv(섹션 5.3 참조)에서 파생되며 추가 데이터 입력은 레코드 헤더입니다.

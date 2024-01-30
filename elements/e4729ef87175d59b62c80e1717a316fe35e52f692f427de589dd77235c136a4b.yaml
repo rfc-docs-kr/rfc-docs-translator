@@ -1,0 +1,25 @@
+"hash": |-
+  e4729ef87175d59b62c80e1717a316fe35e52f692f427de589dd77235c136a4b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For example, consider an information service that provides data,
+     stored locally using an EBCDIC-based file system, to clients on the
+     Internet through an HTTP server.  When an author creates a file with
+     the name "Laguna Beach" on that file system, the "http" URI
+     corresponding to that resource is expected to contain the meaningful
+     string "Laguna%20Beach".  If, however, that server produces URIs by
+     using an overly simplistic raw octet mapping, then the result would
+     be a URI containing "%D3%81%87%A4%95%81@%C2%85%81%83%88".  An
+     internal transcoding interface fixes this problem by transcoding the
+     local name to a superset of US-ASCII prior to producing the URI.
+     Naturally, proper interpretation of an incoming URI on such an
+     interface requires that percent-encoded octets be decoded (e.g.,
+     "%20" to SP) before the reverse transcoding is applied to obtain the
+     local name.
+"fixed": |-
+  For example, consider an information service that provides data, stored locally using an EBCDIC-based file system, to clients on the Internet through an HTTP server.  When an author creates a file with the name "Laguna Beach" on that file system, the "http" URI corresponding to that resource is expected to contain the meaningful string "Laguna%20Beach".  If, however, that server produces URIs by using an overly simplistic raw octet mapping, then the result would be a URI containing "%D3%81%87%A4%95%81@%C2%85%81%83%88".  An internal transcoding interface fixes this problem by transcoding the local name to a superset of US-ASCII prior to producing the URI. Naturally, proper interpretation of an incoming URI on such an interface requires that percent-encoded octets be decoded (e.g., "%20" to SP) before the reverse transcoding is applied to obtain the local name.
+"ko": |-
+  예를 들어, EBCDIC 기반 파일 시스템을 사용하여 로컬로 저장된 데이터를 HTTP 서버를 통해 인터넷의 클라이언트에 제공하는 정보 서비스를 생각해 보십시오. 작성자가 해당 파일 시스템에 "Laguna Beach"라는 이름의 파일을 생성하면 해당 리소스에 해당하는 "http" URI에는 "Laguna%20Beach"라는 의미 있는 문자열이 포함될 것으로 예상됩니다. 그러나 해당 서버가 지나치게 단순한 원시 옥텟 매핑을 사용하여 URI를 생성하는 경우 결과는 "%D3%81%87%A4%95%81@%C2%85%81%83%88"을 포함하는 URI가 됩니다. . 내부 트랜스코딩 인터페이스는 URI를 생성하기 전에 로컬 이름을 US-ASCII의 상위 집합으로 트랜스코딩하여 이 문제를 해결합니다. 당연히 이러한 인터페이스에서 수신 URI를 적절하게 해석하려면 로컬 이름을 얻기 위해 역방향 트랜스코딩을 적용하기 전에 백분율로 인코딩된 옥텟을 디코딩해야 합니다(예: "%20"에서 SP로).

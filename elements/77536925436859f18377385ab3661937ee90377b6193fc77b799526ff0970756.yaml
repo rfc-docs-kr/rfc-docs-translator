@@ -1,0 +1,20 @@
+"hash": |-
+  77536925436859f18377385ab3661937ee90377b6193fc77b799526ff0970756
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The application layer MUST be able to specify the Differentiated
+     Services field for segments that are sent on a connection (MUST-48).
+     The Differentiated Services field includes the 6-bit Differentiated
+     Services Codepoint (DSCP) value.  It is not required, but the
+     application SHOULD be able to change the Differentiated Services
+     field during the connection lifetime (SHLD-21).  TCP implementations
+     SHOULD pass the current Differentiated Services field value without
+     change to the IP layer, when it sends segments on the connection
+     (SHLD-22).
+"fixed": |-
+  The application layer MUST be able to specify the Differentiated Services field for segments that are sent on a connection (MUST-48). The Differentiated Services field includes the 6-bit Differentiated Services Codepoint (DSCP) value.  It is not required, but the application SHOULD be able to change the Differentiated Services field during the connection lifetime (SHLD-21).  TCP implementations SHOULD pass the current Differentiated Services field value without change to the IP layer, when it sends segments on the connection (SHLD-22).
+"ko": |-
+  애플리케이션 계층은 연결을 통해 전송되는 세그먼트에 대해 차별화된 서비스 필드를 지정할 수 있어야 합니다(MUST-48). 차별화된 서비스 필드에는 6비트 DSCP(Differentiated Services Codepoint) 값이 포함됩니다. 필수는 아니지만 애플리케이션은 연결 수명 동안 차별화된 서비스 필드를 변경할 수 있어야 합니다(SHLD-21). TCP 구현은 연결(SHLD-22)에서 세그먼트를 보낼 때 IP 계층에 대한 변경 없이 현재 차별화된 서비스 필드 값을 전달해야 합니다(SHOULD).

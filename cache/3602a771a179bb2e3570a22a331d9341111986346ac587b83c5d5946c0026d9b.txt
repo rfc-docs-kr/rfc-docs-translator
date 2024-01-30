@@ -1,0 +1,1 @@
+- - Open(key, nonce, aad, ct): 대칭 키 키 및 nonce nonce가 있는 관련 데이터 aad를 사용하여 암호문 및 태그 ct를 해독하고 일반 텍스트 메시지 pt를 반환합니다. 이 함수는 실패 시 OpenError 또는 MessageLimitReachedError를 발생시킬 수 있습니다.

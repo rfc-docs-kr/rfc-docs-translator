@@ -1,0 +1,25 @@
+"hash": |-
+  5983d13f744289a92717a2bb502025f3f1e55384172378a4f469a085d41b7941
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The use of unicast ARP has a number of benefits.  One benefit is that
+     unicast packets impose less burden on the network than broadcast
+     packets, particularly on 802.11 networks where broadcast packets may
+     be sent at rates as low as 1 Mb/sec.  Another benefit is that if the
+     host is not on the link it hoped to find itself on, a broadcast ARP
+     Request could pollute the ARP caches of peers on that link.  When
+     using private addresses [RFC1918], another device could be
+     legitimately using the same address, and a broadcast ARP Request
+     could disrupt its communications, causing TCP connections to be
+     broken, and similar problems.  Also, using a unicast ARP packet
+     addressed to the MAC address of the router the host is expecting to
+     find means that if the host is not on the expected link there will be
+     no device with that MAC address, and the ARP packet will harmlessly
+     disappear into the void without doing any damage.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

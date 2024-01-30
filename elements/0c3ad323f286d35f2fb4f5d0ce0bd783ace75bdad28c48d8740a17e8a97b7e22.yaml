@@ -1,0 +1,23 @@
+"hash": |-
+  0c3ad323f286d35f2fb4f5d0ce0bd783ace75bdad28c48d8740a17e8a97b7e22
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In general, if a Token Bucket has N rates, it has N+1 potential
+     outcomes - the traffic stream is slower than and therefore conforms
+     to all of the rates, it fails the first few but is slower than and
+     therefore conforms to the higher rates, or it fails all of them.  As
+     such, multi-rate meters should specify those rates in monotonically
+     increasing order, passing through the diffServMeterFailNext from more
+     committed to more excess rates, and finally falling through
+     diffServMeterFailNext to the set of actions that apply to traffic
+     which conforms to none of the specified rates.  diffServTBParamType
+     in the first entry indicates the algorithm being used.  At each rate,
+     diffServTBParamRate is derivable from diffServTBParamBurstSize and
+     diffServTBParamInterval; a superior implementation will allow the
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  f0d5f1bd2e732111b2e94e1dc1ce9c2512e3165c0c8183e7165ae0bb4eec506c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServAlgDropQMeasure OBJECT-TYPE
+      SYNTAX       RowPointer
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "Points to an entry in the diffServQTable to indicate the queue
+         that a drop algorithm is to monitor when deciding whether to drop
+         a packet. If the row pointed to does not exist, the algorithmic
+         dropper element is considered inactive.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  e019b281448a3b124d645a930ed2dd13797cc50271ed1730b6f0ec7482871121
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An ASP MAY request modification of an existing Routing Key by
+     including a Routing Context parameter in a Registration Request
+     message.  Upon receipt of a Registration Request message containing a
+     Routing Context, if the SGP determines that the Routing Context
+     applies to an existing Routing Key, the SGP MAY adjust the existing
+     Routing Key to match the new information provided in the Routing Key
+     parameter.  A Registration Response "ERR Routing Key Change Refused"
+     is returned if the SGP does not support this re-registration
+     procedure or RC does not exist.  Otherwise, a Registration Response
+     "Successfully Registered" is returned.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

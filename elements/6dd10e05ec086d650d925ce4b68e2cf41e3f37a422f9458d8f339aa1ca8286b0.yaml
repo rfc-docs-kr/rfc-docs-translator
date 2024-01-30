@@ -1,0 +1,33 @@
+"hash": |-
+  6dd10e05ec086d650d925ce4b68e2cf41e3f37a422f9458d8f339aa1ca8286b0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  Arguments:
+   *    type, width, height: as supplied in RTP/JPEG header
+   *    lqt, cqt: quantization tables as either derived from
+   *         the Q field using MakeTables() or as specified
+   *         in section 4.2.
+   *    dri: restart interval in MCUs, or 0 if no restarts.
+   *
+   *    p: pointer to return area
+   *
+   *  Return value:
+   *    The length of the generated headers.
+   *
+   *    Generate a frame and scan headers that can be prepended to the
+   *    RTP/JPEG data payload to produce a JPEG compressed image in
+   *    interchange format (except for possible trailing garbage and
+   *    absence of an EOI marker to terminate the scan).
+   */
+  int MakeHeaders(u_char *p, int type, int w, int h, u_char *lqt,
+                  u_char *cqt, u_short dri)
+  {
+          u_char *start = p;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

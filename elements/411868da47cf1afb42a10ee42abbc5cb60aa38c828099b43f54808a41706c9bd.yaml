@@ -1,0 +1,15 @@
+"hash": |-
+  411868da47cf1afb42a10ee42abbc5cb60aa38c828099b43f54808a41706c9bd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            select (Handshake.msg_type) {
+                case client_hello:
+                     ProtocolVersion versions<2..254>;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

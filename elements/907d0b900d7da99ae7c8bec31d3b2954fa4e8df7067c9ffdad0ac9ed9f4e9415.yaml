@@ -1,0 +1,17 @@
+"hash": |-
+  907d0b900d7da99ae7c8bec31d3b2954fa4e8df7067c9ffdad0ac9ed9f4e9415
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Where certificate-based authentication is supported, the number of
+     additional roundtrips may be much larger due to fragmentation of
+     certificate chains.  In general, a fragmented EAP packet will require
+     as many round-trips to send as there are fragments.  For example, a
+     certificate chain 14960 octets in size would require ten round-trips
+     to send with a 1496 octet EAP MTU.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

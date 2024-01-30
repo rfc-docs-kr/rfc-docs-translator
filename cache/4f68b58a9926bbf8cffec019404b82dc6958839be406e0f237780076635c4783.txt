@@ -1,0 +1,1 @@
+   서버는 CLAIM_DELEGATE_PREV의 클레임 유형을 지원할 수 있지만, 지원하는 경우 SETCLIENTID_CONFIRM 시 위임을 제거해서는 안 되며, 대신 Lease_time 속성 값보다 적지 않은 기간 동안 클라이언트의 위임을 유지해야 합니다. 클라이언트가 CLAIM_DELEGATE_PREV 요청을 발행하는 데 걸리는 시간입니다. CLAIM_DELEGATE_PREV를 지원하는 서버는 DELEGPURGE 작업을 지원해야 합니다.

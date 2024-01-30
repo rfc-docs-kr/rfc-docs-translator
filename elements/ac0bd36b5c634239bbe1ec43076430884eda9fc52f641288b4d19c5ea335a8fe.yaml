@@ -1,0 +1,17 @@
+"hash": |-
+  ac0bd36b5c634239bbe1ec43076430884eda9fc52f641288b4d19c5ea335a8fe
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           o  Once in the ESTABLISHED state, it is possible to deliver
+              segment data to user RECEIVE buffers.  Data from segments
+              can be moved into buffers until either the buffer is full or
+              the segment is empty.  If the segment empties and carries a
+              PUSH flag, then the user is informed, when the buffer is
+              returned, that a PUSH has been received.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

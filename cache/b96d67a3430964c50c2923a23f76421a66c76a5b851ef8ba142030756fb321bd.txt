@@ -1,0 +1,1 @@
+   RemoteConnectionDescriptor를 수신한 연결에 신호가 적용되면 해당 신호에 의해 생성된 미디어 스트림은 현재 연결 모드(루프백 및 연속성 테스트 포함)에 관계없이 연결을 통해 전달됩니다. RemoteConnectionDescriptor가 수신되지 않은 경우 게이트웨이는 오류를 반환해야 합니다(오류 코드 527 - RemoteConnectionDescriptor 누락, 권장). 이 제한은 연결에서 이벤트를 감지하는 데 적용되지 않습니다.

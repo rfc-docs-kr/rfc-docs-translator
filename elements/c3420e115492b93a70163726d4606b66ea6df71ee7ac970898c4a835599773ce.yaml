@@ -1,0 +1,18 @@
+"hash": |-
+  c3420e115492b93a70163726d4606b66ea6df71ee7ac970898c4a835599773ce
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   A delayed ACK gives the application an opportunity to
+                   update the window and perhaps to send an immediate
+                   response.  In particular, in the case of character-mode
+                   remote login, a delayed ACK can reduce the number of
+                   segments sent by the server by a factor of 3 (ACK,
+                   window update, and echo character all combined in one
+                   segment).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

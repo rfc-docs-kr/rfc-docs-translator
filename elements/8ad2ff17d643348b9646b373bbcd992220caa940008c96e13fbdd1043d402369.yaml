@@ -1,0 +1,20 @@
+"hash": |-
+  8ad2ff17d643348b9646b373bbcd992220caa940008c96e13fbdd1043d402369
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A host receiving an EAP packet may only do one of three things with
+     it: act on it, drop it, or forward it.  The forwarding decision is
+     typically based only on examination of the Code, Identifier, and
+     Length fields.  A pass-through authenticator implementation MUST be
+     capable of forwarding EAP packets received from the peer with Code=2
+     (Response) to the backend authentication server. It also MUST be
+     capable of receiving EAP packets from the backend authentication
+     server and forwarding EAP packets of Code=1 (Request), Code=3
+     (Success), and Code=4 (Failure) to the peer.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

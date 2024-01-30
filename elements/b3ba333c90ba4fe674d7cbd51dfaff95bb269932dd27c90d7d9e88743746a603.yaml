@@ -1,0 +1,24 @@
+"hash": |-
+  b3ba333c90ba4fe674d7cbd51dfaff95bb269932dd27c90d7d9e88743746a603
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          This specification does not provide a rollover procedure for the
+          cryptographic sequence number. When the cryptographic sequence
+          number that the router is sending hits the maximum value, the
+          router should reset the cryptographic sequence number that it is
+          sending back to 0. After this is done, the router's neighbors
+          will reject the router's OSPF packets for a period of
+          RouterDeadInterval, and then the router will be forced to
+          reestablish all adjacencies over the interface. However, it is
+          expected that many implementations will use "seconds since
+          reboot" (or "seconds since 1960", etc.) as the cryptographic
+          sequence number. Such a choice will essentially prevent
+          rollover, since the cryptographic sequence number field is 32
+          bits in length.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

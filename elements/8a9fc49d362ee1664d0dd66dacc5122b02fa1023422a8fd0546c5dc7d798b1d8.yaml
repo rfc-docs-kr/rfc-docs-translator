@@ -1,0 +1,15 @@
+"hash": |-
+  8a9fc49d362ee1664d0dd66dacc5122b02fa1023422a8fd0546c5dc7d798b1d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Segmentize the buffer and send it with a piggybacked
+        acknowledgment (acknowledgment value = RCV.NXT).  If there is
+        insufficient space to remember this buffer, simply return "error:
+        insufficient resources".
+"fixed": |-
+  *  Segmentize the buffer and send it with a piggybacked acknowledgment (acknowledgment value = RCV.NXT).  If there is insufficient space to remember this buffer, simply return "error: insufficient resources".
+"ko": |-
+  * 버퍼를 분할하고 피기백 승인(승인 값 = RCV.NXT)과 함께 보냅니다. 이 버퍼를 기억할 공간이 충분하지 않은 경우 간단히 "오류: 리소스 부족"을 반환합니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  f7a30fff653b04df5bd110b082a4171e0d5d5cbcb4a79329cc451fb3797402b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          There are many possible ways of dividing up a class A, B, and C
+          network into variable sized subnets.  The precise procedure for
+          doing so is beyond the scope of this specification.  This
+          specification however establishes the following guideline: When
+          an IP packet is forwarded, it is always forwarded to the network
+          that is the best match for the packet's destination.  Here best
+          match is synonymous with the longest or most specific match.
+          For example, the default route with destination of 0.0.0.0 and
+          mask 0x00000000 is always a match for every IP destination.  Yet
+          it is always less specific than any other match.  Subnet masks
+          must be assigned so that the best match for any IP destination
+          is unambiguous.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  85bbdc0d7c773be50e8f4f6dddd51469594d5858c9a73f703733fa1752f99a30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Figure 8 provides an example of a Diameter message that caused an
+     application error.  When application errors occur, the Diameter
+     entity reporting the error clears the 'R' bit in the Command Flags
+     and adds the Result-Code AVP with the proper value.  Application
+     errors do not require any proxy or relay agent involvement;
+     therefore, the message would be forwarded back to the originator of
+     the request.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

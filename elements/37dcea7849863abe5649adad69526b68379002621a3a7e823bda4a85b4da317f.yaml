@@ -1,0 +1,15 @@
+"hash": |-
+  37dcea7849863abe5649adad69526b68379002621a3a7e823bda4a85b4da317f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a connection is closed actively, it MUST linger in the TIME-WAIT
+     state for a time 2xMSL (Maximum Segment Lifetime) (MUST-13).
+     However, it MAY accept a new SYN from the remote TCP endpoint to
+     reopen the connection directly from TIME-WAIT state (MAY-2), if it:
+"fixed": |-
+  When a connection is closed actively, it MUST linger in the TIME-WAIT state for a time 2xMSL (Maximum Segment Lifetime) (MUST-13). However, it MAY accept a new SYN from the remote TCP endpoint to reopen the connection directly from TIME-WAIT state (MAY-2), if it:
+"ko": |-
+  연결이 적극적으로 닫히면 2xMSL(최대 세그먼트 수명)(MUST-13) 시간 동안 TIME-WAIT 상태를 유지해야 합니다. 그러나 다음과 같은 경우 원격 TCP 끝점에서 새 SYN을 수락하여 TIME-WAIT 상태(MAY-2)에서 직접 연결을 다시 열 수 있습니다.

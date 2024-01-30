@@ -1,0 +1,19 @@
+"hash": |-
+  5f34fe6784fb5bd0e8bf72b3f07484f31b3dbac1536a879f70be53020a65faba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Parameter Length field contains the size of the parameter in
+        octets, including the Parameter Tag, Parameter Length, and
+        Parameter Value fields.  Thus, a parameter with a zero-length
+        Parameter Value field would have a Length field of 4.  The
+        Parameter Length does not include any padding octets.  If the
+        parameter contains subparameters, the Parameter Length field will
+        include all the octets of each subparameter, including
+        subparameter padding octets (if there are any).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

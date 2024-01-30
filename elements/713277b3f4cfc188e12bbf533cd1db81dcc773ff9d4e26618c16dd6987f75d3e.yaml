@@ -1,0 +1,23 @@
+"hash": |-
+  713277b3f4cfc188e12bbf533cd1db81dcc773ff9d4e26618c16dd6987f75d3e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMIBTBParamGroup OBJECT-GROUP
+      OBJECTS {
+                diffServTBParamNextFree, diffServTBParamType,
+                diffServTBParamRate, diffServTBParamBurstSize,
+                diffServTBParamInterval, diffServTBParamStorage,
+                diffServTBParamStatus
+      }
+      STATUS       current
+      DESCRIPTION
+         "The Token-Bucket Meter Group defines the objects used in
+         describing a token bucket meter element."
+      ::= { diffServMIBGroups 6 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

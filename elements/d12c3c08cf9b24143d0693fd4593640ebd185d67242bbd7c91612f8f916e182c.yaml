@@ -1,0 +1,23 @@
+"hash": |-
+  d12c3c08cf9b24143d0693fd4593640ebd185d67242bbd7c91612f8f916e182c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         When a MIB is used for configuration, an object with this SYNTAX
+         always contains a legal value (if non-zero) for an index that is
+         not currently used in the relevant table. The Command Generator
+         (Network Management Application) reads this variable and uses the
+         (non-zero) value read when creating a new row with an SNMP SET.
+         When the SET is performed, the Command Responder (agent) must
+         determine whether the value is indeed still unused; Two Network
+         Management Applications may attempt to create a row
+         (configuration entry) simultaneously and use the same value. If
+         it is currently unused, the SET succeeds and the Command
+         Responder (agent) changes the value of this object, according to
+         an implementation-specific algorithm.  If the value is in use,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

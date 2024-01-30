@@ -1,0 +1,20 @@
+"hash": |-
+  425e3500c23eaafd25d550b6b184f89d8473b6d7aa9a68ef63cb37f67dfab94d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      [18]This clause is only invoked when a non-backbone Area A supports
+      transit data traffic (i.e., has TransitCapability set to TRUE).  For
+      example, in the area configuration of Figure 6, Area 2 can support
+      transit traffic due to the configured virtual link between Routers
+      RT10 and RT11. As a result, Router RT11 need only originate a single
+      summary-LSA into Area 2 (having the collapsed destination N9-
+      N11,H1), since all of Router RT11's other eligible routes have next
+      hops belonging to Area 2 itself (and as such only need be advertised
+      by other area border routers; in this case, Routers RT10 and RT7).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

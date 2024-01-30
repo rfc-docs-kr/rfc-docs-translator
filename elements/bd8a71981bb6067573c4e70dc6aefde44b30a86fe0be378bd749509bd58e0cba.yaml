@@ -1,0 +1,16 @@
+"hash": |-
+  bd8a71981bb6067573c4e70dc6aefde44b30a86fe0be378bd749509bd58e0cba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Many of the cryptographic computations in TLS make use of a
+     transcript hash.  This value is computed by hashing the concatenation
+     of each included handshake message, including the handshake message
+     header carrying the handshake message type and length fields, but not
+     including record layer headers.  I.e.,
+"fixed": |-
+  Many of the cryptographic computations in TLS make use of a transcript hash.  This value is computed by hashing the concatenation of each included handshake message, including the handshake message header carrying the handshake message type and length fields, but not including record layer headers.  I.e.,
+"ko": |-
+  TLS의 많은 암호화 계산은 성적표 해시를 사용합니다. 이 값은 핸드셰이크 메시지 유형 및 길이 필드를 전달하는 핸드셰이크 메시지 헤더를 포함하지만 레코드 계층 헤더는 포함하지 않는 포함된 각 핸드셰이크 메시지의 연결을 해싱하여 계산됩니다. 즉.,

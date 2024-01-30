@@ -1,0 +1,19 @@
+"hash": |-
+  f97b492da42636c1565ad88331f396f3e659454045a98b68ce4b79c8814ce4a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Where Secret is either the early_exporter_master_secret or the
+     exporter_master_secret.  Implementations MUST use the
+     exporter_master_secret unless explicitly specified by the
+     application.  The early_exporter_master_secret is defined for use in
+     settings where an exporter is needed for 0-RTT data.  A separate
+     interface for the early exporter is RECOMMENDED; this avoids the
+     exporter user accidentally using an early exporter when a regular one
+     is desired or vice versa.
+"fixed": |-
+  Where Secret is either the early_exporter_master_secret or the exporter_master_secret.  Implementations MUST use the exporter_master_secret unless explicitly specified by the application.  The early_exporter_master_secret is defined for use in settings where an exporter is needed for 0-RTT data.  A separate interface for the early exporter is RECOMMENDED; this avoids the exporter user accidentally using an early exporter when a regular one is desired or vice versa.
+"ko": |-
+  여기서 Secret은 early_exporter_master_secret 또는 importer_master_secret입니다. 구현은 애플리케이션에서 명시적으로 지정하지 않는 한 반드시 importer_master_secret을 사용해야 합니다. early_exporter_master_secret은 0-RTT 데이터에 내보내기가 필요한 설정에 사용하도록 정의됩니다. 초기 내보내기를 위한 별도의 인터페이스를 권장합니다. 이렇게 하면 내보내기 사용자가 일반 내보내기를 원할 때 실수로 초기 내보내기를 사용하거나 그 반대의 경우도 방지할 수 있습니다.

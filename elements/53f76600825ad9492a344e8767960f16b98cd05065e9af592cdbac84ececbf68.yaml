@@ -1,0 +1,17 @@
+"hash": |-
+  53f76600825ad9492a344e8767960f16b98cd05065e9af592cdbac84ececbf68
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     struct {
+         select (PublicValueEncoding) {
+             case implicit: struct {};
+             case explicit: opaque DH_Yc<1..2^16-1>;
+         } dh_public;
+     } ClientDiffieHellmanPublic;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

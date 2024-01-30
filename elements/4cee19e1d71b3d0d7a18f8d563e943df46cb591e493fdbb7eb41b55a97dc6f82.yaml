@@ -1,0 +1,25 @@
+"hash": |-
+  4cee19e1d71b3d0d7a18f8d563e943df46cb591e493fdbb7eb41b55a97dc6f82
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       chacha20_encrypt(key, counter, nonce, plaintext):
+          for j = 0 upto floor(len(plaintext)/64)-1
+             key_stream = chacha20_block(key, counter+j, nonce)
+             block = plaintext[(j*64)..(j*64+63)]
+             encrypted_message +=  block ^ key_stream
+             end
+          if ((len(plaintext) % 64) != 0)
+             j = floor(len(plaintext)/64)
+             key_stream = chacha20_block(key, counter+j, nonce)
+             block = plaintext[(j*64)..len(plaintext)-1]
+             encrypted_message += (block^key_stream)[0..len(plaintext)%64]
+             end
+          return encrypted_message
+          end
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

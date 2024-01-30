@@ -1,0 +1,20 @@
+"hash": |-
+  56182aa0c76d91f27b1f4cbfd43237ae34b216909d732a4f56d3a3cd16728c66
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Media Gateway Controller may return an ServiceChangeMgcId
+     parameter that describes the Media Gateway Controller that should
+     preferably be contacted for further service by the Media Gateway. In
+     this case the Media Gateway shall reissue the ServiceChange command
+     to the new Media Gateway Controller.   The Gateway specified in an
+     ServiceChangeMgcId, if provided, shall be contacted before any
+     further alternate MGCs.  On a HandOff message from MGC to MG, the
+     ServiceChangeMgcId is the new MGC that will take over from the
+     current MGC.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

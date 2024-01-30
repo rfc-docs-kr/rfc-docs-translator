@@ -1,0 +1,21 @@
+"hash": |-
+  d974ab75cc180a53500ff2dced362e93331f630c64af81b6b0fc2541e6f9cfbd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o  As a performance optimization, false negatives are acceptable.
+           It is not an absolute requirement that this optimization
+           correctly recognize a previously visited link in all possible
+           cases.  For example, if a router ignores unicast ARP Requests,
+           then DNAv4 will not be able to detect that it has returned to
+           the same link in the future.  This is acceptable because the
+           host still operates correctly as it did without DNAv4, just
+           without the performance benefit.  Users and network operators
+           who desire the performance improvement offered by DNAv4 can
+           upgrade their routers to support DNAv4.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

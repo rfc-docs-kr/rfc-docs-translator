@@ -1,0 +1,21 @@
+"hash": |-
+  672def981ba6b9384745a33721b1e4c08ce7cf02a91710035c5713849879ac7b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The process of negotiating client certificate-based mutual TLS
+     involves a TLS server requesting a certificate from the TLS client
+     (the client does not provide one unsolicited).  Although a server can
+     be configured such that client certificates are optional, meaning
+     that the connection is allowed to continue when the client does not
+     provide a certificate, the act of a server requesting a certificate
+     can result in undesirable behavior from some clients.  This is
+     particularly true of web browsers as TLS clients, which will
+     typically present the end user with an intrusive certificate
+     selection interface when the server requests a certificate.
+"fixed": |-
+  The process of negotiating client certificate-based mutual TLS involves a TLS server requesting a certificate from the TLS client (the client does not provide one unsolicited).  Although a server can be configured such that client certificates are optional, meaning that the connection is allowed to continue when the client does not provide a certificate, the act of a server requesting a certificate can result in undesirable behavior from some clients.  This is particularly true of web browsers as TLS clients, which will typically present the end user with an intrusive certificate selection interface when the server requests a certificate.
+"ko": |-
+  클라이언트 인증서 기반 상호 TLS를 협상하는 프로세스에는 TLS 서버가 TLS 클라이언트로부터 인증서를 요청하는 과정이 포함됩니다(클라이언트는 원치 않는 인증서를 제공하지 않습니다). 클라이언트 인증서가 선택 사항이 되도록 서버를 구성할 수 있지만(클라이언트가 인증서를 제공하지 않아도 연결이 계속 허용됨을 의미) 인증서를 요청하는 서버의 동작으로 인해 일부 클라이언트에서 바람직하지 않은 동작이 발생할 수 있습니다. 이는 TLS 클라이언트인 웹 브라우저의 경우 특히 그렇습니다. 이는 일반적으로 서버가 인증서를 요청할 때 최종 사용자에게 침입적인 인증서 선택 인터페이스를 제공합니다.

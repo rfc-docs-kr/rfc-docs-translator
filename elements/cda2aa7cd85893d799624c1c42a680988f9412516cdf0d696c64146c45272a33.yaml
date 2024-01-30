@@ -1,0 +1,17 @@
+"hash": |-
+  cda2aa7cd85893d799624c1c42a680988f9412516cdf0d696c64146c45272a33
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Diffie-Hellman [DH76] parameters for both clients and servers are
+     encoded in the opaque key_exchange field of a KeyShareEntry in a
+     KeyShare structure.  The opaque value contains the Diffie-Hellman
+     public value (Y = g^X mod p) for the specified group (see [RFC7919]
+     for group definitions) encoded as a big-endian integer and padded to
+     the left with zeros to the size of p in bytes.
+"fixed": |-
+  Diffie-Hellman [DH76] parameters for both clients and servers are encoded in the opaque key_exchange field of a KeyShareEntry in a KeyShare structure.  The opaque value contains the Diffie-Hellman public value (Y = g^X mod p) for the specified group (see [RFC7919] for group definitions) encoded as a big-endian integer and padded to the left with zeros to the size of p in bytes.
+"ko": |-
+  클라이언트와 서버 모두에 대한 Diffie-Hellman [DH76] 매개변수는 KeyShare 구조에 있는 KeyShareEntry의 불투명 key_exchange 필드에 인코딩됩니다. 불투명 값에는 빅 엔디안 정수로 인코딩된 지정된 그룹(그룹 정의는 [RFC7919] 참조)에 대한 Diffie-Hellman 공개 값(Y = g^X mod p)이 포함되며 왼쪽에는 다음 크기만큼 0이 채워집니다. p(바이트)입니다.

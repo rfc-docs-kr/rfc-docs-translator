@@ -1,0 +1,1 @@
+   성공적으로 완료된(GOOD, CONDITION MET, INTERMEDIATE 또는 INTERMEDIATE-CONDITION MET 상태) SCSI 명령에 대해 대상에서 개시자로 전송된 마지막 SCSI 데이터 패킷에는 선택적으로 데이터 전송 상태가 포함될 수도 있습니다. 이 경우 Command Status와 함께 Sense Data를 전송할 수 없습니다. 명령이 오류와 함께 완료되면 응답 및 감지 데이터는 SCSI 응답 PDU로 전송되어야 합니다(즉, SCSI 데이터 패킷으로 전송되어서는 안 됩니다). 양방향 명령의 경우 상태는 SCSI 응답 PDU로 전송되어야 합니다.

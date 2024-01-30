@@ -1,0 +1,25 @@
+"hash": |-
+  7661ecf62cf526f8ff2365fcfddc60f2a9d17f955ffad9eeec405747c592c79b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The <lock> operation will demonstrate that NETCONF is intended for
+     use by systems that have at least some trust of the administrator.
+     As specified in this document, it is possible to lock portions of a
+     configuration that a principal might not otherwise have access to.
+     After all, the entire configuration is locked.  To mitigate this
+     problem, there are two approaches.  It is possible to kill another
+     NETCONF session programmatically from within NETCONF if one knows the
+     session identifier of the offending session.  The other possible way
+     to break a lock is to provide a function within the device's native
+     user interface.  These two mechanisms suffer from a race condition
+     that could be ameliorated by removing the offending user from an
+     Authentication, Authorization, and Accounting (AAA) server.  However,
+     such a solution is not useful in all deployment scenarios, such as
+     those where SSH public/private key pairs are used.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

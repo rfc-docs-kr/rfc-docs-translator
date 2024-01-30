@@ -1,0 +1,16 @@
+"hash": |-
+  7f4d4387a930b307476b72a4eca341511fd0e6d48e9002942cd70ea4ab1cb6fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The maximum size of a segment that a TCP endpoint really sends, the
+     "effective send MSS", MUST be the smaller (MUST-16) of the send MSS
+     (that reflects the available reassembly buffer size at the remote
+     host, the EMTU_R [19]) and the largest transmission size permitted by
+     the IP layer (EMTU_S [19]):
+"fixed": |-
+  The maximum size of a segment that a TCP endpoint really sends, the "effective send MSS", MUST be the smaller (MUST-16) of the send MSS (that reflects the available reassembly buffer size at the remote host, the EMTU_R [19]) and the largest transmission size permitted by the IP layer (EMTU_S [19]):
+"ko": |-
+  TCP 엔드포인트가 실제로 전송하는 세그먼트의 최대 크기인 "유효 전송 MSS"는 전송 MSS보다 더 작아야 합니다(MUST-16). 이는 원격 호스트에서 사용 가능한 리어셈블리 버퍼 크기인 EMTU_R을 반영합니다. ]) 및 IP 계층에서 허용하는 최대 전송 크기(EMTU_S [19]):

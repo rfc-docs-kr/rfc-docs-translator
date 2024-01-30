@@ -1,0 +1,1 @@
+   이 일반 전략은 SRV 및 TLSA 레코드에 대해 DNS에서 사용하는 특수 레이블과 호환되지 않습니다. 따라서 GNS는 SRV 및 TLSA 레코드를 박스업하고 연결된 레이블의 레코드 세트에 포함시키기 위해 BOX 레코드 형식을 정의합니다. 예를 들어 "_https._tcp.example.org"에 대한 TLSA 레코드는 서비스(SVC) 443(https), 프로토콜(PROTO) 6(tcp)을 사용하는 BOX 레코드로 "example.org" 레코드 세트에 저장됩니다. ), TYPE "TLSA"를 기록합니다. 참고로 [RFC2782]도 참조하세요. BOX DATA 항목은 그림 17에 나와 있습니다.

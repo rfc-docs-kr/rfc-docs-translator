@@ -1,0 +1,19 @@
+"hash": |-
+  7fada47a97f6a92493b786d22caf0c5f3ebee7adeee4d5731afa8d2984f541a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Figure 7 provides an example of a message forwarded upstream by a
+     Diameter relay.  When the message is received by Relay 2, and it
+     detects that it cannot forward the request to the home server, an
+     answer message is returned with the 'E' bit set and the Result-Code
+     AVP set to DIAMETER_UNABLE_TO_DELIVER.  Given that this error falls
+     within the protocol error category, Relay 1 would take special
+     action, and given the error, attempt to route the message through its
+     alternate Relay 3.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

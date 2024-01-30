@@ -1,0 +1,1 @@
+   클라이언트는 두 개의 "highest_slotid" 값인 csr_highest_slotid 및 csr_target_highest_slotid를 반환합니다. 전자는 클라이언트가 향후 CB_SEQUENCE 작업에서 허용할 가장 높은 슬롯 ID이며 csa_highest_slotid 값보다 작아서는 안 됩니다(그러나 예외는 섹션 2.10.6.1 참조). 후자는 클라이언트가 향후 CB_SEQUENCE 작업에서 서버 사용을 선호하는 가장 높은 슬롯 ID입니다.

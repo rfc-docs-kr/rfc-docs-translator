@@ -1,0 +1,22 @@
+"hash": |-
+  31e01d197af9027f4aa1ee90fc7c2c22a8962f37f1d295fdc94d2ee656c3e7ec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A classifier element is a structural element, indexed by classifier
+     ID and element ID.  It has a precedence value, allowing for
+     structured ambiguity as described above, a "specific" pointer that
+     identifies what rule is to be applied, and a "next" pointer directing
+     traffic matching the classifier to the next functional data path
+     element.  If the "next" pointer is zeroDotZero, the indication is
+     that there is no further differentiated services processing for this
+     behavior aggregate.  However, if the "specific" pointer is
+     zeroDotZero, the device is misconfigured.  In such a case, the
+     classifier element should be operationally treated as if it were not
+     present.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,14 @@
+"hash": |-
+  ea8298ab9f76d01c8e4b99c1e0228f7ef694ea4d59baef54c2372bd86767d51a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  If the negotiated key exchange algorithm is one of (RSA, DHE_RSA,
+        DH_RSA, RSA_PSK, ECDH_RSA, ECDHE_RSA), behave as if client had
+        sent the value {sha1,rsa}.
+"fixed": |-
+  -  If the negotiated key exchange algorithm is one of (RSA, DHE_RSA, DH_RSA, RSA_PSK, ECDH_RSA, ECDHE_RSA), behave as if client had sent the value {sha1,rsa}.
+"ko": |-
+  - 협상된 키 교환 알고리즘이 (RSA, DHE_RSA, DH_RSA, RSA_PSK, ECDH_RSA, ECDHE_RSA) 중 하나인 경우 클라이언트가 {sha1,rsa} 값을 보낸 것처럼 동작합니다.

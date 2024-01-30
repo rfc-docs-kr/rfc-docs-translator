@@ -1,0 +1,16 @@
+"hash": |-
+  36ff397d5de5791ab175c66c7e6e3f9c75dc993b6154bbd5f6fddca89be90023
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Both the client and the server MUST know if there is a TLS session
+     active.  A client MUST NOT attempt to start a TLS session if a TLS
+     session is already active.  A server MUST NOT return the STARTTLS
+     extension in response to an EHLO command received after a TLS
+     handshake has completed.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

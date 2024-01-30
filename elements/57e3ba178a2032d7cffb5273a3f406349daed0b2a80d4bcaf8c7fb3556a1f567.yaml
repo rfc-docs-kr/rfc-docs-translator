@@ -1,0 +1,21 @@
+"hash": |-
+  57e3ba178a2032d7cffb5273a3f406349daed0b2a80d4bcaf8c7fb3556a1f567
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     {
+          transactionId           TransactionId,
+          immAckRequired          NULL OPTIONAL,  transactionResult
+          CHOICE
+          {
+               transactionError   ErrorDescriptor,
+               actionReplies      SEQUENCE OF ActionReply
+          },
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

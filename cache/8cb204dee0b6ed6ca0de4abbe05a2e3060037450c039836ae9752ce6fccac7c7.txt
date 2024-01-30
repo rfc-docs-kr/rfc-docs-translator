@@ -1,0 +1,1 @@
+   재협상을 선택한 클라이언트는 ClientHello에서 TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV 또는 "renegotiation_info"를 제공해야 합니다. 업그레이드되지 않은 서버와의 합법적인 재협상에서 해당 서버는 이 두 신호를 모두 무시해야 합니다. 그러나 서버가 (잘못) 확장을 무시하지 못하는 경우 "renegotiation_info" 확장을 보내면 핸드셰이크 실패가 발생할 수 있습니다. 따라서 클라이언트가 단순히 SCSV를 보내는 것은 권장되지는 않지만 허용됩니다. 이것은 클라이언트가 재협상에 사용되는 ClientHello에서 "renegotiation_info" 확장을 보내지 않도록 허용되는 유일한 상황입니다.

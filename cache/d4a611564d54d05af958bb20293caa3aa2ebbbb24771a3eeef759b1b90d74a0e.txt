@@ -1,0 +1,1 @@
+POLYVAL(H, X_1, X_2, ...)은 ByteReverse(GHASH(ByteReverse(H) * x, ByteReverse(X_1), ByteReverse(X_2), ...))와 같습니다. 여기서 ByteReverse는 함수입니다. 16바이트의 순서가 바뀌는 것입니다. 자세한 설명은 부록 A를 참조하세요.

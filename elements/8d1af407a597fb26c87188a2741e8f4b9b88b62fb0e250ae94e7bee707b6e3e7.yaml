@@ -1,0 +1,20 @@
+"hash": |-
+  8d1af407a597fb26c87188a2741e8f4b9b88b62fb0e250ae94e7bee707b6e3e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CHOOSE wildcard in a topology descriptor matches the
+     TerminationID that the MG assigns in the first Add command that uses
+     a CHOOSE wildcard in the same action.  An existing Termination that
+     matches T1 or T2 in the Context to which a Termination is added, is
+     connected to the newly added Termination as specified by the topology
+     descriptor. The default association when a termination is not
+     mentioned in the Topology descriptor is bothway (if T3 is added to a
+     context with T1 and T2 with topology (T3,T1,oneway) it will be
+     connected bothway to T2).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

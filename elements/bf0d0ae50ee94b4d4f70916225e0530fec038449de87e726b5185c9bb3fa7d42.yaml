@@ -1,0 +1,17 @@
+"hash": |-
+  bf0d0ae50ee94b4d4f70916225e0530fec038449de87e726b5185c9bb3fa7d42
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  If repeated retransmissions do not result in a response, and the
+        PMTU is unknown, subsequent retransmissions SHOULD back off to a
+        smaller record size, fragmenting the handshake message as
+        appropriate.  This standard does not specify an exact number of
+        retransmits to attempt before backing off, but 2-3 seems
+        appropriate.
+"fixed": |-
+  -  If repeated retransmissions do not result in a response, and the PMTU is unknown, subsequent retransmissions SHOULD back off to a smaller record size, fragmenting the handshake message as appropriate.  This standard does not specify an exact number of retransmits to attempt before backing off, but 2-3 seems appropriate.
+"ko": |-
+  - 반복된 재전송이 응답을 가져오지 않고 PMTU를 알 수 없는 경우 후속 재전송은 더 작은 레코드 크기로 백오프하여 핸드셰이크 메시지를 적절하게 조각화해야 합니다. 이 표준은 백오프 전 시도할 정확한 재전송 횟수를 지정하지 않지만 2~3회가 적절해 보입니다.

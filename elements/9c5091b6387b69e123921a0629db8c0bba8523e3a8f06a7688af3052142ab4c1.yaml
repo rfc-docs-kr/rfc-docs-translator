@@ -1,0 +1,15 @@
+"hash": |-
+  9c5091b6387b69e123921a0629db8c0bba8523e3a8f06a7688af3052142ab4c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients SHOULD abort the handshake if the server acknowledges the
+     ALPN extension but does not select a protocol from the client list.
+     Failure to do so can result in attacks such those described in
+     [ALPACA].
+"fixed": |-
+  Clients SHOULD abort the handshake if the server acknowledges the ALPN extension but does not select a protocol from the client list. Failure to do so can result in attacks such those described in [ALPACA].
+"ko": |-
+  서버가 ALPN 확장을 승인했지만 클라이언트 목록에서 프로토콜을 선택하지 않은 경우 클라이언트는 핸드셰이크를 중단해야 합니다. 그렇게 하지 않으면 [ALPACA]에 설명된 것과 같은 공격이 발생할 수 있습니다.

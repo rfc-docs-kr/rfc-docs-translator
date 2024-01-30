@@ -1,0 +1,1 @@
+   무작위 48바이트 pre_master_secret은 TEK 및 해당 IV에서 암호화되어 전송됩니다. 서버는 pre_master_secret을 해독하고 위에 지정된 대로 master_secret으로 변환합니다. 암호화를 위한 대량 암호 키 및 IV는 클라이언트의 토큰에 의해 생성되고 키 교환 메시지에서 교환됩니다. master_secret은 MAC 계산에만 사용됩니다.

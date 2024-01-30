@@ -1,0 +1,16 @@
+"hash": |-
+  1742561103183c91ed3502761e4f0fbf6b5bfa841698fa59f14eb971dfa2de3c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A path segment that contains a colon character (e.g., "this:that")
+     cannot be used as the first segment of a relative-path reference, as
+     it would be mistaken for a scheme name.  Such a segment must be
+     preceded by a dot-segment (e.g., "./this:that") to make a relative-
+     path reference.
+"fixed": |-
+  A path segment that contains a colon character (e.g., "this:that") cannot be used as the first segment of a relative-path reference, as it would be mistaken for a scheme name.  Such a segment must be preceded by a dot-segment (e.g., "./this:that") to make a relative- path reference.
+"ko": |-
+  콜론 문자(예: "this:that")가 포함된 경로 세그먼트는 체계 이름으로 오해될 수 있으므로 상대 경로 참조의 첫 번째 세그먼트로 사용할 수 없습니다. 상대 경로 참조를 만들려면 이러한 세그먼트 앞에 점 세그먼트(예: "./this:that")가 와야 합니다.

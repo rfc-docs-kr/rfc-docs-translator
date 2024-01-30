@@ -1,0 +1,19 @@
+"hash": |-
+  acc9a0cc22e22eb7e262ace2c51017e5481e1a7e015a3d6a57782450ce1eb306
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (3) Call the destination described by the LSA N.  N's address is
+              obtained by masking the LSA's Link State ID with the
+              network/subnet mask contained in the body of the LSA.  Look
+              up the routing table entries (potentially one per attached
+              area) for the AS boundary router (ASBR) that originated the
+              LSA. If no entries exist for router ASBR (i.e., ASBR is
+              unreachable), do nothing with this LSA and consider the next
+              in the list.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

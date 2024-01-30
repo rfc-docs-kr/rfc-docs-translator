@@ -1,0 +1,24 @@
+"hash": |-
+  86917cdc8eb6f8f1c61c8c2f8444447d8cacc005f52a4b2a0d08371799485474
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Multimedia gateways may process multiplexed media streams.  For
+     example, Recommendation H.221 describes a frame structure for
+     multiple media streams multiplexed on a number of digital 64 kbit/s
+     channels.  Such a case is handled in the connection model in the
+     following way.  For every bearer channel that carries part of the
+     multiplexed streams, there is a Termination.  The Terminations that
+     source/sink the digital channels are connected to a separate
+     Termination called the multiplexing Termination. This Termination
+     describes the multiplex used (e.g. how the H.221 frames are carried
+     over the digital channels used).  The MuxDescriptor is used to this
+     end.  If multiple media are carried, this Termination contains
+     multiple StreamDescriptors. The media streams can be associated with
+     streams sourced/sunk by other Terminations in the Context.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   동적 테이블에는 HPACK 디코더에서 설정한 최대 크기가 있습니다. 끝점은 SETTINGS_HEADER_TABLE_SIZE 설정을 사용하여 HPACK 디코더 컨텍스트에서 선택한 크기를 전달합니다. 섹션 6.5.2를 참조하십시오. 연결이 설정되면 두 끝점에서 HPACK 디코더 및 인코더의 동적 테이블 크기는 SETTINGS_HEADER_TABLE_SIZE 설정의 초기 값인 4,096바이트에서 시작합니다.

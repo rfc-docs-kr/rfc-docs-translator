@@ -1,0 +1,17 @@
+"hash": |-
+  6884542f7f1fa10e990773d392f84dd8651e7467d85bdbf38e4145474f3ff5f5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         Setting this to point to a target that does not exist results in
+         an inconsistentValue error.  If the row pointed to is removed or
+         becomes inactive by other means, the treatment is as if this
+         attribute contains a value of zeroDotZero."
+      DEFVAL       { zeroDotZero }
+      ::= { diffServSchedulerEntry 2 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

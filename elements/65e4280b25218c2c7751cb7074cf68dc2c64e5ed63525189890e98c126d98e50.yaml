@@ -1,0 +1,19 @@
+"hash": |-
+  65e4280b25218c2c7751cb7074cf68dc2c64e5ed63525189890e98c126d98e50
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              A Destination Unreachable message that is received MUST be
+              reported to the transport layer.  The transport layer SHOULD
+              use the information appropriately; for example, see Sections
+              4.1.3.3, 4.2.3.9, and 4.2.4 below.  A transport protocol
+              that has its own mechanism for notifying the sender that a
+              port is unreachable (e.g., TCP, which sends RST segments)
+              MUST nevertheless accept an ICMP Port Unreachable for the
+              same purpose.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

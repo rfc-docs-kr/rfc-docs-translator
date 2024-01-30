@@ -1,0 +1,59 @@
+"hash": |-
+  5128d608016e5c2e9f36f9af004f094308858017ced56f68052b44e3c40ad00f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   minOccurs="0" maxOccurs="unbounded"/>
+         </xs:sequence>
+       </xs:complexType>
+       <xs:complexType name="rpcErrorType">
+         <xs:sequence>
+           <xs:element name="error-type" type="ErrorType"/>
+           <xs:element name="error-tag" type="ErrorTag"/>
+           <xs:element name="error-severity" type="ErrorSeverity"/>
+           <xs:element name="error-app-tag" type="xs:string"
+                       minOccurs="0"/>
+           <xs:element name="error-path" type="xs:string" minOccurs="0"/>
+           <xs:element name="error-message" minOccurs="0">
+             <xs:complexType>
+               <xs:simpleContent>
+                 <xs:extension base="xs:string">
+                   <xs:attribute ref="xml:lang" use="optional"/>
+                 </xs:extension>
+               </xs:simpleContent>
+             </xs:complexType>
+           </xs:element>
+           <xs:element name="error-info" type="errorInfoType"
+                       minOccurs="0"/>
+         </xs:sequence>
+       </xs:complexType>
+       <!--
+          operation attribute used in <edit-config>
+         -->
+       <xs:simpleType name="editOperationType">
+         <xs:restriction base="xs:string">
+           <xs:enumeration value="merge"/>
+           <xs:enumeration value="replace"/>
+           <xs:enumeration value="create"/>
+           <xs:enumeration value="delete"/>
+           <xs:enumeration value="remove"/>
+         </xs:restriction>
+       </xs:simpleType>
+       <xs:attribute name="operation" type="editOperationType"/>
+       <!--
+          <rpc-reply> element
+         -->
+       <xs:complexType name="rpcReplyType">
+         <xs:choice>
+           <xs:element name="ok"/>
+           <xs:sequence>
+             <xs:element ref="rpc-error"
+                         minOccurs="0" maxOccurs="unbounded"/>
+             <xs:element ref="rpcResponse"
+                         minOccurs="0" maxOccurs="unbounded"/>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

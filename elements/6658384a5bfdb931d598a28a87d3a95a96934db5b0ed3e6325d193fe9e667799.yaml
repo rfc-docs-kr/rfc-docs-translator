@@ -1,0 +1,24 @@
+"hash": |-
+  6658384a5bfdb931d598a28a87d3a95a96934db5b0ed3e6325d193fe9e667799
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Loading or Full
+              In this state, the router has sent and received an entire
+              sequence of Database Description Packets.  The only packets
+              received should be duplicates (see above).  In particular,
+              the packet's Options field should match the set of optional
+              OSPF capabilities previously indicated by the neighbor
+              (stored in the neighbor structure's Neighbor Options field).
+              Any other packets received, including the reception of a
+              packet with the Initialize(I) bit set, should generate the
+              neighbor event SeqNumberMismatch.[8] Duplicates should be
+              discarded by the master.  The slave must respond to
+              duplicates by repeating the last Database Description packet
+              that it had sent.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

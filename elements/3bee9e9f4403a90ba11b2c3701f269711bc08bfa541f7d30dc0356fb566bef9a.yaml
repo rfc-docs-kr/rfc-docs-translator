@@ -1,0 +1,29 @@
+"hash": |-
+  3bee9e9f4403a90ba11b2c3701f269711bc08bfa541f7d30dc0356fb566bef9a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a Diameter server authorizes a user to implement network
+     resources for a finite amount of time, and it is willing to extend
+     the authorization via a future request, it MUST add the
+     Authorization- Lifetime AVP to the answer message.  The
+     Authorization-Lifetime AVP defines the maximum number of seconds a
+     user MAY make use of the resources before another authorization
+     request is expected by the server.  The Auth-Grace-Period AVP
+     contains the number of seconds following the expiration of the
+     Authorization-Lifetime, after which the server will release all state
+     information related to the user's session.  Note that if payment for
+     services is expected by the serving realm from the user's home realm,
+     the Authorization-Lifetime AVP, combined with the Auth-Grace-Period
+     AVP, implies the maximum length of the session for which the home
+     realm is willing to be fiscally responsible.  Services provided past
+     the expiration of the Authorization-Lifetime and Auth-Grace-Period
+     AVPs are the responsibility of the access device.  Of course, the
+     actual cost of services rendered is clearly outside the scope of the
+     protocol.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

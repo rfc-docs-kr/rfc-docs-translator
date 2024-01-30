@@ -1,0 +1,18 @@
+"hash": |-
+  57b1d815d6c11f46cb94ae1f66a5460e5dc6f6db1d5a8d8652dc805579d109cb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Backbone-partitioned stubs should behave as though they were a non-
+     partitioned stub. That is, the routers in all partitions should
+     maintain routes to the local address spaces of all partitions. Of
+     course, the (public) backbones do not maintain routes to any local
+     addresses. Therefore, the border routers must tunnel (using VPNs)
+     through the backbones using encapsulation.  To do this, each NAT box
+     will set aside a global address for tunneling.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

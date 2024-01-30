@@ -1,0 +1,19 @@
+"hash": |-
+  da07c77186df5b3ade638957f3a6e8a2c4a67b2b142aac77da5b56f7059b304e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AVP Code numbering space of all AVPs included in a Grouped AVP is
+     the same as for non-Grouped AVPs.  Receivers of a Grouped AVP that
+     does not have the 'M' (mandatory) bit set and one or more of the
+     encapsulated AVPs within the group has the 'M' (mandatory) bit set
+     MAY simply be ignored if the Grouped AVP itself is unrecognized.  The
+     rule applies even if the encapsulated AVP with its 'M' (mandatory)
+     bit set is further encapsulated within other sub-groups, i.e., other
+     Grouped AVPs embedded within the Grouped AVP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

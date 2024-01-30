@@ -1,0 +1,21 @@
+"hash": |-
+  be10ff71567aa79da2191de4d93d004ddfa20acdfb8b6d1c880500e9a20302c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A new SignalsDescriptor replaces any existing SignalsDescriptor. Any
+     signals applied to the Termination not in the replacement descriptor
+     shall be stopped, and new signals are applied, except as follows.
+     Signals present in the replacement descriptor and containing the
+     KeepActive flagshall be continued if they are currently playing and
+     have not already completed.  If a replacement signal descriptor
+     contains a signal that is not currently playing and contains the
+     KeepActive flag, that signal SHALL be ignored.  If the replacement
+     descriptor contains a sequential signal list with the same identifier
+     as the existing descriptor, then
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

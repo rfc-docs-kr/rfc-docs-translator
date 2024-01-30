@@ -1,0 +1,18 @@
+"hash": |-
+  539bba03fa986b3aff51e99dde5109ba2b39ca03f480db70db80d37243e021ec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     These additional IP address formats are not allowed in the URI syntax
+     due to differences between platform implementations.  However, they
+     can become a security concern if an application attempts to filter
+     access to resources based on the IP address in string literal format.
+     If this filtering is performed, literals should be converted to
+     numeric form and filtered based on the numeric value, and not on a
+     prefix or suffix of the string form.
+"fixed": |-
+  These additional IP address formats are not allowed in the URI syntax due to differences between platform implementations.  However, they can become a security concern if an application attempts to filter access to resources based on the IP address in string literal format. If this filtering is performed, literals should be converted to numeric form and filtered based on the numeric value, and not on a prefix or suffix of the string form.
+"ko": |-
+  이러한 추가 IP 주소 형식은 플랫폼 구현 간의 차이로 인해 URI 구문에서 허용되지 않습니다. 그러나 애플리케이션이 문자열 리터럴 형식의 IP 주소를 기반으로 리소스에 대한 액세스를 필터링하려고 시도하는 경우 보안 문제가 될 수 있습니다. 이 필터링을 수행하는 경우 리터럴은 숫자 형식으로 변환되어야 하며 문자열 형식의 접두사 또는 접미사가 아닌 숫자 값을 기준으로 필터링되어야 합니다.

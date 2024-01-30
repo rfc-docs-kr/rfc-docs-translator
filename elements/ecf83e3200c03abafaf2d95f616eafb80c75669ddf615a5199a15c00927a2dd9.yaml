@@ -1,0 +1,24 @@
+"hash": |-
+  ecf83e3200c03abafaf2d95f616eafb80c75669ddf615a5199a15c00927a2dd9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       length_block =
+           little_endian_uint64(bytelen(additional_data) * 8) ++
+           little_endian_uint64(bytelen(plaintext) * 8)
+       padded_plaintext = right_pad_to_multiple_of_16_bytes(plaintext)
+       padded_ad = right_pad_to_multiple_of_16_bytes(additional_data)
+       S_s = POLYVAL(key = message_authentication_key,
+                     input = padded_ad ++ padded_plaintext ++
+                             length_block)
+       for i = 0; i < 12; i++ {
+         S_s[i] ^= nonce[i]
+       }
+       S_s[15] &= 0x7f
+       tag = AES(key = message_encryption_key, block = S_s)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

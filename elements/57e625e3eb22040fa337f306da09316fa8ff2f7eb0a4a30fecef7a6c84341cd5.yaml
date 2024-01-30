@@ -1,0 +1,18 @@
+"hash": |-
+  57e625e3eb22040fa337f306da09316fa8ff2f7eb0a4a30fecef7a6c84341cd5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Often the fact that the extension fields are included in the
+        inputs to the Finished message hashes will be sufficient, but
+        extreme care is needed when the extension changes the meaning of
+        messages sent in the handshake phase.  Designers and implementors
+        should be aware of the fact that until the handshake has been
+        authenticated, active attackers can modify messages and insert,
+        remove, or replace extensions.
+"fixed": |-
+  - Often the fact that the extension fields are included in the inputs to the Finished message hashes will be sufficient, but extreme care is needed when the extension changes the meaning of messages sent in the handshake phase.  Designers and implementors should be aware of the fact that until the handshake has been authenticated, active attackers can modify messages and insert, remove, or replace extensions.
+"ko": |-
+  - 확장 필드가 완료된 메시지 해시에 대한 입력에 포함되어 있다는 사실만으로도 충분하지만 확장이 핸드셰이크 단계에서 전송된 메시지의 의미를 변경할 때는 극도의 주의가 필요합니다. 설계자와 구현자는 핸드셰이크가 인증될 때까지 적극적인 공격자가 메시지를 수정하고 확장을 삽입, 제거 또는 교체할 수 있다는 사실을 알고 있어야 합니다.

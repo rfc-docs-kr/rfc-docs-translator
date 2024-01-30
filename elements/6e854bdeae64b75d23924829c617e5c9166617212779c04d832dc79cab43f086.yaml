@@ -1,0 +1,25 @@
+"hash": |-
+  6e854bdeae64b75d23924829c617e5c9166617212779c04d832dc79cab43f086
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The dynamic address discovery procedure is to broadcast an ARP
+        request.  To limit the number of all rings broadcasts to a
+        minimum, it is desirable (though not required) that an ARP request
+        first be sent as an all-stations broadcast, without a Routing
+        Information Field (RIF).  If the all-stations (local ring)
+        broadcast is not supported or if the all-stations broadcast is
+        unsuccessful after some reasonable time has elapsed, then send the
+        ARP request as an all-routes or single-route broadcast with an
+        empty RIF (no routing designators).  An all-routes broadcast is
+        preferable since it yields an amount of fault tolerance.  In an
+        environment with multiple redundant bridges, all-routes broadcast
+        allows operation in spite of spanning-tree bridge failures.
+        However, single-route broadcasts may be used if IP and ARP must
+        use the same broadcast method.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

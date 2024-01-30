@@ -1,0 +1,16 @@
+"hash": |-
+  2142ca45db45230a5082f6ed7f8c7ae8b8b2a9541732261147157b63000574bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The HMAC field in TWAMP-Test packets covers the same fields as the
+     Advanced Encryption Standard (AES) encryption.  Thus, in
+     authenticated mode, HMAC covers the first block (16 octets); in
+     encrypted mode, HMAC covers the first six blocks (96 octets).  In
+     TWAMP-Test, the HMAC field MUST NOT be encrypted.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

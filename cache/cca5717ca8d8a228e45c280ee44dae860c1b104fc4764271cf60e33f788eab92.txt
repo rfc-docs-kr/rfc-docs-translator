@@ -1,0 +1,1 @@
+   개시자가 iSCSI 보안을 협상할 의향이 있지만 초기 매개변수 제안을 할 의향이 없고 iSCSI 보안 없이 연결을 수락할 수 있는 경우 T 비트가 1로 설정되고 CSG가 SecurityNegotiation으로 설정되고 NSG가 설정된 로그인을 발행합니다. LoginOperationalNegotiation에. 대상이 보안을 건너뛸 준비가 된 경우 로그인 응답에는 TargetPortalGroupTag 키(섹션 13.9 참조), T 비트가 1로 설정, CSG는 SecurityNegotiation으로 설정, NSG는 LoginOperationalNegotiation으로 설정만 포함됩니다.

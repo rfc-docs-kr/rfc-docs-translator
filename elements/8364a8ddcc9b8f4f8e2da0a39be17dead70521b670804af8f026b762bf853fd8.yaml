@@ -1,0 +1,19 @@
+"hash": |-
+  8364a8ddcc9b8f4f8e2da0a39be17dead70521b670804af8f026b762bf853fd8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     dc_cert_verify_algorithm:  The signature algorithm of the Credential
+        key pair, where the type SignatureScheme is as defined in
+        [RFC8446].  This is expected to be the same as the sender's
+        CertificateVerify.algorithm (as described in Section 4.1.3).
+        When using RSA, the public key MUST NOT use the rsaEncryption OID.
+        As a result, the following algorithms are not allowed for use with
+        delegated credentials: rsa_pss_rsae_sha256, rsa_pss_rsae_sha384,
+        and rsa_pss_rsae_sha512.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

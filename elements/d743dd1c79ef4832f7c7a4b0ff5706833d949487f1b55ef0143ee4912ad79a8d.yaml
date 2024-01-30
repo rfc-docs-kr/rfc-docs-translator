@@ -1,0 +1,19 @@
+"hash": |-
+  d743dd1c79ef4832f7c7a4b0ff5706833d949487f1b55ef0143ee4912ad79a8d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some transports, such as DCCP, provide congestion control for traffic
+     carried over them.  If the congestion window is sufficiently narrow,
+     DTLS handshake retransmissions may be held rather than transmitted
+     immediately, potentially leading to timeouts and spurious
+     retransmission.  When DTLS is used over such transports, care should
+     be taken not to overrun the likely congestion window. [DCCPDTLS]
+     defines a mapping of DTLS to DCCP that takes these issues into
+     account.
+"fixed": |-
+  Some transports, such as DCCP, provide congestion control for traffic carried over them.  If the congestion window is sufficiently narrow, DTLS handshake retransmissions may be held rather than transmitted immediately, potentially leading to timeouts and spurious retransmission.  When DTLS is used over such transports, care should be taken not to overrun the likely congestion window. [DCCPDTLS] defines a mapping of DTLS to DCCP that takes these issues into account.
+"ko": |-
+  DCCP와 같은 일부 전송은 전송되는 트래픽에 대해 혼잡 제어를 제공합니다. 혼잡 창이 충분히 좁은 경우 DTLS 핸드셰이크 재전송이 즉시 전송되지 않고 보류되어 잠재적으로 시간 초과 및 허위 재전송이 발생할 수 있습니다. 이러한 전송에 대해 DTLS를 사용할 경우 혼잡 가능성이 있는 창을 초과하지 않도록 주의해야 합니다. [DCCPDTLS]는 이러한 문제를 고려하여 DTLS와 DCCP의 매핑을 정의합니다.

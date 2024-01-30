@@ -1,0 +1,36 @@
+"hash": |-
+  703dd10f7419b9394dc181f49d36dbff17af26d2066a154e15bf9a9d0f767491
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                        +--------------+
+                                        |              |
+                 +----------------------|  ASP-ACTIVE  |
+                 |   Other ASP/ +-------|              |
+                 |   IPSP in AS |       +--------------+
+                 |    Overrides |           ^     |
+                 |              |    ASPAC/ |     | ASPIA/
+                 |              |[ASPAC-Ack]|     | [ASPIA-Ack]
+                 |              |           |     v
+                 |              |       +--------------+
+                 |              |       |              |
+                 |              +------>| ASP-INACTIVE |
+                 |                      |              |
+                 |                      +--------------+
+                 |                          ^     |
+          ASPDN/ |                          |     | ASPDN /
+     [ASPDN-Ack/]|                   ASPUP/ |     | [ASPDN-Ack /]
+       SCTP CDI/ |              [ASPUP-Ack] |     | SCTP CDI/
+       SCTP RI   |                          |     | SCTP RI
+                 |                          |     v
+                 |                      +--------------+
+                 |                      |              |
+                 +--------------------->|   ASP-DOWN   |
+                                        |              |
+                                        +--------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

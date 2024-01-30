@@ -1,0 +1,18 @@
+"hash": |-
+  efad45e29b95e3bc4211e52ee7cefa72749ed588135ba21556755d9ea2080454
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that proposes ECC cipher suites in its ClientHello message
+     appends these extensions (along with any others), enumerating the
+     curves it supports and the point formats it can parse.  Clients
+     SHOULD send both the Supported Elliptic Curves Extension and the
+     Supported Point Formats Extension.  If the Supported Point Formats
+     Extension is indeed sent, it MUST contain the value 0 (uncompressed)
+     as one of the items in the list of point formats.
+"fixed": |-
+  A client that proposes ECC cipher suites in its ClientHello message appends these extensions (along with any others), enumerating the curves it supports and the point formats it can parse.  Clients SHOULD send both the Supported Elliptic Curves Extension and the Supported Point Formats Extension.  If the Supported Point Formats Extension is indeed sent, it MUST contain the value 0 (uncompressed) as one of the items in the list of point formats.
+"ko": |-
+  ClientHello 메시지에서 ECC 암호화 제품군을 제안하는 클라이언트는 이러한 확장을 (다른 확장과 함께) 추가하여 지원하는 곡선과 구문 분석할 수 있는 포인트 형식을 열거합니다. 클라이언트는 지원되는 타원 곡선 확장과 지원되는 점 형식 확장을 모두 보내야 합니다. 지원되는 포인트 형식 확장이 실제로 전송되는 경우 포인트 형식 목록의 항목 중 하나로 값 0(압축되지 않음)을 포함해야 합니다.

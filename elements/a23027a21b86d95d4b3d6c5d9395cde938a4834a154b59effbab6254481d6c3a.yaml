@@ -1,0 +1,20 @@
+"hash": |-
+  a23027a21b86d95d4b3d6c5d9395cde938a4834a154b59effbab6254481d6c3a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Event-Timestamp Attribute is included, it represents the time
+     at which the original packet was sent, and therefore it SHOULD NOT be
+     updated when the packet is retransmitted.  If the Event-Timestamp
+     Attribute is not updated, this implies that the Identifier is not
+     changed in retransmitted packets.  As a result, the ability to detect
+     replay within the time window is dependent on support for duplicate
+     detection within that same window.  As noted in Section 2.3,
+     duplicate detection is REQUIRED for Dynamic Authorization Servers
+     implementing this specification.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

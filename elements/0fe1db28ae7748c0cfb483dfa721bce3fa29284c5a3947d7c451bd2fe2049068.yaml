@@ -1,0 +1,20 @@
+"hash": |-
+  0fe1db28ae7748c0cfb483dfa721bce3fa29284c5a3947d7c451bd2fe2049068
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TerminationID specifies the Termination to be moved.  It may be
+     wildcarded, but CHOOSE shall not be used in the TerminationID.  If
+     the wildcard matches more than one TerminationID, all possible
+     matches are attempted, with results reported for each one.  The order
+     of attempts when multiple TerminationIDs match is not specified. By
+     convention, the Termination is subtracted from its previous Context.
+     The Context to which the Termination is moved is indicated by the
+     target ContextId in the Action.  If the last remaining Termination is
+     moved out of a Context, the Context is deleted.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

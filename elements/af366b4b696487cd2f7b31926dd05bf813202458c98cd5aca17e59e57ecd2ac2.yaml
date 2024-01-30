@@ -1,0 +1,16 @@
+"hash": |-
+  af366b4b696487cd2f7b31926dd05bf813202458c98cd5aca17e59e57ecd2ac2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to support TCP over IPv6 Jumbograms, implementations need to
+     be able to send TCP segments larger than the 64-KB limit that the MSS
+     Option can convey.  RFC 2675 [24] defines that an MSS value of 65,535
+     bytes is to be treated as infinity, and Path MTU Discovery [14] is
+     used to determine the actual MSS.
+"fixed": |-
+  In order to support TCP over IPv6 Jumbograms, implementations need to be able to send TCP segments larger than the 64-KB limit that the MSS Option can convey.  RFC 2675 [24] defines that an MSS value of 65,535 bytes is to be treated as infinity, and Path MTU Discovery [14] is used to determine the actual MSS.
+"ko": |-
+  IPv6 점보그램을 통한 TCP를 지원하려면 구현 시 MSS 옵션이 전달할 수 있는 64KB 제한보다 큰 TCP 세그먼트를 보낼 수 있어야 합니다. RFC 2675[24]에서는 MSS 값 65,535바이트를 무한대로 처리하도록 정의하고 있으며, Path MTU Discovery[14]를 사용하여 실제 MSS를 결정합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  2d41b7cfa0336f9bdc1eac7062496530067b8410374095a619628a1f7fd1a92c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ChaCha state does not have four integer numbers: it has 16.  So
+     the quarter-round operation works on only four of them -- hence the
+     name.  Each quarter round operates on four predetermined numbers in
+     the ChaCha state.  We will denote by QUARTERROUND(x,y,z,w) a quarter-
+     round operation on the numbers at indices x, y, z, and w of the
+     ChaCha state when viewed as a vector.  For example, if we apply
+     QUARTERROUND(1,5,9,13) to a state, this means running the quarter-
+     round operation on the elements marked with an asterisk, while
+     leaving the others alone:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

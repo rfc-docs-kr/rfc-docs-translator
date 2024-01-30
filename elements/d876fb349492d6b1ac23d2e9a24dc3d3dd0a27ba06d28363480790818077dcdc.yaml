@@ -1,0 +1,21 @@
+"hash": |-
+  d876fb349492d6b1ac23d2e9a24dc3d3dd0a27ba06d28363480790818077dcdc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In this same figure, Router RT5 will be originating 3 distinct
+          AS-external-LSAs (one for each of the networks N12-N14).  These
+          will be flooded throughout the entire AS, assuming that none of
+          the areas have been configured as stubs.  However, if area 3 has
+          been configured as a stub area, the AS-external-LSAs for
+          networks N12-N14 will not be flooded into area 3 (see Section
+          3.6).  Instead, Router RT11 would originate a default summary-
+          LSA that would be flooded throughout area 3 (see Section
+          12.4.3).  This instructs all of area 3's internal routers to
+          send their AS external traffic to RT11.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

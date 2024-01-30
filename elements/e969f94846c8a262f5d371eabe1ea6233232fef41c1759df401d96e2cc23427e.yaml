@@ -1,0 +1,16 @@
+"hash": |-
+  e969f94846c8a262f5d371eabe1ea6233232fef41c1759df401d96e2cc23427e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an application on a multihomed host does not specify the local IP
+     address when actively opening a TCP connection, then the TCP
+     implementation MUST ask the IP layer to select a local IP address
+     before sending the (first) SYN (MUST-44).  See the function
+     GET_SRCADDR() in Section 3.4 of RFC 1122.
+"fixed": |-
+  If an application on a multihomed host does not specify the local IP address when actively opening a TCP connection, then the TCP implementation MUST ask the IP layer to select a local IP address before sending the (first) SYN (MUST-44).  See the function GET_SRCADDR() in Section 3.4 of RFC 1122.
+"ko": |-
+  멀티홈 호스트의 애플리케이션이 TCP 연결을 적극적으로 열 때 로컬 IP 주소를 지정하지 않으면 TCP 구현은 (첫 번째) SYN을 보내기 전에 IP 계층에 로컬 IP 주소를 선택하도록 요청해야 합니다(MUST-44). RFC 1122의 섹션 3.4에 있는 GET_SRCADDR() 함수를 참조하세요.

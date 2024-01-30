@@ -1,0 +1,19 @@
+"hash": |-
+  b95d9f43426aa5d3f829f776d7001efd4d3ae139f53e3c6aa4e9921d3c6a7eec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Authenticator field in an Accounting-Response packet is called
+        the Response Authenticator, and contains a one-way MD5 hash
+        calculated over a stream of octets consisting of the Accounting-
+        Response Code, Identifier, Length, the Request Authenticator field
+        from the Accounting-Request packet being replied to, and the
+        response attributes if any, followed by the shared secret.  The
+        resulting 16 octet MD5 hash value is stored in the Authenticator
+        field of the Accounting-Response packet.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

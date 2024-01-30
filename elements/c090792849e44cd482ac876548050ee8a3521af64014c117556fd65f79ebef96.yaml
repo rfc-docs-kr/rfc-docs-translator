@@ -1,0 +1,24 @@
+"hash": |-
+  c090792849e44cd482ac876548050ee8a3521af64014c117556fd65f79ebef96
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Mask parameter is an integer representing a bit mask that can
+        be applied to the related Affected PC field.  The bit mask
+        identifies how many bits of the Affected PC field are significant
+        and which are effectively "wildcarded".  For example, a mask of
+        "8" indicates that the last eight bits of the PC are "wildcarded".
+        For an ANSI 24-bit Affected PC, this is equivalent to signalling
+        that all PCs in an ANSI Cluster are unavailable.  A mask of "3"
+        indicates that the last three bits of the PC are "wildcarded".
+        For a 14-bit ITU Affected PC, this is equivalent to signaling that
+        an ITU Region is unavailable.  A mask value equal (or greater
+        than) the number of bits in the PC indicates that the entire
+        network appearance is affected; this is used to indicate network
+        isolation to the ASP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

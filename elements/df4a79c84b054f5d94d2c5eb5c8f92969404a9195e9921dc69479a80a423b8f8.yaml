@@ -1,0 +1,20 @@
+"hash": |-
+  df4a79c84b054f5d94d2c5eb5c8f92969404a9195e9921dc69479a80a423b8f8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      (2) The intra-area routes are calculated by building the shortest-
+          path tree for each attached area.  In particular, all routing
+          table entries whose Destination Type is "area border router" are
+          calculated in this step.  This step is described in two parts.
+          At first the tree is constructed by only considering those links
+          between routers and transit networks.  Then the stub networks
+          are incorporated into the tree. During the area's shortest-path
+          tree calculation, the area's TransitCapability is also
+          calculated for later use in Step 4.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

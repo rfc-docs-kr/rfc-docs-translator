@@ -1,0 +1,25 @@
+"hash": |-
+  6616f759da6eae5da2d534bcd70a6c8c709d0727c3e406179211e488d42ff0a5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The main threat in ICE is hijacking of connections for the purposes
+     of directing media streams to denial-of-service (DoS) targets or to
+     malicious users.  When full implementations are used, ICE TCP
+     prevents that by only using TCP connections that have been validated.
+     Validation requires a STUN transaction to take place over the
+     connection.  This transaction cannot complete without both
+     participants knowing a shared secret exchanged in the rendezvous
+     protocol used with ICE, such as SIP [RFC3261].  This shared secret,
+     in turn, is protected by that protocol exchange.  In the case of SIP,
+     the usage of the SIP Secure (SIPS) [RFC3261] mechanism is
+     RECOMMENDED.  When this is done, an attacker, even if it knows or can
+     guess the port on which an agent is listening for incoming TCP
+     connections, will not be able to open a connection and send media to
+     the agent.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

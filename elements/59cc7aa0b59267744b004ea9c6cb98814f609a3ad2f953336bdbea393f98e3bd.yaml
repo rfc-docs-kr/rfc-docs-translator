@@ -1,0 +1,18 @@
+"hash": |-
+  59cc7aa0b59267744b004ea9c6cb98814f609a3ad2f953336bdbea393f98e3bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SMTP client and server should note carefully the result of the
+     TLS negotiation.  If the negotiation results in no privacy, or if it
+     results in privacy using algorithms or key lengths that are deemed
+     not strong enough, or if the authentication is not good enough for
+     either party, the client may choose to end the SMTP session with an
+     immediate QUIT command, or the server may choose to not accept any
+     more SMTP commands.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  3192f985b3b55cebf01c7d9a474dcd840b774ad4c6332187337ab1b1842fd1ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The NAS and RADIUS accounting server share a secret.  The Request
+        Authenticator field in Accounting-Request packets contains a one-
+        way MD5 hash calculated over a stream of octets consisting of the
+        Code + Identifier + Length + 16 zero octets + request attributes +
+        shared secret (where + indicates concatenation).  The 16 octet MD5
+        hash value is stored in the Authenticator field of the
+        Accounting-Request packet.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

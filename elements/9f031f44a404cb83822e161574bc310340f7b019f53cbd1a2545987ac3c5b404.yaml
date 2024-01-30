@@ -1,0 +1,17 @@
+"hash": |-
+  9f031f44a404cb83822e161574bc310340f7b019f53cbd1a2545987ac3c5b404
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The signatures on certificates that are self-signed or certificates
+     that are trust anchors are not validated, since they begin a
+     certification path (see [RFC5280], Section 3.2).  A certificate that
+     begins a certification path MAY use a signature algorithm that is not
+     advertised as being supported in the "signature_algorithms"
+     extension.
+"fixed": |-
+  The signatures on certificates that are self-signed or certificates that are trust anchors are not validated, since they begin a certification path (see [RFC5280], Section 3.2).  A certificate that begins a certification path MAY use a signature algorithm that is not advertised as being supported in the "signature_algorithms" extension.
+"ko": |-
+  자체 서명된 인증서 또는 트러스트 앵커인 인증서의 서명은 인증 경로를 시작하므로 검증되지 않습니다([RFC5280], 섹션 3.2 참조). 인증 경로를 시작하는 인증서는 "signature_algorithms" 확장에서 지원되는 것으로 광고되지 않은 서명 알고리즘을 사용할 수 있습니다.

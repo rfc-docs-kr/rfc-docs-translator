@@ -1,0 +1,1 @@
+   * 서버는 (동일한 COMPOUND 프로시저에서) 다음 작업을 살펴보고 GETFH가 아닌 것을 발견한 경우 멱등성이 아닌 현재 파일 핸들 변경 작업에 NFS4ERR_UNSAFE_COMPOUND를 반환할 수 있습니다. 서버는 총 응답 크기가 ca_maxresponsesize_cached 또는 ca_maxresponsesize를 초과할지 여부를 미리 결정할 수 없는 경우 이 작업을 수행해야 합니다.

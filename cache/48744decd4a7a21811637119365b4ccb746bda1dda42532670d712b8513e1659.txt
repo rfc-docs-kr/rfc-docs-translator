@@ -1,0 +1,1 @@
+   MAMS 제어 평면 피어는 연결 유지 절차를 실행하여 다른 피어에 연결할 수 있는지 확인하고 데드 피어 시나리오에서 복구합니다. 각 MAMS 제어 평면 엔드포인트는 MAMS_KEEP_ALIVE_TIMEOUT 기간 동안 설정된 Keep-Alive 타이머를 유지 관리합니다. Keep-Alive 타이머는 피어가 MAMS 제어 메시지를 받을 때마다 재설정됩니다. Keep-Alive 타이머가 만료되면 MX Keep-Alive 요청이 전송됩니다.

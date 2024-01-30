@@ -1,0 +1,1 @@
+   LOCK, LOCKU, OPEN, OPEN_DOWNGRADE 및 CLOSE에는 각각 시퀀스 번호가 포함되어 있으므로 서버가 lock_owner 상태를 유지하는 동안에는 이러한 작업이 재생되어 원하지 않는 결과를 초래할 위험이 존재하지 않습니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  4ccc9e2955436ac5e225b0b08ae177f93ba3a5fa5406d6ae6c8b8acaea8922f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This scenario shows example M3UA message flows for the establishment
+     of traffic between an SGP and two ASPs in the same Application
+     Server, where ASP1 is configured to be in the ASP-ACTIVE state and
+     ASP2 is to be a "backup" in the event of communication failure or the
+     withdrawal from service of ASP1.  ASP2 may act as a hot, warm, or
+     cold backup, depending on the extent to which ASP1 and ASP2 share
+     call/transaction state or can communicate call state under
+     failure/withdrawal events.  The example message flow is the same
+     whether the ASP Active messages indicate "Override", "Loadshare", or
+     "Broadcast" mode, although typically this example would use an
+     Override mode.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

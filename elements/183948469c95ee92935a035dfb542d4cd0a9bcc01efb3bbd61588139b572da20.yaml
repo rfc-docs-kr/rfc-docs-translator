@@ -1,0 +1,21 @@
+"hash": |-
+  183948469c95ee92935a035dfb542d4cd0a9bcc01efb3bbd61588139b572da20
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It may be of interest to note that IKE (Session key negotiation
+     protocol) is a UDP based session layer protocol and is not protected
+     by network based IPsec security. Only a portion of the individual
+     payloads within IKE are protected. As a result, IKE sessions are
+     permissible across NAT, so long as IKE payload does not contain
+     addresses and/or transport IDs specific to one realm and not the
+     other. Given that IKE is used to setup IPSec associations, and there
+     are at present no known ways of making IPSec work through a NAT
+     function, it is a future work item to take advantage of IKE through a
+     NAT box.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

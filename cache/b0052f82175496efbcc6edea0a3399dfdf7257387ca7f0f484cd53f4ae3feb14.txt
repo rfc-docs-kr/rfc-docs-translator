@@ -1,0 +1,1 @@
+   구현은 0x0300 이하로 설정된 ClientHello.legacy_version 또는 ServerHello.legacy_version을 보내면 안 됩니다(MUST NOT). ClientHello.legacy_version 또는 ServerHello.legacy_version이 0x0300으로 설정된 Hello 메시지를 수신하는 엔드포인트는 "protocol_version" 경고와 함께 핸드셰이크를 중단해야 합니다.

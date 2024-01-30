@@ -1,0 +1,18 @@
+"hash": |-
+  ab4a9877fbbee5267eb5bc75dbf8b820e9e38f4d83719c9b86edefd2d2e37ed5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             struct {
+                 ECCurveType    curve_type;
+                 select (curve_type) {
+                     case named_curve:
+                         NamedCurve namedcurve;
+                 };
+             } ECParameters;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

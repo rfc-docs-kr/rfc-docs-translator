@@ -1,0 +1,1 @@
+이 구조는 ServerKeyExchange 형식을 통해 공격자가 선택한 32바이트 접두사(ClientHello.random)가 있는 메시지 서명을 얻을 수 있었던 이전 버전의 TLS에 대한 공격을 방지하기 위한 것입니다. 초기 64바이트 패드는 서버 제어 ServerHello.random과 함께 해당 접두사를 지웁니다.

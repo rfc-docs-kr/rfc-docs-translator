@@ -1,0 +1,1 @@
+- 데이터베이스의 RR에 "*"가 나타나면 기존의 정확한 일치를 재정의할 수 없습니다. 예를 들어, 이름 서버가 UDEL.CSNET 도메인에 대한 쿼리를 수신하고 UDEL.CSNET 및 *.CSNET 모두에 대해 적절한 RR이 있는 경우 UDEL.CSNET RR이 사용되고 *.CSNET RR은 무시됩니다. 동일한 데이터베이스에 대한 쿼리가 FOO.CSNET을 지정한 경우 *.CSNET RR이 사용되지만 QNAME의 해당 레이블이 "*"를 대체합니다. 따라서 FOO.CSNET 쿼리는 *.CSNET RR과 일치하고 *.CSNET이 아닌 FOO.CSNET에 대한 RR을 반환합니다.

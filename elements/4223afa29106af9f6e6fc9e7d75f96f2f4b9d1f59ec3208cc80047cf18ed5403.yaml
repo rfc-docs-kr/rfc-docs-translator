@@ -1,0 +1,21 @@
+"hash": |-
+  4223afa29106af9f6e6fc9e7d75f96f2f4b9d1f59ec3208cc80047cf18ed5403
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Validating the authenticity of a message involves a bitwise
+     comparison of the calculated tag with the received tag.  In most use
+     cases, nonces and AAD contents are not "used up" until a valid
+     message is received.  This allows an attacker to send multiple
+     identical messages with different tags until one passes the tag
+     comparison.  This is hard if the attacker has to try all 2^128
+     possible tags one by one.  However, if the timing of the tag
+     comparison operation reveals how long a prefix of the calculated and
+     received tags is identical, the number of messages can be reduced
+     significantly.  For this reason, with online protocols,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

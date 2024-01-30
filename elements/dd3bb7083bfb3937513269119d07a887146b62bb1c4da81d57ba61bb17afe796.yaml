@@ -1,0 +1,32 @@
+"hash": |-
+  dd3bb7083bfb3937513269119d07a887146b62bb1c4da81d57ba61bb17afe796
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           +-+-+-+-+-+-+-+-+-+-+-+-+  +-+-+-+-+-+-+-+-+-+-+-+-+
+           |           |           |  |           |           |
+           | EAP method| EAP method|  | EAP method| EAP method|
+           | Type = X  | Type = Y  |  | Type = X  | Type = Y  |
+           |       V   |           |  |       ^   |           |
+           +-+-+-+-!-+-+-+-+-+-+-+-+  +-+-+-+-!-+-+-+-+-+-+-+-+
+           |       !               |  |       !               |
+           |  EAP  ! Peer layer    |  |  EAP  ! Auth. layer   |
+           |       !               |  |       !               |
+           +-+-+-+-!-+-+-+-+-+-+-+-+  +-+-+-+-!-+-+-+-+-+-+-+-+
+           |       !               |  |       !               |
+           |  EAP  ! layer         |  |  EAP  ! layer         |
+           |       !               |  |       !               |
+           +-+-+-+-!-+-+-+-+-+-+-+-+  +-+-+-+-!-+-+-+-+-+-+-+-+
+           |       !               |  |       !               |
+           | Lower ! layer         |  | Lower ! layer         |
+           |       !               |  |       !               |
+           +-+-+-+-!-+-+-+-+-+-+-+-+  +-+-+-+-!-+-+-+-+-+-+-+-+
+                   !                          !
+                   !   Peer                   ! Authenticator
+                   +------------>-------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

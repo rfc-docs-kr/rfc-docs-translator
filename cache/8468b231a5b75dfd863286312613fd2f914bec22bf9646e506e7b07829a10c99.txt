@@ -1,0 +1,1 @@
+   GetLossTimeAndSpace(): time = loss_time[Initial] space = [ Handshake, ApplicationData ]에서 pn_space의 초기값: if (time == 0 || loss_time[pn_space] < time): time = loss_time[pn_space]; space = pn_space 반환 시간, 공간

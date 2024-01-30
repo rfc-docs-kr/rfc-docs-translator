@@ -1,0 +1,23 @@
+"hash": |-
+  26ddc407c8889987f230ef73caaf57569c01926b9c39101036427b2871c08bc1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The default server side state machine requires the reception of
+     accounting records in any order and at any time, and it does not
+     place any standards requirement on the processing of these records.
+     Implementations of Diameter may perform checking, ordering,
+     correlation, fraud detection, and other tasks based on these records.
+     AVPs may need to be inspected as a part of these tasks.  The tasks
+     can happen either immediately after record reception or in a post-
+     processing phase.  However, as these tasks are typically application
+     or even policy dependent, they are not standardized by the Diameter
+     specifications.  Applications MAY define requirements on when to
+     accept accounting records based on the used value of Accounting-
+     Realtime-Required AVP, credit-limit checks, and so on.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

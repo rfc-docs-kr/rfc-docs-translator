@@ -1,0 +1,20 @@
+"hash": |-
+  8e1c48d5061350b3443393d9abe46ecb6e90c93cc460165f435c92f234bceeae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS is designed to be securely and compatibly extensible.  Newer
+     clients or servers, when communicating with newer peers, should
+     negotiate the most preferred common parameters.  The TLS handshake
+     provides downgrade protection: Middleboxes passing traffic between a
+     newer client and newer server without terminating TLS should be
+     unable to influence the handshake (see Appendix E.1).  At the same
+     time, deployments update at different rates, so a newer client or
+     server MAY continue to support older parameters, which would allow it
+     to interoperate with older endpoints.
+"fixed": |-
+  TLS is designed to be securely and compatibly extensible.  Newer clients or servers, when communicating with newer peers, should negotiate the most preferred common parameters.  The TLS handshake provides downgrade protection: Middleboxes passing traffic between a newer client and newer server without terminating TLS should be unable to influence the handshake (see Appendix E.1).  At the same time, deployments update at different rates, so a newer client or server MAY continue to support older parameters, which would allow it to interoperate with older endpoints.
+"ko": |-
+  TLS는 안전하고 호환 가능하게 확장 가능하도록 설계되었습니다. 최신 클라이언트나 서버는 최신 피어와 통신할 때 가장 선호하는 공통 매개변수를 협상해야 합니다. TLS 핸드셰이크는 다운그레이드 보호 기능을 제공합니다. TLS를 종료하지 않고 최신 클라이언트와 최신 서버 간에 트래픽을 전달하는 미들박스는 핸드셰이크에 영향을 줄 수 없습니다(부록 E.1 참조). 동시에 배포는 서로 다른 속도로 업데이트되므로 최신 클라이언트 또는 서버는 이전 매개변수를 계속 지원할 수 있으며 이를 통해 이전 엔드포인트와 상호 운용할 수 있습니다.

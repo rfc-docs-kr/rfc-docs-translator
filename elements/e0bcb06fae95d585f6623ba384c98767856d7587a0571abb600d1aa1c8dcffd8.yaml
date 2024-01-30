@@ -1,0 +1,25 @@
+"hash": |-
+  e0bcb06fae95d585f6623ba384c98767856d7587a0571abb600d1aa1c8dcffd8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The reg-name syntax allows percent-encoded octets in order to
+     represent non-ASCII registered names in a uniform way that is
+     independent of the underlying name resolution technology.  Non-ASCII
+     characters must first be encoded according to UTF-8 [STD63], and then
+     each octet of the corresponding UTF-8 sequence must be percent-
+     encoded to be represented as URI characters.  URI producing
+     applications must not use percent-encoding in host unless it is used
+     to represent a UTF-8 character sequence.  When a non-ASCII registered
+     name represents an internationalized domain name intended for
+     resolution via the DNS, the name must be transformed to the IDNA
+     encoding [RFC3490] prior to name lookup.  URI producers should
+     provide these registered names in the IDNA encoding, rather than a
+     percent-encoding, if they wish to maximize interoperability with
+     legacy URI resolvers.
+"fixed": |-
+  The reg-name syntax allows percent-encoded octets in order to represent non-ASCII registered names in a uniform way that is independent of the underlying name resolution technology.  Non-ASCII characters must first be encoded according to UTF-8 [STD63], and then each octet of the corresponding UTF-8 sequence must be percent- encoded to be represented as URI characters.  URI producing applications must not use percent-encoding in host unless it is used to represent a UTF-8 character sequence.  When a non-ASCII registered name represents an internationalized domain name intended for resolution via the DNS, the name must be transformed to the IDNA encoding [RFC3490] prior to name lookup.  URI producers should provide these registered names in the IDNA encoding, rather than a percent-encoding, if they wish to maximize interoperability with legacy URI resolvers.
+"ko": |-
+  reg-name 구문은 기본 이름 확인 기술과 관계없이 균일한 방식으로 비ASCII 등록 이름을 나타내기 위해 백분율로 인코딩된 옥텟을 허용합니다. ASCII가 아닌 문자는 먼저 UTF-8 [STD63]에 따라 인코딩되어야 하며, 그런 다음 해당 UTF-8 시퀀스의 각 옥텟이 URI 문자로 표시되도록 백분율로 인코딩되어야 합니다. URI 생성 애플리케이션은 UTF-8 문자 시퀀스를 나타내는 데 사용되지 않는 한 호스트에서 백분율 인코딩을 사용해서는 안 됩니다. 비ASCII 등록 이름이 DNS를 통해 확인하기 위한 국제화된 도메인 이름을 나타내는 경우 이름을 조회하기 전에 이름을 IDNA 인코딩 [RFC3490]으로 변환해야 합니다. URI 생산자는 레거시 URI 확인자와의 상호 운용성을 최대화하려는 경우 백분율 인코딩이 아닌 IDNA 인코딩으로 등록된 이름을 제공해야 합니다.

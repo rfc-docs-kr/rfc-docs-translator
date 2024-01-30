@@ -1,0 +1,1 @@
+   cookieverf 값은 쿠키 값이 0(영)(첫 번째 디렉터리 읽기)인 경우 0(영)으로 설정되어야 합니다. 후속 요청에서는 서버가 반환한 cookieverf여야 합니다. cookieverf는 쿠키를 획득한 READDIR에서 반환한 것과 일치해야 합니다. 서버가 cookieverf가 더 이상 해당 디렉터리에 유효하지 않다고 판단하면 NFS4ERR_NOT_SAME 오류가 반환되어야 합니다.

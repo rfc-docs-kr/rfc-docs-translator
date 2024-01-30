@@ -1,0 +1,18 @@
+"hash": |-
+  111aea367d09b9967dcbef2cb5fba54c8dd344e4b7f049edaeab412923eedf18
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              When using Null authentication, the checksum field in the
+              OSPF header must be verified. It must be set to the 16-bit
+              one's complement of the one's complement sum of all the 16-
+              bit words in the packet, excepting the authentication field.
+              (If the packet's length is not an integral number of 16-bit
+              words, the packet is padded with a byte of zero before
+              checksumming.)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

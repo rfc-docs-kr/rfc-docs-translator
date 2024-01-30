@@ -1,0 +1,1 @@
+   전체 ClientHello1/ClientHello2는 다른 모든 핸드셰이크 해시 계산에 포함됩니다. 첫 번째 비행에서는 Truncate(ClientHello1)가 직접 해시되지만 두 번째 비행에서는 ClientHello1이 해시된 다음 섹션 4.4.1에 설명된 대로 "message_hash" 메시지로 다시 주입됩니다.

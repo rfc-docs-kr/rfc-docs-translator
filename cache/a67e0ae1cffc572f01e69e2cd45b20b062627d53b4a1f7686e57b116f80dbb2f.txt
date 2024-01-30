@@ -1,0 +1,1 @@
+   위에 지정된 모드 이외의 비트는 이 프로토콜에서 정의되지 않습니다. 서버는 GETATTR 또는 READDIR 작업에서 위에 정의된 비트 이외의 비트를 반환해서는 안 되며, 위에 정의된 비트 이외의 비트가 SETATTR, CREATE, OPEN, VERIFY 또는 NVERIFY 작업에서 설정된 경우 NFS4ERR_INVAL을 반환해야 합니다.

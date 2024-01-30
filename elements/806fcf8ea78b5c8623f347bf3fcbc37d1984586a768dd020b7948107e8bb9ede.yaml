@@ -1,0 +1,19 @@
+"hash": |-
+  806fcf8ea78b5c8623f347bf3fcbc37d1984586a768dd020b7948107e8bb9ede
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Using this authentication type, a shared secret key is
+          configured in all routers attached to a common network/subnet.
+          For each OSPF protocol packet, the key is used to
+          generate/verify a "message digest" that is appended to the end
+          of the OSPF packet. The message digest is a one-way function of
+          the OSPF protocol packet and the secret key. Since the secret
+          key is never sent over the network in the clear, protection is
+          provided against passive attacks.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

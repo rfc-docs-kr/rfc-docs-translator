@@ -1,0 +1,22 @@
+"hash": |-
+  b38915a3ae9e95098864ef523927e8e7fdf3445c6b97b938f831041cf20b6118
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     the IPv6 Destination Address field of the packet carrying the SRH.
+     The CmprI and CmprE fields indicate the number of prefix octets that
+     are shared with the IPv6 Destination Address of the packet carrying
+     the SRH.  The shared prefix octets are not carried within the Routing
+     header and each entry in Address[1..n-1] has size (16 - CmprI) octets
+     and Address[n] has size (16 - CmprE) octets.  When CmprI or CmprE is
+     non-zero, there may exist unused octets between the last entry,
+     Address[n], and the end of the Routing header.  The Pad field
+     indicates the number of unused octets that are used for padding.
+     Note that when CmprI and CmprE are both 0, Pad MUST carry a value of
+     0.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

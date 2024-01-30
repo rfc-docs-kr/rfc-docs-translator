@@ -1,0 +1,1 @@
+   파편. 배포 지점 이름을 얻기 위해 CRL 발급자의 X.500 고유 이름에 조각이 추가됩니다. DistributionPoint에 cRLIssuer 필드가 있으면 이름 조각이 포함된 고유 이름에 추가됩니다. 그렇지 않으면 이름 조각이 인증서 발급자 고유 이름에 추가됩니다. 준수 CA는 배포 지점 이름을 지정하기 위해 nameRelativeToCRLIssuer를 사용해서는 안 됩니다. cRLIssuer에 둘 이상의 고유 이름이 포함된 경우 DistributionPointName은 nameRelativeToCRLIssuer 대안을 사용해서는 안 됩니다.

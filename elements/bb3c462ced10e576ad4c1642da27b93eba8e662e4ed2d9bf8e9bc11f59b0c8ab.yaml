@@ -1,0 +1,22 @@
+"hash": |-
+  bb3c462ced10e576ad4c1642da27b93eba8e662e4ed2d9bf8e9bc11f59b0c8ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a client is configured to use RADIUS Accounting, at the start of
+     service delivery it will generate an Accounting Start packet
+     describing the type of service being delivered and the user it is
+     being delivered to, and will send that to the RADIUS Accounting
+     server, which will send back an acknowledgement that the packet has
+     been received.  At the end of service delivery the client will
+     generate an Accounting Stop packet describing the type of service
+     that was delivered and optionally statistics such as elapsed time,
+     input and output octets, or input and output packets.  It will send
+     that to the RADIUS Accounting server, which will send back an
+     acknowledgement that the packet has been received.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

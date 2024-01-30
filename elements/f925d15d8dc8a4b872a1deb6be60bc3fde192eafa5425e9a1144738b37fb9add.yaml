@@ -1,0 +1,24 @@
+"hash": |-
+  f925d15d8dc8a4b872a1deb6be60bc3fde192eafa5425e9a1144738b37fb9add
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     defines a new SMTP "tls" Received header additional-registered-clause
+     that is used to record the TLS ciphersuite that was negotiated for
+     the connection.  This clause SHOULD be included whenever a Submission
+     server generates a Received header field for a message received via
+     TLS.  The value included in this additional clause SHOULD be the
+     registered ciphersuite name (e.g.,
+     TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) included in the "TLS Cipher
+     Suite Registry".  In the event that the implementation does not know
+     the name of the ciphersuite (a situation that should be remedied
+     promptly), a four-digit hexadecimal ciphersuite identifier MAY be
+     used.  In addition, the Diffie-Hellman group name associated with the
+     ciphersuite MAY be included (when applicable and known) following the
+     ciphersuite name.  The ABNF for the field follows:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

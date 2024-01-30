@@ -1,0 +1,16 @@
+"hash": |-
+  d4b6bb0970513ce71b5b1bbe09a57d331a2be1a3a53f822d58dcf1ed84ae4037
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A cipher suite that operates in CBC (cipher block chaining) mode
+     (e.g., TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256) SHOULD NOT be used
+     unless the encrypt_then_mac extension [RFC7366] is also successfully
+     negotiated.  This requirement applies to both client and server
+     implementations.
+"fixed": |-
+  A cipher suite that operates in CBC (cipher block chaining) mode (e.g., TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256) SHOULD NOT be used unless the encrypt_then_mac extension [RFC7366] is also successfully negotiated.  This requirement applies to both client and server implementations.
+"ko": |-
+  CBC(암호 블록 체인) 모드(예: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256)에서 작동하는 암호 제품군은 encrypt_then_mac 확장 [RFC7366]도 성공적으로 협상되지 않는 한 사용해서는 안 됩니다. 이 요구 사항은 클라이언트 및 서버 구현 모두에 적용됩니다.

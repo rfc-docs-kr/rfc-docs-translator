@@ -1,0 +1,23 @@
+"hash": |-
+  95349ca6a84c311a59b4c3cc136a0c0885e78de5b05ec06c31493637340f9a06
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     propertyParm         = pkgdName parmValue
+     parmValue            = (EQUAL alternativeValue/ INEQUAL VALUE)
+     alternativeValue     = ( VALUE
+                            / LSBRKT VALUE *(COMMA VALUE) RSBRKT
+                              ; sublist (i.e. A AND B AND ...)
+                            / LBRKT VALUE *(COMMA VALUE) RBRKT
+                              ; alternatives (i.e. A OR B OR ...)
+                            / LSBRKT VALUE COLON VALUE RSBRKT )
+                              ; range
+     INEQUAL              = LWSP (">" / "<" / "#" ) LWSP
+     LSBRKT               = LWSP "[" LWSP
+     RSBRKT               = LWSP "]" LWSP
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

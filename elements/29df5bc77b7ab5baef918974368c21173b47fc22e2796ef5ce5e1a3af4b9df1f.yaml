@@ -1,0 +1,27 @@
+"hash": |-
+  29df5bc77b7ab5baef918974368c21173b47fc22e2796ef5ce5e1a3af4b9df1f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              If the newly added vertex is an area border router or AS
+              boundary router, a routing table entry is added whose
+              destination type is "router".  The Options field found in
+              the associated router-LSA is copied into the routing table
+              entry's Optional capabilities field. Call the newly added
+              vertex Router X.  If Router X is the endpoint of one of the
+              calculating router's virtual links, and the virtual link
+              uses Area A as Transit area:  the virtual link is declared
+              up, the IP address of the virtual interface is set to the IP
+              address of the outgoing interface calculated above for
+              Router X, and the virtual neighbor's IP address is set to
+              Router X's interface address (contained in Router X's
+              router-LSA) that points back to the root of the shortest-
+              path tree; equivalently, this is the interface that points
+              back to Router X's parent vertex on the shortest-path tree
+              (similar to the calculation in Section 16.1.1).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

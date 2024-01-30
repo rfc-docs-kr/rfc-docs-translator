@@ -1,0 +1,1 @@
+   P-256, P-384 및 P-521의 경우 KEM의 SerializePrivateKey() 함수는 [SECG]에 따라 Field-Element-to-Octet-String 변환을 수행합니다. 개인 키가 [0, order-1] 범위 밖의 정수인 경우 order는 사용 중인 곡선의 차수이며 개인 키는 직렬화되기 전에 [0, order-1]의 대표로 축소되어야 합니다. DeserializePrivateKey()는 [SECG]에 따라 Octet-String-to-Field-Element 변환을 수행합니다.

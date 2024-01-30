@@ -1,0 +1,26 @@
+"hash": |-
+  e6fbe7ccf3dff7762b8c7ebc36ba7199f6c8559936b5cd36f3c5207db9a523fc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              If the newly added vertex is a transit network, the routing
+              table entry for the network is located.  The entry's
+              Destination ID is the IP network number, which can be
+              obtained by masking the Vertex ID (Link State ID) with its
+              associated subnet mask (found in the body of the associated
+              network-LSA).  If the routing table entry already exists
+              (i.e., there is already an intra-area route to the
+              destination installed in the routing table), multiple
+              vertices have mapped to the same IP network.  For example,
+              this can occur when a new Designated Router is being
+              established.  In this case, the current routing table entry
+              should be overwritten if and only if the newly found path is
+              just as short and the current routing table entry's Link
+              State Origin has a smaller Link State ID than the newly
+              added vertex' LSA.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

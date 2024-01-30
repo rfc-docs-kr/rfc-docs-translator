@@ -1,0 +1,20 @@
+"hash": |-
+  d0c54501c954c7433a797a8b2967f8e2aa8f042d97cd66217c6aba407ca0fb69
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The alternative mechanism specified by this document applies when a
+     host has a previously allocated DHCP address, which was not returned
+     to the DHCP server via a DHCPRELEASE message, and which still has
+     time remaining on its lease.  In this case, the host may determine
+     whether it has re-attached to the logical link where this address is
+     valid for use, by sending a unicast ARP Request packet to a router
+     previously known for that link (or, in the case of a link with more
+     than one router, by sending one or more unicast ARP Request packets
+     to one or more of those routers).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

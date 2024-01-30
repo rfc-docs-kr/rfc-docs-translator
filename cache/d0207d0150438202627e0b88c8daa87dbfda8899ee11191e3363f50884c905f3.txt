@@ -1,0 +1,1 @@
+   IMAP4rev1은 현재 LOGIN 명령의 사용자 ID 및 비밀번호 필드를 US-ASCII로 제한합니다. IMAP LOGIN 명령의 "userid" 및 "password" 필드는 향후 표준이 RFC 상태를 추적할 때까지 US-ASCII로만 제한됩니다. 서버에서는 두 필드를 모두 검증하여 UTF-8의 공식 구문을 준수하는지 확인하고 해당 구문을 위반할 경우 LOGIN 명령을 거부하는 것이 좋습니다. "userid" 또는 "password" 필드에 가장 높은 비트가 설정된 옥텟이 포함된 경우 서버는 LOGIN 명령을 거부할 수 있습니다.

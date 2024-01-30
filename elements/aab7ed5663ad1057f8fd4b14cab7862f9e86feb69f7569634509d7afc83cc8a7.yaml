@@ -1,0 +1,20 @@
+"hash": |-
+  aab7ed5663ad1057f8fd4b14cab7862f9e86feb69f7569634509d7afc83cc8a7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          leaf persist {
+            if-feature confirmed-commit;
+            type string;
+            description
+              "This parameter is used to make a confirmed commit
+               persistent.  A persistent confirmed commit is not aborted
+               if the NETCONF session terminates.  The only way to abort
+               a persistent confirmed commit is to let the timer expire,
+               or to use the <cancel-commit> operation.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

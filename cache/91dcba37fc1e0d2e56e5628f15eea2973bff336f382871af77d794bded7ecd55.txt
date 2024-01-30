@@ -1,0 +1,1 @@
+   PAP(Password Authentication Protocol), CHAP 또는 MS-CHAPv1이 내부 인증 방법으로 사용되는 경우 [RFC9190], 섹션 2.5에서 수행되는 것처럼 EAP 서버가 보호된 성공 표시를 보낼 기회가 없습니다. 대신 TLS 세션 티켓이 비활성화되면 EAP 서버의 응답은 EAP-Success 또는 EAP-Failure여야 합니다. 이러한 대응은 보호되지 않으며 숙련된 공격자가 위조할 수 있습니다.

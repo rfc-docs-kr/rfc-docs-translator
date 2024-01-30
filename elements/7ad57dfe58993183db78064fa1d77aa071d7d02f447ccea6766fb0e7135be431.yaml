@@ -1,0 +1,17 @@
+"hash": |-
+  7ad57dfe58993183db78064fa1d77aa071d7d02f447ccea6766fb0e7135be431
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The existence of deployed TLS stacks that mistakenly reuse the AES-
+     GCM nonce is documented in [Boeck2016], showing there is an actual
+     risk of AES-GCM getting implemented insecurely and thus making TLS
+     sessions that use an AES-GCM cipher suite vulnerable to attacks such
+     as [Joux2006].  (See [CVE] records: CVE-2016-0270, CVE-2016-10213,
+     CVE-2016-10212, and CVE-2017-5933.)
+"fixed": |-
+  The existence of deployed TLS stacks that mistakenly reuse the AES- GCM nonce is documented in [Boeck2016], showing there is an actual risk of AES-GCM getting implemented insecurely and thus making TLS sessions that use an AES-GCM cipher suite vulnerable to attacks such as [Joux2006].  (See [CVE] records: CVE-2016-0270, CVE-2016-10213, CVE-2016-10212, and CVE-2017-5933.)
+"ko": |-
+  AES-GCM nonce를 실수로 재사용하는 배포된 TLS 스택의 존재는 [Boeck2016]에 문서화되어 있으며 AES-GCM이 안전하지 않게 구현되어 AES-GCM 암호화 제품군을 사용하는 TLS 세션을 공격에 취약하게 만드는 실제 위험이 있음을 보여줍니다. [Joux2006]과 같은. ([CVE] 레코드: CVE-2016-0270, CVE-2016-10213, CVE-2016-10212 및 CVE-2017-5933을 참조하세요.)

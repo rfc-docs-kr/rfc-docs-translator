@@ -1,0 +1,42 @@
+"hash": |-
+  5436fa015c306b06f17e3fcf3f498128611851189a3f5e9443ad81b8b8b80649
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              LS Type   LSA description
+              ________________________________________________
+              1         These are the router-LSAs.
+                        They describe the collected
+                         states of the router's
+                        interfaces. For more information,
+                        consult Section 12.4.1.
+              ________________________________________________
+              2         These are the network-LSAs.
+                        They describe the set of routers
+                        attached to the network. For
+                        more information, consult
+                        Section 12.4.2.
+              ________________________________________________
+              3 or 4    These are the summary-LSAs.
+                        They describe inter-area routes,
+                        and enable the condensation of
+                        routing information at area
+                        borders. Originated by area border
+                        routers, the Type 3 summary-LSAs
+                        describe routes to networks while the
+                        Type 4 summary-LSAs describe routes to
+                        AS boundary routers.
+              ________________________________________________
+              5         These are the AS-external-LSAs.
+                        Originated by AS boundary routers,
+                        they describe routes
+                        to destinations external to the
+                        Autonomous System. A default route for
+                        the Autonomous System can also be
+                        described by an AS-external-LSA.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

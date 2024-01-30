@@ -1,0 +1,23 @@
+"hash": |-
+  c38fae8133da6e0d34b5921696f4012563ded475e7460c0a26cfb841bcfd55a8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServTBParamBurstSize OBJECT-TYPE
+      SYNTAX       BurstSize
+      UNITS        "Bytes"
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The maximum number of bytes in a single transmission burst. This
+         attribute is used for:
+         1. CBS and EBS in RFC 2697 for srTCM
+         2. CBS and PBS in RFC 2698 for trTCM
+         3. Burst Size in RFC 3290."
+      ::= { diffServTBParamEntry 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

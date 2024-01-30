@@ -1,0 +1,20 @@
+"hash": |-
+  05b150571b38a2dd73dffd7ce8f6df7b063181070cec46944c9fb8324cb8e4e3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        IPv6address =                            6( h16 ":" ) ls32
+                    /                       "::" 5( h16 ":" ) ls32
+                    / [               h16 ] "::" 4( h16 ":" ) ls32
+                    / [ *1( h16 ":" ) h16 ] "::" 3( h16 ":" ) ls32
+                    / [ *2( h16 ":" ) h16 ] "::" 2( h16 ":" ) ls32
+                    / [ *3( h16 ":" ) h16 ] "::"    h16 ":"   ls32
+                    / [ *4( h16 ":" ) h16 ] "::"              ls32
+                    / [ *5( h16 ":" ) h16 ] "::"              h16
+                    / [ *6( h16 ":" ) h16 ] "::"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

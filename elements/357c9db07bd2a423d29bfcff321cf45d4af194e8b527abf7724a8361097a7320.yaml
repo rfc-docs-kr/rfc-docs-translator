@@ -1,0 +1,16 @@
+"hash": |-
+  357c9db07bd2a423d29bfcff321cf45d4af194e8b527abf7724a8361097a7320
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a client negotiates SSL 2.0 but also supports TLS, it MUST set
+     the right-hand (least-significant) 8 random bytes of the PKCS padding
+     (not including the terminal null of the padding) for the RSA
+     encryption of the ENCRYPTED-KEY-DATA field of the CLIENT-MASTER-KEY
+     to 0x03 (the other padding bytes are random).
+"fixed": |-
+  When a client negotiates SSL 2.0 but also supports TLS, it MUST set the right-hand (least-significant) 8 random bytes of the PKCS padding (not including the terminal null of the padding) for the RSA encryption of the ENCRYPTED-KEY-DATA field of the CLIENT-MASTER-KEY to 0x03 (the other padding bytes are random).
+"ko": |-
+  클라이언트가 SSL 2.0을 협상하지만 TLS도 지원하는 경우 ENCRYPTED-KEY의 RSA 암호화를 위해 PKCS 패딩의 오른쪽(최하위) 임의 바이트 8개(패딩의 터미널 null은 포함하지 않음)를 설정해야 합니다. CLIENT-MASTER-KEY의 DATA 필드는 0x03입니다(다른 패딩 바이트는 무작위입니다).

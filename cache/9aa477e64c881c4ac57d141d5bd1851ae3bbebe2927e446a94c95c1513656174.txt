@@ -1,0 +1,1 @@
+   병렬성을 제공한다는 pNFS의 설계 목표를 고려할 때 레이아웃 stateid는 클라이언트가 LAYOUTGET 및 LAYOUTRETURN 작업을 병렬로 전송해야 한다는 점에서 다른 stateid 유형과 다릅니다. "seqid" 값은 클라이언트가 LAYOUTGET 및 LAYOUTRETURN에 대한 응답을 적절하게 정렬하는 데 사용됩니다. "seqid"는 LAYOUTGET과 CB_LAYOUTRECALL 간의 경쟁 조건을 방지하는 데에도 사용됩니다. 처리 규칙이 레이아웃 stateid 및 기타 stateid 유형과 다르다는 점을 고려하면 적절한 레이아웃 stateid 처리를 결정하려면 이 문서의 pNFS 섹션만 고려해야 합니다.

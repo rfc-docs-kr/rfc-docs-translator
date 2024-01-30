@@ -1,0 +1,22 @@
+"hash": |-
+  d436d6d610c9e10532857cd4c337ed9d9f918335762d87946d53ed4636acca95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When responding to a HelloVerifyRequest, the client MUST use the same
+     parameter values (version, random, session_id, cipher_suites,
+     compression_method) as it did in the original ClientHello.  The
+     server SHOULD use those values to generate its cookie and verify that
+     they are correct upon cookie receipt.  The server MUST use the same
+     version number in the HelloVerifyRequest that it would use when
+     sending a ServerHello.  Upon receipt of the ServerHello, the client
+     MUST verify that the server version values match.  In order to avoid
+     sequence number duplication in case of multiple HelloVerifyRequests,
+     the server MUST use the record sequence number in the ClientHello as
+     the record sequence number in the HelloVerifyRequest.
+"fixed": |-
+  When responding to a HelloVerifyRequest, the client MUST use the same parameter values (version, random, session_id, cipher_suites, compression_method) as it did in the original ClientHello.  The server SHOULD use those values to generate its cookie and verify that they are correct upon cookie receipt.  The server MUST use the same version number in the HelloVerifyRequest that it would use when sending a ServerHello.  Upon receipt of the ServerHello, the client MUST verify that the server version values match.  In order to avoid sequence number duplication in case of multiple HelloVerifyRequests, the server MUST use the record sequence number in the ClientHello as the record sequence number in the HelloVerifyRequest.
+"ko": |-
+  HelloVerifyRequest에 응답할 때 클라이언트는 원래 ClientHello에서와 동일한 매개변수 값(version, random, session_id, cipher_suites, 압축_method)을 사용해야 합니다. 서버는 해당 값을 사용하여 쿠키를 생성하고 쿠키 수신 시 해당 값이 올바른지 확인해야 합니다. 서버는 ServerHello를 보낼 때 사용할 HelloVerifyRequest에서 동일한 버전 번호를 사용해야 합니다. ServerHello를 수신하면 클라이언트는 서버 버전 값이 일치하는지 확인해야 합니다. 여러 HelloVerifyRequests의 경우 시퀀스 번호 중복을 피하기 위해 서버는 ClientHello의 레코드 시퀀스 번호를 HelloVerifyRequest의 레코드 시퀀스 번호로 사용해야 합니다.

@@ -1,0 +1,1 @@
+   이 인증 메커니즘을 사용할 때 클라이언트는 섹션 5.7에 설명된 대로 빈 ClientKeyExchange를 보내야 하며 CertificateVerify 메시지를 보내서는 안 됩니다(MUST NOT). 서버가 premaster secret을 계산하는 데 필요한 클라이언트의 ECDH 공개 키가 클라이언트의 인증서 내에서 사용 가능하므로 ClientKeyExchange는 비어 있습니다. 서버와 동일한 프리마스터 시크릿에 도달하는 클라이언트의 능력(Finished 메시지의 성공적인 교환으로 입증됨)은 인증된 공개 키에 해당하는 개인 키의 소유를 증명하며 CertificateVerify 메시지는 불필요합니다.

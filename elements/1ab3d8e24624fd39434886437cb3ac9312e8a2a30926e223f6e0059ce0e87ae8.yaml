@@ -1,0 +1,31 @@
+"hash": |-
+  1ab3d8e24624fd39434886437cb3ac9312e8a2a30926e223f6e0059ce0e87ae8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Case 1: Area A is the backbone and/or the router is not an area
+              border router.
+              In this case, the following calculations must be performed.
+              First, if there is presently an inter-area route to the
+              destination N, N's routing table entry is invalidated,
+              saving the entry's values for later comparisons. Then the
+              calculation in Section 16.2 is run again for the single
+              destination N. In this calculation, all of Area A's
+              summary-LSAs that describe a route to N are examined.  In
+              addition, if the router is an area border router attached to
+              one or more transit areas, the calculation in Section 16.3
+              must be run again for the single destination.  If the
+              results of these calculations have changed the cost/path to
+              an AS boundary router (as would be the case for a Type 4
+              summary-LSA) or to any forwarding addresses, all AS-
+              external-LSAs will have to be reexamined by rerunning the
+              calculation in Section 16.4.  Otherwise, if N is now newly
+              unreachable, the calculation in Section 16.4 must be rerun
+              for the single destination N, in case an alternate external
+              route to N exists.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

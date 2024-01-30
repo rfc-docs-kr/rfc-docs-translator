@@ -1,0 +1,1 @@
+   클라이언트가 새 클라이언트 ID를 설정할 때마다 그리고 잠금을 획득하는 첫 번째 비재확보 작업을 수행하기 전에, 재확보할 잠금이 없더라도 rca_one_fs가 FALSE로 설정된 RECLAIM_COMPLETE를 보내야 합니다. RECLAIM_COMPLETE 이전에 비재확보 잠금 작업이 수행되면 NFS4ERR_GRACE 오류가 반환됩니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  a887c28a95626dbd597ba7250c1920d2b8d61ea3fed58d5e98492ca3159210cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Transition of users from SSL or TLS 1.0 to later versions of TLS MAY
+     be accomplished by a means similar to that described above.  There
+     are multiple ways to accomplish this.  One way is for the server to
+     refuse a ClientHello message from any client sending a
+     ClientHello.version field corresponding to any version of SSL or
+     TLS 1.0.  Another way is for the server to accept ClientHello
+     messages from some client versions that it does not wish to support
+     but later refuse to allow the user to authenticate.  The latter
+     method may provide a better indication to the user of the reason for
+     the failure but (depending on the protocol and method of
+     authentication used) may also risk exposure of the user's password
+     over a channel that is known to not provide adequate confidentiality.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

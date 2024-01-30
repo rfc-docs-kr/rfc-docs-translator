@@ -1,0 +1,1 @@
+ [PKCS1]에 정의된 RSAES-OAEP 암호화 방식은 Bleichenbacher 공격에 대해 더 안전합니다. 그러나 이전 버전의 TLS와의 호환성을 최대화하기 위해 이 사양에서는 RSAES-PKCS1-v1_5 체계를 사용합니다. 위의 권장 사항을 준수하는 경우 Bleichenbacher 공격의 변종은 존재하지 않는 것으로 알려져 있습니다.

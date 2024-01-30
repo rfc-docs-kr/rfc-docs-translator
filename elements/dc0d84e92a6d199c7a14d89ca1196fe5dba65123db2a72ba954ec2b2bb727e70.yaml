@@ -1,0 +1,20 @@
+"hash": |-
+  dc0d84e92a6d199c7a14d89ca1196fe5dba65123db2a72ba954ec2b2bb727e70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For each sibling set, the server determines which nodes are included
+     (or potentially included) in the filter output, and which sibling
+     subtrees are excluded (pruned) from the filter output.  The server
+     first determines which types of nodes are present in the sibling set
+     and processes the nodes according to the rules for their type.  If
+     any nodes in the sibling set are selected, then the process is
+     recursively applied to the sibling sets of each selected node.  The
+     algorithm continues until all sibling sets in all subtrees specified
+     in the filter have been processed.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  518165e1d3da1fdad24e80a24f877c98b0ce1fda53d4c15a285da03eac6d7ffd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Router ID
+              This is a 32-bit number that uniquely identifies the router
+              in the Autonomous System.  One algorithm for Router ID
+              assignment is to choose the largest or smallest IP address
+              assigned to the router.  If a router's OSPF Router ID is
+              changed, the router's OSPF software should be restarted
+              before the new Router ID takes effect. Before restarting in
+              order to change its Router ID, the router should flush its
+              self-originated LSAs from the routing domain (see Section
+              14.1), or they will persist for up to MaxAge minutes.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

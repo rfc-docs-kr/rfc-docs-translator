@@ -1,0 +1,24 @@
+"hash": |-
+  e52f47d96139773550a71f6fb48d2925548b9808630f5ee092701ee5713fe623
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     EventBuffer returns the set of events and associated parameter values
+     currently enabled in the EventBufferDescriptor. PackagesDescriptor
+     returns a list of packages realized by the Termination.
+     DigitMapDescriptor returns the name or value of the current DigitMap
+     for the Termination.  DigitMap requested in an AuditValue command
+     with TerminationID ALL returns all DigitMaps in the gateway.
+     Statistics returns the current values of all statistics being kept on
+     the Termination.  Specifying an empty Audit Descriptor results in
+     only the TerminationID being returned.  This may be useful to get a
+     list of TerminationIDs when used with wildcard.  Annexes A and B
+     provide a special syntax for presenting such a list in condensed
+     form, such that the AuditValue command tag does not have to be
+     repeated for each TerminationID.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,3 @@
+   (규칙1 규칙2)
+
+- 괄호 안의 요소는 단일 요소로 취급됩니다. 따라서 "(elem (foo | bar) elem)"은 토큰 시퀀스 "elem foo elem" 및 "elem bar elem"을 허용합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  b9b62c8e303e615d9bd3c4f28b52d1f63c51f3ae4b8752ee781bcb739f7e680f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           DISCUSSION:
+                The IEEE 802.3 specification provides for operation over a
+                10Mbps Ethernet cable, in which case Ethernet and IEEE
+                802.3 frames can be physically intermixed.  A receiver can
+                distinguish Ethernet and 802.3 frames by the value of the
+                802.3 Length field; this two-octet field coincides in the
+                header with the Ether-Type field of an Ethernet frame.  In
+                particular, the 802.3 Length field must be less than or
+                equal to 1500, while all valid Ether-Type values are
+                greater than 1500.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

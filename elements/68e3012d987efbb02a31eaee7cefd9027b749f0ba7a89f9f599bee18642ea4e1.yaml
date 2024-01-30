@@ -1,0 +1,24 @@
+"hash": |-
+  68e3012d987efbb02a31eaee7cefd9027b749f0ba7a89f9f599bee18642ea4e1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           o  If the SYN bit is set in these synchronized states, it may
+              be either a legitimate new connection attempt (e.g., in the
+              case of TIME-WAIT), an error where the connection should be
+              reset, or the result of an attack attempt, as described in
+              RFC 5961 [9].  For the TIME-WAIT state, new connections can
+              be accepted if the Timestamp Option is used and meets
+              expectations (per [40]).  For all other cases, RFC 5961
+              provides a mitigation with applicability to some situations,
+              though there are also alternatives that offer cryptographic
+              protection (see Section 7).  RFC 5961 recommends that in
+              these synchronized states, if the SYN bit is set,
+              irrespective of the sequence number, TCP endpoints MUST send
+              a "challenge ACK" to the remote peer:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

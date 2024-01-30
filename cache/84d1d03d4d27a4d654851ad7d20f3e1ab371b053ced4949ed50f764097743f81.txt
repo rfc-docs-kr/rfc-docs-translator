@@ -1,0 +1,1 @@
+   각 AU의 크기가 동일한 경우 발견된 maxDisplacement 값은 3개의 AU로 디인터리브 버퍼 크기를 과대평가합니다. 그러나 가변 AU 크기의 경우 동시에 저장된 5개의 "초기" AU의 총 크기는 maxDisplacement에 최대 비트 전송률을 곱한 값을 초과할 수 있으며, 이 경우 de-interleaveBufferSize를 신호로 보내야 합니다.

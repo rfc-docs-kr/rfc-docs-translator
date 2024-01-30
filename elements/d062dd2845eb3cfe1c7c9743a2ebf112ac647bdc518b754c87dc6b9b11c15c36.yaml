@@ -1,0 +1,22 @@
+"hash": |-
+  d062dd2845eb3cfe1c7c9743a2ebf112ac647bdc518b754c87dc6b9b11c15c36
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  --
+  -- Classifier Element Table
+  --
+  diffServClfrElementNextFree OBJECT-TYPE
+      SYNTAX       IndexIntegerNextFree
+      MAX-ACCESS   read-only
+      STATUS       current
+      DESCRIPTION
+         "This object contains an unused value for diffServClfrElementId,
+         or a zero to indicate that none exist."
+      ::= { diffServClassifier 3 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

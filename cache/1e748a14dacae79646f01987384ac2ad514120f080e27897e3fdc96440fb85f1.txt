@@ -1,0 +1,3 @@
+       CB_LAYOUTRECALL; 서버가 CB_LAYOUTRECALL을 받았습니다.
+
+- 응답이지만 해당 처리를 완료한 LAYOUTRETURN 전에 LAYOUTGET이 도착했습니다. LAYOUTGET 레이아웃 stateid의 "seqid"는 CB_LAYOUTRECALL의 "seqid"와 동일합니다.

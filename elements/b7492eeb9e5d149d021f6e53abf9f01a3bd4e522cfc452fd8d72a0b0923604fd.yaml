@@ -1,0 +1,16 @@
+"hash": |-
+  b7492eeb9e5d149d021f6e53abf9f01a3bd4e522cfc452fd8d72a0b0923604fd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a server is operating statelessly, it may receive an unprotected
+     record of type change_cipher_spec between the first and second
+     ClientHello (see Section 5).  Since the server is not storing any
+     state, this will appear as if it were the first message to be
+     received.  Servers operating statelessly MUST ignore these records.
+"fixed": |-
+  When a server is operating statelessly, it may receive an unprotected record of type change_cipher_spec between the first and second ClientHello (see Section 5).  Since the server is not storing any state, this will appear as if it were the first message to be received.  Servers operating statelessly MUST ignore these records.
+"ko": |-
+  서버가 상태 없이 작동하는 경우 첫 번째 ClientHello와 두 번째 ClientHello 사이에서 변경_cipher_spec 유형의 보호되지 않은 레코드를 수신할 수 있습니다(섹션 5 참조). 서버는 어떤 상태도 저장하지 않으므로 이는 수신된 첫 번째 메시지인 것처럼 나타납니다. 상태 없이 작동하는 서버는 이러한 레코드를 무시해야 합니다.

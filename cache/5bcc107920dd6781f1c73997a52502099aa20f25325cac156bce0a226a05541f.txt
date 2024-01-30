@@ -1,0 +1,1 @@
+   이 기능은 IPsec 원격 액세스 서버(IRAS)에 의해 보호되는 네트워크로 터널링을 시도하는 IPsec 원격 액세스 클라이언트(IRAC)에 주소 할당을 제공합니다. IKE_AUTH 교환은 IKE SA 및 하위 SA를 생성하므로 IRAC는 IKE_AUTH 교환에서 IRAS 제어 주소(및 선택적으로 보호되는 네트워크에 관한 기타 정보)를 요청해야 합니다. IRAS는 DHCP/BOOTP(Bootstrap 프로토콜) 서버 또는 자체 주소 풀과 같은 다양한 소스로부터 IRAC용 주소를 확보할 수 있습니다.

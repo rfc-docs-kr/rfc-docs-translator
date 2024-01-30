@@ -1,0 +1,18 @@
+"hash": |-
+  509857fd147ee9d4ecb983dbf85411c8517e5b4b820923492e2f2beb766368de
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                The tricky part of reassembly is the bookkeeping to
+                determine when all bytes of the datagram have been
+                reassembled.  We recommend Clark's algorithm [IP:10] that
+                requires no additional data space for the bookkeeping.
+                However, note that, contrary to [IP:10], the first
+                fragment header needs to be saved for inclusion in a
+                possible ICMP Time Exceeded (Reassembly Timeout) message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  92c64863bc8b9953033f18032a5a3f58745214cfe2e3e797779f2a9c383b1398
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that Alert messages are not retransmitted at all, even when they
+     occur in the context of a handshake.  However, a DTLS implementation
+     which would ordinarily issue an alert SHOULD generate a new alert
+     message if the offending record is received again (e.g., as a
+     retransmitted handshake message).  Implementations SHOULD detect when
+     a peer is persistently sending bad messages and terminate the local
+     connection state after such misbehavior is detected.
+"fixed": |-
+  Note that Alert messages are not retransmitted at all, even when they occur in the context of a handshake.  However, a DTLS implementation which would ordinarily issue an alert SHOULD generate a new alert message if the offending record is received again (e.g., as a retransmitted handshake message).  Implementations SHOULD detect when a peer is persistently sending bad messages and terminate the local connection state after such misbehavior is detected.
+"ko": |-
+  경고 메시지는 핸드셰이크 중에 발생하더라도 전혀 재전송되지 않습니다. 그러나 일반적으로 경고를 발행하는 DTLS 구현은 위반 레코드가 다시 수신되면(예: 재전송된 핸드셰이크 메시지로) 새로운 경고 메시지를 생성해야 합니다(SHOULD). 구현은 피어가 지속적으로 잘못된 메시지를 보내는 시기를 감지하고 그러한 잘못된 동작이 감지된 후 로컬 연결 상태를 종료해야 합니다(SHOULD).

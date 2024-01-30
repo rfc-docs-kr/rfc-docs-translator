@@ -1,0 +1,18 @@
+"hash": |-
+  0bb5d3b10a3b0c09ae254138bff168949b40225a611aed2f26debbcad476d554
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unless some other fatal alert has been transmitted, each party is
+     required to send a close_notify alert before closing the write side
+     of the connection.  The other party MUST respond with a close_notify
+     alert of its own and close down the connection immediately,
+     discarding any pending writes.  It is not required for the initiator
+     of the close to wait for the responding close_notify alert before
+     closing the read side of the connection.
+"fixed": |-
+  Unless some other fatal alert has been transmitted, each party is required to send a close_notify alert before closing the write side of the connection.  The other party MUST respond with a close_notify alert of its own and close down the connection immediately, discarding any pending writes.  It is not required for the initiator of the close to wait for the responding close_notify alert before closing the read side of the connection.
+"ko": |-
+  다른 치명적인 경고가 전송되지 않는 한, 각 당사자는 연결의 쓰기 측을 닫기 전에 close_notify 경고를 보내야 합니다. 상대방은 반드시 자체적으로 close_notify 경고로 응답하고 연결을 즉시 종료하고 보류 중인 쓰기를 삭제해야 합니다. 닫기 시작자가 연결의 읽기 측을 닫기 전에 응답하는 close_notify 경고를 기다릴 필요는 없습니다.

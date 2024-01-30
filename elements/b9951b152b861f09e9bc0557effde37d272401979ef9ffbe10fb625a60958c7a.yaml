@@ -1,0 +1,20 @@
+"hash": |-
+  b9951b152b861f09e9bc0557effde37d272401979ef9ffbe10fb625a60958c7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The average deviation, ADEV, estimated through an exponentially
+        smoothed average of the absolute value of the difference between
+        the observed delay and the current average.  The retransmission
+        timer, in TCP, is set to the sum of the average delay plus N times
+        the average deviation. The maximum value of the timer should
+        however be bounded for the protocol defined in this document, in
+        order to guarantee that no repeated packet would be received by
+        the gateways after LONG-TIMER seconds.  A suggested maximum value
+        is 4 seconds.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

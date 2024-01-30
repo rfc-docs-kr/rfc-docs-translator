@@ -1,0 +1,22 @@
+"hash": |-
+  95c4ab1c75dee0c56db381b717217d3530fcbbe3695c295f71f4a672b4cbf78c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          An LSA is added to a router's database when either a) it is
+          received during the flooding process (Section 13) or b) it is
+          originated by the router itself (Section 12.4).  An LSA is
+          deleted from a router's database when either a) it has been
+          overwritten by a newer instance during the flooding process
+          (Section 13) or b) the router originates a newer instance of one
+          of its self-originated LSAs (Section 12.4) or c) the LSA ages
+          out and is flushed from the routing domain (Section 14).
+          Whenever an LSA is deleted from the database it must also be
+          removed from all neighbors' Link state retransmission lists (see
+          Section 10).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

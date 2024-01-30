@@ -1,0 +1,21 @@
+"hash": |-
+  8aed556186fa2788e539da53ede045102c931cbfe95ae1c0404d0bb9925d6029
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Clients do not typically have 'policies' as such, instead they
+        rely on the user to define their actions and, to a certain extent,
+        are reactive to the server policy.  Thus, a client will need to
+        have commands that will allow the user to switch the protection
+        level of the data connection dynamically; however, there may be a
+        general 'policy' that attempts all LIST and NLST commands on a
+        Clear connection first (and automatically switches to Private if
+        it fails).  In this case, there would need to be a user command
+        available to ensure that a given data transfer was not attempted
+        on an insecure data connection.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

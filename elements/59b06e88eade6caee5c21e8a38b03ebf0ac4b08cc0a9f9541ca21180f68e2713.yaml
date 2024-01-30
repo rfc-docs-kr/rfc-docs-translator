@@ -1,0 +1,18 @@
+"hash": |-
+  59b06e88eade6caee5c21e8a38b03ebf0ac4b08cc0a9f9541ca21180f68e2713
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although the solution using non-random PKCS #1 block type 2 message
+     padding is inelegant, it provides a reasonably secure way for Version
+     3.0 servers to detect the attack.  This solution is not secure
+     against attackers who can brute-force the key and substitute a new
+     ENCRYPTED-KEY-DATA message containing the same key (but with normal
+     padding) before the application-specified wait threshold has expired.
+     Altering the padding of the least-significant 8 bytes of the PKCS
+"fixed": |-
+  Although the solution using non-random PKCS #1 block type 2 message padding is inelegant, it provides a reasonably secure way for Version 3.0 servers to detect the attack.  This solution is not secure against attackers who can brute-force the key and substitute a new ENCRYPTED-KEY-DATA message containing the same key (but with normal padding) before the application-specified wait threshold has expired. Altering the padding of the least-significant 8 bytes of the PKCS
+"ko": |-
+  무작위가 아닌 PKCS #1 블록 유형 2 메시지 패딩을 사용하는 솔루션은 우아하지 않지만 버전 3.0 서버가 공격을 탐지할 수 있는 합리적이고 안전한 방법을 제공합니다. 이 솔루션은 애플리케이션이 지정한 대기 임계값이 만료되기 전에 키를 무차별 대입하여 동일한 키(그러나 일반 패딩 포함)가 포함된 새 ENCRYPTED-KEY-DATA 메시지로 대체할 수 있는 공격자로부터 안전하지 않습니다. PKCS의 최하위 8바이트 패딩 변경

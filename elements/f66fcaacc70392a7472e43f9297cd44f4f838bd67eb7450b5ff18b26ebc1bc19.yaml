@@ -1,0 +1,20 @@
+"hash": |-
+  f66fcaacc70392a7472e43f9297cd44f4f838bd67eb7450b5ff18b26ebc1bc19
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CertificateVerify and Finished messages have the same format as in
+     TLS.  Hash calculations include entire handshake messages, including
+     DTLS-specific fields: message_seq, fragment_offset, and
+     fragment_length.  However, in order to remove sensitivity to
+     handshake message fragmentation, the Finished MAC MUST be computed as
+     if each handshake message had been sent as a single fragment.  Note
+     that in cases where the cookie exchange is used, the initial
+     ClientHello and HelloVerifyRequest MUST NOT be included in the
+     CertificateVerify or Finished MAC computations.
+"fixed": |-
+  CertificateVerify and Finished messages have the same format as in TLS.  Hash calculations include entire handshake messages, including DTLS-specific fields: message_seq, fragment_offset, and fragment_length.  However, in order to remove sensitivity to handshake message fragmentation, the Finished MAC MUST be computed as if each handshake message had been sent as a single fragment.  Note that in cases where the cookie exchange is used, the initial ClientHello and HelloVerifyRequest MUST NOT be included in the CertificateVerify or Finished MAC computations.
+"ko": |-
+  CertificateVerify 및 Finished 메시지는 TLS와 동일한 형식을 갖습니다. 해시 계산에는 DTLS 관련 필드(message_seq, 조각_오프셋 및 조각_길이)를 포함한 전체 핸드셰이크 메시지가 포함됩니다. 그러나 핸드셰이크 메시지 조각화에 대한 민감도를 제거하려면 각 핸드셰이크 메시지가 단일 조각으로 전송된 것처럼 Finished MAC을 계산해야 합니다. 쿠키 교환이 사용되는 경우 초기 ClientHello 및 HelloVerifyRequest는 CertificateVerify 또는 Finished MAC 계산에 포함되어서는 안 됩니다.

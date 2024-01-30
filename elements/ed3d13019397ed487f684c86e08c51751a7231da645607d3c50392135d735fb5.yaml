@@ -1,0 +1,15 @@
+"hash": |-
+  ed3d13019397ed487f684c86e08c51751a7231da645607d3c50392135d735fb5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ; at-most-once per item
+     ; and either streamParm or streamDescriptor but not both
+     mediaParm            = (streamParm / streamDescriptor /
+                             terminationStateDescriptor)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

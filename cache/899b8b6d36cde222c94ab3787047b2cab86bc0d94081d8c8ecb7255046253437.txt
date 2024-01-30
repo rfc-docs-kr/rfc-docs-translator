@@ -1,0 +1,1 @@
+   솔트는 nonce의 "암시적" 부분이며 패킷으로 전송되지 않습니다. 대신 솔트가 핸드셰이크 프로세스의 일부로 생성됩니다. 즉, client_write_IV(클라이언트가 보내는 경우) 또는 server_write_IV(서버가 보내는 경우)입니다. 솔트 길이(SecurityParameters.fixed_iv_length)는 4옥텟입니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  55a06f358798c224cbf7a006fa32e53a56032c3d6b8844d11c5c81449a2ef528
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The same reasoning suggests that the value of MWD should be much
+     shorter for trunking gateways or for business gateways, because they
+     handle a large number of Terminations, and also because the usage
+     rate of these Terminations is much higher than 10% during the peak
+     busy hour, a typical value being 60%.  These Terminations, during the
+     peak hour, are this expected to contribute about one transaction per
+     minute to the Media Gateway Controller load. A reasonable algorithm
+     is to make the value of MWD per "trunk" Termination six times shorter
+     than the MWD per residential gateway, and also inversely proportional
+     to the number of Terminations that are being restarted. For example
+     MWD should be set to 2.5 seconds for a gateway that handles a T1
+     line, or to 60 milliseconds for a gateway that handles a T3 line.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

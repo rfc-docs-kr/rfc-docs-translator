@@ -1,0 +1,20 @@
+"hash": |-
+  1697fbeac55b2dc0e64b6180a88568e25b1a7b111635b6dad7212c4e31fd871b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     $ mesh PKI
+        (I) A non-hierarchical PKI architecture in which there are several
+        trusted CAs rather than a single root. Each certificate user bases
+        path validations on the public key of one of the trusted CAs,
+        usually the one that issued that user's own public-key
+        certificate. Rather than having superior-to-subordinate
+        relationships between CAs, the relationships are peer-to-peer, and
+        CAs issue cross-certificates to each other. (Compare: hierarchical
+        PKI, trust-file PKI.)
+"fixed": |-
+  $ mesh PKI  -  (I) A non-hierarchical PKI architecture in which there are several trusted CAs rather than a single root. Each certificate user bases path validations on the public key of one of the trusted CAs, usually the one that issued that user's own public-key certificate. Rather than having superior-to-subordinate relationships between CAs, the relationships are peer-to-peer, and CAs issue cross-certificates to each other. (Compare: hierarchical PKI, trust-file PKI.)
+"ko": |-
+  $ mesh PKI - (I) 단일 루트가 아닌 여러 개의 신뢰할 수 있는 CA가 있는 비계층적 PKI 아키텍처입니다. 각 인증서 사용자는 신뢰할 수 있는 CA 중 하나(일반적으로 해당 사용자의 공개 키 인증서를 발급한 CA)의 공개 키를 기준으로 경로 유효성 검사를 수행합니다. CA 간의 관계는 상위-하위 관계가 아닌 P2P 관계이며 CA는 서로 교차 인증서를 발급합니다. (비교: 계층적 PKI, 신뢰 파일 PKI.)

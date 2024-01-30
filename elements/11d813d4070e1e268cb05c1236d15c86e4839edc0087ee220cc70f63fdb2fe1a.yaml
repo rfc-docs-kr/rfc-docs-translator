@@ -1,0 +1,23 @@
+"hash": |-
+  11d813d4070e1e268cb05c1236d15c86e4839edc0087ee220cc70f63fdb2fe1a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServMaxRateAbsolute OBJECT-TYPE
+      SYNTAX       Unsigned32  (1..4294967295)
+      UNITS        "kilobits per second"
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The maximum rate in kilobits/sec that a downstream scheduler
+         element should allocate to this queue. If the value is zero, then
+         there is effectively no maximum rate limit and that the scheduler
+         should attempt to be work conserving for this queue. If the value
+         is non-zero, the scheduler will limit the servicing of this queue
+         to, at most, this rate in a non-work-conserving manner.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

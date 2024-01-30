@@ -1,0 +1,59 @@
+"hash": |-
+  cd314810dcc515f3e2ad682afd4777a3e4b1735e27d59b2d44a286eb9ef58ad0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Request   ACK      NAK   #   Attribute
+     0-1       0        0    30   Called-Station-Id (Note 1)
+     0-1       0        0    31   Calling-Station-Id (Note 1)
+     0-1       0        0    32   NAS-Identifier (Note 1)
+     0+        0+       0+   33   Proxy-State
+     0-1       0        0    34   Login-LAT-Service (Note 3)
+     0-1       0        0    35   Login-LAT-Node (Note 3)
+     0-1       0        0    36   Login-LAT-Group (Note 3)
+     0-1       0        0    37   Framed-AppleTalk-Link (Note 3)
+     0+        0        0    38   Framed-AppleTalk-Network (Note 3)
+     0-1       0        0    39   Framed-AppleTalk-Zone (Note 3)
+     0-1       0        0    44   Acct-Session-Id (Note 1)
+     0-1       0        0    50   Acct-Multi-Session-Id (Note 1)
+     0-1       0-1      0-1  55   Event-Timestamp
+     0+        0        0    56   Egress-VLANID (Note 3)
+     0-1       0        0    57   Ingress-Filters (Note 3)
+     0+        0        0    58   Egress-VLAN-Name (Note 3)
+     0-1       0        0    59   User-Priority-Table (Note 3)
+     0-1       0        0    61   NAS-Port-Type (Note 3)
+     0-1       0        0    62   Port-Limit (Note 3)
+     0-1       0        0    63   Login-LAT-Port (Note 3)
+     0+        0        0    64   Tunnel-Type (Note 5)
+     0+        0        0    65   Tunnel-Medium-Type (Note 5)
+     0+        0        0    66   Tunnel-Client-Endpoint (Note 5)
+     0+        0        0    67   Tunnel-Server-Endpoint (Note 5)
+     0+        0        0    69   Tunnel-Password (Note 5)
+     0-1       0        0    71   ARAP-Features (Note 3)
+     0-1       0        0    72   ARAP-Zone-Access (Note 3)
+     0+        0        0    78   Configuration-Token (Note 3)
+     0+        0-1      0    79   EAP-Message (Note 2)
+     0-1       0-1      0-1  80   Message-Authenticator
+     0+        0        0    81   Tunnel-Private-Group-ID (Note 5)
+     0+        0        0    82   Tunnel-Assignment-ID (Note 5)
+     0+        0        0    83   Tunnel-Preference (Note 5)
+     0-1       0        0    85   Acct-Interim-Interval (Note 3)
+     0-1       0        0    87   NAS-Port-Id (Note 1)
+     0-1       0        0    88   Framed-Pool (Note 3)
+     0-1       0        0    89   Chargeable-User-Identity (Note 1)
+     0+        0        0    90   Tunnel-Client-Auth-ID (Note 5)
+     0+        0        0    91   Tunnel-Server-Auth-ID (Note 5)
+     0-1       0        0    92   NAS-Filter-Rule (Note 3)
+     0         0        0    94   Originating-Line-Info
+     0-1       0        0    95   NAS-IPv6-Address (Note 1)
+     0-1       0        0    96   Framed-Interface-Id (Notes 1, 6)
+     0+        0        0    97   Framed-IPv6-Prefix (Notes 1, 6)
+     0+        0        0    98   Login-IPv6-Host (Note 3)
+     0+        0        0    99   Framed-IPv6-Route (Note 3)
+     Request   ACK      NAK   #   Attribute
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

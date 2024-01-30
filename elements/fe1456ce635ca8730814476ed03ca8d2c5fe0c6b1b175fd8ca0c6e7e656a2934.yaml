@@ -1,0 +1,16 @@
+"hash": |-
+  fe1456ce635ca8730814476ed03ca8d2c5fe0c6b1b175fd8ca0c6e7e656a2934
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Before encrypting, the nonce is XORed in and the most significant bit
+     of the last byte is cleared.  This gives
+     d85575d8b1c630e256bb6c2c5f95130f, because that bit happened to be one
+     previously.  Encrypting with the message-encryption key (using
+     AES-128) gives the tag, which is 4fbcdeb7e4793f4a1d7e4faa70100af1.
+"fixed": |-
+  Before encrypting, the nonce is XORed in and the most significant bit of the last byte is cleared.  This gives d85575d8b1c630e256bb6c2c5f95130f, because that bit happened to be one previously.  Encrypting with the message-encryption key (using AES-128) gives the tag, which is 4fbcdeb7e4793f4a1d7e4faa70100af1.
+"ko": |-
+  암호화하기 전에 nonce가 XOR되고 마지막 바이트의 최상위 비트가 지워집니다. 이는 d85575d8b1c630e256bb6c2c5f95130f를 제공합니다. 해당 비트가 이전에 발생했기 때문입니다. 메시지 암호화 키(AES-128 사용)로 암호화하면 4fbcdeb7e4793f4a1d7e4faa70100af1 태그가 제공됩니다.

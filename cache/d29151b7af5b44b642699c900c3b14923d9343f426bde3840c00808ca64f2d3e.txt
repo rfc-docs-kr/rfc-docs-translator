@@ -1,0 +1,1 @@
+   메타데이터 서버에서 정확한 시간을 설정하려면 클라이언트는 LAYOUTCOMMIT 바로 다음에 COMPOUND에서 SETATTR 작업을 사용해야 합니다. 자세한 내용은 섹션 12.5.4를 참조하세요. 클라이언트가 결과 수정 시간을 원하는 경우 GETATTR이 LAYOUTCOMMIT를 따르도록 COMPOUND를 구성해야 합니다.

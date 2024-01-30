@@ -1,0 +1,1 @@
+   RFC 4492는 인증서, 아마도 subjectPublicKeyInfo의 매개변수 필드에 필요한 해시 함수를 지정하기 위한 메커니즘의 표준화를 예상했습니다. 이러한 표준화는 이루어지지 않았고 결과적으로 SHA-1은 TLS 1.1 이전 버전에서 사용됩니다(식별 기능을 사용하는 EdDSA 제외). TLS 1.2는 DigitallySigned 구조체에 SignatureAndHashAlgorithm 매개변수를 추가하여 서명 해시를 선택할 때 민첩성을 허용했습니다. EdDSA 서명에는 HashAlgorithm이 8(고유)이어야 합니다.

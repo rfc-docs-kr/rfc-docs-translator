@@ -1,0 +1,22 @@
+"hash": |-
+  2d929d129fd5df15c68b5216d48ccadbbe03327b9940a3e0a1eb2cbb431f9818
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In particular, ICE requires an agent to obtain a local TCP candidate,
+     bound to a local IP and port, then initiate a TCP connection from
+     that local port (e.g., to the STUN server in order to obtain server
+     reflexive candidates, to the TURN server to obtain a relayed
+     candidate, or to the peer as part of a connectivity check), and be
+     prepared to receive incoming TCP connections (for passive and
+     simultaneous-open candidates).  A "typical" BSD socket is used either
+     for initiating or receiving connections, and not for both.  The code
+     required to allow incoming and outgoing connections on the same local
+     IP and port is non-obvious.  The following pseudocode, contributed by
+     Saikat Guha, has been found to work on many platforms:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

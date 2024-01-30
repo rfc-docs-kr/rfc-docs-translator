@@ -1,0 +1,15 @@
+"hash": |-
+  54600ad2849979f6f5e6d4afab55f1d651b49c5a52fa7b245a908433b0019f89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  Note this check is placed following the sequence check to
+           prevent a segment from an old connection between these port
+           numbers with a different security from causing an abort of the
+           current connection.
+"fixed": |-
+  -  Note this check is placed following the sequence check to prevent a segment from an old connection between these port numbers with a different security from causing an abort of the current connection.
+"ko": |-
+  - 이 검사는 보안이 다른 포트 번호 사이의 이전 연결에서 세그먼트가 현재 연결을 중단하는 것을 방지하기 위해 시퀀스 검사 후에 수행됩니다.

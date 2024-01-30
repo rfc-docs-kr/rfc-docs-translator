@@ -1,0 +1,19 @@
+"hash": |-
+  1b38d865a5f40f1bbf2ad0e1d33dbee389fdc2e733f09c01ea97a545de562c5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the extension is present, the server MAY send a delegated
+     credential; if the extension is not present, the server MUST NOT send
+     a delegated credential.  When a (D)TLS version negotiated is less
+     than 1.3, the server MUST ignore this extension.  An example of when
+     a server could choose not to send a delegated credential is when the
+     SignatureSchemes listed only contain signature schemes for which a
+     corresponding delegated credential does not exist or are otherwise
+     unsuitable for the connection.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

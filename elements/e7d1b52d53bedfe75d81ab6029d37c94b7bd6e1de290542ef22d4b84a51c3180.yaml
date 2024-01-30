@@ -1,0 +1,19 @@
+"hash": |-
+  e7d1b52d53bedfe75d81ab6029d37c94b7bd6e1de290542ef22d4b84a51c3180
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For a connection to be established or initialized, the two TCP peers
+     must synchronize on each other's initial sequence numbers.  This is
+     done in an exchange of connection-establishing segments carrying a
+     control bit called "SYN" (for synchronize) and the initial sequence
+     numbers.  As a shorthand, segments carrying the SYN bit are also
+     called "SYNs".  Hence, the solution requires a suitable mechanism for
+     picking an initial sequence number and a slightly involved handshake
+     to exchange the ISNs.
+"fixed": |-
+  For a connection to be established or initialized, the two TCP peers must synchronize on each other's initial sequence numbers.  This is done in an exchange of connection-establishing segments carrying a control bit called "SYN" (for synchronize) and the initial sequence numbers.  As a shorthand, segments carrying the SYN bit are also called "SYNs".  Hence, the solution requires a suitable mechanism for picking an initial sequence number and a slightly involved handshake to exchange the ISNs.
+"ko": |-
+  연결을 설정하거나 초기화하려면 두 TCP 피어가 서로의 초기 시퀀스 번호를 동기화해야 합니다. 이는 "SYN"(동기화용)이라는 제어 비트와 초기 시퀀스 번호를 전달하는 연결 설정 세그먼트의 교환으로 수행됩니다. 간단히 말해서 SYN 비트를 전달하는 세그먼트를 "SYN"이라고도 합니다. 따라서 솔루션에는 초기 시퀀스 번호를 선택하는 데 적합한 메커니즘과 ISN을 교환하기 위한 약간의 핸드셰이크가 필요합니다.

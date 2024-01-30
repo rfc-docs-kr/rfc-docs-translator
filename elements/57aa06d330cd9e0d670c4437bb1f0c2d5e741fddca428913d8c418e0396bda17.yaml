@@ -1,0 +1,21 @@
+"hash": |-
+  57aa06d330cd9e0d670c4437bb1f0c2d5e741fddca428913d8c418e0396bda17
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              In addition, the Link Data field is specified for each link.
+              This field gives 32 bits of extra information for the link.
+              For links to transit networks, numbered point-to-point links
+              and virtual links, this field specifies the IP interface
+              address of the associated router interface (this is needed
+              by the routing table calculation, see Section 16.1.1).  For
+              links to stub networks, this field specifies the stub
+              network's IP address mask.  For unnumbered point-to-point
+              links, the Link Data field should be set to the unnumbered
+              interface's MIB-II [Ref8] ifIndex value.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

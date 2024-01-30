@@ -1,0 +1,38 @@
+"hash": |-
+  576b7cab57c3268ff278807073272db771fbc0a2c5827a71447a7c6f1da37290
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Request   ACK      NAK   #   Attribute
+     0-1       0        0     1   User-Name (Note 1)
+     0-1       0        0     4   NAS-IP-Address (Note 1)
+     0-1       0        0     5   NAS-Port (Note 1)
+     0-1       0        0-1   6   Service-Type
+     0-1       0        0     7   Framed-Protocol (Note 3)
+     0-1       0        0     8   Framed-IP-Address (Notes 1, 6)
+     0-1       0        0     9   Framed-IP-Netmask (Note 3)
+     0-1       0        0    10   Framed-Routing (Note 3)
+     0+        0        0    11   Filter-ID (Note 3)
+     0-1       0        0    12   Framed-MTU (Note 3)
+     0+        0        0    13   Framed-Compression (Note 3)
+     0+        0        0    14   Login-IP-Host (Note 3)
+     0-1       0        0    15   Login-Service (Note 3)
+     0-1       0        0    16   Login-TCP-Port (Note 3)
+     0+        0        0    18   Reply-Message (Note 2)
+     0-1       0        0    19   Callback-Number (Note 3)
+     0-1       0        0    20   Callback-Id (Note 3)
+     0+        0        0    22   Framed-Route (Note 3)
+     0-1       0        0    23   Framed-IPX-Network (Note 3)
+     0-1       0-1      0-1  24   State
+     0+        0        0    25   Class (Note 3)
+     0+        0        0    26   Vendor-Specific (Note 7)
+     0-1       0        0    27   Session-Timeout (Note 3)
+     0-1       0        0    28   Idle-Timeout (Note 3)
+     0-1       0        0    29   Termination-Action (Note 3)
+     Request   ACK      NAK   #   Attribute
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

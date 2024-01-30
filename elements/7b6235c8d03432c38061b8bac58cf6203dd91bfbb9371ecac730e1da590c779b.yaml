@@ -1,0 +1,17 @@
+"hash": |-
+  7b6235c8d03432c38061b8bac58cf6203dd91bfbb9371ecac730e1da590c779b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For situations where, for some reason, an even higher number of nonce
+     repeats is possible (e.g., in devices with very poor randomness), the
+     message limits need to be reconsidered.  Theorem 7 in [AES-GCM-SIV]
+     contains more details, but for up to 1,024 repeats of each nonce, the
+     limits would be (again assuming a short AAD, i.e., less than 64
+     bytes):
+"fixed": |-
+  For situations where, for some reason, an even higher number of nonce repeats is possible (e.g., in devices with very poor randomness), the message limits need to be reconsidered.  Theorem 7 in [AES-GCM-SIV] contains more details, but for up to 1,024 repeats of each nonce, the limits would be (again assuming a short AAD, i.e., less than 64 bytes):
+"ko": |-
+  어떤 이유로 더 많은 수의 nonce 반복이 가능한 상황(예: 무작위성이 매우 낮은 장치)의 경우 메시지 제한을 다시 고려해야 합니다. [AES-GCM-SIV]의 정리 7에는 더 자세한 내용이 포함되어 있지만 각 Nonce의 최대 1,024번 반복에 대한 제한은 다음과 같습니다(짧은 AAD, 즉 64바이트 미만 가정).

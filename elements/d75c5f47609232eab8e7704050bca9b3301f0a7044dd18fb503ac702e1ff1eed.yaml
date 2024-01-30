@@ -1,0 +1,19 @@
+"hash": |-
+  d75c5f47609232eab8e7704050bca9b3301f0a7044dd18fb503ac702e1ff1eed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When no data is received from a connection for a long time (where the
+     application decides what "long" means), a transport receiver MAY
+     close the connection.  The transport receiver (TLS server) MUST
+     attempt to initiate an exchange of close_notify alerts with the
+     transport sender before closing the connection.  Transport receivers
+     that are unprepared to receive any more data MAY close the connection
+     after sending the close_notify alert, thus generating an incomplete
+     close on the transport sender side.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

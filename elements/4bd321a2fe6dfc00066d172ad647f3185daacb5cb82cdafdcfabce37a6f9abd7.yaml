@@ -1,0 +1,30 @@
+"hash": |-
+  4bd321a2fe6dfc00066d172ad647f3185daacb5cb82cdafdcfabce37a6f9abd7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     {
+       "issuer": "https://server.example.com",
+       "authorization_endpoint": "https://server.example.com/authz",
+       "token_endpoint": "https://server.example.com/token",
+       "introspection_endpoint": "https://server.example.com/introspect",
+       "revocation_endpoint": "https://server.example.com/revo",
+       "jwks_uri": "https://server.example.com/jwks",
+       "response_types_supported": ["code"],
+       "response_modes_supported": ["fragment","query","form_post"],
+       "grant_types_supported": ["authorization_code", "refresh_token"],
+       "token_endpoint_auth_methods_supported":
+                       ["tls_client_auth","client_secret_basic","none"],
+       "tls_client_certificate_bound_access_tokens": true,
+       "mtls_endpoint_aliases": {
+         "token_endpoint": "https://mtls.example.com/token",
+         "revocation_endpoint": "https://mtls.example.com/revo",
+         "introspection_endpoint": "https://mtls.example.com/introspect"
+       }
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

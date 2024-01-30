@@ -1,0 +1,1 @@
+   서버는 "Certificate" 메시지([RFC5246]의 섹션 7.4.2) 직후(및 "ServerKeyExchange" 이전에) "CertificateStatus" 메시지(원래 [RFC6066]에서 정의됨)를 전송하여 인증서와 함께 인증서 상태 응답을 반환합니다. 또는 "CertificateRequest" 메시지). 서버가 "status_request_v2" 요청에 대한 응답으로 "CertificateStatus" 메시지를 반환하는 경우 서버는 확장된 서버 hello에 빈 "extension_data"가 있는 "status_request_v2" 유형의 확장을 포함해야 합니다.

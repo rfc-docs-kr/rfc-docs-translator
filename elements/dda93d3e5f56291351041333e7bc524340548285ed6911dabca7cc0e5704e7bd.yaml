@@ -1,0 +1,20 @@
+"hash": |-
+  dda93d3e5f56291351041333e7bc524340548285ed6911dabca7cc0e5704e7bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     "PORT" command and "PASV" response in FTP control session payload
+     identify the IP address and TCP port that must be used for the data
+     session it supports. The arguments to the PORT command and PASV
+     response are an IP address and a TCP port in ASCII. An FTP ALG is
+     required to monitor and update the FTP control session payload so
+     that information contained in the payload is relevant to end nodes.
+     The ALG must also update NAT with appropriate data session tuples and
+     session orientation so that NAT could set up state information for
+     the FTP data sessions.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

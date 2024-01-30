@@ -1,0 +1,19 @@
+"hash": |-
+  7916137b4987182bacfaaf5fa7db55646812cb881e0d7d5c94453f41f5f25208
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The algorithms presented here were designed to be easy to implement
+     in constant time to avoid side-channel vulnerabilities.  The
+     operations used in ChaCha20 are all additions, XORs, and fixed
+     rotations.  All of these can and should be implemented in constant
+     time.  Access to offsets into the ChaCha state and the number of
+     operations do not depend on any property of the key, eliminating the
+     chance of information about the key leaking through the timing of
+     cache misses.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  ae516002fe48bca3bff637448a6ade3b77d402c56947a830516b8e3f1533219e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To give transactional semantics, the same steps used in single-device
+     operations listed above are used, but are performed in parallel
+     across all devices.  Configuration locks should be acquired on all
+     target devices and kept until all devices are updated and the changes
+     made permanent.  Configuration changes should be uploaded and
+     validation performed across all devices.  Checkpoints should be made
+     on each device.  Then the running configuration can be changed,
+     tested, and made permanent.  If any of these steps fail, the previous
+     configurations can be restored on any devices upon which they were
+     changed.  After the changes have been completely implemented or
+     completely discarded, the locks on each device can be released.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

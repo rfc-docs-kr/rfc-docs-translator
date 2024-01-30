@@ -1,0 +1,35 @@
+"hash": |-
+  1e490975a9981765928594b5a3e6042492196af497edc39898f43db9a425cd1a
+"type": |-
+  Table
+"comment": !!null |-
+  null
+"original": |2-
+      #    Error-Cause Attribute Value   Result-Code AVP
+     ---   ---------------------------  ------------------------
+     201   Residual Session Context     DIAMETER_SUCCESS
+           Removed
+     202   Invalid EAP Packet           DIAMETER_LIMITED_SUCCESS
+           (Ignored)
+     401   Unsupported Attribute        DIAMETER_AVP_UNSUPPORTED
+     402   Missing Attribute            DIAMETER_MISSING_AVP
+     403   NAS Identification           DIAMETER_REALM_NOT_SERVED
+           Mismatch
+     404   Invalid Request              DIAMETER_UNABLE_TO_COMPLY
+     405   Unsupported Service          DIAMETER_COMMAND_UNSUPPORTED
+     406   Unsupported Extension        DIAMETER_APPLICATION_UNSUPPORTED
+     407   Invalid Attribute Value      DIAMETER_INVALID_AVP_VALUE
+     501   Administratively             DIAMETER_AUTHORIZATION_REJECTED
+           Prohibited
+     502   Request Not Routable (Proxy) DIAMETER_UNABLE_TO_DELIVER
+     503   Session Context Not Found    DIAMETER_UNKNOWN_SESSION_ID
+     504   Session Context Not          DIAMETER_AUTHORIZATION_REJECTED
+           Removable
+     505   Other Proxy Processing       DIAMETER_UNABLE_TO_COMPLY
+           Error
+     506   Resources Unavailable        DIAMETER_RESOURCES_EXCEEDED
+     507   Request Initiated            DIAMETER_SUCCESS
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

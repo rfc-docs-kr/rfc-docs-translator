@@ -1,0 +1,1 @@
+   서버는 CLAIM_DELEGATE_PREV의 클레임 유형을 지원할 수 있지만, 지원하는 경우 SETCLIENTID_CONFIRM 시 위임을 제거해서는 안 되며 대신 CLAIM_DELEGATE_PREV를 사용하여 클라이언트 회수에 사용할 수 있도록 해야 합니다. 서버는 클라이언트가 DELEGPURGE를 수행하거나 SETCLIENTID_CONFIRM 또는 마지막 성공적인 CLAIM_DELEGATE_PREV 회수 시간 중 더 늦은 시간부터 하나의 임대 기간이 경과할 때까지 위임을 제거해서는 안 됩니다.

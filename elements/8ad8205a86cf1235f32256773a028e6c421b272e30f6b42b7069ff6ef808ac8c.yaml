@@ -1,0 +1,18 @@
+"hash": |-
+  8ad8205a86cf1235f32256773a028e6c421b272e30f6b42b7069ff6ef808ac8c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The hash and signature algorithms used in the signature MUST be
+        one of those present in the supported_signature_algorithms field
+        of the CertificateRequest message.  In addition, the hash and
+        signature algorithms MUST be compatible with the key in the
+        client's end-entity certificate.  RSA keys MAY be used with any
+        permitted hash algorithm, subject to restrictions in the
+        certificate, if any.
+"fixed": |-
+  - The hash and signature algorithms used in the signature MUST be one of those present in the supported_signature_algorithms field of the CertificateRequest message.  In addition, the hash and signature algorithms MUST be compatible with the key in the client's end-entity certificate.  RSA keys MAY be used with any permitted hash algorithm, subject to restrictions in the certificate, if any.
+"ko": |-
+  - 서명에 사용되는 해시 및 서명 알고리즘은 CertificateRequest 메시지의 Supported_signature_algorithms 필드에 있는 것 중 하나여야 합니다. 또한 해시 및 서명 알고리즘은 클라이언트의 최종 엔터티 인증서에 있는 키와 호환되어야 합니다. RSA 키는 허용된 해시 알고리즘과 함께 사용될 수 있으며, 인증서의 제한 사항이 있는 경우 이에 따라 달라질 수 있습니다.

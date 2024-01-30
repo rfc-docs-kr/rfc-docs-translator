@@ -1,0 +1,20 @@
+"hash": |-
+  2f7c5672b731a4f1240072403a07f6d5233392c96df0ceb884b8d25cc7f874dc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are other cases where the AS/ASP configuration data is created
+     dynamically.  In those cases there would be differences in the state
+     machine, especially at creation of the AS.  For example, where the
+     AS/ASP configuration data is not created until Registration of the
+     first ASP, the AS-INACTIVE state is entered directly upon the nth
+     successful REG REQ from an ASP belonging to that AS.  Another example
+     is where the AS/ASP configuration data is not created until the nth
+     ASP successfully enters the ASP-ACTIVE state.  In this latter case,
+     the AS-ACTIVE state is entered directly.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

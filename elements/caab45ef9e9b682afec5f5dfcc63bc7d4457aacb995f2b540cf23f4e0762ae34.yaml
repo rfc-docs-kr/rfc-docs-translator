@@ -1,0 +1,19 @@
+"hash": |-
+  caab45ef9e9b682afec5f5dfcc63bc7d4457aacb995f2b540cf23f4e0762ae34
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The optional ServiceChangeDelay parameter is expressed in seconds. If
+     the delay is absent or set to zero, the delay value should be
+     considered to be null.  In the case of a "graceful"
+     ServiceChangeMethod, a null delay indicates that the Media Gateway
+     Controller should wait for the natural removal of existing
+     connections and should not establish new connections.  For "graceful"
+     only, a null delay means the MG must not set serviceState "out of
+     service" until the termination is in the null context.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

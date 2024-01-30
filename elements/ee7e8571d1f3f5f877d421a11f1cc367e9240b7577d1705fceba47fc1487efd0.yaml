@@ -1,0 +1,19 @@
+"hash": |-
+  ee7e8571d1f3f5f877d421a11f1cc367e9240b7577d1705fceba47fc1487efd0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  A SMTP client would probably only want to authenticate an SMTP
+        server whose server certificate has a domain name that is the
+        domain name that the client thought it was connecting to.
+     -  A publicly-referenced  SMTP server would probably want to accept
+        any verifiable certificate from an SMTP client, and would possibly
+        want to put distinguishing information about the certificate in
+        the Received header of messages that were relayed or submitted
+        from the client.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

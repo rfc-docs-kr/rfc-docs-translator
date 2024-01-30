@@ -1,0 +1,21 @@
+"hash": |-
+  67b1e3ed834aeffc6a91e3136e0baed77af5361fa3ffabf805699f99447c68a6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the MIB module, diffServRandomDropMinThreshBytes and
+     diffServRandomDropMinThreshPkts represent Qmin.
+     diffServRandomDropMaxThreshBytes and diffServRandomDropMaxThreshPkts
+     represent Qmax.  diffServAlgDropQThreshold represents Qclip.
+     diffServRandomDropInvProbMax represents Pmax (inverse).  This MIB
+     does not represent Pmin (assumed to be zero unless otherwise
+     represented).  In addition, since message memory is finite, queues
+     generally have some upper bound above which they are incapable of
+     storing additional traffic.  Normally this number is equal to Qclip,
+     specified by diffServAlgDropQThreshold.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

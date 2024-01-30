@@ -1,0 +1,1 @@
+func right_pad_to_multiple_of_16_bytes(input) { while (bytelen(input) % 16 != 0) { input = input ++ "\x00" } return input }

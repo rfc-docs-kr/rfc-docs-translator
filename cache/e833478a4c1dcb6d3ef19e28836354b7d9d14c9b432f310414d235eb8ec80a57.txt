@@ -1,0 +1,1 @@
+   Max-Forwards 요청 헤더 필드는 요청 체인의 특정 프록시를 대상으로 하는 데 사용될 수 있습니다. 프록시가 요청 전달이 허용되는 절대URI에서 OPTIONS 요청을 수신하면 프록시는 Max-Forwards 필드를 확인해야 합니다. Max-Forwards 필드 값이 0("0")인 경우 프록시는 메시지를 전달해서는 안 됩니다. 대신 프록시는 자체 통신 옵션으로 응답해야 합니다. Max-Forwards field-value가 0보다 큰 정수인 경우 프록시는 요청을 전달할 때 field-value를 감소시켜야 합니다. 요청에 Max-Forwards 필드가 없으면 전달된 요청에는 Max-Forwards 필드가 포함되어서는 안 됩니다.

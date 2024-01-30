@@ -1,0 +1,15 @@
+"hash": |-
+  07a613b6d831abe42e78b960232ea782f9581effae340229c87496b92fb8af85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This message is always sent by the client.  It MUST immediately
+        follow the client certificate message, if it is sent.  Otherwise,
+        it MUST be the first message sent by the client after it receives
+        the ServerHelloDone message.
+"fixed": |-
+  - This message is always sent by the client.  It MUST immediately follow the client certificate message, if it is sent.  Otherwise, it MUST be the first message sent by the client after it receives the ServerHelloDone message.
+"ko": |-
+  - 이 메시지는 항상 클라이언트에 의해 전송됩니다. 전송된 경우 클라이언트 인증서 메시지 바로 뒤에 와야 합니다. 그렇지 않으면 클라이언트가 ServerHelloDone 메시지를 받은 후 보낸 첫 번째 메시지여야 합니다.

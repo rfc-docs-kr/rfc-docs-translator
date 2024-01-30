@@ -1,0 +1,15 @@
+"hash": |-
+  acdbacb32ad8a1e10f182b594523aedd19186563445ec6d2ccba66b1e33c41b3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        segment       = *pchar
+        segment-nz    = 1*pchar
+        segment-nz-nc = 1*( unreserved / pct-encoded / sub-delims / "@" )
+                      ; non-zero-length segment without any colon ":"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

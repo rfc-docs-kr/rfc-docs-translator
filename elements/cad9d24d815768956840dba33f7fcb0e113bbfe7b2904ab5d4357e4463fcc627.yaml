@@ -1,0 +1,15 @@
+"hash": |-
+  cad9d24d815768956840dba33f7fcb0e113bbfe7b2904ab5d4357e4463fcc627
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     challenge
+        Corresponds to ClientHello.random.  If the challenge length is
+        less than 32, the TLS server will pad the data with leading (note:
+        not trailing) zero bytes to make it 32 bytes long.
+"fixed": |-
+  challenge  -  Corresponds to ClientHello.random.  If the challenge length is less than 32, the TLS server will pad the data with leading (note: not trailing) zero bytes to make it 32 bytes long.
+"ko": |-
+  Challenge - ClientHello.random에 해당합니다. 챌린지 길이가 32보다 작은 경우 TLS 서버는 데이터를 32바이트 길이로 만들기 위해 선행(참고: 후행 아님) 0바이트로 데이터를 채웁니다.

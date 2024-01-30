@@ -1,0 +1,19 @@
+"hash": |-
+  f2e655ed74578d5e910340672f3d182c421213a416f98f92f31451fd05f0be8c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          The routing table lookup algorithm in Section 11.1 has been
+          modified to reflect current practice. The "best match" routing
+          table entry is now always selected to be the one providing the
+          most specific (longest) match. Suppose for example a router is
+          forwarding packets to the destination 192.9.1.1. A routing table
+          entry for 192.9.1/24 will always be a better match than the
+          routing table entry for 192.9/16, regardless of the routing
+          table entries' path-types. Note however that when multiple paths
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

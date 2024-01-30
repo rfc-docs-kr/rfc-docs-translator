@@ -1,0 +1,20 @@
+"hash": |-
+  09d6eb450216e10b33156752d68e04ebaa5557f60b4d78acfd3c6b06af2e4faa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [2] Lower layer error detection.  While EAP does not assume that the
+         lower layer is reliable, it does rely on lower layer error
+         detection (e.g., CRC, Checksum, MIC, etc.).  EAP methods may not
+         include a MIC, or if they do, it may not be computed over all the
+         fields in the EAP packet, such as the Code, Identifier, Length,
+         or Type fields.  As a result, without lower layer error
+         detection, undetected errors could creep into the EAP layer or
+         EAP method layer header fields, resulting in authentication
+         failures.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  3241270fe02c3503e519280f649b1b207b3999cbcb239a11ced9a650672d56cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     cipher_specs
+        This is a list of all CipherSpecs the client is willing and able
+        to use.  In addition to the 2.0 cipher specs defined in [SSL2],
+        this includes the TLS cipher suites normally sent in
+        ClientHello.cipher_suites, with each cipher suite prefixed by a
+        zero byte.  For example, the TLS cipher suite {0x00,0x0A} would be
+        sent as {0x00,0x00,0x0A}.
+"fixed": |-
+  cipher_specs  -  This is a list of all CipherSpecs the client is willing and able to use.  In addition to the 2.0 cipher specs defined in [SSL2], this includes the TLS cipher suites normally sent in ClientHello.cipher_suites, with each cipher suite prefixed by a zero byte.  For example, the TLS cipher suite {0x00,0x0A} would be sent as {0x00,0x00,0x0A}.
+"ko": |-
+  cipher_specs - 클라이언트가 사용할 의향이 있고 사용할 수 있는 모든 CipherSpec의 목록입니다. [SSL2]에 정의된 2.0 암호화 사양 외에도 여기에는 일반적으로 ClientHello.cipher_suites에서 전송되는 TLS 암호화 제품군이 포함되며, 각 암호화 제품군 앞에는 0바이트가 붙습니다. 예를 들어 TLS 암호 그룹 {0x00,0x0A}는 {0x00,0x00,0x0A}로 전송됩니다.

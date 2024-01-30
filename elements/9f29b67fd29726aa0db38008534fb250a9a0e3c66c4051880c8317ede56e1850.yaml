@@ -1,0 +1,21 @@
+"hash": |-
+  9f29b67fd29726aa0db38008534fb250a9a0e3c66c4051880c8317ede56e1850
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              (2) Indicate the backbone.  In this case, the packet has
+                  been sent over a virtual link.  The receiving router
+                  must be an area border router, and the Router ID
+                  specified in the packet (the source router) must be the
+                  other end of a configured virtual link.  The receiving
+                  interface must also attach to the virtual link's
+                  configured Transit area.  If all of these checks
+                  succeed, the packet is accepted and is from now on
+                  associated with the virtual link (and the backbone
+                  area).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,34 @@
+"hash": |-
+  892ad71a4d083a2c3ea972696b367e966683dde8eff5ff081399264c84e8e2a0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        Type   Dest   Area   Path  Type    Cost   Next     Adv.
+                                                  Hop(s)   Router(s)
+        ____________________________________________________________
+        N      N1     0      intra-area    10     RT3      *
+        N      N2     0      intra-area    10     RT3      *
+        N      N3     0      intra-area    7      RT3      *
+        N      N4     0      intra-area    8      RT3      *
+        N      Ib     0      intra-area    7      *        *
+        N      Ia     0      intra-area    12     RT10     *
+        N      N6     0      intra-area    8      RT10     *
+        N      N7     0      intra-area    12     RT10     *
+        N      N8     0      intra-area    10     RT10     *
+        N      N9     0      intra-area    11     RT10     *
+        N      N10    0      intra-area    13     RT10     *
+        N      N11    0      intra-area    14     RT10     *
+        N      H1     0      intra-area    21     RT10     *
+        R      RT5    0      intra-area    6      RT5      *
+        R      RT7    0      intra-area    8      RT10     *
+        ____________________________________________________________
+        N      N12    *      type 1 ext.   10     RT10     RT7
+        N      N13    *      type 1 ext.   14     RT5      RT5
+        N      N14    *      type 1 ext.   14     RT5      RT5
+        N      N15    *      type 1 ext.   17     RT10     RT7
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

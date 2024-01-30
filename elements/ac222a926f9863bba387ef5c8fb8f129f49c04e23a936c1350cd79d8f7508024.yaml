@@ -1,0 +1,21 @@
+"hash": |-
+  ac222a926f9863bba387ef5c8fb8f129f49c04e23a936c1350cd79d8f7508024
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              If a router advertises a summary-LSA for a destination which
+              then becomes unreachable, the router must then flush the LSA
+              from the routing domain by setting its age to MaxAge and
+              reflooding (see Section 14.1).  Also, if the destination is
+              still reachable, yet can no longer be advertised according
+              to the above procedure (e.g., it is now an inter-area route,
+              when it used to be an intra-area route associated with some
+              non-backbone area; it would thus no longer be advertisable
+              to the backbone), the LSA should also be flushed from the
+              routing domain.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  cccf2d1c67d1e2f6d863bd690446e5df5c7f2b25d5420db09750a2ace81ff85f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that in the special case of a rehandshake on an existing
+     association, it is safe to process a data packet immediately, even if
+     the ChangeCipherSpec or Finished messages have not yet been received
+     provided that either the rehandshake resumes the existing session or
+     that it uses exactly the same security parameters as the existing
+     association.  In any other case, the implementation MUST wait for the
+     receipt of the Finished message to prevent downgrade attack.
+"fixed": |-
+  Note that in the special case of a rehandshake on an existing association, it is safe to process a data packet immediately, even if the ChangeCipherSpec or Finished messages have not yet been received provided that either the rehandshake resumes the existing session or that it uses exactly the same security parameters as the existing association.  In any other case, the implementation MUST wait for the receipt of the Finished message to prevent downgrade attack.
+"ko": |-
+  기존 연결에 대한 재핸드셰이크의 특수한 경우에는 ChangeCipherSpec 또는 Finished 메시지가 아직 수신되지 않은 경우에도 재핸드셰이크가 기존 세션을 재개하거나 정확하게 사용하는 경우 데이터 패킷을 즉시 처리하는 것이 안전합니다. 기존 연관과 동일한 보안 매개변수. 다른 경우에는 다운그레이드 공격을 방지하기 위해 구현이 완료 메시지 수신을 기다려야 합니다.

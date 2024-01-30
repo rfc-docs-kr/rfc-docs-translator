@@ -1,0 +1,22 @@
+"hash": |-
+  f1f7de8ed0ff8b6e85550ea65d2e57b641bbbbd1d3aa710fd491f2478c5fe8fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In this example, it is assumed that RT2 has a completely up to
+          date database.  In that case, RT2 goes immediately into Full
+          state.  RT1 will go into Full state after updating the necessary
+          parts of its database.  This is done by sending Link State
+          Request Packets, and receiving Link State Update Packets in
+          response.  Note that, while RT1 has waited until a complete set
+          of Database Description Packets has been received (from RT2)
+          before sending any Link State Request Packets, this need not be
+          the case.  RT1 could have interleaved the sending of Link State
+          Request Packets with the reception of Database Description
+          Packets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

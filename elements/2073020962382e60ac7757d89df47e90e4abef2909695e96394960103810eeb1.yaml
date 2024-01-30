@@ -1,0 +1,17 @@
+"hash": |-
+  2073020962382e60ac7757d89df47e90e4abef2909695e96394960103810eeb1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Messages, being carried over UDP, may be subject to losses. In the
+     absence of a timely response, commands are repeated. Most commands
+     are not idempotent.  The state of the MG would become unpredictable
+     if, for example, Add commands were executed several times.  The
+     transmission procedures shall thus provide an "At- Most-Once"
+     functionality.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

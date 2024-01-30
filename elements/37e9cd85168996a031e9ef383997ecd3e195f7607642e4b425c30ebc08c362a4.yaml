@@ -1,0 +1,21 @@
+"hash": |-
+  37e9cd85168996a031e9ef383997ecd3e195f7607642e4b425c30ebc08c362a4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     func decrypt(key_generating_key,
+                  nonce,
+                  ciphertext,
+                  additional_data) {
+       if bytelen(ciphertext) < 16 || bytelen(ciphertext) > 2^36 + 16 {
+         fail()
+       }
+       if bytelen(additional_data) > 2^36 {
+         fail()
+       }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

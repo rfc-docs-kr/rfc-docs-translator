@@ -1,0 +1,18 @@
+"hash": |-
+  e4cc07b8b86002d564d0993f97df95f5bbd1cc3c6a58324ebf4737ba8e9da83c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The percent-encoding mechanism (Section 2.1) is a frequent source of
+     variance among otherwise identical URIs.  In addition to the case
+     normalization issue noted above, some URI producers percent-encode
+     octets that do not require percent-encoding, resulting in URIs that
+     are equivalent to their non-encoded counterparts.  These URIs should
+     be normalized by decoding any percent-encoded octet that corresponds
+     to an unreserved character, as described in Section 2.3.
+"fixed": |-
+  The percent-encoding mechanism (Section 2.1) is a frequent source of variance among otherwise identical URIs.  In addition to the case normalization issue noted above, some URI producers percent-encode octets that do not require percent-encoding, resulting in URIs that are equivalent to their non-encoded counterparts.  These URIs should be normalized by decoding any percent-encoded octet that corresponds to an unreserved character, as described in Section 2.3.
+"ko": |-
+  백분율 인코딩 메커니즘(섹션 2.1)은 동일한 URI 간의 변동이 자주 발생하는 원인입니다. 위에서 언급한 정규화 문제 외에도 일부 URI 생성자는 백분율 인코딩이 필요하지 않은 옥텟을 백분율 인코딩하여 결과적으로 인코딩되지 않은 대응 항목과 동일한 URI를 생성합니다. 이러한 URI는 섹션 2.3에 설명된 대로 예약되지 않은 문자에 해당하는 백분율로 인코딩된 옥텟을 디코딩하여 정규화되어야 합니다.

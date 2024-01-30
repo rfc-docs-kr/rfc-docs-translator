@@ -1,0 +1,1 @@
+   CLAIM_DELEGATE_PREV 클레임 유형을 지원하는 서버는 DELEGPURGE 작업을 지원해야 하며, 마찬가지로 DELEGPURGE를 지원하는 서버는 CLAIM_DELEGATE_PREV를 지원해야 합니다. CLAIM_DELEGATE_PREV를 지원하지 않는 서버는 클라이언트가 해당 기능을 사용하려고 시도하거나 DELEGPURGE 작업을 수행하는 경우 NFS4ERR_NOTSUPP를 반환해야 합니다.

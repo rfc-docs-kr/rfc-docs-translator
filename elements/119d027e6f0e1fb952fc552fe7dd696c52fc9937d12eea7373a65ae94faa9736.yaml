@@ -1,0 +1,22 @@
+"hash": |-
+  119d027e6f0e1fb952fc552fe7dd696c52fc9937d12eea7373a65ae94faa9736
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Hop-by-Hop Identifier is an unsigned 32-bit integer field (in
+        network byte order) that aids in matching requests and replies.
+        The sender MUST ensure that the Hop-by-Hop Identifier in a request
+        is unique on a given connection at any given time, and it MAY
+        attempt to ensure that the number is unique across reboots.  The
+        sender of an answer message MUST ensure that the Hop-by-Hop
+        Identifier field contains the same value that was found in the
+        corresponding request.  The Hop-by-Hop Identifier is normally a
+        monotonically increasing number, whose start value was randomly
+        generated.  An answer message that is received with an unknown
+        Hop-by-Hop Identifier MUST be discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

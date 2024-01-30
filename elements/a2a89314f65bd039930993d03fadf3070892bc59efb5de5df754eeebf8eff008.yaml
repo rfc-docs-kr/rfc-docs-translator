@@ -1,0 +1,18 @@
+"hash": |-
+  a2a89314f65bd039930993d03fadf3070892bc59efb5de5df754eeebf8eff008
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the application protocol using TLS provides that any data may be
+     carried over the underlying transport after the TLS connection is
+     closed, the TLS implementation MUST receive a "close_notify" alert
+     before indicating end-of-data to the application layer.  No part of
+     this standard should be taken to dictate the manner in which a usage
+     profile for TLS manages its data transport, including when
+     connections are opened or closed.
+"fixed": |-
+  If the application protocol using TLS provides that any data may be carried over the underlying transport after the TLS connection is closed, the TLS implementation MUST receive a "close_notify" alert before indicating end-of-data to the application layer.  No part of this standard should be taken to dictate the manner in which a usage profile for TLS manages its data transport, including when connections are opened or closed.
+"ko": |-
+  TLS를 사용하는 애플리케이션 프로토콜이 TLS 연결이 닫힌 후 기본 전송을 통해 모든 데이터가 전달될 수 있다고 제공하는 경우 TLS 구현은 애플리케이션 계층에 데이터 끝을 알리기 전에 "close_notify" 경고를 수신해야 합니다. 이 표준의 어떤 부분도 연결이 열리거나 닫힐 때를 포함하여 TLS에 대한 사용 프로필이 데이터 전송을 관리하는 방식을 지시하는 데 사용되어서는 안 됩니다.

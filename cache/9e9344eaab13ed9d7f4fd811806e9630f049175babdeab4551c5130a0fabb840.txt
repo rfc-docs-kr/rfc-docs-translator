@@ -1,0 +1,1 @@
+   예를 들어, QoSPolicyRSVPUserVariable 클래스를 사용하여 "user == 'Smith'" 형식의 사용자 이름에 대한 조건을 정의한다고 가정합니다. RSVP 메시지의 사용자 정보는 DN을 제공합니다. DN은 많은 속성을 보유하는 사용자 개체를 가리킵니다. 관련 속성이 "성"인 경우 qpAttributeName = "성", qpAttributeValueList = {"Smith"}와 함께 QoSPolicyAttributeValue 클래스를 사용합니다.

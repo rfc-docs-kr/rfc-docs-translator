@@ -1,0 +1,23 @@
+"hash": |-
+  7e92188f1392502d809ed8c19be9e2bb3ad6311e953dfa9236f43fc58e932aff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      OSPF does not define a way to fragment its protocol packets, and
+      depends on IP fragmentation when transmitting packets larger than
+      the network MTU. If necessary, the length of OSPF packets can be up
+      to 65,535 bytes (including the IP header).  The OSPF packet types
+      that are likely to be large (Database Description Packets, Link
+      State Request, Link State Update, and Link State Acknowledgment
+      packets) can usually be split into several separate protocol
+      packets, without loss of functionality.  This is recommended; IP
+      fragmentation should be avoided whenever possible.  Using this
+      reasoning, an attempt should be made to limit the sizes of OSPF
+      packets sent over virtual links to 576 bytes unless Path MTU
+      Discovery is being performed (see [Ref22]).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

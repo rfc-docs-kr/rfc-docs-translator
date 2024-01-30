@@ -1,0 +1,19 @@
+"hash": |-
+  f147985addc0418bd58096a1e98b4177e86b1670bd752f59bc39067ef458b411
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the ASP sends an ASP Down message, it starts timer T(ack).  If
+     the ASP does not receive a response to an ASP Down message within
+     T(ack), the ASP MAY restart T(ack) and resend ASP Down messages until
+     it receives an ASP Down Ack message.  T(ack) is provisionable, with a
+     default of 2 seconds.  Alternatively, retransmission of ASP Down
+     messages MAY be put under control of Layer Management.  In this
+     method, expiry of T(ack) results in an M-ASP_DOWN confirm primitive,
+     carrying a negative indication.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  2c33329c5adbb6a67799fd6167a6d5e921013847d6225c8bfdf23942f724b0e3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If this happens, the sender SHOULD NOT send new data (SHLD-15), but
+     SHOULD retransmit normally the old unacknowledged data between
+     SND.UNA and SND.UNA+SND.WND (SHLD-16).  The sender MAY also
+     retransmit old data beyond SND.UNA+SND.WND (MAY-7), but SHOULD NOT
+     time out the connection if data beyond the right window edge is not
+     acknowledged (SHLD-17).  If the window shrinks to zero, the TCP
+     implementation MUST probe it in the standard way (described below)
+     (MUST-35).
+"fixed": |-
+  If this happens, the sender SHOULD NOT send new data (SHLD-15), but SHOULD retransmit normally the old unacknowledged data between SND.UNA and SND.UNA+SND.WND (SHLD-16).  The sender MAY also retransmit old data beyond SND.UNA+SND.WND (MAY-7), but SHOULD NOT time out the connection if data beyond the right window edge is not acknowledged (SHLD-17).  If the window shrinks to zero, the TCP implementation MUST probe it in the standard way (described below) (MUST-35).
+"ko": |-
+  이런 일이 발생하면 발신자는 새 데이터(SHLD-15)를 보내면 안 되지만, SND.UNA와 SND.UNA+SND.WND(SHLD-16) 사이에 확인되지 않은 이전 데이터를 정상적으로 재전송해야 합니다. 발신자는 또한 SND.UNA+SND.WND(MAY-7)를 넘어 오래된 데이터를 재전송할 수 있지만(SHLD-17) 오른쪽 창 가장자리를 넘어선 데이터가 승인되지 않으면 연결 시간을 초과해서는 안 됩니다. 창이 0으로 축소되면 TCP 구현은 이를 표준 방식(아래 설명)으로 조사해야 합니다(MUST-35).

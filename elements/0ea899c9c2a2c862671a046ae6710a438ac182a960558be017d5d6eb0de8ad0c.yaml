@@ -1,0 +1,15 @@
+"hash": |-
+  0ea899c9c2a2c862671a046ae6710a438ac182a960558be017d5d6eb0de8ad0c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A relay or proxy agent MUST check for forwarding loops when receiving
+     requests.  A loop is detected if the server finds its own identity in
+     a Route-Record AVP.  When such an event occurs, the agent MUST answer
+     with the Result-Code AVP set to DIAMETER_LOOP_DETECTED.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

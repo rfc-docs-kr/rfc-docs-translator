@@ -1,0 +1,27 @@
+"hash": |-
+  fdf1ce9f26a93acf8a63f69613c6700db2b45c9151d4aca31ba065be79d04f5a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              leaf startup {
+                if-feature startup;
+                type empty;
+                description
+                  "The startup configuration is the config target.";
+              }
+              leaf url {
+                if-feature url;
+                type inet:uri;
+                description
+                  "The URL-based configuration is the config target.";
+              }
+            }
+          }
+        }
+      }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+이전 버전의 TLS에서는 CertificateRequest 메시지에 서버가 수락하는 서명 알고리즘 및 인증 기관 목록이 포함되었습니다. TLS 1.3에서 전자는 "signature_algorithms" 및 선택적으로 "signature_algorithms_cert" 확장을 전송하여 표현됩니다. 후자는 "certificate_authorities" 확장을 전송하여 표현됩니다(섹션 4.2.4 참조).

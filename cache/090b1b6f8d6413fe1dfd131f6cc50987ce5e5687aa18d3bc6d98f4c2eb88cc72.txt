@@ -1,0 +1,1 @@
+   클라이언트가 ClientHello 메시지를 전송하면 서버에서 HelloVerifyRequest를 볼 것으로 예상합니다. 그러나 서버의 메시지가 손실되면 클라이언트는 ClientHello 또는 HelloVerifyRequest가 손실되었음을 알고 재전송합니다. 서버는 재전송을 수신하면 재전송을 인지합니다. 또한 서버는 재전송 타이머를 유지하고 해당 타이머가 만료되면 재전송합니다.

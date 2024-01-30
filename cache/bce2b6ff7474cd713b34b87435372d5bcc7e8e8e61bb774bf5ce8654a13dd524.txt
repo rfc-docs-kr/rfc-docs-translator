@@ -1,0 +1,1 @@
+- 클라이언트 ID는 동일한 eir_server_owner.so_major_id를 공유하는 서버에 연결된 모든 연결에 걸쳐 있을 수 있지만 spi_handles에 반환된 RPCSEC_GSS 핸들은 동일한 eir_server_owner.so_major_id 및 eir_server_owner를 반환하는 서버에 연결된 연결에서만 사용할 수 있습니다. 각 연결의 so_minor_id입니다. 클라이언트가 ssp_num_gss_handles를 0으로 설정하는 것은 허용됩니다. 클라이언트는 또 다른 EXCHANGE_ID 호출을 통해 더 많은 핸들을 생성할 수 있습니다.

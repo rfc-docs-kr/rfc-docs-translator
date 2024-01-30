@@ -1,0 +1,20 @@
+"hash": |-
+  f7980f0697db6211b8b93fc63f863f84adf29719317a8208067572d71331c03a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is the responsibility of the requesting entity to provide
+     suitable time outs for all outstanding transactions, and to retry
+     transactions when time outs have been exceeded. Furthermore, when
+     repeated transactions fail to be acknowledged, it is the
+     responsibility of the requesting entity to seek redundant services
+     and/or clear existing or pending connections.  Implementations SHALL
+     ensure that the algorithm used to calculate retransmission timing
+     performs an exponentially increasing backoff of the retransmission
+     timeout for each retransmission or repetition after the first one.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

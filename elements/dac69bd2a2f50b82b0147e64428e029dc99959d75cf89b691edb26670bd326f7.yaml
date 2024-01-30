@@ -1,0 +1,16 @@
+"hash": |-
+  dac69bd2a2f50b82b0147e64428e029dc99959d75cf89b691edb26670bd326f7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The full ClientHello1/ClientHello2 is included in all other handshake
+     hash computations.  Note that in the first flight,
+     Truncate(ClientHello1) is hashed directly, but in the second flight,
+     ClientHello1 is hashed and then reinjected as a "message_hash"
+     message, as described in Section 4.4.1.
+"fixed": |-
+  The full ClientHello1/ClientHello2 is included in all other handshake hash computations.  Note that in the first flight, Truncate(ClientHello1) is hashed directly, but in the second flight, ClientHello1 is hashed and then reinjected as a "message_hash" message, as described in Section 4.4.1.
+"ko": |-
+  전체 ClientHello1/ClientHello2는 다른 모든 핸드셰이크 해시 계산에 포함됩니다. 첫 번째 단계에서는 Truncate(ClientHello1)가 직접 해시되지만 두 번째 단계에서는 섹션 4.4.1에 설명된 대로 ClientHello1이 해시된 다음 "message_hash" 메시지로 다시 주입됩니다.

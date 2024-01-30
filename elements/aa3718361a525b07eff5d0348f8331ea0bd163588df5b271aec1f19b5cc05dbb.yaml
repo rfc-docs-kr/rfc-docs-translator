@@ -1,0 +1,21 @@
+"hash": |-
+  aa3718361a525b07eff5d0348f8331ea0bd163588df5b271aec1f19b5cc05dbb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     NAT devices attempt to provide a transparent routing solution to end
+     hosts trying to communicate from disparate address realms. This is
+     achieved by modifying end node addresses en-route and maintaining
+     state for these updates so that datagrams pertaining to a session are
+     routed to the right end-node in either realm. This solution only
+     works when the applications do not use the IP addresses as part of
+     the protocol itself. For example, identifying endpoints using DNS
+     names rather than addresses makes applications less dependent of the
+     actual addresses that NAT chooses and avoids the need to also
+     translate payload contents when NAT changes an IP address.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,28 @@
+"hash": |-
+  8fa0aadf18313a06c159a03d880a792f82cd3c0838e7a3f04aa7c06279cd17b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Ultimately, servers have the responsibility to protect themselves
+     against attacks employing 0-RTT data replication.  The mechanisms
+     described in Section 8 are intended to prevent replay at the TLS
+     layer but do not provide complete protection against receiving
+     multiple copies of client data.  TLS 1.3 falls back to the 1-RTT
+     handshake when the server does not have any information about the
+     client, e.g., because it is in a different cluster which does not
+     share state or because the ticket has been deleted as described in
+     Section 8.1.  If the application-layer protocol retransmits data in
+     this setting, then it is possible for an attacker to induce message
+     duplication by sending the ClientHello to both the original cluster
+     (which processes the data immediately) and another cluster which will
+     fall back to 1-RTT and process the data upon application-layer
+     replay.  The scale of this attack is limited by the client's
+     willingness to retry transactions and therefore only allows a limited
+     amount of duplication, with each copy appearing as a new connection
+     at the server.
+"fixed": |-
+  Ultimately, servers have the responsibility to protect themselves against attacks employing 0-RTT data replication.  The mechanisms described in Section 8 are intended to prevent replay at the TLS layer but do not provide complete protection against receiving multiple copies of client data.  TLS 1.3 falls back to the 1-RTT handshake when the server does not have any information about the client, e.g., because it is in a different cluster which does not share state or because the ticket has been deleted as described in Section 8.1.  If the application-layer protocol retransmits data in this setting, then it is possible for an attacker to induce message duplication by sending the ClientHello to both the original cluster (which processes the data immediately) and another cluster which will fall back to 1-RTT and process the data upon application-layer replay.  The scale of this attack is limited by the client's willingness to retry transactions and therefore only allows a limited amount of duplication, with each copy appearing as a new connection at the server.
+"ko": |-
+  궁극적으로 서버는 0-RTT 데이터 복제를 사용하는 공격으로부터 자신을 보호할 책임이 있습니다. 섹션 8에 설명된 메커니즘은 TLS 계층에서 재생을 방지하기 위한 것이지만 클라이언트 데이터의 여러 복사본 수신에 대한 완전한 보호를 제공하지는 않습니다. TLS 1.3은 서버에 클라이언트에 대한 정보가 없는 경우(예: 상태를 공유하지 않는 다른 클러스터에 있거나 섹션 8.1에 설명된 대로 티켓이 삭제된 경우) 1-RTT 핸드셰이크로 대체됩니다. 애플리케이션 계층 프로토콜이 이 설정에서 데이터를 재전송하는 경우 공격자가 원래 클러스터(데이터를 즉시 처리함)와 1-RTT로 폴백할 다른 클러스터 모두에 ClientHello를 전송하여 메시지 복제를 유도할 수 있습니다. 애플리케이션 계층 재생 시 데이터를 처리합니다. 이 공격의 규모는 트랜잭션을 재시도하려는 클라이언트의 의지에 따라 제한되므로 제한된 양의 복제만 허용되며 각 복사본은 서버에서 새로운 연결로 나타납니다.

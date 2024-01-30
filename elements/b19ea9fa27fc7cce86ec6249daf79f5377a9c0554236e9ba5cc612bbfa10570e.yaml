@@ -1,0 +1,20 @@
+"hash": |-
+  b19ea9fa27fc7cce86ec6249daf79f5377a9c0554236e9ba5cc612bbfa10570e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the Key Exchange phase, the client sends the ClientHello
+     (Section 4.1.2) message, which contains a random nonce
+     (ClientHello.random); its offered protocol versions; a list of
+     symmetric cipher/HKDF hash pairs; either a set of Diffie-Hellman key
+     shares (in the "key_share" (Section 4.2.8) extension), a set of
+     pre-shared key labels (in the "pre_shared_key" (Section 4.2.11)
+     extension), or both; and potentially additional extensions.
+     Additional fields and/or messages may also be present for middlebox
+     compatibility.
+"fixed": |-
+  In the Key Exchange phase, the client sends the ClientHello (Section 4.1.2) message, which contains a random nonce (ClientHello.random); its offered protocol versions; a list of symmetric cipher/HKDF hash pairs; either a set of Diffie-Hellman key shares (in the "key_share" (Section 4.2.8) extension), a set of pre-shared key labels (in the "pre_shared_key" (Section 4.2.11) extension), or both; and potentially additional extensions. Additional fields and/or messages may also be present for middlebox compatibility.
+"ko": |-
+  키 교환 단계에서 클라이언트는 임의의 nonce(ClientHello.random)가 포함된 ClientHello(섹션 4.1.2) 메시지를 보냅니다. 제공되는 프로토콜 버전 대칭 암호/HKDF 해시 쌍 목록 Diffie-Hellman 키 공유 세트("key_share"(섹션 4.2.8) 확장), 사전 공유 키 레이블 세트("pre_shared_key"(섹션 4.2.11) 확장) 또는 둘 다. 잠재적으로 추가 확장이 가능합니다. 미들박스 호환성을 위해 추가 필드 및/또는 메시지가 있을 수도 있습니다.

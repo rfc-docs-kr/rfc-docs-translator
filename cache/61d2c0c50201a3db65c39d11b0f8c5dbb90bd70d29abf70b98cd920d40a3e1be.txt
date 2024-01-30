@@ -1,0 +1,1 @@
+   id-bvae-invalidKeyUsage 값은 최종 인증서의 keyUsage 확장([PKIX-1], 섹션 4.2.1.3)이 유효성 검사 정책을 충족하지 않음을 의미합니다. 예를 들어 인증서의 keyUsage 확장은 keyEncipherment 비트만 어설션할 수 있지만 유효성 검사 정책은 keyUsages 항목에 digitalSignature가 필요함을 지정합니다.

@@ -1,0 +1,1 @@
+   KeyAgreePublicKey에는 알고리즘 식별자와 서버의 공개 키가 포함됩니다. SCVP 요청에 대한 AuthenticatedData의 키 계약 모드를 지원하는 SCVP 서버는 [PKIX-ALG]에 지정된 대로 serverPublicKeys 및 Diffie-Hellman 키 계약 알고리즘을 지원해야 합니다. serverPublicKeys를 지원하는 SCVP 서버는 [IKE]에 정의된 대로 1024비트 MODP(Modular Exponential) 그룹 키(그룹 2)를 지원해야 합니다. serverPublicKeys를 지원하는 SCVP 서버는 다른 Diffie-Hellman 그룹[IKE-GROUPS]과 기타 키 계약 알고리즘을 지원할 수 있습니다.

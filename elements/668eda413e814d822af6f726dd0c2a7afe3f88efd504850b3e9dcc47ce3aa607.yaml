@@ -1,0 +1,24 @@
+"hash": |-
+  668eda413e814d822af6f726dd0c2a7afe3f88efd504850b3e9dcc47ce3aa607
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The Designated Router is elected by the Hello Protocol.  A
+          router's Hello Packet contains its Router Priority, which is
+          configurable on a per-interface basis.  In general, when a
+          router's interface to a network first becomes functional, it
+          checks to see whether there is currently a Designated Router for
+          the network.  If there is, it accepts that Designated Router,
+          regardless of its Router Priority.  (This makes it harder to
+          predict the identity of the Designated Router, but ensures that
+          the Designated Router changes less often.  See below.)
+          Otherwise, the router itself becomes Designated Router if it has
+          the highest Router Priority on the network.  A more detailed
+          (and more accurate) description of Designated Router election is
+          presented in Section 9.4.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

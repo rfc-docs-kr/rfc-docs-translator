@@ -1,0 +1,22 @@
+"hash": |-
+  1378f031757c7842fb200bfe01b3f2da79ba3dcd31693a054dfeb01708b11c7d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each block of ChaCha20 involves 16 move operations and one increment
+     operation for loading the state, 80 each of XOR, addition and Roll
+     operations for the rounds, 16 more add operations and 16 XOR
+     operations for protecting the plaintext.  Section 2.3 describes the
+     ChaCha block function as "adding the original input words".  This
+     implies that before starting the rounds on the ChaCha state, we copy
+     it aside, only to add it in later.  This is correct, but we can save
+     a few operations if we instead copy the state and do the work on the
+     copy.  This way, for the next block you don't need to recreate the
+     state, but only to increment the block counter.  This saves
+     approximately 5.5% of the cycles.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  fbc9c29d09ba9816a0f69ee67b7959c95b3d7161b097c6a4eef3487b69fe3928
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   Another important TCP performance issue is that some
+                   applications, especially remote login to character-at-
+                   a-time hosts, tend to send streams of one-octet data
+                   segments.  To avoid deadlocks, every TCP SEND call from
+                   such applications must be "pushed", either explicitly
+                   by the application or else implicitly by TCP.  The
+                   result may be a stream of TCP segments that contain one
+                   data octet each, which makes very inefficient use of
+                   the Internet and contributes to Internet congestion.
+                   The Nagle Algorithm described in Section 4.2.3.4
+                   provides a simple and effective solution to this
+                   problem.  It does have the effect of clumping
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

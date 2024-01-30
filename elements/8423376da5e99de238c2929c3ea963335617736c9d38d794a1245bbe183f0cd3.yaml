@@ -1,0 +1,17 @@
+"hash": |-
+  8423376da5e99de238c2929c3ea963335617736c9d38d794a1245bbe183f0cd3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           o  If SND.UNA < SEG.ACK =< SND.NXT, then the ACK is acceptable.
+              Some deployed TCP code has used the check SEG.ACK == SND.NXT
+              (using "==" rather than "=<"), but this is not appropriate
+              when the stack is capable of sending data on the SYN because
+              the TCP peer may not accept and acknowledge all of the data
+              on the SYN.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

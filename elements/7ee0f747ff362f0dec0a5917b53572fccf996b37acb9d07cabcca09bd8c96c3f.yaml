@@ -1,0 +1,21 @@
+"hash": |-
+  7ee0f747ff362f0dec0a5917b53572fccf996b37acb9d07cabcca09bd8c96c3f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServAlgDropQThreshold OBJECT-TYPE
+      SYNTAX       Unsigned32  (1..4294967295)
+      UNITS        "Bytes"
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "A threshold on the depth in bytes of the queue being measured at
+         which a trigger is generated to the dropping algorithm, unless
+         diffServAlgDropType is alwaysDrop(5) where this object is
+         ignored.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

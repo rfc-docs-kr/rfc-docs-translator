@@ -1,0 +1,19 @@
+"hash": |-
+  0cc1926bf58e1af41020ac3a6f0e09fbac15f4a2de31b7363abd1a5516808d3f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The legacy Nak Type is valid only in Response messages.  It is
+        sent in reply to a Request where the desired authentication Type
+        is unacceptable.  Authentication Types are numbered 4 and above.
+        The Response contains one or more authentication Types desired by
+        the Peer.  Type zero (0) is used to indicate that the sender has
+        no viable alternatives, and therefore the authenticator SHOULD NOT
+        send another Request after receiving a Nak Response containing a
+        zero value.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

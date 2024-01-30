@@ -1,0 +1,1 @@
+   그러한 전송 변환기가 쿠키를 포함하지 않는 TCP Fast Open Cookie 옵션으로 Connect TLV를 수신하는 경우 원격 서버로 전송되는 SYN에 빈 TCP Fast Open Cookie 옵션을 추가해야 합니다. 원격 서버가 TFO를 지원하는 경우 [RFC7413]의 4.1.2절 절차에 따라 SYN-ACK로 응답합니다. 이 SYN-ACK에는 쿠키와 함께 Fast Open 옵션이 포함될 수 있습니다. 변환기가 SYN-ACK를 받으면 쿠키와 함께 Fast Open 옵션을 클라이언트에 전달합니다.

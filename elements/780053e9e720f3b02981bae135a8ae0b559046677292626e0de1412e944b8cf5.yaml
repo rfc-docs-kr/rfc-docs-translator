@@ -1,0 +1,23 @@
+"hash": |-
+  780053e9e720f3b02981bae135a8ae0b559046677292626e0de1412e944b8cf5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although TLS 1.3 does not use RSA key transport and so is not
+     directly susceptible to Bleichenbacher-type attacks [Blei98], if TLS
+     1.3 servers also support static RSA in the context of previous
+     versions of TLS, then it may be possible to impersonate the server
+     for TLS 1.3 connections [JSS15].  TLS 1.3 implementations can prevent
+     this attack by disabling support for static RSA across all versions
+     of TLS.  In principle, implementations might also be able to separate
+     certificates with different keyUsage bits for static RSA decryption
+     and RSA signature, but this technique relies on clients refusing to
+     accept signatures using keys in certificates that do not have the
+     digitalSignature bit set, and many clients do not enforce this
+     restriction.
+"fixed": |-
+  Although TLS 1.3 does not use RSA key transport and so is not directly susceptible to Bleichenbacher-type attacks [Blei98], if TLS 1.3 servers also support static RSA in the context of previous versions of TLS, then it may be possible to impersonate the server for TLS 1.3 connections [JSS15].  TLS 1.3 implementations can prevent this attack by disabling support for static RSA across all versions of TLS.  In principle, implementations might also be able to separate certificates with different keyUsage bits for static RSA decryption and RSA signature, but this technique relies on clients refusing to accept signatures using keys in certificates that do not have the digitalSignature bit set, and many clients do not enforce this restriction.
+"ko": |-
+  TLS 1.3은 RSA 키 전송을 사용하지 않으므로 Bleichenbacher 유형 공격[Blei98]에 직접적으로 취약하지 않지만 TLS 1.3 서버가 이전 TLS 버전의 컨텍스트에서 정적 RSA를 지원하는 경우 서버를 가장하는 것이 가능할 수 있습니다. TLS 1.3 연결 [JSS15]의 경우. TLS 1.3 구현은 모든 TLS 버전에서 정적 RSA에 대한 지원을 비활성화하여 이 공격을 방지할 수 있습니다. 원칙적으로 구현 시 정적 RSA 복호화 및 RSA 서명에 대해 서로 다른 keyUsage 비트를 사용하여 인증서를 분리할 수도 있지만 이 기술은 클라이언트가 digitalSignature 비트가 설정되지 않은 인증서의 키를 사용하여 서명을 수락하는 것을 거부하고 많은 클라이언트가 이를 수행합니다. 이 제한을 시행하지 마세요.

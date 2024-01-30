@@ -1,0 +1,57 @@
+"hash": |-
+  c437f8ec58e041809edd6e561bc78d52f4f6344d24e9f3d450a4b190a5fb46db
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1.   Introduction. . . . . . . . . . . . . . . . . . . . . . . . .  3
+          1.1.  Specification of Requirements . . . . . . . . . . . . .  4
+          1.2.  Terminology . . . . . . . . . . . . . . . . . . . . . .  4
+          1.3.  Applicability . . . . . . . . . . . . . . . . . . . . .  6
+     2.   Extensible Authentication Protocol (EAP). . . . . . . . . . .  7
+          2.1.  Support for Sequences . . . . . . . . . . . . . . . . .  9
+          2.2.  EAP Multiplexing Model. . . . . . . . . . . . . . . . . 10
+          2.3.  Pass-Through Behavior . . . . . . . . . . . . . . . . . 12
+          2.4.  Peer-to-Peer Operation. . . . . . . . . . . . . . . . . 14
+     3.   Lower Layer Behavior. . . . . . . . . . . . . . . . . . . . . 15
+          3.1.  Lower Layer Requirements. . . . . . . . . . . . . . . . 15
+          3.2.  EAP Usage Within PPP. . . . . . . . . . . . . . . . . . 18
+                3.2.1. PPP Configuration Option Format. . . . . . . . . 18
+          3.3.  EAP Usage Within IEEE 802 . . . . . . . . . . . . . . . 19
+          3.4.  Lower Layer Indications . . . . . . . . . . . . . . . . 19
+     4.   EAP Packet Format . . . . . . . . . . . . . . . . . . . . . . 20
+          4.1.  Request and Response. . . . . . . . . . . . . . . . . . 21
+          4.2.  Success and Failure . . . . . . . . . . . . . . . . . . 23
+          4.3.  Retransmission Behavior . . . . . . . . . . . . . . . . 26
+     5.   Initial EAP Request/Response Types. . . . . . . . . . . . . . 27
+          5.1.  Identity. . . . . . . . . . . . . . . . . . . . . . . . 28
+          5.2.  Notification. . . . . . . . . . . . . . . . . . . . . . 29
+          5.3.  Nak . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+                5.3.1. Legacy Nak . . . . . . . . . . . . . . . . . . . 31
+                5.3.2. Expanded Nak . . . . . . . . . . . . . . . . . . 32
+          5.4.  MD5-Challenge . . . . . . . . . . . . . . . . . . . . . 35
+          5.5.  One-Time Password (OTP) . . . . . . . . . . . . . . . . 36
+          5.6.  Generic Token Card (GTC). . . . . . . . . . . . . . . . 37
+          5.7.  Expanded Types. . . . . . . . . . . . . . . . . . . . . 38
+          5.8.  Experimental. . . . . . . . . . . . . . . . . . . . . . 40
+     6.   IANA Considerations . . . . . . . . . . . . . . . . . . . . . 40
+          6.1.  Packet Codes. . . . . . . . . . . . . . . . . . . . . . 41
+          6.2.  Method Types. . . . . . . . . . . . . . . . . . . . . . 41
+     7.   Security Considerations . . . . . . . . . . . . . . . . . . . 42
+          7.1.  Threat Model. . . . . . . . . . . . . . . . . . . . . . 42
+          7.2.  Security Claims . . . . . . . . . . . . . . . . . . . . 43
+                7.2.1. Security Claims Terminology for EAP Methods. . . 44
+          7.3.  Identity Protection . . . . . . . . . . . . . . . . . . 46
+          7.4.  Man-in-the-Middle Attacks . . . . . . . . . . . . . . . 47
+          7.5.  Packet Modification Attacks . . . . . . . . . . . . . . 48
+          7.6.  Dictionary Attacks. . . . . . . . . . . . . . . . . . . 49
+          7.7.  Connection to an Untrusted Network. . . . . . . . . . . 49
+          7.8.  Negotiation Attacks . . . . . . . . . . . . . . . . . . 50
+          7.9.  Implementation Idiosyncrasies . . . . . . . . . . . . . 50
+          7.10. Key Derivation. . . . . . . . . . . . . . . . . . . . . 51
+          7.11. Weak Ciphersuites . . . . . . . . . . . . . . . . . . . 53
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

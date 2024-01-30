@@ -1,0 +1,4 @@
+                    초기화_비밀_[n-1]
+
+- | | V commit_secret --> KDF.Extract | | V ExpandWithLabel(., "joiner", GroupContext_[n], KDF.Nh) | | V 결합자_비밀 | | V
+psk_secret (또는 0) --> KDF.Extract | | +--> DeriveSecret(., "환영합니다") | = welcome_secret | V ExpandWithLabel(., "epoch", GroupContext_[n], KDF.Nh) | | V epoch_secret | | +--> DeriveSecret(., <레이블>) | = <비밀> | V DeriveSecret(., "초기화") | | V init_secret_[n]

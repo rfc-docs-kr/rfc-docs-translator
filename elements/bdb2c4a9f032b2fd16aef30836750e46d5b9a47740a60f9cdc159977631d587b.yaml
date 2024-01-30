@@ -1,0 +1,20 @@
+"hash": |-
+  bdb2c4a9f032b2fd16aef30836750e46d5b9a47740a60f9cdc159977631d587b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A pinned certificate is subject to a man-in-the-middle attack at
+     account setup time and typically lacks a mechanism to automatically
+     revoke or securely refresh the certificate.  Note also that a man-in-
+     the-middle attack at account setup time will expose the user's
+     password to the attacker (if a password is used).  Therefore, the use
+     of a pinned certificate does not meet the requirement for a minimum
+     confidentiality level, and an MUA MUST NOT indicate to the user that
+     such confidentiality is provided.  Additional advice on certificate
+     pinning is presented in [RFC6125].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

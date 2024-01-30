@@ -1,0 +1,19 @@
+"hash": |-
+  e4c64d2232339a6e308afcfb9e638be0429174a4f45eef729afdb9ef8f5d7853
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A particular value of Accounting-Sub-Session-Id MUST appear only in
+     one sequence of accounting records from a Diameter client, except for
+     the purposes of retransmission.  The one sequence that is sent MUST
+     be either one record with Accounting-Record-Type AVP set to the value
+     EVENT_RECORD or several records starting with one having the value
+     START_RECORD, followed by zero or more INTERIM_RECORDs and a single
+     STOP_RECORD.  A particular Diameter application specification MUST
+     define the type of sequences that MUST be used.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

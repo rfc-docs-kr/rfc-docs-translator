@@ -1,0 +1,27 @@
+"hash": |-
+  66e6672da74ea21e65c9e0eca8b4b36e216892a6a70f9666e25a75d51237a9bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: This attack seeks to exploit a vulnerability in the TCP
+        specification or in a TCP implementation. Normally, two hosts use
+        a three-way exchange of packets to establish a TCP connection: (a)
+        host 1 requests a connection by sending a SYN packet to host 2;
+        (b) host 2 replies by sending a SYN-ACK (acknowledgement) packet
+        to host 1; and (c) host 1 completes the connection by sending an
+        ACK packet to host 2. To attack host 2, host 1 can send a series
+        of TCP SYNs, each with a different phony source address. ([R2827]
+        discusses how to use packet filtering to prevent such attacks from
+        being launched from behind an Internet service provider's
+        aggregation point.) Host 2 treats each SYN as a request from a
+        separate host, replies to each with a SYN-ACK, and waits to
+        receive the matching ACKs. (The attacker can use random or
+        unreachable sources addresses in the SYN packets, or can use
+        source addresses that belong to third parties, that then become
+        secondary victims.)
+"fixed": |-
+  - Tutorial: This attack seeks to exploit a vulnerability in the TCP specification or in a TCP implementation. Normally, two hosts use a three-way exchange of packets to establish a TCP connection: (a) host 1 requests a connection by sending a SYN packet to host 2; (b) host 2 replies by sending a SYN-ACK (acknowledgement) packet to host 1; and (c) host 1 completes the connection by sending an ACK packet to host 2. To attack host 2, host 1 can send a series of TCP SYNs, each with a different phony source address. ([R2827] discusses how to use packet filtering to prevent such attacks from being launched from behind an Internet service provider's aggregation point.) Host 2 treats each SYN as a request from a separate host, replies to each with a SYN-ACK, and waits to receive the matching ACKs. (The attacker can use random or unreachable sources addresses in the SYN packets, or can use source addresses that belong to third parties, that then become secondary victims.)
+"ko": |-
+  - 튜토리얼: 이 공격은 TCP 사양이나 TCP 구현의 취약점을 악용하려고 합니다. 일반적으로 두 호스트는 TCP 연결을 설정하기 위해 3방향 패킷 교환을 사용합니다. (a) 호스트 1은 호스트 2에 SYN 패킷을 보내 연결을 요청합니다. (b) 호스트 2는 호스트 1에 SYN-ACK(승인) 패킷을 보냄으로써 응답합니다. (c) 호스트 1은 호스트 2에 ACK 패킷을 보내 연결을 완료합니다. 호스트 2를 공격하기 위해 호스트 1은 각각 다른 가짜 소스 주소를 가진 일련의 TCP SYN을 보낼 수 있습니다. ([R2827]에서는 이러한 공격이 인터넷 서비스 공급자의 집계 지점 뒤에서 시작되는 것을 방지하기 위해 패킷 필터링을 사용하는 방법을 설명합니다.) 호스트 2는 각 SYN을 별도의 호스트의 요청으로 처리하고 각각에 SYN-ACK로 응답합니다. 일치하는 ACK를 받기를 기다립니다. (공격자는 SYN 패킷에 무작위 또는 도달할 수 없는 소스 주소를 사용하거나, 제3자에 속한 소스 주소를 사용하여 2차 피해자가 될 수 있습니다.)

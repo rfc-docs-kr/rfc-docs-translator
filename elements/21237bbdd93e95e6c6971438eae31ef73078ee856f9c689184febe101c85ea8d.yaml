@@ -1,0 +1,24 @@
+"hash": |-
+  21237bbdd93e95e6c6971438eae31ef73078ee856f9c689184febe101c85ea8d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        One problem with the second solution is that backup routes to
+        multi-homed organizations are not automatically maintained. With
+        the first solution, each TRD, in announcing the ability to reach
+        MBII, specifies that it is able to reach all of the hosts within
+        MBII. With the second solution, each TRD announces that it can
+        reach all of the hosts based on its own address prefix, which only
+        includes some of the hosts within MBII. If the connection between
+        MBII and one particular TRD were severed, then the hosts within
+        MBII with addresses based on that TRD would become unreachable via
+        inter-domain routing. The impact of this problem can be reduced
+        somewhat by maintenance of additional information within routing
+        tables, but this reduces the scaling advantage of the second
+        approach.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

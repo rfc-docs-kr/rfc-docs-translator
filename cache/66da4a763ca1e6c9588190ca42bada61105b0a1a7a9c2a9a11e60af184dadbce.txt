@@ -1,0 +1,1 @@
+   OCSP 클라이언트는 이해하는 응답 유형의 종류를 지정하기를 원할 수 있습니다(MAY). 이를 위해 OID id-pkix-ocsp-response 및 AcceptableResponses 값이 있는 확장을 사용해야 합니다(SHOULD). 이 확장은 요청의 requestExtensions 중 하나로 포함됩니다. AcceptableResponses에 포함된 OID는 이 클라이언트가 수락할 수 있는 다양한 응답 유형의 OID입니다(예: id-pkix-ocsp-basic).

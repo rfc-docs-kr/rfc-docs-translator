@@ -1,0 +1,17 @@
+"hash": |-
+  c7301a030707736dc67f78d869a89b58454b4ed7bdbe5fe14e2db7b5fb12f3fb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              (d) At this point we are not positive that the neighbor has
+                  an up-to-date instance of this new LSA.  Add the new LSA
+                  to the Link state retransmission list for the adjacency.
+                  This ensures that the flooding procedure is reliable;
+                  the LSA will be retransmitted at intervals until an
+                  acknowledgment is seen from the neighbor.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

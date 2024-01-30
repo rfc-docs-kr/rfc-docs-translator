@@ -1,0 +1,1 @@
+   그림 2에 제공된 예는 사용자 bob@example.com에 대해 액세스 장치인 NAS에서 발행된 요청을 보여줍니다. 요청을 보내기 전에 NAS는 "example.com"을 키로 사용하여 Diameter 경로 조회를 수행하고 해당 메시지가 Diameter Relay인 DRL로 중계되도록 결정합니다. DRL은 NAS와 동일한 경로 조회를 수행하고 메시지를 example.com의 Home Diameter Server인 HMS로 중계합니다. HMS는 요청이 (영역을 통해) 로컬로 지원될 수 있음을 식별하고, 인증 및/또는 권한 부여 요청을 처리하고, 저장된 트랜잭션 상태를 사용하여 다시 NAS로 라우팅되는 답변으로 응답합니다.

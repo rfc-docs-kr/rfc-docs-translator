@@ -1,0 +1,23 @@
+"hash": |-
+  24bc7df40942b53ddd4dac73272ff8bca1208608ab6799a3ef010a2e7505da76
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The <lock> operation takes a mandatory parameter, <target>.  The
+        <target> parameter names the configuration datastore that will be
+        locked.  When a lock is active, using the <edit-config> operation
+        on the locked configuration datastore and using the locked
+        configuration as a target of the <copy-config> operation will be
+        disallowed by any other NETCONF session.  Additionally, the system
+        will ensure that these locked configuration resources will not be
+        modified by other non-NETCONF management operations such as SNMP
+        and CLI.  The <kill-session> operation can be used to force the
+        release of a lock owned by another NETCONF session.  It is beyond
+        the scope of this document to define how to break locks held by
+        other entities.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

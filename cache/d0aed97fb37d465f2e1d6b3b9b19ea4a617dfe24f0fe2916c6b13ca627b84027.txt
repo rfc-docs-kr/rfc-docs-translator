@@ -1,0 +1,1 @@
+   즉, 응용 프로그램은 GroupContext 확장을 사용하여 그룹의 모든 구성원이 일련의 매개 변수에 동의하는지 확인할 수 있습니다. 클라이언트는 LeafNode의 기능 필드에서 매개변수에 대한 지원을 나타냅니다. 그룹의 새 구성원은 GroupInfo 개체의 group_context 필드에 있는 extensions 필드를 통해 그룹의 GroupContext 확장에 대해 알립니다. GroupInfo 개체의 extensions 필드(group_context 필드 외부)는 그룹에 가입하는 데 사용되는 새 참여자에게 추가 매개변수를 제공하는 데 사용할 수 있습니다.

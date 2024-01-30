@@ -1,0 +1,15 @@
+"hash": |-
+  dca8f06e290ab89b58b82397a43d5639c2abb1990ef28ff8b3e30ede056dd4f4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the CertificateVerify message is sent by a server, the signature
+     algorithm MUST be one offered in the client's "signature_algorithms"
+     extension unless no valid certificate chain can be produced without
+     unsupported algorithms (see Section 4.2.3).
+"fixed": |-
+  If the CertificateVerify message is sent by a server, the signature algorithm MUST be one offered in the client's "signature_algorithms" extension unless no valid certificate chain can be produced without unsupported algorithms (see Section 4.2.3).
+"ko": |-
+  CertificateVerify 메시지가 서버에 의해 전송되는 경우 서명 알고리즘은 지원되지 않는 알고리즘 없이는 유효한 인증서 체인을 생성할 수 없는 한 클라이언트의 "signature_algorithms" 확장에서 제공되는 것이어야 합니다(섹션 4.2.3 참조).

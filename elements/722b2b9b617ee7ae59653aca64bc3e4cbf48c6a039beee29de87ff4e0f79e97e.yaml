@@ -1,0 +1,18 @@
+"hash": |-
+  722b2b9b617ee7ae59653aca64bc3e4cbf48c6a039beee29de87ff4e0f79e97e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (5) If this step is reached, the LSA must be flooded out the
+              interface.  Send a Link State Update packet (including the
+              new LSA as contents) out the interface.  The LSA's LS age
+              must be incremented by InfTransDelay (which must be > 0)
+              when it is copied into the outgoing Link State Update packet
+              (until the LS age field reaches the maximum value of
+              MaxAge).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

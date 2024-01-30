@@ -1,0 +1,19 @@
+"hash": |-
+  7f502c5cde07eaaa757a246dc99af52b798760bbc85329111e364e30aceb83a6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     DTLS implementations maintain (at least notionally) a
+     next_receive_seq counter.  This counter is initially set to zero.
+     When a message is received, if its sequence number matches
+     next_receive_seq, next_receive_seq is incremented and the message is
+     processed.  If the sequence number is less than next_receive_seq, the
+     message MUST be discarded.  If the sequence number is greater than
+     next_receive_seq, the implementation SHOULD queue the message but MAY
+     discard it.  (This is a simple space/bandwidth tradeoff).
+"fixed": |-
+  DTLS implementations maintain (at least notionally) a next_receive_seq counter.  This counter is initially set to zero. When a message is received, if its sequence number matches next_receive_seq, next_receive_seq is incremented and the message is processed.  If the sequence number is less than next_receive_seq, the message MUST be discarded.  If the sequence number is greater than next_receive_seq, the implementation SHOULD queue the message but MAY discard it.  (This is a simple space/bandwidth tradeoff).
+"ko": |-
+  DTLS 구현은 (적어도 개념적으로는) next_receive_seq 카운터를 유지합니다. 이 카운터는 처음에 0으로 설정됩니다. 메시지가 수신되면 해당 시퀀스 번호가 next_receive_seq와 일치하면 next_receive_seq가 증가하고 메시지가 처리됩니다. 시퀀스 번호가 next_receive_seq보다 작으면 메시지를 폐기해야 합니다. 시퀀스 번호가 next_receive_seq보다 큰 경우 구현은 메시지를 대기열에 추가해야 하지만 삭제할 수 있습니다. (이것은 단순한 공간/대역폭 절충안입니다.)

@@ -1,0 +1,1 @@
+   servB에서. 이를 용이하게 하기 위해 servA가 제공하는 fs_locations 속성에는 fs_root 값 /a/b/c와 fs_locations에 두 개의 항목이 있습니다. fs_locations의 한 항목은 자체(servA)에 대한 항목이고, 다른 항목은 경로가 /x/y/z인 servB에 대한 항목입니다. 이 정보를 사용하여 클라이언트는 액세스 경로 시작 부분에서 /a/b/c를 /x/y/z로 대체하고 /x/y/z/d를 구성하여 새 서버에 사용할 수 있습니다.

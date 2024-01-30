@@ -1,0 +1,1 @@
+   EAP 피어는 EAP 성공 또는 EAP 실패를 수신할 때까지 EAP 상태 머신을 계속 실행해야 합니다. 내부 메소드 PAP, CHAP 또는 MS-CHAP 인증에 대한 응답으로 TLS NewSessionTicket 메시지를 수신하는 것은 정상이며 실패로 처리되어서는 안 됩니다.

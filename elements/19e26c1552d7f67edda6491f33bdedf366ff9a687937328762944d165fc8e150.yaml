@@ -1,0 +1,20 @@
+"hash": |-
+  19e26c1552d7f67edda6491f33bdedf366ff9a687937328762944d165fc8e150
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Each LSA describes a piece of the OSPF routing domain.  Every router
+      originates a router-LSA.  In addition, whenever the router is
+      elected Designated Router, it originates a network-LSA.  Other types
+      of LSAs may also be originated (see Section 12.4).  All LSAs are
+      then flooded throughout the OSPF routing domain.  The flooding
+      algorithm is reliable, ensuring that all routers have the same
+      collection of LSAs.  (See Section 13 for more information concerning
+      the flooding algorithm).  This collection of LSAs is called the
+      link-state database.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,14 @@
+"hash": |-
+  c343285dc37b7124808e2c5fdb011395da5644f4e3f344526151b18e2d62659a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that receives a CertificateRequest message without having
+     sent the "post_handshake_auth" extension MUST send an
+     "unexpected_message" fatal alert.
+"fixed": |-
+  A client that receives a CertificateRequest message without having sent the "post_handshake_auth" extension MUST send an "unexpected_message" fatal alert.
+"ko": |-
+  "post_handshake_auth" 확장을 전송하지 않고 CertificateRequest 메시지를 수신한 클라이언트는 "unexpected_message" 치명적인 경고를 전송해야 합니다.

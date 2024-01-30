@@ -1,0 +1,27 @@
+"hash": |-
+  8f65243ec1f87126cdec63cf50e7e56fe2957e2422c1a5b924d485eb1b5b87db
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    |    0 1  one satellite circuit in the connection                    |
+    |    1 0  two satellite circuits in the connection                   |
+    |    1 1  spare
+    |                                                                    |
+    |    Bits 4 3 Continuity check indicator                             |
+    |    0 0  continuity check not required                              |
+    |    0 1  continuity check required on this circuit                  |
+    |    1 0  continuity check performed on a previous circuit           |
+    |    1 1  spare                                                      |
+    |                                                                    |
+    |    Bits 5 Echo control device indicator                            |
+    |    0  outgoing echo control device not included                    |
+    |    1  outgoing echo control device included                        |
+    |                                                                    |
+    |    Bits 8 7 6 Spare                                                |
+    +--------------------------------------------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

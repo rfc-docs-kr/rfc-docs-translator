@@ -1,0 +1,18 @@
+"hash": |-
+  26768f787bd6a45161f72df34b2fde3f0fc52dcddf5dbd839901f3fa3eada182
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          OSPF routing packets (with the exception of Hellos) are sent
+          only over adjacencies.  This means that all OSPF protocol
+          packets travel a single IP hop, except those that are sent over
+          virtual adjacencies.  The IP source address of an OSPF protocol
+          packet is one end of a router adjacency, and the IP destination
+          address is either the other end of the adjacency or an IP
+          multicast address.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

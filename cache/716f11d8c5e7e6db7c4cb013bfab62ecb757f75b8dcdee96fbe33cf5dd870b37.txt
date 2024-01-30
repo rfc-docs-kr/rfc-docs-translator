@@ -1,0 +1,1 @@
+   초기 또는 핸드셰이크 패킷에서 0x1d 유형의 CONNECTION_CLOSE를 보내면 애플리케이션 상태가 노출되거나 애플리케이션 상태를 변경하는 데 사용될 수 있습니다. 0x1d 유형의 CONNECTION_CLOSE는 초기 또는 핸드셰이크 패킷에서 프레임을 보낼 때 0x1c 유형의 CONNECTION_CLOSE로 대체되어야 합니다. 그렇지 않으면 애플리케이션 상태에 대한 정보가 노출될 수 있습니다. Endpoints는 Reason Phrase 필드의 값을 지워야 하며 0x1c 유형의 CONNECTION_CLOSE로 변환할 때 APPLICATION_ERROR 코드를 사용해야 합니다(SHOULD).

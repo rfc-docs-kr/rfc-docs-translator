@@ -1,0 +1,19 @@
+"hash": |-
+  69c0ab1da6a59f9e3a9d6a9201cb905c4105f4518382eb63bf25259b3bbbd9a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Any attribute valid in a RADIUS Access-Request or Access-Accept
+        packet is valid in a RADIUS Accounting-Request packet, except that
+        the following attributes MUST NOT be present in an Accounting-
+        Request:  User-Password, CHAP-Password, Reply-Message, State.
+        Either NAS-IP-Address or NAS-Identifier MUST be present in a
+        RADIUS Accounting-Request.  It SHOULD contain a NAS-Port or NAS-
+        Port-Type attribute or both unless the service does not involve a
+        port or the NAS does not distinguish among its ports.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

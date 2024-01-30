@@ -1,0 +1,1 @@
+   사용할 IPv4와 IPv6 주소 중에서 선택할 때 클라이언트는 Happy Eyeballs [HappyEyeballsV2]와 같은 접근 방식을 사용할 수 있습니다. "ipv4hint"만 있는 경우 NAT64 클라이언트는 [RFC7050]에 지정된 대로 IPv6 주소를 합성하거나 "ipv4hint" 키를 무시하고 AAAA 확인(섹션 3)을 기다릴 수 있습니다. 최상의 성능을 위해 서버 운영자는 "ipv4hint" 매개변수를 포함할 때마다 "ipv6hint" 매개변수를 포함해야 합니다.

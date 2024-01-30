@@ -1,0 +1,16 @@
+"hash": |-
+  71bc4985cb32e42b8be0f2640b27a6887031b40cecb921a75589922c0c623bf1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For non-STUN data, the agent appends this to the ongoing byte stream
+     collected from the frames.  It then parses the byte stream as if it
+     had been directly received over the TCP connection.  This allows for
+     ICE TCP to work without regard to the framing mechanism used by the
+     application-layer protocol.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

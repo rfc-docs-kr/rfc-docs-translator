@@ -1,0 +1,1 @@
+여기서 Secret은 early_exporter_master_secret 또는 importer_master_secret입니다. 구현은 애플리케이션에서 명시적으로 지정하지 않는 한 반드시 importer_master_secret을 사용해야 합니다. early_exporter_master_secret은 0-RTT 데이터에 내보내기가 필요한 설정에 사용하도록 정의됩니다. 초기 내보내기를 위한 별도의 인터페이스를 권장합니다. 이렇게 하면 내보내기 사용자가 일반 내보내기를 원할 때 실수로 초기 내보내기를 사용하거나 그 반대의 경우도 방지할 수 있습니다.

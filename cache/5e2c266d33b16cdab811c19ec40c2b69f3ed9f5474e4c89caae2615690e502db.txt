@@ -1,0 +1,1 @@
+- Strict/Loose Bit 맵의 비트 i가 값 1을 갖고 새 대상 주소가 이 노드의 이웃 주소가 아닌 경우 { 소스 주소에 ICMP Destination Unreachable - Not a Neighbor 메시지를 보내고 패킷을 폐기합니다. } else if IPv6 Hop Limit가 1보다 작거나 같은 경우 { ICMP Time Exceeded - Hop Limit Exceeded in Transit 메시지를 소스 주소로 보내고 패킷을 폐기합니다. } else { Hop Limit를 1만큼 감소시킵니다.

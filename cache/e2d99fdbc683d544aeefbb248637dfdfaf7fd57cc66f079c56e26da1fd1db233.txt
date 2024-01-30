@@ -1,0 +1,1 @@
+   현재 프레임이 스테레오인 경우, Intensity_rsv는 이 프레임에 대해 코딩된 대역 수의 8번째 비트에서 보수적인 log2로 설정됩니다(rate.c의 LOG2_FRAC_TABLE 테이블에서 제공). Intensity_rsv가 total보다 크면 Intensity_rsv는 0으로 설정됩니다. 그렇지 않은 경우 총계는 Intensity_rsv만큼 감소하고, 총계가 여전히 8보다 큰 경우 듀얼_스테레오_rsv는 8로 설정되고 총계는 듀얼_스테레오_rsv만큼 감소됩니다.

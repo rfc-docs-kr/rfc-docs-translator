@@ -1,0 +1,21 @@
+"hash": |-
+  a2565ac625b225e61789034573963da10716f7c252f7a2919c23f998d861ae7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     During account setup, the MUA will identify servers that provide
+     account services such as mail access and mail submission (Section 5.1
+     describes one way to do this).  The certificates for these servers
+     are verified using the rules described in [RFC7817] and PKIX
+     [RFC5280].  In the event that the certificate does not validate due
+     to an expired certificate, a lack of an appropriate chain of trust,
+     or a lack of an identifier match, the MUA MAY offer to create a
+     persistent binding between that certificate and the saved hostname
+     for the server, for use when accessing that account's servers.  This
+     is called "certificate pinning".
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

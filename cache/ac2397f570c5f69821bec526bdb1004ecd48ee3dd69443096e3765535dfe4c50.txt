@@ -1,0 +1,3 @@
+   1. 클라이언트는 처리하기 전에 LAYOUTGET을 보냈습니다.
+
+- CB_LAYOUTRECALL. LAYOUTGET 인수의 레이아웃 stateid에 있는 "seqid"는 CB_LAYOUTRECALL의 "seqid"보다 1 적습니다. 서버는 NFS4ERR_RECALLCONFLICT를 클라이언트에 반환하며, 이는 보류 중인 회수가 있음을 클라이언트에 나타냅니다.

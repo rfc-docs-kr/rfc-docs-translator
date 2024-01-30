@@ -1,0 +1,14 @@
+"hash": |-
+  827413379518c963d3ab6dec8ece67c45c1acac4144950ca2e9aa77001246e89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     GCM or CCM encryption that reuses a nonce with a same key undermines
+     the security of GCM and CCM.  As a result, GCM and CCM MUST only be
+     used with a system guaranteeing nonce uniqueness [RFC5116].
+"fixed": |-
+  GCM or CCM encryption that reuses a nonce with a same key undermines the security of GCM and CCM.  As a result, GCM and CCM MUST only be used with a system guaranteeing nonce uniqueness [RFC5116].
+"ko": |-
+  동일한 키로 nonce를 재사용하는 GCM 또는 CCM 암호화는 GCM 및 CCM의 보안을 약화시킵니다. 결과적으로 GCM 및 CCM은 Nonce 고유성을 보장하는 시스템에서만 사용해야 합니다[RFC5116].

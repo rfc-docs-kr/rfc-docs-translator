@@ -1,0 +1,22 @@
+"hash": |-
+  814ceb7761cd5de21217db2123e181783bf59f5b1ab2e02b96f7a4abe1116355
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              DISCUSSION:
+                   A "keep-alive" mechanism periodically probes the other
+                   end of a connection when the connection is otherwise
+                   idle, even when there is no data to be sent.  The TCP
+                   specification does not include a keep-alive mechanism
+                   because it could:  (1) cause perfectly good connections
+                   to break during transient Internet failures; (2)
+                   consume unnecessary bandwidth ("if no one is using the
+                   connection, who cares if it is still good?"); and (3)
+                   cost money for an Internet path that charges for
+                   packets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

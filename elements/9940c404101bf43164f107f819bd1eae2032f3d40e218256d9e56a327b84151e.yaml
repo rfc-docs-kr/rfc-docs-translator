@@ -1,0 +1,19 @@
+"hash": |-
+  9940c404101bf43164f107f819bd1eae2032f3d40e218256d9e56a327b84151e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation Note: The authenticator is responsible for
+     retransmitting Request messages.  If the Request message is obtained
+     from elsewhere (such as from a backend authentication server), then
+     the authenticator will need to save a copy of the Request in order to
+     accomplish this.  The peer is responsible for detecting and handling
+     duplicate Request messages before processing them in any way,
+     including passing them on to an outside party.  The authenticator is
+     also responsible for discarding Response messages with a non-matching
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

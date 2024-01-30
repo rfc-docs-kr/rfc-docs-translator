@@ -1,0 +1,1 @@
+   RECLAIM_COMPLETE에 대한 이전 설명은 rca_one_fs를 TRUE로 설정한 상태에서 RECLAIM_COMPLETE를 사용하는 것이 적절한 상황에 대해 충분히 명시적이지 않았기 때문에 rca_one_fs를 TRUE로 설정한 상태에서 RECLAIM_COMPLETE를 발행한 클라이언트가 이를 오용한 경우가 있었습니다. 그렇지 않았습니다. 위에서 설명한 대로 rca_one_fs 설정을 무시하거나(작업을 전역 RECLAIM_COMPLETE로 처리) 전체 작업을 무시하는 등 서버가 다양한 방식으로 이러한 오용에 응답하지 않는 경우도 있었습니다.

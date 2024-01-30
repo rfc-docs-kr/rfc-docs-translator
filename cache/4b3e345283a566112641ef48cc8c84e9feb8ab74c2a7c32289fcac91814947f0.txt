@@ -1,0 +1,1 @@
+resp-text-code = "ALERT" / "BADCHARSET" [SP "(" astring *(SP astring) ")" ] / 기능 데이터 / "PARSE" / "PERMANENTFLAGS" SP "(" [flag-perm *( SP 플래그-perm)] ")" / "READ-ONLY" / "READ-WRITE" / "TRYCREATE" / "UIDNEXT" SP nz-번호 / "UIDVALIDITY" SP nz-번호 / "UNSEEN" SP nz-번호 / 원자 [SP 1*<"]">를 제외한 모든 TEXT-CHAR

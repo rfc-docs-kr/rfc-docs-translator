@@ -1,0 +1,3 @@
+    isisOrigLSPBuffSizeMismatch 알림 유형
+
+- OBJECTS { isisNotificationSysLevelIndex, isisNotificationCircIfIndex, isisPduLspId, isisPduOriginatingBufferSize, isisPduBufferSize } STATUS current DESCRIPTION "isisSysLevelOrigLSPBuffSize에 대한 로컬 값보다 큰 레벨 1 LSP 또는 레벨 2 LSP가 수신되거나 다음을 포함하는 LSP가 수신될 때 전송되는 알림입니다. 지원되는 버퍼 크기 옵션과 PDU 옵션 필드의 값이 isisSysLevelOrigLSPBuffSize의 로컬 값과 일치하지 않습니다. 옵션 필드의 크기와 LSP의 크기 중 하나가 구성을 초과하면 전달됩니다.

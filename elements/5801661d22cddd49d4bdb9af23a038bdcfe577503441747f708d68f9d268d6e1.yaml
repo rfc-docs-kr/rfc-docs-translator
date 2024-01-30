@@ -1,0 +1,20 @@
+"hash": |-
+  5801661d22cddd49d4bdb9af23a038bdcfe577503441747f708d68f9d268d6e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that it is also possible for a TCP connection to terminate
+     without the NAT device becoming aware of the event (e.g., in the case
+     where one or both peers reboot). Consequently, garbage collection is
+     necessary on NAT devices to clean up unused state about TCP sessions
+     that no longer exist. However, it is not possible in the general case
+     to distinguish between connections that have been idle for an
+     extended period of time from those that no longer exist.  In the case
+     of UDP-based sessions, there is no single way to determine when a
+     session ends, since UDP-based protocols are application specific.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

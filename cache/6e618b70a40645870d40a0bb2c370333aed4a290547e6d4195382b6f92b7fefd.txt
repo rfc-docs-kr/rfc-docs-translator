@@ -1,0 +1,1 @@
+   위 내용은 클라이언트가 "post_handshake_auth" TLS 확장을 제공한 경우에도 적용됩니다. 이 확장은 선택한 ALPN(Application-Layer Protocol Negotiation) 프로토콜 [RFC7301]과 독립적으로 광고되므로 HTTP/2와의 충돌을 해결하는 데 충분하지 않습니다. TLS ClientHello에서 다른 ALPN 프로토콜, 특히 HTTP/1.1도 제공하는 HTTP/2 클라이언트는 이러한 다른 프로토콜을 지원하기 위해 "post_handshake_auth" 확장을 포함할 수 있습니다(MAY). 이는 HTTP/2 지원을 나타내지 않습니다.

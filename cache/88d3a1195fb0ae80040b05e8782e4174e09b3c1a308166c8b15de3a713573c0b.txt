@@ -1,0 +1,3 @@
+   5) 어떤 경우에는 암시적 또는 명시적으로 와일드카드가 사용됩니다.
+
+- 끝점 그룹에 적용되는 DeleteConnection 명령은 보류 중인 CreateConnection 명령보다 먼저 진행될 수 있습니다. 통화 에이전트는 전역 DeleteConnection 명령 시 완료가 보류 중인 모든 연결을 개별적으로 삭제해야 합니다. 또한 와일드카드로 명명된 끝점에 대한 새 CreateConnection 명령은 와일드카드 DeleteConnection 명령이 승인될 때까지 보낼 수 없습니다.

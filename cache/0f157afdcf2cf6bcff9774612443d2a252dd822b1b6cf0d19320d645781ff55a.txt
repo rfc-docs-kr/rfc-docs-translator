@@ -1,0 +1,1 @@
+   이 문서에서는 하위 유형 지정을 사용하여 한 유형이 다른 유형에서 파생되었음을 나타냅니다. 아래 예는 TypeDerived가 TypeBase에서 파생되었음을 나타냅니다. TypeDerived에는 TypeBase에 정의된 모든 필드가 포함됩니다. TypeBase에 "name1" 필드가 없으면 TypeDerived에는 "name1"이라는 새 필드가 있습니다. TypeBase에 이미 "name1"이라는 필드가 있지만 다른 유형이 있는 경우 TypeDerived에는 TypeDerived에 정의된 유형(예: 예에서는 Type1)이 있는 "name1"이라는 필드가 있습니다.

@@ -1,0 +1,36 @@
+"hash": |-
+  47038909b7f6d2d7c0a6c65774f9e844056734192caf6b027ca20a98d6c8f25a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        IPS Protocol Layers    +-----------------------------------------+
+                               |Network| Net |In-| Trans |  Application  |
+                               |  H/W  |Inter|ter| -port |               |
+                               |       |-face|net|       |               |
+        OSIRM Protocol Layers  +-----------------------------------------+
+                               |  1  |  2  |  3  |  4  |  5  |  6  |  7  |
+        Confidentiality        +-----------------------------------------+
+        -  Datagram            | O I | O I | O I | O I |     | O * | O I |
+        -  Selective Field     |     |     |   I |     |     | O * | O I |
+        -  Traffic Flow        | O   |     | O   |     |     |     | O   |
+           -- Full             |   I |     |     |     |     |     |     |
+           -- Partial          |     |   I |   I |     |     |     |   I |
+        Integrity              +-----------------------------------------+
+        -  Datagram            |   I |   I | O I | O I |     |     | O I |
+        -  Selective Field     |     |     |   I |     |     |     | O I |
+        -  Stream              |     |     | O I | O I |     |     | O I |
+        Authentication         +-----------------------------------------+
+        -  Peer Entity         |     |   I | O I | O I |     |     | O I |
+        -  Data Origin         |     |   I | O I | O I |     |     | O I |
+        Access Control         +-----------------------------------------+
+        -  type as appropriate |     |   I | O I | O I |     |     | O I |
+        Non-Repudiation        +-----------------------------------------+
+        -  of Origin           |     |     |     |     |     |     | O I |
+        -  of Receipt          |     |     |     |     |     |     | O I |
+                               +-----------------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   핸드셰이크 기록은 두 번째 ClientHello로 재설정되지 않으며 상태 비저장 서버 쿠키 구현에서는 초기 ClientHello(및 HelloRetryRequest)의 콘텐츠 또는 해시가 쿠키에 저장되어야 합니다. 초기 ClientHello는 핸드셰이크 대화 내용에 합성 "message_hash" 메시지로 포함되어 있으므로 완전한 HelloRetryRequest 콘텐츠가 필요하지만 핸드셰이크를 완료하려면 해시 값만 필요합니다.

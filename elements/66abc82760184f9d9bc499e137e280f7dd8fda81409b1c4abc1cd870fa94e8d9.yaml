@@ -1,0 +1,16 @@
+"hash": |-
+  66abc82760184f9d9bc499e137e280f7dd8fda81409b1c4abc1cd870fa94e8d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note: Beware that some older, erroneous implementations will fail
+        to separate a reference's query component from its path component
+        prior to merging the base and reference paths, resulting in an
+        interoperability failure if the query component contains the
+        strings "/../" or "/./".
+"fixed": |-
+  - Note: Beware that some older, erroneous implementations will fail to separate a reference's query component from its path component prior to merging the base and reference paths, resulting in an interoperability failure if the query component contains the strings "/../" or "/./".
+"ko": |-
+  - 참고: 일부 오래된 잘못된 구현은 기본 경로와 참조 경로를 병합하기 전에 참조의 쿼리 구성 요소를 해당 경로 구성 요소에서 분리하지 못하여 쿼리 구성 요소에 "/../" 문자열이 포함된 경우 상호 운용성 오류가 발생한다는 점에 주의하세요. "/./".

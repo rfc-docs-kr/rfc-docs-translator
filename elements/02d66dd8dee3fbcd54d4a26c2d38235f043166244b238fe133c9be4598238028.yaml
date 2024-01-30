@@ -1,0 +1,24 @@
+"hash": |-
+  02d66dd8dee3fbcd54d4a26c2d38235f043166244b238fe133c9be4598238028
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A queue or scheduled set of queues (which is an input to a scheduler)
+     may also be capable of acting as a non-work-conserving [MODEL]
+     traffic shaper: this is done by defining a Maximum Service Rate
+     leaky-bucket profile in order to limit the scheduler bandwidth
+     available to that input.  This is represented by a rate, in
+     diffServMaxRateAbsolute; the classical weight is the ratio between
+     that rate and the interface speed, or perhaps the ratio between that
+     rate and the sum of the configured rates for classes.  The rate may
+     be represented by a relative value, as a fraction of the interface's
+     current line rate, diffServMaxRateRelative.  This MIB presumes that
+     shaping is something a scheduler does to its inputs, which it models
+     as a queue with a maximum rate or a scheduler whose output has a
+     maximum rate.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

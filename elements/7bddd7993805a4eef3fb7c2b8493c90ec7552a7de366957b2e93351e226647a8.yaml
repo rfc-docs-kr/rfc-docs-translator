@@ -1,0 +1,19 @@
+"hash": |-
+  7bddd7993805a4eef3fb7c2b8493c90ec7552a7de366957b2e93351e226647a8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  DiffServMeterEntry ::= SEQUENCE  {
+      diffServMeterId                IndexInteger,
+      diffServMeterSucceedNext       RowPointer,
+      diffServMeterFailNext          RowPointer,
+      diffServMeterSpecific          RowPointer,
+      diffServMeterStorage           StorageType,
+      diffServMeterStatus            RowStatus
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

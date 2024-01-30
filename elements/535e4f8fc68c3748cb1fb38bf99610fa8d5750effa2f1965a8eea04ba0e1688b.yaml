@@ -1,0 +1,25 @@
+"hash": |-
+  535e4f8fc68c3748cb1fb38bf99610fa8d5750effa2f1965a8eea04ba0e1688b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        enum {
+            client_hello(1),
+            server_hello(2),
+            new_session_ticket(4),
+            end_of_early_data(5),
+            encrypted_extensions(8),
+            certificate(11),
+            certificate_request(13),
+            certificate_verify(15),
+            finished(20),
+            key_update(24),
+            message_hash(254),
+            (255)
+        } HandshakeType;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

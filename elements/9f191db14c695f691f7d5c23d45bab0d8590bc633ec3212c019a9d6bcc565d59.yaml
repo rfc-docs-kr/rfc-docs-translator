@@ -1,0 +1,15 @@
+"hash": |-
+  9f191db14c695f691f7d5c23d45bab0d8590bc633ec3212c019a9d6bcc565d59
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  If the "certificate_authorities" extension in the
+        CertificateRequest message was present, at least one of the
+        certificates in the certificate chain SHOULD be issued by one of
+        the listed CAs.
+"fixed": |-
+  -  If the "certificate_authorities" extension in the CertificateRequest message was present, at least one of the certificates in the certificate chain SHOULD be issued by one of the listed CAs.
+"ko": |-
+  - CertificateRequest 메시지에 "certificate_authorities" 확장이 있는 경우 인증서 체인에 있는 인증서 중 적어도 하나는 나열된 CA 중 하나에서 발급되어야 합니다.

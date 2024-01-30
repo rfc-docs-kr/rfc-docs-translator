@@ -1,0 +1,1 @@
+   senderNonce 및 recipNonce 필드는 재생 공격으로부터 PKIMessage를 보호합니다. senderNonce는 일반적으로 발신자가 생성한 128비트의 (의사) 무작위 데이터인 반면, recipNonce는 트랜잭션에서 이전 메시지의 senderNonce에서 복사됩니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  0bc923ada438aa5d3364464aaf30bf3dffc1535bed727224db5340d83cb44f40
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServTBParamTable OBJECT-TYPE
+      SYNTAX       SEQUENCE OF DiffServTBParamEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "This table enumerates a single set of token bucket meter
+         parameters that a system may use to police a stream of traffic.
+         Such meters are modeled here as having a single rate and a single
+         burst size. Multiple entries are used when multiple rates/burst
+         sizes are needed."
+      ::= { diffServTBParam 2 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

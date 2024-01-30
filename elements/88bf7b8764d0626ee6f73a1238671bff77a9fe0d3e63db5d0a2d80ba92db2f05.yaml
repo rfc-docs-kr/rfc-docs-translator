@@ -1,0 +1,24 @@
+"hash": |-
+  88bf7b8764d0626ee6f73a1238671bff77a9fe0d3e63db5d0a2d80ba92db2f05
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The function of the SRH is intended to be very similar to the Type 0
+     Routing header defined in [RFC2460].  After the routing header has
+     been processed and the IPv6 datagram resubmitted to the IPv6 module
+     for processing, the IPv6 Destination Address contains the next hop's
+     address.  When forwarding an IPv6 datagram that contains an SRH with
+     a non-zero Segments Left value, if the IPv6 Destination Address is
+     not on-link, a router MUST drop the datagram and SHOULD send an ICMP
+     Destination Unreachable (ICMPv6 Type 1) message with ICMPv6 Code set
+     to 7 to the packet's Source Address.  This ICMPv6 Code indicates that
+     the IPv6 Destination Address is not on-link and the router cannot
+     satisfy the strict source route requirement.  When generating ICMPv6
+     error messages, the rules in Section 2.4 of [RFC4443] MUST be
+     observed.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

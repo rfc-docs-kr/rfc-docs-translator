@@ -1,0 +1,24 @@
+"hash": |-
+  4b398c21898c0a2ff2c86bb229a070870ee57fdbdbfff83d4ffe7531ca451b7d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             Action:  The (possibly partially formed) adjacency is torn
+                      down, and then an attempt is made at
+                      reestablishment.  The neighbor state first
+                      transitions to ExStart.  The Link state
+                      retransmission list, Database summary list and Link
+                      state request list are cleared of LSAs.  Then the
+                      router increments the DD sequence number in the
+                      neighbor data structure, declares itself master
+                      (sets the master/slave bit to master), and starts
+                      sending Database Description Packets, with the
+                      initialize (I), more (M) and master (MS) bits set.
+                      This Database Description Packet should be otherwise
+                      empty (see Section 10.8).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

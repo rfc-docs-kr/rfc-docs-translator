@@ -1,0 +1,1 @@
+   클라이언트는 ClientHello 메시지에 하나 이상의 PSK 암호화 모음을 포함하여 사전 공유 키 인증을 사용할 의사가 있음을 나타냅니다. TLS 서버가 사전 공유 키도 사용하려는 경우 PSK 암호화 모음 중 하나를 선택하고 선택한 암호화 모음을 ServerHello 메시지에 배치하며 적절한 ServerKeyExchange 메시지를 포함합니다(아래 참조). Certificate 및 CertificateRequest 페이로드는 응답에서 생략됩니다.

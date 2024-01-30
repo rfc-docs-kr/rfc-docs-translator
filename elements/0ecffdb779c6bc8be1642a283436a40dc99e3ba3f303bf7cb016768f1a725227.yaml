@@ -1,0 +1,25 @@
+"hash": |-
+  0ecffdb779c6bc8be1642a283436a40dc99e3ba3f303bf7cb016768f1a725227
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To illustrate the problem alluded to by the "note" in section 4.2,
+     consider what happens if RA loses connectivity to C7 (the client
+     which is allocated out of RB's space). In a stateful protocol, RA
+     will announce to BB that 192.32.0.0/255.255.240.0 has become
+     unreachable. Now, when BB flushes this information out of its routing
+     table, any future traffic sent through it for this destination will
+     be forwarded to RB (where it will be dropped according to Rule #2) by
+     virtue of RB's less specific match 192.32.0.0/255.248.0.0.  While
+     this does not cause an operational problem (C7 is unreachable in any
+     case), it does create some extra traffic across "BB" (and may also
+     prove confusing to a network manager debugging the outage with
+     "traceroute"). A mechanism to cache such unreachability information
+     would help here, but is beyond the scope of this document (such a
+     mechanism is also not implementable in the near-term).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

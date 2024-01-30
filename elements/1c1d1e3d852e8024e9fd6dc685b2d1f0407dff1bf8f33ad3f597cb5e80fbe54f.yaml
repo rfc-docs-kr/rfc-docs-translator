@@ -1,0 +1,30 @@
+"hash": |-
+  1c1d1e3d852e8024e9fd6dc685b2d1f0407dff1bf8f33ad3f597cb5e80fbe54f
+"type": |-
+  Table
+"comment": !!null |-
+  null
+"original": |2-
+       Attribute              #   Reference  Description
+       ---------             ---  ---------  -----------
+       User-Name              1   [RFC2865]  The name of the user
+                                             associated with one or
+                                             more sessions.
+       NAS-Port               5   [RFC2865]  The port on which a
+                                             session is terminated.
+       Framed-IP-Address      8   [RFC2865]  The IPv4 address associated
+                                             with a session.
+       Vendor-Specific       26   [RFC2865]  One or more vendor-specific
+                                             identification attributes.
+       Called-Station-Id     30   [RFC2865]  The link address to which
+                                             a session is connected.
+       Calling-Station-Id    31   [RFC2865]  The link address from which
+                                             one or more sessions are
+                                             connected.
+       Acct-Session-Id       44   [RFC2866]  The identifier uniquely
+                                             identifying a session
+                                             on the NAS.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  2801be3126d517f3cc89f6b9755e3d347f5424aa2898fbf3340f83234bb1cd9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TIME attack can be mitigated by disabling TLS compression.  We
+     are not aware of mitigations at the TLS protocol level to the BREACH
+     attack, and so application-level mitigations are needed (see
+     [BREACH]).  For example, implementations of HTTP that use Cross-Site
+     Request Forgery (CSRF) tokens will need to randomize them.  Even the
+     best practices and recommendations from [SECURE-TLS] are insufficient
+     to thwart this attack.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

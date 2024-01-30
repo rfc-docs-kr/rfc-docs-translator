@@ -1,0 +1,15 @@
+"hash": |-
+  3e335401e80e5f1e24cc9e3204bd973b543c9718a2659d47a02095ba9295ec6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server is unable to negotiate a supported set of parameters
+     (i.e., there is no overlap between the client and server parameters),
+     it MUST abort the handshake with either a "handshake_failure" or
+     "insufficient_security" fatal alert (see Section 6).
+"fixed": |-
+  If the server is unable to negotiate a supported set of parameters (i.e., there is no overlap between the client and server parameters), it MUST abort the handshake with either a "handshake_failure" or "insufficient_security" fatal alert (see Section 6).
+"ko": |-
+  서버가 지원되는 매개변수 세트를 협상할 수 없는 경우(즉, 클라이언트와 서버 매개변수 사이에 중복이 없는 경우) "handshake_failure" 또는 "insufficient_security" 치명적인 경고로 핸드셰이크를 중단해야 합니다(섹션 6 참조).

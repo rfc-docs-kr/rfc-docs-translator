@@ -1,0 +1,19 @@
+"hash": |-
+  9a41211ff121c49830a658c56079c8ebc5c1c0917f58b4acfb3efe71b772f4f9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TWAMP-Test AES Session-key is obtained as follows: the TWAMP-
+     Control AES Session-key (the same AES Session-key as used for the
+     corresponding TWAMP-Control session) is encrypted with the 16-octet
+     session identifier (SID) as the key, using a single-block AES-ECB
+     encryption.  The result is the TWAMP-Test AES Session-key to be used
+     in encrypting (and decrypting) the packets of the particular TWAMP-
+     Test session.  Note that the TWAMP-Test AES Session-key, TWAMP-
+     Control AES Session-key, and the SID are all comprised of 16 octets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   홈 AAA 서버로부터 성공적인 인증 및/또는 권한 부여 메시지를 수신한 Diameter 노드는 세션에 대한 계정 정보를 수집해야 합니다. Accounting-Request 메시지는 홈 AAA 서버에 계정 정보를 전송하는 데 사용되며, 홈 AAA 서버는 수신 확인을 위해 Accounting-Answer 메시지로 응답해야 합니다. 회계-응답 메시지에는 회계 메시지에 오류가 있음을 나타낼 수 있는 결과 코드 AVP가 포함됩니다. 거부된 Accounting-Request 메시지는 문제의 세션에 대해 이전에 수신된 Accounting-Realtime-Required AVP 값에 따라 사용자 세션이 종료되도록 할 수 있습니다.

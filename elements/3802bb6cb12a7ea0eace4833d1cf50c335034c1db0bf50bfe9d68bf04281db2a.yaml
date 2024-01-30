@@ -1,0 +1,21 @@
+"hash": |-
+  3802bb6cb12a7ea0eace4833d1cf50c335034c1db0bf50bfe9d68bf04281db2a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      o   In RFC 2035, the encoding of restart marker information in the
+          Type field made it difficult to add new types. Additionally, the
+          type- specific field was used for the restart count, making it
+          unavailable for other type-specific purposes.  This memo moves
+          the restart marker indication to a particular bit in the Type
+          field, and adds an optional header to hold the additional
+          information required, leaving the type-specific field free for
+          its intended purpose.  The handling of partial frame decoding
+          was also made more robust against packet loss.  See sections
+          3.1.7 and 4.4 for details.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

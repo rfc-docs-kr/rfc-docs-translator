@@ -1,0 +1,1 @@
+   secp256r1, secp384r1 및 secp521r1의 경우, ECDH 계산(파라미터 및 키 생성 및 공유 비밀 계산 포함)은 ID 맵을 키 유도 함수(KDF)로 사용하여 ECKAS-DH1 방식을 사용하여 [IEEE1363]에 따라 수행됩니다. 따라서 공유 비밀은 옥텟 문자열로 표시되는 ECDH 공유 비밀 타원 곡선 점의 x 좌표입니다. FE2OSP(Field Element to Octet String Conversion Primitive)에 의해 출력되는 이 옥텟 문자열(IEEE 1363 용어의 "Z")은 주어진 필드에 대해 일정한 길이를 가집니다. 이 옥텟 문자열에서 발견된 선행 0은 절단되어서는 안 됩니다(MUST NOT).

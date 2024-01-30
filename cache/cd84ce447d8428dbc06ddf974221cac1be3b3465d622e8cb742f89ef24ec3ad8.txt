@@ -1,0 +1,1 @@
+   * SSV의 초기 값은 0이므로 SP4_SSV 보호를 선택하고 BIND_CONN_TO_SESSION 및 CREATE_SESSION에 SP4_SSV 보호를 적용하기로 선택한 클라이언트는 첫 번째 BIND_CONN_TO_SESSION 작업 이전 또는 두 번째 CREATE_SESSION 작업 이전에 최소한 하나의 SET_SSV 작업을 보내야 합니다. 클라이언트 ID. 그렇지 않은 경우 SSV 메커니즘은 토큰을 생성하지 않습니다(섹션 2.10.9). 클라이언트는 세션이 생성되자마자 SET_SSV를 보내야 합니다.

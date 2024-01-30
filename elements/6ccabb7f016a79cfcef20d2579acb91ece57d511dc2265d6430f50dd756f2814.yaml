@@ -1,0 +1,18 @@
+"hash": |-
+  6ccabb7f016a79cfcef20d2579acb91ece57d511dc2265d6430f50dd756f2814
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the state table, the event "Failure to send X" means that the
+     Diameter agent is unable to send command X to the desired
+     destination.  This could be due to the peer being down or due to the
+     peer sending back a transient failure or temporary protocol error
+     notification DIAMETER_TOO_BUSY or DIAMETER_LOOP_DETECTED in the
+     Result-Code AVP of the corresponding Answer command.  The event 'X
+     successfully sent' is the complement of 'Failure to send X'.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

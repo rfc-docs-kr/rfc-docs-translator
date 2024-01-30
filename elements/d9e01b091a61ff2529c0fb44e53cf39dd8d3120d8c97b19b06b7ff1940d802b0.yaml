@@ -1,0 +1,20 @@
+"hash": |-
+  d9e01b091a61ff2529c0fb44e53cf39dd8d3120d8c97b19b06b7ff1940d802b0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServSchedulerEntry OBJECT-TYPE
+      SYNTAX       DiffServSchedulerEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An entry in the Scheduler Table describing a single instance of
+         a scheduling algorithm."
+      INDEX { diffServSchedulerId }
+      ::= { diffServSchedulerTable 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

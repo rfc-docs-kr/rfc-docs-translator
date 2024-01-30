@@ -1,0 +1,18 @@
+"hash": |-
+  c6d8d61f6a7c828f2b55ab4242924137607c6cdfca1f77678b8966dff1134e62
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              if the IPv6 Hop Limit is less than or equal to 1 {
+                 send an ICMP Time Exceeded -- Hop Limit Exceeded in
+                 Transit message to the Source Address and discard the
+                 packet
+              }
+              else {
+                 decrement the Hop Limit by 1
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

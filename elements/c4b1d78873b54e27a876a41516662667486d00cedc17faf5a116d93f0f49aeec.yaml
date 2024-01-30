@@ -1,0 +1,20 @@
+"hash": |-
+  c4b1d78873b54e27a876a41516662667486d00cedc17faf5a116d93f0f49aeec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       The checksum field is the 16-bit ones' complement of the ones'
+       complement sum of all 16-bit words in the header and text.  The
+       checksum computation needs to ensure the 16-bit alignment of the
+       data being summed.  If a segment contains an odd number of header
+       and text octets, alignment can be achieved by padding the last
+       octet with zeros on its right to form a 16-bit word for checksum
+       purposes.  The pad is not transmitted as part of the segment.
+       While computing the checksum, the checksum field itself is replaced
+       with zeros.
+"fixed": |-
+  The checksum field is the 16-bit ones' complement of the ones' complement sum of all 16-bit words in the header and text.  The checksum computation needs to ensure the 16-bit alignment of the data being summed.  If a segment contains an odd number of header and text octets, alignment can be achieved by padding the last octet with zeros on its right to form a 16-bit word for checksum purposes.  The pad is not transmitted as part of the segment. While computing the checksum, the checksum field itself is replaced with zeros.
+"ko": |-
+  체크섬 필드는 헤더와 텍스트에 있는 모든 16비트 단어의 1의 보수 합계에 대한 16비트 1의 보수입니다. 체크섬 계산에서는 합산되는 데이터의 16비트 정렬을 보장해야 합니다. 세그먼트에 홀수의 헤더 및 텍스트 옥텟이 포함된 경우 체크섬 목적으로 16비트 단어를 형성하기 위해 마지막 옥텟 오른쪽에 0을 채워 정렬할 수 있습니다. 패드는 세그먼트의 일부로 전송되지 않습니다. 체크섬을 계산하는 동안 체크섬 필드 자체는 0으로 대체됩니다.

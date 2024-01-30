@@ -1,0 +1,1 @@
+   [RFC5251]에 설명된 대로 지정된 PE에 고객 대면 포트가 하나 이상 있는 각 L1VPN에 대해 PE는 해당 L1VPN과 연결된 PIT(포트 정보 테이블)를 유지 관리합니다. PIT는 CPI(Customer Port Indices)와 PPI(Provider Port Indices) 간의 상호 참조를 제공하고 L1VPN 내의 모든 포트에 대한 <CPI, PPI> 튜플 목록을 포함합니다. 또한 지정된 L1VPN의 로컬 PE 포트에 대해 PE는 VPN-PPI라는 식별자를 유지하며 이는 <CPI, PPI> 튜플과 함께 PIT에 저장됩니다.

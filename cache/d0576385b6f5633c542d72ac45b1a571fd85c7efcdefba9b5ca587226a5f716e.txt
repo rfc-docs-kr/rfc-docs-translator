@@ -1,0 +1,1 @@
+   loca_last_write_offset 필드는 LAYOUTCOMMIT 이전에 클라이언트가 쓴 마지막 바이트의 오프셋을 지정합니다. 이 값은 파일 크기와 결코 같지 않으며(최대 파일 크기보다 1바이트 작음) NFS4_MAXFILEOFF보다 작거나 같아야 합니다. 또한 loca_last_write_offset은 loca_offset 및 loca_length에 설명된 범위와 겹쳐야 합니다. 메타데이터 서버는 이 정보를 사용하여 파일 크기를 업데이트해야 하는지 여부를 결정할 수 있습니다. 메타데이터 서버가 LAYOUTCOMMIT 작업의 결과로 파일 크기를 업데이트하는 경우 결과의 일부로 새 크기(locr_newsize.ns_size)를 반환해야 합니다.

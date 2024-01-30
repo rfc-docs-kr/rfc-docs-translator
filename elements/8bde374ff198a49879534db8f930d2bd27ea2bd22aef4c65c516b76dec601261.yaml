@@ -1,0 +1,18 @@
+"hash": |-
+  8bde374ff198a49879534db8f930d2bd27ea2bd22aef4c65c516b76dec601261
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TCP connection may terminate in two ways: (1) the normal TCP close
+     sequence using a FIN handshake (Figure 12), and (2) an "abort" in
+     which one or more RST segments are sent and the connection state is
+     immediately discarded.  If the local TCP connection is closed by the
+     remote side due to a FIN or RST received from the remote side, then
+     the local application MUST be informed whether it closed normally or
+     was aborted (MUST-12).
+"fixed": |-
+  A TCP connection may terminate in two ways: (1) the normal TCP close sequence using a FIN handshake (Figure 12), and (2) an "abort" in which one or more RST segments are sent and the connection state is immediately discarded.  If the local TCP connection is closed by the remote side due to a FIN or RST received from the remote side, then the local application MUST be informed whether it closed normally or was aborted (MUST-12).
+"ko": |-
+  TCP 연결은 두 가지 방법으로 종료될 수 있습니다. (1) FIN 핸드셰이크를 사용하는 일반적인 TCP 닫기 시퀀스(그림 12), (2) 하나 이상의 RST 세그먼트가 전송되고 연결 상태가 즉시 삭제되는 "중단" . 원격 측에서 수신한 FIN 또는 RST로 인해 원격 측에서 로컬 TCP 연결을 닫은 경우 로컬 애플리케이션은 정상적으로 닫혔는지 아니면 중단되었는지 알려야 합니다(MUST-12).

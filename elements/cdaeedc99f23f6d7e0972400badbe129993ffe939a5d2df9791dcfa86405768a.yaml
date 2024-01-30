@@ -1,0 +1,20 @@
+"hash": |-
+  cdaeedc99f23f6d7e0972400badbe129993ffe939a5d2df9791dcfa86405768a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          For example, an IP subnetted network might be configured as a
+          single OSPF area.  In that case, a single address range could be
+          configured:  a class A, B, or C network number along with its
+          natural IP mask.  Inside the area, any number of variable sized
+          subnets could be defined.  However, external to the area a
+          single route for the entire subnetted network would be
+          distributed, hiding even the fact that the network is subnetted
+          at all.  The cost of this route is the maximum of the set of
+          costs to the component subnets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

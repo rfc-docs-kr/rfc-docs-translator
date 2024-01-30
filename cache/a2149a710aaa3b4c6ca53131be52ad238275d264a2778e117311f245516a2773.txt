@@ -1,0 +1,1 @@
+   SecondEndpointId가 지정되면 이 명령은 실제로 ModifyConnection 및 DeleteConnection 명령을 통해 별도로 조작할 수 있는 두 개의 연결을 생성합니다. 첫 번째 연결에 대한 ConnectionId 및 LocalConnectionDescriptor 외에도 생성에 대한 응답은 두 번째 연결을 식별하는 SecondConnectionId 매개 변수를 제공합니다. 두 번째 연결은 "보내기/받기" 모드에서 설정됩니다.

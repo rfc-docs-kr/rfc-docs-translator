@@ -1,0 +1,24 @@
+"hash": |-
+  09681843638d877db679eab6cf02f584015c694bdbc93cd7462659b52498e137
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  --
+  -- A Scheduler Entry represents a packet scheduler, such as a priority
+  -- scheduler or a WFQ scheduler. It provides flexibility for multiple
+  -- scheduling algorithms, each servicing multiple queues, to be used on
+  -- the same logical/physical interface.
+  --
+  -- Note that upstream queues or schedulers specify several of the
+  -- scheduler's parameters. These must be properly specified if the
+  -- scheduler is to behave as expected.
+  --
+  -- The diffServSchedulerMaxRate attribute specifies the parameters when
+  -- a scheduler's output is sent to another scheduler. This is used in
+  -- building hierarchical queues or schedulers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

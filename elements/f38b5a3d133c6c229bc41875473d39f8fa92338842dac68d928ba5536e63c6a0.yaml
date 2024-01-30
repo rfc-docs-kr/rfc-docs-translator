@@ -1,0 +1,19 @@
+"hash": |-
+  f38b5a3d133c6c229bc41875473d39f8fa92338842dac68d928ba5536e63c6a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When Diffie-Hellman key exchange is used, the server can either
+     supply a certificate containing fixed Diffie-Hellman parameters or
+     use the server key exchange message to send a set of temporary
+     Diffie-Hellman parameters signed with a DSA or RSA certificate.
+     Temporary parameters are hashed with the hello.random values before
+     signing to ensure that attackers do not replay old parameters.  In
+     either case, the client can verify the certificate or signature to
+     ensure that the parameters belong to the server.
+"fixed": |-
+  When Diffie-Hellman key exchange is used, the server can either supply a certificate containing fixed Diffie-Hellman parameters or use the server key exchange message to send a set of temporary Diffie-Hellman parameters signed with a DSA or RSA certificate. Temporary parameters are hashed with the hello.random values before signing to ensure that attackers do not replay old parameters.  In either case, the client can verify the certificate or signature to ensure that the parameters belong to the server.
+"ko": |-
+  Diffie-Hellman 키 교환이 사용되는 경우 서버는 고정된 Diffie-Hellman 매개변수가 포함된 인증서를 제공하거나 서버 키 교환 메시지를 사용하여 DSA 또는 RSA 인증서로 서명된 임시 Diffie-Hellman 매개변수 세트를 보낼 수 있습니다. 공격자가 이전 매개변수를 재생하지 않도록 서명하기 전에 임시 매개변수가 hello.random 값으로 해시됩니다. 두 경우 모두 클라이언트는 인증서나 서명을 확인하여 매개변수가 서버에 속해 있는지 확인할 수 있습니다.

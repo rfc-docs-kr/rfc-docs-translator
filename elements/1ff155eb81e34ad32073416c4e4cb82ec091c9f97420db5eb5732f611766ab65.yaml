@@ -1,0 +1,21 @@
+"hash": |-
+  1ff155eb81e34ad32073416c4e4cb82ec091c9f97420db5eb5732f611766ab65
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Generic Token Card Type is defined for use with various Token
+        Card implementations which require user input.  The Request
+        contains a displayable message and the Response contains the Token
+        Card information necessary for authentication.  Typically, this
+        would be information read by a user from the Token card device and
+        entered as ASCII text.  A Response MUST be sent in reply to the
+        Request.  The Response MUST be of Type 6 (GTC), Nak (Type 3), or
+        Expanded Nak (Type 254).  The Nak Response indicates the peer's
+        desired authentication Type(s).  The EAP GTC method is intended
+        for use with the Token Cards supporting challenge/response
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

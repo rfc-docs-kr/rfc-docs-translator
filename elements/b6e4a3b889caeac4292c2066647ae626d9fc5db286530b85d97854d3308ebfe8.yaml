@@ -1,0 +1,23 @@
+"hash": |-
+  b6e4a3b889caeac4292c2066647ae626d9fc5db286530b85d97854d3308ebfe8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                      sequence number in the neighbor data structure.  If
+                      this is the first time that an adjacency has been
+                      attempted, the DD sequence number should be assigned
+                      some unique value (like the time of day clock).  It
+                      then declares itself master (sets the master/slave
+                      bit to master), and starts sending Database
+                      Description Packets, with the initialize (I), more
+                      (M) and master (MS) bits set.  This Database
+                      Description Packet should be otherwise empty.  This
+                      Database Description Packet should be retransmitted
+                      at intervals of RxmtInterval until the next state is
+                      entered (see Section 10.8).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

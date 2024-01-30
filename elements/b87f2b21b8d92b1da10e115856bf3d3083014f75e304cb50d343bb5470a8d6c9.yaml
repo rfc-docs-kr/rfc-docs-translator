@@ -1,0 +1,19 @@
+"hash": |-
+  b87f2b21b8d92b1da10e115856bf3d3083014f75e304cb50d343bb5470a8d6c9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          LS age = 0                  ;always true on origination
+          Options = (E-bit)           ;
+          LS type = 5                 ;AS-external-LSA
+          Link State ID = DefaultDestination  ; default route
+          Advertising Router = Router RTA's ID
+          bit E = 1                   ;Type 2 metric
+          metric = 1
+          Forwarding address = RTX's IP address
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

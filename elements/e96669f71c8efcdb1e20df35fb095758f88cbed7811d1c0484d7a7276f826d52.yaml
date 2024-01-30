@@ -1,0 +1,19 @@
+"hash": |-
+  e96669f71c8efcdb1e20df35fb095758f88cbed7811d1c0484d7a7276f826d52
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon receipt of this extension in a HelloRetryRequest, the client
+     MUST verify that (1) the selected_group field corresponds to a group
+     which was provided in the "supported_groups" extension in the
+     original ClientHello and (2) the selected_group field does not
+     correspond to a group which was provided in the "key_share" extension
+     in the original ClientHello.  If either of these checks fails, then
+     the client MUST abort the handshake with an "illegal_parameter"
+     alert.  Otherwise, when sending the new ClientHello, the client MUST
+"fixed": |-
+  Upon receipt of this extension in a HelloRetryRequest, the client MUST verify that (1) the selected_group field corresponds to a group which was provided in the "supported_groups" extension in the original ClientHello and (2) the selected_group field does not correspond to a group which was provided in the "key_share" extension in the original ClientHello.  If either of these checks fails, then the client MUST abort the handshake with an "illegal_parameter" alert.  Otherwise, when sending the new ClientHello, the client MUST
+"ko": |-
+  HelloRetryRequest에서 이 확장을 수신하면 클라이언트는 (1) selected_group 필드가 원래 ClientHello의 "supported_groups" 확장에 제공된 그룹에 해당하고 (2) selected_group 필드가 그룹에 해당하지 않는지 확인해야 합니다. 이는 원래 ClientHello의 "key_share" 확장에 제공되었습니다. 이러한 검사 중 하나라도 실패하면 클라이언트는 "illegal_parameter" 경고와 함께 핸드셰이크를 중단해야 합니다. 그렇지 않으면 새 ClientHello를 보낼 때 클라이언트는 반드시

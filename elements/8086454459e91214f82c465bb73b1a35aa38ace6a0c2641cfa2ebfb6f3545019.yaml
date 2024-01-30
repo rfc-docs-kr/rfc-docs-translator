@@ -1,0 +1,18 @@
+"hash": |-
+  8086454459e91214f82c465bb73b1a35aa38ace6a0c2641cfa2ebfb6f3545019
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PkgdName ::= OCTET STRING(SIZE(4))
+     -- represents Package Name (2 octets) plus Property Name (2 octets)
+     -- To wildcard a package use 0xFFFF for first two octets, choose
+     -- is not allowed. To reference native property tag specified in
+     -- Annex C, use 0x0000 as first two octets.
+     -- Wildcarding of Package Name is permitted only if Property Name is
+     -- also wildcarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

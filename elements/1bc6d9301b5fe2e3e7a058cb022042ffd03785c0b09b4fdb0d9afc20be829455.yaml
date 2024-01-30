@@ -1,0 +1,19 @@
+"hash": |-
+  1bc6d9301b5fe2e3e7a058cb022042ffd03785c0b09b4fdb0d9afc20be829455
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each frame and scan is preceded with a header containing optional
+     definitions for compression parameters like quantization tables and
+     Huffman coding tables.  The headers and optional parameters are
+     identified with "markers" and comprise a marker segment; each scan
+     appears as an entropy-coded bit stream within two marker segments.
+     Markers are aligned to byte boundaries and (in general) cannot appear
+     in the entropy-coded segment, allowing scan boundaries to be
+     determined without parsing the bit stream.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

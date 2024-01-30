@@ -1,0 +1,6 @@
+#define unsigned64_t unsigned __int64
+#define I64(C) C
+#또 다른
+#define unsigned64_t unsigned long long
+#define I64(C) C##LL
+#endif

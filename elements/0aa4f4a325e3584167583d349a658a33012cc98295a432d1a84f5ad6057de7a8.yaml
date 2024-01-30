@@ -1,0 +1,16 @@
+"hash": |-
+  0aa4f4a325e3584167583d349a658a33012cc98295a432d1a84f5ad6057de7a8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TCP receiver MAY pass a received PSH bit to the application layer
+     via the PUSH flag in the interface (MAY-17), but it is not required
+     (this was clarified in RFC 1122, Section 4.2.2.2).  The remainder of
+     text describing the RECEIVE call below assumes that passing the PUSH
+     indication is supported.
+"fixed": |-
+  A TCP receiver MAY pass a received PSH bit to the application layer via the PUSH flag in the interface (MAY-17), but it is not required (this was clarified in RFC 1122, Section 4.2.2.2).  The remainder of text describing the RECEIVE call below assumes that passing the PUSH indication is supported.
+"ko": |-
+  TCP 수신기는 수신된 PSH 비트를 인터페이스의 PUSH 플래그를 통해 애플리케이션 계층에 전달할 수 있지만(MAY-17) 필수는 아닙니다(RFC 1122, 섹션 4.2.2.2에 명시되어 있음). 아래 RECEIVE 호출을 설명하는 나머지 텍스트에서는 PUSH 표시 전달이 지원된다고 가정합니다.

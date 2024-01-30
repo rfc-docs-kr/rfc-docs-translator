@@ -1,0 +1,19 @@
+"hash": |-
+  d217474638aa5324a3525644713a0a3ceb9587e2b6da24d3864e84df2d5e4a35
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             enum {
+                 uncompressed (0),
+                 deprecated (1..2),
+                 reserved (248..255)
+             } ECPointFormat;
+             struct {
+                 ECPointFormat ec_point_format_list<1..2^8-1>
+             } ECPointFormatList;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  00f6680118fb2cf424051d998943eda19cbaa60ca725fabc0f35b54222cd19ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Both sender and receiver MUST encrypt their KeyUpdate messages with
+     the old keys.  Additionally, both sides MUST enforce that a KeyUpdate
+     with the old key is received before accepting any messages encrypted
+     with the new key.  Failure to do so may allow message truncation
+     attacks.
+"fixed": |-
+  Both sender and receiver MUST encrypt their KeyUpdate messages with the old keys.  Additionally, both sides MUST enforce that a KeyUpdate with the old key is received before accepting any messages encrypted with the new key.  Failure to do so may allow message truncation attacks.
+"ko": |-
+  발신자와 수신자 모두 이전 키를 사용하여 KeyUpdate 메시지를 암호화해야 합니다. 또한 양측은 새 키로 암호화된 메시지를 수락하기 전에 이전 키가 포함된 KeyUpdate가 수신되도록 강제해야 합니다. 그렇지 않으면 메시지 잘림 공격이 허용될 수 있습니다.

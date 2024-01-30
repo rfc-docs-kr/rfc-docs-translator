@@ -1,0 +1,27 @@
+"hash": |-
+  b559fb08080ed450670f8fcd99221f31f520dfb9e5eee99face43d66da636d59
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              The sequence number -N (0x80000000) is reserved (and
+              unused).  This leaves -N + 1 (0x80000001) as the smallest
+              (and therefore oldest) sequence number; this sequence number
+              is referred to as the constant InitialSequenceNumber. A
+              router uses InitialSequenceNumber the first time it
+              originates any LSA.  Afterwards, the LSA's sequence number
+              is incremented each time the router originates a new
+              instance of the LSA.  When an attempt is made to increment
+              the sequence number past the maximum value of N - 1
+              (0x7fffffff; also referred to as MaxSequenceNumber), the
+              current instance of the LSA must first be flushed from the
+              routing domain.  This is done by prematurely aging the LSA
+              (see Section 14.1) and reflooding it.  As soon as this flood
+              has been acknowledged by all adjacent neighbors, a new
+              instance can be originated with sequence number of
+              InitialSequenceNumber.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

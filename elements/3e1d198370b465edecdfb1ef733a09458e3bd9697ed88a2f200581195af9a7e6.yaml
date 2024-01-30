@@ -1,0 +1,24 @@
+"hash": |-
+  3e1d198370b465edecdfb1ef733a09458e3bd9697ed88a2f200581195af9a7e6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 SGP                      ASP1                       ASP2
+                  |                        |                          |
+                  |<-----ASP Inactive------|                          |
+                  |----ASP Inactive Ack--->|                          |
+                  |                        |                          |
+                  |----NTFY(AS-PENDING)--->|                          |
+                  |-----------------------NTFY(AS-PENDING)----------->|
+                  |                        |                          |
+                  |<----------------------------- ASP Active----------|
+                  |-----------------------------ASP Active Ack------->|
+                  |                        |                          |
+                  |----NTFY(AS-ACTIVE)---->|                          |
+                  |-----------------------NTFY(AS-ACTIVE)------------>|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

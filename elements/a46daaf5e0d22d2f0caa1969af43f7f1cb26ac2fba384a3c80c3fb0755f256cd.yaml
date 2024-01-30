@@ -1,0 +1,19 @@
+"hash": |-
+  a46daaf5e0d22d2f0caa1969af43f7f1cb26ac2fba384a3c80c3fb0755f256cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a TCP connection is established for the "pop3s" service (default
+     port 995), a TLS handshake begins immediately.  Clients MUST
+     implement the certificate validation mechanism described in
+     [RFC7817].  Once the TLS session is established, POP3 [RFC1939]
+     protocol messages are exchanged as TLS application data for the
+     remainder of the TCP connection.  After the server sends an +OK
+     greeting, the server and client MUST enter the AUTHORIZATION state,
+     even if a client certificate was supplied during the TLS handshake.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

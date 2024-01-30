@@ -1,0 +1,30 @@
+"hash": |-
+  fa76b1d23a8ee3ab7d51060f82fe95d97254f3869c91202ed4d7f989933ce373
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             description
+               "Access to the requested protocol operation or
+                data model is denied because authorization failed.";
+           }
+           enum lock-denied {
+             description
+               "Access to the requested lock is denied because the
+                lock is currently held by another entity.";
+           }
+           enum resource-denied {
+             description
+               "Request could not be completed because of
+                insufficient resources.";
+           }
+           enum rollback-failed {
+             description
+               "Request to roll back some configuration change (via
+                rollback-on-error or <discard-changes> operations)
+                was not completed for some reason.";
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

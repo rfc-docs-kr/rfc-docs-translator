@@ -1,0 +1,19 @@
+"hash": |-
+  94d3233238cf69494c8f46890df588c2764b5c9c3f4795440691c24ef3186ab5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  The list of supported symmetric encryption algorithms has been
+        pruned of all algorithms that are considered legacy.  Those that
+        remain are all Authenticated Encryption with Associated Data
+        (AEAD) algorithms.  The cipher suite concept has been changed to
+        separate the authentication and key exchange mechanisms from the
+        record protection algorithm (including secret key length) and a
+        hash to be used with both the key derivation function and
+        handshake message authentication code (MAC).
+"fixed": |-
+  -  The list of supported symmetric encryption algorithms has been pruned of all algorithms that are considered legacy.  Those that remain are all Authenticated Encryption with Associated Data (AEAD) algorithms.  The cipher suite concept has been changed to separate the authentication and key exchange mechanisms from the record protection algorithm (including secret key length) and a hash to be used with both the key derivation function and handshake message authentication code (MAC).
+"ko": |-
+  - 지원되는 대칭 암호화 알고리즘 목록에서 레거시로 간주되는 모든 알고리즘이 제거되었습니다. 남아 있는 것은 모두 AEAD(Authenticated Encryption with Associated Data) 알고리즘입니다. 인증 및 키 교환 메커니즘을 기록 보호 알고리즘(비밀 키 길이 포함)과 키 파생 기능 및 MAC(핸드셰이크 메시지 인증 코드) 모두와 함께 사용되는 해시에서 분리하도록 암호 제품군 개념이 변경되었습니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  61cfa068270fdbc3c2f4144373bb1e6e1c3dd0c84f8286f48b06daf99f14bc3b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Pad the additional data and plaintext with zeros until they are each
+     a multiple of 16 bytes, the AES block size.  Calculate the length
+     block and X_1, X_2, ... as above and compute
+     S_s = POLYVAL(message-authentication-key, X_1, X_2, ...)
+"fixed": |-
+  Pad the additional data and plaintext with zeros until they are each a multiple of 16 bytes, the AES block size.  Calculate the length block and X_1, X_2, ... as above and compute S_s = POLYVAL(message-authentication-key, X_1, X_2, ...)
+"ko": |-
+  추가 데이터와 일반 텍스트가 각각 AES 블록 크기인 16바이트의 배수가 될 때까지 0으로 채웁니다. 위와 같이 길이 블록과 X_1, X_2, ...를 계산하고 S_s = POLYVAL(message-authentication-key, X_1, X_2, ...)을 계산합니다.

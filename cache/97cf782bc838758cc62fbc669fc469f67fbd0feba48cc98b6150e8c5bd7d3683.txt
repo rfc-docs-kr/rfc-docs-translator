@@ -1,0 +1,1 @@
+     a) CAReXmtInterval을 카운트다운하는 타이머가 중지됩니다. b) 해당 DCS에 해당하는 CAFSM은 Cache Summarize State로 전환되고 LS가 마스터 역할을 맡습니다. c) LS는 수신된 CA 메시지를 처리해야 합니다. CA 메시지 처리에 대한 설명은 다음과 같습니다. d) LS는 다음과 같은 형식의 CA 메시지를 DCS로 보냅니다. DCSID 및 LS의 현재 CA 시퀀스 번호는 1씩 증가하여 CA 메시지에 배치됩니다. LS에서 DCS로 보낼 CSAS 레코드가 있는 경우(즉, LS의 캐시가 비어 있지 않은 경우) O 비트는 1로 설정되고 CSAS 레코드의 초기 세트는 LS가 DCS로 보내고 있습니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  209d5f87b6b473dc63de608356bfce6a709fe817dcfbcbf1055971c5b1bfcc90
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To avoid fragmentation, it is desirable to employ MTU sizes that
+     allow for the header expansion (i.e., at least 1280 + 40 (outer IP
+     header) + SRH_MAX_SIZE), where SRH_MAX_SIZE is the maximum path
+     length for a given RPL network.  To take advantage of this, however,
+     the communicating endpoints need to be aware of the MTU along the
+     path (i.e., through Path MTU Discovery).  Unfortunately, the larger
+     MTU size may not be available on all links (e.g., 1280 octets on IPv6
+     Low-Power Wireless Personal Area Network (6LoWPAN) links).  However,
+     it is expected that much of the traffic on these types of networks
+     consists of much smaller messages than the MTU, so performance
+     degradation through fragmentation would be limited.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

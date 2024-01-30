@@ -1,0 +1,18 @@
+"hash": |-
+  e3639d23cbe4169754824d15c33d3d72e6bf9d9f9f60b58184e27a679c351dc7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  TLS 1.2 does not roll the session key forward within a single
+        session.  Thus, to prevent an attack where the server's ticket-
+        encryption key is stolen and used to decrypt the entire content of
+        a session (negating the concept of forward secrecy), a TLS 1.2
+        server SHOULD NOT resume sessions that are too old, e.g., sessions
+        that have been open longer than two ticket-encryption key rotation
+        periods.
+"fixed": |-
+  *  TLS 1.2 does not roll the session key forward within a single session.  Thus, to prevent an attack where the server's ticket- encryption key is stolen and used to decrypt the entire content of a session (negating the concept of forward secrecy), a TLS 1.2 server SHOULD NOT resume sessions that are too old, e.g., sessions that have been open longer than two ticket-encryption key rotation periods.
+"ko": |-
+  * TLS 1.2는 단일 세션 내에서 세션 키를 롤포워드하지 않습니다. 따라서 서버의 티켓 암호화 키를 훔쳐 세션의 전체 콘텐츠를 해독하는 데 사용되는 공격을 방지하기 위해(순방향 비밀성 개념 부정) TLS 1.2 서버는 너무 오래된 세션(예: 세션)을 재개해서는 안 됩니다. 두 번의 티켓 암호화 키 순환 기간보다 오랫동안 열려 있었던 티켓입니다.

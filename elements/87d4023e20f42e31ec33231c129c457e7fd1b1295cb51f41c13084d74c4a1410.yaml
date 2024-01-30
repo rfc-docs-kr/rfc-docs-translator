@@ -1,0 +1,30 @@
+"hash": |-
+  87d4023e20f42e31ec33231c129c457e7fd1b1295cb51f41c13084d74c4a1410
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Using classless prefixes with explicit prefix lengths allows much
+     more flexible matching of address space blocks according to actual
+     need.  Where formerly only three network sizes were available,
+     prefixes may be defined to describe any power of two-sized block of
+     between one and 2^32 end system addresses.  In practice, the
+     unallocated pool of addresses is administered by the Internet
+     Assigned Numbers Authority ([IANA]).  The IANA makes allocations from
+     this pool to Regional Internet Registries, as required.  These
+     allocations are made in contiguous bit-aligned blocks of 2^24
+     addresses (a.k.a. /8 prefixes).  The Regional Internet Registries
+     (RIRs), in turn, allocate or assign smaller address blocks to Local
+     Internet Registries (LIRs) or Internet Service Providers (ISPs).
+     These entities may make direct use of the assignment (as would
+     commonly be the case for an ISP) or may make further sub-allocations
+     of addresses to their customers.  These RIR address assignments vary
+     according to the needs of each ISP or LIR.  For example, a large ISP
+     might be allocated an address block of 2^17 addresses (a /15 prefix),
+     whereas a smaller ISP may be allocated an address block of 2^11
+     addresses (a /21 prefix).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

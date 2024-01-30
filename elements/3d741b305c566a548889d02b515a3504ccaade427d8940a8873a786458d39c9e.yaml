@@ -1,0 +1,22 @@
+"hash": |-
+  3d741b305c566a548889d02b515a3504ccaade427d8940a8873a786458d39c9e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+          ContentType type;
+          ProtocolVersion version;
+          uint16 epoch;                                     // New field
+          uint48 sequence_number;                           // New field
+          uint16 length;
+          select (CipherSpec.cipher_type) {
+            case block:  GenericBlockCipher;
+            case aead:   GenericAEADCipher;                 // New field
+          } fragment;
+        } DTLSCiphertext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

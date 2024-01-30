@@ -1,0 +1,16 @@
+"hash": |-
+  62bded829fba3f44eac825ecc05518e3ecf1765d18638e20a30ea6f0d34d5915
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If a peer receives a valid duplicate Request for which it has
+        already sent a Response, it MUST resend its original Response
+        without reprocessing the Request.  Requests MUST be processed in
+        the order that they are received, and MUST be processed to their
+        completion before inspecting the next Request.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

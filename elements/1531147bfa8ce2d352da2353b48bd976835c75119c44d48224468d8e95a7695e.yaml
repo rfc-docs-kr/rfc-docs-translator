@@ -1,0 +1,16 @@
+"hash": |-
+  1531147bfa8ce2d352da2353b48bd976835c75119c44d48224468d8e95a7695e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations MUST NOT send a ClientHello.legacy_version or
+     ServerHello.legacy_version set to 0x0300 or less.  Any endpoint
+     receiving a Hello message with ClientHello.legacy_version or
+     ServerHello.legacy_version set to 0x0300 MUST abort the handshake
+     with a "protocol_version" alert.
+"fixed": |-
+  Implementations MUST NOT send a ClientHello.legacy_version or ServerHello.legacy_version set to 0x0300 or less.  Any endpoint receiving a Hello message with ClientHello.legacy_version or ServerHello.legacy_version set to 0x0300 MUST abort the handshake with a "protocol_version" alert.
+"ko": |-
+  구현 시 0x0300 이하로 설정된 ClientHello.legacy_version 또는 ServerHello.legacy_version을 보내면 안 됩니다. ClientHello.legacy_version 또는 ServerHello.legacy_version이 0x0300으로 설정된 Hello 메시지를 수신하는 모든 엔드포인트는 "protocol_version" 경고와 함께 핸드셰이크를 중단해야 합니다.

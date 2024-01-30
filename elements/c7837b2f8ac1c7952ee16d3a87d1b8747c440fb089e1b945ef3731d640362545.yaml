@@ -1,0 +1,20 @@
+"hash": |-
+  c7837b2f8ac1c7952ee16d3a87d1b8747c440fb089e1b945ef3731d640362545
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For Dynamic Authorization Clients implementing this specification,
+     the IPsec policy would be "Initiate IPsec, from me to any,
+     destination port UDP 3799".  This causes the Dynamic Authorization
+     Client to initiate IPsec when sending Dynamic Authorization traffic
+     to any Dynamic Authorization Server.  If some Dynamic Authorization
+     Servers contacted by the Dynamic Authorization Client do not support
+     IPsec, then a more granular policy will be required, such as
+     "Initiate IPsec, from me to IPsec-Capable-DAS, destination port UDP
+     3799".
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

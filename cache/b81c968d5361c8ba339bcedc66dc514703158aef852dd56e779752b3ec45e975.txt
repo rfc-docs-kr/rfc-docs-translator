@@ -1,0 +1,1 @@
+   DSA 알고리즘 매개변수가 subjectPublicKeyInfo AlgorithmIdentifier에 없고 CA가 DSA를 사용하여 주체 인증서에 서명한 경우 인증서 발급자의 DSA 매개변수가 주체의 DSA 키에 적용됩니다. DSA 알고리즘 매개변수가 subjectPublicKeyInfo AlgorithmIdentifier에 없고 CA가 DSA가 아닌 서명 알고리즘을 사용하여 주체 인증서에 서명한 경우 주체의 DSA 매개변수는 다른 수단으로 배포됩니다. subjectPublicKeyInfo AlgorithmIdentifier 필드가 매개변수 구성요소를 생략하고 CA가 DSA가 아닌 서명 알고리즘을 사용하여 주제에 서명한 경우 클라이언트는 인증서를 거부해야 합니다.

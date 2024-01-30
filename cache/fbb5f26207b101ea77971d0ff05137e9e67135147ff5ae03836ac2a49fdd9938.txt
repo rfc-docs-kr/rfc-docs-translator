@@ -1,0 +1,1 @@
+   일부 QoS 작업은 직접 모델링되지 않습니다. 대신 적절한 연결과 함께 SimplePolicyAction 클래스를 사용하여 모델링됩니다. 예를 들어 세 가지 표시 작업(DSCP, IPP 및 CoS)은 SimplePolicyAction 클래스를 사용하고 해당 클래스를 [PCIMe]에 정의된 적절한 유형의 변수 및 값과 연결하여 모델링됩니다.

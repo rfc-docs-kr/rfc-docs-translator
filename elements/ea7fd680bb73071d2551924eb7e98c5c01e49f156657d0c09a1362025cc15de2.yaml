@@ -1,0 +1,21 @@
+"hash": |-
+  ea7fd680bb73071d2551924eb7e98c5c01e49f156657d0c09a1362025cc15de2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Type 3 summary-LSAs are used when the destination is an IP network.
+      In this case the LSA's Link State ID field is an IP network number
+      (if necessary, the Link State ID can also have one or more of the
+      network's "host" bits set; see Appendix E for details). When the
+      destination is an AS boundary router, a Type 4 summary-LSA is used,
+      and the Link State ID field is the AS boundary router's OSPF Router
+      ID.  (To see why it is necessary to advertise the location of each
+      ASBR, consult Section 16.4.)  Other than the difference in the Link
+      State ID field, the format of Type 3 and 4 summary-LSAs is
+      identical.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

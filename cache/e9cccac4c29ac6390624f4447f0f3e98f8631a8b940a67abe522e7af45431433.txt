@@ -1,0 +1,1 @@
+   요청된 파일이나 포함된 파일 시스템 모두 레이아웃을 지원하지 않는 경우 메타데이터 서버는 NFS4ERR_LAYOUTUNAVAILABLE을 반환해야 합니다. 레이아웃 유형이 지원되지 않는 경우 메타데이터 서버는 NFS4ERR_UNKNOWN_LAYOUTTYPE을 반환해야 합니다. 레이아웃이 지원되지만 클라이언트가 제공한 레이아웃 ID와 일치하는 레이아웃이 없는 경우 메타데이터 서버는 NFS4ERR_BADLAYOUT을 반환해야 합니다. 잘못된 loga_iomode가 지정되거나 LAYOUTIOMODE4_ANY의 loga_iomode가 지정된 경우 메타데이터 서버는 NFS4ERR_BADIOMODE를 반환해야 합니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  66d858eaee344fadc66e42dadd21eff89f7430fbe69c2abf48956e6aa78f1448
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServQTable OBJECT-TYPE
+      SYNTAX       SEQUENCE OF DiffServQEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "The Queue Table enumerates the individual queues.  Note that the
+         MIB models queuing systems as composed of individual queues, one
+         per class of traffic, even though they may in fact be structured
+         as classes of traffic scheduled using a common calendar queue, or
+         in other ways."
+      ::= { diffServQueue 2 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

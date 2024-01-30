@@ -1,0 +1,18 @@
+"hash": |-
+  d9826b9d264d20df9d735047392713a517aa9dbbf872fcacde670f766e0d4f99
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For shared configurations, this feature can cause other configuration
+     changes (for example, via other NETCONF sessions) to be inadvertently
+     altered or removed, unless the configuration locking feature is used
+     (in other words, the lock is obtained before the <edit-config>
+     operation is started).  Therefore, it is strongly suggested that in
+     order to use this feature with shared configuration datastores,
+     configuration locking SHOULD also be used.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

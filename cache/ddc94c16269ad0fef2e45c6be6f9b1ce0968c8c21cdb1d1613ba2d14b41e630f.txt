@@ -1,0 +1,1 @@
+   이 "https" URL에 대한 HTTPS RR 쿼리가 AliasMode HTTPS RR 또는 호환 가능한 ServiceMode HTTPS RR(섹션 8 참조)을 반환하는 경우 클라이언트는 이 "https"가 포함된 HTTP 307(임시 리디렉션) 상태 코드를 수신한 것처럼 동작해야 합니다. " 위치" 필드의 URL입니다. (호환되지 않는 ServiceMode RR의 수신은 리디렉션 동작을 트리거하지 않습니다.) HTTPS RR은 종종 안전하지 않은 채널(DNS)을 통해 수신되므로 클라이언트는 307(임시 리디렉션)을 수신한 경우보다 이 신호를 더 이상 신뢰해서는 안 됩니다. ) 일반 텍스트 HTTP를 통한 응답입니다.

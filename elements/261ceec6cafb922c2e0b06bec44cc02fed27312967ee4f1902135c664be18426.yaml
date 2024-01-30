@@ -1,0 +1,22 @@
+"hash": |-
+  261ceec6cafb922c2e0b06bec44cc02fed27312967ee4f1902135c664be18426
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When using configuration information per [RFC6186], MUAs SHOULD NOT
+     automatically establish new configurations that do not require TLS
+     for all servers, unless there are no advertised configurations using
+     TLS.  If such a configuration is chosen, prior to attempting to
+     authenticate to the server or use the server for Message Submission,
+     the MUA SHOULD warn the user that traffic to that server will not be
+     encrypted and that it will therefore likely be intercepted by
+     unauthorized parties.  The specific wording is to be determined by
+     the implementation, but it should adequately capture the sense of
+     risk, given the widespread incidence of mass surveillance of email
+     traffic.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

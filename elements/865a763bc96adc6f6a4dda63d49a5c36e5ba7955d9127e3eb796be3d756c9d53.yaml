@@ -1,0 +1,16 @@
+"hash": |-
+  865a763bc96adc6f6a4dda63d49a5c36e5ba7955d9127e3eb796be3d756c9d53
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An attempt to open a TCP connection could fail with excessive
+     retransmissions of the SYN segment or by receipt of a RST segment or
+     an ICMP Port Unreachable.  SYN retransmissions MUST be handled in the
+     general way just described for data retransmissions, including
+     notification of the application layer.
+"fixed": |-
+  An attempt to open a TCP connection could fail with excessive retransmissions of the SYN segment or by receipt of a RST segment or an ICMP Port Unreachable.  SYN retransmissions MUST be handled in the general way just described for data retransmissions, including notification of the application layer.
+"ko": |-
+  SYN 세그먼트의 과도한 재전송이나 RST 세그먼트 수신 또는 ICMP 포트 연결 불가로 인해 TCP 연결을 열려는 시도가 실패할 수 있습니다. SYN 재전송은 애플리케이션 계층 알림을 포함하여 데이터 재전송에 대해 방금 설명한 일반적인 방식으로 처리되어야 합니다.

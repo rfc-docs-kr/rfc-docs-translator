@@ -1,0 +1,18 @@
+"hash": |-
+  5a746831adde1a1abcd5fd724e9d04d2352ffdd89e2c269b821459df6d570af2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In states Loading and Full the slave must resend its last
+          Database Description packet in response to duplicate Database
+          Description packets received from the master.  For this reason
+          the slave must wait RouterDeadInterval seconds before freeing
+          the last Database Description packet.  Reception of a Database
+          Description packet from the master after this interval will
+          generate a SeqNumberMismatch neighbor event.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

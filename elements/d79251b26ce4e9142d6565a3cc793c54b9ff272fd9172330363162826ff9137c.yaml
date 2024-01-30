@@ -1,0 +1,18 @@
+"hash": |-
+  d79251b26ce4e9142d6565a3cc793c54b9ff272fd9172330363162826ff9137c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Integrity protection of TWAMP follows the same procedure defined in
+     Section 3.2 of OWAMP [RFC4656].  As in OWAMP, each HMAC (Hashed
+     Message Authentication Code) sent covers everything sent in a given
+     direction between the previous HMAC (but not including it) and the
+     start of the new HMAC.  This way, once encryption is set up, each bit
+     of the TWAMP-Control connection is authenticated by an HMAC exactly
+     once.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

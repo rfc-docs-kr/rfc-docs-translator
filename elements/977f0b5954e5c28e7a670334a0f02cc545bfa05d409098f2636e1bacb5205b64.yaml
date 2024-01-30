@@ -1,0 +1,24 @@
+"hash": |-
+  977f0b5954e5c28e7a670334a0f02cc545bfa05d409098f2636e1bacb5205b64
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+               "This error-tag is obsolete, and SHOULD NOT be sent
+                by servers conforming to this document.";
+           }
+           enum malformed-message {
+             description
+               "A message could not be handled because it failed to
+                be parsed correctly.  For example, the message is not
+                well-formed XML or it uses an invalid character set.";
+           }
+         }
+         description "NETCONF Error Tag";
+         reference "RFC 6241, Appendix A";
+      }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

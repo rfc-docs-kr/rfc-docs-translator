@@ -1,0 +1,1 @@
+   iSCSI는 클라이언트(iSCSI 개시자) 주체를 서비스(iSCSI 대상) 주체로 인증하기 위해 원시 Kerberos V5 [RFC4120]를 사용합니다. iSCSI는 일반 보안 서비스 응용 프로그램 인터페이스(GSS-API) [RFC2743] 또는 Kerberos V5 GSS-API 보안 메커니즘 [RFC4121]을 사용하지 않습니다. 이는 KRB5 AuthMethod(섹션 12.1)를 지원하는 iSCSI 구현이 Kerberos 프로토콜에 직접적으로 관련되어 있음을 의미합니다. Kerberos V5가 인증에 사용되는 경우 [RFC4120]에 지정된 대로 다음 작업을 수행해야 합니다.

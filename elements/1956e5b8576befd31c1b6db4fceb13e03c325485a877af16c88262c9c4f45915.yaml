@@ -1,0 +1,25 @@
+"hash": |-
+  1956e5b8576befd31c1b6db4fceb13e03c325485a877af16c88262c9c4f45915
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS does not currently permit the server to send a
+     certificate_request message in non-certificate-based handshakes
+     (e.g., PSK).  If this restriction were to be relaxed in future, the
+     client's signature would not cover the server's certificate directly.
+     However, if the PSK was established through a NewSessionTicket, the
+     client's signature would transitively cover the server's certificate
+     through the PSK binder.  [PSK-FINISHED] describes a concrete attack
+     on constructions that do not bind to the server's certificate (see
+     also [Kraw16]).  It is unsafe to use certificate-based client
+     authentication when the client might potentially share the same
+     PSK/key-id pair with two different endpoints.  Implementations
+     MUST NOT combine external PSKs with certificate-based authentication
+     of either the client or the server unless negotiated by some
+     extension.
+"fixed": |-
+  TLS does not currently permit the server to send a certificate_request message in non-certificate-based handshakes (e.g., PSK).  If this restriction were to be relaxed in future, the client's signature would not cover the server's certificate directly. However, if the PSK was established through a NewSessionTicket, the client's signature would transitively cover the server's certificate through the PSK binder.  [PSK-FINISHED] describes a concrete attack on constructions that do not bind to the server's certificate (see also [Kraw16]).  It is unsafe to use certificate-based client authentication when the client might potentially share the same PSK/key-id pair with two different endpoints.  Implementations MUST NOT combine external PSKs with certificate-based authentication of either the client or the server unless negotiated by some extension.
+"ko": |-
+  TLS는 현재 서버가 인증서 기반이 아닌 핸드셰이크(예: PSK)로 인증서 요청 메시지를 보내는 것을 허용하지 않습니다. 나중에 이 제한이 완화된다면 클라이언트의 서명이 서버의 인증서를 직접적으로 포함하지 않게 됩니다. 그러나 PSK가 NewSessionTicket을 통해 설정된 경우 클라이언트의 서명은 PSK 바인더를 통해 서버의 인증서를 전이적으로 포함합니다. [PSK-FINISHED]는 서버의 인증서에 바인딩되지 않은 구성에 대한 구체적인 공격을 설명합니다([Kraw16] 참조). 클라이언트가 잠재적으로 두 개의 다른 끝점과 동일한 PSK/키 ID 쌍을 공유할 수 있는 경우 인증서 기반 클라이언트 인증을 사용하는 것은 안전하지 않습니다. 구현 시 일부 확장 프로그램에 의해 협상되지 않는 한 외부 PSK를 클라이언트 또는 서버의 인증서 기반 인증과 결합해서는 안 됩니다.

@@ -1,0 +1,1 @@
+   o 서버에 대한 초기 IV 클라이언트: HASH(K || H || "A" || session_id) (여기서 K는 mpint로 인코딩되고 "A"는 바이트로, session_id는 원시 데이터로 인코딩됩니다. "A"는 단일 문자 A를 의미합니다. ASCII 65).

@@ -1,0 +1,18 @@
+"hash": |-
+  eac5746d94bdc9afb4eb553d4efb57d088cd79145b5a1a00acbd8786843c5065
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unfortunately, CTR provides no data origin authentication, and thus
+     the ESP CTR standard requires the use of a data origin authentication
+     algorithm in conjunction with CTR.  This requirement is problematic,
+     because none of the standard data origin authentication algorithms
+     can be efficiently implemented for high data rates.  GCM solves this
+     problem, because under the hood, it combines CTR mode with a secure,
+     parallelizable, and efficient authentication mechanism.
+"fixed": |-
+  Unfortunately, CTR provides no data origin authentication, and thus the ESP CTR standard requires the use of a data origin authentication algorithm in conjunction with CTR.  This requirement is problematic, because none of the standard data origin authentication algorithms can be efficiently implemented for high data rates.  GCM solves this problem, because under the hood, it combines CTR mode with a secure, parallelizable, and efficient authentication mechanism.
+"ko": |-
+  안타깝게도 CTR은 데이터 원본 인증을 제공하지 않으므로 ESP CTR 표준에서는 CTR과 함께 데이터 원본 인증 알고리즘을 사용해야 합니다. 표준 데이터 원본 인증 알고리즘 중 어느 것도 높은 데이터 속도에 효율적으로 구현될 수 없기 때문에 이 요구 사항은 문제가 됩니다. GCM은 내부적으로 CTR 모드와 안전하고 병렬화 가능하며 효율적인 인증 메커니즘을 결합하므로 이 문제를 해결합니다.

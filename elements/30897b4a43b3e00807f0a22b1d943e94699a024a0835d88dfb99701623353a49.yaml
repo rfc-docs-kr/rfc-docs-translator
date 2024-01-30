@@ -1,0 +1,18 @@
+"hash": |-
+  30897b4a43b3e00807f0a22b1d943e94699a024a0835d88dfb99701623353a49
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Installing a new LSA in the database, either as the result of
+          flooding or a newly self-originated LSA, may cause the OSPF
+          routing table structure to be recalculated.  The contents of the
+          new LSA should be compared to the old instance, if present.  If
+          there is no difference, there is no need to recalculate the
+          routing table. When comparing an LSA to its previous instance,
+          the following are all considered to be differences in contents:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

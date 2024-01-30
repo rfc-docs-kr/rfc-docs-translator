@@ -1,0 +1,1 @@
+   수신자는 "Recv" 상태의 MAX_STREAM_DATA 프레임만 보냅니다. 수신자는 RESET_STREAM 프레임을 수신하지 않은 상태(즉, "Reset Recvd" 또는 "Reset Read" 이외의 상태)에서 STOP_SENDING 프레임을 보낼 수 있습니다. 그러나 모든 스트림 데이터가 수신되었으므로 "Data Recvd" 상태에서 STOP_SENDING 프레임을 보내는 것은 거의 가치가 없습니다. 보낸 사람은 지연된 패킷 배달의 결과로 어떤 상태에서든 이 두 가지 유형의 프레임 중 하나를 받을 수 있습니다.

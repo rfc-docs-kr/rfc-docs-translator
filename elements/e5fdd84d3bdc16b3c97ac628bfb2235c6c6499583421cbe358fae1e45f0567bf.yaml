@@ -1,0 +1,21 @@
+"hash": |-
+  e5fdd84d3bdc16b3c97ac628bfb2235c6c6499583421cbe358fae1e45f0567bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          An implementation of OSPF must be able to access individual
+          pieces of an area database.  This lookup function is based on an
+          LSA's LS type, Link State ID and Advertising Router.[14] There
+          will be a single instance (the most up-to-date) of each LSA in
+          the database.  The database lookup function is invoked during
+          the LSA flooding procedure (Section 13) and the routing table
+          calculation (Section 16).  In addition, using this lookup
+          function the router can determine whether it has itself ever
+          originated a particular LSA, and if so, with what LS sequence
+          number.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

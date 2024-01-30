@@ -1,0 +1,22 @@
+"hash": |-
+  7842173d317350f712858960c32dc322f05ef7d6d4d7ca93a43d0db77d9069fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the PKI method of client authentication is used, an attacker could
+     try to impersonate a client using a certificate with the same subject
+     (DN or SAN) but issued by a different CA that the authorization
+     server trusts.  To cope with that threat, the authorization server
+     SHOULD only accept, as trust anchors, a limited number of CAs whose
+     certificate issuance policy meets its security requirements.  There
+     is an assumption then that the client and server agree out of band on
+     the set of trust anchors that the server uses to create and validate
+     the certificate chain.  Without this assumption the use of a subject
+     to identify the client certificate would open the server up to
+     certificate spoofing attacks.
+"fixed": |-
+  If the PKI method of client authentication is used, an attacker could try to impersonate a client using a certificate with the same subject (DN or SAN) but issued by a different CA that the authorization server trusts.  To cope with that threat, the authorization server SHOULD only accept, as trust anchors, a limited number of CAs whose certificate issuance policy meets its security requirements.  There is an assumption then that the client and server agree out of band on the set of trust anchors that the server uses to create and validate the certificate chain.  Without this assumption the use of a subject to identify the client certificate would open the server up to certificate spoofing attacks.
+"ko": |-
+  클라이언트 인증에 PKI 방법을 사용하는 경우 공격자는 동일한 주제(DN 또는 SAN)가 있지만 권한 부여 서버가 신뢰하는 다른 CA에서 발급한 인증서를 사용하여 클라이언트를 가장하려고 시도할 수 있습니다. 이러한 위협에 대처하기 위해 인증 서버는 인증서 발급 정책이 보안 요구 사항을 충족하는 제한된 수의 CA만 트러스트 앵커로 허용해야 합니다. 그러면 서버가 인증서 체인을 생성하고 유효성을 검사하는 데 사용하는 트러스트 앵커 세트에 대해 클라이언트와 서버가 대역 외에서 동의한다는 가정이 있습니다. 이러한 가정 없이 클라이언트 인증서를 식별하기 위해 주체를 사용하면 서버가 인증서 스푸핑 공격에 노출될 수 있습니다.

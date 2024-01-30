@@ -1,0 +1,1 @@
+   ack_delay = ACK 프레임의 디코딩된 승인 지연 if(핸드셰이크 확인): ack_delay = min(ack_delay, max_ack_delay) adjust_rtt =latest_rtt if(latest_rtt >= min_rtt + ack_delay): adjust_rtt = 최신_rtt - ack_delay smoothed_rtt = 7/8 * smoothed_rtt + 1/ 8 * 조정_rtt rttvar_sample = 절대(smoothed_rtt - 조정_rtt) rttvar = 3/4 * rttvar + 1/4 * rttvar_sample

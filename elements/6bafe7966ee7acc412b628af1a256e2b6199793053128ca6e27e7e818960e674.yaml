@@ -1,0 +1,22 @@
+"hash": |-
+  6bafe7966ee7acc412b628af1a256e2b6199793053128ca6e27e7e818960e674
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The optional Network Appearance parameter field identifies the SS7
+        network context for the Routing Key, and it has the same format as
+        in the DATA message (see Section 3.3.1) with the exception that it
+        does not have to be the first parameter in the message.  If the
+        Network Appearance is not specified and the Routing Key applies to
+        all Network Appearances, then this Routing Key MUST be the only
+        one registered for the association; that is, Routing Context is
+        implied, and DATA and SSNM messages are discriminated on Network
+        Appearance rather than on Routing Context.  Where Network
+        Appearance is not specified and there is only one Network
+        Appearance, then Network Appearance is implied.  Its format is:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  1e9897c798289cc64138fed422080356b5d62e6397b62c9febebcc506b86c194
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are multiple ways to connect an AVAS service (e.g., "Antivirus
+     & Antispam") to a mail server.  Some mechanisms, such as the de facto
+     "milter" protocol, are out of scope for this specification.  However,
+     some services use an SMTP relay proxy that intercepts mail at the
+     application layer to perform a scan and proxy or forward to another
+     Mail Transfer Agent (MTA).  Deploying AVAS services in this way can
+     cause many problems [RFC2979], including direct interference with
+     this specification, and other forms of confidentiality or security
+     reduction.  An AVAS product or service is considered compatible with
+     this specification if all IMAP, POP, and SMTP-related software
+     (including proxies) it includes are compliant with this
+     specification.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

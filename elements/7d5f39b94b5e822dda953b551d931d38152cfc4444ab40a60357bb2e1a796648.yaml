@@ -1,0 +1,17 @@
+"hash": |-
+  7d5f39b94b5e822dda953b551d931d38152cfc4444ab40a60357bb2e1a796648
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Rationale: SNI supports deployment of multiple TLS-protected virtual
+     servers on a single address, and therefore enables fine-grained
+     security for these virtual servers, by allowing each one to have its
+     own certificate.  However, SNI also leaks the target domain for a
+     given connection; this information leak will be closed by use of TLS
+     Encrypted Client Hello once that method has been standardized.
+"fixed": |-
+  Rationale: SNI supports deployment of multiple TLS-protected virtual servers on a single address, and therefore enables fine-grained security for these virtual servers, by allowing each one to have its own certificate.  However, SNI also leaks the target domain for a given connection; this information leak will be closed by use of TLS Encrypted Client Hello once that method has been standardized.
+"ko": |-
+  근거: SNI는 단일 주소에 여러 개의 TLS로 보호되는 가상 서버 배포를 지원하므로 각 가상 서버가 자체 인증서를 갖도록 허용함으로써 이러한 가상 서버에 대한 세분화된 보안을 활성화합니다. 그러나 SNI는 특정 연결에 대한 대상 도메인도 유출합니다. 이 정보 유출은 TLS 암호화 클라이언트 Hello 방법이 표준화되면 이를 통해 종료됩니다.

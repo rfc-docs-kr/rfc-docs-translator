@@ -1,0 +1,43 @@
+"hash": |-
+  b8e37813a471c65a16ec1acbf72e3dbe4c1f68e398fe274f1af5e1af638a5dce
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         |  Object Size   |  Temporal Locality   | Popularity Distribution
+     =====================================================================
+     Web | Concatenation  | Ordering via the     | Zipf: p(i)=K/i^a
+         | of Lognormal   | Least Recently Used  | i: popularity rank
+         | (body) and     | (LRU) stack model    | N: total items
+         | Pareto (tail)  | [Busari02]           | K: 1/Sum(1/i^a)
+         | [Barford98]    |                      | a: distribution slope
+         | [Barford99]    | Exact timing via     | values 0.64-0.84
+         |                | exponential          | [Breslau99] [Mahanti00]
+         |                | distribution         |
+         |                | [Arlitt97]           |
+     ---------------------------------------------------------------------
+     VoD | Duration/size: | No analytical models | Weibull: k=0.513,
+         | Concatenated   |                      | lambda=6010
+         | normal; most   | Random distribution  |
+         | videos         | across total         | Gamma: k=0.372,
+         | ~330 kbit/s    | duration             | theta=23910
+         | [Cheng13]      |                      | [Cheng08]
+     ---------------------------------------------------------------------
+     P2P | Wide variation | Mean arrival rate of | Mandelbrot-Zipf
+         | on torrent     | 0.9454 torrents/hour | [Hefeeda08]:
+         | sizes          | Peers in a swarm     | p(i)=K/((i+q)/a)
+         | [Hefeeda08].   | arrive as            | q: plateau factor,
+         | No analytical  | l(t)= l0*e^(-t/tau)  | 5 to 100.
+         | models exist:  | l0: initial arrival  | Flatter head than in
+         | Sample a real  | rate (87.74 average) | Zipf-like distribution
+         | BitTorrent     | tau: object          | (where q=0)
+         | distribution   | popularity           |
+         | [Bellissimo04] | (1.16 average)*      |
+         | or use fixed   | [Guo07]              |
+         | value          |                      |
+     =====================================================================
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

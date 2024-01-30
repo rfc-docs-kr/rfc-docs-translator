@@ -1,0 +1,19 @@
+"hash": |-
+  98b161fe01d24cf420f71fb50e0ff9e2d4ac003489fc4a7e56217ffe4f4771f4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Diameter protocol requires that agents maintain transaction
+     state, which is used for failover purposes.  Transaction state
+     implies that upon forwarding a request, its Hop-by-Hop Identifier is
+     saved; the field is replaced with a locally unique identifier, which
+     is restored to its original value when the corresponding answer is
+     received.  The request's state is released upon receipt of the
+     answer.  A stateless agent is one that only maintains transaction
+     state.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

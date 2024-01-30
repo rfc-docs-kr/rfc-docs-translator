@@ -1,0 +1,22 @@
+"hash": |-
+  c41bf8d1a5c5cfb5fe5574cbdcf4f4a0e330488614e0934b7d2742625b5c1633
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             | State
+             |    0         1         2         3         4         5
+       Events| Initial   Starting  Closed    Stopped   Closing   Stopping
+       ------+-----------------------------------------------------------
+        Up   |    2     irc,scr/6     -         -         -         -
+        Down |    -         -         0       tls/1       0         1
+        Open |  tls/1       1     irc,scr/6     3r        5r        5r
+        Close|    0       tlf/0       2         2         4         4
+             |
+         TO+ |    -         -         -         -       str/4     str/5
+         TO- |    -         -         -         -       tlf/2     tlf/3
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+- 서버가 세트 중에서 선택하는 알고리즘은 spr_ssv_prot_info의 필드인 spi_hash_alg에 표시됩니다. spi_hash_alg 필드는 ssp_hash_algs 배열에 대한 인덱스입니다. id-sha1의 알려진 약점으로 인해 ssp_hash_algs에 지원되는 다른 알고리즘이 포함되어 있는 한 서버에서 이를 선택하지 않는 것이 좋습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  05a88d1c4b4051bfda131b01d6136c91483855d4db68bce1c173c18aa03e0249
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  Deployments in which multiple servers providing the same service
+         have different TLS configurations.  In this case, an attacker
+         might be able to direct a connecting endpoint to a server with a
+         TLS configuration that is more easily exploitable (see [DROWN]
+         for more detailed information about this class of attacks).  To
+         mitigate this threat, service providers SHOULD ensure that all
+         servers providing the same service provide equivalent levels of
+         security that are consistent with the recommendations in this
+         document.
+"fixed": |-
+  1.  Deployments in which multiple servers providing the same service have different TLS configurations.  In this case, an attacker might be able to direct a connecting endpoint to a server with a TLS configuration that is more easily exploitable (see [DROWN] for more detailed information about this class of attacks).  To mitigate this threat, service providers SHOULD ensure that all servers providing the same service provide equivalent levels of security that are consistent with the recommendations in this document.
+"ko": |-
+  1. 동일한 서비스를 제공하는 여러 서버가 서로 다른 TLS 구성을 갖는 배포. 이 경우 공격자는 보다 쉽게 ​​악용할 수 있는 TLS 구성을 사용하여 연결 엔드포인트를 서버에 연결할 수 있습니다(이 공격 클래스에 대한 자세한 내용은 [DROWN] 참조). 이러한 위협을 완화하기 위해 서비스 제공업체는 동일한 서비스를 제공하는 모든 서버가 이 문서의 권장 사항과 일치하는 동등한 수준의 보안을 제공하는지 확인해야 합니다.

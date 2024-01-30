@@ -1,0 +1,21 @@
+"hash": |-
+  2cacac278b1397c89bea4c7e3972cbbe134ddf99697281396be07fa27289e295
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Both the Server and the Client use the same mappings from KeyIDs to
+     shared secrets.  The Server, being prepared to conduct sessions with
+     more than one Client, uses KeyIDs to choose the appropriate secret
+     key; a Client would typically have different secret keys for
+     different Servers.  The shared secret is a passphrase.  To maximize
+     passphrase interoperability, the passphrase character set MUST be
+     encoded using Appendix B of [RFC5198] (the ASCII Network Virtual
+     Terminal Definition).  It MUST not contain newlines (any combination
+     of Carriage-Return (CR) and/or Line-Feed (LF) characters), and
+     control characters SHOULD be avoided.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

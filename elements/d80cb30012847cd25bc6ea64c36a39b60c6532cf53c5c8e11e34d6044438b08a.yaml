@@ -1,0 +1,22 @@
+"hash": |-
+  d80cb30012847cd25bc6ea64c36a39b60c6532cf53c5c8e11e34d6044438b08a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Dynamic Authorization Server MUST silently discard Disconnect-
+     Request or CoA-Request packets from untrusted sources.  In situations
+     where the Dynamic Authorization Client is co-resident with a RADIUS
+     authentication or accounting server, a proxy MAY perform a "reverse
+     path forwarding" (RPF) check to verify that a Disconnect-Request or
+     CoA-Request originates from an authorized Dynamic Authorization
+     Client.  In addition, it SHOULD be possible to explicitly authorize
+     additional sources of Disconnect-Request or CoA-Request packets
+     relating to certain classes of sessions.  For example, a particular
+     source can be explicitly authorized to send CoA-Request packets
+     relating to users within a set of realms.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

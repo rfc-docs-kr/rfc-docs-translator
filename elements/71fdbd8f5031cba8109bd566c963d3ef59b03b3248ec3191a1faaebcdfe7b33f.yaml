@@ -1,0 +1,14 @@
+"hash": |-
+  71fdbd8f5031cba8109bd566c963d3ef59b03b3248ec3191a1faaebcdfe7b33f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Every passive OPEN call either creates a new connection record in
+     LISTEN state, or it returns an error; it MUST NOT affect any
+     previously created connection record (MUST-41).
+"fixed": |-
+  Every passive OPEN call either creates a new connection record in LISTEN state, or it returns an error; it MUST NOT affect any previously created connection record (MUST-41).
+"ko": |-
+  모든 수동 OPEN 호출은 LISTEN 상태에서 새 연결 레코드를 생성하거나 오류를 반환합니다. 이전에 생성된 연결 레코드에 영향을 주어서는 안 됩니다(MUST-41).

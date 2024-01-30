@@ -1,0 +1,1 @@
+   또한 클라이언트는 gss_init_sec_context req_flags 매개변수를 통해 재생 보호, 위임 및 시퀀스 보호에 대한 요구 사항을 지정해야 합니다. 이 사양에서는 클라이언트가 항상 이러한 서비스 옵션을 요청해야 합니다(즉, GSS_C_MUTUAL_FLAG | GSS_C_REPLAY_FLAG | GSS_C_DELEG_FLAG | GSS_C_SEQUENCE_FLAG를 req_flags에 전달).

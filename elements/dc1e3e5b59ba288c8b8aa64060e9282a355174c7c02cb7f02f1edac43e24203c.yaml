@@ -1,0 +1,26 @@
+"hash": |-
+  dc1e3e5b59ba288c8b8aa64060e9282a355174c7c02cb7f02f1edac43e24203c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that higher layers should not be overly reliant on whether TLS
+     always negotiates the strongest possible connection between two
+     peers.  There are a number of ways in which a man-in-the-middle
+     attacker can attempt to make two entities drop down to the least
+     secure method they support.  The protocol has been designed to
+     minimize this risk, but there are still attacks available: for
+     example, an attacker could block access to the port a secure service
+     runs on, or attempt to get the peers to negotiate an unauthenticated
+     connection.  The fundamental rule is that higher levels must be
+     cognizant of what their security requirements are and never transmit
+     information over a channel less secure than what they require.  The
+     TLS protocol is secure in that any cipher suite offers its promised
+     level of security: if you negotiate 3DES with a 1024-bit RSA key
+     exchange with a host whose certificate you have verified, you can
+     expect to be that secure.
+"fixed": |-
+  Note that higher layers should not be overly reliant on whether TLS always negotiates the strongest possible connection between two peers.  There are a number of ways in which a man-in-the-middle attacker can attempt to make two entities drop down to the least secure method they support.  The protocol has been designed to minimize this risk, but there are still attacks available: for example, an attacker could block access to the port a secure service runs on, or attempt to get the peers to negotiate an unauthenticated connection.  The fundamental rule is that higher levels must be cognizant of what their security requirements are and never transmit information over a channel less secure than what they require.  The TLS protocol is secure in that any cipher suite offers its promised level of security: if you negotiate 3DES with a 1024-bit RSA key exchange with a host whose certificate you have verified, you can expect to be that secure.
+"ko": |-
+  상위 계층은 TLS가 항상 두 피어 간의 가능한 가장 강력한 연결을 협상하는지 여부에 지나치게 의존해서는 안 됩니다. 중간자 공격자가 두 엔터티를 그들이 지원하는 가장 덜 안전한 방법으로 떨어뜨리도록 시도할 수 있는 방법에는 여러 가지가 있습니다. 프로토콜은 이러한 위험을 최소화하도록 설계되었지만 여전히 가능한 공격이 있습니다. 예를 들어 공격자는 보안 서비스가 실행되는 포트에 대한 액세스를 차단하거나 피어가 인증되지 않은 연결을 협상하도록 시도할 수 있습니다. 기본 규칙은 더 높은 수준이 보안 요구 사항을 인식해야 하며 필요한 것보다 덜 안전한 채널을 통해 정보를 전송하지 않는다는 것입니다. TLS 프로토콜은 모든 암호 제품군이 약속된 보안 수준을 제공한다는 점에서 안전합니다. 인증서를 확인한 호스트와 1024비트 RSA 키 교환을 통해 3DES를 협상하면 그만큼 안전할 것으로 기대할 수 있습니다.

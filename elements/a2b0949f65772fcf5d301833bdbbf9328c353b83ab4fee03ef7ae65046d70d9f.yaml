@@ -1,0 +1,18 @@
+"hash": |-
+  a2b0949f65772fcf5d301833bdbbf9328c353b83ab4fee03ef7ae65046d70d9f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Both the Conf-Sender field and Conf-Receiver field MUST be set to 0
+     since the Session-Reflector will both receive and send packets, and
+     the roles are established according to which host initiates the TCP
+     connection for control.  The Server MUST interpret any non-zero value
+     as an improperly formatted command, and MUST respond with the Accept
+     field set to 3 (meaning "Some aspect of request is not supported") in
+     the Accept-Session message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

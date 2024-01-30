@@ -1,0 +1,1 @@
+   SHARE 예약의 경우 클라이언트는 READ, WRITE 또는 BOTH 중 하나인 share_access 값을 지정해야 합니다. share_deny의 경우 클라이언트는 NONE, READ, WRITE 또는 BOTH 중 하나를 지정해야 합니다. 클라이언트가 이를 수행하지 못하면 서버는 NFS4ERR_INVAL을 반환해야 합니다.

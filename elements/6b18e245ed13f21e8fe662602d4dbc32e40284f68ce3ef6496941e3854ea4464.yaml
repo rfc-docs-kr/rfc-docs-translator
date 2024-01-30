@@ -1,0 +1,22 @@
+"hash": |-
+  6b18e245ed13f21e8fe662602d4dbc32e40284f68ce3ef6496941e3854ea4464
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When transmitting the handshake message, the sender divides the
+     message into a series of N contiguous data ranges.  These ranges MUST
+     NOT be larger than the maximum handshake fragment size and MUST
+     jointly contain the entire handshake message.  The ranges SHOULD NOT
+     overlap.  The sender then creates N handshake messages, all with the
+     same message_seq value as the original handshake message.  Each new
+     message is labeled with the fragment_offset (the number of bytes
+     contained in previous fragments) and the fragment_length (the length
+     of this fragment).  The length field in all messages is the same as
+     the length field of the original message.  An unfragmented message is
+     a degenerate case with fragment_offset=0 and fragment_length=length.
+"fixed": |-
+  When transmitting the handshake message, the sender divides the message into a series of N contiguous data ranges.  These ranges MUST NOT be larger than the maximum handshake fragment size and MUST jointly contain the entire handshake message.  The ranges SHOULD NOT overlap.  The sender then creates N handshake messages, all with the same message_seq value as the original handshake message.  Each new message is labeled with the fragment_offset (the number of bytes contained in previous fragments) and the fragment_length (the length of this fragment).  The length field in all messages is the same as the length field of the original message.  An unfragmented message is a degenerate case with fragment_offset=0 and fragment_length=length.
+"ko": |-
+  핸드셰이크 메시지를 전송할 때 보낸 사람은 메시지를 일련의 N개의 연속적인 데이터 범위로 나눕니다. 이러한 범위는 최대 핸드셰이크 조각 크기보다 클 수 없으며 전체 핸드셰이크 메시지를 함께 포함해야 합니다. 범위는 겹쳐서는 안 됩니다. 그런 다음 발신자는 원본 핸드셰이크 메시지와 동일한 message_seq 값을 사용하여 N개의 핸드셰이크 메시지를 생성합니다. 각각의 새 메시지에는 조각_오프셋(이전 조각에 포함된 바이트 수) 및 조각_길이(이 조각의 길이) 레이블이 지정됩니다. 모든 메시지의 길이 필드는 원본 메시지의 길이 필드와 동일합니다. 조각화되지 않은 메시지는 조각_오프셋=0 및 조각_길이=길이를 갖는 퇴화 사례입니다.

@@ -1,0 +1,1 @@
+   클라이언트에 OPEN 위임이 있으면 OPEN 또는 CLOSE를 서버에 보낼 필요가 없습니다. 대신 클라이언트는 내부적으로 적절한 상태를 업데이트할 수 있습니다. OPEN_DELEGATE_READ 위임의 경우 로컬로 처리할 수 없는 열기(OPEN4_SHARE_ACCESS_WRITE/OPEN4_SHARE_ACCESS_BOTH용 열기 또는 OPEN4_SHARE_ACCESS_READ 액세스를 거부하는 열기)를 서버로 보내야 합니다.

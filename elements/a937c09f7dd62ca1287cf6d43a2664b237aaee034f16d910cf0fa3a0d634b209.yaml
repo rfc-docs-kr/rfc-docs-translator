@@ -1,0 +1,22 @@
+"hash": |-
+  a937c09f7dd62ca1287cf6d43a2664b237aaee034f16d910cf0fa3a0d634b209
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The optional Concerned Destination parameter is only used if the
+        SCON message is sent from an ASP to the SGP.  It contains the
+        point code of the originator of the message that triggered the
+        SCON message.  The Concerned Destination parameter contains one
+        Concerned Destination Point Code field, a three-octet parameter to
+        allow for 14-, 16-, and 24-bit binary formatted SS7 Point Codes.
+        A Concerned Point Code that is less than 24 bits is padded on the
+        left to the 24-bit boundary.  Any resulting Transfer Controlled
+        (TFC) message from the SG is sent to the Concerned Point Code
+        using the single Affected DPC contained in the SCON message to
+        populate the (affected) Destination field of the TFC message
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   NFSv4.1 서버는 파일의 RECOMMENDED 또는 REQUIRED 속성에 검증자를 저장해서는 안 됩니다. 그렇다면 서버는 검증자를 저장하기 위해 time_modify_set 또는 time_access_set를 사용해야 합니다. 서버는 다음 속성에 검증자를 저장해서는 안 됩니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  bf88733cddbb75d2a4220035827e677e0a5f0c8fef2e846e14d38f5a2767cc41
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Keeping the right window edge fixed as data arrives and is
+     acknowledged requires that the receiver offer less than its full
+     buffer space, i.e., the receiver must specify a RCV.WND that keeps
+     RCV.NXT+RCV.WND constant as RCV.NXT increases.  Thus, the total
+     buffer space RCV.BUFF is generally divided into three parts:
+"fixed": |-
+  Keeping the right window edge fixed as data arrives and is acknowledged requires that the receiver offer less than its full buffer space, i.e., the receiver must specify a RCV.WND that keeps RCV.NXT+RCV.WND constant as RCV.NXT increases.  Thus, the total buffer space RCV.BUFF is generally divided into three parts:
+"ko": |-
+  데이터가 도착하고 승인될 때 오른쪽 창 가장자리를 고정된 상태로 유지하려면 수신기가 전체 버퍼 공간보다 적은 공간을 제공해야 합니다. 즉, 수신기는 RCV.NXT가 증가함에 따라 RCV.NXT+RCV.WND를 일정하게 유지하는 RCV.WND를 지정해야 합니다. 따라서 총 버퍼 공간 RCV.BUFF는 일반적으로 세 부분으로 나뉩니다.

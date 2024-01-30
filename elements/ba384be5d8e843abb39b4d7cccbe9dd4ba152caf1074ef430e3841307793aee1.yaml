@@ -1,0 +1,20 @@
+"hash": |-
+  ba384be5d8e843abb39b4d7cccbe9dd4ba152caf1074ef430e3841307793aee1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Use of the format "user:password" in the userinfo field is
+     deprecated.  Applications should not render as clear text any data
+     after the first colon (":") character found within a userinfo
+     subcomponent unless the data after the colon is the empty string
+     (indicating no password).  Applications may choose to ignore or
+     reject such data when it is received as part of a reference and
+     should reject the storage of such data in unencrypted form.  The
+     passing of authentication information in clear text has proven to be
+     a security risk in almost every case where it has been used.
+"fixed": |-
+  Use of the format "user:password" in the userinfo field is deprecated.  Applications should not render as clear text any data after the first colon (":") character found within a userinfo subcomponent unless the data after the colon is the empty string (indicating no password).  Applications may choose to ignore or reject such data when it is received as part of a reference and should reject the storage of such data in unencrypted form.  The passing of authentication information in clear text has proven to be a security risk in almost every case where it has been used.
+"ko": |-
+  userinfo 필드에 "user:password" 형식을 사용하는 것은 더 이상 사용되지 않습니다. 애플리케이션은 콜론 뒤의 데이터가 빈 문자열(비밀번호 없음을 나타냄)이 아닌 한 userinfo 하위 구성 요소 내에서 발견된 첫 번째 콜론(":") 문자 뒤의 데이터를 일반 텍스트로 렌더링해서는 안 됩니다. 애플리케이션은 참조의 일부로 수신된 데이터를 무시하거나 거부하도록 선택할 수 있으며 암호화되지 않은 형식으로 해당 데이터의 저장을 거부해야 합니다. 일반 텍스트로 인증 정보를 전달하는 것은 사용된 거의 모든 경우에 보안 위험이 있는 것으로 입증되었습니다.

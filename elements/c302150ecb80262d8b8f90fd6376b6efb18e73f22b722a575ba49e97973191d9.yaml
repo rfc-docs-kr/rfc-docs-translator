@@ -1,0 +1,19 @@
+"hash": |-
+  c302150ecb80262d8b8f90fd6376b6efb18e73f22b722a575ba49e97973191d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An event can include an Embedded Signals descriptor and/or an
+     Embedded Events Descriptor which, if present, replaces the current
+     Signals/Events descriptor when the event is recognized.  It is
+     possible, for example, to specify that the dial-tone Signal be
+     generated when an off-hook Event is recognized, or that the dial-tone
+     Signal be stopped when a digit is recognized.  A media gateway
+     controller shall not send EventsDescriptors with an event both marked
+     KeepActive and containing an embedded SignalsDescriptor.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

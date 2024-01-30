@@ -1,0 +1,1 @@
+   SCSV만 포함하는 ClientHello에 대한 응답으로 "renegotiation_info" 확장을 보내는 것은 요청하지 않은 확장을 보내는 서버에서 RFC 5246, 섹션 7.4.1.4의 금지에 대한 명시적 예외이며 클라이언트가 자신의 의지를 신호하기 때문에 허용됩니다. TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV를 통해 확장을 수신합니다. TLS 구현은 다른 모든 확장에 대해 섹션 7.4.1.4를 계속 준수해야 합니다.

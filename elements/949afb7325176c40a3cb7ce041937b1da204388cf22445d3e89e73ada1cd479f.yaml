@@ -1,0 +1,19 @@
+"hash": |-
+  949afb7325176c40a3cb7ce041937b1da204388cf22445d3e89e73ada1cd479f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the ciphertext is less than 16 bytes or more than 2^36 + 16 bytes,
+     then fail.  Otherwise, split the input into the encrypted plaintext
+     and a 16-byte tag.  Decrypt the encrypted plaintext with the message-
+     encryption key in counter mode, where the initial counter block is
+     the tag with the most significant bit of the last byte set to one.
+     Advance the counter for each block in the same way as when
+     encrypting.  At this point, the plaintext is unauthenticated and MUST
+     NOT be output until the following tag confirmation is complete:
+"fixed": |-
+  If the ciphertext is less than 16 bytes or more than 2^36 + 16 bytes, then fail.  Otherwise, split the input into the encrypted plaintext and a 16-byte tag.  Decrypt the encrypted plaintext with the message- encryption key in counter mode, where the initial counter block is the tag with the most significant bit of the last byte set to one. Advance the counter for each block in the same way as when encrypting.  At this point, the plaintext is unauthenticated and MUST NOT be output until the following tag confirmation is complete:
+"ko": |-
+  암호문이 16바이트보다 작거나 2^36 + 16바이트보다 크면 실패합니다. 그렇지 않으면 입력을 암호화된 일반 텍스트와 16바이트 태그로 분할합니다. 카운터 모드에서 메시지 암호화 키를 사용하여 암호화된 일반 텍스트를 해독합니다. 여기서 초기 카운터 블록은 마지막 바이트의 최상위 비트가 1로 설정된 태그입니다. 암호화할 때와 동일한 방법으로 각 블록의 카운터를 증가시킵니다. 이 시점에서 일반 텍스트는 인증되지 않으며 다음 태그 확인이 완료될 때까지 출력되어서는 안 됩니다.

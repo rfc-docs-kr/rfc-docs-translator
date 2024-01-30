@@ -1,0 +1,15 @@
+"hash": |-
+  70836577cde3fd920a8798c5b2a2e58869be9e2d2a518748a7ccc4ca2c750b93
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The reason for this construction is to allow the server to do a
+     stateless HelloRetryRequest by storing just the hash of ClientHello1
+     in the cookie, rather than requiring it to export the entire
+     intermediate hash state (see Section 4.2.2).
+"fixed": |-
+  The reason for this construction is to allow the server to do a stateless HelloRetryRequest by storing just the hash of ClientHello1 in the cookie, rather than requiring it to export the entire intermediate hash state (see Section 4.2.2).
+"ko": |-
+  이 구성의 이유는 서버가 전체 중간 해시 상태를 내보내도록 요구하는 대신 쿠키에 ClientHello1의 해시만 저장하여 상태 비저장 HelloRetryRequest를 수행할 수 있도록 하기 위한 것입니다(섹션 4.2.2 참조).

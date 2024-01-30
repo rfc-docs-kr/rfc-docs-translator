@@ -1,0 +1,1 @@
+   ProcessReference 이 선택적 속성은 상태가 보고되는 프로세스에 대한 참조를 보유합니다. 다음 값을 보유할 수 있습니다. o StatusType이 Offer로 설정된 경우 주문 구성 요소의 OrderIdentifier가 포함되어야 합니다. o StatusType이 결제로 설정된 경우 결제 체계 데이터 구성 요소의 PaymentHandlerPayId가 포함되어야 합니다. o StatusType이 배송으로 설정된 경우 , 배달 메모 구성 요소의 DelivHandlerDelivId를 포함해야 합니다. o StatusType이 인증으로 설정된 경우 인증 요청 구성 요소의 AuthenticationId를 포함해야 합니다.

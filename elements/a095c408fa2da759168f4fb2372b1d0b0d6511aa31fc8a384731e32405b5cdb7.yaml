@@ -1,0 +1,18 @@
+"hash": |-
+  a095c408fa2da759168f4fb2372b1d0b0d6511aa31fc8a384731e32405b5cdb7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       A TCP implementation MUST (MUST-6) ignore without error any TCP
+       Option it does not implement, assuming that the option has a length
+       field.  All TCP Options except End of Option List Option (EOL) and
+       No-Operation (NOP) MUST have length fields, including all future
+       options (MUST-68).  TCP implementations MUST be prepared to handle
+       an illegal option length (e.g., zero); a suggested procedure is to
+       reset the connection and log the error cause (MUST-7).
+"fixed": |-
+  A TCP implementation MUST (MUST-6) ignore without error any TCP Option it does not implement, assuming that the option has a length field.  All TCP Options except End of Option List Option (EOL) and No-Operation (NOP) MUST have length fields, including all future options (MUST-68).  TCP implementations MUST be prepared to handle an illegal option length (e.g., zero); a suggested procedure is to reset the connection and log the error cause (MUST-7).
+"ko": |-
+  TCP 구현은 옵션에 길이 필드가 있다고 가정할 때 구현하지 않은 모든 TCP 옵션을 오류 없이 무시해야 합니다(MUST-6). EOL(옵션 목록 끝 옵션) 및 NOP(No-Operation)를 제외한 모든 TCP 옵션에는 모든 향후 옵션(MUST-68)을 포함하여 길이 필드가 있어야 합니다. TCP 구현은 잘못된 옵션 길이(예: 0)를 처리하도록 준비되어야 합니다. 제안된 절차는 연결을 재설정하고 오류 원인을 기록하는 것입니다(MUST-7).

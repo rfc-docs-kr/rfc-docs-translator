@@ -1,0 +1,1 @@
+   실크_log2lin()(log2lin.c) 함수는 2**(inLog_Q7/128.0)의 근사치를 계산합니다. 여기서 inLog_Q7은 Q7 입력입니다. i = inLog_Q7>>7은 inLogQ7의 정수 부분이고 f = inLog_Q7&127은 소수 부분이라고 가정합니다. 그 다음에,

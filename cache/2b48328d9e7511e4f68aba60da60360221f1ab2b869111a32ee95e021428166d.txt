@@ -1,0 +1,1 @@
+   클라이언트가 loga_signal_layout_avail을 TRUE로 설정하면 리소스 소진으로 인해 레이아웃을 얻을 수 없는 경우 레이아웃에 대한 "원함"을 클라이언트에 등록합니다. 메타데이터 서버가 "원함"을 지원하고 이를 존중하는 경우 결과는 logr_will_signal_layout_avail이 TRUE로 설정됩니다. 그렇다면 클라이언트는 CB_RECALLABLE_OBJ_AVAIL 작업이 레이아웃을 사용할 수 있음을 나타낼 것으로 예상해야 합니다.

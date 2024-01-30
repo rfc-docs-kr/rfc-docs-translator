@@ -1,0 +1,25 @@
+"hash": |-
+  26f67d2beffacbf7cffd1facac23000600680f2fd6af4fab371608d67ff4f5fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The calculation of a smoothed queue length may also have an important
+     bearing on the behavior of the dropper: parameters may include the
+     sampling interval or rate, and the weight of each sample.  The
+     performance may be very sensitive to the values of these parameters
+     and a wide range of possible values may be required due to a wide
+     range of link speeds.  Most algorithms include a sample weight,
+     represented here by diffServRandomDropWeight.  The availability of
+     diffServRandomDropSamplingRate as readable is important, the
+     information provided by Sampling Rate is essential to the
+     configuration of diffServRandomDropWeight.  Having Sampling Rate be
+     configurable is also helpful, as line speed increases, the ability to
+     have queue sampling be less frequent than packet arrival is needed.
+     Note, however, that there is ongoing research on this topic, see e.g.
+     [ACTQMGMT] and [AQMROUTER].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  95b47c9198cdc3879a2999cecdf3d29fc132f6f1d021e8a550539b8629dc8d89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        1. version                 Optional. If present, identifies v2.
+        2. signature               OID of the algorithm that signed CRL.
+        3. issuer                  DN of the issuer (the CA who signed).
+        4. thisUpdate              A UTCTime value.
+        5. nextUpdate              A UTCTime value.
+        6. revokedCertificates     3-tuples of 6a, 6b, and (optional) 6c:
+           6a. userCertificate     A certificate's serial number.
+           6b. revocationDate      UTCTime value for the revocation date.
+           6c. crlEntryExtensions  Optional.
+"fixed": |-
+  1. version                 Optional. If present, identifies v2. 2. signature               OID of the algorithm that signed CRL. 3. issuer                  DN of the issuer (the CA who signed). 4. thisUpdate              A UTCTime value. 5. nextUpdate              A UTCTime value. 6. revokedCertificates     3-tuples of 6a, 6b, and (optional) 6c: 6a. userCertificate     A certificate's serial number. 6b. revocationDate      UTCTime value for the revocation date. 6c. crlEntryExtensions  Optional.
+"ko": |-
+  1. 버전 선택사항. 존재하는 경우 v2를 식별합니다. 2. CRL에 서명한 알고리즘의 서명 OID. 3. 발급자(서명한 CA)의 발급자 DN. 4. thisUpdate UTCTime 값입니다. 5. nextUpdate UTCTime 값입니다. 6. 6a, 6b 및 (선택 사항) 6c: 6a의 3-튜플을 취소했습니다. userCertificate 인증서의 일련 번호입니다. 6b. revocationDate 해지 날짜에 대한 UTCTime 값입니다. 6c. crlEntryExtensions 선택사항.

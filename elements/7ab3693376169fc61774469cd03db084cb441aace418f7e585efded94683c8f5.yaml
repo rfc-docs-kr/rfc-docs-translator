@@ -1,0 +1,21 @@
+"hash": |-
+  7ab3693376169fc61774469cd03db084cb441aace418f7e585efded94683c8f5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           UDP is almost a null protocol; the only services it provides
+           over IP are checksumming of data and multiplexing by port
+           number.  Therefore, an application program running over UDP
+           must deal directly with end-to-end communication problems that
+           a connection-oriented protocol would have handled -- e.g.,
+           retransmission for reliable delivery, packetization and
+           reassembly, flow control, congestion avoidance, etc., when
+           these are required.  The fairly complex coupling between IP and
+           TCP will be mirrored in the coupling between UDP and many
+           applications using UDP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

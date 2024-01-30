@@ -1,0 +1,19 @@
+"hash": |-
+  f75567b7f8ab7dcbf99b46c57579eca9d04873bec8442783935f6abe7f8a93a2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To detect loops in the SRH, a router MUST determine if the SRH
+     includes multiple addresses assigned to any interface on that router.
+     If such addresses appear more than once and are separated by at least
+     one address not assigned to that router, the router MUST drop the
+     packet and SHOULD send an ICMP Parameter Problem, Code 0, to the
+     Source Address.  While this loop check does add significant per-
+     packet processing overhead, it is required to mitigate bandwidth
+     exhaustion attacks that led to the deprecation of RH0 [RFC5095].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

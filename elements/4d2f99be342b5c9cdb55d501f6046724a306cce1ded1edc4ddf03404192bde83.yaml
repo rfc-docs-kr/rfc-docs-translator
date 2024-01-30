@@ -1,0 +1,24 @@
+"hash": |-
+  4d2f99be342b5c9cdb55d501f6046724a306cce1ded1edc4ddf03404192bde83
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Authentication key
+          This configured data allows the authentication procedure to
+          generate and/or verify OSPF protocol packets.  The
+          Authentication key can be configured on a per-interface basis.
+          For example, if the AuType indicates simple password, the
+          Authentication key would be a 64-bit clear password which is
+          inserted into the OSPF packet header. If instead Autype
+          indicates Cryptographic authentication, then the Authentication
+          key is a shared secret which enables the generation/verification
+          of message digests which are appended to the OSPF protocol
+          packets. When Cryptographic authentication is used, multiple
+          simultaneous keys are supported in order to achieve smooth key
+          transition (see Section D.3).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

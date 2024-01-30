@@ -1,0 +1,17 @@
+"hash": |-
+  34e54dab6cc0ad4278747226cc46e520d84d492f8823142cd25a009d35b0170f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The normal TCP close sequence delivers buffered data reliably in both
+     directions.  Since the two directions of a TCP connection are closed
+     independently, it is possible for a connection to be "half closed",
+     i.e., closed in only one direction, and a host is permitted to
+     continue sending data in the open direction on a half-closed
+     connection.
+"fixed": |-
+  The normal TCP close sequence delivers buffered data reliably in both directions.  Since the two directions of a TCP connection are closed independently, it is possible for a connection to be "half closed", i.e., closed in only one direction, and a host is permitted to continue sending data in the open direction on a half-closed connection.
+"ko": |-
+  일반적인 TCP 닫기 시퀀스는 버퍼링된 데이터를 양방향으로 안정적으로 전달합니다. TCP 연결의 두 방향이 독립적으로 닫혀 있기 때문에 연결이 "반 폐쇄"될 수 있습니다. 즉, 한 방향으로만 닫혀 있고 호스트는 반만 닫힌 방향으로 계속 데이터를 보내는 것이 허용됩니다. 닫힌 연결.

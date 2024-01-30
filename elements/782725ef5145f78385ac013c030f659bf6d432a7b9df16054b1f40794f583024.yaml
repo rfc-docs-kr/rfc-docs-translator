@@ -1,0 +1,18 @@
+"hash": |-
+  782725ef5145f78385ac013c030f659bf6d432a7b9df16054b1f40794f583024
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In general, the specification of each extension type needs to
+     describe the effect of the extension both during full handshake and
+     session resumption.  Most current TLS extensions are relevant only
+     when a session is initiated: when an older session is resumed, the
+     server does not process these extensions in Client Hello, and does
+     not include them in Server Hello.  However, some extensions may
+     specify different behavior during session resumption.
+"fixed": |-
+  In general, the specification of each extension type needs to describe the effect of the extension both during full handshake and session resumption.  Most current TLS extensions are relevant only when a session is initiated: when an older session is resumed, the server does not process these extensions in Client Hello, and does not include them in Server Hello.  However, some extensions may specify different behavior during session resumption.
+"ko": |-
+  일반적으로 각 확장 유형의 사양은 전체 핸드셰이크와 세션 재개 중 확장의 효과를 설명해야 합니다. 대부분의 최신 TLS 확장은 세션이 시작될 때만 관련됩니다. 이전 세션이 재개되면 서버는 클라이언트 Hello에서 이러한 확장을 처리하지 않으며 이를 Server Hello에 포함하지 않습니다. 그러나 일부 확장은 세션 재개 중에 다른 동작을 지정할 수 있습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  905e0b5b0c54d9542c4d5607dcc15b75fb63a181fb3db9c97514923619024bc2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the expected_arrival_time is in the window, then the server checks
+     to see if it has recorded a matching ClientHello.  If one is found,
+     it either aborts the handshake with an "illegal_parameter" alert or
+     accepts the PSK but rejects 0-RTT.  If no matching ClientHello is
+     found, then it accepts 0-RTT and then stores the ClientHello for as
+     long as the expected_arrival_time is inside the window.  Servers MAY
+     also implement data stores with false positives, such as Bloom
+     filters, in which case they MUST respond to apparent replay by
+     rejecting 0-RTT but MUST NOT abort the handshake.
+"fixed": |-
+  If the expected_arrival_time is in the window, then the server checks to see if it has recorded a matching ClientHello.  If one is found, it either aborts the handshake with an "illegal_parameter" alert or accepts the PSK but rejects 0-RTT.  If no matching ClientHello is found, then it accepts 0-RTT and then stores the ClientHello for as long as the expected_arrival_time is inside the window.  Servers MAY also implement data stores with false positives, such as Bloom filters, in which case they MUST respond to apparent replay by rejecting 0-RTT but MUST NOT abort the handshake.
+"ko": |-
+  예상_도착_시간이 창에 있으면 서버는 일치하는 ClientHello를 기록했는지 확인합니다. 발견되면 "illegal_parameter" 경고와 함께 핸드셰이크를 중단하거나 PSK를 수락하지만 0-RTT를 거부합니다. 일치하는 ClientHello가 없으면 0-RTT를 수락한 다음 예상 도착_시간이 창 내에 있는 동안 ClientHello를 저장합니다. 서버는 또한 Bloom 필터와 같은 거짓 긍정을 사용하여 데이터 저장소를 구현할 수도 있습니다. 이 경우 0-RTT를 거부하여 명백한 재생에 응답해야 하지만 핸드셰이크를 중단해서는 안 됩니다.

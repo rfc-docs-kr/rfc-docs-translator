@@ -1,0 +1,1 @@
+   클라이언트에 클라이언트 ID가 없으면 클라이언트는 EXCHANGE_ID를 보내 클라이언트 ID를 설정합니다. SP4_MACH_CRED 또는 SP4_SSV 보호를 선택한 경우 spo_must_enforce 작업 목록에서 최소한 CREATE_SESSION, DESTROY_SESSION, BIND_CONN_TO_SESSION, BACKCHANNEL_CTL 및 DESTROY_CLIENTID를 지정해야 합니다. SP4_SSV 보호를 선택한 경우 클라이언트는 SSV 기반 RPCSEC_GSS 핸들을 요청해야 합니다.

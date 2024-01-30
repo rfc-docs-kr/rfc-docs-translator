@@ -1,0 +1,19 @@
+"hash": |-
+  ae54f60e57d646c4f330fa9f62ab36f19fd256c9bb70fb4686dfd212a491cf52
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As described in Section 2.1, only a single EAP authentication method
+     is allowed within an EAP conversation.  EAP methods may implement
+     result indications.  After the authenticator sends a failure result
+     indication to the peer, regardless of the response from the peer, it
+     MUST subsequently send a Failure packet.  After the authenticator
+     sends a success result indication to the peer and receives a success
+     result indication from the peer, it MUST subsequently send a Success
+     packet.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

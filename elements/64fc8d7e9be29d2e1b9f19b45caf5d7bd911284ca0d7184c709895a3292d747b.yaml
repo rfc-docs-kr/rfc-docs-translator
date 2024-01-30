@@ -1,0 +1,20 @@
+"hash": |-
+  64fc8d7e9be29d2e1b9f19b45caf5d7bd911284ca0d7184c709895a3292d747b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              This field is the checksum of the complete contents of the
+              LSA, excepting the LS age field.  The LS age field is
+              excepted so that an LSA's age can be incremented without
+              updating the checksum.  The checksum used is the same that
+              is used for ISO connectionless datagrams; it is commonly
+              referred to as the Fletcher checksum.  It is documented in
+              Annex B of [Ref6].  The LSA header also contains the length
+              of the LSA in bytes; subtracting the size of the LS age
+              field (two bytes) yields the amount of data to checksum.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

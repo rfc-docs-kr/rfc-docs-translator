@@ -1,0 +1,21 @@
+"hash": |-
+  7444578401324785b677f987fa19ffe14f4e703742337cdc80fc9eedb599b850
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Finally, the optional parameter "notifyCompletion" allows a MGC to
+     indicate that it wishes to be notified when the signal finishes
+     playout.  The possible cases are that the signal timed out, that it
+     was interrupted by an event, that it was halted when a Signals
+     Descriptor was replaced, or that it stopped or never started for
+     other reasons.  If the notifyCompletion parameter is not included in
+     a Signals Descriptor, notification is generated only if the signal
+     stopped or was never started for other reasons.  For reporting to
+     occur, the signal completion event (see section E.1.2) must be
+     enabled in the currently active Events Descriptor.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

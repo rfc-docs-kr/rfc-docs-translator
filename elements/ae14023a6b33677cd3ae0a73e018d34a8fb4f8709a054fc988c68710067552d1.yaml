@@ -1,0 +1,20 @@
+"hash": |-
+  ae14023a6b33677cd3ae0a73e018d34a8fb4f8709a054fc988c68710067552d1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Tunneling EAP within another protocol enables an attack by a rogue
+     EAP authenticator tunneling EAP to a legitimate server.  Where the
+     tunneling protocol is used for key establishment but does not require
+     peer authentication, an attacker convincing a legitimate peer to
+     connect to it will be able to tunnel EAP packets to a legitimate
+     server, successfully authenticating and obtaining the key.  This
+     allows the attacker to successfully establish itself as a man-in-
+     the-middle, gaining access to the network, as well as the ability to
+     decrypt data traffic between the legitimate peer and server.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

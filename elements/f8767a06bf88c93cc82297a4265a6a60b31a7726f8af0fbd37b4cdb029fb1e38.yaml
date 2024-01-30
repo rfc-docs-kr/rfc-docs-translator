@@ -1,0 +1,20 @@
+"hash": |-
+  f8767a06bf88c93cc82297a4265a6a60b31a7726f8af0fbd37b4cdb029fb1e38
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AUTH command takes a single parameter to define the security
+     mechanism to be negotiated.  As the SSL/TLS protocols self-negotiate
+     their levels, there is no need to distinguish between SSL and TLS in
+     the application layer.  The mechanism name for negotiating TLS is the
+     character string identified in {TLS-PARM}.  This allows the client
+     and server to negotiate TLS on the control connection without
+     altering the protection of the data channel.  To protect the data
+     channel as well, the PBSZ command, followed by the PROT command
+     sequence, MUST be used.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

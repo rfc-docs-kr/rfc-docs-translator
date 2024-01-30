@@ -1,0 +1,1 @@
+   TCP 클라이언트는 FIN-ACK를 수신한 후 TIME-WAIT 상태로 진입하고, 타임아웃 후 CLOSED 상태로 전환됩니다. 많은 TCP 구현에서는 TIME-WAIT 상태 동안 창 내 SYN 패킷을 받으면 새로운 TCP 연결을 만듭니다. TCP 호스트가 TIME-WAIT 또는 CLOSED 상태에 들어갈 때 해당 연결에 대한 ECN 협상에 대한 이전 상태를 무시해야 합니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  5d0267eaed4e39ac068109077c4b0234d482cb28ad422b413a9f7d7825070396
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          RT1 begins by asserting itself as the master.  When it sees that
+          RT2 is indeed the master (because of RT2's higher Router ID),
+          RT1 transitions to slave state and adopts its neighbor's DD
+          sequence number.  Database Description packets are then
+          exchanged, with polls coming from the master (RT2) and responses
+          from the slave (RT1).  This sequence of Database Description
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

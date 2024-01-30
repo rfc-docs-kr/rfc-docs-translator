@@ -1,0 +1,1 @@
+   인증서에 https URI 또는 ​​유사한 체계를 사용하는 cRLDistributionPoints 확장이 포함된 경우 순환 종속성이 도입될 수 있습니다. 신뢰 당사자는 초기 경로 유효성 검사를 완료하는 데 필요한 CRL을 얻기 위해 추가 경로 유효성 검사를 수행해야 합니다. AuthorityInfoAccess 또는 subjectInfoAccess 확장에서 https URI(또는 유사한 체계)를 사용하여 순환 조건을 생성할 수도 있습니다. 최악의 경우 이러한 상황은 해결 불가능한 종속성을 생성할 수 있습니다.

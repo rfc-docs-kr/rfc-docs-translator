@@ -1,0 +1,57 @@
+"hash": |-
+  51185e0f05697886dd294fb603d2e4ffb39ce9b38ff1fdb83cece1f6808a9351
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    | STC              | 4007    | 2 bits       | Susceptibility to      |
+    |                  |         |              | clipping               |
+    |     Reference: ITU Recommendation Q.2931                           |
+    |     00 Susceptible                                                 |
+    |     01 Not-susceptible                                             |
+    +------------------+---------+--------------+------------------------+
+    |  UPCC            |  4008   |  2 bits      |  User Plane Connection |
+    |                  |         |              |  configuration:        |
+    |     Reference: ITU Recommendation Q.2931                           |
+    |     00 Pt-to-pt,                                                   |
+    |     01 Pt-to-mpt                                                   |
+    +------------------+---------+--------------+------------------------+
+    |  PCR0            |  4009   |  24 bit      |  Peak Cell Rate (For   |
+    |                  |         |  integer     |  CLP=0)                |
+    |     Reference: ITU Recommendation Q.2931                           |
+    +------------------+---------+--------------+------------------------+
+    |  SCR0            |  400A   |  24 bit      |  Sustainable Cell Rate |
+    |                  |         |  integer     |  (For CLP=0)           |
+    |     Reference: ITU Recommendation Q.2961                           |
+    +------------------+---------+--------------+------------------------+
+    |  MBS0            |  400B   |  24 bit      | Maximum Burst Size (For|
+    |                  |         |  integer     |  CLP=0)                |
+    |     Reference: ITU Recommendation Q.2961                           |
+    +------------------+---------+--------------+------------------------+
+    |  PCR1            |  400C   |  24 bit      | Peak Cell Rate (For    |
+    |                  |         |  integer     |  CLP=0+1)              |
+    |     Reference: ITU Recommendation Q.2931                           |
+    +------------------+---------+--------------+------------------------+
+    |  SCR1            |  400D   |  24 bit      |  Sustainable Cell Rate |
+    |                  |         |  integer     |  (For CLP=0+1)         |
+    |     Reference: ITU Recommendation Q.2961                           |
+    +------------------+---------+--------------+------------------------+
+    |  MBS1            |  400E   |  24 bit      | Maximum Burst Size (For|
+    |                  |         |  integer     |  CLP=0+1)              |
+    |     Reference: ITU Recommendation Q.2961                           |
+    +------------------+---------+--------------+------------------------+
+    |  BEI             |  400F   |  Boolean     |  Best Effort Indicator |
+    |     Reference: ATM Forum UNI 4.0:                                  |
+    |        0 -- do not include BEI in ATM signalling                   |
+    |        1 -- include BEI in ATM signalling                          |
+    +------------------+---------+--------------+------------------------+
+    |  TI              |  4010   |  Boolean     |  Tagging               |
+    |     Reference: ITU-T Recommendation Q.2961                         |
+    |        0 -- tagging is not allowed                                 |
+    |        1 -- tagging is requested                                   |
+    +------------------+---------+--------------+------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

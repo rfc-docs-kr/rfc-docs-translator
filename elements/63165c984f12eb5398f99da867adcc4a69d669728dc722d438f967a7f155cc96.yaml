@@ -1,0 +1,17 @@
+"hash": |-
+  63165c984f12eb5398f99da867adcc4a69d669728dc722d438f967a7f155cc96
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         It would point another diffServSchedulerEntry when implementing
+         multiple scheduler methods for the same data path, such as having
+         one set of queues scheduled by WRR and that group participating
+         in a priority scheduling system in which other queues compete
+         with it in that way.  It might also point to a second scheduler
+         in a hierarchical scheduling system.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

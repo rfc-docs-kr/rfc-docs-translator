@@ -1,0 +1,18 @@
+"hash": |-
+  97806ec3eeca4d9893489cde0a198081f1fab14b5042a44e5af1f6cae8a8848b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client MUST NOT include these extensions in the ClientHello
+     message if it does not propose any ECC cipher suites.  A client that
+     proposes ECC cipher suites may choose not to include these
+     extensions.  In this case, the server is free to choose any one of
+     the elliptic curves or point formats listed in Section 5.  That
+     section also describes the structure and processing of these
+     extensions in greater detail.
+"fixed": |-
+  The client MUST NOT include these extensions in the ClientHello message if it does not propose any ECC cipher suites.  A client that proposes ECC cipher suites may choose not to include these extensions.  In this case, the server is free to choose any one of the elliptic curves or point formats listed in Section 5.  That section also describes the structure and processing of these extensions in greater detail.
+"ko": |-
+  클라이언트는 ECC 암호 모음을 제안하지 않는 경우 ClientHello 메시지에 이러한 확장을 포함해서는 안 됩니다. ECC 암호화 제품군을 제안하는 클라이언트는 이러한 확장자를 포함하지 않도록 선택할 수 있습니다. 이 경우 서버는 섹션 5에 나열된 타원 곡선이나 점 형식 중 하나를 자유롭게 선택할 수 있습니다. 해당 섹션에서는 이러한 확장의 구조와 처리에 대해서도 자세히 설명합니다.

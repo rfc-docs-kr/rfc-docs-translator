@@ -1,0 +1,23 @@
+"hash": |-
+  3140a7162c5bbde38a4760ebf2295ec28b798464b1fc2b0f31200878a30ccfd4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (3) If at this step the candidate list is empty, the shortest-
+              path tree (of transit vertices) has been completely built
+              and this stage of the procedure terminates.  Otherwise,
+              choose the vertex belonging to the candidate list that is
+              closest to the root, and add it to the shortest-path tree
+              (removing it from the candidate list in the process). Note
+              that when there is a choice of vertices closest to the root,
+              network vertices must be chosen before router vertices in
+              order to necessarily find all equal-cost paths. This is
+              consistent with the tie-breakers that were introduced in the
+              modified Dijkstra algorithm used by OSPF's Multicast routing
+              extensions (MOSPF).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

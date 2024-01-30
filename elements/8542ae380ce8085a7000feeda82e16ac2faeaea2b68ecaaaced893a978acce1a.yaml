@@ -1,0 +1,21 @@
+"hash": |-
+  8542ae380ce8085a7000feeda82e16ac2faeaea2b68ecaaaced893a978acce1a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For the common use cases of public key certificates in TLS, servers
+     SHOULD support the following as a best practice given the current
+     state of the art and as a foundation for a possible future solution:
+     OCSP [RFC6960] and OCSP stapling using the status_request extension
+     defined in [RFC6066].  Note that the exact mechanism for embedding
+     the status_request extension differs between TLS 1.2 and 1.3.  As a
+     matter of local policy, server operators MAY request that CAs issue
+     must-staple [RFC7633] certificates for the server and/or for client
+     authentication, but we recommend reviewing the operational conditions
+     before deciding on this approach.
+"fixed": |-
+  For the common use cases of public key certificates in TLS, servers SHOULD support the following as a best practice given the current state of the art and as a foundation for a possible future solution: OCSP [RFC6960] and OCSP stapling using the status_request extension defined in [RFC6066].  Note that the exact mechanism for embedding the status_request extension differs between TLS 1.2 and 1.3.  As a matter of local policy, server operators MAY request that CAs issue must-staple [RFC7633] certificates for the server and/or for client authentication, but we recommend reviewing the operational conditions before deciding on this approach.
+"ko": |-
+  TLS의 공개 키 인증서의 일반적인 사용 사례의 경우 서버는 현재의 기술 상태를 고려한 모범 사례이자 가능한 미래 솔루션의 기반으로 다음을 지원해야 합니다. OCSP [RFC6960] 및 정의된 status_request 확장을 사용하는 OCSP 스테이플링 [RFC6066]에서. status_request 확장을 포함하는 정확한 메커니즘은 TLS 1.2와 1.3에서 다릅니다. 로컬 정책에 따라 서버 운영자는 CA가 서버 및/또는 클라이언트 인증을 위해 필수 [RFC7633] 인증서를 발급하도록 요청할 수 있지만 이 접근 방식을 결정하기 전에 운영 조건을 검토하는 것이 좋습니다.

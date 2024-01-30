@@ -1,0 +1,1 @@
+   요청이 ca_maxrequestsize를 초과하면 응답 상태는 NFS4ERR_REQ_TOO_BIG가 됩니다. 응답자는 요청의 첫 번째 작업(SEQUENCE 또는 CB_SEQUENCE)에 대한 상태로 NFS4ERR_REQ_TOO_BIG를 반환할 수 있습니다(이는 요청에 실행된 작업이 없으며 응답 캐시의 슬롯 상태가 변경되지 않음을 의미함). 동일한 COMPOUND 또는 CB_COMPOUND 요청의 후속 작업에서 이를 반환합니다. 이는 적어도 하나의 작업이 실행되었고 응답 캐시의 슬롯 상태가 변경되었음을 의미합니다. 응답자는 ca_maxrequestsize를 초과하는 작업에 NFS4ERR_REQ_TOO_BIG를 설정해야 합니다.

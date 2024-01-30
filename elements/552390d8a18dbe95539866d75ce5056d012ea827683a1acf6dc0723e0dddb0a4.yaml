@@ -1,0 +1,22 @@
+"hash": |-
+  552390d8a18dbe95539866d75ce5056d012ea827683a1acf6dc0723e0dddb0a4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TransactionID parameter must be the same as that of the
+     corresponding TransactionRequest.  A property of root
+     (normalMGExecutionTime) is settable by the MGC to indicate the
+     interval within which the MGC expects a response to any transaction
+     from the MG.  Another property (normalMGCExecutionTime) is settable
+     by the MGC to indicate the interval within which the MG should
+     expects a response to any transaction from the MGC.  Senders may
+     receive more than one TransactionPending for a command.  If a
+     duplicate request is received when pending, the responder may send a
+     duplicate pending immediately, or continue waiting for its timer to
+     trigger another Transaction Pending.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,59 @@
+"hash": |-
+  a54a8dc6d6369fefa4ea3601ce4e0a30c7716dfb97b88583d38d301681f47af8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      Echo client                                  |3.2.2.6 | |x| | | |
+      Discard Echo Request to broadcast address    |3.2.2.6 | | |x| | |
+      Discard Echo Request to multicast address    |3.2.2.6 | | |x| | |
+      Use specific-dest addr as Echo Reply src     |3.2.2.6 |x| | | | |
+      Send same data in Echo Reply                 |3.2.2.6 |x| | | | |
+      Pass Echo Reply to higher layer              |3.2.2.6 |x| | | | |
+      Reflect Record Route, Time Stamp options     |3.2.2.6 | |x| | | |
+      Reverse and reflect Source Route option      |3.2.2.6 |x| | | | |
+                                                   |        | | | | | |
+    ICMP Information Request or Reply:             |3.2.2.7 | | | |x| |
+    ICMP Timestamp and Timestamp Reply:            |3.2.2.8 | | |x| | |
+      Minimize delay variability                   |3.2.2.8 | |x| | | |1
+      Silently discard b'cast Timestamp            |3.2.2.8 | | |x| | |1
+      Silently discard m'cast Timestamp            |3.2.2.8 | | |x| | |1
+      Use specific-dest addr as TS Reply src       |3.2.2.8 |x| | | | |1
+      Reflect Record Route, Time Stamp options     |3.2.2.6 | |x| | | |1
+      Reverse and reflect Source Route option      |3.2.2.8 |x| | | | |1
+      Pass Timestamp Reply to higher layer         |3.2.2.8 |x| | | | |1
+      Obey rules for "standard value"              |3.2.2.8 |x| | | | |1
+                                                   |        | | | | | |
+    ICMP Address Mask Request and Reply:           |        | | | | | |
+      Addr Mask source configurable                |3.2.2.9 |x| | | | |
+      Support static configuration of addr mask    |3.2.2.9 |x| | | | |
+      Get addr mask dynamically during booting     |3.2.2.9 | | |x| | |
+      Get addr via ICMP Addr Mask Request/Reply    |3.2.2.9 | | |x| | |
+        Retransmit Addr Mask Req if no Reply       |3.2.2.9 |x| | | | |3
+        Assume default mask if no Reply            |3.2.2.9 | |x| | | |3
+        Update address mask from first Reply only  |3.2.2.9 |x| | | | |3
+      Reasonableness check on Addr Mask            |3.2.2.9 | |x| | | |
+      Send unauthorized Addr Mask Reply msgs       |3.2.2.9 | | | | |x|
+        Explicitly configured to be agent          |3.2.2.9 |x| | | | |
+      Static config=> Addr-Mask-Authoritative flag |3.2.2.9 | |x| | | |
+        Broadcast Addr Mask Reply when init.       |3.2.2.9 |x| | | | |3
+                                                   |        | | | | | |
+  ROUTING OUTBOUND DATAGRAMS:                      |        | | | | | |
+    Use address mask in local/remote decision      |3.3.1.1 |x| | | | |
+    Operate with no gateways on conn network       |3.3.1.1 |x| | | | |
+    Maintain "route cache" of next-hop gateways    |3.3.1.2 |x| | | | |
+    Treat Host and Net Redirect the same           |3.3.1.2 | |x| | | |
+    If no cache entry, use default gateway         |3.3.1.2 |x| | | | |
+      Support multiple default gateways            |3.3.1.2 |x| | | | |
+    Provide table of static routes                 |3.3.1.2 | | |x| | |
+      Flag: route overridable by Redirects         |3.3.1.2 | | |x| | |
+    Key route cache on host, not net address       |3.3.1.3 | | |x| | |
+    Include TOS in route cache                     |3.3.1.3 | |x| | | |
+                                                   |        | | | | | |
+    Able to detect failure of next-hop gateway     |3.3.1.4 |x| | | | |
+    Assume route is good forever                   |3.3.1.4 | | | |x| |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

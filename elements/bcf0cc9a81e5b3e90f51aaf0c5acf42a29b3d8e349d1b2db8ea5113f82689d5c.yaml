@@ -1,0 +1,20 @@
+"hash": |-
+  bcf0cc9a81e5b3e90f51aaf0c5acf42a29b3d8e349d1b2db8ea5113f82689d5c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The State Attribute is also available to be sent by the Dynamic
+     Authorization Client to the NAS in a CoA-Request that also includes a
+     Termination-Action Attribute with the value of RADIUS-Request.  If
+     the NAS performs the Termination-Action by sending a new Access-
+     Request upon termination of the current session, it MUST include the
+     State Attribute unchanged in that Access-Request.  In either usage,
+     the Dynamic Authorization Server MUST NOT interpret the Attribute
+     locally.  A CoA-Request packet MUST have only zero or one State
+     Attribute.  Usage of the State Attribute is implementation dependent.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

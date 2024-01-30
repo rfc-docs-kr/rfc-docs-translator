@@ -1,0 +1,16 @@
+"hash": |-
+  dfbf501885ac900cee3648195eecc7f69c449e26ba931c166f721f4cfcba95aa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All EdDSA computations MUST be performed according to [RFC8032] or
+     its successors.  Data to be signed/verified is run through the EdDSA
+     algorithm with no hashing (EdDSA will internally run the data through
+     the "prehash" function PH).  The context parameter for Ed448 MUST be
+     set to the empty string.
+"fixed": |-
+  All EdDSA computations MUST be performed according to [RFC8032] or its successors.  Data to be signed/verified is run through the EdDSA algorithm with no hashing (EdDSA will internally run the data through the "prehash" function PH).  The context parameter for Ed448 MUST be set to the empty string.
+"ko": |-
+  모든 EdDSA 계산은 [RFC8032] 또는 그 후속 항목에 따라 수행되어야 합니다. 서명/검증할 데이터는 해싱 없이 EdDSA 알고리즘을 통해 실행됩니다(EdDSA는 내부적으로 "프리해시" 기능 PH를 통해 데이터를 실행합니다). Ed448의 컨텍스트 매개변수는 빈 문자열로 설정되어야 합니다.

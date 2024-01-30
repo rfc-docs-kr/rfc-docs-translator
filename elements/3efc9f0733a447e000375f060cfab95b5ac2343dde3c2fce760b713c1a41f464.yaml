@@ -1,0 +1,59 @@
+"hash": |-
+  3efc9f0733a447e000375f060cfab95b5ac2343dde3c2fce760b713c1a41f464
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      If cannot: sender buffer indefinitely        |4.2.2.2 | | | | |x|
+      If cannot: PSH last segment                  |4.2.2.2 |x| | | | |
+    Notify receiving ALP of PSH                    |4.2.2.2 | | |x| | |1
+    Send max size segment when possible            |4.2.2.2 | |x| | | |
+                                                   |        | | | | | |
+  Window                                           |        | | | | | |
+    Treat as unsigned number                       |4.2.2.3 |x| | | | |
+    Handle as 32-bit number                        |4.2.2.3 | |x| | | |
+    Shrink window from right                       |4.2.2.16| | | |x| |
+    Robust against shrinking window                |4.2.2.16|x| | | | |
+    Receiver's window closed indefinitely          |4.2.2.17| | |x| | |
+    Sender probe zero window                       |4.2.2.17|x| | | | |
+      First probe after RTO                        |4.2.2.17| |x| | | |
+      Exponential backoff                          |4.2.2.17| |x| | | |
+    Allow window stay zero indefinitely            |4.2.2.17|x| | | | |
+    Sender timeout OK conn with zero wind          |4.2.2.17| | | | |x|
+                                                   |        | | | | | |
+  Urgent Data                                      |        | | | | | |
+    Pointer points to last octet                   |4.2.2.4 |x| | | | |
+    Arbitrary length urgent data sequence          |4.2.2.4 |x| | | | |
+    Inform ALP asynchronously of urgent data       |4.2.2.4 |x| | | | |1
+    ALP can learn if/how much urgent data Q'd      |4.2.2.4 |x| | | | |1
+                                                   |        | | | | | |
+  TCP Options                                      |        | | | | | |
+    Receive TCP option in any segment              |4.2.2.5 |x| | | | |
+    Ignore unsupported options                     |4.2.2.5 |x| | | | |
+    Cope with illegal option length                |4.2.2.5 |x| | | | |
+    Implement sending & receiving MSS option       |4.2.2.6 |x| | | | |
+    Send MSS option unless 536                     |4.2.2.6 | |x| | | |
+    Send MSS option always                         |4.2.2.6 | | |x| | |
+    Send-MSS default is 536                        |4.2.2.6 |x| | | | |
+    Calculate effective send seg size              |4.2.2.6 |x| | | | |
+                                                   |        | | | | | |
+  TCP Checksums                                    |        | | | | | |
+    Sender compute checksum                        |4.2.2.7 |x| | | | |
+    Receiver check checksum                        |4.2.2.7 |x| | | | |
+                                                   |        | | | | | |
+  Use clock-driven ISN selection                   |4.2.2.9 |x| | | | |
+                                                   |        | | | | | |
+  Opening Connections                              |        | | | | | |
+    Support simultaneous open attempts             |4.2.2.10|x| | | | |
+    SYN-RCVD remembers last state                  |4.2.2.11|x| | | | |
+    Passive Open call interfere with others        |4.2.2.18| | | | |x|
+    Function: simultan. LISTENs for same port      |4.2.2.18|x| | | | |
+    Ask IP for src address for SYN if necc.        |4.2.3.7 |x| | | | |
+      Otherwise, use local addr of conn.           |4.2.3.7 |x| | | | |
+    OPEN to broadcast/multicast IP Address         |4.2.3.14| | | | |x|
+    Silently discard seg to bcast/mcast addr       |4.2.3.14|x| | | | |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

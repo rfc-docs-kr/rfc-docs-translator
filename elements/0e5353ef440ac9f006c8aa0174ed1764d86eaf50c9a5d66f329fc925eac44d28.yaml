@@ -1,0 +1,17 @@
+"hash": |-
+  0e5353ef440ac9f006c8aa0174ed1764d86eaf50c9a5d66f329fc925eac44d28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Urgent Pointer was used because, in a Unix implementation, the
+        receipt of a TCP packet marked as Urgent would result in the
+        execution of the SIGURG interrupt handler.  This reliance on
+        interrupt handlers was necessary on systems that did not implement
+        select() or did not support multiple threads.  TLS does not
+        support the notion of Urgent data.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

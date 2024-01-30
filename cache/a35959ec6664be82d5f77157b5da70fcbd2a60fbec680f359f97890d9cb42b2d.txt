@@ -1,0 +1,1 @@
+   클라이언트는 또한 수신에 관심이 있는 장치 ID 매핑 알림에 대해 알림 비트맵 gdia_notify_types를 제공합니다. 알림 요청이 적용되려면 서버가 장치 ID 알림을 지원해야 합니다. 알림 마스크는 파일 속성에 대한 비트맵과 동일한 방식으로 구성됩니다(3.3.7절). 비트 위치의 수는 inform_device_type4 열거 유형(20.12절)에 나열되어 있습니다. 현재 GEDEVICEINFO에는 NOTIFY_DEVICEID4_CHANGE 및 NOTIFY_DEVICEID4_DELETE의 두 가지 열거된 값인 inform_device_type4만 적용됩니다(섹션 20.12 참조).

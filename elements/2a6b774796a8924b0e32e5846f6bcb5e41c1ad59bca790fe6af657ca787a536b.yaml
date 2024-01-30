@@ -1,0 +1,17 @@
+"hash": |-
+  2a6b774796a8924b0e32e5846f6bcb5e41c1ad59bca790fe6af657ca787a536b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     for the highest version supported by the server that is not greater
+     than ClientHello.client_version.  For example, if the server supports
+     TLS 1.0, 1.1, and 1.2, and client_version is TLS 1.0, the server will
+     proceed with a TLS 1.0 ServerHello.  If server supports (or is
+     willing to use) only versions greater than client_version, it MUST
+     send a "protocol_version" alert message and close the connection.
+"fixed": |-
+  for the highest version supported by the server that is not greater than ClientHello.client_version.  For example, if the server supports TLS 1.0, 1.1, and 1.2, and client_version is TLS 1.0, the server will proceed with a TLS 1.0 ServerHello.  If server supports (or is willing to use) only versions greater than client_version, it MUST send a "protocol_version" alert message and close the connection.
+"ko": |-
+  ClientHello.client_version보다 크지 않은 서버에서 지원하는 가장 높은 버전의 경우. 예를 들어 서버가 TLS 1.0, 1.1 및 1.2를 지원하고 client_version이 TLS 1.0인 경우 서버는 TLS 1.0 ServerHello를 진행합니다. 서버가 client_version보다 높은 버전만 지원하거나 사용하려는 경우 "protocol_version" 경고 메시지를 보내고 연결을 닫아야 합니다.

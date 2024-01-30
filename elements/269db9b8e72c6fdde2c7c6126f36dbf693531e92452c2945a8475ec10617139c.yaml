@@ -1,0 +1,19 @@
+"hash": |-
+  269db9b8e72c6fdde2c7c6126f36dbf693531e92452c2945a8475ec10617139c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   At the receiver, the PSH bit forces buffered data to be
+                   delivered to the application (even if less than a full
+                   buffer has been received). Conversely, the lack of a
+                   PSH bit can be used to avoid unnecessary wakeup calls
+                   to the application process; this can be an important
+                   performance optimization for large timesharing hosts.
+                   Passing the PSH bit to the receiving application allows
+                   an analogous optimization within the application.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

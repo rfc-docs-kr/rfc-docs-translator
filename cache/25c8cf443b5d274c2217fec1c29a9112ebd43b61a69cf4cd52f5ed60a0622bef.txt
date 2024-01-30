@@ -1,0 +1,1 @@
+   OnLossDetectionTimeout(): early_loss_time, pn_space = GetLossTimeAndSpace() if (earliest_loss_time != 0): // 시간 임계값 손실 감지 loss_packets = DetectAndRemoveLostPackets(pn_space)assert(!lost_packets.empty()) OnPacketsLost(lost_packets) SetLossDetectionTimer() return

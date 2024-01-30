@@ -1,0 +1,15 @@
+"hash": |-
+  bceb300cbcf32048f8ba9d8269d94857bed8da4a3e4c4139d6d6f474223fb02d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A peer MUST NOT send a Nak (legacy or expanded) in reply to a Request
+     after an initial non-Nak Response has been sent.  Since spoofed EAP
+     Request packets may be sent by an attacker, an authenticator
+     receiving an unexpected Nak SHOULD discard it and log the event.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

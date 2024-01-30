@@ -1,0 +1,1 @@
+   이전 버전의 TLS에서 CertificateRequest 메시지는 서버가 수락할 서명 알고리즘 및 인증 기관 목록을 전달했습니다. TLS 1.3에서 전자는 "signature_algorithms" 및 선택적으로 "signature_algorithms_cert" 확장을 전송하여 표현됩니다. 후자는 "certificate_authorities" 확장자를 전송하여 표현됩니다(섹션 4.2.4 참조).

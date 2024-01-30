@@ -1,0 +1,59 @@
+"hash": |-
+  b747de2277d126c529393d69b07226315a2bd18ecb914fcbf3cd7b8d197ac505
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    |    011101 - Recommendation V.32                                    |
+    |    011110 - Recommendation V.34                                    |
+    |    100000 through 101111 National Use                              |
+    |    110000 through 111111 User Specified                            |
+    +----------------+---------+-----------------+-----------------------+
+    | layer2prot     | 901C      5 BIT           | User information layer|
+    |                |                           |  2 protocol           |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bit 5 4 3 2 1                                                   |
+    |    00010 - Recommendation Q.921/I.441 [3]                          |
+    |    00110 - Recommendation X.25 [5], link layer                     |
+    |    01100 - LAN logical link control (ISO/IEC 8802-2)               |
+    |    All other values are reserved.                                  |
+    +----------------+---------+-----------------+-----------------------+
+    | layer3prot     | 901D    | 5 BIT           | User information layer|
+    |                |         |                 |  3 protocol           |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bit 5 4 3 2 1                                                   |
+    |    00010 - Recommendation Q.931/I.451                              |
+    |    00110 - Recommendation X.25, packet layer                       |
+    |    01011 - ISO/IEC TR 9577 (Protocol identification in the network |
+    |            layer)                                                  |
+    |    All other values are reserved.                                  |
+    +----------------+---------+-----------------+-----------------------+
+    | addlayer3prot  | 901E    | OCTET           |  Additional User      |
+    |                |         |                 |  Information layer 3  |
+    |                |         |                 |  protocol             |
+    |                                                                    |
+    |    Bits 4321
+    |    1100 1100 - Internet Protocol (RFC 791) (ISO/IEC TR 9577)       |
+    |    1100 1111 - Point-to-point Protocol (RFC 1661)                  |
+    +----------------+---------+-----------------+-----------------------+
+    | DialledN       | 901F    | 30 OCTETS       |  Dialled Number       |
+    +----------------+---------+-----------------+-----------------------+
+    | DiallingN      | 9020    | 30 OCTETS       |  Dialling Number      |
+    +----------------+---------+-----------------+-----------------------+
+    | ECHOCI         | 9021    | Enumeration     |  Echo Control         |
+    |                |         |                 |  Information          |
+    |    echo canceler off (0), incoming echo canceler on (1), outgoing  |
+    |    echo canceler on (2), incoming and outgoing echo canceler on (3)|
+    +----------------+---------+-----------------+-----------------------+
+    | NCI            | 9022    | 1 OCTET         |  Nature of Connection |
+    |                |         |                 |  Indicators           |
+    |    Reference: ITU Recommendation Q.763                             |
+    |    Bits 8 7 6 5 4 3 2 1                                            |
+    |                                                                    |
+    |    Bits 2 1 Satellite Indicator                                    |
+    |    0 0  no satellite circuit in the connection                     |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

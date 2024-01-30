@@ -1,0 +1,18 @@
+"hash": |-
+  6ffcaa42c918bee96565b20d8e31f9534d448ddd43a7827639fe3b2a8e325311
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Use of this authentication type means that routing exchanges
+          over the network/subnet are not authenticated.  The 64-bit
+          authentication field in the OSPF header can contain anything; it
+          is not examined on packet reception. When employing Null
+          authentication, the entire contents of each OSPF packet (other
+          than the 64-bit authentication field) are checksummed in order
+          to detect data corruption.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   그러나 여러 회계 하위 세션이 필요한 특정 애플리케이션이 있습니다. 이러한 애플리케이션은 일정한 Session-Id AVP를 사용하여 메시지를 보내지만 Accounting-Sub-Session-Id AVP는 다릅니다. 이러한 경우 Session-Id를 사용하여 상관 관계가 수행됩니다. 하위 세션이 원래 START_RECORD 메시지에서 사용되었을 때 Accounting-Sub-Session-Id AVP 없이 STOP_RECORD를 수신한다는 것은 모든 하위 세션이 종료되었음을 의미한다는 점에 유의하는 것이 중요합니다.

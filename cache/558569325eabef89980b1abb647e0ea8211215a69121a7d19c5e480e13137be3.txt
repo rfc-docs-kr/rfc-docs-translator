@@ -1,0 +1,1 @@
+   o 현재 파일 시스템의 복제본에 대한 정보를 포함하는 fs_locations4_item 구조의 fli_items라는 배열. 현재 파일 시스템이 실제로 존재하거나 존재했던 경우, 즉 참조 상황이 아닌 경우 fs_locations_item4 구조 중 하나에는 현재 서버에 대한 fs_locations_server4가 포함됩니다. 현재 파일 시스템이 없는 경우 이 구조에는 FSLI4GF_ABSENT가 설정됩니다. 즉, 해당 파일 시스템에 대한 일반적인 액세스는 NFS4ERR_MOVED를 반환합니다.

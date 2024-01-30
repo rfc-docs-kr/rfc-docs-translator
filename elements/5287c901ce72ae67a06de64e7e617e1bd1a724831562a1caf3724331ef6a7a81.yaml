@@ -1,0 +1,22 @@
+"hash": |-
+  5287c901ce72ae67a06de64e7e617e1bd1a724831562a1caf3724331ef6a7a81
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Similarly, there are attacks on the transition between unprotected
+     and TLS-protected traffic.  A number of IETF application protocols
+     have used an application-level command, usually STARTTLS, to upgrade
+     a cleartext connection to use TLS.  Multiple implementations of
+     STARTTLS had a flaw where an application-layer input buffer retained
+     commands that were pipelined with the STARTTLS command, such that
+     commands received prior to TLS negotiation are executed after TLS
+     negotiation.  This problem is resolved by requiring the application-
+     level command input buffer to be empty before negotiating TLS.  Note
+     that this flaw lives in the application layer code and does not
+     impact the TLS protocol directly.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   예를 들어, SVCB ALPN 세트가 ["http/1.1", "h3"]이고 클라이언트가 HTTP/1.1, HTTP/2 및 HTTP/3을 지원하는 경우 클라이언트는 ProtocolNameList와 함께 TLS over TCP를 사용하여 연결을 시도할 수 있습니다. ["http/1.1", "h2"]이며 ["h3"]의 ProtocolNameList와 함께 QUIC를 사용하여 연결을 시도할 수도 있습니다.

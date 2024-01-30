@@ -1,0 +1,22 @@
+"hash": |-
+  db2a0cceb17daf513effa03b544ce753758c48260c783bc30ed9ad5d4be7e583
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServSchedulerMaxRate OBJECT-TYPE
+      SYNTAX       RowPointer
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "This RowPointer indicates the entry in diffServMaxRateTable
+         which indicates the maximum output rate from this scheduler.
+         When more than one maximum rate applies (eg, when a multi-rate
+         shaper is in view), it points to the first of those rate entries.
+         This attribute is used only when there is more than one level of
+         scheduler.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

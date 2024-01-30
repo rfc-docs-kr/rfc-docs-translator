@@ -1,0 +1,21 @@
+"hash": |-
+  9c2badf1b6f4e5f0be3171737a10da47e3e0bd842c76986d3c256426c36ae3fa
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMeterStorage OBJECT-TYPE
+      SYNTAX       StorageType
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The storage type for this conceptual row.  Conceptual rows
+         having the value 'permanent' need not allow write-access to any
+         columnar objects in the row."
+      DEFVAL { nonVolatile }
+      ::= { diffServMeterEntry 5 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

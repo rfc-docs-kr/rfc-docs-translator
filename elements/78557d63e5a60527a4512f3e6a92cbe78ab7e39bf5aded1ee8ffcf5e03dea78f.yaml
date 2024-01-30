@@ -1,0 +1,19 @@
+"hash": |-
+  78557d63e5a60527a4512f3e6a92cbe78ab7e39bf5aded1ee8ffcf5e03dea78f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     NonStandardIdentifier                ::= CHOICE
+     {
+          object                  OBJECT IDENTIFIER,
+          h221NonStandard         H221NonStandard,
+          experimental            IA5String(SIZE(8)),
+      -- first two characters should be "X-" or "X+"
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

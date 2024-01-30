@@ -1,0 +1,24 @@
+"hash": |-
+  99cb0a78c86f2a8fab610066f8a33054d66fa3845a34280c83a8774ad6917c51
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            anyxml config {
+              description
+                "Inline Config content.";
+            }
+            leaf url {
+              if-feature url;
+              type inet:uri;
+              description
+                "URL-based config content.";
+            }
+          }
+        }
+      }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  c2fbb2a7162d3d3830c4b4e6f8071302cbb86a28dedac3cf37b95bfc48670613
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Case 2 also occurs whenever a RPL router needs to insert a source
+     route when forwarding a datagram.  One such use case with RPL is to
+     have all RPL traffic flow through a Border Router and have the Border
+     Router use source routes to deliver datagrams to their final
+     destination.  When including the SRH using tunneled mode, the Border
+     Router would encapsulate the received datagram unmodified using IPv6-
+     in-IPv6 and include an SRH in the outer IPv6 header.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

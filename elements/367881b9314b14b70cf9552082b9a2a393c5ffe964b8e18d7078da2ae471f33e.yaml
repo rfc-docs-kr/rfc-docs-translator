@@ -1,0 +1,26 @@
+"hash": |-
+  367881b9314b14b70cf9552082b9a2a393c5ffe964b8e18d7078da2ae471f33e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Yet another case would be when each character of packets containing
+     "PORT" command or response to "PASV" is sent in a separate datagram,
+     unfragmented. In this case, NAT would simply have to let the packets
+     through, without translating the TCP payload. Of course, the
+     application will fail if the payload needed to be altered. The
+     application could still work in a few cases, where the payload
+     contents can be valid in both realms, without modifications enroute.
+     For example, FTP originated from a private host would still work
+     while traversing a traditional NAT or bi-directional NAT device, so
+     long as the FTP control session employed PASV command to establish
+     data sessions. The reason being that the address and port number
+     specified by FTP server in the PASV response (sent as multiple
+     unfragmented packets) is valid to the private host, as is. The NAT
+     device will simply view the ensuing data session (also originating
+     from private host) as an independent TCP session.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

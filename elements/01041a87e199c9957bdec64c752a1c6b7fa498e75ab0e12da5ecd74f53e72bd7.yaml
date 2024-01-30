@@ -1,0 +1,32 @@
+"hash": |-
+  01041a87e199c9957bdec64c752a1c6b7fa498e75ab0e12da5ecd74f53e72bd7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      typedef edit-operation-type {
+        type enumeration {
+          enum merge {
+            description
+              "The configuration data identified by the
+               element containing this attribute is merged
+               with the configuration at the corresponding
+               level in the configuration datastore identified
+               by the target parameter.";
+          }
+          enum replace {
+            description
+              "The configuration data identified by the element
+               containing this attribute replaces any related
+               configuration in the configuration datastore
+               identified by the target parameter.  If no such
+               configuration data exists in the configuration
+               datastore, it is created.  Unlike a
+               <copy-config> operation, which replaces the
+               entire target configuration, only the configuration
+               actually present in the config parameter is affected.";
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

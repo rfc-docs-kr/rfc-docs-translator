@@ -1,0 +1,1 @@
+TLS 호환 애플리케이션은 rsa_pkcs1_sha256(인증서용), rsa_pss_rsae_sha256(CertificateVerify 및 인증서용) 및 ecdsa_secp256r1_sha256을 사용하여 디지털 서명을 지원해야 합니다. TLS 호환 애플리케이션은 secp256r1(NIST P-256)과의 키 교환을 지원해야 하며(MUST) X25519[RFC7748]와의 키 교환을 지원해야 합니다(SHOULD).

@@ -1,0 +1,21 @@
+"hash": |-
+  3abd448b5bb72938978c9eafc77ec752e9c9ca404c083e61231aa7a88b5cbe2f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Success and Failure packets MUST NOT be sent by an EAP authenticator
+     if the specification of the given method does not explicitly permit
+     the method to finish at that point.  A peer EAP implementation
+     receiving a Success or Failure packet where sending one is not
+     explicitly permitted MUST silently discard it.  By default, an EAP
+     peer MUST silently discard a "canned" Success packet (a Success
+     packet sent immediately upon connection).  This ensures that a rogue
+     authenticator will not be able to bypass mutual authentication by
+     sending a Success packet prior to conclusion of the EAP method
+     conversation.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  b2985da18fcba9a62635dceb3106bcdf4eed308aa72d506f82a5ad5d6396c48f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The exporter_master_secret and early_exporter_master_secret are
+     derived to be independent of the traffic keys and therefore do not
+     represent a threat to the security of traffic encrypted with those
+     keys.  However, because these secrets can be used to compute any
+     exporter value, they SHOULD be erased as soon as possible.  If the
+     total set of exporter labels is known, then implementations SHOULD
+     pre-compute the inner Derive-Secret stage of the exporter computation
+     for all those labels, then erase the [early_]exporter_master_secret,
+     followed by each inner value as soon as it is known that it will not
+     be needed again.
+"fixed": |-
+  The exporter_master_secret and early_exporter_master_secret are derived to be independent of the traffic keys and therefore do not represent a threat to the security of traffic encrypted with those keys.  However, because these secrets can be used to compute any exporter value, they SHOULD be erased as soon as possible.  If the total set of exporter labels is known, then implementations SHOULD pre-compute the inner Derive-Secret stage of the exporter computation for all those labels, then erase the [early_]exporter_master_secret, followed by each inner value as soon as it is known that it will not be needed again.
+"ko": |-
+  importer_master_secret 및 early_exporter_master_secret은 트래픽 키와 독립적으로 파생되므로 해당 키로 암호화된 트래픽 보안에 대한 위협을 나타내지 않습니다. 그러나 이러한 비밀은 수출업체 값을 계산하는 데 사용될 수 있으므로 가능한 한 빨리 삭제해야 합니다. 내보내기 레이블의 전체 집합이 알려진 경우 구현에서는 모든 레이블에 대한 내보내기 계산의 내부 Derive-Secret 단계를 미리 계산한 다음 [early_]exporter_master_secret를 삭제하고 각 내부 값이 알려지는 즉시 삭제해야 합니다. 다시는 필요하지 않을 것이라는 것입니다.

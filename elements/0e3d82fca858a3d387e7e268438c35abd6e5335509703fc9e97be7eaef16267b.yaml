@@ -1,0 +1,19 @@
+"hash": |-
+  0e3d82fca858a3d387e7e268438c35abd6e5335509703fc9e97be7eaef16267b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Result-Code AVP (AVP Code 268) is of type Unsigned32 and
+     indicates whether a particular request was completed successfully or
+     an error occurred.  All Diameter answer messages in IETF-defined
+     Diameter application specifications MUST include one Result-Code AVP.
+     A non-successful Result-Code AVP (one containing a non-2xxx value
+     other than DIAMETER_REDIRECT_INDICATION) MUST include the Error-
+     Reporting-Host AVP if the host setting the Result-Code AVP is
+     different from the identity encoded in the Origin-Host AVP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

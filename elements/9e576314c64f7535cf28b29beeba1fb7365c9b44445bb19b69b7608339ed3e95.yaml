@@ -1,0 +1,59 @@
+"hash": |-
+  9e576314c64f7535cf28b29beeba1fb7365c9b44445bb19b69b7608339ed3e95
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    IP layer silently ignore unknown options       |3.2.1.8 |x| | | | |
+    Security option                                |3.2.1.8a| | |x| | |
+    Send Stream Identifier option                  |3.2.1.8b| | | |x| |
+    Silently ignore Stream Identifer option        |3.2.1.8b|x| | | | |
+    Record Route option                            |3.2.1.8d| | |x| | |
+    Timestamp option                               |3.2.1.8e| | |x| | |
+  Source Route Option:                             |        | | | | | |
+    Originate & terminate Source Route options     |3.2.1.8c|x| | | | |
+    Datagram with completed SR passed up to TL     |3.2.1.8c|x| | | | |
+    Build correct (non-redundant) return route     |3.2.1.8c|x| | | | |
+    Send multiple SR options in one header         |3.2.1.8c| | | | |x|
+                                                   |        | | | | | |
+  ICMP:                                            |        | | | | | |
+    Silently discard ICMP msg with unknown type    |3.2.2   |x| | | | |
+    Include more than 8 octets of orig datagram    |3.2.2   | | |x| | |
+        Included octets same as received           |3.2.2   |x| | | | |
+    Demux ICMP Error to transport protocol         |3.2.2   |x| | | | |
+    Send ICMP error message with TOS=0             |3.2.2   | |x| | | |
+    Send ICMP error message for:                   |        | | | | | |
+     - ICMP error msg                              |3.2.2   | | | | |x|
+     - IP b'cast or IP m'cast                      |3.2.2   | | | | |x|
+     - Link-layer b'cast                           |3.2.2   | | | | |x|
+     - Non-initial fragment                        |3.2.2   | | | | |x|
+     - Datagram with non-unique src address        |3.2.2   | | | | |x|
+    Return ICMP error msgs (when not prohibited)   |3.3.8   |x| | | | |
+                                                   |        | | | | | |
+    Dest Unreachable:                              |        | | | | | |
+      Generate Dest Unreachable (code 2/3)         |3.2.2.1 | |x| | | |
+      Pass ICMP Dest Unreachable to higher layer   |3.2.2.1 |x| | | | |
+      Higher layer act on Dest Unreach             |3.2.2.1 | |x| | | |
+        Interpret Dest Unreach as only hint        |3.2.2.1 |x| | | | |
+    Redirect:                                      |        | | | | | |
+      Host send Redirect                           |3.2.2.2 | | | |x| |
+      Update route cache when recv Redirect        |3.2.2.2 |x| | | | |
+      Handle both Host and Net Redirects           |3.2.2.2 |x| | | | |
+      Discard illegal Redirect                     |3.2.2.2 | |x| | | |
+    Source Quench:                                 |        | | | | | |
+      Send Source Quench if buffering exceeded     |3.2.2.3 | | |x| | |
+      Pass Source Quench to higher layer           |3.2.2.3 |x| | | | |
+      Higher layer act on Source Quench            |3.2.2.3 | |x| | | |
+    Time Exceeded: pass to higher layer            |3.2.2.4 |x| | | | |
+    Parameter Problem:                             |        | | | | | |
+      Send Parameter Problem messages              |3.2.2.5 | |x| | | |
+      Pass Parameter Problem to higher layer       |3.2.2.5 |x| | | | |
+      Report Parameter Problem to user             |3.2.2.5 | | |x| | |
+                                                   |        | | | | | |
+    ICMP Echo Request or Reply:                    |        | | | | | |
+      Echo server and Echo client                  |3.2.2.6 |x| | | | |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

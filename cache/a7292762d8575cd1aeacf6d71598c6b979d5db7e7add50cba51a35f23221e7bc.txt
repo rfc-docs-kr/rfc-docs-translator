@@ -1,0 +1,1 @@
+   owner 및 owner_group 속성의 가능한 모든 값에 대한 지원을 제공하지 않는 서버는 번역이 없는 문자열이 표시될 때 소유자, owner_group 또는 소유자의 SETATTR에 대해 설정할 값으로 오류(NFS4ERR_BADOWNER)를 반환해야 합니다. acl 속성. 서버가 owner 또는 owner_group 값을 SETATTR에서 유효한 것으로 승인하면(그리고 acl의 소유자 및 그룹 문자열에 대해서도 유사하게) 해당 GETATTR이 완료되면 동일한 문자열을 반환할 것을 약속합니다. 구성 변경 및 잘못 구성된 이름 번역(다음을 포함하는 번역)

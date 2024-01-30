@@ -1,0 +1,29 @@
+"hash": |-
+  71dd260bc7c6556e10816c1ae2ac57c0847d695a62da7aed62ee11676b170062
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Port 465 is presently used for two purposes: for submissions by a
+     large number of clients and service providers and for the "urd"
+     protocol by one vendor.  Actually documenting this current state is
+     controversial, as discussed in the IANA Considerations section.
+     However, there is no good alternative.  Registering a new port for
+     submissions when port 465 is already widely used for that purpose
+     will just create interoperability problems.  Registering a port
+     that's only used if advertised by an SRV record (RFC 6186) would not
+     create interoperability problems but would require all client
+     deployments, server deployments, and software to change
+     significantly, which is contrary to the goal of promoting the
+     increased use of TLS.  Encouraging the use of STARTTLS on port 587
+     would not create interoperability problems, but it is unlikely to
+     have any impact on the current undocumented use of port 465 and makes
+     the guidance in this document less consistent.  The remaining option
+     is to document the current state of the world and support future use
+     of port 465 for submission, as this increases consistency and ease of
+     deployment for TLS email submission.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

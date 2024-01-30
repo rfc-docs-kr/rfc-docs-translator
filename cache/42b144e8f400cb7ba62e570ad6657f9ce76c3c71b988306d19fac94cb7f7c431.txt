@@ -1,0 +1,5 @@
+;암호화 매개변수는 SDP(RFC 2327)와 같이 코딩됩니다.
+암호화 데이터 = ( "clear" ":" <encryptionKey> ) / ( "base64" ":" <encodedEncryptionKey> ) / ( "uri" ":" <URItoObtainKey> ) / ( "prompt" ) ; SDP에 정의되어 있으며 MGCP에서는 사용할 수 없습니다!
+암호화키 = 1*(SuitableCharacter / SP)
+encodeEncryptionKey = 1*(ALPHA / DIGIT / "+" / "/" / "=")
+URItoObtainKey = 1*(SuitableCharacter) / quotedString

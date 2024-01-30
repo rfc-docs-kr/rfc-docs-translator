@@ -1,0 +1,21 @@
+"hash": |-
+  7858fd3457bbba96ca9c9e7668bc94c00d758a03f6795df537e7d0172d9e66f2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServDataPathStorage OBJECT-TYPE
+      SYNTAX       StorageType
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The storage type for this conceptual row.  Conceptual rows
+         having the value 'permanent' need not allow write-access to any
+         columnar objects in the row."
+      DEFVAL { nonVolatile }
+      ::= { diffServDataPathEntry 3 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   serialNumber 필드는 TSA가 각 TimeStampToken에 할당한 정수입니다. 이는 특정 TSA에서 발행한 각 TimeStampToken에 대해 고유해야 합니다(즉, TSA 이름과 일련번호는 고유한 TimeStampToken을 식별합니다). 서비스 중단(예: 충돌)이 발생한 후에도 속성이 보존되어야 한다는 점에 유의해야 합니다.

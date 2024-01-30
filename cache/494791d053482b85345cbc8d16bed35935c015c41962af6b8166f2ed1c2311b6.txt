@@ -1,0 +1,1 @@
+   이 문서에 정의된 키의 경우 개인 키는 항상 불투명한 바이트 시퀀스입니다. ASN.1 유형 CurvePrivateKey는 바이트 시퀀스를 보유하기 위해 이 문서에 정의되어 있습니다. 따라서 OneAsymmetricKey 개체를 인코딩할 때 개인 키는 CurvePrivateKey 개체에 래핑되고 "privateKey" 필드의 OCTET STRING으로 래핑됩니다.

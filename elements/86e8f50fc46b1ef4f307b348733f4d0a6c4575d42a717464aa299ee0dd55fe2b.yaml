@@ -1,0 +1,20 @@
+"hash": |-
+  86e8f50fc46b1ef4f307b348733f4d0a6c4575d42a717464aa299ee0dd55fe2b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The '*' (ASCII 42) wildcard character is allowed in the dNSName of
+        the subjectAltName extension (and in common name, if used to store
+        the host name), but only as the left-most (least significant) DNS
+        label in that value.  This wildcard matches any left-most DNS
+        label in the server name.  That is, the subject *.example.com
+        matches the server names a.example.com and b.example.com, but does
+        not match example.com or a.b.example.com.  Implementations MUST
+        support wildcards in certificates as specified above, but MAY
+        provide a configuration option to disable them.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

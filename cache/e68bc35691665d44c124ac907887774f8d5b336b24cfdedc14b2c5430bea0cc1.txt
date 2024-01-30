@@ -1,0 +1,1 @@
+Legacy_compression_methods: 1.3 이전의 TLS 버전은 이 필드에 전송되는 지원되는 압축 방법 목록과 함께 압축을 지원했습니다. 모든 TLS 1.3 ClientHello에 대해 이 벡터는 이전 TLS 버전의 "null" 압축 방법에 해당하는 0으로 설정된 정확히 1바이트를 포함해야 합니다. 이 필드에 다른 값이 포함된 TLS 1.3 ClientHello가 수신되면 서버는 "illegal_parameter" 경고와 함께 핸드셰이크를 중단해야 합니다. TLS 1.3 서버는 다른 압축 방법이 포함된 TLS 1.2 또는 이전 ClientHellos를 수신할 수 있으며 (이전 버전을 협상하는 경우) 적절한 이전 버전의 TLS에 대한 절차를 따라야 합니다.

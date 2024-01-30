@@ -1,0 +1,1 @@
+   발신자는 터미널 상태("Data Recvd" 또는 "Reset Recvd")에서 이러한 프레임을 보내면 안 됩니다(MUST NOT). 발신자는 "Reset Sent" 상태 또는 터미널 상태(즉, RESET_STREAM 프레임을 보낸 후)의 스트림에 대해 STREAM 또는 STREAM_DATA_BLOCKED 프레임을 보내서는 안 됩니다(MUST NOT). 수신기는 이들을 전달하는 패킷의 지연된 전달 가능성으로 인해 어떤 상태에서든 이 세 프레임 중 하나를 수신할 수 있습니다.

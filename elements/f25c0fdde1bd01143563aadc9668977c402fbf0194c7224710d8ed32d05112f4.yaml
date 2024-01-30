@@ -1,0 +1,17 @@
+"hash": |-
+  f25c0fdde1bd01143563aadc9668977c402fbf0194c7224710d8ed32d05112f4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           o  If the URG bit is set, RCV.UP <- max(RCV.UP,SEG.UP), and
+              signal the user that the remote side has urgent data if the
+              urgent pointer (RCV.UP) is in advance of the data consumed.
+              If the user has already been signaled (or is still in the
+              "urgent mode") for this continuous sequence of urgent data,
+              do not signal the user again.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

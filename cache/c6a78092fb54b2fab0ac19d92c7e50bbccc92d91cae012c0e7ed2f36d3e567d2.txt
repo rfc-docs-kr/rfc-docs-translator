@@ -1,0 +1,1 @@
+   서버가 nonce 없이 요청에 대해 캐시되지 않은 특정 응답을 반환하는 경우 서버는 메시지별 nonce를 포함할 수 있습니다. 디지털 서명된 메시지의 경우 서버는 요청의 SignerInfo 내의 signedAttrs에 있는 message-digest 속성 값을 respNonce 항목의 값으로 사용할 수 있습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  49e4765d560ae6329ebd27c831d1c55dbcfae0ac542878ab6f0331f342049f99
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the transport sender does not authenticate the syslog transport
+     receiver, then it may send data to an attacker.  This may disclose
+     sensitive data within the log information that is useful to an
+     attacker, resulting in further compromises within the system.  If a
+     transport sender is operated in this mode, the data sent SHOULD be
+     limited to data that is not valuable to an attacker.  In practice
+     this is very difficult to achieve, so this type of configuration is
+     NOT RECOMMENDED.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

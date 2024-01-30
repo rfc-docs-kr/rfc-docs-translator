@@ -1,0 +1,19 @@
+"hash": |-
+  3f690a7a6c89b51c5dee8ff33b08fa8f468911d3d19d5d4fc5457a79218f6546
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A physical MG may have only one network interface, which must be
+     shared across virtual MGs.  In such a case, the packet/cell side
+     Termination is shared.  It should be noted however, that in use, such
+     interfaces require an ephemeral instance of the Termination to be
+     created per flow, and thus sharing the Termination is
+     straightforward.  This mechanism does lead to a complication, namely
+     that the MG must always know which of its controlling MGCs should be
+     notified if an event occurs on the interface.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

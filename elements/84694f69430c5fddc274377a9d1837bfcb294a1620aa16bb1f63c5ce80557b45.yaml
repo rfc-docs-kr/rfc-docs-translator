@@ -1,0 +1,53 @@
+"hash": |-
+  84694f69430c5fddc274377a9d1837bfcb294a1620aa16bb1f63c5ce80557b45
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1. Introduction ....................................................3
+        1.1. How This Document Updates Previous RFCs ....................3
+     2. Conventions and Terminology Used in This Document ...............4
+     3. Implicit TLS ....................................................5
+        3.1. Implicit TLS for POP .......................................5
+        3.2. Implicit TLS for IMAP ......................................5
+        3.3. Implicit TLS for SMTP Submission ...........................6
+        3.4. Implicit TLS Connection Closure for POP, IMAP, and
+             SMTP Submission ............................................7
+     4. Use of TLS by Mail Access Servers and Message Submission
+        Servers .........................................................7
+        4.1. Deprecation of Services Using Cleartext and TLS Versions
+             Less Than 1.1 ..............................................8
+        4.2. Mail Server Use of Client Certificate Authentication .......9
+        4.3. Recording TLS Ciphersuite in "Received" Header Field .......9
+        4.4. TLS Server Certificate Requirements .......................10
+        4.5. Recommended DNS Records for Mail Protocol Servers .........11
+             4.5.1. MX Records .........................................11
+             4.5.2. SRV Records ........................................11
+             4.5.3. DNSSEC .............................................11
+             4.5.4. TLSA Records .......................................11
+        4.6. Changes to Internet-Facing Servers ........................11
+     5. Use of TLS by Mail User Agents .................................12
+        5.1. Use of SRV Records in Establishing Configuration ..........13
+        5.2. Minimum Confidentiality Level .............................14
+        5.3. Certificate Validation ....................................15
+        5.4. Certificate Pinning .......................................15
+        5.5. Client Certificate Authentication .........................16
+     6. Considerations Related to Antivirus/Antispam Software
+        and Services ...................................................17
+     7. IANA Considerations ............................................17
+        7.1. POP3S Port Registration Update ............................17
+        7.2. IMAPS Port Registration Update ............................18
+        7.3. Submissions Port Registration .............................18
+        7.4. Additional Registered Clauses for "Received" Fields .......19
+     8. Security Considerations ........................................19
+     9. References .....................................................20
+        9.1. Normative References ......................................20
+        9.2. Informative References ....................................22
+     Appendix A. Design Considerations .................................24
+     Acknowledgements ..................................................26
+     Authors' Addresses ................................................26
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

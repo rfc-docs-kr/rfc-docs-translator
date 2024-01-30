@@ -1,0 +1,18 @@
+"hash": |-
+  56d61691890f09ea8703d3402c0e7c2c31f89847466eb33b2d1061484d60560b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     connection N, thus providing forward secrecy between the connections.
+     In addition, if multiple tickets are established on the same
+     connection, they are associated with different keys, so compromise of
+     the PSK associated with one ticket does not lead to the compromise of
+     connections established with PSKs associated with other tickets.
+     This property is most interesting if tickets are stored in a database
+     (and so can be deleted) rather than if they are self-encrypted.
+"fixed": |-
+  connection N, thus providing forward secrecy between the connections. In addition, if multiple tickets are established on the same connection, they are associated with different keys, so compromise of the PSK associated with one ticket does not lead to the compromise of connections established with PSKs associated with other tickets. This property is most interesting if tickets are stored in a database (and so can be deleted) rather than if they are self-encrypted.
+"ko": |-
+  연결 N을 사용하여 연결 간에 순방향 비밀성을 제공합니다. 또한 동일한 연결에 여러 티켓이 설정된 경우 서로 다른 키와 연결되므로 하나의 티켓과 연결된 PSK가 손상되더라도 다른 티켓과 연결된 PSK로 설정된 연결이 손상되지 않습니다. 이 속성은 티켓이 자체 암호화된 경우보다 데이터베이스에 저장되어 삭제될 수 있는 경우에 가장 흥미롭습니다.

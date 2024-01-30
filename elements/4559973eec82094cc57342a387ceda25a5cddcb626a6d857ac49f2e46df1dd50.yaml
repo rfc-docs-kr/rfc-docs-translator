@@ -1,0 +1,18 @@
+"hash": |-
+  4559973eec82094cc57342a387ceda25a5cddcb626a6d857ac49f2e46df1dd50
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     exchange completes while application messages are still in transit,
+     resulting in a loss of these messages.  An implementation could
+     mitigate this race condition, for example, using timers, and wait for
+     a short period of time for pending application level messages to
+     arrive before proceeding to disconnect the transport connection.
+     Eventually, lost messages are handled by the retransmission mechanism
+     described in Section 5.5.4.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

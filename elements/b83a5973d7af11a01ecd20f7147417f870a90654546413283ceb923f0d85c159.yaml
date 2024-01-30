@@ -1,0 +1,59 @@
+"hash": |-
+  b83a5973d7af11a01ecd20f7147417f870a90654546413283ceb923f0d85c159
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    | stopbits       | 9017    | 2 BITS          |  Number of stop bits  |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bits 2 1                                                        |
+    |    00 - Not used                                                   |
+    |    01 - 1 bit                                                      |
+    |    10 - 1.5 bits                                                   |
+    |    11 - 2 bits                                                     |
+    +----------------+---------+-----------------+-----------------------+
+    | databits       | 9018    | 2 BIT           |  Number of data bits  |
+    |                |         |                 |  excluding parity Bit |
+    |                |         |                 |  if present           |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bit 2 1                                                         |
+    |    00 - Not used                                                   |
+    |    01 - 5 bits                                                     |
+    |    10 - 7 bits                                                     |
+    |    11 - 8 bits                                                     |
+    +----------------+---------+-----------------+-----------------------+
+    | parity         | 9019    | 3 BIT           |  Parity information   |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bit 3 2 1                                                       |
+    |    000 - Odd                                                       |
+    |    010 - Even                                                      |
+    |    011 - None                                                      |
+    |    100 - Forced to 0                                               |
+    |    101 - Forced to 1                                               |
+    |    All other values are reserved.                                  |
+    +----------------+---------+-----------------+-----------------------+
+    | duplexmode     | 901A    | BOOLEAN         |  Mode duplex          |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    0 - Half duplex                                                 |
+    |    1 - Full duplex                                                 |
+    +----------------+---------+-----------------+-----------------------+
+    | modem          | 901B    | 6 BIT           |  Modem Type           |
+    |    Reference: ITU Recommendation Q.931                             |
+    |    Bits 6 5 4 3 2 1                                                |
+    |    00000 through 000101 National Use                               |
+    |    010001 - Recommendation V.21                                    |
+    |    010010 - Recommendation V.22                                    |
+    |    010011 - Recommendation V.22 bis                                |
+    |    010100 - Recommendation V.23                                    |
+    |    010101 - Recommendation V.26                                    |
+    |    011001 - Recommendation V.26 bis                                |
+    |    010111 - Recommendation V.26 ter                                |
+    |    011000 - Recommendation V.27                                    |
+    |    011001 - Recommendation V.27 bis                                |
+    |    011010 - Recommendation V.27 ter                                |
+    |    011011 - Recommendation V.29                                    |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

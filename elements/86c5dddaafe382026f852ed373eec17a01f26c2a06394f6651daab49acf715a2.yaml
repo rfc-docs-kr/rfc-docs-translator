@@ -1,0 +1,23 @@
+"hash": |-
+  86c5dddaafe382026f852ed373eec17a01f26c2a06394f6651daab49acf715a2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Exchange
+              In this state the router is describing its entire link state
+              database by sending Database Description packets to the
+              neighbor.  Each Database Description Packet has a DD
+              sequence number, and is explicitly acknowledged.  Only one
+              Database Description Packet is allowed outstanding at any
+              one time.  In this state, Link State Request Packets may
+              also be sent asking for the neighbor's more recent LSAs.
+              All adjacencies in Exchange state or greater are used by the
+              flooding procedure.  In fact, these adjacencies are fully
+              capable of transmitting and receiving all types of OSPF
+              routing protocol packets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

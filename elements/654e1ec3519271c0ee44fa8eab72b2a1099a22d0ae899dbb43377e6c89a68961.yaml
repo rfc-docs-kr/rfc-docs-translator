@@ -1,0 +1,23 @@
+"hash": |-
+  654e1ec3519271c0ee44fa8eab72b2a1099a22d0ae899dbb43377e6c89a68961
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The reasoning behind sending the above packets as multicasts is
+          best explained by an example.  Consider the network
+          configuration depicted in Figure 15.  Suppose RT4 has been
+          elected as Designated Router, and RT3 as Backup Designated
+          Router for the network N3.  When Router RT4 floods a new LSA to
+          Network N3, it is received by routers RT1, RT2, and RT3.  These
+          routers will not flood the LSA back onto net N3, but they still
+          must ensure that their link-state databases remain synchronized
+          with their adjacent neighbors.  So RT1, RT2, and RT4 are waiting
+          to see an acknowledgment from RT3.  Likewise, RT4 and RT3 are
+          both waiting to see acknowledgments from RT1 and RT2.  This is
+          best achieved by sending the acknowledgments as multicasts.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

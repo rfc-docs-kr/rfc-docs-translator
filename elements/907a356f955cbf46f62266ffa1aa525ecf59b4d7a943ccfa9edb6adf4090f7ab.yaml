@@ -1,0 +1,18 @@
+"hash": |-
+  907a356f955cbf46f62266ffa1aa525ecf59b4d7a943ccfa9edb6adf4090f7ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        IP broadcasts (datagrams with a IP broadcast address) must be sent
+        as 802.5 single-route broadcasts.  Unlike ARP, all-routes
+        broadcasts are not desirable for IP.  Receiving multiple copies of
+        IP broadcasts would have undesirable effects on many protocols
+        using IP.  As with ARP, when an IP packet is received, all
+        implementations are required to understand frames with no RIF and
+        frames with an empty RIF.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

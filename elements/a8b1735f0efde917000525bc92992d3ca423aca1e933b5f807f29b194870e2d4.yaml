@@ -1,0 +1,26 @@
+"hash": |-
+  a8b1735f0efde917000525bc92992d3ca423aca1e933b5f807f29b194870e2d4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServTBParamInterval OBJECT-TYPE
+      SYNTAX       Unsigned32 (1..4294967295)
+      UNITS        "microseconds"
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The time interval used with the token bucket.  For:
+         1. Average Rate Meter, the Informal Differentiated Services Model
+            section 5.2.1, - Delta.
+         2. Simple Token Bucket Meter, the Informal Differentiated
+            Services Model section 5.1, - time interval t.
+         3. RFC 2859 TSWTCM, - AVG_INTERVAL.
+         4. RFC 2697 srTCM, RFC 2698 trTCM, - token bucket update time
+            interval."
+      ::= { diffServTBParamEntry 5 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

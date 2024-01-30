@@ -1,0 +1,39 @@
+"hash": |-
+  33f3174b9f9d05a74a932501bc948c857441ba45c7d849142efb2460accc0e15
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Traffic can be hijacked by advertising a prefix for a given
+         destination that is more specific than the aggregate that is
+         normally advertised for that destination.  For example, assume
+         that a popular end system with the address 192.168.17.100 is
+         connected to a service provider that advertises 192.168.16.0/20.
+         A malicious network operator interested in intercepting traffic
+         for this site might advertise, or at least attempt to advertise,
+         192.168.17.0/24 into the global routing system.  Because this
+         prefix is more specific than the "normal" prefix, traffic will be
+         diverted away from the legitimate end system and to the network
+         owned by the malicious operator.  Prior to the advent of CIDR, it
+         was possible to induce traffic from some parts of the network to
+         follow a false advertisement that exactly matched a particular
+         network number; CIDR makes this problem somewhat worse, since
+         longest-match routing generally causes all traffic to prefer
+         more-specific routes over less-specific routes.  The remedy for
+         the CIDR-based attack, though, is the same as for a pre-CIDR-
+         based attack: establishment of trust relationships between
+         providers, coupled with and strong route policy filters at
+         provider borders.  Unfortunately, the implementation of such
+         filters is difficult in the highly de-centralized Internet.  As a
+         workaround, many providers do implement generic filters that set
+         upper bounds, derived from RIR guidelines for the sizes of blocks
+         that they allocate, on the lengths of prefixes that are accepted
+         from other providers.  Note that "spammers" have been observed
+         using this sort of attack to hijack address space temporarily in
+         order to hide the origin of the traffic ("spam" email messages)
+         that they generate.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

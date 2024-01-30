@@ -1,0 +1,1 @@
+   GeometryCollection은 단일 유형의 Geometry 객체(Point, LineString 및 Polygon) 및 동종 유형의 다중 부분 Geometry 객체(MultiPoint, MultiLineString 및 MultiPolygon)와 다른 구문을 갖지만 의미 체계는 다릅니다. GeometryCollection 개체에는 "좌표" 멤버가 없지만 좌표는 있습니다. 모든 부분의 좌표는 컬렉션에 속합니다. GeometryCollection의 "기하학" 멤버는 이 구성의 일부를 설명합니다. 구현 시 "기하학" 배열에 추가 의미를 적용해서는 안 됩니다.

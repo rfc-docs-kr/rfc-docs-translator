@@ -1,0 +1,1 @@
+   * CreateConnection 메시지의 경우 응답 줄 뒤에 Connection-Id 매개변수와 LocalConnectionDescriptor가 옵니다. 생성 요청이 와일드카드 Endpoint-Id로 전송된 경우에는 특정-Endpoint-Id 매개변수가 뒤에 올 수도 있습니다. Connection-Id 및 LocalConnectionDescriptor 매개변수는 표에서 선택사항으로 표시됩니다. 실제로 연결이 생성된 경우 모든 긍정적인 응답에는 필수이며, 응답이 부정적이고 연결이 생성되지 않은 경우에는 금지됩니다.

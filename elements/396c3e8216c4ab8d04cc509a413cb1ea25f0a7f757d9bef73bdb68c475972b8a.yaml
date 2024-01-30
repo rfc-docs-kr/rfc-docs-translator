@@ -1,0 +1,49 @@
+"hash": |-
+  396c3e8216c4ab8d04cc509a413cb1ea25f0a7f757d9bef73bdb68c475972b8a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          *p++ = 0xff;
+          *p++ = 0xc0;            /* SOF */
+          *p++ = 0;               /* length msb */
+          *p++ = 17;              /* length lsb */
+          *p++ = 8;               /* 8-bit precision */
+          *p++ = h >> 8;          /* height msb */
+          *p++ = h;               /* height lsb */
+          *p++ = w >> 8;          /* width msb */
+          *p++ = w;               /* wudth lsb */
+          *p++ = 3;               /* number of components */
+          *p++ = 0;               /* comp 0 */
+          if (type == 0)
+                  *p++ = 0x21;    /* hsamp = 2, vsamp = 1 */
+          else
+                  *p++ = 0x22;    /* hsamp = 2, vsamp = 2 */
+          *p++ = 0;               /* quant table 0 */
+          *p++ = 1;               /* comp 1 */
+          *p++ = 0x11;            /* hsamp = 1, vsamp = 1 */
+          *p++ = 1;               /* quant table 1 */
+          *p++ = 2;               /* comp 2 */
+          *p++ = 0x11;            /* hsamp = 1, vsamp = 1 */
+          *p++ = 1;               /* quant table 1 */
+          p = MakeHuffmanHeader(p, lum_dc_codelens,
+                                sizeof(lum_dc_codelens),
+                                lum_dc_symbols,
+                                sizeof(lum_dc_symbols), 0, 0);
+          p = MakeHuffmanHeader(p, lum_ac_codelens,
+                                sizeof(lum_ac_codelens),
+                                lum_ac_symbols,
+                                sizeof(lum_ac_symbols), 0, 1);
+          p = MakeHuffmanHeader(p, chm_dc_codelens,
+                                sizeof(chm_dc_codelens),
+                                chm_dc_symbols,
+                                sizeof(chm_dc_symbols), 1, 0);
+          p = MakeHuffmanHeader(p, chm_ac_codelens,
+                                sizeof(chm_ac_codelens),
+                                chm_ac_symbols,
+                                sizeof(chm_ac_symbols), 1, 1);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

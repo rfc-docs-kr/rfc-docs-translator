@@ -1,0 +1,25 @@
+"hash": |-
+  dc1e89f3957565d71069b112893d0f4cdf4c1c48040351ffc6be3416340646a3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      In each endpoint router, the cost and viability of the virtual link
+      is discovered by examining the routing table entry for the other
+      endpoint router.  (The entry's associated area must be the
+      configured Transit area).  This is called the virtual link's
+      corresponding routing table entry.  The InterfaceUp event occurs for
+      a virtual link when its corresponding routing table entry becomes
+      reachable.  Conversely, the InterfaceDown event occurs when its
+      routing table entry becomes unreachable.  In other words, the
+      virtual link's viability is determined by the existence of an
+      intra-area path, through the Transit area, between the two
+      endpoints.  Note that a virtual link whose underlying path has cost
+      greater than hexadecimal 0xffff (the maximum size of an interface
+      cost in a router-LSA) should be considered inoperational (i.e.,
+      treated the same as if the path did not exist).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

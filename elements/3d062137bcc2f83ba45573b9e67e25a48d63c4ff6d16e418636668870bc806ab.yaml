@@ -1,0 +1,22 @@
+"hash": |-
+  3d062137bcc2f83ba45573b9e67e25a48d63c4ff6d16e418636668870bc806ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because the address and TCP port are encoded in ASCII, this may
+     result in a change in the size of packet.  For instance,
+     10,18,177,42,64,87 is 18 ASCII characters, whereas
+     193,45,228,137,64,87 is 20 ASCII characters. If the new size is same
+     as the previous, only the TCP checksum needs adjustment as a result
+     of change of data. If the new size is less than or greater than the
+     previous, TCP sequence numbers must also be changed to reflect the
+     change in length of FTP control data portion.  A special table may be
+     used by the ALG to correct the TCP sequence and acknowledge numbers.
+     The sequence number and acknowledgement correction will need to be
+     performed on all future packet of the connection.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

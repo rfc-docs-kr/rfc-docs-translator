@@ -1,0 +1,1 @@
+   SEQUENCE는 그것이 나타나는 COMPOUND의 첫 번째 작업으로 나타나야 합니다. NFS4ERR_SEQUENCE_POS 오류는 COMPOUND의 첫 번째 위치를 벗어난 위치에서 발견되면 반환됩니다. SEQUENCE, BIND_CONN_TO_SESSION, EXCHANGE_ID, CREATE_SESSION 및 DESTROY_SESSION 이외의 작업은 COMPOUND의 첫 번째 작업으로 나타나서는 안 됩니다. 이러한 작업은 COMPOUND 시작 부분에 나타나는 경우 NFS4ERR_OP_NOT_IN_SESSION 오류를 발생시켜야 합니다.

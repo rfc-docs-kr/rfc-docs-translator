@@ -1,0 +1,18 @@
+"hash": |-
+  6abe81880ad88f3353be7e973c586e63b3b52f8ef514a6e00f6535b764e7f87d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client has not provided a sufficient "key_share" extension
+     (e.g., it includes only DHE or ECDHE groups unacceptable to or
+     unsupported by the server), the server corrects the mismatch with a
+     HelloRetryRequest and the client needs to restart the handshake with
+     an appropriate "key_share" extension, as shown in Figure 2.  If no
+     common cryptographic parameters can be negotiated, the server MUST
+     abort the handshake with an appropriate alert.
+"fixed": |-
+  If the client has not provided a sufficient "key_share" extension (e.g., it includes only DHE or ECDHE groups unacceptable to or unsupported by the server), the server corrects the mismatch with a HelloRetryRequest and the client needs to restart the handshake with an appropriate "key_share" extension, as shown in Figure 2.  If no common cryptographic parameters can be negotiated, the server MUST abort the handshake with an appropriate alert.
+"ko": |-
+  클라이언트가 충분한 "key_share" 확장을 제공하지 않은 경우(예: 서버에서 허용할 수 없거나 지원하지 않는 DHE 또는 ECDHE 그룹만 포함) 서버는 HelloRetryRequest와의 불일치를 수정하고 클라이언트는 적절한 방법으로 핸드셰이크를 다시 시작해야 합니다. "key_share" 확장(그림 2 참조). 공통 암호화 매개변수를 협상할 수 없는 경우 서버는 적절한 경고와 함께 핸드셰이크를 중단해야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  0924259b8bffad12a60efb4181b73568fc4cdbafd49b02661209b0e859cfa01c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        chacha20_block(key, counter, nonce):
+           state = constants | key | counter | nonce
+           working_state = state
+           for i=1 upto 10
+              inner_block(working_state)
+              end
+           state += working_state
+           return serialize(state)
+           end
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

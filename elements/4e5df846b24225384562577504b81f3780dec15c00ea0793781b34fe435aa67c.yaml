@@ -1,0 +1,27 @@
+"hash": |-
+  4e5df846b24225384562577504b81f3780dec15c00ea0793781b34fe435aa67c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     OAuth divides the roles and responsibilities such that the resource
+     server relies on the authorization server to perform client
+     authentication and obtain resource-owner (end-user) authorization.
+     The resource server makes authorization decisions based on the access
+     token presented by the client but does not directly authenticate the
+     client per se.  The manner in which an access token is bound to the
+     client certificate and how a protected resource verifies the proof-
+     of-possession decouples that from the specific method that the client
+     used to authenticate with the authorization server.  Mutual TLS
+     during protected resource access can, therefore, serve purely as a
+     proof-of-possession mechanism.  As such, it is not necessary for the
+     resource server to validate the trust chain of the client's
+     certificate in any of the methods defined in this document.  The
+     resource server would, therefore, configure the TLS stack in a way
+     that it does not verify whether the certificate presented by the
+     client during the handshake is signed by a trusted CA certificate.
+"fixed": |-
+  OAuth divides the roles and responsibilities such that the resource server relies on the authorization server to perform client authentication and obtain resource-owner (end-user) authorization. The resource server makes authorization decisions based on the access token presented by the client but does not directly authenticate the client per se.  The manner in which an access token is bound to the client certificate and how a protected resource verifies the proof- of-possession decouples that from the specific method that the client used to authenticate with the authorization server.  Mutual TLS during protected resource access can, therefore, serve purely as a proof-of-possession mechanism.  As such, it is not necessary for the resource server to validate the trust chain of the client's certificate in any of the methods defined in this document.  The resource server would, therefore, configure the TLS stack in a way that it does not verify whether the certificate presented by the client during the handshake is signed by a trusted CA certificate.
+"ko": |-
+  OAuth는 리소스 서버가 권한 부여 서버에 의존하여 클라이언트 인증을 수행하고 리소스 소유자(최종 사용자) 권한을 얻도록 역할과 책임을 나눕니다. 리소스 서버는 클라이언트가 제공한 액세스 토큰을 기반으로 권한 부여 결정을 내리지만 클라이언트 자체를 직접 인증하지는 않습니다. 액세스 토큰이 클라이언트 인증서에 바인딩되는 방식과 보호된 리소스가 소유 증명을 확인하는 방식은 클라이언트가 인증 서버에 인증하는 데 사용한 특정 방법과 분리됩니다. 따라서 보호된 리소스 액세스 중 상호 TLS는 순전히 소유 증명 메커니즘의 역할을 할 수 있습니다. 따라서 리소스 서버가 이 문서에 정의된 방법으로 클라이언트 인증서의 신뢰 체인을 검증할 필요는 없습니다. 따라서 리소스 서버는 핸드셰이크 중에 클라이언트가 제시한 인증서가 신뢰할 수 있는 CA 인증서에 의해 서명되었는지 여부를 확인하지 않는 방식으로 TLS 스택을 구성합니다.

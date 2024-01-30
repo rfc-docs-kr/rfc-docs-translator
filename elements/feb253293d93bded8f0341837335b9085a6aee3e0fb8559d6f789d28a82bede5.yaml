@@ -1,0 +1,27 @@
+"hash": |-
+  feb253293d93bded8f0341837335b9085a6aee3e0fb8559d6f789d28a82bede5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     AuditReturnParameter ::= CHOICE
+     {
+          errorDescriptor                 ErrorDescriptor,
+          mediaDescriptor                 MediaDescriptor,
+          modemDescriptor                 ModemDescriptor,
+          muxDescriptor                   MuxDescriptor,
+          eventsDescriptor                EventsDescriptor,
+          eventBufferDescriptor           EventBufferDescriptor,
+          signalsDescriptor               SignalsDescriptor,
+          digitMapDescriptor              DigitMapDescriptor,
+          observedEventsDescriptor        ObservedEventsDescriptor,
+          statisticsDescriptor            StatisticsDescriptor,
+          packagesDescriptor              PackagesDescriptor,
+          emptyDescriptors                AuditDescriptor,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

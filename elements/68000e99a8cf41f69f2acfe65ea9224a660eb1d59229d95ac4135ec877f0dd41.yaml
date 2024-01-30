@@ -1,0 +1,17 @@
+"hash": |-
+  68000e99a8cf41f69f2acfe65ea9224a660eb1d59229d95ac4135ec877f0dd41
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Earlier versions of the TLS specification were not fully clear on
+     what the record layer version number (TLSPlaintext.version) should
+     contain when sending ClientHello (i.e., before it is known which
+     version of the protocol will be employed).  Thus, TLS servers
+     compliant with this specification MUST accept any value {03,XX} as
+     the record layer version number for ClientHello.
+"fixed": |-
+  Earlier versions of the TLS specification were not fully clear on what the record layer version number (TLSPlaintext.version) should contain when sending ClientHello (i.e., before it is known which version of the protocol will be employed).  Thus, TLS servers compliant with this specification MUST accept any value {03,XX} as the record layer version number for ClientHello.
+"ko": |-
+  TLS 사양의 이전 버전에서는 ClientHello를 보낼 때 레코드 계층 버전 번호(TLSPlaintext.version)에 어떤 내용이 포함되어야 하는지(즉, 어떤 버전의 프로토콜이 사용될지 알기 전에) 완전히 명확하지 않았습니다. 따라서 이 사양을 준수하는 TLS 서버는 ClientHello의 레코드 계층 버전 번호로 모든 값 {03,XX}를 허용해야 합니다.

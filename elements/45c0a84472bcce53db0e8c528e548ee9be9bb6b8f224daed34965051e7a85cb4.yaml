@@ -1,0 +1,16 @@
+"hash": |-
+  45c0a84472bcce53db0e8c528e548ee9be9bb6b8f224daed34965051e7a85cb4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a client first connects to a server, it is REQUIRED to send the
+     ClientHello as its first TLS message.  The client will also send a
+     ClientHello when the server has responded to its ClientHello with a
+     HelloRetryRequest.  In that case, the client MUST send the same
+     ClientHello without modification, except as follows:
+"fixed": |-
+  When a client first connects to a server, it is REQUIRED to send the ClientHello as its first TLS message.  The client will also send a ClientHello when the server has responded to its ClientHello with a HelloRetryRequest.  In that case, the client MUST send the same ClientHello without modification, except as follows:
+"ko": |-
+  클라이언트가 처음 서버에 연결되면 첫 번째 TLS 메시지로 ClientHello를 보내는 것이 필수입니다. 서버가 HelloRetryRequest로 ClientHello에 응답하면 클라이언트도 ClientHello를 보냅니다. 이 경우 클라이언트는 다음을 제외하고 수정 없이 동일한 ClientHello를 보내야 합니다.

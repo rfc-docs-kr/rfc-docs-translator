@@ -1,0 +1,22 @@
+"hash": |-
+  eb6f0c5bb75aa63db9ef91fe67b77fa98263cd8c14c99f7b313670e8542e09bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Diameter node that receives a successful authentication and/or
+     authorization message from the Diameter server SHOULD collect
+     accounting information for the session.  The Accounting-Request
+     message is used to transmit the accounting information to the
+     Diameter server, which MUST reply with the Accounting-Answer message
+     to confirm reception.  The Accounting-Answer message includes the
+     Result-Code AVP, which MAY indicate that an error was present in the
+     accounting message.  The value of the Accounting-Realtime-Required
+     AVP received earlier for the session in question may indicate that
+     the user's session has to be terminated when a rejected Accounting-
+     Request message was received.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

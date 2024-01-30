@@ -1,0 +1,17 @@
+"hash": |-
+  6193dd528f467e9c4e64ef3445a862a2910c62bcffeda4500be4b6a7550c8a10
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server chooses to accept the "early_data" extension, then it
+     MUST comply with the same error-handling requirements specified for
+     all records when processing early data records.  Specifically, if the
+     server fails to decrypt a 0-RTT record following an accepted
+     "early_data" extension, it MUST terminate the connection with a
+     "bad_record_mac" alert as per Section 5.2.
+"fixed": |-
+  If the server chooses to accept the "early_data" extension, then it MUST comply with the same error-handling requirements specified for all records when processing early data records.  Specifically, if the server fails to decrypt a 0-RTT record following an accepted "early_data" extension, it MUST terminate the connection with a "bad_record_mac" alert as per Section 5.2.
+"ko": |-
+  서버가 "early_data" 확장을 허용하기로 선택한 경우, 초기 데이터 레코드를 처리할 때 모든 레코드에 대해 지정된 동일한 오류 처리 요구 사항을 준수해야 합니다. 특히, 서버가 허용된 "early_data" 확장에 이어 0-RTT 레코드의 암호 해독에 실패하는 경우 섹션 5.2에 따라 "bad_record_mac" 경고와 함께 연결을 종료해야 합니다.

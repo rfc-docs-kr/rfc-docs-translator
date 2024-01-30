@@ -1,0 +1,1 @@
+- 3. PKCS#1 패딩이 올바르지 않거나 메시지 M의 길이가 정확히 48바이트가 아닌 경우: pre_master_secret = ClientHello.client_version || R else ClientHello.client_version <= TLS 1.0이고 버전 번호 확인이 명시적으로 비활성화된 경우: pre_master_secret = M else: pre_master_secret = ClientHello.client_version || 남[2..47]

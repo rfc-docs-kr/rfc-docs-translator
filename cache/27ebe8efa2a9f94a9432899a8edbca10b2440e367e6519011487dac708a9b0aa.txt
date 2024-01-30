@@ -1,0 +1,1 @@
+   def Context<ROLE>.IncrementSeq(): if self.seq >= (1 << (8*Nn)) - 1: MessageLimitReachedError self.seq += 1 발생

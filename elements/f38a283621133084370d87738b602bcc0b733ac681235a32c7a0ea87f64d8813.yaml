@@ -1,0 +1,20 @@
+"hash": |-
+  f38a283621133084370d87738b602bcc0b733ac681235a32c7a0ea87f64d8813
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServDscpMarkActTable OBJECT-TYPE
+      SYNTAX       SEQUENCE OF DiffServDscpMarkActEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "This table enumerates specific DSCPs used for marking or
+         remarking the DSCP field of IP packets. The entries of this table
+         may be referenced by a diffServActionSpecific attribute."
+      ::= { diffServAction 3 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

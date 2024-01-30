@@ -1,0 +1,1 @@
+-explicitText 필드에는 인증서에 직접 텍스트 설명이 포함됩니다. explicitText 필드는 최대 크기가 200자인 문자열입니다. 준수 CA는explicitText에 대해 UTF8String 인코딩을 사용해야 하지만 IA5String을 사용할 수도 있습니다. CA를 준수하는 경우 명시적 텍스트를 VisibleString 또는 BMPString으로 인코딩하면 안 됩니다. licitText 문자열에는 제어 문자(예: U+0000~U+001F 및 U+007F~U+009F)가 포함되어서는 안 됩니다. UTF8String 인코딩이 사용되는 경우 모든 문자 시퀀스는 유니코드 정규화 형식 C(NFC)[NFC]에 따라 정규화되어야 합니다.

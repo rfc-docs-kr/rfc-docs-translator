@@ -1,0 +1,21 @@
+"hash": |-
+  96856e410e7066b4700af52c5f03755ef007acf297a3a90f5522baa54c696989
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an ICE restart occurs for a media stream with TCP candidate pairs
+     that have been selected by ICE, the agents MUST NOT close the
+     connections after the restart.  In the offer or answer that causes
+     the restart, an agent MAY include a simultaneous-open candidate whose
+     transport address matches the previously selected candidate.  If both
+     agents do this, the result will be a simultaneous-open candidate pair
+     matching an existing TCP connection.  In this case, the agents MUST
+     NOT attempt to open a new connection (or start new TLS or DTLS-SRTP
+     procedures).  Instead, that existing connection is reused, and STUN
+     checks are performed.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

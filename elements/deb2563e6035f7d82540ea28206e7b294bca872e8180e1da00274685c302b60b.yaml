@@ -1,0 +1,19 @@
+"hash": |-
+  deb2563e6035f7d82540ea28206e7b294bca872e8180e1da00274685c302b60b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If any of these checks fail, the server MUST NOT respond with the
+     extension and must discard all the first-flight data using one of the
+     first two mechanisms listed above (thus falling back to 1-RTT or
+     2-RTT).  If the client attempts a 0-RTT handshake but the server
+     rejects it, the server will generally not have the 0-RTT record
+     protection keys and must instead use trial decryption (either with
+     the 1-RTT handshake keys or by looking for a cleartext ClientHello in
+     the case of a HelloRetryRequest) to find the first non-0-RTT message.
+"fixed": |-
+  If any of these checks fail, the server MUST NOT respond with the extension and must discard all the first-flight data using one of the first two mechanisms listed above (thus falling back to 1-RTT or 2-RTT).  If the client attempts a 0-RTT handshake but the server rejects it, the server will generally not have the 0-RTT record protection keys and must instead use trial decryption (either with the 1-RTT handshake keys or by looking for a cleartext ClientHello in the case of a HelloRetryRequest) to find the first non-0-RTT message.
+"ko": |-
+  이러한 검사 중 하나라도 실패하면 서버는 확장으로 응답해서는 안 되며 위에 나열된 처음 두 메커니즘 중 하나를 사용하여 모든 첫 번째 비행 데이터를 삭제해야 합니다(따라서 1-RTT 또는 2-RTT로 대체). 클라이언트가 0-RTT 핸드셰이크를 시도하지만 서버가 이를 거부하는 경우 서버는 일반적으로 0-RTT 레코드 보호 키를 갖지 않으며 대신 시험 복호화(1-RTT 핸드셰이크 키를 사용하거나 일반 텍스트 ClientHello를 검색하여)를 사용해야 합니다. HelloRetryRequest의 경우) 0-RTT가 아닌 첫 번째 메시지를 찾습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  f686804c1c02c3c0d48ea6a8e287745b0f8cfdfc43135b659e62cba43b85579e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Experience shows that, in practice, server implementations may fail
+     to fully stop these attacks due to the complexity of this mitigation
+     [ROBOT].  For (D)TLS 1.2 servers that support RSA key exchange using
+     a DC-enabled end-entity certificate, a hypothetical signature forgery
+     attack would allow forging a signature over a delegated credential.
+     The forged delegated credential could then be used by the attacker as
+     the equivalent of an on-path attacker, valid for a maximum of 7 days
+     (if the default valid_time is used).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

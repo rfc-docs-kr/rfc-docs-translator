@@ -1,0 +1,19 @@
+"hash": |-
+  6c72c5f3b8069818e7d491faa10d99bd3b5fcae9f6131f016a4c75033290edcb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ObservedEvent ::= SEQUENCE
+     {
+          eventName                       EventName,
+          streamID                        StreamID OPTIONAL,
+          eventParList                    SEQUENCE OF EventParameter,
+          timeNotation                    TimeNotation OPTIONAL,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

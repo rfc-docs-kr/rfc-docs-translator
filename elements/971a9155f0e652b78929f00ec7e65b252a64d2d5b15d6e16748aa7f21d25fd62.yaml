@@ -1,0 +1,15 @@
+"hash": |-
+  971a9155f0e652b78929f00ec7e65b252a64d2d5b15d6e16748aa7f21d25fd62
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The value of selected_version in the HelloRetryRequest
+     "supported_versions" extension MUST be retained in the ServerHello,
+     and a client MUST abort the handshake with an "illegal_parameter"
+     alert if the value changes.
+"fixed": |-
+  The value of selected_version in the HelloRetryRequest "supported_versions" extension MUST be retained in the ServerHello, and a client MUST abort the handshake with an "illegal_parameter" alert if the value changes.
+"ko": |-
+  HelloRetryRequest "supported_versions" 확장의 selected_version 값은 ServerHello에 유지되어야 하며, 값이 변경되면 클라이언트는 "illegal_parameter" 경고와 함께 핸드셰이크를 중단해야 합니다.

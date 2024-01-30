@@ -1,0 +1,27 @@
+"hash": |-
+  b4ce22e862bdb0081d9b7579fa4596a6b620cc0af3a9db4befa6b2d66c6673db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Alternately, packets may be tunneled between RSAP-IP-Client and
+     RSAP-IP-Server such that RSAP-IP-Server would detunnel packets
+     outbound from RSAP-IP-Clients and forward to external hosts. On the
+     return path, RSAP-IP-Server  would locate RSAP-IP-Client tunnel,
+     based on the tuple of (destination address, transport Identifier) and
+     encapsulate the original packet within a tunnel to forward to RSAP-
+     IP-Client. With this approach, there is no limitation on the
+     tunneling technique employed between RSAP-IP-Client and RSAP-IP-
+     Server. However, there are limitations to applying IPsec based
+     security on end-to-end packets.  Transport mode based authentication
+     and integrity may be attained.  But, confidentiality cannot be
+     permitted because RSAP-IP-Server must be able to examine the
+     destination transport Identifier in order to identify the RSAP-IP-
+     tunnel to forward inbound packets to. For this reason, only the
+     transport mode TCP, UDP and ICMP packets protected by AH and ESP-
+     authentication can traverse a RSAP-IP-Server using this approach.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

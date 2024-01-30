@@ -1,0 +1,26 @@
+"hash": |-
+  a1bc1a73a5404075682b0465db14780200b168b7f98552c727cd5efbbd23cedd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Diameter messages SHOULD be mapped into SCTP streams in a way that
+     avoids head-of-the-line (HOL) blocking.  Among different ways of
+     performing the mapping that fulfill this requirement it is
+     RECOMMENDED that a Diameter node send every Diameter message (request
+     or response) over stream zero with the unordered flag set.  However,
+     Diameter nodes MAY select and implement other design alternatives for
+     avoiding HOL blocking such as using multiple streams with the
+     unordered flag cleared (as originally instructed in RFC 3588).  On
+     the receiving side, a Diameter entity MUST be ready to receive
+     Diameter messages over any stream, and it is free to return responses
+     over a different stream.  This way, both sides manage the available
+     streams in the sending direction, independently of the streams chosen
+     by the other side to send a particular Diameter message.  These
+     messages can be out-of-order and belong to different Diameter
+     sessions.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

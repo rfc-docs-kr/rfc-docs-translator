@@ -1,0 +1,51 @@
+"hash": |-
+  7a6b12a335b3a34dd3c5822871e189c17d15f2a3151a3c9b95eedd6b9205055e
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1. Introduction ....................................................4
+     2. Terminology .....................................................5
+     3. Overview of Operation ...........................................5
+     4. Sending the Initial Offer .......................................7
+        4.1. Gathering Candidates .......................................7
+        4.2. Prioritization .............................................8
+        4.3. Choosing Default Candidates ...............................10
+        4.4. Lite Implementation Requirements ..........................10
+        4.5. Encoding the SDP ..........................................11
+     5. Candidate Collection Techniques ................................12
+        5.1. Host Candidates ...........................................12
+        5.2. Server Reflexive Candidates ...............................13
+        5.3. NAT-Assisted Candidates ...................................13
+        5.4. UDP-Tunneled Candidates ...................................14
+        5.5. Relayed Candidates ........................................15
+     6. Receiving the Initial Offer and Answer .........................15
+        6.1. Considerations with Two Lite Agents .......................16
+        6.2. Forming the Check Lists ...................................16
+     7. Connectivity Checks ............................................17
+        7.1. STUN Client Procedures ....................................17
+        7.2. STUN Server Procedures ....................................18
+     8. Concluding ICE Processing ......................................18
+     9. Subsequent Offer/Answer Exchanges ..............................18
+        9.1. Updated Offer .............................................18
+        9.2. ICE Restarts ..............................................19
+     10. Media Handling ................................................19
+        10.1. Sending Media ............................................19
+        10.2. Receiving Media ..........................................20
+     11. Connection Management .........................................20
+        11.1. Connections Formed during Connectivity Checks ............20
+        11.2. Connections Formed for Gathering Candidates ..............21
+     12. Security Considerations .......................................22
+     13. IANA Considerations ...........................................23
+     14. Acknowledgements ..............................................23
+     15. References ....................................................23
+        15.1. Normative References .....................................23
+        15.2. Informative References ...................................24
+     Appendix A.  Limitations of ICE TCP ...............................26
+     Appendix B.  Implementation Considerations for BSD Sockets ........27
+     Appendix C.  SDP Examples .........................................28
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

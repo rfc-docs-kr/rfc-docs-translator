@@ -1,0 +1,19 @@
+"hash": |-
+  4040684854d1362ff0611c209f33d921bd5fa2e9edd855df025464cfc430d39b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          /* Initialize DRI header
+           */
+          if (dri != 0) {
+                  rsthdr.dri = dri;
+                  rsthdr.f = 1;        /* This code does not align RIs */
+                  rsthdr.l = 1;
+                  rsthdr.count = 0x3fff;
+          }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  08e819f526557e28883ebc5f0c0ce2f0571515b0712e08cda487d5f29ca52073
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For Q values from 128 to 254, the Q value to quantization table data
+     mapping MUST be static, i.e., the receivers are guaranteed that they
+     only need to read the table data once in order to correctly decode
+     frames sent with that Q value.  A Q value of 255 denotes that the
+     quantization table mapping is dynamic and can change on every frame.
+     Decoders MUST NOT depend on any previous version of the tables, and
+     need to reload these tables on every frame.  Packets MUST NOT contain
+     Q = 255 and Length = 0.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

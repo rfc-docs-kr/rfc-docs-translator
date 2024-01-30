@@ -1,0 +1,19 @@
+"hash": |-
+  bd8ff529f4b1608c5656cf19a9b218d076e031225a114e78ec8291b0a50a94e6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a DHCPv4 client is operational, it is RECOMMENDED that the host
+     attempt to obtain IPv4 configuration via DHCPv4 in parallel with the
+     reachability tests, with the host using the first answer returned.
+     This ensures that the DNAv4 procedure will not result in additional
+     delay in the case where reachability tests fail, or where sending a
+     DHCPREQUEST from the INIT-REBOOT state, as described in Section 3.2
+     and 4.3.2 of the DHCP specification [RFC2131], completes more quickly
+     than the reachability tests.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

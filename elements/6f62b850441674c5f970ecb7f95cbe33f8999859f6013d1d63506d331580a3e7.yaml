@@ -1,0 +1,17 @@
+"hash": |-
+  6f62b850441674c5f970ecb7f95cbe33f8999859f6013d1d63506d331580a3e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a Vendor-Specific-Application-Id is received that contains both
+     Auth-Application-Id and Acct-Application-Id, then the recipient MUST
+     issue an answer with Result-Code set to
+     DIAMETER_AVP_OCCURS_TOO_MANY_TIMES.  The answer MUST also include a
+     Failed-AVP, which MUST contain the received Auth-Application-Id AVP
+     and Acct-Application-Id AVP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

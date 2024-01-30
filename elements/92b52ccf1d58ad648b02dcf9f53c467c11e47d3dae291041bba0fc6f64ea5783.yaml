@@ -1,0 +1,29 @@
+"hash": |-
+  92b52ccf1d58ad648b02dcf9f53c467c11e47d3dae291041bba0fc6f64ea5783
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order for a resource server to use certificate-bound access
+     tokens, it must have advance knowledge that mutual TLS is to be used
+     for some or all resource accesses.  In particular, the access token
+     itself cannot be used as input to the decision of whether or not to
+     request mutual TLS because (from the TLS perspective) it is
+     "Application Data", only exchanged after the TLS handshake has been
+     completed, and the initial CertificateRequest occurs during the
+     handshake, before the Application Data is available.  Although
+     subsequent opportunities for a TLS client to present a certificate
+     may be available, e.g., via TLS 1.2 renegotiation [RFC5246] or TLS
+     1.3 post-handshake authentication [RFC8446], this document makes no
+     provision for their usage.  It is expected to be common that a
+     mutual-TLS-using resource server will require mutual TLS for all
+     resources hosted thereupon or will serve mutual-TLS-protected and
+     regular resources on separate hostname and port combinations, though
+     other workflows are possible.  How resource server policy is
+     synchronized with the authorization server (AS) is out of scope for
+     this document.
+"fixed": |-
+  In order for a resource server to use certificate-bound access tokens, it must have advance knowledge that mutual TLS is to be used for some or all resource accesses.  In particular, the access token itself cannot be used as input to the decision of whether or not to request mutual TLS because (from the TLS perspective) it is "Application Data", only exchanged after the TLS handshake has been completed, and the initial CertificateRequest occurs during the handshake, before the Application Data is available.  Although subsequent opportunities for a TLS client to present a certificate may be available, e.g., via TLS 1.2 renegotiation [RFC5246] or TLS 1.3 post-handshake authentication [RFC8446], this document makes no provision for their usage.  It is expected to be common that a mutual-TLS-using resource server will require mutual TLS for all resources hosted thereupon or will serve mutual-TLS-protected and regular resources on separate hostname and port combinations, though other workflows are possible.  How resource server policy is synchronized with the authorization server (AS) is out of scope for this document.
+"ko": |-
+  리소스 서버가 인증서 바인딩된 액세스 토큰을 사용하려면 일부 또는 모든 리소스 액세스에 상호 TLS가 사용된다는 사전 지식이 있어야 합니다. 특히, 액세스 토큰 자체는 (TLS 관점에서) TLS 핸드셰이크가 완료된 후에만 교환되는 "애플리케이션 데이터"이기 때문에 상호 TLS를 요청할지 여부를 결정하는 입력으로 사용할 수 없습니다. CertificateRequest는 애플리케이션 데이터를 사용할 수 있기 전에 핸드셰이크 중에 발생합니다. TLS 1.2 재협상[RFC5246] 또는 TLS 1.3 핸드셰이크 후 인증[RFC8446]을 통해 TLS 클라이언트가 인증서를 제시할 수 있는 후속 기회가 제공될 수 있지만 이 문서에서는 해당 용도에 대한 조항을 제공하지 않습니다. 상호 TLS를 사용하는 리소스 서버는 호스팅되는 모든 리소스에 대해 상호 TLS를 요구하거나 별도의 호스트 이름 및 포트 조합에서 상호 TLS 보호 및 일반 리소스를 제공하는 것이 일반적일 것으로 예상되지만 다른 워크플로도 가능합니다. 리소스 서버 정책이 권한 부여 서버(AS)와 동기화되는 방법은 이 문서의 범위를 벗어납니다.

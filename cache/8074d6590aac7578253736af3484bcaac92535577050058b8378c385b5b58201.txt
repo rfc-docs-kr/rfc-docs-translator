@@ -1,0 +1,1 @@
+     (20) 표준 다중 작업 중단 의미(섹션 4.2.3.3)를 사용하면 TARGET WARM RESET, TARGET COLD RESET 또는 LU 재설정이 완료 시 활성 TTT를 지웁니다. 그러나 섹션 4.2.3.4에 정의된 FastAbort 다중 작업 중단 의미 체계는 재설정 작업이 끝날 때 활성 TTT가 지워지는 것을 보장하지 않습니다. 실제로 FastAbort 의미론은 TMF 응답이 전달된 후 "게으른" 방식으로 TTT를 지울 수 있도록 설계되었습니다. 따라서 TaskReporting=FastAbort(섹션 13.23)가 세션에서 작동하는 경우 "불완전한 TTT"에 대한 재설정 작업의 지우기 효과는 "N"입니다.

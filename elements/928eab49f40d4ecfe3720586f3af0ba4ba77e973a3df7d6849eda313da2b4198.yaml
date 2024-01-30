@@ -1,0 +1,23 @@
+"hash": |-
+  928eab49f40d4ecfe3720586f3af0ba4ba77e973a3df7d6849eda313da2b4198
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Subsequent Handshake:
+            ClientHello
+            + key_share*
+            + pre_shared_key          -------->
+                                                            ServerHello
+                                                       + pre_shared_key
+                                                           + key_share*
+                                                  {EncryptedExtensions}
+                                                             {Finished}
+                                      <--------     [Application Data*]
+            {Finished}                -------->
+            [Application Data]        <------->      [Application Data]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

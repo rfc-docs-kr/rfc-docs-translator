@@ -1,0 +1,19 @@
+"hash": |-
+  661224af33483e5ea8d53362cc7d9e4f26dc80d83171b8634a4e0296bd57f002
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  DiffServActionEntry ::= SEQUENCE  {
+      diffServActionId                IndexInteger,
+      diffServActionInterface         InterfaceIndexOrZero,
+      diffServActionNext              RowPointer,
+      diffServActionSpecific          RowPointer,
+      diffServActionStorage           StorageType,
+      diffServActionStatus            RowStatus
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  b4ec2e3a8859a0a229fcbacceec4e54b6c3022c991006b4fc12c789234e9c60f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        values may only be sent within CoA-ACK or Disconnect-ACK packets
+        and MUST NOT be sent within a CoA-NAK or Disconnect-NAK packet.
+        Values 400-499 represent fatal errors committed by the Dynamic
+        Authorization Client, so that they MAY be sent within CoA-NAK or
+        Disconnect-NAK packets, and MUST NOT be sent within CoA-ACK or
+        Disconnect-ACK packets.  Values 500-599 represent fatal errors
+        occurring on a Dynamic Authorization Server, so that they MAY be
+        sent within CoA-NAK and Disconnect-NAK packets, and MUST NOT be
+        sent within CoA-ACK or Disconnect-ACK packets.  Error-Cause values
+        SHOULD be logged by the Dynamic Authorization Client.  Error-Code
+        values (expressed in decimal) include:
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

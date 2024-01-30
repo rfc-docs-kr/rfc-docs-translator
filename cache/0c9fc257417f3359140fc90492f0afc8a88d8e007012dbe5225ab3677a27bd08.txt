@@ -1,0 +1,1 @@
+구체적으로 말하면, 기록 해시는 항상 첫 번째 ClientHello에서 시작하여 전송된 메시지만 포함하는 다음 핸드셰이크 메시지 시퀀스에서 가져옵니다. ClientHello, HelloRetryRequest, ClientHello, ServerHello, EncryptedExtensions, 서버 CertificateRequest, 서버 인증서, 서버 CertificateVerify, 서버 완료, EndOfEarlyData, 클라이언트 인증서, 클라이언트 CertificateVerify, 클라이언트 완료.

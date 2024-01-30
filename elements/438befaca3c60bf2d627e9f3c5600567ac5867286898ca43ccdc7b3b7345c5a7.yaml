@@ -1,0 +1,21 @@
+"hash": |-
+  438befaca3c60bf2d627e9f3c5600567ac5867286898ca43ccdc7b3b7345c5a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     EAP packets received with Code=1 (Request), Code=3 (Success), and
+     Code=4 (Failure) are demultiplexed by the EAP layer and delivered to
+     the peer layer.  Therefore, unless a host implements an EAP peer
+     layer, these packets will be silently discarded.  Similarly, EAP
+     packets received with Code=2 (Response) are demultiplexed by the EAP
+     layer and delivered to the authenticator layer.  Therefore, unless a
+     host implements an EAP authenticator layer, these packets will be
+     silently discarded.  The behavior of a "pass-through peer" is
+     undefined within this specification, and is unsupported by AAA
+     protocols such as RADIUS [RFC3579] and Diameter [DIAM-EAP].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

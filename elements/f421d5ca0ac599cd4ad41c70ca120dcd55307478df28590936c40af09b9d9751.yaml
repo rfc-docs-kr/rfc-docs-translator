@@ -1,0 +1,19 @@
+"hash": |-
+  f421d5ca0ac599cd4ad41c70ca120dcd55307478df28590936c40af09b9d9751
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client does not send any certificates (i.e., it sends an empty
+     Certificate message), the server MAY at its discretion either
+     continue the handshake without client authentication or abort the
+     handshake with a "certificate_required" alert.  Also, if some aspect
+     of the certificate chain was unacceptable (e.g., it was not signed by
+     a known, trusted CA), the server MAY at its discretion either
+     continue the handshake (considering the client unauthenticated) or
+     abort the handshake.
+"fixed": |-
+  If the client does not send any certificates (i.e., it sends an empty Certificate message), the server MAY at its discretion either continue the handshake without client authentication or abort the handshake with a "certificate_required" alert.  Also, if some aspect of the certificate chain was unacceptable (e.g., it was not signed by a known, trusted CA), the server MAY at its discretion either continue the handshake (considering the client unauthenticated) or abort the handshake.
+"ko": |-
+  클라이언트가 인증서를 보내지 않는 경우(즉, 빈 인증서 메시지를 보내는 경우) 서버는 재량에 따라 클라이언트 인증 없이 핸드셰이크를 계속하거나 "certificate_required" 경고와 함께 핸드셰이크를 중단할 수 있습니다. 또한 인증서 체인의 일부 측면이 허용되지 않는 경우(예: 알려진 신뢰할 수 있는 CA에 의해 서명되지 않은 경우) 서버는 재량에 따라 핸드셰이크를 계속하거나(클라이언트가 인증되지 않은 것으로 간주하여) 핸드셰이크를 중단할 수 있습니다.

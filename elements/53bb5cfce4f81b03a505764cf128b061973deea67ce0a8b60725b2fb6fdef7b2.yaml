@@ -1,0 +1,22 @@
+"hash": |-
+  53bb5cfce4f81b03a505764cf128b061973deea67ce0a8b60725b2fb6fdef7b2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: The source, instead of sending a packet directly to the
+        intended destination, sends it to an "onion routing proxy" that
+        builds an anonymous connection through several other "onion
+        routers" to the destination. The proxy defines a route through the
+        "onion routing network" by encapsulating the original payload in a
+        layered data packet called an "onion", in which each layer defines
+        the next hop in the route and each layer is also encrypted. Along
+        the route, each onion router that receives the onion peels off one
+        layer; decrypts that layer and reads from it the address of the
+        next onion router on the route; pads the remaining onion to some
+        constant size; and sends the padded onion to that next router.
+"fixed": |-
+  - Tutorial: The source, instead of sending a packet directly to the intended destination, sends it to an "onion routing proxy" that builds an anonymous connection through several other "onion routers" to the destination. The proxy defines a route through the "onion routing network" by encapsulating the original payload in a layered data packet called an "onion", in which each layer defines the next hop in the route and each layer is also encrypted. Along the route, each onion router that receives the onion peels off one layer; decrypts that layer and reads from it the address of the next onion router on the route; pads the remaining onion to some constant size; and sends the padded onion to that next router.
+"ko": |-
+  - 튜토리얼: 소스는 패킷을 의도한 대상으로 직접 보내는 대신 여러 다른 "어니언 라우터"를 통해 대상으로 익명 연결을 구축하는 "어니언 라우팅 프록시"로 패킷을 보냅니다. 프록시는 "어니언"이라는 계층화된 데이터 패킷에 원본 페이로드를 캡슐화하여 "어니언 라우팅 네트워크"를 통해 경로를 정의합니다. 여기서 각 계층은 경로의 다음 홉을 정의하고 각 계층도 암호화됩니다. 경로를 따라 양파를 받는 각 양파 라우터는 한 층씩 벗겨집니다. 해당 레이어를 해독하고 해당 레이어에서 경로에 있는 다음 양파 라우터의 주소를 읽습니다. 남은 양파를 일정한 크기로 채웁니다. 패딩 처리된 양파를 다음 라우터로 보냅니다.

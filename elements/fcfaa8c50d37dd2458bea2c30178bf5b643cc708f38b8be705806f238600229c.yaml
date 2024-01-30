@@ -1,0 +1,18 @@
+"hash": |-
+  fcfaa8c50d37dd2458bea2c30178bf5b643cc708f38b8be705806f238600229c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The algorithm field MUST be of a type advertised by the server in the
+     "signature_algorithms" extension of the CertificateRequest message,
+     and the dc_cert_verify_algorithm field MUST be of a type advertised
+     by the server in the SignatureSchemeList; otherwise, the credential
+     is considered not valid.  Servers that receive non-valid delegated
+     credentials MUST terminate the connection with an "illegal_parameter"
+     alert.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  617b7da631b933d8ac49b3fb36741f4235299921b8b0ec41236695cf7e54beef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          At this point, an attempt is made to match the source of the
+          Hello Packet to one of the receiving interface's neighbors.  If
+          the receiving interface connects to a broadcast, Point-to-
+          MultiPoint or NBMA network the source is identified by the IP
+          source address found in the Hello's IP header.  If the receiving
+          interface connects to a point-to-point link or a virtual link,
+          the source is identified by the Router ID found in the Hello's
+          OSPF packet header.  The interface's current list of neighbors
+          is contained in the interface's data structure.  If a matching
+          neighbor structure cannot be found, (i.e., this is the first
+          time the neighbor has been detected), one is created.  The
+          initial state of a newly created neighbor is set to Down.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,29 @@
+"hash": |-
+  ae788ceb1214920acde70ee124760bfdf9ce10f8d436e2a84e6069edde20e6a3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      IMPORTS
+      Unsigned32, Counter64, MODULE-IDENTITY, OBJECT-TYPE,
+      OBJECT-IDENTITY, zeroDotZero, mib-2
+           FROM SNMPv2-SMI
+      TEXTUAL-CONVENTION, RowStatus, RowPointer,
+      StorageType, AutonomousType
+           FROM SNMPv2-TC
+      MODULE-COMPLIANCE, OBJECT-GROUP
+           FROM SNMPv2-CONF
+      ifIndex, InterfaceIndexOrZero
+          FROM IF-MIB
+      InetAddressType, InetAddress, InetAddressPrefixLength,
+      InetPortNumber
+          FROM INET-ADDRESS-MIB
+      BurstSize
+          FROM INTEGRATED-SERVICES-MIB
+      Dscp, DscpOrAny
+          FROM DIFFSERV-DSCP-TC;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

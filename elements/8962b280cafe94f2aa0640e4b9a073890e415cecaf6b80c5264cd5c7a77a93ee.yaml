@@ -1,0 +1,20 @@
+"hash": |-
+  8962b280cafe94f2aa0640e4b9a073890e415cecaf6b80c5264cd5c7a77a93ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon completion of the TLS handshake, the SMTP protocol is reset to
+     the initial state (the state in SMTP after a server issues a 220
+     service ready greeting).  The server MUST discard any knowledge
+     obtained from the client, such as the argument to the EHLO command,
+     which was not obtained from the TLS negotiation itself.  The client
+     MUST discard any knowledge obtained from the server, such as the list
+     of SMTP service extensions, which was not obtained from the TLS
+     negotiation itself.  The client SHOULD send an EHLO command as the
+     first command after a successful TLS negotiation.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

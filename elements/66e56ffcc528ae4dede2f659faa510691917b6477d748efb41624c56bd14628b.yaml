@@ -1,0 +1,44 @@
+"hash": |-
+  66e56ffcc528ae4dede2f659faa510691917b6477d748efb41624c56bd14628b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +----------------+--------------------------------------------------+
+     | obsolete rule  | translation                                      |
+     +----------------+--------------------------------------------------+
+     | absoluteURI    | absolute-URI                                     |
+     | relativeURI    | relative-part [ "?" query ]                      |
+     | hier_part      | ( "//" authority path-abempty /                  |
+     |                | path-absolute ) [ "?" query ]                    |
+     |                |                                                  |
+     | opaque_part    | path-rootless [ "?" query ]                      |
+     | net_path       | "//" authority path-abempty                      |
+     | abs_path       | path-absolute                                    |
+     | rel_path       | path-rootless                                    |
+     | rel_segment    | segment-nz-nc                                    |
+     | reg_name       | reg-name                                         |
+     | server         | authority                                        |
+     | hostport       | host [ ":" port ]                                |
+     | hostname       | reg-name                                         |
+     | path_segments  | path-abempty                                     |
+     | param          | *<pchar excluding ";">                           |
+     |                |                                                  |
+     | uric           | unreserved / pct-encoded / ";" / "?" / ":"       |
+     |                |  / "@" / "&" / "=" / "+" / "$" / "," / "/"       |
+     |                |                                                  |
+     | uric_no_slash  | unreserved / pct-encoded / ";" / "?" / ":"       |
+     |                |  / "@" / "&" / "=" / "+" / "$" / ","             |
+     |                |                                                  |
+     | mark           | "-" / "_" / "." / "!" / "~" / "*" / "'"          |
+     |                |  / "(" / ")"                                     |
+     |                |                                                  |
+     | escaped        | pct-encoded                                      |
+     | hex            | HEXDIG                                           |
+     | alphanum       | ALPHA / DIGIT                                    |
+     +----------------+--------------------------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

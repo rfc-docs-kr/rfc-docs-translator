@@ -1,0 +1,23 @@
+"hash": |-
+  c994a27a56b77389ee188c3478aec6f72636ec6e109de4de0e5c3442f936eb22
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              DISCUSSION:
+                   Some Internet protocol experts have maintained that
+                   when a host sends an identical copy of an earlier
+                   datagram, the new copy should contain the same
+                   Identification value as the original.  There are two
+                   suggested advantages:  (1) if the datagrams are
+                   fragmented and some of the fragments are lost, the
+                   receiver may be able to reconstruct a complete datagram
+                   from fragments of the original and the copies; (2) a
+                   congested gateway might use the IP Identification field
+                   (and Fragment Offset) to discard duplicate datagrams
+                   from the queue.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

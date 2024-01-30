@@ -1,0 +1,19 @@
+"hash": |-
+  10430fedd84cc1e3563e56c22d456c8389a3b516184ff2145bc7de6d98fa1d64
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The first change is to step 4 in Section 13. Now MaxAge LSAs are
+          acknowledged and then discarded only when both a) there is no
+          database copy of the LSA and b) none of router's neighbors are
+          in states Exchange or Loading. In all other cases, the MaxAge
+          LSA is processed like any other LSA, installing the LSA in the
+          database and flooding it out the appropriate interfaces when the
+          LSA is more recent than the database copy (Step 5 of Section
+          13). This change also affects the contents of Table 19.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

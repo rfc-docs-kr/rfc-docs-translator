@@ -1,0 +1,20 @@
+"hash": |-
+  25db3f46a8ffa6dd816b4940eb034d7744aa2c14a2e048e19fac4c3dd077ec75
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One of the risks of deploying a short-lived credential system based
+     on absolute time is client clock skew.  If a client's clock is
+     sufficiently ahead of or behind the server's clock, then clients will
+     reject delegated credentials that are valid from the server's
+     perspective.  Clock skew also affects the validity of the original
+     certificates.  The lifetime of the delegated credential should be set
+     taking clock skew into account.  Clock skew may affect a delegated
+     credential at the beginning and end of its validity periods, which
+     should also be taken into account.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

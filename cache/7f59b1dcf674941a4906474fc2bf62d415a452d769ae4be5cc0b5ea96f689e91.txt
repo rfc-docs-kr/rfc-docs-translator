@@ -1,0 +1,1 @@
+   NFSv4.1이 지정되었을 때 HMAC-SHA1을 사용한 AES(Advanced Encryption Standard)는 Kerberos V5에 대해 필수 알고리즘 세트였습니다. 대조적으로 NFSv4.0이 지정되면 Kerberos V5에는 더 약한 알고리즘 세트가 필수이고 NFSv4.0 사양에서는 필수였습니다. 그 이유는 당시 Kerberos V5 사양이 더 강력한 알고리즘을 지정하지 않았기 때문입니다. NFSv4.1 사양은 Kerberos V5에 대한 필수 알고리즘을 지정하지 않으며 대신 더 강력한 알고리즘이 지정된 경우 구현자는 Kerberos V5 표준의 발전을 추적할 것으로 예상됩니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  fe734195ffa6d9ed73baa228176332931566069f9b7948336e80499dd08178d4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           none:  The target datastore is unaffected by the configuration
+              in the <config> parameter, unless and until the incoming
+              configuration data uses the "operation" attribute to request
+              a different operation.  If the configuration in the <config>
+              parameter contains data for which there is not a
+              corresponding level in the target datastore, an <rpc-error>
+              is returned with an <error-tag> value of data-missing.
+              Using "none" allows operations like "delete" to avoid
+              unintentionally creating the parent hierarchy of the element
+              to be deleted.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

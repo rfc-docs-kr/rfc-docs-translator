@@ -1,0 +1,17 @@
+"hash": |-
+  2e644491833fefc9d930d09565c60e443f717e67ee72f5c2fb1d41cb78c5b311
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Poly1305 key MUST be unpredictable to an attacker.  Randomly
+     generating the key would fulfill this requirement, except that
+     Poly1305 is often used in communications protocols, so the receiver
+     should know the key.  Pseudorandom number generation such as by
+     encrypting a counter is acceptable.  Using ChaCha with a secret key
+     and a nonce is also acceptable.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

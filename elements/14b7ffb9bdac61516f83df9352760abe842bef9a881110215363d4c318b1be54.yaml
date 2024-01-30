@@ -1,0 +1,21 @@
+"hash": |-
+  14b7ffb9bdac61516f83df9352760abe842bef9a881110215363d4c318b1be54
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Router-LSAs and network-LSAs
+              The entire routing table must be recalculated, starting with
+              the shortest path calculations for each area (not just the
+              area whose link-state database has changed).  The reason
+              that the shortest path calculation cannot be restricted to
+              the single changed area has to do with the fact that AS
+              boundary routers may belong to multiple areas.  A change in
+              the area currently providing the best route may force the
+              router to use an intra-area route provided by a different
+              area.[19]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

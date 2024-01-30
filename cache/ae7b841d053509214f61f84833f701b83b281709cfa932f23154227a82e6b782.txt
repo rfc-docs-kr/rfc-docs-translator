@@ -1,0 +1,1 @@
+   iSCSI 대상 구현이 TaskReporting=FastAbort 기능(섹션 13.23)을 지원할 수 있는 경우 일부 세션에서는 TaskReporting=RFC3720 작동(RFC 3720 세션)이 있는 반면 일부 다른 세션에서는 TaskReporting=FastAbort 작동(FastAbort 세션)이 있는 상황이 발생할 수 있습니다. ) 영향을 받는 작업의 공유 세트에 액세스하는 동안에도 마찬가지입니다(섹션 4.2.3.2). 발급 세션이 RFC 3720 세션이고 iSCSI 대상 구현이 FastAbort 가능하며 영향을 받는 타사 세션이 FastAbort 세션인 경우 iSCSI 대상 계층에서 다음 동작이 나타나야 합니다.

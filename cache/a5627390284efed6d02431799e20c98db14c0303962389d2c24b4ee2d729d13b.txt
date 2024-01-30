@@ -1,0 +1,1 @@
+   CREATE_SESSION은 동일한 COMPOUND 프로시저에서 선행 SEQUENCE 작업을 사용하거나 사용하지 않고 보낼 수 있습니다. CREATE_SESSION이 이전 SEQUENCE 작업과 함께 전송되는 경우 CREATE_SESSION에 의해 ​​생성된 모든 세션은 SEQUENCE 작업에 지정된 세션과 직접적인 관계가 없습니다. 단 두 세션은 동일한 클라이언트 ID와 연결될 수 있습니다. CREATE_SESSION이 선행 SEQUENCE 없이 전송되면 이는 COMPOUND 프로시저 요청의 유일한 작업이어야 합니다. 그렇지 않은 경우 서버는 NFS4ERR_NOT_ONLY_OP를 반환해야 합니다.

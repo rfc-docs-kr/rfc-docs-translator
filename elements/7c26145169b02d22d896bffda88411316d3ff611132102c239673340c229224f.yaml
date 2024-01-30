@@ -1,0 +1,17 @@
+"hash": |-
+  7c26145169b02d22d896bffda88411316d3ff611132102c239673340c229224f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When IKE is used to establish fresh keys between two peer entities,
+     separate keys are established for the two traffic flows.  If a
+     different mechanism is used to establish fresh keys (one that
+     establishes only a single key to encrypt packets), then there is a
+     high probability that the peers will select the same IV values for
+     some packets.  Thus, to avoid counter block collisions, ESP
+"fixed": |-
+  When IKE is used to establish fresh keys between two peer entities, separate keys are established for the two traffic flows.  If a different mechanism is used to establish fresh keys (one that establishes only a single key to encrypt packets), then there is a high probability that the peers will select the same IV values for some packets.  Thus, to avoid counter block collisions, ESP
+"ko": |-
+  IKE를 사용하여 두 피어 엔터티 간에 새로운 키를 설정하면 두 트래픽 흐름에 대해 별도의 키가 설정됩니다. 새로운 키(패킷을 암호화하기 위해 단일 키만 설정하는 키)를 설정하는 데 다른 메커니즘이 사용되는 경우 피어가 일부 패킷에 대해 동일한 IV 값을 선택할 가능성이 높습니다. 따라서 카운터 블록 충돌을 방지하기 위해 ESP

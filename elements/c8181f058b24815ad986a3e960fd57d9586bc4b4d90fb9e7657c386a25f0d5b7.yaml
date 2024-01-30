@@ -1,0 +1,18 @@
+"hash": |-
+  c8181f058b24815ad986a3e960fd57d9586bc4b4d90fb9e7657c386a25f0d5b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This call causes the data contained in the indicated user buffer to
+     be sent on the indicated connection.  If the connection has not been
+     opened, the SEND is considered an error.  Some implementations may
+     allow users to SEND first; in which case, an automatic OPEN would be
+     done.  For example, this might be one way for application data to be
+     included in SYN segments.  If the calling process is not authorized
+     to use this connection, an error is returned.
+"fixed": |-
+  This call causes the data contained in the indicated user buffer to be sent on the indicated connection.  If the connection has not been opened, the SEND is considered an error.  Some implementations may allow users to SEND first; in which case, an automatic OPEN would be done.  For example, this might be one way for application data to be included in SYN segments.  If the calling process is not authorized to use this connection, an error is returned.
+"ko": |-
+  이 호출을 통해 표시된 사용자 버퍼에 포함된 데이터가 표시된 연결을 통해 전송됩니다. 연결이 열리지 않은 경우 SEND는 오류로 간주됩니다. 일부 구현에서는 사용자가 먼저 SEND를 수행하도록 허용할 수 있습니다. 이 경우 자동 OPEN이 수행됩니다. 예를 들어, 이는 애플리케이션 데이터가 SYN 세그먼트에 포함되는 한 가지 방법일 수 있습니다. 호출 프로세스에 이 연결을 사용할 권한이 없으면 오류가 반환됩니다.

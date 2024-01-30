@@ -1,0 +1,22 @@
+"hash": |-
+  8a191411a06bfe2c651d978467699626cbd37db34ac7917f03786e6694750d4f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Commands between the Media Gateway Controller and the Media Gateway
+     are grouped into Transactions, each of which is identified by a
+     TransactionID.  Transactions consist of one or more Actions.  An
+     Action consists of a series of Commands that are limited to operating
+     within a single Context.   Consequently each Action typically
+     specifies a ContextID.  However, there are two circumstances where a
+     specific ContextID is not provided with an Action.  One is the case
+     of modification of a Termination outside of a Context.  The other is
+     where the controller requests the gateway to create a new Context.
+     Following is a graphic representation of the Transaction, Action and
+     Command relationships.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

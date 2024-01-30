@@ -1,0 +1,18 @@
+"hash": |-
+  85fef0d3e68f39d0b541878b236d67a9e22edaeef770d401f7cce4f831740315
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The size of restart intervals SHOULD be chosen to always allow an
+     integral number of restart intervals to fit within a single packet.
+     This will guarantee that packets can be decoded independently from
+     one another.  If a restart interval ends up being larger than a
+     packet, the F and L bits in the Restart Marker header can be used to
+     fragment it, but the resulting set of packets must all be received by
+     a decoder for that restart interval to be decoded properly.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

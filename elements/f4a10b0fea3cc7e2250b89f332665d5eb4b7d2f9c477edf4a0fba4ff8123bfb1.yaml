@@ -1,0 +1,19 @@
+"hash": |-
+  f4a10b0fea3cc7e2250b89f332665d5eb4b7d2f9c477edf4a0fba4ff8123bfb1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Compared to UDP-based ICE, ICE TCP has, in general, lower success
+     probability for enabling connectivity without a relay if both of the
+     hosts are behind a NAT.  This happens because many of the currently
+     deployed NATs have endpoint-dependent mapping behavior, or they do
+     not support the flow of TCP handshake packets seen in the case of TCP
+     simultaneous-open, e.g., some NATs do not allow incoming TCP SYN
+     packets from an address where a SYN packet has been sent to recently
+     or the subsequent SYN-ACK is not processed properly.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

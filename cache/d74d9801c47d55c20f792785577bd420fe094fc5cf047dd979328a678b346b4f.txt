@@ -1,0 +1,1 @@
+   o 응답자는 SEQUENCE 또는 CB_SEQUENCE 작업에 대한 원래 결과와 NFS4ERR_RETRY_UNCACHED_REP 오류가 있는 COMPOUND 또는 CB_COMPOUND의 다음 작업으로 구성된 응답을 응답 캐시에 입력합니다. 따라서 요청자가 나중에 요청을 재시도하면 NFS4ERR_RETRY_UNCACHED_REP를 얻게 됩니다. 응답자가 COMPOUND 또는 CB_COMPOUND에 대한 응답이 캐시되지 않은 재시도된 Sequence 작업을 수신하는 경우 응답자는 다음과 같습니다.

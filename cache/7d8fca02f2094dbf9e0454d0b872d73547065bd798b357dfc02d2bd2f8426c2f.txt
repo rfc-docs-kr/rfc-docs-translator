@@ -1,0 +1,1 @@
+   - 서버가 상태를 클라이언트로 오프로드하도록 허용하여 상태를 저장하지 않고 HelloRetryRequest를 보낼 수 있습니다. 서버는 HelloRetryRequest 쿠키(일부 적절한 무결성 보호 알고리즘으로 보호됨)에 ClientHello의 해시를 저장하여 이를 수행할 수 있습니다.

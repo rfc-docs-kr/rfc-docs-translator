@@ -1,0 +1,30 @@
+"hash": |-
+  89427a118d277678e47f9b39a7788023f05a9299387a72d78882358a0522beee
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                        ipno/bits  An IP number as above with a mask
+                                   width of the form 192.0.2.10/24.  In
+                                   this case, all IP numbers from
+                                   192.0.2.0 to 192.0.2.255 will match.
+                                   The bit width MUST be valid for the
+                                   IP version, and the IP number MUST
+                                   NOT have bits set beyond the mask.
+                                   For a match to occur, the same IP
+                                   version must be present in the
+                                   packet that was used in describing
+                                   the IP address.  To test for a
+                                   particular IP version, the bits part
+                                   can be set to zero.  The keyword
+                                   "any" is 0.0.0.0/0 or the IPv6
+                                   equivalent.  The keyword "assigned"
+                                   is the address or set of addresses
+                                   assigned to the terminal.  For IPv4,
+                                   a typical first rule is often "deny
+                                   in ip! assigned".
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

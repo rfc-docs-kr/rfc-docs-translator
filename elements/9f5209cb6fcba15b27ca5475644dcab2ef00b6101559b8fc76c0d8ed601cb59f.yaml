@@ -1,0 +1,16 @@
+"hash": |-
+  9f5209cb6fcba15b27ca5475644dcab2ef00b6101559b8fc76c0d8ed601cb59f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        When a NETCONF server receives a <close-session> request, it will
+        gracefully close the session.  The server will release any locks
+        and resources associated with the session and gracefully close any
+        associated connections.  Any NETCONF requests received after a
+        <close-session> request will be ignored.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

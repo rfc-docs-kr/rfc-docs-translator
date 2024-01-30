@@ -1,0 +1,18 @@
+"hash": |-
+  086e6f21a3d52da4c545141fc171a8243c617331e042a2b621d080793a77c559
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      [13]When two LSAs have different LS checksums, they are assumed to
+      be separate instances.  This can occur when a router restarts, and
+      loses track of the LSA's previous LS sequence number.  In the case
+      where the two LSAs have the same LS sequence number, it is not
+      possible to determine which LSA is actually newer.  However, if the
+      wrong LSA is accepted as newer, the originating router will simply
+      originate another instance.  See Section 13.4 for further details.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

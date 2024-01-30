@@ -1,0 +1,17 @@
+"hash": |-
+  4bc8fbd6c42869741fb2fc8783db25097906783f3d3e42d83cfc6088391cfe5f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     struct {
+        opaque nonce_explicit[SecurityParameters.record_iv_length];
+        aead-ciphered struct {
+            opaque content[TLSCompressed.length];
+        };
+     } GenericAEADCipher;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

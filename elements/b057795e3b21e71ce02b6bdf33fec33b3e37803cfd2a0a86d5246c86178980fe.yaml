@@ -1,0 +1,17 @@
+"hash": |-
+  b057795e3b21e71ce02b6bdf33fec33b3e37803cfd2a0a86d5246c86178980fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because reusing an nonce/key combination destroys the security
+     guarantees of AES-GCM mode, it can be difficult to use this mode
+     securely when using statically configured keys.  For safety's sake,
+     implementations MUST use an automated key management system, such as
+     the Internet Key Exchange (IKE) [RFC2409], to ensure that this
+     requirement is met.
+"fixed": |-
+  Because reusing an nonce/key combination destroys the security guarantees of AES-GCM mode, it can be difficult to use this mode securely when using statically configured keys.  For safety's sake, implementations MUST use an automated key management system, such as the Internet Key Exchange (IKE) [RFC2409], to ensure that this requirement is met.
+"ko": |-
+  nonce/키 조합을 재사용하면 AES-GCM 모드의 보안 보장이 파괴되므로 정적으로 구성된 키를 사용할 때 이 모드를 안전하게 사용하기 어려울 수 있습니다. 안전을 위해 구현에서는 IKE(인터넷 키 교환) [RFC2409]와 같은 자동화된 키 관리 시스템을 사용하여 이 요구 사항이 충족되는지 확인해야 합니다.

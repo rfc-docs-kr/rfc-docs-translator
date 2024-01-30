@@ -1,0 +1,19 @@
+"hash": |-
+  975a880373dceedad6bd31899b2b9c5d5e225dd97964411351503126bd23d9cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that in principle it is possible to continue issuing new tickets
+     which indefinitely extend the lifetime of the keying material
+     originally derived from an initial non-PSK handshake (which was most
+     likely tied to the peer's certificate).  It is RECOMMENDED that
+     implementations place limits on the total lifetime of such keying
+     material; these limits should take into account the lifetime of the
+     peer's certificate, the likelihood of intervening revocation, and the
+     time since the peer's online CertificateVerify signature.
+"fixed": |-
+  Note that in principle it is possible to continue issuing new tickets which indefinitely extend the lifetime of the keying material originally derived from an initial non-PSK handshake (which was most likely tied to the peer's certificate).  It is RECOMMENDED that implementations place limits on the total lifetime of such keying material; these limits should take into account the lifetime of the peer's certificate, the likelihood of intervening revocation, and the time since the peer's online CertificateVerify signature.
+"ko": |-
+  원칙적으로 초기 비PSK 핸드셰이크(피어 인증서에 연결되었을 가능성이 높음)에서 원래 파생된 키 자료의 수명을 무기한 연장하는 새 티켓을 계속 발행하는 것이 가능합니다. 구현 시 이러한 키 자료의 전체 수명에 제한을 두는 것이 권장됩니다. 이러한 제한은 피어 인증서의 수명, 해지 개입 가능성 및 피어의 온라인 CertificateVerify 서명 이후의 시간을 고려해야 합니다.

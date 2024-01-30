@@ -1,0 +1,15 @@
+"hash": |-
+  be14fb211d0a6aed30c67989ee65de0f8554bad5e44b02a85012c0f058ae113a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An implementation SHOULD send a keep-alive segment with no data
+     (SHLD-12); however, it MAY be configurable to send a keep-alive
+     segment containing one garbage octet (MAY-6), for compatibility with
+     erroneous TCP implementations.
+"fixed": |-
+  An implementation SHOULD send a keep-alive segment with no data (SHLD-12); however, it MAY be configurable to send a keep-alive segment containing one garbage octet (MAY-6), for compatibility with erroneous TCP implementations.
+"ko": |-
+  구현은 데이터가 없는 연결 유지 세그먼트(SHLD-12)를 보내야 합니다. 그러나 잘못된 TCP 구현과의 호환성을 위해 하나의 가비지 옥텟(MAY-6)을 포함하는 연결 유지 세그먼트를 보내도록 구성할 수 있습니다.

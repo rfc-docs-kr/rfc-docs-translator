@@ -1,0 +1,1 @@
+   요청의 쿠키 필드가 0(디렉터리의 첫 번째 읽기)인 경우 요청의 cookieverf 필드는 0(영)으로 설정되어야 합니다. 후속 요청에서 cookieverf 필드는 쿠키를 획득한 READDIR에서 반환한 cookieverf와 일치해야 합니다. 서버가 cookieverf가 더 이상 해당 디렉터리에 유효하지 않다고 판단하면 NFS4ERR_NOT_SAME 오류가 반환되어야 합니다.

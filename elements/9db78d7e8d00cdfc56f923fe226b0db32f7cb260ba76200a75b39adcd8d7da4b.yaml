@@ -1,0 +1,15 @@
+"hash": |-
+  9db78d7e8d00cdfc56f923fe226b0db32f7cb260ba76200a75b39adcd8d7da4b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  Servers MAY send data after sending their first flight, but
+         because the handshake is not yet complete, they have no assurance
+         of either the peer's identity or its liveness (i.e., the
+         ClientHello might have been replayed).
+"fixed": |-
+  1.  Servers MAY send data after sending their first flight, but because the handshake is not yet complete, they have no assurance of either the peer's identity or its liveness (i.e., the ClientHello might have been replayed).
+"ko": |-
+  1. 서버는 첫 번째 비행을 보낸 후 데이터를 보낼 수 있지만 핸드셰이크가 아직 완료되지 않았기 때문에 피어의 신원이나 활성 상태를 보장할 수 없습니다(예: ClientHello가 재생되었을 수 있음).

@@ -1,0 +1,19 @@
+"hash": |-
+  6024b34a8aaab3a3d2783c14d1cf3ce9b95fa7ce56b83dbc5ef6e74b043fe1c9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                  if (q >= 128 && jpghdr.off == 0) {
+                          memcpy(ptr, &qtblhdr, sizeof(qtblhdr));
+                          ptr += sizeof(qtblhdr);
+                          memcpy(ptr, lqt, 64);
+                          ptr += 64;
+                          memcpy(ptr, cqt, 64);
+                          ptr += 64;
+                  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

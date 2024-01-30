@@ -1,0 +1,18 @@
+"hash": |-
+  3b71b3717a93341ab4a46affe5670607afc0de3aced8159c89cc7f929ad6a9e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Where keying material for the lower layer ciphersuite is itself
+     provided by EAP, ciphersuite negotiation and key activation are
+     controlled by the lower layer.  In PPP, ciphersuites are negotiated
+     within ECP so that it is not possible to use keys derived from EAP
+     authentication until the completion of ECP.  Therefore, an initial
+     EAP exchange cannot be protected by a PPP ciphersuite, although EAP
+     re-authentication can be protected.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

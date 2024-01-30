@@ -1,0 +1,15 @@
+"hash": |-
+  153a380a0e2ba32c2492935adb4401aca9eaf8a577c46cb0ab219af4df5455bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  If the CertificateRequest message contained a non-empty
+        "oid_filters" extension, the end-entity certificate MUST match the
+        extension OIDs that are recognized by the client, as described in
+        Section 4.2.5.
+"fixed": |-
+  -  If the CertificateRequest message contained a non-empty "oid_filters" extension, the end-entity certificate MUST match the extension OIDs that are recognized by the client, as described in Section 4.2.5.
+"ko": |-
+  - CertificateRequest 메시지에 비어 있지 않은 "oid_filters" 확장이 포함된 경우 최종 엔터티 인증서는 섹션 4.2.5에 설명된 대로 클라이언트가 인식하는 확장 OID와 일치해야 합니다.

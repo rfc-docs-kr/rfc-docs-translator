@@ -1,0 +1,17 @@
+"hash": |-
+  0fd1d271f9c7e084bfb32b7698ea4c4e01f7ece286be94cdbe505a5d1bb3c488
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        Wait-Conn-Ack/   I-Rcv-Conn-Ack   I-Snd-CER,Elect  Wait-Returns
+        Elect            I-Rcv-Conn-Nack  R-Snd-CEA        R-Open
+                         R-Peer-Disc      R-Disc           Wait-Conn-Ack
+                         R-Conn-CER       R-Reject         Wait-Conn-Ack/
+                                                           Elect
+                         Timeout          Error            Closed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

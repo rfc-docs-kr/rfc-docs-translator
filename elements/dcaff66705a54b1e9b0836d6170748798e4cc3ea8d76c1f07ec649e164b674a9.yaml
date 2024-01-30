@@ -1,0 +1,20 @@
+"hash": |-
+  dcaff66705a54b1e9b0836d6170748798e4cc3ea8d76c1f07ec649e164b674a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A CER message is always sent on the initiating connection immediately
+     after the connection request is successfully completed.  In the case
+     of an election, one of the two connections will shut down.  The
+     responder connection will survive if the Origin-Host of the local
+     Diameter entity is higher than that of the peer; the initiator
+     connection will survive if the peer's Origin-Host is higher.  All
+     subsequent messages are sent on the surviving connection.  Note that
+     the results of an election on one peer are guaranteed to be the
+     inverse of the results on the other.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

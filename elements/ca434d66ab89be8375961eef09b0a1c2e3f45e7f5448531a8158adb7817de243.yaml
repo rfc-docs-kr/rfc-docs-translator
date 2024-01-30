@@ -1,0 +1,24 @@
+"hash": |-
+  ca434d66ab89be8375961eef09b0a1c2e3f45e7f5448531a8158adb7817de243
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation note: Canvel et al. [CBCTIME] have demonstrated a
+     timing attack on CBC padding based on the time required to compute
+     the MAC.  In order to defend against this attack, implementations
+     MUST ensure that record processing time is essentially the same
+     whether or not the padding is correct.  In general, the best way to
+     do this is to compute the MAC even if the padding is incorrect, and
+     only then reject the packet.  For instance, if the pad appears to be
+     incorrect, the implementation might assume a zero-length pad and then
+     compute the MAC.  This leaves a small timing channel, since MAC
+     performance depends to some extent on the size of the data fragment,
+     but it is not believed to be large enough to be exploitable, due to
+     the large block size of existing MACs and the small size of the
+     timing signal.
+"fixed": |-
+  Implementation note: Canvel et al. [CBCTIME] have demonstrated a timing attack on CBC padding based on the time required to compute the MAC.  In order to defend against this attack, implementations MUST ensure that record processing time is essentially the same whether or not the padding is correct.  In general, the best way to do this is to compute the MAC even if the padding is incorrect, and only then reject the packet.  For instance, if the pad appears to be incorrect, the implementation might assume a zero-length pad and then compute the MAC.  This leaves a small timing channel, since MAC performance depends to some extent on the size of the data fragment, but it is not believed to be large enough to be exploitable, due to the large block size of existing MACs and the small size of the timing signal.
+"ko": |-
+  구현 참고 사항: Canvel et al. [CBCTIME]은 MAC 계산에 필요한 시간을 기반으로 CBC 패딩에 대한 타이밍 공격을 시연했습니다. 이 공격을 방어하기 위해 구현에서는 패딩이 올바른지 여부에 관계없이 레코드 처리 시간이 본질적으로 동일하도록 보장해야 합니다. 일반적으로 이를 수행하는 가장 좋은 방법은 패딩이 잘못된 경우에도 MAC를 계산한 다음 패킷을 거부하는 것입니다. 예를 들어 패드가 잘못된 것으로 나타나면 구현에서는 길이가 0인 패드를 가정한 다음 MAC를 계산할 수 있습니다. MAC 성능은 데이터 조각의 크기에 어느 정도 좌우되기 때문에 작은 타이밍 채널이 남지만, 기존 MAC의 블록 크기가 크고 MAC의 크기가 작기 때문에 활용할 수 있을 만큼 크지는 않은 것으로 보입니다. 타이밍 신호.

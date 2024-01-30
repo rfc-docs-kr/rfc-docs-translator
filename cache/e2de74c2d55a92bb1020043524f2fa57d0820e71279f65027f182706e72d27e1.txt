@@ -1,0 +1,3 @@
+   DIAMETER_NO_COMMON_SECURITY 5017
+
+- 이 오류는 CER 메시지가 수신될 때 반환되며 피어 간에 지원되는 공통 보안 메커니즘이 없습니다. CEA(Capability-Exchange-Answer)는 DIAMETER_NO_COMMON_SECURITY로 설정된 결과 코드 AVP와 함께 반환되어야 합니다.

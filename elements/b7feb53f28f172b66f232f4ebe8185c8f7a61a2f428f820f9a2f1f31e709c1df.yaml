@@ -1,0 +1,29 @@
+"hash": |-
+  b7feb53f28f172b66f232f4ebe8185c8f7a61a2f428f820f9a2f1f31e709c1df
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        device faults will presumably be rare events, so this approach
+        represents a substantial optimization of the duplicate detection
+        process.  During failover, it is possible for the original record
+        to be received after the T-flag-marked record, due to differences
+        in network delays experienced along the path by the original and
+        duplicate transmissions.  The likelihood of this occurring
+        increases as the failover interval is decreased.  In order to be
+        able to detect duplicates that are out of order, the Diameter
+        server should use backward and forward time windows when
+        performing duplicate checking for the T-flag-marked request.  For
+        example, in order to allow time for the original record to exit
+        the network and be recorded by the accounting server, the Diameter
+        server can delay processing records with the T flag set until a
+        time period TIME_WAIT + RECORD_PROCESSING_TIME has elapsed after
+        the closing of the original transport connection.  After this time
+        period, it may check the T-flag-marked records against the
+        database with relative assurance that the original records, if
+        sent, have been received and recorded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

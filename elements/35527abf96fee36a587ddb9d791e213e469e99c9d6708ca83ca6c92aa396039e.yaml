@@ -1,0 +1,22 @@
+"hash": |-
+  35527abf96fee36a587ddb9d791e213e469e99c9d6708ca83ca6c92aa396039e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If we assume that incoming traffic (coming from outside of MBII,
+        with a destination within MBII) is always to enter via the nearest
+        point to the destination, then each TRD which has a connection to
+        MBII needs to announce to other TRDs the ability to reach only
+        those parts of MBII whose address is taken from its own address
+        space. This implies that no additional routing information needs
+        to be exchanged between TRDs, resulting in a smaller load on the
+        inter-domain routing tables maintained by TRDs when compared to
+        the first solution. This solution therefore scales better to
+        extremely large internets containing very large numbers of multi-
+        homed organizations.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

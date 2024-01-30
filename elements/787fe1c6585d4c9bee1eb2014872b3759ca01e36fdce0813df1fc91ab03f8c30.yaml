@@ -1,0 +1,15 @@
+"hash": |-
+  787fe1c6585d4c9bee1eb2014872b3759ca01e36fdce0813df1fc91ab03f8c30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Error handling in TLS is very simple.  When an error is detected, the
+     detecting party sends a message to its peer.  Upon transmission or
+     receipt of a fatal alert message, both parties MUST immediately close
+     the connection.
+"fixed": |-
+  Error handling in TLS is very simple.  When an error is detected, the detecting party sends a message to its peer.  Upon transmission or receipt of a fatal alert message, both parties MUST immediately close the connection.
+"ko": |-
+  TLS의 오류 처리는 매우 간단합니다. 오류가 감지되면 감지 당사자는 피어에게 메시지를 보냅니다. 치명적인 경고 메시지를 전송하거나 수신하면 양 당사자는 즉시 연결을 종료해야 합니다.

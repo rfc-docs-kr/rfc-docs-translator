@@ -1,0 +1,1 @@
+   PKCS#8 [RFC5208] 및 비대칭 키 패키지 [RFC5958]는 암호화된 개인 키를 인코딩합니다. 다음은 KDF로 scrypt와 함께 PBES2를 사용하는 경우 PKCS#8로 인코딩된 개인 키의 예를 보여줍니다. 비밀번호는 N=1048576, r=8, p=1인 "Rabbit"(따옴표 제외)입니다. 솔트는 "Mouse"이고 사용된 암호화 알고리즘은 aes256-CBC입니다. 파생된 키는 E2 77 EA 2C AC B2 3E DA-FC 03 9D 22 9B 79 DC 13 EC ED B6 01 D9 9B 18 2A-9F ED BA 1E 2B FB 4F 58입니다.

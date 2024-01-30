@@ -1,0 +1,20 @@
+"hash": |-
+  aeab93bef70ba5d3e5261c594638f2264fd695f1a00b2f0c81d750453716aef7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "supported_versions" extension is used by the client to indicate
+     which versions of TLS it supports and by the server to indicate which
+     version it is using.  The extension contains a list of supported
+     versions in preference order, with the most preferred version first.
+     Implementations of this specification MUST send this extension in the
+     ClientHello containing all versions of TLS which they are prepared to
+     negotiate (for this specification, that means minimally 0x0304, but
+     if previous versions of TLS are allowed to be negotiated, they MUST
+     be present as well).
+"fixed": |-
+  The "supported_versions" extension is used by the client to indicate which versions of TLS it supports and by the server to indicate which version it is using.  The extension contains a list of supported versions in preference order, with the most preferred version first. Implementations of this specification MUST send this extension in the ClientHello containing all versions of TLS which they are prepared to negotiate (for this specification, that means minimally 0x0304, but if previous versions of TLS are allowed to be negotiated, they MUST be present as well).
+"ko": |-
+  "supported_versions" 확장은 클라이언트가 지원하는 TLS 버전을 나타내고 서버가 사용 중인 버전을 나타내는 데 사용됩니다. 확장에는 지원되는 버전 목록이 기본 설정 순서대로 포함되어 있으며 가장 선호하는 버전이 먼저 표시됩니다. 이 사양의 구현은 협상할 준비가 된 모든 버전의 TLS를 포함하는 ClientHello에서 이 확장을 보내야 합니다(이 사양의 경우 최소 0x0304를 의미하지만 이전 버전의 TLS가 협상되도록 허용된 경우 해당 버전도 있어야 합니다). ).

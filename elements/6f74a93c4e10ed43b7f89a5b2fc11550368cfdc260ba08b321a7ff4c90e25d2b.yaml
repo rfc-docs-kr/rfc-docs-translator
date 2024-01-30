@@ -1,0 +1,24 @@
+"hash": |-
+  6f74a93c4e10ed43b7f89a5b2fc11550368cfdc260ba08b321a7ff4c90e25d2b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Command ::= CHOICE
+     {
+          addReq                  AmmRequest,
+          moveReq                 AmmRequest,
+          modReq                  AmmRequest,
+          -- Add, Move, Modify requests have the same parameters
+          subtractReq             SubtractRequest,
+          auditCapRequest         AuditRequest,
+          auditValueRequest       AuditRequest,
+          notifyReq               NotifyRequest,
+          serviceChangeReq        ServiceChangeRequest,
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

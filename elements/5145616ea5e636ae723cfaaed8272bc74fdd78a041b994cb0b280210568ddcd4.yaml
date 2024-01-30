@@ -1,0 +1,20 @@
+"hash": |-
+  5145616ea5e636ae723cfaaed8272bc74fdd78a041b994cb0b280210568ddcd4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMaxRateId OBJECT-TYPE
+      SYNTAX       IndexInteger
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An index that enumerates the Maximum Rate Parameter entries.
+         Managers obtain new values for row creation in this table by
+         reading diffServMaxRateNextFree."
+      ::= { diffServMaxRateEntry 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

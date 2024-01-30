@@ -1,0 +1,19 @@
+"hash": |-
+  9b21fbe72bd83885a0bca9134ff0edaa5cca2ce8dd1383e8d4b121abd373f63d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        NOTE -- the RowPointer construct is used to connect the functional
+        data paths.  The [MODEL] describes these as TCBs, as an aid to
+        understanding.  This MIB, however, does not model TCBs directly.
+        It operates at a lower level of abstraction using only individual
+        elements, connected in succession by RowPointers.  Therefore, the
+        concept of TCBs enclosing individual Functional Data Path elements
+        is not directly applicable to this MIB, although management tools
+        that use this MIB may employ such a concept.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

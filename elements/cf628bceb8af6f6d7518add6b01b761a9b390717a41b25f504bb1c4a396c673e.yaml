@@ -1,0 +1,21 @@
+"hash": |-
+  cf628bceb8af6f6d7518add6b01b761a9b390717a41b25f504bb1c4a396c673e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The request contained an AVP with an invalid length.  A Diameter
+        message indicating this error MUST include the offending AVPs
+        within a Failed-AVP AVP.  In cases where the erroneous AVP length
+        value exceeds the message length or is less than the minimum AVP
+        header length, it is sufficient to include the offending AVP
+        header and a zero filled payload of the minimum required length
+        for the payloads data type.  If the AVP is a Grouped AVP, the
+        Grouped AVP header with an empty payload would be sufficient to
+        indicate the offending AVP.  In the case where the offending AVP
+        header cannot be fully decoded when the AVP length is less than
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

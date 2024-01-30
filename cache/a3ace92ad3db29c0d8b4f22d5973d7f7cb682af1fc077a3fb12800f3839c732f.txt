@@ -1,0 +1,1 @@
+   일부 REQUIRED 및 RECOMMENDED 속성은 설정 전용입니다. 즉, SETATTR을 통해 설정할 수 있지만 GETATTR을 통해 검색할 수는 없습니다. 마찬가지로 일부 REQUIRED 및 RECOMMENDED 속성은 가져오기 전용입니다. 즉, GETATTR을 통해 검색할 수 있지만 SETATTR을 통해 설정할 수는 없습니다. 클라이언트가 get-only 속성을 설정하거나 set-only 속성을 얻으려고 시도하는 경우 서버는 NFS4ERR_INVAL을 반환해야 합니다.

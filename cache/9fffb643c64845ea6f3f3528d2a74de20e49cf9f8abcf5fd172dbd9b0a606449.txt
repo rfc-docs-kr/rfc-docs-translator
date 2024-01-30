@@ -1,0 +1,1 @@
+   QPIM에서 취한 접근 방식은 특히 PolicyRule 클래스를 하위 클래스로 분류하지 않았습니다. 오히려 [PCIMe]에 정의된 SimplePolicyCondition,CompoundPolicyCondition,SimplePolicyAction 및CompoundPolicyAction 클래스를 사용하고 Policy, PolicyAction, SimplePolicyAction, PolicyImplicitVariable 및 PolicyValue 클래스의 하위 클래스를 정의합니다. PolicyRule 클래스를 하위 클래스로 분류하면 동일한 규칙 내에서 서로 다른 기능 도메인[PCIMe] 내에 정의된 작업과 조건을 결합하는 것이 더 어려워졌습니다.

@@ -1,0 +1,1 @@
+   Diameter 요청 메시지 라우팅은 영역과 애플리케이션을 통해 수행됩니다. Diameter 에이전트(프록시, 리디렉션 또는 릴레이)에 의해 전달될 수 있는 Diameter 메시지는 Destination-Realm AVP의 대상 영역과 애플리케이션 식별 AVP Auth-Application-Id, Acct-Application-Id 또는 Vendor-Specific 중 하나를 포함해야 합니다. - 애플리케이션 ID. 영역은 NAI(Network Access Identifier) ​​형식의 사용자 이름 AVP에서 검색될 수 있습니다. NAI의 영역 부분은 Destination-Realm AVP에 삽입됩니다.

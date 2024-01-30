@@ -1,0 +1,1 @@
+   공유 예약은 파일에 대한 액세스를 제어하는 ​​메커니즘입니다. 이는 바이트 범위 잠금과 별개의 독립적인 메커니즘입니다. 클라이언트가 파일을 열면 필요한 액세스 유형(READ, WRITE 또는 BOTH)과 다른 액세스를 거부할 액세스 유형(OPEN4_SHARE_DENY_NONE, OPEN4_SHARE_DENY_READ, OPEN4_SHARE_DENY_WRITE 또는 OPEN4_SHARE_DENY_BOTH)을 지정하여 서버에 OPEN 작업을 실행합니다. OPEN이 실패하면 클라이언트는 애플리케이션의 열기 요청에 실패합니다.

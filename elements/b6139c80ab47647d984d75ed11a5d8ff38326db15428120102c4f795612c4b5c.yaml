@@ -1,0 +1,20 @@
+"hash": |-
+  b6139c80ab47647d984d75ed11a5d8ff38326db15428120102c4f795612c4b5c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              In the second case, the parent vertex is a network that
+              directly connects the calculating router to the destination
+              router.  The list of next hops is then determined by
+              examining the destination's router-LSA.  For each link in
+              the router-LSA that points back to the parent network, the
+              link's Link Data field provides the IP address of a next hop
+              router.  The outgoing interface to use can then be derived
+              from the next hop IP address (or it can be inherited from
+              the parent network).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

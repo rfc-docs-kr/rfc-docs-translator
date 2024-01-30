@@ -1,0 +1,27 @@
+"hash": |-
+  ef846a5b074fea00c07cd8bebbec0631aa6db4656ae35045e5783b62926f5eaf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SGP examines the contents of the received Routing Key parameter
+     and compares it with the currently provisioned Routing Keys.  If the
+     received Routing Key matches an existing SGP Routing Key entry and
+     the ASP is not currently included in the list of ASPs for the related
+     Application Server, the SGP MAY authorize the ASP to be added to the
+     AS.  Or, if the Routing Key does not currently exist and the received
+     Routing Key data is valid and unique, an SGP supporting dynamic
+     configuration MAY authorize the creation of a new Routing Key and
+     related Application Server and add the ASP to the new AS.  In either
+     case, the SGP returns a Registration Response message to the ASP,
+     containing the same Local-RK-Identifier as provided in the initial
+     request, and a Registration Result "Successfully Registered".  A
+     unique Routing Context value assigned to the SGP Routing Key is
+     included.  The method of Routing Context value assignment at the SGP
+     is implementation dependent but must be guaranteed to be unique for
+     each Application Server or Routing Key supported by the SGP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

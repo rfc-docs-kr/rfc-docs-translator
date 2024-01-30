@@ -1,0 +1,21 @@
+"hash": |-
+  6ac6197eae43669cef3baf542b6be084c189518e6e19a40960deb14ef695960f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  u_char *
+  MakeDRIHeader(u_char *p, u_short dri) {
+          *p++ = 0xff;
+          *p++ = 0xdd;            /* DRI */
+          *p++ = 0x0;             /* length msb */
+          *p++ = 4;               /* length lsb */
+          *p++ = dri >> 8;        /* dri msb */
+          *p++ = dri & 0xff;      /* dri lsb */
+          return (p);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

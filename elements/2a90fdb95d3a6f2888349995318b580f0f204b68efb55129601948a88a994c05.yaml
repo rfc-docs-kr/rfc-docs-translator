@@ -1,0 +1,19 @@
+"hash": |-
+  2a90fdb95d3a6f2888349995318b580f0f204b68efb55129601948a88a994c05
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                (c)  Hosts should ideally limit their EMTU_S for a given
+                     destination to the minimum MTU of all the networks
+                     along the path, to avoid any fragmentation.  IP
+                     fragmentation, while formally correct, can create a
+                     serious transport protocol performance problem,
+                     because loss of a single fragment means all the
+                     fragments in the segment must be retransmitted
+                     [IP:9].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  6d65769d05213c54565ba724be87ea126398bd93bff813aad2a829d3e3b3a6c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     multiple KeyUpdates while it is silent to respond with a single
+     update.  Note that implementations may receive an arbitrary number of
+     messages between sending a KeyUpdate with request_update set to
+     "update_requested" and receiving the peer's KeyUpdate, because those
+     messages may already be in flight.  However, because send and receive
+     keys are derived from independent traffic secrets, retaining the
+     receive traffic secret does not threaten the forward secrecy of data
+     sent before the sender changed keys.
+"fixed": |-
+  multiple KeyUpdates while it is silent to respond with a single update.  Note that implementations may receive an arbitrary number of messages between sending a KeyUpdate with request_update set to "update_requested" and receiving the peer's KeyUpdate, because those messages may already be in flight.  However, because send and receive keys are derived from independent traffic secrets, retaining the receive traffic secret does not threaten the forward secrecy of data sent before the sender changed keys.
+"ko": |-
+  단일 업데이트로 응답하기 위해 자동으로 여러 KeyUpdate를 수행합니다. 구현에서는 request_update를 "update_requested"로 설정하여 KeyUpdate를 보내는 것과 피어의 KeyUpdate를 받는 사이에 임의의 수의 메시지를 받을 수 있습니다. 해당 메시지가 이미 전송 중일 수 있기 때문입니다. 그러나 송신 및 수신 키는 독립적인 트래픽 비밀에서 파생되므로 수신 트래픽 비밀을 유지해도 보낸 사람이 키를 변경하기 전에 전송된 데이터의 전달 비밀이 위협받지 않습니다.

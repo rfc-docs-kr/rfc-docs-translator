@@ -1,0 +1,16 @@
+"hash": |-
+  de2c42a6e48b4a49a010f718cd5dbf79961d7ddc79ffb6a21a4145162a235885
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    Transcript-Hash(ClientHello1, HelloRetryRequest, ... Mn) =
+        Hash(message_hash ||        /* Handshake type */
+             00 00 Hash.length  ||  /* Handshake message length (bytes) */
+             Hash(ClientHello1) ||  /* Hash of ClientHello1 */
+             HelloRetryRequest  || ... || Mn)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

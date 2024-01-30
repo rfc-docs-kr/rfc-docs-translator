@@ -1,0 +1,19 @@
+"hash": |-
+  cf98a0ea0c66e81ea3ceb22564484c6c26f34853a073f5c16201a620567910a2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are two classes of multi-device operations.  The first class
+     allows the operation to fail on individual devices without requiring
+     all devices to revert to their original state.  The operation can be
+     retried at a later time, or its failure simply reported to the user.
+     An example of this class might be adding an NTP server.  For this
+     class of operations, failure avoidance and recovery are focused on
+     the individual device.  This means recovery of the device, reporting
+     the failure, and perhaps scheduling another attempt.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

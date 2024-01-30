@@ -1,0 +1,1 @@
+   개별 노드의 트리 해시는 노드 유형에 따라 LeafNodeHashInput 또는 ParentNodeHashInput을 포함할 수 있는 노드의 TreeHashInput 개체의 해시입니다. LeafNodeHashInput 개체에는 leaf_index 및 LeafNode(있는 경우)가 포함됩니다. ParentNodeHashInput 개체에는 ParentNode(있는 경우)와 노드의 왼쪽 및 오른쪽 자식에 대한 트리 해시가 포함됩니다. 상위 노드와 리프 노드 모두에 대해 노드가 비어 있으면 선택적 노드 값이 없어야 하고 노드에 값이 포함되어 있으면 존재해야 합니다.

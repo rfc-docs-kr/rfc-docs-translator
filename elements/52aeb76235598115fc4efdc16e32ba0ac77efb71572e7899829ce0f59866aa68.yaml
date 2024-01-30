@@ -1,0 +1,14 @@
+"hash": |-
+  52aeb76235598115fc4efdc16e32ba0ac77efb71572e7899829ce0f59866aa68
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     With X25519 and X448, a receiving party MUST check whether the
+     computed premaster secret is the all-zero value and abort the
+     handshake if so, as described in Section 6 of [RFC7748].
+"fixed": |-
+  With X25519 and X448, a receiving party MUST check whether the computed premaster secret is the all-zero value and abort the handshake if so, as described in Section 6 of [RFC7748].
+"ko": |-
+  X25519 및 X448을 사용하는 경우 수신측은 [RFC7748]의 섹션 6에 설명된 대로 계산된 프리마스터 비밀 값이 모두 0인지 확인하고 그렇다면 핸드셰이크를 중단해야 합니다.

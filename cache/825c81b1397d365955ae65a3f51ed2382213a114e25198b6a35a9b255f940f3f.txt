@@ -1,0 +1,1 @@
+   설명: CALDAV:timezone XML 요소는 지정된 달력 REPORT 요청에 대해 서버가 달력 컬렉션의 CALDAV:calendar-timezone 속성 대신 지정된 VTIMEZONE 구성 요소에 의존해야 함을 지정합니다. 여기에는 달력 객체 리소스가 포함되어 있습니다. "날짜" 값과 "현지 시간이 포함된 날짜" 값(예: 부동 시간)을 "UTC 시간이 포함된 날짜" 값으로 변경합니다. 서버는 "날짜" 값 또는 "현지 시간이 있는 날짜" 값으로 예약된 달력 구성 요소가 CALDAV:calendar-query REPORT에 지정된 CALDAV:시간 범위와 교차하는지 확인하기 위해 이 정보가 필요합니다.

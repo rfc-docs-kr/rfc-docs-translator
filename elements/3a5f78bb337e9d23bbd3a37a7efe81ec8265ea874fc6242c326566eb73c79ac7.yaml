@@ -1,0 +1,21 @@
+"hash": |-
+  3a5f78bb337e9d23bbd3a37a7efe81ec8265ea874fc6242c326566eb73c79ac7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The graph in Figure 13 shows the forming of an adjacency.  Not
+          every two neighboring routers become adjacent (see Section
+          10.4).  The adjacency starts to form when the neighbor is in
+          state ExStart.  After the two routers discover their
+          master/slave status, the state transitions to Exchange.  At this
+          point the neighbor starts to be used in the flooding procedure,
+          and the two neighboring routers begin synchronizing their
+          databases.  When this synchronization is finished, the neighbor
+          is in state Full and we say that the two routers are fully
+          adjacent.  At this point the adjacency is listed in LSAs.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

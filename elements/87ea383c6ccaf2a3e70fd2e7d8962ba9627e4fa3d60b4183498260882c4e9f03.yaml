@@ -1,0 +1,22 @@
+"hash": |-
+  87ea383c6ccaf2a3e70fd2e7d8962ba9627e4fa3d60b4183498260882c4e9f03
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If implemented correctly, the mechanisms described in Sections 8.1
+     and 8.2 prevent a replayed ClientHello and its associated 0-RTT data
+     from being accepted multiple times by any cluster with consistent
+     state; for servers which limit the use of 0-RTT to one cluster for a
+     single ticket, then a given ClientHello and its associated 0-RTT data
+     will only be accepted once.  However, if state is not completely
+     consistent, then an attacker might be able to have multiple copies of
+     the data be accepted during the replication window.  Because clients
+     do not know the exact details of server behavior, they MUST NOT send
+     messages in early data which are not safe to have replayed and which
+     they would not be willing to retry across multiple 1-RTT connections.
+"fixed": |-
+  If implemented correctly, the mechanisms described in Sections 8.1 and 8.2 prevent a replayed ClientHello and its associated 0-RTT data from being accepted multiple times by any cluster with consistent state; for servers which limit the use of 0-RTT to one cluster for a single ticket, then a given ClientHello and its associated 0-RTT data will only be accepted once.  However, if state is not completely consistent, then an attacker might be able to have multiple copies of the data be accepted during the replication window.  Because clients do not know the exact details of server behavior, they MUST NOT send messages in early data which are not safe to have replayed and which they would not be willing to retry across multiple 1-RTT connections.
+"ko": |-
+  올바르게 구현된 경우 섹션 8.1 및 8.2에 설명된 메커니즘은 재생된 ClientHello 및 관련 0-RTT 데이터가 일관된 상태의 클러스터에서 여러 번 수락되는 것을 방지합니다. 단일 티켓에 대해 0-RTT 사용을 하나의 클러스터로 제한하는 서버의 경우 지정된 ClientHello 및 관련 0-RTT 데이터는 한 번만 허용됩니다. 그러나 상태가 완전히 일관되지 않은 경우 공격자는 복제 기간 동안 여러 개의 데이터 복사본을 허용할 수 있습니다. 클라이언트는 서버 동작의 정확한 세부 사항을 모르기 때문에 재생하기에 안전하지 않고 여러 1-RTT 연결을 통해 재시도할 의사가 없는 초기 데이터의 메시지를 보내서는 안 됩니다.

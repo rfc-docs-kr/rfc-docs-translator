@@ -1,0 +1,28 @@
+"hash": |-
+  fc9f0c61cfdb750acf046ada3c27405bfd430cb5c83e5a3ebad7cb4bdce14623
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The formal syntax of the digit map is described by the DigitMap rule
+     in the formal syntax description of the protocol (see Annex A and
+     Annex B). A DigitMap, according to this syntax, is defined either by
+     a string or by a list of strings. Each string in the list is an
+     alternative event sequence, specified either as a sequence of digit
+     map symbols or as a regular expression of digit map symbols.  These
+     digit map symbols, the digits "0" through "9" and letters "A" through
+     a maximum value depending on the signalling system concerned, but
+     never exceeding "K", correspond to specified events within a package
+     which has been designated in the Events Descriptor on the termination
+     to which the digit map is being applied.  (The mapping between events
+     and digit map symbols is defined in the documentation for packages
+     associated with channel-associated signalling systems such as DTMF,
+     MF, or R2.  Digits "0" through "9" MUST be mapped to the
+     corresponding digit events within the signalling system concerned.
+     Letters should be allocated in logical fashion, facilitating the use
+     of range notation for alternative events.)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

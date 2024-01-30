@@ -1,0 +1,15 @@
+"hash": |-
+  3dc6a866a0ff260d3e6ec149ccc0acdf2b2d14918fc202369a894a20418a0dc9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     |  If the server understood the ClientHello extension but does not
+     |  recognize the server name, the server SHOULD take one of two
+     |  actions: either abort the handshake by sending a fatal-level
+     |  unrecognized_name(112) alert or continue the handshake.
+"fixed": |-
+  |  If the server understood the ClientHello extension but does not |  recognize the server name, the server SHOULD take one of two |  actions: either abort the handshake by sending a fatal-level |  unrecognized_name(112) alert or continue the handshake.
+"ko": |-
+  | 서버가 ClientHello 확장을 이해했지만 이해하지 못한 경우 | 서버 이름을 인식하려면 서버는 둘 중 하나를 선택해야 합니다 | 작업: 치명적인 수준의 | 메시지를 전송하여 핸드셰이크를 중단하거나 | unrecognized_name(112) 경고를 보내거나 핸드셰이크를 계속하십시오.

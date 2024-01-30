@@ -1,0 +1,19 @@
+"hash": |-
+  e5766011f73c93cba6e6e69cb363adcac50409293e8c6c6329bb31f5eac974e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TerminationID ::= SEQUENCE
+     {
+          wildcard        SEQUENCE OF WildcardField,
+          id              OCTET STRING(SIZE(1..8)),
+          ...
+     }
+     -- See Section A.1 for explanation of wildcarding mechanism.
+     -- Termination ID 0xFFFFFFFFFFFFFFFF indicates the ROOT Termination.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  5fcd2040c37dc52bda7840fc7ad6d956a1e4d0f76467a9634b984cf27641e477
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A common type of meter is a Token Bucket meter, such as [srTCM] or
+     [trTCM].  This type of meter assumes the use of a shaper at a
+     previous node; applications which send at a constant rate when
+     sending may conform if the token bucket is properly specified.  It
+     specifies the acceptable arrival rate and quantifies the acceptable
+     variability, often by specifying a burst size or an interval; since
+     rate = quantity/time, specifying any two of those parameters implies
+     the third, and a large interval provides for a forgiving system.
+     Multiple rates may be specified, as in AF, such that a subset of the
+     traffic (up to one rate) is accepted with one set of guarantees, and
+     traffic in excess of that but below another rate has a different set
+     of guarantees.  Other types of meters exist as well.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  9b18426b1b428500802e610942de01121a168d58a7618488a87cbe8aa4de50af
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      TransitCapability
+          This parameter indicates whether the area can carry data traffic
+          that neither originates nor terminates in the area itself. This
+          parameter is calculated when the area's shortest-path tree is
+          built (see Section 16.1, where TransitCapability is set to TRUE
+          if and only if there are one or more fully adjacent virtual
+          links using the area as Transit area), and is used as an input
+          to a subsequent step of the routing table build process (see
+          Section 16.3). When an area's TransitCapability is set to TRUE,
+          the area is said to be a "transit area".
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,33 @@
+"hash": |-
+  433ddc7070b497c9a5bf540906c379dc99540f2cc389667d82da8a9bfbea25c2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     13. MG1 acknowledges the new Termination and fills in the Local IP
+     address and UDP port. It also makes a choice for the codec based on
+     the MGC preferences in Local. MG1 sets the RTP port to 2222.
+     MEGACO/1 [124.124.124.222]:55555
+     Reply = 10003 {
+        Context = 2000 {
+           Add = A4444,
+           Add=A4445{
+              Media {
+                  Stream = 1 {
+                      Local {
+     v=0
+     c=IN IP4 124.124.124.222
+     m=audio 2222 RTP/AVP 4
+     a=ptime:30
+     a=recvonly
+                      } ; RTP profile for G.723 is 4
+                  }
+              }
+           }
+        }
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  0bfd8c1d886d25fd4a6f4d513ba94572269b474c7b042a613cf2c69a9793a43f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [d] An EAP implementation MAY clear SRTT and RTTVAR after backing off
+         the timer multiple times, as it is likely that the current SRTT
+         and RTTVAR are bogus in this situation.  Once SRTT and RTTVAR are
+         cleared, they should be initialized with the next RTT sample
+         taken as described in [RFC2988] equation 2.2.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

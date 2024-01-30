@@ -1,0 +1,22 @@
+"hash": |-
+  e84956febae92eaf97a7c4071025c58aa12acc4a0f408049eac9be9ccb4fe171
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One mechanism is to do aggregation solely based on dynamically
+     learned routing information. This has the danger of not specifying a
+     precise enough range since when a route is not present, it is not
+     always possible to distinguish whether it is temporarily unreachable
+     or that it does not belong in the aggregate. Purely dynamic routing
+     also does not allow the flexibility of defining what to aggregate
+     within a range. The other mechanism is to do all aggregation based on
+     ranges of blocks of IP addresses preconfigured in the router.  It is
+     recommended that preconfiguration be used, since it more flexible and
+     allows precise specification of the range of destinations to
+     aggregate.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

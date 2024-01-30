@@ -1,0 +1,21 @@
+"hash": |-
+  bf47bd06a8033161f6a8ce73f1e3606768fe5f6ab2589b78ff6c7e2c6f24e6ea
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMultiFieldClfrDscp OBJECT-TYPE
+      SYNTAX         DscpOrAny
+      MAX-ACCESS     read-create
+      STATUS         current
+      DESCRIPTION
+         "The value that the DSCP in the packet must have to match this
+         entry. A value of -1 indicates that a specific DSCP value has not
+         been defined and thus all DSCP values are considered a match."
+      DEFVAL         { -1 }
+      ::= { diffServMultiFieldClfrEntry 7 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

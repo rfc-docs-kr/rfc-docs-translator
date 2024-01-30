@@ -1,0 +1,19 @@
+"hash": |-
+  0fe2d8999c235d53c56195b3c003f17bf6af76cbe1bde57900b0a4d97c0c3185
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the requested Receiver Port is not available (e.g., port in
+     use), the Server at the Session-Reflector MAY suggest an alternate
+     and available port for this session in the Port field.  The Session-
+     Sender either accepts the alternate port, or composes a new Session-
+     Request message with suitable parameters.  Otherwise, the Server at
+     the Control-Client uses the Accept field to convey other forms of
+     session rejection or failure and MUST NOT suggest an alternate port;
+     in this case, the Port field MUST be set to zero.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

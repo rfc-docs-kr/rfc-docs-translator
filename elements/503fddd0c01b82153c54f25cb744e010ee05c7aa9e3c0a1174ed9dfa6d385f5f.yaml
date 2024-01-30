@@ -1,0 +1,16 @@
+"hash": |-
+  503fddd0c01b82153c54f25cb744e010ee05c7aa9e3c0a1174ed9dfa6d385f5f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Poly1305 is not a suitable choice for a PRF.  Poly1305 prohibits
+     using the same key twice, whereas the PRF in IKEv2 is used multiple
+     times with the same key.  Additionally, unlike HMAC, Poly1305 is
+     biased, so using it for key derivation would reduce the security of
+     the symmetric encryption.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

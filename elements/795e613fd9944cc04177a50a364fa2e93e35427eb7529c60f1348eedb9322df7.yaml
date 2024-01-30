@@ -1,0 +1,44 @@
+"hash": |-
+  795e613fd9944cc04177a50a364fa2e93e35427eb7529c60f1348eedb9322df7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                                   |        | | | |S| |
+                                                   |        | | | |H| |F
+                                                   |        | | | |O|M|o
+                                                   |        | |S| |U|U|o
+                                                   |        | |H| |L|S|t
+                                                   |        |M|O| |D|T|n
+                                                   |        |U|U|M| | |o
+                                                   |        |S|L|A|N|N|t
+                                                   |        |T|D|Y|O|O|t
+  FEATURE                                          |SECTION | | | |T|T|e
+  -------------------------------------------------|--------|-|-|-|-|-|--
+                                                   |        | | | | | |
+      UDP                                          |        | | | | | |
+  -------------------------------------------------|--------|-|-|-|-|-|--
+                                                   |        | | | | | |
+  UDP send Port Unreachable                        |4.1.3.1 | |x| | | |
+                                                   |        | | | | | |
+  IP Options in UDP                                |        | | | | | |
+   - Pass rcv'd IP options to applic layer         |4.1.3.2 |x| | | | |
+   - Applic layer can specify IP options in Send   |4.1.3.2 |x| | | | |
+   - UDP passes IP options down to IP layer        |4.1.3.2 |x| | | | |
+                                                   |        | | | | | |
+  Pass ICMP msgs up to applic layer                |4.1.3.3 |x| | | | |
+                                                   |        | | | | | |
+  UDP checksums:                                   |        | | | | | |
+   - Able to generate/check checksum               |4.1.3.4 |x| | | | |
+   - Silently discard bad checksum                 |4.1.3.4 |x| | | | |
+   - Sender Option to not generate checksum        |4.1.3.4 | | |x| | |
+     - Default is to checksum                      |4.1.3.4 |x| | | | |
+   - Receiver Option to require checksum           |4.1.3.4 | | |x| | |
+                                                   |        | | | | | |
+  UDP Multihoming                                  |        | | | | | |
+   - Pass spec-dest addr to application            |4.1.3.5 |x| | | | |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

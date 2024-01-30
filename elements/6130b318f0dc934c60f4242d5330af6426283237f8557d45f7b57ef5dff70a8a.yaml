@@ -1,0 +1,18 @@
+"hash": |-
+  6130b318f0dc934c60f4242d5330af6426283237f8557d45f7b57ef5dff70a8a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a TLS-capable server negotiates SSL 2.0 it SHOULD, after
+     decrypting the ENCRYPTED-KEY-DATA field, check that these 8 padding
+     bytes are 0x03.  If they are not, the server SHOULD generate a random
+     value for SECRET-KEY-DATA, and continue the handshake (which will
+     eventually fail since the keys will not match).  Note that reporting
+     the error situation to the client could make the server vulnerable to
+     attacks described in [BLEI].
+"fixed": |-
+  When a TLS-capable server negotiates SSL 2.0 it SHOULD, after decrypting the ENCRYPTED-KEY-DATA field, check that these 8 padding bytes are 0x03.  If they are not, the server SHOULD generate a random value for SECRET-KEY-DATA, and continue the handshake (which will eventually fail since the keys will not match).  Note that reporting the error situation to the client could make the server vulnerable to attacks described in [BLEI].
+"ko": |-
+  TLS 가능 서버가 SSL 2.0을 협상할 때 ENCRYPTED-KEY-DATA 필드를 해독한 후 이 8개의 패딩 바이트가 0x03인지 확인해야 합니다. 그렇지 않은 경우 서버는 SECRET-KEY-DATA에 대한 임의의 값을 생성하고 핸드셰이크를 계속해야 합니다(키가 일치하지 않기 때문에 결국 실패하게 됩니다). 오류 상황을 클라이언트에 보고하면 서버가 [BLEI]에 설명된 공격에 취약해질 수 있습니다.

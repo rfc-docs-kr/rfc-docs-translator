@@ -1,0 +1,22 @@
+"hash": |-
+  f29df6845b52e05f41a5bda1ef7061cbe471d773b28f03a56fda1a11034a6468
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMIBMinRateGroup OBJECT-GROUP
+      OBJECTS {
+                diffServMinRateNextFree, diffServMinRatePriority,
+                diffServMinRateAbsolute, diffServMinRateRelative,
+                diffServMinRateStorage, diffServMinRateStatus
+      }
+      STATUS       current
+      DESCRIPTION
+         "The Minimum Rate Parameter Group contains the objects that
+         describe packet schedulers' minimum rate or priority guarantees."
+      ::= { diffServMIBGroups 14 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

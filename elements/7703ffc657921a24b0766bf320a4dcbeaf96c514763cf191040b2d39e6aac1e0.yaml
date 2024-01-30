@@ -1,0 +1,21 @@
+"hash": |-
+  7703ffc657921a24b0766bf320a4dcbeaf96c514763cf191040b2d39e6aac1e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the authorization server has directed interim accounting to be
+     enabled, the Diameter client MUST produce additional records between
+     the START_RECORD and STOP_RECORD, marked INTERIM_RECORD.  The
+     production of these records is directed by Acct-Interim-Interval as
+     well as any re-authentication or re-authorization of the session.
+     The Diameter client MUST overwrite any previous interim accounting
+     records that are locally stored for delivery, if a new record is
+     being generated for the same session.  This ensures that only one
+     pending interim record can exist on an access device for any given
+     session.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

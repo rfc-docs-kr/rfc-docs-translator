@@ -1,0 +1,1 @@
+   AEAD_AES_128_GCM, AEAD_AES_256_GCM 및 AEAD_CHACHA20_POLY1305의 경우 인증에 실패한 레코드 수에 대한 제한은 2^36입니다. [AEBounds]의 분석은 AEAD_AES_128_GCM 및 AEAAD_AES_256_GCM에 대해 더 높은 제한을 지원하지만 이 사양에서는 더 낮은 제한을 권장합니다. AEAD_AES_128_CCM의 경우 인증에 실패한 레코드 수의 제한은 2^23.5입니다. 부록 B를 참조하십시오.

@@ -1,0 +1,1 @@
+     * 다음 메소드를 구현하십시오: SETUP, TEARDOWN, OPTIONS 및 PLAY(최소 재생 서버의 경우) 또는 RECORD(최소 녹음 서버의 경우). RECORD가 구현되면 ANNOUNCE도 구현되어야 합니다. * 응답에 다음 헤더를 포함합니다: Connection, Content-Length, Content-Type, Content-Language, Content-Encoding, Transport, Public. RECORD 메소드가 있는 경우 Location 헤더를 포함하는 기능을 구현해야 합니다. RTP 호환 구현은 RTP-Info 필드도 구현해야 합니다. * 요청의 연결, 세션, 전송, 요구 헤더를 구문 분석하고 적절하게 응답합니다.

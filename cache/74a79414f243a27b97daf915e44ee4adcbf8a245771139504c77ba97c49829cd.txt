@@ -1,0 +1,1 @@
+   o csa_sequenceid와 슬롯 ID에 있는 클라이언트의 캐시된 시퀀스 ID 간의 차이가 2 이상이거나 csa_sequenceid가 캐시된 시퀀스 ID(서명되지 않은 시퀀스 ID 값의 랩어라운드 고려)보다 작은 경우 클라이언트는 다음을 수행해야 합니다. NFS4ERR_SEQ_MISORDERED를 반환합니다.

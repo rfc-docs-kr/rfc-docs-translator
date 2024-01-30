@@ -1,0 +1,17 @@
+"hash": |-
+  f1d9b6a77d2c330d47e5107e508c9e44607a6b9d327a90de209f31051a111bb3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         Setting this to point to a target that does not exist results in
+         an inconsistentValue error.  If the row pointed to is removed or
+         becomes inactive by other means, the Meter should be treated as
+         if it were not present.  This may lead to incorrect policy
+         behavior."
+      ::= { diffServActionEntry 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

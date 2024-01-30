@@ -1,0 +1,17 @@
+"hash": |-
+  6cf90310738dc1248af50c8cb5751e9aaefbce5f72c98c507bac360a954f5f23
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Regardless of how the key is generated, the key is partitioned into
+     two parts, called "r" and "s".  The pair (r,s) should be unique, and
+     MUST be unpredictable for each invocation (that is why it was
+     originally obtained by encrypting a nonce), while "r" MAY be
+     constant, but needs to be modified as follows before being used: ("r"
+     is treated as a 16-octet little-endian number):
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

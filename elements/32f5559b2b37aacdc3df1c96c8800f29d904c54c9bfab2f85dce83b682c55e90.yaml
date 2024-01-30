@@ -1,0 +1,19 @@
+"hash": |-
+  32f5559b2b37aacdc3df1c96c8800f29d904c54c9bfab2f85dce83b682c55e90
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A packet arriving at an egress interface may have been classified on
+     an ingress interface, and the egress interface may have access to
+     that information.  If it is relevant, there is no reason not to use
+     that information.  If it is not available, however, there may be a
+     need to (re)classify on the egress interface.  In any event, it picks
+     up its "program" from the diffServDataPathTable.  This points to a
+     classifier, which will select traffic according to some specification
+     for each traffic class.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  66e68246714a888f014c999c769d9ddea32dbde05c40a21fc0ffeb244564152a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              IMPLEMENTATION:
+                   The sender's SWS avoidance algorithm is more difficult
+                   than the receivers's, because the sender does not know
+                   (directly) the receiver's total buffer space RCV.BUFF.
+                   An approach which has been found to work well is for
+                   the sender to calculate Max(SND.WND), the maximum send
+                   window it has seen so far on the connection, and to use
+                   this value as an estimate of RCV.BUFF.  Unfortunately,
+                   this can only be an estimate; the receiver may at any
+                   time reduce the size of RCV.BUFF.  To avoid a resulting
+                   deadlock, it is necessary to have a timeout to force
+                   transmission of data, overriding the SWS avoidance
+                   algorithm.  In practice, this timeout should seldom
+                   occur.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

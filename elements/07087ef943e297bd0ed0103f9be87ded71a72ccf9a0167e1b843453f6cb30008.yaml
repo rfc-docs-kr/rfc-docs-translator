@@ -1,0 +1,20 @@
+"hash": |-
+  07087ef943e297bd0ed0103f9be87ded71a72ccf9a0167e1b843453f6cb30008
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To be compatible with the existing DNS infrastructure and simplify
+     host and domain name comparison, Diameter identities (FQDNs) are
+     represented in ASCII form.  This allows the Diameter protocol to fall
+     in-line with the DNS strategy of being transparent from the effects
+     of Internationalized Domain Names (IDNs) by following the
+     recommendations in [RFC4690] and [RFC5890].  Applications that
+     provide support for IDNs outside of the Diameter protocol but
+     interacting with it SHOULD use the representation and conversion
+     framework described in [RFC5890], [RFC5891], and [RFC3492].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

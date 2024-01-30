@@ -1,0 +1,22 @@
+"hash": |-
+  06d46f4ee70be0644d3aa4a8ab8b25b4d9dd37db59721f2824c317aa0e7b7c2f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Three point formats were included in the definition of ECPointFormat
+     above.  This specification deprecates all but the uncompressed point
+     format.  Implementations of this document MUST support the
+     uncompressed format for all of their supported curves and MUST NOT
+     support other formats for curves defined in this specification.  For
+     backwards compatibility purposes, the point format list extension MAY
+     still be included and contain exactly one value: the uncompressed
+     point format (0).  RFC 4492 specified that if this extension is
+     missing, it means that only the uncompressed point format is
+     supported, so interoperability with implementations that support the
+     uncompressed format should work with or without the extension.
+"fixed": |-
+  Three point formats were included in the definition of ECPointFormat above.  This specification deprecates all but the uncompressed point format.  Implementations of this document MUST support the uncompressed format for all of their supported curves and MUST NOT support other formats for curves defined in this specification.  For backwards compatibility purposes, the point format list extension MAY still be included and contain exactly one value: the uncompressed point format (0).  RFC 4492 specified that if this extension is missing, it means that only the uncompressed point format is supported, so interoperability with implementations that support the uncompressed format should work with or without the extension.
+"ko": |-
+  위의 ECPointFormat 정의에는 세 가지 포인트 형식이 포함되었습니다. 이 사양은 압축되지 않은 포인트 형식을 제외한 모든 형식을 더 이상 사용하지 않습니다. 이 문서의 구현은 지원되는 모든 곡선에 대해 압축되지 않은 형식을 지원해야 하며(MUST) 이 사양에 정의된 곡선에 대해 다른 형식을 지원해서는 안 됩니다(MUST NOT). 이전 버전과의 호환성을 위해 포인트 형식 목록 확장이 계속 포함될 수 있으며 정확히 하나의 값, 즉 압축되지 않은 포인트 형식(0)을 포함할 수 있습니다. RFC 4492에서는 이 확장이 누락되면 압축되지 않은 포인트 형식만 지원된다는 의미이므로 압축되지 않은 형식을 지원하는 구현과의 상호 운용성은 확장이 있든 없든 작동해야 한다고 명시했습니다.

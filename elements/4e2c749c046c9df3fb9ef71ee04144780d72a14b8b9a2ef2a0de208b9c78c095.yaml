@@ -1,0 +1,41 @@
+"hash": |-
+  4e2c749c046c9df3fb9ef71ee04144780d72a14b8b9a2ef2a0de208b9c78c095
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                  SGP                             ASP1
+                   |                               |
+                   |<------------ASP Up------------|
+                   |----------ASP Up Ack---------->|
+                   |                               |
+                   |<----REGISTER REQ(LRC1,RK1)----|  LRC: Local Routing
+                   |                               |       Key Id
+                   |----REGISTER RESP(LRC1,RC1)--->|   RK: Routing Key
+                   |                               |   RC: Routing Context
+                   |---NOTIFY(AS-INACTIVE)(RC1)--->|
+                   |                               |
+                   |                               |
+                   |<------- ASP Active(RC1)-------|
+                   |-----ASP Active Ack (RC1)----->|
+                   |                               |
+                   |----NOTIFY(AS-ACTIVE)(RC1)---->|
+                   |                               |
+                   ~                               ~
+                   |                               |
+                   |<----REGISTER REQ(LRCn,RKn)----|
+                   |                               |
+                   |----REGISTER RESP(LRCn,RCn)--->|
+                   |                               |
+                   |---NOTIFY(AS-INACTIVE)(RCn)--->|
+                   |                               |
+                   |<------- ASP Active(RCn)-------|
+                   |-----ASP Active Ack (RCn)----->|
+                   |                               |
+                   |----NOTIFY(AS-ACTIVE)(RCn)---->|
+                   |                               |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

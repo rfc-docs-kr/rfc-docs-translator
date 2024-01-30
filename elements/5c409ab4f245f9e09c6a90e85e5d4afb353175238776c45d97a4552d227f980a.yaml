@@ -1,0 +1,17 @@
+"hash": |-
+  5c409ab4f245f9e09c6a90e85e5d4afb353175238776c45d97a4552d227f980a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [1] Unreliable transport.  In EAP, the authenticator retransmits
+         Requests that have not yet received Responses so that EAP does
+         not assume that lower layers are reliable.  Since EAP defines its
+         own retransmission behavior, it is possible (though undesirable)
+         for retransmission to occur both in the lower layer and the EAP
+         layer when EAP is run over a reliable lower layer.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

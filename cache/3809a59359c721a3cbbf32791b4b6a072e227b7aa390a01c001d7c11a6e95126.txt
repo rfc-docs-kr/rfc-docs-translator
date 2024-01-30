@@ -1,0 +1,1 @@
+   def ContextR.Open(aad, ct): pt = Open(self.key, self.ComputeNonce(self.seq), aad, ct) if pt == OpenError: raise OpenError self.IncrementSeq() return pt

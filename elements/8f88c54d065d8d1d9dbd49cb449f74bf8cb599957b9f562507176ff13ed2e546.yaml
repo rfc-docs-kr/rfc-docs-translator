@@ -1,0 +1,18 @@
+"hash": |-
+  8f88c54d065d8d1d9dbd49cb449f74bf8cb599957b9f562507176ff13ed2e546
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS allows extensions to follow the compression_methods field in an
+     extensions block.  The presence of extensions can be detected by
+     determining whether there are bytes following the compression_methods
+     at the end of the ClientHello.  Note that this method of detecting
+     optional data differs from the normal TLS method of having a
+     variable-length field, but it is used for compatibility with TLS
+     before extensions were defined.
+"fixed": |-
+  TLS allows extensions to follow the compression_methods field in an extensions block.  The presence of extensions can be detected by determining whether there are bytes following the compression_methods at the end of the ClientHello.  Note that this method of detecting optional data differs from the normal TLS method of having a variable-length field, but it is used for compatibility with TLS before extensions were defined.
+"ko": |-
+  TLS를 사용하면 확장이 확장 블록의 압축_메소드 필드를 따를 수 있습니다. 확장의 존재는 ClientHello의 끝에서 압축 방법 뒤에 바이트가 있는지 여부를 확인하여 감지할 수 있습니다. 선택적 데이터를 감지하는 이 방법은 가변 길이 필드를 갖는 일반적인 TLS 방법과 다르지만 확장이 정의되기 전에 TLS와의 호환성을 위해 사용됩니다.

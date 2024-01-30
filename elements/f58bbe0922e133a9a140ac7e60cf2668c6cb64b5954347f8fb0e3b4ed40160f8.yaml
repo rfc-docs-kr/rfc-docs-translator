@@ -1,0 +1,20 @@
+"hash": |-
+  f58bbe0922e133a9a140ac7e60cf2668c6cb64b5954347f8fb0e3b4ed40160f8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Rule #1 guarantees that the forwarding algorithm used is consistent
+     across routing protocols and implementations.  Multi-homed networks
+     are always explicitly advertised by every service provider through
+     which they are routed, even if they are a specific subset of one
+     service provider's aggregate (if they are not, they clearly must be
+     explicitly advertised).  It may seem as if the "primary" service
+     provider could advertise the multi-homed site implicitly as part of
+     its aggregate, but longest-match forwarding causes this not to work.
+     More details are provided in [RFC4116].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

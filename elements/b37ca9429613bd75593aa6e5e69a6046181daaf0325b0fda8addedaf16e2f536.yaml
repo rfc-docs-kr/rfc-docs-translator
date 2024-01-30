@@ -1,0 +1,19 @@
+"hash": |-
+  b37ca9429613bd75593aa6e5e69a6046181daaf0325b0fda8addedaf16e2f536
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Rationale: SSLv3 [RFC6101] was an improvement over SSLv2 and
+        plugged some significant security holes but did not support strong
+        cipher suites.  SSLv3 does not support TLS extensions, some of
+        which (e.g., renegotiation_info [RFC5746]) are security critical.
+        In addition, with the emergence of the Padding Oracle On
+        Downgraded Legacy Encryption (POODLE) attack [POODLE], SSLv3 is
+        now widely recognized as fundamentally insecure.  See [RFC7568]
+        for further details.
+"fixed": |-
+  - Rationale: SSLv3 [RFC6101] was an improvement over SSLv2 and plugged some significant security holes but did not support strong cipher suites.  SSLv3 does not support TLS extensions, some of which (e.g., renegotiation_info [RFC5746]) are security critical. In addition, with the emergence of the Padding Oracle On Downgraded Legacy Encryption (POODLE) attack [POODLE], SSLv3 is now widely recognized as fundamentally insecure.  See [RFC7568] for further details.
+"ko": |-
+  - 근거: SSLv3 [RFC6101]은 SSLv2보다 개선되었으며 몇 가지 중요한 보안 허점을 해결했지만 강력한 암호화 제품군을 지원하지 않았습니다. SSLv3은 TLS 확장을 지원하지 않으며 그 중 일부(예: renegotiation_info [RFC5746])는 보안에 중요합니다. 또한, Padding Oracle On Downgraded Legacy Encryption(POODLE) 공격[POODLE]이 등장하면서 SSLv3은 이제 근본적으로 안전하지 않은 것으로 널리 인식되었습니다. 자세한 내용은 [RFC7568]을 참조하세요.

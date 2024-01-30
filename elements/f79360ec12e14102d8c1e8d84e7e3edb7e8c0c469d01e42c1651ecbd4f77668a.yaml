@@ -1,0 +1,18 @@
+"hash": |-
+  f79360ec12e14102d8c1e8d84e7e3edb7e8c0c469d01e42c1651ecbd4f77668a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Link State Update Packets carrying retransmissions are always
+          sent directly to the neighbor. On multi-access networks, this
+          means that retransmissions are sent directly to the neighbor's
+          IP address.  Each LSA's LS age must be incremented by
+          InfTransDelay (which must be > 0) when it is copied into the
+          outgoing Link State Update packet (until the LS age field
+          reaches the maximum value of MaxAge).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

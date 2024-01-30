@@ -1,0 +1,15 @@
+"hash": |-
+  5adcf2c4e467280a95865e7d071d87c7dff1b591564a98c3ba997889376e0e23
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TCP receiver SHOULD NOT shrink the window, i.e., move the right
+     window edge to the left (SHLD-14).  However, a sending TCP peer MUST
+     be robust against window shrinking, which may cause the "usable
+     window" (see Section 3.8.6.2.1) to become negative (MUST-34).
+"fixed": |-
+  A TCP receiver SHOULD NOT shrink the window, i.e., move the right window edge to the left (SHLD-14).  However, a sending TCP peer MUST be robust against window shrinking, which may cause the "usable window" (see Section 3.8.6.2.1) to become negative (MUST-34).
+"ko": |-
+  TCP 수신기는 창을 축소해서는 안 됩니다. 즉, 오른쪽 창 가장자리를 왼쪽으로 이동하면 안 됩니다(SHLD-14). 그러나 송신 TCP 피어는 창 축소에 대해 강력해야 하며, 이로 인해 "사용 가능한 창"(섹션 3.8.6.2.1 참조)이 음수가 될 수 있습니다(MUST-34).

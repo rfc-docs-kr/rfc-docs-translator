@@ -1,0 +1,19 @@
+"hash": |-
+  ee3636f99e5ce6a7e205b96060eb56a9ef5a1d3ba3b5e94f5b81b60bb1385244
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This mechanism permits a point in the data stream to be designated as
+     the end of urgent information.  Whenever this point is in advance of
+     the receive sequence number (RCV.NXT) at the receiving TCP endpoint,
+     then the TCP implementation must tell the user to go into "urgent
+     mode"; when the receive sequence number catches up to the urgent
+     pointer, the TCP implementation must tell user to go into "normal
+     mode".  If the urgent pointer is updated while the user is in "urgent
+     mode", the update will be invisible to the user.
+"fixed": |-
+  This mechanism permits a point in the data stream to be designated as the end of urgent information.  Whenever this point is in advance of the receive sequence number (RCV.NXT) at the receiving TCP endpoint, then the TCP implementation must tell the user to go into "urgent mode"; when the receive sequence number catches up to the urgent pointer, the TCP implementation must tell user to go into "normal mode".  If the urgent pointer is updated while the user is in "urgent mode", the update will be invisible to the user.
+"ko": |-
+  이 메커니즘을 사용하면 데이터 스트림의 한 지점을 긴급 정보의 끝으로 지정할 수 있습니다. 이 지점이 수신 TCP 끝점의 수신 시퀀스 번호(RCV.NXT)보다 앞에 있을 때마다 TCP 구현은 사용자에게 "긴급 모드"로 들어가도록 알려야 합니다. 수신 시퀀스 번호가 긴급 포인터를 따라잡으면 TCP 구현은 사용자에게 "일반 모드"로 들어가도록 알려야 합니다. 사용자가 "긴급 모드"에 있는 동안 긴급 포인터가 업데이트되면 업데이트가 사용자에게 표시되지 않습니다.

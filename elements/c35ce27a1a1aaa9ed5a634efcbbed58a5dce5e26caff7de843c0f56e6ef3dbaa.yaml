@@ -1,0 +1,19 @@
+"hash": |-
+  c35ce27a1a1aaa9ed5a634efcbbed58a5dce5e26caff7de843c0f56e6ef3dbaa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Certificate pinning is only appropriate during Mail Account setup and
+     MUST NOT be offered as an option in response to a failed certificate
+     validation for an existing Mail Account.  An MUA that allows
+     certificate pinning MUST NOT allow a certificate pinned for one
+     account to validate connections for other accounts.  An MUA that
+     allows certificate pinning MUST also allow a user to undo the
+     pinning, i.e., to revoke trust in a certificate that has previously
+     been pinned.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

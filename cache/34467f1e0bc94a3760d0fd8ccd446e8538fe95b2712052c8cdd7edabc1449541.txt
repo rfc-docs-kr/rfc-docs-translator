@@ -1,0 +1,1 @@
+   def Seal<MODE>(pkR, info, aad, pt, ...): enc, ctx = Setup<MODE>S(pkR, info, ...) ct = ctx.Seal(aad, pt) return enc, CT

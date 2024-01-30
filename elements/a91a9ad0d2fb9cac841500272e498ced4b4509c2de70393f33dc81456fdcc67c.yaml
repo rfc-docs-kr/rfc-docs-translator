@@ -1,0 +1,21 @@
+"hash": |-
+  a91a9ad0d2fb9cac841500272e498ced4b4509c2de70393f33dc81456fdcc67c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The <commit> operation effectively sets the running configuration to
+     the current contents of the candidate configuration.  While it could
+     be modeled as a simple copy, it is done as a distinct operation for a
+     number of reasons.  In keeping high-level concepts as first-class
+     operations, we allow developers to see more clearly both what the
+     client is requesting and what the server must perform.  This keeps
+     the intentions more obvious, the special cases less complex, and the
+     interactions between operations more straightforward.  For example,
+     the :confirmed-commit:1.1 capability (Section 8.4) would make no
+     sense as a "copy confirmed" operation.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

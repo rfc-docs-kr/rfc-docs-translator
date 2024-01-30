@@ -1,0 +1,20 @@
+"hash": |-
+  3dce17d24f68703e0702f7de737da4f08009deae331fac79c3b9b34d8a906149
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS and DTLS handshake messages can be quite large (in theory up to
+     2^24-1 bytes, in practice many kilobytes).  By contrast, UDP
+     datagrams are often limited to <1500 bytes if IP fragmentation is not
+     desired.  In order to compensate for this limitation, each DTLS
+     handshake message may be fragmented over several DTLS records, each
+     of which is intended to fit in a single IP datagram.  Each DTLS
+     handshake message contains both a fragment offset and a fragment
+     length.  Thus, a recipient in possession of all bytes of a handshake
+     message can reassemble the original unfragmented message.
+"fixed": |-
+  TLS and DTLS handshake messages can be quite large (in theory up to 2^24-1 bytes, in practice many kilobytes).  By contrast, UDP datagrams are often limited to <1500 bytes if IP fragmentation is not desired.  In order to compensate for this limitation, each DTLS handshake message may be fragmented over several DTLS records, each of which is intended to fit in a single IP datagram.  Each DTLS handshake message contains both a fragment offset and a fragment length.  Thus, a recipient in possession of all bytes of a handshake message can reassemble the original unfragmented message.
+"ko": |-
+  TLS 및 DTLS 핸드셰이크 메시지는 상당히 클 수 있습니다(이론적으로 최대 2^24-1바이트, 실제로는 수 킬로바이트). 대조적으로, IP 조각화가 바람직하지 않은 경우 UDP 데이터그램은 1500바이트 미만으로 제한되는 경우가 많습니다. 이러한 제한을 보완하기 위해 각 DTLS 핸드셰이크 메시지는 여러 DTLS 레코드로 분할될 수 있으며, 각 레코드는 단일 IP 데이터그램에 맞도록 고안되었습니다. 각 DTLS 핸드셰이크 메시지에는 조각 오프셋과 조각 길이가 모두 포함되어 있습니다. 따라서 핸드셰이크 메시지의 모든 바이트를 소유한 수신자는 조각화되지 않은 원본 메시지를 재조립할 수 있습니다.

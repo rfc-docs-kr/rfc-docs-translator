@@ -1,0 +1,17 @@
+"hash": |-
+  56b2fda02b6a837b53ed9821a19bc9ddcff8db0252d10f5d296a0e5d46301a1c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TCP endpoint MAY implement PUSH flags on SEND calls (MAY-15).  If
+     PUSH flags are not implemented, then the sending TCP peer: (1) MUST
+     NOT buffer data indefinitely (MUST-60), and (2) MUST set the PSH bit
+     in the last buffered segment (i.e., when there is no more queued data
+     to be sent) (MUST-61).  The remaining description below assumes the
+     PUSH flag is supported on SEND calls.
+"fixed": |-
+  A TCP endpoint MAY implement PUSH flags on SEND calls (MAY-15).  If PUSH flags are not implemented, then the sending TCP peer: (1) MUST NOT buffer data indefinitely (MUST-60), and (2) MUST set the PSH bit in the last buffered segment (i.e., when there is no more queued data to be sent) (MUST-61).  The remaining description below assumes the PUSH flag is supported on SEND calls.
+"ko": |-
+  TCP 끝점은 SEND 호출에 PUSH 플래그를 구현할 수 있습니다(MAY-15). PUSH 플래그가 구현되지 않은 경우 송신 TCP 피어는 (1) 데이터를 무기한 버퍼링해서는 안 되며(MUST-60), (2) 마지막 버퍼링된 세그먼트에 PSH 비트를 설정해야 합니다(즉, 더 이상 대기 중인 세그먼트가 없을 때). 전송될 데이터) (MUST-61). 아래 나머지 설명에서는 SEND 호출에서 PUSH 플래그가 지원된다고 가정합니다.

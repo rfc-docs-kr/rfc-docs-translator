@@ -1,0 +1,1 @@
+   정체 제어는 LE 트래픽 클래스 내에서도 유용하므로 ECN(Explicit Congestion Notification) [RFC3168]을 LE 패킷에도 사용해야 합니다. 보다 구체적으로, LE 구현은 ECT 표시 패킷에 대해 CE(Congestion Experienced) 표시도 적용해야 하며("ECT"는 ECN 지원 전송을 나타냄) LE 지원에 사용되는 전송 프로토콜은 ECN을 사용해야 합니다. ECN 사용의 이점에 대한 자세한 내용은 [RFC8087]을 참조하세요.

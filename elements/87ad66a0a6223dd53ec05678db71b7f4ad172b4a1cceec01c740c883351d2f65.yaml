@@ -1,0 +1,18 @@
+"hash": |-
+  87ad66a0a6223dd53ec05678db71b7f4ad172b4a1cceec01c740c883351d2f65
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The :xpath capability modifies the <get> and <get-config> operations
+     to accept the value "xpath" in the "type" attribute of the <filter>
+     element.  When the "type" attribute is set to "xpath", a "select"
+     attribute MUST be present on the <filter> element.  The "select"
+     attribute will be treated as an XPath expression and used to filter
+     the returned data.  The <filter> element itself MUST be empty in this
+     case.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

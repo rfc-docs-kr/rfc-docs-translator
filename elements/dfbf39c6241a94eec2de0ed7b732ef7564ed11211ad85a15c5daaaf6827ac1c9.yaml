@@ -1,0 +1,19 @@
+"hash": |-
+  dfbf39c6241a94eec2de0ed7b732ef7564ed11211ad85a15c5daaaf6827ac1c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a TCP connection is established for the "imaps" service (default
+     port 993), a TLS handshake begins immediately.  Clients MUST
+     implement the certificate validation mechanism described in
+     [RFC7817].  Once the TLS session is established, IMAP [RFC3501]
+     protocol messages are exchanged as TLS application data for the
+     remainder of the TCP connection.  If a client certificate was
+     provided during the TLS handshake that the server finds acceptable,
+     the server MAY issue a PREAUTH greeting, in which case both the
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

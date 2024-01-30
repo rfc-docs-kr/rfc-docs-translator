@@ -1,0 +1,21 @@
+"hash": |-
+  cd322a4f905cf58f3cbd314156a5bd672ed69b7c91c9d5bb9abcb0a22c83bcce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [RFC6066] and [RFC6961] provide extensions to negotiate the server
+     sending OCSP responses to the client.  In TLS 1.2 and below, the
+     server replies with an empty extension to indicate negotiation of
+     this extension and the OCSP information is carried in a
+     CertificateStatus message.  In TLS 1.3, the server's OCSP information
+     is carried in an extension in the CertificateEntry containing the
+     associated certificate.  Specifically, the body of the
+     "status_request" extension from the server MUST be a
+     CertificateStatus structure as defined in [RFC6066], which is
+     interpreted as defined in [RFC6960].
+"fixed": |-
+  [RFC6066] and [RFC6961] provide extensions to negotiate the server sending OCSP responses to the client.  In TLS 1.2 and below, the server replies with an empty extension to indicate negotiation of this extension and the OCSP information is carried in a CertificateStatus message.  In TLS 1.3, the server's OCSP information is carried in an extension in the CertificateEntry containing the associated certificate.  Specifically, the body of the "status_request" extension from the server MUST be a CertificateStatus structure as defined in [RFC6066], which is interpreted as defined in [RFC6960].
+"ko": |-
+  [RFC6066] 및 [RFC6961]은 클라이언트에 OCSP 응답을 보내는 서버를 협상하기 위한 확장을 제공합니다. TLS 1.2 이하에서는 서버가 이 확장의 협상을 나타내기 위해 빈 확장으로 응답하고 OCSP 정보는 CertificateStatus 메시지에 전달됩니다. TLS 1.3에서 서버의 OCSP 정보는 관련 인증서가 포함된 CertificateEntry의 확장으로 전달됩니다. 특히, 서버의 "status_request" 확장 본문은 [RFC6060]에 정의된 대로 해석되는 [RFC6066]에 정의된 CertificateStatus 구조여야 합니다.

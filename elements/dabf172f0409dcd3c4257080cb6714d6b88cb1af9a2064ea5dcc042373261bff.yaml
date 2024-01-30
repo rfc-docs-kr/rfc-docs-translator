@@ -1,0 +1,27 @@
+"hash": |-
+  dabf172f0409dcd3c4257080cb6714d6b88cb1af9a2064ea5dcc042373261bff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The STARTTLS mechanism on port 587 is relatively widely deployed due
+     to the situation with port 465 (discussed in Section 7.3).  This
+     differs from IMAP and POP services where Implicit TLS is more widely
+     deployed on servers than STARTTLS.  It is desirable to migrate core
+     protocols used by MUA software to Implicit TLS over time, for
+     consistency as well as for the additional reasons discussed in
+     Appendix A.  However, to maximize the use of encryption for
+     submission, it is desirable to support both mechanisms for Message
+     Submission over TLS for a transition period of several years.  As a
+     result, clients and servers SHOULD implement both STARTTLS on
+     port 587 and Implicit TLS on port 465 for this transition period.
+     Note that there is no significant difference between the security
+     properties of STARTTLS on port 587 and Implicit TLS on port 465 if
+     the implementations are correct and if both the client and the server
+     are configured to require successful negotiation of TLS prior to
+     Message Submission.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

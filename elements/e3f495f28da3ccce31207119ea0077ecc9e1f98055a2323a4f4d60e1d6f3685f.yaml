@@ -1,0 +1,25 @@
+"hash": |-
+  e3f495f28da3ccce31207119ea0077ecc9e1f98055a2323a4f4d60e1d6f3685f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Section 2 of this document discusses the directed graph
+          representation of an area.  Router nodes are labelled with their
+          Router ID.  Transit network nodes are actually labelled with the
+          IP address of their Designated Router.  It follows that when the
+          Designated Router changes, it appears as if the network node on
+          the graph is replaced by an entirely new node.  This will cause
+          the network and all its attached routers to originate new LSAs.
+          Until the link-state databases again converge, some temporary
+          loss of connectivity may result.  This may result in ICMP
+          unreachable messages being sent in response to data traffic.
+          For that reason, the Designated Router should change only
+          infrequently.  Router Priorities should be configured so that
+          the most dependable router on a network eventually becomes
+          Designated Router.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

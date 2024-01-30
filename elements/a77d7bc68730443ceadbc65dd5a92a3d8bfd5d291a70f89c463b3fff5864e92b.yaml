@@ -1,0 +1,22 @@
+"hash": |-
+  a77d7bc68730443ceadbc65dd5a92a3d8bfd5d291a70f89c463b3fff5864e92b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Accounting-Request (whether for Start or Stop) is submitted to
+     the RADIUS accounting server via the network. It is recommended that
+     the client continue attempting to send the Accounting-Request packet
+     until it receives an acknowledgement, using some form of backoff.  If
+     no response is returned within a length of time, the request is re-
+     sent a number of times.  The client can also forward requests to an
+     alternate server or servers in the event that the primary server is
+     down or unreachable.  An alternate server can be used either after a
+     number of tries to the primary server fail, or in a round-robin
+     fashion.  Retry and fallback algorithms are the topic of current
+     research and are not specified in detail in this document.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

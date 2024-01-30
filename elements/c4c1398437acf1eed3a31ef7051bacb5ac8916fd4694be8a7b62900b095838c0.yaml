@@ -1,0 +1,21 @@
+"hash": |-
+  c4c1398437acf1eed3a31ef7051bacb5ac8916fd4694be8a7b62900b095838c0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ServiceChangeAddress ::= CHOICE
+     {
+          portNumber      INTEGER(0..65535), -- TCP/UDP port number
+          ip4Address      IP4Address,
+          ip6Address      IP6Address,
+          domainName      DomainName,
+          deviceName      PathName,
+          mtpAddress      OCTET STRING(SIZE(2)),
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

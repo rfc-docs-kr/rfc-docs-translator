@@ -1,0 +1,1 @@
+   서버는 길이가 0인 SessionTicket 확장을 사용하여 섹션 3.3에 설명된 NewSessionTicket 핸드셰이크 메시지를 사용하여 새 세션 티켓을 보낼 것임을 클라이언트에 나타냅니다. 서버는 NewSessionTicket 핸드셰이크 메시지를 사용하여 클라이언트에 새 티켓을 발급하려는 경우 ServerHello에서 이 확장을 보내야 합니다. 서버는 ClientHello에서 하나를 수신하지 않는 경우 이 확장을 보내면 안 됩니다(MUST NOT).

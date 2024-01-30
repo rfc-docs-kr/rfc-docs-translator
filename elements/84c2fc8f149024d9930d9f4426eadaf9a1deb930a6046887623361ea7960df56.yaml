@@ -1,0 +1,18 @@
+"hash": |-
+  84c2fc8f149024d9930d9f4426eadaf9a1deb930a6046887623361ea7960df56
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In EAP there is no provision for retries of failed authentication.
+     However, in PPP the LCP state machine can renegotiate the
+     authentication protocol at any time, thus allowing a new attempt.
+     Similarly, in IEEE 802.1X the Supplicant or Authenticator can re-
+     authenticate at any time.  It is recommended that any counters used
+     for authentication failure not be reset until after successful
+     authentication, or subsequent termination of the failed link.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

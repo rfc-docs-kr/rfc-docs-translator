@@ -1,0 +1,14 @@
+"hash": |-
+  890e76feb5e345cdd07c578a65e30928685c624e8c89faeb52d3a389bdc8ff7e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server selects an (EC)DHE group and the client did not offer a
+     compatible "key_share" extension in the initial ClientHello, the
+     server MUST respond with a HelloRetryRequest (Section 4.1.4) message.
+"fixed": |-
+  If the server selects an (EC)DHE group and the client did not offer a compatible "key_share" extension in the initial ClientHello, the server MUST respond with a HelloRetryRequest (Section 4.1.4) message.
+"ko": |-
+  서버가 (EC)DHE 그룹을 선택하고 클라이언트가 초기 ClientHello에서 호환 가능한 "key_share" 확장을 제공하지 않은 경우 서버는 HelloRetryRequest(섹션 4.1.4) 메시지로 응답해야 합니다.

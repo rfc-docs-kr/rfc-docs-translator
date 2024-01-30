@@ -1,0 +1,12 @@
+"hash": |-
+  f33a3602ab3d7093607ffa8a0bb14a099f9be34cc4b0029f9cbec5874339d307
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  if the ACK bit is off, drop the segment and return
+"fixed": |-
+  -  if the ACK bit is off, drop the segment and return
+"ko": |-
+  - ACK 비트가 꺼져 있으면 세그먼트를 삭제하고 반환합니다.

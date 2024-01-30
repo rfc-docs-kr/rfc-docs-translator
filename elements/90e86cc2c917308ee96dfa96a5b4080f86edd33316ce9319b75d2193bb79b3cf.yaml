@@ -1,0 +1,20 @@
+"hash": |-
+  90e86cc2c917308ee96dfa96a5b4080f86edd33316ce9319b75d2193bb79b3cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The use of RowPointers as connectors allows for the simple extension
+     of the MIB.  The RowPointers, whether "next" or "specific", may point
+     to Entries defined in other MIB modules.  For example, the only type
+     of meter defined in this MIB is a token bucket meter; if another type
+     of meter is required, another MIB could be defined describing that
+     type of meter, and diffServMeterSpecific could point to it.
+     Similarly, if a new action is required, the "next" pointer of the
+     previous functional datapath element could point to an Entry defined
+     in another MIB, public or proprietary.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  d7b3b56a8075c29f4d6b5e5f9d0a6308ffd2a71294b8cf055ad2c73dbd3e5e92
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        In previous versions of TLS, the verify_data was always 12 octets
+        long.  In the current version of TLS, it depends on the cipher
+        suite.  Any cipher suite which does not explicitly specify
+        verify_data_length has a verify_data_length equal to 12.  This
+        includes all existing cipher suites.  Note that this
+        representation has the same encoding as with previous versions.
+        Future cipher suites MAY specify other lengths but such length
+        MUST be at least 12 bytes.
+"fixed": |-
+  - In previous versions of TLS, the verify_data was always 12 octets long.  In the current version of TLS, it depends on the cipher suite.  Any cipher suite which does not explicitly specify verify_data_length has a verify_data_length equal to 12.  This includes all existing cipher suites.  Note that this representation has the same encoding as with previous versions. Future cipher suites MAY specify other lengths but such length MUST be at least 12 bytes.
+"ko": |-
+  - 이전 버전의 TLS에서는 verify_data 길이가 항상 12옥텟이었습니다. 현재 버전의 TLS에서는 암호화 제품군에 따라 다릅니다. verify_data_length를 명시적으로 지정하지 않은 모든 암호 제품군의 verify_data_length는 12입니다. 여기에는 기존 암호 제품군이 모두 포함됩니다. 이 표현은 이전 버전과 동일한 인코딩을 가지고 있습니다. 향후 암호 제품군에서는 다른 길이를 지정할 수 있지만 해당 길이는 최소 12바이트여야 합니다.

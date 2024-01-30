@@ -1,0 +1,1 @@
+- SND.UNA < SEG.ACK =< SND.NXT인 경우 전송 창을 업데이트해야 합니다. (SND.WL1 < SEG.SEQ 또는 (SND.WL1 = SEG.SEQ 및 SND.WL2 =< SEG.ACK))인 경우 SND.WND <- SEG.WND 설정, SND.WL1 <- SEG.SEQ 설정, SND.WL2 <- SEG.ACK를 설정합니다.

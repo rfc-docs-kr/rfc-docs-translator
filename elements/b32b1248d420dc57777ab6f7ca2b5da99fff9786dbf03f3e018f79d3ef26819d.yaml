@@ -1,0 +1,19 @@
+"hash": |-
+  b32b1248d420dc57777ab6f7ca2b5da99fff9786dbf03f3e018f79d3ef26819d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case of a Loadshare mode AS, the SGP moves the ASP to the
+     ASP-INACTIVE state, and the AS traffic is reallocated across the
+     remaining ASPs in the state ASP-ACTIVE, as per the loadsharing
+     algorithm currently used within the AS.  A Notify message
+     ("Insufficient ASP resources active in AS") MAY be sent to all
+     inactive ASPs, if required.  An ASP Inactive Ack message is sent to
+     the ASP after all traffic is halted, and Layer Management is informed
+     with an M-ASP_INACTIVE indication primitive.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

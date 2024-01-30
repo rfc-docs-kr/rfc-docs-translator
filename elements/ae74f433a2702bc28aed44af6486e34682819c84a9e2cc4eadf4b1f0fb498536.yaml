@@ -1,0 +1,21 @@
+"hash": |-
+  ae74f433a2702bc28aed44af6486e34682819c84a9e2cc4eadf4b1f0fb498536
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  If the remote socket is specified, then change the connection from
+        passive to active, select an ISS.  Send a SYN segment, set SND.UNA
+        to ISS, SND.NXT to ISS+1.  Enter SYN-SENT state.  Data associated
+        with SEND may be sent with SYN segment or queued for transmission
+        after entering ESTABLISHED state.  The urgent bit if requested in
+        the command must be sent with the data segments sent as a result
+        of this command.  If there is no room to queue the request,
+        respond with "error: insufficient resources".  If the remote
+        socket was not specified, then return "error: remote socket
+        unspecified".
+"fixed": |-
+  *  If the remote socket is specified, then change the connection from passive to active, select an ISS.  Send a SYN segment, set SND.UNA to ISS, SND.NXT to ISS+1.  Enter SYN-SENT state.  Data associated with SEND may be sent with SYN segment or queued for transmission after entering ESTABLISHED state.  The urgent bit if requested in the command must be sent with the data segments sent as a result of this command.  If there is no room to queue the request, respond with "error: insufficient resources".  If the remote socket was not specified, then return "error: remote socket unspecified".
+"ko": |-
+  * 원격 소켓이 지정된 경우 연결을 수동에서 활성으로 변경하고 ISS를 선택하십시오. SYN 세그먼트를 보내고 SND.UNA를 ISS로, SND.NXT를 ISS+1로 설정합니다. SYN-SENT 상태로 들어갑니다. SEND와 관련된 데이터는 SYN 세그먼트와 함께 전송되거나 ESTABLISHED 상태로 들어간 후 전송을 위해 대기할 수 있습니다. 명령에서 요청한 경우 긴급 비트는 이 명령의 결과로 전송된 데이터 세그먼트와 함께 전송되어야 합니다. 요청을 대기열에 넣을 공간이 없으면 "오류: 리소스 부족"으로 응답합니다. 원격 소켓이 지정되지 않은 경우 "오류: 원격 소켓이 지정되지 않음"을 반환합니다.

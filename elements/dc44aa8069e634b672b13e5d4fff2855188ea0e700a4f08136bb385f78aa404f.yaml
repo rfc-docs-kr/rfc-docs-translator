@@ -1,0 +1,19 @@
+"hash": |-
+  dc44aa8069e634b672b13e5d4fff2855188ea0e700a4f08136bb385f78aa404f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because this mechanism requires sharing the session database between
+     server nodes in environments with multiple distributed servers, it
+     may be hard to achieve high rates of successful PSK 0-RTT connections
+     when compared to self-encrypted tickets.  Unlike session databases,
+     session tickets can successfully do PSK-based session establishment
+     even without consistent storage, though when 0-RTT is allowed they
+     still require consistent storage for anti-replay of 0-RTT data, as
+     detailed in the following section.
+"fixed": |-
+  Because this mechanism requires sharing the session database between server nodes in environments with multiple distributed servers, it may be hard to achieve high rates of successful PSK 0-RTT connections when compared to self-encrypted tickets.  Unlike session databases, session tickets can successfully do PSK-based session establishment even without consistent storage, though when 0-RTT is allowed they still require consistent storage for anti-replay of 0-RTT data, as detailed in the following section.
+"ko": |-
+  이 메커니즘은 여러 분산 서버가 있는 환경에서 서버 노드 간에 세션 데이터베이스를 공유해야 하기 때문에 자체 암호화된 티켓과 비교할 때 PSK 0-RTT 연결 성공률을 높이기가 어려울 수 있습니다. 세션 데이터베이스와 달리 세션 티켓은 일관된 저장소 없이도 PSK 기반 세션 설정을 성공적으로 수행할 수 있지만, 0-RTT가 허용되는 경우 다음 섹션에 설명된 대로 0-RTT 데이터의 재생 방지를 위해 여전히 일관된 저장소가 필요합니다.

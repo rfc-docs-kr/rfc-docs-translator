@@ -1,0 +1,1 @@
+모든 핸드셰이크에서 서버는 ServerHello 메시지 바로 다음에 EncryptedExtensions 메시지를 보내야 합니다. 이는 server_handshake_traffic_secret에서 파생된 키로 암호화된 첫 번째 메시지입니다.

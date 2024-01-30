@@ -1,0 +1,1 @@
+   주요 일정에 하나 이상의 PSK를 삽입하는 것은 두 가지 방식으로 신호를 받습니다. 기존 구성원은 Commit에서 다루는 PreSharedKey 제안을 통해 알림을 받고 Commit에 추가된 새 구성원은 Commit에 해당하는 환영 메시지의 GroupSecrets 개체를 통해 알립니다. . 기존 구성원과 새 구성원이 주요 일정에 동일한 PSK 입력을 계산하도록 하려면 Commit 및 GroupSecret 개체가 동일한 순서로 동일한 PSK 집합을 나타내야 합니다.

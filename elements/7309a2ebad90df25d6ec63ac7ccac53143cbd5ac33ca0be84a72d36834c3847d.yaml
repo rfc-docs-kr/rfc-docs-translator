@@ -1,0 +1,16 @@
+"hash": |-
+  7309a2ebad90df25d6ec63ac7ccac53143cbd5ac33ca0be84a72d36834c3847d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Either party MAY initiate a close of its write side of the connection
+     by sending a "close_notify" alert.  Any data received after a closure
+     alert has been received MUST be ignored.  If a transport-level close
+     is received prior to a "close_notify", the receiver cannot know that
+     all the data that was sent has been received.
+"fixed": |-
+  Either party MAY initiate a close of its write side of the connection by sending a "close_notify" alert.  Any data received after a closure alert has been received MUST be ignored.  If a transport-level close is received prior to a "close_notify", the receiver cannot know that all the data that was sent has been received.
+"ko": |-
+  각 당사자는 "close_notify" 경고를 전송하여 연결의 쓰기 측 닫기를 시작할 수 있습니다. 폐쇄 경고가 수신된 후 수신된 모든 데이터는 무시되어야 합니다. "close_notify" 이전에 전송 수준 닫기가 수신되면 수신자는 전송된 모든 데이터가 수신되었는지 알 수 없습니다.

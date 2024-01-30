@@ -1,0 +1,21 @@
+"hash": |-
+  79b99640281e503baa57417c47878efc8494fef4dcd3f129c6b9ca847a3665ce
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Whenever a protocol packet is received by the router it is
+          marked with the interface it was received on.  For routers that
+          have virtual links configured, it may not be immediately obvious
+          which interface to associate the packet with.  For example,
+          consider the Router RT11 depicted in Figure 6.  If RT11 receives
+          an OSPF protocol packet on its interface to Network N8, it may
+          want to associate the packet with the interface to Area 2, or
+          with the virtual link to Router RT10 (which is part of the
+          backbone).  In the following, we assume that the packet is
+          initially associated with the non-virtual  link.[3]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,24 @@
+"hash": |-
+  280e498b37144c00a90c5c03b4932390083433d3121f09d8ba99bb624ec8ec25
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Link State Origin
+          Valid only for intra-area paths, this field indicates the LSA
+          (router-LSA or network-LSA) that directly references the
+          destination.  For example, if the destination is a transit
+          network, this is the transit network's network-LSA.  If the
+          destination is a stub network, this is the router-LSA for the
+          attached router.  The LSA is discovered during the shortest-path
+          tree calculation (see Section 16.1).  Multiple LSAs may
+          reference the destination, however a tie-breaking scheme always
+          reduces the choice to a single LSA. The Link State Origin field
+          is not used by the OSPF protocol, but it is used by the routing
+          table calculation in OSPF's Multicast routing extensions
+          (MOSPF).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

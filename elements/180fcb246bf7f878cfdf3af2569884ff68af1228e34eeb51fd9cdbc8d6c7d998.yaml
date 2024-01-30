@@ -1,0 +1,23 @@
+"hash": |-
+  180fcb246bf7f878cfdf3af2569884ff68af1228e34eeb51fd9cdbc8d6c7d998
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Diameter messages containing these or any other AVPs considered to be
+     security-sensitive MUST only be sent protected via mutually
+     authenticated TLS or IPsec.  In addition, those messages MUST NOT be
+     sent via intermediate nodes unless there is end-to-end security
+     between the originator and recipient or the originator has locally
+     trusted configuration that indicates that end-to-end security is not
+     needed.  For example, end-to-end security may not be required in the
+     case where an intermediary node is known to be operated as part of
+     the same administrative domain as the endpoints so that an ability to
+     successfully compromise the intermediary would imply a high
+     probability of being able to compromise the endpoints as well.  Note
+     that no end-to-end security mechanism is specified in this document.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

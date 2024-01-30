@@ -1,0 +1,20 @@
+"hash": |-
+  c48323f251bf1ccb158a286d6a0d955fcc2119ca7b16822e3c0bc2f7b8239664
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A confirmed <commit> operation MUST be reverted if a confirming
+     commit is not issued within the timeout period (by default 600
+     seconds = 10 minutes).  The confirming commit is a <commit> operation
+     without the <confirmed> parameter.  The timeout period can be
+     adjusted with the <confirm-timeout> parameter.  If a follow-up
+     confirmed <commit> operation is issued before the timer expires, the
+     timer is reset to the new value (600 seconds by default).  Both the
+     confirming commit and a follow-up confirmed <commit> operation MAY
+     introduce additional changes to the configuration.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

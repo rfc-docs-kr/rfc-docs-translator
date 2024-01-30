@@ -1,0 +1,18 @@
+"hash": |-
+  bc21b23f98b5badecb75cbfb516538cb5abf60466ac9260982b1a656a516e234
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ChangeCipherSpec message is sent by both the client and the
+     server to notify the receiving party that subsequent records will be
+     protected under the newly negotiated CipherSpec and keys.  Reception
+     of this message causes the receiver to instruct the record layer to
+     immediately copy the read pending state into the read current state.
+     Immediately after sending this message, the sender MUST instruct the
+     record layer to make the write pending state the write active state.
+"fixed": |-
+  The ChangeCipherSpec message is sent by both the client and the server to notify the receiving party that subsequent records will be protected under the newly negotiated CipherSpec and keys.  Reception of this message causes the receiver to instruct the record layer to immediately copy the read pending state into the read current state. Immediately after sending this message, the sender MUST instruct the record layer to make the write pending state the write active state.
+"ko": |-
+  ChangeCipherSpec 메시지는 클라이언트와 서버 모두에서 전송되어 후속 레코드가 새로 협상된 CipherSpec 및 키에 따라 보호될 것임을 수신자에게 알립니다. 이 메시지를 수신하면 수신자는 읽기 보류 상태를 읽기 현재 상태로 즉시 복사하도록 레코드 계층에 지시하게 됩니다. 이 메시지를 보낸 직후 발신자는 쓰기 보류 상태를 쓰기 활성 상태로 만들도록 레코드 계층에 지시해야 합니다.

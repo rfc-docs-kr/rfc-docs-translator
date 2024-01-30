@@ -1,0 +1,21 @@
+"hash": |-
+  9b9cba6aee4b1e8b24ca54181ab1c3d510d0cb1bb689186e24d1d41b68325be2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because implementations respond to an invalid PSK binder by aborting
+     the handshake, it may be possible for an attacker to verify whether a
+     given PSK identity is valid.  Specifically, if a server accepts both
+     external-PSK handshakes and certificate-based handshakes, a valid PSK
+     identity will result in a failed handshake, whereas an invalid
+     identity will just be skipped and result in a successful certificate
+     handshake.  Servers which solely support PSK handshakes may be able
+     to resist this form of attack by treating the cases where there is no
+     valid PSK identity and where there is an identity but it has an
+     invalid binder identically.
+"fixed": |-
+  Because implementations respond to an invalid PSK binder by aborting the handshake, it may be possible for an attacker to verify whether a given PSK identity is valid.  Specifically, if a server accepts both external-PSK handshakes and certificate-based handshakes, a valid PSK identity will result in a failed handshake, whereas an invalid identity will just be skipped and result in a successful certificate handshake.  Servers which solely support PSK handshakes may be able to resist this form of attack by treating the cases where there is no valid PSK identity and where there is an identity but it has an invalid binder identically.
+"ko": |-
+  구현에서는 핸드셰이크를 중단하여 잘못된 PSK 바인더에 응답하기 때문에 공격자가 지정된 PSK ID가 유효한지 여부를 확인할 수 있습니다. 특히, 서버가 외부 PSK 핸드셰이크와 인증서 기반 핸드셰이크를 모두 허용하는 경우 유효한 PSK ID로 인해 핸드셰이크가 실패하는 반면, 유효하지 않은 ID는 건너뛰고 인증서 핸드셰이크에 성공하게 됩니다. PSK 핸드셰이크만 지원하는 서버는 유효한 PSK ID가 없는 경우와 ID는 있지만 유효하지 않은 바인더가 있는 경우를 동일하게 처리하여 이러한 형태의 공격에 저항할 수 있습니다.

@@ -1,0 +1,27 @@
+"hash": |-
+  09e091d18fa76a560429bf8b28ce39080b944306404940b0a47eb9441a156e00
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Case 2: Area A is a transit area and the router is an area
+              border router.
+              In this case, the following calculations must be performed.
+              First, if N's routing table entry presently contains one or
+              more inter-area paths that utilize the transit area Area A,
+              these paths should be removed. If this removes all paths
+              from the routing table entry, the entry should be
+              invalidated.  The entry's old values should be saved for
+              later comparisons. Next the calculation in Section 16.3 must
+              be run again for the single destination N. If the results of
+              this calculation have caused the cost to N to increase, the
+              complete routing table calculation must be rerun starting
+              with the Dijkstra algorithm specified in Section 16.1.
+              Otherwise, if the cost/path to an AS boundary router (as
+              would be the case for a Type 4 summary-LSA) or to any
+              forwarding addresses has changed, all AS-external-LSAs will
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

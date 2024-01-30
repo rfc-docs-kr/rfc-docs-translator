@@ -1,0 +1,20 @@
+"hash": |-
+  56ef82267986d9a2d58dc446c5cd5a3e03993401d246577d6eb979297f1e0815
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Before forwarding or routing a request, Diameter agents, in addition
+     to performing the processing described in Section 6.1.3, SHOULD check
+     for the presence of a candidate route's peer identity in any of the
+     Route-Record AVPs.  In the event of the agent detecting the presence
+     of a candidate route's peer identity in a Route-Record AVP, the agent
+     MUST ignore such a route for the Diameter request message and attempt
+     alternate routes if any exist.  In case all the candidate routes are
+     eliminated by the above criteria, the agent SHOULD return a
+     DIAMETER_UNABLE_TO_DELIVER message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

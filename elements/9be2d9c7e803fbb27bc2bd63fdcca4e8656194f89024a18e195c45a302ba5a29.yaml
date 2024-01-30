@@ -1,0 +1,24 @@
+"hash": |-
+  9be2d9c7e803fbb27bc2bd63fdcca4e8656194f89024a18e195c45a302ba5a29
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ASN.1 description uses octet strings of up to 8 octets in length
+     for Termination IDs.  This means that Termination IDs consist of at
+     most 64 bits.  A fully specified Termination ID may be preceded by a
+     sequence of wildcarding fields.  A wildcarding field is one octet in
+     length.  Bit 7 (the most significant bit) of this octet specifies
+     what type of wildcarding is invoked:  if the bit value equals 1, then
+     the ALL wildcard is used; if the bit value if 0, then the CHOOSE
+     wildcard is used.  Bit 6 of the wildcarding field specifies whether
+     the wildcarding pertains to one level in the hierarchical naming
+     scheme (bit value 0) or to the level of the hierarchy specified in
+     the wildcarding field plus all lower levels (bit value 1).  Bits 0
+     through 5 of the wildcarding field specify the bit position in the
+     Termination ID at which the starts.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

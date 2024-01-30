@@ -1,0 +1,1 @@
+   HTTP 기반 OCSP 요청은 GET 또는 POST 메서드를 사용하여 요청을 제출할 수 있습니다. HTTP 캐싱을 활성화하려면 GET을 사용하여 작은 요청(인코딩 후 255바이트 미만)을 제출할 수 있습니다. HTTP 캐싱이 중요하지 않거나 요청이 255바이트보다 크면 POST를 사용하여 요청을 제출해야 합니다(SHOULD). 프라이버시가 요구되는 경우 HTTP를 사용하여 교환되는 OCSP 트랜잭션은 TLS/SSL(Transport Layer Security/Secure Socket Layer) 또는 일부 다른 하위 계층 프로토콜을 사용하여 보호될 수 있습니다.

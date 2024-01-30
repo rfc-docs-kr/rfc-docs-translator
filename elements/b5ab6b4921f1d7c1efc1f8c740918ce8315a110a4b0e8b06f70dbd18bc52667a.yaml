@@ -1,0 +1,23 @@
+"hash": |-
+  b5ab6b4921f1d7c1efc1f8c740918ce8315a110a4b0e8b06f70dbd18bc52667a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            T1 f1;
+            T2 f2;
+            ....
+            Tn fn;
+            select (E) {
+                case e1: Te1 [[fe1]];
+                case e2: Te2 [[fe2]];
+                ....
+                case en: Ten [[fen]];
+            };
+        } Tv;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

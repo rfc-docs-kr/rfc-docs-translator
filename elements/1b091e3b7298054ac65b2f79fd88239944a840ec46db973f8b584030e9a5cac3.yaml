@@ -1,0 +1,17 @@
+"hash": |-
+  1b091e3b7298054ac65b2f79fd88239944a840ec46db973f8b584030e9a5cac3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  OCSP stapling as used in TLS 1.2 does not extend to intermediate
+        certificates within a certificate chain.  The Multiple Certificate
+        Status extension [RFC6961] addresses this shortcoming, but it has
+        seen little deployment and had been deprecated by [RFC8446].  As a
+        result, although this extension was recommended for TLS 1.2 in
+        [RFC7525], it is no longer recommended by this document.
+"fixed": |-
+  *  OCSP stapling as used in TLS 1.2 does not extend to intermediate certificates within a certificate chain.  The Multiple Certificate Status extension [RFC6961] addresses this shortcoming, but it has seen little deployment and had been deprecated by [RFC8446].  As a result, although this extension was recommended for TLS 1.2 in [RFC7525], it is no longer recommended by this document.
+"ko": |-
+  * TLS 1.2에서 사용되는 OCSP 스테이플링은 인증서 체인 내의 중간 인증서로 확장되지 않습니다. 다중 인증서 상태 확장 [RFC6961]은 이 단점을 해결하지만 거의 배포되지 않았으며 [RFC8446]에 의해 더 이상 사용되지 않습니다. 결과적으로 이 확장은 [RFC7525]에서 TLS 1.2에 권장되었지만 이 문서에서는 더 이상 권장되지 않습니다.

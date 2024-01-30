@@ -1,0 +1,18 @@
+"hash": |-
+  09b5ba9c40cf6e3b928cdcbb8d890118966e70abbcd5f3ac01cb9b98884ed20c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Key Compromise Impersonation (KCI) resistance:  In a mutually
+        authenticated connection with certificates, compromising the
+        long-term secret of one actor should not break that actor's
+        authentication of their peer in the given connection (see
+        [HGFS15]).  For example, if a client's signature key is
+        compromised, it should not be possible to impersonate arbitrary
+        servers to that client in subsequent handshakes.
+"fixed": |-
+  Key Compromise Impersonation (KCI) resistance:  In a mutually authenticated connection with certificates, compromising the long-term secret of one actor should not break that actor's authentication of their peer in the given connection (see [HGFS15]).  For example, if a client's signature key is compromised, it should not be possible to impersonate arbitrary servers to that client in subsequent handshakes.
+"ko": |-
+  KCI(Key Compromise Impersonation) 저항: 인증서를 사용한 상호 인증 연결에서 한 행위자의 장기 비밀이 손상되더라도 해당 연결에서 피어에 대한 해당 행위자의 인증이 중단되어서는 안 됩니다([HGFS15] 참조). 예를 들어 클라이언트의 서명 키가 손상된 경우 후속 핸드셰이크에서 임의의 서버를 해당 클라이언트로 가장하는 것이 불가능해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  27f280bcae699b5a7468c1c1c33c559a1ddcbaba7a4c33038ec5a48b43a3619f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the client has transmitted the ClientHello message, it expects
+     to see a HelloVerifyRequest from the server.  However, if the
+     server's message is lost, the client knows that either the
+     ClientHello or the HelloVerifyRequest has been lost and retransmits.
+     When the server receives the retransmission, it knows to retransmit.
+"fixed": |-
+  Once the client has transmitted the ClientHello message, it expects to see a HelloVerifyRequest from the server.  However, if the server's message is lost, the client knows that either the ClientHello or the HelloVerifyRequest has been lost and retransmits. When the server receives the retransmission, it knows to retransmit.
+"ko": |-
+  클라이언트가 ClientHello 메시지를 전송하면 서버에서 HelloVerifyRequest를 볼 것으로 예상합니다. 그러나 서버의 메시지가 손실되면 클라이언트는 ClientHello 또는 HelloVerifyRequest가 손실되었음을 알고 재전송합니다. 서버는 재전송을 수신하면 재전송을 인지합니다.

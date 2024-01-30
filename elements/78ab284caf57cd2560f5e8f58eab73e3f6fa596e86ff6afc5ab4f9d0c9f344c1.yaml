@@ -1,0 +1,19 @@
+"hash": |-
+  78ab284caf57cd2560f5e8f58eab73e3f6fa596e86ff6afc5ab4f9d0c9f344c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An ASP MAY register multiple Routing Keys at once by including a
+     number of Routing Key parameters in a single REG REQ message.  The
+     SGP MAY respond to each registration request in a single REG RSP
+     message, indicating the success or failure result for each Routing
+     Key in a separate Registration Result parameter.  Alternatively the
+     SGP MAY respond with multiple REG RSP messages, each with one or more
+     Registration Result parameters.  The ASP uses the Local-RK-Identifier
+     parameter to correlate the requests with the responses.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  614e387f2a0f38ed6c1add8ba7254e8141c72ed4c9b101202bcc5a96f1c40fc7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          *p++ = 0xff;
+          *p++ = 0xda;            /* SOS */
+          *p++ = 0;               /* length msb */
+          *p++ = 12;              /* length lsb */
+          *p++ = 3;               /* 3 components */
+          *p++ = 0;               /* comp 0 */
+          *p++ = 0;               /* huffman table 0 */
+          *p++ = 1;               /* comp 1 */
+          *p++ = 0x11;            /* huffman table 1 */
+          *p++ = 2;               /* comp 2 */
+          *p++ = 0x11;            /* huffman table 1 */
+          *p++ = 0;               /* first DCT coeff */
+          *p++ = 63;              /* last DCT coeff */
+          *p++ = 0;               /* sucessive approx. */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

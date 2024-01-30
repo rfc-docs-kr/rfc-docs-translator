@@ -1,0 +1,22 @@
+"hash": |-
+  a1c2f345c662fd5bd88bcef391bdcb4a166f454870e47802b1c5c5c73de1d090
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The data for the optional AVPs is represented in hexadecimal form
+     since the format of these AVPs is not known at the time of definition
+     of the Example-AVP group nor (likely) at the time when the example
+     instance of this AVP is interpreted -- except by Diameter
+     implementations that support the same set of AVPs.  The encoding
+     example illustrates how padding is used and how length fields are
+     calculated.  Also, note that AVPs may be present in the Grouped AVP
+     value that the receiver cannot interpret (here, the Recover-Policy
+     and Futuristic-Acct-Record AVPs).  The length of the Example-AVP is
+     the sum of all the length of the member AVPs, including their
+     padding, plus the Example-AVP header size.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

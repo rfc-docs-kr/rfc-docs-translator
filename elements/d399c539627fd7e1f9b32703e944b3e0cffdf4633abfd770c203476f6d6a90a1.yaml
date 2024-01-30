@@ -1,0 +1,16 @@
+"hash": |-
+  d399c539627fd7e1f9b32703e944b3e0cffdf4633abfd770c203476f6d6a90a1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ; ABNF allows two or more consecutive "." although it is meaningless
+     ; in a domain name.
+     domainName           = "<" (ALPHA / DIGIT) *63(ALPHA / DIGIT / "-" /
+                            ".") ">"
+     deviceName           = pathNAME
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

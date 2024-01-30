@@ -1,0 +1,15 @@
+"hash": |-
+  f7b10186bec3759e371b01bb5194460d3051ea140da7f24e80bce75b66272a5f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a new ClientHello is received, the expected_arrival_time is then
+     compared against the current server wall clock time and if they
+     differ by more than a certain amount, 0-RTT is rejected, though the
+     1-RTT handshake can be allowed to complete.
+"fixed": |-
+  When a new ClientHello is received, the expected_arrival_time is then compared against the current server wall clock time and if they differ by more than a certain amount, 0-RTT is rejected, though the 1-RTT handshake can be allowed to complete.
+"ko": |-
+  새로운 ClientHello가 수신되면 Expect_arrival_time을 현재 서버 벽시계 시간과 비교하여 일정량 이상 차이가 나면 0-RTT가 거부되지만 1-RTT 핸드셰이크는 완료될 수 있습니다.

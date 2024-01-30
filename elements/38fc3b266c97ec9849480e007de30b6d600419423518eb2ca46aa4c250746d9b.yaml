@@ -1,0 +1,13 @@
+"hash": |-
+  38fc3b266c97ec9849480e007de30b6d600419423518eb2ca46aa4c250746d9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  If the time-wait timeout expires on a connection, delete the TCB,
+        enter the CLOSED state, and return.
+"fixed": |-
+  *  If the time-wait timeout expires on a connection, delete the TCB, enter the CLOSED state, and return.
+"ko": |-
+  * 커넥션에서 time-wait timeout이 만료되면 TCB를 삭제하고 CLOSED 상태로 진입한 후 복귀한다.

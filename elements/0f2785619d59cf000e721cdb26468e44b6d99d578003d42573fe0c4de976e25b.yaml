@@ -1,0 +1,18 @@
+"hash": |-
+  0f2785619d59cf000e721cdb26468e44b6d99d578003d42573fe0c4de976e25b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Method 1:
+          Run the entire OSPF functionality over both interfaces, sending
+          and receiving hellos, flooding, supporting separate interface
+          and neighbor FSMs for each interface, etc. When doing this all
+          other routers on the subnet will treat the two interfaces as
+          separate neighbors, since neighbors are identified (on broadcast
+          and NBMA networks) by their IP address.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

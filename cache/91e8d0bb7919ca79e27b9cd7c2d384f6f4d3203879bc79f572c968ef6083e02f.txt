@@ -1,0 +1,1 @@
+   0-RTT 데이터의 매개변수(버전, 대칭 암호화 제품군, ALPN(Application-Layer Protocol Negotiation) [RFC7301] 프로토콜 등)는 사용 중인 PSK와 관련된 매개변수입니다. 외부에서 프로비저닝된 PSK의 경우 연결된 값은 키와 함께 프로비저닝된 값입니다. NewSessionTicket 메시지를 통해 설정된 PSK의 경우 연결된 값은 PSK를 설정한 연결에서 협상된 값입니다. 초기 데이터를 암호화하는 데 사용되는 PSK는 클라이언트의 "pre_shared_key" 확장에 나열된 첫 번째 PSK여야 합니다.

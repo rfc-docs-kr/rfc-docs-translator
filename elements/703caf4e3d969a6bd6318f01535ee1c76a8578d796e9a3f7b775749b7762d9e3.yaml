@@ -1,0 +1,59 @@
+"hash": |-
+  703caf4e3d969a6bd6318f01535ee1c76a8578d796e9a3f7b775749b7762d9e3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <xs:simpleType name="messageIdType">
+         <xs:restriction base="xs:string">
+           <xs:maxLength value="4095"/>
+         </xs:restriction>
+       </xs:simpleType>
+       <!--
+          Types used for session-id
+         -->
+       <xs:simpleType name="SessionId">
+         <xs:restriction base="xs:unsignedInt">
+           <xs:minInclusive value="1"/>
+         </xs:restriction>
+       </xs:simpleType>
+       <xs:simpleType name="SessionIdOrZero">
+         <xs:restriction base="xs:unsignedInt"/>
+       </xs:simpleType>
+       <!--
+          <rpc> element
+         -->
+       <xs:complexType name="rpcType">
+         <xs:sequence>
+           <xs:element ref="rpcOperation"/>
+         </xs:sequence>
+         <xs:attribute name="message-id" type="messageIdType"
+                       use="required"/>
+         <!--
+            Arbitrary attributes can be supplied with <rpc> element.
+           -->
+         <xs:anyAttribute processContents="lax"/>
+       </xs:complexType>
+       <xs:element name="rpc" type="rpcType"/>
+       <!--
+          data types and elements used to construct rpc-errors
+         -->
+       <xs:simpleType name="ErrorType">
+         <xs:restriction base="xs:string">
+           <xs:enumeration value="transport"/>
+           <xs:enumeration value="rpc"/>
+           <xs:enumeration value="protocol"/>
+           <xs:enumeration value="application"/>
+         </xs:restriction>
+       </xs:simpleType>
+       <xs:simpleType name="ErrorTag">
+         <xs:restriction base="xs:string">
+           <xs:enumeration value="in-use"/>
+           <xs:enumeration value="invalid-value"/>
+           <xs:enumeration value="too-big"/>
+           <xs:enumeration value="missing-attribute"/>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

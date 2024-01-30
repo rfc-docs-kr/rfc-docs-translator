@@ -1,0 +1,19 @@
+"hash": |-
+  3c22f788e6da74da1ff4a73f6c090c2dc06d9a310f7c7824b5e42156688e0c5a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the graceful shutdown of the SCTP association has been
+     accomplished, the SCTP layer returns an SCTP-SHUTDOWN_COMPLETE
+     notification primitive to the local M3UA layer.  At the M3UA Layer
+     that initiated the request, the M3UA layer will send an M-
+     SCTP_RELEASE confirm primitive to Layer Management when the
+     association shutdown is complete.  At the peer M3UA Layer, an M-
+     SCTP_RELEASE indication primitive is sent to Layer Management upon
+     abort or successful shutdown of an SCTP association.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

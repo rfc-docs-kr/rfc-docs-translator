@@ -1,0 +1,1 @@
+- * TCP의 경우 ECN 피드백 프로토콜에는 ECN 마크가 드롭과 동일하다는 Classic ECN [RFC3168]의 가정이 포함되어 있어 Scalable TCP에서는 사용할 수 없습니다. 따라서 TCP 수신기 구현을 업그레이드해야 합니다[RFC7560]. TCP(AccECN)에 대한 보다 정확한 ECN 피드백을 표준화하고 구현하기 위한 작업이 진행 중입니다 [ACCECN] [PragueLinux].

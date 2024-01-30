@@ -1,0 +1,19 @@
+"hash": |-
+  2d4ab88ec7689692be2f96c3637c084df6600502fed5aaf87df68cdb9e056a5f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Dynamic Authorization Server receiving a CoA-Request or
+     Disconnect-Request with a Message-Authenticator Attribute present
+     MUST calculate the correct value of the Message-Authenticator and
+     silently discard the packet if it does not match the value sent.  A
+     Dynamic Authorization Client receiving a CoA/Disconnect-ACK or
+     CoA/Disconnect-NAK with a Message-Authenticator Attribute present
+     MUST calculate the correct value of the Message-Authenticator and
+     silently discard the packet if it does not match the value sent.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

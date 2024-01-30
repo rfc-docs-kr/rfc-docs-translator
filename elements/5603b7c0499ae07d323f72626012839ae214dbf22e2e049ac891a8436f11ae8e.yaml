@@ -1,0 +1,20 @@
+"hash": |-
+  5603b7c0499ae07d323f72626012839ae214dbf22e2e049ac891a8436f11ae8e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Twice-NAT works as follows. When Host-A wishes to initiate a session
+     to Host-X, it issues a DNS query for Host-X. A DNS-ALG intercepts the
+     DNS query, and in the response returned to Host-A the DNS-ALG
+     replaces the address for Host-X with one that is properly routable in
+     the local site (say Host-XPRIME). Host A then initiates communication
+     with Host-XPRIME. When the packets traverse the NAT device, the
+     source IP address is translated (as in the case of traditional NAT)
+     and the destination address is translated to Host-X. A similar
+     translation is performed on return packets coming from Host-X.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

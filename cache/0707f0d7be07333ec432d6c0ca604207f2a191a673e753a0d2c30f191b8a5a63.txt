@@ -1,0 +1,1 @@
+   검색 세션(예: "SessionType=Discovery"를 협상한 세션)에는 ErrorRecoveryLevel 키 협상이 필요하지 않습니다. 검색 세션에는 기본값 0이 필요하고 충분하기 때문입니다. 그러나 일부 레거시 iSCSI 구현에서는 검색 세션에서 ErrorRecoveryLevel 키 협상을 시도할 수도 있습니다. 원격 측에서 이러한 협상을 시도하는 경우 호환되는 iSCSI 구현은 응답으로 0(영) 값을 제안해야 합니다. 따라서 Discovery 세션에 대한 운영 ErrorRecoveryLevel은 0이어야 합니다. 이는 자연스럽게 섹션 4.3이 Discovery 세션에 부과하는 기능 제약 조건을 따릅니다.

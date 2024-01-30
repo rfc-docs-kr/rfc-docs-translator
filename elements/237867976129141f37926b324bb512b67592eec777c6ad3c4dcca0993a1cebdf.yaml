@@ -1,0 +1,22 @@
+"hash": |-
+  237867976129141f37926b324bb512b67592eec777c6ad3c4dcca0993a1cebdf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An access device that does not expect to send a re-authorization or a
+     session termination request to the server MAY include the Auth-
+     Session-State AVP with the value set to NO_STATE_MAINTAINED as a hint
+     to the server.  If the server accepts the hint, it agrees that since
+     no session termination message will be received once service to the
+     user is terminated, it cannot maintain state for the session.  If the
+     answer message from the server contains a different value in the
+     Auth-Session-State AVP (or the default value if the AVP is absent),
+     the access device MUST follow the server's directives.  Note that the
+     value NO_STATE_MAINTAINED MUST NOT be set in subsequent re-
+     authorization requests and answers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

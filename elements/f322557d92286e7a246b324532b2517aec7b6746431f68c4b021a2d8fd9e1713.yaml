@@ -1,0 +1,18 @@
+"hash": |-
+  f322557d92286e7a246b324532b2517aec7b6746431f68c4b021a2d8fd9e1713
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client MUST send a Certificate message if and only if the server
+     has requested client authentication via a CertificateRequest message
+     (Section 4.3.2).  If the server requests client authentication but no
+     suitable certificate is available, the client MUST send a Certificate
+     message containing no certificates (i.e., with the "certificate_list"
+     field having length 0).  A Finished message MUST be sent regardless
+     of whether the Certificate message is empty.
+"fixed": |-
+  The client MUST send a Certificate message if and only if the server has requested client authentication via a CertificateRequest message (Section 4.3.2).  If the server requests client authentication but no suitable certificate is available, the client MUST send a Certificate message containing no certificates (i.e., with the "certificate_list" field having length 0).  A Finished message MUST be sent regardless of whether the Certificate message is empty.
+"ko": |-
+  클라이언트는 서버가 CertificateRequest 메시지(섹션 4.3.2)를 통해 클라이언트 인증을 요청한 경우에만 인증서 메시지를 보내야 합니다. 서버가 클라이언트 인증을 요청했지만 적합한 인증서를 사용할 수 없는 경우 클라이언트는 인증서가 포함되지 않은(즉, "certificate_list" 필드의 길이가 0인) 인증서 메시지를 보내야 합니다. 완료 메시지는 인증서 메시지가 비어 있는지 여부에 관계없이 전송되어야 합니다.

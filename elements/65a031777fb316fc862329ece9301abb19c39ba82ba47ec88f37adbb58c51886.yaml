@@ -1,0 +1,19 @@
+"hash": |-
+  65a031777fb316fc862329ece9301abb19c39ba82ba47ec88f37adbb58c51886
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a NAT box x in stub partition X wishes to deliver a packet to
+     stub partition Y, it will encapsulate the packet in an IP header with
+     destination address set to the global address of NAT box y that has
+     been reserved for encapsulation. When NAT box y receives a packet
+     with that destination address, it decapsulates the IP header and
+     routes the packet internally.  Note, there is no address translation
+     in the process; merely transfer of private network packets over an
+     external network tunnel backbone.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

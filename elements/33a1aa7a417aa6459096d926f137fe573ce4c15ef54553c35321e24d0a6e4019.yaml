@@ -1,0 +1,19 @@
+"hash": |-
+  33a1aa7a417aa6459096d926f137fe573ce4c15ef54553c35321e24d0a6e4019
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (1) Calculate the distance D of stub network from the root.  D
+              is equal to the distance from the root to the router vertex
+              (calculated in stage 1), plus the stub network link's
+              advertised cost.  Compare this distance to the current best
+              cost to the stub network.  This is done by looking up the
+              stub network's current routing table entry.  If the
+              calculated distance D is larger, go on to examine the next
+              stub network link in the LSA.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

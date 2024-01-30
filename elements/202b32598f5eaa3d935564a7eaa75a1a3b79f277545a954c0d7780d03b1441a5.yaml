@@ -1,0 +1,24 @@
+"hash": |-
+  202b32598f5eaa3d935564a7eaa75a1a3b79f277545a954c0d7780d03b1441a5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     MId ::= CHOICE
+     {
+          ip4Address                      IP4Address,
+          ip6Address                      IP6Address,
+          domainName                      DomainName,
+          deviceName                      PathName,
+          mtpAddress                      OCTET STRING(SIZE(2)),
+      -- Addressing structure of mtpAddress:
+      --        15                0
+      --        |  PC        | NI |
+      --           14 bits    2 bits
+           ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

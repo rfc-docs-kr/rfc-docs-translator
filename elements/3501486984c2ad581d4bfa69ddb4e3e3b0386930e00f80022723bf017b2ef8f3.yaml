@@ -1,0 +1,21 @@
+"hash": |-
+  3501486984c2ad581d4bfa69ddb4e3e3b0386930e00f80022723bf017b2ef8f3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                      Otherwise, the attached network is a broadcast or
+                      NBMA network and the router is eligible to become
+                      Designated Router.  In this case, in an attempt to
+                      discover the attached network's Designated Router
+                      the interface state is set to Waiting and the single
+                      shot Wait Timer is started.  Additionally, if the
+                      network is an NBMA network examine the configured
+                      list of neighbors for this interface and generate
+                      the neighbor event Start for each neighbor that is
+                      also eligible to become Designated Router.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

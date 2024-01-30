@@ -1,0 +1,23 @@
+"hash": |-
+  ac13c6bea3adc80b1873e650220487b8bb28820b3d4c37c5505000401ee62925
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMIBSchedulerGroup OBJECT-GROUP
+      OBJECTS {
+                diffServSchedulerNextFree, diffServSchedulerNext,
+                diffServSchedulerMethod, diffServSchedulerMinRate,
+                diffServSchedulerMaxRate, diffServSchedulerStorage,
+                diffServSchedulerStatus
+      }
+      STATUS       current
+      DESCRIPTION
+         "The Scheduler Group contains the objects that describe packet
+         schedulers on interfaces."
+      ::= { diffServMIBGroups 13 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  865df538b5694f203b67271a9eb5505337d49c5cf4977921b362b5c291f6db17
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The DUNA message is sent from an SGP in an SG to all concerned ASPs
+     to indicate that the SG has determined that one or more SS7
+     destinations are unreachable.  It is also sent by an SGP in response
+     to a message from the ASP to an unreachable SS7 destination.  As an
+     implementation option, the SG may suppress the sending of subsequent
+     "response" DUNA messages regarding a certain unreachable SS7
+     destination for a certain period to give the remote side time to
+     react.  If there is no alternate route via another SG, the MTP3-User
+     at the ASP is expected to stop traffic to the affected destination
+     via the SG as per the defined MTP3-User procedures.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

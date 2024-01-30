@@ -1,0 +1,22 @@
+"hash": |-
+  9678b7d4a1107ad09718327fdc697e06901a3b8f181d861aa122ccd963585431
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     func derive_keys(key_generating_key, nonce) {
+       message_authentication_key =
+           AES(key = key_generating_key,
+               block = little_endian_uint32(0) ++ nonce)[:8] ++
+           AES(key = key_generating_key,
+               block = little_endian_uint32(1) ++ nonce)[:8]
+       message_encryption_key =
+           AES(key = key_generating_key,
+               block = little_endian_uint32(2) ++ nonce)[:8] ++
+           AES(key = key_generating_key,
+               block = little_endian_uint32(3) ++ nonce)[:8]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

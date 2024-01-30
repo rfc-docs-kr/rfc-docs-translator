@@ -1,0 +1,21 @@
+"hash": |-
+  32c6b15bda3a85c3ff65efb2cfc2f8067b03481be417fe0f0df0361903e4f94d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: The definition does *not* say "only the holder of the
+        matching private key can decrypt the ciphertext to learn what was
+        the plaintext"; sealing is stronger than that. If Alice simply
+        encrypts a plaintext P with a public key K to produce ciphertext C
+        = K(P), then if Bob guesses that P = X, Bob could verify the guess
+        by checking whether K(P) = K(X). To "seal" P and block Bob's
+        guessing attack, Alice could attach a long string R of random bits
+        to P before encrypting to produce C = K(P,R); if Bob guesses that
+        P = X, Bob can only test the guess by also guessing R. (See:
+        salt.)
+"fixed": |-
+  - Tutorial: The definition does *not* say "only the holder of the matching private key can decrypt the ciphertext to learn what was the plaintext"; sealing is stronger than that. If Alice simply encrypts a plaintext P with a public key K to produce ciphertext C = K(P), then if Bob guesses that P = X, Bob could verify the guess by checking whether K(P) = K(X). To "seal" P and block Bob's guessing attack, Alice could attach a long string R of random bits to P before encrypting to produce C = K(P,R); if Bob guesses that P = X, Bob can only test the guess by also guessing R. (See: salt.)
+"ko": |-
+  - 튜토리얼: 정의에는 "일치하는 개인 키의 소유자만이 일반 텍스트가 무엇인지 알아내기 위해 암호문을 해독할 수 있습니다"라고 말하지 *않습니다*. 씰링은 그보다 더 강합니다. Alice가 공개 키 K를 사용하여 일반 텍스트 P를 암호화하여 암호문 C = K(P)를 생성하는 경우 Bob이 P = X라고 추측하면 Bob은 K(P) = K(X)를 확인하여 추측을 확인할 수 있습니다. P를 "봉인"하고 Bob의 추측 공격을 차단하기 위해 Alice는 암호화하여 C = K(P,R)을 생성하기 전에 무작위 비트로 구성된 긴 문자열 R을 P에 연결할 수 있습니다. Bob이 P = X라고 추측하면 Bob은 R도 추측해야만 추측을 테스트할 수 있습니다. (참조: 소금)

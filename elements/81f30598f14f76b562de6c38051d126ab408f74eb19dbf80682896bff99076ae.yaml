@@ -1,0 +1,19 @@
+"hash": |-
+  81f30598f14f76b562de6c38051d126ab408f74eb19dbf80682896bff99076ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Even if it advertises the :writable-running capability, a device
+        MAY choose not to support the <running/> configuration datastore
+        as the <target> parameter of a <copy-config> operation.  A device
+        MAY choose not to support remote-to-remote copy operations, where
+        both the <source> and <target> parameters use the <url> element.
+        If the <source> and <target> parameters identify the same URL or
+        configuration datastore, an error MUST be returned with an error-
+        tag containing "invalid-value".
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

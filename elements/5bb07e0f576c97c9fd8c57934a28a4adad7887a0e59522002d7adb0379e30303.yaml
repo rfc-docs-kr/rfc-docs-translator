@@ -1,0 +1,13 @@
+"hash": |-
+  5bb07e0f576c97c9fd8c57934a28a4adad7887a0e59522002d7adb0379e30303
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  If the negotiated key exchange algorithm is one of (ECDH_ECDSA,
+        ECDHE_ECDSA), behave as if the client had sent value {sha1,ecdsa}.
+"fixed": |-
+  -  If the negotiated key exchange algorithm is one of (ECDH_ECDSA, ECDHE_ECDSA), behave as if the client had sent value {sha1,ecdsa}.
+"ko": |-
+  - 협상된 키 교환 알고리즘이 (ECDH_ECDSA, ECDHE_ECDSA) 중 하나인 경우 클라이언트가 {sha1,ecdsa} 값을 보낸 것처럼 동작합니다.

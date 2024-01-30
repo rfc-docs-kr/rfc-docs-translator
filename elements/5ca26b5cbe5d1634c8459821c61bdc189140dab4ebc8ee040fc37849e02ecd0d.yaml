@@ -1,0 +1,20 @@
+"hash": |-
+  5ca26b5cbe5d1634c8459821c61bdc189140dab4ebc8ee040fc37849e02ecd0d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Key storage should persist across a system restart, warm or
+          cold, to avoid operational issues. In the event that the last
+          key associated with an interface expires, it is unacceptable to
+          revert to an unauthenticated condition, and not advisable to
+          disrupt routing.  Therefore, the router should send a "last
+          authentication key expiration" notification to the network
+          manager and treat the key as having an infinite lifetime until
+          the lifetime is extended, the key is deleted by network
+          management, or a new key is configured.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

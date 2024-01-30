@@ -1,0 +1,1 @@
+   서버가 대량 CB_LAYOUTRECALL을 전송하고 LAYOUTGET 또는 stateid가 포함된 LAYOUTRETURN을 수신하는 경우 서버는 NFS4ERR_RECALLCONFLICT를 반환해야 합니다. 서버가 대량 CB_LAYOUTRECALL을 전송하고 CB_LAYOUTRECALL의 lor_recalltype과 동일하지 않은 lr_returntype을 사용하여 LAYOUTRETURN을 수신한 경우 서버는 NFS4ERR_RECALLCONFLICT를 반환해야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  18e90aeae9e345c8c00d9e8c012e70d3c0ef3c0e70303a526e4194720b94e704
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a valid ARP Reply is received, the MAC address in the sender
+     hardware address field (ar$sha) in the ARP Reply is matched against
+     the target hardware address field (ar$tpa) in the ARP Request, and
+     the IPv4 address in the sender protocol address field (ar$spa) of the
+     ARP Reply is matched against the target protocol address field
+     (ar$tpa) in the ARP Request.  If a match is found, then the host
+     continues to use that IPv4 address, subject to the lease re-
+     acquisition and expiration behavior described in Section 4.4.5 of the
+     DHCP specification [RFC2131].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

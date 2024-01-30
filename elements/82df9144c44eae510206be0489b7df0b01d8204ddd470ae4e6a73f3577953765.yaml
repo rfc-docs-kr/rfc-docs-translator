@@ -1,0 +1,22 @@
+"hash": |-
+  82df9144c44eae510206be0489b7df0b01d8204ddd470ae4e6a73f3577953765
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServRandomDropMinThreshPkts OBJECT-TYPE
+      SYNTAX       Unsigned32  (1..4294967295)
+      UNITS        "packets"
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The average queue depth in packets, beyond which traffic has a
+         non-zero probability of being dropped. Changes in this variable
+         may or may not be reflected in the reported value of
+         diffServRandomDropMinThreshBytes."
+      ::= { diffServRandomDropEntry 3 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

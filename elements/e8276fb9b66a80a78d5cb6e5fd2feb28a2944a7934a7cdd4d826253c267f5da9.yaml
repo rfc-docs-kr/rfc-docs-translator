@@ -1,0 +1,22 @@
+"hash": |-
+  e8276fb9b66a80a78d5cb6e5fd2feb28a2944a7934a7cdd4d826253c267f5da9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  IfDirection ::= TEXTUAL-CONVENTION
+      STATUS current
+      DESCRIPTION
+         "IfDirection specifies a direction of data travel on an
+         interface. 'inbound' traffic is operated on during reception from
+         the interface, while 'outbound' traffic is operated on prior to
+         transmission on the interface."
+      SYNTAX  INTEGER {
+                  inbound(1),     -- ingress interface
+                  outbound(2)     -- egress interface
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

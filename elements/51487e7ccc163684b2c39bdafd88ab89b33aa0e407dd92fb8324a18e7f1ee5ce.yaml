@@ -1,0 +1,18 @@
+"hash": |-
+  51487e7ccc163684b2c39bdafd88ab89b33aa0e407dd92fb8324a18e7f1ee5ce
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              A TCP MUST be able to receive a TCP option in any segment.
+              A TCP MUST ignore without error any TCP option it does not
+              implement, assuming that the option has a length field (all
+              TCP options defined in the future will have length fields).
+              TCP MUST be prepared to handle an illegal option length
+              (e.g., zero) without crashing; a suggested procedure is to
+              reset the connection and log the reason.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  5156511421fe796c4cc8f7f1dfa7e8e30e1f3a1100c1e1283d4ef629a8c4e07d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              o   Database Description packets must be processed in
+                  sequence, as indicated by the packets' DD sequence
+                  numbers. If the router is master, the next packet
+                  received should have DD sequence number equal to the DD
+                  sequence number in the neighbor data structure. If the
+                  router is slave, the next packet received should have DD
+                  sequence number equal to one more than the DD sequence
+                  number stored in the neighbor data structure. In either
+                  case, if the packet is the next in sequence it should be
+                  accepted and its contents processed as specified below.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

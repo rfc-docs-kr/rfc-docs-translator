@@ -1,0 +1,20 @@
+"hash": |-
+  3cf05cf963ad6326cbf70f7bf4981b68354557e5ec57fbb134f2be9e20bf463c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client's IGP does not support variable length subnet masks,
+     this could be done by advertising the remainder of the class A's
+     address space in appropriately sized subnets.  However, unless the
+     client has a very large portion of the class A space, this is likely
+     to result in a large number of subnets (for example, a mask of
+     255.255.255.0 would require a total of 65535 subnets, including those
+     allocated to the client).  For this reason, it may be preferable to
+     simply use an IGP that supports variable length subnet masks within
+     the client's domain.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

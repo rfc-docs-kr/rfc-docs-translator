@@ -1,0 +1,17 @@
+"hash": |-
+  fa81b5e80d7bfc89810e260900f696655df4a1c9323bba914f2fcd5a7876c907
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  A router that generates an aggregate route for multiple, more-
+         specific routes must discard packets that match the aggregate
+         route, but not any of the more-specific routes.  In other words,
+         the "next hop" for the aggregate route should be the null
+         destination.  This is necessary to prevent forwarding loops when
+         some addresses covered by the aggregate are not reachable.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

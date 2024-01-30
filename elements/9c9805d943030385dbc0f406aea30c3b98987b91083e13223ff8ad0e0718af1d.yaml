@@ -1,0 +1,26 @@
+"hash": |-
+  9c9805d943030385dbc0f406aea30c3b98987b91083e13223ff8ad0e0718af1d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                      In the above example, the forwarding address field
+                      has been set to 0.0.0.0, indicating that packets for
+                      the external destination should be forwarded to the
+                      advertising OSPF router (RT7).  This is not always
+                      desirable.  Consider the example pictured in Figure
+                      16.  There are three OSPF routers (RTA, RTB and RTC)
+                      connected to a common network.  Only one of these
+                      routers, RTA, is exchanging BGP information with the
+                      non-OSPF router RTX.  RTA must then originate AS-
+                      external-LSAs for those destinations it has learned
+                      from RTX.  By using the AS-external-LSA's forwarding
+                      address field, RTA can specify that packets for
+                      these destinations be forwarded directly to RTX.
+                      Without this feature, Routers RTB and RTC would take
+                      an extra hop to get to these destinations.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

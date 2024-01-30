@@ -1,0 +1,18 @@
+"hash": |-
+  b7914e916813a3692172baf092c2042fa23e8c57b8feec1dde6ea13642de8f14
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some legacy server implementations are known to not implement the TLS
+     specification properly and might abort connections upon encountering
+     TLS extensions or versions which they are not aware of.
+     Interoperability with buggy servers is a complex topic beyond the
+     scope of this document.  Multiple connection attempts may be required
+     in order to negotiate a backward-compatible connection; however, this
+     practice is vulnerable to downgrade attacks and is NOT RECOMMENDED.
+"fixed": |-
+  Some legacy server implementations are known to not implement the TLS specification properly and might abort connections upon encountering TLS extensions or versions which they are not aware of. Interoperability with buggy servers is a complex topic beyond the scope of this document.  Multiple connection attempts may be required in order to negotiate a backward-compatible connection; however, this practice is vulnerable to downgrade attacks and is NOT RECOMMENDED.
+"ko": |-
+  일부 레거시 서버 구현은 TLS 사양을 제대로 구현하지 않는 것으로 알려져 있으며, 인식하지 못하는 TLS 확장이나 버전이 나타나면 연결을 중단할 수 있습니다. 버그가 있는 서버와의 상호 운용성은 이 문서의 범위를 벗어나는 복잡한 주제입니다. 이전 버전과 호환되는 연결을 협상하려면 여러 번의 연결 시도가 필요할 수 있습니다. 그러나 이 방법은 다운그레이드 공격에 취약하므로 권장되지 않습니다.

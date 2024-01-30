@@ -1,0 +1,30 @@
+"hash": |-
+  138b2578e7f2bcc9034c9da56bbb4fa68bc83eaee7c062d33f0ae6c2e402e3ea
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                     +----+
+                                     |Down|
+                                     +----+
+                                       |\
+                                       | \Start
+                                       |  \      +-------+
+                               Hello   |   +---->|Attempt|
+                              Received |         +-------+
+                                       |             |
+                               +----+<-+             |HelloReceived
+                               |Init|<---------------+
+                               +----+<--------+
+                                  |           |
+                                  |2-Way      |1-Way
+                                  |Received   |Received
+                                  |           |
+                +-------+         |        +-----+
+                |ExStart|<--------+------->|2-Way|
+                +-------+                  +-----+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

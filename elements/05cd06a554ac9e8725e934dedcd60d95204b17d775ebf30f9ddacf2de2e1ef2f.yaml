@@ -1,0 +1,21 @@
+"hash": |-
+  05cd06a554ac9e8725e934dedcd60d95204b17d775ebf30f9ddacf2de2e1ef2f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To simplify management creation and deletion of rows in this MIB, the
+     agent is expected to assist in maintaining its consistency.  It may
+     accomplish this by maintaining internal usage counters for any row
+     that might be pointed to by a RowPointer, or by any equivalent means.
+     When a RowPointer is created or written, and the row it points to
+     does not exist, the SET returns an inconsistentValue error.  When a
+     RowStatus variable is set to 'destroy' but the usage counter is non-
+     zero, the SET returns no error but the indicated row is left intact.
+     The agent should later remove the row in the event that the usage
+     counter becomes zero.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

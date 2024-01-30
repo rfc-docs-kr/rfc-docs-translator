@@ -1,0 +1,23 @@
+"hash": |-
+  e03075026407d6957974a23d849a9f954dcc1408b6bc70e847d35c7951affdc1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  DiffServRandomDropEntry ::= SEQUENCE  {
+      diffServRandomDropId               IndexInteger,
+      diffServRandomDropMinThreshBytes   Unsigned32,
+      diffServRandomDropMinThreshPkts    Unsigned32,
+      diffServRandomDropMaxThreshBytes   Unsigned32,
+      diffServRandomDropMaxThreshPkts    Unsigned32,
+      diffServRandomDropProbMax          Unsigned32,
+      diffServRandomDropWeight           Unsigned32,
+      diffServRandomDropSamplingRate     Unsigned32,
+      diffServRandomDropStorage          StorageType,
+      diffServRandomDropStatus           RowStatus
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

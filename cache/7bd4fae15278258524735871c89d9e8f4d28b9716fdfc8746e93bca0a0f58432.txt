@@ -1,0 +1,1 @@
+- (a) 이유_마스크: 이 변수에는 지금까지 처리된 CRL 및 델타 CRL에서 지원하는 취소 이유 집합이 포함됩니다. 집합의 합법적인 멤버는 가능한 취소 이유 값에서 지정되지 않은 값을 뺀 값입니다: keyCompromise, cACompromise, affiliationChanged, superseded, cessationOfOperation, CertificateHold, PrivilegeWithdraft 및 aACompromise. 특수 값 all-reasons는 모든 법적 구성원 집합을 나타내는 데 사용됩니다. 이 변수는 빈 세트로 초기화됩니다.

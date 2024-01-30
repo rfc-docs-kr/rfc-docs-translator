@@ -1,0 +1,3 @@
+   * 상태 비트 SEQ4_STATUS_EXPIRED_ALL_STATE_REVOKED,
+
+- SEQ4_STATUS_EXPIRED_SOME_STATE_REVOKED, SEQ4_STATUS_ADMIN_STATE_REVOKED 및 SEQ4_STATUS_RECALLABLE_STATE_REVOKED는 클라이언트에 잠금 취소 이벤트를 알립니다. 이러한 비트가 설정되면 클라이언트는 TEST_STATEID를 사용하여 어떤 stateid가 취소되었는지 찾고 FREE_STATEID를 사용하여 관련 상태의 손실을 확인해야 합니다.

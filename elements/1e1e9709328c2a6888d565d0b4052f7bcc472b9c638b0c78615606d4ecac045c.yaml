@@ -1,0 +1,34 @@
+"hash": |-
+  1e1e9709328c2a6888d565d0b4052f7bcc472b9c638b0c78615606d4ecac045c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        enum {
+            hello_request_RESERVED(0),
+            client_hello(1),
+            server_hello(2),
+            hello_verify_request_RESERVED(3),
+            new_session_ticket(4),
+            end_of_early_data(5),
+            hello_retry_request_RESERVED(6),
+            encrypted_extensions(8),
+            certificate(11),
+            server_key_exchange_RESERVED(12),
+            certificate_request(13),
+            server_hello_done_RESERVED(14),
+            certificate_verify(15),
+            client_key_exchange_RESERVED(16),
+            finished(20),
+            certificate_url_RESERVED(21),
+            certificate_status_RESERVED(22),
+            supplemental_data_RESERVED(23),
+            key_update(24),
+            message_hash(254),
+            (255)
+        } HandshakeType;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

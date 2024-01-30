@@ -1,0 +1,1 @@
+   백업 송신 노드가 LSP에 대한 경로 메시지를 수신하면 메시지의 송신 보호 하위 개체로 SERO를 확인하여 LSP가 송신 로컬 보호에 사용되는지 여부를 결정합니다. LSP에 대한 Path 메시지에 Egress Protection 하위 객체가 있고 객체의 "egress local protection" 플래그가 1로 설정된 경우 LSP는 egress 노드의 로컬 보호를 위한 백업 LSP입니다. 보호할 기본 송신 노드는 SERO의 기본 송신 하위 개체에 있습니다.

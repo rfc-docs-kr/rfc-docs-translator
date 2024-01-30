@@ -1,0 +1,22 @@
+"hash": |-
+  472d12b8b85b899afe68d652e3d4a2d69c2ebea5981cd51e4b44c335224bb804
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServSchedulerPriority OBJECT-IDENTITY
+      STATUS       current
+      DESCRIPTION
+         "For use with diffServSchedulerMethod to indicate the Priority
+         scheduling method.  This is defined as an algorithm in which the
+         presence of data in a queue or set of queues absolutely precludes
+         dequeue from another queue or set of queues of lower priority.
+         Note that attributes from diffServMinRateEntry of the
+         queues/schedulers feeding this scheduler are used when
+         determining the next packet to schedule."
+      ::= { diffServSchedulers 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

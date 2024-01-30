@@ -1,0 +1,1 @@
+   회신이 ca_maxresponsesize를 초과하면 회신 상태는 NFS4ERR_REP_TOO_BIG가 됩니다. 응답자는 요청의 첫 번째 작업(SEQUENCE 또는 CB_SEQUENCE)에 대한 상태로 NFS4ERR_REP_TOO_BIG를 반환할 수도 있고, 후속 작업(동일한 COMPOUND 또는 CB_COMPOUND 응답에서)에서 이를 반환하도록 선택할 수도 있습니다. 응답자는 응답이 여전히 ca_maxresponsesize를 초과하더라도 SEQUENCE 또는 CB_SEQUENCE에 대한 응답으로 NFS4ERR_REP_TOO_BIG를 반환할 수 있습니다.

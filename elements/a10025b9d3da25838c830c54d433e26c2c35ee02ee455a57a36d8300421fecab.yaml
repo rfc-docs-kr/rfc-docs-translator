@@ -1,0 +1,15 @@
+"hash": |-
+  a10025b9d3da25838c830c54d433e26c2c35ee02ee455a57a36d8300421fecab
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ;Add Move and Modify have the same request parameters
+     ammRequest           = (AddToken / MoveToken / ModifyToken ) EQUAL
+                            TerminationID [LBRKT ammParameter *(COMMA
+                            ammParameter) RBRKT]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  0fae370e16d46026ed0919ef7a05f827b57be4249c0aa48d527ffe9e113bdda9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  All queued SENDs and RECEIVEs should be given "connection reset"
+        notification; all segments queued for transmission (except for the
+        RST formed above) or retransmission should be flushed.  Delete the
+        TCB, enter CLOSED state, and return.
+"fixed": |-
+  *  All queued SENDs and RECEIVEs should be given "connection reset" notification; all segments queued for transmission (except for the RST formed above) or retransmission should be flushed.  Delete the TCB, enter CLOSED state, and return.
+"ko": |-
+  * 대기 중인 모든 SEND 및 RECEIVE에는 "연결 재설정" 알림이 제공되어야 합니다. 전송(위에 형성된 RST 제외) 또는 재전송을 위해 대기 중인 모든 세그먼트를 플러시해야 합니다. TCB를 삭제하고 CLOSED 상태로 들어간 후 돌아갑니다.

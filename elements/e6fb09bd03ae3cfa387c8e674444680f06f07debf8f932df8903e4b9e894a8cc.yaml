@@ -1,0 +1,20 @@
+"hash": |-
+  e6fb09bd03ae3cfa387c8e674444680f06f07debf8f932df8903e4b9e894a8cc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     UDP-tunneled candidates can be encoded in the ICE offer and answer
+     either as relayed or server reflexive candidates, depending on
+     whether the tunneling protocol utilizes a relay between the hosts.
+     The UDP-tunneled candidates may appear to applications as host
+     candidates from a local pseudo-interface.  Treating these candidates
+     as host candidates results in incorrect prioritization and possibly
+     non-optimal candidate selection.  Implementations may attempt to
+     detect pseudo-interfaces, e.g., from the address prefix of the
+     interface, but detection details vary from technique to technique.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

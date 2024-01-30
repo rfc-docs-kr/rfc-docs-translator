@@ -1,0 +1,14 @@
+"hash": |-
+  19092c8f8a98b65d758cf0fbc17b4f41cd99702199d673af68b70602127396c0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1. The retransmit timer expires: the implementation transitions to
+        the SENDING state, where it retransmits the flight, resets the
+        retransmit timer, and returns to the WAITING state.
+"fixed": |-
+  1. The retransmit timer expires: the implementation transitions to the SENDING state, where it retransmits the flight, resets the retransmit timer, and returns to the WAITING state.
+"ko": |-
+  1. 재전송 타이머가 만료됩니다. 구현이 SENDING 상태로 전환되어 항공편을 재전송하고 재전송 타이머를 재설정한 다음 WAITING 상태로 돌아갑니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  6d55682a325cb65aec8add788bff68f3ca8315655c913933da2e193abe8bd9e3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          When a new AS-external-LSA is received, it is not necessary to
+          recalculate the entire routing table.  Call the destination
+          described by the AS-external-LSA N.  N's address is obtained by
+          masking the LSA's Link State ID with the network/subnet mask
+          contained in the body of the LSA. If there is already an intra-
+          area or inter-area route to the destination, no recalculation is
+          necessary (internal routes take precedence).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

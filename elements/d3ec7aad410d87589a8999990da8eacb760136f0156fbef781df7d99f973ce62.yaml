@@ -1,0 +1,14 @@
+"hash": |-
+  d3ec7aad410d87589a8999990da8eacb760136f0156fbef781df7d99f973ce62
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         Derive-Secret(Secret, Label, Messages) =
+              HKDF-Expand-Label(Secret, Label,
+                                Transcript-Hash(Messages), Hash.length)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

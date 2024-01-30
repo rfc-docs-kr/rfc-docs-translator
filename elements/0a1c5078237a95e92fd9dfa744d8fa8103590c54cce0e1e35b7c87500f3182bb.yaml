@@ -1,0 +1,18 @@
+"hash": |-
+  0a1c5078237a95e92fd9dfa744d8fa8103590c54cce0e1e35b7c87500f3182bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Generally, if a manager attempts to create a row, the agent will
+     create the row and return success.  If the agent has insufficient
+     resources or such a row already exists, then it returns an error.  A
+     manager must be prepared to try again in such circumstances, probably
+     by re-reading the NextFree to obtain a new index value in case a
+     second manager had got in between the first manager's read of the
+     NextFree value and the first manager's row-creation attempt.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

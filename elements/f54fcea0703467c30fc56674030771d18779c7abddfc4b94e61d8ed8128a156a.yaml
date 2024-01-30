@@ -1,0 +1,27 @@
+"hash": |-
+  f54fcea0703467c30fc56674030771d18779c7abddfc4b94e61d8ed8128a156a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        With the third approach, each multi-homed organization in the
+        widget group would make use of an address assignment based on its
+        other attachment(s) to TRDs (the attachments not associated with
+        the widget group). The widget backbone would need to maintain
+        routes to the routing domains associated with the various member
+        organizations.  Similarly, all members of the widget group would
+        need to maintain a table of routes to the other members via the
+        widget backbone.  However, since the widget backbone does not
+        inform other general worldwide TRDs of what addresses it can reach
+        (since the backbone is not intended for use by other outside
+        organizations), the relatively large set of routing prefixes needs
+        to be maintained only in a limited number of places. The addresses
+        assigned to the various organizations which are members of the
+        widget group would provide a "default route" via each members
+        other attachments to TRDs, while allowing communications within
+        the widget group to use the preferred path.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

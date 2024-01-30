@@ -1,0 +1,26 @@
+"hash": |-
+  bdbbe5e084961f33fb0fffb73b1f5577058da5abd209285deb4a9e91f5a46ad7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                  Consider again the area configuration in Figure 6.
+                  Routers RT3, RT4, RT7, RT10 and RT11 are all area border
+                  routers, and therefore are originating summary-LSAs.
+                  Consider in particular Router RT4.  Its routing table
+                  was calculated as the example in Section 11.3.  RT4
+                  originates summary-LSAs into both the backbone and Area
+                  1.  Into the backbone, Router RT4 originates separate
+                  LSAs for each of the networks N1-N4.  Into Area 1,
+                  Router RT4 originates separate LSAs for networks N6-N8
+                  and the AS boundary routers RT5,RT7.  It also condenses
+                  host routes Ia and Ib into a single summary-LSA.
+                  Finally, the routes to networks N9,N10,N11 and Host H1
+                  are advertised by a single summary-LSA.  This
+                  condensation was originally performed by the router
+                  RT11.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

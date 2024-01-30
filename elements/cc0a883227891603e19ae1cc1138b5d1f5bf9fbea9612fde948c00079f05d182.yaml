@@ -1,0 +1,21 @@
+"hash": |-
+  cc0a883227891603e19ae1cc1138b5d1f5bf9fbea9612fde948c00079f05d182
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the Event-Timestamp Attribute is present, both the Dynamic
+     Authorization Server and the Dynamic Authorization Client MUST check
+     that the Event-Timestamp Attribute is current within an acceptable
+     time window.  If the Event-Timestamp Attribute is not current, then
+     the packet MUST be silently discarded.  This implies the need for
+     loose time synchronization within the network, which can be achieved
+     by a variety of means, including Simple Network Time Protocol (SNTP),
+     as described in [RFC4330].  Implementations SHOULD be configurable to
+     discard CoA-Request or Disconnect-Request packets not containing an
+     Event-Timestamp Attribute.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,13 @@
+"hash": |-
+  9df4e62d220448fa058f54a9525b1ccf2041e9df3b3faf4d0f551ae5640d7fae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Then ByteReverse(GHASH(dcba..., ByteReverse(X_1), ByteReverse(X_2)))
+          = f7a3b47b846119fae5b7866cf5e5b77e, as required.
+"fixed": |-
+  Then ByteReverse(GHASH(dcba..., ByteReverse(X_1), ByteReverse(X_2)))  -    = f7a3b47b846119fae5b7866cf5e5b77e, as required.
+"ko": |-
+  그런 다음 필요에 따라 ByteReverse(GHASH(dcba..., ByteReverse(X_1), ByteReverse(X_2))) - = f7a3b47b846119fae5b7866cf5e5b77e.

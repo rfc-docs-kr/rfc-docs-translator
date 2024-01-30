@@ -1,0 +1,1 @@
+   GSS_Wrap()은 ssv_seal_cipher_tkn4 데이터 유형 값의 XDR 인코딩인 토큰을 내보냅니다. GSS_Wrap() 호출자가 기밀성을 요청하는지 여부에 관계없이 토큰은 항상 기밀성을 갖습니다. 이는 SSV 메커니즘이 RPCSEC_GSS용이고 RPCSEC_GSS는 기밀성 없이 GSS_wrap() 토큰을 생성하지 않기 때문입니다.

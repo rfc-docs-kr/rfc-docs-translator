@@ -1,0 +1,20 @@
+"hash": |-
+  78ec9809ed6bf21bc58bcf5c2c84d577e211c3bf8266e4cf0f9d11e979cf1dd8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          An area can be configured as a stub when there is a single exit
+          point from the area, or when the choice of exit point need not
+          be made on a per-external-destination basis.  For example, Area
+          3 in Figure 6 could be configured as a stub area, because all
+          external traffic must travel though its single area border
+          router RT11.  If Area 3 were configured as a stub, Router RT11
+          would advertise a default route for distribution inside Area 3
+          (in a summary-LSA), instead of flooding the AS-external-LSAs for
+          Networks N12-N15 into/throughout the area.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

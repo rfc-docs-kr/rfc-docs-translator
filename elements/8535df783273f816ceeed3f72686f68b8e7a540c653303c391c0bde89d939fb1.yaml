@@ -1,0 +1,21 @@
+"hash": |-
+  8535df783273f816ceeed3f72686f68b8e7a540c653303c391c0bde89d939fb1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The padding sent is automatically verified by the record protection
+     mechanism; upon successful decryption of a
+     TLSCiphertext.encrypted_record, the receiving implementation scans
+     the field from the end toward the beginning until it finds a non-zero
+     octet.  This non-zero octet is the content type of the message.  This
+     padding scheme was selected because it allows padding of any
+     encrypted TLS record by an arbitrary size (from zero up to TLS record
+     size limits) without introducing new content types.  The design also
+     enforces all-zero padding octets, which allows for quick detection of
+     padding errors.
+"fixed": |-
+  The padding sent is automatically verified by the record protection mechanism; upon successful decryption of a TLSCiphertext.encrypted_record, the receiving implementation scans the field from the end toward the beginning until it finds a non-zero octet.  This non-zero octet is the content type of the message.  This padding scheme was selected because it allows padding of any encrypted TLS record by an arbitrary size (from zero up to TLS record size limits) without introducing new content types.  The design also enforces all-zero padding octets, which allows for quick detection of padding errors.
+"ko": |-
+  전송된 패딩은 기록 보호 메커니즘에 의해 자동으로 확인됩니다. TLSCiphertext.encrypted_record의 암호 해독이 성공하면 수신 구현은 0이 아닌 옥텟을 찾을 때까지 끝에서 시작 방향으로 필드를 스캔합니다. 0이 아닌 이 옥텟은 메시지의 콘텐츠 유형입니다. 이 패딩 구성표는 새로운 콘텐츠 유형을 도입하지 않고도 암호화된 TLS 레코드를 임의의 크기(0부터 TLS 레코드 크기 제한까지)로 패딩할 수 있기 때문에 선택되었습니다. 또한 이 설계에서는 패딩 오류를 신속하게 감지할 수 있도록 모두 제로 패딩 옥텟을 적용합니다.

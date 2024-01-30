@@ -1,0 +1,1 @@
+   초기 IKE 교환의 첫 번째 메시지에서 개시자는 응답자의 SPI 값을 알지 못하므로 해당 필드를 0으로 설정합니다. IKE_SA_INIT 교환으로 인해 INVALID_KE_PAYLOAD, NO_PROPOSAL_CHOSEN 또는 COOKIE로 인해 IKE SA가 생성되지 않으면 응답 메시지에서도 응답자의 SPI가 0이 됩니다. 그러나 응답자가 0이 아닌 응답자 SPI를 보내는 경우 개시자는 해당 이유만으로 응답을 거부해서는 안 됩니다.

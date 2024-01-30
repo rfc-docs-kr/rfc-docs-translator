@@ -1,0 +1,22 @@
+"hash": |-
+  7cc79346233c20e6f440ffff7d4237d7749b8568d26972f9416bbb3f51742abb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     optional         = [qual] "[" avp-name "]"
+                        ; The avp-name in the 'optional' rule cannot
+                        ; evaluate to any AVP Name that is included
+                        ; in a fixed or required rule.  The AVP can
+                        ; appear anywhere in the message.
+                        ;
+                        ; NOTE:  "[" and "]" have a slightly different
+                        ; meaning than in ABNF.  These braces
+                        ; cannot be used to express optional fixed rules
+                        ; (such as an optional ICV at the end).  To do
+                        ; this, the convention is '0*1fixed'.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

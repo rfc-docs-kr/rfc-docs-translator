@@ -1,0 +1,30 @@
+"hash": |-
+  d30cbc28a46252a774040cf87b71f771dfa10cb17774189edf58f2ef440fca6c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ProbCache [Psaras12] is taking a resource management view on caching
+     decisions and approximates the available cache capacity along the
+     path from source to destination.  Based on this approximation and in
+     order to reduce caching redundancy across the path, it caches content
+     probabilistically.  According to [Chai12], the node with the highest
+     "betweenness centrality" along the path from source to destination is
+     responsible for caching incoming content.  Finally, [HASHROUT]
+     calculates the hash function of a content's name and assigns contents
+     to caches of a domain according to that.  The hash space is split
+     according to the number of caches of the network.  Then, upon
+     subsequent requests, and based again on the hash of the name included
+     in the request, edge routers redirect requests to the cache assigned
+     with the corresponding hash space.  [HASHROUT] is an off-path caching
+     strategy; in contrast to [Psaras12] and [Chai12], it requires minimum
+     coordination and redirection overhead.  In its latest update, Icarus
+     also includes implementation of the "Satisfied Interest Table" (SIT)
+     [Sourlas15].  The SIT points in the direction where content has been
+     sent recently.  Among other benefits, this enables information
+     resilience in case of network fragmentation (i.e., content can still
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

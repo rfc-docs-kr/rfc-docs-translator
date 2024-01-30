@@ -1,0 +1,58 @@
+"hash": |-
+  bf92b663f4b04db75fd0f2f7f880e42ad6a4e9a707a35fc9ae3cb0cedd1a57c4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                              +----------+
+                                              | AVP Flag |
+                                              |  rules   |
+                                              |----+-----|
+                     AVP  Section             |    |MUST |
+     Attribute Name  Code Defined  Data Type  |MUST| NOT |
+     -----------------------------------------|----+-----|
+     Acct-             85  9.8.2   Unsigned32 | M  |  V  |
+       Interim-Interval                       |    |     |
+     Accounting-      483  9.8.7   Enumerated | M  |  V  |
+       Realtime-Required                      |    |     |
+     Acct-            50   9.8.5   UTF8String | M  |  V  |
+       Multi-Session-Id                       |    |     |
+     Accounting-      485  9.8.3   Unsigned32 | M  |  V  |
+       Record-Number                          |    |     |
+     Accounting-      480  9.8.1   Enumerated | M  |  V  |
+       Record-Type                            |    |     |
+     Acct-             44  9.8.4   OctetString| M  |  V  |
+      Session-Id                              |    |     |
+     Accounting-      287  9.8.6   Unsigned64 | M  |  V  |
+       Sub-Session-Id                         |    |     |
+     Acct-            259  6.9     Unsigned32 | M  |  V  |
+       Application-Id                         |    |     |
+     Auth-            258  6.8     Unsigned32 | M  |  V  |
+       Application-Id                         |    |     |
+     Auth-Request-    274  8.7     Enumerated | M  |  V  |
+        Type                                  |    |     |
+     Authorization-   291  8.9     Unsigned32 | M  |  V  |
+       Lifetime                               |    |     |
+     Auth-Grace-      276  8.10    Unsigned32 | M  |  V  |
+       Period                                 |    |     |
+     Auth-Session-    277  8.11    Enumerated | M  |  V  |
+       State                                  |    |     |
+     Re-Auth-Request- 285  8.12    Enumerated | M  |  V  |
+       Type                                   |    |     |
+     Class             25  8.20    OctetString| M  |  V  |
+     Destination-Host 293  6.5     DiamIdent  | M  |  V  |
+     Destination-     283  6.6     DiamIdent  | M  |  V  |
+       Realm                                  |    |     |
+     Disconnect-Cause 273  5.4.3   Enumerated | M  |  V  |
+     Error-Message    281  7.3     UTF8String |    | V,M |
+     Error-Reporting- 294  7.4     DiamIdent  |    | V,M |
+       Host                                   |    |     |
+     Event-Timestamp   55  8.21    Time       | M  |  V  |
+     Experimental-    297  7.6     Grouped    | M  |  V  |
+        Result                                |    |     |
+     -----------------------------------------|----+-----|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

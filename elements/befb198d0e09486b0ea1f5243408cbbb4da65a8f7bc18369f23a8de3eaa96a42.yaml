@@ -1,0 +1,17 @@
+"hash": |-
+  befb198d0e09486b0ea1f5243408cbbb4da65a8f7bc18369f23a8de3eaa96a42
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ticket_age_add:  A securely generated, random 32-bit value that is
+        used to obscure the age of the ticket that the client includes in
+        the "pre_shared_key" extension.  The client-side ticket age is
+        added to this value modulo 2^32 to obtain the value that is
+        transmitted by the client.  The server MUST generate a fresh value
+        for each ticket it sends.
+"fixed": |-
+  ticket_age_add:  A securely generated, random 32-bit value that is used to obscure the age of the ticket that the client includes in the "pre_shared_key" extension.  The client-side ticket age is added to this value modulo 2^32 to obtain the value that is transmitted by the client.  The server MUST generate a fresh value for each ticket it sends.
+"ko": |-
+  ticket_age_add: 클라이언트가 "pre_shared_key" 확장에 포함하는 티켓의 수명을 모호하게 하는 데 사용되는 안전하게 생성된 임의의 32비트 값입니다. 클라이언트가 전송하는 값을 얻기 위해 클라이언트측 티켓 유효 기간을 이 값(모듈로 2^32)에 추가합니다. 서버는 보내는 각 티켓에 대해 새로운 값을 생성해야 합니다.

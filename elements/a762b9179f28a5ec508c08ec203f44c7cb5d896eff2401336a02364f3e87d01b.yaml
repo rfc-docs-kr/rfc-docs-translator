@@ -1,0 +1,18 @@
+"hash": |-
+  a762b9179f28a5ec508c08ec203f44c7cb5d896eff2401336a02364f3e87d01b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          Init
+              The neighbor state machine should be executed with the event
+              2-WayReceived.  This causes an immediate state change to
+              either state 2-Way or state ExStart. If the new state is
+              ExStart, the processing of the current packet should then
+              continue in this new state by falling through to case
+              ExStart below.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

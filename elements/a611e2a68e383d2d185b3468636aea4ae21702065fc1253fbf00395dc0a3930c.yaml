@@ -1,0 +1,28 @@
+"hash": |-
+  a611e2a68e383d2d185b3468636aea4ae21702065fc1253fbf00395dc0a3930c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Deployments in which multiple services handle the same domain
+         name via different protocols (e.g., HTTP and IMAP).  In this
+         case, an attacker might be able to direct a connecting endpoint
+         to the service offering a different protocol and mount a cross-
+         protocol attack.  In a cross-protocol attack, the client and
+         server believe they are using different protocols, which the
+         attacker might exploit if messages sent in one protocol are
+         interpreted as messages in the other protocol with undesirable
+         effects (see [ALPACA] for more detailed information about this
+         class of attacks).  To mitigate this threat, service providers
+         SHOULD deploy ALPN (see Section 3.8).  In addition, to the extent
+         possible, they SHOULD ensure that multiple services handling the
+         same domain name provide equivalent levels of security that are
+         consistent with the recommendations in this document; such
+         measures SHOULD include the handling of configurations across
+         multiple TLS servers and protections against compromise of
+         credentials held by those servers.
+"fixed": |-
+  1.  Deployments in which multiple services handle the same domain name via different protocols (e.g., HTTP and IMAP).  In this case, an attacker might be able to direct a connecting endpoint to the service offering a different protocol and mount a cross- protocol attack.  In a cross-protocol attack, the client and server believe they are using different protocols, which the attacker might exploit if messages sent in one protocol are interpreted as messages in the other protocol with undesirable effects (see [ALPACA] for more detailed information about this class of attacks).  To mitigate this threat, service providers SHOULD deploy ALPN (see Section 3.8).  In addition, to the extent possible, they SHOULD ensure that multiple services handling the same domain name provide equivalent levels of security that are consistent with the recommendations in this document; such measures SHOULD include the handling of configurations across multiple TLS servers and protections against compromise of credentials held by those servers.
+"ko": |-
+  1. 여러 서비스가 서로 다른 프로토콜(예: HTTP 및 IMAP)을 통해 동일한 도메인 이름을 처리하는 배포입니다. 이 경우 공격자는 연결 엔드포인트를 다른 프로토콜을 제공하는 서비스로 연결하고 프로토콜 간 공격을 수행할 수 있습니다. 크로스 프로토콜 공격에서 클라이언트와 서버는 서로 다른 프로토콜을 사용하고 있다고 생각하며, 한 프로토콜에서 보낸 메시지가 다른 프로토콜의 메시지로 해석되어 바람직하지 않은 영향을 미치는 경우 공격자가 이를 악용할 수 있습니다(자세한 내용은 [ALPACA] 참조). 이 클래스의 공격). 이 위협을 완화하려면 서비스 제공업체는 ALPN을 배포해야 합니다(섹션 3.8 참조). 또한 가능한 한 동일한 도메인 이름을 처리하는 여러 서비스가 이 문서의 권장 사항과 일치하는 동등한 수준의 보안을 제공하도록 해야 합니다. 이러한 조치에는 여러 TLS 서버에 걸친 구성 처리와 해당 서버가 보유한 자격 증명의 손상으로부터 보호하는 것이 포함되어야 합니다.

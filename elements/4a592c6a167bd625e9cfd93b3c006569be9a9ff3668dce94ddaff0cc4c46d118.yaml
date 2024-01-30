@@ -1,0 +1,20 @@
+"hash": |-
+  4a592c6a167bd625e9cfd93b3c006569be9a9ff3668dce94ddaff0cc4c46d118
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  DiffServSchedulerEntry ::= SEQUENCE  {
+      diffServSchedulerId                   IndexInteger,
+      diffServSchedulerNext                 RowPointer,
+      diffServSchedulerMethod               AutonomousType,
+      diffServSchedulerMinRate              RowPointer,
+      diffServSchedulerMaxRate              RowPointer,
+      diffServSchedulerStorage              StorageType,
+      diffServSchedulerStatus               RowStatus
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

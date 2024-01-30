@@ -1,0 +1,1 @@
+   COMPOUND가 파일 핸들이 레이아웃의 하나인 PUTFH인 클래스 2에서 작업을 처음 실행하면 이후부터 COMPOUND는 데이터 서버 특성과 관련하여 해석됩니다. 위에서 설명한 두 클래스 이외의 작업은 NFS4ERR_NOTSUPP를 발생시켜야 합니다. 파일 핸들은 데이터 서버의 규칙을 사용하여 검증되며, 비데이터 서버 특성으로 주소 지정될 때 일반적으로 그렇게 하지 않는 경우에도 NFS4ERR_BADHANDLE 및/또는 NFS4ERR_STALE이 발생합니다. Stateid는 특수 stateid 또는 seqid 값이 0이 아닌 stateid를 사용하면 NFS4ERR_BAD_STATEID가 발생해야 한다는 점에서 데이터 서버의 규칙을 따라야 합니다.

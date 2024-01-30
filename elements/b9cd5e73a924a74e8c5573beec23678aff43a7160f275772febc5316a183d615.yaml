@@ -1,0 +1,22 @@
+"hash": |-
+  b9cd5e73a924a74e8c5573beec23678aff43a7160f275772febc5316a183d615
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          The IP destination address for the packet is selected as
+          follows.  On physical point-to-point networks, the IP
+          destination is always set to the address AllSPFRouters.  On all
+          other network types (including virtual links), the majority of
+          OSPF packets are sent as unicasts, i.e., sent directly to the
+          other end of the adjacency.  In this case, the IP destination is
+          just the Neighbor IP address associated with the other end of
+          the adjacency (see Section 10).  The only packets not sent as
+          unicasts are on broadcast networks; on these networks Hello
+          packets are sent to the multicast destination AllSPFRouters, the
+          Designated Router and its Backup send both Link State Update
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

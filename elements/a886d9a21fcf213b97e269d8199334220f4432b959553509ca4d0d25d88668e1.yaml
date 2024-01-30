@@ -1,0 +1,18 @@
+"hash": |-
+  a886d9a21fcf213b97e269d8199334220f4432b959553509ca4d0d25d88668e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the authenticator has not sent a result indication, and the peer
+     is willing to continue the conversation, the peer waits for a Success
+     or Failure packet once the method completes, and MUST NOT silently
+     discard either of them.  In the event that neither a Success nor
+     Failure packet is received, the peer SHOULD terminate the
+     conversation to avoid lengthy timeouts in case the lost packet was an
+     EAP Failure.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

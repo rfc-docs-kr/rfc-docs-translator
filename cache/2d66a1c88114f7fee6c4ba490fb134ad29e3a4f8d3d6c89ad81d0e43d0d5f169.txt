@@ -1,0 +1,1 @@
+- 클라이언트와 서버 모두에 대한 SIP 메시지 구문 분석이 단순화됩니다. 메시지 사이에 Content-Length 헤더를 사용하여 메시지 경계를 설정할 필요가 없습니다. UDP 및 SCTP(Stream Control Transmission Protocol)[RFC4168]와 같은 다른 SIP 전송도 이러한 이점을 제공합니다.

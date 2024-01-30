@@ -1,0 +1,1 @@
+   서버는 "Certificate" 메시지 직후(및 "ServerKeyExchange" 또는 "CertificateRequest" 메시지 이전)에 "CertificateStatus" 메시지를 전송하여 인증서와 함께 인증서 응답을 반환합니다. 서버가 "CertificateStatus" 메시지를 반환하는 경우 서버는 확장된 서버 hello에 빈 "extension_data"가 있는 "status_request" 유형의 확장을 포함해야 합니다. "CertificateStatus" 메시지는 다음과 같이 핸드셰이크 메시지 유형 "certificate_status"를 사용하여 전달됩니다(섹션 2 참조).

@@ -1,0 +1,21 @@
+"hash": |-
+  6344782ccfa5d6d1ebd5c4c327faa64816511a7f5c20534d4f8e8505a82ce4fb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     func encrypt(key_generating_key,
+                  nonce,
+                  plaintext,
+                  additional_data) {
+       if bytelen(plaintext) > 2^36 {
+         fail()
+       }
+       if bytelen(additional_data) > 2^36 {
+         fail()
+       }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   클라이언트는 EXCHANGE_ID 작업을 사용하여 특정 클라이언트 소유자를 서버에 등록합니다. 이 작업에서 반환된 클라이언트 ID는 서버에서 상태를 생성하는 요청에 필요하며 클라이언트가 생성한 세션에 대한 상위 개체 역할을 합니다. 클라이언트 ID를 확인하려면 먼저 반환된 eir_sequenceid와 함께 CREATE_SESSION에 대한 인수로 사용해야 합니다. EXCHGID4_FLAG_CONFIRMED_R 플래그가 결과 eir_flags에 설정된 경우 eir_sequenceid는 관련성이 없으므로 무시해야 합니다.

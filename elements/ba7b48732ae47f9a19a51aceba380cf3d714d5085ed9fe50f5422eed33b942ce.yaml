@@ -1,0 +1,23 @@
+"hash": |-
+  ba7b48732ae47f9a19a51aceba380cf3d714d5085ed9fe50f5422eed33b942ce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For most systems, an unreserved character appearing within a URI
+     component is interpreted as representing the data octet corresponding
+     to that character's encoding in US-ASCII.  Consumers of URIs assume
+     that the letter "X" corresponds to the octet "01011000", and even
+     when that assumption is incorrect, there is no harm in making it.  A
+     system that internally provides identifiers in the form of a
+     different character encoding, such as EBCDIC, will generally perform
+     character translation of textual identifiers to UTF-8 [STD63] (or
+     some other superset of the US-ASCII character encoding) at an
+     internal interface, thereby providing more meaningful identifiers
+     than those resulting from simply percent-encoding the original
+     octets.
+"fixed": |-
+  For most systems, an unreserved character appearing within a URI component is interpreted as representing the data octet corresponding to that character's encoding in US-ASCII.  Consumers of URIs assume that the letter "X" corresponds to the octet "01011000", and even when that assumption is incorrect, there is no harm in making it.  A system that internally provides identifiers in the form of a different character encoding, such as EBCDIC, will generally perform character translation of textual identifiers to UTF-8 [STD63] (or some other superset of the US-ASCII character encoding) at an internal interface, thereby providing more meaningful identifiers than those resulting from simply percent-encoding the original octets.
+"ko": |-
+  대부분의 시스템에서 URI 구성 요소 내에 나타나는 예약되지 않은 문자는 US-ASCII의 해당 문자 인코딩에 해당하는 데이터 옥텟을 나타내는 것으로 해석됩니다. URI 소비자는 문자 "X"가 옥텟 "01011000"에 해당한다고 가정하며, 그 가정이 잘못된 경우에도 이를 작성하는 데 아무런 해가 없습니다. EBCDIC와 같이 다른 문자 인코딩 형태로 식별자를 내부적으로 제공하는 시스템은 일반적으로 내부에서 텍스트 식별자를 UTF-8 [STD63](또는 US-ASCII 문자 인코딩의 다른 상위 집합)로 문자 변환합니다. 인터페이스를 통해 단순히 원래 옥텟을 퍼센트 인코딩하여 생성된 것보다 더 의미 있는 식별자를 제공합니다.

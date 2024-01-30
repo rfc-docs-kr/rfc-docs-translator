@@ -1,0 +1,1 @@
+   LS에는 PID/SGID별로 각 DCS와 연결된 CAFSM(Cache Alignment Finite State Machine)이 있으며(그림 2 참조) CAFSM은 서버 간의 캐시 정렬 상태를 모니터링합니다. CAFSM은 다운 상태에서 시작됩니다. CAFSM은 HFSM과 연관되어 있으며 해당 HFSM이 양방향 상태에 도달하면 CAFSM은 마스터/슬레이브 협상 상태로 전환됩니다. 마스터/슬레이브 협상 상태는 LS 또는 DCS가 캐시 정렬 프로세스에 대한 마스터 역할을 맡도록 합니다. 어떤 의미에서 마스터 서버는 캐시 정렬을 위한 템포를 설정합니다.

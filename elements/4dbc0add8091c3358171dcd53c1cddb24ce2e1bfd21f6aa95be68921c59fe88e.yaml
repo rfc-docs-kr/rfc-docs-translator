@@ -1,0 +1,21 @@
+"hash": |-
+  4dbc0add8091c3358171dcd53c1cddb24ce2e1bfd21f6aa95be68921c59fe88e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMultiFieldClfrDstAddr OBJECT-TYPE
+      SYNTAX         InetAddress
+      MAX-ACCESS     read-create
+      STATUS         current
+      DESCRIPTION
+         "The IP address to match against the packet's destination IP
+         address. This may not be a DNS name, but may be an IPv4 or IPv6
+         prefix.  diffServMultiFieldClfrDstPrefixLength indicates the
+         number of bits that are relevant."
+      ::= { diffServMultiFieldClfrEntry 3 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  08e22bc0f06896e97c25f735e33b737b992cded426efd6f002f41c177a19a139
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "Bit" column has been renamed below as the "Bit Offset" column
+     because it references each header flag's offset within the 16-bit
+     aligned view of the TCP header in Figure 1.  The bits in offsets 0
+     through 3 are the TCP segment Data Offset field, and not header
+     flags.
+"fixed": |-
+  The "Bit" column has been renamed below as the "Bit Offset" column because it references each header flag's offset within the 16-bit aligned view of the TCP header in Figure 1.  The bits in offsets 0 through 3 are the TCP segment Data Offset field, and not header flags.
+"ko": |-
+  "비트" 열은 그림 1의 TCP 헤더의 16비트 정렬 보기 내에서 각 헤더 플래그의 오프셋을 참조하기 때문에 아래에서 "비트 오프셋" 열로 이름이 변경되었습니다. 오프셋 0부터 3까지의 비트는 TCP 세그먼트 데이터입니다. 헤더 플래그가 아닌 오프셋 필드입니다.

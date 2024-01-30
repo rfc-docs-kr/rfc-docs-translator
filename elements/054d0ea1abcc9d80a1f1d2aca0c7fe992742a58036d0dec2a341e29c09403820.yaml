@@ -1,0 +1,23 @@
+"hash": |-
+  054d0ea1abcc9d80a1f1d2aca0c7fe992742a58036d0dec2a341e29c09403820
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The RowPointer Textual Convention is therefore used in two ways in
+     this MIB.  It is defined for the purpose of connecting an object to
+     an entry dynamically; the RowPointer object identifies the first
+     object in the target Entry, and in so doing points to the entire
+     entry.  In this MIB, it is used as a connector between successive
+     functional data path elements, and as the link between the policy
+     structure and the parameters that are used.  When used as a
+     connector, it says what happens "next"; what happens to classified
+     traffic, to traffic conforming or not conforming to a meter, and so
+     on.  When used to indicate the parameters applied in a policy, it
+     says "specifically" what is meant; the structure points to the
+     parameters of its policy.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

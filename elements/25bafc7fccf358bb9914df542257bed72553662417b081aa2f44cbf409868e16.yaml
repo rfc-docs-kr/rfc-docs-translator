@@ -1,0 +1,13 @@
+"hash": |-
+  25bafc7fccf358bb9914df542257bed72553662417b081aa2f44cbf409868e16
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  All queued SENDs and RECEIVEs should be given "connection reset"
+        notification.  Delete the TCB, enter CLOSED state, and return.
+"fixed": |-
+  *  All queued SENDs and RECEIVEs should be given "connection reset" notification.  Delete the TCB, enter CLOSED state, and return.
+"ko": |-
+  * 대기 중인 모든 SEND 및 RECEIVE에는 "연결 재설정" 알림이 제공되어야 합니다. TCB를 삭제하고 CLOSED 상태로 들어간 후 돌아갑니다.

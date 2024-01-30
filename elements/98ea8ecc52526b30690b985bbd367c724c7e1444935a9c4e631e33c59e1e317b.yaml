@@ -1,0 +1,15 @@
+"hash": |-
+  98ea8ecc52526b30690b985bbd367c724c7e1444935a9c4e631e33c59e1e317b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In all handshakes, the server MUST send the EncryptedExtensions
+     message immediately after the ServerHello message.  This is the first
+     message that is encrypted under keys derived from the
+     server_handshake_traffic_secret.
+"fixed": |-
+  In all handshakes, the server MUST send the EncryptedExtensions message immediately after the ServerHello message.  This is the first message that is encrypted under keys derived from the server_handshake_traffic_secret.
+"ko": |-
+  모든 핸드셰이크에서 서버는 ServerHello 메시지 바로 다음에 EncryptedExtensions 메시지를 보내야 합니다. 이는 server_handshake_traffic_secret에서 파생된 키로 암호화된 첫 번째 메시지입니다.

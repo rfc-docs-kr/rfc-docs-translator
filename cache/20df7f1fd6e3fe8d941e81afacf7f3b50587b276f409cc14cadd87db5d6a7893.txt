@@ -1,0 +1,1 @@
+   1. 구성 정보 및 개인 키 자료: 여기에는 모드, 정보 문자열, HPKE 암호화 스위트 식별자(kem_id, kdf_id, aead_id), 모든 발신자, 수신자 및 임시 키 자료가 포함됩니다. 각 역할 X에 대해, 여기서 X는 S, R 또는 E 중 하나이며 각각 보낸 사람, 받는 사람 및 임시로 키 쌍은 (skX, pkX) = DeriveKeyPair(ikmX)로 생성됩니다. 각 키 쌍(skX, pkX)은 직렬화된 형식으로 기록됩니다. 여기서 skXm = SerializePrivateKey(skX) 및 pkXm = SerializePublicKey(pkX)입니다. 해당 모드의 경우 공유 PSK 및 PSK 식별자도 포함됩니다.

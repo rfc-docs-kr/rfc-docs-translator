@@ -1,0 +1,16 @@
+"hash": |-
+  f9cbc63c187e9fa84d244975a11da47db6a83ad463df8941e3a6b3fdd6c6ffeb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ; at-most-once each of embedSig , KeepActiveToken, eventDM or
+     ; eventStream
+     ; KeepActiveToken and embedSig must not both be present
+     secondEventParameter = ( EmbedSig / KeepActiveToken / eventDM /
+                              eventStream / eventOther )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

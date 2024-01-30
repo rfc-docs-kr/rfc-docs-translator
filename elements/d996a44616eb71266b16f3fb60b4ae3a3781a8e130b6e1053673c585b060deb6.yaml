@@ -1,0 +1,31 @@
+"hash": |-
+  d996a44616eb71266b16f3fb60b4ae3a3781a8e130b6e1053673c585b060deb6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                      RTA and RTB would originate the same set of AS-
+                      external-LSAs.  These LSAs, if they specify the same
+                      metric, would be functionally equivalent since they
+                      would specify the same destination and forwarding
+                      address (RTX).  This leads to a clear duplication of
+                      effort.  If only one of RTA or RTB originated the
+                      set of AS-external-LSAs, the routing would remain
+                      the same, and the size of the link state database
+                      would decrease.  However, it must be unambiguously
+                      defined as to which router originates the LSAs
+                      (otherwise neither may, or the identity of the
+                      originator may oscillate).  The following rule is
+                      thereby established: if two routers, both reachable
+                      from one another, originate functionally equivalent
+                      AS-external-LSAs (i.e., same destination, cost and
+                      non-zero forwarding address), then the LSA
+                      originated by the router having the highest OSPF
+                      Router ID is used.  The router having the lower OSPF
+                      Router ID can then flush its LSA.  Flushing an LSA
+                      is discussed in Section 14.1.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  c27c5900bcaf4ae1d0d843141ffa88914b15e9017e2a5dfbf01ae4ff48194c5b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The usage of RTP over TCP is particularly useful when combined with
+     Traversal Using Relays around NAT (TURN) [RFC5766].  In this case,
+     one of the agents would connect to its TURN server using TCP and
+     obtain a TCP-based relayed candidate.  It would offer this to its
+     peer agent as a candidate.  The other agent would initiate a TCP
+     connection towards the TURN server.  When that connection is
+     established, media can flow over the connections, through the TURN
+     server.  The benefit of this usage is that it only requires the
+     agents to make outbound TCP connections to a server on the public
+     network.  This kind of operation is broadly interoperable through NAT
+     and firewall devices.  Since it is a goal of ICE and this extension
+     to provide highly reliable communications that "just work" in as
+     broad a set of network deployments as possible, this use case is
+     particularly important.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

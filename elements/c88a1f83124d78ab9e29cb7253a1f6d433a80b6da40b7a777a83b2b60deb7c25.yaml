@@ -1,0 +1,17 @@
+"hash": |-
+  c88a1f83124d78ab9e29cb7253a1f6d433a80b6da40b7a777a83b2b60deb7c25
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              A host MAY implement a "half-duplex" TCP close sequence, so
+              that an application that has called CLOSE cannot continue to
+              read data from the connection.  If such a host issues a
+              CLOSE call while received data is still pending in TCP, or
+              if new data is received after CLOSE is called, its TCP
+              SHOULD send a RST to show that data was lost.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,24 @@
+"hash": |-
+  1cde6bb226cfba360b37f5d8e6df19d8775b99c8adaeb8a6cdb7bd6f86a1a3ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          This section explains the detailed processing of a received
+          Hello Packet.  (See Section A.3.2 for the format of Hello
+          packets.)  The generic input processing of OSPF packets will
+          have checked the validity of the IP header and the OSPF packet
+          header.  Next, the values of the Network Mask, HelloInterval,
+          and RouterDeadInterval fields in the received Hello packet must
+          be checked against the values configured for the receiving
+          interface.  Any mismatch causes processing to stop and the
+          packet to be dropped.  In other words, the above fields are
+          really describing the attached network's configuration. However,
+          there is one exception to the above rule: on point-to-point
+          networks and on virtual links, the Network Mask in the received
+          Hello Packet should be ignored.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

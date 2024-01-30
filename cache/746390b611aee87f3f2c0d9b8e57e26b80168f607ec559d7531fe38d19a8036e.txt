@@ -1,0 +1,1 @@
+   EDNS 클라이언트 서브넷(ECS) 옵션 [RFC7871]을 사용하면 재귀 확인자가 특정 클라이언트 IP 범위에 적합한 IP 주소를 요청할 수 있습니다. SVCB 레코드는 IP 주소(ipv*hint SvcParams)를 포함하거나 사용자를 서브넷별 TargetName으로 안내할 수 있으므로 재귀 확인자는 A/AAAA 쿼리와 마찬가지로 SVCB 쿼리에 동일한 ECS 옵션을 포함해야 합니다.

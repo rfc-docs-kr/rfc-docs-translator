@@ -1,0 +1,18 @@
+"hash": |-
+  526fc5f72aaff8f0df64902f188a23f198001c57a2c377c0ba0c9d97bdb6f706
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              Some TCP implementations have included a FLUSH call, which
+              will empty the TCP send queue of any data for which the user
+              has issued SEND calls but which is still to the right of the
+              current send window.  That is, it flushes as much queued
+              send data as possible without losing sequence number
+              synchronization.  This is useful for implementing the "abort
+              output" function of Telnet.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

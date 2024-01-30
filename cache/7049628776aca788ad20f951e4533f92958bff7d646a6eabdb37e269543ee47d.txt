@@ -1,0 +1,1 @@
+   해당 인증서 유형 확장("server_certificate_type" 또는 "client_certificate_type")이 EncryptedExtensions에서 협상되지 않았거나 X.509 인증서 유형이 협상된 경우 각 CertificateEntry에는 DER로 인코딩된 X.509 인증서가 포함됩니다. 보낸 사람의 인증서는 목록의 첫 번째 CertificateEntry에 있어야 합니다. 다음 각 인증서는 바로 앞의 인증서를 직접 인증해야 합니다(SHOULD). 인증서 유효성 검사에는 트러스트 앵커가 독립적으로 배포되어야 하므로 지원되는 피어가 생략된 인증서를 소유하고 있는 것으로 알려진 경우 트러스트 앵커를 지정하는 인증서를 체인에서 생략할 수 있습니다(MAY).

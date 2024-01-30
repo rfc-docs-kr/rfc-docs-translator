@@ -1,0 +1,25 @@
+"hash": |-
+  5f34fae5d6d3083834d2458acbba2dd6c8840ed64a29f797096e401bbb4fe0fc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 SGP                            ASP1
+                  |                              |
+                  |<-----ASP Inactive (RCn)------|    RC: Routing Context
+                  |----ASP Inactive Ack (RCn)--->|
+                  |                              |
+                  |<-----DEREGISTER REQ(RCn)-----|    See Notes
+                  |                              |
+                  |---DEREGISTER RESP(LRCn,RCn)->|
+                  |                              |
+                  :                              :
+                  |                              |
+                  |<-----------ASP Down----------|
+                  |---------ASP Down Ack-------->|
+                  |                              |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

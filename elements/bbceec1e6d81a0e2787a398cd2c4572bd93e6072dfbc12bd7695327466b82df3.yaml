@@ -1,0 +1,30 @@
+"hash": |-
+  bbceec1e6d81a0e2787a398cd2c4572bd93e6072dfbc12bd7695327466b82df3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One author of this document was also the author of RFC 2595, which
+     became the standard for TLS usage with POP and IMAP, and the other
+     author was perhaps the first to propose that idea.  In hindsight,
+     both authors now believe that that approach was a mistake.  At this
+     point, the authors believe that while anything that makes it easier
+     to deploy TLS is good, the desirable end state is that these
+     protocols always use TLS, leaving no need for a separate port for
+     cleartext operation except to support legacy clients while they
+     continue to be used.  The separate-port model for TLS is inherently
+     simpler to implement, debug, and deploy.  It also enables a "generic
+     TLS load-balancer" that accepts secure client connections for
+     arbitrary foo-over-TLS protocols and forwards them to a server that
+     may or may not support TLS.  Such load-balancers cause many problems
+     because they violate the end-to-end principle and the server loses
+     the ability to log security-relevant information about the client
+     unless the protocol is designed to forward that information (as this
+     specification does for the ciphersuite).  However, they can result in
+     TLS deployment where it would not otherwise happen, which is a
+     sufficiently important goal that it overrides any problems.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

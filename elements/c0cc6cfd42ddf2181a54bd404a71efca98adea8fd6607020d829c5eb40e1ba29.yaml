@@ -1,0 +1,22 @@
+"hash": |-
+  c0cc6cfd42ddf2181a54bd404a71efca98adea8fd6607020d829c5eb40e1ba29
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While result indications may enable synchronization of the
+     authentication result between the peer and server, this does not
+     guarantee that the peer and authenticator will be synchronized in
+     terms of their authorization or that timeouts will not occur.  For
+     example, the EAP server may not be aware of an authorization decision
+     made by a AAA proxy; the AAA server may check authorization only
+     after authentication has completed successfully, to discover that
+     authorization cannot be granted, or the AAA server may grant access
+     but the authenticator may be unable to provide it due to a temporary
+     lack of resources.  In these situations, synchronization may only be
+     achieved via lower layer result indications.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

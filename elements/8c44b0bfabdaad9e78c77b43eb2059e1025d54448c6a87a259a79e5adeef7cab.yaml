@@ -1,0 +1,18 @@
+"hash": |-
+  8c44b0bfabdaad9e78c77b43eb2059e1025d54448c6a87a259a79e5adeef7cab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At startup or restart phases, an SGP or IPSP, upon receipt of an ASP
+     Active message for the first ASP in a Loadshare AS, SHOULD NOT direct
+     traffic to a newly active ASP until it determines that there are
+     sufficient resources to handle the expected load (e.g., until there
+     are "n" ASPs in state ASP-ACTIVE in the AS).  In this case, the SGP
+     or IPSP SHOULD withhold the Notify (AS-ACTIVE) until there are
+     sufficient resources.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

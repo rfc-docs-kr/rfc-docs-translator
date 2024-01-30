@@ -1,0 +1,23 @@
+"hash": |-
+  57c92b040e47a3776a824d430da5b35b9766459ab50fa66f9a03dcbaf1c64b81
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A subset of the reserved characters (gen-delims) is used as
+     delimiters of the generic URI components described in Section 3.  A
+     component's ABNF syntax rule will not use the reserved or gen-delims
+     rule names directly; instead, each syntax rule lists the characters
+     allowed within that component (i.e., not delimiting it), and any of
+     those characters that are also in the reserved set are "reserved" for
+     use as subcomponent delimiters within the component.  Only the most
+     common subcomponents are defined by this specification; other
+     subcomponents may be defined by a URI scheme's specification, or by
+     the implementation-specific syntax of a URI's dereferencing
+     algorithm, provided that such subcomponents are delimited by
+     characters in the reserved set allowed within that component.
+"fixed": |-
+  A subset of the reserved characters (gen-delims) is used as delimiters of the generic URI components described in Section 3.  A component's ABNF syntax rule will not use the reserved or gen-delims rule names directly; instead, each syntax rule lists the characters allowed within that component (i.e., not delimiting it), and any of those characters that are also in the reserved set are "reserved" for use as subcomponent delimiters within the component.  Only the most common subcomponents are defined by this specification; other subcomponents may be defined by a URI scheme's specification, or by the implementation-specific syntax of a URI's dereferencing algorithm, provided that such subcomponents are delimited by characters in the reserved set allowed within that component.
+"ko": |-
+  예약된 문자(gen-delims)의 하위 집합은 섹션 3에 설명된 일반 URI 구성 요소의 구분 기호로 사용됩니다. 구성 요소의 ABNF 구문 규칙은 예약된 또는 gen-delims 규칙 이름을 직접 사용하지 않습니다. 대신, 각 구문 규칙은 해당 구성 요소 내에서 허용되는 문자(즉, 구분하지 않음)를 나열하고, 예약된 집합에도 있는 이러한 문자는 구성 요소 내의 하위 구성 요소 구분 기호로 사용하기 위해 "예약"됩니다. 이 사양에서는 가장 일반적인 하위 구성 요소만 정의합니다. 다른 하위 구성 요소는 URI 체계의 사양이나 URI 역참조 알고리즘의 구현별 구문에 의해 정의될 수 있습니다. 단, 이러한 하위 구성 요소는 해당 구성 요소 내에서 허용되는 예약 세트의 문자로 구분됩니다.

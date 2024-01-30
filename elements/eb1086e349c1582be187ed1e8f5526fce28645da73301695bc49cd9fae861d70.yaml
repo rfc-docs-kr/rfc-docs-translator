@@ -1,0 +1,14 @@
+"hash": |-
+  eb1086e349c1582be187ed1e8f5526fce28645da73301695bc49cd9fae861d70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Any outstanding RECEIVEs should be returned with "error:
+        connection reset" responses.  Delete TCB, enter CLOSED state, and
+        return.
+"fixed": |-
+  *  Any outstanding RECEIVEs should be returned with "error: connection reset" responses.  Delete TCB, enter CLOSED state, and return.
+"ko": |-
+  * 미해결 RECEIVE는 "오류: 연결 재설정" 응답과 함께 반환되어야 합니다. TCB를 삭제하고 CLOSED 상태로 들어간 후 돌아갑니다.

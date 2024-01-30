@@ -1,0 +1,20 @@
+"hash": |-
+  c4537a44a66138d33f12f6acc3316b782b0af2baeed1e759e5d16e861ec9c9da
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        First, cross-certification applies when two CAs are in different
+        PKIs, i.e., when CA1 and CA2 are under different roots, or perhaps
+        are both roots themselves. Issuing the cross-certificate enables
+        end entities certified under CA1 in PK1 to construct the
+        certification paths needed to validate the certificates of end
+        entities certified under CA2 in PKI2. Sometimes, a pair of cross-
+        certificates is issued -- by CA1 to CA2, and by CA2 to CA1 -- so
+        that an end entity in either PKI can validate certificates issued
+        in the other PKI.
+"fixed": |-
+  - First, cross-certification applies when two CAs are in different PKIs, i.e., when CA1 and CA2 are under different roots, or perhaps are both roots themselves. Issuing the cross-certificate enables end entities certified under CA1 in PK1 to construct the certification paths needed to validate the certificates of end entities certified under CA2 in PKI2. Sometimes, a pair of cross- certificates is issued -- by CA1 to CA2, and by CA2 to CA1 -- so that an end entity in either PKI can validate certificates issued in the other PKI.
+"ko": |-
+  - 첫째, 두 CA가 서로 다른 PKI에 있을 때, 즉 CA1과 CA2가 서로 다른 루트에 있거나 둘 다 루트일 때 교차 인증이 적용됩니다. 교차 인증서를 발급하면 PK1의 CA1에 따라 인증된 최종 엔터티가 PKI2의 CA2에 따라 인증된 최종 엔터티의 인증서를 검증하는 데 필요한 인증 경로를 구성할 수 있습니다. 때로는 CA1에서 CA2로, CA2에서 CA1로 한 쌍의 교차 인증서가 발급되므로 두 PKI의 최종 엔터티가 다른 PKI에서 발급된 인증서를 확인할 수 있습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  dab43a2e5a9cc8051cd40de80e4d2c49e60d521b8617b84c8a12424e64548eef
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                Specifically, the ARP exchange is completed in the usual
+                manner using the normal IP protocol type, but a host that
+                wants to speak trailers will send an additional "trailer
+                ARP reply" packet, i.e., an ARP reply that specifies the
+                trailer encapsulation protocol type but otherwise has the
+                format of a normal ARP reply.  If a host configured to use
+                trailers receives a trailer ARP reply message from a
+                remote machine, it can add that machine to the list of
+                machines that understand trailers, e.g., by marking the
+                corresponding entry in the ARP cache.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

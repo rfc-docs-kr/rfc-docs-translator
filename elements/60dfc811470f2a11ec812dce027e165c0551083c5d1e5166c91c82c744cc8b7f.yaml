@@ -1,0 +1,18 @@
+"hash": |-
+  60dfc811470f2a11ec812dce027e165c0551083c5d1e5166c91c82c744cc8b7f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the M3UA layer subsequently receives an SCTP-COMMUNICATION_DOWN or
+     SCTP-RESTART indication primitive from the underlying SCTP layer, it
+     will inform the Layer Management by invoking the M-SCTP_STATUS
+     indication primitive.  The state of the ASP will be moved to ASP-
+     DOWN.  At an ASP, the MTP3-User will be informed of the
+     unavailability of any affected SS7 destinations through the use of
+     MTP-PAUSE indication primitives.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

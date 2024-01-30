@@ -1,0 +1,22 @@
+"hash": |-
+  d742a71d4f7af2f097c85640ec21b0ed7cac7eb85d98c913cef06cdc9cda44e3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           if Address[i] or the IPv6 Destination Address is multicast {
+              discard the packet
+           }
+           else if 2 or more entries in Address[1..n] are assigned to
+                   local interface and are separated by at least one
+                   address not assigned to local interface {
+              send an ICMP Parameter Problem (Code 0) and discard the
+              packet
+           }
+           else {
+              swap the IPv6 Destination Address and Address[i]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

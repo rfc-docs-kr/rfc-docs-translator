@@ -1,0 +1,23 @@
+"hash": |-
+  47e0d7c3478b41ad1e2ddc0bb796c324c016e351721a4654e6929ee660c9b3e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While parameters like Huffman tables and color space are likely to
+     remain fixed for the lifetime of the video stream, other parameters
+     should be allowed to vary, notably the quantization tables and image
+     size (e.g., to implement rate-adaptive transmission or allow a user
+     to adjust the "quality level" or resolution manually).  Thus explicit
+     fields in the RTP/JPEG header are allocated to represent this
+     information.  Since only a small set of quantization tables are
+     typically used, we encode the entire set of quantization tables in a
+     small integer field.  Customized quantization tables are accommodated
+     by using a special range of values in this field, and then placing
+     the table before the beginning of the JPEG payload.  The image width
+     and height are encoded explicitly.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  2c775b4dc75e831e28e21587385336313d53e99ac8078b909c6c85ef2211b659
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     AmmRequest ::= SEQUENCE
+     {
+          terminationID           TerminationIDList,
+          descriptors             SEQUENCE OF     AmmDescriptor,
+          -- At most one descriptor of each type (see AmmDescriptor)
+          -- allowed in the sequence.
+          ...
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

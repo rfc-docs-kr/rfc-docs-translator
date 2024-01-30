@@ -1,0 +1,1 @@
+   RSA 서명에서 불투명 벡터는 [PKCS1]에 정의된 RSASSA-PKCS1-v1_5 서명 체계를 사용하여 생성된 서명을 포함합니다. [PKCS1]에서 논의된 바와 같이 DigestInfo는 DER 인코딩 [X680] [X690]이어야 합니다. 매개변수가 없는 해시 알고리즘(SHA-1 포함)의 경우 DigestInfo.AlgorithmIdentifier.parameters 필드는 NULL이어야 하지만 구현은 매개변수가 없는 경우와 NULL 매개변수가 있는 경우 모두 허용해야 합니다. 이전 버전의 TLS는 DigestInfo 인코딩을 포함하지 않은 다른 RSA 서명 체계를 사용했습니다.

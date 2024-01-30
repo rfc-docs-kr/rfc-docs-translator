@@ -1,0 +1,20 @@
+"hash": |-
+  dcf13c466240bc554773b95c1009bb335a2a7ebed73a771a9d6d59c93a454cd8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In Disconnect-Request and CoA-Request packets, certain attributes are
+     used to uniquely identify the NAS as well as user session(s) on the
+     NAS.  The combination of NAS and session identification attributes
+     included in a CoA-Request or Disconnect-Request packet MUST match at
+     least one session in order for a Request to be successful; otherwise
+     a Disconnect-NAK or CoA-NAK MUST be sent.  If all NAS identification
+     attributes match, and more than one session matches all of the
+     session identification attributes, then a CoA-Request or Disconnect-
+     Request MUST apply to all matching sessions.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   타원 곡선 공개 키(OCTET STRING인 ECPoint)는 다음과 같이 subjectPublicKey(BIT STRING)에 매핑됩니다. OCTET STRING의 최상위 비트는 BIT STRING의 최상위 비트가 되고 최하위 비트는 OCTET STRING의 비트는 BIT STRING의 최하위 비트가 됩니다. 이 옥텟 문자열은 압축되거나 압축되지 않은 형태로 타원 곡선 점을 나타낼 수 있습니다. 이 사양에 따라 타원 곡선을 지원하는 구현은 압축되지 않은 형식을 지원해야 하며 압축된 형식을 지원할 수 있습니다(MAY).

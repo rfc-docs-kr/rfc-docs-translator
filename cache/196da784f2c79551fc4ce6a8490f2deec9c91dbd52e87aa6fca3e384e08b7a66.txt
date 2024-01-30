@@ -1,0 +1,3 @@
+            <사용자 이름> ::= <문자열>
+
+- <비밀번호> ::= <문자열> <계정정보> ::= <문자열> <문자열> ::= <문자> | <char><string> <char> ::= <CR> 및 <LF>를 제외한 128개의 ASCII 문자 <marker> ::= <pr-string> <pr-string> ::= <pr-char> | <pr-char><pr-string> <pr-char> ::= 인쇄 가능한 문자, ASCII 코드 33~126 <byte-size> ::= <number> <host-port> ::= <host-number >,<포트 번호> <호스트 번호> ::= <번호>,<번호>,<번호>,<번호> <포트 번호> ::= <번호>,<번호> <번호> :: = 1부터 255까지의 모든 십진 정수 <form-code> ::= N | 티 | C <유형 코드> ::= A [<sp> <형식 코드>] | E [<sp> <양식 코드>] | 나는 | L <sp> <바이트 크기> <구조 코드> ::= F | R | P <모드 코드> ::= S | 비 | C <pathname> ::= <string> <decimal-integer> ::= 임의의 10진수

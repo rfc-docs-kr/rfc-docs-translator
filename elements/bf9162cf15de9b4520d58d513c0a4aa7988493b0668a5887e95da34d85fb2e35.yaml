@@ -1,0 +1,18 @@
+"hash": |-
+  bf9162cf15de9b4520d58d513c0a4aa7988493b0668a5887e95da34d85fb2e35
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  In TLS 1.2, the extension contained hash/signature pairs.  The
+        pairs are encoded in two octets, so SignatureScheme values have
+        been allocated to align with TLS 1.2's encoding.  Some legacy
+        pairs are left unallocated.  These algorithms are deprecated as of
+        TLS 1.3.  They MUST NOT be offered or negotiated by any
+        implementation.  In particular, MD5 [SLOTH], SHA-224, and DSA
+        MUST NOT be used.
+"fixed": |-
+  -  In TLS 1.2, the extension contained hash/signature pairs.  The pairs are encoded in two octets, so SignatureScheme values have been allocated to align with TLS 1.2's encoding.  Some legacy pairs are left unallocated.  These algorithms are deprecated as of TLS 1.3.  They MUST NOT be offered or negotiated by any implementation.  In particular, MD5 [SLOTH], SHA-224, and DSA MUST NOT be used.
+"ko": |-
+  - TLS 1.2에서는 확장에 해시/서명 쌍이 포함되었습니다. 쌍은 두 개의 옥텟으로 인코딩되므로 TLS 1.2의 인코딩에 맞춰 SignatureScheme 값이 할당되었습니다. 일부 레거시 쌍은 할당되지 않은 상태로 남아 있습니다. 이러한 알고리즘은 TLS 1.3부터 ​​더 이상 사용되지 않습니다. 어떠한 구현에서도 이를 제안하거나 협상해서는 안 됩니다. 특히 MD5 [SLOTH], SHA-224 및 DSA는 사용하면 안 됩니다.

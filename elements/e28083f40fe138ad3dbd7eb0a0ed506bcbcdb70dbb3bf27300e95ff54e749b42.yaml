@@ -1,0 +1,21 @@
+"hash": |-
+  e28083f40fe138ad3dbd7eb0a0ed506bcbcdb70dbb3bf27300e95ff54e749b42
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMinRateEntry OBJECT-TYPE
+      SYNTAX       DiffServMinRateEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An entry in the Minimum Rate Parameters Table describes a single
+         set of scheduling parameters for use by one or more queues or
+         schedulers."
+      INDEX { diffServMinRateId }
+      ::= { diffServMinRateTable 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

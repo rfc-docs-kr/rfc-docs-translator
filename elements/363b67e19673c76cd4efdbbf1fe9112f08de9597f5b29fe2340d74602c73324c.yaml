@@ -1,0 +1,20 @@
+"hash": |-
+  363b67e19673c76cd4efdbbf1fe9112f08de9597f5b29fe2340d74602c73324c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An empty leaf node within a filter is called a "selection node", and
+     it represents an "explicit selection" filter on the underlying data
+     model.  Presence of any selection nodes within a set of sibling nodes
+     will cause the filter to select the specified subtree(s) and suppress
+     automatic selection of the entire set of sibling nodes in the
+     underlying data model.  For filtering purposes, an empty leaf node
+     can be declared either with an empty tag (e.g., <foo/>) or with
+     explicit start and end tags (e.g., <foo> </foo>).  Any whitespace
+     characters are ignored in this form.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

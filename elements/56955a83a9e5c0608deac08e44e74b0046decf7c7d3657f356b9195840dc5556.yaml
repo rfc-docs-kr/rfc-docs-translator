@@ -1,0 +1,21 @@
+"hash": |-
+  56955a83a9e5c0608deac08e44e74b0046decf7c7d3657f356b9195840dc5556
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Restart markers indicate a point in the JPEG stream at which the
+     Huffman decoder and DC predictors are reset, allowing partial
+     decoding starting at that point.  To fully take advantage of this,
+     however, a decoder must know which MCUs of a frame a particular
+     restart interval encodes.  While the original JPEG specification does
+     provide a small sequence number field in the restart markers for this
+     purpose, it is not large enough to properly cope with the loss of an
+     entire packet's worth of data at a typical network MTU size.  The
+     RTP/JPEG Restart Marker header contains the additional information
+     needed to accomplish this.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

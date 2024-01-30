@@ -1,0 +1,22 @@
+"hash": |-
+  ec5547632db8f14dd9fdf14aa5a7978ca9f25421610e7ebddb81ea9680035216
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Two meter entries are used to configure this, one for the conforming
+     rate and one for the excess rate.  The rate parameters are stored in
+     associated Token Bucket Parameter Entries.  The "FailNext" pointer of
+     the lower rate Meter Entry points to the other Meter Entry; both
+     "SucceedNext" pointers and the "FailNext" pointer of the higher Meter
+     Entry point to lists of actions.  In the color-blind mode, all three
+     classifier "next" entries point to the lower rate meter entry.  In
+     the color-aware mode, the AFm1 classifier points to the lower rate
+     entry, the AFm2 classifier points to the higher rate entry (as it is
+     only compared against that rate), and the AFm3 classifier points
+     directly to the actions taken when both rates fail.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

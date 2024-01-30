@@ -1,0 +1,1 @@
+   o IKE 개시자와 응답자 모두 IKE_SA_INIT 패킷에 NAT_DETECTION_SOURCE_IP 및 NAT_DETECTION_DESTINATION_IP 유형의 알림 페이로드를 포함해야 합니다. 이러한 페이로드는 호스트 사이에 NAT가 있는지, 어느 쪽이 NAT 뒤에 있는지 감지하는 데 사용될 수 있습니다. IKE_SA_INIT 패킷의 페이로드 위치는 Ni 및 Nr 페이로드 바로 뒤(선택적 CERTREQ 페이로드 앞)입니다.

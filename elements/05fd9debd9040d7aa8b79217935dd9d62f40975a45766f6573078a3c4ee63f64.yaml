@@ -1,0 +1,18 @@
+"hash": |-
+  05fd9debd9040d7aa8b79217935dd9d62f40975a45766f6573078a3c4ee63f64
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              DISCUSSION:
+                   The choice of TCP segment size has a strong effect on
+                   performance.  Larger segments increase throughput by
+                   amortizing header size and per-datagram processing
+                   overhead over more data bytes; however, if the packet
+                   is so large that it causes IP fragmentation, efficiency
+                   drops sharply if any fragments are lost [IP:9].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

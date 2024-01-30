@@ -1,0 +1,11 @@
+ISI-Gateway와 ISI-Hobgoblin은 모두 ARPANET과
+ISI-NET에는 잠재적인 라우팅 루프가 있습니다. 이 토폴로지는 실제로 다음을 위반합니다.
+원래 트리 구조 제한. ISI-Hobgoblin이 수행하지 않는 경우
+ISI-NET 및 ARPANET을 통해 ISI-Gateway와 동시에 EGP를 사용하면 게이트웨이가
+공유된 EGP 네트워크의 대체 경로에 대해서만 알고 있으며,
+다른 네트워크에서. 따라서 루프가 발생할 수 없습니다. 예를 들어 EGP가
+ISI-NET을 통해 수행되면 ISI-Gateway와 ISI-Hobgoblin 모두에 대해 알게 됩니다.
+ISI-NET에서 ARPANET으로 서로를 경유하는 대체 경로가 있지만 그렇지 않습니다.
+ISI-NET에 액세스할 수 있는 ARPANET의 게이트웨이 주소에 대해 알고 있습니다.
+ARPANET. 따라서 패킷을 라우팅할 수 있는 라우팅 데이터가 부족합니다.
+그들 사이의 루프에서.

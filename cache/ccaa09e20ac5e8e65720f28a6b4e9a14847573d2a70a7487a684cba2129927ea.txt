@@ -1,0 +1,1 @@
+   Community-set comm-graceful-shutdown 65535:0 end-set ! 경로 정책 AS64497-ebgp-inbound ! 일반적으로 이 정책은 커뮤니티가 comm-graceful-shutdown과 일치하고 local-preference 0 endif end-policy를 설정하는 경우 훨씬 더 많은 내용을 포함합니다! 라우터 bgp 64496 이웃 2001:db8:1:2::1 원격-as 64497 주소-가족 ipv6 유니캐스트 보내기-커뮤니티-ebgp 경로-정책 AS64497-ebgp-인바운드

@@ -1,0 +1,22 @@
+"hash": |-
+  8985e7fa803a7bc230d9b7ca6aebf74afd86b632c438b0cb0cada77944ce9984
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        1. version                 Identifies v1.
+        2. subject                 Is one of the following:
+           2a. baseCertificateID   Issuer and serial number of an
+                                   X.509 public-key certificate.
+           2b. subjectName         DN of the subject.
+        3. issuer                  DN of the issuer (the CA who signed).
+        4. signature               OID of algorithm that signed the cert.
+        5. serialNumber            Certificate serial number;
+                                   an integer assigned by the issuer.
+        6. attCertValidityPeriod   Validity period; a pair of UTCTime
+                                   values: "not before" and "not after".
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

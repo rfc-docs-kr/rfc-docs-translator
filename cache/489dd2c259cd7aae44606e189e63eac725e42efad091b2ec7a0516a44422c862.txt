@@ -1,0 +1,1 @@
+   SCVP 서버가 요청을 중계할 때 요청에는 requestorRef 항목이 포함되어야 합니다. 중계될 요청에 이미 requestorRef 항목이 포함되어 있는 경우 서버 생성 요청에는 이 값으로 구성된 requestorRef 항목과 SCVP 서버의 식별자를 포함하는 추가 GeneralName이 포함되어야 합니다. 중계될 요청에 requestorRef 항목이 포함되어 있지 않은 경우 서버 생성 요청에는 SCVP 서버의 식별자가 포함된 GeneralName을 포함하는 requestorRef 항목이 포함되어야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  f57ec5ba93e080eb8818675415a0786d6853f32db26f0bb64dc2db8ab8b7dd79
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The version flag does not indicate the IP version; rather, it
+     indicates future versions of the literal format.  As such,
+     implementations must not provide the version flag for the existing
+     IPv4 and IPv6 literal address forms described below.  If a URI
+     containing an IP-literal that starts with "v" (case-insensitive),
+     indicating that the version flag is present, is dereferenced by an
+     application that does not know the meaning of that version flag, then
+     the application should return an appropriate error for "address
+     mechanism not supported".
+"fixed": |-
+  The version flag does not indicate the IP version; rather, it indicates future versions of the literal format.  As such, implementations must not provide the version flag for the existing IPv4 and IPv6 literal address forms described below.  If a URI containing an IP-literal that starts with "v" (case-insensitive), indicating that the version flag is present, is dereferenced by an application that does not know the meaning of that version flag, then the application should return an appropriate error for "address mechanism not supported".
+"ko": |-
+  버전 플래그는 IP 버전을 나타내지 않습니다. 오히려 리터럴 형식의 향후 버전을 나타냅니다. 따라서 구현 시 아래 설명된 기존 IPv4 및 IPv6 리터럴 주소 형식에 대한 버전 플래그를 제공해서는 안 됩니다. 버전 플래그가 있음을 나타내는 "v"(대소문자 구분)로 시작하는 IP 리터럴을 포함하는 URI가 해당 버전 플래그의 의미를 모르는 애플리케이션에 의해 역참조되는 경우 애플리케이션은 다음을 반환해야 합니다. "지원되지 않는 주소 메커니즘"에 대한 적절한 오류입니다.

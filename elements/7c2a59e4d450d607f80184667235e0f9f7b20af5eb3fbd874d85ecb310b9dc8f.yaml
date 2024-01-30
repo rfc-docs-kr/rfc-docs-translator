@@ -1,0 +1,22 @@
+"hash": |-
+  7c2a59e4d450d607f80184667235e0f9f7b20af5eb3fbd874d85ecb310b9dc8f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        These notifications are not based on the SGP reporting the state
+        change of an ASP or AS.  In the Insufficient ASP Resources case,
+        the SGP is indicating to an ASP_INACTIVE ASP in the AS that
+        another ASP is required to handle the load of the AS (Loadsharing
+        or Broadcast mode).  For the Alternate ASP Active case, an ASP is
+        informed when an alternate ASP transitions to the ASP-ACTIVE state
+        in Override mode.  The ASP Identifier (if available) of the
+        Alternate ASP MUST be placed in the message.  For the ASP Failure
+        case, the SGP is indicating to ASPs in the AS that one of the
+        ASPs has failed.  The ASP Identifier (if available) of the failed
+        ASP MUST be placed in the message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  34dcd6c1323ea42377104ea20c84be10301e1ea6de98f2848011228d338b403b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (5) Look up the routing table entry for the destination N.  If
+              no entry exists for N, install the AS external path to N,
+              with next hop equal to the list of next hops to the
+              forwarding address, and advertising router equal to ASBR.
+              If the external metric type is 1, then the path-type is set
+              to type 1 external and the cost is equal to X+Y.  If the
+              external metric type is 2, the path-type is set to type 2
+              external, the link state component of the route's cost is X,
+              and the type 2 cost is Y.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  385cbf60af169d1b7309d639cfafdeb3b80b2c001ec137da7b3b79513a44ef70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS 1.3 has a downgrade protection mechanism embedded in the server's
+     random value.  TLS 1.3 servers which negotiate TLS 1.2 or below in
+     response to a ClientHello MUST set the last 8 bytes of their Random
+     value specially in their ServerHello.
+"fixed": |-
+  TLS 1.3 has a downgrade protection mechanism embedded in the server's random value.  TLS 1.3 servers which negotiate TLS 1.2 or below in response to a ClientHello MUST set the last 8 bytes of their Random value specially in their ServerHello.
+"ko": |-
+  TLS 1.3에는 서버의 임의 값에 다운그레이드 방지 메커니즘이 내장되어 있습니다. ClientHello에 응답하여 TLS 1.2 이하를 협상하는 TLS 1.3 서버는 특히 ServerHello에서 Random 값의 마지막 8바이트를 설정해야 합니다.

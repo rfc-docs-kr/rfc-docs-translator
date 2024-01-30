@@ -1,0 +1,26 @@
+"hash": |-
+  11994ab7326b29ca467e175ee4566d2ec2e3753533da9c07de7eeca56581a5fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As discussed in [MODEL], a meter and a shaper are functions that
+     operate on opposing ends of a link.  A shaper schedules traffic for
+     transmission at specific times in order to approximate a particular
+     line speed or combination of line speeds.  In its simplest form, if
+     the traffic stream contains constant sized packets, it might transmit
+     one packet per unit time to build the equivalent of a CBR circuit.
+     However, various factors intervene to make the approximation inexact;
+     multiple classes of traffic may occasionally schedule their traffic
+     at the same time, the variable length nature of IP traffic may
+     introduce variation, and factors in the link or physical layer may
+     change traffic timing.  A meter integrates the arrival rate of
+     traffic and determines whether the shaper at the far end was
+     correctly applied, or whether the behavior of the application in
+     question is naturally close enough to such behavior to be acceptable
+     under a given policy.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,26 @@
+"hash": |-
+  7d9caa2a2e38a3477c5fb1a94030b8605b587796d7cec14c4abfc8427a05e1bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Currently, the security of the authenticate-then-encrypt method has
+     been proven for some important cases.  One is the case of stream
+     ciphers in which a computationally unpredictable pad of the length of
+     the message, plus the length of the MAC tag, is produced using a
+     pseudorandom generator and this pad is exclusive-ORed with the
+     concatenation of plaintext and MAC tag.  The other is the case of CBC
+     mode using a secure block cipher.  In this case, security can be
+     shown if one applies one CBC encryption pass to the concatenation of
+     plaintext and MAC and uses a new, independent, and unpredictable IV
+     for each new pair of plaintext and MAC.  In versions of TLS prior to
+     1.1, CBC mode was used properly EXCEPT that it used a predictable IV
+     in the form of the last block of the previous ciphertext.  This made
+     TLS open to chosen plaintext attacks.  This version of the protocol
+     is immune to those attacks.  For exact details in the encryption
+     modes proven secure, see [ENCAUTH].
+"fixed": |-
+  Currently, the security of the authenticate-then-encrypt method has been proven for some important cases.  One is the case of stream ciphers in which a computationally unpredictable pad of the length of the message, plus the length of the MAC tag, is produced using a pseudorandom generator and this pad is exclusive-ORed with the concatenation of plaintext and MAC tag.  The other is the case of CBC mode using a secure block cipher.  In this case, security can be shown if one applies one CBC encryption pass to the concatenation of plaintext and MAC and uses a new, independent, and unpredictable IV for each new pair of plaintext and MAC.  In versions of TLS prior to 1.1, CBC mode was used properly EXCEPT that it used a predictable IV in the form of the last block of the previous ciphertext.  This made TLS open to chosen plaintext attacks.  This version of the protocol is immune to those attacks.  For exact details in the encryption modes proven secure, see [ENCAUTH].
+"ko": |-
+  현재 인증 후 암호화 방식의 보안은 몇 가지 중요한 사례에서 입증되었습니다. 하나는 의사 난수 생성기를 사용하여 메시지 길이와 MAC 태그 길이를 더한 계산적으로 예측할 수 없는 패드가 생성되고 이 패드가 일반 텍스트와 MAC 태그의 연결과 배타적 OR로 연결되는 스트림 암호의 경우입니다. 다른 하나는 보안 블록 암호를 사용하는 CBC 모드의 경우입니다. 이 경우 일반 텍스트와 MAC의 연결에 하나의 CBC 암호화 패스를 적용하고 각각의 새로운 일반 텍스트와 MAC 쌍에 대해 새롭고 독립적이며 예측할 수 없는 IV를 사용하면 보안이 표시될 수 있습니다. TLS 1.1 이전 버전에서는 이전 암호문의 마지막 블록 형태로 예측 가능한 IV를 사용한 점을 제외하고는 CBC 모드가 올바르게 사용되었습니다. 이로 인해 TLS는 선택된 일반 텍스트 공격에 개방되었습니다. 이 버전의 프로토콜은 이러한 공격에 면역입니다. 안전한 것으로 입증된 암호화 모드에 대한 자세한 내용은 [ENCAUTH]를 참조하세요.

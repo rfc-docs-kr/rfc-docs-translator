@@ -1,0 +1,21 @@
+"hash": |-
+  0300f45e076e6d2bd9f805592b6d52b31673038d9139df3f4537f91f83660c09
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Deprecated the exchange of CER/CEA messages in the open state.
+        This feature was implied in the peer state machine table of RFC
+        3588, but it was not clearly defined anywhere else in that
+        document.  As work on this document progressed, it became clear
+        that the multiplicity of meaning and use of Application-Id AVPs in
+        the CER/CEA messages (and the messages themselves) is seen as an
+        abuse of the Diameter extensibility rules and thus required
+        simplification.  Capabilities exchange in the open state has been
+        re-introduced in a separate specification [RFC6737], which clearly
+        defines new commands for this feature.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

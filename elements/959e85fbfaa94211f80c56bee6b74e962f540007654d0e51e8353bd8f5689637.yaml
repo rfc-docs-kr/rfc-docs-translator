@@ -1,0 +1,19 @@
+"hash": |-
+  959e85fbfaa94211f80c56bee6b74e962f540007654d0e51e8353bd8f5689637
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+          ContentType type;
+          ProtocolVersion version;
+          uint16 epoch;                                     // New field
+          uint48 sequence_number;                           // New field
+          uint16 length;
+          opaque fragment[DTLSCompressed.length];
+        } DTLSCompressed;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

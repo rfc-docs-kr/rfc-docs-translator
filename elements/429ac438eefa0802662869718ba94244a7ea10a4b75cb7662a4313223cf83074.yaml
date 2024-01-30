@@ -1,0 +1,20 @@
+"hash": |-
+  429ac438eefa0802662869718ba94244a7ea10a4b75cb7662a4313223cf83074
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          If a Database Description packet is accepted, the following
+          packet fields should be saved in the corresponding neighbor data
+          structure under "last received Database Description packet":
+          the packet's initialize(I), more (M) and master(MS) bits,
+          Options field, and DD sequence number. If these fields are set
+          identically in two consecutive Database Description packets
+          received from the neighbor, the second Database Description
+          packet is considered to be a "duplicate" in the processing
+          described below.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

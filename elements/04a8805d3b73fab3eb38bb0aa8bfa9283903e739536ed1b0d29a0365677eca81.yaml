@@ -1,0 +1,14 @@
+"hash": |-
+  04a8805d3b73fab3eb38bb0aa8bfa9283903e739536ed1b0d29a0365677eca81
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Queue this until all preceding SENDs have been segmentized, then
+        form a FIN segment and send it.  In any case, enter FIN-WAIT-1
+        state.
+"fixed": |-
+  *  Queue this until all preceding SENDs have been segmentized, then form a FIN segment and send it.  In any case, enter FIN-WAIT-1 state.
+"ko": |-
+  * 이전의 모든 SEND가 분할될 때까지 이를 대기열에 넣은 다음 FIN 세그먼트를 구성하여 보냅니다. 어쨌든 FIN-WAIT-1 상태로 들어갑니다.

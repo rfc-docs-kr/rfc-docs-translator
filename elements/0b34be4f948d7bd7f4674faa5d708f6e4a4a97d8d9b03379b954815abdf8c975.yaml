@@ -1,0 +1,19 @@
+"hash": |-
+  0b34be4f948d7bd7f4674faa5d708f6e4a4a97d8d9b03379b954815abdf8c975
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an ASP Up message is received at an SGP and, internally, the
+     remote ASP is in the ASP-DOWN state and is not considered locked out
+     for local management reasons, the SGP marks the remote ASP in the
+     state ASP-INACTIVE and informs Layer Management with an M-ASP_Up
+     indication primitive.  If the SGP is aware, via current configuration
+     data, which Application Servers the ASP is configured to operate in,
+     the SGP updates the ASP state to ASP-INACTIVE in each AS that it is a
+     member.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

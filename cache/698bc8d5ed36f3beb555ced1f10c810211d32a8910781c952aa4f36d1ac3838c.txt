@@ -1,0 +1,1 @@
+   또한 대부분의 경우 DESCRIBE 및 SETUP 요청에 사용되는 URI는 다릅니다. DESCRIBE Content-Location 응답에 제공된 URI는 SETUP 요청에 직접 사용할 수 없습니다. 대신 미디어 리소스 URI를 파생하는 단계가 필요합니다. 여기에는 일반적으로 미디어 설명의 상대 URI(예: SDP의 a=control 속성)를 기본 URI와 결합하여 SETUP 요청에 필요한 절대 URI를 생성하는 작업이 포함됩니다.

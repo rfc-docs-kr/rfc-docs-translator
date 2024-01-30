@@ -1,0 +1,24 @@
+"hash": |-
+  70b204422d525c30a74b72f72efae574226840cce66204f4652a367afc7fa32e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     translated to MTP-TRANSFER request primitives, and sent to the local
+     M3UA-resident message distribution function for ongoing routing to
+     the final IP destination.  Messages received from the local M3UA
+     network address translation and mapping function as MTP-TRANSFER
+     indication primitives are sent to the MTP Level 3 upper-layer
+     interface as MTP-TRANSFER request primitives for ongoing MTP Level 3
+     routing to an SS7 SEP.  For the purposes of providing SS7 network
+     status information, the NIF also delivers MTP-PAUSE, MTP-RESUME, and
+     MTP-STATUS indication primitives received from the MTP Level 3
+     upper-layer interface to the local M3UA-resident management function.
+     In addition, as an implementation and network option, restricted
+     destinations are communicated from MTP network management to the
+     local M3UA-resident management function.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

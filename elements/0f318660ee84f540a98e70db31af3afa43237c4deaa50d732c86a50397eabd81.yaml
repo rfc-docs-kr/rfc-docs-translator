@@ -1,0 +1,21 @@
+"hash": |-
+  0f318660ee84f540a98e70db31af3afa43237c4deaa50d732c86a50397eabd81
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                (a)  In general, no host is required to accept an IP
+                     datagram larger than 576 bytes (including header and
+                     data), so a host must not send a larger datagram
+                     without explicit knowledge or prior arrangement with
+                     the destination host.  Thus, MMS_S is only an upper
+                     bound on the datagram size that a transport protocol
+                     may send; even when MMS_S exceeds 556, the transport
+                     layer must limit its messages to 556 bytes in the
+                     absence of other knowledge about the destination
+                     host.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

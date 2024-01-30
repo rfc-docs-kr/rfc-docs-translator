@@ -1,0 +1,3 @@
+; 대신 적절한 SDP 문법은 RFC 2327을 참조하세요.
+SDPinformation = SDPLine CRLF *(SDPLine CRLF) ; RFC 2327 참조
+SDDPLine = 1*(%x01-09 / %x0B / %x0C / %x0E-FF) ; 적절한 방어를 위해.

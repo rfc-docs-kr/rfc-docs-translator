@@ -1,0 +1,1 @@
+   특정 BGP 스피커에 의한 BGP 메시지 배포에 피크가 포함될 가능성을 최소화하려면 MinASOriginationIntervalTimer, KeepaliveTimer, MinRouteAdvertisementIntervalTimer 및 ConnectRetryTimer와 관련된 타이머에 지터를 적용해야 합니다. 특정 BGP 스피커는 업데이트가 전송되는 대상에 관계없이 이러한 수량 각각에 동일한 지터를 적용할 수 있습니다. 즉, 피어별로 지터를 구성할 필요가 없습니다.

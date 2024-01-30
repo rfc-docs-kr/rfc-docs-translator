@@ -1,0 +1,1 @@
+   핸드셰이크에서 DHE 암호화 제품군을 사용하는 경우 유사한 시나리오를 얻을 수 있습니다. 클라이언트나 서버가 RSA 또는 DHE 사용을 선호하지 않는 경우에도 공격자는 Hello 메시지에 RSA 또는 DHE만 제공하여 사용하도록 강제할 수 있습니다. ECDHE(Ephemeral Elliptic Curve Diffie-Hellman) 암호 ​​그룹을 사용하는 핸드셰이크도 임의의 명시적 곡선을 허용하거나 작은 하위 그룹이 있는 곡선을 사용하는 경우 취약합니다. 보다 강력한 적에 대해 SRP(Secure Remote Password) 및 PSK(Pre-Shared Key)와 같은 다른 키 교환도 취약한 것으로 나타났습니다[VERIFIED-BINDINGS].

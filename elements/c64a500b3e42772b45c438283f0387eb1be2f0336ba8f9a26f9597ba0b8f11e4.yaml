@@ -1,0 +1,17 @@
+"hash": |-
+  c64a500b3e42772b45c438283f0387eb1be2f0336ba8f9a26f9597ba0b8f11e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server sent an "early_data" extension in EncryptedExtensions,
+     the client MUST send an EndOfEarlyData message after receiving the
+     server Finished.  If the server does not send an "early_data"
+     extension in EncryptedExtensions, then the client MUST NOT send an
+     EndOfEarlyData message.  This message indicates that all 0-RTT
+     application_data messages, if any, have been transmitted and that the
+"fixed": |-
+  If the server sent an "early_data" extension in EncryptedExtensions, the client MUST send an EndOfEarlyData message after receiving the server Finished.  If the server does not send an "early_data" extension in EncryptedExtensions, then the client MUST NOT send an EndOfEarlyData message.  This message indicates that all 0-RTT application_data messages, if any, have been transmitted and that the
+"ko": |-
+  서버가 EncryptedExtensions에서 "early_data" 확장을 보낸 경우 클라이언트는 서버 Finished를 수신한 후 EndOfEarlyData 메시지를 보내야 합니다. 서버가 EncryptedExtensions에서 "early_data" 확장을 보내지 않으면 클라이언트는 EndOfEarlyData 메시지를 보내서는 안 됩니다. 이 메시지는 모든 0-RTT application_data 메시지가 전송되었음을 나타냅니다.

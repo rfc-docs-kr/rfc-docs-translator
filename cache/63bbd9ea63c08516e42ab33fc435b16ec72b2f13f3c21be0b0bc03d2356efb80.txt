@@ -1,0 +1,1 @@
+   GEDEVICEINFO(및 GEDEVICELIST)가 CB_NOTIFY_DEVICEID와 경쟁할 가능성이 있습니다. 즉, 클라이언트가 GEDEVICEINFO 또는 GEDEVICELIST에 대한 응답을 가져와 처리하기 전에 CB_NOTIFY_DEVICEID가 도착합니다. 경주 분석은 서버가 클라이언트의 레이아웃에서 참조하는 장치 ID를 삭제해서는 안 된다는 사실을 활용합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  7ef968502d0c0e5f7186bdaa5694acd1a590c39dff5b79179e58a7267d70142f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Type-Data field in the Request contains a displayable message
+        greater than zero octets in length, containing UTF-8 encoded ISO
+        10646 characters [RFC2279].  The length of the message is
+        determined by the Length field of the Request packet.  The message
+        MUST NOT be null terminated.  A Response MUST be sent in reply to
+        the Request with a Type field of 2 (Notification).  The Type-Data
+        field of the Response is zero octets in length.  The Response
+        should be sent immediately (independent of how the message is
+        displayed or logged).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

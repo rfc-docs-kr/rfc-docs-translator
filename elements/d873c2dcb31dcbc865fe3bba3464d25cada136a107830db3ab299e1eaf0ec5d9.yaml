@@ -1,0 +1,23 @@
+"hash": |-
+  d873c2dcb31dcbc865fe3bba3464d25cada136a107830db3ab299e1eaf0ec5d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Historically, port 465 was briefly registered as the "smtps" port.
+     This registration made no sense, as the SMTP transport MX
+     infrastructure has no way to specify a port, so port 25 is always
+     used.  As a result, the registration was revoked and was subsequently
+     reassigned to a different service.  In hindsight, the "smtps"
+     registration should have been renamed or reserved rather than
+     revoked.  Unfortunately, some widely deployed mail software
+     interpreted "smtps" as "submissions" [RFC6409] and used that port for
+     email submission by default when an end user requested security
+     during account setup.  If a new port is assigned for the submissions
+     service, either (a) email software will continue with unregistered
+     use of port 465 (leaving the port registry inaccurate relative to
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

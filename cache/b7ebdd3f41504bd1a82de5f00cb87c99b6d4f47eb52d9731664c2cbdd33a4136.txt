@@ -1,0 +1,1 @@
+   서버가 미디어 재생 목록에서 EXT-X-DISCONTINUITY 태그를 제거하는 경우 미디어 재생 목록에 여전히 있는 세그먼트의 불연속 시퀀스 번호가 변경되지 않도록 EXT-X-DISCONTINUITY-SEQUENCE 태그의 값을 증가시켜야 합니다. EXT-X-DISCONTINUITY-SEQUENCE 태그의 값은 감소하거나 축소되어서는 안 됩니다. 각 미디어 세그먼트에 일관된 불연속 시퀀스 번호가 없으면 클라이언트가 오작동할 수 있습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  889ba9d7cff3f609610f1db0577de515cb7143315c0b462ac0839c9c93ab2086
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note also that the original ChaCha had a 64-bit nonce and 64-bit
+     block count.  We have modified this here to be more consistent with
+     recommendations in Section 3.2 of [RFC5116].  This limits the use of
+     a single (key,nonce) combination to 2^32 blocks, or 256 GB, but that
+     is enough for most uses.  In cases where a single key is used by
+     multiple senders, it is important to make sure that they don't use
+     the same nonces.  This can be assured by partitioning the nonce space
+     so that the first 32 bits are unique per sender, while the other 64
+     bits come from a counter.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

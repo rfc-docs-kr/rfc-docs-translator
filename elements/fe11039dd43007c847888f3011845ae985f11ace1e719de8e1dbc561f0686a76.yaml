@@ -1,0 +1,17 @@
+"hash": |-
+  fe11039dd43007c847888f3011845ae985f11ace1e719de8e1dbc561f0686a76
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When multiple extensions of different types are present, the
+     extensions MAY appear in any order, with the exception of
+     "pre_shared_key" (Section 4.2.11) which MUST be the last extension in
+     the ClientHello (but can appear anywhere in the ServerHello
+     extensions block).  There MUST NOT be more than one extension of the
+     same type in a given extension block.
+"fixed": |-
+  When multiple extensions of different types are present, the extensions MAY appear in any order, with the exception of "pre_shared_key" (Section 4.2.11) which MUST be the last extension in the ClientHello (but can appear anywhere in the ServerHello extensions block).  There MUST NOT be more than one extension of the same type in a given extension block.
+"ko": |-
+  서로 다른 유형의 여러 확장이 있는 경우 확장은 ClientHello의 마지막 확장이어야 하는 "pre_shared_key"(섹션 4.2.11)를 제외하고 순서에 관계없이 나타날 수 있습니다(그러나 ServerHello 확장 블록의 어느 곳에나 나타날 수 있음). . 주어진 확장 블록에는 동일한 유형의 확장이 두 개 이상 있어서는 안 됩니다.

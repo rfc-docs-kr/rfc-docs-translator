@@ -1,0 +1,22 @@
+"hash": |-
+  b551b7f20930f712e34b28e47dd9cf17336feb3ac57aa25104086ac0ef57efe4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Area
+          This field indicates the area whose link state information has
+          led to the routing table entry's collection of paths.  This is
+          called the entry's associated area.  For sets of AS external
+          paths, this field is not defined.  For destinations of type
+          "router", there may be separate sets of paths (and therefore
+          separate routing table entries) associated with each of several
+          areas. For example, this will happen when two area border
+          routers share multiple areas in common.  For destinations of
+          type "network", only the set of paths associated with the best
+          area (the one providing the preferred route) is kept.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

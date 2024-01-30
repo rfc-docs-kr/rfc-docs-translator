@@ -1,0 +1,16 @@
+"hash": |-
+  fbec8600932f3c7d88ce61de8138b95e640608d3cb3517a484df75bb372056de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In addition, in its updated ClientHello, the client SHOULD NOT offer
+     any pre-shared keys associated with a hash other than that of the
+     selected cipher suite.  This allows the client to avoid having to
+     compute partial hash transcripts for multiple hashes in the second
+     ClientHello.
+"fixed": |-
+  In addition, in its updated ClientHello, the client SHOULD NOT offer any pre-shared keys associated with a hash other than that of the selected cipher suite.  This allows the client to avoid having to compute partial hash transcripts for multiple hashes in the second ClientHello.
+"ko": |-
+  또한 업데이트된 ClientHello에서 클라이언트는 선택한 암호화 제품군의 해시 이외의 해시와 관련된 사전 공유 키를 제공해서는 안 됩니다. 이를 통해 클라이언트는 두 번째 ClientHello에서 여러 해시에 대한 부분 해시 기록을 계산하지 않아도 됩니다.

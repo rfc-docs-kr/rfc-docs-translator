@@ -1,0 +1,17 @@
+"hash": |-
+  c3cd3bd5b1b88590fdf01492605ae57c4b3a20ef9799767ea3395bbc96172f06
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The signature_algorithms extension, defined in Section 7.4.1.4.1 of
+     [RFC5246], advertises the combinations of signature algorithm and
+     hash function that the client supports.  The pure (non-prehashed)
+     forms of EdDSA do not hash the data before signing it.  For this
+     reason, it does not make sense to combine them with a hash function
+     in the extension.
+"fixed": |-
+  The signature_algorithms extension, defined in Section 7.4.1.4.1 of [RFC5246], advertises the combinations of signature algorithm and hash function that the client supports.  The pure (non-prehashed) forms of EdDSA do not hash the data before signing it.  For this reason, it does not make sense to combine them with a hash function in the extension.
+"ko": |-
+  [RFC5246]의 7.4.1.4.1절에 정의된 서명_알고리즘 확장은 클라이언트가 지원하는 서명 알고리즘과 해시 함수의 조합을 광고합니다. EdDSA의 순수(사전 해시되지 않은) 형식은 서명하기 전에 데이터를 해시하지 않습니다. 이러한 이유로 확장 프로그램에서 해시 함수와 결합하는 것은 의미가 없습니다.

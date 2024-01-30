@@ -1,0 +1,20 @@
+"hash": |-
+  cadea08f0cfbbb7085a825be1a1ebb0fd7a11662bff3d39b8a4a6e079870a837
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients MUST only resume if the new SNI value is valid for the server
+     certificate presented in the original session and SHOULD only resume
+     if the SNI value matches the one used in the original session.  The
+     latter is a performance optimization: normally, there is no reason to
+     expect that different servers covered by a single certificate would
+     be able to accept each other's tickets; hence, attempting resumption
+     in that case would waste a single-use ticket.  If such an indication
+     is provided (externally or by any other means), clients MAY resume
+     with a different SNI value.
+"fixed": |-
+  Clients MUST only resume if the new SNI value is valid for the server certificate presented in the original session and SHOULD only resume if the SNI value matches the one used in the original session.  The latter is a performance optimization: normally, there is no reason to expect that different servers covered by a single certificate would be able to accept each other's tickets; hence, attempting resumption in that case would waste a single-use ticket.  If such an indication is provided (externally or by any other means), clients MAY resume with a different SNI value.
+"ko": |-
+  클라이언트는 새 SNI 값이 원래 세션에 제공된 서버 인증서에 유효한 경우에만 재개해야 하며 SNI 값이 원래 세션에 사용된 값과 일치하는 경우에만 재개해야 합니다. 후자는 성능 최적화입니다. 일반적으로 단일 인증서로 보호되는 여러 서버가 서로의 티켓을 수락할 수 있다고 기대할 이유가 없습니다. 따라서 이 경우 재개를 시도하면 일회용 티켓이 낭비됩니다. 그러한 표시가 (외부적으로 또는 다른 수단으로) 제공되면 클라이언트는 다른 SNI 값으로 재개할 수 있습니다.

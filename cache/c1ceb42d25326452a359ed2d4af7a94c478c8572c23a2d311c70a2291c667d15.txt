@@ -1,0 +1,1 @@
+   클라이언트는 CLOSE, LOCK, LOCKU, OPEN, OPEN_CONFIRM 및 OPEN_DOWNGRADE 작업에 대한 시퀀스 번호를 단조롭게 증가시켜야 합니다. 이는 해당 시퀀스 번호를 사용한 이전 작업에서 오류가 발생한 경우에도 마찬가지입니다. 이 규칙의 유일한 예외는 이전 작업에서 NFS4ERR_STALE_CLIENTID, NFS4ERR_STALE_STATEID, NFS4ERR_BAD_STATEID, NFS4ERR_BAD_SEQID, NFS4ERR_BADXDR, NFS4ERR_RESOURCE, NFS4ERR_NOFILEHANDLE 오류 중 하나를 받은 경우입니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  c5f727bd58d4897570955c8bcb9fa6948e634f2bcc8f530a6e0013d8601da514
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           DISCUSSION:
+                The IP specification says that the reassembly timeout
+                should be the remaining TTL from the IP header, but this
+                does not work well because gateways generally treat TTL as
+                a simple hop count rather than an elapsed time.  If the
+                reassembly timeout is too small, datagrams will be
+                discarded unnecessarily, and communication may fail.  The
+                timeout needs to be at least as large as the typical
+                maximum delay across the Internet.  A realistic minimum
+                reassembly timeout would be 60 seconds.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

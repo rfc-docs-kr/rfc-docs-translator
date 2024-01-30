@@ -1,0 +1,22 @@
+"hash": |-
+  4f8c9954fb084791a87220f3d9e2520a1cdfff784d283e33f98c472f8eaf2447
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that implementations of "deterministic ECDSA" may be vulnerable
+     to certain side-channel and fault injection attacks precisely because
+     of their determinism.  While most fault injection attacks described
+     in the literature assume physical access to the device (and therefore
+     are more relevant in Internet of Things (IoT) deployments with poor
+     or non-existent physical security), some can be carried out remotely
+     [Poddebniak2017], e.g., as Rowhammer [Kim2014] variants.  In
+     deployments where side-channel attacks and fault injection attacks
+     are a concern, implementation strategies combining both randomness
+     and determinism (for example, as described in [CFRG-DET-SIGS]) can be
+     used to avoid the risk of successful extraction of the signing key.
+"fixed": |-
+  Note that implementations of "deterministic ECDSA" may be vulnerable to certain side-channel and fault injection attacks precisely because of their determinism.  While most fault injection attacks described in the literature assume physical access to the device (and therefore are more relevant in Internet of Things (IoT) deployments with poor or non-existent physical security), some can be carried out remotely [Poddebniak2017], e.g., as Rowhammer [Kim2014] variants.  In deployments where side-channel attacks and fault injection attacks are a concern, implementation strategies combining both randomness and determinism (for example, as described in [CFRG-DET-SIGS]) can be used to avoid the risk of successful extraction of the signing key.
+"ko": |-
+  "결정론적 ECDSA" 구현은 결정론으로 인해 특정 부채널 및 결함 주입 공격에 취약할 수 있습니다. 문헌에 설명된 대부분의 결함 주입 공격은 장치에 대한 물리적 액세스를 가정하지만(따라서 물리적 보안이 열악하거나 존재하지 않는 사물 인터넷(IoT) 배포와 더 관련이 있음) 일부 공격은 원격으로 수행될 수 있습니다[Poddebniak2017]. , Rowhammer [Kim2014] 변형. 부채널 공격 및 오류 주입 공격이 문제가 되는 배포에서는 임의성과 결정성을 모두 결합한 구현 전략(예: [CFRG-DET-SIGS]에 설명된 대로)을 사용하여 서명을 성공적으로 추출하는 위험을 피할 수 있습니다. 열쇠.

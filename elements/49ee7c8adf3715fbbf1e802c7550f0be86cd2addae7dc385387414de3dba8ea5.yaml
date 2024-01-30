@@ -1,0 +1,20 @@
+"hash": |-
+  49ee7c8adf3715fbbf1e802c7550f0be86cd2addae7dc385387414de3dba8ea5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The parameters for the 0-RTT data (version, symmetric cipher suite,
+     Application-Layer Protocol Negotiation (ALPN) [RFC7301] protocol,
+     etc.) are those associated with the PSK in use.  For externally
+     provisioned PSKs, the associated values are those provisioned along
+     with the key.  For PSKs established via a NewSessionTicket message,
+     the associated values are those which were negotiated in the
+     connection which established the PSK.  The PSK used to encrypt the
+     early data MUST be the first PSK listed in the client's
+     "pre_shared_key" extension.
+"fixed": |-
+  The parameters for the 0-RTT data (version, symmetric cipher suite, Application-Layer Protocol Negotiation (ALPN) [RFC7301] protocol, etc.) are those associated with the PSK in use.  For externally provisioned PSKs, the associated values are those provisioned along with the key.  For PSKs established via a NewSessionTicket message, the associated values are those which were negotiated in the connection which established the PSK.  The PSK used to encrypt the early data MUST be the first PSK listed in the client's "pre_shared_key" extension.
+"ko": |-
+  0-RTT 데이터(버전, 대칭 암호화 제품군, ALPN(Application-Layer Protocol Negotiation) [RFC7301] 프로토콜 등)에 대한 매개변수는 사용 중인 PSK와 관련된 매개변수입니다. 외부에서 프로비저닝된 PSK의 경우 관련 값은 키와 함께 프로비저닝된 값입니다. NewSessionTicket 메시지를 통해 설정된 PSK의 경우 관련 값은 PSK를 설정한 연결에서 협상된 값입니다. 초기 데이터를 암호화하는 데 사용되는 PSK는 클라이언트의 "pre_shared_key" 확장에 나열된 첫 번째 PSK여야 합니다.

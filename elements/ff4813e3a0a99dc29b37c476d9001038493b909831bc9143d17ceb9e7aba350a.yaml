@@ -1,0 +1,21 @@
+"hash": |-
+  ff4813e3a0a99dc29b37c476d9001038493b909831bc9143d17ceb9e7aba350a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          o   If the neighbor is declaring itself to be Backup Designated
+              Router (Hello Packet's Backup Designated Router field =
+              Neighbor IP address) and the receiving interface is in state
+              Waiting, the receiving interface's state machine is
+              scheduled with the event BackupSeen.  Otherwise, if the
+              neighbor is declaring itself to be Backup Designated Router
+              and it had not previously, or the neighbor is not declaring
+              itself Backup Designated Router where it had previously, the
+              receiving interface's state machine is scheduled with the
+              event NeighborChange.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

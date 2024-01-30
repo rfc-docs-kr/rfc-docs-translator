@@ -1,0 +1,17 @@
+"hash": |-
+  e0a778270b6bbb89ac12adb1e18d7329dbf9a2b18d9bf9dbf6e7372d13a0c562
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some TCP implementations have included a FLUSH call, which will empty
+     the TCP send queue of any data that the user has issued SEND calls
+     for but is still to the right of the current send window.  That is,
+     it flushes as much queued send data as possible without losing
+     sequence number synchronization.  The FLUSH call MAY be implemented
+     (MAY-14).
+"fixed": |-
+  Some TCP implementations have included a FLUSH call, which will empty the TCP send queue of any data that the user has issued SEND calls for but is still to the right of the current send window.  That is, it flushes as much queued send data as possible without losing sequence number synchronization.  The FLUSH call MAY be implemented (MAY-14).
+"ko": |-
+  일부 TCP 구현에는 사용자가 SEND 호출을 실행했지만 여전히 현재 전송 창 오른쪽에 있는 모든 데이터의 TCP 전송 대기열을 비우는 FLUSH 호출이 포함되어 있습니다. 즉, 시퀀스 번호 동기화를 잃지 않으면서 대기 중인 전송 데이터를 최대한 많이 플러시합니다. FLUSH 호출이 구현될 수 있습니다(MAY-14).

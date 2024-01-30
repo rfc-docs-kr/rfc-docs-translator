@@ -1,0 +1,19 @@
+"hash": |-
+  27f491478d4365bc1adf3c587873a2e66e5aa8e5e1be6a75c815d0f532c1b759
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          However, if the received self-originated LSA is newer than the
+          last instance that the router actually originated, the router
+          must take special action.  The reception of such an LSA
+          indicates that there are LSAs in the routing domain that were
+          originated by the router before the last time it was restarted.
+          In most cases, the router must then advance the LSA's LS
+          sequence number one past the received LS sequence number, and
+          originate a new instance of the LSA.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

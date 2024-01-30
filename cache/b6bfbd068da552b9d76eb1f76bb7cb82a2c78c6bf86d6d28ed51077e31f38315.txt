@@ -1,0 +1,1 @@
+   CALDAV:calendar-query REPORT의 경우 CalDAV 서버는 요청 본문의 일부로 지정된 경우 CALDAV:timezone XML 요소의 값을 사용하여 "부동 날짜" 및 "부동 시간" 값을 다음으로 적절하게 변환해야 합니다. UTC 시간 값이 있는 날짜입니다. CALDAV: timezone XML 요소가 요청 본문에 지정되지 않은 경우 CalDAV 서버는 정의된 경우 CALDAV:calendar-timezone 속성 값에 의존해야 하며, 그렇지 않으면 CalDAV 서버는 선택한 시간대에 의존할 수 있습니다.

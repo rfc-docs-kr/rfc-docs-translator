@@ -1,0 +1,21 @@
+"hash": |-
+  c4acddd1f44bdd3335bb66e41f05e30851d76ffa2a300fe64bd67b92ab5d371e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          An LSA can be flushed from the routing domain by setting its LS
+          age to MaxAge, while leaving its LS sequence number alone, and
+          then reflooding the LSA.  This procedure follows the same course
+          as flushing an LSA whose LS age has naturally reached the value
+          MaxAge (see Section 14).  In particular, the MaxAge LSA is
+          removed from the router's link state database as soon as a) it
+          is no longer contained on any neighbor Link state retransmission
+          lists and b) none of the router's neighbors are in states
+          Exchange or Loading.  We call the setting of an LSA's LS age to
+          MaxAge "premature aging".
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,27 @@
+"hash": |-
+  d40540ea35f59b2dbca535510e8b8af75e21e6ce556d829de73bd5f65c9e8dab
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           ClientHello
+           + early_data
+           + key_share*
+           + psk_key_exchange_modes
+           + pre_shared_key
+           (Application Data*)     -------->
+                                                           ServerHello
+                                                      + pre_shared_key
+                                                          + key_share*
+                                                 {EncryptedExtensions}
+                                                         + early_data*
+                                                            {Finished}
+                                   <--------       [Application Data*]
+           (EndOfEarlyData)
+           {Finished}              -------->
+           [Application Data]      <------->        [Application Data]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

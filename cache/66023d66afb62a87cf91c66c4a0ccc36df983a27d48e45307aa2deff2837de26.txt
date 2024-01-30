@@ -1,0 +1,1 @@
+   SCVP를 준수하는 클라이언트는 requestorRef 값의 사양을 지원할 수 있습니다. SCVP 서버 구현을 준수하려면 requestorRef 값이 있는 경우 이를 처리해야 합니다. SCVP 클라이언트가 요청에 requestorRef 값을 포함하는 경우 SCVP 서버는 캐시되지 않은 응답에서 동일한 값을 반환해야 합니다. SCVP 서버는 캐시된 SCVP 응답에서 requestorRef 값을 생략할 수 있습니다.

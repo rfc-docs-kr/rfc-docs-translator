@@ -1,0 +1,17 @@
+"hash": |-
+  a1998d50d944c2be5002ce78c9bbb9ad2fbec4d5a9aee89a9a5bb505be6fa42b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           There MUST be a reassembly timeout.  The reassembly timeout
+           value SHOULD be a fixed value, not set from the remaining TTL.
+           It is recommended that the value lie between 60 seconds and 120
+           seconds.  If this timeout expires, the partially-reassembled
+           datagram MUST be discarded and an ICMP Time Exceeded message
+           sent to the source host (if fragment zero has been received).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

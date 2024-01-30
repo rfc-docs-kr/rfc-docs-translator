@@ -1,0 +1,15 @@
+"hash": |-
+  4aac29111597a5032d66443764d226ce4caee65378964c3dd071a53543cfc4ea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because closing a connection requires communication with the remote
+     TCP peer, connections may remain in the closing state for a short
+     time.  Attempts to reopen the connection before the TCP peer replies
+     to the CLOSE command will result in error responses.
+"fixed": |-
+  Because closing a connection requires communication with the remote TCP peer, connections may remain in the closing state for a short time.  Attempts to reopen the connection before the TCP peer replies to the CLOSE command will result in error responses.
+"ko": |-
+  연결을 닫으려면 원격 TCP 피어와의 통신이 필요하므로 연결이 잠시 동안 닫힘 상태로 유지될 수 있습니다. TCP 피어가 CLOSE 명령에 응답하기 전에 연결을 다시 열려고 시도하면 오류 응답이 발생합니다.

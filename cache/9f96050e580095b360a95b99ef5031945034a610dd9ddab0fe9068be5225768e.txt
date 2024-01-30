@@ -1,0 +1,1 @@
+   * Epoch 값(2)은 [sender]_handshake_traffic_secret에서 파생된 키를 사용하여 보호되는 메시지에 사용됩니다. EncryptedExtensions, CertificateRequest, Certificate, CertificateVerify 및 Finished와 같은 초기 핸드셰이크 중에 전송된 메시지가 이 범주에 속합니다. 그러나 사후 핸드셰이크 메시지는 적절한 애플리케이션 트래픽 키로 보호되며 이 범주에 포함되지 않습니다.

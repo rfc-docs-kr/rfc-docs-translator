@@ -1,0 +1,20 @@
+"hash": |-
+  29d5ffe10fe957926cd9b552a85dcc0ff2fe6a8eca300e704ab846d32069956b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServTBParamId OBJECT-TYPE
+      SYNTAX       IndexInteger
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An index that enumerates the Token Bucket Parameter entries.
+         Managers obtain new values for row creation in this table by
+         reading diffServTBParamNextFree."
+      ::= { diffServTBParamEntry 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

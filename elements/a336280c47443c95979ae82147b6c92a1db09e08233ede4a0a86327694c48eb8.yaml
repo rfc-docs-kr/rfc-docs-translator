@@ -1,0 +1,21 @@
+"hash": |-
+  a336280c47443c95979ae82147b6c92a1db09e08233ede4a0a86327694c48eb8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Accounting-Response packets are sent by the RADIUS accounting
+        server to the client to acknowledge that the Accounting-Request
+        has been received and recorded successfully.  If the Accounting-
+        Request was recorded successfully then the RADIUS accounting
+        server MUST transmit a packet with the Code field set to 5
+        (Accounting-Response).  On reception of an Accounting-Response by
+        the client, the Identifier field is matched with a pending
+        Accounting-Request.  The Response Authenticator field MUST contain
+        the correct response for the pending Accounting-Request.  Invalid
+        packets are silently discarded.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

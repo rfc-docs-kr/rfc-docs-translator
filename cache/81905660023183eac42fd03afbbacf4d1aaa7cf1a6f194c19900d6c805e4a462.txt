@@ -1,0 +1,1 @@
+   HPKE의 인증 모드 단일 샷 암호화 API에 대한 자세한 전산 분석은 [ABHKLR20]에서 수행되었습니다. 이 백서는 서명 암호화[SigncryptionDZ10]에서 알려진 외부 및 내부 보안 용어를 사용하여 인증된 KEM 및 인증된 공개 키 암호화에 대한 보안 개념을 정의합니다. 분석은 DHKEM의 AuthEncap()/AuthDecap() 인터페이스가 이 문서에 지정된 모든 Diffie-Hellman 그룹에 대해 이러한 개념을 충족함을 증명합니다. 분석은 GDH(Gap Diffie-Hellman) 문제가 적절한 하위 그룹 [GAP]에서 어렵고 HKDF가 임의 오라클로 모델링될 수 있다는 가정하에 정확한 보안 경계를 제공합니다.

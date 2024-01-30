@@ -1,0 +1,1 @@
+- 근거: Content-Type 헤더 필드나 MIME-Version 헤더 필드가 없으면 메시지가 실제로 US-ASCII 문자 집합의 텍스트인지 확신할 수 없습니다. 이 문서 이전의 규칙에는 다른 문자 집합의 텍스트 또는 자동으로 인식할 수 없는 방식의 비텍스트 데이터(예: uuencoded 압축 UNIX tar 파일)가 포함됩니다. 유형이 지정되지 않은 메시지를 "text/plain; charset=us-ascii"로 처리하는 것 외에 완전히 수용 가능한 대안이 없지만 구현자는 메시지에 MIME-Version 및 Content-Type 헤더 필드가 모두 없는 경우 연습에는 거의 모든 것이 포함됩니다.

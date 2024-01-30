@@ -1,0 +1,20 @@
+"hash": |-
+  c7b4f73de4c3eb55a0d031dd41136bddc203361ae0d84757e781e7a41b2c9bb3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For a mutual-TLS client certificate-bound access token, the hash of
+     the certificate to which the token is bound is conveyed to the
+     protected resource as metainformation in a token introspection
+     response.  The hash is conveyed using the same "cnf" with "x5t#S256"
+     member structure as the certificate SHA-256 thumbprint confirmation
+     method, described in Section 3.1, as a top-level member of the
+     introspection response JSON.  The protected resource compares that
+     certificate hash to a hash of the client certificate used for mutual-
+     TLS authentication and rejects the request if they do not match.
+"fixed": |-
+  For a mutual-TLS client certificate-bound access token, the hash of the certificate to which the token is bound is conveyed to the protected resource as metainformation in a token introspection response.  The hash is conveyed using the same "cnf" with "x5t#S256" member structure as the certificate SHA-256 thumbprint confirmation method, described in Section 3.1, as a top-level member of the introspection response JSON.  The protected resource compares that certificate hash to a hash of the client certificate used for mutual- TLS authentication and rejects the request if they do not match.
+"ko": |-
+  상호 TLS 클라이언트 인증서 바인딩된 액세스 토큰의 경우 토큰이 바인딩된 인증서의 해시는 토큰 자체 검사 응답의 메타정보로 보호되는 리소스에 전달됩니다. 해시는 섹션 3.1에 설명된 인증서 SHA-256 지문 확인 방법과 동일한 "x5t#S256" 멤버 구조의 "cnf"를 내부 검사 응답 JSON의 최상위 멤버로 사용하여 전달됩니다. 보호되는 리소스는 해당 인증서 해시를 상호 TLS 인증에 사용되는 클라이언트 인증서의 해시와 비교하고 일치하지 않으면 요청을 거부합니다.

@@ -1,0 +1,25 @@
+"hash": |-
+  08fa7920423a9774fb13e03bbb56d2c159048929d515220bc27c17524c84f97c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Previous standards for the use of email protocols with TLS used the
+     STARTTLS mechanism: [RFC2595], [RFC3207], and [RFC3501].  With
+     STARTTLS, the client establishes a cleartext application session and
+     determines whether to issue a STARTTLS command based on server
+     capabilities and client configuration.  If the client issues a
+     STARTTLS command, a TLS handshake follows that can upgrade the
+     connection.  Although this mechanism has been deployed, an alternate
+     mechanism where TLS is negotiated immediately at connection start on
+     a separate port (referred to in this document as "Implicit TLS") has
+     been deployed more successfully.  To encourage more widespread use of
+     TLS and to also encourage greater consistency regarding how TLS is
+     used, this specification now recommends the use of Implicit TLS for
+     POP, IMAP, SMTP Submission, and all other protocols used between an
+     MUA and an MSP.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

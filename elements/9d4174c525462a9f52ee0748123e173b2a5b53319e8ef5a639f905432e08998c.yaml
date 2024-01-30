@@ -1,0 +1,18 @@
+"hash": |-
+  9d4174c525462a9f52ee0748123e173b2a5b53319e8ef5a639f905432e08998c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     modify an authorization answer, converting the result from success to
+     failure, prior to forwarding the message to the access device.  If
+     the answer did not contain an Auth-Session-State AVP with the value
+     NO_STATE_MAINTAINED, a proxy that causes an authorized session not to
+     be started MUST issue an STR to the Diameter server that authorized
+     the session, since the access device has no way of knowing that the
+     session had been authorized.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  5f311b1c03b23374c3329fa08778a9eddb125f9ac74dc48d8e22e128b45d0b57
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              When an application issues a series of SEND calls without
+              setting the PUSH flag, the TCP MAY aggregate the data
+              internally without sending it.  Similarly, when a series of
+              segments is received without the PSH bit, a TCP MAY queue
+              the data internally without passing it to the receiving
+              application.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  7d7f9707be9c6bda1dd701a724de752b07c74aafa5446c8b590e664d7142b558
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           <CER> ::= < Diameter Header: 257, REQ >
+                     { Origin-Host }
+                     { Origin-Realm }
+                  1* { Host-IP-Address }
+                     { Vendor-Id }
+                     { Product-Name }
+                     [ Origin-State-Id ]
+                   * [ Supported-Vendor-Id ]
+                   * [ Auth-Application-Id ]
+                   * [ Inband-Security-Id ]
+                   * [ Acct-Application-Id ]
+                   * [ Vendor-Specific-Application-Id ]
+                     [ Firmware-Revision ]
+                   * [ AVP ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

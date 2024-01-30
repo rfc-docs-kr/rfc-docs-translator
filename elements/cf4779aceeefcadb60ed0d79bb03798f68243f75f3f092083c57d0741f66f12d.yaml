@@ -1,0 +1,21 @@
+"hash": |-
+  cf4779aceeefcadb60ed0d79bb03798f68243f75f3f092083c57d0741f66f12d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Section 7 of RFC 2595 critiques the separate-port approach to TLS.
+     The first bullet was a correct critique.  There are proposals in the
+     HTTP community to address that, and the use of SRV records as
+     described in RFC 6186 resolves that critique for email.  The second
+     bullet is correct as well but is not very important because useful
+     deployment of security layers other than TLS in email is small enough
+     to be effectively irrelevant.  (Also, it's less correct than it used
+     to be because "export" ciphersuites are no longer supported in modern
+     versions of TLS.)  The third bullet is incorrect because it misses
+     the desirable option of "use TLS for all subsequent connections to
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

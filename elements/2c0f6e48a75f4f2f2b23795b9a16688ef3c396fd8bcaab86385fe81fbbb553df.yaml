@@ -1,0 +1,22 @@
+"hash": |-
+  2c0f6e48a75f4f2f2b23795b9a16688ef3c396fd8bcaab86385fe81fbbb553df
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     candidate-attribute   = "candidate" ":" foundation SP component-id SP
+                             "TCP" SP
+                             priority SP
+                             connection-address SP
+                             port SP
+                             cand-type
+                             [SP rel-addr]
+                             [SP rel-port]
+                             SP tcp-type-ext
+                             *(SP extension-att-name SP
+                                  extension-att-value)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

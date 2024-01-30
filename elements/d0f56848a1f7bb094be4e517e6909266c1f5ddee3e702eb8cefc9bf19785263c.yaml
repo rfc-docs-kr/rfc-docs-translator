@@ -1,0 +1,21 @@
+"hash": |-
+  d0f56848a1f7bb094be4e517e6909266c1f5ddee3e702eb8cefc9bf19785263c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Access could be limited by encrypting the content, but the necessity
+     of distributing keys out-of-band appears to negate the advantages of
+     in-network caching.  This also creates significant challenges when
+     attempting to manage and restrict key access.  An authorization
+     delegation scheme has been proposed [Fotiou12].  This scheme allows
+     semi-trusted entities (such as caches or CDN nodes) to delegate
+     access control decisions to third-party access control providers that
+     are trusted by the content publisher.  The former entities have no
+     access to subscriber-related information and should respect the
+     decisions of the access control providers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

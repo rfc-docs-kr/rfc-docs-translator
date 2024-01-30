@@ -1,0 +1,1 @@
+   위임이 취소되면 서버는 후속 SEQUENCE 작업에 SEQ4_STATUS_RECALLABLE_STATE_REVOKED 상태 비트가 설정된 상태로 반환됩니다. 클라이언트는 이를 기록한 다음 TEST_STATEID를 사용하여 어떤 위임이 취소되었는지 찾아야 합니다.

@@ -1,0 +1,1 @@
+- old_clientid_ret에 상태가 만료되지 않은 임대가 있는 경우 old_clientid_ret의 상태는 변경되거나 삭제되지 않습니다. 서버는 NFS4ERR_CLID_INUSE를 반환하여 클라이언트가 EXCHANGE_ID4args의 eia_clientowner.co_ownerid 하위 필드에 대해 다른 값을 사용하여 재시도해야 함을 나타냅니다. 클라이언트 레코드는 변경되지 않습니다.

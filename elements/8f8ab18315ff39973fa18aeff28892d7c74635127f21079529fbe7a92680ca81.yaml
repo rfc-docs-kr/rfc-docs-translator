@@ -1,0 +1,13 @@
+"hash": |-
+  8f8ab18315ff39973fa18aeff28892d7c74635127f21079529fbe7a92680ca81
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Any outstanding RECEIVEs are returned with "error: closing"
+        responses.  Delete TCB, enter CLOSED state, and return.
+"fixed": |-
+  *  Any outstanding RECEIVEs are returned with "error: closing" responses.  Delete TCB, enter CLOSED state, and return.
+"ko": |-
+  * 미해결 RECEIVE는 "오류: 종료" 응답과 함께 반환됩니다. TCB를 삭제하고 CLOSED 상태로 들어간 후 돌아갑니다.

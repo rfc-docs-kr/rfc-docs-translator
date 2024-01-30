@@ -1,0 +1,16 @@
+"hash": |-
+  4461b34fc16872925efd594660faa042d2c6c64514fbc190d6522ac58af26cc6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Server implementations may wish to refuse to process the CCC command
+     on a session that has not passed through some form of client
+     authentication (e.g., TLS client auth or FTP USER/PASS).  This can
+     prevent anonymous clients from repeatedly requesting AUTH TLS
+     followed by CCC to tie up resources on the server.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

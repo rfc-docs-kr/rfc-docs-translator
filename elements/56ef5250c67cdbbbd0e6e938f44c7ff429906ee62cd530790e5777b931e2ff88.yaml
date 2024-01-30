@@ -1,0 +1,19 @@
+"hash": |-
+  56ef5250c67cdbbbd0e6e938f44c7ff429906ee62cd530790e5777b931e2ff88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It was noted in [XPROT] that certificates in use by servers that
+     support outdated protocols such as SSLv2 can be used to forge
+     signatures for certificates that contain the keyEncipherment KeyUsage
+     ([RFC5280], Section 4.2.1.3).  In order to reduce the risk of cross-
+     protocol attacks on certificates that are not intended to be used
+     with DC-capable TLS stacks, we define a new DelegationUsage extension
+     to X.509 that permits use of delegated credentials.  (See
+     Section 4.2.)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

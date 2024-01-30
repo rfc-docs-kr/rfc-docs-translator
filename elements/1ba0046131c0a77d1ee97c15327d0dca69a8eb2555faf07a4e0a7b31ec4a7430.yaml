@@ -1,0 +1,20 @@
+"hash": |-
+  1ba0046131c0a77d1ee97c15327d0dca69a8eb2555faf07a4e0a7b31ec4a7430
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Failed-AVP AVP (AVP Code 279) is of type Grouped and provides
+     debugging information in cases where a request is rejected or not
+     fully processed due to erroneous information in a specific AVP.  The
+     value of the Result-Code AVP will provide information on the reason
+     for the Failed-AVP AVP.  A Diameter answer message SHOULD contain an
+     instance of the Failed-AVP AVP that corresponds to the error
+     indicated by the Result-Code AVP.  For practical purposes, this
+     Failed-AVP would typically refer to the first AVP processing error
+     that a Diameter node encounters.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

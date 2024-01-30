@@ -1,0 +1,23 @@
+"hash": |-
+  035abcfc14ff9c740f6596c48c59ef7799b92868fccbf884b7933aada300c83d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Entities that receive a Transaction Pending shall switch to a
+     different repetition timer for repeating requests.  The root
+     termination has a property (ProvisionalResponseTimerValue), which
+     can be set to the requested maximum number of milliseconds between
+     receipt of a command and transmission of the TransactionPending
+     response.  Upon receipt of a final response following receipt of
+     provisional responses, an immediate confirmation shall be sent, and
+     normal repetition timers shall be used thereafter.  An entity that
+     sends a provisional response, SHALL include the immAckRequired field
+     in the ensuing final response, indicating that an immediate
+     confirmation is expected.  Receipt of a Transaction Pending after
+     receipt of a reply shall be ignored.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

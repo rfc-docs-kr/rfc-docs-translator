@@ -1,0 +1,17 @@
+"hash": |-
+  f55c2e19f66170b69709f37231989e725695dc0ea9b374c6916073477aba9358
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              +---------+ 1. Request  +---------+ 2. Request  +---------+
+              | Access  |------------>|Diameter |------------>|Diameter |
+              |         |             |         |             |  Home   |
+              | Device  |<------------|  Relay  |<------------| Server  |
+              +---------+  4. Answer  +---------+  3. Answer  +---------+
+                         (Missing AVP)           (Missing AVP)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

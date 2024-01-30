@@ -1,0 +1,21 @@
+"hash": |-
+  fb73d4c2ab80f0333267ea2b92caa7d8c55a718dad78045a440261d4e2feb86b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Connection establishment of TWAMP follows the same procedure defined
+     in Section 3.1 of OWAMP [RFC4656].  The Modes field is a recognized
+     extension mechanism in TWAMP, and the current mode values are
+     identical to those used in OWAMP.  The only exception is the well-
+     known port number for TWAMP-Control.  A Client opens a TCP connection
+     to the Server on well-known port 862.  The host that initiates the
+     TCP connection takes the roles of Control-Client and (in the two-host
+     implementation) the Session-Sender.  The host that acknowledges the
+     TCP connection accepts the roles of Server and (in the two-host
+     implementation) the Session-Reflector.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

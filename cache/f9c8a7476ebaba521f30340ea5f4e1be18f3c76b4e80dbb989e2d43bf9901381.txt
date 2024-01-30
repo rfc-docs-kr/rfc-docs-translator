@@ -1,0 +1,1 @@
+[AEAD]의 섹션 3.2.1에 설명된 부분적으로 암시적인 nonce 기술을 사용하는 데 적합합니다. Record_iv_length는 명시적인 부분의 길이입니다. 이 경우 암시적 부분은 key_block에서 client_write_iv 및 server_write_iv(섹션 6.3에 설명됨)로 파생되어야 하며 명시적 부분은 GenericAEAEDCipher.nonce_explicit에 포함됩니다.

@@ -1,0 +1,1 @@
+   IP_MULTICAST_TTL: 이는 나가는 IPv4 멀티캐스트 패킷에 사용할 TTL(Time-To-Live) 필드를 설정합니다. 이는 멀티캐스트 데이터그램의 범위를 제한하는 데 사용됩니다. "GTSM(Generalized TTL Security Mechanism)"[RFC5082]과 같은 방법에서는 링크-로컬 전송을 보장하기 위해 이 값을 설정합니다. 또한 GTSM에서는 이 필드의 수신된 값을 애플리케이션에 전달하기 위해 UDP 수신기 API가 필요합니다.

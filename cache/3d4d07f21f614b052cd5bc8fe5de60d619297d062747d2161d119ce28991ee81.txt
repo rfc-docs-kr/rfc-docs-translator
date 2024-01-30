@@ -1,0 +1,1 @@
+- - 조건부 GET(If-Modified-Since 및 If-None-Match 중 하나 또는 둘 다를 사용하거나 If-Unmodified-Since 및 If-Match 중 하나 또는 둘 다를 사용하는 요청)에 Range 헤더가 있으면 무엇을 수정합니까? 그렇지 않으면 GET이 성공하고 조건이 true인 경우 반환됩니다. 조건이 false인 경우 반환되는 304(수정되지 않음) 응답에는 영향을 미치지 않습니다.

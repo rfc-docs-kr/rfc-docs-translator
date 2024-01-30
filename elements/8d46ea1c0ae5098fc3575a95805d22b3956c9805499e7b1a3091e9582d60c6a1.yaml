@@ -1,0 +1,18 @@
+"hash": |-
+  8d46ea1c0ae5098fc3575a95805d22b3956c9805499e7b1a3091e9582d60c6a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are cases where the TCP sequence number validation rules can
+     prevent ACK fields from being processed.  This can result in
+     connection issues, as described in [64], which includes descriptions
+     of potential problems in conditions of simultaneous open, self-
+     connects, simultaneous close, and simultaneous window probes.  The
+     document also describes potential changes to the TCP specification to
+     mitigate the issue by expanding the acceptable sequence numbers.
+"fixed": |-
+  There are cases where the TCP sequence number validation rules can prevent ACK fields from being processed.  This can result in connection issues, as described in [64], which includes descriptions of potential problems in conditions of simultaneous open, self- connects, simultaneous close, and simultaneous window probes.  The document also describes potential changes to the TCP specification to mitigate the issue by expanding the acceptable sequence numbers.
+"ko": |-
+  TCP 시퀀스 번호 유효성 검사 규칙으로 인해 ACK 필드가 처리되지 않는 경우가 있습니다. 이로 인해 동시 열기, 자체 연결, 동시 닫기 및 동시 창 프로브 조건에서 잠재적인 문제에 대한 설명이 포함된 [64]에 설명된 대로 연결 문제가 발생할 수 있습니다. 또한 이 문서에서는 허용 가능한 시퀀스 번호를 확장하여 문제를 완화하기 위한 TCP 사양의 잠재적인 변경 사항에 대해서도 설명합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  463de33f8941d2554bc05846d152029e54e2634b8e0a9494c74ddb4fdf82b107
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              If this happens, the sender SHOULD NOT send new data, but
+              SHOULD retransmit normally the old unacknowledged data
+              between SND.UNA and SND.UNA+SND.WND.  The sender MAY also
+              retransmit old data beyond SND.UNA+SND.WND, but SHOULD NOT
+              time out the connection if data beyond the right window edge
+              is not acknowledged.  If the window shrinks to zero, the TCP
+              MUST probe it in the standard way (see next Section).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

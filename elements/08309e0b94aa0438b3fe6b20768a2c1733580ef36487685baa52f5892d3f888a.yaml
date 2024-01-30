@@ -1,0 +1,24 @@
+"hash": |-
+  08309e0b94aa0438b3fe6b20768a2c1733580ef36487685baa52f5892d3f888a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           <RAR>  ::= < Diameter Header: 258, REQ, PXY >
+                      < Session-Id >
+                      { Origin-Host }
+                      { Origin-Realm }
+                      { Destination-Realm }
+                      { Destination-Host }
+                      { Auth-Application-Id }
+                      { Re-Auth-Request-Type }
+                      [ User-Name ]
+                      [ Origin-State-Id ]
+                    * [ Proxy-Info ]
+                    * [ Route-Record ]
+                    * [ AVP ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

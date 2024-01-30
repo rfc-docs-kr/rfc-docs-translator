@@ -1,0 +1,19 @@
+"hash": |-
+  3082dfbb3f1b4c2e02901f2bf50788a7a2686b69d39fab0dd1cc6b3f377d51df
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Both NETCONF peers MUST verify that the other peer has advertised a
+     common protocol version.  When comparing protocol version capability
+     URIs, only the base part is used, in the event any parameters are
+     encoded at the end of the URI string.  If no protocol version
+     capability in common is found, the NETCONF peer MUST NOT continue the
+     session.  If more than one protocol version URI in common is present,
+     then the highest numbered (most recent) protocol version MUST be used
+     by both peers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

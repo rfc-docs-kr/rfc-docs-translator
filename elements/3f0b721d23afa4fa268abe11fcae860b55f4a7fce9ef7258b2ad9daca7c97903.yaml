@@ -1,0 +1,17 @@
+"hash": |-
+  3f0b721d23afa4fa268abe11fcae860b55f4a7fce9ef7258b2ad9daca7c97903
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TLS 1.2 client who wishes to negotiate with such older servers will
+     send a normal TLS 1.2 ClientHello, containing { 3, 3 } (TLS 1.2) in
+     ClientHello.client_version.  If the server does not support this
+     version, it will respond with a ServerHello containing an older
+     version number.  If the client agrees to use this version, the
+     negotiation will proceed as appropriate for the negotiated protocol.
+"fixed": |-
+  A TLS 1.2 client who wishes to negotiate with such older servers will send a normal TLS 1.2 ClientHello, containing { 3, 3 } (TLS 1.2) in ClientHello.client_version.  If the server does not support this version, it will respond with a ServerHello containing an older version number.  If the client agrees to use this version, the negotiation will proceed as appropriate for the negotiated protocol.
+"ko": |-
+  이러한 이전 서버와 협상하려는 TLS 1.2 클라이언트는 ClientHello.client_version에 { 3, 3 }(TLS 1.2)이 포함된 일반 TLS 1.2 ClientHello를 보냅니다. 서버가 이 버전을 지원하지 않으면 이전 버전 번호가 포함된 ServerHello로 응답합니다. 클라이언트가 이 버전을 사용하는 데 동의하면 협상된 프로토콜에 맞게 협상이 진행됩니다.

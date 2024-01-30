@@ -1,0 +1,26 @@
+"hash": |-
+  570d1a76bc1ca4833dc9e7c61b354e30b126919e639aa4c7c502d2e94ee4979e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that during failures, partial routing of traffic to a site which
+     takes its address space from one service provider but which is
+     actually reachable only through another (i.e., the case of a site
+     which has change service providers) may occur because such traffic
+     will be routed along the path advertised by the aggregated route.
+     Rule #2 will prevent any real problem from occurring by forcing such
+     traffic to be discarded by the advertiser of the aggregated route,
+     but the output of "traceroute" and other similar tools will suggest
+     that a problem exists within the service provider advertising the
+     aggregate, which may be confusing to network operators (see the
+     example in section 5.2 for details). Solutions to this problem appear
+     to be challenging and not likely to be implementable by current
+     Inter-Domain protocols within the time-frame suggested by this
+     document. This decision may need to be revisited as Inter-Domain
+     protocols evolve.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

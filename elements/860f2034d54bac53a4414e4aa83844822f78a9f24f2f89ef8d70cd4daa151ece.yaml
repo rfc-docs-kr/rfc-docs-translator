@@ -1,0 +1,18 @@
+"hash": |-
+  860f2034d54bac53a4414e4aa83844822f78a9f24f2f89ef8d70cd4daa151ece
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Area border routers originate a single summary-LSA for each
+          known inter-area destination.  AS boundary routers originate a
+          single AS-external-LSA for each known AS external destination.
+          Destinations are advertised one at a time so that the change in
+          any single route can be flooded without reflooding the entire
+          collection of routes.  During the flooding procedure, many LSAs
+          can be carried by a single Link State Update packet.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

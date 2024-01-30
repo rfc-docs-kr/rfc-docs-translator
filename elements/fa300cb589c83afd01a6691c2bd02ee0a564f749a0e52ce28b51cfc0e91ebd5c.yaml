@@ -1,0 +1,23 @@
+"hash": |-
+  fa300cb589c83afd01a6691c2bd02ee0a564f749a0e52ce28b51cfc0e91ebd5c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A man-in-the-middle attack can be launched by deleting the "250
+     STARTTLS" response from the server.  This would cause the client not
+     to try to start a TLS session.  Another man-in-the-middle attack is
+     to allow the server to announce its STARTTLS capability, but to alter
+     the client's request to start TLS and the server's response.  In
+     order to defend against such attacks both clients and servers MUST be
+     able to be configured to require successful TLS negotiation of an
+     appropriate cipher suite for selected hosts before messages can be
+     successfully transferred.  The additional option of using TLS when
+     possible SHOULD also be provided.  An implementation MAY provide the
+     ability to record that TLS was used in communicating with a given
+     peer and generating a warning if it is not used in a later session.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

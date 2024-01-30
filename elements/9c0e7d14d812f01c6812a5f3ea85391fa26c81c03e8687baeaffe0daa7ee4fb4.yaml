@@ -1,0 +1,26 @@
+"hash": |-
+  9c0e7d14d812f01c6812a5f3ea85391fa26c81c03e8687baeaffe0daa7ee4fb4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Cryptographic Separation
+        Two keys (x and y) are "cryptographically separate" if an
+        adversary that knows all messages exchanged in the protocol cannot
+        compute x from y or y from x without "breaking" some cryptographic
+        assumption.  In particular, this definition allows that the
+        adversary has the knowledge of all nonces sent in cleartext, as
+        well as all predictable counter values used in the protocol.
+        Breaking a cryptographic assumption would typically require
+        inverting a one-way function or predicting the outcome of a
+        cryptographic pseudo-random number generator without knowledge of
+        the secret state.  In other words, if the keys are
+        cryptographically separate, there is no shortcut to compute x from
+        y or y from x, but the work an adversary must do to perform this
+        computation is equivalent to performing an exhaustive search for
+        the secret state value.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  89b5cf10438c6511fee4a30b57b7f0fea82a3db102aba4b1df212e9a76a154fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Client implementations MUST always send the correct version number in
+     PreMasterSecret.  If ClientHello.client_version is TLS 1.1 or higher,
+     server implementations MUST check the version number as described in
+     the note below.  If the version number is TLS 1.0 or earlier, server
+     implementations SHOULD check the version number, but MAY have a
+     configuration option to disable the check.  Note that if the check
+     fails, the PreMasterSecret SHOULD be randomized as described below.
+"fixed": |-
+  Client implementations MUST always send the correct version number in PreMasterSecret.  If ClientHello.client_version is TLS 1.1 or higher, server implementations MUST check the version number as described in the note below.  If the version number is TLS 1.0 or earlier, server implementations SHOULD check the version number, but MAY have a configuration option to disable the check.  Note that if the check fails, the PreMasterSecret SHOULD be randomized as described below.
+"ko": |-
+  클라이언트 구현은 항상 PreMasterSecret에 올바른 버전 번호를 보내야 합니다. ClientHello.client_version이 TLS 1.1 이상인 경우 서버 구현은 아래 참고 사항에 설명된 대로 버전 번호를 확인해야 합니다. 버전 번호가 TLS 1.0 이하인 경우 서버 구현은 버전 번호를 확인해야 하지만 확인을 비활성화하는 구성 옵션이 있을 수 있습니다. 검사가 실패하면 PreMasterSecret은 아래 설명된 대로 무작위로 지정되어야 합니다.

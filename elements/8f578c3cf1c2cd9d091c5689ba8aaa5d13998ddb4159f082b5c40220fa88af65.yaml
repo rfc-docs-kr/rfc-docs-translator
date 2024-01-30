@@ -1,0 +1,26 @@
+"hash": |-
+  8f578c3cf1c2cd9d091c5689ba8aaa5d13998ddb4159f082b5c40220fa88af65
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For TLS/TCP and DTLS/SCTP usage, a TLS/TCP and DTLS/SCTP handshake
+     SHOULD begin when both ends are in the closed state prior to any
+     Diameter message exchanges.  The TLS/TCP and DTLS/SCTP connection
+     SHOULD be established before sending any CER or CEA message to secure
+     and protect the capabilities information of both peers.  The TLS/TCP
+     and DTLS/SCTP connection SHOULD be disconnected when the state
+     machine moves to the closed state.  When connecting to responders
+     that do not conform to this document (i.e., older Diameter
+     implementations that are not prepared to received TLS/TCP and DTLS/
+     SCTP connections in the closed state), the initial TLS/TCP and DTLS/
+     SCTP connection attempt will fail.  The initiator MAY then attempt to
+     connect via TCP or SCTP and initiate the TLS/TCP and DTLS/SCTP
+     handshake when both ends are in the open state.  If the handshake is
+     successful, all further messages will be sent via TLS/TCP and DTLS/
+     SCTP.  If the handshake fails, both ends move to the closed state.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

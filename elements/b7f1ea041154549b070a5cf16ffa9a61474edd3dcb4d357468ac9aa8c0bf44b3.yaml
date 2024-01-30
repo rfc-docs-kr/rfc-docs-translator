@@ -1,0 +1,21 @@
+"hash": |-
+  b7f1ea041154549b070a5cf16ffa9a61474edd3dcb4d357468ac9aa8c0bf44b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note:  When using an out-of-band provisioned pre-shared secret, a
+        critical consideration is using sufficient entropy during the key
+        generation, as discussed in [RFC4086].  Deriving a shared secret
+        from a password or other low-entropy sources is not secure.  A
+        low-entropy secret, or password, is subject to dictionary attacks
+        based on the PSK binder.  The specified PSK authentication is not
+        a strong password-based authenticated key exchange even when used
+        with Diffie-Hellman key establishment.  Specifically, it does not
+        prevent an attacker that can observe the handshake from performing
+        a brute-force attack on the password/pre-shared key.
+"fixed": |-
+  Note:  When using an out-of-band provisioned pre-shared secret, a critical consideration is using sufficient entropy during the key generation, as discussed in [RFC4086].  Deriving a shared secret from a password or other low-entropy sources is not secure.  A low-entropy secret, or password, is subject to dictionary attacks based on the PSK binder.  The specified PSK authentication is not a strong password-based authenticated key exchange even when used with Diffie-Hellman key establishment.  Specifically, it does not prevent an attacker that can observe the handshake from performing a brute-force attack on the password/pre-shared key.
+"ko": |-
+  참고: 대역 외 프로비저닝된 사전 공유 비밀을 사용할 때 중요한 고려 사항은 [RFC4086]에 설명된 대로 키 생성 중에 충분한 엔트로피를 사용하는 것입니다. 비밀번호나 기타 낮은 엔트로피 소스에서 공유 비밀을 파생시키는 것은 안전하지 않습니다. 낮은 엔트로피 비밀 또는 비밀번호는 PSK 바인더를 기반으로 하는 사전 공격을 받기 쉽습니다. 지정된 PSK 인증은 Diffie-Hellman 키 설정과 함께 사용되는 경우에도 강력한 비밀번호 기반 인증 키 교환이 아닙니다. 특히, 핸드셰이크를 관찰할 수 있는 공격자가 비밀번호/사전 공유 키에 대해 무차별 대입 공격을 수행하는 것을 막지는 못합니다.

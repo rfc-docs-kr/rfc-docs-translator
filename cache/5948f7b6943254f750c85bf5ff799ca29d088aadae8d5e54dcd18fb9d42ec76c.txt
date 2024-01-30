@@ -1,0 +1,1 @@
+- 백채널에 대한 RPCSEC_GSS 컨텍스트는 gsshandle4_t 데이터 유형의 값 쌍을 통해 지정됩니다. gsshandle4_t 데이터 유형은 RPCSEC_GSS 핸들을 나타내며 [4]의 섹션 5.2.3.1, "컨텍스트 생성 응답 - 성공적인 수락"에 정의된 rpc_gss_init_res 데이터 유형의 "handle" 필드의 데이터 유형과 정확히 동일합니다.

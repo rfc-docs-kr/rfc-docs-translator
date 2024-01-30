@@ -1,0 +1,23 @@
+"hash": |-
+  b4757f4ffed5c1935ec7ba3b050ae1f94a4bb83b0d61e8f5c9a702b626592eb0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              DISCUSSION:
+                   The ARP specification [LINK:2] suggests but does not
+                   require a timeout mechanism to invalidate cache entries
+                   when hosts change their Ethernet addresses.  The
+                   prevalence of proxy ARP (see Section 2.4 of [INTRO:2])
+                   has significantly increased the likelihood that cache
+                   entries in hosts will become invalid, and therefore
+                   some ARP-cache invalidation mechanism is now required
+                   for hosts.  Even in the absence of proxy ARP, a long-
+                   period cache timeout is useful in order to
+                   automatically correct any bad ARP data that might have
+                   been cached.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  6d000006f338fdd3f8f2e78ec65640579d5f7f14ea2a0606a6c0f9cd13d055d5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The possibility exists for Session-Sender failure during a session,
+     or the path between the Session-Sender and Session-Reflector may fail
+     while a test session is in progress.  The Session-Reflector MAY
+     discontinue any session that has been started when no packet
+     associated with that session has been received for REFWAIT seconds.
+     The default value of REFWAIT SHALL be 900 seconds, and this waiting
+     time MAY be configurable.  This timeout allows a Session-Reflector to
+     free up resources in case of failure.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

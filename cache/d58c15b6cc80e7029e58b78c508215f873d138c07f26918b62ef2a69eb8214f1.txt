@@ -1,0 +1,1 @@
+   IKE_AUTH 메시지에는 KEi/KEr 또는 Ni/Nr 페이로드가 포함되어 있지 않습니다. 따라서 IKE_AUTH 교환의 SA 페이로드에는 NONE 이외의 값을 가진 변환 유형 4(Diffie-Hellman 그룹)가 포함될 수 없습니다. 구현에서는 NONE 값을 보내는 대신 전체 변환 하위 구조를 생략해야 합니다(SHOULD).

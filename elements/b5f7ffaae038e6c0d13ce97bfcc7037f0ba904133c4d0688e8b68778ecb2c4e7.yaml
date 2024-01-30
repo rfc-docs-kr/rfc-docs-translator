@@ -1,0 +1,20 @@
+"hash": |-
+  b5f7ffaae038e6c0d13ce97bfcc7037f0ba904133c4d0688e8b68778ecb2c4e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because JPEG frames are typically larger than the underlying
+     network's maximum packet size, frames must often be fragmented into
+     several packets.  One approach is to allow the network layer below
+     RTP (e.g., IP) to perform the fragmentation.  However, this precludes
+     rate-controlling the resulting packet stream or partial delivery in
+     the presence of loss, and frames may be larger than the maximum
+     network layer reassembly length (see [10] for more information).  To
+     avoid these limitations, RTP/JPEG defines a simple fragmentation and
+     reassembly scheme at the RTP level.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  7d2554562bde762fe09efadb88ab79eff11a126c63d8c8f52ff8762a04418181
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Prior to accepting PSK key establishment, the server MUST validate
+     the corresponding binder value (see Section 4.2.11.2 below).  If this
+     value is not present or does not validate, the server MUST abort the
+     handshake.  Servers SHOULD NOT attempt to validate multiple binders;
+     rather, they SHOULD select a single PSK and validate solely the
+     binder that corresponds to that PSK.  See Section 8.2 and
+     Appendix E.6 for the security rationale for this requirement.  In
+     order to accept PSK key establishment, the server sends a
+     "pre_shared_key" extension indicating the selected identity.
+"fixed": |-
+  Prior to accepting PSK key establishment, the server MUST validate the corresponding binder value (see Section 4.2.11.2 below).  If this value is not present or does not validate, the server MUST abort the handshake.  Servers SHOULD NOT attempt to validate multiple binders; rather, they SHOULD select a single PSK and validate solely the binder that corresponds to that PSK.  See Section 8.2 and Appendix E.6 for the security rationale for this requirement.  In order to accept PSK key establishment, the server sends a "pre_shared_key" extension indicating the selected identity.
+"ko": |-
+  PSK 키 설정을 수락하기 전에 서버는 해당 바인더 값을 검증해야 합니다(아래 섹션 4.2.11.2 참조). 이 값이 없거나 유효성을 검사하지 않으면 서버는 핸드셰이크를 중단해야 합니다. 서버는 여러 바인더의 유효성을 검사하려고 시도해서는 안 됩니다. 오히려 단일 PSK를 선택하고 해당 PSK에 해당하는 바인더만 유효성을 검사해야 합니다. 이 요구 사항에 대한 보안 근거는 섹션 8.2 및 부록 E.6을 참조하세요. PSK 키 설정을 수락하기 위해 서버는 선택된 ID를 나타내는 "pre_shared_key" 확장을 보냅니다.

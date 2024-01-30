@@ -1,0 +1,15 @@
+"hash": |-
+  f2cc44846ce53f32310595baef3b7cbf98cc29c776f84bdd6524d3d2dcbd820b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ;time per event, because it might be buffered
+     observedEvent        = [ TimeStamp LWSP COLON] LWSP
+                            pkgdName [ LBRKT observedEventParameter
+                            *(COMMA observedEventParameter) RBRKT ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

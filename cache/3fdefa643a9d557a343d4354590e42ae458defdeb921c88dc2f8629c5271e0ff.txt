@@ -1,0 +1,3 @@
+      프로필 수준 ID:
+
+- 시퀀스 매개변수 세트 NAL 단위의 다음 3바이트에 대한 base16[7](16진수) 표현은 [1]에 지정됩니다. 1) profile_idc, 2) 여기에서 profile-iop라고 하는 바이트는 다음 값으로 구성됩니다. Constraint_set0_flag, Constraint_set1_flag, Constraint_set2_flag, Constraint_set3_flag, Constraint_set4_flag, Constraint_set5_flag 및 Reserved_zero_2bits(가장 중요한 비트부터 시작하여 비트 중요도 순서) 및 3) level_idc. Reserved_zero_2bits는 [1]에서 0과 같아야 하지만 이에 대한 다른 값은 향후 ITU-T 또는 ISO/IEC에 의해 지정될 수 있습니다.

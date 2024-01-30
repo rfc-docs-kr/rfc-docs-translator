@@ -1,0 +1,18 @@
+"hash": |-
+  35fbfcb663d9ec9db330342f8c05e8855cc6b1091743f76700df69812900934d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the event that a client requests additional functionality using
+     extensions, and this functionality is not supplied by the server, the
+     client MAY abort the handshake.  A server MUST accept ClientHello
+     messages both with and without the extensions field, and (as for all
+     other messages) it MUST check that the amount of data in the message
+     precisely matches one of these formats; if not, then it MUST send a
+     fatal "decode_error" alert.
+"fixed": |-
+  In the event that a client requests additional functionality using extensions, and this functionality is not supplied by the server, the client MAY abort the handshake.  A server MUST accept ClientHello messages both with and without the extensions field, and (as for all other messages) it MUST check that the amount of data in the message precisely matches one of these formats; if not, then it MUST send a fatal "decode_error" alert.
+"ko": |-
+  클라이언트가 확장을 사용하여 추가 기능을 요청하고 서버에서 이 기능을 제공하지 않는 경우 클라이언트는 핸드셰이크를 중단할 수 있습니다. 서버는 확장 필드가 있거나 없는 ClientHello 메시지를 수락해야 하며(다른 모든 메시지의 경우에도) 메시지의 데이터 양이 이러한 형식 중 하나와 정확하게 일치하는지 확인해야 합니다. 그렇지 않은 경우 치명적인 "decode_error" 경고를 보내야 합니다.

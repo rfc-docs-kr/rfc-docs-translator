@@ -1,0 +1,19 @@
+"hash": |-
+  491a76d10be43af38ed30098035a63d7d8d75eb56b546da31bbe7bf71a870445
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                Improper use of trailers can result in very confusing
+                symptoms.  Only packets with specific size attributes are
+                encapsulated using trailers, and typically only a small
+                fraction of the packets being exchanged have these
+                attributes.  Thus, if a system using trailers exchanges
+                packets with a system that does not, some packets
+                disappear into a black hole while others are delivered
+                successfully.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

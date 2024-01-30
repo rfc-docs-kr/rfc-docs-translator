@@ -1,0 +1,21 @@
+"hash": |-
+  66cc51bfca2d47d5c45b88e377c94691eab92adc1688191ba49cab8453177513
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the protection level indicates that TLS is required, then it
+     should be negotiated once the data connection is made.  Thus, the
+     '150' reply only states that the command can be used given the
+     current PROT level.  Should the server not like the TLS negotiation,
+     then it will close the data port immediately and follow the '150'
+     command with a '522' reply, which indicates that the TLS negotiation
+     failed or was unacceptable.  (Note: This means that the application
+     can pass a standard list of CipherSuites to the TLS layer for
+     negotiation, and review the one negotiated for applicability in each
+     instance).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

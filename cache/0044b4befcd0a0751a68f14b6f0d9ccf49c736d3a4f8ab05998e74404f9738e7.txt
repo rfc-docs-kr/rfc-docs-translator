@@ -1,0 +1,1 @@
+키 교환 프로세스의 일반적인 목표는 공격자가 아닌 통신 당사자에게 알려진 pre_master_secret을 생성하는 것입니다. pre_master_secret은 master_secret을 생성하는 데 사용됩니다(섹션 8.1 참조). 완료 메시지, 암호화 키 및 MAC 키를 생성하려면 master_secret이 필요합니다(섹션 7.4.9 및 6.3 참조). 올바른 완료 메시지를 전송함으로써 당사자는 올바른 pre_master_secret을 알고 있음을 증명합니다.

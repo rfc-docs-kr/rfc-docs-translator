@@ -1,0 +1,20 @@
+"hash": |-
+  cfb09824771dcef09eebc34661e390b6f76584bd608b05717226077cea383e36
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              +  If this connection was initiated with a passive OPEN
+                 (i.e., came from the LISTEN state), then return this
+                 connection to LISTEN state and return.  The user need not
+                 be informed.  If this connection was initiated with an
+                 active OPEN (i.e., came from SYN-SENT state), then the
+                 connection was refused; signal the user "connection
+                 refused".  In either case, the retransmission queue
+                 should be flushed.  And in the active OPEN case, enter
+                 the CLOSED state and delete the TCB, and return.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

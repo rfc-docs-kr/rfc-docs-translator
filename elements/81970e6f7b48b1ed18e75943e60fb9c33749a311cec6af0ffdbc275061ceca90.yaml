@@ -1,0 +1,23 @@
+"hash": |-
+  81970e6f7b48b1ed18e75943e60fb9c33749a311cec6af0ffdbc275061ceca90
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          Several routing table entries may match the destination address.
+          In this case, the "best match" is the routing table entry that
+          provides the most specific (longest) match. Another way of
+          saying this is to choose the entry that specifies the narrowest
+          range of IP addresses.[11] For example, the entry for the
+          address/mask pair of (128.185.1.0, 0xffffff00) is more specific
+          than an entry for the pair (128.185.0.0, 0xffff0000). The
+          default route is the least specific match, since it matches all
+          destinations. (Note that for any single routing table entry,
+          multiple paths may be possible. In these cases, the calculations
+          in Sections 16.1, 16.2, and 16.4 always yield the paths having
+          the most preferential path-type, as described in Section 11).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

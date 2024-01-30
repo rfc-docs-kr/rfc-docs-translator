@@ -1,0 +1,18 @@
+"hash": |-
+  61b309df8e7e0f38544da5b7a0f15ff96f65b43ac1448b3c320abe2f86b678c3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              The age of an LSA is never incremented past MaxAge.  LSAs
+              having age MaxAge are not used in the routing table
+              calculation.  When an LSA's age first reaches MaxAge, it is
+              reflooded.  An LSA of age MaxAge is finally flushed from the
+              database when it is no longer needed to ensure database
+              synchronization.  For more information on the aging of LSAs,
+              consult Section 14.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  0aea8a55fb05f637c76b25797b4daf7cdc79be9c494c20f9eb0987e3fabb1bb7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                        When TCP is used for bulk transfer, the data
+                        stream should be made up (almost) entirely of
+                        segments of the size of the effective MSS.
+                        Although TCP uses a sequence number space with
+                        byte (octet) granularity, in bulk-transfer mode
+                        its operation should be as if TCP used a sequence
+                        space that counted only segments.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

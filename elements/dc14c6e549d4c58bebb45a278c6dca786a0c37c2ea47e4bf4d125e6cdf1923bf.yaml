@@ -1,0 +1,23 @@
+"hash": |-
+  dc14c6e549d4c58bebb45a278c6dca786a0c37c2ea47e4bf4d125e6cdf1923bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  diffServRandomDropWeight OBJECT-TYPE
+      SYNTAX       Unsigned32 (0..65536)
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The weighting of past history in affecting the Exponentially
+         Weighted Moving Average function that calculates the current
+         average queue depth.  The equation uses
+         diffServRandomDropWeight/65536 as the coefficient for the new
+         sample in the equation, and (65536 -
+         diffServRandomDropWeight)/65536 as the coefficient of the old
+         value.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

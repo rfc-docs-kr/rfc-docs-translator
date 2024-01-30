@@ -1,0 +1,19 @@
+"hash": |-
+  d528ecc252d687e7afcbe40f48067f2ed367e1ba6a0c0373a3b267d78f5b4355
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            ProtocolVersion legacy_version = 0x0303;    /* TLS v1.2 */
+            Random random;
+            opaque legacy_session_id<0..32>;
+            CipherSuite cipher_suites<2..2^16-2>;
+            opaque legacy_compression_methods<1..2^8-1>;
+            Extension extensions<8..2^16-1>;
+        } ClientHello;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

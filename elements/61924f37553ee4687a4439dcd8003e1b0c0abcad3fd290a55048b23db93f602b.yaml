@@ -1,0 +1,50 @@
+"hash": |-
+  61924f37553ee4687a4439dcd8003e1b0c0abcad3fd290a55048b23db93f602b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    +-------------------+------+-------------+---------------------------+
+    |  PropertyID       | Tag  | Type        | Value                     |
+    +-------------------+------+-------------+---------------------------+
+    | Media             | 1001 | Enumeration | Audio(0), Video(1),       |
+    |                   |      |             | Data(2)                   |
+    +-------------------+------+-------------+---------------------------+
+    | Transmission mode | 1002 | Enumeration | Send(0), Receive(1),      |
+    |                   |      |             | Send&Receive(2)           |
+    +-------------------+------+-------------+---------------------------+
+    | Number of         | 1003 | Unsigned    | 0-255                     |
+    | Channels          |      | Integer     |                           |
+    +-------------------+------+-------------+---------------------------+
+    | Sampling rate     | 1004 | Unsigned    | 0-2^32                    |
+    |                   |      | Integer     |                           |
+    +-------------------+------+-------------+---------------------------+
+    | Bitrate           | 1005 | Integer     | (0..4294967295)           |
+    |                   |      |             | Note - units of 100 bit/s |
+    +-------------------+------+-------------+---------------------------+
+    | ACodec            | 1006 | Octet       | Audio Codec Type          |
+    |                   |      | String      |                           |
+    +-------------------+------+-------------+---------------------------+
+    | Reference: ITU-T Rec. Q.765 - Application transport mechanism.     |
+    | Non-ITU codecs are defined with the appropriate standards          |
+    | organisation under a defined Organizational Identitifier.          |
+    +-------------------+------+-------------+---------------------------+
+    | Samplepp          | 1007 | Unsigned    | Maximum samples or frames |
+    |                   |      | Integer     | per packet: 0-65535       |
+    +-------------------+------+-------------+---------------------------+
+    | Silencesupp       | 1008 | BOOLEAN     | Silence Suppression:      |
+    |                   |      |             | True/false                |
+    +-------------------+------+-------------+---------------------------+
+    | Encrypttype       | 1009 | Octet       | Ref.: rec. H.245          |
+    |                   |      | String      |                           |
+    +-------------------+------+-------------+---------------------------+
+    | Encryptkey        | 100A | Octet       | SIZE(0..65535)            |
+    |                   |      | String      | Encryption key            |
+    +-------------------+------+-------------+---------------------------+
+    |  Ref.: rec. H.235                                                  |
+    +-------------------+------+-------------+---------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

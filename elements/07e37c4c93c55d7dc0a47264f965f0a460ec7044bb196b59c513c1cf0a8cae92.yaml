@@ -1,0 +1,17 @@
+"hash": |-
+  07e37c4c93c55d7dc0a47264f965f0a460ec7044bb196b59c513c1cf0a8cae92
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations SHOULD retain the current timer value until a
+     transmission without loss occurs, at which time the value may be
+     reset to the initial value.  After a long period of idleness, no less
+     than 10 times the current timer value, implementations may reset the
+     timer to the initial value.  One situation where this might occur is
+     when a rehandshake is used after substantial data transfer.
+"fixed": |-
+  Implementations SHOULD retain the current timer value until a transmission without loss occurs, at which time the value may be reset to the initial value.  After a long period of idleness, no less than 10 times the current timer value, implementations may reset the timer to the initial value.  One situation where this might occur is when a rehandshake is used after substantial data transfer.
+"ko": |-
+  구현은 손실 없이 전송이 발생할 때까지 현재 타이머 값을 유지해야 하며 이때 값은 초기 값으로 재설정될 수 있습니다. 현재 타이머 값의 10배 이상인 오랜 기간 동안 유휴 상태가 지속되면 구현에서는 타이머를 초기 값으로 재설정할 수 있습니다. 이런 일이 발생할 수 있는 상황 중 하나는 상당한 데이터 전송 후 재핸드셰이크가 사용되는 경우입니다.

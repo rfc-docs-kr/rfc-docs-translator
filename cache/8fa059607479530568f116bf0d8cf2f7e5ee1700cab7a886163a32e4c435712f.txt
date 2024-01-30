@@ -1,0 +1,1 @@
+   def ContextS.Seal(aad, pt): ct = Seal(self.key, self.ComputeNonce(self.seq), aad, pt) self.IncrementSeq() return ct

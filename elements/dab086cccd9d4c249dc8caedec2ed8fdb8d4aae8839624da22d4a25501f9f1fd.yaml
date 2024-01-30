@@ -1,0 +1,28 @@
+"hash": |-
+  dab086cccd9d4c249dc8caedec2ed8fdb8d4aae8839624da22d4a25501f9f1fd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           <CEA> ::= < Diameter Header: 257 >
+                     { Result-Code }
+                     { Origin-Host }
+                     { Origin-Realm }
+                  1* { Host-IP-Address }
+                     { Vendor-Id }
+                     { Product-Name }
+                     [ Origin-State-Id ]
+                     [ Error-Message ]
+                     [ Failed-AVP ]
+                   * [ Supported-Vendor-Id ]
+                   * [ Auth-Application-Id ]
+                   * [ Inband-Security-Id ]
+                   * [ Acct-Application-Id ]
+                   * [ Vendor-Specific-Application-Id ]
+                     [ Firmware-Revision ]
+                   * [ AVP ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

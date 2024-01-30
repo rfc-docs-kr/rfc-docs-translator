@@ -1,0 +1,19 @@
+"hash": |-
+  a3e3c3e2956b71d35c1715098585d7ad4e04e264cf7abd70ae8ba9e4b9314a41
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When establishing a new configuration for connecting to an IMAP, POP,
+     or SMTP submission server, based on SRV records, an MUA SHOULD verify
+     that either (a) the SRV records are signed using DNSSEC or (b) the
+     target Fully Qualified Domain Name (FQDN) of the SRV record matches
+     the original server FQDN for which the SRV queries were made.  If the
+     target FQDN is not in the queried domain, the MUA SHOULD verify with
+     the user that the SRV target FQDN is suitable for use, before
+     executing any connections to the host.  (See Section 6 of [RFC6186].)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

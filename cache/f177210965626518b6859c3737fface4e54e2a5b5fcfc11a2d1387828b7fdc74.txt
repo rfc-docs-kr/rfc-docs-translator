@@ -1,0 +1,1 @@
+   클라이언트가 세션을 재개하는 데 사용하려는 티켓을 소유하고 있는 경우 ClientHello의 SessionTicket 확장에 티켓을 포함합니다. 클라이언트에 티켓이 없고 NewSessionTicket 핸드셰이크 메시지에서 티켓을 받을 준비가 되어 있으면 SessionTicket 확장에 길이가 0인 티켓을 포함해야 합니다. 클라이언트가 NewSessionTicket 핸드셰이크 메시지에서 티켓을 받을 준비가 되어 있지 않은 경우 서버에서 다른 방법을 통해 받은 비어 있지 않은 티켓을 보내는 경우가 아니면 SessionTicket 확장을 포함해서는 안 됩니다(MUST NOT).

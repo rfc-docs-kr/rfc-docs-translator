@@ -1,0 +1,18 @@
+"hash": |-
+  1e8e116b75c904cba70e01e30c567ba6f408b77bc64583e867e7d84659ccf63f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is possible for the EAP peer and EAP server to mutually
+     authenticate and derive a AAA-Key for a ciphersuite used to protect
+     subsequent data traffic.  This does not present an issue on the peer,
+     since the peer and EAP client reside on the same machine; all that is
+     required is for the client to derive the AAA-Key from the MSK and
+     EMSK exported by the EAP method, and to subsequently pass a Transient
+     Session Key (TSK) to the ciphersuite module.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

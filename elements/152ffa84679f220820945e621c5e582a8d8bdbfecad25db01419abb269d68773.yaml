@@ -1,0 +1,16 @@
+"hash": |-
+  152ffa84679f220820945e621c5e582a8d8bdbfecad25db01419abb269d68773
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Multiple DTLS records may be placed in a single datagram.  They are
+     simply encoded consecutively.  The DTLS record framing is sufficient
+     to determine the boundaries.  Note, however, that the first byte of
+     the datagram payload must be the beginning of a record.  Records may
+     not span datagrams.
+"fixed": |-
+  Multiple DTLS records may be placed in a single datagram.  They are simply encoded consecutively.  The DTLS record framing is sufficient to determine the boundaries.  Note, however, that the first byte of the datagram payload must be the beginning of a record.  Records may not span datagrams.
+"ko": |-
+  여러 DTLS 레코드가 단일 데이터그램에 배치될 수 있습니다. 단순히 연속적으로 인코딩됩니다. DTLS 레코드 프레이밍은 경계를 결정하는 데 충분합니다. 그러나 데이터그램 페이로드의 첫 번째 바이트는 레코드의 시작이어야 합니다. 레코드는 데이터그램에 걸쳐 있을 수 없습니다.

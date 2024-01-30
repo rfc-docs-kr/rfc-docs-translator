@@ -1,0 +1,1 @@
+   DataSequenceInOrder가 Yes로 설정된 경우 대상은 최대 마지막 R2T까지 재시도할 수 있으며 개시자는 마지막으로 읽은 데이터 시퀀스에 대한 재전송을 요청할 수 있습니다. 이러한 이유로 ErrorRecoveryLevel이 0이 아니고 DataSequenceInOrder가 Yes로 설정된 경우 MaxOutstandingR2T를 1로 설정해야 합니다.

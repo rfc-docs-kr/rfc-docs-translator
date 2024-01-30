@@ -1,0 +1,21 @@
+"hash": |-
+  6b2d1f43c13cf7b56c83846b5c96e3e786f782b74962e2c585761b403d382cb7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Stream descriptor specifies the parameters of a single bi-
+     directional stream.  These parameters are structured into three
+     descriptors: one that contains termination properties specific to a
+     stream and one each for local and remote flows. The Stream Descriptor
+     includes a StreamID which identifies the stream.  Streams are created
+     by specifying a new StreamID on one of the terminations in a Context.
+     A stream is deleted by setting empty Local and Remote descriptors for
+     the stream with ReserveGroup and ReserveValue in LocalControl set to
+     "false" on all terminations in the context that previously supported
+     that stream.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

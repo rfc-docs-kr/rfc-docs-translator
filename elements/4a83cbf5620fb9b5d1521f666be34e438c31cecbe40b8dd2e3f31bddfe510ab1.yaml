@@ -1,0 +1,17 @@
+"hash": |-
+  4a83cbf5620fb9b5d1521f666be34e438c31cecbe40b8dd2e3f31bddfe510ab1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the MG detects a failure of its controlling MGC, it attempts to
+     contact the next MGC on its pre-provisioned list.  It starts its
+     attempts at the beginning (Primary MGC), unless that was the MGC that
+     failed, in which case it starts at its first Secondary MGC.  It sends
+     a ServiceChange message with a "Failover" method and a " MGC
+     Impending Failure" reason.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

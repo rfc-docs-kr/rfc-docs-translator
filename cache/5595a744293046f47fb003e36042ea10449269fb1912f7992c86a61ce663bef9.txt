@@ -1,0 +1,1 @@
+   ((wda_want & OPEN4_SHARE_ACCESS_WANT_DELEG_MASK) & ~OPEN4_SHARE_ACCESS_WANT_NO_DELEG)가 0이면 클라이언트는 위임을 명시적으로 원하지 않거나 원하지 않음을 나타내는 것이며 서버는 NFS4ERR_INVAL을 반환해야 합니다.

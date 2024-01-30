@@ -1,0 +1,19 @@
+"hash": |-
+  910f4cade689175d6191227ce0db053be87fd88f36f7ecd94a228d0cfa7e99b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the proxy forwards a Disconnect-Request or CoA-Request, it MAY
+     add a Proxy-State Attribute, but it MUST NOT add more than one.  If a
+     Proxy-State Attribute is added to a packet when forwarding the
+     packet, the Proxy-State Attribute MUST be added after any existing
+     Proxy-State attributes.  The forwarding proxy MUST NOT change the
+     order of any attributes of the same type, including Proxy-State.
+     Other attributes can be placed before, after, or even between the
+     Proxy-State attributes.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

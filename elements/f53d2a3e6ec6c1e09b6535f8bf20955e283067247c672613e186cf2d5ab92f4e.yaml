@@ -1,0 +1,22 @@
+"hash": |-
+  f53d2a3e6ec6c1e09b6535f8bf20955e283067247c672613e186cf2d5ab92f4e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The DRST message is optionally sent from the SGP to all concerned
+        ASPs to indicate that the SG has determined that one or more SS7
+        destinations are now restricted from the point of view of the SG,
+        or in response to a DAUD message, if appropriate.  The M3UA layer
+        at the ASP is expected to send traffic to the affected destination
+        via an alternate SG with a route of equal priority, but only if
+        such an alternate route exists and is available.  If the affected
+        destination is currently considered unavailable by the ASP, The
+        MTP3-User should be informed that traffic to the affected
+        destination can be resumed.  In this case, the M3UA layer should
+        route the traffic through the SG initiating the DRST message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   서버에 SP4_MACH_CRED 또는 SP4_SSV 보호가 필요한 작업에는 spo_must_enforce라고도 하는 해당 결과가 있습니다. 일반적으로 서버의 결과는 클라이언트의 인수와 동일하지만 결과는 다를 수 있습니다. 클라이언트가 집합 { EXCHANGE_ID, CREATE_SESSION, DELEGPURGE, DESTROY_SESSION, BIND_CONN_TO_SESSION, DESTROY_CLIENTID }에서 하나 이상의 작업을 요청하는 경우 결과 spo_must_enforce에는 클라이언트가 해당 집합에서 요청한 작업이 포함되어야 합니다.

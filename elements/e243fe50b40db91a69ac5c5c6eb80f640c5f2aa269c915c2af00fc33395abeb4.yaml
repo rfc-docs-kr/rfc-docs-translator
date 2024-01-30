@@ -1,0 +1,19 @@
+"hash": |-
+  e243fe50b40db91a69ac5c5c6eb80f640c5f2aa269c915c2af00fc33395abeb4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an ASP becomes active for an AS and the SG is experiencing SS7
+     network isolation or is performing the MTP Restart procedure for the
+     AS, the SG MAY send a DUNA message for the concerned destinations to
+     the newly active ASP to prevent the ASP from sending traffic.  These
+     messages can be sent after receiving the ASP Active, and before
+     sending the ASP Active Ack, to ensure that traffic is not initiated
+     by the ASP to these destinations before the SSNM are received.  In
+     addition to DUNA messages, SCON, DRST, and DAVA can also be sent.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  b005c434bcfdf7293c87d7c90c843d2cf6126be4224f71b69bfa413c85f3c5f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Data field is specified as a sequence of AVPs.  These AVPs are
+        concatenated -- including their headers and padding -- in the
+        order in which they are specified and the result encapsulated in
+        the Data field.  The AVP Length field is set to 8 (12 if the 'V'
+        bit is enabled) plus the total length of all included AVPs,
+        including their headers and padding.  Thus, the AVP Length field
+        of an AVP of type Grouped is always a multiple of 4.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

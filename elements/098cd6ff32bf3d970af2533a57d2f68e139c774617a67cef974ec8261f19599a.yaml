@@ -1,0 +1,18 @@
+"hash": |-
+  098cd6ff32bf3d970af2533a57d2f68e139c774617a67cef974ec8261f19599a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ActionRequest ::= SEQUENCE
+     {
+          contextId               ContextID,
+          contextRequest          ContextRequest OPTIONAL,
+          contextAttrAuditReq     ContextAttrAuditRequest OPTIONAL,
+          commandRequests         SEQUENCE OF CommandRequest
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

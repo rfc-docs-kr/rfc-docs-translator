@@ -1,0 +1,16 @@
+"hash": |-
+  ced2227f645b955425109227aa063bfd3980d92bc6dec18ade296add1a587007
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TLS implementation SHOULD NOT automatically resend early data;
+     applications are in a better position to decide when retransmission
+     is appropriate.  A TLS implementation MUST NOT automatically resend
+     early data unless the negotiated connection selects the same ALPN
+     protocol.
+"fixed": |-
+  A TLS implementation SHOULD NOT automatically resend early data; applications are in a better position to decide when retransmission is appropriate.  A TLS implementation MUST NOT automatically resend early data unless the negotiated connection selects the same ALPN protocol.
+"ko": |-
+  TLS 구현은 초기 데이터를 자동으로 다시 전송해서는 안 됩니다. 애플리케이션은 재전송이 적절한 시기를 결정하는 데 더 나은 위치에 있습니다. TLS 구현은 협상된 연결이 동일한 ALPN 프로토콜을 선택하지 않는 한 초기 데이터를 자동으로 다시 전송해서는 안 됩니다.

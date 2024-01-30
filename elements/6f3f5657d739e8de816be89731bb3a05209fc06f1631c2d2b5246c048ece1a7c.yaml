@@ -1,0 +1,19 @@
+"hash": |-
+  6f3f5657d739e8de816be89731bb3a05209fc06f1631c2d2b5246c048ece1a7c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Hash function used by Transcript-Hash and HKDF is the cipher
+     suite hash algorithm.  Hash.length is its output length in bytes.
+     Messages is the concatenation of the indicated handshake messages,
+     including the handshake message type and length fields, but not
+     including record layer headers.  Note that in some cases a zero-
+     length Context (indicated by "") is passed to HKDF-Expand-Label.  The
+     labels specified in this document are all ASCII strings and do not
+     include a trailing NUL byte.
+"fixed": |-
+  The Hash function used by Transcript-Hash and HKDF is the cipher suite hash algorithm.  Hash.length is its output length in bytes. Messages is the concatenation of the indicated handshake messages, including the handshake message type and length fields, but not including record layer headers.  Note that in some cases a zero- length Context (indicated by "") is passed to HKDF-Expand-Label.  The labels specified in this document are all ASCII strings and do not include a trailing NUL byte.
+"ko": |-
+  Transcript-Hash 및 HKDF에서 사용하는 해시 함수는 암호 제품군 해시 알고리즘입니다. Hash.length는 출력 길이(바이트)입니다. 메시지는 핸드셰이크 메시지 유형 및 길이 필드를 포함하지만 레코드 레이어 헤더는 포함하지 않는 표시된 핸드셰이크 메시지의 연결입니다. 어떤 경우에는 길이가 0인 Context(""로 표시)가 HKDF-Expand-Label에 전달됩니다. 이 문서에 지정된 레이블은 모두 ASCII 문자열이며 후행 NUL 바이트를 포함하지 않습니다.

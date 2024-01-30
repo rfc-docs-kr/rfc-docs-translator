@@ -1,0 +1,1 @@
+   클라이언트에 OPEN, WANT_DELEGATION 또는 GET_DIR_DELEGATION 요청이 처리되지 않은 경우 CB_WANTS_CANCELLED가 전송되면 서버는 위임 가용성 신호 약속이 CB_WANTS_CANCELLED 이전에 발생하여 이에 의해 처리되는지 아니면 이후에 클라이언트에게 명확하게 알려야 할 수 있습니다. CB_WANTS_CANCELLED 이 경우에는 적용되지 않습니다. 서버는 연관된 CB_SEQUENCE의 참조 호출 목록에 적절한 요청을 넣어 이를 구별할 수 있습니다.

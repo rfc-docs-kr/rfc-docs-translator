@@ -1,0 +1,13 @@
+"hash": |-
+  54aae5131a2b538c28c7f52e188fc8a130b641cb7ec85e9253664b7c7c6898ef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  If the negotiated key exchange algorithm is one of (DHE_DSS,
+        DH_DSS), behave as if the client had sent the value {sha1,dsa}.
+"fixed": |-
+  -  If the negotiated key exchange algorithm is one of (DHE_DSS, DH_DSS), behave as if the client had sent the value {sha1,dsa}.
+"ko": |-
+  - 협상된 키 교환 알고리즘이 (DHE_DSS, DH_DSS) 중 하나인 경우 클라이언트가 {sha1,dsa} 값을 보낸 것처럼 동작합니다.

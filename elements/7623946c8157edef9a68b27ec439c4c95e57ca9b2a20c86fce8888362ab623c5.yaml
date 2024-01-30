@@ -1,0 +1,19 @@
+"hash": |-
+  7623946c8157edef9a68b27ec439c4c95e57ca9b2a20c86fce8888362ab623c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the accounted service is of a measurable length, then the AVP MUST
+     use the values START_RECORD, STOP_RECORD, and possibly,
+     INTERIM_RECORD.  If the authorization server has not directed interim
+     accounting to be enabled for the session, two accounting records MUST
+     be generated for each service of type session.  When the initial
+     Accounting-Request for a given session is sent, the Accounting-
+     Record-Type AVP MUST be set to the value START_RECORD.  When the last
+     Accounting-Request is sent, the value MUST be STOP_RECORD.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

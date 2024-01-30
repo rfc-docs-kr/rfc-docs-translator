@@ -1,0 +1,22 @@
+"hash": |-
+  d7f651fe2c8137b1f841b6663f307d7b3c352d249c57495e8bb40bb548cf4981
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In a text encoding of the protocol, while TerminationIDs are
+     arbitrary, by judicious choice of names, the wildcard character, "*"
+     may be made more useful.  When the wildcard character is encountered,
+     it will "match" all TerminationIDs having the same previous and
+     following characters (if appropriate).  For example, if there were
+     TerminationIDs of R13/3/1, R13/3/2 and R13/3/3, the TerminationID
+     R13/3/* would match all of them.  There are some circumstances where
+     ALL Terminations must be referred to.  The TerminationID "*"
+     suffices, and is referred to as ALL. The CHOOSE TerminationID "$" may
+     be used to signal to the MG that it has to create an ephemeral
+     Termination or select an idle physical Termination.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

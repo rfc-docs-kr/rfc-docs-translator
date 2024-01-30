@@ -1,0 +1,22 @@
+"hash": |-
+  7344380b8545c059640ddb677d4c6b0f33b61b2076a7c7fe002227ee4112e9bb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                            1. Request        +---------+ Link Broken
+                  +-------------------------->|Diameter |----///----+
+                  |     +---------------------|         |           v
+           +------+--+  | 2. answer + 'E' set | Relay 2 |     +--------+
+           |Diameter |<-+ (Unable to Forward) +---------+     |Diameter|
+           |         |                                        |  Home  |
+           | Relay 1 |--+                     +---------+     | Server |
+           +---------+  |   3. Request        |Diameter |     +--------+
+                        +-------------------->|         |           ^
+                                              | Relay 3 |-----------+
+                                              +---------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

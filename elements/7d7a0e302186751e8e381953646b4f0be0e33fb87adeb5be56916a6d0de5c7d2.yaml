@@ -1,0 +1,22 @@
+"hash": |-
+  7d7a0e302186751e8e381953646b4f0be0e33fb87adeb5be56916a6d0de5c7d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Notification Type is optionally used to convey a displayable
+        message from the authenticator to the peer.  An authenticator MAY
+        send a Notification Request to the peer at any time when there is
+        no outstanding Request, prior to completion of an EAP
+        authentication method.  The peer MUST respond to a Notification
+        Request with a Notification Response unless the EAP authentication
+        method specification prohibits the use of Notification messages.
+        In any case, a Nak Response MUST NOT be sent in response to a
+        Notification Request.  Note that the default maximum length of a
+        Notification Request is 1020 octets.  By default, this leaves at
+        most 1015 octets for the human readable message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

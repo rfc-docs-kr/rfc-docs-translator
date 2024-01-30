@@ -1,0 +1,18 @@
+"hash": |-
+  131851ed28f55cef85bbb18bf0ff43b6f3a52c04df33d267d4df2c7257d4bba0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Also, traffic is marked with the appropriate DSCP.  The first R bits
+     per second are marked AFm1, the next S-R bits per second are marked
+     AFm2, and the rest is marked AFm3.  It may be that traffic is
+     arriving marked with the same DSCP, but in general, the additional
+     complexity of deciding that it is being remarked to the same value is
+     not useful.  Therefore, a "mark" action, consisting of an action
+     table entry pointing to a mark table entry, is configured.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

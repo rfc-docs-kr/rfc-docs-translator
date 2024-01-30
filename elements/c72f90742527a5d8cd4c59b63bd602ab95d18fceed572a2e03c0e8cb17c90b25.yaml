@@ -1,0 +1,20 @@
+"hash": |-
+  c72f90742527a5d8cd4c59b63bd602ab95d18fceed572a2e03c0e8cb17c90b25
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -- value for relation) instructs the MG to choose any value larger
+     -- than 3 for property x.
+     -- The range field may only be selected if the value sequence
+     -- has length 2.  It indicates that the MG has to choose a value
+     -- in the range between the first octet in the value sequence and
+     -- the trailing octet in the value sequence, including the
+     -- boundary values.
+     -- When sent by the MG, only responses to an AuditCapability request
+     -- may contain multiple values, a range, or a relation field.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

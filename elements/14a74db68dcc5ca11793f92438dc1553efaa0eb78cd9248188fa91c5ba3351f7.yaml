@@ -1,0 +1,20 @@
+"hash": |-
+  14a74db68dcc5ca11793f92438dc1553efaa0eb78cd9248188fa91c5ba3351f7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1) Graceful - indicates that the specified Terminations will be taken
+        out of service after the specified ServiceChangeDelay; established
+        connections are not yet affected, but the Media Gateway Controller
+        should refrain from establishing new connections and should
+        attempt to gracefully tear down existing connections on the
+        Termination(s) affected by the serviceChange command. The MG
+        should set termination serviceState at the expiry of
+        ServiceChangeDelay or the removal of the termination from an
+        active context (whichever is first), to "out of service".
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

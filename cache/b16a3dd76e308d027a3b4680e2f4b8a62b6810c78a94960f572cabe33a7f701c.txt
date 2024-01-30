@@ -1,0 +1,1 @@
+   실질적으로 클라이언트는 ClientHello.client_version이 {03,02}로 설정된 ClientHello를 보내면 안 됩니다. 마찬가지로 서버는 ServerHello.server_version이 {03,02}로 설정된 ServerHello를 전송해서는 안 됩니다. 프로토콜 버전이 {03,02}로 설정된 Hello 메시지를 수신하는 모든 당사자는 "protocol_version" 경고 메시지로 응답하고 연결을 닫아야 합니다.

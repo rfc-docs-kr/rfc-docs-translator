@@ -1,0 +1,56 @@
+"hash": |-
+  eeedd3bc99b3555085b37ad7d9807ae01a62a256bfcb571e04414c1e93c19eb5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                                   |        | | | |S| |
+                                                   |        | | | |H| |F
+                                                   |        | | | |O|M|o
+                                                   |        | |S| |U|U|o
+                                                   |        | |H| |L|S|t
+                                                   |        |M|O| |D|T|n
+                                                   |        |U|U|M| | |o
+                                                   |        |S|L|A|N|N|t
+                                                   |        |T|D|Y|O|O|t
+  FEATURE                                          |SECTION | | | |T|T|e
+  -------------------------------------------------|--------|-|-|-|-|-|--
+                                                   |        | | | | | |
+  Implement IP and ICMP                            |3.1     |x| | | | |
+  Handle remote multihoming in application layer   |3.1     |x| | | | |
+  Support local multihoming                        |3.1     | | |x| | |
+  Meet gateway specs if forward datagrams          |3.1     |x| | | | |
+  Configuration switch for embedded gateway        |3.1     |x| | | | |1
+     Config switch default to non-gateway          |3.1     |x| | | | |1
+     Auto-config based on number of interfaces     |3.1     | | | | |x|1
+  Able to log discarded datagrams                  |3.1     | |x| | | |
+     Record in counter                             |3.1     | |x| | | |
+                                                   |        | | | | | |
+  Silently discard Version != 4                    |3.2.1.1 |x| | | | |
+  Verify IP checksum, silently discard bad dgram   |3.2.1.2 |x| | | | |
+  Addressing:                                      |        | | | | | |
+    Subnet addressing (RFC-950)                    |3.2.1.3 |x| | | | |
+    Src address must be host's own IP address      |3.2.1.3 |x| | | | |
+    Silently discard datagram with bad dest addr   |3.2.1.3 |x| | | | |
+    Silently discard datagram with bad src addr    |3.2.1.3 |x| | | | |
+  Support reassembly                               |3.2.1.4 |x| | | | |
+  Retain same Id field in identical datagram       |3.2.1.5 | | |x| | |
+                                                   |        | | | | | |
+  TOS:                                             |        | | | | | |
+    Allow transport layer to set TOS               |3.2.1.6 |x| | | | |
+    Pass received TOS up to transport layer        |3.2.1.6 | |x| | | |
+    Use RFC-795 link-layer mappings for TOS        |3.2.1.6 | | | |x| |
+  TTL:                                             |        | | | | | |
+    Send packet with TTL of 0                      |3.2.1.7 | | | | |x|
+    Discard received packets with TTL < 2          |3.2.1.7 | | | | |x|
+    Allow transport layer to set TTL               |3.2.1.7 |x| | | | |
+    Fixed TTL is configurable                      |3.2.1.7 |x| | | | |
+                                                   |        | | | | | |
+  IP Options:                                      |        | | | | | |
+    Allow transport layer to send IP options       |3.2.1.8 |x| | | | |
+    Pass all IP options rcvd to higher layer       |3.2.1.8 |x| | | | |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

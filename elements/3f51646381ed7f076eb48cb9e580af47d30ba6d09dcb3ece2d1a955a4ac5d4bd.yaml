@@ -1,0 +1,22 @@
+"hash": |-
+  3f51646381ed7f076eb48cb9e580af47d30ba6d09dcb3ece2d1a955a4ac5d4bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  "Consistent": The transaction satisfies correctness constraints
+           defined for the data that is being processed.
+        -  "Isolated": If two transactions are performed concurrently,
+           they do not interfere with each other, and it appears as though
+           the system performs one at a time.
+        -  "Durable": System state and transaction semantics survive
+           system failures.
+"fixed": |-
+  -  "Consistent": The transaction satisfies correctness constraints defined for the data that is being processed.
+  -  "Isolated": If two transactions are performed concurrently, they do not interfere with each other, and it appears as though the system performs one at a time.
+  -  "Durable": System state and transaction semantics survive system failures.
+"ko": |-
+  - "일관성": 트랜잭션이 처리 중인 데이터에 대해 정의된 정확성 제약 조건을 충족합니다.
+  - "격리됨": 두 개의 트랜잭션이 동시에 수행되면 서로 간섭하지 않으며 시스템이 한 번에 하나씩 수행하는 것처럼 보입니다.
+  - "내구성": 시스템 상태 및 트랜잭션 의미 체계는 시스템 오류에도 살아남습니다.

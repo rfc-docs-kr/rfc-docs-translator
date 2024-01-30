@@ -1,0 +1,20 @@
+"hash": |-
+  29374c993d31b6898058c65e614d36700177f658ea7ff85d25c72b412ee059de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Handling an ICE offer with TCP candidates works in a similar way as
+     with UDP candidates.  First, ICE support is verified (including the
+     check for ice-mismatch described in Section 5.1 of [RFC5245]) and
+     agent roles are determined.  Candidates are gathered using the
+     techniques described in Section 5 and prioritized as described in
+     Section 4.2.  Default candidates are selected taking into account the
+     considerations in Section 4.3.  The SDP answer is encoded as in
+     Section 4.3 of [RFC5245], with the exception of TCP candidates whose
+     encoding is described in Section 4.5.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

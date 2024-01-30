@@ -1,0 +1,1 @@
+   DeadFactor 이것은 HelloInterval에 대한 승수입니다. LS가 이전 Hello 메시지에서 HelloInterval 및 DeadFactor를 광고한 지정된 DCS로부터 HelloInterval*DeadFactor 간격 내에서 수신자 ID로 LS의 LSID를 포함하는 Hello 메시지를 수신하지 않으면 LS는 DCS를 다음과 같이 고려해야 합니다. 실속; 이 시점에서 두 가지 중 하나가 발생해야 합니다. 1) LS가 이 시간 동안 DCS로부터 Hello 메시지를 수신한 경우 LS는 해당 HFSM을 단방향 상태로 전환합니다. 그렇지 않으면 2) LS는 해당 HFSM을 대기 상태로 전환합니다.

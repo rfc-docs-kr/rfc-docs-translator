@@ -1,0 +1,24 @@
+"hash": |-
+  dfe3c6b548a175b742b563fe4cb28a472aa3ca988b022c068135258be6d3783a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When ALL is used in the TerminationID of a command, the effect is
+     identical to repeating the command with each of the matching
+     TerminationIDs.  Since each of these commands may generate a
+     response, the size of the entire response may be large.  If
+     individual responses are not required, a wildcard response may be
+     requested.  In such a case, a single response is generated, which
+     contains the UNION of all of the individual responses which otherwise
+     would have been generated, with duplicate values suppressed.  For
+     instance, given a Termination Ta with properties p1=a, p2=b and
+     Termination Tb with properties p2=c, p3=d, a UNION response would
+     consist of a wildcarded TerminationId and the sequence of properties
+     p1=a, p2=b,c and p3=d.  Wildcard response may be particularly useful
+     in the Audit commands.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

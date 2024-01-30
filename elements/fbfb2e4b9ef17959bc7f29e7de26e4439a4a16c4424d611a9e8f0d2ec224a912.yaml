@@ -1,0 +1,20 @@
+"hash": |-
+  fbfb2e4b9ef17959bc7f29e7de26e4439a4a16c4424d611a9e8f0d2ec224a912
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     send window
+             This represents the sequence numbers that the remote
+             (receiving) TCP endpoint is willing to receive.  It is the
+             value of the window field specified in segments from the
+             remote (data-receiving) TCP endpoint.  The range of new
+             sequence numbers that may be emitted by a TCP implementation
+             lies between SND.NXT and SND.UNA + SND.WND - 1.
+             (Retransmissions of sequence numbers between SND.UNA and
+             SND.NXT are expected, of course.)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

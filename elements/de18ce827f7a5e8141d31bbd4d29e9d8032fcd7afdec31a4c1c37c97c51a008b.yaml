@@ -1,0 +1,28 @@
+"hash": |-
+  de18ce827f7a5e8141d31bbd4d29e9d8032fcd7afdec31a4c1c37c97c51a008b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              NBMA mode is the most efficient way to run OSPF over non-
+              broadcast networks, both in terms of link-state database
+              size and in terms of the amount of routing protocol traffic.
+              However, it has one significant restriction: it requires all
+              routers attached to the NBMA network to be able to
+              communicate directly. This restriction may be met on some
+              non-broadcast networks, such as an ATM subnet utilizing
+              SVCs. But it is often not met on other non-broadcast
+              networks, such as PVC-only Frame Relay networks. On non-
+              broadcast networks where not all routers can communicate
+              directly you can break the non-broadcast network into
+              logical subnets, with the routers on each subnet being able
+              to communicate directly, and then run each separate subnet
+              as an NBMA network (see [Ref15]). This however requires
+              quite a bit of administrative overhead, and is prone to
+              misconfiguration. It is probably better to run such a non-
+              broadcast network in Point-to-Multipoint mode.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

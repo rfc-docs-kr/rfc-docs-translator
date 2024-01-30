@@ -1,0 +1,1 @@
+   isegment = *ipchar [";" *ipchar] isegment-nz = 1*ipchar [";" *ipchar] / ";" *ipchar isegment-nz-nc = (1*ipchar-nc [";" *ipchar-nc]) / ";" *ipchar-nc ; 콜론 ":"이 없는 길이가 0이 아닌 세그먼트; 경로 내부에는 매개변수(;로 구분)가 없습니다.

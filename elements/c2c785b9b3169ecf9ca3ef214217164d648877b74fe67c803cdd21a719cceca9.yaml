@@ -1,0 +1,16 @@
+"hash": |-
+  c2c785b9b3169ecf9ca3ef214217164d648877b74fe67c803cdd21a719cceca9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Servers which are authenticating with a PSK MUST NOT send the
+     CertificateRequest message in the main handshake, though they MAY
+     send it in post-handshake authentication (see Section 4.6.2) provided
+     that the client has sent the "post_handshake_auth" extension (see
+     Section 4.2.6).
+"fixed": |-
+  Servers which are authenticating with a PSK MUST NOT send the CertificateRequest message in the main handshake, though they MAY send it in post-handshake authentication (see Section 4.6.2) provided that the client has sent the "post_handshake_auth" extension (see Section 4.2.6).
+"ko": |-
+  PSK로 인증하는 서버는 클라이언트가 "post_handshake_auth" 확장(섹션 4.2 참조)을 보낸 경우 사후 핸드셰이크 인증(섹션 4.6.2 참조)으로 보낼 수 있지만 기본 핸드셰이크에서 CertificateRequest 메시지를 보내서는 안 됩니다. .6).

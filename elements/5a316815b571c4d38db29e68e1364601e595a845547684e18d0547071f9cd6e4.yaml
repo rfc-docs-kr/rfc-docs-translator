@@ -1,0 +1,21 @@
+"hash": |-
+  5a316815b571c4d38db29e68e1364601e595a845547684e18d0547071f9cd6e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server_version field has the same syntax as in TLS.  However, in
+     order to avoid the requirement to do version negotiation in the
+     initial handshake, DTLS 1.2 server implementations SHOULD use DTLS
+     version 1.0 regardless of the version of TLS that is expected to be
+     negotiated.  DTLS 1.2 and 1.0 clients MUST use the version solely to
+     indicate packet formatting (which is the same in both DTLS 1.2 and
+     1.0) and not as part of version negotiation.  In particular, DTLS 1.2
+     clients MUST NOT assume that because the server uses version 1.0 in
+     the HelloVerifyRequest that the server is not DTLS 1.2 or that it
+     will eventually negotiate DTLS 1.0 rather than DTLS 1.2.
+"fixed": |-
+  The server_version field has the same syntax as in TLS.  However, in order to avoid the requirement to do version negotiation in the initial handshake, DTLS 1.2 server implementations SHOULD use DTLS version 1.0 regardless of the version of TLS that is expected to be negotiated.  DTLS 1.2 and 1.0 clients MUST use the version solely to indicate packet formatting (which is the same in both DTLS 1.2 and 1.0) and not as part of version negotiation.  In particular, DTLS 1.2 clients MUST NOT assume that because the server uses version 1.0 in the HelloVerifyRequest that the server is not DTLS 1.2 or that it will eventually negotiate DTLS 1.0 rather than DTLS 1.2.
+"ko": |-
+  server_version 필드는 TLS와 동일한 구문을 갖습니다. 그러나 초기 핸드셰이크에서 버전 협상을 수행해야 하는 요구 사항을 피하기 위해 DTLS 1.2 서버 구현은 협상될 것으로 예상되는 TLS 버전에 관계없이 DTLS 버전 1.0을 사용해야 합니다. DTLS 1.2 및 1.0 클라이언트는 버전 협상의 일부가 아닌 패킷 형식(DTLS 1.2 및 1.0 모두에서 동일)을 나타내기 위해서만 버전을 사용해야 합니다. 특히, DTLS 1.2 클라이언트는 서버가 HelloVerifyRequest에서 버전 1.0을 사용하기 때문에 서버가 DTLS 1.2가 아니거나 결국 DTLS 1.2가 아닌 DTLS 1.0을 협상할 것이라고 가정해서는 안 됩니다.

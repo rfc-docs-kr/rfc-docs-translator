@@ -1,0 +1,21 @@
+"hash": |-
+  3c762ec07cf0feb77b0351957b00739e31df6a2b136bfd499a1be710bf796348
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServCountActStorage OBJECT-TYPE
+      SYNTAX       StorageType
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The storage type for this conceptual row.  Conceptual rows
+         having the value 'permanent' need not allow write-access to any
+         columnar objects in the row."
+      DEFVAL { nonVolatile }
+      ::= { diffServCountActEntry 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

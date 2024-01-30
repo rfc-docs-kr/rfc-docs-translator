@@ -1,0 +1,22 @@
+"hash": |-
+  b67190bb5dde3f2164f5bdaa79dec0e3bfc3708b96bccf44fe19b15850a2f7a1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServAlgDropEntry OBJECT-TYPE
+      SYNTAX       DiffServAlgDropEntry
+      MAX-ACCESS   not-accessible
+      STATUS       current
+      DESCRIPTION
+         "An entry describes a process that drops packets according to
+         some algorithm. Further details of the algorithm type are to be
+         found in diffServAlgDropType and with more detail parameter entry
+         pointed to by diffServAlgDropSpecific when necessary."
+      INDEX { diffServAlgDropId }
+      ::= { diffServAlgDropTable 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  18053ef54070657feacad0c6bee4780f9c9bc3945a6beebddeab384f33b33d60
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      The above algorithm assumes that all masks are contiguous; this
+      ensures that when two networks have the same address, one mask is
+      more specific than the other. The algorithm also assumes that no
+      network exists having an address equal to another network's
+      broadcast address. Given these two assumptions, the above algorithm
+      always produces unique Link State IDs. The above algorithm can also
+      be reworded as follows:  When originating an AS-external-LSA, try to
+      use the network number as the Link State ID.  If that produces a
+      conflict, examine the two networks in conflict. One will be a subset
+      of the other. For the less specific network, use the network number
+      as the Link State ID and for the more specific use the network's
+      broadcast address instead (i.e., flip all the "host" bits to 1).  If
+      the most specific network was originated first, this will cause you
+      to originate two LSAs at once.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

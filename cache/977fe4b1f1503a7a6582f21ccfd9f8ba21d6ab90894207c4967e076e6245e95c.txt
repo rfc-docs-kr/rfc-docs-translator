@@ -1,0 +1,1 @@
+   SETTINGS_INITIAL_WINDOW_SIZE (0x04): QUIC에서는 초기 전송 핸드셰이크에 스트림 및 연결 흐름 제어 창 크기를 모두 지정해야 합니다. HTTP/3 SETTINGS 프레임에서 식별자 0x04(SETTINGS_INITIAL_WINDOW_SIZE 매개변수에 해당)로 설정을 지정하면 오류가 발생합니다.

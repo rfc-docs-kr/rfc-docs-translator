@@ -1,0 +1,25 @@
+"hash": |-
+  da63a15c83a56d205e59b5d120dbad5909f8a82fff3db7340d4ef9d16abaeffb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This specification does not mandate a particular registered name
+     lookup technology and therefore does not restrict the syntax of reg-
+     name beyond what is necessary for interoperability.  Instead, it
+     delegates the issue of registered name syntax conformance to the
+     operating system of each application performing URI resolution, and
+     that operating system decides what it will allow for the purpose of
+     host identification.  A URI resolution implementation might use DNS,
+     host tables, yellow pages, NetInfo, WINS, or any other system for
+     lookup of registered names.  However, a globally scoped naming
+     system, such as DNS fully qualified domain names, is necessary for
+     URIs intended to have global scope.  URI producers should use names
+     that conform to the DNS syntax, even when use of DNS is not
+     immediately apparent, and should limit these names to no more than
+     255 characters in length.
+"fixed": |-
+  This specification does not mandate a particular registered name lookup technology and therefore does not restrict the syntax of reg- name beyond what is necessary for interoperability.  Instead, it delegates the issue of registered name syntax conformance to the operating system of each application performing URI resolution, and that operating system decides what it will allow for the purpose of host identification.  A URI resolution implementation might use DNS, host tables, yellow pages, NetInfo, WINS, or any other system for lookup of registered names.  However, a globally scoped naming system, such as DNS fully qualified domain names, is necessary for URIs intended to have global scope.  URI producers should use names that conform to the DNS syntax, even when use of DNS is not immediately apparent, and should limit these names to no more than 255 characters in length.
+"ko": |-
+  이 사양은 특정 등록 이름 조회 기술을 요구하지 않으므로 상호 운용성에 필요한 것 이상으로 regname 구문을 제한하지 않습니다. 대신 등록된 이름 구문 준수 문제를 URI 확인을 수행하는 각 응용 프로그램의 운영 체제에 위임하고 해당 운영 체제는 호스트 식별을 위해 무엇을 허용할지 결정합니다. URI 확인 구현에서는 등록된 이름을 조회하기 위해 DNS, 호스트 테이블, 전화번호부, NetInfo, WINS 또는 기타 시스템을 사용할 수 있습니다. 그러나 전역 범위를 가지려는 URI에는 DNS 정규화된 도메인 이름과 같은 전역 범위 명명 시스템이 필요합니다. URI 생산자는 DNS 사용이 즉시 명백하지 않은 경우에도 DNS 구문을 준수하는 이름을 사용해야 하며 이러한 이름의 길이를 255자 이하로 제한해야 합니다.

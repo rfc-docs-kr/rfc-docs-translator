@@ -1,0 +1,3 @@
+   3. 클라이언트는 처리 후 LAYOUTGET을 보냈습니다.
+
+- CB_LAYOUTRECALL; 서버는 CB_LAYOUTRECALL 응답을 받았지만 해당 처리를 완료한 LAYOUTRETURN 전에 LAYOUTGET이 도착했습니다. LAYOUTGET 레이아웃 stateid의 "seqid"는 CB_LAYOUTRECALL의 "seqid"와 동일합니다. 서버는 CB_LAYOUTRECALL에 대한 응답을 받았으므로 NFS4ERR_RETURNCONFLICT를 반환합니다.

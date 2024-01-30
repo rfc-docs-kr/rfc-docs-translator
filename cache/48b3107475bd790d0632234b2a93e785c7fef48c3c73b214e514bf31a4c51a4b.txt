@@ -1,0 +1,1 @@
+   ErrorRecoveryLevel이 0보다 큰 세션에서 A 비트가 1로 설정된 Data-In PDU를 수신할 때 해당 Data-In PDU까지 읽기 데이터에 구멍이 없으면 개시자는 DataACK 유형의 SNACK을 발행해야 합니다. 작업 상태도 수신된 경우 다른 아웃바운드 PDU의 ExpStatSN을 통해 즉시 작업 상태를 확인할 수 있는 경우. 후자의 경우(ExpStatSN을 통한 승인) A 비트에 대한 응답으로 DataACK 유형의 SNACK을 보내는 것은 선택 사항이지만, 그렇게 한 경우에는

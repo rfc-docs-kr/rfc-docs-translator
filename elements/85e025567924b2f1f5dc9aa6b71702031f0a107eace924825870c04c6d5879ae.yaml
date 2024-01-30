@@ -1,0 +1,23 @@
+"hash": |-
+  85e025567924b2f1f5dc9aa6b71702031f0a107eace924825870c04c6d5879ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     From the list of ASPs within the AS table, an ASP in the ASP-ACTIVE
+     state is selected and a DATA message is constructed and issued on the
+     corresponding SCTP association.  If more than one ASP is in the ASP-
+     ACTIVE state (i.e., traffic is to be loadshared across more than one
+     ASP), one of the ASPs in the ASP-ACTIVE state is selected from the
+     list.  If the ASPs are in Broadcast Mode, all active ASPs will be
+     selected, and the message will be sent to each of the active ASPs.
+     The selection algorithm is implementation dependent but could, for
+     example, be round robin or based on the SLS or ISUP CIC.  The
+     appropriate selection algorithm must be chosen carefully, as it is
+     dependent on application assumptions and understanding of the degree
+     of state coordination between the ASP-ACTIVE ASPs in the AS.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

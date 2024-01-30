@@ -1,0 +1,19 @@
+"hash": |-
+  dd23be11d5991b3fc73daaebeb26d10c7b0c6e168f4be0619627d201561581f8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The optional ModemDescriptor and MuxDescriptor specify a modem and
+     multiplexer if applicable. For convenience, if a Multiplex Descriptor
+     is present in an Add command and lists any Terminations that are not
+     currently in the Context, such Terminations are added to the context
+     as if individual Add commands listing the Terminations were invoked.
+     If an error occurs on such an implied Add, error 471 - Implied Add
+     for Multiplex failure shall be returned and further processing of the
+     command shall cease.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

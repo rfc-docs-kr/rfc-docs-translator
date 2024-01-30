@@ -1,0 +1,20 @@
+"hash": |-
+  a1ab40bf2d22b4324030332025801cb8de11b329531d9c64d815ad1e568023e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Relays forward requests and responses based on routing-related
+        AVPs and routing table entries.  Since relays do not make policy
+        decisions, they do not examine or alter non-routing AVPs.  As a
+        result, relays never originate messages, do not need to understand
+        the semantics of messages or non-routing AVPs, and are capable of
+        handling any Diameter application or message type.  Since relays
+        make decisions based on information in routing AVPs and realm
+        forwarding tables, they do not keep state on NAS resource usage or
+        sessions in progress.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

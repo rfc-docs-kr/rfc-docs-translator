@@ -1,0 +1,13 @@
+"hash": |-
+  a19bccb2ad2999f42917a979e1ed955010fef29108050a6f2ade06851ba7b6ec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Delete the TCB and return "error: closing" responses to any queued
+        SENDs, or RECEIVEs.
+"fixed": |-
+  *  Delete the TCB and return "error: closing" responses to any queued SENDs, or RECEIVEs.
+"ko": |-
+  * TCB를 삭제하고 대기 중인 SEND 또는 RECEIVE에 "error:closing" 응답을 반환합니다.

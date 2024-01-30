@@ -1,0 +1,20 @@
+"hash": |-
+  9b2710d8bbd13bdbe5b628bd28e9487709ac82454e263a9dbb3b77323f71a114
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are also cases where an application needs to correlate multiple
+     application sessions into a single accounting record; the accounting
+     record may span multiple different Diameter applications and sessions
+     used by the same user at a given time.  In such cases, the Acct-
+     Multi-Session-Id AVP is used.  The Acct-Multi-Session-Id AVP SHOULD
+     be signaled by the server to the access device (typically, during
+     authorization) when it determines that a request belongs to an
+     existing session.  The access device MUST then include the Acct-
+     Multi-Session-Id AVP in all subsequent accounting messages.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

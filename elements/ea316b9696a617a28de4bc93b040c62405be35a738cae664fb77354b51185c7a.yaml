@@ -1,0 +1,18 @@
+"hash": |-
+  ea316b9696a617a28de4bc93b040c62405be35a738cae664fb77354b51185c7a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     TimeStamp            = Date "T" Time ; per ISO 8601:1988
+     ; Date = yyyymmdd
+     Date                 = 8(DIGIT)
+     ; Time = hhmmssss
+     Time                 = 8(DIGIT)
+     statisticsDescriptor = StatsToken LBRKT statisticsParameter
+                           *(COMMA statisticsParameter ) RBRKT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

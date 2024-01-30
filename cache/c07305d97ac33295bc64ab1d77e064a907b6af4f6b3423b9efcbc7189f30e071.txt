@@ -1,0 +1,1 @@
+   모든 DKIM 키는 "_domainkey"라는 하위 도메인에 저장됩니다. "example.com"의 "d=" 태그와 "foo.bar"의 "s=" 태그가 있는 DKIM 서명 필드가 있는 경우 DNS 쿼리는 "foo.bar._domainkey.example.com"에 대한 것입니다. .

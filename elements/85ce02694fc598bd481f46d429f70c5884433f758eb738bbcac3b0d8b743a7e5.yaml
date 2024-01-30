@@ -1,0 +1,22 @@
+"hash": |-
+  85ce02694fc598bd481f46d429f70c5884433f758eb738bbcac3b0d8b743a7e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a host needs information that one or more of its neighbors might
+     have, it could have a list of neighbors to ask, or it could poll all
+     of its possible neighbors until one responds.  Use of a wired-in list
+     creates obvious network management problems (early binding is
+     inflexible).  On the other hand, asking all of one's neighbors is
+     slow if one must generate plausible host addresses, and try them
+     until one works.  On the ARPANET, for example, there are roughly 65
+     thousand plausible host numbers.  Most IP implementations have used
+     wired-in lists (for example, addresses of "Prime" gateways.)
+     Fortunately, broadcasting provides a fast and simple way for a host
+     to reach all of its neighbors.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

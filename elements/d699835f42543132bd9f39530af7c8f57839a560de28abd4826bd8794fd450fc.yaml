@@ -1,0 +1,17 @@
+"hash": |-
+  d699835f42543132bd9f39530af7c8f57839a560de28abd4826bd8794fd450fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that receives a ServerHello message containing a Supported
+     Point Formats Extension MUST respect the server's choice of point
+     formats during the handshake (cf.  Sections 5.6 and 5.7).  If no
+     Supported Point Formats Extension is received with the ServerHello,
+     this is equivalent to an extension allowing only the uncompressed
+     point format.
+"fixed": |-
+  A client that receives a ServerHello message containing a Supported Point Formats Extension MUST respect the server's choice of point formats during the handshake (cf.  Sections 5.6 and 5.7).  If no Supported Point Formats Extension is received with the ServerHello, this is equivalent to an extension allowing only the uncompressed point format.
+"ko": |-
+  지원되는 포인트 형식 확장이 포함된 ServerHello 메시지를 수신하는 클라이언트는 핸드셰이크 중에 서버가 선택한 포인트 형식을 존중해야 합니다(섹션 5.6 및 5.7 참조). ServerHello와 함께 지원되는 포인트 형식 확장이 수신되지 않으면 이는 압축되지 않은 포인트 형식만 허용하는 확장과 동일합니다.

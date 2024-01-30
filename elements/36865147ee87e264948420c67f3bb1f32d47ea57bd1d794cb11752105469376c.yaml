@@ -1,0 +1,21 @@
+"hash": |-
+  36865147ee87e264948420c67f3bb1f32d47ea57bd1d794cb11752105469376c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For each quantization table present, a bit in the Precision field
+     specifies the size of the coefficients in that table.  If the bit is
+     zero, the coefficients are 8 bits yielding a table length of 64
+     bytes.  If the bit is one, the coefficients are 16 bits for a table
+     length of 128 bytes.  For 16 bit tables, the coefficients are
+     presented in network byte order.  The rightmost bit in the Precision
+     field (bit 15 in the diagram above) corresponds to the first table
+     and each additional table uses the next bit to the left.  Bits beyond
+     those corresponding to the tables needed by the type in use MUST be
+     ignored.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

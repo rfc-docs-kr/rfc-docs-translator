@@ -1,0 +1,19 @@
+"hash": |-
+  1d644202f72ed3818009c75a9c7bc7042301e25b73f144ced2b96c8657c40e43
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          (7) If the above calculations have caused the identity of either
+              the Designated Router or Backup Designated Router to change,
+              the set of adjacencies associated with this interface will
+              need to be modified.  Some adjacencies may need to be
+              formed, and others may need to be broken.  To accomplish
+              this, invoke the event AdjOK?  on all neighbors whose state
+              is at least 2-Way.  This will cause their eligibility for
+              adjacency to be reexamined (see Sections 10.3 and 10.4).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

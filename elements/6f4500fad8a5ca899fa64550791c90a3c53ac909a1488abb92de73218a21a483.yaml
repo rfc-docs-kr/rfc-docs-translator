@@ -1,0 +1,28 @@
+"hash": |-
+  6f4500fad8a5ca899fa64550791c90a3c53ac909a1488abb92de73218a21a483
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For the Application Servers for which the ASP can be successfully
+     activated, the SGP or IPSP responds with one or more ASP Active Ack
+     messages, including the associated Routing Context(s) and reflecting
+     any Traffic Mode Type value present in the related ASP Active
+     message.  The Routing Context parameter MUST be included in the ASP
+     Active Ack message(s) if the received ASP Active message contained
+     any Routing Contexts.  Depending on any Traffic Mode Type request in
+     the ASP Active message, or local configuration data if there is no
+     request, the SGP moves the ASP to the correct ASP traffic state
+     within the associated Application Server(s).  Layer Management is
+     informed with an M-ASP_Active indication.  If the SGP or IPSP
+     receives any Data messages before an ASP Active message is received,
+     the SGP or IPSP MAY discard them.  By sending an ASP Active Ack
+     message, the SGP or IPSP is now ready to receive and send traffic for
+     the related Routing Context(s).  The ASP SHOULD NOT send Data or SSNM
+     messages for the related Routing Context(s) before receiving an ASP
+     Active Ack message, or it will risk message loss.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

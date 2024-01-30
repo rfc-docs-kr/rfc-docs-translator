@@ -1,0 +1,1 @@
+   클라이언트는 requestNonce를 포함하지 않고 캐시된 응답 플래그를 FALSE로 설정해서는 안 됩니다. 그러한 요청을 수신하는 서버는 validRequest 오류 응답을 반환해야 합니다(SHOULD).

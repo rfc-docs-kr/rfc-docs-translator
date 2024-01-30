@@ -1,0 +1,1 @@
+   참고: status_request_v2 확장 [RFC6961]은 더 이상 사용되지 않습니다. TLS 1.3 서버는 ClientHello 메시지를 처리할 때 자신의 존재 또는 정보에 따라 행동해서는 안 됩니다. 특히 EncryptedExtensions, CertificateRequest 또는 Certificate 메시지에서 status_request_v2 확장을 전송하면 안 됩니다(MUST NOT). TLS 1.3 서버는 이를 포함하는 ClientHello 메시지를 처리할 수 있어야 합니다. 이전 프로토콜 버전에서 사용하려는 클라이언트가 보낼 수 있기 때문입니다.

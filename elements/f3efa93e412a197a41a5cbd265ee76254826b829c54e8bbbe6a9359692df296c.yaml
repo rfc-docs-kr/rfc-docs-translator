@@ -1,0 +1,15 @@
+"hash": |-
+  f3efa93e412a197a41a5cbd265ee76254826b829c54e8bbbe6a9359692df296c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         todo = min(bytelen(in), bytelen(keystream_block)
+         for j = 0; j < todo; j++ {
+           output = output ++ (keystream_block[j] ^ in[j])
+         }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

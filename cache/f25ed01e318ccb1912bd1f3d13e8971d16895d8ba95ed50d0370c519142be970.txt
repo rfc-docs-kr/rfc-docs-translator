@@ -1,0 +1,1 @@
+     // 이러한 패킷의 손실이 지속적인 정체를 나타내는 경우 // 정체 창을 재설정합니다. // RTT 샘플을 얻은 후에 전송된 패킷만 고려합니다. if (first_rtt_sample == 0): loss_packets에서 손실된 경우 pc_lost = []를 반환합니다. if loss.time_sent > first_rtt_sample: pc_lost.insert(lost) if (InPerciousCongestion(pc_lost)): 혼잡_window = kMinimumWindow 혼잡_복구_start_time = 0

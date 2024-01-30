@@ -1,0 +1,1 @@
+   이는 HTTP/1.x 메시지를 HTTP/2로 변환하는 중개자가 Connection 헤더 필드 자체와 함께 Connection 헤더 필드에서 지정한 모든 헤더 필드를 제거해야 함을 의미합니다. 이러한 중개자는 연결 헤더 필드에 의해 지정되지 않은 경우에도 Keep-Alive, Proxy-Connection, Transfer-Encoding 및 Upgrade와 같은 다른 연결 관련 헤더 필드도 제거해야 합니다(SHOULD).

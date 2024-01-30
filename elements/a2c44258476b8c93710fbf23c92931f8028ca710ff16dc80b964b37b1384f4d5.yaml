@@ -1,0 +1,22 @@
+"hash": |-
+  a2c44258476b8c93710fbf23c92931f8028ca710ff16dc80b964b37b1384f4d5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Many heuristic approaches are used to terminate sessions. You can
+     make the assumption that TCP sessions that have not been used for
+     say, 24 hours, and non-TCP sessions that have not been used for a
+     couple of minutes, are terminated. Often this assumption works, but
+     sometimes it doesn't. These idle period session timeouts vary a great
+     deal both from application to application and for different sessions
+     of the same application. Consequently, session timeouts must be
+     configurable. Even so, there is no guarantee that a satisfactory
+     value can be found. Further, as stated in section 2.3, there is no
+     guarantee that NAT's view of session termination will coincide with
+     that of the application.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

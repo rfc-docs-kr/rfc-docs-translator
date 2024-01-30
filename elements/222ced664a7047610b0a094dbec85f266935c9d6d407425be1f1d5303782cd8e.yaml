@@ -1,0 +1,25 @@
+"hash": |-
+  222ced664a7047610b0a094dbec85f266935c9d6d407425be1f1d5303782cd8e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              This section explains how to calculate the current set of
+              next hops to use for a destination.  Each next hop consists
+              of the outgoing interface to use in forwarding packets to
+              the destination together with the IP address of the next hop
+              router (if any).  The next hop calculation is invoked each
+              time a shorter path to the destination is discovered.  This
+              can happen in either stage of the shortest-path tree
+              calculation (see Section 16.1).  In stage 1 of the
+              shortest-path tree calculation a shorter path is found as
+              the destination is added to the candidate list, or when the
+              destination's entry on the candidate list is modified (Step
+              2d of Stage 1).  In stage 2 a shorter path is discovered
+              each time the destination's routing table entry is modified
+              (Step 2 of Stage 2).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

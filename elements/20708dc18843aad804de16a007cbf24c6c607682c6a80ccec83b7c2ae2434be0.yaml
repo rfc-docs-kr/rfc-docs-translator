@@ -1,0 +1,13 @@
+"hash": |-
+  20708dc18843aad804de16a007cbf24c6c607682c6a80ccec83b7c2ae2434be0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  If SND.UNA > ISS (our SYN has been ACKed), change the
+           connection state to ESTABLISHED, form an ACK segment
+"fixed": |-
+  -  If SND.UNA > ISS (our SYN has been ACKed), change the connection state to ESTABLISHED, form an ACK segment
+"ko": |-
+  - SND.UNA > ISS(SYN이 ACK됨)인 경우 연결 상태를 ESTABLISHED로 변경하고 ACK 세그먼트를 형성합니다.

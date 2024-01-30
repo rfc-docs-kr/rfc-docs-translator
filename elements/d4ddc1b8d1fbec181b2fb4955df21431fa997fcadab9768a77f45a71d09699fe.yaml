@@ -1,0 +1,20 @@
+"hash": |-
+  d4ddc1b8d1fbec181b2fb4955df21431fa997fcadab9768a77f45a71d09699fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The record protection functions translate a TLSPlaintext structure
+     into a TLSCiphertext structure.  The deprotection functions reverse
+     the process.  In TLS 1.3, as opposed to previous versions of TLS, all
+     ciphers are modeled as "Authenticated Encryption with Associated
+     Data" (AEAD) [RFC5116].  AEAD functions provide a unified encryption
+     and authentication operation which turns plaintext into authenticated
+     ciphertext and back again.  Each encrypted record consists of a
+     plaintext header followed by an encrypted body, which itself contains
+     a type and optional padding.
+"fixed": |-
+  The record protection functions translate a TLSPlaintext structure into a TLSCiphertext structure.  The deprotection functions reverse the process.  In TLS 1.3, as opposed to previous versions of TLS, all ciphers are modeled as "Authenticated Encryption with Associated Data" (AEAD) [RFC5116].  AEAD functions provide a unified encryption and authentication operation which turns plaintext into authenticated ciphertext and back again.  Each encrypted record consists of a plaintext header followed by an encrypted body, which itself contains a type and optional padding.
+"ko": |-
+  기록 보호 기능은 TLSPlaintext 구조를 TLSCiphertext 구조로 변환합니다. 탈보호 기능은 이 과정을 반대로 합니다. 이전 버전의 TLS와 달리 TLS 1.3에서는 모든 암호가 "AEAD(Authenticated Encryption with Associated Data)"[RFC5116]로 모델링됩니다. AEAD 기능은 일반 텍스트를 인증된 암호 텍스트로 변환하고 다시 변환하는 통합 암호화 및 인증 작업을 제공합니다. 암호화된 각 레코드는 일반 텍스트 헤더와 그 뒤에 오는 암호화된 본문으로 구성되며, 그 자체에는 유형과 선택적 패딩이 포함되어 있습니다.

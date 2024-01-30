@@ -1,0 +1,17 @@
+"hash": |-
+  0d7a78f5c9309cf8639072f1d3872c839f0248860a40c75237964f89682a175c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  Return its own "early_data" extension in EncryptedExtensions,
+        indicating that it intends to process the early data.  It is not
+        possible for the server to accept only a subset of the early data
+        messages.  Even though the server sends a message accepting early
+        data, the actual early data itself may already be in flight by the
+        time the server generates this message.
+"fixed": |-
+  -  Return its own "early_data" extension in EncryptedExtensions, indicating that it intends to process the early data.  It is not possible for the server to accept only a subset of the early data messages.  Even though the server sends a message accepting early data, the actual early data itself may already be in flight by the time the server generates this message.
+"ko": |-
+  - EncryptedExtensions에 자체 "early_data" 확장을 반환하여 초기 데이터를 처리할 것임을 나타냅니다. 서버가 초기 데이터 메시지의 하위 집합만 수락하는 것은 불가능합니다. 서버가 초기 데이터를 수락하는 메시지를 보내더라도 서버가 이 메시지를 생성할 때 실제 초기 데이터 자체가 이미 비행 중일 수 있습니다.

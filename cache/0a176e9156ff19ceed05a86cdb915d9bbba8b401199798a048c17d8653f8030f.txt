@@ -1,0 +1,1 @@
+   DHKEM에서 사용되는 KDF는 선택한 변형에 따라 나머지 HPKE에서 사용되는 KDF와 같거나 다를 수 있습니다. 구현은 DHKEM을 구현할 때 적절한 KDF의 상수(Nh) 및 함수 호출(LabeledExtract 및 LabeledExpand)을 사용해야 합니다. 나머지 HPKE에 대한 KDF 선택에 대한 의견은 섹션 9.3을 참조하고 레이블의 이론적 근거는 섹션 9.6을 참조하십시오.

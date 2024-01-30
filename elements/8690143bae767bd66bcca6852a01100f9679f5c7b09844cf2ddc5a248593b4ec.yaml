@@ -1,0 +1,18 @@
+"hash": |-
+  8690143bae767bd66bcca6852a01100f9679f5c7b09844cf2ddc5a248593b4ec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     if Segments Left = 0 {
+        proceed to process the next header in the packet, whose type is
+        identified by the Next Header field in the Routing header
+     }
+     else {
+        compute n, the number of addresses in the Routing header, by
+        n = (((Hdr Ext Len * 8) - Pad - (16 - CmprE)) / (16 - CmprI)) + 1
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

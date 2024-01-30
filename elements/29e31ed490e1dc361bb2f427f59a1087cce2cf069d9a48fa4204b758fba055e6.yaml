@@ -1,0 +1,22 @@
+"hash": |-
+  29e31ed490e1dc361bb2f427f59a1087cce2cf069d9a48fa4204b758fba055e6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              (1) Match the Area ID of the receiving interface.  In this
+                  case, the packet has been sent over a single hop.
+                  Therefore, the packet's IP source address is required to
+                  be on the same network as the receiving interface.  This
+                  can be verified by comparing the packet's IP source
+                  address to the interface's IP address, after masking
+                  both addresses with the interface mask.  This comparison
+                  should not be performed on point-to-point networks. On
+                  point-to-point networks, the interface addresses of each
+                  end of the link are assigned independently, if they are
+                  assigned at all.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

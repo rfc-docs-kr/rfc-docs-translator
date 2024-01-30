@@ -1,0 +1,16 @@
+"hash": |-
+  98b5e4d4398a7d6cc9e4a6cee2b5e40de49a452799f744b79e79b468b5da1b9f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        pad16(x):
+           if (len(x) % 16)==0
+              then return NULL
+              else return copies(0, 16-(len(x)%16))
+           end
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

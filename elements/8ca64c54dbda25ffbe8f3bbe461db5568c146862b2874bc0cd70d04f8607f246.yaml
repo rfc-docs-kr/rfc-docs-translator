@@ -1,0 +1,56 @@
+"hash": |-
+  8ca64c54dbda25ffbe8f3bbe461db5568c146862b2874bc0cd70d04f8607f246
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           </xs:sequence>
+         </xs:choice>
+         <xs:attribute name="message-id" type="messageIdType"
+                       use="optional"/>
+         <!--
+            Any attributes supplied with <rpc> element must be returned
+            on <rpc-reply>.
+           -->
+         <xs:anyAttribute processContents="lax"/>
+       </xs:complexType>
+       <xs:element name="rpc-reply" type="rpcReplyType"/>
+       <!--
+          <rpc-error> element
+            -->
+       <xs:element name="rpc-error" type="rpcErrorType"/>
+       <!--
+          rpcOperationType: used as a base type for all
+          NETCONF operations
+         -->
+       <xs:complexType name="rpcOperationType"/>
+       <xs:element name="rpcOperation" type="rpcOperationType"
+                   abstract="true"/>
+       <!--
+          rpcResponseType: used as a base type for all
+          NETCONF responses
+         -->
+       <xs:complexType name="rpcResponseType"/>
+       <xs:element name="rpcResponse" type="rpcResponseType"
+                   abstract="true"/>
+       <!--
+          <hello> element
+         -->
+       <xs:element name="hello">
+         <xs:complexType>
+           <xs:sequence>
+             <xs:element name="capabilities">
+               <xs:complexType>
+                 <xs:sequence>
+                   <xs:element name="capability" type="xs:anyURI"
+                               maxOccurs="unbounded"/>
+                 </xs:sequence>
+               </xs:complexType>
+             </xs:element>
+             <xs:element name="session-id" type="SessionId"
+                         minOccurs="0"/>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

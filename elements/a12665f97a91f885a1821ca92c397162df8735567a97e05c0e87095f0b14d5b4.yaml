@@ -1,0 +1,30 @@
+"hash": |-
+  a12665f97a91f885a1821ca92c397162df8735567a97e05c0e87095f0b14d5b4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Rule #2 guarantees that no routing loops form due to aggregation.
+     Consider a mid-level network which has been allocated the 2048 class
+     C networks starting with 192.24.0.0 (see the example in section 5 for
+     more on this).  The mid-level advertises to a "backbone"
+     192.24.0.0/255.248.0.0. Assume that the "backbone", in turn, has been
+     allocated the block of networks 192.0.0.0/255.0.0.0. The backbone
+     will then advertise this aggregate route to the mid-level. Now, if
+     the mid-level loses internal connectivity to the network
+     192.24.1.0/255.255.255.0 (which is part of its aggregate), traffic
+     from the "backbone" to the mid-level to destination 192.24.1.1 will
+     follow the mid-level's advertised route. When that traffic gets to
+     the mid-level, however, the mid-level *must not* follow the route
+     192.0.0.0/255.0.0.0 it learned from the backbone, since that would
+     result in a routing loop. Rule #2 says that the mid-level may not
+     follow a less-specific route for a destination which matches one of
+     its own aggregated routes. Note that handling of the "default" route
+     (0.0.0.0/0.0.0.0) is a special case of this rule - a network must not
+     follow the default to destinations which are part of one of it's
+     aggregated advertisements.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

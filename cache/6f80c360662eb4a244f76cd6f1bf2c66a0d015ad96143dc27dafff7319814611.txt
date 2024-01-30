@@ -1,0 +1,1 @@
+서버가 EncryptedExtensions에서 "early_data" 확장을 보낸 경우 클라이언트는 서버 Finished를 수신한 후 EndOfEarlyData 메시지를 보내야 합니다. 서버가 EncryptedExtensions에서 "early_data" 확장을 보내지 않으면 클라이언트는 EndOfEarlyData 메시지를 보내서는 안 됩니다. 이 메시지는 모든 0-RTT application_data 메시지가 전송되었음을 나타냅니다.

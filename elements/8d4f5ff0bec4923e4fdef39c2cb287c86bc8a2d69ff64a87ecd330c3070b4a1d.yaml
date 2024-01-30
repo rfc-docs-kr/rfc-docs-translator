@@ -1,0 +1,18 @@
+"hash": |-
+  8d4f5ff0bec4923e4fdef39c2cb287c86bc8a2d69ff64a87ecd330c3070b4a1d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Type field of a Response MUST either match that of the
+        Request, or correspond to a legacy or Expanded Nak (see Section
+        5.3) indicating that a Request Type is unacceptable to the peer.
+        A peer MUST NOT send a Nak (legacy or expanded) in response to a
+        Request, after an initial non-Nak Response has been sent.  An EAP
+        server receiving a Response not meeting these requirements MUST
+        silently discard it.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

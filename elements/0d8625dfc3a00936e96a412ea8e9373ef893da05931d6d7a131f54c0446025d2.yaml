@@ -1,0 +1,24 @@
+"hash": |-
+  0d8625dfc3a00936e96a412ea8e9373ef893da05931d6d7a131f54c0446025d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Meter Table is a structural table, specifying a specific
+     functional data path element.  Its entry consists essentially of
+     three RowPointers - a "succeed" pointer, for traffic conforming to
+     the meter, a "fail" pointer, for traffic not conforming to the meter,
+     and a "specific" pointer, to identify the parameters in question.
+     This structure is a bow to SNMP's limitations; it would be better to
+     have a structure with N rates and N+1 "next" pointers, with a single
+     algorithm specified.  In this case, multiple meter entries connected
+     by the "fail" link are understood to contain the parameters for a
+     specified algorithm, and traffic conforming to a given rate follows
+     their "succeed" paths.  Within this MIB, only Token Bucket parameters
+     are specified; other varieties of meters may be designed in other MIB
+     modules.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

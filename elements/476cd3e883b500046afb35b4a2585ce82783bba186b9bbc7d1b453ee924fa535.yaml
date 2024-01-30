@@ -1,0 +1,22 @@
+"hash": |-
+  476cd3e883b500046afb35b4a2585ce82783bba186b9bbc7d1b453ee924fa535
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Diameter implementations SHOULD first attempt to establish a TLS/TCP
+     and DTLS/SCTP connection prior to the CER/CEA exchange.  This
+     protects the capabilities information of both peers.  To support
+     older Diameter implementations that do not fully conform to this
+     document, the transport security MAY still be negotiated via an
+     Inband-Security AVP.  In this case, the receiver of a Capabilities-
+     Exchange-Request (CER) message that does not have any security
+     mechanisms in common with the sender MUST return a Capabilities-
+     Exchange-Answer (CEA) with the Result-Code AVP set to
+     DIAMETER_NO_COMMON_SECURITY and SHOULD disconnect the transport layer
+     connection.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

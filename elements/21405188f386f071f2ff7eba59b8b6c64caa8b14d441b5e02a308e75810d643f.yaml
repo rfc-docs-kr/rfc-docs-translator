@@ -1,0 +1,24 @@
+"hash": |-
+  21405188f386f071f2ff7eba59b8b6c64caa8b14d441b5e02a308e75810d643f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServAlgDropType OBJECT-TYPE
+      SYNTAX       INTEGER {
+                       other(1),
+                       tailDrop(2),
+                       headDrop(3),
+                       randomDrop(4),
+                       alwaysDrop(5)
+  }
+      MAX-ACCESS   read-create
+      STATUS       current
+      DESCRIPTION
+         "The type of algorithm used by this dropper. The value other(1)
+         requires further specification in some other MIB module.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

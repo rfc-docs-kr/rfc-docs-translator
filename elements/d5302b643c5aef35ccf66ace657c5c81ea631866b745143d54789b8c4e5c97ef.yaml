@@ -1,0 +1,21 @@
+"hash": |-
+  d5302b643c5aef35ccf66ace657c5c81ea631866b745143d54789b8c4e5c97ef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If no context is provided, the context_value is zero length.
+     Consequently, providing no context computes the same value as
+     providing an empty context.  This is a change from previous versions
+     of TLS where an empty context produced a different output than an
+     absent context.  As of this document's publication, no allocated
+     exporter label is used both with and without a context.  Future
+     specifications MUST NOT define a use of exporters that permit both an
+     empty context and no context with the same label.  New uses of
+     exporters SHOULD provide a context in all exporter computations,
+     though the value could be empty.
+"fixed": |-
+  If no context is provided, the context_value is zero length. Consequently, providing no context computes the same value as providing an empty context.  This is a change from previous versions of TLS where an empty context produced a different output than an absent context.  As of this document's publication, no allocated exporter label is used both with and without a context.  Future specifications MUST NOT define a use of exporters that permit both an empty context and no context with the same label.  New uses of exporters SHOULD provide a context in all exporter computations, though the value could be empty.
+"ko": |-
+  컨텍스트가 제공되지 않으면 context_value의 길이는 0입니다. 결과적으로 컨텍스트를 제공하지 않으면 빈 컨텍스트를 제공하는 것과 동일한 값이 계산됩니다. 이는 빈 컨텍스트가 없는 컨텍스트와 다른 출력을 생성하는 이전 버전의 TLS에서 변경된 사항입니다. 이 문서의 발행 시점에서는 컨텍스트 유무에 관계없이 할당된 수출업체 라벨이 사용되지 않습니다. 향후 사양은 빈 컨텍스트와 동일한 레이블이 있는 컨텍스트를 허용하지 않는 내보내기의 사용을 정의해서는 안 됩니다. 내보내기의 새로운 사용은 모든 내보내기 계산에 컨텍스트를 제공해야 하지만 값은 비어 있을 수 있습니다.

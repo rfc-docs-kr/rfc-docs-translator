@@ -1,0 +1,22 @@
+"hash": |-
+  096b2edc35d698fed8a2973e33ff9b0548eaafc89e7b5fd84694e1db6ab579b8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     TopologyRequest ::= SEQUENCE
+     {
+          terminationFrom         TerminationID,
+          terminationTo           TerminationID,
+          topologyDirection       ENUMERATED
+          {
+                  bothway(0),
+                  isolate(1),
+                  oneway(2)
+          }
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

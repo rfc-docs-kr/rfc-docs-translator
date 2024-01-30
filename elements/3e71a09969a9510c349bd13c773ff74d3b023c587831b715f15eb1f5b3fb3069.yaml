@@ -1,0 +1,20 @@
+"hash": |-
+  3e71a09969a9510c349bd13c773ff74d3b023c587831b715f15eb1f5b3fb3069
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      Database Description packets are OSPF packet type 2.  These packets
+      are exchanged when an adjacency is being initialized.  They describe
+      the contents of the link-state database.  Multiple packets may be
+      used to describe the database.  For this purpose a poll-response
+      procedure is used.  One of the routers is designated to be the
+      master, the other the slave.  The master sends Database Description
+      packets (polls) which are acknowledged by Database Description
+      packets sent by the slave (responses).  The responses are linked to
+      the polls via the packets' DD sequence numbers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

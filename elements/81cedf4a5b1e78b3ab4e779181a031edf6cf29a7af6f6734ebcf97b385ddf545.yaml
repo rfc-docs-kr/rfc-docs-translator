@@ -1,0 +1,21 @@
+"hash": |-
+  81cedf4a5b1e78b3ab4e779181a031edf6cf29a7af6f6734ebcf97b385ddf545
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A percent-encoding mechanism is used to represent a data octet in a
+     component when that octet's corresponding character is outside the
+     allowed set or is being used as a delimiter of, or within, the
+     component.  A percent-encoded octet is encoded as a character
+     triplet, consisting of the percent character "%" followed by the two
+     hexadecimal digits representing that octet's numeric value.  For
+     example, "%20" is the percent-encoding for the binary octet
+     "00100000" (ABNF: %x20), which in US-ASCII corresponds to the space
+     character (SP).  Section 2.4 describes when percent-encoding and
+     decoding is applied.
+"fixed": |-
+  A percent-encoding mechanism is used to represent a data octet in a component when that octet's corresponding character is outside the allowed set or is being used as a delimiter of, or within, the component.  A percent-encoded octet is encoded as a character triplet, consisting of the percent character "%" followed by the two hexadecimal digits representing that octet's numeric value.  For example, "%20" is the percent-encoding for the binary octet "00100000" (ABNF: %x20), which in US-ASCII corresponds to the space character (SP).  Section 2.4 describes when percent-encoding and decoding is applied.
+"ko": |-
+  백분율 인코딩 메커니즘은 해당 옥텟의 해당 문자가 허용된 집합 외부에 있거나 구성 요소의 구분 기호로 사용되거나 구성 요소 내에 있는 경우 구성 요소의 데이터 옥텟을 나타내는 데 사용됩니다. 퍼센트 인코딩 옥텟은 퍼센트 문자 "%" 뒤에 해당 옥텟의 숫자 값을 나타내는 두 개의 16진수 숫자로 구성된 삼중 문자로 인코딩됩니다. 예를 들어, "%20"은 이진 옥텟 "00100000"(ABNF: %x20)에 대한 백분율 인코딩이며 US-ASCII에서는 공백 문자(SP)에 해당합니다. 섹션 2.4에서는 퍼센트 인코딩과 디코딩이 적용되는 시기를 설명합니다.

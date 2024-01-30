@@ -1,0 +1,16 @@
+"hash": |-
+  39dbfdeb8b0be184fe79feed0b0123009949008432b2d801a819396c199f1a9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to implement this, when a ClientHello is received, the
+     server first verifies the PSK binder as described in Section 4.2.11.
+     It then computes the expected_arrival_time as described in the next
+     section and rejects 0-RTT if it is outside the recording window,
+     falling back to the 1-RTT handshake.
+"fixed": |-
+  In order to implement this, when a ClientHello is received, the server first verifies the PSK binder as described in Section 4.2.11. It then computes the expected_arrival_time as described in the next section and rejects 0-RTT if it is outside the recording window, falling back to the 1-RTT handshake.
+"ko": |-
+  이를 구현하기 위해 ClientHello가 수신되면 서버는 먼저 섹션 4.2.11에 설명된 대로 PSK 바인더를 확인합니다. 그런 다음 다음 섹션에 설명된 대로 Expect_arrival_time을 계산하고 기록 기간을 벗어나면 0-RTT를 거부하고 1-RTT 핸드셰이크로 돌아갑니다.

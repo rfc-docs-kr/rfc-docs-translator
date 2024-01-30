@@ -1,0 +1,21 @@
+"hash": |-
+  5933e711485c43d5214b275cb91ff9be4f8fb41091ef41b68116e5e4164cfb3b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Mutual-TLS certificate-bound access tokens ensure that only the party
+     in possession of the private key corresponding to the certificate can
+     utilize the token to access the associated resources.  Such a
+     constraint is sometimes referred to as key confirmation, proof-of-
+     possession, or holder-of-key and is unlike the case of the bearer
+     token described in [RFC6750], where any party in possession of the
+     access token can use it to access the associated resources.  Binding
+     an access token to the client's certificate prevents the use of
+     stolen access tokens or replay of access tokens by unauthorized
+     parties.
+"fixed": |-
+  Mutual-TLS certificate-bound access tokens ensure that only the party in possession of the private key corresponding to the certificate can utilize the token to access the associated resources.  Such a constraint is sometimes referred to as key confirmation, proof-of- possession, or holder-of-key and is unlike the case of the bearer token described in [RFC6750], where any party in possession of the access token can use it to access the associated resources.  Binding an access token to the client's certificate prevents the use of stolen access tokens or replay of access tokens by unauthorized parties.
+"ko": |-
+  상호 TLS 인증서 바인딩 액세스 토큰은 인증서에 해당하는 개인 키를 소유한 당사자만이 토큰을 활용하여 관련 리소스에 액세스할 수 있도록 보장합니다. 이러한 제약 조건은 키 확인, 소유 증명 또는 키 보유자라고도 하며 액세스 토큰을 소유한 모든 당사자가 이를 사용할 수 있는 [RFC6750]에 설명된 전달자 토큰의 경우와는 다릅니다. 관련 리소스에 액세스합니다. 액세스 토큰을 클라이언트 인증서에 바인딩하면 도난당한 액세스 토큰을 사용하거나 승인되지 않은 당사자가 액세스 토큰을 재생하는 것을 방지할 수 있습니다.

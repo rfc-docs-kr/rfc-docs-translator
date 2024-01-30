@@ -1,0 +1,1 @@
+   1. mustInclude는 iat, orig 및 dest 청구 외에 PASSporT에 반드시 나타나야 하는 JWT 청구를 나타냅니다. 기본 PASSporT 클레임("iat", "orig" 및 "dest")은 [RFC8225]에서 요구되는 것으로 간주되며 이러한 클레임은 mustInclude 목록의 일부가 되어서는 안 됩니다. mustInclude가 없으면 iat, orig 및 dest 클레임이 PASSporT에 나타나야 합니다.

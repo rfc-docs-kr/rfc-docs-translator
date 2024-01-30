@@ -1,0 +1,26 @@
+"hash": |-
+  7be7453e91b6e22fed40dcd51ead4e58d422b47eb8abd7ff529a3cda903c9da8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For the Self-Signed Certificate method of binding a certificate with
+     a client using mutual-TLS client authentication, the existing
+     "jwks_uri" or "jwks" metadata parameters from [RFC7591] are used to
+     convey the client's certificates via JSON Web Key (JWK) in a JWK Set
+     [RFC7517].  The "jwks" metadata parameter is a JWK Set containing the
+     client's public keys as an array of JWKs, while the "jwks_uri"
+     parameter is a URL that references a client's JWK Set. A certificate
+     is represented with the "x5c" parameter of an individual JWK within
+     the set.  Note that the members of the JWK representing the public
+     key (e.g., "n" and "e" for RSA, "x" and "y" for Elliptic Curve (EC))
+     are required parameters per [RFC7518] so will be present even though
+     they are not utilized in this context.  Also note that Section 4.7 of
+     [RFC7517] requires that the key in the first certificate of the "x5c"
+     parameter match the public key represented by those other members of
+     the JWK.
+"fixed": |-
+  For the Self-Signed Certificate method of binding a certificate with a client using mutual-TLS client authentication, the existing "jwks_uri" or "jwks" metadata parameters from [RFC7591] are used to convey the client's certificates via JSON Web Key (JWK) in a JWK Set [RFC7517].  The "jwks" metadata parameter is a JWK Set containing the client's public keys as an array of JWKs, while the "jwks_uri" parameter is a URL that references a client's JWK Set. A certificate is represented with the "x5c" parameter of an individual JWK within the set.  Note that the members of the JWK representing the public key (e.g., "n" and "e" for RSA, "x" and "y" for Elliptic Curve (EC)) are required parameters per [RFC7518] so will be present even though they are not utilized in this context.  Also note that Section 4.7 of [RFC7517] requires that the key in the first certificate of the "x5c" parameter match the public key represented by those other members of the JWK.
+"ko": |-
+  상호 TLS 클라이언트 인증을 사용하여 클라이언트와 인증서를 바인딩하는 자체 서명 인증서 방법의 경우 [RFC7591]의 기존 "jwks_uri" 또는 "jwks" 메타데이터 매개변수를 사용하여 JWK(JSON 웹 키)를 통해 클라이언트 인증서를 전달합니다. JWK 세트 [RFC7517]. "jwks" 메타데이터 매개변수는 클라이언트의 공개 키를 JWK 배열로 포함하는 JWK 세트이고, "jwks_uri" 매개변수는 클라이언트의 JWK 세트를 참조하는 URL입니다. 인증서는 세트 내 개별 JWK의 "x5c" 매개변수로 표시됩니다. 공개 키를 나타내는 JWK 멤버(예: RSA의 경우 "n" 및 "e", EC(타원 곡선)의 경우 "x" 및 "y")는 [RFC7518]에 따라 필수 매개변수이므로 이 맥락에서는 활용되지 않습니다. 또한 [RFC7517]의 섹션 4.7에서는 "x5c" 매개변수의 첫 번째 인증서에 있는 키가 JWK의 다른 구성원이 나타내는 공개 키와 일치하도록 요구합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  b1e01a3a089084d5b6f261a9315f40bc9670f890b9a24bc4344d525a663e847a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     struct {
+         ContentType type;
+         ProtocolVersion version;
+         uint16 length;
+         select (SecurityParameters.cipher_type) {
+             case stream: GenericStreamCipher;
+             case block:  GenericBlockCipher;
+             case aead:   GenericAEADCipher;
+         } fragment;
+     } TLSCiphertext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+   클라이언트는 요청의 clientid 필드로 지정되지 않습니다. 클라이언트는 client 필드를 0으로 설정해야 하며, 서버는 clientid 필드를 무시해야 합니다. 대신, 서버는 COMPOUND 요청에서 DELEGPURGE 앞에 오는 SEQUENCE 작업 인수의 세션 ID 값에서 클라이언트 ID를 파생해야 합니다.

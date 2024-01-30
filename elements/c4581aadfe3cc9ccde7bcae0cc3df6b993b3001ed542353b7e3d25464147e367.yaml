@@ -1,0 +1,22 @@
+"hash": |-
+  c4581aadfe3cc9ccde7bcae0cc3df6b993b3001ed542353b7e3d25464147e367
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           DISCUSSION:
+                Using the Limited Broadcast address instead of a Directed
+                Broadcast address may improve system robustness.  Problems
+                are often caused by machines that do not understand the
+                plethora of broadcast addresses (see Section 3.2.1.3), or
+                that may have different ideas about which broadcast
+                addresses are in use.  The prime example of the latter is
+                machines that do not understand subnetting but are
+                attached to a subnetted net.  Sending a Subnet Broadcast
+                for the connected network will confuse those machines,
+                which will see it as a message to some other host.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

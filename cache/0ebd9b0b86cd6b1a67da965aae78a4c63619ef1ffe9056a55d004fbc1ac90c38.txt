@@ -1,0 +1,1 @@
+   Content-Length 헤더 필드([HTTP]의 섹션 8.6)를 포함할 때 콘텐츠가 있는 것으로 정의된 요청 또는 응답은 Content-Length 헤더 필드의 값이 수신된 DATA 프레임 길이의 합과 같지 않으면 잘못된 형식입니다. . Content-Length가 있더라도 콘텐츠가 없는 것으로 정의된 응답은 DATA 프레임에 콘텐츠가 포함되어 있지 않더라도 0이 아닌 Content-Length 헤더 필드를 가질 수 있습니다.

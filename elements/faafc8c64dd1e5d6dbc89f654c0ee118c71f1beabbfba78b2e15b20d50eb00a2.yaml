@@ -1,0 +1,18 @@
+"hash": |-
+  faafc8c64dd1e5d6dbc89f654c0ee118c71f1beabbfba78b2e15b20d50eb00a2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     - If an SGP suffers a partial failure (where an SGP can continue to
+       service one or more active AS but due to a partial failure it is
+       unable to service one or more other active AS), the SGP should send
+       ASP Inactive Ack to all its connected ASPs for the affected AS.
+       Upon receiving an ASP Active message for an affected AS while still
+       partially isolated from the NIF, the SGP should respond with an
+       Error ("Refused - Management Blocking").
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

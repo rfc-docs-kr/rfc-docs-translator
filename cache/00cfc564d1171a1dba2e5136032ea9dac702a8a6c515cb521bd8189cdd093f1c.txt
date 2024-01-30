@@ -1,0 +1,1 @@
+   서버는 최소 VALID_SEQID_RANGE를 지원해야 합니다. 최소값은 다음과 같이 정의됩니다. VALID_SEQID_RANGE = (ca_maxOperations(i) - 1)의 1..N에 대한 합계. 여기서 N은 세션 전방 채널의 수이고 ca_maxOperations(i)는 i의 CREATE_SESSION에서 반환된 ca_maxOperations의 값입니다. '번째 세션. "- 1"의 이유는 필요한 SEQUENCE 작업을 허용하기 위한 것입니다. 서버는 다음을 수행할 수 있습니다.

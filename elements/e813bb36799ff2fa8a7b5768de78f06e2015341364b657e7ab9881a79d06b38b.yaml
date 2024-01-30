@@ -1,0 +1,19 @@
+"hash": |-
+  e813bb36799ff2fa8a7b5768de78f06e2015341364b657e7ab9881a79d06b38b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Applications using long-lived TCP flows have been vulnerable to
+     attacks that exploit the processing of control flags described in
+     earlier TCP specifications [33].  TCP-MD5 was a commonly implemented
+     TCP Option to support authentication for some of these connections,
+     but had flaws and is now deprecated.  TCP-AO provides a capability to
+     protect long-lived TCP connections from attacks and has superior
+     properties to TCP-MD5.  It does not provide any privacy for
+     application data or for the TCP headers.
+"fixed": |-
+  Applications using long-lived TCP flows have been vulnerable to attacks that exploit the processing of control flags described in earlier TCP specifications [33].  TCP-MD5 was a commonly implemented TCP Option to support authentication for some of these connections, but had flaws and is now deprecated.  TCP-AO provides a capability to protect long-lived TCP connections from attacks and has superior properties to TCP-MD5.  It does not provide any privacy for application data or for the TCP headers.
+"ko": |-
+  수명이 긴 TCP 흐름을 사용하는 애플리케이션은 이전 TCP 사양[33]에 설명된 제어 플래그 처리를 이용하는 공격에 취약했습니다. TCP-MD5는 이러한 연결 중 일부에 대한 인증을 지원하기 위해 일반적으로 구현되는 TCP 옵션이었지만 결함이 있어 현재는 더 이상 사용되지 않습니다. TCP-AO는 장기간 지속되는 TCP 연결을 공격으로부터 보호하는 기능을 제공하며 TCP-MD5보다 우수한 속성을 가지고 있습니다. 애플리케이션 데이터 또는 TCP 헤더에 대한 개인 정보를 제공하지 않습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  551586dd56faf0c5bc4b1f5a847fe2cd45e238cd95c00af135b09aff93970c09
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Since the remote side has already sent FIN, RECEIVEs must be
+        satisfied by data already on hand, but not yet delivered to the
+        user.  If no text is awaiting delivery, the RECEIVE will get an
+        "error: connection closing" response.  Otherwise, any remaining
+        data can be used to satisfy the RECEIVE.
+"fixed": |-
+  *  Since the remote side has already sent FIN, RECEIVEs must be satisfied by data already on hand, but not yet delivered to the user.  If no text is awaiting delivery, the RECEIVE will get an "error: connection closing" response.  Otherwise, any remaining data can be used to satisfy the RECEIVE.
+"ko": |-
+  * 원격측에서 이미 FIN을 보냈기 때문에 RECEIVE는 이미 보유하고 있지만 아직 사용자에게 전달되지 않은 데이터로 충족되어야 합니다. 배달 대기 중인 텍스트가 없으면 RECEIVE는 "error: 연결 종료" 응답을 받게 됩니다. 그렇지 않으면 남은 데이터를 RECEIVE를 충족하는 데 사용할 수 있습니다.

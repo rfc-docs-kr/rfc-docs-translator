@@ -1,0 +1,27 @@
+"hash": |-
+  ffe8a933ecec18b2a2aa90c73380b645488adaab0d198f16c21b3347d2d54dfb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                    +-------+
+                                    |ExStart|
+                                    +-------+
+                                      |
+                       NegotiationDone|
+                                      +->+--------+
+                                         |Exchange|
+                                      +--+--------+
+                                      |
+                              Exchange|
+                                Done  |
+                      +----+          |      +-------+
+                      |Full|<---------+----->|Loading|
+                      +----+<-+              +-------+
+                              |  LoadingDone     |
+                              +------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  43f4b67cfd04406895cb605db33edec0f463a9ba40f56ca54cda20154405030a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Some digital signature schemes use an asymmetric encryption
+        algorithm (e.g., "RSA") to transform the hash result. Thus, when
+        Alice needs to sign a message to send to Bob, she can use her
+        private key to encrypt the hash result. Bob receives both the
+        message and the digital signature. Bob can use Alice's public key
+        to decrypt the signature, and then compare the plaintext result to
+        the hash result that he computes by hashing the message himself.
+        If the values are equal, Bob accepts the message because he is
+        certain that it is from Alice and has arrived unchanged. If the
+        values are not equal, Bob rejects the message because either the
+        message or the signature was altered in transit.
+"fixed": |-
+  - Some digital signature schemes use an asymmetric encryption algorithm (e.g., "RSA") to transform the hash result. Thus, when Alice needs to sign a message to send to Bob, she can use her private key to encrypt the hash result. Bob receives both the message and the digital signature. Bob can use Alice's public key to decrypt the signature, and then compare the plaintext result to the hash result that he computes by hashing the message himself. If the values are equal, Bob accepts the message because he is certain that it is from Alice and has arrived unchanged. If the values are not equal, Bob rejects the message because either the message or the signature was altered in transit.
+"ko": |-
+  - 일부 디지털 서명 방식은 비대칭 암호화 알고리즘(예: "RSA")을 사용하여 해시 결과를 변환합니다. 따라서 Alice가 Bob에게 보내기 위해 메시지에 서명해야 할 때 개인 키를 사용하여 해시 결과를 암호화할 수 있습니다. Bob은 메시지와 디지털 서명을 모두 받습니다. Bob은 Alice의 공개 키를 사용하여 서명을 해독한 다음 메시지를 직접 해싱하여 계산한 해시 결과와 일반 텍스트 결과를 비교할 수 있습니다. 값이 동일하면 Bob은 해당 메시지가 Alice에게서 온 것이며 변경되지 않은 상태로 도착했음을 확신하므로 메시지를 수락합니다. 값이 동일하지 않으면 메시지나 서명이 전송 중에 변경되었기 때문에 Bob은 메시지를 거부합니다.

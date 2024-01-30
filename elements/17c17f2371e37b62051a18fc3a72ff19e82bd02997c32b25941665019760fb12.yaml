@@ -1,0 +1,23 @@
+"hash": |-
+  17c17f2371e37b62051a18fc3a72ff19e82bd02997c32b25941665019760fb12
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                  o   Else, there has been a Designated Router elected for
+                      the attached network.  If the router is fully
+                      adjacent to the Designated Router, or if the router
+                      itself is Designated Router and is fully adjacent to
+                      at least one other router, add a single Type 2 link
+                      (transit network) with Link ID set to the IP
+                      interface address of the attached network's
+                      Designated Router (which may be the router itself),
+                      Link Data set to the router's own IP interface
+                      address, and cost equal to the interface's
+                      configured output cost.  Otherwise, add a link as if
+                      the interface state were Waiting (see above).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

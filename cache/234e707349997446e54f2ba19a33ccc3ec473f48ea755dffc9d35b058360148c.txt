@@ -1,0 +1,1 @@
+확장을 읽기 위해 ServerHello를 구문 분석합니다.) 이 확장이 있는 경우 클라이언트는 ServerHello.legacy_version 값을 무시해야 하며 "supported_versions" 확장만 사용하여 선택한 버전을 결정해야 합니다. ServerHello의 "supported_versions" 확장에 클라이언트가 제공하지 않은 버전이 포함되어 있거나 TLS 1.3 이전 버전이 포함되어 있는 경우 클라이언트는 "illegal_parameter" 경고와 함께 핸드셰이크를 중단해야 합니다.

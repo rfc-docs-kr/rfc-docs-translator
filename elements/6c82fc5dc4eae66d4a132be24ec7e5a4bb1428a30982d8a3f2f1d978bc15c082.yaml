@@ -1,0 +1,19 @@
+"hash": |-
+  6c82fc5dc4eae66d4a132be24ec7e5a4bb1428a30982d8a3f2f1d978bc15c082
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        In the following, the action specified in certain cases is to
+        "silently discard" a received datagram.  This means that the
+        datagram will be discarded without further processing and that the
+        host will not send any ICMP error message (see Section 3.2.2) as a
+        result.  However, for diagnosis of problems a host SHOULD provide
+        the capability of logging the error (see Section 1.2.3), including
+        the contents of the silently-discarded datagram, and SHOULD record
+        the event in a statistics counter.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

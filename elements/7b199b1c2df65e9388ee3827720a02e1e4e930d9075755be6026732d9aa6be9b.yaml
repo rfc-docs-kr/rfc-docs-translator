@@ -1,0 +1,19 @@
+"hash": |-
+  7b199b1c2df65e9388ee3827720a02e1e4e930d9075755be6026732d9aa6be9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TWAMP-Test HMAC Session-key is obtained as follows: the TWAMP-
+     Control HMAC Session-key (the same HMAC Session-key as used for the
+     corresponding TWAMP-Control session) is encrypted using AES-CBC
+     (Cipher Block Chaining) with the 16-octet session identifier (SID) as
+     the key.  This is a two-block CBC encryption that is always performed
+     with IV=0.  Note that the TWAMP-Test HMAC Session-key and TWAMP-
+     Control HMAC Session-key are comprised of 32 octets, while the SID is
+     16 octets.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

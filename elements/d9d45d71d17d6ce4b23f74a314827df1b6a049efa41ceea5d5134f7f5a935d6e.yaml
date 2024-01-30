@@ -1,0 +1,22 @@
+"hash": |-
+  d9d45d71d17d6ce4b23f74a314827df1b6a049efa41ceea5d5134f7f5a935d6e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The presence of a Routing Information Field is indicated by the
+           Most Significant Bit (MSB) of the source address, called the
+           Routing Information Indicator (RII).  If the RII equals zero, a
+           RIF is not present.  If the RII equals 1, the RIF is present.
+           Although the RII is indicated in the source address, it is not
+           part of a stations MAC layer address.  In particular, the MSB
+           of a destination address is the individual/group address
+           indicator, and if set will cause such frames to be interpreted
+           as multicasts.  Implementations should be careful to reset the
+           RII to zero before passing source addresses to other protocol
+           layers which may be confused by their presence.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

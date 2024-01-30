@@ -1,0 +1,3 @@
+   LAYOUTRECALL4_FSID 및 LAYOUTRECALL4_ALL
+
+- LAYOUTRECALL4_FSID가 지정된 경우 fsid는 미해결 레이아웃이 반드시 반환되어야 하는 파일 시스템을 지정합니다. LAYOUTRECALL4_ALL이 지정되면 모든 미해결 레이아웃이 반환되어야 합니다. 또한 LAYOUTRECALL4_FSID 및 LAYOUTRECALL4_ALL은 영향을 받는 파일 시스템의 저장 장치 주소 매핑에 대한 모든 저장 장치 ID도 회수되도록 지정합니다. LAYOUTRETURN4_FSID 또는 LAYOUTRETURN4_ALL을 사용하는 해당 LAYOUTRETURN은 클라이언트가 해당 장치 매핑을 무효화했음을 서버에 승인합니다. 레이아웃의 "대량" 리콜에 대한 고려사항은 섹션 12.5.5.2.1.5를 참조하십시오.

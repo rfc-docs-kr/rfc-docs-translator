@@ -1,0 +1,20 @@
+"hash": |-
+  8db878c2c997af74ac3e7b958eb2962508798e11818d878e840029889859b6c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the SGP determines that the received RK was already registered,
+     fully and exactly, either statically or dynamically, by the sending
+     ASP, the SGP returns a Registration Response message to the ASP,
+     containing a Registration Result "Error - Routing Key Already
+     Registered".  This error applies whether the sending ASP/IPSP is in
+     ASP-ACTIVE or ASP-INACTIVE for the corresponding AS.  For this error
+     code, the RC field in the Registration Response message MUST be
+     populated with the actual value of RC in SGP corresponding to the
+     specified RK in the Registration Request message.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

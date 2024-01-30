@@ -1,0 +1,18 @@
+"hash": |-
+  8c7e8895c122c4a24b840e687bb52e5c6b83304c5f6890d103e8a90c0b9f2b74
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  a = 0x11111111
+     o  b = 0x01020304
+     o  c = 0x77777777
+     o  d = 0x01234567
+     o  c = c + d = 0x77777777 + 0x01234567 = 0x789abcde
+     o  b = b ^ c = 0x01020304 ^ 0x789abcde = 0x7998bfda
+     o  b = b <<< 7 = 0x7998bfda <<< 7 = 0xcc5fed3c
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

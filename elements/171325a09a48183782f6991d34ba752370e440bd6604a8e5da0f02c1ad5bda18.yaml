@@ -1,0 +1,33 @@
+"hash": |-
+  171325a09a48183782f6991d34ba752370e440bd6604a8e5da0f02c1ad5bda18
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                    +----+   UnloopInd   +--------+
+                                    |Down|<--------------|Loopback|
+                                    +----+               +--------+
+                                       |
+                                       |InterfaceUp
+                            +-------+  |               +--------------+
+                            |Waiting|<-+-------------->|Point-to-point|
+                            +-------+                  +--------------+
+                                |
+                       WaitTimer|BackupSeen
+                                |
+                                |
+                                |   NeighborChange
+            +------+           +-+<---------------- +-------+
+            |Backup|<----------|?|----------------->|DROther|
+            +------+---------->+-+<-----+           +-------+
+                      Neighbor  |       |
+                      Change    |       |Neighbor
+                                |       |Change
+                                |     +--+
+                                +---->|DR|
+                                      +--+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

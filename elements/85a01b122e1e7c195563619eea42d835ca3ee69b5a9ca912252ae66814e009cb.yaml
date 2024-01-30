@@ -1,0 +1,24 @@
+"hash": |-
+  85a01b122e1e7c195563619eea42d835ca3ee69b5a9ca912252ae66814e009cb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     struct {
+         ProtocolVersion client_version;
+         Random random;
+         SessionID session_id;
+         CipherSuite cipher_suites<2..2^16-2>;
+         CompressionMethod compression_methods<1..2^8-1>;
+         select (extensions_present) {
+             case false:
+                 struct {};
+             case true:
+                 Extension extensions<0..2^16-1>;
+         };
+     } ClientHello;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

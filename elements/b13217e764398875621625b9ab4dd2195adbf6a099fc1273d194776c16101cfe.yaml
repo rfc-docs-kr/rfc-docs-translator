@@ -1,0 +1,21 @@
+"hash": |-
+  b13217e764398875621625b9ab4dd2195adbf6a099fc1273d194776c16101cfe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In TLS versions prior to 1.3, the client's certificate is sent
+     unencrypted in the initial handshake and can potentially be used by
+     third parties to monitor, track, and correlate client activity.  This
+     is likely of little concern for clients that act on behalf of a
+     significant number of end users because individual user activity will
+     not be discernible amidst the client activity as a whole.  However,
+     clients that act on behalf of a single end user, such as a native
+     application on a mobile device, should use TLS version 1.3 whenever
+     possible or consider the potential privacy implications of using
+     mutual TLS on earlier versions.
+"fixed": |-
+  In TLS versions prior to 1.3, the client's certificate is sent unencrypted in the initial handshake and can potentially be used by third parties to monitor, track, and correlate client activity.  This is likely of little concern for clients that act on behalf of a significant number of end users because individual user activity will not be discernible amidst the client activity as a whole.  However, clients that act on behalf of a single end user, such as a native application on a mobile device, should use TLS version 1.3 whenever possible or consider the potential privacy implications of using mutual TLS on earlier versions.
+"ko": |-
+  1.3 이전 버전의 TLS에서는 클라이언트 인증서가 초기 핸드셰이크에서 암호화되지 않은 상태로 전송되며 잠재적으로 제3자가 클라이언트 활동을 모니터링, 추적 및 연관시키는 데 사용될 수 있습니다. 개별 사용자 활동은 전체 클라이언트 활동 중에서 식별할 수 없기 때문에 상당수의 최종 사용자를 대신하여 행동하는 클라이언트의 경우 이는 별 문제가 되지 않습니다. 그러나 모바일 장치의 기본 애플리케이션과 같이 단일 최종 사용자를 대신하여 작동하는 클라이언트는 가능할 때마다 TLS 버전 1.3을 사용하거나 이전 버전에서 상호 TLS를 사용할 때 발생할 수 있는 개인 정보 보호 영향을 고려해야 합니다.

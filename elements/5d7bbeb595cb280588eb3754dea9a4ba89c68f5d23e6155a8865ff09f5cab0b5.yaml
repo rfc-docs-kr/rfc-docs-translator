@@ -1,0 +1,22 @@
+"hash": |-
+  5d7bbeb595cb280588eb3754dea9a4ba89c68f5d23e6155a8865ff09f5cab0b5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  diffServMultiFieldClfrSrcL4PortMax OBJECT-TYPE
+      SYNTAX         InetPortNumber
+      MAX-ACCESS     read-create
+      STATUS         current
+      DESCRIPTION
+         "The maximum value that the layer-4 source port number in the
+         packet must have in order to match this classifier entry. This
+         value must be equal to or greater than the value specified for
+         this entry in diffServMultiFieldClfrSrcL4PortMin."
+      DEFVAL         { 65535 }
+      ::= { diffServMultiFieldClfrEntry 13 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

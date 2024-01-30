@@ -1,0 +1,20 @@
+"hash": |-
+  7610fbb9a6811ef4543e03bcbff1ed16a7fc15437a2e77ca4272d1165b490582
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Accounting-Sub-Session-Id AVP (AVP Code 287) is of type
+     Unsigned64 and contains the accounting sub-session identifier.  The
+     combination of the Session-Id and this AVP MUST be unique per sub-
+     session, and the value of this AVP MUST be monotonically increased by
+     one for all new sub-sessions.  The absence of this AVP implies no
+     sub-sessions are in use, with the exception of an Accounting-Request
+     whose Accounting-Record-Type is set to STOP_RECORD.  A STOP_RECORD
+     message with no Accounting-Sub-Session-Id AVP present will signal the
+     termination of all sub-sessions for a given Session-Id.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  ebb3523a4c7983f14cdeacb175efae3cfc21ed5c4bbf4bd086cd38432820a57f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once a decoder has received either a single packet with both the F
+     and L bits set on or a contiguous sequence of packets (based on the
+     RTP sequence number) which begin with an F bit and end with an L bit,
+     it can begin decoding.  The position of the MCU at the beginning of
+     the data can be determined by multiplying the Restart Count value by
+     the Restart Interval value.  A packet (or group of packets as
+     identified by the F and L bits) may contain any number of consecutive
+     restart intervals.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

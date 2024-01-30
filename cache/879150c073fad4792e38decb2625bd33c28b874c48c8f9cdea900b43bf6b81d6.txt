@@ -1,0 +1,1 @@
+   smpte-range = smpte-type "=" smpte-time "-" [ smpte-time ] smpte-type = "smpte" | "smpte-30-드롭" | "smpte-25" ; 다른 타임코드가 추가될 수 있습니다. smpte-time = 1*2DIGIT ":" 1*2DIGIT ":" 1*2DIGIT [ ":" 1*2DIGIT ] [ "." 1*2자리 ]

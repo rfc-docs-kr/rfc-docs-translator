@@ -1,0 +1,1 @@
+- sprop-parameter-sets 또는 sprop-level-parameter-sets가 [9]의 섹션 6.3에 지정된 대로 "fmtp" 소스 속성을 사용하여 전달되는 경우 매개변수의 수신자는 sprop-parameter에 포함된 매개변수 세트를 저장해야 합니다. - 허용된 수준에 대한 -sets 또는 sprop-level-parameter-sets를 설정하고 이를 "fmtp" 소스 속성의 일부로 제공된 소스와 연결합니다. 하나의 소스와 연관된 매개변수 세트는 동일한 소스의 RTP 패킷으로 전달되는 NAL 단위를 디코딩하는 데에만 사용해야 합니다. 이 메커니즘을 사용하는 경우 SSRC 충돌 감지 및 해결은 [9]에 지정된 대로 수행되어야 합니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  96550e68edbe0b3ece77c742a682f066cc9aaf5569f1c8e3511bf8f02b788b8d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Selecting a padding policy that suggests when and how much to pad is
+     a complex topic and is beyond the scope of this specification.  If
+     the application-layer protocol on top of TLS has its own padding, it
+     may be preferable to pad Application Data TLS records within the
+     application layer.  Padding for encrypted Handshake or Alert records
+     must still be handled at the TLS layer, though.  Later documents may
+     define padding selection algorithms or define a padding policy
+     request mechanism through TLS extensions or some other means.
+"fixed": |-
+  Selecting a padding policy that suggests when and how much to pad is a complex topic and is beyond the scope of this specification.  If the application-layer protocol on top of TLS has its own padding, it may be preferable to pad Application Data TLS records within the application layer.  Padding for encrypted Handshake or Alert records must still be handled at the TLS layer, though.  Later documents may define padding selection algorithms or define a padding policy request mechanism through TLS extensions or some other means.
+"ko": |-
+  패딩 시기와 양을 제안하는 패딩 정책을 선택하는 것은 복잡한 주제이며 이 사양의 범위를 벗어납니다. TLS 위에 있는 애플리케이션 계층 프로토콜에 자체 패딩이 있는 경우 애플리케이션 계층 내에서 애플리케이션 데이터 TLS 레코드를 패딩하는 것이 더 나을 수 있습니다. 하지만 암호화된 핸드셰이크 또는 경고 레코드에 대한 패딩은 여전히 ​​TLS 계층에서 처리되어야 합니다. 이후 문서에서는 패딩 선택 알고리즘을 정의하거나 TLS 확장 또는 기타 수단을 통해 패딩 정책 요청 메커니즘을 정의할 수 있습니다.

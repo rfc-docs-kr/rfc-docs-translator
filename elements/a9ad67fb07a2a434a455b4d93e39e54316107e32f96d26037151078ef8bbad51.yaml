@@ -1,0 +1,32 @@
+"hash": |-
+  a9ad67fb07a2a434a455b4d93e39e54316107e32f96d26037151078ef8bbad51
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           (c) Permission Inheritance Assignments (i.e., Role Hierarchy)
+                                 [Constraints]
+                                    +=====+
+                                    |     |
+                     (a) Identity   v     v  (b) Permission
+        +----------+  Assignments  +-------+  Assignments  +----------+
+        |Identities|<=============>| Roles |<=============>|Permissions|
+        +----------+ [Constraints] +-------+ [Constraints] +----------+
+             |   |                   ^   ^
+             |   |   +-----------+   |   |       +---------------------+
+             |   |   | +-------+ |   |   |       |       Legend        |
+             |   +====>|Session|=====+   |       |                     |
+             |       | +-------+ |       |       |     One-to-One      |
+             |       |    ...   |       |       | =================== |
+             |       | +-------+ |       |       |                     |
+             +========>|Session|=========+       |     One-to-Many     |
+        (d) Identity | +-------+ |  (e) Role     | ==================> |
+         Selections  |           | Selections    |                     |
+        [Constraints]|  Access   |[Constraints]  |    Many-to-Many     |
+                     | Sessions  |               | <=================> |
+                     +-----------+               +---------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

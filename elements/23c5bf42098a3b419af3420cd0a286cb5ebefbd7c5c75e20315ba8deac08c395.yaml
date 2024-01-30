@@ -1,0 +1,20 @@
+"hash": |-
+  23c5bf42098a3b419af3420cd0a286cb5ebefbd7c5c75e20315ba8deac08c395
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Tutorial: The client generates a one-time password by applying the
+        MD4 cryptographic hash function multiple times to the user's
+        secret key. For each successive authentication of the user, the
+        number of hash applications is reduced by one. (Thus, an intruder
+        using wiretapping cannot compute a valid password from knowledge
+        of one previously used.) The server verifies a password by hashing
+        the currently presented password (or initialization value) one
+        time and comparing the hash result with the previously presented
+        password.
+"fixed": |-
+  - Tutorial: The client generates a one-time password by applying the MD4 cryptographic hash function multiple times to the user's secret key. For each successive authentication of the user, the number of hash applications is reduced by one. (Thus, an intruder using wiretapping cannot compute a valid password from knowledge of one previously used.) The server verifies a password by hashing the currently presented password (or initialization value) one time and comparing the hash result with the previously presented password.
+"ko": |-
+  - 튜토리얼: 클라이언트는 사용자의 비밀 키에 MD4 암호화 해시 함수를 여러 번 적용하여 일회용 비밀번호를 생성합니다. 사용자가 연속적으로 인증될 때마다 해시 애플리케이션 수가 하나씩 감소합니다. (따라서 도청을 이용한 침입자는 이전에 사용한 비밀번호를 알고 있으면 유효한 비밀번호를 계산할 수 없습니다.) 서버는 현재 제시된 비밀번호(또는 초기화 값)를 1회 해싱하고 그 결과를 이전에 제시된 비밀번호와 비교하여 비밀번호를 확인합니다.

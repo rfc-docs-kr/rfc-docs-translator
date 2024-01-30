@@ -1,0 +1,14 @@
+"hash": |-
+  3c5b667ec285a781e9d40293bb8939efb797fb108ad96ec609cec98aa48bc66d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients SHOULD abort the handshake if the server acknowledges the SNI
+     extension but presents a certificate with a different hostname than
+     the one sent by the client.
+"fixed": |-
+  Clients SHOULD abort the handshake if the server acknowledges the SNI extension but presents a certificate with a different hostname than the one sent by the client.
+"ko": |-
+  서버가 SNI 확장을 승인하지만 클라이언트가 보낸 것과 다른 호스트 이름을 가진 인증서를 제시하는 경우 클라이언트는 핸드셰이크를 중단해야 합니다(SHOULD).

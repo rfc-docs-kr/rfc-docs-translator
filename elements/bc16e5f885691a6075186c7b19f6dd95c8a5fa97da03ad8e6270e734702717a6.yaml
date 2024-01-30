@@ -1,0 +1,21 @@
+"hash": |-
+  bc16e5f885691a6075186c7b19f6dd95c8a5fa97da03ad8e6270e734702717a6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          *p++ = 0xc4;            /* DHT */
+          *p++ = 0;               /* length msb */
+          *p++ = 3 + ncodes + nsymbols; /* length lsb */
+          *p++ = (tableClass << 4) | tableNo;
+          memcpy(p, codelens, ncodes);
+          p += ncodes;
+          memcpy(p, symbols, nsymbols);
+          p += nsymbols;
+          return (p);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

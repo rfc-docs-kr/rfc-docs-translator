@@ -1,0 +1,15 @@
+"hash": |-
+  49fc2470e598b592682dc414bb18602fd69a9bc12cb3a3f0aa5241517c0eb8e2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      /* Limit the quantizers to 1 <= q <= 255 */
+      if (lq < 1) lq = 1;
+      else if (lq > 255) lq = 255;
+      lqt[i] = lq;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

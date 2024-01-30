@@ -1,0 +1,16 @@
+"hash": |-
+  50a9861ffc69875f8508adbed64bfac65cd436546779c00c85be706d60e646f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The IV adds an additional eight octets to the packet, and the ICV
+     adds an additional 8, 12, or 16 octets.  These are the only sources
+     of packet expansion, other than the 10-13 octets taken up by the ESP
+     SPI, Sequence Number, Padding, Pad Length, and Next Header fields (if
+     the minimal amount of padding is used).
+"fixed": |-
+  The IV adds an additional eight octets to the packet, and the ICV adds an additional 8, 12, or 16 octets.  These are the only sources of packet expansion, other than the 10-13 octets taken up by the ESP SPI, Sequence Number, Padding, Pad Length, and Next Header fields (if the minimal amount of padding is used).
+"ko": |-
+  IV는 패킷에 8옥텟을 추가하고 ICV는 8, 12 또는 16옥텟을 추가합니다. ESP SPI, 시퀀스 번호, 패딩, 패드 길이 및 다음 헤더 필드(최소 패딩 양이 사용되는 경우)가 차지하는 10-13 옥텟을 제외한 패킷 확장의 유일한 소스입니다.

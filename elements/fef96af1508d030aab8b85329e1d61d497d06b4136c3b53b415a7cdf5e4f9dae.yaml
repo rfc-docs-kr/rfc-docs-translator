@@ -1,0 +1,22 @@
+"hash": |-
+  fef96af1508d030aab8b85329e1d61d497d06b4136c3b53b415a7cdf5e4f9dae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AEADs defined in this document calculate fresh AES keys for each
+     nonce.  This allows a larger number of plaintexts to be encrypted
+     under a given key.  Without this step, AES-GCM-SIV encryption would
+     be limited by the birthday bound like other standard modes (e.g.,
+     AES-GCM, AES-CCM [RFC3610], and AES-SIV [RFC5297]).  This means that
+     when 2^64 blocks have been encrypted overall, a distinguishing
+     adversary who is trying to break the confidentiality of the scheme
+     has an advantage of 1/2.  Thus, in order to limit the adversary's
+     advantage to 2^-32, at most 2^48 blocks can be encrypted overall.  In
+     contrast, by deriving fresh keys from each nonce, it is possible to
+     encrypt a far larger number of messages and blocks with AES-GCM-SIV.
+"fixed": |-
+  The AEADs defined in this document calculate fresh AES keys for each nonce.  This allows a larger number of plaintexts to be encrypted under a given key.  Without this step, AES-GCM-SIV encryption would be limited by the birthday bound like other standard modes (e.g., AES-GCM, AES-CCM [RFC3610], and AES-SIV [RFC5297]).  This means that when 2^64 blocks have been encrypted overall, a distinguishing adversary who is trying to break the confidentiality of the scheme has an advantage of 1/2.  Thus, in order to limit the adversary's advantage to 2^-32, at most 2^48 blocks can be encrypted overall.  In contrast, by deriving fresh keys from each nonce, it is possible to encrypt a far larger number of messages and blocks with AES-GCM-SIV.
+"ko": |-
+  이 문서에 정의된 AEAD는 각 nonce에 대한 새로운 AES 키를 계산합니다. 이를 통해 특정 키로 더 많은 수의 일반 텍스트를 암호화할 수 있습니다. 이 단계가 없으면 AES-GCM-SIV 암호화는 다른 표준 모드(예: AES-GCM, AES-CCM [RFC3610] 및 AES-SIV [RFC5297])와 마찬가지로 생일 경계로 제한됩니다. 이는 전체 2^64개의 블록이 암호화되었을 때 체계의 기밀성을 깨려고 하는 눈에 띄는 공격자가 1/2의 이점을 갖는다는 것을 의미합니다. 따라서 적의 이점을 2^-32로 제한하기 위해 전체적으로 최대 2^48개의 블록을 암호화할 수 있습니다. 반면, 각 nonce에서 새로운 키를 파생하면 AES-GCM-SIV를 사용하여 훨씬 더 많은 수의 메시지와 블록을 암호화할 수 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  755b1d7037b077b2fe05993b4ba637c3108f6f00d023903aca145708bfed2445
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Nonce misuse-resistant AEADs do not suffer from this problem.  For
+     this class of AEADs, encrypting two messages with the same nonce only
+     discloses whether the messages were equal or not.  This is the
+     minimum amount of information that a deterministic algorithm can leak
+     in this situation.
+"fixed": |-
+  Nonce misuse-resistant AEADs do not suffer from this problem.  For this class of AEADs, encrypting two messages with the same nonce only discloses whether the messages were equal or not.  This is the minimum amount of information that a deterministic algorithm can leak in this situation.
+"ko": |-
+  Nonce 오용 방지 AEAD는 이 문제를 겪지 않습니다. 이 클래스의 AEAD의 경우 동일한 nonce로 두 개의 메시지를 암호화하면 메시지가 동일한지 여부만 공개됩니다. 이는 결정론적 알고리즘이 이러한 상황에서 유출할 수 있는 최소한의 정보량입니다.

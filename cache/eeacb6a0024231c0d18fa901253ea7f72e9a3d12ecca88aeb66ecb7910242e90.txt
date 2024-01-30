@@ -1,0 +1,1 @@
+   클라이언트가 ClientHello 메시지를 전송하면 서버에서 HelloRetryRequest 또는 ServerHello를 볼 것으로 예상합니다. 그러나 타이머가 만료되면 클라이언트는 ClientHello 또는 서버의 응답이 손실되었음을 알게 되며 이로 인해 클라이언트는 ClientHello를 다시 전송하게 됩니다. 서버가 재전송을 수신하면 HelloRetryRequest 또는 ServerHello를 재전송해야 함을 알게 됩니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  af2a595a626552ce5b176ba58e1ae2b7acc152a906de7dd0d39a9b523582d654
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Extensions are generally structured in a request/response fashion,
+     though some extensions are just indications with no corresponding
+     response.  The client sends its extension requests in the ClientHello
+     message, and the server sends its extension responses in the
+     ServerHello, EncryptedExtensions, HelloRetryRequest, and Certificate
+     messages.  The server sends extension requests in the
+     CertificateRequest message which a client MAY respond to with a
+     Certificate message.  The server MAY also send unsolicited extensions
+     in the NewSessionTicket, though the client does not respond directly
+     to these.
+"fixed": |-
+  Extensions are generally structured in a request/response fashion, though some extensions are just indications with no corresponding response.  The client sends its extension requests in the ClientHello message, and the server sends its extension responses in the ServerHello, EncryptedExtensions, HelloRetryRequest, and Certificate messages.  The server sends extension requests in the CertificateRequest message which a client MAY respond to with a Certificate message.  The server MAY also send unsolicited extensions in the NewSessionTicket, though the client does not respond directly to these.
+"ko": |-
+  확장은 일반적으로 요청/응답 방식으로 구성되지만 일부 확장은 해당 응답이 없는 표시일 뿐입니다. 클라이언트는 ClientHello 메시지를 통해 확장 요청을 보내고, 서버는 ServerHello, EncryptedExtensions, HelloRetryRequest 및 Certificate 메시지를 통해 확장 응답을 보냅니다. 서버는 클라이언트가 인증서 메시지로 응답할 수 있는 CertificateRequest 메시지에 확장 요청을 보냅니다. 클라이언트가 이에 직접 응답하지 않더라도 서버는 NewSessionTicket에서 원치 않는 확장을 보낼 수도 있습니다.

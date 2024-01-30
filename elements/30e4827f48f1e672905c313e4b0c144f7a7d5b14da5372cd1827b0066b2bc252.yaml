@@ -1,0 +1,14 @@
+"hash": |-
+  30e4827f48f1e672905c313e4b0c144f7a7d5b14da5372cd1827b0066b2bc252
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Queue the data for transmission after entering ESTABLISHED state.
+        If no space to queue, respond with "error: insufficient
+        resources".
+"fixed": |-
+  *  Queue the data for transmission after entering ESTABLISHED state. If no space to queue, respond with "error: insufficient resources".
+"ko": |-
+  * ESTABLISHED 상태에 진입한 후 전송을 위해 데이터를 대기열에 넣습니다. 대기열에 넣을 공간이 없으면 "오류: 리소스 부족"으로 응답합니다.

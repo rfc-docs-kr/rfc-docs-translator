@@ -1,0 +1,1 @@
+   위의 protectionAlg에서는 Diffie-Hellman 계산 결과에 OWF가 적용됩니다. OWF 출력(참조하기 쉽게 "BASEKEY"라고 하며 크기는 "H"임)은 대칭 키를 형성하는 데 사용됩니다. MAC 알고리즘에 K 비트 키가 필요하고 K <= H인 경우 BASEKEY의 최상위 K 비트가 사용됩니다. K > H이면 모든 BASEKEY가 키의 최상위 H 비트에 사용되고 OWF("1" || BASEKEY)는 키의 다음 최상위 H 비트에 사용되며 OWF("2" || BASEKEY)는 키의 다음으로 중요한 H 비트에 사용되며 모든 K 비트가 파생될 때까지 계속됩니다. [여기서 "N"은 숫자 N과 "||"를 인코딩하는 ASCII 바이트입니다. 연결을 나타냅니다.]

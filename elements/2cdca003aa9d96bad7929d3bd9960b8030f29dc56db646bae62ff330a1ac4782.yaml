@@ -1,0 +1,22 @@
+"hash": |-
+  2cdca003aa9d96bad7929d3bd9960b8030f29dc56db646bae62ff330a1ac4782
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unlike TLS, DTLS is resilient in the face of invalid records (e.g.,
+     invalid formatting, length, MAC, etc.).  In general, invalid records
+     SHOULD be silently discarded, thus preserving the association;
+     however, an error MAY be logged for diagnostic purposes.
+     Implementations which choose to generate an alert instead, MUST
+     generate fatal level alerts to avoid attacks where the attacker
+     repeatedly probes the implementation to see how it responds to
+     various types of error.  Note that if DTLS is run over UDP, then any
+     implementation which does this will be extremely susceptible to
+     denial-of-service (DoS) attacks because UDP forgery is so easy.
+     Thus, this practice is NOT RECOMMENDED for such transports.
+"fixed": |-
+  Unlike TLS, DTLS is resilient in the face of invalid records (e.g., invalid formatting, length, MAC, etc.).  In general, invalid records SHOULD be silently discarded, thus preserving the association; however, an error MAY be logged for diagnostic purposes. Implementations which choose to generate an alert instead, MUST generate fatal level alerts to avoid attacks where the attacker repeatedly probes the implementation to see how it responds to various types of error.  Note that if DTLS is run over UDP, then any implementation which does this will be extremely susceptible to denial-of-service (DoS) attacks because UDP forgery is so easy. Thus, this practice is NOT RECOMMENDED for such transports.
+"ko": |-
+  TLS와 달리 DTLS는 잘못된 레코드(예: 잘못된 형식, 길이, MAC 등)가 있는 경우 복원력이 뛰어납니다. 일반적으로 유효하지 않은 기록은 자동으로 폐기되어야 하며 따라서 연관성이 유지되어야 합니다. 그러나 진단 목적으로 오류가 기록될 수 있습니다. 대신 경고를 생성하기로 선택한 구현은 공격자가 구현을 반복적으로 조사하여 다양한 유형의 오류에 어떻게 대응하는지 확인하는 공격을 피하기 위해 치명적인 수준의 경고를 생성해야 합니다. DTLS가 UDP를 통해 실행되는 경우 UDP 위조가 매우 쉽기 때문에 이를 수행하는 모든 구현은 서비스 거부(DoS) 공격에 매우 취약합니다. 따라서 이러한 방식은 그러한 전송에 권장되지 않습니다.

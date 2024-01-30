@@ -1,0 +1,1 @@
+   여기에 설명된 절차의 기본은 CA가 이전 개인 키를 사용하여 새 공개 키를 보호하고 그 반대의 경우도 마찬가지라는 것입니다. 따라서 CA가 키 쌍을 업데이트할 때 X.500 디렉터리를 사용하여 인증서를 사용할 수 있게 되면 두 개의 추가 cACertificate 속성 값을 생성해야 합니다(총 4개: OldWithOld, OldWithNew, NewWithOld 및 NewWithNew).

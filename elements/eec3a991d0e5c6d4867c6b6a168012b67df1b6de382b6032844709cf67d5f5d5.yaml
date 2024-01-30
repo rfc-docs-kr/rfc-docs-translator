@@ -1,0 +1,59 @@
+"hash": |-
+  eec3a991d0e5c6d4867c6b6a168012b67df1b6de382b6032844709cf67d5f5d5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    Ping gateways continuously                     |3.3.1.4 | | | | |x|
+    Ping only when traffic being sent              |3.3.1.4 |x| | | | |
+    Ping only when no positive indication          |3.3.1.4 |x| | | | |
+    Higher and lower layers give advice            |3.3.1.4 | |x| | | |
+    Switch from failed default g'way to another    |3.3.1.5 |x| | | | |
+    Manual method of entering config info          |3.3.1.6 |x| | | | |
+                                                   |        | | | | | |
+  REASSEMBLY and FRAGMENTATION:                    |        | | | | | |
+    Able to reassemble incoming datagrams          |3.3.2   |x| | | | |
+      At least 576 byte datagrams                  |3.3.2   |x| | | | |
+      EMTU_R configurable or indefinite            |3.3.2   | |x| | | |
+    Transport layer able to learn MMS_R            |3.3.2   |x| | | | |
+    Send ICMP Time Exceeded on reassembly timeout  |3.3.2   |x| | | | |
+      Fixed reassembly timeout value               |3.3.2   | |x| | | |
+                                                   |        | | | | | |
+    Pass MMS_S to higher layers                    |3.3.3   |x| | | | |
+    Local fragmentation of outgoing packets        |3.3.3   | | |x| | |
+       Else don't send bigger than MMS_S           |3.3.3   |x| | | | |
+    Send max 576 to off-net destination            |3.3.3   | |x| | | |
+    All-Subnets-MTU configuration flag             |3.3.3   | | |x| | |
+                                                   |        | | | | | |
+  MULTIHOMING:                                     |        | | | | | |
+    Reply with same addr as spec-dest addr         |3.3.4.2 | |x| | | |
+    Allow application to choose local IP addr      |3.3.4.2 |x| | | | |
+    Silently discard d'gram in "wrong" interface   |3.3.4.2 | | |x| | |
+    Only send d'gram through "right" interface     |3.3.4.2 | | |x| | |4
+                                                   |        | | | | | |
+  SOURCE-ROUTE FORWARDING:                         |        | | | | | |
+    Forward datagram with Source Route option      |3.3.5   | | |x| | |1
+      Obey corresponding gateway rules             |3.3.5   |x| | | | |1
+        Update TTL by gateway rules                |3.3.5   |x| | | | |1
+        Able to generate ICMP err code 4, 5        |3.3.5   |x| | | | |1
+        IP src addr not local host                 |3.3.5   | | |x| | |1
+        Update Timestamp, Record Route options     |3.3.5   |x| | | | |1
+      Configurable switch for non-local SRing      |3.3.5   |x| | | | |1
+        Defaults to OFF                            |3.3.5   |x| | | | |1
+      Satisfy gwy access rules for non-local SRing |3.3.5   |x| | | | |1
+      If not forward, send Dest Unreach (cd 5)     |3.3.5   | |x| | | |2
+                                                   |        | | | | | |
+  BROADCAST:                                       |        | | | | | |
+    Broadcast addr as IP source addr               |3.2.1.3 | | | | |x|
+    Receive 0 or -1 broadcast formats OK           |3.3.6   | |x| | | |
+    Config'ble option to send 0 or -1 b'cast       |3.3.6   | | |x| | |
+      Default to -1 broadcast                      |3.3.6   | |x| | | |
+    Recognize all broadcast address formats        |3.3.6   |x| | | | |
+    Use IP b'cast/m'cast addr in link-layer b'cast |3.3.6   |x| | | | |
+    Silently discard link-layer-only b'cast dg's   |3.3.6   | |x| | | |
+    Use Limited Broadcast addr for connected net   |3.3.6   | |x| | | |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

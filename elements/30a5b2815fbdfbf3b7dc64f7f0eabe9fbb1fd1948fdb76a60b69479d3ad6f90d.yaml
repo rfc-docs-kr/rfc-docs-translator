@@ -1,0 +1,20 @@
+"hash": |-
+  30a5b2815fbdfbf3b7dc64f7f0eabe9fbb1fd1948fdb76a60b69479d3ad6f90d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to automatically adapt to network load, this document
+     specifies exponentially increasing timers.  If the initial timer is
+     set to 200 milliseconds, the loss of a fifth retransmission will be
+     detected after about 6 seconds.  This is probably an acceptable
+     waiting delay to detect a failover.   The repetitions should
+     continue after that delay not only in order to perhaps overcome a
+     transient connectivity problem, but also in order to allow some more
+     time for the execution of a failover - waiting a total delay of 30
+     seconds is probably acceptable.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

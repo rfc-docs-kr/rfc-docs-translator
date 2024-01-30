@@ -1,0 +1,38 @@
+"hash": |-
+  0f3e4a1d6212bc960689b53861db32ea78dc14b7b2a392d851fd56dacee28968
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     digitMap = (digitString / LWSP "(" LWSP digitStringList LWSP ")"
+     LWSP)
+     digitStringList = digitString *( LWSP "/" LWSP digitString )
+     digitString = 1*(digitStringElement)
+     digitStringElement = digitPosition [DOT]
+     digitPosition = digitMapLetter / digitMapRange
+     digitMapRange = ("x" / LWSP "[" LWSP digitLetter LWSP "]" LWSP)
+     digitLetter = *((DIGIT "-" DIGIT) /digitMapLetter)
+     digitMapLetter = DIGIT               ;digits 0-9
+          / %x41-4B / %x61-6B             ;a-k and A-K
+          / "L"   / "S"                   ;Inter-event timers
+                                          ;(long, short)
+          / "Z"                           ;Long duration event
+     DOT = %x2E ; "."
+     LWSP = *(WSP / COMMENT / EOL)
+     WSP = SP / HTAB
+     COMMENT = ";" *(SafeChar / RestChar / WSP) EOL
+     EOL = (CR [LF]) / LF
+     SP = %x20
+     HTAB = %x09
+     CR = %x0D
+     LF = %x0A
+     SafeChar = DIGIT / ALPHA / "+" / "-" / "&" / "!" / "_" / "/" /
+      "'" / "?" / "@" / "^" / "`" / "~" / "*" / "$" / "\" /
+     "(" / ")" / "%" / "."
+     RestChar = ";" / "[" / "]" / "{" / "}" / ":" / "," / "#" /
+                  "<" / ">" / "=" / %x22
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

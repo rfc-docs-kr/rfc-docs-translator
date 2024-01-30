@@ -1,0 +1,19 @@
+"hash": |-
+  f3fac0fe2c01484cc045886609a54bccdfff8747302d83ca50dc1a39b853fda5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The syntax rule for host is ambiguous because it does not completely
+     distinguish between an IPv4address and a reg-name.  In order to
+     disambiguate the syntax, we apply the "first-match-wins" algorithm:
+     If host matches the rule for IPv4address, then it should be
+     considered an IPv4 address literal and not a reg-name.  Although host
+     is case-insensitive, producers and normalizers should use lowercase
+     for registered names and hexadecimal addresses for the sake of
+     uniformity, while only using uppercase letters for percent-encodings.
+"fixed": |-
+  The syntax rule for host is ambiguous because it does not completely distinguish between an IPv4address and a reg-name.  In order to disambiguate the syntax, we apply the "first-match-wins" algorithm: If host matches the rule for IPv4address, then it should be considered an IPv4 address literal and not a reg-name.  Although host is case-insensitive, producers and normalizers should use lowercase for registered names and hexadecimal addresses for the sake of uniformity, while only using uppercase letters for percent-encodings.
+"ko": |-
+  호스트의 구문 규칙은 IPv4 주소와 등록 이름을 완전히 구별하지 못하기 때문에 모호합니다. 구문을 명확하게 하기 위해 "first-match-wins" 알고리즘을 적용합니다. 호스트가 IPv4address에 대한 규칙과 일치하면 reg-name이 아닌 IPv4 주소 리터럴로 간주되어야 합니다. 호스트는 대소문자를 구분하지 않지만, 생성자와 노멀라이저는 일관성을 위해 등록된 이름과 16진수 주소에 소문자를 사용해야 하며, 퍼센트 인코딩에는 대문자만 사용해야 합니다.
