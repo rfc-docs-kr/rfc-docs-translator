@@ -1,6 +1,8 @@
 from google.cloud import translate
+import os
 
-def translate_text(text="Hello, world!", project_id="rfc2mrf"):
+
+def translate_text(text="Hello, world!", project_id=os.environ['PROJECT_ID']):
 
     client = translate.TranslationServiceClient()
     location = "global"
