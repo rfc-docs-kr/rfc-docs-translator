@@ -3,11 +3,11 @@ import os
 import hashlib
 
 class Translator:
-    def __init__(self, location = "global", project_id = "valid-amplifier-406115") :
+    def __init__(self, location = "global") :
         self.client = translate.TranslationServiceClient()
         self.location = "global"
-        self.project_id = "valid-amplifier-406115"
-        self.parent = f"projects/{project_id}/locations/{location}"
+        self.project_id = os.environ['PROJECT_ID']
+        self.parent = f"projects/{self.project_id}/locations/{location}"
         try:
             os.mkdir("./cache")
         except:

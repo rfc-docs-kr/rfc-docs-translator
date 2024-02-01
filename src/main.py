@@ -4,7 +4,9 @@ import requests
 import sys
 
 
-converter = Converter(doTranslate=True, languages=["ko"])
+doTranslate = os.environ['DO_TRANSLATE'] == '1'
+
+converter = Converter(doTranslate=doTranslate, languages=["ko"])
 
 def getRFC(id) :
     response = requests.get(f'https://www.ietf.org/rfc/rfc{id}.txt')

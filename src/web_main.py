@@ -3,9 +3,10 @@ from converter.converterv2 import Converter
 import os
 import requests
 
+doTranslate = os.environ['DO_TRANSLATE'] == '1'
 
 app = Flask(__name__)
-converter = Converter(doTranslate=False, languages=["ko"])
+converter = Converter(doTranslate=doTranslate, languages=["ko"])
 
 def getRFC(id) :
     response = requests.get(f'https://www.ietf.org/rfc/rfc{id}.txt')
