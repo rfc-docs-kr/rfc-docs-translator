@@ -1,0 +1,22 @@
+"hash": |-
+  f67f8255a92fe812105bd459d090fd2a47146e0a6708bc5b03857e2ad36b2398
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Using a PCE-based SDN control framework [RFC7491], the available
+     network topology may be discovered by running a passive instance of
+     OSPF or IS-IS, or via BGP Link State (BGP-LS) [RFC9552]), to generate
+     a Traffic Engineering Database (TED) (see Section 5.1.3.14).  The PCE
+     is used to compute a path (see Section 5.1.3.11) based on the TED and
+     available bandwidth, and further path optimization may be based on
+     requested objective functions [RFC5541].  When a suitable path has
+     been computed, the programming of the explicit network path may be
+     either performed using a signaling protocol that traverses the length
+     of the path [RFC3209] or performed per-hop with each node being
+     directly programmed [RFC8283] by the SDN controller.
+"fixed": |-
+  Using a PCE-based SDN control framework [RFC7491], the available network topology may be discovered by running a passive instance of OSPF or IS-IS, or via BGP Link State (BGP-LS) [RFC9552]), to generate a Traffic Engineering Database (TED) (see Section 5.1.3.14).  The PCE is used to compute a path (see Section 5.1.3.11) based on the TED and available bandwidth, and further path optimization may be based on requested objective functions [RFC5541].  When a suitable path has been computed, the programming of the explicit network path may be either performed using a signaling protocol that traverses the length of the path [RFC3209] or performed per-hop with each node being directly programmed [RFC8283] by the SDN controller.
+"ko": |-
+  PCE 기반 SDN 제어 프레임워크[RFC7491]를 사용하면 OSPF 또는 IS-IS의 수동 인스턴스를 실행하거나 BGP-LS(BGP-LS)[RFC9552])를 통해 사용 가능한 네트워크 토폴로지를 검색하여 트래픽을 생성할 수 있습니다. 엔지니어링 데이터베이스(TED)(섹션 5.1.3.14 참조). PCE는 TED 및 사용 가능한 대역폭을 기반으로 경로(섹션 5.1.3.11 참조)를 계산하는 데 사용되며 추가 경로 최적화는 요청된 목적 함수 [RFC5541]를 기반으로 할 수 있습니다. 적절한 경로가 계산되면 명시적 네트워크 경로 프로그래밍은 경로 길이를 횡단하는 신호 프로토콜을 사용하여 수행되거나(RFC3209) SDN에 의해 ​​각 노드가 직접 프로그래밍되는(RFC8283) 홉별로 수행될 수 있습니다. 제어 장치.

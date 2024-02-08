@@ -1,0 +1,19 @@
+"hash": |-
+  5166a05cebcd5a8946c986c6656e334ca93b8677fd1dbaa749e58ea0f6885930
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Extension  ::=  SEQUENCE  {
+          extnID      OBJECT IDENTIFIER,
+          critical    BOOLEAN DEFAULT FALSE,
+          extnValue   OCTET STRING
+                      -- contains the DER encoding of an ASN.1 value
+                      -- corresponding to the extension type identified
+                      -- by extnID
+          }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

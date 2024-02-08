@@ -1,0 +1,27 @@
+"hash": |-
+  eaeebdba2fe694c29e35ed2c94ae16f2c804399e2b921fdc47dcfe45152d2640
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The simplest we considered is an MSP based on all rendezvous being
+     done at the destination Host.  The sender process sends an OUT-
+     message plus the data to the destination Host.  The receiver process
+     does an IN which stays at the receivers Host.  The OUT and RECEIVE
+     rendezvous and the data is passed to the receiver process.  The
+     transmission is now complete, except in some variations of this MSP
+     an acknowledgement is sent to the sender process.  This MSP has
+     couple of disadvantages: In the simplest formulation, the RECEIVE had
+     to be waiting when the OUT+data arrived, otherwise the out data were
+     thrown away.  This puts too tight a constraint on the timing of the
+     SEND and RECEIVE, especially since the sender and receiver processes
+     can be a continent apart.  However, if the IN is allowed to arrive
+     first and must be held until matched by a RECEIVE, the monitor must
+     buffer an indeterminate amount of data in all cases including the
+     normal one.  Further, basing everything on rendezvous at the
+     destination makes the process of moving a port difficult.
+"fixed": |-
+  The simplest we considered is an MSP based on all rendezvous being done at the destination Host.  The sender process sends an OUT- message plus the data to the destination Host.  The receiver process does an IN which stays at the receivers Host.  The OUT and RECEIVE rendezvous and the data is passed to the receiver process.  The transmission is now complete, except in some variations of this MSP an acknowledgement is sent to the sender process.  This MSP has couple of disadvantages: In the simplest formulation, the RECEIVE had to be waiting when the OUT+data arrived, otherwise the out data were thrown away.  This puts too tight a constraint on the timing of the SEND and RECEIVE, especially since the sender and receiver processes can be a continent apart.  However, if the IN is allowed to arrive first and must be held until matched by a RECEIVE, the monitor must buffer an indeterminate amount of data in all cases including the normal one.  Further, basing everything on rendezvous at the destination makes the process of moving a port difficult.
+"ko": |-
+  우리가 고려한 가장 간단한 것은 대상 호스트에서 수행되는 모든 랑데뷰를 기반으로 하는 MSP입니다. 발신자 프로세스는 OUT 메시지와 데이터를 대상 호스트로 보냅니다. 수신자 프로세스는 수신자 호스트에 머무르는 IN을 수행합니다. OUT 및 RECEIVE 랑데뷰와 데이터는 수신자 프로세스로 전달됩니다. 이제 전송이 완료되었습니다. 단, 이 MSP의 일부 변형에서는 승인이 발신자 프로세스로 전송됩니다. 이 MSP에는 몇 가지 단점이 있습니다. 가장 간단한 공식에서 RECEIVE는 OUT+ 데이터가 도착할 때 기다려야 했습니다. 그렇지 않으면 출력 데이터가 버려졌습니다. 이로 인해 SEND 및 RECEIVE의 타이밍이 너무 엄격하게 제한됩니다. 특히 보낸 사람과 받는 사람 프로세스가 서로 떨어져 있을 수 있기 때문입니다. 그러나 IN이 먼저 도착하도록 허용하고 RECEIVE와 일치할 때까지 유지해야 하는 경우 모니터는 일반 데이터를 포함한 모든 경우에 불확실한 양의 데이터를 버퍼링해야 합니다. 더욱이, 목적지에서의 집결을 모든 것을 기반으로 하면 항구 이동 과정이 어려워진다.

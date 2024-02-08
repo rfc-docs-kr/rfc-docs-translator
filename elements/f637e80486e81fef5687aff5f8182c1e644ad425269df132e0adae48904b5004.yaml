@@ -1,0 +1,23 @@
+"hash": |-
+  f637e80486e81fef5687aff5f8182c1e644ad425269df132e0adae48904b5004
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Pipelining is a general method to improve performance of request/
+     response protocols by allowing the requesting agent to have more than
+     one request outstanding and to send them over the same persistent
+     connection.  For RTSP, where the relative order of requests will
+     matter, it is important to maintain the order of the requests.
+     Because of this, the responding agent MUST process the incoming
+     requests in their sending order.  The sending order can be determined
+     by the CSeq header and its sequence number.  For TCP, the delivery
+     order will be the same, between two agents, as the sending order.
+     The processing of the request MUST also have been finished before
+     processing the next request from the same agent.  The responses MUST
+     be sent in the order the requests were processed.
+"fixed": |-
+  Pipelining is a general method to improve performance of request/ response protocols by allowing the requesting agent to have more than one request outstanding and to send them over the same persistent connection.  For RTSP, where the relative order of requests will matter, it is important to maintain the order of the requests. Because of this, the responding agent MUST process the incoming requests in their sending order.  The sending order can be determined by the CSeq header and its sequence number.  For TCP, the delivery order will be the same, between two agents, as the sending order. The processing of the request MUST also have been finished before processing the next request from the same agent.  The responses MUST be sent in the order the requests were processed.
+"ko": |-
+  파이프라이닝은 요청 에이전트가 둘 이상의 요청을 처리하지 않고 동일한 영구 연결을 통해 전송할 수 있도록 하여 요청/응답 프로토콜의 성능을 향상시키는 일반적인 방법입니다. 요청의 상대적 순서가 중요한 RTSP의 경우 요청 순서를 유지하는 것이 중요합니다. 이 때문에 응답 에이전트는 들어오는 요청을 전송 순서대로 처리해야 합니다. 전송 순서는 CSeq 헤더와 해당 시퀀스 번호에 의해 결정될 수 있습니다. TCP의 경우 두 에이전트 사이의 배달 순서는 보내는 순서와 동일합니다. 동일한 에이전트의 다음 요청을 처리하기 전에 요청 처리도 완료되어야 합니다. 응답은 요청이 처리된 순서대로 전송되어야 합니다.

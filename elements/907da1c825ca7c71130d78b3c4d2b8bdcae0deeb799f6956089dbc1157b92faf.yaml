@@ -1,0 +1,21 @@
+"hash": |-
+  907da1c825ca7c71130d78b3c4d2b8bdcae0deeb799f6956089dbc1157b92faf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipCidrRouteIfIndex OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-create
+         STATUS     deprecated
+         DESCRIPTION
+                "The ifIndex value that identifies the local interface
+                 through which the next hop of this route should be
+                 reached."
+         DEFVAL { 0 }
+         ::= { ipCidrRouteEntry 5 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

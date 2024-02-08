@@ -13,7 +13,7 @@
      command should have a reply that identifies 'TLS' as one of the
      possible parameters to AUTH.  It is not necessary to identify the
      'TLS-C' synonym separately.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The FEAT command (introduced in [RFC-2389]) allows servers with additional features to advertise these to a client by responding to the FEAT command.  If a server supports the FEAT command, then it MUST advertise supported AUTH, PBSZ, and PROT commands in the reply, as described in section 3.2 of [RFC-2389].  Additionally, the AUTH command should have a reply that identifies 'TLS' as one of the possible parameters to AUTH.  It is not necessary to identify the 'TLS-C' synonym separately.
+"ko": |-
+  FEAT 명령([RFC-2389]에 도입됨)을 사용하면 추가 기능이 있는 서버가 FEAT 명령에 응답하여 이를 클라이언트에 알릴 수 있습니다. 서버가 FEAT 명령을 지원하는 경우 [RFC-2389]의 섹션 3.2에 설명된 대로 응답에 지원되는 AUTH, PBSZ 및 PROT 명령을 광고해야 합니다. 또한 AUTH 명령에는 'TLS'를 AUTH에 대한 가능한 매개 변수 중 하나로 식별하는 응답이 있어야 합니다. 'TLS-C' 동의어를 별도로 식별할 필요는 없습니다.

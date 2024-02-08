@@ -1,0 +1,22 @@
+"hash": |-
+  4df6fae2a0d2806cd639c5c8061a575903539492c1b30de9ff612a724da88ed5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While X.509 mandates that names be unambiguous, there is a risk that
+     two unrelated authorities will issue certificates and/or CRLs under
+     the same issuer name.  As a means of reducing problems and security
+     issues related to issuer name collisions, CA and CRL issuer names
+     SHOULD be formed in a way that reduces the likelihood of name
+     collisions.  Implementers should take into account the possible
+     existence of multiple unrelated CAs and CRL issuers with the same
+     name.  At a minimum, implementations validating CRLs MUST ensure that
+     the certification path of a certificate and the CRL issuer
+     certification path used to validate the certificate terminate at the
+     same trust anchor.
+"fixed": |-
+  While X.509 mandates that names be unambiguous, there is a risk that two unrelated authorities will issue certificates and/or CRLs under the same issuer name.  As a means of reducing problems and security issues related to issuer name collisions, CA and CRL issuer names SHOULD be formed in a way that reduces the likelihood of name collisions.  Implementers should take into account the possible existence of multiple unrelated CAs and CRL issuers with the same name.  At a minimum, implementations validating CRLs MUST ensure that the certification path of a certificate and the CRL issuer certification path used to validate the certificate terminate at the same trust anchor.
+"ko": |-
+  X.509에서는 이름이 명확해야 한다고 규정하고 있지만 관련되지 않은 두 기관이 동일한 발급자 이름으로 인증서 및/또는 CRL을 발급할 위험이 있습니다. 발급자 이름 충돌과 관련된 문제 및 보안 문제를 줄이기 위한 수단으로 CA 및 CRL 발급자 이름은 이름 충돌 가능성을 줄이는 방식으로 구성되어야 합니다. 구현자는 동일한 이름을 가진 관련되지 않은 여러 CA 및 CRL 발급자가 존재할 수 있다는 점을 고려해야 합니다. 최소한 CRL을 검증하는 구현에서는 인증서의 인증 경로와 인증서를 검증하는 데 사용되는 CRL 발급자 인증 경로가 동일한 트러스트 앵커에서 종료되도록 해야 합니다.

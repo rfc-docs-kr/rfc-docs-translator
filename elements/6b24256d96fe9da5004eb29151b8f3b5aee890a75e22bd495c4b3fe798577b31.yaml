@@ -1,0 +1,22 @@
+"hash": |-
+  6b24256d96fe9da5004eb29151b8f3b5aee890a75e22bd495c4b3fe798577b31
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A 3rr code MAY be used to respond to any request.  The Location
+     header MUST be included in any 3rr response.  It is RECOMMENDED that
+     they are used if necessary before a session is established, i.e., in
+     response to DESCRIBE or SETUP.  However, in cases where a server is
+     not able to send a REDIRECT request to the agent, the server MAY need
+     to resort to using 3rr responses to inform an agent with an
+     established session about the need for redirecting the session.  If a
+     3rr response is received for a request in relation to an established
+     session, the agent SHOULD send a TEARDOWN request for the session and
+     MAY reestablish the session using the resource indicated by the
+     Location.
+"fixed": |-
+  A 3rr code MAY be used to respond to any request.  The Location header MUST be included in any 3rr response.  It is RECOMMENDED that they are used if necessary before a session is established, i.e., in response to DESCRIBE or SETUP.  However, in cases where a server is not able to send a REDIRECT request to the agent, the server MAY need to resort to using 3rr responses to inform an agent with an established session about the need for redirecting the session.  If a 3rr response is received for a request in relation to an established session, the agent SHOULD send a TEARDOWN request for the session and MAY reestablish the session using the resource indicated by the Location.
+"ko": |-
+  3rr 코드는 모든 요청에 ​​응답하는 데 사용될 수 있습니다. Location 헤더는 모든 3rr 응답에 포함되어야 합니다. 세션이 설정되기 전, 즉 DESCRIBE 또는 SETUP에 대한 응답으로 필요한 경우 사용하는 것이 권장됩니다. 그러나 서버가 에이전트에 REDIRECT 요청을 보낼 수 없는 경우 서버는 3rr 응답을 사용하여 설정된 세션이 있는 에이전트에게 세션 리디렉션의 필요성을 알려야 할 수도 있습니다. 설정된 세션과 관련된 요청에 대해 3rr 응답이 수신되면 에이전트는 해당 세션에 대한 TEARDOWN 요청을 보내야 하며 위치가 나타내는 리소스를 사용하여 세션을 다시 설정할 수 있습니다.

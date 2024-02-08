@@ -1,0 +1,21 @@
+"hash": |-
+  38049c3fba5b918ea3eb453e5b93f2a27947782379e9e186d88b69e8359f0395
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  TeletexPersonalName ::= SET {
+     surname     [0] IMPLICIT TeletexString
+                      (SIZE (1..ub-surname-length)),
+     given-name  [1] IMPLICIT TeletexString
+                      (SIZE (1..ub-given-name-length)) OPTIONAL,
+     initials    [2] IMPLICIT TeletexString
+                      (SIZE (1..ub-initials-length)) OPTIONAL,
+     generation-qualifier [3] IMPLICIT TeletexString
+                      (SIZE (1..ub-generation-qualifier-length))
+                      OPTIONAL }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

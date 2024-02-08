@@ -1,0 +1,20 @@
+"hash": |-
+  751577a0606a2909c95a8812f2a3eddc859f9973c9cd10c471fe8ab169a201f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Proxy-Require request-header field is used to indicate proxy-
+     sensitive features that MUST be supported by the proxy.  Any Proxy-
+     Require header features that are not supported by the proxy MUST be
+     negatively acknowledged by the proxy to the client using the
+     Unsupported header.  The proxy MUST use the 551 (Option Not
+     Supported) status code in the response.  Any feature tag included in
+     the Proxy-Require does not apply to the endpoint (server or client).
+     To ensure that a feature is supported by both proxies and servers,
+     the tag needs to be included in also a Require header.
+"fixed": |-
+  The Proxy-Require request-header field is used to indicate proxy- sensitive features that MUST be supported by the proxy.  Any Proxy- Require header features that are not supported by the proxy MUST be negatively acknowledged by the proxy to the client using the Unsupported header.  The proxy MUST use the 551 (Option Not Supported) status code in the response.  Any feature tag included in the Proxy-Require does not apply to the endpoint (server or client). To ensure that a feature is supported by both proxies and servers, the tag needs to be included in also a Require header.
+"ko": |-
+  Proxy-Require 요청 헤더 필드는 프록시가 반드시 지원해야 하는 프록시 관련 기능을 나타내는 데 사용됩니다. 프록시가 지원하지 않는 모든 Proxy-Require 헤더 기능은 프록시가 Unsupported 헤더를 사용하여 클라이언트에 대해 부정적으로 승인해야 합니다. 프록시는 응답에 551(옵션이 지원되지 않음) 상태 코드를 사용해야 합니다. Proxy-Require에 포함된 모든 기능 태그는 엔드포인트(서버 또는 클라이언트)에 적용되지 않습니다. 프록시와 서버 모두에서 기능을 지원하려면 태그가 Require 헤더에도 포함되어야 합니다.

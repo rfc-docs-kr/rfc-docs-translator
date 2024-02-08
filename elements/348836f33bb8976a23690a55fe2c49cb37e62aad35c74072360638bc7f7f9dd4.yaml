@@ -9,7 +9,7 @@
      description, see the "CLEAR COMMAND CHANNEL (CCC)" section of
      [RFC-2228].  Clients should not assume that a server will allow the
      CCC command to be processed.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Using the CCC command can create security issues.  For a full description, see the "CLEAR COMMAND CHANNEL (CCC)" section of [RFC-2228].  Clients should not assume that a server will allow the CCC command to be processed.
+"ko": |-
+  CCC 명령을 사용하면 보안 문제가 발생할 수 있습니다. 전체 설명은 [RFC-2228]의 "CLEAR COMMAND CHANNEL (CCC)" 섹션을 참조하세요. 클라이언트는 서버가 CCC 명령 처리를 허용할 것이라고 가정해서는 안 됩니다.

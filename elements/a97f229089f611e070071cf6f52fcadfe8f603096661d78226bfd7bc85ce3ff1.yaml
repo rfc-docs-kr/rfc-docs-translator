@@ -1,0 +1,23 @@
+"hash": |-
+  a97f229089f611e070071cf6f52fcadfe8f603096661d78226bfd7bc85ce3ff1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A request is RECOMMENDED to only contain a single parameter to allow
+     the client to determine why a particular request failed.  If the
+     request contains several parameters, the server MUST only act on the
+     request if all of the parameters can be set successfully.  A server
+     MUST allow a parameter to be set repeatedly to the same value, but it
+     MAY disallow changing parameter values.  If the receiver of the
+     request does not understand or cannot locate a parameter, error 451
+     (Parameter Not Understood) MUST be used.  When a parameter is not
+     allowed to change, the error code is 458 (Parameter Is Read-Only).
+     The response body MUST contain only the parameters that have errors.
+     Otherwise, a body MUST NOT be returned.  The response body MUST use
+     the media type of the request for the response.
+"fixed": |-
+  A request is RECOMMENDED to only contain a single parameter to allow the client to determine why a particular request failed.  If the request contains several parameters, the server MUST only act on the request if all of the parameters can be set successfully.  A server MUST allow a parameter to be set repeatedly to the same value, but it MAY disallow changing parameter values.  If the receiver of the request does not understand or cannot locate a parameter, error 451 (Parameter Not Understood) MUST be used.  When a parameter is not allowed to change, the error code is 458 (Parameter Is Read-Only). The response body MUST contain only the parameters that have errors. Otherwise, a body MUST NOT be returned.  The response body MUST use the media type of the request for the response.
+"ko": |-
+  클라이언트가 특정 요청이 실패한 이유를 확인할 수 있도록 요청에 단일 매개변수만 포함하는 것이 좋습니다. 요청에 여러 매개변수가 포함된 경우 서버는 모든 매개변수가 성공적으로 설정될 수 있는 경우에만 요청에 대해 조치를 취해야 합니다. 서버는 매개변수가 동일한 값으로 반복적으로 설정되도록 허용해야 하지만(MUST) 매개변수 값 변경을 허용하지 않을 수 있습니다. 요청 수신자가 매개변수를 이해하지 못하거나 찾을 수 없는 경우 오류 451(매개변수를 이해하지 못함)을 사용해야 합니다. 매개변수 변경이 허용되지 않는 경우 오류 코드는 458(매개변수는 읽기 전용)입니다. 응답 본문에는 오류가 있는 매개변수만 포함되어야 합니다. 그렇지 않으면 본문을 반환해서는 안 됩니다. 응답 본문은 응답 요청의 미디어 유형을 사용해야 합니다.

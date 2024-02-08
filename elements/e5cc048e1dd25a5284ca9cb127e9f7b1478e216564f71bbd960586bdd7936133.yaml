@@ -1,0 +1,58 @@
+"hash": |-
+  e5cc048e1dd25a5284ca9cb127e9f7b1478e216564f71bbd960586bdd7936133
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   53 06    3:           OBJECT IDENTIFIER
+             :             organizationalUnitName (2 5 4 11)
+   58 13    4:           PrintableString 'NIST'
+             :           }
+             :         }
+             :       }
+   64 17   13:     UTCTime '970807000000Z'
+   79 17   13:     UTCTime '970907000000Z'
+   94 30   34:     SEQUENCE {
+   96 30   32:       SEQUENCE {
+   98 02    1:         INTEGER 18
+  101 17   13:         UTCTime '970731000000Z'
+  116 30   12:         SEQUENCE {
+  118 30   10:           SEQUENCE {
+  120 06    3:             OBJECT IDENTIFIER cRLReason (2 5 29 21)
+  125 04    3:             OCTET STRING, encapsulates {
+  127 0A    1:                 ENUMERATED 1
+             :                 }
+             :             }
+             :           }
+             :         }
+             :       }
+  130 A0   14:     [0] {
+  132 30   12:       SEQUENCE {
+  134 30   10:         SEQUENCE {
+  136 06    3:           OBJECT IDENTIFIER cRLNumber (2 5 29 20)
+  141 04    3:           OCTET STRING, encapsulates {
+  143 02    1:               INTEGER 12
+             :               }
+             :           }
+             :         }
+             :       }
+             :     }
+  146 30    9:   SEQUENCE {
+  148 06    7:     OBJECT IDENTIFIER dsaWithSha1 (1 2 840 10040 4 3)
+             :     }
+  157 03   47:   BIT STRING 0 unused bits, encapsulates {
+  160 30   44:       SEQUENCE {
+  162 02   20:         INTEGER
+             :           22 4E 9F 43 BA 95 06 34 F2 BB 5E 65 DB A6
+             :           80 05 C0 3A 29 47
+  184 02   20:         INTEGER
+             :           59 1A 57 C9 82 D7 02 21 14 C3 D4 0B 32 1B
+             :           96 16 B1 1F 46 5A
+             :         }
+             :       }
+             :   }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

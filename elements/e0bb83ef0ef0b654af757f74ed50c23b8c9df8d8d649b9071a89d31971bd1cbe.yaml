@@ -1,0 +1,16 @@
+"hash": |-
+  e0bb83ef0ef0b654af757f74ed50c23b8c9df8d8d649b9071a89d31971bd1cbe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server then sends a Confirmable response, the client's
+     Acknowledgement to that response MUST also be an Empty message (one
+     that carries neither a request nor a response).  The server MUST stop
+     retransmitting its response on any matching Acknowledgement (silently
+     ignoring any Response Code or payload) or Reset message.
+"fixed": |-
+  If the server then sends a Confirmable response, the client's Acknowledgement to that response MUST also be an Empty message (one that carries neither a request nor a response).  The server MUST stop retransmitting its response on any matching Acknowledgement (silently ignoring any Response Code or payload) or Reset message.
+"ko": |-
+  그런 다음 서버가 확인 가능 응답을 보내는 경우 해당 응답에 대한 클라이언트의 승인도 빈 메시지(요청이나 응답을 전달하지 않는 메시지)여야 합니다. 서버는 일치하는 승인(응답 코드 또는 페이로드를 자동으로 무시) 또는 재설정 메시지에 대한 응답 재전송을 중지해야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  007b2741b0377d04bf81c000a99bd283f7c885e913a16d8b791e152bc5be5767
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All ECDSA computations MUST be performed according to ANSI X9.62 [7]
+     or its successors.  Data to be signed/verified is hashed, and the
+     result run directly through the ECDSA algorithm with no additional
+     hashing.  The default hash function is SHA-1 [10], and sha_size (see
+     Sections 5.4 and 5.8) is 20.  However, an alternative hash function,
+     such as one of the new SHA hash functions specified in FIPS 180-2
+     [10], may be used instead if the certificate containing the EC public
+"fixed": |-
+  All ECDSA computations MUST be performed according to ANSI X9.62 [7] or its successors.  Data to be signed/verified is hashed, and the result run directly through the ECDSA algorithm with no additional hashing.  The default hash function is SHA-1 [10], and sha_size (see Sections 5.4 and 5.8) is 20.  However, an alternative hash function, such as one of the new SHA hash functions specified in FIPS 180-2 [10], may be used instead if the certificate containing the EC public
+"ko": |-
+  모든 ECDSA 계산은 ANSI X9.62 [7] 또는 그 후속 버전에 따라 수행되어야 합니다. 서명/검증할 데이터는 해시되며 결과는 추가 해싱 없이 ECDSA 알고리즘을 통해 직접 실행됩니다. 기본 해시 함수는 SHA-1[10]이고 sha_size(섹션 5.4 및 5.8 참조)는 20입니다. 그러나 FIPS 180-2[10]에 지정된 새로운 SHA 해시 함수 중 하나와 같은 대체 해시 함수는 EC 공개를 포함하는 인증서인 경우 대신 사용할 수 있습니다.

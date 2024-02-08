@@ -1,0 +1,17 @@
+"hash": |-
+  51ff1fdc359f82fb583035733de02a32f0a50629d2dee05540c431dce95381a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the protocol used to retrieve certificates or certificate chains
+     returns a MIME-formatted response (as HTTP does), then the following
+     MIME Content-Types SHALL be used: when a single X.509v3 certificate
+     is returned, the Content-Type is "application/pkix-cert" [PKIOP], and
+     when a chain of X.509v3 certificates is returned, the Content-Type is
+     "application/pkix-pkipath" (see Section 8).
+"fixed": |-
+  If the protocol used to retrieve certificates or certificate chains returns a MIME-formatted response (as HTTP does), then the following MIME Content-Types SHALL be used: when a single X.509v3 certificate is returned, the Content-Type is "application/pkix-cert" [PKIOP], and when a chain of X.509v3 certificates is returned, the Content-Type is "application/pkix-pkipath" (see Section 8).
+"ko": |-
+  인증서 또는 인증서 체인을 검색하는 데 사용되는 프로토콜이 MIME 형식의 응답(HTTP와 마찬가지로)을 반환하는 경우 다음 MIME 콘텐츠 유형을 사용해야 합니다. 단일 X.509v3 인증서가 반환되면 콘텐츠 유형은 "application"입니다. /pkix-cert" [PKIOP], X.509v3 인증서 체인이 반환되면 Content-Type은 "application/pkix-pkipath"입니다(섹션 8 참조).

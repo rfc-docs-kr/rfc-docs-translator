@@ -1,0 +1,17 @@
+"hash": |-
+  cfd4d80d1dbc6d00f522abdaef939e657cee5773643ad4d8fefb4da2a1de5a12
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the host name is discovered indirectly and in an insecure manner
+     (e.g., by an insecure DNS query for an MX or SRV record), it SHOULD
+     NOT be used as a reference identifier [RFC6125] even when it matches
+     the presented certificate.  This proviso does not apply if the host
+     name is discovered securely (for further discussion, see [DANE-SRV]
+     and [DANE-SMTP]).
+"fixed": |-
+  If the host name is discovered indirectly and in an insecure manner (e.g., by an insecure DNS query for an MX or SRV record), it SHOULD NOT be used as a reference identifier [RFC6125] even when it matches the presented certificate.  This proviso does not apply if the host name is discovered securely (for further discussion, see [DANE-SRV] and [DANE-SMTP]).
+"ko": |-
+  호스트 이름이 간접적이고 안전하지 않은 방식으로(예: MX 또는 SRV 레코드에 대한 안전하지 않은 DNS 쿼리를 통해) 발견된 경우 제시된 인증서와 일치하더라도 참조 식별자[RFC6125]로 사용해서는 안 됩니다. 호스트 이름이 안전하게 검색된 경우에는 이 조항이 적용되지 않습니다(자세한 내용은 [DANE-SRV] 및 [DANE-SMTP] 참조).

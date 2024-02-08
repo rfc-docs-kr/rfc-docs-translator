@@ -1,0 +1,21 @@
+"hash": |-
+  8437d99d687e771087fdc792bdf1e9b9c1565b8ca4fd2f62d5de7e0c40b725c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each tag must be treated as an independent identifier that may be
+     used in the policy to perform a policy action.  Each tag carried by
+     the Node Admin Tag TLV should be used to indicate a characteristic of
+     a node that is independent of the characteristics indicated by other
+     administrative tags.  The administrative-tag list within the TLV MUST
+     be considered an unordered list.  While policies may be implemented
+     based on the presence of multiple tags (e.g., if tag A AND tag B are
+     present), they MUST NOT be reliant upon the order of the tags (i.e.,
+     all policies should be considered commutative operations, such that
+     tag A preceding or following tag B does not change their outcome).
+"fixed": |-
+  Each tag must be treated as an independent identifier that may be used in the policy to perform a policy action.  Each tag carried by the Node Admin Tag TLV should be used to indicate a characteristic of a node that is independent of the characteristics indicated by other administrative tags.  The administrative-tag list within the TLV MUST be considered an unordered list.  While policies may be implemented based on the presence of multiple tags (e.g., if tag A AND tag B are present), they MUST NOT be reliant upon the order of the tags (i.e., all policies should be considered commutative operations, such that tag A preceding or following tag B does not change their outcome).
+"ko": |-
+  각 태그는 정책 작업을 수행하기 위해 정책에서 사용될 수 있는 독립적인 식별자로 처리되어야 합니다. 노드 관리 태그 TLV가 전달하는 각 태그는 다른 관리 태그가 나타내는 특성과 독립적인 노드의 특성을 나타내는 데 사용되어야 합니다. TLV 내의 관리 태그 목록은 순서가 지정되지 않은 목록으로 간주되어야 합니다. 정책은 여러 태그의 존재를 기반으로 구현될 수 있지만(예: 태그 A와 태그 B가 있는 경우) 태그의 순서에 의존해서는 안 됩니다(즉, 모든 정책은 태그와 같은 교환 작업으로 간주되어야 합니다). 이전 또는 다음 태그 B는 결과를 변경하지 않습니다.

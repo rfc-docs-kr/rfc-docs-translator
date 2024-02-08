@@ -1,0 +1,18 @@
+"hash": |-
+  efc1b9cc9baff086f88161aeb8b9ca0961660287551cc7562a947a3775b65966
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ETag:  The request MAY include one or more ETag Options, identifying
+        responses that the client has stored.  This requests the proxy to
+        send a 2.03 (Valid) response whenever it would send a 2.05
+        (Content) response with an entity-tag in the requested set
+        otherwise.  Note that CoAP ETags are always strong ETags in the
+        HTTP sense; CoAP does not have the equivalent of HTTP weak ETags,
+        and there is no good way to make use of these in a cross-proxy.
+"fixed": |-
+  ETag:  The request MAY include one or more ETag Options, identifying responses that the client has stored.  This requests the proxy to send a 2.03 (Valid) response whenever it would send a 2.05 (Content) response with an entity-tag in the requested set otherwise.  Note that CoAP ETags are always strong ETags in the HTTP sense; CoAP does not have the equivalent of HTTP weak ETags, and there is no good way to make use of these in a cross-proxy.
+"ko": |-
+  ETag: 요청에는 클라이언트가 저장한 응답을 식별하는 하나 이상의 ETag 옵션이 포함될 수 있습니다. 이는 프록시가 요청된 세트의 엔터티 태그와 함께 2.05(콘텐츠) 응답을 보낼 때마다 2.03(유효) 응답을 보내도록 요청합니다. CoAP ETag는 HTTP 측면에서 항상 강력한 ETag입니다. CoAP에는 HTTP 약한 ETag와 동등한 기능이 없으며 크로스 프록시에서 이를 활용할 수 있는 좋은 방법이 없습니다.

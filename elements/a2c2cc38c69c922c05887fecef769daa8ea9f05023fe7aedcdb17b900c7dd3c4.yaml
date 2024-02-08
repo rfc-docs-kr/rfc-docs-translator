@@ -1,0 +1,17 @@
+"hash": |-
+  a2c2cc38c69c922c05887fecef769daa8ea9f05023fe7aedcdb17b900c7dd3c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The If-Modified-Since request-header field is used with the DESCRIBE
+     and SETUP methods to make them conditional.  If the requested variant
+     has not been modified since the time specified in this field, a
+     description will not be returned from the server (DESCRIBE) or a
+     stream will not be set up (SETUP).  Instead, a 304 (Not Modified)
+     response MUST be returned without any message body.
+"fixed": |-
+  The If-Modified-Since request-header field is used with the DESCRIBE and SETUP methods to make them conditional.  If the requested variant has not been modified since the time specified in this field, a description will not be returned from the server (DESCRIBE) or a stream will not be set up (SETUP).  Instead, a 304 (Not Modified) response MUST be returned without any message body.
+"ko": |-
+  If-Modified-Since 요청 헤더 필드는 DESCRIBE 및 SETUP 메소드와 함께 사용되어 조건부로 만듭니다. 이 필드에 지정된 시간 이후 요청된 변형이 수정되지 않은 경우 서버에서 설명이 반환되지 않거나(DESCRIBE) 스트림이 설정되지 않습니다(SETUP). 대신 304(수정되지 않음) 응답은 메시지 본문 없이 반환되어야 합니다.

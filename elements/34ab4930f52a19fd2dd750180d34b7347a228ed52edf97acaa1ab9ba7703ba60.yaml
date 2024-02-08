@@ -1,0 +1,17 @@
+"hash": |-
+  34ab4930f52a19fd2dd750180d34b7347a228ed52edf97acaa1ab9ba7703ba60
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            CertificateStatusType status_type;
+            select (status_type) {
+                case ocsp: OCSPResponse;
+            } response;
+        } CertificateStatus;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

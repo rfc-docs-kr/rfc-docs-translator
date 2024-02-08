@@ -1,0 +1,20 @@
+"hash": |-
+  6cc8809fbfb2dd1d019410f62fe6a7cfaac62a08df0d75fc599f0af90c43a352
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         Calculation of LFA paths may require significant resources of the
+         router.  One execution of Dijkstra's algorithm is required for
+         each neighbor eligible to become the next hop of repair paths.
+         Thus, a router with a few hundred neighbors may need to execute
+         the algorithm hundreds of times before the best (or even valid)
+         repair path is found.  Manually excluding from the calculation
+         neighbors that are known to provide no valid LFA (such as single-
+         connected routers) may significantly reduce the number of
+         Dijkstra algorithm runs.
+"fixed": |-
+  - Calculation of LFA paths may require significant resources of the router.  One execution of Dijkstra's algorithm is required for each neighbor eligible to become the next hop of repair paths. Thus, a router with a few hundred neighbors may need to execute the algorithm hundreds of times before the best (or even valid) repair path is found.  Manually excluding from the calculation neighbors that are known to provide no valid LFA (such as single- connected routers) may significantly reduce the number of Dijkstra algorithm runs.
+"ko": |-
+  - LFA 경로를 계산하려면 상당한 라우터 리소스가 필요할 수 있습니다. 수리 경로의 다음 홉이 될 수 있는 각 이웃에 대해 Dijkstra 알고리즘을 한 번 실행해야 합니다. 따라서 수백 개의 이웃이 있는 라우터는 최상의(또는 유효한) 복구 경로를 찾기 전에 알고리즘을 수백 번 실행해야 할 수도 있습니다. 유효한 LFA를 제공하지 않는 것으로 알려진 이웃(예: 단일 연결 라우터)을 계산에서 수동으로 제외하면 Dijkstra 알고리즘 실행 횟수가 크게 줄어들 수 있습니다.

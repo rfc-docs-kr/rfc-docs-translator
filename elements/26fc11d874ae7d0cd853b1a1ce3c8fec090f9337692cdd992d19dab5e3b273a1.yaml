@@ -11,7 +11,7 @@
      passed in the HTTP response.  We note that compression of the HTTP
      message body is much more prevalent than compression at the TLS
      level.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The TIME attack [TIME] and the later BREACH attack [BREACH] (CVE- 2013-3587, though the number has not been officially allocated) both make similar use of HTTP-level compression to decrypt secret data passed in the HTTP response.  We note that compression of the HTTP message body is much more prevalent than compression at the TLS level.
+"ko": |-
+  TIME 공격 [TIME]과 이후의 BREACH 공격 [BREACH](CVE-2013-3587, 번호가 공식적으로 할당되지는 않았지만)는 모두 HTTP 수준 압축을 유사하게 사용하여 HTTP 응답에 전달된 비밀 데이터를 해독합니다. HTTP 메시지 본문의 압축은 TLS 수준의 압축보다 훨씬 더 널리 퍼져 있습니다.

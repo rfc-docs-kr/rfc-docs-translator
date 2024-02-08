@@ -1,0 +1,15 @@
+"hash": |-
+  9d524dcc833b906212c276be507e1f74648209a9ca7d98d64788f7336d9ecbc7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The keyCertSign bit is asserted when the subject public key is
+        used for verifying a signature on public key certificates.  If the
+        keyCertSign bit is asserted, then the cA bit in the basic
+        constraints extension (section 4.2.1.10) MUST also be asserted.
+"fixed": |-
+  - The keyCertSign bit is asserted when the subject public key is used for verifying a signature on public key certificates.  If the keyCertSign bit is asserted, then the cA bit in the basic constraints extension (section 4.2.1.10) MUST also be asserted.
+"ko": |-
+  - 주체 공개 키가 공개 키 인증서의 서명을 확인하는 데 사용될 때 keyCertSign 비트가 어설션됩니다. keyCertSign 비트가 주장되면 기본 제약 확장(섹션 4.2.1.10)의 cA 비트도 주장되어야 합니다.

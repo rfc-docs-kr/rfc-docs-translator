@@ -1,0 +1,22 @@
+"hash": |-
+  6429f4abd70713bc95f6c041515e933bb8d023c2a4af4b46f3e86bb319457a3b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  X520OrganizationName ::= CHOICE {
+        teletexString     TeletexString
+                            (SIZE (1..ub-organization-name)),
+        printableString   PrintableString
+                            (SIZE (1..ub-organization-name)),
+        universalString   UniversalString
+                            (SIZE (1..ub-organization-name)),
+        utf8String        UTF8String
+                            (SIZE (1..ub-organization-name)),
+        bmpString         BMPString
+                            (SIZE (1..ub-organization-name))  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

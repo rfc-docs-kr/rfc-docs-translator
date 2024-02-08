@@ -1,0 +1,14 @@
+"hash": |-
+  6d59c24f3d877bb0a839188f52e6fd12dc24189078087e1e63a9a38cba9dc318
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     N = ceil(L/HashLen)
+     T = T(1) | T(2) | T(3) | ... | T(N)
+     OKM = first L octets of T
+"fixed": |-
+  N = ceil(L/HashLen) T = T(1) | T(2) | T(3) | ... | T(N) OKM = first L octets of T
+"ko": |-
+  N = ceil(L/HashLen) T = T(1) | 티(2) | 티(3) | ... | T(N) OKM = T의 첫 번째 L 옥텟

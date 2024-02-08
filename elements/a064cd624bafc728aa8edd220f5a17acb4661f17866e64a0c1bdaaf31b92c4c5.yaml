@@ -1,0 +1,18 @@
+"hash": |-
+  a064cd624bafc728aa8edd220f5a17acb4661f17866e64a0c1bdaaf31b92c4c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Location Headers and Spoofing:  If a single server supports multiple
+           organizations that do not trust each another, then it MUST
+           check the values of the Content-Location header fields in
+           responses that are generated under control of said
+           organizations to make sure that they do not attempt to
+           invalidate resources over which they have no authority (see
+           Section 15.4 of [RFC2616]).
+"fixed": |-
+  Location Headers and Spoofing:  If a single server supports multiple organizations that do not trust each another, then it MUST check the values of the Content-Location header fields in responses that are generated under control of said organizations to make sure that they do not attempt to invalidate resources over which they have no authority (see Section 15.4 of [RFC2616]).
+"ko": |-
+  위치 헤더 및 스푸핑: 단일 서버가 서로를 신뢰하지 않는 여러 조직을 지원하는 경우 해당 조직의 제어 하에 생성된 응답에서 Content-Location 헤더 필드의 값을 확인하여 해당 조직이 신뢰하지 않는지 확인해야 합니다. 권한이 없는 리소스를 무효화합니다([RFC2616]의 섹션 15.4 참조).

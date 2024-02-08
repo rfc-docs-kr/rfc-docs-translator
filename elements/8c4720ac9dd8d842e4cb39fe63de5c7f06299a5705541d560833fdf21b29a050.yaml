@@ -1,0 +1,22 @@
+"hash": |-
+  8c4720ac9dd8d842e4cb39fe63de5c7f06299a5705541d560833fdf21b29a050
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CoAP also supports the use of multicast IP addresses in requests, an
+     important requirement for M2M.  Multicast CoAP requests may be the
+     source of accidental or deliberate DoS attacks, especially over
+     constrained networks.  This specification attempts to reduce the
+     amplification effects of multicast requests by limiting when a
+     response is returned.  To limit the possibility of malicious use,
+     CoAP servers SHOULD NOT accept multicast requests that can not be
+     authenticated in some way, cryptographically or by some multicast
+     boundary limiting the potential sources.  If possible, a CoAP server
+     SHOULD limit the support for multicast requests to the specific
+     resources where the feature is required.
+"fixed": |-
+  CoAP also supports the use of multicast IP addresses in requests, an important requirement for M2M.  Multicast CoAP requests may be the source of accidental or deliberate DoS attacks, especially over constrained networks.  This specification attempts to reduce the amplification effects of multicast requests by limiting when a response is returned.  To limit the possibility of malicious use, CoAP servers SHOULD NOT accept multicast requests that can not be authenticated in some way, cryptographically or by some multicast boundary limiting the potential sources.  If possible, a CoAP server SHOULD limit the support for multicast requests to the specific resources where the feature is required.
+"ko": |-
+  CoAP는 요청 시 M2M의 중요한 요구 사항인 멀티캐스트 IP 주소 사용도 지원합니다. 멀티캐스트 CoAP 요청은 특히 제한된 네트워크에서 우발적이거나 고의적인 DoS 공격의 원인이 될 수 있습니다. 이 사양은 응답이 반환되는 시기를 제한하여 멀티캐스트 요청의 증폭 효과를 줄이려고 시도합니다. 악의적인 사용 가능성을 제한하기 위해 CoAP 서버는 암호화 방식이나 잠재적 소스를 제한하는 일부 멀티캐스트 경계로 인증할 수 없는 멀티캐스트 요청을 수락해서는 안 됩니다. 가능하다면 CoAP 서버는 멀티캐스트 요청 지원을 기능이 필요한 특정 리소스로 제한해야 합니다.

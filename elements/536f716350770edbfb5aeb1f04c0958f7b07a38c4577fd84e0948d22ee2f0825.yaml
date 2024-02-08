@@ -1,0 +1,19 @@
+"hash": |-
+  536f716350770edbfb5aeb1f04c0958f7b07a38c4577fd84e0948d22ee2f0825
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note: in order to provide semantically transparent caching, an
+        origin server MUST avoid reusing a specific strong message body
+        tag value for two different entities or reusing a specific weak
+        message body tag value for two semantically different entities.
+        Cache entries might persist for arbitrarily long periods,
+        regardless of expiration times, so it might be inappropriate to
+        expect that a cache will never again attempt to validate an entry
+        using a validator that it obtained at some point in the past.
+"fixed": |-
+  - Note: in order to provide semantically transparent caching, an origin server MUST avoid reusing a specific strong message body tag value for two different entities or reusing a specific weak message body tag value for two semantically different entities. Cache entries might persist for arbitrarily long periods, regardless of expiration times, so it might be inappropriate to expect that a cache will never again attempt to validate an entry using a validator that it obtained at some point in the past.
+"ko": |-
+  - 참고: 의미상 투명한 캐싱을 제공하기 위해 원서버는 두 개의 서로 다른 엔터티에 대해 특정 강력한 메시지 본문 태그 값을 재사용하거나 의미상으로 서로 다른 두 엔터티에 대해 특정 약한 메시지 본문 태그 값을 재사용하는 것을 피해야 합니다. 캐시 항목은 만료 시간에 관계없이 임의로 오랜 기간 동안 지속될 수 있으므로 캐시가 과거 어느 시점에 얻은 유효성 검사기를 사용하여 다시는 항목의 유효성을 검사하지 않을 것이라고 기대하는 것은 부적절할 수 있습니다.

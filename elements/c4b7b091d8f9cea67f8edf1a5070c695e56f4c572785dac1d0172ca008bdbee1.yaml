@@ -11,7 +11,7 @@
        different certificates are to be used, there should be some other
        mechanism that the server can use to cross-check the data and
        control connection client identities.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - However, it is strongly recommended that the certificate used for client authentication of Data connections be the same certificate as that used for the corresponding Control connection.  If different certificates are to be used, there should be some other mechanism that the server can use to cross-check the data and control connection client identities.
+"ko": |-
+  - 단, 데이터 연결의 클라이언트 인증에 사용되는 인증서는 해당 제어 연결에 사용되는 인증서와 동일한 인증서를 사용하는 것이 좋습니다. 다른 인증서를 사용하려면 서버가 데이터를 교차 확인하고 연결 클라이언트 ID를 제어하는 ​​데 사용할 수 있는 다른 메커니즘이 있어야 합니다.

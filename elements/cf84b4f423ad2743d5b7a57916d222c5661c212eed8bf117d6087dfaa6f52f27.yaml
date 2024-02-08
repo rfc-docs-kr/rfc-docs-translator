@@ -10,7 +10,7 @@
      unprotected, clear communications.  It MAY be acceptable to use
      cached TLS sessions for subsequent connections, however, a server
      MUST NOT mandate this.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  When this command is processed by the server, the TLS session(s) MUST be cleared and the control and data connections revert to unprotected, clear communications.  It MAY be acceptable to use cached TLS sessions for subsequent connections, however, a server MUST NOT mandate this.
+"ko": |-
+  이 명령이 서버에 의해 처리되면 TLS 세션이 지워져야 하며 제어 및 데이터 연결이 보호되지 않은 명확한 통신으로 되돌아갑니다. 후속 연결에 대해 캐시된 TLS 세션을 사용하는 것이 허용될 수 있지만 서버는 이를 의무화해서는 안 됩니다.

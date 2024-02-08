@@ -1,0 +1,16 @@
+"hash": |-
+  2f658923fda8a6e12bfaf76bf6dfc19ac0d71573ec8d55ba3183494a61d86e55
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Before activating a GRE tunnel and periodically thereafter, the GRE
+     ingress node MUST verify the tunnel's ability to carry a 1280-octet
+     IPv6 payload packet from ingress to egress, without fragmenting the
+     payload.  Having executed those procedures, the GRE ingress node MUST
+     activate or deactivate the tunnel accordingly.
+"fixed": |-
+  Before activating a GRE tunnel and periodically thereafter, the GRE ingress node MUST verify the tunnel's ability to carry a 1280-octet IPv6 payload packet from ingress to egress, without fragmenting the payload.  Having executed those procedures, the GRE ingress node MUST activate or deactivate the tunnel accordingly.
+"ko": |-
+  GRE 터널을 활성화하기 전과 이후 주기적으로 GRE 수신 노드는 페이로드를 조각화하지 않고 수신에서 송신까지 1280옥텟 IPv6 페이로드 패킷을 전달할 수 있는 터널의 능력을 확인해야 합니다. 이러한 절차를 실행한 후 GRE 수신 노드는 이에 따라 터널을 활성화하거나 비활성화해야 합니다.

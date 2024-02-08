@@ -1,0 +1,15 @@
+"hash": |-
+  cd474e8d080654f033b70ea00a089c6f9f781bf7c8b17d0c0f4eaf72e24cc133
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The GRE ingress node SHOULD set the Checksum Present field in the GRE
+     header to zero.  However, implementations MAY support a configuration
+     option that causes the GRE ingress node to set the Checksum Present
+     field to one.
+"fixed": |-
+  The GRE ingress node SHOULD set the Checksum Present field in the GRE header to zero.  However, implementations MAY support a configuration option that causes the GRE ingress node to set the Checksum Present field to one.
+"ko": |-
+  GRE 수신 노드는 GRE 헤더의 Checksum Present 필드를 0으로 설정해야 합니다. 그러나 구현은 GRE 수신 노드가 Checksum Present 필드를 1로 설정하도록 하는 구성 옵션을 지원할 수 있습니다.

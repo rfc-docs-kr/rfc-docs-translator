@@ -1,0 +1,16 @@
+"hash": |-
+  e497bbc8543cadab3deebcfe86b788311ca0a81d9eda5364aeccaf8d294187e2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipath-abempty   =  *( "/" isegment )
+     ipath-absolute  =  "/" [ isegment-nz *( "/" isegment ) ]
+     ipath-noscheme  =  isegment-nz-nc *( "/" isegment )
+     ipath-rootless  =  isegment-nz *( "/" isegment )
+     ipath-empty     =  0<ipchar>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

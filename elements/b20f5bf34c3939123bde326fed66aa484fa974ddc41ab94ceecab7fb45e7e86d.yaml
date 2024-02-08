@@ -1,0 +1,26 @@
+"hash": |-
+  b20f5bf34c3939123bde326fed66aa484fa974ddc41ab94ceecab7fb45e7e86d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Another reason for giving up retransmission MAY be the receipt of
+     ICMP errors.  If it is desired to take account of ICMP errors, to
+     mitigate potential spoofing attacks, implementations SHOULD take care
+     to check the information about the original datagram in the ICMP
+     message, including port numbers and CoAP header information such as
+     message type and code, Message ID, and Token; if this is not possible
+     due to limitations of the UDP service API, ICMP errors SHOULD be
+     ignored.  Packet Too Big errors [RFC4443] ("fragmentation needed and
+     DF set" for IPv4 [RFC0792]) cannot properly occur and SHOULD be
+     ignored if the implementation note in Section 4.6 is followed;
+     otherwise, they SHOULD feed into a path MTU discovery algorithm
+     [RFC4821].  Source Quench and Time Exceeded ICMP messages SHOULD be
+     ignored.  Host, network, port, or protocol unreachable errors or
+     parameter problem errors MAY, after appropriate vetting, be used to
+     inform the application of a failure in sending.
+"fixed": |-
+  Another reason for giving up retransmission MAY be the receipt of ICMP errors.  If it is desired to take account of ICMP errors, to mitigate potential spoofing attacks, implementations SHOULD take care to check the information about the original datagram in the ICMP message, including port numbers and CoAP header information such as message type and code, Message ID, and Token; if this is not possible due to limitations of the UDP service API, ICMP errors SHOULD be ignored.  Packet Too Big errors [RFC4443] ("fragmentation needed and DF set" for IPv4 [RFC0792]) cannot properly occur and SHOULD be ignored if the implementation note in Section 4.6 is followed; otherwise, they SHOULD feed into a path MTU discovery algorithm [RFC4821].  Source Quench and Time Exceeded ICMP messages SHOULD be ignored.  Host, network, port, or protocol unreachable errors or parameter problem errors MAY, after appropriate vetting, be used to inform the application of a failure in sending.
+"ko": |-
+  재전송을 포기하는 또 다른 이유는 ICMP 오류 수신일 수 있습니다. ICMP 오류를 고려하여 잠재적인 스푸핑 공격을 완화하려는 경우 구현에서는 메시지 유형 및 코드, 메시지 ID와 같은 포트 번호 및 CoAP 헤더 정보를 포함하여 ICMP 메시지의 원본 데이터그램에 대한 정보를 확인하도록 주의해야 합니다(SHOULD). 및 토큰; UDP 서비스 API의 제한으로 인해 이것이 가능하지 않은 경우 ICMP 오류는 무시되어야 합니다. 패킷이 너무 큼 오류[RFC4443](IPv4에 대한 "조각화 필요 및 DF 세트"[RFC0792])는 제대로 발생할 수 없으며 섹션 4.6의 구현 참고 사항을 따르는 경우 무시해야 합니다. 그렇지 않으면 경로 MTU 검색 알고리즘 [RFC4821]에 입력해야 합니다. Source Quench 및 Time Exceeded ICMP 메시지는 무시되어야 합니다. 호스트, 네트워크, 포트 또는 프로토콜에 도달할 수 없는 오류 또는 매개변수 문제 오류는 적절한 조사 후에 애플리케이션에 전송 실패를 알리는 데 사용될 수 있습니다.

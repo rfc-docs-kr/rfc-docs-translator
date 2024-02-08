@@ -1,0 +1,20 @@
+"hash": |-
+  71af0a1fcb9de11d0e0cec000e37018c8c3c5f5c4784a75c03418d0eed784d76
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     transport parameters.  TEARDOWN depends on both the Request-URI and
+     the number of media streams within the session.  If the Request-URI
+     is the presentation URI, the whole session is torn down.  If a media
+     URI is used in the TEARDOWN request and more than one media exists in
+     the session, the session will remain and a session header is returned
+     in the response.  If only a single media stream remains in the
+     session when performing a TEARDOWN with a media URI, the session is
+     removed.  The number of media streams remaining after tearing down a
+     media stream determines the new state.
+"fixed": |-
+  transport parameters.  TEARDOWN depends on both the Request-URI and the number of media streams within the session.  If the Request-URI is the presentation URI, the whole session is torn down.  If a media URI is used in the TEARDOWN request and more than one media exists in the session, the session will remain and a session header is returned in the response.  If only a single media stream remains in the session when performing a TEARDOWN with a media URI, the session is removed.  The number of media streams remaining after tearing down a media stream determines the new state.
+"ko": |-
+  전송 매개변수. TEARDOWN은 요청-URI와 세션 내의 미디어 스트림 수에 따라 달라집니다. Request-URI가 프레젠테이션 URI인 경우 전체 세션이 해제됩니다. TEARDOWN 요청에 미디어 URI가 사용되고 세션에 둘 이상의 미디어가 있는 경우 세션은 유지되고 세션 헤더가 응답으로 반환됩니다. 미디어 URI로 TEARDOWN을 수행할 때 세션에 단일 미디어 스트림만 남아 있으면 세션이 제거됩니다. 미디어 스트림을 해체한 후 남은 미디어 스트림 수에 따라 새 상태가 결정됩니다.

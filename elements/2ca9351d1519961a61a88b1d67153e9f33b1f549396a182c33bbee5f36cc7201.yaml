@@ -1,0 +1,22 @@
+"hash": |-
+  2ca9351d1519961a61a88b1d67153e9f33b1f549396a182c33bbee5f36cc7201
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         DESCRIPTION
+                "A reference to MIB definitions specific to the
+                 particular routing protocol that is responsible for
+                 this route, as determined by the value specified in the
+                 route's ipForwardProto value.  If this information is
+                 not present, its value should be set to the OBJECT
+                 IDENTIFIER { 0 0 }, which is a syntactically valid
+                 object identifier, and any implementation conforming to
+                 ASN.1 and the Basic Encoding Rules must be able to
+                 generate and recognize this value."
+         ::= { ipForwardEntry 9 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

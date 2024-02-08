@@ -1,0 +1,16 @@
+"hash": |-
+  b660f5948c24c5e5ec051600665a2550cfcd792380958f6c79a9540872f19fc7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If none of the message body tags match, then the server MAY perform
+     the requested method as if the If-None-Match header field did not
+     exist, but MUST also ignore any If-Modified-Since header field(s) in
+     the request.  That is, if no message body tags match, then the server
+     MUST NOT return a 304 (Not Modified) response.
+"fixed": |-
+  If none of the message body tags match, then the server MAY perform the requested method as if the If-None-Match header field did not exist, but MUST also ignore any If-Modified-Since header field(s) in the request.  That is, if no message body tags match, then the server MUST NOT return a 304 (Not Modified) response.
+"ko": |-
+  일치하는 메시지 본문 태그가 없으면 서버는 If-None-Match 헤더 필드가 존재하지 않는 것처럼 요청된 방법을 수행할 수 있지만 요청의 If-Modified-Since 헤더 필드도 무시해야 합니다. 즉, 일치하는 메시지 본문 태그가 없으면 서버는 304(수정되지 않음) 응답을 반환해서는 안 됩니다.

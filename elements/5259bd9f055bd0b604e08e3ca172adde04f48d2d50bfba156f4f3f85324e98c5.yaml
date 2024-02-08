@@ -1,0 +1,16 @@
+"hash": |-
+  5259bd9f055bd0b604e08e3ca172adde04f48d2d50bfba156f4f3f85324e98c5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     utc-range        =  "clock" [EQUAL utc-range-spec]
+     utc-range-spec   =  ( utc-time "-" [ utc-time ] ) / ( "-" utc-time )
+     utc-time         =  utc-date "T" utc-clock "Z"
+     utc-date         =  8DIGIT
+     utc-clock        =  6DIGIT [ "." 1*9DIGIT ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  7bd60c725a0c9b9f2a20a7255d02fd9e293951fdd9b17db4f4d31745ea209c5b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (c)  If the certificate is revoked for a reason outside the scope
+        of the CRL, but the certificate was listed on the referenced base
+        CRL or any subsequent CRL with a reason code included in the scope
+        of this CRL, list the certificate as revoked but omit the reason
+        code.
+"fixed": |-
+  - (c)  If the certificate is revoked for a reason outside the scope of the CRL, but the certificate was listed on the referenced base CRL or any subsequent CRL with a reason code included in the scope of this CRL, list the certificate as revoked but omit the reason code.
+"ko": |-
+  - (c) CRL 범위를 벗어난 이유로 인증서가 폐기되었지만 인증서가 참조된 기본 CRL 또는 이 CRL 범위에 포함된 이유 코드와 함께 후속 CRL에 나열되어 있는 경우 인증서를 폐기된 것으로 나열합니다. 그러나 이유 코드를 생략합니다.

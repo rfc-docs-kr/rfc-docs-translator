@@ -1,0 +1,22 @@
+"hash": |-
+  efbde79c3b583ee704e47c17aeaf6d349b6caf68076b3d0cf0183013835eb77a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Conforming CAs are not required to issue CRLs if other revocation or
+     certificate status mechanisms are provided.  When CRLs are issued,
+     the CRLs MUST be version 2 CRLs, include the date by which the next
+     CRL will be issued in the nextUpdate field (section 5.1.2.5), include
+     the CRL number extension (section 5.2.3), and include the authority
+     key identifier extension (section 5.2.1).  Conforming applications
+     that support CRLs are REQUIRED to process both version 1 and version
+     2 complete CRLs that provide revocation information for all
+     certificates issued by one CA.  Conforming applications are NOT
+     REQUIRED to support processing of delta CRLs, indirect CRLs, or CRLs
+     with a scope other than all certificates issued by one CA.
+"fixed": |-
+  Conforming CAs are not required to issue CRLs if other revocation or certificate status mechanisms are provided.  When CRLs are issued, the CRLs MUST be version 2 CRLs, include the date by which the next CRL will be issued in the nextUpdate field (section 5.1.2.5), include the CRL number extension (section 5.2.3), and include the authority key identifier extension (section 5.2.1).  Conforming applications that support CRLs are REQUIRED to process both version 1 and version 2 complete CRLs that provide revocation information for all certificates issued by one CA.  Conforming applications are NOT REQUIRED to support processing of delta CRLs, indirect CRLs, or CRLs with a scope other than all certificates issued by one CA.
+"ko": |-
+  다른 해지 또는 인증서 상태 메커니즘이 제공되는 경우 준수 CA는 CRL을 발급할 필요가 없습니다. CRL이 발행되면 CRL은 버전 2 CRL이어야 하며 nextUpdate 필드(섹션 5.1.2.5)에 다음 CRL이 발행될 날짜를 포함하고 CRL 번호 확장(섹션 5.2.3)을 포함하며 다음을 포함해야 합니다. 기관 키 식별자 확장(섹션 5.2.1). CRL을 지원하는 애플리케이션을 준수하려면 하나의 CA에서 발급한 모든 인증서에 대한 해지 정보를 제공하는 버전 1 및 버전 2 전체 CRL을 모두 처리해야 합니다. 델타 CRL, 간접 CRL 또는 하나의 CA에서 발급한 모든 인증서 이외의 범위를 가진 CRL의 처리를 지원하기 위해 적합한 응용 프로그램이 필요하지 않습니다.

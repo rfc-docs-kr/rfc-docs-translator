@@ -11,7 +11,7 @@
            than or equal to 576, SHOULD be either configurable or
            indefinite, and SHOULD be greater than or equal to the MTU of
            the connected network(s).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - We designate the largest datagram size that can be reassembled by EMTU_R ("Effective MTU to receive"); this is sometimes called the "reassembly buffer size".  EMTU_R MUST be greater than or equal to 576, SHOULD be either configurable or indefinite, and SHOULD be greater than or equal to the MTU of the connected network(s).
+"ko": |-
+  - EMTU_R("수신할 유효 MTU")에 의해 재조립될 수 있는 가장 큰 데이터그램 크기를 지정합니다. 이를 "재조립 버퍼 크기"라고도 합니다. EMTU_R은 576보다 크거나 같아야 하고, 구성 가능하거나 무한해야 하며, 연결된 네트워크의 MTU보다 크거나 같아야 합니다.

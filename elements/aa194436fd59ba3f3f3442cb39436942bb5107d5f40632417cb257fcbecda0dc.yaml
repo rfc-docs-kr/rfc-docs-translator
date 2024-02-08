@@ -1,0 +1,22 @@
+"hash": |-
+  aa194436fd59ba3f3f3442cb39436942bb5107d5f40632417cb257fcbecda0dc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client may keep the session alive indefinitely if allowed by the
+     server; however, a client is advised to release the session context
+     when an extended period of time without media delivery activity has
+     passed.  The client can re-establish the session context if required
+     later.  What constitutes an extended period of time is dependent on
+     the client, server, and their usage.  It is recommended that the
+     client terminate the session before ten times the session timeout
+     value has passed.  A server may terminate the session after one
+     session timeout period without any client activity beyond keep-alive.
+     When a server terminates the session context, it does so by sending a
+     TEARDOWN request indicating the reason.
+"fixed": |-
+  A client may keep the session alive indefinitely if allowed by the server; however, a client is advised to release the session context when an extended period of time without media delivery activity has passed.  The client can re-establish the session context if required later.  What constitutes an extended period of time is dependent on the client, server, and their usage.  It is recommended that the client terminate the session before ten times the session timeout value has passed.  A server may terminate the session after one session timeout period without any client activity beyond keep-alive. When a server terminates the session context, it does so by sending a TEARDOWN request indicating the reason.
+"ko": |-
+  클라이언트는 서버에서 허용하는 경우 세션을 무기한으로 유지할 수 있습니다. 그러나 클라이언트는 미디어 전달 활동이 없는 오랜 시간이 지나면 세션 컨텍스트를 해제하는 것이 좋습니다. 클라이언트는 나중에 필요한 경우 세션 컨텍스트를 다시 설정할 수 있습니다. 연장된 기간을 구성하는 기간은 클라이언트, 서버 및 사용법에 따라 다릅니다. 세션 제한 시간 값이 10회 경과하기 전에 클라이언트가 세션을 종료하는 것이 좋습니다. 서버는 연결 유지 이상의 클라이언트 활동 없이 한 세션 시간 초과 기간 후에 세션을 종료할 수 있습니다. 서버가 세션 컨텍스트를 종료할 때 이유를 나타내는 TEARDOWN 요청을 전송하여 종료합니다.

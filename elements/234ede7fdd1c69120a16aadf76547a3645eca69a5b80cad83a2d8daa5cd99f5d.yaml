@@ -1,0 +1,20 @@
+"hash": |-
+  234ede7fdd1c69120a16aadf76547a3645eca69a5b80cad83a2d8daa5cd99f5d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since the MAC algorithm only takes effect after all handshake
+     messages that affect extension parameters have been authenticated by
+     the hashes in the Finished messages, it is not possible for an active
+     attacker to force negotiation of the truncated HMAC extension where
+     it would not otherwise be used (to the extent that the handshake
+     authentication is secure).  Therefore, in the event that any security
+     problem were found with truncated HMAC in the future, if either the
+     client or the server for a given session were updated to take the
+     problem into account, it would be able to veto use of this extension.
+"fixed": |-
+  Since the MAC algorithm only takes effect after all handshake messages that affect extension parameters have been authenticated by the hashes in the Finished messages, it is not possible for an active attacker to force negotiation of the truncated HMAC extension where it would not otherwise be used (to the extent that the handshake authentication is secure).  Therefore, in the event that any security problem were found with truncated HMAC in the future, if either the client or the server for a given session were updated to take the problem into account, it would be able to veto use of this extension.
+"ko": |-
+  MAC 알고리즘은 확장 매개변수에 영향을 미치는 모든 핸드셰이크 메시지가 완료 메시지의 해시에 의해 인증된 후에만 적용되므로 활성 공격자가 달리 사용되지 않는 잘린 HMAC 확장에 대한 협상을 강제하는 것은 불가능합니다( 핸드셰이크 인증이 안전한 경우). 따라서 나중에 잘린 HMAC에서 보안 문제가 발견되는 경우 특정 세션의 클라이언트 또는 서버가 문제를 고려하도록 업데이트되면 이 확장의 사용을 거부할 수 있습니다.

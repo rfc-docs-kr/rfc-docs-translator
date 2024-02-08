@@ -1,0 +1,28 @@
+"hash": |-
+  faeeceebf1605cce121f27b6b463800b180d10aec8664f6604b4ab9744df48f4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For RTSP sessions with media that lacks random access properties,
+     such as live streams, any media-clock jump is commonly the result of
+     a correspondingly long pause of delivery.  The RTP timestamp will
+     have increased in direct proportion to the duration of the paused
+     delivery.  Note also that in this case the RTP sequence number should
+     be the next packet number.  If not, the RTCP packet loss reporting
+     will indicate as loss all packets not received between the point of
+     pausing and later resuming.  This may trigger congestion avoidance
+     mechanisms.  An allowed exception from the above recommendation on
+     monotonically increasing RTP sequence number is live media streams,
+     likely being relayed.  In this case, when the client resumes
+     delivery, it will get the media that is currently being delivered to
+     the server itself.  For this type of basic delivery of live streams
+     to multiple users over unicast, individual rewriting of RTP sequence
+     numbers becomes quite a burden.  For solutions that already cache
+     media or perform time shifting, the rewriting should impose only a
+     minor burden.
+"fixed": |-
+  For RTSP sessions with media that lacks random access properties, such as live streams, any media-clock jump is commonly the result of a correspondingly long pause of delivery.  The RTP timestamp will have increased in direct proportion to the duration of the paused delivery.  Note also that in this case the RTP sequence number should be the next packet number.  If not, the RTCP packet loss reporting will indicate as loss all packets not received between the point of pausing and later resuming.  This may trigger congestion avoidance mechanisms.  An allowed exception from the above recommendation on monotonically increasing RTP sequence number is live media streams, likely being relayed.  In this case, when the client resumes delivery, it will get the media that is currently being delivered to the server itself.  For this type of basic delivery of live streams to multiple users over unicast, individual rewriting of RTP sequence numbers becomes quite a burden.  For solutions that already cache media or perform time shifting, the rewriting should impose only a minor burden.
+"ko": |-
+  라이브 스트림과 같이 임의 액세스 속성이 없는 미디어를 사용하는 RTSP 세션의 경우 미디어 클럭 점프는 일반적으로 이에 상응하는 긴 전달 일시 중지로 인해 발생합니다. RTP 타임스탬프는 일시 중지된 전달 기간에 정비례하여 증가합니다. 또한 이 경우 RTP 시퀀스 번호는 다음 패킷 번호여야 합니다. 그렇지 않은 경우 RTCP 패킷 손실 보고는 일시 중지 시점과 나중에 재개하는 시점 사이에 수신되지 않은 모든 패킷을 손실로 표시합니다. 이로 인해 혼잡 회피 메커니즘이 트리거될 수 있습니다. 단조롭게 증가하는 RTP 시퀀스 번호에 대한 위 권장 사항에서 허용되는 예외는 실시간 미디어 스트림이며 중계될 가능성이 있습니다. 이 경우 클라이언트가 전달을 재개하면 현재 서버 자체에 전달되고 있는 미디어를 가져옵니다. 유니캐스트를 통해 여러 사용자에게 라이브 스트림을 기본적으로 전달하는 이러한 유형의 경우 RTP 시퀀스 번호를 개별적으로 다시 작성하는 것은 상당한 부담이 됩니다. 이미 미디어를 캐시하거나 타임 시프팅을 수행하는 솔루션의 경우 재작성으로 인한 부담은 미미합니다.

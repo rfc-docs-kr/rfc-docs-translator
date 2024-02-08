@@ -1,0 +1,19 @@
+"hash": |-
+  ab6845cfd2129c37078396c9c78b324df8604be77fe4855e6b143cd94c084215
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The ssrc parameter MUST NOT be specified in requests.  The
+           functionality of specifying the ssrc parameter in a SETUP
+           request is deprecated as it is incompatible with the
+           specification of RTP [RFC3550].  If the parameter is included
+           in the Transport header of a SETUP request, the server SHOULD
+           ignore it, and choose appropriate SSRCs for the stream.  The
+           server SHOULD set the ssrc parameter in the Transport header of
+           the response.
+"fixed": |-
+  - The ssrc parameter MUST NOT be specified in requests.  The functionality of specifying the ssrc parameter in a SETUP request is deprecated as it is incompatible with the specification of RTP [RFC3550].  If the parameter is included in the Transport header of a SETUP request, the server SHOULD ignore it, and choose appropriate SSRCs for the stream.  The server SHOULD set the ssrc parameter in the Transport header of the response.
+"ko": |-
+  - ssrc 매개변수는 요청에 지정되어서는 안 됩니다. SETUP 요청에서 ssrc 매개변수를 지정하는 기능은 RTP [RFC3550] 사양과 호환되지 않으므로 더 이상 사용되지 않습니다. 매개변수가 SETUP 요청의 전송 헤더에 포함된 경우 서버는 이를 무시하고 스트림에 적합한 SSRC를 선택해야 합니다. 서버는 응답의 전송 헤더에 ssrc 매개변수를 설정해야 합니다.

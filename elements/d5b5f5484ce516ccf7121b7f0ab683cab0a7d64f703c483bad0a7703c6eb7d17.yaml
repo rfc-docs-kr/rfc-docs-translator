@@ -1,0 +1,21 @@
+"hash": |-
+  d5b5f5484ce516ccf7121b7f0ab683cab0a7d64f703c483bad0a7703c6eb7d17
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardNextHopAS OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-create
+         STATUS     obsolete
+         DESCRIPTION
+                "The Autonomous System Number of the Next Hop.  When
+                 this is unknown or not relevant to the protocol
+                 indicated by ipForwardProto, zero."
+         DEFVAL { 0 }
+         ::= { ipForwardEntry 10 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

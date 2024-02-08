@@ -1,0 +1,21 @@
+"hash": |-
+  8a179ef1612fd18455838cf719cf10ad092e39317e786af823025f56cfdb1cd8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server replies with the actual start point that will be
+     delivered.  This may differ from the requested range if alignment of
+     the requested range to valid frame boundaries is required for the
+     media source.  Note that some media streams in an aggregate may need
+     to be delivered from even earlier points.  Also, some media formats
+     have a very long duration per individual data unit; therefore, it
+     might be necessary for the client to parse the data unit, and select
+     where to start.  The server SHALL also indicate which policy it uses
+     for selecting the actual start point by including a Seek-Style
+     header.
+"fixed": |-
+  The server replies with the actual start point that will be delivered.  This may differ from the requested range if alignment of the requested range to valid frame boundaries is required for the media source.  Note that some media streams in an aggregate may need to be delivered from even earlier points.  Also, some media formats have a very long duration per individual data unit; therefore, it might be necessary for the client to parse the data unit, and select where to start.  The server SHALL also indicate which policy it uses for selecting the actual start point by including a Seek-Style header.
+"ko": |-
+  서버는 전달될 실제 시작점으로 응답합니다. 미디어 소스에 대해 요청된 범위를 유효한 프레임 경계에 맞춰 정렬해야 하는 경우 요청된 범위와 다를 수 있습니다. 일부 미디어 스트림은 전체적으로 더 이른 지점에서 전달되어야 할 수도 있습니다. 또한 일부 미디어 형식은 개별 데이터 단위당 지속 시간이 매우 깁니다. 따라서 클라이언트가 데이터 단위를 구문 분석하고 시작할 위치를 선택해야 할 수도 있습니다. 서버는 또한 Seek-Style 헤더를 포함하여 실제 시작점을 선택하는 데 사용하는 정책을 표시해야 합니다.

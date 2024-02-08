@@ -1,0 +1,19 @@
+"hash": |-
+  bc812ad82330c3ac9548f7439a002e4ef3065ee268942d6d598028a0f616cecb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon receipt of a non-interleaved RTP/AVP/TCP SETUP request, if a
+     server decides to accept this requested option, the 2xx reply MUST
+     contain a Transport option that specifies RTP/AVP/TCP (without using
+     the interleaved parameter and using the unicast parameter).  The
+     "dest_addr" parameter value MUST be echoed from the parameter value
+     in the client request unless the destination address (only port) was
+     not provided; in which case, the server MAY include the source
+     address of the RTSP TCP connection with the port number unchanged.
+"fixed": |-
+  Upon receipt of a non-interleaved RTP/AVP/TCP SETUP request, if a server decides to accept this requested option, the 2xx reply MUST contain a Transport option that specifies RTP/AVP/TCP (without using the interleaved parameter and using the unicast parameter).  The "dest_addr" parameter value MUST be echoed from the parameter value in the client request unless the destination address (only port) was not provided; in which case, the server MAY include the source address of the RTSP TCP connection with the port number unchanged.
+"ko": |-
+  인터리브되지 않은 RTP/AVP/TCP SETUP 요청을 수신한 경우 서버가 이 요청된 옵션을 수락하기로 결정한 경우 2xx 응답에는 RTP/AVP/TCP를 지정하는 전송 옵션이 포함되어야 합니다(인터리브 매개변수 및 유니캐스트 사용 없음). 매개변수). "dest_addr" 매개변수 값은 대상 주소(포트만)가 제공되지 않는 한 클라이언트 요청의 매개변수 값에서 에코되어야 합니다. 이 경우 서버는 포트 번호가 변경되지 않은 RTSP TCP 연결의 소스 주소를 포함할 수 있습니다.

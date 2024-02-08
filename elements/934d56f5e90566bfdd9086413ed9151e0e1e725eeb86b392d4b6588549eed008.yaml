@@ -1,0 +1,16 @@
+"hash": |-
+  934d56f5e90566bfdd9086413ed9151e0e1e725eeb86b392d4b6588549eed008
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: When a Confirmable message is retransmitted, a new DTLS
+     sequence_number is used for each attempt, even though the CoAP
+     Message ID stays the same.  So a recipient still has to perform
+     deduplication as described in Section 4.5.  Retransmissions MUST NOT
+     be performed across epochs.
+"fixed": |-
+  Note: When a Confirmable message is retransmitted, a new DTLS sequence_number is used for each attempt, even though the CoAP Message ID stays the same.  So a recipient still has to perform deduplication as described in Section 4.5.  Retransmissions MUST NOT be performed across epochs.
+"ko": |-
+  참고: 확인 가능 메시지가 재전송되면 CoAP 메시지 ID가 동일하게 유지되더라도 각 시도마다 새로운 DTLS 시퀀스_번호가 사용됩니다. 따라서 수신자는 여전히 섹션 4.5에 설명된 대로 중복 제거를 수행해야 합니다. 재전송은 여러 시대에 걸쳐 수행되어서는 안 됩니다.

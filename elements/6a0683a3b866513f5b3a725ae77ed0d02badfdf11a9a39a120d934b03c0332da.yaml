@@ -1,0 +1,18 @@
+"hash": |-
+  6a0683a3b866513f5b3a725ae77ed0d02badfdf11a9a39a120d934b03c0332da
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This is particularly a problem in nodes that enable NoSec access, are
+     accessible from an attacker, and can access potential victims (e.g.,
+     on the general Internet), as the UDP protocol provides no way to
+     verify the source address given in the request packet.  An attacker
+     need only place the IP address of the victim in the source address of
+     a suitable request packet to generate a larger packet directed at the
+     victim.
+"fixed": |-
+  This is particularly a problem in nodes that enable NoSec access, are accessible from an attacker, and can access potential victims (e.g., on the general Internet), as the UDP protocol provides no way to verify the source address given in the request packet.  An attacker need only place the IP address of the victim in the source address of a suitable request packet to generate a larger packet directed at the victim.
+"ko": |-
+  UDP 프로토콜은 요청 패킷에 제공된 소스 주소를 확인할 수 있는 방법을 제공하지 않기 때문에 NoSec 액세스를 활성화하고 공격자로부터 액세스 가능하며 잠재적인 피해자(예: 일반 인터넷)에 액세스할 수 있는 노드에서 특히 문제가 됩니다. 공격자는 피해자를 향한 더 큰 패킷을 생성하기 위해 피해자의 IP 주소를 적절한 요청 패킷의 소스 주소에 배치하기만 하면 됩니다.

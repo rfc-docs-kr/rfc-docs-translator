@@ -1,0 +1,16 @@
+"hash": |-
+  5c0c5ad656e891024e8d37f16cc24f095234a8eee50d036af874dd2cdebcc324
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To avoid an implosion of error responses, when a server is aware that
+     a request arrived via multicast, it MUST NOT return a Reset message
+     in reply to a Non-confirmable message.  If it is not aware, it MAY
+     return a Reset message in reply to a Non-confirmable message as
+     usual.  Because such a Reset message will look identical to one for a
+"fixed": |-
+  To avoid an implosion of error responses, when a server is aware that a request arrived via multicast, it MUST NOT return a Reset message in reply to a Non-confirmable message.  If it is not aware, it MAY return a Reset message in reply to a Non-confirmable message as usual.  Because such a Reset message will look identical to one for a
+"ko": |-
+  오류 응답의 파열을 피하기 위해 서버는 요청이 멀티캐스트를 통해 도착했음을 인식할 때 확인 불가능 메시지에 대한 응답으로 재설정 메시지를 반환해서는 안 됩니다. 인식하지 못하는 경우 평소와 같이 확인 불가능 메시지에 대한 응답으로 재설정 메시지를 반환할 수 있습니다. 이러한 재설정 메시지는 다음과 동일하게 보입니다.

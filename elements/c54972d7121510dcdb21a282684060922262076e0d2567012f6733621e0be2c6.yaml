@@ -1,0 +1,23 @@
+"hash": |-
+  c54972d7121510dcdb21a282684060922262076e0d2567012f6733621e0be2c6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardMetric3 OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-create
+         STATUS     obsolete
+         DESCRIPTION
+                "An alternate routing metric for this route.  The
+                 semantics of this metric are determined by the routing-
+                 protocol specified in the route's ipForwardProto value.
+                 If this metric is not used, its value should be set to
+                 -1."
+         DEFVAL { -1 }
+         ::= { ipForwardEntry 13 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

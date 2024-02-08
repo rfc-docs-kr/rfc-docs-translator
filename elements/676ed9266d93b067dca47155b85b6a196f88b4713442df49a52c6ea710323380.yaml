@@ -1,0 +1,19 @@
+"hash": |-
+  676ed9266d93b067dca47155b85b6a196f88b4713442df49a52c6ea710323380
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The MTag response-header MAY be included in DESCRIBE, GET_PARAMETER,
+     or SETUP responses.  The message body tags (Section 4.6) returned in
+     a DESCRIBE response and the one in SETUP refer to the presentation,
+     i.e., both the returned session description and the media stream.
+     This allows for verification that one has the right session
+     description to a media resource at the time of the SETUP request.
+     However, it has the disadvantage that a change in any of the parts
+     results in invalidation of all the parts.
+"fixed": |-
+  The MTag response-header MAY be included in DESCRIBE, GET_PARAMETER, or SETUP responses.  The message body tags (Section 4.6) returned in a DESCRIBE response and the one in SETUP refer to the presentation, i.e., both the returned session description and the media stream. This allows for verification that one has the right session description to a media resource at the time of the SETUP request. However, it has the disadvantage that a change in any of the parts results in invalidation of all the parts.
+"ko": |-
+  MTag 응답 헤더는 DESCRIBE, GET_PARAMETER 또는 SETUP 응답에 포함될 수 있습니다. DESCRIBE 응답으로 반환된 메시지 본문 태그(섹션 4.6)와 SETUP의 태그는 프레젠테이션, 즉 반환된 세션 설명과 미디어 스트림을 모두 참조합니다. 이를 통해 SETUP 요청 시 미디어 리소스에 대한 올바른 세션 설명이 있는지 확인할 수 있습니다. 다만, 어느 한 부분을 변경하면 모든 부분이 무효가 된다는 단점이 있습니다.

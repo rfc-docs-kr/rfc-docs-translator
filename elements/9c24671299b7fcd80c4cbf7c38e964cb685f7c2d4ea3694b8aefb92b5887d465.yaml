@@ -1,0 +1,17 @@
+"hash": |-
+  9c24671299b7fcd80c4cbf7c38e964cb685f7c2d4ea3694b8aefb92b5887d465
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The RTCP/UDP packets from the client to the server MUST be sent to
+        the address and port given by the second address specification of
+        the "src_addr" parameter, unless RTP and RTCP multiplexing has
+        been negotiated, in which case RTCP MUST be sent to the first
+        address specification.  If no second pair is specified and RTP and
+        RTCP multiplexing has not been negotiated, RTCP MUST NOT be sent.
+"fixed": |-
+  -  The RTCP/UDP packets from the client to the server MUST be sent to the address and port given by the second address specification of the "src_addr" parameter, unless RTP and RTCP multiplexing has been negotiated, in which case RTCP MUST be sent to the first address specification.  If no second pair is specified and RTP and RTCP multiplexing has not been negotiated, RTCP MUST NOT be sent.
+"ko": |-
+  - 클라이언트에서 서버로의 RTCP/UDP 패킷은 "src_addr" 매개변수의 두 번째 주소 사양에 의해 지정된 주소와 포트로 전송되어야 합니다. 단, RTP와 RTCP 멀티플렉싱이 협상되지 않은 경우 RTCP는 반드시 다음으로 전송되어야 합니다. 첫 번째 주소 지정. 두 번째 쌍이 지정되지 않고 RTP 및 RTCP 다중화가 협상되지 않은 경우 RTCP는 전송되어서는 안 됩니다.

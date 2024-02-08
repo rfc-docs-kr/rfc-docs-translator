@@ -1,0 +1,16 @@
+"hash": |-
+  ebc2b238532f1c36ebdf9e0031c2fc8a36c1c63b63e41d385520733e1f0b6022
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  OSPFv2 uses Opaque LSA [RFC5250] type 10, and OSPFv3 uses the
+        Intra-Area-TE-LSA.  In both OSPF cases, two top-level TLVs are
+        used (Router Address and Link TLVs), and these use sub-TLVs to
+        carry the TE parameters (as defined in [RFC7471] for OSPFv2 and
+        [RFC5329] for OSPFv3).
+"fixed": |-
+  *  OSPFv2 uses Opaque LSA [RFC5250] type 10, and OSPFv3 uses the Intra-Area-TE-LSA.  In both OSPF cases, two top-level TLVs are used (Router Address and Link TLVs), and these use sub-TLVs to carry the TE parameters (as defined in [RFC7471] for OSPFv2 and [RFC5329] for OSPFv3).
+"ko": |-
+  * OSPFv2는 Opaque LSA [RFC5250] 유형 10을 사용하고, OSPFv3은 Intra-Area-TE-LSA를 사용합니다. 두 OSPF 경우 모두 두 개의 최상위 TLV(라우터 주소 및 링크 TLV)가 사용되며, 이들은 하위 TLV를 사용하여 TE 매개변수(OSPFv2의 경우 [RFC7471] 및 OSPFv3의 경우 [RFC5329]에 정의됨)를 전달합니다.

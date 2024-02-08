@@ -1,0 +1,16 @@
+"hash": |-
+  f145204c1ecff84ee70590a1dbd5a300e643dfd9661c7671136bb9d1e381ce1b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There is no way for RTSP to guarantee that all such cache entries are
+     marked invalid.  For example, the request that caused the change at
+     the origin server might not have gone through the proxy where a cache
+     entry is stored.  However, several rules help reduce the likelihood
+     of erroneous behavior.
+"fixed": |-
+  There is no way for RTSP to guarantee that all such cache entries are marked invalid.  For example, the request that caused the change at the origin server might not have gone through the proxy where a cache entry is stored.  However, several rules help reduce the likelihood of erroneous behavior.
+"ko": |-
+  RTSP에서는 이러한 모든 캐시 항목이 유효하지 않은 것으로 표시되도록 보장할 수 있는 방법이 없습니다. 예를 들어 원본 서버에서 변경을 야기한 요청이 캐시 항목이 저장된 프록시를 통과하지 않았을 수 있습니다. 그러나 몇 가지 규칙은 잘못된 동작의 가능성을 줄이는 데 도움이 됩니다.

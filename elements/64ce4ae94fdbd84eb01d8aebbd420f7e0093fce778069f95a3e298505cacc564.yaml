@@ -1,0 +1,23 @@
+"hash": |-
+  64ce4ae94fdbd84eb01d8aebbd420f7e0093fce778069f95a3e298505cacc564
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     header is present in the PLAY request, the server SHALL play from
+     current pause point until the end of media.  The pause point defaults
+     at session start to the beginning of the media.  For media that is
+     time-progressing and has no retention, the pause point will always be
+     set equal to NPT "now", i.e., the current delivery point.  The pause
+     point may also be set to a particular point in the media by the PAUSE
+     method; see Section 13.6.  The pause point for media that is
+     currently playing is equal to the current media position.  For time-
+     progressing media with time-limited retention, if the pause point
+     represents a position that is older than what is retained by the
+     server, the pause point will be moved to the oldest retained
+     position.
+"fixed": |-
+  header is present in the PLAY request, the server SHALL play from current pause point until the end of media.  The pause point defaults at session start to the beginning of the media.  For media that is time-progressing and has no retention, the pause point will always be set equal to NPT "now", i.e., the current delivery point.  The pause point may also be set to a particular point in the media by the PAUSE method; see Section 13.6.  The pause point for media that is currently playing is equal to the current media position.  For time- progressing media with time-limited retention, if the pause point represents a position that is older than what is retained by the server, the pause point will be moved to the oldest retained position.
+"ko": |-
+  헤더가 PLAY 요청에 있으면 서버는 현재 일시 중지 지점부터 미디어 끝까지 재생해야 합니다. 일시 중지 지점은 세션 시작 시 미디어 시작 부분으로 기본 설정됩니다. 시간이 지남에 따라 보존되지 않는 미디어의 경우 일시 중지 지점은 항상 NPT "현재", 즉 현재 전달 지점과 동일하게 설정됩니다. 일시 중지 지점은 PAUSE 메서드를 통해 미디어의 특정 지점으로 설정될 수도 있습니다. 섹션 13.6을 참조하세요. 현재 재생 중인 미디어의 일시 중지 지점은 현재 미디어 위치와 같습니다. 시간 제한 보존 기능이 있는 시간 진행 미디어의 경우 일시 중지 지점이 서버에서 유지한 것보다 오래된 위치를 나타내는 경우 일시 중지 지점은 가장 오래 유지된 위치로 이동됩니다.

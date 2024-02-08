@@ -1,0 +1,18 @@
+"hash": |-
+  5dd53035835efab595697d9eb29817ddba6a8be2d7678efcb2c0bb3449b63d71
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     gaps in the RTP timeline for the media.  If the media has frame
+     structure, aligning the timestamp for the next frame with the
+     previous structure reduces the burden to render this media.  The gap
+     should represent the time the server hasn't been serving media, e.g.,
+     the time between the end of the media stream or a PAUSE request and
+     the new PLAY request.  In these cases, the RTP sequence number would
+     normally be monotonically increasing across the gap.
+"fixed": |-
+  gaps in the RTP timeline for the media.  If the media has frame structure, aligning the timestamp for the next frame with the previous structure reduces the burden to render this media.  The gap should represent the time the server hasn't been serving media, e.g., the time between the end of the media stream or a PAUSE request and the new PLAY request.  In these cases, the RTP sequence number would normally be monotonically increasing across the gap.
+"ko": |-
+  미디어의 RTP 타임라인에 공백이 있습니다. 미디어에 프레임 구조가 있는 경우 다음 프레임의 타임스탬프를 이전 구조와 정렬하면 이 미디어를 렌더링하는 부담이 줄어듭니다. 간격은 서버가 미디어를 제공하지 않은 시간(예: 미디어 스트림 끝 또는 PAUSE 요청과 새 PLAY 요청 사이의 시간)을 나타내야 합니다. 이러한 경우 RTP 시퀀스 번호는 일반적으로 간격에 따라 단조롭게 증가합니다.

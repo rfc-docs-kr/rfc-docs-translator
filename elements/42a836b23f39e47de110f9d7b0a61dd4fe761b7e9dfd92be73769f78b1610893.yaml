@@ -1,0 +1,17 @@
+"hash": |-
+  42a836b23f39e47de110f9d7b0a61dd4fe761b7e9dfd92be73769f78b1610893
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4.   The client forms the MIKEY Initiator message using RSA-R mode in
+          unicast mode as specified in [RFC4738].  The client SHOULD use
+          the same certificate for TLS and MIKEY to enable the server to
+          bind the two together.  The client's certificate SHALL be
+          included in the MIKEY message.  The client SHALL indicate its
+          SRTP capabilities in the message.
+"fixed": |-
+  1.   The client forms the MIKEY Initiator message using RSA-R mode in unicast mode as specified in [RFC4738].  The client SHOULD use the same certificate for TLS and MIKEY to enable the server to bind the two together.  The client's certificate SHALL be included in the MIKEY message.  The client SHALL indicate its SRTP capabilities in the message.
+"ko": |-
+  1. 클라이언트는 [RFC4738]에 지정된 대로 유니캐스트 모드에서 RSA-R 모드를 사용하여 MIKEY 개시자 메시지를 구성합니다. 클라이언트는 TLS와 MIKEY에 대해 동일한 인증서를 사용하여 서버가 두 가지를 함께 바인딩할 수 있도록 해야 합니다. 클라이언트의 인증서는 MIKEY 메시지에 포함되어야 합니다. 클라이언트는 메시지에 SRTP 기능을 표시해야 합니다.

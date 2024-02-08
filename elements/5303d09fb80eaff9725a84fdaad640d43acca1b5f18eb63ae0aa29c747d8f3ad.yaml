@@ -1,0 +1,27 @@
+"hash": |-
+  5303d09fb80eaff9725a84fdaad640d43acca1b5f18eb63ae0aa29c747d8f3ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS through Proxies:  If one uses the possibility to connect TLS in
+           multiple legs (Section 19.3), one really needs to be aware of
+           the trust model.  This procedure requires trust in all proxies
+           part of the path to the server.  The proxies one connects
+           through are identified, assuming the proxies so far connected
+           through are well behaved and fulfilling the trust.  The
+           accepted proxies are men in the middle and have access to all
+           that goes on over the TLS connection.  Thus, it is important to
+           consider if that trust model is acceptable in the actual
+           application.  Further discussion of the actual trust model is
+           in Section 19.3.  It is important to note what difference in
+           security properties, if any, may exist with the used media-
+           transport protocol and its security mechanism.  Using SRTP and
+           the MIKEY-based key-establishment defined in Appendix C.1.4.1
+           enables media key-establishment to be done end-to-end without
+           revealing the keys to the proxies.
+"fixed": |-
+  TLS through Proxies:  If one uses the possibility to connect TLS in multiple legs (Section 19.3), one really needs to be aware of the trust model.  This procedure requires trust in all proxies part of the path to the server.  The proxies one connects through are identified, assuming the proxies so far connected through are well behaved and fulfilling the trust.  The accepted proxies are men in the middle and have access to all that goes on over the TLS connection.  Thus, it is important to consider if that trust model is acceptable in the actual application.  Further discussion of the actual trust model is in Section 19.3.  It is important to note what difference in security properties, if any, may exist with the used media- transport protocol and its security mechanism.  Using SRTP and the MIKEY-based key-establishment defined in Appendix C.1.4.1 enables media key-establishment to be done end-to-end without revealing the keys to the proxies.
+"ko": |-
+  프록시를 통한 TLS: 다중 다리에서 TLS를 연결하는 가능성(섹션 19.3)을 사용하는 경우 실제로 신뢰 모델을 알고 있어야 합니다. 이 절차를 수행하려면 서버 경로의 모든 프록시 부분에 대한 신뢰가 필요합니다. 지금까지 연결된 프록시가 올바르게 작동하고 신뢰를 충족한다고 가정하여 연결하는 프록시가 식별됩니다. 허용되는 프록시는 중간에 있는 사람이며 TLS 연결을 통해 진행되는 모든 작업에 액세스할 수 있습니다. 따라서 해당 신뢰 모델이 실제 애플리케이션에서 수용 가능한지 고려하는 것이 중요합니다. 실제 신뢰 모델에 대한 추가 논의는 섹션 19.3에 있습니다. 사용된 미디어 전송 프로토콜과 해당 보안 메커니즘에 보안 속성에 어떤 차이가 있는지 확인하는 것이 중요합니다. SRTP와 부록 C.1.4.1에 정의된 MIKEY 기반 키 설정을 사용하면 프록시에 키를 공개하지 않고도 미디어 키 설정을 엔드 투 엔드로 수행할 수 있습니다.

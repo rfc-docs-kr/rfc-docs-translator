@@ -1,0 +1,15 @@
+"hash": |-
+  18888eb4336dd370e2299dd4ff382e4cd98cff60a1fbc34aaf0bc2bfc5b8baef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the subjectAltName extension contains a DN in the directoryName,
+     the DN MUST be unique for each subject entity certified by the one CA
+     as defined by the issuer name field.  A CA MAY issue more than one
+     certificate with the same DN to the same subject entity.
+"fixed": |-
+  When the subjectAltName extension contains a DN in the directoryName, the DN MUST be unique for each subject entity certified by the one CA as defined by the issuer name field.  A CA MAY issue more than one certificate with the same DN to the same subject entity.
+"ko": |-
+  subjectAltName 확장이 DirectoryName에 DN을 포함하는 경우 DN은 발급자 이름 필드에 정의된 대로 하나의 CA에서 인증한 각 주체 엔터티에 대해 고유해야 합니다. CA는 동일한 주체 엔터티에 대해 동일한 DN을 가진 두 개 이상의 인증서를 발급할 수 있습니다.

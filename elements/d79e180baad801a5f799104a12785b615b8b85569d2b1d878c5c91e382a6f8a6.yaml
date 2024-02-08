@@ -1,0 +1,18 @@
+"hash": |-
+  d79e180baad801a5f799104a12785b615b8b85569d2b1d878c5c91e382a6f8a6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon receipt of the PLAY request, the server MUST position the normal
+     play time to the beginning of the range specified in the received
+     Range header, within the limits of the media resource and in
+     accordance with the Seek-Style header (Section 18.47).  It MUST
+     deliver stream data until the end of the range if given, until a new
+     PLAY request is received, until a PAUSE request (Section 13.5) is
+     received, or until the end of the media is reached.  If no Range
+"fixed": |-
+  Upon receipt of the PLAY request, the server MUST position the normal play time to the beginning of the range specified in the received Range header, within the limits of the media resource and in accordance with the Seek-Style header (Section 18.47).  It MUST deliver stream data until the end of the range if given, until a new PLAY request is received, until a PAUSE request (Section 13.5) is received, or until the end of the media is reached.  If no Range
+"ko": |-
+  PLAY 요청을 수신하면 서버는 미디어 리소스 제한 내에서 Seek-Style 헤더(18.47절)에 따라 수신된 Range 헤더에 지정된 범위의 시작 부분에 일반 재생 시간을 배치해야 합니다. 주어진 경우 범위 끝까지, 새로운 PLAY 요청이 수신될 때까지, PAUSE 요청(13.5절)이 수신될 때까지 또는 미디어 끝에 도달할 때까지 스트림 데이터를 전달해야 합니다. 범위가 없는 경우

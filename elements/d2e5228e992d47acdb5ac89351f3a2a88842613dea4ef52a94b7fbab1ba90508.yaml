@@ -1,0 +1,27 @@
+"hash": |-
+  d2e5228e992d47acdb5ac89351f3a2a88842613dea4ef52a94b7fbab1ba90508
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The subject field is defined as the X.501 type Name.  Implementation
+     requirements for this field are those defined for the issuer field
+     (Section 4.1.2.4).  Implementations of this specification MUST be
+     prepared to receive subject names containing the attribute types
+     required for the issuer field.  Implementations of this specification
+     SHOULD be prepared to receive subject names containing the
+     recommended attribute types for the issuer field.  The syntax and
+     associated object identifiers (OIDs) for these attribute types are
+     provided in the ASN.1 modules in Appendix A.  Implementations of this
+     specification MAY use the comparison rules in Section 7.1 to process
+     unfamiliar attribute types (i.e., for name chaining) whose attribute
+     values use one of the encoding options from DirectoryString.  Binary
+     comparison should be used when unfamiliar attribute types include
+     attribute values with encoding options other than those found in
+     DirectoryString.  This allows implementations to process certificates
+     with unfamiliar attributes in the subject name.
+"fixed": |-
+  The subject field is defined as the X.501 type Name.  Implementation requirements for this field are those defined for the issuer field (Section 4.1.2.4).  Implementations of this specification MUST be prepared to receive subject names containing the attribute types required for the issuer field.  Implementations of this specification SHOULD be prepared to receive subject names containing the recommended attribute types for the issuer field.  The syntax and associated object identifiers (OIDs) for these attribute types are provided in the ASN.1 modules in Appendix A.  Implementations of this specification MAY use the comparison rules in Section 7.1 to process unfamiliar attribute types (i.e., for name chaining) whose attribute values use one of the encoding options from DirectoryString.  Binary comparison should be used when unfamiliar attribute types include attribute values with encoding options other than those found in DirectoryString.  This allows implementations to process certificates with unfamiliar attributes in the subject name.
+"ko": |-
+  제목 필드는 X.501 유형 이름으로 정의됩니다. 이 필드에 대한 구현 요구 사항은 발급자 필드(섹션 4.1.2.4)에 대해 정의된 요구 사항입니다. 이 사양의 구현은 발급자 필드에 필요한 속성 유형이 포함된 주체 이름을 수신하도록 준비되어야 합니다(MUST). 이 사양의 구현은 발급자 필드에 권장되는 속성 유형이 포함된 주체 이름을 수신할 준비를 해야 합니다. 이러한 속성 유형에 대한 구문 및 관련 개체 식별자(OID)는 부록 A의 ASN.1 모듈에 제공됩니다. 이 사양의 구현은 섹션 7.1의 비교 규칙을 사용하여 익숙하지 않은 속성 유형(예: 이름 연결)을 처리할 수 있습니다. 속성 값은 DirectoryString의 인코딩 옵션 중 하나를 사용합니다. 익숙하지 않은 속성 유형에 DirectoryString에 있는 인코딩 옵션 이외의 인코딩 옵션이 있는 속성 값이 포함된 경우 이진 비교를 사용해야 합니다. 이를 통해 구현에서는 주체 이름에 익숙하지 않은 속성이 있는 인증서를 처리할 수 있습니다.

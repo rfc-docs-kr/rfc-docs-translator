@@ -1,0 +1,24 @@
+"hash": |-
+  f74f116a458dac79e9de1a4cc33c0f0f708fae98c6360714b13f46e192f5c044
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The link field is a special device used by the IMPs to limit certain
+     kinds of congestion.  They function as follows.  Between every pair of
+     HOSTs there are 32 logical full-duplex connections over which messages
+     may be passed in either direction.  The IMPs place the restriction on
+     these links that no HOST can send two successive messages over the
+     same link before the IMP at the destination has sent back a special
+     message called an RFNM (Request for Next Message).  This arrangement
+     limits the congestion one HOST can cause another if the sending HOST
+     is attempting to send too much over one link.  We note, however, that
+     since the IMP at the destination does not have enough capacity to
+     handle all 32 links simultaneously, the links serve their purpose only
+     if the overload is coming from one or two links.  It is necessary for
+     the HOSTs to cooperate in this respect.
+"fixed": |-
+  The link field is a special device used by the IMPs to limit certain kinds of congestion.  They function as follows.  Between every pair of HOSTs there are 32 logical full-duplex connections over which messages may be passed in either direction.  The IMPs place the restriction on these links that no HOST can send two successive messages over the same link before the IMP at the destination has sent back a special message called an RFNM (Request for Next Message).  This arrangement limits the congestion one HOST can cause another if the sending HOST is attempting to send too much over one link.  We note, however, that since the IMP at the destination does not have enough capacity to handle all 32 links simultaneously, the links serve their purpose only if the overload is coming from one or two links.  It is necessary for the HOSTs to cooperate in this respect.
+"ko": |-
+  링크 필드는 특정 종류의 혼잡을 제한하기 위해 IMP가 사용하는 특수 장치입니다. 그들은 다음과 같이 기능합니다. 모든 HOST 쌍 사이에는 메시지가 어느 방향으로든 전달될 수 있는 32개의 논리적 전이중 연결이 있습니다. IMP는 대상의 IMP가 RFNM(다음 메시지 요청)이라는 특수 메시지를 다시 보내기 전에 호스트가 동일한 링크를 통해 두 개의 연속 메시지를 보낼 수 없도록 이러한 링크에 제한을 둡니다. 이 배열은 송신 HOST가 하나의 링크를 통해 너무 많은 전송을 시도하는 경우 하나의 HOST가 다른 HOST로 인해 발생할 수 있는 정체를 제한합니다. 그러나 목적지의 IMP에는 32개의 링크를 모두 동시에 처리할 수 있는 충분한 용량이 없기 때문에 링크는 하나 또는 두 개의 링크에서 과부하가 발생하는 경우에만 해당 목적을 수행합니다. 이와 관련하여 HOST의 협력이 필요합니다.

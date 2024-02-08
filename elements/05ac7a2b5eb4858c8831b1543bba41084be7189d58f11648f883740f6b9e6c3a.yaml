@@ -1,0 +1,20 @@
+"hash": |-
+  05ac7a2b5eb4858c8831b1543bba41084be7189d58f11648f883740f6b9e6c3a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Terminate-Reason      =  "Terminate-Reason" HCOLON TR-Info
+     TR-Info              =  TR-Reason *(SEMI TR-Parameter)
+     TR-Reason            =  "Session-Timeout"
+                          /  "Server-Admin"
+                          /  "Internal-Error"
+                          /  token
+     TR-Parameter         =  TR-time / TR-user-msg / generic-param
+     TR-time              =  "time" EQUAL utc-time
+     TR-user-msg          =  "user-msg" EQUAL quoted-string
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

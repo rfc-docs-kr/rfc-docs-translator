@@ -1,0 +1,20 @@
+"hash": |-
+  556a60c19bd7947c56c329a57027385047d0d76125627ecb50a71ba8d2b5fc95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The reason for this is to avoid a head-of-line blocking situation.
+        In a sequence of requests, an early outstanding request may take
+        time to be processed at one destination.  Simultaneously, a
+        response from any other destination that was later in the sequence
+        of requests may have arrived at the proxy; thus, allowing out-of-
+        order responses avoids forcing the proxy to buffer this response
+        and instead deliver it as soon as possible.  Note, this will not
+        affect the order in which the messages sent to each separate
+        destination were processed at the request destination.
+"fixed": |-
+  - The reason for this is to avoid a head-of-line blocking situation. In a sequence of requests, an early outstanding request may take time to be processed at one destination.  Simultaneously, a response from any other destination that was later in the sequence of requests may have arrived at the proxy; thus, allowing out-of- order responses avoids forcing the proxy to buffer this response and instead deliver it as soon as possible.  Note, this will not affect the order in which the messages sent to each separate destination were processed at the request destination.
+"ko": |-
+  - 그 이유는 헤드 오브 라인 블로킹 상황을 피하기 위함입니다. 일련의 요청에서 초기 미해결 요청이 하나의 대상에서 처리되는 데 시간이 걸릴 수 있습니다. 동시에 요청 순서에서 나중에 나온 다른 대상의 응답이 프록시에 도착했을 수 있습니다. 따라서 순서가 잘못된 응답을 허용하면 프록시가 이 응답을 버퍼링하도록 강제하지 않고 대신 가능한 한 빨리 전달합니다. 이는 각 개별 대상으로 전송된 메시지가 요청 대상에서 처리되는 순서에 영향을 미치지 않습니다.

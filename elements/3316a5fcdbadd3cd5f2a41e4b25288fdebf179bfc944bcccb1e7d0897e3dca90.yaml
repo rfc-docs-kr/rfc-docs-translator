@@ -1,0 +1,18 @@
+"hash": |-
+  3316a5fcdbadd3cd5f2a41e4b25288fdebf179bfc944bcccb1e7d0897e3dca90
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TEARDOWN request MUST be made only on the session aggregate
+     control URI (i.e., it is not allowed to terminate individual media
+     streams, if it is a session aggregate), and it MUST include the
+     following headers: Session and Terminate-Reason.  The request only
+     applies to the session identified in the Session header.  The server
+     may include a message to the client's user with the "user-msg"
+     parameter.
+"fixed": |-
+  The TEARDOWN request MUST be made only on the session aggregate control URI (i.e., it is not allowed to terminate individual media streams, if it is a session aggregate), and it MUST include the following headers: Session and Terminate-Reason.  The request only applies to the session identified in the Session header.  The server may include a message to the client's user with the "user-msg" parameter.
+"ko": |-
+  TEARDOWN 요청은 세션 집계 제어 URI에서만 이루어져야 하며(즉, 세션 집계인 경우 개별 미디어 스트림을 종료하는 것이 허용되지 않음) Session 및 Terminate-Reason 헤더를 포함해야 합니다. 요청은 세션 헤더에서 식별된 세션에만 적용됩니다. 서버는 "user-msg" 매개변수를 사용하여 클라이언트 사용자에게 보내는 메시지를 포함할 수 있습니다.

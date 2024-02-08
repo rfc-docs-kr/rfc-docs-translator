@@ -1,0 +1,17 @@
+"hash": |-
+  d04805b7128981fb885222d8cebc89ead7909e25361ac7ce057402167ad3761e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If no Accept-Encoding field is present in a request, the server MAY
+     assume that the client will accept any content-coding.  In this case,
+     if "identity" is one of the available content-codings, then the
+     server SHOULD use the "identity" content-coding, unless it has
+     additional information that a different content-coding is meaningful
+     to the client.
+"fixed": |-
+  If no Accept-Encoding field is present in a request, the server MAY assume that the client will accept any content-coding.  In this case, if "identity" is one of the available content-codings, then the server SHOULD use the "identity" content-coding, unless it has additional information that a different content-coding is meaningful to the client.
+"ko": |-
+  요청에 Accept-Encoding 필드가 없으면 서버는 클라이언트가 모든 콘텐츠 코딩을 수락할 것이라고 가정할 수 있습니다. 이 경우 "ID"가 사용 가능한 콘텐츠 코딩 중 하나인 경우 서버는 다른 콘텐츠 코딩이 클라이언트에 의미가 있다는 추가 정보가 없는 한 "ID" 콘텐츠 코딩을 사용해야 합니다.

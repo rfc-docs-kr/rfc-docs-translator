@@ -1,0 +1,1 @@
+구현자는 at 기호('@') 및 밑줄('_') 문자가 ASN.1 유형 PrintableString에서 지원되지 않는다는 점에 유의해야 합니다. 이러한 문자는 인터넷 주소에 자주 나타납니다. 이러한 주소는 이를 지원하는 ASN.1 유형을 사용하여 인코딩되어야 합니다. 일반적으로 고유 이름 내의 emailAddress 속성 또는 GeneralName의 rfc822Name 필드에 IA5String으로 인코딩됩니다. 준수 구현은 at 기호 또는 밑줄 문자를 포함하는 문자열을 PrintableString으로 인코딩해서는 안 됩니다.

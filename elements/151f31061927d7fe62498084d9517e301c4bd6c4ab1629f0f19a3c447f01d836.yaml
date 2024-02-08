@@ -12,7 +12,7 @@
      that a SITE or quoted command might be needed by a server prior to
      the AUTH.  A client MUST allow a user to override the timing of these
      commands to suit a specific server.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Clients SHOULD be coded in such a manner as to allow the timing of the AUTH, PBSZ, and PROT commands to be flexible and dictated by the server.  It is quite reasonable for a server to refuse certain commands prior to these commands.  Similarly, it is quite possible that a SITE or quoted command might be needed by a server prior to the AUTH.  A client MUST allow a user to override the timing of these commands to suit a specific server.
+"ko": |-
+  클라이언트는 AUTH, PBSZ 및 PROT 명령의 타이밍이 유연하고 서버에 의해 지시되도록 허용하는 방식으로 코딩되어야 합니다. 서버가 이러한 명령 이전에 특정 명령을 거부하는 것은 상당히 합리적입니다. 마찬가지로, AUTH 이전에 서버에서 SITE 또는 인용된 명령이 필요할 수도 있습니다. 클라이언트는 사용자가 특정 서버에 맞게 이러한 명령의 타이밍을 재정의할 수 있도록 허용해야 합니다.

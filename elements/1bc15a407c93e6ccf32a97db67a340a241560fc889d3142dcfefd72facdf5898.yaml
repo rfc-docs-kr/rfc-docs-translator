@@ -1,0 +1,20 @@
+"hash": |-
+  1bc15a407c93e6ccf32a97db67a340a241560fc889d3142dcfefd72facdf5898
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The subject in the certificate would be built out of a long-term
+     unique identifier for the device such as the EUI-64 [EUI64].  The
+     subject could also be based on the Fully Qualified Domain Name (FQDN)
+     that was used as the Host part of the CoAP URI.  However, the
+     device's IP address should not typically be used as the subject, as
+     it would change over time.  The discovery process used in the system
+     would build up the mapping between IP addresses of the given devices
+     and the subject for each device.  Some devices could have more than
+     one subject and would need more than a single certificate.
+"fixed": |-
+  The subject in the certificate would be built out of a long-term unique identifier for the device such as the EUI-64 [EUI64].  The subject could also be based on the Fully Qualified Domain Name (FQDN) that was used as the Host part of the CoAP URI.  However, the device's IP address should not typically be used as the subject, as it would change over time.  The discovery process used in the system would build up the mapping between IP addresses of the given devices and the subject for each device.  Some devices could have more than one subject and would need more than a single certificate.
+"ko": |-
+  인증서의 제목은 EUI-64 [EUI64]와 같은 장치의 장기 고유 식별자로 구성됩니다. 제목은 CoAP URI의 호스트 부분으로 사용된 FQDN(정규화된 도메인 이름)을 기반으로 할 수도 있습니다. 그러나 장치의 IP 주소는 시간이 지남에 따라 변경되므로 일반적으로 제목으로 사용해서는 안 됩니다. 시스템에서 사용되는 검색 프로세스는 지정된 장치의 IP 주소와 각 장치의 주체 간의 매핑을 구축합니다. 일부 장치에는 둘 이상의 주제가 있을 수 있으며 단일 인증서 이상이 필요할 수 있습니다.

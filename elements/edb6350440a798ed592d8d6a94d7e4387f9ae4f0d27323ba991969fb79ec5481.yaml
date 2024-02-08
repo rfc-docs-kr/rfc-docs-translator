@@ -1,0 +1,17 @@
+"hash": |-
+  edb6350440a798ed592d8d6a94d7e4387f9ae4f0d27323ba991969fb79ec5481
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a certificate revocation notice first appears on a delta CRL, then
+     it is possible for the certificate validity period to expire before
+     the next complete CRL for the same scope is issued.  In this case,
+     the revocation notice MUST be included in all subsequent delta CRLs
+     until the revocation notice is included on at least one explicitly
+     issued complete CRL for this scope.
+"fixed": |-
+  If a certificate revocation notice first appears on a delta CRL, then it is possible for the certificate validity period to expire before the next complete CRL for the same scope is issued.  In this case, the revocation notice MUST be included in all subsequent delta CRLs until the revocation notice is included on at least one explicitly issued complete CRL for this scope.
+"ko": |-
+  인증서 해지 알림이 델타 CRL에 처음 나타나는 경우 동일한 범위에 대한 다음 완전한 CRL이 발급되기 전에 인증서 유효 기간이 만료될 수 있습니다. 이 경우, 취소 알림은 이 범위에 대해 명시적으로 발행된 하나 이상의 완전한 CRL에 취소 알림이 포함될 때까지 모든 후속 델타 CRL에 포함되어야 합니다.

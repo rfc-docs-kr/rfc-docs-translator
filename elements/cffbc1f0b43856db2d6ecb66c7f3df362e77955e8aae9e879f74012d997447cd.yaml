@@ -1,0 +1,28 @@
+"hash": |-
+  cffbc1f0b43856db2d6ecb66c7f3df362e77955e8aae9e879f74012d997447cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The problem is that for a proxy accepted by the client, the proxy
+     needs to be provided information on which grounds it should accept
+     the next-hop certificate.  Both the proxy and the user may have rules
+     for this, and the user should have the possibility to select the
+     desired behavior.  To handle this case, the Accept-Credentials header
+     (see Section 18.2) is used, where the client can request the proxy or
+     proxies to relay back the chain of certificates used to authenticate
+     any intermediate proxies as well as the server.  The assumption that
+     the proxies are viewed as trusted gives the user a possibility to
+     enforce policies on each trusted proxy of whether it should accept
+     the next agent in the chain.  However, it should be noted that not
+     all deployments will return the chain of certificates used to
+     authenticate any intermediate proxies as well as the server.  An
+     operator of such a deployment may want to hide its topology from the
+     client.  It should be noted well that the client does not have any
+     insight into the proxy's operation.  Even if the proxy is trusted, it
+     can still return an incomplete chain of certificates.
+"fixed": |-
+  The problem is that for a proxy accepted by the client, the proxy needs to be provided information on which grounds it should accept the next-hop certificate.  Both the proxy and the user may have rules for this, and the user should have the possibility to select the desired behavior.  To handle this case, the Accept-Credentials header (see Section 18.2) is used, where the client can request the proxy or proxies to relay back the chain of certificates used to authenticate any intermediate proxies as well as the server.  The assumption that the proxies are viewed as trusted gives the user a possibility to enforce policies on each trusted proxy of whether it should accept the next agent in the chain.  However, it should be noted that not all deployments will return the chain of certificates used to authenticate any intermediate proxies as well as the server.  An operator of such a deployment may want to hide its topology from the client.  It should be noted well that the client does not have any insight into the proxy's operation.  Even if the proxy is trusted, it can still return an incomplete chain of certificates.
+"ko": |-
+  문제는 클라이언트가 수락한 프록시의 경우 프록시에 다음 홉 인증서를 수락해야 하는 근거에 대한 정보를 제공해야 한다는 것입니다. 프록시와 사용자 모두 이에 대한 규칙을 가질 수 있으며 사용자는 원하는 동작을 선택할 수 있어야 합니다. 이 경우를 처리하기 위해 Accept-Credentials 헤더(섹션 18.2 참조)가 사용됩니다. 여기서 클라이언트는 중간 프록시와 서버를 인증하는 데 사용되는 인증서 체인을 다시 릴레이하도록 프록시 또는 프록시에 요청할 수 있습니다. 프록시가 신뢰할 수 있는 것으로 간주된다는 가정은 사용자에게 체인의 다음 에이전트를 허용해야 하는지 여부에 대한 각 신뢰할 수 있는 프록시에 대한 정책을 시행할 수 있는 가능성을 제공합니다. 그러나 모든 배포가 중간 프록시와 서버를 인증하는 데 사용되는 인증서 체인을 반환하는 것은 아닙니다. 이러한 배포의 운영자는 클라이언트로부터 해당 토폴로지를 숨길 수 있습니다. 클라이언트는 프록시 작업에 대해 전혀 알 수 없다는 점에 유의해야 합니다. 프록시를 신뢰할 수 있더라도 여전히 불완전한 인증서 체인을 반환할 수 있습니다.

@@ -10,7 +10,7 @@
      [Bleichenbacher98] and [Klima03].  While the Bleichenbacher attack
      has been mitigated in TLS 1.0, the Klima attack, which relies on a
      version-check oracle, is only mitigated by TLS 1.1.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  There have been several practical attacks on TLS when used with RSA certificates (the most common use case).  These include [Bleichenbacher98] and [Klima03].  While the Bleichenbacher attack has been mitigated in TLS 1.0, the Klima attack, which relies on a version-check oracle, is only mitigated by TLS 1.1.
+"ko": |-
+  RSA 인증서와 함께 사용할 때 TLS에 대한 몇 가지 실제 공격이 있었습니다(가장 일반적인 사용 사례). 여기에는 [Bleichenbacher98] 및 [Klima03]이 포함됩니다. Bleichenbacher 공격은 TLS 1.0에서 완화되었지만 버전 확인 오라클을 사용하는 Klima 공격은 TLS 1.1에서만 완화되었습니다.

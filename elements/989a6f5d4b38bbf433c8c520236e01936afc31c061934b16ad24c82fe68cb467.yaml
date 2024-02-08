@@ -1,0 +1,25 @@
+"hash": |-
+  989a6f5d4b38bbf433c8c520236e01936afc31c061934b16ad24c82fe68cb467
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A few points are worth mentioning with regard to message
+        buffering.  First, most OUTs will probably be accompanied by data.
+        Therefore, in general, since the receiver process may be swapped
+        out, the receiver Host monitor must be prepared to buffer some
+        data somewhere.  To minimize the amount of buffering needed, the
+        monitor could refuse further traffic from the IMP until the
+        earlier traffic from the IMP has been written on a disk or drum.
+        Or the monitor could have a small number of buffers in the monitor
+        area of memory which it fills as traffic comes from the IMP, and
+        which are swapped with buffers claimed earlier by the receiver
+        processes as the receiver processes are swapped in.  Note that the
+        buffers may be less than the maximum subnet message size in length
+        if the RECEIVEs never specify a longer message length -- of
+        course, this can be enforced.  Finally note that the message size,
+"fixed": |-
+  - A few points are worth mentioning with regard to message buffering.  First, most OUTs will probably be accompanied by data. Therefore, in general, since the receiver process may be swapped out, the receiver Host monitor must be prepared to buffer some data somewhere.  To minimize the amount of buffering needed, the monitor could refuse further traffic from the IMP until the earlier traffic from the IMP has been written on a disk or drum. Or the monitor could have a small number of buffers in the monitor area of memory which it fills as traffic comes from the IMP, and which are swapped with buffers claimed earlier by the receiver processes as the receiver processes are swapped in.  Note that the buffers may be less than the maximum subnet message size in length if the RECEIVEs never specify a longer message length -- of course, this can be enforced.  Finally note that the message size,
+"ko": |-
+  - 메시지 버퍼링과 관련하여 몇 가지 언급할 가치가 있는 사항이 있습니다. 첫째, 대부분의 OUT에는 아마도 데이터가 수반될 것입니다. 따라서 일반적으로 수신자 프로세스가 교체될 수 있으므로 수신자 호스트 모니터는 일부 데이터를 어딘가에 버퍼링할 준비가 되어 있어야 합니다. 필요한 버퍼링 양을 최소화하기 위해 모니터는 IMP의 이전 트래픽이 디스크나 드럼에 기록될 때까지 IMP의 추가 트래픽을 거부할 수 있습니다. 또는 모니터는 IMP에서 트래픽이 들어올 때 채워지는 메모리의 모니터 영역에 적은 수의 버퍼를 가질 수 있으며, 이 버퍼는 수신자 프로세스가 교체될 때 수신자 프로세스가 이전에 요청한 버퍼와 교체됩니다. RECEIVE가 더 긴 메시지 길이를 지정하지 않는 경우 길이가 최대 서브넷 메시지 크기보다 작을 수 있습니다. 물론 이는 강제될 수 있습니다. 마지막으로 메시지 크기에 주목하세요.

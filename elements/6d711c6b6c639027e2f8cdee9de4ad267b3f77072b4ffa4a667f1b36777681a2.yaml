@@ -1,0 +1,23 @@
+"hash": |-
+  6d711c6b6c639027e2f8cdee9de4ad267b3f77072b4ffa4a667f1b36777681a2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     IpForwardEntry ::= SEQUENCE {
+             ipForwardDest       IpAddress,
+             ipForwardMask       IpAddress,
+             ipForwardPolicy     Integer32,
+             ipForwardNextHop    IpAddress,
+             ipForwardIfIndex    Integer32,
+             ipForwardType       INTEGER,
+             ipForwardProto      INTEGER,
+             ipForwardAge        Integer32,
+             ipForwardInfo       OBJECT IDENTIFIER,
+             ipForwardNextHopAS  Integer32,
+             ipForwardMetric1    Integer32,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

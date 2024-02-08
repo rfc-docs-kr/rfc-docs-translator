@@ -1,0 +1,17 @@
+"hash": |-
+  5598ff2cdce32c930af95e64684b65f25afdc04c60e067ab939c3d950bb9d9cb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4.  The "identity" content-coding is always acceptable, i.e., no
+         transformation at all, unless specifically refused because the
+         Accept-Encoding field includes "identity;q=0" or because the
+         field includes "*;q=0" and does not explicitly include the
+         "identity" content-coding.  If the Accept-Encoding field-value is
+         empty, then only the "identity" encoding is acceptable.
+"fixed": |-
+  1.  The "identity" content-coding is always acceptable, i.e., no transformation at all, unless specifically refused because the Accept-Encoding field includes "identity;q=0" or because the field includes "*;q=0" and does not explicitly include the "identity" content-coding.  If the Accept-Encoding field-value is empty, then only the "identity" encoding is acceptable.
+"ko": |-
+  1. "identity" 콘텐츠 코딩은 항상 허용됩니다. 즉, Accept-Encoding 필드에 "identity;q=0"이 포함되거나 필드에 "*;q=0"이 포함되어 특별히 거부되지 않는 한 전혀 변환이 없습니다. "ID" 콘텐츠 코딩을 명시적으로 포함하지 않습니다. Accept-Encoding 필드 값이 비어 있으면 "ID" 인코딩만 허용됩니다.

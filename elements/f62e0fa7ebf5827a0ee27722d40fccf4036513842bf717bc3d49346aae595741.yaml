@@ -1,0 +1,20 @@
+"hash": |-
+  f62e0fa7ebf5827a0ee27722d40fccf4036513842bf717bc3d49346aae595741
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     fragment.  The fragment is appended to the X.500 distinguished name
+     of the CRL issuer to obtain the distribution point name.  If the
+     cRLIssuer field in the DistributionPoint is present, then the name
+     fragment is appended to the distinguished name that it contains;
+     otherwise, the name fragment is appended to the certificate issuer
+     distinguished name.  Conforming CAs SHOULD NOT use
+     nameRelativeToCRLIssuer to specify distribution point names.  The
+     DistributionPointName MUST NOT use the nameRelativeToCRLIssuer
+     alternative when cRLIssuer contains more than one distinguished name.
+"fixed": |-
+  fragment.  The fragment is appended to the X.500 distinguished name of the CRL issuer to obtain the distribution point name.  If the cRLIssuer field in the DistributionPoint is present, then the name fragment is appended to the distinguished name that it contains; otherwise, the name fragment is appended to the certificate issuer distinguished name.  Conforming CAs SHOULD NOT use nameRelativeToCRLIssuer to specify distribution point names.  The DistributionPointName MUST NOT use the nameRelativeToCRLIssuer alternative when cRLIssuer contains more than one distinguished name.
+"ko": |-
+  파편. 배포 지점 이름을 얻기 위해 CRL 발급자의 X.500 고유 이름에 조각이 추가됩니다. DistributionPoint에 cRLIssuer 필드가 있으면 이름 조각이 포함된 고유 이름에 추가됩니다. 그렇지 않으면 이름 조각이 인증서 발급자 고유 이름에 추가됩니다. 준수 CA는 배포 지점 이름을 지정하기 위해 nameRelativeToCRLIssuer를 사용해서는 안 됩니다. cRLIssuer에 둘 이상의 고유 이름이 포함된 경우 DistributionPointName은 nameRelativeToCRLIssuer 대안을 사용해서는 안 됩니다.

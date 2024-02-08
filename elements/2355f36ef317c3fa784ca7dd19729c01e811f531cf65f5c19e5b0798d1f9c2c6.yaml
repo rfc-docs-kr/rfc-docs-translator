@@ -1,0 +1,15 @@
+"hash": |-
+  2355f36ef317c3fa784ca7dd19729c01e811f531cf65f5c19e5b0798d1f9c2c6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Unrecognized options of class "critical" that occur in a
+        Confirmable request MUST cause the return of a 4.02 (Bad Option)
+        response.  This response SHOULD include a diagnostic payload
+        describing the unrecognized option(s) (see Section 5.5.2).
+"fixed": |-
+  -  Unrecognized options of class "critical" that occur in a Confirmable request MUST cause the return of a 4.02 (Bad Option) response.  This response SHOULD include a diagnostic payload describing the unrecognized option(s) (see Section 5.5.2).
+"ko": |-
+  - 확인 가능한 요청에서 발생하는 "중요" 클래스의 인식되지 않은 옵션은 4.02(잘못된 옵션) 응답의 반환을 유발해야 합니다. 이 응답에는 인식할 수 없는 옵션을 설명하는 진단 페이로드가 포함되어야 합니다(섹션 5.5.2 참조).

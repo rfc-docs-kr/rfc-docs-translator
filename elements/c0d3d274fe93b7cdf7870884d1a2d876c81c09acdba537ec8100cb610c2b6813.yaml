@@ -1,0 +1,22 @@
+"hash": |-
+  c0d3d274fe93b7cdf7870884d1a2d876c81c09acdba537ec8100cb610c2b6813
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a server does decide to respond to a multicast request, it should
+     not respond immediately.  Instead, it should pick a duration for the
+     period of time during which it intends to respond.  For the purposes
+     of this exposition, we call the length of this period the Leisure.
+     The specific value of this Leisure may depend on the application or
+     MAY be derived as described below.  The server SHOULD then pick a
+     random point of time within the chosen leisure period to send back
+     the unicast response to the multicast request.  If further responses
+     need to be sent based on the same multicast address membership, a new
+     leisure period starts at the earliest after the previous one
+     finishes.
+"fixed": |-
+  If a server does decide to respond to a multicast request, it should not respond immediately.  Instead, it should pick a duration for the period of time during which it intends to respond.  For the purposes of this exposition, we call the length of this period the Leisure. The specific value of this Leisure may depend on the application or MAY be derived as described below.  The server SHOULD then pick a random point of time within the chosen leisure period to send back the unicast response to the multicast request.  If further responses need to be sent based on the same multicast address membership, a new leisure period starts at the earliest after the previous one finishes.
+"ko": |-
+  서버가 멀티캐스트 요청에 응답하기로 결정한 경우 즉시 응답해서는 안 됩니다. 대신, 응답하려는 기간에 대한 기간을 선택해야 합니다. 이 설명의 목적상 우리는 이 기간을 여가라고 부릅니다. 이 레저의 구체적인 가치는 애플리케이션에 따라 달라지거나 아래 설명된 대로 파생될 수 있습니다. 그런 다음 서버는 선택한 여가 기간 내에서 임의의 시점을 선택하여 멀티캐스트 요청에 대한 유니캐스트 응답을 다시 보내야 합니다. 동일한 멀티캐스트 주소 멤버십을 기반으로 추가 응답을 보내야 하는 경우, 이전 여가 기간이 끝난 후 가장 빠른 시점에 새로운 여가 기간이 시작됩니다.

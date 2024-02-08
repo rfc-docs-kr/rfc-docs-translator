@@ -1,0 +1,21 @@
+"hash": |-
+  70a6e896278e31154b3853a37d85716d91a40f724aaf63465f4ff33951f5cd7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CoAP distinguishes between requests made (as if) to an origin server
+     and requests made through a forward-proxy.  CoAP requests to a
+     forward-proxy are made as normal Confirmable or Non-confirmable
+     requests to the forward-proxy endpoint, but they specify the request
+     URI in a different way: The request URI in a proxy request is
+     specified as a string in the Proxy-Uri Option (see Section 5.10.2),
+     while the request URI in a request to an origin server is split into
+     the Uri-Host, Uri-Port, Uri-Path, and Uri-Query Options (see
+     Section 5.10.1).  Alternatively, the URI in a proxy request can be
+     assembled from a Proxy-Scheme option and the split options mentioned.
+"fixed": |-
+  CoAP distinguishes between requests made (as if) to an origin server and requests made through a forward-proxy.  CoAP requests to a forward-proxy are made as normal Confirmable or Non-confirmable requests to the forward-proxy endpoint, but they specify the request URI in a different way: The request URI in a proxy request is specified as a string in the Proxy-Uri Option (see Section 5.10.2), while the request URI in a request to an origin server is split into the Uri-Host, Uri-Port, Uri-Path, and Uri-Query Options (see Section 5.10.1).  Alternatively, the URI in a proxy request can be assembled from a Proxy-Scheme option and the split options mentioned.
+"ko": |-
+  CoAP는 원본 서버에 대한 요청과 전달 프록시를 통해 이루어진 요청을 구별합니다. 전달 프록시에 대한 CoAP 요청은 전달 프록시 엔드포인트에 대한 일반적인 확인 가능 또는 확인 불가능 요청으로 이루어지지만 요청 URI를 다른 방식으로 지정합니다. 프록시 요청의 요청 URI는 프록시에서 문자열로 지정됩니다. -Uri 옵션(섹션 5.10.2 참조), 원본 서버에 대한 요청의 요청 URI는 Uri-Host, Uri-Port, Uri-Path 및 Uri-Query 옵션(섹션 5.10.1 참조)으로 분할됩니다. . 또는 프록시 요청의 URI를 프록시 구성표 옵션과 언급된 분할 옵션에서 조합할 수 있습니다.

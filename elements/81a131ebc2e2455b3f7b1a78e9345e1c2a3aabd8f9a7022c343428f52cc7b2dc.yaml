@@ -11,7 +11,7 @@
         the Telnet Interrupt Process and Data Mark commands in conjunction
         with Urgent data to preface two commands: ABOR (Abort Transfer)
         and STAT (Status request).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - [RFC-959] describes the use of Telnet commands (IP and DM) and the TCP Urgent pointer to indicate the transmission of commands on the control channel during the execution of a data transfer.  FTP uses the Telnet Interrupt Process and Data Mark commands in conjunction with Urgent data to preface two commands: ABOR (Abort Transfer) and STAT (Status request).
+"ko": |-
+  - [RFC-959]에서는 데이터 전송 실행 중에 제어 채널에서 명령 전송을 나타내기 위해 Telnet 명령(IP 및 DM)과 TCP 긴급 포인터의 사용을 설명합니다. FTP는 긴급 데이터와 함께 Telnet Interrupt Process 및 Data Mark 명령을 사용하여 ABOR(전송 중단) 및 STAT(상태 요청)라는 두 명령을 시작합니다.

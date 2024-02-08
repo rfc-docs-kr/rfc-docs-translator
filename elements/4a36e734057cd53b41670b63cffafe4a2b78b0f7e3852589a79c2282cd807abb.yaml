@@ -1,0 +1,36 @@
+"hash": |-
+  4a36e734057cd53b41670b63cffafe4a2b78b0f7e3852589a79c2282cd807abb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         +---------------+----------------+--------+---------+------+
+         | method        | direction      | object | acronym | Body |
+         +---------------+----------------+--------+---------+------+
+         | DESCRIBE      | C -> S         | P,S    | DES     | r    |
+         |               |                |        |         |      |
+         | GET_PARAMETER | C -> S, S -> C | P,S    | GPR     | R,r  |
+         |               |                |        |         |      |
+         | OPTIONS       | C -> S, S -> C | P,S    | OPT     |      |
+         |               |                |        |         |      |
+         | PAUSE         | C -> S         | P,S    | PSE     |      |
+         |               |                |        |         |      |
+         | PLAY          | C -> S         | P,S    | PLY     |      |
+         |               |                |        |         |      |
+         | PLAY_NOTIFY   | S -> C         | P,S    | PNY     | R    |
+         |               |                |        |         |      |
+         | REDIRECT      | S -> C         | P,S    | RDR     |      |
+         |               |                |        |         |      |
+         | SETUP         | C -> S         | S      | STP     |      |
+         |               |                |        |         |      |
+         | SET_PARAMETER | C -> S, S -> C | P,S    | SPR     | R,r  |
+         |               |                |        |         |      |
+         | TEARDOWN      | C -> S         | P,S    | TRD     |      |
+         |               |                |        |         |      |
+         |               | S -> C         | P      | TRD     |      |
+         +---------------+----------------+--------+---------+------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

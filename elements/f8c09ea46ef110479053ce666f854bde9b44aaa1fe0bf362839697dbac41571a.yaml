@@ -1,0 +1,18 @@
+"hash": |-
+  f8c09ea46ef110479053ce666f854bde9b44aaa1fe0bf362839697dbac41571a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.   If the request includes a Uri-Host Option, let |host| be that
+          option's value, where any non-ASCII characters are replaced by
+          their corresponding percent-encoding.  If |host| is not a valid
+          reg-name or IP-literal or IPv4address, fail the algorithm.  If
+          the request does not include a Uri-Host Option, let |host| be
+          the IP-literal (making use of the conventions of [RFC5952]) or
+          IPv4address representing the request's destination IP address.
+"fixed": |-
+  1.   If the request includes a Uri-Host Option, let |host| be that option's value, where any non-ASCII characters are replaced by their corresponding percent-encoding.  If |host| is not a valid reg-name or IP-literal or IPv4address, fail the algorithm.  If the request does not include a Uri-Host Option, let |host| be the IP-literal (making use of the conventions of [RFC5952]) or IPv4address representing the request's destination IP address.
+"ko": |-
+  1. 요청에 Uri-Host 옵션이 포함된 경우 |host| ASCII가 아닌 문자는 해당 백분율 인코딩으로 대체되는 해당 옵션의 값이 됩니다. |호스트| 유효한 등록 이름, IP 리터럴 또는 IPv4 주소가 아닌 경우 알고리즘이 실패합니다. 요청에 Uri-Host 옵션이 포함되어 있지 않으면 |host| 요청의 대상 IP 주소를 나타내는 IP 리터럴([RFC5952] 규칙 사용) 또는 IPv4address여야 합니다.

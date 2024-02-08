@@ -1,0 +1,19 @@
+"hash": |-
+  3a52a9412b38ded346dd09dc613e30da0a447c22b4b7c83ad9960689e6609404
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After sending (receiving) a 2xx reply for a SETUP method for a non-
+     interleaved RTP/AVP/TCP media stream, the active party SHOULD
+     initiate the TCP connection as soon as possible.  The client MUST NOT
+     send a PLAY request prior to the establishment of all the TCP
+     connections negotiated using SETUP for the session.  In case the
+     server receives a PLAY request in a session that has not yet
+     established all the TCP connections, it MUST respond using the 464
+     (Data Transport Not Ready Yet) (Section 17.4.28) error code.
+"fixed": |-
+  After sending (receiving) a 2xx reply for a SETUP method for a non- interleaved RTP/AVP/TCP media stream, the active party SHOULD initiate the TCP connection as soon as possible.  The client MUST NOT send a PLAY request prior to the establishment of all the TCP connections negotiated using SETUP for the session.  In case the server receives a PLAY request in a session that has not yet established all the TCP connections, it MUST respond using the 464 (Data Transport Not Ready Yet) (Section 17.4.28) error code.
+"ko": |-
+  인터리빙되지 않은 RTP/AVP/TCP 미디어 스트림에 대한 SETUP 방법에 대한 2xx 응답을 전송(수신)한 후 활성 당사자는 가능한 한 빨리 TCP 연결을 시작해야 합니다. 클라이언트는 세션에 대해 SETUP을 사용하여 협상된 모든 TCP 연결을 설정하기 전에 PLAY 요청을 보내면 안 됩니다. 서버가 아직 모든 TCP 연결을 설정하지 않은 세션에서 PLAY 요청을 수신하는 경우, 서버는 464(Data Transport Not Ready Yet)(섹션 17.4.28) 오류 코드를 사용하여 응답해야 합니다.

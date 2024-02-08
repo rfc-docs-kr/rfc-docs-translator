@@ -1,0 +1,20 @@
+"hash": |-
+  dd8c8c2bd0baba15bd3618c8c66242b6493b631ff166c8dc7b79e86b0ba8a75a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Servers MUST include a Range header in any PLAY response, even if no
+     Range header was present in the request.  The response MUST use the
+     same format as the request's Range header contained.  If no Range
+     header was in the request, the format used in any previous PLAY
+     request within the session SHOULD be used.  If no format has been
+     indicated in a previous request, the server MAY use any time format
+     supported by the media and indicated in the Accept-Ranges header in
+     the SETUP request.  It is RECOMMENDED that NPT is used if supported
+     by the media.
+"fixed": |-
+  Servers MUST include a Range header in any PLAY response, even if no Range header was present in the request.  The response MUST use the same format as the request's Range header contained.  If no Range header was in the request, the format used in any previous PLAY request within the session SHOULD be used.  If no format has been indicated in a previous request, the server MAY use any time format supported by the media and indicated in the Accept-Ranges header in the SETUP request.  It is RECOMMENDED that NPT is used if supported by the media.
+"ko": |-
+  요청에 Range 헤더가 없더라도 서버는 모든 PLAY 응답에 Range 헤더를 포함해야 합니다. 응답은 포함된 요청의 Range 헤더와 동일한 형식을 사용해야 합니다. 요청에 Range 헤더가 없으면 세션 내의 이전 PLAY 요청에 사용된 형식을 사용해야 합니다. 이전 요청에 형식이 표시되지 않은 경우 서버는 미디어에서 지원하고 SETUP 요청의 Accept-Ranges 헤더에 표시된 모든 시간 형식을 사용할 수 있습니다. 미디어에서 지원하는 경우 NPT를 사용하는 것이 좋습니다.

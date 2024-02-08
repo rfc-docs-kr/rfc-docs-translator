@@ -1,0 +1,19 @@
+"hash": |-
+  41996e83dae1cb7c6caf6b8e00a24fe3d48d2c7eb7d4b4a0d707f9a80d0a3f90
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Retransmission is controlled by two things that a CoAP endpoint MUST
+     keep track of for each Confirmable message it sends while waiting for
+     an acknowledgement (or reset): a timeout and a retransmission
+     counter.  For a new Confirmable message, the initial timeout is set
+     to a random duration (often not an integral number of seconds)
+     between ACK_TIMEOUT and (ACK_TIMEOUT * ACK_RANDOM_FACTOR) (see
+     Section 4.8), and the retransmission counter is set to 0.  When the
+     timeout is triggered and the retransmission counter is less than
+"fixed": |-
+  Retransmission is controlled by two things that a CoAP endpoint MUST keep track of for each Confirmable message it sends while waiting for an acknowledgement (or reset): a timeout and a retransmission counter.  For a new Confirmable message, the initial timeout is set to a random duration (often not an integral number of seconds) between ACK_TIMEOUT and (ACK_TIMEOUT * ACK_RANDOM_FACTOR) (see Section 4.8), and the retransmission counter is set to 0.  When the timeout is triggered and the retransmission counter is less than
+"ko": |-
+  재전송은 CoAP 엔드포인트가 승인(또는 재설정)을 기다리는 동안 전송하는 각 확인 가능 메시지에 대해 반드시 추적해야 하는 두 가지, 즉 시간 초과와 재전송 카운터에 의해 제어됩니다. 새로운 확인 가능 메시지의 경우 초기 시간 초과는 ACK_TIMEOUT과 (ACK_TIMEOUT * ACK_RANDOM_FACTOR) 사이의 임의 기간(종종 정수가 아닌 초)으로 설정되고(섹션 4.8 참조) 재전송 카운터는 0으로 설정됩니다. 트리거되고 재전송 카운터가 다음보다 작습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  1e84c1acc821ef716caf6ed57a7c7ed6563cc2eed65d35131d41ab7cc64f1466
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  -- Naming attributes of type X520StateOrProvinceName:
+  --   X520StateOrProvinceName ::= DirectoryName (SIZE (1..ub-state-name))
+  --
+  -- Expanded to avoid parameterized type:
+  X520StateOrProvinceName ::= CHOICE {
+        teletexString     TeletexString   (SIZE (1..ub-state-name)),
+        printableString   PrintableString (SIZE (1..ub-state-name)),
+        universalString   UniversalString (SIZE (1..ub-state-name)),
+        utf8String        UTF8String      (SIZE (1..ub-state-name)),
+        bmpString         BMPString       (SIZE (1..ub-state-name)) }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -11,7 +11,7 @@
            implement trailers.  If the system does not dynamically
            negotiate use of the trailer protocol on a per-destination
            basis, the default configuration MUST disable the protocol.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The trailer protocol [LINK:1] for link-layer encapsulation MAY be used, but only when it has been verified that both systems (host or gateway) involved in the link-layer communication implement trailers.  If the system does not dynamically negotiate use of the trailer protocol on a per-destination basis, the default configuration MUST disable the protocol.
+"ko": |-
+  - 링크 계층 캡슐화를 위한 트레일러 프로토콜 [LINK:1]을 사용할 수 있지만 링크 계층 통신에 관련된 두 시스템(호스트 또는 게이트웨이) 모두 트레일러를 구현하는 것이 확인된 경우에만 사용할 수 있습니다. 시스템이 대상별로 트레일러 프로토콜 사용을 동적으로 협상하지 않는 경우 기본 구성은 프로토콜을 비활성화해야 합니다.

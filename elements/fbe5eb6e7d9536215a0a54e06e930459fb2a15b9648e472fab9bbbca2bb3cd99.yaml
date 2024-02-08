@@ -1,0 +1,23 @@
+"hash": |-
+  fbe5eb6e7d9536215a0a54e06e930459fb2a15b9648e472fab9bbbca2bb3cd99
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Independence is also an important aspect of the salt value provided
+     to a KDF.  While there is no need to keep the salt secret, and the
+     same salt value can be used with multiple IKM values, it is assumed
+     that salt values are independent of the input keying material.  In
+     particular, an application needs to make sure that salt values are
+     not chosen or manipulated by an attacker.  As an example, consider
+     the case (as in IKE) where the salt is derived from nonces supplied
+     by the parties in a key exchange protocol.  Before the protocol can
+     use such salt to derive keys, it needs to make sure that these nonces
+     are authenticated as coming from the legitimate parties rather than
+     selected by the attacker (in IKE, for example this authentication is
+     an integral part of the authenticated Diffie-Hellman exchange).
+"fixed": |-
+  Independence is also an important aspect of the salt value provided to a KDF.  While there is no need to keep the salt secret, and the same salt value can be used with multiple IKM values, it is assumed that salt values are independent of the input keying material.  In particular, an application needs to make sure that salt values are not chosen or manipulated by an attacker.  As an example, consider the case (as in IKE) where the salt is derived from nonces supplied by the parties in a key exchange protocol.  Before the protocol can use such salt to derive keys, it needs to make sure that these nonces are authenticated as coming from the legitimate parties rather than selected by the attacker (in IKE, for example this authentication is an integral part of the authenticated Diffie-Hellman exchange).
+"ko": |-
+  독립성은 KDF에 제공되는 소금 가치의 중요한 측면이기도 합니다. 솔트를 비밀로 유지할 필요는 없으며 동일한 솔트 값을 여러 IKM 값과 함께 사용할 수 있지만 솔트 값은 입력 키 자료와 무관하다고 가정합니다. 특히 애플리케이션은 공격자가 솔트 값을 선택하거나 조작하지 않도록 해야 합니다. 예를 들어 키 교환 프로토콜의 당사자가 제공한 nonce에서 솔트가 파생되는 경우(IKE에서와 같이)를 생각해 보십시오. 프로토콜이 이러한 솔트를 사용하여 키를 파생할 수 있으려면 먼저 이러한 nonce가 공격자가 선택하는 것이 아니라 합법적인 당사자가 제공한 것으로 인증되어야 합니다(예를 들어 IKE에서 이 인증은 인증된 Diffie-Fi의 필수 부분입니다). 헬만 교환).

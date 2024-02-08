@@ -1,0 +1,15 @@
+"hash": |-
+  8095e2269fd6d94383091ebf305445c6d7e8a8b3030a7ba4255d1115af82e60b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           (1)  If the issuing distribution point (IDP) CRL extension is
+           present and includes onlySomeReasons and the DP includes
+           reasons, then set interim_reasons_mask to the intersection of
+           reasons in the DP and onlySomeReasons in IDP CRL extension.
+"fixed": |-
+  - (1)  If the issuing distribution point (IDP) CRL extension is present and includes onlySomeReasons and the DP includes reasons, then set interim_reasons_mask to the intersection of reasons in the DP and onlySomeReasons in IDP CRL extension.
+"ko": |-
+  - (1) 발급 배포 지점(IDP) CRL 확장이 존재하고 onlySomeReasons를 포함하고 DP에 이유가 포함된 경우 interim_reasons_mask를 DP의 이유와 IDP CRL 확장의 onlySomeReasons의 교차점으로 설정합니다.

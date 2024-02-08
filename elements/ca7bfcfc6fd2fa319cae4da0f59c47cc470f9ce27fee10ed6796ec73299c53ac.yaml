@@ -1,0 +1,23 @@
+"hash": |-
+  ca7bfcfc6fd2fa319cae4da0f59c47cc470f9ce27fee10ed6796ec73299c53ac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server constructs an appropriate certificate chain and conveys it
+     to the client in the Certificate message.  If the client has used a
+     Supported Elliptic Curves Extension, the public key in the server's
+     certificate MUST respect the client's choice of elliptic curves; in
+     particular, the public key MUST employ a named curve (not the same
+     curve as an explicit curve) unless the client has indicated support
+     for explicit curves of the appropriate type.  If the client has used
+     a Supported Point Formats Extension, both the server's public key
+     point and (in the case of an explicit curve) the curve's base point
+     MUST respect the client's choice of point formats.  (A server that
+     cannot satisfy these requirements MUST NOT choose an ECC cipher suite
+     in its ServerHello message.)
+"fixed": |-
+  The server constructs an appropriate certificate chain and conveys it to the client in the Certificate message.  If the client has used a Supported Elliptic Curves Extension, the public key in the server's certificate MUST respect the client's choice of elliptic curves; in particular, the public key MUST employ a named curve (not the same curve as an explicit curve) unless the client has indicated support for explicit curves of the appropriate type.  If the client has used a Supported Point Formats Extension, both the server's public key point and (in the case of an explicit curve) the curve's base point MUST respect the client's choice of point formats.  (A server that cannot satisfy these requirements MUST NOT choose an ECC cipher suite in its ServerHello message.)
+"ko": |-
+  서버는 적절한 인증서 체인을 구성하고 이를 인증서 메시지를 통해 클라이언트에 전달합니다. 클라이언트가 지원되는 타원 곡선 확장을 사용한 경우 서버 인증서의 공개 키는 클라이언트의 타원 곡선 선택을 존중해야 합니다. 특히 클라이언트가 적절한 유형의 명시적 곡선에 대한 지원을 표시하지 않는 한 공개 키는 명명된 곡선(명시적 곡선과 동일한 곡선이 아님)을 사용해야 합니다. 클라이언트가 지원되는 포인트 형식 확장을 사용한 경우 서버의 공개 키 포인트와 (명시적인 곡선의 경우) 곡선의 기준점은 클라이언트가 선택한 포인트 형식을 존중해야 합니다. (이러한 요구 사항을 충족할 수 없는 서버는 ServerHello 메시지에서 ECC 암호화 제품군을 선택해서는 안 됩니다.)

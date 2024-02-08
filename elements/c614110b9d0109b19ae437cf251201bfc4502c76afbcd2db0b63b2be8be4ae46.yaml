@@ -10,7 +10,7 @@
      multitude of attacks, e.g., man-in-the-middle, breaking safe
      renegotiation, and breaking channel binding via TLS Exporter
      [RFC5705] or "tls-unique" [RFC5929].
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The triple handshake attack [BhargavanDFPS14] enables the attacker to cause two TLS connections to share keying material.  This leads to a multitude of attacks, e.g., man-in-the-middle, breaking safe renegotiation, and breaking channel binding via TLS Exporter [RFC5705] or "tls-unique" [RFC5929].
+"ko": |-
+  삼중 핸드셰이크 공격[BhargavanDFPS14]을 통해 공격자는 두 개의 TLS 연결이 키 자료를 공유하도록 할 수 있습니다. 이로 인해 중간자 공격, 안전한 재협상 중단, TLS 내보내기 [RFC5705] 또는 "tls-unique" [RFC5929]를 통한 채널 바인딩 중단 등 다양한 공격이 발생합니다.

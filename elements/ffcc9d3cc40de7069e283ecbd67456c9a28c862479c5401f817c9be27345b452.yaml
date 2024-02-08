@@ -1,0 +1,18 @@
+"hash": |-
+  ffcc9d3cc40de7069e283ecbd67456c9a28c862479c5401f817c9be27345b452
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server is not able to respond immediately to a request carried
+     in a Confirmable message, it simply responds with an Empty
+     Acknowledgement message so that the client can stop retransmitting
+     the request.  When the response is ready, the server sends it in a
+     new Confirmable message (which then in turn needs to be acknowledged
+     by the client).  This is called a "separate response", as illustrated
+     in Figure 5 and described in more detail in Section 5.2.2.
+"fixed": |-
+  If the server is not able to respond immediately to a request carried in a Confirmable message, it simply responds with an Empty Acknowledgement message so that the client can stop retransmitting the request.  When the response is ready, the server sends it in a new Confirmable message (which then in turn needs to be acknowledged by the client).  This is called a "separate response", as illustrated in Figure 5 and described in more detail in Section 5.2.2.
+"ko": |-
+  서버가 확인 가능 메시지에 포함된 요청에 즉시 응답할 수 없는 경우 클라이언트가 요청 재전송을 중지할 수 있도록 단순히 빈 승인 메시지로 응답합니다. 응답이 준비되면 서버는 이를 새로운 확인 가능 메시지로 보냅니다. 그러면 클라이언트가 이를 승인해야 합니다. 그림 5에 설명되어 있고 섹션 5.2.2에 자세히 설명되어 있는 것처럼 이를 "별도 응답"이라고 합니다.

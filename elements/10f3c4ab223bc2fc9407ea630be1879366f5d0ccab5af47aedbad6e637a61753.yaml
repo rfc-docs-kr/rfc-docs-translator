@@ -10,7 +10,7 @@
            may be sent for a given {source, destination, TOS} triplet (see
            GET_MAXSIZES call in Section 3.4).  If no local fragmentation
            is performed, the value of MMS_S will be:
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - A host MUST implement a mechanism to allow the transport layer to learn MMS_S, the maximum transport-layer message size that may be sent for a given {source, destination, TOS} triplet (see GET_MAXSIZES call in Section 3.4).  If no local fragmentation is performed, the value of MMS_S will be:
+"ko": |-
+  - 호스트는 전송 계층이 주어진 {소스, 대상, TOS} 트리플렛에 대해 전송될 수 있는 최대 전송 계층 메시지 크기인 MMS_S를 학습할 수 있도록 하는 메커니즘을 구현해야 합니다(섹션 3.4의 GET_MAXSIZES 호출 참조). 로컬 조각화가 수행되지 않으면 MMS_S 값은 다음과 같습니다.

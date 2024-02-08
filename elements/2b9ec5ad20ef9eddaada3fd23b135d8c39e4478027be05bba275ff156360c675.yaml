@@ -1,0 +1,24 @@
+"hash": |-
+  2b9ec5ad20ef9eddaada3fd23b135d8c39e4478027be05bba275ff156360c675
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In general, for any pair of protocols, one of the protocols can very
+     well have been designed in a way that enables an attacker to cause
+     the generation of replies that look like messages of the other
+     protocol.  It is often much harder to ensure or prove the absence of
+     viable attacks than to generate examples that may not yet completely
+     enable an attack but might be further developed by more creative
+     minds.  Cross-protocol attacks can therefore only be completely
+     mitigated if endpoints don't authorize actions desired by an attacker
+     just based on trusting the source IP address of a packet.
+     Conversely, a NoSec environment that completely relies on a firewall
+     for CoAP security not only needs to firewall off the CoAP endpoints
+     but also all other endpoints that might be incited to send UDP
+     messages to CoAP endpoints using some other UDP-based protocol.
+"fixed": |-
+  In general, for any pair of protocols, one of the protocols can very well have been designed in a way that enables an attacker to cause the generation of replies that look like messages of the other protocol.  It is often much harder to ensure or prove the absence of viable attacks than to generate examples that may not yet completely enable an attack but might be further developed by more creative minds.  Cross-protocol attacks can therefore only be completely mitigated if endpoints don't authorize actions desired by an attacker just based on trusting the source IP address of a packet. Conversely, a NoSec environment that completely relies on a firewall for CoAP security not only needs to firewall off the CoAP endpoints but also all other endpoints that might be incited to send UDP messages to CoAP endpoints using some other UDP-based protocol.
+"ko": |-
+  일반적으로 프로토콜 쌍에 대해 프로토콜 중 하나는 공격자가 다른 프로토콜의 메시지처럼 보이는 응답을 생성할 수 있도록 설계되었을 수 있습니다. 아직 공격이 완전히 가능하지는 않지만 좀 더 창의적인 사람에 의해 추가로 개발될 수 있는 사례를 생성하는 것보다 실행 가능한 공격이 없음을 확인하거나 증명하는 것이 훨씬 더 어려운 경우가 많습니다. 따라서 교차 프로토콜 공격은 엔드포인트가 패킷의 소스 IP 주소 신뢰를 기반으로 공격자가 원하는 작업을 승인하지 않는 경우에만 완전히 완화될 수 있습니다. 반대로, CoAP 보안을 위해 방화벽에 전적으로 의존하는 NoSec 환경은 CoAP 엔드포인트뿐만 아니라 다른 UDP 기반 프로토콜을 사용하여 UDP 메시지를 CoAP 엔드포인트로 보내도록 유도될 수 있는 다른 모든 엔드포인트도 방화벽으로 차단해야 합니다.

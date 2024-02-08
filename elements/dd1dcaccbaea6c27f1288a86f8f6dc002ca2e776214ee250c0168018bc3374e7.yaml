@@ -1,0 +1,17 @@
+"hash": |-
+  dd1dcaccbaea6c27f1288a86f8f6dc002ca2e776214ee250c0168018bc3374e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This response is independent for the DESCRIBE and SETUP requests.
+     That is, a 304 response to DESCRIBE does NOT imply that the resource
+     content is unchanged (only the session description) and a 304
+     response to SETUP does NOT imply that the resource description is
+     unchanged.  The MTag and If-Match header (Section 18.24) may be used
+     to link the DESCRIBE and SETUP in this manner.
+"fixed": |-
+  This response is independent for the DESCRIBE and SETUP requests. That is, a 304 response to DESCRIBE does NOT imply that the resource content is unchanged (only the session description) and a 304 response to SETUP does NOT imply that the resource description is unchanged.  The MTag and If-Match header (Section 18.24) may be used to link the DESCRIBE and SETUP in this manner.
+"ko": |-
+  이 응답은 DESCRIBE 및 SETUP 요청에 대해 독립적입니다. 즉, DESCRIBE에 대한 304 응답은 리소스 내용이 변경되지 않았음을 의미하지 않으며(세션 설명만) SETUP에 대한 304 응답은 리소스 설명이 변경되지 않음을 의미하지 않습니다. MTag 및 If-Match 헤더(18.24절)는 이러한 방식으로 DESCRIBE 및 SETUP을 연결하는 데 사용될 수 있습니다.

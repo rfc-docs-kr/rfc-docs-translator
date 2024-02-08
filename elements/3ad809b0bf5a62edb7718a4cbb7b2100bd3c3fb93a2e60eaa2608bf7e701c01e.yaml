@@ -1,0 +1,25 @@
+"hash": |-
+  3ad809b0bf5a62edb7718a4cbb7b2100bd3c3fb93a2e60eaa2608bf7e701c01e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       S->C: PLAY_NOTIFY rtsp://example.com/fizzle/foo RTSP/2.0
+             Date: Tue, 14 Apr 2008 15:48:06 GMT
+             CSeq: 854
+             Notify-Reason: scale-change
+             Session: CDtUJfDQXJWtJ7Iqua2xOi
+             Media-Properties: Time-Progressing,
+                   Time-Limited=20080415T153919.36Z, Random-Access=5.0
+             Media-Range: npt=00:00:00-01:37:21.394
+             Range: npt=01:37:21.394-
+             Scale: 1
+             RTP-Info: url="rtsp://example.com/fizzle/foo/audio"
+                 ssrc=0D12F123:rtptime=2345962545,
+                 url="rtsp://example.com/fizzle/foo/videotrack"
+                 ssrc=789DAF12:seq=57654;rtptime=2792482193
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

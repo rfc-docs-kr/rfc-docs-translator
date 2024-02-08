@@ -1,0 +1,19 @@
+"hash": |-
+  0140e3400c32574e5f7ea48561c614bd1d5cb224b4e99aa26d0cffae118589c2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It may not be possible to return a piggybacked response in all cases.
+     For example, a server might need longer to obtain the representation
+     of the resource requested than it can wait to send back the
+     Acknowledgement message, without risking the client repeatedly
+     retransmitting the request message (see also the discussion of
+     PROCESSING_DELAY in Section 4.8.2).  The response to a request
+     carried in a Non-confirmable message is always sent separately (as
+     there is no Acknowledgement message).
+"fixed": |-
+  It may not be possible to return a piggybacked response in all cases. For example, a server might need longer to obtain the representation of the resource requested than it can wait to send back the Acknowledgement message, without risking the client repeatedly retransmitting the request message (see also the discussion of PROCESSING_DELAY in Section 4.8.2).  The response to a request carried in a Non-confirmable message is always sent separately (as there is no Acknowledgement message).
+"ko": |-
+  모든 경우에 피기백 응답을 반환하는 것이 불가능할 수도 있습니다. 예를 들어, 서버는 클라이언트가 요청 메시지를 반복적으로 재전송할 위험 없이 승인 메시지를 다시 보내기 위해 기다릴 수 있는 것보다 요청된 리소스의 표현을 얻는 데 더 오랜 시간이 필요할 수 있습니다(섹션 4.8.2의 PROCESSING_DELAY에 대한 논의도 참조). 확인 불가능 메시지에 포함된 요청에 대한 응답은 항상 별도로 전송됩니다(승인 메시지가 없기 때문에).

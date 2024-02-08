@@ -1,0 +1,20 @@
+"hash": |-
+  92272016216f1d9c918b2f94230744ad626d4129bc2a043ef7b1b7c105395432
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a cache has a stale entry that it would like to use as a
+     response to a client's request, it first has to check with the origin
+     server (or possibly an intermediate cache with a fresh response) to
+     see if its cached entry is still usable.  This is called "validating"
+     the cache entry.  To avoid having to pay the overhead of
+     retransmitting the full response if the cached entry is good, and at
+     the same time avoiding having to pay the overhead of an extra round
+     trip if the cached entry is invalid, RTSP supports the use of
+     conditional methods.
+"fixed": |-
+  When a cache has a stale entry that it would like to use as a response to a client's request, it first has to check with the origin server (or possibly an intermediate cache with a fresh response) to see if its cached entry is still usable.  This is called "validating" the cache entry.  To avoid having to pay the overhead of retransmitting the full response if the cached entry is good, and at the same time avoiding having to pay the overhead of an extra round trip if the cached entry is invalid, RTSP supports the use of conditional methods.
+"ko": |-
+  캐시에 클라이언트 요청에 대한 응답으로 사용하려는 오래된 항목이 있는 경우 먼저 원본 서버(또는 새로운 응답이 있는 중간 캐시)를 확인하여 캐시된 항목이 여전히 사용 가능한지 확인해야 합니다. . 이를 캐시 항목의 "검증"이라고 합니다. 캐시된 항목이 양호할 경우 전체 응답을 재전송하는 오버헤드를 지불하지 않고 동시에 캐시된 항목이 유효하지 않은 경우 추가 왕복으로 인한 오버헤드를 지불하지 않기 위해 RTSP는 조건부 방법 사용을 지원합니다.

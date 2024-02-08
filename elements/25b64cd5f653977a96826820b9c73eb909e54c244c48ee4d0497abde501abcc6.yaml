@@ -1,0 +1,24 @@
+"hash": |-
+  25b64cd5f653977a96826820b9c73eb909e54c244c48ee4d0497abde501abcc6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that while the ECDH_ECDSA, ECDHE_ECDSA, ECDH_RSA, and ECDHE_RSA
+     key exchange algorithms require the server's certificate to be signed
+     with a particular signature scheme, this specification (following the
+     similar cases of DH_DSS, DHE_DSS, DH_RSA, and DHE_RSA in [2] and [3])
+     does not impose restrictions on signature schemes used elsewhere in
+     the certificate chain.  (Often such restrictions will be useful, and
+     it is expected that this will be taken into account in certification
+     authorities' signing practices.  However, such restrictions are not
+     strictly required in general: Even if it is beyond the capabilities
+     of a client to completely validate a given chain, the client may be
+     able to validate the server's certificate by relying on a trusted
+     certification authority whose certificate appears as one of the
+     intermediate certificates in the chain.)
+"fixed": |-
+  Note that while the ECDH_ECDSA, ECDHE_ECDSA, ECDH_RSA, and ECDHE_RSA key exchange algorithms require the server's certificate to be signed with a particular signature scheme, this specification (following the similar cases of DH_DSS, DHE_DSS, DH_RSA, and DHE_RSA in [2] and [3]) does not impose restrictions on signature schemes used elsewhere in the certificate chain.  (Often such restrictions will be useful, and it is expected that this will be taken into account in certification authorities' signing practices.  However, such restrictions are not strictly required in general: Even if it is beyond the capabilities of a client to completely validate a given chain, the client may be able to validate the server's certificate by relying on a trusted certification authority whose certificate appears as one of the intermediate certificates in the chain.)
+"ko": |-
+  ECDH_ECDSA, ECDHE_ECDSA, ECDH_RSA 및 ECDHE_RSA 키 교환 알고리즘은 서버의 인증서가 특정 서명 체계로 서명되어야 하는 반면, 이 사양은 ([2] 및 [의 DH_DSS, DHE_DSS, DH_RSA 및 DHE_RSA의 유사한 사례에 따름) 3]) 인증서 체인의 다른 곳에서 사용되는 서명 체계에 제한을 두지 않습니다. (종종 이러한 제한은 유용하며 인증 기관의 서명 관행에서 고려될 것으로 예상됩니다. 그러나 이러한 제한은 일반적으로 엄격하게 요구되지는 않습니다. 클라이언트의 능력을 완전히 검증할 수 없는 경우에도 특정 체인에서 클라이언트는 인증서가 체인의 중간 인증서 중 하나로 나타나는 신뢰할 수 있는 인증 기관에 의존하여 서버 인증서의 유효성을 검사할 수 있습니다.

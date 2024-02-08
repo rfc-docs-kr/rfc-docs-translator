@@ -1,0 +1,18 @@
+"hash": |-
+  38c27c3cd22e0d7ff2c9c5f2158c4a95baaa24108d970de3b546e6599747a58b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A certificate is self-issued if the DNs that appear in the subject
+     and issuer fields are identical and are not empty.  In general, the
+     issuer and subject of the certificates that make up a path are
+     different for each certificate.  However, a CA may issue a
+     certificate to itself to support key rollover or changes in
+     certificate policies.  These self-issued certificates are not counted
+     when evaluating path length or name constraints.
+"fixed": |-
+  A certificate is self-issued if the DNs that appear in the subject and issuer fields are identical and are not empty.  In general, the issuer and subject of the certificates that make up a path are different for each certificate.  However, a CA may issue a certificate to itself to support key rollover or changes in certificate policies.  These self-issued certificates are not counted when evaluating path length or name constraints.
+"ko": |-
+  제목 및 발급자 필드에 나타나는 DN이 ​​동일하고 비어 있지 않으면 인증서가 자체 발급됩니다. 일반적으로 경로를 구성하는 인증서의 발급자와 주체는 인증서마다 다릅니다. 그러나 CA는 키 롤오버 또는 인증서 정책 변경을 지원하기 위해 자체적으로 인증서를 발급할 수 있습니다. 이러한 자체 발급 인증서는 경로 길이 또는 이름 제약 조건을 평가할 때 계산되지 않습니다.

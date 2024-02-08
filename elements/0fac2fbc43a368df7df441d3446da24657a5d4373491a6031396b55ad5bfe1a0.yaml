@@ -1,0 +1,20 @@
+"hash": |-
+  0fac2fbc43a368df7df441d3446da24657a5d4373491a6031396b55ad5bfe1a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Further, if the only subject identity included in the certificate is
+     an alternative name form (e.g., an electronic mail address), then the
+     subject distinguished name MUST be empty (an empty sequence), and the
+     subjectAltName extension MUST be present.  If the subject field
+     contains an empty sequence, then the issuing CA MUST include a
+     subjectAltName extension that is marked as critical.  When including
+     the subjectAltName extension in a certificate that has a non-empty
+     subject distinguished name, conforming CAs SHOULD mark the
+     subjectAltName extension as non-critical.
+"fixed": |-
+  Further, if the only subject identity included in the certificate is an alternative name form (e.g., an electronic mail address), then the subject distinguished name MUST be empty (an empty sequence), and the subjectAltName extension MUST be present.  If the subject field contains an empty sequence, then the issuing CA MUST include a subjectAltName extension that is marked as critical.  When including the subjectAltName extension in a certificate that has a non-empty subject distinguished name, conforming CAs SHOULD mark the subjectAltName extension as non-critical.
+"ko": |-
+  또한 인증서에 포함된 유일한 주체 신원이 대체 이름 형식(예: 전자 메일 주소)인 경우 주체 고유 이름은 비어 있어야 하며(빈 시퀀스) subjectAltName 확장이 있어야 합니다. 제목 필드에 빈 시퀀스가 ​​포함된 경우 발급 CA는 중요로 표시된 subjectAltName 확장을 포함해야 합니다. 비어 있지 않은 주체 고유 이름이 있는 인증서에 subjectAltName 확장을 포함할 때, 준수 CA는 subjectAltName 확장을 중요하지 않은 것으로 표시해야 합니다.

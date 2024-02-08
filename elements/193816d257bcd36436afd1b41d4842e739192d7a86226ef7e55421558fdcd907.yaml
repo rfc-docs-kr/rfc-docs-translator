@@ -1,0 +1,23 @@
+"hash": |-
+  193816d257bcd36436afd1b41d4842e739192d7a86226ef7e55421558fdcd907
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     HTTP server implementations accessed via the URI SHOULD specify the
+     media type application/pkix-cert [RFC2585] in the content-type header
+     field of the response for a single DER encoded certificate and SHOULD
+     specify the media type application/pkcs7-mime [RFC2797] in the
+     content-type header field of the response for "certs-only" CMS
+     messages.  For FTP, the name of a file that contains a single DER
+     encoded certificate SHOULD have a suffix of ".cer" [RFC2585] and the
+     name of a file that contains a "certs-only" CMS message SHOULD have a
+     suffix of ".p7c" [RFC2797].  Consuming clients may use the media type
+     or file extension as a hint to the content, but should not depend
+     solely on the presence of the correct media type or file extension in
+     the server response.
+"fixed": |-
+  HTTP server implementations accessed via the URI SHOULD specify the media type application/pkix-cert [RFC2585] in the content-type header field of the response for a single DER encoded certificate and SHOULD specify the media type application/pkcs7-mime [RFC2797] in the content-type header field of the response for "certs-only" CMS messages.  For FTP, the name of a file that contains a single DER encoded certificate SHOULD have a suffix of ".cer" [RFC2585] and the name of a file that contains a "certs-only" CMS message SHOULD have a suffix of ".p7c" [RFC2797].  Consuming clients may use the media type or file extension as a hint to the content, but should not depend solely on the presence of the correct media type or file extension in the server response.
+"ko": |-
+  URI를 통해 액세스되는 HTTP 서버 구현은 단일 DER 인코딩 인증서에 대한 응답의 콘텐츠 유형 헤더 필드에 미디어 유형 application/pkix-cert [RFC2585]를 지정해야 하며 미디어 유형 application/pkcs7-mime [RFC2797]을 지정해야 합니다. "인증서 전용" CMS 메시지에 대한 응답의 콘텐츠 유형 헤더 필드에 있습니다. FTP의 경우 단일 DER 인코딩 인증서를 포함하는 파일 이름에는 ".cer" [RFC2585] 접미사가 있어야 하고 "인증서 전용" CMS 메시지를 포함하는 파일 이름에는 ".cer" 접미사가 있어야 합니다. p7c" [RFC2797]. 소비자 클라이언트는 미디어 유형이나 파일 확장자를 콘텐츠에 대한 힌트로 사용할 수 있지만 서버 응답에 올바른 미디어 유형이나 파일 확장자가 있는지에만 의존해서는 안 됩니다.

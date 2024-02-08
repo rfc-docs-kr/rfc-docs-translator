@@ -1,0 +1,14 @@
+"hash": |-
+  975b5f02d113f3c4e54da8dc4e0cf03f359ac11229b1c59b65b5be2a804dae14
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Rationale: Based on [RFC3766], at least 112 bits of security is
+        needed.  40-bit and 56-bit security are considered insecure today.
+        TLS 1.1 and 1.2 never negotiate 40-bit or 56-bit export ciphers.
+"fixed": |-
+  - Rationale: Based on [RFC3766], at least 112 bits of security is needed.  40-bit and 56-bit security are considered insecure today. TLS 1.1 and 1.2 never negotiate 40-bit or 56-bit export ciphers.
+"ko": |-
+  - 근거: [RFC3766]에 따르면 최소 112비트의 보안이 필요합니다. 현재 40비트 및 56비트 보안은 안전하지 않은 것으로 간주됩니다. TLS 1.1 및 1.2는 40비트 또는 56비트 내보내기 암호를 협상하지 않습니다.

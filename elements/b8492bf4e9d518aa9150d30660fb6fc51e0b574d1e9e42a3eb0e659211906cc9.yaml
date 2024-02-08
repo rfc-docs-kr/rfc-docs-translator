@@ -1,0 +1,16 @@
+"hash": |-
+  b8492bf4e9d518aa9150d30660fb6fc51e0b574d1e9e42a3eb0e659211906cc9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When there are multiple exit points toward a given peer, and only one
+     of them is congested, it is not necessary to shift traffic away from
+     the peer entirely, but only from the one congested connection.  This
+     can be achieved by using passive IGP metrics, AS_PATH filtering, or
+     prefix filtering.
+"fixed": |-
+  When there are multiple exit points toward a given peer, and only one of them is congested, it is not necessary to shift traffic away from the peer entirely, but only from the one congested connection.  This can be achieved by using passive IGP metrics, AS_PATH filtering, or prefix filtering.
+"ko": |-
+  지정된 피어를 향한 여러 출구 지점이 있고 그 중 하나만 혼잡한 경우 트래픽을 피어에서 완전히 멀리 이동할 필요가 없고 혼잡한 연결에서만 트래픽을 이동할 수 있습니다. 이는 수동 IGP 메트릭, AS_PATH 필터링 또는 접두사 필터링을 사용하여 달성할 수 있습니다.

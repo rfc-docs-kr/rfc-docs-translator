@@ -1,0 +1,23 @@
+"hash": |-
+  0b924c1ad185448ea7af312ad91863c3c73c59e458c4960d5393bd2b835f357e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The existence of proxies must always be considered when developing
+     new RTSP extensions.  Most types of proxies will need to implement
+     any new method to operate correctly in the presence of that
+     extension.  New headers can be introduced and will not be blocked by
+     older proxies.  However, it is important to consider if this header
+     and its function are required to be understood by the proxy or if it
+     can be simply forwarded.  If the header needs to be understood, a
+     feature tag representing the functionality MUST be included in the
+     Proxy-Require header.  Below are guidelines for analysis whether the
+     header needs to be understood.  The Transport header and its
+     parameters are extensible, which requires handling rules for a proxy
+     in order to ensure a correct interpretation.
+"fixed": |-
+  The existence of proxies must always be considered when developing new RTSP extensions.  Most types of proxies will need to implement any new method to operate correctly in the presence of that extension.  New headers can be introduced and will not be blocked by older proxies.  However, it is important to consider if this header and its function are required to be understood by the proxy or if it can be simply forwarded.  If the header needs to be understood, a feature tag representing the functionality MUST be included in the Proxy-Require header.  Below are guidelines for analysis whether the header needs to be understood.  The Transport header and its parameters are extensible, which requires handling rules for a proxy in order to ensure a correct interpretation.
+"ko": |-
+  새로운 RTSP 확장을 개발할 때는 항상 프록시의 존재를 고려해야 합니다. 대부분의 프록시 유형은 해당 확장이 있는 경우 올바르게 작동하려면 새로운 방법을 구현해야 합니다. 새로운 헤더가 도입될 수 있으며 이전 프록시에 의해 차단되지 않습니다. 그러나 이 헤더와 해당 기능이 프록시에서 이해되어야 하는지 아니면 단순히 전달될 수 있는지 고려하는 것이 중요합니다. 헤더를 이해해야 하는 경우 기능을 나타내는 기능 태그가 Proxy-Require 헤더에 포함되어야 합니다. 다음은 헤더를 이해해야 하는지 분석하기 위한 지침입니다. Transport 헤더와 해당 매개변수는 확장 가능하므로 올바른 해석을 보장하기 위해 프록시에 대한 처리 규칙이 필요합니다.

@@ -1,0 +1,1 @@
+위의 예에서 클라이언트는 미디어 리소스 "rtsp://example.com/foo/bar/baz.rm"을 포함하는 RTSP 세션을 생성하려고 합니다. 클라이언트가 허용하는 전송 매개변수는 RTSP 설정 연결이 시작되는 주소의 클라이언트 포트 4588 및 4589에서 수신되는 RTP/AVP/UDP(기본값은 UDP)이거나 RTSP 제어 채널에 인터리브된 RTP/AVP입니다. 서버는 RTP/AVP/UDP 전송을 선택하고 RTP 및 RTCP를 보내고 받을 주소와 포트, 그리고 서버에서 사용할 RTP SSRC를 추가합니다.

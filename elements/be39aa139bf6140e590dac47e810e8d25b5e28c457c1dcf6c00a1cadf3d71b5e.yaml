@@ -1,0 +1,15 @@
+"hash": |-
+  be39aa139bf6140e590dac47e810e8d25b5e28c457c1dcf6c00a1cadf3d71b5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AlgorithmIdentifier within SubjectPublicKeyInfo is the only place
+     within a certificate where the elliptic curve domain parameters may
+     be located.  If the elliptic curve domain parameters are not present,
+     then clients MUST reject the certificate.
+"fixed": |-
+  The AlgorithmIdentifier within SubjectPublicKeyInfo is the only place within a certificate where the elliptic curve domain parameters may be located.  If the elliptic curve domain parameters are not present, then clients MUST reject the certificate.
+"ko": |-
+  SubjectPublicKeyInfo 내의 AlgorithmIdentifier는 타원 곡선 도메인 매개변수가 위치할 수 있는 인증서 내의 유일한 위치입니다. 타원 곡선 도메인 매개변수가 없으면 클라이언트는 인증서를 거부해야 합니다.

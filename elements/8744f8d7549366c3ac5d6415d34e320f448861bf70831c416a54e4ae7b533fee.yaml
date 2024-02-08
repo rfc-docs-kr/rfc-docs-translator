@@ -1,0 +1,17 @@
+"hash": |-
+  8744f8d7549366c3ac5d6415d34e320f448861bf70831c416a54e4ae7b533fee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client verifies the signature (when present) and retrieves the
+     server's elliptic curve domain parameters and ephemeral ECDH public
+     key from the ServerKeyExchange message.  (A possible reason for a
+     fatal handshake failure is that the client's capabilities for
+     handling elliptic curves and point formats are exceeded;
+     cf. Section 5.1.)
+"fixed": |-
+  The client verifies the signature (when present) and retrieves the server's elliptic curve domain parameters and ephemeral ECDH public key from the ServerKeyExchange message.  (A possible reason for a fatal handshake failure is that the client's capabilities for handling elliptic curves and point formats are exceeded; cf. Section 5.1.)
+"ko": |-
+  클라이언트는 서명(있는 경우)을 확인하고 ServerKeyExchange 메시지에서 서버의 타원 곡선 도메인 매개변수와 임시 ECDH 공개 키를 검색합니다. (치명적인 핸드셰이크 실패의 가능한 이유는 타원 곡선 및 점 형식을 처리하는 클라이언트의 기능이 초과되었기 때문입니다. 섹션 5.1 참조)

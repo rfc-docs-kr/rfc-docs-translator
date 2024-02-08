@@ -1,0 +1,22 @@
+"hash": |-
+  89c9112b7eafb95ff863b441ff621440d107a9c4641e1816f1206ed0336a5ba8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Self-issued certificates provide CAs with one automated mechanism to
+     indicate changes in the CA's operations.  In particular, self-issued
+     certificates may be used to implement a graceful change-over from one
+     non-compromised CA key pair to the next.  Detailed procedures for "CA
+     key update" are specified in [RFC4210], where the CA protects its new
+     public key using its previous private key and vice versa using two
+     self-issued certificates.  Conforming client implementations will
+     process the self-issued certificate and determine whether
+     certificates issued under the new key may be trusted.  Self-issued
+     certificates MAY be used to support other changes in CA operations,
+     such as additions to the CA's policy set, using similar procedures.
+"fixed": |-
+  Self-issued certificates provide CAs with one automated mechanism to indicate changes in the CA's operations.  In particular, self-issued certificates may be used to implement a graceful change-over from one non-compromised CA key pair to the next.  Detailed procedures for "CA key update" are specified in [RFC4210], where the CA protects its new public key using its previous private key and vice versa using two self-issued certificates.  Conforming client implementations will process the self-issued certificate and determine whether certificates issued under the new key may be trusted.  Self-issued certificates MAY be used to support other changes in CA operations, such as additions to the CA's policy set, using similar procedures.
+"ko": |-
+  자체 발급 인증서는 CA 운영의 변경 사항을 표시하는 하나의 자동화된 메커니즘을 CA에 제공합니다. 특히, 자체 발급 인증서는 손상되지 않은 CA 키 쌍에서 다음 CA 키 쌍으로의 원활한 전환을 구현하는 데 사용될 수 있습니다. "CA 키 업데이트"에 대한 자세한 절차는 [RFC4210]에 명시되어 있습니다. 여기서 CA는 이전 개인 키를 사용하여 새 공개 키를 보호하고 그 반대로 자체 발급된 두 개의 인증서를 사용하여 보호합니다. 클라이언트 구현을 준수하면 자체 발급된 인증서를 처리하고 새 키로 발급된 인증서를 신뢰할 수 있는지 여부를 결정합니다. 자체 발급 인증서는 유사한 절차를 사용하여 CA 정책 세트에 추가하는 등 CA 작업의 다른 변경 사항을 지원하는 데 사용될 수 있습니다.

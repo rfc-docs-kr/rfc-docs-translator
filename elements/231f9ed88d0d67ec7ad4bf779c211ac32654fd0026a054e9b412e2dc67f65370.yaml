@@ -1,0 +1,21 @@
+"hash": |-
+  231f9ed88d0d67ec7ad4bf779c211ac32654fd0026a054e9b412e2dc67f65370
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  -- Naming attributes of type X520Title:
+  --   X520Title ::= DirectoryName (SIZE (1..ub-title))
+  --
+  -- Expanded to avoid parameterized type:
+  X520Title ::= CHOICE {
+        teletexString     TeletexString   (SIZE (1..ub-title)),
+        printableString   PrintableString (SIZE (1..ub-title)),
+        universalString   UniversalString (SIZE (1..ub-title)),
+        utf8String        UTF8String      (SIZE (1..ub-title)),
+        bmpString         BMPString       (SIZE (1..ub-title)) }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

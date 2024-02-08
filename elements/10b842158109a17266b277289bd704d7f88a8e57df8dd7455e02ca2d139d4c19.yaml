@@ -1,0 +1,20 @@
+"hash": |-
+  10b842158109a17266b277289bd704d7f88a8e57df8dd7455e02ca2d139d4c19
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation Note:  Unfortunately, over time, the URI format has
+        acquired significant complexity.  Implementers are encouraged to
+        examine [RFC3986] closely.  For example, the ABNF for IPv6
+        addresses is more complicated than maybe expected.  Also,
+        implementers should take care to perform the processing of
+        percent-decoding or percent-encoding exactly once on the way from
+        a URI to its decoded components or back.  Percent-encoding is
+        crucial for data transparency but may lead to unusual results such
+        as a slash character in a path component.
+"fixed": |-
+  Implementation Note:  Unfortunately, over time, the URI format has acquired significant complexity.  Implementers are encouraged to examine [RFC3986] closely.  For example, the ABNF for IPv6 addresses is more complicated than maybe expected.  Also, implementers should take care to perform the processing of percent-decoding or percent-encoding exactly once on the way from a URI to its decoded components or back.  Percent-encoding is crucial for data transparency but may lead to unusual results such as a slash character in a path component.
+"ko": |-
+  구현 참고 사항: 불행하게도 시간이 지남에 따라 URI 형식은 상당히 복잡해졌습니다. 구현자는 [RFC3986]을 면밀히 조사하는 것이 좋습니다. 예를 들어 IPv6 주소의 ABNF는 예상보다 더 복잡합니다. 또한 구현자는 URI에서 디코딩된 구성 요소로 또는 그 반대로 가는 도중에 퍼센트 디코딩 또는 퍼센트 인코딩 처리를 정확히 한 번 수행하도록 주의해야 합니다. 퍼센트 인코딩은 데이터 투명성을 위해 중요하지만 경로 구성 요소에 슬래시 문자와 같은 비정상적인 결과가 발생할 수 있습니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  0c4019cf759b58d13a0442824058ced44a246c732ddea8f8fb3f9c01e83ff80d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the process of selecting a language, each language tag is assigned
+     a qualification factor, i.e., if a language being supported by the
+     client is actually supported by the server and what "preference"
+     level the language achieves.  The quality value (q-value) of the
+     longest language-range in the field that matches the language tag is
+     assigned as the qualification factor for a particular language tag.
+     If no language-range in the field matches the tag, the language
+     qualification factor assigned is 0.  If no Accept-Language header is
+     present in the request, the server SHOULD assume that all languages
+     are equally acceptable.  If an Accept-Language header is present,
+     then all languages that are assigned a qualification factor greater
+     than 0 are acceptable.
+"fixed": |-
+  In the process of selecting a language, each language tag is assigned a qualification factor, i.e., if a language being supported by the client is actually supported by the server and what "preference" level the language achieves.  The quality value (q-value) of the longest language-range in the field that matches the language tag is assigned as the qualification factor for a particular language tag. If no language-range in the field matches the tag, the language qualification factor assigned is 0.  If no Accept-Language header is present in the request, the server SHOULD assume that all languages are equally acceptable.  If an Accept-Language header is present, then all languages that are assigned a qualification factor greater than 0 are acceptable.
+"ko": |-
+  언어를 선택하는 과정에서 각 언어 태그에는 자격 요소가 할당됩니다. 즉, 클라이언트가 지원하는 언어가 실제로 서버에서 지원되는지 여부와 해당 언어가 어떤 "기본 설정" 수준을 달성하는지를 나타냅니다. 해당 필드에서 언어 태그와 일치하는 가장 긴 언어 범위의 품질 값(q-value)이 특정 언어 태그에 대한 자격 요소로 할당됩니다. 필드의 언어 범위가 태그와 일치하지 않으면 할당된 언어 자격 요소는 0입니다. 요청에 Accept-Language 헤더가 없으면 서버는 모든 언어가 동일하게 허용된다고 가정해야 합니다. Accept-Language 헤더가 있는 경우 0보다 큰 자격 요소가 할당된 모든 언어가 허용됩니다.

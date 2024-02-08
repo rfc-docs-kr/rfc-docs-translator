@@ -1,0 +1,17 @@
+"hash": |-
+  bf8691059a8064f75e9b42b9933f72b77f797916b9baf7fcb49602b90bc647c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A REDIRECT request with a Session header has end-to-end (i.e.,
+     server-to-client) scope and applies only to the given session.  Any
+     intervening proxies SHOULD NOT disconnect the control channel while
+     there are other remaining end-to-end sessions.  The REQUIRED Location
+     header MUST contain a complete absolute URI pointing to the resource
+     to which the client SHOULD reconnect.  Specifically, the Location
+"fixed": |-
+  A REDIRECT request with a Session header has end-to-end (i.e., server-to-client) scope and applies only to the given session.  Any intervening proxies SHOULD NOT disconnect the control channel while there are other remaining end-to-end sessions.  The REQUIRED Location header MUST contain a complete absolute URI pointing to the resource to which the client SHOULD reconnect.  Specifically, the Location
+"ko": |-
+  세션 헤더가 있는 REDIRECT 요청은 엔드투엔드(즉, 서버에서 클라이언트로) 범위를 가지며 지정된 세션에만 적용됩니다. 다른 엔드투엔드 세션이 남아 있는 동안 개입하는 프록시는 제어 채널의 연결을 끊어서는 안 됩니다. REQUIRED Location 헤더에는 클라이언트가 다시 연결해야 하는 리소스를 가리키는 완전한 절대 URI가 포함되어야 합니다. 구체적으로는 위치

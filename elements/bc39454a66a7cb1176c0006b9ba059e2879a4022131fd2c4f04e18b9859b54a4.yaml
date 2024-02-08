@@ -1,0 +1,18 @@
+"hash": |-
+  bc39454a66a7cb1176c0006b9ba059e2879a4022131fd2c4f04e18b9859b54a4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server can request ECC-based client authentication by including
+     one or more of these certificate types in its CertificateRequest
+     message.  The server must not include any certificate types that are
+     prohibited for the negotiated key exchange algorithm.  The client
+     must check if it possesses a certificate appropriate for any of the
+     methods suggested by the server and is willing to use it for
+     authentication.
+"fixed": |-
+  The server can request ECC-based client authentication by including one or more of these certificate types in its CertificateRequest message.  The server must not include any certificate types that are prohibited for the negotiated key exchange algorithm.  The client must check if it possesses a certificate appropriate for any of the methods suggested by the server and is willing to use it for authentication.
+"ko": |-
+  서버는 CertificateRequest 메시지에 이러한 인증서 유형 중 하나 이상을 포함시켜 ECC 기반 클라이언트 인증을 요청할 수 있습니다. 서버는 협상된 키 교환 알고리즘에 대해 금지된 인증서 유형을 포함해서는 안 됩니다. 클라이언트는 서버가 제안한 방법에 적합한 인증서를 보유하고 있는지 확인하고 이를 인증에 사용할 의향이 있는지 확인해야 합니다.

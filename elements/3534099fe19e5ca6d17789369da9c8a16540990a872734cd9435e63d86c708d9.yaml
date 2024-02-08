@@ -7,7 +7,7 @@
 "original": |2-
         If the server does not accept CCC commands (or does not understand
         them), then a 500 reply should be sent.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - If the server does not accept CCC commands (or does not understand them), then a 500 reply should be sent.
+"ko": |-
+  - 서버가 CCC 명령을 받아들이지 않는 경우(또는 이를 이해하지 못하는 경우) 500 응답을 보내야 합니다.

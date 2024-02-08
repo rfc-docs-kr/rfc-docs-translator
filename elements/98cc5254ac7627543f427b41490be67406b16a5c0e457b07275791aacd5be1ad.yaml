@@ -1,0 +1,20 @@
+"hash": |-
+  98cc5254ac7627543f427b41490be67406b16a5c0e457b07275791aacd5be1ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Accept-Ranges general-header field allows indication of the
+     format supported in the Range header.  The client MUST include the
+     header in SETUP requests to indicate which formats are acceptable
+     when received in PLAY and PAUSE responses and REDIRECT requests.  The
+     server MUST include the header in SETUP responses and 456 (Header
+     Field Not Valid for Resource) error responses to indicate the formats
+     supported for the resource indicated by the Request-URI.  The header
+     MAY be included in GET_PARAMETER request and response pairs.  The
+     GET_PARAMETER request MUST contain a Session header to identify the
+"fixed": |-
+  The Accept-Ranges general-header field allows indication of the format supported in the Range header.  The client MUST include the header in SETUP requests to indicate which formats are acceptable when received in PLAY and PAUSE responses and REDIRECT requests.  The server MUST include the header in SETUP responses and 456 (Header Field Not Valid for Resource) error responses to indicate the formats supported for the resource indicated by the Request-URI.  The header MAY be included in GET_PARAMETER request and response pairs.  The GET_PARAMETER request MUST contain a Session header to identify the
+"ko": |-
+  Accept-Ranges 일반 헤더 필드를 사용하면 Range 헤더에서 지원되는 형식을 표시할 수 있습니다. 클라이언트는 PLAY 및 PAUSE 응답과 REDIRECT 요청에서 수신될 때 허용되는 형식을 나타내기 위해 SETUP 요청에 헤더를 포함해야 합니다. 서버는 Request-URI에 의해 표시된 리소스에 대해 지원되는 형식을 나타내기 위해 SETUP 응답과 456(리소스에 유효하지 않은 헤더 필드) 오류 응답에 헤더를 포함해야 합니다. 헤더는 GET_PARAMETER 요청 및 응답 쌍에 포함될 수 있습니다. GET_PARAMETER 요청에는 세션 헤더가 포함되어 있어야 합니다.

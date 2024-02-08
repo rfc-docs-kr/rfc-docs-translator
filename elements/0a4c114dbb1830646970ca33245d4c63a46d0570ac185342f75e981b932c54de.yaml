@@ -11,7 +11,7 @@
         transport layer MUST either have mechanisms to set these interface
         parameters, or provide a path to pass them through from an
         application, or both.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The interface between the IP layer and the transport layer MUST provide full access to all the mechanisms of the IP layer, including options, Type-of-Service, and Time-to-Live.  The transport layer MUST either have mechanisms to set these interface parameters, or provide a path to pass them through from an application, or both.
+"ko": |-
+  - IP 계층과 전송 계층 사이의 인터페이스는 옵션, 서비스 유형, TTL(Time-to-Live)을 포함하여 IP 계층의 모든 메커니즘에 대한 완전한 액세스를 제공해야 합니다. 전송 계층에는 이러한 인터페이스 매개변수를 설정하는 메커니즘이 있거나 애플리케이션에서 매개변수를 전달하는 경로를 제공해야 합니다. 또는 두 가지 모두가 필요합니다.

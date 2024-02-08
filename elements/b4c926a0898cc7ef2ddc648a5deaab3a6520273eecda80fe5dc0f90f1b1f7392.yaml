@@ -1,0 +1,17 @@
+"hash": |-
+  b4c926a0898cc7ef2ddc648a5deaab3a6520273eecda80fe5dc0f90f1b1f7392
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The PLAY_NOTIFY method is issued by a server to inform a client about
+     an asynchronous event for a session in Play state.  The Session
+     header MUST be presented in a PLAY_NOTIFY request and indicates the
+     scope of the request.  Sending of PLAY_NOTIFY requests requires a
+     persistent connection between server and client; otherwise, there is
+     no way for the server to send this request method to the client.
+"fixed": |-
+  The PLAY_NOTIFY method is issued by a server to inform a client about an asynchronous event for a session in Play state.  The Session header MUST be presented in a PLAY_NOTIFY request and indicates the scope of the request.  Sending of PLAY_NOTIFY requests requires a persistent connection between server and client; otherwise, there is no way for the server to send this request method to the client.
+"ko": |-
+  PLAY_NOTIFY 메서드는 클라이언트에 Play 상태의 세션에 대한 비동기 이벤트를 알리기 위해 서버에서 실행됩니다. 세션 헤더는 PLAY_NOTIFY 요청에 표시되어야 하며 요청 범위를 나타냅니다. PLAY_NOTIFY 요청을 보내려면 서버와 클라이언트 간의 지속적인 연결이 필요합니다. 그렇지 않으면 서버가 이 요청 메서드를 클라이언트에 보낼 방법이 없습니다.

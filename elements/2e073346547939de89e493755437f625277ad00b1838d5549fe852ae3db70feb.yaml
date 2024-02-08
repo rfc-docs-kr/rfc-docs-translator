@@ -1,0 +1,18 @@
+"hash": |-
+  2e073346547939de89e493755437f625277ad00b1838d5549fe852ae3db70feb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (a)  certificate:  The algorithm requires the certificate serial
+        number and issuer name to determine whether a certificate is on a
+        particular CRL.  The basicConstraints extension is used to
+        determine whether the supplied certificate is associated with a CA
+        or an end entity.  If present, the algorithm uses the
+        cRLDistributionsPoint and freshestCRL extensions to determine
+        revocation status.
+"fixed": |-
+  - (a)  certificate:  The algorithm requires the certificate serial number and issuer name to determine whether a certificate is on a particular CRL.  The basicConstraints extension is used to determine whether the supplied certificate is associated with a CA or an end entity.  If present, the algorithm uses the cRLDistributionsPoint and freshestCRL extensions to determine revocation status.
+"ko": |-
+  - (a) 인증서: 알고리즘에서는 인증서가 특정 CRL에 있는지 여부를 확인하기 위해 인증서 일련 번호와 발급자 이름이 필요합니다. basicConstraints 확장은 제공된 인증서가 CA 또는 최종 엔터티와 연결되어 있는지 확인하는 데 사용됩니다. 존재하는 경우 알고리즘은 cRLDistributionsPoint 및 freshestCRL 확장을 사용하여 해지 상태를 결정합니다.

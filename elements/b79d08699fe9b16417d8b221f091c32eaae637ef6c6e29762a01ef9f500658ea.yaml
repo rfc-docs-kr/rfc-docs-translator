@@ -1,0 +1,18 @@
+"hash": |-
+  b79d08699fe9b16417d8b221f091c32eaae637ef6c6e29762a01ef9f500658ea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the proxy is unable or unwilling to service a request with an HTTP
+     URI, a 5.05 (Proxying Not Supported) response is returned to the
+     client.  If the proxy services the request by interacting with a
+     third party (such as the HTTP origin server) and is unable to obtain
+     a result within a reasonable time frame, a 5.04 (Gateway Timeout)
+     response is returned; if a result can be obtained but is not
+     understood, a 5.02 (Bad Gateway) response is returned.
+"fixed": |-
+  If the proxy is unable or unwilling to service a request with an HTTP URI, a 5.05 (Proxying Not Supported) response is returned to the client.  If the proxy services the request by interacting with a third party (such as the HTTP origin server) and is unable to obtain a result within a reasonable time frame, a 5.04 (Gateway Timeout) response is returned; if a result can be obtained but is not understood, a 5.02 (Bad Gateway) response is returned.
+"ko": |-
+  프록시가 HTTP URI를 사용하여 요청을 처리할 수 없거나 처리할 의사가 없는 경우 5.05(프록시 지원 안 됨) 응답이 클라이언트에 반환됩니다. 프록시가 제3자(예: HTTP 원본 서버)와 상호 작용하여 요청을 처리하고 합리적인 시간 내에 결과를 얻을 수 없는 경우 5.04(게이트웨이 시간 초과) 응답이 반환됩니다. 결과를 얻을 수 있지만 이해할 수 없는 경우 5.02(잘못된 게이트웨이) 응답이 반환됩니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  ca3e6e19d5cfc2e034605f4ab8871cc309b4d4b29951528da028f1fdab8b1c8f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server will time out the session after the period of time
+     specified in the SETUP response, if no activity from the client is
+     detected.  Therefore, there exists a timeout event for all states
+     except Init.
+"fixed": |-
+  The server will time out the session after the period of time specified in the SETUP response, if no activity from the client is detected.  Therefore, there exists a timeout event for all states except Init.
+"ko": |-
+  클라이언트의 활동이 감지되지 않으면 서버는 SETUP 응답에 지정된 시간이 지나면 세션 시간을 초과합니다. 따라서 Init를 제외한 모든 상태에 대해 시간 초과 이벤트가 존재합니다.

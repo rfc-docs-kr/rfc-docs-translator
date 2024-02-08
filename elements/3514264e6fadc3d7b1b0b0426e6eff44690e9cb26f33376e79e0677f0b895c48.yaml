@@ -1,0 +1,20 @@
+"hash": |-
+  3514264e6fadc3d7b1b0b0426e6eff44690e9cb26f33376e79e0677f0b895c48
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        (f)  policy_mapping:  an integer that indicates if policy mapping
+             is permitted.  The integer indicates the number of non-self-
+             issued certificates to be processed before policy mapping is
+             inhibited.  Once set, this variable may be decreased, but may
+             not be increased.  That is, if a certificate in the path
+             specifies that policy mapping is not permitted, it cannot be
+             overridden by a later certificate.  If initial-policy-
+             mapping-inhibit is set, then the initial value is 0,
+             otherwise the initial value is n+1.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

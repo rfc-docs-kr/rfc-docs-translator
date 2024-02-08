@@ -1,0 +1,14 @@
+"hash": |-
+  6772000d7be9a75802363471a4763ba794fa4d836105971dbce02961552037fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (a)  If a policy mapping extension is present, verify that the
+        special value anyPolicy does not appear as an issuerDomainPolicy
+        or a subjectDomainPolicy.
+"fixed": |-
+  - (a)  If a policy mapping extension is present, verify that the special value anyPolicy does not appear as an issuerDomainPolicy or a subjectDomainPolicy.
+"ko": |-
+  - (a) 정책 매핑 확장이 있는 경우 특수 값 anyPolicy가 issuerDomainPolicy 또는 subjectDomainPolicy로 표시되지 않는지 확인합니다.

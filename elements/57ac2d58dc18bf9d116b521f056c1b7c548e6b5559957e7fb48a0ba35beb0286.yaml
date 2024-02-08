@@ -1,0 +1,24 @@
+"hash": |-
+  57ac2d58dc18bf9d116b521f056c1b7c548e6b5559957e7fb48a0ba35beb0286
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A naive implementation of Speed would only affect the transmission
+     schedule of the media and has a clear impact on the needed bandwidth.
+     This would result in the data rate being proportional to the speed
+     factor.  Speed = 1.5, i.e., 50% faster than normal delivery, would
+     result in a 50% increase in the data-transport rate.  Whether or not
+     that can be supported depends solely on the underlying network path.
+     Scale may also have some impact on the required bandwidth due to the
+     manipulation of the content in the new playback schedule.  An example
+     is fast forward where only the independently decodable intra-frames
+     are included in the media stream.  This usage of solely intra-frames
+     increases the data rate significantly compared to a normal sequence
+     with the same number of frames, where most frames are encoded using
+     prediction.
+"fixed": |-
+  A naive implementation of Speed would only affect the transmission schedule of the media and has a clear impact on the needed bandwidth. This would result in the data rate being proportional to the speed factor.  Speed = 1.5, i.e., 50% faster than normal delivery, would result in a 50% increase in the data-transport rate.  Whether or not that can be supported depends solely on the underlying network path. Scale may also have some impact on the required bandwidth due to the manipulation of the content in the new playback schedule.  An example is fast forward where only the independently decodable intra-frames are included in the media stream.  This usage of solely intra-frames increases the data rate significantly compared to a normal sequence with the same number of frames, where most frames are encoded using prediction.
+"ko": |-
+  순진한 속도 구현은 미디어의 전송 일정에만 영향을 미치며 필요한 대역폭에도 분명한 영향을 미칩니다. 이로 인해 데이터 속도는 속도 요소에 비례하게 됩니다. 속도 = 1.5, 즉 일반 전송보다 50% 빠르면 데이터 전송 속도가 50% 증가합니다. 지원 여부는 기본 네트워크 경로에 따라 다릅니다. 규모는 새로운 재생 일정의 콘텐츠 조작으로 인해 필요한 대역폭에 어느 정도 영향을 미칠 수도 있습니다. 예를 들어 독립적으로 디코딩 가능한 인트라 프레임만 미디어 스트림에 포함되는 빨리 감기가 있습니다. 인트라 프레임만 사용하면 대부분의 프레임이 예측을 사용하여 인코딩되는 프레임 수가 동일한 일반 시퀀스에 비해 데이터 속도가 크게 증가합니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  a3e3ed24f5a41a23f8ccd12ec874fbaf18218523d1ed14fc394ebaa09525ff90
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Scale (Section 18.46) is used for fast-forward or slow-motion control
+     as it changes the amount of content timescale that should be played
+     back per time unit.  Scale > 1.0, means fast forward, e.g., scale =
+     2.0 results in that 2 seconds of content being played back every
+     second of playback.  Scale = 1.0 is the default value that is used if
+     no scale is specified, i.e., playback at the content's original rate.
+     Scale values between 0 and 1.0 provide for slow motion.  Scale can be
+     negative to allow for reverse playback in either regular pace
+     (scale = -1.0), fast backwards (scale < -1.0), or slow-motion
+     backwards (-1.0 < scale < 0).  Scale = 0 would be equal to pause and
+     is not allowed.
+"fixed": |-
+  Scale (Section 18.46) is used for fast-forward or slow-motion control as it changes the amount of content timescale that should be played back per time unit.  Scale > 1.0, means fast forward, e.g., scale = 2.0 results in that 2 seconds of content being played back every second of playback.  Scale = 1.0 is the default value that is used if no scale is specified, i.e., playback at the content's original rate. Scale values between 0 and 1.0 provide for slow motion.  Scale can be negative to allow for reverse playback in either regular pace (scale = -1.0), fast backwards (scale < -1.0), or slow-motion backwards (-1.0 < scale < 0).  Scale = 0 would be equal to pause and is not allowed.
+"ko": |-
+  Scale(18.46절)은 시간 단위당 재생되어야 하는 콘텐츠 시간 단위의 양을 변경하므로 빨리 감기 또는 슬로우 모션 제어에 사용됩니다. Scale > 1.0은 빨리 감기를 의미합니다. 예를 들어 scale = 2.0이면 매 재생 시마다 2초의 콘텐츠가 재생됩니다. 배율 = 1.0은 배율이 지정되지 않은 경우, 즉 콘텐츠의 원래 속도로 재생되는 경우 사용되는 기본값입니다. 0에서 1.0 사이의 배율 값은 느린 동작을 제공합니다. 배율은 음수일 수 있어 일반 속도(scale = -1.0), 빨리 뒤로(scale < -1.0) 또는 뒤로 느린 동작(-1.0 < scale < 0)으로 역방향 재생을 허용합니다. Scale = 0은 일시 중지와 동일하며 허용되지 않습니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  fb479635e0ca9c85c4173031540e8afaacbeffe1b143f3511262108195072e5f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A mask generation function takes an octet string of variable length
+     and a desired output length as input, and outputs an octet string of
+     the desired length. There may be restrictions on the length of the
+     input and output octet strings, but such bounds are generally very
+     large. Mask generation functions are deterministic; the octet string
+     output is completely determined by the input octet string. The output
+     of a mask generation function should be pseudorandom, that is, if the
+     seed to the function is unknown, it should be infeasible to
+     distinguish the output from a truly random string. The plaintext-
+     awareness of RSAES-OAEP relies on the random nature of the output of
+     the mask generation function, which in turn relies on the random
+     nature of the underlying hash.
+"fixed": |-
+  A mask generation function takes an octet string of variable length and a desired output length as input, and outputs an octet string of the desired length. There may be restrictions on the length of the input and output octet strings, but such bounds are generally very large. Mask generation functions are deterministic; the octet string output is completely determined by the input octet string. The output of a mask generation function should be pseudorandom, that is, if the seed to the function is unknown, it should be infeasible to distinguish the output from a truly random string. The plaintext- awareness of RSAES-OAEP relies on the random nature of the output of the mask generation function, which in turn relies on the random nature of the underlying hash.
+"ko": |-
+  마스크 생성 기능은 가변 길이의 옥텟 문자열과 원하는 출력 길이를 입력으로 받아 원하는 길이의 옥텟 문자열을 출력합니다. 입력 및 출력 옥텟 문자열의 길이에 제한이 있을 수 있지만 일반적으로 이러한 범위는 매우 큽니다. 마스크 생성 기능은 결정적입니다. 옥텟 문자열 출력은 입력 옥텟 문자열에 의해 완전히 결정됩니다. 마스크 생성 함수의 출력은 의사 난수여야 합니다. 즉, 함수의 시드를 알 수 없는 경우 출력을 실제 무작위 문자열과 구별하는 것이 불가능해야 합니다. RSAES-OAEP의 일반 텍스트 인식은 마스크 생성 기능 출력의 무작위 특성에 의존하며, 이는 다시 기본 해시의 무작위 특성에 의존합니다.

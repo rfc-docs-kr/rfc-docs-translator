@@ -1,0 +1,20 @@
+"hash": |-
+  0aa6b17d277bb044bd02252b914d984a9aff92f11de09edb0c60bea5850cf6db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A persistent connection is RECOMMENDED to be used for all
+     transactions between the server and client, including messages for
+     multiple RTSP sessions.  However, a persistent connection MAY be
+     closed after a few message exchanges.  For example, a client may use
+     a persistent connection for the initial SETUP and PLAY message
+     exchanges in a session and then close the connection.  Later, when
+     the client wishes to send a new request, such as a PAUSE for the
+     session, a new connection would be opened.  This connection may be
+     either transient or persistent.
+"fixed": |-
+  A persistent connection is RECOMMENDED to be used for all transactions between the server and client, including messages for multiple RTSP sessions.  However, a persistent connection MAY be closed after a few message exchanges.  For example, a client may use a persistent connection for the initial SETUP and PLAY message exchanges in a session and then close the connection.  Later, when the client wishes to send a new request, such as a PAUSE for the session, a new connection would be opened.  This connection may be either transient or persistent.
+"ko": |-
+  여러 RTSP 세션에 대한 메시지를 포함하여 서버와 클라이언트 간의 모든 트랜잭션에 영구 연결을 사용하는 것이 좋습니다. 그러나 몇 번의 메시지 교환 후에는 지속적인 연결이 닫힐 수 있습니다. 예를 들어, 클라이언트는 세션에서 초기 SETUP 및 PLAY 메시지 교환을 위해 영구 연결을 사용한 다음 연결을 닫을 수 있습니다. 나중에 클라이언트가 세션에 대한 PAUSE와 같은 새 요청을 보내려고 하면 새 연결이 열립니다. 이 연결은 일시적이거나 지속적일 수 있습니다.

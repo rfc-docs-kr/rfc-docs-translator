@@ -1,0 +1,20 @@
+"hash": |-
+  4d22f7f0eb54bcd59cb9f0df6816b7291be96ca5cddfed131491f14c6af42a5a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  IssuingDistributionPoint ::= SEQUENCE {
+       distributionPoint          [0] DistributionPointName OPTIONAL,
+       onlyContainsUserCerts      [1] BOOLEAN DEFAULT FALSE,
+       onlyContainsCACerts        [2] BOOLEAN DEFAULT FALSE,
+       onlySomeReasons            [3] ReasonFlags OPTIONAL,
+       indirectCRL                [4] BOOLEAN DEFAULT FALSE,
+       onlyContainsAttributeCerts [5] BOOLEAN DEFAULT FALSE }
+       -- at most one of onlyContainsUserCerts, onlyContainsCACerts,
+       -- and onlyContainsAttributeCerts may be set to TRUE.
+"fixed": |-
+  IssuingDistributionPoint ::= SEQUENCE { distributionPoint          [0] DistributionPointName OPTIONAL, onlyContainsUserCerts      [1] BOOLEAN DEFAULT FALSE, onlyContainsCACerts        [2] BOOLEAN DEFAULT FALSE, onlySomeReasons            [3] ReasonFlags OPTIONAL, indirectCRL                [4] BOOLEAN DEFAULT FALSE, onlyContainsAttributeCerts [5] BOOLEAN DEFAULT FALSE } -- at most one of onlyContainsUserCerts, onlyContainsCACerts, -- and onlyContainsAttributeCerts may be set to TRUE.
+"ko": |-
+  IssuingDistributionPoint ::= SEQUENCE { distributionPoint [0] DistributionPointName OPTIONAL, onlyContainsUserCerts [1] BOOLEAN DEFAULT FALSE, onlyContainsCACerts [2] BOOLEAN DEFAULT FALSE, onlySomeReasons [3] ReasonFlags OPTIONAL, indirectCRL [4] BOOLEAN DEFAULT FALSE, onlyContainsAttributeCerts [5] BOOLEAN DEFAULT FALSE } -- onlyContainsUserCerts, onlyContainsCACerts, -- 및 onlyContainsAttributeCerts 중 최대 하나가 TRUE로 설정될 수 있습니다.

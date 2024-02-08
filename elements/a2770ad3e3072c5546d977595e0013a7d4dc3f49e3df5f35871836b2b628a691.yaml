@@ -1,0 +1,24 @@
+"hash": |-
+  a2770ad3e3072c5546d977595e0013a7d4dc3f49e3df5f35871836b2b628a691
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardCidrRouteGroup OBJECT-GROUP
+         OBJECTS { ipCidrRouteNumber,
+                   ipCidrRouteDest, ipCidrRouteMask, ipCidrRouteTos,
+                   ipCidrRouteNextHop, ipCidrRouteIfIndex,
+                   ipCidrRouteType, ipCidrRouteProto, ipCidrRouteAge,
+                   ipCidrRouteInfo,ipCidrRouteNextHopAS,
+                   ipCidrRouteMetric1, ipCidrRouteMetric2,
+                   ipCidrRouteMetric3, ipCidrRouteMetric4,
+                   ipCidrRouteMetric5, ipCidrRouteStatus
+             }
+         STATUS     deprecated
+         DESCRIPTION
+                "The CIDR Route Table.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

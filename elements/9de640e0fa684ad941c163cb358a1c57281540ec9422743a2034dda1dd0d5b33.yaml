@@ -1,0 +1,23 @@
+"hash": |-
+  9de640e0fa684ad941c163cb358a1c57281540ec9422743a2034dda1dd0d5b33
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A CoAP endpoint that sent a Confirmable message MAY give up in
+     attempting to obtain an ACK even before the MAX_RETRANSMIT counter
+     value is reached.  For example, the application has canceled the
+     request as it no longer needs a response, or there is some other
+     indication that the CON message did arrive.  In particular, a CoAP
+     request message may have elicited a separate response, in which case
+     it is clear to the requester that only the ACK was lost and a
+     retransmission of the request would serve no purpose.  However, a
+     responder MUST NOT in turn rely on this cross-layer behavior from a
+     requester, i.e., it MUST retain the state to create the ACK for the
+     request, if needed, even if a Confirmable response was already
+     acknowledged by the requester.
+"fixed": |-
+  A CoAP endpoint that sent a Confirmable message MAY give up in attempting to obtain an ACK even before the MAX_RETRANSMIT counter value is reached.  For example, the application has canceled the request as it no longer needs a response, or there is some other indication that the CON message did arrive.  In particular, a CoAP request message may have elicited a separate response, in which case it is clear to the requester that only the ACK was lost and a retransmission of the request would serve no purpose.  However, a responder MUST NOT in turn rely on this cross-layer behavior from a requester, i.e., it MUST retain the state to create the ACK for the request, if needed, even if a Confirmable response was already acknowledged by the requester.
+"ko": |-
+  확인 가능 메시지를 보낸 CoAP 엔드포인트는 MAX_RETRANSMIT 카운터 값에 도달하기 전에도 ACK 획득 시도를 포기할 수 있습니다. 예를 들어, 애플리케이션이 더 이상 응답이 필요하지 않기 때문에 요청을 취소했거나 CON 메시지가 도착했다는 다른 표시가 있습니다. 특히, CoAP 요청 메시지가 별도의 응답을 이끌어냈을 수 있으며, 이 경우 ACK만 손실되었으며 요청을 재전송해도 아무 소용이 없다는 것이 요청자에게 분명합니다. 그러나 응답자는 요청자의 이러한 계층 간 동작에 의존해서는 안 됩니다. 즉, 요청자가 확인 가능한 응답을 이미 승인한 경우에도 필요한 경우 요청에 대한 ACK를 생성하기 위한 상태를 유지해야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  6a1c6cd7647518b4e9be867c5a27278b75f0ed773a1229201cec4e483419175e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If both the underlying reliable transport, such as TCP, and the
+        RTSP application retransmit requests, each packet loss or message
+        loss may result in two retransmissions.  The receiver typically
+        cannot take advantage of the application-layer retransmission
+        since the transport stack will not deliver the application-layer
+        retransmission before the first attempt has reached the receiver.
+        If the packet loss is caused by congestion, multiple
+        retransmissions at different layers will exacerbate the
+        congestion.
+"fixed": |-
+  - If both the underlying reliable transport, such as TCP, and the RTSP application retransmit requests, each packet loss or message loss may result in two retransmissions.  The receiver typically cannot take advantage of the application-layer retransmission since the transport stack will not deliver the application-layer retransmission before the first attempt has reached the receiver. If the packet loss is caused by congestion, multiple retransmissions at different layers will exacerbate the congestion.
+"ko": |-
+  - TCP와 같은 기본 신뢰할 수 있는 전송과 RTSP 애플리케이션이 모두 요청을 재전송하는 경우 각 패킷 손실 또는 메시지 손실로 인해 두 번의 재전송이 발생할 수 있습니다. 첫 번째 시도가 수신기에 도달하기 전에는 전송 스택이 애플리케이션 계층 재전송을 전달하지 않기 때문에 일반적으로 수신기는 애플리케이션 계층 재전송을 활용할 수 없습니다. 혼잡으로 인해 패킷 손실이 발생한 경우 서로 다른 계층에서 여러 번 재전송하면 혼잡이 악화됩니다.

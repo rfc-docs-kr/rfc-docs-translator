@@ -1,0 +1,21 @@
+"hash": |-
+  b7ff639ec668190a9fd89fa117bd2378ba62474e79d1c531ecce4726cc03af1e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Domain Names may also be represented as distinguished names using
+     domain components in the subject field, the issuer field, the
+     subjectAltName extension, or the issuerAltName extension.  As with
+     the dNSName in the GeneralName type, the value of this attribute is
+     defined as an IA5String.  Each domainComponent attribute represents a
+     single label.  To represent a label from an IDN in the distinguished
+     name, the implementation MUST perform the "ToASCII" label conversion
+     specified in Section 4.1 of RFC 3490.  The label SHALL be considered
+     a "stored string".  That is, the AllowUnassigned flag SHALL NOT be
+     set.
+"fixed": |-
+  Domain Names may also be represented as distinguished names using domain components in the subject field, the issuer field, the subjectAltName extension, or the issuerAltName extension.  As with the dNSName in the GeneralName type, the value of this attribute is defined as an IA5String.  Each domainComponent attribute represents a single label.  To represent a label from an IDN in the distinguished name, the implementation MUST perform the "ToASCII" label conversion specified in Section 4.1 of RFC 3490.  The label SHALL be considered a "stored string".  That is, the AllowUnassigned flag SHALL NOT be set.
+"ko": |-
+  도메인 이름은 제목 필드, 발급자 필드, subjectAltName 확장 또는 issuerAltName 확장의 도메인 구성 요소를 사용하여 고유 이름으로 표시될 수도 있습니다. GeneralName 유형의 dNSName과 마찬가지로 이 속성의 값은 IA5String으로 정의됩니다. 각 domainComponent 속성은 단일 레이블을 나타냅니다. 고유 이름으로 IDN의 레이블을 나타내려면 구현 시 RFC 3490의 섹션 4.1에 지정된 "ToASCII" 레이블 변환을 수행해야 합니다. 레이블은 "저장된 문자열"로 간주됩니다. 즉, AllowUnsigned 플래그는 설정되어서는 안 됩니다.

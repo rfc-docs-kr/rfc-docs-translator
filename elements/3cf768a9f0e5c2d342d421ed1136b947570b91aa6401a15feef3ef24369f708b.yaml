@@ -13,7 +13,7 @@
      used, then port stealing by a rogue client is still a problem.  If no
      strong authentication is in use at all (e.g., anonymous Diffie-
      Hellman), then the port stealing problem will remain.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  This specification will do little for the Denial of Service element of this section; however, strong authentication on the data connection will prevent unauthorised connections from retrieving or submitting files.  Of course, this is only the case where strong client authentication is being used.  If client certificates are not used, then port stealing by a rogue client is still a problem.  If no strong authentication is in use at all (e.g., anonymous Diffie- Hellman), then the port stealing problem will remain.
+"ko": |-
+  이 사양은 이 섹션의 서비스 거부 요소에 대해서는 거의 수행되지 않습니다. 그러나 데이터 연결에 대한 강력한 인증은 승인되지 않은 연결이 파일을 검색하거나 제출하는 것을 방지합니다. 물론 이는 강력한 클라이언트 인증이 사용되는 경우에만 해당됩니다. 클라이언트 인증서를 사용하지 않으면 불량 클라이언트에 의한 포트 도용이 여전히 문제가 됩니다. 강력한 인증이 전혀 사용되지 않는 경우(예: 익명 Diffie-Hellman) 포트 도용 문제는 그대로 유지됩니다.

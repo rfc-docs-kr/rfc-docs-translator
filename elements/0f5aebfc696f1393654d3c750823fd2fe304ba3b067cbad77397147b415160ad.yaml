@@ -1,0 +1,19 @@
+"hash": |-
+  0f5aebfc696f1393654d3c750823fd2fe304ba3b067cbad77397147b415160ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The goal of caching in CoAP is to reuse a prior response message to
+     satisfy a current request.  In some cases, a stored response can be
+     reused without the need for a network request, reducing latency and
+     network round-trips; a "freshness" mechanism is used for this purpose
+     (see Section 5.6.1).  Even when a new request is required, it is
+     often possible to reuse the payload of a prior response to satisfy
+     the request, thereby reducing network bandwidth usage; a "validation"
+     mechanism is used for this purpose (see Section 5.6.2).
+"fixed": |-
+  The goal of caching in CoAP is to reuse a prior response message to satisfy a current request.  In some cases, a stored response can be reused without the need for a network request, reducing latency and network round-trips; a "freshness" mechanism is used for this purpose (see Section 5.6.1).  Even when a new request is required, it is often possible to reuse the payload of a prior response to satisfy the request, thereby reducing network bandwidth usage; a "validation" mechanism is used for this purpose (see Section 5.6.2).
+"ko": |-
+  CoAP에서 캐싱의 목표는 이전 응답 메시지를 재사용하여 현재 요청을 만족시키는 것입니다. 어떤 경우에는 네트워크 요청 없이 저장된 응답을 재사용하여 대기 시간과 네트워크 왕복 시간을 줄일 수 있습니다. 이 목적을 위해 "신선도" 메커니즘이 사용됩니다(섹션 5.6.1 참조). 새로운 요청이 필요한 경우에도 요청을 충족하기 위해 이전 응답의 페이로드를 재사용하는 것이 가능한 경우가 많으므로 네트워크 대역폭 사용량이 줄어듭니다. 이 목적을 위해 "검증" 메커니즘이 사용됩니다(섹션 5.6.2 참조).

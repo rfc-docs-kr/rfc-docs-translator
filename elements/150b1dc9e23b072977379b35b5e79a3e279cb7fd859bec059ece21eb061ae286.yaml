@@ -1,0 +1,22 @@
+"hash": |-
+  150b1dc9e23b072977379b35b5e79a3e279cb7fd859bec059ece21eb061ae286
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRouteDiscards OBJECT-TYPE
+         SYNTAX     Counter32
+         MAX-ACCESS read-only
+         STATUS     current
+         DESCRIPTION
+                "The number of valid route entries discarded from the
+                 inetCidrRouteTable.  Discarded route entries do not
+                 appear in the inetCidrRouteTable.  One possible reason
+                 for discarding an entry would be to free-up buffer space
+                 for other route table entries."
+         ::= { ipForward 8 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

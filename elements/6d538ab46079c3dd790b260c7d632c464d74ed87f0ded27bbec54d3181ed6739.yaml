@@ -1,0 +1,16 @@
+"hash": |-
+  6d538ab46079c3dd790b260c7d632c464d74ed87f0ded27bbec54d3181ed6739
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  There are widely deployed client implementations that reject
+        received DH parameters if they are longer than 1024 bits.  In
+        addition, several implementations do not perform appropriate
+        validation of group parameters and are vulnerable to attacks
+        referenced in Section 2.9 of [RFC7457].
+"fixed": |-
+  -  There are widely deployed client implementations that reject received DH parameters if they are longer than 1024 bits.  In addition, several implementations do not perform appropriate validation of group parameters and are vulnerable to attacks referenced in Section 2.9 of [RFC7457].
+"ko": |-
+  - 수신된 DH 매개변수가 1024비트보다 길면 이를 거부하는 클라이언트 구현이 널리 배포되어 있습니다. 또한 여러 구현에서는 그룹 매개변수의 적절한 유효성 검사를 수행하지 않으며 [RFC7457]의 섹션 2.9에 참조된 공격에 취약합니다.

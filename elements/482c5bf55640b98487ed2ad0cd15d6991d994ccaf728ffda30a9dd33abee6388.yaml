@@ -1,0 +1,19 @@
+"hash": |-
+  482c5bf55640b98487ed2ad0cd15d6991d994ccaf728ffda30a9dd33abee6388
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the distributionPoint field is present, it contains either a
+     SEQUENCE of general names or a single value, nameRelativeToCRLIssuer.
+     If the cRLDistributionPoints extension contains a general name of
+     type URI, the following semantics MUST be assumed: the URI is a
+     pointer to the current CRL for the associated reasons and will be
+     issued by the associated cRLIssuer.  The expected values for the URI
+     are those defined in 4.2.1.7.  Processing rules for other values are
+     not defined by this specification.
+"fixed": |-
+  When the distributionPoint field is present, it contains either a SEQUENCE of general names or a single value, nameRelativeToCRLIssuer. If the cRLDistributionPoints extension contains a general name of type URI, the following semantics MUST be assumed: the URI is a pointer to the current CRL for the associated reasons and will be issued by the associated cRLIssuer.  The expected values for the URI are those defined in 4.2.1.7.  Processing rules for other values are not defined by this specification.
+"ko": |-
+  distributionPoint 필드가 있는 경우 일반 이름의 SEQUENCE 또는 단일 값 nameRelativeToCRLIssuer가 포함됩니다. cRLDistributionPoints 확장에 URI 유형의 일반 이름이 포함되어 있는 경우 다음 의미 체계를 가정해야 합니다. URI는 관련 이유로 인해 현재 CRL에 대한 포인터이며 관련 cRLIssuer에 의해 발급됩니다. URI의 예상 값은 4.2.1.7에 정의된 값입니다. 다른 값에 대한 처리 규칙은 이 사양에서 정의되지 않습니다.

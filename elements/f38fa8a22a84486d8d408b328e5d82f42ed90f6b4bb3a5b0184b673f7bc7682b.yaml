@@ -1,0 +1,21 @@
+"hash": |-
+  f38fa8a22a84486d8d408b328e5d82f42ed90f6b4bb3a5b0184b673f7bc7682b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRouteProto OBJECT-TYPE
+         SYNTAX     IANAipRouteProtocol
+         MAX-ACCESS read-only
+         STATUS     current
+         DESCRIPTION
+                "The routing mechanism via which this route was learned.
+                 Inclusion of values for gateway routing protocols is
+                 not intended to imply that hosts should support those
+                 protocols."
+         ::= { inetCidrRouteEntry 9 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

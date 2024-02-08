@@ -1,0 +1,19 @@
+"hash": |-
+  01688af37aef1d64714dac038f219379c836f5aa52f8bca5ef5ec0edb8d0ced7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 b.  For each P-OID in the user-initial-policy-set that is
+                     not the valid_policy of a node in the
+                     valid_policy_node_set, create a child node whose
+                     parent is the node of depth n-1 with the valid_policy
+                     anyPolicy.  Set the values in the child node as
+                     follows: set the valid_policy to P-OID, set the
+                     qualifier_set to P-Q, and set the expected_policy_set
+                     to {P-OID}.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

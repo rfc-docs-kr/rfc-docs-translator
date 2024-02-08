@@ -1,0 +1,24 @@
+"hash": |-
+  dc910cff7f843add8a470acbfa019b0a9e0c0e631043d42fb430b33d8123fc70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation Notes:  Note that, as the underlying datagram
+        transport may not be sequence-preserving, the Confirmable message
+        carrying the response may actually arrive before or after the
+        Acknowledgement message for the request; for the purposes of
+        terminating the retransmission sequence, this also serves as an
+        acknowledgement.  Note also that, while the CoAP protocol itself
+        does not make any specific demands here, there is an expectation
+        that the response will come within a time frame that is reasonable
+        from an application point of view.  As there is no underlying
+        transport protocol that could be instructed to run a keep-alive
+        mechanism, the requester may want to set up a timeout that is
+        unrelated to CoAP's retransmission timers in case the server is
+        destroyed or otherwise unable to send the response.
+"fixed": |-
+  Implementation Notes:  Note that, as the underlying datagram transport may not be sequence-preserving, the Confirmable message carrying the response may actually arrive before or after the Acknowledgement message for the request; for the purposes of terminating the retransmission sequence, this also serves as an acknowledgement.  Note also that, while the CoAP protocol itself does not make any specific demands here, there is an expectation that the response will come within a time frame that is reasonable from an application point of view.  As there is no underlying transport protocol that could be instructed to run a keep-alive mechanism, the requester may want to set up a timeout that is unrelated to CoAP's retransmission timers in case the server is destroyed or otherwise unable to send the response.
+"ko": |-
+  구현 참고 사항: 기본 데이터그램 전송이 순서를 보존하지 않을 수 있으므로 응답을 전달하는 확인 가능 메시지가 실제로 요청에 대한 승인 메시지 전후에 도착할 수 있습니다. 재전송 시퀀스를 종료할 목적으로 이는 승인 역할도 합니다. 또한 CoAP 프로토콜 자체는 여기에서 특별한 요구를 하지 않지만, 애플리케이션 관점에서 합리적인 시간 내에 응답이 올 것으로 기대됩니다. 연결 유지 메커니즘을 실행하도록 지시할 수 있는 기본 전송 프로토콜이 없기 때문에 요청자는 서버가 파괴되거나 응답을 보낼 수 없는 경우 CoAP의 재전송 타이머와 관련 없는 시간 제한을 설정하려고 할 수 있습니다.

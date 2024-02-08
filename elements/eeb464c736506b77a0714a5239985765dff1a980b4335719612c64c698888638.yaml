@@ -1,0 +1,14 @@
+"hash": |-
+  eeb464c736506b77a0714a5239985765dff1a980b4335719612c64c698888638
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     MUST NOT contain just the host and port.  A client may receive a
+     REDIRECT request with a Session header, if and only if, an end-to-end
+     session has been established.
+"fixed": |-
+  MUST NOT contain just the host and port.  A client may receive a REDIRECT request with a Session header, if and only if, an end-to-end session has been established.
+"ko": |-
+  호스트와 포트만 포함하면 안 됩니다. 클라이언트는 종단 간 세션이 설정된 경우에만 세션 헤더가 포함된 REDIRECT 요청을 받을 수 있습니다.

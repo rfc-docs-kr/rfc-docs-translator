@@ -1,0 +1,34 @@
+"hash": |-
+  d35d5d20e0776f2a8cc376bec4d2e86e55d2a384387677f9b9298f9a65d8cd71
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                             -- the following are all dynamic
+                             -- routing protocols
+                     egp        (5),  -- Exterior Gateway Protocol
+                     ggp        (6),  -- Gateway-Gateway Protocol
+                     hello      (7),  -- FuzzBall HelloSpeak
+                     rip        (8),  -- Berkeley RIP or RIP-II
+                     isIs       (9),  -- Dual IS-IS
+                     esIs       (10), -- ISO 9542
+                     ciscoIgrp  (11), -- Cisco IGRP
+                     bbnSpfIgp  (12), -- BBN SPF IGP
+                     ospf       (13), -- Open Shortest Path First
+                     bgp        (14), -- Border Gateway Protocol
+                     idpr       (15), -- InterDomain Policy Routing
+                     ciscoEigrp (16)  -- Cisco EIGRP
+                  }
+         MAX-ACCESS read-only
+         STATUS     deprecated
+         DESCRIPTION
+                "The routing mechanism via which this route was learned.
+                 Inclusion of values for gateway routing protocols is
+                 not intended to imply that hosts should support those
+                 protocols."
+         ::= { ipCidrRouteEntry 7 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

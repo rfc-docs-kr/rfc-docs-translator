@@ -1,0 +1,17 @@
+"hash": |-
+  6dcb69ccd50d135e0ed8c0413104702a58a7cebc79d9098b6b9ed6357f740233
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When using RSA, servers SHOULD authenticate using certificates with
+     at least a 2048-bit modulus for the public key.  In addition, the use
+     of the SHA-256 hash algorithm is RECOMMENDED (see [CAB-Baseline] for
+     more details).  Clients SHOULD indicate to servers that they request
+     SHA-256, by using the "Signature Algorithms" extension defined in
+     TLS 1.2.
+"fixed": |-
+  When using RSA, servers SHOULD authenticate using certificates with at least a 2048-bit modulus for the public key.  In addition, the use of the SHA-256 hash algorithm is RECOMMENDED (see [CAB-Baseline] for more details).  Clients SHOULD indicate to servers that they request SHA-256, by using the "Signature Algorithms" extension defined in TLS 1.2.
+"ko": |-
+  RSA를 사용할 때 서버는 공개 키에 대해 최소 2048비트 모듈러스를 갖춘 인증서를 사용하여 인증해야 합니다. 또한 SHA-256 해시 알고리즘을 사용하는 것이 권장됩니다(자세한 내용은 [CAB-Baseline] 참조). 클라이언트는 TLS 1.2에 정의된 "서명 알고리즘" 확장을 사용하여 SHA-256을 요청한다는 것을 서버에 표시해야 합니다.

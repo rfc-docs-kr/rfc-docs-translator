@@ -1,0 +1,20 @@
+"hash": |-
+  303c9421893d75c547211c1dd770cccc2018d80743035b6298dc04129c3d161f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are two scopes of such 503 answers.  The first scope is for an
+     established RTSP session, where the request resulting in the 503
+     response as well as the response itself carries a Session header
+     identifying the session that is suffering overload.  This response
+     only applies to this particular session.  The other scope is the
+     general RTSP server as identified by the host in the Request-URI.
+     Such a 503 answer with any Retry-After header applies to all requests
+     that are not session specific to that server, including a SETUP
+     request intended to create a new RTSP session.
+"fixed": |-
+  There are two scopes of such 503 answers.  The first scope is for an established RTSP session, where the request resulting in the 503 response as well as the response itself carries a Session header identifying the session that is suffering overload.  This response only applies to this particular session.  The other scope is the general RTSP server as identified by the host in the Request-URI. Such a 503 answer with any Retry-After header applies to all requests that are not session specific to that server, including a SETUP request intended to create a new RTSP session.
+"ko": |-
+  이러한 503개 답변에는 두 가지 범위가 있습니다. 첫 번째 범위는 설정된 RTSP 세션을 위한 것으로, 503 응답을 초래하는 요청과 응답 자체에는 과부하가 발생한 세션을 식별하는 세션 헤더가 포함됩니다. 이 응답은 이 특정 세션에만 적용됩니다. 다른 범위는 요청-URI의 호스트로 식별되는 일반 RTSP 서버입니다. Retry-After 헤더가 포함된 503 응답은 새 RTSP 세션을 생성하기 위한 SETUP 요청을 포함하여 해당 서버와 관련된 세션이 아닌 모든 요청에 ​​적용됩니다.

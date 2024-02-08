@@ -1,0 +1,19 @@
+"hash": |-
+  62d3780bbbaeca7310b6ef4ad4c213a6b4e9003dc02c736012c8d486754e7faa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a CRL issuer generates delta CRLs in addition to complete CRLs for
+     a given scope, the complete CRLs and delta CRLs MUST share one
+     numbering sequence.  If a delta CRL and a complete CRL that cover the
+     same scope are issued at the same time, they MUST have the same CRL
+     number and provide the same revocation information.  That is, the
+     combination of the delta CRL and an acceptable complete CRL MUST
+     provide the same revocation information as the simultaneously issued
+     complete CRL.
+"fixed": |-
+  If a CRL issuer generates delta CRLs in addition to complete CRLs for a given scope, the complete CRLs and delta CRLs MUST share one numbering sequence.  If a delta CRL and a complete CRL that cover the same scope are issued at the same time, they MUST have the same CRL number and provide the same revocation information.  That is, the combination of the delta CRL and an acceptable complete CRL MUST provide the same revocation information as the simultaneously issued complete CRL.
+"ko": |-
+  CRL 발급자가 특정 범위에 대한 전체 CRL 외에 델타 CRL을 생성하는 경우 전체 CRL과 델타 CRL은 하나의 번호 지정 순서를 공유해야 합니다. 동일한 범위를 포괄하는 델타 CRL과 전체 CRL이 동시에 발급되는 경우 동일한 CRL 번호를 갖고 동일한 취소 정보를 제공해야 합니다. 즉, 델타 CRL과 허용 가능한 완전한 CRL의 조합은 동시에 발행된 완전한 CRL과 동일한 폐기 정보를 제공해야 합니다.

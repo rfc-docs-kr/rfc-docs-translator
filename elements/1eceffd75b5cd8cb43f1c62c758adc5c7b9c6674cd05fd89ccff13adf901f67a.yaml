@@ -12,7 +12,7 @@
      authentication are sometimes the source of misunderstandings and
      implementation "shortcuts".  An extensive survey of these issues can
      be found in [Georgiev2012].
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Even when the protocol is properly specified, this does not guarantee the security of implementations.  In fact, there are very common issues that often plague TLS implementations.  In particular, when integrating into higher-level protocols, TLS and its PKI-based authentication are sometimes the source of misunderstandings and implementation "shortcuts".  An extensive survey of these issues can be found in [Georgiev2012].
+"ko": |-
+  프로토콜이 올바르게 지정되더라도 구현의 보안이 보장되지는 않습니다. 실제로 TLS 구현을 자주 괴롭히는 매우 일반적인 문제가 있습니다. 특히 더 높은 수준의 프로토콜에 통합할 때 TLS와 PKI 기반 인증은 때때로 오해와 구현 "지름길"의 원인이 됩니다. 이러한 문제에 대한 광범위한 조사는 [Georgiev2012]에서 확인할 수 있습니다.

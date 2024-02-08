@@ -1,0 +1,18 @@
+"hash": |-
+  c65335254c48b195d64407b3b0d0a40a1d333ee17a68e0439dfde6a8dcb1c8fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After receiving a message from a HOST, an IMP partitions the message
+     into one or more packets.  Packets are not more than 1010 bits long
+     and are the unit of data transmission from IMP to IMP.  A 24 bit
+     cyclic checksum is computed by the transmission hardware and is
+     appended to an outgoing packet.  The checksum is recomputed by the
+     receiving hardware and is checked against the transmitted checksum.
+     Packets are reassembled into messages at the destination IMP.
+"fixed": |-
+  After receiving a message from a HOST, an IMP partitions the message into one or more packets.  Packets are not more than 1010 bits long and are the unit of data transmission from IMP to IMP.  A 24 bit cyclic checksum is computed by the transmission hardware and is appended to an outgoing packet.  The checksum is recomputed by the receiving hardware and is checked against the transmitted checksum. Packets are reassembled into messages at the destination IMP.
+"ko": |-
+  IMP는 호스트로부터 메시지를 받은 후 메시지를 하나 이상의 패킷으로 분할합니다. 패킷은 길이가 1010비트를 넘지 않으며 IMP에서 IMP로 데이터를 전송하는 단위입니다. 24비트 순환 체크섬은 전송 하드웨어에 의해 계산되어 나가는 패킷에 추가됩니다. 체크섬은 수신 하드웨어에 의해 다시 계산되고 전송된 체크섬과 비교하여 확인됩니다. 패킷은 대상 IMP에서 메시지로 재조립됩니다.

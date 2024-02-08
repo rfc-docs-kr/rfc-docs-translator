@@ -1,0 +1,22 @@
+"hash": |-
+  58746fbfe7acd5eb8604ac92d704a8e5bdbb8af5ea04f6c43c267cb5df1d1f49
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the server does not have a clock that can provide a reasonable
+        approximation of the current time, its responses MUST NOT include
+        a Date header field.  In this case, this rule MUST be followed:
+        some origin-server implementations might not have a clock
+        available.  An origin server without a clock MUST NOT assign
+        Expires or Last-Modified values to a response, unless these values
+        were associated with the resource by a system or user with a
+        reliable clock.  It MAY assign an Expires value that is known, at
+        or before server-configuration time, to be in the past (this
+        allows "pre-expiration" of responses without storing separate
+        Expires values for each resource).
+"fixed": |-
+  -  If the server does not have a clock that can provide a reasonable approximation of the current time, its responses MUST NOT include a Date header field.  In this case, this rule MUST be followed: some origin-server implementations might not have a clock available.  An origin server without a clock MUST NOT assign Expires or Last-Modified values to a response, unless these values were associated with the resource by a system or user with a reliable clock.  It MAY assign an Expires value that is known, at or before server-configuration time, to be in the past (this allows "pre-expiration" of responses without storing separate Expires values for each resource).
+"ko": |-
+  - 서버에 현재 시간의 합리적인 근사치를 제공할 수 있는 시계가 없는 경우 서버의 응답에는 Date 헤더 필드가 포함되어서는 안 됩니다. 이 경우 다음 규칙을 따라야 합니다. 일부 원서버 구현에는 사용 가능한 시계가 없을 수 있습니다. 시계가 없는 원서버는 Expires 또는 Last-Modified 값이 신뢰할 수 있는 시계를 가진 시스템이나 사용자에 의해 리소스와 연결되지 않은 한 응답에 할당해서는 안 됩니다. 서버 구성 시간이나 그 이전에 과거의 것으로 알려진 Expires 값을 할당할 수 있습니다(이는 각 리소스에 대해 별도의 Expires 값을 저장하지 않고 응답의 "사전 만료"를 허용합니다).

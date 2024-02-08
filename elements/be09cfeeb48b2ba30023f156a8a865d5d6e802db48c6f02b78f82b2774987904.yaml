@@ -1,0 +1,16 @@
+"hash": |-
+  be09cfeeb48b2ba30023f156a8a865d5d6e802db48c6f02b78f82b2774987904
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CRL issuers conforming to this profile MUST encode nextUpdate as
+     UTCTime for dates through the year 2049.  CRL issuers conforming to
+     this profile MUST encode nextUpdate as GeneralizedTime for dates in
+     the year 2050 or later.  Conforming applications MUST be able to
+     process dates that are encoded in either UTCTime or GeneralizedTime.
+"fixed": |-
+  CRL issuers conforming to this profile MUST encode nextUpdate as UTCTime for dates through the year 2049.  CRL issuers conforming to this profile MUST encode nextUpdate as GeneralizedTime for dates in the year 2050 or later.  Conforming applications MUST be able to process dates that are encoded in either UTCTime or GeneralizedTime.
+"ko": |-
+  이 프로필을 준수하는 CRL 발급자는 2049년까지 날짜에 대해 nextUpdate를 UTCTime으로 인코딩해야 합니다. 이 프로필을 준수하는 CRL 발급자는 2050년 이후 날짜에 대해 nextUpdate를 GeneralizedTime으로 인코딩해야 합니다. 준수 애플리케이션은 UTCTime 또는 GeneralizedTime으로 인코딩된 날짜를 처리할 수 있어야 합니다(MUST).

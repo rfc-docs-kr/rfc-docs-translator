@@ -1,0 +1,20 @@
+"hash": |-
+  5ec5571018ed1b3693626212623c5d2dac64a9e64dd36910c7f2c4b94a2519f2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        (d)  explicit_policy:  an integer that indicates if a non-NULL
+             valid_policy_tree is required.  The integer indicates the
+             number of non-self-issued certificates to be processed before
+             this requirement is imposed.  Once set, this variable may be
+             decreased, but may not be increased.  That is, if a
+             certificate in the path requires a non-NULL
+             valid_policy_tree, a later certificate cannot remove this
+             requirement.  If initial-explicit-policy is set, then the
+             initial value is 0, otherwise the initial value is n+1.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

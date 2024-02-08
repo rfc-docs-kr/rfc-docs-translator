@@ -1,0 +1,17 @@
+"hash": |-
+  c077c6dc8589b4036043e23d63c00b9459645fc7249ec87e5df94112d14b8411
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an application negotiates a server name using an application
+     protocol and then upgrades to TLS, and if a server_name extension is
+     sent, then the extension SHOULD contain the same name that was
+     negotiated in the application protocol.  If the server_name is
+     established in the TLS session handshake, the client SHOULD NOT
+     attempt to request a different server name at the application layer.
+"fixed": |-
+  If an application negotiates a server name using an application protocol and then upgrades to TLS, and if a server_name extension is sent, then the extension SHOULD contain the same name that was negotiated in the application protocol.  If the server_name is established in the TLS session handshake, the client SHOULD NOT attempt to request a different server name at the application layer.
+"ko": |-
+  애플리케이션이 애플리케이션 프로토콜을 사용하여 서버 이름을 협상한 다음 TLS로 업그레이드하고 server_name 확장이 전송되는 경우 확장에는 애플리케이션 프로토콜에서 협상된 것과 동일한 이름이 포함되어야 합니다. TLS 세션 핸드셰이크에서 server_name이 설정된 경우 클라이언트는 애플리케이션 계층에서 다른 서버 이름을 요청해서는 안 됩니다.

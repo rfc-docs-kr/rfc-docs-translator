@@ -11,7 +11,7 @@
      and [RC4-Attack-FMS].  Recent cryptanalysis results [RC4-Attack-AlF]
      exploit biases in the RC4 keystream to recover repeatedly encrypted
      plaintexts.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The RC4 algorithm [RC4] has been used with TLS (and previously, SSL) for many years.  RC4 has long been known to have a variety of cryptographic weaknesses, e.g., [RC4-Attack-Pau], [RC4-Attack-Man], and [RC4-Attack-FMS].  Recent cryptanalysis results [RC4-Attack-AlF] exploit biases in the RC4 keystream to recover repeatedly encrypted plaintexts.
+"ko": |-
+  RC4 알고리즘[RC4]은 수년 동안 TLS(및 이전에는 SSL)와 함께 사용되었습니다. RC4에는 [RC4-Attack-Pau], [RC4-Attack-Man], [RC4-Attack-FMS] 등 다양한 암호화 취약점이 있는 것으로 오랫동안 알려져 왔습니다. 최근 암호 분석 결과 [RC4-Attack-AlF]는 RC4 키스트림의 편향을 활용하여 반복적으로 암호화된 일반 텍스트를 복구합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  9908021a6f34d79b64ed3fd17fbec93b6ec3ded017e4d8976430bb5074a15936
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order not to cause congestion, clients (including proxies) MUST
+     strictly limit the number of simultaneous outstanding interactions
+     that they maintain to a given server (including proxies) to NSTART.
+     An outstanding interaction is either a CON for which an ACK has not
+     yet been received but is still expected (message layer) or a request
+     for which neither a response nor an Acknowledgment message has yet
+     been received but is still expected (which may both occur at the same
+     time, counting as one outstanding interaction).  The default value of
+     NSTART for this specification is 1.
+"fixed": |-
+  In order not to cause congestion, clients (including proxies) MUST strictly limit the number of simultaneous outstanding interactions that they maintain to a given server (including proxies) to NSTART. An outstanding interaction is either a CON for which an ACK has not yet been received but is still expected (message layer) or a request for which neither a response nor an Acknowledgment message has yet been received but is still expected (which may both occur at the same time, counting as one outstanding interaction).  The default value of NSTART for this specification is 1.
+"ko": |-
+  정체를 유발하지 않으려면 클라이언트(프록시 포함)는 지정된 서버(프록시 포함)에 대해 유지 관리하는 동시에 처리되지 않은 상호 작용 수를 NSTART로 엄격하게 제한해야 합니다. 처리되지 않은 상호작용은 ACK가 아직 수신되지 않았지만 여전히 예상되는 CON(메시지 계층) 또는 응답이나 승인 메시지가 아직 수신되지 않았지만 여전히 예상되는 요청(둘 다 발생할 수 있음)입니다. 동시에 하나의 뛰어난 상호작용으로 계산됩니다). 이 사양의 NSTART 기본값은 1입니다.

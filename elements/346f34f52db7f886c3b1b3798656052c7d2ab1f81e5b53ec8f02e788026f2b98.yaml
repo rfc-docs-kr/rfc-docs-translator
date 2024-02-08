@@ -6,7 +6,7 @@
   null
 "original": |2-
               A TCP SHOULD allow a received RST segment to include data.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - A TCP SHOULD allow a received RST segment to include data.
+"ko": |-
+  - TCP는 수신된 RST 세그먼트가 데이터를 포함하도록 허용해야 합니다.

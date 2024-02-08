@@ -1,0 +1,27 @@
+"hash": |-
+  823500aec87a15419440b3608ec9b85f33071c987918d4bda588faee7aa4f365
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RTSP session:  A stateful abstraction upon which the main control
+        methods of RTSP operate.  An RTSP session is a common context; it
+        is created and maintained on a client's request and can be
+        destroyed by either the client or server.  It is established by an
+        RTSP server upon the completion of a successful SETUP request
+        (when a 200 OK response is sent) and is labeled with a session
+        identifier at that time.  The session exists until timed out by
+        the server or explicitly removed by a TEARDOWN request.  An RTSP
+        session is a stateful entity; an RTSP server maintains an explicit
+        session state machine (see Appendix B) where most state
+        transitions are triggered by client requests.  The existence of a
+        session implies the existence of state about the session's media
+        streams and their respective transport mechanisms.  A given
+        session can have one or more media streams associated with it.  An
+        RTSP server uses the session to aggregate control over multiple
+        media streams.
+"fixed": |-
+  RTSP session:  A stateful abstraction upon which the main control methods of RTSP operate.  An RTSP session is a common context; it is created and maintained on a client's request and can be destroyed by either the client or server.  It is established by an RTSP server upon the completion of a successful SETUP request (when a 200 OK response is sent) and is labeled with a session identifier at that time.  The session exists until timed out by the server or explicitly removed by a TEARDOWN request.  An RTSP session is a stateful entity; an RTSP server maintains an explicit session state machine (see Appendix B) where most state transitions are triggered by client requests.  The existence of a session implies the existence of state about the session's media streams and their respective transport mechanisms.  A given session can have one or more media streams associated with it.  An RTSP server uses the session to aggregate control over multiple media streams.
+"ko": |-
+  RTSP 세션: RTSP의 주요 제어 방법이 작동하는 상태 저장 추상화입니다. RTSP 세션은 공통 컨텍스트입니다. 클라이언트의 요청에 따라 생성 및 유지 관리되며 클라이언트나 서버에 의해 삭제될 수 있습니다. 이는 성공적인 SETUP 요청 완료 시(200 OK 응답이 전송될 때) RTSP 서버에 의해 설정되며 해당 시점에 세션 식별자로 레이블이 지정됩니다. 세션은 서버에 의해 시간 초과되거나 TEARDOWN 요청에 의해 명시적으로 제거될 때까지 존재합니다. RTSP 세션은 상태 저장 엔터티입니다. RTSP 서버는 대부분의 상태 전환이 클라이언트 요청에 의해 트리거되는 명시적인 세션 상태 시스템(부록 B 참조)을 유지합니다. 세션의 존재는 세션의 미디어 스트림 및 해당 전송 메커니즘에 대한 상태의 존재를 의미합니다. 특정 세션에는 하나 이상의 미디어 스트림이 연결될 수 있습니다. RTSP 서버는 세션을 사용하여 여러 미디어 스트림에 대한 제어를 집계합니다.

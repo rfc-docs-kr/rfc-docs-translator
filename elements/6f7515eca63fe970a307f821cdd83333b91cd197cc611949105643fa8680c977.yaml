@@ -8,7 +8,7 @@
      If a client wishes to attempt to secure a session, then it SHOULD, in
      accordance with [RFC-2228], send the AUTH command with the parameter
      requesting TLS {TLS-PARM} ('TLS').
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  If a client wishes to attempt to secure a session, then it SHOULD, in accordance with [RFC-2228], send the AUTH command with the parameter requesting TLS {TLS-PARM} ('TLS').
+"ko": |-
+  클라이언트가 세션 보안을 시도하려는 경우 [RFC-2228]에 따라 TLS{TLS-PARM}('TLS')을 요청하는 매개변수와 함께 AUTH 명령을 보내야 합니다.

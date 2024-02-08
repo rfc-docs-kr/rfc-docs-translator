@@ -1,0 +1,19 @@
+"hash": |-
+  a9171d5055d4485cc36c4af53e65a3c779a6d5de6e53cac41eabe58c5eed7aa1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RTSP includes the possibility to keep a TCP session up between the
+     client and server, throughout the RTSP session lifetime.  It may be
+     convenient to keep the TCP session, not only to save the extra setup
+     time for TCP, but also the extra setup time for TLS (even if TLS uses
+     the resume function, there will be almost two extra round trips).
+     Still, when TLS is used, such behavior introduces extra active state
+     in the server, not only for TCP and RTSP, but also for TLS.  This may
+     increase the vulnerability to DoS attacks.
+"fixed": |-
+  RTSP includes the possibility to keep a TCP session up between the client and server, throughout the RTSP session lifetime.  It may be convenient to keep the TCP session, not only to save the extra setup time for TCP, but also the extra setup time for TLS (even if TLS uses the resume function, there will be almost two extra round trips). Still, when TLS is used, such behavior introduces extra active state in the server, not only for TCP and RTSP, but also for TLS.  This may increase the vulnerability to DoS attacks.
+"ko": |-
+  RTSP에는 RTSP 세션 수명 동안 클라이언트와 서버 간에 TCP 세션을 유지할 수 있는 가능성이 포함되어 있습니다. TCP 세션을 유지하는 것이 TCP에 대한 추가 설정 시간뿐만 아니라 TLS에 대한 추가 설정 시간을 절약하기 위해 편리할 수 있습니다(TLS가 재개 기능을 사용하더라도 거의 2번의 추가 왕복이 발생합니다). 그러나 TLS를 사용하는 경우 이러한 동작으로 인해 TCP 및 RTSP뿐만 아니라 TLS에 대해서도 서버에 추가 활성 상태가 발생합니다. 이는 DoS 공격에 대한 취약성을 증가시킬 수 있습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  c81addd5b0af9732440f170d7f5727067a154fe2a75d98535bf2992a482b746c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the event that there are proxies between the sender and the
+     recipient of a response, each intervening proxy MUST modify the
+     Public header field to remove any methods that are not supported via
+     that proxy.  The resulting Public header field will contain an
+     intersection of the sender's methods and the methods allowed through
+     by the intervening proxies.
+"fixed": |-
+  In the event that there are proxies between the sender and the recipient of a response, each intervening proxy MUST modify the Public header field to remove any methods that are not supported via that proxy.  The resulting Public header field will contain an intersection of the sender's methods and the methods allowed through by the intervening proxies.
+"ko": |-
+  응답의 송신자와 수신자 사이에 프록시가 있는 경우, 개입하는 각 프록시는 공개 헤더 필드를 수정하여 해당 프록시를 통해 지원되지 않는 모든 메소드를 제거해야 합니다. 결과 Public 헤더 필드에는 보낸 사람의 메서드와 중간 프록시가 통과할 수 있는 메서드의 교차 부분이 포함됩니다.

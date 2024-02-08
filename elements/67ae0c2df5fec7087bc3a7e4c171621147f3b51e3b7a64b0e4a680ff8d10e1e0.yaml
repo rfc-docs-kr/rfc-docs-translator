@@ -1,0 +1,20 @@
+"hash": |-
+  67ae0c2df5fec7087bc3a7e4c171621147f3b51e3b7a64b0e4a680ff8d10e1e0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     RTP-Info         =  "RTP-Info" HCOLON [rtsp-info-spec
+                         *(COMMA rtsp-info-spec)]
+     rtsp-info-spec   =  stream-url 1*ssrc-parameter
+     stream-url       =  "url" EQUAL DQUOTE RTSP-REQ-Ref DQUOTE
+     ssrc-parameter   =  LWS "ssrc" EQUAL ssrc HCOLON
+                         ri-parameter *(SEMI ri-parameter)
+     ri-parameter     =  ("seq" EQUAL 1*5DIGIT)
+                      /  ("rtptime" EQUAL 1*10DIGIT)
+                      /  generic-param
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

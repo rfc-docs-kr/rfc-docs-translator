@@ -1,0 +1,19 @@
+"hash": |-
+  1d7d88701c1babb8cfe7f6d682f6c6b5b669f2f26eb95ac363ff82da10750c28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     length is 2^9=512, then for currently defined cipher suites (those
+     defined in [TLS], [KERB], and [AESSUITES]), and when null compression
+     is used, the record layer output can be at most 793 bytes: 5 bytes of
+     headers, 512 bytes of application data, 256 bytes of padding, and 20
+     bytes of MAC.  This means that in this event a TLS record layer peer
+     receiving a TLS record layer message larger than 793 bytes may
+     discard the message and send a "record_overflow" alert, without
+     decrypting the message.
+"fixed": |-
+  length is 2^9=512, then for currently defined cipher suites (those defined in [TLS], [KERB], and [AESSUITES]), and when null compression is used, the record layer output can be at most 793 bytes: 5 bytes of headers, 512 bytes of application data, 256 bytes of padding, and 20 bytes of MAC.  This means that in this event a TLS record layer peer receiving a TLS record layer message larger than 793 bytes may discard the message and send a "record_overflow" alert, without decrypting the message.
+"ko": |-
+  길이는 2^9=512이고 현재 정의된 암호 그룹([TLS], [KERB] 및 [AESSUITES]에 정의된 것)의 경우 널 압축이 사용되는 경우 레코드 계층 출력은 최대 793바이트일 수 있습니다. 헤더 5바이트, 애플리케이션 데이터 512바이트, 패딩 256바이트, MAC 20바이트입니다. 이는 이 이벤트에서 793바이트보다 큰 TLS 레코드 계층 메시지를 수신하는 TLS 레코드 계층 피어가 메시지를 해독하지 않고 메시지를 삭제하고 "record_overflow" 경고를 보낼 수 있음을 의미합니다.

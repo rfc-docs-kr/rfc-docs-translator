@@ -12,7 +12,7 @@
            data structures, rather than explicit procedure calls, are then
            the agency for passing much of the information that is
            required.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - implied by these calls, but need not literally implement the calls themselves.  For example, many implementations reflect the coupling between the transport layer and the IP layer by giving them shared access to common data structures.  These data structures, rather than explicit procedure calls, are then the agency for passing much of the information that is required.
+"ko": |-
+  - 이러한 호출이 암시하지만 문자 그대로 호출 자체를 구현할 필요는 없습니다. 예를 들어, 많은 구현에서는 공통 데이터 구조에 대한 공유 액세스를 제공함으로써 전송 계층과 IP 계층 간의 결합을 반영합니다. 명시적인 프로시저 호출이 아닌 이러한 데이터 구조는 필요한 많은 정보를 전달하는 기관입니다.

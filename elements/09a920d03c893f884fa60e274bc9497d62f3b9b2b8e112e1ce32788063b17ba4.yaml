@@ -7,7 +7,7 @@
 "original": |2-
            PBSZ <sp> <decimal-integer> <CRLF> <decimal-integer> ::= any
            decimal integer from 1 to (2^32)-1
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - PBSZ <sp> <decimal-integer> <CRLF> <decimal-integer> ::= any decimal integer from 1 to (2^32)-1
+"ko": |-
+  - PBSZ <sp> <decimal-integer> <CRLF> <decimal-integer> ::= 1에서 (2^32)-1 사이의 모든 10진수 정수

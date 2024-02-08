@@ -1,0 +1,19 @@
+"hash": |-
+  0bcd01de06b4b1eddd951062824e12f3b9673adb67ce05c56c44ef79bfcb9118
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some legacy implementations support names encoded in the ISO 8859-1
+     character set (Latin1String) [ISO8859] but tag them as TeletexString.
+     TeletexString encodes a larger character set than ISO 8859-1, but it
+     encodes some characters differently.  The name comparison rules
+     specified in Section 7.1 assume that TeletexStrings are encoded as
+     described in the ASN.1 standard.  When comparing names encoded using
+     the Latin1String character set, false positives and negatives are
+     possible.
+"fixed": |-
+  Some legacy implementations support names encoded in the ISO 8859-1 character set (Latin1String) [ISO8859] but tag them as TeletexString. TeletexString encodes a larger character set than ISO 8859-1, but it encodes some characters differently.  The name comparison rules specified in Section 7.1 assume that TeletexStrings are encoded as described in the ASN.1 standard.  When comparing names encoded using the Latin1String character set, false positives and negatives are possible.
+"ko": |-
+  일부 레거시 구현은 ISO 8859-1 문자 집합(Latin1String)[ISO8859]으로 인코딩된 이름을 지원하지만 TeletexString으로 태그를 지정합니다. TeletexString은 ISO 8859-1보다 더 큰 문자 세트를 인코딩하지만 일부 문자를 다르게 인코딩합니다. 섹션 7.1에 지정된 이름 비교 규칙은 TeletexString이 ASN.1 표준에 설명된 대로 인코딩된다고 가정합니다. Latin1String 문자 세트를 사용하여 인코딩된 이름을 비교할 때 거짓 긍정과 부정이 가능합니다.

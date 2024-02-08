@@ -1,0 +1,33 @@
+"hash": |-
+  1844797c6165c3c10338cf346b9c6fdb20626dcd5aef434aed9c2c321344afc8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       0   1   2   3   4   5   6   7
+     +---------------+---------------+
+     |               |               |
+     |  Option Delta | Option Length |   1 byte
+     |               |               |
+     +---------------+---------------+
+     \                               \
+     /         Option Delta          /   0-2 bytes
+     \          (extended)           \
+     +-------------------------------+
+     \                               \
+     /         Option Length         /   0-2 bytes
+     \          (extended)           \
+     +-------------------------------+
+     \                               \
+     /                               /
+     \                               \
+     /         Option Value          /   0 or more bytes
+     \                               \
+     /                               /
+     \                               \
+     +-------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  2660ca9f975986fe708ea1d9a9ac5fcd887a1725fe596fc0c43ca96ae77c93a6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           (1)  If the DP includes cRLIssuer, then verify that the issuer
+                field in the complete CRL matches cRLIssuer in the DP and
+                that the complete CRL contains an issuing distribution
+                point extension with the indirectCRL boolean asserted.
+                Otherwise, verify that the CRL issuer matches the
+                certificate issuer.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

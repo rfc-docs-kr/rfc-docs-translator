@@ -1,0 +1,29 @@
+"hash": |-
+  8d2d89d03302a696be09ec94cad7753bf03705212a2e75d1fb035a8e49a53a85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The signature scheme with appendix given here follows a general model
+     similar to that employed in IEEE P1363, by combining signature and
+     verification primitives with an encoding method for signatures. The
+     signature generation operations apply a message encoding operation to
+     a message to produce an encoded message, which is then converted to
+     an integer message representative. A signature primitive is then
+     applied to the message representative to produce the signature. The
+     signature verification operations apply a signature verification
+     primitive to the signature to recover a message representative, which
+     is then converted to an octet string. The message encoding operation
+     is again applied to the message, and the result is compared to the
+     recovered octet string. If there is a match, the signature is
+     considered valid. (Note that this approach assumes that the signature
+     and verification primitives have the message-recovery form and the
+     encoding method is deterministic, as is the case for RSASP1/RSAVP1
+     and EMSA-PKCS1-v1_5. The signature generation and verification
+     operations have a different form in P1363 for other primitives and
+     encoding methods.)
+"fixed": |-
+  The signature scheme with appendix given here follows a general model similar to that employed in IEEE P1363, by combining signature and verification primitives with an encoding method for signatures. The signature generation operations apply a message encoding operation to a message to produce an encoded message, which is then converted to an integer message representative. A signature primitive is then applied to the message representative to produce the signature. The signature verification operations apply a signature verification primitive to the signature to recover a message representative, which is then converted to an octet string. The message encoding operation is again applied to the message, and the result is compared to the recovered octet string. If there is a match, the signature is considered valid. (Note that this approach assumes that the signature and verification primitives have the message-recovery form and the encoding method is deterministic, as is the case for RSASP1/RSAVP1 and EMSA-PKCS1-v1_5. The signature generation and verification operations have a different form in P1363 for other primitives and encoding methods.)
+"ko": |-
+  여기에 제공된 부록이 있는 서명 체계는 서명 및 검증 기본 요소를 서명에 대한 인코딩 방법과 결합하여 IEEE P1363에서 사용된 것과 유사한 일반 모델을 따릅니다. 서명 생성 작업은 메시지 인코딩 작업을 메시지에 적용하여 인코딩된 메시지를 생성한 다음 정수 메시지 표현으로 변환합니다. 그런 다음 서명 기본 요소가 메시지 표현에 적용되어 서명을 생성합니다. 서명 확인 작업은 서명 확인 기본 요소를 서명에 적용하여 메시지 표현을 복구한 다음 옥텟 문자열로 변환합니다. 메시지 인코딩 작업이 메시지에 다시 적용되고 결과가 복구된 옥텟 문자열과 비교됩니다. 일치하는 것이 있으면 서명이 유효한 것으로 간주됩니다. (이 접근 방식에서는 RSASP1/RSAVP1 및 EMSA-PKCS1-v1_5의 경우처럼 서명 및 확인 기본 요소가 메시지 복구 형식을 갖고 인코딩 방법이 결정적이라고 가정합니다. 서명 생성 및 확인 작업의 형식은 다릅니다. 다른 프리미티브 및 인코딩 방법은 P1363에 있습니다.)

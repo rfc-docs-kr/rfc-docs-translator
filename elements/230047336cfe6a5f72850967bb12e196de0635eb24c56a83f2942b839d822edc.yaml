@@ -1,0 +1,20 @@
+"hash": |-
+  230047336cfe6a5f72850967bb12e196de0635eb24c56a83f2942b839d822edc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 The values for the index objects inetCidrRouteDest and
+                 inetCidrRoutePfxLen must be consistent.  When the value
+                 of inetCidrRouteDest (excluding the zone index, if one
+                 is present) is x, then the bitwise logical-AND
+                 of x with the value of the mask formed from the
+                 corresponding index object inetCidrRoutePfxLen MUST be
+                 equal to x.  If not, then the index pair is not
+                 consistent and an inconsistentName error must be
+                 returned on SET or CREATE requests."
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

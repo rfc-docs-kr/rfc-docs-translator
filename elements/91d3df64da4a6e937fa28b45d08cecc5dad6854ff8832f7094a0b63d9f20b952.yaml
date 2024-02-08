@@ -1,0 +1,20 @@
+"hash": |-
+  91d3df64da4a6e937fa28b45d08cecc5dad6854ff8832f7094a0b63d9f20b952
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All ECDH calculations (including parameter and key generation as well
+     as the shared secret calculation) are performed according to [6]
+     using the ECKAS-DH1 scheme with the identity map as key derivation
+     function (KDF), so that the premaster secret is the x-coordinate of
+     the ECDH shared secret elliptic curve point represented as an octet
+     string.  Note that this octet string (Z in IEEE 1363 terminology) as
+     output by FE2OSP, the Field Element to Octet String Conversion
+     Primitive, has constant length for any given field; leading zeros
+     found in this octet string MUST NOT be truncated.
+"fixed": |-
+  All ECDH calculations (including parameter and key generation as well as the shared secret calculation) are performed according to [6] using the ECKAS-DH1 scheme with the identity map as key derivation function (KDF), so that the premaster secret is the x-coordinate of the ECDH shared secret elliptic curve point represented as an octet string.  Note that this octet string (Z in IEEE 1363 terminology) as output by FE2OSP, the Field Element to Octet String Conversion Primitive, has constant length for any given field; leading zeros found in this octet string MUST NOT be truncated.
+"ko": |-
+  모든 ECDH 계산(매개변수 및 키 생성과 공유 비밀 계산 포함)은 키 파생 함수(KDF)로 ID 맵을 사용하는 ECKAS-DH1 체계를 사용하여 [6]에 따라 수행되므로 프리마스터 비밀은 x입니다. -옥텟 문자열로 표현되는 ECDH 공유 비밀 타원 곡선 점의 좌표. 필드 요소에서 옥텟 문자열 변환 프리미티브인 FE2OSP의 출력인 이 옥텟 문자열(IEEE 1363 용어로 Z)은 지정된 필드에 대해 일정한 길이를 갖습니다. 이 옥텟 문자열에서 발견된 선행 0은 잘려서는 안 됩니다.

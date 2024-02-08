@@ -1,0 +1,18 @@
+"hash": |-
+  5558e14479f7646525669eb25b5bcf088b9e05a0a9080c37697acb593c52a650
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When comparing DNS names for equality, conforming implementations
+     MUST perform a case-insensitive exact match on the entire DNS name.
+     When evaluating name constraints, conforming implementations MUST
+     perform a case-insensitive exact match on a label-by-label basis.  As
+     noted in Section 4.2.1.10, any DNS name that may be constructed by
+     adding labels to the left-hand side of the domain name given as the
+     constraint is considered to fall within the indicated subtree.
+"fixed": |-
+  When comparing DNS names for equality, conforming implementations MUST perform a case-insensitive exact match on the entire DNS name. When evaluating name constraints, conforming implementations MUST perform a case-insensitive exact match on a label-by-label basis.  As noted in Section 4.2.1.10, any DNS name that may be constructed by adding labels to the left-hand side of the domain name given as the constraint is considered to fall within the indicated subtree.
+"ko": |-
+  DNS 이름이 동일한지 비교할 때 준수 구현은 전체 DNS 이름에 대해 대소문자를 구분하지 않는 정확한 일치를 수행해야 합니다(MUST). 이름 제약 조건을 평가할 때 준수 구현은 레이블별로 대소문자를 구분하지 않는 정확한 일치를 수행해야 합니다(MUST). 섹션 4.2.1.10에 명시된 대로 제약 조건으로 제공된 도메인 이름의 왼쪽에 레이블을 추가하여 구성할 수 있는 모든 DNS 이름은 표시된 하위 트리에 속하는 것으로 간주됩니다.

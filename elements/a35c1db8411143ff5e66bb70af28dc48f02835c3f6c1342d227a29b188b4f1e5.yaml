@@ -1,0 +1,16 @@
+"hash": |-
+  a35c1db8411143ff5e66bb70af28dc48f02835c3f6c1342d227a29b188b4f1e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementers should note that the DER encoding of SET or SEQUENCE
+     components whose value is the DEFAULT omit the component from the
+     encoded certificate or CRL.  For example, a BasicConstraints
+     extension whose cA value is FALSE would omit the cA boolean from the
+     encoded certificate.
+"fixed": |-
+  Implementers should note that the DER encoding of SET or SEQUENCE components whose value is the DEFAULT omit the component from the encoded certificate or CRL.  For example, a BasicConstraints extension whose cA value is FALSE would omit the cA boolean from the encoded certificate.
+"ko": |-
+  구현자는 값이 DEFAULT인 SET 또는 SEQUENCE 구성 요소의 DER 인코딩이 인코딩된 인증서 또는 CRL에서 구성 요소를 생략한다는 점에 유의해야 합니다. 예를 들어, cA 값이 FALSE인 BasicConstraints 확장은 인코딩된 인증서에서 cA 부울을 생략합니다.

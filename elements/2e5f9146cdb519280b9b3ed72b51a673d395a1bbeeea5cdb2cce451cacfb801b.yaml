@@ -1,0 +1,20 @@
+"hash": |-
+  2e5f9146cdb519280b9b3ed72b51a673d395a1bbeeea5cdb2cce451cacfb801b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     file             = *((parameter / parameter-value) CRLF)
+     parameter        = 1*visible-except-colon
+     parameter-value  = parameter *WSP ":" value
+     visible-except-colon = %x21-39 / %x3B-7E    ; VCHAR - ":"
+     value            = *(TEXT-UTF8char / WSP)
+     TEXT-UTF8char    = <as defined in Section 20.1>
+     WSP              = <See RFC 5234> ; Space or HTAB
+     VCHAR            = <See RFC 5234>
+     CRLF             = <See RFC 5234>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

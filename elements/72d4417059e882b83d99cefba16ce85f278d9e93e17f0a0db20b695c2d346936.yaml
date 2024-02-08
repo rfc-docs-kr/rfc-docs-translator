@@ -1,0 +1,20 @@
+"hash": |-
+  72d4417059e882b83d99cefba16ce85f278d9e93e17f0a0db20b695c2d346936
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RTCP-mux:  Used to negotiate the usage of RTP and RTCP multiplexing
+           [RFC5761] on a single underlying transport stream/flow.  The
+           presence of this parameter in a SETUP request indicates the
+           client's support and requires the server to use RTP and RTCP
+           multiplexing.  The client SHALL only include one transport
+           stream in the Transport header specification.  To provide the
+           server with a choice between using RTP/RTCP multiplexing or
+           not, two different transport header specifications must be
+           included.
+"fixed": |-
+  RTCP-mux:  Used to negotiate the usage of RTP and RTCP multiplexing [RFC5761] on a single underlying transport stream/flow.  The presence of this parameter in a SETUP request indicates the client's support and requires the server to use RTP and RTCP multiplexing.  The client SHALL only include one transport stream in the Transport header specification.  To provide the server with a choice between using RTP/RTCP multiplexing or not, two different transport header specifications must be included.
+"ko": |-
+  RTCP-mux: 단일 기본 전송 스트림/흐름에서 RTP 및 RTCP 다중화[RFC5761] 사용을 협상하는 데 사용됩니다. SETUP 요청에 이 매개변수가 있으면 클라이언트의 지원을 나타내며 서버가 RTP 및 RTCP 다중화를 사용해야 합니다. 클라이언트는 전송 헤더 사양에 하나의 전송 스트림만 포함해야 합니다. RTP/RTCP 다중화 사용 여부를 서버에 선택할 수 있게 하려면 두 가지 다른 전송 헤더 사양이 포함되어야 합니다.

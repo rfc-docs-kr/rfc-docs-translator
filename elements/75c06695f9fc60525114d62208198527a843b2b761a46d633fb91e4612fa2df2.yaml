@@ -1,0 +1,18 @@
+"hash": |-
+  75c06695f9fc60525114d62208198527a843b2b761a46d633fb91e4612fa2df2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (c)  If certificate i is self-issued and it is not the final
+        certificate in the path, skip this step for certificate i.
+        Otherwise, verify that the subject name is not within one of the
+        excluded_subtrees for X.500 distinguished names, and verify that
+        each of the alternative names in the subjectAltName extension
+        (critical or non-critical) is not within one of the
+        excluded_subtrees for that name type.
+"fixed": |-
+  - (c)  If certificate i is self-issued and it is not the final certificate in the path, skip this step for certificate i. Otherwise, verify that the subject name is not within one of the excluded_subtrees for X.500 distinguished names, and verify that each of the alternative names in the subjectAltName extension (critical or non-critical) is not within one of the excluded_subtrees for that name type.
+"ko": |-
+  - (c) 인증서 i가 자체 발급되고 경로의 최종 인증서가 아닌 경우 인증서 i에 대해 이 단계를 건너뜁니다. 그렇지 않으면 주체 이름이 X.500 고유 이름에 대한 제외_하위 트리 중 하나에 없는지 확인하고 subjectAltName 확장(중요 또는 중요하지 않음)의 각 대체 이름이 해당 이름에 대한 제외_하위 트리 중 하나에 없는지 확인하세요. 유형.

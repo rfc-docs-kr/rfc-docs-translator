@@ -1,0 +1,15 @@
+"hash": |-
+  1ae7b6ea4755f4999ae951b5feae2187d1bdfca27bd57f8ca50af1764b93fb08
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        AlgorithmIdentifier  ::=  SEQUENCE  {
+          algorithm   OBJECT IDENTIFIER,
+          parameters  ANY DEFINED BY algorithm OPTIONAL
+        }
+"fixed": |-
+  - AlgorithmIdentifier  ::=  SEQUENCE  { algorithm   OBJECT IDENTIFIER, parameters  ANY DEFINED BY algorithm OPTIONAL }
+"ko": |-
+  - AlgorithmIdentifier ::= SEQUENCE { 알고리즘 객체 IDENTIFIER, 매개변수는 알고리즘에 의해 정의됨 선택 사항 }

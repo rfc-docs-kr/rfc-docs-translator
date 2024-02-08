@@ -10,7 +10,7 @@
      connection or of a cleared control connection.  If this is the reason
      for the refusal to allow the data transfer, then the '522' reply
      should indicate this.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  It is reasonable for the server to insist that the data connection uses a TLS cached session.  This might be a cache of a previous data connection or of a cleared control connection.  If this is the reason for the refusal to allow the data transfer, then the '522' reply should indicate this.
+"ko": |-
+  서버가 데이터 연결이 TLS 캐시 세션을 사용하도록 주장하는 것은 합리적입니다. 이는 이전 데이터 연결의 캐시이거나 지워진 제어 연결의 캐시일 수 있습니다. 이것이 데이터 전송을 거부하는 이유라면 '522' 응답이 이를 나타내야 합니다.

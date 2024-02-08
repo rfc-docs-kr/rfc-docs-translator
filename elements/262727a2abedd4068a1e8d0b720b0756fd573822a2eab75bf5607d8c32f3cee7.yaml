@@ -1,0 +1,18 @@
+"hash": |-
+  262727a2abedd4068a1e8d0b720b0756fd573822a2eab75bf5607d8c32f3cee7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To facilitate certification path construction, this extension MUST
+     appear in all conforming CA certificates, that is, all certificates
+     including the basic constraints extension (section 4.2.1.10) where
+     the value of cA is TRUE.  The value of the subject key identifier
+     MUST be the value placed in the key identifier field of the Authority
+     Key Identifier extension (section 4.2.1.1) of certificates issued by
+     the subject of this certificate.
+"fixed": |-
+  To facilitate certification path construction, this extension MUST appear in all conforming CA certificates, that is, all certificates including the basic constraints extension (section 4.2.1.10) where the value of cA is TRUE.  The value of the subject key identifier MUST be the value placed in the key identifier field of the Authority Key Identifier extension (section 4.2.1.1) of certificates issued by the subject of this certificate.
+"ko": |-
+  인증 경로 구성을 용이하게 하기 위해 이 확장은 모든 준수 CA 인증서, 즉 cA 값이 TRUE인 기본 제약 확장(섹션 4.2.1.10)을 포함하는 모든 인증서에 나타나야 합니다. 주체 키 식별자의 값은 이 인증서의 주체가 발행한 인증서의 기관 키 식별자 확장(섹션 4.2.1.1)의 키 식별자 필드에 있는 값이어야 합니다.

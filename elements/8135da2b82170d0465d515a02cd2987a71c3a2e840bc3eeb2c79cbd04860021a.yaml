@@ -1,0 +1,20 @@
+"hash": |-
+  8135da2b82170d0465d515a02cd2987a71c3a2e840bc3eeb2c79cbd04860021a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Applications conforming to this profile MUST be able to process name
+     constraints that are imposed on the directoryName name form and
+     SHOULD be able to process name constraints that are imposed on the
+     rfc822Name, uniformResourceIdentifier, dNSName, and iPAddress name
+     forms.  If a name constraints extension that is marked as critical
+     imposes constraints on a particular name form, and an instance of
+     that name form appears in the subject field or subjectAltName
+     extension of a subsequent certificate, then the application MUST
+     either process the constraint or reject the certificate.
+"fixed": |-
+  Applications conforming to this profile MUST be able to process name constraints that are imposed on the directoryName name form and SHOULD be able to process name constraints that are imposed on the rfc822Name, uniformResourceIdentifier, dNSName, and iPAddress name forms.  If a name constraints extension that is marked as critical imposes constraints on a particular name form, and an instance of that name form appears in the subject field or subjectAltName extension of a subsequent certificate, then the application MUST either process the constraint or reject the certificate.
+"ko": |-
+  이 프로필을 준수하는 애플리케이션은 DirectoryName 이름 형식에 적용되는 이름 제약 조건을 처리할 수 있어야 하며(MUST) rfc822Name,uniformResourceIdentifier, dNSName 및 iPAddress 이름 형식에 적용되는 이름 제약 조건을 처리할 수 있어야 합니다. 중요로 표시된 이름 제약 확장이 특정 이름 형식에 제약을 부과하고 해당 이름 형식의 인스턴스가 후속 인증서의 제목 필드 또는 subjectAltName 확장에 나타나는 경우 애플리케이션은 제약 조건을 처리하거나 인증서를 거부해야 합니다. .

@@ -1,0 +1,16 @@
+"hash": |-
+  0ae67b04f15b2b50cf1b838fa6d7c13d2d100f25d89fe3c73a701ef2e3ac722d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        OBJECT        inetCidrRouteStatus
+        SYNTAX        RowStatus { active(1), notInService (2) }
+        WRITE-SYNTAX  RowStatus { active(1), notInService (2),
+                                  createAndGo(4), destroy(6) }
+        DESCRIPTION  "Support for createAndWait is not required."
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

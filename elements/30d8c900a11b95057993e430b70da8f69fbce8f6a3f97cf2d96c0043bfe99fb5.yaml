@@ -1,0 +1,17 @@
+"hash": |-
+  30d8c900a11b95057993e430b70da8f69fbce8f6a3f97cf2d96c0043bfe99fb5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To mark a response as "already expired," an origin server should use
+     an Expires date that is equal to the Date header value.  To mark a
+     response as "never expires", an origin server SHOULD use an Expires
+     date approximately one year from the time the response is sent.  RTSP
+     2.0 servers SHOULD NOT send Expires dates that are more than one year
+     in the future.
+"fixed": |-
+  To mark a response as "already expired," an origin server should use an Expires date that is equal to the Date header value.  To mark a response as "never expires", an origin server SHOULD use an Expires date approximately one year from the time the response is sent.  RTSP 2.0 servers SHOULD NOT send Expires dates that are more than one year in the future.
+"ko": |-
+  응답을 "이미 만료됨"으로 표시하려면 원서버는 Date 헤더 값과 동일한 Expires 날짜를 사용해야 합니다. 응답을 "만료되지 않음"으로 표시하려면 원서버는 응답이 전송된 시점으로부터 약 1년 후의 만료 날짜를 사용해야 합니다. RTSP 2.0 서버는 앞으로 1년 이상 남은 만료 날짜를 보내서는 안 됩니다.

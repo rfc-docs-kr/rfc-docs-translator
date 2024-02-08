@@ -1,0 +1,30 @@
+"hash": |-
+  25ef255a3ef10f42d8f947879f2f633611f5656b27ae55fe994ed0f546f75ad6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     What range values are valid depends on the type of content.  For
+     content that isn't time-progressing, the range value is valid if the
+     given range is part of any media within the aggregate.  In other
+     words, the valid media range for the aggregate is the union of all of
+     the media components in the aggregate.  If a given range value points
+     outside of the media, the response MUST be the 457 (Invalid Range)
+     error code and include the Media-Range header (Section 18.30) with
+     the valid range for the media.  Except for time-progressing content
+     where the client requests a start point prior to what is retained,
+     the start point is adjusted to the oldest retained content.  For a
+     start point that is beyond the media front edge, i.e., beyond the
+     current value for "now", the server SHALL adjust the start value to
+     the current front edge.  The Range header's stop point value may
+     point beyond the current media edge.  In that case, the server SHALL
+     deliver media from the requested (and possibly adjusted) start point
+     until the first of either the provided stop point or the end of the
+     media.  Please note that if one simply wants to play from a
+     particular start point until the end of media, using a Range header
+     with an implicit stop point is RECOMMENDED.
+"fixed": |-
+  What range values are valid depends on the type of content.  For content that isn't time-progressing, the range value is valid if the given range is part of any media within the aggregate.  In other words, the valid media range for the aggregate is the union of all of the media components in the aggregate.  If a given range value points outside of the media, the response MUST be the 457 (Invalid Range) error code and include the Media-Range header (Section 18.30) with the valid range for the media.  Except for time-progressing content where the client requests a start point prior to what is retained, the start point is adjusted to the oldest retained content.  For a start point that is beyond the media front edge, i.e., beyond the current value for "now", the server SHALL adjust the start value to the current front edge.  The Range header's stop point value may point beyond the current media edge.  In that case, the server SHALL deliver media from the requested (and possibly adjusted) start point until the first of either the provided stop point or the end of the media.  Please note that if one simply wants to play from a particular start point until the end of media, using a Range header with an implicit stop point is RECOMMENDED.
+"ko": |-
+  유효한 범위 값은 콘텐츠 유형에 따라 다릅니다. 시간이 진행되지 않는 콘텐츠의 경우 지정된 범위가 집계 내 미디어의 일부이면 범위 값이 유효합니다. 즉, 집계에 대한 유효한 미디어 범위는 집계에 있는 모든 미디어 구성 요소의 통합입니다. 주어진 범위 값이 미디어 외부를 가리키는 경우 응답은 457(잘못된 범위) 오류 코드여야 하며 미디어의 유효한 범위와 함께 Media-Range 헤더(섹션 18.30)를 포함해야 합니다. 클라이언트가 유지되는 콘텐츠보다 먼저 시작 지점을 요청하는 시간 진행 콘텐츠를 제외하고 시작 지점은 가장 오래 유지된 콘텐츠로 조정됩니다. 미디어 앞쪽 가장자리를 넘어서는 시작 지점의 경우, 즉 "현재"에 대한 현재 값을 넘어서는 경우 서버는 시작 값을 현재 앞쪽 가장자리로 조정해야 합니다. Range 헤더의 중지 지점 값은 현재 미디어 가장자리를 넘어갈 수 있습니다. 이 경우 서버는 요청된(및 조정된) 시작 지점에서 제공된 중지 지점 중 첫 번째 지점이나 미디어의 끝까지 미디어를 전달해야 합니다. 특정 시작 지점부터 미디어 끝까지 재생하려는 경우 암시적 중지 지점이 있는 Range 헤더를 사용하는 것이 권장됩니다.

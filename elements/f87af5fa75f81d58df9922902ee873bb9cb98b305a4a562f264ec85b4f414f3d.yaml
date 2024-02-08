@@ -1,0 +1,15 @@
+"hash": |-
+  f87af5fa75f81d58df9922902ee873bb9cb98b305a4a562f264ec85b4f414f3d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  PROCESSING_DELAY is the time a node takes to turn around a
+        Confirmable message into an acknowledgement.  We assume the node
+        will attempt to send an ACK before having the sender time out, so
+        as a conservative assumption we set it equal to ACK_TIMEOUT.
+"fixed": |-
+  -  PROCESSING_DELAY is the time a node takes to turn around a Confirmable message into an acknowledgement.  We assume the node will attempt to send an ACK before having the sender time out, so as a conservative assumption we set it equal to ACK_TIMEOUT.
+"ko": |-
+  - PROCESSING_DELAY는 노드가 확인 가능 메시지를 승인으로 바꾸는 데 걸리는 시간입니다. 송신자가 시간 초과되기 전에 노드가 ACK 전송을 시도한다고 가정하므로 보수적으로 가정하여 ACK_TIMEOUT과 동일하게 설정합니다.

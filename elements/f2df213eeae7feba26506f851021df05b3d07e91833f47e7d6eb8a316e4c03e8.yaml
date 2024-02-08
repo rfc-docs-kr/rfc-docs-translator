@@ -1,0 +1,18 @@
+"hash": |-
+  f2df213eeae7feba26506f851021df05b3d07e91833f47e7d6eb8a316e4c03e8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     isegment        =  *ipchar [";" *ipchar]
+     isegment-nz     =  1*ipchar [";" *ipchar]
+                        / ";" *ipchar
+     isegment-nz-nc  =  (1*ipchar-nc [";" *ipchar-nc])
+                        / ";" *ipchar-nc
+                        ; non-zero-length segment without any colon ":"
+                        ; No parameter (; delimited) inside path.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -8,7 +8,7 @@
            When a host sends a datagram to a link-layer broadcast address,
            the IP destination address MUST be a legal IP broadcast or IP
            multicast address.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - When a host sends a datagram to a link-layer broadcast address, the IP destination address MUST be a legal IP broadcast or IP multicast address.
+"ko": |-
+  - 호스트가 링크 계층 브로드캐스트 주소로 데이터그램을 보낼 때 IP 대상 주소는 합법적인 IP 브로드캐스트 또는 IP 멀티캐스트 주소여야 합니다.

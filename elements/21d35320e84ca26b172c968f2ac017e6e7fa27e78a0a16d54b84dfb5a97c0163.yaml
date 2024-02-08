@@ -1,0 +1,20 @@
+"hash": |-
+  21d35320e84ca26b172c968f2ac017e6e7fa27e78a0a16d54b84dfb5a97c0163
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Restrictions are defined in terms of permitted or excluded name
+     subtrees.  Any name matching a restriction in the excludedSubtrees
+     field is invalid regardless of information appearing in the
+     permittedSubtrees.  Conforming CAs MUST mark this extension as
+     critical and SHOULD NOT impose name constraints on the x400Address,
+     ediPartyName, or registeredID name forms.  Conforming CAs MUST NOT
+     issue certificates where name constraints is an empty sequence.  That
+     is, either the permittedSubtrees field or the excludedSubtrees MUST
+     be present.
+"fixed": |-
+  Restrictions are defined in terms of permitted or excluded name subtrees.  Any name matching a restriction in the excludedSubtrees field is invalid regardless of information appearing in the permittedSubtrees.  Conforming CAs MUST mark this extension as critical and SHOULD NOT impose name constraints on the x400Address, ediPartyName, or registeredID name forms.  Conforming CAs MUST NOT issue certificates where name constraints is an empty sequence.  That is, either the permittedSubtrees field or the excludedSubtrees MUST be present.
+"ko": |-
+  제한사항은 허용되거나 제외된 이름 하위 트리 측면에서 정의됩니다. ExceptSubtrees 필드의 제한 사항과 일치하는 모든 이름은 allowedSubtrees에 나타나는 정보에 관계없이 유효하지 않습니다. 준수 CA는 이 확장자를 중요로 표시해야 하며 x400Address, ediPartyName 또는 등록된 ID 이름 형식에 이름 제약 조건을 적용해서는 안 됩니다. 준수 CA는 이름 제약 조건이 빈 시퀀스인 인증서를 발행해서는 안 됩니다. 즉, allowedSubtrees 필드나 제외된Subtrees가 반드시 있어야 합니다.

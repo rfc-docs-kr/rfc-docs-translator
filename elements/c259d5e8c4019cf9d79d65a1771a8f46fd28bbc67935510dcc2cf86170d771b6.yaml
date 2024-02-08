@@ -1,0 +1,17 @@
+"hash": |-
+  c259d5e8c4019cf9d79d65a1771a8f46fd28bbc67935510dcc2cf86170d771b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  New methods can be added.  If the recipient of the message does
+        not understand the request, it must respond with error code 501
+        (Not Implemented) so that the sender can avoid using this method
+        again.  A client may also use the OPTIONS method to inquire about
+        methods supported by the server.  The server must list the methods
+        it supports using the Public response-header.
+"fixed": |-
+  -  New methods can be added.  If the recipient of the message does not understand the request, it must respond with error code 501 (Not Implemented) so that the sender can avoid using this method again.  A client may also use the OPTIONS method to inquire about methods supported by the server.  The server must list the methods it supports using the Public response-header.
+"ko": |-
+  - 새로운 메소드가 추가될 수 있습니다. 메시지 수신자가 요청을 이해하지 못하는 경우 발신자가 이 방법을 다시 사용하지 않도록 오류 코드 501(구현되지 않음)으로 응답해야 합니다. 클라이언트는 OPTIONS 메소드를 사용하여 서버가 지원하는 메소드에 대해 문의할 수도 있습니다. 서버는 Public 응답 헤더를 사용하여 지원하는 메서드를 나열해야 합니다.

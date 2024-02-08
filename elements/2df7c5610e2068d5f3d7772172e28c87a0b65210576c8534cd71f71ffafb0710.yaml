@@ -1,0 +1,17 @@
+"hash": |-
+  2df7c5610e2068d5f3d7772172e28c87a0b65210576c8534cd71f71ffafb0710
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a SHA-1 hash is present for an URL, then the server MUST check
+     that the SHA-1 hash of the contents of the object retrieved from that
+     URL (after decoding any MIME Content-Transfer-Encoding) matches the
+     given hash.  If any retrieved object does not have the correct SHA-1
+     hash, the server MUST abort the handshake with a
+     "bad_certificate_hash_value" alert.
+"fixed": |-
+  If a SHA-1 hash is present for an URL, then the server MUST check that the SHA-1 hash of the contents of the object retrieved from that URL (after decoding any MIME Content-Transfer-Encoding) matches the given hash.  If any retrieved object does not have the correct SHA-1 hash, the server MUST abort the handshake with a "bad_certificate_hash_value" alert.
+"ko": |-
+  URL에 SHA-1 해시가 있는 경우 서버는 해당 URL에서 검색된 객체 콘텐츠의 SHA-1 해시(MIME 콘텐츠 전송 인코딩을 디코딩한 후)가 지정된 해시와 일치하는지 확인해야 합니다. 검색된 개체에 올바른 SHA-1 해시가 없는 경우 서버는 "bad_certificate_hash_value" 경고와 함께 핸드셰이크를 중단해야 합니다.

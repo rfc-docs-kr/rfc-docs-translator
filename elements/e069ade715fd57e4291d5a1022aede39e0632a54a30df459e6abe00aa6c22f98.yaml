@@ -1,0 +1,16 @@
+"hash": |-
+  e069ade715fd57e4291d5a1022aede39e0632a54a30df459e6abe00aa6c22f98
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Conforming CRLs issuers MUST NOT issue CRLs where the DER encoding of
+     the issuing distribution point extension is an empty sequence.  That
+     is, if onlyContainsUserCerts, onlyContainsCACerts, indirectCRL, and
+     onlyContainsAttributeCerts are all FALSE, then either the
+     distributionPoint field or the onlySomeReasons field MUST be present.
+"fixed": |-
+  Conforming CRLs issuers MUST NOT issue CRLs where the DER encoding of the issuing distribution point extension is an empty sequence.  That is, if onlyContainsUserCerts, onlyContainsCACerts, indirectCRL, and onlyContainsAttributeCerts are all FALSE, then either the distributionPoint field or the onlySomeReasons field MUST be present.
+"ko": |-
+  CRL 준수 발행자는 발행 배포 지점 확장의 DER 인코딩이 빈 시퀀스인 CRL을 발행해서는 안 됩니다. 즉, onlyContainsUserCerts, onlyContainsCACerts, indirectCRL 및 onlyContainsAttributeCerts가 모두 FALSE인 경우 distributionPoint 필드 또는 onlySomeReasons 필드가 있어야 합니다.

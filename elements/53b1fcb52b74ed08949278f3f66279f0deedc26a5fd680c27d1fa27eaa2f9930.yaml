@@ -1,0 +1,19 @@
+"hash": |-
+  53b1fcb52b74ed08949278f3f66279f0deedc26a5fd680c27d1fa27eaa2f9930
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Conforming applications MUST be able to process the
+     requireExplicitPolicy field and SHOULD be able to process the
+     inhibitPolicyMapping field.  Applications that support the
+     inhibitPolicyMapping field MUST also implement support for the
+     policyMappings extension.  If the policyConstraints extension is
+     marked as critical and the inhibitPolicyMapping field is present,
+     applications that do not implement support for the
+     inhibitPolicyMapping field MUST reject the certificate.
+"fixed": |-
+  Conforming applications MUST be able to process the requireExplicitPolicy field and SHOULD be able to process the inhibitPolicyMapping field.  Applications that support the inhibitPolicyMapping field MUST also implement support for the policyMappings extension.  If the policyConstraints extension is marked as critical and the inhibitPolicyMapping field is present, applications that do not implement support for the inhibitPolicyMapping field MUST reject the certificate.
+"ko": |-
+  준수 애플리케이션은 requireExplicitPolicy 필드를 처리할 수 있어야 하며(MUST) InhibitPolicyMapping 필드를 처리할 수 있어야 합니다(SHOULD). InhibitPolicyMapping 필드를 지원하는 애플리케이션은 PolicyMappings 확장에 대한 지원도 구현해야 합니다. PolicyConstraints 확장이 중요로 표시되고 InhibitPolicyMapping 필드가 존재하는 경우, InhibitPolicyMapping 필드에 대한 지원을 구현하지 않는 애플리케이션은 인증서를 거부해야 합니다.

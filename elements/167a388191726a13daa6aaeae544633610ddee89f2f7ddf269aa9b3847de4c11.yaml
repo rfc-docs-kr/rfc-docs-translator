@@ -1,0 +1,24 @@
+"hash": |-
+  167a388191726a13daa6aaeae544633610ddee89f2f7ddf269aa9b3847de4c11
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     More generally speaking, an Option number is constructed with a bit
+     mask to indicate if an option is Critical or Elective, Unsafe or
+     Safe-to-Forward, and, in the case of Safe-to-Forward, to provide a
+     Cache-Key indication as shown by the following figure.  In the
+     following text, the bit mask is expressed as a single byte that is
+     applied to the least significant byte of the option number in
+     unsigned integer representation.  When bit 7 (the least significant
+     bit) is 1, an option is Critical (and likewise Elective when 0).
+     When bit 6 is 1, an option is Unsafe (and likewise Safe-to-Forward
+     when 0).  When bit 6 is 0, i.e., the option is not Unsafe, it is not
+     a Cache-Key (NoCacheKey) if and only if bits 3-5 are all set to 1;
+     all other bit combinations mean that it indeed is a Cache-Key.  These
+     classes of options are explained in the next sections.
+"fixed": |-
+  More generally speaking, an Option number is constructed with a bit mask to indicate if an option is Critical or Elective, Unsafe or Safe-to-Forward, and, in the case of Safe-to-Forward, to provide a Cache-Key indication as shown by the following figure.  In the following text, the bit mask is expressed as a single byte that is applied to the least significant byte of the option number in unsigned integer representation.  When bit 7 (the least significant bit) is 1, an option is Critical (and likewise Elective when 0). When bit 6 is 1, an option is Unsafe (and likewise Safe-to-Forward when 0).  When bit 6 is 0, i.e., the option is not Unsafe, it is not a Cache-Key (NoCacheKey) if and only if bits 3-5 are all set to 1; all other bit combinations mean that it indeed is a Cache-Key.  These classes of options are explained in the next sections.
+"ko": |-
+  보다 일반적으로 말하면, 옵션 번호는 옵션이 중요하거나 선택적이거나, 안전하지 않거나 전달하기에 안전한지 여부를 나타내고, 전달하기에 안전한 경우에는 캐시 키 표시를 제공하기 위해 비트 마스크로 구성됩니다. 다음 그림과 같이. 다음 텍스트에서 비트 마스크는 부호 없는 정수 표현에서 옵션 번호의 최하위 바이트에 적용되는 단일 바이트로 표현됩니다. 비트 7(최하위 비트)이 1이면 옵션은 중요(0이면 선택)입니다. 비트 6이 1인 경우 옵션은 안전하지 않습니다(0인 경우에도 Safe-to-Forward). 비트 6이 0일 때, 즉 옵션이 안전하지 않은 경우, 비트 3-5가 모두 1로 설정된 경우에만 캐시 키(NoCacheKey)가 아닙니다. 다른 모든 비트 조합은 실제로 캐시 키임을 의미합니다. 이러한 옵션 클래스는 다음 섹션에서 설명됩니다.

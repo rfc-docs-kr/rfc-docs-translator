@@ -1,0 +1,19 @@
+"hash": |-
+  8d616047ae3d474efdc002fbbc0dde036d8f0e9bd3ae3bdf9d88a0f644299ff5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This CRL entry extension identifies the certificate issuer associated
+     with an entry in an indirect CRL, that is, a CRL that has the
+     indirectCRL indicator set in its issuing distribution point
+     extension.  If this extension is not present on the first entry in an
+     indirect CRL, the certificate issuer defaults to the CRL issuer.  On
+     subsequent entries in an indirect CRL, if this extension is not
+     present, the certificate issuer for the entry is the same as that for
+     the preceding entry.  This field is defined as follows:
+"fixed": |-
+  This CRL entry extension identifies the certificate issuer associated with an entry in an indirect CRL, that is, a CRL that has the indirectCRL indicator set in its issuing distribution point extension.  If this extension is not present on the first entry in an indirect CRL, the certificate issuer defaults to the CRL issuer.  On subsequent entries in an indirect CRL, if this extension is not present, the certificate issuer for the entry is the same as that for the preceding entry.  This field is defined as follows:
+"ko": |-
+  이 CRL 항목 확장은 간접 CRL, 즉 발급 배포 지점 확장에 indirectCRL 표시기가 설정된 CRL의 항목과 연결된 인증서 발급자를 식별합니다. 이 확장이 간접 CRL의 첫 번째 항목에 없으면 인증서 발급자는 기본적으로 CRL 발급자를 사용합니다. 간접 CRL의 후속 항목에 이 확장이 없으면 해당 항목의 인증서 발급자는 이전 항목의 인증서 발급자와 동일합니다. 이 필드는 다음과 같이 정의됩니다.

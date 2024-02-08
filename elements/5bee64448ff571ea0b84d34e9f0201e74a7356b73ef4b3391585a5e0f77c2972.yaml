@@ -1,0 +1,20 @@
+"hash": |-
+  5bee64448ff571ea0b84d34e9f0201e74a7356b73ef4b3391585a5e0f77c2972
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipCidrRouteNumber OBJECT-TYPE
+         SYNTAX     Gauge32
+         MAX-ACCESS read-only
+         STATUS     deprecated
+         DESCRIPTION
+                "The number of current ipCidrRouteTable entries that are
+                 not invalid.  This object is deprecated in favor of
+                 inetCidrRouteNumber and the inetCidrRouteTable."
+         ::= { ipForward 3 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

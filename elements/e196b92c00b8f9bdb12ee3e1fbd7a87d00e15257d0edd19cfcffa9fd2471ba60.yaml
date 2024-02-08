@@ -1,0 +1,18 @@
+"hash": |-
+  e196b92c00b8f9bdb12ee3e1fbd7a87d00e15257d0edd19cfcffa9fd2471ba60
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Named bit lists are BIT STRINGs where the values have been assigned
+     names.  This specification makes use of named bit lists in the
+     definitions for the key usage, CRL distribution points and freshest
+     CRL certificate extensions, as well as the freshest CRL and issuing
+     distribution point CRL extensions.  When DER encoding a named bit
+     list, trailing zeroes MUST be omitted.  That is, the encoded value
+     ends with the last named bit that is set to one.
+"fixed": |-
+  Named bit lists are BIT STRINGs where the values have been assigned names.  This specification makes use of named bit lists in the definitions for the key usage, CRL distribution points and freshest CRL certificate extensions, as well as the freshest CRL and issuing distribution point CRL extensions.  When DER encoding a named bit list, trailing zeroes MUST be omitted.  That is, the encoded value ends with the last named bit that is set to one.
+"ko": |-
+  명명된 비트 목록은 값에 이름이 할당된 BIT STRING입니다. 이 사양에서는 키 사용, CRL 배포 지점 및 최신 CRL 인증서 확장은 물론 최신 CRL 및 발급 배포 지점 CRL 확장에 대한 정의에서 명명된 비트 목록을 사용합니다. 명명된 비트 목록을 DER 인코딩할 때 후행 0은 생략되어야 합니다. 즉, 인코딩된 값은 1로 설정된 마지막 명명된 비트로 끝납니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  0c323663c359d34729f4a9c04946b1e1afd4e028936d1ff5afcdda936c4fd3ce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This general-header is used in SETUP responses or PLAY_NOTIFY
+     requests to indicate the media's properties that currently are
+     applicable to the RTSP session.  PLAY_NOTIFY MAY be used to modify
+     these properties at any point.  However, the client SHOULD have
+     received the update prior to any action related to the new media
+     properties taking effect.  For aggregated sessions, the Media-
+     Properties header will be returned in each SETUP response.  The
+     header received in the latest response is the one that applies on the
+"fixed": |-
+  This general-header is used in SETUP responses or PLAY_NOTIFY requests to indicate the media's properties that currently are applicable to the RTSP session.  PLAY_NOTIFY MAY be used to modify these properties at any point.  However, the client SHOULD have received the update prior to any action related to the new media properties taking effect.  For aggregated sessions, the Media- Properties header will be returned in each SETUP response.  The header received in the latest response is the one that applies on the
+"ko": |-
+  이 일반 헤더는 SETUP 응답 또는 PLAY_NOTIFY 요청에 사용되어 현재 RTSP 세션에 적용 가능한 미디어 속성을 나타냅니다. PLAY_NOTIFY는 언제든지 이러한 속성을 수정하는 데 사용될 수 있습니다. 그러나 클라이언트는 새로운 미디어 속성과 관련된 작업이 적용되기 전에 업데이트를 수신해야 합니다. 집계된 세션의 경우 Media-Properties 헤더가 각 SETUP 응답에 반환됩니다. 최신 응답에서 수신된 헤더는 응답에 적용되는 헤더입니다.

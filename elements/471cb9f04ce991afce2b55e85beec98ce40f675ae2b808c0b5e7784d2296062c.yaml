@@ -1,0 +1,23 @@
+"hash": |-
+  471cb9f04ce991afce2b55e85beec98ce40f675ae2b808c0b5e7784d2296062c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Path Protection:  The goal of LSP path protection (or end-to-end
+        protection) is to protect an LSP from any failure along its routed
+        path.  Under path protection, the path of the protection LSP is
+        completely disjoint from the path of the working LSP.  The
+        advantage of path protection is that the backup LSP protects the
+        working LSP from all possible link and node failures along the
+        path, except for failures of ingress or egress LSR.  Additionally,
+        path protection may be more efficient in terms of resource usage
+        than link or node protection applied at every hop along the path.
+        However, path protection may be slower than link and node
+        protection because the fault notifications have to be propagated
+        further.
+"fixed": |-
+  Path Protection:  The goal of LSP path protection (or end-to-end protection) is to protect an LSP from any failure along its routed path.  Under path protection, the path of the protection LSP is completely disjoint from the path of the working LSP.  The advantage of path protection is that the backup LSP protects the working LSP from all possible link and node failures along the path, except for failures of ingress or egress LSR.  Additionally, path protection may be more efficient in terms of resource usage than link or node protection applied at every hop along the path. However, path protection may be slower than link and node protection because the fault notifications have to be propagated further.
+"ko": |-
+  경로 보호: LSP 경로 보호(또는 종단 간 보호)의 목표는 라우팅된 경로를 따라 발생하는 모든 오류로부터 LSP를 보호하는 것입니다. 경로 보호에서 보호 LSP의 경로는 작동 LSP의 경로와 완전히 분리됩니다. 경로 보호의 장점은 백업 LSP가 수신 또는 송신 LSR의 오류를 제외하고 경로를 따라 가능한 모든 링크 및 노드 오류로부터 작동 중인 LSP를 보호한다는 것입니다. 또한 경로 보호는 경로의 모든 홉에 적용되는 링크 또는 노드 보호보다 리소스 사용 측면에서 더 효율적일 수 있습니다. 그러나 경로 보호는 오류 알림이 더 많이 전파되어야 하기 때문에 링크 및 노드 보호보다 느릴 수 있습니다.

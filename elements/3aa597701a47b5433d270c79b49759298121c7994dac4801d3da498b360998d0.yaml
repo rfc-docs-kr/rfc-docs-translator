@@ -1,0 +1,23 @@
+"hash": |-
+  3aa597701a47b5433d270c79b49759298121c7994dac4801d3da498b360998d0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An OPTIONS request may be issued at any time.  Such a request does
+     not modify the session state.  However, it may prolong the session
+     lifespan (see below).  The URI in an OPTIONS request determines the
+     scope of the request and the corresponding response.  If the Request-
+     URI refers to a specific media resource on a given host, the scope is
+     limited to the set of methods supported for that media resource by
+     the indicated RTSP agent.  A Request-URI with only the host address
+     limits the scope to the specified RTSP agent's general capabilities
+     without regard to any specific media.  If the Request-URI is an
+     asterisk ("*"), the scope is limited to the general capabilities of
+     the next hop (i.e., the RTSP agent in direct communication with the
+     request sender).
+"fixed": |-
+  An OPTIONS request may be issued at any time.  Such a request does not modify the session state.  However, it may prolong the session lifespan (see below).  The URI in an OPTIONS request determines the scope of the request and the corresponding response.  If the Request- URI refers to a specific media resource on a given host, the scope is limited to the set of methods supported for that media resource by the indicated RTSP agent.  A Request-URI with only the host address limits the scope to the specified RTSP agent's general capabilities without regard to any specific media.  If the Request-URI is an asterisk ("*"), the scope is limited to the general capabilities of the next hop (i.e., the RTSP agent in direct communication with the request sender).
+"ko": |-
+  OPTIONS 요청은 언제든지 발행될 수 있습니다. 이러한 요청은 세션 상태를 수정하지 않습니다. 그러나 세션 수명이 연장될 수 있습니다(아래 참조). OPTIONS 요청의 URI는 요청 범위와 해당 응답을 결정합니다. 요청-URI가 특정 호스트의 특정 미디어 리소스를 참조하는 경우 범위는 표시된 RTSP 에이전트가 해당 미디어 리소스에 대해 지원하는 메서드 집합으로 제한됩니다. 호스트 주소만 있는 요청-URI는 특정 미디어에 관계없이 지정된 RTSP 에이전트의 일반 기능으로 범위를 제한합니다. Request-URI가 별표("*")인 경우 범위는 다음 홉(즉, 요청 보낸 사람과 직접 통신하는 RTSP 에이전트)의 일반 기능으로 제한됩니다.

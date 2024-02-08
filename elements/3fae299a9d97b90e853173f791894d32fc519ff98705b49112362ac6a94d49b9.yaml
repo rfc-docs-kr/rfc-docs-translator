@@ -1,0 +1,20 @@
+"hash": |-
+  3fae299a9d97b90e853173f791894d32fc519ff98705b49112362ac6a94d49b9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The other way is to specify a message body that lists the
+     parameter(s) that are desired to be retrieved.  The Content-Type
+     header (Section 18.19) is used to specify which format the message
+     body has.  If the receiver of the request does not support the media
+     type used for the message body, it SHALL respond using the error code
+     415 (Unsupported Media Type).  The responder to a GET_PARAMETER
+     request MUST use the media type of the request for the response.  For
+     additional considerations regarding message body negotiation, see
+     Section 9.3.
+"fixed": |-
+  The other way is to specify a message body that lists the parameter(s) that are desired to be retrieved.  The Content-Type header (Section 18.19) is used to specify which format the message body has.  If the receiver of the request does not support the media type used for the message body, it SHALL respond using the error code 415 (Unsupported Media Type).  The responder to a GET_PARAMETER request MUST use the media type of the request for the response.  For additional considerations regarding message body negotiation, see Section 9.3.
+"ko": |-
+  다른 방법은 검색하려는 매개변수를 나열하는 메시지 본문을 지정하는 것입니다. Content-Type 헤더(섹션 18.19)는 메시지 본문의 형식을 지정하는 데 사용됩니다. 요청 수신자가 메시지 본문에 사용된 미디어 유형을 지원하지 않는 경우 오류 코드 415(지원되지 않는 미디어 유형)를 사용하여 응답해야 합니다. GET_PARAMETER 요청에 대한 응답자는 응답 요청의 미디어 유형을 사용해야 합니다. 메시지 본문 협상에 관한 추가 고려 사항은 섹션 9.3을 참조하세요.

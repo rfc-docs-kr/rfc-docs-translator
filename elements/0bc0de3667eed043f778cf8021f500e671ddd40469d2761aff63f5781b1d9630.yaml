@@ -1,0 +1,18 @@
+"hash": |-
+  0bc0de3667eed043f778cf8021f500e671ddd40469d2761aff63f5781b1d9630
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a CRL includes an issuingDistributionPoint extension with
+     onlySomeReasons present, then every certificate in the scope of the
+     CRL that is revoked MUST be assigned a revocation reason other than
+     unspecified.  The assigned revocation reason is used to determine on
+     which CRL(s) to list the revoked certificate, however, there is no
+     requirement to include the reasonCode CRL entry extension in the
+     corresponding CRL entry.
+"fixed": |-
+  If a CRL includes an issuingDistributionPoint extension with onlySomeReasons present, then every certificate in the scope of the CRL that is revoked MUST be assigned a revocation reason other than unspecified.  The assigned revocation reason is used to determine on which CRL(s) to list the revoked certificate, however, there is no requirement to include the reasonCode CRL entry extension in the corresponding CRL entry.
+"ko": |-
+  CRL에 onlySomeReasons가 있는 issuingDistributionPoint 확장이 포함된 경우 취소된 CRL 범위의 모든 인증서에는 지정되지 않은 취소 이유가 할당되어야 합니다. 할당된 폐기 이유는 폐기된 인증서를 나열할 CRL을 결정하는 데 사용됩니다. 그러나 해당 CRL 항목에 ReasonCode CRL 항목 확장을 포함할 필요는 없습니다.

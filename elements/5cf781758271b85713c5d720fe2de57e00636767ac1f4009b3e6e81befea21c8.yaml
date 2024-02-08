@@ -1,0 +1,19 @@
+"hash": |-
+  5cf781758271b85713c5d720fe2de57e00636767ac1f4009b3e6e81befea21c8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This document introduces five new ECC-based key exchange algorithms
+     for TLS.  All of them use ECDH to compute the TLS premaster secret,
+     and they differ only in the lifetime of ECDH keys (long-term or
+     ephemeral) and the mechanism (if any) used to authenticate them.  The
+     derivation of the TLS master secret from the premaster secret and the
+     subsequent generation of bulk encryption/MAC keys and initialization
+     vectors is independent of the key exchange algorithm and not impacted
+     by the introduction of ECC.
+"fixed": |-
+  This document introduces five new ECC-based key exchange algorithms for TLS.  All of them use ECDH to compute the TLS premaster secret, and they differ only in the lifetime of ECDH keys (long-term or ephemeral) and the mechanism (if any) used to authenticate them.  The derivation of the TLS master secret from the premaster secret and the subsequent generation of bulk encryption/MAC keys and initialization vectors is independent of the key exchange algorithm and not impacted by the introduction of ECC.
+"ko": |-
+  이 문서에서는 TLS를 위한 5가지 새로운 ECC 기반 키 교환 알고리즘을 소개합니다. 이들 모두 ECDH를 사용하여 TLS 프리마스터 비밀을 계산하며, ECDH 키(장기 또는 임시)의 수명과 이를 인증하는 데 사용되는 메커니즘(있는 경우)만 다릅니다. 프리마스터 비밀에서 TLS 마스터 비밀을 파생시키고 대량 암호화/MAC 키 및 초기화 벡터의 후속 생성은 키 교환 알고리즘과 독립적이며 ECC 도입의 영향을 받지 않습니다.

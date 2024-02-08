@@ -1,0 +1,16 @@
+"hash": |-
+  7ac536617eb49bb6bd25f4cf90516ec5b9dd39aec127a0fab4d1962280bf97fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  Removed the possibility of using Range header with Scale header
+           to indicate when it is to be activated, since it can't work as
+           defined.  Also, added a rule that lack of Scale header in a
+           response indicates lack of support for the header.  feature
+           tags for scaled playback have been defined.
+"fixed": |-
+  - *  Removed the possibility of using Range header with Scale header to indicate when it is to be activated, since it can't work as defined.  Also, added a rule that lack of Scale header in a response indicates lack of support for the header.  feature tags for scaled playback have been defined.
+"ko": |-
+  - * 정의된 대로 작동할 수 없기 때문에 활성화될 시기를 나타내기 위해 Scale 헤더와 함께 Range 헤더를 사용할 가능성을 제거했습니다. 또한 응답에 Scale 헤더가 없으면 헤더에 대한 지원이 부족함을 나타내는 규칙이 추가되었습니다. 확장된 재생을 위한 기능 태그가 정의되었습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  be8790ac206a6a2a28643e2fa5bb329ec0e0ca98672ed37ee7dfb0b6f9506ada
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Certain error responses such as 460 (Only Aggregate Operation
+        Allowed) (Section 17.4.24) are used for negotiating capabilities
+        of a server with respect to content or other factors.  In such
+        cases, it is inefficient for the server to close a connection on
+        an error response.  Also, such behavior would prevent
+        implementation of advanced or special types of requests or result
+        in extra overhead for the client when testing for new features.
+        On the other hand, keeping connections open after sending an error
+        response poses a Denial-of-Service (DoS) security risk
+        (Section 21).
+"fixed": |-
+  - Certain error responses such as 460 (Only Aggregate Operation Allowed) (Section 17.4.24) are used for negotiating capabilities of a server with respect to content or other factors.  In such cases, it is inefficient for the server to close a connection on an error response.  Also, such behavior would prevent implementation of advanced or special types of requests or result in extra overhead for the client when testing for new features. On the other hand, keeping connections open after sending an error response poses a Denial-of-Service (DoS) security risk (Section 21).
+"ko": |-
+  - 460(집계 작업만 허용됨)(섹션 17.4.24)과 같은 특정 오류 응답은 콘텐츠 또는 기타 요소와 관련하여 서버 기능을 협상하는 데 사용됩니다. 이러한 경우 서버가 오류 응답에 대한 연결을 닫는 것은 비효율적입니다. 또한 이러한 동작으로 인해 고급 또는 특수 유형의 요청이 구현되지 않거나 새로운 기능을 테스트할 때 클라이언트에 추가 오버헤드가 발생하게 됩니다. 반면에 오류 응답을 보낸 후 연결을 열어두면 서비스 거부(DoS) 보안 위험이 발생합니다(섹션 21).

@@ -1,0 +1,22 @@
+"hash": |-
+  9680ce34bdbdd52f5700d7ff893a8dde508bc462b83c83e139495981a6a97ae9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRouteAge OBJECT-TYPE
+         SYNTAX     Gauge32
+         MAX-ACCESS read-only
+         STATUS     current
+         DESCRIPTION
+                "The number of seconds since this route was last updated
+                 or otherwise determined to be correct.  Note that no
+                 semantics of 'too old' can be implied, except through
+                 knowledge of the routing protocol by which the route
+                 was learned."
+         ::= { inetCidrRouteEntry 10 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  81d0d5697dead96c3f918c0e39a3107ba165236caa44c053465ba894e87fd8ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Finally, note that an extended client hello may be sent both when
+     starting a new session and when requesting session resumption.
+     Indeed, a client that requests resumption of a session does not in
+     general know whether the server will accept this request, and
+     therefore it SHOULD send an extended client hello if it would
+     normally do so for a new session.  In general the specification of
+     each extension type must include a discussion of the effect of the
+     extension both during new sessions and during resumed sessions.
+"fixed": |-
+  Finally, note that an extended client hello may be sent both when starting a new session and when requesting session resumption. Indeed, a client that requests resumption of a session does not in general know whether the server will accept this request, and therefore it SHOULD send an extended client hello if it would normally do so for a new session.  In general the specification of each extension type must include a discussion of the effect of the extension both during new sessions and during resumed sessions.
+"ko": |-
+  마지막으로, 새 세션을 시작할 때와 세션 재개를 요청할 때 확장 클라이언트 hello가 전송될 수 있습니다. 실제로 세션 재개를 요청하는 클라이언트는 일반적으로 서버가 이 요청을 수락할지 여부를 알지 못하므로 일반적으로 새 세션에 대해 그렇게 한다면 확장 클라이언트 hello를 보내야 합니다. 일반적으로 각 확장 유형의 사양에는 새 세션과 재개된 세션 모두에서 확장 효과에 대한 논의가 포함되어야 합니다.

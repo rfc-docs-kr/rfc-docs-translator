@@ -1,0 +1,19 @@
+"hash": |-
+  ddef71981a20df6de8acdad7db5e290204091c2fc1bfa3be1b4c04f7acf179c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the subjectAltName extension contains a iPAddress, the address
+     MUST be stored in the octet string in "network byte order," as
+     specified in RFC 791 [RFC 791].  The least significant bit (LSB) of
+     each octet is the LSB of the corresponding byte in the network
+     address.  For IP Version 4, as specified in RFC 791, the octet string
+     MUST contain exactly four octets.  For IP Version 6, as specified in
+     RFC 1883, the octet string MUST contain exactly sixteen octets [RFC
+     1883].
+"fixed": |-
+  When the subjectAltName extension contains a iPAddress, the address MUST be stored in the octet string in "network byte order," as specified in RFC 791 [RFC 791].  The least significant bit (LSB) of each octet is the LSB of the corresponding byte in the network address.  For IP Version 4, as specified in RFC 791, the octet string MUST contain exactly four octets.  For IP Version 6, as specified in RFC 1883, the octet string MUST contain exactly sixteen octets [RFC 1883].
+"ko": |-
+  subjectAltName 확장에 iPAddress가 포함된 경우 주소는 RFC 791 [RFC 791]에 지정된 대로 "네트워크 바이트 순서"로 옥텟 문자열에 저장되어야 합니다. 각 옥텟의 최하위 비트(LSB)는 네트워크 주소에서 해당 바이트의 LSB입니다. RFC 791에 지정된 대로 IP 버전 4의 경우 옥텟 문자열은 정확히 4개의 옥텟을 포함해야 합니다. IP 버전 6의 경우 RFC 1883에 지정된 대로 옥텟 문자열은 정확히 16개의 옥텟을 포함해야 합니다[RFC 1883].

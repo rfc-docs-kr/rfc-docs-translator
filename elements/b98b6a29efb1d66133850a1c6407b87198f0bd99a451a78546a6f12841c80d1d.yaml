@@ -1,0 +1,18 @@
+"hash": |-
+  b98b6a29efb1d66133850a1c6407b87198f0bd99a451a78546a6f12841c80d1d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     DTLS connections in RawPublicKey and Certificate mode are set up
+     using mutual authentication so they can remain up and be reused for
+     future message exchanges in either direction.  Devices can close a
+     DTLS connection when they need to recover resources, but in general
+     they should keep the connection up for as long as possible.  Closing
+     the DTLS connection after every CoAP message exchange is very
+     inefficient.
+"fixed": |-
+  DTLS connections in RawPublicKey and Certificate mode are set up using mutual authentication so they can remain up and be reused for future message exchanges in either direction.  Devices can close a DTLS connection when they need to recover resources, but in general they should keep the connection up for as long as possible.  Closing the DTLS connection after every CoAP message exchange is very inefficient.
+"ko": |-
+  RawPublicKey 및 인증서 모드의 DTLS 연결은 상호 인증을 사용하여 설정되므로 연결을 유지하고 향후 어느 방향에서든 메시지 교환에 재사용할 수 있습니다. 장치는 리소스를 복구해야 할 때 DTLS 연결을 닫을 수 있지만 일반적으로 가능한 한 오랫동안 연결을 유지해야 합니다. 모든 CoAP 메시지 교환 후에 DTLS 연결을 닫는 것은 매우 비효율적입니다.

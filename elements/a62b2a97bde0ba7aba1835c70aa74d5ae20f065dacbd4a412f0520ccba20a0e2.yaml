@@ -1,0 +1,18 @@
+"hash": |-
+  a62b2a97bde0ba7aba1835c70aa74d5ae20f065dacbd4a412f0520ccba20a0e2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In this example, first, NPT 10 through 15 are played, then the client
+     requests the server to skip ahead and play NPT 18 through 20.  The
+     first segment is presented as RTP packets with sequence numbers 0
+     through 49 and timestamps 0 through 39,200.  The second segment
+     consists of RTP packets with sequence numbers 50 through 69, with
+     timestamps 40,100 through 55,200.  While there is a gap in the NPT,
+     there is no gap in the sequence-number space of the RTP data stream.
+"fixed": |-
+  In this example, first, NPT 10 through 15 are played, then the client requests the server to skip ahead and play NPT 18 through 20.  The first segment is presented as RTP packets with sequence numbers 0 through 49 and timestamps 0 through 39,200.  The second segment consists of RTP packets with sequence numbers 50 through 69, with timestamps 40,100 through 55,200.  While there is a gap in the NPT, there is no gap in the sequence-number space of the RTP data stream.
+"ko": |-
+  이 예에서는 먼저 NPT 10~15가 재생된 다음 클라이언트가 서버에 앞으로 건너뛰고 NPT 18~20을 재생하도록 요청합니다. 첫 번째 세그먼트는 시퀀스 번호 0~49와 타임스탬프 0~39,200이 있는 RTP 패킷으로 표시됩니다. 두 번째 세그먼트는 시퀀스 번호 50~69, 타임스탬프 40,100~55,200의 RTP 패킷으로 구성됩니다. NPT에는 간격이 있지만 RTP 데이터 스트림의 시퀀스 번호 공간에는 간격이 없습니다.

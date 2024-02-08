@@ -1,0 +1,15 @@
+"hash": |-
+  5f9ba25d8baf32fc662a83220d7d02b3c8c5e47f98a54a2be483143c737b23a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the GRE ingress receives an IPv6 payload packet whose length is
+     less than or equal to the GMTU, it can encapsulate and forward the
+     packet without fragmentation of any kind.  In this case, the GRE
+     ingress router MUST NOT fragment the payload or delivery packets.
+"fixed": |-
+  When the GRE ingress receives an IPv6 payload packet whose length is less than or equal to the GMTU, it can encapsulate and forward the packet without fragmentation of any kind.  In this case, the GRE ingress router MUST NOT fragment the payload or delivery packets.
+"ko": |-
+  GRE 수신은 길이가 GMTU보다 작거나 같은 IPv6 페이로드 패킷을 수신하면 어떤 종류의 조각화 없이 패킷을 캡슐화하고 전달할 수 있습니다. 이 경우 GRE 수신 라우터는 페이로드 또는 전달 패킷을 조각화해서는 안 됩니다.

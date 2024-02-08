@@ -1,0 +1,51 @@
+"hash": |-
+  df84428d1af6f34ba215324042865a3483e9b387beb4eae7ea5ea70c4afc309e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     0  910: SEQUENCE {
+     4  846:   SEQUENCE {
+     8    3:     [0] {
+    10    1:       INTEGER 2
+           :       }
+    13    2:     INTEGER 256
+    17    9:     SEQUENCE {
+    19    7:       OBJECT IDENTIFIER dsaWithSha1 (1 2 840 10040 4 3)
+           :       }
+    28   71:     SEQUENCE {
+    30   19:       SET {
+    32   17:         SEQUENCE {
+    34   10:           OBJECT IDENTIFIER
+           :             domainComponent (0 9 2342 19200300 100 1 25)
+    46    3:           IA5String 'com'
+           :           }
+           :         }
+    51   23:       SET {
+    53   21:         SEQUENCE {
+    55   10:           OBJECT IDENTIFIER
+           :             domainComponent (0 9 2342 19200300 100 1 25)
+    67    7:           IA5String 'example'
+           :           }
+           :         }
+    76   23:       SET {
+    78   21:         SEQUENCE {
+    80    3:           OBJECT IDENTIFIER commonName (2 5 4 3)
+    85   14:           PrintableString 'Example DSA CA'
+           :           }
+           :         }
+           :       }
+   101   30:     SEQUENCE {
+   103   13:       UTCTime 02/05/2004 16:47:38 GMT
+   118   13:       UTCTime 02/05/2005 16:47:38 GMT
+           :       }
+   133   71:     SEQUENCE {
+   135   19:       SET {
+   137   17:         SEQUENCE {
+   139   10:           OBJECT IDENTIFIER
+           :             domainComponent (0 9 2342 19200300 100 1 25)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

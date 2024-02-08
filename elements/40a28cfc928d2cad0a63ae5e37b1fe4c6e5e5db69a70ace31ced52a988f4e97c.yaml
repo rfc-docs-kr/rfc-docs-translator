@@ -1,0 +1,17 @@
+"hash": |-
+  40a28cfc928d2cad0a63ae5e37b1fe4c6e5e5db69a70ace31ced52a988f4e97c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     HKDF is defined to operate with and without random salt.  This is
+     done to accommodate applications where a salt value is not available.
+     We stress, however, that the use of salt adds significantly to the
+     strength of HKDF, ensuring independence between different uses of the
+     hash function, supporting "source-independent" extraction, and
+     strengthening the analytical results that back the HKDF design.
+"fixed": |-
+  HKDF is defined to operate with and without random salt.  This is done to accommodate applications where a salt value is not available. We stress, however, that the use of salt adds significantly to the strength of HKDF, ensuring independence between different uses of the hash function, supporting "source-independent" extraction, and strengthening the analytical results that back the HKDF design.
+"ko": |-
+  HKDF는 임의의 소금을 사용하거나 사용하지 않고 작동하도록 정의됩니다. 이는 솔트 값을 사용할 수 없는 애플리케이션을 수용하기 위해 수행됩니다. 그러나 우리는 솔트의 사용이 HKDF의 강점을 크게 높여 해시 함수의 다양한 사용 간의 독립성을 보장하고 "소스 독립적" 추출을 지원하며 HKDF 설계를 뒷받침하는 분석 결과를 강화한다는 점을 강조합니다.

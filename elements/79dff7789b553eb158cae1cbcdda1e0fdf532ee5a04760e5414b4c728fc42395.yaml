@@ -1,0 +1,20 @@
+"hash": |-
+  79dff7789b553eb158cae1cbcdda1e0fdf532ee5a04760e5414b4c728fc42395
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In some applications, the input key material IKM may already be
+     present as a cryptographically strong key (for example, the premaster
+     secret in TLS RSA cipher suites would be a pseudorandom string,
+     except for the first two octets).  In this case, one can skip the
+     extract part and use IKM directly to key HMAC in the expand step.  On
+     the other hand, applications may still use the extract part for the
+     sake of compatibility with the general case.  In particular, if IKM
+     is random (or pseudorandom) but longer than an HMAC key, the extract
+     step can serve to output a suitable HMAC key (in the case of HMAC
+"fixed": |-
+  In some applications, the input key material IKM may already be present as a cryptographically strong key (for example, the premaster secret in TLS RSA cipher suites would be a pseudorandom string, except for the first two octets).  In this case, one can skip the extract part and use IKM directly to key HMAC in the expand step.  On the other hand, applications may still use the extract part for the sake of compatibility with the general case.  In particular, if IKM is random (or pseudorandom) but longer than an HMAC key, the extract step can serve to output a suitable HMAC key (in the case of HMAC
+"ko": |-
+  일부 애플리케이션에서는 입력 키 자료 IKM이 이미 강력한 암호화 키로 존재할 수 있습니다(예를 들어 TLS RSA 암호화 제품군의 프리마스터 비밀은 처음 두 옥텟을 제외하고 의사 난수 문자열임). 이 경우 추출 부분을 건너뛰고 확장 단계에서 IKM을 주요 HMAC에 직접 사용할 수 있습니다. 반면, 응용 프로그램에서는 일반적인 경우와의 호환성을 위해 추출 부분을 계속 사용할 수 있습니다. 특히 IKM이 무작위(또는 의사 무작위)이지만 HMAC 키보다 긴 경우 추출 단계는 적합한 HMAC 키를 출력하는 역할을 할 수 있습니다(HMAC의 경우

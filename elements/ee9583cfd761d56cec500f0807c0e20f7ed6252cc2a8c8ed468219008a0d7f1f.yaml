@@ -7,7 +7,7 @@
 "original": |2-
            In this case, the control connection is in an unknown state and
            the client should simply drop the control connection.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - In this case, the control connection is in an unknown state and the client should simply drop the control connection.
+"ko": |-
+  - 이 경우 제어 연결은 알 수 없는 상태이므로 클라이언트는 간단히 제어 연결을 끊어야 합니다.

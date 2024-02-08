@@ -1,0 +1,16 @@
+"hash": |-
+  f13910571d503ca79d8002f1a167f7772f3015a4dd918cbcc445ba42b993801c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           (4)  If the certificate policies extension was marked as
+           critical, set the criticality_indicator in all nodes of depth i
+           to TRUE.  If the certificate policies extension was not marked
+           critical, set the criticality_indicator in all nodes of depth i
+           to FALSE.
+"fixed": |-
+  - (4)  If the certificate policies extension was marked as critical, set the criticality_indicator in all nodes of depth i to TRUE.  If the certificate policies extension was not marked critical, set the criticality_indicator in all nodes of depth i to FALSE.
+"ko": |-
+  - (4) 인증서 정책 확장이 중요로 표시된 경우 깊이 i의 모든 노드에서 important_indicator를 TRUE로 설정합니다. 인증서 정책 확장이 중요로 표시되지 않은 경우 깊이 i의 모든 노드에서 important_indicator를 FALSE로 설정합니다.

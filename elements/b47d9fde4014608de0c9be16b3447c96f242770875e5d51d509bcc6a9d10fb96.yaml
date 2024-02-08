@@ -1,0 +1,14 @@
+"hash": |-
+  b47d9fde4014608de0c9be16b3447c96f242770875e5d51d509bcc6a9d10fb96
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  an RTSP agent should not have more than 10 outstanding requests
+        that are not related to an RTSP session or that are requesting to
+        create an RTSP session.
+"fixed": |-
+  -  an RTSP agent should not have more than 10 outstanding requests that are not related to an RTSP session or that are requesting to create an RTSP session.
+"ko": |-
+  - RTSP 에이전트에는 RTSP 세션과 관련이 없거나 RTSP 세션 생성을 요청하는 미해결 요청이 10개 이상 있어서는 안 됩니다.

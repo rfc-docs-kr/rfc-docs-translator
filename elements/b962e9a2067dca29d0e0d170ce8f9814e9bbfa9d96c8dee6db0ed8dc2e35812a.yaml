@@ -1,0 +1,21 @@
+"hash": |-
+  b962e9a2067dca29d0e0d170ce8f9814e9bbfa9d96c8dee6db0ed8dc2e35812a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation Note:  CoAP's choice of message size parameters works
+        well with IPv6 and with most of today's IPv4 paths.  (However,
+        with IPv4, it is harder to absolutely ensure that there is no IP
+        fragmentation.  If IPv4 support on unusual networks is a
+        consideration, implementations may want to limit themselves to
+        more conservative IPv4 datagram sizes such as 576 bytes; per
+        [RFC0791], the absolute minimum value of the IP MTU for IPv4 is as
+        low as 68 bytes, which would leave only 40 bytes minus security
+        overhead for a UDP payload.  Implementations extremely focused on
+        this problem set might also set the IPv4 DF bit and perform some
+"fixed": |-
+  Implementation Note:  CoAP's choice of message size parameters works well with IPv6 and with most of today's IPv4 paths.  (However, with IPv4, it is harder to absolutely ensure that there is no IP fragmentation.  If IPv4 support on unusual networks is a consideration, implementations may want to limit themselves to more conservative IPv4 datagram sizes such as 576 bytes; per [RFC0791], the absolute minimum value of the IP MTU for IPv4 is as low as 68 bytes, which would leave only 40 bytes minus security overhead for a UDP payload.  Implementations extremely focused on this problem set might also set the IPv4 DF bit and perform some
+"ko": |-
+  구현 참고 사항: CoAP의 메시지 크기 매개변수 선택은 IPv6 및 오늘날 대부분의 IPv4 경로에서 잘 작동합니다. (그러나 IPv4를 사용하면 IP 단편화가 없음을 절대적으로 보장하기가 더 어렵습니다. 비정상적인 네트워크에서 IPv4 지원을 고려하는 경우 구현에서는 [RFC0791]에 따라 576바이트와 같은 보다 보수적인 IPv4 데이터그램 크기로 제한할 수 있습니다. , IPv4에 대한 IP MTU의 절대 최소값은 68바이트만큼 낮습니다. 이는 UDP 페이로드에 대한 보안 오버헤드를 뺀 40바이트만 남게 됩니다. 이 문제 세트에 극도로 초점을 맞춘 구현은 IPv4 DF 비트를 설정하고 일부 수행을 수행할 수도 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  a6b723cf9d9aee78a0ab1a3d721c606be348657d4131e22a974ac3f1046f50ea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A cache cannot assume that a message body with a Content-Location
+     different from the URI used to retrieve it can be used to respond to
+     later requests on that Content-Location URI.  However, the Content-
+     Location can be used to differentiate between multiple variants
+     retrieved from a single requested resource.
+"fixed": |-
+  A cache cannot assume that a message body with a Content-Location different from the URI used to retrieve it can be used to respond to later requests on that Content-Location URI.  However, the Content- Location can be used to differentiate between multiple variants retrieved from a single requested resource.
+"ko": |-
+  캐시는 검색에 사용된 URI와 다른 Content-Location을 가진 메시지 본문이 해당 Content-Location URI에 대한 이후 요청에 응답하는 데 사용될 수 있다고 가정할 수 없습니다. 그러나 Content-Location은 단일 요청 리소스에서 검색된 여러 변형을 구별하는 데 사용될 수 있습니다.

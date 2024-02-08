@@ -1,0 +1,27 @@
+"hash": |-
+  71324fbe7920baab15516813d36307183af757977ac904b0a03b4acbace3a562
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The subject field identifies the entity associated with the public
+     key stored in the subject public key field.  The subject name MAY be
+     carried in the subject field and/or the subjectAltName extension.  If
+     the subject is a CA (e.g., the basic constraints extension, as
+     discussed in 4.2.1.10, is present and the value of cA is TRUE), then
+     the subject field MUST be populated with a non-empty distinguished
+     name matching the contents of the issuer field (section 4.1.2.4) in
+     all certificates issued by the subject CA.  If the subject is a CRL
+     issuer (e.g., the key usage extension, as discussed in 4.2.1.3, is
+     present and the value of cRLSign is TRUE) then the subject field MUST
+     be populated with a non-empty distinguished name matching the
+     contents of the issuer field (section 4.1.2.4) in all CRLs issued by
+     the subject CRL issuer.  If subject naming information is present
+     only in the subjectAltName extension (e.g., a key bound only to an
+     email address or URI), then the subject name MUST be an empty
+     sequence and the subjectAltName extension MUST be critical.
+"fixed": |-
+  The subject field identifies the entity associated with the public key stored in the subject public key field.  The subject name MAY be carried in the subject field and/or the subjectAltName extension.  If the subject is a CA (e.g., the basic constraints extension, as discussed in 4.2.1.10, is present and the value of cA is TRUE), then the subject field MUST be populated with a non-empty distinguished name matching the contents of the issuer field (section 4.1.2.4) in all certificates issued by the subject CA.  If the subject is a CRL issuer (e.g., the key usage extension, as discussed in 4.2.1.3, is present and the value of cRLSign is TRUE) then the subject field MUST be populated with a non-empty distinguished name matching the contents of the issuer field (section 4.1.2.4) in all CRLs issued by the subject CRL issuer.  If subject naming information is present only in the subjectAltName extension (e.g., a key bound only to an email address or URI), then the subject name MUST be an empty sequence and the subjectAltName extension MUST be critical.
+"ko": |-
+  제목 필드는 제목 공개 키 필드에 저장된 공개 키와 연관된 엔터티를 식별합니다. 제목 이름은 제목 필드 및/또는 subjectAltName 확장에 포함될 수 있습니다. 주체가 CA인 경우(예: 4.2.1.10에서 논의된 기본 제약 확장이 존재하고 cA 값이 TRUE인 경우), 주체 필드는 CA의 내용과 일치하는 비어 있지 않은 고유 이름으로 채워져야 합니다. 주체 CA가 발급한 모든 인증서의 발급자 필드(섹션 4.1.2.4). 주체가 CRL 발급자인 경우(예: 4.2.1.3에서 설명한 키 사용 확장이 존재하고 cRLSign 값이 TRUE인 경우) 주체 필드는 내용과 일치하는 비어 있지 않은 고유 이름으로 채워져야 합니다. 주제 CRL 발급자가 발급한 모든 CRL의 발급자 필드(섹션 4.1.2.4). 주체 이름 지정 정보가 subjectAltName 확장(예: 이메일 주소 또는 URI에만 바인딩된 키)에만 있는 경우 주체 이름은 빈 시퀀스여야 하며 subjectAltName 확장은 중요해야 합니다(MUST).

@@ -1,0 +1,21 @@
+"hash": |-
+  42922c70b5c508533670664b6e453024c5a4bb46391087f96df76508745f1103
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The invalidity date is a non-critical CRL entry extension that
+     provides the date on which it is known or suspected that the private
+     key was compromised or that the certificate otherwise became invalid.
+     This date may be earlier than the revocation date in the CRL entry,
+     which is the date at which the CA processed the revocation.  When a
+     revocation is first posted by a CRL issuer in a CRL, the invalidity
+     date may precede the date of issue of earlier CRLs, but the
+     revocation date SHOULD NOT precede the date of issue of earlier CRLs.
+     Whenever this information is available, CRL issuers are strongly
+     encouraged to share it with CRL users.
+"fixed": |-
+  The invalidity date is a non-critical CRL entry extension that provides the date on which it is known or suspected that the private key was compromised or that the certificate otherwise became invalid. This date may be earlier than the revocation date in the CRL entry, which is the date at which the CA processed the revocation.  When a revocation is first posted by a CRL issuer in a CRL, the invalidity date may precede the date of issue of earlier CRLs, but the revocation date SHOULD NOT precede the date of issue of earlier CRLs. Whenever this information is available, CRL issuers are strongly encouraged to share it with CRL users.
+"ko": |-
+  무효 날짜는 개인 키가 손상되었거나 인증서가 무효화되었다는 사실이 알려지거나 의심되는 날짜를 제공하는 중요하지 않은 CRL 항목 확장입니다. 이 날짜는 CA가 해지를 처리한 날짜인 CRL 항목의 해지 날짜보다 이전일 수 있습니다. CRL 발급자가 CRL에 철회를 처음 게시하는 경우 무효 날짜는 이전 CRL의 발급 날짜보다 앞설 수 있지만, 철회 날짜는 이전 CRL의 발급 날짜보다 앞서서는 안 됩니다. 이 정보를 사용할 수 있을 때마다 CRL 발급자는 이를 CRL 사용자와 공유할 것을 적극 권장합니다.

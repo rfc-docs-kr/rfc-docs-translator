@@ -11,7 +11,7 @@
      of boundary devices such as NAT and firewalls, which expect to be
      able to examine the content of the control connection in order to
      modify their behaviour.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  There are circumstances in which it may be desirable to protect the control connection only during part of the session and then to revert back to a plaintext connection.  This is often due to the limitations of boundary devices such as NAT and firewalls, which expect to be able to examine the content of the control connection in order to modify their behaviour.
+"ko": |-
+  세션의 일부 동안에만 제어 연결을 보호한 다음 일반 텍스트 연결로 되돌리는 것이 바람직한 상황이 있습니다. 이는 종종 동작을 수정하기 위해 제어 연결의 내용을 검사할 수 있을 것으로 예상되는 NAT 및 방화벽과 같은 경계 장치의 제한 때문입니다.

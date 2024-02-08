@@ -1,0 +1,25 @@
+"hash": |-
+  5cbd96acba4222bd8cd5bf27b753dec3fa128c74dad15bb704db189c6b0c6e8d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The analysis of key derivation functions assumes that the input
+     keying material (IKM) comes from some source modeled as a probability
+     distribution over bit streams of a certain length (e.g., streams
+     produced by an entropy pool, values derived from Diffie-Hellman
+     exponents chosen at random, etc.); each instance of IKM is a sample
+     from that distribution.  A major goal of key derivation functions is
+     to ensure that, when applying the KDF to any two values IKM and IKM'
+     sampled from the (same) source distribution, the resultant keys OKM
+     and OKM' are essentially independent of each other (in a statistical
+     or computational sense).  To achieve this goal, it is important that
+     inputs to KDF are selected from appropriate input distributions and
+     also that inputs are chosen independently of each other (technically,
+     it is necessary that each sample will have sufficient entropy, even
+     when conditioned on other inputs to KDF).
+"fixed": |-
+  The analysis of key derivation functions assumes that the input keying material (IKM) comes from some source modeled as a probability distribution over bit streams of a certain length (e.g., streams produced by an entropy pool, values derived from Diffie-Hellman exponents chosen at random, etc.); each instance of IKM is a sample from that distribution.  A major goal of key derivation functions is to ensure that, when applying the KDF to any two values IKM and IKM' sampled from the (same) source distribution, the resultant keys OKM and OKM' are essentially independent of each other (in a statistical or computational sense).  To achieve this goal, it is important that inputs to KDF are selected from appropriate input distributions and also that inputs are chosen independently of each other (technically, it is necessary that each sample will have sufficient entropy, even when conditioned on other inputs to KDF).
+"ko": |-
+  키 파생 함수 분석에서는 입력 키 자료(IKM)가 특정 길이의 비트 스트림(예: 엔트로피 풀에서 생성된 스트림, 다음에서 선택한 Diffie-Hellman 지수에서 파생된 값)에 대한 확률 분포로 모델링된 일부 소스에서 나온다고 가정합니다. 무작위 등); IKM의 각 인스턴스는 해당 배포판의 샘플입니다. 키 파생 함수의 주요 목표는 (동일한) 소스 분포에서 샘플링된 임의의 두 값 IKM 및 IKM'에 KDF를 적용할 때 결과 키 OKM 및 OKM'이 본질적으로 서로 독립적인지 확인하는 것입니다(통계적 측면에서). 또는 계산적 감각). 이 목표를 달성하려면 KDF에 대한 입력을 적절한 입력 분포에서 선택하고 입력을 서로 독립적으로 선택하는 것이 중요합니다(기술적으로 KDF에 대한 다른 입력을 조건으로 하는 경우에도 각 샘플이 충분한 엔트로피를 가져야 함) ).

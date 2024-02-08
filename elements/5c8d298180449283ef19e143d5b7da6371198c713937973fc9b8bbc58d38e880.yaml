@@ -1,0 +1,22 @@
+"hash": |-
+  5c8d298180449283ef19e143d5b7da6371198c713937973fc9b8bbc58d38e880
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server SHOULD NOT allow the destination field to be set unless a
+     mechanism exists in the system to authorize the request originator to
+     direct streams to the recipient.  It is preferred that this
+     authorization be performed by the media recipient (destination)
+     itself and the credentials be passed along to the server.  However,
+     in certain cases, such as when the recipient address is a multicast
+     group or when the recipient is unable to communicate with the server
+     in an out-of-band manner, this may not be possible.  In these cases,
+     the server may choose another method such as a server-resident
+     authorization list to ensure that the request originator has the
+     proper credentials to request stream delivery to the recipient.
+"fixed": |-
+  The server SHOULD NOT allow the destination field to be set unless a mechanism exists in the system to authorize the request originator to direct streams to the recipient.  It is preferred that this authorization be performed by the media recipient (destination) itself and the credentials be passed along to the server.  However, in certain cases, such as when the recipient address is a multicast group or when the recipient is unable to communicate with the server in an out-of-band manner, this may not be possible.  In these cases, the server may choose another method such as a server-resident authorization list to ensure that the request originator has the proper credentials to request stream delivery to the recipient.
+"ko": |-
+  서버는 요청 발신자가 스트림을 수신자에게 전달하도록 권한을 부여하는 메커니즘이 시스템에 존재하지 않는 한 대상 필드 설정을 허용해서는 안 됩니다. 이 인증은 미디어 수신자(대상) 자체에 의해 수행되고 자격 증명이 서버에 전달되는 것이 좋습니다. 그러나 수신자 주소가 멀티캐스트 그룹이거나 수신자가 대역 외 방식으로 서버와 통신할 수 없는 경우와 같은 특정 경우에는 이것이 불가능할 수 있습니다. 이러한 경우 서버는 요청 발신자가 수신자에게 스트림 전달을 요청하기 위한 적절한 자격 증명을 가지고 있는지 확인하기 위해 서버 상주 인증 목록과 같은 다른 방법을 선택할 수 있습니다.

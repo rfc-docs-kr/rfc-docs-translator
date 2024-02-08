@@ -18,7 +18,7 @@
      provided for SMTP in RFC 2487, "SMTP Service Extension for Secure
      SMTP over Transport Layer Security", and HTTP in RFC 2817, "Upgrading
      to TLS Within HTTP/1.1.".
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  This document describes a mechanism that can be used by FTP clients and servers to implement security and authentication using the TLS protocol defined by RFC 2246, "The TLS Protocol Version 1.0.", and the extensions to the FTP protocol defined by RFC 2228, "FTP Security Extensions".  It describes the subset of the extensions that are required and the parameters to be used, discusses some of the policy issues that clients and servers will need to take, considers some of the implications of those policies, and discusses some expected behaviours of implementations to allow interoperation.  This document is intended to provide TLS support for FTP in a similar way to that provided for SMTP in RFC 2487, "SMTP Service Extension for Secure SMTP over Transport Layer Security", and HTTP in RFC 2817, "Upgrading to TLS Within HTTP/1.1.".
+"ko": |-
+  이 문서에서는 RFC 2246 "TLS 프로토콜 버전 1.0"에 의해 정의된 TLS 프로토콜과 RFC 2228에 의해 정의된 FTP 프로토콜 확장을 사용하여 보안 및 인증을 구현하기 위해 FTP 클라이언트 및 서버에서 사용할 수 있는 메커니즘에 대해 설명합니다. FTP 보안 확장". 필요한 확장의 하위 집합과 사용할 매개변수를 설명하고, 클라이언트와 서버가 취해야 할 일부 정책 문제를 논의하고, 해당 정책의 일부 의미를 고려하고, 허용하기 위한 구현의 일부 예상 동작에 대해 논의합니다. 상호 운용. 이 문서는 RFC 2487, "전송 계층 보안을 통한 보안 SMTP를 위한 SMTP 서비스 확장" 및 RFC 2817, "HTTP/1.1 내에서 TLS로 업그레이드"의 HTTP에 제공된 것과 유사한 방식으로 FTP에 대한 TLS 지원을 제공하기 위한 것입니다. .".

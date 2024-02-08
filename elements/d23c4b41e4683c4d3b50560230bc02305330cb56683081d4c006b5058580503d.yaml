@@ -1,0 +1,28 @@
+"hash": |-
+  d23c4b41e4683c4d3b50560230bc02305330cb56683081d4c006b5058580503d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RTCP: If RTP is used for media transport, RTCP SHOULD be used.  If
+           RTCP is used to report transport statistics, it will
+           necessarily also function as a keep-alive.  The server can
+           determine the client by network address and port together with
+           the fact that the client is reporting on the server's RTP
+           sender sources (synchronization source (SSRCs)).  A downside of
+           using RTCP is that it only gives statistical guarantees of
+           reaching the server.  However, the probability of a false
+           client timeout is so low that it can be ignored in most cases.
+           For example, assume a session with a 60-second timeout and
+           enough bitrate assigned to RTCP messages to send a message from
+           client to server on average every 5 seconds.  That client has,
+           for a network with 5% packet loss, a probability of failing to
+           confirm liveness within the timeout interval for that session
+           of 2.4*E-16.  Sessions with shorter timeouts, much higher
+           packet loss, or small RTCP bandwidths SHOULD also implement one
+           or more of the mechanisms below.
+"fixed": |-
+  RTCP: If RTP is used for media transport, RTCP SHOULD be used.  If RTCP is used to report transport statistics, it will necessarily also function as a keep-alive.  The server can determine the client by network address and port together with the fact that the client is reporting on the server's RTP sender sources (synchronization source (SSRCs)).  A downside of using RTCP is that it only gives statistical guarantees of reaching the server.  However, the probability of a false client timeout is so low that it can be ignored in most cases. For example, assume a session with a 60-second timeout and enough bitrate assigned to RTCP messages to send a message from client to server on average every 5 seconds.  That client has, for a network with 5% packet loss, a probability of failing to confirm liveness within the timeout interval for that session of 2.4*E-16.  Sessions with shorter timeouts, much higher packet loss, or small RTCP bandwidths SHOULD also implement one or more of the mechanisms below.
+"ko": |-
+  RTCP: RTP가 미디어 전송에 사용되는 경우 RTCP를 사용해야 합니다. RTCP를 사용하여 전송 통계를 보고하는 경우 반드시 연결 유지 기능도 수행해야 합니다. 서버는 클라이언트가 서버의 RTP 발신자 소스(동기화 소스(SSRC))에 대해 보고한다는 사실과 함께 네트워크 주소 및 포트로 클라이언트를 결정할 수 있습니다. RTCP 사용의 단점은 서버 도달에 대한 통계적 보장만 제공한다는 것입니다. 그러나 잘못된 클라이언트 시간 초과 가능성은 너무 낮아 대부분의 경우 무시할 수 있습니다. 예를 들어, 시간 초과가 60초이고 RTCP 메시지에 충분한 비트 전송률이 할당되어 평균 5초마다 클라이언트에서 서버로 메시지를 보내는 세션이 있다고 가정합니다. 해당 클라이언트는 패킷 손실이 5%인 네트워크의 경우 해당 세션의 시간 초과 간격인 2.4*E-16 내에 활성 상태를 확인하지 못할 확률이 있습니다. 시간 초과가 더 짧고, 패킷 손실이 훨씬 높거나, RTCP 대역폭이 작은 세션도 아래 메커니즘 중 하나 이상을 구현해야 합니다(SHOULD).

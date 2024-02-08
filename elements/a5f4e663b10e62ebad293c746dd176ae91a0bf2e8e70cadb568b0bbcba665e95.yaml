@@ -1,0 +1,25 @@
+"hash": |-
+  a5f4e663b10e62ebad293c746dd176ae91a0bf2e8e70cadb568b0bbcba665e95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Suppose within a given time-sharing system there is a particular
+     library routine which is available for use by any process in the
+     network.  The library process has a RECEIVE from ANY always pending
+     at a well-known port.  Eventually, some process sends a message to
+     the library process' well-known-port.  This message includes the data
+     to be processed, a port to use for sending the answer, and the money.
+     The library process takes some of the money and sends it to the
+     well-known port of the accounting process which itself has a RECEIVE
+     from ANY pending.  The library process then processes the data and
+     sends the answer back to the process which requested the service
+     using a SEND to SPECIFIC message which rendezvous at the destination
+     where there is already a RECEIVE from SPECIFIC pending.  Of course,
+     in this message besides the answer, any change the requesting process
+     has coming is returned.
+"fixed": |-
+  Suppose within a given time-sharing system there is a particular library routine which is available for use by any process in the network.  The library process has a RECEIVE from ANY always pending at a well-known port.  Eventually, some process sends a message to the library process' well-known-port.  This message includes the data to be processed, a port to use for sending the answer, and the money. The library process takes some of the money and sends it to the well-known port of the accounting process which itself has a RECEIVE from ANY pending.  The library process then processes the data and sends the answer back to the process which requested the service using a SEND to SPECIFIC message which rendezvous at the destination where there is already a RECEIVE from SPECIFIC pending.  Of course, in this message besides the answer, any change the requesting process has coming is returned.
+"ko": |-
+  주어진 시간 공유 시스템 내에 네트워크의 모든 프로세스에서 사용할 수 있는 특정 라이브러리 루틴이 있다고 가정합니다. 라이브러리 프로세스에는 잘 알려진 포트에 항상 보류 중인 RECEIVE from ANY가 있습니다. 결국 일부 프로세스는 라이브러리 프로세스의 잘 알려진 포트로 메시지를 보냅니다. 이 메시지에는 처리할 데이터, 답변을 보내는 데 사용할 포트 및 금액이 포함됩니다. 라이브러리 프로세스는 돈의 일부를 가져와 보류 중인 RECEIVE from ANY가 있는 회계 프로세스의 잘 알려진 포트로 보냅니다. 그런 다음 라이브러리 프로세스는 데이터를 처리하고 이미 보류 중인 RECEIVE from SPECIFIC이 있는 대상에서 랑데뷰하는 SEND to SPECIFIC 메시지를 사용하여 서비스를 요청한 프로세스로 응답을 다시 보냅니다. 물론, 이 메시지에는 답변 외에도 요청 프로세스에서 발생하는 모든 변경 사항이 반환됩니다.

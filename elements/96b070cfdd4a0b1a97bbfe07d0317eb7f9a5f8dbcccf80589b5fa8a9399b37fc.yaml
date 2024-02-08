@@ -1,0 +1,26 @@
+"hash": |-
+  96b070cfdd4a0b1a97bbfe07d0317eb7f9a5f8dbcccf80589b5fa8a9399b37fc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     InetCidrRouteEntry ::= SEQUENCE {
+             inetCidrRouteDestType     InetAddressType,
+             inetCidrRouteDest         InetAddress,
+             inetCidrRoutePfxLen       InetAddressPrefixLength,
+             inetCidrRoutePolicy       OBJECT IDENTIFIER,
+             inetCidrRouteNextHopType  InetAddressType,
+             inetCidrRouteNextHop      InetAddress,
+             inetCidrRouteIfIndex      InterfaceIndexOrZero,
+             inetCidrRouteType         INTEGER,
+             inetCidrRouteProto        IANAipRouteProtocol,
+             inetCidrRouteAge          Gauge32,
+             inetCidrRouteNextHopAS    InetAutonomousSystemNumber,
+             inetCidrRouteMetric1      Integer32,
+             inetCidrRouteMetric2      Integer32,
+             inetCidrRouteMetric3      Integer32,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

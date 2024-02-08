@@ -1,0 +1,21 @@
+"hash": |-
+  00778725e0615abc6b438acd2eee6b30c2d091b84a53e1528aca4bb70a265c39
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The method can also be used without a message body or any header that
+     requests parameters for keep-alive purposes.  The keep-alive timer
+     has been updated for any request that is successful, i.e., a 200 OK
+     response is received.  Any non-required header present in such a
+     request may or may not have been processed.  Normally, the presence
+     of filled-out values in the header will be indication that the header
+     has been processed.  However, for cases when this is difficult to
+     determine, it is recommended to use a feature tag and the Require
+     header.  For this reason, it is usually easier if any parameters to
+     be retrieved are sent in the body, rather than using any header.
+"fixed": |-
+  The method can also be used without a message body or any header that requests parameters for keep-alive purposes.  The keep-alive timer has been updated for any request that is successful, i.e., a 200 OK response is received.  Any non-required header present in such a request may or may not have been processed.  Normally, the presence of filled-out values in the header will be indication that the header has been processed.  However, for cases when this is difficult to determine, it is recommended to use a feature tag and the Require header.  For this reason, it is usually easier if any parameters to be retrieved are sent in the body, rather than using any header.
+"ko": |-
+  이 메서드는 메시지 본문이나 연결 유지를 위해 매개 변수를 요청하는 헤더 없이도 사용할 수 있습니다. 성공적인 요청에 대해 연결 유지 타이머가 업데이트되었습니다. 즉, 200 OK 응답이 수신되었습니다. 그러한 요청에 존재하는 필수 헤더가 아닐 수도 있고 처리되지 않았을 수도 있습니다. 일반적으로 헤더에 채워진 값이 있으면 헤더가 처리되었음을 나타냅니다. 그러나 이를 판단하기 어려운 경우에는 기능 태그와 Require 헤더를 사용하는 것이 좋습니다. 이러한 이유로 검색할 매개변수를 헤더를 사용하는 것보다 본문에 전송하는 것이 일반적으로 더 쉽습니다.

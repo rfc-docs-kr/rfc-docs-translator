@@ -1,0 +1,19 @@
+"hash": |-
+  1a62b67f3b93c6b417dcbe0119e63bf28c126fddc97a32a6890c722ed93dce2d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon success, a 2.05 (Content) Response Code SHOULD be returned.  The
+     payload of the response MUST be a representation of the target HTTP
+     resource, and the Content-Format Option MUST be set accordingly.  The
+     response MUST indicate a Max-Age value that is no greater than the
+     remaining time the representation can be considered fresh.  If the
+     HTTP entity has an entity-tag, the proxy SHOULD include an ETag
+     Option in the response and process ETag Options in requests as
+     described below.
+"fixed": |-
+  Upon success, a 2.05 (Content) Response Code SHOULD be returned.  The payload of the response MUST be a representation of the target HTTP resource, and the Content-Format Option MUST be set accordingly.  The response MUST indicate a Max-Age value that is no greater than the remaining time the representation can be considered fresh.  If the HTTP entity has an entity-tag, the proxy SHOULD include an ETag Option in the response and process ETag Options in requests as described below.
+"ko": |-
+  성공하면 2.05(콘텐츠) 응답 코드가 반환되어야 합니다. 응답의 페이로드는 대상 HTTP 리소스의 표현이어야 하며 이에 따라 Content-Format 옵션을 설정해야 합니다. 응답은 표현이 새로운 것으로 간주될 수 있는 남은 시간보다 크지 않은 Max-Age 값을 나타내야 합니다. HTTP 엔터티에 엔터티 태그가 있는 경우 프록시는 응답에 ETag 옵션을 포함해야 하며 아래 설명된 대로 요청에 ETag 옵션을 처리해야 합니다.

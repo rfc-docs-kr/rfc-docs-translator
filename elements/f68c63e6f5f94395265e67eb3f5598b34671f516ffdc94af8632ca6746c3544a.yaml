@@ -10,7 +10,7 @@
        Diffie-Hellman environment, there is no server identity
        authentication, so there is little protection against man-in-the-
        middle attacks.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - If Server Certificates are not used, then many of the security benefits will not be realised.  For Example, in an anonymous Diffie-Hellman environment, there is no server identity authentication, so there is little protection against man-in-the- middle attacks.
+"ko": |-
+  - 서버 인증서를 사용하지 않으면 많은 보안 이점이 실현되지 않습니다. 예를 들어 익명의 Diffie-Hellman 환경에서는 서버 ID 인증이 없으므로 중간자 공격에 대한 보호 기능이 거의 없습니다.

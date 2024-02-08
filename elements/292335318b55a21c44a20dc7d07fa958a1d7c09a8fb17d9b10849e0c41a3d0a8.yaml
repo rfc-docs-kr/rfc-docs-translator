@@ -1,0 +1,19 @@
+"hash": |-
+  292335318b55a21c44a20dc7d07fa958a1d7c09a8fb17d9b10849e0c41a3d0a8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Proxy-Authenticate =  "Proxy-Authenticate" HCOLON challenge-list
+     challenge-list     = <As defined by the WWW-Authenticate in RFC 7235>
+     Proxy-Authentication-Info = "Proxy-Authentication-Info" HCOLON
+                           auth-param-list
+     Proxy-Authorization = "Proxy-Authorization" HCOLON credentials
+     Proxy-Require      =  "Proxy-Require" HCOLON feature-tag-list
+     feature-tag-list   =  feature-tag *(COMMA feature-tag)
+     Proxy-Supported    =  "Proxy-Supported" HCOLON [feature-tag-list]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

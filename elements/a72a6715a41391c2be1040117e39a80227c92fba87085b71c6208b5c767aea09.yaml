@@ -1,0 +1,15 @@
+"hash": |-
+  a72a6715a41391c2be1040117e39a80227c92fba87085b71c6208b5c767aea09
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (b)  If the certificate is valid and was listed on the referenced
+        base CRL or any subsequent CRL with reason code certificateHold,
+        and the reason code certificateHold is included in the scope of
+        the CRL, list the certificate with the reason code removeFromCRL.
+"fixed": |-
+  - (b)  If the certificate is valid and was listed on the referenced base CRL or any subsequent CRL with reason code certificateHold, and the reason code certificateHold is included in the scope of the CRL, list the certificate with the reason code removeFromCRL.
+"ko": |-
+  - (b) 인증서가 유효하고 참조된 기본 CRL 또는 이유 코드 CertificateHold가 있는 후속 CRL에 나열되어 있고 이유 코드 CertificateHold가 CRL 범위에 포함되어 있는 경우 이유 코드 제거FromCRL과 함께 인증서를 나열합니다.

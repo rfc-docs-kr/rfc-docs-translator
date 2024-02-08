@@ -10,7 +10,7 @@
      authentication).  The server would indicate this by issuing a '232'
      reply to the USER command instead of the '331', which requests a PASS
      from the client (see below).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Note 2: The PASS command might not be required at all (if the USER parameter and any client identity presented provide sufficient authentication).  The server would indicate this by issuing a '232' reply to the USER command instead of the '331', which requests a PASS from the client (see below).
+"ko": |-
+  참고 2: PASS 명령은 전혀 필요하지 않을 수 있습니다(USER 매개변수와 제공된 클라이언트 ID가 충분한 인증을 제공하는 경우). 서버는 클라이언트로부터 PASS를 요청하는 '331' 대신 USER 명령에 '232' 응답을 발행하여 이를 나타냅니다(아래 참조).

@@ -1,0 +1,22 @@
+"hash": |-
+  b442e68df7add7a839498407ed620c4c620d227accbe592deadecf3e762ba19e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRoutePolicy OBJECT-TYPE
+         SYNTAX     OBJECT IDENTIFIER
+         MAX-ACCESS not-accessible
+         STATUS     current
+         DESCRIPTION
+                "This object is an opaque object without any defined
+                 semantics.  Its purpose is to serve as an additional
+                 index that may delineate between multiple entries to
+                 the same destination.  The value { 0 0 } shall be used
+                 as the default value for this object."
+         ::= { inetCidrRouteEntry 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

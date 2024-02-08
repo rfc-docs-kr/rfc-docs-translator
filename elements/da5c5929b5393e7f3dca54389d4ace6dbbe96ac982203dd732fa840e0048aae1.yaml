@@ -1,0 +1,20 @@
+"hash": |-
+  da5c5929b5393e7f3dca54389d4ace6dbbe96ac982203dd732fa840e0048aae1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the keyUsage extension is present, then the subject public key
+     MUST NOT be used to verify signatures on certificates or CRLs unless
+     the corresponding keyCertSign or cRLSign bit is set.  If the subject
+     public key is only to be used for verifying signatures on
+     certificates and/or CRLs, then the digitalSignature and
+     nonRepudiation bits SHOULD NOT be set.  However, the digitalSignature
+     and/or nonRepudiation bits MAY be set in addition to the keyCertSign
+     and/or cRLSign bits if the subject public key is to be used to verify
+     signatures on certificates and/or CRLs as well as other objects.
+"fixed": |-
+  If the keyUsage extension is present, then the subject public key MUST NOT be used to verify signatures on certificates or CRLs unless the corresponding keyCertSign or cRLSign bit is set.  If the subject public key is only to be used for verifying signatures on certificates and/or CRLs, then the digitalSignature and nonRepudiation bits SHOULD NOT be set.  However, the digitalSignature and/or nonRepudiation bits MAY be set in addition to the keyCertSign and/or cRLSign bits if the subject public key is to be used to verify signatures on certificates and/or CRLs as well as other objects.
+"ko": |-
+  keyUsage 확장이 존재하는 경우 해당 keyCertSign 또는 cRLSign 비트가 설정되지 않은 한 주체 공개 키를 인증서 또는 CRL의 서명을 확인하는 데 사용하면 안 됩니다. 주체 공개 키가 인증서 및/또는 CRL의 서명을 확인하는 데에만 사용되는 경우 digitalSignature 및 nonRepudiation 비트를 설정하면 안 됩니다. 그러나 주체 공개 키가 인증서 및/또는 CRL 및 기타 개체의 서명을 확인하는 데 사용되는 경우 keyCertSign 및/또는 cRLSign 비트에 추가로 digitalSignature 및/또는 nonRepudiation 비트를 설정할 수도 있습니다.

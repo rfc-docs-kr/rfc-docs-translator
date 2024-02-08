@@ -1,0 +1,22 @@
+"hash": |-
+  d0af3a51b3ddb87ab33ae41cf5521808888d6973d853dcdd915c19c0bb214c17
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An LSR makes forwarding decisions by using the label prepended to
+     packets as the index into a local Next Hop Label Forwarding Entry
+     (NHLFE).  The packet is then processed as specified in the NHLFE.
+     The incoming label may be replaced by an outgoing label (label swap),
+     and the packet may be forwarded to the next LSR.  Before a packet
+     leaves an MPLS domain, its MPLS label may be removed (label pop).  An
+     LSP is the path between an ingress LSR and an egress LSR through
+     which a labeled packet traverses.  The path of an explicit LSP is
+     defined at the originating (ingress) node of the LSP.  MPLS can use a
+     signaling protocol such as RSVP or the Label Distribution Protocol
+     (LDP) to set up LSPs.
+"fixed": |-
+  An LSR makes forwarding decisions by using the label prepended to packets as the index into a local Next Hop Label Forwarding Entry (NHLFE).  The packet is then processed as specified in the NHLFE. The incoming label may be replaced by an outgoing label (label swap), and the packet may be forwarded to the next LSR.  Before a packet leaves an MPLS domain, its MPLS label may be removed (label pop).  An LSP is the path between an ingress LSR and an egress LSR through which a labeled packet traverses.  The path of an explicit LSP is defined at the originating (ingress) node of the LSP.  MPLS can use a signaling protocol such as RSVP or the Label Distribution Protocol (LDP) to set up LSPs.
+"ko": |-
+  LSR은 패킷 앞에 추가된 레이블을 로컬 NHLFE(Next Hop Label Forwarding Entry)에 대한 인덱스로 사용하여 전달 결정을 내립니다. 그런 다음 패킷은 NHLFE에 지정된 대로 처리됩니다. 들어오는 레이블은 나가는 레이블로 대체될 수 있으며(라벨 스왑), 패킷은 다음 LSR로 전달될 수 있습니다. 패킷이 MPLS 도메인을 떠나기 전에 해당 MPLS 레이블이 제거될 수 있습니다(레이블 팝). LSP는 레이블이 지정된 패킷이 통과하는 입구 LSR과 출구 LSR 사이의 경로입니다. 명시적 LSP의 경로는 LSP의 시작(수신) 노드에서 정의됩니다. MPLS는 RSVP 또는 LDP(Label Distribution Protocol)와 같은 신호 프로토콜을 사용하여 LSP를 설정할 수 있습니다.

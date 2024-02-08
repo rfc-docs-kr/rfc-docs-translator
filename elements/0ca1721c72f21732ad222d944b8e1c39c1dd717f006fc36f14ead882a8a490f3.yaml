@@ -1,0 +1,22 @@
+"hash": |-
+  0ca1721c72f21732ad222d944b8e1c39c1dd717f006fc36f14ead882a8a490f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The id-ad-caRepository OID is used when the subject is a CA, and
+     publishes its certificates and CRLs (if issued) in a repository.  The
+     accessLocation field is defined as a GeneralName, which can take
+     several forms.  Where the information is available via http, ftp, or
+     ldap, accessLocation MUST be a uniformResourceIdentifier.  Where the
+     information is available via the directory access protocol (dap),
+     accessLocation MUST be a directoryName.  When the information is
+     available via electronic mail, accessLocation MUST be an rfc822Name.
+     The semantics of other name forms of of accessLocation (when
+     accessMethod is id-ad-caRepository) are not defined by this
+     specification.
+"fixed": |-
+  The id-ad-caRepository OID is used when the subject is a CA, and publishes its certificates and CRLs (if issued) in a repository.  The accessLocation field is defined as a GeneralName, which can take several forms.  Where the information is available via http, ftp, or ldap, accessLocation MUST be a uniformResourceIdentifier.  Where the information is available via the directory access protocol (dap), accessLocation MUST be a directoryName.  When the information is available via electronic mail, accessLocation MUST be an rfc822Name. The semantics of other name forms of of accessLocation (when accessMethod is id-ad-caRepository) are not defined by this specification.
+"ko": |-
+  id-ad-caRepository OID는 주체가 CA일 때 사용되며 해당 인증서와 CRL(발행된 경우)을 저장소에 게시합니다. accessLocation 필드는 여러 형식을 취할 수 있는 GeneralName으로 정의됩니다. http, ftp 또는 ldap을 통해 정보를 사용할 수 있는 경우 accessLocation은uniformResourceIdentifier여야 합니다. 디렉터리 액세스 프로토콜(dap)을 통해 정보를 사용할 수 있는 경우 accessLocation은 반드시 디렉터리 이름이어야 합니다. 전자 메일을 통해 정보를 사용할 수 있는 경우 accessLocation은 rfc822Name이어야 합니다. accessLocation의 다른 이름 형식(accessMethod가 id-ad-caRepository인 경우)의 의미는 이 사양에서 정의되지 않습니다.

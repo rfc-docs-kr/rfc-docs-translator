@@ -1,0 +1,24 @@
+"hash": |-
+  1bafbf39de04a96668caca360bcc621393c47157516bb961c12785ece39103e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A session will exist until it is either removed by a TEARDOWN request
+     or is timed out by the server.  The server MAY remove a session that
+     has not demonstrated liveness signs from the client(s) within a
+     certain timeout period.  The default timeout value is 60 seconds; the
+     server MAY set this to a different value and indicate so in the
+     timeout field of the Session header in the SETUP response.  For
+     further discussion, see Section 18.49.  Signs of liveness for an RTSP
+     session include any RTSP requests from a client that contain a
+     Session header with the ID for that session, as well as RTCP sender
+     or receiver reports if RTP is used to transport the underlying media
+     stream.  RTCP sender reports may, for example, be received in session
+     where the server is invited into a conference session and are thus
+     valid as a liveness indicator.
+"fixed": |-
+  A session will exist until it is either removed by a TEARDOWN request or is timed out by the server.  The server MAY remove a session that has not demonstrated liveness signs from the client(s) within a certain timeout period.  The default timeout value is 60 seconds; the server MAY set this to a different value and indicate so in the timeout field of the Session header in the SETUP response.  For further discussion, see Section 18.49.  Signs of liveness for an RTSP session include any RTSP requests from a client that contain a Session header with the ID for that session, as well as RTCP sender or receiver reports if RTP is used to transport the underlying media stream.  RTCP sender reports may, for example, be received in session where the server is invited into a conference session and are thus valid as a liveness indicator.
+"ko": |-
+  세션은 TEARDOWN 요청에 의해 제거되거나 서버에 의해 시간 초과될 때까지 존재합니다. 서버는 특정 시간 초과 기간 내에 클라이언트로부터 활성 상태 신호를 입증하지 못한 세션을 제거할 수 있습니다. 기본 시간 초과 값은 60초입니다. 서버는 이를 다른 값으로 설정하고 SETUP 응답에 있는 세션 헤더의 시간 초과 필드에 이를 표시할 수 있습니다. 자세한 내용은 섹션 18.49를 참조하세요. RTSP 세션의 활성 징후에는 해당 세션에 대한 ID가 포함된 세션 헤더가 포함된 클라이언트의 모든 RTSP 요청과 RTP가 기본 미디어 스트림을 전송하는 데 사용되는 경우 RTCP 발신자 또는 수신자 보고서가 포함됩니다. 예를 들어 RTCP 발신자 보고서는 서버가 회의 세션에 초대되는 세션에서 수신될 수 있으므로 활성 표시기로 유효합니다.

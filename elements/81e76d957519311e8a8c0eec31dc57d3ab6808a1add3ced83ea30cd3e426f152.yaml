@@ -1,0 +1,16 @@
+"hash": |-
+  81e76d957519311e8a8c0eec31dc57d3ab6808a1add3ced83ea30cd3e426f152
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           (1)  If the policy_mapping variable is greater than 0, for each
+           node in the valid_policy_tree of depth i where ID-P is the
+           valid_policy, set expected_policy_set to the set of
+           subjectDomainPolicy values that are specified as equivalent to
+           ID-P by the policy mapping extension.
+"fixed": |-
+  - (1)  If the policy_mapping variable is greater than 0, for each node in the valid_policy_tree of depth i where ID-P is the valid_policy, set expected_policy_set to the set of subjectDomainPolicy values that are specified as equivalent to ID-P by the policy mapping extension.
+"ko": |-
+  - (1)policy_mapping 변수가 0보다 큰 경우 ID-P가 valid_policy인 깊이 i의 valid_policy_tree의 각 노드에 대해 Expect_policy_set를 정책에 의해 ID-P와 동일하게 지정된 subjectDomainPolicy 값 집합으로 설정합니다. 매핑 확장.

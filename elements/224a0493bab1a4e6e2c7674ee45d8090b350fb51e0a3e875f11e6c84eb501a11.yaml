@@ -1,0 +1,23 @@
+"hash": |-
+  224a0493bab1a4e6e2c7674ee45d8090b350fb51e0a3e875f11e6c84eb501a11
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       HOST RNDZ                          HOST RCV
+  +------------------------+       +-----------------------+
+  |                 MSP    |       |  MSP                  |
+  |       TABLE    _____   |       |   _____  TABLE        |
+  |             +-|_ _ _|  |  "IN" |  |_ _ _|              |
+  |             | |_ _ _|<-|----------|_ _ _|<-\           |RECEIVE
+  |             | |_ _ _|  |       |  |_ _ _|   \       <--|(from=S
+  |             |          |       |             \         |  to=R
+  |            _V_         |       |              \        | rend=RNDZ)
+  |    BUFFER |   |        |       |             (PROCESS) |
+  |           |___|        |       |             (   R   ) |
+  +------------------------+       +-----------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

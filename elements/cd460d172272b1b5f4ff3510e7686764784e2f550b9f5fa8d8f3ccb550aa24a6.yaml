@@ -1,0 +1,18 @@
+"hash": |-
+  cd460d172272b1b5f4ff3510e7686764784e2f550b9f5fa8d8f3ccb550aa24a6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     then the subject field MUST be populated with a non-empty
+     distinguished name matching the contents of the issuer field (Section
+     5.1.2.3) in all CRLs issued by the subject CRL issuer.  If subject
+     naming information is present only in the subjectAltName extension
+     (e.g., a key bound only to an email address or URI), then the subject
+     name MUST be an empty sequence and the subjectAltName extension MUST
+     be critical.
+"fixed": |-
+  then the subject field MUST be populated with a non-empty distinguished name matching the contents of the issuer field (Section 5.1.2.3) in all CRLs issued by the subject CRL issuer.  If subject naming information is present only in the subjectAltName extension (e.g., a key bound only to an email address or URI), then the subject name MUST be an empty sequence and the subjectAltName extension MUST be critical.
+"ko": |-
+  그러면 주제 필드는 주제 CRL 발급자가 발급한 모든 CRL의 발급자 필드(섹션 5.1.2.3) 내용과 일치하는 비어 있지 않은 고유 이름으로 채워져야 합니다. 주체 이름 지정 정보가 subjectAltName 확장(예: 이메일 주소 또는 URI에만 바인딩된 키)에만 있는 경우 주체 이름은 빈 시퀀스여야 하며 subjectAltName 확장은 중요해야 합니다(MUST).

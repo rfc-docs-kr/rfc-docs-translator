@@ -1,0 +1,21 @@
+"hash": |-
+  558904cf8030118f9286850ceed544276c93c11a57e2146c96c179d3b5723e65
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The inhibit anyPolicy extension can be used in certificates issued to
+     CAs.  The inhibit anyPolicy extension indicates that the special
+     anyPolicy OID, with the value { 2 5 29 32 0 }, is not considered an
+     explicit match for other certificate policies except when it appears
+     in an intermediate self-issued CA certificate.  The value indicates
+     the number of additional non-self-issued certificates that may appear
+     in the path before anyPolicy is no longer permitted.  For example, a
+     value of one indicates that anyPolicy may be processed in
+     certificates issued by the subject of this certificate, but not in
+     additional certificates in the path.
+"fixed": |-
+  The inhibit anyPolicy extension can be used in certificates issued to CAs.  The inhibit anyPolicy extension indicates that the special anyPolicy OID, with the value { 2 5 29 32 0 }, is not considered an explicit match for other certificate policies except when it appears in an intermediate self-issued CA certificate.  The value indicates the number of additional non-self-issued certificates that may appear in the path before anyPolicy is no longer permitted.  For example, a value of one indicates that anyPolicy may be processed in certificates issued by the subject of this certificate, but not in additional certificates in the path.
+"ko": |-
+  Inhibit anyPolicy 확장은 CA에 발급된 인증서에 사용될 수 있습니다. 금지 anyPolicy 확장은 값이 { 2 5 29 32 0 }인 특수 anyPolicy OID가 중간 자체 발급 CA 인증서에 나타나는 경우를 제외하고 다른 인증서 정책과 명시적으로 일치하는 것으로 간주되지 않음을 나타냅니다. 값은 anyPolicy가 더 이상 허용되지 않기 전에 경로에 나타날 수 있는 자체 발급되지 않은 추가 인증서 수를 나타냅니다. 예를 들어 값 1은 anyPolicy가 이 인증서의 주체가 발급한 인증서에서 처리될 수 있지만 경로의 추가 인증서에서는 처리될 수 없음을 나타냅니다.

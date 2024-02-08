@@ -1,0 +1,14 @@
+"hash": |-
+  2e29fdaaa9f1364fd3609ad0147f42b7637e3925611751efbfcdd1730ab59bdf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In Figure 18, the Confirmable GET request is lost.  After ACK_TIMEOUT
+     seconds, the client retransmits the request, resulting in a
+     piggybacked response as in the previous example.
+"fixed": |-
+  In Figure 18, the Confirmable GET request is lost.  After ACK_TIMEOUT seconds, the client retransmits the request, resulting in a piggybacked response as in the previous example.
+"ko": |-
+  그림 18에서는 확인 가능한 GET 요청이 손실되었습니다. ACK_TIMEOUT 초 후에 클라이언트는 요청을 재전송하여 이전 예와 같이 피기백 응답을 얻습니다.

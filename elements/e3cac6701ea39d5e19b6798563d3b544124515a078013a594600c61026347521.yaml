@@ -1,0 +1,17 @@
+"hash": |-
+  e3cac6701ea39d5e19b6798563d3b544124515a078013a594600c61026347521
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is appropriate to list a certificate with reason code
+     removeFromCRL on a delta CRL even if the certificate was not on hold
+     in the referenced base CRL.  If the certificate was placed on hold in
+     any CRL issued after the base but before this delta CRL and then
+     released from hold, it MUST be listed on the delta CRL with
+     revocation reason removeFromCRL.
+"fixed": |-
+  It is appropriate to list a certificate with reason code removeFromCRL on a delta CRL even if the certificate was not on hold in the referenced base CRL.  If the certificate was placed on hold in any CRL issued after the base but before this delta CRL and then released from hold, it MUST be listed on the delta CRL with revocation reason removeFromCRL.
+"ko": |-
+  참조된 기본 CRL에 인증서가 보류되지 않은 경우에도 델타 CRL에 이유 코드 제거FromCRL이 포함된 인증서를 나열하는 것이 적절합니다. 인증서가 기본 이후, 그러나 이 델타 CRL 이전에 발급된 CRL에 보류 상태로 배치되었다가 보류 상태에서 해제된 경우, 취소 이유가 제거된 CRL과 함께 델타 CRL에 나열되어야 합니다.

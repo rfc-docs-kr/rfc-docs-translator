@@ -1,0 +1,18 @@
+"hash": |-
+  0a6776fcc15c15274ed755e6dae02f404b1bff4ceff3f1166c5b35fcd55f1001
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The subjectAltName MAY carry additional name types through the use of
+     the otherName field.  The format and semantics of the name are
+     indicated through the OBJECT IDENTIFIER in the type-id field.  The
+     name itself is conveyed as value field in otherName.  For example,
+     Kerberos [RFC 1510] format names can be encoded into the otherName,
+     using using a Kerberos 5 principal name OID and a SEQUENCE of the
+     Realm and the PrincipalName.
+"fixed": |-
+  The subjectAltName MAY carry additional name types through the use of the otherName field.  The format and semantics of the name are indicated through the OBJECT IDENTIFIER in the type-id field.  The name itself is conveyed as value field in otherName.  For example, Kerberos [RFC 1510] format names can be encoded into the otherName, using using a Kerberos 5 principal name OID and a SEQUENCE of the Realm and the PrincipalName.
+"ko": |-
+  subjectAltName은 otherName 필드를 사용하여 추가 이름 유형을 전달할 수 있습니다. 이름의 형식과 의미는 type-id 필드의 OBJECT IDENTIFIER를 통해 표시됩니다. 이름 자체는 otherName의 값 필드로 전달됩니다. 예를 들어, Kerberos [RFC 1510] 형식 이름은 Kerberos 5 주체 이름 OID와 영역 및 PrincipalName의 SEQUENCE를 사용하여 otherName으로 인코딩될 수 있습니다.

@@ -1,0 +1,13 @@
+"hash": |-
+  3c43bb10de122da3dfe1d7a8705c182bfe921a60f2be7a5c9fdc3fb1d4f47d0f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     m = RSAVP1 ((n, e), s)                  If RSAVP1 outputs "invalid"
+     then output "invalid signature" and stop.
+"fixed": |-
+  m = RSAVP1 ((n, e), s)                  If RSAVP1 outputs "invalid" then output "invalid signature" and stop.
+"ko": |-
+  m = RSAVP1 ((n, e), s) RSAVP1이 "잘못된"을 출력하면 "잘못된 서명"을 출력하고 중지합니다.

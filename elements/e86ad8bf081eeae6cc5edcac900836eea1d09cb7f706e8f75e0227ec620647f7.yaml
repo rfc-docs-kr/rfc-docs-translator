@@ -1,0 +1,27 @@
+"hash": |-
+  e86ad8bf081eeae6cc5edcac900836eea1d09cb7f706e8f75e0227ec620647f7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As with the X.509 v3 certificate format, in order to facilitate
+     interoperable implementations from multiple vendors, the X.509 v2 CRL
+     format needs to be profiled for Internet use.  It is one goal of this
+     document to specify that profile.  However, this profile does not
+     require the issuance of CRLs.  Message formats and protocols
+     supporting on-line revocation notification are defined in other PKIX
+     specifications.  On-line methods of revocation notification may be
+     applicable in some environments as an alternative to the X.509 CRL.
+     On-line revocation checking may significantly reduce the latency
+     between a revocation report and the distribution of the information
+     to relying parties.  Once the CA accepts a revocation report as
+     authentic and valid, any query to the on-line service will correctly
+     reflect the certificate validation impacts of the revocation.
+     However, these methods impose new security requirements: the
+     certificate validator needs to trust the on-line validation service
+     while the repository does not need to be trusted.
+"fixed": |-
+  As with the X.509 v3 certificate format, in order to facilitate interoperable implementations from multiple vendors, the X.509 v2 CRL format needs to be profiled for Internet use.  It is one goal of this document to specify that profile.  However, this profile does not require the issuance of CRLs.  Message formats and protocols supporting on-line revocation notification are defined in other PKIX specifications.  On-line methods of revocation notification may be applicable in some environments as an alternative to the X.509 CRL. On-line revocation checking may significantly reduce the latency between a revocation report and the distribution of the information to relying parties.  Once the CA accepts a revocation report as authentic and valid, any query to the on-line service will correctly reflect the certificate validation impacts of the revocation. However, these methods impose new security requirements: the certificate validator needs to trust the on-line validation service while the repository does not need to be trusted.
+"ko": |-
+  X.509 v3 인증서 형식과 마찬가지로 여러 공급업체의 상호 운용 가능한 구현을 용이하게 하려면 인터넷 사용을 위해 X.509 v2 CRL 형식을 프로파일링해야 합니다. 해당 프로필을 지정하는 것이 이 문서의 목표 중 하나입니다. 그러나 이 프로필에는 CRL 발급이 필요하지 않습니다. 온라인 폐기 알림을 지원하는 메시지 형식과 프로토콜은 다른 PKIX 사양에 정의되어 있습니다. 일부 환경에서는 X.509 CRL 대신 온라인 취소 알림 방법을 적용할 수 있습니다. 온라인 해지 확인은 해지 보고서와 신뢰 당사자에게 정보 배포 사이의 대기 시간을 크게 줄일 수 있습니다. CA가 해지 보고서를 신뢰할 수 있고 유효한 것으로 수락하면 온라인 서비스에 대한 모든 쿼리는 해지의 인증서 유효성 검사 영향을 올바르게 반영합니다. 그러나 이러한 방법은 새로운 보안 요구 사항을 부과합니다. 즉, 인증서 유효성 검사기는 온라인 유효성 검사 서비스를 신뢰해야 하지만 저장소는 신뢰할 필요가 없습니다.

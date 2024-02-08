@@ -1,0 +1,22 @@
+"hash": |-
+  8541f16d1d44c1ab093a17063411a8b6f568a5b119f48ca2d0f332fab25815b5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RTSP and HTTP share common authentication schemes; thus, they follow
+     the same framework as specified in [RFC7235].  RTSP uses the
+     corresponding RTSP error codes (401 and 407) and headers (WWW-
+     Authenticate, Authorization, Proxy-Authenticate, Proxy-Authorization)
+     by importing the definitions from [RFC7235].  Servers SHOULD
+     implement both the Basic [RFC7617] and the Digest [RFC7616]
+     authentication schemes.  Clients MUST implement both the Basic and
+     the Digest authentication schemes so that a server that requires the
+     client to authenticate can trust that the capability is present.  If
+     implementing the Digest authentication scheme, then the additional
+     considerations specified below in Section 19.1.1 MUST be followed.
+"fixed": |-
+  RTSP and HTTP share common authentication schemes; thus, they follow the same framework as specified in [RFC7235].  RTSP uses the corresponding RTSP error codes (401 and 407) and headers (WWW- Authenticate, Authorization, Proxy-Authenticate, Proxy-Authorization) by importing the definitions from [RFC7235].  Servers SHOULD implement both the Basic [RFC7617] and the Digest [RFC7616] authentication schemes.  Clients MUST implement both the Basic and the Digest authentication schemes so that a server that requires the client to authenticate can trust that the capability is present.  If implementing the Digest authentication scheme, then the additional considerations specified below in Section 19.1.1 MUST be followed.
+"ko": |-
+  RTSP와 HTTP는 공통 인증 체계를 공유합니다. 따라서 [RFC7235]에 지정된 것과 동일한 프레임워크를 따릅니다. RTSP는 [RFC7235]에서 정의를 가져와 해당 RTSP 오류 코드(401 및 407)와 헤더(WWW-Authenticate, Authorization, Proxy-Authenticate, Proxy-Authorization)를 사용합니다. 서버는 기본 [RFC7617] 및 다이제스트 [RFC7616] 인증 체계를 모두 구현해야 합니다. 클라이언트는 클라이언트 인증을 요구하는 서버가 해당 기능이 있음을 신뢰할 수 있도록 기본 및 다이제스트 인증 체계를 모두 구현해야 합니다. 다이제스트 인증 체계를 구현하는 경우 아래 섹션 19.1.1에 지정된 추가 고려 사항을 따라야 합니다.

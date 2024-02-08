@@ -1,0 +1,23 @@
+"hash": |-
+  03f70f82e00df8521acac4ea08698dfad7db83eb5df9b477a2f4fdb9bc3d06db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client may receive a REDIRECT request without a Session header at
+     any time when it has communication or a connection established with a
+     server.  The scope of such a request is limited to the next-hop
+     (i.e., the RTSP agent in direct communication with the server) and
+     applies to all sessions controlled, as well as the connection between
+     the next-hop RTSP agent and the server.  A REDIRECT request without a
+     Session header indicates that all sessions and pending requests being
+     managed via the connection MUST be redirected.  The Location header,
+     if included in such a request, SHOULD contain an absolute URI with
+     only the host address and the OPTIONAL port number of the server to
+     which the RTSP agent SHOULD reconnect.  Any intervening proxies
+     SHOULD do all of the following in the order listed:
+"fixed": |-
+  A client may receive a REDIRECT request without a Session header at any time when it has communication or a connection established with a server.  The scope of such a request is limited to the next-hop (i.e., the RTSP agent in direct communication with the server) and applies to all sessions controlled, as well as the connection between the next-hop RTSP agent and the server.  A REDIRECT request without a Session header indicates that all sessions and pending requests being managed via the connection MUST be redirected.  The Location header, if included in such a request, SHOULD contain an absolute URI with only the host address and the OPTIONAL port number of the server to which the RTSP agent SHOULD reconnect.  Any intervening proxies SHOULD do all of the following in the order listed:
+"ko": |-
+  클라이언트는 서버와 통신하거나 연결이 설정된 경우 언제든지 세션 헤더 없이 REDIRECT 요청을 받을 수 있습니다. 이러한 요청의 범위는 다음 홉(즉, 서버와 직접 통신하는 RTSP 에이전트)으로 제한되며 제어되는 모든 세션뿐만 아니라 다음 홉 RTSP 에이전트와 서버 간의 연결에도 적용됩니다. 세션 헤더가 없는 REDIRECT 요청은 연결을 통해 관리되는 모든 세션과 보류 중인 요청을 리디렉션해야 함을 나타냅니다. 그러한 요청에 포함된 경우 위치 헤더에는 RTSP 에이전트가 다시 연결해야 하는 서버의 호스트 주소와 선택적 포트 번호만 포함된 절대 URI가 포함되어야 합니다. 모든 개입 프록시는 나열된 순서대로 다음을 모두 수행해야 합니다.

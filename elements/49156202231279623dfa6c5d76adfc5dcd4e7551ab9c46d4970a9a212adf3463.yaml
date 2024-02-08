@@ -1,0 +1,16 @@
+"hash": |-
+  49156202231279623dfa6c5d76adfc5dcd4e7551ab9c46d4970a9a212adf3463
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the CA certificate keyUsage extension asserts keyAgreement, then
+     it MAY assert either encipherOnly or decipherOnly.  However, this
+     specification RECOMMENDS that if keyCertSign or cRLSign is present,
+     then keyAgreement, encipherOnly, and decipherOnly SHOULD NOT be
+     present.
+"fixed": |-
+  If the CA certificate keyUsage extension asserts keyAgreement, then it MAY assert either encipherOnly or decipherOnly.  However, this specification RECOMMENDS that if keyCertSign or cRLSign is present, then keyAgreement, encipherOnly, and decipherOnly SHOULD NOT be present.
+"ko": |-
+  CA 인증서 keyUsage 확장이 keyAgreement를 주장하는 경우 encipherOnly 또는 decipherOnly를 주장할 수 있습니다. 그러나 이 사양에서는 keyCertSign 또는 cRLSign이 존재하는 경우 keyAgreement, encipherOnly 및 decipherOnly가 존재하지 않아야 한다고 권장합니다.

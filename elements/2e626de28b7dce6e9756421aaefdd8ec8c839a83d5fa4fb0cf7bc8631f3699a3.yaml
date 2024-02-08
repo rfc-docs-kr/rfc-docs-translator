@@ -1,0 +1,23 @@
+"hash": |-
+  2e626de28b7dce6e9756421aaefdd8ec8c839a83d5fa4fb0cf7bc8631f3699a3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server can also request that the client tear down the session and
+     re-establish it at an alternative server, as may be needed for
+     maintenance.  This is done by using the REDIRECT method
+     (Section 13.10).  The Terminate-Reason header (Section 18.52) is used
+     to indicate when and why.  The Location header indicates where it
+     should connect if there is an alternative server available.  When the
+     deadline expires, the server simply stops providing the service.  To
+     achieve a clean closure, the client needs to initiate session
+     termination prior to the deadline.  In case the server has no other
+     server to redirect to, and it wants to close the session for
+     maintenance, it shall use the TEARDOWN method with a Terminate-Reason
+     header.
+"fixed": |-
+  A server can also request that the client tear down the session and re-establish it at an alternative server, as may be needed for maintenance.  This is done by using the REDIRECT method (Section 13.10).  The Terminate-Reason header (Section 18.52) is used to indicate when and why.  The Location header indicates where it should connect if there is an alternative server available.  When the deadline expires, the server simply stops providing the service.  To achieve a clean closure, the client needs to initiate session termination prior to the deadline.  In case the server has no other server to redirect to, and it wants to close the session for maintenance, it shall use the TEARDOWN method with a Terminate-Reason header.
+"ko": |-
+  서버는 유지 관리에 필요할 수 있으므로 클라이언트에게 세션을 해제하고 대체 서버에서 다시 설정하도록 요청할 수도 있습니다. 이는 REDIRECT 메서드(13.10절)를 사용하여 수행됩니다. Terminate-Reason 헤더(18.52절)는 시기와 이유를 나타내는 데 사용됩니다. Location 헤더는 사용 가능한 대체 서버가 있는 경우 연결해야 하는 위치를 나타냅니다. 기한이 만료되면 서버는 서비스 제공을 중단합니다. 깔끔하게 종료하려면 클라이언트가 마감일 이전에 세션 종료를 시작해야 합니다. 서버에 리디렉션할 다른 서버가 없고 유지 관리를 위해 세션을 닫으려는 경우 Terminate-Reason 헤더와 함께 TEARDOWN 메서드를 사용해야 합니다.

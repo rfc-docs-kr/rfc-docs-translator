@@ -1,0 +1,24 @@
+"hash": |-
+  a3a8148ec84d04586e27738c39d21ad2b4af584763b4a8f202abddc2fae6f215
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In SDP used with RTSP, the "c=" field contains the destination
+     address for the media stream.  If a multicast address is specified,
+     the client SHOULD use this address in any SETUP request as
+     destination address, including any additional parameters, such as
+     TTL.  For on-demand unicast streams and some multicast streams, the
+     destination address MAY be specified by the client via the SETUP
+     request, thus overriding any specified address.  To identify streams
+     without a fixed destination address, where the client is required to
+     specify a destination address, the "c=" field SHOULD be set to a null
+     value.  For addresses of type "IP4", this value MUST be "0.0.0.0";
+     and for type "IP6", this value MUST be "0:0:0:0:0:0:0:0" (can also be
+     written as "::"), i.e., the unspecified address according to RFC 4291
+     [RFC4291].
+"fixed": |-
+  In SDP used with RTSP, the "c=" field contains the destination address for the media stream.  If a multicast address is specified, the client SHOULD use this address in any SETUP request as destination address, including any additional parameters, such as TTL.  For on-demand unicast streams and some multicast streams, the destination address MAY be specified by the client via the SETUP request, thus overriding any specified address.  To identify streams without a fixed destination address, where the client is required to specify a destination address, the "c=" field SHOULD be set to a null value.  For addresses of type "IP4", this value MUST be "0.0.0.0"; and for type "IP6", this value MUST be "0:0:0:0:0:0:0:0" (can also be written as "::"), i.e., the unspecified address according to RFC 4291 [RFC4291].
+"ko": |-
+  RTSP와 함께 사용되는 SDP에서 "c=" 필드에는 미디어 스트림의 대상 주소가 포함됩니다. 멀티캐스트 주소가 지정된 경우 클라이언트는 TTL과 같은 추가 매개변수를 포함하여 모든 SETUP 요청에서 이 주소를 대상 주소로 사용해야 합니다. 주문형 유니캐스트 스트림 및 일부 멀티캐스트 스트림의 경우 클라이언트가 SETUP 요청을 통해 대상 주소를 지정하여 지정된 주소를 재정의할 수 있습니다. 클라이언트가 대상 주소를 지정해야 하는 고정된 대상 주소가 없는 스트림을 식별하려면 "c=" 필드를 null 값으로 설정해야 합니다. "IP4" 유형의 주소의 경우 이 값은 "0.0.0.0"이어야 합니다. "IP6" 유형의 경우 이 값은 "0:0:0:0:0:0:0:0"이어야 합니다("::"로 쓸 수도 있음). 즉, RFC 4291에 따라 지정되지 않은 주소입니다. RFC4291].

@@ -9,7 +9,7 @@
      connection with a connect() call or which side reacts to the
      connection via the accept() call; the FTP client, as defined in
      [RFC-959], is always the TLS client, as defined in [RFC-2246].
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  That is to say, it does not matter which side initiates the connection with a connect() call or which side reacts to the connection via the accept() call; the FTP client, as defined in [RFC-959], is always the TLS client, as defined in [RFC-2246].
+"ko": |-
+  즉, 어느 쪽이 connect() 호출로 연결을 시작하는지, 어느 쪽이 accept() 호출을 통해 연결에 반응하는지는 중요하지 않습니다. [RFC-959]에 정의된 FTP 클라이언트는 [RFC-2246]에 정의된 대로 항상 TLS 클라이언트입니다.

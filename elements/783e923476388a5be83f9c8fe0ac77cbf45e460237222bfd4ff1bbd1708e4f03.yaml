@@ -1,0 +1,28 @@
+"hash": |-
+  783e923476388a5be83f9c8fe0ac77cbf45e460237222bfd4ff1bbd1708e4f03
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Client  Server
+        |      |
+        |      |
+        +----X |     Header: GET (T=CON, Code=0.01, MID=0x7d36)
+        | GET  |      Token: 0x31
+        |      |   Uri-Path: "temperature"
+     TIMEOUT   |
+        |      |
+        +----->|     Header: GET (T=CON, Code=0.01, MID=0x7d36)
+        | GET  |      Token: 0x31
+        |      |   Uri-Path: "temperature"
+        |      |
+        |      |
+        |<-----+     Header: 2.05 Content (T=ACK, Code=2.05, MID=0x7d36)
+        | 2.05 |      Token: 0x31
+        |      |    Payload: "22.3 C"
+        |      |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

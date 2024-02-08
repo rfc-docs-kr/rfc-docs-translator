@@ -1,0 +1,16 @@
+"hash": |-
+  d88595e40e61cd92e82dad5ec5b57bfd668435f4e0454076a18aa97fcb1b40b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  Allow TLS clients to indicate to TLS servers which CA root keys
+        they possess.  This functionality is desirable in order to prevent
+        multiple handshake failures involving TLS clients that are only
+        able to store a small number of CA root keys due to memory
+        limitations.
+"fixed": |-
+  -  Allow TLS clients to indicate to TLS servers which CA root keys they possess.  This functionality is desirable in order to prevent multiple handshake failures involving TLS clients that are only able to store a small number of CA root keys due to memory limitations.
+"ko": |-
+  - TLS 클라이언트가 자신이 소유한 CA 루트 키를 TLS 서버에 표시하도록 허용합니다. 이 기능은 메모리 제한으로 인해 소수의 CA 루트 키만 저장할 수 있는 TLS 클라이언트와 관련된 다중 핸드셰이크 실패를 방지하기 위해 바람직합니다.

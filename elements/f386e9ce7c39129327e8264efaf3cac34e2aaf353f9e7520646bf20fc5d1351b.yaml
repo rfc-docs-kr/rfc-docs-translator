@@ -10,7 +10,7 @@
         confidentiality or integrity.  This might be the desired behaviour
         for servers sending file lists, pre-encrypted data, or non-
         sensitive data (e.g., for anonymous FTP servers).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - With 'Clear' protection level, the data connection is made without TLS.  Thus, the connection is unauthenticated and has no confidentiality or integrity.  This might be the desired behaviour for servers sending file lists, pre-encrypted data, or non- sensitive data (e.g., for anonymous FTP servers).
+"ko": |-
+  - '지우기' 보호 수준을 사용하면 TLS 없이 데이터 연결이 이루어집니다. 따라서 연결은 인증되지 않으며 기밀성이나 무결성이 없습니다. 이는 파일 목록, 사전 암호화된 데이터 또는 민감하지 않은 데이터(예: 익명 FTP 서버)를 보내는 서버에 바람직한 동작일 수 있습니다.

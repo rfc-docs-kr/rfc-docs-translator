@@ -1,0 +1,20 @@
+"hash": |-
+  1d9078a40177463569b418731e1d747c2715d71c456ad172ffa2acd37b4374bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the revocation status has not been determined, repeat the process
+     above with any available CRLs not specified in a distribution point
+     but issued by the certificate issuer.  For the processing of such a
+     CRL, assume a DP with both the reasons and the cRLIssuer fields
+     omitted and a distribution point name of the certificate issuer.
+     That is, the sequence of names in fullName is generated from the
+     certificate issuer field as well as the certificate issuerAltName
+     extension.  After processing such CRLs, if the revocation status has
+     still not been determined, then return the cert_status UNDETERMINED.
+"fixed": |-
+  If the revocation status has not been determined, repeat the process above with any available CRLs not specified in a distribution point but issued by the certificate issuer.  For the processing of such a CRL, assume a DP with both the reasons and the cRLIssuer fields omitted and a distribution point name of the certificate issuer. That is, the sequence of names in fullName is generated from the certificate issuer field as well as the certificate issuerAltName extension.  After processing such CRLs, if the revocation status has still not been determined, then return the cert_status UNDETERMINED.
+"ko": |-
+  해지 상태가 확인되지 않은 경우 배포 지점에 지정되지 않았지만 인증서 발급자가 발급한 사용 가능한 CRL을 사용하여 위 프로세스를 반복합니다. 이러한 CRL을 처리하려면 이유와 cRLIssuer 필드가 모두 생략된 DP와 인증서 발급자의 배포 지점 이름을 가정합니다. 즉, fullName의 이름 시퀀스는 인증서 발급자 필드와 인증서 발급자AltName 확장에서 생성됩니다. 이러한 CRL을 처리한 후에도 해지 상태가 아직 결정되지 않은 경우 cert_status UNDETERMINED를 반환합니다.

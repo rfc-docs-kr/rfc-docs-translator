@@ -1,0 +1,59 @@
+"hash": |-
+  0e65e1f8b495e270279706b63dd74e3e1d62bca6256d54822550425f86859aec
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    56   21:         SEQUENCE {
+    58   10:           OBJECT IDENTIFIER
+           :             domainComponent (0 9 2342 19200300 100 1 25)
+    70    7:           IA5String 'example'
+           :           }
+           :         }
+    79   19:       SET {
+    81   17:         SEQUENCE {
+    83    3:           OBJECT IDENTIFIER commonName (2 5 4 3)
+    88   10:           PrintableString 'Example CA'
+           :           }
+           :         }
+           :       }
+   100   30:     SEQUENCE {
+   102   13:       UTCTime 15/09/2004 11:48:21 GMT
+   117   13:       UTCTime 15/03/2005 11:48:21 GMT
+           :       }
+   132   67:     SEQUENCE {
+   134   19:       SET {
+   136   17:         SEQUENCE {
+   138   10:           OBJECT IDENTIFIER
+           :             domainComponent (0 9 2342 19200300 100 1 25)
+   150    3:           IA5String 'com'
+           :           }
+           :         }
+   155   23:       SET {
+   157   21:         SEQUENCE {
+   159   10:           OBJECT IDENTIFIER
+           :             domainComponent (0 9 2342 19200300 100 1 25)
+   171    7:           IA5String 'example'
+           :           }
+           :         }
+   180   19:       SET {
+   182   17:         SEQUENCE {
+   184    3:           OBJECT IDENTIFIER commonName (2 5 4 3)
+   189   10:           PrintableString 'End Entity'
+           :           }
+           :         }
+           :       }
+   201  159:     SEQUENCE {
+   204   13:       SEQUENCE {
+   206    9:         OBJECT IDENTIFIER
+           :           rsaEncryption (1 2 840 113549 1 1 1)
+   217    0:         NULL
+           :         }
+   219  141:       BIT STRING, encapsulates {
+   223  137:         SEQUENCE {
+   226  129:           INTEGER
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  8c43803ed7daa3d799fec7e0c63d20701458009cd784aa8759478aacec35ba27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.   The client retrieves the server's certificate from a direct TLS
+          connection or hop-by-hop from a Connection-Credentials header.
+          The client then checks that the server certificate is valid and
+          belongs to the server.
+"fixed": |-
+  1.   The client retrieves the server's certificate from a direct TLS connection or hop-by-hop from a Connection-Credentials header. The client then checks that the server certificate is valid and belongs to the server.
+"ko": |-
+  1. 클라이언트는 직접 TLS 연결에서 서버의 인증서를 검색하거나 Connection-Credentials 헤더에서 홉별로 검색합니다. 그런 다음 클라이언트는 서버 인증서가 유효하고 서버에 속하는지 확인합니다.

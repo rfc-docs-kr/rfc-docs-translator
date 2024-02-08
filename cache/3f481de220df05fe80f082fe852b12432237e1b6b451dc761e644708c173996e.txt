@@ -1,0 +1,1 @@
+ECParameters ::= CHOICE { 명명된Curve OBJECT IDENTIFIER -- implicitCurve NULL -- 지정Curve SpecifiedECDomain } -- implicitCurve 및 지정Curve는 PKIX에서 사용하면 안 됩니다. -- SpecifiedECDomain에 대한 세부 정보는 [X9.62]에서 확인할 수 있습니다. -- 이 CHOICE에 대한 향후 추가 사항은 ANSI X9와 함께 조정되어야 합니다.

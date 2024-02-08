@@ -1,0 +1,1 @@
+CA가 이러한 애플리케이션을 충족하기 위해 확장된 키 사용을 포함하지만 키 사용을 제한하지 않으려는 경우 CA는 애플리케이션에 필요한 특정 키 목적 외에도 특수 KeyPurposeId anyExtendedKeyUsage를 포함할 수 있습니다. 준수 CA는 anyExtendedKeyUsage KeyPurposeId가 존재하는 경우 이 확장을 중요로 표시해서는 안 됩니다. 특정 목적의 존재를 요구하는 애플리케이션은 anyExtendedKeyUsage OID를 포함하지만 애플리케이션에 예상되는 특정 OID는 포함하지 않는 인증서를 거부할 수 있습니다.

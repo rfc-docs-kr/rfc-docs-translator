@@ -13,7 +13,7 @@
         expect that IP layer functions may increase somewhat in the
         future, as further Internet control and management facilities are
         developed.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The host IP layer has two basic functions:  (1) choose the "next hop" gateway or host for outgoing IP datagrams and (2) reassemble incoming IP datagrams.  The IP layer may also (3) implement intentional fragmentation of outgoing datagrams.  Finally, the IP layer must (4) provide diagnostic and error functionality.  We expect that IP layer functions may increase somewhat in the future, as further Internet control and management facilities are developed.
+"ko": |-
+  - 호스트 IP 계층에는 두 가지 기본 기능이 있습니다. (1) 나가는 IP 데이터그램에 대한 "다음 홉" 게이트웨이 또는 호스트를 선택하고 (2) 들어오는 IP 데이터그램을 재조립합니다. IP 계층은 (3) 나가는 데이터그램의 의도적인 조각화를 구현할 수도 있습니다. 마지막으로 IP 계층은 (4) 진단 및 오류 기능을 제공해야 합니다. 우리는 인터넷 제어 및 관리 시설이 추가로 개발됨에 따라 IP 계층 기능이 향후 다소 증가할 것으로 예상합니다.

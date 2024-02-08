@@ -1,0 +1,59 @@
+"hash": |-
+  4539d18b5aa6a4cf9e72fd27bb5ed21b48a918a437211a2c17bc97b4d28b838a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +---------------------------+-------+-------+-----+-----+-----+-----+
+     | Header                    | Where | Proxy | GPR | SPR | RDR | PNY |
+     +---------------------------+-------+-------+-----+-----+-----+-----+
+     | Accept-Credentials        | R     | rm    | o   | o   | o   | -   |
+     | Accept-Encoding           | R     | r     | o   | o   | o   | -   |
+     | Accept-Language           | R     | r     | o   | o   | o   | -   |
+     | Accept-Ranges             | G     | rm    | o   | -   | -   | -   |
+     | Allow                     | 405   | amr   | m   | m   | m   | m   |
+     | Authentication-Info       | r     |       | o/- | o/- | -   | -   |
+     | Authorization             | R     |       | o   | o   | o   | -   |
+     | Bandwidth                 | R     |       | -   | o   | -   | -   |
+     | Blocksize                 | R     |       | -   | o   | -   | -   |
+     | Cache-Control             | G     | r     | o   | o   | -   | -   |
+     | Connection                | G     |       | o   | o   | o   | o   |
+     | Connection-Credentials    | 470,  | ar    | o   | o   | o   | -   |
+     |                           | 407   |       |     |     |     |     |
+     | Content-Base              | R     |       | o   | o   | -   | o   |
+     | Content-Base              | r     |       | o   | o   | -   | -   |
+     | Content-Base              | 4xx,  |       | o   | o   | o   | o   |
+     |                           | 5xx   |       |     |     |     |     |
+     | Content-Encoding          | R     | r     | o   | o   | -   | o   |
+     | Content-Encoding          | r     | r     | o   | o   | -   | -   |
+     | Content-Encoding          | 4xx,  | r     | o   | o   | o   | o   |
+     |                           | 5xx   |       |     |     |     |     |
+     | Content-Language          | R     | r     | o   | o   | -   | o   |
+     | Content-Language          | r     | r     | o   | o   | -   | -   |
+     | Content-Language          | 4xx,  | r     | o   | o   | o   | o   |
+     |                           | 5xx   |       |     |     |     |     |
+     | Content-Length            | R     | r     | *   | *   | -   | *   |
+     | Content-Length            | r     | r     | *   | *   | -   | -   |
+     | Content-Length            | 4xx,  | r     | *   | *   | *   | *   |
+     |                           | 5xx   |       |     |     |     |     |
+     | Content-Location          | R     |       | o   | o   | -   | o   |
+     | Content-Location          | r     |       | o   | o   | -   | -   |
+     | Content-Location          | 4xx,  |       | o   | o   | o   | o   |
+     |                           | 5xx   |       |     |     |     |     |
+     | Content-Type              | R     |       | *   | *   | -   | *   |
+     | Content-Type              | r     |       | *   | *   | -   | -   |
+     | Content-Type              | 4xx,  |       | *   | *   | *   | *   |
+     |                           | 5xx   |       |     |     |     |     |
+     | CSeq                      | R,c   | mr    | m   | m   | m   | m   |
+     | Date                      | R     | a     | o/* | o/* | m   | o/* |
+     | Date                      | r     | am    | o/* | o/* | o/* | o/* |
+     | Expires                   | r     | r     | -   | -   | -   | -   |
+     | From                      | R     | r     | o   | o   | o   | -   |
+     | If-Match                  | R     | r     | -   | -   | -   | -   |
+     | If-Modified-Since         | R     | am    | o   | -   | -   | -   |
+     | If-None-Match             | R     | am    | o   | -   | -   | -   |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

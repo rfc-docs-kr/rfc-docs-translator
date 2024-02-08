@@ -1,0 +1,19 @@
+"hash": |-
+  8cb7a47e2f2b6cd29f9b603e8e1ba4a040ef54f40a29bb01478b644b8f9d74d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Performing TE on a per-class basis may require per-class parameters
+     to be distributed.  It is common to have some classes share some
+     aggregate constraints (e.g., maximum bandwidth requirement) without
+     enforcing the constraint on each individual class.  These classes can
+     be grouped into class types, and per-class-type parameters can be
+     distributed to improve scalability.  This also allows better
+     bandwidth sharing between classes in the same class type.  A class
+     type is a set of classes that satisfy the following two conditions:
+"fixed": |-
+  Performing TE on a per-class basis may require per-class parameters to be distributed.  It is common to have some classes share some aggregate constraints (e.g., maximum bandwidth requirement) without enforcing the constraint on each individual class.  These classes can be grouped into class types, and per-class-type parameters can be distributed to improve scalability.  This also allows better bandwidth sharing between classes in the same class type.  A class type is a set of classes that satisfy the following two conditions:
+"ko": |-
+  클래스별로 TE를 수행하려면 클래스별 매개변수를 배포해야 할 수도 있습니다. 각 개별 클래스에 제약 조건을 적용하지 않고 일부 클래스에서 일부 집계 제약 조건(예: 최대 대역폭 요구 사항)을 공유하는 것이 일반적입니다. 이러한 클래스를 클래스 유형별로 그룹화할 수 있으며, 클래스 유형별 매개변수를 분산하여 확장성을 높일 수 있습니다. 이는 또한 동일한 클래스 유형의 클래스 간에 더 나은 대역폭 공유를 허용합니다. 클래스 유형은 다음 두 가지 조건을 충족하는 클래스 집합입니다.

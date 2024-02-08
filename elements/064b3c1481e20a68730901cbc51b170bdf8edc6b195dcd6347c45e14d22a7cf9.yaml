@@ -1,0 +1,14 @@
+"hash": |-
+  064b3c1481e20a68730901cbc51b170bdf8edc6b195dcd6347c45e14d22a7cf9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (e)  If the subjectPublicKeyInfo field of the certificate contains
+        an algorithm field with non-null parameters, assign the parameters
+        to the working_public_key_parameters variable.
+"fixed": |-
+  - (e)  If the subjectPublicKeyInfo field of the certificate contains an algorithm field with non-null parameters, assign the parameters to the working_public_key_parameters variable.
+"ko": |-
+  - (e) 인증서의 subjectPublicKeyInfo 필드에 null이 아닌 매개변수가 있는 알고리즘 필드가 포함되어 있는 경우 해당 매개변수를 Working_public_key_parameters 변수에 할당합니다.

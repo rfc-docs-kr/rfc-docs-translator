@@ -1,0 +1,44 @@
+"hash": |-
+  1909ea643d7281be04b19a2468f46a0f9f4cbcb6eb01e94ca4454cfbe8c3f693
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     profile           = "AVP" / "SAVP" / "AVPF" / "SAVPF" / token
+     lower-transport   = "TCP" / "UDP" / token
+     trns-parameter    = (SEMI ( "unicast" / "multicast" ))
+                       / (SEMI "interleaved" EQUAL channel ["-" channel])
+                       / (SEMI "ttl" EQUAL ttl)
+                       / (SEMI "layers" EQUAL 1*DIGIT)
+                       / (SEMI "ssrc" EQUAL ssrc *(SLASH ssrc))
+                       / (SEMI "mode" EQUAL mode-spec)
+                       / (SEMI "dest_addr" EQUAL addr-list)
+                       / (SEMI "src_addr" EQUAL addr-list)
+                       / (SEMI "setup" EQUAL contrans-setup)
+                       / (SEMI "connection" EQUAL contrans-con)
+                       / (SEMI "RTCP-mux")
+                       / (SEMI "MIKEY" EQUAL MIKEY-Value)
+                       / (SEMI trn-param-ext)
+     contrans-setup    = "active" / "passive" / "actpass"
+     contrans-con      = "new" / "existing"
+     trn-param-ext     = par-name [EQUAL trn-par-value]
+     par-name          = token
+     trn-par-value     = *(rtsp-unreserved / quoted-string)
+     ttl               = 1*3DIGIT ; 0 to 255
+     ssrc              = 8HEX
+     channel           = 1*3DIGIT ; 0 to 255
+     MIKEY-Value       = base64
+     mode-spec         = ( DQUOTE mode *(COMMA mode) DQUOTE )
+     mode              = "PLAY" / token
+     addr-list         = quoted-addr *(SLASH quoted-addr)
+     quoted-addr       = DQUOTE (host-port / extension-addr) DQUOTE
+     host-port         = ( host [":" port] )
+                       / ( ":" port )
+     extension-addr    = 1*qdtext
+     host              = < As defined in RFC 3986>
+     port              = < As defined in RFC 3986>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  0cb13a78e6d65398eb816841fd5cbe157a3ebe4266260ed4695291a18e00059a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The session identifier is chosen by the server (see Section 4.3) and
+     MUST be returned in the SETUP response.  Once a client receives a
+     session identifier, it MUST be included in any request related to
+     that session.  This means that the Session header MUST be included in
+     a request, using the following methods: PLAY, PAUSE, PLAY_NOTIFY and
+     TEARDOWN.  It MAY be included in SETUP, OPTIONS, SET_PARAMETER,
+     GET_PARAMETER, and REDIRECT.  It MUST NOT be included in DESCRIBE.
+     The Session header MUST NOT be included in the following methods, if
+     these requests are pipelined and if the session identifier is not yet
+     known: PLAY, PAUSE, TEARDOWN, SETUP, OPTIONS SET_PARAMETER, and
+     GET_PARAMETER.
+"fixed": |-
+  The session identifier is chosen by the server (see Section 4.3) and MUST be returned in the SETUP response.  Once a client receives a session identifier, it MUST be included in any request related to that session.  This means that the Session header MUST be included in a request, using the following methods: PLAY, PAUSE, PLAY_NOTIFY and TEARDOWN.  It MAY be included in SETUP, OPTIONS, SET_PARAMETER, GET_PARAMETER, and REDIRECT.  It MUST NOT be included in DESCRIBE. The Session header MUST NOT be included in the following methods, if these requests are pipelined and if the session identifier is not yet known: PLAY, PAUSE, TEARDOWN, SETUP, OPTIONS SET_PARAMETER, and GET_PARAMETER.
+"ko": |-
+  세션 식별자는 서버에 의해 선택되며(섹션 4.3 참조) SETUP 응답으로 반환되어야 합니다. 클라이언트가 세션 식별자를 수신하면 해당 세션과 관련된 모든 요청에 ​​이를 포함해야 합니다. 이는 세션 헤더가 PLAY, PAUSE, PLAY_NOTIFY 및 TEARDOWN 메소드를 사용하여 요청에 포함되어야 함을 의미합니다. SETUP, OPTIONS, SET_PARAMETER, GET_PARAMETER 및 REDIRECT에 포함될 수 있습니다. DESCRIBE에 포함되어서는 안 됩니다. 이러한 요청이 파이프라인이고 세션 식별자가 아직 알려지지 않은 경우 세션 헤더는 PLAY, PAUSE, TEARDOWN, SETUP, OPTIONS SET_PARAMETER 및 GET_PARAMETER 메서드에 포함되어서는 안 됩니다.

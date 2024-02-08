@@ -1,0 +1,24 @@
+"hash": |-
+  417fcc521976228e631ab693b26b86a2174d77f207a39e7070b7b3f0f10a61ae
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     npt-range        =  "npt" [EQUAL npt-range-spec]
+     npt-range-spec   =  ( npt-time "-" [ npt-time ] ) / ( "-" npt-time )
+     npt-time         =  "now" / npt-sec / npt-hhmmss / npt-hhmmss-comp
+     npt-sec          =  1*19DIGIT [ "." 1*9DIGIT ]
+     npt-hhmmss       =  npt-hh ":" npt-mm ":" npt-ss [ "." 1*9DIGIT ]
+     npt-hh           =  2*19DIGIT   ; any positive number
+     npt-mm           =  2*2DIGIT  ; 0-59
+     npt-ss           =  2*2DIGIT  ; 0-59
+     npt-hhmmss-comp  =  npt-hh-comp ":" npt-mm-comp ":" npt-ss-comp
+                         [ "." 1*9DIGIT ] ; Compatibility format
+     npt-hh-comp      =  1*19DIGIT   ; any positive number
+     npt-mm-comp      =  1*2DIGIT  ; 0-59
+     npt-ss-comp      =  1*2DIGIT  ; 0-59
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

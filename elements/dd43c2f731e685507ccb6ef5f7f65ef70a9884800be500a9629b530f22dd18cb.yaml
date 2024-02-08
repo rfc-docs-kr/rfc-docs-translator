@@ -1,0 +1,19 @@
+"hash": |-
+  dd43c2f731e685507ccb6ef5f7f65ef70a9884800be500a9629b530f22dd18cb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     qdtext          = %x20-21 / %x23-5B / %x5D-7E / quoted-pair
+                     / UTF8-NONASCII
+                     ; No DQUOTE and no "\"
+     quoted-pair     = "\\" / ( "\" DQUOTE )
+     ctext           =  %x20-27 / %x2A-7E
+                     /  %x80-FF  ; any OCTET except CTLs, "(" and ")"
+     generic-param   =  token [ EQUAL gen-value ]
+     gen-value       =  token / host / quoted-string
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

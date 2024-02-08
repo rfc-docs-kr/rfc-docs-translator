@@ -9,7 +9,7 @@
        recommended that certificates used for server authentication of the
        TLS session contain the server identification information in a
        similar manner to those used for http servers (see [RFC-2818]).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - Although it is entirely an implementation decision, it is recommended that certificates used for server authentication of the TLS session contain the server identification information in a similar manner to those used for http servers (see [RFC-2818]).
+"ko": |-
+  - 전적으로 구현 결정이지만 TLS 세션의 서버 인증에 사용되는 인증서에는 http 서버에 사용되는 인증서와 유사한 방식으로 서버 식별 정보가 포함되어 있는 것이 좋습니다([RFC-2818] 참조).

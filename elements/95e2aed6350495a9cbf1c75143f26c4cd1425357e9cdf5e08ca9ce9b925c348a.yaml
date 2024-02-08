@@ -1,0 +1,19 @@
+"hash": |-
+  95e2aed6350495a9cbf1c75143f26c4cd1425357e9cdf5e08ca9ce9b925c348a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When there are no revoked certificates, the revoked certificates list
+     MUST be absent.  Otherwise, revoked certificates are listed by their
+     serial numbers.  Certificates revoked by the CA are uniquely
+     identified by the certificate serial number.  The date on which the
+     revocation occurred is specified.  The time for revocationDate MUST
+     be expressed as described in section 5.1.2.4. Additional information
+     may be supplied in CRL entry extensions; CRL entry extensions are
+     discussed in section 5.3.
+"fixed": |-
+  When there are no revoked certificates, the revoked certificates list MUST be absent.  Otherwise, revoked certificates are listed by their serial numbers.  Certificates revoked by the CA are uniquely identified by the certificate serial number.  The date on which the revocation occurred is specified.  The time for revocationDate MUST be expressed as described in section 5.1.2.4. Additional information may be supplied in CRL entry extensions; CRL entry extensions are discussed in section 5.3.
+"ko": |-
+  폐기된 인증서가 없으면 폐기된 인증서 목록이 없어야 합니다. 그렇지 않으면 해지된 인증서가 일련 번호별로 나열됩니다. CA가 해지한 인증서는 인증서 일련번호로 고유하게 식별됩니다. 철회가 발생한 날짜가 지정됩니다. revocationDate의 시간은 섹션 5.1.2.4에 설명된 대로 표현되어야 합니다. 추가 정보는 CRL 항목 확장에 제공될 수 있습니다. CRL 항목 확장은 섹션 5.3에서 논의됩니다.

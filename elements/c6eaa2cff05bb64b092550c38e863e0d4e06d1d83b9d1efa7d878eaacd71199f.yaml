@@ -1,0 +1,17 @@
+"hash": |-
+  c6eaa2cff05bb64b092550c38e863e0d4e06d1d83b9d1efa7d878eaacd71199f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  If the response includes the "must-revalidate" cache-control
+         directive, the cache MAY use that response in replying to a
+         subsequent request.  But if the response is stale, all caches
+         MUST first revalidate it with the origin server, using the
+         request-headers from the new request to allow the origin server
+         to authenticate the new request.
+"fixed": |-
+  1.  If the response includes the "must-revalidate" cache-control directive, the cache MAY use that response in replying to a subsequent request.  But if the response is stale, all caches MUST first revalidate it with the origin server, using the request-headers from the new request to allow the origin server to authenticate the new request.
+"ko": |-
+  1. 응답에 "must-revalidate" 캐시 제어 지시문이 포함된 경우 캐시는 후속 요청에 응답할 때 해당 응답을 사용할 수 있습니다. 그러나 응답이 오래되면 모든 캐시는 원본 서버가 새 요청을 인증할 수 있도록 새 요청의 요청 헤더를 사용하여 원본 서버에서 먼저 이를 재검증해야 합니다.

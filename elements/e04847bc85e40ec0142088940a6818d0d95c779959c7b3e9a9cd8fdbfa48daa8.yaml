@@ -1,0 +1,20 @@
+"hash": |-
+  e04847bc85e40ec0142088940a6818d0d95c779959c7b3e9a9cd8fdbfa48daa8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  NON_LIFETIME is the time from sending a Non-confirmable message to
+        the time its Message ID can be safely reused.  If multiple
+        transmission of a NON message is not used, its value is
+        MAX_LATENCY, or 100 seconds.  However, a CoAP sender might send a
+        NON message multiple times, in particular for multicast
+        applications.  While the period of reuse is not bounded by the
+        specification, an expectation of reliable detection of duplication
+        at the receiver is on the timescales of MAX_TRANSMIT_SPAN.
+        Therefore, for this purpose, it is safer to use the value:
+"fixed": |-
+  -  NON_LIFETIME is the time from sending a Non-confirmable message to the time its Message ID can be safely reused.  If multiple transmission of a NON message is not used, its value is MAX_LATENCY, or 100 seconds.  However, a CoAP sender might send a NON message multiple times, in particular for multicast applications.  While the period of reuse is not bounded by the specification, an expectation of reliable detection of duplication at the receiver is on the timescales of MAX_TRANSMIT_SPAN. Therefore, for this purpose, it is safer to use the value:
+"ko": |-
+  - NON_LIFETIME은 확인 불가능한 메시지를 보낸 시점부터 해당 메시지 ID를 안전하게 재사용할 수 있는 시점까지의 시간입니다. NON 메시지의 다중 전송을 사용하지 않는 경우 해당 값은 MAX_LATENCY, 즉 100초입니다. 그러나 CoAP 발신자는 특히 멀티캐스트 애플리케이션의 경우 NON 메시지를 여러 번 보낼 수 있습니다. 재사용 기간은 사양에 의해 제한되지 않지만 수신기에서 신뢰할 수 있는 중복 감지에 대한 기대는 MAX_TRANSMIT_SPAN의 시간 척도에 있습니다. 따라서 이 목적을 위해서는 다음 값을 사용하는 것이 더 안전합니다.

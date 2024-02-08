@@ -1,0 +1,15 @@
+"hash": |-
+  467fc4c7daa4fd45c9a03e699708ea30d842f3d42751f9d79e04bc035570cc17
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a server closes a connection while the client is attempting to
+     send a new request, the client will have to close its current
+     connection, establish a new connection, and send its request over the
+     new connection.
+"fixed": |-
+  If a server closes a connection while the client is attempting to send a new request, the client will have to close its current connection, establish a new connection, and send its request over the new connection.
+"ko": |-
+  클라이언트가 새 요청을 보내려고 하는 동안 서버가 연결을 닫으면 클라이언트는 현재 연결을 닫고 새 연결을 설정한 다음 새 연결을 통해 요청을 보내야 합니다.

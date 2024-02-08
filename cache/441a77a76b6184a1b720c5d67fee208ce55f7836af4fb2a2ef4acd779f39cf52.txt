@@ -1,0 +1,1 @@
+RSAPrivateKey ::= SEQUENCE { 버전 버전, 모듈러스 INTEGER, -- n publicExpont INTEGER, -- e privateExpont INTEGER, -- d prime1 INTEGER, -- p prime2 INTEGER, -- q expont1 INTEGER, -- d mod (p-1 ) 지수2 INTEGER, -- d mod (q-1) 계수 INTEGER -- (q의 역수) mod p }

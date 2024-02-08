@@ -1,0 +1,24 @@
+"hash": |-
+  67ff51fc91e8eb11afa5bf1136ea95c9f5d0097c2dadd1dda95490258b521655
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     to distribute when it is called upon to "create" a unique port id.
+     Thus each 24-bit Host number will consist of two major parts.  The
+     first 8 bits will be the number of the Host "creating" the port id
+     and the next 16 bits can be used in any manner the creating Host
+     desires.  This gives each Host 2^16 port numbers to distribute, and
+     each Host will have the burden of distributing its segment of the
+     port number space in a unique manner.  We recommend the convention
+     that the port numbers with the middle 8 bits equal to zero be
+     reserved for well-known ports in the creating Host's system.  We
+     already recommend in an earlier section that port numbers with the
+     first 8 bits equal to zero be reserved for network-wide use and in
+     particular the port number with all 24 bits equal to zero be used to
+     mean ANY.
+"fixed": |-
+  to distribute when it is called upon to "create" a unique port id. Thus each 24-bit Host number will consist of two major parts.  The first 8 bits will be the number of the Host "creating" the port id and the next 16 bits can be used in any manner the creating Host desires.  This gives each Host 2^16 port numbers to distribute, and each Host will have the burden of distributing its segment of the port number space in a unique manner.  We recommend the convention that the port numbers with the middle 8 bits equal to zero be reserved for well-known ports in the creating Host's system.  We already recommend in an earlier section that port numbers with the first 8 bits equal to zero be reserved for network-wide use and in particular the port number with all 24 bits equal to zero be used to mean ANY.
+"ko": |-
+  고유한 포트 ID를 "생성"하기 위해 호출될 때 배포합니다. 따라서 각 24비트 호스트 번호는 두 가지 주요 부분으로 구성됩니다. 처음 8비트는 포트 ID를 "생성하는" 호스트의 번호가 되며 다음 16비트는 생성하는 호스트가 원하는 방식으로 사용될 수 있습니다. 이는 각 호스트에 배포할 2^16 포트 번호를 제공하며, 각 호스트는 포트 번호 공간의 세그먼트를 고유한 방식으로 배포해야 하는 부담을 갖게 됩니다. 가운데 8비트가 0인 포트 번호를 생성하는 호스트 시스템의 잘 알려진 포트용으로 예약하는 규칙을 권장합니다. 이전 섹션에서 이미 처음 8비트가 0인 포트 번호를 네트워크 전체 사용을 위해 예약하고 특히 24비트가 모두 0인 포트 번호는 ANY를 의미하는 데 사용하도록 권장했습니다.

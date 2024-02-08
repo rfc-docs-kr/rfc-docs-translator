@@ -7,7 +7,7 @@
 "original": |2-
         Otherwise, if the control connection is not protected with TLS,
         then a 533 reply should be sent.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - Otherwise, if the control connection is not protected with TLS, then a 533 reply should be sent.
+"ko": |-
+  - 그렇지 않고 제어 연결이 TLS로 보호되지 않으면 533 응답을 보내야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  9f7c153e753b90096d26bb65e4c7af04cc6c4a8b8acec4499eb8f14523b7660f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that when a list of URLs for X.509 certificates is used, the
+     ordering of URLs is the same as that used in the TLS Certificate
+     message (see [TLS], Section 7.4.2), but opposite to the order in
+     which certificates are encoded in PkiPath.  In either case, the
+     self-signed root certificate MAY be omitted from the chain, under the
+     assumption that the server must already possess it in order to
+     validate it.
+"fixed": |-
+  Note that when a list of URLs for X.509 certificates is used, the ordering of URLs is the same as that used in the TLS Certificate message (see [TLS], Section 7.4.2), but opposite to the order in which certificates are encoded in PkiPath.  In either case, the self-signed root certificate MAY be omitted from the chain, under the assumption that the server must already possess it in order to validate it.
+"ko": |-
+  X.509 인증서에 대한 URL 목록이 사용되는 경우 URL의 순서는 TLS 인증서 메시지([TLS], 섹션 7.4.2 참조)에 사용된 순서와 동일하지만 인증서 순서와 반대입니다. PkiPath로 인코딩됩니다. 두 경우 모두 자체 서명된 루트 인증서는 서버가 이를 검증하기 위해 이미 보유하고 있어야 한다는 가정 하에 체인에서 생략될 수 있습니다.

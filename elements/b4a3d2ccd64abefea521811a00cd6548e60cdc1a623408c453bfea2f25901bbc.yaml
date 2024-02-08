@@ -1,0 +1,18 @@
+"hash": |-
+  b4a3d2ccd64abefea521811a00cd6548e60cdc1a623408c453bfea2f25901bbc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     X: NPT time value = 3.25, from Range header.
+     A: RTP timestamp value for Audio from RTP-Info header (12345678).
+     V: RTP timestamp value for Video from RTP-Info header (29567112).
+     PA: RTP audio packet carrying an RTP timestamp of 12344878, which
+         corresponds to NPT = (12344878 - A) / 16000 + 3.25 = 3.2
+     PV: RTP video packet carrying an RTP timestamp of 29573412, which
+         corresponds to NPT = (29573412 - V) / 90000 + 3.25 = 3.32
+"fixed": |-
+  X: NPT time value = 3.25, from Range header. A: RTP timestamp value for Audio from RTP-Info header (12345678). V: RTP timestamp value for Video from RTP-Info header (29567112). PA: RTP audio packet carrying an RTP timestamp of 12344878, which corresponds to NPT = (12344878 - A) / 16000 + 3.25 = 3.2 PV: RTP video packet carrying an RTP timestamp of 29573412, which corresponds to NPT = (29573412 - V) / 90000 + 3.25 = 3.32
+"ko": |-
+  X: 범위 헤더의 NPT 시간 값 = 3.25. A: RTP-Info 헤더의 오디오에 대한 RTP 타임스탬프 값(12345678). V: RTP-Info 헤더의 비디오에 대한 RTP 타임스탬프 값(29567112). PA: NPT = (12344878 - A) / 16000 + 3.25 = 3.2에 해당하는 12344878의 RTP 타임스탬프를 전달하는 RTP 오디오 패킷 PV: NPT = (29573412 - V)에 해당하는 29573412의 RTP 타임스탬프를 전달하는 RTP 비디오 패킷 / 90000 + 3.25 = 3.32

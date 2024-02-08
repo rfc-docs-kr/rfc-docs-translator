@@ -1,0 +1,23 @@
+"hash": |-
+  e6d48c1502a6a0e60430bd7fcbf936eb7d6789a1df6dd1dfd0f30489a12ee932
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRouteMetric2 OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-create
+         STATUS     current
+         DESCRIPTION
+                "An alternate routing metric for this route.  The
+                 semantics of this metric are determined by the routing-
+                 protocol specified in the route's inetCidrRouteProto
+                 value.  If this metric is not used, its value should be
+                 set to -1."
+         DEFVAL { -1 }
+         ::= { inetCidrRouteEntry 13 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

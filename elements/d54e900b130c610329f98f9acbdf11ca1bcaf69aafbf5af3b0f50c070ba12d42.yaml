@@ -1,0 +1,14 @@
+"hash": |-
+  d54e900b130c610329f98f9acbdf11ca1bcaf69aafbf5af3b0f50c070ba12d42
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If a client SETUP request assigns the "new" value to
+           "connection", the server response MUST also assign the "new"
+           value to "connection" on the Transport line.
+"fixed": |-
+  - If a client SETUP request assigns the "new" value to "connection", the server response MUST also assign the "new" value to "connection" on the Transport line.
+"ko": |-
+  - 클라이언트 SETUP 요청이 "새" 값을 "연결"에 할당하는 경우 서버 응답도 전송 라인의 "연결"에 "새" 값을 할당해야 합니다.

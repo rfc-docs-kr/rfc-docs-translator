@@ -12,7 +12,7 @@
         move into gateway mode if the host has more than one interface, as
         the operator of the machine may neither want to provide that
         service nor be competent to do so.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - non-gateway mode.  In this mode, a datagram arriving through one interface will not be forwarded to another host or gateway (unless it is source-routed), regardless of whether the host is single- homed or multihomed.  The host software MUST NOT automatically move into gateway mode if the host has more than one interface, as the operator of the machine may neither want to provide that service nor be competent to do so.
+"ko": |-
+  - 비게이트웨이 모드. 이 모드에서는 호스트가 단일 홈인지 멀티홈인지에 관계없이 하나의 인터페이스를 통해 도착하는 데이터그램이 다른 호스트나 게이트웨이로 전달되지 않습니다(소스 라우팅이 아닌 경우). 호스트에 둘 이상의 인터페이스가 있는 경우 호스트 소프트웨어는 자동으로 게이트웨이 모드로 전환되어서는 안 됩니다. 머신의 운영자는 해당 서비스를 제공하기를 원하지 않거나 그렇게 할 능력이 없을 수 있기 때문입니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  e176c7ebf7160fcab6a517e12d254e632a6cdba74311ffdac6d8daddbe0c743e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  When sending response 451 (Parameter Not Understood) and 458
+           (Parameter Is Read-Only), the response body should contain the
+           offending parameters.
+"fixed": |-
+  - *  When sending response 451 (Parameter Not Understood) and 458 (Parameter Is Read-Only), the response body should contain the offending parameters.
+"ko": |-
+  - * 응답 451(매개변수를 이해하지 못함) 및 458(매개변수는 읽기 전용)을 보낼 때 응답 본문에는 문제가 되는 매개변수가 포함되어야 합니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  424ed230ad86b0354dffc6fb504e750aa5d9a14147a685553a880b71f1ed74ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The headend node is notified of SR Policies and associated SR paths
+     via configuration or by extensions to protocols such as the Path
+     Computation Element Communication Protocol (PCEP) [RFC8664] or BGP
+     [SR-TE-POLICY].  Each SR path consists of a segment list (an SR
+     source-routed path), and the headend uses the endpoint and color
+     parameters to classify packets to match the SR Policy and so
+     determine along which path to forward them.  If an SR Policy is
+     associated with a set of SR paths, each is associated with a weight
+     for weighted load balancing.  Furthermore, multiple SR Policies may
+     be associated with a set of SR paths to allow multiple traffic flows
+     to be placed on the same paths.
+"fixed": |-
+  The headend node is notified of SR Policies and associated SR paths via configuration or by extensions to protocols such as the Path Computation Element Communication Protocol (PCEP) [RFC8664] or BGP [SR-TE-POLICY].  Each SR path consists of a segment list (an SR source-routed path), and the headend uses the endpoint and color parameters to classify packets to match the SR Policy and so determine along which path to forward them.  If an SR Policy is associated with a set of SR paths, each is associated with a weight for weighted load balancing.  Furthermore, multiple SR Policies may be associated with a set of SR paths to allow multiple traffic flows to be placed on the same paths.
+"ko": |-
+  헤드엔드 노드는 구성을 통해 또는 경로 계산 요소 통신 프로토콜(PCEP) [RFC8664] 또는 BGP [SR-TE-POLICY]와 같은 프로토콜 확장을 통해 SR 정책 및 관련 SR 경로에 대한 알림을 받습니다. 각 SR 경로는 세그먼트 목록(SR 소스 라우팅 경로)으로 구성되며, 헤드엔드는 엔드포인트 및 색상 매개변수를 사용하여 SR 정책과 일치하도록 패킷을 분류하고 이를 전달할 경로를 결정합니다. SR 정책이 SR 경로 집합과 연결된 경우 각 경로는 가중치가 부여된 로드 밸런싱을 위한 가중치와 연결됩니다. 또한 여러 트래픽 흐름이 동일한 경로에 배치되도록 허용하기 위해 여러 SR 정책을 SR 경로 집합과 연결할 수 있습니다.

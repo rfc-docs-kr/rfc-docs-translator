@@ -1,0 +1,20 @@
+"hash": |-
+  16471ef1fe97c59e7276bb343b85f5a6618b0d4b19822123912f798b4a346f2d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The figures also show "(IN)" and "(OUT)" messages being passed into
+     the processes.  The parentheses are used to indicate that the "IN"
+     and "OUT" are only CONCEPTUALLY passed into the processes.  What
+     actually happens is implementation dependent.  The process might be
+     awakened and be given no further information if it blocked when
+     issuing the SEND or RECEIVE.  The process might be interrupted and
+     passed some information such as the to-port-id from the IN or the
+     from-port-id of the OUT.  The process might actually be passed the
+     complete IN or OUT message.
+"fixed": |-
+  The figures also show "(IN)" and "(OUT)" messages being passed into the processes.  The parentheses are used to indicate that the "IN" and "OUT" are only CONCEPTUALLY passed into the processes.  What actually happens is implementation dependent.  The process might be awakened and be given no further information if it blocked when issuing the SEND or RECEIVE.  The process might be interrupted and passed some information such as the to-port-id from the IN or the from-port-id of the OUT.  The process might actually be passed the complete IN or OUT message.
+"ko": |-
+  그림에는 "(IN)" 및 "(OUT)" 메시지가 프로세스로 전달되는 모습도 나와 있습니다. 괄호는 "IN"과 "OUT"이 개념적으로만 프로세스에 전달된다는 것을 나타내는 데 사용됩니다. 실제로 일어나는 일은 구현에 따라 다릅니다. SEND 또는 RECEIVE를 실행할 때 프로세스가 차단되면 프로세스가 활성화되어 추가 정보가 제공되지 않을 수 있습니다. 프로세스가 중단되어 IN의 to-port-id 또는 OUT의 from-port-id와 같은 일부 정보가 전달될 수 있습니다. 프로세스에는 실제로 완전한 IN 또는 OUT 메시지가 전달될 수 있습니다.

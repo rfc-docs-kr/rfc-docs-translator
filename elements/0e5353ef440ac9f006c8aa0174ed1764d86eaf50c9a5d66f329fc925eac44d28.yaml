@@ -11,7 +11,7 @@
         interrupt handlers was necessary on systems that did not implement
         select() or did not support multiple threads.  TLS does not
         support the notion of Urgent data.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The Urgent Pointer was used because, in a Unix implementation, the receipt of a TCP packet marked as Urgent would result in the execution of the SIGURG interrupt handler.  This reliance on interrupt handlers was necessary on systems that did not implement select() or did not support multiple threads.  TLS does not support the notion of Urgent data.
+"ko": |-
+  - Unix 구현에서 긴급으로 표시된 TCP 패킷을 수신하면 SIGURG 인터럽트 핸들러가 실행되기 때문에 긴급 포인터가 사용되었습니다. select()를 구현하지 않았거나 다중 스레드를 지원하지 않는 시스템에서는 인터럽트 핸들러에 대한 이러한 의존이 필요했습니다. TLS는 긴급 데이터 개념을 지원하지 않습니다.

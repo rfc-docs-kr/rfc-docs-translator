@@ -1,0 +1,59 @@
+"hash": |-
+  a7dc357e1bb08e4467b767ae471b2b65c76c7b9d9bec2853deeb331c4a27f35a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +----------------+-----------------------+--------+-----------------+
+     | Action         | Requisite             | New    | Response        |
+     |                |                       | State  |                 |
+     +----------------+-----------------------+--------+-----------------+
+     | PAUSE          | Prs URI               | Ready  | Set RP to       |
+     |                |                       |        | present point   |
+     |                |                       |        |                 |
+     | End of media   | All media             | Play   | Set RP = End of |
+     |                |                       |        | media           |
+     |                |                       |        |                 |
+     | End of range   |                       | Play   | Set RP = End of |
+     |                |                       |        | range           |
+     |                |                       |        |                 |
+     | PLAY           | Prs URI, No range     | Play   | Play from       |
+     |                |                       |        | present point   |
+     |                |                       |        |                 |
+     | PLAY           | Prs URI, Range        | Play   | According to    |
+     |                |                       |        | range           |
+     |                |                       |        |                 |
+     | SC:PLAY_NOTIFY |                       | Play   | 200             |
+     |                |                       |        |                 |
+     | SETUP          | New URI               | Play   | 455             |
+     |                |                       |        |                 |
+     | SETUP          | md URI                | Play   | 455             |
+     |                |                       |        |                 |
+     | SETUP          | md URI, IFI           | Play   | Change          |
+     |                |                       |        | transport param.|
+     |                |                       |        |                 |
+     | TEARDOWN       | Prs URI               | Init   | No session hdr  |
+     |                |                       |        |                 |
+     | TEARDOWN       | md URI,NRM=1          | Init   | No Session hdr, |
+     |                |                       |        | NRM=0           |
+     |                |                       |        |                 |
+     | TEARDOWN       | md URI                | Play   | 455             |
+     |                |                       |        |                 |
+     | SC:REDIRECT    | Terminate Reason with | Play   | Set RedP        |
+     |                | Time parameter        |        |                 |
+     |                |                       |        |                 |
+     | SC:REDIRECT    |                       | Init   | Session is      |
+     |                |                       |        | removed         |
+     |                |                       |        |                 |
+     | RedP reached   |                       | Init   | TEARDOWN of     |
+     |                |                       |        | session         |
+     |                |                       |        |                 |
+     | Timeout        |                       | Init   | Stop Media      |
+     |                |                       |        | playout         |
+     +----------------+-----------------------+--------+-----------------+
+                             Table 12: State: Play
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

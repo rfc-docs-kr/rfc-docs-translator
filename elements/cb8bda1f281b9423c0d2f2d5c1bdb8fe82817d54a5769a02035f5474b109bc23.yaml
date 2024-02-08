@@ -1,0 +1,23 @@
+"hash": |-
+  cb8bda1f281b9423c0d2f2d5c1bdb8fe82817d54a5769a02035f5474b109bc23
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A third variation on the MSP, suggested by Crowther, is the same as
+     the present MSP in that the OUT and IN rendezvous at a process
+     specified rendezvous Host and the OUT is sent to the source of the IN
+     and the IN to the source of the OUT, but the data is not sent along
+     with the OUT.  Instead, when the OUT finally reaches the source of
+     the IN, another message is sent from the receiver Host to the source
+     Host requesting the data to be sent.  The data finally is transmitted
+     to the destination in response to this data request message.  Our
+     main objection to this system is its lack of symmetry, but we do
+     recognize that it does not require any Host to buffer data for which
+     a process has not set up an input buffer and perhaps for that reason
+     it is a better system than the MSP we are presenting.
+"fixed": |-
+  A third variation on the MSP, suggested by Crowther, is the same as the present MSP in that the OUT and IN rendezvous at a process specified rendezvous Host and the OUT is sent to the source of the IN and the IN to the source of the OUT, but the data is not sent along with the OUT.  Instead, when the OUT finally reaches the source of the IN, another message is sent from the receiver Host to the source Host requesting the data to be sent.  The data finally is transmitted to the destination in response to this data request message.  Our main objection to this system is its lack of symmetry, but we do recognize that it does not require any Host to buffer data for which a process has not set up an input buffer and perhaps for that reason it is a better system than the MSP we are presenting.
+"ko": |-
+  Crowther가 제안한 MSP의 세 번째 변형은 지정된 랑데부 호스트에서 OUT 및 IN 랑데부가 IN의 소스로 전송되고 IN이 소스의 소스로 전송된다는 점에서 현재 MSP와 동일합니다. OUT이지만 데이터는 OUT과 함께 전송되지 않습니다. 대신, OUT이 마침내 IN의 소스에 도달하면 수신자 호스트에서 소스 호스트로 데이터 전송을 요청하는 또 다른 메시지가 전송됩니다. 이 데이터 요청 메시지에 대한 응답으로 최종적으로 데이터가 목적지로 전송됩니다. 이 시스템에 대한 우리의 주요 반대는 대칭성이 부족하다는 것입니다. 그러나 프로세스가 입력 버퍼를 설정하지 않은 데이터를 버퍼링하기 위해 호스트가 필요하지 않으며 아마도 그러한 이유로 MSP보다 더 나은 시스템이라는 것을 인식합니다. 우리는 제시하고 있습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  7578a02d34e11ef82d8664f9b97adc5deaefc96c1faf06733f6036da5827149b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (d) explicit_policy: an integer which indicates if a non-NULL
+        valid_policy_tree is required. The integer indicates the number of
+        non-self-issued certificates to be processed before this
+        requirement is imposed.  Once set, this variable may be decreased,
+        but may not be increased. That is, if a certificate in the path
+        requires a non-NULL valid_policy_tree, a later certificate can not
+        remove this requirement. If initial-explicit-policy is set, then
+        the initial value is 0, otherwise the initial value is n+1.
+"fixed": |-
+  - (d) explicit_policy: an integer which indicates if a non-NULL valid_policy_tree is required. The integer indicates the number of non-self-issued certificates to be processed before this requirement is imposed.  Once set, this variable may be decreased, but may not be increased. That is, if a certificate in the path requires a non-NULL valid_policy_tree, a later certificate can not remove this requirement. If initial-explicit-policy is set, then the initial value is 0, otherwise the initial value is n+1.
+"ko": |-
+  - (d)explicit_policy: NULL이 아닌 valid_policy_tree가 필요한지 여부를 나타내는 정수입니다. 정수는 이 요구 사항이 적용되기 전에 처리될 자체 발급되지 않은 인증서의 수를 나타냅니다. 일단 설정되면 이 변수는 줄어들 수 있지만 늘릴 수는 없습니다. 즉, 경로의 인증서에 NULL이 아닌 valid_policy_tree가 필요한 경우 이후 인증서는 이 요구 사항을 제거할 수 없습니다. initial-explicit-policy가 설정된 경우 초기값은 0이고, 그렇지 않은 경우 초기값은 n+1입니다.

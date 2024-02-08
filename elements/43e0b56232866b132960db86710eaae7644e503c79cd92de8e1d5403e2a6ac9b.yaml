@@ -1,0 +1,28 @@
+"hash": |-
+  43e0b56232866b132960db86710eaae7644e503c79cd92de8e1d5403e2a6ac9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Event-dependent TE methods can also be used for TE path selection.
+     Event-dependent TE methods are distinct from time-dependent and
+     state-dependent TE methods in the manner in which paths are selected.
+     These algorithms are adaptive and distributed in nature, and they
+     typically use learning models to find good paths for TE in a network.
+     While state-dependent TE models typically use available-link-
+     bandwidth (ALB) flooding [E.360.1] for TE path selection, event-
+     dependent TE methods do not require ALB flooding.  Rather, event-
+     dependent TE methods typically search out capacity by learning
+     models, as in the success-to-the-top (STT) method [RFC6601].  ALB
+     flooding can be resource intensive, since it requires link bandwidth
+     to carry routing protocol link-state advertisements and processor
+     capacity to process those advertisements; in addition, the overhead
+     of the ALB advertisements and their processing can limit the size of
+     the area and AS.  Modeling results suggest that event-dependent TE
+     methods could lead to a reduction in ALB flooding overhead without
+     loss of network throughput performance [TE-QoS-ROUTING].
+"fixed": |-
+  Event-dependent TE methods can also be used for TE path selection. Event-dependent TE methods are distinct from time-dependent and state-dependent TE methods in the manner in which paths are selected. These algorithms are adaptive and distributed in nature, and they typically use learning models to find good paths for TE in a network. While state-dependent TE models typically use available-link- bandwidth (ALB) flooding [E.360.1] for TE path selection, event- dependent TE methods do not require ALB flooding.  Rather, event- dependent TE methods typically search out capacity by learning models, as in the success-to-the-top (STT) method [RFC6601].  ALB flooding can be resource intensive, since it requires link bandwidth to carry routing protocol link-state advertisements and processor capacity to process those advertisements; in addition, the overhead of the ALB advertisements and their processing can limit the size of the area and AS.  Modeling results suggest that event-dependent TE methods could lead to a reduction in ALB flooding overhead without loss of network throughput performance [TE-QoS-ROUTING].
+"ko": |-
+  이벤트 종속 TE 방법은 TE 경로 선택에도 사용할 수 있습니다. 이벤트 종속 TE 방법은 경로가 선택되는 방식에서 시간 종속 및 상태 종속 TE 방법과 다릅니다. 이러한 알고리즘은 본질적으로 적응적이고 분산되어 있으며 일반적으로 학습 모델을 사용하여 네트워크에서 TE에 대한 좋은 경로를 찾습니다. 상태 종속 TE 모델은 일반적으로 TE 경로 선택을 위해 ALB(가용 링크 대역폭) 플러딩[E.360.1]을 사용하지만 이벤트 종속 TE 방법은 ALB 플러딩을 필요로 하지 않습니다. 오히려 이벤트 종속 TE 방법은 일반적으로 STT(Success-to-the-Top) 방법 [RFC6601]에서와 같이 모델을 학습하여 용량을 검색합니다. ALB 플러딩은 라우팅 프로토콜 링크 상태 알림을 전달하기 위한 링크 대역폭과 이러한 알림을 처리하기 위한 프로세서 용량이 필요하기 때문에 리소스 집약적일 수 있습니다. 또한 ALB 광고 및 처리에 따른 오버헤드로 인해 영역 및 AS의 크기가 제한될 수 있습니다. 모델링 결과는 이벤트 종속 TE 방법이 네트워크 처리량 성능[TE-QoS-ROUTING]의 손실 없이 ALB 플러딩 오버헤드를 감소시킬 수 있음을 시사합니다.

@@ -1,0 +1,26 @@
+"hash": |-
+  6ca6e4c1ce78c35fc24965dfd5c9832ff5ecc1d46c71b54926c98c731951df1c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     TBSCertificate  ::=  SEQUENCE  {
+          version         [0]  EXPLICIT Version DEFAULT v1,
+          serialNumber         CertificateSerialNumber,
+          signature            AlgorithmIdentifier,
+          issuer               Name,
+          validity             Validity,
+          subject              Name,
+          subjectPublicKeyInfo SubjectPublicKeyInfo,
+          issuerUniqueID  [1]  IMPLICIT UniqueIdentifier OPTIONAL,
+                               -- If present, version MUST be v2 or v3
+          subjectUniqueID [2]  IMPLICIT UniqueIdentifier OPTIONAL,
+                               -- If present, version MUST be v2 or v3
+          extensions      [3]  EXPLICIT Extensions OPTIONAL
+                               -- If present, version MUST be v3
+          }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

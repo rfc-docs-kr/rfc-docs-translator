@@ -1,0 +1,16 @@
+"hash": |-
+  b092c0cf8dc903a7208e49ad2dcdc3e65208a82d49adab13a8cc360f1aa3e7c9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     segment        =  *pchar [";" *pchar]
+     segment-nz     =  ( 1*pchar [";" *pchar]) / (";" *pchar)
+     segment-nz-nc  =  ( 1*pchar-nc [";" *pchar-nc]) / (";" *pchar-nc)
+                       ; non-zero-length segment without any colon ":"
+                       ; No parameter (; delimited) inside path.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

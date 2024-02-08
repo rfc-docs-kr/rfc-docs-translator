@@ -1,0 +1,23 @@
+"hash": |-
+  fe476ce79251d7bc8e28216a78812f4bcbc1d784e711092e9c1b733fe18391ec
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRouteNextHopAS OBJECT-TYPE
+         SYNTAX     InetAutonomousSystemNumber
+         MAX-ACCESS read-create
+         STATUS     current
+         DESCRIPTION
+                "The Autonomous System Number of the Next Hop.  The
+                 semantics of this object are determined by the routing-
+                 protocol specified in the route's inetCidrRouteProto
+                 value.  When this object is unknown or not relevant, its
+                 value should be set to zero."
+         DEFVAL { 0 }
+         ::= { inetCidrRouteEntry 11 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

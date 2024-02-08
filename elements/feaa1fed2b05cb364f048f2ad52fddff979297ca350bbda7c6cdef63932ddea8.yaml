@@ -1,0 +1,23 @@
+"hash": |-
+  feaa1fed2b05cb364f048f2ad52fddff979297ca350bbda7c6cdef63932ddea8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An RTSP message that does not contain any message body is terminated
+     by the first empty line after the header fields (note: an empty line
+     is a line with nothing preceding the CRLF.).  In RTSP messages that
+     contain message bodies, the empty line is followed by the message
+     body.  The length of that body is determined by the value of the
+     Content-Length header (Section 18.17).  The value in the header
+     represents the length of the message body in octets.  If this header
+     field is not present, a value of zero is assumed, i.e., no message
+     body present in the message.  Unlike an HTTP message, an RTSP message
+     MUST contain a Content-Length header whenever it contains a message
+     body.  Note that RTSP does not support the HTTP/1.1 "chunked"
+     transfer coding (see Section 4.1 of [RFC7230]).
+"fixed": |-
+  An RTSP message that does not contain any message body is terminated by the first empty line after the header fields (note: an empty line is a line with nothing preceding the CRLF.).  In RTSP messages that contain message bodies, the empty line is followed by the message body.  The length of that body is determined by the value of the Content-Length header (Section 18.17).  The value in the header represents the length of the message body in octets.  If this header field is not present, a value of zero is assumed, i.e., no message body present in the message.  Unlike an HTTP message, an RTSP message MUST contain a Content-Length header whenever it contains a message body.  Note that RTSP does not support the HTTP/1.1 "chunked" transfer coding (see Section 4.1 of [RFC7230]).
+"ko": |-
+  메시지 본문이 포함되지 않은 RTSP 메시지는 헤더 필드 뒤의 첫 번째 빈 줄로 종료됩니다(참고: 빈 줄은 CRLF 앞에 아무것도 없는 줄입니다.). 메시지 본문이 포함된 RTSP 메시지에서는 빈 줄 뒤에 메시지 본문이 옵니다. 해당 본문의 길이는 Content-Length 헤더(섹션 18.17)의 값에 따라 결정됩니다. 헤더의 값은 메시지 본문의 길이(옥텟)를 나타냅니다. 이 헤더 필드가 없으면 값은 0으로 간주됩니다. 즉, 메시지에 메시지 본문이 없는 것입니다. HTTP 메시지와 달리 RTSP 메시지는 메시지 본문이 포함될 때마다 Content-Length 헤더를 포함해야 합니다. RTSP는 HTTP/1.1 "청크" 전송 코딩을 지원하지 않습니다([RFC7230]의 섹션 4.1 참조).

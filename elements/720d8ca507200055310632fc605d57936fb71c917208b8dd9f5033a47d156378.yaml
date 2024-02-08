@@ -1,0 +1,20 @@
+"hash": |-
+  720d8ca507200055310632fc605d57936fb71c917208b8dd9f5033a47d156378
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The presence of a message body in either a request or a response MUST
+     be signaled by the inclusion of a Content-Length header (see
+     Section 18.17) and Content-Type header (see Section 18.19).  A
+     message body MUST NOT be included in a request or response if the
+     specification of the particular method (see Method Definitions
+     (Section 13)) does not allow sending a message body.  In case a
+     message body is received in a message when not expected, the message
+     body data SHOULD be discarded.  This is to allow future extensions to
+     define optional use of a message body.
+"fixed": |-
+  The presence of a message body in either a request or a response MUST be signaled by the inclusion of a Content-Length header (see Section 18.17) and Content-Type header (see Section 18.19).  A message body MUST NOT be included in a request or response if the specification of the particular method (see Method Definitions (Section 13)) does not allow sending a message body.  In case a message body is received in a message when not expected, the message body data SHOULD be discarded.  This is to allow future extensions to define optional use of a message body.
+"ko": |-
+  요청이나 응답에 메시지 본문이 있다는 것은 Content-Length 헤더(섹션 18.17 참조)와 Content-Type 헤더(섹션 18.19 참조)를 포함하여 신호를 보내야 합니다. 특정 메서드(메서드 정의(섹션 13) 참조)의 사양이 메시지 본문 전송을 허용하지 않는 경우 메시지 본문은 요청이나 응답에 포함되어서는 안 됩니다. 예상하지 못한 메시지 본문이 메시지에 수신된 경우 메시지 본문 데이터는 폐기되어야 합니다. 이는 향후 확장에서 메시지 본문의 선택적 사용을 정의할 수 있도록 하기 위한 것입니다.

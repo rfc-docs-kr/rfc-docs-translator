@@ -1,0 +1,24 @@
+"hash": |-
+  e8711d1c1a5aadf0f05b8df31bcb847eb9429e2d5020b810d763e03d44b58fbf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The fields within the Host/IMP leader are already familiar to NCP
+     programmers however, two points about these fields are worth
+     mentioning.  First, the destination field originally contains the
+     number of the rendezvous Host.  After rendezvous at a intermediate
+     site, the destination field contains the source of the message
+     rendezvous with.  Second, the link field for the MSP experiment can
+     only contain link number 192-195.  We have not taken the time to
+     figure out a sensible allocation of these four links among all the
+     messages which might be sent using the MSP.  One alternative is to
+     cycle over the links to increase the bandwidth of the "pipe" between
+     any two Hosts. For the time being, until further consideration is
+     given to this issue, we suggest each Host at a site using one
+     (unique) link for all its communication.
+"fixed": |-
+  The fields within the Host/IMP leader are already familiar to NCP programmers however, two points about these fields are worth mentioning.  First, the destination field originally contains the number of the rendezvous Host.  After rendezvous at a intermediate site, the destination field contains the source of the message rendezvous with.  Second, the link field for the MSP experiment can only contain link number 192-195.  We have not taken the time to figure out a sensible allocation of these four links among all the messages which might be sent using the MSP.  One alternative is to cycle over the links to increase the bandwidth of the "pipe" between any two Hosts. For the time being, until further consideration is given to this issue, we suggest each Host at a site using one (unique) link for all its communication.
+"ko": |-
+  Host/IMP 리더 내의 필드는 NCP 프로그래머에게 이미 익숙하지만 이 필드에 대해 언급할 가치가 있는 두 가지 사항이 있습니다. 첫째, 목적지 필드에는 원래 랑데부 호스트의 번호가 포함되어 있습니다. 중간 사이트에서 랑데뷰한 후 대상 필드에는 랑데뷰한 메시지의 소스가 포함됩니다. 둘째, MSP 실험의 링크 필드에는 링크 번호 192-195만 포함될 수 있습니다. 우리는 MSP를 사용하여 전송될 수 있는 모든 메시지 중에서 이 4개 링크의 합리적인 할당을 파악하는 데 시간을 들이지 않았습니다. 한 가지 대안은 링크를 순환하여 두 호스트 사이의 "파이프" 대역폭을 늘리는 것입니다. 당분간은 이 문제에 대한 추가 고려가 이루어질 때까지 사이트의 각 호스트가 모든 통신에 하나의 (고유) 링크를 사용하는 것이 좋습니다.

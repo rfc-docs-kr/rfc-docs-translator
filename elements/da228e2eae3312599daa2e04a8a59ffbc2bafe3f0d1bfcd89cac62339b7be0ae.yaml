@@ -1,0 +1,20 @@
+"hash": |-
+  da228e2eae3312599daa2e04a8a59ffbc2bafe3f0d1bfcd89cac62339b7be0ae
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardTable OBJECT-TYPE
+         SYNTAX     SEQUENCE OF IpForwardEntry
+         MAX-ACCESS not-accessible
+         STATUS     obsolete
+         DESCRIPTION
+                "This entity's IP Routing table."
+         REFERENCE
+                "RFC 1213 Section 6.6, The IP Group"
+         ::= { ipForward 2 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

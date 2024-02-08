@@ -1,0 +1,19 @@
+"hash": |-
+  f5bcfabc1e7e16455d2d862bcbe35ed8399715d8a239c94379d363a29ee5da0d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Allow message body header field lists the methods supported by
+     the resource identified by the Request-URI.  The purpose of this
+     field is to inform the recipient of the complete set of valid methods
+     associated with the resource.  An Allow header field MUST be present
+     in a 405 (Method Not Allowed) response.  The Allow header MUST also
+     be present in all OPTIONS responses where the content of the header
+     will not include exactly the same methods as listed in the Public
+     header.
+"fixed": |-
+  The Allow message body header field lists the methods supported by the resource identified by the Request-URI.  The purpose of this field is to inform the recipient of the complete set of valid methods associated with the resource.  An Allow header field MUST be present in a 405 (Method Not Allowed) response.  The Allow header MUST also be present in all OPTIONS responses where the content of the header will not include exactly the same methods as listed in the Public header.
+"ko": |-
+  메시지 본문 허용 헤더 필드에는 요청-URI로 식별된 리소스가 지원하는 방법이 나열됩니다. 이 필드의 목적은 리소스와 관련된 유효한 메서드의 전체 집합을 수신자에게 알리는 것입니다. Allow 헤더 필드는 405(Method Not Allowed) 응답에 있어야 합니다. Allow 헤더는 헤더의 내용이 Public 헤더에 나열된 것과 정확히 동일한 메서드를 포함하지 않는 모든 OPTIONS 응답에도 있어야 합니다.

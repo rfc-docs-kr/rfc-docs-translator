@@ -1,0 +1,19 @@
+"hash": |-
+  170be374d917476bec682d55e5d2f7146a155f138c6ee5c7332fcbc9731d3ff7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the scope of the CRL only includes end entity public key
+     certificates, then onlyContainsUserCerts MUST be set to TRUE.  If the
+     scope of the CRL only includes CA certificates, then
+     onlyContainsCACerts MUST be set to TRUE.  If either
+     onlyContainsUserCerts or onlyContainsCACerts is set to TRUE, then the
+     scope of the CRL MUST NOT include any version 1 or version 2
+     certificates.  Conforming CRLs issuers MUST set the
+     onlyContainsAttributeCerts boolean to FALSE.
+"fixed": |-
+  If the scope of the CRL only includes end entity public key certificates, then onlyContainsUserCerts MUST be set to TRUE.  If the scope of the CRL only includes CA certificates, then onlyContainsCACerts MUST be set to TRUE.  If either onlyContainsUserCerts or onlyContainsCACerts is set to TRUE, then the scope of the CRL MUST NOT include any version 1 or version 2 certificates.  Conforming CRLs issuers MUST set the onlyContainsAttributeCerts boolean to FALSE.
+"ko": |-
+  CRL 범위에 최종 엔터티 공개 키 인증서만 포함된 경우 onlyContainsUserCerts를 TRUE로 설정해야 합니다. CRL 범위에 CA 인증서만 포함된 경우 onlyContainsCACerts를 TRUE로 설정해야 합니다. onlyContainsUserCerts 또는 onlyContainsCACerts가 TRUE로 설정된 경우 CRL의 범위에는 버전 1 또는 버전 2 인증서가 포함되어서는 안 됩니다. CRL을 준수하는 발급자는 onlyContainsAttributeCerts 부울을 FALSE로 설정해야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  2132e1ef5385b6f2bed31b8998354275520fc99a8ae3b3c184dabb77fd0875ef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Processes would specify their own local port numbers, and each system
+     would have to provide some way to help user processes do this.  In
+     TENEX for example, one would probably use the job number concatenated
+     with another number assigned within the job.  The information
+     operator cannot supply port numbers because it will be running on a
+     different Host than one or both of the communicants and cannot know
+     what is a unique number for that Host.  In some cases, processes
+     would ask the "unique number process" (described below) for their
+     local port ID, and would make it known via the information operator.
+"fixed": |-
+  Processes would specify their own local port numbers, and each system would have to provide some way to help user processes do this.  In TENEX for example, one would probably use the job number concatenated with another number assigned within the job.  The information operator cannot supply port numbers because it will be running on a different Host than one or both of the communicants and cannot know what is a unique number for that Host.  In some cases, processes would ask the "unique number process" (described below) for their local port ID, and would make it known via the information operator.
+"ko": |-
+  프로세스는 자신의 로컬 포트 ​​번호를 지정하며 각 시스템은 사용자 프로세스가 이를 수행하는 데 도움이 되는 몇 가지 방법을 제공해야 합니다. 예를 들어 TENEX에서는 작업 내에 할당된 다른 번호와 연결된 작업 번호를 사용할 수 있습니다. 정보 운영자는 통신자 중 하나 또는 둘 다와 다른 호스트에서 실행될 것이며 해당 호스트의 고유 번호가 무엇인지 알 수 없기 때문에 포트 번호를 제공할 수 없습니다. 어떤 경우에는 프로세스가 "고유 번호 프로세스"(아래 설명)에 로컬 포트 ​​ID를 요청하고 정보 운영자를 통해 이를 알려줍니다.

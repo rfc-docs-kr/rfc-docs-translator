@@ -1,0 +1,23 @@
+"hash": |-
+  1db2feadb2c6d186dae9e841b29a785fb03cebd7ea21bdc1a95ad336f233064a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The content-specific rules for encoding GeneralName field values in
+     the nameConstraints extension differ from rules that apply in other
+     extensions.  In all other certificate, CRL, and CRL entry extensions
+     specified in this document the encoding rules conform to the rules
+     for the underlying type.  For example, values in the
+     uniformResourceIdentifier field must contain a valid URI as specified
+     in [RFC3986].  The content-specific rules for encoding values in the
+     nameConstraints extension are specified in Section 4.2.1.10, and
+     these rules may not conform to the rules for the underlying type.
+     For example, when the uniformResourceIdentifier field appears in a
+     nameConstraints extension, it must hold a DNS name (e.g.,
+     "host.example.com" or ".example.com") rather than a URI.
+"fixed": |-
+  The content-specific rules for encoding GeneralName field values in the nameConstraints extension differ from rules that apply in other extensions.  In all other certificate, CRL, and CRL entry extensions specified in this document the encoding rules conform to the rules for the underlying type.  For example, values in the uniformResourceIdentifier field must contain a valid URI as specified in [RFC3986].  The content-specific rules for encoding values in the nameConstraints extension are specified in Section 4.2.1.10, and these rules may not conform to the rules for the underlying type. For example, when the uniformResourceIdentifier field appears in a nameConstraints extension, it must hold a DNS name (e.g., "host.example.com" or ".example.com") rather than a URI.
+"ko": |-
+  nameConstraints 확장의 GeneralName 필드 값을 인코딩하기 위한 콘텐츠별 규칙은 다른 확장에 적용되는 규칙과 다릅니다. 이 문서에 지정된 다른 모든 인증서, CRL 및 CRL 항목 확장에서 인코딩 규칙은 기본 유형에 대한 규칙을 따릅니다. 예를 들어,uniformResourceIdentifier 필드의 값은 [RFC3986]에 지정된 대로 유효한 URI를 포함해야 합니다. nameConstraints 확장의 값 인코딩에 대한 콘텐츠별 규칙은 섹션 4.2.1.10에 지정되어 있으며 이러한 규칙은 기본 유형에 대한 규칙을 따르지 않을 수 있습니다. 예를 들어,uniformResourceIdentifier 필드가 nameConstraints 확장에 나타나면 URI가 아닌 DNS 이름(예: "host.example.com" 또는 ".example.com")을 보유해야 합니다.

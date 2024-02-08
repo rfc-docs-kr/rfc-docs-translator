@@ -1,0 +1,18 @@
+"hash": |-
+  1747203b494c05dc98ab388240af83922dd9eac3de5c9324a70cded4985e2060
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The steps for constructing the location URI from the options are
+     analogous to Section 6.5, except that the first five steps are
+     skipped and the result is a relative URI-reference, which is then
+     interpreted relative to the request URI.  Note that the relative URI-
+     reference constructed this way always includes an absolute path
+     (e.g., leaving out Location-Path but supplying Location-Query means
+     the path component in the URI is "/").
+"fixed": |-
+  The steps for constructing the location URI from the options are analogous to Section 6.5, except that the first five steps are skipped and the result is a relative URI-reference, which is then interpreted relative to the request URI.  Note that the relative URI- reference constructed this way always includes an absolute path (e.g., leaving out Location-Path but supplying Location-Query means the path component in the URI is "/").
+"ko": |-
+  옵션에서 위치 URI를 구성하는 단계는 처음 5개 단계를 건너뛰고 결과가 요청 URI를 기준으로 해석되는 상대 URI 참조라는 점을 제외하면 섹션 6.5와 유사합니다. 이런 방식으로 구성된 상대 URI 참조에는 항상 절대 경로가 포함됩니다(예: Location-Path를 생략하고 Location-Query를 제공하는 것은 URI의 경로 구성 요소가 "/"임을 의미함).

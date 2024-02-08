@@ -14,7 +14,7 @@
         level, but it is entirely possible that the same transfer may be
         accepted at the same protection level at a later point in the
         session.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - Clients also need to understand that the level of the PROT setting is only checked for a particular data transfer after that transfer has been requested.  Thus, a refusal by the server to accept a particular data transfer should not be read by the client as a refusal to accept that data protection level completely, as not only may other data transfers be acceptable at that protection level, but it is entirely possible that the same transfer may be accepted at the same protection level at a later point in the session.
+"ko": |-
+  - 클라이언트는 또한 전송이 요청된 후 특정 데이터 전송에 대해서만 PROT 설정 수준이 확인된다는 점을 이해해야 합니다. 따라서 서버가 특정 데이터 전송 수락을 거부한다고 해서 클라이언트가 해당 데이터 보호 수준을 완전히 수락하는 것을 거부하는 것으로 해석해서는 안 됩니다. 해당 보호 수준에서는 다른 데이터 전송도 허용될 수 있을 뿐만 아니라 완전히 가능하기 때문입니다. 세션의 이후 시점에서 동일한 보호 수준에서 동일한 전송이 허용될 수 있습니다.

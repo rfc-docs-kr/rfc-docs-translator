@@ -1,0 +1,23 @@
+"hash": |-
+  e9218367c053dea2ca238c13dea2bb235e59b63e435d4a4e52d0d26053b39230
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipCidrRouteAge OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-only
+         STATUS     deprecated
+         DESCRIPTION
+                "The number of seconds since this route was last updated
+                 or otherwise determined to be correct.  Note that no
+                 semantics of `too old' can be implied, except through
+                 knowledge of the routing protocol by which the route
+                 was learned."
+         DEFVAL  { 0 }
+         ::= { ipCidrRouteEntry 8 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

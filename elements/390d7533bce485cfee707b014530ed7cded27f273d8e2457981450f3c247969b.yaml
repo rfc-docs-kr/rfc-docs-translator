@@ -1,0 +1,19 @@
+"hash": |-
+  390d7533bce485cfee707b014530ed7cded27f273d8e2457981450f3c247969b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           (2)  If excludedSubtrees is present in the certificate, set the
+           excluded_subtrees state variable to the union of its previous
+           value and the value indicated in the extension field.  If
+           excludedSubtrees does not include a particular name type, the
+           excluded_subtrees state variable is unchanged for that name
+           type.  For example, the union of the name spaces nist.gov and
+           csrc.nist.gov is nist.gov.  And, the union of nist.gov and
+           rsasecurity.com is both name spaces.
+"fixed": |-
+  - (2)  If excludedSubtrees is present in the certificate, set the excluded_subtrees state variable to the union of its previous value and the value indicated in the extension field.  If excludedSubtrees does not include a particular name type, the excluded_subtrees state variable is unchanged for that name type.  For example, the union of the name spaces nist.gov and csrc.nist.gov is nist.gov.  And, the union of nist.gov and rsasecurity.com is both name spaces.
+"ko": |-
+  - (2) ExcludedSubtrees가 인증서에 있는 경우 Excluded_subtrees 상태 변수를 이전 값과 확장 필드에 표시된 값의 합집합으로 설정합니다. 제외된 하위 트리에 특정 이름 유형이 포함되어 있지 않으면 해당 이름 유형에 대해 제외_하위 트리 상태 변수가 변경되지 않습니다. 예를 들어 nist.gov와 csrc.nist.gov 네임스페이스의 결합은 nist.gov입니다. 그리고 nist.gov와 rsasecurity.com의 결합은 둘 다 네임스페이스입니다.

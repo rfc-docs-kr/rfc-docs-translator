@@ -1,0 +1,19 @@
+"hash": |-
+  1c255d34f0eb0f8a43526afc4de8662b69e96c02d3edcbef605058999ef9ed95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RTSP 2.0 proxies MUST parse the Connection header field before a
+     message is forwarded and, for each connection-token in this field,
+     remove any header field(s) from the message with the same name as the
+     connection-token.  Connection options are signaled by the presence of
+     a connection-token in the Connection header field, not by any
+     corresponding additional header field(s), since the additional header
+     field may not be sent if there are no parameters associated with that
+     connection option.
+"fixed": |-
+  RTSP 2.0 proxies MUST parse the Connection header field before a message is forwarded and, for each connection-token in this field, remove any header field(s) from the message with the same name as the connection-token.  Connection options are signaled by the presence of a connection-token in the Connection header field, not by any corresponding additional header field(s), since the additional header field may not be sent if there are no parameters associated with that connection option.
+"ko": |-
+  RTSP 2.0 프록시는 메시지가 전달되기 전에 연결 헤더 필드를 구문 분석해야 하며, 이 필드의 각 연결 토큰에 대해 연결 토큰과 동일한 이름을 가진 메시지에서 헤더 필드를 제거해야 합니다. 연결 옵션은 해당 추가 헤더 필드가 아닌 연결 헤더 필드에 연결 토큰이 있음으로 표시됩니다. 해당 연결 옵션과 관련된 매개변수가 없으면 추가 헤더 필드가 전송되지 않을 수 있기 때문입니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  9d6ad416a9390abd16b3e4cedce2484fad33df223771877bb915c7577f033068
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server MUST NOT send a Last-Modified date that is later
+     than the server's time of message origination.  In such cases, where
+     the resource's last modification would indicate some time in the
+     future, the server MUST replace that date with the message
+     origination date.
+"fixed": |-
+  An origin server MUST NOT send a Last-Modified date that is later than the server's time of message origination.  In such cases, where the resource's last modification would indicate some time in the future, the server MUST replace that date with the message origination date.
+"ko": |-
+  원서버는 서버의 메시지 발생 시간보다 이후의 최종 수정 날짜를 보내서는 안 됩니다. 리소스의 마지막 수정이 미래의 시간을 나타내는 경우 서버는 해당 날짜를 메시지 발생 날짜로 바꿔야 합니다.

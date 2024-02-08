@@ -1,0 +1,15 @@
+"hash": |-
+  167df778f05e06462359fa3530ba2f0eea8d013dab58a544c4c3f0899e8f832f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PLAY_NOTIFY requests have an end-to-end (i.e., server-to-client)
+     scope, as they carry the Session header, and apply only to the given
+     session.  The client SHOULD immediately return a response to the
+     server.
+"fixed": |-
+  PLAY_NOTIFY requests have an end-to-end (i.e., server-to-client) scope, as they carry the Session header, and apply only to the given session.  The client SHOULD immediately return a response to the server.
+"ko": |-
+  PLAY_NOTIFY 요청은 Session 헤더를 전달하고 지정된 세션에만 적용되므로 종단 간(즉, 서버에서 클라이언트로) 범위를 갖습니다. 클라이언트는 즉시 서버에 응답을 반환해야 합니다.

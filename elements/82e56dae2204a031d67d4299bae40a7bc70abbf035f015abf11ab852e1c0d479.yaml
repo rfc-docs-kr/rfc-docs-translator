@@ -1,0 +1,23 @@
+"hash": |-
+  82e56dae2204a031d67d4299bae40a7bc70abbf035f015abf11ab852e1c0d479
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Client  Server
+        |      |
+        |      |
+        +----->|     Header: GET (T=NON, Code=0.01, MID=0x7d40)
+        | GET  |      Token: 0x75
+        |      |   Uri-Path: "temperature"
+        |      |
+        |      |
+        |<-----+     Header: 2.05 Content (T=NON, Code=2.05, MID=0xad7d)
+        | 2.05 |      Token: 0x75
+        |      |    Payload: "22.3 C"
+        |      |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

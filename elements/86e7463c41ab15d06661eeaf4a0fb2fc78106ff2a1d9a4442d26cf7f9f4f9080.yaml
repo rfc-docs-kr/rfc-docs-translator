@@ -1,0 +1,26 @@
+"hash": |-
+  86e7463c41ab15d06661eeaf4a0fb2fc78106ff2a1d9a4442d26cf7f9f4f9080
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     interleaved:  The interleaved parameter implies mixing the media
+           stream with the control stream in whatever protocol is being
+           used by the control stream, using the mechanism defined in
+           Section 14.  The argument provides the channel number to be
+           used in the $ block (see Section 14) and MUST be present.  This
+           parameter MAY be specified as an interval, e.g.,
+           interleaved=4-5 in cases where the transport choice for the
+           media stream requires it, e.g., for RTP with RTCP.  The channel
+           number given in the request is only a guidance from the client
+           to the server on what channel number(s) to use.  The server MAY
+           set any valid channel number in the response.  The declared
+           channels are bidirectional, so both end parties MAY send data
+           on the given channel.  One example of such usage is the second
+           channel used for RTCP, where both server and client send RTCP
+           packets on the same channel.
+"fixed": |-
+  interleaved:  The interleaved parameter implies mixing the media stream with the control stream in whatever protocol is being used by the control stream, using the mechanism defined in Section 14.  The argument provides the channel number to be used in the $ block (see Section 14) and MUST be present.  This parameter MAY be specified as an interval, e.g., interleaved=4-5 in cases where the transport choice for the media stream requires it, e.g., for RTP with RTCP.  The channel number given in the request is only a guidance from the client to the server on what channel number(s) to use.  The server MAY set any valid channel number in the response.  The declared channels are bidirectional, so both end parties MAY send data on the given channel.  One example of such usage is the second channel used for RTCP, where both server and client send RTCP packets on the same channel.
+"ko": |-
+  interleaved: 인터리브 매개변수는 섹션 14에 정의된 메커니즘을 사용하여 제어 스트림에서 사용되는 프로토콜에 관계없이 미디어 스트림을 제어 스트림과 혼합하는 것을 의미합니다. 인수는 $ 블록에서 사용할 채널 번호를 제공합니다(섹션 14 참조). ) 반드시 존재해야 합니다. 이 매개변수는 미디어 스트림에 대한 전송 선택이 이를 요구하는 경우(예: RTCP가 있는 RTP의 경우) interleaved=4-5와 같이 간격으로 지정될 수 있습니다. 요청에 제공된 채널 번호는 사용할 채널 번호에 대해 클라이언트에서 서버로 전달되는 지침일 뿐입니다. 서버는 응답에 유효한 채널 번호를 설정할 수 있습니다. 선언된 채널은 양방향이므로 양쪽 최종 당사자 모두 지정된 채널에서 데이터를 보낼 수 있습니다. 이러한 사용법의 한 가지 예는 서버와 클라이언트가 모두 동일한 채널에서 RTCP 패킷을 보내는 RTCP에 사용되는 두 번째 채널입니다.

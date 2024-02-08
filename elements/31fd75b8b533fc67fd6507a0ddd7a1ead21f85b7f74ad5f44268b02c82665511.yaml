@@ -1,0 +1,38 @@
+"hash": |-
+  31fd75b8b533fc67fd6507a0ddd7a1ead21f85b7f74ad5f44268b02c82665511
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Our MSP is essentially a generalization of the interprocess
+     communication system outlined in Section 3 of the fourth reference.
+     (Henceforth, if we are required to mention the interprocess
+     communication system presented in Section 3 of reference 4, we shall
+     call it "the IPC".)  For two processes to communicate using the MSP,
+     the process desiring to send must in some sense execute a SEND and
+     the process desiring to receive must in some sense execute a RECEIVE.
+     The SEND and RECEIVE, in effect, rendezvous somewhere and
+     transmission is allowed to take place.  With the RECEIVE are
+     specified (among other things) a FROM-TO-PORT-ID, a TO-PORT-ID, and a
+     RENDEZVOUS HOST.  With SEND are specified a from-port-id, a to-port-
+     id, a rendezvous Host, and (possibly) some data to be transmitted.
+     Using SEND and RECEIVE, sending a message from a SENDER PROCESS to a
+     RECEIVER PROCESS takes place as follows.  The sender process executes
+     a SEND which causes an OUT-MESSAGE plus the specified data to be
+     transmitted to the Host specified as the rendezvous Host in the SEND.
+     Concurrently (although not necessarily simultaneously)the receiver
+     process executes a RECEIVE which causes an IN-MESSAGE to be sent to
+     the Host specified as the rendezvous Host in the RECEIVE.  At the
+     rendezvous Host, OUT-messages and IN-messages are entered in a table
+     called the RENDEZVOUS TABLE.  When an OUT-message and an IN-message
+     are detected with matching to-port-id, from-port-id, and rendezvous
+     Host, three things are done:  1)  the OUT-message plus the data is
+     forwarded to the Host which was the source of the IN-message, 2)  the
+     IN-message is forwarded to the Host which was the source of the OUT-
+     message, and 3)  the IN-message and OUT-message plus the data are
+     deleted from the rendezvous table in the rendezvous Host.
+"fixed": |-
+  Our MSP is essentially a generalization of the interprocess communication system outlined in Section 3 of the fourth reference. (Henceforth, if we are required to mention the interprocess communication system presented in Section 3 of reference 4, we shall call it "the IPC".)  For two processes to communicate using the MSP, the process desiring to send must in some sense execute a SEND and the process desiring to receive must in some sense execute a RECEIVE. The SEND and RECEIVE, in effect, rendezvous somewhere and transmission is allowed to take place.  With the RECEIVE are specified (among other things) a FROM-TO-PORT-ID, a TO-PORT-ID, and a RENDEZVOUS HOST.  With SEND are specified a from-port-id, a to-port- id, a rendezvous Host, and (possibly) some data to be transmitted. Using SEND and RECEIVE, sending a message from a SENDER PROCESS to a RECEIVER PROCESS takes place as follows.  The sender process executes a SEND which causes an OUT-MESSAGE plus the specified data to be transmitted to the Host specified as the rendezvous Host in the SEND. Concurrently (although not necessarily simultaneously)the receiver process executes a RECEIVE which causes an IN-MESSAGE to be sent to the Host specified as the rendezvous Host in the RECEIVE.  At the rendezvous Host, OUT-messages and IN-messages are entered in a table called the RENDEZVOUS TABLE.  When an OUT-message and an IN-message are detected with matching to-port-id, from-port-id, and rendezvous Host, three things are done:  1)  the OUT-message plus the data is forwarded to the Host which was the source of the IN-message, 2)  the IN-message is forwarded to the Host which was the source of the OUT- message, and 3)  the IN-message and OUT-message plus the data are deleted from the rendezvous table in the rendezvous Host.
+"ko": |-
+  우리의 MSP는 본질적으로 네 번째 참조의 섹션 3에 설명된 프로세스 간 통신 시스템을 일반화한 것입니다. (이제 참조 4의 섹션 3에 제시된 프로세스 간 통신 시스템을 언급해야 한다면 이를 "IPC"라고 부르겠습니다.) MSP를 사용하여 통신하는 두 프로세스의 경우 전송하려는 프로세스는 어떤 의미에서 실행되어야 합니다. SEND와 수신을 원하는 프로세스는 어떤 의미에서 RECEIVE를 실행해야 합니다. SEND 및 RECEIVE는 사실상 어딘가에서 랑데뷰하고 전송이 허용됩니다. RECEIVE를 사용하면 FROM-TO-PORT-ID, TO-PORT-ID 및 RENDEZVOUS HOST가 지정됩니다. SEND를 사용하면 from-port-id, to-port-id, 랑데부 호스트 및 (아마도) 전송될 일부 데이터가 지정됩니다. SEND 및 RECEIVE를 사용하여 SENDER PROCESS에서 RECEIVER PROCESS로 메시지를 보내는 것은 다음과 같이 이루어집니다. 송신자 프로세스는 OUT-MESSAGE와 지정된 데이터를 SEND에서 랑데뷰 호스트로 지정된 호스트로 전송하도록 하는 SEND를 실행합니다. 동시에(반드시 동시에는 아니지만) 수신자 프로세스는 IN-MESSAGE가 RECEIVE에서 랑데부 호스트로 지정된 호스트로 전송되도록 하는 RECEIVE를 실행합니다. Rendezvous Host에서는 OUT 메시지와 IN 메시지가 RENDEZVOUS TABLE이라는 테이블에 입력됩니다. to-port-id, from-port-id 및 rendezvous Host와 일치하는 OUT 메시지와 IN 메시지가 감지되면 세 가지 작업이 수행됩니다. 1) OUT 메시지와 데이터가 호스트로 전달됩니다. 2) IN-메시지는 OUT-메시지의 소스인 호스트로 전달되고, 3) IN-메시지와 OUT-메시지와 데이터는 랑데부 테이블에서 삭제됩니다. 랑데부 호스트에서.

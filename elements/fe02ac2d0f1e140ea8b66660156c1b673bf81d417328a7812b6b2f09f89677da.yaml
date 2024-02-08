@@ -1,0 +1,19 @@
+"hash": |-
+  fe02ac2d0f1e140ea8b66660156c1b673bf81d417328a7812b6b2f09f89677da
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  If the response includes the "max-age" cache directive, the cache
+         MAY use that response in replying to a subsequent request.  But
+         (if the specified maximum age has passed) a proxy cache MUST
+         first revalidate it with the origin server, using the request-
+         headers from the new request to allow the origin server to
+         authenticate the new request.  (This is the defined behavior for
+         max-age.)  If the response includes "max-age=0", the proxy MUST
+         always revalidate it before reusing it.
+"fixed": |-
+  1.  If the response includes the "max-age" cache directive, the cache MAY use that response in replying to a subsequent request.  But (if the specified maximum age has passed) a proxy cache MUST first revalidate it with the origin server, using the request- headers from the new request to allow the origin server to authenticate the new request.  (This is the defined behavior for max-age.)  If the response includes "max-age=0", the proxy MUST always revalidate it before reusing it.
+"ko": |-
+  1. 응답에 "max-age" 캐시 지시문이 포함된 경우 캐시는 후속 요청에 응답할 때 해당 응답을 사용할 수 있습니다. 그러나 (지정된 최대 기간이 지난 경우) 프록시 캐시는 원본 서버가 새 요청을 인증할 수 있도록 새 요청의 요청 헤더를 사용하여 먼저 원본 서버에서 캐시를 재검증해야 합니다. (이것은 max-age에 대해 정의된 동작입니다.) 응답에 "max-age=0"이 포함된 경우 프록시는 재사용하기 전에 항상 이를 재검증해야 합니다.

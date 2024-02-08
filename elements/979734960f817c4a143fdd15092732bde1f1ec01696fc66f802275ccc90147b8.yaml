@@ -1,0 +1,17 @@
+"hash": |-
+  979734960f817c4a143fdd15092732bde1f1ec01696fc66f802275ccc90147b8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            NameType name_type;
+            select (name_type) {
+                case host_name: HostName;
+            } name;
+        } ServerName;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

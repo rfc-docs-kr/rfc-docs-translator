@@ -16,7 +16,7 @@
      level command input buffer to be empty before negotiating TLS.  Note
      that this flaw lives in the application layer code and does not
      impact the TLS protocol directly.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Similarly, there are attacks on the transition between unprotected and TLS-protected traffic.  A number of IETF application protocols have used an application-level command, usually STARTTLS, to upgrade a cleartext connection to use TLS.  Multiple implementations of STARTTLS had a flaw where an application-layer input buffer retained commands that were pipelined with the STARTTLS command, such that commands received prior to TLS negotiation are executed after TLS negotiation.  This problem is resolved by requiring the application- level command input buffer to be empty before negotiating TLS.  Note that this flaw lives in the application layer code and does not impact the TLS protocol directly.
+"ko": |-
+  마찬가지로, 보호되지 않은 트래픽과 TLS로 보호되는 트래픽 간의 전환에 대한 공격이 있습니다. 다수의 IETF 애플리케이션 프로토콜은 TLS를 사용하도록 일반 텍스트 연결을 업그레이드하기 위해 일반적으로 STARTTLS라는 애플리케이션 수준 명령을 사용했습니다. STARTTLS의 여러 구현에는 애플리케이션 계층 입력 버퍼가 STARTTLS 명령으로 파이프라인된 명령을 유지하여 TLS 협상 이전에 수신된 명령이 TLS 협상 후에 실행되는 결함이 있었습니다. 이 문제는 TLS를 협상하기 전에 애플리케이션 수준 명령 입력 버퍼를 비워두도록 요구함으로써 해결됩니다. 이 결함은 애플리케이션 계층 코드에 존재하며 TLS 프로토콜에 직접적인 영향을 미치지 않습니다.

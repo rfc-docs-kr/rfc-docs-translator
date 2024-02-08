@@ -1,0 +1,21 @@
+"hash": |-
+  a72e85a5ec79c68dc7cafb005d4d97b0914100dc68d9957acdc465f857c51b4f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRouteIfIndex OBJECT-TYPE
+         SYNTAX     InterfaceIndexOrZero
+         MAX-ACCESS read-create
+         STATUS     current
+         DESCRIPTION
+                "The ifIndex value that identifies the local interface
+                 through which the next hop of this route should be
+                 reached.  A value of 0 is valid and represents the
+                 scenario where no interface is specified."
+         ::= { inetCidrRouteEntry 7 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

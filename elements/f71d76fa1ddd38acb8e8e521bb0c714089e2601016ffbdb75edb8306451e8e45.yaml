@@ -1,0 +1,15 @@
+"hash": |-
+  f71d76fa1ddd38acb8e8e521bb0c714089e2601016ffbdb75edb8306451e8e45
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           In response to a client SETUP request where the setup parameter
+           is set to "actpass", a server's 2xx reply MUST assign the setup
+           parameter to "active" or "passive" on the Transport header
+           line.
+"fixed": |-
+  - In response to a client SETUP request where the setup parameter is set to "actpass", a server's 2xx reply MUST assign the setup parameter to "active" or "passive" on the Transport header line.
+"ko": |-
+  - 설정 매개변수가 "actpass"로 설정된 클라이언트 SETUP 요청에 대한 응답으로 서버의 2xx 응답은 전송 헤더 라인에서 설정 매개변수를 "active" 또는 "passive"로 할당해야 합니다.

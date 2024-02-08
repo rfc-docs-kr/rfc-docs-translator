@@ -1,0 +1,14 @@
+"hash": |-
+  60f3b4779a539c40c44e39b3efcfd953c340ebb4cd73a2e142a4183e28358bce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     before forwarding the RTSP message.  If that results in no remaining
+     transport specification, the proxy SHALL send a 461 (Unsupported
+     Transport) (Section 17.4.25) response without any Transport header.
+"fixed": |-
+  before forwarding the RTSP message.  If that results in no remaining transport specification, the proxy SHALL send a 461 (Unsupported Transport) (Section 17.4.25) response without any Transport header.
+"ko": |-
+  RTSP 메시지를 전달하기 전에. 남은 전송 사양이 없으면 프록시는 전송 헤더 없이 461(지원되지 않는 전송)(섹션 17.4.25) 응답을 보내야 합니다.

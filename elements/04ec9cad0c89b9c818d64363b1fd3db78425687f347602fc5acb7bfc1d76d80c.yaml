@@ -1,0 +1,29 @@
+"hash": |-
+  04ec9cad0c89b9c818d64363b1fd3db78425687f347602fc5acb7bfc1d76d80c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     IpCidrRouteEntry ::= SEQUENCE {
+             ipCidrRouteDest       IpAddress,
+             ipCidrRouteMask       IpAddress,
+             ipCidrRouteTos        Integer32,
+             ipCidrRouteNextHop    IpAddress,
+             ipCidrRouteIfIndex    Integer32,
+             ipCidrRouteType       INTEGER,
+             ipCidrRouteProto      INTEGER,
+             ipCidrRouteAge        Integer32,
+             ipCidrRouteInfo       OBJECT IDENTIFIER,
+             ipCidrRouteNextHopAS  Integer32,
+             ipCidrRouteMetric1    Integer32,
+             ipCidrRouteMetric2    Integer32,
+             ipCidrRouteMetric3    Integer32,
+             ipCidrRouteMetric4    Integer32,
+             ipCidrRouteMetric5    Integer32,
+             ipCidrRouteStatus     RowStatus
+         }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

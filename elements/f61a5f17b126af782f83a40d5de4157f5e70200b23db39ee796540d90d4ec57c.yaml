@@ -1,0 +1,14 @@
+"hash": |-
+  f61a5f17b126af782f83a40d5de4157f5e70200b23db39ee796540d90d4ec57c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           In response to a client SETUP request where the setup parameter
+           is set to "passive", a server's 2xx reply MUST assign the setup
+           parameter to "active" on the Transport header line.
+"fixed": |-
+  - In response to a client SETUP request where the setup parameter is set to "passive", a server's 2xx reply MUST assign the setup parameter to "active" on the Transport header line.
+"ko": |-
+  - 설정 매개변수가 "passive"로 설정된 클라이언트 SETUP 요청에 대한 응답으로 서버의 2xx 응답은 전송 헤더 라인에서 설정 매개변수를 "active"로 할당해야 합니다.

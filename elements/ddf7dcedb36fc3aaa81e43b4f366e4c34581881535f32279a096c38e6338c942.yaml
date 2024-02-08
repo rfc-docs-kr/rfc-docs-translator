@@ -1,0 +1,32 @@
+"hash": |-
+  ddf7dcedb36fc3aaa81e43b4f366e4c34581881535f32279a096c38e6338c942
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Content-Base       =  "Content-Base" HCOLON RTSP-URI
+     Content-Encoding   =  "Content-Encoding" HCOLON
+                           content-coding *(COMMA content-coding)
+     Content-Language   =  "Content-Language" HCOLON
+                           language-tag *(COMMA language-tag)
+     Content-Length     =  "Content-Length" HCOLON 1*19DIGIT
+     Content-Location   =  "Content-Location" HCOLON RTSP-REQ-Ref
+     Content-Type       =  "Content-Type" HCOLON media-type
+     media-type         =  m-type SLASH m-subtype *(SEMI m-parameter)
+     m-type             =  discrete-type / composite-type
+     discrete-type      =  "text" / "image" / "audio" / "video"
+                        /  "application" / extension-token
+     composite-type   =  "message" / "multipart" / extension-token
+     extension-token  =  ietf-token / x-token
+     ietf-token       =  token
+     x-token          =  "x-" token
+     m-subtype        =  extension-token / iana-token
+     iana-token       =  token
+     m-parameter      =  m-attribute EQUAL m-value
+     m-attribute      =  token
+     m-value          =  token / quoted-string
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

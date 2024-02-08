@@ -1,0 +1,28 @@
+"hash": |-
+  1677ab79e69ef5e71c54b75c4e1b75cc80a230a233ea4bf0003451ceea7e6969
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRouteType OBJECT-TYPE
+         SYNTAX     INTEGER {
+                     other    (1), -- not specified by this MIB
+                     reject   (2), -- route that discards traffic and
+                                   --   returns ICMP notification
+                     local    (3), -- local interface
+                     remote   (4), -- remote destination
+                     blackhole(5)  -- route that discards traffic
+                                   --   silently
+                  }
+         MAX-ACCESS read-create
+         STATUS     current
+         DESCRIPTION
+                "The type of route.  Note that local(3) refers to a
+                 route for which the next hop is the final destination;
+                 remote(4) refers to a route for which the next hop is
+                 not the final destination.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -10,7 +10,7 @@
            Note that <IP header size> in this equation will be 20, unless
            the IP reserves space to insert IP options for its own purposes
            in addition to any options inserted by the transport layer.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - and EMTU_S must be less than or equal to the MTU of the network interface corresponding to the source address of the datagram. Note that <IP header size> in this equation will be 20, unless the IP reserves space to insert IP options for its own purposes in addition to any options inserted by the transport layer.
+"ko": |-
+  - EMTU_S는 데이터그램의 소스 주소에 해당하는 네트워크 인터페이스의 MTU보다 작거나 같아야 합니다. 이 방정식에서 <IP 헤더 크기>는 IP가 전송 계층에서 삽입한 옵션 외에 자체 목적으로 IP 옵션을 삽입할 공간을 확보하지 않는 한 20이 됩니다.

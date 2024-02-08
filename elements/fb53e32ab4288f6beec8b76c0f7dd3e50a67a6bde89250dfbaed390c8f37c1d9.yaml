@@ -1,0 +1,21 @@
+"hash": |-
+  fb53e32ab4288f6beec8b76c0f7dd3e50a67a6bde89250dfbaed390c8f37c1d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The private key usage period extension allows the certificate issuer
+     to specify a different validity period for the private key than the
+     certificate.  This extension is intended for use with digital
+     signature keys.  This extension consists of two optional components,
+     notBefore and notAfter.  The private key associated with the
+     certificate SHOULD NOT be used to sign objects before or after the
+     times specified by the two components, respectively.  CAs conforming
+     to this profile MUST NOT generate certificates with private key usage
+     period extensions unless at least one of the two components is
+     present and the extension is non-critical.
+"fixed": |-
+  The private key usage period extension allows the certificate issuer to specify a different validity period for the private key than the certificate.  This extension is intended for use with digital signature keys.  This extension consists of two optional components, notBefore and notAfter.  The private key associated with the certificate SHOULD NOT be used to sign objects before or after the times specified by the two components, respectively.  CAs conforming to this profile MUST NOT generate certificates with private key usage period extensions unless at least one of the two components is present and the extension is non-critical.
+"ko": |-
+  개인 키 사용 기간 연장을 통해 인증서 발급자는 개인 키에 대해 인증서와 다른 유효 기간을 지정할 수 있습니다. 이 확장은 디지털 서명 키와 함께 사용하도록 고안되었습니다. 이 확장은 notBefore 및 notAfter라는 두 가지 선택적 구성 요소로 구성됩니다. 인증서와 관련된 개인 키는 두 구성 요소가 각각 지정한 시간 전후에 객체에 서명하는 데 사용되어서는 안 됩니다. 이 프로필을 준수하는 CA는 두 구성 요소 중 하나 이상이 존재하고 확장이 중요하지 않은 경우를 제외하고 개인 키 사용 기간 확장이 포함된 인증서를 생성해서는 안 됩니다.

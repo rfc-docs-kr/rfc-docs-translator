@@ -1,0 +1,20 @@
+"hash": |-
+  02ca26e12ea88cf58b0da6739e99d1e5ac5a64e516943d1d8b9ba62618d3a105
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a resource has been created on the server, the response returned
+     by the server SHOULD have a 2.01 (Created) Response Code and SHOULD
+     include the URI of the new resource in a sequence of one or more
+     Location-Path and/or Location-Query Options (Section 5.10.7).  If the
+     POST succeeds but does not result in a new resource being created on
+     the server, the response SHOULD have a 2.04 (Changed) Response Code.
+     If the POST succeeds and results in the target resource being
+     deleted, the response SHOULD have a 2.02 (Deleted) Response Code.
+     POST is neither safe nor idempotent.
+"fixed": |-
+  If a resource has been created on the server, the response returned by the server SHOULD have a 2.01 (Created) Response Code and SHOULD include the URI of the new resource in a sequence of one or more Location-Path and/or Location-Query Options (Section 5.10.7).  If the POST succeeds but does not result in a new resource being created on the server, the response SHOULD have a 2.04 (Changed) Response Code. If the POST succeeds and results in the target resource being deleted, the response SHOULD have a 2.02 (Deleted) Response Code. POST is neither safe nor idempotent.
+"ko": |-
+  서버에서 리소스가 생성된 경우 서버에서 반환된 응답은 2.01(생성됨) 응답 코드를 가져야 하며 하나 이상의 위치 경로 및/또는 위치 쿼리 시퀀스에 새 리소스의 URI를 포함해야 합니다. 옵션(섹션 5.10.7). POST가 성공했지만 서버에 새 리소스가 생성되지 않는 경우 응답에는 2.04(변경된) 응답 코드가 있어야 합니다. POST가 성공하고 대상 리소스가 삭제되는 경우 응답에는 2.02(삭제됨) 응답 코드가 있어야 합니다. POST는 안전하지도 멱등성도 아닙니다.

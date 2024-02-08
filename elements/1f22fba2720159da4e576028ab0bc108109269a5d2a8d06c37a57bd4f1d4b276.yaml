@@ -1,0 +1,29 @@
+"hash": |-
+  1f22fba2720159da4e576028ab0bc108109269a5d2a8d06c37a57bd4f1d4b276
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CoRAP:  Conditional Random Access Point (CoRAP) is a variant of the
+        above RAP behavior.  This policy is primarily intended for cases
+        where there is larger distance between the random access points in
+        the media.  CoRAP uses the RAP policy if the condition that there
+        is a Random Access Point closer to the requested start point than
+        to the current pause point is fulfilled.  Otherwise, no seeking is
+        performed and playback will continue from the current pause point.
+        This policy assumes that the media state existing prior to the
+        pause is usable if delivery is continued.  If the client or server
+        knows that this is not the fact, the RAP policy should be used.
+        In other words, in most cases when the client requests a start
+        point prior to the current pause point, a valid decoding
+        dependency chain from the media delivered prior to the pause and
+        to the requested media unit will not exist.  If the server
+        searched to a random access point, the server MUST return the
+        CoRAP policy in the Seek-Style header and adjust the Range header
+        to reflect the position of the selected RAP.  In case the random
+        access point is farther away and the server chooses to continue
+"fixed": |-
+  CoRAP:  Conditional Random Access Point (CoRAP) is a variant of the above RAP behavior.  This policy is primarily intended for cases where there is larger distance between the random access points in the media.  CoRAP uses the RAP policy if the condition that there is a Random Access Point closer to the requested start point than to the current pause point is fulfilled.  Otherwise, no seeking is performed and playback will continue from the current pause point. This policy assumes that the media state existing prior to the pause is usable if delivery is continued.  If the client or server knows that this is not the fact, the RAP policy should be used. In other words, in most cases when the client requests a start point prior to the current pause point, a valid decoding dependency chain from the media delivered prior to the pause and to the requested media unit will not exist.  If the server searched to a random access point, the server MUST return the CoRAP policy in the Seek-Style header and adjust the Range header to reflect the position of the selected RAP.  In case the random access point is farther away and the server chooses to continue
+"ko": |-
+  CoRAP: 조건부 무작위 액세스 포인트(CoRAP)는 위 RAP 동작의 변형입니다. 이 정책은 주로 미디어의 임의 액세스 지점 사이에 거리가 더 먼 경우를 위한 것입니다. CoRAP은 현재 일시 정지 지점보다 요청된 시작 지점에 더 가까운 Random Access Point가 있다는 조건이 충족되면 RAP 정책을 사용합니다. 그렇지 않으면 검색이 수행되지 않고 현재 일시 정지 지점부터 재생이 계속됩니다. 이 정책은 전송이 계속되면 일시 중지 이전에 존재했던 미디어 상태를 사용할 수 있다고 가정합니다. 클라이언트나 서버가 이것이 사실이 아니라는 것을 알고 있다면 RAP 정책을 사용해야 합니다. 즉, 클라이언트가 현재 일시 정지 지점 이전의 시작 지점을 요청하는 경우 대부분의 경우 일시 정지 이전에 전달된 미디어와 요청한 미디어 유닛에 유효한 디코딩 종속성 체인이 존재하지 않습니다. 서버가 임의 액세스 포인트를 검색한 경우 서버는 Seek-Style 헤더에 CoRAP 정책을 반환하고 선택한 RAP의 위치를 ​​반영하도록 Range 헤더를 조정해야 합니다. 랜덤 액세스 포인트가 더 멀리 떨어져 있고 서버가 계속하기로 선택한 경우

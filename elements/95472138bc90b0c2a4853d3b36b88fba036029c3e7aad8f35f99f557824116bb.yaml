@@ -1,0 +1,18 @@
+"hash": |-
+  95472138bc90b0c2a4853d3b36b88fba036029c3e7aad8f35f99f557824116bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The 60-second value was chosen as the session timeout value as it
+        results in keep-alive messages that are not too frequent and low
+        sensitivity to variations in request/response timing.  If one
+        reduces the timeout value to below 30 seconds, the corresponding
+        request/response timeout becomes a significant part of the session
+        timeout.  The 60-second value also allows for reasonably rapid
+        recovery of committed server resources in case of client failure.
+"fixed": |-
+  - The 60-second value was chosen as the session timeout value as it results in keep-alive messages that are not too frequent and low sensitivity to variations in request/response timing.  If one reduces the timeout value to below 30 seconds, the corresponding request/response timeout becomes a significant part of the session timeout.  The 60-second value also allows for reasonably rapid recovery of committed server resources in case of client failure.
+"ko": |-
+  - 너무 자주 발생하지 않고 요청/응답 타이밍 변화에 대한 민감도가 낮은 연결 유지 메시지가 발생하므로 60초 값을 세션 시간 초과 값으로 선택했습니다. 시간 초과 값을 30초 미만으로 줄이면 해당 요청/응답 시간 초과가 세션 시간 초과의 중요한 부분이 됩니다. 또한 60초 값을 사용하면 클라이언트 오류가 발생할 경우 커밋된 서버 리소스를 합리적으로 신속하게 복구할 수 있습니다.

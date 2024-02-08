@@ -1,0 +1,18 @@
+"hash": |-
+  3318f18a93f6382fea549a62e0b717746fe32464d3429b17bac715539c6f303c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In principle, other kinds of spoofing can be detected by CoAP only in
+     case Confirmable message semantics is used, because of unexpected
+     Acknowledgement or Reset messages coming from the deceived endpoint.
+     But this imposes keeping track of the used Message IDs, which is not
+     always possible, and moreover detection becomes available usually
+     after the damage is already done.  This kind of attack can be
+     prevented using security modes other than NoSec.
+"fixed": |-
+  In principle, other kinds of spoofing can be detected by CoAP only in case Confirmable message semantics is used, because of unexpected Acknowledgement or Reset messages coming from the deceived endpoint. But this imposes keeping track of the used Message IDs, which is not always possible, and moreover detection becomes available usually after the damage is already done.  This kind of attack can be prevented using security modes other than NoSec.
+"ko": |-
+  원칙적으로 다른 종류의 스푸핑은 속인 끝점에서 오는 예기치 않은 승인 또는 재설정 메시지로 인해 확인 가능한 메시지 의미 체계가 사용되는 경우에만 CoAP에서 감지할 수 있습니다. 그러나 이렇게 하려면 사용된 메시지 ID를 추적해야 하는데 이것이 항상 가능한 것은 아니며, 게다가 일반적으로 손상이 이미 발생한 후에 탐지가 가능해집니다. 이러한 종류의 공격은 NoSec 이외의 보안 모드를 사용하여 방지할 수 있습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  842dd46a476439dd56b87ccd4efe040aba89547021eead70f9029d2d3f5f77d6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        (a)  When the subject of the certificate is a CA, the subject
+             field MUST be encoded in the same way as it is encoded in the
+             issuer field (Section 4.1.2.4) in all certificates issued by
+             the subject CA.  Thus, if the subject CA encodes attributes
+             in the issuer fields of certificates that it issues using the
+             TeletexString, BMPString, or UniversalString encodings, then
+             the subject field of certificates issued to that CA MUST use
+             the same encoding.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

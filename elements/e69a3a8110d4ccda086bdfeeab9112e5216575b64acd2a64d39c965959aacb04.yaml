@@ -1,0 +1,20 @@
+"hash": |-
+  e69a3a8110d4ccda086bdfeeab9112e5216575b64acd2a64d39c965959aacb04
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 b. For each P-OID in the user-initial-policy-set that is
+                 not the valid_policy of a node in the
+                 valid_policy_node_set, create a child node whose parent
+                 is the node of depth n-1 with the valid_policy anyPolicy.
+                 Set the values in the child node as follows: set the
+                 valid_policy to P-OID; set the qualifier_set to P-Q; copy
+                 the criticality_indicator from the node of depth n with
+                 the valid_policy anyPolicy; and set the
+                 expected_policy_set to {P-OID}.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

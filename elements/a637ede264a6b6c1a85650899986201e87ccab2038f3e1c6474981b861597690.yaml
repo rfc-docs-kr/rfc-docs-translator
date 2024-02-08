@@ -1,0 +1,53 @@
+"hash": |-
+  a637ede264a6b6c1a85650899986201e87ccab2038f3e1c6474981b861597690
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         *  Short (minutes or less): This category includes packet-level
+            processing functions and events that are recorded on the order
+            of several round-trip times.  It also includes router
+            mechanisms such as passive and active buffer management.  All
+            of these mechanisms are used to control congestion or signal
+            congestion to end systems so that they can adaptively regulate
+            the rate at which traffic is injected into the network.  A
+            well-known active queue management scheme, especially for
+            responsive traffic such as TCP, is Random Early Detection
+            (RED) [FLJA93].  During congestion (but before the queue is
+            filled), the RED scheme chooses arriving packets to "mark"
+            according to a probabilistic algorithm that takes into account
+            the average queue size.  A router that does not utilize
+            Explicit Congestion Notification (ECN) [RFC3168] can simply
+            drop marked packets to alleviate congestion and implicitly
+            notify the receiver about the congestion.  On the other hand,
+            if the router and the end hosts support ECN, they can set the
+            ECN field in the packet header, and the end host can act on
+            this information.  Several variations of RED have been
+            proposed to support different drop precedence levels in multi-
+            class environments [RFC2597].  RED provides congestion
+            avoidance that is better than or equivalent to Tail-Drop (TD)
+            queue management (drop arriving packets only when the queue is
+            full).  Importantly, RED reduces the possibility of
+            retransmission bursts becoming synchronized within the network
+            and improves fairness among different responsive traffic
+            sessions.  However, RED by itself cannot prevent congestion
+            and unfairness caused by sources unresponsive to RED, e.g.,
+            some misbehaved greedy connections.  Other schemes have been
+            proposed to improve performance and fairness in the presence
+            of unresponsive traffic.  Some of those schemes (such as
+            Longest Queue Drop (LQD) and Dynamic Soft Partitioning with
+            Random Drop (RND) [SLDC98]) were proposed as theoretical
+            frameworks and are typically not available in existing
+            commercial products, while others (such as Approximate Fair
+            Dropping (AFD) [AFD03]) have seen some implementation.  Advice
+            on the use of Active Queue Management (AQM) schemes is
+            provided in [RFC7567].  [RFC7567] recommends self-tuning AQM
+            algorithms like those that the IETF has published in
+            [RFC8290], [RFC8033], [RFC8034], and [RFC9332], but RED is
+            still appropriate for links with stable bandwidth, if
+            configured carefully.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  b9a2fbc1367c08635398e2629acd240a1320b50672aaa36aebad4853400ae9f7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The pause point after any PAUSE request MUST be returned to the
+     client by adding a Range header with what remains unplayed of the
+     PLAY request's range.  For media with random access properties, if
+     one desires to resume playing a ranged request, one simply includes
+     the Range header from the PAUSE response and includes the Seek-Style
+     header with the Next policy in the PLAY request.  For media that is
+     time-progressing and has retention duration=0, the follow-up PLAY
+     request to start media delivery again MUST use "npt=now-" and not the
+     answer given in the response to PAUSE.
+"fixed": |-
+  The pause point after any PAUSE request MUST be returned to the client by adding a Range header with what remains unplayed of the PLAY request's range.  For media with random access properties, if one desires to resume playing a ranged request, one simply includes the Range header from the PAUSE response and includes the Seek-Style header with the Next policy in the PLAY request.  For media that is time-progressing and has retention duration=0, the follow-up PLAY request to start media delivery again MUST use "npt=now-" and not the answer given in the response to PAUSE.
+"ko": |-
+  PAUSE 요청 후의 일시 중지 지점은 PLAY 요청 범위 중 아직 재생되지 않은 내용과 함께 Range 헤더를 추가하여 클라이언트에 반환되어야 합니다. 무작위 액세스 속성이 있는 미디어의 경우 범위 요청 재생을 재개하려면 PAUSE 응답의 Range 헤더를 포함하고 PLAY 요청의 Next 정책과 함께 Seek-Style 헤더를 포함하면 됩니다. 시간이 진행되고 보존 기간=0인 미디어의 경우 미디어 전달을 다시 시작하기 위한 후속 PLAY 요청은 PAUSE에 대한 응답에 제공된 응답이 아니라 "npt=now-"를 사용해야 합니다.

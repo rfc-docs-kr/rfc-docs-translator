@@ -1,0 +1,16 @@
+"hash": |-
+  c042e9f9aca1ddd42767b186d497523dfc781f65d6a3acfd167ea87c9fb8f3bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As per Section 2.2 of RFC 2784, the GRE egress node uses the Checksum
+     Present field to calculate the length of the GRE header.  If the
+     Checksum Present field is set to one, the GRE egress node MUST use
+     the GRE Checksum to verify the integrity of the GRE header and
+     payload.
+"fixed": |-
+  As per Section 2.2 of RFC 2784, the GRE egress node uses the Checksum Present field to calculate the length of the GRE header.  If the Checksum Present field is set to one, the GRE egress node MUST use the GRE Checksum to verify the integrity of the GRE header and payload.
+"ko": |-
+  RFC 2784의 섹션 2.2에 따라 GRE 송신 노드는 체크섬 현재 필드를 사용하여 GRE 헤더의 길이를 계산합니다. Checksum Present 필드가 1로 설정된 경우 GRE 송신 노드는 GRE 체크섬을 사용하여 GRE 헤더와 페이로드의 무결성을 확인해야 합니다.

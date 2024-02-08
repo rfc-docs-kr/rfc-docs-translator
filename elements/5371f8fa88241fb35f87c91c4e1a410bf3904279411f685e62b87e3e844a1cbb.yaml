@@ -1,0 +1,16 @@
+"hash": |-
+  5371f8fa88241fb35f87c91c4e1a410bf3904279411f685e62b87e3e844a1cbb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In one failure scenario, the destination address in the IPv6 delivery
+     header is corrupted.  As a result, the IPv6 delivery packet is
+     delivered to a node other than the intended GRE egress node.
+     Depending upon the state and configuration of that node, it will
+     either:
+"fixed": |-
+  In one failure scenario, the destination address in the IPv6 delivery header is corrupted.  As a result, the IPv6 delivery packet is delivered to a node other than the intended GRE egress node. Depending upon the state and configuration of that node, it will either:
+"ko": |-
+  한 가지 실패 시나리오에서는 IPv6 배달 헤더의 대상 주소가 손상되었습니다. 결과적으로 IPv6 전달 패킷은 의도한 GRE 송신 노드가 아닌 다른 노드로 전달됩니다. 해당 노드의 상태 및 구성에 따라 다음 중 하나가 수행됩니다.

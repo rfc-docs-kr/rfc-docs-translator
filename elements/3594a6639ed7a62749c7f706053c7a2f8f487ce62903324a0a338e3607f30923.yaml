@@ -1,0 +1,14 @@
+"hash": |-
+  3594a6639ed7a62749c7f706053c7a2f8f487ce62903324a0a338e3607f30923
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients SHOULD include TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 as the
+     first proposal to any server, unless they have prior knowledge that
+     the server cannot respond to a TLS 1.2 client_hello message.
+"fixed": |-
+  Clients SHOULD include TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 as the first proposal to any server, unless they have prior knowledge that the server cannot respond to a TLS 1.2 client_hello message.
+"ko": |-
+  클라이언트는 서버가 TLS 1.2 client_hello 메시지에 응답할 수 없다는 사전 지식이 없는 한 모든 서버에 대한 첫 번째 제안으로 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256을 포함해야 합니다.

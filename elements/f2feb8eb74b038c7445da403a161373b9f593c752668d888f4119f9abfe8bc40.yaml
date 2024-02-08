@@ -1,0 +1,23 @@
+"hash": |-
+  f2feb8eb74b038c7445da403a161373b9f593c752668d888f4119f9abfe8bc40
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This notification MUST be sent for media that are time-progressing
+     every time an event happens that changes the basis for making
+     estimates on how the available for play-back media range will
+     progress with wall clock time.  In addition, it is RECOMMENDED that
+     the server send these notifications approximately every 5 minutes for
+     time-progressing content to ensure the long-term stability of the
+     client estimation and allow for clock skew detection by the client.
+     The time between notifications should be greater than 1 minute and
+     less than 2 hours.  For the reasons just explained, requests MUST
+     include a Media-Range header to provide current Media duration and a
+     Range header to indicate the current playing point and any remaining
+     parts of the requested range.
+"fixed": |-
+  This notification MUST be sent for media that are time-progressing every time an event happens that changes the basis for making estimates on how the available for play-back media range will progress with wall clock time.  In addition, it is RECOMMENDED that the server send these notifications approximately every 5 minutes for time-progressing content to ensure the long-term stability of the client estimation and allow for clock skew detection by the client. The time between notifications should be greater than 1 minute and less than 2 hours.  For the reasons just explained, requests MUST include a Media-Range header to provide current Media duration and a Range header to indicate the current playing point and any remaining parts of the requested range.
+"ko": |-
+  이 알림은 재생 미디어 범위에 사용할 수 있는 범위가 벽시계 시간에 따라 어떻게 진행되는지 추정하기 위한 기반을 변경하는 이벤트가 발생할 때마다 시간이 진행되는 미디어에 대해 전송되어야 합니다. 또한 클라이언트 추정의 장기적인 안정성을 보장하고 클라이언트의 시계 왜곡 감지를 허용하기 위해 서버가 시간 진행 콘텐츠에 대해 약 5분마다 이러한 알림을 보내는 것이 좋습니다. 알림 간격은 1분 이상 2시간 미만이어야 합니다. 방금 설명한 이유로 인해 요청에는 현재 미디어 기간을 제공하는 Media-Range 헤더와 현재 재생 지점 및 요청 범위의 나머지 부분을 나타내는 Range 헤더가 포함되어야 합니다.

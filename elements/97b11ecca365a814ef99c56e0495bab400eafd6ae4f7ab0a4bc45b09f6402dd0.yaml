@@ -10,7 +10,7 @@
      command.  Additionally, this document specifies that all other
      transfer parameters (other than the AUTH parameter) must be reset,
      almost as if a REIN command was issued.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  [RFC-2228] states that the user must reauthorize (that is, reissue some or all of the USER, PASS, and ACCT commands) following an AUTH command.  Additionally, this document specifies that all other transfer parameters (other than the AUTH parameter) must be reset, almost as if a REIN command was issued.
+"ko": |-
+  [RFC-2228]에는 사용자가 AUTH 명령 후에 다시 권한을 부여해야 함(즉, USER, PASS 및 ACCT 명령 중 일부 또는 전체를 재발행)이 명시되어 있습니다. 또한 이 문서에서는 마치 REIN 명령이 실행된 것처럼 다른 모든 전송 매개변수(AUTH 매개변수 제외)를 재설정해야 한다고 지정합니다.

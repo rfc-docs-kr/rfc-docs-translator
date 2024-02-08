@@ -1,0 +1,17 @@
+"hash": |-
+  04d267496e1a13ed2ae5dac1800d282bf120b80aadb5908dcca222da565cd03a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note that this mechanism does not support PDUs larger than 65535
+        octets, which matches the maximum payload size of regular, non-
+        jumbo IPv4 and IPv6 packets.  If the media delivery protocol
+        intended to be used has larger PDUs than that, a definition of a
+        PDU fragmentation mechanism will be required to support embedded
+        binary data.
+"fixed": |-
+  - Note that this mechanism does not support PDUs larger than 65535 octets, which matches the maximum payload size of regular, non- jumbo IPv4 and IPv6 packets.  If the media delivery protocol intended to be used has larger PDUs than that, a definition of a PDU fragmentation mechanism will be required to support embedded binary data.
+"ko": |-
+  - 이 메커니즘은 일반 점보 IPv4 및 IPv6 패킷의 최대 페이로드 크기와 일치하는 65535 옥텟보다 큰 PDU를 지원하지 않습니다. 사용하려는 미디어 전달 프로토콜이 그보다 더 큰 PDU를 가지고 있는 경우 내장된 바이너리 데이터를 지원하려면 PDU 조각화 메커니즘의 정의가 필요합니다.

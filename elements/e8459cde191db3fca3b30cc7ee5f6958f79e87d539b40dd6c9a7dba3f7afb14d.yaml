@@ -1,0 +1,22 @@
+"hash": |-
+  e8459cde191db3fca3b30cc7ee5f6958f79e87d539b40dd6c9a7dba3f7afb14d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This document does not change the mandatory-to-implement TLS cipher
+     suite(s) prescribed by TLS.  To maximize interoperability, RFC 5246
+     mandates implementation of the TLS_RSA_WITH_AES_128_CBC_SHA cipher
+     suite, which is significantly weaker than the cipher suites
+     recommended here.  (The GCM mode does not suffer from the same
+     weakness, caused by the order of MAC-then-Encrypt in TLS
+     [Krawczyk2001], since it uses an AEAD mode of operation.)
+     Implementers should consider the interoperability gain against the
+     loss in security when deploying the TLS_RSA_WITH_AES_128_CBC_SHA
+     cipher suite.  Other application protocols specify other cipher
+     suites as mandatory to implement (MTI).
+"fixed": |-
+  This document does not change the mandatory-to-implement TLS cipher suite(s) prescribed by TLS.  To maximize interoperability, RFC 5246 mandates implementation of the TLS_RSA_WITH_AES_128_CBC_SHA cipher suite, which is significantly weaker than the cipher suites recommended here.  (The GCM mode does not suffer from the same weakness, caused by the order of MAC-then-Encrypt in TLS [Krawczyk2001], since it uses an AEAD mode of operation.) Implementers should consider the interoperability gain against the loss in security when deploying the TLS_RSA_WITH_AES_128_CBC_SHA cipher suite.  Other application protocols specify other cipher suites as mandatory to implement (MTI).
+"ko": |-
+  이 문서는 TLS에서 규정한 필수 구현 TLS 암호화 제품군을 변경하지 않습니다. 상호 운용성을 최대화하기 위해 RFC 5246은 여기에서 권장하는 암호화 제품군보다 훨씬 약한 TLS_RSA_WITH_AES_128_CBC_SHA 암호화 제품군의 구현을 요구합니다. (GCM 모드는 AEAD 작동 모드를 사용하기 때문에 TLS [Krawczyk2001]의 MAC 후 암호화 순서로 인해 발생하는 동일한 약점을 겪지 않습니다.) 구현자는 다음과 같은 경우 보안 손실에 대한 상호 운용성 이득을 고려해야 합니다. TLS_RSA_WITH_AES_128_CBC_SHA 암호화 제품군 배포. 다른 애플리케이션 프로토콜은 다른 암호화 제품군을 MTI(필수 구현)로 지정합니다.

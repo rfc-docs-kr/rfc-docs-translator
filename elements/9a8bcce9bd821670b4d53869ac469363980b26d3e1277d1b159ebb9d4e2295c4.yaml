@@ -1,0 +1,18 @@
+"hash": |-
+  9a8bcce9bd821670b4d53869ac469363980b26d3e1277d1b159ebb9d4e2295c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Rationale: The NULL cipher suites do not encrypt traffic and so
+        provide no confidentiality services.  Any entity in the network
+        with access to the connection can view the plaintext of contents
+        being exchanged by the client and server.  (Nevertheless, this
+        document does not discourage software from implementing NULL
+        cipher suites, since they can be useful for testing and
+        debugging.)
+"fixed": |-
+  - Rationale: The NULL cipher suites do not encrypt traffic and so provide no confidentiality services.  Any entity in the network with access to the connection can view the plaintext of contents being exchanged by the client and server.  (Nevertheless, this document does not discourage software from implementing NULL cipher suites, since they can be useful for testing and debugging.)
+"ko": |-
+  - 근거: NULL 암호화 제품군은 트래픽을 암호화하지 않으므로 기밀 서비스를 제공하지 않습니다. 연결에 액세스할 수 있는 네트워크의 모든 엔터티는 클라이언트와 서버가 교환하는 콘텐츠의 일반 텍스트를 볼 수 있습니다. (그럼에도 불구하고 이 문서는 소프트웨어가 테스트 및 디버깅에 유용할 수 있는 NULL 암호화 제품군을 구현하는 것을 권장하지 않습니다.)

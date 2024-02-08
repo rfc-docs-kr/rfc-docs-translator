@@ -1,0 +1,23 @@
+"hash": |-
+  b6499b996fbc6a5f70f742af04b123ef009f63f7d9b481eaa01d1252d156b35a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Scale general-header indicates the requested or used view rate
+     for the media resource being played back.  A scale value of 1
+     indicates normal play at the normal forward viewing rate.  If not 1,
+     the value corresponds to the rate with respect to normal viewing
+     rate.  For example, a value of 2 indicates twice the normal viewing
+     rate ("fast forward") and a value of 0.5 indicates half the normal
+     viewing rate.  In other words, a value of 2 has content time increase
+     at twice the playback time.  For every second of elapsed (wallclock)
+     time, 2 seconds of content time will be delivered.  A negative value
+     indicates reverse direction.  For certain media transports, this may
+     require certain considerations to work consistently; see Appendix C.1
+     for description on how RTP handles this.
+"fixed": |-
+  The Scale general-header indicates the requested or used view rate for the media resource being played back.  A scale value of 1 indicates normal play at the normal forward viewing rate.  If not 1, the value corresponds to the rate with respect to normal viewing rate.  For example, a value of 2 indicates twice the normal viewing rate ("fast forward") and a value of 0.5 indicates half the normal viewing rate.  In other words, a value of 2 has content time increase at twice the playback time.  For every second of elapsed (wallclock) time, 2 seconds of content time will be delivered.  A negative value indicates reverse direction.  For certain media transports, this may require certain considerations to work consistently; see Appendix C.1 for description on how RTP handles this.
+"ko": |-
+  Scale 일반 헤더는 재생 중인 미디어 리소스에 대해 요청되거나 사용된 보기 속도를 나타냅니다. 배율 값 1은 일반적인 앞으로 보기 속도로 정상적으로 재생됨을 나타냅니다. 1이 아닌 경우, 해당 값은 일반 시청률에 대한 비율에 해당합니다. 예를 들어 값 2는 일반 시청률의 두 배("빨리 감기")를 나타내고 값 0.5는 일반 시청률의 절반을 나타냅니다. 즉, 값이 2일수록 재생시간의 2배만큼 컨텐츠 시간이 늘어나게 됩니다. 경과된(벽시계) 시간 1초마다 2초의 콘텐츠 시간이 전달됩니다. 음수 값은 반대 방향을 나타냅니다. 특정 미디어 전송의 경우 일관되게 작동하려면 특정 고려 사항이 필요할 수 있습니다. RTP가 이를 처리하는 방법에 대한 설명은 부록 C.1을 참조하세요.

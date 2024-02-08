@@ -1,0 +1,24 @@
+"hash": |-
+  d311c112fe19e64a860847ab268af4efee141048a4db5becbca06eb6bef4e8f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The binary structure starts with the number of certificates
+     (NR_CERTS) included as a 16-bit unsigned integer.  This is followed
+     by an NR_CERTS number of 16-bit unsigned integers providing the size,
+     in octets, of each DER-encoded certificate.  This is followed by an
+     NR_CERTS number of DER-encoded X.509v3 certificates in a sequence
+     (chain).  This format is exemplified in Figure 6.  The certificate of
+     the proxy or server must come first in the structure.  Each following
+     certificate must directly certify the one preceding it.  Because
+     certificate validation requires that root keys be distributed
+     independently, the self-signed certificate that specifies the root
+     certificate authority may optionally be omitted from the chain, under
+     the assumption that the remote end must already possess it in order
+     to validate it in any case.
+"fixed": |-
+  The binary structure starts with the number of certificates (NR_CERTS) included as a 16-bit unsigned integer.  This is followed by an NR_CERTS number of 16-bit unsigned integers providing the size, in octets, of each DER-encoded certificate.  This is followed by an NR_CERTS number of DER-encoded X.509v3 certificates in a sequence (chain).  This format is exemplified in Figure 6.  The certificate of the proxy or server must come first in the structure.  Each following certificate must directly certify the one preceding it.  Because certificate validation requires that root keys be distributed independently, the self-signed certificate that specifies the root certificate authority may optionally be omitted from the chain, under the assumption that the remote end must already possess it in order to validate it in any case.
+"ko": |-
+  이진 구조는 16비트 부호 없는 정수로 포함된 인증서 수(NR_CERTS)로 시작됩니다. 그 뒤에는 각 DER로 인코딩된 인증서의 크기를 옥텟 단위로 제공하는 16비트 부호 없는 정수의 NR_CERTS 번호가 옵니다. 그 뒤에는 DER로 인코딩된 X.509v3 인증서의 NR_CERTS 번호가 시퀀스(체인)로 옵니다. 이 형식은 그림 6에 예시되어 있습니다. 프록시 또는 서버의 인증서가 구조에서 가장 먼저 와야 합니다. 다음 각 인증서는 이전 인증서를 직접 인증해야 합니다. 인증서 유효성 검사에서는 루트 키를 독립적으로 배포해야 하기 때문에 루트 인증 기관을 지정하는 자체 서명된 인증서는 선택적으로 체인에서 생략될 수 있습니다. 단, 어떤 경우든 이를 검증하기 위해 원격 측이 이미 인증서를 소유하고 있어야 한다는 가정하에 가능합니다.

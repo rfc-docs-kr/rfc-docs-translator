@@ -1,0 +1,13 @@
+"hash": |-
+  dfddcc4bde98fa57c1dac3362b407985e743aba62a11f897650cc68f50ffdef8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the first octet of EM is not 02, or if there is no 00 octet to
+     separate PS from M, output "decoding error" and stop.
+"fixed": |-
+  If the first octet of EM is not 02, or if there is no 00 octet to separate PS from M, output "decoding error" and stop.
+"ko": |-
+  EM의 첫 번째 옥텟이 02가 아니거나, PS를 M과 분리할 00 옥텟이 없으면 "decoding error"를 출력하고 정지한다.

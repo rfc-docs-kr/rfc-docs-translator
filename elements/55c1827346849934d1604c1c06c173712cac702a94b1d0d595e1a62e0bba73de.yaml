@@ -1,0 +1,25 @@
+"hash": |-
+  55c1827346849934d1604c1c06c173712cac702a94b1d0d595e1a62e0bba73de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For aggregated sessions where the initial SETUP request (creating a
+     session) is followed by one or more additional SETUP requests, a PLAY
+     request MAY be pipelined (Section 12) after those additional SETUP
+     requests without awaiting their responses.  This procedure can reduce
+     the delay from the start of session establishment until media playout
+     has started with one RTT.  However, a client needs to be aware that
+     using this procedure will result in the playout of the server state
+     established at the time of processing the PLAY, i.e., after the
+     processing of all the requests prior to the PLAY request in the
+     pipeline.  This state may not be the intended one due to failure of
+     any of the prior requests.  A client can easily determine this based
+     on the responses from those requests.  In case of failure, the client
+     can halt the media playout using PAUSE and try to establish the
+     intended state again before issuing another PLAY request.
+"fixed": |-
+  For aggregated sessions where the initial SETUP request (creating a session) is followed by one or more additional SETUP requests, a PLAY request MAY be pipelined (Section 12) after those additional SETUP requests without awaiting their responses.  This procedure can reduce the delay from the start of session establishment until media playout has started with one RTT.  However, a client needs to be aware that using this procedure will result in the playout of the server state established at the time of processing the PLAY, i.e., after the processing of all the requests prior to the PLAY request in the pipeline.  This state may not be the intended one due to failure of any of the prior requests.  A client can easily determine this based on the responses from those requests.  In case of failure, the client can halt the media playout using PAUSE and try to establish the intended state again before issuing another PLAY request.
+"ko": |-
+  초기 SETUP 요청(세션 생성) 뒤에 하나 이상의 추가 SETUP 요청이 뒤따르는 집계된 세션의 경우, 응답을 기다리지 않고 추가 SETUP 요청 후에 PLAY 요청이 파이프라인될 수 있습니다(섹션 12). 이 절차를 통해 세션 설정 시작부터 미디어 재생이 하나의 RTT로 시작될 때까지의 지연을 줄일 수 있습니다. 그러나 클라이언트는 이 절차를 사용하면 PLAY 처리 시, 즉 파이프라인에서 PLAY 요청 이전의 모든 요청을 처리한 후 설정된 서버 상태가 재생된다는 점을 알아야 합니다. 이 상태는 이전 요청 중 하나라도 실패하여 의도한 상태가 아닐 수 있습니다. 클라이언트는 해당 요청의 응답을 기반으로 이를 쉽게 결정할 수 있습니다. 실패할 경우 클라이언트는 PAUSE를 사용하여 미디어 재생을 중지하고 다른 PLAY 요청을 발행하기 전에 의도한 상태를 다시 설정하려고 시도할 수 있습니다.

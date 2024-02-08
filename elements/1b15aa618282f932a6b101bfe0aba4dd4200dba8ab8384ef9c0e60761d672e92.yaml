@@ -1,0 +1,17 @@
+"hash": |-
+  1b15aa618282f932a6b101bfe0aba4dd4200dba8ab8384ef9c0e60761d672e92
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a proxy request is made to an endpoint and the endpoint is
+     unwilling or unable to act as proxy for the request URI, it MUST
+     return a 5.05 (Proxying Not Supported) response.  If the authority
+     (host and port) is recognized as identifying the proxy endpoint
+     itself (see Section 5.10.2), then the request MUST be treated as a
+     local (non-proxied) request.
+"fixed": |-
+  When a proxy request is made to an endpoint and the endpoint is unwilling or unable to act as proxy for the request URI, it MUST return a 5.05 (Proxying Not Supported) response.  If the authority (host and port) is recognized as identifying the proxy endpoint itself (see Section 5.10.2), then the request MUST be treated as a local (non-proxied) request.
+"ko": |-
+  엔드포인트에 프록시 요청이 이루어지고 엔드포인트가 요청 URI에 대한 프록시 역할을 할 의사가 없거나 작동할 수 없는 경우 5.05(프록시 지원 안 됨) 응답을 반환해야 합니다. 권한(호스트 및 포트)이 프록시 끝점 자체를 식별하는 것으로 인식되면(섹션 5.10.2 참조) 요청은 로컬(프록시되지 않은) 요청으로 처리되어야 합니다.

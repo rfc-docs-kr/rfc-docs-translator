@@ -1,0 +1,27 @@
+"hash": |-
+  760fcf55496cb7577ed90ee6961e589fc238ea6dd9224a47988abecb6ac8faac
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  BuiltInStandardAttributes ::= SEQUENCE {
+     country-name                  CountryName OPTIONAL,
+     administration-domain-name    AdministrationDomainName OPTIONAL,
+     network-address           [0] IMPLICIT NetworkAddress OPTIONAL,
+       -- see also extended-network-address
+     terminal-identifier       [1] IMPLICIT TerminalIdentifier OPTIONAL,
+     private-domain-name       [2] PrivateDomainName OPTIONAL,
+     organization-name         [3] IMPLICIT OrganizationName OPTIONAL,
+       -- see also teletex-organization-name
+     numeric-user-identifier   [4] IMPLICIT NumericUserIdentifier
+                                   OPTIONAL,
+     personal-name             [5] IMPLICIT PersonalName OPTIONAL,
+       -- see also teletex-personal-name
+     organizational-unit-names [6] IMPLICIT OrganizationalUnitNames
+                                   OPTIONAL }
+       -- see also teletex-organizational-unit-names
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

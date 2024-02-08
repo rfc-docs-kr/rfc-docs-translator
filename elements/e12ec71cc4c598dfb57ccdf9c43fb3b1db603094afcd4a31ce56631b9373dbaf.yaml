@@ -1,0 +1,16 @@
+"hash": |-
+  e12ec71cc4c598dfb57ccdf9c43fb3b1db603094afcd4a31ce56631b9373dbaf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This profile requires inclusion of nextUpdate in all CRLs issued by
+     conforming CRL issuers.  Note that the ASN.1 syntax of TBSCertList
+     describes this field as OPTIONAL, which is consistent with the ASN.1
+     structure defined in [X.509].  The behavior of clients processing
+     CRLs which omit nextUpdate is not specified by this profile.
+"fixed": |-
+  This profile requires inclusion of nextUpdate in all CRLs issued by conforming CRL issuers.  Note that the ASN.1 syntax of TBSCertList describes this field as OPTIONAL, which is consistent with the ASN.1 structure defined in [X.509].  The behavior of clients processing CRLs which omit nextUpdate is not specified by this profile.
+"ko": |-
+  이 프로필에는 CRL 발급자가 발급한 모든 CRL에 nextUpdate가 포함되어야 합니다. TBSCertList의 ASN.1 구문은 이 필드를 [X.509]에 정의된 ASN.1 구조와 일치하는 OPTIONAL로 설명합니다. nextUpdate를 생략한 CRL을 처리하는 클라이언트의 동작은 이 프로필에 의해 지정되지 않습니다.

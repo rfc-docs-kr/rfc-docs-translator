@@ -1,0 +1,26 @@
+"hash": |-
+  185dddd38b1215d409f5b9203f84fb8f94c378ee232f4d99c7c765010db61f78
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a proxy does not employ a cache, then it simply forwards the
+     translated request to the determined destination.  Otherwise, if it
+     does employ a cache but does not have a stored response that matches
+     the translated request and is considered fresh, then it needs to
+     refresh its cache according to Section 5.6.  For options in the
+     request that the proxy recognizes, it knows whether the option is
+     intended to act as part of the key used in looking up the cached
+     value or not.  For example, since requests for different Uri-Path
+     values address different resources, Uri-Path values are always part
+     of the Cache-Key, while, e.g., Token values are never part of the
+     Cache-Key.  For options that the proxy does not recognize but that
+     are marked Safe-to-Forward in the option number, the option also
+     indicates whether it is to be included in the Cache-Key (NoCacheKey
+     is not all set) or not (NoCacheKey is all set).  (Options that are
+     unrecognized and marked Unsafe lead to 4.02 Bad Option.)
+"fixed": |-
+  If a proxy does not employ a cache, then it simply forwards the translated request to the determined destination.  Otherwise, if it does employ a cache but does not have a stored response that matches the translated request and is considered fresh, then it needs to refresh its cache according to Section 5.6.  For options in the request that the proxy recognizes, it knows whether the option is intended to act as part of the key used in looking up the cached value or not.  For example, since requests for different Uri-Path values address different resources, Uri-Path values are always part of the Cache-Key, while, e.g., Token values are never part of the Cache-Key.  For options that the proxy does not recognize but that are marked Safe-to-Forward in the option number, the option also indicates whether it is to be included in the Cache-Key (NoCacheKey is not all set) or not (NoCacheKey is all set).  (Options that are unrecognized and marked Unsafe lead to 4.02 Bad Option.)
+"ko": |-
+  프록시가 캐시를 사용하지 않는 경우 번역된 요청을 결정된 대상으로 전달하기만 하면 됩니다. 그렇지 않고, 캐시를 사용하지만 번역된 요청과 일치하고 새로운 것으로 간주되는 저장된 응답이 없으면 섹션 5.6에 따라 캐시를 새로 고쳐야 합니다. 프록시가 인식하는 요청 옵션의 경우 해당 옵션이 캐시된 값을 찾는 데 사용되는 키의 일부로 작동하도록 의도되었는지 여부를 알고 있습니다. 예를 들어, 서로 다른 Uri-Path 값에 대한 요청은 서로 다른 리소스를 다루기 때문에 Uri-Path 값은 항상 Cache-Key의 일부인 반면, Token 값은 결코 Cache-Key의 일부가 아닙니다. 프록시가 인식하지 못하지만 옵션 번호에 Safe-to-Forward로 표시된 옵션의 경우 옵션은 Cache-Key에 포함할지(NoCacheKey가 모두 설정되지 않음) 여부(NoCacheKey가 모두 설정됨)도 나타냅니다. 세트). (인식되지 않고 안전하지 않음으로 표시된 옵션은 4.02 잘못된 옵션으로 이어집니다.)

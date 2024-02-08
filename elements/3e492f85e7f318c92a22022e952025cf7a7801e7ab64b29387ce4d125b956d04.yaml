@@ -1,0 +1,19 @@
+"hash": |-
+  3e492f85e7f318c92a22022e952025cf7a7801e7ab64b29387ce4d125b956d04
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The 10-second wait was chosen for the following reasons.  It gives
+        TCP time to perform a couple of retransmissions, even if operating
+        on default values.  It is short enough that users may not abandon
+        the process themselves.  However, it should be noted that 10
+        seconds can be aggressive on certain types of networks.  The
+        5-second value for 1xx messages is half the timeout giving a
+        reasonable chance of successful delivery before timeout happens on
+        the requester side.
+"fixed": |-
+  - The 10-second wait was chosen for the following reasons.  It gives TCP time to perform a couple of retransmissions, even if operating on default values.  It is short enough that users may not abandon the process themselves.  However, it should be noted that 10 seconds can be aggressive on certain types of networks.  The 5-second value for 1xx messages is half the timeout giving a reasonable chance of successful delivery before timeout happens on the requester side.
+"ko": |-
+  - 10초 대기를 선택한 이유는 다음과 같습니다. 기본값으로 작동하더라도 TCP가 몇 번의 재전송을 수행할 시간을 제공합니다. 사용자가 프로세스 자체를 포기할 수 없을 만큼 짧습니다. 그러나 특정 유형의 네트워크에서는 10초가 공격적일 수 있다는 점에 유의해야 합니다. 1xx 메시지의 5초 값은 요청자 측에서 시간 초과가 발생하기 전에 성공적으로 배달될 수 있는 합리적인 기회를 제공하는 시간 초과의 절반입니다.

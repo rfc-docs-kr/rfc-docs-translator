@@ -1,0 +1,25 @@
+"hash": |-
+  c2d44cfdb0b02215fc1767f6c17decf2c5c2d768036d7d34dd8cb2d65354d9b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     with limited total energy available may exhaust that energy much more
+     quickly than planned (battery depletion attack).  Also, if the client
+     uses a Confirmable message and the server responds with a Confirmable
+     separate response to a (possibly spoofed) address that does not
+     respond, the server will have to allocate buffer and retransmission
+     logic for each response up to the exhaustion of MAX_TRANSMIT_SPAN,
+     making it more likely that it runs out of resources for processing
+     legitimate traffic.  The latter problem can be mitigated somewhat by
+     limiting the rate of responses as discussed in Section 4.7.  An
+     attacker could also spoof the address of a legitimate client; this
+     might cause the server, if it uses separate responses, to block
+     legitimate responses to that client because of NSTART=1.  All these
+     attacks can be prevented using a security mode other than NoSec, thus
+     leaving only attacks on the security protocol.
+"fixed": |-
+  with limited total energy available may exhaust that energy much more quickly than planned (battery depletion attack).  Also, if the client uses a Confirmable message and the server responds with a Confirmable separate response to a (possibly spoofed) address that does not respond, the server will have to allocate buffer and retransmission logic for each response up to the exhaustion of MAX_TRANSMIT_SPAN, making it more likely that it runs out of resources for processing legitimate traffic.  The latter problem can be mitigated somewhat by limiting the rate of responses as discussed in Section 4.7.  An attacker could also spoof the address of a legitimate client; this might cause the server, if it uses separate responses, to block legitimate responses to that client because of NSTART=1.  All these attacks can be prevented using a security mode other than NoSec, thus leaving only attacks on the security protocol.
+"ko": |-
+  사용 가능한 총 에너지가 제한되어 있으면 해당 에너지가 계획보다 훨씬 빨리 소모될 수 있습니다(배터리 고갈 공격). 또한 클라이언트가 확인 가능한 메시지를 사용하고 서버가 응답하지 않는 (스푸핑되었을 수 있는) 주소에 대해 확인 가능한 별도의 응답으로 응답하는 경우 서버는 MAX_TRANSMIT_SPAN이 소진될 때까지 각 응답에 대해 버퍼 및 재전송 논리를 할당해야 합니다. 합법적인 트래픽을 처리하기 위한 리소스가 부족해질 가능성이 높아집니다. 후자의 문제는 섹션 4.7에서 논의된 대로 응답 속도를 제한함으로써 어느 정도 완화될 수 있습니다. 공격자는 합법적인 클라이언트의 주소를 스푸핑할 수도 있습니다. 이로 인해 서버가 별도의 응답을 사용하는 경우 NSTART=1로 인해 해당 클라이언트에 대한 합법적인 응답을 차단할 수 있습니다. 이러한 모든 공격은 NoSec 이외의 보안 모드를 사용하여 방지할 수 있으므로 보안 프로토콜에 대한 공격만 남습니다.

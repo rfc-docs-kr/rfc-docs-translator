@@ -1,0 +1,19 @@
+"hash": |-
+  2235e7f19797fa28e0548f7fed5981e9bf52ea79958edc199f9c096f31496ff3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The cRLIssuer identifies the entity that signs and issues the CRL.
+     If present, the cRLIssuer MUST only contain the distinguished name
+     (DN) from the issuer field of the CRL to which the DistributionPoint
+     is pointing.  The encoding of the name in the cRLIssuer field MUST be
+     exactly the same as the encoding in issuer field of the CRL.  If the
+     cRLIssuer field is included and the DN in that field does not
+     correspond to an X.500 or LDAP directory entry where CRL is located,
+     then conforming CAs MUST include the distributionPoint field.
+"fixed": |-
+  The cRLIssuer identifies the entity that signs and issues the CRL. If present, the cRLIssuer MUST only contain the distinguished name (DN) from the issuer field of the CRL to which the DistributionPoint is pointing.  The encoding of the name in the cRLIssuer field MUST be exactly the same as the encoding in issuer field of the CRL.  If the cRLIssuer field is included and the DN in that field does not correspond to an X.500 or LDAP directory entry where CRL is located, then conforming CAs MUST include the distributionPoint field.
+"ko": |-
+  cRLIssuer는 CRL에 서명하고 발급하는 엔터티를 식별합니다. 존재하는 경우 cRLIssuer는 DistributionPoint가 가리키는 CRL의 발급자 필드에 있는 고유 이름(DN)만 포함해야 합니다. cRLIssuer 필드의 이름 인코딩은 CRL 발행자 필드의 인코딩과 정확히 동일해야 합니다. cRLIssuer 필드가 포함되어 있고 해당 필드의 DN이 CRL이 있는 X.500 또는 LDAP 디렉터리 항목과 일치하지 않는 경우 준수 CA는 distributionPoint 필드를 포함해야 합니다.

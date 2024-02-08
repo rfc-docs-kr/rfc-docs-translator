@@ -10,7 +10,7 @@
           services that act as 'clients' in the TLS context could be
           vulnerable.  This would be a counter-intuitive way to implement
           TLS on a service.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The FTP server that is being used to initiate a false connection will always be a 'server' in the TLS context.  Therefore, only services that act as 'clients' in the TLS context could be vulnerable.  This would be a counter-intuitive way to implement TLS on a service.
+"ko": |-
+  - 잘못된 연결을 시작하는 데 사용되는 FTP 서버는 TLS 컨텍스트에서 항상 '서버'입니다. 따라서 TLS 컨텍스트에서 '클라이언트' 역할을 하는 서비스만 취약할 수 있습니다. 이는 서비스에 TLS를 구현하는 반직관적인 방법입니다.

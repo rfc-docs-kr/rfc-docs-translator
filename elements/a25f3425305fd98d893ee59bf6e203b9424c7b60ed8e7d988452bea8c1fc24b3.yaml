@@ -1,0 +1,25 @@
+"hash": |-
+  a25f3425305fd98d893ee59bf6e203b9424c7b60ed8e7d988452bea8c1fc24b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Object Identifiers (OIDs) are used throughout this specification to
+     identify certificate policies, public key and signature algorithms,
+     certificate extensions, etc.  There is no maximum size for OIDs.
+     This specification mandates support for OIDs that have arc elements
+     with values that are less than 2^28, that is, they MUST be between 0
+     and 268,435,455, inclusive.  This allows each arc element to be
+     represented within a single 32-bit word.  Implementations MUST also
+     support OIDs where the length of the dotted decimal (see Section 1.4
+     of [RFC4512]) string representation can be up to 100 bytes
+     (inclusive).  Implementations MUST be able to handle OIDs with up to
+     20 elements (inclusive).  CAs SHOULD NOT issue certificates that
+     contain OIDs that exceed these requirements.  Likewise, CRL issuers
+     SHOULD NOT issue CRLs that contain OIDs that exceed these
+     requirements.
+"fixed": |-
+  Object Identifiers (OIDs) are used throughout this specification to identify certificate policies, public key and signature algorithms, certificate extensions, etc.  There is no maximum size for OIDs. This specification mandates support for OIDs that have arc elements with values that are less than 2^28, that is, they MUST be between 0 and 268,435,455, inclusive.  This allows each arc element to be represented within a single 32-bit word.  Implementations MUST also support OIDs where the length of the dotted decimal (see Section 1.4 of [RFC4512]) string representation can be up to 100 bytes (inclusive).  Implementations MUST be able to handle OIDs with up to 20 elements (inclusive).  CAs SHOULD NOT issue certificates that contain OIDs that exceed these requirements.  Likewise, CRL issuers SHOULD NOT issue CRLs that contain OIDs that exceed these requirements.
+"ko": |-
+  개체 식별자(OID)는 인증서 정책, 공개 키 및 서명 알고리즘, 인증서 확장 등을 식별하기 위해 이 사양 전반에 걸쳐 사용됩니다. OID의 최대 크기는 없습니다. 이 사양에서는 값이 2^28보다 작은 arc 요소가 있는 OID에 대한 지원을 요구합니다. 즉, 값은 0에서 268,435,455 사이여야 합니다. 이를 통해 각 호 요소를 단일 32비트 워드 내에서 표현할 수 있습니다. 구현은 또한 점으로 구분된 십진수([RFC4512]의 섹션 1.4 참조) 문자열 표현의 길이가 최대 100바이트(포함)일 수 있는 OID를 지원해야 합니다. 구현은 최대 20개 요소(포함)가 포함된 OID를 처리할 수 있어야 합니다(MUST). CA는 이러한 요구 사항을 초과하는 OID가 포함된 인증서를 발급해서는 안 됩니다. 마찬가지로 CRL 발급자는 이러한 요구 사항을 초과하는 OID가 포함된 CRL을 발급해서는 안 됩니다.

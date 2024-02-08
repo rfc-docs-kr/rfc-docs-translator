@@ -1,0 +1,22 @@
+"hash": |-
+  6b91fdc785574161d6d707b2171a30c6a69d25a638043e930fbb9f8a847452db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     proxy-revalidate:  The proxy-revalidate directive has the same
+           meaning as the must-revalidate directive, except that it does
+           not apply to non-shared user agent caches.  It can be used on a
+           response to an authenticated request to permit the user's cache
+           to store and later return the response without needing to
+           revalidate it (since it has already been authenticated once by
+           that user), while still requiring proxies that service many
+           users to revalidate each time (in order to make sure that each
+           user has been authenticated).  Note that such authenticated
+           responses also need the "public" cache directive in order to
+           allow them to be cached at all.
+"fixed": |-
+  proxy-revalidate:  The proxy-revalidate directive has the same meaning as the must-revalidate directive, except that it does not apply to non-shared user agent caches.  It can be used on a response to an authenticated request to permit the user's cache to store and later return the response without needing to revalidate it (since it has already been authenticated once by that user), while still requiring proxies that service many users to revalidate each time (in order to make sure that each user has been authenticated).  Note that such authenticated responses also need the "public" cache directive in order to allow them to be cached at all.
+"ko": |-
+  Proxy-revalidate: Proxy-revalidate 지시어는 비공유 사용자 에이전트 캐시에 적용되지 않는다는 점을 제외하고 must-revalidate 지시어와 동일한 의미를 갖습니다. 인증된 요청에 대한 응답에서 사용자의 캐시가 응답을 저장하고 나중에 재검증할 필요 없이 응답을 반환하도록 허용하는 동시에(해당 사용자가 이미 한 번 인증했기 때문에) 많은 사용자에게 서비스를 제공하는 프록시를 요구하는 데 사용할 수 있습니다. 매번 재검증합니다(각 사용자가 인증되었는지 확인하기 위해). 이러한 인증된 응답에도 캐시를 허용하려면 "public" 캐시 지시문이 필요합니다.

@@ -1,0 +1,1 @@
+subjectAltName은 otherName 필드를 사용하여 추가 이름 유형을 전달할 수 있습니다. 이름의 형식과 의미는 type-id 필드의 OBJECT IDENTIFIER를 통해 표시됩니다. 이름 자체는 otherName의 값 필드로 전달됩니다. 예를 들어, Kerberos [RFC4120] 형식 이름은 Kerberos 5 주체 이름 OID와 Realm 및 PrincipalName의 SEQUENCE를 사용하여 otherName으로 인코딩될 수 있습니다.

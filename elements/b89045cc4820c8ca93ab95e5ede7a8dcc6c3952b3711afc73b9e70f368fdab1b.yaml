@@ -1,0 +1,19 @@
+"hash": |-
+  b89045cc4820c8ca93ab95e5ede7a8dcc6c3952b3711afc73b9e70f368fdab1b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a delta CRL is issued, it MUST cover the same set of reasons and
+     the same set of certificates that were covered by the base CRL it
+     references.  That is, the scope of the delta CRL MUST be the same as
+     the scope of the complete CRL referenced as the base.  The referenced
+     base CRL and the delta CRL MUST omit the issuing distribution point
+     extension or contain identical issuing distribution point extensions.
+     Further, the CRL issuer MUST use the same private key to sign the
+     delta CRL and any complete CRL that it can be used to update.
+"fixed": |-
+  When a delta CRL is issued, it MUST cover the same set of reasons and the same set of certificates that were covered by the base CRL it references.  That is, the scope of the delta CRL MUST be the same as the scope of the complete CRL referenced as the base.  The referenced base CRL and the delta CRL MUST omit the issuing distribution point extension or contain identical issuing distribution point extensions. Further, the CRL issuer MUST use the same private key to sign the delta CRL and any complete CRL that it can be used to update.
+"ko": |-
+  델타 CRL이 발급되면 참조하는 기본 CRL에서 다루는 것과 동일한 이유 집합과 동일한 인증서 집합을 다루어야 합니다. 즉, 델타 CRL의 범위는 기본으로 참조되는 전체 CRL의 범위와 동일해야 합니다. 참조된 기본 CRL과 델타 CRL은 발급 배포 지점 확장을 생략하거나 동일한 발급 배포 지점 확장을 포함해야 합니다. 또한 CRL 발급자는 동일한 개인 키를 사용하여 업데이트하는 데 사용할 수 있는 델타 CRL 및 전체 CRL에 서명해야 합니다.

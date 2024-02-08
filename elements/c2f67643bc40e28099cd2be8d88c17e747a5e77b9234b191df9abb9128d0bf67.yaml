@@ -1,0 +1,17 @@
+"hash": |-
+  c2f67643bc40e28099cd2be8d88c17e747a5e77b9234b191df9abb9128d0bf67
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The exclusion of the RTP-Info in a PLAY response for RTP-
+        transported media will result in a client needing to synchronize
+        the media streams using RTCP.  This may have negative impact as
+        the RTCP can be lost and does not need to be particularly timely
+        in its arrival.  Also, functionality that informs the client from
+        which packet a seek has occurred is affected.
+"fixed": |-
+  - The exclusion of the RTP-Info in a PLAY response for RTP- transported media will result in a client needing to synchronize the media streams using RTCP.  This may have negative impact as the RTCP can be lost and does not need to be particularly timely in its arrival.  Also, functionality that informs the client from which packet a seek has occurred is affected.
+"ko": |-
+  - RTP 전송 미디어에 대한 PLAY 응답에서 RTP 정보를 제외하면 클라이언트는 RTCP를 사용하여 미디어 스트림을 동기화해야 합니다. RTCP가 손실될 수 있고 특히 적시에 도착할 필요가 없으므로 이는 부정적인 영향을 미칠 수 있습니다. 또한 검색이 발생한 패킷을 클라이언트에 알리는 기능도 영향을 받습니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  09ef42d5fa8d67a828a798126114c46ccf1e73ccf86ca0087d68e9b8d05d9642
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     a CoAP response obtained by actually requesting the representation of
+     the resource.  The value is in the CoAP identifier code format as a
+     decimal ASCII integer and MUST be in the range of 0-65535 (16-bit
+     unsigned integer).  For example, "application/xml" would be indicated
+     as "ct=41".  If no Content-Format code attribute is present, then
+     nothing about the type can be assumed.  The Content-Format code
+     attribute MAY include a space-separated sequence of Content-Format
+     codes, indicating that multiple content-formats are available.  The
+     syntax of the attribute value is summarized in the production "ct-
+     value" in Figure 12, where "cardinal", "SP", and "DQUOTE" are defined
+     as in [RFC6690].
+"fixed": |-
+  a CoAP response obtained by actually requesting the representation of the resource.  The value is in the CoAP identifier code format as a decimal ASCII integer and MUST be in the range of 0-65535 (16-bit unsigned integer).  For example, "application/xml" would be indicated as "ct=41".  If no Content-Format code attribute is present, then nothing about the type can be assumed.  The Content-Format code attribute MAY include a space-separated sequence of Content-Format codes, indicating that multiple content-formats are available.  The syntax of the attribute value is summarized in the production "ct- value" in Figure 12, where "cardinal", "SP", and "DQUOTE" are defined as in [RFC6690].
+"ko": |-
+  실제로 자원의 표현을 요청하여 얻은 CoAP 응답입니다. 값은 CoAP 식별자 코드 형식의 10진수 ASCII 정수이며 0~65535(16비트 부호 없는 정수) 범위에 있어야 합니다. 예를 들어, "application/xml"은 "ct=41"로 표시됩니다. Content-Format 코드 속성이 없으면 유형에 대해 아무 것도 가정할 수 없습니다. Content-Format 코드 속성은 여러 콘텐츠 형식이 사용 가능함을 나타내는 공백으로 구분된 Content-Format 코드 시퀀스를 포함할 수 있습니다. 속성 값의 구문은 그림 12의 생성 "ct-value"에 요약되어 있으며, 여기서 "cardinal", "SP" 및 "DQUOTE"는 [RFC6690]에서와 같이 정의됩니다.

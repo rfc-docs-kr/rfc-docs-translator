@@ -8,7 +8,7 @@
      If the REIN command is being used to clear a TLS session, then the
      reply to the REIN command MUST be sent in a protected session prior
      to the session(s) being cleared.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  If the REIN command is being used to clear a TLS session, then the reply to the REIN command MUST be sent in a protected session prior to the session(s) being cleared.
+"ko": |-
+  REIN 명령이 TLS 세션을 지우는 데 사용되는 경우 REIN 명령에 대한 응답은 세션이 지워지기 전에 보호된 세션에서 전송되어야 합니다.

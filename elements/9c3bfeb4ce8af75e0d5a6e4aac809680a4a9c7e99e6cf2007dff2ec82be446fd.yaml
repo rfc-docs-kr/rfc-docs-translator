@@ -1,0 +1,15 @@
+"hash": |-
+  9c3bfeb4ce8af75e0d5a6e4aac809680a4a9c7e99e6cf2007dff2ec82be446fd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that the output length of a MAC need not be as long as the
+     length of a symmetric cipher key, since forging of MAC values cannot
+     be done off-line: in TLS, a single failed MAC guess will cause the
+     immediate termination of the TLS session.
+"fixed": |-
+  Note that the output length of a MAC need not be as long as the length of a symmetric cipher key, since forging of MAC values cannot be done off-line: in TLS, a single failed MAC guess will cause the immediate termination of the TLS session.
+"ko": |-
+  MAC 값의 위조는 오프라인으로 수행될 수 없기 때문에 MAC의 출력 길이는 대칭 암호 키의 길이만큼 길 필요는 없습니다. TLS에서는 단일 MAC 추측에 실패하면 TLS가 즉시 종료됩니다. 세션.

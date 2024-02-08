@@ -1,0 +1,15 @@
+"hash": |-
+  75f396ca74b07ddd63d7570c9b9e77858d96bce0a001f9d4e4819f2d528b02b2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        * The path validation algorithm specified in Section 6 no longer
+          tracks the criticality of the certificate policies extensions in
+          a chain of certificates.  In RFC 3280, this information was
+          returned to a relying party.
+"fixed": |-
+  - * The path validation algorithm specified in Section 6 no longer tracks the criticality of the certificate policies extensions in a chain of certificates.  In RFC 3280, this information was returned to a relying party.
+"ko": |-
+  - * 섹션 6에 지정된 경로 유효성 검사 알고리즘은 더 이상 인증서 체인에서 인증서 정책 확장의 중요도를 추적하지 않습니다. RFC 3280에서는 이 정보가 신뢰 당사자에게 반환되었습니다.

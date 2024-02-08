@@ -1,0 +1,22 @@
+"hash": |-
+  9e6de6fa58b58a8348e80a1e154545f5c6f99e3e92e48649a3842dd7fdd613ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The PAUSE request causes the stream delivery to immediately be
+     interrupted (halted).  A PAUSE request MUST be made either with the
+     aggregated control URI for aggregated sessions, resulting in all
+     media being halted, or with the media URI for non-aggregated
+     sessions.  Any attempt to mute a single media with a PAUSE request in
+     an aggregated session MUST be responded to with a 460 (Only Aggregate
+     Operation Allowed) error.  After resuming playback, synchronization
+     of the tracks MUST be maintained.  Any server resources are kept,
+     though servers MAY close the session and free resources after being
+     paused for the duration specified with the timeout parameter of the
+     Session header in the SETUP message.
+"fixed": |-
+  The PAUSE request causes the stream delivery to immediately be interrupted (halted).  A PAUSE request MUST be made either with the aggregated control URI for aggregated sessions, resulting in all media being halted, or with the media URI for non-aggregated sessions.  Any attempt to mute a single media with a PAUSE request in an aggregated session MUST be responded to with a 460 (Only Aggregate Operation Allowed) error.  After resuming playback, synchronization of the tracks MUST be maintained.  Any server resources are kept, though servers MAY close the session and free resources after being paused for the duration specified with the timeout parameter of the Session header in the SETUP message.
+"ko": |-
+  PAUSE 요청으로 인해 스트림 전달이 즉시 중단됩니다. PAUSE 요청은 집계된 세션에 대해 집계된 제어 URI를 사용하여 모든 미디어가 중지되도록 하거나 집계되지 않은 세션에 대한 미디어 URI를 사용하여 이루어져야 합니다. 집계된 세션에서 PAUSE 요청으로 단일 미디어를 음소거하려는 모든 시도는 460(집계 작업만 허용됨) 오류로 응답해야 합니다. 재생을 재개한 후에는 트랙의 동기화가 유지되어야 합니다. 모든 서버 리소스는 유지되지만 서버는 SETUP 메시지에 있는 Session 헤더의 timeout 매개변수로 지정된 기간 동안 일시 중지된 후 세션을 닫고 리소스를 해제할 수 있습니다.

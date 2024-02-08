@@ -1,0 +1,23 @@
+"hash": |-
+  755159ce21a37b27614a42c72bbab75c6014e820bff3b8aaba7c4137de84e083
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          *  A transport spec using SRTP and MIKEY is selected and a MIKEY
+             response message can be created.  The server SHOULD use the
+             same certificate for TLS and in MIKEY to enable the client to
+             bind the two together.  If a different certificate is used,
+             it SHALL be included in the MIKEY message.  It is RECOMMENDED
+             that the envelope key-cache type be set to 'Cache' and that a
+             single envelope key is reused for all MIKEY messages to the
+             client.  That message is included in the MIKEY parameter part
+             of the single selected transport specification in the SETUP
+             response.  The server will set the SRTP parameters as
+             preferred for this media stream within the supported range by
+             the client.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

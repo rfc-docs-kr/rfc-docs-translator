@@ -1,0 +1,23 @@
+"hash": |-
+  0e41e062e7c29b50ed76dc578a7ad46d699b091f90c65abcc45e5aa864aa6f25
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipCidrRouteNextHopAS OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-create
+         STATUS     deprecated
+         DESCRIPTION
+                "The Autonomous System Number of the Next Hop.  The
+                 semantics of this object are determined by the routing-
+                 protocol specified in the route's ipCidrRouteProto
+                 value.  When this object is unknown or not relevant, its
+                 value should be set to zero."
+         DEFVAL { 0 }
+         ::= { ipCidrRouteEntry 10 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  0a0f1573fd696af3326c9eaab17276203c669e57aa8342178ed993d80bd4621c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that supports the extensions mechanism MUST accept only
+     client hello messages in either the original or extended ClientHello
+     format and (as for all other messages) MUST check that the amount of
+     data in the message precisely matches one of these formats.  If it
+     does not, then it MUST send a fatal "decode_error" alert.  This
+     overrides the "Forward compatibility note" in [TLS].
+"fixed": |-
+  A server that supports the extensions mechanism MUST accept only client hello messages in either the original or extended ClientHello format and (as for all other messages) MUST check that the amount of data in the message precisely matches one of these formats.  If it does not, then it MUST send a fatal "decode_error" alert.  This overrides the "Forward compatibility note" in [TLS].
+"ko": |-
+  확장 메커니즘을 지원하는 서버는 원본 또는 확장된 ClientHello 형식의 클라이언트 Hello 메시지만 수락해야 하며(다른 모든 메시지의 경우에도) 메시지의 데이터 양이 이러한 형식 중 하나와 정확하게 일치하는지 확인해야 합니다. 그렇지 않은 경우 치명적인 "decode_error" 경고를 보내야 합니다. 이는 [TLS]의 "향후 호환성 참고 사항"을 재정의합니다.

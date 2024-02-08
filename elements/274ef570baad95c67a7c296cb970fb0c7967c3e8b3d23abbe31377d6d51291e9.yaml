@@ -1,0 +1,22 @@
+"hash": |-
+  274ef570baad95c67a7c296cb970fb0c7967c3e8b3d23abbe31377d6d51291e9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The range can be specified in a number of units.  This specification
+     defines smpte (Section 4.4.1), npt (Section 4.4.2), and clock
+     (Section 4.4.3) range units.  While octet ranges (Byte Ranges) (see
+     Section 2.1 of [RFC7233]) and other extended units MAY be used, their
+     behavior is unspecified since they are not normally meaningful in
+     RTSP.  Servers supporting the Range header MUST understand the NPT
+     range format and SHOULD understand the SMPTE range format.  If the
+     Range header is sent in a time format that is not understood, the
+     recipient SHOULD return 456 (Header Field Not Valid for Resource) and
+     include an Accept-Ranges header indicating the supported time formats
+     for the given resource.
+"fixed": |-
+  The range can be specified in a number of units.  This specification defines smpte (Section 4.4.1), npt (Section 4.4.2), and clock (Section 4.4.3) range units.  While octet ranges (Byte Ranges) (see Section 2.1 of [RFC7233]) and other extended units MAY be used, their behavior is unspecified since they are not normally meaningful in RTSP.  Servers supporting the Range header MUST understand the NPT range format and SHOULD understand the SMPTE range format.  If the Range header is sent in a time format that is not understood, the recipient SHOULD return 456 (Header Field Not Valid for Resource) and include an Accept-Ranges header indicating the supported time formats for the given resource.
+"ko": |-
+  범위는 여러 단위로 지정할 수 있습니다. 이 사양은 smpte(섹션 4.4.1), npt(섹션 4.4.2) 및 clock(섹션 4.4.3) 범위 단위를 정의합니다. 옥텟 범위(바이트 범위)([RFC7233]의 섹션 2.1 참조) 및 기타 확장 단위를 사용할 수 있지만 해당 동작은 일반적으로 RTSP에서 의미가 없으므로 지정되지 않습니다. Range 헤더를 지원하는 서버는 NPT 범위 형식을 이해해야 하며 SMPTE 범위 형식을 이해해야 합니다. Range 헤더가 이해되지 않는 시간 형식으로 전송되는 경우 수신자는 456(리소스에 대해 유효하지 않은 헤더 필드)을 반환해야 하며 주어진 리소스에 대해 지원되는 시간 형식을 나타내는 Accept-Ranges 헤더를 포함해야 합니다.

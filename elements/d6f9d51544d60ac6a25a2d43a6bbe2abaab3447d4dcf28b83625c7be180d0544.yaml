@@ -1,0 +1,19 @@
+"hash": |-
+  d6f9d51544d60ac6a25a2d43a6bbe2abaab3447d4dcf28b83625c7be180d0544
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RTCP Receiver reports and any additional feedback from the client
+     MUST be used to adapt the bitrate used over the transport for all
+     cases when RTP is sent over UDP.  An RTP sender without reserved
+     resources MUST NOT use more than its fair share of the available
+     resources.  This can be determined by comparing on short-to-medium
+     terms (some seconds) the used bitrate and adapting it so that the RTP
+     sender sends at a bitrate comparable to what a TCP sender would
+     achieve on average over the same path.
+"fixed": |-
+  RTCP Receiver reports and any additional feedback from the client MUST be used to adapt the bitrate used over the transport for all cases when RTP is sent over UDP.  An RTP sender without reserved resources MUST NOT use more than its fair share of the available resources.  This can be determined by comparing on short-to-medium terms (some seconds) the used bitrate and adapting it so that the RTP sender sends at a bitrate comparable to what a TCP sender would achieve on average over the same path.
+"ko": |-
+  RTCP 수신기 보고서와 클라이언트의 추가 피드백은 RTP가 UDP를 통해 전송되는 모든 경우에 대해 전송을 통해 사용되는 비트 전송률을 조정하는 데 사용해야 합니다. 예약된 리소스가 없는 RTP 발신자는 사용 가능한 리소스의 공정한 분배 이상을 사용해서는 안 됩니다. 이는 사용된 비트 전송률을 단기간(몇 초)으로 비교하고 RTP 발신자가 동일한 경로에서 TCP 발신자가 평균적으로 달성하는 것과 비슷한 비트 전송률로 전송하도록 조정하여 결정할 수 있습니다.

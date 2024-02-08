@@ -1,0 +1,16 @@
+"hash": |-
+  e3af50d9594c9f3e6c66b410ed944a49f58dc66829b05efed390a8217adc14ca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If no node of depth i in the valid_policy_tree has a
+           valid_policy of ID-P but there is a node of depth i with a
+           valid_policy of anyPolicy, then generate a child node of the
+           node of depth i-1 that has a valid_policy of anyPolicy as
+           follows:
+"fixed": |-
+  - If no node of depth i in the valid_policy_tree has a valid_policy of ID-P but there is a node of depth i with a valid_policy of anyPolicy, then generate a child node of the node of depth i-1 that has a valid_policy of anyPolicy as follows:
+"ko": |-
+  - valid_policy_tree에 ID-P의 valid_policy를 갖는 깊이 i의 노드가 없지만 anyPolicy의 valid_policy를 갖는 깊이 i의 노드가 있는 경우 anyPolicy의 valid_policy를 갖는 깊이 i-1 노드의 하위 노드를 생성합니다. 다음과 같이:

@@ -1,0 +1,23 @@
+"hash": |-
+  f47cd0f27c0e61475e95b4566207de72c12d7af685ae496abad613a187be9e5b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Speed general-header field requests the server to deliver
+     specific amounts of nominal media time per unit of delivery time,
+     contingent on the server's ability and desire to serve the media
+     stream at the given speed.  The client requests the delivery speed to
+     be within a given range with a lower and upper bound.  The server
+     SHALL deliver at the highest possible speed within the range, but not
+     faster than the upper bound, for which the underlying network path
+     can support the resulting transport data rates.  As long as any speed
+     value within the given range can be provided, the server SHALL NOT
+     modify the media quality.  Only if the server is unable to deliver
+     media at the speed value provided by the lower bound shall it reduce
+     the media quality.
+"fixed": |-
+  The Speed general-header field requests the server to deliver specific amounts of nominal media time per unit of delivery time, contingent on the server's ability and desire to serve the media stream at the given speed.  The client requests the delivery speed to be within a given range with a lower and upper bound.  The server SHALL deliver at the highest possible speed within the range, but not faster than the upper bound, for which the underlying network path can support the resulting transport data rates.  As long as any speed value within the given range can be provided, the server SHALL NOT modify the media quality.  Only if the server is unable to deliver media at the speed value provided by the lower bound shall it reduce the media quality.
+"ko": |-
+  Speed ​​일반 헤더 필드는 지정된 속도로 미디어 스트림을 제공하려는 서버의 능력과 요구에 따라 전달 시간 단위당 특정 양의 명목 미디어 시간을 전달하도록 서버에 요청합니다. 클라이언트는 하한 및 상한이 있는 지정된 범위 내에 있도록 전송 속도를 요청합니다. 서버는 범위 내에서 가능한 최고 속도로 제공해야 하지만 기본 네트워크 경로가 결과 전송 데이터 속도를 지원할 수 있는 상한보다 빠르지는 않습니다. 주어진 범위 내의 속도 값이 제공될 수 있는 한 서버는 미디어 품질을 수정해서는 안 됩니다. 서버가 하한에 의해 제공되는 속도 값으로 미디어를 전달할 수 없는 경우에만 미디어 품질이 저하됩니다.

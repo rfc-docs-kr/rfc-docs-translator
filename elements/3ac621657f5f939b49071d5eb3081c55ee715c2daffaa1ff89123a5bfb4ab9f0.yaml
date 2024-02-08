@@ -1,0 +1,17 @@
+"hash": |-
+  3ac621657f5f939b49071d5eb3081c55ee715c2daffaa1ff89123a5bfb4ab9f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Servers that receive a client hello containing the "status_request"
+     extension MAY return a suitable certificate status response to the
+     client along with their certificate.  If OCSP is requested, they
+     SHOULD use the information contained in the extension when selecting
+     an OCSP responder and SHOULD include request_extensions in the OCSP
+     request.
+"fixed": |-
+  Servers that receive a client hello containing the "status_request" extension MAY return a suitable certificate status response to the client along with their certificate.  If OCSP is requested, they SHOULD use the information contained in the extension when selecting an OCSP responder and SHOULD include request_extensions in the OCSP request.
+"ko": |-
+  "status_request" 확장이 포함된 클라이언트 hello를 수신하는 서버는 인증서와 함께 클라이언트에 적합한 인증서 상태 응답을 반환할 수 있습니다. OCSP가 요청된 경우 OCSP 응답자를 선택할 때 확장에 포함된 정보를 사용해야 하며 OCSP 요청에 request_extensions를 포함해야 합니다.

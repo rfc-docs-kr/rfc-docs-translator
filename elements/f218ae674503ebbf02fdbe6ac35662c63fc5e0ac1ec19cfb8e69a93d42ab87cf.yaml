@@ -1,0 +1,19 @@
+"hash": |-
+  f218ae674503ebbf02fdbe6ac35662c63fc5e0ac1ec19cfb8e69a93d42ab87cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client MUST include the Accept-Ranges header in the request,
+     indicating all supported unit formats in the Range header.  This
+     allows the server to know which formats it may use in future session-
+     related responses, such as a PLAY response without any range in the
+     request.  If the client does not support a time format necessary for
+     the presentation, the server MUST respond using 456 (Header Field Not
+     Valid for Resource) and include the Accept-Ranges header with the
+     range unit formats supported for the resource.
+"fixed": |-
+  The client MUST include the Accept-Ranges header in the request, indicating all supported unit formats in the Range header.  This allows the server to know which formats it may use in future session- related responses, such as a PLAY response without any range in the request.  If the client does not support a time format necessary for the presentation, the server MUST respond using 456 (Header Field Not Valid for Resource) and include the Accept-Ranges header with the range unit formats supported for the resource.
+"ko": |-
+  클라이언트는 Range 헤더에서 지원되는 모든 단위 형식을 나타내는 Accept-Ranges 헤더를 요청에 포함해야 합니다. 이를 통해 서버는 요청 범위가 없는 PLAY 응답과 같은 향후 세션 관련 응답에서 어떤 형식을 사용할 수 있는지 알 수 있습니다. 클라이언트가 프레젠테이션에 필요한 시간 형식을 지원하지 않는 경우 서버는 456(리소스에 대해 유효하지 않은 헤더 필드)을 사용하여 응답해야 하며 리소스에 대해 지원되는 범위 단위 형식과 함께 Accept-Ranges 헤더를 포함해야 합니다.

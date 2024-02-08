@@ -1,0 +1,1 @@
+성능상의 이유로 많은 TLS 구현은 여러 연결에서 Diffie-Hellman 및 Elliptic Curve Diffie-Hellman 지수를 재사용합니다. 이러한 재사용은 심각한 보안 문제를 초래할 수 있습니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  dd8d572368fce6a4b80f0715ca4834e881aada81ad98ff67e80af9a20170a6fe
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardMultiPathGroup OBJECT-GROUP
+         OBJECTS { ipForwardNumber,
+                   ipForwardDest, ipForwardMask, ipForwardPolicy,
+                   ipForwardNextHop, ipForwardIfIndex, ipForwardType,
+                   ipForwardProto, ipForwardAge, ipForwardInfo,
+                   ipForwardNextHopAS,
+                   ipForwardMetric1, ipForwardMetric2, ipForwardMetric3,
+                   ipForwardMetric4, ipForwardMetric5
+             }
+         STATUS     obsolete
+         DESCRIPTION
+                "IP Multipath Route Table."
+         ::= { ipForwardGroups 2 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

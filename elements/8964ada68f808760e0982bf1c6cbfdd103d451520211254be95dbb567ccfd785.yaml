@@ -1,0 +1,21 @@
+"hash": |-
+  8964ada68f808760e0982bf1c6cbfdd103d451520211254be95dbb567ccfd785
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An RTSP request in the direction server to client MUST NOT include
+     the Accept-Credentials header.  As for the non-secured communication,
+     the possibility for these requests depends on the presence of a
+     client established connection.  However, if the server-to-client
+     request is in relation to a session established over a TLS secured
+     channel, it MUST be sent in a TLS secured connection.  That secured
+     connection MUST also be the one used by the last client-to-server
+     request.  If no such transport connection exists at the time when the
+     server desires to send the request, the server MUST discard the
+     message.
+"fixed": |-
+  An RTSP request in the direction server to client MUST NOT include the Accept-Credentials header.  As for the non-secured communication, the possibility for these requests depends on the presence of a client established connection.  However, if the server-to-client request is in relation to a session established over a TLS secured channel, it MUST be sent in a TLS secured connection.  That secured connection MUST also be the one used by the last client-to-server request.  If no such transport connection exists at the time when the server desires to send the request, the server MUST discard the message.
+"ko": |-
+  서버에서 클라이언트로 향하는 RTSP 요청에는 Accept-Credentials 헤더가 포함되어서는 안 됩니다. 비보안 통신의 경우 이러한 요청 가능성은 클라이언트 연결 설정 여부에 따라 달라집니다. 그러나 서버-클라이언트 요청이 TLS 보안 채널을 통해 설정된 세션과 관련된 경우 TLS 보안 연결을 통해 전송되어야 합니다. 해당 보안 연결은 마지막 클라이언트-서버 요청에서도 사용된 연결이어야 합니다. 서버가 요청을 보내려고 할 때 그러한 전송 연결이 존재하지 않으면 서버는 메시지를 폐기해야 합니다.

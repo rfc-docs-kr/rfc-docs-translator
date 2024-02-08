@@ -1,0 +1,23 @@
+"hash": |-
+  318c86d843b9234d182481c42e7e6b657b051e3b6c938781b4bd5d69bc0a4823
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Code:  8-bit unsigned integer, split into a 3-bit class (most
+        significant bits) and a 5-bit detail (least significant bits),
+        documented as "c.dd" where "c" is a digit from 0 to 7 for the
+        3-bit subfield and "dd" are two digits from 00 to 31 for the 5-bit
+        subfield.  The class can indicate a request (0), a success
+        response (2), a client error response (4), or a server error
+        response (5).  (All other class values are reserved.)  As a
+        special case, Code 0.00 indicates an Empty message.  In case of a
+        request, the Code field indicates the Request Method; in case of a
+        response, a Response Code.  Possible values are maintained in the
+        CoAP Code Registries (Section 12.1).  The semantics of requests
+        and responses are defined in Section 5.
+"fixed": |-
+  Code:  8-bit unsigned integer, split into a 3-bit class (most significant bits) and a 5-bit detail (least significant bits), documented as "c.dd" where "c" is a digit from 0 to 7 for the 3-bit subfield and "dd" are two digits from 00 to 31 for the 5-bit subfield.  The class can indicate a request (0), a success response (2), a client error response (4), or a server error response (5).  (All other class values are reserved.)  As a special case, Code 0.00 indicates an Empty message.  In case of a request, the Code field indicates the Request Method; in case of a response, a Response Code.  Possible values are maintained in the CoAP Code Registries (Section 12.1).  The semantics of requests and responses are defined in Section 5.
+"ko": |-
+  코드: 8비트 부호 없는 정수, 3비트 클래스(최상위 비트)와 5비트 세부 정보(최하위 비트)로 분할, "c.dd"로 문서화됨, 여기서 "c"는 0에서 7까지의 숫자임 3비트 하위 필드의 경우 "dd"는 5비트 하위 필드의 경우 00~31 사이의 두 자리 숫자입니다. 클래스는 요청(0), 성공 응답(2), 클라이언트 오류 응답(4) 또는 서버 오류 응답(5)을 나타낼 수 있습니다. (다른 모든 클래스 값은 예약되어 있습니다.) 특별한 경우로 코드 0.00은 비어 있음 메시지를 나타냅니다. 요청의 경우 코드 필드는 요청 방법을 나타냅니다. 응답의 경우 응답 코드. 가능한 값은 CoAP 코드 레지스트리(섹션 12.1)에 유지됩니다. 요청과 응답의 의미는 섹션 5에 정의되어 있습니다.

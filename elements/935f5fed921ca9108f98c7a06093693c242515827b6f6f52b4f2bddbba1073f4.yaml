@@ -1,0 +1,23 @@
+"hash": |-
+  935f5fed921ca9108f98c7a06093693c242515827b6f6f52b4f2bddbba1073f4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Scales:  A quoted comma-separated list of one or more decimal
+           values or ranges of scale values supported by the content in
+           arbitrary order.  A range has a start and stop value separated
+           by a colon.  A range indicates that the content supports a
+           fine-grained selection of scale values.  Fine-graining allows
+           for steps at least as small as one tenth of a scale value.
+           Content is considered to support fine-grained selection when
+           the server in response to a given scale value can produce
+           content with an actual scale that is less than one tenth of
+           scale unit, i.e., 0.1, from the requested value.  Negative
+           values are supported.  The value 0 has no meaning and MUST NOT
+           be used.
+"fixed": |-
+  - Scales:  A quoted comma-separated list of one or more decimal values or ranges of scale values supported by the content in arbitrary order.  A range has a start and stop value separated by a colon.  A range indicates that the content supports a fine-grained selection of scale values.  Fine-graining allows for steps at least as small as one tenth of a scale value. Content is considered to support fine-grained selection when the server in response to a given scale value can produce content with an actual scale that is less than one tenth of scale unit, i.e., 0.1, from the requested value.  Negative values are supported.  The value 0 has no meaning and MUST NOT be used.
+"ko": |-
+  - 척도: 콘텐츠가 임의 순서로 지원하는 하나 이상의 소수 값 또는 척도 값 범위를 따옴표로 묶어 쉼표로 구분한 목록입니다. 범위에는 콜론으로 구분된 시작 및 중지 값이 있습니다. 범위는 콘텐츠가 배율 값의 세부적인 선택을 지원함을 나타냅니다. 세밀한 조정을 통해 최소한 척도 값의 1/10만큼 작은 단계를 허용합니다. 서버가 주어진 스케일 값에 응답하여 요청된 값에서 스케일 단위의 10분의 1 미만, 즉 0.1 미만의 실제 스케일로 콘텐츠를 생성할 수 있는 경우 콘텐츠의 세분화된 선택을 지원하는 것으로 간주됩니다. 음수 값이 지원됩니다. 값 0은 의미가 없으며 사용해서는 안 됩니다.

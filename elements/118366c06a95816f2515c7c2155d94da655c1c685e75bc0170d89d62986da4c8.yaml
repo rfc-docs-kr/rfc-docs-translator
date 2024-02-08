@@ -1,0 +1,18 @@
+"hash": |-
+  118366c06a95816f2515c7c2155d94da655c1c685e75bc0170d89d62986da4c8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A responder SHOULD respond to all requests within 5 seconds.  If the
+     responder recognizes that the processing of a request will take
+     longer than 5 seconds, it SHOULD send a 100 (Continue) response as
+     soon as possible.  It SHOULD continue sending a 100 response every 5
+     seconds thereafter until it is ready to send the final response to
+     the requester.  After sending a 100 response, the responder MUST send
+     a final response indicating the success or failure of the request.
+"fixed": |-
+  A responder SHOULD respond to all requests within 5 seconds.  If the responder recognizes that the processing of a request will take longer than 5 seconds, it SHOULD send a 100 (Continue) response as soon as possible.  It SHOULD continue sending a 100 response every 5 seconds thereafter until it is ready to send the final response to the requester.  After sending a 100 response, the responder MUST send a final response indicating the success or failure of the request.
+"ko": |-
+  응답자는 5초 이내에 모든 요청에 ​​응답해야 합니다. 응답자가 요청 처리에 5초 이상 걸릴 것임을 인식하면 가능한 한 빨리 100(계속) 응답을 보내야 합니다. 이후 요청자에게 최종 응답을 보낼 준비가 될 때까지 5초마다 100개의 응답을 계속 보내야 합니다. 100 응답을 보낸 후 응답자는 요청의 성공 또는 실패를 나타내는 최종 응답을 보내야 합니다.

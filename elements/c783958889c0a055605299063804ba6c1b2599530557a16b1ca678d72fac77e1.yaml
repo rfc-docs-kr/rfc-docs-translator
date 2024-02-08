@@ -1,0 +1,15 @@
+"hash": |-
+  c783958889c0a055605299063804ba6c1b2599530557a16b1ca678d72fac77e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The cRLSign bit is asserted when the subject public key is used
+        for verifying a signature on certificate revocation list (e.g., a
+        CRL, delta CRL, or an ARL).  This bit MUST be asserted in
+        certificates that are used to verify signatures on CRLs.
+"fixed": |-
+  - The cRLSign bit is asserted when the subject public key is used for verifying a signature on certificate revocation list (e.g., a CRL, delta CRL, or an ARL).  This bit MUST be asserted in certificates that are used to verify signatures on CRLs.
+"ko": |-
+  - 인증서 해지 목록(예: CRL, 델타 CRL 또는 ARL)의 서명을 확인하기 위해 주체 공개 키가 사용될 때 cRLSign 비트가 어설션됩니다. 이 비트는 CRL의 서명을 확인하는 데 사용되는 인증서에서 주장되어야 합니다.

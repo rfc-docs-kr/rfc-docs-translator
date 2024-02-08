@@ -1,0 +1,19 @@
+"hash": |-
+  1f6f81bd08c795f2a3979aad181e1e1c71e9548597c0b9d5131b98056b41047b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o The elliptic curve public key (a value of type ECPoint that is
+          an OCTET STRING) is mapped to a subjectPublicKey (a value of
+          type BIT STRING) as follows: the most significant bit of the
+          OCTET STRING value becomes the most significant bit of the BIT
+          STRING value, and so on; the least significant bit of the OCTET
+          STRING becomes the least significant bit of the BIT STRING.
+          Conversion routines are found in Sections 2.3.1 and 2.3.2 of
+          [SEC1].
+"fixed": |-
+  - The elliptic curve public key (a value of type ECPoint that is an OCTET STRING) is mapped to a subjectPublicKey (a value of type BIT STRING) as follows: the most significant bit of the OCTET STRING value becomes the most significant bit of the BIT STRING value, and so on; the least significant bit of the OCTET STRING becomes the least significant bit of the BIT STRING. Conversion routines are found in Sections 2.3.1 and 2.3.2 of [SEC1].
+"ko": |-
+  - 타원 곡선 공개 키(OCTET STRING인 ECPoint 유형의 값)는 다음과 같이 subjectPublicKey(BIT STRING 유형의 값)에 매핑됩니다. OCTET STRING 값의 최상위 비트는 BIT STRING 값 등 OCTET STRING의 최하위 비트는 BIT STRING의 최하위 비트가 됩니다. 변환 루틴은 [SEC1]의 섹션 2.3.1 및 2.3.2에 나와 있습니다.

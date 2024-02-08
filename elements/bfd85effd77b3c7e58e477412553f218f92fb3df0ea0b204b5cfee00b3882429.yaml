@@ -1,0 +1,16 @@
+"hash": |-
+  bfd85effd77b3c7e58e477412553f218f92fb3df0ea0b204b5cfee00b3882429
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  MAX_TRANSMIT_WAIT is the maximum time from the first transmission
+        of a Confirmable message to the time when the sender gives up on
+        receiving an acknowledgement or reset.  For the default
+        transmission parameters, the value is (2+4+8+16+32)*1.5 = 93
+        seconds, or more generally:
+"fixed": |-
+  -  MAX_TRANSMIT_WAIT is the maximum time from the first transmission of a Confirmable message to the time when the sender gives up on receiving an acknowledgement or reset.  For the default transmission parameters, the value is (2+4+8+16+32)*1.5 = 93 seconds, or more generally:
+"ko": |-
+  - MAX_TRANSMIT_WAIT는 확인 가능 메시지의 첫 번째 전송부터 보낸 사람이 확인 또는 재설정 수신을 포기할 때까지의 최대 시간입니다. 기본 전송 매개변수의 경우 값은 (2+4+8+16+32)*1.5 = 93초 또는 더 일반적으로는 다음과 같습니다.

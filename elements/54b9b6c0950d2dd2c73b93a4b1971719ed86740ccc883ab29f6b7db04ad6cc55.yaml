@@ -1,0 +1,18 @@
+"hash": |-
+  54b9b6c0950d2dd2c73b93a4b1971719ed86740ccc883ab29f6b7db04ad6cc55
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the proxy is unable or unwilling to service a request with a CoAP
+     URI, a 501 (Not Implemented) response is returned to the client.  If
+     the proxy services the request by interacting with a third party
+     (such as the CoAP origin server) and is unable to obtain a result
+     within a reasonable time frame, a 504 (Gateway Timeout) response is
+     returned; if a result can be obtained but is not understood, a 502
+     (Bad Gateway) response is returned.
+"fixed": |-
+  If the proxy is unable or unwilling to service a request with a CoAP URI, a 501 (Not Implemented) response is returned to the client.  If the proxy services the request by interacting with a third party (such as the CoAP origin server) and is unable to obtain a result within a reasonable time frame, a 504 (Gateway Timeout) response is returned; if a result can be obtained but is not understood, a 502 (Bad Gateway) response is returned.
+"ko": |-
+  프록시가 CoAP URI를 사용하여 요청을 처리할 수 없거나 처리할 의사가 없는 경우 501(구현되지 않음) 응답이 클라이언트에 반환됩니다. 프록시가 제3자(예: CoAP 원본 서버)와 상호 작용하여 요청을 처리하고 합리적인 시간 내에 결과를 얻을 수 없는 경우 504(Gateway Timeout) 응답이 반환됩니다. 결과를 얻을 수 있지만 이해할 수 없는 경우 502(잘못된 게이트웨이) 응답이 반환됩니다.

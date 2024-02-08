@@ -1,0 +1,20 @@
+"hash": |-
+  d17246f1b8c3ecc7f9f4cc627dc7bda9da66512b4d34d3c8be68e30476a3b8bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note:  The Cache-Key indication is relevant only for proxies that do
+        not implement the given option as a request option and instead
+        rely on the Unsafe/Safe-to-Forward indication only.  For example,
+        for ETag, actually using the request option as a part of the
+        Cache-Key is grossly inefficient, but it is the best thing one can
+        do if ETag is not implemented by a proxy, as the response is going
+        to differ based on the presence of the request option.  A more
+        useful proxy that does implement the ETag request option is not
+        using ETag as a part of the Cache-Key.
+"fixed": |-
+  Note:  The Cache-Key indication is relevant only for proxies that do not implement the given option as a request option and instead rely on the Unsafe/Safe-to-Forward indication only.  For example, for ETag, actually using the request option as a part of the Cache-Key is grossly inefficient, but it is the best thing one can do if ETag is not implemented by a proxy, as the response is going to differ based on the presence of the request option.  A more useful proxy that does implement the ETag request option is not using ETag as a part of the Cache-Key.
+"ko": |-
+  참고: 캐시 키 표시는 지정된 옵션을 요청 옵션으로 구현하지 않고 대신 안전하지 않음/전달 안전 표시에만 의존하는 프록시에만 관련됩니다. 예를 들어, ETag의 경우 요청 옵션을 Cache-Key의 일부로 실제로 사용하는 것은 매우 비효율적이지만, ETag가 프록시에 의해 구현되지 않은 경우 할 수 있는 최선의 방법입니다. 요청 옵션의 존재. ETag 요청 옵션을 구현하는 더 유용한 프록시는 ETag를 Cache-Key의 일부로 사용하지 않는 것입니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  c33ed435cc52028c9bcc9d8b60c23b1f2490fc5fa301f6e05f5be28427f36602
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Non-modifying:  The audit proxy is special in that it does not modify
+        the messages in other ways than to insert the Via header.  That
+        makes it possible for this type to forward RTSP messages that
+        contain different types of unknown methods, headers, or header
+        parameters.
+"fixed": |-
+  Non-modifying:  The audit proxy is special in that it does not modify the messages in other ways than to insert the Via header.  That makes it possible for this type to forward RTSP messages that contain different types of unknown methods, headers, or header parameters.
+"ko": |-
+  수정하지 않음: 감사 프록시는 Via 헤더를 삽입하는 것 외에 다른 방법으로 메시지를 수정하지 않는다는 점에서 특별합니다. 이를 통해 이 유형은 다양한 유형의 알려지지 않은 메서드, 헤더 또는 헤더 매개변수가 포함된 RTSP 메시지를 전달할 수 있습니다.

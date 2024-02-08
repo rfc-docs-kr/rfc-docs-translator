@@ -7,7 +7,7 @@
 "original": |2-
            If an ICMP message of unknown type is received, it MUST be
            silently discarded.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - If an ICMP message of unknown type is received, it MUST be silently discarded.
+"ko": |-
+  - 알 수 없는 유형의 ICMP 메시지가 수신되면 자동으로 폐기되어야 합니다.

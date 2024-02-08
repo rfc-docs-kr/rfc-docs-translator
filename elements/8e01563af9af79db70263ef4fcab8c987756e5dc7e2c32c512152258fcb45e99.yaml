@@ -1,0 +1,18 @@
+"hash": |-
+  8e01563af9af79db70263ef4fcab8c987756e5dc7e2c32c512152258fcb45e99
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        way back.  Note that there is no need to consider
+        MAX_TRANSMIT_WAIT if the configuration is chosen such that the
+        last waiting period (ACK_TIMEOUT * (2 ** MAX_RETRANSMIT) or the
+        difference between MAX_TRANSMIT_SPAN and MAX_TRANSMIT_WAIT) is
+        less than MAX_LATENCY -- which is a likely choice, as MAX_LATENCY
+        is a worst-case value unlikely to be met in the real world.  In
+        this case, EXCHANGE_LIFETIME simplifies to:
+"fixed": |-
+  - way back.  Note that there is no need to consider MAX_TRANSMIT_WAIT if the configuration is chosen such that the last waiting period (ACK_TIMEOUT * (2 ** MAX_RETRANSMIT) or the difference between MAX_TRANSMIT_SPAN and MAX_TRANSMIT_WAIT) is less than MAX_LATENCY -- which is a likely choice, as MAX_LATENCY is a worst-case value unlikely to be met in the real world.  In this case, EXCHANGE_LIFETIME simplifies to:
+"ko": |-
+  - 돌아 오는 길에. 마지막 대기 기간(ACK_TIMEOUT * (2 ** MAX_RETRANSMIT) 또는 MAX_TRANSMIT_SPAN과 MAX_TRANSMIT_WAIT의 차이)이 MAX_LATENCY보다 작도록 구성을 선택한 경우 MAX_TRANSMIT_WAIT를 고려할 필요가 없습니다. 이는 다음과 같이 선택 가능성이 높습니다. MAX_LATENCY는 현실 세계에서 충족될 가능성이 없는 최악의 경우 값입니다. 이 경우 EXCHANGE_LIFETIME은 다음과 같이 단순화됩니다.

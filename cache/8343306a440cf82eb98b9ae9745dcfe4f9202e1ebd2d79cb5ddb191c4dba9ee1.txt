@@ -1,0 +1,1 @@
+UnformattedPostalAddress ::= SET { 인쇄 가능 주소 SEQUENCE SIZE (1..ub-pds-physical-address-lines) OF PrintableString (SIZE (1..ub-pds-parameter-length)) 선택 사항, teletex-string TeletexString (SIZE (1..ub-형식화되지 않은 주소-길이)) 선택 사항 }

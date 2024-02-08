@@ -1,0 +1,1 @@
+SDP 속성 "a=sendrecv", "a=recvonly" 및 "a=sendonly"는 세션 내에서 미디어 스트림 흐름 방향에 대한 지침을 제공합니다. RTSP를 사용하는 경우 RTSP DESCRIBE 또는 HTTP, FTP, 이메일과 같은 다양한 RTSP 외부 방법을 사용하여 SDP를 클라이언트에 전달할 수 있습니다. 이를 기반으로 SDP는 RTSP 클라이언트가 전체 세션을 보는 방법에 적용됩니다. 따라서 RTSP 서버에서 클라이언트로 전달되는 미디어 스트림에는 "a=recvonly" 속성이 부여됩니다.

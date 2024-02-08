@@ -1,0 +1,18 @@
+"hash": |-
+  4f2dfae57b86978f0127b314fa6ff6f6257985750bdbc51209d1c572223027d8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Transport        =  "Transport" HCOLON transport-spec
+                         *(COMMA transport-spec)
+     transport-spec   =  transport-id *trns-parameter
+     transport-id     =  trans-id-rtp / other-trans
+     trans-id-rtp     =  "RTP/" profile ["/" lower-transport]
+                         ; no LWS is allowed inside transport-id
+     other-trans      =  token *("/" token)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

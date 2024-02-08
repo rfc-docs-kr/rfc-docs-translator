@@ -1,0 +1,15 @@
+"hash": |-
+  56bd0134e444501e8e0697d97e88558693ba3841845296ae9df9da607f340291
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     GET_PARAMETER:  When using GET_PARAMETER for keep-alives, a body
+           SHOULD NOT be included, dependent on implementation support in
+           the server.  Use the OPTIONS method to determine if there is
+           method support or simply try.
+"fixed": |-
+  GET_PARAMETER:  When using GET_PARAMETER for keep-alives, a body SHOULD NOT be included, dependent on implementation support in the server.  Use the OPTIONS method to determine if there is method support or simply try.
+"ko": |-
+  GET_PARAMETER: 연결 유지를 위해 GET_PARAMETER를 사용할 때 서버의 구현 지원에 따라 본문을 포함해서는 안 됩니다. OPTIONS 메서드를 사용하여 메서드 지원이 있는지 확인하거나 간단히 시도해 보세요.

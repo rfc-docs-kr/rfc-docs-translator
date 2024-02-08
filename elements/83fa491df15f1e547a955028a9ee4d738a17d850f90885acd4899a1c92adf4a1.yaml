@@ -1,0 +1,16 @@
+"hash": |-
+  83fa491df15f1e547a955028a9ee4d738a17d850f90885acd4899a1c92adf4a1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Server           =  "Server" HCOLON ( product / comment )
+                         *(LWS (product / comment))
+     product          =  token [SLASH product-version]
+     product-version  =  token
+     comment          =  LPAREN *( ctext / quoted-pair) RPAREN
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -8,7 +8,7 @@
         - Deny any command before TLS is negotiated (this might cause
           problems if a SITE or some such command is required prior to
           login).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - Deny any command before TLS is negotiated (this might cause problems if a SITE or some such command is required prior to login).
+"ko": |-
+  - TLS가 협상되기 전에 모든 명령을 거부합니다(로그인 전에 SITE 또는 일부 명령이 필요한 경우 문제가 발생할 수 있음).

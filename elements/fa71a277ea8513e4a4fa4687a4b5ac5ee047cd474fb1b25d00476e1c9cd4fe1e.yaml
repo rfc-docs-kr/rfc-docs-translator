@@ -1,0 +1,23 @@
+"hash": |-
+  fa71a277ea8513e4a4fa4687a4b5ac5ee047cd474fb1b25d00476e1c9cd4fe1e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A PLAY_NOTIFY request with the Notify-Reason header set to end-of-
+     stream indicates the completion or near completion of the PLAY
+     request and the ending delivery of the media stream(s).  The request
+     MUST NOT be issued unless the server is in the Play state.  The end
+     of the media stream delivery notification may be used either to
+     indicate a successful completion of the PLAY request currently being
+     served or to indicate some error resulting in failure to complete the
+     request.  The Request-Status header (Section 18.42) MUST be included
+     to indicate which request the notification is for and its completion
+     status.  The message response status codes (Section 8.1.1) are used
+     to indicate how the PLAY request concluded.  The sender of a
+     PLAY_NOTIFY MAY issue an updated PLAY_NOTIFY, in the case of a
+"fixed": |-
+  A PLAY_NOTIFY request with the Notify-Reason header set to end-of- stream indicates the completion or near completion of the PLAY request and the ending delivery of the media stream(s).  The request MUST NOT be issued unless the server is in the Play state.  The end of the media stream delivery notification may be used either to indicate a successful completion of the PLAY request currently being served or to indicate some error resulting in failure to complete the request.  The Request-Status header (Section 18.42) MUST be included to indicate which request the notification is for and its completion status.  The message response status codes (Section 8.1.1) are used to indicate how the PLAY request concluded.  The sender of a PLAY_NOTIFY MAY issue an updated PLAY_NOTIFY, in the case of a
+"ko": |-
+  Notify-Reason 헤더가 end-of-stream으로 설정된 PLAY_NOTIFY 요청은 PLAY 요청이 완료되었거나 거의 완료되었으며 미디어 스트림 전달이 종료되었음을 나타냅니다. 서버가 Play 상태가 아니면 요청을 발행해서는 안 됩니다. 미디어 스트림 전달 알림의 끝은 현재 제공되는 PLAY 요청이 성공적으로 완료되었음을 나타내거나 일부 오류로 인해 요청을 완료하지 못했음을 나타내는 데 사용될 수 있습니다. Request-Status 헤더(18.42절)는 알림이 어떤 요청에 대한 것인지와 그 완료 상태를 나타내기 위해 포함되어야 합니다. 메시지 응답 상태 코드(8.1.1절)는 PLAY 요청이 어떻게 완료되었는지 나타내는 데 사용됩니다. PLAY_NOTIFY의 발신자는 업데이트된 PLAY_NOTIFY를 발행할 수 있습니다.

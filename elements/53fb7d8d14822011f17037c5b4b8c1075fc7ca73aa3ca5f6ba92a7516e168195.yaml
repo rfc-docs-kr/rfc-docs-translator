@@ -1,0 +1,19 @@
+"hash": |-
+  53fb7d8d14822011f17037c5b4b8c1075fc7ca73aa3ca5f6ba92a7516e168195
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An RTSP server or proxy in an overload situation must select the
+     value of the Retry-After header carefully, bearing in mind its
+     current load situation.  It is REQUIRED to increase the timeout
+     period in proportion to the current load on the server, i.e., an
+     increasing workload should result in an increased length of the
+     indicated unavailability.  It is REQUIRED not to send the same value
+     in the Retry-After header to all requesting proxies and clients, but
+     to add a variation to the mean value of the Retry-After header.
+"fixed": |-
+  An RTSP server or proxy in an overload situation must select the value of the Retry-After header carefully, bearing in mind its current load situation.  It is REQUIRED to increase the timeout period in proportion to the current load on the server, i.e., an increasing workload should result in an increased length of the indicated unavailability.  It is REQUIRED not to send the same value in the Retry-After header to all requesting proxies and clients, but to add a variation to the mean value of the Retry-After header.
+"ko": |-
+  과부하 상황의 RTSP 서버 또는 프록시는 현재 로드 상황을 염두에 두고 Retry-After 헤더 값을 신중하게 선택해야 합니다. 서버의 현재 로드에 비례하여 시간 초과 기간을 늘려야 합니다. 즉, 작업 로드가 증가하면 표시된 비가용성 기간이 길어집니다. Retry-After 헤더의 동일한 값을 요청하는 모든 프록시 및 클라이언트에 전송하는 것이 아니라 Retry-After 헤더의 평균 값에 변형을 추가하는 것이 필수입니다.

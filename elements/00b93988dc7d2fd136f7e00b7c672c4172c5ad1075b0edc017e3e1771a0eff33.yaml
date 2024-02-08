@@ -1,0 +1,27 @@
+"hash": |-
+  00b93988dc7d2fd136f7e00b7c672c4172c5ad1075b0edc017e3e1771a0eff33
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     "Optional" means that an agent MAY include the header field in a
+     request or response.  The agent behavior when receiving such headers
+     varies; for some, it may ignore the header field.  In other cases, it
+     is a request to process the header.  This is regulated by the method
+     and header descriptions.  Examples of headers that require processing
+     are the Require and Proxy-Require header fields discussed in Sections
+     18.43 and 18.37.  A "mandatory" header field MUST be present in a
+     request, and it MUST be understood by the agent receiving the
+     request.  A mandatory response-header field MUST be present in the
+     response, and the header field MUST be understood by the processing
+     the response.  "Not applicable" means that the header field MUST NOT
+     be present in a request.  If one is placed in a request by mistake,
+     it MUST be ignored by the agent receiving the request.  Similarly, a
+     header field labeled "not applicable" for a response means that the
+     agent MUST NOT place the header field in the response, and the agent
+     MUST ignore the header field in the response.
+"fixed": |-
+  "Optional" means that an agent MAY include the header field in a request or response.  The agent behavior when receiving such headers varies; for some, it may ignore the header field.  In other cases, it is a request to process the header.  This is regulated by the method and header descriptions.  Examples of headers that require processing are the Require and Proxy-Require header fields discussed in Sections 18.43 and 18.37.  A "mandatory" header field MUST be present in a request, and it MUST be understood by the agent receiving the request.  A mandatory response-header field MUST be present in the response, and the header field MUST be understood by the processing the response.  "Not applicable" means that the header field MUST NOT be present in a request.  If one is placed in a request by mistake, it MUST be ignored by the agent receiving the request.  Similarly, a header field labeled "not applicable" for a response means that the agent MUST NOT place the header field in the response, and the agent MUST ignore the header field in the response.
+"ko": |-
+  "선택적"은 에이전트가 요청 또는 응답에 헤더 필드를 포함할 수 있음을 의미합니다. 그러한 헤더를 수신할 때 에이전트의 동작은 다양합니다. 일부의 경우 헤더 필드를 무시할 수 있습니다. 다른 경우에는 헤더 처리 요청입니다. 이는 메소드와 헤더 설명에 의해 규제됩니다. 처리가 필요한 헤더의 예로는 섹션 18.43 및 18.37에서 설명한 Require 및 Proxy-Require 헤더 필드가 있습니다. 요청에는 "필수" 헤더 필드가 있어야 하며 요청을 수신하는 에이전트가 이를 이해해야 합니다. 응답에는 필수 응답 헤더 필드가 있어야 하며, 응답 처리 시 헤더 필드를 이해해야 합니다. "해당 사항 없음"은 헤더 필드가 요청에 있어서는 안 된다는 의미입니다. 실수로 요청에 포함된 경우 요청을 받는 에이전트는 이를 무시해야 합니다. 마찬가지로, 응답에 대해 "해당 없음"이라고 표시된 헤더 필드는 에이전트가 응답에 헤더 필드를 배치해서는 안 되며 에이전트가 응답의 헤더 필드를 무시해야 함을 의미합니다.

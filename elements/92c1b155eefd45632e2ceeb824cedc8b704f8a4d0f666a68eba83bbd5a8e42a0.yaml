@@ -1,0 +1,20 @@
+"hash": |-
+  92c1b155eefd45632e2ceeb824cedc8b704f8a4d0f666a68eba83bbd5a8e42a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a cache that recognizes and processes the ETag response option
+     receives a 2.03 (Valid) response, it MUST update the stored response
+     with the value of the Max-Age Option included in the response
+     (explicitly, or implicitly as a default value; see also
+     Section 5.6.2).  For each type of Safe-to-Forward option present in
+     the response, the (possibly empty) set of options of this type that
+     are present in the stored response MUST be replaced with the set of
+     options of this type in the response received.  (Unsafe options may
+     trigger similar option-specific processing as defined by the option.)
+"fixed": |-
+  When a cache that recognizes and processes the ETag response option receives a 2.03 (Valid) response, it MUST update the stored response with the value of the Max-Age Option included in the response (explicitly, or implicitly as a default value; see also Section 5.6.2).  For each type of Safe-to-Forward option present in the response, the (possibly empty) set of options of this type that are present in the stored response MUST be replaced with the set of options of this type in the response received.  (Unsafe options may trigger similar option-specific processing as defined by the option.)
+"ko": |-
+  ETag 응답 옵션을 인식하고 처리하는 캐시가 2.03(유효) 응답을 수신하면 응답에 포함된 Max-Age 옵션 값으로 저장된 응답을 업데이트해야 합니다(명시적으로 또는 묵시적으로 기본값으로; 참조). 섹션 5.6.2). 응답에 있는 각 유형의 Safe-to-Forward 옵션에 대해 저장된 응답에 있는 이 유형의 옵션 세트(아마도 비어 있을 수 있음)는 수신된 응답에 있는 이 유형의 옵션 세트로 대체되어야 합니다. (안전하지 않은 옵션은 옵션에 정의된 것과 유사한 옵션별 처리를 트리거할 수 있습니다.)

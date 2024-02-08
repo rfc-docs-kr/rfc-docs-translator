@@ -1,0 +1,18 @@
+"hash": |-
+  dbbc3e107108e9bfb14b12f0cd59be16a6798a09136cb2c064e1f07fd160f2a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This code is similar to 401 (Unauthorized) (Section 17.4.2), but it
+     indicates that the client must first authenticate itself with the
+     proxy.  The usage of this error code is defined in [RFC7235] and any
+     applicable HTTP authentication scheme, such as Digest [RFC7616].  The
+     proxy MUST return a Proxy-Authenticate header field (Section 18.34)
+     containing a challenge applicable to the proxy for the requested
+     resource.
+"fixed": |-
+  This code is similar to 401 (Unauthorized) (Section 17.4.2), but it indicates that the client must first authenticate itself with the proxy.  The usage of this error code is defined in [RFC7235] and any applicable HTTP authentication scheme, such as Digest [RFC7616].  The proxy MUST return a Proxy-Authenticate header field (Section 18.34) containing a challenge applicable to the proxy for the requested resource.
+"ko": |-
+  이 코드는 401(Unauthorized)(섹션 17.4.2)과 유사하지만 클라이언트가 먼저 프록시를 통해 자신을 인증해야 함을 나타냅니다. 이 오류 코드의 사용법은 [RFC7235] 및 다이제스트 [RFC7616]와 같은 적용 가능한 HTTP 인증 체계에 정의되어 있습니다. 프록시는 요청된 리소스에 대해 프록시에 적용 가능한 챌린지를 포함하는 Proxy-Authenticate 헤더 필드(18.34절)를 반환해야 합니다.

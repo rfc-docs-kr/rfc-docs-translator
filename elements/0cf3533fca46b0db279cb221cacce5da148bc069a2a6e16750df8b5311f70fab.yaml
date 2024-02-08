@@ -1,0 +1,13 @@
+"hash": |-
+  0cf3533fca46b0db279cb221cacce5da148bc069a2a6e16750df8b5311f70fab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (f)  Verify that either explicit_policy is greater than 0 or the
+        valid_policy_tree is not equal to NULL;
+"fixed": |-
+  - (f)  Verify that either explicit_policy is greater than 0 or the valid_policy_tree is not equal to NULL;
+"ko": |-
+  - (f)explicit_policy가 0보다 크거나 valid_policy_tree가 NULL이 아닌지 확인하십시오.

@@ -1,0 +1,43 @@
+"hash": |-
+  ea735ad6e0d7eff6a54057642ec7eefb5e47b68f332ca551bacfdf3a0c2cce44
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     If-Modified-Since  =  "If-Modified-Since" HCOLON RTSP-date
+     If-None-Match    =  "If-None-Match" HCOLON ("*" / message-tag-list)
+     Last-Modified    =  "Last-Modified" HCOLON RTSP-date
+     Location         =  "Location" HCOLON RTSP-REQ-URI
+     Media-Properties = "Media-Properties" HCOLON [media-prop-list]
+     media-prop-list  = media-prop-value *(COMMA media-prop-value)
+     media-prop-value = ("Random-Access" [EQUAL POS-FLOAT])
+                      / "Beginning-Only"
+                      / "No-Seeking"
+                      / "Immutable"
+                      / "Dynamic"
+                      / "Time-Progressing"
+                      / "Unlimited"
+                      / ("Time-Limited" EQUAL utc-time)
+                      / ("Time-Duration" EQUAL POS-FLOAT)
+                      / ("Scales" EQUAL scale-value-list)
+                      / media-prop-ext
+     media-prop-ext   = token [EQUAL (1*rtsp-unreserved / quoted-string)]
+     scale-value-list = DQUOTE scale-entry *(COMMA scale-entry) DQUOTE
+     scale-entry      = scale-value / (scale-value COLON scale-value)
+     scale-value      = FLOAT
+     Media-Range      = "Media-Range" HCOLON [ranges-list]
+     ranges-list      =  ranges-spec *(COMMA ranges-spec)
+     MTag             =  "MTag" HCOLON message-tag
+     Notify-Reason    = "Notify-Reason" HCOLON Notify-Reas-val
+     Notify-Reas-val  = "end-of-stream"
+                      / "media-properties-update"
+                      / "scale-change"
+                      / Notify-Reason-extension
+     Notify-Reason-extension  = token
+     Pipelined-Requests = "Pipelined-Requests" HCOLON startup-id
+     startup-id  = 1*8DIGIT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

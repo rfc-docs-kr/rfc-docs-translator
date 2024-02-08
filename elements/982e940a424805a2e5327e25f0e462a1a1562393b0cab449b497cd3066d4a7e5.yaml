@@ -1,0 +1,25 @@
+"hash": |-
+  982e940a424805a2e5327e25f0e462a1a1562393b0cab449b497cd3066d4a7e5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipCidrRouteType OBJECT-TYPE
+         SYNTAX     INTEGER {
+                     other    (1), -- not specified by this MIB
+                     reject   (2), -- route that discards traffic
+                     local    (3), -- local interface
+                     remote   (4)  -- remote destination
+                  }
+         MAX-ACCESS read-create
+         STATUS     deprecated
+         DESCRIPTION
+                "The type of route.  Note that local(3) refers to a
+                 route for which the next hop is the final destination;
+                 remote(4) refers to a route for which the next hop is
+                 not the final destination.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

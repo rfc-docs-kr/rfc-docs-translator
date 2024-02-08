@@ -12,7 +12,7 @@
            the state in which a user finds himself immediately after the
            control connection is opened.  A USER command may be expected
            to follow.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - This command terminates a USER, flushing all I/O and account information, except to allow any transfer in progress to be completed.  All parameters are reset to the default settings and the control connection is left open.  This is identical to the state in which a user finds himself immediately after the control connection is opened.  A USER command may be expected to follow.
+"ko": |-
+  - 이 명령은 진행 중인 전송 완료를 허용하는 경우를 제외하고 모든 I/O 및 계정 정보를 플러시하여 USER를 종료합니다. 모든 매개변수가 기본 설정으로 재설정되고 제어 연결은 열린 상태로 유지됩니다. 이는 사용자가 제어 연결이 열리자마자 바로 자신을 발견하는 상태와 동일하다. USER 명령이 뒤따를 것으로 예상될 수 있습니다.

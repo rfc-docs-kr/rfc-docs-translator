@@ -1,0 +1,21 @@
+"hash": |-
+  71436534aeaf75a036eef3a5bde6eee404a616a1fa6ee8ddc5c2e431fea53476
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RSAPrivateKey ::= SEQUENCE {
+       version Version,
+       modulus INTEGER, -- n
+       publicExponent INTEGER, -- e
+       privateExponent INTEGER, -- d
+       prime1 INTEGER, -- p
+       prime2 INTEGER, -- q
+       exponent1 INTEGER, -- d mod (p-1)
+       exponent2 INTEGER, -- d mod (q-1)
+       coefficient INTEGER -- (inverse of q) mod p }
+"fixed": |-
+  RSAPrivateKey ::= SEQUENCE { version Version, modulus INTEGER, -- n publicExponent INTEGER, -- e privateExponent INTEGER, -- d prime1 INTEGER, -- p prime2 INTEGER, -- q exponent1 INTEGER, -- d mod (p-1) exponent2 INTEGER, -- d mod (q-1) coefficient INTEGER -- (inverse of q) mod p }
+"ko": |-
+  RSAPrivateKey ::= SEQUENCE { 버전 버전, 모듈러스 INTEGER, -- n publicExpont INTEGER, -- e privateExpont INTEGER, -- d prime1 INTEGER, -- p prime2 INTEGER, -- q expont1 INTEGER, -- d mod (p-1 ) 지수2 INTEGER, -- d mod (q-1) 계수 INTEGER -- (q의 역수) mod p }

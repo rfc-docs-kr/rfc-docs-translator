@@ -1,0 +1,20 @@
+"hash": |-
+  7a9659e99d385b9a352a27710b31986e27ed59f7e5424341d1ebac782bd84d54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are two ways for the client to be informed about changes of
+     media resources in Play state.  The first being that the client will
+     receive a PLAY_NOTIFY request with the Notify-Reason header set to
+     media-properties-update (see Section 13.5.2).  The client can use the
+     value of the Media-Range header to decide further actions, if the
+     Media-Range header is present in the PLAY_NOTIFY request.  The second
+     way is that the client issues a GET_PARAMETER request without a body
+     but including a Media-Range header.  The 200 OK response MUST include
+     the current Media-Range header (see Section 18.30).
+"fixed": |-
+  There are two ways for the client to be informed about changes of media resources in Play state.  The first being that the client will receive a PLAY_NOTIFY request with the Notify-Reason header set to media-properties-update (see Section 13.5.2).  The client can use the value of the Media-Range header to decide further actions, if the Media-Range header is present in the PLAY_NOTIFY request.  The second way is that the client issues a GET_PARAMETER request without a body but including a Media-Range header.  The 200 OK response MUST include the current Media-Range header (see Section 18.30).
+"ko": |-
+  클라이언트가 재생 상태의 미디어 리소스 변경에 대해 알 수 있는 방법에는 두 가지가 있습니다. 첫 번째는 클라이언트가 Notify-Reason 헤더가 media-properties-update로 설정된 PLAY_NOTIFY 요청을 수신한다는 것입니다(섹션 13.5.2 참조). Media-Range 헤더가 PLAY_NOTIFY 요청에 있는 경우 클라이언트는 Media-Range 헤더 값을 사용하여 추가 작업을 결정할 수 있습니다. 두 번째 방법은 클라이언트가 본문 없이 Media-Range 헤더를 포함하여 GET_PARAMETER 요청을 발행하는 것입니다. 200 OK 응답에는 현재 Media-Range 헤더가 포함되어야 합니다(섹션 18.30 참조).

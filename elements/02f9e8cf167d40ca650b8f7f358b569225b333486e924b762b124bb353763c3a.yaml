@@ -1,0 +1,18 @@
+"hash": |-
+  02f9e8cf167d40ca650b8f7f358b569225b333486e924b762b124bb353763c3a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In Figure 23, the client sends a Non-confirmable GET request to a
+     multicast address: all nodes in link-local scope.  There are 3
+     servers on the link: A, B and C.  Servers A and B have a matching
+     resource, therefore they send back a Non-confirmable 2.05 (Content)
+     response.  The response sent by B is lost.  C does not have matching
+     response, therefore it sends a Non-confirmable 4.04 (Not Found)
+     response.
+"fixed": |-
+  In Figure 23, the client sends a Non-confirmable GET request to a multicast address: all nodes in link-local scope.  There are 3 servers on the link: A, B and C.  Servers A and B have a matching resource, therefore they send back a Non-confirmable 2.05 (Content) response.  The response sent by B is lost.  C does not have matching response, therefore it sends a Non-confirmable 4.04 (Not Found) response.
+"ko": |-
+  그림 23에서 클라이언트는 확인 불가능한 GET 요청을 멀티캐스트 주소(링크 로컬 범위의 모든 노드)로 보냅니다. 링크에는 A, B, C라는 3개의 서버가 있습니다. 서버 A와 B에는 일치하는 리소스가 있으므로 확인 불가능 2.05(콘텐츠) 응답을 다시 보냅니다. B가 보낸 응답이 손실되었습니다. C에는 일치하는 응답이 없으므로 확인 불가능한 4.04(찾을 수 없음) 응답을 보냅니다.

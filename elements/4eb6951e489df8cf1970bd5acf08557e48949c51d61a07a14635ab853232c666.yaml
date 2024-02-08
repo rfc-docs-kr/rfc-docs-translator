@@ -1,0 +1,25 @@
+"hash": |-
+  4eb6951e489df8cf1970bd5acf08557e48949c51d61a07a14635ab853232c666
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 Setting this object to the value invalid(2) has the
+                 effect of invalidating the corresponding entry in the
+                 ipForwardTable object.  That is, it effectively
+                 disassociates the destination identified with said
+                 entry from the route identified with said entry.  It is
+                 an implementation-specific matter as to whether the
+                 agent removes an invalidated entry from the table.
+                 Accordingly, management stations must be prepared to
+                 receive tabular information from agents that
+                 corresponds to entries not currently in use.  Proper
+                 interpretation of such entries requires examination of
+                 the relevant ipForwardType object."
+         DEFVAL { invalid }
+         ::= { ipForwardEntry 6 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

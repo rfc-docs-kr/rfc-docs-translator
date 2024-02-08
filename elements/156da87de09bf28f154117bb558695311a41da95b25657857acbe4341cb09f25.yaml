@@ -1,0 +1,32 @@
+"hash": |-
+  156da87de09bf28f154117bb558695311a41da95b25657857acbe4341cb09f25
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In spite of the fact that each Host will probably not in general be
+     able to distribute port numbers to arbitrary user processes which ca
+     be guaranteed to remain unique over a long period of time, there will
+     still be demand for provision of long-term unique port numbers.  To
+     some, the procedure of going through the information operator smacks
+     much too much of making a connection.  These people will insist that
+     for a variety of reasons their processes be allowed to communicate
+     via ports whose identifiers remain constant for long periods of time.
+     Therefore, it would be nice if at one or two places in the network, a
+     long-term unique number service was provided.  We'll call a process
+     providing this service the Unique Number Process.  The Unique Number
+     Process would have assigned to it one segment of the unique port
+     number space-all those port numbers, for instance, with the first 8-
+     bits equal to 377-8.  This process would have a SEND-to-ANY pending
+     from a well-known port with local rendezvous specified.  When any
+     process wanted a unique number which it could depend on not to be
+     used for all time or until the number is given back, it would send a
+     RECEIVE-from-SPECIFIC specifying the well-known port of the Unique
+     Number Process and rendezvous at the Unique Number Process' Host.
+     The Unique Number Process' pending SEND-to-ANY would contain a unique
+     number.  Also, the Unique Number Process would have a RECEIVE-from-
+"fixed": |-
+  In spite of the fact that each Host will probably not in general be able to distribute port numbers to arbitrary user processes which ca be guaranteed to remain unique over a long period of time, there will still be demand for provision of long-term unique port numbers.  To some, the procedure of going through the information operator smacks much too much of making a connection.  These people will insist that for a variety of reasons their processes be allowed to communicate via ports whose identifiers remain constant for long periods of time. Therefore, it would be nice if at one or two places in the network, a long-term unique number service was provided.  We'll call a process providing this service the Unique Number Process.  The Unique Number Process would have assigned to it one segment of the unique port number space-all those port numbers, for instance, with the first 8- bits equal to 377-8.  This process would have a SEND-to-ANY pending from a well-known port with local rendezvous specified.  When any process wanted a unique number which it could depend on not to be used for all time or until the number is given back, it would send a RECEIVE-from-SPECIFIC specifying the well-known port of the Unique Number Process and rendezvous at the Unique Number Process' Host. The Unique Number Process' pending SEND-to-ANY would contain a unique number.  Also, the Unique Number Process would have a RECEIVE-from-
+"ko": |-
+  일반적으로 각 호스트가 장기간 고유한 상태를 유지하도록 보장할 수 있는 포트 번호를 임의의 사용자 프로세스에 배포할 수 없다는 사실에도 불구하고 장기적인 고유 포트 제공에 대한 요구는 여전히 존재합니다. 숫자. 어떤 사람들에게는 정보 운영자를 통과하는 절차가 연결을 만드는 데 너무 많은 느낌을 줍니다. 이러한 사람들은 여러 가지 이유로 자신의 프로세스가 오랜 기간 동안 식별자가 일정하게 유지되는 포트를 통해 통신할 수 있도록 허용해야 한다고 주장합니다. 따라서 네트워크의 한두 곳에서 장기간 고유번호 서비스를 제공하면 좋을 것 같습니다. 이 서비스를 제공하는 프로세스를 고유 번호 프로세스라고 부르겠습니다. 고유 번호 프로세스는 고유 포트 번호 공간의 한 세그먼트(예를 들어 첫 번째 8비트가 377-8과 동일한 모든 포트 번호)를 여기에 할당합니다. 이 프로세스에는 로컬 랑데부가 지정된 잘 알려진 포트에서 보류 중인 SEND-to-ANY가 있습니다. 어떤 프로세스가 항상 사용되지 않거나 번호가 다시 주어질 때까지 의존할 수 있는 고유 번호를 원할 경우 고유 번호 프로세스의 잘 알려진 포트를 지정하는 RECEIVE-from-SPECIFIC을 보내고 다음에서 랑데부를 보냅니다. 고유번호 프로세스의 호스트입니다. 고유 번호 프로세스의 보류 중인 SEND-to-ANY에는 고유 번호가 포함됩니다. 또한 고유 번호 프로세스에는 RECEIVE-from-이 있습니다.

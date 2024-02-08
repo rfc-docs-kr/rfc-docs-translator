@@ -1,0 +1,22 @@
+"hash": |-
+  9d7b18d7c46f99a872a734bfd07da49ae8a602100fd477b48076080d3a662150
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MAY send PLAY requests without the Range header.  If the
+     request includes the Range header, it MUST use a symbolic value
+     representing "now".  For NPT, that range specification is "npt=now-".
+     The server MUST include the Range header in the response, and it MUST
+     indicate an explicit time value and not a symbolic value.  In other
+     words, "npt=now-" cannot be used in the response.  Instead, the time
+     since session start is recommended, expressed as an open interval,
+     e.g., "npt=96.23-".  An absolute time value (clock) for the
+     corresponding time MAY be given, i.e., "clock=20030213T143205Z-".
+     The Absolute Time format can only be used if the client has shown
+     support for it using the Accept-Ranges header.
+"fixed": |-
+  A client MAY send PLAY requests without the Range header.  If the request includes the Range header, it MUST use a symbolic value representing "now".  For NPT, that range specification is "npt=now-". The server MUST include the Range header in the response, and it MUST indicate an explicit time value and not a symbolic value.  In other words, "npt=now-" cannot be used in the response.  Instead, the time since session start is recommended, expressed as an open interval, e.g., "npt=96.23-".  An absolute time value (clock) for the corresponding time MAY be given, i.e., "clock=20030213T143205Z-". The Absolute Time format can only be used if the client has shown support for it using the Accept-Ranges header.
+"ko": |-
+  클라이언트는 Range 헤더 없이 PLAY 요청을 보낼 수 있습니다. 요청에 Range 헤더가 포함된 경우 "현재"를 나타내는 기호 값을 사용해야 합니다. NPT의 경우 해당 범위 지정은 "npt=now-"입니다. 서버는 응답에 Range 헤더를 포함해야 하며, 이는 기호 값이 아닌 명시적인 시간 값을 나타내야 합니다. 즉, 응답에 "npt=now-"를 사용할 수 없습니다. 대신, 세션 시작 이후의 시간을 개방 간격으로 표시하는 것이 좋습니다(예: "npt=96.23-"). 해당 시간에 대한 절대 시간 값(시계)이 제공될 수 있습니다(예: "clock=20030213T143205Z-"). 절대 시간 형식은 클라이언트가 Accept-Ranges 헤더를 사용하여 이에 대한 지원을 표시한 경우에만 사용할 수 있습니다.

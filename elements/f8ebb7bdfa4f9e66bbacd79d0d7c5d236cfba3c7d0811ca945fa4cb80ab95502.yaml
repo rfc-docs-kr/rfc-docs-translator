@@ -1,0 +1,16 @@
+"hash": |-
+  f8ebb7bdfa4f9e66bbacd79d0d7c5d236cfba3c7d0811ca945fa4cb80ab95502
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After a REDIRECT request has been processed, a client that wants to
+     continue to receive media for the resource identified by the Request-
+     URI will have to establish a new session with the designated host.
+     If the URI given in the Location header is a valid resource URI, a
+     client SHOULD issue a DESCRIBE request for the URI.
+"fixed": |-
+  After a REDIRECT request has been processed, a client that wants to continue to receive media for the resource identified by the Request- URI will have to establish a new session with the designated host. If the URI given in the Location header is a valid resource URI, a client SHOULD issue a DESCRIBE request for the URI.
+"ko": |-
+  REDIRECT 요청이 처리된 후 요청-URI로 식별된 리소스에 대한 미디어를 계속 수신하려는 클라이언트는 지정된 호스트와의 새 세션을 설정해야 합니다. Location 헤더에 제공된 URI가 유효한 리소스 URI인 경우 클라이언트는 해당 URI에 대한 DESCRIBE 요청을 발행해야 합니다(SHOULD).

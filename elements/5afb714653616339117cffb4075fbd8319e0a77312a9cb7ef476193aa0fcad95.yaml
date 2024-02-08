@@ -1,0 +1,16 @@
+"hash": |-
+  5afb714653616339117cffb4075fbd8319e0a77312a9cb7ef476193aa0fcad95
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  CountryName ::= [APPLICATION 1] CHOICE {
+     x121-dcc-code         NumericString
+                             (SIZE (ub-country-name-numeric-length)),
+     iso-3166-alpha2-code  PrintableString
+                             (SIZE (ub-country-name-alpha-length)) }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

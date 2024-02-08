@@ -1,0 +1,16 @@
+"hash": |-
+  5e52154f95848a8db6170f9e73c30e5a5c0d7b86aee8aa8db92fdf7ba8ed9379
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Since SETUP includes all transport initialization information,
+        firewalls and other intermediate network devices (which need this
+        information) are spared the more arduous task of parsing the
+        DESCRIBE response, which has been reserved for media
+        initialization.
+"fixed": |-
+  - Since SETUP includes all transport initialization information, firewalls and other intermediate network devices (which need this information) are spared the more arduous task of parsing the DESCRIBE response, which has been reserved for media initialization.
+"ko": |-
+  - SETUP에는 모든 전송 초기화 정보가 포함되어 있으므로 방화벽 및 기타 중간 네트워크 장치(이 정보가 필요함)는 미디어 초기화를 위해 예약된 DESCRIBE 응답을 구문 분석하는 더 힘든 작업을 수행하지 않습니다.

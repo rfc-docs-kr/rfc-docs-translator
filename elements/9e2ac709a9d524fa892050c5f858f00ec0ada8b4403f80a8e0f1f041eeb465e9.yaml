@@ -1,0 +1,19 @@
+"hash": |-
+  9e2ac709a9d524fa892050c5f858f00ec0ada8b4403f80a8e0f1f041eeb465e9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The security considerations of Section 7 of [RFC4279] apply.  In
+     particular, applications should carefully weigh whether or not they
+     need Perfect Forward Secrecy (PFS) and select an appropriate cipher
+     suite (Section 7.1 of [RFC4279]).  The entropy of the PSK must be
+     sufficient to mitigate against brute-force and (where the PSK is not
+     chosen randomly but by a human) dictionary attacks (Section 7.2 of
+     [RFC4279]).  The cleartext communication of client identities may
+     leak data or compromise privacy (Section 7.3 of [RFC4279]).
+"fixed": |-
+  The security considerations of Section 7 of [RFC4279] apply.  In particular, applications should carefully weigh whether or not they need Perfect Forward Secrecy (PFS) and select an appropriate cipher suite (Section 7.1 of [RFC4279]).  The entropy of the PSK must be sufficient to mitigate against brute-force and (where the PSK is not chosen randomly but by a human) dictionary attacks (Section 7.2 of [RFC4279]).  The cleartext communication of client identities may leak data or compromise privacy (Section 7.3 of [RFC4279]).
+"ko": |-
+  [RFC4279] 섹션 7의 보안 고려사항이 적용됩니다. 특히 애플리케이션은 PFS(Perfect Forward Secrecy)가 필요한지 여부를 신중하게 평가하고 적절한 암호화 제품군을 선택해야 합니다([RFC4279]의 섹션 7.1). PSK의 엔트로피는 무차별 대입 및 (PSK가 무작위로 선택되지 않고 사람에 의해 선택되는 경우) 사전 공격([RFC4279]의 섹션 7.2)을 완화하기에 충분해야 합니다. 클라이언트 ID의 일반 텍스트 통신은 데이터를 유출하거나 개인정보를 침해할 수 있습니다([RFC4279]의 섹션 7.3).

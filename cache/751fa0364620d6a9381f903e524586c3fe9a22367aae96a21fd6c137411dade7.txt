@@ -1,0 +1,1 @@
+배포 지점과 관련된 이유 코드는 onlySomeReasons에 지정되어야 합니다. onlySomeReasons가 표시되지 않으면 배포 지점에 모든 이유 코드에 대한 취소가 포함되어야 합니다. CA는 CRL 배포 지점을 사용하여 손상 및 일상적인 해지를 기준으로 CRL을 분할할 수 있습니다. 이 경우 이유 코드 keyCompromise (1), cACompromise (2) 및 aACompromise (8)가 있는 취소는 하나의 배포 지점에 나타나고 다른 이유 코드가 있는 취소는 다른 배포 지점에 나타납니다.

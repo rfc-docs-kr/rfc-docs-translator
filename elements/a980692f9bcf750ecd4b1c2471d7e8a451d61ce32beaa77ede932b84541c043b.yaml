@@ -8,7 +8,7 @@
            Wherever practical, hosts MUST return ICMP error datagrams on
            detection of an error, except in those cases where returning an
            ICMP error message is specifically prohibited.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - Wherever practical, hosts MUST return ICMP error datagrams on detection of an error, except in those cases where returning an ICMP error message is specifically prohibited.
+"ko": |-
+  - 실행 가능한 경우 호스트는 ICMP 오류 메시지 반환이 특별히 금지된 경우를 제외하고 오류 감지 시 ICMP 오류 데이터그램을 반환해야 합니다.

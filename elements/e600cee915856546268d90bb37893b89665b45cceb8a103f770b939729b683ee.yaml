@@ -1,0 +1,27 @@
+"hash": |-
+  e600cee915856546268d90bb37893b89665b45cceb8a103f770b939729b683ee
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +---------------+-----------------+---------------------------------+
+     | Event         | Prerequisite    | Response                        |
+     +---------------+-----------------+---------------------------------+
+     | DESCRIBE      | Needs REDIRECT  | 3rr, Redirect                   |
+     |               |                 |                                 |
+     | DESCRIBE      |                 | 200, Session description        |
+     |               |                 |                                 |
+     | OPTIONS       | Session ID      | 200, Reset session timeout      |
+     |               |                 | timer                           |
+     |               |                 |                                 |
+     | OPTIONS       |                 | 200                             |
+     |               |                 |                                 |
+     | SET_PARAMETER | Valid parameter | 200, change value of parameter  |
+     |               |                 |                                 |
+     | GET_PARAMETER | Valid parameter | 200, return value of parameter  |
+     +---------------+-----------------+---------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,13 @@
+"hash": |-
+  b1368a71b952b42106550b8ffbfea75901440c455444f52fd96849392e9751e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (k)  If (cert_status is removeFromCRL), then set cert_status to
+        UNREVOKED.
+"fixed": |-
+  - (k)  If (cert_status is removeFromCRL), then set cert_status to UNREVOKED.
+"ko": |-
+  - (k) (cert_status가 RemoveFromCRL인 경우) cert_status를 UNREVOKED로 설정합니다.

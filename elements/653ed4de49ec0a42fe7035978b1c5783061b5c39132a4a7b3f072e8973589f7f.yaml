@@ -1,0 +1,25 @@
+"hash": |-
+  653ed4de49ec0a42fe7035978b1c5783061b5c39132a4a7b3f072e8973589f7f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementers and users must also consider whether they need forward
+     secrecy.  Forward secrecy refers to the property that session keys
+     are not compromised if the static, certified keys belonging to the
+     server and client are compromised.  The ECDHE_ECDSA and ECDHE_RSA key
+     exchange algorithms provide forward secrecy protection in the event
+     of server key compromise, while ECDH_ECDSA and ECDH_RSA do not.
+     Similarly, if the client is providing a static, certified key,
+     ECDSA_sign client authentication provides forward secrecy protection
+     in the event of client key compromise, while ECDSA_fixed_ECDH and
+     RSA_fixed_ECDH do not.  Thus, to obtain complete forward secrecy
+     protection, ECDHE_ECDSA or ECDHE_RSA must be used for key exchange,
+     with ECDSA_sign used for client authentication if necessary.  Here
+     again the security benefits of forward secrecy may need to be
+     balanced against the improved efficiency offered by other options.
+"fixed": |-
+  Implementers and users must also consider whether they need forward secrecy.  Forward secrecy refers to the property that session keys are not compromised if the static, certified keys belonging to the server and client are compromised.  The ECDHE_ECDSA and ECDHE_RSA key exchange algorithms provide forward secrecy protection in the event of server key compromise, while ECDH_ECDSA and ECDH_RSA do not. Similarly, if the client is providing a static, certified key, ECDSA_sign client authentication provides forward secrecy protection in the event of client key compromise, while ECDSA_fixed_ECDH and RSA_fixed_ECDH do not.  Thus, to obtain complete forward secrecy protection, ECDHE_ECDSA or ECDHE_RSA must be used for key exchange, with ECDSA_sign used for client authentication if necessary.  Here again the security benefits of forward secrecy may need to be balanced against the improved efficiency offered by other options.
+"ko": |-
+  구현자와 사용자는 순방향 비밀성이 필요한지 여부도 고려해야 합니다. 순방향 비밀성은 서버와 클라이언트에 속한 정적 인증 키가 손상되더라도 세션 키가 손상되지 않는 속성을 나타냅니다. ECDHE_ECDSA 및 ECDHE_RSA 키 교환 알고리즘은 서버 키가 손상될 경우 순방향 비밀 보호를 제공하지만 ECDH_ECDSA 및 ECDH_RSA는 그렇지 않습니다. 마찬가지로, 클라이언트가 인증된 정적 키를 제공하는 경우 ECDSA_sign 클라이언트 인증은 클라이언트 키가 손상될 경우 순방향 비밀 보호를 제공하지만 ECDSA_fixed_ECDH 및 RSA_fixed_ECDH는 그렇지 않습니다. 따라서 완전한 순방향 비밀 보호를 얻으려면 키 교환에 ECDHE_ECDSA 또는 ECDHE_RSA를 사용해야 하며, 필요한 경우 클라이언트 인증에 ECDSA_sign을 사용해야 합니다. 여기서도 순방향 보안의 보안 이점은 다른 옵션이 제공하는 향상된 효율성과 균형을 이루어야 할 수 있습니다.

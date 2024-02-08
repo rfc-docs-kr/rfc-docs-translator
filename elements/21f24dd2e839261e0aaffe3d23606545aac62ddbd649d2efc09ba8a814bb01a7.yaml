@@ -1,0 +1,26 @@
+"hash": |-
+  21f24dd2e839261e0aaffe3d23606545aac62ddbd649d2efc09ba8a814bb01a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the locations of the peering interconnects have been determined
+     and implemented, the network operator decides how best to handle the
+     routes advertised by the peer, as well as how to propagate the peer's
+     routes within their network.  One way to engineer outbound traffic
+     flows in a network with many peering interconnects is to create a
+     hierarchy of peers.  Generally, the shortest AS paths will be chosen
+     to forward traffic, but BGP metrics can be used to prefer some peers
+     and so favor particular paths.  Preferred peers are those peers
+     attached through peering interconnects with the most available
+     capacity.  Changes may be needed, for example, to deal with a
+     "problem peer" who is difficult to work with on upgrades or is
+     charging high prices for connectivity to their network.  In that
+     case, the peer may be given a reduced preference.  This type of
+     change can affect a large amount of traffic and is only used after
+     other methods have failed to provide the desired results.
+"fixed": |-
+  Once the locations of the peering interconnects have been determined and implemented, the network operator decides how best to handle the routes advertised by the peer, as well as how to propagate the peer's routes within their network.  One way to engineer outbound traffic flows in a network with many peering interconnects is to create a hierarchy of peers.  Generally, the shortest AS paths will be chosen to forward traffic, but BGP metrics can be used to prefer some peers and so favor particular paths.  Preferred peers are those peers attached through peering interconnects with the most available capacity.  Changes may be needed, for example, to deal with a "problem peer" who is difficult to work with on upgrades or is charging high prices for connectivity to their network.  In that case, the peer may be given a reduced preference.  This type of change can affect a large amount of traffic and is only used after other methods have failed to provide the desired results.
+"ko": |-
+  피어링 상호 연결의 위치가 결정되고 구현되면 네트워크 운영자는 피어가 알리는 경로를 가장 잘 처리하는 방법과 네트워크 내에서 피어의 경로를 전파하는 방법을 결정합니다. 피어링 상호 연결이 많은 네트워크에서 아웃바운드 트래픽 흐름을 엔지니어링하는 한 가지 방법은 피어 계층 구조를 만드는 것입니다. 일반적으로 트래픽을 전달하기 위해 가장 짧은 AS 경로가 선택되지만 BGP 메트릭을 사용하여 일부 피어를 선호하고 특정 경로를 선호할 수 있습니다. 기본 피어는 사용 가능한 용량이 가장 많은 피어링 상호 연결을 통해 연결된 피어입니다. 예를 들어, 업그레이드 작업에 협력하기 어렵거나 네트워크 연결에 높은 비용을 청구하는 "문제 피어"를 처리하기 위해 변경이 필요할 수 있습니다. 이 경우 해당 피어에게는 선호도가 감소될 수 있습니다. 이러한 유형의 변경은 많은 양의 트래픽에 영향을 미칠 수 있으며 다른 방법으로 원하는 결과를 제공하지 못한 경우에만 사용됩니다.

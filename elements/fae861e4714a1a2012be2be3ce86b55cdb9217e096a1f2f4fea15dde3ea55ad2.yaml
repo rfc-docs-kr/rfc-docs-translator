@@ -1,0 +1,23 @@
+"hash": |-
+  fae861e4714a1a2012be2be3ce86b55cdb9217e096a1f2f4fea15dde3ea55ad2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipCidrRouteMetric3 OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-create
+         STATUS     deprecated
+         DESCRIPTION
+                "An alternate routing metric for this route.  The
+                 semantics of this metric are determined by the routing-
+                 protocol specified in the route's ipCidrRouteProto
+                 value.  If this metric is not used, its value should be
+                 set to -1."
+         DEFVAL { -1 }
+         ::= { ipCidrRouteEntry 13 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

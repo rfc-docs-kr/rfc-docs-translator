@@ -1,0 +1,13 @@
+"hash": |-
+  6ab24ed6e62c76af92f539782977104ea859cc58c11207631c3a1638ecb3fa63
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  fragment the delivery header, so that it can be reassembled by the
+        GRE egress
+"fixed": |-
+  -  fragment the delivery header, so that it can be reassembled by the GRE egress
+"ko": |-
+  - GRE 송신에 의해 재조립될 수 있도록 전달 헤더를 조각화합니다.

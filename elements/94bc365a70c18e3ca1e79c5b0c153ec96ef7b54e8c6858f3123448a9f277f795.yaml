@@ -1,0 +1,20 @@
+"hash": |-
+  94bc365a70c18e3ca1e79c5b0c153ec96ef7b54e8c6858f3123448a9f277f795
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One implication of this process is that the connection for secured
+     RTSP messages may take significantly more round-trip times for the
+     first message.  A complete extra message exchange between the proxy
+     connecting to the next hop and the client results because of the
+     process for approval for each hop.  However, if each message contains
+     the chain of proxies that the requester accepts, the remaining
+     message exchange should not be delayed.  The procedure of including
+     the credentials in each request rather than building state in each
+     proxy avoids the need for revocation procedures.
+"fixed": |-
+  One implication of this process is that the connection for secured RTSP messages may take significantly more round-trip times for the first message.  A complete extra message exchange between the proxy connecting to the next hop and the client results because of the process for approval for each hop.  However, if each message contains the chain of proxies that the requester accepts, the remaining message exchange should not be delayed.  The procedure of including the credentials in each request rather than building state in each proxy avoids the need for revocation procedures.
+"ko": |-
+  이 프로세스의 한 가지 의미는 보안 RTSP 메시지에 대한 연결이 첫 번째 메시지에 대해 훨씬 더 많은 왕복 시간을 소요할 수 있다는 것입니다. 각 홉에 대한 승인 프로세스로 인해 다음 홉에 연결되는 프록시와 클라이언트 간의 완전한 추가 메시지 교환이 이루어집니다. 그러나 각 메시지에 요청자가 수락하는 프록시 체인이 포함되어 있는 경우 나머지 메시지 교환이 지연되어서는 안 됩니다. 각 프록시에 상태를 구축하는 대신 각 요청에 자격 증명을 포함하는 절차를 수행하면 해지 절차가 필요하지 않습니다.

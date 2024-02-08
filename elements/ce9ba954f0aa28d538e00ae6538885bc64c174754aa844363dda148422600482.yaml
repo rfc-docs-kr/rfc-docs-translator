@@ -1,0 +1,15 @@
+"hash": |-
+  ce9ba954f0aa28d538e00ae6538885bc64c174754aa844363dda148422600482
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           (3)  If there is a node in the valid_policy_tree of depth i-1
+           or less without any child nodes, delete that node.  Repeat this
+           step until there are no nodes of depth i-1 or less without
+           children.
+"fixed": |-
+  - (3)  If there is a node in the valid_policy_tree of depth i-1 or less without any child nodes, delete that node.  Repeat this step until there are no nodes of depth i-1 or less without children.
+"ko": |-
+  - (3) valid_policy_tree에 깊이 i-1 이하의 노드가 있고 자식 노드가 없으면 해당 노드를 삭제합니다. 자식이 없는 깊이 i-1 이하의 노드가 없을 때까지 이 단계를 반복합니다.

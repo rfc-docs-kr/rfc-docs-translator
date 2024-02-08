@@ -1,0 +1,26 @@
+"hash": |-
+  476a61c49cbac246eed765e51d474c8b6ba8e999cacf54105d9c247bae381216
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This is a question which is left implementation dependent.  In
+        general, we do not think it is a good idea to block the process
+        after a SEND since it may want to do another to another port or
+        even do a RECEIVE.  In fact, we see nothing  inherently wrong with
+        a process doing two or more SENDs to the same port as long as the
+        communicating processes know what they are doing.  Of course, some
+        communicating processes will prohibit several simultaneous
+        messages being in transit between the same ports, for instance the
+        TELNETs may well prohibit this.  However, for reasons of
+        increasing bandwidth, etc., two processes may well want several
+        simultaneous messages.  In this case we think it is up to the
+        processes to worry about the sequencing of messages; however, we
+        refer users desiring their processes to take a care of message
+        sequencing to the method used in the IMP/Very Distant Host
+        interface which is documented in Appendix F of BBN Report 1822.
+"fixed": |-
+  - This is a question which is left implementation dependent.  In general, we do not think it is a good idea to block the process after a SEND since it may want to do another to another port or even do a RECEIVE.  In fact, we see nothing  inherently wrong with a process doing two or more SENDs to the same port as long as the communicating processes know what they are doing.  Of course, some communicating processes will prohibit several simultaneous messages being in transit between the same ports, for instance the TELNETs may well prohibit this.  However, for reasons of increasing bandwidth, etc., two processes may well want several simultaneous messages.  In this case we think it is up to the processes to worry about the sequencing of messages; however, we refer users desiring their processes to take a care of message sequencing to the method used in the IMP/Very Distant Host interface which is documented in Appendix F of BBN Report 1822.
+"ko": |-
+  - 이것은 구현에 따라 달라지는 질문입니다. 일반적으로 SEND 이후 프로세스를 차단하는 것은 좋은 생각이 아니라고 생각합니다. 왜냐하면 다른 포트에 다른 작업을 수행하거나 심지어 RECEIVE를 수행하려고 할 수도 있기 때문입니다. 실제로 통신 프로세스가 자신이 수행하는 작업을 알고 있는 한 동일한 포트에 두 개 이상의 SEND를 수행하는 프로세스에서 본질적으로 잘못된 것은 없습니다. 물론 일부 통신 프로세스에서는 동일한 포트 간에 여러 개의 동시 메시지가 전송되는 것을 금지합니다. 예를 들어 TELNET에서는 이를 금지할 수 있습니다. 그러나 대역폭 증가 등의 이유로 두 프로세스는 여러 개의 동시 메시지를 원할 수도 있습니다. 이 경우 메시지 순서에 대해 걱정하는 것은 프로세스에 달려 있다고 생각합니다. 그러나 프로세스에서 메시지 순서를 관리하기를 원하는 사용자에게는 BBN 보고서 1822의 부록 F에 문서화된 IMP/Very Distant Host 인터페이스에 사용되는 방법을 참조합니다.

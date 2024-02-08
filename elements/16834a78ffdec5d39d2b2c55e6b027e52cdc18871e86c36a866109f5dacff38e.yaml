@@ -1,0 +1,27 @@
+"hash": |-
+  16834a78ffdec5d39d2b2c55e6b027e52cdc18871e86c36a866109f5dacff38e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                 Implementers need to be aware that if the total number
+                 of elements (octets or sub-identifiers) in
+                 inetCidrRouteDest, inetCidrRoutePolicy, and
+                 inetCidrRouteNextHop exceeds 111, then OIDs of column
+                 instances in this table will have more than 128 sub-
+                 identifiers and cannot be accessed using SNMPv1,
+                 SNMPv2c, or SNMPv3."
+         INDEX {
+             inetCidrRouteDestType,
+             inetCidrRouteDest,
+             inetCidrRoutePfxLen,
+             inetCidrRoutePolicy,
+             inetCidrRouteNextHopType,
+             inetCidrRouteNextHop
+             }
+         ::= { inetCidrRouteTable 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

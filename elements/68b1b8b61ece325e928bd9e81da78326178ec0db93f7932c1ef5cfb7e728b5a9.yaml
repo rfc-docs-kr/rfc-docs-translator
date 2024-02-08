@@ -1,0 +1,18 @@
+"hash": |-
+  68b1b8b61ece325e928bd9e81da78326178ec0db93f7932c1ef5cfb7e728b5a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When responding to any request that contained the Pipelined-Requests
+     header, the server MUST also include the Session header when a
+     binding to a session context exists.  An RTSP agent that knows the
+     session identifier SHOULD NOT use the Pipelined-Requests header in
+     any request and only use the Session header.  This as the Session
+     identifier is persistent across transport contexts, like TCP
+     connections, which the Pipelined-Requests identifier is not.
+"fixed": |-
+  When responding to any request that contained the Pipelined-Requests header, the server MUST also include the Session header when a binding to a session context exists.  An RTSP agent that knows the session identifier SHOULD NOT use the Pipelined-Requests header in any request and only use the Session header.  This as the Session identifier is persistent across transport contexts, like TCP connections, which the Pipelined-Requests identifier is not.
+"ko": |-
+  Pipelined-Requests 헤더가 포함된 요청에 응답할 때 서버는 세션 컨텍스트에 대한 바인딩이 존재할 때 Session 헤더도 포함해야 합니다. 세션 식별자를 알고 있는 RTSP 에이전트는 어떤 요청에서도 Pipelined-Requests 헤더를 사용해서는 안 되며 세션 헤더만 사용해야 합니다. 이는 세션 식별자로서 파이프라인 요청 식별자가 아닌 TCP 연결과 같은 전송 컨텍스트 전반에 걸쳐 지속됩니다.

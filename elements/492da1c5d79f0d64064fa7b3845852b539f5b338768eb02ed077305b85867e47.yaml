@@ -1,0 +1,17 @@
+"hash": |-
+  492da1c5d79f0d64064fa7b3845852b539f5b338768eb02ed077305b85867e47
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          struct {
+              select (PublicValueEncoding) {
+                  case implicit: struct { };
+                  case explicit: ECPoint ecdh_Yc;
+              } ecdh_public;
+          } ClientECDiffieHellmanPublic;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

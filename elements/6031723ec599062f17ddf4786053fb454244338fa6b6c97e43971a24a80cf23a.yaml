@@ -1,0 +1,21 @@
+"hash": |-
+  6031723ec599062f17ddf4786053fb454244338fa6b6c97e43971a24a80cf23a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Proxy-Supported header field contains a list of feature tags
+     applicable to proxies, as described in Section 4.5.  The list is the
+     intersection of all feature tags understood by the proxies.  To
+     achieve an intersection, the proxy adding the Proxy-Supported header
+     includes all proxy feature tags it understands.  Any proxy receiving
+     a request with the header MUST check the list and remove any feature
+     tag(s) it does not support.  A Proxy-Supported header present in the
+     response MUST NOT be modified by the proxies.  These feature tags are
+     the ones the proxy chains support in general and are not specific to
+     the request resource.
+"fixed": |-
+  The Proxy-Supported header field contains a list of feature tags applicable to proxies, as described in Section 4.5.  The list is the intersection of all feature tags understood by the proxies.  To achieve an intersection, the proxy adding the Proxy-Supported header includes all proxy feature tags it understands.  Any proxy receiving a request with the header MUST check the list and remove any feature tag(s) it does not support.  A Proxy-Supported header present in the response MUST NOT be modified by the proxies.  These feature tags are the ones the proxy chains support in general and are not specific to the request resource.
+"ko": |-
+  Proxy-Supported 헤더 필드에는 섹션 4.5에 설명된 대로 프록시에 적용할 수 있는 기능 태그 목록이 포함되어 있습니다. 목록은 프록시가 이해하는 모든 기능 태그의 교차점입니다. 교차를 달성하기 위해 Proxy-Supported 헤더를 추가하는 프록시에는 자신이 이해하는 모든 프록시 기능 태그가 포함됩니다. 헤더가 포함된 요청을 수신하는 모든 프록시는 목록을 확인하고 지원하지 않는 기능 태그를 제거해야 합니다. 응답에 있는 Proxy-Supported 헤더는 프록시에 의해 수정되어서는 안 됩니다. 이러한 기능 태그는 프록시 체인이 일반적으로 지원하는 태그이며 요청 리소스에만 국한되지 않습니다.

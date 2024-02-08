@@ -1,0 +1,20 @@
+"hash": |-
+  3953a27744166f524a41935b17544e91812789217e7d031b37c4dd84a8077eb5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Rationale: Some client implementations revert to lower versions of
+     TLS or even to SSLv3 if the server rejected higher versions of the
+     protocol.  This fallback can be forced by a man-in-the-middle (MITM)
+     attacker.  TLS 1.0 and SSLv3 are significantly less secure than TLS
+     1.2, the version recommended by this document.  While TLS 1.0-only
+     servers are still quite common, IP scans show that SSLv3-only servers
+     amount to only about 3% of the current Web server population.  (At
+     the time of this writing, an explicit method for preventing downgrade
+     attacks has been defined recently in [RFC7507].)
+"fixed": |-
+  Rationale: Some client implementations revert to lower versions of TLS or even to SSLv3 if the server rejected higher versions of the protocol.  This fallback can be forced by a man-in-the-middle (MITM) attacker.  TLS 1.0 and SSLv3 are significantly less secure than TLS 1.2, the version recommended by this document.  While TLS 1.0-only servers are still quite common, IP scans show that SSLv3-only servers amount to only about 3% of the current Web server population.  (At the time of this writing, an explicit method for preventing downgrade attacks has been defined recently in [RFC7507].)
+"ko": |-
+  근거: 일부 클라이언트 구현은 더 낮은 버전의 TLS로 되돌아가거나, 서버가 더 높은 버전의 프로토콜을 거부한 경우 심지어 SSLv3으로 되돌아갑니다. 이 대체는 중간자(MITM) 공격자에 의해 강제될 수 있습니다. TLS 1.0 및 SSLv3은 이 문서에서 권장하는 버전인 TLS 1.2보다 보안 수준이 훨씬 낮습니다. TLS 1.0 전용 서버는 여전히 매우 일반적이지만, IP 스캔에 따르면 SSLv3 전용 서버는 현재 웹 서버 인구의 약 3%에 불과한 것으로 나타났습니다. (이 글을 쓰는 시점에서 최근 [RFC7507]에 다운그레이드 공격을 방지하기 위한 명시적인 방법이 정의되었습니다.)

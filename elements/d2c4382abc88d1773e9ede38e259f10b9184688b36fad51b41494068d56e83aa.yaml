@@ -1,0 +1,24 @@
+"hash": |-
+  d2c4382abc88d1773e9ede38e259f10b9184688b36fad51b41494068d56e83aa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     On the other hand, it is anticipated that some applications will not
+     be able to use HKDF "as-is" due to specific operational requirements,
+     or will be able to use it but without the full benefits of the
+     scheme.  One significant example is the derivation of cryptographic
+     keys from a source of low entropy, such as a user's password.  The
+     extract step in HKDF can concentrate existing entropy but cannot
+     amplify entropy.  In the case of password-based KDFs, a main goal is
+     to slow down dictionary attacks using two ingredients: a salt value,
+     and the intentional slowing of the key derivation computation.  HKDF
+     naturally accommodates the use of salt; however, a slowing down
+     mechanism is not part of this specification.  Applications interested
+     in a password-based KDF should consider whether, for example, [PKCS5]
+     meets their needs better than HKDF.
+"fixed": |-
+  On the other hand, it is anticipated that some applications will not be able to use HKDF "as-is" due to specific operational requirements, or will be able to use it but without the full benefits of the scheme.  One significant example is the derivation of cryptographic keys from a source of low entropy, such as a user's password.  The extract step in HKDF can concentrate existing entropy but cannot amplify entropy.  In the case of password-based KDFs, a main goal is to slow down dictionary attacks using two ingredients: a salt value, and the intentional slowing of the key derivation computation.  HKDF naturally accommodates the use of salt; however, a slowing down mechanism is not part of this specification.  Applications interested in a password-based KDF should consider whether, for example, [PKCS5] meets their needs better than HKDF.
+"ko": |-
+  반면, 일부 응용 프로그램에서는 특정 운영 요구 사항으로 인해 HKDF를 "있는 그대로" 사용할 수 없거나 HKDF를 사용할 수 있지만 체계의 모든 이점을 누릴 수 없을 것으로 예상됩니다. 한 가지 중요한 예는 사용자 비밀번호와 같이 엔트로피가 낮은 소스에서 암호화 키를 파생하는 것입니다. HKDF의 추출 단계는 기존 엔트로피를 집중시킬 수 있지만 엔트로피를 증폭시킬 수는 없습니다. 비밀번호 기반 KDF의 경우 주요 목표는 두 가지 요소, 즉 솔트 값과 키 파생 계산의 의도적인 속도 저하를 사용하여 사전 공격 속도를 늦추는 것입니다. HKDF는 당연히 소금 사용을 수용합니다. 그러나 속도 저하 메커니즘은 이 사양의 일부가 아닙니다. 비밀번호 기반 KDF에 관심이 있는 애플리케이션은 예를 들어 [PKCS5]가 HKDF보다 요구 사항을 더 잘 충족하는지 여부를 고려해야 합니다.

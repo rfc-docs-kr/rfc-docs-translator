@@ -1,0 +1,32 @@
+"hash": |-
+  7c609204e2e99e47d5c42c90c56d2e58893c37828c13486bfcfc4b0c1d1abbc1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                          Client              Server
+                             |                  |
+                             |   CON [0x7a10]   |
+                             | GET /temperature |
+                             |   (Token 0x73)   |
+                             +----------------->|
+                             |                  |
+                             |   ACK [0x7a10]   |
+                             |<-----------------+
+                             |                  |
+                             ... Time Passes  ...
+                             |                  |
+                             |   CON [0x23bb]   |
+                             |   2.05 Content   |
+                             |   (Token 0x73)   |
+                             |     "22.5 C"     |
+                             |<-----------------+
+                             |                  |
+                             |   ACK [0x23bb]   |
+                             +----------------->|
+                             |                  |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

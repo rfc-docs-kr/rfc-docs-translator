@@ -1,0 +1,19 @@
+"hash": |-
+  17792557df4e930ca9e8dc7238afe6dffe990bd9cb179e27d2b1bbf44172449c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For a caching implementation, any access control considerations that
+     would apply to making the request that generated the cache entry also
+     need to be applied to the value in the cache.  This is relevant for
+     clients that implement multiple security domains, as well as for
+     proxies that may serve multiple clients.  Also, a caching proxy MUST
+     NOT make cached values available to requests that have lesser
+     transport-security properties than those the proxy would require to
+     perform request forwarding in the first place.
+"fixed": |-
+  For a caching implementation, any access control considerations that would apply to making the request that generated the cache entry also need to be applied to the value in the cache.  This is relevant for clients that implement multiple security domains, as well as for proxies that may serve multiple clients.  Also, a caching proxy MUST NOT make cached values available to requests that have lesser transport-security properties than those the proxy would require to perform request forwarding in the first place.
+"ko": |-
+  캐싱 구현의 경우 캐시 항목을 생성하는 요청을 만드는 데 적용되는 모든 액세스 제어 고려 사항도 캐시의 값에 적용되어야 합니다. 이는 여러 보안 도메인을 구현하는 클라이언트뿐만 아니라 여러 클라이언트에 서비스를 제공할 수 있는 프록시에도 관련됩니다. 또한 캐싱 프록시는 처음에 프록시가 요청 전달을 수행하는 데 필요한 전송 보안 속성보다 낮은 전송 보안 속성을 가진 요청에 캐시된 값을 사용할 수 있도록 해서는 안 됩니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  83ce64b2d0f58f83e195d682bd81f449185966dd71ac012ecf5e768b995b6bcd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One way to implement this in a server is to initiate the attempt to
+     obtain the resource representation and, while that is in progress,
+     time out an acknowledgement timer.  A server may also immediately
+     send an acknowledgement if it knows in advance that there will be no
+     piggybacked response.  In both cases, the acknowledgement effectively
+     is a promise that the request will be acted upon later.
+"fixed": |-
+  One way to implement this in a server is to initiate the attempt to obtain the resource representation and, while that is in progress, time out an acknowledgement timer.  A server may also immediately send an acknowledgement if it knows in advance that there will be no piggybacked response.  In both cases, the acknowledgement effectively is a promise that the request will be acted upon later.
+"ko": |-
+  서버에서 이를 구현하는 한 가지 방법은 리소스 표현을 얻으려는 시도를 시작하고 진행 중인 동안 승인 타이머를 시간 초과하는 것입니다. 피기백된 응답이 없을 것임을 미리 알고 있는 경우 서버는 즉시 승인을 보낼 수도 있습니다. 두 경우 모두 사실상 승인은 해당 요청이 나중에 실행될 것이라는 약속입니다.

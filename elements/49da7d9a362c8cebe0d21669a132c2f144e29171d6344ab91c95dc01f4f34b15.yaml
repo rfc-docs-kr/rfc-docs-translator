@@ -1,0 +1,16 @@
+"hash": |-
+  49da7d9a362c8cebe0d21669a132c2f144e29171d6344ab91c95dc01f4f34b15
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  UnformattedPostalAddress ::= SET {
+     printable-address SEQUENCE SIZE (1..ub-pds-physical-address-lines)
+          OF PrintableString (SIZE (1..ub-pds-parameter-length)) OPTIONAL,
+     teletex-string TeletexString
+          (SIZE (1..ub-unformatted-address-length)) OPTIONAL }
+"fixed": |-
+  UnformattedPostalAddress ::= SET { printable-address SEQUENCE SIZE (1..ub-pds-physical-address-lines) OF PrintableString (SIZE (1..ub-pds-parameter-length)) OPTIONAL, teletex-string TeletexString (SIZE (1..ub-unformatted-address-length)) OPTIONAL }
+"ko": |-
+  UnformattedPostalAddress ::= SET { 인쇄 가능 주소 SEQUENCE SIZE (1..ub-pds-physical-address-lines) OF PrintableString (SIZE (1..ub-pds-parameter-length)) 선택 사항, teletex-string TeletexString (SIZE (1..ub-형식화되지 않은 주소-길이)) 선택 사항 }

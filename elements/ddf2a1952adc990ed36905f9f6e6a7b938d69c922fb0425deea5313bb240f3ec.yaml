@@ -1,0 +1,14 @@
+"hash": |-
+  ddf2a1952adc990ed36905f9f6e6a7b938d69c922fb0425deea5313bb240f3ec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  It has been clarified that any message with a message body is
+           required to have a Content-Length header.  This was the case in
+           RFC 2326, but could be misinterpreted.
+"fixed": |-
+  - *  It has been clarified that any message with a message body is required to have a Content-Length header.  This was the case in RFC 2326, but could be misinterpreted.
+"ko": |-
+  - * 메시지 본문이 있는 모든 메시지에는 Content-Length 헤더가 있어야 한다는 점이 명확해졌습니다. 이는 RFC 2326의 경우이지만 잘못 해석될 수 있습니다.

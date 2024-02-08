@@ -1,0 +1,21 @@
+"hash": |-
+  f5a113669ad53ee7e02e2fdf9af5d66d7f8a10cbfc660804ba3b16bf184883b6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardIfIndex OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-create
+         STATUS     obsolete
+         DESCRIPTION
+                "The ifIndex value that identifies the local interface
+                 through which the next hop of this route should be
+                 reached."
+         DEFVAL { 0 }
+         ::= { ipForwardEntry 5 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

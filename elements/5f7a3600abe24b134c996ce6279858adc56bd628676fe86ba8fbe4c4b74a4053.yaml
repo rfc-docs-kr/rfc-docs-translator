@@ -1,0 +1,19 @@
+"hash": |-
+  5f7a3600abe24b134c996ce6279858adc56bd628676fe86ba8fbe4c4b74a4053
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There exists a potential security vulnerability when reusing TCP and
+     TLS state for different resources (URIs).  If two different hostnames
+     point at the same IP address, it can be desirable to reuse the TCP/
+     TLS connection to that server.  In that case, the RTSP agent having
+     the TCP/TLS connection MUST verify that the server certificate
+     associated with the connection has a SubjectAltName matching the
+     hostname present in the URI for the resource an RTSP request is to be
+     issued.
+"fixed": |-
+  There exists a potential security vulnerability when reusing TCP and TLS state for different resources (URIs).  If two different hostnames point at the same IP address, it can be desirable to reuse the TCP/ TLS connection to that server.  In that case, the RTSP agent having the TCP/TLS connection MUST verify that the server certificate associated with the connection has a SubjectAltName matching the hostname present in the URI for the resource an RTSP request is to be issued.
+"ko": |-
+  다른 리소스(URI)에 대해 TCP 및 TLS 상태를 재사용하는 경우 잠재적인 보안 취약점이 존재합니다. 두 개의 서로 다른 호스트 이름이 동일한 IP 주소를 가리키는 경우 해당 서버에 대한 TCP/TLS 연결을 재사용하는 것이 바람직할 수 있습니다. 이 경우 TCP/TLS 연결이 있는 RTSP 에이전트는 연결과 관련된 서버 인증서에 RTSP 요청이 발행될 리소스에 대한 URI에 있는 호스트 이름과 일치하는 SubjectAltName이 있는지 확인해야 합니다.

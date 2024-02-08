@@ -1,0 +1,15 @@
+"hash": |-
+  023a2695dd0077a99594b240acda144ec503f48e54f0ef84fed7fb5cd987664d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  OCSP stapling as defined in [RFC6066] does not extend to
+        intermediate certificates used in a certificate chain.  Although
+        the Multiple Certificate Status extension [RFC6961] addresses this
+        shortcoming, it is a recent addition without much deployment.
+"fixed": |-
+  -  OCSP stapling as defined in [RFC6066] does not extend to intermediate certificates used in a certificate chain.  Although the Multiple Certificate Status extension [RFC6961] addresses this shortcoming, it is a recent addition without much deployment.
+"ko": |-
+  - [RFC6066]에 정의된 OCSP 스테이플링은 인증서 체인에 사용되는 중간 인증서로 확장되지 않습니다. 다중 인증서 상태 확장 [RFC6961]이 이러한 단점을 해결하기는 하지만 많이 배포되지 않은 채 최근 추가된 것입니다.

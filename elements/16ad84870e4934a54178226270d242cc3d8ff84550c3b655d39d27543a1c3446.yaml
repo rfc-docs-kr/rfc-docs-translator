@@ -1,0 +1,25 @@
+"hash": |-
+  16ad84870e4934a54178226270d242cc3d8ff84550c3b655d39d27543a1c3446
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardType OBJECT-TYPE
+         SYNTAX     INTEGER {
+                     other    (1), -- not specified by this MIB
+                     invalid  (2), -- logically deleted
+                     local    (3), -- local interface
+                     remote   (4)  -- remote destination
+                  }
+         MAX-ACCESS read-create
+         STATUS     obsolete
+         DESCRIPTION
+                "The type of route.  Note that local(3) refers to a
+                 route for which the next hop is the final destination;
+                 remote(4) refers to a route for which the next hop is
+                 not the final destination.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

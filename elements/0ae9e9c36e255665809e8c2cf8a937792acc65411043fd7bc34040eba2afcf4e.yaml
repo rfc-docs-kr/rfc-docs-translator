@@ -1,0 +1,18 @@
+"hash": |-
+  0ae9e9c36e255665809e8c2cf8a937792acc65411043fd7bc34040eba2afcf4e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     DomainParameters ::= SEQUENCE {
+       p                INTEGER,           -- odd prime, p=jq +1
+       g                INTEGER,           -- generator, g
+       q                INTEGER,           -- factor of p-1
+       j                INTEGER OPTIONAL,  -- subgroup factor, j>= 2
+       validationParms  ValidationParms OPTIONAL
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

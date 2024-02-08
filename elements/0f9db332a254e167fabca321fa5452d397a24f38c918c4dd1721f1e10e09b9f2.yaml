@@ -1,0 +1,25 @@
+"hash": |-
+  0f9db332a254e167fabca321fa5452d397a24f38c918c4dd1721f1e10e09b9f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One mitigation against cross-protocol attacks is strict checking of
+     the syntax of packets received, combined with sufficient difference
+     in syntax.  As an example, it might help if it were difficult to
+     incite a DNS server to send a DNS response that would pass the checks
+     of a CoAP endpoint.  Unfortunately, the first two bytes of a DNS
+     reply are an ID that can be chosen by the attacker and that map into
+     the interesting part of the CoAP header, and the next two bytes are
+     then interpreted as CoAP's Message ID (i.e., any value is
+     acceptable).  The DNS count words may be interpreted as multiple
+     instances of a (nonexistent but elective) CoAP option 0, or possibly
+     as a Token.  The echoed query finally may be manufactured by the
+     attacker to achieve a desired effect on the CoAP endpoint; the
+     response added by the server (if any) might then just be interpreted
+     as added payload.
+"fixed": |-
+  One mitigation against cross-protocol attacks is strict checking of the syntax of packets received, combined with sufficient difference in syntax.  As an example, it might help if it were difficult to incite a DNS server to send a DNS response that would pass the checks of a CoAP endpoint.  Unfortunately, the first two bytes of a DNS reply are an ID that can be chosen by the attacker and that map into the interesting part of the CoAP header, and the next two bytes are then interpreted as CoAP's Message ID (i.e., any value is acceptable).  The DNS count words may be interpreted as multiple instances of a (nonexistent but elective) CoAP option 0, or possibly as a Token.  The echoed query finally may be manufactured by the attacker to achieve a desired effect on the CoAP endpoint; the response added by the server (if any) might then just be interpreted as added payload.
+"ko": |-
+  교차 프로토콜 공격에 대한 한 가지 완화 방법은 수신된 패킷의 구문을 엄격하게 검사하고 구문의 충분한 차이를 결합하는 것입니다. 예를 들어 CoAP 엔드포인트의 검사를 통과하는 DNS 응답을 보내도록 DNS 서버를 유도하는 것이 어려운 경우 도움이 될 수 있습니다. 불행하게도 DNS 응답의 처음 2바이트는 공격자가 선택할 수 있고 CoAP 헤더의 관심 있는 부분에 매핑되는 ID이며, 다음 2바이트는 CoAP의 메시지 ID로 해석됩니다(즉, 모든 값은 허용). DNS 카운트 단어는 (존재하지 않지만 선택적인) CoAP 옵션 0의 여러 인스턴스 또는 토큰으로 해석될 수 있습니다. 에코된 쿼리는 CoAP 엔드포인트에서 원하는 효과를 얻기 위해 공격자가 최종적으로 제조할 수 있습니다. 서버에서 추가한 응답(있는 경우)은 추가된 페이로드로 해석될 수 있습니다.

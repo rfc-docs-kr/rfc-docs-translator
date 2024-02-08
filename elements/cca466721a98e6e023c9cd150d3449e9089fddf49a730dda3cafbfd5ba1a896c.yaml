@@ -1,0 +1,20 @@
+"hash": |-
+  cca466721a98e6e023c9cd150d3449e9089fddf49a730dda3cafbfd5ba1a896c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     RTSP-IRI       =  schemes ":" IRI-rest
+     IRI-rest       =  ihier-part [ "?" iquery ]
+     ihier-part     =  "//" iauthority ipath-abempty
+     RTSP-IRI-ref   =  RTSP-IRI / irelative-ref
+     irelative-ref  =  irelative-part [ "?" iquery ]
+     irelative-part =  "//" iauthority ipath-abempty
+                       / ipath-absolute
+                       / ipath-noscheme
+                       / ipath-empty
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

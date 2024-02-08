@@ -14,7 +14,7 @@
            ensure that error logging does not consume prohibitive amounts
            of resources or otherwise interfere with the operation of the
            host.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - Problem diagnosis will be aided if host implementations include a carefully designed facility for logging erroneous or "strange" protocol events.  It is important to include as much diagnostic information as possible when an error is logged.  In particular, it is often useful to record the header(s) of a packet that caused an error.  However, care must be taken to ensure that error logging does not consume prohibitive amounts of resources or otherwise interfere with the operation of the host.
+"ko": |-
+  - 호스트 구현에 오류가 있거나 "이상한" 프로토콜 이벤트를 기록하기 위해 세심하게 설계된 기능이 포함되어 있으면 문제 진단에 도움이 됩니다. 오류가 기록될 때 가능한 한 많은 진단 정보를 포함하는 것이 중요합니다. 특히, 오류를 일으킨 패킷의 헤더를 기록해 두는 것이 유용한 경우가 많습니다. 그러나 오류 로깅이 엄청난 양의 리소스를 소비하거나 호스트 작동을 방해하지 않도록 주의해야 합니다.

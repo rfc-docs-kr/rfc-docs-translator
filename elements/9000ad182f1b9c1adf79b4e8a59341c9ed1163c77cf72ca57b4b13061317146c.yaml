@@ -1,0 +1,27 @@
+"hash": |-
+  9000ad182f1b9c1adf79b4e8a59341c9ed1163c77cf72ca57b4b13061317146c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     TBSCertList  ::=  SEQUENCE  {
+          version                 Version OPTIONAL,
+                                       -- if present, MUST be v2
+          signature               AlgorithmIdentifier,
+          issuer                  Name,
+          thisUpdate              Time,
+          nextUpdate              Time OPTIONAL,
+          revokedCertificates     SEQUENCE OF SEQUENCE  {
+               userCertificate         CertificateSerialNumber,
+               revocationDate          Time,
+               crlEntryExtensions      Extensions OPTIONAL
+                                        -- if present, version MUST be v2
+                                    }  OPTIONAL,
+          crlExtensions           [0]  EXPLICIT Extensions OPTIONAL
+                                        -- if present, version MUST be v2
+                                    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

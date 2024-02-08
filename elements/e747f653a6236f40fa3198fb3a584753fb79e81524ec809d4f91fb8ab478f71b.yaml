@@ -1,0 +1,18 @@
+"hash": |-
+  e747f653a6236f40fa3198fb3a584753fb79e81524ec809d4f91fb8ab478f71b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Application protocols typically provide a way for the server to
+        offer TLS during an initial protocol exchange, and sometimes also
+        provide a way for the server to advertise support for TLS (e.g.,
+        through a flag indicating that TLS is required); unfortunately,
+        these indications are sent before the communication channel is
+        encrypted.  A client SHOULD attempt to negotiate TLS even if these
+        indications are not communicated by the server.
+"fixed": |-
+  -  Application protocols typically provide a way for the server to offer TLS during an initial protocol exchange, and sometimes also provide a way for the server to advertise support for TLS (e.g., through a flag indicating that TLS is required); unfortunately, these indications are sent before the communication channel is encrypted.  A client SHOULD attempt to negotiate TLS even if these indications are not communicated by the server.
+"ko": |-
+  - 애플리케이션 프로토콜은 일반적으로 초기 프로토콜 교환 중에 서버가 TLS를 제공하는 방법을 제공하고 때로는 서버가 TLS 지원을 광고하는 방법도 제공합니다(예: TLS가 필요함을 나타내는 플래그를 통해). 안타깝게도 이러한 표시는 통신 채널이 암호화되기 전에 전송됩니다. 클라이언트는 이러한 표시가 서버에 의해 전달되지 않더라도 TLS 협상을 시도해야 합니다(SHOULD).

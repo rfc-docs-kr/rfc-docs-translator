@@ -12,7 +12,7 @@
            successive messages.  One strategy that seems to work well is:
            (1) always count abnormalities and make such counts accessible
            through the management protocol (see [INTRO:1]); and (2) allow
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - There is a tendency for abnormal but harmless protocol events to overflow error logging files; this can be avoided by using a "circular" log, or by enabling logging only while diagnosing a known failure.  It may be useful to filter and count duplicate successive messages.  One strategy that seems to work well is: (1) always count abnormalities and make such counts accessible through the management protocol (see [INTRO:1]); and (2) allow
+"ko": |-
+  - 비정상적이지만 무해한 프로토콜 이벤트로 인해 오류 로깅 파일이 오버플로되는 경향이 있습니다. 이는 "순환" 로그를 사용하거나 알려진 오류를 진단하는 동안에만 로깅을 활성화하여 방지할 수 있습니다. 중복된 연속 메시지를 필터링하고 계산하는 것이 유용할 수 있습니다. 잘 작동하는 것으로 보이는 한 가지 전략은 다음과 같습니다. (1) 항상 이상을 계산하고 관리 프로토콜을 통해 이러한 계산에 액세스할 수 있도록 합니다([소개:1] 참조). (2) 허용

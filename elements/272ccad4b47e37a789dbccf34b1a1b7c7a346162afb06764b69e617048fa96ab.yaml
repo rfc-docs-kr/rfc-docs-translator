@@ -1,0 +1,20 @@
+"hash": |-
+  272ccad4b47e37a789dbccf34b1a1b7c7a346162afb06764b69e617048fa96ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     6.   Any proxy encountering the MIKEY parameter SHALL forward it
+          without modification.  A proxy that is required to understand
+          the Transport specifications will need to understand SAVP/SAVPF
+          with MIKEY to enable the default keying for SRTP-protected media
+          streams.  If such a proxy does not support SAVP/SAVPF with
+          MIKEY, it will discard the whole transport specification.  Most
+          types of proxies can easily support SAVP and SAVPF with MIKEY.
+          If a client encounters a proxy not supporting SAVP/SAVPF with
+          MIKEY, the client should attempt bypassing that proxy.
+"fixed": |-
+  1.   Any proxy encountering the MIKEY parameter SHALL forward it without modification.  A proxy that is required to understand the Transport specifications will need to understand SAVP/SAVPF with MIKEY to enable the default keying for SRTP-protected media streams.  If such a proxy does not support SAVP/SAVPF with MIKEY, it will discard the whole transport specification.  Most types of proxies can easily support SAVP and SAVPF with MIKEY. If a client encounters a proxy not supporting SAVP/SAVPF with MIKEY, the client should attempt bypassing that proxy.
+"ko": |-
+  1. MIKEY 매개변수를 만나는 모든 프록시는 이를 수정 없이 전달해야 합니다. 전송 사양을 이해하는 데 필요한 프록시는 SRTP로 보호되는 미디어 스트림에 대한 기본 키잉을 활성화하기 위해 MIKEY가 있는 SAVP/SAVPF를 이해해야 합니다. 그러한 프록시가 MIKEY를 사용하여 SAVP/SAVPF를 지원하지 않는 경우 전체 전송 사양을 폐기합니다. 대부분의 프록시 유형은 MIKEY를 사용하여 SAVP 및 SAVPF를 쉽게 지원할 수 있습니다. 클라이언트가 MIKEY를 사용하여 SAVP/SAVPF를 지원하지 않는 프록시를 발견하는 경우 클라이언트는 해당 프록시 우회를 시도해야 합니다.

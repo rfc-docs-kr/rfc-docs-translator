@@ -1,0 +1,16 @@
+"hash": |-
+  4813bd0fab3c4fc208166e4d1055b454fe88db177ba47dfc021dc48b825e8ff1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If no Accept header field is present, then it is assumed that the
+     client accepts all media types.  If an Accept header field is
+     present, and if the server cannot send a response that is acceptable
+     according to the combined Accept field-value, then the server SHOULD
+     send a 406 (Not Acceptable) response.
+"fixed": |-
+  If no Accept header field is present, then it is assumed that the client accepts all media types.  If an Accept header field is present, and if the server cannot send a response that is acceptable according to the combined Accept field-value, then the server SHOULD send a 406 (Not Acceptable) response.
+"ko": |-
+  Accept 헤더 필드가 없으면 클라이언트가 모든 미디어 유형을 수락하는 것으로 간주됩니다. Accept 헤더 필드가 존재하고 서버가 결합된 Accept 필드 값에 따라 허용 가능한 응답을 보낼 수 없는 경우 서버는 406(Not Acceptable) 응답을 보내야 합니다.

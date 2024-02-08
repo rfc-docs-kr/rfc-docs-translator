@@ -8,7 +8,7 @@
         The packet receive interface between the IP layer and the link
         layer MUST include a flag to indicate whether the incoming packet
         was addressed to a link-layer broadcast address.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The packet receive interface between the IP layer and the link layer MUST include a flag to indicate whether the incoming packet was addressed to a link-layer broadcast address.
+"ko": |-
+  - IP 계층과 링크 계층 사이의 패킷 수신 인터페이스에는 들어오는 패킷이 링크 계층 브로드캐스트 주소로 지정되었는지 여부를 나타내는 플래그가 포함되어야 합니다.

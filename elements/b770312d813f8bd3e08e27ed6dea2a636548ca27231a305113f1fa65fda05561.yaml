@@ -1,0 +1,23 @@
+"hash": |-
+  b770312d813f8bd3e08e27ed6dea2a636548ca27231a305113f1fa65fda05561
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a server sets setup to "passive", the "src_addr" in the reply MUST
+     indicate the ports on which the server is willing to receive a TCP
+     connection for RTP and (if the client requested a TCP connection for
+     RTCP by specifying two "dest_addr" address specifications) a TCP/
+     RTCP connection.  If a server sets setup to "active", the ports
+     specified in "src_addr" address specifications MUST be set to 9.  The
+     server MAY use the "ssrc" parameter, following the guidance in
+     Section 18.54.  The server sets only one address specification in the
+     case that the client has indicated only a single address
+     specification or in case RTP and RTCP multiplexing was requested and
+     accepted by the server.  Port ordering for "src_addr" follows the
+     rules for RTP/AVP/UDP.
+"fixed": |-
+  If a server sets setup to "passive", the "src_addr" in the reply MUST indicate the ports on which the server is willing to receive a TCP connection for RTP and (if the client requested a TCP connection for RTCP by specifying two "dest_addr" address specifications) a TCP/ RTCP connection.  If a server sets setup to "active", the ports specified in "src_addr" address specifications MUST be set to 9.  The server MAY use the "ssrc" parameter, following the guidance in Section 18.54.  The server sets only one address specification in the case that the client has indicated only a single address specification or in case RTP and RTCP multiplexing was requested and accepted by the server.  Port ordering for "src_addr" follows the rules for RTP/AVP/UDP.
+"ko": |-
+  서버가 설정을 "passive"로 설정한 경우 응답의 "src_addr"은 서버가 RTP에 대한 TCP 연결을 수신할 포트를 나타내야 하며(클라이언트가 두 개의 "dest_addr"을 지정하여 RTCP에 대한 TCP 연결을 요청한 경우) " 주소 사양) TCP/RTCP 연결. 서버가 설정을 "active"로 설정하는 경우 "src_addr" 주소 사양에 지정된 포트는 9로 설정되어야 합니다. 서버는 섹션 18.54의 지침에 따라 "ssrc" 매개변수를 사용할 수 있습니다. 클라이언트가 단일 주소 사양만을 지시한 경우나 서버가 RTP 및 RTCP 다중화를 요청하여 수락한 경우 서버는 하나의 주소 사양만 설정합니다. "src_addr"의 포트 순서는 RTP/AVP/UDP 규칙을 따릅니다.

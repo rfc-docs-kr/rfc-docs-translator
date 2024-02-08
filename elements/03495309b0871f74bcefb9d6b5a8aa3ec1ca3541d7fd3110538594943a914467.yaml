@@ -1,0 +1,16 @@
+"hash": |-
+  03495309b0871f74bcefb9d6b5a8aa3ec1ca3541d7fd3110538594943a914467
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the GRE header immediately follows the GRE delivery header, the
+     Next Header field in the IPv6 header of the GRE delivery packet MUST
+     be set to 47.  If extension headers are inserted between the GRE
+     delivery header and the GRE header, the Next Header field in the last
+     IPv6 extension header MUST be set to 47.
+"fixed": |-
+  If the GRE header immediately follows the GRE delivery header, the Next Header field in the IPv6 header of the GRE delivery packet MUST be set to 47.  If extension headers are inserted between the GRE delivery header and the GRE header, the Next Header field in the last IPv6 extension header MUST be set to 47.
+"ko": |-
+  GRE 헤더가 GRE 전달 헤더 바로 뒤에 오는 경우 GRE 전달 패킷의 IPv6 헤더에 있는 Next Header 필드는 47로 설정되어야 합니다. 확장 헤더가 GRE 전달 헤더와 GRE 헤더 사이에 삽입되는 경우 다음 헤더 필드는 마지막 IPv6 확장 헤더는 47로 설정되어야 합니다.

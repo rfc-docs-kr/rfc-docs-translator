@@ -1,0 +1,31 @@
+"hash": |-
+  0e9ecbcae902b3cdc987064e8502fe491f27a5c246827ef4a20624d26dd742a1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Unsupported     = "Unsupported" HCOLON feature-tag-list
+     User-Agent      = "User-Agent" HCOLON ( product / comment )
+                       *(LWS (product / comment))
+     Via             = "Via" HCOLON via-parm *(COMMA via-parm)
+     via-parm        = sent-protocol LWS sent-by *( SEMI via-params )
+     via-params      = via-ttl / via-maddr
+                     / via-received / via-extension
+     via-ttl         = "ttl" EQUAL ttl
+     via-maddr       = "maddr" EQUAL host
+     via-received    = "received" EQUAL (IPv4address / IPv6address)
+     IPv4address     = < As defined in RFC 3986>
+     IPv6address     = < As defined in RFC 3986>
+     via-extension   = generic-param
+     sent-protocol   = protocol-name SLASH protocol-version
+                       SLASH transport-prot
+     protocol-name   = "RTSP" / token
+     protocol-version = token
+     transport-prot  = "UDP" / "TCP" / "TLS" / other-transport
+     other-transport = token
+     sent-by         = host [ COLON port ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

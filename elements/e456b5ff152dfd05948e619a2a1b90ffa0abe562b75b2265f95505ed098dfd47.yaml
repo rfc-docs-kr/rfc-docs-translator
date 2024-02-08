@@ -1,0 +1,16 @@
+"hash": |-
+  e456b5ff152dfd05948e619a2a1b90ffa0abe562b75b2265f95505ed098dfd47
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        RTCP is sometimes needed for synchronization when two or more
+        streams are interleaved in such a fashion.  Also, this provides a
+        convenient way to tunnel RTP/RTCP packets through the RTSP
+        connection (TCP or TCP/TLS) when required by the network
+        configuration and to transfer them onto UDP when possible.
+"fixed": |-
+  - RTCP is sometimes needed for synchronization when two or more streams are interleaved in such a fashion.  Also, this provides a convenient way to tunnel RTP/RTCP packets through the RTSP connection (TCP or TCP/TLS) when required by the network configuration and to transfer them onto UDP when possible.
+"ko": |-
+  - 두 개 이상의 스트림이 이러한 방식으로 인터리브되는 경우 동기화를 위해 RTCP가 필요한 경우가 있습니다. 또한 이는 네트워크 구성에서 필요할 때 RTSP 연결(TCP 또는 TCP/TLS)을 통해 RTP/RTCP 패킷을 터널링하고 가능한 경우 UDP로 전송하는 편리한 방법을 제공합니다.

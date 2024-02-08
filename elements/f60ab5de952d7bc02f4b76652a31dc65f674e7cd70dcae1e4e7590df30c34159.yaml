@@ -1,0 +1,19 @@
+"hash": |-
+  f60ab5de952d7bc02f4b76652a31dc65f674e7cd70dcae1e4e7590df30c34159
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     inetCidrRouteNumber OBJECT-TYPE
+         SYNTAX     Gauge32
+         MAX-ACCESS read-only
+         STATUS     current
+         DESCRIPTION
+                "The number of current inetCidrRouteTable entries that
+                 are not invalid."
+     ::= { ipForward 6 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  b1a4fd0655846ea7504d50577037cf9ea1d3546caf349940c9fb0779bcca8b5a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardEntry OBJECT-TYPE
+         SYNTAX     IpForwardEntry
+         MAX-ACCESS not-accessible
+         STATUS     obsolete
+         DESCRIPTION
+                "A particular route to a particular destination, under a
+                 particular policy."
+         INDEX {
+             ipForwardDest,
+             ipForwardProto,
+             ipForwardPolicy,
+             ipForwardNextHop
+             }
+         ::= { ipForwardTable 1 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

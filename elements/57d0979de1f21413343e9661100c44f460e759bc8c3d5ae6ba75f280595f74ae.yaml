@@ -1,0 +1,23 @@
+"hash": |-
+  57d0979de1f21413343e9661100c44f460e759bc8c3d5ae6ba75f280595f74ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When no Terminate-Reason "time" parameter is included in a REDIRECT
+     request, the client SHALL perform the redirection immediately and
+     return a response to the server.  The server shall consider the
+     session to be terminated and can free any associated state after it
+     receives the successful (2xx) response.  The server MAY close the
+     signaling connection upon receiving the response, and the client
+     SHOULD close the signaling connection after sending the 2xx response.
+     The exception to this is when the client has several sessions on the
+     server being managed by the given signaling connection.  In this
+     case, the client SHOULD close the connection when it has received and
+     responded to REDIRECT requests for all the sessions managed by the
+     signaling connection.
+"fixed": |-
+  When no Terminate-Reason "time" parameter is included in a REDIRECT request, the client SHALL perform the redirection immediately and return a response to the server.  The server shall consider the session to be terminated and can free any associated state after it receives the successful (2xx) response.  The server MAY close the signaling connection upon receiving the response, and the client SHOULD close the signaling connection after sending the 2xx response. The exception to this is when the client has several sessions on the server being managed by the given signaling connection.  In this case, the client SHOULD close the connection when it has received and responded to REDIRECT requests for all the sessions managed by the signaling connection.
+"ko": |-
+  Terminate-Reason "time" 매개변수가 REDIRECT 요청에 포함되지 않은 경우 클라이언트는 즉시 리디렉션을 수행하고 서버에 응답을 반환해야 합니다. 서버는 세션이 종료된 것으로 간주하고 성공적인(2xx) 응답을 받은 후 관련 상태를 해제할 수 있습니다. 서버는 응답 수신 시 신호 연결을 닫을 수 있으며, 클라이언트는 2xx 응답을 보낸 후 신호 연결을 닫아야 합니다. 이에 대한 예외는 클라이언트가 주어진 신호 연결에 의해 관리되는 서버에 여러 세션을 가지고 있는 경우입니다. 이 경우 클라이언트는 신호 연결에 의해 관리되는 모든 세션에 대한 REDIRECT 요청을 수신하고 응답할 때 연결을 닫아야 합니다(SHOULD).

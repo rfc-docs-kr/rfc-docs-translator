@@ -1,0 +1,15 @@
+"hash": |-
+  ea18db3aedec47b9405fa7ab70ddc4fab8667f2f5ea3899fd4ab5cac7f4fcc4e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If a client SETUP request assigns the "existing" value to
+           "connection", the server response MUST assign a value of
+           "existing" or "new" to "connection" on the Transport line, at
+           its discretion.
+"fixed": |-
+  - If a client SETUP request assigns the "existing" value to "connection", the server response MUST assign a value of "existing" or "new" to "connection" on the Transport line, at its discretion.
+"ko": |-
+  - 클라이언트 SETUP 요청이 "기존" 값을 "연결"에 할당하는 경우 서버 응답은 재량에 따라 전송 라인의 "연결"에 "기존" 또는 "새" 값을 할당해야 합니다.

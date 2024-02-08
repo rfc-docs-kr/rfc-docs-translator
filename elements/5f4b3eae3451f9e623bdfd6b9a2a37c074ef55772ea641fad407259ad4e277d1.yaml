@@ -1,0 +1,20 @@
+"hash": |-
+  5f4b3eae3451f9e623bdfd6b9a2a37c074ef55772ea641fad407259ad4e277d1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Following the header, token, and options, if any, comes the optional
+     payload.  If present and of non-zero length, it is prefixed by a
+     fixed, one-byte Payload Marker (0xFF), which indicates the end of
+     options and the start of the payload.  The payload data extends from
+     after the marker to the end of the UDP datagram, i.e., the Payload
+     Length is calculated from the datagram size.  The absence of the
+     Payload Marker denotes a zero-length payload.  The presence of a
+     marker followed by a zero-length payload MUST be processed as a
+     message format error.
+"fixed": |-
+  Following the header, token, and options, if any, comes the optional payload.  If present and of non-zero length, it is prefixed by a fixed, one-byte Payload Marker (0xFF), which indicates the end of options and the start of the payload.  The payload data extends from after the marker to the end of the UDP datagram, i.e., the Payload Length is calculated from the datagram size.  The absence of the Payload Marker denotes a zero-length payload.  The presence of a marker followed by a zero-length payload MUST be processed as a message format error.
+"ko": |-
+  헤더, 토큰 및 옵션(있는 경우) 뒤에는 선택적 페이로드가 옵니다. 존재하고 길이가 0이 아닌 경우 옵션의 끝과 페이로드의 시작을 나타내는 고정된 1바이트 페이로드 마커(0xFF)가 접두사로 붙습니다. 페이로드 데이터는 마커 뒤에서 UDP 데이터그램 끝까지 확장됩니다. 즉, 페이로드 길이는 데이터그램 크기에서 계산됩니다. 페이로드 마커가 없으면 길이가 0인 페이로드를 나타냅니다. 길이가 0인 페이로드가 뒤따르는 마커의 존재는 메시지 형식 오류로 처리되어야 합니다.

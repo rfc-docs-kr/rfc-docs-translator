@@ -1,0 +1,16 @@
+"hash": |-
+  163bc79a2d06b659984feaabfb35a1ec9babbc535272282071d31c7ab4483010
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Requests shall be acknowledged by the receiver.  If there is no
+        acknowledgement, the sender may resend the same message after a
+        timeout of one round-trip time (RTT).  Any retransmissions due to
+        lack of acknowledgement must carry the same sequence number as the
+        original request.
+"fixed": |-
+  -  Requests shall be acknowledged by the receiver.  If there is no acknowledgement, the sender may resend the same message after a timeout of one round-trip time (RTT).  Any retransmissions due to lack of acknowledgement must carry the same sequence number as the original request.
+"ko": |-
+  - 요청은 수신자에 의해 승인되어야 합니다. 확인이 없으면 보낸 사람은 RTT(왕복 시간) 시간 초과 후 동일한 메시지를 다시 보낼 수 있습니다. 승인 부족으로 인한 모든 재전송에는 원래 요청과 동일한 시퀀스 번호가 있어야 합니다.

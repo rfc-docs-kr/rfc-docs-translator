@@ -1,0 +1,16 @@
+"hash": |-
+  d1fba2119864bb4e0923f08227516b0c939239baa6a0a383afa1cda2eba390be
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This means the response to a DTLS secured request MUST always be DTLS
+     secured using the same security session and epoch.  Any attempt to
+     supply a NoSec response to a DTLS request simply does not match the
+     request and therefore MUST be rejected (unless it does match an
+     unrelated NoSec request).
+"fixed": |-
+  This means the response to a DTLS secured request MUST always be DTLS secured using the same security session and epoch.  Any attempt to supply a NoSec response to a DTLS request simply does not match the request and therefore MUST be rejected (unless it does match an unrelated NoSec request).
+"ko": |-
+  이는 DTLS 보안 요청에 대한 응답이 항상 동일한 보안 세션 및 에포크를 사용하여 DTLS 보안을 받아야 함을 의미합니다. DTLS 요청에 NoSec 응답을 제공하려는 모든 시도는 단순히 요청과 일치하지 않으므로 반드시 거부되어야 합니다(관련되지 않은 NoSec 요청과 일치하지 않는 한).

@@ -1,0 +1,22 @@
+"hash": |-
+  96b6aef163da8a726b07e052171e21e2f81486124e0ad4861547569556243109
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       S->C: PLAY_NOTIFY rtsp://example.com/fizzle/foo RTSP/2.0
+             CSeq: 854
+             Notify-Reason: end-of-stream
+             Request-Status: cseq=853 status=200 reason="OK"
+             Range: npt=-145
+             RTP-Info:url="rtsp://example.com/fizzle/foo/audio"
+                ssrc=0D12F123:seq=14783;rtptime=2345962545,
+                url="rtsp://example.com/fizzle/video"
+                ssrc=789DAF12:seq=57654;rtptime=2792482193
+             Session: CDtUJfDQXJWtJ7Iqua2xOi
+             Date: Mon, 08 Mar 2010 13:37:16 GMT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

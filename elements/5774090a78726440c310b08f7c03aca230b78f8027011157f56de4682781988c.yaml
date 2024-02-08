@@ -1,0 +1,20 @@
+"hash": |-
+  5774090a78726440c310b08f7c03aca230b78f8027011157f56de4682781988c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            IdentifierType identifier_type;
+            select (identifier_type) {
+                case pre_agreed: struct {};
+                case key_sha1_hash: SHA1Hash;
+                case x509_name: DistinguishedName;
+                case cert_sha1_hash: SHA1Hash;
+            } identifier;
+        } TrustedAuthority;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

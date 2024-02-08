@@ -1,0 +1,18 @@
+"hash": |-
+  bf4ba944ac466032281f5f4350522da697765fd102958907ee77b8e780aa4f3f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        When using multiple sequential transport connections, there is no
+        protocol mechanism to ensure in-order processing as the sequence
+        number is scoped on the individual transport connection and its
+        five tuple.  Thus, there are potential issues with opening a new
+        transport connection to the same host for which there already
+        exists a transport connection with outstanding requests and
+        previously dispatched requests related to the same RTSP session.
+"fixed": |-
+  - When using multiple sequential transport connections, there is no protocol mechanism to ensure in-order processing as the sequence number is scoped on the individual transport connection and its five tuple.  Thus, there are potential issues with opening a new transport connection to the same host for which there already exists a transport connection with outstanding requests and previously dispatched requests related to the same RTSP session.
+"ko": |-
+  - 여러 순차 전송 연결을 사용하는 경우 시퀀스 번호의 범위는 개별 전송 연결과 해당 5개의 튜플에 지정되므로 순서대로 처리를 보장하는 프로토콜 메커니즘이 없습니다. 따라서 동일한 RTSP 세션과 관련하여 처리되지 않은 요청 및 이전에 발송된 요청이 있는 전송 연결이 이미 존재하는 동일한 호스트에 대해 새 전송 연결을 여는 데 잠재적인 문제가 있습니다.

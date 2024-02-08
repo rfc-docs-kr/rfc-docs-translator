@@ -1,0 +1,19 @@
+"hash": |-
+  a09585f3f401331566740796c9b23b8c7e7a56ee4435d70fe51411213844ec7d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When applying restrictions of the form directoryName, an
+     implementation MUST compare DN attributes.  At a minimum,
+     implementations MUST perform the DN comparison rules specified in
+     Section 7.1.  CAs issuing certificates with a restriction of the form
+     directoryName SHOULD NOT rely on implementation of the full ISO DN
+     name comparison algorithm.  This implies name restrictions MUST be
+     stated identically to the encoding used in the subject field or
+     subjectAltName extension.
+"fixed": |-
+  When applying restrictions of the form directoryName, an implementation MUST compare DN attributes.  At a minimum, implementations MUST perform the DN comparison rules specified in Section 7.1.  CAs issuing certificates with a restriction of the form directoryName SHOULD NOT rely on implementation of the full ISO DN name comparison algorithm.  This implies name restrictions MUST be stated identically to the encoding used in the subject field or subjectAltName extension.
+"ko": |-
+  DirectoryName 형식의 제한 사항을 적용할 때 구현에서는 DN 속성을 비교해야 합니다. 최소한 구현은 섹션 7.1에 지정된 DN 비교 규칙을 수행해야 합니다. DirectoryName 형식의 제한이 있는 인증서를 발급하는 CA는 전체 ISO DN 이름 비교 알고리즘의 구현에 의존해서는 안 됩니다. 이는 이름 제한이 제목 필드 또는 subjectAltName 확장에 사용된 인코딩과 동일하게 명시되어야 함을 의미합니다.

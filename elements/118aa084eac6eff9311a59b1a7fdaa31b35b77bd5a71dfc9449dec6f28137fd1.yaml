@@ -1,0 +1,16 @@
+"hash": |-
+  118aa084eac6eff9311a59b1a7fdaa31b35b77bd5a71dfc9449dec6f28137fd1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  RTSP 1.0 allowed NPT in the npt-hhmmss notation without any
+           leading zeros to ensure that implementations don't fail; for
+           backward compatibility, all RTSP 2.0 implementations are
+           REQUIRED to support receiving NPT values, hours, minutes, or
+           seconds, without leading zeros.
+"fixed": |-
+  - *  RTSP 1.0 allowed NPT in the npt-hhmmss notation without any leading zeros to ensure that implementations don't fail; for backward compatibility, all RTSP 2.0 implementations are REQUIRED to support receiving NPT values, hours, minutes, or seconds, without leading zeros.
+"ko": |-
+  - * RTSP 1.0에서는 구현이 실패하지 않도록 하기 위해 선행 0 없이 npt-hhmmss 표기법에서 NPT를 허용했습니다. 이전 버전과의 호환성을 위해 모든 RTSP 2.0 구현은 앞에 0이 없는 NPT 값, 시간, 분 또는 초 수신을 지원해야 합니다.

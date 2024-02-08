@@ -1,0 +1,17 @@
+"hash": |-
+  23e3603a4da9ffdd1e3b2a042b024f9086e1e075f335fa9c95774207732e6da9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All range specifiers in this specification allow for ranges with an
+     implicit start point (e.g., "npt=-30").  When used in a PLAY request,
+     the server treats this as a request to start or resume delivery from
+     the current pause point, ending at the end time specified in the
+     Range header.  If the pause point is located later than the given end
+     value, a 457 (Invalid Range) response MUST be returned.
+"fixed": |-
+  All range specifiers in this specification allow for ranges with an implicit start point (e.g., "npt=-30").  When used in a PLAY request, the server treats this as a request to start or resume delivery from the current pause point, ending at the end time specified in the Range header.  If the pause point is located later than the given end value, a 457 (Invalid Range) response MUST be returned.
+"ko": |-
+  이 사양의 모든 범위 지정자는 암시적 시작점이 있는 범위를 허용합니다(예: "npt=-30"). PLAY 요청에 사용될 때 서버는 이를 현재 일시 중지 지점부터 Range 헤더에 지정된 종료 시간에 끝나는 전달을 시작하거나 재개하라는 요청으로 처리합니다. 일시정지 지점이 지정된 종료 값보다 이후에 위치하는 경우 457(잘못된 범위) 응답이 반환되어야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  a3f28994067068523fda7aa9a092bfe605f9dcc72595dd907e832500e26f3e11
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server SHOULD obtain the Last-Modified value of the message
+     body as close as possible to the time that it generates the Date
+     value of its response.  This allows a recipient to make an accurate
+     assessment of the message body's modification time, especially if the
+     message body changes near the time that the response is generated.
+"fixed": |-
+  An origin server SHOULD obtain the Last-Modified value of the message body as close as possible to the time that it generates the Date value of its response.  This allows a recipient to make an accurate assessment of the message body's modification time, especially if the message body changes near the time that the response is generated.
+"ko": |-
+  원서버는 응답의 Date 값을 생성하는 시간에 최대한 가까운 메시지 본문의 Last-Modified 값을 얻어야 합니다(SHOULD). 이를 통해 수신자는 특히 응답이 생성되는 시간 근처에 메시지 본문이 변경되는 경우 메시지 본문의 수정 시간을 정확하게 평가할 수 있습니다.

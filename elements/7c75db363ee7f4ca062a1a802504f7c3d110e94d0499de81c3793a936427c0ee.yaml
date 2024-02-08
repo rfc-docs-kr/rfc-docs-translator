@@ -1,0 +1,18 @@
+"hash": |-
+  7c75db363ee7f4ca062a1a802504f7c3d110e94d0499de81c3793a936427c0ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Content must be prepared with some consideration for RTP and RTCP
+     multiplexing, mainly ensuring that the RTP payload types used do not
+     collide with the ones used for RTCP packet types.  This option likely
+     needs explicit support from the content unless the RTP payload types
+     can be remapped by the server and that is correctly reflected in the
+     session description.  Beyond that, support of this feature should
+     come at little cost and much gain.
+"fixed": |-
+  Content must be prepared with some consideration for RTP and RTCP multiplexing, mainly ensuring that the RTP payload types used do not collide with the ones used for RTCP packet types.  This option likely needs explicit support from the content unless the RTP payload types can be remapped by the server and that is correctly reflected in the session description.  Beyond that, support of this feature should come at little cost and much gain.
+"ko": |-
+  RTP 및 RTCP 멀티플렉싱을 고려하여 콘텐츠를 준비해야 하며, 주로 사용된 RTP 페이로드 유형이 RTCP 패킷 유형에 사용되는 유형과 충돌하지 않도록 해야 합니다. 이 옵션은 서버에서 RTP 페이로드 유형을 다시 매핑할 수 있고 세션 설명에 올바르게 반영되지 않는 한 콘텐츠의 명시적인 지원이 필요할 수 있습니다. 그 외에도 이 기능을 지원하면 적은 비용으로 많은 이점을 얻을 수 있습니다.

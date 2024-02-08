@@ -9,7 +9,7 @@
         SHOULD NOT rely on the use of SIGURG to process input on the
         control channel during data transfers.  The client MUST send all
         data, including Telnet commands, across the TLS session.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - When TLS is implemented as a security method in FTP, the server SHOULD NOT rely on the use of SIGURG to process input on the control channel during data transfers.  The client MUST send all data, including Telnet commands, across the TLS session.
+"ko": |-
+  - TLS가 FTP의 보안 방법으로 구현되면 서버는 데이터 전송 중에 제어 채널의 입력을 처리하기 위해 SIGURG 사용에 의존해서는 안 됩니다. 클라이언트는 TLS 세션을 통해 Telnet 명령을 포함한 모든 데이터를 전송해야 합니다.

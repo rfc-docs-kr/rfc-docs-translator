@@ -1,0 +1,19 @@
+"hash": |-
+  e36759415202aa77cdfbdb713f60c99f74bf517cc5358549ab586d75542fc1d1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Instead of specifying the Option Number directly, the instances MUST
+     appear in order of their Option Numbers and a delta encoding is used
+     between them: the Option Number for each instance is calculated as
+     the sum of its delta and the Option Number of the preceding instance
+     in the message.  For the first instance in a message, a preceding
+     option instance with Option Number zero is assumed.  Multiple
+     instances of the same option can be included by using a delta of
+     zero.
+"fixed": |-
+  Instead of specifying the Option Number directly, the instances MUST appear in order of their Option Numbers and a delta encoding is used between them: the Option Number for each instance is calculated as the sum of its delta and the Option Number of the preceding instance in the message.  For the first instance in a message, a preceding option instance with Option Number zero is assumed.  Multiple instances of the same option can be included by using a delta of zero.
+"ko": |-
+  옵션 번호를 직접 지정하는 대신 인스턴스는 옵션 번호 순서대로 나타나야 하며 인스턴스 사이에 델타 인코딩이 사용됩니다. 각 인스턴스의 옵션 번호는 델타와 이전 인스턴스의 옵션 번호의 합으로 계산됩니다. 메시지. 메시지의 첫 번째 인스턴스의 경우 옵션 번호가 0인 이전 옵션 인스턴스가 가정됩니다. 델타 0을 사용하여 동일한 옵션의 여러 인스턴스를 포함할 수 있습니다.

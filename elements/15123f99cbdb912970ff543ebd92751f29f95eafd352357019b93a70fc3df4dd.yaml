@@ -1,0 +1,14 @@
+"hash": |-
+  15123f99cbdb912970ff543ebd92751f29f95eafd352357019b93a70fc3df4dd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (l)  If the certificate was not self-issued, verify that
+        max_path_length is greater than zero and decrement max_path_length
+        by 1.
+"fixed": |-
+  - (l)  If the certificate was not self-issued, verify that max_path_length is greater than zero and decrement max_path_length by 1.
+"ko": |-
+  - (l) 인증서가 자체 발급되지 않은 경우 max_path_length가 0보다 큰지 확인하고 max_path_length를 1씩 감소시킵니다.

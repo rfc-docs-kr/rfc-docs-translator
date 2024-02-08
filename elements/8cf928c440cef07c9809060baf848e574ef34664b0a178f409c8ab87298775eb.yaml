@@ -1,0 +1,21 @@
+"hash": |-
+  8cf928c440cef07c9809060baf848e574ef34664b0a178f409c8ab87298775eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  The Equal-Cost Multipath (ECMP) capability of SPF IGPs supports
+         sharing of traffic among equal-cost paths.  However, ECMP
+         attempts to divide the traffic as equally as possible among the
+         equal-cost shortest paths.  Generally, ECMP does not support
+         configurable load-sharing ratios among equal-cost paths.  The
+         result is that one of the paths may carry significantly more
+         traffic than other paths because it may also carry traffic from
+         other sources.  This situation can result in congestion along the
+         path that carries more traffic.  Weighted ECMP (WECMP) (see, for
+         example, [EVPN-UNEQUAL-LB]) provides some mitigation.
+"fixed": |-
+  1.  The Equal-Cost Multipath (ECMP) capability of SPF IGPs supports sharing of traffic among equal-cost paths.  However, ECMP attempts to divide the traffic as equally as possible among the equal-cost shortest paths.  Generally, ECMP does not support configurable load-sharing ratios among equal-cost paths.  The result is that one of the paths may carry significantly more traffic than other paths because it may also carry traffic from other sources.  This situation can result in congestion along the path that carries more traffic.  Weighted ECMP (WECMP) (see, for example, [EVPN-UNEQUAL-LB]) provides some mitigation.
+"ko": |-
+  1. SPF IGP의 ECMP(Equal-Cost Multipath) 기능은 동일 비용 경로 간의 트래픽 공유를 지원합니다. 그러나 ECMP는 동일한 비용의 최단 경로 간에 트래픽을 최대한 균등하게 나누려고 시도합니다. 일반적으로 ECMP는 동일 비용 경로 간에 구성 가능한 로드 공유 비율을 지원하지 않습니다. 결과적으로 경로 중 하나는 다른 소스로부터 트래픽을 전달할 수도 있기 때문에 다른 경로보다 훨씬 더 많은 트래픽을 전달할 수 있습니다. 이러한 상황은 더 많은 트래픽을 전달하는 경로를 따라 정체를 초래할 수 있습니다. WECMP(Weighted ECMP)(예: [EVPN-UNEQUAL-LB] 참조)는 일부 완화 기능을 제공합니다.

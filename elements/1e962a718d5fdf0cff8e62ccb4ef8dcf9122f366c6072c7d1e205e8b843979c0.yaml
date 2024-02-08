@@ -1,0 +1,17 @@
+"hash": |-
+  1e962a718d5fdf0cff8e62ccb4ef8dcf9122f366c6072c7d1e205e8b843979c0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note: a response that lacks a validator may still be cached, and
+        served from cache until it expires, unless this is explicitly
+        prohibited by a cache directive (see Section 18.11).  However, a
+        cache cannot perform a conditional retrieval if it does not have a
+        validator for the resource, which means it will not be refreshable
+        after it expires.
+"fixed": |-
+  - Note: a response that lacks a validator may still be cached, and served from cache until it expires, unless this is explicitly prohibited by a cache directive (see Section 18.11).  However, a cache cannot perform a conditional retrieval if it does not have a validator for the resource, which means it will not be refreshable after it expires.
+"ko": |-
+  - 참고: 유효성 검사기가 없는 응답은 캐시 지시문에 의해 명시적으로 금지되지 않는 한 캐시되고 만료될 때까지 캐시에서 제공될 수 있습니다(섹션 18.11 참조). 그러나 캐시에 리소스에 대한 유효성 검사기가 없으면 조건부 검색을 수행할 수 없습니다. 즉, 만료된 후에는 새로 고칠 수 없습니다.

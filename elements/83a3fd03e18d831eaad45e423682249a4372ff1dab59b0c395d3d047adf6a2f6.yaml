@@ -1,0 +1,21 @@
+"hash": |-
+  83a3fd03e18d831eaad45e423682249a4372ff1dab59b0c395d3d047adf6a2f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Segment Protection:  An MPLS domain may be partitioned into multiple
+        subdomains (protection domains).  Path protection is applied to
+        the path of each LSP as it crosses the domain from its ingress to
+        the domain to where it egresses the domain.  In cases where an LSP
+        traverses multiple protection domains, a protection mechanism
+        within a domain only needs to protect the segment of the LSP that
+        lies within the domain.  Segment protection will generally be
+        faster than end-to-end path protection because recovery generally
+        occurs closer to the fault, and the notification doesn't have to
+        propagate as far.
+"fixed": |-
+  Segment Protection:  An MPLS domain may be partitioned into multiple subdomains (protection domains).  Path protection is applied to the path of each LSP as it crosses the domain from its ingress to the domain to where it egresses the domain.  In cases where an LSP traverses multiple protection domains, a protection mechanism within a domain only needs to protect the segment of the LSP that lies within the domain.  Segment protection will generally be faster than end-to-end path protection because recovery generally occurs closer to the fault, and the notification doesn't have to propagate as far.
+"ko": |-
+  세그먼트 보호: MPLS 도메인은 여러 하위 도메인(보호 도메인)으로 분할될 수 있습니다. 경로 보호는 각 LSP가 도메인을 수신하여 도메인에서 나가는 도메인을 통과할 때 해당 경로에 적용됩니다. LSP가 여러 보호 도메인을 통과하는 경우 도메인 내의 보호 메커니즘은 도메인 내에 있는 LSP 세그먼트만 보호하면 됩니다. 일반적으로 복구가 결함에 더 가깝게 발생하고 알림이 멀리 전파될 필요가 없기 때문에 세그먼트 보호는 일반적으로 종단 간 경로 보호보다 빠릅니다.

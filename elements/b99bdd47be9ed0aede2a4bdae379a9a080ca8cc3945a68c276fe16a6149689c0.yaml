@@ -1,0 +1,18 @@
+"hash": |-
+  b99bdd47be9ed0aede2a4bdae379a9a080ca8cc3945a68c276fe16a6149689c0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Pipelined-Requests general-header is used to indicate that a
+     request is to be executed in the context created by a previous
+     request(s).  The primary usage of this header is to allow pipelining
+     of SETUP requests so that any additional SETUP request after the
+     first one does not need to wait for the session ID to be sent back to
+     the requesting agent.  The header contains a unique identifier that
+     is scoped by the persistent connection used to send the requests.
+"fixed": |-
+  The Pipelined-Requests general-header is used to indicate that a request is to be executed in the context created by a previous request(s).  The primary usage of this header is to allow pipelining of SETUP requests so that any additional SETUP request after the first one does not need to wait for the session ID to be sent back to the requesting agent.  The header contains a unique identifier that is scoped by the persistent connection used to send the requests.
+"ko": |-
+  Pipelined-Requests 일반 헤더는 이전 요청에 의해 생성된 컨텍스트에서 요청이 실행되어야 함을 나타내는 데 사용됩니다. 이 헤더의 기본 용도는 첫 번째 요청 이후의 추가 SETUP 요청이 세션 ID가 요청 에이전트로 다시 전송될 때까지 기다릴 필요가 없도록 SETUP 요청의 파이프라인을 허용하는 것입니다. 헤더에는 요청을 보내는 데 사용되는 영구 연결에 의해 범위가 지정되는 고유 식별자가 포함되어 있습니다.

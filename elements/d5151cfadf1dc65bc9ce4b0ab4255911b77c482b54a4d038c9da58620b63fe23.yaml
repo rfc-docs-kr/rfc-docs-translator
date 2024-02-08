@@ -1,0 +1,21 @@
+"hash": |-
+  d5151cfadf1dc65bc9ce4b0ab4255911b77c482b54a4d038c9da58620b63fe23
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  -- Naming attributes of type X520CommonName:
+  --   X520CommonName ::= DirectoryName (SIZE (1..ub-common-name))
+  --
+  -- Expanded to avoid parameterized type:
+  X520CommonName ::= CHOICE {
+        teletexString     TeletexString   (SIZE (1..ub-common-name)),
+        printableString   PrintableString (SIZE (1..ub-common-name)),
+        universalString   UniversalString (SIZE (1..ub-common-name)),
+        utf8String        UTF8String      (SIZE (1..ub-common-name)),
+        bmpString         BMPString       (SIZE (1..ub-common-name)) }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

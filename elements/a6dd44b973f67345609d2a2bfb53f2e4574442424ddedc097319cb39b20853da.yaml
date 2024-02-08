@@ -1,0 +1,18 @@
+"hash": |-
+  a6dd44b973f67345609d2a2bfb53f2e4574442424ddedc097319cb39b20853da
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Referrer           =  "Referrer" HCOLON (absolute-URI / RTSP-URI-Ref)
+     Request-Status     =  "Request-Status" HCOLON req-status-info
+     req-status-info    =  cseq-info LWS status-info LWS reason-info
+     cseq-info          =  "cseq" EQUAL cseq-nr
+     status-info        =  "status" EQUAL Status-Code
+     reason-info        =  "reason" EQUAL DQUOTE Reason-Phrase DQUOTE
+     Require            =  "Require" HCOLON feature-tag-list
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

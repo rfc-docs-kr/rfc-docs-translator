@@ -1,0 +1,19 @@
+"hash": |-
+  d8023416d33cc237686d5025111ffb692ccb43ecf9c5b2bac4388b2de51f01b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This specification makes no strong requirements on the accuracy of
+     the clocks used to implement the above binary exponential back-off
+     algorithm.  In particular, an endpoint may be late for a specific
+     retransmission due to its sleep schedule and may catch up on the next
+     one.  However, the minimum spacing before another retransmission is
+     ACK_TIMEOUT, and the entire sequence of (re-)transmissions MUST stay
+     in the envelope of MAX_TRANSMIT_SPAN (see Section 4.8.2), even if
+     that means a sender may miss an opportunity to transmit.
+"fixed": |-
+  This specification makes no strong requirements on the accuracy of the clocks used to implement the above binary exponential back-off algorithm.  In particular, an endpoint may be late for a specific retransmission due to its sleep schedule and may catch up on the next one.  However, the minimum spacing before another retransmission is ACK_TIMEOUT, and the entire sequence of (re-)transmissions MUST stay in the envelope of MAX_TRANSMIT_SPAN (see Section 4.8.2), even if that means a sender may miss an opportunity to transmit.
+"ko": |-
+  이 사양에서는 위의 이진 지수 백오프 알고리즘을 구현하는 데 사용되는 클록의 정확성에 대해 강력한 요구 사항을 제시하지 않습니다. 특히 엔드포인트는 수면 일정으로 인해 특정 재전송에 늦을 수 있으며 다음 일정을 따라잡을 수 있습니다. 그러나 또 다른 재전송 전의 최소 간격은 ACK_TIMEOUT이며, (재)전송의 전체 시퀀스는 발신자가 전송할 기회를 놓칠 수 있음을 의미하더라도 MAX_TRANSMIT_SPAN(섹션 4.8.2 참조)의 봉투에 유지되어야 합니다.

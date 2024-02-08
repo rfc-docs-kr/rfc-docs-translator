@@ -1,0 +1,14 @@
+"hash": |-
+  fbf8ea0a5289ec762f6e86bd60b5ce032c0c4ddce7ce7c5d604081594b4754c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1. If the length of P is greater than the input limitation for the
+     hash function (2^61-1 octets for SHA-1) then output "parameter string
+     too long" and stop.
+"fixed": |-
+  1. If the length of P is greater than the input limitation for the hash function (2^61-1 octets for SHA-1) then output "parameter string too long" and stop.
+"ko": |-
+  1. P의 길이가 해시 함수의 입력 제한(SHA-1의 경우 2^61-1 옥텟)보다 큰 경우 "매개변수 문자열이 너무 깁니다"를 출력하고 중지합니다.

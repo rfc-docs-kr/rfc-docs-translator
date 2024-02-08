@@ -1,0 +1,20 @@
+"hash": |-
+  5612c2857621875d037311e636988b2832926d8014904a1662d7ef8d683cf2d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        As noted, Range headers define half-open intervals.  A range of
+        A-B starts exactly at time A, but ends just before B.  Only the
+        start time of a media unit such as a video or audio frame is
+        relevant.  For example, assume that video frames are generated
+        every 40 ms.  A range of 10.0-10.1 would include a video frame
+        starting at 10.0 or later time and would include a video frame
+        starting at 10.08, even though it lasted beyond the interval.  A
+        range of 10.0-10.08, on the other hand, would exclude the frame at
+        10.08.
+"fixed": |-
+  - As noted, Range headers define half-open intervals.  A range of A-B starts exactly at time A, but ends just before B.  Only the start time of a media unit such as a video or audio frame is relevant.  For example, assume that video frames are generated every 40 ms.  A range of 10.0-10.1 would include a video frame starting at 10.0 or later time and would include a video frame starting at 10.08, even though it lasted beyond the interval.  A range of 10.0-10.08, on the other hand, would exclude the frame at 10.08.
+"ko": |-
+  - 언급한 대로 범위 헤더는 반 개방 간격을 정의합니다. A-B의 범위는 정확히 A 시간에 시작하지만 B 직전에 끝납니다. 비디오 또는 오디오 프레임과 같은 미디어 단위의 시작 시간만 관련됩니다. 예를 들어 비디오 프레임이 40ms마다 생성된다고 가정합니다. 10.0-10.1 범위에는 10.0 이상에서 시작하는 비디오 프레임이 포함되며, 간격을 넘어 지속되더라도 10.08에서 시작하는 비디오 프레임이 포함됩니다. 반면에 10.0-10.08 범위는 10.08의 프레임을 제외합니다.

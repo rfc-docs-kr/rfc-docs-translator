@@ -1,0 +1,18 @@
+"hash": |-
+  40df4696b6f657cdb1f3d0fa222a6f65839c8d31c89b6d6080d4717ee1be4143
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A received message that does not have a Date header field MUST be
+     assigned one by the recipient if the message will be cached by that
+     recipient.  An RTSP implementation without a clock MUST NOT cache
+     responses without revalidating them on every use.  An RTSP cache,
+     especially a shared cache, SHOULD use a mechanism, such as the
+     Network Time Protocol (NTP) [RFC5905], to synchronize its clock with
+     a reliable external standard.
+"fixed": |-
+  A received message that does not have a Date header field MUST be assigned one by the recipient if the message will be cached by that recipient.  An RTSP implementation without a clock MUST NOT cache responses without revalidating them on every use.  An RTSP cache, especially a shared cache, SHOULD use a mechanism, such as the Network Time Protocol (NTP) [RFC5905], to synchronize its clock with a reliable external standard.
+"ko": |-
+  Date 헤더 필드가 없는 수신 메시지는 해당 수신자가 메시지를 캐시할 경우 해당 수신자에 의해 해당 필드가 할당되어야 합니다. 클록이 없는 RTSP 구현은 사용할 때마다 응답을 재검증하지 않고 응답을 캐시해서는 안 됩니다(MUST NOT). RTSP 캐시, 특히 공유 캐시는 NTP(Network Time Protocol) [RFC5905]와 같은 메커니즘을 사용하여 시계를 신뢰할 수 있는 외부 표준과 동기화해야 합니다.

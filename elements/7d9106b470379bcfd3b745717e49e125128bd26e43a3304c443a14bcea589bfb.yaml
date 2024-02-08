@@ -1,0 +1,17 @@
+"hash": |-
+  7d9106b470379bcfd3b745717e49e125128bd26e43a3304c443a14bcea589bfb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note the different URI in the SETUP command and then the switch back
+     to the aggregate URI in the PLAY command.  This makes complete sense
+     when there are multiple streams with aggregate control, but it is
+     less than intuitive in the special case where the number of streams
+     is one.  However, the server has declared the aggregated control URI
+     in the SDP; therefore, this is legal.
+"fixed": |-
+  Note the different URI in the SETUP command and then the switch back to the aggregate URI in the PLAY command.  This makes complete sense when there are multiple streams with aggregate control, but it is less than intuitive in the special case where the number of streams is one.  However, the server has declared the aggregated control URI in the SDP; therefore, this is legal.
+"ko": |-
+  SETUP 명령에서 다른 URI를 확인한 다음 PLAY 명령에서 집계 URI로 다시 전환하십시오. 이는 집계 제어가 가능한 여러 스트림이 있는 경우 완전히 의미가 있지만 스트림 수가 1개인 특수한 경우에는 직관적이지 않습니다. 그러나 서버는 SDP에서 집계된 제어 URI를 선언했습니다. 그러므로 이것은 합법적입니다.

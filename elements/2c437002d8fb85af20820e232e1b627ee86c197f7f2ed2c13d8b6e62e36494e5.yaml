@@ -1,0 +1,20 @@
+"hash": |-
+  2c437002d8fb85af20820e232e1b627ee86c197f7f2ed2c13d8b6e62e36494e5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           (2)  If excludedSubtrees is present in the certificate, set the
+                excluded_subtrees state variable to the union of its
+                previous value and the value indicated in the extension
+                field.  If excludedSubtrees does not include a particular
+                name type, the excluded_subtrees state variable is
+                unchanged for that name type.  For example, the union of
+                the name spaces example.com and foo.example.com is
+                example.com.  And the union of example.com and example.net
+                is both name spaces.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

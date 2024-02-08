@@ -1,0 +1,18 @@
+"hash": |-
+  4fccf5e01b5c69493161c341ed5534dfe59e0b094cc18ad0fd865ea30095c805
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note also, as in most cases, the URIs used in the DESCRIBE and the
+     SETUP requests are different: the URI provided in a DESCRIBE Content-
+     Location response can't directly be used in a SETUP request.
+     Instead, the steps of deriving the media resource URIs are necessary.
+     This commonly involves combing the media description's relative URIs,
+     e.g., from the SDP's a=control attribute, with the base-URI to create
+     the absolute URIs needed in the SETUP request.
+"fixed": |-
+  Note also, as in most cases, the URIs used in the DESCRIBE and the SETUP requests are different: the URI provided in a DESCRIBE Content- Location response can't directly be used in a SETUP request. Instead, the steps of deriving the media resource URIs are necessary. This commonly involves combing the media description's relative URIs, e.g., from the SDP's a=control attribute, with the base-URI to create the absolute URIs needed in the SETUP request.
+"ko": |-
+  또한 대부분의 경우 DESCRIBE 및 SETUP 요청에 사용되는 URI는 다릅니다. DESCRIBE Content-Location 응답에 제공된 URI는 SETUP 요청에 직접 사용할 수 없습니다. 대신 미디어 리소스 URI를 파생하는 단계가 필요합니다. 여기에는 일반적으로 미디어 설명의 상대 URI(예: SDP의 a=control 속성)를 기본 URI와 결합하여 SETUP 요청에 필요한 절대 URI를 생성하는 작업이 포함됩니다.

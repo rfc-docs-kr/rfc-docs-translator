@@ -1,0 +1,19 @@
+"hash": |-
+  f2a1eebc848b0fe35171de3d8d18bf2acfcade6ac1acf8cddf39ef01be78a8e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Both the encryption and the decryption operations of RSAES-OAEP take
+     the value of the parameter string P as input. In this version of PKCS
+     #1, P is an octet string that is specified explicitly. See Section
+     11.2.1 for the relevant ASN.1 syntax. We briefly note that to receive
+     the full security benefit of RSAES-OAEP, it should not be used in a
+     protocol involving RSAES-PKCS1-v1_5. It is possible that in a
+     protocol on which both encryption schemes are present, an adaptive
+     chosen ciphertext attack such as [4] would be useful.
+"fixed": |-
+  Both the encryption and the decryption operations of RSAES-OAEP take the value of the parameter string P as input. In this version of PKCS #1, P is an octet string that is specified explicitly. See Section 11.2.1 for the relevant ASN.1 syntax. We briefly note that to receive the full security benefit of RSAES-OAEP, it should not be used in a protocol involving RSAES-PKCS1-v1_5. It is possible that in a protocol on which both encryption schemes are present, an adaptive chosen ciphertext attack such as [4] would be useful.
+"ko": |-
+  RSAES-OAEP의 암호화 및 암호 해독 작업은 모두 매개변수 문자열 P의 값을 입력으로 사용합니다. 이 버전의 PKCS #1에서 P는 명시적으로 지정된 옥텟 문자열입니다. 관련 ASN.1 구문은 섹션 11.2.1을 참조하세요. RSAES-OAEP의 완전한 보안 이점을 얻으려면 RSAES-PKCS1-v1_5와 관련된 프로토콜에서 사용해서는 안 된다는 점을 간략히 언급합니다. 두 암호화 체계가 모두 존재하는 프로토콜에서는 [4]와 같은 적응형 선택 암호문 공격이 유용할 수 있습니다.

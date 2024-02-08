@@ -1,0 +1,22 @@
+"hash": |-
+  a1fd8be81a3b9a82afadd52a53f90294c7a037fef69a84c033262ae4219cebf2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Representation of internationalized names in distinguished names is
+     covered in Sections 4.1.2.4, Issuer Name, and 4.1.2.6, Subject Name.
+     Standard naming attributes, such as common name, employ the
+     DirectoryString type, which supports internationalized names through
+     a variety of language encodings.  Conforming implementations MUST
+     support UTF8String and PrintableString.  RFC 3280 required only
+     binary comparison of attribute values encoded in UTF8String, however,
+     this specification requires a more comprehensive handling of
+     comparison.  Implementations may encounter certificates and CRLs with
+     names encoded using TeletexString, BMPString, or UniversalString, but
+     support for these is OPTIONAL.
+"fixed": |-
+  Representation of internationalized names in distinguished names is covered in Sections 4.1.2.4, Issuer Name, and 4.1.2.6, Subject Name. Standard naming attributes, such as common name, employ the DirectoryString type, which supports internationalized names through a variety of language encodings.  Conforming implementations MUST support UTF8String and PrintableString.  RFC 3280 required only binary comparison of attribute values encoded in UTF8String, however, this specification requires a more comprehensive handling of comparison.  Implementations may encounter certificates and CRLs with names encoded using TeletexString, BMPString, or UniversalString, but support for these is OPTIONAL.
+"ko": |-
+  고유 이름으로 국제화된 이름을 표현하는 방법은 섹션 4.1.2.4, 발행자 이름 및 4.1.2.6, 주체 이름에서 다룹니다. 일반 이름과 같은 표준 명명 속성은 다양한 언어 인코딩을 통해 국제화된 이름을 지원하는 DirectoryString 유형을 사용합니다. 준수 구현은 UTF8String 및 PrintableString을 지원해야 합니다. RFC 3280에서는 UTF8String으로 인코딩된 속성 값의 이진 비교만 요구했지만 이 사양에서는 보다 포괄적인 비교 처리가 필요합니다. 구현 시 TeletexString, BMPString 또는 UniversalString을 사용하여 이름이 인코딩된 인증서 및 CRL이 나타날 수 있지만 이에 대한 지원은 선택 사항입니다.

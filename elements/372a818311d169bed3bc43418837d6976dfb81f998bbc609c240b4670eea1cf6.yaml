@@ -1,0 +1,21 @@
+"hash": |-
+  372a818311d169bed3bc43418837d6976dfb81f998bbc609c240b4670eea1cf6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Simply implementing and using the 503 (Service Unavailable) and 553
+     (Proxy Unavailable) response codes is not sufficient for properly
+     handling overload situations.  For instance, a simplistic approach
+     would be to send the 503 response with a Retry-After header set to a
+     fixed value.  However, this can cause a situation in which multiple
+     RTSP clients again send requests to a proxy or server at roughly the
+     same time, which may again cause an overload situation.  Another
+     situation would be if the "old" overload situation is not yet
+     resolved, i.e., the length indicated in the Retry-After header was
+     too short for the overload situation to subside.
+"fixed": |-
+  Simply implementing and using the 503 (Service Unavailable) and 553 (Proxy Unavailable) response codes is not sufficient for properly handling overload situations.  For instance, a simplistic approach would be to send the 503 response with a Retry-After header set to a fixed value.  However, this can cause a situation in which multiple RTSP clients again send requests to a proxy or server at roughly the same time, which may again cause an overload situation.  Another situation would be if the "old" overload situation is not yet resolved, i.e., the length indicated in the Retry-After header was too short for the overload situation to subside.
+"ko": |-
+  단순히 503(서비스를 사용할 수 없음) 및 553(프록시를 사용할 수 없음) 응답 코드를 구현하고 사용하는 것만으로는 과부하 상황을 적절하게 처리하는 데 충분하지 않습니다. 예를 들어, 단순한 접근 방식은 Retry-After 헤더를 고정 값으로 설정하여 503 응답을 보내는 것입니다. 그러나 이로 인해 여러 RTSP 클라이언트가 다시 대략 동시에 프록시나 서버에 요청을 보내는 상황이 발생하여 다시 과부하 상황이 발생할 수 있습니다. 또 다른 상황은 "이전" 과부하 상황이 아직 해결되지 않은 경우입니다. 즉, Retry-After 헤더에 표시된 길이가 너무 짧아서 과부하 상황이 가라앉지 않는 경우입니다.

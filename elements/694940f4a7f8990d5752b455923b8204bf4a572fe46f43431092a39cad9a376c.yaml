@@ -1,0 +1,29 @@
+"hash": |-
+  694940f4a7f8990d5752b455923b8204bf4a572fe46f43431092a39cad9a376c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Transport request-header MAY contain a list of transport options
+     acceptable to the client, in the form of multiple transport
+     specification entries.  Transport specifications are comma separated
+     and listed in decreasing order of preference.  Each transport
+     specification consists of a transport protocol identifier, followed
+     by any number of parameters separated by semicolons.  A Transport
+     request-header MAY contain multiple transport specifications using
+     the same transport protocol identifier.  The server MUST return a
+     Transport response-header in the response to indicate the values
+     actually chosen, if any.  If no transport specification is supported,
+     no transport header is returned and the response MUST use the status
+     code 461 (Unsupported Transport) (Section 17.4.25).  In case more
+     than one transport specification was present in the request, the
+     server MUST return the single transport specification (transport-
+     spec) that was actually chosen, if any.  The number of transport-spec
+     entries is expected to be limited as the client will receive guidance
+     on what configurations are possible from the presentation
+     description.
+"fixed": |-
+  A Transport request-header MAY contain a list of transport options acceptable to the client, in the form of multiple transport specification entries.  Transport specifications are comma separated and listed in decreasing order of preference.  Each transport specification consists of a transport protocol identifier, followed by any number of parameters separated by semicolons.  A Transport request-header MAY contain multiple transport specifications using the same transport protocol identifier.  The server MUST return a Transport response-header in the response to indicate the values actually chosen, if any.  If no transport specification is supported, no transport header is returned and the response MUST use the status code 461 (Unsupported Transport) (Section 17.4.25).  In case more than one transport specification was present in the request, the server MUST return the single transport specification (transport- spec) that was actually chosen, if any.  The number of transport-spec entries is expected to be limited as the client will receive guidance on what configurations are possible from the presentation description.
+"ko": |-
+  Transport 요청 헤더에는 여러 전송 사양 항목의 형태로 클라이언트가 허용하는 전송 옵션 목록이 포함될 수 있습니다. 전송 사양은 쉼표로 구분되어 선호도 내림차순으로 나열됩니다. 각 전송 사양은 전송 프로토콜 식별자와 세미콜론으로 구분된 매개변수로 구성됩니다. 전송 요청 헤더에는 동일한 전송 프로토콜 식별자를 사용하는 여러 전송 사양이 포함될 수 있습니다. 서버는 실제로 선택된 값(있는 경우)을 나타내기 위해 응답에 전송 응답 헤더를 반환해야 합니다. 전송 사양이 지원되지 않으면 전송 헤더가 반환되지 않으며 응답은 상태 코드 461(지원되지 않는 전송)(섹션 17.4.25)을 사용해야 합니다. 요청에 둘 이상의 전송 사양이 있는 경우 서버는 실제로 선택된 단일 전송 사양(전송 사양)을 반환해야 합니다(있는 경우). 클라이언트가 프레젠테이션 설명에서 가능한 구성에 대한 지침을 받게 되므로 전송 사양 항목 수는 제한될 것으로 예상됩니다.

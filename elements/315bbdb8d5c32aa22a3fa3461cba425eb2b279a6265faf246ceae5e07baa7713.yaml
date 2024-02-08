@@ -1,0 +1,18 @@
+"hash": |-
+  315bbdb8d5c32aa22a3fa3461cba425eb2b279a6265faf246ceae5e07baa7713
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  A server might relax the requirement to answer all retransmissions
+        of an idempotent request with the same response (Section 4.2), so
+        that it does not have to maintain state for Message IDs.  For
+        example, an implementation might want to process duplicate
+        transmissions of a GET, PUT, or DELETE request as separate
+        requests if the effort incurred by duplicate processing is less
+        expensive than keeping track of previous responses would be.
+"fixed": |-
+  -  A server might relax the requirement to answer all retransmissions of an idempotent request with the same response (Section 4.2), so that it does not have to maintain state for Message IDs.  For example, an implementation might want to process duplicate transmissions of a GET, PUT, or DELETE request as separate requests if the effort incurred by duplicate processing is less expensive than keeping track of previous responses would be.
+"ko": |-
+  - 서버는 메시지 ID에 대한 상태를 유지할 필요가 없도록 동일한 응답(섹션 4.2)으로 멱등성 요청의 모든 재전송에 응답해야 하는 요구 사항을 완화할 수 있습니다. 예를 들어, 중복 처리로 인해 발생하는 노력이 이전 응답을 추적하는 것보다 비용이 덜 드는 경우 구현에서는 GET, PUT 또는 DELETE 요청의 중복 전송을 별도의 요청으로 처리하기를 원할 수 있습니다.

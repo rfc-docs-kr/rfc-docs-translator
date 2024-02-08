@@ -1,0 +1,19 @@
+"hash": |-
+  73a07b1757eaae4687d8425901502911073a21923026b72a868d9dab15afe782
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the subjectAltName extension is present, the sequence MUST contain
+     at least one entry.  Unlike the subject field, conforming CAs MUST
+     NOT issue certificates with subjectAltNames containing empty
+     GeneralName fields.  For example, an rfc822Name is represented as an
+     IA5String.  While an empty string is a valid IA5String, such an
+     rfc822Name is not permitted by this profile.  The behavior of clients
+     that encounter such a certificate when processing a certificication
+     path is not defined by this profile.
+"fixed": |-
+  If the subjectAltName extension is present, the sequence MUST contain at least one entry.  Unlike the subject field, conforming CAs MUST NOT issue certificates with subjectAltNames containing empty GeneralName fields.  For example, an rfc822Name is represented as an IA5String.  While an empty string is a valid IA5String, such an rfc822Name is not permitted by this profile.  The behavior of clients that encounter such a certificate when processing a certificication path is not defined by this profile.
+"ko": |-
+  subjectAltName 확장이 있는 경우 시퀀스에는 최소한 하나의 항목이 포함되어야 합니다. 제목 필드와 달리, 준수 CA는 빈 GeneralName 필드가 포함된 subjectAltNames가 있는 인증서를 발급해서는 안 됩니다. 예를 들어 rfc822Name은 IA5String으로 표시됩니다. 빈 문자열은 유효한 IA5String이지만 이러한 rfc822Name은 이 프로필에서 허용되지 않습니다. 인증 경로를 처리할 때 이러한 인증서를 발견하는 클라이언트의 동작은 이 프로필에 의해 정의되지 않습니다.

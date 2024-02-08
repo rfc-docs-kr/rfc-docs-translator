@@ -1,0 +1,26 @@
+"hash": |-
+  dd1c27cdc0d2a0636a65fc4005ece173a6064b2b3add59785df286354324a5d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The subject name field is defined as the X.501 type Name.
+     Implementation requirements for this field are those defined for the
+     issuer field (section 4.1.2.4).  When encoding attribute values of
+     type DirectoryString, the encoding rules for the issuer field MUST be
+     implemented.  Implementations of this specification MUST be prepared
+     to receive subject names containing the attribute types required for
+     the issuer field.  Implementations of this specification SHOULD be
+     prepared to receive subject names containing the recommended
+     attribute types for the issuer field.  The syntax and associated
+     object identifiers (OIDs) for these attribute types are provided in
+     the ASN.1 modules in Appendix A.  Implementations of this
+     specification MAY use these comparison rules to process unfamiliar
+     attribute types (i.e., for name chaining).  This allows
+     implementations to process certificates with unfamiliar attributes in
+     the subject name.
+"fixed": |-
+  The subject name field is defined as the X.501 type Name. Implementation requirements for this field are those defined for the issuer field (section 4.1.2.4).  When encoding attribute values of type DirectoryString, the encoding rules for the issuer field MUST be implemented.  Implementations of this specification MUST be prepared to receive subject names containing the attribute types required for the issuer field.  Implementations of this specification SHOULD be prepared to receive subject names containing the recommended attribute types for the issuer field.  The syntax and associated object identifiers (OIDs) for these attribute types are provided in the ASN.1 modules in Appendix A.  Implementations of this specification MAY use these comparison rules to process unfamiliar attribute types (i.e., for name chaining).  This allows implementations to process certificates with unfamiliar attributes in the subject name.
+"ko": |-
+  주체 이름 필드는 X.501 유형의 이름으로 정의됩니다. 이 필드에 대한 구현 요구 사항은 발급자 필드(섹션 4.1.2.4)에 대해 정의된 요구 사항입니다. DirectoryString 유형의 속성 값을 인코딩할 때 발행자 필드에 대한 인코딩 규칙을 구현해야 합니다. 이 사양의 구현은 발급자 필드에 필요한 속성 유형이 포함된 주체 이름을 수신하도록 준비되어야 합니다. 이 사양의 구현은 발급자 필드에 권장되는 속성 유형이 포함된 주체 이름을 수신할 준비를 해야 합니다. 이러한 속성 유형에 대한 구문 및 관련 개체 식별자(OID)는 부록 A의 ASN.1 모듈에 제공됩니다. 이 사양의 구현에서는 이러한 비교 규칙을 사용하여 익숙하지 않은 속성 유형(예: 이름 연결)을 처리할 수 있습니다. 이를 통해 구현에서는 주체 이름에 익숙하지 않은 속성이 있는 인증서를 처리할 수 있습니다.

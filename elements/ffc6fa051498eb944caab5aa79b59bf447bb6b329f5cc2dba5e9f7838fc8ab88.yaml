@@ -1,0 +1,17 @@
+"hash": |-
+  ffc6fa051498eb944caab5aa79b59bf447bb6b329f5cc2dba5e9f7838fc8ab88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1+1 protection:  Traffic is sent concurrently on both the working LSP
+        and a protection LSP.  The egress LSR selects one of the two LSPs
+        based on local policy (usually based on traffic integrity).  When
+        a fault disrupts the traffic on one LSP, the egress switches to
+        receive traffic from the other LSP.  This approach is expensive in
+        how it consumes network but recovers from failures most rapidly.
+"fixed": |-
+  1+1 protection:  Traffic is sent concurrently on both the working LSP and a protection LSP.  The egress LSR selects one of the two LSPs based on local policy (usually based on traffic integrity).  When a fault disrupts the traffic on one LSP, the egress switches to receive traffic from the other LSP.  This approach is expensive in how it consumes network but recovers from failures most rapidly.
+"ko": |-
+  1+1 보호: 트래픽은 작업 LSP와 보호 LSP 모두에서 동시에 전송됩니다. 송신 LSR은 로컬 정책(일반적으로 트래픽 무결성 기반)을 기반으로 두 LSP 중 하나를 선택합니다. 오류로 인해 한 LSP의 트래픽이 중단되면 출구는 다른 LSP에서 트래픽을 수신하도록 전환됩니다. 이 접근 방식은 네트워크를 소비하는 방식에 있어 비용이 많이 들지만 오류로부터 가장 빠르게 복구됩니다.

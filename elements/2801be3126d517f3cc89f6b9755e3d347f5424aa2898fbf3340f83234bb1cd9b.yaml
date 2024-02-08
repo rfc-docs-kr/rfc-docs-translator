@@ -12,7 +12,7 @@
      Request Forgery (CSRF) tokens will need to randomize them.  Even the
      best practices and recommendations from [SECURE-TLS] are insufficient
      to thwart this attack.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The TIME attack can be mitigated by disabling TLS compression.  We are not aware of mitigations at the TLS protocol level to the BREACH attack, and so application-level mitigations are needed (see [BREACH]).  For example, implementations of HTTP that use Cross-Site Request Forgery (CSRF) tokens will need to randomize them.  Even the best practices and recommendations from [SECURE-TLS] are insufficient to thwart this attack.
+"ko": |-
+  TIME 공격은 TLS 압축을 비활성화하여 완화할 수 있습니다. 우리는 BREACH 공격에 대한 TLS 프로토콜 수준의 완화를 알지 못하므로 애플리케이션 수준의 완화가 필요합니다([BREACH] 참조). 예를 들어 CSRF(Cross-Site Request Forgery) 토큰을 사용하는 HTTP 구현에서는 토큰을 무작위로 추출해야 합니다. [SECURE-TLS]의 모범 사례와 권장 사항조차도 이 공격을 막기에는 충분하지 않습니다.

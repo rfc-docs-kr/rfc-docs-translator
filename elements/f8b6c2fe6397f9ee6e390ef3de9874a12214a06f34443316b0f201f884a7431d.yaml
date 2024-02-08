@@ -1,0 +1,15 @@
+"hash": |-
+  f8b6c2fe6397f9ee6e390ef3de9874a12214a06f34443316b0f201f884a7431d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The meaning of the decipherOnly bit is undefined in the absence of
+        the keyAgreement bit.  When the decipherOnly bit is asserted and
+        the keyAgreement bit is also set, the subject public key may be
+        used only for deciphering data while performing key agreement.
+"fixed": |-
+  - The meaning of the decipherOnly bit is undefined in the absence of the keyAgreement bit.  When the decipherOnly bit is asserted and the keyAgreement bit is also set, the subject public key may be used only for deciphering data while performing key agreement.
+"ko": |-
+  - keyAgreement 비트가 없으면 decipherOnly 비트의 의미가 정의되지 않습니다. decipherOnly 비트가 어설션되고 keyAgreement 비트도 설정된 경우 대상 공개 키는 키 합의를 수행하는 동안 데이터를 해독하는 데에만 사용될 수 있습니다.

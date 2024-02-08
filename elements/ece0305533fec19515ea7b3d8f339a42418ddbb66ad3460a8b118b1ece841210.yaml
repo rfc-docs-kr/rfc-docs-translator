@@ -1,0 +1,20 @@
+"hash": |-
+  ece0305533fec19515ea7b3d8f339a42418ddbb66ad3460a8b118b1ece841210
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The syntax of iPAddress MUST be as described in Section 4.2.1.6 with
+     the following additions specifically for name constraints.  For IPv4
+     addresses, the iPAddress field of GeneralName MUST contain eight (8)
+     octets, encoded in the style of RFC 4632 (CIDR) to represent an
+     address range [RFC4632].  For IPv6 addresses, the iPAddress field
+     MUST contain 32 octets similarly encoded.  For example, a name
+     constraint for "class C" subnet 192.0.2.0 is represented as the
+     octets C0 00 02 00 FF FF FF 00, representing the CIDR notation
+     192.0.2.0/24 (mask 255.255.255.0).
+"fixed": |-
+  The syntax of iPAddress MUST be as described in Section 4.2.1.6 with the following additions specifically for name constraints.  For IPv4 addresses, the iPAddress field of GeneralName MUST contain eight (8) octets, encoded in the style of RFC 4632 (CIDR) to represent an address range [RFC4632].  For IPv6 addresses, the iPAddress field MUST contain 32 octets similarly encoded.  For example, a name constraint for "class C" subnet 192.0.2.0 is represented as the octets C0 00 02 00 FF FF FF 00, representing the CIDR notation 192.0.2.0/24 (mask 255.255.255.0).
+"ko": |-
+  iPAddress의 구문은 특히 이름 제약 조건에 대해 다음 추가 사항을 포함하여 섹션 4.2.1.6에 설명된 것과 같아야 합니다. IPv4 주소의 경우 GeneralName의 iPAddress 필드에는 주소 범위[RFC4632]를 나타내기 위해 RFC 4632(CIDR) 스타일로 인코딩된 8옥텟이 포함되어야 합니다. IPv6 주소의 경우 iPAddress 필드는 유사하게 인코딩된 32옥텟을 포함해야 합니다. 예를 들어 "클래스 C" 서브넷 192.0.2.0에 대한 이름 제약 조건은 CIDR 표기법 192.0.2.0/24(마스크 255.255.255.0)를 나타내는 옥텟 C0 00 02 00 FF FF FF 00으로 표시됩니다.

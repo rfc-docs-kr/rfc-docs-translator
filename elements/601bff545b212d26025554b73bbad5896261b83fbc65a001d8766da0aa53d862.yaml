@@ -1,0 +1,23 @@
+"hash": |-
+  601bff545b212d26025554b73bbad5896261b83fbc65a001d8766da0aa53d862
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Resource Exhaustion:  As RTSP is a stateful protocol and establishes
+           resource usage on the server, there is a clear possibility to
+           attack the server by trying to overbook these resources to
+           perform a DoS attack.  This attack can be both against ongoing
+           sessions and to prevent others from establishing sessions.
+           RTSP agents will need to have mechanisms to prevent single
+           peers from consuming extensive amounts of resources.  The
+           methods for guarding against this are varied and depend on the
+           agent's role and capabilities and policies.  Each
+           implementation has to carefully consider its methods and
+           policies to mitigate this threat.  There are recommendations
+           regarding the handling of connections in Section 10.7.
+"fixed": |-
+  Resource Exhaustion:  As RTSP is a stateful protocol and establishes resource usage on the server, there is a clear possibility to attack the server by trying to overbook these resources to perform a DoS attack.  This attack can be both against ongoing sessions and to prevent others from establishing sessions. RTSP agents will need to have mechanisms to prevent single peers from consuming extensive amounts of resources.  The methods for guarding against this are varied and depend on the agent's role and capabilities and policies.  Each implementation has to carefully consider its methods and policies to mitigate this threat.  There are recommendations regarding the handling of connections in Section 10.7.
+"ko": |-
+  리소스 고갈: RTSP는 상태 저장 프로토콜이고 서버에서 리소스 사용량을 설정하므로 DoS 공격을 수행하기 위해 이러한 리소스를 초과 예약하여 서버를 공격할 가능성이 분명합니다. 이 공격은 진행 중인 세션에 대한 공격일 수도 있고 다른 사람이 세션을 설정하는 것을 방지할 수도 있습니다. RTSP 에이전트에는 단일 피어가 막대한 양의 리소스를 소비하는 것을 방지하는 메커니즘이 필요합니다. 이를 방지하는 방법은 에이전트의 역할과 능력, 정책에 따라 다양합니다. 각 구현에서는 이 위협을 완화하기 위한 방법과 정책을 신중하게 고려해야 합니다. 섹션 10.7에는 연결 처리에 관한 권장 사항이 있습니다.

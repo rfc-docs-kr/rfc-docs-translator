@@ -1,0 +1,23 @@
+"hash": |-
+  865e7abee21f02d3a7e0ffa31b87f31e350ab659edf06acf1af13ef808aae83c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardMetric1 OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-create
+         STATUS     obsolete
+         DESCRIPTION
+                "The primary routing metric for this route.  The
+                 semantics of this metric are determined by the routing-
+                 protocol specified in the route's ipForwardProto value.
+                 If this metric is not used, its value should be set to
+                 -1."
+         DEFVAL { -1 }
+         ::= { ipForwardEntry 11 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

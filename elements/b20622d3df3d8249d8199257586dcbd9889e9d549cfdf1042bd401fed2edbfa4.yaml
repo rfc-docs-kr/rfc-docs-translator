@@ -1,0 +1,19 @@
+"hash": |-
+  b20622d3df3d8249d8199257586dcbd9889e9d549cfdf1042bd401fed2edbfa4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The timeout parameter of the Session header (Section 18.49) MAY be
+     included in a SETUP response and MUST NOT be included in requests.
+     The server uses it to indicate to the client how long the server is
+     prepared to wait between RTSP commands or other signs of life before
+     closing the session due to lack of activity (see Appendix B).  The
+     timeout is measured in seconds, with a default of 60 seconds.  The
+     length of the session timeout MUST NOT be changed in an established
+     session.
+"fixed": |-
+  The timeout parameter of the Session header (Section 18.49) MAY be included in a SETUP response and MUST NOT be included in requests. The server uses it to indicate to the client how long the server is prepared to wait between RTSP commands or other signs of life before closing the session due to lack of activity (see Appendix B).  The timeout is measured in seconds, with a default of 60 seconds.  The length of the session timeout MUST NOT be changed in an established session.
+"ko": |-
+  세션 헤더(18.49절)의 시간 초과 매개변수는 SETUP 응답에 포함될 수 있으며 요청에는 포함되어서는 안 됩니다. 서버는 이를 사용하여 활동 부족으로 인해 세션을 닫기 전에 서버가 RTSP 명령 또는 기타 수명 징후 사이에서 대기할 준비가 된 시간을 클라이언트에 나타냅니다(부록 B 참조). 시간 초과는 초 단위로 측정되며 기본값은 60초입니다. 세션 시간 초과 길이는 설정된 세션에서 변경되어서는 안 됩니다.

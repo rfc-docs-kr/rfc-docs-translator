@@ -1,0 +1,19 @@
+"hash": |-
+  ed60e4f4e75940b942d8e3f37b601f4963897fe65395606ad79932696b0c3c4c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In HTTP, request/response pairs are cached.  RTSP differs
+     significantly in that respect.  Responses are not cacheable, with the
+     exception of the presentation description returned by DESCRIBE.
+     (Since the responses for anything but DESCRIBE and GET_PARAMETER do
+     not return any data, caching is not really an issue for these
+     requests.)  However, it is desirable for the continuous media data,
+     typically delivered out-of-band with respect to RTSP, to be cached,
+     as well as the session description.
+"fixed": |-
+  In HTTP, request/response pairs are cached.  RTSP differs significantly in that respect.  Responses are not cacheable, with the exception of the presentation description returned by DESCRIBE. (Since the responses for anything but DESCRIBE and GET_PARAMETER do not return any data, caching is not really an issue for these requests.)  However, it is desirable for the continuous media data, typically delivered out-of-band with respect to RTSP, to be cached, as well as the session description.
+"ko": |-
+  HTTP에서는 요청/응답 쌍이 캐시됩니다. RTSP는 그 점에서 크게 다릅니다. DESCRIBE에서 반환된 프레젠테이션 설명을 제외하고 응답은 캐시할 수 없습니다. (DESCRIBE 및 GET_PARAMETER 이외의 것에 대한 응답은 데이터를 반환하지 않으므로 이러한 요청에서는 캐싱이 실제로 문제가 되지 않습니다.) 그러나 일반적으로 RTSP와 관련하여 대역 외로 전달되는 지속적인 미디어 데이터의 경우 바람직합니다. 세션 설명과 함께 캐시됩니다.

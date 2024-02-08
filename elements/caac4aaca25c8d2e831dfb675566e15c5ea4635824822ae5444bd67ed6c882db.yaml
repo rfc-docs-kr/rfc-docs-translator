@@ -1,0 +1,23 @@
+"hash": |-
+  caac4aaca25c8d2e831dfb675566e15c5ea4635824822ae5444bd67ed6c882db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While the 'info' value is optional in the definition of HKDF, it is
+     often of great importance in applications.  Its main objective is to
+     bind the derived key material to application- and context-specific
+     information.  For example, 'info' may contain a protocol number,
+     algorithm identifiers, user identities, etc.  In particular, it may
+     prevent the derivation of the same keying material for different
+     contexts (when the same input key material (IKM) is used in such
+     different contexts).  It may also accommodate additional inputs to
+     the key expansion part, if so desired (e.g., an application may want
+     to bind the key material to its length L, thus making L part of the
+     'info' field).  There is one technical requirement from 'info': it
+     should be independent of the input key material value IKM.
+"fixed": |-
+  While the 'info' value is optional in the definition of HKDF, it is often of great importance in applications.  Its main objective is to bind the derived key material to application- and context-specific information.  For example, 'info' may contain a protocol number, algorithm identifiers, user identities, etc.  In particular, it may prevent the derivation of the same keying material for different contexts (when the same input key material (IKM) is used in such different contexts).  It may also accommodate additional inputs to the key expansion part, if so desired (e.g., an application may want to bind the key material to its length L, thus making L part of the 'info' field).  There is one technical requirement from 'info': it should be independent of the input key material value IKM.
+"ko": |-
+  HKDF 정의에서 'info' 값은 선택 사항이지만 애플리케이션에서는 매우 중요한 경우가 많습니다. 주요 목적은 파생된 키 자료를 애플리케이션 및 상황별 정보에 바인딩하는 것입니다. 예를 들어, '정보'에는 프로토콜 번호, 알고리즘 식별자, 사용자 ID 등이 포함될 수 있습니다. 특히, 서로 다른 컨텍스트에 대해 동일한 키 자료가 파생되는 것을 방지할 수 있습니다(동일한 입력 키 자료(IKM)가 이러한 상황에서 사용되는 경우). 다른 맥락). 또한 원하는 경우 키 확장 부분에 대한 추가 입력을 수용할 수도 있습니다(예를 들어 애플리케이션은 키 자료를 길이 L에 바인딩하여 L을 '정보' 필드의 일부로 만들 수 있습니다). '정보'에는 한 가지 기술적 요구 사항이 있습니다. 즉, 입력 키 자료 값 IKM과 독립적이어야 합니다.

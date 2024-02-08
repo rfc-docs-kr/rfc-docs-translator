@@ -1,0 +1,17 @@
+"hash": |-
+  7e4c260b3a8aa8f8054a3ed44e0d51d2f233dbdcd249f3fd1cfb662450a598f5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The specific algorithm by which a client stops to "expect" a response
+     to a Confirmable request that was acknowledged, or to a Non-
+     confirmable request, is not defined.  Unless this is modified by
+     additional congestion control optimizations, it MUST be chosen in
+     such a way that an endpoint does not exceed an average data rate of
+     PROBING_RATE in sending to another endpoint that does not respond.
+"fixed": |-
+  The specific algorithm by which a client stops to "expect" a response to a Confirmable request that was acknowledged, or to a Non- confirmable request, is not defined.  Unless this is modified by additional congestion control optimizations, it MUST be chosen in such a way that an endpoint does not exceed an average data rate of PROBING_RATE in sending to another endpoint that does not respond.
+"ko": |-
+  클라이언트가 승인된 확인 가능 요청 또는 확인 불가능 요청에 대한 응답을 "기대"하기 위해 중지하는 특정 알고리즘은 정의되지 않습니다. 이것이 추가적인 혼잡 제어 최적화에 의해 수정되지 않는 한, 엔드포인트가 응답하지 않는 다른 엔드포인트로 전송할 때 평균 데이터 속도 PROBING_RATE를 초과하지 않는 방식으로 선택되어야 합니다.

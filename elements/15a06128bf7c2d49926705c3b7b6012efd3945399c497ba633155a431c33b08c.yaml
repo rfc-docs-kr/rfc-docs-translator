@@ -1,0 +1,16 @@
+"hash": |-
+  15a06128bf7c2d49926705c3b7b6012efd3945399c497ba633155a431c33b08c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the interest of robustness, agents MUST ignore any empty line(s)
+     received where a Request-Line or Status-Line is expected.  In other
+     words, if the agent is reading the protocol stream at the beginning
+     of a message and receives any number of CRLFs first, it MUST ignore
+     all of the CRLFs.
+"fixed": |-
+  In the interest of robustness, agents MUST ignore any empty line(s) received where a Request-Line or Status-Line is expected.  In other words, if the agent is reading the protocol stream at the beginning of a message and receives any number of CRLFs first, it MUST ignore all of the CRLFs.
+"ko": |-
+  견고성을 위해 에이전트는 요청 라인 또는 상태 라인이 예상되는 수신된 빈 라인을 무시해야 합니다. 즉, 에이전트가 메시지 시작 부분에서 프로토콜 스트림을 읽고 여러 CRLF를 먼저 수신하는 경우 모든 CRLF를 무시해야 합니다.

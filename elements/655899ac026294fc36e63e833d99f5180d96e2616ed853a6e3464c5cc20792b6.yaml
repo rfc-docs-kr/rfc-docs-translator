@@ -1,0 +1,16 @@
+"hash": |-
+  655899ac026294fc36e63e833d99f5180d96e2616ed853a6e3464c5cc20792b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           (1)  If the DP includes cRLIssuer, then verify that the issuer
+           field in the complete CRL matches cRLIssuer in the DP and that
+           the complete CRL contains an issuing distribution point
+           extension with the indrectCRL boolean asserted.  Otherwise,
+           verify that the CRL issuer matches the certificate issuer.
+"fixed": |-
+  - (1)  If the DP includes cRLIssuer, then verify that the issuer field in the complete CRL matches cRLIssuer in the DP and that the complete CRL contains an issuing distribution point extension with the indrectCRL boolean asserted.  Otherwise, verify that the CRL issuer matches the certificate issuer.
+"ko": |-
+  - (1) DP에 cRLIssuer가 포함되어 있는 경우 전체 CRL의 발급자 필드가 DP의 cRLIssuer와 일치하는지, 그리고 전체 CRL에 indectCRL 부울이 어설션된 발급 배포 지점 확장이 포함되어 있는지 확인하세요. 그렇지 않은 경우에는 CRL 발급자가 인증서 발급자와 일치하는지 확인하세요.

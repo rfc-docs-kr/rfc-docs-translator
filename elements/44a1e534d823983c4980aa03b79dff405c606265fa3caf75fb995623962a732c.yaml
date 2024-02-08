@@ -1,0 +1,21 @@
+"hash": |-
+  44a1e534d823983c4980aa03b79dff405c606265fa3caf75fb995623962a732c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        (a)  valid_policy_tree:  A tree of certificate policies with their
+             optional qualifiers; each of the leaves of the tree
+             represents a valid policy at this stage in the certification
+             path validation.  If valid policies exist at this stage in
+             the certification path validation, the depth of the tree is
+             equal to the number of certificates in the chain that have
+             been processed.  If valid policies do not exist at this stage
+             in the certification path validation, the tree is set to
+             NULL.  Once the tree is set to NULL, policy processing
+             ceases.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

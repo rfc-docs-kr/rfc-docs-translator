@@ -1,0 +1,27 @@
+"hash": |-
+  7cca6a3c19d494f60c7e126f527fa6038b3c1dfa63e45812088e8eb1ceb7a3ee
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     base64          =  *base64-unit [base64-pad]
+     base64-unit     =  4base64-char
+     base64-pad      =  (2base64-char "==") / (3base64-char "=")
+     base64-char     =  ALPHA / DIGIT / "+" / "/"
+     SLASH    =  SWS "/" SWS ; slash
+     EQUAL    =  SWS "=" SWS ; equal
+     LPAREN   =  SWS "(" SWS ; left parenthesis
+     RPAREN   =  SWS ")" SWS ; right parenthesis
+     COMMA    =  SWS "," SWS ; comma
+     SEMI     =  SWS ";" SWS ; semicolon
+     COLON    =  SWS ":" SWS ; colon
+     MINUS    =  SWS "-" SWS ; minus/dash
+     LDQUOT   =  SWS DQUOTE ; open double quotation mark
+     RDQUOT   =  DQUOTE SWS ; close double quotation mark
+     RAQUOT   =  ">" SWS ; right angle quote
+     LAQUOT   =  SWS "<" ; left angle quote
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

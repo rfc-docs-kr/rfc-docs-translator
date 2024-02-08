@@ -1,0 +1,15 @@
+"hash": |-
+  70a6bf89e9b7919cc89d80ff2de822e98c6d759fcfaf45ac6bb1c3849a1976ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        HTTP/1.1 requires servers to understand the absolute URI, but
+        clients are supposed to use the Host request-header.  This is
+        purely needed for backward compatibility with HTTP/1.0 servers, a
+        consideration that does not apply to RTSP.
+"fixed": |-
+  - HTTP/1.1 requires servers to understand the absolute URI, but clients are supposed to use the Host request-header.  This is purely needed for backward compatibility with HTTP/1.0 servers, a consideration that does not apply to RTSP.
+"ko": |-
+  - HTTP/1.1에서는 서버가 절대 URI를 이해해야 하지만 클라이언트는 호스트 요청 헤더를 사용해야 합니다. 이는 순전히 HTTP/1.0 서버와의 하위 호환성을 위해 필요하며 RTSP에는 적용되지 않는 고려 사항입니다.

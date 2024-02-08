@@ -1,0 +1,24 @@
+"hash": |-
+  2a791295546d0ce7649c18104ac09cdc9e9b3ed5a22d6f20d55f19f239aa7b48
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                          Client              Server
+                             |                  |
+                             |   NON [0x7a11]   |
+                             | GET /temperature |
+                             |   (Token 0x74)   |
+                             +----------------->|
+                             |                  |
+                             |   NON [0x23bc]   |
+                             |   2.05 Content   |
+                             |   (Token 0x74)   |
+                             |     "22.5 C"     |
+                             |<-----------------+
+                             |                  |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

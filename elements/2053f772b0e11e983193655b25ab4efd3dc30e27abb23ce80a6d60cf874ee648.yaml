@@ -1,0 +1,17 @@
+"hash": |-
+  2053f772b0e11e983193655b25ab4efd3dc30e27abb23ce80a6d60cf874ee648
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     5.  If the <host> component of |url| does not represent the request's
+         destination IP address as an IP-literal or IPv4address, include a
+         Uri-Host Option and let that option's value be the value of the
+         <host> component of |url|, converted to ASCII lowercase, and then
+         convert all percent-encodings ("%" followed by two hexadecimal
+         digits) to the corresponding characters.
+"fixed": |-
+  1.  If the <host> component of |url| does not represent the request's destination IP address as an IP-literal or IPv4address, include a Uri-Host Option and let that option's value be the value of the <host> component of |url|, converted to ASCII lowercase, and then convert all percent-encodings ("%" followed by two hexadecimal digits) to the corresponding characters.
+"ko": |-
+  1. |url|의 <host> 구성요소인 경우 요청의 대상 IP 주소를 IP 리터럴 또는 IPv4 주소로 나타내지 않으며 Uri-Host 옵션을 포함하고 해당 옵션의 값을 |url|의 <host> 구성 요소 값으로 두고 ASCII 소문자로 변환한 다음 모두 변환합니다. 퍼센트 인코딩("%" 다음에 2개의 16진수 숫자)을 해당 문자에 적용합니다.

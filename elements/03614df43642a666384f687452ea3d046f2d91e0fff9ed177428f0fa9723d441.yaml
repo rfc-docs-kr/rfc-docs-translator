@@ -1,0 +1,21 @@
+"hash": |-
+  03614df43642a666384f687452ea3d046f2d91e0fff9ed177428f0fa9723d441
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a client requests to start playing at the end of media, either
+     explicitly with a Range header or implicitly with a pause point that
+     is at the end of media, a 457 (Invalid Range) error MUST be sent and
+     include the Media-Range header (Section 18.30).  It is specified
+     below that the Range header also must be included in the response and
+     that it will carry the pause point in the media, in the case of the
+     session being in Ready State.  Note that this also applies if the
+     pause point or requested start point is at the beginning of the media
+     and a Scale header (Section 18.46) is included with a negative value
+     (playing backwards).
+"fixed": |-
+  If a client requests to start playing at the end of media, either explicitly with a Range header or implicitly with a pause point that is at the end of media, a 457 (Invalid Range) error MUST be sent and include the Media-Range header (Section 18.30).  It is specified below that the Range header also must be included in the response and that it will carry the pause point in the media, in the case of the session being in Ready State.  Note that this also applies if the pause point or requested start point is at the beginning of the media and a Scale header (Section 18.46) is included with a negative value (playing backwards).
+"ko": |-
+  클라이언트가 명시적으로 Range 헤더를 사용하거나 미디어 끝의 일시 중지 지점을 사용하여 암시적으로 미디어 끝에서 재생을 시작하도록 요청하는 경우 457(잘못된 범위) 오류를 전송하고 Media-Range 헤더를 포함해야 합니다. (18.30항). Range 헤더도 응답에 포함되어야 하며 세션이 준비 상태인 경우 미디어에 일시 중지 지점을 전달한다는 것이 아래에 명시되어 있습니다. 이는 일시 중지 지점이나 요청된 시작 지점이 미디어의 시작 부분에 있고 Scale 헤더(섹션 18.46)가 음수 값(뒤로 재생)으로 포함된 경우에도 적용됩니다.

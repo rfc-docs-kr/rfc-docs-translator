@@ -13,7 +13,7 @@
         issued and accepted; the session ends and a REIN command is
         issued, or the security of the session (via an AUTH command) is
         re-negotiated.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The PROT command, as specified in [RFC-2228], allows client/server negotiation of the security level of the data connection.  Once a PROT command has been issued by the client and accepted by the server returning the '200' reply, the security of subsequent data connections MUST be at that level until another PROT command is issued and accepted; the session ends and a REIN command is issued, or the security of the session (via an AUTH command) is re-negotiated.
+"ko": |-
+  - [RFC-2228]에 지정된 PROT 명령은 데이터 연결의 보안 수준에 대한 클라이언트/서버 협상을 허용합니다. PROT 명령이 클라이언트에 의해 발행되고 '200' 응답을 반환하는 서버에 의해 승인되면 후속 데이터 연결의 보안은 다른 PROT 명령이 발행되고 승인될 때까지 해당 수준에 있어야 합니다. 세션이 종료되고 REIN 명령이 실행되거나 AUTH 명령을 통해 세션의 보안이 다시 협상됩니다.

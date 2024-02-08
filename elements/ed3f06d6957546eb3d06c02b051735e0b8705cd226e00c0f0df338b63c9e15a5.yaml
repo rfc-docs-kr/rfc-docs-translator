@@ -1,0 +1,22 @@
+"hash": |-
+  ed3f06d6957546eb3d06c02b051735e0b8705cd226e00c0f0df338b63c9e15a5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        (e)  inhibit_anyPolicy:  an integer that indicates whether the
+             anyPolicy policy identifier is considered a match.  The
+             integer indicates the number of non-self-issued certificates
+             to be processed before the anyPolicy OID, if asserted in a
+             certificate other than an intermediate self-issued
+             certificate, is ignored.  Once set, this variable may be
+             decreased, but may not be increased.  That is, if a
+             certificate in the path inhibits processing of anyPolicy, a
+             later certificate cannot permit it.  If initial-any-policy-
+             inhibit is set, then the initial value is 0, otherwise the
+             initial value is n+1.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

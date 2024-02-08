@@ -1,0 +1,16 @@
+"hash": |-
+  439e8e9a0ac170a7a41420f7ea8cc45451875eb132ceb8dcf4e5295a7d7372f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Transport header is restricted to describing a single media
+        stream.  (RTSP can also control multiple streams as a single
+        entity.)  Making it part of RTSP rather than relying on a
+        multitude of session description formats greatly simplifies
+        designs of firewalls.
+"fixed": |-
+  - The Transport header is restricted to describing a single media stream.  (RTSP can also control multiple streams as a single entity.)  Making it part of RTSP rather than relying on a multitude of session description formats greatly simplifies designs of firewalls.
+"ko": |-
+  - 전송 헤더는 단일 미디어 스트림을 설명하는 것으로 제한됩니다. (RTSP는 여러 스트림을 단일 엔터티로 제어할 수도 있습니다.) 다양한 세션 설명 형식에 의존하는 대신 이를 RTSP의 일부로 만들면 방화벽 설계가 크게 단순화됩니다.

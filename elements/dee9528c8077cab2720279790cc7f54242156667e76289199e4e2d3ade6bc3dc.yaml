@@ -1,0 +1,19 @@
+"hash": |-
+  dee9528c8077cab2720279790cc7f54242156667e76289199e4e2d3ade6bc3dc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     7.   The server, upon receiving the SETUP request, will need to
+          decide upon the transport specification to use, if multiple are
+          included by the client.  In the determination of which transport
+          specifications are supported and preferred, the server SHOULD
+          decode the MIKEY message to take the embedded SRTP parameters
+          into account.  If all transport spec require SRTP but no MIKEY
+          parameter or other supported keying method is included, the
+          server SHALL respond with 403 (Forbidden).
+"fixed": |-
+  1.   The server, upon receiving the SETUP request, will need to decide upon the transport specification to use, if multiple are included by the client.  In the determination of which transport specifications are supported and preferred, the server SHOULD decode the MIKEY message to take the embedded SRTP parameters into account.  If all transport spec require SRTP but no MIKEY parameter or other supported keying method is included, the server SHALL respond with 403 (Forbidden).
+"ko": |-
+  1. 서버는 SETUP 요청을 받으면 클라이언트가 여러 전송 사양을 포함하는 경우 사용할 전송 사양을 결정해야 합니다. 어떤 전송 사양이 지원되고 선호되는지 결정할 때 서버는 MIKEY 메시지를 디코딩하여 내장된 SRTP 매개변수를 고려해야 합니다. 모든 전송 사양에 SRTP가 필요하지만 MIKEY 매개변수 또는 기타 지원되는 키잉 방법이 포함되지 않은 경우 서버는 403(금지됨)으로 응답해야 합니다.

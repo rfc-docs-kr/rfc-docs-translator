@@ -1,0 +1,17 @@
+"hash": |-
+  167a56b440c78aeaa2e9b47d9aefd5e02d2d2b6ab8aa699d4f5fa5a815c6d0c6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that for all extension types (including those defined in the
+     future), the extension type MUST NOT appear in the extended server
+     hello unless the same extension type appeared in the corresponding
+     client hello.  Thus clients MUST abort the handshake if they receive
+     an extension type in the extended server hello that they did not
+     request in the associated (extended) client hello.
+"fixed": |-
+  Note that for all extension types (including those defined in the future), the extension type MUST NOT appear in the extended server hello unless the same extension type appeared in the corresponding client hello.  Thus clients MUST abort the handshake if they receive an extension type in the extended server hello that they did not request in the associated (extended) client hello.
+"ko": |-
+  모든 확장 유형(향후 정의되는 확장 유형 포함)에 대해 동일한 확장 유형이 해당 클라이언트 hello에 표시되지 않는 한 확장 유형은 확장 서버 hello에 표시되어서는 안 됩니다(MUST NOT). 따라서 클라이언트는 연결된(확장) 클라이언트 hello에서 요청하지 않은 확장 서버 hello에서 확장 유형을 수신하는 경우 핸드셰이크를 중단해야 합니다.

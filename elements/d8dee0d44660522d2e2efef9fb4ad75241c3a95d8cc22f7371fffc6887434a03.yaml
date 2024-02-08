@@ -1,0 +1,21 @@
+"hash": |-
+  d8dee0d44660522d2e2efef9fb4ad75241c3a95d8cc22f7371fffc6887434a03
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  -- Naming attributes of type X520LocalityName:
+  --   X520LocalityName ::= DirectoryName (SIZE (1..ub-locality-name))
+  --
+  -- Expanded to avoid parameterized type:
+  X520LocalityName ::= CHOICE {
+        teletexString     TeletexString   (SIZE (1..ub-locality-name)),
+        printableString   PrintableString (SIZE (1..ub-locality-name)),
+        universalString   UniversalString (SIZE (1..ub-locality-name)),
+        utf8String        UTF8String      (SIZE (1..ub-locality-name)),
+        bmpString         BMPString       (SIZE (1..ub-locality-name)) }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

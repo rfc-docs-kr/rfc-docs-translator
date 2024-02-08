@@ -1,0 +1,15 @@
+"hash": |-
+  66a7843c014201d72cbe881da3dd6f4eb64f0143e6d0bddf1b8b096941cbfde8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     delete the Pipelined-Requests identifier and its binding to a session
+     upon the termination of that session.  Despite the previous mandate,
+     RTSP agents are RECOMMENDED not to reuse identifiers to allow for
+     better error handling and logging.
+"fixed": |-
+  delete the Pipelined-Requests identifier and its binding to a session upon the termination of that session.  Despite the previous mandate, RTSP agents are RECOMMENDED not to reuse identifiers to allow for better error handling and logging.
+"ko": |-
+  해당 세션이 종료되면 Pipelined-Requests 식별자와 세션에 대한 바인딩을 삭제합니다. 이전 명령에도 불구하고 RTSP 에이전트는 더 나은 오류 처리 및 로깅을 위해 식별자를 재사용하지 않는 것이 좋습니다.

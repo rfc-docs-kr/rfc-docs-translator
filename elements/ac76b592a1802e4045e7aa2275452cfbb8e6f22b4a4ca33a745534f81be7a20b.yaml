@@ -1,0 +1,41 @@
+"hash": |-
+  ac76b592a1802e4045e7aa2275452cfbb8e6f22b4a4ca33a745534f81be7a20b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +---+
+     | C |                       +------------+
+     | e | <-------------------->| End entity |
+     | r |       Operational     +------------+
+     | t |       transactions          ^
+     | i |      and management         |  Management
+     | f |       transactions          |  transactions        PKI
+     | i |                             |                     users
+     | c |                             v
+     | a | =======================  +--+------------+  ==============
+     | t |                          ^               ^
+     | e |                          |               |         PKI
+     |   |                          v               |      management
+     | & |                       +------+           |       entities
+     |   | <---------------------|  RA  |<----+     |
+     | C |  Publish certificate  +------+     |     |
+     | R |                                    |     |
+     | L |                                    |     |
+     |   |                                    v     v
+     | R |                                +------------+
+     | e | <------------------------------|     CA     |
+     | p |   Publish certificate          +------------+
+     | o |   Publish CRL                     ^      ^
+     | s |                                   |      |  Management
+     | i |                +------------+     |      |  transactions
+     | t | <--------------| CRL Issuer |<----+      |
+     | o |   Publish CRL  +------------+            v
+     | r |                                      +------+
+     | y |                                      |  CA  |
+     +---+                                      +------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

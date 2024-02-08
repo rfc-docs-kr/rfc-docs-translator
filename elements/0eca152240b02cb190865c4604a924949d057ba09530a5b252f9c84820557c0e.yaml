@@ -1,0 +1,19 @@
+"hash": |-
+  0eca152240b02cb190865c4604a924949d057ba09530a5b252f9c84820557c0e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            opaque url<1..2^16-1>;
+            Boolean hash_present;
+            select (hash_present) {
+                case false: struct {};
+                case true: SHA1Hash;
+            } hash;
+        } URLAndOptionalHash;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

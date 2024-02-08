@@ -1,0 +1,17 @@
+"hash": |-
+  4fe44df847e0574c1807ac8f7830cf3437bc8fe4e6e33e1546ed9a233b1fcdbe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Conforming implementations MUST use the LDAP StringPrep profile
+     (including insignificant space handling), as specified in [RFC4518],
+     as the basis for comparison of distinguished name attributes encoded
+     in either PrintableString or UTF8String.  Conforming implementations
+     MUST support name comparisons using caseIgnoreMatch.  Support for
+     attribute types that use other equality matching rules is optional.
+"fixed": |-
+  Conforming implementations MUST use the LDAP StringPrep profile (including insignificant space handling), as specified in [RFC4518], as the basis for comparison of distinguished name attributes encoded in either PrintableString or UTF8String.  Conforming implementations MUST support name comparisons using caseIgnoreMatch.  Support for attribute types that use other equality matching rules is optional.
+"ko": |-
+  준수 구현은 PrintableString 또는 UTF8String으로 인코딩된 고유 이름 속성 비교의 기초로 [RFC4518]에 지정된 대로 LDAP StringPrep 프로필(미미한 공간 처리 포함)을 사용해야 합니다. 준수 구현은 caseIgnoreMatch를 사용하여 이름 비교를 지원해야 합니다(MUST). 다른 동등 일치 규칙을 사용하는 속성 유형에 대한 지원은 선택 사항입니다.

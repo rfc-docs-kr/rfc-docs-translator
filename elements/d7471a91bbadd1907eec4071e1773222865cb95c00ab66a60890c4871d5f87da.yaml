@@ -1,0 +1,16 @@
+"hash": |-
+  d7471a91bbadd1907eec4071e1773222865cb95c00ab66a60890c4871d5f87da
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a client issues a PAUSE request and the server acknowledges and
+     enters the Ready state, the proper server response, if the player
+     issues another PAUSE, is still 200 OK.  The 200 OK response MUST
+     include the Range header with the current pause point.  See examples
+     below:
+"fixed": |-
+  If a client issues a PAUSE request and the server acknowledges and enters the Ready state, the proper server response, if the player issues another PAUSE, is still 200 OK.  The 200 OK response MUST include the Range header with the current pause point.  See examples below:
+"ko": |-
+  클라이언트가 PAUSE 요청을 발행하고 서버가 확인하고 준비 상태로 들어가는 경우, 플레이어가 또 다른 PAUSE를 발행하는 경우 적절한 서버 응답은 여전히 ​​200 OK입니다. 200 OK 응답에는 현재 일시 중지 지점이 있는 Range 헤더가 포함되어야 합니다. 아래 예를 참조하세요.

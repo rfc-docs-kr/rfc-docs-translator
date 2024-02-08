@@ -1,0 +1,23 @@
+"hash": |-
+  1ed6fe0ad0ac57891ac63f7f3e4c510bab5e4c15a740765287afa6d0335576ad
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardAge OBJECT-TYPE
+         SYNTAX     Integer32
+         MAX-ACCESS read-only
+         STATUS     obsolete
+         DESCRIPTION
+                "The number of seconds since this route was last updated
+                 or otherwise determined to be correct.  Note that no
+                 semantics of `too old' can be implied except through
+                 knowledge of the routing protocol by which the route
+                 was learned."
+         DEFVAL  { 0 }
+         ::= { ipForwardEntry 8 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  c1a42f6e7c6e3b580f2faad2876f7f2b29e106dce33625a0f45252feb24b7480
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           (1)  If permittedSubtrees is present in the certificate, set
+                the permitted_subtrees state variable to the intersection
+                of its previous value and the value indicated in the
+                extension field.  If permittedSubtrees does not include a
+                particular name type, the permitted_subtrees state
+                variable is unchanged for that name type.  For example,
+                the intersection of example.com and foo.example.com is
+                foo.example.com.  And the intersection of example.com and
+                example.net is the empty set.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

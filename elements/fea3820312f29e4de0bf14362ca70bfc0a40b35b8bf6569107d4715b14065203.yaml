@@ -1,0 +1,14 @@
+"hash": |-
+  fea3820312f29e4de0bf14362ca70bfc0a40b35b8bf6569107d4715b14065203
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If ((reasons_mask is all-reasons) OR (cert_status is not UNREVOKED)),
+     then the revocation status has been determined, so return
+     cert_status.
+"fixed": |-
+  If ((reasons_mask is all-reasons) OR (cert_status is not UNREVOKED)), then the revocation status has been determined, so return cert_status.
+"ko": |-
+  ((reasons_mask가 모든 이유임) OR (cert_status가 UNREVOKED가 아님))인 경우 해지 상태가 결정되었으므로 cert_status를 반환합니다.

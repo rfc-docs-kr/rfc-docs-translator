@@ -1,0 +1,21 @@
+"hash": |-
+  1f01ac0d9eac694849f9da639f69666e21e57d898ff715d7ebe70d5d3281c040
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     RTSP-URI       =  schemes ":" URI-rest
+     RTSP-REQ-URI   =  schemes ":" URI-req-rest
+     RTSP-URI-Ref   =  RTSP-URI / RTSP-Relative
+     RTSP-REQ-Ref   =  RTSP-REQ-URI / RTSP-REQ-Rel
+     schemes        =  "rtsp" / "rtsps" / scheme
+     scheme         =  < As defined in RFC 3986>
+     URI-rest       =  hier-part [ "?" query ]
+     URI-req-rest   =  hier-part [ "?" query ]
+                       ; Note fragment part not allowed in requests
+     hier-part      =  "//" authority path-abempty
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

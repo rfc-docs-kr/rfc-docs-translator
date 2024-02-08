@@ -1,0 +1,24 @@
+"hash": |-
+  9e08139b4f136441e86ba1d09f37781f149c35188234fb99366c8a7ec73564b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One solution that performs the necessary verification of acceptance
+     of media suitable for unicast-based delivery is the NAT traversal
+     method based on Interactive Connectivity Establishment (ICE)
+     [RFC5245] described in [RFC7825].  This mechanism uses random
+     passwords and a username so that the probability of unintended
+     indication as a valid media destination is very low.  In addition,
+     the server includes in its Session Traversal Utilities for NAT (STUN)
+     [RFC5389] requests a cookie (consisting of random material) that the
+     destination echoes back; thus, the solution also safeguards against
+     having an off-path attacker being able to spoof the STUN checks.
+     This leaves this solution vulnerable only to on-path attackers that
+     can see the STUN requests go to the target of attack and thus forge a
+     response.
+"fixed": |-
+  One solution that performs the necessary verification of acceptance of media suitable for unicast-based delivery is the NAT traversal method based on Interactive Connectivity Establishment (ICE) [RFC5245] described in [RFC7825].  This mechanism uses random passwords and a username so that the probability of unintended indication as a valid media destination is very low.  In addition, the server includes in its Session Traversal Utilities for NAT (STUN) [RFC5389] requests a cookie (consisting of random material) that the destination echoes back; thus, the solution also safeguards against having an off-path attacker being able to spoof the STUN checks. This leaves this solution vulnerable only to on-path attackers that can see the STUN requests go to the target of attack and thus forge a response.
+"ko": |-
+  유니캐스트 기반 전달에 적합한 미디어의 승인에 필요한 검증을 수행하는 한 가지 솔루션은 [RFC7825]에 설명된 ICE(Interactive Connectivity Deployment) [RFC5245] 기반의 NAT 통과 방법입니다. 이 메커니즘은 임의의 비밀번호와 사용자 이름을 사용하므로 의도치 않게 유효한 미디어 대상으로 표시될 가능성이 매우 낮습니다. 또한 서버는 STUN(Session Traversal Utilities for NAT) [RFC5389]에 대상이 다시 반향하는 쿠키(임의의 자료로 구성됨)를 요청합니다. 따라서 이 솔루션은 경로를 벗어난 공격자가 STUN 검사를 스푸핑하는 것을 방지합니다. 이로 인해 이 솔루션은 STUN 요청이 공격 대상으로 이동하여 응답을 위조하는 것을 볼 수 있는 경로상의 공격자에게만 취약해집니다.

@@ -1,0 +1,30 @@
+"hash": |-
+  35ebda824e05c97a1e5036d79ba318a7f6c2afe3a3b2c88b05291d0259e897ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The reliable transmission of a message is initiated by marking the
+     message as Confirmable in the CoAP header.  A Confirmable message
+     always carries either a request or response, unless it is used only
+     to elicit a Reset message, in which case it is Empty.  A recipient
+     MUST either (a) acknowledge a Confirmable message with an
+     Acknowledgement message or (b) reject the message if the recipient
+     lacks context to process the message properly, including situations
+     where the message is Empty, uses a code with a reserved class (1, 6,
+     or 7), or has a message format error.  Rejecting a Confirmable
+     message is effected by sending a matching Reset message and otherwise
+     ignoring it.  The Acknowledgement message MUST echo the Message ID of
+     the Confirmable message and MUST carry a response or be Empty (see
+     Sections 5.2.1 and 5.2.2).  The Reset message MUST echo the Message
+     ID of the Confirmable message and MUST be Empty.  Rejecting an
+     Acknowledgement or Reset message (including the case where the
+     Acknowledgement carries a request or a code with a reserved class, or
+     the Reset message is not Empty) is effected by silently ignoring it.
+     More generally, recipients of Acknowledgement and Reset messages MUST
+     NOT respond with either Acknowledgement or Reset messages.
+"fixed": |-
+  The reliable transmission of a message is initiated by marking the message as Confirmable in the CoAP header.  A Confirmable message always carries either a request or response, unless it is used only to elicit a Reset message, in which case it is Empty.  A recipient MUST either (a) acknowledge a Confirmable message with an Acknowledgement message or (b) reject the message if the recipient lacks context to process the message properly, including situations where the message is Empty, uses a code with a reserved class (1, 6, or 7), or has a message format error.  Rejecting a Confirmable message is effected by sending a matching Reset message and otherwise ignoring it.  The Acknowledgement message MUST echo the Message ID of the Confirmable message and MUST carry a response or be Empty (see Sections 5.2.1 and 5.2.2).  The Reset message MUST echo the Message ID of the Confirmable message and MUST be Empty.  Rejecting an Acknowledgement or Reset message (including the case where the Acknowledgement carries a request or a code with a reserved class, or the Reset message is not Empty) is effected by silently ignoring it. More generally, recipients of Acknowledgement and Reset messages MUST NOT respond with either Acknowledgement or Reset messages.
+"ko": |-
+  CoAP 헤더에서 메시지를 확인 가능으로 표시하면 메시지의 안정적인 전송이 시작됩니다. 확인 가능 메시지는 재설정 메시지를 유도하는 데만 사용되지 않는 한 항상 요청이나 응답을 전달하며, 이 경우 비어 있습니다. 수신자는 (a) 확인 메시지로 확인 가능 메시지를 확인하거나 (b) 메시지가 비어 있고 예약된 클래스(1)가 있는 코드를 사용하는 상황을 포함하여 메시지를 적절하게 처리하기 위한 컨텍스트가 부족한 경우 메시지를 거부해야 합니다. , 6 또는 7) 또는 메시지 형식 오류가 있습니다. 확인 가능 메시지 거부는 일치하는 재설정 메시지를 보내고 그렇지 않으면 이를 무시함으로써 영향을 받습니다. 승인 메시지는 확인 가능 메시지의 메시지 ID를 반영해야 하며 응답을 전달하거나 비어 있어야 합니다(섹션 5.2.1 및 5.2.2 참조). 재설정 메시지는 확인 가능 메시지의 메시지 ID를 반영해야 하며 비어 있어야 합니다. 승인 또는 재설정 메시지 거부(승인이 예약된 클래스가 있는 요청이나 코드를 전달하거나 재설정 메시지가 비어 있지 않은 경우 포함)는 이를 자동으로 무시함으로써 영향을 받습니다. 보다 일반적으로 승인 및 재설정 메시지의 수신자는 승인 또는 재설정 메시지로 응답해서는 안 됩니다.

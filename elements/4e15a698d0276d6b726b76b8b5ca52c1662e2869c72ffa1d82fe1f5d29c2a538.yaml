@@ -1,0 +1,19 @@
+"hash": |-
+  4e15a698d0276d6b726b76b8b5ca52c1662e2869c72ffa1d82fe1f5d29c2a538
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (b) permitted_subtrees:  A set of root names for each name type
+        (e.g., X.500 distinguished names, email addresses, or ip
+        addresses) defining a set of subtrees within which all subject
+        names in subsequent certificates in the certification path MUST
+        fall.  This variable includes a set for each name type: the
+        initial value for the set for Distinguished Names is the set of
+        all Distinguished names; the initial value for the set of RFC822
+        names is the set of all RFC822 names, etc.
+"fixed": |-
+  - (b) permitted_subtrees:  A set of root names for each name type (e.g., X.500 distinguished names, email addresses, or ip addresses) defining a set of subtrees within which all subject names in subsequent certificates in the certification path MUST fall.  This variable includes a set for each name type: the initial value for the set for Distinguished Names is the set of all Distinguished names; the initial value for the set of RFC822 names is the set of all RFC822 names, etc.
+"ko": |-
+  - (b) allowed_subtrees: 인증 경로의 후속 인증서에 있는 모든 주체 이름이 반드시 포함되어야 하는 하위 트리 집합을 정의하는 각 이름 유형(예: X.500 고유 이름, 이메일 주소 또는 IP 주소)에 대한 루트 이름 집합 . 이 변수에는 각 이름 유형에 대한 세트가 포함됩니다. 고유 이름 세트의 초기 값은 모든 고유 이름 세트입니다. RFC822 이름 집합의 초기 값은 모든 RFC822 이름 집합입니다.

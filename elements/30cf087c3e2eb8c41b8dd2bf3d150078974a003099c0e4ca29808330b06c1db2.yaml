@@ -1,0 +1,18 @@
+"hash": |-
+  30cf087c3e2eb8c41b8dd2bf3d150078974a003099c0e4ca29808330b06c1db2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     IssuingDistributionPoint ::= SEQUENCE {
+          distributionPoint          [0] DistributionPointName OPTIONAL,
+          onlyContainsUserCerts      [1] BOOLEAN DEFAULT FALSE,
+          onlyContainsCACerts        [2] BOOLEAN DEFAULT FALSE,
+          onlySomeReasons            [3] ReasonFlags OPTIONAL,
+          indirectCRL                [4] BOOLEAN DEFAULT FALSE,
+          onlyContainsAttributeCerts [5] BOOLEAN DEFAULT FALSE }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

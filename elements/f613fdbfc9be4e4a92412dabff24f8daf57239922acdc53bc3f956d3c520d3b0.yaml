@@ -1,0 +1,16 @@
+"hash": |-
+  f613fdbfc9be4e4a92412dabff24f8daf57239922acdc53bc3f956d3c520d3b0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a CRL issuer generates two CRLs (two complete CRLs, two delta
+     CRLs, or a complete CRL and a delta CRL) for the same scope at
+     different times, the two CRLs MUST NOT have the same CRL number.
+     That is, if the this update field (section 5.1.2.4) in the two CRLs
+     are not identical, the CRL numbers MUST be different.
+"fixed": |-
+  If a CRL issuer generates two CRLs (two complete CRLs, two delta CRLs, or a complete CRL and a delta CRL) for the same scope at different times, the two CRLs MUST NOT have the same CRL number. That is, if the this update field (section 5.1.2.4) in the two CRLs are not identical, the CRL numbers MUST be different.
+"ko": |-
+  CRL 발급자가 서로 다른 시간에 동일한 범위에 대해 두 개의 CRL(두 개의 완전한 CRL, 두 개의 델타 CRL 또는 완전한 CRL과 델타 CRL)을 생성하는 경우 두 CRL은 동일한 CRL 번호를 가져서는 안 됩니다. 즉, 두 CRL의 이 업데이트 필드(섹션 5.1.2.4)가 동일하지 않은 경우 CRL 번호는 달라야 합니다.

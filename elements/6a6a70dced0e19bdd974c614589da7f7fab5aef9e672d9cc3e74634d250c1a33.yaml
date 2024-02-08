@@ -1,0 +1,59 @@
+"hash": |-
+  6a6a70dced0e19bdd974c614589da7f7fab5aef9e672d9cc3e74634d250c1a33
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  125 30   10:         SEQUENCE {
+  127 06    3:           OBJECT IDENTIFIER organizationName (2 5 4 10)
+  132 13    3:           PrintableString 'gov'
+             :           }
+             :         }
+  137 31   13:       SET {
+  139 30   11:         SEQUENCE {
+  141 06    3:           OBJECT IDENTIFIER
+             :             organizationalUnitName (2 5 4 11)
+  146 13    4:           PrintableString 'NIST'
+             :           }
+             :         }
+  152 31   17:       SET {
+  154 30   15:         SEQUENCE {
+  156 06    3:           OBJECT IDENTIFIER commonName (2 5 4 3)
+  161 13    8:           PrintableString 'Tim Polk'
+             :           }
+             :         }
+             :       }
+  171 30  159:     SEQUENCE {
+  174 30   13:       SEQUENCE {
+  176 06    9:         OBJECT IDENTIFIER
+             :           rsaEncryption (1 2 840 113549 1 1 1)
+  187 05    0:         NULL
+             :         }
+  189 03  141:       BIT STRING 0 unused bits, encapsulates {
+  193 30  137:           SEQUENCE {
+  196 02  129:             INTEGER
+             :               00 E1 6A E4 03 30 97 02 3C F4 10 F3 B5 1E
+             :               4D 7F 14 7B F6 F5 D0 78 E9 A4 8A F0 A3 75
+             :               EC ED B6 56 96 7F 88 99 85 9A F2 3E 68 77
+             :               87 EB 9E D1 9F C0 B4 17 DC AB 89 23 A4 1D
+             :               7E 16 23 4C 4F A8 4D F5 31 B8 7C AA E3 1A
+             :               49 09 F4 4B 26 DB 27 67 30 82 12 01 4A E9
+             :               1A B6 C1 0C 53 8B 6C FC 2F 7A 43 EC 33 36
+             :               7E 32 B2 7B D5 AA CF 01 14 C6 12 EC 13 F2
+             :               2D 14 7A 8B 21 58 14 13 4C 46 A3 9A F2 16
+             :               95 FF 23
+  328 02    3:             INTEGER 65537
+             :             }
+             :           }
+             :       }
+  333 A3  175:     [3] {
+  336 30  172:       SEQUENCE {
+  339 30   63:         SEQUENCE {
+  341 06    3:           OBJECT IDENTIFIER subjectAltName (2 5 29 17)
+  346 04   56:           OCTET STRING, encapsulates {
+  348 30   54:               SEQUENCE {
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

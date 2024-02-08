@@ -10,7 +10,7 @@
            next hop will be through the same physical interface through
            which the datagram arrived; otherwise, it is "non-local
            source-routing".
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - To define the rules restricting host forwarding of source- routed datagrams, we use the term "local source-routing" if the next hop will be through the same physical interface through which the datagram arrived; otherwise, it is "non-local source-routing".
+"ko": |-
+  - 소스 라우팅된 데이터그램의 호스트 전달을 제한하는 규칙을 정의하기 위해 다음 홉이 데이터그램이 도착한 것과 동일한 물리적 인터페이스를 통과하는 경우 "로컬 소스 라우팅"이라는 용어를 사용합니다. 그렇지 않으면 "비로컬 소스 라우팅"입니다.

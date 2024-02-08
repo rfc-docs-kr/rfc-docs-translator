@@ -1,0 +1,18 @@
+"hash": |-
+  4b82239c1fddc0088bcc05cac974d6a96639afce8ef62a9620ecfcc9166dfc04
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ECDH_RSA mechanism requires a server to acquire an ECC
+     certificate, but the certificate issuer can still use an existing RSA
+     key for signing.  This eliminates the need to update the keys of
+     trusted certification authorities accepted by TLS clients.  The
+     ECDH_ECDSA mechanism requires ECC keys for the server as well as the
+     certification authority and is best suited for constrained devices
+     unable to support RSA.
+"fixed": |-
+  The ECDH_RSA mechanism requires a server to acquire an ECC certificate, but the certificate issuer can still use an existing RSA key for signing.  This eliminates the need to update the keys of trusted certification authorities accepted by TLS clients.  The ECDH_ECDSA mechanism requires ECC keys for the server as well as the certification authority and is best suited for constrained devices unable to support RSA.
+"ko": |-
+  ECDH_RSA 메커니즘에서는 서버가 ECC 인증서를 획득해야 하지만 인증서 발급자는 서명을 위해 기존 RSA 키를 계속 사용할 수 있습니다. 이렇게 하면 TLS 클라이언트가 허용하는 신뢰할 수 있는 인증 기관의 키를 업데이트할 필요가 없습니다. ECDH_ECDSA 메커니즘에는 서버와 인증 기관에 대한 ECC 키가 필요하며 RSA를 지원할 수 없는 제한된 장치에 가장 적합합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  0dde978a44e9ca99045713f03a2a8b0c13100ee87d60ad98b45d8013bfbd5704
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     the changing of transport parameters will require that the client
+     perform a TEARDOWN of the affected media and then set it up again.
+     For an aggregated session, not tearing down all the media at the same
+     time will avoid the creation of a new session.
+"fixed": |-
+  the changing of transport parameters will require that the client perform a TEARDOWN of the affected media and then set it up again. For an aggregated session, not tearing down all the media at the same time will avoid the creation of a new session.
+"ko": |-
+  전송 매개변수를 변경하려면 클라이언트가 영향을 받은 미디어를 TEARDOWN한 다음 다시 설정해야 합니다. 집계된 세션의 경우 모든 미디어를 동시에 해체하지 않으면 새 세션이 생성되지 않습니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  8ca72be367ccb3c2162595cf1bd20849b17cf5ed3097da4c40ab3be339da6fb0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are security risks with using keys not associated with well-
+     known and widely reviewed curves.  For example, the curve may not
+     satisfy the Menezes-Okamoto-Vanstone (MOV) condition [X9.62] or the
+     curve may be vulnerable to the Anomalous attack [X9.62].
+     Additionally, either a) all of the arithmetic properties of a
+     candidate ECC public key must be validated to ensure that it has the
+     unique correct representation in the correct (additive) subgroup (and
+     therefore is also in the correct EC group) specified by the
+     associated ECC domain parameters, or b) some of the arithmetic
+     properties of a candidate ECC public key must be validated to ensure
+     that it is in the correct group (but not necessarily the correct
+     subgroup) specified by the associated ECC domain parameters
+     [SP800-56A].
+"fixed": |-
+  There are security risks with using keys not associated with well- known and widely reviewed curves.  For example, the curve may not satisfy the Menezes-Okamoto-Vanstone (MOV) condition [X9.62] or the curve may be vulnerable to the Anomalous attack [X9.62]. Additionally, either a) all of the arithmetic properties of a candidate ECC public key must be validated to ensure that it has the unique correct representation in the correct (additive) subgroup (and therefore is also in the correct EC group) specified by the associated ECC domain parameters, or b) some of the arithmetic properties of a candidate ECC public key must be validated to ensure that it is in the correct group (but not necessarily the correct subgroup) specified by the associated ECC domain parameters [SP800-56A].
+"ko": |-
+  잘 알려져 있고 널리 검토된 곡선과 연관되지 않은 키를 사용하면 보안 위험이 있습니다. 예를 들어, 곡선은 Menezes-Okamoto-Vanstone(MOV) 조건 [X9.62]을 충족하지 않거나 변칙 공격 [X9.62]에 취약할 수 있습니다. 또한 a) 후보 ECC 공개 키의 모든 산술 속성을 검증하여 관련 키가 지정한 올바른(추가) 하위 그룹(따라서 올바른 EC 그룹에도 있음)에 고유하고 올바른 표현이 있는지 확인해야 합니다. ECC 도메인 매개변수 또는 b) 후보 ECC 공개 키의 일부 산술 속성을 검증하여 관련 ECC 도메인 매개변수[SP800-56A]에 의해 지정된 올바른 그룹(반드시 올바른 하위 그룹일 필요는 없음)에 있는지 확인해야 합니다. .

@@ -1,0 +1,24 @@
+"hash": |-
+  e9717ca13f0ef0925b5c56975a4c47074643332aed38bc8bc811bb46f30634fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the hostname labels contain only US-ASCII characters, then the
+     client MUST ensure that labels are separated only by the byte 0x2E,
+     representing the dot character U+002E (requirement 1 in Section 3.1
+     of [IDNA] notwithstanding).  If the server needs to match the
+     HostName against names that contain non-US-ASCII characters, it MUST
+     perform the conversion operation described in Section 4 of [IDNA],
+     treating the HostName as a "query string" (i.e., the AllowUnassigned
+     flag MUST be set).  Note that IDNA allows labels to be separated by
+     any of the Unicode characters U+002E, U+3002, U+FF0E, and U+FF61;
+     therefore, servers MUST accept any of these characters as a label
+     separator.  If the server only needs to match the HostName against
+     names containing exclusively ASCII characters, it MUST compare ASCII
+     names case-insensitively.
+"fixed": |-
+  If the hostname labels contain only US-ASCII characters, then the client MUST ensure that labels are separated only by the byte 0x2E, representing the dot character U+002E (requirement 1 in Section 3.1 of [IDNA] notwithstanding).  If the server needs to match the HostName against names that contain non-US-ASCII characters, it MUST perform the conversion operation described in Section 4 of [IDNA], treating the HostName as a "query string" (i.e., the AllowUnassigned flag MUST be set).  Note that IDNA allows labels to be separated by any of the Unicode characters U+002E, U+3002, U+FF0E, and U+FF61; therefore, servers MUST accept any of these characters as a label separator.  If the server only needs to match the HostName against names containing exclusively ASCII characters, it MUST compare ASCII names case-insensitively.
+"ko": |-
+  호스트 이름 레이블에 US-ASCII 문자만 포함된 경우 클라이언트는 레이블이 점 문자 U+002E를 나타내는 바이트 0x2E로만 구분되는지 확인해야 합니다([IDNA] 섹션 3.1의 요구 사항 1에도 불구하고). 서버가 US-ASCII가 아닌 문자를 포함하는 이름과 HostName을 일치시켜야 하는 경우, [IDNA]의 섹션 4에 설명된 변환 작업을 수행해야 하며 HostName을 "쿼리 문자열"로 처리해야 합니다(즉, AllowUnsigned 플래그는 반드시 설정됩니다). IDNA에서는 레이블을 유니코드 문자 U+002E, U+3002, U+FF0E 및 U+FF61로 구분할 수 있습니다. 따라서 서버는 이러한 문자 중 하나를 레이블 구분 기호로 허용해야 합니다. 서버가 ASCII 문자만 포함하는 이름과 HostName을 일치시키기만 하면 되는 경우에는 ASCII 이름을 대소문자를 구분하지 않고 비교해야 합니다.

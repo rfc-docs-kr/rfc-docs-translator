@@ -1,0 +1,24 @@
+"hash": |-
+  f99ceb709ce765b86549f08ab8f07be2200426306dd0d2167e6e918fc4665f83
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The If-Match request-header field is especially useful for ensuring
+     the integrity of the presentation description, independent of how the
+     presentation description was received.  The presentation description
+     can be fetched via means external to RTSP (such as HTTP) or via the
+     DESCRIBE message.  In the case of retrieving the presentation
+     description via RTSP, the server implementation is guaranteeing the
+     integrity of the description between the time of the DESCRIBE message
+     and the SETUP message.  By including the MTag given in or with the
+     session description in an If-Match header part of the SETUP request,
+     the client ensures that resources set up are matching the
+     description.  A SETUP request with the If-Match header for which the
+     MTag validation check fails MUST generate a response using 412
+     (Precondition Failed).
+"fixed": |-
+  The If-Match request-header field is especially useful for ensuring the integrity of the presentation description, independent of how the presentation description was received.  The presentation description can be fetched via means external to RTSP (such as HTTP) or via the DESCRIBE message.  In the case of retrieving the presentation description via RTSP, the server implementation is guaranteeing the integrity of the description between the time of the DESCRIBE message and the SETUP message.  By including the MTag given in or with the session description in an If-Match header part of the SETUP request, the client ensures that resources set up are matching the description.  A SETUP request with the If-Match header for which the MTag validation check fails MUST generate a response using 412 (Precondition Failed).
+"ko": |-
+  If-Match 요청 헤더 필드는 프리젠테이션 설명이 수신된 방식에 관계없이 프리젠테이션 설명의 무결성을 보장하는 데 특히 유용합니다. 프레젠테이션 설명은 RTSP 외부 수단(HTTP 등)이나 DESCRIBE 메시지를 통해 가져올 수 있습니다. RTSP를 통해 프레젠테이션 설명을 검색하는 경우 서버 구현은 DESCRIBE 메시지 시간과 SETUP 메시지 시간 사이에 설명의 무결성을 보장합니다. SETUP 요청의 If-Match 헤더 부분에 세션 설명에 제공된 MTag를 포함함으로써 클라이언트는 설정된 리소스가 설명과 일치하는지 확인합니다. MTag 유효성 검사가 실패한 If-Match 헤더가 있는 SETUP 요청은 412(전제 조건 실패)를 사용하여 응답을 생성해야 합니다.

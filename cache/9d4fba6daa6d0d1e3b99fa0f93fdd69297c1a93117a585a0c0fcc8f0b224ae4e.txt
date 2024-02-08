@@ -1,0 +1,1 @@
+CRL 범위에 최종 엔터티 공개 키 인증서만 포함된 경우 onlyContainsUserCerts를 TRUE로 설정해야 합니다. CRL 범위에 CA 인증서만 포함된 경우 onlyContainsCACerts를 TRUE로 설정해야 합니다. onlyContainsUserCerts 또는 onlyContainsCACerts가 TRUE로 설정된 경우 CRL의 범위에는 버전 1 또는 버전 2 인증서가 포함되어서는 안 됩니다. CRL을 준수하는 발급자는 onlyContainsAttributeCerts 부울을 FALSE로 설정해야 합니다.

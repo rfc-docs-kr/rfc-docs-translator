@@ -1,0 +1,18 @@
+"hash": |-
+  6d41d266f489cbfde91b0451d338b87921df1b45da8e0710ba5ebdc728b44628
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A mapping from RTP timestamps to NTP format timestamps (wallclock)
+        is available via RTCP.  However, this information is not
+        sufficient to generate a mapping from RTP timestamps to media
+        clock time (NPT, etc.).  Furthermore, in order to ensure that this
+        information is available at the necessary time (immediately at
+        startup or after a seek), and that it is delivered reliably, this
+        mapping is placed in the RTSP control channel.
+"fixed": |-
+  - A mapping from RTP timestamps to NTP format timestamps (wallclock) is available via RTCP.  However, this information is not sufficient to generate a mapping from RTP timestamps to media clock time (NPT, etc.).  Furthermore, in order to ensure that this information is available at the necessary time (immediately at startup or after a seek), and that it is delivered reliably, this mapping is placed in the RTSP control channel.
+"ko": |-
+  - RTCP를 통해 RTP 타임스탬프에서 NTP 형식 타임스탬프(벽시계)로의 매핑이 가능합니다. 그러나 이 정보는 RTP 타임스탬프에서 미디어 시계 시간(NPT 등)으로의 매핑을 생성하는 데 충분하지 않습니다. 또한 이 정보를 필요한 시간(시작 시 또는 검색 후 즉시)에 사용할 수 있고 안정적으로 전달되도록 하기 위해 이 매핑은 RTSP 제어 채널에 배치됩니다.

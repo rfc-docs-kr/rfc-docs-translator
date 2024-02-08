@@ -1,0 +1,16 @@
+"hash": |-
+  989f43d2f939bf457fa83809d39fdb71d618f75573f035fef48c4cae00adabe9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CAs conforming to this profile MUST always encode certificate
+     validity dates through the year 2049 as UTCTime; certificate validity
+     dates in 2050 or later MUST be encoded as GeneralizedTime.
+     Conforming applications MUST be able to process validity dates that
+     are encoded in either UTCTime or GeneralizedTime.
+"fixed": |-
+  CAs conforming to this profile MUST always encode certificate validity dates through the year 2049 as UTCTime; certificate validity dates in 2050 or later MUST be encoded as GeneralizedTime. Conforming applications MUST be able to process validity dates that are encoded in either UTCTime or GeneralizedTime.
+"ko": |-
+  이 프로필을 준수하는 CA는 항상 2049년까지 인증서 유효 날짜를 UTCTime으로 인코딩해야 합니다. 2050년 이후의 인증서 유효 날짜는 GeneralizedTime으로 인코딩되어야 합니다. 준수 애플리케이션은 UTCTime 또는 GeneralizedTime으로 인코딩된 유효 날짜를 처리할 수 있어야 합니다(MUST).

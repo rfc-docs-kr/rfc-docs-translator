@@ -1,0 +1,16 @@
+"hash": |-
+  15f12931b64a8df190f24f8abe95129245c599ff5e02a4d43a5ff642e24a20de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The removeFromCRL (8) reasonCode value may only appear in delta CRLs
+     and indicates that a certificate is to be removed from a CRL because
+     either the certificate expired or was removed from hold.  All other
+     reason codes may appear in any CRL and indicate that the specified
+     certificate should be considered revoked.
+"fixed": |-
+  The removeFromCRL (8) reasonCode value may only appear in delta CRLs and indicates that a certificate is to be removed from a CRL because either the certificate expired or was removed from hold.  All other reason codes may appear in any CRL and indicate that the specified certificate should be considered revoked.
+"ko": |-
+  RemoveFromCRL(8) ReasonCode 값은 델타 CRL에만 나타날 수 있으며 인증서가 만료되었거나 보류 상태에서 제거되었기 때문에 인증서가 CRL에서 제거되어야 함을 나타냅니다. 다른 모든 이유 코드는 CRL에 나타날 수 있으며 지정된 인증서가 해지된 것으로 간주되어야 함을 나타냅니다.

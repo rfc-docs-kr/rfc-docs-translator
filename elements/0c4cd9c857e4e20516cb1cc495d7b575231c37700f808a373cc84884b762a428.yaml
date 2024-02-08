@@ -8,7 +8,7 @@
      The Lucky Thirteen attack can be mitigated by using authenticated
      encryption like AES-GCM [RFC5288] or encrypt-then-MAC [RFC7366]
      instead of the TLS default of MAC-then-encrypt.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The Lucky Thirteen attack can be mitigated by using authenticated encryption like AES-GCM [RFC5288] or encrypt-then-MAC [RFC7366] instead of the TLS default of MAC-then-encrypt.
+"ko": |-
+  Lucky Thirteen 공격은 TLS 기본값인 MAC 후 암호화 대신 AES-GCM [RFC5288] 또는 암호화 후 MAC [RFC7366]과 같은 인증된 암호화를 사용하여 완화할 수 있습니다.

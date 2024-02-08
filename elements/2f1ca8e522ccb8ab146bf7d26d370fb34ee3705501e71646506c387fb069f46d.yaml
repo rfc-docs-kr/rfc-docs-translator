@@ -1,0 +1,24 @@
+"hash": |-
+  2f1ca8e522ccb8ab146bf7d26d370fb34ee3705501e71646506c387fb069f46d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a new connection is formed, the certificate from the remote
+     device needs to be verified.  If the CoAP node has a source of
+     absolute time, then the node SHOULD check that the validity dates of
+     the certificate are within range.  The certificate MUST be validated
+     as appropriate for the security requirements, using functionality
+     equivalent to the algorithm specified in Section 6 of [RFC5280].  If
+     the certificate contains a SubjectAltName, then the authority of the
+     request URI MUST match at least one of the authorities of any CoAP
+     URI found in a field of URI type in the SubjectAltName set.  If there
+     is no SubjectAltName in the certificate, then the authority of the
+     request URI MUST match the Common Name (CN) found in the certificate
+     using the matching rules defined in [RFC3280] with the exception that
+     certificates with wildcards are not allowed.
+"fixed": |-
+  When a new connection is formed, the certificate from the remote device needs to be verified.  If the CoAP node has a source of absolute time, then the node SHOULD check that the validity dates of the certificate are within range.  The certificate MUST be validated as appropriate for the security requirements, using functionality equivalent to the algorithm specified in Section 6 of [RFC5280].  If the certificate contains a SubjectAltName, then the authority of the request URI MUST match at least one of the authorities of any CoAP URI found in a field of URI type in the SubjectAltName set.  If there is no SubjectAltName in the certificate, then the authority of the request URI MUST match the Common Name (CN) found in the certificate using the matching rules defined in [RFC3280] with the exception that certificates with wildcards are not allowed.
+"ko": |-
+  새로운 연결이 형성되면 원격 장치의 인증서를 확인해야 합니다. CoAP 노드에 절대 시간 소스가 있는 경우 노드는 인증서의 유효 날짜가 범위 내에 있는지 확인해야 합니다. 인증서는 [RFC5280]의 섹션 6에 지정된 알고리즘과 동등한 기능을 사용하여 보안 요구 사항에 적합한지 검증되어야 합니다. 인증서에 SubjectAltName이 포함된 경우 요청 URI의 권한은 SubjectAltName 집합의 URI 유형 필드에 있는 CoAP URI의 권한 중 최소한 하나와 일치해야 합니다. 인증서에 SubjectAltName이 없으면 요청 URI의 기관은 와일드카드가 있는 인증서가 허용되지 않는다는 점을 제외하고 [RFC3280]에 정의된 일치 규칙을 사용하여 인증서에 있는 CN(일반 이름)과 일치해야 합니다.

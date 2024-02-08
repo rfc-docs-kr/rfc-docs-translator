@@ -1,0 +1,21 @@
+"hash": |-
+  730710e25ad0146f48d4e47b2bef8d08194b197f77e7b01fb3e138befc7e1fe5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     NOTE: SignatureAlgorithm is "rsa" for the ECDHE_RSA key exchange
+     algorithm and "anonymous" for ECDH_anon.  These cases are defined in
+     TLS [2][3].  SignatureAlgorithm is "ecdsa" for ECDHE_ECDSA.  ECDSA
+     signatures are generated and verified as described in Section 5.10,
+     and SHA in the above template for sha_hash accordingly may denote a
+     hash algorithm other than SHA-1.  As per ANSI X9.62, an ECDSA
+     signature consists of a pair of integers, r and s.  The digitally-
+     signed element is encoded as an opaque vector <0..2^16-1>, the
+     contents of which are the DER encoding [9] corresponding to the
+     following ASN.1 notation [8].
+"fixed": |-
+  NOTE: SignatureAlgorithm is "rsa" for the ECDHE_RSA key exchange algorithm and "anonymous" for ECDH_anon.  These cases are defined in TLS [2][3].  SignatureAlgorithm is "ecdsa" for ECDHE_ECDSA.  ECDSA signatures are generated and verified as described in Section 5.10, and SHA in the above template for sha_hash accordingly may denote a hash algorithm other than SHA-1.  As per ANSI X9.62, an ECDSA signature consists of a pair of integers, r and s.  The digitally- signed element is encoded as an opaque vector <0..2^16-1>, the contents of which are the DER encoding [9] corresponding to the following ASN.1 notation [8].
+"ko": |-
+  참고: SignatureAlgorithm은 ECDHE_RSA 키 교환 알고리즘의 경우 "rsa"이고 ECDH_anon의 경우 "anonymous"입니다. 이러한 경우는 TLS [2][3]에 정의되어 있습니다. SignatureAlgorithm은 ECDHE_ECDSA의 경우 "ecdsa"입니다. ECDSA 서명은 섹션 5.10에 설명된 대로 생성되고 확인되며, 따라서 sha_hash에 대한 위 템플릿의 SHA는 SHA-1이 아닌 해시 알고리즘을 나타낼 수 있습니다. ANSI X9.62에 따라 ECDSA 서명은 한 쌍의 정수 r과 s로 구성됩니다. 디지털 서명된 요소는 불투명 벡터 <0..2^16-1>로 인코딩되며 그 내용은 다음 ASN.1 표기법[8]에 해당하는 DER 인코딩[9]입니다.

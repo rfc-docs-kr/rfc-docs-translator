@@ -1,0 +1,18 @@
+"hash": |-
+  a25c857c7b6bd635e04cc3a90070087647d9bd64f8546671961dc7bf38e52c4f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Content-Length message body header field contains the length of
+     the message body of the RTSP message (i.e., after the double CRLF
+     following the last header) in octets of bits.  Unlike HTTP, it MUST
+     be included in all messages that carry a message body beyond the
+     header portion of the RTSP message.  If it is missing, a default
+     value of zero is assumed.  Any Content-Length greater than or equal
+     to zero is a valid value.
+"fixed": |-
+  The Content-Length message body header field contains the length of the message body of the RTSP message (i.e., after the double CRLF following the last header) in octets of bits.  Unlike HTTP, it MUST be included in all messages that carry a message body beyond the header portion of the RTSP message.  If it is missing, a default value of zero is assumed.  Any Content-Length greater than or equal to zero is a valid value.
+"ko": |-
+  Content-Length 메시지 본문 헤더 필드에는 비트 옥텟 단위로 RTSP 메시지의 메시지 본문 길이(즉, 마지막 헤더 다음에 오는 이중 CRLF 뒤)가 포함됩니다. HTTP와 달리 RTSP 메시지의 헤더 부분을 넘어 메시지 본문을 전달하는 모든 메시지에 포함되어야 합니다. 누락된 경우 기본값은 0으로 간주됩니다. 0보다 크거나 같은 모든 Content-Length는 유효한 값입니다.

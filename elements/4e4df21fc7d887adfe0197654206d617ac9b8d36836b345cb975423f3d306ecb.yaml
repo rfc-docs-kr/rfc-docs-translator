@@ -12,7 +12,7 @@
            joining multicast groups and receiving multicast datagrams, and
            leaving multicast groups.  This implies support for all of
            [IP:4] except the IGMP protocol itself, which is OPTIONAL.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - A host SHOULD support local IP multicasting on all connected networks for which a mapping from Class D IP addresses to link-layer addresses has been specified (see below).  Support for local IP multicasting includes sending multicast datagrams, joining multicast groups and receiving multicast datagrams, and leaving multicast groups.  This implies support for all of [IP:4] except the IGMP protocol itself, which is OPTIONAL.
+"ko": |-
+  - 호스트는 클래스 D IP 주소에서 링크 계층 주소로의 매핑이 지정된 모든 연결된 네트워크에서 로컬 IP 멀티캐스팅을 지원해야 합니다(아래 참조). 로컬 IP 멀티캐스팅 지원에는 멀티캐스트 데이터그램 전송, 멀티캐스트 그룹 가입, 멀티캐스트 데이터그램 수신, 멀티캐스트 그룹 탈퇴가 포함됩니다. 이는 선택 사항인 IGMP 프로토콜 자체를 제외한 모든 [IP:4]에 대한 지원을 의미합니다.

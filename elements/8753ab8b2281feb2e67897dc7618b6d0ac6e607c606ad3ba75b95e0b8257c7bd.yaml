@@ -1,0 +1,20 @@
+"hash": |-
+  8753ab8b2281feb2e67897dc7618b6d0ac6e607c606ad3ba75b95e0b8257c7bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This request-header can be used with one or several message body tags
+     to make DESCRIBE requests conditional.  A client that has one or more
+     message bodies previously obtained from the resource can verify that
+     none of those entities is current by including a list of their
+     associated message body tags in the If-None-Match header field.  The
+     purpose of this feature is to allow efficient updates of cached
+     information with a minimum amount of transaction overhead.  As a
+     special case, the value "*" matches any current entity of the
+     resource.
+"fixed": |-
+  This request-header can be used with one or several message body tags to make DESCRIBE requests conditional.  A client that has one or more message bodies previously obtained from the resource can verify that none of those entities is current by including a list of their associated message body tags in the If-None-Match header field.  The purpose of this feature is to allow efficient updates of cached information with a minimum amount of transaction overhead.  As a special case, the value "*" matches any current entity of the resource.
+"ko": |-
+  이 요청 헤더는 하나 이상의 메시지 본문 태그와 함께 사용되어 DESCRIBE 요청을 조건부로 만들 수 있습니다. 이전에 리소스에서 얻은 하나 이상의 메시지 본문이 있는 클라이언트는 If-None-Match 헤더 필드에 연결된 메시지 본문 태그 목록을 포함하여 해당 엔터티 중 최신 엔터티가 없음을 확인할 수 있습니다. 이 기능의 목적은 최소한의 트랜잭션 오버헤드로 캐시된 정보를 효율적으로 업데이트할 수 있도록 하는 것입니다. 특별한 경우로 "*" 값은 리소스의 현재 엔터티와 일치합니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  cb8fdbb14b695cfb895e383a36a9012bc51c584b45e63a99408592b379dfee47
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  send an ICMPv6 Packet Too Big (PTB) [RFC4443] message to the IPv6
+        payload packet source.  The MTU field in the ICMPv6 PTB message is
+        set to the GMTU.
+"fixed": |-
+  -  send an ICMPv6 Packet Too Big (PTB) [RFC4443] message to the IPv6 payload packet source.  The MTU field in the ICMPv6 PTB message is set to the GMTU.
+"ko": |-
+  - ICMPv6 PTB(Packet Too Big) [RFC4443] 메시지를 IPv6 페이로드 패킷 소스로 보냅니다. ICMPv6 PTB 메시지의 MTU 필드는 GMTU로 설정됩니다.

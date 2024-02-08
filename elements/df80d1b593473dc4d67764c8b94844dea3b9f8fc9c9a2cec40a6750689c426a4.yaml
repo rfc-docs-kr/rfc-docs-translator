@@ -9,7 +9,7 @@
            decides that the session parameters are not acceptable (e.g.,
            Distinguished Name in the client certificate is not permitted
            to use the server).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The TLS negotiation completed successfully, but the server decides that the session parameters are not acceptable (e.g., Distinguished Name in the client certificate is not permitted to use the server).
+"ko": |-
+  - TLS 협상이 성공적으로 완료되었지만 서버가 세션 매개변수가 허용되지 않는다고 결정합니다(예: 클라이언트 인증서의 고유 이름이 서버를 사용하도록 허용되지 않음).

@@ -1,0 +1,24 @@
+"hash": |-
+  4851b6620d39950348e2127c0b04525ccb927520d2e70b59e1a559c897588657
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RSAES-PKCS1-v1_5 does not provide "plaintext aware" encryption. In
+     particular, it is possible to generate valid ciphertexts without
+     knowing the corresponding plaintexts, with a reasonable probability
+     of success. This ability can be exploited in a chosen ciphertext
+     attack as shown in [4]. Therefore, if RSAES-PKCS1-v1_5 is to be used,
+     certain easily implemented countermeasures should be taken to thwart
+     the attack found in [4]. The addition of structure to the data to be
+     encoded, rigorous checking of PKCS #1 v1.5 conformance and other
+     redundancy in decrypted messages, and the consolidation of error
+     messages in a client-server protocol based on PKCS #1 v1.5 can all be
+     effective countermeasures and don't involve changes to a PKCS #1
+     v1.5-based protocol. These and other countermeasures are discussed in
+     [5].
+"fixed": |-
+  RSAES-PKCS1-v1_5 does not provide "plaintext aware" encryption. In particular, it is possible to generate valid ciphertexts without knowing the corresponding plaintexts, with a reasonable probability of success. This ability can be exploited in a chosen ciphertext attack as shown in [4]. Therefore, if RSAES-PKCS1-v1_5 is to be used, certain easily implemented countermeasures should be taken to thwart the attack found in [4]. The addition of structure to the data to be encoded, rigorous checking of PKCS #1 v1.5 conformance and other redundancy in decrypted messages, and the consolidation of error messages in a client-server protocol based on PKCS #1 v1.5 can all be effective countermeasures and don't involve changes to a PKCS #1 v1.5-based protocol. These and other countermeasures are discussed in [5].
+"ko": |-
+  RSAES-PKCS1-v1_5는 "일반 텍스트 인식" 암호화를 제공하지 않습니다. 특히, 해당 평문을 모르더라도 합리적인 성공 확률로 유효한 암호문을 생성하는 것이 가능합니다. 이 능력은 [4]에 표시된 대로 선택된 암호문 공격에서 악용될 수 있습니다. 따라서 RSAES-PKCS1-v1_5를 사용하려면 [4]에서 발견된 공격을 막기 위해 쉽게 구현 가능한 특정 대책을 취해야 합니다. 인코딩할 데이터에 구조를 추가하고, PKCS #1 v1.5 적합성에 대한 엄격한 검사와 해독된 메시지의 기타 중복성, 그리고 PKCS #1 v1.5를 기반으로 하는 클라이언트-서버 프로토콜의 오류 메시지 통합은 모두 가능합니다. 효과적인 대응책이 되며 PKCS #1 v1.5 기반 프로토콜에 대한 변경이 포함되지 않습니다. 이러한 대책과 기타 대책은 [5]에서 논의됩니다.

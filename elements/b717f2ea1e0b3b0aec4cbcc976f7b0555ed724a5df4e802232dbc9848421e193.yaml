@@ -1,0 +1,14 @@
+"hash": |-
+  b717f2ea1e0b3b0aec4cbcc976f7b0555ed724a5df4e802232dbc9848421e193
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (m)  If pathLengthConstraint is present in the certificate and is
+        less than max_path_length, set max_path_length to the value of
+        pathLengthConstraint.
+"fixed": |-
+  - (m)  If pathLengthConstraint is present in the certificate and is less than max_path_length, set max_path_length to the value of pathLengthConstraint.
+"ko": |-
+  - (m) pathLengthConstraint가 인증서에 존재하고 max_path_length보다 작은 경우 max_path_length를 pathLengthConstraint 값으로 설정합니다.

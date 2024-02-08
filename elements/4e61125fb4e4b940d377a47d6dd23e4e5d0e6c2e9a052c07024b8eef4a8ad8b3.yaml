@@ -1,0 +1,20 @@
+"hash": |-
+  4e61125fb4e4b940d377a47d6dd23e4e5d0e6c2e9a052c07024b8eef4a8ad8b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each extension includes an OID and an ASN.1 structure.  When an
+     extension appears in a certificate, the OID appears as the field
+     extnID and the corresponding ASN.1 encoded structure is the value of
+     the octet string extnValue.  A certificate MUST NOT include more than
+     one instance of a particular extension.  For example, a certificate
+     may contain only one authority key identifier extension (section
+     4.2.1.1).  An extension includes the boolean critical, with a default
+     value of FALSE.  The text for each extension specifies the acceptable
+     values for the critical field.
+"fixed": |-
+  Each extension includes an OID and an ASN.1 structure.  When an extension appears in a certificate, the OID appears as the field extnID and the corresponding ASN.1 encoded structure is the value of the octet string extnValue.  A certificate MUST NOT include more than one instance of a particular extension.  For example, a certificate may contain only one authority key identifier extension (section 4.2.1.1).  An extension includes the boolean critical, with a default value of FALSE.  The text for each extension specifies the acceptable values for the critical field.
+"ko": |-
+  각 확장에는 OID와 ASN.1 구조가 포함됩니다. 확장이 인증서에 나타나면 OID는 extnID 필드로 나타나고 해당 ASN.1 인코딩 구조는 옥텟 문자열 extnValue의 값입니다. 인증서에는 특정 확장의 인스턴스가 두 개 이상 포함되어서는 안 됩니다. 예를 들어, 인증서에는 하나의 기관 키 식별자 확장(섹션 4.2.1.1)만 포함될 수 있습니다. 확장에는 기본값이 FALSE인 부울 임계값이 포함됩니다. 각 확장에 대한 텍스트는 중요 필드에 허용되는 값을 지정합니다.

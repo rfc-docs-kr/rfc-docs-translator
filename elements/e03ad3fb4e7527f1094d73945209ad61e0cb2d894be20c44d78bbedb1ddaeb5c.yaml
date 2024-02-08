@@ -1,0 +1,15 @@
+"hash": |-
+  e03ad3fb4e7527f1094d73945209ad61e0cb2d894be20c44d78bbedb1ddaeb5c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The behavior in the server when a Play is received in Play state has
+     changed (Section 13.4).  In RFC 2326, the new PLAY request would be
+     queued until the current Play completed.  Any new PLAY request now
+     takes effect immediately replacing the previous request.
+"fixed": |-
+  The behavior in the server when a Play is received in Play state has changed (Section 13.4).  In RFC 2326, the new PLAY request would be queued until the current Play completed.  Any new PLAY request now takes effect immediately replacing the previous request.
+"ko": |-
+  Play 상태에서 Play가 수신될 때 서버의 동작이 변경되었습니다(13.4절). RFC 2326에서는 현재 재생이 완료될 때까지 새 PLAY 요청이 대기열에 추가됩니다. 이제 새로운 PLAY 요청은 이전 요청을 대체하여 즉시 적용됩니다.

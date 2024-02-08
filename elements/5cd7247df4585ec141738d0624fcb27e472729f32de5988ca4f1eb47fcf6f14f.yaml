@@ -1,0 +1,27 @@
+"hash": |-
+  5cd7247df4585ec141738d0624fcb27e472729f32de5988ca4f1eb47fcf6f14f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  -- Naming attributes of type X520OrganizationName:
+  --   X520OrganizationName ::=
+  --          DirectoryName (SIZE (1..ub-organization-name))
+  --
+  -- Expanded to avoid parameterized type:
+  X520OrganizationName ::= CHOICE {
+        teletexString     TeletexString
+                            (SIZE (1..ub-organization-name)),
+        printableString   PrintableString
+                            (SIZE (1..ub-organization-name)),
+        universalString   UniversalString
+                            (SIZE (1..ub-organization-name)),
+        utf8String        UTF8String
+                            (SIZE (1..ub-organization-name)),
+        bmpString         BMPString
+                            (SIZE (1..ub-organization-name))  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  a8fe85c551706cc076ca7e59c8bf84444261e4c86d2bee22d930907906ce8fb5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Session identifiers are strings of a length between 8-128 characters.
+     A session identifier MUST be generated using methods that make it
+     cryptographically random (see [RFC4086]).  It is RECOMMENDED that a
+     session identifier contain 128 bits of entropy, i.e., approximately
+     22 characters from a high-quality generator (see Section 21).
+     However, note that the session identifier does not provide any
+     security against session hijacking unless it is kept confidential by
+     the client, server, and trusted proxies.
+"fixed": |-
+  Session identifiers are strings of a length between 8-128 characters. A session identifier MUST be generated using methods that make it cryptographically random (see [RFC4086]).  It is RECOMMENDED that a session identifier contain 128 bits of entropy, i.e., approximately 22 characters from a high-quality generator (see Section 21). However, note that the session identifier does not provide any security against session hijacking unless it is kept confidential by the client, server, and trusted proxies.
+"ko": |-
+  세션 식별자는 8~128자 길이의 문자열입니다. 세션 식별자는 암호화 방식으로 무작위로 만드는 방법을 사용하여 생성되어야 합니다([RFC4086] 참조). 세션 식별자에는 128비트의 엔트로피, 즉 고품질 생성기의 약 22문자가 포함되는 것이 권장됩니다(섹션 21 참조). 그러나 세션 식별자는 클라이언트, 서버 및 신뢰할 수 있는 프록시에 의해 기밀로 유지되지 않는 한 세션 하이재킹에 대한 보안을 제공하지 않습니다.

@@ -1,0 +1,30 @@
+"hash": |-
+  4fb9e475db00c3b7cb60afa2bc13e49ec5e27e722003c7b4c96d8947af8f4aed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For live sessions that are being recorded, the client will need to
+     keep track of how the recording progresses.  Upon session
+     establishment, the client will learn the current duration of the
+     recording from the Media-Range header.  Because the recording is
+     ongoing, the content grows in direct relation to the time passed.
+     Therefore, each server's response to a PLAY request will contain the
+     current Media-Range header.  The server should also regularly send
+     (approximately every 5 minutes) the current media range in a
+     PLAY_NOTIFY request (Section 13.5.2).  If the live transmission ends,
+     the server must send a PLAY_NOTIFY request with the updated Media-
+     Properties indicating that the content stopped being a recorded live
+     session and instead became on-demand content; the request also
+     contains the final media range.  While the live delivery continues,
+     the client can request to play the current live point by using the
+     NPT timescale symbol "now", or it can request a specific point in the
+     available content by an explicit range request for that point.  If
+     the requested point is outside of the available interval, the server
+     will adjust the position to the closest available point, i.e., either
+     at the beginning or the end.
+"fixed": |-
+  For live sessions that are being recorded, the client will need to keep track of how the recording progresses.  Upon session establishment, the client will learn the current duration of the recording from the Media-Range header.  Because the recording is ongoing, the content grows in direct relation to the time passed. Therefore, each server's response to a PLAY request will contain the current Media-Range header.  The server should also regularly send (approximately every 5 minutes) the current media range in a PLAY_NOTIFY request (Section 13.5.2).  If the live transmission ends, the server must send a PLAY_NOTIFY request with the updated Media- Properties indicating that the content stopped being a recorded live session and instead became on-demand content; the request also contains the final media range.  While the live delivery continues, the client can request to play the current live point by using the NPT timescale symbol "now", or it can request a specific point in the available content by an explicit range request for that point.  If the requested point is outside of the available interval, the server will adjust the position to the closest available point, i.e., either at the beginning or the end.
+"ko": |-
+  녹화 중인 라이브 세션의 경우 클라이언트는 녹화가 어떻게 진행되는지 추적해야 합니다. 세션이 설정되면 클라이언트는 Media-Range 헤더에서 현재 녹음 기간을 학습합니다. 녹화가 진행 중이기 때문에 시간이 지날수록 콘텐츠가 직접적으로 늘어납니다. 따라서 PLAY 요청에 대한 각 서버의 응답에는 현재 Media-Range 헤더가 포함됩니다. 또한 서버는 PLAY_NOTIFY 요청에서 현재 미디어 범위를 정기적으로(약 5분마다) 전송해야 합니다(13.5.2절). 라이브 전송이 끝나면 서버는 업데이트된 미디어 속성과 함께 콘텐츠가 녹화된 라이브 세션이 아닌 주문형 콘텐츠가 되었음을 나타내는 PLAY_NOTIFY 요청을 보내야 합니다. 요청에는 최종 미디어 범위도 포함됩니다. 라이브 전송이 계속되는 동안 클라이언트는 NPT 시간 표시 기호 "지금"을 사용하여 현재 라이브 지점을 재생하도록 요청하거나 해당 지점에 대한 명시적인 범위 요청을 통해 사용 가능한 콘텐츠의 특정 지점을 요청할 수 있습니다. 요청된 지점이 사용 가능한 간격을 벗어나는 경우 서버는 사용 가능한 가장 가까운 지점, 즉 시작 또는 끝으로 위치를 조정합니다.

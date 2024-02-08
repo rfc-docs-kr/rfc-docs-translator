@@ -1,0 +1,21 @@
+"hash": |-
+  d5f5b6ea017b81df01263252ab04b110695e199d914ce37e82beff7045501e2b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     MIKEY:  This parameter is used in conjunction with transport
+           specifications that can utilize MIKEY [RFC3830] for security
+           context establishment.  So far, only the SRTP-based RTP
+           profiles SAVP and SAVPF can utilize MIKEY, and this is defined
+           in Appendix C.1.4.1.  This parameter can be included both in
+           request and response messages.  The binary MIKEY message SHALL
+           be Base64-encoded [RFC4648] before being included in the value
+           part of the parameter, where the encoding adheres to the
+           definition in Section 4 of RFC 4648 and where the padding bits
+           are set to zero.
+"fixed": |-
+  MIKEY:  This parameter is used in conjunction with transport specifications that can utilize MIKEY [RFC3830] for security context establishment.  So far, only the SRTP-based RTP profiles SAVP and SAVPF can utilize MIKEY, and this is defined in Appendix C.1.4.1.  This parameter can be included both in request and response messages.  The binary MIKEY message SHALL be Base64-encoded [RFC4648] before being included in the value part of the parameter, where the encoding adheres to the definition in Section 4 of RFC 4648 and where the padding bits are set to zero.
+"ko": |-
+  MIKEY: 이 매개변수는 보안 컨텍스트 설정을 위해 MIKEY [RFC3830]를 활용할 수 있는 전송 사양과 함께 사용됩니다. 지금까지는 SRTP 기반 RTP 프로파일인 SAVP 및 SAVPF만이 MIKEY를 활용할 수 있었으며 이는 부록 C.1.4.1에 정의되어 있습니다. 이 매개변수는 요청 메시지와 응답 메시지 모두에 포함될 수 있습니다. 바이너리 MIKEY 메시지는 매개변수의 값 부분에 포함되기 전에 Base64로 인코딩[RFC4648]되어야 합니다. 여기서 인코딩은 RFC 4648 섹션 4의 정의를 준수하고 패딩 비트는 0으로 설정됩니다.

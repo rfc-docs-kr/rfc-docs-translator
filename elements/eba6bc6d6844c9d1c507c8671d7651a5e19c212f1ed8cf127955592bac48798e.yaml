@@ -1,0 +1,19 @@
+"hash": |-
+  eba6bc6d6844c9d1c507c8671d7651a5e19c212f1ed8cf127955592bac48798e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Accept-Credentials header is not included in the RTSP request
+     from the client, then the "Proxy" method MUST be used as default.  If
+     a method other than the "Proxy" is to be used, then the Accept-
+     Credentials header MUST be included in all of the RTSP requests from
+     the client.  This is because it cannot be assumed that the proxy
+     always keeps the TLS state or the user's previous preference between
+     different RTSP messages (in particular, if the time interval between
+     the messages is long).
+"fixed": |-
+  If the Accept-Credentials header is not included in the RTSP request from the client, then the "Proxy" method MUST be used as default.  If a method other than the "Proxy" is to be used, then the Accept- Credentials header MUST be included in all of the RTSP requests from the client.  This is because it cannot be assumed that the proxy always keeps the TLS state or the user's previous preference between different RTSP messages (in particular, if the time interval between the messages is long).
+"ko": |-
+  Accept-Credentials 헤더가 클라이언트의 RTSP 요청에 포함되지 않은 경우 "프록시" 방법을 기본값으로 사용해야 합니다. "프록시" 이외의 방법을 사용하려면 클라이언트의 모든 RTSP 요청에 Accept-Credentials 헤더가 포함되어야 합니다. 이는 프록시가 서로 다른 RTSP 메시지 사이에서 항상 TLS 상태나 사용자의 이전 기본 설정을 유지한다고 가정할 수 없기 때문입니다(특히 메시지 간의 시간 간격이 긴 경우).

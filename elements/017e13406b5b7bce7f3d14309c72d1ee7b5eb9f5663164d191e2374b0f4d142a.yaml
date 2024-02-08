@@ -12,7 +12,7 @@
      the TLS/SSL layer.  This document will only refer to the TLS
      protocol; however, it is understood that the Client and Server MAY
      actually be using SSL if they are so configured.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The TLS protocol is a development of the Netscape Communication Corporation's SSL protocol and this document can be used to allow the FTP protocol to be used with either SSL or TLS.  The actual protocol used will be decided by the negotiation of the protected session by the TLS/SSL layer.  This document will only refer to the TLS protocol; however, it is understood that the Client and Server MAY actually be using SSL if they are so configured.
+"ko": |-
+  TLS 프로토콜은 Netscape Communication Corporation의 SSL 프로토콜을 개발한 것이며 이 문서를 사용하면 FTP 프로토콜을 SSL 또는 TLS와 함께 사용할 수 있습니다. 사용되는 실제 프로토콜은 TLS/SSL 계층의 보호 세션 협상에 따라 결정됩니다. 이 문서에서는 TLS 프로토콜만 참조합니다. 그러나 클라이언트와 서버가 그렇게 구성된 경우 실제로 SSL을 사용할 수도 있다는 점을 이해해야 합니다.

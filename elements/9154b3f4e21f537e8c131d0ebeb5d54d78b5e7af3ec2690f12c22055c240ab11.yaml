@@ -1,0 +1,21 @@
+"hash": |-
+  9154b3f4e21f537e8c131d0ebeb5d54d78b5e7af3ec2690f12c22055c240ab11
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Retry-After response-header field can be used with a 503 (Service
+     Unavailable) or 553 (Proxy Unavailable) response to indicate how long
+     the service is expected to be unavailable to the requesting client.
+     This field MAY also be used with any 3rr (Redirection) response to
+     indicate the minimum time the user agent is asked to wait before
+     issuing the redirected request.  A response using 413 (Request
+     Message Body Too Large) when the restriction is temporary MAY also
+     include the Retry-After header.  The value of this field can be
+     either an RTSP-date or an integer number of seconds (in decimal)
+     after the time of the response.
+"fixed": |-
+  The Retry-After response-header field can be used with a 503 (Service Unavailable) or 553 (Proxy Unavailable) response to indicate how long the service is expected to be unavailable to the requesting client. This field MAY also be used with any 3rr (Redirection) response to indicate the minimum time the user agent is asked to wait before issuing the redirected request.  A response using 413 (Request Message Body Too Large) when the restriction is temporary MAY also include the Retry-After header.  The value of this field can be either an RTSP-date or an integer number of seconds (in decimal) after the time of the response.
+"ko": |-
+  Retry-After 응답 헤더 필드는 503(서비스를 사용할 수 없음) 또는 553(프록시를 사용할 수 없음) 응답과 함께 사용하여 요청 클라이언트가 서비스를 사용할 수 없는 기간을 나타낼 수 있습니다. 이 필드는 리디렉션된 요청을 발행하기 전에 사용자 에이전트가 기다려야 하는 최소 시간을 나타내기 위해 3rr(리디렉션) 응답과 함께 사용될 수도 있습니다. 제한이 일시적인 경우 413(요청 메시지 본문이 너무 큼)을 사용하는 응답에는 Retry-After 헤더도 포함될 수 있습니다. 이 필드의 값은 RTSP 날짜이거나 응답 시간 이후의 정수(십진수)일 수 있습니다.

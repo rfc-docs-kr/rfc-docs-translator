@@ -1,0 +1,18 @@
+"hash": |-
+  a54421bd1026cc895867d7d0746d1a80b510fed924c4b27fb8e5d8d58597b22b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When client authentication is used *without* the
+     client_certificate_url extension, the client certificate chain is
+     covered by the Finished message hashes.  The purpose of including
+     hashes and checking them against the retrieved certificate chain is
+     to ensure that the same property holds when this extension is used,
+     i.e., that all of the information in the certificate chain retrieved
+     by the server is as the client intended.
+"fixed": |-
+  When client authentication is used *without* the client_certificate_url extension, the client certificate chain is covered by the Finished message hashes.  The purpose of including hashes and checking them against the retrieved certificate chain is to ensure that the same property holds when this extension is used, i.e., that all of the information in the certificate chain retrieved by the server is as the client intended.
+"ko": |-
+  client_certificate_url 확장 없이 *클라이언트 인증을 사용하는 경우 클라이언트 인증서 체인은 완료됨 메시지 해시로 보호됩니다. 해시를 포함하고 검색된 인증서 체인에 대해 이를 확인하는 목적은 이 확장이 사용될 때 동일한 속성이 유지되는지 확인하는 것입니다. 즉, 서버에서 검색한 인증서 체인의 모든 정보가 클라이언트가 의도한 것과 같습니다.

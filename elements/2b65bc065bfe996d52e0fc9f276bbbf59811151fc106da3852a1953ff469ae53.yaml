@@ -1,0 +1,22 @@
+"hash": |-
+  2b65bc065bfe996d52e0fc9f276bbbf59811151fc106da3852a1953ff469ae53
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RTSP allows a server to send requests to a client.  However, this can
+     be supported only if a client establishes a persistent connection
+     with the server.  In cases where a persistent connection does not
+     exist between a server and its client, due to the lack of a signaling
+     channel, the server may be forced to silently discard RTSP messages,
+     and it may even drop an RTSP session without notifying the client.
+     An example of such a case is when the server desires to send a
+     REDIRECT request for an RTSP session to the client but is not able to
+     do so because it cannot reach the client.  A server that attempts to
+     send a request to a client that has no connection currently to the
+     server SHALL discard the request.
+"fixed": |-
+  RTSP allows a server to send requests to a client.  However, this can be supported only if a client establishes a persistent connection with the server.  In cases where a persistent connection does not exist between a server and its client, due to the lack of a signaling channel, the server may be forced to silently discard RTSP messages, and it may even drop an RTSP session without notifying the client. An example of such a case is when the server desires to send a REDIRECT request for an RTSP session to the client but is not able to do so because it cannot reach the client.  A server that attempts to send a request to a client that has no connection currently to the server SHALL discard the request.
+"ko": |-
+  RTSP를 사용하면 서버가 클라이언트에 요청을 보낼 수 있습니다. 그러나 이는 클라이언트가 서버와 지속적인 연결을 설정하는 경우에만 지원될 수 있습니다. 서버와 클라이언트 사이에 지속적인 연결이 존재하지 않는 경우 신호 채널 부족으로 인해 서버는 강제로 RTSP 메시지를 자동으로 폐기할 수 있으며 클라이언트에 알리지 않고 RTSP 세션을 삭제할 수도 있습니다. 이러한 경우의 예로는 서버가 RTSP 세션에 대한 REDIRECT 요청을 클라이언트에 보내려고 하지만 클라이언트에 도달할 수 없기 때문에 그렇게 할 수 없는 경우입니다. 현재 서버에 연결되어 있지 않은 클라이언트에 요청을 보내려고 시도하는 서버는 요청을 폐기해야 합니다.

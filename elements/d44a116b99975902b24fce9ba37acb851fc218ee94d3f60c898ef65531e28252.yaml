@@ -1,0 +1,23 @@
+"hash": |-
+  d44a116b99975902b24fce9ba37acb851fc218ee94d3f60c898ef65531e28252
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PLAY_NOTIFY requests can be used with a message body, depending on
+     the value of the Notify-Reason header.  It is described in the
+     particular section for each Notify-Reason if a message body is used.
+     However, currently there is no Notify-Reason that allows the use of a
+     message body.  In this case, there is a need to obey some limitations
+     when adding new Notify-Reasons that intend to use a message body: the
+     server can send any type of message body, but it is not ensured that
+     the client can understand the received message body.  This is related
+     to DESCRIBE (see Section 13.2 ); but, in this particular case, the
+     client can state its acceptable message bodies by using the Accept
+     header.  In the case of PLAY_NOTIFY, the server does not know which
+     message bodies are understood by the client.
+"fixed": |-
+  PLAY_NOTIFY requests can be used with a message body, depending on the value of the Notify-Reason header.  It is described in the particular section for each Notify-Reason if a message body is used. However, currently there is no Notify-Reason that allows the use of a message body.  In this case, there is a need to obey some limitations when adding new Notify-Reasons that intend to use a message body: the server can send any type of message body, but it is not ensured that the client can understand the received message body.  This is related to DESCRIBE (see Section 13.2 ); but, in this particular case, the client can state its acceptable message bodies by using the Accept header.  In the case of PLAY_NOTIFY, the server does not know which message bodies are understood by the client.
+"ko": |-
+  PLAY_NOTIFY 요청은 Notify-Reason 헤더 값에 따라 메시지 본문과 함께 사용될 수 있습니다. 메시지 본문이 사용되는 경우 각 Notify-Reason에 대한 특정 섹션에 설명되어 있습니다. 그러나 현재 메시지 본문 사용을 허용하는 Notify-Reason은 없습니다. 이 경우 메시지 본문을 사용하려는 새로운 Notify-Reasons를 추가할 때 몇 가지 제한 사항을 준수해야 합니다. 서버는 모든 유형의 메시지 본문을 보낼 수 있지만 클라이언트가 수신된 메시지 본문을 이해할 수 있는지는 보장되지 않습니다. . 이는 DESCRIBE(섹션 13.2 참조)와 관련이 있습니다. 그러나 이 특별한 경우 클라이언트는 Accept 헤더를 사용하여 허용 가능한 메시지 본문을 명시할 수 있습니다. PLAY_NOTIFY의 경우 서버는 클라이언트가 어떤 메시지 본문을 이해하는지 알 수 없습니다.

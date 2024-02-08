@@ -1,0 +1,19 @@
+"hash": |-
+  b5e20c4086c89961116e1c5a1772186be0b2831e5af81ddfe28b4b8660e46178
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (a)  reasons_mask:  This variable contains the set of revocation
+        reasons supported by the CRLs and delta CRLs processed so far.
+        The legal members of the set are the possible revocation reason
+        values: unspecified, keyCompromise, caCompromise,
+        affiliationChanged, superseded, cessationOfOperation,
+        certificateHold, privilegeWithdrawn, and aACompromise.  The
+        special value all-reasons is used to denote the set of all legal
+        members.  This variable is initialized to the empty set.
+"fixed": |-
+  - (a)  reasons_mask:  This variable contains the set of revocation reasons supported by the CRLs and delta CRLs processed so far. The legal members of the set are the possible revocation reason values: unspecified, keyCompromise, caCompromise, affiliationChanged, superseded, cessationOfOperation, certificateHold, privilegeWithdrawn, and aACompromise.  The special value all-reasons is used to denote the set of all legal members.  This variable is initialized to the empty set.
+"ko": |-
+  - (a) 이유_마스크: 이 변수에는 지금까지 처리된 CRL 및 델타 CRL에서 지원하는 취소 이유 집합이 포함됩니다. 집합의 합법적인 멤버는 가능한 취소 이유 값(unspecified, keyCompromise, caCompromise, affiliationChanged, superseded, cessationOfOperation, CertificateHold,privilegeWithdraft 및 aACompromise)입니다. 특수 값 all-reasons는 모든 법적 구성원 집합을 나타내는 데 사용됩니다. 이 변수는 빈 세트로 초기화됩니다.

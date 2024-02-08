@@ -1,0 +1,20 @@
+"hash": |-
+  821d7e8209bc5ca47e09c00b16b5e4f33113f52b28052d9c8775efe4dc903445
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Reset Message
+        A Reset message indicates that a specific message (Confirmable or
+        Non-confirmable) was received, but some context is missing to
+        properly process it.  This condition is usually caused when the
+        receiving node has rebooted and has forgotten some state that
+        would be required to interpret the message.  Provoking a Reset
+        message (e.g., by sending an Empty Confirmable message) is also
+        useful as an inexpensive check of the liveness of an endpoint
+        ("CoAP ping").
+"fixed": |-
+  Reset Message  -  A Reset message indicates that a specific message (Confirmable or Non-confirmable) was received, but some context is missing to properly process it.  This condition is usually caused when the receiving node has rebooted and has forgotten some state that would be required to interpret the message.  Provoking a Reset message (e.g., by sending an Empty Confirmable message) is also useful as an inexpensive check of the liveness of an endpoint ("CoAP ping").
+"ko": |-
+  메시지 재설정 - 재설정 메시지는 특정 메시지(확인 가능 또는 확인 불가능)가 수신되었지만 이를 적절하게 처리하기 위한 일부 컨텍스트가 누락되었음을 나타냅니다. 이 조건은 일반적으로 수신 노드가 재부팅되어 메시지를 해석하는 데 필요한 일부 상태를 잊어버린 경우 발생합니다. 재설정 메시지를 유발하는 것(예: 빈 확인 가능 메시지 전송)은 엔드포인트의 활성 상태를 저렴하게 확인하는 방법("CoAP ping")으로도 유용합니다.

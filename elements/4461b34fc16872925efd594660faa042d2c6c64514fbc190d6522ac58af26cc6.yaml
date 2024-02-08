@@ -10,7 +10,7 @@
      authentication (e.g., TLS client auth or FTP USER/PASS).  This can
      prevent anonymous clients from repeatedly requesting AUTH TLS
      followed by CCC to tie up resources on the server.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Server implementations may wish to refuse to process the CCC command on a session that has not passed through some form of client authentication (e.g., TLS client auth or FTP USER/PASS).  This can prevent anonymous clients from repeatedly requesting AUTH TLS followed by CCC to tie up resources on the server.
+"ko": |-
+  서버 구현에서는 일부 형태의 클라이언트 인증(예: TLS 클라이언트 인증 또는 FTP USER/PASS)을 통과하지 않은 세션에서 CCC 명령 처리를 거부할 수 있습니다. 이렇게 하면 익명 클라이언트가 서버의 리소스를 묶기 위해 AUTH TLS와 CCC를 반복적으로 요청하는 것을 방지할 수 있습니다.

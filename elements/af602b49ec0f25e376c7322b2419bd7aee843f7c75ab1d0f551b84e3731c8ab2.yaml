@@ -1,0 +1,18 @@
+"hash": |-
+  af602b49ec0f25e376c7322b2419bd7aee843f7c75ab1d0f551b84e3731c8ab2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the scope of the CRL only includes certificates issued by the CRL
+     issuer, then the indirectCRL boolean MUST be set to FALSE.
+     Otherwise, if the scope of the CRL includes certificates issued by
+     one or more authorities other than the CRL issuer, the indirectCRL
+     boolean MUST be set to TRUE.  The authority responsible for each
+     entry is indicated by the certificate issuer CRL entry extension
+     (Section 5.3.3).
+"fixed": |-
+  If the scope of the CRL only includes certificates issued by the CRL issuer, then the indirectCRL boolean MUST be set to FALSE. Otherwise, if the scope of the CRL includes certificates issued by one or more authorities other than the CRL issuer, the indirectCRL boolean MUST be set to TRUE.  The authority responsible for each entry is indicated by the certificate issuer CRL entry extension (Section 5.3.3).
+"ko": |-
+  CRL 범위에 CRL 발급자가 발급한 인증서만 포함되는 경우 indirectCRL 부울을 FALSE로 설정해야 합니다. 그렇지 않고 CRL 범위에 CRL 발급자 이외의 하나 이상의 기관에서 발급한 인증서가 포함되어 있는 경우 indirectCRL 부울을 TRUE로 설정해야 합니다. 각 항목을 담당하는 기관은 인증서 발급자 CRL 항목 확장(섹션 5.3.3)으로 표시됩니다.

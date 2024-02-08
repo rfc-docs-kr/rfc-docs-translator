@@ -14,7 +14,7 @@
            possible error codes, the software must not break when a fifth
            code shows up.  An undefined code might be logged (see below),
            but it must not cause a failure.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - Adaptability to change must be designed into all levels of Internet host software.  As a simple example, consider a protocol specification that contains an enumeration of values for a particular header field -- e.g., a type field, a port number, or an error code; this enumeration must be assumed to be incomplete.  Thus, if a protocol specification defines four possible error codes, the software must not break when a fifth code shows up.  An undefined code might be logged (see below), but it must not cause a failure.
+"ko": |-
+  - 변화에 대한 적응성은 모든 수준의 인터넷 호스트 소프트웨어에 설계되어야 합니다. 간단한 예로, 특정 헤더 필드(예: 유형 필드, 포트 번호 또는 오류 코드)에 대한 값의 열거를 포함하는 프로토콜 사양을 고려해보세요. 이 열거는 불완전한 것으로 가정해야 합니다. 따라서 프로토콜 사양이 4개의 가능한 오류 코드를 정의하는 경우 다섯 번째 코드가 나타날 때 소프트웨어가 중단되어서는 안 됩니다. 정의되지 않은 코드가 기록될 수 있지만(아래 참조) 오류가 발생해서는 안 됩니다.

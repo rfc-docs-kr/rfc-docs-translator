@@ -1,0 +1,51 @@
+"hash": |-
+  2d49f17c92742fceb9726f3d958a1a7a1523ba40a020afa99a59a5fcbcb4bfe0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-------------+------------------------+---------+------------------+
+     | Action      | Requisite              | New     | Response         |
+     |             |                        | State   |                  |
+     +-------------+------------------------+---------+------------------+
+     | SETUP       | New URI                | Ready   | NRM +=1          |
+     |             |                        |         |                  |
+     | SETUP       | URI Setup prior        | Ready   | Change transport |
+     |             |                        |         | param            |
+     |             |                        |         |                  |
+     | TEARDOWN    | Prs URI,               | Init    | No session hdr,  |
+     |             |                        |         | NRM = 0          |
+     |             |                        |         |                  |
+     | TEARDOWN    | md URI,NRM=1           | Init    | No Session hdr,  |
+     |             |                        |         | NRM = 0          |
+     |             |                        |         |                  |
+     | TEARDOWN    | md URI,NRM>1           | Ready   | Session hdr, NRM |
+     |             |                        |         | -= 1             |
+     |             |                        |         |                  |
+     | PLAY        | Prs URI, No range      | Play    | Play from RP     |
+     |             |                        |         |                  |
+     | PLAY        | Prs URI, Range         | Play    | According to     |
+     |             |                        |         | range            |
+     |             |                        |         |                  |
+     | PLAY        | md URI, NRM=1, Range   | Play    | According to     |
+     |             |                        |         | range            |
+     |             |                        |         |                  |
+     | PLAY        | md URI, NRM=1          | Play    | Play from RP     |
+     |             |                        |         |                  |
+     | PAUSE       | Prs URI                | Ready   | Return PP        |
+     |             |                        |         |                  |
+     | SC:REDIRECT | Terminate-Reason       | Ready   | Set RedP         |
+     |             |                        |         |                  |
+     | SC:REDIRECT | No Terminate-Reason    | Init    | Session is       |
+     |             | time parameter         |         | removed          |
+     |             |                        |         |                  |
+     | Timeout     |                        | Init    |                  |
+     |             |                        |         |                  |
+     | RedP        |                        | Init    | TEARDOWN of      |
+     | reached     |                        |         | session          |
+     +-------------+------------------------+---------+------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

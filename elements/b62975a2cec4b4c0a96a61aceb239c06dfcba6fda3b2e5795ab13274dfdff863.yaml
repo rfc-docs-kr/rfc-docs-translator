@@ -1,0 +1,19 @@
+"hash": |-
+  b62975a2cec4b4c0a96a61aceb239c06dfcba6fda3b2e5795ab13274dfdff863
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           (1)  If permittedSubtrees is present in the certificate, set
+           the permitted_subtrees state variable to the intersection of
+           its previous value and the value indicated in the extension
+           field.  If permittedSubtrees does not include a particular name
+           type, the permitted_subtrees state variable is unchanged for
+           that name type.  For example, the intersection of nist.gov and
+           csrc.nist.gov is csrc.nist.gov.  And, the intersection of
+           nist.gov and rsasecurity.com is the empty set.
+"fixed": |-
+  - (1)  If permittedSubtrees is present in the certificate, set the permitted_subtrees state variable to the intersection of its previous value and the value indicated in the extension field.  If permittedSubtrees does not include a particular name type, the permitted_subtrees state variable is unchanged for that name type.  For example, the intersection of nist.gov and csrc.nist.gov is csrc.nist.gov.  And, the intersection of nist.gov and rsasecurity.com is the empty set.
+"ko": |-
+  - (1) allowedSubtrees가 인증서에 있는 경우 allowed_subtrees 상태 변수를 이전 값과 확장 필드에 표시된 값의 교차점으로 설정합니다. allowedSubtrees에 특정 이름 유형이 포함되지 않은 경우 allowed_subtrees 상태 변수는 해당 이름 유형에 대해 변경되지 않습니다. 예를 들어, nist.gov와 csrc.nist.gov의 교차점은 csrc.nist.gov입니다. 그리고 nist.gov와 rsasecurity.com의 교차점은 빈 집합입니다.

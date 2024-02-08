@@ -12,7 +12,7 @@
      server implementation issue to decide which credentials to accept and
      what consistency checks to make between the client cert used and the
      parameter on the USER command.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The FTP protocol insists that a USER command be used to identify the entity attempting to use the ftp server.  Although the TLS negotiation may be providing authentication information, the USER command MUST still be issued by the client.  However, it will be a server implementation issue to decide which credentials to accept and what consistency checks to make between the client cert used and the parameter on the USER command.
+"ko": |-
+  FTP 프로토콜은 FTP 서버를 사용하려는 엔터티를 식별하기 위해 USER 명령을 사용해야 한다고 주장합니다. TLS 협상이 인증 정보를 제공할 수 있더라도 USER 명령은 여전히 ​​클라이언트에 의해 실행되어야 합니다. 그러나 허용할 자격 증명과 사용된 클라이언트 인증서와 USER 명령의 매개 변수 간에 어떤 일관성 검사를 수행할지 결정하는 것은 서버 구현 문제입니다.

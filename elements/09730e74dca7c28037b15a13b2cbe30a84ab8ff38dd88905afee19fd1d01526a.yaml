@@ -1,0 +1,22 @@
+"hash": |-
+  09730e74dca7c28037b15a13b2cbe30a84ab8ff38dd88905afee19fd1d01526a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipForwardMask OBJECT-TYPE
+         SYNTAX     IpAddress
+         MAX-ACCESS read-create
+         STATUS     obsolete
+         DESCRIPTION
+                "Indicate the mask to be logical-ANDed with the
+                 destination address before being compared to the value
+                 in the ipForwardDest field.  For those systems that do
+                 not support arbitrary subnet masks, an agent constructs
+                 the value of the ipForwardMask by reference to the IP
+                 Address Class.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

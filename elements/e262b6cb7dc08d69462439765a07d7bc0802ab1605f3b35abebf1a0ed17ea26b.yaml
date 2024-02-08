@@ -1,0 +1,16 @@
+"hash": |-
+  e262b6cb7dc08d69462439765a07d7bc0802ab1605f3b35abebf1a0ed17ea26b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Servers that receive an extended client hello containing a
+     "client_certificate_url" extension MAY indicate that they are willing
+     to accept certificate URLs by including an extension of type
+     "client_certificate_url" in the (extended) server hello.  The
+     "extension_data" field of this extension SHALL be empty.
+"fixed": |-
+  Servers that receive an extended client hello containing a "client_certificate_url" extension MAY indicate that they are willing to accept certificate URLs by including an extension of type "client_certificate_url" in the (extended) server hello.  The "extension_data" field of this extension SHALL be empty.
+"ko": |-
+  "client_certificate_url" 확장이 포함된 확장 클라이언트 hello를 수신하는 서버는 (확장) 서버 hello에 "client_certificate_url" 유형의 확장을 포함하여 인증서 URL을 수락할 의사가 있음을 나타낼 수 있습니다. 이 확장의 "extension_data" 필드는 비어 있어야 합니다.

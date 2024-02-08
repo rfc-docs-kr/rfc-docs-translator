@@ -1,0 +1,19 @@
+"hash": |-
+  39fc00f73ab0811f70f5343111c31e799e8a051fc225ce1575c729673e1da76a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipCidrRouteNextHop OBJECT-TYPE
+         SYNTAX     IpAddress
+         MAX-ACCESS read-only
+         STATUS     deprecated
+         DESCRIPTION
+                "On remote routes, the address of the next system en
+                 route; Otherwise, 0.0.0.0."
+         ::= { ipCidrRouteEntry 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

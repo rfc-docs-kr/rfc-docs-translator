@@ -1,0 +1,21 @@
+"hash": |-
+  c085cfe2b9cd1964c2db4d96ee42be9cf1035a41d7be3080ade211d152e9c89a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     smpte-range        =  smpte-type [EQUAL smpte-range-spec]
+                           ; See section 4.4
+     smpte-range-spec   =  ( smpte-time "-" [ smpte-time ] )
+                        /  ( "-" smpte-time )
+     smpte-type         =  "smpte" / "smpte-30-drop"
+                        /  "smpte-25" / smpte-type-extension
+                        ; other timecodes may be added
+     smpte-type-extension  =  "smpte" token
+     smpte-time         =  1*2DIGIT ":" 1*2DIGIT ":" 1*2DIGIT
+                           [ ":" 1*2DIGIT [ "." 1*2DIGIT ] ]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

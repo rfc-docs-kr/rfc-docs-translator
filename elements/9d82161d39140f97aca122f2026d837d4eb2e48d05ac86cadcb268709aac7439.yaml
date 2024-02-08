@@ -1,0 +1,23 @@
+"hash": |-
+  9d82161d39140f97aca122f2026d837d4eb2e48d05ac86cadcb268709aac7439
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon receiving a request with the Pipelined-Requests, the responding
+     agent MUST look up if there exists a binding between this Pipelined-
+     Requests identifier for the current persistent connection and an RTSP
+     session ID.  If the binding exists, then the received request is
+     processed the same way as if it contained the Session header with the
+     found session ID.  If there does not exist a mapping and no Session
+     header is included in the request, the responding agent MUST create a
+     binding upon the successful completion of a session creating request,
+     i.e., SETUP.  A binding MUST NOT be created, if the request failed to
+     create an RTSP session.  In case the request contains both a Session
+     header and the Pipelined-Requests header, the Pipelined-Requests
+     header MUST be ignored.
+"fixed": |-
+  Upon receiving a request with the Pipelined-Requests, the responding agent MUST look up if there exists a binding between this Pipelined- Requests identifier for the current persistent connection and an RTSP session ID.  If the binding exists, then the received request is processed the same way as if it contained the Session header with the found session ID.  If there does not exist a mapping and no Session header is included in the request, the responding agent MUST create a binding upon the successful completion of a session creating request, i.e., SETUP.  A binding MUST NOT be created, if the request failed to create an RTSP session.  In case the request contains both a Session header and the Pipelined-Requests header, the Pipelined-Requests header MUST be ignored.
+"ko": |-
+  Pipelined-Requests가 포함된 요청을 수신하면 응답 에이전트는 현재 영구 연결에 대한 Pipelined-Requests 식별자와 RTSP 세션 ID 사이에 바인딩이 존재하는지 찾아야 합니다. 바인딩이 존재하는 경우 수신된 요청은 발견된 세션 ID가 있는 세션 헤더를 포함하는 것과 동일한 방식으로 처리됩니다. 매핑이 없고 요청에 세션 헤더가 포함되어 있지 않은 경우 응답 에이전트는 세션 생성 요청(예: SETUP)이 성공적으로 완료되면 바인딩을 생성해야 합니다. 요청이 RTSP 세션 생성에 실패한 경우 바인딩을 생성해서는 안 됩니다. 요청에 Session 헤더와 Pipelined-Requests 헤더가 모두 포함된 경우 Pipelined-Requests 헤더를 무시해야 합니다.

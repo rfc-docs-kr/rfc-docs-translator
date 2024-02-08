@@ -1,0 +1,21 @@
+"hash": |-
+  66da0e9dc6baae287dff513f355091b490c13b8d3055b815d131e5a09a8dfd17
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that some existing KDF specifications, such as NIST Special
+     Publication 800-56A [800-56A], NIST Special Publication 800-108
+     [800-108] and IEEE Standard 1363a-2004 [1363a], either only consider
+     the second stage (expanding a pseudorandom key), or do not explicitly
+     differentiate between the "extract" and "expand" stages, often
+     resulting in design shortcomings.  The goal of this specification is
+     to accommodate a wide range of KDF requirements while minimizing the
+     assumptions about the underlying hash function.  The "extract-then-
+     expand" paradigm supports well this goal (see [HKDF-paper] for more
+     information about the design rationale).
+"fixed": |-
+  Note that some existing KDF specifications, such as NIST Special Publication 800-56A [800-56A], NIST Special Publication 800-108 [800-108] and IEEE Standard 1363a-2004 [1363a], either only consider the second stage (expanding a pseudorandom key), or do not explicitly differentiate between the "extract" and "expand" stages, often resulting in design shortcomings.  The goal of this specification is to accommodate a wide range of KDF requirements while minimizing the assumptions about the underlying hash function.  The "extract-then- expand" paradigm supports well this goal (see [HKDF-paper] for more information about the design rationale).
+"ko": |-
+  NIST Special Publication 800-56A [800-56A], NIST Special Publication 800-108 [800-108] 및 IEEE Standard 1363a-2004 [1363a]와 같은 일부 기존 KDF 사양은 두 번째 단계(확장)만 고려합니다. 의사 난수 키) 또는 "추출" 단계와 "확장" 단계를 명시적으로 구분하지 않아 종종 설계상의 단점이 발생합니다. 이 사양의 목표는 기본 해시 함수에 대한 가정을 최소화하면서 광범위한 KDF 요구 사항을 수용하는 것입니다. "추출 후 확장" 패러다임은 이 목표를 잘 뒷받침합니다(설계 근거에 대한 자세한 내용은 [HKDF-paper] 참조).

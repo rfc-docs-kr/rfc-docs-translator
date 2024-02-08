@@ -1,0 +1,32 @@
+"hash": |-
+  b328342c6c8a092c9f8897118d63a09dc7a3261beb8bf51fb836eb2ff5cbdb06
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                          [ encoding *(COMMA encoding) ]
+     encoding          =  codings [SEMI accept-params]
+     codings           =  content-coding / "*"
+     content-coding    =  "identity" / token
+     Accept-Language   =  "Accept-Language" HCOLON
+                          language *(COMMA language)
+     language          =  language-range [SEMI accept-params]
+     language-range    =  language-tag / "*"
+     language-tag      =  primary-tag *( "-" subtag )
+     primary-tag       =  1*8ALPHA
+     subtag            =  1*8ALPHA
+     Accept-Ranges     =  "Accept-Ranges" HCOLON acceptable-ranges
+     acceptable-ranges =  (range-unit *(COMMA range-unit))
+     range-unit        =  "npt" / "smpte" / "smpte-30-drop" / "smpte-25"
+                          / "clock" / extension-format
+     extension-format  =  token
+     Allow             =  "Allow" HCOLON Method *(COMMA Method)
+     Authentication-Info = "Authentication-Info" HCOLON auth-param-list
+     auth-param-list   =  <As the Authentication-Info element in RFC 7615>
+     Authorization     =  "Authorization" HCOLON credentials
+     credentials       =  <As defined by RFC 7235>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

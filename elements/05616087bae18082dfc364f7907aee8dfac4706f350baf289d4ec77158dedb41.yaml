@@ -1,0 +1,16 @@
+"hash": |-
+  05616087bae18082dfc364f7907aee8dfac4706f350baf289d4ec77158dedb41
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  RTP and RTCP packets SHOULD be sent from the corresponding
+        receiver port, i.e., RTCP packets from the server should be sent
+        from the "src_addr" parameters second address port pair, unless
+        RTP and RTCP multiplexing has been negotiated in which case the
+        first address port pair is used.
+"fixed": |-
+  -  RTP and RTCP packets SHOULD be sent from the corresponding receiver port, i.e., RTCP packets from the server should be sent from the "src_addr" parameters second address port pair, unless RTP and RTCP multiplexing has been negotiated in which case the first address port pair is used.
+"ko": |-
+  - RTP 및 RTCP 패킷은 해당 수신기 포트에서 전송되어야 합니다. 즉, 서버의 RTCP 패킷은 "src_addr" 매개변수 두 번째 주소 포트 쌍에서 전송되어야 합니다. 단, RTP 및 RTCP 다중화가 협상된 경우 첫 번째 주소 포트는 제외됩니다. 쌍이 사용됩니다.

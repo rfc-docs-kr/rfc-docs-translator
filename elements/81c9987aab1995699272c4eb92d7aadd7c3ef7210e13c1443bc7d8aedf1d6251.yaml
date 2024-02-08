@@ -1,0 +1,22 @@
+"hash": |-
+  81c9987aab1995699272c4eb92d7aadd7c3ef7210e13c1443bc7d8aedf1d6251
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As a special case to simplify many proxy clients, the absolute-URI
+     can be constructed from the Uri-* options.  When a Proxy-Scheme
+     Option is present, the absolute-URI is constructed as follows: a CoAP
+     URI is constructed from the Uri-* options as defined in Section 6.5.
+     In the resulting URI, the initial scheme up to, but not including,
+     the following colon is then replaced by the content of the Proxy-
+     Scheme Option.  Note that this case is only applicable if the
+     components of the desired URI other than the scheme component
+     actually can be expressed using Uri-* options; for example, to
+     represent a URI with a userinfo component in the authority, only
+     Proxy-Uri can be used.
+"fixed": |-
+  As a special case to simplify many proxy clients, the absolute-URI can be constructed from the Uri-* options.  When a Proxy-Scheme Option is present, the absolute-URI is constructed as follows: a CoAP URI is constructed from the Uri-* options as defined in Section 6.5. In the resulting URI, the initial scheme up to, but not including, the following colon is then replaced by the content of the Proxy- Scheme Option.  Note that this case is only applicable if the components of the desired URI other than the scheme component actually can be expressed using Uri-* options; for example, to represent a URI with a userinfo component in the authority, only Proxy-Uri can be used.
+"ko": |-
+  많은 프록시 클라이언트를 단순화하기 위한 특별한 경우로 Uri-* 옵션에서 절대 URI를 구성할 수 있습니다. Proxy-Scheme 옵션이 있는 경우 절대 URI는 다음과 같이 구성됩니다. CoAP URI는 섹션 6.5에 정의된 Uri-* 옵션에서 구성됩니다. 결과 URI에서 다음 콜론까지(포함하지 않음)의 초기 체계는 프록시 체계 옵션의 콘텐츠로 대체됩니다. 이 경우는 스키마 구성 요소가 아닌 원하는 URI의 구성 요소가 실제로 Uri-* 옵션을 사용하여 표현될 수 있는 경우에만 적용 가능합니다. 예를 들어 기관에 userinfo 구성 요소가 포함된 URI를 나타내려면 Proxy-Uri만 사용할 수 있습니다.

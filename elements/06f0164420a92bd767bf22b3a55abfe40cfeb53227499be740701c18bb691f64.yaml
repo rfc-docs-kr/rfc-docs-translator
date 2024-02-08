@@ -1,0 +1,30 @@
+"hash": |-
+  06f0164420a92bd767bf22b3a55abfe40cfeb53227499be740701c18bb691f64
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     CSeq           =  "CSeq" HCOLON cseq-nr
+     cseq-nr        =  1*9DIGIT
+     Date           =  "Date" HCOLON RTSP-date
+     RTSP-date      =  date-time ;
+     date-time      =  <As defined in RFC 5322>
+     Expires        =  "Expires" HCOLON RTSP-date
+     From           =  "From" HCOLON from-spec
+     from-spec      =  ( name-addr / addr-spec ) *( SEMI from-param )
+     name-addr      =  [ display-name ] LAQUOT addr-spec RAQUOT
+     addr-spec      =  RTSP-REQ-URI / absolute-URI
+     absolute-URI   =  < As defined in RFC 3986>
+     display-name   =  *(token LWS) / quoted-string
+     from-param     =  tag-param / generic-param
+     tag-param      =  "tag" EQUAL token
+     If-Match       =  "If-Match" HCOLON ("*" / message-tag-list)
+     message-tag-list =  message-tag *(COMMA message-tag)
+     message-tag      =  [ weak ] opaque-tag
+     weak             =  "W/"
+     opaque-tag       =  quoted-string
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+- 타원 곡선 공개 키(OCTET STRING인 ECPoint 유형의 값)는 다음과 같이 subjectPublicKey(BIT STRING 유형의 값)에 매핑됩니다. OCTET STRING 값의 최상위 비트는 BIT STRING 값 등 OCTET STRING의 최하위 비트는 BIT STRING의 최하위 비트가 됩니다. 변환 루틴은 [SEC1]의 섹션 2.3.1 및 2.3.2에 나와 있습니다.

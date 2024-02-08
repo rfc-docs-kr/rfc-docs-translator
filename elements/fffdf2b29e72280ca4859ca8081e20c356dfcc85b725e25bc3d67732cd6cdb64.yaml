@@ -1,0 +1,17 @@
+"hash": |-
+  fffdf2b29e72280ca4859ca8081e20c356dfcc85b725e25bc3d67732cd6cdb64
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is not necessary to use OPTIONS to discover support of a method,
+     as the client could simply try the method.  If the receiver of the
+     request does not support the method, it will respond with an error
+     code indicating the method is either not implemented (501) or does
+     not apply for the resource (405).  The choice between the two
+     discovery methods depends on the requirements of the service.
+"fixed": |-
+  It is not necessary to use OPTIONS to discover support of a method, as the client could simply try the method.  If the receiver of the request does not support the method, it will respond with an error code indicating the method is either not implemented (501) or does not apply for the resource (405).  The choice between the two discovery methods depends on the requirements of the service.
+"ko": |-
+  클라이언트가 단순히 메소드를 시도할 수 있으므로 메소드 지원을 검색하기 위해 OPTIONS를 사용할 필요는 없습니다. 요청 수신자가 메서드를 지원하지 않는 경우 메서드가 구현되지 않았거나(501) 리소스에 적용되지 않음(405)을 나타내는 오류 코드로 응답합니다. 두 검색 방법 중 선택은 서비스 요구 사항에 따라 다릅니다.

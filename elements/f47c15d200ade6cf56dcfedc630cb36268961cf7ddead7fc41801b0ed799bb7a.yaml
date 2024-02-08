@@ -1,0 +1,23 @@
+"hash": |-
+  f47c15d200ade6cf56dcfedc630cb36268961cf7ddead7fc41801b0ed799bb7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The table position field is included to help prevent costly table
+     searches at interrupt level.  Hosts sending INs and OUTs, put in the
+     table position field the rendezvous table position of the SEND or
+     RECEIVE associated with the IN or OUT.  At an intermediate Host
+     rendezvous, the table position fields in the matching IN and OUT are
+     swapped so that when the messages arrive at the opposite end, the
+     matching SEND and RECEIVE can be found quickly.  The MSP must do the
+     swap at the rendezvous, but of course the MSPs need not fill in the
+     table position field when first transmitting an IN or OUT in which
+     case the information arriving in an IN or OUT will be meaningless.
+     The general algorithm, then, is to check the table position as
+     specified in this field and if that fails, search the whole table.
+"fixed": |-
+  The table position field is included to help prevent costly table searches at interrupt level.  Hosts sending INs and OUTs, put in the table position field the rendezvous table position of the SEND or RECEIVE associated with the IN or OUT.  At an intermediate Host rendezvous, the table position fields in the matching IN and OUT are swapped so that when the messages arrive at the opposite end, the matching SEND and RECEIVE can be found quickly.  The MSP must do the swap at the rendezvous, but of course the MSPs need not fill in the table position field when first transmitting an IN or OUT in which case the information arriving in an IN or OUT will be meaningless. The general algorithm, then, is to check the table position as specified in this field and if that fails, search the whole table.
+"ko": |-
+  인터럽트 수준에서 비용이 많이 드는 테이블 검색을 방지하기 위해 테이블 ​​위치 필드가 포함되었습니다. IN 및 OUT을 보내는 호스트는 IN 또는 OUT과 관련된 SEND 또는 RECEIVE의 랑데부 테이블 위치를 테이블 위치 필드에 넣습니다. 중간 호스트 랑데부에서는 일치하는 IN 및 OUT의 테이블 위치 필드가 교환되므로 메시지가 반대편 끝에 도착할 때 일치하는 SEND 및 RECEIVE를 빠르게 찾을 수 있습니다. MSP는 랑데뷰에서 교환을 수행해야 하지만, 물론 MSP는 IN 또는 OUT을 처음 전송할 때 테이블 위치 필드를 채울 필요가 없습니다. 이 경우 IN 또는 OUT에 도착하는 정보는 의미가 없습니다. 그러면 일반적인 알고리즘은 이 필드에 지정된 테이블 위치를 확인하고 실패할 경우 전체 테이블을 검색하는 것입니다.

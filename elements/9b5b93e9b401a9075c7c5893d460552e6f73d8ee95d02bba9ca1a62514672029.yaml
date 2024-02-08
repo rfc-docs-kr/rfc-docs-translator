@@ -11,7 +11,7 @@
      commands, defined in [RFC-959], cause data connections to be opened
      and thus may be rejected before any 1xx message due to an incorrect
      PROT setting.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The server SHOULD only check the status of the data protection level (for options 3 and 4 above) on the actual command that will initiate the data transfer (and not on the PORT or PASV).  The following commands, defined in [RFC-959], cause data connections to be opened and thus may be rejected before any 1xx message due to an incorrect PROT setting.
+"ko": |-
+  서버는 데이터 전송을 시작하는 실제 명령(PORT 또는 PASV가 아닌)에서 데이터 보호 수준(위의 옵션 3 및 4에 대한) 상태만 확인해야 합니다. [RFC-959]에 정의된 다음 명령은 데이터 연결을 열어 잘못된 PROT 설정으로 인해 1xx 메시지 이전에 거부될 수 있습니다.

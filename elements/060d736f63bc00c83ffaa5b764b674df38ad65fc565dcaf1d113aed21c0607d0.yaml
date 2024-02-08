@@ -1,0 +1,20 @@
+"hash": |-
+  060d736f63bc00c83ffaa5b764b674df38ad65fc565dcaf1d113aed21c0607d0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------------+----------------+-----------+-------------------+
+     | Action           | Requisite      | New State | Response          |
+     +------------------+----------------+-----------+-------------------+
+     | SETUP            |                | Ready     | NRM=1, RP=0.0     |
+     |                  |                |           |                   |
+     | SETUP            | Needs Redirect | Init      | 3rr Redirect      |
+     |                  |                |           |                   |
+     | S -> C: REDIRECT | No Session hdr | Init      | Terminate all SES |
+     +------------------+----------------+-----------+-------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

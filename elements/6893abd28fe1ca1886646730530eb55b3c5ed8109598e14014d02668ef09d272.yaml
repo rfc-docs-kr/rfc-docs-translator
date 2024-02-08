@@ -14,7 +14,7 @@
            the transport layer, respectively.  A companion RFC [INTRO:1]
            covers application level software.  This layerist organization
            was chosen for simplicity and clarity.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - Protocol layering, which is generally used as an organizing principle in implementing network software, has also been used to organize this document.  In describing the rules, we assume that an implementation does strictly mirror the layering of the protocols.  Thus, the following three major sections specify the requirements for the link layer, the internet layer, and the transport layer, respectively.  A companion RFC [INTRO:1] covers application level software.  This layerist organization was chosen for simplicity and clarity.
+"ko": |-
+  - 본 문서는 네트워크 소프트웨어 구현 시 구성 원칙으로 일반적으로 사용되는 프로토콜 레이어링(Protocol Layering)을 활용하여 구성하였습니다. 규칙을 설명할 때 우리는 구현이 프로토콜의 계층화를 엄격하게 반영한다고 가정합니다. 따라서 다음 세 가지 주요 섹션에서는 각각 링크 계층, 인터넷 계층 및 전송 계층에 대한 요구 사항을 지정합니다. 동반 RFC [INTRO:1]에서는 애플리케이션 수준 소프트웨어를 다루고 있습니다. 이 레이어주의 조직은 단순성과 명확성을 위해 선택되었습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  60865bdc7284aca15e8a387978c58a0f7473a740c6ae74eacf283a7860328dd9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     RSAES-OAEP-params ::=  SEQUENCE {
+       hashFunc [0] AlgorithmIdentifier {{oaepDigestAlgorithms}}
+         DEFAULT sha1Identifier,
+       maskGenFunc [1] AlgorithmIdentifier {{pkcs1MGFAlgorithms}}
+         DEFAULT mgf1SHA1Identifier,
+       pSourceFunc [2] AlgorithmIdentifier
+         {{pkcs1pSourceAlgorithms}}
+         DEFAULT pSpecifiedEmptyIdentifier }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

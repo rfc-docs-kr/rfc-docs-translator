@@ -1,0 +1,20 @@
+"hash": |-
+  7799fece8dc8323d653c5433c08d17b26fb899d31dda96d0bd86dc4f3075339f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The attacker may initiate traffic flows to one or more IP addresses
+     by specifying them as the destination in SETUP requests.  While the
+     attacker's IP address may be known in this case, this is not always
+     useful in the prevention of more attacks or ascertaining the
+     attacker's identity.  Thus, an RTSP server MUST only allow client-
+     specified destinations for RTSP-initiated traffic flows if the server
+     has ensured that the specified destination address accepts receiving
+     media through different security mechanisms.  Security mechanisms
+     that are acceptable in order of increasing generality are:
+"fixed": |-
+  The attacker may initiate traffic flows to one or more IP addresses by specifying them as the destination in SETUP requests.  While the attacker's IP address may be known in this case, this is not always useful in the prevention of more attacks or ascertaining the attacker's identity.  Thus, an RTSP server MUST only allow client- specified destinations for RTSP-initiated traffic flows if the server has ensured that the specified destination address accepts receiving media through different security mechanisms.  Security mechanisms that are acceptable in order of increasing generality are:
+"ko": |-
+  공격자는 SETUP 요청에서 하나 이상의 IP 주소를 대상으로 지정하여 트래픽 흐름을 시작할 수 있습니다. 이 경우 공격자의 IP 주소가 알려질 수 있지만 추가 공격을 방지하거나 공격자의 신원을 확인하는 데 항상 유용한 것은 아닙니다. 따라서 RTSP 서버는 지정된 대상 주소가 다른 보안 메커니즘을 통해 미디어 수신을 허용하는 것을 서버가 확인한 경우 RTSP 시작 트래픽 흐름에 대해 클라이언트가 지정한 대상만 허용해야 합니다. 일반성이 높아지는 순서대로 허용되는 보안 메커니즘은 다음과 같습니다.

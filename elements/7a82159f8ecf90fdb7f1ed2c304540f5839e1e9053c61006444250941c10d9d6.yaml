@@ -1,0 +1,19 @@
+"hash": |-
+  7a82159f8ecf90fdb7f1ed2c304540f5839e1e9053c61006444250941c10d9d6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This request-header is used to indicate the end result for requests
+     that take time to complete, such as PLAY (Section 13.4).  It is sent
+     in PLAY_NOTIFY (Section 13.5) with the end-of-stream reason to report
+     how the PLAY request concluded, either in success or in failure.  The
+     header carries a reference to the request it reports on using the
+     CSeq number and the Session ID used in the request reported on.  This
+     is not ensured to be unambiguous due to the fact that the CSeq number
+     is scoped by the transport connection.  Agents originating requests
+"fixed": |-
+  This request-header is used to indicate the end result for requests that take time to complete, such as PLAY (Section 13.4).  It is sent in PLAY_NOTIFY (Section 13.5) with the end-of-stream reason to report how the PLAY request concluded, either in success or in failure.  The header carries a reference to the request it reports on using the CSeq number and the Session ID used in the request reported on.  This is not ensured to be unambiguous due to the fact that the CSeq number is scoped by the transport connection.  Agents originating requests
+"ko": |-
+  이 요청 헤더는 PLAY(섹션 13.4)와 같이 완료하는 데 시간이 걸리는 요청의 최종 결과를 나타내는 데 사용됩니다. PLAY 요청이 성공 또는 실패했는지 보고하기 위해 스트림 종료 이유와 함께 PLAY_NOTIFY(섹션 13.5)로 전송됩니다. 헤더는 보고된 요청에 사용된 CSeq 번호와 세션 ID를 사용하여 보고한 요청에 대한 참조를 전달합니다. CSeq 번호가 전송 연결에 의해 범위가 지정된다는 사실로 인해 이는 명확성이 보장되지 않습니다. 요청을 보내는 에이전트

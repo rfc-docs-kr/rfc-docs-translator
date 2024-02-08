@@ -1,0 +1,32 @@
+"hash": |-
+  218248c8dac1d7ff1bccd0264d84d3e6326d01773394e46ef68d06767f93dd3b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Client  ff02::1  A  B  C
+        |       |     |  |  |
+        |       |     |  |  |
+        +------>|     |  |  |  Header: GET (T=NON, Code=0.01, MID=0x7d41)
+        |  GET  |     |  |  |   Token: 0x86
+        |             |  |  |   Uri-Path: "temperature"
+        |             |  |  |
+        |             |  |  |
+        |<------------+  |  |  Header: 2.05 (T=NON, Code=2.05, MID=0x60b1)
+        |      2.05   |  |  |   Token: 0x86
+        |             |  |  |   Payload: "22.3 C"
+        |             |  |  |
+        |             |  |  |
+        |   X------------+  |  Header: 2.05 (T=NON, Code=2.05, MID=0x01a0)
+        |      2.05   |  |  |   Token: 0x86
+        |             |  |  |   Payload: "20.9 C"
+        |             |  |  |
+        |             |  |  |
+        |<------------------+  Header: 4.04 (T=NON, Code=4.04, MID=0x952a)
+        |      4.04   |  |  |   Token: 0x86
+        |             |  |  |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

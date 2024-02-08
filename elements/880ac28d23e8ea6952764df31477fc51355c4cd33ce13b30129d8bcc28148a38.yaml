@@ -1,0 +1,21 @@
+"hash": |-
+  880ac28d23e8ea6952764df31477fc51355c4cd33ce13b30129d8bcc28148a38
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This document defines three new client authentication mechanisms,
+     each named after the type of client certificate involved: ECDSA_sign,
+     ECDSA_fixed_ECDH, and RSA_fixed_ECDH.  The ECDSA_sign mechanism is
+     usable with any of the non-anonymous ECC key exchange algorithms
+     described in Section 2 as well as other non-anonymous (non-ECC) key
+     exchange algorithms defined in TLS [2][3].  The ECDSA_fixed_ECDH and
+     RSA_fixed_ECDH mechanisms are usable with ECDH_ECDSA and ECDH_RSA.
+     Their use with ECDHE_ECDSA and ECDHE_RSA is prohibited because the
+     use of a long-term ECDH client key would jeopardize the forward
+     secrecy property of these algorithms.
+"fixed": |-
+  This document defines three new client authentication mechanisms, each named after the type of client certificate involved: ECDSA_sign, ECDSA_fixed_ECDH, and RSA_fixed_ECDH.  The ECDSA_sign mechanism is usable with any of the non-anonymous ECC key exchange algorithms described in Section 2 as well as other non-anonymous (non-ECC) key exchange algorithms defined in TLS [2][3].  The ECDSA_fixed_ECDH and RSA_fixed_ECDH mechanisms are usable with ECDH_ECDSA and ECDH_RSA. Their use with ECDHE_ECDSA and ECDHE_RSA is prohibited because the use of a long-term ECDH client key would jeopardize the forward secrecy property of these algorithms.
+"ko": |-
+  이 문서에서는 세 가지 새로운 클라이언트 인증 메커니즘을 정의합니다. 각 메커니즘은 관련된 클라이언트 인증서 유형의 이름을 따서 명명되었습니다: ECDSA_sign, ECDSA_fixed_ECDH 및 RSA_fixed_ECDH. ECDSA_sign 메커니즘은 섹션 2에 설명된 모든 비익명 ECC 키 교환 알고리즘은 물론 TLS [2][3]에 정의된 기타 비익명(비ECC) 키 교환 알고리즘과 함께 사용할 수 있습니다. ECDSA_fixed_ECDH 및 RSA_fixed_ECDH 메커니즘은 ECDH_ECDSA 및 ECDH_RSA와 함께 사용할 수 있습니다. ECDHE_ECDSA 및 ECDHE_RSA와 함께 사용하는 것은 금지됩니다. 장기 ECDH 클라이언트 키를 사용하면 이러한 알고리즘의 순방향 보안 속성이 위태로워질 수 있기 때문입니다.

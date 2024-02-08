@@ -1,0 +1,22 @@
+"hash": |-
+  83d80340869fa9167e9fc2797e6eba6cd5edc8278f0b2bf293f9673cf7f9b0d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CoAP Accept option can be used to indicate which Content-Format
+     is acceptable to the client.  The representation format is given as a
+     numeric Content-Format identifier that is defined in the "CoAP
+     Content-Formats" registry (Section 12.3).  If no Accept option is
+     given, the client does not express a preference (thus no default
+     value is assumed).  The client prefers the representation returned by
+     the server to be in the Content-Format indicated.  The server returns
+     the preferred Content-Format if available.  If the preferred Content-
+     Format cannot be returned, then a 4.06 "Not Acceptable" MUST be sent
+     as a response, unless another error code takes precedence for this
+     response.
+"fixed": |-
+  The CoAP Accept option can be used to indicate which Content-Format is acceptable to the client.  The representation format is given as a numeric Content-Format identifier that is defined in the "CoAP Content-Formats" registry (Section 12.3).  If no Accept option is given, the client does not express a preference (thus no default value is assumed).  The client prefers the representation returned by the server to be in the Content-Format indicated.  The server returns the preferred Content-Format if available.  If the preferred Content- Format cannot be returned, then a 4.06 "Not Acceptable" MUST be sent as a response, unless another error code takes precedence for this response.
+"ko": |-
+  CoAP Accept 옵션은 클라이언트가 어떤 Content-Format을 허용하는지 나타내는 데 사용될 수 있습니다. 표현 형식은 "CoAP Content-Formats" 레지스트리(12.3절)에 정의된 숫자 Content-Format 식별자로 제공됩니다. Accept 옵션이 제공되지 않으면 클라이언트는 기본 설정을 표현하지 않습니다(따라서 기본값이 가정되지 않습니다). 클라이언트는 서버가 반환한 표현이 표시된 Content-Format인 것을 선호합니다. 서버는 가능한 경우 선호하는 Content-Format을 반환합니다. 선호하는 콘텐츠 형식을 반환할 수 없는 경우 이 응답에 대해 다른 오류 코드가 우선하지 않는 한 4.06 "허용되지 않음"을 응답으로 전송해야 합니다.

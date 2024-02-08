@@ -1,0 +1,23 @@
+"hash": |-
+  a9d85458954fc92b55eda5f75fa9996d876617a4bab6b9f9218cb5b6614b0046
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After playing the desired range, the presentation does NOT change to
+     the Ready state, media delivery simply stops.  If it is necessary to
+     put the stream into the Ready state, a PAUSE request MUST be issued.
+     A PLAY request while the stream is still in the Play state is legal
+     and can be issued without an intervening PAUSE request.  Such a
+     request MUST replace the current PLAY action with the new one
+     requested, i.e., being handled in the same way as if as the request
+     was received in Ready state.  In the case that the range in the Range
+     header has an implicit start time ("-endtime"), the server MUST
+     continue to play from where it currently was until the specified
+     endpoint.  This is useful to change the end to at another point than
+     in the previous request.
+"fixed": |-
+  After playing the desired range, the presentation does NOT change to the Ready state, media delivery simply stops.  If it is necessary to put the stream into the Ready state, a PAUSE request MUST be issued. A PLAY request while the stream is still in the Play state is legal and can be issued without an intervening PAUSE request.  Such a request MUST replace the current PLAY action with the new one requested, i.e., being handled in the same way as if as the request was received in Ready state.  In the case that the range in the Range header has an implicit start time ("-endtime"), the server MUST continue to play from where it currently was until the specified endpoint.  This is useful to change the end to at another point than in the previous request.
+"ko": |-
+  원하는 범위를 재생한 후에도 프레젠테이션은 준비 상태로 변경되지 않으며 미디어 전달이 중지됩니다. 스트림을 준비 상태로 전환해야 하는 경우 PAUSE 요청을 발행해야 합니다. 스트림이 아직 Play 상태에 있는 동안 PLAY 요청은 합법적이며 중간 PAUSE 요청 없이 발행될 수 있습니다. 이러한 요청은 현재 PLAY 작업을 요청된 새 작업으로 대체해야 합니다. 즉, 요청이 준비 상태에서 수신된 것과 동일한 방식으로 처리되어야 합니다. Range 헤더의 범위에 암시적 시작 시간("-endtime")이 있는 경우 서버는 지정된 끝점까지 현재 위치부터 계속 재생해야 합니다. 이는 이전 요청이 아닌 다른 지점으로 끝을 변경하는 데 유용합니다.

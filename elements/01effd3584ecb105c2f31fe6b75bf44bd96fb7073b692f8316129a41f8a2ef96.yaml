@@ -1,0 +1,21 @@
+"hash": |-
+  01effd3584ecb105c2f31fe6b75bf44bd96fb7073b692f8316129a41f8a2ef96
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  -- Naming attributes of type X520Pseudonym:
+  --   X520Pseudonym ::= DirectoryName (SIZE (1..ub-pseudonym))
+  --
+  -- Expanded to avoid parameterized type:
+  X520Pseudonym ::= CHOICE {
+     teletexString     TeletexString   (SIZE (1..ub-pseudonym)),
+     printableString   PrintableString (SIZE (1..ub-pseudonym)),
+     universalString   UniversalString (SIZE (1..ub-pseudonym)),
+     utf8String        UTF8String      (SIZE (1..ub-pseudonym)),
+     bmpString         BMPString       (SIZE (1..ub-pseudonym)) }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  c9f1379e4dbeb46d51ca1f0c9e7ece9094e6ad1b4dcc2cf7c90d796536b031dd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The meaning of the encipherOnly bit is undefined in the absence of
+        the keyAgreement bit.  When the encipherOnly bit is asserted and
+        the keyAgreement bit is also set, the subject public key may be
+        used only for enciphering data while performing key agreement.
+"fixed": |-
+  - The meaning of the encipherOnly bit is undefined in the absence of the keyAgreement bit.  When the encipherOnly bit is asserted and the keyAgreement bit is also set, the subject public key may be used only for enciphering data while performing key agreement.
+"ko": |-
+  - keyAgreement 비트가 없으면 encipherOnly 비트의 의미가 정의되지 않습니다. encipherOnly 비트가 어설션되고 keyAgreement 비트도 설정된 경우 대상 공개키는 키 합의를 수행하는 동안 데이터 암호화에만 사용될 수 있습니다.

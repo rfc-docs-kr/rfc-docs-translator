@@ -1,0 +1,16 @@
+"hash": |-
+  bc62ce9b22b2c5b0fe08a637239de2d0930cc5537ddf081326ff1542502db9ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -  If, on the other hand, the older session is resumed, then the
+        server MUST ignore the extensions and send a server hello
+        containing none of the extension types.  In this case, the
+        functionality of these extensions negotiated during the original
+        session initiation is applied to the resumed session.
+"fixed": |-
+  -  If, on the other hand, the older session is resumed, then the server MUST ignore the extensions and send a server hello containing none of the extension types.  In this case, the functionality of these extensions negotiated during the original session initiation is applied to the resumed session.
+"ko": |-
+  - 반면에 이전 세션이 재개되면 서버는 확장을 무시하고 확장 유형이 전혀 포함되지 않은 서버 hello를 보내야 합니다. 이 경우 원래 세션 시작 중에 협상된 확장 기능이 재개된 세션에 적용됩니다.

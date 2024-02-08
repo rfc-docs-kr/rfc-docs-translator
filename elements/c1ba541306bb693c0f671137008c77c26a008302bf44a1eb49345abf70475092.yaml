@@ -1,0 +1,21 @@
+"hash": |-
+  c1ba541306bb693c0f671137008c77c26a008302bf44a1eb49345abf70475092
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In a SETUP response for a request to change the transport parameters
+     while in Play state, the server MUST include the Range header to
+     indicate at what point the new transport parameters will be used.
+     Further, if RTP is used for delivery, the server MUST also include
+     the RTP-Info header to indicate at what timestamp and RTP sequence
+     number the change will take place.  If both RTP-Info and Range are
+     included in the response, the "rtp_time" parameter and start point in
+     the Range header MUST be for the corresponding time, i.e., be used in
+     the same way as for PLAY to ensure the correct synchronization
+     information is available.
+"fixed": |-
+  In a SETUP response for a request to change the transport parameters while in Play state, the server MUST include the Range header to indicate at what point the new transport parameters will be used. Further, if RTP is used for delivery, the server MUST also include the RTP-Info header to indicate at what timestamp and RTP sequence number the change will take place.  If both RTP-Info and Range are included in the response, the "rtp_time" parameter and start point in the Range header MUST be for the corresponding time, i.e., be used in the same way as for PLAY to ensure the correct synchronization information is available.
+"ko": |-
+  재생 상태에 있는 동안 전송 매개변수를 변경하라는 요청에 대한 SETUP 응답에서 서버는 새로운 전송 매개변수가 사용될 지점을 나타내기 위해 Range 헤더를 포함해야 합니다. 또한 RTP가 전달에 사용되는 경우 서버는 변경이 발생할 타임스탬프와 RTP 시퀀스 번호를 나타내기 위해 RTP-Info 헤더도 포함해야 합니다. RTP-Info와 Range가 모두 응답에 포함된 경우 Range 헤더의 "rtp_time" 매개 변수와 시작 지점은 해당 시간에 대한 것이어야 합니다. 즉, 올바른 동기화 정보를 보장하기 위해 PLAY와 동일한 방식으로 사용되어야 합니다. 사용 가능.

@@ -1,0 +1,21 @@
+"hash": |-
+  7bd0d53edaea32e20fc999527b19daea834ea4b13b3a52619500e7bf8a2b1815
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CoAP servers generally reply to a request packet with a response
+     packet.  This response packet may be significantly larger than the
+     request packet.  An attacker might use CoAP nodes to turn a small
+     attack packet into a larger attack packet, an approach known as
+     amplification.  There is therefore a danger that CoAP nodes could
+     become implicated in denial-of-service (DoS) attacks by using the
+     amplifying properties of the protocol: an attacker that is attempting
+     to overload a victim but is limited in the amount of traffic it can
+     generate can use amplification to generate a larger amount of
+     traffic.
+"fixed": |-
+  CoAP servers generally reply to a request packet with a response packet.  This response packet may be significantly larger than the request packet.  An attacker might use CoAP nodes to turn a small attack packet into a larger attack packet, an approach known as amplification.  There is therefore a danger that CoAP nodes could become implicated in denial-of-service (DoS) attacks by using the amplifying properties of the protocol: an attacker that is attempting to overload a victim but is limited in the amount of traffic it can generate can use amplification to generate a larger amount of traffic.
+"ko": |-
+  CoAP 서버는 일반적으로 응답 패킷으로 요청 패킷에 응답합니다. 이 응답 패킷은 요청 패킷보다 상당히 클 수 있습니다. 공격자는 CoAP 노드를 사용하여 작은 공격 패킷을 더 큰 공격 패킷으로 전환할 수 있습니다. 이러한 접근 방식을 증폭이라고 합니다. 따라서 CoAP 노드가 프로토콜의 증폭 속성을 사용하여 서비스 거부(DoS) 공격에 연루될 위험이 있습니다. 공격자는 피해자에게 과부하를 시도하지만 생성할 수 있는 트래픽 양이 제한되어 있습니다. 증폭을 사용하여 더 많은 양의 트래픽을 생성할 수 있습니다.

@@ -12,7 +12,7 @@
            level of service of TCP or that wish to use communications
            services (e.g., multicast or broadcast delivery) not available
            from TCP.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - The User Datagram Protocol UDP [UDP:1] offers only a minimal transport service -- non-guaranteed datagram delivery -- and gives applications direct access to the datagram service of the IP layer.  UDP is used by applications that do not require the level of service of TCP or that wish to use communications services (e.g., multicast or broadcast delivery) not available from TCP.
+"ko": |-
+  - 사용자 데이터그램 프로토콜 UDP[UDP:1]는 최소한의 전송 서비스(보증되지 않는 데이터그램 전달)만 제공하며 응용 프로그램이 IP 계층의 데이터그램 서비스에 직접 액세스할 수 있도록 합니다. UDP는 TCP 서비스 수준이 필요하지 않거나 TCP에서 사용할 수 없는 통신 서비스(예: 멀티캐스트 또는 브로드캐스트 전달)를 사용하려는 응용 프로그램에서 사용됩니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  1410b06632cd5eb15848c5bcd9d3994de0d8fcc2c728b6e84afdb80b628dc42c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        agent may believe later packets to be duplicates of packets just
+        played out.  Having the RTP timestamp jump will also affect the
+        RTCP measurements based on this.
+"fixed": |-
+  - agent may believe later packets to be duplicates of packets just played out.  Having the RTP timestamp jump will also affect the RTCP measurements based on this.
+"ko": |-
+  - 에이전트는 이후의 패킷이 방금 재생된 패킷의 중복이라고 믿을 수 있습니다. RTP 타임스탬프 점프가 있으면 이를 기반으로 하는 RTCP 측정에도 영향을 미칩니다.

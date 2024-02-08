@@ -1,0 +1,14 @@
+"hash": |-
+  f04c74d781fc2b2365f79286edd39035d0c62aff56e6103d4b9f341a494b02b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        15:  Reserved for the Payload Marker.  If the field is set to this
+           value but the entire byte is not the payload marker, this MUST
+           be processed as a message format error.
+"fixed": |-
+  - 15:  Reserved for the Payload Marker.  If the field is set to this value but the entire byte is not the payload marker, this MUST be processed as a message format error.
+"ko": |-
+  - 15: 페이로드 마커용으로 예약되어 있습니다. 필드가 이 값으로 설정되었지만 전체 바이트가 페이로드 마커가 아닌 경우 이는 메시지 형식 오류로 처리되어야 합니다.

@@ -1,0 +1,26 @@
+"hash": |-
+  160b030ed7bb81fc28b1f6142eb6c7873fca0bdf9f8e6d536f2513578968e8db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Stream Additions:  RTP has support for multiple simultaneous media
+        streams in each RTP session.  As some use cases require support
+        for non-synchronized adding and removal of media streams and their
+        identifiers, an attacker can easily insert additional media
+        streams into a session context that, according to protocol design,
+        is intended to be played out.  Another threat vector is one of DoS
+        by exhausting the resources of the RTP session receiver, for
+        example, by using a large number of SSRC identifiers
+        simultaneously.  The strong mitigation of this is to ensure that
+        one cryptographically authenticates any incoming packet flow to
+        the RTP session.  Weak mitigations like blocking additional media
+        streams in session contexts easily lead to a DoS vulnerability in
+        addition to preventing certain RTP extensions or use cases that
+        rely on multiple media streams, such as RTP retransmission
+        [RFC4588] to function.
+"fixed": |-
+  Stream Additions:  RTP has support for multiple simultaneous media streams in each RTP session.  As some use cases require support for non-synchronized adding and removal of media streams and their identifiers, an attacker can easily insert additional media streams into a session context that, according to protocol design, is intended to be played out.  Another threat vector is one of DoS by exhausting the resources of the RTP session receiver, for example, by using a large number of SSRC identifiers simultaneously.  The strong mitigation of this is to ensure that one cryptographically authenticates any incoming packet flow to the RTP session.  Weak mitigations like blocking additional media streams in session contexts easily lead to a DoS vulnerability in addition to preventing certain RTP extensions or use cases that rely on multiple media streams, such as RTP retransmission [RFC4588] to function.
+"ko": |-
+  스트림 추가: RTP는 각 RTP 세션에서 여러 동시 미디어 스트림을 지원합니다. 일부 사용 사례에는 미디어 스트림과 해당 식별자의 비동기식 추가 및 제거에 대한 지원이 필요하므로 공격자는 프로토콜 설계에 따라 재생되도록 의도된 세션 컨텍스트에 추가 미디어 스트림을 쉽게 삽입할 수 있습니다. 또 다른 위협 벡터는 다수의 SSRC 식별자를 동시에 사용하는 등 RTP 세션 수신기의 리소스를 소진시키는 DoS 중 하나입니다. 이에 대한 강력한 완화 방법은 RTP 세션으로 들어오는 모든 패킷 흐름을 암호화 방식으로 인증하도록 하는 것입니다. 세션 컨텍스트에서 추가 미디어 스트림을 차단하는 것과 같은 약한 완화는 특정 RTP 확장이나 RTP 재전송[RFC4588]과 같은 여러 미디어 스트림에 의존하는 사용 사례를 방지하는 것 외에도 쉽게 DoS 취약점으로 이어집니다.

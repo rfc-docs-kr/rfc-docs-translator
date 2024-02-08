@@ -1,0 +1,19 @@
+"hash": |-
+  6227808640a821e5e720c4246a29d49ea0d3f7fb7ad441b61991428ea29a5709
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the MTag is provided both inside the message body, e.g., within
+     the "a=mtag" attribute in SDP, and in the response message, then both
+     tags MUST be identical.  It is RECOMMENDED that the MTag be primarily
+     given in the RTSP response message, to ensure that caches can use the
+     MTag without requiring content inspection.  However, for session
+     descriptions that are distributed outside of RTSP, for example, using
+     HTTP, etc., it will be necessary to include the message body tag in
+     the session description as specified in Appendix D.1.9.
+"fixed": |-
+  If the MTag is provided both inside the message body, e.g., within the "a=mtag" attribute in SDP, and in the response message, then both tags MUST be identical.  It is RECOMMENDED that the MTag be primarily given in the RTSP response message, to ensure that caches can use the MTag without requiring content inspection.  However, for session descriptions that are distributed outside of RTSP, for example, using HTTP, etc., it will be necessary to include the message body tag in the session description as specified in Appendix D.1.9.
+"ko": |-
+  MTag가 메시지 본문 내부(예: SDP의 "a=mtag" 속성 내)와 응답 메시지 모두에 제공되는 경우 두 태그는 모두 동일해야 합니다. 캐시가 콘텐츠 검사 없이 MTag를 사용할 수 있도록 MTag를 주로 RTSP 응답 메시지에 제공하는 것이 좋습니다. 그러나 HTTP 등을 사용하여 RTSP 외부에 배포되는 세션 설명의 경우 부록 D.1.9에 지정된 대로 세션 설명에 메시지 본문 태그를 포함해야 합니다.

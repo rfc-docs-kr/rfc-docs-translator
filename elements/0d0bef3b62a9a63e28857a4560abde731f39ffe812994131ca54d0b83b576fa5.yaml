@@ -1,0 +1,16 @@
+"hash": |-
+  0d0bef3b62a9a63e28857a4560abde731f39ffe812994131ca54d0b83b576fa5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Figure 21 shows an example where the client loses its state (e.g.,
+     crashes and is rebooted) right after sending a Confirmable request,
+     so the separate response arriving some time later comes unexpected.
+     In this case, the client rejects the Confirmable response with a
+     Reset message.  Note that the unexpected ACK is silently ignored.
+"fixed": |-
+  Figure 21 shows an example where the client loses its state (e.g., crashes and is rebooted) right after sending a Confirmable request, so the separate response arriving some time later comes unexpected. In this case, the client rejects the Confirmable response with a Reset message.  Note that the unexpected ACK is silently ignored.
+"ko": |-
+  그림 21은 클라이언트가 확인 가능 요청을 보낸 직후 상태(예: 충돌 및 재부팅)를 잃어서 얼마 후 도착하는 별도의 응답이 예기치 않게 오는 예를 보여줍니다. 이 경우 클라이언트는 재설정 메시지와 함께 확인 가능 응답을 거부합니다. 예상치 못한 ACK는 자동으로 무시됩니다.

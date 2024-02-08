@@ -1,0 +1,19 @@
+"hash": |-
+  090e9a6d5bb84627356939662d167b373417b05f8bfd424f58a1ca9070a9bbc1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     On some general-purpose operating systems providing a POSIX-style API
+     [IEEE1003.1], it is not straightforward to find out whether a packet
+     received was addressed to a multicast address.  While many
+     implementations will know whether they have joined a multicast group,
+     this creates a problem for packets addressed to multicast addresses
+     of the form FF0x::1, which are received by every IPv6 node.
+     Implementations SHOULD make use of modern APIs such as
+     IPV6_RECVPKTINFO [RFC3542], if available, to make this determination.
+"fixed": |-
+  On some general-purpose operating systems providing a POSIX-style API [IEEE1003.1], it is not straightforward to find out whether a packet received was addressed to a multicast address.  While many implementations will know whether they have joined a multicast group, this creates a problem for packets addressed to multicast addresses of the form FF0x::1, which are received by every IPv6 node. Implementations SHOULD make use of modern APIs such as IPV6_RECVPKTINFO [RFC3542], if available, to make this determination.
+"ko": |-
+  POSIX 스타일 API [IEEE1003.1]를 제공하는 일부 범용 운영 체제에서는 수신된 패킷이 멀티캐스트 주소로 지정되었는지 여부를 확인하는 것이 간단하지 않습니다. 많은 구현에서는 멀티캐스트 그룹에 가입했는지 여부를 알지만 이는 모든 IPv6 노드에서 수신되는 FF0x::1 형식의 멀티캐스트 주소로 주소가 지정된 패킷에 문제를 야기합니다. 구현 시에는 IPV6_RECVPKTINFO [RFC3542]와 같은 최신 API를 사용하여 이러한 결정을 내려야 합니다.

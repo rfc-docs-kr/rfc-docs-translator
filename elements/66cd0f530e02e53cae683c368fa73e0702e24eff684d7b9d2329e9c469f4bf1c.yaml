@@ -1,0 +1,16 @@
+"hash": |-
+  66cd0f530e02e53cae683c368fa73e0702e24eff684d7b9d2329e9c469f4bf1c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          select (KeyExchangeAlgorithm) {
+              case ec_diffie_hellman:
+                  ServerECDHParams    params;
+                  Signature           signed_params;
+          } ServerKeyExchange;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

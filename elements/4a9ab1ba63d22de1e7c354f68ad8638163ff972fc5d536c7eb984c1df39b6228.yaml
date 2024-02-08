@@ -1,0 +1,22 @@
+"hash": |-
+  4a9ab1ba63d22de1e7c354f68ad8638163ff972fc5d536c7eb984c1df39b6228
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     passive role, it MUST set the setup parameter on the Transport line
+     to be "actpass".  In either case, the "dest_addr" parameter's address
+     specification port value for RTP MUST be set to the TCP port number
+     on which the client is expecting to receive the TCP connection for
+     RTP, and the "dest_addr" address specification port value for RTCP
+     MUST be set to the TCP port number on which the client is expecting
+     to receive the TCP connection for RTCP.  In the case that the client
+     wishes to multiplex RTP and RTCP on a single transport flow, the
+     "RTCP-mux" parameter is included and one or two "dest_addr" parameter
+     address specifications are included, as mentioned earlier in this
+     section.
+"fixed": |-
+  passive role, it MUST set the setup parameter on the Transport line to be "actpass".  In either case, the "dest_addr" parameter's address specification port value for RTP MUST be set to the TCP port number on which the client is expecting to receive the TCP connection for RTP, and the "dest_addr" address specification port value for RTCP MUST be set to the TCP port number on which the client is expecting to receive the TCP connection for RTCP.  In the case that the client wishes to multiplex RTP and RTCP on a single transport flow, the "RTCP-mux" parameter is included and one or two "dest_addr" parameter address specifications are included, as mentioned earlier in this section.
+"ko": |-
+  수동적 역할을 수행하려면 전송 라인의 설정 매개변수를 "actpass"로 설정해야 합니다. 두 경우 모두, RTP에 대한 "dest_addr" 매개변수의 주소 지정 포트 값은 클라이언트가 RTP에 대한 TCP 연결을 수신할 것으로 예상하는 TCP 포트 번호로 설정되어야 하며, RTCP에 대한 "dest_addr" 주소 지정 포트 값은 반드시 클라이언트가 RTCP에 대한 TCP 연결을 수신할 것으로 예상하는 TCP 포트 번호로 설정됩니다. 클라이언트가 단일 전송 흐름에서 RTP와 RTCP를 다중화하려는 경우 이 섹션의 앞부분에서 언급한 것처럼 "RTCP-mux" 매개변수가 포함되고 하나 또는 두 개의 "dest_addr" 매개변수 주소 사양이 포함됩니다.

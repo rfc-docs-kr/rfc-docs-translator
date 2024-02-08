@@ -1,0 +1,19 @@
+"hash": |-
+  3c11f5654fbcee0c02de8aa7a2817372aabe41e12f4e6f04ce716c1c4724c27c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  ExtendedNetworkAddress ::= CHOICE {
+     e163-4-address SEQUENCE {
+        number      [0] IMPLICIT NumericString
+                         (SIZE (1..ub-e163-4-number-length)),
+        sub-address [1] IMPLICIT NumericString
+                         (SIZE (1..ub-e163-4-sub-address-length))
+                         OPTIONAL },
+     psap-address [0] IMPLICIT PresentationAddress }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

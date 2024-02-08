@@ -1,0 +1,18 @@
+"hash": |-
+  f756f183f65120c7b86ff3c6fa11e80e126ba5fed870436ea5faf464468c1f45
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        (c)  If certificate i is self-issued and it is not the final
+             certificate in the path, skip this step for certificate i.
+             Otherwise, verify that the subject name is not within any of
+             the excluded_subtrees for X.500 distinguished names, and
+             verify that each of the alternative names in the
+             subjectAltName extension (critical or non-critical) is not
+             within any of the excluded_subtrees for that name type.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

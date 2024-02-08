@@ -1,0 +1,16 @@
+"hash": |-
+  e2817fd4307711621619ff74112dda4f9e01381c97238b302e48d5a1c9039d1b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        (j)  If (cert_status is UNREVOKED), then search for the
+        certificate on the complete CRL.  If an entry is found that
+        matches the certificate issuer and serial number as described in
+        section 5.3.4, then set the cert_status variable to the indicated
+        reason as described in step (i).
+"fixed": |-
+  - (j)  If (cert_status is UNREVOKED), then search for the certificate on the complete CRL.  If an entry is found that matches the certificate issuer and serial number as described in section 5.3.4, then set the cert_status variable to the indicated reason as described in step (i).
+"ko": |-
+  - (j) (cert_status가 REVOKED인 경우) 전체 CRL에서 인증서를 검색합니다. 섹션 5.3.4에 설명된 대로 인증서 발급자 및 일련 번호와 일치하는 항목이 발견되면 단계 (i)에 설명된 대로 cert_status 변수를 표시된 이유로 설정합니다.

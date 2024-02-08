@@ -1,0 +1,22 @@
+"hash": |-
+  f97084067595fc57c7ef340c6053297360f1211c262b9dc4f591ad73accc60c3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     ipCidrRouteTable OBJECT-TYPE
+         SYNTAX     SEQUENCE OF IpCidrRouteEntry
+         MAX-ACCESS not-accessible
+         STATUS     deprecated
+         DESCRIPTION
+                "This entity's IP Routing table.  This table has been
+                 deprecated in favor of the IP version neutral
+                 inetCidrRouteTable."
+         REFERENCE
+                "RFC 1213 Section 6.6, The IP Group"
+         ::= { ipForward 4 }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

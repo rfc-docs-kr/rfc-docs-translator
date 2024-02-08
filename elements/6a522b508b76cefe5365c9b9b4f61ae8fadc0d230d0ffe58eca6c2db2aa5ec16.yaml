@@ -1,0 +1,14 @@
+"hash": |-
+  6a522b508b76cefe5365c9b9b4f61ae8fadc0d230d0ffe58eca6c2db2aa5ec16
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           (3)  If the IDP CRL extension is not present or omits
+           onlySomeReasons but the DP includes reasons, then set
+           interim_reasons_mask to the value of DP reasons.
+"fixed": |-
+  - (3)  If the IDP CRL extension is not present or omits onlySomeReasons but the DP includes reasons, then set interim_reasons_mask to the value of DP reasons.
+"ko": |-
+  - (3) IDP CRL 확장이 없거나 SomeReasons만 생략했지만 DP에 이유가 포함된 경우 interim_reasons_mask를 DP 이유 값으로 설정합니다.

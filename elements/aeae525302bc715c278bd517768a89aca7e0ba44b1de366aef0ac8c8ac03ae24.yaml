@@ -1,0 +1,17 @@
+"hash": |-
+  aeae525302bc715c278bd517768a89aca7e0ba44b1de366aef0ac8c8ac03ae24
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client wishes to play the active role in initiating the TCP
+     connection, it MAY set the setup parameter (see Section 18.54) on the
+     Transport line to be "active", or it MAY omit the setup parameter, as
+     active is the default.  If the client signals the active role, the
+     ports in the address specifications in the "dest_addr" parameter MUST
+     be set to 9 (the discard port).
+"fixed": |-
+  If the client wishes to play the active role in initiating the TCP connection, it MAY set the setup parameter (see Section 18.54) on the Transport line to be "active", or it MAY omit the setup parameter, as active is the default.  If the client signals the active role, the ports in the address specifications in the "dest_addr" parameter MUST be set to 9 (the discard port).
+"ko": |-
+  클라이언트가 TCP 연결 시작 시 활성 역할을 수행하려는 경우 전송 라인의 설정 매개변수(18.54절 참조)를 "활성"으로 설정하거나 활성이 기본값이므로 설정 매개변수를 생략할 수 있습니다. 클라이언트가 활성 역할을 신호하는 경우 "dest_addr" 매개변수의 주소 사양에 있는 포트는 9(삭제 포트)로 설정되어야 합니다.

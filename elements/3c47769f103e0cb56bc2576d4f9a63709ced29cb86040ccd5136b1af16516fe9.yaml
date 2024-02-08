@@ -1,0 +1,16 @@
+"hash": |-
+  3c47769f103e0cb56bc2576d4f9a63709ced29cb86040ccd5136b1af16516fe9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o The first octet of the OCTET STRING indicates whether the key is
+          compressed or uncompressed.  The uncompressed form is indicated
+          by 0x04 and the compressed form is indicated by either 0x02 or
+          0x03 (see 2.3.3 in [SEC1]).  The public key MUST be rejected if
+          any other value is included in the first octet.
+"fixed": |-
+  - The first octet of the OCTET STRING indicates whether the key is compressed or uncompressed.  The uncompressed form is indicated by 0x04 and the compressed form is indicated by either 0x02 or 0x03 (see 2.3.3 in [SEC1]).  The public key MUST be rejected if any other value is included in the first octet.
+"ko": |-
+  - OCTET STRING의 첫 번째 옥텟은 키가 압축되었는지 또는 압축되지 않았는지 여부를 나타냅니다. 압축되지 않은 형식은 0x04로 표시되고 압축된 형식은 0x02 또는 0x03으로 표시됩니다([SEC1]의 2.3.3 참조). 첫 번째 옥텟에 다른 값이 포함되어 있으면 공개 키를 거부해야 합니다.
