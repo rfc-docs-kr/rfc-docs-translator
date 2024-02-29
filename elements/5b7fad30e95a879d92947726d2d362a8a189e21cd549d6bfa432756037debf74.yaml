@@ -1,0 +1,24 @@
+"hash": |-
+  5b7fad30e95a879d92947726d2d362a8a189e21cd549d6bfa432756037debf74
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        6. The registrar checks whether the request contains the Contact
+           header field.  If not, it skips to the last step.  If the
+           Contact header field is present, the registrar checks if there
+           is one Contact field value that contains the special value "*"
+           and an Expires field.  If the request has additional Contact
+           fields or an expiration time other than zero, the request is
+           invalid, and the server MUST return a 400 (Invalid Request) and
+           skip the remaining steps.  If not, the registrar checks whether
+           the Call-ID agrees with the value stored for each binding.  If
+           not, it MUST remove the binding.  If it does agree, it MUST
+           remove the binding only if the CSeq in the request is higher
+           than the value stored for that binding.  Otherwise, the update
+           MUST be aborted and the request fails.
+"fixed": |-
+  1. The registrar checks whether the request contains the Contact header field.  If not, it skips to the last step.  If the Contact header field is present, the registrar checks if there is one Contact field value that contains the special value "*" and an Expires field.  If the request has additional Contact fields or an expiration time other than zero, the request is invalid, and the server MUST return a 400 (Invalid Request) and skip the remaining steps.  If not, the registrar checks whether the Call-ID agrees with the value stored for each binding.  If not, it MUST remove the binding.  If it does agree, it MUST remove the binding only if the CSeq in the request is higher than the value stored for that binding.  Otherwise, the update MUST be aborted and the request fails.
+"ko": |-
+  1. 등록자는 요청에 연락처 헤더 필드가 포함되어 있는지 확인합니다. 그렇지 않은 경우 마지막 단계로 건너뜁니다. 연락처 헤더 필드가 있는 경우 등록자는 특수 값 "*"과 만료 필드를 포함하는 연락처 필드 값이 하나 있는지 확인합니다. 요청에 추가 연락처 필드가 있거나 0이 아닌 만료 시간이 있는 경우 요청은 유효하지 않으며 서버는 400(잘못된 요청)을 반환하고 나머지 단계를 건너뛰어야 합니다. 그렇지 않은 경우 등록자는 Call-ID가 각 바인딩에 대해 저장된 값과 일치하는지 확인합니다. 그렇지 않은 경우 바인딩을 제거해야 합니다. 동의하는 경우 요청의 CSeq가 해당 바인딩에 대해 저장된 값보다 높은 경우에만 바인딩을 제거해야 합니다. 그렇지 않으면 업데이트가 중단되어야 하며 요청이 실패합니다.

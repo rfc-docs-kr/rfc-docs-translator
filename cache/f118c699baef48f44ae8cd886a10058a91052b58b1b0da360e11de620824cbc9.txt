@@ -1,0 +1,1 @@
+그러나 일부 RADIUS 패킷은 재생 보호되지 않습니다. Accounting, Disconnect 및 CoA(Care-of Address) 요청 패킷에서 요청 인증자는 nonce가 아닌 키가 포함된 MIC(Message Integrity Code)를 포함합니다. Accounting, Disconnect 및 CoA-Response 패킷의 응답 인증자에는 요청 또는 응답 패킷의 nonce에 의존하지 않는 계산을 수행하는 키 입력 MIC도 포함되어 있습니다. 따라서 Event-Timestamp 특성이 포함되거나 IPsec이 사용되지 않으면 수신자가 이러한 패킷이 재생되었는지 여부를 확인하지 못할 수도 있습니다. 이 문제는 [RFC5176] 섹션 6.3에서 자세히 논의됩니다.

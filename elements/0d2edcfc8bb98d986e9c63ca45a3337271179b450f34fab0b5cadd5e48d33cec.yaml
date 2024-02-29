@@ -1,0 +1,15 @@
+"hash": |-
+  0d2edcfc8bb98d986e9c63ca45a3337271179b450f34fab0b5cadd5e48d33cec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Since 2xx is retransmitted end-to-end, there may be hops between
+        UAS and UAC that are UDP.  To ensure reliable delivery across
+        these hops, the response is retransmitted periodically even if the
+        transport at the UAS is reliable.
+"fixed": |-
+  - Since 2xx is retransmitted end-to-end, there may be hops between UAS and UAC that are UDP.  To ensure reliable delivery across these hops, the response is retransmitted periodically even if the transport at the UAS is reliable.
+"ko": |-
+  - 2xx는 end-to-end로 재전송되므로 UAS와 UDP인 UAC 사이에 홉이 있을 수 있습니다. 이러한 홉 전체에서 안정적인 전달을 보장하기 위해 UAS에서의 전송이 신뢰할 수 있는 경우에도 응답이 주기적으로 재전송됩니다.

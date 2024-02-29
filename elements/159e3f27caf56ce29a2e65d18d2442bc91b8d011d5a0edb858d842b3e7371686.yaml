@@ -1,0 +1,26 @@
+"hash": |-
+  159e3f27caf56ce29a2e65d18d2442bc91b8d011d5a0edb858d842b3e7371686
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+               (const uint8_t *) hkdfhashes[testno].saltarray,
+               hkdfhashes[testno].saltlength,
+               (const uint8_t *) hkdfhashes[testno].ikmarray,
+               hkdfhashes[testno].ikmlength,
+               (const uint8_t *) hkdfhashes[testno].infoarray,
+               hkdfhashes[testno].infolength, okm,
+               hkdfhashes[testno].okmlength);
+    if (err != shaSuccess) {
+      fprintf(stderr, "hashHkdf(): hkdf Error %d.\n", err);
+      return err;
+    }
+    sprintf(buf, "hkdf %d", testno+1);
+    printResult(okm, hkdfhashes[testno].okmlength,
+      USHAHashName(hkdfhashes[testno].whichSha), "hkdf standard test",
+      buf, hkdfhashes[testno].okmarray, printResults, printPassFail);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

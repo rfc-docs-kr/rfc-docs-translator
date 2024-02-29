@@ -1,0 +1,1 @@
+- END_STREAM 플래그가 설정된 HEADERS 프레임은 스트림의 끝을 알립니다. 그러나 END_STREAM 플래그가 설정된 HEADERS 프레임 뒤에는 동일한 스트림의 CONTINUATION 프레임이 올 수 있습니다. 논리적으로 CONTINUATION 프레임은 HEADERS 프레임의 일부입니다.

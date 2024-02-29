@@ -1,0 +1,18 @@
+"hash": |-
+  91e32a32431d81cbcd29a6a23d76755772731f8401263ce33f0ec96854bbb453
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     header field is not the identity of the UAS.  However, it is
+     RECOMMENDED that a UAS accept requests even if they do not recognize
+     the URI scheme (for example, a tel: URI) in the To header field, or
+     if the To header field does not address a known or current user of
+     this UAS.  If, on the other hand, the UAS decides to reject the
+     request, it SHOULD generate a response with a 403 (Forbidden) status
+     code and pass it to the server transaction for transmission.
+"fixed": |-
+  header field is not the identity of the UAS.  However, it is RECOMMENDED that a UAS accept requests even if they do not recognize the URI scheme (for example, a tel: URI) in the To header field, or if the To header field does not address a known or current user of this UAS.  If, on the other hand, the UAS decides to reject the request, it SHOULD generate a response with a 403 (Forbidden) status code and pass it to the server transaction for transmission.
+"ko": |-
+  헤더 필드는 UAS의 ID가 아닙니다. 그러나 To 헤더 필드에서 URI 체계(예: tel: URI)를 인식하지 못하거나 To 헤더 필드가 이 알려진 사용자 또는 현재 사용자를 다루지 않는 경우에도 UAS가 요청을 수락하는 것이 좋습니다. UAS. 반면에 UAS가 요청을 거부하기로 결정한 경우 403(금지) 상태 코드가 포함된 응답을 생성하고 이를 서버 트랜잭션에 전달하여 전송해야 합니다.

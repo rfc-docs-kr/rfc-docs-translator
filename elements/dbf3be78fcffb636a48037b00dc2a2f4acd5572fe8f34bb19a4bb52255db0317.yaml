@@ -1,0 +1,22 @@
+"hash": |-
+  dbf3be78fcffb636a48037b00dc2a2f4acd5572fe8f34bb19a4bb52255db0317
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Below is a demonstration implementation of these secure hash
+     functions in C.  Section 8.1 contains the header file sha.h that
+     declares all constants, structures, and functions used by the SHA and
+     HMAC functions.  It includes conditionals based on the state of
+     definition of USE_32BIT_ONLY that, if that symbol is defined at
+     compile time, avoids 64-bit operations.  It also contains sha-
+     private.h that provides some declarations common to all the SHA
+     functions.  Section 8.2 contains the C code for sha1.c, sha224-256.c,
+     sha384-512.c, and usha.c.  Section 8.3 contains the C code for the
+     HMAC functions, and Section 8.4 contains the C code for HKDF.
+     Section 8.5 contains a test driver to exercise the code.
+"fixed": |-
+  Below is a demonstration implementation of these secure hash functions in C.  Section 8.1 contains the header file sha.h that declares all constants, structures, and functions used by the SHA and HMAC functions.  It includes conditionals based on the state of definition of USE_32BIT_ONLY that, if that symbol is defined at compile time, avoids 64-bit operations.  It also contains sha- private.h that provides some declarations common to all the SHA functions.  Section 8.2 contains the C code for sha1.c, sha224-256.c, sha384-512.c, and usha.c.  Section 8.3 contains the C code for the HMAC functions, and Section 8.4 contains the C code for HKDF. Section 8.5 contains a test driver to exercise the code.
+"ko": |-
+  다음은 C에서 이러한 보안 해시 함수를 구현한 데모입니다. 섹션 8.1에는 SHA 및 HMAC 함수에서 사용하는 모든 상수, 구조 및 함수를 선언하는 헤더 파일 sha.h가 포함되어 있습니다. 여기에는 해당 기호가 컴파일 타임에 정의된 경우 64비트 작업을 방지하는 USE_32BIT_ONLY 정의 상태를 기반으로 하는 조건이 포함되어 있습니다. 또한 모든 SHA 함수에 공통적인 일부 선언을 제공하는 sha-private.h도 포함되어 있습니다. 섹션 8.2에는 sha1.c, sha224-256.c, sha384-512.c 및 usha.c에 대한 C 코드가 포함되어 있습니다. 섹션 8.3에는 HMAC 함수에 대한 C 코드가 포함되어 있고 섹션 8.4에는 HKDF에 대한 C 코드가 포함되어 있습니다. 섹션 8.5에는 코드를 실행하기 위한 테스트 드라이버가 포함되어 있습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  40a8aa9ae27ba3364eefc45aad3e53b795ad4dd4038dda42f10df80828083ea4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        An intermediary that forwards a request over HTTP/2 MUST construct
+        an ":authority" pseudo-header field using the authority
+        information from the control data of the original request, unless
+        the original request's target URI does not contain authority
+        information (in which case it MUST NOT generate ":authority").
+        Note that the Host header field is not the sole source of this
+        information; see Section 7.2 of [HTTP].
+"fixed": |-
+  - An intermediary that forwards a request over HTTP/2 MUST construct an ":authority" pseudo-header field using the authority information from the control data of the original request, unless the original request's target URI does not contain authority information (in which case it MUST NOT generate ":authority"). Note that the Host header field is not the sole source of this information; see Section 7.2 of [HTTP].
+"ko": |-
+  - HTTP/2를 통해 요청을 전달하는 중개자는 원래 요청의 대상 URI에 권한 정보가 포함되지 않은 경우를 제외하고 원래 요청의 제어 데이터에서 권한 정보를 사용하여 ":authority" 의사 헤더 필드를 구성해야 합니다(이 경우 ":authority"를 생성해서는 안 됩니다.) Host 헤더 필드가 이 정보의 유일한 소스는 아닙니다. [HTTP]의 섹션 7.2를 참조하세요.

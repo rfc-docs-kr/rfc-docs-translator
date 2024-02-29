@@ -1,0 +1,19 @@
+"hash": |-
+  298af10e124816be06d264bf167ff58b61fb7583196cc430968682561a2ea26d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Finally, HTTP/2 adds a new, optional interaction mode whereby a
+     server can push responses to a client (Section 8.4).  This is
+     intended to allow a server to speculatively send data to a client
+     that the server anticipates the client will need, trading off some
+     network usage against a potential latency gain.  The server does this
+     by synthesizing a request, which it sends as a PUSH_PROMISE frame.
+     The server is then able to send a response to the synthetic request
+     on a separate stream.
+"fixed": |-
+  Finally, HTTP/2 adds a new, optional interaction mode whereby a server can push responses to a client (Section 8.4).  This is intended to allow a server to speculatively send data to a client that the server anticipates the client will need, trading off some network usage against a potential latency gain.  The server does this by synthesizing a request, which it sends as a PUSH_PROMISE frame. The server is then able to send a response to the synthetic request on a separate stream.
+"ko": |-
+  마지막으로, HTTP/2는 서버가 클라이언트에 응답을 푸시할 수 있는 새로운 선택적 상호 작용 모드를 추가합니다(섹션 8.4). 이는 서버가 클라이언트에 필요하다고 예상하는 데이터를 서버가 추측적으로 클라이언트에 보낼 수 있도록 하여 잠재적인 대기 시간 이득과 일부 네트워크 사용량을 절충할 수 있도록 하기 위한 것입니다. 서버는 PUSH_PROMISE 프레임으로 보내는 요청을 합성하여 이를 수행합니다. 그런 다음 서버는 별도의 스트림에서 합성 요청에 대한 응답을 보낼 수 있습니다.

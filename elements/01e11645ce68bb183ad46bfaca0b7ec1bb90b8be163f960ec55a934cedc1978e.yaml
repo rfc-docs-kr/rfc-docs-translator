@@ -1,0 +1,17 @@
+"hash": |-
+  01e11645ce68bb183ad46bfaca0b7ec1bb90b8be163f960ec55a934cedc1978e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The requestor MAY choose to sign the OCSP request.  In that case, the
+     signature is computed over the tbsRequest structure.  If the request
+     is signed, the requestor SHALL specify its name in the requestorName
+     field.  Also, for signed requests, the requestor MAY include
+     certificates that help the OCSP responder verify the requestor's
+     signature in the certs field of Signature.
+"fixed": |-
+  The requestor MAY choose to sign the OCSP request.  In that case, the signature is computed over the tbsRequest structure.  If the request is signed, the requestor SHALL specify its name in the requestorName field.  Also, for signed requests, the requestor MAY include certificates that help the OCSP responder verify the requestor's signature in the certs field of Signature.
+"ko": |-
+  요청자는 OCSP 요청에 서명하도록 선택할 수 있습니다. 이 경우 서명은 tbsRequest 구조를 통해 계산됩니다. 요청이 서명된 경우 요청자는 requestorName 필드에 이름을 지정해야 합니다. 또한 서명된 요청의 경우 요청자는 OCSP 응답자가 서명의 인증서 필드에서 요청자의 서명을 확인하는 데 도움이 되는 인증서를 포함할 수 있습니다.

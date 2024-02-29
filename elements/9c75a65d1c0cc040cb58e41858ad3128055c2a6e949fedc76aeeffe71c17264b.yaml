@@ -1,0 +1,14 @@
+"hash": |-
+  9c75a65d1c0cc040cb58e41858ad3128055c2a6e949fedc76aeeffe71c17264b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  #define SHA512_SHL(bits, word, ret) (                          \
+      /* (((uint64_t)(word)) << (bits)) */                       \
+      (ret)[0] = ((bits) > 32) ? ((word)[1] << ((bits) - 32)) :  \
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

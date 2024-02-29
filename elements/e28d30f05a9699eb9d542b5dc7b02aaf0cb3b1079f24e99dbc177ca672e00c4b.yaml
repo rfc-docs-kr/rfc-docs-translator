@@ -1,0 +1,30 @@
+"hash": |-
+  e28d30f05a9699eb9d542b5dc7b02aaf0cb3b1079f24e99dbc177ca672e00c4b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA512Reset
+   *
+   * Description:
+   *   This function will initialize the SHA512Context in preparation
+   *   for computing a new SHA512 message digest.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The context to reset.
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  int SHA512Reset(SHA512Context *context)
+  {
+    return SHA384_512Reset(context, SHA512_H0);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

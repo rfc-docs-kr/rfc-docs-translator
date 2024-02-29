@@ -1,0 +1,15 @@
+"hash": |-
+  c71ba9d28275b6920de01dc9836ab5ecf425f66b83e8a7ad9b97014733b2dc32
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      if ((printPassFail == PRINTPASSFAIL) ||
+          ((printPassFail == PRINTFAIL) && (err != shaStateError)))
+        printf("%s se: %s\n", hashes[hashno].name,
+          (err == shaStateError) ? "PASSED" : "FAILED");
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

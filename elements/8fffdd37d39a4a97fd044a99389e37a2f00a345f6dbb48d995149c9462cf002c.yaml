@@ -1,0 +1,21 @@
+"hash": |-
+  8fffdd37d39a4a97fd044a99389e37a2f00a345f6dbb48d995149c9462cf002c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once an endpoint acknowledges a change to SETTINGS_HEADER_TABLE_SIZE
+     that reduces the maximum below the current size of the dynamic table,
+     its HPACK encoder MUST start the next field block with a Dynamic
+     Table Size Update instruction that sets the dynamic table to a size
+     that is less than or equal to the reduced maximum; see Section 4.2 of
+     [COMPRESSION].  An endpoint MUST treat a field block that follows an
+     acknowledgment of the reduction to the maximum dynamic table size as
+     a connection error (Section 5.4.1) of type COMPRESSION_ERROR if it
+     does not start with a conformant Dynamic Table Size Update
+     instruction.
+"fixed": |-
+  Once an endpoint acknowledges a change to SETTINGS_HEADER_TABLE_SIZE that reduces the maximum below the current size of the dynamic table, its HPACK encoder MUST start the next field block with a Dynamic Table Size Update instruction that sets the dynamic table to a size that is less than or equal to the reduced maximum; see Section 4.2 of [COMPRESSION].  An endpoint MUST treat a field block that follows an acknowledgment of the reduction to the maximum dynamic table size as a connection error (Section 5.4.1) of type COMPRESSION_ERROR if it does not start with a conformant Dynamic Table Size Update instruction.
+"ko": |-
+  엔드포인트가 동적 테이블의 현재 크기보다 최대값을 줄이는 SETTINGS_HEADER_TABLE_SIZE에 대한 변경을 승인하면 해당 HPACK 인코더는 동적 테이블을 다음 크기보다 작은 크기로 설정하는 동적 테이블 크기 업데이트 명령을 사용하여 다음 필드 블록을 시작해야 합니다. 감소된 최대값과 같습니다. [압축]의 섹션 4.2를 참조하세요. 엔드포인트는 적합한 동적 테이블 크기 업데이트 명령으로 시작하지 않는 경우 COMPRESSION_ERROR 유형의 연결 오류(섹션 5.4.1)로 최대 동적 테이블 크기 감소에 대한 승인을 따르는 필드 블록을 처리해야 합니다.

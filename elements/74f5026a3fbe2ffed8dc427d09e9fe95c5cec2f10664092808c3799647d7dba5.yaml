@@ -1,0 +1,20 @@
+"hash": |-
+  74f5026a3fbe2ffed8dc427d09e9fe95c5cec2f10664092808c3799647d7dba5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Description: There is a proposal for adding a "StartTLS" extension to
+     TELNET, and a channel binding extension for the various TELNET AUTH
+     mechanisms whereby each side sends the other a "checksum" (MAC --
+     message authentication code) of their view of the channel's bindings.
+     The client uses the TLS Finished messages (note: the Finished struct)
+     sent by the client and server, each concatenated in that order and in
+     their clear text form, of the first TLS handshake to which the
+     connection is being bound.  The server does the same but in the
+     opposite concatenation order (server, then client).
+"fixed": |-
+  Description: There is a proposal for adding a "StartTLS" extension to TELNET, and a channel binding extension for the various TELNET AUTH mechanisms whereby each side sends the other a "checksum" (MAC -- message authentication code) of their view of the channel's bindings. The client uses the TLS Finished messages (note: the Finished struct) sent by the client and server, each concatenated in that order and in their clear text form, of the first TLS handshake to which the connection is being bound.  The server does the same but in the opposite concatenation order (server, then client).
+"ko": |-
+  설명: TELNET에 "StartTLS" 확장을 추가하기 위한 제안과 다양한 TELNET AUTH 메커니즘에 대한 채널 바인딩 확장을 추가하여 양측이 상대방에게 자신의 관점에 대한 "체크섬"(MAC - 메시지 인증 코드)을 보내는 제안이 있습니다. 채널 바인딩. 클라이언트는 클라이언트와 서버가 보낸 TLS 완료 메시지(참고: 완료 구조체)를 사용합니다. 각 메시지는 연결이 바인딩되는 첫 번째 TLS 핸드셰이크의 해당 순서와 일반 텍스트 형식으로 연결됩니다. 서버도 동일한 작업을 수행하지만 연결 순서는 반대입니다(서버, 클라이언트 순).

@@ -1,0 +1,17 @@
+"hash": |-
+  096e925aae15871b2bb8bd6734ff446f9ed829a7cd963f99fbad644122cd98d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Added the "sips" URI scheme for end-to-end TLS.  This scheme is
+        not backwards compatible with RFC 2543.  Existing elements that
+        receive a request with a SIPS URI scheme in the Request-URI will
+        likely reject the request.  This is actually a feature; it ensures
+        that a call to a SIPS URI is only delivered if all path hops can
+        be secured.
+"fixed": |-
+  -  Added the "sips" URI scheme for end-to-end TLS.  This scheme is not backwards compatible with RFC 2543.  Existing elements that receive a request with a SIPS URI scheme in the Request-URI will likely reject the request.  This is actually a feature; it ensures that a call to a SIPS URI is only delivered if all path hops can be secured.
+"ko": |-
+  - 종단 간 TLS를 위한 "sips" URI 체계가 추가되었습니다. 이 체계는 이전 버전인 RFC 2543과 호환되지 않습니다. 요청-URI의 SIPS URI 체계로 요청을 수신하는 기존 요소는 요청을 거부할 가능성이 높습니다. 이것은 실제로 기능입니다. 이는 모든 경로 홉이 보호될 수 있는 경우에만 SIPS URI에 대한 호출이 전달되도록 보장합니다.

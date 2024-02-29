@@ -1,0 +1,18 @@
+"hash": |-
+  5cb11fe7d12b2f44b50cd07c031c004d7e30286f753e3da5823aaa7006105d14
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a 415 (Unsupported Media Type) response is received (Section
+     21.4.13), the request contained media types not supported by the UAS.
+     The UAC SHOULD retry sending the request, this time only using
+     content with types listed in the Accept header field in the response,
+     with encodings listed in the Accept-Encoding header field in the
+     response, and with languages listed in the Accept-Language in the
+     response.
+"fixed": |-
+  If a 415 (Unsupported Media Type) response is received (Section 21.4.13), the request contained media types not supported by the UAS. The UAC SHOULD retry sending the request, this time only using content with types listed in the Accept header field in the response, with encodings listed in the Accept-Encoding header field in the response, and with languages listed in the Accept-Language in the response.
+"ko": |-
+  415(지원되지 않는 미디어 유형) 응답이 수신되면(섹션 21.4.13) 요청에 UAS에서 지원하지 않는 미디어 유형이 포함된 것입니다. UAC는 요청 전송을 다시 시도해야 합니다. 이번에는 응답의 Accept 헤더 필드에 나열된 유형, 응답의 Accept-Encoding 헤더 필드에 나열된 인코딩 및 Accept-Language에 나열된 언어가 있는 콘텐츠만 사용하여 요청을 보내야 합니다. 응답.

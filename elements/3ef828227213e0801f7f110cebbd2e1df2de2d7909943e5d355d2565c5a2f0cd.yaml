@@ -1,0 +1,18 @@
+"hash": |-
+  3ef828227213e0801f7f110cebbd2e1df2de2d7909943e5d355d2565c5a2f0cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Two flow-control windows are applicable: the stream flow-control
+     window and the connection flow-control window.  The sender MUST NOT
+     send a flow-controlled frame with a length that exceeds the space
+     available in either of the flow-control windows advertised by the
+     receiver.  Frames with zero length with the END_STREAM flag set (that
+     is, an empty DATA frame) MAY be sent if there is no available space
+     in either flow-control window.
+"fixed": |-
+  Two flow-control windows are applicable: the stream flow-control window and the connection flow-control window.  The sender MUST NOT send a flow-controlled frame with a length that exceeds the space available in either of the flow-control windows advertised by the receiver.  Frames with zero length with the END_STREAM flag set (that is, an empty DATA frame) MAY be sent if there is no available space in either flow-control window.
+"ko": |-
+  스트림 흐름 제어 창과 연결 흐름 제어 창이라는 두 가지 흐름 제어 창을 적용할 수 있습니다. 송신자는 수신자가 광고한 흐름 제어 창 중 하나에서 사용 가능한 공간을 초과하는 길이의 흐름 제어 프레임을 전송해서는 안 됩니다. END_STREAM 플래그가 설정된 길이가 0인 프레임(즉, 빈 DATA 프레임)은 흐름 제어 창에 사용 가능한 공간이 없는 경우 전송될 수 있습니다.

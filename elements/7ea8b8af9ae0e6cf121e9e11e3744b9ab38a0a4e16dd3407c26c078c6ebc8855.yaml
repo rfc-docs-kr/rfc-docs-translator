@@ -1,0 +1,15 @@
+"hash": |-
+  7ea8b8af9ae0e6cf121e9e11e3744b9ab38a0a4e16dd3407c26c078c6ebc8855
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A stateful proxy responds to a CANCEL, rather than simply forwarding
+     a response it would receive from a downstream element.  For that
+     reason, CANCEL is referred to as a "hop-by-hop" request, since it is
+     responded to at each stateful proxy hop.
+"fixed": |-
+  A stateful proxy responds to a CANCEL, rather than simply forwarding a response it would receive from a downstream element.  For that reason, CANCEL is referred to as a "hop-by-hop" request, since it is responded to at each stateful proxy hop.
+"ko": |-
+  상태 저장 프록시는 단순히 다운스트림 요소로부터 수신할 응답을 전달하는 것이 아니라 CANCEL에 응답합니다. 이러한 이유로 CANCEL은 각 상태 저장 프록시 홉에서 응답되므로 "홉별" 요청이라고 합니다.

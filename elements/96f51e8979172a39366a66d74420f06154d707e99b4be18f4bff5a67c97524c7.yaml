@@ -1,0 +1,17 @@
+"hash": |-
+  96f51e8979172a39366a66d74420f06154d707e99b4be18f4bff5a67c97524c7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The rationale for making the server behavior a requirement while
+        the client behavior is only a recommendation is that there
+        typically exist TLS APIs for requesting renegotiation on the
+        server side of a TLS connection, while many client TLS stacks do
+        not provide fine-grained control over when TLS renegotiation
+        occurs.
+"fixed": |-
+  - The rationale for making the server behavior a requirement while the client behavior is only a recommendation is that there typically exist TLS APIs for requesting renegotiation on the server side of a TLS connection, while many client TLS stacks do not provide fine-grained control over when TLS renegotiation occurs.
+"ko": |-
+  - 클라이언트 동작은 권장 사항일 뿐이지만 서버 동작을 요구 사항으로 만드는 이유는 일반적으로 TLS 연결의 서버 측에서 재협상을 요청하기 위한 TLS API가 존재하는 반면 많은 클라이언트 TLS 스택은 이에 대한 세부적인 제어를 제공하지 않는다는 것입니다. TLS 재협상이 발생할 때.

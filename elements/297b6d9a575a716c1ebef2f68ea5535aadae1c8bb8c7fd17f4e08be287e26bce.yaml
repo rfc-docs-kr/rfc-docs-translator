@@ -1,0 +1,24 @@
+"hash": |-
+  297b6d9a575a716c1ebef2f68ea5535aadae1c8bb8c7fd17f4e08be287e26bce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     During the session, either Alice or Bob may decide to change the
+     characteristics of the media session.  This is accomplished by
+     sending a re-INVITE containing a new media description.  This re-
+     INVITE references the existing dialog so that the other party knows
+     that it is to modify an existing session instead of establishing a
+     new session.  The other party sends a 200 (OK) to accept the change.
+     The requestor responds to the 200 (OK) with an ACK.  If the other
+     party does not accept the change, he sends an error response such as
+     488 (Not Acceptable Here), which also receives an ACK.  However, the
+     failure of the re-INVITE does not cause the existing call to fail -
+     the session continues using the previously negotiated
+     characteristics.  Full details on session modification are in Section
+     14.
+"fixed": |-
+  During the session, either Alice or Bob may decide to change the characteristics of the media session.  This is accomplished by sending a re-INVITE containing a new media description.  This re- INVITE references the existing dialog so that the other party knows that it is to modify an existing session instead of establishing a new session.  The other party sends a 200 (OK) to accept the change. The requestor responds to the 200 (OK) with an ACK.  If the other party does not accept the change, he sends an error response such as 488 (Not Acceptable Here), which also receives an ACK.  However, the failure of the re-INVITE does not cause the existing call to fail - the session continues using the previously negotiated characteristics.  Full details on session modification are in Section 14.
+"ko": |-
+  세션 중에 Alice나 Bob은 미디어 세션의 특성을 변경하기로 결정할 수 있습니다. 이는 새 미디어 설명이 포함된 re-INVITE를 전송하여 수행됩니다. re-INVITE는 기존 대화를 참조하여 상대방이 새 세션을 설정하는 대신 기존 세션을 수정한다는 것을 알 수 있도록 합니다. 상대방은 변경 사항을 수락하기 위해 200(OK)을 보냅니다. 요청자는 ACK로 200(OK)에 응답합니다. 상대방이 변경 사항을 수락하지 않으면 488(여기에서는 허용되지 않음)과 같은 오류 응답을 보내고 ACK도 받습니다. 그러나 re-INVITE 실패로 인해 기존 호출이 실패하지는 않습니다. 세션은 이전에 협상된 특성을 사용하여 계속됩니다. 세션 수정에 대한 자세한 내용은 섹션 14에 나와 있습니다.

@@ -1,0 +1,1 @@
+* 3비트 ###.) * 길이: [in] * message_bits의 비트 수(1에서 7 사이). * * 반환: * sha 오류 코드. */ int hmacFinalBits(HMACContext *context, uint8_t 비트, unsigned int bit_count) { if (!context) return shaNull; if (컨텍스트->손상) return context->손상; if (컨텍스트->계산됨) return context->Corrupted = shaStateError; /* 데이터그램의 마지막 비트 */ return context->Corrupted = USHAFinalBits(&context->shaContext, 비트, bit_count); }

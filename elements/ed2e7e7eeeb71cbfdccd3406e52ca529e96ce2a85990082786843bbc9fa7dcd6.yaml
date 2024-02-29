@@ -1,0 +1,40 @@
+"hash": |-
+  ed2e7e7eeeb71cbfdccd3406e52ca529e96ce2a85990082786843bbc9fa7dcd6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                        "6b:B:def:F:h:i:Hk:l:L:mpPr:R:s:S:t:wxX")) != -1)
+      switch (i) {
+        case 'b': extrabits = strtol(optarg, 0, 0); break;
+        case 'B': numberExtrabits = atoi(optarg); break;
+        case 'd': runHkdfTests = 1; break;
+        case 'e': checkErrors = 1; break;
+        case 'f': hashfilename = optarg; break;
+        case 'F': hashFilename = optarg; break;
+        case 'h': hashnolow = hashnohigh = findhash(argv[0], optarg);
+          break;
+        case 'H': strIsHex = 1; break;
+        case 'i': info = optarg; infolen = strlen(optarg); break;
+        case 'k': hmacKey = optarg; hmaclen = strlen(optarg); break;
+        case 'l': loopnohigh = atoi(optarg); break;
+        case 'L': okmlen = strtol(optarg, 0, 0); break;
+        case 'm': runHmacTests = 1; break;
+        case 'P': printPassFail = 0; break;
+        case 'p': printResults = PRINTNONE; break;
+        case 'R': randomcount = atoi(optarg); break;
+        case 'r': randomseedstr = optarg; break;
+        case 's': hashstr = optarg; hashlen = strlen(hashstr); break;
+        case 'S': resultstr = optarg; break;
+        case 't': testnolow = ntestnohigh = atoi(optarg) - 1; break;
+        case 'w': printResults = PRINTRAW; break;
+        case 'x': printResults = PRINTHEX; break;
+        case 'X': printPassFail = 2; break;
+        case '6': printResults = PRINTBASE64; break;
+        default: usage(argv[0]);
+        }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

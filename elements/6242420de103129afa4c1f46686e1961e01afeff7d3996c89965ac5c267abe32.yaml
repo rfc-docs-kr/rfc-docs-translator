@@ -1,0 +1,15 @@
+"hash": |-
+  6242420de103129afa4c1f46686e1961e01afeff7d3996c89965ac5c267abe32
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  if the certificate's signatureAlgorithm uses no hash functions or
+        uses multiple hash functions, then this channel binding type's
+        channel bindings are undefined at this time (updates to is channel
+        binding type may occur to address this issue if it ever arises).
+"fixed": |-
+  -  if the certificate's signatureAlgorithm uses no hash functions or uses multiple hash functions, then this channel binding type's channel bindings are undefined at this time (updates to is channel binding type may occur to address this issue if it ever arises).
+"ko": |-
+  - 인증서의 서명 알고리즘이 해시 함수를 사용하지 않거나 여러 해시 함수를 사용하는 경우 이 채널 바인딩 유형의 채널 바인딩은 현재 정의되지 않습니다(이 문제가 발생할 경우 이 문제를 해결하기 위해 채널 바인딩 유형에 대한 업데이트가 발생할 수 있음).

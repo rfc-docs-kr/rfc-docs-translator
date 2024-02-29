@@ -1,0 +1,20 @@
+"hash": |-
+  e44149c18013a659b209b841da11739491cffd6ce05f3b5f89f06d0e6062d7a9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  extern int hkdfInput(HKDFContext *context, const unsigned char *ikm,
+                       int ikm_len);
+  extern int hkdfFinalBits(HKDFContext *context, uint8_t ikm_bits,
+                           unsigned int ikm_bit_count);
+  extern int hkdfResult(HKDFContext *context,
+                        uint8_t prk[USHAMaxHashSize],
+                        const unsigned char *info, int info_len,
+                        uint8_t okm[USHAMaxHashSize], int okm_len);
+  #endif /* _SHA_H_ */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

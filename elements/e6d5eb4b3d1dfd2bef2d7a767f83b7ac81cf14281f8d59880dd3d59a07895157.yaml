@@ -1,0 +1,19 @@
+"hash": |-
+  e6d5eb4b3d1dfd2bef2d7a767f83b7ac81cf14281f8d59880dd3d59a07895157
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Presumably, a correctly configured backend authentication server
+     would not request that an authenticator provide a service that it
+     does not implement.  This implies that if the new authenticator were
+     to complete a AAA conversation, it would be likely to receive
+     different service instructions.  Failure of the handoff is the
+     desired result since it will cause the new authenticator to go back
+     to the backend server in order to receive the appropriate service
+     definition.
+"fixed": |-
+  Presumably, a correctly configured backend authentication server would not request that an authenticator provide a service that it does not implement.  This implies that if the new authenticator were to complete a AAA conversation, it would be likely to receive different service instructions.  Failure of the handoff is the desired result since it will cause the new authenticator to go back to the backend server in order to receive the appropriate service definition.
+"ko": |-
+  아마도 올바르게 구성된 백엔드 인증 서버는 인증자가 구현하지 않은 서비스를 제공하도록 요청하지 않을 것입니다. 이는 새 인증자가 AAA 대화를 완료하면 다른 서비스 지침을 받을 가능성이 있음을 의미합니다. 핸드오프가 실패하면 새 인증자가 적절한 서비스 정의를 받기 위해 백엔드 서버로 돌아가게 되므로 바람직한 결과입니다.

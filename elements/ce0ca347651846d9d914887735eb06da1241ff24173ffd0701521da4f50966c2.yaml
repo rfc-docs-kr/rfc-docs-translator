@@ -1,0 +1,19 @@
+"hash": |-
+  ce0ca347651846d9d914887735eb06da1241ff24173ffd0701521da4f50966c2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     --
+     -- Default AlgorithmIdentifier for id-RSAES-OAEP.maskGenAlgorithm and
+     -- id-RSASSA-PSS.maskGenAlgorithm.
+     --
+     mgf1SHA1    MaskGenAlgorithm ::= {
+         algorithm   id-mgf1,
+         parameters  HashAlgorithm : sha1
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

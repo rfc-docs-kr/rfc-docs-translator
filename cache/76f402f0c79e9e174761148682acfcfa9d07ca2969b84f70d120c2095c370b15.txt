@@ -1,0 +1,1 @@
+* 매개변수: * context: [in/out] * SHA 해시를 계산하는 데 사용할 컨텍스트입니다. * Message_Digest[ ]: [out] * 다이제스트가 반환되는 위치. * * 반환: * sha 오류 코드. */ int SHA224Result(SHA224Context *context, uint8_t Message_Digest[SHA224HashSize]) { return SHA224_256ResultN(context, Message_Digest, SHA224HashSize); }

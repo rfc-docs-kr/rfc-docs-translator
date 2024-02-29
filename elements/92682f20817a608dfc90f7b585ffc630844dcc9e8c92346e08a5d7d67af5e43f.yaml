@@ -1,0 +1,37 @@
+"hash": |-
+  92682f20817a608dfc90f7b585ffc630844dcc9e8c92346e08a5d7d67af5e43f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * USHAHashSizeBits
+   *
+   * Description:
+   *   This function will return the hashsize for the given SHA
+   *   algorithm, expressed in bits.
+   *
+   * Parameters:
+   *   whichSha:
+   *     which SHA algorithm to query
+   *
+   * Returns:
+   *   hash size in bits
+   *
+   */
+  int USHAHashSizeBits(enum SHAversion whichSha)
+  {
+    switch (whichSha) {
+      case SHA1:   return SHA1HashSizeBits;
+      case SHA224: return SHA224HashSizeBits;
+      case SHA256: return SHA256HashSizeBits;
+      case SHA384: return SHA384HashSizeBits;
+      default:
+      case SHA512: return SHA512HashSizeBits;
+    }
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

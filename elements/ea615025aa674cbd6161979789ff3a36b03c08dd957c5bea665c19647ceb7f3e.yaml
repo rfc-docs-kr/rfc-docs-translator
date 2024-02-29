@@ -1,0 +1,22 @@
+"hash": |-
+  ea615025aa674cbd6161979789ff3a36b03c08dd957c5bea665c19647ceb7f3e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /* replace a hex string in place with its value */
+  int unhexStr(char *hexstr)
+  {
+    char *o = hexstr;
+    int len = 0, nibble1 = 0, nibble2 = 0;
+    if (!hexstr) return 0;
+    for ( ; *hexstr; hexstr++) {
+      if (isalpha((int)(unsigned char)(*hexstr))) {
+        nibble1 = tolower((int)(unsigned char)(*hexstr)) - 'a' + 10;
+      } else if (isdigit((int)(unsigned char)(*hexstr))) {
+        nibble1 = *hexstr - '0';
+"fixed": |-
+  /* replace a hex string in place with its value */ int unhexStr(char *hexstr) { char *o = hexstr; int len = 0, nibble1 = 0, nibble2 = 0; if (!hexstr) return 0; for ( ; *hexstr; hexstr++) { if (isalpha((int)(unsigned char)(*hexstr))) { nibble1 = tolower((int)(unsigned char)(*hexstr)) - 'a' + 10; } else if (isdigit((int)(unsigned char)(*hexstr))) { nibble1 = *hexstr - '0';
+"ko": |-
+  /* 해당 위치의 16진수 문자열을 해당 값으로 대체 */ int unhexStr(char *hexstr) { char *o = hexstr; int len ​​= 0, nibble1 = 0, nibble2 = 0; if (!hexstr) 0을 반환합니다. for ( ; *hexstr; hexstr++) { if (isalpha((int)(unsigned char)(*hexstr))) { nibble1 = tolower((int)(unsigned char)(*hexstr)) - 'a' + 10; } else if (isdigit((int)(unsigned char)(*hexstr))) { nibble1 = *hexstr - '0';

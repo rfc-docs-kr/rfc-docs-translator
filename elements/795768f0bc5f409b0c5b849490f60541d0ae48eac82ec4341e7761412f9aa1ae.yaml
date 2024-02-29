@@ -1,0 +1,18 @@
+"hash": |-
+  795768f0bc5f409b0c5b849490f60541d0ae48eac82ec4341e7761412f9aa1ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For "https" resources, connection reuse additionally depends on
+     having a certificate that is valid for the host in the URI.  The
+     certificate presented by the server MUST satisfy any checks that the
+     client would perform when forming a new TLS connection for the host
+     in the URI.  A single certificate can be used to establish authority
+     for multiple origins.  Section 4.3 of [HTTP] describes how a client
+     determines whether a server is authoritative for a URI.
+"fixed": |-
+  For "https" resources, connection reuse additionally depends on having a certificate that is valid for the host in the URI.  The certificate presented by the server MUST satisfy any checks that the client would perform when forming a new TLS connection for the host in the URI.  A single certificate can be used to establish authority for multiple origins.  Section 4.3 of [HTTP] describes how a client determines whether a server is authoritative for a URI.
+"ko": |-
+  "https" 리소스의 경우 연결 재사용은 URI의 호스트에 유효한 인증서가 있는지 여부에 따라 달라집니다. 서버가 제공하는 인증서는 클라이언트가 URI의 호스트에 대한 새 TLS 연결을 형성할 때 수행하는 모든 검사를 충족해야 합니다. 단일 인증서를 사용하여 여러 원본에 대한 권한을 설정할 수 있습니다. [HTTP]의 섹션 4.3에서는 클라이언트가 서버가 URI에 대해 권한이 있는지 여부를 결정하는 방법을 설명합니다.

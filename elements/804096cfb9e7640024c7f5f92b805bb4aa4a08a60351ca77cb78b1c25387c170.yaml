@@ -1,0 +1,17 @@
+"hash": |-
+  804096cfb9e7640024c7f5f92b805bb4aa4a08a60351ca77cb78b1c25387c170
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Contact        =  ("Contact" / "m" ) HCOLON
+                    ( STAR / (contact-param *(COMMA contact-param)))
+  contact-param  =  (name-addr / addr-spec) *(SEMI contact-params)
+  name-addr      =  [ display-name ] LAQUOT addr-spec RAQUOT
+  addr-spec      =  SIP-URI / SIPS-URI / absoluteURI
+  display-name   =  *(token LWS)/ quoted-string
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

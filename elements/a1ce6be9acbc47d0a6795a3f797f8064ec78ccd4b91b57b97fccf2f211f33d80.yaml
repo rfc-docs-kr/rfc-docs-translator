@@ -1,0 +1,14 @@
+"hash": |-
+  a1ce6be9acbc47d0a6795a3f797f8064ec78ccd4b91b57b97fccf2f211f33d80
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (i = 0; i < SHA1HashSize; ++i)
+      Message_Digest[i] = (uint8_t) (context->Intermediate_Hash[i>>2]
+                                     >> (8 * ( 3 - ( i & 0x03 ) )));
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

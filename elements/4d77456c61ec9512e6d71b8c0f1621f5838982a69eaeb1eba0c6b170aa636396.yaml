@@ -1,0 +1,19 @@
+"hash": |-
+  4d77456c61ec9512e6d71b8c0f1621f5838982a69eaeb1eba0c6b170aa636396
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        With a length of 32 bits, a client could generate, within a single
+        call, one request a second for about 136 years before needing to
+        wrap around.  The initial value of the sequence number is chosen
+        so that subsequent requests within the same call will not wrap
+        around.  A non-zero initial value allows clients to use a time-
+        based initial sequence number.  A client could, for example,
+        choose the 31 most significant bits of a 32-bit second clock as an
+        initial sequence number.
+"fixed": |-
+  - With a length of 32 bits, a client could generate, within a single call, one request a second for about 136 years before needing to wrap around.  The initial value of the sequence number is chosen so that subsequent requests within the same call will not wrap around.  A non-zero initial value allows clients to use a time- based initial sequence number.  A client could, for example, choose the 31 most significant bits of a 32-bit second clock as an initial sequence number.
+"ko": |-
+  - 32비트 길이를 사용하면 클라이언트는 단일 호출 내에서 약 136년 동안 초당 하나의 요청을 생성한 후 마무리할 수 있습니다. 동일한 호출 내의 후속 요청이 랩어라운드되지 않도록 시퀀스 번호의 초기 값이 선택됩니다. 0이 아닌 초기 값을 사용하면 클라이언트가 시간 기반 초기 시퀀스 번호를 사용할 수 있습니다. 예를 들어 클라이언트는 32비트 두 번째 클록의 최상위 31비트를 초기 시퀀스 번호로 선택할 수 있습니다.

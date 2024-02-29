@@ -1,0 +1,19 @@
+"hash": |-
+  f937e3ea57a71c3a62b9051b823631b90c096dc6422685b55245c467e973200b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* SHA-1 */
+  extern int SHA1Reset(SHA1Context *);
+  extern int SHA1Input(SHA1Context *, const uint8_t *bytes,
+                       unsigned int bytecount);
+  extern int SHA1FinalBits(SHA1Context *, uint8_t bits,
+                           unsigned int bit_count);
+  extern int SHA1Result(SHA1Context *,
+                        uint8_t Message_Digest[SHA1HashSize]);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

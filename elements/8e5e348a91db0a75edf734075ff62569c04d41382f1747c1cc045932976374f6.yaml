@@ -1,0 +1,19 @@
+"hash": |-
+  8e5e348a91db0a75edf734075ff62569c04d41382f1747c1cc045932976374f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a user agent sends an S/MIME body in a request, but receives a
+     response that contains a MIME body that is not secured, the UAC
+     SHOULD notify its user that the session could not be secured.
+     However, if a user agent that supports S/MIME receives a request with
+     an unsecured body, it SHOULD NOT respond with a secured body, but if
+     it expects S/MIME from the sender (for example, because the sender's
+     From header field value corresponds to an identity on its keychain),
+     the UAS SHOULD notify its user that the session could not be secured.
+"fixed": |-
+  If a user agent sends an S/MIME body in a request, but receives a response that contains a MIME body that is not secured, the UAC SHOULD notify its user that the session could not be secured. However, if a user agent that supports S/MIME receives a request with an unsecured body, it SHOULD NOT respond with a secured body, but if it expects S/MIME from the sender (for example, because the sender's From header field value corresponds to an identity on its keychain), the UAS SHOULD notify its user that the session could not be secured.
+"ko": |-
+  사용자 에이전트가 요청에 S/MIME 본문을 보냈지만 보안되지 않은 MIME 본문이 포함된 응답을 받은 경우 UAC는 사용자에게 세션을 보호할 수 없음을 알려야 합니다. 그러나 S/MIME을 지원하는 사용자 에이전트가 보안되지 않은 본문이 포함된 요청을 받으면 보안된 본문으로 응답해서는 안 됩니다. 그러나 발신자로부터 S/MIME을 기대하는 경우(예를 들어 발신자의 From 헤더 필드 값이 일치하기 때문에) 키체인의 ID에 연결) UAS는 사용자에게 세션을 보호할 수 없음을 알려야 합니다.

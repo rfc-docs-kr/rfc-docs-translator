@@ -1,0 +1,18 @@
+"hash": |-
+  4dc8e08ccf6568ca5d01c92c8314a2134b8341cc47cf610980590577776a1d85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The primary reason to use the hash of the CA's public key in addition
+     to the hash of the CA's name to identify the issuer is that it is
+     possible that two CAs may choose to use the same Name (uniqueness in
+     the Name is a recommendation that cannot be enforced).  Two CAs will
+     never, however, have the same public key unless the CAs either
+     explicitly decided to share their private key or the key of one of
+     the CAs was compromised.
+"fixed": |-
+  The primary reason to use the hash of the CA's public key in addition to the hash of the CA's name to identify the issuer is that it is possible that two CAs may choose to use the same Name (uniqueness in the Name is a recommendation that cannot be enforced).  Two CAs will never, however, have the same public key unless the CAs either explicitly decided to share their private key or the key of one of the CAs was compromised.
+"ko": |-
+  발급자를 식별하기 위해 CA 이름의 해시 외에 CA 공개 키의 해시를 사용하는 주요 이유는 두 CA가 동일한 이름을 사용하도록 선택할 수 있다는 것입니다(이름의 고유성은 시행). 그러나 CA가 명시적으로 개인 키를 공유하기로 결정했거나 CA 중 하나의 키가 손상되지 않는 한 두 CA는 동일한 공개 키를 갖지 않습니다.

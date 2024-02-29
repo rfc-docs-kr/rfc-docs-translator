@@ -1,0 +1,21 @@
+"hash": |-
+  3e35ad8e8db147564824f3ffdd375f2573f887a0d150a3e5860a129ea6601768
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+    /* store key into the pads, XOR'd with ipad and opad values */
+    for (i = 0; i < key_len; i++) {
+      k_ipad[i] = key[i] ^ 0x36;
+      context->k_opad[i] = key[i] ^ 0x5c;
+    }
+    /* remaining pad bytes are '\0' XOR'd with ipad and opad values */
+    for ( ; i < blocksize; i++) {
+      k_ipad[i] = 0x36;
+      context->k_opad[i] = 0x5c;
+    }
+"fixed": |-
+  /* store key into the pads, XOR'd with ipad and opad values */ for (i = 0; i < key_len; i++) { k_ipad[i] = key[i] ^ 0x36; context->k_opad[i] = key[i] ^ 0x5c; } /* remaining pad bytes are '\0' XOR'd with ipad and opad values */ for ( ; i < blocksize; i++) { k_ipad[i] = 0x36; context->k_opad[i] = 0x5c; }
+"ko": |-
+  /* 키를 패드에 저장하고 ipad 및 opad 값과 XOR합니다. */ for (i = 0; i < key_len; i++) { k_ipad[i] = key[i] ^ 0x36; 컨텍스트->k_opad[i] = 키[i] ^ 0x5c; } /* 남은 패드 바이트는 ipad 및 opad 값과 '\0' XOR됩니다. */ for ( ; i < blocksize; i++) { k_ipad[i] = 0x36; 컨텍스트->k_opad[i] = 0x5c; }

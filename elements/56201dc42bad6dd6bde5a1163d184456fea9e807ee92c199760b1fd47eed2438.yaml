@@ -1,0 +1,23 @@
+"hash": |-
+  56201dc42bad6dd6bde5a1163d184456fea9e807ee92c199760b1fd47eed2438
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * hmacFinalBits
+   *
+   * Description:
+   *   This function will add in any final bits of the message.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The HMAC context to update.
+   *   message_bits: [in]
+   *     The final bits of the message, in the upper portion of the
+   *     byte.  (Use 0b###00000 instead of 0b00000### to input the
+"fixed": |-
+  /* * hmacFinalBits * * Description: *   This function will add in any final bits of the message. * * Parameters: *   context: [in/out] *     The HMAC context to update. *   message_bits: [in] *     The final bits of the message, in the upper portion of the *     byte.  (Use 0b###00000 instead of 0b00000### to input the
+"ko": |-
+  /* * hmacFinalBits * * 설명: * 이 함수는 메시지의 마지막 비트를 추가합니다. * * 매개변수: * context: [in/out] * 업데이트할 HMAC 컨텍스트입니다. * message_bits: [in] * 바이트의 상위 부분에 있는 메시지의 마지막 비트입니다. (0b00000### 대신 0b###00000을 사용하여 입력하세요.

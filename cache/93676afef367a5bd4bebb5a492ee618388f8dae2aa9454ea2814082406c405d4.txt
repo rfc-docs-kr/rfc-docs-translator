@@ -1,0 +1,1 @@
+/* * 배열 W의 처음 16개 단어를 초기화합니다. */ for (t = 0; t < 16; t++) { W[t] = ((uint32_t)context->Message_Block[t * 4]) << 24; W[t] |= ((uint32_t)context->Message_Block[t * 4 + 1]) << 16; W[t] |= ((uint32_t)context->Message_Block[t * 4 + 2]) << 8; W[t] |= ((uint32_t)context->Message_Block[t * 4 + 3]); }

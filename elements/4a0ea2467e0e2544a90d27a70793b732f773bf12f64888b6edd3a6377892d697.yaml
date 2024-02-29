@@ -1,0 +1,17 @@
+"hash": |-
+  4a0ea2467e0e2544a90d27a70793b732f773bf12f64888b6edd3a6377892d697
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client transaction receives a provisional response while in
+     the "Calling" state, it transitions to the "Proceeding" state. In the
+     "Proceeding" state, the client transaction SHOULD NOT retransmit the
+     request any longer. Furthermore, the provisional response MUST be
+     passed to the TU.  Any further provisional responses MUST be passed
+     up to the TU while in the "Proceeding" state.
+"fixed": |-
+  If the client transaction receives a provisional response while in the "Calling" state, it transitions to the "Proceeding" state. In the "Proceeding" state, the client transaction SHOULD NOT retransmit the request any longer. Furthermore, the provisional response MUST be passed to the TU.  Any further provisional responses MUST be passed up to the TU while in the "Proceeding" state.
+"ko": |-
+  클라이언트 트랜잭션이 "Calling" 상태에 있는 동안 임시 응답을 받으면 "Proceeding" 상태로 전환됩니다. "진행 중" 상태에서 클라이언트 트랜잭션은 더 이상 요청을 재전송해서는 안 됩니다. 또한, 임시 응답은 TU에 전달되어야 합니다. 추가 임시 응답은 "진행 중" 상태에 있는 동안 TU에 전달되어야 합니다.

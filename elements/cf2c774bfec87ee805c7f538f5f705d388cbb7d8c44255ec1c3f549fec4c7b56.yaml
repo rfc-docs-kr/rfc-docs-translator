@@ -1,0 +1,16 @@
+"hash": |-
+  cf2c774bfec87ee805c7f538f5f705d388cbb7d8c44255ec1c3f549fec4c7b56
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The number of PUSH_PROMISE frames is not constrained in the same
+     fashion.  A client that accepts server push SHOULD limit the number
+     of streams it allows to be in the "reserved (remote)" state.  An
+     excessive number of server push streams can be treated as a stream
+     error (Section 5.4.2) of type ENHANCE_YOUR_CALM.
+"fixed": |-
+  The number of PUSH_PROMISE frames is not constrained in the same fashion.  A client that accepts server push SHOULD limit the number of streams it allows to be in the "reserved (remote)" state.  An excessive number of server push streams can be treated as a stream error (Section 5.4.2) of type ENHANCE_YOUR_CALM.
+"ko": |-
+  PUSH_PROMISE 프레임 수는 동일한 방식으로 제한되지 않습니다. 서버 푸시를 수락하는 클라이언트는 "예약(원격)" 상태가 되도록 허용하는 스트림 수를 제한해야 합니다. 과도한 수의 서버 푸시 스트림은 ENHANCE_YOUR_CALM 유형의 스트림 오류(섹션 5.4.2)로 처리될 수 있습니다.

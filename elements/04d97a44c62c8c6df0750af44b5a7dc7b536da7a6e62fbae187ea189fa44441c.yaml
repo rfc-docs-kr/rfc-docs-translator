@@ -1,0 +1,17 @@
+"hash": |-
+  04d97a44c62c8c6df0750af44b5a7dc7b536da7a6e62fbae187ea189fa44441c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the transport user asks for a message to be sent over an
+     unreliable transport, and the result is an ICMP error, the behavior
+     depends on the type of ICMP error.  Host, network, port or protocol
+     unreachable errors, or parameter problem errors SHOULD cause the
+     transport layer to inform the transport user of a failure in sending.
+     Source quench and TTL exceeded ICMP errors SHOULD be ignored.
+"fixed": |-
+  If the transport user asks for a message to be sent over an unreliable transport, and the result is an ICMP error, the behavior depends on the type of ICMP error.  Host, network, port or protocol unreachable errors, or parameter problem errors SHOULD cause the transport layer to inform the transport user of a failure in sending. Source quench and TTL exceeded ICMP errors SHOULD be ignored.
+"ko": |-
+  전송 사용자가 신뢰할 수 없는 전송을 통해 메시지를 보내도록 요청하고 결과가 ICMP 오류인 경우 동작은 ICMP 오류 유형에 따라 달라집니다. 호스트, 네트워크, 포트 또는 프로토콜에 도달할 수 없는 오류 또는 매개변수 문제 오류로 인해 전송 계층은 전송 사용자에게 전송 실패를 알려야 합니다. 소스 냉각 및 TTL 초과 ICMP 오류는 무시되어야 합니다.

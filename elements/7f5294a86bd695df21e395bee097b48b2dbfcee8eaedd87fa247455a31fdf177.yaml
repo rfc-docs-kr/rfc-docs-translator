@@ -1,0 +1,14 @@
+"hash": |-
+  7f5294a86bd695df21e395bee097b48b2dbfcee8eaedd87fa247455a31fdf177
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the prefix length is less than 96 bits, insert the null octet
+        "u" at the appropriate position (bits 64 to 71), thus causing the
+        least significant octet to be excluded, as documented in Figure 1.
+"fixed": |-
+  -  If the prefix length is less than 96 bits, insert the null octet "u" at the appropriate position (bits 64 to 71), thus causing the least significant octet to be excluded, as documented in Figure 1.
+"ko": |-
+  - 접두사 길이가 96비트보다 작은 경우 그림 1에 설명된 대로 널 옥텟 "u"를 적절한 위치(비트 64~71)에 삽입하여 최하위 옥텟이 제외되도록 합니다.

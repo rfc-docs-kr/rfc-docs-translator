@@ -1,0 +1,17 @@
+"hash": |-
+  515449c0cec83570a4f92cc4170e1014ba42b7396d3bb37098af3beb91a7133b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The receiver of a frame sends a WINDOW_UPDATE frame as it consumes
+     data and frees up space in flow-control windows.  Separate
+     WINDOW_UPDATE frames are sent for the stream- and connection-level
+     flow-control windows.  Receivers are advised to have mechanisms in
+     place to avoid sending WINDOW_UPDATE frames with very small
+     increments; see Section 4.2.3.3 of [RFC1122].
+"fixed": |-
+  The receiver of a frame sends a WINDOW_UPDATE frame as it consumes data and frees up space in flow-control windows.  Separate WINDOW_UPDATE frames are sent for the stream- and connection-level flow-control windows.  Receivers are advised to have mechanisms in place to avoid sending WINDOW_UPDATE frames with very small increments; see Section 4.2.3.3 of [RFC1122].
+"ko": |-
+  프레임 수신자는 데이터를 소비하고 흐름 제어 창에서 공간을 확보할 때 WINDOW_UPDATE 프레임을 보냅니다. 스트림 및 연결 수준 흐름 제어 창에 대해 별도의 WINDOW_UPDATE 프레임이 전송됩니다. 매우 작은 증분으로 WINDOW_UPDATE 프레임을 보내는 것을 방지하기 위해 수신기에 메커니즘을 마련하는 것이 좋습니다. [RFC1122]의 섹션 4.2.3.3을 참조하세요.

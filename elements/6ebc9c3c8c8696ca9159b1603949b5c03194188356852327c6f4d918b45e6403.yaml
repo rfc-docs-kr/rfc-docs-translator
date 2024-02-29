@@ -1,0 +1,22 @@
+"hash": |-
+  6ebc9c3c8c8696ca9159b1603949b5c03194188356852327c6f4d918b45e6403
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A stateless UAS is a UAS that does not maintain transaction state.
+     It replies to requests normally, but discards any state that would
+     ordinarily be retained by a UAS after a response has been sent.  If a
+     stateless UAS receives a retransmission of a request, it regenerates
+     the response and resends it, just as if it were replying to the first
+     instance of the request. A UAS cannot be stateless unless the request
+     processing for that method would always result in the same response
+     if the requests are identical. This rules out stateless registrars,
+     for example.  Stateless UASs do not use a transaction layer; they
+     receive requests directly from the transport layer and send responses
+     directly to the transport layer.
+"fixed": |-
+  A stateless UAS is a UAS that does not maintain transaction state. It replies to requests normally, but discards any state that would ordinarily be retained by a UAS after a response has been sent.  If a stateless UAS receives a retransmission of a request, it regenerates the response and resends it, just as if it were replying to the first instance of the request. A UAS cannot be stateless unless the request processing for that method would always result in the same response if the requests are identical. This rules out stateless registrars, for example.  Stateless UASs do not use a transaction layer; they receive requests directly from the transport layer and send responses directly to the transport layer.
+"ko": |-
+  상태 비저장 UAS는 트랜잭션 상태를 유지하지 않는 UAS입니다. 요청에 정상적으로 응답하지만 응답이 전송된 후 UAS가 일반적으로 유지하는 모든 상태를 삭제합니다. 상태 비저장 UAS가 요청의 재전송을 받으면 마치 요청의 첫 번째 인스턴스에 응답하는 것처럼 응답을 다시 생성하여 다시 보냅니다. UAS는 해당 메서드에 대한 요청 처리가 요청이 동일한 경우 항상 동일한 응답을 초래하지 않는 한 상태 비저장일 수 없습니다. 예를 들어 이는 무국적 등록기관을 배제합니다. 상태 비저장 UAS는 트랜잭션 계층을 사용하지 않습니다. 전송 계층에서 직접 요청을 받고 전송 계층으로 직접 응답을 보냅니다.

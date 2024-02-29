@@ -1,0 +1,19 @@
+"hash": |-
+  3c037d08836b16d5e0b5bbea97175ec08efad622bd680db98edb207410f98dc3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Work is ongoing [SASL-GS2] to specify how SASL, particularly its new
+     bridge to the GSS-API, performs channel binding.  SASL will likely
+     differ from the GSS-API in its handling of channel binding failure
+     (i.e., when there may be an MITM) in that channel binding
+     success/failure will only affect the negotiation of SASL security
+     layers.  That is, when channel binding succeeds, SASL should select
+     no security layers, leaving session cryptographic protection to the
+     secure channel that SASL authentication has been bound to.
+"fixed": |-
+  Work is ongoing [SASL-GS2] to specify how SASL, particularly its new bridge to the GSS-API, performs channel binding.  SASL will likely differ from the GSS-API in its handling of channel binding failure (i.e., when there may be an MITM) in that channel binding success/failure will only affect the negotiation of SASL security layers.  That is, when channel binding succeeds, SASL should select no security layers, leaving session cryptographic protection to the secure channel that SASL authentication has been bound to.
+"ko": |-
+  SASL, 특히 GSS-API에 대한 새로운 브리지가 채널 바인딩을 수행하는 방법을 지정하는 작업이 진행 중입니다[SASL-GS2]. SASL은 채널 바인딩 성공/실패가 SASL 보안 계층 ​​협상에만 영향을 미친다는 점에서 채널 바인딩 실패(즉, MITM이 있을 수 있음)를 처리하는 측면에서 GSS-API와 다를 수 있습니다. 즉, 채널 바인딩이 성공하면 SASL은 보안 계층을 선택하지 않고 SASL 인증이 바인딩된 보안 채널에 세션 암호화 보호를 남겨 두어야 합니다.

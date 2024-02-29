@@ -1,0 +1,18 @@
+"hash": |-
+  5f6f0d336e6e55df0e9df646789ead1eb5d6b30b8f23aafeb07a789208873d5a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a request is forked (as described in Section 16.7), various proxy
+     servers and/or UAs may wish to challenge the UAC.  In this case, the
+     forking proxy server is responsible for aggregating these challenges
+     into a single response.  Each WWW-Authenticate and Proxy-Authenticate
+     value received in responses to the forked request MUST be placed into
+     the single response that is sent by the forking proxy to the UA; the
+     ordering of these header field values is not significant.
+"fixed": |-
+  If a request is forked (as described in Section 16.7), various proxy servers and/or UAs may wish to challenge the UAC.  In this case, the forking proxy server is responsible for aggregating these challenges into a single response.  Each WWW-Authenticate and Proxy-Authenticate value received in responses to the forked request MUST be placed into the single response that is sent by the forking proxy to the UA; the ordering of these header field values is not significant.
+"ko": |-
+  요청이 분기되면(섹션 16.7에 설명된 대로) 다양한 프록시 서버 및/또는 UA가 UAC에 도전할 수 있습니다. 이 경우 분기 프록시 서버는 이러한 문제를 단일 응답으로 집계하는 역할을 합니다. 분기된 요청에 대한 응답으로 수신된 각 WWW 인증 및 프록시 인증 값은 분기 프록시가 UA로 전송하는 단일 응답에 배치되어야 합니다. 이러한 헤더 필드 값의 순서는 중요하지 않습니다.

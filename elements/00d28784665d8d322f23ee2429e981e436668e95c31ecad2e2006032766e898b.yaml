@@ -1,0 +1,18 @@
+"hash": |-
+  00d28784665d8d322f23ee2429e981e436668e95c31ecad2e2006032766e898b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        int hkdfExpand(SHAversion whichSha,
+                    const uint8_t prk[ ], int prk_len,
+                    const unsigned char *info, int info_len,
+                    uint8_t okm[ ], int okm_len)
+              Perform HKDF expansion, combining the prk_len octets of the
+              pseudo-random key prk with the info_len octets of info to
+              form the okm_len octets stored in okm.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

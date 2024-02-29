@@ -1,0 +1,17 @@
+"hash": |-
+  092e049e3d5b89412b42bbd0b7cc5b8bed44cc307e271df48d4821bc48c71eb2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Child keys that are used frequently (such as TSKs that are used for
+     traffic protection) can expire sooner than the exported EAP keying
+     material on which they are dependent, so that it is advantageous to
+     support re-key of child keys prior to EAP re-authentication.  Note
+     that deletion of the MSK/EMSK does not necessarily imply deletion of
+     TSKs or child keys.
+"fixed": |-
+  Child keys that are used frequently (such as TSKs that are used for traffic protection) can expire sooner than the exported EAP keying material on which they are dependent, so that it is advantageous to support re-key of child keys prior to EAP re-authentication.  Note that deletion of the MSK/EMSK does not necessarily imply deletion of TSKs or child keys.
+"ko": |-
+  자주 사용되는 하위 키(예: 트래픽 보호에 사용되는 TSK)는 종속된 내보낸 EAP 키 자료보다 빨리 만료될 수 있으므로 EAP 키 재설정 전에 하위 키 재설정을 지원하는 것이 유리합니다. 입증. MSK/EMSK를 삭제한다고 해서 반드시 TSK 또는 하위 키가 삭제되는 것은 아닙니다.

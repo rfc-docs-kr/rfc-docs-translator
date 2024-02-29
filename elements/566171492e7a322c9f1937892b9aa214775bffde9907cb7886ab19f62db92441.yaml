@@ -1,0 +1,15 @@
+"hash": |-
+  566171492e7a322c9f1937892b9aa214775bffde9907cb7886ab19f62db92441
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A stream enters the "closed" state after an endpoint both sends
+        and receives a frame with an END_STREAM flag set.  A stream also
+        enters the "closed" state after an endpoint either sends or
+        receives a RST_STREAM frame.
+"fixed": |-
+  - A stream enters the "closed" state after an endpoint both sends and receives a frame with an END_STREAM flag set.  A stream also enters the "closed" state after an endpoint either sends or receives a RST_STREAM frame.
+"ko": |-
+  - 엔드포인트가 END_STREAM 플래그가 설정된 프레임을 보내고 받은 후 스트림은 "닫힌" 상태로 들어갑니다. 엔드포인트가 RST_STREAM 프레임을 보내거나 받은 후에도 스트림은 "닫힌" 상태로 들어갑니다.

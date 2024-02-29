@@ -1,0 +1,1 @@
+* length: [in] * message_array의 메시지 길이입니다. * * 반환: * sha 오류 코드. * */ int SHA224Input(SHA224Context *context, const uint8_t *message_array, unsigned int length) { return SHA256Input(context, message_array, length); }

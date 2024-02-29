@@ -1,0 +1,18 @@
+"hash": |-
+  e1db9a3e567d0d11708c92f78015103c59de1bdf5e05abd761160a7a4a698f0b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Appending the Request-URI to the Route header field is part of
+           a mechanism used to pass the information in that Request-URI
+           through strict-routing elements.  "Popping" the first Route
+           header field value into the Request-URI formats the message the
+           way a strict-routing element expects to receive it (with its
+           own URI in the Request-URI and the next location to visit in
+           the first Route header field value).
+"fixed": |-
+  - Appending the Request-URI to the Route header field is part of a mechanism used to pass the information in that Request-URI through strict-routing elements.  "Popping" the first Route header field value into the Request-URI formats the message the way a strict-routing element expects to receive it (with its own URI in the Request-URI and the next location to visit in the first Route header field value).
+"ko": |-
+  - Route 헤더 필드에 Request-URI를 추가하는 것은 엄격한 라우팅 요소를 통해 해당 Request-URI의 정보를 전달하는 데 사용되는 메커니즘의 일부입니다. 첫 번째 Route 헤더 필드 값을 Request-URI에 "팝핑"하면 엄격한 라우팅 요소가 수신할 것으로 예상되는 방식으로 메시지 형식이 지정됩니다(요청-URI의 자체 URI와 첫 번째 Route 헤더 필드에 방문할 다음 위치 포함). 값).

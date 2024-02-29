@@ -1,0 +1,20 @@
+"hash": |-
+  e8ccce7fc989c62bfac68a90aa434985256c7c70ab45cd55b726c5df1ec3aec3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Many firewalls and other security devices filter traffic based on
+     IPv4 addresses.  Attackers could attempt to fool these firewalls by
+     sending IPv6 packets to or from IPv6 addresses that translate to the
+     filtered IPv4 addresses.  If the attack is successful, traffic that
+     was previously blocked might be able to pass through the firewalls
+     disguised as IPv6 packets.  In all such scenarios, administrators
+     should assure that packets that send to or from IPv4-embedded IPv6
+     addresses are subject to the same filtering as those directly sent to
+     or from the embedded IPv4 addresses.
+"fixed": |-
+  Many firewalls and other security devices filter traffic based on IPv4 addresses.  Attackers could attempt to fool these firewalls by sending IPv6 packets to or from IPv6 addresses that translate to the filtered IPv4 addresses.  If the attack is successful, traffic that was previously blocked might be able to pass through the firewalls disguised as IPv6 packets.  In all such scenarios, administrators should assure that packets that send to or from IPv4-embedded IPv6 addresses are subject to the same filtering as those directly sent to or from the embedded IPv4 addresses.
+"ko": |-
+  많은 방화벽 및 기타 보안 장치는 IPv4 주소를 기반으로 트래픽을 필터링합니다. 공격자는 필터링된 IPv4 주소로 변환되는 IPv6 주소 간에 IPv6 패킷을 보내 이러한 방화벽을 속이려고 시도할 수 있습니다. 공격이 성공하면 기존에 차단됐던 트래픽이 IPv6 패킷으로 위장해 방화벽을 통과할 수도 있다. 이러한 모든 시나리오에서 관리자는 IPv4 내장 IPv6 주소로 전송되거나 내장된 IPv4 주소에서 직접 전송되는 패킷과 동일한 필터링이 적용되는지 확인해야 합니다.

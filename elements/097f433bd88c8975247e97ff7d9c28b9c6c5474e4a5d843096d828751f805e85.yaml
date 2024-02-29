@@ -1,0 +1,26 @@
+"hash": |-
+  097f433bd88c8975247e97ff7d9c28b9c6c5474e4a5d843096d828751f805e85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the encoding method is deterministic (e.g., EMSA-PKCS1-v1_5), the
+     verification operation may apply the message encoding operation to
+     the message and compare the resulting encoded message to the
+     previously derived encoded message.  If there is a match, the
+     signature is considered valid.  If the method is randomized (e.g.,
+     EMSA-PSS), the verification operation is typically more complicated.
+     For example, the verification operation in EMSA-PSS extracts the
+     random salt and a hash output from the encoded message and checks
+     whether the hash output, the salt, and the message are consistent;
+     the hash output is a deterministic function in terms of the message
+     and the salt.  For both signature schemes with appendix defined in
+     this document, the signature generation and signature verification
+     operations are readily implemented as "single-pass" operations if the
+     signature is placed after the message.  See PKCS #7 [RFC2315] for an
+     example format in the case of RSASSA-PKCS1-v1_5.
+"fixed": |-
+  If the encoding method is deterministic (e.g., EMSA-PKCS1-v1_5), the verification operation may apply the message encoding operation to the message and compare the resulting encoded message to the previously derived encoded message.  If there is a match, the signature is considered valid.  If the method is randomized (e.g., EMSA-PSS), the verification operation is typically more complicated. For example, the verification operation in EMSA-PSS extracts the random salt and a hash output from the encoded message and checks whether the hash output, the salt, and the message are consistent; the hash output is a deterministic function in terms of the message and the salt.  For both signature schemes with appendix defined in this document, the signature generation and signature verification operations are readily implemented as "single-pass" operations if the signature is placed after the message.  See PKCS #7 [RFC2315] for an example format in the case of RSASSA-PKCS1-v1_5.
+"ko": |-
+  인코딩 방법이 결정적(예: EMSA-PKCS1-v1_5)인 경우 확인 작업은 메시지 인코딩 작업을 메시지에 적용하고 결과 인코딩 메시지를 이전에 파생된 인코딩 메시지와 비교할 수 있습니다. 일치하는 것이 있으면 서명이 유효한 것으로 간주됩니다. 방법이 무작위화된 경우(예: EMSA-PSS) 일반적으로 검증 작업이 더 복잡합니다. 예를 들어 EMSA-PSS의 검증 작업은 인코딩된 메시지에서 무작위 솔트와 해시 출력을 추출하고 해시 출력, 솔트 및 메시지가 일치하는지 확인합니다. 해시 출력은 메시지와 솔트 측면에서 결정적인 함수입니다. 이 문서에 정의된 부록이 있는 두 가지 서명 체계 모두 서명 생성 및 서명 확인 작업은 서명이 메시지 뒤에 배치되면 "단일 패스" 작업으로 쉽게 구현됩니다. RSASSA-PKCS1-v1_5의 경우 형식 예는 PKCS #7 [RFC2315]를 참조하세요.

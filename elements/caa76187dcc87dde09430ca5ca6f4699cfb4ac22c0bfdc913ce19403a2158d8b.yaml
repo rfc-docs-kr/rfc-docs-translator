@@ -1,0 +1,20 @@
+"hash": |-
+  caa76187dcc87dde09430ca5ca6f4699cfb4ac22c0bfdc913ce19403a2158d8b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  SingleResponse ::= SEQUENCE {
+     certID                       CertID,
+     certStatus                   CertStatus,
+     thisUpdate                   GeneralizedTime,
+     nextUpdate           [0]     EXPLICIT GeneralizedTime OPTIONAL,
+     singleExtensions     [1]     EXPLICIT Extensions{{re-ocsp-crl |
+                                               re-ocsp-archive-cutoff |
+                                               CrlEntryExtensions, ...}
+                                               } OPTIONAL }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

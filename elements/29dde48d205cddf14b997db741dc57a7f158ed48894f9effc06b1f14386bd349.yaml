@@ -1,0 +1,17 @@
+"hash": |-
+  29dde48d205cddf14b997db741dc57a7f158ed48894f9effc06b1f14386bd349
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This section describes restrictions on the TLS 1.2 feature set that
+     can be used with HTTP/2.  Due to deployment limitations, it might not
+     be possible to fail TLS negotiation when these restrictions are not
+     met.  An endpoint MAY immediately terminate an HTTP/2 connection that
+     does not meet these TLS requirements with a connection error
+     (Section 5.4.1) of type INADEQUATE_SECURITY.
+"fixed": |-
+  This section describes restrictions on the TLS 1.2 feature set that can be used with HTTP/2.  Due to deployment limitations, it might not be possible to fail TLS negotiation when these restrictions are not met.  An endpoint MAY immediately terminate an HTTP/2 connection that does not meet these TLS requirements with a connection error (Section 5.4.1) of type INADEQUATE_SECURITY.
+"ko": |-
+  이 섹션에서는 HTTP/2와 함께 사용할 수 있는 TLS 1.2 기능 세트에 대한 제한 사항을 설명합니다. 배포 제한으로 인해 이러한 제한 사항이 충족되지 않으면 TLS 협상이 실패하지 못할 수도 있습니다. 엔드포인트는 INADEQUATE_SECURITY 유형의 연결 오류(섹션 5.4.1)로 인해 이러한 TLS 요구 사항을 충족하지 않는 HTTP/2 연결을 즉시 종료할 수 있습니다.

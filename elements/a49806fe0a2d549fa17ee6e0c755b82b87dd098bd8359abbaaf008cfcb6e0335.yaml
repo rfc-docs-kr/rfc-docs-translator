@@ -1,0 +1,29 @@
+"hash": |-
+  a49806fe0a2d549fa17ee6e0c755b82b87dd098bd8359abbaaf008cfcb6e0335
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The 'tls-server-end-point' channel binding type consists of a hash of
+     a server certificate.  The reason for this is to produce manageably
+     small channel binding data, as some implementations will be using
+     kernel-mode memory (which is typically scarce) to store these.  This
+     use of a hash algorithm is above and beyond TLS's use of
+     cryptography, therefore the 'tls-server-end-point' channel binding
+     type has a security consideration with respect to hash algorithm
+     agility.  The algorithm to be used, however, is derived from the
+     server certificate's signature algorithm as described in Section 4.1;
+     to recap: use SHA-256 if the certificate signature algorithm uses MD5
+     or SHA-1, else use whatever hash function the certificate uses
+     (unless the signature algorithm uses no hash functions or more than
+     one hash function, in which case 'tls-server-end-point' is
+     undefined).  The construction of 'tls-server-end-point' channel
+     bindings is not directly hash-agile (since no negotiation of hash
+     function is provided for), but it is hash-agile nonetheless.  The
+     hash agility of 'tls-server-end-point' channel bindings derives from
+     PKIX and TLS.
+"fixed": |-
+  The 'tls-server-end-point' channel binding type consists of a hash of a server certificate.  The reason for this is to produce manageably small channel binding data, as some implementations will be using kernel-mode memory (which is typically scarce) to store these.  This use of a hash algorithm is above and beyond TLS's use of cryptography, therefore the 'tls-server-end-point' channel binding type has a security consideration with respect to hash algorithm agility.  The algorithm to be used, however, is derived from the server certificate's signature algorithm as described in Section 4.1; to recap: use SHA-256 if the certificate signature algorithm uses MD5 or SHA-1, else use whatever hash function the certificate uses (unless the signature algorithm uses no hash functions or more than one hash function, in which case 'tls-server-end-point' is undefined).  The construction of 'tls-server-end-point' channel bindings is not directly hash-agile (since no negotiation of hash function is provided for), but it is hash-agile nonetheless.  The hash agility of 'tls-server-end-point' channel bindings derives from PKIX and TLS.
+"ko": |-
+  'tls-server-end-point' 채널 바인딩 유형은 서버 인증서의 해시로 구성됩니다. 그 이유는 일부 구현에서는 이를 저장하기 위해 커널 모드 메모리(일반적으로 부족함)를 사용하기 때문에 관리 가능한 작은 채널 바인딩 데이터를 생성하기 위한 것입니다. 해시 알고리즘의 이러한 사용은 TLS의 암호화 사용보다 높으므로 'tls-server-end-point' 채널 바인딩 유형은 해시 알고리즘 민첩성과 관련하여 보안을 고려합니다. 그러나 사용되는 알고리즘은 섹션 4.1에 설명된 대로 서버 인증서의 서명 알고리즘에서 파생됩니다. 요약하자면: 인증서 서명 알고리즘이 MD5 또는 SHA-1을 사용하는 경우 SHA-256을 사용하고, 그렇지 않으면 인증서가 사용하는 해시 함수를 사용합니다(서명 알고리즘이 해시 함수를 사용하지 않거나 둘 이상의 해시 함수를 사용하지 않는 경우, 'tls-server -종점'은 정의되지 않았습니다.) 'tls-server-end-point' 채널 바인딩의 구성은 직접적으로 해시 민첩성은 아니지만(해시 기능 협상이 제공되지 않기 때문에) 그럼에도 불구하고 해시 민첩성은 있습니다. 'tls-server-end-point' 채널 바인딩의 해시 민첩성은 PKIX 및 TLS에서 파생됩니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  b0b7e0f41b2489cb2feda762d7697455f61eed4e6f7fcd429001b33e3721c906
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           sent from the server to the client.  If the request is INVITE
+           and the final response is a non-2xx, the transaction also
+           includes an ACK to the response.  The ACK for a 2xx response to
+           an INVITE request is a separate transaction.
+"fixed": |-
+  - sent from the server to the client.  If the request is INVITE and the final response is a non-2xx, the transaction also includes an ACK to the response.  The ACK for a 2xx response to an INVITE request is a separate transaction.
+"ko": |-
+  - 서버에서 클라이언트로 전송됩니다. 요청이 INVITE이고 최종 응답이 2xx가 아닌 경우 트랜잭션에는 응답에 대한 ACK도 포함됩니다. INVITE 요청에 대한 2xx 응답에 대한 ACK는 별도의 트랜잭션입니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  d1e11ece7502345cbc5c0409f3c555cb084b7a2cab42a65052ce2578414d3979
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the response has been constructed, it is passed to the INVITE
+     server transaction.  Note, however, that the INVITE server
+     transaction will be destroyed as soon as it receives this final
+     response and passes it to the transport.  Therefore, it is necessary
+     to periodically pass the response directly to the transport until the
+     ACK arrives.  The 2xx response is passed to the transport with an
+     interval that starts at T1 seconds and doubles for each
+     retransmission until it reaches T2 seconds (T1 and T2 are defined in
+     Section 17).  Response retransmissions cease when an ACK request for
+     the response is received.  This is independent of whatever transport
+     protocols are used to send the response.
+"fixed": |-
+  Once the response has been constructed, it is passed to the INVITE server transaction.  Note, however, that the INVITE server transaction will be destroyed as soon as it receives this final response and passes it to the transport.  Therefore, it is necessary to periodically pass the response directly to the transport until the ACK arrives.  The 2xx response is passed to the transport with an interval that starts at T1 seconds and doubles for each retransmission until it reaches T2 seconds (T1 and T2 are defined in Section 17).  Response retransmissions cease when an ACK request for the response is received.  This is independent of whatever transport protocols are used to send the response.
+"ko": |-
+  응답이 구성되면 INVITE 서버 트랜잭션으로 전달됩니다. 그러나 INVITE 서버 트랜잭션은 이 최종 응답을 수신하여 전송에 전달하는 즉시 폐기됩니다. 따라서 ACK가 도착할 때까지 주기적으로 응답을 직접 전송으로 전달해야 합니다. 2xx 응답은 T1초에 시작하여 T2초에 도달할 때까지 각 재전송에 대해 두 배로 증가하는 간격으로 전송에 전달됩니다(T1 및 T2는 섹션 17에 정의되어 있음). 응답에 대한 ACK 요청이 수신되면 응답 재전송이 중단됩니다. 이는 응답을 보내는 데 사용되는 전송 프로토콜과 무관합니다.

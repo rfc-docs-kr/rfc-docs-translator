@@ -1,0 +1,20 @@
+"hash": |-
+  e973041c6874df5544ba7010fb3ec698c2a2c20412cc90b4897c6a06821efaed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Handling of Route and Record-Route construction was very
+        underspecified in RFC 2543, and also not the right approach.  It
+        has been substantially reworked in this specification (and made
+        vastly simpler), and this is arguably the largest change.
+        Backwards compatibility is still provided for deployments that do
+        not use "pre-loaded routes", where the initial request has a set
+        of Route header field values obtained in some way outside of
+        Record-Route.  In those situations, the new mechanism is not
+        interoperable.
+"fixed": |-
+  -  Handling of Route and Record-Route construction was very underspecified in RFC 2543, and also not the right approach.  It has been substantially reworked in this specification (and made vastly simpler), and this is arguably the largest change. Backwards compatibility is still provided for deployments that do not use "pre-loaded routes", where the initial request has a set of Route header field values obtained in some way outside of Record-Route.  In those situations, the new mechanism is not interoperable.
+"ko": |-
+  - RFC 2543에서는 경로 및 기록-경로 구성 처리가 매우 과소 지정되었으며 올바른 접근 방식도 아닙니다. 이 사양에서는 상당히 재작업되었으며(그리고 훨씬 더 단순해졌습니다), 이것이 아마도 가장 큰 변화일 것입니다. 초기 요청에 Record-Route 외부에서 어떤 방식으로든 얻은 Route 헤더 필드 값 세트가 있는 "사전 로드된 경로"를 사용하지 않는 배포에는 이전 버전과의 호환성이 계속 제공됩니다. 이러한 상황에서는 새 메커니즘이 상호 운용되지 않습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  37fdd917de71939883f814dca943b087b5b703d4517179cc2ed676c7aca33df1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If the proxy received the request over TLS, and sent it out
+           over a non-TLS connection, the proxy MUST rewrite the URI in
+           the Record-Route header field to be a SIPS URI.  If the proxy
+           received the request over a non-TLS connection, and sent it out
+           over TLS, the proxy MUST rewrite the URI in the Record-Route
+           header field to be a SIP URI.
+"fixed": |-
+  - If the proxy received the request over TLS, and sent it out over a non-TLS connection, the proxy MUST rewrite the URI in the Record-Route header field to be a SIPS URI.  If the proxy received the request over a non-TLS connection, and sent it out over TLS, the proxy MUST rewrite the URI in the Record-Route header field to be a SIP URI.
+"ko": |-
+  - 프록시가 TLS를 통해 요청을 수신하고 비 TLS 연결을 통해 전송한 경우 프록시는 Record-Route 헤더 필드의 URI를 SIPS URI로 다시 작성해야 합니다. 프록시가 TLS가 아닌 연결을 통해 요청을 수신하고 TLS를 통해 전송한 경우 프록시는 Record-Route 헤더 필드의 URI를 SIP URI로 다시 작성해야 합니다.

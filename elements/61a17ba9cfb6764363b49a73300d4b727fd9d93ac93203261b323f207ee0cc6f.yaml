@@ -1,0 +1,18 @@
+"hash": |-
+  61a17ba9cfb6764363b49a73300d4b727fd9d93ac93203261b323f207ee0cc6f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To allow for better compression efficiency, the Cookie header field
+     MAY be split into separate header fields, each with one or more
+     cookie-pairs.  If there are multiple Cookie header fields after
+     decompression, these MUST be concatenated into a single octet string
+     using the two-octet delimiter of 0x3b, 0x20 (the ASCII string "; ")
+     before being passed into a non-HTTP/2 context, such as an HTTP/1.1
+     connection, or a generic HTTP server application.
+"fixed": |-
+  To allow for better compression efficiency, the Cookie header field MAY be split into separate header fields, each with one or more cookie-pairs.  If there are multiple Cookie header fields after decompression, these MUST be concatenated into a single octet string using the two-octet delimiter of 0x3b, 0x20 (the ASCII string "; ") before being passed into a non-HTTP/2 context, such as an HTTP/1.1 connection, or a generic HTTP server application.
+"ko": |-
+  더 나은 압축 효율성을 허용하기 위해 쿠키 헤더 필드는 각각 하나 이상의 쿠키 쌍이 있는 별도의 헤더 필드로 분할될 수 있습니다. 압축 해제 후 여러 개의 쿠키 헤더 필드가 있는 경우 이러한 필드는 HTTP/2가 아닌 컨텍스트로 전달되기 전에 0x3b, 0x20(ASCII 문자열 ";")의 2옥텟 구분 기호를 사용하여 단일 옥텟 문자열로 연결되어야 합니다. HTTP/1.1 연결 또는 일반 HTTP 서버 애플리케이션으로 사용됩니다.

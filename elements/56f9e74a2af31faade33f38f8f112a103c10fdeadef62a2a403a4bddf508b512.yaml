@@ -1,0 +1,23 @@
+"hash": |-
+  56f9e74a2af31faade33f38f8f112a103c10fdeadef62a2a403a4bddf508b512
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The INVITE request matches a transaction if the Request-URI, To tag,
+     From tag, Call-ID, CSeq, and top Via header field match those of the
+     INVITE request which created the transaction.  In this case, the
+     INVITE is a retransmission of the original one that created the
+     transaction.  The ACK request matches a transaction if the Request-
+     URI, From tag, Call-ID, CSeq number (not the method), and top Via
+     header field match those of the INVITE request which created the
+     transaction, and the To tag of the ACK matches the To tag of the
+     response sent by the server transaction.  Matching is done based on
+     the matching rules defined for each of those header fields.
+     Inclusion of the tag in the To header field in the ACK matching
+     process helps disambiguate ACK for 2xx from ACK for other responses
+"fixed": |-
+  The INVITE request matches a transaction if the Request-URI, To tag, From tag, Call-ID, CSeq, and top Via header field match those of the INVITE request which created the transaction.  In this case, the INVITE is a retransmission of the original one that created the transaction.  The ACK request matches a transaction if the Request- URI, From tag, Call-ID, CSeq number (not the method), and top Via header field match those of the INVITE request which created the transaction, and the To tag of the ACK matches the To tag of the response sent by the server transaction.  Matching is done based on the matching rules defined for each of those header fields. Inclusion of the tag in the To header field in the ACK matching process helps disambiguate ACK for 2xx from ACK for other responses
+"ko": |-
+  INVITE 요청은 Request-URI, To 태그, From 태그, Call-ID, CSeq 및 최상위 Via 헤더 필드가 트랜잭션을 생성한 INVITE 요청의 필드와 일치하는 경우 트랜잭션과 일치합니다. 이 경우 INVITE는 트랜잭션을 생성한 원본의 재전송입니다. Request-URI, From 태그, Call-ID, CSeq 번호(메서드 아님) 및 최상위 Via 헤더 필드가 트랜잭션을 생성한 INVITE 요청의 필드와 ACK의 To 태그와 일치하는 경우 ACK 요청은 트랜잭션과 일치합니다. 서버 트랜잭션이 보낸 응답의 To 태그와 일치합니다. 일치는 각 헤더 필드에 대해 정의된 일치 규칙을 기반으로 수행됩니다. ACK 일치 프로세스의 To 헤더 필드에 태그를 포함하면 2xx에 대한 ACK와 다른 응답에 대한 ACK를 명확하게 하는 데 도움이 됩니다.

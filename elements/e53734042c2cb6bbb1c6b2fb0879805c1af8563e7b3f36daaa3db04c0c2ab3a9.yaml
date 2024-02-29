@@ -1,0 +1,28 @@
+"hash": |-
+  e53734042c2cb6bbb1c6b2fb0879805c1af8563e7b3f36daaa3db04c0c2ab3a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The transport layer is responsible for managing persistent
+     connections for transport protocols like TCP and SCTP, or TLS over
+     those, including ones opened to the transport layer.  This includes
+     connections opened by the client or server transports, so that
+     connections are shared between client and server transport functions.
+     These connections are indexed by the tuple formed from the address,
+     port, and transport protocol at the far end of the connection.  When
+     a connection is opened by the transport layer, this index is set to
+     the destination IP, port and transport.  When the connection is
+     accepted by the transport layer, this index is set to the source IP
+     address, port number, and transport.  Note that, because the source
+     port is often ephemeral, but it cannot be known whether it is
+     ephemeral or selected through procedures in [4], connections accepted
+     by the transport layer will frequently not be reused.  The result is
+     that two proxies in a "peering" relationship using a connection-
+     oriented transport frequently will have two connections in use, one
+     for transactions initiated in each direction.
+"fixed": |-
+  The transport layer is responsible for managing persistent connections for transport protocols like TCP and SCTP, or TLS over those, including ones opened to the transport layer.  This includes connections opened by the client or server transports, so that connections are shared between client and server transport functions. These connections are indexed by the tuple formed from the address, port, and transport protocol at the far end of the connection.  When a connection is opened by the transport layer, this index is set to the destination IP, port and transport.  When the connection is accepted by the transport layer, this index is set to the source IP address, port number, and transport.  Note that, because the source port is often ephemeral, but it cannot be known whether it is ephemeral or selected through procedures in [4], connections accepted by the transport layer will frequently not be reused.  The result is that two proxies in a "peering" relationship using a connection- oriented transport frequently will have two connections in use, one for transactions initiated in each direction.
+"ko": |-
+  전송 계층은 TCP 및 SCTP와 같은 전송 프로토콜에 대한 영구 연결을 관리하거나 전송 계층에 개방된 프로토콜을 포함하여 TLS를 관리하는 역할을 담당합니다. 여기에는 클라이언트 또는 서버 전송에 의해 열린 연결이 포함되므로 클라이언트와 서버 전송 기능 간에 연결이 공유됩니다. 이러한 연결은 연결의 맨 끝에 있는 주소, 포트 및 전송 프로토콜로 구성된 튜플에 의해 색인화됩니다. 전송 계층에서 연결이 열리면 이 인덱스는 대상 IP, 포트 및 전송으로 설정됩니다. 전송 계층에서 연결이 승인되면 이 인덱스는 소스 IP 주소, 포트 번호 및 전송으로 설정됩니다. 소스 포트는 임시적인 경우가 많지만 [4]의 절차를 통해 임시인지 선택되었는지 알 수 없기 때문에 전송 계층에서 허용한 연결이 재사용되지 않는 경우가 많습니다. 결과적으로 연결 지향 전송을 사용하는 "피어링" 관계에 있는 두 프록시는 각 방향에서 시작된 트랜잭션에 대해 하나씩 두 개의 연결을 사용하게 되는 경우가 많습니다.

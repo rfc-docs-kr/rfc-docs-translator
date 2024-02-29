@@ -1,0 +1,17 @@
+"hash": |-
+  c09bfe2e10c32a85488de69fa479d374c04973d5cdcb09346f9d1cd4017a097d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Most values in SETTINGS benefit from or require an understanding of
+     when the peer has received and applied the changed parameter values.
+     In order to provide such synchronization timepoints, the recipient of
+     a SETTINGS frame in which the ACK flag is not set MUST apply the
+     updated settings as soon as possible upon receipt.  SETTINGS frames
+     are acknowledged in the order in which they are received.
+"fixed": |-
+  Most values in SETTINGS benefit from or require an understanding of when the peer has received and applied the changed parameter values. In order to provide such synchronization timepoints, the recipient of a SETTINGS frame in which the ACK flag is not set MUST apply the updated settings as soon as possible upon receipt.  SETTINGS frames are acknowledged in the order in which they are received.
+"ko": |-
+  SETTINGS의 대부분의 값은 피어가 변경된 매개변수 값을 수신하고 적용한 시기를 이해하는 데 도움이 되거나 이해가 필요합니다. 이러한 동기화 시점을 제공하기 위해 ACK 플래그가 설정되지 않은 SETTINGS 프레임의 수신자는 수신 즉시 업데이트된 설정을 최대한 빨리 적용해야 합니다. SETTINGS 프레임은 수신된 순서대로 승인됩니다.

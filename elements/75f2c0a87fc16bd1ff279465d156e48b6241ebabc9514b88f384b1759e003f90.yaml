@@ -1,0 +1,16 @@
+"hash": |-
+  75f2c0a87fc16bd1ff279465d156e48b6241ebabc9514b88f384b1759e003f90
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Define 64-bit TILDA
+   */
+  #define SHA512_TILDA(word, ret)                                \
+    ( (ret)[0] = ~(word)[0], (ret)[1] = ~(word)[1] )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

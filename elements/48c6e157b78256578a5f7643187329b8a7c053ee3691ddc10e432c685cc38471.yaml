@@ -1,0 +1,18 @@
+"hash": |-
+  48c6e157b78256578a5f7643187329b8a7c053ee3691ddc10e432c685cc38471
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      err = USHAFinalBits(&usha, 0x80, 3);
+      if (printResults == PRINTTEXT)
+        printf ("\nError %d. Should be %d.\n", err, shaStateError);
+      if ((printPassFail == PRINTPASSFAIL) ||
+          ((printPassFail == PRINTFAIL) && (err != shaStateError)))
+        printf("%s se: %s\n", hashes[hashno].name,
+          (err == shaStateError) ? "PASSED" : "FAILED");
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

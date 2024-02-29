@@ -1,0 +1,19 @@
+"hash": |-
+  f75a4c1f08e1b1ef505f6056b6a01b08f64756df7e8def419c171670528c59bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a UAC receives a challenge, it SHOULD render to the user the
+     contents of the "realm" parameter in the challenge (which appears in
+     either a WWW-Authenticate header field or Proxy-Authenticate header
+     field) if the UAC device does not already know of a credential for
+     the realm in question.  A service provider that pre-configures UAs
+     with credentials for its realm should be aware that users will not
+     have the opportunity to present their own credentials for this realm
+     when challenged at a pre-configured device.
+"fixed": |-
+  When a UAC receives a challenge, it SHOULD render to the user the contents of the "realm" parameter in the challenge (which appears in either a WWW-Authenticate header field or Proxy-Authenticate header field) if the UAC device does not already know of a credential for the realm in question.  A service provider that pre-configures UAs with credentials for its realm should be aware that users will not have the opportunity to present their own credentials for this realm when challenged at a pre-configured device.
+"ko": |-
+  UAC가 챌린지를 수신하면 UAC 장치가 아직 알지 못하는 경우 챌린지의 "realm" 매개변수(WWW-Authenticate 헤더 필드 또는 Proxy-Authenticate 헤더 필드에 표시됨)의 내용을 사용자에게 렌더링해야 합니다. 해당 영역에 대한 자격 증명입니다. 해당 영역에 대한 자격 증명으로 UA를 사전 구성하는 서비스 공급자는 사용자가 사전 구성된 장치에서 질문을 받을 때 이 영역에 대한 자신의 자격 증명을 제시할 기회가 없다는 점을 알아야 합니다.

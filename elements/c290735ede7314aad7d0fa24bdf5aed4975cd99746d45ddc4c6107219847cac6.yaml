@@ -1,0 +1,23 @@
+"hash": |-
+  c290735ede7314aad7d0fa24bdf5aed4975cd99746d45ddc4c6107219847cac6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  cnonce            =  "cnonce" EQUAL cnonce-value
+  cnonce-value      =  nonce-value
+  nonce-count       =  "nc" EQUAL nc-value
+  nc-value          =  8LHEX
+  dresponse         =  "response" EQUAL request-digest
+  request-digest    =  LDQUOT 32LHEX RDQUOT
+  auth-param        =  auth-param-name EQUAL
+                       ( token / quoted-string )
+  auth-param-name   =  token
+  other-response    =  auth-scheme LWS auth-param
+                       *(COMMA auth-param)
+  auth-scheme       =  token
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  7e39406b16e4f641bd2e84181683eb00e50242b01d214eac7657dc99638e9479
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Forwarding responses for which a client transaction (or more
+        generally any knowledge of having sent an associated request) is
+        not found improves robustness.  In particular, it ensures that
+        "late" 2xx responses to INVITE requests are forwarded properly.
+"fixed": |-
+  - Forwarding responses for which a client transaction (or more generally any knowledge of having sent an associated request) is not found improves robustness.  In particular, it ensures that "late" 2xx responses to INVITE requests are forwarded properly.
+"ko": |-
+  - 클라이언트 트랜잭션(또는 더 일반적으로 관련 요청을 보낸 것에 대한 지식)이 발견되지 않은 응답을 전달하면 견고성이 향상됩니다. 특히 INVITE 요청에 대한 "지연" 2xx 응답이 올바르게 전달되도록 보장합니다.

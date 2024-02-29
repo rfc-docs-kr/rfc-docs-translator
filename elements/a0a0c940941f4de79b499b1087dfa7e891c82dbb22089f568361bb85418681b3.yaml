@@ -1,0 +1,31 @@
+"hash": |-
+  a0a0c940941f4de79b499b1087dfa7e891c82dbb22089f568361bb85418681b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Transported keying material is permitted to be accessed by the EAP
+     peer, authenticator and server.  The EAP peer and server derive EAP
+     keying material during the process of mutually authenticating each
+     other using the selected EAP method.  During the Secure Association
+     Protocol exchange, the EAP peer utilizes keying material to
+     demonstrate to the authenticator that it is the same party that
+     authenticated to the EAP server and was authorized by it.  The EAP
+     authenticator utilizes the transported keying material to prove to
+     the peer not only that the EAP conversation was transported through
+     it (this could be demonstrated by a man-in-the-middle), but that it
+     was uniquely authorized by the EAP server to provide the peer with
+     access to the network.  Unique authorization can only be demonstrated
+     if the EAP authenticator does not share the transported keying
+     material with a party other than the EAP peer and server.  TSKs are
+     permitted to be accessed only by the EAP peer and authenticator (see
+     Section 1.5); TSK derivation is discussed in Section 2.1.  Since
+     demonstration of authorization within the Secure Association Protocol
+     exchange depends on possession of transported keying material, the
+     backend authentication server can obtain TSKs unless it deletes the
+     transported keying material after sending it.
+"fixed": |-
+  Transported keying material is permitted to be accessed by the EAP peer, authenticator and server.  The EAP peer and server derive EAP keying material during the process of mutually authenticating each other using the selected EAP method.  During the Secure Association Protocol exchange, the EAP peer utilizes keying material to demonstrate to the authenticator that it is the same party that authenticated to the EAP server and was authorized by it.  The EAP authenticator utilizes the transported keying material to prove to the peer not only that the EAP conversation was transported through it (this could be demonstrated by a man-in-the-middle), but that it was uniquely authorized by the EAP server to provide the peer with access to the network.  Unique authorization can only be demonstrated if the EAP authenticator does not share the transported keying material with a party other than the EAP peer and server.  TSKs are permitted to be accessed only by the EAP peer and authenticator (see Section 1.5); TSK derivation is discussed in Section 2.1.  Since demonstration of authorization within the Secure Association Protocol exchange depends on possession of transported keying material, the backend authentication server can obtain TSKs unless it deletes the transported keying material after sending it.
+"ko": |-
+  전송된 키 자료는 EAP 피어, 인증자 및 서버에서 액세스할 수 있도록 허용됩니다. EAP 피어와 서버는 선택된 EAP 방법을 사용하여 서로를 상호 인증하는 과정에서 EAP 키 자료를 파생합니다. 보안 연결 프로토콜(Secure Association Protocol) 교환 중에 EAP 피어는 키 자료를 활용하여 EAP 서버에 인증되고 권한을 부여받은 당사자와 동일한 당사자임을 인증자에게 보여줍니다. EAP 인증자는 전송된 키 자료를 활용하여 EAP 대화가 이를 통해 전송되었을 뿐만 아니라(중간자에 의해 시연될 수 있음) EAP 서버에 의해 고유하게 승인되었음을 피어에게 증명합니다. 피어에게 네트워크에 대한 액세스를 제공합니다. 고유 인증은 EAP 인증자가 전송된 키 자료를 EAP 피어 및 서버 이외의 당사자와 공유하지 않는 경우에만 입증될 수 있습니다. TSK는 EAP 피어 및 인증자만 액세스하도록 허용됩니다(섹션 1.5 참조). TSK 파생은 섹션 2.1에서 논의됩니다. Secure Association Protocol 교환 내에서 인증 입증은 전송된 키 자료의 보유에 달려 있으므로 백엔드 인증 서버는 전송된 키 자료를 보낸 후 삭제하지 않는 한 TSK를 얻을 수 있습니다.

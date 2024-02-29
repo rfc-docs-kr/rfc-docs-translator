@@ -1,0 +1,18 @@
+"hash": |-
+  50d87684ecb7cb6be8219d62462330bc29688d539e97bdc7443df19086cd68fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To mitigate this problem, elements constructing telephone-subscriber
+     fields to place in the userinfo part of a SIP or SIPS URI SHOULD fold
+     any case-insensitive portion of telephone-subscriber to lower case,
+     and order the telephone-subscriber parameters lexically by parameter
+     name, excepting isdn-subaddress and post-dial, which occur first and
+     in that order.  (All components of a tel URL except for future-
+     extension parameters are defined to be compared case-insensitive.)
+"fixed": |-
+  To mitigate this problem, elements constructing telephone-subscriber fields to place in the userinfo part of a SIP or SIPS URI SHOULD fold any case-insensitive portion of telephone-subscriber to lower case, and order the telephone-subscriber parameters lexically by parameter name, excepting isdn-subaddress and post-dial, which occur first and in that order.  (All components of a tel URL except for future- extension parameters are defined to be compared case-insensitive.)
+"ko": |-
+  이 문제를 완화하려면 SIP 또는 SIPS URI의 userinfo 부분에 배치할 전화 가입자 필드를 구성하는 요소는 전화 가입자의 대소문자를 구분하지 않는 부분을 소문자로 접어야 하고 전화 가입자 매개변수를 매개변수 이름별로 사전적으로 정렬해야 합니다. 단, isdn-subaddress와 post-dial은 먼저 해당 순서로 발생합니다. (미래 확장 매개변수를 제외한 전화 URL의 모든 구성 요소는 대소문자를 구분하지 않도록 정의되어 있습니다.)

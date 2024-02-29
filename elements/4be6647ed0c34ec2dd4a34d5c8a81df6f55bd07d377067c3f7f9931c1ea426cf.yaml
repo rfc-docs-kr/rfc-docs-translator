@@ -1,0 +1,17 @@
+"hash": |-
+  4be6647ed0c34ec2dd4a34d5c8a81df6f55bd07d377067c3f7f9931c1ea426cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        An intermediary that needs to generate a Host header field (which
+        might be necessary to construct an HTTP/1.1 request) MUST use the
+        value from the ":authority" pseudo-header field as the value of
+        the Host field, unless the intermediary also changes the request
+        target.  This replaces any existing Host field to avoid potential
+        vulnerabilities in HTTP routing.
+"fixed": |-
+  - An intermediary that needs to generate a Host header field (which might be necessary to construct an HTTP/1.1 request) MUST use the value from the ":authority" pseudo-header field as the value of the Host field, unless the intermediary also changes the request target.  This replaces any existing Host field to avoid potential vulnerabilities in HTTP routing.
+"ko": |-
+  - Host 헤더 필드(HTTP/1.1 요청을 구성하는 데 필요할 수 있음)를 생성해야 하는 중개자는 ":authority" 의사 헤더 필드의 값을 Host 필드의 값으로 사용해야 합니다. 요청 대상을 변경합니다. 이는 HTTP 라우팅의 잠재적인 취약점을 방지하기 위해 기존 호스트 필드를 대체합니다.

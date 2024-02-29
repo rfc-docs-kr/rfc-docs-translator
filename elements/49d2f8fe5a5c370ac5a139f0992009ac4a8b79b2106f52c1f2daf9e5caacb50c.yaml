@@ -1,0 +1,22 @@
+"hash": |-
+  49d2f8fe5a5c370ac5a139f0992009ac4a8b79b2106f52c1f2daf9e5caacb50c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Before they forward the request, both proxy servers SHOULD add a
+     Record-Route header field to the request so that all future requests
+     in this dialog will pass through the proxy servers.  The proxy
+     servers can thereby continue to provide security services for the
+     lifetime of this dialog.  If the proxy servers do not add themselves
+     to the Record-Route, future messages will pass directly end-to-end
+     between Alice and Bob without any security services (unless the two
+     parties agree on some independent end-to-end security such as
+     S/MIME).  In this respect the SIP trapezoid model can provide a nice
+     structure where conventions of agreement between the site proxies can
+     provide a reasonably secure channel between Alice and Bob.
+"fixed": |-
+  Before they forward the request, both proxy servers SHOULD add a Record-Route header field to the request so that all future requests in this dialog will pass through the proxy servers.  The proxy servers can thereby continue to provide security services for the lifetime of this dialog.  If the proxy servers do not add themselves to the Record-Route, future messages will pass directly end-to-end between Alice and Bob without any security services (unless the two parties agree on some independent end-to-end security such as S/MIME).  In this respect the SIP trapezoid model can provide a nice structure where conventions of agreement between the site proxies can provide a reasonably secure channel between Alice and Bob.
+"ko": |-
+  요청을 전달하기 전에 두 프록시 서버 모두 요청에 Record-Route 헤더 필드를 추가하여 이 대화 상자의 모든 향후 요청이 프록시 서버를 통과하도록 해야 합니다. 따라서 프록시 서버는 이 대화의 수명 동안 보안 서비스를 계속 제공할 수 있습니다. 프록시 서버가 Record-Route에 자신을 추가하지 않으면 향후 메시지는 보안 서비스 없이 Alice와 Bob 사이에서 직접 종단 간 전달됩니다(두 당사자가 S와 같은 일부 독립적인 종단 간 보안에 동의하지 않는 한). /몸짓 광대극). 이러한 점에서 SIP 사다리꼴 모델은 사이트 프록시 간의 합의 규칙이 Alice와 Bob 사이에 합리적으로 안전한 채널을 제공할 수 있는 멋진 구조를 제공할 수 있습니다.

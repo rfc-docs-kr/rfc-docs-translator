@@ -1,0 +1,24 @@
+"hash": |-
+  f8a89c5183331e373f70a5e7320eae529d7c22cd31bef4632982ea710a882a26
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Hash functions are used in the operations contained in Sections 7 and
+     9.  Hash functions are deterministic, meaning that the output is
+     completely determined by the input.  Hash functions take octet
+     strings of variable length and generate fixed-length octet strings.
+     The hash functions used in the operations contained in Sections 7 and
+     9 should generally be collision-resistant.  This means that it is
+     infeasible to find two distinct inputs to the hash function that
+     produce the same output.  A collision-resistant hash function also
+     has the desirable property of being one-way; this means that given an
+     output, it is infeasible to find an input whose hash is the specified
+     output.  In addition to the requirements, the hash function should
+     yield a mask generation function (Appendix B.2) with pseudorandom
+     output.
+"fixed": |-
+  Hash functions are used in the operations contained in Sections 7 and 9.  Hash functions are deterministic, meaning that the output is completely determined by the input.  Hash functions take octet strings of variable length and generate fixed-length octet strings. The hash functions used in the operations contained in Sections 7 and 9 should generally be collision-resistant.  This means that it is infeasible to find two distinct inputs to the hash function that produce the same output.  A collision-resistant hash function also has the desirable property of being one-way; this means that given an output, it is infeasible to find an input whose hash is the specified output.  In addition to the requirements, the hash function should yield a mask generation function (Appendix B.2) with pseudorandom output.
+"ko": |-
+  해시 함수는 섹션 7과 9에 포함된 작업에 사용됩니다. 해시 함수는 결정적입니다. 즉, 출력이 입력에 의해 완전히 결정된다는 의미입니다. 해시 함수는 가변 길이의 옥텟 문자열을 사용하여 고정 길이 옥텟 문자열을 생성합니다. 섹션 7과 9에 포함된 작업에 사용되는 해시 함수는 일반적으로 충돌 방지 기능을 갖추어야 합니다. 이는 동일한 출력을 생성하는 해시 함수에 대한 두 개의 서로 다른 입력을 찾는 것이 불가능하다는 것을 의미합니다. 충돌 방지 해시 함수는 단방향이라는 바람직한 속성도 가지고 있습니다. 이는 출력이 주어지면 해시가 지정된 출력인 입력을 찾는 것이 불가능하다는 것을 의미합니다. 요구 사항 외에도 해시 함수는 의사 난수 출력이 있는 마스크 생성 함수(부록 B.2)를 생성해야 합니다.

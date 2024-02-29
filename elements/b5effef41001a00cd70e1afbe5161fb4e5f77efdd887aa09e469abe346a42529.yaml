@@ -1,0 +1,19 @@
+"hash": |-
+  b5effef41001a00cd70e1afbe5161fb4e5f77efdd887aa09e469abe346a42529
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Section 8.2 does not include specific rules for validation of pseudo-
+     header fields.  If the values of these fields are used, additional
+     validation is necessary.  This is particularly important where
+     ":scheme", ":authority", and ":path" are combined to form a single
+     URI string [RFC3986].  Similar problems might occur when that URI or
+     just ":path" is combined with ":method" to construct a request line
+     (as in Section 3 of [HTTP/1.1]).  Simple concatenation is not secure
+     unless the input values are fully validated.
+"fixed": |-
+  Section 8.2 does not include specific rules for validation of pseudo- header fields.  If the values of these fields are used, additional validation is necessary.  This is particularly important where ":scheme", ":authority", and ":path" are combined to form a single URI string [RFC3986].  Similar problems might occur when that URI or just ":path" is combined with ":method" to construct a request line (as in Section 3 of [HTTP/1.1]).  Simple concatenation is not secure unless the input values are fully validated.
+"ko": |-
+  섹션 8.2에는 의사 헤더 필드의 유효성 검사에 대한 특정 규칙이 포함되어 있지 않습니다. 이러한 필드의 값을 사용하는 경우 추가 유효성 검사가 필요합니다. 이는 ":scheme", ":authority" 및 ":path"가 결합되어 단일 URI 문자열 [RFC3986]을 형성하는 경우 특히 중요합니다. 요청 라인을 구성하기 위해 해당 URI 또는 ​​":path"가 ":method"와 결합될 때 비슷한 문제가 발생할 수 있습니다([HTTP/1.1]의 섹션 3에서처럼). 입력 값이 완전히 검증되지 않으면 단순 연결은 안전하지 않습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  95437a80625c856a844cd2e6fb2f13086d0f85e68386a0a0e5e3adcef33ae715
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the INVITE has been approved by the biloxi proxy, the proxy
+     server SHOULD identify the existing TLS channel, if any, associated
+     with the user targeted by this request (in this case
+     "bob@biloxi.com").  The INVITE should be proxied through this channel
+     to Bob.  Since the request is received over a TLS connection that had
+     previously been authenticated as the biloxi proxy, Bob knows that the
+     From header field was not tampered with and that atlanta.com has
+     validated Alice, although not necessarily whether or not to trust
+     Alice's identity.
+"fixed": |-
+  Once the INVITE has been approved by the biloxi proxy, the proxy server SHOULD identify the existing TLS channel, if any, associated with the user targeted by this request (in this case "bob@biloxi.com").  The INVITE should be proxied through this channel to Bob.  Since the request is received over a TLS connection that had previously been authenticated as the biloxi proxy, Bob knows that the From header field was not tampered with and that atlanta.com has validated Alice, although not necessarily whether or not to trust Alice's identity.
+"ko": |-
+  INVITE가 biloxi 프록시에 의해 승인되면 프록시 서버는 이 요청의 대상 사용자(이 경우 "bob@biloxi.com")와 연결된 기존 TLS 채널(있는 경우)을 식별해야 합니다. INVITE는 이 채널을 통해 Bob에게 프록시 처리되어야 합니다. 이전에 biloxi 프록시로 인증된 TLS 연결을 통해 요청이 수신되었으므로 Bob은 From 헤더 필드가 변조되지 않았으며 atlanta.com이 Alice의 유효성을 검사했음을 알고 있지만 Alice의 신원을 신뢰할지 여부는 반드시 그런 것은 아닙니다.

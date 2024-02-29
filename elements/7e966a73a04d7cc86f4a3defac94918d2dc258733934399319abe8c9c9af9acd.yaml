@@ -1,0 +1,16 @@
+"hash": |-
+  7e966a73a04d7cc86f4a3defac94918d2dc258733934399319abe8c9c9af9acd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     SETTINGS frames always apply to a connection, never a single stream.
+     The stream identifier for a SETTINGS frame MUST be zero (0x00).  If
+     an endpoint receives a SETTINGS frame whose Stream Identifier field
+     is anything other than 0x00, the endpoint MUST respond with a
+     connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  SETTINGS frames always apply to a connection, never a single stream. The stream identifier for a SETTINGS frame MUST be zero (0x00).  If an endpoint receives a SETTINGS frame whose Stream Identifier field is anything other than 0x00, the endpoint MUST respond with a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  SETTINGS 프레임은 항상 연결에 적용되며 단일 스트림에는 적용되지 않습니다. SETTINGS 프레임의 스트림 식별자는 0(0x00)이어야 합니다. 엔드포인트가 스트림 식별자 필드가 0x00이 아닌 SETTINGS 프레임을 수신하는 경우 엔드포인트는 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 응답해야 합니다.

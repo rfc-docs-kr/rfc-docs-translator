@@ -1,0 +1,18 @@
+"hash": |-
+  fe55d58090e1df94757b86692d4408fe38b1d7ca1d8faed066ab314e3aa9f26d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A registrar has to know (for example, through configuration) the set
+     of domain(s) for which it maintains bindings.  REGISTER requests MUST
+     be processed by a registrar in the order that they are received.
+     REGISTER requests MUST also be processed atomically, meaning that a
+     particular REGISTER request is either processed completely or not at
+     all.  Each REGISTER message MUST be processed independently of any
+     other registration or binding changes.
+"fixed": |-
+  A registrar has to know (for example, through configuration) the set of domain(s) for which it maintains bindings.  REGISTER requests MUST be processed by a registrar in the order that they are received. REGISTER requests MUST also be processed atomically, meaning that a particular REGISTER request is either processed completely or not at all.  Each REGISTER message MUST be processed independently of any other registration or binding changes.
+"ko": |-
+  등록자는 바인딩을 유지 관리하는 도메인 집합을 알아야 합니다(예: 구성을 통해). REGISTER 요청은 수신된 순서대로 등록기관에 의해 처리되어야 합니다. REGISTER 요청은 또한 원자적으로 처리되어야 합니다. 즉, 특정 REGISTER 요청은 완전히 처리되거나 전혀 처리되지 않습니다. 각 REGISTER 메시지는 다른 등록 또는 바인딩 변경과 독립적으로 처리되어야 합니다.

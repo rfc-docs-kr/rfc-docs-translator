@@ -1,0 +1,21 @@
+"hash": |-
+  a0e01e36ecf7985ae4671e1cc2101e3e52d85635f05874cc2d96041633bee6b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Non-INVITE transactions do not make use of ACK.  They are simple
+     request-response interactions.  For unreliable transports, requests
+     are retransmitted at an interval which starts at T1 and doubles until
+     it hits T2.  If a provisional response is received, retransmissions
+     continue for unreliable transports, but at an interval of T2.  The
+     server transaction retransmits the last response it sent, which can
+     be a provisional or final response, only when a retransmission of the
+     request is received.  This is why request retransmissions need to
+     continue even after a provisional response; they are to ensure
+     reliable delivery of the final response.
+"fixed": |-
+  Non-INVITE transactions do not make use of ACK.  They are simple request-response interactions.  For unreliable transports, requests are retransmitted at an interval which starts at T1 and doubles until it hits T2.  If a provisional response is received, retransmissions continue for unreliable transports, but at an interval of T2.  The server transaction retransmits the last response it sent, which can be a provisional or final response, only when a retransmission of the request is received.  This is why request retransmissions need to continue even after a provisional response; they are to ensure reliable delivery of the final response.
+"ko": |-
+  INVITE가 아닌 트랜잭션은 ACK를 사용하지 않습니다. 이는 단순한 요청-응답 상호작용입니다. 신뢰할 수 없는 전송의 경우 요청은 T1에서 시작하여 T2에 도달할 때까지 두 배가 되는 간격으로 재전송됩니다. 임시 응답을 수신하면 신뢰할 수 없는 전송에 대해 T2 간격으로 재전송이 계속됩니다. 서버 트랜잭션은 요청의 재전송이 수신된 경우에만 보낸 마지막 응답(임시 응답 또는 최종 응답)을 재전송합니다. 이것이 임시 응답 후에도 요청 재전송이 계속되어야 하는 이유입니다. 이는 최종 응답의 안정적인 전달을 보장하기 위한 것입니다.

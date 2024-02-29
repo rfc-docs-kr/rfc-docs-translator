@@ -1,0 +1,15 @@
+"hash": |-
+  83d4708bd5a35753718ed140b3d3ee4ed997e88a84d80e6214240623cceda3a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PING frames are not associated with any individual stream.  If a PING
+     frame is received with a Stream Identifier field value other than
+     0x00, the recipient MUST respond with a connection error
+     (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  PING frames are not associated with any individual stream.  If a PING frame is received with a Stream Identifier field value other than 0x00, the recipient MUST respond with a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  PING 프레임은 개별 스트림과 연결되지 않습니다. PING 프레임이 0x00이 아닌 스트림 식별자 필드 값으로 수신되면 수신자는 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 응답해야 합니다.

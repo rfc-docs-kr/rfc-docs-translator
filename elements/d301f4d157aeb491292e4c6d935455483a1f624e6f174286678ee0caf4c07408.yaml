@@ -1,0 +1,19 @@
+"hash": |-
+  d301f4d157aeb491292e4c6d935455483a1f624e6f174286678ee0caf4c07408
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o  All other message transformations specified in Section 16.6
+           MUST result in the same transformation of a retransmitted
+           request.  In particular, if the proxy inserts a Record-Route
+           value or pushes URIs into the Route header field, it MUST place
+           the same values in retransmissions of the request.  As for the
+           Via branch parameter, this implies that the transformations
+           MUST be based on time-invariant configuration or
+           retransmission-invariant properties of the request.
+"fixed": |-
+  -  All other message transformations specified in Section 16.6 MUST result in the same transformation of a retransmitted request.  In particular, if the proxy inserts a Record-Route value or pushes URIs into the Route header field, it MUST place the same values in retransmissions of the request.  As for the Via branch parameter, this implies that the transformations MUST be based on time-invariant configuration or retransmission-invariant properties of the request.
+"ko": |-
+  - 섹션 16.6에 지정된 다른 모든 메시지 변환은 재전송된 요청의 동일한 변환을 초래해야 합니다. 특히, 프록시가 Record-Route 값을 삽입하거나 URI를 Route 헤더 필드에 푸시하는 경우 요청 재전송에 동일한 값을 배치해야 합니다. Via 분기 매개변수의 경우 이는 변환이 요청의 시불변 구성 또는 재전송 불변 속성을 기반으로 해야 함을 의미합니다.

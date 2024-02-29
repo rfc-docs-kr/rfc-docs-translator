@@ -1,0 +1,27 @@
+"hash": |-
+  c0e64de63e5dd7866b9a9a083da4d657c6f34fd4aec81b0e0840db4b97e51427
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (j = 0; j < randomcount; j++) {
+      /* MD0 = MD1 = MD2 = Seed; */
+      memcpy(MD[0], SEED, hashsize);
+      memcpy(MD[1], SEED, hashsize);
+      memcpy(MD[2], SEED, hashsize);
+      for (i=3; i<1003; i++) {
+        /* Mi = MDi-3 || MDi-2 || MDi-1; */
+        USHAContext Mi;
+        memset(&Mi, '\343', sizeof(Mi)); /* force bad data into struct */
+        USHAReset(&Mi, hashes[hashno].whichSha);
+        USHAInput(&Mi, MD[i-3], hashsize);
+        USHAInput(&Mi, MD[i-2], hashsize);
+        USHAInput(&Mi, MD[i-1], hashsize);
+        /* MDi = SHA(Mi); */
+        USHAResult(&Mi, MD[i]);
+      }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

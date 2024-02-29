@@ -1,0 +1,14 @@
+"hash": |-
+  ddbcab60221b478bbd00fbc102d6e4587175ed1e5f2a19ca97b8ebf3be575483
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        -  Providing tiny increments to flow control in WINDOW_UPDATE
+           frames can cause a sender to generate a large number of DATA
+           frames.
+"fixed": |-
+  -  Providing tiny increments to flow control in WINDOW_UPDATE frames can cause a sender to generate a large number of DATA frames.
+"ko": |-
+  - WINDOW_UPDATE 프레임의 흐름 제어에 작은 증분을 제공하면 발신자가 많은 수의 DATA 프레임을 생성할 수 있습니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  0a90e66d3a8eeea27aec9c9bef8800ee4dc0bc92791f596b5a7faa9e0bef51ef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RST_STREAM frames MUST be associated with a stream.  If a RST_STREAM
+     frame is received with a stream identifier of 0x00, the recipient
+     MUST treat this as a connection error (Section 5.4.1) of type
+     PROTOCOL_ERROR.
+"fixed": |-
+  RST_STREAM frames MUST be associated with a stream.  If a RST_STREAM frame is received with a stream identifier of 0x00, the recipient MUST treat this as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  RST_STREAM 프레임은 스트림과 연결되어야 합니다. RST_STREAM 프레임이 스트림 식별자 0x00으로 수신되면 수신자는 이를 PROTOCOL_ERROR 유형의 연결 오류(5.4.1절)로 처리해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  d317772abfdd0ce18d22ea0591205fa42b36674904d838342bcdb864f5c5fc6a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the GOAWAY is sent, the sender will ignore frames sent on
+     streams initiated by the receiver if the stream has an identifier
+     higher than the included last stream identifier.  Receivers of a
+     GOAWAY frame MUST NOT open additional streams on the connection,
+     although a new connection can be established for new streams.
+"fixed": |-
+  Once the GOAWAY is sent, the sender will ignore frames sent on streams initiated by the receiver if the stream has an identifier higher than the included last stream identifier.  Receivers of a GOAWAY frame MUST NOT open additional streams on the connection, although a new connection can be established for new streams.
+"ko": |-
+  GOAWAY가 전송되면 스트림에 포함된 마지막 스트림 식별자보다 높은 식별자가 있는 경우 송신자는 수신자가 시작한 스트림에서 전송된 프레임을 무시합니다. GOAWAY 프레임의 수신기는 새로운 스트림에 대해 새로운 연결이 설정될 수 있더라도 연결에서 추가 스트림을 열어서는 안 됩니다.

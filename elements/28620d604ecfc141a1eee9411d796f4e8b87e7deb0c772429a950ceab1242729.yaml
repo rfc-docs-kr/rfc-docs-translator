@@ -1,0 +1,18 @@
+"hash": |-
+  28620d604ecfc141a1eee9411d796f4e8b87e7deb0c772429a950ceab1242729
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As any other element (including proxies) would do, it resolves the
+     URI in the topmost Route header field value using DNS to determine
+     where to send the request.  This goes to P1.  P1 notices that it is
+     not responsible for the resource indicated in the Request-URI so it
+     doesn't change it.  It does see that it is the first value in the
+     Route header field, so it removes that value, and forwards the
+     request to P2:
+"fixed": |-
+  As any other element (including proxies) would do, it resolves the URI in the topmost Route header field value using DNS to determine where to send the request.  This goes to P1.  P1 notices that it is not responsible for the resource indicated in the Request-URI so it doesn't change it.  It does see that it is the first value in the Route header field, so it removes that value, and forwards the request to P2:
+"ko": |-
+  다른 요소(프록시 포함)와 마찬가지로 DNS를 사용하여 최상위 경로 헤더 필드 값의 URI를 확인하여 요청을 보낼 위치를 결정합니다. 이것은 P1으로 이동합니다. P1은 Request-URI에 표시된 리소스에 대해 책임이 없다는 것을 알고 이를 변경하지 않습니다. Route 헤더 필드의 첫 번째 값임을 확인하고 해당 값을 제거하고 요청을 P2로 전달합니다.

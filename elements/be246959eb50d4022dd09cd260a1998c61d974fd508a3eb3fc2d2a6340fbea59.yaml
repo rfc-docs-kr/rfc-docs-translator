@@ -1,0 +1,29 @@
+"hash": |-
+  be246959eb50d4022dd09cd260a1998c61d974fd508a3eb3fc2d2a6340fbea59
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+   *      The SHA-1 algorithm produces a 160-bit message digest for a
+   *      given data stream that can serve as a means of providing a
+   *      "fingerprint" for a message.
+   *
+   *  Portability Issues:
+   *      SHA-1 is defined in terms of 32-bit "words".  This code
+   *      uses <stdint.h> (included via "sha.h") to define 32- and
+   *      8-bit unsigned integer types.  If your C compiler does
+   *      not support 32-bit unsigned integers, this code is not
+   *      appropriate.
+   *
+   *  Caveats:
+   *      SHA-1 is designed to work with messages less than 2^64 bits
+   *      long.  This implementation uses SHA1Input() to hash the bits
+   *      that are a multiple of the size of an 8-bit octet, and then
+   *      optionally uses SHA1FinalBits() to hash the final few bits of
+   *      the input.
+   */
+"fixed": |-
+  *      The SHA-1 algorithm produces a 160-bit message digest for a *      given data stream that can serve as a means of providing a *      "fingerprint" for a message. * *  Portability Issues: *      SHA-1 is defined in terms of 32-bit "words".  This code *      uses <stdint.h> (included via "sha.h") to define 32- and *      8-bit unsigned integer types.  If your C compiler does *      not support 32-bit unsigned integers, this code is not *      appropriate. * *  Caveats: *      SHA-1 is designed to work with messages less than 2^64 bits *      long.  This implementation uses SHA1Input() to hash the bits *      that are a multiple of the size of an 8-bit octet, and then *      optionally uses SHA1FinalBits() to hash the final few bits of *      the input. */
+"ko": |-
+  * SHA-1 알고리즘은 메시지에 대한 "지문"을 제공하는 수단으로 * 사용될 수 있는 특정 데이터 스트림에 대한 160비트 메시지 다이제스트를 생성합니다. * * 이식성 문제: * SHA-1은 32비트 "단어"로 정의됩니다. 이 코드는 * <stdint.h>("sha.h"를 통해 포함됨)를 사용하여 32비트 및 * 8비트 부호 없는 정수 유형을 정의합니다. 귀하의 C 컴파일러가 32비트 부호 없는 정수를 * 지원하지 않는다면 이 코드는 적합하지 * 않습니다. * * 주의 사항: * SHA-1은 길이가 2^64비트 * 미만인 메시지에서 작동하도록 설계되었습니다. 이 구현에서는 SHA1Input()을 사용하여 8비트 옥텟 크기의 배수인 * 비트를 해시한 다음 * 선택적으로 SHA1FinalBits()를 사용하여 입력의 마지막 몇 비트를 * 해시합니다. */

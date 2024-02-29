@@ -1,0 +1,23 @@
+"hash": |-
+  6c7d0762c1064b278479e80b2de9ffc07a0c2801116402d33a962adae9e61ede
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           RSAPrivateKey ::= SEQUENCE {
+               version           Version,
+               modulus           INTEGER,  -- n
+               publicExponent    INTEGER,  -- e
+               privateExponent   INTEGER,  -- d
+               prime1            INTEGER,  -- p
+               prime2            INTEGER,  -- q
+               exponent1         INTEGER,  -- d mod (p-1)
+               exponent2         INTEGER,  -- d mod (q-1)
+               coefficient       INTEGER,  -- (inverse of q) mod p
+               otherPrimeInfos   OtherPrimeInfos OPTIONAL
+           }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

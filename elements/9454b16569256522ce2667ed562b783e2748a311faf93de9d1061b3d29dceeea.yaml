@@ -1,0 +1,26 @@
+"hash": |-
+  9454b16569256522ce2667ed562b783e2748a311faf93de9d1061b3d29dceeea
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Content-Length  =  ( "Content-Length" / "l" ) HCOLON 1*DIGIT
+  Content-Type     =  ( "Content-Type" / "c" ) HCOLON media-type
+  media-type       =  m-type SLASH m-subtype *(SEMI m-parameter)
+  m-type           =  discrete-type / composite-type
+  discrete-type    =  "text" / "image" / "audio" / "video"
+                      / "application" / extension-token
+  composite-type   =  "message" / "multipart" / extension-token
+  extension-token  =  ietf-token / x-token
+  ietf-token       =  token
+  x-token          =  "x-" token
+  m-subtype        =  extension-token / iana-token
+  iana-token       =  token
+  m-parameter      =  m-attribute EQUAL m-value
+  m-attribute      =  token
+  m-value          =  token / quoted-string
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

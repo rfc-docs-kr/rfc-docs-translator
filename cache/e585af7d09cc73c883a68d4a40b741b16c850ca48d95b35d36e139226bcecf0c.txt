@@ -1,0 +1,1 @@
+Nonce는 요청과 응답을 암호화 방식으로 바인딩하여 재생 공격을 방지합니다. Nonce는 요청의 requestExtension 중 하나로 포함되는 반면, 응답에서는 responseExtension 중 하나로 포함됩니다. 요청과 응답 모두에서 nonce는 객체 식별자 id-pkix-ocsp-nonce로 식별되는 반면 extnValue는 nonce의 값입니다.

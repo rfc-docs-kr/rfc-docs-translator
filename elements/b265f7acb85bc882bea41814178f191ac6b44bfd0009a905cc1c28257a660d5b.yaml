@@ -1,0 +1,16 @@
+"hash": |-
+  b265f7acb85bc882bea41814178f191ac6b44bfd0009a905cc1c28257a660d5b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver that wishes to use a smaller flow-control window than the
+     current size can send a new SETTINGS frame.  However, the receiver
+     MUST be prepared to receive data that exceeds this window size, since
+     the sender might send data that exceeds the lower limit prior to
+     processing the SETTINGS frame.
+"fixed": |-
+  A receiver that wishes to use a smaller flow-control window than the current size can send a new SETTINGS frame.  However, the receiver MUST be prepared to receive data that exceeds this window size, since the sender might send data that exceeds the lower limit prior to processing the SETTINGS frame.
+"ko": |-
+  현재 크기보다 작은 흐름 제어 창을 사용하려는 수신기는 새 SETTINGS 프레임을 보낼 수 있습니다. 그러나 송신자는 SETTINGS 프레임을 처리하기 전에 하한을 초과하는 데이터를 보낼 수 있으므로 수신자는 이 창 크기를 초과하는 데이터를 수신할 준비를 해야 합니다.

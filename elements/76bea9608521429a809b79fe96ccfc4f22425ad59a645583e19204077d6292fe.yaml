@@ -1,0 +1,17 @@
+"hash": |-
+  76bea9608521429a809b79fe96ccfc4f22425ad59a645583e19204077d6292fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If no hash function is used in an ElGamal signature system, then the
+     system is vulnerable to existential forgeries, in which an attacker
+     who does not know a private key can generate valid signatures for the
+     associated public key, but cannot generate a signature for a message
+     of its own choosing.  (See [E1985] for instance.)  The use of a
+     collision-resistant hash function eliminates this vulnerability.
+"fixed": |-
+  If no hash function is used in an ElGamal signature system, then the system is vulnerable to existential forgeries, in which an attacker who does not know a private key can generate valid signatures for the associated public key, but cannot generate a signature for a message of its own choosing.  (See [E1985] for instance.)  The use of a collision-resistant hash function eliminates this vulnerability.
+"ko": |-
+  ElGamal 서명 시스템에 해시 함수가 사용되지 않으면 시스템은 개인 키를 모르는 공격자가 관련 공개 키에 대해 유효한 서명을 생성할 수 있지만 메시지에 대한 서명을 생성할 수 없는 실존적 위조에 취약합니다. 자신이 선택한 것. (예를 들어 [E1985]를 참조하십시오.) 충돌 방지 해시 함수를 사용하면 이러한 취약점이 제거됩니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  7734b33c071e3ff7346b8389937ef2a29e9776d2b2cc7bec8da5e5fdc8cd0a0a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While [RFC3588] requires use of the Route-Record AVP, this utilizes
+     Fully Qualified Domain Names (FQDNs), so that impersonation detection
+     requires DNS A, AAAA, and PTR Resource Records (RRs) to be properly
+     configured.  As a result, Diameter is as vulnerable to this attack as
+     RADIUS, if not more so.  [RFC3579] Section 4.3.7 recommends
+     mechanisms for impersonation detection; to prevent access to keying
+     material by proxies without a "need to know", it is necessary to
+     allow the backend authentication server to communicate with the
+     authenticator directly, such as via the redirect functionality
+     supported in [RFC3588].
+"fixed": |-
+  While [RFC3588] requires use of the Route-Record AVP, this utilizes Fully Qualified Domain Names (FQDNs), so that impersonation detection requires DNS A, AAAA, and PTR Resource Records (RRs) to be properly configured.  As a result, Diameter is as vulnerable to this attack as RADIUS, if not more so.  [RFC3579] Section 4.3.7 recommends mechanisms for impersonation detection; to prevent access to keying material by proxies without a "need to know", it is necessary to allow the backend authentication server to communicate with the authenticator directly, such as via the redirect functionality supported in [RFC3588].
+"ko": |-
+  [RFC3588]에서는 Route-Record AVP를 사용해야 하지만 FQDN(정규화된 도메인 이름)을 사용하므로 가장 탐지를 위해서는 DNS A, AAAA 및 PTR RR(리소스 레코드)을 적절하게 구성해야 합니다. 결과적으로 Diameter는 RADIUS만큼 이 공격에 취약합니다. [RFC3579] 섹션 4.3.7에서는 가장 탐지를 위한 메커니즘을 권장합니다. "알 필요" 없이 프록시가 키 자료에 액세스하는 것을 방지하려면 백엔드 인증 서버가 [RFC3588]에서 지원되는 리디렉션 기능을 통해 인증자와 직접 통신할 수 있도록 허용해야 합니다.

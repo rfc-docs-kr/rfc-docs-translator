@@ -1,0 +1,24 @@
+"hash": |-
+  ab614b0861913f535686b3cca7cf3097ae9561e999e812cd142f6f40f36a0d24
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4.  Typical salt lengths in octets are hLen (the length of the output
+         of the hash function Hash) and 0.  In both cases, the security of
+         RSASSA-PSS can be closely related to the hardness of inverting
+         RSAVP1.  Bellare and Rogaway [RSARABIN] give a tight lower bound
+         for the security of the original RSA-PSS scheme, which
+         corresponds roughly to the former case, while Coron [FDH] gives a
+         lower bound for the related Full Domain Hashing scheme, which
+         corresponds roughly to the latter case.  In [PSSPROOF], Coron
+         provides a general treatment with various salt lengths ranging
+         from 0 to hLen; see [IEEE1363A] for discussion.  See also
+         [JONSSON], which adapts the security proofs in [RSARABIN]
+         [PSSPROOF] to address the differences between the original and
+         the present version of RSA-PSS as listed in Note 1 above.
+"fixed": |-
+  1.  Typical salt lengths in octets are hLen (the length of the output of the hash function Hash) and 0.  In both cases, the security of RSASSA-PSS can be closely related to the hardness of inverting RSAVP1.  Bellare and Rogaway [RSARABIN] give a tight lower bound for the security of the original RSA-PSS scheme, which corresponds roughly to the former case, while Coron [FDH] gives a lower bound for the related Full Domain Hashing scheme, which corresponds roughly to the latter case.  In [PSSPROOF], Coron provides a general treatment with various salt lengths ranging from 0 to hLen; see [IEEE1363A] for discussion.  See also [JONSSON], which adapts the security proofs in [RSARABIN] [PSSPROOF] to address the differences between the original and the present version of RSA-PSS as listed in Note 1 above.
+"ko": |-
+  1. 옥텟 단위의 일반적인 솔트 길이는 hLen(해시 함수 Hash의 출력 길이)과 0입니다. 두 경우 모두 RSASSA-PSS의 보안은 RSAVP1 반전의 경도와 밀접한 관련이 있을 수 있습니다. Bellare와 Rogaway [RSARABIN]는 원본 RSA-PSS 체계의 보안에 대한 엄격한 하한을 제공하며 이는 대략 전자의 경우에 해당하는 반면 Coron [FDH]는 관련 Full Domain Hashing 체계에 대한 하한을 제공합니다. 후자의 경우. [PSSPROOF]에서 Coron은 0에서 hLen까지 다양한 염 길이로 일반적인 처리를 제공합니다. 논의는 [IEEE1363A]를 참조하세요. 위의 참고 1에 나열된 RSA-PSS의 원본 버전과 현재 버전 간의 차이점을 해결하기 위해 [RSARABIN] [PSSPROOF]의 보안 증명을 조정하는 [JONSSON]도 참조하세요.

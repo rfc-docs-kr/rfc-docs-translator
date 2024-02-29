@@ -1,0 +1,17 @@
+"hash": |-
+  33429e54139016e9dc57c1a36b9429dc77930d8a3444e41ce0ce1f6d12713d34
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Define 64-bit ADD
+   */
+  #define SHA512_ADD(word1, word2, ret) (                        \
+      (ret)[1] = (word1)[1], (ret)[1] += (word2)[1],             \
+      (ret)[0] = (word1)[0] + (word2)[0] + ((ret)[1] < (word1)[1]) )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

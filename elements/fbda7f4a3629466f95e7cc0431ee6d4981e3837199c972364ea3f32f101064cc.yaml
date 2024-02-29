@@ -1,0 +1,20 @@
+"hash": |-
+  fbda7f4a3629466f95e7cc0431ee6d4981e3837199c972364ea3f32f101064cc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     --
+     -- AlgorithmIdentifier.parameters for id-RSAES-OAEP.
+     -- Note that the tags in this Sequence are explicit.
+     --
+     RSAES-OAEP-params ::= SEQUENCE {
+         hashAlgorithm      [0] HashAlgorithm     DEFAULT sha1,
+         maskGenAlgorithm   [1] MaskGenAlgorithm  DEFAULT mgf1SHA1,
+         pSourceAlgorithm   [2] PSourceAlgorithm  DEFAULT pSpecifiedEmpty
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

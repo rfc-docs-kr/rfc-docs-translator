@@ -1,0 +1,18 @@
+"hash": |-
+  918228177dd47872214171c9b192fe248b8bd7dfb05ee87485771b26fe5ede51
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o  A stateless proxy MUST choose one and only one target from the
+           target set.  This choice MUST only rely on fields in the
+           message and time-invariant properties of the server.  In
+           particular, a retransmitted request MUST be forwarded to the
+           same destination each time it is processed.  Furthermore,
+           CANCEL and non-Routed ACK requests MUST generate the same
+           choice as their associated INVITE.
+"fixed": |-
+  -  A stateless proxy MUST choose one and only one target from the target set.  This choice MUST only rely on fields in the message and time-invariant properties of the server.  In particular, a retransmitted request MUST be forwarded to the same destination each time it is processed.  Furthermore, CANCEL and non-Routed ACK requests MUST generate the same choice as their associated INVITE.
+"ko": |-
+  - 상태 비저장 프록시는 대상 세트에서 단 하나의 대상만 선택해야 합니다. 이 선택은 메시지의 필드와 서버의 시불변 속성에만 의존해야 합니다. 특히 재전송된 요청은 처리될 때마다 동일한 대상으로 전달되어야 합니다. 또한 CANCEL 및 라우팅되지 않은 ACK 요청은 연관된 INVITE와 동일한 선택을 생성해야 합니다.

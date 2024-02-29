@@ -1,0 +1,39 @@
+"hash": |-
+  b27ed9067c7bfdfecba9148978a71c85086d0464225ab55f078399992a2573e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA1Finalize
+   *
+   * Description:
+   *   This helper function finishes off the digest calculations.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The SHA context to update.
+   *   Pad_Byte: [in]
+   *     The last byte to add to the message block before the 0-padding
+   *     and length.  This will contain the last bits of the message
+   *     followed by another single bit.  If the message was an
+   *     exact multiple of 8-bits long, Pad_Byte will be 0x80.
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  static void SHA1Finalize(SHA1Context *context, uint8_t Pad_Byte)
+  {
+    int i;
+    SHA1PadMessage(context, Pad_Byte);
+    /* message may be sensitive, clear it out */
+    for (i = 0; i < SHA1_Message_Block_Size; ++i)
+      context->Message_Block[i] = 0;
+    context->Length_High = 0;     /* and clear length */
+    context->Length_Low = 0;
+"fixed": |-
+  /* * SHA1Finalize * * Description: *   This helper function finishes off the digest calculations. * * Parameters: *   context: [in/out] *     The SHA context to update. *   Pad_Byte: [in] *     The last byte to add to the message block before the 0-padding *     and length.  This will contain the last bits of the message *     followed by another single bit.  If the message was an *     exact multiple of 8-bits long, Pad_Byte will be 0x80. * * Returns: *   sha Error Code. * */ static void SHA1Finalize(SHA1Context *context, uint8_t Pad_Byte) { int i; SHA1PadMessage(context, Pad_Byte); /* message may be sensitive, clear it out */ for (i = 0; i < SHA1_Message_Block_Size; ++i) context->Message_Block[i] = 0; context->Length_High = 0;     /* and clear length */ context->Length_Low = 0;
+"ko": |-
+  /* * SHA1Finalize * * 설명: * 이 도우미 함수는 다이제스트 계산을 마무리합니다. * * 매개변수: * context: [in/out] * 업데이트할 SHA 컨텍스트입니다. * Pad_Byte: [in] * 0-padding * 및 길이 이전에 메시지 블록에 추가할 마지막 바이트입니다. 여기에는 메시지의 마지막 비트 *와 그 뒤에 또 다른 단일 비트가 포함됩니다. * 메시지가 8비트 길이의 정확한 배수인 경우 Pad_Byte는 0x80이 됩니다. * * 반환: * sha 오류 코드. * */ static void SHA1Finalize(SHA1Context *context, uint8_t Pad_Byte) { int i; SHA1PadMessage(컨텍스트, Pad_Byte); /* 메시지는 민감할 수 있으므로 지우십시오. */ for (i = 0; i < SHA1_Message_Block_Size; ++i) context->Message_Block[i] = 0; 컨텍스트->Length_High = 0; /* 길이 지우기 */ context->Length_Low = 0;

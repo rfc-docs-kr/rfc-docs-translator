@@ -1,0 +1,15 @@
+"hash": |-
+  5f62f727ea6ee784a43386e2241b2bad57e50ed1d35f16101cc56a115ab3bdfe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Each proxy in the path of a request chooses whether to add a
+           Record-Route header field value independently - the presence of
+           a Record-Route header field in a request does not obligate this
+           proxy to add a value.
+"fixed": |-
+  - Each proxy in the path of a request chooses whether to add a Record-Route header field value independently - the presence of a Record-Route header field in a request does not obligate this proxy to add a value.
+"ko": |-
+  - 요청 경로의 각 프록시는 Record-Route 헤더 필드 값을 독립적으로 추가할지 여부를 선택합니다. 요청에 Record-Route 헤더 필드가 있다고 해서 이 프록시가 값을 추가해야 하는 것은 아닙니다.

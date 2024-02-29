@@ -1,0 +1,17 @@
+"hash": |-
+  9e44dadcc2e432961c9dd92229c4e66173f6d2ca56d470905fb193f3f6cdc303
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the request contains a Proxy-Require header field (Section
+        20.29) with one or more option-tags this element does not
+        understand, the element MUST return a 420 (Bad Extension)
+        response.  The response MUST include an Unsupported (Section
+        20.40) header field listing those option-tags the element did not
+        understand.
+"fixed": |-
+  - If the request contains a Proxy-Require header field (Section 20.29) with one or more option-tags this element does not understand, the element MUST return a 420 (Bad Extension) response.  The response MUST include an Unsupported (Section 20.40) header field listing those option-tags the element did not understand.
+"ko": |-
+  - 요청에 이 요소가 이해하지 못하는 하나 이상의 옵션 태그가 있는 Proxy-Require 헤더 필드(섹션 20.29)가 포함되어 있는 경우 요소는 420(잘못된 확장) 응답을 반환해야 합니다. 응답에는 요소가 이해하지 못한 옵션 태그를 나열하는 지원되지 않는(섹션 20.40) 헤더 필드가 포함되어야 합니다.

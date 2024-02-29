@@ -1,0 +1,40 @@
+"hash": |-
+  19519975d698b53942df5f3092b29fbbf91bd0d626990bce79a441af63a65a5c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* Test arrays for HMAC. */
+  struct hmachash {
+      const char *keyarray[5];
+      int keylength[5];
+      const char *dataarray[5];
+      int datalength[5];
+      const char *resultarray[5];
+      int resultlength[5];
+  } hmachashes[HMACTESTCOUNT] = {
+    { /* 1 */ {
+        "\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b"
+        "\x0b\x0b\x0b\x0b\x0b"
+      }, { 20 }, {
+        "\x48\x69\x20\x54\x68\x65\x72\x65" /* "Hi There" */
+      }, { 8 }, {
+        /* HMAC-SHA-1 */
+        "B617318655057264E28BC0B6FB378C8EF146BE00",
+        /* HMAC-SHA-224 */
+        "896FB1128ABBDF196832107CD49DF33F47B4B1169912BA4F53684B22",
+        /* HMAC-SHA-256 */
+        "B0344C61D8DB38535CA8AFCEAF0BF12B881DC200C9833DA726E9376C2E32"
+        "CFF7",
+        /* HMAC-SHA-384 */
+        "AFD03944D84895626B0825F4AB46907F15F9DADBE4101EC682AA034C7CEB"
+        "C59CFAEA9EA9076EDE7F4AF152E8B2FA9CB6",
+        /* HMAC-SHA-512 */
+        "87AA7CDEA5EF619D4FF0B4241A1D6CB02379F4E2CE4EC2787AD0B30545E1"
+        "7CDEDAA833B7D6B8A702038B274EAEA3F4E4BE9D914EEB61F1702E696C20"
+        "3A126854"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

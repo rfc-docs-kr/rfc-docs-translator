@@ -1,0 +1,54 @@
+"hash": |-
+  df093d22ea68dce4bffaf7abd4b3d57291e3a69319067346c0a713b58d8a1229
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Print a usage message.
+   */
+  void usage(const char *argv0)
+  {
+    fprintf(stderr,
+      "Usage:\n"
+      "Common options: [-h hash] [-w|-x|-6] [-H]\n"
+      "Hash a string:\n"
+        "\t%s [-S expectedresult] -s hashstr [-k key] "
+             "[-i info -L okm-len]\n"
+      "Hash a file:\n"
+        "\t%s [-S expectedresult] -f file [-k key] "
+             "[-i info -L okm-len]\n"
+      "Hash a file, ignoring whitespace:\n"
+        "\t%s [-S expectedresult] -F file [-k key] "
+             "[-i info -L okm-len]\n"
+      "Additional bits to add in: [-B bitcount -b bits]\n"
+      "(If -k,-i&-L are used, run HKDF-SHA###.\n"
+      " If -k is used, but not -i&-L, run HMAC-SHA###.\n"
+      " Otherwise, run SHA###.)\n"
+      "Standard tests:\n"
+        "\t%s [-m | -d] [-l loopcount] [-t test#] [-e]\n"
+        "\t\t[-r randomseed] [-R randomloop-count] "
+          "[-p] [-P|-X]\n"
+      "-h\thash to test: "
+        "0|SHA1, 1|SHA224, 2|SHA256, 3|SHA384, 4|SHA512\n"
+      "-m\tperform hmac standard tests\n"
+      "-k\tkey for hmac test\n"
+      "-d\tperform hkdf standard tests\n"
+      "-t\ttest case to run, 1-10\n"
+      "-l\thow many times to run the test\n"
+      "-e\ttest error returns\n"
+      "-p\tdo not print results\n"
+      "-P\tdo not print PASSED/FAILED\n"
+      "-X\tprint FAILED, but not PASSED\n"
+      "-r\tseed for random test\n"
+      "-R\thow many times to run random test\n"
+      "-s\tstring to hash\n"
+      "-S\texpected result of hashed string, in hex\n"
+      "-w\toutput hash in raw format\n"
+      "-x\toutput hash in hex format\n"
+      "-6\toutput hash in base64 format\n"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

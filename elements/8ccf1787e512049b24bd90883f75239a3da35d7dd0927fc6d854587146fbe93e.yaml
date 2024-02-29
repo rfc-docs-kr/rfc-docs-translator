@@ -1,0 +1,24 @@
+"hash": |-
+  8ccf1787e512049b24bd90883f75239a3da35d7dd0927fc6d854587146fbe93e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the TLS connection uses a cipher suite that does not provide
+     confidentiality protection, the TLS Finished messages will be visible
+     to eavesdroppers, regardless of what the authentication mechanism
+     does.  The same is true of the server certificate which, in any case,
+     is generally visible to eavesdroppers.  Therefore we must consider
+     our choices of TLS channel bindings here to be safe to disclose by
+     definition -- if that were not the case, then TLS with cipher suites
+     that don't provide confidentiality protection would be unsafe.
+     Furthermore, the TLS Finished message construction depends on the
+     security of the TLS PRF, which in turn needs to be resistant to key
+     recovery attacks, and we think that it is, as it is based on HMAC,
+     and the master secret is, well, secret (and the result of key
+     exchange).
+"fixed": |-
+  When the TLS connection uses a cipher suite that does not provide confidentiality protection, the TLS Finished messages will be visible to eavesdroppers, regardless of what the authentication mechanism does.  The same is true of the server certificate which, in any case, is generally visible to eavesdroppers.  Therefore we must consider our choices of TLS channel bindings here to be safe to disclose by definition -- if that were not the case, then TLS with cipher suites that don't provide confidentiality protection would be unsafe. Furthermore, the TLS Finished message construction depends on the security of the TLS PRF, which in turn needs to be resistant to key recovery attacks, and we think that it is, as it is based on HMAC, and the master secret is, well, secret (and the result of key exchange).
+"ko": |-
+  TLS 연결이 기밀 보호를 제공하지 않는 암호 제품군을 사용하는 경우 인증 메커니즘의 기능에 관계없이 TLS 완료 메시지가 도청자에게 표시됩니다. 어떤 경우에든 일반적으로 도청자에게 표시되는 서버 인증서의 경우에도 마찬가지입니다. 따라서 정의에 따라 공개해도 안전한 TLS 채널 바인딩 선택을 고려해야 합니다. 그렇지 않은 경우 기밀 보호를 제공하지 않는 암호화 제품군이 포함된 TLS는 안전하지 않습니다. 또한 TLS Finished 메시지 구성은 TLS PRF의 보안에 의존하므로 키 복구 공격에 대한 저항력이 필요하며 HMAC를 기반으로 하기 때문에 마스터 시크릿은 다음과 같습니다. 비밀(그리고 키 교환의 결과).

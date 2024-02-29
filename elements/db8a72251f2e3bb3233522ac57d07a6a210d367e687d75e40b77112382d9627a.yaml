@@ -1,0 +1,15 @@
+"hash": |-
+  db8a72251f2e3bb3233522ac57d07a6a210d367e687d75e40b77112382d9627a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  Receiving a PUSH_PROMISE frame on another stream reserves an
+           idle stream that is identified for later use.  The stream state
+           for the reserved stream transitions to "reserved (remote)".
+           Only a client may receive PUSH_PROMISE frames.
+"fixed": |-
+  - *  Receiving a PUSH_PROMISE frame on another stream reserves an idle stream that is identified for later use.  The stream state for the reserved stream transitions to "reserved (remote)". Only a client may receive PUSH_PROMISE frames.
+"ko": |-
+  - * 다른 스트림에서 PUSH_PROMISE 프레임을 수신하면 나중에 사용하기 위해 식별되는 유휴 스트림이 예약됩니다. 예약된 스트림의 스트림 상태가 "예약됨(원격)"으로 전환됩니다. 클라이언트만 PUSH_PROMISE 프레임을 수신할 수 있습니다.

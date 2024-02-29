@@ -1,0 +1,19 @@
+"hash": |-
+  b72cbec1a73f8e87ab5c16d7a4cd334b1e20ef9015b85cd4445a2df6f0326036
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           After performing the processing described in steps "Aggregate
+           Authorization Header Field Values" through "Record-Route", the
+           proxy MAY perform any feature specific manipulations on the
+           selected response.  The proxy MUST NOT add to, modify, or
+           remove the message body.  Unless otherwise specified, the proxy
+           MUST NOT remove any header field values other than the Via
+           header field value discussed in Section 16.7 Item 3.  In
+           particular, the proxy MUST NOT remove any "received" parameter
+"fixed": |-
+  - After performing the processing described in steps "Aggregate Authorization Header Field Values" through "Record-Route", the proxy MAY perform any feature specific manipulations on the selected response.  The proxy MUST NOT add to, modify, or remove the message body.  Unless otherwise specified, the proxy MUST NOT remove any header field values other than the Via header field value discussed in Section 16.7 Item 3.  In particular, the proxy MUST NOT remove any "received" parameter
+"ko": |-
+  - "기록 경로"를 통해 "권한 부여 헤더 필드 값 집계" 단계에 설명된 처리를 수행한 후 프록시는 선택한 응답에 대해 특정 기능 조작을 수행할 수 있습니다. 프록시는 메시지 본문을 추가, 수정 또는 제거해서는 안 됩니다. 달리 지정하지 않는 한, 프록시는 섹션 16.7 항목 3에서 논의된 Via 헤더 필드 값 이외의 헤더 필드 값을 제거해서는 안 됩니다. 특히, 프록시는 "수신된" 매개변수를 제거해서는 안 됩니다.

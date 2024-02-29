@@ -1,0 +1,18 @@
+"hash": |-
+  b248542a00d007cf821cc93fd8dd31f27d58a8c0d8d82dee13a79733f96082ba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After sending the PUSH_PROMISE frame, the server can begin delivering
+     the pushed response as a response (Section 8.3.2) on a server-
+     initiated stream that uses the promised stream identifier.  The
+     server uses this stream to transmit an HTTP response, using the same
+     sequence of frames as that defined in Section 8.1.  This stream
+     becomes "half-closed" to the client (Section 5.1) after the initial
+     HEADERS frame is sent.
+"fixed": |-
+  After sending the PUSH_PROMISE frame, the server can begin delivering the pushed response as a response (Section 8.3.2) on a server- initiated stream that uses the promised stream identifier.  The server uses this stream to transmit an HTTP response, using the same sequence of frames as that defined in Section 8.1.  This stream becomes "half-closed" to the client (Section 5.1) after the initial HEADERS frame is sent.
+"ko": |-
+  PUSH_PROMISE 프레임을 보낸 후 서버는 약속된 스트림 식별자를 사용하는 서버 시작 스트림에 대한 응답(8.3.2절)으로 푸시된 응답을 전달하기 시작할 수 있습니다. 서버는 이 스트림을 사용하여 섹션 8.1에 정의된 것과 동일한 프레임 시퀀스를 사용하여 HTTP 응답을 전송합니다. 이 스트림은 초기 HEADERS 프레임이 전송된 후 클라이언트에 대해 "절반 폐쇄"됩니다(섹션 5.1).

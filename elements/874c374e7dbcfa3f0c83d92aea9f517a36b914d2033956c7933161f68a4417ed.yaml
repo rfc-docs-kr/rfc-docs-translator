@@ -1,0 +1,19 @@
+"hash": |-
+  874c374e7dbcfa3f0c83d92aea9f517a36b914d2033956c7933161f68a4417ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The impact of a non-2xx final response to INVITE on dialogs and
+     sessions makes the use of CANCEL attractive.  The CANCEL attempts to
+     force a non-2xx response to the INVITE (in particular, a 487).
+     Therefore, if a UAC wishes to give up on its call attempt entirely,
+     it can send a CANCEL.  If the INVITE results in 2xx final response(s)
+     to the INVITE, this means that a UAS accepted the invitation while
+     the CANCEL was in progress.  The UAC MAY continue with the sessions
+     established by any 2xx responses, or MAY terminate them with BYE.
+"fixed": |-
+  The impact of a non-2xx final response to INVITE on dialogs and sessions makes the use of CANCEL attractive.  The CANCEL attempts to force a non-2xx response to the INVITE (in particular, a 487). Therefore, if a UAC wishes to give up on its call attempt entirely, it can send a CANCEL.  If the INVITE results in 2xx final response(s) to the INVITE, this means that a UAS accepted the invitation while the CANCEL was in progress.  The UAC MAY continue with the sessions established by any 2xx responses, or MAY terminate them with BYE.
+"ko": |-
+  INVITE에 대한 2xx가 아닌 최종 응답이 대화 및 세션에 미치는 영향으로 인해 CANCEL 사용이 매력적입니다. CANCEL은 INVITE(특히 487)에 대해 2xx가 아닌 응답을 강제로 시도합니다. 따라서 UAC가 통화 시도를 완전히 포기하려는 경우 CANCEL을 보낼 수 있습니다. INVITE 결과 INVITE에 대한 2xx개의 최종 응답이 발생하는 경우 이는 취소가 진행 중인 동안 UAS가 초대를 수락했음을 의미합니다. UAC는 2xx 응답에 의해 설정된 세션을 계속하거나 BYE로 종료할 수 있습니다.

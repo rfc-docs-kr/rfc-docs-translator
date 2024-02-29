@@ -1,0 +1,34 @@
+"hash": |-
+  a0d3ddd4c4441a67ac1a6869426d3b99d5529e9205da3cb8e2cbac553db68e9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A recent proposal extends TCP to further constrain received RST to
+     match the expected next sequence number [36].  This restores TCP's
+     resistance to spurious RSTs, effectively limiting the receive window
+     for RSTs to a single number.  As a result, an attacker would need to
+     send 2^32 different packets to brute-force guess the sequence number
+     (worst case, the average would be half that); this makes TCP's
+     vulnerability to attack independent of the size of the receive window
+     (RCV.WND).  The extension further modifies the RST receiver to react
+     to incorrectly-numbered RSTs, by sending a zero-length ACK.  If the
+     RST source is legitimate, upon receipt of an ACK, the closed source
+     would presumably emit a RST with the sequence number matching the
+     ACK, correctly resetting the intended recipient.  This modification
+     changes TCP's control processing, adding to its complexity and thus
+     potentially affecting its correctness (in contrast to adding MD5
+     signatures, which is orthogonal to TCP control processing
+     altogether).  For example, there may be complications between RSTs of
+     different connections between the same pair of endpoints because RSTs
+     flush the TIME-WAIT (as mentioned earlier).  Further, this proposal
+     modifies TCP so that, under some circumstances, a RST causes a reply
+     (an ACK), in violation of generally accepted practice, if not gentle
+     recommendation -- although this can be omitted, allowing timeouts to
+     suffice.  The advantage to this proposal is that it can be deployed
+     incrementally and has benefit to the endpoint on which it is
+"fixed": |-
+  A recent proposal extends TCP to further constrain received RST to match the expected next sequence number [36].  This restores TCP's resistance to spurious RSTs, effectively limiting the receive window for RSTs to a single number.  As a result, an attacker would need to send 2^32 different packets to brute-force guess the sequence number (worst case, the average would be half that); this makes TCP's vulnerability to attack independent of the size of the receive window (RCV.WND).  The extension further modifies the RST receiver to react to incorrectly-numbered RSTs, by sending a zero-length ACK.  If the RST source is legitimate, upon receipt of an ACK, the closed source would presumably emit a RST with the sequence number matching the ACK, correctly resetting the intended recipient.  This modification changes TCP's control processing, adding to its complexity and thus potentially affecting its correctness (in contrast to adding MD5 signatures, which is orthogonal to TCP control processing altogether).  For example, there may be complications between RSTs of different connections between the same pair of endpoints because RSTs flush the TIME-WAIT (as mentioned earlier).  Further, this proposal modifies TCP so that, under some circumstances, a RST causes a reply (an ACK), in violation of generally accepted practice, if not gentle recommendation -- although this can be omitted, allowing timeouts to suffice.  The advantage to this proposal is that it can be deployed incrementally and has benefit to the endpoint on which it is
+"ko": |-
+  최근 제안에서는 예상되는 다음 시퀀스 번호와 일치하도록 수신된 RST를 추가로 제한하기 위해 TCP를 확장합니다[36]. 이는 가짜 RST에 대한 TCP의 저항을 복원하여 RST의 수신 창을 단일 숫자로 효과적으로 제한합니다. 결과적으로 공격자는 시퀀스 번호를 무차별 추측하기 위해 2^32개의 다른 패킷을 보내야 합니다(최악의 경우 평균은 그 절반이 됩니다). 이로 인해 TCP의 공격 취약성은 수신 창(RCV.WND)의 크기와 무관하게 됩니다. 확장은 길이가 0인 ACK를 전송하여 번호가 잘못된 RST에 반응하도록 RST 수신기를 추가로 수정합니다. RST 소스가 합법적인 경우 ACK를 수신하면 폐쇄 소스는 아마도 ACK와 일치하는 시퀀스 번호가 있는 RST를 내보내 의도된 수신자를 올바르게 재설정할 것입니다. 이 수정은 TCP의 제어 처리를 변경하여 복잡성을 추가하고 잠재적으로 정확성에 영향을 미칩니다(TCP 제어 처리와 완전히 직교하는 MD5 서명을 추가하는 것과는 대조적). 예를 들어, RST가 TIME-WAIT(앞서 언급한 대로)를 플러시하기 때문에 동일한 끝점 쌍 사이에 서로 다른 연결의 RST 간에 문제가 발생할 수 있습니다. 또한 이 제안은 TCP를 수정하여 어떤 상황에서는 RST가 일반적으로 허용되는 관행을 위반하여 응답(ACK)을 유발하도록 합니다. 이는 온화한 권장 사항은 아니지만 생략할 수 있으므로 시간 제한이 충분할 수 있습니다. 이 제안의 장점은 점진적으로 배포할 수 있고 해당 엔드포인트에 이점이 있다는 것입니다.

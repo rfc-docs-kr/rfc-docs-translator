@@ -1,0 +1,18 @@
+"hash": |-
+  ac19f8c25bf4310e882523f25efa01c7dd20b3c07ba4d546e57d438160aa39a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Let G be a group, and g be a generator for that group, and let t
+     denote the order of G.  The DH protocol runs as follows.  Party A
+     chooses an exponent j between 1 and t-1, inclusive, uniformly at
+     random, computes g^j, and sends that element to B.  Party B chooses
+     an exponent k between 1 and t-1, inclusive, uniformly at random,
+     computes g^k, and sends that element to A.  Each party can compute
+     g^(j*k); party A computes (g^k)^j, and party B computes (g^j)^k.
+"fixed": |-
+  Let G be a group, and g be a generator for that group, and let t denote the order of G.  The DH protocol runs as follows.  Party A chooses an exponent j between 1 and t-1, inclusive, uniformly at random, computes g^j, and sends that element to B.  Party B chooses an exponent k between 1 and t-1, inclusive, uniformly at random, computes g^k, and sends that element to A.  Each party can compute g^(j*k); party A computes (g^k)^j, and party B computes (g^j)^k.
+"ko": |-
+  G를 그룹으로, g를 해당 그룹의 생성자로 두고, t를 G의 순서로 나타냅니다. DH 프로토콜은 다음과 같이 실행됩니다. 당사자 A는 1과 t-1 사이에서 균일하게 무작위로 지수 j를 선택하고 g^j를 계산한 후 해당 요소를 B로 보냅니다. 당사자 B는 1과 t-1 사이에서 균일하게 무작위로 지수 k를 선택합니다. g^k를 계산하고 해당 요소를 A로 보냅니다. 각 당사자는 g^(j*k)를 계산할 수 있습니다. 당사자 A는 (g^k)^j를 계산하고, 당사자 B는 (g^j)^k를 계산합니다.

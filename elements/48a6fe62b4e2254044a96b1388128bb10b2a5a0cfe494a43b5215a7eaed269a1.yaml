@@ -1,0 +1,19 @@
+"hash": |-
+  48a6fe62b4e2254044a96b1388128bb10b2a5a0cfe494a43b5215a7eaed269a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Print the string, converting non-printable characters to "."
+   */
+  void printstr(const char *str, int len)
+  {
+    for ( ; len-- > 0; str++)
+      putchar(isprint((unsigned char)*str) ? *str : '.');
+  }
+"fixed": |-
+  /* * Print the string, converting non-printable characters to "." */ void printstr(const char *str, int len) { for ( ; len-- > 0; str++) putchar(isprint((unsigned char)*str) ? *str : '.'); }
+"ko": |-
+  /* * 인쇄할 수 없는 문자를 "."로 변환하여 문자열을 인쇄합니다. */ void printstr(const char *str, int len) { for ( ; len-- > 0; str++) putchar(isprint((unsigned char)*str) ? *str : '.'); }

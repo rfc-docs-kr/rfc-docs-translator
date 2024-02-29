@@ -1,0 +1,14 @@
+"hash": |-
+  0e80c54aa75c4186dae8a9fc91f6978918ded0ea368fdbfd0339541b200168cb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the Request-URI has a URI whose scheme is not understood by the
+        proxy, the proxy SHOULD reject the request with a 416 (Unsupported
+        URI Scheme) response.
+"fixed": |-
+  - If the Request-URI has a URI whose scheme is not understood by the proxy, the proxy SHOULD reject the request with a 416 (Unsupported URI Scheme) response.
+"ko": |-
+  - 요청-URI에 프록시가 이해할 수 없는 스키마가 있는 경우 프록시는 416(지원되지 않는 URI 스키마) 응답으로 요청을 거부해야 합니다.

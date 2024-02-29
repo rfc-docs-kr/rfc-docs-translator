@@ -1,0 +1,22 @@
+"hash": |-
+  3073c8a9404471f77a29385b9aaf91999b200b8bc58b135e9dfdc19696bfc69c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  This structure holds context information for all SHA
+   *  hashing operations.
+   */
+  typedef struct USHAContext {
+      int whichSha;               /* which SHA is being used */
+      union {
+        SHA1Context sha1Context;
+        SHA224Context sha224Context; SHA256Context sha256Context;
+        SHA384Context sha384Context; SHA512Context sha512Context;
+      } ctx;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

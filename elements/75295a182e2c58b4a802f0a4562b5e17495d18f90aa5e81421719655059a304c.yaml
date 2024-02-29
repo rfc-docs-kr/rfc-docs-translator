@@ -1,0 +1,18 @@
+"hash": |-
+  75295a182e2c58b4a802f0a4562b5e17495d18f90aa5e81421719655059a304c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The proxy MUST inspect the Request-URI of the request.  If the
+     Request-URI of the request contains a value this proxy previously
+     placed into a Record-Route header field (see Section 16.6 item 4),
+     the proxy MUST replace the Request-URI in the request with the last
+     value from the Route header field, and remove that value from the
+     Route header field.  The proxy MUST then proceed as if it received
+     this modified request.
+"fixed": |-
+  The proxy MUST inspect the Request-URI of the request.  If the Request-URI of the request contains a value this proxy previously placed into a Record-Route header field (see Section 16.6 item 4), the proxy MUST replace the Request-URI in the request with the last value from the Route header field, and remove that value from the Route header field.  The proxy MUST then proceed as if it received this modified request.
+"ko": |-
+  프록시는 요청의 Request-URI를 검사해야 합니다. 요청의 Request-URI가 이 프록시가 이전에 Record-Route 헤더 필드에 배치한 값을 포함하는 경우(섹션 16.6 항목 4 참조), 프록시는 요청의 Request-URI를 Route 헤더 필드의 마지막 값으로 대체해야 합니다. 을 클릭하고 Route 헤더 필드에서 해당 값을 제거합니다. 그런 다음 프록시는 이 수정된 요청을 받은 것처럼 진행해야 합니다.

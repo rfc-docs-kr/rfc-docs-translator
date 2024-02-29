@@ -1,0 +1,22 @@
+"hash": |-
+  dd67cc37789e8f83711a842d41bbb33a6a5aa48fa0725cb3f37a4d9110274712
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (bitcount > 0)
+      err = info ? hkdfFinalBits(&hkdf, bits, bitcount) :
+            keyarray ? hmacFinalBits(&hmac, bits, bitcount) :
+                     USHAFinalBits(&sha, bits, bitcount);
+    if (err != shaSuccess) {
+      fprintf(stderr, "hashfile(): %s Error %d.\n",
+              info ? "hkdf" : keyarray ? "hmacFinalBits" :
+              "shaFinalBits", err);
+      if (hashfp != stdin) fclose(hashfp);
+      return err;
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

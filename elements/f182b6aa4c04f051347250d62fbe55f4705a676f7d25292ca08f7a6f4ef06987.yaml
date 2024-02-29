@@ -1,0 +1,24 @@
+"hash": |-
+  f182b6aa4c04f051347250d62fbe55f4705a676f7d25292ca08f7a6f4ef06987
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The stateless proxy MAY use any technique it likes to guarantee
+           uniqueness of its branch IDs across transactions.  However, the
+           following procedure is RECOMMENDED.  The proxy examines the
+           branch ID in the topmost Via header field of the received
+           request.  If it begins with the magic cookie, the first
+           component of the branch ID of the outgoing request is computed
+           as a hash of the received branch ID.  Otherwise, the first
+           component of the branch ID is computed as a hash of the topmost
+           Via, the tag in the To header field, the tag in the From header
+           field, the Call-ID header field, the CSeq number (but not
+           method), and the Request-URI from the received request.  One of
+           these fields will always vary across two different
+           transactions.
+"fixed": |-
+  - The stateless proxy MAY use any technique it likes to guarantee uniqueness of its branch IDs across transactions.  However, the following procedure is RECOMMENDED.  The proxy examines the branch ID in the topmost Via header field of the received request.  If it begins with the magic cookie, the first component of the branch ID of the outgoing request is computed as a hash of the received branch ID.  Otherwise, the first component of the branch ID is computed as a hash of the topmost Via, the tag in the To header field, the tag in the From header field, the Call-ID header field, the CSeq number (but not method), and the Request-URI from the received request.  One of these fields will always vary across two different transactions.
+"ko": |-
+  - 상태 비저장 프록시는 트랜잭션 전반에 걸쳐 지점 ID의 고유성을 보장하기 위해 원하는 기술을 사용할 수 있습니다. 그러나 다음 절차를 권장합니다. 프록시는 수신된 요청의 맨 위 Via 헤더 필드에서 분기 ID를 검사합니다. 매직 쿠키로 시작하는 경우 나가는 요청의 분기 ID의 첫 번째 구성 요소는 수신된 분기 ID의 해시로 계산됩니다. 그렇지 않은 경우 지점 ID의 첫 번째 구성 요소는 최상위 Via의 해시, To 헤더 필드의 태그, From 헤더 필드의 태그, Call-ID 헤더 필드, CSeq 번호(메서드 아님)로 계산됩니다. 및 수신된 요청의 Request-URI입니다. 이러한 필드 중 하나는 항상 두 개의 서로 다른 트랜잭션에 따라 달라집니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  6b1071471c1d101d630aadccd13825999282c5213eec37b2028a61747cd41794
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ICMP presents a particular challenge because some messages can reset
+     a connection more easily -- with less validation -- than even some
+     spoofed TCP segments.  One other proposed alternative is to change
+     TCP's reaction to ICMPs after a connection is established; that may
+     leave TCP susceptible during connection establishment and modifies
+     TCP's reaction to certain valid network events [19].  This considers
+     the context-sensitivity of ICMP messages, as does IPsec in some
+     tunneled configurations, but the recommendations are ambiguous
+     regarding such filtering [27].
+"fixed": |-
+  ICMP presents a particular challenge because some messages can reset a connection more easily -- with less validation -- than even some spoofed TCP segments.  One other proposed alternative is to change TCP's reaction to ICMPs after a connection is established; that may leave TCP susceptible during connection establishment and modifies TCP's reaction to certain valid network events [19].  This considers the context-sensitivity of ICMP messages, as does IPsec in some tunneled configurations, but the recommendations are ambiguous regarding such filtering [27].
+"ko": |-
+  ICMP는 일부 메시지가 일부 스푸핑된 TCP 세그먼트보다 더 적은 유효성 검사를 통해 더 쉽게 연결을 재설정할 수 있기 때문에 특별한 문제를 제시합니다. 제안된 또 다른 대안은 연결이 설정된 후 TCP의 반응을 ICMP로 변경하는 것입니다. 이는 연결 설정 중에 TCP를 취약하게 만들고 특정 유효한 네트워크 이벤트에 대한 TCP의 반응을 수정합니다[19]. 이는 일부 터널링 구성의 IPsec과 마찬가지로 ICMP 메시지의 상황별 민감도를 고려하지만 이러한 필터링과 관련된 권장 사항은 모호합니다[27].

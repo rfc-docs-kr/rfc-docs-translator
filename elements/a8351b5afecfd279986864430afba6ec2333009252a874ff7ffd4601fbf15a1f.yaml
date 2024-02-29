@@ -1,0 +1,16 @@
+"hash": |-
+  a8351b5afecfd279986864430afba6ec2333009252a874ff7ffd4601fbf15a1f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  In RFC 2543, CANCEL and INVITE transactions were intermingled.
+        They are separated now.  When a user sends an INVITE and then a
+        CANCEL, the INVITE transaction still terminates normally.  A UAS
+        needs to respond to the original INVITE request with a 487
+        response.
+"fixed": |-
+  -  In RFC 2543, CANCEL and INVITE transactions were intermingled. They are separated now.  When a user sends an INVITE and then a CANCEL, the INVITE transaction still terminates normally.  A UAS needs to respond to the original INVITE request with a 487 response.
+"ko": |-
+  - RFC 2543에서는 CANCEL과 INVITE 트랜잭션이 혼합되었습니다. 그들은 지금 분리되었습니다. 사용자가 INVITE를 보낸 다음 CANCEL을 보내면 INVITE 트랜잭션은 여전히 ​​정상적으로 종료됩니다. UAS는 487 응답으로 원래 INVITE 요청에 응답해야 합니다.

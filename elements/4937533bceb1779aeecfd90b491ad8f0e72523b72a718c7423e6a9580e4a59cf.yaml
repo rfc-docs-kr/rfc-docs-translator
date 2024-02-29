@@ -1,0 +1,28 @@
+"hash": |-
+  4937533bceb1779aeecfd90b491ad8f0e72523b72a718c7423e6a9580e4a59cf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* Test arrays for HKDF. */
+  struct hkdfhash {
+      SHAversion whichSha;
+      int ikmlength;
+      const char *ikmarray;
+      int saltlength;
+      const char *saltarray;
+      int infolength;
+      const char *infoarray;
+      int prklength;
+      const char *prkarray;
+      int okmlength;
+      const char *okmarray;
+  } hkdfhashes[HKDFTESTCOUNT] = {
+      {   /* RFC 5869 A.1. Test Case 1 */
+          SHA256,
+          22, "\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b\x0b"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

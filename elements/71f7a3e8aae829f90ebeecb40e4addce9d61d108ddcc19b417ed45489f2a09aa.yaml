@@ -1,0 +1,19 @@
+"hash": |-
+  71f7a3e8aae829f90ebeecb40e4addce9d61d108ddcc19b417ed45489f2a09aa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The branch parameter of the Via header field value is now
+        mandatory for all elements to use.  It now plays the role of a
+        unique transaction identifier.  This avoids the complex and bug-
+        laden transaction identification rules from RFC 2543.  A magic
+        cookie is used in the parameter value to determine if the previous
+        hop has made the parameter globally unique, and comparison falls
+        back to the old rules when it is not present.  Thus,
+        interoperability is assured.
+"fixed": |-
+  -  The branch parameter of the Via header field value is now mandatory for all elements to use.  It now plays the role of a unique transaction identifier.  This avoids the complex and bug- laden transaction identification rules from RFC 2543.  A magic cookie is used in the parameter value to determine if the previous hop has made the parameter globally unique, and comparison falls back to the old rules when it is not present.  Thus, interoperability is assured.
+"ko": |-
+  - 이제 모든 요소에서 Via 헤더 필드 값의 분기 매개변수를 필수로 사용해야 합니다. 이제 고유한 거래 식별자 역할을 합니다. 이렇게 하면 RFC 2543의 복잡하고 버그가 많은 트랜잭션 식별 규칙을 피할 수 있습니다. 이전 홉이 매개변수를 전역적으로 고유하게 만들었는지 확인하기 위해 매개변수 값에 매직 쿠키가 사용되며, 매개변수가 없으면 이전 규칙으로 비교가 대체됩니다. . 따라서 상호 운용성이 보장됩니다.

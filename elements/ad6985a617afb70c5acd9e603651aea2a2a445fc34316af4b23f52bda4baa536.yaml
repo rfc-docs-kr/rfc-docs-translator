@@ -1,0 +1,17 @@
+"hash": |-
+  ad6985a617afb70c5acd9e603651aea2a2a445fc34316af4b23f52bda4baa536
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An HTTP POST request that includes control data and a request header
+     with message content is transmitted as one HEADERS frame, followed by
+     zero or more CONTINUATION frames containing the request header,
+     followed by one or more DATA frames, with the last CONTINUATION (or
+     HEADERS) frame having the END_HEADERS flag set and the final DATA
+     frame having the END_STREAM flag set:
+"fixed": |-
+  An HTTP POST request that includes control data and a request header with message content is transmitted as one HEADERS frame, followed by zero or more CONTINUATION frames containing the request header, followed by one or more DATA frames, with the last CONTINUATION (or HEADERS) frame having the END_HEADERS flag set and the final DATA frame having the END_STREAM flag set:
+"ko": |-
+  제어 데이터와 메시지 내용이 포함된 요청 헤더를 포함하는 HTTP POST 요청은 하나의 HEADERS 프레임으로 전송되고, 그 뒤에는 요청 헤더가 포함된 0개 이상의 CONTINUATION 프레임이 오고, 마지막 CONTINUATION(또는 HEADERS)과 함께 하나 이상의 DATA 프레임이 옵니다. END_HEADERS 플래그가 설정된 프레임과 END_STREAM 플래그가 설정된 최종 DATA 프레임:

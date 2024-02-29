@@ -1,0 +1,21 @@
+"hash": |-
+  241cd3c84ac9ae6a366f4508d0a868fe1c7e0a8d2a699868f35de7771589192c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     However, some RADIUS packets are not replay protected.  In
+     Accounting, Disconnect, and Care-of Address (CoA)-Request packets,
+     the Request Authenticator contains a keyed Message Integrity Code
+     (MIC) rather than a nonce.  The Response Authenticator in Accounting,
+     Disconnect, and CoA-Response packets also contains a keyed MIC whose
+     calculation does not depend on a nonce in either the Request or
+     Response packets.  Therefore, unless an Event-Timestamp attribute is
+     included or IPsec is used, it is possible that the recipient will not
+     be able to determine whether these packets have been replayed.  This
+     issue is discussed further in [RFC5176] Section 6.3.
+"fixed": |-
+  However, some RADIUS packets are not replay protected.  In Accounting, Disconnect, and Care-of Address (CoA)-Request packets, the Request Authenticator contains a keyed Message Integrity Code (MIC) rather than a nonce.  The Response Authenticator in Accounting, Disconnect, and CoA-Response packets also contains a keyed MIC whose calculation does not depend on a nonce in either the Request or Response packets.  Therefore, unless an Event-Timestamp attribute is included or IPsec is used, it is possible that the recipient will not be able to determine whether these packets have been replayed.  This issue is discussed further in [RFC5176] Section 6.3.
+"ko": |-
+  그러나 일부 RADIUS 패킷은 재생 보호되지 않습니다. Accounting, Disconnect 및 CoA(Care-of Address) 요청 패킷에서 요청 인증자는 nonce가 아닌 키가 포함된 MIC(Message Integrity Code)를 포함합니다. Accounting, Disconnect 및 CoA-Response 패킷의 응답 인증자에는 요청 또는 응답 패킷의 nonce에 의존하지 않는 계산을 수행하는 키 입력 MIC도 포함되어 있습니다. 따라서 Event-Timestamp 특성이 포함되거나 IPsec이 사용되지 않으면 수신자가 이러한 패킷이 재생되었는지 여부를 확인하지 못할 수도 있습니다. 이 문제는 [RFC5176] 섹션 6.3에서 자세히 논의됩니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  2d2116cd9272b9137f91a1e2ffd47065842e34c2ff82570123cf7a2c74d115fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The ":scheme" pseudo-header field includes the scheme portion of
+        the request target.  The scheme is taken from the target URI
+        (Section 3.1 of [RFC3986]) when generating a request directly, or
+        from the scheme of a translated request (for example, see
+        Section 3.3 of [HTTP/1.1]).  Scheme is omitted for CONNECT
+        requests (Section 8.5).
+"fixed": |-
+  *  The ":scheme" pseudo-header field includes the scheme portion of the request target.  The scheme is taken from the target URI (Section 3.1 of [RFC3986]) when generating a request directly, or from the scheme of a translated request (for example, see Section 3.3 of [HTTP/1.1]).  Scheme is omitted for CONNECT requests (Section 8.5).
+"ko": |-
+  * ":scheme" 의사 헤더 필드에는 요청 대상의 구성표 부분이 포함됩니다. 이 체계는 요청을 직접 생성할 때 대상 URI([RFC3986]의 섹션 3.1)에서 가져오거나 변환된 요청의 체계(예: [HTTP/1.1]의 섹션 3.3 참조)에서 가져옵니다. CONNECT 요청에 대해서는 스키마가 생략됩니다(섹션 8.5).

@@ -1,0 +1,16 @@
+"hash": |-
+  c1578e590b58102ba78015a5129cdfa0da338fa4f5daee095037e9522d838987
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A change to SETTINGS_INITIAL_WINDOW_SIZE can cause the available
+     space in a flow-control window to become negative.  A sender MUST
+     track the negative flow-control window and MUST NOT send new flow-
+     controlled frames until it receives WINDOW_UPDATE frames that cause
+     the flow-control window to become positive.
+"fixed": |-
+  A change to SETTINGS_INITIAL_WINDOW_SIZE can cause the available space in a flow-control window to become negative.  A sender MUST track the negative flow-control window and MUST NOT send new flow- controlled frames until it receives WINDOW_UPDATE frames that cause the flow-control window to become positive.
+"ko": |-
+  SETTINGS_INITIAL_WINDOW_SIZE를 변경하면 흐름 제어 창에서 사용 가능한 공간이 음수가 될 수 있습니다. 발신자는 음의 흐름 제어 창을 추적해야 하며(MUST) 흐름 제어 창을 양으로 만드는 WINDOW_UPDATE 프레임을 수신할 때까지 새로운 흐름 제어 프레임을 보내서는 안 됩니다.

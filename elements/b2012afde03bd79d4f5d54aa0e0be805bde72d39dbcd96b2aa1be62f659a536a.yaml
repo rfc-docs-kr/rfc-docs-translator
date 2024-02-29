@@ -1,0 +1,19 @@
+"hash": |-
+  b2012afde03bd79d4f5d54aa0e0be805bde72d39dbcd96b2aa1be62f659a536a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     SIP header field values can be folded onto multiple lines if the
+     continuation line begins with a space or horizontal tab.  All linear
+     white space, including folding, has the same semantics as SP.  A
+     recipient MAY replace any linear white space with a single SP before
+     interpreting the field value or forwarding the message downstream.
+     This is intended to behave exactly as HTTP/1.1 as described in RFC
+     2616 [8].  The SWS construct is used when linear white space is
+     optional, generally between tokens and separators.
+"fixed": |-
+  SIP header field values can be folded onto multiple lines if the continuation line begins with a space or horizontal tab.  All linear white space, including folding, has the same semantics as SP.  A recipient MAY replace any linear white space with a single SP before interpreting the field value or forwarding the message downstream. This is intended to behave exactly as HTTP/1.1 as described in RFC 2616 [8].  The SWS construct is used when linear white space is optional, generally between tokens and separators.
+"ko": |-
+  연속 줄이 공백이나 가로 탭으로 시작하는 경우 SIP 헤더 필드 값을 여러 줄로 접을 수 있습니다. 접기를 포함한 모든 선형 공백은 SP와 동일한 의미를 갖습니다. 수신자는 필드 값을 해석하거나 메시지를 다운스트림으로 전달하기 전에 모든 선형 공백을 단일 SP로 바꿀 수 있습니다. 이는 RFC 2616 [8]에 설명된 대로 HTTP/1.1과 정확히 동일하게 작동하기 위한 것입니다. SWS 구성은 선형 공백이 선택 사항일 때, 일반적으로 토큰과 구분 기호 사이에 사용됩니다.

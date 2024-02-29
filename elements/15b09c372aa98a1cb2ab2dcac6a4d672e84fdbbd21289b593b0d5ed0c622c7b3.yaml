@@ -1,0 +1,22 @@
+"hash": |-
+  15b09c372aa98a1cb2ab2dcac6a4d672e84fdbbd21289b593b0d5ed0c622c7b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     However, there are two flavors of chosen-ciphertext attacks, and PA94
+     implies security against only one of them.  The difference relies on
+     what the adversary is allowed to do after she is given the challenge
+     ciphertext.  The indifferent attack scenario (denoted CCA1) does not
+     admit any queries to the decryption oracle after the adversary is
+     given the challenge ciphertext, whereas the adaptive scenario
+     (denoted CCA2) does (except that the decryption oracle refuses to
+     decrypt the challenge ciphertext once it is published).  In 1998,
+     Bellare and Rogaway, together with Desai and Pointcheval [PA98], came
+     up with a new, stronger notion of plaintext awareness (PA98) that
+     does imply security against CCA2.
+"fixed": |-
+  However, there are two flavors of chosen-ciphertext attacks, and PA94 implies security against only one of them.  The difference relies on what the adversary is allowed to do after she is given the challenge ciphertext.  The indifferent attack scenario (denoted CCA1) does not admit any queries to the decryption oracle after the adversary is given the challenge ciphertext, whereas the adaptive scenario (denoted CCA2) does (except that the decryption oracle refuses to decrypt the challenge ciphertext once it is published).  In 1998, Bellare and Rogaway, together with Desai and Pointcheval [PA98], came up with a new, stronger notion of plaintext awareness (PA98) that does imply security against CCA2.
+"ko": |-
+  그러나 선택 암호문 공격에는 두 가지 유형이 있으며 PA94는 그 중 하나만에 대한 보안을 의미합니다. 차이점은 공격자가 챌린지 암호문을 받은 후 무엇을 할 수 있는지에 따라 달라집니다. 무관심 공격 시나리오(CCA1로 표시)는 적에게 도전 암호문을 제공한 후 복호화 오라클에 대한 어떠한 쿼리도 허용하지 않는 반면, 적응형 시나리오(CCA2로 표시)는 허용합니다(단, 복호화 오라클은 도전 암호문이 일단 해독되는 것을 거부합니다) 출판). 1998년에 Bellare와 Rogaway는 Desai 및 Pointcheval [PA98]과 함께 CCA2에 대한 보안을 암시하는 일반 텍스트 인식(PA98)에 대한 새롭고 강력한 개념을 제시했습니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  514dbdaac74251645f6b33ed1e951ec7c7f3f4d09cd8185b5c7b846718bf10b4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A CONTINUATION frame MUST be preceded by a HEADERS, PUSH_PROMISE or
+     CONTINUATION frame without the END_HEADERS flag set.  A recipient
+     that observes violation of this rule MUST respond with a connection
+     error (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  A CONTINUATION frame MUST be preceded by a HEADERS, PUSH_PROMISE or CONTINUATION frame without the END_HEADERS flag set.  A recipient that observes violation of this rule MUST respond with a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  CONTINUATION 프레임 앞에는 END_HEADERS 플래그가 설정되지 않은 HEADERS, PUSH_PROMISE 또는 CONTINUATION 프레임이 와야 합니다. 이 규칙 위반을 관찰한 수신자는 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 응답해야 합니다.

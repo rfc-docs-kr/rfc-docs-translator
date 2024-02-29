@@ -1,0 +1,16 @@
+"hash": |-
+  b27559639f705c81ab2d5c2698ad65c62ef455d9a40d4e55b5d23644ff37c208
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The UAC MAY add an Expires header field (Section 20.19) to limit the
+     validity of the invitation.  If the time indicated in the Expires
+     header field is reached and no final answer for the INVITE has been
+     received, the UAC core SHOULD generate a CANCEL request for the
+     INVITE, as per Section 9.
+"fixed": |-
+  The UAC MAY add an Expires header field (Section 20.19) to limit the validity of the invitation.  If the time indicated in the Expires header field is reached and no final answer for the INVITE has been received, the UAC core SHOULD generate a CANCEL request for the INVITE, as per Section 9.
+"ko": |-
+  UAC는 초대의 유효성을 제한하기 위해 Expires 헤더 필드(섹션 20.19)를 추가할 수 있습니다. Expires 헤더 필드에 표시된 시간에 도달하고 INVITE에 대한 최종 응답이 수신되지 않은 경우 UAC 코어는 섹션 9에 따라 INVITE에 대한 CANCEL 요청을 생성해야 합니다.

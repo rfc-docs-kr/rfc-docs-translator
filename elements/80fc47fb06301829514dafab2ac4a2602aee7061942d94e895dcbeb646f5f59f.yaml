@@ -1,0 +1,15 @@
+"hash": |-
+  80fc47fb06301829514dafab2ac4a2602aee7061942d94e895dcbeb646f5f59f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MAY open multiple connections to the same IP address and TCP
+     port using different Server Name Indication [TLS-EXT] values or to
+     provide different TLS client certificates but SHOULD avoid creating
+     multiple connections with the same configuration.
+"fixed": |-
+  A client MAY open multiple connections to the same IP address and TCP port using different Server Name Indication [TLS-EXT] values or to provide different TLS client certificates but SHOULD avoid creating multiple connections with the same configuration.
+"ko": |-
+  클라이언트는 서로 다른 서버 이름 표시[TLS-EXT] 값을 사용하거나 서로 다른 TLS 클라이언트 인증서를 제공하기 위해 동일한 IP 주소 및 TCP 포트에 대한 여러 연결을 열 수 있지만 동일한 구성으로 여러 연결을 생성하는 것을 피해야 합니다(SHOULD).

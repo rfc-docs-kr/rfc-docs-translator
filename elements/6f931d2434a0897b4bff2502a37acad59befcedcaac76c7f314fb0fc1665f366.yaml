@@ -1,0 +1,17 @@
+"hash": |-
+  6f931d2434a0897b4bff2502a37acad59befcedcaac76c7f314fb0fc1665f366
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    context->whichSha = whichSha;
+    context->hashSize = USHAHashSize(whichSha);
+    if (salt == 0) {
+      salt = nullSalt;
+      salt_len = context->hashSize;
+      memset(nullSalt, '\0', salt_len);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

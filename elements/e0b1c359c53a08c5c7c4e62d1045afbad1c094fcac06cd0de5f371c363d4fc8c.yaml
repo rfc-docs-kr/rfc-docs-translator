@@ -1,0 +1,23 @@
+"hash": |-
+  e0b1c359c53a08c5c7c4e62d1045afbad1c094fcac06cd0de5f371c363d4fc8c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     But Strict Reverse Path Forwarding has some problems of its own.
+     First, the test is only applicable in places where routing is
+     symmetrical - where IP datagrams in one direction and responses from
+     the other deterministically follow the same path.  While this is
+     common at edge network interfaces to their ISP, it is in no sense
+     common between ISPs, which normally use asymmetrical "hot potato"
+     routing.  Also, if BGP is carrying prefixes and some legitimate
+     prefixes are not being advertised or not being accepted by the ISP
+     under its policy, the effect is the same as ingress filtering using
+     an incomplete access list: some legitimate traffic is filtered for
+     lack of a route in the filtering router's Forwarding Information
+     Base.
+"fixed": |-
+  But Strict Reverse Path Forwarding has some problems of its own. First, the test is only applicable in places where routing is symmetrical - where IP datagrams in one direction and responses from the other deterministically follow the same path.  While this is common at edge network interfaces to their ISP, it is in no sense common between ISPs, which normally use asymmetrical "hot potato" routing.  Also, if BGP is carrying prefixes and some legitimate prefixes are not being advertised or not being accepted by the ISP under its policy, the effect is the same as ingress filtering using an incomplete access list: some legitimate traffic is filtered for lack of a route in the filtering router's Forwarding Information Base.
+"ko": |-
+  그러나 엄격한 역방향 경로 전달에는 그 자체로 몇 가지 문제가 있습니다. 첫째, 이 테스트는 라우팅이 대칭인 장소, 즉 한 방향의 IP 데이터그램과 다른 방향의 응답이 결정론적으로 동일한 경로를 따르는 장소에만 적용 가능합니다. 이는 ISP에 대한 에지 네트워크 인터페이스에서는 일반적이지만 일반적으로 비대칭 "뜨거운 감자" 라우팅을 사용하는 ISP 간에는 전혀 일반적이지 않습니다. 또한 BGP가 접두사를 전달하고 일부 합법적인 접두사가 정책에 따라 ISP에 의해 광고되지 않거나 허용되지 않는 경우 효과는 불완전한 액세스 목록을 사용하는 수신 필터링과 동일합니다. 일부 합법적인 트래픽은 경로 부족으로 필터링됩니다. 필터링 라우터의 전달 정보 베이스에 있습니다.

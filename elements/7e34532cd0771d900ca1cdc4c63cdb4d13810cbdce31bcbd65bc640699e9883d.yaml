@@ -1,0 +1,18 @@
+"hash": |-
+  7e34532cd0771d900ca1cdc4c63cdb4d13810cbdce31bcbd65bc640699e9883d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      err = USHAReset(0, hashes[hashno].whichSha);
+      if (printResults == PRINTTEXT)
+         printf("\nError %d. Should be %d.\n", err, shaNull);
+      if ((printPassFail == PRINTPASSFAIL) ||
+          ((printPassFail == PRINTFAIL) && (err != shaNull)))
+         printf("%s usha null: %s\n", hashes[hashno].name,
+          (err == shaNull) ? "PASSED" : "FAILED");
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  2f50a675920383aac0444f3bc72c645a5765ca2b8614f8d7c66e59d851918cff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+    /*
+     *  Perform SHA/HMAC tests
+     */
+    for (hashno = hashnolow; hashno <= hashnohigh; ++hashno) {
+      if (printResults == PRINTTEXT)
+        printf("Hash %s\n", hashes[hashno].name);
+      err = shaSuccess;
+"fixed": |-
+  /* *  Perform SHA/HMAC tests */ for (hashno = hashnolow; hashno <= hashnohigh; ++hashno) { if (printResults == PRINTTEXT) printf("Hash %s\n", hashes[hashno].name); err = shaSuccess;
+"ko": |-
+  /* * SHA/HMAC 테스트 수행 */ for (hashno = hashnolow; hashno <= hashnohigh; ++hashno) { if (printResults == PRINTTEXT) printf("Hash %s\n", hashes[hashno].name) ; 오류 = 샤성공;

@@ -1,0 +1,26 @@
+"hash": |-
+  02f53aecd1348730a2915884f30350aed6fddcb7be038d12a42e3398bc316c49
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Analysis of the Internet infrastructure has recently demonstrated a
+     new version of a vulnerability in BGP connections between core
+     routers using an attack based on RST spoofing from off-path attackers
+     [9][10][48].  The attack itself is not new, having been documented
+     nearly six years earlier [20].  Such connections, typically using
+     TCP, can be susceptible to off-path third-party reset (RST) segments
+     with forged source addresses (spoofed), which terminate the TCP
+     connection.  BGP routers react to a terminated TCP connection in
+     various ways, which can amplify the impact of an attack, ranging from
+     restarting the connection to deciding that the other router is
+     unreachable and thus flushing the BGP routes [37].  This sort of
+     attack affects other protocols besides BGP, involving any long-lived
+     connection between well-known endpoints.  The impact on the Internet
+     infrastructure can be substantial (especially for the BGP case), and
+     warrants immediate attention.
+"fixed": |-
+  Analysis of the Internet infrastructure has recently demonstrated a new version of a vulnerability in BGP connections between core routers using an attack based on RST spoofing from off-path attackers [9][10][48].  The attack itself is not new, having been documented nearly six years earlier [20].  Such connections, typically using TCP, can be susceptible to off-path third-party reset (RST) segments with forged source addresses (spoofed), which terminate the TCP connection.  BGP routers react to a terminated TCP connection in various ways, which can amplify the impact of an attack, ranging from restarting the connection to deciding that the other router is unreachable and thus flushing the BGP routes [37].  This sort of attack affects other protocols besides BGP, involving any long-lived connection between well-known endpoints.  The impact on the Internet infrastructure can be substantial (especially for the BGP case), and warrants immediate attention.
+"ko": |-
+  최근 인터넷 인프라 분석을 통해 오프패스 공격자의 RST 스푸핑 기반 공격을 사용하는 코어 라우터 간의 BGP 연결에 대한 새로운 버전의 취약점이 입증되었습니다[9][10][48]. 공격 자체는 새로운 것이 아니며 거의 6년 전에 문서화되었습니다[20]. 일반적으로 TCP를 사용하는 이러한 연결은 위조된 소스 주소(스푸핑)가 있는 경로를 벗어난 타사 재설정(RST) 세그먼트에 취약하여 TCP 연결을 종료할 수 있습니다. BGP 라우터는 연결을 다시 시작하는 것부터 다른 라우터에 연결할 수 없다고 판단하여 BGP 경로를 플러시하는 것까지 공격의 영향을 증폭시킬 수 있는 다양한 방식으로 종료된 TCP 연결에 반응합니다[37]. 이러한 종류의 공격은 잘 알려진 엔드포인트 간의 장기간 연결을 포함하여 BGP 이외의 다른 프로토콜에 영향을 미칩니다. 인터넷 인프라에 미치는 영향은 상당할 수 있으며(특히 BGP의 경우) 즉각적인 주의가 필요합니다.

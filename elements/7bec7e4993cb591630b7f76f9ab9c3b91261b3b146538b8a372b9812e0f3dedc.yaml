@@ -1,0 +1,24 @@
+"hash": |-
+  7bec7e4993cb591630b7f76f9ab9c3b91261b3b146538b8a372b9812e0f3dedc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o Implementation of automatic filtering on remote access servers.
+          In most cases, a user dialing into an access server is an
+          individual user on a single PC. The ONLY valid source IP address
+          for packets originating from that PC is the one assigned by the
+          ISP (whether statically or dynamically assigned). The remote
+          access server could check every packet on ingress to ensure the
+          user is not spoofing the source address on the packets which he
+          is originating. Obviously, provisions also need to be made for
+          cases where the customer legitimately is attaching a net or
+          subnet via a remote router, but this could certainly be
+          implemented as an optional parameter. We have received reports
+          that some vendors and some ISPs are already starting to
+          implement this  capability.
+"fixed": |-
+  - Implementation of automatic filtering on remote access servers. In most cases, a user dialing into an access server is an individual user on a single PC. The ONLY valid source IP address for packets originating from that PC is the one assigned by the ISP (whether statically or dynamically assigned). The remote access server could check every packet on ingress to ensure the user is not spoofing the source address on the packets which he is originating. Obviously, provisions also need to be made for cases where the customer legitimately is attaching a net or subnet via a remote router, but this could certainly be implemented as an optional parameter. We have received reports that some vendors and some ISPs are already starting to implement this  capability.
+"ko": |-
+  - 원격 액세스 서버에 대한 자동 필터링 구현. 대부분의 경우 액세스 서버에 전화 접속하는 사용자는 단일 PC의 개별 사용자입니다. 해당 PC에서 발생하는 패킷의 유일한 유효한 소스 IP 주소는 ISP가 할당한 것입니다(정적으로 또는 동적으로 할당됨). 원격 액세스 서버는 수신 시 모든 패킷을 검사하여 사용자가 원래 패킷의 소스 주소를 스푸핑하지 않도록 할 수 있습니다. 분명히 고객이 원격 라우터를 통해 네트나 서브넷을 합법적으로 연결하는 경우에 대한 규정도 마련되어야 하지만 이는 확실히 선택적 매개변수로 구현될 수 있습니다. 우리는 일부 공급업체와 일부 ISP가 이미 이 기능을 구현하기 시작했다는 보고를 받았습니다.

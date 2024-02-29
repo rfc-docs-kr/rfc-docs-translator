@@ -1,0 +1,18 @@
+"hash": |-
+  bd1b37290449f8233d1d19e04f9268557ed714b56e7d80fecdafb23591d0ab43
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         *  The value that is hashed together with the salt value is the
+            string (0x)00 00 00 00 00 00 00 00 || mHash rather than the
+            message M itself.  Here, mHash is the hash of M.  Note that
+            the hash function is the same in both steps.  See Note 3 below
+            for further discussion.  (Also, the name "salt" is used
+            instead of "seed", as it is more reflective of the value's
+            role.)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

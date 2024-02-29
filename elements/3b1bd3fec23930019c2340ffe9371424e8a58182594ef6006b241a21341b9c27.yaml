@@ -1,0 +1,17 @@
+"hash": |-
+  3b1bd3fec23930019c2340ffe9371424e8a58182594ef6006b241a21341b9c27
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       HTTP/1.1 304 Not Modified        HEADERS
+       ETag: "xyzzy"              ==>     + END_STREAM
+       Expires: Thu, 23 Jan ...           + END_HEADERS
+                                            :status = 304
+                                            etag = "xyzzy"
+                                            expires = Thu, 23 Jan ...
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

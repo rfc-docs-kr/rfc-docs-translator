@@ -1,0 +1,13 @@
+"hash": |-
+  2b6c2f59bd81985c1852323bb0d29aae51e252881d04db9336a8846f01ffd661
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  Either endpoint can send a RST_STREAM frame to cause the stream
+           to become "closed".  This releases the stream reservation.
+"fixed": |-
+  - *  Either endpoint can send a RST_STREAM frame to cause the stream to become "closed".  This releases the stream reservation.
+"ko": |-
+  - * 두 끝점 모두 RST_STREAM 프레임을 보내 스트림을 "닫게" 할 수 있습니다. 그러면 스트림 예약이 해제됩니다.

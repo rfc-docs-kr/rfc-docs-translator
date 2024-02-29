@@ -1,0 +1,16 @@
+"hash": |-
+  eef3100207a4c009cab0d6b5c5536917c39f4b0af045a173214452dfae9f1b3c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  If the authentication protocol does not support a channel
+           binding operation, but provides a "security layer" with at
+           least integrity protection, then the application MUST use the
+           authentication protocol's integrity protection facilities to
+           exchange channel bindings, or cryptographic hashes thereof.
+"fixed": |-
+  - *  If the authentication protocol does not support a channel binding operation, but provides a "security layer" with at least integrity protection, then the application MUST use the authentication protocol's integrity protection facilities to exchange channel bindings, or cryptographic hashes thereof.
+"ko": |-
+  - * 인증 프로토콜이 채널 ​​바인딩 작업을 지원하지 않지만 최소한 무결성 보호가 포함된 "보안 계층"을 제공하는 경우 애플리케이션은 채널 바인딩 또는 해당 암호화 해시를 교환하기 위해 인증 프로토콜의 무결성 보호 기능을 사용해야 합니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  8bdc289d531e87a1d34c9e9b77c7b971f37bad843309643a8e0d6dd1f640bba9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While in the "Trying" state, if the TU passes a provisional response
+     to the server transaction, the server transaction MUST enter the
+     "Proceeding" state.  The response MUST be passed to the transport
+     layer for transmission.  Any further provisional responses that are
+     received from the TU while in the "Proceeding" state MUST be passed
+     to the transport layer for transmission.  If a retransmission of the
+     request is received while in the "Proceeding" state, the most
+     recently sent provisional response MUST be passed to the transport
+     layer for retransmission.  If the TU passes a final response (status
+     codes 200-699) to the server while in the "Proceeding" state, the
+     transaction MUST enter the "Completed" state, and the response MUST
+     be passed to the transport layer for transmission.
+"fixed": |-
+  While in the "Trying" state, if the TU passes a provisional response to the server transaction, the server transaction MUST enter the "Proceeding" state.  The response MUST be passed to the transport layer for transmission.  Any further provisional responses that are received from the TU while in the "Proceeding" state MUST be passed to the transport layer for transmission.  If a retransmission of the request is received while in the "Proceeding" state, the most recently sent provisional response MUST be passed to the transport layer for retransmission.  If the TU passes a final response (status codes 200-699) to the server while in the "Proceeding" state, the transaction MUST enter the "Completed" state, and the response MUST be passed to the transport layer for transmission.
+"ko": |-
+  "시도 중" 상태에 있는 동안 TU가 서버 트랜잭션에 임시 응답을 전달하면 서버 트랜잭션은 "진행 중" 상태로 들어가야 합니다. 응답은 전송을 위해 전송 계층으로 전달되어야 합니다. "진행 중" 상태에 있는 동안 TU로부터 수신된 추가 임시 응답은 전송을 위해 전송 계층으로 전달되어야 합니다. "Proceeding" 상태에 있는 동안 요청의 재전송이 수신되면 가장 최근에 전송된 임시 응답이 재전송을 위해 전송 계층으로 전달되어야 합니다. TU가 "Proceeding" 상태에 있는 동안 서버에 최종 응답(상태 코드 200-699)을 전달하는 경우 트랜잭션은 "Completed" 상태로 들어가야 하며 응답은 전송을 위해 전송 계층으로 전달되어야 합니다.

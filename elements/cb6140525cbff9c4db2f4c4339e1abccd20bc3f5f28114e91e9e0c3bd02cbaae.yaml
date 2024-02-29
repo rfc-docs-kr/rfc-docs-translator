@@ -1,0 +1,17 @@
+"hash": |-
+  cb6140525cbff9c4db2f4c4339e1abccd20bc3f5f28114e91e9e0c3bd02cbaae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A deployment of HTTP/2 over TLS 1.2 MUST disable renegotiation.  An
+     endpoint MUST treat a TLS renegotiation as a connection error
+     (Section 5.4.1) of type PROTOCOL_ERROR.  Note that disabling
+     renegotiation can result in long-lived connections becoming unusable
+     due to limits on the number of messages the underlying cipher suite
+     can encipher.
+"fixed": |-
+  A deployment of HTTP/2 over TLS 1.2 MUST disable renegotiation.  An endpoint MUST treat a TLS renegotiation as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.  Note that disabling renegotiation can result in long-lived connections becoming unusable due to limits on the number of messages the underlying cipher suite can encipher.
+"ko": |-
+  TLS 1.2를 통한 HTTP/2 배포는 재협상을 비활성화해야 합니다. 엔드포인트는 TLS 재협상을 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리해야 합니다. 재협상을 비활성화하면 기본 암호화 제품군이 암호화할 수 있는 메시지 수 제한으로 인해 오랫동안 지속되는 연결을 사용할 수 없게 될 수 있습니다.

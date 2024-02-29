@@ -1,0 +1,19 @@
+"hash": |-
+  287e872b132dad9034bc5f77d3e016f1a50af364a3a77fdc8698139e95e7aab9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Backwards-incompatibility.  It is possible that some
+        implementations of the original 'tls-unique' channel binding type
+        have been deployed.  We know of at least one TLS implementation
+        that exports 'tls-unique' channel bindings with the original
+        semantics, but we know of no deployed application using the same.
+        Implementations of the original and new 'tls-unique' channel
+        binding type will only interoperate when: a) full TLS handshakes
+        are used, and b) TLS renegotiation is not used.
+"fixed": |-
+  -  Backwards-incompatibility.  It is possible that some implementations of the original 'tls-unique' channel binding type have been deployed.  We know of at least one TLS implementation that exports 'tls-unique' channel bindings with the original semantics, but we know of no deployed application using the same. Implementations of the original and new 'tls-unique' channel binding type will only interoperate when: a) full TLS handshakes are used, and b) TLS renegotiation is not used.
+"ko": |-
+  - 이전 버전과의 비호환성. 원래 'tls-unique' 채널 바인딩 유형의 일부 구현이 배포되었을 가능성이 있습니다. 우리는 원래 의미론을 사용하여 'tls-unique' 채널 바인딩을 내보내는 TLS 구현을 하나 이상 알고 있지만 동일한 것을 사용하여 배포된 애플리케이션은 없습니다. 원래 및 새로운 'tls-unique' 채널 바인딩 유형의 구현은 a) 전체 TLS 핸드셰이크가 사용되고 b) TLS 재협상이 사용되지 않는 경우에만 상호 운용됩니다.

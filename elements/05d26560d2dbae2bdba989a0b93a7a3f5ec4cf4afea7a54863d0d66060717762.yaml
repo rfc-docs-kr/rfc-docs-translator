@@ -1,0 +1,20 @@
+"hash": |-
+  05d26560d2dbae2bdba989a0b93a7a3f5ec4cf4afea7a54863d0d66060717762
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the server transaction enters the "Completed" state, it MUST set
+     Timer J to fire in 64*T1 seconds for unreliable transports, and zero
+     seconds for reliable transports.  While in the "Completed" state, the
+     server transaction MUST pass the final response to the transport
+     layer for retransmission whenever a retransmission of the request is
+     received.  Any other final responses passed by the TU to the server
+     transaction MUST be discarded while in the "Completed" state.  The
+     server transaction remains in this state until Timer J fires, at
+     which point it MUST transition to the "Terminated" state.
+"fixed": |-
+  When the server transaction enters the "Completed" state, it MUST set Timer J to fire in 64*T1 seconds for unreliable transports, and zero seconds for reliable transports.  While in the "Completed" state, the server transaction MUST pass the final response to the transport layer for retransmission whenever a retransmission of the request is received.  Any other final responses passed by the TU to the server transaction MUST be discarded while in the "Completed" state.  The server transaction remains in this state until Timer J fires, at which point it MUST transition to the "Terminated" state.
+"ko": |-
+  서버 트랜잭션이 "완료" 상태에 들어갈 때 신뢰할 수 없는 전송의 경우 타이머 J를 64*T1초 내에 실행하고 신뢰할 수 있는 전송의 경우 0초로 설정해야 합니다. "완료" 상태에 있는 동안 서버 트랜잭션은 요청의 재전송이 수신될 때마다 재전송을 위해 전송 계층에 최종 응답을 전달해야 합니다. TU가 서버 트랜잭션으로 전달한 다른 모든 최종 응답은 "완료" 상태에 있는 동안 폐기되어야 합니다. 서버 트랜잭션은 타이머 J가 실행될 때까지 이 상태로 유지되며, 이 시점에서 반드시 "종료됨" 상태로 전환되어야 합니다.

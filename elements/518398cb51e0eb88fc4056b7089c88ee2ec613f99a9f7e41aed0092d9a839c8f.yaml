@@ -1,0 +1,16 @@
+"hash": |-
+  518398cb51e0eb88fc4056b7089c88ee2ec613f99a9f7e41aed0092d9a839c8f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PUSH_PROMISE MUST NOT be sent if the SETTINGS_ENABLE_PUSH setting of
+     the peer endpoint is set to 0.  An endpoint that has set this setting
+     and has received acknowledgment MUST treat the receipt of a
+     PUSH_PROMISE frame as a connection error (Section 5.4.1) of type
+     PROTOCOL_ERROR.
+"fixed": |-
+  PUSH_PROMISE MUST NOT be sent if the SETTINGS_ENABLE_PUSH setting of the peer endpoint is set to 0.  An endpoint that has set this setting and has received acknowledgment MUST treat the receipt of a PUSH_PROMISE frame as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  피어 끝점의 SETTINGS_ENABLE_PUSH 설정이 0으로 설정된 경우 PUSH_PROMISE는 전송되어서는 안 됩니다. 이 설정을 설정하고 승인을 받은 끝점은 PUSH_PROMISE 프레임의 수신을 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리해야 합니다. .

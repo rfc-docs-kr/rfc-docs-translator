@@ -1,0 +1,24 @@
+"hash": |-
+  d5f4f511597676ca5f20f89b64ca2b95685a7306d336bc7136a703332de10754
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Exercise a hash series of functions through multiple permutations.
+   * The input is an initial seed.  That seed is replicated 3 times.
+   * For 1000 rounds, the previous three results are used as the input.
+   * This result is then checked, and used to seed the next cycle.
+   * If the result is known, it is in resultarrays in uppercase hex.
+   */
+  void randomtest(int hashno, const char *seed, int hashsize,
+      const char **resultarrays, int randomcount,
+      int printResults, int printPassFail)
+  {
+    int i, j; char buf[20];
+    unsigned char SEED[USHAMaxHashSize], MD[1003][USHAMaxHashSize];
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

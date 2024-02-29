@@ -1,0 +1,15 @@
+"hash": |-
+  7f16fb5a26f5b40c0d6667bc160fd71042fb2ffc3bb3e47d41e717ddb222e66d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This provides a modest level of backwards compatibility with RFC
+        2543, which allowed absolute times in this header field.  If an
+        absolute time is received, it will be treated as malformed, and
+        then default to 3600.
+"fixed": |-
+  - This provides a modest level of backwards compatibility with RFC 2543, which allowed absolute times in this header field.  If an absolute time is received, it will be treated as malformed, and then default to 3600.
+"ko": |-
+  - 이는 이 헤더 필드에 절대 시간을 허용하는 RFC 2543과의 적당한 수준의 이전 버전 호환성을 제공합니다. 절대 시간을 수신하면 잘못된 형식으로 처리되며 기본값은 3600입니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  412a0686f3653e4ce1863d9beca0d1075fa31c0a26e95592b5f94155f2001e23
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Section 7.2, can fail if the EAP server with which the peer
+     communicates is not the same one with which it initially established
+     a security association.  For example, an EAP peer attempting an
+     EAP-TLS session resume can find that the new EAP-TLS server will not
+     have access to the TLS Master Key identified by the TLS Session-Id,
+     and therefore the session resumption attempt will fail, requiring
+     completion of a full EAP-TLS exchange.
+"fixed": |-
+  Section 7.2, can fail if the EAP server with which the peer communicates is not the same one with which it initially established a security association.  For example, an EAP peer attempting an EAP-TLS session resume can find that the new EAP-TLS server will not have access to the TLS Master Key identified by the TLS Session-Id, and therefore the session resumption attempt will fail, requiring completion of a full EAP-TLS exchange.
+"ko": |-
+  섹션 7.2는 피어가 통신하는 EAP 서버가 처음에 보안 연결을 설정한 서버와 동일하지 않으면 실패할 수 있습니다. 예를 들어 EAP-TLS 세션 재개를 시도하는 EAP 피어는 새 EAP-TLS 서버가 TLS 세션 ID로 식별되는 TLS 마스터 키에 액세스할 수 없으므로 세션 재개 시도가 실패하고 완료가 필요함을 알 수 있습니다. 전체 EAP-TLS 교환.

@@ -1,0 +1,26 @@
+"hash": |-
+  3a9c6859cf70c6d32364f3652aad25d0100f5cacc148b1e863cc6d7fa6591d76
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      switch (hashno) {
+        case SHA1: err = SHA1Reset(0); break;
+        case SHA224: err = SHA224Reset(0); break;
+        case SHA256: err = SHA256Reset(0); break;
+        case SHA384: err = SHA384Reset(0); break;
+        case SHA512: err = SHA512Reset(0); break;
+      }
+      if (printResults == PRINTTEXT)
+         printf("\nError %d. Should be %d.\n", err, shaNull);
+      if ((printPassFail == PRINTPASSFAIL) ||
+          ((printPassFail == PRINTFAIL) && (err != shaNull)))
+         printf("%s sha null: %s\n", hashes[hashno].name,
+          (err == shaNull) ? "PASSED" : "FAILED");
+    }
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

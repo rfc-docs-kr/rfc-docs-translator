@@ -1,0 +1,20 @@
+"hash": |-
+  08049278e033944557f59900adcda6b8a9e802c885a01162ce5aa73fdef97e17
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client can use the SETTINGS_MAX_CONCURRENT_STREAMS setting to limit
+     the number of responses that can be concurrently pushed by a server.
+     Advertising a SETTINGS_MAX_CONCURRENT_STREAMS value of zero prevents
+     the server from opening the streams necessary to push responses.
+     However, this does not prevent the server from reserving streams
+     using PUSH_PROMISE frames, because reserved streams do not count
+     toward the concurrent stream limit.  Clients that do not wish to
+     receive pushed resources need to reset any unwanted reserved streams
+     or set SETTINGS_ENABLE_PUSH to 0.
+"fixed": |-
+  A client can use the SETTINGS_MAX_CONCURRENT_STREAMS setting to limit the number of responses that can be concurrently pushed by a server. Advertising a SETTINGS_MAX_CONCURRENT_STREAMS value of zero prevents the server from opening the streams necessary to push responses. However, this does not prevent the server from reserving streams using PUSH_PROMISE frames, because reserved streams do not count toward the concurrent stream limit.  Clients that do not wish to receive pushed resources need to reset any unwanted reserved streams or set SETTINGS_ENABLE_PUSH to 0.
+"ko": |-
+  클라이언트는 SETTINGS_MAX_CONCURRENT_STREAMS 설정을 사용하여 서버가 동시에 푸시할 수 있는 응답 수를 제한할 수 있습니다. SETTINGS_MAX_CONCURRENT_STREAMS 값을 0으로 알리면 서버가 응답을 푸시하는 데 필요한 스트림을 열 수 없습니다. 그러나 예약된 스트림은 동시 스트림 제한에 포함되지 않기 때문에 서버가 PUSH_PROMISE 프레임을 사용하여 스트림을 예약하는 것을 막지는 못합니다. 푸시된 리소스를 수신하지 않으려는 클라이언트는 원치 않는 예약 스트림을 재설정하거나 SETTINGS_ENABLE_PUSH를 0으로 설정해야 합니다.

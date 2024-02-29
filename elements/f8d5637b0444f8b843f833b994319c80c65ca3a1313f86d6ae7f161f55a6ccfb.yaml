@@ -1,0 +1,42 @@
+"hash": |-
+  f8d5637b0444f8b843f833b994319c80c65ca3a1313f86d6ae7f161f55a6ccfb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* Test arrays for hashes. */
+  struct hash {
+      const char *name;
+      SHAversion whichSha;
+      int hashsize;
+      struct {
+          const char *testarray;
+          int length;
+          long repeatcount;
+          int extrabits;
+          int numberExtrabits;
+          const char *resultarray;
+      } tests[TESTCOUNT];
+      const char *randomtest;
+      const char *randomresults[RANDOMCOUNT];
+  } hashes[HASHCOUNT] = {
+    { "SHA1", SHA1, SHA1HashSize,
+      {
+        /* 1 */ { TEST1, length(TEST1), 1, 0, 0,
+          "A9993E364706816ABA3E25717850C26C9CD0D89D" },
+        /* 2 */ { TEST2_1, length(TEST2_1), 1, 0, 0,
+          "84983E441C3BD26EBAAE4AA1F95129E5E54670F1" },
+        /* 3 */ { TEST3, length(TEST3), 1000000, 0, 0,
+          "34AA973CD4C4DAA4F61EEB2BDBAD27316534016F" },
+        /* 4 */ { TEST4, length(TEST4), 10, 0, 0,
+          "DEA356A2CDDD90C7A7ECEDC5EBB563934F460452" },
+        /* 5 */ { "", 0, 0, 0x98, 5,
+          "29826B003B906E660EFF4027CE98AF3531AC75BA" },
+        /* 6 */ { "\x5e", 1, 1, 0, 0,
+          "5E6F80A34A9798CAFC6A5DB96CC57BA4C4DB59C2" },
+        /* 7 */ { TEST7_1, length(TEST7_1), 1, 0x80, 3,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

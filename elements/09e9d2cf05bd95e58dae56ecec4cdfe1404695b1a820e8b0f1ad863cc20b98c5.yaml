@@ -1,0 +1,22 @@
+"hash": |-
+  09e9d2cf05bd95e58dae56ecec4cdfe1404695b1a820e8b0f1ad863cc20b98c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RSAES-OAEP combines the RSAEP and RSADP primitives (Sections 5.1.1
+     and 5.1.2) with the EME-OAEP encoding method (Step 2 in
+     Section 7.1.1, and Step 3 in Section 7.1.2).  EME-OAEP is based on
+     Bellare and Rogaway's Optimal Asymmetric Encryption scheme [OAEP].
+     It is compatible with the Integer Factorization Encryption Scheme
+     (IFES) defined in IEEE 1363 [IEEE1363], where the encryption and
+     decryption primitives are IFEP-RSA and IFDP-RSA and the message
+     encoding method is EME-OAEP.  RSAES-OAEP can operate on messages of
+     length up to k - 2hLen -2 octets, where hLen is the length of the
+     output from the underlying hash function and k is the length in
+     octets of the recipient's RSA modulus.
+"fixed": |-
+  RSAES-OAEP combines the RSAEP and RSADP primitives (Sections 5.1.1 and 5.1.2) with the EME-OAEP encoding method (Step 2 in Section 7.1.1, and Step 3 in Section 7.1.2).  EME-OAEP is based on Bellare and Rogaway's Optimal Asymmetric Encryption scheme [OAEP]. It is compatible with the Integer Factorization Encryption Scheme (IFES) defined in IEEE 1363 [IEEE1363], where the encryption and decryption primitives are IFEP-RSA and IFDP-RSA and the message encoding method is EME-OAEP.  RSAES-OAEP can operate on messages of length up to k - 2hLen -2 octets, where hLen is the length of the output from the underlying hash function and k is the length in octets of the recipient's RSA modulus.
+"ko": |-
+  RSAES-OAEP는 RSAEP 및 RSADP 기본 요소(섹션 5.1.1 및 5.1.2)를 EME-OAEP 인코딩 방법(섹션 7.1.1의 2단계 및 섹션 7.1.2의 3단계)과 결합합니다. EME-OAEP는 Bellare와 Rogaway의 OAEP(Optimal Asymmetric Encryption Scheme)를 기반으로 합니다. IEEE 1363 [IEEE1363]에 정의된 IFES(Integer Factorization Encryption Scheme)와 호환됩니다. 여기서 암호화 및 복호화 기본 요소는 IFEP-RSA 및 IFDP-RSA이고 메시지 인코딩 방법은 EME-OAEP입니다. RSAES-OAEP는 최대 k - 2hLen -2 옥텟 길이의 메시지에 대해 작동할 수 있습니다. 여기서 hLen은 기본 해시 함수의 출력 길이이고 k는 수신자의 RSA 모듈러스 옥텟 길이입니다.

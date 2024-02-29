@@ -1,0 +1,16 @@
+"hash": |-
+  b9f8b6131cafe98206d3d8977dfe4cd400bff7de80a534c33db625e6fe72d707
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           A stateful proxy MUST NOT immediately forward any other
+           responses.  In particular, a stateful proxy MUST NOT forward
+           any 100 (Trying) response.  Those responses that are candidates
+           for forwarding later as the "best" response have been gathered
+           as described in step "Add Response to Context".
+"fixed": |-
+  - A stateful proxy MUST NOT immediately forward any other responses.  In particular, a stateful proxy MUST NOT forward any 100 (Trying) response.  Those responses that are candidates for forwarding later as the "best" response have been gathered as described in step "Add Response to Context".
+"ko": |-
+  - 상태 저장 프록시는 다른 응답을 즉시 전달해서는 안 됩니다. 특히, 상태 저장 프록시는 100(시도 중) 응답을 전달해서는 안 됩니다. 나중에 "최상의" 응답으로 전달할 후보 응답은 "컨텍스트에 응답 추가" 단계에 설명된 대로 수집되었습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  730e8e6677b9dc01bf181d28892b5308ea35b5684824087fa2fe3bc148afcc7b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS implementations supporting TLS renegotiation SHOULD provide APIs
+     that allow applications to control when renegotiation can take place.
+     For example, a TLS client implementation may provide a "callback"
+     interface to indicate that the server requested renegotiation, but
+     may not start renegotiation until the application calls a function to
+     indicate that now is a good time to renegotiate.
+"fixed": |-
+  TLS implementations supporting TLS renegotiation SHOULD provide APIs that allow applications to control when renegotiation can take place. For example, a TLS client implementation may provide a "callback" interface to indicate that the server requested renegotiation, but may not start renegotiation until the application calls a function to indicate that now is a good time to renegotiate.
+"ko": |-
+  TLS 재협상을 지원하는 TLS 구현은 애플리케이션이 재협상이 발생할 수 있는 시기를 제어할 수 있도록 하는 API를 제공해야 합니다(SHOULD). 예를 들어, TLS 클라이언트 구현은 서버가 재협상을 요청했음을 나타내기 위해 "콜백" 인터페이스를 제공할 수 있지만 애플리케이션이 지금이 재협상하기에 좋은 시간임을 나타내는 함수를 호출할 때까지 재협상을 시작하지 않을 수 있습니다.

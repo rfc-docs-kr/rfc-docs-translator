@@ -1,0 +1,35 @@
+"hash": |-
+  7a03a69ed65aabde0b6e91dd7d595a813d72cae83ffaa43f633fb01435f10c93
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: As noted in PKCS #1 v1.5, the EMSA-PKCS1-v1_5 encoding method
+     has the property that the encoded message, converted to an integer
+     message representative, is guaranteed to be large and at least
+     somewhat "random".  This prevents attacks of the kind proposed by
+     Desmedt and Odlyzko [CHOSEN] where multiplicative relationships
+     between message representatives are developed by factoring the
+     message representatives into a set of small values (e.g., a set of
+     small primes).  Coron, Naccache, and Stern [PADDING] showed that a
+     stronger form of this type of attack could be quite effective against
+     some instances of the ISO/IEC 9796-2 signature scheme.  They also
+     analyzed the complexity of this type of attack against the
+     EMSA-PKCS1-v1_5 encoding method and concluded that an attack would be
+     impractical, requiring more operations than a collision search on the
+     underlying hash function (i.e., more than 2^80 operations).
+     Coppersmith, Halevi, and Jutla [FORGERY] subsequently extended Coron
+     et al.'s attack to break the ISO/IEC 9796-1 signature scheme with
+     message recovery.  The various attacks illustrate the importance of
+     carefully constructing the input to the RSA signature primitive,
+     particularly in a signature scheme with message recovery.
+     Accordingly, the EMSA-PKCS-v1_5 encoding method explicitly includes a
+     hash operation and is not intended for signature schemes with message
+     recovery.  Moreover, while no attack is known against the
+     EMSA-PKCS-v1_5 encoding method, a gradual transition to EMSA-PSS is
+     recommended as a precaution against future developments.
+"fixed": |-
+  Note: As noted in PKCS #1 v1.5, the EMSA-PKCS1-v1_5 encoding method has the property that the encoded message, converted to an integer message representative, is guaranteed to be large and at least somewhat "random".  This prevents attacks of the kind proposed by Desmedt and Odlyzko [CHOSEN] where multiplicative relationships between message representatives are developed by factoring the message representatives into a set of small values (e.g., a set of small primes).  Coron, Naccache, and Stern [PADDING] showed that a stronger form of this type of attack could be quite effective against some instances of the ISO/IEC 9796-2 signature scheme.  They also analyzed the complexity of this type of attack against the EMSA-PKCS1-v1_5 encoding method and concluded that an attack would be impractical, requiring more operations than a collision search on the underlying hash function (i.e., more than 2^80 operations). Coppersmith, Halevi, and Jutla [FORGERY] subsequently extended Coron et al.'s attack to break the ISO/IEC 9796-1 signature scheme with message recovery.  The various attacks illustrate the importance of carefully constructing the input to the RSA signature primitive, particularly in a signature scheme with message recovery. Accordingly, the EMSA-PKCS-v1_5 encoding method explicitly includes a hash operation and is not intended for signature schemes with message recovery.  Moreover, while no attack is known against the EMSA-PKCS-v1_5 encoding method, a gradual transition to EMSA-PSS is recommended as a precaution against future developments.
+"ko": |-
+  참고: PKCS #1 v1.5에 명시된 대로 EMSA-PKCS1-v1_5 인코딩 방법에는 정수 메시지 표현으로 변환된 인코딩된 메시지가 크고 적어도 어느 정도 "무작위"임을 보장하는 속성이 있습니다. 이는 메시지 표현을 작은 값 세트(예: 작은 소수 세트)로 인수분해하여 메시지 표현 간의 곱셈 관계가 개발되는 Desmedt 및 Odlyzko [CHOSEN]가 제안한 종류의 공격을 방지합니다. Coron, Naccache 및 Stern [PADDING]은 이러한 유형의 공격의 더 강력한 형태가 ISO/IEC 9796-2 서명 체계의 일부 인스턴스에 대해 매우 효과적일 수 있음을 보여주었습니다. 또한 EMSA-PKCS1-v1_5 인코딩 방법에 대한 이러한 유형의 공격의 복잡성을 분석하고 공격이 비실용적이며 기본 해시 함수에 대한 충돌 검색보다 더 많은 작업(즉, 2^80개 이상의 작업)이 필요하다는 결론을 내렸습니다. . Coppersmith, Halevi 및 Jutla [FORGERY]는 이후 Coron 등의 공격을 확장하여 메시지 복구를 통해 ISO/IEC 9796-1 서명 체계를 깨뜨렸습니다. 다양한 공격은 특히 메시지 복구 기능이 있는 서명 체계에서 RSA 서명 프리미티브에 대한 입력을 신중하게 구성하는 것의 중요성을 보여줍니다. 따라서 EMSA-PKCS-v1_5 인코딩 방법은 해시 작업을 명시적으로 포함하며 메시지 복구가 포함된 서명 체계에는 적합하지 않습니다. 또한 EMSA-PKCS-v1_5 인코딩 방법에 대한 공격은 알려져 있지 않지만 향후 개발에 대한 예방 조치로 EMSA-PSS로 점진적으로 전환하는 것이 좋습니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  d95e0b41d1c13d2ac8ef9418b9d050dc9291ef6cfd3ef299336494c0fe5a84a4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Exercise an HKDF series.  The input is the testarray,
+   * repeated repeatcount times, followed by the extrabits.  If the
+   * result is known, it is in resultarray in uppercase hex.
+   */
+  int hashHkdf(int testno, int loopno, int hashno,
+    int printResults, int printPassFail)
+  {
+    int err;
+    unsigned char prk[USHAMaxHashSize+1];
+    uint8_t okm[255 * USHAMaxHashSize+1];
+    char buf[20];
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

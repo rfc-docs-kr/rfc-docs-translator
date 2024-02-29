@@ -1,0 +1,15 @@
+"hash": |-
+  bae54e0e0da26f27919ebf5065a3163179ae3bc32302c3b3938df67870ade32e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If a 6xx response is received, it is not immediately forwarded,
+           but the stateful proxy SHOULD cancel all client pending
+           transactions as described in Section 10, and it MUST NOT create
+           any new branches in this context.
+"fixed": |-
+  - If a 6xx response is received, it is not immediately forwarded, but the stateful proxy SHOULD cancel all client pending transactions as described in Section 10, and it MUST NOT create any new branches in this context.
+"ko": |-
+  - 6xx 응답이 수신되면 즉시 전달되지 않지만 상태 저장 프록시는 섹션 10에 설명된 대로 모든 클라이언트 보류 트랜잭션을 취소해야 하며 이 컨텍스트에서 새 분기를 생성해서는 안 됩니다.

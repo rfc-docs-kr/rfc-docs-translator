@@ -1,0 +1,16 @@
+"hash": |-
+  74d0777d5dfea53d81c711a084f48269e1229dbe9439048d2ffae1dbc03474d6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A UAS that receives a second INVITE before it sends the final
+     response to a first INVITE with a lower CSeq sequence number on the
+     same dialog MUST return a 500 (Server Internal Error) response to the
+     second INVITE and MUST include a Retry-After header field with a
+     randomly chosen value of between 0 and 10 seconds.
+"fixed": |-
+  A UAS that receives a second INVITE before it sends the final response to a first INVITE with a lower CSeq sequence number on the same dialog MUST return a 500 (Server Internal Error) response to the second INVITE and MUST include a Retry-After header field with a randomly chosen value of between 0 and 10 seconds.
+"ko": |-
+  동일한 대화 상자에서 CSeq 시퀀스 번호가 낮은 첫 번째 INVITE에 최종 응답을 보내기 전에 두 번째 INVITE를 수신하는 UAS는 두 번째 INVITE에 500(서버 내부 오류) 응답을 반환해야 하며 Retry-After 헤더 필드를 포함해야 합니다. 0~10초 사이에서 무작위로 선택된 값입니다.

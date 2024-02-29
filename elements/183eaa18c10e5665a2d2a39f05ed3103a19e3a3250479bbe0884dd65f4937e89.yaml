@@ -1,0 +1,14 @@
+"hash": |-
+  183eaa18c10e5665a2d2a39f05ed3103a19e3a3250479bbe0884dd65f4937e89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A stream transitions from this state to "closed" when a frame is
+        received with the END_STREAM flag set or when either peer sends a
+        RST_STREAM frame.
+"fixed": |-
+  - A stream transitions from this state to "closed" when a frame is received with the END_STREAM flag set or when either peer sends a RST_STREAM frame.
+"ko": |-
+  - END_STREAM 플래그가 설정된 프레임이 수신되거나 피어 중 하나가 RST_STREAM 프레임을 보낼 때 스트림은 이 상태에서 "닫힌" 상태로 전환됩니다.

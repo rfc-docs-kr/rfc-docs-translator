@@ -1,0 +1,39 @@
+"hash": |-
+  c3f4fc2c65a251f435c8affb200b6242da3c1a750a176551f7f64fb87c879c6a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  hkdfInput
+   *
+   *  Description:
+   *      This function accepts an array of octets as the next portion
+   *      of the input keying material.  It may be called multiple times.
+   *
+   *  Parameters:
+   *      context: [in/out]
+   *          The HKDF context to update.
+   *      ikm[ ]: [in]
+   *          An array of octets representing the next portion of
+   *          the input keying material.
+   *      ikm_len: [in]
+   *          The length of ikm.
+   *
+   *  Returns:
+   *      sha Error Code.
+   *
+   */
+  int hkdfInput(HKDFContext *context, const unsigned char *ikm,
+                int ikm_len)
+  {
+    if (!context) return shaNull;
+    if (context->Corrupted) return context->Corrupted;
+    if (context->Computed) return context->Corrupted = shaStateError;
+    return hmacInput(&context->hmacContext, ikm, ikm_len);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

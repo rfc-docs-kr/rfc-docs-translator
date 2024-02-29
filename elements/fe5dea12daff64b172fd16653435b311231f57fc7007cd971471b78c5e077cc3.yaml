@@ -1,0 +1,20 @@
+"hash": |-
+  fe5dea12daff64b172fd16653435b311231f57fc7007cd971471b78c5e077cc3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     HTTP/2 does not use the Connection header field (Section 7.6.1 of
+     [HTTP]) to indicate connection-specific header fields; in this
+     protocol, connection-specific metadata is conveyed by other means.
+     An endpoint MUST NOT generate an HTTP/2 message containing
+     connection-specific header fields.  This includes the Connection
+     header field and those listed as having connection-specific semantics
+     in Section 7.6.1 of [HTTP] (that is, Proxy-Connection, Keep-Alive,
+     Transfer-Encoding, and Upgrade).  Any message containing connection-
+     specific header fields MUST be treated as malformed (Section 8.1.1).
+"fixed": |-
+  HTTP/2 does not use the Connection header field (Section 7.6.1 of [HTTP]) to indicate connection-specific header fields; in this protocol, connection-specific metadata is conveyed by other means. An endpoint MUST NOT generate an HTTP/2 message containing connection-specific header fields.  This includes the Connection header field and those listed as having connection-specific semantics in Section 7.6.1 of [HTTP] (that is, Proxy-Connection, Keep-Alive, Transfer-Encoding, and Upgrade).  Any message containing connection- specific header fields MUST be treated as malformed (Section 8.1.1).
+"ko": |-
+  HTTP/2는 연결별 헤더 필드를 나타내기 위해 연결 헤더 필드([HTTP]의 섹션 7.6.1)를 사용하지 않습니다. 이 프로토콜에서는 연결별 메타데이터가 다른 수단으로 전달됩니다. 엔드포인트는 연결별 헤더 필드를 포함하는 HTTP/2 메시지를 생성해서는 안 됩니다. 여기에는 연결 헤더 필드와 [HTTP]의 섹션 7.6.1에 연결별 의미가 있는 것으로 나열된 필드(즉, 프록시 연결, 연결 유지, 전송 인코딩 및 업그레이드)가 포함됩니다. 연결별 헤더 필드를 포함하는 모든 메시지는 잘못된 형식으로 처리되어야 합니다(8.1.1절).

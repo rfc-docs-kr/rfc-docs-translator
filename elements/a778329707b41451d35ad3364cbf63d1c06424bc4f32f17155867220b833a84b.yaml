@@ -1,0 +1,20 @@
+"hash": |-
+  a778329707b41451d35ad3364cbf63d1c06424bc4f32f17155867220b833a84b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  The definition of the CRT coefficients here and the formulas that
+         use them in the primitives in Section 5 generally follow Garner's
+         algorithm [GARNER] (see also Algorithm 14.71 in [HANDBOOK]).
+         However, for compatibility with the representations of RSA
+         private keys in PKCS #1 v2.0 and previous versions, the roles of
+         p and q are reversed compared to the rest of the primes.  Thus,
+         the first CRT coefficient, qInv, is defined as the inverse of q
+         mod p, rather than as the inverse of R_1 mod r_2, i.e., of
+         p mod q.
+"fixed": |-
+  1.  The definition of the CRT coefficients here and the formulas that use them in the primitives in Section 5 generally follow Garner's algorithm [GARNER] (see also Algorithm 14.71 in [HANDBOOK]). However, for compatibility with the representations of RSA private keys in PKCS #1 v2.0 and previous versions, the roles of p and q are reversed compared to the rest of the primes.  Thus, the first CRT coefficient, qInv, is defined as the inverse of q mod p, rather than as the inverse of R_1 mod r_2, i.e., of p mod q.
+"ko": |-
+  1. 여기서 CRT 계수의 정의와 섹션 5의 프리미티브에서 이를 사용하는 공식은 일반적으로 Garner의 알고리즘 [GARNER]을 따릅니다([HANDBOOK]의 알고리즘 14.71 참조). 그러나 PKCS #1 v2.0 및 이전 버전의 RSA 개인 키 표현과의 호환성을 위해 p 및 q의 역할은 나머지 소수와 반대입니다. 따라서 첫 번째 CRT 계수 qInv는 R_1 mod r_2의 역, 즉 p mod q가 아니라 q mod p의 역으로 ​​정의됩니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  e8207a01b47d6dae9b96cae412e560a4734a4e2c89bc3cd5a87607f522b6cc72
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server MUST NOT indicate that a stream has not been processed
+     unless it can guarantee that fact.  If frames that are on a stream
+     are passed to the application layer for any stream, then
+     REFUSED_STREAM MUST NOT be used for that stream, and a GOAWAY frame
+     MUST include a stream identifier that is greater than or equal to the
+     given stream identifier.
+"fixed": |-
+  A server MUST NOT indicate that a stream has not been processed unless it can guarantee that fact.  If frames that are on a stream are passed to the application layer for any stream, then REFUSED_STREAM MUST NOT be used for that stream, and a GOAWAY frame MUST include a stream identifier that is greater than or equal to the given stream identifier.
+"ko": |-
+  서버는 해당 사실을 보장할 수 없는 한 스트림이 처리되지 않았음을 표시해서는 안 됩니다. 스트림에 있는 프레임이 모든 스트림에 대해 애플리케이션 계층으로 전달되는 경우 REFUSED_STREAM은 해당 스트림에 사용되어서는 안 되며 GOAWAY 프레임에는 주어진 스트림 식별자보다 크거나 같은 스트림 식별자가 포함되어야 합니다.

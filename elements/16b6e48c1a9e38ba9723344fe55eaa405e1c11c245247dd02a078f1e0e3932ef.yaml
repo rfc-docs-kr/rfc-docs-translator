@@ -1,0 +1,17 @@
+"hash": |-
+  16b6e48c1a9e38ba9723344fe55eaa405e1c11c245247dd02a078f1e0e3932ef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PUSH_PROMISE frames MUST only be sent on a peer-initiated stream that
+     is in either the "open" or "half-closed (remote)" state.  The stream
+     identifier of a PUSH_PROMISE frame indicates the stream it is
+     associated with.  If the Stream Identifier field specifies the value
+     0x00, a recipient MUST respond with a connection error
+     (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  PUSH_PROMISE frames MUST only be sent on a peer-initiated stream that is in either the "open" or "half-closed (remote)" state.  The stream identifier of a PUSH_PROMISE frame indicates the stream it is associated with.  If the Stream Identifier field specifies the value 0x00, a recipient MUST respond with a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  PUSH_PROMISE 프레임은 "개방" 또는 "반 폐쇄(원격)" 상태인 피어 시작 스트림에서만 전송되어야 합니다. PUSH_PROMISE 프레임의 스트림 식별자는 연결된 스트림을 나타냅니다. 스트림 식별자 필드가 0x00 값을 지정하는 경우 수신자는 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 응답해야 합니다.

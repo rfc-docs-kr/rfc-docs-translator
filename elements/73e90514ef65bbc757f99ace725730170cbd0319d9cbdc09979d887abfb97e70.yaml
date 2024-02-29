@@ -1,0 +1,22 @@
+"hash": |-
+  73e90514ef65bbc757f99ace725730170cbd0319d9cbdc09979d887abfb97e70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Request-URI of the original request indicates a resource this
+     proxy is responsible for, the proxy MAY continue to add targets to
+     the set after beginning Request Forwarding.  It MAY use any
+     information obtained during that processing to determine new targets.
+     For instance, a proxy may choose to incorporate contacts obtained in
+     a redirect response (3xx) into the target set.  If a proxy uses a
+     dynamic source of information while building the target set (for
+     instance, if it consults a SIP Registrar), it SHOULD monitor that
+     source for the duration of processing the request.  New locations
+     SHOULD be added to the target set as they become available.  As
+     above, any given URI MUST NOT be added to the set more than once.
+"fixed": |-
+  If the Request-URI of the original request indicates a resource this proxy is responsible for, the proxy MAY continue to add targets to the set after beginning Request Forwarding.  It MAY use any information obtained during that processing to determine new targets. For instance, a proxy may choose to incorporate contacts obtained in a redirect response (3xx) into the target set.  If a proxy uses a dynamic source of information while building the target set (for instance, if it consults a SIP Registrar), it SHOULD monitor that source for the duration of processing the request.  New locations SHOULD be added to the target set as they become available.  As above, any given URI MUST NOT be added to the set more than once.
+"ko": |-
+  원래 요청의 Request-URI가 이 프록시가 담당하는 리소스를 나타내는 경우 프록시는 요청 전달을 시작한 후 세트에 대상을 계속 추가할 수 있습니다. 새로운 목표를 결정하기 위해 해당 처리 중에 얻은 정보를 사용할 수 있습니다. 예를 들어 프록시는 리디렉션 응답(3xx)에서 얻은 연락처를 대상 세트에 통합하도록 선택할 수 있습니다. 프록시가 대상 세트를 구축하는 동안 동적 정보 소스를 사용하는 경우(예: SIP 등록 기관에 문의하는 경우) 요청을 처리하는 동안 해당 소스를 모니터링해야 합니다. 새로운 위치가 사용 가능해지면 대상 세트에 추가해야 합니다. 위와 마찬가지로 특정 URI를 세트에 두 번 이상 추가하면 안 됩니다.

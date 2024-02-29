@@ -1,0 +1,17 @@
+"hash": |-
+  375144938dd6bd669d4c62943726f8d58d0a669a6d3e7031e2cf18cd39ae5095
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           A URI omitting any component with a default value will not
+           match a URI explicitly containing that component with its
+           default value.  For instance, a URI omitting the optional port
+           component will not match a URI explicitly declaring port 5060.
+           The same is true for the transport-parameter, ttl-parameter,
+           user-parameter, and method components.
+"fixed": |-
+  - A URI omitting any component with a default value will not match a URI explicitly containing that component with its default value.  For instance, a URI omitting the optional port component will not match a URI explicitly declaring port 5060. The same is true for the transport-parameter, ttl-parameter, user-parameter, and method components.
+"ko": |-
+  - 기본값이 있는 구성 요소를 생략한 URI는 기본값이 있는 해당 구성 요소를 명시적으로 포함하는 URI와 일치하지 않습니다. 예를 들어 선택적 포트 구성 요소를 생략한 URI는 포트 5060을 명시적으로 선언하는 URI와 일치하지 않습니다. 전송 매개 변수, ttl 매개 변수, 사용자 매개 변수 및 메서드 구성 요소의 경우에도 마찬가지입니다.

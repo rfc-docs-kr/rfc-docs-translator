@@ -1,0 +1,19 @@
+"hash": |-
+  f93bf6cd0e95937625f5d88d8e9d81c8ca869c17f0a0f3113f8302bd5cd3b272
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The proxy starts with a copy of the received request.  The copy
+           MUST initially contain all of the header fields from the
+           received request.  Fields not detailed in the processing
+           described below MUST NOT be removed.  The copy SHOULD maintain
+           the ordering of the header fields as in the received request.
+           The proxy MUST NOT reorder field values with a common field
+           name (See Section 7.3.1).  The proxy MUST NOT add to, modify,
+           or remove the message body.
+"fixed": |-
+  - The proxy starts with a copy of the received request.  The copy MUST initially contain all of the header fields from the received request.  Fields not detailed in the processing described below MUST NOT be removed.  The copy SHOULD maintain the ordering of the header fields as in the received request. The proxy MUST NOT reorder field values with a common field name (See Section 7.3.1).  The proxy MUST NOT add to, modify, or remove the message body.
+"ko": |-
+  - 프록시는 수신된 요청의 복사본으로 시작됩니다. 사본은 처음에 수신된 요청의 모든 헤더 필드를 포함해야 합니다. 아래 설명된 처리에 자세히 설명되지 않은 필드는 제거하면 안 됩니다. 사본은 수신된 요청에서와 같이 헤더 필드의 순서를 유지해야 합니다(SHOULD). 프록시는 공통 필드 이름으로 필드 값을 재정렬해서는 안 됩니다(섹션 7.3.1 참조). 프록시는 메시지 본문을 추가, 수정 또는 제거해서는 안 됩니다.

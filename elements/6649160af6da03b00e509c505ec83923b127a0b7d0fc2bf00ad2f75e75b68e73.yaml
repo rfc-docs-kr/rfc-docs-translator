@@ -1,0 +1,22 @@
+"hash": |-
+  6649160af6da03b00e509c505ec83923b127a0b7d0fc2bf00ad2f75e75b68e73
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     However, it's important to note that with mixed upstream/downstream
+     and peering links, the different links may have different properties
+     (e.g., relating to contracts, trust, viability of the ingress
+     filtering mechanisms, etc.).  In the most typical case, just using an
+     ingress filtering mechanism towards a peer (e.g., Strict RPF) works
+     just fine as long as the routing between the peers is kept reasonably
+     symmetric.  It might even be considered useful to be able to filter
+     out source addresses coming from an upstream link which should have
+     come over a peering link (implying something like Strict RPF is used
+     towards the upstream) -- but this is a more complex topic and
+     considered out of scope; see Section 6.
+"fixed": |-
+  However, it's important to note that with mixed upstream/downstream and peering links, the different links may have different properties (e.g., relating to contracts, trust, viability of the ingress filtering mechanisms, etc.).  In the most typical case, just using an ingress filtering mechanism towards a peer (e.g., Strict RPF) works just fine as long as the routing between the peers is kept reasonably symmetric.  It might even be considered useful to be able to filter out source addresses coming from an upstream link which should have come over a peering link (implying something like Strict RPF is used towards the upstream) -- but this is a more complex topic and considered out of scope; see Section 6.
+"ko": |-
+  그러나 혼합된 업스트림/다운스트림 및 피어링 링크를 사용하면 서로 다른 링크가 서로 다른 속성(예: 계약, 신뢰, 수신 필터링 메커니즘의 실행 가능성 등과 관련)을 가질 수 있다는 점에 유의하는 것이 중요합니다. 가장 일반적인 경우에는 피어에 대한 수신 필터링 메커니즘(예: 엄격한 RPF)을 사용하는 것만으로도 피어 간의 라우팅이 합리적으로 대칭으로 유지되는 한 잘 작동합니다. 피어링 링크를 통해 올라와야 하는 업스트림 링크에서 오는 소스 주소를 필터링할 수 있는 것이 유용하다고 간주될 수도 있습니다(엄격한 RPF와 같은 것이 업스트림에 사용됨을 암시). 그러나 이는 더 복잡한 주제이며 고려되는 사항입니다. 범위 밖; 섹션 6을 참조하세요.

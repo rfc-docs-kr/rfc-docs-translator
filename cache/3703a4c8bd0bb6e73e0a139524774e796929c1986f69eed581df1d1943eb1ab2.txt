@@ -1,0 +1,1 @@
+/* * SHA224_256Reset * * 설명: * 이 도우미 함수는 새로운 SHA-224 또는 SHA-256 메시지 다이제스트를 계산하기 위한 준비에서 * SHA256Context를 초기화합니다. * * 매개변수: * context: [in/out] * 재설정할 컨텍스트입니다. * H0[ ]: [in] * 사용할 초기 해시 값 배열입니다. * * 반환: * sha 오류 코드. */ static int SHA224_256Reset(SHA256Context *context, uint32_t *H0) { if (!context) return shaNull;

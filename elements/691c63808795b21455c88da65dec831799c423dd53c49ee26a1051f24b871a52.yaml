@@ -1,0 +1,31 @@
+"hash": |-
+  691c63808795b21455c88da65dec831799c423dd53c49ee26a1051f24b871a52
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Exercise a hash series of functions.  The input is a filename.
+   * If the result is known, it is in resultarray in uppercase hex.
+   */
+  int hashfile(int hashno, const char *hashfilename, int bits,
+    int bitcount, int skipSpaces, const unsigned char *keyarray,
+    int keylen, const unsigned char *info, int infolen, int okmlen,
+    const char *resultarray, int hashsize,
+    int printResults, int printPassFail)
+  {
+    USHAContext sha;
+    HMACContext hmac;
+    HKDFContext hkdf;
+    int err, nread, c;
+    unsigned char buf[4096];
+    uint8_t Message_Digest_Buf[USHAMaxHashSize];
+    uint8_t *Message_Digest = Message_Digest_Buf;
+    unsigned char cc;
+    FILE *hashfp = (strcmp(hashfilename, "-") == 0) ? stdin :
+      fopen(hashfilename, "r");
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

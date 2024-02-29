@@ -1,0 +1,1 @@
+/* 해당 위치의 16진수 문자열을 해당 값으로 대체 */ int unhexStr(char *hexstr) { char *o = hexstr; int len ​​= 0, nibble1 = 0, nibble2 = 0; if (!hexstr) 0을 반환합니다. for ( ; *hexstr; hexstr++) { if (isalpha((int)(unsigned char)(*hexstr))) { nibble1 = tolower((int)(unsigned char)(*hexstr)) - 'a' + 10; } else if (isdigit((int)(unsigned char)(*hexstr))) { nibble1 = *hexstr - '0';

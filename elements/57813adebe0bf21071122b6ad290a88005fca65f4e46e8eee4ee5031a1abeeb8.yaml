@@ -1,0 +1,19 @@
+"hash": |-
+  57813adebe0bf21071122b6ad290a88005fca65f4e46e8eee4ee5031a1abeeb8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        else /* standard tests */ {
+          for (testno = testnolow;
+               (testno <= testnohigh) && (err == shaSuccess); ++testno) {
+            if (runHmacTests) {
+              err = hash(testno, loopno, hashno,
+                         hmachashes[testno].dataarray[hashno] ?
+                         hmachashes[testno].dataarray[hashno] :
+                         hmachashes[testno].dataarray[1] ?
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

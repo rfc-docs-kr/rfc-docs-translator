@@ -1,0 +1,15 @@
+"hash": |-
+  17c97f1910485a573b831d5839788b75d5e3a99536e96b6b139b4b53c09bdd59
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Server           =  "Server" HCOLON server-val *(LWS server-val)
+  server-val       =  product / comment
+  product          =  token [SLASH product-version]
+  product-version  =  token
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,27 @@
+"hash": |-
+  7ae13df8f821598d9b57abd1d64ac00e741dc0272cf6f798678a309e752fd314
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The AAA key management protocol MUST be cryptographic algorithm
+        independent.  However, an EAP method MAY depend on a specific
+        cryptographic algorithm.  The ability to negotiate the use of a
+        particular cryptographic algorithm provides resilience against
+        compromise of a particular cryptographic algorithm.  Algorithm
+        independence is also REQUIRED with a Secure Association Protocol
+        if one is defined.  This is usually accomplished by including an
+        algorithm identifier and parameters in the protocol, and by
+        specifying the algorithm requirements in the protocol
+        specification.  While highly desirable, the ability to negotiate
+        key derivation functions (KDFs) is not required.  For
+        interoperability, at least one suite of mandatory-to-implement
+        algorithms MUST be selected.  Note that without protection by
+        IPsec as described in [RFC3579] Section 4.2, RADIUS [RFC2865] does
+        not meet this requirement, since the integrity protection
+        algorithm cannot be negotiated.
+"fixed": |-
+  - The AAA key management protocol MUST be cryptographic algorithm independent.  However, an EAP method MAY depend on a specific cryptographic algorithm.  The ability to negotiate the use of a particular cryptographic algorithm provides resilience against compromise of a particular cryptographic algorithm.  Algorithm independence is also REQUIRED with a Secure Association Protocol if one is defined.  This is usually accomplished by including an algorithm identifier and parameters in the protocol, and by specifying the algorithm requirements in the protocol specification.  While highly desirable, the ability to negotiate key derivation functions (KDFs) is not required.  For interoperability, at least one suite of mandatory-to-implement algorithms MUST be selected.  Note that without protection by IPsec as described in [RFC3579] Section 4.2, RADIUS [RFC2865] does not meet this requirement, since the integrity protection algorithm cannot be negotiated.
+"ko": |-
+  - AAA 키 관리 프로토콜은 암호화 알고리즘에 독립적이어야 합니다. 그러나 EAP 방법은 특정 암호화 알고리즘에 따라 달라질 수 있습니다. 특정 암호화 알고리즘의 사용을 협상하는 기능은 특정 암호화 알고리즘의 손상에 대한 탄력성을 제공합니다. 보안 연결 프로토콜이 정의된 경우 알고리즘 독립성도 필요합니다. 이는 일반적으로 프로토콜에 알고리즘 식별자와 매개변수를 포함하고 프로토콜 사양에 알고리즘 요구 사항을 지정하여 수행됩니다. 매우 바람직하지만 KDF(핵심 파생 함수)를 협상하는 기능은 필요하지 않습니다. 상호 운용성을 위해 최소 하나 이상의 필수 구현 알고리즘 제품군을 선택해야 합니다. [RFC3579] 섹션 4.2에 설명된 대로 IPsec에 의한 보호가 없으면 무결성 보호 알고리즘을 협상할 수 없기 때문에 RADIUS [RFC2865]는 이 요구 사항을 충족하지 않습니다.

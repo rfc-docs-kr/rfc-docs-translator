@@ -1,0 +1,16 @@
+"hash": |-
+  10584d259a801a1b8b3aa5c63022161f6d0453687b153e6d62be5969e29d49f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          In order to avoid key reuse, the AAA layer MUST delete
+          transported keys once they are sent.  The AAA layer MUST NOT
+          retain keys that it has previously sent.  For example, a AAA
+          layer that has transported the MSK MUST delete it, and keys MUST
+          NOT be derived from the MSK from that point forward.
+"fixed": |-
+  - In order to avoid key reuse, the AAA layer MUST delete transported keys once they are sent.  The AAA layer MUST NOT retain keys that it has previously sent.  For example, a AAA layer that has transported the MSK MUST delete it, and keys MUST NOT be derived from the MSK from that point forward.
+"ko": |-
+  - 키 재사용을 피하기 위해 AAA 계층은 전송된 키가 전송된 후 삭제해야 합니다. AAA 계층은 이전에 보낸 키를 보관해서는 안 됩니다. 예를 들어, MSK를 전송한 AAA 계층은 이를 삭제해야 하며(MUST) 해당 시점부터 MSK에서 키가 파생되어서는 안 됩니다(MUST NOT).

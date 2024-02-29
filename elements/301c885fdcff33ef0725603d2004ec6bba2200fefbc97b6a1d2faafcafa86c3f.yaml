@@ -1,0 +1,18 @@
+"hash": |-
+  301c885fdcff33ef0725603d2004ec6bba2200fefbc97b6a1d2faafcafa86c3f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TCP currently authenticates received RSTs using the address and port
+     pair numbers, and checks that the sequence number is inside the valid
+     receiver window.  The previous section demonstrated how TCP has
+     become more vulnerable to RST spoofing attacks due to the increases
+     in the receive window size.  There are a number of current and
+     proposed solutions to this vulnerability, all attempting to provide
+     evidence that a received RST is legitimate.
+"fixed": |-
+  TCP currently authenticates received RSTs using the address and port pair numbers, and checks that the sequence number is inside the valid receiver window.  The previous section demonstrated how TCP has become more vulnerable to RST spoofing attacks due to the increases in the receive window size.  There are a number of current and proposed solutions to this vulnerability, all attempting to provide evidence that a received RST is legitimate.
+"ko": |-
+  TCP는 현재 주소와 포트 쌍 번호를 사용하여 수신된 RST를 인증하고 시퀀스 번호가 유효한 수신자 창 내에 있는지 확인합니다. 이전 섹션에서는 수신 창 크기의 증가로 인해 TCP가 RST 스푸핑 공격에 어떻게 더 취약해졌는지를 보여주었습니다. 이 취약점에 대해 현재 제안된 솔루션이 많이 있으며, 모두 수신된 RST가 합법적이라는 증거를 제공하려고 시도합니다.

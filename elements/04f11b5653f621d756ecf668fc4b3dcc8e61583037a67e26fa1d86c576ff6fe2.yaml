@@ -1,0 +1,18 @@
+"hash": |-
+  04f11b5653f621d756ecf668fc4b3dcc8e61583037a67e26fa1d86c576ff6fe2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the UAS desires an extended period of time to answer the INVITE,
+     it will need to ask for an "extension" in order to prevent proxies
+     from canceling the transaction.  A proxy has the option of canceling
+     a transaction when there is a gap of 3 minutes between responses in a
+     transaction.  To prevent cancellation, the UAS MUST send a non-100
+     provisional response at every minute, to handle the possibility of
+     lost provisional responses.
+"fixed": |-
+  If the UAS desires an extended period of time to answer the INVITE, it will need to ask for an "extension" in order to prevent proxies from canceling the transaction.  A proxy has the option of canceling a transaction when there is a gap of 3 minutes between responses in a transaction.  To prevent cancellation, the UAS MUST send a non-100 provisional response at every minute, to handle the possibility of lost provisional responses.
+"ko": |-
+  UAS가 INVITE에 응답하기 위해 연장된 시간을 원하는 경우 프록시가 트랜잭션을 취소하는 것을 방지하기 위해 "연장"을 요청해야 합니다. 프록시에는 트랜잭션 응답 사이에 3분의 간격이 있을 때 트랜잭션을 취소할 수 있는 옵션이 있습니다. 취소를 방지하기 위해 UAS는 임시 응답 손실 가능성을 처리하기 위해 매분마다 100이 아닌 임시 응답을 보내야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  75297ece7b0660e64590f6eec2d5119c354496f7250e29b3b1c859ba8149e139
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     core or a UAC core.  A UAC core will handle generation of the ACK for
+     this response, while a proxy core will always forward the 200 (OK)
+     upstream.  The differing treatment of 200 (OK) between proxy and UAC
+     is the reason that handling of it does not take place in the
+     transaction layer.
+"fixed": |-
+  core or a UAC core.  A UAC core will handle generation of the ACK for this response, while a proxy core will always forward the 200 (OK) upstream.  The differing treatment of 200 (OK) between proxy and UAC is the reason that handling of it does not take place in the transaction layer.
+"ko": |-
+  코어 또는 UAC 코어. UAC 코어는 이 응답에 대한 ACK 생성을 처리하는 반면, 프록시 코어는 항상 200(OK) 업스트림을 전달합니다. 프록시와 UAC 간에 200(OK) 처리가 다르기 때문에 트랜잭션 계층에서 처리가 이루어지지 않습니다.

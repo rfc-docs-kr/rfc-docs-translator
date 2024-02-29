@@ -1,0 +1,19 @@
+"hash": |-
+  e6c38d22d3ea0f0ba510ac1be169857d64535e4290c8099b155b93ea0926860c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     SIPS URI in the Request-URI or in the top Record-Route header field
+     value, if there was any, or the Contact header field if there was no
+     Record-Route header field, the Contact header field in the response
+     MUST be a SIPS URI.  The URI SHOULD have global scope (that is, the
+     same URI can be used in messages outside this dialog).  The same way,
+     the scope of the URI in the Contact header field of the INVITE is not
+     limited to this dialog either.  It can therefore be used in messages
+     to the UAC even outside this dialog.
+"fixed": |-
+  SIPS URI in the Request-URI or in the top Record-Route header field value, if there was any, or the Contact header field if there was no Record-Route header field, the Contact header field in the response MUST be a SIPS URI.  The URI SHOULD have global scope (that is, the same URI can be used in messages outside this dialog).  The same way, the scope of the URI in the Contact header field of the INVITE is not limited to this dialog either.  It can therefore be used in messages to the UAC even outside this dialog.
+"ko": |-
+  Request-URI 또는 ​​최상위 Record-Route 헤더 필드 값(있는 경우)의 SIPS URI, Record-Route 헤더 필드가 없는 경우 Contact 헤더 필드, 응답의 Contact 헤더 필드는 SIPS URI여야 합니다. . URI는 전역 범위를 가져야 합니다(즉, 이 대화 상자 외부의 메시지에 동일한 URI를 사용할 수 있음). 마찬가지로 INVITE의 Contact 헤더 필드에 있는 URI의 범위도 이 대화 상자로 제한되지 않습니다. 따라서 이 대화 상자 외부에서도 UAC에 보내는 메시지에 사용할 수 있습니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  d60d92d5e01285a56cd0f8bcc9e0269406f4b185cf4819bdf646b816b56a086f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The GOAWAY frame indicates the highest stream number that might
+        have been processed.  Requests on streams with higher numbers are
+        therefore guaranteed to be safe to retry.
+"fixed": |-
+  *  The GOAWAY frame indicates the highest stream number that might have been processed.  Requests on streams with higher numbers are therefore guaranteed to be safe to retry.
+"ko": |-
+  * GOAWAY 프레임은 처리되었을 수 있는 가장 높은 스트림 번호를 나타냅니다. 따라서 더 높은 숫자의 스트림에 대한 요청은 재시도해도 안전하다는 것이 보장됩니다.

@@ -1,0 +1,1 @@
+/* * 두 문자열을 대소문자 구분 없이 비교합니다. * 일부 시스템에서 발견되는 strcasecmp()와 동일합니다. */ int scasecmp(const char *s1, const char *s2) { for (;;) { char u1 = tolower((int)(unsigned char)(*s1++)); char u2 = tolower((int)(unsigned char)(*s2++)); if (u1 != u2) return u1 - u2; if (u1 == '\0') 0을 반환; } }

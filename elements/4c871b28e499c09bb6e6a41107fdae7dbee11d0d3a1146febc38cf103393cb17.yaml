@@ -1,0 +1,16 @@
+"hash": |-
+  4c871b28e499c09bb6e6a41107fdae7dbee11d0d3a1146febc38cf103393cb17
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Prior to receiving a SETTINGS frame that sets a value for
+     SETTINGS_INITIAL_WINDOW_SIZE, an endpoint can only use the default
+     initial window size when sending flow-controlled frames.  Similarly,
+     the connection flow-control window is set based on the default
+     initial window size until a WINDOW_UPDATE frame is received.
+"fixed": |-
+  Prior to receiving a SETTINGS frame that sets a value for SETTINGS_INITIAL_WINDOW_SIZE, an endpoint can only use the default initial window size when sending flow-controlled frames.  Similarly, the connection flow-control window is set based on the default initial window size until a WINDOW_UPDATE frame is received.
+"ko": |-
+  SETTINGS_INITIAL_WINDOW_SIZE 값을 설정하는 SETTINGS 프레임을 수신하기 전에 엔드포인트는 흐름 제어 프레임을 보낼 때 기본 초기 창 크기만 사용할 수 있습니다. 마찬가지로 연결 흐름 제어 창은 WINDOW_UPDATE 프레임이 수신될 때까지 기본 초기 창 크기를 기반으로 설정됩니다.

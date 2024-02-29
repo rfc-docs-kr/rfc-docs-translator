@@ -1,0 +1,16 @@
+"hash": |-
+  c37b21ae7efb72e12e88adbcdabba54d4c92816ef52e6719048188fc229450d1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  An attacker can provide large amounts of flow-control credit at
+        the HTTP/2 layer but withhold credit at the TCP layer, preventing
+        frames from being sent.  An endpoint that constructs and remembers
+        frames for sending without considering TCP limits might be subject
+        to resource exhaustion.
+"fixed": |-
+  *  An attacker can provide large amounts of flow-control credit at the HTTP/2 layer but withhold credit at the TCP layer, preventing frames from being sent.  An endpoint that constructs and remembers frames for sending without considering TCP limits might be subject to resource exhaustion.
+"ko": |-
+  * 공격자는 HTTP/2 계층에서 대량의 흐름 제어 크레딧을 제공할 수 있지만 TCP 계층에서는 크레딧을 보류하여 프레임이 전송되지 않도록 할 수 있습니다. TCP 제한을 고려하지 않고 전송할 프레임을 구성하고 기억하는 엔드포인트는 리소스가 고갈될 수 있습니다.

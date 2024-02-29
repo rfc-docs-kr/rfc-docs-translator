@@ -1,0 +1,18 @@
+"hash": |-
+  b7946d635315910bf9e7a4210a29ff5c9504fbd0eca31aa3841feebe50264517
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Length, Type, Unused Flag(s), Reserved, and Stream Identifier
+     fields are described in Section 4.  The frame payload of a
+     WINDOW_UPDATE frame is one reserved bit plus an unsigned 31-bit
+     integer indicating the number of octets that the sender can transmit
+     in addition to the existing flow-control window.  The legal range for
+     the increment to the flow-control window is 1 to 2^31-1
+     (2,147,483,647) octets.
+"fixed": |-
+  The Length, Type, Unused Flag(s), Reserved, and Stream Identifier fields are described in Section 4.  The frame payload of a WINDOW_UPDATE frame is one reserved bit plus an unsigned 31-bit integer indicating the number of octets that the sender can transmit in addition to the existing flow-control window.  The legal range for the increment to the flow-control window is 1 to 2^31-1 (2,147,483,647) octets.
+"ko": |-
+  길이, 유형, 사용되지 않은 플래그, 예약됨 및 스트림 식별자 필드는 섹션 4에 설명되어 있습니다. WINDOW_UPDATE 프레임의 프레임 페이로드는 예약된 비트 1개에 보낸 사람이 사용할 수 있는 옥텟 수를 나타내는 부호 없는 31비트 정수입니다. 기존 흐름 제어 창에 추가로 전송합니다. 흐름 제어 창의 법적 증분 범위는 1~2^31-1(2,147,483,647)옥텟입니다.

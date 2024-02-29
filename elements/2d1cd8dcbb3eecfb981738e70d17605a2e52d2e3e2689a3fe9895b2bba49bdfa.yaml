@@ -1,0 +1,17 @@
+"hash": |-
+  2d1cd8dcbb3eecfb981738e70d17605a2e52d2e3e2689a3fe9895b2bba49bdfa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A UAS first processes the CANCEL request according to the general UAS
+     processing described in Section 8.2.  However, since CANCEL requests
+     are hop-by-hop and cannot be resubmitted, they cannot be challenged
+     by the server in order to get proper credentials in an Authorization
+     header field.  Note also that CANCEL requests do not contain a
+     Require header field.
+"fixed": |-
+  A UAS first processes the CANCEL request according to the general UAS processing described in Section 8.2.  However, since CANCEL requests are hop-by-hop and cannot be resubmitted, they cannot be challenged by the server in order to get proper credentials in an Authorization header field.  Note also that CANCEL requests do not contain a Require header field.
+"ko": |-
+  UAS는 먼저 섹션 8.2에 설명된 일반 UAS 처리에 따라 CANCEL 요청을 처리합니다. 그러나 CANCEL 요청은 홉별로 이루어지며 다시 제출할 수 없으므로 Authorization 헤더 필드에서 적절한 자격 증명을 얻기 위해 서버에서 요청을 요청할 수 없습니다. 또한 CANCEL 요청에는 Require 헤더 필드가 포함되어 있지 않습니다.

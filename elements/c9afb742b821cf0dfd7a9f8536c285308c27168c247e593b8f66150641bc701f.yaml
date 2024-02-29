@@ -1,0 +1,17 @@
+"hash": |-
+  c9afb742b821cf0dfd7a9f8536c285308c27168c247e593b8f66150641bc701f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Any retransmissions of the final response that are received while in
+     the "Completed" state MUST cause the ACK to be re-passed to the
+     transport layer for retransmission, but the newly received response
+     MUST NOT be passed up to the TU.  A retransmission of the response is
+     defined as any response which would match the same client transaction
+     based on the rules of Section 17.1.3.
+"fixed": |-
+  Any retransmissions of the final response that are received while in the "Completed" state MUST cause the ACK to be re-passed to the transport layer for retransmission, but the newly received response MUST NOT be passed up to the TU.  A retransmission of the response is defined as any response which would match the same client transaction based on the rules of Section 17.1.3.
+"ko": |-
+  "완료" 상태에 있는 동안 수신된 최종 응답의 재전송으로 인해 ACK가 재전송을 위해 전송 계층으로 재전송되어야 하지만 새로 수신된 응답이 TU까지 전달되어서는 안 됩니다. 응답의 재전송은 섹션 17.1.3의 규칙에 따라 동일한 클라이언트 트랜잭션과 일치하는 모든 응답으로 정의됩니다.

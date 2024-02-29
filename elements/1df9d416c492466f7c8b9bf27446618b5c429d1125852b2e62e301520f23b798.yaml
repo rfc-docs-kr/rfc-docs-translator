@@ -1,0 +1,13 @@
+"hash": |-
+  1df9d416c492466f7c8b9bf27446618b5c429d1125852b2e62e301520f23b798
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        An endpoint MUST NOT send any type of frame other than RST_STREAM,
+        WINDOW_UPDATE, or PRIORITY in this state.
+"fixed": |-
+  - An endpoint MUST NOT send any type of frame other than RST_STREAM, WINDOW_UPDATE, or PRIORITY in this state.
+"ko": |-
+  - 엔드포인트는 이 상태에서 RST_STREAM, WINDOW_UPDATE 또는 PRIORITY 이외의 어떤 유형의 프레임도 전송해서는 안 됩니다.

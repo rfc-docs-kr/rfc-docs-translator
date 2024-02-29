@@ -1,0 +1,15 @@
+"hash": |-
+  b9a33aadd0aefd0fb6123266bd5a402921e4f705af7ec1447f2e43e0889c04e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The SETTINGS frame might also be abused to cause a peer to expend
+        additional processing time.  This might be done by pointlessly
+        changing settings, sending multiple undefined settings, or
+        changing the same setting multiple times in the same frame.
+"fixed": |-
+  *  The SETTINGS frame might also be abused to cause a peer to expend additional processing time.  This might be done by pointlessly changing settings, sending multiple undefined settings, or changing the same setting multiple times in the same frame.
+"ko": |-
+  * SETTINGS 프레임을 남용하여 피어가 추가 처리 시간을 소비하게 할 수도 있습니다. 이는 무의미하게 설정을 변경하거나, 정의되지 않은 여러 설정을 보내거나, 동일한 프레임에서 동일한 설정을 여러 번 변경함으로써 수행될 수 있습니다.

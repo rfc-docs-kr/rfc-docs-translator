@@ -1,0 +1,19 @@
+"hash": |-
+  73bafc134bb9fb4aae1fa9eb571c9f3333485494ec4a970ce042471be68570ac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In order to create a request based on a contact address in a 3xx
+     response, a UAC MUST copy the entire URI from the target set into the
+     Request-URI, except for the "method-param" and "header" URI
+     parameters (see Section 19.1.1 for a definition of these parameters).
+     It uses the "header" parameters to create header field values for the
+     new request, overwriting header field values associated with the
+     redirected request in accordance with the guidelines in Section
+     19.1.5.
+"fixed": |-
+  In order to create a request based on a contact address in a 3xx response, a UAC MUST copy the entire URI from the target set into the Request-URI, except for the "method-param" and "header" URI parameters (see Section 19.1.1 for a definition of these parameters). It uses the "header" parameters to create header field values for the new request, overwriting header field values associated with the redirected request in accordance with the guidelines in Section 19.1.5.
+"ko": |-
+  3xx 응답의 연락처 주소를 기반으로 요청을 생성하려면 UAC는 "method-param" 및 "header" URI 매개변수를 제외하고 대상 세트의 전체 URI를 요청-URI로 복사해야 합니다(섹션 참조). 이러한 매개변수의 정의는 19.1.1 참조). "헤더" 매개변수를 사용하여 새 요청에 대한 헤더 필드 값을 생성하고 섹션 19.1.5의 지침에 따라 리디렉션된 요청과 관련된 헤더 필드 값을 덮어씁니다.

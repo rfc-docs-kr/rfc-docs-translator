@@ -1,0 +1,20 @@
+"hash": |-
+  d26749b9f2d76c8ee0418d77c7cc9c16cc36d13546b548071d189fe83945340d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (printResults && resultarray) {
+      printf("    Should match:\n\t");
+      for (i = 0, k = 0; i < hashsize; i++, k += 2) {
+        putchar(resultarray[k]);
+        putchar(resultarray[k+1]);
+        putchar(' ');
+      }
+      putchar('\n');
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  89982e90058d9a4b7d463759ba99b6524a88b88da13714cfb74476b3fcf7b245
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  Maj(x,y,z)  (((x)&(y)) ^ ((x)&(z)) ^ ((y)&(z)))
+   */
+  static uint32_t Maj_temp1[2], Maj_temp2[2],
+    Maj_temp3[2], Maj_temp4[2];
+  #define SHA_Maj(x, y, z, ret) (                                \
+      SHA512_AND(x, y, Maj_temp1),                               \
+      SHA512_AND(x, z, Maj_temp2),                               \
+      SHA512_AND(y, z, Maj_temp3),                               \
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

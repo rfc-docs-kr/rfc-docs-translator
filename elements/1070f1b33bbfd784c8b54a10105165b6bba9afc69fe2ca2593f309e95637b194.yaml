@@ -1,0 +1,18 @@
+"hash": |-
+  1070f1b33bbfd784c8b54a10105165b6bba9afc69fe2ca2593f309e95637b194
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The first stream error reported for a given stream prevents any other
+     errors on that stream from being reported.  In comparison, the
+     protocol permits multiple GOAWAY frames, though an endpoint SHOULD
+     report just one type of connection error unless an error is
+     encountered during graceful shutdown.  If this occurs, an endpoint
+     MAY send an additional GOAWAY frame with the new error code, in
+     addition to any prior GOAWAY that contained NO_ERROR.
+"fixed": |-
+  The first stream error reported for a given stream prevents any other errors on that stream from being reported.  In comparison, the protocol permits multiple GOAWAY frames, though an endpoint SHOULD report just one type of connection error unless an error is encountered during graceful shutdown.  If this occurs, an endpoint MAY send an additional GOAWAY frame with the new error code, in addition to any prior GOAWAY that contained NO_ERROR.
+"ko": |-
+  특정 스트림에 대해 보고된 첫 번째 스트림 오류로 인해 해당 스트림의 다른 오류가 보고되지 않습니다. 이에 비해 프로토콜은 여러 GOAWAY 프레임을 허용하지만 엔드포인트는 정상적인 종료 중에 오류가 발생하지 않는 한 한 가지 유형의 연결 오류만 보고해야 합니다. 이런 일이 발생하면 엔드포인트는 NO_ERROR를 포함하는 이전 GOAWAY에 더해 새로운 오류 코드와 함께 추가 GOAWAY 프레임을 보낼 수도 있습니다.

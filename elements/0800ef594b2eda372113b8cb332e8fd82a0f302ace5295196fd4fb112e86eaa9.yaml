@@ -1,0 +1,19 @@
+"hash": |-
+  0800ef594b2eda372113b8cb332e8fd82a0f302ace5295196fd4fb112e86eaa9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It may be sufficient for the endpoint to limit the advertised receive
+     window by deliberately leaving it small.  If the receive socket
+     buffer is limited, e.g., to the ubiquitous default of 64 KB, the
+     advertised receive window will not be as vulnerable even for very
+     long connections over very high bandwidths.  The vulnerability will
+     grow linearly with the increased network speed, but not as the
+     square.  The consequence is lower sustained throughput, where only
+     one window's worth of data per round-trip time (RTT) is exchanged.
+"fixed": |-
+  It may be sufficient for the endpoint to limit the advertised receive window by deliberately leaving it small.  If the receive socket buffer is limited, e.g., to the ubiquitous default of 64 KB, the advertised receive window will not be as vulnerable even for very long connections over very high bandwidths.  The vulnerability will grow linearly with the increased network speed, but not as the square.  The consequence is lower sustained throughput, where only one window's worth of data per round-trip time (RTT) is exchanged.
+"ko": |-
+  엔드포인트가 의도적으로 작게 남겨두어 광고된 수신 창을 제한하는 것만으로도 충분할 수 있습니다. 수신 소켓 버퍼가 제한되는 경우(예: 유비쿼터스 기본값인 64KB), 광고된 수신 창은 매우 높은 대역폭을 통한 매우 긴 연결의 경우에도 취약하지 않습니다. 취약점은 네트워크 속도가 증가함에 따라 선형적으로 증가하지만 정사각형으로 증가하지는 않습니다. 결과적으로 RTT(왕복 시간)당 하나의 창에 해당하는 데이터만 교환되는 지속 처리량이 낮아집니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  caa773ad70d8d7ff33bef9a6f9341537f6e33f4d41e5f0344da2a326d00e437d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Virtual LAN (VLAN) support is defined in [IEEE-802.1Q]; RADIUS
+     support for dynamic VLANs is described in [RFC3580] and [RFC4675].
+     If some authenticators support dynamic VLANs while others do not,
+     then attributes present in the Access-Request (such as the
+     NAS-Port-Type, NAS-IP-Address, NAS-IPv6-Address, and NAS-Identifier)
+     could be examined by the backend authentication server to determine
+     when VLAN attributes will be returned, and if so, which ones.
+     However, if the backend authenticator is bypassed, then a handoff
+     occurring between authenticators supporting different VLAN
+     capabilities could result in a user obtaining access to an
+     unauthorized VLAN (e.g., a user with access to a guest VLAN being
+     given unrestricted access to the network).
+"fixed": |-
+  Virtual LAN (VLAN) support is defined in [IEEE-802.1Q]; RADIUS support for dynamic VLANs is described in [RFC3580] and [RFC4675]. If some authenticators support dynamic VLANs while others do not, then attributes present in the Access-Request (such as the NAS-Port-Type, NAS-IP-Address, NAS-IPv6-Address, and NAS-Identifier) could be examined by the backend authentication server to determine when VLAN attributes will be returned, and if so, which ones. However, if the backend authenticator is bypassed, then a handoff occurring between authenticators supporting different VLAN capabilities could result in a user obtaining access to an unauthorized VLAN (e.g., a user with access to a guest VLAN being given unrestricted access to the network).
+"ko": |-
+  가상 LAN(VLAN) 지원은 [IEEE-802.1Q]에 정의되어 있습니다. 동적 VLAN에 대한 RADIUS 지원은 [RFC3580] 및 [RFC4675]에 설명되어 있습니다. 일부 인증자가 동적 VLAN을 지원하는 반면 다른 인증자는 지원하지 않는 경우 액세스 요청에 있는 속성(예: NAS 포트 유형, NAS-IP 주소, NAS-IPv6-주소 및 NAS 식별자)을 다음을 통해 검사할 수 있습니다. 백엔드 인증 서버를 사용하여 VLAN 속성이 반환되는 시기와 반환되는 경우 어느 속성을 결정합니다. 그러나 백엔드 인증자가 우회되면 서로 다른 VLAN 기능을 지원하는 인증자 간에 핸드오프가 발생하여 사용자가 승인되지 않은 VLAN에 액세스할 수 있습니다(예: 게스트 VLAN에 액세스할 수 있는 사용자에게 네트워크에 대한 무제한 액세스가 제공됨).

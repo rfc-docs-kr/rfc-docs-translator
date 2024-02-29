@@ -1,0 +1,17 @@
+"hash": |-
+  e32874f99913ee4b18950c536d83550c1252baacb2bbacc311fd2427672fdc0d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an endpoint detects multiple different errors, it MAY choose to
+     report any one of those errors.  If a frame causes a connection
+     error, that error MUST be reported.  Additionally, an endpoint MAY
+     use any applicable error code when it detects an error condition; a
+     generic error code (such as PROTOCOL_ERROR or INTERNAL_ERROR) can
+     always be used in place of more specific error codes.
+"fixed": |-
+  If an endpoint detects multiple different errors, it MAY choose to report any one of those errors.  If a frame causes a connection error, that error MUST be reported.  Additionally, an endpoint MAY use any applicable error code when it detects an error condition; a generic error code (such as PROTOCOL_ERROR or INTERNAL_ERROR) can always be used in place of more specific error codes.
+"ko": |-
+  엔드포인트가 여러 가지 다른 오류를 감지하면 해당 오류 중 하나를 보고하도록 선택할 수 있습니다. 프레임이 연결 오류를 일으키는 경우 해당 오류를 보고해야 합니다. 또한 엔드포인트는 오류 조건을 감지할 때 적용 가능한 오류 코드를 사용할 수 있습니다. 보다 구체적인 오류 코드 대신 일반 오류 코드(예: PROTOCOL_ERROR 또는 INTERNAL_ERROR)를 항상 사용할 수 있습니다.

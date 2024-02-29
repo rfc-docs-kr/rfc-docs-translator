@@ -1,0 +1,18 @@
+"hash": |-
+  4ef1e9bda826f177954a095847236701c35c9b0078dca1bff8aebdfbb4ed9537
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The values in the SETTINGS frame MUST be processed in the order they
+     appear, with no other frame processing between values.  Unsupported
+     settings MUST be ignored.  Once all values have been processed, the
+     recipient MUST immediately emit a SETTINGS frame with the ACK flag
+     set.  Upon receiving a SETTINGS frame with the ACK flag set, the
+     sender of the altered settings can rely on the values from the oldest
+     unacknowledged SETTINGS frame having been applied.
+"fixed": |-
+  The values in the SETTINGS frame MUST be processed in the order they appear, with no other frame processing between values.  Unsupported settings MUST be ignored.  Once all values have been processed, the recipient MUST immediately emit a SETTINGS frame with the ACK flag set.  Upon receiving a SETTINGS frame with the ACK flag set, the sender of the altered settings can rely on the values from the oldest unacknowledged SETTINGS frame having been applied.
+"ko": |-
+  SETTINGS 프레임의 값은 나타나는 순서대로 처리되어야 하며 값 사이에 다른 프레임 처리는 없습니다. 지원되지 않는 설정은 무시해야 합니다. 모든 값이 처리되면 수신자는 즉시 ACK 플래그가 설정된 SETTINGS 프레임을 내보내야 합니다. ACK 플래그가 설정된 SETTINGS 프레임을 수신하면 변경된 설정을 보낸 사람은 적용된 가장 오래되고 승인되지 않은 SETTINGS 프레임의 값을 신뢰할 수 있습니다.

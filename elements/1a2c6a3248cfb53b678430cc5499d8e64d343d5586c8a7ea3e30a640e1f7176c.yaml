@@ -1,0 +1,14 @@
+"hash": |-
+  1a2c6a3248cfb53b678430cc5499d8e64d343d5586c8a7ea3e30a640e1f7176c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If there are no final responses in the context, the proxy MUST
+           send a 408 (Request Timeout) response to the server
+           transaction.
+"fixed": |-
+  - If there are no final responses in the context, the proxy MUST send a 408 (Request Timeout) response to the server transaction.
+"ko": |-
+  - 컨텍스트에 최종 응답이 없는 경우 프록시는 서버 트랜잭션에 408(요청 시간 초과) 응답을 보내야 합니다.

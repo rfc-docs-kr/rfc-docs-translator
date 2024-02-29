@@ -1,0 +1,19 @@
+"hash": |-
+  08be1f4a0d6a4cb224d9966e5832ea4b98c88bb9fe7140c8f222256283ae65ef
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         *  The encoded message in EMSA-PSS has nine fixed bits; the first
+            bit is 0 and the last eight bits form a "trailer field", the
+            octet 0xbc.  In the original scheme, only the first bit is
+            fixed.  The rationale for the trailer field is for
+            compatibility with the Integer Factorization Signature
+            Primitive using Rabin-Williams (IFSP-RW) in IEEE 1363
+            [IEEE1363] and the corresponding primitive in ISO/IEC
+            9796-2:2010 [ISO9796].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

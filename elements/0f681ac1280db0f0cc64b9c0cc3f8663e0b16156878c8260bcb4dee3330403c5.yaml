@@ -1,0 +1,43 @@
+"hash": |-
+  0f681ac1280db0f0cc64b9c0cc3f8663e0b16156878c8260bcb4dee3330403c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+   *          The optional salt value (a non-secret random value);
+   *          if not provided (salt == NULL), it is set internally
+   *          to a string of HashLen(whichSha) zeros.
+   *      salt_len: [in]
+   *          The length of the salt value.  (Ignored if salt == NULL.)
+   *      ikm[ ]: [in]
+   *          Input keying material.
+   *      ikm_len: [in]
+   *          The length of the input keying material.
+   *      prk[ ]: [out]
+   *          Array where the HKDF extraction is to be stored.
+   *          Must be larger than USHAHashSize(whichSha);
+   *
+   *  Returns:
+   *      sha Error Code.
+   *
+   */
+  int hkdfExtract(SHAversion whichSha,
+      const unsigned char *salt, int salt_len,
+      const unsigned char *ikm, int ikm_len,
+      uint8_t prk[USHAMaxHashSize])
+  {
+    unsigned char nullSalt[USHAMaxHashSize];
+    if (salt == 0) {
+      salt = nullSalt;
+      salt_len = USHAHashSize(whichSha);
+      memset(nullSalt, '\0', salt_len);
+    } else if (salt_len < 0) {
+      return shaBadParam;
+    }
+    return hmac(whichSha, ikm, ikm_len, salt, salt_len, prk);
+  }
+"fixed": |-
+  *          The optional salt value (a non-secret random value); *          if not provided (salt == NULL), it is set internally *          to a string of HashLen(whichSha) zeros. *      salt_len: [in] *          The length of the salt value.  (Ignored if salt == NULL.) *      ikm[ ]: [in] *          Input keying material. *      ikm_len: [in] *          The length of the input keying material. *      prk[ ]: [out] *          Array where the HKDF extraction is to be stored. *          Must be larger than USHAHashSize(whichSha); * *  Returns: *      sha Error Code. * */ int hkdfExtract(SHAversion whichSha, const unsigned char *salt, int salt_len, const unsigned char *ikm, int ikm_len, uint8_t prk[USHAMaxHashSize]) { unsigned char nullSalt[USHAMaxHashSize]; if (salt == 0) { salt = nullSalt; salt_len = USHAHashSize(whichSha); memset(nullSalt, '\0', salt_len); } else if (salt_len < 0) { return shaBadParam; } return hmac(whichSha, ikm, ikm_len, salt, salt_len, prk); }
+"ko": |-
+  * 선택적 솔트 값(비밀이 아닌 임의 값); * 제공되지 않은 경우(salt == NULL) 내부적으로 * HashLen(whichSha) 0 문자열로 설정됩니다. * salt_len: [in] * 솔트 값의 길이입니다. (salt == NULL인 경우 무시됩니다.) * ikm[ ]: [in] * 입력 키 자료. * ikm_len: [in] * 입력 키 자료의 길이입니다. * prk[ ]: [out] * HKDF 추출이 저장될 배열입니다. * USHAHashSize(whichSha)보다 커야 합니다. * * 반환: * sha 오류 코드. * */ int hkdfExtract(SHAversion whichSha, const unsigned char *salt, int salt_len, const unsigned char *ikm, int ikm_len, uint8_t prk[USHAMaxHashSize]) { unsigned char nullSalt[USHAMaxHashSize]; if (salt == 0) { salt = nullSalt; salt_len = USHAHashSize(whichSha); memset(nullSalt, '\0', salt_len); } else if (salt_len < 0) { return shaBadParam; } return hmac(whichSha, ikm, ikm_len, salt, salt_len, prk); }

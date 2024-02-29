@@ -1,0 +1,25 @@
+"hash": |-
+  ed72b470d2522293cb567d5a39e97eb27fd9ff2773746f63150d3fe29383a517
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Consider a user multiplexing protocol like NFSv4 using channel
+     binding to IPsec on a multi-user client.  If another user can connect
+     directly to port 2049 (NFS) on some server using IPsec and merely
+     assert RPCSEC_GSS credential handles, then this user will be able to
+     impersonate any user authenticated by the client to the server.  This
+     is because the new connection will have the same channel bindings as
+     the NFS client's!  To prevent this, the server must require that at
+     least a host-based client principal, and perhaps all the client's
+     user principals, re-authenticate and perform channel binding before
+     the server will allow the clients to assert RPCSEC_GSS context
+     handles.  Alternatively, the protocol could require a) that secure
+     channels provide confidentiality protection and b) that fast re-
+     authentication cookies be difficult to guess (e.g., large numbers
+     selected randomly).
+"fixed": |-
+  Consider a user multiplexing protocol like NFSv4 using channel binding to IPsec on a multi-user client.  If another user can connect directly to port 2049 (NFS) on some server using IPsec and merely assert RPCSEC_GSS credential handles, then this user will be able to impersonate any user authenticated by the client to the server.  This is because the new connection will have the same channel bindings as the NFS client's!  To prevent this, the server must require that at least a host-based client principal, and perhaps all the client's user principals, re-authenticate and perform channel binding before the server will allow the clients to assert RPCSEC_GSS context handles.  Alternatively, the protocol could require a) that secure channels provide confidentiality protection and b) that fast re- authentication cookies be difficult to guess (e.g., large numbers selected randomly).
+"ko": |-
+  다중 사용자 클라이언트에서 IPsec에 대한 채널 바인딩을 사용하는 NFSv4와 같은 사용자 다중화 프로토콜을 고려하십시오. 다른 사용자가 IPsec을 사용하여 일부 서버의 포트 2049(NFS)에 직접 연결하고 RPCSEC_GSS 자격 증명 핸들만 어설션할 수 있는 경우 이 사용자는 클라이언트에서 서버에 인증한 모든 사용자를 가장할 수 있습니다. 이는 새 연결이 NFS 클라이언트와 동일한 채널 바인딩을 갖기 때문입니다! 이를 방지하려면 서버는 클라이언트가 RPCSEC_GSS 컨텍스트 핸들을 어설션하도록 허용하기 전에 적어도 호스트 기반 클라이언트 주체 및 아마도 모든 클라이언트의 사용자 주체가 재인증하고 채널 바인딩을 수행하도록 요구해야 합니다. 대안으로, 프로토콜은 a) 보안 채널이 기밀 보호를 제공하고 b) 빠른 재인증 쿠키가 추측하기 어려워야 함(예: 무작위로 선택된 큰 숫자)을 요구할 수 있습니다.

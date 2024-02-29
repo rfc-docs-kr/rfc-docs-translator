@@ -1,0 +1,19 @@
+"hash": |-
+  5858d7a0704f769ba11b712dcd835f38acb157572901258b56af6e94a76fa12f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MUST send an error code of FRAME_SIZE_ERROR if a frame
+     exceeds the size defined in SETTINGS_MAX_FRAME_SIZE, exceeds any
+     limit defined for the frame type, or is too small to contain
+     mandatory frame data.  A frame size error in a frame that could alter
+     the state of the entire connection MUST be treated as a connection
+     error (Section 5.4.1); this includes any frame carrying a field block
+     (Section 4.3) (that is, HEADERS, PUSH_PROMISE, and CONTINUATION), a
+     SETTINGS frame, and any frame with a stream identifier of 0.
+"fixed": |-
+  An endpoint MUST send an error code of FRAME_SIZE_ERROR if a frame exceeds the size defined in SETTINGS_MAX_FRAME_SIZE, exceeds any limit defined for the frame type, or is too small to contain mandatory frame data.  A frame size error in a frame that could alter the state of the entire connection MUST be treated as a connection error (Section 5.4.1); this includes any frame carrying a field block (Section 4.3) (that is, HEADERS, PUSH_PROMISE, and CONTINUATION), a SETTINGS frame, and any frame with a stream identifier of 0.
+"ko": |-
+  프레임이 SETTINGS_MAX_FRAME_SIZE에 정의된 크기를 초과하거나, 프레임 유형에 정의된 제한을 초과하거나, 필수 프레임 데이터를 포함하기에는 너무 작은 경우 엔드포인트는 FRAME_SIZE_ERROR 오류 코드를 전송해야 합니다. 전체 연결 상태를 변경할 수 있는 프레임의 프레임 크기 오류는 연결 오류로 처리되어야 합니다(5.4.1절). 여기에는 필드 블록(4.3절)(즉, HEADERS, PUSH_PROMISE 및 CONTINUATION)을 전달하는 모든 프레임, SETTINGS 프레임 및 스트림 식별자가 0인 모든 프레임이 포함됩니다.

@@ -1,0 +1,1 @@
+IPv4/IPv6 변환이 Well-Known Prefix에 의존하는 경우 Well-Known Prefix보다 긴 IPv4 내장 IPv6 접두사는 BGP(특히 외부 BGP)[RFC4271]에 광고되어서는 안 됩니다. 따라서 글로벌 IPv6 라우팅 테이블에 확장성 문제가 발생합니다. BGP 노드의 관리자는 잘 알려진 접두사보다 긴 내장 IPv6 접두사의 광고를 삭제하는 필터를 구성해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  51d43fff982396e7fe556015f766adf5c61a80397d9116b8b488bb9709d06ad2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the absence of more specific rules, implementations SHOULD treat
+     the receipt of a frame that is not expressly permitted in the
+     description of a state as a connection error (Section 5.4.1) of type
+     PROTOCOL_ERROR.  Note that PRIORITY can be sent and received in any
+     stream state.
+"fixed": |-
+  In the absence of more specific rules, implementations SHOULD treat the receipt of a frame that is not expressly permitted in the description of a state as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.  Note that PRIORITY can be sent and received in any stream state.
+"ko": |-
+  더 구체적인 규칙이 없는 경우 구현에서는 상태 설명에서 명시적으로 허용되지 않은 프레임 수신을 PROTOCOL_ERROR 유형의 연결 오류(5.4.1절)로 처리해야 합니다. PRIORITY는 모든 스트림 상태에서 전송 및 수신될 수 있습니다.

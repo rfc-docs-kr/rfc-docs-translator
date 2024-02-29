@@ -1,0 +1,15 @@
+"hash": |-
+  72b0fe753521d2d866565a58815662ebff0e4e38b76474eaba22ea1bece6cfe5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Similarly, CANCEL and BYE transactions were intermingled; RFC 2543
+        allowed the UAS not to send a response to INVITE when a BYE was
+        received.  That is disallowed here.  The original INVITE needs a
+        response.
+"fixed": |-
+  -  Similarly, CANCEL and BYE transactions were intermingled; RFC 2543 allowed the UAS not to send a response to INVITE when a BYE was received.  That is disallowed here.  The original INVITE needs a response.
+"ko": |-
+  - 마찬가지로 CANCEL과 BYE 트랜잭션이 혼합되었습니다. RFC 2543에서는 BYE가 수신될 때 UAS가 INVITE에 대한 응답을 보내지 않도록 허용했습니다. 여기서는 허용되지 않습니다. 원래 INVITE에는 응답이 필요합니다.

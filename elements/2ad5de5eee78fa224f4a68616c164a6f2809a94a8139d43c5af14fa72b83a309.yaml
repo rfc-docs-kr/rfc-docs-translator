@@ -1,0 +1,17 @@
+"hash": |-
+  2ad5de5eee78fa224f4a68616c164a6f2809a94a8139d43c5af14fa72b83a309
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a UAC sends a request that can establish a dialog (such as an
+     INVITE) it MUST provide a SIP or SIPS URI with global scope (i.e.,
+     the same SIP URI can be used in messages outside this dialog) in the
+     Contact header field of the request.  If the request has a Request-
+     URI or a topmost Route header field value with a SIPS URI, the
+     Contact header field MUST contain a SIPS URI.
+"fixed": |-
+  When a UAC sends a request that can establish a dialog (such as an INVITE) it MUST provide a SIP or SIPS URI with global scope (i.e., the same SIP URI can be used in messages outside this dialog) in the Contact header field of the request.  If the request has a Request- URI or a topmost Route header field value with a SIPS URI, the Contact header field MUST contain a SIPS URI.
+"ko": |-
+  UAC가 대화 상자(예: INVITE)를 설정할 수 있는 요청을 보낼 때 연락처 헤더 필드에 전역 범위의 SIP 또는 SIPS URI(즉, 이 대화 상자 외부의 메시지에 동일한 SIP URI를 사용할 수 있음)를 제공해야 합니다. 요청. 요청에 Request-URI 또는 ​​SIPS URI가 포함된 최상위 경로 헤더 필드 값이 있는 경우 연락처 헤더 필드에는 SIPS URI가 포함되어야 합니다.

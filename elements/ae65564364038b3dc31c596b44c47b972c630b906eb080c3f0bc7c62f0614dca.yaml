@@ -1,0 +1,19 @@
+"hash": |-
+  ae65564364038b3dc31c596b44c47b972c630b906eb080c3f0bc7c62f0614dca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RFC 2543 did not allow usage of the Authentication-Info header field
+     (it effectively used RFC 2069).  However, we now allow usage of this
+     header field, since it provides integrity checks over the bodies and
+     provides mutual authentication.  RFC 2617 [17] defines mechanisms for
+     backwards compatibility using the qop attribute in the request.
+     These mechanisms MUST be used by a server to determine if the client
+     supports the new mechanisms in RFC 2617 that were not specified in
+     RFC 2069.
+"fixed": |-
+  RFC 2543 did not allow usage of the Authentication-Info header field (it effectively used RFC 2069).  However, we now allow usage of this header field, since it provides integrity checks over the bodies and provides mutual authentication.  RFC 2617 [17] defines mechanisms for backwards compatibility using the qop attribute in the request. These mechanisms MUST be used by a server to determine if the client supports the new mechanisms in RFC 2617 that were not specified in RFC 2069.
+"ko": |-
+  RFC 2543은 인증 정보 헤더 필드의 사용을 허용하지 않았습니다(RFC 2069를 효과적으로 사용함). 그러나 이제 이 헤더 필드는 본문에 대한 무결성 검사를 제공하고 상호 인증을 제공하므로 사용을 허용합니다. RFC 2617 [17]은 요청의 qop 속성을 사용하여 이전 버전과의 호환성을 위한 메커니즘을 정의합니다. 이러한 메커니즘은 클라이언트가 RFC 2069에 지정되지 않은 RFC 2617의 새로운 메커니즘을 지원하는지 확인하기 위해 서버에서 사용해야 합니다.

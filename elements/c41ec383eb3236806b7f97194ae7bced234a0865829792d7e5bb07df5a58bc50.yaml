@@ -1,0 +1,17 @@
+"hash": |-
+  c41ec383eb3236806b7f97194ae7bced234a0865829792d7e5bb07df5a58bc50
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Since the registrar requires the user agent to authenticate
+        itself, it would be difficult for an attacker to forge REGISTER
+        requests for the user's address-of-record.  Also note that since
+        the REGISTER is sent over a confidential TLS connection, attackers
+        will not be able to intercept the REGISTER to record credentials
+        for any possible replay attack.
+"fixed": |-
+  - Since the registrar requires the user agent to authenticate itself, it would be difficult for an attacker to forge REGISTER requests for the user's address-of-record.  Also note that since the REGISTER is sent over a confidential TLS connection, attackers will not be able to intercept the REGISTER to record credentials for any possible replay attack.
+"ko": |-
+  - 등록자는 사용자 에이전트가 자신을 인증하도록 요구하므로 공격자가 사용자의 레코드 주소에 대한 REGISTER 요청을 위조하는 것은 어렵습니다. 또한 REGISTER는 기밀 TLS 연결을 통해 전송되므로 공격자는 가능한 재생 공격에 대한 자격 증명을 기록하기 위해 REGISTER를 가로챌 수 없습니다.

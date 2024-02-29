@@ -1,0 +1,15 @@
+"hash": |-
+  5a4a5436609e5b46f6a55afb5ef32dc7342f26654afe9ab9e4456f2c450df5c2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an TCP SYN attack is launched using unreachable source address,
+     the target host attempts to reserve resources waiting for a
+     response.  The attacker repeatedly changes the bogus source address
+     on each new packet sent, thus exhausting additional host resources.
+"fixed": |-
+  When an TCP SYN attack is launched using unreachable source address, the target host attempts to reserve resources waiting for a response.  The attacker repeatedly changes the bogus source address on each new packet sent, thus exhausting additional host resources.
+"ko": |-
+  도달할 수 없는 소스 주소를 사용하여 TCP SYN 공격이 시작되면 대상 호스트는 응답을 기다리는 리소스를 예약하려고 시도합니다. 공격자는 새로운 패킷이 전송될 때마다 가짜 소스 주소를 반복적으로 변경하여 추가 호스트 리소스를 소모합니다.

@@ -1,0 +1,25 @@
+"hash": |-
+  75cde563e3b22df4d1b29dee233b9a82bd634b00d47d841c8e631a4f0c4551f3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     --
+     -- Allowed EMSA-PKCS1-v1_5 digest algorithms.
+     --
+     PKCS1-v1-5DigestAlgorithms    ALGORITHM-IDENTIFIER ::= {
+         { OID id-md2        PARAMETERS NULL }|
+         { OID id-md5        PARAMETERS NULL }|
+         { OID id-sha1       PARAMETERS NULL }|
+         { OID id-sha224     PARAMETERS NULL }|
+         { OID id-sha256     PARAMETERS NULL }|
+         { OID id-sha384     PARAMETERS NULL }|
+         { OID id-sha512     PARAMETERS NULL }|
+         { OID id-sha512-224 PARAMETERS NULL }|
+         { OID id-sha512-256 PARAMETERS NULL }
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

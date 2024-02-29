@@ -1,0 +1,15 @@
+"hash": |-
+  5451a38f7bbd4a65604395c95405c5a6353548ebd98b4fcd3369c5155e24da33
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        An endpoint MUST NOT send frames other than PRIORITY on a closed
+        stream.  An endpoint MAY treat receipt of any other type of frame
+        on a closed stream as a connection error (Section 5.4.1) of type
+        STREAM_CLOSED, except as noted below.
+"fixed": |-
+  - An endpoint MUST NOT send frames other than PRIORITY on a closed stream.  An endpoint MAY treat receipt of any other type of frame on a closed stream as a connection error (Section 5.4.1) of type STREAM_CLOSED, except as noted below.
+"ko": |-
+  - 엔드포인트는 닫힌 스트림에서 PRIORITY 이외의 프레임을 보내면 안 됩니다. 엔드포인트는 아래에 명시된 경우를 제외하고 닫힌 스트림에서 다른 유형의 프레임 수신을 STREAM_CLOSED 유형의 연결 오류(섹션 5.4.1)로 처리할 수 있습니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  3c6c602e3371c61f32c140047b9c03199172c466ed2d7c7f64546fc504231faa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TLS Finished messages (see Section 7.4.9 of [RFC5246]) are known
+     to both endpoints of a TLS connection and are cryptographically bound
+     to it.  For implementations of TLS that correctly handle
+     renegotiation [RFC5746], each handshake on a TLS connection is bound
+     to the preceding handshake, if any.  Therefore, the TLS Finished
+     messages can be safely used as a channel binding provided that the
+     authentication mechanism doing the channel binding conforms to the
+     requirements in [RFC5056].  Applications utilizing 'tls-unique'
+     channel binding with TLS implementations without support for secure
+     renegotiation [RFC5746] MUST ensure that ChangeCipherSpec has been
+     used in any and all renegotiations prior to application-layer
+     authentication, and MUST discard any knowledge learned from the
+     server prior to the completion of application-layer authentication.
+"fixed": |-
+  The TLS Finished messages (see Section 7.4.9 of [RFC5246]) are known to both endpoints of a TLS connection and are cryptographically bound to it.  For implementations of TLS that correctly handle renegotiation [RFC5746], each handshake on a TLS connection is bound to the preceding handshake, if any.  Therefore, the TLS Finished messages can be safely used as a channel binding provided that the authentication mechanism doing the channel binding conforms to the requirements in [RFC5056].  Applications utilizing 'tls-unique' channel binding with TLS implementations without support for secure renegotiation [RFC5746] MUST ensure that ChangeCipherSpec has been used in any and all renegotiations prior to application-layer authentication, and MUST discard any knowledge learned from the server prior to the completion of application-layer authentication.
+"ko": |-
+  TLS 완료 메시지([RFC5246]의 섹션 7.4.9 참조)는 TLS 연결의 두 끝점 모두에 알려져 있으며 암호화 방식으로 연결되어 있습니다. 재협상[RFC5746]을 올바르게 처리하는 TLS 구현의 경우 TLS 연결의 각 핸드셰이크는 이전 핸드셰이크(있는 경우)에 바인딩됩니다. 따라서 채널 바인딩을 수행하는 인증 메커니즘이 [RFC5056]의 요구 사항을 준수한다면 TLS 완료 메시지를 채널 바인딩으로 안전하게 사용할 수 있습니다. 보안 재협상[RFC5746]을 지원하지 않고 TLS 구현과 함께 'tls-unique' 채널 바인딩을 활용하는 애플리케이션은 애플리케이션 계층 인증 이전에 ChangeCipherSpec이 모든 재협상에 사용되었는지 확인해야 하며, 이전에 서버에서 배운 모든 지식을 폐기해야 합니다. 애플리케이션 계층 인증 완료.

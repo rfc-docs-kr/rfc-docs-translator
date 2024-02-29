@@ -1,0 +1,19 @@
+"hash": |-
+  5a532769f00d1e94bef2347236cc4dce6413e63ba29c07fc8d6da0098441693c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because of wider deployment of ingress filtering, the issue is
+     recursive.  Ingress filtering has to work everywhere where it's used,
+     not just between the first two parties.  That is, if a user
+     negotiates a special ingress filtering arrangement with his ISP, he
+     should also ensure (or make sure the ISP ensures) that the same
+     arrangements also apply to the ISP's upstream and peering links, if
+     ingress filtering is being used there -- or will get used, at some
+     point in the future; similarly with the upstream ISPs and peers.
+"fixed": |-
+  Because of wider deployment of ingress filtering, the issue is recursive.  Ingress filtering has to work everywhere where it's used, not just between the first two parties.  That is, if a user negotiates a special ingress filtering arrangement with his ISP, he should also ensure (or make sure the ISP ensures) that the same arrangements also apply to the ISP's upstream and peering links, if ingress filtering is being used there -- or will get used, at some point in the future; similarly with the upstream ISPs and peers.
+"ko": |-
+  수신 필터링의 광범위한 배포로 인해 문제는 반복적으로 발생합니다. 수신 필터링은 처음 두 당사자 사이뿐만 아니라 사용되는 모든 곳에서 작동해야 합니다. 즉, 사용자가 ISP와 특수 수신 필터링 배열을 협상하는 경우 수신 필터링이 사용되는 경우 ISP의 업스트림 및 피어링 링크에도 동일한 배열이 적용되는지 확인해야 합니다(또는 ISP가 보장하는지 확인). - 또는 미래의 어느 시점에 익숙해질 것입니다. 업스트림 ISP 및 동료와 유사합니다.

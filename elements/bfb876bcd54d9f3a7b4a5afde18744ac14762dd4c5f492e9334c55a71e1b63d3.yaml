@@ -1,0 +1,19 @@
+"hash": |-
+  bfb876bcd54d9f3a7b4a5afde18744ac14762dd4c5f492e9334c55a71e1b63d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For SSHv2 [RFC4251] the SSHv2 host public key, when present, should
+     suffice as it is used to sign the algorithm suite negotiation and
+     Diffie-Hellman key exchange; as long the client observes the host
+     public key that corresponds to the private host key that the server
+     used, then there cannot be an MITM in the SSHv2 connection.  Note
+     that not all SSHv2 key exchanges use host public keys; therefore,
+     this channel bindings construction is not as useful as the one given
+     in Section 4.1.
+"fixed": |-
+  For SSHv2 [RFC4251] the SSHv2 host public key, when present, should suffice as it is used to sign the algorithm suite negotiation and Diffie-Hellman key exchange; as long the client observes the host public key that corresponds to the private host key that the server used, then there cannot be an MITM in the SSHv2 connection.  Note that not all SSHv2 key exchanges use host public keys; therefore, this channel bindings construction is not as useful as the one given in Section 4.1.
+"ko": |-
+  SSHv2 [RFC4251]의 경우 SSHv2 호스트 공개 키는 알고리즘 제품군 협상 및 Diffie-Hellman 키 교환에 서명하는 데 사용되므로 충분해야 합니다. 클라이언트가 서버가 사용한 개인 호스트 키에 해당하는 호스트 공개 키를 관찰하는 한 SSHv2 연결에는 MITM이 있을 수 없습니다. 모든 SSHv2 키 교환이 호스트 공개 키를 사용하는 것은 아닙니다. 따라서 이 채널 바인딩 구성은 섹션 4.1에 제공된 것만큼 유용하지 않습니다.

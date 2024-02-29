@@ -1,0 +1,22 @@
+"hash": |-
+  9cd59e7b76c4507c11b26673e194569519172662e78bc4aa20fbe006c267d609
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * (SHA512_ROTR(19,word) ^ SHA512_ROTR(61,word) ^ SHA512_SHR( 6,word))
+   */
+  static uint32_t sigma1_temp1[2], sigma1_temp2[2],
+    sigma1_temp3[2], sigma1_temp4[2];
+  #define SHA512_sigma1(word, ret) (                             \
+      SHA512_ROTR(19, (word), sigma1_temp1),                     \
+      SHA512_ROTR(61, (word), sigma1_temp2),                     \
+      SHA512_SHR( 6, (word), sigma1_temp3),                      \
+      SHA512_XOR(sigma1_temp2, sigma1_temp3, sigma1_temp4),      \
+      SHA512_XOR(sigma1_temp1, sigma1_temp4, (ret)) )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

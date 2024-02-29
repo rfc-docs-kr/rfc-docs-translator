@@ -1,0 +1,19 @@
+"hash": |-
+  a3b443a5f7b16cd29c9a1dd6e9839610c446e4a19948f4fe42c644e10ebf9a2e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The use of Proxy-Authenticate and Proxy-Authorization parallel that
+     described in [17], with one difference.  Proxies MUST NOT add values
+     to the Proxy-Authorization header field.  All 407 (Proxy
+     Authentication Required) responses MUST be forwarded upstream toward
+     the UAC following the procedures for any other response.  It is the
+     UAC's responsibility to add the Proxy-Authorization header field
+     value containing credentials for the realm of the proxy that has
+     asked for authentication.
+"fixed": |-
+  The use of Proxy-Authenticate and Proxy-Authorization parallel that described in [17], with one difference.  Proxies MUST NOT add values to the Proxy-Authorization header field.  All 407 (Proxy Authentication Required) responses MUST be forwarded upstream toward the UAC following the procedures for any other response.  It is the UAC's responsibility to add the Proxy-Authorization header field value containing credentials for the realm of the proxy that has asked for authentication.
+"ko": |-
+  [17]에 설명된 프록시 인증 및 프록시 인증 병렬 사용에는 한 가지 차이점이 있습니다. 프록시는 Proxy-Authorization 헤더 필드에 값을 추가해서는 안 됩니다. 모든 407(프록시 인증 필요) 응답은 다른 응답에 대한 절차에 따라 UAC를 향해 업스트림으로 전달되어야 합니다. 인증을 요청한 프록시 영역에 대한 자격 증명이 포함된 Proxy-Authorization 헤더 필드 값을 추가하는 것은 UAC의 책임입니다.

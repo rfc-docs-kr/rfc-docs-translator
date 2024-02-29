@@ -1,0 +1,15 @@
+"hash": |-
+  75d2bc3f56237ca6330211506cac268f611269e6021493b113bc83574878ab95
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* Define the SHA shift, rotate left and rotate right macros */
+  #define SHA512_SHR(bits,word)  (((uint64_t)(word)) >> (bits))
+  #define SHA512_ROTR(bits,word) ((((uint64_t)(word)) >> (bits)) | \
+                                  (((uint64_t)(word)) << (64-(bits))))
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

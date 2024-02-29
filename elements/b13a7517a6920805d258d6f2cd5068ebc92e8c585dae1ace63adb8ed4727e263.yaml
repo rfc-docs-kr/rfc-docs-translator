@@ -1,0 +1,17 @@
+"hash": |-
+  b13a7517a6920805d258d6f2cd5068ebc92e8c585dae1ace63adb8ed4727e263
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client transaction is also responsible for receiving responses
+     and delivering them to the TU, filtering out any response
+     retransmissions or disallowed responses (such as a response to ACK).
+     Additionally, in the case of an INVITE request, the client
+     transaction is responsible for generating the ACK request for any
+     final response accepting a 2xx response.
+"fixed": |-
+  The client transaction is also responsible for receiving responses and delivering them to the TU, filtering out any response retransmissions or disallowed responses (such as a response to ACK). Additionally, in the case of an INVITE request, the client transaction is responsible for generating the ACK request for any final response accepting a 2xx response.
+"ko": |-
+  클라이언트 트랜잭션은 또한 응답을 수신하고 이를 TU에 전달하여 응답 재전송 또는 허용되지 않는 응답(예: ACK에 대한 응답)을 필터링하는 일을 담당합니다. 또한 INVITE 요청의 경우 클라이언트 트랜잭션은 2xx 응답을 수락하는 최종 응답에 대한 ACK 요청을 생성해야 합니다.

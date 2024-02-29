@@ -1,0 +1,25 @@
+"hash": |-
+  d894acfd6900678eaccc41cb328ac368e4423246ea99572b3096d85503465930
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        +---------------------+
+        | Application layer   |<---+
+        |                     |<-+ |  In cleartext, relative
+        +---------------------+  | |  to each other.
+        | RDDP                |<---+
+        +---------------------+  |
+        | TCP/SCTP            |<-+
+        +---------------------+  | Channel binding of app-layer
+        | ESP/AH              |<-+ authentication to IPsec
+        +---------------------+
+        | IP                  |
+        +---------------------+
+        | ...                 |
+        +---------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

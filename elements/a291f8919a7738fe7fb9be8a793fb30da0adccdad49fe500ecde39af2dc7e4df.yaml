@@ -1,0 +1,15 @@
+"hash": |-
+  a291f8919a7738fe7fb9be8a793fb30da0adccdad49fe500ecde39af2dc7e4df
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver MUST treat the receipt of a WINDOW_UPDATE frame with a
+     flow-control window increment of 0 as a stream error (Section 5.4.2)
+     of type PROTOCOL_ERROR; errors on the connection flow-control window
+     MUST be treated as a connection error (Section 5.4.1).
+"fixed": |-
+  A receiver MUST treat the receipt of a WINDOW_UPDATE frame with a flow-control window increment of 0 as a stream error (Section 5.4.2) of type PROTOCOL_ERROR; errors on the connection flow-control window MUST be treated as a connection error (Section 5.4.1).
+"ko": |-
+  수신자는 흐름 제어 창 증분이 0인 WINDOW_UPDATE 프레임의 수신을 PROTOCOL_ERROR 유형의 스트림 오류(5.4.2절)로 처리해야 합니다. 연결 흐름 제어 창의 오류는 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

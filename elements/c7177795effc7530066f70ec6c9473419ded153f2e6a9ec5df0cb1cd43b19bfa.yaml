@@ -1,0 +1,21 @@
+"hash": |-
+  c7177795effc7530066f70ec6c9473419ded153f2e6a9ec5df0cb1cd43b19bfa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case of message-oriented transports (such as UDP), if the
+     message has a Content-Length header field, the message body is
+     assumed to contain that many bytes.  If there are additional bytes in
+     the transport packet beyond the end of the body, they MUST be
+     discarded.  If the transport packet ends before the end of the
+     message body, this is considered an error.  If the message is a
+     response, it MUST be discarded.  If the message is a request, the
+     element SHOULD generate a 400 (Bad Request) response.  If the message
+     has no Content-Length header field, the message body is assumed to
+     end at the end of the transport packet.
+"fixed": |-
+  In the case of message-oriented transports (such as UDP), if the message has a Content-Length header field, the message body is assumed to contain that many bytes.  If there are additional bytes in the transport packet beyond the end of the body, they MUST be discarded.  If the transport packet ends before the end of the message body, this is considered an error.  If the message is a response, it MUST be discarded.  If the message is a request, the element SHOULD generate a 400 (Bad Request) response.  If the message has no Content-Length header field, the message body is assumed to end at the end of the transport packet.
+"ko": |-
+  메시지 지향 전송(예: UDP)의 경우 메시지에 Content-Length 헤더 필드가 있으면 메시지 본문에 그만큼의 바이트가 포함된 것으로 가정됩니다. 전송 패킷에 본문 끝을 넘어서는 추가 바이트가 있는 경우 이를 폐기해야 합니다. 메시지 본문이 끝나기 전에 전송 패킷이 끝나면 오류로 간주됩니다. 메시지가 응답이면 폐기해야 합니다. 메시지가 요청인 경우 요소는 400(잘못된 요청) 응답을 생성해야 합니다. 메시지에 Content-Length 헤더 필드가 없으면 메시지 본문은 전송 패킷의 끝에서 끝나는 것으로 간주됩니다.

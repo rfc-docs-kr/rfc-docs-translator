@@ -1,0 +1,14 @@
+"hash": |-
+  0b82fc958bf2fcb36cd05e2d85b3801e4fbf3a4b7f725d423a77e0cd7a2bb92c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A SETTINGS frame with a length other than a multiple of 6 octets MUST
+     be treated as a connection error (Section 5.4.1) of type
+     FRAME_SIZE_ERROR.
+"fixed": |-
+  A SETTINGS frame with a length other than a multiple of 6 octets MUST be treated as a connection error (Section 5.4.1) of type FRAME_SIZE_ERROR.
+"ko": |-
+  6 옥텟의 배수가 아닌 길이를 가진 SETTINGS 프레임은 FRAME_SIZE_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

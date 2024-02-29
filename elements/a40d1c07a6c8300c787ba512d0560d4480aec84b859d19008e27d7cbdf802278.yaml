@@ -1,0 +1,18 @@
+"hash": |-
+  a40d1c07a6c8300c787ba512d0560d4480aec84b859d19008e27d7cbdf802278
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Let's suppose now that a host B of the same domain learns the IPv4
+        address of A, maybe through an application-specific referral.  If
+        B has translation-aware software, B can compose a destination
+        address by combining the Network-Specific Prefix 2001:db8:122:
+        344::/64 and the IPv4 address 192.0.2.33, resulting in the address
+        2001:db8:122:344:c0:2:2100::.  The packet sent by B will be
+        forwarded towards R, and then to A, avoiding protocol translation.
+"fixed": |-
+  - Let's suppose now that a host B of the same domain learns the IPv4 address of A, maybe through an application-specific referral.  If B has translation-aware software, B can compose a destination address by combining the Network-Specific Prefix 2001:db8:122: 344::/64 and the IPv4 address 192.0.2.33, resulting in the address 2001:db8:122:344:c0:2:2100::.  The packet sent by B will be forwarded towards R, and then to A, avoiding protocol translation.
+"ko": |-
+  - 이제 동일한 도메인의 호스트 B가 아마도 애플리케이션별 추천을 통해 A의 IPv4 주소를 학습한다고 가정해 보겠습니다. B에게 변환 인식 소프트웨어가 있는 경우 B는 네트워크별 접두사 2001:db8:122:344::/64와 IPv4 주소 192.0.2.33을 결합하여 대상 주소를 구성하여 주소 2001:db8:122:를 생성할 수 있습니다. 344:c0:2:2100::. B가 보낸 패킷은 프로토콜 변환을 피하면서 R을 향해 전달된 다음 A로 전달됩니다.

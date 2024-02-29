@@ -1,0 +1,17 @@
+"hash": |-
+  7bf3bf3d278f3597adcf2ad8b5fe4f154bf2034563906c3bca207cbf8b8be1f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When timer A fires 2*T1 seconds later, the request MUST be
+     retransmitted again (assuming the client transaction is still in this
+     state).  This process MUST continue so that the request is
+     retransmitted with intervals that double after each transmission.
+     These retransmissions SHOULD only be done while the client
+     transaction is in the "calling" state.
+"fixed": |-
+  When timer A fires 2*T1 seconds later, the request MUST be retransmitted again (assuming the client transaction is still in this state).  This process MUST continue so that the request is retransmitted with intervals that double after each transmission. These retransmissions SHOULD only be done while the client transaction is in the "calling" state.
+"ko": |-
+  타이머 A가 2*T1초 후에 실행되면 요청이 다시 재전송되어야 합니다(클라이언트 트랜잭션이 여전히 이 상태에 있다고 가정). 이 프로세스는 각 전송 후 두 배의 간격으로 요청이 재전송되도록 계속되어야 합니다. 이러한 재전송은 클라이언트 트랜잭션이 "호출" 상태에 있는 동안에만 수행되어야 합니다.

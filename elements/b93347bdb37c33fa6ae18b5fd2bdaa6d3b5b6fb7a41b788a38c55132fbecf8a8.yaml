@@ -1,0 +1,20 @@
+"hash": |-
+  b93347bdb37c33fa6ae18b5fd2bdaa6d3b5b6fb7a41b788a38c55132fbecf8a8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If Timer F fires while the client transaction is still in the
+     "Trying" state, the client transaction SHOULD inform the TU about the
+     timeout, and then it SHOULD enter the "Terminated" state.  If a
+     provisional response is received while in the "Trying" state, the
+     response MUST be passed to the TU, and then the client transaction
+     SHOULD move to the "Proceeding" state.  If a final response (status
+     codes 200-699) is received while in the "Trying" state, the response
+     MUST be passed to the TU, and the client transaction MUST transition
+     to the "Completed" state.
+"fixed": |-
+  If Timer F fires while the client transaction is still in the "Trying" state, the client transaction SHOULD inform the TU about the timeout, and then it SHOULD enter the "Terminated" state.  If a provisional response is received while in the "Trying" state, the response MUST be passed to the TU, and then the client transaction SHOULD move to the "Proceeding" state.  If a final response (status codes 200-699) is received while in the "Trying" state, the response MUST be passed to the TU, and the client transaction MUST transition to the "Completed" state.
+"ko": |-
+  클라이언트 트랜잭션이 여전히 "시도 중" 상태에 있는 동안 타이머 F가 실행되면 클라이언트 트랜잭션은 TU에 타임아웃에 대해 알려야 하며 그런 다음 "종료됨" 상태로 들어가야 합니다. "Trying" 상태에 있는 동안 임시 응답이 수신되면 응답은 TU로 전달되어야 하며 클라이언트 트랜잭션은 "Proceeding" 상태로 이동해야 합니다. "Trying" 상태에 있는 동안 최종 응답(상태 코드 200-699)이 수신되면 응답은 TU로 전달되어야 하며 클라이언트 트랜잭션은 "Completed" 상태로 전환되어야 합니다.

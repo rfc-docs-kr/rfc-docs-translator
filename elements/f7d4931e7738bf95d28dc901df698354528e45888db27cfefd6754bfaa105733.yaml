@@ -1,0 +1,27 @@
+"hash": |-
+  f7d4931e7738bf95d28dc901df698354528e45888db27cfefd6754bfaa105733
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  opaque-part    =  uric-no-slash *uric
+  uric           =  reserved / unreserved / escaped
+  uric-no-slash  =  unreserved / escaped / ";" / "?" / ":" / "@"
+                    / "&" / "=" / "+" / "$" / ","
+  path-segments  =  segment *( "/" segment )
+  segment        =  *pchar *( ";" param )
+  param          =  *pchar
+  pchar          =  unreserved / escaped /
+                    ":" / "@" / "&" / "=" / "+" / "$" / ","
+  scheme         =  ALPHA *( ALPHA / DIGIT / "+" / "-" / "." )
+  authority      =  srvr / reg-name
+  srvr           =  [ [ userinfo "@" ] hostport ]
+  reg-name       =  1*( unreserved / escaped / "$" / ","
+                    / ";" / ":" / "@" / "&" / "=" / "+" )
+  query          =  *uric
+  SIP-Version    =  "SIP" "/" 1*DIGIT "." 1*DIGIT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

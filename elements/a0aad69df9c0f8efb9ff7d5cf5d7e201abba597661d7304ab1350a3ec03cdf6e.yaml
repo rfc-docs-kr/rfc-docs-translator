@@ -1,0 +1,16 @@
+"hash": |-
+  a0aad69df9c0f8efb9ff7d5cf5d7e201abba597661d7304ab1350a3ec03cdf6e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Because the UA has already authenticated the server on the other
+        side of the TLS connection, all requests that come over this
+        connection are known to have passed through the proxy server -
+        attackers cannot create spoofed requests that appear to have been
+        sent through that proxy server.
+"fixed": |-
+  - Because the UA has already authenticated the server on the other side of the TLS connection, all requests that come over this connection are known to have passed through the proxy server - attackers cannot create spoofed requests that appear to have been sent through that proxy server.
+"ko": |-
+  - UA가 이미 TLS 연결 반대편의 서버를 인증했기 때문에 이 연결을 통해 들어오는 모든 요청은 프록시 서버를 통과한 것으로 알려져 있습니다. 공격자는 해당 프록시 서버를 통해 전송된 것처럼 보이는 스푸핑된 요청을 생성할 수 없습니다. .

@@ -1,0 +1,23 @@
+"hash": |-
+  113c53308a20250063fbd572d5aa6f95c12b35c773fa542fc88b729d6547edce
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Define shift, rotate left, and rotate right functions
+   */
+  #define SHA512_SHR(bits, word, ret) (                          \
+      /* (((uint64_t)((word))) >> (bits)) */                     \
+      (ret)[0] = (((bits) < 32) && ((bits) >= 0)) ?              \
+        ((word)[0] >> (bits)) : 0,                               \
+      (ret)[1] = ((bits) > 32) ? ((word)[0] >> ((bits) - 32)) :  \
+        ((bits) == 32) ? (word)[0] :                             \
+        ((bits) >= 0) ?                                          \
+          (((word)[0] << (32 - (bits))) |                        \
+          ((word)[1] >> (bits))) : 0 )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

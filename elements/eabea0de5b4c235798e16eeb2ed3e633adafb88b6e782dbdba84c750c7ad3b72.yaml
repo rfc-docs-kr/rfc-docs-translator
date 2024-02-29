@@ -1,0 +1,21 @@
+"hash": |-
+  eabea0de5b4c235798e16eeb2ed3e633adafb88b6e782dbdba84c750c7ad3b72
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are operational techniques, especially with BGP but somewhat
+     applicable to other routing protocols as well, to make strict RPF
+     work better in the case of asymmetric or multihomed traffic.  The ISP
+     assigns a better metric which is not propagated outside of the
+     router, either a vendor-specific "weight" or a protocol distance to
+     prefer the directly received routes.  With BGP and sufficient
+     machinery in place, setting the preferences could even be automated,
+     using BGP Communities [2].  That way, the route will always be the
+     best one in the FIB, even in the scenarios where only the primary
+     connectivity would be used and typically no packets would pass
+"fixed": |-
+  There are operational techniques, especially with BGP but somewhat applicable to other routing protocols as well, to make strict RPF work better in the case of asymmetric or multihomed traffic.  The ISP assigns a better metric which is not propagated outside of the router, either a vendor-specific "weight" or a protocol distance to prefer the directly received routes.  With BGP and sufficient machinery in place, setting the preferences could even be automated, using BGP Communities [2].  That way, the route will always be the best one in the FIB, even in the scenarios where only the primary connectivity would be used and typically no packets would pass
+"ko": |-
+  특히 BGP의 경우 작동 기술이 있지만 다른 라우팅 프로토콜에도 어느 정도 적용 가능하여 비대칭 또는 멀티홈 트래픽의 경우 엄격한 RPF가 더 잘 작동하도록 할 수 있습니다. ISP는 직접 수신된 경로를 선호하기 위해 공급업체별 "가중치" 또는 프로토콜 거리 등 라우터 외부로 전파되지 않는 더 나은 메트릭을 할당합니다. BGP와 충분한 기계가 갖춰져 있으면 BGP 커뮤니티[2]를 사용하여 기본 설정을 자동화할 수도 있습니다. 이렇게 하면 기본 연결만 사용하고 일반적으로 패킷이 통과하지 않는 시나리오에서도 경로는 항상 FIB에서 가장 좋은 경로가 됩니다.

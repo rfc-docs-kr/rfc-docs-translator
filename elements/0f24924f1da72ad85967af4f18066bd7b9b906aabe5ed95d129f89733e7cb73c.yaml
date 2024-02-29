@@ -1,0 +1,16 @@
+"hash": |-
+  0f24924f1da72ad85967af4f18066bd7b9b906aabe5ed95d129f89733e7cb73c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An attacker could use an IPv4-embedded IPv6 address as the source
+     address of malicious packets.  After translation, the packets will
+     appear as IPv4 packets from the specified source, and the attacker
+     may be hard to track.  If left without mitigation, the attack would
+     allow malicious IPv6 nodes to spoof arbitrary IPv4 addresses.
+"fixed": |-
+  An attacker could use an IPv4-embedded IPv6 address as the source address of malicious packets.  After translation, the packets will appear as IPv4 packets from the specified source, and the attacker may be hard to track.  If left without mitigation, the attack would allow malicious IPv6 nodes to spoof arbitrary IPv4 addresses.
+"ko": |-
+  공격자는 IPv4에 내장된 IPv6 주소를 악성 패킷의 소스 주소로 사용할 수 있습니다. 변환 후 패킷은 지정된 소스의 IPv4 패킷으로 나타나므로 공격자를 추적하기 어려울 수 있습니다. 완화하지 않고 그대로 두면 공격으로 인해 악의적인 IPv6 노드가 임의의 IPv4 주소를 스푸핑할 수 있습니다.

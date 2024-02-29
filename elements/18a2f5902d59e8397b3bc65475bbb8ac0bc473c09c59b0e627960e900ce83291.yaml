@@ -1,0 +1,16 @@
+"hash": |-
+  18a2f5902d59e8397b3bc65475bbb8ac0bc473c09c59b0e627960e900ce83291
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  headers         =  "?" header *( "&" header )
+  header          =  hname "=" hvalue
+  hname           =  1*( hnv-unreserved / unreserved / escaped )
+  hvalue          =  *( hnv-unreserved / unreserved / escaped )
+  hnv-unreserved  =  "[" / "]" / "/" / "?" / ":" / "+" / "$"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

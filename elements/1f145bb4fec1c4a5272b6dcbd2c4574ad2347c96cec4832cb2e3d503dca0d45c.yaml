@@ -1,0 +1,15 @@
+"hash": |-
+  1f145bb4fec1c4a5272b6dcbd2c4574ad2347c96cec4832cb2e3d503dca0d45c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CONTINUATION frames MUST be associated with a stream.  If a
+     CONTINUATION frame is received with a Stream Identifier field of
+     0x00, the recipient MUST respond with a connection error
+     (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  CONTINUATION frames MUST be associated with a stream.  If a CONTINUATION frame is received with a Stream Identifier field of 0x00, the recipient MUST respond with a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  CONTINUATION 프레임은 스트림과 연결되어야 합니다. CONTINUATION 프레임이 스트림 식별자 필드 0x00으로 수신되면 수신자는 PROTOCOL_ERROR 유형의 연결 오류(5.4.1절)로 응답해야 합니다.

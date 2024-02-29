@@ -1,0 +1,18 @@
+"hash": |-
+  6653ebf488be3ca922de91260c916c082168b72bf43e2c4eea96a8e471f98b63
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An intermediary that receives any fields that require removal before
+     forwarding (see Section 7.6.1 of [HTTP]) MUST remove or replace those
+     header fields when forwarding messages.  Additionally, intermediaries
+     should take care when forwarding messages containing Content-Length
+     fields to ensure that the message is well-formed (Section 8.1.1).
+     This ensures that if the message is translated into HTTP/1.1 at any
+     point, the framing will be correct.
+"fixed": |-
+  An intermediary that receives any fields that require removal before forwarding (see Section 7.6.1 of [HTTP]) MUST remove or replace those header fields when forwarding messages.  Additionally, intermediaries should take care when forwarding messages containing Content-Length fields to ensure that the message is well-formed (Section 8.1.1). This ensures that if the message is translated into HTTP/1.1 at any point, the framing will be correct.
+"ko": |-
+  전달하기 전에 제거가 필요한 필드를 수신하는 중개자([HTTP]의 섹션 7.6.1 참조)는 메시지를 전달할 때 해당 헤더 필드를 제거하거나 교체해야 합니다. 또한 중개자는 메시지의 형식이 올바른지 확인하기 위해 Content-Length 필드가 포함된 메시지를 전달할 때 주의를 기울여야 합니다(섹션 8.1.1). 이렇게 하면 메시지가 어느 시점에서든 HTTP/1.1로 변환되면 프레임이 올바르게 지정됩니다.

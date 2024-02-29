@@ -1,0 +1,35 @@
+"hash": |-
+  998705755ab76ab230bf34c4560e02551c974785e42ed2bf0b5c04e18c461276
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA224FinalBits
+   *
+   * Description:
+   *   This function will add in any final bits of the message.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The SHA context to update.
+   *   message_bits: [in]
+   *     The final bits of the message, in the upper portion of the
+   *     byte.  (Use 0b###00000 instead of 0b00000### to input the
+   *     three bits ###.)
+   *   length: [in]
+   *     The number of bits in message_bits, between 1 and 7.
+   *
+   * Returns:
+   *   sha Error Code.
+   */
+  int SHA224FinalBits(SHA224Context *context,
+                      uint8_t message_bits, unsigned int length)
+  {
+    return SHA256FinalBits(context, message_bits, length);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

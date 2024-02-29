@@ -1,0 +1,19 @@
+"hash": |-
+  90a0f2d716d4457eb522c4f0c157f33f8cdaf95083c9cfbca684e496eb2e56f4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints that progressively process messages might have performed
+     some processing before identifying a request or response as
+     malformed.  For instance, it might be possible to generate an
+     informational or 404 status code without having received a complete
+     request.  Similarly, intermediaries might forward incomplete messages
+     before detecting errors.  A server MAY generate a final response
+     before receiving an entire request when the response does not depend
+     on the remainder of the request being correct.
+"fixed": |-
+  Endpoints that progressively process messages might have performed some processing before identifying a request or response as malformed.  For instance, it might be possible to generate an informational or 404 status code without having received a complete request.  Similarly, intermediaries might forward incomplete messages before detecting errors.  A server MAY generate a final response before receiving an entire request when the response does not depend on the remainder of the request being correct.
+"ko": |-
+  점진적으로 메시지를 처리하는 엔드포인트는 요청이나 응답이 잘못된 형식임을 식별하기 전에 일부 처리를 수행했을 수 있습니다. 예를 들어, 완전한 요청을 받지 않고도 정보 제공 또는 404 상태 코드를 생성하는 것이 가능할 수 있습니다. 마찬가지로 중개자는 오류를 감지하기 전에 불완전한 메시지를 전달할 수도 있습니다. 서버는 요청의 나머지 부분이 올바른지 여부에 응답이 의존하지 않는 경우 전체 요청을 수신하기 전에 최종 응답을 생성할 수 있습니다.

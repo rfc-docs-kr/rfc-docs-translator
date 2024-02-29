@@ -1,0 +1,15 @@
+"hash": |-
+  a10e465aeab6ef072eaa48534f7b719e33089533be135b5d93364c9795555c57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     - A CA may choose not to specify any method of revocation checking
+       for the responder's certificate, in which case it would be up to
+       the OCSP client's local security policy to decide whether that
+       certificate should be checked for revocation or not.
+"fixed": |-
+  - A CA may choose not to specify any method of revocation checking for the responder's certificate, in which case it would be up to the OCSP client's local security policy to decide whether that certificate should be checked for revocation or not.
+"ko": |-
+  - CA는 응답자의 인증서에 대한 해지 확인 방법을 지정하지 않기로 선택할 수 있습니다. 이 경우 해당 인증서의 해지 확인 여부를 결정하는 것은 OCSP 클라이언트의 로컬 보안 정책에 달려 있습니다.

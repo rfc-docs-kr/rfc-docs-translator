@@ -1,0 +1,15 @@
+"hash": |-
+  584d602b50a7885cd7a04d7b00527de959196bb1bdcd98b59150723873108637
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A HEADERS frame with the END_STREAM flag set signals the end of a
+        stream.  However, a HEADERS frame with the END_STREAM flag set can
+        be followed by CONTINUATION frames on the same stream.  Logically,
+        the CONTINUATION frames are part of the HEADERS frame.
+"fixed": |-
+  - A HEADERS frame with the END_STREAM flag set signals the end of a stream.  However, a HEADERS frame with the END_STREAM flag set can be followed by CONTINUATION frames on the same stream.  Logically, the CONTINUATION frames are part of the HEADERS frame.
+"ko": |-
+  - END_STREAM 플래그가 설정된 HEADERS 프레임은 스트림의 끝을 알립니다. 그러나 END_STREAM 플래그가 설정된 HEADERS 프레임 뒤에는 동일한 스트림의 CONTINUATION 프레임이 올 수 있습니다. 논리적으로 CONTINUATION 프레임은 HEADERS 프레임의 일부입니다.

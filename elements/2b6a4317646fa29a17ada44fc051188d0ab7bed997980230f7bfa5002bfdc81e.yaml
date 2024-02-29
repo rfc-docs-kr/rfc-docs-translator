@@ -1,0 +1,19 @@
+"hash": |-
+  2b6a4317646fa29a17ada44fc051188d0ab7bed997980230f7bfa5002bfdc81e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Field block fragments can only be sent as the frame payload of
+     HEADERS, PUSH_PROMISE, or CONTINUATION frames because these frames
+     carry data that can modify the compression context maintained by a
+     receiver.  An endpoint receiving HEADERS, PUSH_PROMISE, or
+     CONTINUATION frames needs to reassemble field blocks and perform
+     decompression even if the frames are to be discarded.  A receiver
+     MUST terminate the connection with a connection error (Section 5.4.1)
+     of type COMPRESSION_ERROR if it does not decompress a field block.
+"fixed": |-
+  Field block fragments can only be sent as the frame payload of HEADERS, PUSH_PROMISE, or CONTINUATION frames because these frames carry data that can modify the compression context maintained by a receiver.  An endpoint receiving HEADERS, PUSH_PROMISE, or CONTINUATION frames needs to reassemble field blocks and perform decompression even if the frames are to be discarded.  A receiver MUST terminate the connection with a connection error (Section 5.4.1) of type COMPRESSION_ERROR if it does not decompress a field block.
+"ko": |-
+  필드 블록 조각은 HEADERS, PUSH_PROMISE 또는 CONTINUATION 프레임의 프레임 페이로드로만 전송될 수 있습니다. 이러한 프레임은 수신자가 유지 관리하는 압축 컨텍스트를 수정할 수 있는 데이터를 전달하기 때문입니다. HEADERS, PUSH_PROMISE 또는 CONTINUATION 프레임을 수신하는 엔드포인트는 프레임이 삭제되더라도 필드 블록을 재조립하고 압축 해제를 수행해야 합니다. 수신기는 필드 블록의 압축을 풀지 않는 경우 COMPRESSION_ERROR 유형의 연결 오류(섹션 5.4.1)로 연결을 종료해야 합니다.

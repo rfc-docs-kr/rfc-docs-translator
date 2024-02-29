@@ -1,0 +1,38 @@
+"hash": |-
+  b6dd96dc4c2176e577cde3b17ad3e076bdfaeeb33d6a3dc01e1678a58a55c9cf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA384_512ProcessMessageBlock
+   *
+   * Description:
+   *   This helper function will process the next 1024 bits of the
+   *   message stored in the Message_Block array.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The SHA context to update.
+   *
+   * Returns:
+   *   Nothing.
+   *
+   * Comments:
+   *   Many of the variable names in this code, especially the
+   *   single character names, were used because those were the
+   *   names used in the Secure Hash Standard.
+   *
+   *
+   */
+  static void SHA384_512ProcessMessageBlock(SHA512Context *context)
+  {
+  #ifdef USE_32BIT_ONLY
+    /* Constants defined in FIPS 180-3, section 4.2.3 */
+    static const uint32_t K[80*2] = {
+        0x428A2F98, 0xD728AE22, 0x71374491, 0x23EF65CD, 0xB5C0FBCF,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

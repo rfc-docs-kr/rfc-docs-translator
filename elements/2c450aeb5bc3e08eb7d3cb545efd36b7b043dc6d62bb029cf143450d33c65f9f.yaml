@@ -1,0 +1,19 @@
+"hash": |-
+  2c450aeb5bc3e08eb7d3cb545efd36b7b043dc6d62bb029cf143450d33c65f9f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The stateful nature of the translation creates a potential stability
+     issue when the organization deploys multiple translators.  If several
+     translators use the same prefix, there is a risk that packets
+     belonging to the same connection may be routed to different
+     translators as the internal routing state changes.  This issue can be
+     avoided either by assigning different prefixes to different
+     translators or by ensuring that all translators using the same prefix
+     coordinate their state.
+"fixed": |-
+  The stateful nature of the translation creates a potential stability issue when the organization deploys multiple translators.  If several translators use the same prefix, there is a risk that packets belonging to the same connection may be routed to different translators as the internal routing state changes.  This issue can be avoided either by assigning different prefixes to different translators or by ensuring that all translators using the same prefix coordinate their state.
+"ko": |-
+  번역의 상태 저장 특성으로 인해 조직에서 여러 번역자를 배포할 때 잠재적인 안정성 문제가 발생합니다. 여러 변환기가 동일한 접두사를 사용하는 경우 내부 라우팅 상태가 변경됨에 따라 동일한 연결에 속한 패킷이 다른 변환기로 라우팅될 위험이 있습니다. 이 문제는 서로 다른 변환기에 서로 다른 접두사를 할당하거나 동일한 접두사를 사용하는 모든 변환기가 해당 상태를 조정하도록 하면 방지할 수 있습니다.

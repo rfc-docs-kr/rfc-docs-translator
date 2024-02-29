@@ -1,0 +1,14 @@
+"hash": |-
+  272caf9f1a4ca54b2e815af0812ae4652982b9f47bf11443349005a3228ef148
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Removing the contact before adding the response to the response
+           context prevents the next element upstream from retrying a
+           location this proxy has already attempted.
+"fixed": |-
+  - Removing the contact before adding the response to the response context prevents the next element upstream from retrying a location this proxy has already attempted.
+"ko": |-
+  - 응답 컨텍스트에 응답을 추가하기 전에 연락처를 제거하면 업스트림의 다음 요소가 이 프록시가 이미 시도한 위치를 다시 시도하는 것을 방지할 수 있습니다.

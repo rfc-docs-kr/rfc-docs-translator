@@ -1,0 +1,31 @@
+"hash": |-
+  58fe7c790402d6fd24e38e890c604bf03c78006bc63798e170f986bba27b293f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Recent analysis of potential attacks on core Internet infrastructure
+     indicates an increased vulnerability of TCP connections to spurious
+     resets (RSTs), sent with forged IP source addresses (spoofing).  TCP
+     has always been susceptible to such RST spoofing attacks, which were
+     indirectly protected by checking that the RST sequence number was
+     inside the current receive window, as well as via the obfuscation of
+     TCP endpoint and port numbers.  For pairs of well-known endpoints
+     often over predictable port pairs, such as BGP or between web servers
+     and well-known large-scale caches, increases in the path bandwidth-
+     delay product of a connection have sufficiently increased the receive
+     window space that off-path third parties can brute-force generate a
+     viable RST sequence number.  The susceptibility to attack increases
+     with the square of the bandwidth, and thus presents a significant
+     vulnerability for recent high-speed networks.  This document
+     addresses this vulnerability, discussing proposed solutions at the
+     transport level and their inherent challenges, as well as existing
+     network level solutions and the feasibility of their deployment.
+     This document focuses on vulnerabilities due to spoofed TCP segments,
+     and includes a discussion of related ICMP spoofing attacks on TCP
+     connections.
+"fixed": |-
+  Recent analysis of potential attacks on core Internet infrastructure indicates an increased vulnerability of TCP connections to spurious resets (RSTs), sent with forged IP source addresses (spoofing).  TCP has always been susceptible to such RST spoofing attacks, which were indirectly protected by checking that the RST sequence number was inside the current receive window, as well as via the obfuscation of TCP endpoint and port numbers.  For pairs of well-known endpoints often over predictable port pairs, such as BGP or between web servers and well-known large-scale caches, increases in the path bandwidth- delay product of a connection have sufficiently increased the receive window space that off-path third parties can brute-force generate a viable RST sequence number.  The susceptibility to attack increases with the square of the bandwidth, and thus presents a significant vulnerability for recent high-speed networks.  This document addresses this vulnerability, discussing proposed solutions at the transport level and their inherent challenges, as well as existing network level solutions and the feasibility of their deployment. This document focuses on vulnerabilities due to spoofed TCP segments, and includes a discussion of related ICMP spoofing attacks on TCP connections.
+"ko": |-
+  핵심 인터넷 인프라에 대한 잠재적인 공격에 대한 최근 분석에 따르면 위조된 IP 소스 주소(스푸핑)와 함께 전송되는 RST(가짜 재설정)에 대한 TCP 연결의 취약성이 증가한 것으로 나타났습니다. TCP는 항상 RST 스푸핑 공격에 취약했는데, 이는 RST 시퀀스 번호가 현재 수신 창 내부에 있는지 확인하고 TCP 엔드포인트 및 포트 번호를 난독화함으로써 간접적으로 보호되었습니다. BGP와 같은 예측 가능한 포트 쌍을 통해 또는 웹 서버와 잘 알려진 대규모 캐시 사이의 잘 알려진 엔드포인트 쌍의 경우 연결의 경로 대역폭 지연 곱이 증가하여 수신 창 공간이 충분히 증가했습니다. 경로 제3자가 무차별 공격을 통해 실행 가능한 RST 시퀀스 번호를 생성할 수 있습니다. 공격에 대한 민감성은 대역폭의 제곱에 따라 증가하므로 최근 고속 네트워크에 심각한 취약성을 나타냅니다. 이 문서에서는 이 취약점을 다루고 전송 수준에서 제안된 솔루션과 고유한 문제는 물론 기존 네트워크 수준 솔루션과 배포 가능성에 대해 논의합니다. 이 문서는 스푸핑된 TCP 세그먼트로 인한 취약점에 중점을 두고 있으며 TCP 연결에 대한 관련 ICMP 스푸핑 공격에 대한 논의를 포함합니다.

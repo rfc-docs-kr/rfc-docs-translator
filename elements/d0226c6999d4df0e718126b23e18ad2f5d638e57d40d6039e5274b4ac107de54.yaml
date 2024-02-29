@@ -1,0 +1,18 @@
+"hash": |-
+  d0226c6999d4df0e718126b23e18ad2f5d638e57d40d6039e5274b4ac107de54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Pseudo-header fields are only valid in the context in which they are
+     defined.  Pseudo-header fields defined for requests MUST NOT appear
+     in responses; pseudo-header fields defined for responses MUST NOT
+     appear in requests.  Pseudo-header fields MUST NOT appear in a
+     trailer section.  Endpoints MUST treat a request or response that
+     contains undefined or invalid pseudo-header fields as malformed
+     (Section 8.1.1).
+"fixed": |-
+  Pseudo-header fields are only valid in the context in which they are defined.  Pseudo-header fields defined for requests MUST NOT appear in responses; pseudo-header fields defined for responses MUST NOT appear in requests.  Pseudo-header fields MUST NOT appear in a trailer section.  Endpoints MUST treat a request or response that contains undefined or invalid pseudo-header fields as malformed (Section 8.1.1).
+"ko": |-
+  의사 헤더 필드는 해당 필드가 정의된 컨텍스트에서만 유효합니다. 요청에 대해 정의된 의사 헤더 필드는 응답에 나타나서는 안 됩니다. 응답에 대해 정의된 의사 헤더 필드는 요청에 나타나서는 안 됩니다. 의사 헤더 필드는 트레일러 섹션에 표시되어서는 안 됩니다. 엔드포인트는 정의되지 않았거나 유효하지 않은 의사 헤더 필드가 포함된 요청이나 응답을 잘못된 형식으로 처리해야 합니다(섹션 8.1.1).

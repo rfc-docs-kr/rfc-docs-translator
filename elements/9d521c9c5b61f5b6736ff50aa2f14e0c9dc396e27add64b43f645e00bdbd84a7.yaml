@@ -1,0 +1,20 @@
+"hash": |-
+  9d521c9c5b61f5b6736ff50aa2f14e0c9dc396e27add64b43f645e00bdbd84a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While EAP itself does not support lifetime negotiation, it would be
+     possible to specify methods that do.  However, systems that rely on
+     key lifetime negotiation within EAP methods would only function with
+     these methods.  Also, there is no guarantee that the key lifetime
+     negotiated within the EAP method would be compatible with backend
+     authentication server policy.  In the interest of method independence
+     and compatibility with backend authentication server implementations,
+     management of the lifetime of keying material SHOULD NOT be provided
+     within EAP methods.
+"fixed": |-
+  While EAP itself does not support lifetime negotiation, it would be possible to specify methods that do.  However, systems that rely on key lifetime negotiation within EAP methods would only function with these methods.  Also, there is no guarantee that the key lifetime negotiated within the EAP method would be compatible with backend authentication server policy.  In the interest of method independence and compatibility with backend authentication server implementations, management of the lifetime of keying material SHOULD NOT be provided within EAP methods.
+"ko": |-
+  EAP 자체는 수명 협상을 지원하지 않지만 이를 지원하는 방법을 지정하는 것은 가능합니다. 그러나 EAP 방법 내에서 키 수명 협상에 의존하는 시스템은 이러한 방법을 통해서만 작동합니다. 또한 EAP 방법 내에서 협상된 키 수명이 백엔드 인증 서버 정책과 호환된다는 보장도 없습니다. 방법 독립성과 백엔드 인증 서버 구현과의 호환성을 위해 키 자료의 수명 관리는 EAP 방법 내에서 제공되어서는 안 됩니다.

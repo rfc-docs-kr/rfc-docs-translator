@@ -1,0 +1,14 @@
+"hash": |-
+  ffb2f1c8ff2a789a62f126495e0c75f57e9d58e502edd821ab2541c9d5a1419f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  A UA or proxy cannot send CANCEL for a transaction until it gets a
+        provisional response for the request.  This was allowed in RFC
+        2543 but leads to potential race conditions.
+"fixed": |-
+  -  A UA or proxy cannot send CANCEL for a transaction until it gets a provisional response for the request.  This was allowed in RFC 2543 but leads to potential race conditions.
+"ko": |-
+  - UA 또는 프록시는 요청에 대한 임시 응답을 받을 때까지 거래에 대해 CANCEL을 보낼 수 없습니다. 이는 RFC 2543에서 허용되었지만 잠재적인 경쟁 조건이 발생할 수 있습니다.

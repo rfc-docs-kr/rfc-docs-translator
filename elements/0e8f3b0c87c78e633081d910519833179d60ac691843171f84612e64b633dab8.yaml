@@ -1,0 +1,18 @@
+"hash": |-
+  0e8f3b0c87c78e633081d910519833179d60ac691843171f84612e64b633dab8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      for (loopno = 1; (loopno <= loopnohigh) && (err == shaSuccess);
+           ++loopno) {
+        if (hashstr)
+          err = hash(0, loopno, hashno, hashstr, hashlen, 1,
+            numberExtrabits, extrabits, (const unsigned char *)hmacKey,
+            hmaclen, (const uint8_t *) info, infolen, okmlen, resultstr,
+            hashes[hashno].hashsize, printResults, printPassFail);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,31 @@
+"hash": |-
+  eea2787925625466be83f4dd7b7df049d61ca8b4891e1e745a22d1337d1df645
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are special rules for message bodies that contain a session
+     description - their corresponding Content-Disposition is "session".
+     SIP uses an offer/answer model where one UA sends a session
+     description, called the offer, which contains a proposed description
+     of the session.  The offer indicates the desired communications means
+     (audio, video, games), parameters of those means (such as codec
+     types) and addresses for receiving media from the answerer.  The
+     other UA responds with another session description, called the
+     answer, which indicates which communications means are accepted, the
+     parameters that apply to those means, and addresses for receiving
+     media from the offerer. An offer/answer exchange is within the
+     context of a dialog, so that if a SIP INVITE results in multiple
+     dialogs, each is a separate offer/answer exchange.  The offer/answer
+     model defines restrictions on when offers and answers can be made
+     (for example, you cannot make a new offer while one is in progress).
+     This results in restrictions on where the offers and answers can
+     appear in SIP messages.  In this specification, offers and answers
+     can only appear in INVITE requests and responses, and ACK.  The usage
+     of offers and answers is further restricted.  For the initial INVITE
+     transaction, the rules are:
+"fixed": |-
+  There are special rules for message bodies that contain a session description - their corresponding Content-Disposition is "session". SIP uses an offer/answer model where one UA sends a session description, called the offer, which contains a proposed description of the session.  The offer indicates the desired communications means (audio, video, games), parameters of those means (such as codec types) and addresses for receiving media from the answerer.  The other UA responds with another session description, called the answer, which indicates which communications means are accepted, the parameters that apply to those means, and addresses for receiving media from the offerer. An offer/answer exchange is within the context of a dialog, so that if a SIP INVITE results in multiple dialogs, each is a separate offer/answer exchange.  The offer/answer model defines restrictions on when offers and answers can be made (for example, you cannot make a new offer while one is in progress). This results in restrictions on where the offers and answers can appear in SIP messages.  In this specification, offers and answers can only appear in INVITE requests and responses, and ACK.  The usage of offers and answers is further restricted.  For the initial INVITE transaction, the rules are:
+"ko": |-
+  세션 설명이 포함된 메시지 본문에는 특별한 규칙이 있습니다. 해당 내용 처리는 "세션"입니다. SIP는 하나의 UA가 제안된 세션 설명이 포함된 제안이라는 세션 설명을 보내는 제안/응답 모델을 사용합니다. 제안에는 원하는 통신 수단(오디오, 비디오, 게임), 해당 수단의 매개변수(예: 코덱 유형) 및 응답자로부터 미디어를 수신하기 위한 주소가 표시됩니다. 다른 UA는 응답이라고 하는 또 다른 세션 설명으로 응답합니다. 이는 어떤 통신 수단이 허용되는지, 해당 수단에 적용되는 매개변수, 제공자로부터 미디어를 수신하기 위한 주소를 나타냅니다. 제안/답변 교환은 대화의 컨텍스트 내에서 이루어지므로 SIP INVITE로 인해 여러 대화가 발생하는 경우 각 대화는 별도의 제안/답변 교환입니다. 제안/응답 모델은 제안 및 답변이 가능한 시기에 대한 제한 사항을 정의합니다(예를 들어 제안이 진행 중인 동안에는 새 제안을 할 수 없습니다). 이로 인해 제안 및 답변이 SIP 메시지에 나타날 수 있는 위치가 제한됩니다. 이 사양에서 제안과 답변은 INVITE 요청과 응답, ACK에만 나타날 수 있습니다. 제안 및 답변의 사용이 더욱 제한됩니다. 초기 INVITE 트랜잭션의 경우 규칙은 다음과 같습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  43207ad9c21b48c809c94bf2cc523c3403ff0ad488aeec570e9150264fe531e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           1xx and 2xx responses may be involved in the establishment of
+           dialogs.  When a request does not contain a To tag, the To tag
+           in the response is used by the UAC to distinguish multiple
+           responses to a dialog creating request.  A proxy MUST NOT
+           insert a tag into the To header field of a 1xx or 2xx response
+           if the request did not contain one.  A proxy MUST NOT modify
+           the tag in the To header field of a 1xx or 2xx response.
+"fixed": |-
+  - 1xx and 2xx responses may be involved in the establishment of dialogs.  When a request does not contain a To tag, the To tag in the response is used by the UAC to distinguish multiple responses to a dialog creating request.  A proxy MUST NOT insert a tag into the To header field of a 1xx or 2xx response if the request did not contain one.  A proxy MUST NOT modify the tag in the To header field of a 1xx or 2xx response.
+"ko": |-
+  - 1xx 및 2xx 응답이 대화 설정에 포함될 수 있습니다. 요청에 To 태그가 포함되어 있지 않으면 UAC는 응답의 To 태그를 사용하여 대화 상자 생성 요청에 대한 여러 응답을 구별합니다. 요청에 태그가 포함되어 있지 않은 경우 프록시는 1xx 또는 2xx 응답의 To 헤더 필드에 태그를 삽입해서는 안 됩니다. 프록시는 1xx 또는 2xx 응답의 To 헤더 필드에 있는 태그를 수정해서는 안 됩니다.

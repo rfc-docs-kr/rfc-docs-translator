@@ -1,0 +1,15 @@
+"hash": |-
+  18cc07aa3b6edb15692cf417b3830990c49c9e25d27123cef411731b5ec31e5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           This is a change from RFC 2543, which mandated that the proxy
+           was to forward the 6xx response immediately.  For an INVITE
+           transaction, this approach had the problem that a 2xx response
+           could arrive on another branch, in which case the proxy would
+"fixed": |-
+  - This is a change from RFC 2543, which mandated that the proxy was to forward the 6xx response immediately.  For an INVITE transaction, this approach had the problem that a 2xx response could arrive on another branch, in which case the proxy would
+"ko": |-
+  - 이는 프록시가 6xx 응답을 즉시 전달하도록 요구하는 RFC 2543의 변경 사항입니다. INVITE 트랜잭션의 경우 이 접근 방식에는 2xx 응답이 다른 분기에 도착할 수 있다는 문제가 있었습니다. 이 경우 프록시는

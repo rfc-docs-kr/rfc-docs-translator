@@ -1,0 +1,19 @@
+"hash": |-
+  d5b4da692ac2a74ccf34ae2144c7d88dad0b7eec7f438fcd10235d4e6d5eae4e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Square roots modulo p only exist for a quadratic residue modulo p,
+     [R1988]; if z is not a quadratic residue, then there is no number w
+     such that w^2 = z (mod p).  A simple way to verify that z is a
+     quadratic residue after computing w is to verify that
+     w * w = z (mod p).  If this relation does not hold for the above
+     equation, then the value x is not a valid x-coordinate for a valid
+     elliptic curve point.  This is an important consideration when ECDH
+     is used with compact output; see Section 10.3.
+"fixed": |-
+  Square roots modulo p only exist for a quadratic residue modulo p, [R1988]; if z is not a quadratic residue, then there is no number w such that w^2 = z (mod p).  A simple way to verify that z is a quadratic residue after computing w is to verify that w * w = z (mod p).  If this relation does not hold for the above equation, then the value x is not a valid x-coordinate for a valid elliptic curve point.  This is an important consideration when ECDH is used with compact output; see Section 10.3.
+"ko": |-
+  모듈로 p에 대한 제곱근은 2차 나머지 모듈로 p에 대해서만 존재합니다([R1988]). z가 2차 잔수가 아닌 경우 w^2 = z(mod p)를 충족하는 숫자 w는 없습니다. w를 계산한 후 z가 2차 잔차인지 확인하는 간단한 방법은 w * w = z(mod p)를 확인하는 것입니다. 이 관계가 위 방정식에 적용되지 않으면 값 x는 유효한 타원 곡선 점에 대한 유효한 x 좌표가 아닙니다. 이는 ECDH를 컴팩트 출력과 함께 사용할 때 중요한 고려 사항입니다. 섹션 10.3을 참조하세요.

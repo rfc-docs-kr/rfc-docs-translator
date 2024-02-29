@@ -1,0 +1,19 @@
+"hash": |-
+  5aa6a08921ca35c89200296550b946950a0f3f12b8ef7a8c8d294dc6b0b74ca8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note that the only piece of state that is recomputed is the route
+        set.  Other pieces of state such as the highest sequence numbers
+        (remote and local) sent within the dialog are not recomputed.  The
+        route set only is recomputed for backwards compatibility.  RFC
+        2543 did not mandate mirroring of the Record-Route header field in
+        a 1xx, only 2xx.  However, we cannot update the entire state of
+        the dialog, since mid-dialog requests may have been sent within
+        the early dialog, modifying the sequence numbers, for example.
+"fixed": |-
+  - Note that the only piece of state that is recomputed is the route set.  Other pieces of state such as the highest sequence numbers (remote and local) sent within the dialog are not recomputed.  The route set only is recomputed for backwards compatibility.  RFC 2543 did not mandate mirroring of the Record-Route header field in a 1xx, only 2xx.  However, we cannot update the entire state of the dialog, since mid-dialog requests may have been sent within the early dialog, modifying the sequence numbers, for example.
+"ko": |-
+  - 재계산되는 유일한 상태는 경로 세트입니다. 대화 상자 내에서 전송된 가장 높은 시퀀스 번호(원격 및 로컬)와 같은 다른 상태 부분은 다시 계산되지 않습니다. 이전 버전과의 호환성을 위해 경로 세트만 다시 계산됩니다. RFC 2543은 1xx에서 Record-Route 헤더 필드의 미러링을 요구하지 않고 2xx에서만 요구합니다. 그러나 중간 대화 요청이 초기 대화 내에서 전송되어 예를 들어 시퀀스 번호를 수정했을 수 있으므로 대화의 전체 상태를 업데이트할 수는 없습니다.

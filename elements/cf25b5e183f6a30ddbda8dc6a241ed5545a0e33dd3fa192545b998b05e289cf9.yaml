@@ -1,0 +1,24 @@
+"hash": |-
+  cf25b5e183f6a30ddbda8dc6a241ed5545a0e33dd3fa192545b998b05e289cf9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     different (and potentially weaker) hash function than the one
+     selected by the signer.  Therefore, it is RECOMMENDED that the
+     EMSA-PSS mask generation function be based on the same hash function.
+     In this manner, the entire encoded message will be dependent on the
+     hash function, and it will be difficult for an opponent to substitute
+     a different hash function than the one intended by the signer.  This
+     matching of hash functions is only for the purpose of preventing hash
+     function substitution and is not necessary if hash function
+     substitution is addressed by other means (e.g., the verifier accepts
+     only a designated hash function).  See [HASHID] for further
+     discussion of these points.  The provable security of RSASSA-PSS does
+     not rely on the hash function in the mask generation function being
+     the same as the hash function applied to the message.
+"fixed": |-
+  different (and potentially weaker) hash function than the one selected by the signer.  Therefore, it is RECOMMENDED that the EMSA-PSS mask generation function be based on the same hash function. In this manner, the entire encoded message will be dependent on the hash function, and it will be difficult for an opponent to substitute a different hash function than the one intended by the signer.  This matching of hash functions is only for the purpose of preventing hash function substitution and is not necessary if hash function substitution is addressed by other means (e.g., the verifier accepts only a designated hash function).  See [HASHID] for further discussion of these points.  The provable security of RSASSA-PSS does not rely on the hash function in the mask generation function being the same as the hash function applied to the message.
+"ko": |-
+  서명자가 선택한 것과 다른(그리고 잠재적으로 더 약한) 해시 함수입니다. 따라서 EMSA-PSS 마스크 생성 기능은 동일한 해시 기능을 기반으로 하는 것을 권장합니다. 이러한 방식으로 인코딩된 메시지 전체는 해시 함수에 따라 달라지며 상대방이 서명자가 의도한 것과 다른 해시 함수를 대체하기가 어렵습니다. 이러한 해시 함수 일치는 해시 함수 대체를 방지하기 위한 목적으로만 수행되며 해시 함수 대체가 다른 수단으로 해결되는 경우(예: 검증자가 지정된 해시 함수만 허용하는 경우) 필요하지 않습니다. 이러한 사항에 대한 자세한 내용은 [HASHID]를 참조하세요. RSASSA-PSS의 입증 가능한 보안은 메시지에 적용되는 해시 함수와 동일한 마스크 생성 기능의 해시 함수에 의존하지 않습니다.

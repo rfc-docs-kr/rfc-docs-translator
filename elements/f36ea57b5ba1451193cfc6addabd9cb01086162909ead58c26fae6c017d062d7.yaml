@@ -1,0 +1,26 @@
+"hash": |-
+  f36ea57b5ba1451193cfc6addabd9cb01086162909ead58c26fae6c017d062d7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  SIP-URI          =  "sip:" [ userinfo ] hostport
+                      uri-parameters [ headers ]
+  SIPS-URI         =  "sips:" [ userinfo ] hostport
+                      uri-parameters [ headers ]
+  userinfo         =  ( user / telephone-subscriber ) [ ":" password ] "@"
+  user             =  1*( unreserved / escaped / user-unreserved )
+  user-unreserved  =  "&" / "=" / "+" / "$" / "," / ";" / "?" / "/"
+  password         =  *( unreserved / escaped /
+                      "&" / "=" / "+" / "$" / "," )
+  hostport         =  host [ ":" port ]
+  host             =  hostname / IPv4address / IPv6reference
+  hostname         =  *( domainlabel "." ) toplabel [ "." ]
+  domainlabel      =  alphanum
+                      / alphanum *( alphanum / "-" ) alphanum
+  toplabel         =  ALPHA / ALPHA *( alphanum / "-" ) alphanum
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

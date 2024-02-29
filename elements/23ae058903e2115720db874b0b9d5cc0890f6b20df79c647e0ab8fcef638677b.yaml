@@ -1,0 +1,14 @@
+"hash": |-
+  23ae058903e2115720db874b0b9d5cc0890f6b20df79c647e0ab8fcef638677b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The reason for using a hash of the certificate is that some
+     implementations need to track the channel binding of a TLS session in
+     kernel-mode memory, which is often at a premium.
+"fixed": |-
+  The reason for using a hash of the certificate is that some implementations need to track the channel binding of a TLS session in kernel-mode memory, which is often at a premium.
+"ko": |-
+  인증서 해시를 사용하는 이유는 일부 구현이 커널 모드 메모리에서 TLS 세션의 채널 바인딩을 추적해야 하기 때문입니다. 이는 종종 매우 중요합니다.

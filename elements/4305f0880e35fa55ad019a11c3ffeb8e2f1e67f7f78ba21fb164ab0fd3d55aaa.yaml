@@ -1,0 +1,18 @@
+"hash": |-
+  4305f0880e35fa55ad019a11c3ffeb8e2f1e67f7f78ba21fb164ab0fd3d55aaa
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  IPv4address    =  1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT "." 1*3DIGIT
+  IPv6reference  =  "[" IPv6address "]"
+  IPv6address    =  hexpart [ ":" IPv4address ]
+  hexpart        =  hexseq / hexseq "::" [ hexseq ] / "::" [ hexseq ]
+  hexseq         =  hex4 *( ":" hex4)
+  hex4           =  1*4HEXDIG
+  port           =  1*DIGIT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

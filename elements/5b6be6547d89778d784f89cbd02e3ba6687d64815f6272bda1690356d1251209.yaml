@@ -1,0 +1,17 @@
+"hash": |-
+  5b6be6547d89778d784f89cbd02e3ba6687d64815f6272bda1690356d1251209
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The UAS will receive the request from the transaction layer.  If the
+     request has a tag in the To header field, the UAS core computes the
+     dialog identifier corresponding to the request and compares it with
+     existing dialogs.  If there is a match, this is a mid-dialog request.
+     In that case, the UAS first applies the same processing rules for
+     requests outside of a dialog, discussed in Section 8.2.
+"fixed": |-
+  The UAS will receive the request from the transaction layer.  If the request has a tag in the To header field, the UAS core computes the dialog identifier corresponding to the request and compares it with existing dialogs.  If there is a match, this is a mid-dialog request. In that case, the UAS first applies the same processing rules for requests outside of a dialog, discussed in Section 8.2.
+"ko": |-
+  UAS는 트랜잭션 계층으로부터 요청을 받습니다. 요청의 To 헤더 필드에 태그가 있는 경우 UAS 코어는 요청에 해당하는 대화 상자 식별자를 계산하고 이를 기존 대화 상자와 비교합니다. 일치하는 항목이 있으면 이는 중간 대화 요청입니다. 이 경우 UAS는 먼저 섹션 8.2에서 설명한 대화 상자 외부의 요청에 대해 동일한 처리 규칙을 적용합니다.

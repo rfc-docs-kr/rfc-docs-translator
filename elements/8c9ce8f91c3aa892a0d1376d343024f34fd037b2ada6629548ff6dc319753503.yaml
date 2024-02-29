@@ -1,0 +1,16 @@
+"hash": |-
+  8c9ce8f91c3aa892a0d1376d343024f34fd037b2ada6629548ff6dc319753503
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that receives a larger field block than it is willing to
+     handle can send an HTTP 431 (Request Header Fields Too Large) status
+     code [RFC6585].  A client can discard responses that it cannot
+     process.  The field block MUST be processed to ensure a consistent
+     connection state, unless the connection is closed.
+"fixed": |-
+  A server that receives a larger field block than it is willing to handle can send an HTTP 431 (Request Header Fields Too Large) status code [RFC6585].  A client can discard responses that it cannot process.  The field block MUST be processed to ensure a consistent connection state, unless the connection is closed.
+"ko": |-
+  처리할 수 있는 것보다 더 큰 필드 블록을 수신하는 서버는 HTTP 431(요청 헤더 필드가 너무 큼) 상태 코드 [RFC6585]를 보낼 수 있습니다. 클라이언트는 처리할 수 없는 응답을 삭제할 수 있습니다. 연결이 닫히지 않는 한 일관된 연결 상태를 보장하기 위해 필드 블록을 처리해야 합니다.

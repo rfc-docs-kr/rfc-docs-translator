@@ -1,0 +1,20 @@
+"hash": |-
+  bd597f1fdbc1a8010d962a4f5c7880786b2529cfe30d5b5bca24e29a0115c01a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A UAS core receiving a BYE request for an existing dialog MUST follow
+     the procedures of Section 12.2.2 to process the request.  Once done,
+     the UAS SHOULD terminate the session (and therefore stop sending and
+     listening for media).  The only case where it can elect not to are
+     multicast sessions, where participation is possible even if the other
+     participant in the dialog has terminated its involvement in the
+     session.  Whether or not it ends its participation on the session,
+     the UAS core MUST generate a 2xx response to the BYE, and MUST pass
+     that to the server transaction for transmission.
+"fixed": |-
+  A UAS core receiving a BYE request for an existing dialog MUST follow the procedures of Section 12.2.2 to process the request.  Once done, the UAS SHOULD terminate the session (and therefore stop sending and listening for media).  The only case where it can elect not to are multicast sessions, where participation is possible even if the other participant in the dialog has terminated its involvement in the session.  Whether or not it ends its participation on the session, the UAS core MUST generate a 2xx response to the BYE, and MUST pass that to the server transaction for transmission.
+"ko": |-
+  기존 대화에 대한 BYE 요청을 수신하는 UAS 코어는 요청을 처리하기 위해 섹션 12.2.2의 절차를 따라야 합니다. 완료되면 UAS는 세션을 종료해야 합니다(그러므로 미디어 전송 및 수신을 중지해야 합니다). 멀티캐스트 세션을 선택하지 않을 수 있는 유일한 경우는 대화의 다른 참가자가 세션 참여를 종료한 경우에도 참가가 가능한 경우입니다. 세션 참여 종료 여부에 관계없이 UAS 코어는 BYE에 대한 2xx 응답을 생성해야 하며 전송을 위해 이를 서버 트랜잭션에 전달해야 합니다.

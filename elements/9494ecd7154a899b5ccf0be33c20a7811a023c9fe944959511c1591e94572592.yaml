@@ -1,0 +1,16 @@
+"hash": |-
+  9494ecd7154a899b5ccf0be33c20a7811a023c9fe944959511c1591e94572592
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Both types of flow control are hop by hop, that is, only between the
+     two endpoints.  Intermediaries do not forward WINDOW_UPDATE frames
+     between dependent connections.  However, throttling of data transfer
+     by any receiver can indirectly cause the propagation of flow-control
+     information toward the original sender.
+"fixed": |-
+  Both types of flow control are hop by hop, that is, only between the two endpoints.  Intermediaries do not forward WINDOW_UPDATE frames between dependent connections.  However, throttling of data transfer by any receiver can indirectly cause the propagation of flow-control information toward the original sender.
+"ko": |-
+  두 가지 유형의 흐름 제어 모두 홉 단위, 즉 두 끝점 사이에서만 이루어집니다. 중개자는 종속 연결 간에 WINDOW_UPDATE 프레임을 전달하지 않습니다. 그러나 수신자의 데이터 전송 제한으로 인해 흐름 제어 정보가 원래 발신자에게 간접적으로 전파될 수 있습니다.

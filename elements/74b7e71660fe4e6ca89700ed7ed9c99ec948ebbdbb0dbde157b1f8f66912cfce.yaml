@@ -1,0 +1,18 @@
+"hash": |-
+  74b7e71660fe4e6ca89700ed7ed9c99ec948ebbdbb0dbde157b1f8f66912cfce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           This parameter is used to achieve backwards compatibility with
+           systems implementing the strict-routing mechanisms of RFC 2543
+           and the rfc2543bis drafts up to bis-05.  An element preparing
+           to send a request based on a URI not containing this parameter
+           can assume the receiving element implements strict-routing and
+           reformat the message to preserve the information in the
+           Request-URI.
+"fixed": |-
+  - This parameter is used to achieve backwards compatibility with systems implementing the strict-routing mechanisms of RFC 2543 and the rfc2543bis drafts up to bis-05.  An element preparing to send a request based on a URI not containing this parameter can assume the receiving element implements strict-routing and reformat the message to preserve the information in the Request-URI.
+"ko": |-
+  - 이 매개변수는 RFC 2543의 엄격한 라우팅 메커니즘과 bis-05까지의 rfc2543bis 초안을 구현하는 시스템과의 하위 호환성을 달성하는 데 사용됩니다. 이 매개변수를 포함하지 않는 URI를 기반으로 요청 전송을 준비하는 요소는 수신 요소가 엄격한 라우팅을 구현한다고 가정하고 요청-URI의 정보를 보존하기 위해 메시지 형식을 다시 지정할 수 있습니다.

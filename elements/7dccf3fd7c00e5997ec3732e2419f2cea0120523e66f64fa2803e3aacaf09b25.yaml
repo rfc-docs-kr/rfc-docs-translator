@@ -1,0 +1,16 @@
+"hash": |-
+  7dccf3fd7c00e5997ec3732e2419f2cea0120523e66f64fa2803e3aacaf09b25
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  When a UAC wishes to terminate a call before it has been answered,
+        it sends CANCEL.  If the original INVITE still returns a 2xx, the
+        UAC then sends BYE.  BYE can only be sent on an existing call leg
+        (now called a dialog in this RFC), whereas it could be sent at any
+        time in RFC 2543.
+"fixed": |-
+  -  When a UAC wishes to terminate a call before it has been answered, it sends CANCEL.  If the original INVITE still returns a 2xx, the UAC then sends BYE.  BYE can only be sent on an existing call leg (now called a dialog in this RFC), whereas it could be sent at any time in RFC 2543.
+"ko": |-
+  - UAC가 통화에 응답하기 전에 통화를 종료하려는 경우 CANCEL을 보냅니다. 원래 INVITE가 여전히 2xx를 반환하면 UAC는 BYE를 보냅니다. BYE는 기존 호출 구간(현재 이 RFC에서는 대화라고 함)에서만 보낼 수 있지만 RFC 2543에서는 언제든지 보낼 수 있습니다.

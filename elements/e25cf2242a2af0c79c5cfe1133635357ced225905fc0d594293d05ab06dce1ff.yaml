@@ -1,0 +1,17 @@
+"hash": |-
+  e25cf2242a2af0c79c5cfe1133635357ced225905fc0d594293d05ab06dce1ff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server should close the connection down after a configurable
+     amount of time with no queries - a 60-180 second idle timeout is
+     recommended.  The client may close the connection down at any time;
+     however to allow for network delays the client should wait at least
+     30 seconds (or longer) after a query before abandoning the query and
+     closing the connection.
+"fixed": |-
+  The server should close the connection down after a configurable amount of time with no queries - a 60-180 second idle timeout is recommended.  The client may close the connection down at any time; however to allow for network delays the client should wait at least 30 seconds (or longer) after a query before abandoning the query and closing the connection.
+"ko": |-
+  서버는 쿼리가 없는 구성 가능한 시간이 지나면 연결을 종료해야 합니다. 유휴 시간 제한은 60~180초가 권장됩니다. 클라이언트는 언제든지 연결을 종료할 수 있습니다. 그러나 네트워크 지연을 허용하려면 클라이언트는 쿼리를 포기하고 연결을 닫기 전에 쿼리 후 최소 30초(또는 그 이상)를 기다려야 합니다.

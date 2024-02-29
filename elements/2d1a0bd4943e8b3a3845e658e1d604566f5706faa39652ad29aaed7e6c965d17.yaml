@@ -1,0 +1,25 @@
+"hash": |-
+  2d1a0bd4943e8b3a3845e658e1d604566f5706faa39652ad29aaed7e6c965d17
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                 11.0.0.0/8
+                                     /
+                                 router 1
+                                   /
+                                  /
+                                 /                       204.69.207.0/24
+           ISP <----- ISP <---- ISP <--- ISP <-- router <-- attacker
+            A          B         C        D         2
+                      /
+                     /
+                    /
+                router 3
+                  /
+              12.0.0.0/8
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

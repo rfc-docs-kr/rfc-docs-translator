@@ -1,0 +1,29 @@
+"hash": |-
+  b6b109e5771f0320acbad6a61efb722c33447b958136fcf15c90d38a4caa5b5d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     EAP peer                   Authenticator               Auth. Server
+     --------                   -------------               ------------
+      |<----------------------------->|                               |
+      |     Discovery (phase 0)       |                               |
+      |<----------------------------->|<----------------------------->|
+      |   EAP auth (phase 1a)         |  AAA pass-through (optional)  |
+      |                               |                               |
+      |                               |<----------------------------->|
+      |                               |       AAA Key transport       |
+      |                               |      (optional; phase 1b)     |
+      |<----------------------------->|                               |
+      |  Unicast Secure association   |                               |
+      |          (phase 2a)           |                               |
+      |                               |                               |
+      |<----------------------------->|                               |
+      | Multicast Secure association  |                               |
+      |     (optional; phase 2b)      |                               |
+      |                               |                               |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

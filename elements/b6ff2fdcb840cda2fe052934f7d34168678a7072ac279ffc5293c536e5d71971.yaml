@@ -1,0 +1,14 @@
+"hash": |-
+  b6ff2fdcb840cda2fe052934f7d34168678a7072ac279ffc5293c536e5d71971
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  if the certificate's signatureAlgorithm uses a single hash
+        function, and that hash function is either MD5 [RFC1321] or SHA-1
+        [RFC3174], then use SHA-256 [FIPS-180-3];
+"fixed": |-
+  -  if the certificate's signatureAlgorithm uses a single hash function, and that hash function is either MD5 [RFC1321] or SHA-1 [RFC3174], then use SHA-256 [FIPS-180-3];
+"ko": |-
+  - 인증서의 서명 알고리즘이 단일 해시 함수를 사용하고 해당 해시 함수가 MD5 [RFC1321] 또는 SHA-1 [RFC3174]인 경우 SHA-256 [FIPS-180-3]을 사용합니다.

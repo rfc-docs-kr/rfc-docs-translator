@@ -1,0 +1,15 @@
+"hash": |-
+  cf6f2035314b91dc2121792bd03fc29cc96bb9767fed30aca4083c640820591e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Receivers of a PING frame that does not include an ACK flag MUST send
+     a PING frame with the ACK flag set in response, with an identical
+     frame payload.  PING responses SHOULD be given higher priority than
+     any other frame.
+"fixed": |-
+  Receivers of a PING frame that does not include an ACK flag MUST send a PING frame with the ACK flag set in response, with an identical frame payload.  PING responses SHOULD be given higher priority than any other frame.
+"ko": |-
+  ACK 플래그를 포함하지 않는 PING 프레임의 수신자는 응답으로 ACK 플래그가 설정된 PING 프레임을 동일한 프레임 페이로드와 함께 전송해야 합니다. PING 응답에는 다른 프레임보다 높은 우선순위가 부여되어야 합니다.

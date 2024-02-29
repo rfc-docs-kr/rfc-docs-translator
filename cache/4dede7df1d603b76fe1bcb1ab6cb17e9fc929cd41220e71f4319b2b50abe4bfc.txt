@@ -1,0 +1,1 @@
+/* * hkdfExpand * * 설명: * 이 함수는 HKDF 확장을 수행합니다. * * 매개변수: * whichSha: [in] * SHA1, SHA224, SHA256, SHA384, SHA512 중 하나 * prk[ ]: [in] * 확장할 의사 난수 키; * 암호화가 강력하고 균일하게 분산된 * 의사 난수 생성기에서 직접 얻거나 * hkdfExtract()의 출력으로 * 얻습니다. * prk_len: [입력]

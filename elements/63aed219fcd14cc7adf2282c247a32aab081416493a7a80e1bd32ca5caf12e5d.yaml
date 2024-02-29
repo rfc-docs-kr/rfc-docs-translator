@@ -1,0 +1,16 @@
+"hash": |-
+  63aed219fcd14cc7adf2282c247a32aab081416493a7a80e1bd32ca5caf12e5d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The response for a PUSH_PROMISE stream begins with a HEADERS frame,
+     which immediately puts the stream into the "half-closed (remote)"
+     state for the server and "half-closed (local)" state for the client,
+     and ends with a frame with the END_STREAM flag set, which places the
+     stream in the "closed" state.
+"fixed": |-
+  The response for a PUSH_PROMISE stream begins with a HEADERS frame, which immediately puts the stream into the "half-closed (remote)" state for the server and "half-closed (local)" state for the client, and ends with a frame with the END_STREAM flag set, which places the stream in the "closed" state.
+"ko": |-
+  PUSH_PROMISE 스트림에 대한 응답은 HEADERS 프레임으로 시작합니다. 이 프레임은 스트림을 서버의 경우 "반 폐쇄(원격)" 상태로, 클라이언트의 경우 "반 폐쇄(로컬)" 상태로 즉시 전환하고 프레임으로 끝납니다. 스트림을 "닫힌" 상태로 만드는 END_STREAM 플래그가 설정되어 있습니다.

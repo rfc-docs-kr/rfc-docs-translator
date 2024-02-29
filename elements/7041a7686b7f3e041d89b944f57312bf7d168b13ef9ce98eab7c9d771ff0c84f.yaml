@@ -1,0 +1,15 @@
+"hash": |-
+  7041a7686b7f3e041d89b944f57312bf7d168b13ef9ce98eab7c9d771ff0c84f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client cannot push.  Thus, servers MUST treat the receipt of a
+     PUSH_PROMISE frame as a connection error (Section 5.4.1) of type
+     PROTOCOL_ERROR.  A server cannot set the SETTINGS_ENABLE_PUSH setting
+     to a value other than 0 (see Section 6.5.2).
+"fixed": |-
+  A client cannot push.  Thus, servers MUST treat the receipt of a PUSH_PROMISE frame as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.  A server cannot set the SETTINGS_ENABLE_PUSH setting to a value other than 0 (see Section 6.5.2).
+"ko": |-
+  클라이언트는 푸시할 수 없습니다. 따라서 서버는 PUSH_PROMISE 프레임 수신을 PROTOCOL_ERROR 유형의 연결 오류(5.4.1절)로 처리해야 합니다. 서버는 SETTINGS_ENABLE_PUSH 설정을 0 이외의 값으로 설정할 수 없습니다(섹션 6.5.2 참조).

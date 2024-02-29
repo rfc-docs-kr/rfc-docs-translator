@@ -1,0 +1,24 @@
+"hash": |-
+  d79a142b4535703b5ca98d29947ceb072ca477968066cae9a723ca4cf064acb4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In a number of situations, it is useful for an application to be able
+     to handle authentication within the application layer, while
+     simultaneously being able to utilize session or transport security at
+     a lower network layer.  For example, IPsec [RFC4301] [RFC4303]
+     [RFC4302] is amenable to being accelerated in hardware to handle very
+     high link speeds, but IPsec key exchange protocols and the IPsec
+     architecture are not as amenable to use as a security mechanism
+     within applications, particularly applications that have users as
+     clients.  A method of combining security at both layers is therefore
+     attractive.  To enable this to be done securely, it is necessary to
+     "bind" the mechanisms together -- so as to avoid man-in-the-middle
+     vulnerabilities and enable the mechanisms to be integrated in a
+     seamless way.  This is the objective of "Channel Bindings".
+"fixed": |-
+  In a number of situations, it is useful for an application to be able to handle authentication within the application layer, while simultaneously being able to utilize session or transport security at a lower network layer.  For example, IPsec [RFC4301] [RFC4303] [RFC4302] is amenable to being accelerated in hardware to handle very high link speeds, but IPsec key exchange protocols and the IPsec architecture are not as amenable to use as a security mechanism within applications, particularly applications that have users as clients.  A method of combining security at both layers is therefore attractive.  To enable this to be done securely, it is necessary to "bind" the mechanisms together -- so as to avoid man-in-the-middle vulnerabilities and enable the mechanisms to be integrated in a seamless way.  This is the objective of "Channel Bindings".
+"ko": |-
+  여러 상황에서 애플리케이션이 애플리케이션 계층 내에서 인증을 처리하는 동시에 하위 네트워크 계층에서 세션 또는 전송 보안을 활용할 수 있는 것이 유용합니다. 예를 들어, IPsec [RFC4301] [RFC4303] [RFC4302]는 매우 높은 링크 속도를 처리하기 위해 하드웨어에서 가속될 수 있지만 IPsec 키 교환 프로토콜과 IPsec 아키텍처는 애플리케이션 내에서 보안 메커니즘으로 사용하기에는 적합하지 않습니다. 사용자를 클라이언트로 갖는 애플리케이션. 따라서 두 계층 모두에서 보안을 결합하는 방법이 매력적입니다. 이를 안전하게 수행하려면 중간자 취약점을 방지하고 메커니즘을 원활하게 통합할 수 있도록 메커니즘을 함께 "바인딩"해야 합니다. 이것이 "채널 바인딩"의 목표입니다.

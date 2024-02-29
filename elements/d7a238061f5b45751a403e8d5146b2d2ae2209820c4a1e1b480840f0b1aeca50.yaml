@@ -1,0 +1,15 @@
+"hash": |-
+  d7a238061f5b45751a403e8d5146b2d2ae2209820c4a1e1b480840f0b1aeca50
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that receives a HEADERS frame without the END_STREAM flag
+     set after receiving the HEADERS frame that opens a request or after
+     receiving a final (non-informational) status code MUST treat the
+     corresponding request or response as malformed (Section 8.1.1).
+"fixed": |-
+  An endpoint that receives a HEADERS frame without the END_STREAM flag set after receiving the HEADERS frame that opens a request or after receiving a final (non-informational) status code MUST treat the corresponding request or response as malformed (Section 8.1.1).
+"ko": |-
+  요청을 여는 HEADERS 프레임을 수신한 후 또는 최종(비정보) 상태 코드를 수신한 후 END_STREAM 플래그가 설정되지 않은 HEADERS 프레임을 수신하는 엔드포인트는 해당 요청 또는 응답을 잘못된 형식으로 처리해야 합니다(8.1.1절).

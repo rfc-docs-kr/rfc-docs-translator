@@ -1,0 +1,16 @@
+"hash": |-
+  3528810c114ee9a284cc5e63e47cec2892ab768e0cf4c01804bfc5daa2e4668d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server MUST include a value in the ":authority" pseudo-header
+     field for which the server is authoritative (see Section 10.1).  A
+     client MUST treat a PUSH_PROMISE for which the server is not
+     authoritative as a stream error (Section 5.4.2) of type
+     PROTOCOL_ERROR.
+"fixed": |-
+  The server MUST include a value in the ":authority" pseudo-header field for which the server is authoritative (see Section 10.1).  A client MUST treat a PUSH_PROMISE for which the server is not authoritative as a stream error (Section 5.4.2) of type PROTOCOL_ERROR.
+"ko": |-
+  서버는 ":authority" 의사 헤더 필드에 서버가 권한을 부여하는 값을 포함해야 합니다(섹션 10.1 참조). 클라이언트는 서버가 권한을 부여하지 않은 PUSH_PROMISE를 PROTOCOL_ERROR 유형의 스트림 오류(5.4.2절)로 처리해야 합니다.

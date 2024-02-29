@@ -1,0 +1,42 @@
+"hash": |-
+  6c52c4f5a8ee16aec0a58cb8c4f58e8ee2caef8bb334cd5fadaca3d0104ba80a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                       +-+-+-+-+
+                       | EAP   |
+                       | Peer  |
+                       +-+-+-+-+
+                         | | |  Peer Ports
+                        /  |  \
+                       /   |   \
+                      /    |    \
+                     /     |     \
+                    /      |      \
+                   /       |       \
+                  /        |        \
+                 /         |         \     Authenticator
+              | | |      | | |      | | |   Ports
+            +-+-+-+-+  +-+-+-+-+  +-+-+-+-+
+            |       |  |       |  |       |
+            | Auth1 |  | Auth2 |  | Auth3 |
+            |       |  |       |  |       |
+            +-+-+-+-+  +-+-+-+-+  +-+-+-+-+
+                 \        | \         |
+                  \       |  \        |
+                   \      |   \       |
+     EAP over AAA   \     |    \      |
+       (optional)    \    |     \     |
+                      \   |      \    |
+                       \  |       \   |
+                        \ |        \  |
+                     +-+-+-+-+-+  +-+-+-+-+-+  Backend
+                     |  EAP    |  |  EAP    |  Authentication
+                     | Server1 |  | Server2 |  Servers
+                     +-+-+-+-+-+  +-+-+-+-+-+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

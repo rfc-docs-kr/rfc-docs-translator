@@ -1,0 +1,18 @@
+"hash": |-
+  c1f00f323c6b74d8035ef7dbb1bef5274faf8c692fdd6484b186a9e8f059f05c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+    /* INPUT: Seed - A random seed n bits long */
+    memcpy(SEED, seed, hashsize);
+    if (printResults == PRINTTEXT) {
+      printf("%s random test seed= '", hashes[hashno].name);
+      printxstr(seed, hashsize);
+      printf("'\n");
+    }
+"fixed": |-
+  /* INPUT: Seed - A random seed n bits long */ memcpy(SEED, seed, hashsize); if (printResults == PRINTTEXT) { printf("%s random test seed= '", hashes[hashno].name); printxstr(seed, hashsize); printf("'\n"); }
+"ko": |-
+  /* 입력: 시드 - n 비트 길이의 임의 시드 */ memcpy(SEED, seed, hashsize); if (printResults == PRINTTEXT) { printf("%s 무작위 테스트 시드= '", hashes[hashno].name); printxstr(시드, 해시 크기); printf("'\n"); }

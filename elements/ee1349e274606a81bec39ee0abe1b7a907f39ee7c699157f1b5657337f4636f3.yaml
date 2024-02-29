@@ -1,0 +1,21 @@
+"hash": |-
+  ee1349e274606a81bec39ee0abe1b7a907f39ee7c699157f1b5657337f4636f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TCP is susceptible to RSTs, but also to other off-path and on-path
+     spoofing attacks, including SYN attacks.  Other transport protocols,
+     such as UDP and RTP are equally susceptible.  Although emerging
+     transport protocols attempt to defeat such attacks at the transport
+     layer, such attacks take advantage of network layer identity
+     spoofing.  The packet is coming from an endpoint that is spoofing
+     another endpoint, either upstream or somewhere else in the Internet.
+     IPsec was designed specifically to establish and enforce
+     authentication of a packet's source and contents in order to most
+     directly and explicitly address this security vulnerability.
+"fixed": |-
+  TCP is susceptible to RSTs, but also to other off-path and on-path spoofing attacks, including SYN attacks.  Other transport protocols, such as UDP and RTP are equally susceptible.  Although emerging transport protocols attempt to defeat such attacks at the transport layer, such attacks take advantage of network layer identity spoofing.  The packet is coming from an endpoint that is spoofing another endpoint, either upstream or somewhere else in the Internet. IPsec was designed specifically to establish and enforce authentication of a packet's source and contents in order to most directly and explicitly address this security vulnerability.
+"ko": |-
+  TCP는 RST에 취약할 뿐만 아니라 SYN 공격을 포함한 기타 오프패스(off-path) 및 온패스(on-path) 스푸핑 공격에도 취약합니다. UDP 및 RTP와 같은 다른 전송 프로토콜도 마찬가지로 취약합니다. 새로운 전송 프로토콜은 전송 계층에서 이러한 공격을 방어하려고 시도하지만 이러한 공격은 네트워크 계층 ID 스푸핑을 활용합니다. 패킷은 업스트림이나 인터넷의 다른 위치에서 다른 끝점을 스푸핑하는 끝점에서 나옵니다. IPsec은 이 보안 취약점을 가장 직접적이고 명시적으로 해결하기 위해 패킷의 소스와 내용에 대한 인증을 설정하고 시행하도록 특별히 설계되었습니다.

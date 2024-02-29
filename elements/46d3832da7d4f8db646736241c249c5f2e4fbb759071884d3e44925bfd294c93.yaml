@@ -1,0 +1,19 @@
+"hash": |-
+  46d3832da7d4f8db646736241c249c5f2e4fbb759071884d3e44925bfd294c93
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A variant of this proposal uses a different value to attenuate the
+     window of viable RSTs.  It requires RSTs to carry the initial
+     sequence number rather than the next expected sequence number, i.e.,
+     the value negotiated on connection establishment [42][49].  This
+     proposal has the advantage of using an explicitly negotiated value,
+     but at the cost of changing the behavior of an unmodified endpoint to
+     a currently valid RST.  It would thus be more difficult, without
+     additional mechanism, to deploy incrementally.
+"fixed": |-
+  A variant of this proposal uses a different value to attenuate the window of viable RSTs.  It requires RSTs to carry the initial sequence number rather than the next expected sequence number, i.e., the value negotiated on connection establishment [42][49].  This proposal has the advantage of using an explicitly negotiated value, but at the cost of changing the behavior of an unmodified endpoint to a currently valid RST.  It would thus be more difficult, without additional mechanism, to deploy incrementally.
+"ko": |-
+  이 제안의 변형은 실행 가능한 RST의 창을 약화시키기 위해 다른 값을 사용합니다. RST는 다음 예상 시퀀스 번호가 아닌 초기 시퀀스 번호, 즉 연결 설정 시 협상된 값을 전달해야 합니다[42][49]. 이 제안은 명시적으로 협상된 값을 사용한다는 이점이 있지만 수정되지 않은 끝점의 동작을 현재 유효한 RST로 변경하는 비용이 듭니다. 따라서 추가 메커니즘 없이는 점진적으로 배포하기가 더 어려울 것입니다.

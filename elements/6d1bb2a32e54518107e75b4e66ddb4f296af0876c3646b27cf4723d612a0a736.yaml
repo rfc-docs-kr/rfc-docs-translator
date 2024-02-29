@@ -1,0 +1,22 @@
+"hash": |-
+  6d1bb2a32e54518107e75b4e66ddb4f296af0876c3646b27cf4723d612a0a736
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                hmacInput(&context, info, info_len) ||
+                hmacInput(&context, &c, 1) ||
+                hmacResult(&context, T);
+      if (ret != shaSuccess) return ret;
+      memcpy(okm + where, T,
+             (i != N) ? hash_len : (okm_len - where));
+      where += hash_len;
+      Tlen = hash_len;
+    }
+    return shaSuccess;
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

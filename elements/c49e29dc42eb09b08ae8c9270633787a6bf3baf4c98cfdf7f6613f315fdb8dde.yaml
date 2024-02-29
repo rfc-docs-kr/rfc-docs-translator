@@ -1,0 +1,17 @@
+"hash": |-
+  c49e29dc42eb09b08ae8c9270633787a6bf3baf4c98cfdf7f6613f315fdb8dde
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              Defining sip:user@host to not be equivalent to
+              sip:user@host:5060 is a change from RFC 2543.  When deriving
+              addresses from URIs, equivalent addresses are expected from
+              equivalent URIs.  The URI sip:user@host:5060 will always
+              resolve to port 5060.  The URI sip:user@host may resolve to
+              other ports through the DNS SRV mechanisms detailed in [4].
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

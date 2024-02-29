@@ -1,0 +1,17 @@
+"hash": |-
+  ff5e467b6c4e4040847c632d63c347f2fa875fd54989da1a022c4bd2357e7ba3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4.  Check if h(m) + z * s1 = 0 mod q; if so, a new value of k MUST be
+         generated and the signature MUST be recalculated.  As an option,
+         one MAY check if s1 = 0; if so, a new value of k SHOULD be
+         generated and the signature SHOULD be recalculated.  (It is
+         extremely unlikely that s1 = 0 or h(m) + z * s1 = 0 mod q if
+         signatures are generated properly.)
+"fixed": |-
+  1.  Check if h(m) + z * s1 = 0 mod q; if so, a new value of k MUST be generated and the signature MUST be recalculated.  As an option, one MAY check if s1 = 0; if so, a new value of k SHOULD be generated and the signature SHOULD be recalculated.  (It is extremely unlikely that s1 = 0 or h(m) + z * s1 = 0 mod q if signatures are generated properly.)
+"ko": |-
+  1. h(m) + z * s1 = 0 mod q인지 확인합니다. 그렇다면 새로운 k 값을 생성해야 하며 서명을 다시 계산해야 합니다. 옵션으로 s1 = 0인지 확인할 수도 있습니다. 그렇다면 k의 새로운 값이 생성되어야 하고 서명이 다시 계산되어야 합니다. (서명이 제대로 생성된 경우 s1 = 0 또는 h(m) + z * s1 = 0 mod q가 될 가능성은 거의 없습니다.)

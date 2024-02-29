@@ -1,0 +1,16 @@
+"hash": |-
+  c4be0a40d4808148aecdd87c8280bd84cb18d92b3847e07f7f7a93378731c8fb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  Define the SHA1 circular left shift macro
+   */
+  #define SHA1_ROTL(bits,word) \
+                  (((word) << (bits)) | ((word) >> (32-(bits))))
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

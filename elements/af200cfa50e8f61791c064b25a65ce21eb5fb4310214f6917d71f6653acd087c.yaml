@@ -1,0 +1,36 @@
+"hash": |-
+  af200cfa50e8f61791c064b25a65ce21eb5fb4310214f6917d71f6653acd087c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA1ProcessMessageBlock
+   *
+   * Description:
+   *   This helper function will process the next 512 bits of the
+   *   message stored in the Message_Block array.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The SHA context to update.
+   *
+   * Returns:
+   *   Nothing.
+   *
+   * Comments:
+   *   Many of the variable names in this code, especially the
+   *   single character names, were used because those were the
+   *   names used in the Secure Hash Standard.
+   */
+  static void SHA1ProcessMessageBlock(SHA1Context *context)
+  {
+    /* Constants defined in FIPS 180-3, section 4.2.1 */
+    const uint32_t K[4] = {
+        0x5A827999, 0x6ED9EBA1, 0x8F1BBCDC, 0xCA62C1D6
+    };
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

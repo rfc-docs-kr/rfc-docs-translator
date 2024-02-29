@@ -1,0 +1,19 @@
+"hash": |-
+  3c5be3eb9a57b484a76b2419d95b4ef4b38eecc1603f158b685803baefdda5ba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Request-URI contains a maddr parameter, the proxy MUST check
+     to see if its value is in the set of addresses or domains the proxy
+     is configured to be responsible for.  If the Request-URI has a maddr
+     parameter with a value the proxy is responsible for, and the request
+     was received using the port and transport indicated (explicitly or by
+     default) in the Request-URI, the proxy MUST strip the maddr and any
+     non-default port or transport parameter and continue processing as if
+     those values had not been present in the request.
+"fixed": |-
+  If the Request-URI contains a maddr parameter, the proxy MUST check to see if its value is in the set of addresses or domains the proxy is configured to be responsible for.  If the Request-URI has a maddr parameter with a value the proxy is responsible for, and the request was received using the port and transport indicated (explicitly or by default) in the Request-URI, the proxy MUST strip the maddr and any non-default port or transport parameter and continue processing as if those values had not been present in the request.
+"ko": |-
+  요청-URI에 maddr 매개변수가 포함된 경우 프록시는 해당 값이 프록시가 담당하도록 구성된 주소 또는 도메인 집합에 있는지 확인해야 합니다. Request-URI에 프록시가 담당하는 값이 있는 maddr 매개변수가 있고 요청이 Request-URI에 표시된(명시적으로 또는 기본적으로) 포트 및 전송을 사용하여 수신된 경우 프록시는 maddr 및 기타 모든 매개변수를 제거해야 합니다. -기본 포트 또는 전송 매개변수를 선택하고 해당 값이 요청에 없는 것처럼 계속 처리합니다.

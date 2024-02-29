@@ -1,0 +1,18 @@
+"hash": |-
+  492345a4b485d9a1b7314b084f74ec7b1768a64ae3566e6f373e89bc6ae5347d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TCP has a known vulnerability to third-party spoofed segments.  SYN
+     flooding consumes server resources in half-open connections,
+     affecting the server's ability to open new connections [4][11].  ACK
+     spoofing can cause connections to transmit too much data too quickly,
+     creating network congestion and segment loss, causing connections to
+     slow to a crawl.  In the most recent attacks on BGP, RSTs cause
+     connections to be dropped.  As noted earlier, some BGP
+"fixed": |-
+  TCP has a known vulnerability to third-party spoofed segments.  SYN flooding consumes server resources in half-open connections, affecting the server's ability to open new connections [4][11].  ACK spoofing can cause connections to transmit too much data too quickly, creating network congestion and segment loss, causing connections to slow to a crawl.  In the most recent attacks on BGP, RSTs cause connections to be dropped.  As noted earlier, some BGP
+"ko": |-
+  TCP에는 타사 스푸핑 세그먼트에 대한 알려진 취약점이 있습니다. SYN 플러딩은 절반만 열린 연결에서 서버 리소스를 소비하여 새 연결을 여는 서버의 기능에 영향을 미칩니다[4][11]. ACK 스푸핑으로 인해 연결이 너무 많은 데이터를 너무 빨리 전송하게 되어 네트워크 정체 및 세그먼트 손실이 발생하고 연결 속도가 느려져 크롤링 속도가 느려질 수 있습니다. BGP에 대한 가장 최근의 공격에서 RST로 인해 연결이 끊어졌습니다. 앞서 언급했듯이 일부 BGP는

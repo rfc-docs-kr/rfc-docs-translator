@@ -1,0 +1,22 @@
+"hash": |-
+  a58dc9e7b6c8e98cf38100f3b80ef8a4013e7946343d850ba0c2b1b4a27dfedd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The URI a proxy places into a Record-Route header field is only
+           valid for the lifetime of any dialog created by the transaction
+           in which it occurs.  A dialog-stateful proxy, for example, MAY
+           refuse to accept future requests with that value in the
+           Request-URI after the dialog has terminated.  Non-dialog-
+           stateful proxies, of course, have no concept of when the dialog
+           has terminated, but they MAY encode enough information in the
+           value to compare it against the dialog identifier of future
+           requests and MAY reject requests not matching that information.
+           Endpoints MUST NOT use a URI obtained from a Record-Route
+           header field outside the dialog in which it was provided.  See
+"fixed": |-
+  - The URI a proxy places into a Record-Route header field is only valid for the lifetime of any dialog created by the transaction in which it occurs.  A dialog-stateful proxy, for example, MAY refuse to accept future requests with that value in the Request-URI after the dialog has terminated.  Non-dialog- stateful proxies, of course, have no concept of when the dialog has terminated, but they MAY encode enough information in the value to compare it against the dialog identifier of future requests and MAY reject requests not matching that information. Endpoints MUST NOT use a URI obtained from a Record-Route header field outside the dialog in which it was provided.  See
+"ko": |-
+  - 프록시가 Record-Route 헤더 필드에 배치한 URI는 해당 대화가 발생한 트랜잭션에 의해 생성된 모든 대화의 수명 동안에만 유효합니다. 예를 들어, 대화 상자 상태 프록시는 대화가 종료된 후 Request-URI에 해당 값이 있는 향후 요청 수락을 거부할 수 있습니다. 물론 비대화 상태 유지 프록시는 대화가 언제 종료되는지에 대한 개념이 없지만 값에 충분한 정보를 인코딩하여 향후 요청의 대화 식별자와 비교할 수 있으며 해당 정보와 일치하지 않는 요청을 거부할 수 있습니다. 엔드포인트는 제공된 대화 상자 외부의 Record-Route 헤더 필드에서 얻은 URI를 사용해서는 안 됩니다. 보다

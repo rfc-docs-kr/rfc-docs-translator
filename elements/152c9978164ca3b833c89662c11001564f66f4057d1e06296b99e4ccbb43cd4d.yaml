@@ -1,0 +1,16 @@
+"hash": |-
+  152c9978164ca3b833c89662c11001564f66f4057d1e06296b99e4ccbb43cd4d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Limits in SETTINGS cannot be reduced instantaneously, which leaves
+        an endpoint exposed to behavior from a peer that could exceed the
+        new limits.  In particular, immediately after establishing a
+        connection, limits set by a server are not known to clients and
+        could be exceeded without being an obvious protocol violation.
+"fixed": |-
+  *  Limits in SETTINGS cannot be reduced instantaneously, which leaves an endpoint exposed to behavior from a peer that could exceed the new limits.  In particular, immediately after establishing a connection, limits set by a server are not known to clients and could be exceeded without being an obvious protocol violation.
+"ko": |-
+  * SETTINGS의 한도는 즉시 줄일 수 없으므로 엔드포인트는 새로운 한도를 초과할 수 있는 피어의 동작에 노출됩니다. 특히 연결을 설정한 직후 서버에서 설정한 제한은 클라이언트에 알려지지 않으며 명백한 프로토콜 위반 없이 초과될 수 있습니다.

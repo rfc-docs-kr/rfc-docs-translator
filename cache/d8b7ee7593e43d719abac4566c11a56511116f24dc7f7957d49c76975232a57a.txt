@@ -1,0 +1,1 @@
+* * 매개변수: * whichSha: * 쿼리할 SHA 알고리즘 * * 반환: * 블록 크기 * */ int USHABlockSize(enum SHAversion whichSha) { switch (whichSha) { case SHA1: return SHA1_Message_Block_Size; 사례 SHA224: SHA224_Message_Block_Size를 반환합니다. 사례 SHA256: SHA256_Message_Block_Size를 반환합니다. 사례 SHA384: SHA384_Message_Block_Size를 반환합니다. 기본값: 사례 SHA512: SHA512_Message_Block_Size를 반환합니다. } }

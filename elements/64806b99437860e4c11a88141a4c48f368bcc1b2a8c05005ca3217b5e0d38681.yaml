@@ -1,0 +1,17 @@
+"hash": |-
+  64806b99437860e4c11a88141a4c48f368bcc1b2a8c05005ca3217b5e0d38681
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Failures SHOULD be detected through failure response codes (codes
+     greater than 399); for network errors the client transaction will
+     report any transport layer failures to the transaction user.  Note
+     that some response codes (detailed in 8.1.3.5) indicate that the
+     request can be retried; requests that are reattempted should not be
+     considered failures.
+"fixed": |-
+  Failures SHOULD be detected through failure response codes (codes greater than 399); for network errors the client transaction will report any transport layer failures to the transaction user.  Note that some response codes (detailed in 8.1.3.5) indicate that the request can be retried; requests that are reattempted should not be considered failures.
+"ko": |-
+  실패는 실패 응답 코드(399보다 큰 코드)를 통해 감지되어야 합니다. 네트워크 오류의 경우 클라이언트 트랜잭션은 전송 계층 오류를 트랜잭션 사용자에게 보고합니다. 일부 응답 코드(8.1.3.5에 자세히 설명)는 요청을 재시도할 수 있음을 나타냅니다. 재시도되는 요청은 실패로 간주되어서는 안 됩니다.

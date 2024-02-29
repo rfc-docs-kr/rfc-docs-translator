@@ -1,0 +1,19 @@
+"hash": |-
+  e841e323e08a2ce7fac2c96df1d31495f47d7a4bda658525263add27d7f5ceae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the ACK has been constructed, the procedures of [4] are used to
+     determine the destination address, port and transport.  However, the
+     request is passed to the transport layer directly for transmission,
+     rather than a client transaction.  This is because the UAC core
+     handles retransmissions of the ACK, not the transaction layer.  The
+     ACK MUST be passed to the client transport every time a
+     retransmission of the 2xx final response that triggered the ACK
+     arrives.
+"fixed": |-
+  Once the ACK has been constructed, the procedures of [4] are used to determine the destination address, port and transport.  However, the request is passed to the transport layer directly for transmission, rather than a client transaction.  This is because the UAC core handles retransmissions of the ACK, not the transaction layer.  The ACK MUST be passed to the client transport every time a retransmission of the 2xx final response that triggered the ACK arrives.
+"ko": |-
+  ACK가 구성되면 [4]의 절차를 사용하여 대상 주소, 포트 및 전송을 결정합니다. 그러나 요청은 클라이언트 트랜잭션이 아닌 전송을 위해 직접 전송 계층으로 전달됩니다. 이는 트랜잭션 계층이 아닌 UAC 코어가 ACK 재전송을 처리하기 때문입니다. ACK는 ACK를 트리거한 2xx 최종 응답의 재전송이 도착할 때마다 클라이언트 전송으로 전달되어야 합니다.

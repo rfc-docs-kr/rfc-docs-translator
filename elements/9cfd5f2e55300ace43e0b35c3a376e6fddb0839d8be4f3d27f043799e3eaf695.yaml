@@ -1,0 +1,20 @@
+"hash": |-
+  9cfd5f2e55300ace43e0b35c3a376e6fddb0839d8be4f3d27f043799e3eaf695
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A UAC MUST treat any final response it does not recognize as being
+     equivalent to the x00 response code of that class, and MUST be able
+     to process the x00 response code for all classes.  For example, if a
+     UAC receives an unrecognized response code of 431, it can safely
+     assume that there was something wrong with its request and treat the
+     response as if it had received a 400 (Bad Request) response code.  A
+     UAC MUST treat any provisional response different than 100 that it
+     does not recognize as 183 (Session Progress).  A UAC MUST be able to
+     process 100 and 183 responses.
+"fixed": |-
+  A UAC MUST treat any final response it does not recognize as being equivalent to the x00 response code of that class, and MUST be able to process the x00 response code for all classes.  For example, if a UAC receives an unrecognized response code of 431, it can safely assume that there was something wrong with its request and treat the response as if it had received a 400 (Bad Request) response code.  A UAC MUST treat any provisional response different than 100 that it does not recognize as 183 (Session Progress).  A UAC MUST be able to process 100 and 183 responses.
+"ko": |-
+  UAC는 인식하지 못하는 모든 최종 응답을 해당 클래스의 x00 응답 코드와 동일하게 처리해야 하며 모든 클래스에 대해 x00 응답 코드를 처리할 수 있어야 합니다(MUST). 예를 들어, UAC가 인식할 수 없는 응답 코드 431을 수신하면 해당 요청에 문제가 있다고 안전하게 가정하고 400(잘못된 요청) 응답 코드를 수신한 것처럼 응답을 처리할 수 있습니다. UAC는 183(세션 진행률)으로 인식되지 않는 100과 다른 임시 응답을 처리해야 합니다. UAC는 100 및 183개의 응답을 처리할 수 있어야 합니다.

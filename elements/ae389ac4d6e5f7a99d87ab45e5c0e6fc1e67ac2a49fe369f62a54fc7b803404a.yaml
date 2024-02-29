@@ -1,0 +1,15 @@
+"hash": |-
+  ae389ac4d6e5f7a99d87ab45e5c0e6fc1e67ac2a49fe369f62a54fc7b803404a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RST_STREAM frames MUST NOT be sent for a stream in the "idle" state.
+     If a RST_STREAM frame identifying an idle stream is received, the
+     recipient MUST treat this as a connection error (Section 5.4.1) of
+     type PROTOCOL_ERROR.
+"fixed": |-
+  RST_STREAM frames MUST NOT be sent for a stream in the "idle" state. If a RST_STREAM frame identifying an idle stream is received, the recipient MUST treat this as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  RST_STREAM 프레임은 "유휴" 상태의 스트림에 대해 전송되어서는 안 됩니다. 유휴 스트림을 식별하는 RST_STREAM 프레임이 수신되면 수신자는 이를 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리해야 합니다.

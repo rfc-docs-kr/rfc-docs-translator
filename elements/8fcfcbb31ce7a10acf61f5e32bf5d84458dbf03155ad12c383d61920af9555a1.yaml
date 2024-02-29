@@ -1,0 +1,15 @@
+"hash": |-
+  8fcfcbb31ce7a10acf61f5e32bf5d84458dbf03155ad12c383d61920af9555a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  Sending a PUSH_PROMISE frame on another stream reserves the
+           idle stream that is identified for later use.  The stream state
+           for the reserved stream transitions to "reserved (local)".
+           Only a server may send PUSH_PROMISE frames.
+"fixed": |-
+  - *  Sending a PUSH_PROMISE frame on another stream reserves the idle stream that is identified for later use.  The stream state for the reserved stream transitions to "reserved (local)". Only a server may send PUSH_PROMISE frames.
+"ko": |-
+  - * 다른 스트림에서 PUSH_PROMISE 프레임을 보내면 나중에 사용하기 위해 식별된 유휴 스트림이 예약됩니다. 예약된 스트림의 스트림 상태가 "예약됨(로컬)"으로 전환됩니다. 서버만이 PUSH_PROMISE 프레임을 보낼 수 있습니다.

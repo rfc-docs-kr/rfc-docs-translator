@@ -1,0 +1,1 @@
+OCSP 서비스를 요청하는 클라이언트는 SHA-256([RFC4055]에 지정된 sha256WithRSAEncryption OID로 식별됨)과 함께 RSA를 사용하여 서명된 응답을 처리할 수 있어야 합니다. 클라이언트는 또한 SHA-1([RFC3279]에 지정된 sha1WithRSAEncryption OID로 식별됨)이 포함된 RSA 및 SHA-1(id-dsa-with-sha1로 식별됨)이 포함된 디지털 서명 알고리즘(DSA)을 사용하여 서명된 응답을 처리할 수 있어야 합니다. [RFC3279]에 지정된 OID). 클라이언트는 다른 알고리즘을 지원할 수도 있습니다.

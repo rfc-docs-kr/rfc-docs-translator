@@ -1,0 +1,18 @@
+"hash": |-
+  6de434d206d22f24458d89e5c8b5a8d0ea92f71485e17751e439acc97ef6539a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Before a request is sent, the client transport MUST insert a value of
+     the "sent-by" field into the Via header field.  This field contains
+     an IP address or host name, and port.  The usage of an FQDN is
+     RECOMMENDED.  This field is used for sending responses under certain
+     conditions, described below.  If the port is absent, the default
+     value depends on the transport.  It is 5060 for UDP, TCP and SCTP,
+     5061 for TLS.
+"fixed": |-
+  Before a request is sent, the client transport MUST insert a value of the "sent-by" field into the Via header field.  This field contains an IP address or host name, and port.  The usage of an FQDN is RECOMMENDED.  This field is used for sending responses under certain conditions, described below.  If the port is absent, the default value depends on the transport.  It is 5060 for UDP, TCP and SCTP, 5061 for TLS.
+"ko": |-
+  요청이 전송되기 전에 클라이언트 전송은 "sent-by" 필드의 값을 Via 헤더 필드에 삽입해야 합니다. 이 필드에는 IP 주소 또는 호스트 이름과 포트가 포함됩니다. FQDN 사용을 권장합니다. 이 필드는 아래 설명된 특정 조건에서 응답을 보내는 데 사용됩니다. 포트가 없는 경우 기본값은 전송에 따라 다릅니다. UDP, TCP, SCTP의 경우 5060, TLS의 경우 5061입니다.

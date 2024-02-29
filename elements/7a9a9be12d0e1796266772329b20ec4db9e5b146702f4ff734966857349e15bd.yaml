@@ -1,0 +1,18 @@
+"hash": |-
+  7a9a9be12d0e1796266772329b20ec4db9e5b146702f4ff734966857349e15bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each field block is processed as a discrete unit.  Field blocks MUST
+     be transmitted as a contiguous sequence of frames, with no
+     interleaved frames of any other type or from any other stream.  The
+     last frame in a sequence of HEADERS or CONTINUATION frames has the
+     END_HEADERS flag set.  The last frame in a sequence of PUSH_PROMISE
+     or CONTINUATION frames has the END_HEADERS flag set.  This allows a
+     field block to be logically equivalent to a single frame.
+"fixed": |-
+  Each field block is processed as a discrete unit.  Field blocks MUST be transmitted as a contiguous sequence of frames, with no interleaved frames of any other type or from any other stream.  The last frame in a sequence of HEADERS or CONTINUATION frames has the END_HEADERS flag set.  The last frame in a sequence of PUSH_PROMISE or CONTINUATION frames has the END_HEADERS flag set.  This allows a field block to be logically equivalent to a single frame.
+"ko": |-
+  각 필드 블록은 개별 단위로 처리됩니다. 필드 블록은 다른 유형이나 다른 스트림의 인터리빙된 프레임 없이 연속적인 프레임 시퀀스로 전송되어야 합니다. HEADERS 또는 CONTINUATION 프레임 시퀀스의 마지막 프레임에는 END_HEADERS 플래그가 설정되어 있습니다. PUSH_PROMISE 또는 CONTINUATION 프레임 시퀀스의 마지막 프레임에는 END_HEADERS 플래그가 설정되어 있습니다. 이를 통해 필드 블록이 단일 프레임과 논리적으로 동일해질 수 있습니다.

@@ -1,0 +1,36 @@
+"hash": |-
+  5398314c88d73eb3b6ebafa9ec221b86fe8ae85a08f1d50a95ac6840b8471523
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  hmacReset
+   *
+   *  Description:
+   *      This function will initialize the hmacContext in preparation
+   *      for computing a new HMAC message digest.
+   *
+   *  Parameters:
+   *      context: [in/out]
+   *          The context to reset.
+   *      whichSha: [in]
+   *          One of SHA1, SHA224, SHA256, SHA384, SHA512
+   *      key[ ]: [in]
+   *          The secret shared key.
+   *      key_len: [in]
+   *          The length of the secret shared key.
+   *
+   *  Returns:
+   *      sha Error Code.
+   *
+   */
+  int hmacReset(HMACContext *context, enum SHAversion whichSha,
+      const unsigned char *key, int key_len)
+  {
+    int i, blocksize, hashsize, ret;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

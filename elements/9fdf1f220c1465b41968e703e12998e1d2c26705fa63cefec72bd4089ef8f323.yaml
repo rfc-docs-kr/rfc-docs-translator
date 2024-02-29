@@ -1,0 +1,15 @@
+"hash": |-
+  9fdf1f220c1465b41968e703e12998e1d2c26705fa63cefec72bd4089ef8f323
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If an endpoint receives additional frames, other than
+        WINDOW_UPDATE, PRIORITY, or RST_STREAM, for a stream that is in
+        this state, it MUST respond with a stream error (Section 5.4.2) of
+        type STREAM_CLOSED.
+"fixed": |-
+  - If an endpoint receives additional frames, other than WINDOW_UPDATE, PRIORITY, or RST_STREAM, for a stream that is in this state, it MUST respond with a stream error (Section 5.4.2) of type STREAM_CLOSED.
+"ko": |-
+  - 엔드포인트가 이 상태의 스트림에 대해 WINDOW_UPDATE, PRIORITY 또는 RST_STREAM 이외의 추가 프레임을 수신하는 경우 STREAM_CLOSED 유형의 스트림 오류(섹션 5.4.2)로 응답해야 합니다.

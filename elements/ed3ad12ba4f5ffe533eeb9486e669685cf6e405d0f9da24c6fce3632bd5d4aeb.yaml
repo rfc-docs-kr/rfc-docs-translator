@@ -1,0 +1,25 @@
+"hash": |-
+  ed3ad12ba4f5ffe533eeb9486e669685cf6e405d0f9da24c6fce3632bd5d4aeb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS implementations supporting the use of 'tls-unique' and/or 'tls-
+     unique-for-telnet' channel binding types MUST provide application
+     programming interfaces by which applications (clients and servers
+     both) may obtain the channel bindings for a TLS connection.  Such
+     interfaces may be expressed in terms of extracting the channel
+     bindings data for a given connection and channel binding type.
+     Alternatively, the implementor may provide interfaces by which to
+     obtain the initial client Finished message, the initial server
+     Finished message, and/or the server certificate (in a form that
+     matches the description of the 'tls-server-end-point' channel binding
+     type).  In the latter case, the application has to have knowledge of
+     the channel binding type descriptions from this document.  This
+     document takes no position on which form these application
+     programming interfaces must take.
+"fixed": |-
+  TLS implementations supporting the use of 'tls-unique' and/or 'tls- unique-for-telnet' channel binding types MUST provide application programming interfaces by which applications (clients and servers both) may obtain the channel bindings for a TLS connection.  Such interfaces may be expressed in terms of extracting the channel bindings data for a given connection and channel binding type. Alternatively, the implementor may provide interfaces by which to obtain the initial client Finished message, the initial server Finished message, and/or the server certificate (in a form that matches the description of the 'tls-server-end-point' channel binding type).  In the latter case, the application has to have knowledge of the channel binding type descriptions from this document.  This document takes no position on which form these application programming interfaces must take.
+"ko": |-
+  'tls-unique' 및/또는 'tls-unique-for-telnet' 채널 바인딩 유형의 사용을 지원하는 TLS 구현은 애플리케이션(클라이언트 및 서버 모두)이 TLS 연결을 위한 채널 바인딩을 얻을 수 있는 애플리케이션 프로그래밍 인터페이스를 제공해야 합니다. 이러한 인터페이스는 주어진 연결 및 채널 바인딩 유형에 대한 채널 바인딩 데이터를 추출하는 측면에서 표현될 수 있습니다. 또는 구현자는 초기 클라이언트 Finished 메시지, 초기 서버 Finished 메시지 및/또는 서버 인증서('tls-server-end-point' 채널 바인딩의 설명과 일치하는 형식)를 얻기 위한 인터페이스를 제공할 수 있습니다. 유형). 후자의 경우 애플리케이션은 이 문서의 채널 바인딩 유형 설명에 대한 지식을 가지고 있어야 합니다. 이 문서는 이러한 애플리케이션 프로그래밍 인터페이스가 어떤 형식을 취해야 하는지에 대한 입장을 취하지 않습니다.

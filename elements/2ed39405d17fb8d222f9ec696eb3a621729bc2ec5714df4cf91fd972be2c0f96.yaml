@@ -1,0 +1,16 @@
+"hash": |-
+  2ed39405d17fb8d222f9ec696eb3a621729bc2ec5714df4cf91fd972be2c0f96
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    sprintf(buf, "%d", testno+1);
+    printResult(Message_Digest, info ? okmlen : hashsize,
+      hashes[hashno].name, info ? "hkdf standard test" :
+      keyarray ? "hmac standard test" : "sha standard test", buf,
+      resultarray, printResults, printPassFail);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

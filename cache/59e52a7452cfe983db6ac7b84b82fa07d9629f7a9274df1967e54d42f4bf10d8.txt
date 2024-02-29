@@ -1,0 +1,1 @@
+Request-URI 또는 ​​최상위 Record-Route 헤더 필드 값(있는 경우)의 SIPS URI, Record-Route 헤더 필드가 없는 경우 Contact 헤더 필드, 응답의 Contact 헤더 필드는 SIPS URI여야 합니다. . URI는 전역 범위를 가져야 합니다(즉, 이 대화 상자 외부의 메시지에 동일한 URI를 사용할 수 있음). 마찬가지로 INVITE의 Contact 헤더 필드에 있는 URI의 범위도 이 대화 상자로 제한되지 않습니다. 따라서 이 대화 상자 외부에서도 UAC에 보내는 메시지에 사용할 수 있습니다.

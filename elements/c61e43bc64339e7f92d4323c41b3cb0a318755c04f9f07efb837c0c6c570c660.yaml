@@ -1,0 +1,15 @@
+"hash": |-
+  c61e43bc64339e7f92d4323c41b3cb0a318755c04f9f07efb837c0c6c570c660
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  In RFC 2543, a forking proxy only passed up one challenge from
+        downstream elements in the event of multiple challenges.  In this
+        RFC, proxies are supposed to collect all challenges and place them
+        into the forwarded response.
+"fixed": |-
+  -  In RFC 2543, a forking proxy only passed up one challenge from downstream elements in the event of multiple challenges.  In this RFC, proxies are supposed to collect all challenges and place them into the forwarded response.
+"ko": |-
+  - RFC 2543에서 포크 프록시는 여러 문제가 발생할 경우 다운스트림 요소에서 하나의 문제만 전달했습니다. 이 RFC에서 프록시는 모든 문제를 수집하여 전달된 응답에 배치해야 합니다.

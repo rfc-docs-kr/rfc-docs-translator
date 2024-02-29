@@ -1,0 +1,18 @@
+"hash": |-
+  116af1593a9f00da29b423ff639f6f877858d1e0dcc7e00d5bef9a64f6a86e43
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The route set MUST be set to the list of URIs in the Record-Route
+     header field from the request, taken in order and preserving all URI
+     parameters.  If no Record-Route header field is present in the
+     request, the route set MUST be set to the empty set.  This route set,
+     even if empty, overrides any pre-existing route set for future
+     requests in this dialog.  The remote target MUST be set to the URI
+     from the Contact header field of the request.
+"fixed": |-
+  The route set MUST be set to the list of URIs in the Record-Route header field from the request, taken in order and preserving all URI parameters.  If no Record-Route header field is present in the request, the route set MUST be set to the empty set.  This route set, even if empty, overrides any pre-existing route set for future requests in this dialog.  The remote target MUST be set to the URI from the Contact header field of the request.
+"ko": |-
+  경로 세트는 요청의 Record-Route 헤더 필드에 있는 URI 목록으로 설정되어야 하며, 순서대로 취해지고 모든 URI 매개변수를 보존해야 합니다. 요청에 Record-Route 헤더 필드가 없으면 경로 세트는 빈 세트로 설정되어야 합니다. 이 경로 집합은 비어 있더라도 이 대화 상자의 향후 요청에 대해 설정된 기존 경로를 재정의합니다. 원격 대상은 요청의 연락처 헤더 필드에 있는 URI로 설정되어야 합니다.

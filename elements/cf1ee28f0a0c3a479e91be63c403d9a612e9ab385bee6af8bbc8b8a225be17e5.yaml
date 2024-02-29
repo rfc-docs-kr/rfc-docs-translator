@@ -1,0 +1,19 @@
+"hash": |-
+  cf1ee28f0a0c3a479e91be63c403d9a612e9ab385bee6af8bbc8b8a225be17e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The fifth implementation technique may be characterized as Loose RPF
+     ignoring default routes, i.e., an "explicit route presence check".
+     In this approach, the router looks up the source address in the route
+     table, and preserves the packet if a route is found.  However, in the
+     lookup, default routes are excluded.  Therefore, the technique is
+     mostly usable in scenarios where default routes are used only to
+     catch traffic with bogus source addresses, with an extensive (or even
+     full) list of explicit routes to cover legitimate traffic.
+"fixed": |-
+  The fifth implementation technique may be characterized as Loose RPF ignoring default routes, i.e., an "explicit route presence check". In this approach, the router looks up the source address in the route table, and preserves the packet if a route is found.  However, in the lookup, default routes are excluded.  Therefore, the technique is mostly usable in scenarios where default routes are used only to catch traffic with bogus source addresses, with an extensive (or even full) list of explicit routes to cover legitimate traffic.
+"ko": |-
+  다섯 번째 구현 기술은 기본 경로를 무시하는 느슨한 RPF, 즉 "명시적인 경로 존재 확인"으로 특징지어질 수 있습니다. 이 접근 방식에서 라우터는 경로 테이블에서 소스 주소를 조회하고 경로가 발견되면 패킷을 보존합니다. 단, 조회 시 기본 경로는 제외됩니다. 따라서 이 기술은 합법적인 트래픽을 처리하기 위한 광범위한(또는 전체) 명시적 경로 목록과 함께 가짜 소스 주소가 포함된 트래픽을 포착하는 데에만 기본 경로가 사용되는 시나리오에서 주로 사용할 수 있습니다.

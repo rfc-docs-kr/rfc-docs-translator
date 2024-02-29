@@ -1,0 +1,16 @@
+"hash": |-
+  bfc83c3dd2ae39fea894a95d5ea1ff5b8cc89776dfb28ccf42003264dc70f64c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Using streams for multiplexing introduces contention over use of the
+     TCP connection, resulting in blocked streams.  A flow-control scheme
+     ensures that streams on the same connection do not destructively
+     interfere with each other.  Flow control is used for both individual
+     streams and the connection as a whole.
+"fixed": |-
+  Using streams for multiplexing introduces contention over use of the TCP connection, resulting in blocked streams.  A flow-control scheme ensures that streams on the same connection do not destructively interfere with each other.  Flow control is used for both individual streams and the connection as a whole.
+"ko": |-
+  멀티플렉싱에 스트림을 사용하면 TCP 연결 사용에 대한 경합이 발생하여 스트림이 차단됩니다. 흐름 제어 방식은 동일한 연결의 스트림이 서로 파괴적으로 간섭하지 않도록 보장합니다. 흐름 제어는 개별 스트림과 전체 연결 모두에 사용됩니다.

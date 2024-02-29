@@ -1,0 +1,15 @@
+"hash": |-
+  2a04babfcd85ed39626b24906c6158a495c9f9e0ec9121e9a564199da50d7147
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Call-Info   =  "Call-Info" HCOLON info *(COMMA info)
+  info        =  LAQUOT absoluteURI RAQUOT *( SEMI info-param)
+  info-param  =  ( "purpose" EQUAL ( "icon" / "info"
+                 / "card" / token ) ) / generic-param
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

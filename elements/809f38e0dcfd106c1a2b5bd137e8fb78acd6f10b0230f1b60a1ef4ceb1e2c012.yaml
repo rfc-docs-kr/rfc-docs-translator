@@ -1,0 +1,20 @@
+"hash": |-
+  809f38e0dcfd106c1a2b5bd137e8fb78acd6f10b0230f1b60a1ef4ceb1e2c012
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  OCSPResponseStatus ::= ENUMERATED {
+     successful          (0),  -- Response has valid confirmations
+     malformedRequest    (1),  -- Illegal confirmation request
+     internalError       (2),  -- Internal error in issuer
+     tryLater            (3),  -- Try again later
+                               -- (4) is not used
+     sigRequired         (5),  -- Must sign the request
+     unauthorized        (6)   -- Request unauthorized
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

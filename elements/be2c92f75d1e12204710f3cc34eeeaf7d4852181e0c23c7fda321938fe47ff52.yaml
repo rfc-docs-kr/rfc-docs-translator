@@ -1,0 +1,18 @@
+"hash": |-
+  be2c92f75d1e12204710f3cc34eeeaf7d4852181e0c23c7fda321938fe47ff52
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Session keys MUST NOT be dependent on one another.  Multiple
+        session keys may be derived from a higher-level shared secret as
+        long as a one-time value, usually called a nonce, is used to
+        ensure that each session key is fresh.  The mechanism used to
+        generate session keys MUST ensure that the disclosure of one
+        session key does not aid the attacker in discovering any other
+        session keys.
+"fixed": |-
+  - Session keys MUST NOT be dependent on one another.  Multiple session keys may be derived from a higher-level shared secret as long as a one-time value, usually called a nonce, is used to ensure that each session key is fresh.  The mechanism used to generate session keys MUST ensure that the disclosure of one session key does not aid the attacker in discovering any other session keys.
+"ko": |-
+  - 세션 키는 서로 종속되어서는 안 됩니다. 일반적으로 nonce라고 하는 일회성 값을 사용하여 각 세션 키가 최신인지 확인하는 한 여러 세션 키는 상위 수준 공유 비밀에서 파생될 수 있습니다. 세션 키를 생성하는 데 사용되는 메커니즘은 하나의 세션 키 공개가 공격자가 다른 세션 키를 발견하는 데 도움이 되지 않도록 해야 합니다.

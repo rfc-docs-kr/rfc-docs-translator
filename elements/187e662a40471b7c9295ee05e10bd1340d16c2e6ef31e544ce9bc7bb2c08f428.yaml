@@ -1,0 +1,21 @@
+"hash": |-
+  187e662a40471b7c9295ee05e10bd1340d16c2e6ef31e544ce9bc7bb2c08f428
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Next, the server transport attempts to match the request to a server
+     transaction.  It does so using the matching rules described in
+     Section 17.2.3.  If a matching server transaction is found, the
+     request is passed to that transaction for processing.  If no match is
+     found, the request is passed to the core, which may decide to
+     construct a new server transaction for that request.  Note that when
+     a UAS core sends a 2xx response to INVITE, the server transaction is
+     destroyed.  This means that when the ACK arrives, there will be no
+     matching server transaction, and based on this rule, the ACK is
+     passed to the UAS core, where it is processed.
+"fixed": |-
+  Next, the server transport attempts to match the request to a server transaction.  It does so using the matching rules described in Section 17.2.3.  If a matching server transaction is found, the request is passed to that transaction for processing.  If no match is found, the request is passed to the core, which may decide to construct a new server transaction for that request.  Note that when a UAS core sends a 2xx response to INVITE, the server transaction is destroyed.  This means that when the ACK arrives, there will be no matching server transaction, and based on this rule, the ACK is passed to the UAS core, where it is processed.
+"ko": |-
+  다음으로 서버 전송은 요청을 서버 트랜잭션과 일치시키려고 시도합니다. 이는 섹션 17.2.3에 설명된 일치 규칙을 사용하여 수행됩니다. 일치하는 서버 트랜잭션이 발견되면 처리를 위해 요청이 해당 트랜잭션으로 전달됩니다. 일치하는 항목이 없으면 요청이 코어로 전달되며 코어는 해당 요청에 대한 새 서버 트랜잭션을 구성하기로 결정할 수 있습니다. UAS 코어가 INVITE에 2xx 응답을 보내면 서버 트랜잭션이 삭제됩니다. 즉, ACK가 도착하면 일치하는 서버 트랜잭션이 없으며 이 규칙에 따라 ACK가 UAS 코어로 전달되어 처리됩니다.

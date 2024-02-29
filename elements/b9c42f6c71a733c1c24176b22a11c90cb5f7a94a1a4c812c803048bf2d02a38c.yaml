@@ -1,0 +1,19 @@
+"hash": |-
+  b9c42f6c71a733c1c24176b22a11c90cb5f7a94a1a4c812c803048bf2d02a38c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The proxy MUST insert a Via header field value into the copy
+           before the existing Via header field values.  The construction
+           of this value follows the same guidelines of Section 8.1.1.7.
+           This implies that the proxy will compute its own branch
+           parameter, which will be globally unique for that branch, and
+           contain the requisite magic cookie. Note that this implies that
+           the branch parameter will be different for different instances
+           of a spiraled or looped request through a proxy.
+"fixed": |-
+  - The proxy MUST insert a Via header field value into the copy before the existing Via header field values.  The construction of this value follows the same guidelines of Section 8.1.1.7. This implies that the proxy will compute its own branch parameter, which will be globally unique for that branch, and contain the requisite magic cookie. Note that this implies that the branch parameter will be different for different instances of a spiraled or looped request through a proxy.
+"ko": |-
+  - 프록시는 기존 Via 헤더 필드 값 앞에 Via 헤더 필드 값을 복사본에 삽입해야 합니다. 이 값의 구성은 섹션 8.1.1.7의 동일한 지침을 따릅니다. 이는 프록시가 해당 분기에 대해 전역적으로 고유하고 필요한 매직 쿠키를 포함하는 자체 분기 매개변수를 계산한다는 것을 의미합니다. 이는 프록시를 통한 나선형 또는 루프형 요청의 인스턴스마다 분기 매개변수가 다르다는 것을 의미합니다.

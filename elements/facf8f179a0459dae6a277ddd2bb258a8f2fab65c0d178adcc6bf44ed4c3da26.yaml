@@ -1,0 +1,19 @@
+"hash": |-
+  facf8f179a0459dae6a277ddd2bb258a8f2fab65c0d178adcc6bf44ed4c3da26
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     --
+     -- Allowed mask generation function algorithms.
+     -- If the identifier is id-mgf1, the parameters are a HashAlgorithm.
+     --
+     PKCS1MGFAlgorithms    ALGORITHM-IDENTIFIER ::= {
+         { OID id-mgf1 PARAMETERS HashAlgorithm },
+         ...  -- Allows for future expansion --
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  2fc73975e4eba0853e83075ed7ba8cdb171b2accff29bf9bf918c3f7c811ae7c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     send:  endpoint sends this frame
+     recv:  endpoint receives this frame
+     H:  HEADERS frame (with implied CONTINUATION frames)
+     ES:  END_STREAM flag
+     R:  RST_STREAM frame
+     PP:  PUSH_PROMISE frame (with implied CONTINUATION frames); state
+        transitions are for the promised stream
+"fixed": |-
+  send:  endpoint sends this frame recv:  endpoint receives this frame H:  HEADERS frame (with implied CONTINUATION frames) ES:  END_STREAM flag R:  RST_STREAM frame PP:  PUSH_PROMISE frame (with implied CONTINUATION frames); state transitions are for the promised stream
+"ko": |-
+  send: 끝점은 이 프레임을 보냅니다. recv: 끝점은 이 프레임을 받습니다. H: HEADERS 프레임(암묵적인 CONTINUATION 프레임 포함) ES: END_STREAM 플래그 R: RST_STREAM 프레임 PP: PUSH_PROMISE 프레임(암묵적 CONTINUATION 프레임 포함); 상태 전환은 약속된 스트림을 위한 것입니다.

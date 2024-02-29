@@ -1,0 +1,16 @@
+"hash": |-
+  068df9900994518c7e3d4c62b10778c6d5b0708844af75adaee0c86ab533593b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints MAY choose to generate a connection error (Section 5.4.1)
+     of type INADEQUATE_SECURITY if one of the prohibited cipher suites is
+     negotiated.  A deployment that chooses to use a prohibited cipher
+     suite risks triggering a connection error unless the set of potential
+     peers is known to accept that cipher suite.
+"fixed": |-
+  Endpoints MAY choose to generate a connection error (Section 5.4.1) of type INADEQUATE_SECURITY if one of the prohibited cipher suites is negotiated.  A deployment that chooses to use a prohibited cipher suite risks triggering a connection error unless the set of potential peers is known to accept that cipher suite.
+"ko": |-
+  엔드포인트는 금지된 암호화 제품군 중 하나가 협상되는 경우 INADEQUATE_SECURITY 유형의 연결 오류(섹션 5.4.1)를 생성하도록 선택할 수 있습니다. 금지된 암호 제품군을 사용하도록 선택한 배포에서는 잠재적 피어 집합이 해당 암호 제품군을 허용하는 것으로 알려지지 않은 경우 연결 오류가 발생할 위험이 있습니다.

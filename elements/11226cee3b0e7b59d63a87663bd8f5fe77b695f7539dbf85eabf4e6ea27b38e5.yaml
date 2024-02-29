@@ -1,0 +1,17 @@
+"hash": |-
+  11226cee3b0e7b59d63a87663bd8f5fe77b695f7539dbf85eabf4e6ea27b38e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a UAS sends a response containing an S/MIME body that answers
+     the first request in a dialog, or a response to a non-INVITE request
+     outside the context of a dialog, the UAS SHOULD structure the body as
+     an S/MIME 'multipart/signed' CMS SignedData body.  If the desired CMS
+     service is EnvelopedData, the UAS SHOULD send the EnvelopedData
+     message encapsulated within a SignedData message.
+"fixed": |-
+  When a UAS sends a response containing an S/MIME body that answers the first request in a dialog, or a response to a non-INVITE request outside the context of a dialog, the UAS SHOULD structure the body as an S/MIME 'multipart/signed' CMS SignedData body.  If the desired CMS service is EnvelopedData, the UAS SHOULD send the EnvelopedData message encapsulated within a SignedData message.
+"ko": |-
+  UAS가 대화 상자의 첫 번째 요청에 응답하는 S/MIME 본문이 포함된 응답을 보내거나 대화 상자 컨텍스트 외부의 비INVITE 요청에 대한 응답을 보낼 때 UAS는 본문을 S/MIME '다중 부분으로 구성해야 합니다. /signed' CMS SignedData 본문입니다. 원하는 CMS 서비스가 EnvelopedData인 경우 UAS는 SignedData 메시지 내에 캡슐화된 EnvelopedData 메시지를 보내야 합니다.

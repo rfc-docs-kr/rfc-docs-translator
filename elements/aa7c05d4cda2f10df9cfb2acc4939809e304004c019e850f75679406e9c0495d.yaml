@@ -1,0 +1,16 @@
+"hash": |-
+  aa7c05d4cda2f10df9cfb2acc4939809e304004c019e850f75679406e9c0495d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     TBSRequest      ::=     SEQUENCE {
+         version             [0]     EXPLICIT Version DEFAULT v1,
+         requestorName       [1]     EXPLICIT GeneralName OPTIONAL,
+         requestList                 SEQUENCE OF Request,
+         requestExtensions   [2]     EXPLICIT Extensions OPTIONAL }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

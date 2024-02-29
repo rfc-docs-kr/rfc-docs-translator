@@ -1,0 +1,21 @@
+"hash": |-
+  933de3921b17587873e1de532291ffad83b2f03c9c892fba150b38f1db193dee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If an EAP method that generates keys authenticates one or more
+        method-specific peer identities, those identities are exported by
+        the method as the Peer-Id(s).  It is possible for more than one
+        Peer-Id to be exported by an EAP method.  Not all EAP methods
+        provide a method-specific peer identity; where this is not
+        defined, the Peer-Id is the null string.  In EAP methods that do
+        not support key generation, the Peer-Id MUST be the null string.
+        Where an EAP method that derives keys does not provide a Peer-Id,
+        the EAP server will not authenticate the identity of the EAP peer
+        with which it derived keying material.
+"fixed": |-
+  - If an EAP method that generates keys authenticates one or more method-specific peer identities, those identities are exported by the method as the Peer-Id(s).  It is possible for more than one Peer-Id to be exported by an EAP method.  Not all EAP methods provide a method-specific peer identity; where this is not defined, the Peer-Id is the null string.  In EAP methods that do not support key generation, the Peer-Id MUST be the null string. Where an EAP method that derives keys does not provide a Peer-Id, the EAP server will not authenticate the identity of the EAP peer with which it derived keying material.
+"ko": |-
+  - 키를 생성하는 EAP 방법이 하나 이상의 방법별 피어 ID를 인증하는 경우 해당 ID는 해당 방법에 의해 피어 ID로 내보내집니다. EAP 방법으로 둘 이상의 Peer-Id를 내보낼 수 있습니다. 모든 EAP 방법이 방법별 피어 ID를 제공하는 것은 아닙니다. 이것이 정의되지 않은 경우 Peer-Id는 null 문자열입니다. 키 생성을 지원하지 않는 EAP 방법에서 Peer-Id는 null 문자열이어야 합니다. 키를 파생하는 EAP 방법이 Peer-Id를 제공하지 않는 경우 EAP 서버는 키 자료를 파생한 EAP 피어의 ID를 인증하지 않습니다.

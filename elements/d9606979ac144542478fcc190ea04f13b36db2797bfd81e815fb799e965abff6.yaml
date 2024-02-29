@@ -1,0 +1,23 @@
+"hash": |-
+  d9606979ac144542478fcc190ea04f13b36db2797bfd81e815fb799e965abff6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Functions:
+        int hmacReset(HMACContext *ctx, enum SHAversion whichSha,
+                    const unsigned char *key, int key_len);
+              Reset the MAC context state.
+        int hmacInput(HMACContext *ctx, const unsigned char *text,
+                    int text_len);
+              Incorporate text_len octets into the MAC.
+        int hmacFinalBits(HMACContext *ctx, const uint8_t bits,
+                    unsigned int bitcount);
+              Incorporate bitcount bits into the MAC.
+        int hmacResult(HMACContext *ctx,
+                    uint8_t Message_Digest[USHAMaxHashSize]);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

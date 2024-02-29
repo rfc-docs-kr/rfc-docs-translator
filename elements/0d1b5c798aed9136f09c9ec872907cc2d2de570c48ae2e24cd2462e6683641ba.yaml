@@ -1,0 +1,16 @@
+"hash": |-
+  0d1b5c798aed9136f09c9ec872907cc2d2de570c48ae2e24cd2462e6683641ba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unlike an INVITE, which can fork, a re-INVITE will never fork, and
+     therefore, only ever generate a single final response.  The reason a
+     re-INVITE will never fork is that the Request-URI identifies the
+     target as the UA instance it established the dialog with, rather than
+     identifying an address-of-record for the user.
+"fixed": |-
+  Unlike an INVITE, which can fork, a re-INVITE will never fork, and therefore, only ever generate a single final response.  The reason a re-INVITE will never fork is that the Request-URI identifies the target as the UA instance it established the dialog with, rather than identifying an address-of-record for the user.
+"ko": |-
+  분기할 수 있는 INVITE와 달리 re-INVITE는 분기되지 않으므로 단일 최종 응답만 생성합니다. re-INVITE가 포크되지 않는 이유는 Request-URI가 사용자의 레코드 주소를 식별하는 대신 대화 상자를 설정한 UA 인스턴스로 대상을 식별하기 때문입니다.

@@ -1,0 +1,34 @@
+"hash": |-
+  3be917b443ff4f699521992567589b4ba24eb7cf65553f1f2f119bd4ef277f4f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+   *
+   * Description:
+   *   This function will return the 384-bit message digest
+   *   into the Message_Digest array provided by the caller.
+   *   NOTE:
+   *    The first octet of hash is stored in the element with index 0,
+   *    the last octet of hash in the element with index 47.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The context to use to calculate the SHA hash.
+   *   Message_Digest[ ]: [out]
+   *     Where the digest is returned.
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  int SHA384Result(SHA384Context *context,
+      uint8_t Message_Digest[SHA384HashSize])
+  {
+    return SHA384_512ResultN(context, Message_Digest, SHA384HashSize);
+  }
+"fixed": |-
+  * * Description: *   This function will return the 384-bit message digest *   into the Message_Digest array provided by the caller. *   NOTE: *    The first octet of hash is stored in the element with index 0, *    the last octet of hash in the element with index 47. * * Parameters: *   context: [in/out] *     The context to use to calculate the SHA hash. *   Message_Digest[ ]: [out] *     Where the digest is returned. * * Returns: *   sha Error Code. * */ int SHA384Result(SHA384Context *context, uint8_t Message_Digest[SHA384HashSize]) { return SHA384_512ResultN(context, Message_Digest, SHA384HashSize); }
+"ko": |-
+  * * 설명: * 이 함수는 384비트 메시지 다이제스트를 * 호출자가 제공한 Message_Digest 배열로 반환합니다. * 참고: * 해시의 첫 번째 옥텟은 인덱스가 0인 요소에 저장되고, * 해시의 마지막 옥텟은 인덱스가 47인 요소에 저장됩니다. * * 매개변수: * context: [in/out] * 계산에 사용할 컨텍스트 SHA 해시. * Message_Digest[ ]: [out] * 다이제스트가 반환되는 위치. * * 반환: * sha 오류 코드. * */ int SHA384Result(SHA384Context *context, uint8_t Message_Digest[SHA384HashSize]) { return SHA384_512ResultN(context, Message_Digest, SHA384HashSize); }

@@ -1,0 +1,18 @@
+"hash": |-
+  d4cf4427d7292eea159b8ce01924af952db5d094bd0d1b248024ea3b84eeb79e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the route set is not empty, and its first URI does not contain the
+     lr parameter, the UAC MUST place the first URI from the route set
+     into the Request-URI, stripping any parameters that are not allowed
+     in a Request-URI.  The UAC MUST add a Route header field containing
+     the remainder of the route set values in order, including all
+     parameters.  The UAC MUST then place the remote target URI into the
+     Route header field as the last value.
+"fixed": |-
+  If the route set is not empty, and its first URI does not contain the lr parameter, the UAC MUST place the first URI from the route set into the Request-URI, stripping any parameters that are not allowed in a Request-URI.  The UAC MUST add a Route header field containing the remainder of the route set values in order, including all parameters.  The UAC MUST then place the remote target URI into the Route header field as the last value.
+"ko": |-
+  경로 집합이 비어 있지 않고 첫 번째 URI에 lr 매개 변수가 포함되어 있지 않은 경우 UAC는 경로 집합의 첫 번째 URI를 Request-URI에 배치하고 Request-URI에서 허용되지 않는 모든 매개 변수를 제거해야 합니다. UAC는 모든 매개변수를 포함하여 나머지 경로 설정 값을 순서대로 포함하는 경로 헤더 필드를 추가해야 합니다. 그런 다음 UAC는 원격 대상 URI를 경로 헤더 필드에 마지막 값으로 배치해야 합니다.

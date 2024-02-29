@@ -1,0 +1,17 @@
+"hash": |-
+  f7f27a870c2ba12c2ff22514810db16d329fc76707bb2de389582d22b9e32d8e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An HTTP GET request includes control data and a request header with
+     no message content and is therefore transmitted as a single HEADERS
+     frame, followed by zero or more CONTINUATION frames containing the
+     serialized block of request header fields.  The HEADERS frame in the
+     following has both the END_HEADERS and END_STREAM flags set; no
+     CONTINUATION frames are sent.
+"fixed": |-
+  An HTTP GET request includes control data and a request header with no message content and is therefore transmitted as a single HEADERS frame, followed by zero or more CONTINUATION frames containing the serialized block of request header fields.  The HEADERS frame in the following has both the END_HEADERS and END_STREAM flags set; no CONTINUATION frames are sent.
+"ko": |-
+  HTTP GET 요청에는 제어 데이터와 메시지 내용이 없는 요청 헤더가 포함되어 있으므로 단일 HEADERS 프레임으로 전송되고, 그 뒤에 직렬화된 요청 헤더 필드 블록이 포함된 0개 이상의 CONTINUATION 프레임이 옵니다. 다음의 HEADERS 프레임에는 END_HEADERS 및 END_STREAM 플래그가 모두 설정되어 있습니다. CONTINUATION 프레임은 전송되지 않습니다.

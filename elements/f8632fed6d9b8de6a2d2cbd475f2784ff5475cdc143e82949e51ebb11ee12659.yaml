@@ -1,0 +1,14 @@
+"hash": |-
+  f8632fed6d9b8de6a2d2cbd475f2784ff5475cdc143e82949e51ebb11ee12659
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  Note that the PUSH_PROMISE frame is not sent on the idle stream
+           but references the newly reserved stream in the Promised Stream
+           ID field.
+"fixed": |-
+  - *  Note that the PUSH_PROMISE frame is not sent on the idle stream but references the newly reserved stream in the Promised Stream ID field.
+"ko": |-
+  - * PUSH_PROMISE 프레임은 유휴 스트림에서 전송되지 않지만 약속된 스트림 ID 필드에서 새로 예약된 스트림을 참조합니다.

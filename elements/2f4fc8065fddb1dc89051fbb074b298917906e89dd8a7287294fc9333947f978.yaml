@@ -1,0 +1,14 @@
+"hash": |-
+  2f4fc8065fddb1dc89051fbb074b298917906e89dd8a7287294fc9333947f978
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the transaction layer returns a timeout error because the REGISTER
+     yielded no response, the UAC SHOULD NOT immediately re-attempt a
+     registration to the same registrar.
+"fixed": |-
+  If the transaction layer returns a timeout error because the REGISTER yielded no response, the UAC SHOULD NOT immediately re-attempt a registration to the same registrar.
+"ko": |-
+  REGISTER가 응답을 생성하지 않아 트랜잭션 계층이 시간 초과 오류를 반환하는 경우 UAC는 동일한 등록자에 대한 등록을 즉시 다시 시도해서는 안 됩니다.

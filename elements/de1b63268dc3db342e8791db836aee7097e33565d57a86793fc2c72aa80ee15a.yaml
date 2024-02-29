@@ -1,0 +1,24 @@
+"hash": |-
+  de1b63268dc3db342e8791db836aee7097e33565d57a86793fc2c72aa80ee15a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * HMAC Keyed-Hashing for Message Authentication, RFC 2104,
+   * for all SHAs.
+   * This interface allows any length of text input to be used.
+   */
+  extern int hmacReset(HMACContext *context, enum SHAversion whichSha,
+                       const unsigned char *key, int key_len);
+  extern int hmacInput(HMACContext *context, const unsigned char *text,
+                       int text_len);
+  extern int hmacFinalBits(HMACContext *context, uint8_t bits,
+                           unsigned int bit_count);
+  extern int hmacResult(HMACContext *context,
+                        uint8_t digest[USHAMaxHashSize]);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

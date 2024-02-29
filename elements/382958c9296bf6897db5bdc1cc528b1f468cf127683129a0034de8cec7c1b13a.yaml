@@ -1,0 +1,18 @@
+"hash": |-
+  382958c9296bf6897db5bdc1cc528b1f468cf127683129a0034de8cec7c1b13a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     We considered suggesting routers also validate the source IP address
+     of the sender as suggested in [8], but that methodology will not
+     operate well in the real networks out there today. The method
+     suggested is to look up source addresses to see that the return path
+     to that address would flow out the same interface as the packet
+     arrived upon. With the number of asymmetric routes in the Internet,
+     this would clearly be problematic.
+"fixed": |-
+  We considered suggesting routers also validate the source IP address of the sender as suggested in [8], but that methodology will not operate well in the real networks out there today. The method suggested is to look up source addresses to see that the return path to that address would flow out the same interface as the packet arrived upon. With the number of asymmetric routes in the Internet, this would clearly be problematic.
+"ko": |-
+  우리는 [8]에서 제안한 대로 라우터가 발신자의 소스 IP 주소를 검증하도록 제안하는 것을 고려했지만 이 방법은 현재 실제 네트워크에서는 제대로 작동하지 않습니다. 제안된 방법은 소스 주소를 조회하여 해당 주소에 대한 반환 경로가 패킷이 도착한 것과 동일한 인터페이스에서 흘러나오는지 확인하는 것입니다. 인터넷의 비대칭 경로 수로 인해 이는 분명히 문제가 될 수 있습니다.

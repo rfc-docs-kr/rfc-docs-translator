@@ -1,0 +1,16 @@
+"hash": |-
+  580ef7715ff42b12bc77bd4628480027428cc77221214233470ca0e74869804b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Applications MAY send information over the underlying channel and
+        without integrity protection from the application-layer
+        authentication protocol prior to completing the channel binding
+        operation if such information requires only integrity protection.
+        This could be useful for optimistic negotiations.
+"fixed": |-
+  -  Applications MAY send information over the underlying channel and without integrity protection from the application-layer authentication protocol prior to completing the channel binding operation if such information requires only integrity protection. This could be useful for optimistic negotiations.
+"ko": |-
+  - 해당 정보에 무결성 보호만 필요한 경우 애플리케이션은 채널 바인딩 작업을 완료하기 전에 애플리케이션 계층 인증 프로토콜의 무결성 보호 없이 기본 채널을 통해 정보를 보낼 수 있습니다. 이는 낙관적인 협상에 유용할 수 있습니다.

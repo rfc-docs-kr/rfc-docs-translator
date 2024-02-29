@@ -1,0 +1,29 @@
+"hash": |-
+  40e61320dc0a5bc4887672e51f02c3f81483bd02813df6a21c1e531dee7b2db9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     --
+     -- Identifier for default RSASSA-PSS algorithm identifier
+     -- The DER encoding of this is in hexadecimal:
+     -- (0x)30 0D
+     --        06 09
+     --           2A 86 48 86 F7 0D 01 01 0A
+     --        30 00
+     -- Notice that the DER encoding of default values is "empty".
+     --
+     rSASSA-PSS-Default-Identifier    RSASSA-AlgorithmIdentifier ::= {
+         algorithm   id-RSASSA-PSS,
+         parameters  RSASSA-PSS-params : {
+             hashAlgorithm       sha1,
+             maskGenAlgorithm    mgf1SHA1,
+             saltLength          20,
+             trailerField        trailerFieldBC
+         }
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

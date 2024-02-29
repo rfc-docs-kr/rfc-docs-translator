@@ -1,0 +1,21 @@
+"hash": |-
+  40bb2a17a59cf42cd269e56fb0c25c0c3764da4395cedfc1210a8bde34af49bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TCP segments include a sequence number, which enables out-of-order
+     receiver processing as well as duplicate detection.  The sequence
+     number space is also used to manage congestion, and indicates the
+     index of the next byte to be transmitted or received.  For RSTs, this
+     is relevant because legitimate RSTs use the next sequence number in
+     the transmitter window, and the receiver checks that incoming RSTs
+     have a sequence number in the expected receive window.  Such
+     processing is intended to eliminate duplicate segments (somewhat moot
+     for RSTs, though), and to drop RSTs that were part of previous
+     connections.
+"fixed": |-
+  TCP segments include a sequence number, which enables out-of-order receiver processing as well as duplicate detection.  The sequence number space is also used to manage congestion, and indicates the index of the next byte to be transmitted or received.  For RSTs, this is relevant because legitimate RSTs use the next sequence number in the transmitter window, and the receiver checks that incoming RSTs have a sequence number in the expected receive window.  Such processing is intended to eliminate duplicate segments (somewhat moot for RSTs, though), and to drop RSTs that were part of previous connections.
+"ko": |-
+  TCP 세그먼트에는 시퀀스 번호가 포함되어 있어 잘못된 수신자 처리와 중복 감지가 가능합니다. 시퀀스 번호 공간은 혼잡을 관리하는 데에도 사용되며 전송 또는 수신할 다음 바이트의 인덱스를 나타냅니다. RST의 경우 이는 적법한 RST가 송신기 창의 다음 시퀀스 번호를 사용하고 수신기는 수신 RST가 예상 수신 창에 시퀀스 번호를 가지고 있는지 확인하기 때문에 관련이 있습니다. 이러한 처리는 중복된 세그먼트를 제거하고(RST의 경우 다소 논란의 여지가 있음) 이전 연결의 일부였던 RST를 삭제하기 위한 것입니다.

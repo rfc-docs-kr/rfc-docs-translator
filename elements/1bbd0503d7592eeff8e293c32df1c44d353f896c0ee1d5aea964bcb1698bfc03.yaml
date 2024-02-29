@@ -1,0 +1,21 @@
+"hash": |-
+  1bbd0503d7592eeff8e293c32df1c44d353f896c0ee1d5aea964bcb1698bfc03
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Well-Known Prefix SHOULD NOT be used to construct IPv4-
+     translatable IPv6 addresses.  The nodes served by IPv4-translatable
+     IPv6 addresses should be able to receive global IPv6 traffic bound to
+     their IPv4-translatable IPv6 address without incurring intermediate
+     protocol translation.  This is only possible if the specific prefix
+     used to build the IPv4-translatable IPv6 addresses is advertised in
+     inter-domain routing, but the advertisement of more specific prefixes
+     derived from the Well-Known Prefix is not supported, as explained in
+     Section 3.2.  Network-Specific Prefixes SHOULD be used in these
+     scenarios, as explained in Section 3.3.
+"fixed": |-
+  The Well-Known Prefix SHOULD NOT be used to construct IPv4- translatable IPv6 addresses.  The nodes served by IPv4-translatable IPv6 addresses should be able to receive global IPv6 traffic bound to their IPv4-translatable IPv6 address without incurring intermediate protocol translation.  This is only possible if the specific prefix used to build the IPv4-translatable IPv6 addresses is advertised in inter-domain routing, but the advertisement of more specific prefixes derived from the Well-Known Prefix is not supported, as explained in Section 3.2.  Network-Specific Prefixes SHOULD be used in these scenarios, as explained in Section 3.3.
+"ko": |-
+  잘 알려진 접두사는 IPv4로 변환 가능한 IPv6 주소를 구성하는 데 사용되어서는 안 됩니다. IPv4 변환 가능 IPv6 주소로 제공되는 노드는 중간 프로토콜 변환 없이 IPv4 변환 가능 IPv6 주소에 바인딩된 글로벌 IPv6 트래픽을 수신할 수 있어야 합니다. 이는 IPv4 변환 가능 IPv6 주소를 구축하는 데 사용된 특정 접두사가 도메인 간 라우팅에서 광고되는 경우에만 가능하지만 섹션 3.2에 설명된 대로 잘 알려진 접두사에서 파생된 보다 구체적인 접두사의 광고는 지원되지 않습니다. 섹션 3.3에 설명된 대로 이러한 시나리오에서는 네트워크별 접두사를 사용해야 합니다.

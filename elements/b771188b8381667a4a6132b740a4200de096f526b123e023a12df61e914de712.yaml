@@ -1,0 +1,18 @@
+"hash": |-
+  b771188b8381667a4a6132b740a4200de096f526b123e023a12df61e914de712
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an HTTP/2 connection is first established, new streams are
+     created with an initial flow-control window size of 65,535 octets.
+     The connection flow-control window is also 65,535 octets.  Both
+     endpoints can adjust the initial window size for new streams by
+     including a value for SETTINGS_INITIAL_WINDOW_SIZE in the SETTINGS
+     frame.  The connection flow-control window can only be changed using
+     WINDOW_UPDATE frames.
+"fixed": |-
+  When an HTTP/2 connection is first established, new streams are created with an initial flow-control window size of 65,535 octets. The connection flow-control window is also 65,535 octets.  Both endpoints can adjust the initial window size for new streams by including a value for SETTINGS_INITIAL_WINDOW_SIZE in the SETTINGS frame.  The connection flow-control window can only be changed using WINDOW_UPDATE frames.
+"ko": |-
+  HTTP/2 연결이 처음 설정되면 초기 흐름 제어 창 크기가 65,535옥텟인 새 스트림이 생성됩니다. 연결 흐름 제어 창도 65,535옥텟입니다. 두 끝점 모두 SETTINGS 프레임에 SETTINGS_INITIAL_WINDOW_SIZE 값을 포함하여 새 스트림의 초기 창 크기를 조정할 수 있습니다. 연결 흐름 제어 창은 WINDOW_UPDATE 프레임을 통해서만 변경할 수 있습니다.

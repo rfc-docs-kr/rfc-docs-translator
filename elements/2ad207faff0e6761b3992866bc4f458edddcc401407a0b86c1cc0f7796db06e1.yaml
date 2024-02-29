@@ -1,0 +1,18 @@
+"hash": |-
+  2ad207faff0e6761b3992866bc4f458edddcc401407a0b86c1cc0f7796db06e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     HPACK permits encoding of field names and values that might be
+     treated as delimiters in other HTTP versions.  An intermediary that
+     translates an HTTP/2 request or response MUST validate fields
+     according to the rules in Section 8.2 before translating a message to
+     another HTTP version.  Translating a field that includes invalid
+     delimiters could be used to cause recipients to incorrectly interpret
+     a message, which could be exploited by an attacker.
+"fixed": |-
+  HPACK permits encoding of field names and values that might be treated as delimiters in other HTTP versions.  An intermediary that translates an HTTP/2 request or response MUST validate fields according to the rules in Section 8.2 before translating a message to another HTTP version.  Translating a field that includes invalid delimiters could be used to cause recipients to incorrectly interpret a message, which could be exploited by an attacker.
+"ko": |-
+  HPACK은 다른 HTTP 버전에서 구분 기호로 처리될 수 있는 필드 이름과 값의 인코딩을 허용합니다. HTTP/2 요청 또는 응답을 변환하는 중개자는 메시지를 다른 HTTP 버전으로 변환하기 전에 섹션 8.2의 규칙에 따라 필드의 유효성을 검사해야 합니다. 잘못된 구분 기호가 포함된 필드를 번역하면 수신자가 메시지를 잘못 해석하게 되어 공격자가 이를 악용할 수 있습니다.

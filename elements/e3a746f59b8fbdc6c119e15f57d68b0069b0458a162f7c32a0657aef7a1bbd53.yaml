@@ -1,0 +1,22 @@
+"hash": |-
+  e3a746f59b8fbdc6c119e15f57d68b0069b0458a162f7c32a0657aef7a1bbd53
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Call-ID of the request MUST be set to the Call-ID of the dialog.
+     Requests within a dialog MUST contain strictly monotonically
+     increasing and contiguous CSeq sequence numbers (increasing-by-one)
+     in each direction (excepting ACK and CANCEL of course, whose numbers
+     equal the requests being acknowledged or cancelled).  Therefore, if
+     the local sequence number is not empty, the value of the local
+     sequence number MUST be incremented by one, and this value MUST be
+     placed into the CSeq header field.  If the local sequence number is
+     empty, an initial value MUST be chosen using the guidelines of
+     Section 8.1.1.5.  The method field in the CSeq header field value
+     MUST match the method of the request.
+"fixed": |-
+  The Call-ID of the request MUST be set to the Call-ID of the dialog. Requests within a dialog MUST contain strictly monotonically increasing and contiguous CSeq sequence numbers (increasing-by-one) in each direction (excepting ACK and CANCEL of course, whose numbers equal the requests being acknowledged or cancelled).  Therefore, if the local sequence number is not empty, the value of the local sequence number MUST be incremented by one, and this value MUST be placed into the CSeq header field.  If the local sequence number is empty, an initial value MUST be chosen using the guidelines of Section 8.1.1.5.  The method field in the CSeq header field value MUST match the method of the request.
+"ko": |-
+  요청의 Call-ID는 대화의 Call-ID로 설정되어야 합니다. 대화 상자 내의 요청은 각 방향에서 엄격하게 단조롭게 증가하고 연속적인 CSeq 시퀀스 번호(1씩 증가)를 포함해야 합니다(물론 ACK 및 CANCEL은 제외, 해당 숫자는 승인되거나 취소되는 요청과 동일함). 따라서 로컬 시퀀스 번호가 비어 있지 않은 경우 로컬 시퀀스 번호의 값은 1씩 증가해야 하며 이 값은 CSeq 헤더 필드에 배치되어야 합니다. 로컬 시퀀스 번호가 비어 있으면 섹션 8.1.1.5의 지침을 사용하여 초기 값을 선택해야 합니다. CSeq 헤더 필드 값의 메소드 필드는 요청 메소드와 일치해야 합니다.

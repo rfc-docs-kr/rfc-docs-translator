@@ -1,0 +1,36 @@
+"hash": |-
+  ff54b4e8cff6c3b3483e67afcf40bc990baf12eaa2e1417979fc3bb2a27a5448
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  int main(int argc, char **argv)
+  {
+    int i, err;
+    int loopno, loopnohigh = 1;
+    int hashno, hashnolow = 0, hashnohigh = HASHCOUNT - 1;
+    int testno, testnolow = 0, testnohigh;
+    int ntestnohigh = 0;
+    int printResults = PRINTTEXT;
+    int printPassFail = 1;
+    int checkErrors = 0;
+    char *hashstr = 0;
+    int hashlen = 0;
+    const char *resultstr = 0;
+    char *randomseedstr = 0;
+    int runHmacTests = 0;
+    int runHkdfTests = 0;
+    char *hmacKey = 0;
+    int hmaclen = 0;
+    char *info = 0;
+    int infolen = 0, okmlen = 0;
+    int randomcount = RANDOMCOUNT;
+    const char *hashfilename = 0;
+    const char *hashFilename = 0;
+    int extrabits = 0, numberExtrabits = 0;
+    int strIsHex = 0;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

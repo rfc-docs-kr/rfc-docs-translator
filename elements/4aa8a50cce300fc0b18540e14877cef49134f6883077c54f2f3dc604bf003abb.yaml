@@ -1,0 +1,20 @@
+"hash": |-
+  4aa8a50cce300fc0b18540e14877cef49134f6883077c54f2f3dc604bf003abb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* Define the SHA SIGMA and sigma macros */
+  #define SHA256_SIGMA0(word)   \
+    (SHA256_ROTR( 2,word) ^ SHA256_ROTR(13,word) ^ SHA256_ROTR(22,word))
+  #define SHA256_SIGMA1(word)   \
+    (SHA256_ROTR( 6,word) ^ SHA256_ROTR(11,word) ^ SHA256_ROTR(25,word))
+  #define SHA256_sigma0(word)   \
+    (SHA256_ROTR( 7,word) ^ SHA256_ROTR(18,word) ^ SHA256_SHR( 3,word))
+  #define SHA256_sigma1(word)   \
+    (SHA256_ROTR(17,word) ^ SHA256_ROTR(19,word) ^ SHA256_SHR(10,word))
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

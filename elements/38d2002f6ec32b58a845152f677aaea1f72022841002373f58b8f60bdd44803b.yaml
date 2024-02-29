@@ -1,0 +1,15 @@
+"hash": |-
+  38d2002f6ec32b58a845152f677aaea1f72022841002373f58b8f60bdd44803b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The padding string PS in Step 2 in Section 7.2.1 is at least eight
+        octets long, which is a security condition for public-key
+        operations that makes it difficult for an attacker to recover data
+        by trying all possible encryption blocks.
+"fixed": |-
+  -  The padding string PS in Step 2 in Section 7.2.1 is at least eight octets long, which is a security condition for public-key operations that makes it difficult for an attacker to recover data by trying all possible encryption blocks.
+"ko": |-
+  - 섹션 7.2.1의 2단계에서 패딩 문자열 PS는 길이가 최소 8옥텟입니다. 이는 공격자가 가능한 모든 암호화 블록을 시도하여 데이터를 복구하기 어렵게 만드는 공개 키 작업에 대한 보안 조건입니다.

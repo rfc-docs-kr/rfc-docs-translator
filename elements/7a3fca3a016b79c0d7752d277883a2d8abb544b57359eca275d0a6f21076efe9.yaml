@@ -1,0 +1,15 @@
+"hash": |-
+  7a3fca3a016b79c0d7752d277883a2d8abb544b57359eca275d0a6f21076efe9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        An endpoint that sends a frame with the END_STREAM flag set or a
+        RST_STREAM frame might receive a WINDOW_UPDATE or RST_STREAM frame
+        from its peer in the time before the peer receives and processes
+        the frame that closes the stream.
+"fixed": |-
+  - An endpoint that sends a frame with the END_STREAM flag set or a RST_STREAM frame might receive a WINDOW_UPDATE or RST_STREAM frame from its peer in the time before the peer receives and processes the frame that closes the stream.
+"ko": |-
+  - END_STREAM 플래그가 설정된 프레임 또는 RST_STREAM 프레임을 전송하는 엔드포인트는 피어가 스트림을 닫는 프레임을 수신하고 처리하기 전에 해당 피어로부터 WINDOW_UPDATE 또는 RST_STREAM 프레임을 수신할 수 있습니다.

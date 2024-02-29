@@ -1,0 +1,52 @@
+"hash": |-
+  63773e3a28037066cd7a47761128b314a7cb9905f2f0c79c94856e2d3f110214
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                 |INVITE
+                                 |pass INV to TU
+              INVITE             V send 100 if TU won't in 200ms
+              send response+-----------+
+                  +--------|           |--------+101-199 from TU
+                  |        | Proceeding|        |send response
+                  +------->|           |<-------+
+                           |           |          Transport Err.
+                           |           |          Inform TU
+                           |           |--------------->+
+                           +-----------+                |
+              300-699 from TU |     |2xx from TU        |
+              send response   |     |send response      |
+                              |     +------------------>+
+                              |                         |
+              INVITE          V          Timer G fires  |
+              send response+-----------+ send response  |
+                  +--------|           |--------+       |
+                  |        | Completed |        |       |
+                  +------->|           |<-------+       |
+                           +-----------+                |
+                              |     |                   |
+                          ACK |     |                   |
+                          -   |     +------------------>+
+                              |        Timer H fires    |
+                              V        or Transport Err.|
+                           +-----------+  Inform TU     |
+                           |           |                |
+                           | Confirmed |                |
+                           |           |                |
+                           +-----------+                |
+                                 |                      |
+                                 |Timer I fires         |
+                                 |-                     |
+                                 |                      |
+                                 V                      |
+                           +-----------+                |
+                           |           |                |
+                           | Terminated|<---------------+
+                           |           |
+                           +-----------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

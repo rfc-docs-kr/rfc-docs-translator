@@ -1,0 +1,18 @@
+"hash": |-
+  406affbdae5e740fb0a332fc8ad380be67d114cbdd4367f1fcbbe717cc9a5ac4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  TBSRequest      ::=     SEQUENCE {
+      version             [0] EXPLICIT Version DEFAULT v1,
+      requestorName       [1] EXPLICIT GeneralName OPTIONAL,
+      requestList             SEQUENCE OF Request,
+      requestExtensions   [2] EXPLICIT Extensions {{re-ocsp-nonce |
+                       re-ocsp-response, ...,
+                       re-ocsp-preferred-signature-algorithms}} OPTIONAL }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

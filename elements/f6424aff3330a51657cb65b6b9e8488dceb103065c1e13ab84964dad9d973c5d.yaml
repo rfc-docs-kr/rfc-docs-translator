@@ -1,0 +1,33 @@
+"hash": |-
+  f6424aff3330a51657cb65b6b9e8488dceb103065c1e13ab84964dad9d973c5d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                                   bob
+                                                 +----+
+                                                 | UA |
+                                                 |    |
+                                                 +----+
+                                                    |
+                                                    |3)INVITE
+                                                    |   carol@chicago.com
+           chicago.com        +--------+            V
+           +---------+ 2)Store|Location|4)Query +-----+
+           |Registrar|=======>| Service|<=======|Proxy|sip.chicago.com
+           +---------+        +--------+=======>+-----+
+                 A                      5)Resp      |
+                 |                                  |
+                 |                                  |
+       1)REGISTER|                                  |
+                 |                                  |
+              +----+                                |
+              | UA |<-------------------------------+
+     cube2214a|    |                            6)INVITE
+              +----+                    carol@cube2214a.chicago.com
+               carol
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

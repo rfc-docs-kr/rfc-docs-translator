@@ -1,0 +1,18 @@
+"hash": |-
+  9a7b49c34e0e27c66072ec4cbb3959ce7644642bac1ba41eda2f5c0e8c6781cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note that in the SIPS URI scheme, transport is independent of TLS,
+        and thus "sips:alice@atlanta.com;transport=tcp" and
+        "sips:alice@atlanta.com;transport=sctp" are both valid (although
+        note that UDP is not a valid transport for SIPS).  The use of
+        "transport=tls" has consequently been deprecated, partly because
+        it was specific to a single hop of the request.  This is a change
+        since RFC 2543.
+"fixed": |-
+  - Note that in the SIPS URI scheme, transport is independent of TLS, and thus "sips:alice@atlanta.com;transport=tcp" and "sips:alice@atlanta.com;transport=sctp" are both valid (although note that UDP is not a valid transport for SIPS).  The use of "transport=tls" has consequently been deprecated, partly because it was specific to a single hop of the request.  This is a change since RFC 2543.
+"ko": |-
+  - SIPS URI 체계에서 전송은 TLS와 독립적이므로 "sips:alice@atlanta.com;transport=tcp" 및 "sips:alice@atlanta.com;transport=sctp"는 모두 유효합니다(단, UDP는 SIPS에 대한 유효한 전송이 아닙니다. 결과적으로 "transport=tls" 사용은 요청의 단일 홉에만 국한되었기 때문에 더 이상 사용되지 않습니다. 이는 RFC 2543 이후 변경된 사항입니다.

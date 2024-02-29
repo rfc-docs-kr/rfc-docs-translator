@@ -1,0 +1,24 @@
+"hash": |-
+  00186531e8a743ca97499328b18f6707530894bae42af4054b13482f0c4e8097
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  #ifndef _SHA_enum_
+  #define _SHA_enum_
+  /*
+   *  All SHA functions return one of these values.
+   */
+  enum {
+      shaSuccess = 0,
+      shaNull,            /* Null pointer parameter */
+      shaInputTooLong,    /* input data too long */
+      shaStateError,      /* called Input after FinalBits or Result */
+      shaBadParam         /* passed a bad parameter */
+  };
+  #endif /* _SHA_enum_ */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

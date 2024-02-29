@@ -1,0 +1,17 @@
+"hash": |-
+  cfa8f409806677fe38fdb63b67b812a59f8acdb4c0bdc61b676224096ee231c8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     implementation.  TCP already includes a variety of packet validation
+     mechanisms to protect in these cases, e.g., checking that RSTs are
+     in-window.  More strict checks can increase the protections provided,
+     e.g., to protect against misaddressed RSTs that end up in-window (via
+     TCPsecure) or to protect against connection interruption due to RSTs,
+     SYNs, or data injection from misaddressed packets (TCP/MD5) [36].
+"fixed": |-
+  implementation.  TCP already includes a variety of packet validation mechanisms to protect in these cases, e.g., checking that RSTs are in-window.  More strict checks can increase the protections provided, e.g., to protect against misaddressed RSTs that end up in-window (via TCPsecure) or to protect against connection interruption due to RSTs, SYNs, or data injection from misaddressed packets (TCP/MD5) [36].
+"ko": |-
+  구현. TCP에는 이러한 경우를 보호하기 위한 다양한 패킷 검증 메커니즘(예: RST가 창 내에 있는지 확인)이 이미 포함되어 있습니다. 더 엄격한 검사를 통해 제공되는 보호 기능을 강화할 수 있습니다(예: 창 내에서 종료되는 잘못 주소가 지정된 RST로부터 보호(TCP보안을 통해) 또는 RST, SYN 또는 잘못 주소가 지정된 패킷(TCP/MD5)으로 인한 데이터 주입으로 인한 연결 중단으로부터 보호). 36].

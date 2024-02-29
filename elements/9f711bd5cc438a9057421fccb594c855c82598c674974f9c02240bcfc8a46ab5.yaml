@@ -1,0 +1,17 @@
+"hash": |-
+  9f711bd5cc438a9057421fccb594c855c82598c674974f9c02240bcfc8a46ab5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As is discussed above, encrypting entire SIP messages end-to-end for
+     the purpose of confidentiality is not appropriate because network
+     intermediaries (like proxy servers) need to view certain header
+     fields in order to route messages correctly, and if these
+     intermediaries are excluded from security associations, then SIP
+     messages will essentially be non-routable.
+"fixed": |-
+  As is discussed above, encrypting entire SIP messages end-to-end for the purpose of confidentiality is not appropriate because network intermediaries (like proxy servers) need to view certain header fields in order to route messages correctly, and if these intermediaries are excluded from security associations, then SIP messages will essentially be non-routable.
+"ko": |-
+  위에서 논의한 바와 같이, 기밀 유지를 위해 전체 SIP 메시지를 종단 간 암호화하는 것은 적절하지 않습니다. 왜냐하면 네트워크 중개자(예: 프록시 서버)는 메시지를 올바르게 라우팅하기 위해 특정 헤더 필드를 확인해야 하고 이러한 중개자가 대상에서 제외되는 경우이기 때문입니다. 보안 연관이 있는 경우 SIP 메시지는 기본적으로 라우팅할 수 없습니다.

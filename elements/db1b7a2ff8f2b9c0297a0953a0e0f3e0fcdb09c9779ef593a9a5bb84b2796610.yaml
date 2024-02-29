@@ -1,0 +1,18 @@
+"hash": |-
+  db1b7a2ff8f2b9c0297a0953a0e0f3e0fcdb09c9779ef593a9a5bb84b2796610
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (printPassFail && resultarray) {
+      int ret = checkmatch(Message_Digest, resultarray, hashsize);
+      if ((printPassFail == PRINTPASSFAIL) || !ret)
+        printf("%s %s %s: %s\n", hashname, testtype, testname,
+          ret ? "PASSED" : "FAILED");
+    }
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  fee5087d4cffc87ebd2b5a74aad7065e7a4c449f2fee0cc2aee1bdc7863dc6bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An intermediary can reject fields that contain invalid field names or
+     values for other reasons -- in particular, those fields that do not
+     conform to the HTTP ABNF grammar from Section 5 of [HTTP].
+     Intermediaries that do not perform any validation of fields other
+     than the minimum required by Section 8.2 could forward messages that
+     contain invalid field names or values.
+"fixed": |-
+  An intermediary can reject fields that contain invalid field names or values for other reasons -- in particular, those fields that do not conform to the HTTP ABNF grammar from Section 5 of [HTTP]. Intermediaries that do not perform any validation of fields other than the minimum required by Section 8.2 could forward messages that contain invalid field names or values.
+"ko": |-
+  중개자는 다른 이유로 잘못된 필드 이름이나 값이 포함된 필드, 특히 [HTTP] 섹션 5의 HTTP ABNF 문법을 따르지 않는 필드를 거부할 수 있습니다. 섹션 8.2에서 요구하는 최소값 이외의 필드 검증을 수행하지 않는 중개자는 잘못된 필드 이름이나 값이 포함된 메시지를 전달할 수 있습니다.

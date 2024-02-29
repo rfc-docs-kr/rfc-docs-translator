@@ -1,0 +1,17 @@
+"hash": |-
+  03471137037f56e23013f6beebc9481ec521cf037eaccd97261aa8f69810284d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The request method MUST NOT be included in the calculation of
+           the branch parameter.  In particular, CANCEL and ACK requests
+           (for non-2xx responses) MUST have the same branch value as the
+           corresponding request they cancel or acknowledge.  The branch
+           parameter is used in correlating those requests at the server
+           handling them (see Sections 17.2.3 and 9.2).
+"fixed": |-
+  - The request method MUST NOT be included in the calculation of the branch parameter.  In particular, CANCEL and ACK requests (for non-2xx responses) MUST have the same branch value as the corresponding request they cancel or acknowledge.  The branch parameter is used in correlating those requests at the server handling them (see Sections 17.2.3 and 9.2).
+"ko": |-
+  - 요청 방법은 분기 매개변수 계산에 포함되어서는 안 됩니다. 특히 CANCEL 및 ACK 요청(2xx가 아닌 응답의 경우)은 취소하거나 확인하는 해당 요청과 동일한 분기 값을 가져야 합니다. 분기 매개변수는 요청을 처리하는 서버에서 해당 요청을 연관시키는 데 사용됩니다(섹션 17.2.3 및 9.2 참조).

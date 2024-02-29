@@ -1,0 +1,18 @@
+"hash": |-
+  fa4fccc481aa53d19ec37f3da9d05cbc67fe029f72705bffc670aa1c954df3bc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    Tlen = 0;
+    where = 0;
+    for (i = 1; i <= N; i++) {
+      HMACContext context;
+      unsigned char c = i;
+      int ret = hmacReset(&context, whichSha, prk, prk_len) ||
+                hmacInput(&context, T, Tlen) ||
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

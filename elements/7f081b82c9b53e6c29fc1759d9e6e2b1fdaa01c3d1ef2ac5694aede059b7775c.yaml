@@ -1,0 +1,17 @@
+"hash": |-
+  7f081b82c9b53e6c29fc1759d9e6e2b1fdaa01c3d1ef2ac5694aede059b7775c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The use of precomputed responses allows replay attacks in which an
+     old (good) response is replayed prior to its expiration date but
+     after the certificate has been revoked.  Deployments of OCSP should
+     carefully evaluate the benefit of precomputed responses against the
+     probability of a replay attack and the costs associated with its
+     successful execution.
+"fixed": |-
+  The use of precomputed responses allows replay attacks in which an old (good) response is replayed prior to its expiration date but after the certificate has been revoked.  Deployments of OCSP should carefully evaluate the benefit of precomputed responses against the probability of a replay attack and the costs associated with its successful execution.
+"ko": |-
+  미리 계산된 응답을 사용하면 만료 날짜 이전이지만 인증서가 해지된 후에 오래된(양호한) 응답이 재생되는 재생 공격이 허용됩니다. OCSP 배포에서는 재생 공격 가능성과 성공적인 실행과 관련된 비용에 대해 사전 계산된 응답의 이점을 신중하게 평가해야 합니다.

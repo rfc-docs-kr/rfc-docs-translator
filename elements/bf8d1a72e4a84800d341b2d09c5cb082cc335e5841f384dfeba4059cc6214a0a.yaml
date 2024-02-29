@@ -1,0 +1,22 @@
+"hash": |-
+  bf8d1a72e4a84800d341b2d09c5cb082cc335e5841f384dfeba4059cc6214a0a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Location services are not required to provide a SIPS binding for a
+     SIPS Request-URI.  Although location services are commonly populated
+     by user registrations (as described in Section 10.2.1), various other
+     protocols and interfaces could conceivably supply contact addresses
+     for an AOR, and these tools are free to map SIPS URIs to SIP URIs as
+     appropriate.  When queried for bindings, a location service returns
+     its contact addresses without regard for whether it received a
+     request with a SIPS Request-URI.  If a redirect server is accessing
+     the location service, it is up to the entity that processes the
+     Contact header field of a redirection to determine the propriety of
+     the contact addresses.
+"fixed": |-
+  Location services are not required to provide a SIPS binding for a SIPS Request-URI.  Although location services are commonly populated by user registrations (as described in Section 10.2.1), various other protocols and interfaces could conceivably supply contact addresses for an AOR, and these tools are free to map SIPS URIs to SIP URIs as appropriate.  When queried for bindings, a location service returns its contact addresses without regard for whether it received a request with a SIPS Request-URI.  If a redirect server is accessing the location service, it is up to the entity that processes the Contact header field of a redirection to determine the propriety of the contact addresses.
+"ko": |-
+  SIPS 요청-URI에 대한 SIPS 바인딩을 제공하는 데 위치 서비스가 필요하지 않습니다. 위치 서비스는 일반적으로 사용자 등록(섹션 10.2.1에 설명된 대로)으로 채워지지만 다양한 다른 프로토콜과 인터페이스가 AOR에 대한 연락처 주소를 제공할 수 있으며 이러한 도구는 SIPS URI를 SIP URI에 적절하게 매핑할 수 있습니다. 바인딩을 쿼리하면 위치 서비스는 SIPS 요청-URI가 포함된 요청을 받았는지 여부에 관계없이 연락처 주소를 반환합니다. 리디렉션 서버가 위치 서비스에 액세스하는 경우 연락처 주소의 적합성을 결정하는 것은 리디렉션의 연락처 헤더 필드를 처리하는 엔터티에 달려 있습니다.

@@ -1,0 +1,13 @@
+"hash": |-
+  122df0e821494bf65d28a8f47a1a15888de236f5dc4c208917f3c542eaea2970
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  The endpoint can send a HEADERS frame.  This causes the stream
+           to open in a "half-closed (remote)" state.
+"fixed": |-
+  - *  The endpoint can send a HEADERS frame.  This causes the stream to open in a "half-closed (remote)" state.
+"ko": |-
+  - * 끝점은 HEADERS 프레임을 보낼 수 있습니다. 이로 인해 스트림이 "반쯤 닫힌(원격)" 상태로 열립니다.

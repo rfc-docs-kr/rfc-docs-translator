@@ -1,0 +1,18 @@
+"hash": |-
+  1bc61cdda68e9c5988d7e8006da477fc8948605e7a950c586faf0ae9ddb79aed
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (hashno = hashnolow; hashno <= hashnohigh; hashno++) {
+      memset(&usha, '\343', sizeof(usha)); /* force bad data */
+      USHAReset(&usha, hashno);
+      USHAResult(&usha, Message_Digest);
+      err = USHAInput(&usha, (const unsigned char *)"foo", 3);
+      if (printResults == PRINTTEXT)
+        printf ("\nError %d. Should be %d.\n", err, shaStateError);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

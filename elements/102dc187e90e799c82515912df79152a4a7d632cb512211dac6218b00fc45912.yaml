@@ -1,0 +1,15 @@
+"hash": |-
+  102dc187e90e799c82515912df79152a4a7d632cb512211dac6218b00fc45912
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (i = 0; i < SHA512HashSize/4; i++)
+      context->Intermediate_Hash[i] = H0[i];
+  #else /* !USE_32BIT_ONLY */
+    context->Length_High = context->Length_Low = 0;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

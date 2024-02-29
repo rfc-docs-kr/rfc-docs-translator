@@ -1,0 +1,20 @@
+"hash": |-
+  f9eaa682ad78067c3639f8be90d3742a77b23e27438f573c5371426d3a7e9c87
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This table demonstrates that the effect of bandwidth on the
+     vulnerability is squared; for every increase in bandwidth, there is a
+     linear decrease in the number of sequence number guesses needed, as
+     well as a linear decrease in the time needed to send a set of
+     guesses.  Notably, as inter-router link bandwidths approach 1 Mbps,
+     an 'exhaustive' attack becomes practical.  Checking that the RST
+     sequence number is somewhere in the advertised receive window, out of
+     the overall maximum receive window (2^32), is an insufficient
+     obfuscation.
+"fixed": |-
+  This table demonstrates that the effect of bandwidth on the vulnerability is squared; for every increase in bandwidth, there is a linear decrease in the number of sequence number guesses needed, as well as a linear decrease in the time needed to send a set of guesses.  Notably, as inter-router link bandwidths approach 1 Mbps, an 'exhaustive' attack becomes practical.  Checking that the RST sequence number is somewhere in the advertised receive window, out of the overall maximum receive window (2^32), is an insufficient obfuscation.
+"ko": |-
+  이 표는 취약점에 대한 대역폭의 영향이 제곱되었음을 보여줍니다. 대역폭이 증가할 때마다 필요한 시퀀스 번호 추측 수가 선형적으로 감소할 뿐만 아니라 일련의 추측을 전송하는 데 필요한 시간도 선형적으로 감소합니다. 특히, 라우터 간 링크 대역폭이 1Mbps에 가까워질수록 '철저한' 공격이 현실화됩니다. RST 시퀀스 번호가 전체 최대 수신 창(2^32)을 벗어나 알려진 수신 창 어딘가에 있는지 확인하는 것은 불충분한 난독화입니다.

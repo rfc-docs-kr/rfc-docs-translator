@@ -1,0 +1,23 @@
+"hash": |-
+  42b88b20e2c990ce2e700a4c1540508fc704c5a459a6fe837bf8428a6449326f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A more recent variant of address filtering checks the IP TTL (Time to
+     Live) field, relying on the TTL set by the other end of the
+     connection [15].  This technique has been used to provide filtering
+     for BGP.  It assumes the connection source TTL is set to 255; packets
+     at the receiver are checked for TTL=255, and others are dropped.
+     This restricts traffic to one hop upstream of the receiver (i.e., a
+     BGP router), but those hops could include other user programs at
+     those nodes (e.g., the BGP router's peer) or any traffic those nodes
+     accept via tunnels -- because tunnels need not decrement TTLs,
+     notably for "bump in the wire" (BITW) or BITW-equivalent scenarios
+     [33] (see also Section 5.1 of [15] and [16]).  TTL filtering works
+     only where all traffic from the other end of the tunnel is trusted,
+"fixed": |-
+  A more recent variant of address filtering checks the IP TTL (Time to Live) field, relying on the TTL set by the other end of the connection [15].  This technique has been used to provide filtering for BGP.  It assumes the connection source TTL is set to 255; packets at the receiver are checked for TTL=255, and others are dropped. This restricts traffic to one hop upstream of the receiver (i.e., a BGP router), but those hops could include other user programs at those nodes (e.g., the BGP router's peer) or any traffic those nodes accept via tunnels -- because tunnels need not decrement TTLs, notably for "bump in the wire" (BITW) or BITW-equivalent scenarios [33] (see also Section 5.1 of [15] and [16]).  TTL filtering works only where all traffic from the other end of the tunnel is trusted,
+"ko": |-
+  주소 필터링의 최신 변형은 연결의 다른 쪽 끝에서 설정된 TTL에 의존하여 IP TTL(Time to Live) 필드를 확인합니다[15]. 이 기술은 BGP에 대한 필터링을 제공하는 데 사용되었습니다. 연결 소스 TTL이 255로 설정되어 있다고 가정합니다. 수신기의 패킷은 TTL=255인지 확인하고 다른 패킷은 삭제됩니다. 이는 트래픽을 수신기의 한 홉 업스트림(예: BGP 라우터)으로 제한하지만 해당 홉에는 해당 노드의 다른 사용자 프로그램(예: BGP 라우터의 피어) 또는 해당 노드가 터널을 통해 허용하는 모든 트래픽이 포함될 수 있습니다. 특히 "Bump in the Wire"(BITW) 또는 BITW와 동등한 시나리오 [33]의 경우 TTL을 감소시키지 않습니다([15] 및 [16]의 섹션 5.1 참조). TTL 필터링은 터널 반대쪽 끝의 모든 트래픽을 신뢰할 수 있는 경우에만 작동합니다.

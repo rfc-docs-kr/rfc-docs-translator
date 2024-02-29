@@ -1,0 +1,20 @@
+"hash": |-
+  ef33603477dc06fa682d953cea949c044b61dc06a8aad5508e70c9a61af4150c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Finally, note that even if a UAC can locate credentials that are
+     associated with the proper realm, the potential exists that these
+     credentials may no longer be valid or that the challenging server
+     will not accept these credentials for whatever reason (especially
+     when "anonymous" with no password is submitted).  In this instance a
+     server may repeat its challenge, or it may respond with a 403
+     Forbidden.  A UAC MUST NOT re-attempt requests with the credentials
+     that have just been rejected (though the request may be retried if
+     the nonce was stale).
+"fixed": |-
+  Finally, note that even if a UAC can locate credentials that are associated with the proper realm, the potential exists that these credentials may no longer be valid or that the challenging server will not accept these credentials for whatever reason (especially when "anonymous" with no password is submitted).  In this instance a server may repeat its challenge, or it may respond with a 403 Forbidden.  A UAC MUST NOT re-attempt requests with the credentials that have just been rejected (though the request may be retried if the nonce was stale).
+"ko": |-
+  마지막으로, UAC가 적절한 영역과 연결된 자격 증명을 찾을 수 있더라도 이러한 자격 증명이 더 이상 유효하지 않거나 문제의 서버가 어떤 이유로든(특히 "익명"인 경우) 이러한 자격 증명을 수락하지 않을 가능성이 존재합니다. 비밀번호가 제출되지 않았습니다). 이 경우 서버는 챌린지를 반복하거나 403 Forbidden으로 응답할 수 있습니다. UAC는 방금 거부된 자격 증명으로 요청을 다시 시도해서는 안 됩니다(단, nonce가 오래된 경우 요청을 다시 시도할 수 있음).

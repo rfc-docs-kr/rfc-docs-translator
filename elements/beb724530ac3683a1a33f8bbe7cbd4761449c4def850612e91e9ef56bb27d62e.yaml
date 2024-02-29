@@ -1,0 +1,21 @@
+"hash": |-
+  beb724530ac3683a1a33f8bbe7cbd4761449c4def850612e91e9ef56bb27d62e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Primarily, a user agent will want to encrypt header fields that have
+     an end-to-end semantic, including: Subject, Reply-To, Organization,
+     Accept, Accept-Encoding, Accept-Language, Alert-Info, Error-Info,
+     Authentication-Info, Expires, In-Reply-To, Require, Supported,
+     Unsupported, Retry-After, User-Agent, Server, and Warning.  If any of
+     these header fields are present in an encrypted body, they should be
+     used instead of any "outer" header fields, whether this entails
+     displaying the header field values to users or setting internal
+     states in the UA.  They SHOULD NOT however be used in the "outer"
+     headers of any future messages.
+"fixed": |-
+  Primarily, a user agent will want to encrypt header fields that have an end-to-end semantic, including: Subject, Reply-To, Organization, Accept, Accept-Encoding, Accept-Language, Alert-Info, Error-Info, Authentication-Info, Expires, In-Reply-To, Require, Supported, Unsupported, Retry-After, User-Agent, Server, and Warning.  If any of these header fields are present in an encrypted body, they should be used instead of any "outer" header fields, whether this entails displaying the header field values to users or setting internal states in the UA.  They SHOULD NOT however be used in the "outer" headers of any future messages.
+"ko": |-
+  기본적으로 사용자 에이전트는 제목, 회신, 조직, 수락, 수락 인코딩, 수락 언어, 경고 정보, 오류 정보, 인증을 포함하여 엔드 투 엔드 의미 체계를 갖는 헤더 필드를 암호화하려고 합니다. -정보, 만료, 응답 시, 필요, 지원됨, 지원되지 않음, 재시도 후, 사용자 에이전트, 서버 및 경고. 암호화된 본문에 이러한 헤더 필드가 있는 경우 헤더 필드 값을 사용자에게 표시하거나 UA에서 내부 상태를 설정하는 것과 관계없이 "외부" 헤더 필드 대신 사용해야 합니다. 그러나 향후 메시지의 "외부" 헤더에는 사용하면 안 됩니다.

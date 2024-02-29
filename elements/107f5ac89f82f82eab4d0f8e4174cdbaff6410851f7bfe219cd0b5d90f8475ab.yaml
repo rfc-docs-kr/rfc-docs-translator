@@ -1,0 +1,20 @@
+"hash": |-
+  107f5ac89f82f82eab4d0f8e4174cdbaff6410851f7bfe219cd0b5d90f8475ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Promised requests MUST be safe (see Section 9.2.1 of [HTTP]) and
+     cacheable (see Section 9.2.3 of [HTTP]).  Promised requests cannot
+     include any content or a trailer section.  Clients that receive a
+     promised request that is not cacheable, that is not known to be safe,
+     or that indicates the presence of request content MUST reset the
+     promised stream with a stream error (Section 5.4.2) of type
+     PROTOCOL_ERROR.  Note that this could result in the promised stream
+     being reset if the client does not recognize a newly defined method
+     as being safe.
+"fixed": |-
+  Promised requests MUST be safe (see Section 9.2.1 of [HTTP]) and cacheable (see Section 9.2.3 of [HTTP]).  Promised requests cannot include any content or a trailer section.  Clients that receive a promised request that is not cacheable, that is not known to be safe, or that indicates the presence of request content MUST reset the promised stream with a stream error (Section 5.4.2) of type PROTOCOL_ERROR.  Note that this could result in the promised stream being reset if the client does not recognize a newly defined method as being safe.
+"ko": |-
+  약속된 요청은 안전해야 하며([HTTP]의 섹션 9.2.1 참조) 캐시 가능해야 합니다([HTTP]의 섹션 9.2.3 참조). 약속된 요청에는 콘텐츠나 예고편 섹션이 포함될 수 없습니다. 캐시할 수 없거나 안전한 것으로 알려지지 않았거나 요청 콘텐츠가 있음을 나타내는 약속된 요청을 수신하는 클라이언트는 PROTOCOL_ERROR 유형의 스트림 오류(섹션 5.4.2)로 약속된 스트림을 재설정해야 합니다. 클라이언트가 새로 정의된 메서드를 안전한 것으로 인식하지 못하는 경우 약속된 스트림이 재설정될 수 있습니다.

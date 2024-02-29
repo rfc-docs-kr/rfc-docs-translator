@@ -1,0 +1,18 @@
+"hash": |-
+  35896cebbf78c8f0a2a0d1b61cc66f16c06f7bbad6cdc2922461b8f5d7155d2e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Added full support for IPv6 in URIs and in the Via header field.
+        Support for IPv6 in Via has required that its header field
+        parameters allow the square bracket and colon characters.  These
+        characters were previously not permitted.  In theory, this could
+        cause interop problems with older implementations.  However, we
+        have observed that most implementations accept any non-control
+        ASCII character in these parameters.
+"fixed": |-
+  -  Added full support for IPv6 in URIs and in the Via header field. Support for IPv6 in Via has required that its header field parameters allow the square bracket and colon characters.  These characters were previously not permitted.  In theory, this could cause interop problems with older implementations.  However, we have observed that most implementations accept any non-control ASCII character in these parameters.
+"ko": |-
+  - URI 및 Via 헤더 필드에 IPv6에 대한 전체 지원이 추가되었습니다. Via에서 IPv6을 지원하려면 헤더 필드 매개변수에서 대괄호와 콜론 문자를 허용해야 합니다. 이전에는 이러한 문자가 허용되지 않았습니다. 이론적으로 이는 이전 구현에서 상호 운용성 문제를 일으킬 수 있습니다. 그러나 우리는 대부분의 구현이 이러한 매개변수에 비제어 ASCII 문자를 허용한다는 것을 관찰했습니다.

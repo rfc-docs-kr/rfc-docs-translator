@@ -1,0 +1,16 @@
+"hash": |-
+  89d6ce81d6d65cad757317c17cd3162cf210e82907d8f872e4f7f675404122e8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        1. Prepare the message schedule W:
+           For t = 0 to 15
+              Wt = M(i)t
+           For t = 16 to 79
+              Wt = SSIG1(W(t-2)) + W(t-7) + SSIG0(W(t-15)) + W(t-16)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

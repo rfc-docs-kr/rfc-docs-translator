@@ -1,0 +1,22 @@
+"hash": |-
+  834d3107a9b115fd65437696c5b2eced5d9432d410fb2bde6c62a364b41d4623
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           For each address, the registrar then searches the list of
+           current bindings using the URI comparison rules.  If the
+           binding does not exist, it is tentatively added.  If the
+           binding does exist, the registrar checks the Call-ID value.  If
+           the Call-ID value in the existing binding differs from the
+           Call-ID value in the request, the binding MUST be removed if
+           the expiration time is zero and updated otherwise.  If they are
+           the same, the registrar compares the CSeq value.  If the value
+           is higher than that of the existing binding, it MUST update or
+           remove the binding as above.  If not, the update MUST be
+           aborted and the request fails.
+"fixed": |-
+  - For each address, the registrar then searches the list of current bindings using the URI comparison rules.  If the binding does not exist, it is tentatively added.  If the binding does exist, the registrar checks the Call-ID value.  If the Call-ID value in the existing binding differs from the Call-ID value in the request, the binding MUST be removed if the expiration time is zero and updated otherwise.  If they are the same, the registrar compares the CSeq value.  If the value is higher than that of the existing binding, it MUST update or remove the binding as above.  If not, the update MUST be aborted and the request fails.
+"ko": |-
+  - 각 주소에 대해 등록자는 URI 비교 규칙을 사용하여 현재 바인딩 목록을 검색합니다. 바인딩이 존재하지 않으면 임시로 추가됩니다. 바인딩이 존재하는 경우 등록자는 Call-ID 값을 확인합니다. 기존 바인딩의 Call-ID 값이 요청의 Call-ID 값과 다른 경우 만료 시간이 0이면 바인딩을 제거하고 그렇지 않으면 업데이트해야 합니다. 동일한 경우 등록자는 CSeq 값을 비교합니다. 값이 기존 바인딩보다 높은 경우 위와 같이 바인딩을 업데이트하거나 제거해야 합니다. 그렇지 않은 경우 업데이트를 중단해야 하며 요청이 실패합니다.

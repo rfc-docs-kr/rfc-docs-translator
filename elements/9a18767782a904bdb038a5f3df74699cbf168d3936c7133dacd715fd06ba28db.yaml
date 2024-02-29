@@ -1,0 +1,15 @@
+"hash": |-
+  9a18767782a904bdb038a5f3df74699cbf168d3936c7133dacd715fd06ba28db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This attack can gain useful information about an ECDH private key
+     that is associated with a static public key, i.e., a public key that
+     is used in more than one run of the protocol.  However, it does not
+     gain any useful information against ephemeral keys.
+"fixed": |-
+  This attack can gain useful information about an ECDH private key that is associated with a static public key, i.e., a public key that is used in more than one run of the protocol.  However, it does not gain any useful information against ephemeral keys.
+"ko": |-
+  이 공격은 정적 공개 키(예: 둘 이상의 프로토콜 실행에서 사용되는 공개 키)와 연결된 ECDH 개인 키에 대한 유용한 정보를 얻을 수 있습니다. 그러나 임시 키에 대해서는 유용한 정보를 얻지 못합니다.

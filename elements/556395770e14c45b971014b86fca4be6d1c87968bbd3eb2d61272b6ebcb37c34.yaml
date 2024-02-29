@@ -1,0 +1,22 @@
+"hash": |-
+  556395770e14c45b971014b86fca4be6d1c87968bbd3eb2d61272b6ebcb37c34
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        In this example, host A is not directly connected to the
+        translator, but instead to a link managed by a router R.  The
+        router R is configured to forward to A the packets bound to 2001:
+        db8:122:344:c0:2:2100::.  To receive these packets, R will
+        advertise reachability of the prefix 2001:db8:122:344:c0:2:2100::/
+        104 in the intra-domain routing protocol -- or perhaps a shorter
+        prefix if many hosts on link have IPv4-translatable IPv6 addresses
+        derived from the same IPv4 subnet.  If a packet bound to
+        192.0.2.33 reaches the translator, the destination address will be
+        translated to 2001:db8:122:344:c0:2:2100::, and the packet will be
+        routed towards R and then to A.
+"fixed": |-
+  - In this example, host A is not directly connected to the translator, but instead to a link managed by a router R.  The router R is configured to forward to A the packets bound to 2001: db8:122:344:c0:2:2100::.  To receive these packets, R will advertise reachability of the prefix 2001:db8:122:344:c0:2:2100::/ 104 in the intra-domain routing protocol -- or perhaps a shorter prefix if many hosts on link have IPv4-translatable IPv6 addresses derived from the same IPv4 subnet.  If a packet bound to 192.0.2.33 reaches the translator, the destination address will be translated to 2001:db8:122:344:c0:2:2100::, and the packet will be routed towards R and then to A.
+"ko": |-
+  - 이 예에서 호스트 A는 변환기에 직접 연결되지 않고 대신 라우터 R에 의해 관리되는 링크에 연결됩니다. 라우터 R은 2001: db8:122:344:c0:2에 바인딩된 패킷을 A에 전달하도록 구성됩니다. :2100::. 이러한 패킷을 수신하기 위해 R은 도메인 내 라우팅 프로토콜에서 접두사 2001:db8:122:344:c0:2:2100::/ 104의 연결 가능성을 광고합니다. 또는 링크의 많은 호스트에 IPv4가 있는 경우 더 짧은 접두사일 수도 있습니다. -동일한 IPv4 서브넷에서 파생된 변환 가능한 IPv6 주소. 192.0.2.33에 바인딩된 패킷이 변환기에 도달하면 대상 주소는 2001:db8:122:344:c0:2:2100::으로 변환되고 패킷은 R을 거쳐 A로 라우팅됩니다.

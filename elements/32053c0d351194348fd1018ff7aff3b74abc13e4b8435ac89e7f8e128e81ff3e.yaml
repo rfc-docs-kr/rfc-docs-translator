@@ -1,0 +1,19 @@
+"hash": |-
+  32053c0d351194348fd1018ff7aff3b74abc13e4b8435ac89e7f8e128e81ff3e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since PUSH_PROMISE reserves a stream, ignoring a PUSH_PROMISE frame
+     causes the stream state to become indeterminate.  A receiver MUST
+     treat the receipt of a PUSH_PROMISE on a stream that is neither
+     "open" nor "half-closed (local)" as a connection error
+     (Section 5.4.1) of type PROTOCOL_ERROR.  However, an endpoint that
+     has sent RST_STREAM on the associated stream MUST handle PUSH_PROMISE
+     frames that might have been created before the RST_STREAM frame is
+     received and processed.
+"fixed": |-
+  Since PUSH_PROMISE reserves a stream, ignoring a PUSH_PROMISE frame causes the stream state to become indeterminate.  A receiver MUST treat the receipt of a PUSH_PROMISE on a stream that is neither "open" nor "half-closed (local)" as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.  However, an endpoint that has sent RST_STREAM on the associated stream MUST handle PUSH_PROMISE frames that might have been created before the RST_STREAM frame is received and processed.
+"ko": |-
+  PUSH_PROMISE는 스트림을 예약하므로 PUSH_PROMISE 프레임을 무시하면 스트림 상태가 불확실해집니다. 수신자는 "개방" 또는 "반 폐쇄(로컬)"가 아닌 스트림에서 PUSH_PROMISE 수신을 PROTOCOL_ERROR 유형의 연결 오류(5.4.1절)로 처리해야 합니다. 그러나 관련 스트림에서 RST_STREAM을 보낸 엔드포인트는 RST_STREAM 프레임이 수신되고 처리되기 전에 생성되었을 수 있는 PUSH_PROMISE 프레임을 처리해야 합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  88747b48688c30e29244438116ef3325c5e2b76174ac37e6242e56b8688fbfb0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           A stateful proxy MUST send a final response to a response
+           context's server transaction if no final responses have been
+           immediately forwarded by the above rules and all client
+           transactions in this response context have been terminated.
+"fixed": |-
+  - A stateful proxy MUST send a final response to a response context's server transaction if no final responses have been immediately forwarded by the above rules and all client transactions in this response context have been terminated.
+"ko": |-
+  - 위의 규칙에 따라 최종 응답이 즉시 전달되지 않고 이 응답 컨텍스트의 모든 클라이언트 트랜잭션이 종료된 경우 상태 저장 프록시는 응답 컨텍스트의 서버 트랜잭션에 최종 응답을 보내야 합니다.

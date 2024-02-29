@@ -1,0 +1,22 @@
+"hash": |-
+  da203dcd32e28b7b033bc07ac7f678dd8ce70d949a88a07f923119674d782ef3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (t = 16; t < 80; t++)
+      W[t] = SHA512_sigma1(W[t-2]) + W[t-7] +
+          SHA512_sigma0(W[t-15]) + W[t-16];
+    A = context->Intermediate_Hash[0];
+    B = context->Intermediate_Hash[1];
+    C = context->Intermediate_Hash[2];
+    D = context->Intermediate_Hash[3];
+    E = context->Intermediate_Hash[4];
+    F = context->Intermediate_Hash[5];
+    G = context->Intermediate_Hash[6];
+    H = context->Intermediate_Hash[7];
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

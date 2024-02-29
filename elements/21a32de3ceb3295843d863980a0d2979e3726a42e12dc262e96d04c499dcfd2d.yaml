@@ -1,0 +1,19 @@
+"hash": |-
+  21a32de3ceb3295843d863980a0d2979e3726a42e12dc262e96d04c499dcfd2d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA rotate   ((word >> bits) | (word << (64-bits)))
+   */
+  static uint32_t ROTR_temp1[2], ROTR_temp2[2];
+  #define SHA512_ROTR(bits, word, ret) (                         \
+      SHA512_SHR((bits), (word), ROTR_temp1),                    \
+      SHA512_SHL(64-(bits), (word), ROTR_temp2),                 \
+      SHA512_OR(ROTR_temp1, ROTR_temp2, (ret)) )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

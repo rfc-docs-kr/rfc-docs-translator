@@ -1,0 +1,22 @@
+"hash": |-
+  121a2db6ad3737b84ae87252520ef1c1d44ae96907217b4ce8eeeebbb3d8f53b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     However, the Request-URI identifies the UAS that is to process the
+     request.  If the Request-URI uses a scheme not supported by the UAS,
+     it SHOULD reject the request with a 416 (Unsupported URI Scheme)
+     response.  If the Request-URI does not identify an address that the
+     UAS is willing to accept requests for, it SHOULD reject the request
+     with a 404 (Not Found) response.  Typically, a UA that uses the
+     REGISTER method to bind its address-of-record to a specific contact
+     address will see requests whose Request-URI equals that contact
+     address.  Other potential sources of received Request-URIs include
+     the Contact header fields of requests and responses sent by the UA
+     that establish or refresh dialogs.
+"fixed": |-
+  However, the Request-URI identifies the UAS that is to process the request.  If the Request-URI uses a scheme not supported by the UAS, it SHOULD reject the request with a 416 (Unsupported URI Scheme) response.  If the Request-URI does not identify an address that the UAS is willing to accept requests for, it SHOULD reject the request with a 404 (Not Found) response.  Typically, a UA that uses the REGISTER method to bind its address-of-record to a specific contact address will see requests whose Request-URI equals that contact address.  Other potential sources of received Request-URIs include the Contact header fields of requests and responses sent by the UA that establish or refresh dialogs.
+"ko": |-
+  그러나 요청-URI는 요청을 처리할 UAS를 식별합니다. Request-URI가 UAS에서 지원하지 않는 체계를 사용하는 경우 416(지원되지 않는 URI 체계) 응답으로 요청을 거부해야 합니다. 요청-URI가 UAS가 요청을 수락하려는 주소를 식별하지 못하는 경우 404(찾을 수 없음) 응답으로 요청을 거부해야 합니다. 일반적으로 REGISTER 메서드를 사용하여 레코드 주소를 특정 연락처 주소에 바인딩하는 UA는 요청 URI가 해당 연락처 주소와 동일한 요청을 보게 됩니다. 수신된 요청-URI의 다른 잠재적 소스에는 대화 상자를 설정하거나 새로 고치는 UA가 전송한 요청 및 응답의 연락처 헤더 필드가 포함됩니다.

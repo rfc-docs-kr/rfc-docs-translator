@@ -1,0 +1,17 @@
+"hash": |-
+  7be9e4fc520f761f3c8324ed0ab7a58e857a5a7a46ce44e5b23187b1c88cbf50
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the sender of a SETTINGS frame does not receive an acknowledgment
+     within a reasonable amount of time, it MAY issue a connection error
+     (Section 5.4.1) of type SETTINGS_TIMEOUT.  In setting a timeout, some
+     allowance needs to be made for processing delays at the peer; a
+     timeout that is solely based on the round-trip time between endpoints
+     might result in spurious errors.
+"fixed": |-
+  If the sender of a SETTINGS frame does not receive an acknowledgment within a reasonable amount of time, it MAY issue a connection error (Section 5.4.1) of type SETTINGS_TIMEOUT.  In setting a timeout, some allowance needs to be made for processing delays at the peer; a timeout that is solely based on the round-trip time between endpoints might result in spurious errors.
+"ko": |-
+  SETTINGS 프레임의 발신자가 합리적인 시간 내에 승인을 받지 못한 경우 SETTINGS_TIMEOUT 유형의 연결 오류(섹션 5.4.1)가 발생할 수 있습니다. 시간 제한을 설정할 때 피어에서의 처리 지연을 어느 정도 허용해야 합니다. 엔드포인트 간의 왕복 시간만을 기준으로 하는 시간 초과로 인해 허위 오류가 발생할 수 있습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  dfabca93fc40f339f4f902f79d77969e82e7c66e1a658732b2e6961d760fbe88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The initial value of SETTINGS_ENABLE_PUSH is 1.  For a client,
+        this value indicates that it is willing to receive PUSH_PROMISE
+        frames.  For a server, this initial value has no effect, and is
+        equivalent to the value 0.  Any value other than 0 or 1 MUST be
+        treated as a connection error (Section 5.4.1) of type
+        PROTOCOL_ERROR.
+"fixed": |-
+  - The initial value of SETTINGS_ENABLE_PUSH is 1.  For a client, this value indicates that it is willing to receive PUSH_PROMISE frames.  For a server, this initial value has no effect, and is equivalent to the value 0.  Any value other than 0 or 1 MUST be treated as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  - SETTINGS_ENABLE_PUSH의 초기 값은 1입니다. 클라이언트의 경우 이 값은 PUSH_PROMISE 프레임을 수신할 의향이 있음을 나타냅니다. 서버의 경우 이 초기 값은 아무런 영향을 미치지 않으며 값 0과 동일합니다. 0 또는 1 이외의 모든 값은 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

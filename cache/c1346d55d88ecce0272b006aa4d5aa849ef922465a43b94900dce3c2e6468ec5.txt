@@ -1,0 +1,1 @@
+기존 AAA 서버 구현에서는 전송된 키 자료와 함께 키 이름을 배포하지 않습니다. 그러나 Diameter EAP [RFC4072] 섹션 4.1.4에서는 EAP Session-Id 전송을 목적으로 EAP-Key-Name AVP를 정의합니다. EAP-Key-Name AVP는 RADIUS 속성 공간 내에 정의되므로 RADIUS 또는 Diameter와 함께 사용할 수 있습니다.

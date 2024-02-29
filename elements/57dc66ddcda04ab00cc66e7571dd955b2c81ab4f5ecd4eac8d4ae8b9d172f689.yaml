@@ -1,0 +1,14 @@
+"hash": |-
+  57dc66ddcda04ab00cc66e7571dd955b2c81ab4f5ecd4eac8d4ae8b9d172f689
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once a client receives a PUSH_PROMISE frame and chooses to accept the
+     pushed response, the client SHOULD NOT issue any requests for the
+     promised response until after the promised stream has closed.
+"fixed": |-
+  Once a client receives a PUSH_PROMISE frame and chooses to accept the pushed response, the client SHOULD NOT issue any requests for the promised response until after the promised stream has closed.
+"ko": |-
+  클라이언트가 PUSH_PROMISE 프레임을 수신하고 푸시된 응답을 수락하기로 선택하면 클라이언트는 약속된 스트림이 닫힐 때까지 약속된 응답에 대한 요청을 발행해서는 안 됩니다.

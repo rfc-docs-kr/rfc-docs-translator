@@ -1,0 +1,12 @@
+"hash": |-
+  9814f3019e41a75a0d6d97103e6fbf5359bd27104f69583c7b2dfd2ec72279e3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        3.   If emLen < hLen + sLen + 2, output "inconsistent" and stop.
+"fixed": |-
+  1.   If emLen < hLen + sLen + 2, output "inconsistent" and stop.
+"ko": |-
+  1. emLen < hLen + sLen + 2이면 "inconsilient"를 출력하고 중지합니다.

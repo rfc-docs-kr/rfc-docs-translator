@@ -1,0 +1,23 @@
+"hash": |-
+  3968ec9613ad3d4ee5490f16a9b4bc4bd44c55b9cfe740d216e8a6b3f01b9fcf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  This structure will hold context information for the SHA-512
+   *  hashing operation.
+   */
+  typedef struct SHA512Context {
+  #ifdef USE_32BIT_ONLY
+      uint32_t Intermediate_Hash[SHA512HashSize/4]; /* Message Digest  */
+      uint32_t Length[4];                 /* Message length in bits */
+  #else /* !USE_32BIT_ONLY */
+      uint64_t Intermediate_Hash[SHA512HashSize/8]; /* Message Digest */
+      uint64_t Length_High, Length_Low;   /* Message length in bits */
+  #endif /* USE_32BIT_ONLY */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  a90995bdb63a604945bc57d024737ee01eb88dc9bc4f10cb66e6a0a7b56b68bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Stateless proxies MUST NOT perform special processing for CANCEL
+     requests.  They are processed by the above rules as any other
+     requests.  In particular, a stateless proxy applies the same Route
+     header field processing to CANCEL requests that it applies to any
+     other request.
+"fixed": |-
+  Stateless proxies MUST NOT perform special processing for CANCEL requests.  They are processed by the above rules as any other requests.  In particular, a stateless proxy applies the same Route header field processing to CANCEL requests that it applies to any other request.
+"ko": |-
+  상태 비저장 프록시는 CANCEL 요청에 대해 특수 처리를 수행해서는 안 됩니다. 이는 다른 요청과 마찬가지로 위의 규칙에 따라 처리됩니다. 특히, 상태 비저장 프록시는 다른 요청에 적용하는 것과 동일한 경로 헤더 필드 처리를 CANCEL 요청에 적용합니다.

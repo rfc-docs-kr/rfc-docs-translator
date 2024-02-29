@@ -1,0 +1,17 @@
+"hash": |-
+  981f91a6aa444eb4f97bba22fd21dc5d1a5c2a36f5c327207ae0aa226b719de4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For example, if the client sends 60 KB immediately on connection
+     establishment and the server sets the initial window size to be 16
+     KB, the client will recalculate the available flow-control window to
+     be -44 KB on receipt of the SETTINGS frame.  The client retains a
+     negative flow-control window until WINDOW_UPDATE frames restore the
+     window to being positive, after which the client can resume sending.
+"fixed": |-
+  For example, if the client sends 60 KB immediately on connection establishment and the server sets the initial window size to be 16 KB, the client will recalculate the available flow-control window to be -44 KB on receipt of the SETTINGS frame.  The client retains a negative flow-control window until WINDOW_UPDATE frames restore the window to being positive, after which the client can resume sending.
+"ko": |-
+  예를 들어 클라이언트가 연결 설정 시 즉시 60KB를 보내고 서버가 초기 창 크기를 16KB로 설정한 경우 클라이언트는 SETTINGS 프레임 수신 시 사용 가능한 흐름 제어 창을 -44KB로 다시 계산합니다. 클라이언트는 WINDOW_UPDATE 프레임이 창을 양수로 복원할 때까지 음수 흐름 제어 창을 유지합니다. 그 후에 클라이언트는 전송을 재개할 수 있습니다.

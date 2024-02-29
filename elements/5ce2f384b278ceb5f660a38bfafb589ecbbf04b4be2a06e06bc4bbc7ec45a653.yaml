@@ -1,0 +1,36 @@
+"hash": |-
+  5ce2f384b278ceb5f660a38bfafb589ecbbf04b4be2a06e06bc4bbc7ec45a653
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+   *          The length of the pseudo-random key in prk;
+   *          should at least be equal to USHAHashSize(whichSHA).
+   *      info[ ]: [in]
+   *          The optional context and application specific information.
+   *          If info == NULL or a zero-length string, it is ignored.
+   *      info_len: [in]
+   *          The length of the optional context and application specific
+   *          information.  (Ignored if info == NULL.)
+   *      okm[ ]: [out]
+   *          Where the HKDF is to be stored.
+   *      okm_len: [in]
+   *          The length of the buffer to hold okm.
+   *          okm_len must be <= 255 * USHABlockSize(whichSha)
+   *
+   *  Returns:
+   *      sha Error Code.
+   *
+   */
+  int hkdfExpand(SHAversion whichSha, const uint8_t prk[ ], int prk_len,
+      const unsigned char *info, int info_len,
+      uint8_t okm[ ], int okm_len)
+  {
+    int hash_len, N;
+    unsigned char T[USHAMaxHashSize];
+    int Tlen, where, i;
+"fixed": |-
+  *          The length of the pseudo-random key in prk; *          should at least be equal to USHAHashSize(whichSHA). *      info[ ]: [in] *          The optional context and application specific information. *          If info == NULL or a zero-length string, it is ignored. *      info_len: [in] *          The length of the optional context and application specific *          information.  (Ignored if info == NULL.) *      okm[ ]: [out] *          Where the HKDF is to be stored. *      okm_len: [in] *          The length of the buffer to hold okm. *          okm_len must be <= 255 * USHABlockSize(whichSha) * *  Returns: *      sha Error Code. * */ int hkdfExpand(SHAversion whichSha, const uint8_t prk[ ], int prk_len, const unsigned char *info, int info_len, uint8_t okm[ ], int okm_len) { int hash_len, N; unsigned char T[USHAMaxHashSize]; int Tlen, where, i;
+"ko": |-
+  * prk의 의사 난수 키 길이; *는 최소한 USHAHashSize(whichSHA)와 같아야 합니다. * info[ ]: [in] * 선택적 컨텍스트 및 애플리케이션 관련 정보입니다. * info == NULL이거나 길이가 0인 문자열인 경우 무시됩니다. * info_len: [in] * 선택적 컨텍스트 및 애플리케이션별 정보의 길이입니다. (info == NULL이면 무시됩니다.) * okm[ ]: [out] * HKDF가 저장될 위치입니다. * okm_len: [in] * okm을 저장할 버퍼의 길이입니다. * okm_len은 <= 255여야 합니다. * USHABlockSize(whichSha) * * 반환: * sha 오류 코드. * */ int hkdfExpand(SHAversion whichSha, const uint8_t prk[ ], int prk_len, const unsigned char *info, int info_len, uint8_t okm[ ], int okm_len) { int hash_len, N; 서명되지 않은 문자 T[USHAMaxHashSize]; int Tlen, 여기서, i;

@@ -1,0 +1,16 @@
+"hash": |-
+  a058c209b6a92f25e08d1f714d337239aa486669a5df12114e61769226e626de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To address this vulnerability, EAP methods creating persistent state
+     can limit the persistent state created by an EAP peer.  For example,
+     for each peer an EAP server can choose to limit persistent state to a
+     few EAP conversations, distinguished by the EAP Session-Id.  This
+     prevents a rogue peer from denying access to other peers.
+"fixed": |-
+  To address this vulnerability, EAP methods creating persistent state can limit the persistent state created by an EAP peer.  For example, for each peer an EAP server can choose to limit persistent state to a few EAP conversations, distinguished by the EAP Session-Id.  This prevents a rogue peer from denying access to other peers.
+"ko": |-
+  이 취약점을 해결하기 위해 지속 상태를 생성하는 EAP 방법은 EAP 피어가 생성하는 지속 상태를 제한할 수 있습니다. 예를 들어, 각 피어에 대해 EAP 서버는 지속 상태를 EAP Session-Id로 구별되는 몇 가지 EAP 대화로 제한하도록 선택할 수 있습니다. 이는 불량 피어가 다른 피어에 대한 액세스를 거부하는 것을 방지합니다.

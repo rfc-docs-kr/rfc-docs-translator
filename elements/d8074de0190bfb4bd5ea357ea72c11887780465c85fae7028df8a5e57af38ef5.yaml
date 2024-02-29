@@ -1,0 +1,16 @@
+"hash": |-
+  d8074de0190bfb4bd5ea357ea72c11887780465c85fae7028df8a5e57af38ef5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver MUST treat the receipt of a PUSH_PROMISE that promises an
+     illegal stream identifier (Section 5.1.1) as a connection error
+     (Section 5.4.1) of type PROTOCOL_ERROR.  Note that an illegal stream
+     identifier is an identifier for a stream that is not currently in the
+     "idle" state.
+"fixed": |-
+  A receiver MUST treat the receipt of a PUSH_PROMISE that promises an illegal stream identifier (Section 5.1.1) as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.  Note that an illegal stream identifier is an identifier for a stream that is not currently in the "idle" state.
+"ko": |-
+  수신자는 불법 스트림 식별자(섹션 5.1.1)를 약속하는 PUSH_PROMISE의 수신을 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리해야 합니다. 불법 스트림 식별자는 현재 "유휴" 상태가 아닌 스트림에 대한 식별자입니다.

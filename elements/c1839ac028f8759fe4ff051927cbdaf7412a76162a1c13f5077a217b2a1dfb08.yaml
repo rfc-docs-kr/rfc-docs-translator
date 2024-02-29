@@ -1,0 +1,17 @@
+"hash": |-
+  c1839ac028f8759fe4ff051927cbdaf7412a76162a1c13f5077a217b2a1dfb08
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Define 64-bit AND
+   */
+  #define SHA512_AND(word1, word2, ret) (                        \
+      (ret)[0] = (word1)[0] & (word2)[0],                        \
+      (ret)[1] = (word1)[1] & (word2)[1] )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

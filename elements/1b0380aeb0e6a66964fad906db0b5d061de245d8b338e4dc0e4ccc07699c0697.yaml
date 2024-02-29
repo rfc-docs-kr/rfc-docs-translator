@@ -1,0 +1,18 @@
+"hash": |-
+  1b0380aeb0e6a66964fad906db0b5d061de245d8b338e4dc0e4ccc07699c0697
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     transaction.  Requests from the server transaction are passed to a
+     proxy core.  The proxy core determines where to route the request,
+     choosing one or more next-hop locations.  An outgoing request for
+     each next-hop location is processed by its own associated client
+     transaction.  The proxy core collects the responses from the client
+     transactions and uses them to send responses to the server
+     transaction.
+"fixed": |-
+  transaction.  Requests from the server transaction are passed to a proxy core.  The proxy core determines where to route the request, choosing one or more next-hop locations.  An outgoing request for each next-hop location is processed by its own associated client transaction.  The proxy core collects the responses from the client transactions and uses them to send responses to the server transaction.
+"ko": |-
+  거래. 서버 트랜잭션의 요청은 프록시 코어로 전달됩니다. 프록시 코어는 하나 이상의 다음 홉 위치를 선택하여 요청을 라우팅할 위치를 결정합니다. 각 다음 홉 위치에 대한 나가는 요청은 자체 관련 클라이언트 트랜잭션에 의해 처리됩니다. 프록시 코어는 클라이언트 트랜잭션으로부터 응답을 수집하고 이를 사용하여 서버 트랜잭션에 응답을 보냅니다.

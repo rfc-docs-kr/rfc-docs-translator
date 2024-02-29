@@ -1,0 +1,19 @@
+"hash": |-
+  992abe1209236b9cb2a97adc726b00469eabcd0b3963dc1c7845083a040f7d8b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Print the string, converting all characters to hex "## ".
+   */
+  void printxstr(const char *str, int len)
+  {
+    char *sep = "";
+    for ( ; len-- > 0; str++) {
+      printf("%s%c%c", sep, hexdigits[(*str >> 4) & 0xF],
+"fixed": |-
+  /* * Print the string, converting all characters to hex "## ". */ void printxstr(const char *str, int len) { char *sep = ""; for ( ; len-- > 0; str++) { printf("%s%c%c", sep, hexdigits[(*str >> 4) & 0xF],
+"ko": |-
+  /* * 모든 문자를 16진수 "## "로 변환하여 문자열을 인쇄합니다. */ void printxstr(const char *str, int len) { char *sep = ""; for ( ; len-- > 0; str++) { printf("%s%c%c", sep, hexdigits[(*str >> 4) & 0xF],

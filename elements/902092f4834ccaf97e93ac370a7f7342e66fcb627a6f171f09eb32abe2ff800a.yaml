@@ -1,0 +1,25 @@
+"hash": |-
+  902092f4834ccaf97e93ac370a7f7342e66fcb627a6f171f09eb32abe2ff800a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Using such a protected exchange, it is possible to match the channel
+     properties provided by the authenticator via out-of-band mechanisms
+     against those exchanged within the EAP method.  Typically, the EAP
+     method imports channel binding parameters from the lower layer on the
+     peer, and transmits them securely to the EAP server, which exports
+     them to the lower layer or AAA layer.  However, transport can occur
+     from EAP server to peer, or can be bi-directional.  On the side of
+     the exchange (peer or server) where channel binding is verified, the
+     lower layer or AAA layer passes the result of the verification (TRUE
+     or FALSE) up to the EAP method.  While the verification can be done
+     either by the peer or the server, typically only the server has the
+     knowledge to determine the correctness of the values, as opposed to
+     merely verifying their equality.  For further discussion, see
+     [EAP-SERVICE].
+"fixed": |-
+  Using such a protected exchange, it is possible to match the channel properties provided by the authenticator via out-of-band mechanisms against those exchanged within the EAP method.  Typically, the EAP method imports channel binding parameters from the lower layer on the peer, and transmits them securely to the EAP server, which exports them to the lower layer or AAA layer.  However, transport can occur from EAP server to peer, or can be bi-directional.  On the side of the exchange (peer or server) where channel binding is verified, the lower layer or AAA layer passes the result of the verification (TRUE or FALSE) up to the EAP method.  While the verification can be done either by the peer or the server, typically only the server has the knowledge to determine the correctness of the values, as opposed to merely verifying their equality.  For further discussion, see [EAP-SERVICE].
+"ko": |-
+  이러한 보호된 교환을 사용하면 대역 외 메커니즘을 통해 인증자가 제공한 채널 속성을 EAP 방법 내에서 교환된 채널 속성과 일치시키는 것이 가능합니다. 일반적으로 EAP 방법은 피어의 하위 계층에서 채널 바인딩 매개변수를 가져와 EAP 서버로 안전하게 전송하고, EAP 서버는 이를 하위 계층 또는 AAA 계층으로 내보냅니다. 그러나 전송은 EAP 서버에서 피어로 발생할 수도 있고 양방향으로 이루어질 수도 있습니다. 채널 바인딩이 검증된 교환기(피어 또는 서버) 측에서는 하위 계층 또는 AAA 계층이 검증 결과(TRUE 또는 FALSE)를 EAP 방식으로 전달합니다. 확인은 피어나 서버에 의해 수행될 수 있지만 일반적으로 값의 동일성을 단순히 확인하는 것이 아니라 서버만이 값의 정확성을 결정할 수 있는 지식을 가지고 있습니다. 자세한 내용은 [EAP-SERVICE]를 참조하세요.

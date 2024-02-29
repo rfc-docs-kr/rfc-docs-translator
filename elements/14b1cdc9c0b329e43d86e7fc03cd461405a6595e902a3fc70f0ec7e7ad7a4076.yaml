@@ -1,0 +1,17 @@
+"hash": |-
+  14b1cdc9c0b329e43d86e7fc03cd461405a6595e902a3fc70f0ec7e7ad7a4076
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The identifier of a newly established stream MUST be numerically
+     greater than all streams that the initiating endpoint has opened or
+     reserved.  This governs streams that are opened using a HEADERS frame
+     and streams that are reserved using PUSH_PROMISE.  An endpoint that
+     receives an unexpected stream identifier MUST respond with a
+     connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  The identifier of a newly established stream MUST be numerically greater than all streams that the initiating endpoint has opened or reserved.  This governs streams that are opened using a HEADERS frame and streams that are reserved using PUSH_PROMISE.  An endpoint that receives an unexpected stream identifier MUST respond with a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  새로 설정된 스트림의 식별자는 시작 엔드포인트가 열거나 예약한 모든 스트림보다 수치적으로 커야 합니다. 이는 HEADERS 프레임을 사용하여 열린 스트림과 PUSH_PROMISE를 사용하여 예약된 스트림을 제어합니다. 예상치 못한 스트림 식별자를 수신한 엔드포인트는 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 응답해야 합니다.

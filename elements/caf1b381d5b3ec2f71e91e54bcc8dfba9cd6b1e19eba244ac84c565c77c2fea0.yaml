@@ -1,0 +1,17 @@
+"hash": |-
+  caf1b381d5b3ec2f71e91e54bcc8dfba9cd6b1e19eba244ac84c565c77c2fea0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An OCSP client MAY wish to specify the kinds of response types it
+     understands.  To do so, it SHOULD use an extension with the OID
+     id-pkix-ocsp-response and the value AcceptableResponses.  This
+     extension is included as one of the requestExtensions in requests.
+     The OIDs included in AcceptableResponses are the OIDs of the various
+     response types this client can accept (e.g., id-pkix-ocsp-basic).
+"fixed": |-
+  An OCSP client MAY wish to specify the kinds of response types it understands.  To do so, it SHOULD use an extension with the OID id-pkix-ocsp-response and the value AcceptableResponses.  This extension is included as one of the requestExtensions in requests. The OIDs included in AcceptableResponses are the OIDs of the various response types this client can accept (e.g., id-pkix-ocsp-basic).
+"ko": |-
+  OCSP 클라이언트는 자신이 이해하는 응답 유형의 종류를 지정하기를 원할 수도 있습니다. 그렇게 하려면 OID id-pkix-ocsp-response와 AcceptableResponses 값을 가진 확장을 사용해야 합니다. 이 확장은 요청의 requestExtensions 중 하나로 포함됩니다. AcceptableResponses에 포함된 OID는 이 클라이언트가 허용할 수 있는 다양한 응답 유형의 OID입니다(예: id-pkix-ocsp-basic).

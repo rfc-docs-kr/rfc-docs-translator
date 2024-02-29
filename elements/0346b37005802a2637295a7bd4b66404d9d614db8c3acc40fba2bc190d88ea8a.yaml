@@ -1,0 +1,24 @@
+"hash": |-
+  0346b37005802a2637295a7bd4b66404d9d614db8c3acc40fba2bc190d88ea8a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  This structure will hold context information for the HKDF
+   *  extract-and-expand Key Derivation Functions.
+   */
+  typedef struct HKDFContext {
+      int whichSha;               /* which SHA is being used */
+      HMACContext hmacContext;
+      int hashSize;               /* hash size of SHA being used */
+      unsigned char prk[USHAMaxHashSize];
+                          /* pseudo-random key - output of hkdfInput */
+      int Computed;               /* Is the key material computed? */
+      int Corrupted;              /* Cumulative corruption code */
+  } HKDFContext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

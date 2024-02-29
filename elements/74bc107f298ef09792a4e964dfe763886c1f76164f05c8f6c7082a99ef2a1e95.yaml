@@ -1,0 +1,19 @@
+"hash": |-
+  74bc107f298ef09792a4e964dfe763886c1f76164f05c8f6c7082a99ef2a1e95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Require header field is used by a UAC to tell a UAS about SIP
+     extensions that the UAC expects the UAS to support in order to
+     process the request properly.  Its format is described in Section
+     20.32.  If a UAS does not understand an option-tag listed in a
+     Require header field, it MUST respond by generating a response with
+     status code 420 (Bad Extension).  The UAS MUST add an Unsupported
+     header field, and list in it those options it does not understand
+     amongst those in the Require header field of the request.
+"fixed": |-
+  The Require header field is used by a UAC to tell a UAS about SIP extensions that the UAC expects the UAS to support in order to process the request properly.  Its format is described in Section 20.32.  If a UAS does not understand an option-tag listed in a Require header field, it MUST respond by generating a response with status code 420 (Bad Extension).  The UAS MUST add an Unsupported header field, and list in it those options it does not understand amongst those in the Require header field of the request.
+"ko": |-
+  Require 헤더 필드는 UAC가 요청을 올바르게 처리하기 위해 UAS가 지원할 것으로 예상하는 SIP 확장에 대해 UAS에 알리는 데 사용됩니다. 그 형식은 섹션 20.32에 설명되어 있습니다. UAS가 Require 헤더 필드에 나열된 옵션 태그를 이해하지 못하는 경우 상태 코드 420(잘못된 확장)으로 응답을 생성하여 응답해야 합니다. UAS는 지원되지 않는 헤더 필드를 추가해야 하며 요청의 Require 헤더 필드에 있는 옵션 중에서 이해하지 못하는 옵션을 나열해야 합니다.

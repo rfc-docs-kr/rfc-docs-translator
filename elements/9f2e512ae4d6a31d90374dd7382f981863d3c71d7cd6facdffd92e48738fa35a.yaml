@@ -1,0 +1,15 @@
+"hash": |-
+  9f2e512ae4d6a31d90374dd7382f981863d3c71d7cd6facdffd92e48738fa35a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     HTTP/2 servers MUST NOT send post-handshake TLS 1.3
+     CertificateRequest messages.  HTTP/2 clients MUST treat a TLS post-
+     handshake CertificateRequest message as a connection error
+     (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  HTTP/2 servers MUST NOT send post-handshake TLS 1.3 CertificateRequest messages.  HTTP/2 clients MUST treat a TLS post- handshake CertificateRequest message as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  HTTP/2 서버는 핸드셰이크 후 TLS 1.3 CertificateRequest 메시지를 보내면 안 됩니다. HTTP/2 클라이언트는 TLS 핸드셰이크 후 CertificateRequest 메시지를 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리해야 합니다.

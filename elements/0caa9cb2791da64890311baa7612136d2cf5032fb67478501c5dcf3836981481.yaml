@@ -1,0 +1,19 @@
+"hash": |-
+  0caa9cb2791da64890311baa7612136d2cf5032fb67478501c5dcf3836981481
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     AH authenticates both the IP header and IP data, whereas ESP
+     authenticates only the IP data (e.g., transport header and payload).
+     AH is being phased out since ESP is more efficient and the Security
+     Parameters Index (SPI) includes sufficient information to verify the
+     IP header anyway [27].  These two modes describe the security applied
+     to individual packets within the IPsec system; key exchange and
+     management is performed either out-of-band (via pre-shared keys) or
+     by an automated key exchange protocol, e.g., IKE [24].
+"fixed": |-
+  AH authenticates both the IP header and IP data, whereas ESP authenticates only the IP data (e.g., transport header and payload). AH is being phased out since ESP is more efficient and the Security Parameters Index (SPI) includes sufficient information to verify the IP header anyway [27].  These two modes describe the security applied to individual packets within the IPsec system; key exchange and management is performed either out-of-band (via pre-shared keys) or by an automated key exchange protocol, e.g., IKE [24].
+"ko": |-
+  AH는 IP 헤더와 IP 데이터를 모두 인증하는 반면 ESP는 IP 데이터(예: 전송 헤더 및 페이로드)만 인증합니다. ESP가 더 효율적이고 SPI(보안 매개변수 색인)에 IP 헤더를 확인하는 데 충분한 정보가 포함되어 있기 때문에 AH는 단계적으로 폐지되고 있습니다[27]. 이 두 가지 모드는 IPsec 시스템 내의 개별 패킷에 적용되는 보안을 설명합니다. 키 교환 및 관리는 대역 외(사전 공유 키를 통해) 또는 자동화된 키 교환 프로토콜(예: IKE[24])을 통해 수행됩니다.

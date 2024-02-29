@@ -1,0 +1,17 @@
+"hash": |-
+  5f31445a6c53d72032255d2ff00ed9a2c594e5ca8ad4d97215e11b5f6c954374
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The dynamic table has a maximum size that is set by an HPACK decoder.
+     An endpoint communicates the size chosen by its HPACK decoder context
+     using the SETTINGS_HEADER_TABLE_SIZE setting; see Section 6.5.2.
+     When a connection is established, the dynamic table size for the
+     HPACK decoder and encoder at both endpoints starts at 4,096 bytes,
+     the initial value of the SETTINGS_HEADER_TABLE_SIZE setting.
+"fixed": |-
+  The dynamic table has a maximum size that is set by an HPACK decoder. An endpoint communicates the size chosen by its HPACK decoder context using the SETTINGS_HEADER_TABLE_SIZE setting; see Section 6.5.2. When a connection is established, the dynamic table size for the HPACK decoder and encoder at both endpoints starts at 4,096 bytes, the initial value of the SETTINGS_HEADER_TABLE_SIZE setting.
+"ko": |-
+  동적 테이블에는 HPACK 디코더에 의해 설정되는 최대 크기가 있습니다. 엔드포인트는 SETTINGS_HEADER_TABLE_SIZE 설정을 사용하여 HPACK 디코더 컨텍스트에서 선택한 크기를 전달합니다. 섹션 6.5.2를 참조하세요. 연결이 설정되면 두 끝점의 HPACK 디코더 및 인코더에 대한 동적 테이블 크기는 SETTINGS_HEADER_TABLE_SIZE 설정의 초기 값인 4,096바이트에서 시작됩니다.

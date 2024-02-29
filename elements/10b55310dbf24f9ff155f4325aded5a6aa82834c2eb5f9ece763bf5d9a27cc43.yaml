@@ -1,0 +1,15 @@
+"hash": |-
+  10b55310dbf24f9ff155f4325aded5a6aa82834c2eb5f9ece763bf5d9a27cc43
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server SHOULD send PUSH_PROMISE (Section 6.6) frames prior to
+     sending any frames that reference the promised responses.  This
+     avoids a race where clients issue requests prior to receiving any
+     PUSH_PROMISE frames.
+"fixed": |-
+  The server SHOULD send PUSH_PROMISE (Section 6.6) frames prior to sending any frames that reference the promised responses.  This avoids a race where clients issue requests prior to receiving any PUSH_PROMISE frames.
+"ko": |-
+  서버는 약속된 응답을 참조하는 프레임을 보내기 전에 PUSH_PROMISE(6.6절) 프레임을 보내야 합니다. 이렇게 하면 클라이언트가 PUSH_PROMISE 프레임을 수신하기 전에 요청을 보내는 경합을 방지할 수 있습니다.

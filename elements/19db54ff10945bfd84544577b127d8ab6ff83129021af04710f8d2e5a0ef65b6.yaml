@@ -1,0 +1,19 @@
+"hash": |-
+  19db54ff10945bfd84544577b127d8ab6ff83129021af04710f8d2e5a0ef65b6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Warning        =  "Warning" HCOLON warning-value *(COMMA warning-value)
+  warning-value  =  warn-code SP warn-agent SP warn-text
+  warn-code      =  3DIGIT
+  warn-agent     =  hostport / pseudonym
+                    ;  the name or pseudonym of the server adding
+                    ;  the Warning header, for use in debugging
+  warn-text      =  quoted-string
+  pseudonym      =  token
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

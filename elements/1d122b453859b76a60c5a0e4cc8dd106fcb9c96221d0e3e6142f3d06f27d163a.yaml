@@ -1,0 +1,29 @@
+"hash": |-
+  1d122b453859b76a60c5a0e4cc8dd106fcb9c96221d0e3e6142f3d06f27d163a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+      } else {
+        printf("\nError: bad hex character '%c'\n", *hexstr);
+      }
+      if (!*++hexstr) break;
+      if (isalpha((int)(unsigned char)(*hexstr))) {
+        nibble2 = tolower((int)(unsigned char)(*hexstr)) - 'a' + 10;
+      } else if (isdigit((int)(unsigned char)(*hexstr))) {
+        nibble2 = *hexstr - '0';
+      } else {
+        printf("\nError: bad hex character '%c'\n", *hexstr);
+      }
+      *o++ = (char)((nibble1 << 4) | nibble2);
+      len++;
+    }
+    return len;
+  }
+"fixed": |-
+  } else {  -  printf("\nError: bad hex character '%c'\n", *hexstr); } if (!*++hexstr) break; if (isalpha((int)(unsigned char)(*hexstr))) { nibble2 = tolower((int)(unsigned char)(*hexstr)) - 'a' + 10; } else if (isdigit((int)(unsigned char)(*hexstr))) { nibble2 = *hexstr - '0'; } else { printf("\nError: bad hex character '%c'\n", *hexstr); } *o++ = (char)((nibble1 << 4) | nibble2); len++; } return len;
+  }
+"ko": |-
+  } else { - printf("\n오류: 잘못된 16진수 문자 '%c'\n", *hexstr); } if (!*++hexstr) break; if (isalpha((int)(unsigned char)(*hexstr))) { nibble2 = tolower((int)(unsigned char)(*hexstr)) - 'a' + 10; } else if (isdigit((int)(unsigned char)(*hexstr))) { nibble2 = *hexstr - '0'; } else { printf("\n오류: 잘못된 16진수 문자 '%c'\n", *hexstr); } *o++ = (char)((nibble1 << 4) | nibble2); 렌++; } len을 반환;
+  }

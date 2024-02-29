@@ -1,0 +1,25 @@
+"hash": |-
+  d4c74eb03cb858638442fdf27b2ec20b68e13b9eb5d4e2e479bcad004d80f34a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Loop detection is performed by verifying that, when a request
+           returns to a proxy, those fields having an impact on the
+           processing of the request have not changed.  The value placed
+           in this part of the branch parameter SHOULD reflect all of
+           those fields (including any Route, Proxy-Require and Proxy-
+           Authorization header fields).  This is to ensure that if the
+           request is routed back to the proxy and one of those fields
+           changes, it is treated as a spiral and not a loop (see Section
+           16.3).  A common way to create this value is to compute a
+           cryptographic hash of the To tag, From tag, Call-ID header
+           field, the Request-URI of the request received (before
+           translation), the topmost Via header, and the sequence number
+           from the CSeq header field, in addition to any Proxy-Require
+           and Proxy-Authorization header fields that may be present.  The
+"fixed": |-
+  - Loop detection is performed by verifying that, when a request returns to a proxy, those fields having an impact on the processing of the request have not changed.  The value placed in this part of the branch parameter SHOULD reflect all of those fields (including any Route, Proxy-Require and Proxy- Authorization header fields).  This is to ensure that if the request is routed back to the proxy and one of those fields changes, it is treated as a spiral and not a loop (see Section 16.3).  A common way to create this value is to compute a cryptographic hash of the To tag, From tag, Call-ID header field, the Request-URI of the request received (before translation), the topmost Via header, and the sequence number from the CSeq header field, in addition to any Proxy-Require and Proxy-Authorization header fields that may be present.  The
+"ko": |-
+  - 루프 감지는 요청이 프록시로 반환될 때 요청 처리에 영향을 미치는 필드가 변경되지 않았는지 확인하여 수행됩니다. 분기 매개변수의 이 부분에 있는 값은 모든 해당 필드(Route, Proxy-Require 및 Proxy-Authorization 헤더 필드 포함)를 반영해야 합니다. 이는 요청이 프록시로 다시 라우팅되고 해당 필드 중 하나가 변경되면 루프가 아닌 나선형으로 처리되도록 하기 위한 것입니다(섹션 16.3 참조). 이 값을 생성하는 일반적인 방법은 To 태그, From 태그, Call-ID 헤더 필드, 수신된 요청의 Request-URI(번역 전), 최상위 Via 헤더 및 시퀀스 번호의 암호화 해시를 계산하는 것입니다. 존재할 수 있는 모든 Proxy-Require 및 Proxy-Authorization 헤더 필드 외에 CSeq 헤더 필드. 그만큼

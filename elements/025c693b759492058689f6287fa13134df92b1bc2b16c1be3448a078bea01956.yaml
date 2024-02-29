@@ -1,0 +1,26 @@
+"hash": |-
+  025c693b759492058689f6287fa13134df92b1bc2b16c1be3448a078bea01956
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A network layer solution avoids the hazards of multiple transport
+     variants, using a single shared endpoint authentication mechanism
+     early in receiver packet processing to discard unauthenticated
+     packets at the network layer instead.  This defeats spoofing entirely
+     because spoofing involves masquerading as another endpoint, and
+     network layer security validates the endpoint as the source of the
+     packets it emits.  Such a network level solution protects all
+     transport protocols as a result, including both legacy and emerging
+     protocols, and reduces the complexity of these protocols as well.  A
+     shared solution also reduces protocol overhead, and decouples the
+     management (and refreshing) of authentication state from that of
+     individual transport connections.  Finally, a network layer solution
+     protects not only the transport layer but the network layer as well,
+     e.g., from IGMP, and some kinds of ICMP (Section 4), spoofing
+     attacks.
+"fixed": |-
+  A network layer solution avoids the hazards of multiple transport variants, using a single shared endpoint authentication mechanism early in receiver packet processing to discard unauthenticated packets at the network layer instead.  This defeats spoofing entirely because spoofing involves masquerading as another endpoint, and network layer security validates the endpoint as the source of the packets it emits.  Such a network level solution protects all transport protocols as a result, including both legacy and emerging protocols, and reduces the complexity of these protocols as well.  A shared solution also reduces protocol overhead, and decouples the management (and refreshing) of authentication state from that of individual transport connections.  Finally, a network layer solution protects not only the transport layer but the network layer as well, e.g., from IGMP, and some kinds of ICMP (Section 4), spoofing attacks.
+"ko": |-
+  네트워크 계층 솔루션은 수신기 패킷 처리 초기에 단일 공유 엔드포인트 인증 메커니즘을 사용하여 네트워크 계층에서 인증되지 않은 패킷을 삭제함으로써 여러 전송 변형의 위험을 방지합니다. 스푸핑에는 다른 엔드포인트로 가장하는 작업이 포함되고, 네트워크 계층 보안은 엔드포인트가 방출하는 패킷의 소스로 엔드포인트를 검증하기 때문에 스푸핑을 완전히 무력화합니다. 이러한 네트워크 수준 솔루션은 결과적으로 레거시 프로토콜과 신흥 프로토콜을 모두 포함하여 모든 전송 프로토콜을 보호하고 이러한 프로토콜의 복잡성도 줄여줍니다. 또한 공유 솔루션은 프로토콜 오버헤드를 줄이고 인증 상태 관리(및 새로 고침)를 개별 전송 연결의 상태와 분리합니다. 마지막으로, 네트워크 계층 솔루션은 전송 계층뿐만 아니라 네트워크 계층도 IGMP 및 일부 ICMP(섹션 4) 스푸핑 공격으로부터 보호합니다.

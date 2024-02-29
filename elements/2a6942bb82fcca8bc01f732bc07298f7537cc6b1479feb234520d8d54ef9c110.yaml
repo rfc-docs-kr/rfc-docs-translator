@@ -1,0 +1,23 @@
+"hash": |-
+  2a6942bb82fcca8bc01f732bc07298f7537cc6b1479feb234520d8d54ef9c110
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Also, many ISPs use default routes for various purposes such as
+     collecting illegitimate traffic at so-called "Honey Pot" systems or
+     discarding any traffic they do not have a "real" route to, and
+     smaller ISPs may well purchase transit capabilities and use a default
+     route from a larger provider.  At least some implementations of Loose
+     RPF check where the default route points to.  If the route points to
+     the interface where Loose RPF is enabled, any packet is allowed from
+     that interface; if it points nowhere or to some other interface, the
+     packets with bogus source addresses will be discarded at the Loose
+     RPF interface even in the presence of a default route.  If such
+     fine-grained checking is not implemented, presence of a default route
+     nullifies the effect of Loose RPF completely.
+"fixed": |-
+  Also, many ISPs use default routes for various purposes such as collecting illegitimate traffic at so-called "Honey Pot" systems or discarding any traffic they do not have a "real" route to, and smaller ISPs may well purchase transit capabilities and use a default route from a larger provider.  At least some implementations of Loose RPF check where the default route points to.  If the route points to the interface where Loose RPF is enabled, any packet is allowed from that interface; if it points nowhere or to some other interface, the packets with bogus source addresses will be discarded at the Loose RPF interface even in the presence of a default route.  If such fine-grained checking is not implemented, presence of a default route nullifies the effect of Loose RPF completely.
+"ko": |-
+  또한 많은 ISP는 소위 "허니팟(Honey Pot)" 시스템에서 불법 트래픽을 수집하거나 "실제" 경로가 없는 트래픽을 삭제하는 등 다양한 목적으로 기본 경로를 사용하며, 소규모 ISP는 전송 기능을 구입하여 더 큰 공급자의 기본 경로. Loose RPF의 적어도 일부 구현은 기본 경로가 가리키는 위치를 확인합니다. 경로가 Loose RPF가 활성화된 인터페이스를 가리키는 경우 해당 인터페이스에서 모든 패킷이 허용됩니다. 아무 곳이나 다른 인터페이스를 가리키지 않으면 가짜 소스 주소가 있는 패킷은 기본 경로가 있는 경우에도 Loose RPF 인터페이스에서 삭제됩니다. 이러한 세부적인 검사가 구현되지 않은 경우 기본 경로가 있으면 Loose RPF의 효과가 완전히 무효화됩니다.

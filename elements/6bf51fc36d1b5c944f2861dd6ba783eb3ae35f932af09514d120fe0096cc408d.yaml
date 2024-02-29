@@ -1,0 +1,19 @@
+"hash": |-
+  6bf51fc36d1b5c944f2861dd6ba783eb3ae35f932af09514d120fe0096cc408d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The mechanism to support client indication of preferred signature
+     algorithms is not protected against a man-in-the-middle downgrade
+     attack.  This constraint is not considered to be a significant
+     security concern, since the OCSP responder MUST NOT sign OCSP
+     responses using weak algorithms even if requested by the client.  In
+     addition, the client can reject OCSP responses that do not meet its
+     own criteria for acceptable cryptographic security no matter what
+     mechanism is used to determine the signing algorithm of the response.
+"fixed": |-
+  The mechanism to support client indication of preferred signature algorithms is not protected against a man-in-the-middle downgrade attack.  This constraint is not considered to be a significant security concern, since the OCSP responder MUST NOT sign OCSP responses using weak algorithms even if requested by the client.  In addition, the client can reject OCSP responses that do not meet its own criteria for acceptable cryptographic security no matter what mechanism is used to determine the signing algorithm of the response.
+"ko": |-
+  선호하는 서명 알고리즘의 클라이언트 표시를 지원하는 메커니즘은 중간자 다운그레이드 공격으로부터 보호되지 않습니다. OCSP 응답자는 클라이언트가 요청한 경우에도 약한 알고리즘을 사용하여 OCSP 응답에 서명하면 안 되기 때문에 이 제약 조건은 중요한 보안 문제로 간주되지 않습니다. 또한 클라이언트는 응답의 서명 알고리즘을 결정하는 데 사용되는 메커니즘에 관계없이 허용 가능한 암호화 보안에 대한 자체 기준을 충족하지 않는 OCSP 응답을 거부할 수 있습니다.

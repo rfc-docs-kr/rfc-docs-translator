@@ -1,0 +1,24 @@
+"hash": |-
+  052079ba9637ae37d89be8e46671b0388c750b1a9e335400d2da045d963253c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a UA comes online and registers with its local administrative
+     domain, it SHOULD establish a TLS connection with its registrar
+     (Section 10 describes how the UA reaches its registrar).  The
+     registrar SHOULD offer a certificate to the UA, and the site
+     identified by the certificate MUST correspond with the domain in
+     which the UA intends to register; for example, if the UA intends to
+     register the address-of-record 'alice@atlanta.com', the site
+     certificate must identify a host within the atlanta.com domain (such
+     as sip.atlanta.com).  When it receives the TLS Certificate message,
+     the UA SHOULD verify the certificate and inspect the site identified
+     by the certificate.  If the certificate is invalid, revoked, or if it
+     does not identify the appropriate party, the UA MUST NOT send the
+     REGISTER message and otherwise proceed with the registration.
+"fixed": |-
+  When a UA comes online and registers with its local administrative domain, it SHOULD establish a TLS connection with its registrar (Section 10 describes how the UA reaches its registrar).  The registrar SHOULD offer a certificate to the UA, and the site identified by the certificate MUST correspond with the domain in which the UA intends to register; for example, if the UA intends to register the address-of-record 'alice@atlanta.com', the site certificate must identify a host within the atlanta.com domain (such as sip.atlanta.com).  When it receives the TLS Certificate message, the UA SHOULD verify the certificate and inspect the site identified by the certificate.  If the certificate is invalid, revoked, or if it does not identify the appropriate party, the UA MUST NOT send the REGISTER message and otherwise proceed with the registration.
+"ko": |-
+  UA가 온라인 상태가 되어 로컬 관리 도메인에 등록할 때 등록자와 TLS 연결을 설정해야 합니다(섹션 10에서는 UA가 등록자에 도달하는 방법을 설명합니다). 등록 기관은 UA에 인증서를 제공해야 하며, 인증서로 식별된 사이트는 UA가 등록하려는 도메인과 일치해야 합니다. 예를 들어, UA가 기록 주소 'alice@atlanta.com'을 등록하려는 경우 사이트 인증서는 atlanta.com 도메인 내의 호스트(예: sip.atlanta.com)를 식별해야 합니다. TLS 인증서 메시지를 수신하면 UA는 인증서를 확인하고 인증서로 식별된 사이트를 검사해야 합니다. 인증서가 유효하지 않거나 취소되거나 적절한 당사자를 식별하지 못하는 경우 UA는 REGISTER 메시지를 전송해서는 안 되며 그렇지 않으면 등록을 진행해야 합니다.

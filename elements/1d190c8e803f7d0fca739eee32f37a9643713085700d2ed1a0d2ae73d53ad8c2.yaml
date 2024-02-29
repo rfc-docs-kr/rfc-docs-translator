@@ -1,0 +1,22 @@
+"hash": |-
+  1d190c8e803f7d0fca739eee32f37a9643713085700d2ed1a0d2ae73d53ad8c2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A consistency test generates inputs for one algorithm being tested
+     using a second algorithm that is also being tested, then checks the
+     output of the first algorithm.  A signature creation algorithm can be
+     tested for consistency against a signature verification algorithm.
+     Implementations of KT-I should be tested in this way.  Their
+     signature generation processes are non-deterministic, and thus cannot
+     be tested using a KAT.  Signature verification algorithms, on the
+     other hand, are deterministic and should be tested via a KAT.  This
+     combination of tests provides coverage for all of the operations,
+     including keypair generation.  Consistency testing should also be
+     applied to ECDH.
+"fixed": |-
+  A consistency test generates inputs for one algorithm being tested using a second algorithm that is also being tested, then checks the output of the first algorithm.  A signature creation algorithm can be tested for consistency against a signature verification algorithm. Implementations of KT-I should be tested in this way.  Their signature generation processes are non-deterministic, and thus cannot be tested using a KAT.  Signature verification algorithms, on the other hand, are deterministic and should be tested via a KAT.  This combination of tests provides coverage for all of the operations, including keypair generation.  Consistency testing should also be applied to ECDH.
+"ko": |-
+  일관성 테스트는 테스트 중인 두 번째 알고리즘을 사용하여 테스트 중인 하나의 알고리즘에 대한 입력을 생성한 다음 첫 번째 알고리즘의 출력을 확인합니다. 서명 생성 알고리즘은 서명 확인 알고리즘과 비교하여 일관성을 테스트할 수 있습니다. KT-I의 구현은 이런 방식으로 테스트되어야 합니다. 서명 생성 프로세스는 비결정적이므로 KAT를 사용하여 테스트할 수 없습니다. 반면에 서명 확인 알고리즘은 결정적이므로 KAT를 통해 테스트해야 합니다. 이러한 테스트 조합은 키 쌍 생성을 포함한 모든 작업에 대한 적용 범위를 제공합니다. 일관성 테스트는 ECDH에도 적용되어야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  0bcae7b8dc9b6c375e8a1fcb0367ab618efeaf0bcf52ab73dbfff2299f926c2b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Systems or applications that rely on OCSP responses MUST be capable
+     of detecting and enforcing the use of the id-kp-OCSPSigning value as
+     described above.  They MAY provide a means of locally configuring one
+     or more OCSP signing authorities and specifying the set of CAs for
+     which each signing authority is trusted.  They MUST reject the
+     response if the certificate required to validate the signature on the
+     response does not meet at least one of the following criteria:
+"fixed": |-
+  Systems or applications that rely on OCSP responses MUST be capable of detecting and enforcing the use of the id-kp-OCSPSigning value as described above.  They MAY provide a means of locally configuring one or more OCSP signing authorities and specifying the set of CAs for which each signing authority is trusted.  They MUST reject the response if the certificate required to validate the signature on the response does not meet at least one of the following criteria:
+"ko": |-
+  OCSP 응답에 의존하는 시스템 또는 애플리케이션은 위에서 설명한 대로 id-kp-OCSPSigning 값의 사용을 감지하고 시행할 수 있어야 합니다. 이는 하나 이상의 OCSP 서명 기관을 로컬로 구성하고 각 서명 기관이 신뢰할 수 있는 CA 집합을 지정하는 수단을 제공할 수 있습니다. 응답의 서명을 검증하는 데 필요한 인증서가 다음 기준 중 하나 이상을 충족하지 않는 경우 응답을 거부해야 합니다.

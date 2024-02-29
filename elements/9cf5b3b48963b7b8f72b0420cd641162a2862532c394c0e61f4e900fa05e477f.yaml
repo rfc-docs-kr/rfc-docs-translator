@@ -1,0 +1,24 @@
+"hash": |-
+  9cf5b3b48963b7b8f72b0420cd641162a2862532c394c0e61f4e900fa05e477f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o  If the "sent-protocol" is a reliable transport protocol such as
+           TCP or SCTP, or TLS over those, the response MUST be sent using
+           the existing connection to the source of the original request
+           that created the transaction, if that connection is still open.
+           This requires the server transport to maintain an association
+           between server transactions and transport connections.  If that
+           connection is no longer open, the server SHOULD open a
+           connection to the IP address in the "received" parameter, if
+           present, using the port in the "sent-by" value, or the default
+           port for that transport, if no port is specified.  If that
+           connection attempt fails, the server SHOULD use the procedures
+           in [4] for servers in order to determine the IP address and
+           port to open the connection and send the response to.
+"fixed": |-
+  -  If the "sent-protocol" is a reliable transport protocol such as TCP or SCTP, or TLS over those, the response MUST be sent using the existing connection to the source of the original request that created the transaction, if that connection is still open. This requires the server transport to maintain an association between server transactions and transport connections.  If that connection is no longer open, the server SHOULD open a connection to the IP address in the "received" parameter, if present, using the port in the "sent-by" value, or the default port for that transport, if no port is specified.  If that connection attempt fails, the server SHOULD use the procedures in [4] for servers in order to determine the IP address and port to open the connection and send the response to.
+"ko": |-
+  - "전송 프로토콜"이 TCP, SCTP 또는 이에 대한 TLS와 같은 신뢰할 수 있는 전송 프로토콜인 경우 해당 연결이 여전히 존재하는 경우 트랜잭션을 생성한 원래 요청 소스에 대한 기존 연결을 사용하여 응답을 전송해야 합니다. 열려 있는. 이를 위해서는 서버 트랜잭션과 전송 연결 간의 연결을 유지하기 위해 서버 전송이 필요합니다. 해당 연결이 더 이상 열려 있지 않으면 서버는 "sent-by" 값의 포트를 사용하여 "received" 매개변수의 IP 주소(있는 경우)에 대한 연결을 열어야 하며, 그렇지 않은 경우 해당 전송의 기본 포트를 사용해야 합니다. 포트가 지정되었습니다. 해당 연결 시도가 실패하면 서버는 연결을 열고 응답을 보낼 IP 주소와 포트를 결정하기 위해 서버에 대해 [4]의 절차를 사용해야 합니다.

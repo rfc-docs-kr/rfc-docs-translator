@@ -1,0 +1,21 @@
+"hash": |-
+  1f241587d4fc0b20fa3d661baf13dd4253bb6d106cb8c13bb2967050a7acc9b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A user-FTP may send a USER command with no argument to the
+        server-FTP to request automatic authentication.  The server-FTP
+        will reply with a 230 (user logged in) if it can use the
+        authentication.  It will reply with a 530 (not logged in) if it
+        cannot authenticate the user.  It will reply with a 500 or 501
+        (syntax or parameter problem) if it does not implement automatic
+        authentication.  Please note that no change is needed to currently
+        implemented servers to handle the request for authentication; they
+        will reject it normally as a parameter problem.  This is a
+        suggested implementation for experimental use only.
+"fixed": |-
+  - A user-FTP may send a USER command with no argument to the server-FTP to request automatic authentication.  The server-FTP will reply with a 230 (user logged in) if it can use the authentication.  It will reply with a 530 (not logged in) if it cannot authenticate the user.  It will reply with a 500 or 501 (syntax or parameter problem) if it does not implement automatic authentication.  Please note that no change is needed to currently implemented servers to handle the request for authentication; they will reject it normally as a parameter problem.  This is a suggested implementation for experimental use only.
+"ko": |-
+  - 사용자 FTP는 자동 인증을 요청하기 위해 서버 FTP에 인수 없이 USER 명령을 보낼 수 있습니다. 서버-FTP는 인증을 사용할 수 있는 경우 230(로그인된 사용자)으로 응답합니다. 사용자를 인증할 수 없는 경우 530(로그인되지 않음)으로 응답합니다. 자동 인증을 구현하지 않으면 500 또는 501(구문 또는 매개변수 문제)로 응답합니다. 인증 요청을 처리하기 위해 현재 구현된 서버에는 변경이 필요하지 않습니다. 일반적으로 매개변수 문제로 거부합니다. 이는 실험용으로만 권장되는 구현입니다.

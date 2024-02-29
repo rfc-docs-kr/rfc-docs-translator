@@ -1,0 +1,22 @@
+"hash": |-
+  fe43d32f284cf2958fd42f907154817f873e118049fe4aad4c831492d1d67bb9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Add "length" to the length.
+   * Set Corrupted when overflow has occurred.
+   */
+  static uint32_t addTemp[4] = { 0, 0, 0, 0 };
+  #define SHA384_512AddLength(context, length) (                        \
+      addTemp[3] = (length), SHA512_ADDTO4((context)->Length, addTemp), \
+      (context)->Corrupted = (((context)->Length[3] < (length)) &&      \
+         ((context)->Length[2] == 0) && ((context)->Length[1] == 0) &&  \
+         ((context)->Length[0] == 0)) ? shaInputTooLong :               \
+                                        (context)->Corrupted )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  d9e4f279deb0864dac0871ca09445446091e77495a86a2d078bcdc16200c4e89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Peer-Id is the contents of the Identity field from the
+        AT_IDENTITY attribute, using only the Actual Identity Length
+        octets from the beginning, however.  Note that the contents are
+        used as they are transmitted, regardless of whether the
+        transmitted identity was a permanent, pseudonym, or fast EAP
+        re-authentication identity.  The Server-Id is the null string
+        (zero length).
+"fixed": |-
+  - The Peer-Id is the contents of the Identity field from the AT_IDENTITY attribute, using only the Actual Identity Length octets from the beginning, however.  Note that the contents are used as they are transmitted, regardless of whether the transmitted identity was a permanent, pseudonym, or fast EAP re-authentication identity.  The Server-Id is the null string (zero length).
+"ko": |-
+  - Peer-Id는 처음부터 실제 ID 길이 옥텟만 사용하는 AT_IDENTITY 속성의 ID 필드 내용입니다. 전송된 ID가 영구, 가명 또는 빠른 EAP 재인증 ID인지 여부에 관계없이 콘텐츠는 전송되는 대로 사용됩니다. Server-Id는 널 문자열(길이 0)입니다.

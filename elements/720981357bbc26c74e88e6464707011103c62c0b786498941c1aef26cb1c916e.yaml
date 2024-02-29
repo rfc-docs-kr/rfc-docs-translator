@@ -1,0 +1,17 @@
+"hash": |-
+  720981357bbc26c74e88e6464707011103c62c0b786498941c1aef26cb1c916e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In general, an HTTP client is unable to retry a non-idempotent
+     request when an error occurs because there is no means to determine
+     the nature of the error (see Section 9.2.2 of [HTTP]).  It is
+     possible that some server processing occurred prior to the error,
+     which could result in undesirable effects if the request were
+     reattempted.
+"fixed": |-
+  In general, an HTTP client is unable to retry a non-idempotent request when an error occurs because there is no means to determine the nature of the error (see Section 9.2.2 of [HTTP]).  It is possible that some server processing occurred prior to the error, which could result in undesirable effects if the request were reattempted.
+"ko": |-
+  일반적으로 HTTP 클라이언트는 오류의 성격을 판단할 수단이 없기 때문에 오류 발생 시 비멱등성 요청을 재시도할 수 없습니다([HTTP]의 섹션 9.2.2 참조). 오류가 발생하기 전에 일부 서버 처리가 발생했을 수 있으며, 이로 인해 요청을 다시 시도하면 바람직하지 않은 결과가 발생할 수 있습니다.

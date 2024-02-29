@@ -1,0 +1,14 @@
+"hash": |-
+  a2d1904bb1ba6aff884dc63c0812472455f665b3b3b5c7bd5adb0ef8de9d8364
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (t = 16; t < 64; t++)
+      W[t] = SHA256_sigma1(W[t-2]) + W[t-7] +
+          SHA256_sigma0(W[t-15]) + W[t-16];
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  3f179009318e2fa7d5d1346bca9a69677e11e4a9f6af00abd4adbd2a3a20b01d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A PRIORITY or WINDOW_UPDATE frame MAY be received in this state.
+        Receiving any type of frame other than RST_STREAM, PRIORITY, or
+        WINDOW_UPDATE on a stream in this state MUST be treated as a
+        connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  - A PRIORITY or WINDOW_UPDATE frame MAY be received in this state. Receiving any type of frame other than RST_STREAM, PRIORITY, or WINDOW_UPDATE on a stream in this state MUST be treated as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  - 이 상태에서는 PRIORITY 또는 WINDOW_UPDATE 프레임이 수신될 수 있습니다. 이 상태의 스트림에서 RST_STREAM, PRIORITY 또는 WINDOW_UPDATE 이외의 모든 유형의 프레임을 수신하는 것은 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

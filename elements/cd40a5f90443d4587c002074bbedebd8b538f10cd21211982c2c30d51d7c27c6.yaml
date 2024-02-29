@@ -1,0 +1,25 @@
+"hash": |-
+  cd40a5f90443d4587c002074bbedebd8b538f10cd21211982c2c30d51d7c27c6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It can also restrict core-to-edge paths to reject traffic that should
+     have originated further toward the edge.  It cannot restrict traffic
+     from edges lacking filtering through the core to a particular edge.
+     As a result, each border router must perform the appropriate
+     filtering for overall protection to result; failure of any border
+     router to filter defeats the protection of all participants inside
+     the border, and potentially those outside as well.  Address filtering
+     at the border can protect those inside the border from some kinds of
+     spoofing, i.e., connections among those inside a border, because only
+     interior addresses should originate inside the border.  It cannot,
+     however, protect connections including endpoints outside the border
+     (i.e., those that traverse the AS boundary) except to restrict where
+     the traffic enters from, e.g., if it expected from one AS and not
+     another.
+"fixed": |-
+  It can also restrict core-to-edge paths to reject traffic that should have originated further toward the edge.  It cannot restrict traffic from edges lacking filtering through the core to a particular edge. As a result, each border router must perform the appropriate filtering for overall protection to result; failure of any border router to filter defeats the protection of all participants inside the border, and potentially those outside as well.  Address filtering at the border can protect those inside the border from some kinds of spoofing, i.e., connections among those inside a border, because only interior addresses should originate inside the border.  It cannot, however, protect connections including endpoints outside the border (i.e., those that traverse the AS boundary) except to restrict where the traffic enters from, e.g., if it expected from one AS and not another.
+"ko": |-
+  또한 에지 쪽으로 더 멀리 시작되어야 하는 트래픽을 거부하도록 코어-에지 경로를 제한할 수도 있습니다. 코어를 통한 필터링이 부족한 에지에서 특정 에지로의 트래픽을 제한할 수는 없습니다. 결과적으로 각 경계 라우터는 전체적인 보호를 위해 적절한 필터링을 수행해야 합니다. 국경 라우터가 필터링하지 못하면 국경 내부의 모든 참가자는 물론 외부 참가자도 보호할 수 없게 됩니다. 국경에서의 주소 필터링은 내부 주소만 국경 내부에서 시작되어야 하기 때문에 국경 내부의 사람들을 일종의 스푸핑, 즉 국경 내부 사람들 간의 연결로부터 보호할 수 있습니다. 그러나 트래픽이 들어오는 위치를 제한하는 것(예: 한 AS에서는 예상하고 다른 AS에서는 예상하지 않는 경우)을 제외하고는 경계 외부의 끝점(예: AS 경계를 통과하는 끝점)을 포함한 연결을 보호할 수 없습니다.

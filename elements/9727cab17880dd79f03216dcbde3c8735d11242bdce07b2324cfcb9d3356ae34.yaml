@@ -1,0 +1,39 @@
+"hash": |-
+  9727cab17880dd79f03216dcbde3c8735d11242bdce07b2324cfcb9d3356ae34
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA384_512Reset
+   *
+   * Description:
+   *   This helper function will initialize the SHA512Context in
+   *   preparation for computing a new SHA384 or SHA512 message
+   *   digest.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The context to reset.
+   *   H0[ ]: [in]
+   *     The initial hash value array to use.
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  #ifdef USE_32BIT_ONLY
+  static int SHA384_512Reset(SHA512Context *context,
+                             uint32_t H0[SHA512HashSize/4])
+  #else /* !USE_32BIT_ONLY */
+  static int SHA384_512Reset(SHA512Context *context,
+                             uint64_t H0[SHA512HashSize/8])
+  #endif /* USE_32BIT_ONLY */
+  {
+    int i;
+    if (!context) return shaNull;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

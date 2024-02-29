@@ -1,0 +1,18 @@
+"hash": |-
+  f17121a157f737fdd224fef55597daff388f71f499172ea005f3aceaa6139bf8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender MUST NOT allow a flow-control window to exceed 2^31-1
+     octets.  If a sender receives a WINDOW_UPDATE that causes a flow-
+     control window to exceed this maximum, it MUST terminate either the
+     stream or the connection, as appropriate.  For streams, the sender
+     sends a RST_STREAM with an error code of FLOW_CONTROL_ERROR; for the
+     connection, a GOAWAY frame with an error code of FLOW_CONTROL_ERROR
+     is sent.
+"fixed": |-
+  A sender MUST NOT allow a flow-control window to exceed 2^31-1 octets.  If a sender receives a WINDOW_UPDATE that causes a flow- control window to exceed this maximum, it MUST terminate either the stream or the connection, as appropriate.  For streams, the sender sends a RST_STREAM with an error code of FLOW_CONTROL_ERROR; for the connection, a GOAWAY frame with an error code of FLOW_CONTROL_ERROR is sent.
+"ko": |-
+  발신자는 흐름 제어 창이 2^31-1 옥텟을 초과하도록 허용해서는 안 됩니다. 송신자가 흐름 제어 창이 이 최대값을 초과하게 만드는 WINDOW_UPDATE를 수신하면 적절하게 스트림이나 연결을 종료해야 합니다. 스트림의 경우 발신자는 오류 코드 FLOW_Control_ERROR와 함께 RST_STREAM을 보냅니다. 연결의 경우 FLOW_Control_ERROR 오류 코드가 포함된 GOAWAY 프레임이 전송됩니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  aaf80217149e1c5538eb81c38556d10c3d9d1d1747557730716798c3c8806ac5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a UAC resubmits a request with its credentials after receiving a
+     401 (Unauthorized) or 407 (Proxy Authentication Required) response,
+     it MUST increment the CSeq header field value as it would normally
+     when sending an updated request.
+"fixed": |-
+  When a UAC resubmits a request with its credentials after receiving a 401 (Unauthorized) or 407 (Proxy Authentication Required) response, it MUST increment the CSeq header field value as it would normally when sending an updated request.
+"ko": |-
+  UAC가 401(승인되지 않음) 또는 407(프록시 인증 필요) 응답을 수신한 후 해당 자격 증명과 함께 요청을 다시 제출할 때 업데이트된 요청을 보낼 때 일반적으로 하는 것처럼 CSeq 헤더 필드 값을 증가시켜야 합니다.

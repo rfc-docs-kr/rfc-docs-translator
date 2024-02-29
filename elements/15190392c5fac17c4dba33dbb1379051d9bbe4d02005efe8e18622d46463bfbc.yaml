@@ -1,0 +1,18 @@
+"hash": |-
+  15190392c5fac17c4dba33dbb1379051d9bbe4d02005efe8e18622d46463bfbc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       POST /resource HTTP/1.1          HEADERS
+       Host: example.org          ==>     - END_STREAM
+       Content-Type: image/jpeg           - END_HEADERS
+       Content-Length: 123                  :method = POST
+                                            :authority = example.org
+                                            :path = /resource
+       {binary data}                        :scheme = https
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

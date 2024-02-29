@@ -1,0 +1,19 @@
+"hash": |-
+  4c43a49626b14f114296af277b1aa0d751bf4d126bf804c9043fd23e95826698
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In practice, server push is difficult to use effectively, because it
+     requires the server to correctly anticipate the additional requests
+     the client will make, taking into account factors such as caching,
+     content negotiation, and user behavior.  Errors in prediction can
+     lead to performance degradation, due to the opportunity cost that the
+     additional data on the wire represents.  In particular, pushing any
+     significant amount of data can cause contention issues with responses
+     that are more important.
+"fixed": |-
+  In practice, server push is difficult to use effectively, because it requires the server to correctly anticipate the additional requests the client will make, taking into account factors such as caching, content negotiation, and user behavior.  Errors in prediction can lead to performance degradation, due to the opportunity cost that the additional data on the wire represents.  In particular, pushing any significant amount of data can cause contention issues with responses that are more important.
+"ko": |-
+  실제로 서버 푸시는 캐싱, 콘텐츠 협상, 사용자 행동 등의 요소를 고려하여 클라이언트가 추가 요청을 할 것인지 서버가 정확하게 예측해야 하기 때문에 효과적으로 사용하기 어렵습니다. 예측 오류는 연결의 추가 데이터가 나타내는 기회 비용으로 인해 성능 저하로 이어질 수 있습니다. 특히 상당한 양의 데이터를 푸시하면 더 중요한 응답에 경합 문제가 발생할 수 있습니다.

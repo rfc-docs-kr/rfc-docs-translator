@@ -1,0 +1,16 @@
+"hash": |-
+  4814a74261b190755db486bcf982a5a665b31447b57aa05d2bf99c88be3b1f36
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If this proxy wishes to remain on the path of future requests
+           in a dialog created by this request (assuming the request
+           creates a dialog), it MUST insert a Record-Route header field
+           value into the copy before any existing Record-Route header
+           field values, even if a Route header field is already present.
+"fixed": |-
+  - If this proxy wishes to remain on the path of future requests in a dialog created by this request (assuming the request creates a dialog), it MUST insert a Record-Route header field value into the copy before any existing Record-Route header field values, even if a Route header field is already present.
+"ko": |-
+  - 이 프록시가 이 요청에 의해 생성된 대화 상자에서 향후 요청 경로에 남아 있으려면(요청이 대화 상자를 생성한다고 가정) 기존 Record-Route 헤더 필드 앞에 Record-Route 헤더 필드 값을 복사본에 삽입해야 합니다. Route 헤더 필드가 이미 존재하는 경우에도 마찬가지입니다.

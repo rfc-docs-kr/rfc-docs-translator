@@ -1,0 +1,17 @@
+"hash": |-
+  78f4baf24469203be969873792405723247b0600ceb7a1faac65be0db996e5da
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    ret = hmacResult(&context->hmacContext, prk) ||
+          hkdfExpand(context->whichSha, prk, context->hashSize, info,
+                     info_len, okm, okm_len);
+    context->Computed = 1;
+    return context->Corrupted = ret;
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  08fe22869acfff209810212128f00fab36ab9b61a7e90a7d329d8c8386cad412
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Under an authentication scheme that uses responses to carry values
+     used to compute nonces (such as Digest), some problems come up for
+     any requests that take no response, including ACK.  For this reason,
+     any credentials in the INVITE that were accepted by a server MUST be
+     accepted by that server for the ACK.  UACs creating an ACK message
+     will duplicate all of the Authorization and Proxy-Authorization
+     header field values that appeared in the INVITE to which the ACK
+     corresponds.  Servers MUST NOT attempt to challenge an ACK.
+"fixed": |-
+  Under an authentication scheme that uses responses to carry values used to compute nonces (such as Digest), some problems come up for any requests that take no response, including ACK.  For this reason, any credentials in the INVITE that were accepted by a server MUST be accepted by that server for the ACK.  UACs creating an ACK message will duplicate all of the Authorization and Proxy-Authorization header field values that appeared in the INVITE to which the ACK corresponds.  Servers MUST NOT attempt to challenge an ACK.
+"ko": |-
+  Nonce를 계산하는 데 사용되는 값(예: 다이제스트)을 전달하기 위해 응답을 사용하는 인증 체계에서는 ACK를 포함하여 응답을 받지 않는 요청에 대해 몇 가지 문제가 발생합니다. 이러한 이유로 서버에서 수락한 INVITE의 모든 자격 증명은 ACK에 대해 해당 서버에서 수락해야 합니다. ACK 메시지를 생성하는 UAC는 ACK가 해당하는 INVITE에 나타나는 Authorization 및 Proxy-Authorization 헤더 필드 값을 모두 복제합니다. 서버는 ACK에 도전하려고 시도해서는 안 됩니다.

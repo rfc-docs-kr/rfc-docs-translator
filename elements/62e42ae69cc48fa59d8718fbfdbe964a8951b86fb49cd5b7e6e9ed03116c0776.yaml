@@ -1,0 +1,24 @@
+"hash": |-
+  62e42ae69cc48fa59d8718fbfdbe964a8951b86fb49cd5b7e6e9ed03116c0776
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             +-----------------------+---------------------------+
+             | ECDH                  | RFC 5114                  |
+             +-----------------------+---------------------------+
+             | order p of field Fp   | p                         |
+             | curve coefficient a   | a                         |
+             | curve coefficient b   | b                         |
+             | generator g           | g=(gx, gy)                |
+             | group order n         | n                         |
+             | private keys j and k  | dA and dB                 |
+             | public keys g^j, g^k  | g^(dA) = (x_qA, y_qA) and |
+             |                       | g^(dB) = (x_qB, y_qB)     |
+             | shared secret g^(j*k) | g^(dA*dB) = (x_Z, y_Z)    |
+             +-----------------------+---------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

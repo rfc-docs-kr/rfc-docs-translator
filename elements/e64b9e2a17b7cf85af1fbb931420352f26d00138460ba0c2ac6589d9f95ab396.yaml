@@ -1,0 +1,14 @@
+"hash": |-
+  e64b9e2a17b7cf85af1fbb931420352f26d00138460ba0c2ac6589d9f95ab396
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           As with a 3xx response, if a proxy "recurses" on the 416 by
+           trying a SIP or SIPS URI instead, the 416 response SHOULD NOT
+           be added to the response context.
+"fixed": |-
+  - As with a 3xx response, if a proxy "recurses" on the 416 by trying a SIP or SIPS URI instead, the 416 response SHOULD NOT be added to the response context.
+"ko": |-
+  - 3xx 응답과 마찬가지로 프록시가 SIP 또는 SIPS URI를 대신 시도하여 416에서 "반복"하는 경우 416 응답을 응답 컨텍스트에 추가하면 안 됩니다.

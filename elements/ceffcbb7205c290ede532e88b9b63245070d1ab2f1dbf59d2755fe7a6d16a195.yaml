@@ -1,0 +1,15 @@
+"hash": |-
+  ceffcbb7205c290ede532e88b9b63245070d1ab2f1dbf59d2755fe7a6d16a195
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A proxy can only change the Request-URI of a request during
+        forwarding if it is responsible for that URI.  If the proxy is not
+        responsible for that URI, it will not recurse on 3xx or 416
+        responses as described below.
+"fixed": |-
+  - A proxy can only change the Request-URI of a request during forwarding if it is responsible for that URI.  If the proxy is not responsible for that URI, it will not recurse on 3xx or 416 responses as described below.
+"ko": |-
+  - 프록시는 해당 URI를 담당하는 경우 전달 중에 요청의 요청-URI만 변경할 수 있습니다. 프록시가 해당 URI를 담당하지 않는 경우 아래 설명된 대로 3xx 또는 416 응답에서 반복되지 않습니다.

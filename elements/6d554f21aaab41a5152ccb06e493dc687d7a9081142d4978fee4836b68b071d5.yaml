@@ -1,0 +1,54 @@
+"hash": |-
+  6d554f21aaab41a5152ccb06e493dc687d7a9081142d4978fee4836b68b071d5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  USHAInput
+   *
+   *  Description:
+   *      This function accepts an array of octets as the next portion
+   *      of the message.
+   *
+   *  Parameters:
+   *      context: [in/out]
+   *          The SHA context to update.
+   *      message_array: [in]
+   *          An array of octets representing the next portion of
+   *          the message.
+   *      length: [in]
+   *          The length of the message in message_array.
+   *
+   *  Returns:
+   *      sha Error Code.
+   *
+   */
+  int USHAInput(USHAContext *context,
+                const uint8_t *bytes, unsigned int bytecount)
+  {
+    if (!context) return shaNull;
+    switch (context->whichSha) {
+      case SHA1:
+        return SHA1Input((SHA1Context*)&context->ctx, bytes,
+                         bytecount);
+      case SHA224:
+        return SHA224Input((SHA224Context*)&context->ctx, bytes,
+            bytecount);
+      case SHA256:
+        return SHA256Input((SHA256Context*)&context->ctx, bytes,
+            bytecount);
+      case SHA384:
+        return SHA384Input((SHA384Context*)&context->ctx, bytes,
+            bytecount);
+      case SHA512:
+        return SHA512Input((SHA512Context*)&context->ctx, bytes,
+            bytecount);
+      default: return shaBadParam;
+    }
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

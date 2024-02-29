@@ -1,0 +1,17 @@
+"hash": |-
+  46e3d1602c8f2a3f8134dda749c7ad363cc63f0e2918b909802f87304b6a6cc3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Usage of Route in CANCEL and ACK was not well defined in RFC 2543.
+        It is now well specified; if a request had a Route header field,
+        its CANCEL or ACK for a non-2xx response to the request need to
+        carry the same Route header field values.  ACKs for 2xx responses
+        use the Route values learned from the Record-Route of the 2xx
+        responses.
+"fixed": |-
+  -  Usage of Route in CANCEL and ACK was not well defined in RFC 2543. It is now well specified; if a request had a Route header field, its CANCEL or ACK for a non-2xx response to the request need to carry the same Route header field values.  ACKs for 2xx responses use the Route values learned from the Record-Route of the 2xx responses.
+"ko": |-
+  - CANCEL 및 ACK의 경로 사용은 RFC 2543에서 잘 정의되지 않았습니다. 이제 잘 지정되었습니다. 요청에 경로 헤더 필드가 있는 경우 요청에 대한 2xx가 아닌 응답에 대한 CANCEL 또는 ACK는 동일한 경로 헤더 필드 값을 전달해야 합니다. 2xx 응답에 대한 ACK는 2xx 응답의 Record-Route에서 학습된 경로 값을 사용합니다.

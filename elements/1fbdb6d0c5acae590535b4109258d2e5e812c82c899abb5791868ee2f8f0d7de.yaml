@@ -1,0 +1,26 @@
+"hash": |-
+  1fbdb6d0c5acae590535b4109258d2e5e812c82c899abb5791868ee2f8f0d7de
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Functions:
+        int SHA$$$Reset(SHA$$$Context *context);
+              Reset the hash context state.
+        int SHA$$$Input(SHA$$$Context *context, const uint8_t *octets,
+                    unsigned int bytecount);
+              Incorporate bytecount octets into the hash.
+        int SHA$$$FinalBits(SHA$$$Context *, const uint8_t octet,
+                    unsigned int bitcount);
+              Incorporate bitcount bits into the hash.  The bits are in
+              the upper portion of the octet.  SHA$$$Input() cannot be
+              called after this.
+        int SHA$$$Result(SHA$$$Context *,
+                    uint8_t Message_Digest[SHA$$$HashSize]);
+              Do the final calculations on the hash and copy the value
+              into Message_Digest.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

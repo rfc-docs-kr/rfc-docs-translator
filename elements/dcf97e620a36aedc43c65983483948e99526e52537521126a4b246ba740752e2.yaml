@@ -1,0 +1,38 @@
+"hash": |-
+  dcf97e620a36aedc43c65983483948e99526e52537521126a4b246ba740752e2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The atlanta.com SIP server is a type of SIP server known as a proxy
+     server.  A proxy server receives SIP requests and forwards them on
+     behalf of the requestor.  In this example, the proxy server receives
+     the INVITE request and sends a 100 (Trying) response back to Alice's
+     softphone.  The 100 (Trying) response indicates that the INVITE has
+     been received and that the proxy is working on her behalf to route
+     the INVITE to the destination.  Responses in SIP use a three-digit
+     code followed by a descriptive phrase.  This response contains the
+     same To, From, Call-ID, CSeq and branch parameter in the Via as the
+     INVITE, which allows Alice's softphone to correlate this response to
+     the sent INVITE.  The atlanta.com proxy server locates the proxy
+     server at biloxi.com, possibly by performing a particular type of DNS
+     (Domain Name Service) lookup to find the SIP server that serves the
+     biloxi.com domain.  This is described in [4].  As a result, it
+     obtains the IP address of the biloxi.com proxy server and forwards,
+     or proxies, the INVITE request there.  Before forwarding the request,
+     the atlanta.com proxy server adds an additional Via header field
+     value that contains its own address (the INVITE already contains
+     Alice's address in the first Via).  The biloxi.com proxy server
+     receives the INVITE and responds with a 100 (Trying) response back to
+     the atlanta.com proxy server to indicate that it has received the
+     INVITE and is processing the request.  The proxy server consults a
+     database, generically called a location service, that contains the
+     current IP address of Bob.  (We shall see in the next section how
+     this database can be populated.)  The biloxi.com proxy server adds
+     another Via header field value with its own address to the INVITE and
+     proxies it to Bob's SIP phone.
+"fixed": |-
+  The atlanta.com SIP server is a type of SIP server known as a proxy server.  A proxy server receives SIP requests and forwards them on behalf of the requestor.  In this example, the proxy server receives the INVITE request and sends a 100 (Trying) response back to Alice's softphone.  The 100 (Trying) response indicates that the INVITE has been received and that the proxy is working on her behalf to route the INVITE to the destination.  Responses in SIP use a three-digit code followed by a descriptive phrase.  This response contains the same To, From, Call-ID, CSeq and branch parameter in the Via as the INVITE, which allows Alice's softphone to correlate this response to the sent INVITE.  The atlanta.com proxy server locates the proxy server at biloxi.com, possibly by performing a particular type of DNS (Domain Name Service) lookup to find the SIP server that serves the biloxi.com domain.  This is described in [4].  As a result, it obtains the IP address of the biloxi.com proxy server and forwards, or proxies, the INVITE request there.  Before forwarding the request, the atlanta.com proxy server adds an additional Via header field value that contains its own address (the INVITE already contains Alice's address in the first Via).  The biloxi.com proxy server receives the INVITE and responds with a 100 (Trying) response back to the atlanta.com proxy server to indicate that it has received the INVITE and is processing the request.  The proxy server consults a database, generically called a location service, that contains the current IP address of Bob.  (We shall see in the next section how this database can be populated.)  The biloxi.com proxy server adds another Via header field value with its own address to the INVITE and proxies it to Bob's SIP phone.
+"ko": |-
+  atlanta.com SIP 서버는 프록시 서버로 알려진 SIP 서버 유형입니다. 프록시 서버는 SIP 요청을 수신하고 요청자를 대신하여 전달합니다. 이 예에서 프록시 서버는 INVITE 요청을 수신하고 100(시도 중) 응답을 Alice의 소프트폰으로 다시 보냅니다. 100(시도 중) 응답은 INVITE가 수신되었으며 프록시가 그녀를 대신하여 INVITE를 대상으로 라우팅하고 있음을 나타냅니다. SIP의 응답은 3자리 코드와 설명 문구를 사용합니다. 이 응답에는 Via의 INVITE와 동일한 To, From, Call-ID, CSeq 및 분기 매개 변수가 포함되어 있어 Alice의 소프트폰이 이 응답을 전송된 INVITE와 연관시킬 수 있습니다. atlanta.com 프록시 서버는 biloxi.com 도메인을 제공하는 SIP 서버를 찾기 위해 특정 유형의 DNS(도메인 이름 서비스) 조회를 수행하여 biloxi.com에서 프록시 서버를 찾습니다. 이는 [4]에 설명되어 있습니다. 결과적으로 biloxi.com 프록시 서버의 IP 주소를 획득하고 그곳으로 INVITE 요청을 전달하거나 프록시합니다. 요청을 전달하기 전에 atlanta.com 프록시 서버는 자체 주소가 포함된 추가적인 Via 헤더 필드 값을 추가합니다(INVITE에는 이미 첫 번째 Via에 Alice의 주소가 포함되어 있습니다). biloxi.com 프록시 서버는 INVITE를 수신하고 atlanta.com 프록시 서버에 100(시도 중) 응답으로 응답하여 INVITE를 수신했으며 요청을 처리 중임을 나타냅니다. 프록시 서버는 일반적으로 위치 서비스라고 불리는 Bob의 현재 IP 주소가 포함된 데이터베이스를 참조합니다. (이 데이터베이스가 어떻게 채워지는지 다음 섹션에서 살펴보겠습니다.) biloxi.com 프록시 서버는 자체 주소가 포함된 또 다른 Via 헤더 필드 값을 INVITE에 추가하고 이를 Bob의 SIP 전화로 프록시합니다.

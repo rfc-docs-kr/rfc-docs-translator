@@ -1,0 +1,22 @@
+"hash": |-
+  595bb497529cc759ce1c373b243ad574f86e6848e297adb9cae8f6071afef37d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In general, the EAP peer cannot direct an authentication attempt to a
+     particular EAP server within a realm, this decision is made by AAA
+     clients, nor can the peer determine with which EAP server it will be
+     communicating, prior to the start of the EAP method conversation.
+     The Server-Id is not included in the EAP-Request/Identity, and since
+     the EAP server may be determined dynamically, it typically is not
+     possible for the authenticator to advertise the Server-Id during the
+     discovery phase.  Some EAP methods do not export the Server-Id so
+     that it is possible that the EAP peer will not learn with which
+     server it was conversing after the EAP conversation completes
+     successfully.
+"fixed": |-
+  In general, the EAP peer cannot direct an authentication attempt to a particular EAP server within a realm, this decision is made by AAA clients, nor can the peer determine with which EAP server it will be communicating, prior to the start of the EAP method conversation. The Server-Id is not included in the EAP-Request/Identity, and since the EAP server may be determined dynamically, it typically is not possible for the authenticator to advertise the Server-Id during the discovery phase.  Some EAP methods do not export the Server-Id so that it is possible that the EAP peer will not learn with which server it was conversing after the EAP conversation completes successfully.
+"ko": |-
+  일반적으로 EAP 피어는 영역 내의 특정 EAP 서버에 인증 시도를 지시할 수 없습니다. 이 결정은 AAA 클라이언트에 의해 이루어지며, 피어는 EAP 방법을 시작하기 전에 어떤 EAP 서버와 통신할지 결정할 수도 없습니다. 대화. Server-Id는 EAP-요청/ID에 포함되지 않으며 EAP 서버는 동적으로 결정될 수 있으므로 일반적으로 인증자가 검색 단계 동안 Server-Id를 광고하는 것은 불가능합니다. 일부 EAP 방법은 Server-Id를 내보내지 않으므로 EAP 대화가 성공적으로 완료된 후 EAP 피어가 어떤 서버와 대화 중인지 알 수 없습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  f41cfb51fd9d67f7b9d41c4c1cbdf1a1c489814f9cf593f8da9ae51c4fc51c28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If a proxy wishes to detect loops, the "branch" parameter it
+           supplies MUST depend on all information affecting processing of
+           a request, including the incoming Request-URI and any header
+           fields affecting the request's admission or routing.  This is
+           necessary to distinguish looped requests from requests whose
+           routing parameters have changed before returning to this
+           server.
+"fixed": |-
+  - If a proxy wishes to detect loops, the "branch" parameter it supplies MUST depend on all information affecting processing of a request, including the incoming Request-URI and any header fields affecting the request's admission or routing.  This is necessary to distinguish looped requests from requests whose routing parameters have changed before returning to this server.
+"ko": |-
+  - 프록시가 루프를 감지하려는 경우 프록시가 제공하는 "branch" 매개변수는 들어오는 요청-URI 및 요청 승인 또는 라우팅에 영향을 미치는 모든 헤더 필드를 포함하여 요청 처리에 영향을 미치는 모든 정보에 의존해야 합니다. 이는 이 서버로 반환되기 전에 라우팅 매개변수가 변경된 요청과 루프된 요청을 구별하는 데 필요합니다.

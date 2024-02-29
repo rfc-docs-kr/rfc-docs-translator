@@ -1,0 +1,22 @@
+"hash": |-
+  3e0946f7a4cf522f81f565991f13614c3ab3b266e54fd1e1d807124f537f6715
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Status-Line     =  SIP-Version SP Status-Code SP Reason-Phrase CRLF
+  Status-Code     =  Informational
+                 /   Redirection
+                 /   Success
+                 /   Client-Error
+                 /   Server-Error
+                 /   Global-Failure
+                 /   extension-code
+  extension-code  =  3DIGIT
+  Reason-Phrase   =  *(reserved / unreserved / escaped
+                     / UTF8-NONASCII / UTF8-CONT / SP / HTAB)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

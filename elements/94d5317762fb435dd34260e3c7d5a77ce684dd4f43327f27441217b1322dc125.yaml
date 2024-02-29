@@ -1,0 +1,20 @@
+"hash": |-
+  94d5317762fb435dd34260e3c7d5a77ce684dd4f43327f27441217b1322dc125
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Initialization Vector (IV)
+        A quantity of at least 64 octets, suitable for use in an
+        initialization vector field, that is derived between the peer and
+        EAP server.  Since the IV is a known value in methods such as
+        EAP-TLS (Transport Layer Security) [RFC5216], it cannot be used by
+        itself for computation of any quantity that needs to remain
+        secret.  As a result, its use has been deprecated and it is
+        OPTIONAL for EAP methods to generate it.  However, when it is
+        generated, it MUST be unpredictable.
+"fixed": |-
+  Initialization Vector (IV)  -  A quantity of at least 64 octets, suitable for use in an initialization vector field, that is derived between the peer and EAP server.  Since the IV is a known value in methods such as EAP-TLS (Transport Layer Security) [RFC5216], it cannot be used by itself for computation of any quantity that needs to remain secret.  As a result, its use has been deprecated and it is OPTIONAL for EAP methods to generate it.  However, when it is generated, it MUST be unpredictable.
+"ko": |-
+  초기화 벡터(IV) - 피어와 EAP 서버 간에 파생되는 초기화 벡터 필드에 사용하기에 적합한 최소 64옥텟의 수량입니다. IV는 EAP-TLS(전송 계층 보안) [RFC5216]과 같은 방법에서 알려진 값이므로 비밀로 유지해야 하는 수량의 계산에 단독으로 사용할 수 없습니다. 결과적으로 해당 사용은 더 이상 사용되지 않으며 EAP 방법으로 생성하는 것은 선택 사항입니다. 그러나 생성되면 예측할 수 없어야 합니다.

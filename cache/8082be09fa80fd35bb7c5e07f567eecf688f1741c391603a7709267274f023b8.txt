@@ -1,0 +1,1 @@
+/* 키를 패드에 저장하고 ipad 및 opad 값과 XOR합니다. */ for (i = 0; i < key_len; i++) { k_ipad[i] = key[i] ^ 0x36; 컨텍스트->k_opad[i] = 키[i] ^ 0x5c; } /* 남은 패드 바이트는 ipad 및 opad 값과 '\0' XOR됩니다. */ for ( ; i < blocksize; i++) { k_ipad[i] = 0x36; 컨텍스트->k_opad[i] = 0x5c; }

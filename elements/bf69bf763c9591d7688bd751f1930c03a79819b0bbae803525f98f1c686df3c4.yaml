@@ -1,0 +1,19 @@
+"hash": |-
+  bf69bf763c9591d7688bd751f1930c03a79819b0bbae803525f98f1c686df3c4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Authentication-Info  =  "Authentication-Info" HCOLON ainfo
+                          *(COMMA ainfo)
+  ainfo                =  nextnonce / message-qop
+                           / response-auth / cnonce
+                           / nonce-count
+  nextnonce            =  "nextnonce" EQUAL nonce-value
+  response-auth        =  "rspauth" EQUAL response-digest
+  response-digest      =  LDQUOT *LHEX RDQUOT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

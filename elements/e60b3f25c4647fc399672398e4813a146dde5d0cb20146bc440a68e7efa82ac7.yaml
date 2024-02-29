@@ -1,0 +1,17 @@
+"hash": |-
+  e60b3f25c4647fc399672398e4813a146dde5d0cb20146bc440a68e7efa82ac7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This will only happen when the element sending the request to the
+        proxy (which may have been an endpoint) is a strict router.  This
+        rewrite on receive is necessary to enable backwards compatibility
+        with those elements.  It also allows elements following this
+        specification to preserve the Request-URI through strict-routing
+        proxies (see Section 12.2.1.1).
+"fixed": |-
+  - This will only happen when the element sending the request to the proxy (which may have been an endpoint) is a strict router.  This rewrite on receive is necessary to enable backwards compatibility with those elements.  It also allows elements following this specification to preserve the Request-URI through strict-routing proxies (see Section 12.2.1.1).
+"ko": |-
+  - 이는 요청을 프록시(엔드포인트일 수 있음)로 보내는 요소가 엄격한 라우터인 경우에만 발생합니다. 해당 요소와의 하위 호환성을 활성화하려면 수신 시 다시 작성해야 합니다. 또한 이 사양을 따르는 요소는 엄격한 라우팅 프록시를 통해 Request-URI를 보존할 수 있습니다(섹션 12.2.1.1 참조).

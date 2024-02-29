@@ -1,0 +1,18 @@
+"hash": |-
+  3840d490d79c3a0d5173c7f2cdf2d97f5f631a7a0ce95c27b999bac641e9e3f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     (a)  It is possible that the peer will not be able to determine which
+          authenticator ports are associated with which authenticators.
+          As a result, the EAP peer will be unable to utilize the
+          authenticator key cache in an efficient way, and will also be
+          unable to determine whether EAP keying material has been shared
+          outside its authorized scope, and therefore needs to be
+          considered compromised.
+"fixed": |-
+  (a)  It is possible that the peer will not be able to determine which authenticator ports are associated with which authenticators. As a result, the EAP peer will be unable to utilize the authenticator key cache in an efficient way, and will also be unable to determine whether EAP keying material has been shared outside its authorized scope, and therefore needs to be considered compromised.
+"ko": |-
+  (a) 피어는 어떤 인증자 포트가 어떤 인증자와 연관되어 있는지 확인하지 못할 수도 있습니다. 결과적으로 EAP 피어는 인증자 키 캐시를 효율적인 방식으로 활용할 수 없으며 EAP 키 자료가 승인된 범위 외부에서 공유되었는지 여부도 확인할 수 없으므로 손상된 것으로 간주해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  bb6ec930a1ce250eff1b83819a99100f5cdb5598d0defe7326c74c025e50edab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CWND determines how much data can be in transit in a round-trip time,
+     SND.WND determines how much data the sender is willing to store on
+     its side for possible retransmission due to loss, and RCV.WND
+     determines the ability of the receiver to accommodate that loss and
+     reorder received packets.  CWND never grows beyond RCV.WND.
+"fixed": |-
+  CWND determines how much data can be in transit in a round-trip time, SND.WND determines how much data the sender is willing to store on its side for possible retransmission due to loss, and RCV.WND determines the ability of the receiver to accommodate that loss and reorder received packets.  CWND never grows beyond RCV.WND.
+"ko": |-
+  CWND는 왕복 시간 동안 전송 가능한 데이터의 양을 결정하고, SND.WND는 손실로 인한 재전송 가능성을 위해 발신자가 자신 측에 저장할 데이터의 양을 결정하며, RCV.WND는 수신자의 능력을 결정합니다. 손실을 수용하고 수신된 패킷을 다시 정렬합니다. CWND는 RCV.WND 이상으로 커지지 않습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  751f58a31760ab5bad31b7a314dae0ddbab314837dfd93f27fad7471987a1665
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For the edge network, if multihoming is being used for robustness or
+     to change routing from time to time depending on measured ISP
+     behavior, the simplest approach will be to ensure that its ISPs in
+     fact carry its addresses in routing.  This will often require the
+     edge network to use provider-independent prefixes and exchange routes
+     with its ISPs with BGP, to ensure that its prefix is carried upstream
+     to the major transit ISPs.  Of necessity, this implies that the edge
+     network will be of a size and technical competence to qualify for a
+     separate address assignment and an autonomous system number from its
+     RIR.
+"fixed": |-
+  For the edge network, if multihoming is being used for robustness or to change routing from time to time depending on measured ISP behavior, the simplest approach will be to ensure that its ISPs in fact carry its addresses in routing.  This will often require the edge network to use provider-independent prefixes and exchange routes with its ISPs with BGP, to ensure that its prefix is carried upstream to the major transit ISPs.  Of necessity, this implies that the edge network will be of a size and technical competence to qualify for a separate address assignment and an autonomous system number from its RIR.
+"ko": |-
+  에지 네트워크의 경우 견고성을 위해 멀티호밍을 사용하거나 측정된 ISP 동작에 따라 때때로 라우팅을 변경하는 경우 가장 간단한 접근 방식은 ISP가 실제로 라우팅에서 해당 주소를 전달하는지 확인하는 것입니다. 이를 위해서는 에지 네트워크가 공급자 독립적인 접두사를 사용하고 BGP를 통해 ISP와 경로를 교환하여 해당 접두사가 주요 전송 ISP로 업스트림으로 전달되도록 해야 하는 경우가 많습니다. 필연적으로 이는 에지 네트워크가 RIR로부터 별도의 주소 할당 및 자율 시스템 번호를 받을 수 있는 규모와 기술 역량을 갖추고 있음을 의미합니다.

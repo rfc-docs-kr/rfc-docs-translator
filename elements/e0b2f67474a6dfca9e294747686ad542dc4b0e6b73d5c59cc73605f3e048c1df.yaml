@@ -1,0 +1,15 @@
+"hash": |-
+  e0b2f67474a6dfca9e294747686ad542dc4b0e6b73d5c59cc73605f3e048c1df
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Version ::= INTEGER { two-prime(0), multi(1) }
+         (CONSTRAINED BY
+           {-- version MUST
+      be multi if otherPrimeInfos present --})
+"fixed": |-
+  Version ::= INTEGER { two-prime(0), multi(1) }  -   (CONSTRAINED BY {-- version MUST be multi if otherPrimeInfos present --})
+"ko": |-
+  버전 ::= INTEGER { two-prime(0), multi(1) } - (CONSTRAINED BY {-- otherPrimeInfos가 있는 경우 버전은 다중이어야 합니다 --})

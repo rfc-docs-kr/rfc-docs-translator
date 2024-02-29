@@ -1,0 +1,16 @@
+"hash": |-
+  1934a03a8519922e459088824a5adda2256cd5997314e6acff5259434a0c6df9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  BasicOCSPResponse ::= SEQUENCE {
+    tbsResponseData          ResponseData,
+    signatureAlgorithm       AlgorithmIdentifier,
+    signature                BIT STRING,
+    certs                [0] EXPLICIT SEQUENCE OF Certificate OPTIONAL }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

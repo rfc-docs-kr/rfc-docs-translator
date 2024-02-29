@@ -1,0 +1,18 @@
+"hash": |-
+  7ab2b0557672e93e0c321dbf2fb1547ad2779db279170cc6669eb60edacf0ab9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  static void SHA384_512ProcessMessageBlock(SHA512Context *context);
+  static void SHA384_512Finalize(SHA512Context *context,
+    uint8_t Pad_Byte);
+  static void SHA384_512PadMessage(SHA512Context *context,
+    uint8_t Pad_Byte);
+  static int SHA384_512ResultN(SHA512Context *context,
+    uint8_t Message_Digest[ ], int HashSize);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

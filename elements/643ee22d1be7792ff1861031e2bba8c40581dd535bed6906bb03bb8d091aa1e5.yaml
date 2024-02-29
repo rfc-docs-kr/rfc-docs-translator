@@ -1,0 +1,18 @@
+"hash": |-
+  643ee22d1be7792ff1861031e2bba8c40581dd535bed6906bb03bb8d091aa1e5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  #ifndef USE_MODIFIED_MACROS
+  #define SHA_Ch(x,y,z)        (((x) & (y)) ^ ((~(x)) & (z)))
+  #define SHA_Maj(x,y,z)       (((x) & (y)) ^ ((x) & (z)) ^ ((y) & (z)))
+  #else /* USE_MODIFIED_MACROS */
+  /*
+   * The following definitions are equivalent and potentially faster.
+   */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

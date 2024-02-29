@@ -1,0 +1,22 @@
+"hash": |-
+  ae826f30855ce5a867504365e6a810e71a67b28fc701da9d4665be11855676c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The following procedures are used to construct a CANCEL request.  The
+     Request-URI, Call-ID, To, the numeric part of CSeq, and From header
+     fields in the CANCEL request MUST be identical to those in the
+     request being cancelled, including tags.  A CANCEL constructed by a
+     client MUST have only a single Via header field value matching the
+     top Via value in the request being cancelled.  Using the same values
+     for these header fields allows the CANCEL to be matched with the
+     request it cancels (Section 9.2 indicates how such matching occurs).
+     However, the method part of the CSeq header field MUST have a value
+     of CANCEL.  This allows it to be identified and processed as a
+     transaction in its own right (See Section 17).
+"fixed": |-
+  The following procedures are used to construct a CANCEL request.  The Request-URI, Call-ID, To, the numeric part of CSeq, and From header fields in the CANCEL request MUST be identical to those in the request being cancelled, including tags.  A CANCEL constructed by a client MUST have only a single Via header field value matching the top Via value in the request being cancelled.  Using the same values for these header fields allows the CANCEL to be matched with the request it cancels (Section 9.2 indicates how such matching occurs). However, the method part of the CSeq header field MUST have a value of CANCEL.  This allows it to be identified and processed as a transaction in its own right (See Section 17).
+"ko": |-
+  다음 절차는 CANCEL 요청을 구성하는 데 사용됩니다. CANCEL 요청의 Request-URI, Call-ID, To, CSeq의 숫자 부분 및 From 헤더 필드는 태그를 포함하여 취소되는 요청의 필드와 동일해야 합니다. 클라이언트가 생성한 CANCEL에는 취소되는 요청의 상위 Via 값과 일치하는 단일 Via 헤더 필드 값만 있어야 합니다. 이러한 헤더 필드에 동일한 값을 사용하면 CANCEL이 취소된 요청과 일치될 수 있습니다(섹션 9.2에서는 이러한 일치가 발생하는 방법을 나타냅니다). 그러나 CSeq 헤더 필드의 메소드 부분은 CANCEL 값을 가져야 합니다. 이를 통해 자체적으로 거래로 식별되고 처리될 수 있습니다(섹션 17 참조).

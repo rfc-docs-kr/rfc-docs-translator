@@ -1,0 +1,23 @@
+"hash": |-
+  8318913bd41ef12d0cb9d62d9684ea6567ecc5fbd78054997e5ebff1bd7aba87
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* Unified SHA functions, chosen by whichSha */
+  extern int USHAReset(USHAContext *context, SHAversion whichSha);
+  extern int USHAInput(USHAContext *context,
+                       const uint8_t *bytes, unsigned int bytecount);
+  extern int USHAFinalBits(USHAContext *context,
+                           uint8_t bits, unsigned int bit_count);
+  extern int USHAResult(USHAContext *context,
+                        uint8_t Message_Digest[USHAMaxHashSize]);
+  extern int USHABlockSize(enum SHAversion whichSha);
+  extern int USHAHashSize(enum SHAversion whichSha);
+  extern int USHAHashSizeBits(enum SHAversion whichSha);
+  extern const char *USHAHashName(enum SHAversion whichSha);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

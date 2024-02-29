@@ -1,0 +1,20 @@
+"hash": |-
+  b922ddcd2bcfc116b764070192bfbecf016859c2eb6f7ed97cda9b2668bcbb8c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Clients MUST NOT generate a request with a Host header field that
+        differs from the ":authority" pseudo-header field.  A server
+        SHOULD treat a request as malformed if it contains a Host header
+        field that identifies an entity that differs from the entity in
+        the ":authority" pseudo-header field.  The values of fields need
+        to be normalized to compare them (see Section 6.2 of [RFC3986]).
+        An origin server can apply any normalization method, whereas other
+        servers MUST perform scheme-based normalization (see Section 6.2.3
+        of [RFC3986]) of the two fields.
+"fixed": |-
+  - Clients MUST NOT generate a request with a Host header field that differs from the ":authority" pseudo-header field.  A server SHOULD treat a request as malformed if it contains a Host header field that identifies an entity that differs from the entity in the ":authority" pseudo-header field.  The values of fields need to be normalized to compare them (see Section 6.2 of [RFC3986]). An origin server can apply any normalization method, whereas other servers MUST perform scheme-based normalization (see Section 6.2.3 of [RFC3986]) of the two fields.
+"ko": |-
+  - 클라이언트는 ":authority" 의사 헤더 필드와 다른 Host 헤더 필드를 사용하여 요청을 생성해서는 안 됩니다. 서버는 ":authority" 의사 헤더 필드의 엔터티와 다른 엔터티를 식별하는 Host 헤더 필드가 포함된 요청을 잘못된 형식으로 처리해야 합니다(SHOULD). 필드 값을 비교하려면 정규화해야 합니다([RFC3986]의 섹션 6.2 참조). 원서버는 모든 정규화 방법을 적용할 수 있는 반면, 다른 서버는 두 필드의 체계 기반 정규화([RFC3986]의 섹션 6.2.3 참조)를 수행해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  925d3b43e4f6135e2a6e5c90a9c91a643152cd7a811303dcfce2893bb68e3e3e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MAY use renegotiation to provide confidentiality
+     protection for client credentials offered in the handshake, but any
+     renegotiation MUST occur prior to sending the connection preface.  A
+     server SHOULD request a client certificate if it sees a renegotiation
+     request immediately after establishing a connection.
+"fixed": |-
+  An endpoint MAY use renegotiation to provide confidentiality protection for client credentials offered in the handshake, but any renegotiation MUST occur prior to sending the connection preface.  A server SHOULD request a client certificate if it sees a renegotiation request immediately after establishing a connection.
+"ko": |-
+  엔드포인트는 재협상을 사용하여 핸드셰이크에서 제공되는 클라이언트 자격 증명에 대한 기밀 보호를 제공할 수 있지만 모든 재협상은 연결 서문을 보내기 전에 이루어져야 합니다. 서버는 연결 설정 직후 재협상 요청을 확인하는 경우 클라이언트 인증서를 요청해야 합니다(SHOULD).

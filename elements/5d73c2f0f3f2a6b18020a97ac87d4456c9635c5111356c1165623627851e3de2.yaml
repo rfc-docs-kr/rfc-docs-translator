@@ -1,0 +1,14 @@
+"hash": |-
+  5d73c2f0f3f2a6b18020a97ac87d4456c9635c5111356c1165623627851e3de2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Values above the maximum flow-control window size of 2^31-1 MUST
+        be treated as a connection error (Section 5.4.1) of type
+        FLOW_CONTROL_ERROR.
+"fixed": |-
+  - Values above the maximum flow-control window size of 2^31-1 MUST be treated as a connection error (Section 5.4.1) of type FLOW_CONTROL_ERROR.
+"ko": |-
+  - 최대 흐름 제어 창 크기인 2^31-1을 초과하는 값은 FLOW_CONTROL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

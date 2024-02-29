@@ -1,0 +1,15 @@
+"hash": |-
+  95e2bf44543eb7ed0854e7883b8a87435215eec9da5ba658765d83e33adebcfc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server retransmits the 2xx response for 64*T1 seconds without
+     receiving an ACK, the dialog is confirmed, but the session SHOULD be
+     terminated.  This is accomplished with a BYE, as described in Section
+     15.
+"fixed": |-
+  If the server retransmits the 2xx response for 64*T1 seconds without receiving an ACK, the dialog is confirmed, but the session SHOULD be terminated.  This is accomplished with a BYE, as described in Section 15.
+"ko": |-
+  서버가 ACK를 받지 않고 64*T1초 동안 2xx 응답을 재전송하는 경우 대화 상자는 확인되지만 세션은 종료되어야 합니다. 이는 섹션 15에 설명된 대로 BYE를 통해 수행됩니다.

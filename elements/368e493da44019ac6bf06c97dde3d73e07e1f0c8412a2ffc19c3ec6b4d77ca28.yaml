@@ -1,0 +1,16 @@
+"hash": |-
+  368e493da44019ac6bf06c97dde3d73e07e1f0c8412a2ffc19c3ec6b4d77ca28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a Date header is present in a message with a signed body, the
+     recipient SHOULD compare the header field value with its own internal
+     clock, if applicable.  If a significant time discrepancy is detected
+     (on the order of an hour or more), the user agent SHOULD alert the
+     user to the anomaly, and note that it is a potential security breach.
+"fixed": |-
+  If a Date header is present in a message with a signed body, the recipient SHOULD compare the header field value with its own internal clock, if applicable.  If a significant time discrepancy is detected (on the order of an hour or more), the user agent SHOULD alert the user to the anomaly, and note that it is a potential security breach.
+"ko": |-
+  서명된 본문이 있는 메시지에 날짜 헤더가 있는 경우 수신자는 헤더 필드 값을 자체 내부 시계와 비교해야 합니다(해당되는 경우). 상당한 시간 불일치가 감지되면(약 1시간 이상) 사용자 에이전트는 사용자에게 예외 사항을 경고하고 잠재적인 보안 위반임을 알려야 합니다.

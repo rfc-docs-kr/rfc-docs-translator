@@ -1,0 +1,19 @@
+"hash": |-
+  2274ac64d6bc4821de7a4843cad5c19786f802e6e0e627d5d6fd78131221cb16
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (info == 0) {
+      info = (const unsigned char *)"";
+      info_len = 0;
+    } else if (info_len < 0) {
+      return shaBadParam;
+    }
+    if (okm_len <= 0) return shaBadParam;
+    if (!okm) return shaBadParam;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

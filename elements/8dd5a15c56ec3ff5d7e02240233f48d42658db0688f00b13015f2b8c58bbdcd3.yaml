@@ -1,0 +1,16 @@
+"hash": |-
+  8dd5a15c56ec3ff5d7e02240233f48d42658db0688f00b13015f2b8c58bbdcd3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |OLD| Description: The client's TLS Finished message (note: the
+        |OLD| Finished struct) from the first handshake of the connection
+        |OLD| (note: connection, not session, so that the channel binding
+        |OLD| is specific to each connection regardless of whether session
+        |OLD| resumption is used).
+"fixed": |-
+  - |OLD| Description: The client's TLS Finished message (note: the |OLD| Finished struct) from the first handshake of the connection |OLD| (note: connection, not session, so that the channel binding |OLD| is specific to each connection regardless of whether session |OLD| resumption is used).
+"ko": |-
+  - |오래된| 설명: |OLD| 연결의 첫 번째 핸드셰이크에서 발생한 클라이언트의 TLS 완료 메시지(참고: |OLD| 완료 구조체) (참고: 세션이 아닌 연결이므로 채널 바인딩 |OLD|는 세션 |OLD| 재개 사용 여부에 관계없이 각 연결에만 적용됩니다.)

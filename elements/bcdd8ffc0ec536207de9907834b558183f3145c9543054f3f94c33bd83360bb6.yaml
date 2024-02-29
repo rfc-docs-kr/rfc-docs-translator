@@ -1,0 +1,26 @@
+"hash": |-
+  bcdd8ffc0ec536207de9907834b558183f3145c9543054f3f94c33bd83360bb6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  hkdfExpand
+   *
+   *  Description:
+   *      This function will perform HKDF expansion.
+   *
+   *  Parameters:
+   *      whichSha: [in]
+   *          One of SHA1, SHA224, SHA256, SHA384, SHA512
+   *      prk[ ]: [in]
+   *          The pseudo-random key to be expanded; either obtained
+   *          directly from a cryptographically strong, uniformly
+   *          distributed pseudo-random number generator, or as the
+   *          output from hkdfExtract().
+   *      prk_len: [in]
+"fixed": |-
+  /* *  hkdfExpand * *  Description: *      This function will perform HKDF expansion. * *  Parameters: *      whichSha: [in] *          One of SHA1, SHA224, SHA256, SHA384, SHA512 *      prk[ ]: [in] *          The pseudo-random key to be expanded; either obtained *          directly from a cryptographically strong, uniformly *          distributed pseudo-random number generator, or as the *          output from hkdfExtract(). *      prk_len: [in]
+"ko": |-
+  /* * hkdfExpand * * 설명: * 이 함수는 HKDF 확장을 수행합니다. * * 매개변수: * whichSha: [in] * SHA1, SHA224, SHA256, SHA384, SHA512 중 하나 * prk[ ]: [in] * 확장할 의사 난수 키; * 암호화가 강력하고 균일하게 분산된 * 의사 난수 생성기에서 직접 얻거나 * hkdfExtract()의 출력으로 * 얻습니다. * prk_len: [입력]

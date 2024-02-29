@@ -1,0 +1,18 @@
+"hash": |-
+  55bf516792d226ddda30d7348885c6bbf5b0729cfbef7f672a73e02ce6ff05ef
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * HKDF HMAC-based Extract-and-Expand Key Derivation Function,
+   * RFC 5869, for all SHAs.
+   * This interface allows any length of text input to be used.
+   */
+  extern int hkdfReset(HKDFContext *context, enum SHAversion whichSha,
+                       const unsigned char *salt, int salt_len);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

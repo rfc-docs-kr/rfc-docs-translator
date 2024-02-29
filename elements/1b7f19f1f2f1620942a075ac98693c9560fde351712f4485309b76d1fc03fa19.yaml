@@ -1,0 +1,25 @@
+"hash": |-
+  1b7f19f1f2f1620942a075ac98693c9560fde351712f4485309b76d1fc03fa19
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In RADIUS, the shared secret used for authentication is determined by
+     the source address of the RADIUS packet.  However, when RADIUS
+     Access-Requests are forwarded by a proxy, the NAS-IP-Address,
+     NAS-Identifier, or NAS-IPv6-Address attributes received by the RADIUS
+     server will not correspond to the source address.  As noted in
+     [RFC3579] Section 4.3.7, if the first-hop proxy does not check the
+     NAS identification attributes against the source address in the
+     Access-Request packet, it is possible for a rogue authenticator to
+     forge NAS-IP-Address [RFC2865], NAS-IPv6-Address [RFC3162], or
+     NAS-Identifier [RFC2865] attributes in order to impersonate another
+     authenticator; attributes such as the Called-Station-Id [RFC2865] and
+     Calling-Station-Id [RFC2865] can be forged as well.  Among other
+     things, this can result in messages (and transported keying material)
+     being sent to the wrong authenticator.
+"fixed": |-
+  In RADIUS, the shared secret used for authentication is determined by the source address of the RADIUS packet.  However, when RADIUS Access-Requests are forwarded by a proxy, the NAS-IP-Address, NAS-Identifier, or NAS-IPv6-Address attributes received by the RADIUS server will not correspond to the source address.  As noted in [RFC3579] Section 4.3.7, if the first-hop proxy does not check the NAS identification attributes against the source address in the Access-Request packet, it is possible for a rogue authenticator to forge NAS-IP-Address [RFC2865], NAS-IPv6-Address [RFC3162], or NAS-Identifier [RFC2865] attributes in order to impersonate another authenticator; attributes such as the Called-Station-Id [RFC2865] and Calling-Station-Id [RFC2865] can be forged as well.  Among other things, this can result in messages (and transported keying material) being sent to the wrong authenticator.
+"ko": |-
+  RADIUS에서 인증에 사용되는 공유 비밀은 RADIUS 패킷의 소스 주소에 따라 결정됩니다. 그러나 RADIUS 액세스 요청이 프록시에 의해 전달되는 경우 RADIUS 서버가 수신한 NAS-IP-주소, NAS-식별자 또는 NAS-IPv6-주소 속성은 소스 주소와 일치하지 않습니다. [RFC3579] 섹션 4.3.7에 언급된 바와 같이, 첫 번째 홉 프록시가 액세스 요청 패킷의 소스 주소에 대해 NAS 식별 속성을 확인하지 않으면 불량 인증자가 NAS-IP 주소를 위조할 수 있습니다. RFC2865], NAS-IPv6-Address [RFC3162] 또는 NAS-Identifier [RFC2865] 속성을 사용하여 다른 인증자를 가장합니다. Called-Station-Id [RFC2865] 및 Calling-Station-Id [RFC2865]와 같은 속성도 위조될 수 있습니다. 무엇보다도 이로 인해 메시지(및 전송된 키 자료)가 잘못된 인증자에게 전송될 수 있습니다.

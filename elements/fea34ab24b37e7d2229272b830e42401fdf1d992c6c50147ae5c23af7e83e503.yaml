@@ -1,0 +1,18 @@
+"hash": |-
+  fea34ab24b37e7d2229272b830e42401fdf1d992c6c50147ae5c23af7e83e503
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints SHOULD always send a GOAWAY frame before closing a
+     connection so that the remote peer can know whether a stream has been
+     partially processed or not.  For example, if an HTTP client sends a
+     POST at the same time that a server closes a connection, the client
+     cannot know if the server started to process that POST request if the
+     server does not send a GOAWAY frame to indicate what streams it might
+     have acted on.
+"fixed": |-
+  Endpoints SHOULD always send a GOAWAY frame before closing a connection so that the remote peer can know whether a stream has been partially processed or not.  For example, if an HTTP client sends a POST at the same time that a server closes a connection, the client cannot know if the server started to process that POST request if the server does not send a GOAWAY frame to indicate what streams it might have acted on.
+"ko": |-
+  엔드포인트는 연결을 닫기 전에 항상 GOAWAY 프레임을 보내야 원격 피어가 스트림이 부분적으로 처리되었는지 여부를 알 수 있습니다. 예를 들어, HTTP 클라이언트가 서버가 연결을 닫는 것과 동시에 POST를 보내는 경우, 서버가 어떤 스트림을 가질 수 있는지 나타내기 위해 GOAWAY 프레임을 보내지 않으면 서버가 해당 POST 요청 처리를 시작했는지 여부를 클라이언트는 알 수 없습니다. 행동했습니다.

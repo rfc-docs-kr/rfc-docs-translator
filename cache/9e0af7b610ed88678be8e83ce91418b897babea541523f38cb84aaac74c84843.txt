@@ -1,0 +1,1 @@
+UAC가 대화를 시작하는 S/MIME 본문이 포함된 요청을 보내거나 대화 컨텍스트 외부에서 INVITE가 아닌 요청을 보내는 경우 UAC는 본문을 S/MIME 'multipart/signed' CMS SignedData 본문으로 구성해야 합니다. . 원하는 CMS 서비스가 EnvelopedData이고 대상 사용자의 공개 키가 알려진 경우 UAC는 SignedData 메시지 내에 캡슐화된 EnvelopedData 메시지를 보내야 합니다.

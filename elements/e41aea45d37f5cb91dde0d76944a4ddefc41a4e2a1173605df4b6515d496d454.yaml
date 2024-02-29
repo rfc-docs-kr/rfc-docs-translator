@@ -1,0 +1,29 @@
+"hash": |-
+  e41aea45d37f5cb91dde0d76944a4ddefc41a4e2a1173605df4b6515d496d454
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA1FinalBits
+   *
+   * Description:
+   *   This function will add in any final bits of the message.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The SHA context to update.
+   *   message_bits: [in]
+   *     The final bits of the message, in the upper portion of the
+   *     byte.  (Use 0b###00000 instead of 0b00000### to input the
+   *     three bits ###.)
+   *   length: [in]
+   *     The number of bits in message_bits, between 1 and 7.
+   *
+   * Returns:
+   *   sha Error Code.
+"fixed": |-
+  /* * SHA1FinalBits * * Description: *   This function will add in any final bits of the message. * * Parameters: *   context: [in/out] *     The SHA context to update. *   message_bits: [in] *     The final bits of the message, in the upper portion of the *     byte.  (Use 0b###00000 instead of 0b00000### to input the *     three bits ###.) *   length: [in] *     The number of bits in message_bits, between 1 and 7. * * Returns: *   sha Error Code.
+"ko": |-
+  /* * SHA1FinalBits * * 설명: * 이 함수는 메시지의 마지막 비트를 추가합니다. * * 매개변수: * context: [in/out] * 업데이트할 SHA 컨텍스트입니다. * message_bits: [in] * 바이트의 상위 부분에 있는 메시지의 마지막 비트입니다. (* 3비트 ###를 입력하려면 0b00000### 대신 0b###00000을 사용하십시오.) * 길이: [in] * message_bits의 비트 수(1에서 7 사이). * * 반환: * sha 오류 암호.

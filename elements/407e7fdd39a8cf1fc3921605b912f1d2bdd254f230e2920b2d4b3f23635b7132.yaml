@@ -1,0 +1,14 @@
+"hash": |-
+  407e7fdd39a8cf1fc3921605b912f1d2bdd254f230e2920b2d4b3f23635b7132
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Receiving any type of frame other than HEADERS, RST_STREAM, or
+        PRIORITY on a stream in this state MUST be treated as a connection
+        error (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  - Receiving any type of frame other than HEADERS, RST_STREAM, or PRIORITY on a stream in this state MUST be treated as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  - 이 상태의 스트림에서 HEADERS, RST_STREAM 또는 PRIORITY 이외의 모든 유형의 프레임을 수신하는 것은 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

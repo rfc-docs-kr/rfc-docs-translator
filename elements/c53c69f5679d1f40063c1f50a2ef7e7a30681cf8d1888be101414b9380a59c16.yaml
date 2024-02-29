@@ -1,0 +1,19 @@
+"hash": |-
+  c53c69f5679d1f40063c1f50a2ef7e7a30681cf8d1888be101414b9380a59c16
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As noted in "IEEE 802.1X RADIUS Usage Guidelines" [RFC3580], the AAA
+     exchange resulting from EAP pre-authentication differs little from an
+     ordinary exchange described in "RADIUS Support for EAP" [RFC3579].
+     For example, since in IEEE 802.11 [IEEE-802.11] an Association
+     exchange does not occur prior to EAP pre-authentication, the SSID is
+     not known by the authenticator at authentication time, so that an
+     Access-Request cannot include the SSID within the Called-Station-Id
+     attribute as described in [RFC3580] Section 3.20.
+"fixed": |-
+  As noted in "IEEE 802.1X RADIUS Usage Guidelines" [RFC3580], the AAA exchange resulting from EAP pre-authentication differs little from an ordinary exchange described in "RADIUS Support for EAP" [RFC3579]. For example, since in IEEE 802.11 [IEEE-802.11] an Association exchange does not occur prior to EAP pre-authentication, the SSID is not known by the authenticator at authentication time, so that an Access-Request cannot include the SSID within the Called-Station-Id attribute as described in [RFC3580] Section 3.20.
+"ko": |-
+  "IEEE 802.1X RADIUS 사용 지침" [RFC3580]에 명시된 바와 같이 EAP 사전 인증으로 인한 AAA 교환은 "EAP에 대한 RADIUS 지원" [RFC3579]에 설명된 일반 교환과 거의 다르지 않습니다. 예를 들어, IEEE 802.11 [IEEE-802.11]에서는 EAP 사전 인증 이전에 연관 교환이 발생하지 않기 때문에 SSID는 인증 시 인증자에 의해 알려지지 않으므로 액세스 요청은 호출된 SSID 내에 SSID를 포함할 수 없습니다. - [RFC3580] 섹션 3.20에 설명된 Station-Id 속성.

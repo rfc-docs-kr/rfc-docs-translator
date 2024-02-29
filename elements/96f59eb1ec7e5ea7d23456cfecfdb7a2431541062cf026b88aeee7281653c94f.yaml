@@ -1,0 +1,18 @@
+"hash": |-
+  96f59eb1ec7e5ea7d23456cfecfdb7a2431541062cf026b88aeee7281653c94f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If the selected response contains a Record-Route header field
+           value originally provided by this proxy, the proxy MAY choose
+           to rewrite the value before forwarding the response.  This
+           allows the proxy to provide different URIs for itself to the
+           next upstream and downstream elements.  A proxy may choose to
+           use this mechanism for any reason.  For instance, it is useful
+           for multi-homed hosts.
+"fixed": |-
+  - If the selected response contains a Record-Route header field value originally provided by this proxy, the proxy MAY choose to rewrite the value before forwarding the response.  This allows the proxy to provide different URIs for itself to the next upstream and downstream elements.  A proxy may choose to use this mechanism for any reason.  For instance, it is useful for multi-homed hosts.
+"ko": |-
+  - 선택한 응답에 이 프록시가 원래 제공한 Record-Route 헤더 필드 값이 포함되어 있는 경우 프록시는 응답을 전달하기 전에 값을 다시 쓰도록 선택할 수 있습니다. 이를 통해 프록시는 다음 업스트림 및 다운스트림 요소에 자체적으로 다른 URI를 제공할 수 있습니다. 프록시는 어떤 이유로든 이 메커니즘을 사용하도록 선택할 수 있습니다. 예를 들어 다중 홈 호스트에 유용합니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  b0362dcb187770ba6b684f19bee85a2f55280980d636b0a66d1f2dde9c8bb050
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A SIPS URI can be used as an address-of-record for a particular user
+     - the URI by which the user is canonically known (on their business
+     cards, in the From header field of their requests, in the To header
+     field of REGISTER requests).  When used as the Request-URI of a
+     request, the SIPS scheme signifies that each hop over which the
+     request is forwarded, until the request reaches the SIP entity
+     responsible for the domain portion of the Request-URI, must be
+     secured with TLS; once it reaches the domain in question it is
+     handled in accordance with local security and routing policy, quite
+     possibly using TLS for any last hop to a UAS.  When used by the
+     originator of a request (as would be the case if they employed a SIPS
+     URI as the address-of-record of the target), SIPS dictates that the
+     entire request path to the target domain be so secured.
+"fixed": |-
+  A SIPS URI can be used as an address-of-record for a particular user - the URI by which the user is canonically known (on their business cards, in the From header field of their requests, in the To header field of REGISTER requests).  When used as the Request-URI of a request, the SIPS scheme signifies that each hop over which the request is forwarded, until the request reaches the SIP entity responsible for the domain portion of the Request-URI, must be secured with TLS; once it reaches the domain in question it is handled in accordance with local security and routing policy, quite possibly using TLS for any last hop to a UAS.  When used by the originator of a request (as would be the case if they employed a SIPS URI as the address-of-record of the target), SIPS dictates that the entire request path to the target domain be so secured.
+"ko": |-
+  SIPS URI는 특정 사용자에 대한 레코드 주소로 사용될 수 있습니다. 즉, 사용자가 정식으로 알려진 URI(명함, 요청의 From 헤더 필드, REGISTER 요청의 To 헤더 필드)로 사용될 수 있습니다. ). 요청의 요청-URI로 사용되는 경우 SIPS 체계는 요청이 요청-URI의 도메인 부분을 담당하는 SIP 엔터티에 도달할 때까지 요청이 전달되는 각 홉이 TLS로 보호되어야 함을 나타냅니다. 문제의 도메인에 도달하면 로컬 보안 및 라우팅 정책에 따라 처리되며 UAS에 대한 마지막 홉에 TLS를 사용할 가능성이 높습니다. 요청 발신자가 SIPS URI를 대상의 레코드 주소로 사용하는 경우와 같이 사용하는 경우 SIPS는 대상 도메인에 대한 전체 요청 경로가 매우 안전하게 보호되도록 지시합니다.

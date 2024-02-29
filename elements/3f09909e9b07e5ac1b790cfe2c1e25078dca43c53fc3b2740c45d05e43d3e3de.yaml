@@ -1,0 +1,22 @@
+"hash": |-
+  3f09909e9b07e5ac1b790cfe2c1e25078dca43c53fc3b2740c45d05e43d3e3de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An extension to TCP supporting MD5 authentication was developed in
+     1998 specifically to authenticate BGP connections (although it can be
+     used for any TCP connection) [20].  The extension relies on a pre-
+     shared secret key to authenticate the entire TCP segment, including
+     the data, TCP header, and TCP pseudo-header (certain fields of the IP
+     header).  All segments are protected, including RSTs, to be accepted
+     only when their signature matches.  This option, although widely
+     deployed in Internet routers, is considered undeployable for
+     widespread use because the need for pre-shared keys [3][30].  It
+     further is considered computationally expensive for either hosts or
+     routers due to the overhead of MD5 [43][44].
+"fixed": |-
+  An extension to TCP supporting MD5 authentication was developed in 1998 specifically to authenticate BGP connections (although it can be used for any TCP connection) [20].  The extension relies on a pre- shared secret key to authenticate the entire TCP segment, including the data, TCP header, and TCP pseudo-header (certain fields of the IP header).  All segments are protected, including RSTs, to be accepted only when their signature matches.  This option, although widely deployed in Internet routers, is considered undeployable for widespread use because the need for pre-shared keys [3][30].  It further is considered computationally expensive for either hosts or routers due to the overhead of MD5 [43][44].
+"ko": |-
+  MD5 인증을 지원하는 TCP 확장은 BGP 연결을 인증하기 위해 특별히 1998년에 개발되었습니다(모든 TCP 연결에 사용할 수 있음)[20]. 확장은 미리 공유된 비밀 키를 사용하여 데이터, TCP 헤더 및 TCP 의사 헤더(IP 헤더의 특정 필드)를 포함한 전체 TCP 세그먼트를 인증합니다. RST를 포함한 모든 세그먼트는 서명이 일치하는 경우에만 허용되도록 보호됩니다. 이 옵션은 인터넷 라우터에 널리 배포되어 있지만 사전 공유 키가 필요하기 때문에 널리 사용하기에는 배포할 수 없는 것으로 간주됩니다[3][30]. 또한 MD5 [43][44]의 오버헤드로 인해 호스트나 라우터에 대해 계산 비용이 많이 드는 것으로 간주됩니다.

@@ -1,0 +1,26 @@
+"hash": |-
+  8f7cb923c22702873c9768f7c5d15ac2e632048c4f7fbc06e4b06a4d9c456989
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Compare two strings, case independently.
+   * Equivalent to strcasecmp() found on some systems.
+   */
+  int scasecmp(const char *s1, const char *s2)
+  {
+    for (;;) {
+      char u1 = tolower((int)(unsigned char)(*s1++));
+      char u2 = tolower((int)(unsigned char)(*s2++));
+      if (u1 != u2)
+        return u1 - u2;
+      if (u1 == '\0')
+        return 0;
+     }
+  }
+"fixed": |-
+  /* * Compare two strings, case independently. * Equivalent to strcasecmp() found on some systems. */ int scasecmp(const char *s1, const char *s2) { for (;;) { char u1 = tolower((int)(unsigned char)(*s1++)); char u2 = tolower((int)(unsigned char)(*s2++)); if (u1 != u2) return u1 - u2; if (u1 == '\0') return 0; } }
+"ko": |-
+  /* * 두 문자열을 대소문자 구분 없이 비교합니다. * 일부 시스템에서 발견되는 strcasecmp()와 동일합니다. */ int scasecmp(const char *s1, const char *s2) { for (;;) { char u1 = tolower((int)(unsigned char)(*s1++)); char u2 = tolower((int)(unsigned char)(*s2++)); if (u1 != u2) return u1 - u2; if (u1 == '\0') 0을 반환; } }

@@ -1,0 +1,26 @@
+"hash": |-
+  4b3c32284f54da817de791638881c4841e3dd39c9c36e4a67dd4fde9af54d2e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The relative order of header fields with different field names is not
+     significant.  However, it is RECOMMENDED that header fields which are
+     needed for proxy processing (Via, Route, Record-Route, Proxy-Require,
+     Max-Forwards, and Proxy-Authorization, for example) appear towards
+     the top of the message to facilitate rapid parsing.  The relative
+     order of header field rows with the same field name is important.
+     Multiple header field rows with the same field-name MAY be present in
+     a message if and only if the entire field-value for that header field
+     is defined as a comma-separated list (that is, if follows the grammar
+     defined in Section 7.3).  It MUST be possible to combine the multiple
+     header field rows into one "field-name: field-value" pair, without
+     changing the semantics of the message, by appending each subsequent
+     field-value to the first, each separated by a comma.  The exceptions
+     to this rule are the WWW-Authenticate, Authorization, Proxy-
+     Authenticate, and Proxy-Authorization header fields.  Multiple header
+"fixed": |-
+  The relative order of header fields with different field names is not significant.  However, it is RECOMMENDED that header fields which are needed for proxy processing (Via, Route, Record-Route, Proxy-Require, Max-Forwards, and Proxy-Authorization, for example) appear towards the top of the message to facilitate rapid parsing.  The relative order of header field rows with the same field name is important. Multiple header field rows with the same field-name MAY be present in a message if and only if the entire field-value for that header field is defined as a comma-separated list (that is, if follows the grammar defined in Section 7.3).  It MUST be possible to combine the multiple header field rows into one "field-name: field-value" pair, without changing the semantics of the message, by appending each subsequent field-value to the first, each separated by a comma.  The exceptions to this rule are the WWW-Authenticate, Authorization, Proxy- Authenticate, and Proxy-Authorization header fields.  Multiple header
+"ko": |-
+  필드 이름이 다른 헤더 필드의 상대적 순서는 중요하지 않습니다. 그러나 프록시 처리에 필요한 헤더 필드(예: Via, Route, Record-Route, Proxy-Require, Max-Forwards 및 Proxy-Authorization)는 빠른 구문 분석을 용이하게 하기 위해 메시지 상단에 표시되는 것이 좋습니다. . 필드 이름이 동일한 헤더 필드 행의 상대적 순서가 중요합니다. 동일한 field-name을 가진 여러 헤더 필드 행은 해당 헤더 필드의 전체 field-value가 쉼표로 구분된 목록으로 정의된 경우(즉, 섹션 7.3에 정의된 문법을 따르는 경우)에만 메시지에 존재할 수 있습니다. . 메시지의 의미를 변경하지 않고 여러 헤더 필드 행을 하나의 "필드-이름: 필드-값" 쌍으로 결합하는 것이 가능해야 하며, 각 후속 필드 값을 첫 번째 항목에 추가하고 각각을 쉼표로 구분해야 합니다. 이 규칙의 예외는 WWW-Authenticate, Authorization, Proxy-Authenticate 및 Proxy-Authorization 헤더 필드입니다. 다중 헤더

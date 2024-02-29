@@ -1,0 +1,16 @@
+"hash": |-
+  226ebb04f4ea7e5f8e8f1e729c9974e337593cd475a46fb8dab6c4c75d3bd9b5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Where protocols layered above RDDP use privacy protection, RDDP
+           offload cannot be done.  Thus, by using channel binding to
+           IPsec, the privacy protection is moved to IPsec, which is
+           layered below RDDP.  So, RDDP can address application protocol
+           data that's in cleartext relative to the RDDP headers.
+"fixed": |-
+  - Where protocols layered above RDDP use privacy protection, RDDP offload cannot be done.  Thus, by using channel binding to IPsec, the privacy protection is moved to IPsec, which is layered below RDDP.  So, RDDP can address application protocol data that's in cleartext relative to the RDDP headers.
+"ko": |-
+  - RDDP 위에 계층화된 프로토콜이 개인 정보 보호를 사용하는 경우 RDDP 오프로드를 수행할 수 없습니다. 따라서 IPsec에 대한 채널 바인딩을 사용하면 개인 정보 보호가 RDDP 아래 계층인 IPsec로 이동됩니다. 따라서 RDDP는 RDDP 헤더와 관련된 일반 텍스트로 된 애플리케이션 프로토콜 데이터를 처리할 수 있습니다.

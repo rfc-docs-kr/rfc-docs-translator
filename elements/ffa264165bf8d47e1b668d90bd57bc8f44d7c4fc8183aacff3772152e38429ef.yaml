@@ -1,0 +1,17 @@
+"hash": |-
+  ffa264165bf8d47e1b668d90bd57bc8f44d7c4fc8183aacff3772152e38429ef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           3-6xx responses are delivered hop-by-hop.  When issuing a 3-6xx
+           response, the element is effectively acting as a UAS, issuing
+           its own response, usually based on the responses received from
+           downstream elements.  An element SHOULD preserve the To tag
+           when simply forwarding a 3-6xx response to a request that did
+           not contain a To tag.
+"fixed": |-
+  - 3-6xx responses are delivered hop-by-hop.  When issuing a 3-6xx response, the element is effectively acting as a UAS, issuing its own response, usually based on the responses received from downstream elements.  An element SHOULD preserve the To tag when simply forwarding a 3-6xx response to a request that did not contain a To tag.
+"ko": |-
+  - 3-6xx 응답은 hop-by-hop으로 전달됩니다. 3-6xx 응답을 발행할 때 요소는 일반적으로 다운스트림 요소로부터 수신된 응답을 기반으로 자체 응답을 발행하는 UAS 역할을 효과적으로 수행합니다. To 태그가 포함되지 않은 요청에 3-6xx 응답을 단순히 전달할 때 요소는 To 태그를 유지해야 합니다.

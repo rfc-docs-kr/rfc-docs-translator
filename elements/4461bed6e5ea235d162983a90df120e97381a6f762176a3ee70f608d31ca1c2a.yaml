@@ -1,0 +1,14 @@
+"hash": |-
+  4461bed6e5ea235d162983a90df120e97381a6f762176a3ee70f608d31ca1c2a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        comment  =  LPAREN *(ctext / quoted-pair / comment) RPAREN
+        ctext    =  %x21-27 / %x2A-5B / %x5D-7E / UTF8-NONASCII
+                    / LWS
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  0f0a3cefd74aa3699cbaee12c9072cc2ccf9f46e620469da4308c02ea1cdfc81
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A stateful proxy MAY transition to stateless operation at any time
+     during the processing of a request, so long as it did not do anything
+     that would otherwise prevent it from being stateless initially
+     (forking, for example, or generation of a 100 response).  When
+     performing such a transition, all state is simply discarded.  The
+     proxy SHOULD NOT initiate a CANCEL request.
+"fixed": |-
+  A stateful proxy MAY transition to stateless operation at any time during the processing of a request, so long as it did not do anything that would otherwise prevent it from being stateless initially (forking, for example, or generation of a 100 response).  When performing such a transition, all state is simply discarded.  The proxy SHOULD NOT initiate a CANCEL request.
+"ko": |-
+  상태 저장 프록시는 처음에 상태 비저장을 방지하는 작업(예: 포크 또는 100 응답 생성)을 수행하지 않는 한 요청을 처리하는 동안 언제든지 상태 비저장 작업으로 전환할 수 있습니다. 이러한 전환을 수행하면 모든 상태가 삭제됩니다. 프록시는 CANCEL 요청을 시작해서는 안 됩니다.

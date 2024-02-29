@@ -1,0 +1,16 @@
+"hash": |-
+  f983c44988edfc1f0fd2ae44e49b55a71dece10e2e901cff11dfc3fdbbbdb918
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In all of the above cases, the request is retried by creating a new
+     request with the appropriate modifications.  This new request
+     constitutes a new transaction and SHOULD have the same value of the
+     Call-ID, To, and From of the previous request, but the CSeq should
+     contain a new sequence number that is one higher than the previous.
+"fixed": |-
+  In all of the above cases, the request is retried by creating a new request with the appropriate modifications.  This new request constitutes a new transaction and SHOULD have the same value of the Call-ID, To, and From of the previous request, but the CSeq should contain a new sequence number that is one higher than the previous.
+"ko": |-
+  위의 모든 경우에 적절하게 수정하여 새 요청을 생성하여 요청을 재시도합니다. 이 새로운 요청은 새로운 트랜잭션을 구성하며 이전 요청의 Call-ID, To 및 From 값과 동일해야 하지만 CSeq에는 이전 요청보다 하나 더 높은 새 시퀀스 번호가 포함되어야 합니다.

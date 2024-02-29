@@ -1,0 +1,24 @@
+"hash": |-
+  091b355ab70108f7dc633370b9fcde370934304e7ca2f2e8985088b92cdd11e7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (printResults == PRINTTEXT) {
+      printf("\nTest %d: Iteration %d\n\tSALT\t'", testno+1, loopno);
+      printxstr(hkdfhashes[testno].saltarray,
+        hkdfhashes[testno].saltlength);
+      printf("'\n\tIKM\t'");
+      printxstr(hkdfhashes[testno].ikmarray,
+        hkdfhashes[testno].ikmlength);
+      printf("'\n\tINFO\t'");
+      printxstr(hkdfhashes[testno].infoarray,
+        hkdfhashes[testno].infolength);
+      printf("'\n");
+      printf("    L=%d bytes\n", hkdfhashes[testno].okmlength);
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,44 @@
+"hash": |-
+  150d6bcb3389fb9c6f79bdad74414b621e3cd5757e9482d5c1c5afa826ce437e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * hkdfResult
+   *
+   * Description:
+   *   This function will finish the HKDF extraction and perform the
+   *   final HKDF expansion.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The HKDF context to use to calculate the HKDF hash.
+   *   prk[ ]: [out]
+   *     An optional location to store the HKDF extraction.
+   *     Either NULL, or pointer to a buffer that must be
+   *     larger than USHAHashSize(whichSha);
+   *   info[ ]: [in]
+   *     The optional context and application specific information.
+   *     If info == NULL or a zero-length string, it is ignored.
+   *   info_len: [in]
+   *     The length of the optional context and application specific
+   *     information.  (Ignored if info == NULL.)
+   *   okm[ ]: [out]
+   *     Where the HKDF is to be stored.
+   *   okm_len: [in]
+   *     The length of the buffer to hold okm.
+   *     okm_len must be <= 255 * USHABlockSize(whichSha)
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  int hkdfResult(HKDFContext *context,
+                 uint8_t prk[USHAMaxHashSize],
+                 const unsigned char *info, int info_len,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

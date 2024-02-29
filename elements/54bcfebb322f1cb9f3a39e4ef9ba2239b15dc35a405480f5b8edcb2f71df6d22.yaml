@@ -1,0 +1,23 @@
+"hash": |-
+  54bcfebb322f1cb9f3a39e4ef9ba2239b15dc35a405480f5b8edcb2f71df6d22
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To illustrate the risks related to the employment of an RSA key pair
+     in more than one scheme, suppose an RSA key pair is employed in both
+     RSAES-OAEP (Section 7.1) and RSAES-PKCS1-v1_5.  Although RSAES-OAEP
+     by itself would resist attack, an opponent might be able to exploit a
+     weakness in the implementation of RSAES-PKCS1-v1_5 to recover
+     messages encrypted with either scheme.  As another example, suppose
+     an RSA key pair is employed in both RSASSA-PSS (Section 8.1) and
+     RSASSA-PKCS1-v1_5.  Then the security proof for RSASSA-PSS would no
+     longer be sufficient since the proof does not account for the
+     possibility that signatures might be generated with a second scheme.
+     Similar considerations may apply if an RSA key pair is employed in
+     one of the schemes defined here and in a variant defined elsewhere.
+"fixed": |-
+  To illustrate the risks related to the employment of an RSA key pair in more than one scheme, suppose an RSA key pair is employed in both RSAES-OAEP (Section 7.1) and RSAES-PKCS1-v1_5.  Although RSAES-OAEP by itself would resist attack, an opponent might be able to exploit a weakness in the implementation of RSAES-PKCS1-v1_5 to recover messages encrypted with either scheme.  As another example, suppose an RSA key pair is employed in both RSASSA-PSS (Section 8.1) and RSASSA-PKCS1-v1_5.  Then the security proof for RSASSA-PSS would no longer be sufficient since the proof does not account for the possibility that signatures might be generated with a second scheme. Similar considerations may apply if an RSA key pair is employed in one of the schemes defined here and in a variant defined elsewhere.
+"ko": |-
+  둘 이상의 체계에서 RSA 키 쌍 사용과 관련된 위험을 설명하기 위해 RSAES-OAEP(섹션 7.1) 및 RSAES-PKCS1-v1_5 모두에서 RSA 키 쌍이 사용된다고 가정합니다. RSAES-OAEP 자체는 공격에 저항하지만 상대방은 RSAES-PKCS1-v1_5 구현의 약점을 악용하여 두 체계 중 하나로 암호화된 메시지를 복구할 수 있습니다. 또 다른 예로, RSASSA-PSS(섹션 8.1)와 RSASSA-PKCS1-v1_5 모두에 RSA 키 쌍이 사용된다고 가정해 보겠습니다. 그러면 RSASSA-PSS에 대한 보안 증명은 두 번째 체계로 서명이 생성될 가능성을 고려하지 않기 때문에 더 이상 충분하지 않습니다. RSA 키 쌍이 여기에 정의된 체계 중 하나와 다른 곳에 정의된 변형에 사용되는 경우 유사한 고려 사항이 적용될 수 있습니다.

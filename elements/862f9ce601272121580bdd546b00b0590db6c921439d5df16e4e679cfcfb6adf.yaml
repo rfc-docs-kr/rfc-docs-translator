@@ -1,0 +1,17 @@
+"hash": |-
+  862f9ce601272121580bdd546b00b0590db6c921439d5df16e4e679cfcfb6adf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The definitions of field names and values in HTTP prohibit some
+     characters that HPACK might be able to convey.  HTTP/2
+     implementations SHOULD validate field names and values according to
+     their definitions in Sections 5.1 and 5.5 of [HTTP], respectively,
+     and treat messages that contain prohibited characters as malformed
+     (Section 8.1.1).
+"fixed": |-
+  The definitions of field names and values in HTTP prohibit some characters that HPACK might be able to convey.  HTTP/2 implementations SHOULD validate field names and values according to their definitions in Sections 5.1 and 5.5 of [HTTP], respectively, and treat messages that contain prohibited characters as malformed (Section 8.1.1).
+"ko": |-
+  HTTP의 필드 이름과 값 정의는 HPACK이 전달할 수 있는 일부 문자를 금지합니다. HTTP/2 구현은 각각 [HTTP]의 섹션 5.1과 5.5의 정의에 따라 필드 이름과 값의 유효성을 검사해야 하며, 금지된 문자를 포함하는 메시지를 잘못된 형식으로 처리해야 합니다(섹션 8.1.1).

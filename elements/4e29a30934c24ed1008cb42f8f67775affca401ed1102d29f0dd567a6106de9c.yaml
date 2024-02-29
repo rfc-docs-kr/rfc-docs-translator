@@ -1,0 +1,52 @@
+"hash": |-
+  4e29a30934c24ed1008cb42f8f67775affca401ed1102d29f0dd567a6106de9c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * USHAResult
+   *
+   * Description:
+   *   This function will return the message digest of the appropriate
+   *   bit size, as returned by USHAHashSizeBits(whichSHA) for the
+   *   'whichSHA' value used in the preceeding call to USHAReset,
+   *   into the Message_Digest array provided by the caller.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The context to use to calculate the SHA-1 hash.
+   *   Message_Digest: [out]
+   *     Where the digest is returned.
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  int USHAResult(USHAContext *context,
+                 uint8_t Message_Digest[USHAMaxHashSize])
+  {
+    if (!context) return shaNull;
+    switch (context->whichSha) {
+      case SHA1:
+        return SHA1Result((SHA1Context*)&context->ctx, Message_Digest);
+      case SHA224:
+        return SHA224Result((SHA224Context*)&context->ctx,
+                            Message_Digest);
+      case SHA256:
+        return SHA256Result((SHA256Context*)&context->ctx,
+                            Message_Digest);
+      case SHA384:
+        return SHA384Result((SHA384Context*)&context->ctx,
+                            Message_Digest);
+      case SHA512:
+        return SHA512Result((SHA512Context*)&context->ctx,
+                            Message_Digest);
+      default: return shaBadParam;
+    }
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

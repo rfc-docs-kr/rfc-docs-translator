@@ -1,0 +1,1 @@
+또는 로컬 아웃바운드 프록시가 없는 "carol@chicago.com" ID를 주장하는 UA를 고려해 보세요. Carol이 "bob@biloxi.com"으로 INVITE를 보내려고 할 때, 그녀의 UA는 biloxi 프록시와의 TLS 연결을 직접 시작해야 합니다(주어진 Request-URI에 가장 잘 도달하는 방법을 결정하기 위해 [4]에 설명된 메커니즘을 사용함). . 그녀의 UA가 biloxi 프록시로부터 인증서를 수신하면 TLS 연결을 통해 INVITE를 전달하기 전에 정상적으로 확인되어야 합니다. 하지만 Carol은 증명할 수단이 없습니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  fcd8f080d4484a94dd4e87c6029a3f7bc7ec664362cee45433c9d7799cff0eb4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (t = 16; t < 80; t++, t2 += 2) {
+      /* W[t] = SHA512_sigma1(W[t-2]) + W[t-7] +
+        SHA512_sigma0(W[t-15]) + W[t-16]; */
+      uint32_t *Wt2 = &W[t2-2*2];
+      uint32_t *Wt7 = &W[t2-7*2];
+      uint32_t *Wt15 = &W[t2-15*2];
+      uint32_t *Wt16 = &W[t2-16*2];
+      SHA512_sigma1(Wt2, temp1);
+      SHA512_ADD(temp1, Wt7, temp2);
+      SHA512_sigma0(Wt15, temp1);
+      SHA512_ADD(temp1, Wt16, temp3);
+      SHA512_ADD(temp2, temp3, &W[t2]);
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

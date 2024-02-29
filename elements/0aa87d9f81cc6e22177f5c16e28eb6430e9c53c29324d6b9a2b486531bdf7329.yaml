@@ -1,0 +1,16 @@
+"hash": |-
+  0aa87d9f81cc6e22177f5c16e28eb6430e9c53c29324d6b9a2b486531bdf7329
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  saltLength is the octet length of the salt.  It SHALL be an
+        integer.  For a given hashAlgorithm, the default value of
+        saltLength is the octet length of the hash value.  Unlike the
+        other fields of type RSASSA-PSS-params, saltLength does not need
+        to be fixed for a given RSA key pair.
+"fixed": |-
+  -  saltLength is the octet length of the salt.  It SHALL be an integer.  For a given hashAlgorithm, the default value of saltLength is the octet length of the hash value.  Unlike the other fields of type RSASSA-PSS-params, saltLength does not need to be fixed for a given RSA key pair.
+"ko": |-
+  - saltLength는 솔트의 옥텟 길이입니다. 이는 정수여야 합니다. 지정된 hashAlgorithm의 경우 saltLength의 기본값은 해시 값의 옥텟 길이입니다. RSASSA-PSS-params 유형의 다른 필드와 달리 saltLength는 지정된 RSA 키 쌍에 대해 수정될 필요가 없습니다.

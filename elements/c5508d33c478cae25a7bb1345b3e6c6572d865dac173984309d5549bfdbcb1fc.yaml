@@ -1,0 +1,16 @@
+"hash": |-
+  c5508d33c478cae25a7bb1345b3e6c6572d865dac173984309d5549bfdbcb1fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a single physical authenticator advertises itself as multiple
+     virtual authenticators, if the virtual authenticators do not maintain
+     logically separate key caches, then by authenticating to one virtual
+     authenticator, the peer can gain access to the other virtual
+     authenticators sharing a key cache.
+"fixed": |-
+  When a single physical authenticator advertises itself as multiple virtual authenticators, if the virtual authenticators do not maintain logically separate key caches, then by authenticating to one virtual authenticator, the peer can gain access to the other virtual authenticators sharing a key cache.
+"ko": |-
+  단일 물리적 인증자가 자신을 여러 가상 인증자로 광고할 때 가상 인증자가 논리적으로 별도의 키 캐시를 유지하지 않는 경우 하나의 가상 인증자에 인증함으로써 피어는 키 캐시를 공유하는 다른 가상 인증자에 액세스할 수 있습니다.

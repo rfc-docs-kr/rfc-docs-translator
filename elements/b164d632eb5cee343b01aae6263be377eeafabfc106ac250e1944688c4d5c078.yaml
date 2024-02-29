@@ -1,0 +1,51 @@
+"hash": |-
+  b164d632eb5cee343b01aae6263be377eeafabfc106ac250e1944688c4d5c078
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                     |Request from TU
+                                     |send request
+                 Timer E             V
+                 send request  +-----------+
+                     +---------|           |-------------------+
+                     |         |  Trying   |  Timer F          |
+                     +-------->|           |  or Transport Err.|
+                               +-----------+  inform TU        |
+                  200-699         |  |                         |
+                  resp. to TU     |  |1xx                      |
+                  +---------------+  |resp. to TU              |
+                  |                  |                         |
+                  |   Timer E        V       Timer F           |
+                  |   send req +-----------+ or Transport Err. |
+                  |  +---------|           | inform TU         |
+                  |  |         |Proceeding |------------------>|
+                  |  +-------->|           |-----+             |
+                  |            +-----------+     |1xx          |
+                  |              |      ^        |resp to TU   |
+                  | 200-699      |      +--------+             |
+                  | resp. to TU  |                             |
+                  |              |                             |
+                  |              V                             |
+                  |            +-----------+                   |
+                  |            |           |                   |
+                  |            | Completed |                   |
+                  |            |           |                   |
+                  |            +-----------+                   |
+                  |              ^   |                         |
+                  |              |   | Timer K                 |
+                  +--------------+   | -                       |
+                                     |                         |
+                                     V                         |
+               NOTE:           +-----------+                   |
+                               |           |                   |
+           transitions         | Terminated|<------------------+
+           labeled with        |           |
+           the event           +-----------+
+           over the action
+           to take
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

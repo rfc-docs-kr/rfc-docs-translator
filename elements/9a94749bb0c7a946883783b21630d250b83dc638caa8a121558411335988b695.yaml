@@ -1,0 +1,17 @@
+"hash": |-
+  9a94749bb0c7a946883783b21630d250b83dc638caa8a121558411335988b695
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The biloxi proxy has a policy for Bob that all non-authenticated
+     requests should be redirected to the appropriate contact address
+     registered against 'bob@biloxi.com', namely <sip:bob@192.0.2.4>.
+     Carol receives the redirection response over the TLS connection she
+     established with the biloxi proxy, so she trusts the veracity of the
+     contact address.
+"fixed": |-
+  The biloxi proxy has a policy for Bob that all non-authenticated requests should be redirected to the appropriate contact address registered against 'bob@biloxi.com', namely <sip:bob@192.0.2.4>. Carol receives the redirection response over the TLS connection she established with the biloxi proxy, so she trusts the veracity of the contact address.
+"ko": |-
+  biloxi 프록시에는 인증되지 않은 모든 요청이 'bob@biloxi.com'에 등록된 적절한 연락처 주소, 즉 <sip:bob@192.0.2.4>로 리디렉션되어야 한다는 Bob에 대한 정책이 있습니다. Carol은 빌록시 프록시와 설정한 TLS 연결을 통해 리디렉션 응답을 수신하므로 연락처 주소의 정확성을 신뢰합니다.

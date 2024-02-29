@@ -1,0 +1,17 @@
+"hash": |-
+  89339302b107008c768684ad382d1357f619f6ace219c2358cf82bf3cb11ae4a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If this request is already part of a dialog, the proxy SHOULD
+           insert a Record-Route header field value if it wishes to remain
+           on the path of future requests in the dialog.  In normal
+           endpoint operation as described in Section 12, these Record-
+           Route header field values will not have any effect on the route
+           sets used by the endpoints.
+"fixed": |-
+  - If this request is already part of a dialog, the proxy SHOULD insert a Record-Route header field value if it wishes to remain on the path of future requests in the dialog.  In normal endpoint operation as described in Section 12, these Record- Route header field values will not have any effect on the route sets used by the endpoints.
+"ko": |-
+  - 이 요청이 이미 대화 상자의 일부인 경우 프록시는 대화 상자의 향후 요청 경로에 남아 있으려면 Record-Route 헤더 필드 값을 삽입해야 합니다. 섹션 12에 설명된 일반적인 끝점 작업에서 이러한 Record-Route 헤더 필드 값은 끝점에서 사용되는 경로 집합에 어떤 영향도 미치지 않습니다.

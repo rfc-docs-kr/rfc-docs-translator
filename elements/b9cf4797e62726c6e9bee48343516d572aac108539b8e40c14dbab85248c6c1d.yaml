@@ -1,0 +1,20 @@
+"hash": |-
+  b9cf4797e62726c6e9bee48343516d572aac108539b8e40c14dbab85248c6c1d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RSASSA-PSS is different from other RSA-based signature schemes in
+     that it is probabilistic rather than deterministic, incorporating a
+     randomly generated salt value.  The salt value enhances the security
+     of the scheme by affording a "tighter" security proof than
+     deterministic alternatives such as Full Domain Hashing (FDH); see
+     [RSARABIN] for discussion.  However, the randomness is not critical
+     to security.  In situations where random generation is not possible,
+     a fixed value or a sequence number could be employed instead, with
+     the resulting provable security similar to that of FDH [FDH].
+"fixed": |-
+  RSASSA-PSS is different from other RSA-based signature schemes in that it is probabilistic rather than deterministic, incorporating a randomly generated salt value.  The salt value enhances the security of the scheme by affording a "tighter" security proof than deterministic alternatives such as Full Domain Hashing (FDH); see [RSARABIN] for discussion.  However, the randomness is not critical to security.  In situations where random generation is not possible, a fixed value or a sequence number could be employed instead, with the resulting provable security similar to that of FDH [FDH].
+"ko": |-
+  RSASSA-PSS는 무작위로 생성된 솔트 값을 통합하여 결정론적이기보다는 확률적이라는 점에서 다른 RSA 기반 서명 체계와 다릅니다. 솔트 값은 FDH(Full Domain Hashing)와 같은 결정론적 대안보다 "더 엄격한" 보안 증명을 제공하여 체계의 보안을 강화합니다. 토론은 [RSARABIN]을 참조하세요. 그러나 무작위성은 보안에 중요하지 않습니다. 무작위 생성이 불가능한 상황에서는 고정된 값이나 시퀀스 번호를 대신 사용할 수 있으며 결과적으로 FDH[FDH]와 유사한 입증 가능한 보안을 얻을 수 있습니다.

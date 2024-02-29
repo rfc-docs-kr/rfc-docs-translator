@@ -1,0 +1,23 @@
+"hash": |-
+  fa3e888f057829020b487f07e5ace135e84d8b3ab0cc167b8a917d2d6ae1f4f9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (i = 0; i < repeatcount; ++i) {
+      err = info ? hkdfInput(&hkdf, (const uint8_t *)testarray, length) :
+            keyarray ? hmacInput(&hmac, (const uint8_t *) testarray,
+                                 length) :
+                       USHAInput(&sha, (const uint8_t *) testarray,
+                                 length);
+      if (err != shaSuccess) {
+        fprintf(stderr, "hash(): %sInput Error %d.\n",
+                info ? "hkdf" : keyarray ? "hmac" : "sha", err);
+        return err;
+      }
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

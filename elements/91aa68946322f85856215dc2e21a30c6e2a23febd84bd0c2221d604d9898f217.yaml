@@ -1,0 +1,18 @@
+"hash": |-
+  91aa68946322f85856215dc2e21a30c6e2a23febd84bd0c2221d604d9898f217
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If the URI placed in the Record-Route header field needs to be
+           rewritten when it passes back through in a response, the URI
+           MUST be distinct enough to locate at that time.  (The request
+           may spiral through this proxy, resulting in more than one
+           Record-Route header field value being added).  Item 8 of
+           Section 16.7 recommends a mechanism to make the URI
+           sufficiently distinct.
+"fixed": |-
+  - If the URI placed in the Record-Route header field needs to be rewritten when it passes back through in a response, the URI MUST be distinct enough to locate at that time.  (The request may spiral through this proxy, resulting in more than one Record-Route header field value being added).  Item 8 of Section 16.7 recommends a mechanism to make the URI sufficiently distinct.
+"ko": |-
+  - Record-Route 헤더 필드에 있는 URI가 응답을 다시 통과할 때 다시 작성되어야 하는 경우 URI는 해당 시점에 찾을 수 있을 만큼 충분히 구별되어야 합니다. (요청이 이 프록시를 통과하여 둘 이상의 Record-Route 헤더 필드 값이 추가될 수 있습니다.) 섹션 16.7의 항목 8에서는 URI를 충분히 구별할 수 있는 메커니즘을 권장합니다.

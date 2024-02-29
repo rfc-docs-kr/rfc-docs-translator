@@ -1,0 +1,40 @@
+"hash": |-
+  5d1722e3069839e940300d466e159d5841fb9d4f3b6de45d7c0becb6a138ab17
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  hkdfReset
+   *
+   *  Description:
+   *      This function will initialize the hkdfContext in preparation
+   *      for key derivation using the modular HKDF interface for
+   *      arbitrary length inputs.
+   *
+   *  Parameters:
+   *      context: [in/out]
+   *          The context to reset.
+   *      whichSha: [in]
+   *          One of SHA1, SHA224, SHA256, SHA384, SHA512
+   *      salt[ ]: [in]
+   *          The optional salt value (a non-secret random value);
+   *          if not provided (salt == NULL), it is set internally
+   *          to a string of HashLen(whichSha) zeros.
+   *      salt_len: [in]
+   *          The length of the salt value.  (Ignored if salt == NULL.)
+   *
+   *  Returns:
+   *      sha Error Code.
+   *
+   */
+  int hkdfReset(HKDFContext *context, enum SHAversion whichSha,
+                const unsigned char *salt, int salt_len)
+  {
+    unsigned char nullSalt[USHAMaxHashSize];
+    if (!context) return shaNull;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

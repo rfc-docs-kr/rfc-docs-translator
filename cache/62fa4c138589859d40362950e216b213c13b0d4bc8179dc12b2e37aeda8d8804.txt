@@ -1,0 +1,1 @@
+- SIPS URI 체계에서 전송은 TLS와 독립적이므로 "sips:alice@atlanta.com;transport=tcp" 및 "sips:alice@atlanta.com;transport=sctp"는 모두 유효합니다(단, UDP는 SIPS에 대한 유효한 전송이 아닙니다. 결과적으로 "transport=tls" 사용은 요청의 단일 홉에만 국한되었기 때문에 더 이상 사용되지 않습니다. 이는 RFC 2543 이후 변경된 사항입니다.

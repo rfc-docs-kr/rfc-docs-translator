@@ -1,0 +1,18 @@
+"hash": |-
+  ba828e2155bec0c052fa7a164df0709cccc00b5951dd7ddd8d5b217e3cb66a4c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        int hmac(SHAversion whichSha,
+                    const unsigned char *text, int text_len,
+                    const unsigned char *key, int key_len,
+                    uint8_t Message_Digest[USHAMaxHashSize]);
+              Calculate the given digest for the given text and key, and
+              return the resulting MAC.  Octets in Message_Digest beyond
+              USHAHashSize(whichSha) are left untouched.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

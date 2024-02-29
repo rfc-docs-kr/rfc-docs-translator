@@ -1,0 +1,13 @@
+"hash": |-
+  badcf02c42c9cddf6e51d8183567bcfe3fcbd890f57b382f134a3843628f2fa5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  Note: The client never sends a frame with the END_STREAM flag
+        |  set for a server push.
+"fixed": |-
+  - |  Note: The client never sends a frame with the END_STREAM flag |  set for a server push.
+"ko": |-
+  - | 참고: 클라이언트는 END_STREAM 플래그 | 서버 푸시로 설정되었습니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  871f11ae8f305751ec8a1319638b8ccce939709f8ca0ced72bee8ecd1effbe05
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  In RFC 2543, a proxy was not required to forward provisional
+        responses from 101 to 199 upstream.  This was changed to MUST.
+        This is important, since many subsequent features depend on
+        delivery of all provisional responses from 101 to 199.
+"fixed": |-
+  -  In RFC 2543, a proxy was not required to forward provisional responses from 101 to 199 upstream.  This was changed to MUST. This is important, since many subsequent features depend on delivery of all provisional responses from 101 to 199.
+"ko": |-
+  - RFC 2543에서는 임시 응답을 101에서 199 업스트림으로 전달하는 데 프록시가 필요하지 않았습니다. MUST로 변경되었습니다. 많은 후속 기능이 101에서 199까지의 모든 임시 응답 전달에 의존하기 때문에 이는 중요합니다.

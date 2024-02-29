@@ -1,0 +1,24 @@
+"hash": |-
+  d814b8c4f7af928757d65a401df330d7cf712b44d2220281710fec80909f3d8e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The destination for the request is then computed.  Unless there is
+     local policy specifying otherwise, the destination MUST be determined
+     by applying the DNS procedures described in [4] as follows.  If the
+     first element in the route set indicated a strict router (resulting
+     in forming the request as described in Section 12.2.1.1), the
+     procedures MUST be applied to the Request-URI of the request.
+     Otherwise, the procedures are applied to the first Route header field
+     value in the request (if one exists), or to the request's Request-URI
+     if there is no Route header field present.  These procedures yield an
+     ordered set of address, port, and transports to attempt.  Independent
+     of which URI is used as input to the procedures of [4], if the
+     Request-URI specifies a SIPS resource, the UAC MUST follow the
+     procedures of [4] as if the input URI were a SIPS URI.
+"fixed": |-
+  The destination for the request is then computed.  Unless there is local policy specifying otherwise, the destination MUST be determined by applying the DNS procedures described in [4] as follows.  If the first element in the route set indicated a strict router (resulting in forming the request as described in Section 12.2.1.1), the procedures MUST be applied to the Request-URI of the request. Otherwise, the procedures are applied to the first Route header field value in the request (if one exists), or to the request's Request-URI if there is no Route header field present.  These procedures yield an ordered set of address, port, and transports to attempt.  Independent of which URI is used as input to the procedures of [4], if the Request-URI specifies a SIPS resource, the UAC MUST follow the procedures of [4] as if the input URI were a SIPS URI.
+"ko": |-
+  그런 다음 요청 대상이 계산됩니다. 달리 지정하는 로컬 정책이 없는 한, 다음과 같이 [4]에 설명된 DNS 절차를 적용하여 대상을 결정해야 합니다. 경로 집합의 첫 번째 요소가 엄격한 라우터를 나타내는 경우(섹션 12.2.1.1에 설명된 대로 요청을 형성하는 결과) 절차는 요청의 요청-URI에 적용되어야 합니다. 그렇지 않은 경우 절차는 요청의 첫 번째 Route 헤더 필드 값(존재하는 경우)에 적용되거나 Route 헤더 필드가 없는 경우 요청의 Request-URI에 적용됩니다. 이러한 절차를 통해 시도할 주소, 포트 및 전송의 순서가 지정된 집합이 생성됩니다. [4]의 절차에 대한 입력으로 어떤 URI가 사용되는지에 관계없이 요청-URI가 SIPS 리소스를 지정하는 경우 UAC는 입력 URI가 SIPS URI인 것처럼 [4]의 절차를 따라야 합니다.

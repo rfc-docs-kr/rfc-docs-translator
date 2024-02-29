@@ -1,0 +1,16 @@
+"hash": |-
+  1774cb4532221b39feca669575b19935d0cbeb4fe70777f56d7928423a2bdf0f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     First, the procedures in [4] are followed, which attempt to deliver
+     the response to a backup.  If those should all fail, based on the
+     definition of failure in [4], the server transaction SHOULD inform
+     the TU that a failure has occurred, and SHOULD transition to the
+     terminated state.
+"fixed": |-
+  First, the procedures in [4] are followed, which attempt to deliver the response to a backup.  If those should all fail, based on the definition of failure in [4], the server transaction SHOULD inform the TU that a failure has occurred, and SHOULD transition to the terminated state.
+"ko": |-
+  먼저, 백업에 대한 응답 전달을 시도하는 [4]의 절차를 따른다. [4]의 실패 정의에 따라 모두 실패하는 경우 서버 트랜잭션은 TU에 실패가 발생했음을 알리고 종료된 상태로 전환해야 합니다(SHOULD).

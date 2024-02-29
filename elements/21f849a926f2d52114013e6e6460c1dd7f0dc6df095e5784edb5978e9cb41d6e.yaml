@@ -1,0 +1,18 @@
+"hash": |-
+  21f849a926f2d52114013e6e6460c1dd7f0dc6df095e5784edb5978e9cb41d6e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           When the proxy is aggregating information from several
+           responses, choosing a To tag from among them is arbitrary, and
+           generating a new To tag may make debugging easier.  This
+           happens, for instance, when combining 401 (Unauthorized) and
+           407 (Proxy Authentication Required) challenges, or combining
+           Contact values from unencrypted and unauthenticated 3xx
+           responses.
+"fixed": |-
+  - When the proxy is aggregating information from several responses, choosing a To tag from among them is arbitrary, and generating a new To tag may make debugging easier.  This happens, for instance, when combining 401 (Unauthorized) and 407 (Proxy Authentication Required) challenges, or combining Contact values from unencrypted and unauthenticated 3xx responses.
+"ko": |-
+  - 프록시가 여러 응답의 정보를 집계할 때 그 중에서 To 태그를 선택하는 것은 임의적이며 새 To 태그를 생성하면 디버깅이 더 쉬워질 수 있습니다. 예를 들어 401(무단 인증) 및 407(프록시 인증 필요) 문제를 결합하거나 암호화되지 않은 및 인증되지 않은 3xx 응답의 연락처 값을 결합하는 경우 이런 일이 발생합니다.

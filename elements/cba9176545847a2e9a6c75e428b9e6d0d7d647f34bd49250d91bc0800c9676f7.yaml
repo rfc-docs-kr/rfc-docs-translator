@@ -1,0 +1,21 @@
+"hash": |-
+  cba9176545847a2e9a6c75e428b9e6d0d7d647f34bd49250d91bc0800c9676f7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     */
+  #ifdef USE_32BIT_ONLY
+    context->Message_Block[112] = (uint8_t)(context->Length[0] >> 24);
+    context->Message_Block[113] = (uint8_t)(context->Length[0] >> 16);
+    context->Message_Block[114] = (uint8_t)(context->Length[0] >> 8);
+    context->Message_Block[115] = (uint8_t)(context->Length[0]);
+    context->Message_Block[116] = (uint8_t)(context->Length[1] >> 24);
+    context->Message_Block[117] = (uint8_t)(context->Length[1] >> 16);
+    context->Message_Block[118] = (uint8_t)(context->Length[1] >> 8);
+    context->Message_Block[119] = (uint8_t)(context->Length[1]);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

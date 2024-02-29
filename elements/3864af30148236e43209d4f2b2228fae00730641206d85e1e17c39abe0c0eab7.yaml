@@ -1,0 +1,16 @@
+"hash": |-
+  3864af30148236e43209d4f2b2228fae00730641206d85e1e17c39abe0c0eab7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (!context) return shaNull;
+    if (!length) return shaSuccess;
+    if (context->Corrupted) return context->Corrupted;
+    if (context->Computed) return context->Corrupted = shaStateError;
+    if (length >= 8) return context->Corrupted = shaBadParam;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

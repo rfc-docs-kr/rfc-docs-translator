@@ -1,0 +1,12 @@
+"hash": |-
+  1522bbc6c18d353ee42059d8c1ed906a1fe0727ff1b6930a73360ad707ceeec1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        3.   If emLen < hLen + sLen + 2, output "encoding error" and stop.
+"fixed": |-
+  1.   If emLen < hLen + sLen + 2, output "encoding error" and stop.
+"ko": |-
+  1. emLen < hLen + sLen + 2이면 "encoding error"를 출력하고 중지합니다.

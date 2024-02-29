@@ -1,0 +1,16 @@
+"hash": |-
+  093ab83787d87b910824aa48f2c0a409a9ef84b1a07fc3f981de34c8168656f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        3. If the request has a tag in the To header field but the dialog
+           identifier does not match any of the existing dialogs, the UAS
+           may have crashed and restarted, or may have received a request
+           for a different (possibly failed) UAS.  Section 12.2.2 provides
+           guidelines to achieve a robust behavior under such a situation.
+"fixed": |-
+  1. If the request has a tag in the To header field but the dialog identifier does not match any of the existing dialogs, the UAS may have crashed and restarted, or may have received a request for a different (possibly failed) UAS.  Section 12.2.2 provides guidelines to achieve a robust behavior under such a situation.
+"ko": |-
+  1. 요청의 To 헤더 필드에 태그가 있지만 대화 상자 식별자가 기존 대화 상자와 일치하지 않는 경우 UAS가 충돌하여 다시 시작되었거나 다른(실패할 수 있는) UAS에 대한 요청을 받았을 수 있습니다. 섹션 12.2.2에서는 이러한 상황에서 강력한 동작을 달성하기 위한 지침을 제공합니다.

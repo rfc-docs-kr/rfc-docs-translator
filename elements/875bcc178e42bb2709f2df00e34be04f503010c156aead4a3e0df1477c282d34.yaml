@@ -1,0 +1,27 @@
+"hash": |-
+  875bcc178e42bb2709f2df00e34be04f503010c156aead4a3e0df1477c282d34
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     PKCS1Algorithms    ALGORITHM-IDENTIFIER ::= {
+         { OID rsaEncryption                PARAMETERS NULL } |
+         { OID md2WithRSAEncryption         PARAMETERS NULL } |
+         { OID md5WithRSAEncryption         PARAMETERS NULL } |
+         { OID sha1WithRSAEncryption        PARAMETERS NULL } |
+         { OID sha224WithRSAEncryption      PARAMETERS NULL } |
+         { OID sha256WithRSAEncryption      PARAMETERS NULL } |
+         { OID sha384WithRSAEncryption      PARAMETERS NULL } |
+         { OID sha512WithRSAEncryption      PARAMETERS NULL } |
+         { OID sha512-224WithRSAEncryption  PARAMETERS NULL } |
+         { OID sha512-256WithRSAEncryption  PARAMETERS NULL } |
+         { OID id-RSAES-OAEP   PARAMETERS RSAES-OAEP-params } |
+         PKCS1PSourceAlgorithms                               |
+         { OID id-RSASSA-PSS   PARAMETERS RSASSA-PSS-params },
+         ...  -- Allows for future expansion --
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

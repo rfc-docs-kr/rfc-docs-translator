@@ -1,0 +1,23 @@
+"hash": |-
+  d186a0958a9b69f1204c2dddddce9d368dce6e87ab5d0ccc20abbb5d177e8d8b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     of the request.  If the certificate cannot be verified, because it is
+     self-signed, or signed by no known authority, or if it is verifiable
+     but its subject does not correspond to the From header field of
+     request, the UAS MUST notify its user of the status of the
+     certificate (including the subject of the certificate, its signer,
+     and any key fingerprint information) and request explicit permission
+     before proceeding.  If the certificate was successfully verified and
+     the subject of the certificate corresponds to the From header field
+     of the SIP request, or if the user (after notification) explicitly
+     authorizes the use of the certificate, the UAS SHOULD add this
+     certificate to a local keyring, indexed by the address-of-record of
+     the holder of the certificate.
+"fixed": |-
+  of the request.  If the certificate cannot be verified, because it is self-signed, or signed by no known authority, or if it is verifiable but its subject does not correspond to the From header field of request, the UAS MUST notify its user of the status of the certificate (including the subject of the certificate, its signer, and any key fingerprint information) and request explicit permission before proceeding.  If the certificate was successfully verified and the subject of the certificate corresponds to the From header field of the SIP request, or if the user (after notification) explicitly authorizes the use of the certificate, the UAS SHOULD add this certificate to a local keyring, indexed by the address-of-record of the holder of the certificate.
+"ko": |-
+  요청의. 인증서가 자체 서명되었거나 알려진 기관에 의해 서명되지 않았기 때문에 인증서를 확인할 수 없는 경우 또는 인증서가 확인 가능하지만 해당 제목이 요청의 From 헤더 필드와 일치하지 않는 경우 UAS는 사용자에게 상태를 알려야 합니다. 인증서(인증서의 주체, 서명자 및 키 지문 정보 포함)를 확인하고 계속하기 전에 명시적인 허가를 요청하세요. 인증서가 성공적으로 확인되었고 인증서 제목이 SIP 요청의 From 헤더 필드에 해당하거나 사용자가(알림 후) 인증서 사용을 명시적으로 승인한 경우 UAS는 이 인증서를 로컬 키 링에 추가해야 합니다. 인증서 보유자의 기록 주소로 색인이 생성됩니다.

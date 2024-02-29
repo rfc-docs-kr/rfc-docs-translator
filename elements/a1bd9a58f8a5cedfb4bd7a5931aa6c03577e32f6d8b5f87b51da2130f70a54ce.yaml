@@ -1,0 +1,23 @@
+"hash": |-
+  a1bd9a58f8a5cedfb4bd7a5931aa6c03577e32f6d8b5f87b51da2130f70a54ce
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        3. Perform the main hash computation:
+           For t = 0 to 63
+              T1 = h + BSIG1(e) + CH(e,f,g) + Kt + Wt
+              T2 = BSIG0(a) + MAJ(a,b,c)
+              h = g
+              g = f
+              f = e
+              e = d + T1
+              d = c
+              c = b
+              b = a
+              a = T1 + T2
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

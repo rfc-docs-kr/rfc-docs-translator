@@ -1,0 +1,14 @@
+"hash": |-
+  5d4e68e3baede762240c3f70d8e59b79c614ea7764a772504cc7a4ae1ed84339
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Recipients of PUSH_PROMISE frames can choose to reject promised
+     streams by returning a RST_STREAM referencing the promised stream
+     identifier back to the sender of the PUSH_PROMISE.
+"fixed": |-
+  Recipients of PUSH_PROMISE frames can choose to reject promised streams by returning a RST_STREAM referencing the promised stream identifier back to the sender of the PUSH_PROMISE.
+"ko": |-
+  PUSH_PROMISE 프레임의 수신자는 약속된 스트림 식별자를 참조하는 RST_STREAM을 PUSH_PROMISE의 보낸 사람에게 반환하여 약속된 스트림을 거부하도록 선택할 수 있습니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  7357976fe93fb9806875814afb4d22e1082ca377c23efcd9bcee6798d99bc651
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Actually using TLS on every segment of a request path entails that
+     the terminating UAS must be reachable over TLS (perhaps registering
+     with a SIPS URI as a contact address).  This is the preferred use of
+     SIPS.  Many valid architectures, however, use TLS to secure part of
+     the request path, but rely on some other mechanism for the final hop
+     to a UAS, for example.  Thus SIPS cannot guarantee that TLS usage
+     will be truly end-to-end.  Note that since many UAs will not accept
+     incoming TLS connections, even those UAs that do support TLS may be
+     required to maintain persistent TLS connections as described in the
+     TLS limitations section above in order to receive requests over TLS
+     as a UAS.
+"fixed": |-
+  Actually using TLS on every segment of a request path entails that the terminating UAS must be reachable over TLS (perhaps registering with a SIPS URI as a contact address).  This is the preferred use of SIPS.  Many valid architectures, however, use TLS to secure part of the request path, but rely on some other mechanism for the final hop to a UAS, for example.  Thus SIPS cannot guarantee that TLS usage will be truly end-to-end.  Note that since many UAs will not accept incoming TLS connections, even those UAs that do support TLS may be required to maintain persistent TLS connections as described in the TLS limitations section above in order to receive requests over TLS as a UAS.
+"ko": |-
+  실제로 요청 경로의 모든 세그먼트에서 TLS를 사용하려면 TLS를 통해 종료 UAS에 연결할 수 있어야 합니다(SIPS URI를 연락처 주소로 등록). 이것이 SIPS의 기본 용도입니다. 그러나 많은 유효한 아키텍처는 TLS를 사용하여 요청 경로의 일부를 보호하지만 예를 들어 UAS에 대한 최종 홉에는 다른 메커니즘을 사용합니다. 따라서 SIPS는 TLS 사용이 실제로 종단 간임을 보장할 수 없습니다. 많은 UA가 들어오는 TLS 연결을 허용하지 않기 때문에 TLS를 지원하는 UA라도 UAS로서 TLS를 통해 요청을 수신하려면 위의 TLS 제한 섹션에 설명된 대로 지속적인 TLS 연결을 유지해야 할 수 있습니다.

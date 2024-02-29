@@ -1,0 +1,15 @@
+"hash": |-
+  882ee8ca57735fa324821827c3ed6fab51c6ee389b8a5d1fe92514704e0dfaa8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  if the certificate's signatureAlgorithm uses a single hash
+        function and that hash function neither MD5 nor SHA-1, then use
+        the hash function associated with the certificate's
+        signatureAlgorithm;
+"fixed": |-
+  -  if the certificate's signatureAlgorithm uses a single hash function and that hash function neither MD5 nor SHA-1, then use the hash function associated with the certificate's signatureAlgorithm;
+"ko": |-
+  - 인증서의 서명 알고리즘이 단일 해시 함수를 사용하고 해당 해시 함수가 MD5나 SHA-1이 아닌 경우 인증서의 서명 알고리즘과 연결된 해시 함수를 사용합니다.

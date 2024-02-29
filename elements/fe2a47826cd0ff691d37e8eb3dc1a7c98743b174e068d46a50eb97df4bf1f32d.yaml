@@ -1,0 +1,16 @@
+"hash": |-
+  fe2a47826cd0ff691d37e8eb3dc1a7c98743b174e068d46a50eb97df4bf1f32d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           This is necessary because any or all of the destinations the
+           request was forwarded to may have requested credentials.  The
+           client needs to receive all of those challenges and supply
+           credentials for each of them when it retries the request.
+           Motivation for this behavior is provided in Section 26.
+"fixed": |-
+  - This is necessary because any or all of the destinations the request was forwarded to may have requested credentials.  The client needs to receive all of those challenges and supply credentials for each of them when it retries the request. Motivation for this behavior is provided in Section 26.
+"ko": |-
+  - 요청이 전달된 대상 중 일부 또는 전체가 자격 증명을 요청했을 수 있으므로 이는 필요합니다. 클라이언트는 요청을 재시도할 때 이러한 모든 챌린지를 수신하고 각 챌린지에 대한 자격 증명을 제공해야 합니다. 이 행동에 대한 동기는 섹션 26에 나와 있습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  e9e7bd3a99186b1d8b8e066d954eed1352e5e808508e916b8972f8be58434cc8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Define 64-bit OR
+   */
+  #define SHA512_OR(word1, word2, ret) (                         \
+      (ret)[0] = (word1)[0] | (word2)[0],                        \
+      (ret)[1] = (word1)[1] | (word2)[1] )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

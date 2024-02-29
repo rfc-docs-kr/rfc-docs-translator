@@ -1,0 +1,23 @@
+"hash": |-
+  4107570fbbad07d622312896352681681a24928262396c14a92e3595bbd1c4c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Provided that the "message/sip" body contains at least the
+     fundamental dialog identifiers (To, From, Call-ID, CSeq), then a
+     signed MIME body can provide limited authentication.  At the very
+     least, if the certificate used to sign the body is unknown to the
+     recipient and cannot be verified, the signature can be used to
+     ascertain that a later request in a dialog was transmitted by the
+     same certificate-holder that initiated the dialog.  If the recipient
+     of the signed MIME body has some stronger incentive to trust the
+     certificate (they were able to validate it, they acquired it from a
+     trusted repository, or they have used it frequently) then the
+     signature can be taken as a stronger assertion of the identity of the
+     subject of the certificate.
+"fixed": |-
+  Provided that the "message/sip" body contains at least the fundamental dialog identifiers (To, From, Call-ID, CSeq), then a signed MIME body can provide limited authentication.  At the very least, if the certificate used to sign the body is unknown to the recipient and cannot be verified, the signature can be used to ascertain that a later request in a dialog was transmitted by the same certificate-holder that initiated the dialog.  If the recipient of the signed MIME body has some stronger incentive to trust the certificate (they were able to validate it, they acquired it from a trusted repository, or they have used it frequently) then the signature can be taken as a stronger assertion of the identity of the subject of the certificate.
+"ko": |-
+  "메시지/sip" 본문에 최소한 기본 대화 식별자(To, From, Call-ID, CSeq)가 포함되어 있는 경우 서명된 MIME 본문은 제한된 인증을 제공할 수 있습니다. 최소한 본문에 서명하는 데 사용된 인증서가 수신자에게 알려지지 않았고 확인할 수 없는 경우 서명을 사용하여 대화를 시작한 동일한 인증서 보유자가 대화의 이후 요청을 전송했는지 확인할 수 있습니다. 서명된 MIME 본문의 수신자가 인증서를 신뢰하려는 더 강력한 인센티브를 갖고 있는 경우(인증서를 검증할 수 있었거나 신뢰할 수 있는 저장소에서 인증서를 획득했거나 자주 사용함) 서명은 다음과 같은 더 강력한 주장으로 간주될 수 있습니다. 인증서 주체의 신원.

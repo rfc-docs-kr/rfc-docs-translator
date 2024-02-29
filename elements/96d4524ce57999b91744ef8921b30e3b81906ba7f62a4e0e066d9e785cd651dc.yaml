@@ -1,0 +1,16 @@
+"hash": |-
+  96d4524ce57999b91744ef8921b30e3b81906ba7f62a4e0e066d9e785cd651dc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Normally, an endpoint SHOULD NOT send more than one RST_STREAM frame
+     for any stream.  However, an endpoint MAY send additional RST_STREAM
+     frames if it receives frames on a closed stream after more than a
+     round-trip time.  This behavior is permitted to deal with misbehaving
+     implementations.
+"fixed": |-
+  Normally, an endpoint SHOULD NOT send more than one RST_STREAM frame for any stream.  However, an endpoint MAY send additional RST_STREAM frames if it receives frames on a closed stream after more than a round-trip time.  This behavior is permitted to deal with misbehaving implementations.
+"ko": |-
+  일반적으로 엔드포인트는 모든 스트림에 대해 두 개 이상의 RST_STREAM 프레임을 보내면 안 됩니다. 그러나 엔드포인트는 왕복 시간 이상이 지난 후 닫힌 스트림에서 프레임을 수신하는 경우 추가 RST_STREAM 프레임을 보낼 수 있습니다. 이 동작은 오작동하는 구현을 처리하는 데 허용됩니다.

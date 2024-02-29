@@ -1,0 +1,25 @@
+"hash": |-
+  e441154eae852e7652f73ea333b054ac6df712bd955bdf56c19fa1eff59cdb1c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Existing IPsec is not appropriate for many deployments.  It is
+     computationally intensive both in key management and individual
+     packet authentication [43].  This computational overhead can be
+     prohibitive, and so often requires additional hardware, especially in
+     commercial routers.  As importantly, IKE is not anonymous; keys can
+     be exchanged between parties only if they trust each other's X.509
+     certificates, trust some other third-party to help with key
+     generation (e.g., Kerberos), or pre-share a key.  These certificates
+     provide identification (the other party knows who you are) only where
+     the certificates themselves are signed by certificate authorities
+     (CAs) that both parties already trust.  To a large extent, the CAs
+     themselves are the pre-shared keys that help IKE establish security
+     association keys, which are then used in the authentication
+     algorithms.
+"fixed": |-
+  Existing IPsec is not appropriate for many deployments.  It is computationally intensive both in key management and individual packet authentication [43].  This computational overhead can be prohibitive, and so often requires additional hardware, especially in commercial routers.  As importantly, IKE is not anonymous; keys can be exchanged between parties only if they trust each other's X.509 certificates, trust some other third-party to help with key generation (e.g., Kerberos), or pre-share a key.  These certificates provide identification (the other party knows who you are) only where the certificates themselves are signed by certificate authorities (CAs) that both parties already trust.  To a large extent, the CAs themselves are the pre-shared keys that help IKE establish security association keys, which are then used in the authentication algorithms.
+"ko": |-
+  기존 IPsec은 많은 배포에 적합하지 않습니다. 키 관리와 개별 패킷 인증 모두에서 계산 집약적입니다[43]. 이러한 계산 오버헤드는 엄청날 수 있으며, 특히 상업용 라우터에서는 추가 하드웨어가 필요한 경우가 많습니다. 중요한 점은 IKE가 익명이 아니라는 점입니다. 키는 서로의 X.509 인증서를 신뢰하거나, 키 생성(예: Kerberos)을 도와줄 다른 제3자를 신뢰하거나, 키를 사전 공유하는 경우에만 당사자 간에 교환할 수 있습니다. 이러한 인증서는 양 당사자가 이미 신뢰하는 인증 기관(CA)이 인증서 자체에 서명한 경우에만 식별 정보(상대방이 귀하가 누구인지 알 수 있음)를 제공합니다. 대체로 CA 자체는 IKE가 보안 연결 키를 설정하는 데 도움이 되는 사전 공유 키이며, 이 키는 인증 알고리즘에 사용됩니다.

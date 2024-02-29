@@ -1,0 +1,1 @@
+/* * 16진수로 표현된 예상 문자열과 비교하여 해시 값을 확인합니다. */ static const char hexdigits[ ] = "0123456789ABCDEF"; int checkmatch(const unsigned char *hashvalue, const char *hexstr, int hashsize) { int i; for (i = 0; i < hashsize; ++i) { if (*hexstr++ != hexdigits[(hashvalue[i] >> 4) & 0xF]) return 0; if (*hexstr++ != hexdigits[hashvalue[i] & 0xF]) return 0; } 1을 반환합니다. }

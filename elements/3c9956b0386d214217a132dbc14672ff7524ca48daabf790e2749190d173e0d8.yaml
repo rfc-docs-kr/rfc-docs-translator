@@ -1,0 +1,16 @@
+"hash": |-
+  3c9956b0386d214217a132dbc14672ff7524ca48daabf790e2749190d173e0d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The ":authority" pseudo-header field conveys the authority portion
+        (Section 3.2 of [RFC3986]) of the target URI (Section 7.1 of
+        [HTTP]).  The recipient of an HTTP/2 request MUST NOT use the Host
+        header field to determine the target URI if ":authority" is
+        present.
+"fixed": |-
+  *  The ":authority" pseudo-header field conveys the authority portion (Section 3.2 of [RFC3986]) of the target URI (Section 7.1 of [HTTP]).  The recipient of an HTTP/2 request MUST NOT use the Host header field to determine the target URI if ":authority" is present.
+"ko": |-
+  * ":authority" 의사 헤더 필드는 대상 URI([HTTP]의 섹션 7.1)의 권한 부분([RFC3986]의 섹션 3.2)을 전달합니다. HTTP/2 요청의 수신자는 ":authority"가 존재하는 경우 대상 URI를 결정하기 위해 Host 헤더 필드를 사용해서는 안 됩니다.

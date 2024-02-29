@@ -1,0 +1,1 @@
+- MaskGenAlgorithm은 마스크 생성 기능을 식별합니다. 이는 PKCS1MGFAlgorithms 세트에서 OID를 갖는 알고리즘 ID여야 하며, 이 버전에서는 MGF1 마스크 생성 기능을 식별하는 id-mgf1로 구성됩니다(부록 B.2.1 참조). id-mgf1과 연관된 매개변수 필드는 MGF1이 기반으로 하는 해시 함수를 식별하는 OAEP-PSSDigestAlgorithms 세트의 OID가 있는 알고리즘 ID여야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  72584e454cc1b5de9f7a1a19ab7e6f27315561af06b8c1bf9404d7efa619ffd4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Rekeying the IKE_SA and reauthentication are different concepts in
+        IKEv2.  Rekeying the IKE_SA establishes new keys for the IKE_SA
+        and resets the Message ID counters, but it does not authenticate
+        the parties again (no AUTH or EAP payloads are involved)...  This
+        means that reauthentication also establishes new keys for the
+        IKE_SA and CHILD_SAs.  Therefore while rekeying can be performed
+        more often than reauthentication, the situation where
+        "authentication lifetime" is shorter than "key lifetime" does not
+        make sense.
+"fixed": |-
+  - Rekeying the IKE_SA and reauthentication are different concepts in IKEv2.  Rekeying the IKE_SA establishes new keys for the IKE_SA and resets the Message ID counters, but it does not authenticate the parties again (no AUTH or EAP payloads are involved)...  This means that reauthentication also establishes new keys for the IKE_SA and CHILD_SAs.  Therefore while rekeying can be performed more often than reauthentication, the situation where "authentication lifetime" is shorter than "key lifetime" does not make sense.
+"ko": |-
+  - IKE_SA 키 재생성과 재인증은 IKEv2에서 다른 개념입니다. IKE_SA 키를 다시 입력하면 IKE_SA에 대한 새 키가 설정되고 메시지 ID 카운터가 재설정되지만 당사자를 다시 인증하지는 않습니다(AUTH 또는 EAP 페이로드는 관련되지 않음)... 즉, 재인증을 통해 IKE_SA 및 CHILD_SA에 대한 새 키도 설정됩니다. 따라서 키 재생성은 재인증보다 더 자주 수행될 수 있지만 "인증 수명"이 "키 수명"보다 짧은 상황은 의미가 없습니다.

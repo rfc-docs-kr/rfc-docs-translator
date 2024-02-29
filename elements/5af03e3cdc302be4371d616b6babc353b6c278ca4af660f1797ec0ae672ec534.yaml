@@ -1,0 +1,17 @@
+"hash": |-
+  5af03e3cdc302be4371d616b6babc353b6c278ca4af660f1797ec0ae672ec534
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The integrity of a secure channel MUST NOT be weakened should
+        their channel bindings be revealed to an attacker.  That is, the
+        construction of the channel bindings for any type of secure
+        channel MUST NOT leak secret information about the channel.  End-
+        point channel bindings, however, MAY leak information about the
+        end-points of the channel (e.g., their names).
+"fixed": |-
+  -  The integrity of a secure channel MUST NOT be weakened should their channel bindings be revealed to an attacker.  That is, the construction of the channel bindings for any type of secure channel MUST NOT leak secret information about the channel.  End- point channel bindings, however, MAY leak information about the end-points of the channel (e.g., their names).
+"ko": |-
+  - 채널 바인딩이 공격자에게 노출되는 경우 보안 채널의 무결성이 약화되어서는 안 됩니다. 즉, 모든 유형의 보안 채널에 대한 채널 바인딩 구성은 채널에 대한 비밀 정보를 유출해서는 안 됩니다. 그러나 엔드포인트 채널 바인딩은 채널의 엔드포인트에 대한 정보(예: 이름)를 유출할 수 있습니다.

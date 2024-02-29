@@ -1,0 +1,16 @@
+"hash": |-
+  e21b7241b54ad391a280182da43121e9818a2d2bb35cd50f5cb25a2f434ea98a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    hash_len = USHAHashSize(whichSha);
+    if (prk_len < hash_len) return shaBadParam;
+    N = okm_len / hash_len;
+    if ((okm_len % hash_len) != 0) N++;
+    if (N > 255) return shaBadParam;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

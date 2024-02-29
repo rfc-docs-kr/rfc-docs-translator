@@ -1,0 +1,23 @@
+"hash": |-
+  8b1e6140837e7c79780dd9ffc4a4c6473939b5bd00bee9137dfd86914336ac91
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that Network Address Translators (NATs) and other middleboxes
+     complicate the design and deployment of techniques to defeat spoofing
+     attacks.  Devices such as these, that modify IP and/or TCP headers
+     in-transit, generate traffic equivalent to a spoofing attack, and
+     thus should be inhibited by antispoofing mechanisms.  Details of
+     these middlebox-related problems are out of scope for this document,
+     but issues thereof are addressed in RFCs and emerging documents that
+     discuss the interactions between such devices and the Internet
+     architecture, e.g., [21].  Fortunately, many of the most critical
+     TCP-based connections -- in particular, those supporting routing
+     protocols like BGP -- do not traverse such middleboxes, and are not
+     affected by this limitation.
+"fixed": |-
+  Note that Network Address Translators (NATs) and other middleboxes complicate the design and deployment of techniques to defeat spoofing attacks.  Devices such as these, that modify IP and/or TCP headers in-transit, generate traffic equivalent to a spoofing attack, and thus should be inhibited by antispoofing mechanisms.  Details of these middlebox-related problems are out of scope for this document, but issues thereof are addressed in RFCs and emerging documents that discuss the interactions between such devices and the Internet architecture, e.g., [21].  Fortunately, many of the most critical TCP-based connections -- in particular, those supporting routing protocols like BGP -- do not traverse such middleboxes, and are not affected by this limitation.
+"ko": |-
+  NAT(Network Address Translator) 및 기타 미들박스는 스푸핑 공격을 방지하기 위한 기술의 설계 및 배포를 복잡하게 만듭니다. 전송 중인 IP 및/또는 TCP 헤더를 수정하는 이와 같은 장치는 스푸핑 공격과 동일한 트래픽을 생성하므로 스푸핑 방지 메커니즘으로 차단해야 합니다. 이러한 미들박스 관련 문제에 대한 자세한 내용은 이 문서의 범위를 벗어나지만 해당 문제는 RFC 및 해당 장치와 인터넷 아키텍처 간의 상호 작용을 논의하는 새로운 문서(예: [21])에서 다루어집니다. 다행스럽게도 가장 중요한 TCP 기반 연결 중 다수, 특히 BGP와 같은 라우팅 프로토콜을 지원하는 연결은 이러한 미들박스를 통과하지 않으며 이러한 제한의 영향을 받지 않습니다.

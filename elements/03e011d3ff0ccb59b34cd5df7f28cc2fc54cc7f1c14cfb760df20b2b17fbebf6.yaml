@@ -1,0 +1,18 @@
+"hash": |-
+  03e011d3ff0ccb59b34cd5df7f28cc2fc54cc7f1c14cfb760df20b2b17fbebf6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     DATA frames are subject to flow control and can only be sent when a
+     stream is in the "open" or "half-closed (remote)" state.  The entire
+     DATA frame payload is included in flow control, including the Pad
+     Length and Padding fields if present.  If a DATA frame is received
+     whose stream is not in the "open" or "half-closed (local)" state, the
+     recipient MUST respond with a stream error (Section 5.4.2) of type
+     STREAM_CLOSED.
+"fixed": |-
+  DATA frames are subject to flow control and can only be sent when a stream is in the "open" or "half-closed (remote)" state.  The entire DATA frame payload is included in flow control, including the Pad Length and Padding fields if present.  If a DATA frame is received whose stream is not in the "open" or "half-closed (local)" state, the recipient MUST respond with a stream error (Section 5.4.2) of type STREAM_CLOSED.
+"ko": |-
+  DATA 프레임은 흐름 제어의 적용을 받으며 스트림이 "열림" 또는 "반 닫힘(원격)" 상태일 때만 전송될 수 있습니다. Pad Length 및 Padding 필드가 있는 경우 이를 포함하여 전체 DATA 프레임 페이로드가 흐름 제어에 포함됩니다. 스트림이 "개방" 또는 "반 폐쇄(로컬)" 상태가 아닌 DATA 프레임이 수신된 경우 수신자는 STREAM_CLOSED 유형의 스트림 오류(섹션 5.4.2)로 응답해야 합니다.

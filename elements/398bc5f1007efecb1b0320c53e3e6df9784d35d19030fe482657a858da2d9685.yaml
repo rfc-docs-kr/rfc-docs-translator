@@ -1,0 +1,23 @@
+"hash": |-
+  398bc5f1007efecb1b0320c53e3e6df9784d35d19030fe482657a858da2d9685
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At the end of the call, Bob disconnects (hangs up) first and
+     generates a BYE message.  This BYE is routed directly to Alice's
+     softphone, again bypassing the proxies.  Alice confirms receipt of
+     the BYE with a 200 (OK) response, which terminates the session and
+     the BYE transaction.  No ACK is sent - an ACK is only sent in
+     response to a response to an INVITE request.  The reasons for this
+     special handling for INVITE will be discussed later, but relate to
+     the reliability mechanisms in SIP, the length of time it can take for
+     a ringing phone to be answered, and forking.  For this reason,
+     request handling in SIP is often classified as either INVITE or non-
+     INVITE, referring to all other methods besides INVITE.  Full details
+     on session termination are in Section 15.
+"fixed": |-
+  At the end of the call, Bob disconnects (hangs up) first and generates a BYE message.  This BYE is routed directly to Alice's softphone, again bypassing the proxies.  Alice confirms receipt of the BYE with a 200 (OK) response, which terminates the session and the BYE transaction.  No ACK is sent - an ACK is only sent in response to a response to an INVITE request.  The reasons for this special handling for INVITE will be discussed later, but relate to the reliability mechanisms in SIP, the length of time it can take for a ringing phone to be answered, and forking.  For this reason, request handling in SIP is often classified as either INVITE or non- INVITE, referring to all other methods besides INVITE.  Full details on session termination are in Section 15.
+"ko": |-
+  통화가 끝나면 Bob은 먼저 연결을 끊고(전화를 끊고) BYE 메시지를 생성합니다. 이 BYE는 다시 프록시를 우회하여 Alice의 소프트폰으로 직접 라우팅됩니다. Alice는 200(OK) 응답으로 BYE 수신을 확인하고 세션과 BYE 트랜잭션을 종료합니다. ACK가 전송되지 않습니다. ACK는 INVITE 요청에 대한 응답으로만 전송됩니다. INVITE를 특별하게 처리하는 이유는 나중에 설명하겠지만 SIP의 신뢰성 메커니즘, 벨이 울리는 전화에 응답하는 데 걸리는 시간 및 분기와 관련이 있습니다. 이러한 이유로 SIP의 요청 처리는 INVITE 이외의 다른 모든 방법을 참조하여 INVITE 또는 비INVITE로 분류되는 경우가 많습니다. 세션 종료에 대한 자세한 내용은 섹션 15에 나와 있습니다.

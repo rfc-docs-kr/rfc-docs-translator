@@ -1,0 +1,16 @@
+"hash": |-
+  1da84b8dec924a28cfbcadf2e9c55d082799fda4fdbe53c875571ba428cececc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  In RFC 2543, closure of a TCP connection was made equivalent to a
+        CANCEL.  This was nearly impossible to implement (and wrong) for
+        TCP connections between proxies.  This has been eliminated, so
+        that there is no coupling between TCP connection state and SIP
+        processing.
+"fixed": |-
+  -  In RFC 2543, closure of a TCP connection was made equivalent to a CANCEL.  This was nearly impossible to implement (and wrong) for TCP connections between proxies.  This has been eliminated, so that there is no coupling between TCP connection state and SIP processing.
+"ko": |-
+  - RFC 2543에서는 TCP 연결 종료가 CANCEL과 동일해졌습니다. 이는 프록시 간의 TCP 연결에 대해 구현하는 것이 거의 불가능했으며 잘못되었습니다. 이는 제거되어 TCP 연결 상태와 SIP 처리 간에 결합이 없습니다.

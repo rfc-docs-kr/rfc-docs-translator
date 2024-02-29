@@ -1,0 +1,15 @@
+"hash": |-
+  b0eb2fdefd3eb421a282d1b37a9c720ee65405ce52f5b1bfe1a9b6e6fdbd599b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Padding:  Padding octets that contain no application semantic value.
+        Padding octets MUST be set to zero when sending.  A receiver is
+        not obligated to verify padding but MAY treat non-zero padding as
+        a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  Padding:  Padding octets that contain no application semantic value. Padding octets MUST be set to zero when sending.  A receiver is not obligated to verify padding but MAY treat non-zero padding as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  패딩(Padding): 애플리케이션 의미 값이 포함되지 않은 패딩 옥텟입니다. 전송 시 패딩 옥텟은 0으로 설정되어야 합니다. 수신기는 패딩을 확인할 의무는 없지만 0이 아닌 패딩을 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리할 수 있습니다.

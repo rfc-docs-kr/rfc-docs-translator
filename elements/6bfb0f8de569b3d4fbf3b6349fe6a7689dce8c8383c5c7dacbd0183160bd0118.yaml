@@ -1,0 +1,23 @@
+"hash": |-
+  6bfb0f8de569b3d4fbf3b6349fe6a7689dce8c8383c5c7dacbd0183160bd0118
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Date          =  "Date" HCOLON SIP-date
+  SIP-date      =  rfc1123-date
+  rfc1123-date  =  wkday "," SP date1 SP time SP "GMT"
+  date1         =  2DIGIT SP month SP 4DIGIT
+                   ; day month year (e.g., 02 Jun 1982)
+  time          =  2DIGIT ":" 2DIGIT ":" 2DIGIT
+                   ; 00:00:00 - 23:59:59
+  wkday         =  "Mon" / "Tue" / "Wed"
+                   / "Thu" / "Fri" / "Sat" / "Sun"
+  month         =  "Jan" / "Feb" / "Mar" / "Apr"
+                   / "May" / "Jun" / "Jul" / "Aug"
+                   / "Sep" / "Oct" / "Nov" / "Dec"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

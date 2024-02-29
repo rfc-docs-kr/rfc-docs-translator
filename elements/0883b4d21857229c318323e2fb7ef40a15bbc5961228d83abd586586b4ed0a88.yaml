@@ -1,0 +1,17 @@
+"hash": |-
+  0883b4d21857229c318323e2fb7ef40a15bbc5961228d83abd586586b4ed0a88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The UAC SHOULD follow the procedures defined in [4] for stateful
+     elements, trying each address until a server is contacted.  Each try
+     constitutes a new transaction, and therefore each carries a different
+     topmost Via header field value with a new branch parameter.
+     Furthermore, the transport value in the Via header field is set to
+     whatever transport was determined for the target server.
+"fixed": |-
+  The UAC SHOULD follow the procedures defined in [4] for stateful elements, trying each address until a server is contacted.  Each try constitutes a new transaction, and therefore each carries a different topmost Via header field value with a new branch parameter. Furthermore, the transport value in the Via header field is set to whatever transport was determined for the target server.
+"ko": |-
+  UAC는 상태 저장 요소에 대해 [4]에 정의된 절차를 따라 서버에 연결될 때까지 각 주소를 시도해야 합니다. 각 시도는 새로운 트랜잭션을 구성하므로 각 시도는 새로운 분기 매개변수와 함께 서로 다른 최상위 Via 헤더 필드 값을 전달합니다. 또한 Via 헤더 필드의 전송 값은 대상 서버에 대해 결정된 전송으로 설정됩니다.

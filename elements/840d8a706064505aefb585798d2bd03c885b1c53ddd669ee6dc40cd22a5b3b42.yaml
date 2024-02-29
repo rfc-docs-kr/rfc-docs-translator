@@ -1,0 +1,19 @@
+"hash": |-
+  840d8a706064505aefb585798d2bd03c885b1c53ddd669ee6dc40cd22a5b3b42
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CSeq header field serves as a way to identify and order
+     transactions.  It consists of a sequence number and a method.  The
+     method MUST match that of the request.  For non-REGISTER requests
+     outside of a dialog, the sequence number value is arbitrary.  The
+     sequence number value MUST be expressible as a 32-bit unsigned
+     integer and MUST be less than 2**31.  As long as it follows the above
+     guidelines, a client may use any mechanism it would like to select
+     CSeq header field values.
+"fixed": |-
+  The CSeq header field serves as a way to identify and order transactions.  It consists of a sequence number and a method.  The method MUST match that of the request.  For non-REGISTER requests outside of a dialog, the sequence number value is arbitrary.  The sequence number value MUST be expressible as a 32-bit unsigned integer and MUST be less than 2**31.  As long as it follows the above guidelines, a client may use any mechanism it would like to select CSeq header field values.
+"ko": |-
+  CSeq 헤더 필드는 트랜잭션을 식별하고 주문하는 방법으로 사용됩니다. 시퀀스 번호와 메소드로 구성됩니다. 메서드는 요청의 메서드와 일치해야 합니다. 대화 상자 외부의 REGISTER 요청이 아닌 경우 시퀀스 번호 값은 임의적입니다. 시퀀스 번호 값은 32비트 부호 없는 정수로 표현 가능해야 하며 2**31보다 작아야 합니다. 위의 지침을 따르는 한 클라이언트는 CSeq 헤더 필드 값을 선택하기 위해 원하는 메커니즘을 사용할 수 있습니다.

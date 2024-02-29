@@ -1,0 +1,18 @@
+"hash": |-
+  faca37a7494fe0daf22d6a9c4c8e179b9ea67f0a987624f10f69bd5da4a05fff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In addition to changing the flow-control window for streams that are
+     not yet active, a SETTINGS frame can alter the initial flow-control
+     window size for streams with active flow-control windows (that is,
+     streams in the "open" or "half-closed (remote)" state).  When the
+     value of SETTINGS_INITIAL_WINDOW_SIZE changes, a receiver MUST adjust
+     the size of all stream flow-control windows that it maintains by the
+     difference between the new value and the old value.
+"fixed": |-
+  In addition to changing the flow-control window for streams that are not yet active, a SETTINGS frame can alter the initial flow-control window size for streams with active flow-control windows (that is, streams in the "open" or "half-closed (remote)" state).  When the value of SETTINGS_INITIAL_WINDOW_SIZE changes, a receiver MUST adjust the size of all stream flow-control windows that it maintains by the difference between the new value and the old value.
+"ko": |-
+  아직 활성화되지 않은 스트림에 대한 흐름 제어 창을 변경하는 것 외에도 SETTINGS 프레임은 활성 흐름 제어 창이 있는 스트림(즉, "개방" 또는 "절반" 상태의 스트림)에 대한 초기 흐름 제어 창 크기를 변경할 수 있습니다. -폐쇄(원격)' 상태). SETTINGS_INITIAL_WINDOW_SIZE 값이 변경되면 수신자는 새 값과 이전 값의 차이로 유지하는 모든 스트림 흐름 제어 창의 크기를 조정해야 합니다.

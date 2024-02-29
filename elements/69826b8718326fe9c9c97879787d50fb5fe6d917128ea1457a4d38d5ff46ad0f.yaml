@@ -1,0 +1,30 @@
+"hash": |-
+  69826b8718326fe9c9c97879787d50fb5fe6d917128ea1457a4d38d5ff46ad0f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     --
+     -- Type identifier definitions for the PKCS #1 OIDs.
+     --
+     PKCS1Algorithms    ALGORITHM-IDENTIFIER ::= {
+         { OID rsaEncryption                PARAMETERS NULL } |
+         { OID md2WithRSAEncryption         PARAMETERS NULL } |
+         { OID md5WithRSAEncryption         PARAMETERS NULL } |
+         { OID sha1WithRSAEncryption        PARAMETERS NULL } |
+         { OID sha224WithRSAEncryption      PARAMETERS NULL } |
+         { OID sha256WithRSAEncryption      PARAMETERS NULL } |
+         { OID sha384WithRSAEncryption      PARAMETERS NULL } |
+         { OID sha512WithRSAEncryption      PARAMETERS NULL } |
+         { OID sha512-224WithRSAEncryption  PARAMETERS NULL } |
+         { OID sha512-256WithRSAEncryption  PARAMETERS NULL } |
+         { OID id-RSAES-OAEP   PARAMETERS RSAES-OAEP-params } |
+         PKCS1PSourceAlgorithms                               |
+         { OID id-RSASSA-PSS   PARAMETERS RSASSA-PSS-params },
+         ...  -- Allows for future expansion --
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

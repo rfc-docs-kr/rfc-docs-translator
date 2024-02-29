@@ -1,0 +1,19 @@
+"hash": |-
+  bc64e2dbc67eb236ed621ee258f69680280b28af42f701319e9219b8662b7a9d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* SHA-512 */
+  extern int SHA512Reset(SHA512Context *);
+  extern int SHA512Input(SHA512Context *, const uint8_t *bytes,
+                         unsigned int bytecount);
+  extern int SHA512FinalBits(SHA512Context *, uint8_t bits,
+                             unsigned int bit_count);
+  extern int SHA512Result(SHA512Context *,
+                          uint8_t Message_Digest[SHA512HashSize]);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  d0759bfa504346da7d2a18178262dc7027881b3be2643c9c3144b319d1b2aa93
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When AAA protocols utilize TLS [RFC5246] or IPsec [RFC4301] for
+     transmission layer security, they can leverage the cryptographic
+     algorithm negotiation support provided by IKEv2 [RFC4306] or TLS
+     [RFC5246].  RADIUS [RFC3579] by itself does not support cryptographic
+     algorithm negotiation and relies on MD5 for integrity protection,
+     authentication, and confidentiality.  Given the known weaknesses in
+     MD5 [MD5Collision], this is undesirable, and can be addressed via use
+     of RADIUS over IPsec, as described in [RFC3579] Section 4.2.
+"fixed": |-
+  When AAA protocols utilize TLS [RFC5246] or IPsec [RFC4301] for transmission layer security, they can leverage the cryptographic algorithm negotiation support provided by IKEv2 [RFC4306] or TLS [RFC5246].  RADIUS [RFC3579] by itself does not support cryptographic algorithm negotiation and relies on MD5 for integrity protection, authentication, and confidentiality.  Given the known weaknesses in MD5 [MD5Collision], this is undesirable, and can be addressed via use of RADIUS over IPsec, as described in [RFC3579] Section 4.2.
+"ko": |-
+  AAA 프로토콜이 전송 계층 보안을 위해 TLS [RFC5246] 또는 IPsec [RFC4301]을 활용하는 경우 IKEv2 [RFC4306] 또는 TLS [RFC5246]에서 제공하는 암호화 알고리즘 협상 지원을 활용할 수 있습니다. RADIUS [RFC3579] 자체는 암호화 알고리즘 협상을 지원하지 않으며 무결성 보호, 인증 및 기밀성을 위해 MD5를 사용합니다. MD5 [MD5Collision]의 알려진 약점을 고려할 때 이는 바람직하지 않으며 [RFC3579] 섹션 4.2에 설명된 대로 IPsec을 통한 RADIUS를 사용하여 해결할 수 있습니다.

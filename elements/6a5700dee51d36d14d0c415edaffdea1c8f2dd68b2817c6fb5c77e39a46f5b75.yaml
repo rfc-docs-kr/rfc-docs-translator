@@ -1,0 +1,21 @@
+"hash": |-
+  6a5700dee51d36d14d0c415edaffdea1c8f2dd68b2817c6fb5c77e39a46f5b75
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To avoid unnecessary latency, clients are permitted to send
+     additional frames to the server immediately after sending the client
+     connection preface, without waiting to receive the server connection
+     preface.  It is important to note, however, that the server
+     connection preface SETTINGS frame might include settings that
+     necessarily alter how a client is expected to communicate with the
+     server.  Upon receiving the SETTINGS frame, the client is expected to
+     honor any settings established.  In some configurations, it is
+     possible for the server to transmit SETTINGS before the client sends
+     additional frames, providing an opportunity to avoid this issue.
+"fixed": |-
+  To avoid unnecessary latency, clients are permitted to send additional frames to the server immediately after sending the client connection preface, without waiting to receive the server connection preface.  It is important to note, however, that the server connection preface SETTINGS frame might include settings that necessarily alter how a client is expected to communicate with the server.  Upon receiving the SETTINGS frame, the client is expected to honor any settings established.  In some configurations, it is possible for the server to transmit SETTINGS before the client sends additional frames, providing an opportunity to avoid this issue.
+"ko": |-
+  불필요한 대기 시간을 피하기 위해 클라이언트는 서버 연결 서문을 수신할 때까지 기다리지 않고 클라이언트 연결 서문을 보낸 후 즉시 서버에 추가 프레임을 보낼 수 있습니다. 그러나 서버 연결 서문 SETTINGS 프레임에는 클라이언트가 서버와 통신하는 방법을 필연적으로 변경하는 설정이 포함될 수 있다는 점에 유의하는 것이 중요합니다. SETTINGS 프레임을 수신하면 클라이언트는 설정된 모든 설정을 준수해야 합니다. 일부 구성에서는 클라이언트가 추가 프레임을 보내기 전에 서버가 SETTINGS를 전송하여 이 문제를 피할 수 있는 기회를 제공할 수 있습니다.

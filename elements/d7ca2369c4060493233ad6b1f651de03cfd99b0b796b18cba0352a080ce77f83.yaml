@@ -1,0 +1,25 @@
+"hash": |-
+  d7ca2369c4060493233ad6b1f651de03cfd99b0b796b18cba0352a080ce77f83
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In this example, Bob decides to answer the call.  When he picks up
+     the handset, his SIP phone sends a 200 (OK) response to indicate that
+     the call has been answered.  The 200 (OK) contains a message body
+     with the SDP media description of the type of session that Bob is
+     willing to establish with Alice.  As a result, there is a two-phase
+     exchange of SDP messages: Alice sent one to Bob, and Bob sent one
+     back to Alice.  This two-phase exchange provides basic negotiation
+     capabilities and is based on a simple offer/answer model of SDP
+     exchange.  If Bob did not wish to answer the call or was busy on
+     another call, an error response would have been sent instead of the
+     200 (OK), which would have resulted in no media session being
+     established.  The complete list of SIP response codes is in Section
+     21.  The 200 (OK) (message F9 in Figure 1) might look like this as
+     Bob sends it out:
+"fixed": |-
+  In this example, Bob decides to answer the call.  When he picks up the handset, his SIP phone sends a 200 (OK) response to indicate that the call has been answered.  The 200 (OK) contains a message body with the SDP media description of the type of session that Bob is willing to establish with Alice.  As a result, there is a two-phase exchange of SDP messages: Alice sent one to Bob, and Bob sent one back to Alice.  This two-phase exchange provides basic negotiation capabilities and is based on a simple offer/answer model of SDP exchange.  If Bob did not wish to answer the call or was busy on another call, an error response would have been sent instead of the 200 (OK), which would have resulted in no media session being established.  The complete list of SIP response codes is in Section 21.  The 200 (OK) (message F9 in Figure 1) might look like this as Bob sends it out:
+"ko": |-
+  이 예에서 Bob은 전화에 응답하기로 결정합니다. 그가 수화기를 들면 그의 SIP 전화는 200(OK) 응답을 보내 전화에 응답했음을 나타냅니다. 200(OK)에는 Bob이 Alice와 설정하려는 세션 유형에 대한 SDP 미디어 설명이 포함된 메시지 본문이 포함되어 있습니다. 결과적으로 SDP 메시지는 2단계로 교환됩니다. Alice는 하나를 Bob에게 보내고 Bob은 하나를 Alice에게 다시 보냈습니다. 이 2단계 교환은 기본적인 협상 기능을 제공하며 SDP 교환의 간단한 제안/응답 모델을 기반으로 합니다. Bob이 전화에 응답하고 싶지 않거나 다른 통화 중이라면 200(OK) 대신 오류 응답이 전송되어 미디어 세션이 설정되지 않습니다. SIP 응답 코드의 전체 목록은 섹션 21에 있습니다. Bob이 보낼 때 200(OK)(그림 1의 메시지 F9)은 다음과 같습니다.

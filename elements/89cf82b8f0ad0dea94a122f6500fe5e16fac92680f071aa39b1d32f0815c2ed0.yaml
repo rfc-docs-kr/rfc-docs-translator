@@ -1,0 +1,17 @@
+"hash": |-
+  89cf82b8f0ad0dea94a122f6500fe5e16fac92680f071aa39b1d32f0815c2ed0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     P2 also notices it is not responsible for the resource indicated by
+     the Request-URI (it is responsible for domain.com, not
+     u2.domain.com), so it doesn't change it.  It does see itself in the
+     first Route header field value, so it removes it and forwards the
+     following to u2.domain.com based on a DNS lookup against the
+     Request-URI:
+"fixed": |-
+  P2 also notices it is not responsible for the resource indicated by the Request-URI (it is responsible for domain.com, not u2.domain.com), so it doesn't change it.  It does see itself in the first Route header field value, so it removes it and forwards the following to u2.domain.com based on a DNS lookup against the Request-URI:
+"ko": |-
+  P2는 또한 Request-URI에 표시된 리소스(u2.domain.com이 아닌 domain.com에 대한 책임)에 대해 책임이 없다는 것을 알아차리고 이를 변경하지 않습니다. 첫 번째 Route 헤더 필드 값에서 자체적으로 확인되므로 이를 제거하고 Request-URI에 대한 DNS 조회를 기반으로 다음을 u2.domain.com으로 전달합니다.

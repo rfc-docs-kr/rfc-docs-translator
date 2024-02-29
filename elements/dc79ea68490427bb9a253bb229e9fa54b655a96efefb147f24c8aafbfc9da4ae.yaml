@@ -1,0 +1,15 @@
+"hash": |-
+  dc79ea68490427bb9a253bb229e9fa54b655a96efefb147f24c8aafbfc9da4ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Record-routing may be required by certain services where the
+           proxy needs to observe all messages in a dialog.  However, it
+           slows down processing and impairs scalability and thus proxies
+           should only record-route if required for a particular service.
+"fixed": |-
+  - Record-routing may be required by certain services where the proxy needs to observe all messages in a dialog.  However, it slows down processing and impairs scalability and thus proxies should only record-route if required for a particular service.
+"ko": |-
+  - 프록시가 대화 상자의 모든 메시지를 관찰해야 하는 특정 서비스에서는 기록 라우팅이 필요할 수 있습니다. 그러나 처리 속도가 느려지고 확장성이 손상되므로 프록시는 특정 서비스에 필요한 경우에만 기록 경로를 지정해야 합니다.

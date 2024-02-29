@@ -1,0 +1,16 @@
+"hash": |-
+  3ebd70a89e43388f1f2f3f679c1e45260ca19edfa72e4dbd1fe57bb7057172d6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a UA receives a 423 (Interval Too Brief) response, it MAY retry
+     the registration after making the expiration interval of all contact
+     addresses in the REGISTER request equal to or greater than the
+     expiration interval within the Min-Expires header field of the 423
+     (Interval Too Brief) response.
+"fixed": |-
+  If a UA receives a 423 (Interval Too Brief) response, it MAY retry the registration after making the expiration interval of all contact addresses in the REGISTER request equal to or greater than the expiration interval within the Min-Expires header field of the 423 (Interval Too Brief) response.
+"ko": |-
+  UA가 423(간격이 너무 짧음) 응답을 수신하는 경우 REGISTER 요청의 모든 연락처 주소의 만료 간격을 423의 Min-Expires 헤더 필드 내 만료 간격보다 크거나 같게 만든 후 등록을 재시도할 수 있습니다. 간격이 너무 짧음) 응답.

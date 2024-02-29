@@ -1,0 +1,17 @@
+"hash": |-
+  56d2d9a9cc9a96fc7721db9af5dfceec18f526c148f75cd1c835087b9e1f5855
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o  Otherwise, if the Via header field value contains a "maddr"
+           parameter, the response MUST be forwarded to the address listed
+           there, using the port indicated in "sent-by", or port 5060 if
+           none is present.  If the address is a multicast address, the
+           response SHOULD be sent using the TTL indicated in the "ttl"
+           parameter, or with a TTL of 1 if that parameter is not present.
+"fixed": |-
+  -  Otherwise, if the Via header field value contains a "maddr" parameter, the response MUST be forwarded to the address listed there, using the port indicated in "sent-by", or port 5060 if none is present.  If the address is a multicast address, the response SHOULD be sent using the TTL indicated in the "ttl" parameter, or with a TTL of 1 if that parameter is not present.
+"ko": |-
+  - 그렇지 않고 Via 헤더 필드 값에 "maddr" 매개변수가 포함된 경우 응답은 "sent-by"에 표시된 포트를 사용하거나 포트 5060(아무것도 없으면 포트 5060)을 사용하여 거기에 나열된 주소로 전달되어야 합니다. 주소가 멀티캐스트 주소인 경우 응답은 "ttl" 매개변수에 표시된 TTL을 사용하여 전송되어야 하며 해당 매개변수가 없으면 TTL 1을 사용하여 전송되어야 합니다.

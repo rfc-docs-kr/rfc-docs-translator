@@ -1,0 +1,18 @@
+"hash": |-
+  e92e210d3748ef68fc7c28a00a14feec1be7a2b51dbe3a5a89f42453949aa316
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note: Another way to implement the signature verification
+        operation is to apply a "decoding" operation (not specified in
+        this document) to the encoded message to recover the underlying
+        hash value, and then compare it to a newly computed hash value.
+        This has the advantage that it requires less intermediate storage
+        (two hash values rather than two encoded messages), but the
+        disadvantage that it requires additional code.
+"fixed": |-
+  - Note: Another way to implement the signature verification operation is to apply a "decoding" operation (not specified in this document) to the encoded message to recover the underlying hash value, and then compare it to a newly computed hash value. This has the advantage that it requires less intermediate storage (two hash values rather than two encoded messages), but the disadvantage that it requires additional code.
+"ko": |-
+  - 참고: 서명 확인 작업을 구현하는 또 다른 방법은 인코딩된 메시지에 "디코딩" 작업(이 문서에 지정되지 않음)을 적용하여 기본 해시 값을 복구한 다음 이를 새로 계산된 해시 값과 비교하는 것입니다. 이는 중간 저장소(2개의 인코딩된 메시지가 아닌 2개의 해시 값)가 덜 필요하다는 장점이 있지만 추가 코드가 필요하다는 단점이 있습니다.

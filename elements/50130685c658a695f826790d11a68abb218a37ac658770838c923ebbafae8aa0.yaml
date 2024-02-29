@@ -1,0 +1,15 @@
+"hash": |-
+  50130685c658a695f826790d11a68abb218a37ac658770838c923ebbafae8aa0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint can end a connection at any time.  In particular, an
+     endpoint MAY choose to treat a stream error as a connection error.
+     Endpoints SHOULD send a GOAWAY frame when ending a connection,
+     providing that circumstances permit it.
+"fixed": |-
+  An endpoint can end a connection at any time.  In particular, an endpoint MAY choose to treat a stream error as a connection error. Endpoints SHOULD send a GOAWAY frame when ending a connection, providing that circumstances permit it.
+"ko": |-
+  엔드포인트는 언제든지 연결을 종료할 수 있습니다. 특히 엔드포인트는 스트림 오류를 연결 오류로 처리하도록 선택할 수 있습니다. 상황이 허용한다면 엔드포인트는 연결을 종료할 때 GOAWAY 프레임을 보내야 합니다.

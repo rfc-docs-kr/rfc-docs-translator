@@ -1,0 +1,24 @@
+"hash": |-
+  eca9e6f02230b9122b20d7de0e908bccfc02cb777b15698b64337cdb8585b97f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           CRL).  This makes the "revoked" response suitable for
+           non-issued certificates (as defined above) where the intention
+           of the responder is to cause the client to reject the
+           certificate rather than trying another source of status
+           information.  The "revoked" status is still optional for
+           non-issued certificates in order to maintain backwards
+           compatibility with deployments of RFC 2560.  For example, the
+           responder may not have any knowledge about whether a requested
+           serial number has been assigned to any issued certificate, or
+           the responder may provide pre-produced responses in accordance
+           with RFC 5019 and, for that reason, is not capable of providing
+           a signed response for all non-issued certificate serial
+           numbers.
+"fixed": |-
+  - CRL).  This makes the "revoked" response suitable for non-issued certificates (as defined above) where the intention of the responder is to cause the client to reject the certificate rather than trying another source of status information.  The "revoked" status is still optional for non-issued certificates in order to maintain backwards compatibility with deployments of RFC 2560.  For example, the responder may not have any knowledge about whether a requested serial number has been assigned to any issued certificate, or the responder may provide pre-produced responses in accordance with RFC 5019 and, for that reason, is not capable of providing a signed response for all non-issued certificate serial numbers.
+"ko": |-
+  -CRL). 이는 응답자의 의도가 클라이언트가 상태 정보의 다른 소스를 시도하는 대신 인증서를 거부하도록 하는 것인 미발급 인증서(위에 정의된 대로)에 "해지된" 응답을 적합하게 만듭니다. RFC 2560 배포와의 하위 호환성을 유지하기 위해 발급되지 않은 인증서에 대해 "해지됨" 상태는 여전히 선택 사항입니다. 예를 들어 응답자는 요청된 일련 번호가 발급된 인증서에 할당되었는지 여부에 대해 전혀 알지 못할 수 있습니다. 응답자는 RFC 5019에 따라 사전 생성된 응답을 제공할 수 있으며, 이러한 이유로 발급되지 않은 모든 인증서 일련 번호에 대해 서명된 응답을 제공할 수는 없습니다.

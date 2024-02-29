@@ -1,0 +1,17 @@
+"hash": |-
+  ebbc777c9cb542c3c24d9545d855129435b38a24ad4825baa676346811e5c940
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    for (t = 40; t < 60; t++) {
+      temp = SHA1_ROTL(5,A) + SHA_Maj(B, C, D) + E + W[t] + K[2];
+      E = D;
+      D = C;
+      C = SHA1_ROTL(30,B);
+      B = A;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

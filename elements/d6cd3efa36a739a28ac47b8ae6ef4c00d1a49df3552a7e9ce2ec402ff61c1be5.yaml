@@ -1,0 +1,19 @@
+"hash": |-
+  d6cd3efa36a739a28ac47b8ae6ef4c00d1a49df3552a7e9ce2ec402ff61c1be5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The URI in the To field of the request MUST be set to the remote URI
+     from the dialog state.  The tag in the To header field of the request
+     MUST be set to the remote tag of the dialog ID.  The From URI of the
+     request MUST be set to the local URI from the dialog state.  The tag
+     in the From header field of the request MUST be set to the local tag
+     of the dialog ID.  If the value of the remote or local tags is null,
+     the tag parameter MUST be omitted from the To or From header fields,
+     respectively.
+"fixed": |-
+  The URI in the To field of the request MUST be set to the remote URI from the dialog state.  The tag in the To header field of the request MUST be set to the remote tag of the dialog ID.  The From URI of the request MUST be set to the local URI from the dialog state.  The tag in the From header field of the request MUST be set to the local tag of the dialog ID.  If the value of the remote or local tags is null, the tag parameter MUST be omitted from the To or From header fields, respectively.
+"ko": |-
+  요청의 To 필드에 있는 URI는 대화 상태의 원격 URI로 설정되어야 합니다. 요청의 To 헤더 필드에 있는 태그는 대화 ID의 원격 태그로 설정되어야 합니다. 요청의 From URI는 대화 상태의 로컬 URI로 설정되어야 합니다. 요청의 From 헤더 필드에 있는 태그는 대화 ID의 로컬 태그로 설정되어야 합니다. 원격 또는 로컬 태그의 값이 null인 경우 태그 매개변수는 각각 To 또는 From 헤더 필드에서 생략되어야 합니다.

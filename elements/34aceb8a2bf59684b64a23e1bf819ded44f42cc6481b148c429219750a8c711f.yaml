@@ -1,0 +1,29 @@
+"hash": |-
+  34aceb8a2bf59684b64a23e1bf819ded44f42cc6481b148c429219750a8c711f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  SHA1Reset
+   *
+   *  Description:
+   *      This function will initialize the SHA1Context in preparation
+   *      for computing a new SHA1 message digest.
+   *
+   *  Parameters:
+   *      context: [in/out]
+   *          The context to reset.
+   *
+   *  Returns:
+   *      sha Error Code.
+   *
+   */
+  int SHA1Reset(SHA1Context *context)
+  {
+    if (!context) return shaNull;
+"fixed": |-
+  /* *  SHA1Reset * *  Description: *      This function will initialize the SHA1Context in preparation *      for computing a new SHA1 message digest. * *  Parameters: *      context: [in/out] *          The context to reset. * *  Returns: *      sha Error Code. * */ int SHA1Reset(SHA1Context *context) { if (!context) return shaNull;
+"ko": |-
+  /* * SHA1Reset * * 설명: * 이 함수는 새로운 SHA1 메시지 다이제스트를 계산하기 위한 준비로 * SHA1Context를 초기화합니다. * * 매개변수: * context: [in/out] * 재설정할 컨텍스트입니다. * * 반환: * sha 오류 코드. * */ int SHA1Reset(SHA1Context *context) { if (!context) return shaNull;

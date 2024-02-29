@@ -1,0 +1,24 @@
+"hash": |-
+  fe1f0fe148f1689fb18d817a3619bf458189f8e3e5b17a32a2ff1754701e2ce9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Mobile IP, as defined in [6], is specifically affected by ingress
+     traffic filtering. As specified, traffic to the mobile node is
+     tunneled, but traffic from the mobile node is not tunneled. This
+     results in packets from the mobile node(s) which have source
+     addresses that do not match with the network where the station is
+     attached.  To accommodate Ingress Filtering and other concerns, the
+     Mobile IP Working Group developed a methodology for "reverse
+     tunnels", specified in [7]. This provides a method for the data
+     transmitted by the mobile node to be tunneled to the home agent
+     before transmission to the Internet.  There are additional benefits
+     to the reverse tunneling scheme, including better handling of
+     multicast traffic. Those implementing mobile IP systems are
+     encouraged to implement this method of reverse tunneling.
+"fixed": |-
+  Mobile IP, as defined in [6], is specifically affected by ingress traffic filtering. As specified, traffic to the mobile node is tunneled, but traffic from the mobile node is not tunneled. This results in packets from the mobile node(s) which have source addresses that do not match with the network where the station is attached.  To accommodate Ingress Filtering and other concerns, the Mobile IP Working Group developed a methodology for "reverse tunnels", specified in [7]. This provides a method for the data transmitted by the mobile node to be tunneled to the home agent before transmission to the Internet.  There are additional benefits to the reverse tunneling scheme, including better handling of multicast traffic. Those implementing mobile IP systems are encouraged to implement this method of reverse tunneling.
+"ko": |-
+  [6]에 정의된 모바일 IP는 특히 수신 트래픽 필터링의 영향을 받습니다. 지정된 대로 모바일 노드로의 트래픽은 터널링되지만 모바일 노드의 트래픽은 터널링되지 않습니다. 이로 인해 스테이션이 연결된 네트워크와 일치하지 않는 소스 주소를 가진 모바일 노드의 패킷이 발생합니다. 수신 필터링 및 기타 문제를 수용하기 위해 모바일 IP 워킹 그룹은 [7]에 지정된 "역방향 터널"에 대한 방법론을 개발했습니다. 이는 모바일 노드에 의해 전송된 데이터가 인터넷으로 전송되기 전에 홈 에이전트로 터널링되는 방법을 제공합니다. 멀티캐스트 트래픽을 더 잘 처리하는 등 역방향 터널링 방식에는 추가적인 이점이 있습니다. 모바일 IP 시스템을 구현하는 사람들은 이 역방향 터널링 방법을 구현하는 것이 좋습니다.

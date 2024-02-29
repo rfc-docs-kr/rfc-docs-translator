@@ -1,0 +1,20 @@
+"hash": |-
+  3564ce8f83133a724d3fb37fc6fb5781c957eeba0b11fc50c1fc422ad4d1ea4c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    /* Initialize the first 16 words in the array W */
+    for (t = t2 = t8 = 0; t < 16; t++, t8 += 8) {
+      W[t2++] = ((((uint32_t)context->Message_Block[t8    ])) << 24) |
+                ((((uint32_t)context->Message_Block[t8 + 1])) << 16) |
+                ((((uint32_t)context->Message_Block[t8 + 2])) << 8) |
+                ((((uint32_t)context->Message_Block[t8 + 3])));
+      W[t2++] = ((((uint32_t)context->Message_Block[t8 + 4])) << 24) |
+                ((((uint32_t)context->Message_Block[t8 + 5])) << 16) |
+                ((((uint32_t)context->Message_Block[t8 + 6])) << 8) |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

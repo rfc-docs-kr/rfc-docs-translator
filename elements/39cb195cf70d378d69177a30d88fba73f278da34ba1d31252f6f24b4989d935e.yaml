@@ -1,0 +1,15 @@
+"hash": |-
+  39cb195cf70d378d69177a30d88fba73f278da34ba1d31252f6f24b4989d935e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In addition, the server is allowed to drop the query connection
+     without responding.  Any premature close (i.e., one where the client
+     does not receive the EOL, whether graceful or an abort should be
+     considered to have the same meaning as "ERROR : UNKNOWN-ERROR".
+"fixed": |-
+  In addition, the server is allowed to drop the query connection without responding.  Any premature close (i.e., one where the client does not receive the EOL, whether graceful or an abort should be considered to have the same meaning as "ERROR : UNKNOWN-ERROR".
+"ko": |-
+  또한 서버는 응답하지 않고 쿼리 연결을 삭제할 수 있습니다. 모든 조기 종료(즉, 클라이언트가 EOL을 수신하지 못하는 경우, 정상적이든 중단이든 관계없이 "ERROR: UNKNOWN-ERROR"와 동일한 의미를 갖는 것으로 간주되어야 합니다.

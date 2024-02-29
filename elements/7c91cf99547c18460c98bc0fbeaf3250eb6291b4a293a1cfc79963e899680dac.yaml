@@ -1,0 +1,18 @@
+"hash": |-
+  7c91cf99547c18460c98bc0fbeaf3250eb6291b4a293a1cfc79963e899680dac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This definition of 'tls-unique' means that a channel's bindings
+        data may change over time, which in turn creates a synchronization
+        problem should the channel's bindings data change between the time
+        that the client initiates authentication with channel binding and
+        the time that the server begins to process the client's first
+        authentication message.  If that happens, the authentication
+        attempt will fail spuriously.
+"fixed": |-
+  - This definition of 'tls-unique' means that a channel's bindings data may change over time, which in turn creates a synchronization problem should the channel's bindings data change between the time that the client initiates authentication with channel binding and the time that the server begins to process the client's first authentication message.  If that happens, the authentication attempt will fail spuriously.
+"ko": |-
+  - 'tls-unique'의 이 정의는 채널의 바인딩 데이터가 시간이 지남에 따라 변경될 수 있음을 의미하며, 이는 클라이언트가 채널 바인딩으로 인증을 시작하는 시간과 서버가 인증을 시작하는 시간 사이에 채널의 바인딩 데이터가 변경되면 동기화 문제를 야기합니다. 클라이언트의 첫 번째 인증 메시지를 처리하기 시작합니다. 이런 일이 발생하면 인증 시도가 허위로 실패하게 됩니다.

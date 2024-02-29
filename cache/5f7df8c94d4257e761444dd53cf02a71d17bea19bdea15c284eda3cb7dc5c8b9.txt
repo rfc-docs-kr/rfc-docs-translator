@@ -1,0 +1,1 @@
+/* * 모든 문자를 16진수 "## "로 변환하여 문자열을 인쇄합니다. */ void printxstr(const char *str, int len) { char *sep = ""; for ( ; len-- > 0; str++) { printf("%s%c%c", sep, hexdigits[(*str >> 4) & 0xF],

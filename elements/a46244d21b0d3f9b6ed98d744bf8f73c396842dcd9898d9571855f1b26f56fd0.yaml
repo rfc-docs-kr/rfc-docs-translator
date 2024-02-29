@@ -1,0 +1,21 @@
+"hash": |-
+  a46244d21b0d3f9b6ed98d744bf8f73c396842dcd9898d9571855f1b26f56fd0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    /*
+     * The HMAC transform looks like:
+     *
+     * SHA(K XOR opad, SHA(K XOR ipad, text))
+     *
+     * where K is an n byte key, 0-padded to a total of blocksize bytes,
+     * ipad is the byte 0x36 repeated blocksize times,
+     * opad is the byte 0x5c repeated blocksize times,
+     * and text is the data being protected.
+     */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,14 @@
+"hash": |-
+  de23b8bc454f6174008c6fe62c9bdbbd0a1edfe709eccfc5314b9ee8b42ca601
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           the proxy recurses on all of the contacts in a 3xx response,
+           the proxy SHOULD NOT add the resulting contactless response to
+           the response context.
+"fixed": |-
+  - the proxy recurses on all of the contacts in a 3xx response, the proxy SHOULD NOT add the resulting contactless response to the response context.
+"ko": |-
+  - 프록시는 3xx 응답의 모든 연락처에서 반복되므로 프록시는 결과 비접촉 응답을 응답 컨텍스트에 추가해서는 안 됩니다.

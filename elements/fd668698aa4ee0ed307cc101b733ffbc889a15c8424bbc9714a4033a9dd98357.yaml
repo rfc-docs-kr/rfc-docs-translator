@@ -1,0 +1,14 @@
+"hash": |-
+  fd668698aa4ee0ed307cc101b733ffbc889a15c8424bbc9714a4033a9dd98357
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A WINDOW_UPDATE frame with a length other than 4 octets MUST be
+     treated as a connection error (Section 5.4.1) of type
+     FRAME_SIZE_ERROR.
+"fixed": |-
+  A WINDOW_UPDATE frame with a length other than 4 octets MUST be treated as a connection error (Section 5.4.1) of type FRAME_SIZE_ERROR.
+"ko": |-
+  4옥텟이 아닌 길이의 WINDOW_UPDATE 프레임은 FRAME_SIZE_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

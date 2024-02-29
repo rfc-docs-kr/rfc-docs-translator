@@ -1,0 +1,13 @@
+"hash": |-
+  59cdba93c03c7f4e5de5595d2ed18ac3a3157595fea4d4ae3db31a6dbc3a81a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the request contains a Max-Forwards header field with a field
+        value greater than zero, the check is passed.
+"fixed": |-
+  - If the request contains a Max-Forwards header field with a field value greater than zero, the check is passed.
+"ko": |-
+  - 요청에 필드 값이 0보다 큰 Max-Forwards 헤더 필드가 포함되어 있으면 검사가 통과됩니다.

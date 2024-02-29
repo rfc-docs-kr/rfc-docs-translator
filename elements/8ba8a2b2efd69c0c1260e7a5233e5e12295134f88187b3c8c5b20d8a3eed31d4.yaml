@@ -1,0 +1,17 @@
+"hash": |-
+  8ba8a2b2efd69c0c1260e7a5233e5e12295134f88187b3c8c5b20d8a3eed31d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a UAS receives a request containing an S/MIME CMS body that
+     includes a certificate, the UAS SHOULD first validate the
+     certificate, if possible, with any available root certificates for
+     certificate authorities.  The UAS SHOULD also determine the subject
+     of the certificate (for S/MIME, the SubjectAltName will contain the
+     appropriate identity) and compare this value to the From header field
+"fixed": |-
+  When a UAS receives a request containing an S/MIME CMS body that includes a certificate, the UAS SHOULD first validate the certificate, if possible, with any available root certificates for certificate authorities.  The UAS SHOULD also determine the subject of the certificate (for S/MIME, the SubjectAltName will contain the appropriate identity) and compare this value to the From header field
+"ko": |-
+  UAS가 인증서가 포함된 S/MIME CMS 본문이 포함된 요청을 받으면 UAS는 먼저 인증 기관에 사용 가능한 루트 인증서를 사용하여 인증서의 유효성을 검사해야 합니다. UAS는 또한 인증서의 제목(S/MIME의 경우 SubjectAltName에 적절한 ID가 포함됨)을 결정하고 이 값을 From 헤더 필드와 비교해야 합니다.

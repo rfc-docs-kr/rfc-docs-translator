@@ -1,0 +1,15 @@
+"hash": |-
+  af82f28b90c874ae8a9414d293d9c02c5e544239232738f497d70d6d16081a1f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The URI SHOULD NOT contain the transport parameter unless the
+           proxy has knowledge that the next upstream (as opposed to
+           downstream) element that will be in the path of subsequent
+           requests supports that transport.
+"fixed": |-
+  - The URI SHOULD NOT contain the transport parameter unless the proxy has knowledge that the next upstream (as opposed to downstream) element that will be in the path of subsequent requests supports that transport.
+"ko": |-
+  - 프록시가 후속 요청 경로에 있을 다음 업스트림(다운스트림과 반대) 요소가 해당 전송을 지원한다는 사실을 알지 못하는 한 URI는 전송 매개변수를 포함해서는 안 됩니다.

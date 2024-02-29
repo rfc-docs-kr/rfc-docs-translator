@@ -1,0 +1,30 @@
+"hash": |-
+  60a32cb46b9e7cd6ec4109f153ff85a3328b86d0c11495aafe4d9cfc8eea6e7e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Exercise a hash series of functions.  The input is the testarray,
+   * repeated repeatcount times, followed by the extrabits.  If the
+   * result is known, it is in resultarray in uppercase hex.
+   */
+  int hash(int testno, int loopno, int hashno,
+    const char *testarray, int length, long repeatcount,
+    int numberExtrabits, int extrabits, const unsigned char *keyarray,
+    int keylen, const unsigned char *info, int infolen, int okmlen,
+    const char *resultarray, int hashsize, int printResults,
+    int printPassFail)
+  {
+    USHAContext sha;
+    HMACContext hmac;
+    HKDFContext hkdf;
+    int err, i;
+    uint8_t Message_Digest_Buf[USHAMaxHashSize];
+    uint8_t *Message_Digest = Message_Digest_Buf;
+    char buf[20];
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

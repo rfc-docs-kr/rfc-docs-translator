@@ -1,0 +1,17 @@
+"hash": |-
+  97163d1798de34b010bdd2197a341de440a80fc07e7a98dad8e53879dfa49339
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     at a proxy, which may have forwarded both responses (This can occur
+     in unusual conditions.  Specifically, when a proxy forked a request,
+     and then crashes, the responses may be delivered to another proxy,
+     which might end up forwarding multiple responses upstream).  An ACK
+     request that matches an INVITE transaction matched by a previous ACK
+     is considered a retransmission of that previous ACK.
+"fixed": |-
+  at a proxy, which may have forwarded both responses (This can occur in unusual conditions.  Specifically, when a proxy forked a request, and then crashes, the responses may be delivered to another proxy, which might end up forwarding multiple responses upstream).  An ACK request that matches an INVITE transaction matched by a previous ACK is considered a retransmission of that previous ACK.
+"ko": |-
+  두 응답을 모두 전달했을 수 있는 프록시에서(이는 비정상적인 상황에서 발생할 수 있습니다. 특히 프록시가 요청을 분기한 다음 충돌하는 경우 응답이 다른 프록시로 전달될 수 있으며 이로 인해 여러 응답이 업스트림으로 전달될 수 있습니다). 이전 ACK와 일치하는 INVITE 트랜잭션과 일치하는 ACK 요청은 이전 ACK의 재전송으로 간주됩니다.

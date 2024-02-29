@@ -1,0 +1,18 @@
+"hash": |-
+  e5f35b79db2d5ca92fea60ce6aad18ed4702edbc32bcb21bb15c9eb59e4cba63
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           ((bits) == 32) ? (word)[1] :                          \
+           ((bits) >= 0) ?                                       \
+             (((word)[0] << (bits)) |                            \
+             ((word)[1] >> (32 - (bits)))) :                     \
+           0,                                                    \
+      (ret)[1] = (((bits) < 32) && ((bits) >= 0)) ?              \
+          ((word)[1] << (bits)) : 0 )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  4e6c2ee37f7dc0fe0452186a9bb32cc45fb25564506b016bc029c136e0d128c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Max-Forwards header field serves to limit the number of hops a
+     request can transit on the way to its destination.  It consists of an
+     integer that is decremented by one at each hop.  If the Max-Forwards
+     value reaches 0 before the request reaches its destination, it will
+     be rejected with a 483(Too Many Hops) error response.
+"fixed": |-
+  The Max-Forwards header field serves to limit the number of hops a request can transit on the way to its destination.  It consists of an integer that is decremented by one at each hop.  If the Max-Forwards value reaches 0 before the request reaches its destination, it will be rejected with a 483(Too Many Hops) error response.
+"ko": |-
+  Max-Forwards 헤더 필드는 요청이 대상으로 가는 도중에 전송할 수 있는 홉 수를 제한하는 역할을 합니다. 이는 각 홉에서 1씩 감소하는 정수로 구성됩니다. 요청이 대상에 도달하기 전에 Max-Forwards 값이 0에 도달하면 483(Too Many Hops) 오류 응답과 함께 거부됩니다.

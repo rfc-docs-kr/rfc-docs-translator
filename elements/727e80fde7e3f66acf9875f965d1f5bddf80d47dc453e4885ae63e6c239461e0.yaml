@@ -1,0 +1,20 @@
+"hash": |-
+  727e80fde7e3f66acf9875f965d1f5bddf80d47dc453e4885ae63e6c239461e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An IEEE 802.11 authenticator receiving transported keying material is
+     expected to initialize a timer to the Session-Timeout value, and once
+     the timer expires, the transported keying material expires.  Whether
+     this results in session termination or EAP re-authentication is
+     controlled by the value of the Termination-Action Attribute.  Where
+     EAP re-authentication occurs, the transported keying material is
+     replaced, and with it, new calculated keys are put in place.  Where
+     session termination occurs, transported and derived keying material
+     is deleted.
+"fixed": |-
+  An IEEE 802.11 authenticator receiving transported keying material is expected to initialize a timer to the Session-Timeout value, and once the timer expires, the transported keying material expires.  Whether this results in session termination or EAP re-authentication is controlled by the value of the Termination-Action Attribute.  Where EAP re-authentication occurs, the transported keying material is replaced, and with it, new calculated keys are put in place.  Where session termination occurs, transported and derived keying material is deleted.
+"ko": |-
+  전송된 키 자료를 수신하는 IEEE 802.11 인증자는 세션 시간 초과 값으로 타이머를 초기화해야 하며, 타이머가 만료되면 전송된 키 자료도 만료됩니다. 이로 인해 세션이 종료되는지 또는 EAP 재인증이 발생하는지 여부는 Termination-Action 속성 값에 의해 제어됩니다. EAP 재인증이 발생하면 전송된 키 자료가 교체되고 이를 통해 새로 계산된 키가 제자리에 배치됩니다. 세션 종료가 발생하면 전송 및 파생된 키 자료가 삭제됩니다.

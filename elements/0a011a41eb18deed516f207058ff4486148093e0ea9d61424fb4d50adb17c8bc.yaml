@@ -1,0 +1,18 @@
+"hash": |-
+  0a011a41eb18deed516f207058ff4486148093e0ea9d61424fb4d50adb17c8bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     OAEP has never been proven secure against CCA2; in fact, Victor Shoup
+     [SHOUP] has demonstrated that such a proof does not exist in the
+     general case.  Put briefly, Shoup showed that an adversary in the
+     CCA2 scenario who knows how to partially invert the encryption
+     primitive but does not know how to invert it completely may well be
+     able to break the scheme.  For example, one may imagine an attacker
+     who is able to break RSAES-OAEP if she knows how to recover all but
+"fixed": |-
+  OAEP has never been proven secure against CCA2; in fact, Victor Shoup [SHOUP] has demonstrated that such a proof does not exist in the general case.  Put briefly, Shoup showed that an adversary in the CCA2 scenario who knows how to partially invert the encryption primitive but does not know how to invert it completely may well be able to break the scheme.  For example, one may imagine an attacker who is able to break RSAES-OAEP if she knows how to recover all but
+"ko": |-
+  OAEP는 CCA2에 대해 안전한 것으로 입증된 적이 없습니다. 실제로 Victor Shoup [SHOUP]은 일반적인 경우에는 그러한 증거가 존재하지 않음을 입증했습니다. 간단히 말해서 Shoup는 암호화 기본 요소를 부분적으로 반전시키는 방법을 알고 있지만 완전히 반전시키는 방법을 모르는 CCA2 시나리오의 공격자가 체계를 깨뜨릴 수 있음을 보여주었습니다. 예를 들어 공격자가 RSAES-OAEP를 제외한 모든 것을 복구하는 방법을 안다면 RSAES-OAEP를 깨뜨릴 수 있다고 상상할 수 있습니다.

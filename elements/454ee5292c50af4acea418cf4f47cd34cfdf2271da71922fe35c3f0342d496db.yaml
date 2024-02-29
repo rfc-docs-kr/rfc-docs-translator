@@ -1,0 +1,17 @@
+"hash": |-
+  454ee5292c50af4acea418cf4f47cd34cfdf2271da71922fe35c3f0342d496db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While in the "Proceeding" state, if the TU passes a response with
+     status code from 300 to 699 to the server transaction, the response
+     MUST be passed to the transport layer for transmission, and the state
+     machine MUST enter the "Completed" state.  For unreliable transports,
+     timer G is set to fire in T1 seconds, and is not set to fire for
+     reliable transports.
+"fixed": |-
+  While in the "Proceeding" state, if the TU passes a response with status code from 300 to 699 to the server transaction, the response MUST be passed to the transport layer for transmission, and the state machine MUST enter the "Completed" state.  For unreliable transports, timer G is set to fire in T1 seconds, and is not set to fire for reliable transports.
+"ko": |-
+  "Proceeding" 상태에 있는 동안 TU가 300~699의 상태 코드가 포함된 응답을 서버 트랜잭션에 전달하는 경우 응답은 전송을 위해 전송 계층으로 전달되어야 하며 상태 머신은 "Completed" 상태로 들어가야 합니다. 신뢰할 수 없는 전송의 경우 타이머 G는 T1초에 실행되도록 설정되고 신뢰할 수 있는 전송의 경우 실행되도록 설정되지 않습니다.

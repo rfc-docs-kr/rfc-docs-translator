@@ -1,0 +1,16 @@
+"hash": |-
+  97d777a8c1bd1e14ffc9fad63339e325656af560aae056afc5b5d31a9797070c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     CertID          ::=     SEQUENCE {
+         hashAlgorithm       AlgorithmIdentifier,
+         issuerNameHash      OCTET STRING, -- Hash of issuer's DN
+         issuerKeyHash       OCTET STRING, -- Hash of issuer's public key
+         serialNumber        CertificateSerialNumber }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

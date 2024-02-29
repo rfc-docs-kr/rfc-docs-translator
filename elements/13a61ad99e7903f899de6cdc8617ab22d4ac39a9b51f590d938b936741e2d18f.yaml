@@ -1,0 +1,26 @@
+"hash": |-
+  13a61ad99e7903f899de6cdc8617ab22d4ac39a9b51f590d938b936741e2d18f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Check the hash value against the expected string, expressed in hex
+   */
+  static const char hexdigits[ ] = "0123456789ABCDEF";
+  int checkmatch(const unsigned char *hashvalue,
+    const char *hexstr, int hashsize)
+  {
+    int i;
+    for (i = 0; i < hashsize; ++i) {
+      if (*hexstr++ != hexdigits[(hashvalue[i] >> 4) & 0xF])
+        return 0;
+      if (*hexstr++ != hexdigits[hashvalue[i] & 0xF]) return 0;
+    }
+    return 1;
+  }
+"fixed": |-
+  /* * Check the hash value against the expected string, expressed in hex */ static const char hexdigits[ ] = "0123456789ABCDEF"; int checkmatch(const unsigned char *hashvalue, const char *hexstr, int hashsize) { int i; for (i = 0; i < hashsize; ++i) { if (*hexstr++ != hexdigits[(hashvalue[i] >> 4) & 0xF]) return 0; if (*hexstr++ != hexdigits[hashvalue[i] & 0xF]) return 0; } return 1; }
+"ko": |-
+  /* * 16진수로 표현된 예상 문자열과 비교하여 해시 값을 확인합니다. */ static const char hexdigits[ ] = "0123456789ABCDEF"; int checkmatch(const unsigned char *hashvalue, const char *hexstr, int hashsize) { int i; for (i = 0; i < hashsize; ++i) { if (*hexstr++ != hexdigits[(hashvalue[i] >> 4) & 0xF]) return 0; if (*hexstr++ != hexdigits[hashvalue[i] & 0xF]) return 0; } 1을 반환합니다. }

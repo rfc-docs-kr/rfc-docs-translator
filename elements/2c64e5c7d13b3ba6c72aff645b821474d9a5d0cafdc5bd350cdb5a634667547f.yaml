@@ -1,0 +1,30 @@
+"hash": |-
+  2c64e5c7d13b3ba6c72aff645b821474d9a5d0cafdc5bd350cdb5a634667547f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a UAC receives a response containing an S/MIME CMS body that
+     includes a certificate, the UAC SHOULD first validate the
+     certificate, if possible, with any appropriate root certificate.  The
+     UAC SHOULD also determine the subject of the certificate and compare
+     this value to the To field of the response; although the two may very
+     well be different, and this is not necessarily indicative of a
+     security breach.  If the certificate cannot be verified because it is
+     self-signed, or signed by no known authority, the UAC MUST notify its
+     user of the status of the certificate (including the subject of the
+     certificate, its signator, and any key fingerprint information) and
+     request explicit permission before proceeding.  If the certificate
+     was successfully verified, and the subject of the certificate
+     corresponds to the To header field in the response, or if the user
+     (after notification) explicitly authorizes the use of the
+     certificate, the UAC SHOULD add this certificate to a local keyring,
+     indexed by the address-of-record of the holder of the certificate.
+     If the UAC had not transmitted its own certificate to the UAS in any
+     previous transaction, it SHOULD use a CMS SignedData body for its
+     next request or response.
+"fixed": |-
+  When a UAC receives a response containing an S/MIME CMS body that includes a certificate, the UAC SHOULD first validate the certificate, if possible, with any appropriate root certificate.  The UAC SHOULD also determine the subject of the certificate and compare this value to the To field of the response; although the two may very well be different, and this is not necessarily indicative of a security breach.  If the certificate cannot be verified because it is self-signed, or signed by no known authority, the UAC MUST notify its user of the status of the certificate (including the subject of the certificate, its signator, and any key fingerprint information) and request explicit permission before proceeding.  If the certificate was successfully verified, and the subject of the certificate corresponds to the To header field in the response, or if the user (after notification) explicitly authorizes the use of the certificate, the UAC SHOULD add this certificate to a local keyring, indexed by the address-of-record of the holder of the certificate. If the UAC had not transmitted its own certificate to the UAS in any previous transaction, it SHOULD use a CMS SignedData body for its next request or response.
+"ko": |-
+  UAC가 인증서가 포함된 S/MIME CMS 본문이 포함된 응답을 수신하면 UAC는 먼저 가능한 경우 적절한 루트 인증서를 사용하여 인증서의 유효성을 검사해야 합니다. UAC는 또한 인증서의 제목을 결정하고 이 값을 응답의 To 필드와 비교해야 합니다. 두 가지가 매우 다를 수 있지만 이것이 반드시 보안 위반을 나타내는 것은 아닙니다. 자체 서명되었거나 알려진 기관이 서명하지 않아 인증서를 확인할 수 없는 경우 UAC는 사용자에게 인증서 상태(인증서 주체, 서명자 및 키 지문 정보 포함)를 알려야 합니다. 계속하기 전에 명시적인 허가를 요청하세요. 인증서가 성공적으로 확인되었고 인증서 제목이 응답의 To 헤더 필드에 해당하거나 사용자가 (알림 후) 명시적으로 인증서 사용을 승인한 경우 UAC는 이 인증서를 로컬 키링에 추가해야 합니다. 인증서 보유자의 기록 주소로 색인이 생성됩니다. UAC가 이전 트랜잭션에서 UAS에 자체 인증서를 전송하지 않은 경우 다음 요청 또는 응답에 대해 CMS SignedData 본문을 사용해야 합니다.

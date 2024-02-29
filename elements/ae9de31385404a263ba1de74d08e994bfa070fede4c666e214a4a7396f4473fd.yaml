@@ -1,0 +1,17 @@
+"hash": |-
+  ae9de31385404a263ba1de74d08e994bfa070fede4c666e214a4a7396f4473fd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A deployment of HTTP/2 over TLS 1.2 MUST disable compression.  TLS
+     compression can lead to the exposure of information that would not
+     otherwise be revealed [RFC3749].  Generic compression is unnecessary,
+     since HTTP/2 provides compression features that are more aware of
+     context and therefore likely to be more appropriate for use for
+     performance, security, or other reasons.
+"fixed": |-
+  A deployment of HTTP/2 over TLS 1.2 MUST disable compression.  TLS compression can lead to the exposure of information that would not otherwise be revealed [RFC3749].  Generic compression is unnecessary, since HTTP/2 provides compression features that are more aware of context and therefore likely to be more appropriate for use for performance, security, or other reasons.
+"ko": |-
+  TLS 1.2를 통한 HTTP/2 배포는 압축을 비활성화해야 합니다. TLS 압축으로 인해 다른 방법으로는 공개되지 않는 정보가 노출될 수 있습니다[RFC3749]. HTTP/2는 컨텍스트를 더 잘 인식하여 성능, 보안 또는 기타 이유로 사용하기에 더 적합한 압축 기능을 제공하므로 일반 압축은 필요하지 않습니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  7737141c9188403a7ff5874156bd0d69144e1855d7d901613c57bfe54549a303
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If it was allowed to send the CANCEL before receiving a response
+        for the previous request, the server could receive the CANCEL
+        before the original request.
+"fixed": |-
+  - If it was allowed to send the CANCEL before receiving a response for the previous request, the server could receive the CANCEL before the original request.
+"ko": |-
+  - 이전 요청에 대한 응답을 받기 전에 CANCEL을 보내는 것이 허용된 경우 서버는 원래 요청 전에 CANCEL을 받을 수 있습니다.

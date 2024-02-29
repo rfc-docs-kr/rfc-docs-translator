@@ -1,0 +1,17 @@
+"hash": |-
+  cef205b6d98272795eb2fa1e36b3ab834731d38ae18318cfbea6eb1ab03861a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A converse variant of increasing TCP's window space is to decrease
+     the receive window (RCV.WND) explicitly, which would further reduce
+     the effectiveness of spoofed RSTs with random sequence numbers.  This
+     alternative may reduce the throughput of the connection, if the
+     advertised receive window is smaller than the bandwidth-delay product
+     of the connection.
+"fixed": |-
+  A converse variant of increasing TCP's window space is to decrease the receive window (RCV.WND) explicitly, which would further reduce the effectiveness of spoofed RSTs with random sequence numbers.  This alternative may reduce the throughput of the connection, if the advertised receive window is smaller than the bandwidth-delay product of the connection.
+"ko": |-
+  TCP의 창 공간을 늘리는 반대 변형은 수신 창(RCV.WND)을 명시적으로 줄이는 것입니다. 이는 임의의 시퀀스 번호를 사용하여 스푸핑된 RST의 효율성을 더욱 감소시킵니다. 이 대안은 알려진 수신 창이 연결의 대역폭-지연 곱보다 작은 경우 연결 처리량을 줄일 수 있습니다.

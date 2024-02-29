@@ -1,0 +1,15 @@
+"hash": |-
+  7b1b50e80a326cc874b5a888742d533c3d939c494ecabf7d39bcb1e70369a9ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           This step, combined with the next, ensures that a stateful
+           proxy will forward exactly one final response to a non-INVITE
+           request, and either exactly one non-2xx response or one or more
+           2xx responses to an INVITE request.
+"fixed": |-
+  - This step, combined with the next, ensures that a stateful proxy will forward exactly one final response to a non-INVITE request, and either exactly one non-2xx response or one or more 2xx responses to an INVITE request.
+"ko": |-
+  - 다음 단계와 결합된 이 단계는 상태 저장 프록시가 비INVITE 요청에 대해 정확히 하나의 최종 응답을 전달하고 INVITE 요청에 대해 정확히 하나의 비-2xx 응답 또는 하나 이상의 2xx 응답을 전달하도록 보장합니다.

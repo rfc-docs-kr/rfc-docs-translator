@@ -1,0 +1,15 @@
+"hash": |-
+  43d371c81adec5a7c7f0087512c26494ff4bdca3f6edefb75d5178d417ed4f65
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This ensures that outbound proxies that do not add Record-Route
+        header field values will drop out of the path of subsequent
+        requests.  It allows endpoints that cannot resolve the first Route
+        URI to delegate that task to an outbound proxy.
+"fixed": |-
+  - This ensures that outbound proxies that do not add Record-Route header field values will drop out of the path of subsequent requests.  It allows endpoints that cannot resolve the first Route URI to delegate that task to an outbound proxy.
+"ko": |-
+  - 이렇게 하면 Record-Route 헤더 필드 값을 추가하지 않는 아웃바운드 프록시가 후속 요청 경로에서 삭제됩니다. 이를 통해 첫 번째 경로 URI를 확인할 수 없는 엔드포인트가 해당 작업을 아웃바운드 프록시에 위임할 수 있습니다.

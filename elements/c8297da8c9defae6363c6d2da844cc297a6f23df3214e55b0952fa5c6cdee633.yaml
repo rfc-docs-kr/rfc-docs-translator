@@ -1,0 +1,24 @@
+"hash": |-
+  c8297da8c9defae6363c6d2da844cc297a6f23df3214e55b0952fa5c6cdee633
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           it may have added to the next Via header field value while
+           processing the request associated with this response.  The
+           proxy MUST pass the response to the server transaction
+           associated with the response context.  This will result in the
+           response being sent to the location now indicated in the
+           topmost Via header field value.  If the server transaction is
+           no longer available to handle the transmission, the element
+           MUST forward the response statelessly by sending it to the
+           server transport.  The server transaction might indicate
+           failure to send the response or signal a timeout in its state
+           machine.  These errors would be logged for diagnostic purposes
+           as appropriate, but the protocol requires no remedial action
+           from the proxy.
+"fixed": |-
+  - it may have added to the next Via header field value while processing the request associated with this response.  The proxy MUST pass the response to the server transaction associated with the response context.  This will result in the response being sent to the location now indicated in the topmost Via header field value.  If the server transaction is no longer available to handle the transmission, the element MUST forward the response statelessly by sending it to the server transport.  The server transaction might indicate failure to send the response or signal a timeout in its state machine.  These errors would be logged for diagnostic purposes as appropriate, but the protocol requires no remedial action from the proxy.
+"ko": |-
+  - 이 응답과 관련된 요청을 처리하는 동안 다음 Via 헤더 필드 값에 추가되었을 수 있습니다. 프록시는 응답 컨텍스트와 관련된 서버 트랜잭션에 응답을 전달해야 합니다. 그러면 응답이 현재 최상위 Via 헤더 필드 값에 표시된 위치로 전송됩니다. 서버 트랜잭션이 더 이상 전송을 처리할 수 없는 경우 요소는 응답을 서버 전송으로 보내 상태 없이 응답을 전달해야 합니다. 서버 트랜잭션은 응답 전송 실패를 나타내거나 해당 상태 머신에서 시간 초과 신호를 보낼 수 있습니다. 이러한 오류는 적절한 진단 목적으로 기록되지만 프로토콜에는 프록시의 해결 조치가 필요하지 않습니다.

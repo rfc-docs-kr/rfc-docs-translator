@@ -1,0 +1,21 @@
+"hash": |-
+  d04fee3aabd93090003b685e1aa911d9a455c236959611ec65784e2f36015044
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       HTTP/1.1 200 OK                  HEADERS
+       Content-Type: image/jpeg   ==>     - END_STREAM
+       Transfer-Encoding: chunked         + END_HEADERS
+       Trailer: Foo                         :status = 200
+                                            content-type = image/jpeg
+       123                                  trailer = Foo
+       {binary data}
+       0                                DATA
+       Foo: bar                           - END_STREAM
+                                        {binary data}
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

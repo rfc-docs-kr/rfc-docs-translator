@@ -1,0 +1,18 @@
+"hash": |-
+  641ae784e93f12f947f997d3bc9b802aa074b6291fcabf844fa02a491b05030f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Little was said about the 503 response code in RFC 2543.  It has
+        since found substantial use in indicating failure or overload
+        conditions in proxies.  This requires somewhat special treatment.
+        Specifically, receipt of a 503 should trigger an attempt to
+        contact the next element in the result of a DNS SRV lookup.  Also,
+        503 response is only forwarded upstream by a proxy under certain
+        conditions.
+"fixed": |-
+  -  Little was said about the 503 response code in RFC 2543.  It has since found substantial use in indicating failure or overload conditions in proxies.  This requires somewhat special treatment. Specifically, receipt of a 503 should trigger an attempt to contact the next element in the result of a DNS SRV lookup.  Also, 503 response is only forwarded upstream by a proxy under certain conditions.
+"ko": |-
+  - RFC 2543의 503 응답 코드에 대해서는 거의 언급되지 않았습니다. 이후 프록시의 오류 또는 과부하 상태를 나타내는 데 실질적으로 사용되는 것으로 나타났습니다. 이를 위해서는 다소 특별한 처리가 필요합니다. 특히 503을 수신하면 DNS SRV 조회 결과의 다음 요소에 연결하려는 시도가 트리거되어야 합니다. 또한 503 응답은 특정 조건에서만 프록시에 의해 업스트림으로 전달됩니다.

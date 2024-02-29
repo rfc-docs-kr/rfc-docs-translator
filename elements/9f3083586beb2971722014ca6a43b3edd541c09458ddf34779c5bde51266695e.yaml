@@ -1,0 +1,24 @@
+"hash": |-
+  9f3083586beb2971722014ca6a43b3edd541c09458ddf34779c5bde51266695e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Local policy MAY specify an alternate set of destinations to attempt.
+     If the Request-URI contains a SIPS URI, any alternate destinations
+     MUST be contacted with TLS.  Beyond that, there are no restrictions
+     on the alternate destinations if the request contains no Route header
+     field.  This provides a simple alternative to a pre-existing route
+     set as a way to specify an outbound proxy.  However, that approach
+     for configuring an outbound proxy is NOT RECOMMENDED; a pre-existing
+     route set with a single URI SHOULD be used instead.  If the request
+     contains a Route header field, the request SHOULD be sent to the
+     locations derived from its topmost value, but MAY be sent to any
+     server that the UA is certain will honor the Route and Request-URI
+     policies specified in this document (as opposed to those in RFC
+     2543).  In particular, a UAC configured with an outbound proxy SHOULD
+"fixed": |-
+  Local policy MAY specify an alternate set of destinations to attempt. If the Request-URI contains a SIPS URI, any alternate destinations MUST be contacted with TLS.  Beyond that, there are no restrictions on the alternate destinations if the request contains no Route header field.  This provides a simple alternative to a pre-existing route set as a way to specify an outbound proxy.  However, that approach for configuring an outbound proxy is NOT RECOMMENDED; a pre-existing route set with a single URI SHOULD be used instead.  If the request contains a Route header field, the request SHOULD be sent to the locations derived from its topmost value, but MAY be sent to any server that the UA is certain will honor the Route and Request-URI policies specified in this document (as opposed to those in RFC 2543).  In particular, a UAC configured with an outbound proxy SHOULD
+"ko": |-
+  로컬 정책은 시도할 대체 대상 세트를 지정할 수 있습니다. 요청-URI에 SIPS URI가 포함되어 있는 경우 모든 대체 대상은 TLS를 통해 연결되어야 합니다. 그 외에도 요청에 경로 헤더 필드가 포함되어 있지 않은 경우 대체 대상에 대한 제한은 없습니다. 이는 아웃바운드 프록시를 지정하는 방법으로 기존 경로 세트에 대한 간단한 대안을 제공합니다. 그러나 아웃바운드 프록시를 구성하는 이러한 접근 방식은 권장되지 않습니다. 대신 단일 URI로 설정된 기존 경로를 사용해야 합니다. 요청에 경로 헤더 필드가 포함된 경우 요청은 최상위 값에서 파생된 위치로 전송되어야 하지만 UA가 이 문서에 지정된 경로 및 요청-URI 정책을 준수할 것이라고 확신하는 모든 서버로 전송될 수 있습니다. RFC 2543의 내용과 반대). 특히 아웃바운드 프록시로 구성된 UAC는 반드시

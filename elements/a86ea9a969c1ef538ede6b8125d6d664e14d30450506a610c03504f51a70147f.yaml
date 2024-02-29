@@ -1,0 +1,15 @@
+"hash": |-
+  a86ea9a969c1ef538ede6b8125d6d664e14d30450506a610c03504f51a70147f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that detects a stream error sends a RST_STREAM frame
+     (Section 6.4) that contains the stream identifier of the stream where
+     the error occurred.  The RST_STREAM frame includes an error code that
+     indicates the type of error.
+"fixed": |-
+  An endpoint that detects a stream error sends a RST_STREAM frame (Section 6.4) that contains the stream identifier of the stream where the error occurred.  The RST_STREAM frame includes an error code that indicates the type of error.
+"ko": |-
+  스트림 오류를 감지한 엔드포인트는 오류가 발생한 스트림의 스트림 식별자가 포함된 RST_STREAM 프레임(6.4절)을 보냅니다. RST_STREAM 프레임에는 오류 유형을 나타내는 오류 코드가 포함되어 있습니다.

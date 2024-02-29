@@ -1,0 +1,15 @@
+"hash": |-
+  f4ea3c5c6fe7d7d0fbe7f8b50dda2dc33c5597422de7c0a87de978d4f24f7214
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that does not wish clients to reuse connections can indicate
+     that it is not authoritative for a request by sending a 421
+     (Misdirected Request) status code in response to the request (see
+     Section 15.5.20 of [HTTP]).
+"fixed": |-
+  A server that does not wish clients to reuse connections can indicate that it is not authoritative for a request by sending a 421 (Misdirected Request) status code in response to the request (see Section 15.5.20 of [HTTP]).
+"ko": |-
+  클라이언트가 연결을 재사용하는 것을 원하지 않는 서버는 요청에 대한 응답으로 421(잘못된 요청) 상태 코드를 전송하여 요청에 대한 권한이 없음을 나타낼 수 있습니다([HTTP]의 섹션 15.5.20 참조).

@@ -1,0 +1,17 @@
+"hash": |-
+  210f916d7e887f7e8dc9f8c7c6cf800b08a8c2b24305963bdd675028194b9da5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     SingleResponse ::= SEQUENCE {
+        certID                       CertID,
+        certStatus                   CertStatus,
+        thisUpdate                   GeneralizedTime,
+        nextUpdate         [0]       EXPLICIT GeneralizedTime OPTIONAL,
+        singleExtensions   [1]       EXPLICIT Extensions OPTIONAL }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

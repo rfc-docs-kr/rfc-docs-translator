@@ -1,0 +1,16 @@
+"hash": |-
+  6255afeacea3b2d8a44e3b898d56f3f59ac59c327b037bf06df13c07f0b95caf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a 420 (Bad Extension) response is received (Section 21.4.15), the
+     request contained a Require or Proxy-Require header field listing an
+     option-tag for a feature not supported by a proxy or UAS.  The UAC
+     SHOULD retry the request, this time omitting any extensions listed in
+     the Unsupported header field in the response.
+"fixed": |-
+  If a 420 (Bad Extension) response is received (Section 21.4.15), the request contained a Require or Proxy-Require header field listing an option-tag for a feature not supported by a proxy or UAS.  The UAC SHOULD retry the request, this time omitting any extensions listed in the Unsupported header field in the response.
+"ko": |-
+  420(잘못된 확장) 응답이 수신된 경우(섹션 21.4.15) 요청에는 프록시 또는 UAS에서 지원하지 않는 기능에 대한 옵션 태그를 나열하는 Require 또는 Proxy-Require 헤더 필드가 포함되어 있습니다. UAC는 요청을 재시도해야 하며, 이번에는 응답의 지원되지 않는 헤더 필드에 나열된 모든 확장자를 생략해야 합니다.

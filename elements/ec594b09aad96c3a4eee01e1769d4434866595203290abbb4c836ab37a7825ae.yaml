@@ -1,0 +1,16 @@
+"hash": |-
+  ec594b09aad96c3a4eee01e1769d4434866595203290abbb4c836ab37a7825ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For HTTP/2 responses, a single ":status" pseudo-header field is
+     defined that carries the HTTP status code field (see Section 15 of
+     [HTTP]).  This pseudo-header field MUST be included in all responses,
+     including interim responses; otherwise, the response is malformed
+     (Section 8.1.1).
+"fixed": |-
+  For HTTP/2 responses, a single ":status" pseudo-header field is defined that carries the HTTP status code field (see Section 15 of [HTTP]).  This pseudo-header field MUST be included in all responses, including interim responses; otherwise, the response is malformed (Section 8.1.1).
+"ko": |-
+  HTTP/2 응답의 경우 HTTP 상태 코드 필드를 전달하는 단일 ":status" 의사 헤더 필드가 정의됩니다([HTTP]의 섹션 15 참조). 이 의사 헤더 필드는 중간 응답을 포함한 모든 응답에 포함되어야 합니다. 그렇지 않으면 응답 형식이 잘못되었습니다(8.1.1절).

@@ -1,0 +1,19 @@
+"hash": |-
+  04a2daa71e6c41765c9eca7886d6344d26ca9ab49955268257d8ab630350d445
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     AlgorithmIdentifier { ALGORITHM-IDENTIFIER:InfoObjectSet } ::=
+         SEQUENCE {
+           algorithm
+               ALGORITHM-IDENTIFIER.&id({InfoObjectSet}),
+           parameters
+               ALGORITHM-IDENTIFIER.&Type({InfoObjectSet}{@.algorithm})
+                 OPTIONAL
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

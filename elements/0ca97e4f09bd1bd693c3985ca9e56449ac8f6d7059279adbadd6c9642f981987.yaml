@@ -1,0 +1,21 @@
+"hash": |-
+  0ca97e4f09bd1bd693c3985ca9e56449ac8f6d7059279adbadd6c9642f981987
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  End-point channel bindings MAY be identifiers (e.g., certificate
+        names) that must be authenticated through some infrastructure,
+        such as a public key infrastructure (PKI).  In such cases,
+        applications MUST ensure that the channel provides adequate
+        authentication of such identifiers (e.g., that the certificate
+        validation policy and trust anchors used by the channel satisfy
+        the application's requirements).  To avoid implementation
+        difficulties in addressing this requirement, applications SHOULD
+        use cryptographic quantities as end-point channel bindings, such
+        as certificate-subject public keys.
+"fixed": |-
+  -  End-point channel bindings MAY be identifiers (e.g., certificate names) that must be authenticated through some infrastructure, such as a public key infrastructure (PKI).  In such cases, applications MUST ensure that the channel provides adequate authentication of such identifiers (e.g., that the certificate validation policy and trust anchors used by the channel satisfy the application's requirements).  To avoid implementation difficulties in addressing this requirement, applications SHOULD use cryptographic quantities as end-point channel bindings, such as certificate-subject public keys.
+"ko": |-
+  - 엔드포인트 채널 바인딩은 공개 키 인프라(PKI)와 같은 일부 인프라를 통해 인증되어야 하는 식별자(예: 인증서 이름)일 수 있습니다. 이러한 경우 애플리케이션은 채널이 해당 식별자에 대한 적절한 인증을 제공하는지 확인해야 합니다(예: 채널에서 사용하는 인증서 유효성 검사 정책 및 트러스트 앵커가 애플리케이션 요구 사항을 충족하는지 확인). 이 요구 사항을 해결하는 데 구현상의 어려움을 피하기 위해 애플리케이션은 인증서 주제 공개 키와 같은 엔드포인트 채널 바인딩으로 암호화 수량을 사용해야 합니다.

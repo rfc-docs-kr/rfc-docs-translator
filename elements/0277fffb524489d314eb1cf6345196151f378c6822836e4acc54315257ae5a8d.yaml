@@ -1,0 +1,15 @@
+"hash": |-
+  0277fffb524489d314eb1cf6345196151f378c6822836e4acc54315257ae5a8d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The GOAWAY frame applies to the connection, not a specific stream.
+     An endpoint MUST treat a GOAWAY frame with a stream identifier other
+     than 0x00 as a connection error (Section 5.4.1) of type
+     PROTOCOL_ERROR.
+"fixed": |-
+  The GOAWAY frame applies to the connection, not a specific stream. An endpoint MUST treat a GOAWAY frame with a stream identifier other than 0x00 as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  GOAWAY 프레임은 특정 스트림이 아닌 연결에 적용됩니다. 엔드포인트는 0x00 이외의 스트림 식별자를 가진 GOAWAY 프레임을 PROTOCOL_ERROR 유형의 연결 오류(5.4.1절)로 처리해야 합니다.

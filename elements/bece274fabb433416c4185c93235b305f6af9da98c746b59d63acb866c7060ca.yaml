@@ -1,0 +1,17 @@
+"hash": |-
+  bece274fabb433416c4185c93235b305f6af9da98c746b59d63acb866c7060ca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Firewalls and load balancers, so-called 'middleboxes', sometimes emit
+     RSTs on behalf of transited connections to optimize server
+     performance, as noted in RFC 3360 [14].  This is effectively an on-
+     path RST attack in which the RSTs are sent for benign or beneficial
+     intent.  There are numerous hazards with such use of RSTs, outlined
+     in that RFC.
+"fixed": |-
+  Firewalls and load balancers, so-called 'middleboxes', sometimes emit RSTs on behalf of transited connections to optimize server performance, as noted in RFC 3360 [14].  This is effectively an on- path RST attack in which the RSTs are sent for benign or beneficial intent.  There are numerous hazards with such use of RSTs, outlined in that RFC.
+"ko": |-
+  RFC 3360 [14]에 명시된 대로 소위 '미들박스'라고 불리는 방화벽과 로드 밸런서는 때때로 서버 성능을 최적화하기 위해 전송된 연결을 대신하여 RST를 내보냅니다. 이는 사실상 RST가 선의 또는 유익한 의도로 전송되는 경로 상의 RST 공격입니다. 해당 RFC에 설명된 대로 RST를 사용하면 수많은 위험이 있습니다.

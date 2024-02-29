@@ -1,0 +1,19 @@
+"hash": |-
+  c852831902d0ac32a57f962ac133145dabf8c398f831b1cbd548897c43b159d0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The URI placed in the Record-Route header field value MUST be a
+           SIP or SIPS URI.  This URI MUST contain an lr parameter (see
+           Section 19.1.1).  This URI MAY be different for each
+           destination the request is forwarded to.  The URI SHOULD NOT
+           contain the transport parameter unless the proxy has knowledge
+           (such as in a private network) that the next downstream element
+           that will be in the path of subsequent requests supports that
+           transport.
+"fixed": |-
+  - The URI placed in the Record-Route header field value MUST be a SIP or SIPS URI.  This URI MUST contain an lr parameter (see Section 19.1.1).  This URI MAY be different for each destination the request is forwarded to.  The URI SHOULD NOT contain the transport parameter unless the proxy has knowledge (such as in a private network) that the next downstream element that will be in the path of subsequent requests supports that transport.
+"ko": |-
+  - Record-Route 헤더 필드 값에 있는 URI는 SIP 또는 SIPS URI여야 합니다. 이 URI는 lr 매개변수를 포함해야 합니다(섹션 19.1.1 참조). 이 URI는 요청이 전달되는 각 대상마다 다를 수 있습니다. 프록시가 후속 요청 경로에 있을 다음 다운스트림 요소가 해당 전송을 지원한다는 사실을 프록시가 알지 못하는 경우(예: 개인 네트워크에서) URI는 전송 매개변수를 포함해서는 안 됩니다.

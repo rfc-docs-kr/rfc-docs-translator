@@ -1,0 +1,23 @@
+"hash": |-
+  ac45553bb39241e002ad447b5e1a432bb68ee35d428c148dacadce3cdb8ed694
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is possible for more than one Peer-Id to be exported by an EAP
+     method.  For example, a peer certificate can contain more than one
+     peer identity; in a tunnel method, peer identities can be
+     authenticated within both an outer and inner exchange, and these
+     identities could be different in type and contents.  For example, an
+     outer exchange could provide a Peer-Id in the form of a Relative
+     Distinguished Name (RDN), whereas an inner exchange could identify
+     the peer via its NAI or MAC address.  Where EAP keying material is
+     determined solely from the outer exchange, only the outer Peer-Id(s)
+     are exported; where the EAP keying material is determined from both
+     the inner and outer exchanges, then both the inner and outer
+     Peer-Id(s) are exported by the tunnel method.
+"fixed": |-
+  It is possible for more than one Peer-Id to be exported by an EAP method.  For example, a peer certificate can contain more than one peer identity; in a tunnel method, peer identities can be authenticated within both an outer and inner exchange, and these identities could be different in type and contents.  For example, an outer exchange could provide a Peer-Id in the form of a Relative Distinguished Name (RDN), whereas an inner exchange could identify the peer via its NAI or MAC address.  Where EAP keying material is determined solely from the outer exchange, only the outer Peer-Id(s) are exported; where the EAP keying material is determined from both the inner and outer exchanges, then both the inner and outer Peer-Id(s) are exported by the tunnel method.
+"ko": |-
+  EAP 방법으로 둘 이상의 Peer-Id를 내보낼 수 있습니다. 예를 들어 피어 인증서에는 둘 이상의 피어 ID가 포함될 수 있습니다. 터널 방식에서는 피어 ID가 외부 및 내부 교환 모두에서 인증될 수 있으며 이러한 ID는 유형과 내용이 다를 수 있습니다. 예를 들어, 외부 교환은 RDN(Relative Distinguished Name) 형식으로 Peer-Id를 제공할 수 있는 반면, 내부 교환은 NAI 또는 MAC 주소를 통해 피어를 식별할 수 있습니다. EAP 키 자료가 외부 교환에서만 결정되는 경우 외부 피어 ID만 내보내집니다. EAP 키 자료가 내부 및 외부 교환 모두에서 결정되는 경우 내부 및 외부 Peer-Id가 모두 터널 방법으로 내보내집니다.

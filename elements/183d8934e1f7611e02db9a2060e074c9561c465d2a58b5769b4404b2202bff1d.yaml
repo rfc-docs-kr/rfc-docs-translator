@@ -1,0 +1,24 @@
+"hash": |-
+  183d8934e1f7611e02db9a2060e074c9561c465d2a58b5769b4404b2202bff1d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Registration is another common operation in SIP.  Registration is one
+     way that the biloxi.com server can learn the current location of Bob.
+     Upon initialization, and at periodic intervals, Bob's SIP phone sends
+     REGISTER messages to a server in the biloxi.com domain known as a SIP
+     registrar.  The REGISTER messages associate Bob's SIP or SIPS URI
+     (sip:bob@biloxi.com) with the machine into which he is currently
+     logged (conveyed as a SIP or SIPS URI in the Contact header field).
+     The registrar writes this association, also called a binding, to a
+     database, called the location service, where it can be used by the
+     proxy in the biloxi.com domain.  Often, a registrar server for a
+     domain is co-located with the proxy for that domain.  It is an
+     important concept that the distinction between types of SIP servers
+     is logical, not physical.
+"fixed": |-
+  Registration is another common operation in SIP.  Registration is one way that the biloxi.com server can learn the current location of Bob. Upon initialization, and at periodic intervals, Bob's SIP phone sends REGISTER messages to a server in the biloxi.com domain known as a SIP registrar.  The REGISTER messages associate Bob's SIP or SIPS URI (sip:bob@biloxi.com) with the machine into which he is currently logged (conveyed as a SIP or SIPS URI in the Contact header field). The registrar writes this association, also called a binding, to a database, called the location service, where it can be used by the proxy in the biloxi.com domain.  Often, a registrar server for a domain is co-located with the proxy for that domain.  It is an important concept that the distinction between types of SIP servers is logical, not physical.
+"ko": |-
+  등록은 SIP의 또 다른 일반적인 작업입니다. 등록은 biloxi.com 서버가 Bob의 현재 위치를 알 수 있는 한 가지 방법입니다. 초기화 시, 그리고 정기적인 간격으로 Bob의 SIP 전화는 SIP 등록자로 알려진 biloxi.com 도메인의 서버에 REGISTER 메시지를 보냅니다. REGISTER 메시지는 Bob의 SIP 또는 SIPS URI(sip:bob@biloxi.com)를 Bob이 현재 로그인되어 있는 컴퓨터(연락처 헤더 필드에 SIP 또는 SIPS URI로 전달됨)와 연결합니다. 등록자는 바인딩이라고도 하는 이 연결을 위치 서비스라고 하는 데이터베이스에 기록합니다. 이 연결은 biloxi.com 도메인의 프록시에서 사용할 수 있습니다. 도메인의 등록 서버가 해당 도메인의 프록시와 같은 위치에 있는 경우가 많습니다. SIP 서버 유형 간의 구별은 물리적이지 않고 논리적이라는 것이 중요한 개념입니다.

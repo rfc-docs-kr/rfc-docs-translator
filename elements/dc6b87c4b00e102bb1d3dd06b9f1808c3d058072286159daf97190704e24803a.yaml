@@ -1,0 +1,16 @@
+"hash": |-
+  dc6b87c4b00e102bb1d3dd06b9f1808c3d058072286159daf97190704e24803a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Failing to provide any ingress filter at all essentially trusts the
+     downstream network to behave itself, which is not the wisest course
+     of action.  However, especially in the case of very large networks of
+     even hundreds or thousands of prefixes, maintaining manual access-
+     lists may be too much to ask.
+"fixed": |-
+  Failing to provide any ingress filter at all essentially trusts the downstream network to behave itself, which is not the wisest course of action.  However, especially in the case of very large networks of even hundreds or thousands of prefixes, maintaining manual access- lists may be too much to ask.
+"ko": |-
+  수신 필터를 전혀 제공하지 못하면 본질적으로 다운스트림 네트워크가 스스로 작동하도록 신뢰하게 되며 이는 가장 현명한 조치가 아닙니다. 그러나 특히 수백 또는 수천 개의 접두사로 구성된 대규모 네트워크의 경우 수동 액세스 목록을 유지하는 것은 너무 많은 일이 될 수 있습니다.

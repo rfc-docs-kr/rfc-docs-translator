@@ -1,0 +1,19 @@
+"hash": |-
+  3f1106b2d56481704ab45706d4b52ecf1fcb9768baf1f8a5c5ecc148e4870bfb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Regardless of the method of the original request, as long as the
+     CANCEL matched an existing transaction, the UAS answers the CANCEL
+     request itself with a 200 (OK) response.  This response is
+     constructed following the procedures described in Section 8.2.6
+     noting that the To tag of the response to the CANCEL and the To tag
+     in the response to the original request SHOULD be the same.  The
+     response to CANCEL is passed to the server transaction for
+     transmission.
+"fixed": |-
+  Regardless of the method of the original request, as long as the CANCEL matched an existing transaction, the UAS answers the CANCEL request itself with a 200 (OK) response.  This response is constructed following the procedures described in Section 8.2.6 noting that the To tag of the response to the CANCEL and the To tag in the response to the original request SHOULD be the same.  The response to CANCEL is passed to the server transaction for transmission.
+"ko": |-
+  원래 요청의 방법에 관계없이 CANCEL이 기존 트랜잭션과 일치하는 한 UAS는 CANCEL 요청 자체에 200(OK) 응답으로 응답합니다. 이 응답은 CANCEL에 대한 응답의 To 태그와 원래 요청에 대한 응답의 To 태그가 동일해야 한다는 점을 지적하는 섹션 8.2.6에 설명된 절차에 따라 구성됩니다. CANCEL에 대한 응답은 전송을 위해 서버 트랜잭션으로 전달됩니다.

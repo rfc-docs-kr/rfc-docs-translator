@@ -1,0 +1,15 @@
+"hash": |-
+  a07dc0972b2566f5b04e3e5b22408fae2df10fe3ba60211ea92a634cd9f7d27c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           /* then results of 1st hash */
+           USHAInput(&context->shaContext, digest, context->hashSize) ||
+           /* finish up 2nd pass */
+           USHAResult(&context->shaContext, digest);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

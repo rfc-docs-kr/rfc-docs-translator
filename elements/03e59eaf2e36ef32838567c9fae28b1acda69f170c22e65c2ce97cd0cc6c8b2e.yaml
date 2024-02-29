@@ -1,0 +1,19 @@
+"hash": |-
+  03e59eaf2e36ef32838567c9fae28b1acda69f170c22e65c2ce97cd0cc6c8b2e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If Timer E fires while in the "Proceeding" state, the request MUST be
+     passed to the transport layer for retransmission, and Timer E MUST be
+     reset with a value of T2 seconds.  If timer F fires while in the
+     "Proceeding" state, the TU MUST be informed of a timeout, and the
+     client transaction MUST transition to the terminated state.  If a
+     final response (status codes 200-699) is received while in the
+     "Proceeding" state, the response MUST be passed to the TU, and the
+     client transaction MUST transition to the "Completed" state.
+"fixed": |-
+  If Timer E fires while in the "Proceeding" state, the request MUST be passed to the transport layer for retransmission, and Timer E MUST be reset with a value of T2 seconds.  If timer F fires while in the "Proceeding" state, the TU MUST be informed of a timeout, and the client transaction MUST transition to the terminated state.  If a final response (status codes 200-699) is received while in the "Proceeding" state, the response MUST be passed to the TU, and the client transaction MUST transition to the "Completed" state.
+"ko": |-
+  타이머 E가 "진행 중" 상태에 있는 동안 실행되면 요청은 재전송을 위해 전송 계층으로 전달되어야 하며 타이머 E는 T2초 값으로 재설정되어야 합니다. "진행 중" 상태에 있는 동안 타이머 F가 실행되면 TU에 시간 초과를 알려야 하며 클라이언트 트랜잭션은 종료 상태로 전환해야 합니다. "Proceeding" 상태에 있는 동안 최종 응답(상태 코드 200-699)이 수신되면 응답은 TU로 전달되어야 하며 클라이언트 트랜잭션은 "Completed" 상태로 전환되어야 합니다.

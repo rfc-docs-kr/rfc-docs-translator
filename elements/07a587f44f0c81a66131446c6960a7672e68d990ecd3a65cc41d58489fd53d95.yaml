@@ -1,0 +1,17 @@
+"hash": |-
+  07a587f44f0c81a66131446c6960a7672e68d990ecd3a65cc41d58489fd53d95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Receiving any frame other than HEADERS or PRIORITY on a stream in
+        this state MUST be treated as a connection error (Section 5.4.1)
+        of type PROTOCOL_ERROR.  If this stream is initiated by the
+        server, as described in Section 5.1.1, then receiving a HEADERS
+        frame MUST also be treated as a connection error (Section 5.4.1)
+        of type PROTOCOL_ERROR.
+"fixed": |-
+  - Receiving any frame other than HEADERS or PRIORITY on a stream in this state MUST be treated as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.  If this stream is initiated by the server, as described in Section 5.1.1, then receiving a HEADERS frame MUST also be treated as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  - 이 상태의 스트림에서 HEADERS 또는 PRIORITY 이외의 프레임을 수신하는 것은 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다. 섹션 5.1.1에 설명된 대로 이 스트림이 서버에 의해 시작되면 HEADERS 프레임 수신도 PROTOCOL_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

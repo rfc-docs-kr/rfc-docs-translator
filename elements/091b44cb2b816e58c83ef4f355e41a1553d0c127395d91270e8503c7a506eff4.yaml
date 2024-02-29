@@ -1,0 +1,21 @@
+"hash": |-
+  091b44cb2b816e58c83ef4f355e41a1553d0c127395d91270e8503c7a506eff4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    err = info ? hkdfReset(&hkdf, hashes[hashno].whichSha,
+                               keyarray, keylen) :
+          keyarray ? hmacReset(&hmac, hashes[hashno].whichSha,
+                               keyarray, keylen) :
+                     USHAReset(&sha, hashes[hashno].whichSha);
+    if (err != shaSuccess) {
+      fprintf(stderr, "hash(): %sReset Error %d.\n",
+              info ? "hkdf" : keyarray ? "hmac" : "sha", err);
+      return err;
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

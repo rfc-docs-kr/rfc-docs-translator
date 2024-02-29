@@ -1,0 +1,18 @@
+"hash": |-
+  dfca693996fa34b1b59e5c8d82ab17db3e147307d2e2a9695654732a33640929
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Trailer fields are carried in a field block that also terminates the
+     stream.  That is, trailer fields comprise a sequence starting with a
+     HEADERS frame, followed by zero or more CONTINUATION frames, where
+     the HEADERS frame bears an END_STREAM flag.  Trailers MUST NOT
+     include pseudo-header fields (Section 8.3).  An endpoint that
+     receives pseudo-header fields in trailers MUST treat the request or
+     response as malformed (Section 8.1.1).
+"fixed": |-
+  Trailer fields are carried in a field block that also terminates the stream.  That is, trailer fields comprise a sequence starting with a HEADERS frame, followed by zero or more CONTINUATION frames, where the HEADERS frame bears an END_STREAM flag.  Trailers MUST NOT include pseudo-header fields (Section 8.3).  An endpoint that receives pseudo-header fields in trailers MUST treat the request or response as malformed (Section 8.1.1).
+"ko": |-
+  트레일러 필드는 스트림을 종료하는 필드 블록으로 전달됩니다. 즉, 트레일러 필드는 HEADERS 프레임으로 시작하고 그 뒤에 0개 이상의 CONTINUATION 프레임이 오는 시퀀스로 구성됩니다. 여기서 HEADERS 프레임에는 END_STREAM 플래그가 포함됩니다. 예고편에는 의사 헤더 필드(섹션 8.3)가 포함되어서는 안 됩니다. 트레일러의 의사 헤더 필드를 수신하는 엔드포인트는 요청 또는 응답을 잘못된 형식으로 처리해야 합니다(8.1.1절).

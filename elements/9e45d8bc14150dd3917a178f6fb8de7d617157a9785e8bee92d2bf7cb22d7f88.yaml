@@ -1,0 +1,22 @@
+"hash": |-
+  9e45d8bc14150dd3917a178f6fb8de7d617157a9785e8bee92d2bf7cb22d7f88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CANCEL request, as the name implies, is used to cancel a previous
+     request sent by a client.  Specifically, it asks the UAS to cease
+     processing the request and to generate an error response to that
+     request.  CANCEL has no effect on a request to which a UAS has
+     already given a final response.  Because of this, it is most useful
+     to CANCEL requests to which it can take a server long time to
+     respond.  For this reason, CANCEL is best for INVITE requests, which
+     can take a long time to generate a response.  In that usage, a UAS
+     that receives a CANCEL request for an INVITE, but has not yet sent a
+     final response, would "stop ringing", and then respond to the INVITE
+     with a specific error response (a 487).
+"fixed": |-
+  The CANCEL request, as the name implies, is used to cancel a previous request sent by a client.  Specifically, it asks the UAS to cease processing the request and to generate an error response to that request.  CANCEL has no effect on a request to which a UAS has already given a final response.  Because of this, it is most useful to CANCEL requests to which it can take a server long time to respond.  For this reason, CANCEL is best for INVITE requests, which can take a long time to generate a response.  In that usage, a UAS that receives a CANCEL request for an INVITE, but has not yet sent a final response, would "stop ringing", and then respond to the INVITE with a specific error response (a 487).
+"ko": |-
+  CANCEL 요청은 이름에서 알 수 있듯이 클라이언트가 보낸 이전 요청을 취소하는 데 사용됩니다. 특히 UAS에 요청 처리를 중단하고 해당 요청에 대한 오류 응답을 생성하도록 요청합니다. CANCEL은 UAS가 이미 최종 응답을 제공한 요청에는 영향을 미치지 않습니다. 이 때문에 서버가 응답하는 데 오랜 시간이 걸릴 수 있는 요청을 취소하는 것이 가장 유용합니다. 이러한 이유로 CANCEL은 응답을 생성하는 데 오랜 시간이 걸릴 수 있는 INVITE 요청에 가장 적합합니다. 해당 사용법에서 INVITE에 대한 CANCEL 요청을 수신했지만 아직 최종 응답을 보내지 않은 UAS는 "벨소리를 중지"한 다음 특정 오류 응답(487)으로 INVITE에 응답합니다.

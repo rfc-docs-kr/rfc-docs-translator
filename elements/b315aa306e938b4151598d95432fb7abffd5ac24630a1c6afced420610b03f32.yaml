@@ -1,0 +1,25 @@
+"hash": |-
+  b315aa306e938b4151598d95432fb7abffd5ac24630a1c6afced420610b03f32
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "Trying" state is entered when the TU initiates a new client
+     transaction with a request.  When entering this state, the client
+     transaction SHOULD set timer F to fire in 64*T1 seconds.  The request
+     MUST be passed to the transport layer for transmission.  If an
+     unreliable transport is in use, the client transaction MUST set timer
+     E to fire in T1 seconds.  If timer E fires while still in this state,
+     the timer is reset, but this time with a value of MIN(2*T1, T2).
+     When the timer fires again, it is reset to a MIN(4*T1, T2).  This
+     process continues so that retransmissions occur with an exponentially
+     increasing interval that caps at T2.  The default value of T2 is 4s,
+     and it represents the amount of time a non-INVITE server transaction
+     will take to respond to a request, if it does not respond
+     immediately.  For the default values of T1 and T2, this results in
+     intervals of 500 ms, 1 s, 2 s, 4 s, 4 s, 4 s, etc.
+"fixed": |-
+  The "Trying" state is entered when the TU initiates a new client transaction with a request.  When entering this state, the client transaction SHOULD set timer F to fire in 64*T1 seconds.  The request MUST be passed to the transport layer for transmission.  If an unreliable transport is in use, the client transaction MUST set timer E to fire in T1 seconds.  If timer E fires while still in this state, the timer is reset, but this time with a value of MIN(2*T1, T2). When the timer fires again, it is reset to a MIN(4*T1, T2).  This process continues so that retransmissions occur with an exponentially increasing interval that caps at T2.  The default value of T2 is 4s, and it represents the amount of time a non-INVITE server transaction will take to respond to a request, if it does not respond immediately.  For the default values of T1 and T2, this results in intervals of 500 ms, 1 s, 2 s, 4 s, 4 s, 4 s, etc.
+"ko": |-
+  TU가 요청으로 새로운 클라이언트 트랜잭션을 시작할 때 "시도 중" 상태로 들어갑니다. 이 상태에 들어갈 때 클라이언트 트랜잭션은 타이머 F가 64*T1초 내에 실행되도록 설정해야 합니다. 요청은 전송을 위해 전송 계층으로 전달되어야 합니다. 신뢰할 수 없는 전송이 사용 중인 경우 클라이언트 트랜잭션은 T1초 내에 타이머 E가 실행되도록 설정해야 합니다. 이 상태에 있는 동안 타이머 E가 실행되면 타이머가 재설정되지만 이번에는 값이 MIN(2*T1, T2)입니다. 타이머가 다시 실행되면 MIN(4*T1, T2)으로 재설정됩니다. 이 프로세스는 T2에 도달하는 기하급수적으로 증가하는 간격으로 재전송이 발생하도록 계속됩니다. T2의 기본값은 4초이며, 이는 INVITE가 아닌 서버 트랜잭션이 즉시 응답하지 않는 경우 요청에 응답하는 데 걸리는 시간을 나타냅니다. T1 및 T2의 기본값의 경우 간격은 500ms, 1초, 2초, 4초, 4초, 4초 등이 됩니다.

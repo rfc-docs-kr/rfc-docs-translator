@@ -1,0 +1,20 @@
+"hash": |-
+  38ebc751f14d1ab6695547e6e76eb75e34d2cf82991e6b3ce3062ed41adca7bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Carol SHOULD then establish a TCP connection with the designated
+     address and send a new INVITE with a Request-URI containing the
+     received contact address (recomputing the signature in the body as
+     the request is readied).  Bob receives this INVITE on an insecure
+     interface, but his UA inspects and, in this instance, recognizes the
+     From header field of the request and subsequently matches a locally
+     cached certificate with the one presented in the signature of the
+     body of the INVITE.  He replies in similar fashion, authenticating
+     himself to Carol, and a secure dialog begins.
+"fixed": |-
+  Carol SHOULD then establish a TCP connection with the designated address and send a new INVITE with a Request-URI containing the received contact address (recomputing the signature in the body as the request is readied).  Bob receives this INVITE on an insecure interface, but his UA inspects and, in this instance, recognizes the From header field of the request and subsequently matches a locally cached certificate with the one presented in the signature of the body of the INVITE.  He replies in similar fashion, authenticating himself to Carol, and a secure dialog begins.
+"ko": |-
+  그런 다음 Carol은 지정된 주소로 TCP 연결을 설정하고 수신된 연락처 주소가 포함된 Request-URI와 함께 새로운 INVITE를 보내야 합니다(요청이 준비되면 본문의 서명을 다시 계산함). Bob은 안전하지 않은 인터페이스에서 이 INVITE를 받지만 그의 UA는 요청의 From 헤더 필드를 검사하고 인식한 후 로컬로 캐시된 인증서를 INVITE 본문의 서명에 표시된 인증서와 일치시킵니다. 그는 유사한 방식으로 응답하여 Carol에게 자신을 인증하고 보안 대화가 시작됩니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  be6d658cf3a1f79793c2d0c65ffa1fcebc562e5a8584e9069283501a3b69ce98
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because the matching rules include the Request-URI, the server cannot
+     match a response to a transaction.  When the TU passes a response to
+     the server transaction, it must pass it to the specific server
+     transaction for which the response is targeted.
+"fixed": |-
+  Because the matching rules include the Request-URI, the server cannot match a response to a transaction.  When the TU passes a response to the server transaction, it must pass it to the specific server transaction for which the response is targeted.
+"ko": |-
+  일치 규칙에는 Request-URI가 포함되어 있으므로 서버는 트랜잭션에 대한 응답을 일치시킬 수 없습니다. TU가 서버 트랜잭션에 응답을 전달할 때 이를 응답의 대상이 되는 특정 서버 트랜잭션에 전달해야 합니다.

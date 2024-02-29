@@ -1,0 +1,27 @@
+"hash": |-
+  e805f2db611e4a07e26de73a0cbe003f394dea52c5a0254e23c96bb2a2ec005d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA224_256ResultN
+   *
+   * Description:
+   *   This helper function will return the 224-bit or 256-bit message
+   *   digest into the Message_Digest array provided by the caller.
+   *   NOTE:
+   *    The first octet of hash is stored in the element with index 0,
+   *    the last octet of hash in the element with index 27/31.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The context to use to calculate the SHA hash.
+   *   Message_Digest[ ]: [out]
+   *     Where the digest is returned.
+   *   HashSize: [in]
+"fixed": |-
+  /* * SHA224_256ResultN * * Description: *   This helper function will return the 224-bit or 256-bit message *   digest into the Message_Digest array provided by the caller. *   NOTE: *    The first octet of hash is stored in the element with index 0, *    the last octet of hash in the element with index 27/31. * * Parameters: *   context: [in/out] *     The context to use to calculate the SHA hash. *   Message_Digest[ ]: [out] *     Where the digest is returned. *   HashSize: [in]
+"ko": |-
+  /* * SHA224_256ResultN * * 설명: * 이 도우미 함수는 호출자가 제공한 Message_Digest 배열로 224비트 또는 256비트 메시지 * 다이제스트를 반환합니다. * 참고: * 해시의 첫 번째 옥텟은 인덱스가 0인 요소에 저장되고, * 해시의 마지막 옥텟은 인덱스가 27/31인 요소에 저장됩니다. * * 매개변수: * context: [in/out] * SHA 해시를 계산하는 데 사용할 컨텍스트입니다. * Message_Digest[ ]: [out] * 다이제스트가 반환되는 위치. * 해시 크기: [in]

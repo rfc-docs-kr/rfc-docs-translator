@@ -1,0 +1,14 @@
+"hash": |-
+  8ce2b3ebf30751f22400b26d58e46cc21c3c9abb9d8046a7ca8b12de67e8454f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      if ((SHA224_256AddLength(context, 8) == shaSuccess) &&
+        (context->Message_Block_Index == SHA256_Message_Block_Size))
+        SHA224_256ProcessMessageBlock(context);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

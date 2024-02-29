@@ -1,0 +1,25 @@
+"hash": |-
+  9d330ad0fef1dd7abb6d878c8f8fa02d25939b433b9bc9880335a1898c71dda9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Look up a hash name.
+   */
+  int findhash(const char *argv0, const char *opt)
+  {
+    int i;
+    const char *names[HASHCOUNT][2] = {
+      { "0", "sha1" }, { "1", "sha224" }, { "2", "sha256" },
+      { "3", "sha384" }, { "4", "sha512" }
+    };
+    for (i = 0; i < HASHCOUNT; i++)
+      if ((strcmp(opt, names[i][0]) == 0) ||
+          (scasecmp(opt, names[i][1]) == 0))
+        return i;
+"fixed": |-
+  /* * Look up a hash name. */ int findhash(const char *argv0, const char *opt) { int i; const char *names[HASHCOUNT][2] = { { "0", "sha1" }, { "1", "sha224" }, { "2", "sha256" }, { "3", "sha384" }, { "4", "sha512" } }; for (i = 0; i < HASHCOUNT; i++) if ((strcmp(opt, names[i][0]) == 0) || (scasecmp(opt, names[i][1]) == 0)) return i;
+"ko": |-
+  /* * 해시 이름을 검색합니다. */ int findhash(const char *argv0, const char *opt) { int i; const char *names[HASHCOUNT][2] = { { "0", "sha1" }, { "1", "sha224" }, { "2", "sha256" }, { "3", "sha384" }, { "4", "sha512" } }; for (i = 0; i < HASHCOUNT; i++) if ((strcmp(opt, names[i][0]) == 0) || (scasecmp(opt, names[i][1]) == 0) ) i를 반환합니다.

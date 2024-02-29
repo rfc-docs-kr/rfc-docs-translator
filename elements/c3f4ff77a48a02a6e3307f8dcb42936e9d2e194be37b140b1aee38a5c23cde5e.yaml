@@ -1,0 +1,18 @@
+"hash": |-
+  c3f4ff77a48a02a6e3307f8dcb42936e9d2e194be37b140b1aee38a5c23cde5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     -- Exception: When formatting the DigestInfoValue in EMSA-PKCS1-v1_5
+     -- (see Section 9.2), the parameters field associated with id-sha1,
+     -- id-sha224, id-sha256, id-sha384, id-sha512, id-sha512-224, and
+     -- id-sha512-256 SHALL have a value of type NULL.  This is to
+     -- maintain compatibility with existing implementations and with the
+     -- numeric information values already published for EMSA-PKCS1-v1_5,
+     -- which are also reflected in IEEE 1363a.
+"fixed": |-
+  -- Exception: When formatting the DigestInfoValue in EMSA-PKCS1-v1_5 -- (see Section 9.2), the parameters field associated with id-sha1, -- id-sha224, id-sha256, id-sha384, id-sha512, id-sha512-224, and -- id-sha512-256 SHALL have a value of type NULL.  This is to -- maintain compatibility with existing implementations and with the -- numeric information values already published for EMSA-PKCS1-v1_5, -- which are also reflected in IEEE 1363a.
+"ko": |-
+  -- 예외: EMSA-PKCS1-v1_5에서 DigestInfoValue 형식을 지정하는 경우 --(섹션 9.2 참조), id-sha1, -- id-sha224, id-sha256, id-sha384, id-sha512, id와 관련된 매개변수 필드 -sha512-224 및 -- id-sha512-256은 NULL 유형의 값을 가져야 합니다. 이는 - 기존 구현 및 IEEE 1363a에도 반영된 EMSA-PKCS1-v1_5에 대해 이미 공개된 수치 정보 값과의 호환성을 유지하기 위한 것입니다.

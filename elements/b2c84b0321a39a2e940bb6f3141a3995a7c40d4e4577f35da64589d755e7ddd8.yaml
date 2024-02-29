@@ -1,0 +1,22 @@
+"hash": |-
+  b2c84b0321a39a2e940bb6f3141a3995a7c40d4e4577f35da64589d755e7ddd8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that is unable to retry requests loses all requests that are
+     in flight when the server closes the connection.  This is especially
+     true for intermediaries that might not be serving clients using
+     HTTP/2.  A server that is attempting to gracefully shut down a
+     connection SHOULD send an initial GOAWAY frame with the last stream
+     identifier set to 2^31-1 and a NO_ERROR code.  This signals to the
+     client that a shutdown is imminent and that initiating further
+     requests is prohibited.  After allowing time for any in-flight stream
+     creation (at least one round-trip time), the server MAY send another
+     GOAWAY frame with an updated last stream identifier.  This ensures
+     that a connection can be cleanly shut down without losing requests.
+"fixed": |-
+  A client that is unable to retry requests loses all requests that are in flight when the server closes the connection.  This is especially true for intermediaries that might not be serving clients using HTTP/2.  A server that is attempting to gracefully shut down a connection SHOULD send an initial GOAWAY frame with the last stream identifier set to 2^31-1 and a NO_ERROR code.  This signals to the client that a shutdown is imminent and that initiating further requests is prohibited.  After allowing time for any in-flight stream creation (at least one round-trip time), the server MAY send another GOAWAY frame with an updated last stream identifier.  This ensures that a connection can be cleanly shut down without losing requests.
+"ko": |-
+  요청을 재시도할 수 없는 클라이언트는 서버가 연결을 닫을 때 진행 중인 모든 요청을 잃게 됩니다. 이는 HTTP/2를 사용하여 클라이언트에 서비스를 제공하지 않는 중개자의 경우 특히 그렇습니다. 연결을 정상적으로 종료하려고 시도하는 서버는 마지막 스트림 식별자가 2^31-1로 설정되고 NO_ERROR 코드가 포함된 초기 GOAWAY 프레임을 보내야 합니다. 이는 종료가 임박했으며 추가 요청 시작이 금지됨을 클라이언트에 알립니다. 진행 중인 스트림 생성을 위한 시간(최소 1회 왕복 시간)을 허용한 후 서버는 업데이트된 마지막 스트림 식별자가 포함된 또 다른 GOAWAY 프레임을 보낼 수 있습니다. 이렇게 하면 요청 손실 없이 연결을 완전히 종료할 수 있습니다.

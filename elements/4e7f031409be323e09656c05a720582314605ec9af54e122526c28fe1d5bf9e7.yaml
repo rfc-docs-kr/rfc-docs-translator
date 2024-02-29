@@ -1,0 +1,18 @@
+"hash": |-
+  4e7f031409be323e09656c05a720582314605ec9af54e122526c28fe1d5bf9e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           In order to handle the case where an INVITE request never
+           generates a final response, the TU uses a timer which is called
+           timer C.  Timer C MUST be set for each client transaction when
+           an INVITE request is proxied.  The timer MUST be larger than 3
+           minutes.  Section 16.7 bullet 2 discusses how this timer is
+           updated with provisional responses, and Section 16.8 discusses
+           processing when it fires.
+"fixed": |-
+  - In order to handle the case where an INVITE request never generates a final response, the TU uses a timer which is called timer C.  Timer C MUST be set for each client transaction when an INVITE request is proxied.  The timer MUST be larger than 3 minutes.  Section 16.7 bullet 2 discusses how this timer is updated with provisional responses, and Section 16.8 discusses processing when it fires.
+"ko": |-
+  - INVITE 요청이 최종 응답을 생성하지 않는 경우를 처리하기 위해 TU는 타이머 C라고 하는 타이머를 사용합니다. INVITE 요청이 프록시될 때 각 클라이언트 트랜잭션에 대해 타이머 C를 설정해야 합니다. 타이머는 3분보다 커야 합니다. 섹션 16.7 글머리 기호 2에서는 이 타이머가 임시 응답으로 업데이트되는 방법을 설명하고 섹션 16.8에서는 타이머가 실행될 때 처리하는 방법을 설명합니다.

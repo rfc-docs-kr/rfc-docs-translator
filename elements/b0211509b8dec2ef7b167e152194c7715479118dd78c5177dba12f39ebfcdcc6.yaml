@@ -1,0 +1,19 @@
+"hash": |-
+  b0211509b8dec2ef7b167e152194c7715479118dd78c5177dba12f39ebfcdcc6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The request MUST be well-formed enough to be handled with a server
+        transaction.  Any components involved in the remainder of these
+        Request Validation steps or the Request Forwarding section MUST be
+        well-formed.  Any other components, well-formed or not, SHOULD be
+        ignored and remain unchanged when the message is forwarded.  For
+        instance, an element would not reject a request because of a
+        malformed Date header field.  Likewise, a proxy would not remove a
+        malformed Date header field before forwarding a request.
+"fixed": |-
+  - The request MUST be well-formed enough to be handled with a server transaction.  Any components involved in the remainder of these Request Validation steps or the Request Forwarding section MUST be well-formed.  Any other components, well-formed or not, SHOULD be ignored and remain unchanged when the message is forwarded.  For instance, an element would not reject a request because of a malformed Date header field.  Likewise, a proxy would not remove a malformed Date header field before forwarding a request.
+"ko": |-
+  - 요청은 서버 트랜잭션으로 처리될 수 있을 만큼 충분히 형식적이어야 합니다. 이러한 요청 유효성 검사 단계의 나머지 부분이나 요청 전달 섹션과 관련된 모든 구성 요소는 올바른 형식이어야 합니다. 형식이 올바른지 여부에 관계없이 다른 모든 구성 요소는 무시되어야 하며 메시지가 전달될 때 변경되지 않은 상태로 유지되어야 합니다. 예를 들어 요소는 잘못된 날짜 헤더 필드로 인해 요청을 거부하지 않습니다. 마찬가지로 프록시는 요청을 전달하기 전에 잘못된 날짜 헤더 필드를 제거하지 않습니다.

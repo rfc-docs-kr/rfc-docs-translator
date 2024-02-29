@@ -1,0 +1,25 @@
+"hash": |-
+  fe4b06a102a9c08edf3a36bc05c2d95552f21a2308bba7f795eea3d488c2c16f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Priority header field indicates the urgency of the request as
+     perceived by the client.  The Priority header field describes the
+     priority that the SIP request should have to the receiving human or
+     its agent.  For example, it may be factored into decisions about call
+     routing and acceptance.  For these decisions, a message containing no
+     Priority header field SHOULD be treated as if it specified a Priority
+     of "normal".  The Priority header field does not influence the use of
+     communications resources such as packet forwarding priority in
+     routers or access to circuits in PSTN gateways.  The header field can
+     have the values "non-urgent", "normal", "urgent", and "emergency",
+     but additional values can be defined elsewhere.  It is RECOMMENDED
+     that the value of "emergency" only be used when life, limb, or
+     property are in imminent danger.  Otherwise, there are no semantics
+     defined for this header field.
+"fixed": |-
+  The Priority header field indicates the urgency of the request as perceived by the client.  The Priority header field describes the priority that the SIP request should have to the receiving human or its agent.  For example, it may be factored into decisions about call routing and acceptance.  For these decisions, a message containing no Priority header field SHOULD be treated as if it specified a Priority of "normal".  The Priority header field does not influence the use of communications resources such as packet forwarding priority in routers or access to circuits in PSTN gateways.  The header field can have the values "non-urgent", "normal", "urgent", and "emergency", but additional values can be defined elsewhere.  It is RECOMMENDED that the value of "emergency" only be used when life, limb, or property are in imminent danger.  Otherwise, there are no semantics defined for this header field.
+"ko": |-
+  Priority 헤더 필드는 클라이언트가 인식한 요청의 긴급성을 나타냅니다. 우선순위 헤더 필드는 SIP 요청이 수신자 또는 해당 에이전트에 대해 가져야 하는 우선순위를 설명합니다. 예를 들어 통화 라우팅 및 수락에 대한 결정에 영향을 미칠 수 있습니다. 이러한 결정의 경우 Priority 헤더 필드가 포함되지 않은 메시지는 "normal"의 우선순위를 지정한 것처럼 처리되어야 합니다. Priority 헤더 필드는 라우터의 패킷 전달 우선 순위나 PSTN 게이트웨이의 회로에 대한 액세스와 같은 통신 리소스의 사용에 영향을 주지 않습니다. 헤더 필드에는 "비긴급", "보통", "긴급" 및 "긴급" 값이 있을 수 있지만 다른 곳에서 추가 값을 정의할 수 있습니다. "긴급" 값은 생명, 신체 또는 재산이 급박한 위험에 처한 경우에만 사용하는 것이 좋습니다. 그렇지 않으면 이 헤더 필드에 대해 정의된 의미가 없습니다.

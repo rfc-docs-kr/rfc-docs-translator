@@ -1,0 +1,14 @@
+"hash": |-
+  262924d0f5c329444af4e291f0fd6a39b8af24a82122fac573677ac5f344d6e2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  A UA cannot send a BYE for a call until it has received an ACK for
+        the initial INVITE.  This was allowed in RFC 2543 but leads to a
+        potential race condition.
+"fixed": |-
+  -  A UA cannot send a BYE for a call until it has received an ACK for the initial INVITE.  This was allowed in RFC 2543 but leads to a potential race condition.
+"ko": |-
+  - UA는 초기 INVITE에 대한 ACK를 수신할 때까지 통화에 대한 BYE를 보낼 수 없습니다. 이는 RFC 2543에서 허용되었지만 잠재적인 경쟁 조건이 발생할 수 있습니다.

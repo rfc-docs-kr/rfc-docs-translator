@@ -1,0 +1,21 @@
+"hash": |-
+  44d118ffdc90681de8ecbaec0c76aec0f0b71cb5fec82149fb58555a4496f187
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the server transport receives a request over any transport, it
+     MUST examine the value of the "sent-by" parameter in the top Via
+     header field value.  If the host portion of the "sent-by" parameter
+     contains a domain name, or if it contains an IP address that differs
+     from the packet source address, the server MUST add a "received"
+     parameter to that Via header field value.  This parameter MUST
+     contain the source address from which the packet was received.  This
+     is to assist the server transport layer in sending the response,
+     since it must be sent to the source IP address from which the request
+     came.
+"fixed": |-
+  When the server transport receives a request over any transport, it MUST examine the value of the "sent-by" parameter in the top Via header field value.  If the host portion of the "sent-by" parameter contains a domain name, or if it contains an IP address that differs from the packet source address, the server MUST add a "received" parameter to that Via header field value.  This parameter MUST contain the source address from which the packet was received.  This is to assist the server transport layer in sending the response, since it must be sent to the source IP address from which the request came.
+"ko": |-
+  서버 전송이 전송을 통해 요청을 수신하면 상단 Via 헤더 필드 값에 있는 "sent-by" 매개변수 값을 검사해야 합니다. "sent-by" 매개변수의 호스트 부분에 도메인 이름이 포함되어 있거나 패킷 소스 주소와 다른 IP 주소가 포함되어 있는 경우 서버는 해당 Via 헤더 필드 값에 "received" 매개변수를 추가해야 합니다. 이 매개변수는 패킷이 수신된 소스 주소를 포함해야 합니다. 이는 요청이 발생한 소스 IP 주소로 응답을 전송해야 하기 때문에 서버 전송 계층에서 응답을 보내는 데 도움이 됩니다.

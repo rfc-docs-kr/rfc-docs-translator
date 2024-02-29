@@ -1,0 +1,17 @@
+"hash": |-
+  b4622b93a4b15f127bb04e8700f8aa606b762a36eeb5a9bbf5a068ee793069e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that sends a request to a multicast address MUST add the
+     "maddr" parameter to its Via header field value containing the
+     destination multicast address, and for IPv4, SHOULD add the "ttl"
+     parameter with a value of 1.  Usage of IPv6 multicast is not defined
+     in this specification, and will be a subject of future
+     standardization when the need arises.
+"fixed": |-
+  A client that sends a request to a multicast address MUST add the "maddr" parameter to its Via header field value containing the destination multicast address, and for IPv4, SHOULD add the "ttl" parameter with a value of 1.  Usage of IPv6 multicast is not defined in this specification, and will be a subject of future standardization when the need arises.
+"ko": |-
+  멀티캐스트 주소로 요청을 보내는 클라이언트는 대상 멀티캐스트 주소를 포함하는 Via 헤더 필드 값에 "maddr" 매개변수를 추가해야 하며, IPv4의 경우 값이 1인 "ttl" 매개변수를 추가해야 합니다. IPv6 멀티캐스트 사용법 본 사양에서는 정의되지 않았으며 향후 필요 시 표준화의 대상이 될 것입니다.

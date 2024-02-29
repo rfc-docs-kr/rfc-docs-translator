@@ -1,0 +1,18 @@
+"hash": |-
+  585cb733e4c809f7888acdda5e44fe553787e98fccbca60c98c14ba3d0578b5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An HTTP request/response exchange fully consumes a single stream.  A
+     request starts with the HEADERS frame that puts the stream into the
+     "open" state.  The request ends with a frame with the END_STREAM flag
+     set, which causes the stream to become "half-closed (local)" for the
+     client and "half-closed (remote)" for the server.  A response stream
+     starts with zero or more interim responses in HEADERS frames,
+     followed by a HEADERS frame containing a final status code.
+"fixed": |-
+  An HTTP request/response exchange fully consumes a single stream.  A request starts with the HEADERS frame that puts the stream into the "open" state.  The request ends with a frame with the END_STREAM flag set, which causes the stream to become "half-closed (local)" for the client and "half-closed (remote)" for the server.  A response stream starts with zero or more interim responses in HEADERS frames, followed by a HEADERS frame containing a final status code.
+"ko": |-
+  HTTP 요청/응답 교환은 단일 스트림을 완전히 소비합니다. 요청은 스트림을 "열림" 상태로 만드는 HEADERS 프레임으로 시작됩니다. 요청은 END_STREAM 플래그가 설정된 프레임으로 끝나며, 이로 인해 스트림이 클라이언트에 대해서는 "반 폐쇄(로컬)", 서버에 대해서는 "반 폐쇄(원격)"가 됩니다. 응답 스트림은 HEADERS 프레임에서 0개 이상의 임시 응답으로 시작하고 최종 상태 코드를 포함하는 HEADERS 프레임이 이어집니다.

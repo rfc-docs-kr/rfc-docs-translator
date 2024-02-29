@@ -1,0 +1,19 @@
+"hash": |-
+  951b02fc3b61549670bbdeed17843b87b9faf4fc0cdeda266652086d34f90ce0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Ensuring that TLS will be used for all of the request segments up to
+     the target domain is somewhat complex.  It is possible that
+     cryptographically authenticated proxy servers along the way that are
+     non-compliant or compromised may choose to disregard the forwarding
+     rules associated with SIPS (and the general forwarding rules in
+     Section 16.6).  Such malicious intermediaries could, for example,
+     retarget a request from a SIPS URI to a SIP URI in an attempt to
+     downgrade security.
+"fixed": |-
+  Ensuring that TLS will be used for all of the request segments up to the target domain is somewhat complex.  It is possible that cryptographically authenticated proxy servers along the way that are non-compliant or compromised may choose to disregard the forwarding rules associated with SIPS (and the general forwarding rules in Section 16.6).  Such malicious intermediaries could, for example, retarget a request from a SIPS URI to a SIP URI in an attempt to downgrade security.
+"ko": |-
+  대상 도메인까지의 모든 요청 세그먼트에 TLS가 사용되도록 보장하는 것은 다소 복잡합니다. 비준수 또는 손상된 방식으로 암호화 인증된 프록시 서버가 SIPS와 관련된 전달 규칙(및 섹션 16.6의 일반 전달 규칙)을 무시하도록 선택할 수 있습니다. 예를 들어, 이러한 악의적인 중개자는 보안을 다운그레이드하기 위해 SIPS URI의 요청 대상을 SIP URI로 변경할 수 있습니다.

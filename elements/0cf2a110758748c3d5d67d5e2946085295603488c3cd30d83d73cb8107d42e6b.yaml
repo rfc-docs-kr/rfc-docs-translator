@@ -1,0 +1,19 @@
+"hash": |-
+  0cf2a110758748c3d5d67d5e2946085295603488c3cd30d83d73cb8107d42e6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Based on the fact that while servers may request TLS
+        renegotiation, only clients may initiate it, this synchronization
+        problem can be avoided by clients and servers as follows: server
+        applications MUST NOT request TLS renegotiation during phases of
+        the application protocol during which application-layer
+        authentication occurs.  Client applications SHOULD NOT initiate
+        TLS renegotiation between the start and completion of
+        authentication.
+"fixed": |-
+  - Based on the fact that while servers may request TLS renegotiation, only clients may initiate it, this synchronization problem can be avoided by clients and servers as follows: server applications MUST NOT request TLS renegotiation during phases of the application protocol during which application-layer authentication occurs.  Client applications SHOULD NOT initiate TLS renegotiation between the start and completion of authentication.
+"ko": |-
+  - 서버가 TLS 재협상을 요청할 수 있지만 클라이언트만이 이를 시작할 수 있다는 사실에 기초하여 클라이언트와 서버는 다음과 같이 이 동기화 문제를 피할 수 있습니다. 인증이 발생합니다. 클라이언트 애플리케이션은 인증 시작과 완료 사이에 TLS 재협상을 시작해서는 안 됩니다.

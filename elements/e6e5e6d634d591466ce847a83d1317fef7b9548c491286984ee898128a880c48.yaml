@@ -1,0 +1,21 @@
+"hash": |-
+  e6e5e6d634d591466ce847a83d1317fef7b9548c491286984ee898128a880c48
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A stateless proxy does not have any notion of a transaction, or of
+     the response context used to describe stateful proxy behavior.
+     Instead, the stateless proxy takes messages, both requests and
+     responses, directly from the transport layer (See section 18).  As a
+     result, stateless proxies do not retransmit messages on their own.
+     They do, however, forward all retransmissions they receive (they do
+     not have the ability to distinguish a retransmission from the
+     original message).  Furthermore, when handling a request statelessly,
+     an element MUST NOT generate its own 100 (Trying) or any other
+     provisional response.
+"fixed": |-
+  A stateless proxy does not have any notion of a transaction, or of the response context used to describe stateful proxy behavior. Instead, the stateless proxy takes messages, both requests and responses, directly from the transport layer (See section 18).  As a result, stateless proxies do not retransmit messages on their own. They do, however, forward all retransmissions they receive (they do not have the ability to distinguish a retransmission from the original message).  Furthermore, when handling a request statelessly, an element MUST NOT generate its own 100 (Trying) or any other provisional response.
+"ko": |-
+  상태 비저장 프록시에는 트랜잭션 또는 상태 저장 프록시 동작을 설명하는 데 사용되는 응답 컨텍스트에 대한 개념이 없습니다. 대신, 상태 비저장 프록시는 전송 계층에서 직접 요청 및 응답 메시지를 가져옵니다(섹션 18 참조). 결과적으로 상태 비저장 프록시는 자체적으로 메시지를 재전송하지 않습니다. 그러나 수신한 모든 재전송은 전달합니다(원본 메시지와 재전송을 구별할 수는 없습니다). 또한, 상태 없는 요청을 처리할 때 요소는 자체 100(시도 중) 또는 기타 임시 응답을 생성해서는 안 됩니다.

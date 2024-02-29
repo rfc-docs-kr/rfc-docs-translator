@@ -1,0 +1,29 @@
+"hash": |-
+  7b76aeb315337d5cfc08b10cad850f95bc496b733be90352a266f00a3b88e634
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA256Reset
+   *
+   * Description:
+   *   This function will initialize the SHA256Context in preparation
+   *   for computing a new SHA256 message digest.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The context to reset.
+   *
+   * Returns:
+   *   sha Error Code.
+   */
+  int SHA256Reset(SHA256Context *context)
+  {
+    return SHA224_256Reset(context, SHA256_H0);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,27 @@
+"hash": |-
+  ef400cfc2f8b2b501372d0ca3cc71792af4804f63dee6560cec3656e950c5ea1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  Define patterns for testing
+   */
+  #define TEST1    "abc"
+  #define TEST2_1  \
+          "abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq"
+  #define TEST2_2a \
+          "abcdefghbcdefghicdefghijdefghijkefghijklfghijklmghijklmn"
+  #define TEST2_2b \
+          "hijklmnoijklmnopjklmnopqklmnopqrlmnopqrsmnopqrstnopqrstu"
+  #define TEST2_2  TEST2_2a TEST2_2b
+  #define TEST3    "a"                            /* times 1000000 */
+  #define TEST4a   "01234567012345670123456701234567"
+  #define TEST4b   "01234567012345670123456701234567"
+      /* an exact multiple of 512 bits */
+  #define TEST4   TEST4a TEST4b                   /* times 10 */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

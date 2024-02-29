@@ -1,0 +1,15 @@
+"hash": |-
+  ee4c8f82be95f3f951ae0f4da72f4c2a451fac708e730dee4652249419c78c76
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client (proxy or UAC) receiving a 503 (Service Unavailable) SHOULD
+     attempt to forward the request to an alternate server.  It SHOULD NOT
+     forward any other requests to that server for the duration specified
+     in the Retry-After header field, if present.
+"fixed": |-
+  A client (proxy or UAC) receiving a 503 (Service Unavailable) SHOULD attempt to forward the request to an alternate server.  It SHOULD NOT forward any other requests to that server for the duration specified in the Retry-After header field, if present.
+"ko": |-
+  503(서비스를 사용할 수 없음)을 수신한 클라이언트(프록시 또는 UAC)는 요청을 대체 서버로 전달하려고 시도해야 합니다. Retry-After 헤더 필드(있는 경우)에 지정된 기간 동안 해당 서버에 다른 요청을 전달해서는 안 됩니다.

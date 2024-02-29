@@ -1,0 +1,17 @@
+"hash": |-
+  7bd07dc70bbf1497e73b5ae895edf2532bd0ed1274999cdd3a2cde22279aad98
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note that if this mechanism is used for anonymity, the From header
+        field will no longer be usable by the recipient of a message as an
+        index to their certificate keychain for retrieving the proper
+        S/MIME key to associated with the sender.  The message must first
+        be decrypted, and the "inner" From header field MUST be used as an
+        index.
+"fixed": |-
+  - Note that if this mechanism is used for anonymity, the From header field will no longer be usable by the recipient of a message as an index to their certificate keychain for retrieving the proper S/MIME key to associated with the sender.  The message must first be decrypted, and the "inner" From header field MUST be used as an index.
+"ko": |-
+  - 익명성을 위해 이 메커니즘을 사용하는 경우 메시지 수신자는 발신자와 연결된 적절한 S/MIME 키를 검색하기 위해 인증서 키체인에 대한 인덱스로 더 이상 From 헤더 필드를 사용할 수 없습니다. 메시지를 먼저 해독해야 하며 "내부" From 헤더 필드를 인덱스로 사용해야 합니다.

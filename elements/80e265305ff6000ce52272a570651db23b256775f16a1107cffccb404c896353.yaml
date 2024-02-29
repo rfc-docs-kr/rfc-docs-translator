@@ -1,0 +1,20 @@
+"hash": |-
+  80e265305ff6000ce52272a570651db23b256775f16a1107cffccb404c896353
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                            Message_Digest, okmlen) :
+          keyarray ? hmacResult(&hmac, Message_Digest) :
+                     USHAResult(&sha, Message_Digest);
+    if (err != shaSuccess) {
+      fprintf(stderr, "hash(): %s Result Error %d, could not compute "
+        "message digest.\n",
+        info ? "hkdf" : keyarray ? "hmac" : "sha", err);
+      return err;
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

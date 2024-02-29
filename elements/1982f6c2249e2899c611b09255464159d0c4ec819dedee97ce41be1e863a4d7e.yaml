@@ -1,0 +1,21 @@
+"hash": |-
+  1982f6c2249e2899c611b09255464159d0c4ec819dedee97ce41be1e863a4d7e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are a multitude of application-layer cryptographic session
+     protection protocols available.  It is not reasonable to expect that
+     NICs should support many such protocols.  Further, some application
+     protocols may maintain many cryptographic session contexts per-
+     connection (for example, NFSv4 does).  It is thought to be simpler to
+     push the cryptographic session protection down the network stack (to
+     IPsec), and yet be able to produce NICs that offload other operations
+     (i.e., TCP/IP, ESP/AH, and DDP), than it would be to add support in
+     the NIC for the many session cryptographic protection protocols in
+     use in common applications at the application layer.
+"fixed": |-
+  There are a multitude of application-layer cryptographic session protection protocols available.  It is not reasonable to expect that NICs should support many such protocols.  Further, some application protocols may maintain many cryptographic session contexts per- connection (for example, NFSv4 does).  It is thought to be simpler to push the cryptographic session protection down the network stack (to IPsec), and yet be able to produce NICs that offload other operations (i.e., TCP/IP, ESP/AH, and DDP), than it would be to add support in the NIC for the many session cryptographic protection protocols in use in common applications at the application layer.
+"ko": |-
+  다양한 애플리케이션 계층 암호화 세션 보호 프로토콜을 사용할 수 있습니다. NIC가 그러한 프로토콜을 많이 지원해야 한다고 기대하는 것은 합리적이지 않습니다. 또한 일부 응용 프로그램 프로토콜은 연결당 많은 암호화 세션 컨텍스트를 유지할 수 있습니다(예: NFSv4는 유지합니다). 암호화 세션 보호를 네트워크 스택 아래(IPsec까지)로 푸시하는 것이 더 간단할 것으로 생각되지만 다른 작업(예: TCP/IP, ESP/AH 및 DDP)을 오프로드하는 NIC를 생성할 수 있습니다. 애플리케이션 계층의 일반 애플리케이션에서 사용되는 다중 세션 암호화 보호 프로토콜에 대한 지원을 NIC에 추가해야 합니다.

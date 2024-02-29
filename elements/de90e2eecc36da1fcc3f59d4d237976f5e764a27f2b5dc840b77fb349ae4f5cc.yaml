@@ -1,0 +1,17 @@
+"hash": |-
+  de90e2eecc36da1fcc3f59d4d237976f5e764a27f2b5dc840b77fb349ae4f5cc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Where multiple tenants share space on the same server, that server
+     MUST ensure that tenants are not able to push representations of
+     resources that they do not have authority over.  Failure to enforce
+     this would allow a tenant to provide a representation that would be
+     served out of cache, overriding the actual representation that the
+     authoritative tenant provides.
+"fixed": |-
+  Where multiple tenants share space on the same server, that server MUST ensure that tenants are not able to push representations of resources that they do not have authority over.  Failure to enforce this would allow a tenant to provide a representation that would be served out of cache, overriding the actual representation that the authoritative tenant provides.
+"ko": |-
+  여러 테넌트가 동일한 서버에서 공간을 공유하는 경우 해당 서버는 테넌트가 권한이 없는 리소스 표현을 푸시할 수 없도록 해야 합니다. 이를 시행하지 않으면 테넌트가 캐시에서 제공되는 표현을 제공하여 권한 있는 테넌트가 제공하는 실제 표현을 재정의할 수 있습니다.

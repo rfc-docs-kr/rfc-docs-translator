@@ -1,0 +1,17 @@
+"hash": |-
+  702a7bec41f6fb71d7df95ea6249509424a307b6b9d33244ee1d048f2260da50
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  ResponseData ::= SEQUENCE {
+     version             [0] EXPLICIT Version DEFAULT v1,
+     responderID             ResponderID,
+     producedAt              GeneralizedTime,
+     responses               SEQUENCE OF SingleResponse,
+     responseExtensions  [1] EXPLICIT Extensions OPTIONAL }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

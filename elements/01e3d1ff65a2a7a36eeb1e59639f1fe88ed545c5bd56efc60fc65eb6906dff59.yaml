@@ -1,0 +1,18 @@
+"hash": |-
+  01e3d1ff65a2a7a36eeb1e59639f1fe88ed545c5bd56efc60fc65eb6906dff59
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the request has no tag in the To header field, the UAS core MUST
+     check the request against ongoing transactions.  If the From tag,
+     Call-ID, and CSeq exactly match those associated with an ongoing
+     transaction, but the request does not match that transaction (based
+     on the matching rules in Section 17.2.3), the UAS core SHOULD
+     generate a 482 (Loop Detected) response and pass it to the server
+     transaction.
+"fixed": |-
+  If the request has no tag in the To header field, the UAS core MUST check the request against ongoing transactions.  If the From tag, Call-ID, and CSeq exactly match those associated with an ongoing transaction, but the request does not match that transaction (based on the matching rules in Section 17.2.3), the UAS core SHOULD generate a 482 (Loop Detected) response and pass it to the server transaction.
+"ko": |-
+  요청의 To 헤더 필드에 태그가 없으면 UAS 코어는 진행 중인 트랜잭션에 대해 요청을 확인해야 합니다. From 태그, Call-ID 및 CSeq가 진행 중인 트랜잭션과 관련된 것과 정확하게 일치하지만 요청이 해당 트랜잭션과 일치하지 않는 경우(섹션 17.2.3의 일치 규칙에 따라) UAS 코어는 482(루프)를 생성해야 합니다. Detected) 응답을 받아 서버 트랜잭션에 전달합니다.

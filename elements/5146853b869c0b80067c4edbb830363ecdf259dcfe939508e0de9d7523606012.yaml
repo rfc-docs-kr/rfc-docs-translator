@@ -1,0 +1,20 @@
+"hash": |-
+  5146853b869c0b80067c4edbb830363ecdf259dcfe939508e0de9d7523606012
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        6.  RFC 2617 [17] requires that a server check that the URI in the
+            request line and the URI included in the Authorization header
+            field point to the same resource.  In a SIP context, these two
+            URIs may refer to different users, due to forwarding at some
+            proxy.  Therefore, in SIP, a server MAY check that the
+            Request-URI in the Authorization header field value
+            corresponds to a user for whom the server is willing to accept
+            forwarded or direct requests, but it is not necessarily a
+            failure if the two fields are not equivalent.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

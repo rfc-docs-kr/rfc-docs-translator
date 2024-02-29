@@ -1,0 +1,17 @@
+"hash": |-
+  4f9302a9dd9b835db54fe3fd290e6f9ee702e70e47f305b6f326a2483e053ae7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The 200 byte "buffer" between the message size and the MTU
+        accommodates the fact that the response in SIP can be larger than
+        the request.  This happens due to the addition of Record-Route
+        header field values to the responses to INVITE, for example.  With
+        the extra buffer, the response can be about 170 bytes larger than
+        the request, and still not be fragmented on IPv4 (about 30 bytes
+"fixed": |-
+  - The 200 byte "buffer" between the message size and the MTU accommodates the fact that the response in SIP can be larger than the request.  This happens due to the addition of Record-Route header field values to the responses to INVITE, for example.  With the extra buffer, the response can be about 170 bytes larger than the request, and still not be fragmented on IPv4 (about 30 bytes
+"ko": |-
+  - 메시지 크기와 MTU 사이의 200바이트 "버퍼"는 SIP의 응답이 요청보다 클 수 있다는 사실을 수용합니다. 예를 들어, 이는 INVITE에 대한 응답에 Record-Route 헤더 필드 값을 추가하기 때문에 발생합니다. 추가 버퍼를 사용하면 응답이 요청보다 약 170바이트 더 커질 수 있으며 IPv4에서는 여전히 조각화되지 않습니다(약 30바이트).

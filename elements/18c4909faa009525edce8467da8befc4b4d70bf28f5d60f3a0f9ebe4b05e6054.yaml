@@ -1,0 +1,19 @@
+"hash": |-
+  18c4909faa009525edce8467da8befc4b4d70bf28f5d60f3a0f9ebe4b05e6054
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After sending a SETTINGS frame that reduces the initial flow-control
+     window size, a receiver MAY continue to process streams that exceed
+     flow-control limits.  Allowing streams to continue does not allow the
+     receiver to immediately reduce the space it reserves for flow-control
+     windows.  Progress on these streams can also stall, since
+     WINDOW_UPDATE frames are needed to allow the sender to resume
+     sending.  The receiver MAY instead send a RST_STREAM with an error
+     code of FLOW_CONTROL_ERROR for the affected streams.
+"fixed": |-
+  After sending a SETTINGS frame that reduces the initial flow-control window size, a receiver MAY continue to process streams that exceed flow-control limits.  Allowing streams to continue does not allow the receiver to immediately reduce the space it reserves for flow-control windows.  Progress on these streams can also stall, since WINDOW_UPDATE frames are needed to allow the sender to resume sending.  The receiver MAY instead send a RST_STREAM with an error code of FLOW_CONTROL_ERROR for the affected streams.
+"ko": |-
+  초기 흐름 제어 창 크기를 줄이는 SETTINGS 프레임을 보낸 후 수신기는 흐름 제어 제한을 초과하는 스트림을 계속 처리할 수 있습니다. 스트림이 계속되도록 허용한다고 해서 수신기가 흐름 제어 창을 위해 예약한 공간을 즉시 줄이는 것은 허용되지 않습니다. 송신자가 전송을 재개하려면 WINDOW_UPDATE 프레임이 필요하기 때문에 이러한 스트림의 진행도 중단될 수 있습니다. 대신 수신자는 영향을 받은 스트림에 대해 FLOW_Control_ERROR 오류 코드와 함께 RST_STREAM을 보낼 수 있습니다.

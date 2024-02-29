@@ -1,0 +1,19 @@
+"hash": |-
+  4f98fe2c31715517d535f54b823cbc8ca9f66973e3b8c6e89cfc718fdaf3e7af
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* SHA-256 */
+  extern int SHA256Reset(SHA256Context *);
+  extern int SHA256Input(SHA256Context *, const uint8_t *bytes,
+                         unsigned int bytecount);
+  extern int SHA256FinalBits(SHA256Context *, uint8_t bits,
+                             unsigned int bit_count);
+  extern int SHA256Result(SHA256Context *,
+                          uint8_t Message_Digest[SHA256HashSize]);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

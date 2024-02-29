@@ -1,0 +1,33 @@
+"hash": |-
+  67002611df803fa9812ad60e39c9a62b11e3836a915fa9d6b42669ee3bcd5c6a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Structure:
+        typedef HKDFContext an opaque structure holding the complete state
+                            for producing the keying material
+     Functions:
+        int hkdfReset(HKDFContext *context, enum SHAversion whichSha,
+                    const unsigned char *salt, int salt_len)
+              Reset the key derivation state and initialize it with the
+              salt_len octets of the optional salt.
+        int hkdfInput(HKDFContext *context, const unsigned char *ikm,
+                    int ikm_len)
+              Incorporate ikm_len octets into the entropy extractor.
+        int hkdfFinalBits(HKDFContext *context, uint8_t ikm_bits,
+                    unsigned int ikm_bit_count)
+              Incorporate ikm_bit_count bits into the entropy extractor.
+        int hkdfResult(HKDFContext *context,
+                    uint8_t prk[USHAMaxHashSize],
+                    const unsigned char *info, int info_len,
+                    uint8_t okm[ ], int okm_len)
+              Finish the HKDF extraction and perform the final HKDF
+              expansion, storing the okm_len octets into output keying
+              material (okm).  Optionally store the pseudo-random key
+              (prk) that is generated internally.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

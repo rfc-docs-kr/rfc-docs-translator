@@ -1,0 +1,17 @@
+"hash": |-
+  958b26725934af7ae1d090d597d36179c2bb6c414dbe6c2f3e7ed597d2d194cc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        From this state, either endpoint can send a frame with an
+        END_STREAM flag set, which causes the stream to transition into
+        one of the "half-closed" states.  An endpoint sending an
+        END_STREAM flag causes the stream state to become "half-closed
+        (local)"; an endpoint receiving an END_STREAM flag causes the
+        stream state to become "half-closed (remote)".
+"fixed": |-
+  - From this state, either endpoint can send a frame with an END_STREAM flag set, which causes the stream to transition into one of the "half-closed" states.  An endpoint sending an END_STREAM flag causes the stream state to become "half-closed (local)"; an endpoint receiving an END_STREAM flag causes the stream state to become "half-closed (remote)".
+"ko": |-
+  - 이 상태에서 양쪽 끝점 중 하나는 END_STREAM 플래그가 설정된 프레임을 보낼 수 있으며, 이로 인해 스트림이 "반 닫힘" 상태 중 하나로 전환됩니다. END_STREAM 플래그를 보내는 엔드포인트로 인해 스트림 상태가 "반 폐쇄(로컬)"가 됩니다. END_STREAM 플래그를 수신하는 엔드포인트는 스트림 상태를 "반 폐쇄(원격)"로 만듭니다.

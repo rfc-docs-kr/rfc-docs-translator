@@ -1,0 +1,27 @@
+"hash": |-
+  26d56b4dc8cfbe4e6d0092564f5f251fd6c6efa94e0c36f0553eabc4f74f17e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is possible to generate valid RSAES-PKCS1-v1_5 ciphertexts without
+     knowing the corresponding plaintexts, with a reasonable probability
+     of success.  This ability can be exploited in a chosen-ciphertext
+     attack as shown in [BLEICHENBACHER].  Therefore, if RSAES-PKCS1-v1_5
+     is to be used, certain easily implemented countermeasures should be
+     taken to thwart the attack found in [BLEICHENBACHER].  Typical
+     examples include the addition of structure to the data to be encoded,
+     rigorous checking of PKCS #1 v1.5 conformance (and other redundancy)
+     in decrypted messages, and the consolidation of error messages in a
+     client-server protocol based on PKCS #1 v1.5.  These can all be
+     effective countermeasures and do not involve changes to a protocol
+     based on PKCS #1 v1.5.  See [BKS] for a further discussion of these
+     and other countermeasures.  It has recently been shown that the
+     security of the SSL/TLS handshake protocol [RFC5246], which uses
+     RSAES-PKCS1-v1_5 and certain countermeasures, can be related to a
+     variant of the RSA problem; see [RSATLS] for discussion.
+"fixed": |-
+  It is possible to generate valid RSAES-PKCS1-v1_5 ciphertexts without knowing the corresponding plaintexts, with a reasonable probability of success.  This ability can be exploited in a chosen-ciphertext attack as shown in [BLEICHENBACHER].  Therefore, if RSAES-PKCS1-v1_5 is to be used, certain easily implemented countermeasures should be taken to thwart the attack found in [BLEICHENBACHER].  Typical examples include the addition of structure to the data to be encoded, rigorous checking of PKCS #1 v1.5 conformance (and other redundancy) in decrypted messages, and the consolidation of error messages in a client-server protocol based on PKCS #1 v1.5.  These can all be effective countermeasures and do not involve changes to a protocol based on PKCS #1 v1.5.  See [BKS] for a further discussion of these and other countermeasures.  It has recently been shown that the security of the SSL/TLS handshake protocol [RFC5246], which uses RSAES-PKCS1-v1_5 and certain countermeasures, can be related to a variant of the RSA problem; see [RSATLS] for discussion.
+"ko": |-
+  합리적인 성공 확률로 해당 일반 텍스트를 모르더라도 유효한 RSAES-PKCS1-v1_5 암호문을 생성할 수 있습니다. 이 능력은 [BLEICHENBACHER]에 표시된 대로 선택 암호문 공격에서 악용될 수 있습니다. 따라서 RSAES-PKCS1-v1_5를 사용하려면 [BLEICHENBACHER]에서 발견된 공격을 저지하기 위해 쉽게 구현 가능한 특정 대책을 취해야 합니다. 일반적인 예로는 인코딩할 데이터에 구조 추가, 해독된 메시지의 PKCS #1 v1.5 적합성(및 기타 중복성)에 대한 엄격한 검사, PKCS #1을 기반으로 하는 클라이언트-서버 프로토콜의 오류 메시지 통합 등이 있습니다. v1.5. 이는 모두 효과적인 대응책이 될 수 있으며 PKCS #1 v1.5를 기반으로 하는 프로토콜 변경을 포함하지 않습니다. 이러한 대책과 기타 대책에 대한 자세한 내용은 [BKS]를 참조하세요. RSAES-PKCS1-v1_5 및 특정 대책을 사용하는 SSL/TLS 핸드셰이크 프로토콜 [RFC5246]의 보안이 RSA 문제의 변형과 관련될 수 있다는 것이 최근 밝혀졌습니다. 토론은 [RSATLS]를 참조하세요.

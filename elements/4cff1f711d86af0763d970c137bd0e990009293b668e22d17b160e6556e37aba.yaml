@@ -1,0 +1,17 @@
+"hash": |-
+  4cff1f711d86af0763d970c137bd0e990009293b668e22d17b160e6556e37aba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The prohibition on post-handshake authentication applies even if the
+     client offered the "post_handshake_auth" TLS extension.  Post-
+     handshake authentication support might be advertised independently of
+     ALPN [TLS-ALPN].  Clients might offer the capability for use in other
+     protocols, but inclusion of the extension cannot imply support within
+     HTTP/2.
+"fixed": |-
+  The prohibition on post-handshake authentication applies even if the client offered the "post_handshake_auth" TLS extension.  Post- handshake authentication support might be advertised independently of ALPN [TLS-ALPN].  Clients might offer the capability for use in other protocols, but inclusion of the extension cannot imply support within HTTP/2.
+"ko": |-
+  클라이언트가 "post_handshake_auth" TLS 확장을 제공한 경우에도 사후 핸드셰이크 인증 금지가 적용됩니다. 핸드셰이크 후 인증 지원은 ALPN[TLS-ALPN]과 독립적으로 광고될 수 있습니다. 클라이언트는 다른 프로토콜에서 사용할 수 있는 기능을 제공할 수 있지만 확장 기능이 포함되었다고 해서 HTTP/2 내에서 지원된다는 의미는 아닙니다.

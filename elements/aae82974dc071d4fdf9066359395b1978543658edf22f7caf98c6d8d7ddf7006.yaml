@@ -1,0 +1,20 @@
+"hash": |-
+  aae82974dc071d4fdf9066359395b1978543658edf22f7caf98c6d8d7ddf7006
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The key wrap specified in [RFC2548], which is based on an MD5-based
+     stream cipher, has known problems, as described in [RFC3579] Section
+     4.3.  RADIUS uses the shared secret for multiple purposes, including
+     per-packet authentication and attribute hiding, considerable
+     information is exposed about the shared secret with each packet.
+     This exposes the shared secret to dictionary attacks.  MD5 is used
+     both to compute the RADIUS Response Authenticator and the
+     Message-Authenticator Attribute, and concerns exist relating to the
+     security of this hash [MD5Collision].
+"fixed": |-
+  The key wrap specified in [RFC2548], which is based on an MD5-based stream cipher, has known problems, as described in [RFC3579] Section 4.3.  RADIUS uses the shared secret for multiple purposes, including per-packet authentication and attribute hiding, considerable information is exposed about the shared secret with each packet. This exposes the shared secret to dictionary attacks.  MD5 is used both to compute the RADIUS Response Authenticator and the Message-Authenticator Attribute, and concerns exist relating to the security of this hash [MD5Collision].
+"ko": |-
+  MD5 기반 스트림 암호를 기반으로 하는 [RFC2548]에 지정된 키 랩에는 [RFC3579] 섹션 4.3에 설명된 대로 알려진 문제가 있습니다. RADIUS는 패킷별 인증 및 속성 숨기기를 포함하여 다양한 목적으로 공유 비밀을 사용하며, 각 패킷과 함께 공유 비밀에 대한 상당한 정보가 노출됩니다. 이로 인해 공유 비밀이 사전 공격에 노출됩니다. MD5는 RADIUS 응답 인증자와 메시지 인증자 속성을 계산하는 데 사용되며 이 해시[MD5Collision]의 보안과 관련된 우려가 있습니다.

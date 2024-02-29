@@ -1,0 +1,1 @@
+예외: EMSA-PKCS1-v1_5(섹션 9.2 참조)에서 DigestInfoValue 형식을 지정할 때 id-sha1, id-sha224, id-sha256, id-sha384, id-sha512, id-sha512/224 및 id-sha512/256은 NULL 유형의 값을 가져야 합니다. 이는 기존 구현과 IEEE 1363a [IEEE1363A]에도 반영된 EMSA-PKCS1-v1_5에 대해 이미 공개된 수치 정보 값과의 호환성을 유지하기 위한 것입니다.

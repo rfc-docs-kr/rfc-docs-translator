@@ -1,0 +1,21 @@
+"hash": |-
+  a7c45a5cd6105c0d1b1672da4db9e1473dbee6af66f1f094663068662c7454fb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An additional step (phase 1b) is needed in deployments that include a
+     backend authentication server, in order to transport keying material
+     from the backend authentication server to the authenticator.  In
+     order to obey the principle of mode independence (see Section 1.6.1),
+     where a backend authentication server is present, all keying material
+     needed by the lower layer is transported from the EAP server to the
+     authenticator.  Since existing TSK derivation and transport
+     techniques depend solely on the MSK, in existing implementations,
+     this is the only keying material replicated in the AAA key transport
+     phase 1b.
+"fixed": |-
+  An additional step (phase 1b) is needed in deployments that include a backend authentication server, in order to transport keying material from the backend authentication server to the authenticator.  In order to obey the principle of mode independence (see Section 1.6.1), where a backend authentication server is present, all keying material needed by the lower layer is transported from the EAP server to the authenticator.  Since existing TSK derivation and transport techniques depend solely on the MSK, in existing implementations, this is the only keying material replicated in the AAA key transport phase 1b.
+"ko": |-
+  백엔드 인증 서버를 포함하는 배포에서는 키 자료를 백엔드 인증 서버에서 인증자로 전송하기 위해 추가 단계(1b단계)가 필요합니다. 백엔드 인증 서버가 있는 모드 독립 원칙(섹션 1.6.1 참조)을 준수하기 위해 하위 계층에 필요한 모든 키 자료는 EAP 서버에서 인증자로 전송됩니다. 기존 TSK 파생 및 전송 기술은 MSK에만 의존하기 때문에 기존 구현에서는 이것이 AAA 키 전송 단계 1b에서 복제된 유일한 키 자료입니다.

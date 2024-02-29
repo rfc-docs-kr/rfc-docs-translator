@@ -1,0 +1,20 @@
+"hash": |-
+  bd194bb24fd8e325ae9d8fedd214d11ec01c4c33965fd858b194ad41852dcef7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Similarly, when a UAC sends a request to a proxy server, the proxy
+     server MAY authenticate the originator before the request is
+     processed.  If no credentials (in the Proxy-Authorization header
+     field) are provided in the request, the proxy can challenge the
+     originator to provide credentials by rejecting the request with a 407
+     (Proxy Authentication Required) status code.  The proxy MUST populate
+     the 407 (Proxy Authentication Required) message with a Proxy-
+     Authenticate header field value applicable to the proxy for the
+     requested resource.
+"fixed": |-
+  Similarly, when a UAC sends a request to a proxy server, the proxy server MAY authenticate the originator before the request is processed.  If no credentials (in the Proxy-Authorization header field) are provided in the request, the proxy can challenge the originator to provide credentials by rejecting the request with a 407 (Proxy Authentication Required) status code.  The proxy MUST populate the 407 (Proxy Authentication Required) message with a Proxy- Authenticate header field value applicable to the proxy for the requested resource.
+"ko": |-
+  마찬가지로 UAC가 프록시 서버에 요청을 보낼 때 프록시 서버는 요청이 처리되기 전에 발신자를 인증할 수 있습니다. 요청에 자격 증명(Proxy-Authorization 헤더 필드)이 제공되지 않은 경우 프록시는 407(프록시 인증 필요) 상태 코드로 요청을 거부하여 보낸 사람에게 자격 증명을 제공하도록 요구할 수 있습니다. 프록시는 요청된 리소스에 대한 프록시에 적용 가능한 Proxy-Authenticate 헤더 필드 값으로 407(프록시 인증 필요) 메시지를 채워야 합니다.

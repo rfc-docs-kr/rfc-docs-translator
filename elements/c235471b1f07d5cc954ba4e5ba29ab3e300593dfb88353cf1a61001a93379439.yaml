@@ -1,0 +1,16 @@
+"hash": |-
+  c235471b1f07d5cc954ba4e5ba29ab3e300593dfb88353cf1a61001a93379439
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Where TSKs are derived from or are wrapped by exported EAP keying
+     material, compromise of that exported EAP keying material implies
+     compromise of TSKs.  Therefore, if EAP keying material is considered
+     stale, not only SHOULD EAP re-authentication be initiated, but also
+     replacement of child keys, including TSKs.
+"fixed": |-
+  Where TSKs are derived from or are wrapped by exported EAP keying material, compromise of that exported EAP keying material implies compromise of TSKs.  Therefore, if EAP keying material is considered stale, not only SHOULD EAP re-authentication be initiated, but also replacement of child keys, including TSKs.
+"ko": |-
+  TSK가 내보낸 EAP 키 자료에서 파생되거나 포장된 경우, 내보낸 EAP 키 자료의 손상은 TSK의 손상을 의미합니다. 따라서 EAP 키 자료가 오래된 것으로 간주되면 EAP 재인증을 시작해야 할 뿐만 아니라 TSK를 포함한 하위 키를 교체해야 합니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  d25f948b3e3996c5aa1d1cffc4a0dec213e02c28ac5248e67d44f1bef899f19e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The proxy server at biloxi.com SHOULD inspect the certificate of the
+     proxy server at atlanta.com in turn and compare the domain asserted
+     by the certificate with the "domainname" portion of the From header
+     field in the INVITE request.  The biloxi proxy MAY have a strict
+     security policy that requires it to reject requests that do not match
+     the administrative domain from which they have been proxied.
+"fixed": |-
+  The proxy server at biloxi.com SHOULD inspect the certificate of the proxy server at atlanta.com in turn and compare the domain asserted by the certificate with the "domainname" portion of the From header field in the INVITE request.  The biloxi proxy MAY have a strict security policy that requires it to reject requests that do not match the administrative domain from which they have been proxied.
+"ko": |-
+  biloxi.com의 프록시 서버는 atlanta.com의 프록시 서버 인증서를 차례로 검사하고 인증서가 주장하는 도메인을 INVITE 요청의 From 헤더 필드에 있는 "domainname" 부분과 비교해야 합니다. 빌록시 프록시는 프록시된 관리 도메인과 일치하지 않는 요청을 거부하도록 요구하는 엄격한 보안 정책을 가질 수 있습니다.

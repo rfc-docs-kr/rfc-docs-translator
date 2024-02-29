@@ -1,0 +1,17 @@
+"hash": |-
+  b32681c4c58aae7218eb2c611b851a07c670c9f8c85f7f3fce0a6d13c978432d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      (word1)[3] += (word2)[3],                                  \
+      ADDTO4_temp2 = (word1)[2],                                 \
+      (word1)[2] += (word2)[2] + ((word1)[3] < ADDTO4_temp),     \
+      ADDTO4_temp = (word1)[1],                                  \
+      (word1)[1] += (word2)[1] + ((word1)[2] < ADDTO4_temp2),    \
+      (word1)[0] += (word2)[0] + ((word1)[1] < ADDTO4_temp) )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

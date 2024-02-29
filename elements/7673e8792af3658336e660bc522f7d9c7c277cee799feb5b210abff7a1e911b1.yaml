@@ -1,0 +1,22 @@
+"hash": |-
+  7673e8792af3658336e660bc522f7d9c7c277cee799feb5b210abff7a1e911b1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    err = info ? hkdfResult(&hkdf, 0, info, infolen,
+                            Message_Digest, okmlen) :
+          keyarray ? hmacResult(&hmac, Message_Digest) :
+                     USHAResult(&sha, Message_Digest);
+    if (err != shaSuccess) {
+      fprintf(stderr, "hashfile(): %s Error %d.\n",
+              info ? "hkdf" : keyarray ? "hmacResult" :
+              "shaResult", err);
+      if (hashfp != stdin) fclose(hashfp);
+      return err;
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

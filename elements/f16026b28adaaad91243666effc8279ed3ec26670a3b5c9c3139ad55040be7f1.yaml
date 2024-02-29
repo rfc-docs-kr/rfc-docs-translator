@@ -1,0 +1,19 @@
+"hash": |-
+  f16026b28adaaad91243666effc8279ed3ec26670a3b5c9c3139ad55040be7f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Even with full awareness of the current bandwidth * delay product,
+     implementation of flow control can be difficult.  Endpoints MUST read
+     and process HTTP/2 frames from the TCP receive buffer as soon as data
+     is available.  Failure to read promptly could lead to a deadlock when
+     critical frames, such as WINDOW_UPDATE, are not read and acted upon.
+     Reading frames promptly does not expose endpoints to resource
+     exhaustion attacks, as HTTP/2 flow control limits resource
+     commitments.
+"fixed": |-
+  Even with full awareness of the current bandwidth * delay product, implementation of flow control can be difficult.  Endpoints MUST read and process HTTP/2 frames from the TCP receive buffer as soon as data is available.  Failure to read promptly could lead to a deadlock when critical frames, such as WINDOW_UPDATE, are not read and acted upon. Reading frames promptly does not expose endpoints to resource exhaustion attacks, as HTTP/2 flow control limits resource commitments.
+"ko": |-
+  현재 대역폭 * 지연 곱을 완전히 인식하더라도 흐름 제어 구현이 어려울 수 있습니다. 엔드포인트는 데이터를 사용할 수 있게 되는 즉시 TCP 수신 버퍼에서 HTTP/2 프레임을 읽고 처리해야 합니다. 즉시 읽지 못하면 WINDOW_UPDATE와 같은 중요한 프레임을 읽고 조치를 취하지 않을 때 교착 상태가 발생할 수 있습니다. HTTP/2 흐름 제어는 리소스 약속을 제한하므로 프레임 읽기는 엔드포인트를 리소스 고갈 공격에 즉시 노출시키지 않습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  d7f48ee54fc9bbb1150f037908d562538c299f0e99e18cf13be0c9c39b4dba3b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Had "alice@atlanta.com" been attempting to contact, say,
+        "alex@atlanta.com", the local proxy would have proxied to the
+        request to the TLS connection Alex had established with the
+        registrar when he registered.  Since Alex would receive this
+        request over his authenticated channel, he would be assured that
+        Alice's request had been authorized by the proxy server of the
+        local administrative domain.
+"fixed": |-
+  - Had "alice@atlanta.com" been attempting to contact, say, "alex@atlanta.com", the local proxy would have proxied to the request to the TLS connection Alex had established with the registrar when he registered.  Since Alex would receive this request over his authenticated channel, he would be assured that Alice's request had been authorized by the proxy server of the local administrative domain.
+"ko": |-
+  - "alice@atlanta.com"이 "alex@atlanta.com"과 같이 연락을 시도했다면 로컬 프록시는 Alex가 등록할 때 등록 대행자와 설정한 TLS 연결에 대한 요청을 프록시 처리했을 것입니다. Alex는 인증된 채널을 통해 이 요청을 수신하므로 Alice의 요청이 로컬 관리 도메인의 프록시 서버에 의해 승인되었음을 확신할 수 있습니다.

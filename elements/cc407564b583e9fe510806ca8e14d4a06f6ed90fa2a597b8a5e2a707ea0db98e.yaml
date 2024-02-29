@@ -1,0 +1,21 @@
+"hash": |-
+  cc407564b583e9fe510806ca8e14d4a06f6ed90fa2a597b8a5e2a707ea0db98e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A HEADERS frame will transition the client-initiated stream
+     identified by the stream identifier in the frame header from "idle"
+     to "open".  A PUSH_PROMISE frame will transition the server-initiated
+     stream identified by the Promised Stream ID field in the frame
+     payload from "idle" to "reserved (local)" or "reserved (remote)".
+     When a stream transitions out of the "idle" state, all streams in the
+     "idle" state that might have been opened by the peer with a lower-
+     valued stream identifier immediately transition to "closed".  That
+     is, an endpoint may skip a stream identifier, with the effect being
+     that the skipped stream is immediately closed.
+"fixed": |-
+  A HEADERS frame will transition the client-initiated stream identified by the stream identifier in the frame header from "idle" to "open".  A PUSH_PROMISE frame will transition the server-initiated stream identified by the Promised Stream ID field in the frame payload from "idle" to "reserved (local)" or "reserved (remote)". When a stream transitions out of the "idle" state, all streams in the "idle" state that might have been opened by the peer with a lower- valued stream identifier immediately transition to "closed".  That is, an endpoint may skip a stream identifier, with the effect being that the skipped stream is immediately closed.
+"ko": |-
+  HEADERS 프레임은 프레임 헤더의 스트림 식별자로 식별되는 클라이언트 시작 스트림을 "유휴"에서 "열림"으로 전환합니다. PUSH_PROMISE 프레임은 프레임 페이로드의 약속된 스트림 ID 필드로 식별되는 서버 시작 스트림을 "유휴"에서 "예약(로컬)" 또는 "예약(원격)"으로 전환합니다. 스트림이 "유휴" 상태에서 전환되면 더 낮은 값의 스트림 식별자를 사용하는 피어에 의해 열렸을 수 있는 "유휴" 상태의 모든 스트림이 즉시 "폐쇄"로 전환됩니다. 즉, 엔드포인트는 스트림 식별자를 건너뛸 수 있으며, 그 결과 건너뛴 스트림이 즉시 닫힙니다.

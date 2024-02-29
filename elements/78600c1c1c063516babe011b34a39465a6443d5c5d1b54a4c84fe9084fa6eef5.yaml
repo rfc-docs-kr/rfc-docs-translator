@@ -1,0 +1,30 @@
+"hash": |-
+  78600c1c1c063516babe011b34a39465a6443d5c5d1b54a4c84fe9084fa6eef5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA384Reset
+   *
+   * Description:
+   *   This function will initialize the SHA384Context in preparation
+   *   for computing a new SHA384 message digest.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The context to reset.
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  int SHA384Reset(SHA384Context *context)
+  {
+    return SHA384_512Reset(context, SHA384_H0);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  bbf17176e28a8f18b1e669a5496e97e6d81dd1c3d1e1d167892e92bad13cf003
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *   ((x & y) ^ (x & z) ^ (y & z)) becomes
+   *   ((x & (y | z)) | (y & z))
+   */
+  #define SHA_Maj(x, y, z, ret) (                                 \
+     ret[0] = (((x)[0] & ((y)[0] | (z)[0])) | ((y)[0] & (z)[0])), \
+     ret[1] = (((x)[1] & ((y)[1] | (z)[1])) | ((y)[1] & (z)[1])) )
+  #endif /* USE_MODIFIED_MACROS */
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

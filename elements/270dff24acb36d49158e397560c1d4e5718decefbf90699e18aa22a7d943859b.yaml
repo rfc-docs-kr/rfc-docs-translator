@@ -1,0 +1,19 @@
+"hash": |-
+  270dff24acb36d49158e397560c1d4e5718decefbf90699e18aa22a7d943859b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For purposes of efficiency, an OCSP responder is permitted to
+     generate static responses in advance of a request.  The case may not
+     permit the responder to make use of the client request data during
+     the response generation; however, the responder SHOULD still use the
+     client request data during the selection of the pre-generated
+     response to be returned.  Responders MAY use the historical client
+     requests as part of the input to the decisions of what different
+     algorithms should be used to sign the pre-generated responses.
+"fixed": |-
+  For purposes of efficiency, an OCSP responder is permitted to generate static responses in advance of a request.  The case may not permit the responder to make use of the client request data during the response generation; however, the responder SHOULD still use the client request data during the selection of the pre-generated response to be returned.  Responders MAY use the historical client requests as part of the input to the decisions of what different algorithms should be used to sign the pre-generated responses.
+"ko": |-
+  효율성을 위해 OCSP 응답자는 요청에 앞서 정적 응답을 생성하는 것이 허용됩니다. 이 경우 응답 생성 중에 응답자가 클라이언트 요청 데이터를 사용하는 것을 허용하지 않을 수 있습니다. 그러나 응답자는 반환할 미리 생성된 응답을 선택하는 동안 클라이언트 요청 데이터를 계속 사용해야 합니다. 응답자는 미리 생성된 응답에 서명하기 위해 어떤 다른 알고리즘을 사용해야 하는지 결정하기 위한 입력의 일부로 과거 클라이언트 요청을 사용할 수 있습니다.

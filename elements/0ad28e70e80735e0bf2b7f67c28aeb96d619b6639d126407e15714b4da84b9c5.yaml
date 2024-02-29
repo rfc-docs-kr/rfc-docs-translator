@@ -1,0 +1,15 @@
+"hash": |-
+  0ad28e70e80735e0bf2b7f67c28aeb96d619b6639d126407e15714b4da84b9c5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (info) Message_Digest = malloc(okmlen);
+    memset(&sha, '\343', sizeof(sha)); /* force bad data into struct */
+    memset(&hmac, '\343', sizeof(hmac));
+    memset(&hkdf, '\343', sizeof(hkdf));
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

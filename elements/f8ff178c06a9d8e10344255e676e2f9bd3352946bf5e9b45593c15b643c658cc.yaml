@@ -1,0 +1,21 @@
+"hash": |-
+  f8ff178c06a9d8e10344255e676e2f9bd3352946bf5e9b45593c15b643c658cc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RSASSA-PSS combines the RSASP1 and RSAVP1 primitives with the
+     EMSA-PSS encoding method.  It is compatible with the Integer
+     Factorization Signature Scheme with Appendix (IFSSA) as amended in
+     IEEE 1363a [IEEE1363A], where the signature and verification
+     primitives are IFSP-RSA1 and IFVP-RSA1 as defined in IEEE 1363
+     [IEEE1363], and the message encoding method is EMSA4.  EMSA4 is
+     slightly more general than EMSA-PSS as it acts on bit strings rather
+     than on octet strings.  EMSA-PSS is equivalent to EMSA4 restricted to
+     the case that the operands as well as the hash and salt values are
+     octet strings.
+"fixed": |-
+  RSASSA-PSS combines the RSASP1 and RSAVP1 primitives with the EMSA-PSS encoding method.  It is compatible with the Integer Factorization Signature Scheme with Appendix (IFSSA) as amended in IEEE 1363a [IEEE1363A], where the signature and verification primitives are IFSP-RSA1 and IFVP-RSA1 as defined in IEEE 1363 [IEEE1363], and the message encoding method is EMSA4.  EMSA4 is slightly more general than EMSA-PSS as it acts on bit strings rather than on octet strings.  EMSA-PSS is equivalent to EMSA4 restricted to the case that the operands as well as the hash and salt values are octet strings.
+"ko": |-
+  RSASSA-PSS는 RSASP1 및 RSAVP1 프리미티브를 EMSA-PSS 인코딩 방법과 결합합니다. 이는 IEEE 1363a [IEEE1363A]에서 개정된 IFSSA(Integer Factorization Signature Scheme with 부록)와 호환됩니다. 여기서 서명 및 검증 기본 요소는 IEEE 1363 [IEEE1363]에 정의된 IFSP-RSA1 및 IFVP-RSA1이며 메시지 인코딩은 방법은 EMSA4입니다. EMSA4는 옥텟 문자열이 아닌 비트 문자열에서 작동하므로 EMSA-PSS보다 약간 더 일반적입니다. EMSA-PSS는 피연산자, 해시 및 솔트 값이 옥텟 문자열인 경우로 제한되는 EMSA4와 동일합니다.

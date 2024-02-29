@@ -1,0 +1,20 @@
+"hash": |-
+  76a205161c8d4fbfec4600197dba4ec06c27854e935fe4af7c25992ff2702ce5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To, From, Call-ID, CSeq, Contact.  While it is probably not useful to
+     provide an encrypted alternative for the Call-ID, CSeq, or Contact,
+     providing an alternative to the information in the "outer" To or From
+     is permitted.  Note that the values in an encrypted body are not used
+     for the purposes of identifying transactions or dialogs - they are
+     merely informational.  If the From header field in an encrypted body
+     differs from the value in the "outer" message, the value within the
+     encrypted body SHOULD be displayed to the user, but MUST NOT be used
+     in the "outer" header fields of any future messages.
+"fixed": |-
+  To, From, Call-ID, CSeq, Contact.  While it is probably not useful to provide an encrypted alternative for the Call-ID, CSeq, or Contact, providing an alternative to the information in the "outer" To or From is permitted.  Note that the values in an encrypted body are not used for the purposes of identifying transactions or dialogs - they are merely informational.  If the From header field in an encrypted body differs from the value in the "outer" message, the value within the encrypted body SHOULD be displayed to the user, but MUST NOT be used in the "outer" header fields of any future messages.
+"ko": |-
+  받는 사람, 보낸 사람, 통화 ID, CSeq, 연락처. Call-ID, CSeq 또는 연락처에 대한 암호화된 대안을 제공하는 것은 아마도 유용하지 않지만 "외부" To 또는 From의 정보에 대한 대안을 제공하는 것은 허용됩니다. 암호화된 본문의 값은 트랜잭션이나 대화를 식별하는 목적으로 사용되지 않으며 단지 정보 제공용일 뿐입니다. 암호화된 본문의 From 헤더 필드가 "외부" 메시지의 값과 다른 경우 암호화된 본문 내의 값은 사용자에게 표시되어야 하지만 향후 메시지의 "외부" 헤더 필드에는 사용되어서는 안 됩니다.

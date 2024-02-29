@@ -1,0 +1,22 @@
+"hash": |-
+  7a3bd5b2e1cd7c50a52abdd0ce9b96e4fca8db552bce53ac7cde2e3ee969940c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      SHA_Maj(A,B,C,temp4);
+      SHA512_ADD(temp3, temp4, temp2);
+      H[0] = G[0]; H[1] = G[1];
+      G[0] = F[0]; G[1] = F[1];
+      F[0] = E[0]; F[1] = E[1];
+      SHA512_ADD(D, temp1, E);
+      D[0] = C[0]; D[1] = C[1];
+      C[0] = B[0]; C[1] = B[1];
+      B[0] = A[0]; B[1] = A[1];
+      SHA512_ADD(temp1, temp2, A);
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

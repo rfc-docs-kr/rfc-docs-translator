@@ -1,0 +1,17 @@
+"hash": |-
+  5663182f5a7acd8fa33dd4e1f601c3654ad62664c3b16616a8b541eeefc70085
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        An attacker preying on this architecture would, for example, be
+        unable to forge a BYE request and insert it into the signaling
+        stream between Bob and Alice because the attacker has no way of
+        ascertaining the parameters of the session and also because the
+        integrity mechanism transitively protects the traffic between
+        Alice and Bob.
+"fixed": |-
+  - An attacker preying on this architecture would, for example, be unable to forge a BYE request and insert it into the signaling stream between Bob and Alice because the attacker has no way of ascertaining the parameters of the session and also because the integrity mechanism transitively protects the traffic between Alice and Bob.
+"ko": |-
+  - 예를 들어, 이 아키텍처를 노리는 공격자는 BYE 요청을 위조하여 Bob과 Alice 사이의 신호 스트림에 삽입할 수 없습니다. 공격자는 세션 매개변수를 확인할 방법이 없고 무결성 메커니즘이 전이적으로 작동하기 때문입니다. Alice와 Bob 사이의 트래픽을 보호합니다.

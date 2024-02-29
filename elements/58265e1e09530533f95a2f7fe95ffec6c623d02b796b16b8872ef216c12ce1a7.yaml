@@ -1,0 +1,20 @@
+"hash": |-
+  58265e1e09530533f95a2f7fe95ffec6c623d02b796b16b8872ef216c12ce1a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The maddr field has been used as a simple form of loose source
+           routing.  It allows a URI to specify a proxy that must be
+           traversed en-route to the destination.  Continuing to use the
+           maddr parameter this way is strongly discouraged (the
+           mechanisms that enable it are deprecated).  Implementations
+           should instead use the Route mechanism described in this
+           document, establishing a pre-existing route set if necessary
+           (see Section 8.1.1.1).  This provides a full URI to describe
+           the node to be traversed.
+"fixed": |-
+  - The maddr field has been used as a simple form of loose source routing.  It allows a URI to specify a proxy that must be traversed en-route to the destination.  Continuing to use the maddr parameter this way is strongly discouraged (the mechanisms that enable it are deprecated).  Implementations should instead use the Route mechanism described in this document, establishing a pre-existing route set if necessary (see Section 8.1.1.1).  This provides a full URI to describe the node to be traversed.
+"ko": |-
+  - maddr 필드는 느슨한 소스 라우팅의 간단한 형태로 사용되었습니다. 이를 통해 URI는 대상으로 가는 도중에 통과해야 하는 프록시를 지정할 수 있습니다. 이 방식으로 maddr 매개변수를 계속 사용하는 것은 권장되지 않습니다(이를 활성화하는 메커니즘은 더 이상 사용되지 않음). 대신 구현에서는 이 문서에 설명된 경로 메커니즘을 사용하여 필요한 경우 기존 경로 집합을 설정해야 합니다(섹션 8.1.1.1 참조). 이는 통과할 노드를 설명하는 전체 URI를 제공합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  75887b4d0ae61f11b94f00659bd8785a2a7026c5b0f6adb821a7555785503936
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If an EAP method that generates keys authenticates one or more
+        method-specific server identities, those identities are exported
+        by the method as the Server-Id(s).  It is possible for more than
+        one Server-Id to be exported by an EAP method.  Not all EAP
+        methods provide a method-specific server identity; where this is
+        not defined, the Server-Id is the null string.  If the EAP method
+        does not generate keying material, the Server-Id MUST be the null
+        string.  Where an EAP method that derives keys does not provide a
+        Server-Id, the EAP peer will not authenticate the identity of the
+        EAP server with which it derived EAP keying material.
+"fixed": |-
+  - If an EAP method that generates keys authenticates one or more method-specific server identities, those identities are exported by the method as the Server-Id(s).  It is possible for more than one Server-Id to be exported by an EAP method.  Not all EAP methods provide a method-specific server identity; where this is not defined, the Server-Id is the null string.  If the EAP method does not generate keying material, the Server-Id MUST be the null string.  Where an EAP method that derives keys does not provide a Server-Id, the EAP peer will not authenticate the identity of the EAP server with which it derived EAP keying material.
+"ko": |-
+  - 키를 생성하는 EAP 방법이 하나 이상의 방법별 서버 ID를 인증하는 경우 해당 ID는 해당 방법에 의해 서버 ID로 내보내집니다. EAP 방법으로 둘 이상의 서버 ID를 내보낼 수 있습니다. 모든 EAP 방법이 방법별 서버 ID를 제공하는 것은 아닙니다. 정의되지 않은 경우 Server-Id는 null 문자열입니다. EAP 방법이 키 입력 자료를 생성하지 않는 경우 Server-Id는 반드시 null 문자열이어야 합니다. 키를 파생하는 EAP 방법이 서버 ID를 제공하지 않는 경우 EAP 피어는 EAP 키 자료를 파생한 EAP 서버의 ID를 인증하지 않습니다.

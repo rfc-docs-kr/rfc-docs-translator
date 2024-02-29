@@ -1,0 +1,14 @@
+"hash": |-
+  5a0f097c60e3bbe374827eb622044ff7e618a25943e68feebe9740b0895a5bbe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The proxy MUST maintain the response context until all of its
+           associated transactions have been terminated, even after
+           forwarding a final response.
+"fixed": |-
+  - The proxy MUST maintain the response context until all of its associated transactions have been terminated, even after forwarding a final response.
+"ko": |-
+  - 프록시는 최종 응답을 전달한 후에도 관련 트랜잭션이 모두 종료될 때까지 응답 컨텍스트를 유지해야 합니다.

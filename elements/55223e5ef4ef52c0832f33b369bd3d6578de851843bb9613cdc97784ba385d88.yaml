@@ -1,0 +1,25 @@
+"hash": |-
+  55223e5ef4ef52c0832f33b369bd3d6578de851843bb9613cdc97784ba385d88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The URI placed in the Record-Route header field MUST resolve to
+           the element inserting it (or a suitable stand-in) when the
+           server location procedures of [4] are applied to it, so that
+           subsequent requests reach the same SIP element.  If the
+           Request-URI contains a SIPS URI, or the topmost Route header
+           field value (after the post processing of bullet 6) contains a
+           SIPS URI, the URI placed into the Record-Route header field
+           MUST be a SIPS URI.  Furthermore, if the request was not
+           received over TLS, the proxy MUST insert a Record-Route header
+           field.  In a similar fashion, a proxy that receives a request
+           over TLS, but generates a request without a SIPS URI in the
+           Request-URI or topmost Route header field value (after the post
+           processing of bullet 6), MUST insert a Record-Route header
+           field that is not a SIPS URI.
+"fixed": |-
+  - The URI placed in the Record-Route header field MUST resolve to the element inserting it (or a suitable stand-in) when the server location procedures of [4] are applied to it, so that subsequent requests reach the same SIP element.  If the Request-URI contains a SIPS URI, or the topmost Route header field value (after the post processing of bullet 6) contains a SIPS URI, the URI placed into the Record-Route header field MUST be a SIPS URI.  Furthermore, if the request was not received over TLS, the proxy MUST insert a Record-Route header field.  In a similar fashion, a proxy that receives a request over TLS, but generates a request without a SIPS URI in the Request-URI or topmost Route header field value (after the post processing of bullet 6), MUST insert a Record-Route header field that is not a SIPS URI.
+"ko": |-
+  - Record-Route 헤더 필드에 배치된 URI는 [4]의 서버 위치 절차가 적용될 때 이를 삽입하는 요소(또는 적절한 대체 요소)로 해석되어야 후속 요청이 동일한 SIP 요소에 도달할 수 있습니다. 요청-URI에 SIPS URI가 포함되어 있거나 최상위 경로 헤더 필드 값(글머리 기호 6의 사후 처리 후)에 SIPS URI가 포함되어 있는 경우 레코드-경로 헤더 필드에 배치된 URI는 SIPS URI여야 합니다. 또한 요청이 TLS를 통해 수신되지 않은 경우 프록시는 Record-Route 헤더 필드를 삽입해야 합니다. 비슷한 방식으로 TLS를 통해 요청을 수신하지만 요청-URI 또는 ​​최상위 경로 헤더 필드 값(6번 항목의 사후 처리 후)에 SIPS URI 없이 요청을 생성하는 프록시는 반드시 Record-Route 헤더를 삽입해야 합니다. SIPS URI가 아닌 필드입니다.

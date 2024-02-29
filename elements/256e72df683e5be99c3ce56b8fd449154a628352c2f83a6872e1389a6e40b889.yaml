@@ -1,0 +1,16 @@
+"hash": |-
+  256e72df683e5be99c3ce56b8fd449154a628352c2f83a6872e1389a6e40b889
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since a peer can complete EAP pre-authentication with an
+     authenticator without eventually attaching to it, it is possible that
+     phase 2 will not occur.  In this case, an Accounting-Request
+     signifying the start of service will not be sent, or will only be
+     sent with a substantial delay after the completion of authentication.
+"fixed": |-
+  Since a peer can complete EAP pre-authentication with an authenticator without eventually attaching to it, it is possible that phase 2 will not occur.  In this case, an Accounting-Request signifying the start of service will not be sent, or will only be sent with a substantial delay after the completion of authentication.
+"ko": |-
+  피어는 최종적으로 인증자를 연결하지 않고도 인증자를 사용하여 EAP 사전 인증을 완료할 수 있으므로 2단계가 발생하지 않을 가능성이 있습니다. 이 경우 서비스 시작을 알리는 Accounting-Request는 전송되지 않거나, 인증 완료 후 상당한 지연 후에만 전송됩니다.

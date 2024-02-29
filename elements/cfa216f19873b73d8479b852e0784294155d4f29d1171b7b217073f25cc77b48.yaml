@@ -1,0 +1,32 @@
+"hash": |-
+  cfa216f19873b73d8479b852e0784294155d4f29d1171b7b217073f25cc77b48
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * USHAHashName
+   *
+   * Description:
+   *   This function will return the name of the given SHA algorithm
+   *   as a string.
+   *
+   * Parameters:
+   *   whichSha:
+   *     which SHA algorithm to query
+   *
+   * Returns:
+   *   character string with the name in it
+   *
+   */
+  const char *USHAHashName(enum SHAversion whichSha)
+  {
+    switch (whichSha) {
+      case SHA1:   return "SHA1";
+      case SHA224: return "SHA224";
+      case SHA256: return "SHA256";
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  611a669aea66a06883b302c459ed98fd8293027634cde0d7c18833dd38d9f2dd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * hkdfFinalBits
+   *
+   * Description:
+   *   This function will add in any final bits of the
+   *   input keying material.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The HKDF context to update
+   *   ikm_bits: [in]
+   *     The final bits of the input keying material, in the upper
+   *     portion of the byte.  (Use 0b###00000 instead of 0b00000###
+   *     to input the three bits ###.)
+"fixed": |-
+  /* * hkdfFinalBits * * Description: *   This function will add in any final bits of the *   input keying material. * * Parameters: *   context: [in/out] *     The HKDF context to update *   ikm_bits: [in] *     The final bits of the input keying material, in the upper *     portion of the byte.  (Use 0b###00000 instead of 0b00000### *     to input the three bits ###.)
+"ko": |-
+  /* * hkdfFinalBits * * 설명: * 이 함수는 입력 키 자료의 * 최종 비트를 추가합니다. * * 매개변수: * context: [in/out] * 업데이트할 HKDF 컨텍스트 * ikm_bits: [in] * 바이트의 상위 * 부분에 있는 입력 키 자료의 마지막 비트입니다. (3비트 ###를 입력하려면 0b00000### * 대신 0b###00000을 사용하세요.)

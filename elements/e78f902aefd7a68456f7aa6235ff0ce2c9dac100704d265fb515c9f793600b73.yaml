@@ -1,0 +1,17 @@
+"hash": |-
+  e78f902aefd7a68456f7aa6235ff0ce2c9dac100704d265fb515c9f793600b73
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     SETTINGS_ENABLE_PUSH (0x02):  This setting can be used to enable or
+        disable server push.  A server MUST NOT send a PUSH_PROMISE frame
+        if it receives this parameter set to a value of 0; see
+        Section 8.4.  A client that has both set this parameter to 0 and
+        had it acknowledged MUST treat the receipt of a PUSH_PROMISE frame
+        as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  SETTINGS_ENABLE_PUSH (0x02):  This setting can be used to enable or disable server push.  A server MUST NOT send a PUSH_PROMISE frame if it receives this parameter set to a value of 0; see Section 8.4.  A client that has both set this parameter to 0 and had it acknowledged MUST treat the receipt of a PUSH_PROMISE frame as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  SETTINGS_ENABLE_PUSH(0x02): 이 설정은 서버 푸시를 활성화하거나 비활성화하는 데 사용할 수 있습니다. 서버는 0 값으로 설정된 이 매개변수를 수신하는 경우 PUSH_PROMISE 프레임을 전송해서는 안 됩니다. 섹션 8.4를 참조하세요. 이 매개변수를 0으로 설정하고 이를 승인한 클라이언트는 PUSH_PROMISE 프레임 수신을 PROTOCOL_ERROR 유형의 연결 오류(5.4.1절)로 처리해야 합니다.

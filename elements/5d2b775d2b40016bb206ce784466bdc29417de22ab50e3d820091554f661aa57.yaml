@@ -1,0 +1,18 @@
+"hash": |-
+  5d2b775d2b40016bb206ce784466bdc29417de22ab50e3d820091554f661aa57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Header fields that can be legitimately modified by proxy servers are:
+     Request-URI, Via, Record-Route, Route, Max-Forwards, and Proxy-
+     Authorization.  If these header fields are not intact end-to-end,
+     implementations SHOULD NOT consider this a breach of security.
+     Changes to any other header fields defined in this document
+     constitute an integrity violation; users MUST be notified of a
+     discrepancy.
+"fixed": |-
+  Header fields that can be legitimately modified by proxy servers are: Request-URI, Via, Record-Route, Route, Max-Forwards, and Proxy- Authorization.  If these header fields are not intact end-to-end, implementations SHOULD NOT consider this a breach of security. Changes to any other header fields defined in this document constitute an integrity violation; users MUST be notified of a discrepancy.
+"ko": |-
+  프록시 서버에 의해 합법적으로 수정될 수 있는 헤더 필드는 Request-URI, Via, Record-Route, Route, Max-Forwards 및 Proxy-Authorization입니다. 이러한 헤더 필드가 처음부터 끝까지 손상되지 않은 경우 구현에서는 이를 보안 위반으로 간주해서는 안 됩니다. 이 문서에 정의된 다른 헤더 필드를 변경하면 무결성 위반이 됩니다. 사용자에게 불일치 사항을 알려야 합니다.

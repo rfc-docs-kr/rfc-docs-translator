@@ -1,0 +1,58 @@
+"hash": |-
+  7a3a9bdeae8e1bb1e449f65043483fbe6128a3b0a2860e6bc6a91e4ead5709d4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                         hmachashes[testno].dataarray[1] :
+                         hmachashes[testno].dataarray[0],
+                         hmachashes[testno].datalength[hashno] ?
+                         hmachashes[testno].datalength[hashno] :
+                         hmachashes[testno].datalength[1] ?
+                         hmachashes[testno].datalength[1] :
+                         hmachashes[testno].datalength[0],
+                         1, 0, 0,
+                         (const unsigned char *)(
+                          hmachashes[testno].keyarray[hashno] ?
+                          hmachashes[testno].keyarray[hashno] :
+                          hmachashes[testno].keyarray[1] ?
+                          hmachashes[testno].keyarray[1] :
+                          hmachashes[testno].keyarray[0]),
+                         hmachashes[testno].keylength[hashno] ?
+                         hmachashes[testno].keylength[hashno] :
+                         hmachashes[testno].keylength[1] ?
+                         hmachashes[testno].keylength[1] :
+                         hmachashes[testno].keylength[0],
+                         0, 0, 0,
+                         hmachashes[testno].resultarray[hashno],
+                         hmachashes[testno].resultlength[hashno],
+                         printResults, printPassFail);
+            } else if (runHkdfTests) {
+              err = hashHkdf(testno, loopno, hashno,
+                         printResults, printPassFail);
+            } else { /* sha tests */
+              err = hash(testno, loopno, hashno,
+                         hashes[hashno].tests[testno].testarray,
+                         hashes[hashno].tests[testno].length,
+                         hashes[hashno].tests[testno].repeatcount,
+                         hashes[hashno].tests[testno].numberExtrabits,
+                         hashes[hashno].tests[testno].extrabits,
+                         0, 0, 0, 0, 0,
+                         hashes[hashno].tests[testno].resultarray,
+                         hashes[hashno].hashsize,
+                         printResults, printPassFail);
+            }
+          }
+          if (!runHmacTests && !runHkdfTests) {
+            randomtest(hashno, hashes[hashno].randomtest,
+              hashes[hashno].hashsize, hashes[hashno].randomresults,
+              RANDOMCOUNT, printResults, printPassFail);
+          }
+        }
+      }
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

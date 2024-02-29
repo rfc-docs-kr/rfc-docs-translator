@@ -1,0 +1,22 @@
+"hash": |-
+  b37d305950bdacf3b2ac0851aa22696ca7fb04250c2d64eba2462480bc6c333d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The specifics of whether and how to negotiate channel binding types
+     are beyond the scope of this document.  However, it is RECOMMENDED
+     that application protocols making use of TLS channel bindings, use
+     'tls-unique' exclusively, except, perhaps, where server-side proxies
+     are common in deployments of an application protocol.  In the latter
+     case an application protocol MAY specify that 'tls-server-end-point'
+     channel bindings must be used when available, with 'tls-unique' being
+     used when 'tls-server-end-point' channel bindings are not available.
+     Alternatively, the application may negotiate which channel binding
+     type to use, or may make the choice of channel binding type
+     configurable.
+"fixed": |-
+  The specifics of whether and how to negotiate channel binding types are beyond the scope of this document.  However, it is RECOMMENDED that application protocols making use of TLS channel bindings, use 'tls-unique' exclusively, except, perhaps, where server-side proxies are common in deployments of an application protocol.  In the latter case an application protocol MAY specify that 'tls-server-end-point' channel bindings must be used when available, with 'tls-unique' being used when 'tls-server-end-point' channel bindings are not available. Alternatively, the application may negotiate which channel binding type to use, or may make the choice of channel binding type configurable.
+"ko": |-
+  채널 바인딩 유형을 협상할지 여부와 방법에 대한 구체적인 내용은 이 문서의 범위를 벗어납니다. 그러나 TLS 채널 바인딩을 사용하는 애플리케이션 프로토콜은 'tls-unique'를 독점적으로 사용하는 것이 권장됩니다. 단, 애플리케이션 프로토콜 배포에서 서버 측 프록시가 일반적인 경우는 예외입니다. 후자의 경우 애플리케이션 프로토콜은 'tls-server-end-point' 채널 바인딩이 사용 가능하면 'tls-server-end-point' 채널 바인딩을 사용해야 하며, 'tls-server-end-point' 채널 바인딩을 사용할 수 없을 때 'tls-unique'가 사용되도록 지정할 수 있습니다. . 대안으로, 애플리케이션은 어떤 채널 바인딩 유형을 사용할지 협상하거나 채널 바인딩 유형 선택을 구성 가능하게 만들 수 있습니다.

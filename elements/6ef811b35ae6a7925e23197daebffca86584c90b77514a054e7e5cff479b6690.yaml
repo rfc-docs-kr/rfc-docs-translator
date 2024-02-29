@@ -1,0 +1,18 @@
+"hash": |-
+  6ef811b35ae6a7925e23197daebffca86584c90b77514a054e7e5cff479b6690
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      /* OUTPUT: MDj */
+      sprintf(buf, "%d", j);
+      printResult(SEED, hashsize, hashes[hashno].name, "random test",
+        buf, resultarrays ? resultarrays[j] : 0, printResults,
+        (j < RANDOMCOUNT) ? printPassFail : 0);
+    }
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

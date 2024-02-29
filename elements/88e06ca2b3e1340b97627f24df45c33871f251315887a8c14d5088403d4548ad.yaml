@@ -1,0 +1,25 @@
+"hash": |-
+  88e06ca2b3e1340b97627f24df45c33871f251315887a8c14d5088403d4548ad
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  Authorization     =  "Authorization" HCOLON credentials
+  credentials       =  ("Digest" LWS digest-response)
+                       / other-response
+  digest-response   =  dig-resp *(COMMA dig-resp)
+  dig-resp          =  username / realm / nonce / digest-uri
+                        / dresponse / algorithm / cnonce
+                        / opaque / message-qop
+                        / nonce-count / auth-param
+  username          =  "username" EQUAL username-value
+  username-value    =  quoted-string
+  digest-uri        =  "uri" EQUAL LDQUOT digest-uri-value RDQUOT
+  digest-uri-value  =  rquest-uri ; Equal to request-uri as specified
+                       by HTTP/1.1
+  message-qop       =  "qop" EQUAL qop-value
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

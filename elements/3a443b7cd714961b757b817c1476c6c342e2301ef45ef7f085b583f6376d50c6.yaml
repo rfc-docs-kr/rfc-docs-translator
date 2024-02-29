@@ -1,0 +1,38 @@
+"hash": |-
+  3a443b7cd714961b757b817c1476c6c342e2301ef45ef7f085b583f6376d50c6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA224_256PadMessage
+   *
+   * Description:
+   *   According to the standard, the message must be padded to the next
+   *   even multiple of 512 bits.  The first padding bit must be a '1'.
+   *   The last 64 bits represent the length of the original message.
+   *   All bits in between should be 0.  This helper function will pad
+   *   the message according to those rules by filling the
+   *   Message_Block array accordingly.  When it returns, it can be
+   *   assumed that the message digest has been computed.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The context to pad.
+   *   Pad_Byte: [in]
+   *     The last byte to add to the message block before the 0-padding
+   *     and length.  This will contain the last bits of the message
+   *     followed by another single bit.  If the message was an
+   *     exact multiple of 8-bits long, Pad_Byte will be 0x80.
+   *
+   * Returns:
+   *   Nothing.
+   */
+  static void SHA224_256PadMessage(SHA256Context *context,
+      uint8_t Pad_Byte)
+  {
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

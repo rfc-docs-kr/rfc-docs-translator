@@ -1,0 +1,19 @@
+"hash": |-
+  1b11b3718f4ef9a7e24cdd572707bae3f938deb13eef40fd1efd7f50f9662b6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     (g)  Key state resynchronization.  It is possible for the peer or
+          authenticator to reboot or reclaim resources, clearing portions
+          or all of the key cache.  Therefore, key lifetime negotiation
+          cannot guarantee that the key cache will remain synchronized,
+          and it may not be possible for the peer to determine before
+          attempting to use a key whether it exists within the
+          authenticator cache.  It is therefore RECOMMENDED for the EAP
+          lower layer to provide a mechanism for key state
+"fixed": |-
+  (g)  Key state resynchronization.  It is possible for the peer or authenticator to reboot or reclaim resources, clearing portions or all of the key cache.  Therefore, key lifetime negotiation cannot guarantee that the key cache will remain synchronized, and it may not be possible for the peer to determine before attempting to use a key whether it exists within the authenticator cache.  It is therefore RECOMMENDED for the EAP lower layer to provide a mechanism for key state
+"ko": |-
+  (g) 키 상태 재동기화. 피어나 인증자가 재부팅하거나 리소스를 회수하여 키 캐시의 일부 또는 전부를 지울 수 있습니다. 따라서 키 수명 협상은 키 캐시가 동기화된 상태를 유지한다고 보장할 수 없으며 피어가 키를 사용하려고 시도하기 전에 키가 인증자 캐시 내에 존재하는지 여부를 확인하는 것이 불가능할 수 있습니다. 따라서 EAP 하위 계층에서 키 상태에 대한 메커니즘을 제공하는 것이 권장됩니다.

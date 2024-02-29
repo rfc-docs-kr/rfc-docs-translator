@@ -1,0 +1,15 @@
+"hash": |-
+  41b99a665aaf5aa8a2f0a47b1f8ab6ecd864c6ecfbcd277f9927aeaebd1b4dbb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Retransmitting the 401 (Unauthorized) or 407 (Proxy Authentication
+        Required) status response amplifies the problem of an attacker
+        using a falsified header field value (such as Via) to direct
+        traffic to a third party.
+"fixed": |-
+  - Retransmitting the 401 (Unauthorized) or 407 (Proxy Authentication Required) status response amplifies the problem of an attacker using a falsified header field value (such as Via) to direct traffic to a third party.
+"ko": |-
+  - 401(권한 없음) 또는 407(프록시 인증 필요) 상태 응답을 재전송하면 공격자가 위조된 헤더 필드 값(예: Via)을 사용하여 트래픽을 제3자에게 전달하는 문제가 증폭됩니다.

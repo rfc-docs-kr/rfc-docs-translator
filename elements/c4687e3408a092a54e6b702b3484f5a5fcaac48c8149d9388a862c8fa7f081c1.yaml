@@ -1,0 +1,16 @@
+"hash": |-
+  c4687e3408a092a54e6b702b3484f5a5fcaac48c8149d9388a862c8fa7f081c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the client transaction enters the "Completed" state, it MUST set
+     Timer K to fire in T4 seconds for unreliable transports, and zero
+     seconds for reliable transports.  The "Completed" state exists to
+     buffer any additional response retransmissions that may be received
+     (which is why the client transaction remains there only for
+"fixed": |-
+  Once the client transaction enters the "Completed" state, it MUST set Timer K to fire in T4 seconds for unreliable transports, and zero seconds for reliable transports.  The "Completed" state exists to buffer any additional response retransmissions that may be received (which is why the client transaction remains there only for
+"ko": |-
+  클라이언트 트랜잭션이 "완료" 상태에 들어가면 신뢰할 수 없는 전송의 경우 T4초 내에 실행되고 신뢰할 수 있는 전송의 경우 0초 내에 타이머 K가 실행되도록 설정해야 합니다. "완료" 상태는 수신될 수 있는 추가 응답 재전송을 버퍼링하기 위해 존재합니다(이것이 클라이언트 트랜잭션이 해당 상태로 유지되는 이유입니다).

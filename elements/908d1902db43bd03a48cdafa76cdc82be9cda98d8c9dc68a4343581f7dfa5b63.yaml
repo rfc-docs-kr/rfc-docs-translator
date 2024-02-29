@@ -1,0 +1,14 @@
+"hash": |-
+  908d1902db43bd03a48cdafa76cdc82be9cda98d8c9dc68a4343581f7dfa5b63
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MUST treat a change to SETTINGS_INITIAL_WINDOW_SIZE that
+     causes any flow-control window to exceed the maximum size as a
+     connection error (Section 5.4.1) of type FLOW_CONTROL_ERROR.
+"fixed": |-
+  An endpoint MUST treat a change to SETTINGS_INITIAL_WINDOW_SIZE that causes any flow-control window to exceed the maximum size as a connection error (Section 5.4.1) of type FLOW_CONTROL_ERROR.
+"ko": |-
+  엔드포인트는 흐름 제어 창이 최대 크기를 초과하게 만드는 SETTINGS_INITIAL_WINDOW_SIZE에 대한 변경을 FLOW_Control_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리해야 합니다.

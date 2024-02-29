@@ -1,0 +1,14 @@
+"hash": |-
+  20c937e6178af7a6b6c87ad1266ef8139e83042770aede33d29375e4edadeea0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     5.  If the x-coordinate of R' mod q is equal to s1, then the
+         signature and message pass the verification; otherwise, they
+         fail.
+"fixed": |-
+  1.  If the x-coordinate of R' mod q is equal to s1, then the signature and message pass the verification; otherwise, they fail.
+"ko": |-
+  1. R' mod q의 x 좌표가 s1과 같으면 서명과 메시지가 검증을 통과한 것입니다. 그렇지 않으면 실패합니다.

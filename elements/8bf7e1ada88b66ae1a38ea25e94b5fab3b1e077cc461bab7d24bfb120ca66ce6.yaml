@@ -1,0 +1,16 @@
+"hash": |-
+  8bf7e1ada88b66ae1a38ea25e94b5fab3b1e077cc461bab7d24bfb120ca66ce6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Intermediaries that process HTTP requests or responses (i.e., any
+     intermediary not acting as a tunnel) MUST NOT forward a malformed
+     request or response.  Malformed requests or responses that are
+     detected MUST be treated as a stream error (Section 5.4.2) of type
+     PROTOCOL_ERROR.
+"fixed": |-
+  Intermediaries that process HTTP requests or responses (i.e., any intermediary not acting as a tunnel) MUST NOT forward a malformed request or response.  Malformed requests or responses that are detected MUST be treated as a stream error (Section 5.4.2) of type PROTOCOL_ERROR.
+"ko": |-
+  HTTP 요청이나 응답을 처리하는 중개자(즉, 터널 역할을 하지 않는 중개자)는 잘못된 요청이나 응답을 전달해서는 안 됩니다. 잘못된 형식의 요청이나 감지된 응답은 PROTOCOL_ERROR 유형의 스트림 오류(섹션 5.4.2)로 처리되어야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  e92e833231d618826119cd997cf7a4cf65a195aee45271d2b5b8eaf26f8ec9fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+    if (skipSpaces)
+      while ((c = getc(hashfp)) != EOF) {
+        if (!isspace(c)) {
+          cc = (unsigned char)c;
+          err = info ? hkdfInput(&hkdf, &cc, 1) :
+"fixed": |-
+  if (skipSpaces) while ((c = getc(hashfp)) != EOF) { if (!isspace(c)) { cc = (unsigned char)c; err = info ? hkdfInput(&hkdf, &cc, 1) :
+"ko": |-
+  if (skipSpaces) while ((c = getc(hashfp)) != EOF) { if (!isspace(c)) { cc = (unsigned char)c; 오류 = 정보 ? hkdf입력(&hkdf, &cc, 1) :

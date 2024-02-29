@@ -1,0 +1,17 @@
+"hash": |-
+  bed44f24936620ec6e9db59fc048ac302c499ffb041b964668054d2b0601b78c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CA SHOULD use the same issuing key to issue a delegation
+     certificate as that used to sign the certificate being checked for
+     revocation.  Systems relying on OCSP responses MUST recognize a
+     delegation certificate as being issued by the CA that issued the
+     certificate in question only if the delegation certificate and the
+     certificate being checked for revocation were signed by the same key.
+"fixed": |-
+  The CA SHOULD use the same issuing key to issue a delegation certificate as that used to sign the certificate being checked for revocation.  Systems relying on OCSP responses MUST recognize a delegation certificate as being issued by the CA that issued the certificate in question only if the delegation certificate and the certificate being checked for revocation were signed by the same key.
+"ko": |-
+  CA는 해지 확인 중인 인증서에 서명하는 데 사용된 것과 동일한 발급 키를 사용하여 위임 인증서를 발급해야 합니다. OCSP 응답에 의존하는 시스템은 위임 인증서와 해지 확인 대상 인증서가 동일한 키로 서명된 경우에만 문제의 인증서를 발급한 CA에서 발급한 위임 인증서를 인식해야 합니다.

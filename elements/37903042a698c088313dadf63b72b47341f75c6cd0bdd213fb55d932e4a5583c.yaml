@@ -1,0 +1,19 @@
+"hash": |-
+  37903042a698c088313dadf63b72b47341f75c6cd0bdd213fb55d932e4a5583c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Add the 2word value in word2 to word1.
+   */
+  static uint32_t ADDTO2_temp;
+  #define SHA512_ADDTO2(word1, word2) (                          \
+      ADDTO2_temp = (word1)[1],                                  \
+      (word1)[1] += (word2)[1],                                  \
+      (word1)[0] += (word2)[0] + ((word1)[1] < ADDTO2_temp) )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

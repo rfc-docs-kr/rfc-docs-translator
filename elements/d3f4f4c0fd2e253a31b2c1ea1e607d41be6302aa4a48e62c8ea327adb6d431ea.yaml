@@ -1,0 +1,16 @@
+"hash": |-
+  d3f4f4c0fd2e253a31b2c1ea1e607d41be6302aa4a48e62c8ea327adb6d431ea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the response for a request within a dialog is a 481
+     (Call/Transaction Does Not Exist) or a 408 (Request Timeout), the UAC
+     SHOULD terminate the dialog.  A UAC SHOULD also terminate a dialog if
+     no response at all is received for the request (the client
+     transaction would inform the TU about the timeout.)
+"fixed": |-
+  If the response for a request within a dialog is a 481 (Call/Transaction Does Not Exist) or a 408 (Request Timeout), the UAC SHOULD terminate the dialog.  A UAC SHOULD also terminate a dialog if no response at all is received for the request (the client transaction would inform the TU about the timeout.)
+"ko": |-
+  대화 상자 내의 요청에 대한 응답이 481(호출/트랜잭션이 존재하지 않음) 또는 408(요청 시간 초과)인 경우 UAC는 대화 상자를 종료해야 합니다. UAC는 요청에 대한 응답이 전혀 수신되지 않는 경우에도 대화를 종료해야 합니다(클라이언트 트랜잭션은 시간 초과에 대해 TU에 알립니다.)

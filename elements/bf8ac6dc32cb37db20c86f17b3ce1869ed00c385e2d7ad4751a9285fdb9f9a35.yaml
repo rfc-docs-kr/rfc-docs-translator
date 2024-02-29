@@ -1,0 +1,19 @@
+"hash": |-
+  bf8ac6dc32cb37db20c86f17b3ce1869ed00c385e2d7ad4751a9285fdb9f9a35
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        4. The registrar SHOULD determine if the authenticated user is
+           authorized to modify registrations for this address-of-record.
+           For example, a registrar might consult an authorization
+           database that maps user names to a list of addresses-of-record
+           for which that user has authorization to modify bindings.  If
+           the authenticated user is not authorized to modify bindings,
+           the registrar MUST return a 403 (Forbidden) and skip the
+           remaining steps.
+"fixed": |-
+  1. The registrar SHOULD determine if the authenticated user is authorized to modify registrations for this address-of-record. For example, a registrar might consult an authorization database that maps user names to a list of addresses-of-record for which that user has authorization to modify bindings.  If the authenticated user is not authorized to modify bindings, the registrar MUST return a 403 (Forbidden) and skip the remaining steps.
+"ko": |-
+  1. 등록기관은 인증된 사용자가 이 기록 주소에 대한 등록을 수정할 권한이 있는지 확인해야 합니다. 예를 들어 등록 기관은 사용자 이름을 해당 사용자가 바인딩 수정 권한을 가지고 있는 기록 주소 목록에 매핑하는 권한 데이터베이스를 참조할 수 있습니다. 인증된 사용자가 바인딩을 수정할 권한이 없는 경우 등록자는 403(금지됨)을 반환하고 나머지 단계를 건너뛰어야 합니다.

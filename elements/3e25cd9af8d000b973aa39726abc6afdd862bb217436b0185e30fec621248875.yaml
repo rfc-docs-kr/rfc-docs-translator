@@ -1,0 +1,15 @@
+"hash": |-
+  3e25cd9af8d000b973aa39726abc6afdd862bb217436b0185e30fec621248875
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Clients that generate HTTP/2 requests directly MUST use the
+        ":authority" pseudo-header field to convey authority information,
+        unless there is no authority information to convey (in which case
+        it MUST NOT generate ":authority").
+"fixed": |-
+  - Clients that generate HTTP/2 requests directly MUST use the ":authority" pseudo-header field to convey authority information, unless there is no authority information to convey (in which case it MUST NOT generate ":authority").
+"ko": |-
+  - HTTP/2 요청을 직접 생성하는 클라이언트는 전달할 권한 정보가 없는 한(이 경우 ":authority"를 생성해서는 안 됨) ":authority" 의사 헤더 필드를 사용하여 권한 정보를 전달해야 합니다.

@@ -1,0 +1,26 @@
+"hash": |-
+  b3cec9cfee9987724253874de8dcf4ef7bcc5954291c7c7500224781c36d4adf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since only the absence of an SSID in the Called-Station-Id attribute
+     distinguishes an EAP pre-authentication attempt, if the authenticator
+     does not always include the SSID for a normal EAP authentication
+     attempt, it is possible that the backend authentication server will
+     not be able to determine whether a session constitutes an EAP
+     pre-authentication attempt, potentially resulting in authorization or
+     accounting problems.  Where the number of simultaneous sessions is
+     limited, the backend authentication server can refuse to authorize a
+     valid EAP pre-authentication attempt or can enable the peer to engage
+     in more simultaneous sessions than they are authorized for.  Where
+     EAP pre-authentication occurs with an authenticator which the peer
+     never attaches to, it is possible that the backend accounting server
+     will not be able to determine whether the absence of an
+     Accounting-Request was due to packet loss or a session that never
+     started.
+"fixed": |-
+  Since only the absence of an SSID in the Called-Station-Id attribute distinguishes an EAP pre-authentication attempt, if the authenticator does not always include the SSID for a normal EAP authentication attempt, it is possible that the backend authentication server will not be able to determine whether a session constitutes an EAP pre-authentication attempt, potentially resulting in authorization or accounting problems.  Where the number of simultaneous sessions is limited, the backend authentication server can refuse to authorize a valid EAP pre-authentication attempt or can enable the peer to engage in more simultaneous sessions than they are authorized for.  Where EAP pre-authentication occurs with an authenticator which the peer never attaches to, it is possible that the backend accounting server will not be able to determine whether the absence of an Accounting-Request was due to packet loss or a session that never started.
+"ko": |-
+  Called-Station-Id 속성에 SSID가 없는 것만이 EAP 사전 인증 시도를 구별하므로 인증자가 일반 EAP 인증 시도에 대해 SSID를 항상 포함하지 않는 경우 백엔드 인증 서버가 인증되지 않을 수 있습니다. 세션이 EAP 사전 인증 시도로 구성되어 잠재적으로 승인 또는 계정 문제가 발생할 수 있는지 여부를 확인할 수 있습니다. 동시 세션 수가 제한된 경우 백엔드 인증 서버는 유효한 EAP 사전 인증 시도 승인을 거부하거나 피어가 승인된 것보다 더 많은 동시 세션에 참여하도록 할 수 있습니다. 피어가 연결되지 않은 인증자를 통해 EAP 사전 인증이 발생하는 경우 백엔드 계정 서버는 계정 요청 부재가 패킷 손실로 인한 것인지 또는 시작되지 않은 세션으로 인한 것인지 여부를 판단하지 못할 수도 있습니다.

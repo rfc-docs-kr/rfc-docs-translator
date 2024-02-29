@@ -1,0 +1,17 @@
+"hash": |-
+  5e7edbbf976966a68235ec8c1087f17966cec59d51b3e98a3698ad73384e9a1a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An HTTP-based OCSP response is composed of the appropriate HTTP
+     headers, followed by the binary value of the DER encoding of the
+     OCSPResponse.  The Content-Type header has the value
+     "application/ocsp-response".  The Content-Length header SHOULD
+     specify the length of the response.  Other HTTP headers MAY be
+     present and MAY be ignored if not understood by the requestor.
+"fixed": |-
+  An HTTP-based OCSP response is composed of the appropriate HTTP headers, followed by the binary value of the DER encoding of the OCSPResponse.  The Content-Type header has the value "application/ocsp-response".  The Content-Length header SHOULD specify the length of the response.  Other HTTP headers MAY be present and MAY be ignored if not understood by the requestor.
+"ko": |-
+  HTTP 기반 OCSP 응답은 적절한 HTTP 헤더와 OCSPResponse의 DER 인코딩 바이너리 값으로 구성됩니다. Content-Type 헤더의 값은 "application/ocsp-response"입니다. Content-Length 헤더는 응답 길이를 지정해야 합니다. 다른 HTTP 헤더가 존재할 수 있으며 요청자가 이해하지 못하는 경우 무시될 수 있습니다.

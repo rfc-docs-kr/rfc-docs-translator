@@ -1,0 +1,18 @@
+"hash": |-
+  846f5ec88519b0be52574454db63f8c0feea8fb139fcb86be02c397d406d0512
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver that receives a flow-controlled frame MUST always account
+     for its contribution against the connection flow-control window,
+     unless the receiver treats this as a connection error
+     (Section 5.4.1).  This is necessary even if the frame is in error.
+     The sender counts the frame toward the flow-control window, but if
+     the receiver does not, the flow-control window at the sender and
+     receiver can become different.
+"fixed": |-
+  A receiver that receives a flow-controlled frame MUST always account for its contribution against the connection flow-control window, unless the receiver treats this as a connection error (Section 5.4.1).  This is necessary even if the frame is in error. The sender counts the frame toward the flow-control window, but if the receiver does not, the flow-control window at the sender and receiver can become different.
+"ko": |-
+  흐름 제어 프레임을 수신하는 수신기는 수신기가 이를 연결 오류(섹션 5.4.1)로 처리하지 않는 한 항상 연결 흐름 제어 창에 대한 기여도를 고려해야 합니다. 이는 프레임에 오류가 있는 경우에도 필요합니다. 송신자는 흐름 제어 창을 향해 프레임을 계산하지만, 수신자가 그렇지 않으면 송신자와 수신자의 흐름 제어 창이 달라질 수 있습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  a23b70173f4dc4323a8392eeeffd24f8e2d7eeca91afda2ff798d3d7addaebc8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  NFSv4 [RFC3530] multiplexes multiple users onto individual
+           connections.  Each user is authenticated separately, and users'
+           remote procedure calls (RPCs) are protected with per-user GSS-
+           API security contexts.  This means that large timesharing
+           clients must often maintain many cryptographic contexts per-
+           NFSv4 connection.  With channel binding to IPsec, they could
+           maintain a much smaller number of cryptographic contexts per-
+           NFSv4 connection, thus reducing memory pressure and
+           interactions with cryptographic hardware.
+"fixed": |-
+  - *  NFSv4 [RFC3530] multiplexes multiple users onto individual connections.  Each user is authenticated separately, and users' remote procedure calls (RPCs) are protected with per-user GSS- API security contexts.  This means that large timesharing clients must often maintain many cryptographic contexts per- NFSv4 connection.  With channel binding to IPsec, they could maintain a much smaller number of cryptographic contexts per- NFSv4 connection, thus reducing memory pressure and interactions with cryptographic hardware.
+"ko": |-
+  - * NFSv4 [RFC3530]은 여러 사용자를 개별 연결에 다중화합니다. 각 사용자는 별도로 인증되며 사용자의 원격 프로시저 호출(RPC)은 사용자별 GSS-API 보안 컨텍스트로 보호됩니다. 이는 대규모 시간 공유 클라이언트가 NFSv4 연결당 많은 암호화 컨텍스트를 유지해야 하는 경우가 많다는 것을 의미합니다. IPsec에 대한 채널 바인딩을 통해 NFSv4 연결당 훨씬 적은 수의 암호화 컨텍스트를 유지할 수 있으므로 메모리 압박과 암호화 하드웨어와의 상호 작용이 줄어듭니다.

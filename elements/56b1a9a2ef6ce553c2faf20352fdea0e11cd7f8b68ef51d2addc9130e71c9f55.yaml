@@ -1,0 +1,18 @@
+"hash": |-
+  56b1a9a2ef6ce553c2faf20352fdea0e11cd7f8b68ef51d2addc9130e71c9f55
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Cookie header field [COOKIE] uses a semicolon (";") to delimit
+     cookie-pairs (or "crumbs").  This header field contains multiple
+     values, but does not use a COMMA (",") as a separator, thereby
+     preventing cookie-pairs from being sent on multiple field lines (see
+     Section 5.2 of [HTTP]).  This can significantly reduce compression
+     efficiency, as updates to individual cookie-pairs would invalidate
+     any field lines that are stored in the HPACK table.
+"fixed": |-
+  The Cookie header field [COOKIE] uses a semicolon (";") to delimit cookie-pairs (or "crumbs").  This header field contains multiple values, but does not use a COMMA (",") as a separator, thereby preventing cookie-pairs from being sent on multiple field lines (see Section 5.2 of [HTTP]).  This can significantly reduce compression efficiency, as updates to individual cookie-pairs would invalidate any field lines that are stored in the HPACK table.
+"ko": |-
+  쿠키 헤더 필드 [COOKIE]는 세미콜론(";")을 사용하여 쿠키 쌍(또는 "부스러기")을 구분합니다. 이 헤더 필드에는 여러 값이 포함되어 있지만 쉼표(",")를 구분 기호로 사용하지 않으므로 쿠키 쌍이 여러 필드 줄로 전송되는 것을 방지합니다([HTTP]의 섹션 5.2 참조). 개별 쿠키 쌍을 업데이트하면 HPACK 테이블에 저장된 모든 필드 행이 무효화되므로 압축 효율성이 크게 저하될 수 있습니다.

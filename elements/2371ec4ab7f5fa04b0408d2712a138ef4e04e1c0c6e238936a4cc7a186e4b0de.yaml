@@ -1,0 +1,12 @@
+"hash": |-
+  2371ec4ab7f5fa04b0408d2712a138ef4e04e1c0c6e238936a4cc7a186e4b0de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  If maskLen > 2^32 hLen, output "mask too long" and stop.
+"fixed": |-
+  1.  If maskLen > 2^32 hLen, output "mask too long" and stop.
+"ko": |-
+  1. MaskLen > 2^32 hLen인 경우 "mask too long"을 출력하고 중지합니다.

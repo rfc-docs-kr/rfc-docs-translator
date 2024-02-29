@@ -1,0 +1,19 @@
+"hash": |-
+  75d4f9c8d5218f5cb65de1246933d438e921b1404886f3ad96174bc06f23a755
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since MIME bodies are attached to the "inner" message,
+     implementations will usually encrypt MIME-specific header fields,
+     including: MIME-Version, Content-Type, Content-Length, Content-
+     Language, Content-Encoding and Content-Disposition.  The "outer"
+     message will have the proper MIME header fields for S/MIME bodies.
+     These header fields (and any MIME bodies they preface) should be
+     treated as normal MIME header fields and bodies received in a SIP
+     message.
+"fixed": |-
+  Since MIME bodies are attached to the "inner" message, implementations will usually encrypt MIME-specific header fields, including: MIME-Version, Content-Type, Content-Length, Content- Language, Content-Encoding and Content-Disposition.  The "outer" message will have the proper MIME header fields for S/MIME bodies. These header fields (and any MIME bodies they preface) should be treated as normal MIME header fields and bodies received in a SIP message.
+"ko": |-
+  MIME 본문은 "내부" 메시지에 첨부되므로 구현에서는 일반적으로 MIME-Version, Content-Type, Content-Length, Content-Language, Content-Encoding 및 Content-Disposition을 포함한 MIME 관련 헤더 필드를 암호화합니다. "외부" 메시지에는 S/MIME 본문에 대한 적절한 MIME 헤더 필드가 있습니다. 이러한 헤더 필드(및 앞에 붙는 모든 MIME 본문)는 SIP 메시지에서 수신된 일반 MIME 헤더 필드 및 본문으로 처리되어야 합니다.

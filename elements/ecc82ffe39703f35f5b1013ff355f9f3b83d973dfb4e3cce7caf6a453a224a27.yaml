@@ -1,0 +1,15 @@
+"hash": |-
+  ecc82ffe39703f35f5b1013ff355f9f3b83d973dfb4e3cce7caf6a453a224a27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If the request will be sent to the next hop using a stream-
+           based transport and the copy contains no Content-Length header
+           field, the proxy MUST insert one with the correct value for the
+           body of the request (see Section 20.14).
+"fixed": |-
+  - If the request will be sent to the next hop using a stream- based transport and the copy contains no Content-Length header field, the proxy MUST insert one with the correct value for the body of the request (see Section 20.14).
+"ko": |-
+  - 요청이 스트림 기반 전송을 사용하여 다음 홉으로 전송되고 복사본에 Content-Length 헤더 필드가 포함되어 있지 않은 경우 프록시는 요청 본문에 대한 올바른 값을 포함하는 필드를 삽입해야 합니다(섹션 20.14 참조).

@@ -1,0 +1,20 @@
+"hash": |-
+  0aee56cc365641a13211b345344406b6d070ffd232358ce128c321aa38269a2a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Feasible Path Reverse Path Forwarding (Feasible RPF) is an extension
+     of Strict RPF.  The source address is still looked up in the FIB (or
+     an equivalent, RPF-specific table) but instead of just inserting one
+     best route there, the alternative paths (if any) have been added as
+     well, and are valid for consideration.  The list is populated using
+     routing-protocol specific methods, for example by including all or N
+     (where N is less than all) feasible BGP paths in the Routing
+     Information Base (RIB).  Sometimes this method has been implemented
+     as part of a Strict RPF implementation.
+"fixed": |-
+  Feasible Path Reverse Path Forwarding (Feasible RPF) is an extension of Strict RPF.  The source address is still looked up in the FIB (or an equivalent, RPF-specific table) but instead of just inserting one best route there, the alternative paths (if any) have been added as well, and are valid for consideration.  The list is populated using routing-protocol specific methods, for example by including all or N (where N is less than all) feasible BGP paths in the Routing Information Base (RIB).  Sometimes this method has been implemented as part of a Strict RPF implementation.
+"ko": |-
+  실행 가능한 경로 역방향 경로 전달(실행 가능한 RPF)은 엄격한 RPF의 확장입니다. 소스 주소는 여전히 FIB(또는 이에 상응하는 RPF 관련 테이블)에서 조회되지만 거기에 하나의 최적 경로를 삽입하는 대신 대체 경로(있는 경우)도 추가되어 고려할 수 있습니다. 목록은 라우팅 프로토콜별 방법을 사용하여 채워집니다. 예를 들어 RIB(Routing Information Base)에 가능한 BGP 경로 전체 또는 N개(여기서 N은 전체보다 작음)를 포함합니다. 때때로 이 방법은 엄격한 RPF 구현의 일부로 구현되었습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  8eeae4cd37213e151e994d15e6599b96351f6b8584b665dfb84e67a2c0677348
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Servers SHOULD use other contextual information in determining
+     priority of requests in the absence of any priority signals.  Servers
+     MAY interpret the complete absence of signals as an indication that
+     the client has not implemented the feature.  The defaults described
+     in Section 5.3.5 of [RFC7540] are known to have poor performance
+     under most conditions, and their use is unlikely to be deliberate.
+"fixed": |-
+  Servers SHOULD use other contextual information in determining priority of requests in the absence of any priority signals.  Servers MAY interpret the complete absence of signals as an indication that the client has not implemented the feature.  The defaults described in Section 5.3.5 of [RFC7540] are known to have poor performance under most conditions, and their use is unlikely to be deliberate.
+"ko": |-
+  서버는 우선순위 신호가 없는 경우 요청의 우선순위를 결정할 때 다른 상황별 정보를 사용해야 합니다. 서버는 신호가 전혀 없다는 것을 클라이언트가 기능을 구현하지 않았다는 표시로 해석할 수 있습니다. [RFC7540]의 섹션 5.3.5에 설명된 기본값은 대부분의 조건에서 성능이 좋지 않은 것으로 알려져 있으며 의도적으로 사용할 가능성이 없습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  45a84dadddc08e2fa6de1729f5b97a61f8740e11243a7fe1df25fb27c43a46cb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        int hkdf(SHAversion whichSha,
+                    const unsigned char *salt, int salt_len,
+                    const unsigned char *ikm, int ikm_len,
+                    const unsigned char *info, int info_len,
+                    uint8_t okm[ ], int okm_len)
+              This combined interface performs both HKDF extraction and
+              expansion.  The variables are the same as in hkdfExtract()
+              and hkdfExpand().
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

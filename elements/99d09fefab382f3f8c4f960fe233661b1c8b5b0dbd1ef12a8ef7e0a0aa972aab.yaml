@@ -1,0 +1,17 @@
+"hash": |-
+  99d09fefab382f3f8c4f960fe233661b1c8b5b0dbd1ef12a8ef7e0a0aa972aab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Streams are identified by an unsigned 31-bit integer.  Streams
+     initiated by a client MUST use odd-numbered stream identifiers; those
+     initiated by the server MUST use even-numbered stream identifiers.  A
+     stream identifier of zero (0x00) is used for connection control
+     messages; the stream identifier of zero cannot be used to establish a
+     new stream.
+"fixed": |-
+  Streams are identified by an unsigned 31-bit integer.  Streams initiated by a client MUST use odd-numbered stream identifiers; those initiated by the server MUST use even-numbered stream identifiers.  A stream identifier of zero (0x00) is used for connection control messages; the stream identifier of zero cannot be used to establish a new stream.
+"ko": |-
+  스트림은 부호 없는 31비트 정수로 식별됩니다. 클라이언트가 시작한 스트림은 홀수 스트림 식별자를 사용해야 합니다. 서버에 의해 시작된 것은 짝수 스트림 식별자를 사용해야 합니다. 연결 제어 메시지에는 스트림 식별자 0(0x00)이 사용됩니다. 스트림 식별자 0은 새 스트림을 설정하는 데 사용할 수 없습니다.

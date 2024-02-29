@@ -1,0 +1,20 @@
+"hash": |-
+  416e3afdbe8f84c1bec35e7427c667a6c95cfd978e1b850b360fbb2debc72426
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the host on which a SIP proxy server is operating is routable
+     from the public Internet, it SHOULD be deployed in an administrative
+     domain with defensive operational policies (blocking source-routed
+     traffic, preferably filtering ping traffic).  Both TLS and IPSec can
+     also make use of bastion hosts at the edges of administrative domains
+     that participate in the security associations to aggregate secure
+     tunnels and sockets.  These bastion hosts can also take the brunt of
+     denial-of-service attacks, ensuring that SIP hosts within the
+     administrative domain are not encumbered with superfluous messaging.
+"fixed": |-
+  When the host on which a SIP proxy server is operating is routable from the public Internet, it SHOULD be deployed in an administrative domain with defensive operational policies (blocking source-routed traffic, preferably filtering ping traffic).  Both TLS and IPSec can also make use of bastion hosts at the edges of administrative domains that participate in the security associations to aggregate secure tunnels and sockets.  These bastion hosts can also take the brunt of denial-of-service attacks, ensuring that SIP hosts within the administrative domain are not encumbered with superfluous messaging.
+"ko": |-
+  SIP 프록시 서버가 작동하는 호스트가 공용 인터넷에서 라우팅 가능한 경우 방어적인 운영 정책(소스 라우팅 트래픽 차단, 바람직하게는 핑 트래픽 필터링)을 사용하여 관리 도메인에 배포해야 합니다. TLS와 IPSec 모두 보안 터널과 소켓을 집계하기 위해 보안 연결에 참여하는 관리 도메인의 가장자리에 있는 배스천 호스트를 사용할 수도 있습니다. 또한 이러한 요새 호스트는 서비스 거부 공격을 정면으로 받아 관리 도메인 내의 SIP 호스트가 불필요한 메시징으로 방해받지 않도록 할 수 있습니다.

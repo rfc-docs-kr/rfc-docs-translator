@@ -1,0 +1,20 @@
+"hash": |-
+  6ea3cdc53977a309c2934284f83dbabec5585a3d34c1d26ecc3b7f7fa1d172d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This is not a complicated procedure, but requires careful planning
+     and configuration.  For robustness, the edge network may choose to
+     connect to each of its ISPs through two or more different Points of
+     Presence (POPs), so that if one POP or line experiences an outage,
+     another link to the same ISP can be used.  Alternatively, a set of
+     tunnels could be configured instead of multiple connections to the
+     same ISP [4][5].  This way the edge routers are configured to first
+     inspect the source address of a packet destined to an ISP and shunt
+     it into the appropriate tunnel or interface toward the ISP.
+"fixed": |-
+  This is not a complicated procedure, but requires careful planning and configuration.  For robustness, the edge network may choose to connect to each of its ISPs through two or more different Points of Presence (POPs), so that if one POP or line experiences an outage, another link to the same ISP can be used.  Alternatively, a set of tunnels could be configured instead of multiple connections to the same ISP [4][5].  This way the edge routers are configured to first inspect the source address of a packet destined to an ISP and shunt it into the appropriate tunnel or interface toward the ISP.
+"ko": |-
+  이는 복잡한 절차는 아니지만 신중한 계획과 구성이 필요합니다. 견고성을 위해 에지 네트워크는 두 개 이상의 서로 다른 POP(Points of Presence)를 통해 각 ISP에 연결하도록 선택할 수 있습니다. 따라서 하나의 POP 또는 회선이 중단되는 경우 동일한 ISP에 대한 다른 링크를 사용할 수 있습니다. 또는 동일한 ISP에 대한 여러 연결 대신 터널 세트를 구성할 수 있습니다[4][5]. 이러한 방식으로 에지 라우터는 먼저 ISP로 향하는 패킷의 소스 주소를 검사하고 이를 ISP를 향한 적절한 터널이나 인터페이스로 전환하도록 구성됩니다.

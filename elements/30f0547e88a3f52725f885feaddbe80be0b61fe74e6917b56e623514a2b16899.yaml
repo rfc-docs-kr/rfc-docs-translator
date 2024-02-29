@@ -1,0 +1,23 @@
+"hash": |-
+  30f0547e88a3f52725f885feaddbe80be0b61fe74e6917b56e623514a2b16899
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Each party in the AAA key management protocol MUST be
+        authenticated to the other parties with whom they communicate.
+        Authentication mechanisms MUST maintain the confidentiality of any
+        secret values used in the authentication process.  When a secure
+        association protocol is used to establish session keys, the
+        parties involved in the secure association protocol MUST identify
+        themselves using identities that are meaningful in the lower-layer
+        protocol environment that will employ the session keys.  In this
+        situation, the authenticator and peer may be known by different
+        identifiers in the AAA protocol environment and the lower-layer
+        protocol environment, making authorization decisions difficult
+        without a clear key scope.  If the lower-layer identifier of the
+"fixed": |-
+  - Each party in the AAA key management protocol MUST be authenticated to the other parties with whom they communicate. Authentication mechanisms MUST maintain the confidentiality of any secret values used in the authentication process.  When a secure association protocol is used to establish session keys, the parties involved in the secure association protocol MUST identify themselves using identities that are meaningful in the lower-layer protocol environment that will employ the session keys.  In this situation, the authenticator and peer may be known by different identifiers in the AAA protocol environment and the lower-layer protocol environment, making authorization decisions difficult without a clear key scope.  If the lower-layer identifier of the
+"ko": |-
+  - AAA 키 관리 프로토콜의 각 당사자는 통신하는 다른 당사자에 대해 인증을 받아야 합니다. 인증 메커니즘은 인증 프로세스에 사용되는 모든 비밀 값의 기밀성을 유지해야 합니다. 보안 연결 프로토콜을 사용하여 세션 키를 설정하는 경우 보안 연결 프로토콜에 관련된 당사자는 세션 키를 사용할 하위 계층 프로토콜 환경에서 의미 있는 ID를 사용하여 자신을 식별해야 합니다. 이러한 상황에서는 인증자와 피어가 AAA 프로토콜 환경과 하위 계층 프로토콜 환경에서 서로 다른 식별자로 알려질 수 있으므로 명확한 키 범위가 없으면 권한 부여 결정이 어려워집니다. 하위 계층 식별자인 경우

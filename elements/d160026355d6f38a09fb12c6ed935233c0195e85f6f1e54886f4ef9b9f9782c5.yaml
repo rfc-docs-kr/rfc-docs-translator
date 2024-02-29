@@ -1,0 +1,15 @@
+"hash": |-
+  d160026355d6f38a09fb12c6ed935233c0195e85f6f1e54886f4ef9b9f9782c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The same request has arrived at the UAS more than once, following
+        different paths, most likely due to forking.  The UAS processes
+        the first such request received and responds with a 482 (Loop
+        Detected) to the rest of them.
+"fixed": |-
+  - The same request has arrived at the UAS more than once, following different paths, most likely due to forking.  The UAS processes the first such request received and responds with a 482 (Loop Detected) to the rest of them.
+"ko": |-
+  - 동일한 요청이 서로 다른 경로를 따라 두 번 이상 UAS에 도착했는데, 이는 분기로 인해 발생했을 가능성이 높습니다. UAS는 수신된 첫 번째 요청을 처리하고 나머지 요청에는 482(루프 감지)로 응답합니다.

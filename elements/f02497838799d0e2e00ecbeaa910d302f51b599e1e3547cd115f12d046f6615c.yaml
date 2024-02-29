@@ -1,0 +1,20 @@
+"hash": |-
+  f02497838799d0e2e00ecbeaa910d302f51b599e1e3547cd115f12d046f6615c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Since a proxy may not insert a tag into the To header field of
+           a 1xx response to a request that did not contain one, it cannot
+           issue non-100 provisional responses on its own.  However, it
+           can branch the request to a UAS sharing the same element as the
+           proxy.  This UAS can return its own provisional responses,
+           entering into an early dialog with the initiator of the
+           request.  The UAS does not have to be a discreet process from
+           the proxy.  It could be a virtual UAS implemented in the same
+           code space as the proxy.
+"fixed": |-
+  - Since a proxy may not insert a tag into the To header field of a 1xx response to a request that did not contain one, it cannot issue non-100 provisional responses on its own.  However, it can branch the request to a UAS sharing the same element as the proxy.  This UAS can return its own provisional responses, entering into an early dialog with the initiator of the request.  The UAS does not have to be a discreet process from the proxy.  It could be a virtual UAS implemented in the same code space as the proxy.
+"ko": |-
+  - 프록시는 태그가 포함되지 않은 요청에 대한 1xx 응답의 To 헤더 필드에 태그를 삽입할 수 없으므로 자체적으로 100이 아닌 임시 응답을 발행할 수 없습니다. 그러나 요청을 프록시와 동일한 요소를 공유하는 UAS로 분기할 수 있습니다. 이 UAS는 요청 개시자와 초기 대화를 시작하여 자체 임시 응답을 반환할 수 있습니다. UAS는 프록시의 신중한 프로세스일 필요는 없습니다. 이는 프록시와 동일한 코드 공간에 구현된 가상 UAS일 수 있습니다.

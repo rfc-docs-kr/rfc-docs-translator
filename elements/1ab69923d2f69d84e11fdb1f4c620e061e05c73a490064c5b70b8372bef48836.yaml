@@ -1,0 +1,33 @@
+"hash": |-
+  1ab69923d2f69d84e11fdb1f4c620e061e05c73a490064c5b70b8372bef48836
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All of the above techniques are variants of cookies, otherwise
+     meaningless data whose value is used to validate the packet.  In the
+     case of MD5 checksums, the cookie is computed based on a shared
+     secret.  Note that even a signature can be guessed, and presents a 1
+     in 2^(signature length) probability of attack.  The primary
+     difference is that MD5 signatures are effectively one-time cookies,
+     not predictable based on on-path snooping, because they are dependent
+     on packet data and thus do not repeat.  Window attenuation sequence
+     numbers can be guessed by snooping the sequence number of current
+     packets of an existing connection, and timestamps can be guessed even
+     less directly, either by separate benign connections or by assuming
+     they roughly correlate to local time.  These variants of cookies are
+     similar in spirit to TCP SYN cookies, again patching a vulnerability
+     to off-path third-party spoofing attacks based on a (fairly weak,
+     excepting MD5) form of authentication.  Another form of cookie is the
+     source port itself, which can be randomized but provides only 16 bits
+     of protection (65,000 combinations), which may be exhaustively
+     attacked.  This can be combined with destination port randomization
+     as well, but that would require a separate coordination mechanism (so
+     both parties know which ports to use), which is equivalent to (and as
+     infeasible for large-scale deployments as) exchanging a shared secret
+     [39].
+"fixed": |-
+  All of the above techniques are variants of cookies, otherwise meaningless data whose value is used to validate the packet.  In the case of MD5 checksums, the cookie is computed based on a shared secret.  Note that even a signature can be guessed, and presents a 1 in 2^(signature length) probability of attack.  The primary difference is that MD5 signatures are effectively one-time cookies, not predictable based on on-path snooping, because they are dependent on packet data and thus do not repeat.  Window attenuation sequence numbers can be guessed by snooping the sequence number of current packets of an existing connection, and timestamps can be guessed even less directly, either by separate benign connections or by assuming they roughly correlate to local time.  These variants of cookies are similar in spirit to TCP SYN cookies, again patching a vulnerability to off-path third-party spoofing attacks based on a (fairly weak, excepting MD5) form of authentication.  Another form of cookie is the source port itself, which can be randomized but provides only 16 bits of protection (65,000 combinations), which may be exhaustively attacked.  This can be combined with destination port randomization as well, but that would require a separate coordination mechanism (so both parties know which ports to use), which is equivalent to (and as infeasible for large-scale deployments as) exchanging a shared secret [39].
+"ko": |-
+  위의 모든 기술은 쿠키의 변형입니다. 그렇지 않으면 패킷의 유효성을 검사하는 데 값이 사용되는 의미 없는 데이터입니다. MD5 체크섬의 경우 쿠키는 공유 비밀을 기반으로 계산됩니다. 서명조차도 추측할 수 있으며 공격 가능성은 2^(서명 길이)에 1입니다. 주요 차이점은 MD5 서명이 패킷 데이터에 의존하고 따라서 반복되지 않기 때문에 경로상의 스누핑을 기반으로 예측할 수 없는 사실상 일회성 쿠키라는 것입니다. 창 감쇠 시퀀스 번호는 기존 연결의 현재 패킷 시퀀스 번호를 스누핑하여 추측할 수 있으며, 타임스탬프는 별도의 양성 연결을 사용하거나 대략 현지 시간과 상관 관계가 있다고 가정하여 훨씬 덜 직접적으로 추측할 수 있습니다. 이러한 쿠키 변형은 정신적으로 TCP SYN 쿠키와 유사하며, (MD5를 제외하면 상당히 약한) 인증 형식을 기반으로 경로를 벗어난 제3자 스푸핑 공격에 대한 취약점을 다시 패치합니다. 또 다른 형태의 쿠키는 소스 포트 자체로, 무작위로 지정될 수 있지만 16비트의 보호(65,000개 조합)만 제공하므로 철저한 공격을 받을 수 있습니다. 이는 대상 포트 무작위화와도 결합될 수 있지만 별도의 조정 메커니즘이 필요하므로(양 당사자가 사용할 포트를 알 수 있도록) 이는 공유 비밀을 교환하는 것과 동일하며 대규모 배포에는 실행 불가능합니다. 39].

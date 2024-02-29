@@ -1,0 +1,18 @@
+"hash": |-
+  2ea3f60410bf66362eed05f13885ed2cc038eae3202ef85fb293f8d5b53d9090
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Proxy-Authorization header field value applies only to the proxy
+     whose realm is identified in the "realm" parameter (this proxy may
+     previously have demanded authentication using the Proxy-Authenticate
+     field).  When multiple proxies are used in a chain, a Proxy-
+     Authorization header field value MUST NOT be consumed by any proxy
+     whose realm does not match the "realm" parameter specified in that
+     value.
+"fixed": |-
+  A Proxy-Authorization header field value applies only to the proxy whose realm is identified in the "realm" parameter (this proxy may previously have demanded authentication using the Proxy-Authenticate field).  When multiple proxies are used in a chain, a Proxy- Authorization header field value MUST NOT be consumed by any proxy whose realm does not match the "realm" parameter specified in that value.
+"ko": |-
+  Proxy-Authorization 헤더 필드 값은 해당 영역이 "realm" 매개변수에서 식별되는 프록시에만 적용됩니다(이 프록시는 이전에 Proxy-Authenticate 필드를 사용하여 인증을 요구했을 수 있습니다). 여러 프록시가 체인에서 사용되는 경우 Proxy-Authorization 헤더 필드 값은 해당 값에 지정된 "영역" 매개변수와 영역이 일치하지 않는 프록시에서 사용되어서는 안 됩니다.

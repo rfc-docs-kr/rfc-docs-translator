@@ -1,0 +1,17 @@
+"hash": |-
+  12dadc3bf8d012b567001aa5f1f3a19e17eb482ee6ac2628af1b4f74a04b49a8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   */
+  int SHA256Result(SHA256Context *context,
+                   uint8_t Message_Digest[SHA256HashSize])
+  {
+    return SHA224_256ResultN(context, Message_Digest, SHA256HashSize);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

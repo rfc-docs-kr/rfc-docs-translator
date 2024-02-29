@@ -1,0 +1,18 @@
+"hash": |-
+  bfb22f7b875810a3924f685ab74471686401889ad2d863b227fb901b238fa851
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Stream identifiers cannot be reused.  Long-lived connections can
+     result in an endpoint exhausting the available range of stream
+     identifiers.  A client that is unable to establish a new stream
+     identifier can establish a new connection for new streams.  A server
+     that is unable to establish a new stream identifier can send a GOAWAY
+     frame so that the client is forced to open a new connection for new
+     streams.
+"fixed": |-
+  Stream identifiers cannot be reused.  Long-lived connections can result in an endpoint exhausting the available range of stream identifiers.  A client that is unable to establish a new stream identifier can establish a new connection for new streams.  A server that is unable to establish a new stream identifier can send a GOAWAY frame so that the client is forced to open a new connection for new streams.
+"ko": |-
+  스트림 식별자는 재사용할 수 없습니다. 수명이 긴 연결로 인해 엔드포인트에서 사용 가능한 스트림 식별자 범위가 소진될 수 있습니다. 새 스트림 식별자를 설정할 수 없는 클라이언트는 새 스트림에 대한 새 연결을 설정할 수 있습니다. 새로운 스트림 식별자를 설정할 수 없는 서버는 클라이언트가 새로운 스트림에 대해 새로운 연결을 열도록 강제로 GOAWAY 프레임을 보낼 수 있습니다.

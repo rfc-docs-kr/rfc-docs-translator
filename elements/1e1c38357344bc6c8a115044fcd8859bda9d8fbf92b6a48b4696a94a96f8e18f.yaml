@@ -1,0 +1,18 @@
+"hash": |-
+  1e1c38357344bc6c8a115044fcd8859bda9d8fbf92b6a48b4696a94a96f8e18f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o  If a UAC has no certificate on its keyring associated with the
+           address-of-record to which it wants to send a request, it
+           cannot send an encrypted "application/pkcs7-mime" MIME message.
+           UACs MAY send an initial request such as an OPTIONS message
+           with a CMS detached signature in order to solicit the
+           certificate of the remote side (the signature SHOULD be over a
+           "message/sip" body of the type described in Section 23.4).
+"fixed": |-
+  -  If a UAC has no certificate on its keyring associated with the address-of-record to which it wants to send a request, it cannot send an encrypted "application/pkcs7-mime" MIME message. UACs MAY send an initial request such as an OPTIONS message with a CMS detached signature in order to solicit the certificate of the remote side (the signature SHOULD be over a "message/sip" body of the type described in Section 23.4).
+"ko": |-
+  - UAC가 요청을 보내려는 레코드 주소와 연결된 키링에 인증서가 없으면 암호화된 "application/pkcs7-mime" MIME 메시지를 보낼 수 없습니다. UAC는 원격 측의 인증서를 요청하기 위해 CMS 분리 서명이 있는 OPTIONS 메시지와 같은 초기 요청을 보낼 수 있습니다(서명은 섹션 23.4에 설명된 유형의 "메시지/sip" 본문 위에 있어야 합니다).

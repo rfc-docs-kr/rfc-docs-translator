@@ -1,0 +1,15 @@
+"hash": |-
+  bba1badafcab21b7b8038f965930fe5e7cdb91d1ab81933fd879efa880f9e31a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the END_HEADERS flag is not set, this frame MUST be followed by
+        another CONTINUATION frame.  A receiver MUST treat the receipt of
+        any other type of frame or a frame on a different stream as a
+        connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"fixed": |-
+  - If the END_HEADERS flag is not set, this frame MUST be followed by another CONTINUATION frame.  A receiver MUST treat the receipt of any other type of frame or a frame on a different stream as a connection error (Section 5.4.1) of type PROTOCOL_ERROR.
+"ko": |-
+  - END_HEADERS 플래그가 설정되지 않은 경우 이 프레임 뒤에는 다른 CONTINUATION 프레임이 와야 합니다. 수신기는 다른 유형의 프레임 또는 다른 스트림의 프레임 수신을 PROTOCOL_ERROR 유형의 연결 오류(5.4.1절)로 처리해야 합니다.

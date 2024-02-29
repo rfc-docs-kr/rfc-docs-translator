@@ -1,0 +1,21 @@
+"hash": |-
+  5dca85ab04fa85f688680e15eb970ea52f9cb9c379815e56b9a86142ccc86cc4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A PUSH_PROMISE frame modifies the connection state in two ways.
+     First, the inclusion of a field block (Section 4.3) potentially
+     modifies the state maintained for field section compression.  Second,
+     PUSH_PROMISE also reserves a stream for later use, causing the
+     promised stream to enter the "reserved (local)" or "reserved
+     (remote)" state.  A sender MUST NOT send a PUSH_PROMISE on a stream
+     unless that stream is either "open" or "half-closed (remote)"; the
+     sender MUST ensure that the promised stream is a valid choice for a
+     new stream identifier (Section 5.1.1) (that is, the promised stream
+     MUST be in the "idle" state).
+"fixed": |-
+  A PUSH_PROMISE frame modifies the connection state in two ways. First, the inclusion of a field block (Section 4.3) potentially modifies the state maintained for field section compression.  Second, PUSH_PROMISE also reserves a stream for later use, causing the promised stream to enter the "reserved (local)" or "reserved (remote)" state.  A sender MUST NOT send a PUSH_PROMISE on a stream unless that stream is either "open" or "half-closed (remote)"; the sender MUST ensure that the promised stream is a valid choice for a new stream identifier (Section 5.1.1) (that is, the promised stream MUST be in the "idle" state).
+"ko": |-
+  PUSH_PROMISE 프레임은 두 가지 방법으로 연결 상태를 수정합니다. 첫째, 필드 블록(섹션 4.3)을 포함하면 필드 섹션 압축을 위해 유지되는 상태가 잠재적으로 수정됩니다. 둘째, PUSH_PROMISE는 나중에 사용하기 위해 스트림을 예약하여 약속된 스트림이 "예약됨(로컬)" 또는 "예약됨(원격)" 상태가 되도록 합니다. 송신자는 해당 스트림이 "개방형" 또는 "반 폐쇄형(원격)"이 아닌 한 스트림에서 PUSH_PROMISE를 전송해서는 안 됩니다. 발신자는 약속된 스트림이 새로운 스트림 식별자에 대한 유효한 선택인지 확인해야 합니다(5.1.1절). 즉, 약속된 스트림은 "유휴" 상태에 있어야 합니다.

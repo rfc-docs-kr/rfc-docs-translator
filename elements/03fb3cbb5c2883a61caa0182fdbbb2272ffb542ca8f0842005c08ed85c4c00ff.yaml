@@ -1,0 +1,17 @@
+"hash": |-
+  03fb3cbb5c2883a61caa0182fdbbb2272ffb542ca8f0842005c08ed85c4c00ff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        While preserving algorithm independence, session keys MUST be
+        strong and fresh.  Each session deserves an independent session
+        key.  Fresh keys are required even when a long replay counter
+        (that is, one that "will never wrap") is used to ensure that loss
+        of state does not cause the same counter value to be used more
+        than once with the same session key.
+"fixed": |-
+  - While preserving algorithm independence, session keys MUST be strong and fresh.  Each session deserves an independent session key.  Fresh keys are required even when a long replay counter (that is, one that "will never wrap") is used to ensure that loss of state does not cause the same counter value to be used more than once with the same session key.
+"ko": |-
+  - 알고리즘 독립성을 유지하면서 세션 키는 강력하고 신선해야 합니다. 각 세션에는 독립적인 세션 키가 필요합니다. 상태 손실로 인해 동일한 카운터 값이 동일한 세션 키에 두 번 이상 사용되지 않도록 하기 위해 긴 재생 카운터(즉, "랩핑되지 않는" 카운터)를 사용하는 경우에도 새로운 키가 필요합니다.

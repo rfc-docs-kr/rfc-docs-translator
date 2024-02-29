@@ -1,0 +1,18 @@
+"hash": |-
+  5cc89a4c1df0c7ea69c6ad32d7cee51d5d347f6c551ac66fd17dc61e7a30328d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For a response only, a server MAY send any number of interim
+     responses before the HEADERS frame containing a final response.  An
+     interim response consists of a HEADERS frame (which might be followed
+     by zero or more CONTINUATION frames) containing the control data and
+     header section of an interim (1xx) HTTP response (see Section 15 of
+     [HTTP]).  A HEADERS frame with the END_STREAM flag set that carries
+     an informational status code is malformed (Section 8.1.1).
+"fixed": |-
+  For a response only, a server MAY send any number of interim responses before the HEADERS frame containing a final response.  An interim response consists of a HEADERS frame (which might be followed by zero or more CONTINUATION frames) containing the control data and header section of an interim (1xx) HTTP response (see Section 15 of [HTTP]).  A HEADERS frame with the END_STREAM flag set that carries an informational status code is malformed (Section 8.1.1).
+"ko": |-
+  응답에 대해서만 서버는 최종 응답을 포함하는 HEADERS 프레임 전에 임시 응답을 얼마든지 보낼 수 있습니다. 임시 응답은 제어 데이터와 임시(1xx) HTTP 응답의 헤더 섹션을 포함하는 HEADERS 프레임(0개 이상의 CONTINUATION 프레임이 뒤따를 수 있음)으로 구성됩니다([HTTP]의 섹션 15 참조). 정보 상태 코드를 전달하는 END_STREAM 플래그가 설정된 HEADERS 프레임의 형식이 잘못되었습니다(8.1.1절).

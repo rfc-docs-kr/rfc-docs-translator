@@ -1,0 +1,18 @@
+"hash": |-
+  f61c4c9a2ec4e8b6ec2e4a0755199213a0bb31bba35b42665fcad96e80b01d68
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           have to forward the 2xx.  The result was that the UAC could
+           receive a 6xx response followed by a 2xx response, which should
+           never be allowed to happen.  Under the new rules, upon
+           receiving a 6xx, a proxy will issue a CANCEL request, which
+           will generally result in 487 responses from all outstanding
+           client transactions, and then at that point the 6xx is
+           forwarded upstream.
+"fixed": |-
+  - have to forward the 2xx.  The result was that the UAC could receive a 6xx response followed by a 2xx response, which should never be allowed to happen.  Under the new rules, upon receiving a 6xx, a proxy will issue a CANCEL request, which will generally result in 487 responses from all outstanding client transactions, and then at that point the 6xx is forwarded upstream.
+"ko": |-
+  - 2xx를 전달해야 합니다. 결과적으로 UAC는 6xx 응답을 수신한 후 2xx 응답을 수신할 수 있었는데, 이는 결코 허용되어서는 안 됩니다. 새로운 규칙에 따라 6xx를 수신하면 프록시는 CANCEL 요청을 발행합니다. 이 요청은 일반적으로 모든 미해결 클라이언트 트랜잭션에서 487 응답을 가져온 다음 해당 시점에서 6xx가 업스트림으로 전달됩니다.

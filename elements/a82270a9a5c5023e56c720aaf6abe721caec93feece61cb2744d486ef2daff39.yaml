@@ -1,0 +1,53 @@
+"hash": |-
+  a82270a9a5c5023e56c720aaf6abe721caec93feece61cb2744d486ef2daff39
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * USHAFinalBits
+   *
+   * Description:
+   *   This function will add in any final bits of the message.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The SHA context to update.
+   *   message_bits: [in]
+   *     The final bits of the message, in the upper portion of the
+   *     byte.  (Use 0b###00000 instead of 0b00000### to input the
+   *     three bits ###.)
+   *   length: [in]
+   *     The number of bits in message_bits, between 1 and 7.
+   *
+   * Returns:
+   *   sha Error Code.
+   */
+  int USHAFinalBits(USHAContext *context,
+                    uint8_t bits, unsigned int bit_count)
+  {
+    if (!context) return shaNull;
+    switch (context->whichSha) {
+      case SHA1:
+        return SHA1FinalBits((SHA1Context*)&context->ctx, bits,
+                             bit_count);
+      case SHA224:
+        return SHA224FinalBits((SHA224Context*)&context->ctx, bits,
+            bit_count);
+      case SHA256:
+        return SHA256FinalBits((SHA256Context*)&context->ctx, bits,
+            bit_count);
+      case SHA384:
+        return SHA384FinalBits((SHA384Context*)&context->ctx, bits,
+            bit_count);
+      case SHA512:
+        return SHA512FinalBits((SHA512Context*)&context->ctx, bits,
+            bit_count);
+      default: return shaBadParam;
+    }
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

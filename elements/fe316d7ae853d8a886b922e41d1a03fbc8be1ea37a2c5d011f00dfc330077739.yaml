@@ -1,0 +1,27 @@
+"hash": |-
+  fe316d7ae853d8a886b922e41d1a03fbc8be1ea37a2c5d011f00dfc330077739
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     --
+     -- Representation of RSA private key with information for the CRT
+     -- algorithm.
+     --
+     RSAPrivateKey ::= SEQUENCE {
+         version           Version,
+         modulus           INTEGER,  -- n
+         publicExponent    INTEGER,  -- e
+         privateExponent   INTEGER,  -- d
+         prime1            INTEGER,  -- p
+         prime2            INTEGER,  -- q
+         exponent1         INTEGER,  -- d mod (p-1)
+         exponent2         INTEGER,  -- d mod (q-1)
+         coefficient       INTEGER,  -- (inverse of q) mod p
+         otherPrimeInfos   OtherPrimeInfos OPTIONAL
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

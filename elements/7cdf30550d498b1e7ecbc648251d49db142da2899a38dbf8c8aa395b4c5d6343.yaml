@@ -1,0 +1,51 @@
+"hash": |-
+  7cdf30550d498b1e7ecbc648251d49db142da2899a38dbf8c8aa395b4c5d6343
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                    |Request received
+                                    |pass to TU
+                                    V
+                              +-----------+
+                              |           |
+                              | Trying    |-------------+
+                              |           |             |
+                              +-----------+             |200-699 from TU
+                                    |                   |send response
+                                    |1xx from TU        |
+                                    |send response      |
+                                    |                   |
+                 Request            V      1xx from TU  |
+                 send response+-----------+send response|
+                     +--------|           |--------+    |
+                     |        | Proceeding|        |    |
+                     +------->|           |<-------+    |
+              +<--------------|           |             |
+              |Trnsprt Err    +-----------+             |
+              |Inform TU            |                   |
+              |                     |                   |
+              |                     |200-699 from TU    |
+              |                     |send response      |
+              |  Request            V                   |
+              |  send response+-----------+             |
+              |      +--------|           |             |
+              |      |        | Completed |<------------+
+              |      +------->|           |
+              +<--------------|           |
+              |Trnsprt Err    +-----------+
+              |Inform TU            |
+              |                     |Timer J fires
+              |                     |-
+              |                     |
+              |                     V
+              |               +-----------+
+              |               |           |
+              +-------------->| Terminated|
+                              |           |
+                              +-----------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

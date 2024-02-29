@@ -1,0 +1,19 @@
+"hash": |-
+  61fd5bd6690b2ffa72f96149cdd67f6712cd5f12204f52b0043f5565670c9c6d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations MUST support ephemeral key exchange sizes of at least
+     2048 bits for cipher suites that use ephemeral finite field Diffie-
+     Hellman (DHE) (Section 8.1.2 of [TLS12]) and 224 bits for cipher
+     suites that use ephemeral elliptic curve Diffie-Hellman (ECDHE)
+     [RFC8422].  Clients MUST accept DHE sizes of up to 4096 bits.
+     Endpoints MAY treat negotiation of key sizes smaller than the lower
+     limits as a connection error (Section 5.4.1) of type
+     INADEQUATE_SECURITY.
+"fixed": |-
+  Implementations MUST support ephemeral key exchange sizes of at least 2048 bits for cipher suites that use ephemeral finite field Diffie- Hellman (DHE) (Section 8.1.2 of [TLS12]) and 224 bits for cipher suites that use ephemeral elliptic curve Diffie-Hellman (ECDHE) [RFC8422].  Clients MUST accept DHE sizes of up to 4096 bits. Endpoints MAY treat negotiation of key sizes smaller than the lower limits as a connection error (Section 5.4.1) of type INADEQUATE_SECURITY.
+"ko": |-
+  구현은 임시 유한 필드 DHE(Diffie-Hellman)([TLS12]의 섹션 8.1.2)를 사용하는 암호화 제품군에 대해 최소 2048비트의 임시 키 교환 크기를 지원해야 하며, 임시 타원 곡선 Diffie-Hellman을 사용하는 암호화 제품군에 대해 224비트를 지원해야 합니다. (ECDHE) [RFC8422]. 클라이언트는 최대 4096비트의 DHE 크기를 허용해야 합니다. 엔드포인트는 하한보다 작은 키 크기 협상을 INADEQUATE_SECURITY 유형의 연결 오류(섹션 5.4.1)로 처리할 수 있습니다.

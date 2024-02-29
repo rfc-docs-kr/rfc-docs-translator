@@ -1,0 +1,36 @@
+"hash": |-
+  bbe61629d5f4f4d54196d3fd686c5bf8cd0cb885cb90db77f499c0af4f6b3098
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+   *   This function accepts an array of octets as the next portion
+   *   of the message.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The SHA context to update.
+   *   message_array[ ]: [in]
+   *     An array of octets representing the next portion of
+   *     the message.
+   *   length: [in]
+   *     The length of the message in message_array.
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  int SHA512Input(SHA512Context *context,
+          const uint8_t *message_array,
+          unsigned int length)
+  {
+    if (!context) return shaNull;
+    if (!length) return shaSuccess;
+    if (!message_array) return shaNull;
+    if (context->Computed) return context->Corrupted = shaStateError;
+    if (context->Corrupted) return context->Corrupted;
+"fixed": |-
+  *   This function accepts an array of octets as the next portion *   of the message. * * Parameters: *   context: [in/out] *     The SHA context to update. *   message_array[ ]: [in] *     An array of octets representing the next portion of *     the message. *   length: [in] *     The length of the message in message_array. * * Returns: *   sha Error Code. * */ int SHA512Input(SHA512Context *context, const uint8_t *message_array, unsigned int length) { if (!context) return shaNull; if (!length) return shaSuccess; if (!message_array) return shaNull; if (context->Computed) return context->Corrupted = shaStateError; if (context->Corrupted) return context->Corrupted;
+"ko": |-
+  * 이 함수는 메시지의 다음 부분으로 옥텟 배열을 받아들입니다. * * 매개변수: * context: [in/out] * 업데이트할 SHA 컨텍스트입니다. * message_array[ ]: [in] * 메시지의 다음 부분을 나타내는 옥텟 배열. * length: [in] * message_array의 메시지 길이입니다. * * 반환: * sha 오류 코드. * */ int SHA512Input(SHA512Context *context, const uint8_t *message_array, unsigned int length) { if (!context) return shaNull; if (!length) shaSuccess를 반환합니다. if (!message_array) shaNull을 반환합니다. if (컨텍스트->계산됨) return context->Corrupted = shaStateError; if (컨텍스트->손상) return context->손상;

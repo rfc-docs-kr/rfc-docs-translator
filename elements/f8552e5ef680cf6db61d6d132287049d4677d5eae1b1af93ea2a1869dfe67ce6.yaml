@@ -1,0 +1,17 @@
+"hash": |-
+  f8552e5ef680cf6db61d6d132287049d4677d5eae1b1af93ea2a1869dfe67ce6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Where EAP keying material is used only for entity authentication but
+     not for TSK derivation (as in IKEv2), compromise of exported EAP
+     keying material does not imply compromise of the TSKs.  Nevertheless,
+     the compromise of EAP keying material could enable an attacker to
+     impersonate an authenticator, so that EAP re-authentication and TSK
+     re-key are RECOMMENDED.
+"fixed": |-
+  Where EAP keying material is used only for entity authentication but not for TSK derivation (as in IKEv2), compromise of exported EAP keying material does not imply compromise of the TSKs.  Nevertheless, the compromise of EAP keying material could enable an attacker to impersonate an authenticator, so that EAP re-authentication and TSK re-key are RECOMMENDED.
+"ko": |-
+  EAP 키 자료가 엔터티 인증에만 사용되고 TSK 파생(IKEv2에서와 같이)에는 사용되지 않는 경우 내보낸 EAP 키 자료의 손상이 TSK의 손상을 의미하지 않습니다. 그럼에도 불구하고 EAP 키 자료가 손상되면 공격자가 인증자를 가장할 수 있으므로 EAP 재인증 및 TSK 키 재입력을 권장합니다.

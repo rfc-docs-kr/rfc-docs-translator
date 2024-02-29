@@ -1,0 +1,17 @@
+"hash": |-
+  0e1a4bbc2acee99fdb6b0406bdf8887c1b47c35e71abfd645123a94d1e2857cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Any change to the maximum value set using SETTINGS_HEADER_TABLE_SIZE
+     takes effect when the endpoint acknowledges settings (Section 6.5.3).
+     The HPACK encoder at that endpoint can set the dynamic table to any
+     size up to the maximum value set by the decoder.  An HPACK encoder
+     declares the size of the dynamic table with a Dynamic Table Size
+     Update instruction (Section 6.3 of [COMPRESSION]).
+"fixed": |-
+  Any change to the maximum value set using SETTINGS_HEADER_TABLE_SIZE takes effect when the endpoint acknowledges settings (Section 6.5.3). The HPACK encoder at that endpoint can set the dynamic table to any size up to the maximum value set by the decoder.  An HPACK encoder declares the size of the dynamic table with a Dynamic Table Size Update instruction (Section 6.3 of [COMPRESSION]).
+"ko": |-
+  SETTINGS_HEADER_TABLE_SIZE를 사용하여 설정된 최대값에 대한 변경 사항은 엔드포인트가 설정을 승인할 때 적용됩니다(섹션 6.5.3). 해당 끝점의 HPACK 인코더는 디코더에서 설정한 최대값까지 임의의 크기로 동적 테이블을 설정할 수 있습니다. HPACK 인코더는 동적 테이블 크기 업데이트 명령([COMPRESSION]의 섹션 6.3)을 사용하여 동적 테이블의 크기를 선언합니다.

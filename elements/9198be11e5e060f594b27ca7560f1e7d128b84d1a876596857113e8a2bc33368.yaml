@@ -1,0 +1,23 @@
+"hash": |-
+  9198be11e5e060f594b27ca7560f1e7d128b84d1a876596857113e8a2bc33368
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (numberExtrabits > 0) {
+      err = info ? hkdfFinalBits(&hkdf, extrabits, numberExtrabits) :
+            keyarray ? hmacFinalBits(&hmac, (uint8_t) extrabits,
+                                     numberExtrabits) :
+                       USHAFinalBits(&sha, (uint8_t) extrabits,
+                                     numberExtrabits);
+      if (err != shaSuccess) {
+        fprintf(stderr, "hash(): %sFinalBits Error %d.\n",
+                info ? "hkdf" : keyarray ? "hmac" : "sha", err);
+        return err;
+      }
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

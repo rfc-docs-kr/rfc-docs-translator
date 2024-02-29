@@ -1,0 +1,48 @@
+"hash": |-
+  5384e98cb02c1821835dc7c500e3bf8c0902336704a6e984d9d7012e0b7c26fd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   *          to a string of HashLen(whichSha) zeros.
+   *      salt_len: [in]
+   *          The length of the salt value.  (Ignored if salt == NULL.)
+   *      ikm[ ]: [in]
+   *          Input keying material.
+   *      ikm_len: [in]
+   *          The length of the input keying material.
+   *      info[ ]: [in]
+   *          The optional context and application specific information.
+   *          If info == NULL or a zero-length string, it is ignored.
+   *      info_len: [in]
+   *          The length of the optional context and application specific
+   *          information.  (Ignored if info == NULL.)
+   *      okm[ ]: [out]
+   *          Where the HKDF is to be stored.
+   *      okm_len: [in]
+   *          The length of the buffer to hold okm.
+   *          okm_len must be <= 255 * USHABlockSize(whichSha)
+   *
+   *  Notes:
+   *      Calls hkdfExtract() and hkdfExpand().
+   *
+   *  Returns:
+   *      sha Error Code.
+   *
+   */
+  int hkdf(SHAversion whichSha,
+      const unsigned char *salt, int salt_len,
+      const unsigned char *ikm, int ikm_len,
+      const unsigned char *info, int info_len,
+      uint8_t okm[ ], int okm_len)
+  {
+    uint8_t prk[USHAMaxHashSize];
+    return hkdfExtract(whichSha, salt, salt_len, ikm, ikm_len, prk) ||
+           hkdfExpand(whichSha, prk, USHAHashSize(whichSha), info,
+                      info_len, okm, okm_len);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

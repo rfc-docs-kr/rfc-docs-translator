@@ -1,0 +1,20 @@
+"hash": |-
+  65b01d1e982818a1ccfc7a2e7d47467aaa55883f0914802dcc3a0ceb7e9acff4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AAA conversation is between the EAP authenticator and the backend
+     authentication server.  From the point of view of the backend
+     authentication server, keying material and parameters are transported
+     to the EAP authenticator identified by the NAS-Identifier Attribute.
+     Since an EAP authenticator MUST NOT share EAP keying material or
+     parameters with another party, if the EAP peer or backend
+     authentication server detects use of EAP keying material and
+     parameters outside the scope defined by the NAS-Identifier, the
+     keying material MUST be considered compromised.
+"fixed": |-
+  The AAA conversation is between the EAP authenticator and the backend authentication server.  From the point of view of the backend authentication server, keying material and parameters are transported to the EAP authenticator identified by the NAS-Identifier Attribute. Since an EAP authenticator MUST NOT share EAP keying material or parameters with another party, if the EAP peer or backend authentication server detects use of EAP keying material and parameters outside the scope defined by the NAS-Identifier, the keying material MUST be considered compromised.
+"ko": |-
+  AAA 대화는 EAP 인증자와 백엔드 인증 서버 간에 이루어집니다. 백엔드 인증 서버의 관점에서 볼 때 키 입력 자료와 매개변수는 NAS 식별자 속성으로 식별되는 EAP 인증자로 전송됩니다. EAP 인증자는 EAP 키 자료 또는 매개변수를 다른 당사자와 공유하면 안 되기 때문에, EAP 피어 또는 백엔드 인증 서버가 NAS 식별자에 의해 정의된 범위를 벗어나는 EAP 키 자료 및 매개변수의 사용을 감지하는 경우 키 자료는 손상된 것으로 간주되어야 합니다.

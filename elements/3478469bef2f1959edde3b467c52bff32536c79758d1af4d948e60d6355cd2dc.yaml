@@ -1,0 +1,20 @@
+"hash": |-
+  3478469bef2f1959edde3b467c52bff32536c79758d1af4d948e60d6355cd2dc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is critical to understand the context in which Feasible RPF
+     operates.  The mechanism relies on consistent route advertisements
+     (i.e., the same prefix(es), through all the paths) propagating to all
+     the routers performing Feasible RPF checking.  For example, this may
+     not hold e.g., in the case where a secondary ISP does not propagate
+     the BGP advertisement to the primary ISP e.g., due to route-maps or
+     other routing policies not being up-to-date.  The failure modes are
+     typically similar to "operationally enhanced Strict RPF", as
+     described above.
+"fixed": |-
+  It is critical to understand the context in which Feasible RPF operates.  The mechanism relies on consistent route advertisements (i.e., the same prefix(es), through all the paths) propagating to all the routers performing Feasible RPF checking.  For example, this may not hold e.g., in the case where a secondary ISP does not propagate the BGP advertisement to the primary ISP e.g., due to route-maps or other routing policies not being up-to-date.  The failure modes are typically similar to "operationally enhanced Strict RPF", as described above.
+"ko": |-
+  Feasible RPF가 작동하는 맥락을 이해하는 것이 중요합니다. 메커니즘은 실행 가능한 RPF 검사를 수행하는 모든 라우터에 전파되는 일관된 경로 광고(즉, 모든 경로를 통해 동일한 접두사)에 의존합니다. 예를 들어, 경로 맵이나 기타 라우팅 정책이 최신이 아니기 때문에 보조 ISP가 기본 ISP에 BGP 광고를 전파하지 않는 경우에는 이것이 적용되지 않을 수 있습니다. 실패 모드는 위에서 설명한 대로 일반적으로 "운영상 향상된 Strict RPF"와 유사합니다.

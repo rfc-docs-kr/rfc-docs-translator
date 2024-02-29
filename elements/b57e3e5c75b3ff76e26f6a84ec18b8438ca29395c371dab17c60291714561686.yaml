@@ -1,0 +1,29 @@
+"hash": |-
+  b57e3e5c75b3ff76e26f6a84ec18b8438ca29395c371dab17c60291714561686
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (strIsHex) {
+      hashlen = unhexStr(hashstr);
+      unhexStr(randomseedstr);
+      hmaclen = unhexStr(hmacKey);
+      infolen = unhexStr(info);
+    }
+    testnohigh = (ntestnohigh != 0) ? ntestnohigh:
+                 runHmacTests ? (HMACTESTCOUNT-1) :
+                 runHkdfTests ? (HKDFTESTCOUNT-1) :
+                 (TESTCOUNT-1);
+    if ((testnolow < 0) ||
+        (testnohigh >= (runHmacTests ? HMACTESTCOUNT : TESTCOUNT)) ||
+        (hashnolow < 0) || (hashnohigh >= HASHCOUNT) ||
+        (hashstr && (testnolow == testnohigh)) ||
+        (randomcount < 0) ||
+        (resultstr && (!hashstr && !hashfilename && !hashFilename)) ||
+        ((runHmacTests || hmacKey) && randomseedstr) ||
+        (hashfilename && hashFilename) ||
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

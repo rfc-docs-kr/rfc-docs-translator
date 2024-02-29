@@ -1,0 +1,22 @@
+"hash": |-
+  1f4354d2a1eedf34afdc5580a69ff9e44efc717efef7fa3a9b824137e718d7e2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Just as spoofed TCP packets can terminate a connection, so too can
+     spoofed ICMP packets.  ICMP can be used to launch a variety of
+     attacks on TCP including connection resets, path-MTU attacks, and can
+     also be used to attack the host with non-TCP 'ping of death' and
+     'smurf attacks', etc. [40].  ICMP thus represents a substantial
+     threat to TCP, but this is not the focus of this document, although a
+     number of protections are discussed below because some are comparable
+     to TCP anti-spoofing techniques.  Note also that ICMP attacks on TCP
+     assume that the socket pair is known by the attacker, which is
+     unlikely except for a subset of services between pairs of widely-
+     known endpoints.
+"fixed": |-
+  Just as spoofed TCP packets can terminate a connection, so too can spoofed ICMP packets.  ICMP can be used to launch a variety of attacks on TCP including connection resets, path-MTU attacks, and can also be used to attack the host with non-TCP 'ping of death' and 'smurf attacks', etc. [40].  ICMP thus represents a substantial threat to TCP, but this is not the focus of this document, although a number of protections are discussed below because some are comparable to TCP anti-spoofing techniques.  Note also that ICMP attacks on TCP assume that the socket pair is known by the attacker, which is unlikely except for a subset of services between pairs of widely- known endpoints.
+"ko": |-
+  스푸핑된 TCP 패킷이 연결을 종료할 수 있는 것처럼 스푸핑된 ICMP 패킷도 연결을 종료할 수 있습니다. ICMP는 연결 재설정, 경로 MTU 공격 등 TCP에 대한 다양한 공격을 실행하는 데 사용될 수 있으며, 비 TCP '죽음의 핑' 및 '스머프 공격' 등으로 호스트를 공격하는 데에도 사용될 수 있습니다.[40] . 따라서 ICMP는 TCP에 대한 실질적인 위협을 나타내지만 이 문서의 초점은 아니지만 일부 보호는 TCP 스푸핑 방지 기술과 유사하기 때문에 아래에서 논의됩니다. 또한 TCP에 대한 ICMP 공격은 공격자가 소켓 쌍을 알고 있다고 가정하며 이는 널리 알려진 끝점 쌍 사이의 서비스 하위 집합을 제외하고는 거의 발생하지 않습니다.

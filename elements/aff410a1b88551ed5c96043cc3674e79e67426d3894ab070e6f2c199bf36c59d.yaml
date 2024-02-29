@@ -1,0 +1,25 @@
+"hash": |-
+  aff410a1b88551ed5c96043cc3674e79e67426d3894ab070e6f2c199bf36c59d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+   *   length: [in]
+   *     The length of the message in message_array.
+   *
+   * Returns:
+   *   sha Error Code.
+   */
+  int SHA256Input(SHA256Context *context, const uint8_t *message_array,
+      unsigned int length)
+  {
+    if (!context) return shaNull;
+    if (!length) return shaSuccess;
+    if (!message_array) return shaNull;
+    if (context->Computed) return context->Corrupted = shaStateError;
+    if (context->Corrupted) return context->Corrupted;
+"fixed": |-
+  *   length: [in] *     The length of the message in message_array. * * Returns: *   sha Error Code. */ int SHA256Input(SHA256Context *context, const uint8_t *message_array, unsigned int length) { if (!context) return shaNull; if (!length) return shaSuccess; if (!message_array) return shaNull; if (context->Computed) return context->Corrupted = shaStateError; if (context->Corrupted) return context->Corrupted;
+"ko": |-
+  * length: [in] * message_array의 메시지 길이입니다. * * 반환: * sha 오류 코드. */ int SHA256Input(SHA256Context *context, const uint8_t *message_array, unsigned int length) { if (!context) return shaNull; if (!length) shaSuccess를 반환합니다. if (!message_array) shaNull을 반환합니다. if (컨텍스트->계산됨) return context->Corrupted = shaStateError; if (컨텍스트->손상) return context->손상;

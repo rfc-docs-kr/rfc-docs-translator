@@ -1,0 +1,23 @@
+"hash": |-
+  8b8c75d88ea05f77ba1eb15f479f2cdb9a504df3b87b4ecb2c3cd5cccab89445
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Constants:
+        SHA$$$HashSize      number of octets in the hash
+        SHA$$$HashSizeBits  number of bits in the hash
+        SHA$$$_Message_Block_Size
+                            number of octets used in the intermediate
+                            message blocks
+        Most functions return an enum value that is one of:
+          shaSuccess(0)      on success
+          shaNull(1)         when presented with a null pointer parameter
+          shaInputTooLong(2)  when the input data is too long
+          shaStateError(3)   when SHA$$$Input is called after
+                            SHA$$$FinalBits or SHA$$$Result
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,25 @@
+"hash": |-
+  625a823c57b7606d04a3da04dc0610e1b5c0d46a0a8ed7d2f010b16f2da65d04
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (info) Message_Digest = malloc(okmlen);
+    memset(&sha, '\343', sizeof(sha)); /* force bad data into struct */
+    memset(&hmac, '\343', sizeof(hmac));
+    memset(&hkdf, '\343', sizeof(hkdf));
+    err = info ? hkdfReset(&hkdf, hashes[hashno].whichSha,
+                               keyarray, keylen) :
+          keyarray ? hmacReset(&hmac, hashes[hashno].whichSha,
+                               keyarray, keylen) :
+                     USHAReset(&sha, hashes[hashno].whichSha);
+    if (err != shaSuccess) {
+      fprintf(stderr, "hashfile(): %sReset Error %d.\n",
+              info ? "hkdf" : keyarray ? "hmac" : "sha", err);
+      return err;
+    }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

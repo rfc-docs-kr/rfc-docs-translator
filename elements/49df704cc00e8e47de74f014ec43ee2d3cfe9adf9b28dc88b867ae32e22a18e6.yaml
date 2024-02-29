@@ -1,0 +1,14 @@
+"hash": |-
+  49df704cc00e8e47de74f014ec43ee2d3cfe9adf9b28dc88b867ae32e22a18e6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    SHA384_512AddLength(context, length);
+    SHA384_512Finalize(context, (uint8_t)
+      ((message_bits & masks[length]) | markbit[length]));
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

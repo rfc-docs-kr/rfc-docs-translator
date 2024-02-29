@@ -1,0 +1,16 @@
+"hash": |-
+  f82301b81e44b9e57e0bf9d07ee6baf8eb93786da0a87ba2eb864acf3b057f70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The value for signature SHALL be computed on the hash of the DER
+     encoding of ResponseData.  The responder MAY include certificates in
+     the certs field of BasicOCSPResponse that help the OCSP client verify
+     the responder's signature.  If no certificates are included, then
+     certs SHOULD be absent.
+"fixed": |-
+  The value for signature SHALL be computed on the hash of the DER encoding of ResponseData.  The responder MAY include certificates in the certs field of BasicOCSPResponse that help the OCSP client verify the responder's signature.  If no certificates are included, then certs SHOULD be absent.
+"ko": |-
+  서명 값은 ResponseData의 DER 인코딩 해시에서 계산되어야 합니다. 응답자는 OCSP 클라이언트가 응답자의 서명을 확인하는 데 도움이 되는 BasicOCSPResponse의 certs 필드에 인증서를 포함할 수 있습니다. 인증서가 포함되어 있지 않으면 인증서가 없어야 합니다.

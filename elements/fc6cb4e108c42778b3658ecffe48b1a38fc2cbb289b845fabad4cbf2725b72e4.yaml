@@ -1,0 +1,21 @@
+"hash": |-
+  fc6cb4e108c42778b3658ecffe48b1a38fc2cbb289b845fabad4cbf2725b72e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Secure Association Protocol, described in Section 3.1, MUST
+     generate a fresh session key for each session, even if the EAP keying
+     material and parameters provided by methods are cached, or either the
+     peer or authenticator lack a high entropy random number generator.  A
+     RECOMMENDED method is for the peer and authenticator to each provide
+     a nonce or counter used in session key derivation.  If a nonce is
+     used, it is RECOMMENDED that it be at least 128 bits.  While
+     [IEEE-802.11] and IKEv2 [RFC4306] satisfy this requirement,
+     [IEEE-802.16e] does not, since randomness is only contributed from
+     the Base Station.
+"fixed": |-
+  The Secure Association Protocol, described in Section 3.1, MUST generate a fresh session key for each session, even if the EAP keying material and parameters provided by methods are cached, or either the peer or authenticator lack a high entropy random number generator.  A RECOMMENDED method is for the peer and authenticator to each provide a nonce or counter used in session key derivation.  If a nonce is used, it is RECOMMENDED that it be at least 128 bits.  While [IEEE-802.11] and IKEv2 [RFC4306] satisfy this requirement, [IEEE-802.16e] does not, since randomness is only contributed from the Base Station.
+"ko": |-
+  섹션 3.1에 설명된 보안 연결 프로토콜은 메서드에서 제공하는 EAP 키 자료 및 매개변수가 캐시되거나 피어 또는 인증자 중 하나에 높은 엔트로피 난수 생성기가 부족한 경우에도 각 세션에 대해 새로운 세션 키를 생성해야 합니다. 권장되는 방법은 피어와 인증자가 각각 세션 키 파생에 사용되는 nonce 또는 카운터를 제공하는 것입니다. nonce가 사용되는 경우 최소 128비트인 것이 좋습니다. [IEEE-802.11] 및 IKEv2 [RFC4306]는 이 요구 사항을 충족하지만 [IEEE-802.16e]는 무작위성이 기지국에서만 제공되므로 충족하지 않습니다.

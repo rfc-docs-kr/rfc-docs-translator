@@ -1,0 +1,19 @@
+"hash": |-
+  570fb54eb52413abf686a4987e62714e2975be75010b2d55bbf20d503728bf27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Making multiple concurrent requests can reduce latency and improve
+     application performance.  HTTP/1.0 allowed only one request to be
+     outstanding at a time on a given TCP [TCP] connection.  HTTP/1.1
+     [HTTP/1.1] added request pipelining, but this only partially
+     addressed request concurrency and still suffers from application-
+     layer head-of-line blocking.  Therefore, HTTP/1.0 and HTTP/1.1
+     clients use multiple connections to a server to make concurrent
+     requests.
+"fixed": |-
+  Making multiple concurrent requests can reduce latency and improve application performance.  HTTP/1.0 allowed only one request to be outstanding at a time on a given TCP [TCP] connection.  HTTP/1.1 [HTTP/1.1] added request pipelining, but this only partially addressed request concurrency and still suffers from application- layer head-of-line blocking.  Therefore, HTTP/1.0 and HTTP/1.1 clients use multiple connections to a server to make concurrent requests.
+"ko": |-
+  여러 동시 요청을 수행하면 대기 시간이 줄어들고 애플리케이션 성능이 향상될 수 있습니다. HTTP/1.0에서는 주어진 TCP [TCP] 연결에서 한 번에 하나의 요청만 처리되도록 허용했습니다. HTTP/1.1 [HTTP/1.1]은 요청 파이프라인을 추가했지만 이는 요청 동시성을 부분적으로만 해결했으며 여전히 애플리케이션 계층 헤드 오브 라인 차단 문제를 겪고 있습니다. 따라서 HTTP/1.0 및 HTTP/1.1 클라이언트는 서버에 대한 다중 연결을 사용하여 동시 요청을 수행합니다.

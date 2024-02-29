@@ -1,0 +1,19 @@
+"hash": |-
+  6e2d291979d72458976d0c9778936049e300941bf3fea3fff9b1f25e5c3146f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are two types of client transaction state machines, depending
+     on the method of the request passed by the TU.  One handles client
+     transactions for INVITE requests.  This type of machine is referred
+     to as an INVITE client transaction.  Another type handles client
+     transactions for all requests except INVITE and ACK.  This is
+     referred to as a non-INVITE client transaction.  There is no client
+     transaction for ACK.  If the TU wishes to send an ACK, it passes one
+     directly to the transport layer for transmission.
+"fixed": |-
+  There are two types of client transaction state machines, depending on the method of the request passed by the TU.  One handles client transactions for INVITE requests.  This type of machine is referred to as an INVITE client transaction.  Another type handles client transactions for all requests except INVITE and ACK.  This is referred to as a non-INVITE client transaction.  There is no client transaction for ACK.  If the TU wishes to send an ACK, it passes one directly to the transport layer for transmission.
+"ko": |-
+  TU가 전달한 요청 방법에 따라 두 가지 유형의 클라이언트 트랜잭션 상태 머신이 있습니다. 하나는 INVITE 요청에 대한 클라이언트 트랜잭션을 처리합니다. 이러한 유형의 머신을 INVITE 클라이언트 트랜잭션이라고 합니다. 또 다른 유형은 INVITE 및 ACK를 제외한 모든 요청에 ​​대한 클라이언트 트랜잭션을 처리합니다. 이를 비INVITE 클라이언트 트랜잭션이라고 합니다. ACK에 대한 클라이언트 트랜잭션이 없습니다. TU가 ACK를 전송하려는 경우 전송을 위해 ACK를 전송 계층으로 직접 전달합니다.

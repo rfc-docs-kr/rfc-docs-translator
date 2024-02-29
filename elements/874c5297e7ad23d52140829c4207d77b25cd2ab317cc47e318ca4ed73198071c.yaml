@@ -1,0 +1,17 @@
+"hash": |-
+  874c5297e7ad23d52140829c4207d77b25cd2ab317cc47e318ca4ed73198071c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The list of prohibited cipher suites includes the cipher suite that
+     TLS 1.2 makes mandatory, which means that TLS 1.2 deployments could
+     have non-intersecting sets of permitted cipher suites.  To avoid this
+     problem, which causes TLS handshake failures, deployments of HTTP/2
+     that use TLS 1.2 MUST support TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+     [TLS-ECDHE] with the P-256 elliptic curve [RFC8422].
+"fixed": |-
+  The list of prohibited cipher suites includes the cipher suite that TLS 1.2 makes mandatory, which means that TLS 1.2 deployments could have non-intersecting sets of permitted cipher suites.  To avoid this problem, which causes TLS handshake failures, deployments of HTTP/2 that use TLS 1.2 MUST support TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 [TLS-ECDHE] with the P-256 elliptic curve [RFC8422].
+"ko": |-
+  금지된 암호 제품군 목록에는 TLS 1.2에서 필수로 지정하는 암호 제품군이 포함되어 있습니다. 즉, TLS 1.2 배포에는 허용되는 암호 제품군의 교차하지 않는 집합이 있을 수 있습니다. TLS 핸드셰이크 실패를 일으키는 이 문제를 방지하려면 TLS 1.2를 사용하는 HTTP/2 배포는 P-256 타원 곡선[RFC8422]과 함께 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256[TLS-ECDHE]을 지원해야 합니다.

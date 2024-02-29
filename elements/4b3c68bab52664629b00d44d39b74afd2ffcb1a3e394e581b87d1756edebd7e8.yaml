@@ -1,0 +1,21 @@
+"hash": |-
+  4b3c68bab52664629b00d44d39b74afd2ffcb1a3e394e581b87d1756edebd7e8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    /*
+     * If key is longer than the hash blocksize,
+     * reset it to key = HASH(key).
+     */
+    if (key_len > blocksize) {
+      USHAContext tcontext;
+      int err = USHAReset(&tcontext, whichSha) ||
+                USHAInput(&tcontext, key, key_len) ||
+                USHAResult(&tcontext, tempkey);
+      if (err != shaSuccess) return err;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

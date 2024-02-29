@@ -1,0 +1,31 @@
+"hash": |-
+  6a1a7929eba21cc1f6be58980af21786814a665cad397423e9481e1f94fc9b66
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+   *
+   * Parameters:
+   *   whichSha:
+   *     which SHA algorithm to query
+   *
+   * Returns:
+   *   block size
+   *
+   */
+  int USHABlockSize(enum SHAversion whichSha)
+  {
+    switch (whichSha) {
+      case SHA1:   return SHA1_Message_Block_Size;
+      case SHA224: return SHA224_Message_Block_Size;
+      case SHA256: return SHA256_Message_Block_Size;
+      case SHA384: return SHA384_Message_Block_Size;
+      default:
+      case SHA512: return SHA512_Message_Block_Size;
+    }
+  }
+"fixed": |-
+  * * Parameters: *   whichSha: *     which SHA algorithm to query * * Returns: *   block size * */ int USHABlockSize(enum SHAversion whichSha) { switch (whichSha) { case SHA1:   return SHA1_Message_Block_Size; case SHA224: return SHA224_Message_Block_Size; case SHA256: return SHA256_Message_Block_Size; case SHA384: return SHA384_Message_Block_Size; default: case SHA512: return SHA512_Message_Block_Size; } }
+"ko": |-
+  * * 매개변수: * whichSha: * 쿼리할 SHA 알고리즘 * * 반환: * 블록 크기 * */ int USHABlockSize(enum SHAversion whichSha) { switch (whichSha) { case SHA1: return SHA1_Message_Block_Size; 사례 SHA224: SHA224_Message_Block_Size를 반환합니다. 사례 SHA256: SHA256_Message_Block_Size를 반환합니다. 사례 SHA384: SHA384_Message_Block_Size를 반환합니다. 기본값: 사례 SHA512: SHA512_Message_Block_Size를 반환합니다. } }

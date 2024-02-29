@@ -1,0 +1,46 @@
+"hash": |-
+  273b1f15f9ec6684316300faa192459ca0518245cff08185c8afa7e0120551f7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * SHA384_512Finalize
+   *
+   * Description:
+   *   This helper function finishes off the digest calculations.
+   *
+   * Parameters:
+   *   context: [in/out]
+   *     The SHA context to update.
+   *   Pad_Byte: [in]
+   *     The last byte to add to the message block before the 0-padding
+   *     and length.  This will contain the last bits of the message
+   *     followed by another single bit.  If the message was an
+   *     exact multiple of 8-bits long, Pad_Byte will be 0x80.
+   *
+   * Returns:
+   *   sha Error Code.
+   *
+   */
+  static void SHA384_512Finalize(SHA512Context *context,
+      uint8_t Pad_Byte)
+  {
+    int_least16_t i;
+    SHA384_512PadMessage(context, Pad_Byte);
+    /* message may be sensitive, clear it out */
+    for (i = 0; i < SHA512_Message_Block_Size; ++i)
+      context->Message_Block[i] = 0;
+  #ifdef USE_32BIT_ONLY    /* and clear length */
+    context->Length[0] = context->Length[1] = 0;
+    context->Length[2] = context->Length[3] = 0;
+  #else /* !USE_32BIT_ONLY */
+    context->Length_High = context->Length_Low = 0;
+  #endif /* USE_32BIT_ONLY */
+    context->Computed = 1;
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

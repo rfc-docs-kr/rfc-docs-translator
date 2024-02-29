@@ -1,0 +1,19 @@
+"hash": |-
+  f0db877dc02fd27a26eb8d85d1ec153f0b49c905f8d42e28e43a149feeba58d3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* SHA-224 */
+  extern int SHA224Reset(SHA224Context *);
+  extern int SHA224Input(SHA224Context *, const uint8_t *bytes,
+                         unsigned int bytecount);
+  extern int SHA224FinalBits(SHA224Context *, uint8_t bits,
+                             unsigned int bit_count);
+  extern int SHA224Result(SHA224Context *,
+                          uint8_t Message_Digest[SHA224HashSize]);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

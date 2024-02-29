@@ -1,0 +1,26 @@
+"hash": |-
+  395d91b8052f62dd182023260751d5d6ae3a624d8afcebc70d21cc5f46f77b62
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    /* Now run hkdfExtract() by itself against the test vectors */
+    /* to verify the intermediate results. */
+    err = hkdfExtract(hkdfhashes[testno].whichSha,
+                      (const uint8_t *) hkdfhashes[testno].saltarray,
+                      hkdfhashes[testno].saltlength,
+                      (const uint8_t *) hkdfhashes[testno].ikmarray,
+                      hkdfhashes[testno].ikmlength, prk);
+    if (err != shaSuccess) {
+      fprintf(stderr, "hashHkdf(): hkdfExtract Error %d.\n", err);
+      return err;
+    }
+    sprintf(buf, "hkdfExtract %d", testno+1);
+    printResult(prk, USHAHashSize(hkdfhashes[testno].whichSha),
+      USHAHashName(hkdfhashes[testno].whichSha), "hkdf standard test",
+      buf, hkdfhashes[testno].prkarray, printResults, printPassFail);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

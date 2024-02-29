@@ -1,0 +1,19 @@
+"hash": |-
+  6c8b8d2c237018c2aa6f3df7a5387f352160e7939e8b1e2a9f0d49788d56aa1a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /* SHA-384 */
+  extern int SHA384Reset(SHA384Context *);
+  extern int SHA384Input(SHA384Context *, const uint8_t *bytes,
+                         unsigned int bytecount);
+  extern int SHA384FinalBits(SHA384Context *, uint8_t bits,
+                             unsigned int bit_count);
+  extern int SHA384Result(SHA384Context *,
+                          uint8_t Message_Digest[SHA384HashSize]);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

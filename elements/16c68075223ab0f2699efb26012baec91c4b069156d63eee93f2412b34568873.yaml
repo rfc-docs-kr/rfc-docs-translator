@@ -1,0 +1,23 @@
+"hash": |-
+  16c68075223ab0f2699efb26012baec91c4b069156d63eee93f2412b34568873
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An HTTP response is complete after the server sends -- or the client
+     receives -- a frame with the END_STREAM flag set (including any
+     CONTINUATION frames needed to complete a field block).  A server can
+     send a complete response prior to the client sending an entire
+     request if the response does not depend on any portion of the request
+     that has not been sent and received.  When this is true, a server MAY
+     request that the client abort transmission of a request without error
+     by sending a RST_STREAM with an error code of NO_ERROR after sending
+     a complete response (i.e., a frame with the END_STREAM flag set).
+     Clients MUST NOT discard responses as a result of receiving such a
+     RST_STREAM, though clients can always discard responses at their
+     discretion for other reasons.
+"fixed": |-
+  An HTTP response is complete after the server sends -- or the client receives -- a frame with the END_STREAM flag set (including any CONTINUATION frames needed to complete a field block).  A server can send a complete response prior to the client sending an entire request if the response does not depend on any portion of the request that has not been sent and received.  When this is true, a server MAY request that the client abort transmission of a request without error by sending a RST_STREAM with an error code of NO_ERROR after sending a complete response (i.e., a frame with the END_STREAM flag set). Clients MUST NOT discard responses as a result of receiving such a RST_STREAM, though clients can always discard responses at their discretion for other reasons.
+"ko": |-
+  HTTP 응답은 서버가 END_STREAM 플래그가 설정된 프레임(필드 블록을 완료하는 데 필요한 CONTINUATION 프레임 포함)을 전송하거나 클라이언트가 수신한 후에 완료됩니다. 응답이 전송 및 수신되지 않은 요청 부분에 의존하지 않는 경우 클라이언트가 전체 요청을 보내기 전에 서버는 완전한 응답을 보낼 수 있습니다. 이것이 사실인 경우, 서버는 완전한 응답(즉, END_STREAM 플래그가 설정된 프레임)을 보낸 후 NO_ERROR 오류 코드와 함께 RST_STREAM을 전송하여 클라이언트가 오류 없이 요청 전송을 중단하도록 요청할 수 있습니다. 클라이언트는 RST_STREAM 수신의 결과로 응답을 폐기하면 안 되지만(MUST NOT), 클라이언트는 다른 이유로 항상 재량에 따라 응답을 폐기할 수 있습니다.

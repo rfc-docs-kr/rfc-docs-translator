@@ -1,0 +1,17 @@
+"hash": |-
+  a0e3d283b68a714b4d972f008b2050d934b3a0c007d1394b7d6d6a0d47fdf1b0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Sending a request formed from a given URI may require capabilities
+     unavailable to the implementation.  The URI might indicate use of an
+     unimplemented transport or extension, for example.  An implementation
+     SHOULD refuse to send these requests rather than modifying them to
+     match their capabilities.  An implementation MUST NOT send a request
+     requiring an extension that it does not support.
+"fixed": |-
+  Sending a request formed from a given URI may require capabilities unavailable to the implementation.  The URI might indicate use of an unimplemented transport or extension, for example.  An implementation SHOULD refuse to send these requests rather than modifying them to match their capabilities.  An implementation MUST NOT send a request requiring an extension that it does not support.
+"ko": |-
+  지정된 URI에서 구성된 요청을 보내려면 구현에 사용할 수 없는 기능이 필요할 수 있습니다. 예를 들어 URI는 구현되지 않은 전송 또는 확장의 사용을 나타낼 수 있습니다. 구현은 해당 요청의 기능에 맞게 수정하는 대신 이러한 요청 전송을 거부해야 합니다(SHOULD). 구현은 지원하지 않는 확장을 요구하는 요청을 보내서는 안 됩니다.

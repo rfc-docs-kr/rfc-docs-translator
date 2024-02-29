@@ -1,0 +1,18 @@
+"hash": |-
+  a8386b82acdfaff965b10898b957544f6a817ac7efaffbfcccdfac16b2ac0bc2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Besides the requirement for global uniqueness, the algorithm for
+     generating a tag is implementation-specific.  Tags are helpful in
+     fault tolerant systems, where a dialog is to be recovered on an
+     alternate server after a failure.  A UAS can select the tag in such a
+     way that a backup can recognize a request as part of a dialog on the
+     failed server, and therefore determine that it should attempt to
+     recover the dialog and any other state associated with it.
+"fixed": |-
+  Besides the requirement for global uniqueness, the algorithm for generating a tag is implementation-specific.  Tags are helpful in fault tolerant systems, where a dialog is to be recovered on an alternate server after a failure.  A UAS can select the tag in such a way that a backup can recognize a request as part of a dialog on the failed server, and therefore determine that it should attempt to recover the dialog and any other state associated with it.
+"ko": |-
+  전역 고유성에 대한 요구 사항 외에도 태그 생성 알고리즘은 구현에 따라 다릅니다. 태그는 오류 발생 후 대체 서버에서 대화 상자를 복구하는 내결함성 시스템에 유용합니다. UAS는 백업이 요청을 실패한 서버의 대화 상자의 일부로 인식할 수 있는 방식으로 태그를 선택할 수 있으므로 대화 상자 및 이와 관련된 다른 상태를 복구해야 한다고 결정할 수 있습니다.

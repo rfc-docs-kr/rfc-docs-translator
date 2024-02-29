@@ -1,0 +1,25 @@
+"hash": |-
+  4383f952cb0728f9327f6ea9b0a8c283e9c228c6405a873d4ec74145678634d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [RFC2607] Section 7 describes the security issues occurring when the
+     authenticator/AAA client and backend authentication server do not
+     communicate directly.  Where a AAA intermediary is present (such as a
+     RADIUS proxy or a Diameter agent), and data object security is not
+     used, transported keying material can be recovered by an attacker in
+     control of the intermediary.  As discussed in Section 2.1, unless the
+     TSKs are derived independently from EAP keying material (as in
+     IKEv2), possession of transported keying material enables decryption
+     of data traffic sent between the peer and the authenticator to whom
+     the keying material was transported.  It also allows the AAA
+     intermediary to impersonate the authenticator or the peer.  Since the
+     peer does not authenticate to a AAA intermediary, it has no ability
+     to determine whether it is authentic or authorized to obtain keying
+     material.
+"fixed": |-
+  [RFC2607] Section 7 describes the security issues occurring when the authenticator/AAA client and backend authentication server do not communicate directly.  Where a AAA intermediary is present (such as a RADIUS proxy or a Diameter agent), and data object security is not used, transported keying material can be recovered by an attacker in control of the intermediary.  As discussed in Section 2.1, unless the TSKs are derived independently from EAP keying material (as in IKEv2), possession of transported keying material enables decryption of data traffic sent between the peer and the authenticator to whom the keying material was transported.  It also allows the AAA intermediary to impersonate the authenticator or the peer.  Since the peer does not authenticate to a AAA intermediary, it has no ability to determine whether it is authentic or authorized to obtain keying material.
+"ko": |-
+  [RFC2607] 7장은 인증자/AAA 클라이언트와 백엔드 인증 서버가 직접 통신하지 않을 때 발생하는 보안 문제를 설명합니다. AAA 중개자가 존재하고(예: RADIUS 프록시 또는 Diameter 에이전트) 데이터 개체 보안이 사용되지 않는 경우 전송된 키 자료는 중개자를 제어하는 ​​공격자에 의해 복구될 수 있습니다. 섹션 2.1에서 설명한 대로 TSK가 EAP 키 자료(IKEv2에서와 같이)와 독립적으로 파생되지 않는 한 전송된 키 자료를 소유하면 피어와 키 자료가 전송된 인증자 간에 전송된 데이터 트래픽의 암호를 해독할 수 있습니다. 또한 AAA 중개자가 인증자나 피어를 가장할 수도 있습니다. 피어는 AAA 중개자를 인증하지 않기 때문에 이것이 인증되었는지 또는 키 자료를 얻을 수 있는 권한이 있는지 확인할 수 없습니다.

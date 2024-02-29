@@ -1,0 +1,26 @@
+"hash": |-
+  eff476f0cc33723ef2336fd6767ac66f31c342f004606304d7531853517b9a4a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon receipt of a redirection response (for example, a 301 response
+     status code), clients SHOULD use the URI(s) in the Contact header
+     field to formulate one or more new requests based on the redirected
+     request.  This process is similar to that of a proxy recursing on a
+     3xx class response as detailed in Sections 16.5 and 16.6.  A client
+     starts with an initial target set containing exactly one URI, the
+     Request-URI of the original request.  If a client wishes to formulate
+     new requests based on a 3xx class response to that request, it places
+     the URIs to try into the target set.  Subject to the restrictions in
+     this specification, a client can choose which Contact URIs it places
+     into the target set.  As with proxy recursion, a client processing
+     3xx class responses MUST NOT add any given URI to the target set more
+     than once.  If the original request had a SIPS URI in the Request-
+     URI, the client MAY choose to recurse to a non-SIPS URI, but SHOULD
+     inform the user of the redirection to an insecure URI.
+"fixed": |-
+  Upon receipt of a redirection response (for example, a 301 response status code), clients SHOULD use the URI(s) in the Contact header field to formulate one or more new requests based on the redirected request.  This process is similar to that of a proxy recursing on a 3xx class response as detailed in Sections 16.5 and 16.6.  A client starts with an initial target set containing exactly one URI, the Request-URI of the original request.  If a client wishes to formulate new requests based on a 3xx class response to that request, it places the URIs to try into the target set.  Subject to the restrictions in this specification, a client can choose which Contact URIs it places into the target set.  As with proxy recursion, a client processing 3xx class responses MUST NOT add any given URI to the target set more than once.  If the original request had a SIPS URI in the Request- URI, the client MAY choose to recurse to a non-SIPS URI, but SHOULD inform the user of the redirection to an insecure URI.
+"ko": |-
+  리디렉션 응답(예: 301 응답 상태 코드)을 수신하면 클라이언트는 연락처 헤더 필드의 URI를 사용하여 리디렉션된 요청을 기반으로 하나 이상의 새로운 요청을 작성해야 합니다. 이 프로세스는 섹션 16.5 및 16.6에 자세히 설명된 대로 3xx 클래스 응답에서 반복되는 프록시의 프로세스와 유사합니다. 클라이언트는 원래 요청의 요청-URI인 정확히 하나의 URI를 포함하는 초기 대상 세트로 시작합니다. 클라이언트가 해당 요청에 대한 3xx 클래스 응답을 기반으로 새 요청을 작성하려는 경우 대상 세트에 시도할 URI를 배치합니다. 이 사양의 제한 사항에 따라 클라이언트는 대상 세트에 배치할 연락처 URI를 선택할 수 있습니다. 프록시 재귀와 마찬가지로 3xx 클래스 응답을 처리하는 클라이언트는 주어진 URI를 대상 세트에 두 번 이상 추가해서는 안 됩니다. 원래 요청의 Request-URI에 SIPS URI가 있는 경우 클라이언트는 SIPS가 아닌 URI로 재귀하도록 선택할 수 있지만 사용자에게 안전하지 않은 URI로의 리디렉션을 알려야 합니다.

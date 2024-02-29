@@ -1,0 +1,15 @@
+"hash": |-
+  9679756526de6bda6317e13898e495a07dd8ec1a3a87815965151fa8adde6eff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the INVITE request whose response is being acknowledged had Route
+     header fields, those header fields MUST appear in the ACK.  This is
+     to ensure that the ACK can be routed properly through any downstream
+     stateless proxies.
+"fixed": |-
+  If the INVITE request whose response is being acknowledged had Route header fields, those header fields MUST appear in the ACK.  This is to ensure that the ACK can be routed properly through any downstream stateless proxies.
+"ko": |-
+  응답이 확인되는 INVITE 요청에 경로 헤더 필드가 있는 경우 해당 헤더 필드는 ACK에 나타나야 합니다. 이는 다운스트림 무상태 프록시를 통해 ACK가 적절하게 라우팅될 수 있도록 하기 위한 것입니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  a22fb6819fe6859a5cd24bc89c3fa63267566789e537564897447ea3157518b5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     These rules result in a purposeful limitation of multicast in SIP.
+     Its primary function is to provide a "single-hop-discovery-like"
+     service, delivering a request to a group of homogeneous servers,
+     where it is only required to process the response from any one of
+     them.  This functionality is most useful for registrations.  In fact,
+     based on the transaction processing rules in Section 17.1.3, the
+     client transaction will accept the first response, and view any
+     others as retransmissions because they all contain the same Via
+     branch identifier.
+"fixed": |-
+  These rules result in a purposeful limitation of multicast in SIP. Its primary function is to provide a "single-hop-discovery-like" service, delivering a request to a group of homogeneous servers, where it is only required to process the response from any one of them.  This functionality is most useful for registrations.  In fact, based on the transaction processing rules in Section 17.1.3, the client transaction will accept the first response, and view any others as retransmissions because they all contain the same Via branch identifier.
+"ko": |-
+  이러한 규칙으로 인해 SIP의 멀티캐스트가 의도적으로 제한됩니다. 주요 기능은 "단일 홉 검색과 유사한" 서비스를 제공하여 동종 서버 그룹에 요청을 전달하는 것입니다. 여기서는 그 중 하나의 응답만 처리하면 됩니다. 이 기능은 등록에 가장 유용합니다. 실제로 섹션 17.1.3의 트랜잭션 처리 규칙에 따라 클라이언트 트랜잭션은 첫 번째 응답을 수락하고 다른 응답은 모두 동일한 Via 분기 식별자를 포함하기 때문에 재전송으로 간주합니다.

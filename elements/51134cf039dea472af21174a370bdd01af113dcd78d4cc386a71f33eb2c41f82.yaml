@@ -1,0 +1,23 @@
+"hash": |-
+  51134cf039dea472af21174a370bdd01af113dcd78d4cc386a71f33eb2c41f82
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Several new "disposition-types" of the Content-Disposition header are
+     defined by SIP.  The value "session" indicates that the body part
+     describes a session, for either calls or early (pre-call) media.  The
+     value "render" indicates that the body part should be displayed or
+     otherwise rendered to the user.  Note that the value "render" is used
+     rather than "inline" to avoid the connotation that the MIME body is
+     displayed as a part of the rendering of the entire message (since the
+     MIME bodies of SIP messages oftentimes are not displayed to users).
+     For backward-compatibility, if the Content-Disposition header field
+     is missing, the server SHOULD assume bodies of Content-Type
+     application/sdp are the disposition "session", while other content
+     types are "render".
+"fixed": |-
+  Several new "disposition-types" of the Content-Disposition header are defined by SIP.  The value "session" indicates that the body part describes a session, for either calls or early (pre-call) media.  The value "render" indicates that the body part should be displayed or otherwise rendered to the user.  Note that the value "render" is used rather than "inline" to avoid the connotation that the MIME body is displayed as a part of the rendering of the entire message (since the MIME bodies of SIP messages oftentimes are not displayed to users). For backward-compatibility, if the Content-Disposition header field is missing, the server SHOULD assume bodies of Content-Type application/sdp are the disposition "session", while other content types are "render".
+"ko": |-
+  Content-Disposition 헤더의 몇 가지 새로운 "처리 유형"이 SIP에 의해 정의됩니다. "세션" 값은 본문 부분이 통화 또는 초기(통화 전) 미디어에 대한 세션을 설명함을 나타냅니다. "render" 값은 본문 부분이 사용자에게 표시되거나 렌더링되어야 함을 나타냅니다. MIME 본문이 전체 메시지 렌더링의 일부로 표시된다는 의미를 피하기 위해 "인라인" 대신 "render" 값이 사용됩니다(SIP 메시지의 MIME 본문은 종종 사용자에게 표시되지 않기 때문). 이전 버전과의 호환성을 위해 Content-Disposition 헤더 필드가 누락된 경우 서버는 Content-Type 애플리케이션/sdp의 본문이 "세션" 처리이고 다른 콘텐츠 유형은 "렌더링"이라고 가정해야 합니다.

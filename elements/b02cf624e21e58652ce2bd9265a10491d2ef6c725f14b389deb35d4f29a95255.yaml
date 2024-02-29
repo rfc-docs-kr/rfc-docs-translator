@@ -1,0 +1,16 @@
+"hash": |-
+  b02cf624e21e58652ce2bd9265a10491d2ef6c725f14b389deb35d4f29a95255
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+    if (!context) return shaNull;
+    if (context->Corrupted) return context->Corrupted;
+    if (context->Computed) return context->Corrupted = shaStateError;
+    if (!okm) return context->Corrupted = shaBadParam;
+    if (!prk) prk = prkbuf;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

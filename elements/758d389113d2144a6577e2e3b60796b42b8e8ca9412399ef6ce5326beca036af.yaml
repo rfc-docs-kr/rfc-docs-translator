@@ -1,0 +1,25 @@
+"hash": |-
+  758d389113d2144a6577e2e3b60796b42b8e8ca9412399ef6ce5326beca036af
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   *   ikm_bit_count: [in]
+   *     The number of bits in message_bits, between 1 and 7.
+   *
+   * Returns:
+   *   sha Error Code.
+   */
+  int hkdfFinalBits(HKDFContext *context, uint8_t ikm_bits,
+                    unsigned int ikm_bit_count)
+  {
+    if (!context) return shaNull;
+    if (context->Corrupted) return context->Corrupted;
+    if (context->Computed) return context->Corrupted = shaStateError;
+    return hmacFinalBits(&context->hmacContext, ikm_bits, ikm_bit_count);
+  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

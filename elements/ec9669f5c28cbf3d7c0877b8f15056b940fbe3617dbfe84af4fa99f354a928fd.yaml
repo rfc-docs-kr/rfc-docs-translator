@@ -1,0 +1,20 @@
+"hash": |-
+  ec9669f5c28cbf3d7c0877b8f15056b940fbe3617dbfe84af4fa99f354a928fd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+   *     The size of the hash, either 28 or 32.
+   *
+   * Returns:
+   *   sha Error Code.
+   */
+  static int SHA224_256ResultN(SHA256Context *context,
+      uint8_t Message_Digest[ ], int HashSize)
+  {
+    int i;
+"fixed": |-
+  *     The size of the hash, either 28 or 32. * * Returns: *   sha Error Code. */ static int SHA224_256ResultN(SHA256Context *context, uint8_t Message_Digest[ ], int HashSize) { int i;
+"ko": |-
+  * 해시의 크기(28 또는 32). * * 반환값: * sha 오류 코드. */ static int SHA224_256ResultN(SHA256Context *context, uint8_t Message_Digest[ ], int HashSize) { int i;

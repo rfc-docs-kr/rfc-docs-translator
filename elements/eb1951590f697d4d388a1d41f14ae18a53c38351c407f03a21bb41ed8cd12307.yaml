@@ -1,0 +1,22 @@
+"hash": |-
+  eb1951590f697d4d388a1d41f14ae18a53c38351c407f03a21bb41ed8cd12307
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  SIP-message    =  Request / Response
+  Request        =  Request-Line
+                    *( message-header )
+                    CRLF
+                    [ message-body ]
+  Request-Line   =  Method SP Request-URI SP SIP-Version CRLF
+  Request-URI    =  SIP-URI / SIPS-URI / absoluteURI
+  absoluteURI    =  scheme ":" ( hier-part / opaque-part )
+  hier-part      =  ( net-path / abs-path ) [ "?" query ]
+  net-path       =  "//" authority [ abs-path ]
+  abs-path       =  "/" path-segments
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

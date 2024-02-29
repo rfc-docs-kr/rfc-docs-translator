@@ -1,0 +1,16 @@
+"hash": |-
+  a423462e69bc98d43949ad6b0502db6a72a1fe7df99c2eae6b73518ba3b88a12
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  RFC 2543 mandated retransmission of INVITE responses over TCP, but
+        noted it was really only needed for 2xx.  That was an artifact of
+        insufficient protocol layering.  With a more coherent transaction
+        layer defined here, that is no longer needed.  Only 2xx responses
+        to INVITEs are retransmitted over TCP.
+"fixed": |-
+  -  RFC 2543 mandated retransmission of INVITE responses over TCP, but noted it was really only needed for 2xx.  That was an artifact of insufficient protocol layering.  With a more coherent transaction layer defined here, that is no longer needed.  Only 2xx responses to INVITEs are retransmitted over TCP.
+"ko": |-
+  - RFC 2543에서는 TCP를 통한 INVITE 응답의 재전송을 의무화했지만 실제로는 2xx에만 필요하다고 언급했습니다. 이는 프로토콜 계층화가 부족하여 발생한 결과였습니다. 여기에 정의된 보다 일관된 트랜잭션 레이어를 사용하면 더 이상 필요하지 않습니다. INVITE에 대한 2xx 응답만 TCP를 통해 재전송됩니다.

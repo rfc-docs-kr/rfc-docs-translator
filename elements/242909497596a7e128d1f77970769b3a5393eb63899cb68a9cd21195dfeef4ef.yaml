@@ -1,0 +1,35 @@
+"hash": |-
+  242909497596a7e128d1f77970769b3a5393eb63899cb68a9cd21195dfeef4ef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   *  hmac
+   *
+   *  Description:
+   *      This function will compute an HMAC message digest.
+   *
+   *  Parameters:
+   *      whichSha: [in]
+   *          One of SHA1, SHA224, SHA256, SHA384, SHA512
+   *      message_array[ ]: [in]
+   *          An array of octets representing the message.
+   *          Note: in RFC 2104, this parameter is known
+   *          as 'text'.
+   *      length: [in]
+   *          The length of the message in message_array.
+   *      key[ ]: [in]
+   *          The secret shared key.
+   *      key_len: [in]
+   *          The length of the secret shared key.
+   *      digest[ ]: [out]
+   *          Where the digest is to be returned.
+   *          NOTE: The length of the digest is determined by
+   *              the value of whichSha.
+   *
+"fixed": |-
+  /* *  hmac * *  Description: *      This function will compute an HMAC message digest. * *  Parameters: *      whichSha: [in] *          One of SHA1, SHA224, SHA256, SHA384, SHA512 *      message_array[ ]: [in] *          An array of octets representing the message. *          Note: in RFC 2104, this parameter is known *          as 'text'. *      length: [in] *          The length of the message in message_array. *      key[ ]: [in] *          The secret shared key. *      key_len: [in] *          The length of the secret shared key. *      digest[ ]: [out] *          Where the digest is to be returned. *          NOTE: The length of the digest is determined by *              the value of whichSha. *
+"ko": |-
+  /* * hmac * * 설명: * 이 함수는 HMAC 메시지 다이제스트를 계산합니다. * * 매개변수: * whichSha: [in] * SHA1, SHA224, SHA256, SHA384, SHA512 중 하나 * message_array[ ]: [in] * 메시지를 나타내는 옥텟 배열. * 참고: RFC 2104에서는 이 매개변수를 * '텍스트'라고 합니다. * length: [in] * message_array의 메시지 길이입니다. * key[ ]: [in] * 비밀 공유 키입니다. * key_len: [in] * 비밀 공유 키의 길이입니다. * 다이제스트[ ]: [out] * 다이제스트가 반환될 위치입니다. * 참고: 다이제스트의 길이는 * whichSha 값에 의해 결정됩니다. *

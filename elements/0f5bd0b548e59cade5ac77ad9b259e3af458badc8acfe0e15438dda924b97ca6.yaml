@@ -1,0 +1,19 @@
+"hash": |-
+  0f5bd0b548e59cade5ac77ad9b259e3af458badc8acfe0e15438dda924b97ca6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This encoding method is parameterized by the choice of hash function,
+     mask generation function, and salt length.  These options should be
+     fixed for a given RSA key, except that the salt length can be
+     variable (see [JONSSON] for discussion).  Suggested hash and mask
+     generation functions are given in Appendix B.  The encoding method is
+     based on Bellare and Rogaway's Probabilistic Signature Scheme (PSS)
+     [RSARABIN][PSS].  It is randomized and has an encoding operation and
+     a verification operation.
+"fixed": |-
+  This encoding method is parameterized by the choice of hash function, mask generation function, and salt length.  These options should be fixed for a given RSA key, except that the salt length can be variable (see [JONSSON] for discussion).  Suggested hash and mask generation functions are given in Appendix B.  The encoding method is based on Bellare and Rogaway's Probabilistic Signature Scheme (PSS) [RSARABIN][PSS].  It is randomized and has an encoding operation and a verification operation.
+"ko": |-
+  이 인코딩 방법은 해시 함수, 마스크 생성 함수 및 솔트 길이를 선택하여 매개변수화됩니다. 이러한 옵션은 솔트 길이가 가변적일 수 있다는 점을 제외하고는 주어진 RSA 키에 대해 수정되어야 합니다(토론은 [JONSSON] 참조). 제안된 해시 및 마스크 생성 기능은 부록 B에 나와 있습니다. 인코딩 방법은 Bellare와 Rogaway의 PSS(Probabilistic Signature Scheme) [RSARABIN][PSS]를 기반으로 합니다. 무작위로 이루어지며 인코딩 작업과 검증 작업이 있습니다.

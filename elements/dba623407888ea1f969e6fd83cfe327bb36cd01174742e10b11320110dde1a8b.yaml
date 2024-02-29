@@ -1,0 +1,14 @@
+"hash": |-
+  dba623407888ea1f969e6fd83cfe327bb36cd01174742e10b11320110dde1a8b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Receipt of a PING frame with a length field value other than 8 MUST
+     be treated as a connection error (Section 5.4.1) of type
+     FRAME_SIZE_ERROR.
+"fixed": |-
+  Receipt of a PING frame with a length field value other than 8 MUST be treated as a connection error (Section 5.4.1) of type FRAME_SIZE_ERROR.
+"ko": |-
+  8이 아닌 길이 필드 값을 가진 PING 프레임의 수신은 FRAME_SIZE_ERROR 유형의 연결 오류(섹션 5.4.1)로 처리되어야 합니다.

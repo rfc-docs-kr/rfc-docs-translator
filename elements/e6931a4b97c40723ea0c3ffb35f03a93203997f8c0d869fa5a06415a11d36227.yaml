@@ -1,0 +1,20 @@
+"hash": |-
+  e6931a4b97c40723ea0c3ffb35f03a93203997f8c0d869fa5a06415a11d36227
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The 2xx response and its ACK receive special treatment.  This
+     response is retransmitted only by a UAS, and its ACK generated only
+     by the UAC.  This end-to-end treatment is needed so that a caller
+     knows the entire set of users that have accepted the call.  Because
+     of this special handling, retransmissions of the 2xx response are
+     handled by the UA core, not the transaction layer.  Similarly,
+     generation of the ACK for the 2xx is handled by the UA core.  Each
+     proxy along the path merely forwards each 2xx response to INVITE and
+     its corresponding ACK.
+"fixed": |-
+  The 2xx response and its ACK receive special treatment.  This response is retransmitted only by a UAS, and its ACK generated only by the UAC.  This end-to-end treatment is needed so that a caller knows the entire set of users that have accepted the call.  Because of this special handling, retransmissions of the 2xx response are handled by the UA core, not the transaction layer.  Similarly, generation of the ACK for the 2xx is handled by the UA core.  Each proxy along the path merely forwards each 2xx response to INVITE and its corresponding ACK.
+"ko": |-
+  2xx 응답과 해당 ACK는 특별한 처리를 받습니다. 이 응답은 UAS에 의해서만 재전송되며 해당 ACK는 UAC에 의해서만 생성됩니다. 발신자가 통화를 수락한 전체 사용자 집합을 알 수 있도록 하려면 이러한 엔드투엔드 처리가 필요합니다. 이러한 특수 처리로 인해 2xx 응답의 재전송은 트랜잭션 계층이 아닌 UA 코어에 의해 처리됩니다. 마찬가지로 2xx에 대한 ACK 생성은 UA 코어에 의해 처리됩니다. 경로에 있는 각 프록시는 각 2xx 응답을 INVITE 및 해당 ACK로 전달합니다.

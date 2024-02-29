@@ -1,0 +1,22 @@
+"hash": |-
+  7dfd77333dd812813a0ece89a688326cb3077266f3c4c763d9c0c185c6fa0ad2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Add "length" to the length.
+   * Set Corrupted when overflow has occurred.
+   */
+  static uint32_t addTemp;
+  #define SHA1AddLength(context, length)                     \
+      (addTemp = (context)->Length_Low,                      \
+       (context)->Corrupted =                                \
+          (((context)->Length_Low += (length)) < addTemp) && \
+          (++(context)->Length_High == 0) ? shaInputTooLong  \
+                                          : (context)->Corrupted )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

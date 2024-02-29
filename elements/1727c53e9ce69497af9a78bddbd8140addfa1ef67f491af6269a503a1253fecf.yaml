@@ -1,0 +1,19 @@
+"hash": |-
+  1727c53e9ce69497af9a78bddbd8140addfa1ef67f491af6269a503a1253fecf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MAY send multiple GOAWAY frames if circumstances change.
+     For instance, an endpoint that sends GOAWAY with NO_ERROR during
+     graceful shutdown could subsequently encounter a condition that
+     requires immediate termination of the connection.  The last stream
+     identifier from the last GOAWAY frame received indicates which
+     streams could have been acted upon.  Endpoints MUST NOT increase the
+     value they send in the last stream identifier, since the peers might
+     already have retried unprocessed requests on another connection.
+"fixed": |-
+  An endpoint MAY send multiple GOAWAY frames if circumstances change. For instance, an endpoint that sends GOAWAY with NO_ERROR during graceful shutdown could subsequently encounter a condition that requires immediate termination of the connection.  The last stream identifier from the last GOAWAY frame received indicates which streams could have been acted upon.  Endpoints MUST NOT increase the value they send in the last stream identifier, since the peers might already have retried unprocessed requests on another connection.
+"ko": |-
+  상황이 바뀌면 엔드포인트는 여러 GOAWAY 프레임을 보낼 수 있습니다. 예를 들어, 정상적인 종료 중에 NO_ERROR와 함께 GOAWAY를 보내는 엔드포인트는 이후에 연결을 즉시 종료해야 하는 조건에 직면할 수 있습니다. 수신된 마지막 GOAWAY 프레임의 마지막 스트림 식별자는 어떤 스트림이 작동되었을 수 있는지 나타냅니다. 피어가 이미 다른 연결에서 처리되지 않은 요청을 재시도했을 수 있으므로 엔드포인트는 마지막 스트림 식별자에서 보내는 값을 늘려서는 안 됩니다.

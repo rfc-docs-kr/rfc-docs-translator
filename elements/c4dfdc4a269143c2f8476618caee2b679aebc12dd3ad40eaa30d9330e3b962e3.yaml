@@ -1,0 +1,24 @@
+"hash": |-
+  c4dfdc4a269143c2f8476618caee2b679aebc12dd3ad40eaa30d9330e3b962e3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  /*
+   * Define the SHA SIGMA and sigma macros
+   *
+   *  SHA512_ROTR(28,word) ^ SHA512_ROTR(34,word) ^ SHA512_ROTR(39,word)
+   */
+  static uint32_t SIGMA0_temp1[2], SIGMA0_temp2[2],
+    SIGMA0_temp3[2], SIGMA0_temp4[2];
+  #define SHA512_SIGMA0(word, ret) (                             \
+      SHA512_ROTR(28, (word), SIGMA0_temp1),                     \
+      SHA512_ROTR(34, (word), SIGMA0_temp2),                     \
+      SHA512_ROTR(39, (word), SIGMA0_temp3),                     \
+      SHA512_XOR(SIGMA0_temp2, SIGMA0_temp3, SIGMA0_temp4),      \
+      SHA512_XOR(SIGMA0_temp1, SIGMA0_temp4, (ret)) )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

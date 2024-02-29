@@ -1,0 +1,22 @@
+"hash": |-
+  acb2d6be4cfb498cdce2fdbca42b49934520e82e48ef7eb2ca9b1ca5d8dfd0cc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TU passes any number of provisional responses to the server
+     transaction.  So long as the server transaction is in the
+     "Proceeding" state, each of these MUST be passed to the transport
+     layer for transmission.  They are not sent reliably by the
+     transaction layer (they are not retransmitted by it) and do not cause
+     a change in the state of the server transaction.  If a request
+     retransmission is received while in the "Proceeding" state, the most
+     recent provisional response that was received from the TU MUST be
+     passed to the transport layer for retransmission.  A request is a
+     retransmission if it matches the same server transaction based on the
+     rules of Section 17.2.3.
+"fixed": |-
+  The TU passes any number of provisional responses to the server transaction.  So long as the server transaction is in the "Proceeding" state, each of these MUST be passed to the transport layer for transmission.  They are not sent reliably by the transaction layer (they are not retransmitted by it) and do not cause a change in the state of the server transaction.  If a request retransmission is received while in the "Proceeding" state, the most recent provisional response that was received from the TU MUST be passed to the transport layer for retransmission.  A request is a retransmission if it matches the same server transaction based on the rules of Section 17.2.3.
+"ko": |-
+  TU는 서버 트랜잭션에 임의 개수의 임시 응답을 전달합니다. 서버 트랜잭션이 "진행 중" 상태인 한, 이들 각각은 전송을 위해 전송 계층으로 전달되어야 합니다. 트랜잭션 계층에서 안정적으로 전송되지 않으며(재전송되지 않음) 서버 트랜잭션 상태를 변경하지 않습니다. "Proceeding(진행 중)" 상태에 있는 동안 요청 재전송이 수신되면 TU로부터 수신된 가장 최근의 임시 응답이 재전송을 위해 전송 계층으로 전달되어야 합니다. 섹션 17.2.3의 규칙에 따라 동일한 서버 트랜잭션과 일치하는 경우 요청은 재전송입니다.

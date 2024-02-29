@@ -1,0 +1,17 @@
+"hash": |-
+  40d36194a2269e8603a3fdec0a886e039ce6c83caf54f27bb95856fc0e50d929
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Description: The first TLS Finished message sent (note: the Finished
+     struct, not the TLS record layer message containing it) in the most
+     recent TLS handshake of the TLS connection being bound to (note: TLS
+     connection, not session, so that the channel binding is specific to
+     each connection regardless of whether session resumption is used).
+     If TLS renegotiation takes place before the channel binding
+"fixed": |-
+  Description: The first TLS Finished message sent (note: the Finished struct, not the TLS record layer message containing it) in the most recent TLS handshake of the TLS connection being bound to (note: TLS connection, not session, so that the channel binding is specific to each connection regardless of whether session resumption is used). If TLS renegotiation takes place before the channel binding
+"ko": |-
+  설명: 바인딩되는 TLS 연결(참고: 세션이 아닌 TLS 연결)의 가장 최근 TLS 핸드셰이크에서 전송된 첫 번째 TLS 완료 메시지(참고: 이를 포함하는 TLS 레코드 계층 메시지가 아닌 완료 구조). 바인딩은 세션 재개 사용 여부에 관계없이 각 연결에만 적용됩니다. 채널 바인딩 전에 TLS 재협상이 이루어지는 경우

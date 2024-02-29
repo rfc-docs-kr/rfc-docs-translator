@@ -1,0 +1,41 @@
+"hash": |-
+  84889d6c9155b135c11edbc16eb76d76835993bd144acd893753b1f5f6dfe74f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+         ---+
+  |                                                         |            ^
+  |                EAP Method                               |            |
+  |                                                         |            |
+  | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+   +-+-+-+-+-+-+-+   |            |
+  | |                                 |   |             |   |            |
+  | |       EAP Method Key            |<->| Long-Term   |   |            |
+  | |         Derivation              |   | Credential  |   |            |
+  | |                                 |   |             |   |            |
+  | |                                 |   +-+-+-+-+-+-+-+   |  Local to  |
+  | |                                 |                     |       EAP  |
+  | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+                     |     Method |
+  |   |             |               |                       |            |
+  |   |             |               |                       |            |
+  |   |             |               |                       |            |
+  |   |             |               |                       |            |
+  |   |         +-+-+-+-+-+-+ +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ |            |
+  |   |         | TEK       | |MSK, EMSK  | |IV           | |            |
+  |   |         |Derivation | |Derivation | |Derivation   | |            |
+  |   |         |           | |           | |(Deprecated) | |            |
+  |   |         +-+-+-+-+-+-+ +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ |            |
+  |   |               ^             |               |       |            |
+  |   |               |             |               |       |            V
+  +-+-|-+-+-+-+-+-+-+-|-+-+-+-+-+-+-|-+-+-+-+-+-+-+-|-+-+-+-+         ---+
+      |               |             |               |                    ^
+      |               |             |               |           Exported |
+      | Peer-Id(s),   | channel     | MSK (64+B)    | IV (64B)      by   |
+      | Server-Id(s), | bindings    | EMSK (64+B)   | (Optional)    EAP  |
+      | Session-Id    | & Result    |               |             Method |
+      V               V             V               V                    V
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null
