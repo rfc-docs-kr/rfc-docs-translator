@@ -1,0 +1,24 @@
+"hash": |-
+  23cdc92113764ab70963a2f1a3830eddfa76f10abec995a53eceae0b6234e692
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Currently, when a resolver receives the query "What is the AAAA
+     record for www.example.com?", it sends to the root (assuming a cold
+     resolver, whose cache is empty) the very same question.  Sending the
+     full QNAME to the authoritative name server is a tradition, not a
+     protocol requirement.  In a conversation with the author in
+     January 2015, Paul Mockapetris explained that this tradition comes
+     from a desire to optimise the number of requests, when the same
+     name server is authoritative for many zones in a given name
+     (something that was more common in the old days, where the same
+     name servers served .com and the root) or when the same name server
+     is both recursive and authoritative (something that is strongly
+     discouraged now).  Whatever the merits of this choice at this time,
+     the DNS is quite different now.
+"fixed": |-
+  Currently, when a resolver receives the query "What is the AAAA record for www.example.com?", it sends to the root (assuming a cold resolver, whose cache is empty) the very same question.  Sending the full QNAME to the authoritative name server is a tradition, not a protocol requirement.  In a conversation with the author in January 2015, Paul Mockapetris explained that this tradition comes from a desire to optimise the number of requests, when the same name server is authoritative for many zones in a given name (something that was more common in the old days, where the same name servers served .com and the root) or when the same name server is both recursive and authoritative (something that is strongly discouraged now).  Whatever the merits of this choice at this time, the DNS is quite different now.
+"ko": |-
+  현재 확인자가 "www.example.com에 대한 AAAA 레코드는 무엇입니까?"라는 쿼리를 받으면 루트(캐시가 비어 있는 콜드 확인자 가정)에 동일한 질문을 보냅니다. 전체 QNAME을 권한 있는 이름 서버로 보내는 것은 프로토콜 요구 사항이 아니라 전통입니다. 2015년 1월 저자와의 대화에서 Paul Mockapetris는 동일한 이름 서버가 특정 이름의 많은 영역에 대해 권한을 가질 때 요청 수를 최적화하려는 욕구에서 이러한 전통이 비롯되었다고 설명했습니다(이전 이름은 더 일반적이었습니다). 동일한 이름 서버가 .com과 루트를 제공하는 경우) 또는 동일한 이름 서버가 재귀적이고 신뢰할 수 있는 경우(현재는 권장하지 않는 사항)입니다. 현재 이 선택의 장점이 무엇이든, 이제 DNS는 상당히 다릅니다.

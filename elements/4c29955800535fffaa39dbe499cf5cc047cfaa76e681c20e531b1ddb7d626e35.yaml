@@ -1,0 +1,20 @@
+"hash": |-
+  4c29955800535fffaa39dbe499cf5cc047cfaa76e681c20e531b1ddb7d626e35
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The BGP Multiprotocol Extensions [3] allow BGP to carry routes from
+     multiple "address families".  We introduce the notion of the "VPN-
+     IPv4 address family".  A VPN-IPv4 address is a 12-byte quantity,
+     beginning with an 8-byte "Route Distinguisher (RD)" and ending with a
+     4-byte IPv4 address.  If two VPNs use the same IPv4 address prefix,
+     the PEs translate these into unique VPN-IPv4 address prefixes.  This
+     ensures that if the same address is used in two different VPNs, it is
+     possible to install two completely different routes to that address,
+     one for each VPN.
+"fixed": |-
+  The BGP Multiprotocol Extensions [3] allow BGP to carry routes from multiple "address families".  We introduce the notion of the "VPN- IPv4 address family".  A VPN-IPv4 address is a 12-byte quantity, beginning with an 8-byte "Route Distinguisher (RD)" and ending with a 4-byte IPv4 address.  If two VPNs use the same IPv4 address prefix, the PEs translate these into unique VPN-IPv4 address prefixes.  This ensures that if the same address is used in two different VPNs, it is possible to install two completely different routes to that address, one for each VPN.
+"ko": |-
+  BGP 멀티프로토콜 확장[3]을 사용하면 BGP가 여러 "주소 패밀리"에서 경로를 전송할 수 있습니다. "VPN-IPv4 주소 패밀리"라는 개념을 소개합니다. VPN-IPv4 주소는 8바이트 "경로 구분자(RD)"로 시작하여 4바이트 IPv4 주소로 끝나는 12바이트 수량입니다. 두 VPN이 동일한 IPv4 주소 접두사를 사용하는 경우 PE는 이를 고유한 VPN-IPv4 주소 접두사로 변환합니다. 이렇게 하면 두 개의 다른 VPN에서 동일한 주소를 사용하는 경우 각 VPN에 대해 하나씩 해당 주소로 완전히 다른 두 개의 경로를 설치할 수 있습니다.

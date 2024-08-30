@@ -1,0 +1,18 @@
+"hash": |-
+  b00674fd9a5f8a7f6515b200133de0485e16601ca2cc2c6be35c73b57a345289
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Retire Prior To field applies to connection IDs established
+     during connection setup and the preferred_address transport
+     parameter; see Section 5.1.2.  The value in the Retire Prior To field
+     MUST be less than or equal to the value in the Sequence Number field.
+     Receiving a value in the Retire Prior To field that is greater than
+     that in the Sequence Number field MUST be treated as a connection
+     error of type FRAME_ENCODING_ERROR.
+"fixed": |-
+  The Retire Prior To field applies to connection IDs established during connection setup and the preferred_address transport parameter; see Section 5.1.2.  The value in the Retire Prior To field MUST be less than or equal to the value in the Sequence Number field. Receiving a value in the Retire Prior To field that is greater than that in the Sequence Number field MUST be treated as a connection error of type FRAME_ENCODING_ERROR.
+"ko": |-
+  이전 종료 필드는 연결 설정 중에 설정된 연결 ID와 Preferred_address 전송 매개변수에 적용됩니다. 섹션 5.1.2를 참조하세요. Retire Prior To 필드의 값은 Sequence Number 필드의 값보다 작거나 같아야 합니다. Retire Prior To 필드에서 Sequence Number 필드의 값보다 큰 값을 수신하면 FRAME_ENCODING_ERROR 유형의 연결 오류로 처리되어야 합니다.

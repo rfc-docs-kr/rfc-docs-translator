@@ -1,0 +1,41 @@
+"hash": |-
+  b764d6cbebadd74d783d07c356fe7a85ce0ab6e0ac2fdc92d3ccdd487500e3bb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            o
+            | Create Stream (Sending)
+            | Peer Creates Bidirectional Stream
+            v
+        +-------+
+        | Ready | Send RESET_STREAM
+        |       |-----------------------.
+        +-------+                       |
+            |                           |
+            | Send STREAM /             |
+            |      STREAM_DATA_BLOCKED  |
+            v                           |
+        +-------+                       |
+        | Send  | Send RESET_STREAM     |
+        |       |---------------------->|
+        +-------+                       |
+            |                           |
+            | Send STREAM + FIN         |
+            v                           v
+        +-------+                   +-------+
+        | Data  | Send RESET_STREAM | Reset |
+        | Sent  |------------------>| Sent  |
+        +-------+                   +-------+
+            |                           |
+            | Recv All ACKs             | Recv ACK
+            v                           v
+        +-------+                   +-------+
+        | Data  |                   | Reset |
+        | Recvd |                   | Recvd |
+        +-------+                   +-------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

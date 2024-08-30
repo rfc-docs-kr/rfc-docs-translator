@@ -1,0 +1,20 @@
+"hash": |-
+  22d1c8e66a9283c4284c7ed28a1c8877ddb93f3d9c375980712deed4cdb7b4c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a Printer has too little space for starting a new Job, it MAY
+     reject a new Job Creation request.  In this case, a Printer MUST
+     return a response (in reply to the rejected request) with a
+     status-code of 'server-error-busy' (see Appendix B.1.5.8), and it MAY
+     close the connection before receiving all bytes of the operation.  A
+     Printer SHOULD indicate that it is temporarily unable to accept Jobs
+     by setting the 'spool-space-full' value in its
+     "printer-state-reasons" attribute and removing the value when it can
+     accept another Job (see Section 5.4.12).
+"fixed": |-
+  When a Printer has too little space for starting a new Job, it MAY reject a new Job Creation request.  In this case, a Printer MUST return a response (in reply to the rejected request) with a status-code of 'server-error-busy' (see Appendix B.1.5.8), and it MAY close the connection before receiving all bytes of the operation.  A Printer SHOULD indicate that it is temporarily unable to accept Jobs by setting the 'spool-space-full' value in its "printer-state-reasons" attribute and removing the value when it can accept another Job (see Section 5.4.12).
+"ko": |-
+  프린터에 새 작업을 시작하기 위한 공간이 너무 적은 경우 새 작업 생성 요청을 거부할 수 있습니다. 이 경우 프린터는 'server-error-busy' 상태 코드(부록 B.1.5.8 참조)를 사용하여 거부된 요청에 대한 응답을 반환해야 하며(부록 B.1.5.8 참조) 모든 요청을 수신하기 전에 연결을 닫을 수 있습니다. 작업의 바이트입니다. 프린터는 "printer-state-reasons" 속성에 'spool-space-full' 값을 설정하고 다른 작업을 수락할 수 있을 때 값을 제거하여 일시적으로 작업을 수락할 수 없음을 나타내야 합니다(섹션 5.4.12 참조). .

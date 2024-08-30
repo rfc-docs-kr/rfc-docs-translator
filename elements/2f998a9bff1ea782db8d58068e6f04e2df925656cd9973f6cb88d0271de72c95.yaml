@@ -1,0 +1,15 @@
+"hash": |-
+  2f998a9bff1ea782db8d58068e6f04e2df925656cd9973f6cb88d0271de72c95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Change the list of groups offered by the client (e.g., by removing
+        the stronger of the set of groups offered).  This could cause the
+        server to negotiate a weaker group than desired, but again, should
+        be caught by the check in the Finished message.
+"fixed": |-
+  -  Change the list of groups offered by the client (e.g., by removing the stronger of the set of groups offered).  This could cause the server to negotiate a weaker group than desired, but again, should be caught by the check in the Finished message.
+"ko": |-
+  - 클라이언트가 제공하는 그룹 목록을 변경합니다(예: 제공되는 그룹 집합 중 더 강력한 그룹을 제거하여).  이로 인해 서버가 원하는 것보다 약한 그룹을 협상하게 될 수 있지만 역시 Finished 메시지의 확인을 통해 포착되어야 합니다.

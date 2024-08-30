@@ -1,0 +1,23 @@
+"hash": |-
+  5a2cecee89b6e8e77adb0ed60acdb2aaad12858f275ffd37d1267a25579a6ce2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Instead of attempting to guess at pre-shared keys, an attacker can
+     attempt to determine SKE and then launch an attack, but SKE is
+     determined by the output of the pseudo-random function, prf, which is
+     assumed to be indistinguishable from a random source (Section 7).
+     Therefore, each element of the finite cyclic group will have an equal
+     probability of being the SKE.  The probability of guessing SKE will
+     be 1/r, where r is the order of the group.  This is the same
+     probability of guessing the solution to the discrete logarithm, which
+     is assumed to be intractable (Section 7).  The attacker would have a
+     better chance of success at guessing the input to prf, i.e., the pre-
+     shared key, since the order of the group will be many orders of
+     magnitude greater than the size of the pool of pre-shared keys.
+"fixed": |-
+  Instead of attempting to guess at pre-shared keys, an attacker can attempt to determine SKE and then launch an attack, but SKE is determined by the output of the pseudo-random function, prf, which is assumed to be indistinguishable from a random source (Section 7). Therefore, each element of the finite cyclic group will have an equal probability of being the SKE.  The probability of guessing SKE will be 1/r, where r is the order of the group.  This is the same probability of guessing the solution to the discrete logarithm, which is assumed to be intractable (Section 7).  The attacker would have a better chance of success at guessing the input to prf, i.e., the pre- shared key, since the order of the group will be many orders of magnitude greater than the size of the pool of pre-shared keys.
+"ko": |-
+  공격자는 미리 공유된 키를 추측하는 대신 SKE를 결정한 후 공격을 시도할 수 있지만 SKE는 임의 소스와 구별할 수 없다고 가정되는 의사 난수 함수 prf의 출력에 의해 결정됩니다. (섹션 7). 따라서 유한 순환 그룹의 각 요소는 SKE가 될 확률이 동일합니다.  SKE를 추측할 확률은 1/r입니다. 여기서 r은 그룹의 차수입니다.  이는 다루기 힘든 것으로 가정되는 이산 로그에 대한 해를 추측하는 확률과 동일합니다(섹션 7).  그룹의 순서가 사전 공유 키 풀의 크기보다 훨씬 더 크기 때문에 공격자는 prf에 대한 입력, 즉 사전 공유 키를 추측하는 데 성공할 가능성이 더 높습니다.

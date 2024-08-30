@@ -1,0 +1,1 @@
+def CountErrors(self, severity): """생성된 오류 또는 경고의 수입니다.""" return len(self.output_log.get(severity, []))

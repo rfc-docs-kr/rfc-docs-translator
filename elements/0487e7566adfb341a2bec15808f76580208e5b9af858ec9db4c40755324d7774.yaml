@@ -1,0 +1,22 @@
+"hash": |-
+  0487e7566adfb341a2bec15808f76580208e5b9af858ec9db4c40755324d7774
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Result data from the server for the Recognizer and Verifier resources
+     is carried as a typed media entity in the MRCPv2 message body of
+     various events.  The Natural Language Semantics Markup Language
+     (NLSML), an XML markup based on an early draft from the W3C, is the
+     default standard for returning results back to the client.  Hence,
+     all servers implementing these resource types MUST support the media
+     type 'application/nlsml+xml'.  The Extensible MultiModal Annotation
+     (EMMA) [W3C.REC-emma-20090210] format can be used to return results
+     as well.  This can be done by negotiating the format at session
+     establishment time with SDP (a=resultformat:application/emma+xml) or
+     with SIP (Allow/Accept).  With SIP, for example, if a client wants
+"fixed": |-
+  Result data from the server for the Recognizer and Verifier resources is carried as a typed media entity in the MRCPv2 message body of various events.  The Natural Language Semantics Markup Language (NLSML), an XML markup based on an early draft from the W3C, is the default standard for returning results back to the client.  Hence, all servers implementing these resource types MUST support the media type 'application/nlsml+xml'.  The Extensible MultiModal Annotation (EMMA) [W3C.REC-emma-20090210] format can be used to return results as well.  This can be done by negotiating the format at session establishment time with SDP (a=resultformat:application/emma+xml) or with SIP (Allow/Accept).  With SIP, for example, if a client wants
+"ko": |-
+  Recognizer 및 Verifier 리소스에 대한 서버의 결과 데이터는 다양한 이벤트의 MRCPv2 메시지 본문에서 형식화된 미디어 엔터티로 전달됩니다. W3C의 초기 초안을 기반으로 하는 XML 마크업인 Natural Language Semantics Markup Language(NLSML)는 결과를 클라이언트로 반환하기 위한 기본 표준입니다. 따라서 이러한 리소스 유형을 구현하는 모든 서버는 미디어 유형 'application/nlsml+xml'을 지원해야 합니다. Extensible MultiModal Annotation(EMMA) [W3C.REC-emma-20090210] 형식도 결과를 반환하는 데 사용할 수 있습니다. 이는 세션 설정 시간에 SDP(a=resultformat:application/emma+xml) 또는 SIP(Allow/Accept)를 사용하여 형식을 협상하여 수행할 수 있습니다. 예를 들어 SIP를 사용하는 경우 클라이언트가

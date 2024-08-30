@@ -1,0 +1,23 @@
+"hash": |-
+  9a70358ec3e62c1448a65ef47f115ddae2084780f1d1545ebf77c6ddef166c9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This REQUIRED operation is similar to the Print-Job operation
+     (Section 4.2.1), except that a Client supplies no Document data and
+     the Printer allocates no resources, i.e., it does not create a new
+     Job.  This operation is used only to verify the capabilities of a
+     Printer against whatever attributes are supplied by the Client in the
+     Validate-Job request.  By using the Validate-Job operation, a Client
+     can validate that an identical Job Creation request (with the
+     Document data) would be accepted.  The Validate-Job operation also
+     performs the same security negotiation as the Print-Job, Print-URI,
+     and Create-Job operations (see Section 9) so that a Client can check
+     that the Client and Printer security requirements can be met before
+     performing a Job Creation request.
+"fixed": |-
+  This REQUIRED operation is similar to the Print-Job operation (Section 4.2.1), except that a Client supplies no Document data and the Printer allocates no resources, i.e., it does not create a new Job.  This operation is used only to verify the capabilities of a Printer against whatever attributes are supplied by the Client in the Validate-Job request.  By using the Validate-Job operation, a Client can validate that an identical Job Creation request (with the Document data) would be accepted.  The Validate-Job operation also performs the same security negotiation as the Print-Job, Print-URI, and Create-Job operations (see Section 9) so that a Client can check that the Client and Printer security requirements can be met before performing a Job Creation request.
+"ko": |-
+  이 필수 작업은 클라이언트가 문서 데이터를 제공하지 않고 프린터가 리소스를 할당하지 않는다는 점, 즉 새 작업을 생성하지 않는다는 점을 제외하면 Print-Job 작업(섹션 4.2.1)과 유사합니다. 이 작업은 Validate-Job 요청에서 클라이언트가 제공한 속성에 대해 프린터의 기능을 확인하는 데에만 사용됩니다. 클라이언트는 Validate-Job 작업을 사용하여 동일한 작업 생성 요청(문서 데이터 포함)이 수락되는지 확인할 수 있습니다. Validate-Job 작업은 또한 Print-Job, Print-URI 및 Create-Job 작업(섹션 9 참조)과 동일한 보안 협상을 수행하므로 클라이언트는 작업을 수행하기 전에 클라이언트 및 프린터 보안 요구 사항이 충족될 수 있는지 확인할 수 있습니다. 일자리 창출 요청입니다.

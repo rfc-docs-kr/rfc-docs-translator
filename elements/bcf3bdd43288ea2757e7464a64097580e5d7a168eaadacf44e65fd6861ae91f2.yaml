@@ -1,0 +1,15 @@
+"hash": |-
+  bcf3bdd43288ea2757e7464a64097580e5d7a168eaadacf44e65fd6861ae91f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        is used when constructing the master secret.  This was considered
+        more elegant from an analytical viewpoint than, for instance,
+        using the same key for both the HMAC-MD5 and HMAC-SHA1 parts.  See
+        [KRAWCZYK] for a more detailed rationale.
+"fixed": |-
+  - is used when constructing the master secret.  This was considered more elegant from an analytical viewpoint than, for instance, using the same key for both the HMAC-MD5 and HMAC-SHA1 parts.  See [KRAWCZYK] for a more detailed rationale.
+"ko": |-
+  - 마스터 시크릿을 구성할 때 사용됩니다. 이는 예를 들어 HMAC-MD5 및 HMAC-SHA1 부품에 동일한 키를 사용하는 것보다 분석적인 관점에서 더 우아한 것으로 간주되었습니다. 더 자세한 근거는 [KRAWCZYK]를 참조하세요.

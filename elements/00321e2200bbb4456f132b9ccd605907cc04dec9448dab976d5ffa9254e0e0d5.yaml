@@ -1,0 +1,18 @@
+"hash": |-
+  00321e2200bbb4456f132b9ccd605907cc04dec9448dab976d5ffa9254e0e0d5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Different types of segmentation, as indicated by the
+     segmentation_type_id in the segmentation_descriptor(), SHOULD be
+     represented by separate EXT-X-DATERANGE tags, even if two or more
+     segmentation_descriptor()s arrive in the same splice_info_section().
+     In that case, each EXT-X-DATERANGE tag will have an SCTE35-OUT,
+     SCTE35-IN, or SCTE35-CMD attribute whose value is the entire
+     splice_info_section().
+"fixed": |-
+  Different types of segmentation, as indicated by the segmentation_type_id in the segmentation_descriptor(), SHOULD be represented by separate EXT-X-DATERANGE tags, even if two or more segmentation_descriptor()s arrive in the same splice_info_section(). In that case, each EXT-X-DATERANGE tag will have an SCTE35-OUT, SCTE35-IN, or SCTE35-CMD attribute whose value is the entire splice_info_section().
+"ko": |-
+  Segmentation_descriptor()의 Segmentation_type_id로 표시되는 다양한 유형의 분할은 두 개 이상의 Segmentation_descriptor()가 동일한 splice_info_section()에 도착하더라도 별도의 EXT-X-DATERANGE 태그로 표시되어야 합니다. 이 경우 각 EXT-X-DATERANGE 태그에는 값이 전체 splice_info_section()인 SCTE35-OUT, SCTE35-IN 또는 SCTE35-CMD 속성이 있습니다.

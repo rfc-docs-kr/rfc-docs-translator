@@ -1,0 +1,26 @@
+"hash": |-
+  b83202d3418e7bce6c3d81e4f43ac1c376e40d07be315f3056c4aef97a619395
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        clamp(r): r &= 0x0ffffffc0ffffffc0ffffffc0fffffff
+        poly1305_mac(msg, key):
+           r = le_bytes_to_num(key[0..15])
+           clamp(r)
+           s = le_bytes_to_num(key[16..31])
+           a = 0  /* a is the accumulator */
+           p = (1<<130)-5
+           for i=1 upto ceil(msg length in bytes / 16)
+              n = le_bytes_to_num(msg[((i-1)*16)..(i*16)] | [0x01])
+              a += n
+              a = (r * a) % p
+              end
+           a += s
+           return num_to_16_le_bytes(a)
+           end
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

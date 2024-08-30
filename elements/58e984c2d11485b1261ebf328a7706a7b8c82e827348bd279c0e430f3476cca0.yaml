@@ -1,0 +1,17 @@
+"hash": |-
+  58e984c2d11485b1261ebf328a7706a7b8c82e827348bd279c0e430f3476cca0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the recording completes due to no input, silence after speech, or
+     reaching the max-time, the server MUST generate the RECORD-COMPLETE
+     event to the client with a request-state of COMPLETE.  If the
+     recording was a success, the RECORD-COMPLETE event contains a Record-
+     URI header field pointing to the recorded audio file on the server or
+     to a typed entity in the message body containing the recorded audio.
+"fixed": |-
+  If the recording completes due to no input, silence after speech, or reaching the max-time, the server MUST generate the RECORD-COMPLETE event to the client with a request-state of COMPLETE.  If the recording was a success, the RECORD-COMPLETE event contains a Record- URI header field pointing to the recorded audio file on the server or to a typed entity in the message body containing the recorded audio.
+"ko": |-
+  입력이 없거나, 음성 후 침묵하거나, 최대 시간에 도달하여 녹음이 완료되면 서버는 COMPLETE 요청 상태로 클라이언트에 RECORD-COMPLETE 이벤트를 생성해야 합니다. 녹음이 성공한 경우 RECORD-COMPLETE 이벤트에는 서버의 녹음된 오디오 파일이나 녹음된 오디오가 포함된 메시지 본문의 입력된 엔터티를 가리키는 Record-URI 헤더 필드가 포함됩니다.

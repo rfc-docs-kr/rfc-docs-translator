@@ -1,0 +1,23 @@
+"hash": |-
+  acf55e5b33bb990bda3d311497b067b0d1fba8e50205530d1014b0688dce183d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the Unified Merkle Tree scheme, Peer A MUST send its rightmost
+     signed munro hash to Peer B in the third datagram, and in any
+     subsequent datagrams to Peer B, until Peer B indicates that it
+     possess a chunk with the same corresponding munro or a more recent
+     munro (by means of a HAVE or ACK message).  Peer B may already have
+     indicated this fact by means of HAVE messages in the second datagram.
+     Conversely, when Peer B sends the fourth datagram or any subsequent
+     datagram to Peer A, Peer B MUST send its rightmost signed munro hash,
+     unless Peer A indicated knowledge of it or more recent munros.  The
+     rightmost signed munro hash of a peer is defined as the munro hash
+     signed by the injector of the rightmost subtree of width
+     NCHUNKS_PER_SIG chunks in the peer's Merkle hash tree.  Peer A MUST
+"fixed": |-
+  In the Unified Merkle Tree scheme, Peer A MUST send its rightmost signed munro hash to Peer B in the third datagram, and in any subsequent datagrams to Peer B, until Peer B indicates that it possess a chunk with the same corresponding munro or a more recent munro (by means of a HAVE or ACK message).  Peer B may already have indicated this fact by means of HAVE messages in the second datagram. Conversely, when Peer B sends the fourth datagram or any subsequent datagram to Peer A, Peer B MUST send its rightmost signed munro hash, unless Peer A indicated knowledge of it or more recent munros.  The rightmost signed munro hash of a peer is defined as the munro hash signed by the injector of the rightmost subtree of width NCHUNKS_PER_SIG chunks in the peer's Merkle hash tree.  Peer A MUST
+"ko": |-
+  통합 머클 트리 방식에서 피어 A는 피어 B가 동일한 해당 먼로 또는 그 이상의 청크를 소유하고 있음을 나타낼 때까지 가장 오른쪽에 서명된 먼로 해시를 세 번째 데이터그램에서 피어 B에게 보내고 모든 후속 데이터그램에서 피어 B에게 보내야 합니다. 최근 먼로(HAVE 또는 ACK 메시지를 통해) 피어 B는 이미 두 번째 데이터그램의 HAVE 메시지를 통해 이 사실을 표시했을 수 있습니다. 반대로, 피어 B가 네 번째 데이터그램 또는 후속 데이터그램을 피어 A에 보낼 때 피어 A가 해당 정보 또는 더 최근의 먼로에 대한 지식을 표시하지 않는 한 피어 B는 가장 오른쪽에 서명된 먼로 해시를 보내야 합니다. 피어의 가장 오른쪽에 서명된 먼로 해시는 피어의 Merkle 해시 트리에서 너비 NCHUNKS_PER_SIG 청크의 가장 오른쪽 하위 트리의 인젝터에 의해 서명된 먼로 해시로 정의됩니다. 피어 A는 필수입니다.

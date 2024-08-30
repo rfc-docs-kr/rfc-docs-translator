@@ -1,0 +1,20 @@
+"hash": |-
+  97df95c924052b2174a9abaf7e6f7bb0d4e9e5e68c611c897da8bdb78fa687f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a particular VPN is actually an ISP, but its CE routers support
+     MPLS, then the VPN can actually be treated as a stub VPN.  The CE and
+     PE routers need only exchange routes which are internal to the VPN.
+     The PE router would distribute to the CE router a label for each of
+     these routes.  Routers at different sites in the VPN can then become
+     BGP peers.  When the CE router looks up a packet's destination
+     address, the routing lookup always resolves to an internal address,
+     usually the address of the packet's BGP next hop.  The CE labels the
+     packet appropriately and sends the packet to the PE.
+"fixed": |-
+  If a particular VPN is actually an ISP, but its CE routers support MPLS, then the VPN can actually be treated as a stub VPN.  The CE and PE routers need only exchange routes which are internal to the VPN. The PE router would distribute to the CE router a label for each of these routes.  Routers at different sites in the VPN can then become BGP peers.  When the CE router looks up a packet's destination address, the routing lookup always resolves to an internal address, usually the address of the packet's BGP next hop.  The CE labels the packet appropriately and sends the packet to the PE.
+"ko": |-
+  특정 VPN이 실제로 ISP이지만 CE 라우터가 MPLS를 지원하는 경우 VPN은 실제로 스텁 VPN으로 처리될 수 있습니다. CE 및 PE 라우터는 VPN 내부에 있는 경로만 교환하면 됩니다. PE 라우터는 이러한 경로 각각에 대한 레이블을 CE 라우터에 배포합니다. 그러면 VPN의 다른 사이트에 있는 라우터가 BGP 피어가 될 수 있습니다. CE 라우터가 패킷의 대상 주소를 조회할 때 라우팅 조회는 항상 내부 주소, 일반적으로 패킷의 BGP 다음 홉의 주소로 확인됩니다. CE는 패킷에 적절한 레이블을 지정하고 패킷을 PE로 보냅니다.

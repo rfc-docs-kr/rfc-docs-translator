@@ -1,0 +1,21 @@
+"hash": |-
+  bc40136a1ccc80a9d866ea029b045a63c58b64024f04de698c253e040d0af937
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A software implementation of the AEAD encryption operation in a
+     Virtual Machine (VM) environment could inadvertently reuse a nonce
+     due to a "rollback" of the VM to an earlier state [GR05].
+     Applications are encouraged to document potential issues to help the
+     user of the application and the VM avoid unintentional mistakes of
+     this sort.  The possibility exists that an attacker can cause a VM
+     rollback; threats and mitigations in that scenario are an area of
+     active research.  For perspective, we note that an attacker who can
+     trigger such a rollback may have already succeeded in subverting the
+     security of the system, e.g., by causing an accounting error.
+"fixed": |-
+  A software implementation of the AEAD encryption operation in a Virtual Machine (VM) environment could inadvertently reuse a nonce due to a "rollback" of the VM to an earlier state [GR05]. Applications are encouraged to document potential issues to help the user of the application and the VM avoid unintentional mistakes of this sort.  The possibility exists that an attacker can cause a VM rollback; threats and mitigations in that scenario are an area of active research.  For perspective, we note that an attacker who can trigger such a rollback may have already succeeded in subverting the security of the system, e.g., by causing an accounting error.
+"ko": |-
+  VM(가상 머신) 환경에서 AEAD 암호화 작업의 소프트웨어 구현은 VM을 이전 상태로 "롤백"하기 때문에 실수로 nonce를 재사용할 수 있습니다[GR05]. 애플리케이션 사용자와 VM이 이러한 종류의 의도하지 않은 실수를 피할 수 있도록 애플리케이션에서 잠재적인 문제를 문서화하는 것이 좋습니다. 공격자가 VM 롤백을 일으킬 가능성이 있습니다. 해당 시나리오의 위협과 완화는 활발한 연구 분야입니다. 관점에서 볼 때 이러한 롤백을 실행할 수 있는 공격자는 예를 들어 계정 오류를 발생시켜 시스템 보안을 파괴하는 데 이미 성공했을 수도 있습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  5e503c4e773ced739247361094d8e9dcd9a4cf6d10ac43c441b1875044dcf7b2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         block-ciphered struct {
+             opaque content[TLSCompressed.length];
+             opaque MAC[CipherSpec.hash_size];
+             uint8 padding[GenericBlockCipher.padding_length];
+             uint8 padding_length;
+         } GenericBlockCipher;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

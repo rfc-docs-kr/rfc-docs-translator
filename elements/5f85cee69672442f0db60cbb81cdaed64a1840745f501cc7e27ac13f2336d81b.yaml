@@ -1,0 +1,19 @@
+"hash": |-
+  5f85cee69672442f0db60cbb81cdaed64a1840745f501cc7e27ac13f2336d81b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                  opaque md5_hash[16];
+                  opaque sha_hash[20];
+              };
+          case dsa:
+              digitally-signed struct {
+                  opaque sha_hash[20];
+              };
+      } Signature;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

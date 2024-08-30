@@ -1,0 +1,24 @@
+"hash": |-
+  8ab23b8444dd17e4f2b8a529ee22656042e4bfcb9d9730caaca8921552bfcc45
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                *  it looks for user request, i.e., it explores in
+                   sequence the connection shared pages and selects the
+                   one that has its 'user-net' bit turned on.  Suppose k
+                   be the selected page # on the shared list, K is the
+                   connection #;
+                *  it determines the request type in testing the 'request
+                   bits' of the shared page k.  It finds out that it is a
+                   request for transmitting a message.
+                *  it takes the message text from the output buffer of the
+                   shared page k, formats it into a complete message and
+                   transmits to the Handler in a very similar way as above
+                   (See Open a primary link).
+                *  it goes to sleep.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

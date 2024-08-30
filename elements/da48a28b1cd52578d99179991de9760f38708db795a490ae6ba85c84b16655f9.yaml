@@ -1,0 +1,21 @@
+"hash": |-
+  da48a28b1cd52578d99179991de9760f38708db795a490ae6ba85c84b16655f9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server allows creation of mailboxes with names that are not
+     valid Net-Unicode names, the server normalizes both the existing
+     mailbox name parameter and the new mailbox name parameter.  If the
+     normalized version of any of these 2 parameters differs from the
+     corresponding supplied version, the server SHOULD return an untagged
+     LIST response with an OLDNAME extended data item, with the OLDNAME
+     value being the supplied existing mailbox name and the name parameter
+     being the normalized new mailbox name (see Section 6.3.9.7).  This
+     would allow the client to correlate the supplied name with the
+     normalized name.
+"fixed": |-
+  If the server allows creation of mailboxes with names that are not valid Net-Unicode names, the server normalizes both the existing mailbox name parameter and the new mailbox name parameter.  If the normalized version of any of these 2 parameters differs from the corresponding supplied version, the server SHOULD return an untagged LIST response with an OLDNAME extended data item, with the OLDNAME value being the supplied existing mailbox name and the name parameter being the normalized new mailbox name (see Section 6.3.9.7).  This would allow the client to correlate the supplied name with the normalized name.
+"ko": |-
+  서버가 유효한 Net-Unicode 이름이 아닌 이름을 가진 사서함 생성을 허용하는 경우 서버는 기존 사서함 이름 매개 변수와 새 사서함 이름 매개 변수를 모두 정규화합니다.  이러한 2개 매개변수 중 하나의 정규화된 버전이 해당 제공된 버전과 다른 경우 서버는 OLDNAME 확장 데이터 항목과 함께 태그가 지정되지 않은 LIST 응답을 반환해야 하며, OLDNAME 값은 제공된 기존 메일박스 이름이고 name 매개변수는 정규화된 새 항목입니다. 사서함 이름(섹션 6.3.9.7 참조)  이를 통해 클라이언트는 제공된 이름을 정규화된 이름과 연관시킬 수 있습니다.

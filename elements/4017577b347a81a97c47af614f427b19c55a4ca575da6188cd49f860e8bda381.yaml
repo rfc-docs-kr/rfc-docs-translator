@@ -1,0 +1,17 @@
+"hash": |-
+  4017577b347a81a97c47af614f427b19c55a4ca575da6188cd49f860e8bda381
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            HandshakeType msg_type;    /* handshake type */
+            uint24 length;             /* bytes in message */
+            select (HandshakeType) {
+                case hello_request:       HelloRequest;
+                case client_hello:        ClientHello;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

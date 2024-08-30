@@ -1,0 +1,18 @@
+"hash": |-
+  eeb7b85d9c0e8f4172da4f8119463d5f5c2acf5f759cb613db035d9aac1bbf97
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The Content Encryption Key is encrypted to the recipient using the
+        RSAES-PKCS1-v1_5 algorithm to produce the JWE Encrypted Key.
+     o  Authenticated encryption is performed on the plaintext using the
+        AES_128_CBC_HMAC_SHA_256 algorithm to produce the ciphertext and
+        the Authentication Tag.
+"fixed": |-
+  -  The Content Encryption Key is encrypted to the recipient using the RSAES-PKCS1-v1_5 algorithm to produce the JWE Encrypted Key.
+  -  Authenticated encryption is performed on the plaintext using the AES_128_CBC_HMAC_SHA_256 algorithm to produce the ciphertext and the Authentication Tag.
+"ko": |-
+  - 콘텐츠 암호화 키는 RSAES-PKCS1-v1_5 알고리즘을 사용하여 수신자에게 암호화되어 JWE 암호화 키를 생성합니다.
+  - 인증된 암호화는 AES_128_CBC_HMAC_SHA_256 알고리즘을 사용하여 평문에서 수행되어 암호문과 인증 태그를 생성합니다.

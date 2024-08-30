@@ -1,0 +1,26 @@
+"hash": |-
+  3dad8b03330ea39f6f5f700c46f0d1a7767acd047189fadad6630b5f4d8cf438
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The list of media formats for each media stream conveys two pieces of
+     information, namely the set of formats (codecs and any parameters
+     associated with the codec, in the case of RTP) that the offerer is
+     capable of sending and/or receiving (depending on the direction
+     attributes), and, in the case of RTP, the RTP payload type numbers
+     used to identify those formats.  If multiple formats are listed, it
+     means that the offerer is capable of making use of any of those
+     formats during the session.  In other words, the answerer MAY change
+     formats in the middle of the session, making use of any of the
+     formats listed, without sending a new offer.  For a sendonly stream,
+     the offer SHOULD indicate those formats the offerer is willing to
+     send for this stream.  For a recvonly stream, the offer SHOULD
+     indicate those formats the offerer is willing to receive for this
+     stream.  For a sendrecv stream, the offer SHOULD indicate those
+     codecs that the offerer is willing to send and receive with.
+"fixed": |-
+  The list of media formats for each media stream conveys two pieces of information, namely the set of formats (codecs and any parameters associated with the codec, in the case of RTP) that the offerer is capable of sending and/or receiving (depending on the direction attributes), and, in the case of RTP, the RTP payload type numbers used to identify those formats.  If multiple formats are listed, it means that the offerer is capable of making use of any of those formats during the session.  In other words, the answerer MAY change formats in the middle of the session, making use of any of the formats listed, without sending a new offer.  For a sendonly stream, the offer SHOULD indicate those formats the offerer is willing to send for this stream.  For a recvonly stream, the offer SHOULD indicate those formats the offerer is willing to receive for this stream.  For a sendrecv stream, the offer SHOULD indicate those codecs that the offerer is willing to send and receive with.
+"ko": |-
+  각 미디어 스트림에 대한 미디어 형식 목록은 두 가지 정보를 전달합니다.즉, 제공자가 전송 및/또는 수신할 수 있는 형식 집합(RTP의 경우 코덱 및 코덱과 관련된 매개변수)과 RTP의 경우 해당 형식을 식별하는 데 사용되는 RTP 페이로드 유형 번호입니다.여러 형식이 나열된 경우 제공자는 세션 중에 해당 형식 중 하나를 사용할 수 있음을 의미합니다.즉, 응답자는 새 제공을 보내지 않고도 나열된 형식 중 하나를 사용하여 세션 중간에 형식을 변경할 수 있습니다.sendonly 스트림의 경우 제공은 제공자가 이 스트림에 대해 보낼 의향이 있는 형식을 표시해야 합니다.recvonly 스트림의 경우 제공은 제공자가 이 스트림에 대해 받을 의향이 있는 형식을 표시해야 합니다.sendrecv 스트림의 경우 제공은 제공자가 보내고 받을 의향이 있는 코덱을 표시해야 합니다.

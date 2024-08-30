@@ -1,0 +1,21 @@
+"hash": |-
+  b85258e15c335d5c3f33868f2d298904bb68924bab44289adca140aa399fff23
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This is an event from the server to the client indicating that the
+     recognizer resource has detected speech or a DTMF digit in the media
+     stream.  This event is useful in implementing kill-on-barge-in
+     scenarios when a synthesizer resource is in a different session from
+     the recognizer resource and hence is not aware of an incoming audio
+     source (see Section 8.4.2).  In these cases, it is up to the client
+     to act as an intermediary and respond to this event by issuing a
+     BARGE-IN-OCCURRED event to the synthesizer resource.  The recognizer
+     resource also MUST send a Proxy-Sync-Id header field with a unique
+     value for this event.
+"fixed": |-
+  This is an event from the server to the client indicating that the recognizer resource has detected speech or a DTMF digit in the media stream.  This event is useful in implementing kill-on-barge-in scenarios when a synthesizer resource is in a different session from the recognizer resource and hence is not aware of an incoming audio source (see Section 8.4.2).  In these cases, it is up to the client to act as an intermediary and respond to this event by issuing a BARGE-IN-OCCURRED event to the synthesizer resource.  The recognizer resource also MUST send a Proxy-Sync-Id header field with a unique value for this event.
+"ko": |-
+  이것은 인식기 리소스가 미디어 스트림에서 음성이나 DTMF 숫자를 감지했음을 나타내는 서버에서 클라이언트로의 이벤트입니다. 이 이벤트는 신디사이저 리소스가 인식기 리소스와 다른 세션에 있고 따라서 들어오는 오디오 소스를 인식하지 못하는 kill-on-barge-in 시나리오를 구현하는 데 유용합니다(섹션 8.4.2 참조). 이러한 경우 클라이언트가 중개자 역할을 하고 신디사이저 리소스에 BARGE-IN-OCCURRED 이벤트를 발행하여 이 이벤트에 응답해야 합니다. 인식기 리소스는 또한 이 이벤트에 대한 고유한 값이 있는 Proxy-Sync-Id 헤더 필드를 보내야 합니다.

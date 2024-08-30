@@ -1,0 +1,20 @@
+"hash": |-
+  a61141947dc7b9ce70f923c5f84e949b1e871180c6463e2052120d183d1aecad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In CGI, a received Content-Length field would be passed as the meta-
+     variable "CONTENT_LENGTH" with a string value matching the received
+     field's value.  In contrast, a received "Content_Length" header field
+     would be passed as the protocol-specific meta-variable
+     "HTTP_CONTENT_LENGTH", which might lead to some confusion if an
+     application mistakenly reads the protocol-specific meta-variable
+     instead of the default one.  (This historical practice is why
+     Section 16.3.2.1 discourages the creation of new field names that
+     contain an underscore.)
+"fixed": |-
+  In CGI, a received Content-Length field would be passed as the meta- variable "CONTENT_LENGTH" with a string value matching the received field's value.  In contrast, a received "Content_Length" header field would be passed as the protocol-specific meta-variable "HTTP_CONTENT_LENGTH", which might lead to some confusion if an application mistakenly reads the protocol-specific meta-variable instead of the default one.  (This historical practice is why Section 16.3.2.1 discourages the creation of new field names that contain an underscore.)
+"ko": |-
+  CGI에서 수신된 Content-Length 필드는 수신된 필드 값과 일치하는 문자열 값을 갖는 메타변수 "CONTENT_LENGTH"로 전달됩니다. 대조적으로, 수신된 "Content_Length" 헤더 필드는 프로토콜별 메타 변수 "HTTP_CONTENT_LENGTH"로 전달됩니다. 이는 애플리케이션이 기본 메타 변수 대신 프로토콜별 메타 변수를 실수로 읽는 경우 약간의 혼란을 초래할 수 있습니다. (이러한 역사적 관행 때문에 섹션 16.3.2.1에서는 밑줄이 포함된 새 필드 이름 생성을 권장하지 않습니다.)

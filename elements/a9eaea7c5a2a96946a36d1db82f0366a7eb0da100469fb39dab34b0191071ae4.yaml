@@ -1,0 +1,14 @@
+"hash": |-
+  a9eaea7c5a2a96946a36d1db82f0366a7eb0da100469fb39dab34b0191071ae4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server fails to verify the ticket, then it falls back to
+     performing a full handshake.  If the ticket is accepted by the server
+     but the handshake fails, the client SHOULD delete the ticket.
+"fixed": |-
+  If the server fails to verify the ticket, then it falls back to performing a full handshake.  If the ticket is accepted by the server but the handshake fails, the client SHOULD delete the ticket.
+"ko": |-
+  서버가 티켓 확인에 실패하면 전체 핸드셰이크 수행으로 대체됩니다. 서버가 티켓을 수락했지만 핸드셰이크가 실패하면 클라이언트는 티켓을 삭제해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  594b48906c36bf74008e4a0be5f1d13eafc05b0d6a7c485edf1e45cad6388caf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server that evaluates an If-Modified-Since condition SHOULD
+     NOT perform the requested method if the condition evaluates to false;
+     instead, the origin server SHOULD generate a 304 (Not Modified)
+     response, including only those metadata that are useful for
+     identifying or updating a previously cached response.
+"fixed": |-
+  An origin server that evaluates an If-Modified-Since condition SHOULD NOT perform the requested method if the condition evaluates to false; instead, the origin server SHOULD generate a 304 (Not Modified) response, including only those metadata that are useful for identifying or updating a previously cached response.
+"ko": |-
+  If-Modified-Since 조건을 평가하는 원서버는 조건이 false로 평가되면 요청된 메서드를 수행해서는 안 됩니다. 대신 원본 서버는 이전에 캐시된 응답을 식별하거나 업데이트하는 데 유용한 메타데이터만 포함하여 304(수정되지 않음) 응답을 생성해야 합니다(SHOULD).

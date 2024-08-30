@@ -1,0 +1,19 @@
+"hash": |-
+  9d198d99c82df5e44d001e39fc1075470e39371bfa1aed4cf519606edfe61055
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To generate such a key pair (r,s), we will use the ChaCha20 block
+     function described in Section 2.3.  This assumes that we have a
+     256-bit session key specifically for the Message Authentication Code
+     (MAC) function.  Any document that specifies the use of Poly1305 as a
+     MAC algorithm for some protocol MUST specify that 256 bits are
+     allocated for the integrity key.  Note that in the AEAD construction
+     defined in Section 2.8, the same key is used for encryption and key
+     generation.
+"fixed": |-
+  To generate such a key pair (r,s), we will use the ChaCha20 block function described in Section 2.3.  This assumes that we have a 256-bit session key specifically for the Message Authentication Code (MAC) function.  Any document that specifies the use of Poly1305 as a MAC algorithm for some protocol MUST specify that 256 bits are allocated for the integrity key.  Note that in the AEAD construction defined in Section 2.8, the same key is used for encryption and key generation.
+"ko": |-
+  이러한 키 쌍(r,s)을 생성하기 위해 섹션 2.3에 설명된 ChaCha20 블록 기능을 사용합니다. 여기서는 MAC(메시지 인증 코드) 기능을 위한 256비트 세션 키가 있다고 가정합니다. 일부 프로토콜에 대한 MAC 알고리즘으로 Poly1305 사용을 지정하는 모든 문서에서는 무결성 키에 256비트가 할당되도록 지정해야 합니다. 섹션 2.8에 정의된 AEAD 구성에서는 암호화 및 키 생성에 동일한 키가 사용됩니다.

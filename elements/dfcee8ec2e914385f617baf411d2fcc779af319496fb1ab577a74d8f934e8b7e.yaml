@@ -1,0 +1,18 @@
+"hash": |-
+  dfcee8ec2e914385f617baf411d2fcc779af319496fb1ab577a74d8f934e8b7e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the client receives a response with a Security-Server header
+     field, it MUST choose the security mechanism in the server's list
+     with the highest "q" value among all the mechanisms that are known to
+     the client.  Then, it MUST initiate that particular security
+     mechanism as described in Section 3.5.  This initiation may be
+     carried out without involving any SIP message exchange (e.g.,
+     establishing a TLS connection).
+"fixed": |-
+  When the client receives a response with a Security-Server header field, it MUST choose the security mechanism in the server's list with the highest "q" value among all the mechanisms that are known to the client.  Then, it MUST initiate that particular security mechanism as described in Section 3.5.  This initiation may be carried out without involving any SIP message exchange (e.g., establishing a TLS connection).
+"ko": |-
+  클라이언트가 Security-Server 헤더 필드가 있는 응답을 받으면 클라이언트가 알고 있는 모든 메커니즘 중에서 가장 높은 "q" 값을 가진 서버 목록에서 보안 메커니즘을 선택해야 합니다. 그런 다음 섹션 3.5에 설명된 대로 해당 보안 메커니즘을 시작해야 합니다. 이 시작은 SIP 메시지 교환(예: TLS 연결 설정)을 수반하지 않고도 수행될 수 있습니다.

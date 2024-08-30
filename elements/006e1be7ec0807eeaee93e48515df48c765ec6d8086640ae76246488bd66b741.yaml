@@ -1,0 +1,16 @@
+"hash": |-
+  006e1be7ec0807eeaee93e48515df48c765ec6d8086640ae76246488bd66b741
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     14.  Compute the Encoded Protected Header value BASE64URL(UTF8(JWE
+          Protected Header)).  If the JWE Protected Header is not present
+          (which can only happen when using the JWE JSON Serialization and
+          no "protected" member is present), let this value be the empty
+          string.
+"fixed": |-
+  1.  Compute the Encoded Protected Header value BASE64URL(UTF8(JWE Protected Header)).  If the JWE Protected Header is not present (which can only happen when using the JWE JSON Serialization and no "protected" member is present), let this value be the empty string.
+"ko": |-
+  1. 인코딩된 보호 헤더 값 BASE64URL(UTF8(JWE 보호 헤더))을 계산합니다. JWE 보호 헤더가 없는 경우(JWE JSON 직렬화를 사용하고 "보호된" 멤버가 없는 경우에만 발생할 수 있음) 이 값을 빈 문자열로 둡니다.

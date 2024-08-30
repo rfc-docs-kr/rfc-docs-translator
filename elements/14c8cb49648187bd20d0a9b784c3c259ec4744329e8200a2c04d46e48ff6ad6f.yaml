@@ -1,0 +1,14 @@
+"hash": |-
+  14c8cb49648187bd20d0a9b784c3c259ec4744329e8200a2c04d46e48ff6ad6f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the new ClientHello contains the extension and the server
+        chooses to continue the handshake, then the server MUST include
+        the "extended_master_secret" extension in its ServerHello message.
+"fixed": |-
+  -  If the new ClientHello contains the extension and the server chooses to continue the handshake, then the server MUST include the "extended_master_secret" extension in its ServerHello message.
+"ko": |-
+  - 새로운 ClientHello에 확장이 포함되어 있고 서버가 핸드셰이크를 계속하기로 선택하는 경우, 서버는 ServerHello 메시지에 "extended_master_secret" 확장을 포함해야 합니다.

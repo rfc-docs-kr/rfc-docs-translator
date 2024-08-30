@@ -1,0 +1,16 @@
+"hash": |-
+  26f122160b0b9cfd71aa890345e8ba7f2bead392b9fb4cee4c93f2c85f8e4605
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  TLS servers MUST NOT reply with an SSL 2.0 SERVER-HELLO with a
+        protocol version that is less than { 0x03, 0x00 } and instead MUST
+        abort the connection, i.e., when the highest protocol version
+        offered by the client is { 0x02, 0x00 }, the TLS connection will
+        be refused.
+"fixed": |-
+  -  TLS servers MUST NOT reply with an SSL 2.0 SERVER-HELLO with a protocol version that is less than { 0x03, 0x00 } and instead MUST abort the connection, i.e., when the highest protocol version offered by the client is { 0x02, 0x00 }, the TLS connection will be refused.
+"ko": |-
+  - TLS 서버는 { 0x03, 0x00 } 미만의 프로토콜 버전을 사용하는 SSL 2.0 SERVER-HELLO로 응답해서는 안 되며 대신 연결을 중단해야 합니다(MUST). 즉, 클라이언트가 제공하는 가장 높은 프로토콜 버전이 { 0x02, 0x00 }인 경우 , TLS 연결이 거부됩니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  716c421b1d86fbca7fe6c816c3e594c8cff1bc7b41db3ffa65840799f6f707f8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Reserved Bits:  The next two bits (those with a mask of 0x18) of byte
+        0 are reserved.  These bits are protected using header protection;
+        see Section 5.4 of [QUIC-TLS].  The value included prior to
+        protection MUST be set to 0.  An endpoint MUST treat receipt of a
+        packet that has a non-zero value for these bits, after removing
+        both packet and header protection, as a connection error of type
+        PROTOCOL_VIOLATION.  Discarding such a packet after only removing
+        header protection can expose the endpoint to attacks; see
+        Section 9.5 of [QUIC-TLS].
+"fixed": |-
+  Reserved Bits:  The next two bits (those with a mask of 0x18) of byte 0 are reserved.  These bits are protected using header protection; see Section 5.4 of [QUIC-TLS].  The value included prior to protection MUST be set to 0.  An endpoint MUST treat receipt of a packet that has a non-zero value for these bits, after removing both packet and header protection, as a connection error of type PROTOCOL_VIOLATION.  Discarding such a packet after only removing header protection can expose the endpoint to attacks; see Section 9.5 of [QUIC-TLS].
+"ko": |-
+  예약된 비트: 바이트 0의 다음 두 비트(마스크가 0x18인 비트)가 예약되어 있습니다. 이러한 비트는 헤더 보호를 사용하여 보호됩니다. [QUIC-TLS]의 섹션 5.4를 참조하세요. 보호 이전에 포함된 값은 0으로 설정되어야 합니다. 엔드포인트는 패킷과 헤더 보호를 모두 제거한 후 이러한 비트에 대해 0이 아닌 값을 갖는 패킷의 수신을 PROTOCOL_VIOLATION 유형의 연결 오류로 처리해야 합니다. 헤더 보호만 제거한 후 이러한 패킷을 폐기하면 엔드포인트가 공격에 노출될 수 있습니다. [QUIC-TLS]의 섹션 9.5를 참조하세요.

@@ -1,0 +1,22 @@
+"hash": |-
+  c8669cacf13f22cb7b2edcada0dfe63ac77abadc7121d8ae5df77f58fbe14590
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Figure 1 shows the message flow between two UAs.  INVITE (1) has an
+     early-session option tag in its Supported header field and the body
+     shown in Figure 2.  The UAS sends back a response with two body
+     parts, as shown in Figure 3: one of disposition type session and the
+     other early-session.  The session body part is the answer to the
+     offer in the INVITE.  The early-session body part is an offer to
+     establish an early media session.  When the UAC receives the 183
+     (Session Progress) response, it sends the answer to the early-session
+     offer in a PRACK, as shown in Figure 4.  This early media session is
+     terminated when the early dialog transitions to a regular dialog.
+     That is, when the UAS sends the (5) 200 (OK) response for the INVITE.
+"fixed": |-
+  Figure 1 shows the message flow between two UAs.  INVITE (1) has an early-session option tag in its Supported header field and the body shown in Figure 2.  The UAS sends back a response with two body parts, as shown in Figure 3: one of disposition type session and the other early-session.  The session body part is the answer to the offer in the INVITE.  The early-session body part is an offer to establish an early media session.  When the UAC receives the 183 (Session Progress) response, it sends the answer to the early-session offer in a PRACK, as shown in Figure 4.  This early media session is terminated when the early dialog transitions to a regular dialog. That is, when the UAS sends the (5) 200 (OK) response for the INVITE.
+"ko": |-
+  그림 1은 두 UA 간의 메시지 흐름을 보여줍니다.INVITE(1)는 Supported 헤더 필드에 early-session 옵션 태그가 있고 그림 2에 표시된 본문이 있습니다.UAS는 그림 3에 표시된 것처럼 두 개의 본문 부분으로 응답을 보냅니다.하나는 세션 처리 유형이고 다른 하나는 early-session입니다.세션 본문 부분은 INVITE의 제안에 대한 답변입니다.early-session 본문 부분은 early media 세션을 설정하기 위한 제안입니다.UAC가 183(세션 진행률) 응답을 받으면 그림 4에 표시된 것처럼 PRACK에서 early-session 제안에 대한 답변을 보냅니다.이 early media 세션은 early 대화가 일반 대화로 전환될 때 종료됩니다.즉, UAS가 INVITE에 대해 (5) 200(OK) 응답을 보낼 때입니다.

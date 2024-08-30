@@ -1,0 +1,18 @@
+"hash": |-
+  32b9373baafd61520c6524a0dc84694e2e1d6438d7ea7234ec1faec359f468bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client indicates its willingness to use pre-shared key
+     authentication by including one or more PSK ciphersuites in the
+     ClientHello message.  If the TLS server also wants to use pre-shared
+     keys, it selects one of the PSK ciphersuites, places the selected
+     ciphersuite in the ServerHello message, and includes an appropriate
+     ServerKeyExchange message (see below).  The Certificate and
+     CertificateRequest payloads are omitted from the response.
+"fixed": |-
+  The client indicates its willingness to use pre-shared key authentication by including one or more PSK ciphersuites in the ClientHello message.  If the TLS server also wants to use pre-shared keys, it selects one of the PSK ciphersuites, places the selected ciphersuite in the ServerHello message, and includes an appropriate ServerKeyExchange message (see below).  The Certificate and CertificateRequest payloads are omitted from the response.
+"ko": |-
+  클라이언트는 ClientHello 메시지에 하나 이상의 PSK 암호화 모음을 포함하여 사전 공유 키 인증을 사용할 의사가 있음을 나타냅니다. TLS 서버가 사전 공유 키도 사용하려는 경우 PSK 암호화 모음 중 하나를 선택하고 선택한 암호화 모음을 ServerHello 메시지에 배치하며 적절한 ServerKeyExchange 메시지를 포함합니다(아래 참조). Certificate 및 CertificateRequest 페이로드는 응답에서 생략됩니다.

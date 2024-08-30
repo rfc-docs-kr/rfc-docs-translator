@@ -1,0 +1,58 @@
+"hash": |-
+  34643d8d2eb251165e42460e3b435ff4997d9eedf7d28194aeb53eccd2e16fa8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------+-----------------------+------------------------------+
+     | Cause-Code | Cause-Name            | Description                  |
+     +------------+-----------------------+------------------------------+
+     | 000        | success               | RECOGNIZE completed with a   |
+     |            |                       | match or DEFINE-GRAMMAR      |
+     |            |                       | succeeded in downloading and |
+     |            |                       | compiling the grammar.       |
+     |            |                       |                              |
+     | 001        | no-match              | RECOGNIZE completed, but no  |
+     |            |                       | match was found.             |
+     |            |                       |                              |
+     | 002        | no-input-timeout      | RECOGNIZE completed without  |
+     |            |                       | a match due to a             |
+     |            |                       | no-input-timeout.            |
+     |            |                       |                              |
+     | 003        | hotword-maxtime       | RECOGNIZE in hotword mode    |
+     |            |                       | completed without a match    |
+     |            |                       | due to a                     |
+     |            |                       | recognition-timeout.         |
+     |            |                       |                              |
+     | 004        | grammar-load-failure  | RECOGNIZE failed due to      |
+     |            |                       | grammar load failure.        |
+     |            |                       |                              |
+     | 005        | grammar-compilation-  | RECOGNIZE failed due to      |
+     |            | failure               | grammar compilation failure. |
+     |            |                       |                              |
+     | 006        | recognizer-error      | RECOGNIZE request terminated |
+     |            |                       | prematurely due to a         |
+     |            |                       | recognizer error.            |
+     |            |                       |                              |
+     | 007        | speech-too-early      | RECOGNIZE request terminated |
+     |            |                       | because speech was too       |
+     |            |                       | early. This happens when the |
+     |            |                       | audio stream is already      |
+     |            |                       | "in-speech" when the         |
+     |            |                       | RECOGNIZE request was        |
+     |            |                       | received.                    |
+     |            |                       |                              |
+     | 008        | success-maxtime       | RECOGNIZE request terminated |
+     |            |                       | because speech was too long  |
+     |            |                       | but whatever was spoken till |
+     |            |                       | that point was a full match. |
+     |            |                       |                              |
+     | 009        | uri-failure           | Failure accessing a URI.     |
+     |            |                       |                              |
+     | 010        | language-unsupported  | Language not supported.      |
+     |            |                       |                              |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

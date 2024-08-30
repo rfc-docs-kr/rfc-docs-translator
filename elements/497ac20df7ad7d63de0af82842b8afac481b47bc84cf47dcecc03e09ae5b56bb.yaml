@@ -1,0 +1,16 @@
+"hash": |-
+  497ac20df7ad7d63de0af82842b8afac481b47bc84cf47dcecc03e09ae5b56bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Don't store bearer tokens in cookies:  Implementations MUST NOT store
+        bearer tokens within cookies that can be sent in the clear (which
+        is the default transmission mode for cookies).  Implementations
+        that do store bearer tokens in cookies MUST take precautions
+        against cross-site request forgery.
+"fixed": |-
+  Don't store bearer tokens in cookies:  Implementations MUST NOT store bearer tokens within cookies that can be sent in the clear (which is the default transmission mode for cookies).  Implementations that do store bearer tokens in cookies MUST take precautions against cross-site request forgery.
+"ko": |-
+  쿠키에 전달자 토큰을 저장하지 마세요. 구현 시 일반(쿠키의 기본 전송 모드)으로 전송될 수 있는 쿠키 내에 전달자 토큰을 저장해서는 안 됩니다.  쿠키에 전달자 토큰을 저장하는 구현은 교차 사이트 요청 위조에 대해 예방 조치를 취해야 합니다.

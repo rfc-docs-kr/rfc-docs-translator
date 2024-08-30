@@ -1,0 +1,15 @@
+"hash": |-
+  bc88da1f5c3a99a8512f578a6d5cd567c5d7ee526610e6c9442cfcd1bd0f69ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the COPY command is unsuccessful for any reason, server
+     implementations MUST restore the destination mailbox to its state
+     before the COPY attempt (other than possibly incrementing UIDNEXT),
+     i.e., partial copy MUST NOT be done.
+"fixed": |-
+  If the COPY command is unsuccessful for any reason, server implementations MUST restore the destination mailbox to its state before the COPY attempt (other than possibly incrementing UIDNEXT), i.e., partial copy MUST NOT be done.
+"ko": |-
+  COPY 명령이 어떤 이유로든 실패하는 경우 서버 구현은 대상 사서함을 COPY 시도 이전의 상태로 복원해야 합니다(UIDNEXT를 증가시킬 수 있는 경우는 제외). 즉, 부분 복사를 수행하면 안 됩니다.

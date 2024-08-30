@@ -1,0 +1,22 @@
+"hash": |-
+  23e2d15f7a553d7a94da1c2cacc9f7f0e310f1fbd08e436bcd75e63b4080654c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If the Client omits this "document-format" operation attribute,
+           the Printer MUST respond as if the attribute had been supplied
+           with the value of the Printer's "document-format-default"
+           attribute.  Clients SHOULD always supply a value for
+           "document-format", since the Printer's
+           "document-format-default" value can be
+           'application/octet-stream', in which case the returned
+           attributes and values are for the union of the Document formats
+           that the Printer can automatically sense.  For more details,
+           see the description of the 'mimeMediaType' attribute syntax in
+           Section 5.1.10.
+"fixed": |-
+  - If the Client omits this "document-format" operation attribute, the Printer MUST respond as if the attribute had been supplied with the value of the Printer's "document-format-default" attribute.  Clients SHOULD always supply a value for "document-format", since the Printer's "document-format-default" value can be 'application/octet-stream', in which case the returned attributes and values are for the union of the Document formats that the Printer can automatically sense.  For more details, see the description of the 'mimeMediaType' attribute syntax in Section 5.1.10.
+"ko": |-
+  - 클라이언트가 이 "document-format" 작업 속성을 생략하는 경우 프린터는 마치 속성이 프린터의 "document-format-default" 속성 값과 함께 제공된 것처럼 응답해야 합니다. 프린터의 "document-format-default" 값은 'application/octet-stream'일 수 있으므로 클라이언트는 항상 "document-format"에 대한 값을 제공해야 합니다. 이 경우 반환된 속성과 값은 문서 형식의 통합을 위한 것입니다. 프린터가 자동으로 감지할 수 있습니다. 자세한 내용은 섹션 5.1.10의 'mimeMediaType' 속성 구문에 대한 설명을 참조하세요.

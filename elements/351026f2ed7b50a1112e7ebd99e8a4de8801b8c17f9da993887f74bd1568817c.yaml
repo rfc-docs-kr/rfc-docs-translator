@@ -1,0 +1,20 @@
+"hash": |-
+  351026f2ed7b50a1112e7ebd99e8a4de8801b8c17f9da993887f74bd1568817c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the recognizer resource detects speech or a DTMF digit in the
+     media stream, it MUST send the START-OF-INPUT event.  When enough
+     speech has been collected for the server to process, the recognizer
+     can try to match the collected speech with the active grammars.  If
+     the speech collected at this point fully matches with any of the
+     active grammars, the Speech-Complete-Timer is started.  If it matches
+     partially with one or more of the active grammars, with more speech
+     needed before a full match is achieved, then the Speech-Incomplete-
+     Timer is started.
+"fixed": |-
+  When the recognizer resource detects speech or a DTMF digit in the media stream, it MUST send the START-OF-INPUT event.  When enough speech has been collected for the server to process, the recognizer can try to match the collected speech with the active grammars.  If the speech collected at this point fully matches with any of the active grammars, the Speech-Complete-Timer is started.  If it matches partially with one or more of the active grammars, with more speech needed before a full match is achieved, then the Speech-Incomplete- Timer is started.
+"ko": |-
+  인식기 리소스가 미디어 스트림에서 음성이나 DTMF 숫자를 감지하면 START-OF-INPUT 이벤트를 보내야 합니다. 서버에서 처리할 만큼 충분한 음성이 수집되면 인식기는 수집된 음성을 활성 문법과 일치시키려고 시도할 수 있습니다. 이 시점에서 수집된 음성이 활성 문법 중 하나와 완전히 일치하면 Speech-Complete-Timer가 시작됩니다. 하나 이상의 활성 문법과 부분적으로 일치하고 완전히 일치하려면 더 많은 음성이 필요한 경우 Speech-Incomplete-Timer가 시작됩니다.

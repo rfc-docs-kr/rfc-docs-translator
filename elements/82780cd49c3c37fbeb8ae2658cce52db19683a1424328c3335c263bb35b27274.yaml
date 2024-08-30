@@ -1,0 +1,21 @@
+"hash": |-
+  82780cd49c3c37fbeb8ae2658cce52db19683a1424328c3335c263bb35b27274
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MAY drop packet protection keys when entering the closing
+     state and send a packet containing a CONNECTION_CLOSE frame in
+     response to any UDP datagram that is received.  However, an endpoint
+     that discards packet protection keys cannot identify and discard
+     invalid packets.  To avoid being used for an amplification attack,
+     such endpoints MUST limit the cumulative size of packets it sends to
+     three times the cumulative size of the packets that are received and
+     attributed to the connection.  To minimize the state that an endpoint
+     maintains for a closing connection, endpoints MAY send the exact same
+     packet in response to any received packet.
+"fixed": |-
+  An endpoint MAY drop packet protection keys when entering the closing state and send a packet containing a CONNECTION_CLOSE frame in response to any UDP datagram that is received.  However, an endpoint that discards packet protection keys cannot identify and discard invalid packets.  To avoid being used for an amplification attack, such endpoints MUST limit the cumulative size of packets it sends to three times the cumulative size of the packets that are received and attributed to the connection.  To minimize the state that an endpoint maintains for a closing connection, endpoints MAY send the exact same packet in response to any received packet.
+"ko": |-
+  엔드포인트는 종료 상태에 들어갈 때 패킷 보호 키를 삭제하고 수신된 UDP 데이터그램에 대한 응답으로 CONNECTION_CLOSE 프레임이 포함된 패킷을 보낼 수 있습니다. 그러나 패킷 보호 키를 폐기하는 엔드포인트는 유효하지 않은 패킷을 식별하고 폐기할 수 없습니다. 증폭 공격에 사용되는 것을 방지하려면 이러한 엔드포인트는 전송하는 패킷의 누적 크기를 수신되어 연결에 할당된 패킷의 누적 크기의 3배로 제한해야 합니다. 종료 연결에 대해 엔드포인트가 유지하는 상태를 최소화하기 위해 엔드포인트는 수신된 패킷에 대한 응답으로 정확히 동일한 패킷을 보낼 수 있습니다.

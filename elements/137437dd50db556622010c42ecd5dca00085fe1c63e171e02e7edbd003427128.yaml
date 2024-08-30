@@ -1,0 +1,19 @@
+"hash": |-
+  137437dd50db556622010c42ecd5dca00085fe1c63e171e02e7edbd003427128
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        + B is increased by (Seq - T)
+        + (Seq - T) bits are dropped from the low end of the window
+        + (Seq - T) bits are added to the high end of the window
+        + The top bit is set to indicate that a packet with that sequence
+          number has been received and authenticated
+        + The new bits between T and the top bit are set to indicate that
+          no packets with those sequence numbers have been received yet.
+        + T is set to the new sequence number
+"fixed": |-
+  - + B is increased by (Seq - T) + (Seq - T) bits are dropped from the low end of the window + (Seq - T) bits are added to the high end of the window + The top bit is set to indicate that a packet with that sequence number has been received and authenticated + The new bits between T and the top bit are set to indicate that no packets with those sequence numbers have been received yet. + T is set to the new sequence number
+"ko": |-
+  - + B는 (Seq - T)만큼 증가합니다. + (Seq - T) 비트는 창의 낮은 끝에서 삭제됩니다. + (Seq - T) 비트는 창의 높은 끝에 추가됩니다. + 맨 위 비트는 다음으로 설정됩니다. 해당 시퀀스 번호를 가진 패킷이 수신되고 인증되었음을 나타냅니다. + T와 최상위 비트 사이의 새 비트는 해당 시퀀스 번호를 가진 패킷이 아직 수신되지 않았음을 나타내도록 설정됩니다. + T는 새로운 시퀀스 번호로 설정됩니다.

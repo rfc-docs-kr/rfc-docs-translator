@@ -1,0 +1,21 @@
+"hash": |-
+  856868b69fecd243b87533c36e62d73abeb6e135ef4fdf888a302fa905849f22
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field allows the client to request the recognizer
+     resource to save the audio stream for the best repetition of the
+     phrase that was used during the enrollment session.  The recognizer
+     MUST attempt to record the recognized audio and make it available to
+     the client in the form of a URI returned in the Waveform-URI header
+     field in the response to the END-PHRASE-ENROLLMENT method.  If there
+     was an error in recording the stream or the audio data is otherwise
+     not available, the recognizer MUST return an empty Waveform-URI
+     header field.  This header field MAY occur in the START-PHRASE-
+     ENROLLMENT, SET-PARAMS, and GET-PARAMS methods.
+"fixed": |-
+  This header field allows the client to request the recognizer resource to save the audio stream for the best repetition of the phrase that was used during the enrollment session.  The recognizer MUST attempt to record the recognized audio and make it available to the client in the form of a URI returned in the Waveform-URI header field in the response to the END-PHRASE-ENROLLMENT method.  If there was an error in recording the stream or the audio data is otherwise not available, the recognizer MUST return an empty Waveform-URI header field.  This header field MAY occur in the START-PHRASE- ENROLLMENT, SET-PARAMS, and GET-PARAMS methods.
+"ko": |-
+  이 헤더 필드를 사용하면 클라이언트가 인식기 리소스에 등록 세션 동안 사용된 문구의 최상의 반복을 위해 오디오 스트림을 저장하도록 요청할 수 있습니다. 인식기는 인식된 오디오를 녹음하고 END-PHRASE-ENROLLMENT 메서드에 대한 응답으로 Waveform-URI 헤더 필드에 반환된 URI 형태로 클라이언트에서 사용할 수 있도록 해야 합니다. 스트림을 녹음하는 데 오류가 있거나 오디오 데이터를 사용할 수 없는 경우 인식기는 빈 Waveform-URI 헤더 필드를 반환해야 합니다. 이 헤더 필드는 START-PHRASE-ENROLLMENT, SET-PARAMS 및 GET-PARAMS 메서드에서 발생할 수 있습니다.

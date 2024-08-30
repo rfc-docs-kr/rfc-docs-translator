@@ -1,0 +1,20 @@
+"hash": |-
+  2627175cc1d87ad0e58dbd6410a7c1806240ec54d8776ecc71f323ba79198abb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The u-coordinates are elements of the underlying field GF(2^255 - 19)
+     or GF(2^448 - 2^224 - 1) and are encoded as an array of bytes, u, in
+     little-endian order such that u[0] + 256*u[1] + 256^2*u[2] + ... +
+     256^(n-1)*u[n-1] is congruent to the value modulo p and u[n-1] is
+     minimal.  When receiving such an array, implementations of X25519
+     (but not X448) MUST mask the most significant bit in the final byte.
+     This is done to preserve compatibility with point formats that
+     reserve the sign bit for use in other protocols and to increase
+     resistance to implementation fingerprinting.
+"fixed": |-
+  The u-coordinates are elements of the underlying field GF(2^255 - 19) or GF(2^448 - 2^224 - 1) and are encoded as an array of bytes, u, in little-endian order such that u[0] + 256*u[1] + 256^2*u[2] + ... + 256^(n-1)*u[n-1] is congruent to the value modulo p and u[n-1] is minimal.  When receiving such an array, implementations of X25519 (but not X448) MUST mask the most significant bit in the final byte. This is done to preserve compatibility with point formats that reserve the sign bit for use in other protocols and to increase resistance to implementation fingerprinting.
+"ko": |-
+  u 좌표는 기본 필드 GF(2^255 - 19) 또는 GF(2^448 - 2^224 - 1)의 요소이며 u가 리틀 엔디안 순서로 바이트 배열 u로 인코딩됩니다. [0] + 256*u[1] + 256^2*u[2] + ... + 256^(n-1)*u[n-1]은 모듈로 p 및 u[n- 값과 일치합니다. 1]은 최소화됩니다. 이러한 배열을 수신할 때 X25519(X448은 제외) 구현은 최종 바이트의 최상위 비트를 마스크해야 합니다. 이는 다른 프로토콜에서 사용하기 위해 부호 비트를 예약하는 포인트 형식과의 호환성을 유지하고 구현 핑거프린팅에 대한 저항을 높이기 위해 수행됩니다.

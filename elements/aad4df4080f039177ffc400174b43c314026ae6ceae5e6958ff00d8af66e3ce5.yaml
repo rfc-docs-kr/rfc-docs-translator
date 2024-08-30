@@ -1,0 +1,19 @@
+"hash": |-
+  aad4df4080f039177ffc400174b43c314026ae6ceae5e6958ff00d8af66e3ce5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            select (KeyExchangeAlgorithm) {
+                /* other cases for rsa, diffie_hellman, etc. */
+                case rsa_psk:   /* NEW */
+                    opaque psk_identity<0..2^16-1>;
+                    EncryptedPreMasterSecret;
+            } exchange_keys;
+        } ClientKeyExchange;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

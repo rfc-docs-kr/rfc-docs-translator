@@ -1,0 +1,25 @@
+"hash": |-
+  22ed090dde7ba1cbe8414b8232bb72db8e2568919a566b3628d449fa0c02b943
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     How does a PE determine which Target VPN attributes to associate with
+     a given route?  There are a number of different possible ways.  The
+     PE might be configured to associate all routes that lead to a
+     particular site with a particular Target VPN.  Or the PE might be
+     configured to associate certain routes leading to a particular site
+     with one Target VPN, and certain with another.  Or the CE router,
+     when it distributes these routes to the PE (see section 6), might
+     specify one or more Target VPNs for each route.  The latter method
+     shifts the control of the mechanisms used to implement the VPN
+     policies from the SP to the customer.  If this method is used, it may
+     still be desirable to have the PE eliminate any Target VPNs that,
+     according to its own configuration, are not allowed, and/or to add in
+     some Target VPNs that according to its own configuration are
+     mandatory.
+"fixed": |-
+  How does a PE determine which Target VPN attributes to associate with a given route?  There are a number of different possible ways.  The PE might be configured to associate all routes that lead to a particular site with a particular Target VPN.  Or the PE might be configured to associate certain routes leading to a particular site with one Target VPN, and certain with another.  Or the CE router, when it distributes these routes to the PE (see section 6), might specify one or more Target VPNs for each route.  The latter method shifts the control of the mechanisms used to implement the VPN policies from the SP to the customer.  If this method is used, it may still be desirable to have the PE eliminate any Target VPNs that, according to its own configuration, are not allowed, and/or to add in some Target VPNs that according to its own configuration are mandatory.
+"ko": |-
+  PE는 주어진 경로와 연결할 대상 VPN 속성을 어떻게 결정합니까? 가능한 방법은 여러 가지가 있습니다. PE는 특정 사이트로 이어지는 모든 경로를 특정 대상 VPN과 연결하도록 구성될 수 있습니다. 또는 PE는 특정 사이트로 이어지는 특정 경로를 하나의 대상 VPN과 연결하고 특정 경로를 다른 대상 VPN과 연결하도록 구성될 수 있습니다. 또는 CE 라우터는 이러한 경로를 PE에 배포할 때(섹션 6 참조) 각 경로에 대해 하나 이상의 대상 VPN을 지정할 수 있습니다. 후자의 방법은 VPN 정책을 구현하는 데 사용되는 메커니즘의 제어를 SP에서 고객에게 넘깁니다. 이 방법을 사용하는 경우 PE가 자체 구성에 따라 허용되지 않는 대상 VPN을 제거하거나 자체 구성에 따라 필수적인 일부 대상 VPN을 추가하는 것이 여전히 바람직할 수 있습니다.

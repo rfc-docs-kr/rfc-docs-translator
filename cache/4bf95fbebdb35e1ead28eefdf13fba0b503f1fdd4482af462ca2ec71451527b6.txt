@@ -1,0 +1,1 @@
+위 표의 두 번째 줄에 따라 MAC-then-encrypt에서 encrypt-then-MAC으로 업그레이드가 협상되면 변경은 Change Cipher Spec(CCS) 메시지 다음에 오는 첫 번째 메시지에서 이루어집니다. 즉, CCS를 포함한 모든 메시지는 MAC-then-encrypt를 사용하고, 그 다음에 오는 메시지는 encrypt-then-MAC을 계속 사용합니다.

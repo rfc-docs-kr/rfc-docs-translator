@@ -1,0 +1,18 @@
+"hash": |-
+  5ad2838510da64cf2f7066ea85369e2aa80214402fb7dbdeb3ee8d0432a60768
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As QUIC runs over UDP, the primary attack modality of concern is one
+     where an attacker can select the address to which its peer sends UDP
+     datagrams and can control some of the unprotected content of those
+     packets.  As much of the data sent by QUIC endpoints is protected,
+     this includes control over ciphertext.  An attack is successful if an
+     attacker can cause a peer to send a UDP datagram to a host that will
+     perform some action based on content in the datagram.
+"fixed": |-
+  As QUIC runs over UDP, the primary attack modality of concern is one where an attacker can select the address to which its peer sends UDP datagrams and can control some of the unprotected content of those packets.  As much of the data sent by QUIC endpoints is protected, this includes control over ciphertext.  An attack is successful if an attacker can cause a peer to send a UDP datagram to a host that will perform some action based on content in the datagram.
+"ko": |-
+  QUIC가 UDP를 통해 실행될 때 우려되는 주요 공격 방식은 공격자가 피어가 UDP 데이터그램을 보내는 주소를 선택하고 해당 패킷의 보호되지 않은 일부 콘텐츠를 제어할 수 있다는 것입니다. QUIC 엔드포인트에서 전송된 많은 데이터가 보호되므로 여기에는 암호문에 대한 제어도 포함됩니다. 공격자가 피어가 데이터그램의 콘텐츠를 기반으로 일부 작업을 수행하는 호스트에 UDP 데이터그램을 보내도록 할 수 있으면 공격은 성공한 것입니다.

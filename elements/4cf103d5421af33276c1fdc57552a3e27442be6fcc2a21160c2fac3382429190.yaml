@@ -1,0 +1,18 @@
+"hash": |-
+  4cf103d5421af33276c1fdc57552a3e27442be6fcc2a21160c2fac3382429190
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This lets them have many web-hosting customers without having to
+     configure thousands of individual zones on their name servers.  They
+     just tell the prospective customer to point their NS records at the
+     hoster's name servers, and the web hoster doesn't have to provision
+     anything in order to make the customer's domain resolve.  NS queries
+     to the hoster will therefore not give the right result, which may
+     endanger QNAME minimisation (it will be a problem for DNSSEC, too).
+"fixed": |-
+  This lets them have many web-hosting customers without having to configure thousands of individual zones on their name servers.  They just tell the prospective customer to point their NS records at the hoster's name servers, and the web hoster doesn't have to provision anything in order to make the customer's domain resolve.  NS queries to the hoster will therefore not give the right result, which may endanger QNAME minimisation (it will be a problem for DNSSEC, too).
+"ko": |-
+  이를 통해 이름 서버에 수천 개의 개별 영역을 구성하지 않고도 많은 웹 호스팅 고객을 보유할 수 있습니다. 그들은 잠재 고객에게 자신의 NS 레코드가 호스팅 업체의 이름 서버를 가리키도록 지시할 뿐이며, 웹 호스팅 업체는 고객의 도메인을 확인하기 위해 아무것도 프로비저닝할 필요가 없습니다. 따라서 호스팅 업체에 대한 NS 쿼리는 올바른 결과를 제공하지 못하며, 이는 QNAME 최소화를 위험에 빠뜨릴 수 있습니다(DNSSEC에도 문제가 될 수 있음).

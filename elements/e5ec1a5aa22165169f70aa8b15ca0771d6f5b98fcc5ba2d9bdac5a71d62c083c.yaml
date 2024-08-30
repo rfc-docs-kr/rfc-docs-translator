@@ -1,0 +1,20 @@
+"hash": |-
+  e5ec1a5aa22165169f70aa8b15ca0771d6f5b98fcc5ba2d9bdac5a71d62c083c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One way to construct a PMTU probe is to coalesce (see Section 12.2) a
+     packet with a long header, such as a Handshake or 0-RTT packet
+     (Section 17.2), with a short header packet in a single UDP datagram.
+     If the resulting PMTU probe reaches the endpoint, the packet with the
+     long header will be ignored, but the short header packet will be
+     acknowledged.  If the PMTU probe causes an ICMP message to be sent,
+     the first part of the probe will be quoted in that message.  If the
+     Source Connection ID field is within the quoted portion of the probe,
+     that could be used for routing or validation of the ICMP message.
+"fixed": |-
+  One way to construct a PMTU probe is to coalesce (see Section 12.2) a packet with a long header, such as a Handshake or 0-RTT packet (Section 17.2), with a short header packet in a single UDP datagram. If the resulting PMTU probe reaches the endpoint, the packet with the long header will be ignored, but the short header packet will be acknowledged.  If the PMTU probe causes an ICMP message to be sent, the first part of the probe will be quoted in that message.  If the Source Connection ID field is within the quoted portion of the probe, that could be used for routing or validation of the ICMP message.
+"ko": |-
+  PMTU 프로브를 구성하는 한 가지 방법은 Handshake 또는 0-RTT 패킷(섹션 17.2)과 같은 긴 헤더가 있는 패킷을 단일 UDP 데이터그램의 짧은 헤더 패킷과 통합하는 것입니다(섹션 12.2 참조). 결과 PMTU 프로브가 엔드포인트에 도달하면 긴 헤더가 있는 패킷은 무시되지만 짧은 헤더 패킷은 승인됩니다. PMTU 프로브로 인해 ICMP 메시지가 전송되는 경우 프로브의 첫 번째 부분이 해당 메시지에 인용됩니다. 원본 연결 ID 필드가 프로브의 인용 부분 내에 있으면 ICMP 메시지의 라우팅 또는 유효성 검사에 사용될 수 있습니다.

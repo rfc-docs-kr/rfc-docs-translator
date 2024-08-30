@@ -1,0 +1,18 @@
+"hash": |-
+  e4b1b4c7480fcc7da22d67f7b916db5799f52af827541c3d4b78deb870c614de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The first packet for an unsupported version can use different
+     semantics and encodings for any version-specific field.  In
+     particular, different packet protection keys might be used for
+     different versions.  Servers that do not support a particular version
+     are unlikely to be able to decrypt the payload of the packet or
+     properly interpret the result.  Servers SHOULD respond with a Version
+     Negotiation packet, provided that the datagram is sufficiently long.
+"fixed": |-
+  The first packet for an unsupported version can use different semantics and encodings for any version-specific field.  In particular, different packet protection keys might be used for different versions.  Servers that do not support a particular version are unlikely to be able to decrypt the payload of the packet or properly interpret the result.  Servers SHOULD respond with a Version Negotiation packet, provided that the datagram is sufficiently long.
+"ko": |-
+  지원되지 않는 버전의 첫 번째 패킷은 버전별 필드에 대해 서로 다른 의미 및 인코딩을 사용할 수 있습니다. 특히, 버전마다 다른 패킷 보호 키가 사용될 수 있습니다. 특정 버전을 지원하지 않는 서버는 패킷의 페이로드를 해독하거나 결과를 적절하게 해석할 수 없습니다. 서버는 데이터그램이 충분히 긴 경우 버전 협상 패킷으로 응답해야 합니다.

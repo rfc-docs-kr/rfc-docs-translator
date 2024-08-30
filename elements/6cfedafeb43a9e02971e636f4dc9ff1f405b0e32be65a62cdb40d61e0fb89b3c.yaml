@@ -1,0 +1,18 @@
+"hash": |-
+  6cfedafeb43a9e02971e636f4dc9ff1f405b0e32be65a62cdb40d61e0fb89b3c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the destination mailbox does not exist, a server MUST return an
+     error and MUST NOT automatically create the mailbox.  Unless it is
+     certain that the destination mailbox cannot be created, the server
+     MUST send the response code "[TRYCREATE]" as the prefix of the text
+     of the tagged NO response.  This gives a hint to the client that it
+     can attempt a CREATE command and retry the APPEND if the CREATE is
+     successful.
+"fixed": |-
+  If the destination mailbox does not exist, a server MUST return an error and MUST NOT automatically create the mailbox.  Unless it is certain that the destination mailbox cannot be created, the server MUST send the response code "[TRYCREATE]" as the prefix of the text of the tagged NO response.  This gives a hint to the client that it can attempt a CREATE command and retry the APPEND if the CREATE is successful.
+"ko": |-
+  대상 사서함이 존재하지 않는 경우 서버는 오류를 반환해야 하며 자동으로 사서함을 생성해서는 안 됩니다.  대상 사서함을 만들 수 없다는 것이 확실하지 않은 한 서버는 태그가 지정된 NO 응답 텍스트의 접두사로 응답 코드 "[TRYCREATE]"를 보내야 합니다.  이는 CREATE 명령을 시도하고 CREATE가 성공하면 APPEND를 다시 시도할 수 있다는 힌트를 클라이언트에 제공합니다.

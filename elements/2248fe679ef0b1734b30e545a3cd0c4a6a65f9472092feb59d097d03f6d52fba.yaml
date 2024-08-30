@@ -1,0 +1,20 @@
+"hash": |-
+  2248fe679ef0b1734b30e545a3cd0c4a6a65f9472092feb59d097d03f6d52fba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A recipient MUST interpret a received protocol element according to
+     the semantics defined for it by this specification, including
+     extensions to this specification, unless the recipient has determined
+     (through experience or configuration) that the sender incorrectly
+     implements what is implied by those semantics.  For example, an
+     origin server might disregard the contents of a received
+     Accept-Encoding header field if inspection of the User-Agent header
+     field indicates a specific implementation version that is known to
+     fail on receipt of certain content codings.
+"fixed": |-
+  A recipient MUST interpret a received protocol element according to the semantics defined for it by this specification, including extensions to this specification, unless the recipient has determined (through experience or configuration) that the sender incorrectly implements what is implied by those semantics.  For example, an origin server might disregard the contents of a received Accept-Encoding header field if inspection of the User-Agent header field indicates a specific implementation version that is known to fail on receipt of certain content codings.
+"ko": |-
+  수신자가 (경험이나 구성을 통해) 발신자가 해당 의미에 의해 암시된 내용을 잘못 구현했다고 판단하지 않는 한, 수신자는 이 사양에 대한 확장을 포함하여 이 사양에 의해 정의된 의미에 따라 수신된 프로토콜 요소를 해석해야 합니다. 예를 들어, User-Agent 헤더 필드를 조사한 결과 특정 콘텐츠 코딩 수신 시 실패하는 것으로 알려진 특정 구현 버전이 표시되는 경우 원서버는 수신된 Accept-Encoding 헤더 필드의 콘텐츠를 무시할 수 있습니다.

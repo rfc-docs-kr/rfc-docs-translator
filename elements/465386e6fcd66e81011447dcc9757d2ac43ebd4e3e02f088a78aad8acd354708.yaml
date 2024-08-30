@@ -1,0 +1,19 @@
+"hash": |-
+  465386e6fcd66e81011447dcc9757d2ac43ebd4e3e02f088a78aad8acd354708
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For example, if a STOP request with no Active-Request-Id-List is sent
+     to a synthesizer resource that has one or more SPEAK requests in the
+     PENDING or IN-PROGRESS state, all SPEAK requests MUST be cancelled,
+     including the one IN-PROGRESS.  The response to the STOP request
+     contains in the Active-Request-Id-List value the request-ids of all
+     the SPEAK requests that were terminated.  After sending the STOP
+     response, the server MUST NOT send any SPEAK-COMPLETE or RECOGNITION-
+     COMPLETE events for the terminated requests.
+"fixed": |-
+  For example, if a STOP request with no Active-Request-Id-List is sent to a synthesizer resource that has one or more SPEAK requests in the PENDING or IN-PROGRESS state, all SPEAK requests MUST be cancelled, including the one IN-PROGRESS.  The response to the STOP request contains in the Active-Request-Id-List value the request-ids of all the SPEAK requests that were terminated.  After sending the STOP response, the server MUST NOT send any SPEAK-COMPLETE or RECOGNITION- COMPLETE events for the terminated requests.
+"ko": |-
+  예를 들어, Active-Request-Id-List가 없는 STOP 요청이 PENDING 또는 IN-PROGRESS 상태의 SPEAK 요청이 하나 이상 있는 신디사이저 리소스로 전송되는 경우, IN-PROGRESS를 포함한 모든 SPEAK 요청은 반드시 취소되어야 합니다. STOP 요청에 대한 응답에는 종료된 모든 SPEAK 요청의 요청 ID가 Active-Request-Id-List 값에 포함됩니다. STOP 응답을 보낸 후, 서버는 종료된 요청에 대해 SPEAK-COMPLETE 또는 RECOGNITION-COMPLETE 이벤트를 보내서는 안 됩니다.

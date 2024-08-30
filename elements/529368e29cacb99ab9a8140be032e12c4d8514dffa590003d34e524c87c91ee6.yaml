@@ -1,0 +1,16 @@
+"hash": |-
+  529368e29cacb99ab9a8140be032e12c4d8514dffa590003d34e524c87c91ee6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that chooses not to retransmit packets containing a
+     CONNECTION_CLOSE frame risks a peer missing the first such packet.
+     The only mechanism available to an endpoint that continues to receive
+     data for a terminated connection is to attempt the stateless reset
+     process (Section 10.3).
+"fixed": |-
+  An endpoint that chooses not to retransmit packets containing a CONNECTION_CLOSE frame risks a peer missing the first such packet. The only mechanism available to an endpoint that continues to receive data for a terminated connection is to attempt the stateless reset process (Section 10.3).
+"ko": |-
+  CONNECTION_CLOSE 프레임이 포함된 패킷을 재전송하지 않기로 선택한 엔드포인트는 피어가 첫 번째 패킷을 놓칠 위험이 있습니다. 종료된 연결에 대한 데이터를 계속 수신하는 엔드포인트에 사용할 수 있는 유일한 메커니즘은 무상태 재설정 프로세스(10.3절)를 시도하는 것입니다.

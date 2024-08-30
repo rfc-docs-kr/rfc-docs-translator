@@ -1,0 +1,18 @@
+"hash": |-
+  b5fefba052ee1be03b1676c7a89bbdefee70af11bd578439d0a6677f0e13a651
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        There is no need for a server that included the special flag \* to
+        return a new PERMANENTFLAGS response code when a new keyword was
+        successfully set on a message upon client request.  However, if
+        the server has a limit on the number of different keywords that
+        can be stored in a mailbox and that limit is reached, the server
+        MUST send a new PERMANENTFLAGS response code without the special
+        flag \*.
+"fixed": |-
+  - There is no need for a server that included the special flag \* to return a new PERMANENTFLAGS response code when a new keyword was successfully set on a message upon client request.  However, if the server has a limit on the number of different keywords that can be stored in a mailbox and that limit is reached, the server MUST send a new PERMANENTFLAGS response code without the special flag \*.
+"ko": |-
+  - 클라이언트 요청 시 메시지에 새 키워드가 성공적으로 설정된 경우 특수 플래그 \*를 포함하는 서버가 새 PERMANENTFLAGS 응답 코드를 반환할 필요가 없습니다.  그러나 서버에 사서함에 저장할 수 있는 다양한 키워드 수에 대한 제한이 있고 해당 제한에 도달한 경우 서버는 특수 플래그 \* 없이 새로운 PERMANENTFLAGS 응답 코드를 보내야 합니다.

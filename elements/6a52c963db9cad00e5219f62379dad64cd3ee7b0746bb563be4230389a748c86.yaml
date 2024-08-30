@@ -1,0 +1,17 @@
+"hash": |-
+  6a52c963db9cad00e5219f62379dad64cd3ee7b0746bb563be4230389a748c86
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the server also supports the [MULTIAPPEND] extension, and if
+        multiple messages were appended in the APPEND command, then the
+        second value is a UID set containing the UIDs assigned to the
+        appended messages, in the order they were transmitted in the
+        APPEND command.  This UID set may not contain extraneous UIDs or
+        the symbol "*".
+"fixed": |-
+  - If the server also supports the [MULTIAPPEND] extension, and if multiple messages were appended in the APPEND command, then the second value is a UID set containing the UIDs assigned to the appended messages, in the order they were transmitted in the APPEND command.  This UID set may not contain extraneous UIDs or the symbol "*".
+"ko": |-
+  - 서버가 [MULTIAPPEND] 확장도 지원하고 APPEND 명령에 여러 메시지가 추가된 경우 두 번째 값은 APPEND 명령에서 전송된 순서대로 추가된 메시지에 할당된 UID를 포함하는 UID 세트입니다. .  이 UID 세트에는 외부 UID나 "*" 기호가 포함될 수 없습니다.

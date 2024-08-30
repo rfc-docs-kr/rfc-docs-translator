@@ -1,0 +1,22 @@
+"hash": |-
+  1a3019cb4e9ed96c938e9a61d28259bca905490c8a0aa27e7b43aafcbc4c4b82
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client sends a ClientHello using the Session ID of the session to
+     be resumed. The server then checks its session cache for a match.  If
+     a match is found, and the server is willing to re-establish the
+     connection under the specified session state, it will send a
+     ServerHello with the same Session ID value. At this point, both
+     client and server must send change cipher spec messages and proceed
+     directly to finished messages. Once the re-establishment is complete,
+     the client and server may begin to exchange application layer data.
+     (See flow chart below.) If a Session ID match is not found, the
+     server generates a new session ID and the TLS client and server
+     perform a full handshake.
+"fixed": |-
+  The client sends a ClientHello using the Session ID of the session to be resumed. The server then checks its session cache for a match.  If a match is found, and the server is willing to re-establish the connection under the specified session state, it will send a ServerHello with the same Session ID value. At this point, both client and server must send change cipher spec messages and proceed directly to finished messages. Once the re-establishment is complete, the client and server may begin to exchange application layer data. (See flow chart below.) If a Session ID match is not found, the server generates a new session ID and the TLS client and server perform a full handshake.
+"ko": |-
+  클라이언트는 재개할 세션의 세션 ID를 사용하여 ClientHello를 보냅니다. 그런 다음 서버는 일치하는 항목이 있는지 세션 캐시를 확인합니다. 일치하는 항목이 발견되고 서버가 지정된 세션 상태에서 연결을 다시 설정하려는 경우 동일한 세션 ID 값을 사용하여 ServerHello를 보냅니다. 이 시점에서 클라이언트와 서버는 모두 암호 사양 변경 메시지를 보내고 완료된 메시지로 직접 진행해야 합니다. 재설정이 완료되면 클라이언트와 서버는 애플리케이션 계층 데이터 교환을 시작할 수 있습니다. (아래 흐름도를 참조하세요.) 세션 ID 일치가 발견되지 않으면 서버는 새 세션 ID를 생성하고 TLS 클라이언트와 서버는 전체 핸드셰이크를 수행합니다.

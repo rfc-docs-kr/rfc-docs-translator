@@ -1,0 +1,36 @@
+"hash": |-
+  19edab803361907be94a4512309ce5ba0a04114f0508e39386a2fcda0cecd972
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                *  it explores the Network mail box directory and accesses
+                   the file DATA;
+                *  it couples the first page of this file to its virtual
+                   space (Shared Zone, see 3.3.1.2).  Suppose this page to
+                   be kth in the shared zone; k is the internal connection
+                   #;
+                *  it explores the ith slot of the new HOST table (See
+                   3.3.1.1 (a)) and selects the first bit = 0, e.g., the
+                   (alpha)th bit; alpha corresponds to the outgoing link
+                   #;
+                *  it stores information (job/process #, remote HOST #
+                   (i), outgoing link # (alpha)) in the kth slot of the
+                   CONNECT table (See 3.3.1.2).
+                *  it momentarily stores the connection # (k) in the INPUT
+                   LINK table.  This is carried out upon creating an entry
+                   in this table (Hashing the key value:  "outgoing link #
+                   (alpha) + remote HOST # (i) + outgoing flag".);
+                *  it prepares the message text ENQ PRIM 0 0 a and formats
+                   a complete message in adding leader, marking, checksum,
+                   etc.;
+                *  it checks the Handler state (bit in I/O locked page).
+                   If the Handler is free, it stores the 'ready to go'
+                   control message in the output buffer of the I/O locked
+                   page, initiates the Handler, and goes to sleep.  Else
+                   it goes to sleep.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

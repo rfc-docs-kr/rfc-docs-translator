@@ -1,0 +1,18 @@
+"hash": |-
+  f507cdb525ede4c79c5b9e11a9528e5a675a3879a725a04689d28005bea49e85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Completely anonymous sessions can be established using RSA or Diffie-
+     Hellman for key exchange.  With anonymous RSA, the client encrypts a
+     pre_master_secret with the server's uncertified public key extracted
+     from the server key exchange message.  The result is sent in a client
+     key exchange message.  Since eavesdroppers do not know the server's
+     private key, it will be infeasible for them to decode the
+     pre_master_secret.
+"fixed": |-
+  Completely anonymous sessions can be established using RSA or Diffie- Hellman for key exchange.  With anonymous RSA, the client encrypts a pre_master_secret with the server's uncertified public key extracted from the server key exchange message.  The result is sent in a client key exchange message.  Since eavesdroppers do not know the server's private key, it will be infeasible for them to decode the pre_master_secret.
+"ko": |-
+  키 교환을 위해 RSA 또는 Diffie-Hellman을 사용하여 완전한 익명 세션을 설정할 수 있습니다. 익명 RSA를 사용하면 클라이언트는 서버 키 교환 메시지에서 추출된 서버의 인증되지 않은 공개 키로 pre_master_secret을 암호화합니다. 결과는 클라이언트 키 교환 메시지로 전송됩니다. 도청자는 서버의 개인 키를 모르기 때문에 pre_master_secret을 해독하는 것은 불가능합니다.

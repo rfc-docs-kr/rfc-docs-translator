@@ -1,0 +1,1 @@
+EXT-X-MEDIA 태그의 URI 속성은 미디어 유형이 SUBTITLES인 경우 필수이지만 미디어 유형이 VIDEO 또는 AUDIO인 경우 선택사항입니다. 미디어 유형이 VIDEO 또는 AUDIO인 경우 누락된 URI 속성은 이 Rendition의 미디어 데이터가 이 EXT-X-MEDIA 태그를 참조하는 모든 EXT-X-STREAM-INF 태그의 미디어 재생 목록에 포함되어 있음을 나타냅니다. 미디어 TYPE이 AUDIO이고 URI 속성이 누락된 경우 클라이언트는 이 변환에 대한 오디오 데이터가 EXT-X-STREAM-INF 태그로 지정된 모든 비디오 변환에 존재한다고 가정해야 합니다.

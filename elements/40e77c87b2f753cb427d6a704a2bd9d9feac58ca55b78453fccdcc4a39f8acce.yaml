@@ -1,0 +1,17 @@
+"hash": |-
+  40e77c87b2f753cb427d6a704a2bd9d9feac58ca55b78453fccdcc4a39f8acce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Peer A then includes this certificate when it sends a PEX_REScert to
+     Peer B.  Receiver Peer B verifies it against the tracker public key.
+     This tracker public key should be part of the swarm's metadata, which
+     Peer B received from a trusted source.  Subsequently, Peer B can send
+     the member certificate of Peer A to other peers in PEX_REScert
+     messages.
+"fixed": |-
+  Peer A then includes this certificate when it sends a PEX_REScert to Peer B.  Receiver Peer B verifies it against the tracker public key. This tracker public key should be part of the swarm's metadata, which Peer B received from a trusted source.  Subsequently, Peer B can send the member certificate of Peer A to other peers in PEX_REScert messages.
+"ko": |-
+  그런 다음 피어 A는 PEX_REScert를 피어 B에 보낼 때 이 인증서를 포함합니다. 수신기 피어 B는 추적기 공개 키에 대해 이를 확인합니다. 이 추적기 공개 키는 피어 B가 신뢰할 수 있는 소스로부터 받은 떼의 메타데이터의 일부여야 합니다. 이후에 피어 B는 PEX_REScert 메시지를 통해 피어 A의 구성원 인증서를 다른 피어에게 보낼 수 있습니다.

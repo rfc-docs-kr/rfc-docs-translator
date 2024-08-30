@@ -1,0 +1,19 @@
+"hash": |-
+  a856975d3fcb19fc20c092d84828652a1f33fd548e79fea8bad48efdbe34df32
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The receiver only sends MAX_STREAM_DATA frames in the "Recv" state.
+     A receiver MAY send a STOP_SENDING frame in any state where it has
+     not received a RESET_STREAM frame -- that is, states other than
+     "Reset Recvd" or "Reset Read".  However, there is little value in
+     sending a STOP_SENDING frame in the "Data Recvd" state, as all stream
+     data has been received.  A sender could receive either of these two
+     types of frames in any state as a result of delayed delivery of
+     packets.
+"fixed": |-
+  The receiver only sends MAX_STREAM_DATA frames in the "Recv" state. A receiver MAY send a STOP_SENDING frame in any state where it has not received a RESET_STREAM frame -- that is, states other than "Reset Recvd" or "Reset Read".  However, there is little value in sending a STOP_SENDING frame in the "Data Recvd" state, as all stream data has been received.  A sender could receive either of these two types of frames in any state as a result of delayed delivery of packets.
+"ko": |-
+  수신기는 'Recv' 상태에서만 MAX_STREAM_DATA 프레임을 보냅니다. 수신자는 RESET_STREAM 프레임을 수신하지 않은 모든 상태, 즉 "Reset Recvd" 또는 "Reset Read" 이외의 상태에서 STOP_SENDING 프레임을 보낼 수 있습니다. 그러나 모든 스트림 데이터가 수신되었으므로 "Data Recvd" 상태에서 STOP_SENDING 프레임을 보내는 것은 거의 가치가 없습니다. 발신자는 패킷 전달 지연으로 인해 어떤 상태에서든 이 두 가지 유형의 프레임 중 하나를 수신할 수 있습니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  78f60289bdfc778513fcb6b3e90661a49359baa9ab4f1e09332957c0eee15d8c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Retry Packet {
+       Header Form (1) = 1,
+       Fixed Bit (1) = 1,
+       Long Packet Type (2) = 3,
+       Unused (4),
+       Version (32),
+       Destination Connection ID Length (8),
+       Destination Connection ID (0..160),
+       Source Connection ID Length (8),
+       Source Connection ID (0..160),
+       Retry Token (..),
+       Retry Integrity Tag (128),
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

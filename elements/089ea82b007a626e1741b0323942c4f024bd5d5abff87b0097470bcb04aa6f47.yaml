@@ -1,0 +1,15 @@
+"hash": |-
+  089ea82b007a626e1741b0323942c4f024bd5d5abff87b0097470bcb04aa6f47
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that because MD5 produces 16 byte outputs and SHA-1 produces 20
+     byte outputs, the boundaries of their internal iterations will not be
+     aligned; to generate a 80 byte output will involve P_MD5 being
+     iterated through A(5), while P_SHA-1 will only iterate through A(4).
+"fixed": |-
+  Note that because MD5 produces 16 byte outputs and SHA-1 produces 20 byte outputs, the boundaries of their internal iterations will not be aligned; to generate a 80 byte output will involve P_MD5 being iterated through A(5), while P_SHA-1 will only iterate through A(4).
+"ko": |-
+  MD5는 16바이트 출력을 생성하고 SHA-1은 20바이트 출력을 생성하므로 내부 반복의 경계는 정렬되지 않습니다. 80바이트 출력을 생성하려면 P_MD5가 A(5)를 통해 반복되는 반면 P_SHA-1은 A(4)를 통해서만 반복됩니다.

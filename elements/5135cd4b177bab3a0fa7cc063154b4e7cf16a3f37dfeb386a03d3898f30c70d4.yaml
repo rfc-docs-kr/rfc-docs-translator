@@ -1,0 +1,18 @@
+"hash": |-
+  5135cd4b177bab3a0fa7cc063154b4e7cf16a3f37dfeb386a03d3898f30c70d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The receiving part of a stream initiated by a peer (types 1 and 3 for
+     a client, or 0 and 2 for a server) is created when the first STREAM,
+     STREAM_DATA_BLOCKED, or RESET_STREAM frame is received for that
+     stream.  For bidirectional streams initiated by a peer, receipt of a
+     MAX_STREAM_DATA or STOP_SENDING frame for the sending part of the
+     stream also creates the receiving part.  The initial state for the
+     receiving part of a stream is "Recv".
+"fixed": |-
+  The receiving part of a stream initiated by a peer (types 1 and 3 for a client, or 0 and 2 for a server) is created when the first STREAM, STREAM_DATA_BLOCKED, or RESET_STREAM frame is received for that stream.  For bidirectional streams initiated by a peer, receipt of a MAX_STREAM_DATA or STOP_SENDING frame for the sending part of the stream also creates the receiving part.  The initial state for the receiving part of a stream is "Recv".
+"ko": |-
+  피어에 의해 시작된 스트림의 수신 부분(클라이언트의 경우 유형 1과 3, 서버의 경우 유형 0과 2)은 해당 스트림에 대해 첫 번째 STREAM, STREAM_DATA_BLOCKED 또는 RESET_STREAM 프레임이 수신될 때 생성됩니다. 피어에 의해 시작된 양방향 스트림의 경우 스트림의 전송 부분에 대한 MAX_STREAM_DATA 또는 STOP_SENDING 프레임을 수신하면 수신 부분도 생성됩니다. 스트림 수신 부분의 초기 상태는 "Recv"입니다.

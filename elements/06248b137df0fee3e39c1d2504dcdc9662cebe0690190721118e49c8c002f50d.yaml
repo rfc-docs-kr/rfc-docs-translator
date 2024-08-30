@@ -1,0 +1,31 @@
+"hash": |-
+  06248b137df0fee3e39c1d2504dcdc9662cebe0690190721118e49c8c002f50d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1. Period allowed in obsolete form of phrase.
+     2. ABNF moved out of document to [RFC2234].
+     3. Four or more digits allowed for year.
+     4. Header field ordering (and lack thereof) made explicit.
+     5. Encrypted header field removed.
+     6. Received syntax loosened to allow any token/value pair.
+     7. Specifically allow and give meaning to "-0000" time zone.
+     8. Folding white space is not allowed between every token.
+     9. Requirement for destinations removed.
+     10. Forwarding and resending redefined.
+     11. Extension header fields no longer specifically called out.
+     12. ASCII 0 (null) removed.*
+     13. Folding continuation lines cannot contain only white space.*
+     14. Free insertion of comments not allowed in date.*
+     15. Non-numeric time zones not allowed.*
+     16. Two digit years not allowed.*
+     17. Three digit years interpreted, but not allowed for generation.
+     18. Routes in addresses not allowed.*
+     19. CFWS within local-parts and domains not allowed.*
+     20. Empty members of address lists not allowed.*
+"fixed": |-
+  1. Period allowed in obsolete form of phrase. 2. ABNF moved out of document to [RFC2234]. 3. Four or more digits allowed for year. 4. Header field ordering (and lack thereof) made explicit. 5. Encrypted header field removed. 6. Received syntax loosened to allow any token/value pair. 7. Specifically allow and give meaning to "-0000" time zone. 8. Folding white space is not allowed between every token. 9. Requirement for destinations removed. 10. Forwarding and resending redefined. 11. Extension header fields no longer specifically called out. 12. ASCII 0 (null) removed.* 13. Folding continuation lines cannot contain only white space.* 14. Free insertion of comments not allowed in date.* 15. Non-numeric time zones not allowed.* 16. Two digit years not allowed.* 17. Three digit years interpreted, but not allowed for generation. 18. Routes in addresses not allowed.* 19. CFWS within local-parts and domains not allowed.* 20. Empty members of address lists not allowed.*
+"ko": |-
+  1. 구식 형태의 구문에서는 기간이 허용됩니다. 2. ABNF는 문서에서 [RFC2234]로 이동했습니다. 3. 연도는 4자리 이상 가능합니다. 4. 헤더 필드 순서(및 그 부족)가 명시적으로 지정되었습니다. 5. 암호화된 헤더 필드가 제거되었습니다. 6. 모든 토큰/값 쌍을 허용하도록 수신된 구문이 느슨해졌습니다. 7. "-0000" 시간대를 구체적으로 허용하고 의미를 부여합니다. 8. 모든 토큰 사이에 공백을 접는 것은 허용되지 않습니다. 9. 대상에 대한 요구 사항이 제거되었습니다. 10. 전달 및 재전송이 재정의되었습니다. 11. 확장 헤더 필드가 더 이상 구체적으로 호출되지 않습니다. 12. ASCII 0(널)이 제거되었습니다.* 13. 접는 연속 줄에는 공백만 포함될 수 없습니다.* 14. 날짜에는 주석을 자유롭게 삽입할 수 없습니다.* 15. 숫자가 아닌 시간대는 허용되지 않습니다.* 16. 두 자리 연도 허용되지 않습니다.* 17. 세 자리 연도가 해석되지만 생성이 허용되지 않습니다. 18. 주소의 경로는 허용되지 않습니다.* 19. 로컬 부분 및 도메인 내의 CFWS는 허용되지 않습니다.* 20. 주소 목록의 빈 구성원은 허용되지 않습니다.*

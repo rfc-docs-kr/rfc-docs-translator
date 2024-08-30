@@ -1,0 +1,18 @@
+"hash": |-
+  1bd647e16c4213534e354e98b92ad8fdd8d3d6525cbfa5069fb6af468d23674b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint maintains a set of connection IDs received from its peer,
+     any of which it can use when sending packets.  When the endpoint
+     wishes to remove a connection ID from use, it sends a
+     RETIRE_CONNECTION_ID frame to its peer.  Sending a
+     RETIRE_CONNECTION_ID frame indicates that the connection ID will not
+     be used again and requests that the peer replace it with a new
+     connection ID using a NEW_CONNECTION_ID frame.
+"fixed": |-
+  An endpoint maintains a set of connection IDs received from its peer, any of which it can use when sending packets.  When the endpoint wishes to remove a connection ID from use, it sends a RETIRE_CONNECTION_ID frame to its peer.  Sending a RETIRE_CONNECTION_ID frame indicates that the connection ID will not be used again and requests that the peer replace it with a new connection ID using a NEW_CONNECTION_ID frame.
+"ko": |-
+  엔드포인트는 피어로부터 수신된 연결 ID 세트를 유지하며, 패킷을 보낼 때 사용할 수 있습니다. 엔드포인트가 연결 ID를 사용에서 제거하려고 하면 RETIRE_CONNECTION_ID 프레임을 피어에게 보냅니다. RETIRE_CONNECTION_ID 프레임을 보내는 것은 연결 ID가 다시 사용되지 않음을 나타내고 피어가 NEW_CONNECTION_ID 프레임을 사용하여 이를 새 연결 ID로 바꾸도록 요청합니다.

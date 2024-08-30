@@ -1,0 +1,22 @@
+"hash": |-
+  958b88c554e6bda70664b5b1743dbc46219016703db80c5a0cec889311ae7d58
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the peer sent the disable_active_migration transport parameter, an
+     endpoint also MUST NOT send packets (including probing packets; see
+     Section 9.1) from a different local address to the address the peer
+     used during the handshake, unless the endpoint has acted on a
+     preferred_address transport parameter from the peer.  If the peer
+     violates this requirement, the endpoint MUST either drop the incoming
+     packets on that path without generating a Stateless Reset or proceed
+     with path validation and allow the peer to migrate.  Generating a
+     Stateless Reset or closing the connection would allow third parties
+     in the network to cause connections to close by spoofing or otherwise
+     manipulating observed traffic.
+"fixed": |-
+  If the peer sent the disable_active_migration transport parameter, an endpoint also MUST NOT send packets (including probing packets; see Section 9.1) from a different local address to the address the peer used during the handshake, unless the endpoint has acted on a preferred_address transport parameter from the peer.  If the peer violates this requirement, the endpoint MUST either drop the incoming packets on that path without generating a Stateless Reset or proceed with path validation and allow the peer to migrate.  Generating a Stateless Reset or closing the connection would allow third parties in the network to cause connections to close by spoofing or otherwise manipulating observed traffic.
+"ko": |-
+  피어가 비활성화_active_migration 전송 매개변수를 전송한 경우 엔드포인트는 또한 선호하는_address 전송 매개변수에 따라 작동하지 않는 한 다른 로컬 주소에서 핸드셰이크 중에 피어가 사용한 주소로 패킷(프로빙 패킷 포함, 섹션 9.1 참조)을 전송해서는 안 됩니다. 동료로부터. 피어가 이 요구 사항을 위반하는 경우 엔드포인트는 Stateless Reset을 생성하지 않고 해당 경로에서 들어오는 패킷을 삭제하거나 경로 유효성 검사를 진행하고 피어의 마이그레이션을 허용해야 합니다. 상태 비저장 재설정을 생성하거나 연결을 닫으면 네트워크의 제3자가 스푸핑이나 관찰된 트래픽을 조작하여 연결을 닫을 수 있습니다.

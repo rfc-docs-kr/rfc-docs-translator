@@ -1,0 +1,27 @@
+"hash": |-
+  e6e4b57a22b5c71dfadbd35cbb30b1731e19aabd77f2815c1520b14779e72a2c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To accept the use of an offered PMCE, a server MUST include the
+     extension name of the PMCE in the "Sec-WebSocket-Extensions" header
+     field of its opening handshake of the WebSocket connection.
+     Extension parameters represent the detailed configuration parameters
+     for the PMCE to use.  These extension parameters and their values are
+     called "agreed parameters".  The element MUST represent a PMCE that
+     is fully supported by the server.  The contents of the element don't
+     need to be exactly the same as those of the received extension
+     negotiation offers.  For example, suppose that a server received a
+     PMCE extension negotiation offer with an extension parameter "X"
+     indicating that the client can enable an optional feature named X.
+     The server may accept the PMCE offer with an element without the
+     extension parameter "X", meaning that the server chose not to enable
+     the feature X.  In this case, the offer contains the extension
+     parameter "X", but the "agreed parameters" don't contain the
+     extension parameter "X".
+"fixed": |-
+  To accept the use of an offered PMCE, a server MUST include the extension name of the PMCE in the "Sec-WebSocket-Extensions" header field of its opening handshake of the WebSocket connection. Extension parameters represent the detailed configuration parameters for the PMCE to use.  These extension parameters and their values are called "agreed parameters".  The element MUST represent a PMCE that is fully supported by the server.  The contents of the element don't need to be exactly the same as those of the received extension negotiation offers.  For example, suppose that a server received a PMCE extension negotiation offer with an extension parameter "X" indicating that the client can enable an optional feature named X. The server may accept the PMCE offer with an element without the extension parameter "X", meaning that the server chose not to enable the feature X.  In this case, the offer contains the extension parameter "X", but the "agreed parameters" don't contain the extension parameter "X".
+"ko": |-
+  제공된 PMCE의 사용을 수락하려면 서버는 WebSocket 연결의 오프닝 핸드셰이크의 "Sec-WebSocket-Extensions" 헤더 필드에 PMCE의 확장 이름을 포함해야 합니다. 확장 매개변수는 PMCE가 사용할 세부 구성 매개변수를 나타냅니다.  이러한 확장 매개변수와 해당 값을 "합의된 매개변수"라고 합니다.  요소는 서버에서 완전히 지원되는 PMCE를 나타내야 합니다.  요소의 내용은 수신된 연장 협상 제안의 내용과 정확히 동일할 필요는 없습니다.  예를 들어, 서버가 클라이언트가 X라는 선택적 기능을 활성화할 수 있음을 나타내는 확장 매개변수 "X"가 포함된 PMCE 확장 협상 제안을 수신했다고 가정합니다. 서버는 확장 매개변수 "X"가 없는 요소가 있는 PMCE 제안을 수락할 수 있습니다. 이는 서버가 기능 X를 활성화하지 않기로 결정했음을 의미합니다. 이 경우 제안에는 확장 매개변수 "X"가 포함되어 있지만 "동의된 매개변수"에는 확장 매개변수 "X"가 포함되어 있지 않습니다.

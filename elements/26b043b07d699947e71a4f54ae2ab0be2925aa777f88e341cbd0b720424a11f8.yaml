@@ -1,0 +1,37 @@
+"hash": |-
+  26b043b07d699947e71a4f54ae2ab0be2925aa777f88e341cbd0b720424a11f8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           found = 0
+           counter = 1
+           v = psk
+           do {
+             ske-seed = prf(Ni | Nr, v | counter)
+             ske-value = prf+(ske-seed, "IKE SKE Hunting And Pecking")
+             if (ske-value < p)
+             then
+               x = ske-value
+               if ( (y = sqrt(x^3 + ax + b)) != FAIL)
+               then
+                 if (found == 0)
+                 then
+                   if (LSB(y) == LSB(ske-seed))
+                   then
+                     SKE = (x,y)
+                   else
+                     SKE = (x, p-y)
+                   fi
+                   found = 1
+                   v = random()
+                 fi
+               fi
+             fi
+             counter = counter + 1
+           } while ((found == 0) || (counter <= k))
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

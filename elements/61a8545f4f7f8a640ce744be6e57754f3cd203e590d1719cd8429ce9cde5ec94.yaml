@@ -1,0 +1,17 @@
+"hash": |-
+  61a8545f4f7f8a640ce744be6e57754f3cd203e590d1719cd8429ce9cde5ec94
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     invalid_request
+           The request is missing a required parameter, includes an
+           unsupported parameter or parameter value, repeats the same
+           parameter, uses more than one method for including an access
+           token, or is otherwise malformed.  The resource server SHOULD
+           respond with the HTTP 400 (Bad Request) status code.
+"fixed": |-
+  invalid_request  -     The request is missing a required parameter, includes an unsupported parameter or parameter value, repeats the same parameter, uses more than one method for including an access token, or is otherwise malformed.  The resource server SHOULD respond with the HTTP 400 (Bad Request) status code.
+"ko": |-
+  valid_request - 요청에 필수 매개변수가 누락되었거나, 지원되지 않는 매개변수 또는 매개변수 값이 포함되어 있거나, 동일한 매개변수가 반복되거나, 액세스 토큰을 포함하기 위해 둘 이상의 방법을 사용하거나, 형식이 잘못되었습니다.  리소스 서버는 HTTP 400(잘못된 요청) 상태 코드로 응답해야 합니다.

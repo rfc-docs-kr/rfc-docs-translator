@@ -1,0 +1,16 @@
+"hash": |-
+  0c2ec327a99258d66ed0c1594e968ca7327b74cdf000e6bd01505306722fbae0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that it is not possible to send the following frames in 0-RTT
+     packets for various reasons: ACK, CRYPTO, HANDSHAKE_DONE, NEW_TOKEN,
+     PATH_RESPONSE, and RETIRE_CONNECTION_ID.  A server MAY treat receipt
+     of these frames in 0-RTT packets as a connection error of type
+     PROTOCOL_VIOLATION.
+"fixed": |-
+  Note that it is not possible to send the following frames in 0-RTT packets for various reasons: ACK, CRYPTO, HANDSHAKE_DONE, NEW_TOKEN, PATH_RESPONSE, and RETIRE_CONNECTION_ID.  A server MAY treat receipt of these frames in 0-RTT packets as a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  ACK, CRYPTO, HANDSHAKE_DONE, NEW_TOKEN, PATH_RESPONSE 및 RETIRE_CONNECTION_ID와 같은 다양한 이유로 인해 0-RTT 패킷으로 다음 프레임을 보낼 수 없습니다. 서버는 0-RTT 패킷의 이러한 프레임 수신을 PROTOCOL_VIOLATION 유형의 연결 오류로 처리할 수 있습니다.

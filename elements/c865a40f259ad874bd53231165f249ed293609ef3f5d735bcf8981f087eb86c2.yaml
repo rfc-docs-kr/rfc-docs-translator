@@ -1,0 +1,15 @@
+"hash": |-
+  c865a40f259ad874bd53231165f249ed293609ef3f5d735bcf8981f087eb86c2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the object is using the JWS JSON Serialization or the JWE JSON
+        Serialization, the members used will be different.  JWSs have a
+        "payload" member and JWEs do not.  JWEs have a "ciphertext" member
+        and JWSs do not.
+"fixed": |-
+  -  If the object is using the JWS JSON Serialization or the JWE JSON Serialization, the members used will be different.  JWSs have a "payload" member and JWEs do not.  JWEs have a "ciphertext" member and JWSs do not.
+"ko": |-
+  - 객체가 JWS JSON 직렬화 또는 JWE JSON 직렬화를 사용하는 경우 사용되는 멤버가 다릅니다. JWS에는 "payload" 멤버가 있고 JWE에는 없습니다. JWE에는 "ciphertext" 멤버가 있고 JWS에는 없습니다.

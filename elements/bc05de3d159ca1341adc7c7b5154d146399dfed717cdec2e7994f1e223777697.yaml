@@ -1,0 +1,19 @@
+"hash": |-
+  bc05de3d159ca1341adc7c7b5154d146399dfed717cdec2e7994f1e223777697
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The definition of a new final status code ought to specify whether or
+     not it is heuristically cacheable.  Note that any response with a
+     final status code can be cached if the response has explicit
+     freshness information.  A status code defined as heuristically
+     cacheable is allowed to be cached without explicit freshness
+     information.  Likewise, the definition of a status code can place
+     constraints upon cache behavior if the must-understand cache
+     directive is used.  See [CACHING] for more information.
+"fixed": |-
+  The definition of a new final status code ought to specify whether or not it is heuristically cacheable.  Note that any response with a final status code can be cached if the response has explicit freshness information.  A status code defined as heuristically cacheable is allowed to be cached without explicit freshness information.  Likewise, the definition of a status code can place constraints upon cache behavior if the must-understand cache directive is used.  See [CACHING] for more information.
+"ko": |-
+  새로운 최종 상태 코드의 정의는 경험적으로 캐시 가능한지 여부를 지정해야 합니다. 응답에 명시적인 최신 정보가 있는 경우 최종 상태 코드가 있는 응답은 캐시될 수 있습니다. 경험적으로 캐시 가능하다고 정의된 상태 코드는 명시적인 신선도 정보 없이 캐시될 수 있습니다. 마찬가지로, must-understand 캐시 지시문이 사용되는 경우 상태 코드 정의는 캐시 동작에 제약을 둘 수 있습니다. 자세한 내용은 [캐싱]을 참조하세요.

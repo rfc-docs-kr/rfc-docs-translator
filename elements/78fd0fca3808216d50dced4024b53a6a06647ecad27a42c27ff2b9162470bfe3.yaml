@@ -1,0 +1,21 @@
+"hash": |-
+  78fd0fca3808216d50dced4024b53a6a06647ecad27a42c27ff2b9162470bfe3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The first byte (00) of the bit string indicates that there is no
+     "number of unused bits".  Inside that bit string, there is an ASN.1
+     sequence having 2 integers.  The second byte (30) indicates that this
+     is the beginning of the sequence, and the next byte (81) indicates
+     the length does not fit in 7 bits, but requires one byte, so the
+     length is in the next byte (89).  Then starts the first integer with
+     tag (02) and length (81 81).  After that we have the modulus
+     (prefixed with 0 so it will not be a negative number).  After the
+     modulus, there follows the tag (02) and length (03) of the exponent,
+     and the last 3 bytes are the exponent.
+"fixed": |-
+  The first byte (00) of the bit string indicates that there is no "number of unused bits".  Inside that bit string, there is an ASN.1 sequence having 2 integers.  The second byte (30) indicates that this is the beginning of the sequence, and the next byte (81) indicates the length does not fit in 7 bits, but requires one byte, so the length is in the next byte (89).  Then starts the first integer with tag (02) and length (81 81).  After that we have the modulus (prefixed with 0 so it will not be a negative number).  After the modulus, there follows the tag (02) and length (03) of the exponent, and the last 3 bytes are the exponent.
+"ko": |-
+  비트열의 첫 번째 바이트(00)는 "사용되지 않은 비트 수"가 없음을 나타냅니다.  해당 비트 문자열 안에는 2개의 정수를 갖는 ASN.1 시퀀스가 ​​있습니다.  두 번째 바이트(30)는 이것이 시퀀스의 시작임을 나타내고, 다음 바이트(81)는 길이가 7비트에 맞지 않지만 1바이트가 필요하므로 길이가 다음 바이트(89)에 있음을 나타냅니다.  그런 다음 태그(02)와 길이(81 81)로 첫 번째 정수를 시작합니다.  그 다음에는 모듈러스(0이 앞에 붙어 음수가 되지 않음)를 얻습니다.  모듈러스 뒤에는 지수의 태그(02)와 길이(03)가 따르며 마지막 3바이트가 지수입니다.

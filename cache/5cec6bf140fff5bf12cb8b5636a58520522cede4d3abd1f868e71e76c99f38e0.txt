@@ -1,0 +1,1 @@
+"digest"를 선택하면 494(보안 계약 필요) 응답에 HTTP Digest 인증 챌린지가 포함됩니다. 클라이언트는 Security-Server 헤더 필드에서 algorithm 및 qop 매개변수를 사용하여 HTTP Digest 챌린지의 동일한 매개변수를 대체해야 합니다. 클라이언트는 또한 Security-Verify 헤더 필드에서 digest-verify 매개변수를 사용하여 2.2에 명시된 대로 Security-Server 헤더 필드를 보호해야 합니다.

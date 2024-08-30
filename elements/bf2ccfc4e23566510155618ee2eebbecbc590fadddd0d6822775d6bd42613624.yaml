@@ -1,0 +1,16 @@
+"hash": |-
+  bf2ccfc4e23566510155618ee2eebbecbc590fadddd0d6822775d6bd42613624
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A packet MUST NOT be acknowledged until packet protection has been
+     successfully removed and all frames contained in the packet have been
+     processed.  For STREAM frames, this means the data has been enqueued
+     in preparation to be received by the application protocol, but it
+     does not require that data be delivered and consumed.
+"fixed": |-
+  A packet MUST NOT be acknowledged until packet protection has been successfully removed and all frames contained in the packet have been processed.  For STREAM frames, this means the data has been enqueued in preparation to be received by the application protocol, but it does not require that data be delivered and consumed.
+"ko": |-
+  패킷 보호가 성공적으로 제거되고 패킷에 포함된 모든 프레임이 처리될 때까지 패킷을 승인해서는 안 됩니다. STREAM 프레임의 경우 이는 애플리케이션 프로토콜에서 수신할 준비를 위해 데이터가 대기열에 포함되었지만 데이터를 전달하고 사용할 필요는 없음을 의미합니다.

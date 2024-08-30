@@ -1,0 +1,18 @@
+"hash": |-
+  2ffad57acaa938dec3a3ea06bf1cb1e681331c86dc3b6e12041a3b595195c871
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     stateless_reset_token (0x02):  A stateless reset token is used in
+        verifying a stateless reset; see Section 10.3.  This parameter is
+        a sequence of 16 bytes.  This transport parameter MUST NOT be sent
+        by a client but MAY be sent by a server.  A server that does not
+        send this transport parameter cannot use stateless reset
+        (Section 10.3) for the connection ID negotiated during the
+        handshake.
+"fixed": |-
+  stateless_reset_token (0x02):  A stateless reset token is used in verifying a stateless reset; see Section 10.3.  This parameter is a sequence of 16 bytes.  This transport parameter MUST NOT be sent by a client but MAY be sent by a server.  A server that does not send this transport parameter cannot use stateless reset (Section 10.3) for the connection ID negotiated during the handshake.
+"ko": |-
+  stateless_reset_token (0x02): 무상태 재설정 토큰은 무상태 재설정을 확인하는 데 사용됩니다. 섹션 10.3을 참조하세요. 이 매개변수는 16바이트의 시퀀스입니다. 이 전송 매개변수는 클라이언트에 의해 전송되어서는 안 되지만 서버에 의해 전송될 수도 있습니다. 이 전송 매개변수를 전송하지 않는 서버는 핸드셰이크 중에 협상된 연결 ID에 대해 무상태 재설정(10.3절)을 사용할 수 없습니다.

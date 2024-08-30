@@ -1,0 +1,30 @@
+"hash": |-
+  6d8938a8409e1c200c42b75437cefdad723aeac01007d5c64231cdf2d12b64a9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     date1 = day SP month SP year
+     date2 = day "-" month "-" 2DIGIT
+     date3 = month SP ( 2DIGIT / ( SP DIGIT ) )
+     day = 2DIGIT
+     day-name = %x4D.6F.6E ; Mon
+      / %x54.75.65 ; Tue
+      / %x57.65.64 ; Wed
+      / %x54.68.75 ; Thu
+      / %x46.72.69 ; Fri
+      / %x53.61.74 ; Sat
+      / %x53.75.6E ; Sun
+     day-name-l = %x4D.6F.6E.64.61.79 ; Monday
+      / %x54.75.65.73.64.61.79 ; Tuesday
+      / %x57.65.64.6E.65.73.64.61.79 ; Wednesday
+      / %x54.68.75.72.73.64.61.79 ; Thursday
+      / %x46.72.69.64.61.79 ; Friday
+      / %x53.61.74.75.72.64.61.79 ; Saturday
+      / %x53.75.6E.64.61.79 ; Sunday
+     delay-seconds = 1*DIGIT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

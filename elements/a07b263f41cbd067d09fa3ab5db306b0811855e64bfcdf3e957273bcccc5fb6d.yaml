@@ -1,0 +1,18 @@
+"hash": |-
+  a07b263f41cbd067d09fa3ab5db306b0811855e64bfcdf3e957273bcccc5fb6d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Many fields cannot be processed outside the header section because
+     their evaluation is necessary prior to receiving the content, such as
+     those that describe message framing, routing, authentication, request
+     modifiers, response controls, or content format.  A sender MUST NOT
+     generate a trailer field unless the sender knows the corresponding
+     header field name's definition permits the field to be sent in
+     trailers.
+"fixed": |-
+  Many fields cannot be processed outside the header section because their evaluation is necessary prior to receiving the content, such as those that describe message framing, routing, authentication, request modifiers, response controls, or content format.  A sender MUST NOT generate a trailer field unless the sender knows the corresponding header field name's definition permits the field to be sent in trailers.
+"ko": |-
+  메시지 프레이밍, 라우팅, 인증, 요청 수정자, 응답 제어 또는 콘텐츠 형식을 설명하는 필드와 같이 콘텐츠를 수신하기 전에 평가가 필요하기 때문에 헤더 섹션 외부에서 많은 필드를 처리할 수 없습니다. 발신자는 해당 헤더 필드 이름의 정의가 해당 필드가 트레일러로 전송되도록 허용하지 않는 한 트레일러 필드를 생성해서는 안 됩니다.

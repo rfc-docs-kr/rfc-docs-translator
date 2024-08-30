@@ -1,0 +1,15 @@
+"hash": |-
+  b342740e9abc665dfa43d0114861908c1cb53c1d7558ed31cf1ae89fa1e88110
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint SHOULD treat receipt of an acknowledgment for a packet it
+     did not send as a connection error of type PROTOCOL_VIOLATION, if it
+     is able to detect the condition.  For further discussion of how this
+     might be achieved, see Section 21.4.
+"fixed": |-
+  An endpoint SHOULD treat receipt of an acknowledgment for a packet it did not send as a connection error of type PROTOCOL_VIOLATION, if it is able to detect the condition.  For further discussion of how this might be achieved, see Section 21.4.
+"ko": |-
+  엔드포인트는 조건을 감지할 수 있는 경우 전송하지 않은 패킷에 대한 승인 수신을 PROTOCOL_VIOLATION 유형의 연결 오류로 처리해야 합니다. 이것이 어떻게 달성될 수 있는지에 대한 추가 논의는 섹션 21.4를 참조하십시오.

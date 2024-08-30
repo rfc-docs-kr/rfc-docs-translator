@@ -1,0 +1,23 @@
+"hash": |-
+  9ad831c37f2db163594b9595c878922278c87751187e04033ddeb425174ce80f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In addition, every invocation of an operation is identified by a
+     "request-id" value.  For each request, the Client chooses the
+     "request-id", which MUST be an integer (possibly unique, depending on
+     Client requirements) in the range from 1 to 2**31 - 1 (inclusive).
+     This "request-id" allows Clients to manage multiple outstanding
+     requests.  The receiving IPP object (Printer, Job, etc.) copies all
+     32 bits of the Client-supplied "request-id" attribute into the
+     response so that the Client can match the response with the correct
+     outstanding request, even if the "request-id" is out of range.  If
+     the request is terminated before the complete "request-id" is
+     received, the IPP object rejects the request and returns a response
+     with a "request-id" of 0.
+"fixed": |-
+  In addition, every invocation of an operation is identified by a "request-id" value.  For each request, the Client chooses the "request-id", which MUST be an integer (possibly unique, depending on Client requirements) in the range from 1 to 2**31 - 1 (inclusive). This "request-id" allows Clients to manage multiple outstanding requests.  The receiving IPP object (Printer, Job, etc.) copies all 32 bits of the Client-supplied "request-id" attribute into the response so that the Client can match the response with the correct outstanding request, even if the "request-id" is out of range.  If the request is terminated before the complete "request-id" is received, the IPP object rejects the request and returns a response with a "request-id" of 0.
+"ko": |-
+  또한 작업의 모든 호출은 "request-id" 값으로 식별됩니다. 각 요청에 대해 클라이언트는 1에서 2**31 - 1(포함) 범위의 정수(클라이언트 요구 사항에 따라 고유할 수 있음)여야 하는 "request-id"를 선택합니다. 이 "request-id"를 통해 클라이언트는 여러 개의 미해결 요청을 관리할 수 있습니다. 수신 IPP 개체(프린터, 작업 등)는 클라이언트가 제공한 "request-id" 속성의 32비트를 모두 응답에 복사하므로 "요청-id"가 "request-id"인 경우에도 클라이언트가 응답을 올바른 미해결 요청과 일치시킬 수 있습니다. id"가 범위를 벗어났습니다. 완전한 "request-id"가 수신되기 전에 요청이 종료되면 IPP 객체는 요청을 거부하고 "request-id"가 0인 응답을 반환합니다.

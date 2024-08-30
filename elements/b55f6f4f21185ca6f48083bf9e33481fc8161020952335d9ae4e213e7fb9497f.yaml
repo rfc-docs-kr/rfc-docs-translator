@@ -1,0 +1,23 @@
+"hash": |-
+  b55f6f4f21185ca6f48083bf9e33481fc8161020952335d9ae4e213e7fb9497f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   keyBag BAG-TYPE ::=
+       {KeyBag              IDENTIFIED BY {bagtypes 1}}
+   pkcs8ShroudedKeyBag BAG-TYPE ::=
+       {PKCS8ShroudedKeyBag IDENTIFIED BY {bagtypes 2}}
+   certBag BAG-TYPE ::=
+       {CertBag             IDENTIFIED BY {bagtypes 3}}
+   crlBag BAG-TYPE ::=
+       {CRLBag              IDENTIFIED BY {bagtypes 4}}
+   secretBag BAG-TYPE ::=
+       {SecretBag           IDENTIFIED BY {bagtypes 5}}
+   safeContentsBag BAG-TYPE ::=
+       {SafeContents        IDENTIFIED BY {bagtypes 6}}
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

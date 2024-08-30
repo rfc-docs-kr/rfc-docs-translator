@@ -1,0 +1,1 @@
+이러한 SignatureMethod 식별자의 기본 솔트 길이는 SaltLength가 지정되지 않은 경우 [RFC4055]에서 권장하는 다이제스트 방법의 해시 값에 있는 옥텟 수여야 합니다. 매개변수화된 RSASSA-PSS 서명에는 일반적으로 ds:DigestMethod 및 SaltLength 매개변수가 나타납니다. 그렇지 않은 경우 기본값은 <http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1>과 동일하게 만듭니다(섹션 2.3.10 참조). 생략된 경우 TrailerField의 기본값은 1(0xBC)입니다.

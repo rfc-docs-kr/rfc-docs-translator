@@ -1,0 +1,20 @@
+"hash": |-
+  54957cf6f9eebf8a0d2367ea15ae499b9c49abe1e7f2e87111c6e35e539b6857
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Trailer fields can be difficult to process by intermediaries that
+     forward messages from one protocol version to another.  If the entire
+     message can be buffered in transit, some intermediaries could merge
+     trailer fields into the header section (as appropriate) before it is
+     forwarded.  However, in most cases, the trailers are simply
+     discarded.  A recipient MUST NOT merge a trailer field into a header
+     section unless the recipient understands the corresponding header
+     field definition and that definition explicitly permits and defines
+     how trailer field values can be safely merged.
+"fixed": |-
+  Trailer fields can be difficult to process by intermediaries that forward messages from one protocol version to another.  If the entire message can be buffered in transit, some intermediaries could merge trailer fields into the header section (as appropriate) before it is forwarded.  However, in most cases, the trailers are simply discarded.  A recipient MUST NOT merge a trailer field into a header section unless the recipient understands the corresponding header field definition and that definition explicitly permits and defines how trailer field values can be safely merged.
+"ko": |-
+  트레일러 필드는 한 프로토콜 버전에서 다른 프로토콜 버전으로 메시지를 전달하는 중개자가 처리하기 어려울 수 있습니다. 전체 메시지를 전송 중에 버퍼링할 수 있는 경우 일부 중개자는 메시지가 전달되기 전에 트레일러 필드를 헤더 섹션(해당하는 경우)에 병합할 수 있습니다. 그러나 대부분의 경우 트레일러는 단순히 폐기됩니다. 수신자가 해당 헤더 필드 정의를 이해하고 해당 정의가 트레일러 필드 값을 안전하게 병합할 수 있는 방법을 명시적으로 허용하고 정의하지 않는 한, 수신자는 트레일러 필드를 헤더 섹션에 병합해서는 안 됩니다.

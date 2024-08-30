@@ -1,0 +1,21 @@
+"hash": |-
+  2eb2b215d99ca567bd64a6f3ce4decd1b6739b7093338ac177e479939e949c60
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unconstrained multiple range requests are susceptible to denial-of-
+     service attacks because the effort required to request many
+     overlapping ranges of the same data is tiny compared to the time,
+     memory, and bandwidth consumed by attempting to serve the requested
+     data in many parts.  Servers ought to ignore, coalesce, or reject
+     egregious range requests, such as requests for more than two
+     overlapping ranges or for many small ranges in a single set,
+     particularly when the ranges are requested out of order for no
+     apparent reason.  Multipart range requests are not designed to
+     support random access.
+"fixed": |-
+  Unconstrained multiple range requests are susceptible to denial-of- service attacks because the effort required to request many overlapping ranges of the same data is tiny compared to the time, memory, and bandwidth consumed by attempting to serve the requested data in many parts.  Servers ought to ignore, coalesce, or reject egregious range requests, such as requests for more than two overlapping ranges or for many small ranges in a single set, particularly when the ranges are requested out of order for no apparent reason.  Multipart range requests are not designed to support random access.
+"ko": |-
+  제한되지 않은 다중 범위 요청은 동일한 데이터의 겹치는 범위를 많이 요청하는 데 필요한 노력이 여러 부분에서 요청된 데이터를 제공하려고 시도하는 데 소비되는 시간, 메모리 및 대역폭에 비해 작기 때문에 서비스 거부 공격에 취약합니다. 서버는 세 개 이상의 겹치는 범위에 대한 요청이나 단일 세트의 많은 작은 범위에 대한 요청과 같은 심각한 범위 요청을 무시, 통합 또는 거부해야 합니다. 특히 범위가 뚜렷한 이유 없이 순서대로 요청되지 않는 경우에는 더욱 그렇습니다. 다중 부분 범위 요청은 임의 액세스를 지원하도록 설계되지 않았습니다.

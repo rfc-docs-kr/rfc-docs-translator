@@ -1,0 +1,17 @@
+"hash": |-
+  243e842c610c5780ad6d71ba16aaa9802d8ad54febd84b0e851e785899f7ebb6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           R1, and as a result distributes an IPv4 route R2 to a CE, then
+           R2 must not be distributed back from that CE's site to a PE
+           router, say PE2, (where PE1 and PE2 may be the same router or
+           different routers), unless PE2 maps R2 to a VPN-IPv4 route
+           which is different than (i.e., contains a different RD than)
+           R1.
+"fixed": |-
+  - R1, and as a result distributes an IPv4 route R2 to a CE, then R2 must not be distributed back from that CE's site to a PE router, say PE2, (where PE1 and PE2 may be the same router or different routers), unless PE2 maps R2 to a VPN-IPv4 route which is different than (i.e., contains a different RD than) R1.
+"ko": |-
+  - R1이 IPv4 경로 R2를 CE에 배포하는 경우, PE2가 R2를 해당 CE 사이트에서 PE 라우터(예: PE2)로 다시 배포되어서는 안 됩니다(PE1과 PE2는 같은 라우터이거나 다른 라우터일 수 있음). 단, PE2가 R2를 R1과 다른(즉, 다른 RD를 포함하는) VPN-IPv4 경로에 매핑하는 경우는 예외입니다.

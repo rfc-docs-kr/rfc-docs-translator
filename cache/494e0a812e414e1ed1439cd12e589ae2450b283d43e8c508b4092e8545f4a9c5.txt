@@ -1,0 +1,1 @@
+프린터가 이 작업을 지원하지만 작업당 여러 문서를 지원하지 않는 경우 프린터는 데이터와 함께 제공된 후속 문서 보내기 작업을 거부하고 'server-error-multiple-document-jobs-not-supported' 상태 코드를 반환해야 합니다. 그러나 프린터는 "last-document" 작업 속성에 대해 'true' 또는 'false' 값을 가진 첫 번째 문서를 수락해야 합니다(아래 참조). 따라서 클라이언트는 항상 'false' 값을 가진 하나의 문서 작업을 제출할 수 있습니다. 첫 번째 Send-Document의 "last-document" 및 두 번째 Send-Document(데이터 없음)의 "last-document"에 대한 'true' 값입니다.

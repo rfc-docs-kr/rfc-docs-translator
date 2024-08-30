@@ -1,0 +1,17 @@
+"hash": |-
+  5bcf120a370bd30ecb9b51537191ec787a958d584d01ea782036cc045b0cfe96
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because the migration attack described in Section 21.5.4 is quite
+     powerful and does not have adequate countermeasures, QUIC server
+     implementations should assume that attackers can cause them to
+     generate arbitrary UDP payloads to arbitrary destinations.  QUIC
+     servers SHOULD NOT be deployed in networks that do not deploy ingress
+     filtering [BCP38] and also have inadequately secured UDP endpoints.
+"fixed": |-
+  Because the migration attack described in Section 21.5.4 is quite powerful and does not have adequate countermeasures, QUIC server implementations should assume that attackers can cause them to generate arbitrary UDP payloads to arbitrary destinations.  QUIC servers SHOULD NOT be deployed in networks that do not deploy ingress filtering [BCP38] and also have inadequately secured UDP endpoints.
+"ko": |-
+  섹션 21.5.4에 설명된 마이그레이션 공격은 매우 강력하고 적절한 대응책이 없기 때문에 QUIC 서버 구현은 공격자가 임의의 목적지에 임의의 UDP 페이로드를 생성하도록 할 수 있다고 가정해야 합니다. QUIC 서버는 수신 필터링 [BCP38]을 배포하지 않고 보안이 부적절하게 UDP 엔드포인트를 갖는 네트워크에 배포되어서는 안 됩니다.

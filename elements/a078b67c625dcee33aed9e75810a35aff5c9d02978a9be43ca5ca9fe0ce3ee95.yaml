@@ -1,0 +1,19 @@
+"hash": |-
+  a078b67c625dcee33aed9e75810a35aff5c9d02978a9be43ca5ca9fe0ce3ee95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This is the payload of a message containing "Hello" compressed using
+     a DEFLATE block with "BFINAL" set to 1.  The first 7 octets
+     constitute a DEFLATE block with "BFINAL" set to 1 and "BTYPE" set to
+     01 containing "Hello".  The last 1 octet (0x00) contains the header
+     bits with "BFINAL" set to 0 and "BTYPE" set to 00, and 5 padding bits
+     of 0.  This octet is necessary to allow the payload to be
+     decompressed in the same manner as messages flushed using DEFLATE
+     blocks with "BFINAL" unset.
+"fixed": |-
+  This is the payload of a message containing "Hello" compressed using a DEFLATE block with "BFINAL" set to 1.  The first 7 octets constitute a DEFLATE block with "BFINAL" set to 1 and "BTYPE" set to 01 containing "Hello".  The last 1 octet (0x00) contains the header bits with "BFINAL" set to 0 and "BTYPE" set to 00, and 5 padding bits of 0.  This octet is necessary to allow the payload to be decompressed in the same manner as messages flushed using DEFLATE blocks with "BFINAL" unset.
+"ko": |-
+  이것은 "BFINAL"이 1로 설정된 DEFLATE 블록을 사용하여 압축된 "Hello"를 포함하는 메시지의 페이로드입니다. 처음 7옥텟은 "BFINAL"이 1로 설정되고 "BTYPE"이 01로 설정된 "Hello"를 포함하는 DEFLATE 블록을 구성합니다. .  마지막 1 옥텟(0x00)에는 "BFINAL"이 0으로 설정되고 "BTYPE"이 00으로 설정된 헤더 비트와 0의 5 패딩 비트가 포함되어 있습니다. 이 옥텟은 메시지와 동일한 방식으로 페이로드의 압축을 풀 수 있도록 하는 데 필요합니다. "BFINAL"이 설정되지 않은 DEFLATE 블록을 사용하여 플러시됩니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  373c2e5201b7afc32a6ad82320b2199074691ab03a8d1e854ed8721396d9661c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "References:" field will contain the contents of the parent's
+     "References:" field (if any) followed by the contents of the parent's
+     "Message-ID:" field (if any).  If the parent message does not contain
+     a "References:" field but does have an "In-Reply-To:" field
+     containing a single message identifier, then the "References:" field
+     will contain the contents of the parent's "In-Reply-To:" field
+     followed by the contents of the parent's "Message-ID:" field (if
+     any).  If the parent has none of the "References:", "In-Reply-To:",
+     or "Message-ID:" fields, then the new message will have no
+     "References:" field.
+"fixed": |-
+  The "References:" field will contain the contents of the parent's "References:" field (if any) followed by the contents of the parent's "Message-ID:" field (if any).  If the parent message does not contain a "References:" field but does have an "In-Reply-To:" field containing a single message identifier, then the "References:" field will contain the contents of the parent's "In-Reply-To:" field followed by the contents of the parent's "Message-ID:" field (if any).  If the parent has none of the "References:", "In-Reply-To:", or "Message-ID:" fields, then the new message will have no "References:" field.
+"ko": |-
+  "참조:" 필드에는 상위 항목의 "참조:" 필드(있는 경우) 내용과 상위 항목의 "메시지 ID:" 필드(있는 경우) 내용이 포함됩니다.  상위 메시지에 "참조:" 필드가 없지만 단일 메시지 식별자가 포함된 "응답:" 필드가 있는 경우 "참조:" 필드에는 상위 메시지의 "응답:" 내용이 포함됩니다. -To:" 필드 뒤에 상위의 "Message-ID:" 필드 내용(있는 경우)이 옵니다.  상위 항목에 "참조:", "응답 대상:" 또는 "메시지 ID:" 필드가 없으면 새 메시지에는 "참조:" 필드가 없습니다.

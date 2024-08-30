@@ -1,0 +1,24 @@
+"hash": |-
+  8ee6bc94317a6f9a2b77f24745308857da6209d872dde50edac75313c30b285c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A PPSPP implementation MAY use a variant of the Packetization Layer
+     Path MTU Discovery (PLPMTUD), described in [RFC4821], for discovering
+     the optimal MTU between sender and destination.  As in PLPMTUD,
+     progressively larger probing packets are used to detect the optimal
+     MTU for a given path.  However, in PPSPP, probe packets SHOULD
+     contain actual messages, in particular, multiple DATA messages.  By
+     using actual DATA messages as probe packets, the returning ACK
+     messages will confirm the probe delivery, effectively updating the
+     MTU estimate on both ends of the link.  To be able to scale up probe
+     packets with sensible increments, a minimum chunk size of 512 bytes
+     SHOULD be used.  Smaller chunk sizes lead to an inefficient protocol.
+     An implication is that PPSPP supports datagrams over IPv4 of 576
+     bytes or more only.  This variant is not mandatory to implement.
+"fixed": |-
+  A PPSPP implementation MAY use a variant of the Packetization Layer Path MTU Discovery (PLPMTUD), described in [RFC4821], for discovering the optimal MTU between sender and destination.  As in PLPMTUD, progressively larger probing packets are used to detect the optimal MTU for a given path.  However, in PPSPP, probe packets SHOULD contain actual messages, in particular, multiple DATA messages.  By using actual DATA messages as probe packets, the returning ACK messages will confirm the probe delivery, effectively updating the MTU estimate on both ends of the link.  To be able to scale up probe packets with sensible increments, a minimum chunk size of 512 bytes SHOULD be used.  Smaller chunk sizes lead to an inefficient protocol. An implication is that PPSPP supports datagrams over IPv4 of 576 bytes or more only.  This variant is not mandatory to implement.
+"ko": |-
+  PPSPP 구현은 발신자와 대상 간의 최적의 MTU를 검색하기 위해 [RFC4821]에 설명된 PPLPMTUD(Packetization Layer Path MTU Discovery)의 변형을 사용할 수 있습니다. PLPMTUD에서와 같이 점진적으로 더 큰 프로빙 패킷이 주어진 경로에 대한 최적의 MTU를 검색하는 데 사용됩니다. 그러나 PPSPP에서 프로브 패킷은 실제 메시지, 특히 여러 DATA 메시지를 포함해야 합니다. 실제 DATA 메시지를 프로브 패킷으로 사용함으로써 반환되는 ACK 메시지는 프로브 전달을 확인하여 링크의 양쪽 끝에서 MTU 추정치를 효과적으로 업데이트합니다. 적절한 증분으로 프로브 패킷을 확장할 수 있으려면 최소 청크 크기 512바이트를 사용해야 합니다. 청크 크기가 작을수록 프로토콜이 비효율적입니다. 이는 PPSPP가 576바이트 이상의 IPv4를 통한 데이터그램만 지원한다는 의미입니다. 이 변형은 반드시 구현해야 하는 것은 아닙니다.

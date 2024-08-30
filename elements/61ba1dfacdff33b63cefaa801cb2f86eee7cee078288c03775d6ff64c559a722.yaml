@@ -1,0 +1,17 @@
+"hash": |-
+  61ba1dfacdff33b63cefaa801cb2f86eee7cee078288c03775d6ff64c559a722
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The OFF bit (0x04) in the frame type is set to indicate that there
+        is an Offset field present.  When set to 1, the Offset field is
+        present.  When set to 0, the Offset field is absent and the Stream
+        Data starts at an offset of 0 (that is, the frame contains the
+        first bytes of the stream, or the end of a stream that includes no
+        data).
+"fixed": |-
+  *  The OFF bit (0x04) in the frame type is set to indicate that there is an Offset field present.  When set to 1, the Offset field is present.  When set to 0, the Offset field is absent and the Stream Data starts at an offset of 0 (that is, the frame contains the first bytes of the stream, or the end of a stream that includes no data).
+"ko": |-
+  * 프레임 타입의 OFF 비트(0x04)는 오프셋 필드가 있음을 나타내기 위해 설정됩니다. 1로 설정하면 오프셋 필드가 나타납니다. 0으로 설정하면 오프셋 필드가 없고 스트림 데이터가 오프셋 0에서 시작됩니다(즉, 프레임에 스트림의 첫 번째 바이트가 포함되거나 데이터가 포함되지 않은 스트림의 끝이 포함됨).

@@ -1,0 +1,20 @@
+"hash": |-
+  ea0345ffe3bd0ad8cf6c0dce806a38d25aa639962930313923d5f97740d3a797
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This is an Event message from the synthesizer resource to the client
+     that indicates the corresponding SPEAK request was completed.  The
+     request-id field matches the request-id of the SPEAK request that
+     initiated the speech that just completed.  The request-state field is
+     set to COMPLETE by the server, indicating that this is the last event
+     with the corresponding request-id.  The Completion-Cause header field
+     specifies the cause code pertaining to the status and reason of
+     request completion, such as the SPEAK completed normally or because
+     of an error, kill-on-barge-in, etc.
+"fixed": |-
+  This is an Event message from the synthesizer resource to the client that indicates the corresponding SPEAK request was completed.  The request-id field matches the request-id of the SPEAK request that initiated the speech that just completed.  The request-state field is set to COMPLETE by the server, indicating that this is the last event with the corresponding request-id.  The Completion-Cause header field specifies the cause code pertaining to the status and reason of request completion, such as the SPEAK completed normally or because of an error, kill-on-barge-in, etc.
+"ko": |-
+  이것은 해당 SPEAK 요청이 완료되었음을 나타내는 합성기 리소스에서 클라이언트로 보내는 이벤트 메시지입니다. request-id 필드는 방금 완료된 음성을 시작한 SPEAK 요청의 request-id와 일치합니다. request-state 필드는 서버에서 COMPLETE로 설정되어 해당 request-id가 있는 마지막 이벤트임을 나타냅니다. Completion-Cause 헤더 필드는 SPEAK가 정상적으로 완료되었는지 또는 오류, kill-on-barge-in 등으로 인해 완료되었는지와 같은 요청 완료의 상태 및 이유와 관련된 원인 코드를 지정합니다.

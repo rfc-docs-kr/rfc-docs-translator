@@ -1,0 +1,28 @@
+"hash": |-
+  8e755c173cb6bbd0c0ffcda865c10416ff86003830772816aa6b63bff41a3d53
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-----+
+     | CSP |  Policies driven by business (e.g., available only
+     +-----+  in the UK and only from July 1st to September 1st)
+        \
+         \ Translate policies into
+          \simple rules (e.g., provide an authorization token)
+           \
+            V
+          +-----+
+          | CDN | Apply simple rules (e.g., check an
+          +-----+ authorization token and enforce geo-blocking)
+              \
+               \ Distribute simple rules
+                V
+              +-----+
+              | CDN | Apply simple rules
+              +-----+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

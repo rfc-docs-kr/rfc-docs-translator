@@ -1,0 +1,25 @@
+"hash": |-
+  0e0d729633ca2b583433d396b3614e2021fc59b304a7e463daebf842ec8651c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the newly arrived Registration Request message with a Service
+     Selection extension indicates a change in the selected service, then
+     the home agent MUST re-authorize the mobile node.  The absence of the
+     Service Selection extension MUST be treated as a request for the
+     default service, which may also cause the re-authorization of the
+     mobile node.  Depending on the home agent's policies, the services
+     policies, the Home Address allocation policies, and the subscription
+     policies, the home agent may or may not be able to authorize the
+     mobile node to the new service.  For example the existing service and
+     the new service could require different Home Addresses.  If the
+     authorization fails, then the home agent MUST deny the registration,
+     delete any binding with the existing Home Address, and send a
+     Registration Reply with a Code set to SERVICE_AUTHORIZATION_FAILED
+     (error code 151).
+"fixed": |-
+  If the newly arrived Registration Request message with a Service Selection extension indicates a change in the selected service, then the home agent MUST re-authorize the mobile node.  The absence of the Service Selection extension MUST be treated as a request for the default service, which may also cause the re-authorization of the mobile node.  Depending on the home agent's policies, the services policies, the Home Address allocation policies, and the subscription policies, the home agent may or may not be able to authorize the mobile node to the new service.  For example the existing service and the new service could require different Home Addresses.  If the authorization fails, then the home agent MUST deny the registration, delete any binding with the existing Home Address, and send a Registration Reply with a Code set to SERVICE_AUTHORIZATION_FAILED (error code 151).
+"ko": |-
+  서비스 선택 확장과 함께 새로 도착한 등록 요청 메시지가 선택된 서비스의 변경을 나타내면 홈 에이전트는 모바일 노드를 다시 인증해야 합니다.  서비스 선택 확장이 없으면 기본 서비스에 대한 요청으로 처리되어야 하며, 이로 인해 모바일 노드의 재인증이 발생할 수도 있습니다.  홈 에이전트의 정책, 서비스 정책, 홈 주소 할당 정책 및 가입 정책에 따라 홈 에이전트는 모바일 노드에 새로운 서비스에 대한 권한을 부여할 수도 있고 그렇지 않을 수도 있습니다.  예를 들어 기존 서비스와 새 서비스에는 서로 다른 집 주소가 필요할 수 있습니다.  인증이 실패하면 홈 에이전트는 등록을 거부하고 기존 홈 주소와의 모든 바인딩을 삭제하고 SERVICE_AUTHORIZATION_FAILED(오류 코드 151)로 설정된 코드가 포함된 등록 응답을 보내야 합니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  c3f628b3ed384d7314d2fea4a2063d6d40f6cae7498f9622eeaeeed64bad5f1a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since a Client MAY request specific attributes or named groups, there
+     is a potential for some overlap.  For example, if a Client requests
+     'job-name' and 'job-description', the Client is actually requesting
+     the "job-name" attribute once by naming it explicitly, and once by
+     inclusion in the 'job-description' group.  In such cases, the Printer
+     returns the attribute only once in the response even if it is
+     requested multiple times.  The Client SHOULD NOT request the same
+     attribute in multiple ways.
+"fixed": |-
+  Since a Client MAY request specific attributes or named groups, there is a potential for some overlap.  For example, if a Client requests 'job-name' and 'job-description', the Client is actually requesting the "job-name" attribute once by naming it explicitly, and once by inclusion in the 'job-description' group.  In such cases, the Printer returns the attribute only once in the response even if it is requested multiple times.  The Client SHOULD NOT request the same attribute in multiple ways.
+"ko": |-
+  클라이언트는 특정 속성이나 이름이 지정된 그룹을 요청할 수 있으므로 일부 중복될 가능성이 있습니다. 예를 들어 클라이언트가 '작업 이름' 및 '작업 설명'을 요청하는 경우 클라이언트는 실제로 "작업 이름" 속성을 명시적으로 명명하여 한 번, '작업 설명' 그룹에 포함하여 한 번 요청합니다. 이러한 경우 프린터는 속성이 여러 번 요청되더라도 응답에서 한 번만 속성을 반환합니다. 클라이언트는 동일한 속성을 여러 가지 방법으로 요청해서는 안 됩니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  ac93d5b3d056e6ed78f419b168ac175158aa2b3f6300e6b4a716ebbf29b30398
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MUST ensure that every Stateless Reset that it sends is
+     smaller than the packet that triggered it, unless it maintains state
+     sufficient to prevent looping.  In the event of a loop, this results
+     in packets eventually being too small to trigger a response.
+"fixed": |-
+  An endpoint MUST ensure that every Stateless Reset that it sends is smaller than the packet that triggered it, unless it maintains state sufficient to prevent looping.  In the event of a loop, this results in packets eventually being too small to trigger a response.
+"ko": |-
+  엔드포인트는 루핑을 방지할 만큼 충분한 상태를 유지하지 않는 한, 전송하는 모든 Stateless Reset이 이를 트리거한 패킷보다 작은지 확인해야 합니다. 루프가 발생하면 결과적으로 패킷이 너무 작아서 응답을 트리거할 수 없게 됩니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  1ac38a5abde3631d7c2c816631ef6ea78716d689aab6139fa38655c114592c7d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client SHALL choose which Media Segment to play first from the
+     Media Playlist when playback starts.  If the EXT-X-ENDLIST tag is not
+     present and the client intends to play the media normally, the client
+     SHOULD NOT choose a segment that starts less than three target
+     durations from the end of the Playlist file.  Doing so can trigger
+     playback stalls.
+"fixed": |-
+  The client SHALL choose which Media Segment to play first from the Media Playlist when playback starts.  If the EXT-X-ENDLIST tag is not present and the client intends to play the media normally, the client SHOULD NOT choose a segment that starts less than three target durations from the end of the Playlist file.  Doing so can trigger playback stalls.
+"ko": |-
+  클라이언트는 재생이 시작될 때 미디어 재생 목록에서 먼저 재생할 미디어 세그먼트를 선택해야 합니다. EXT-X-ENDLIST 태그가 없고 클라이언트가 미디어를 정상적으로 재생하려는 경우 클라이언트는 재생 목록 파일의 끝에서 3개 미만의 목표 기간 동안 시작하는 세그먼트를 선택해서는 안 됩니다. 그렇게 하면 재생이 중단될 수 있습니다.

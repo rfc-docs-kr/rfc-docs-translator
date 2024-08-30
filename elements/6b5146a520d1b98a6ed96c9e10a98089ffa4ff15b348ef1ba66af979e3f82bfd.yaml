@@ -1,0 +1,17 @@
+"hash": |-
+  6b5146a520d1b98a6ed96c9e10a98089ffa4ff15b348ef1ba66af979e3f82bfd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When counting data toward this limit, an endpoint accounts for the
+     largest received offset of data that is sent or received on the
+     stream.  Loss or reordering can mean that the largest received offset
+     on a stream can be greater than the total size of data received on
+     that stream.  Receiving STREAM frames might not increase the largest
+     received offset.
+"fixed": |-
+  When counting data toward this limit, an endpoint accounts for the largest received offset of data that is sent or received on the stream.  Loss or reordering can mean that the largest received offset on a stream can be greater than the total size of data received on that stream.  Receiving STREAM frames might not increase the largest received offset.
+"ko": |-
+  이 제한에 대해 데이터를 계산할 때 엔드포인트는 스트림에서 전송되거나 수신되는 데이터의 최대 수신 오프셋을 고려합니다. 손실 또는 재정렬은 스트림에서 수신된 최대 오프셋이 해당 스트림에서 수신된 데이터의 전체 크기보다 클 수 있음을 의미할 수 있습니다. STREAM 프레임을 수신해도 수신된 최대 오프셋이 증가하지 않을 수 있습니다.

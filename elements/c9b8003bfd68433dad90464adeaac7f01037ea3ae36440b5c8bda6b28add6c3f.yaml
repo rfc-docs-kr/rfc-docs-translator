@@ -1,0 +1,20 @@
+"hash": |-
+  c9b8003bfd68433dad90464adeaac7f01037ea3ae36440b5c8bda6b28add6c3f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that generates a multipart response SHOULD send the parts in
+     the same order that the corresponding range-spec appeared in the
+     received Range header field, excluding those ranges that were deemed
+     unsatisfiable or that were coalesced into other ranges.  A client
+     that receives a multipart response MUST inspect the Content-Range
+     header field present in each body part in order to determine which
+     range is contained in that body part; a client cannot rely on
+     receiving the same ranges that it requested, nor the same order that
+     it requested.
+"fixed": |-
+  A server that generates a multipart response SHOULD send the parts in the same order that the corresponding range-spec appeared in the received Range header field, excluding those ranges that were deemed unsatisfiable or that were coalesced into other ranges.  A client that receives a multipart response MUST inspect the Content-Range header field present in each body part in order to determine which range is contained in that body part; a client cannot rely on receiving the same ranges that it requested, nor the same order that it requested.
+"ko": |-
+  다중 부분 응답을 생성하는 서버는 만족스럽지 않은 것으로 간주되거나 다른 범위로 통합된 범위를 제외하고 수신된 Range 헤더 필드에 해당 범위 사양이 나타나는 것과 동일한 순서로 부분을 전송해야 합니다. 다중 부분 응답을 수신하는 클라이언트는 해당 본문 부분에 어떤 범위가 포함되어 있는지 확인하기 위해 각 본문 부분에 있는 Content-Range 헤더 필드를 검사해야 합니다. 클라이언트는 요청한 것과 동일한 범위나 요청한 것과 동일한 순서를 수신할 수 없습니다.

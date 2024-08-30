@@ -1,0 +1,25 @@
+"hash": |-
+  8c07037f6e2cd7a8b448ef2ebbe998cff8b75c5872aea2d97aaa0cadafbaeac9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           that are supported for the specified format and (2) the
+           attribute values that are supported for the specified Document
+           format.  By specifying the Document format, the Client can get
+           the Printer to eliminate the attributes and values that are not
+           supported for a specific Document format.  For example, a
+           Printer might have multiple interpreters to support both
+           'application/postscript' (for PostScript) and 'text/plain' (for
+           text) Documents.  However, only one of those interpreters might
+           support the "number-up" Job Template attribute with values of
+           '1', '2', and '4'.  The other interpreter might only be able to
+           support the "number-up" Job Template attribute with a value of
+           '1'.  Thus, a Client can use the Get-Printer-Attributes
+           operation to obtain the attributes and values that will be used
+           to accept/reject a Job Creation request.
+"fixed": |-
+  - that are supported for the specified format and (2) the attribute values that are supported for the specified Document format.  By specifying the Document format, the Client can get the Printer to eliminate the attributes and values that are not supported for a specific Document format.  For example, a Printer might have multiple interpreters to support both 'application/postscript' (for PostScript) and 'text/plain' (for text) Documents.  However, only one of those interpreters might support the "number-up" Job Template attribute with values of '1', '2', and '4'.  The other interpreter might only be able to support the "number-up" Job Template attribute with a value of '1'.  Thus, a Client can use the Get-Printer-Attributes operation to obtain the attributes and values that will be used to accept/reject a Job Creation request.
+"ko": |-
+  - 지정된 형식에 대해 지원되는 항목 및 (2) 지정된 문서 형식에 대해 지원되는 속성 값입니다. 문서 형식을 지정함으로써 클라이언트는 프린터가 특정 문서 형식에 대해 지원되지 않는 속성과 값을 제거하도록 할 수 있습니다. 예를 들어, 프린터에는 'application/postscript'(PostScript의 경우) 및 'text/plain'(텍스트의 경우) 문서를 모두 지원하는 여러 해석기가 있을 수 있습니다. 그러나 해당 인터프리터 중 하나만 값이 '1', '2' 및 '4'인 "번호 증가" 작업 템플릿 속성을 지원할 수 있습니다. 다른 인터프리터는 값이 '1'인 "number-up" 작업 템플릿 속성만 지원할 수 있습니다. 따라서 클라이언트는 Get-Printer-Attributes 작업을 사용하여 작업 생성 요청을 수락/거부하는 데 사용되는 속성과 값을 얻을 수 있습니다.

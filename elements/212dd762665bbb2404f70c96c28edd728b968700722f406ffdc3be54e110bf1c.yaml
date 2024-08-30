@@ -1,0 +1,15 @@
+"hash": |-
+  212dd762665bbb2404f70c96c28edd728b968700722f406ffdc3be54e110bf1c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The END-SESSION method may be safely executed multiple times without
+     first executing the START-SESSION method.  Any additional executions
+     of this method without an intervening use of the START-SESSION method
+     have no effect on the verifier resource.
+"fixed": |-
+  The END-SESSION method may be safely executed multiple times without first executing the START-SESSION method.  Any additional executions of this method without an intervening use of the START-SESSION method have no effect on the verifier resource.
+"ko": |-
+  END-SESSION 메서드는 START-SESSION 메서드를 먼저 실행하지 않고도 안전하게 여러 번 실행할 수 있습니다. START-SESSION 메서드를 개입하여 사용하지 않고 이 메서드를 추가로 실행해도 검증자 리소스에 영향을 미치지 않습니다.

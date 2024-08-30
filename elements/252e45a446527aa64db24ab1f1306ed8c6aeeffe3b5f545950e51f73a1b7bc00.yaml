@@ -1,0 +1,18 @@
+"hash": |-
+  252e45a446527aa64db24ab1f1306ed8c6aeeffe3b5f545950e51f73a1b7bc00
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This principle implies that as any chunk is verified using its uncle
+     hashes, the necessary hashes SHOULD be put into the same datagram as
+     the chunk's data.  If this is not possible because of a limitation on
+     datagram size, the necessary hashes MUST be sent first in one or more
+     datagrams.  As a general rule, if some additional data is still
+     missing to process a message within a datagram, the message SHOULD be
+     dropped.
+"fixed": |-
+  This principle implies that as any chunk is verified using its uncle hashes, the necessary hashes SHOULD be put into the same datagram as the chunk's data.  If this is not possible because of a limitation on datagram size, the necessary hashes MUST be sent first in one or more datagrams.  As a general rule, if some additional data is still missing to process a message within a datagram, the message SHOULD be dropped.
+"ko": |-
+  이 원칙은 모든 청크가 삼촌 해시를 사용하여 확인될 때 필요한 해시가 청크의 데이터와 동일한 데이터그램에 저장되어야 함을 의미합니다. 데이터그램 크기 제한으로 인해 이것이 가능하지 않은 경우 필요한 해시를 하나 이상의 데이터그램에서 먼저 전송해야 합니다. 일반적으로 데이터그램 내의 메시지를 처리하기 위해 일부 추가 데이터가 여전히 누락된 경우 메시지를 삭제해야 합니다.

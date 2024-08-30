@@ -1,0 +1,17 @@
+"hash": |-
+  2ba45f557790054b92bbe7d2bcb0a2b6e92bc7177a7ae4ea796ca3640c44d10b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After a client receives a Retry packet, 0-RTT packets are likely to
+     have been lost or discarded by the server.  A client SHOULD attempt
+     to resend data in 0-RTT packets after it sends a new Initial packet.
+     New packet numbers MUST be used for any new packets that are sent; as
+     described in Section 17.2.5.3, reusing packet numbers could
+     compromise packet protection.
+"fixed": |-
+  After a client receives a Retry packet, 0-RTT packets are likely to have been lost or discarded by the server.  A client SHOULD attempt to resend data in 0-RTT packets after it sends a new Initial packet. New packet numbers MUST be used for any new packets that are sent; as described in Section 17.2.5.3, reusing packet numbers could compromise packet protection.
+"ko": |-
+  클라이언트가 재시도 패킷을 수신한 후 0-RTT 패킷은 서버에 의해 손실되거나 폐기될 가능성이 높습니다. 클라이언트는 새로운 초기 패킷을 보낸 후 0-RTT 패킷의 데이터 재전송을 시도해야 합니다(SHOULD). 전송되는 모든 새 패킷에는 새 패킷 번호를 사용해야 합니다. 섹션 17.2.5.3에 설명된 대로 패킷 번호를 재사용하면 패킷 보호가 손상될 수 있습니다.

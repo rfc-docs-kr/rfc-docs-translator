@@ -1,0 +1,17 @@
+"hash": |-
+  281dbd642355e06d520b8b1014053da8f7a0ce688470af5a4b621316bd649808
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The connection address and port in the answer indicate the address
+     where the answerer wishes to receive media (in the case of RTP, RTCP
+     will be received on the port which is one higher unless there is an
+     explicit indication otherwise).  This address and port MUST be
+     present even for sendonly streams; in the case of RTP, the port one
+     higher is still used to receive RTCP.
+"fixed": |-
+  The connection address and port in the answer indicate the address where the answerer wishes to receive media (in the case of RTP, RTCP will be received on the port which is one higher unless there is an explicit indication otherwise).  This address and port MUST be present even for sendonly streams; in the case of RTP, the port one higher is still used to receive RTCP.
+"ko": |-
+  응답의 연결 주소와 포트는 응답자가 미디어를 수신하고자 하는 주소를 나타냅니다(RTP의 경우, RTCP는 명시적으로 달리 표시되지 않는 한 하나 더 높은 포트에서 수신됩니다). 이 주소와 포트는 sendonly 스트림에도 반드시 존재해야 합니다. RTP의 경우, 하나 더 높은 포트는 여전히 RTCP를 수신하는 데 사용됩니다.

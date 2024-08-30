@@ -1,0 +1,17 @@
+"hash": |-
+  e98c74e8e233f858e91a956b28d925e7ffa240f9fa2f948261c5ebb8ff77dc47
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If the Client supplies a value for the "document-format"
+           operation attribute that is not supported by the Printer, i.e.,
+           is not among the values of the Printer's
+           "document-format-supported" attribute, the Printer MUST reject
+           the operation and return the
+           'client-error-document-format-not-supported' status-code.
+"fixed": |-
+  - If the Client supplies a value for the "document-format" operation attribute that is not supported by the Printer, i.e., is not among the values of the Printer's "document-format-supported" attribute, the Printer MUST reject the operation and return the 'client-error-document-format-not-supported' status-code.
+"ko": |-
+  - 클라이언트가 프린터에서 지원하지 않는 "document-format" 작업 속성에 대한 값을 제공하는 경우, 즉 프린터의 "document-format-supported" 속성 값에 속하지 않는 경우, 프린터는 해당 작업을 거부해야 하며 '클라이언트 오류-문서-형식-지원되지 않음' 상태 코드를 반환합니다.

@@ -1,0 +1,34 @@
+"hash": |-
+  f7e1b11f19dc9aeff0faf5c5863f352156a4675b22d9a2ec90118bd1c7ad6bc0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The security implications of this are subtle, but do have a
+     fundamental importance in building large networks that change over
+     time.  Given that the hashes are produced also using algorithms
+     agreed in the first unprotected messages, one could ask what the
+     difference in security really is.  Assuming integrity protection is
+     mandatory and only secure algorithms are used, we still need to
+     prevent MitM attackers from modifying other parameters, such as
+     whether encryption is provided or not.  Let us first assume two peers
+     capable of using both strong and weak security.  If the initial
+     offers are not protected in any way, any attacker can easily
+     "downgrade" the offers by removing the strong options.  This would
+     force the two peers to use weak security between them.  But if the
+     offers are protected in some way -- such as by hashing, or repeating
+     them later when the selected security is really on -- the situation
+     is different.  It would not be sufficient for the attacker to modify
+     a single message.  Instead, the attacker would have to modify both
+     the offer message, as well as the message that contains the hash/
+     repetition.  More importantly, the attacker would have to forge the
+     weak security that is present in the second message, and would have
+     to do so in real time between the sent offers and the later messages.
+     Otherwise, the peers would notice that the hash is incorrect.  If the
+     attacker is able to break the weak security, the security method
+     and/or the algorithm should not be used.
+"fixed": |-
+  The security implications of this are subtle, but do have a fundamental importance in building large networks that change over time.  Given that the hashes are produced also using algorithms agreed in the first unprotected messages, one could ask what the difference in security really is.  Assuming integrity protection is mandatory and only secure algorithms are used, we still need to prevent MitM attackers from modifying other parameters, such as whether encryption is provided or not.  Let us first assume two peers capable of using both strong and weak security.  If the initial offers are not protected in any way, any attacker can easily "downgrade" the offers by removing the strong options.  This would force the two peers to use weak security between them.  But if the offers are protected in some way -- such as by hashing, or repeating them later when the selected security is really on -- the situation is different.  It would not be sufficient for the attacker to modify a single message.  Instead, the attacker would have to modify both the offer message, as well as the message that contains the hash/ repetition.  More importantly, the attacker would have to forge the weak security that is present in the second message, and would have to do so in real time between the sent offers and the later messages. Otherwise, the peers would notice that the hash is incorrect.  If the attacker is able to break the weak security, the security method and/or the algorithm should not be used.
+"ko": |-
+  이것의 보안 의미는 미묘하지만 시간이 지남에 따라 변화하는 대규모 네트워크를 구축하는 데 근본적으로 중요합니다. 해시가 첫 번째 보호되지 않은 메시지에서 합의한 알고리즘을 사용하여 생성된다는 점을 감안할 때 보안의 차이가 실제로 무엇인지 질문할 수 있습니다. 무결성 보호가 필수이고 보안 알고리즘만 사용된다고 가정하더라도 MitM 공격자가 암호화가 제공되는지 여부와 같은 다른 매개변수를 수정하지 못하도록 해야 합니다. 먼저 강력한 보안과 약한 보안을 모두 사용할 수 있는 두 피어를 가정해 보겠습니다. 초기 제안이 어떤 식으로도 보호되지 않으면 모든 공격자는 강력한 옵션을 제거하여 제안을 쉽게 "다운그레이드"할 수 있습니다. 이렇게 하면 두 피어가 서로 약한 보안을 사용해야 합니다. 그러나 제안이 해싱이나 선택한 보안이 실제로 적용될 때 나중에 반복하는 것과 같이 어떤 식으로든 보호되는 경우 상황이 다릅니다. 공격자가 단일 메시지를 수정하는 것만으로는 충분하지 않습니다. 대신 공격자는 제안 메시지와 해시/반복이 포함된 메시지를 모두 수정해야 합니다. 더 중요한 것은, 공격자는 두 번째 메시지에 존재하는 취약한 보안을 위조해야 하며, 전송된 오퍼와 이후 메시지 사이에 실시간으로 이를 수행해야 합니다. 그렇지 않으면 피어는 해시가 잘못되었음을 알아차릴 것입니다. 공격자가 취약한 보안을 깨뜨릴 수 있다면 보안 방법 및/또는 알고리즘을 사용해서는 안 됩니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  81222bd906e8c678b2d947feadc4c2748e1a9480a30956b4117100907c7184aa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     With RSA, key exchange and server authentication are combined. The
+     public key may be either contained in the server's certificate or may
+     be a temporary RSA key sent in a server key exchange message.  When
+     temporary RSA keys are used, they are signed by the server's RSA or
+     DSS certificate. The signature includes the current
+     ClientHello.random, so old signatures and temporary keys cannot be
+     replayed. Servers may use a single temporary RSA key for multiple
+     negotiation sessions.
+"fixed": |-
+  With RSA, key exchange and server authentication are combined. The public key may be either contained in the server's certificate or may be a temporary RSA key sent in a server key exchange message.  When temporary RSA keys are used, they are signed by the server's RSA or DSS certificate. The signature includes the current ClientHello.random, so old signatures and temporary keys cannot be replayed. Servers may use a single temporary RSA key for multiple negotiation sessions.
+"ko": |-
+  RSA를 사용하면 키 교환과 서버 인증이 결합됩니다. 공개 키는 서버 인증서에 포함되어 있거나 서버 키 교환 메시지에 전송된 임시 RSA 키일 수 있습니다. 임시 RSA 키가 사용되면 서버의 RSA 또는 DSS 인증서로 서명됩니다. 서명에는 현재 ClientHello.random이 포함되어 있으므로 이전 서명과 임시 키를 재생할 수 없습니다. 서버는 여러 협상 세션에 단일 임시 RSA 키를 사용할 수 있습니다.

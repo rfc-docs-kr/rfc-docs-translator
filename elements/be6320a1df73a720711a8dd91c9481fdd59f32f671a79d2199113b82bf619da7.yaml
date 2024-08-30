@@ -1,0 +1,24 @@
+"hash": |-
+  be6320a1df73a720711a8dd91c9481fdd59f32f671a79d2199113b82bf619da7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the received packet falls within the window and is not a
+     duplicate, or if the packet is to the right of the window, and if a
+     separate integrity algorithm is employed, then the receiver proceeds
+     to integrity verification.  If a combined mode algorithm is employed,
+     the integrity check is performed along with decryption.  In either
+     case, if the integrity check fails, the receiver MUST discard the
+     received IP datagram as invalid; this is an auditable event.  The
+     audit log entry for this event SHOULD include the SPI value,
+     date/time received, Source Address, Destination Address, the Sequence
+     Number, and (in IPv6) the Flow ID.  The receive window is updated
+     only if the integrity verification succeeds.  (If a combined mode
+     algorithm is being used, then the integrity protected Sequence Number
+     must also match the Sequence Number used for anti-replay protection.)
+"fixed": |-
+  If the received packet falls within the window and is not a duplicate, or if the packet is to the right of the window, and if a separate integrity algorithm is employed, then the receiver proceeds to integrity verification.  If a combined mode algorithm is employed, the integrity check is performed along with decryption.  In either case, if the integrity check fails, the receiver MUST discard the received IP datagram as invalid; this is an auditable event.  The audit log entry for this event SHOULD include the SPI value, date/time received, Source Address, Destination Address, the Sequence Number, and (in IPv6) the Flow ID.  The receive window is updated only if the integrity verification succeeds.  (If a combined mode algorithm is being used, then the integrity protected Sequence Number must also match the Sequence Number used for anti-replay protection.)
+"ko": |-
+  수신된 패킷이 윈도우 내에 있고 중복이 아닌 경우 또는 패킷이 윈도우의 오른쪽에 있는 경우 별도의 무결성 알고리즘을 사용하는 경우 수신자는 무결성 검증을 진행합니다.  결합 모드 알고리즘을 사용하는 경우 복호화와 함께 무결성 검사도 수행됩니다.  두 경우 모두 무결성 검사가 실패하면 수신자는 수신된 IP 데이터그램을 유효하지 않은 것으로 폐기해야 합니다. 이는 감사 가능한 이벤트입니다.  이 이벤트에 대한 감사 로그 항목에는 SPI 값, 수신된 날짜/시간, 소스 주소, 대상 주소, 시퀀스 번호 및 (IPv6의 경우) 흐름 ID가 포함되어야 합니다.  수신창은 무결성 검증이 성공한 경우에만 업데이트됩니다.  (결합 모드 알고리즘을 사용하는 경우 무결성 보호 시퀀스 번호는 재생 방지 보호에 사용되는 시퀀스 번호와도 일치해야 합니다.)

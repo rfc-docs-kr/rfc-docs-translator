@@ -1,0 +1,22 @@
+"hash": |-
+  ac00126a3416606d016952ecd343912a3f22ad2c054536731f6910098d938092
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          TRANSM (CONNECTID, NO, BUFFADDR, N, [OPT])
+          CONNECTID:  Connection identification #
+          NO:  Connection #.  The primary connection is always referred to
+               as being NO=0.  An auxiliary connection number corresponds
+               to the order in which it has been established.  (The first
+               auxiliary opened is referred to by NO=1, the second by
+               NO=2, etc.)
+          BUFFADDR:  Buffer address of the message to be transmitted.
+          N:  Message size (byte number)
+          OPT:  Options such as data type (characters vs. binary), trace
+                bit, etc.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

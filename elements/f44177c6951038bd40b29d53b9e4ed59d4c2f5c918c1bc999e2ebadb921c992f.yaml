@@ -1,0 +1,20 @@
+"hash": |-
+  f44177c6951038bd40b29d53b9e4ed59d4c2f5c918c1bc999e2ebadb921c992f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is possible that un-upgraded servers will request that the client
+     renegotiate.  It is RECOMMENDED that clients refuse this
+     renegotiation request.  Clients that do so MUST respond to such
+     requests with a "no_renegotiation" alert (RFC 5246 requires this
+     alert to be at the "warning" level).  It is possible that the
+     apparently un-upgraded server is in fact an attacker who is then
+     allowing the client to renegotiate with a different, legitimate,
+     upgraded server.  If clients nevertheless choose to renegotiate, they
+     MUST behave as described below.
+"fixed": |-
+  It is possible that un-upgraded servers will request that the client renegotiate.  It is RECOMMENDED that clients refuse this renegotiation request.  Clients that do so MUST respond to such requests with a "no_renegotiation" alert (RFC 5246 requires this alert to be at the "warning" level).  It is possible that the apparently un-upgraded server is in fact an attacker who is then allowing the client to renegotiate with a different, legitimate, upgraded server.  If clients nevertheless choose to renegotiate, they MUST behave as described below.
+"ko": |-
+  업그레이드되지 않은 서버가 클라이언트에 재협상을 요청할 수도 있습니다. 클라이언트는 이 재협상 요청을 거부하는 것이 좋습니다. 그렇게 하는 클라이언트는 "no_renegotiation" 경고로 이러한 요청에 응답해야 합니다(RFC 5246에서는 이 경고가 "경고" 수준이어야 함). 업그레이드되지 않은 것으로 보이는 서버가 실제로는 클라이언트가 다른 합법적인 업그레이드된 서버와 재협상하도록 허용하는 공격자일 가능성이 있습니다. 그럼에도 불구하고 클라이언트가 재협상을 선택하는 경우 아래 설명된 대로 행동해야 합니다.

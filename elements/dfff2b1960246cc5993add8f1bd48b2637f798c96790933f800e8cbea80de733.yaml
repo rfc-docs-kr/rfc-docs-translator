@@ -1,0 +1,21 @@
+"hash": |-
+  dfff2b1960246cc5993add8f1bd48b2637f798c96790933f800e8cbea80de733
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       S: * OK [CAPABILITY IMAP4rev2 STARTTLS AUTH=GSSAPI
+        LOGINDISABLED] Server ready
+       C: A01 STARTTLS
+       S: A01 OK STARTTLS completed
+       <TLS negotiation, further commands are under TLS layer>
+       C: A02 CAPABILITY
+       S: * CAPABILITY IMAP4rev2 AUTH=GSSAPI AUTH=PLAIN
+       S: A02 OK CAPABILITY completed
+       C: A03 AUTHENTICATE PLAIN dGVzdAB0ZXN0AHRlc3Q=
+       S: A03 OK Success (tls protection)
+"fixed": |-
+  S: * OK [CAPABILITY IMAP4rev2 STARTTLS AUTH=GSSAPI LOGINDISABLED] Server ready C: A01 STARTTLS S: A01 OK STARTTLS completed <TLS negotiation, further commands are under TLS layer> C: A02 CAPABILITY S: * CAPABILITY IMAP4rev2 AUTH=GSSAPI AUTH=PLAIN S: A02 OK CAPABILITY completed C: A03 AUTHENTICATE PLAIN dGVzdAB0ZXN0AHRlc3Q= S: A03 OK Success (tls protection)
+"ko": |-
+  S: * OK [CAPABILITY IMAP4rev2 STARTTLS AUTH=GSSAPI LOGINDISABLED] 서버 준비됨 C: A01 STARTTLS S: A01 OK STARTTLS 완료 <TLS 협상, 추가 명령은 TLS 레이어 아래에 있음> C: A02 CAPABILITY S: * CAPABILITY IMAP4rev2 AUTH=GSSAPI AUTH= 일반 S: A02 OK 기능 완료 C: A03 일반 인증 dGVzdAB0ZXN0AHRlc3Q= S: A03 OK 성공(tls 보호)

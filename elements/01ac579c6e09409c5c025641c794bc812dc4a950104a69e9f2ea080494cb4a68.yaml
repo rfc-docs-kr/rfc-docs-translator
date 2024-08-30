@@ -1,0 +1,16 @@
+"hash": |-
+  01ac579c6e09409c5c025641c794bc812dc4a950104a69e9f2ea080494cb4a68
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints SHOULD abandon path validation based on a timer.  When
+     setting this timer, implementations are cautioned that the new path
+     could have a longer round-trip time than the original.  A value of
+     three times the larger of the current PTO or the PTO for the new path
+     (using kInitialRtt, as defined in [QUIC-RECOVERY]) is RECOMMENDED.
+"fixed": |-
+  Endpoints SHOULD abandon path validation based on a timer.  When setting this timer, implementations are cautioned that the new path could have a longer round-trip time than the original.  A value of three times the larger of the current PTO or the PTO for the new path (using kInitialRtt, as defined in [QUIC-RECOVERY]) is RECOMMENDED.
+"ko": |-
+  엔드포인트는 타이머에 따른 경로 유효성 검사를 포기해야 합니다(SHOULD). 이 타이머를 설정할 때 새 경로가 원래 경로보다 왕복 시간이 더 길 수 있다는 점을 구현에 주의해야 합니다. 현재 PTO 또는 새 경로에 대한 PTO([QUIC-RECOVERY]에 정의된 kInitialRtt 사용)보다 3배 더 큰 값을 권장합니다.

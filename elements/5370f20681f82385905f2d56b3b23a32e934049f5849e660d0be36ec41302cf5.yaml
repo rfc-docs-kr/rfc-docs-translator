@@ -1,0 +1,18 @@
+"hash": |-
+  5370f20681f82385905f2d56b3b23a32e934049f5849e660d0be36ec41302cf5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the IP Address Lease Time option (option 51) is specified in the
+     Parameter Request List and if there is a currently valid lease for
+     the IP address specified in the ciaddr, then the DHCP server MUST
+     return this option in the DHCPLEASEACTIVE message with its value
+     equal to the time remaining until lease expiration.  If there is no
+     valid lease for the IP address, then the server MUST NOT return the
+     IP Address Lease Time option (option 51).
+"fixed": |-
+  If the IP Address Lease Time option (option 51) is specified in the Parameter Request List and if there is a currently valid lease for the IP address specified in the ciaddr, then the DHCP server MUST return this option in the DHCPLEASEACTIVE message with its value equal to the time remaining until lease expiration.  If there is no valid lease for the IP address, then the server MUST NOT return the IP Address Lease Time option (option 51).
+"ko": |-
+  매개변수 요청 목록에 IP 주소 임대 시간 옵션(옵션 51)이 지정되어 있고 ciaddr에 지정된 IP 주소에 대해 현재 유효한 임대가 있는 경우 DHCP 서버는 해당 값과 함께 DHCPLEASEACTIVE 메시지에서 이 옵션을 반환해야 합니다. 임대 만료까지 남은 시간과 같습니다. IP 주소에 대한 유효한 임대가 없는 경우 서버는 IP 주소 임대 시간 옵션(옵션 51)을 반환해서는 안 됩니다.

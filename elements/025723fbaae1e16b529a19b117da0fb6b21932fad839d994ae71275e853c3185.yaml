@@ -1,0 +1,19 @@
+"hash": |-
+  025723fbaae1e16b529a19b117da0fb6b21932fad839d994ae71275e853c3185
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Packets with short headers (Section 17.3) only include the
+     Destination Connection ID and omit the explicit length.  The length
+     of the Destination Connection ID field is expected to be known to
+     endpoints.  Endpoints using a load balancer that routes based on
+     connection ID could agree with the load balancer on a fixed length
+     for connection IDs or agree on an encoding scheme.  A fixed portion
+     could encode an explicit length, which allows the entire connection
+     ID to vary in length and still be used by the load balancer.
+"fixed": |-
+  Packets with short headers (Section 17.3) only include the Destination Connection ID and omit the explicit length.  The length of the Destination Connection ID field is expected to be known to endpoints.  Endpoints using a load balancer that routes based on connection ID could agree with the load balancer on a fixed length for connection IDs or agree on an encoding scheme.  A fixed portion could encode an explicit length, which allows the entire connection ID to vary in length and still be used by the load balancer.
+"ko": |-
+  짧은 헤더(17.3절)가 있는 패킷에는 대상 연결 ID만 포함되고 명시적인 길이는 생략됩니다. 대상 연결 ID 필드의 길이는 엔드포인트에 알려질 것으로 예상됩니다. 연결 ID를 기반으로 라우팅하는 로드 밸런서를 사용하는 엔드포인트는 연결 ID의 고정 길이에 대해 로드 밸런서와 동의하거나 인코딩 방식에 동의할 수 있습니다. 고정 부분은 명시적인 길이를 인코딩할 수 있으므로 전체 연결 ID의 길이가 다양하면서도 로드 밸런서에서 계속 사용될 수 있습니다.

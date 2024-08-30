@@ -1,0 +1,16 @@
+"hash": |-
+  677c36d3256e82b0495e903da67b890457cedaa24ab3ce8e3e9c1ef8b970bc57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that the above datagram does not include the INTEGRITY message,
+     as the entire content can fit into a single message; hence, the
+     initiating peer is able to verify it against the root hash.  Also, in
+     this example, the peer does not respond to the PEX_REQ as it does not
+     know any third peer participating in the swarm.
+"fixed": |-
+  Note that the above datagram does not include the INTEGRITY message, as the entire content can fit into a single message; hence, the initiating peer is able to verify it against the root hash.  Also, in this example, the peer does not respond to the PEX_REQ as it does not know any third peer participating in the swarm.
+"ko": |-
+  전체 내용이 단일 메시지에 들어갈 수 있으므로 위의 데이터그램에는 INTEGRITY 메시지가 포함되어 있지 않습니다. 따라서 시작 피어는 루트 해시에 대해 이를 확인할 수 있습니다. 또한 이 예에서 피어는 Swarm에 참여하는 세 번째 피어를 모르기 때문에 PEX_REQ에 응답하지 않습니다.

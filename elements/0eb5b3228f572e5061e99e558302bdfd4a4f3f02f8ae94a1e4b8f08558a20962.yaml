@@ -1,0 +1,17 @@
+"hash": |-
+  0eb5b3228f572e5061e99e558302bdfd4a4f3f02f8ae94a1e4b8f08558a20962
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       // Once the length is known, remove these bits and read any
+       // remaining bytes.
+       v = v & 0x3f
+       repeat length-1 times:
+         v = (v << 8) + data.next_byte()
+       return v
+"fixed": |-
+  // Once the length is known, remove these bits and read any // remaining bytes. v = v & 0x3f repeat length-1 times: v = (v << 8) + data.next_byte() return v
+"ko": |-
+  // 길이가 알려지면 해당 비트를 제거하고 // 남은 바이트를 읽습니다. v = v & 0x3f 길이-1회 반복: v = (v << 8) + data.next_byte() return v

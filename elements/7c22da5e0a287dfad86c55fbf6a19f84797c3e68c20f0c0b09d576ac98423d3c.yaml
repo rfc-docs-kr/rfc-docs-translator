@@ -1,0 +1,21 @@
+"hash": |-
+  7c22da5e0a287dfad86c55fbf6a19f84797c3e68c20f0c0b09d576ac98423d3c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This REQUIRED Printer attribute MUST have the same cardinality
+     (contain the same number of values) as the "printer-uri-supported"
+     attribute.  This attribute identifies the Client Authentication
+     mechanism associated with each URI listed in the
+     "printer-uri-supported" attribute.  The Printer uses the specified
+     mechanism to identify the authenticated user (see Section 9.3).  The
+     "i-th" value in "uri-authentication-supported" corresponds to the
+     "i-th" value in "printer-uri-supported", and it describes the
+     authentication mechanisms used by the Printer when accessed via that
+     URI.  See [RFC8010] for more details on Client Authentication.
+"fixed": |-
+  This REQUIRED Printer attribute MUST have the same cardinality (contain the same number of values) as the "printer-uri-supported" attribute.  This attribute identifies the Client Authentication mechanism associated with each URI listed in the "printer-uri-supported" attribute.  The Printer uses the specified mechanism to identify the authenticated user (see Section 9.3).  The "i-th" value in "uri-authentication-supported" corresponds to the "i-th" value in "printer-uri-supported", and it describes the authentication mechanisms used by the Printer when accessed via that URI.  See [RFC8010] for more details on Client Authentication.
+"ko": |-
+  이 필수 프린터 속성은 "printer-uri-supported" 속성과 동일한 카디널리티(동일한 수의 값 포함)를 가져야 합니다. 이 속성은 "printer-uri-supported" 속성에 나열된 각 URI와 연관된 클라이언트 인증 메커니즘을 식별합니다. 프린터는 지정된 메커니즘을 사용하여 인증된 사용자를 식별합니다(섹션 9.3 참조). "uri-authentication-supported"의 "i-th" 값은 "printer-uri-supported"의 "i-th" 값에 해당하며 해당 URI를 통해 액세스할 때 프린터가 사용하는 인증 메커니즘을 설명합니다. 클라이언트 인증에 대한 자세한 내용은 [RFC8010]을 참조하세요.

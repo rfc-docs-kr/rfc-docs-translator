@@ -1,0 +1,15 @@
+"hash": |-
+  51fddb45491aa37da6dde7fa378552b5b4e21e6d1c2e33aada3b6148ec8a8241
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     5.  C sends a "ClientKeyExchange" to A, containing the
+         "pre_master_secret", encrypted with A's public key.  A decrypts
+         the "pre_master_secret", re-encrypts it with S's public key, and
+         sends it on to S.
+"fixed": |-
+  1.  C sends a "ClientKeyExchange" to A, containing the "pre_master_secret", encrypted with A's public key.  A decrypts the "pre_master_secret", re-encrypts it with S's public key, and sends it on to S.
+"ko": |-
+  1. C는 A의 공개 키로 암호화된 "pre_master_secret"을 포함하는 "ClientKeyExchange"를 A에게 보냅니다. A는 "pre_master_secret"을 복호화하고 S의 공개 키로 다시 암호화한 다음 S에게 보냅니다.

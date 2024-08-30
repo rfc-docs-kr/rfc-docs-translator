@@ -1,0 +1,15 @@
+"hash": |-
+  8171553cb123c615fceb7ddaf274927a9cbb901f7656893ba5a024ba9c48235e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint sends a CONNECTION_CLOSE frame (Section 19.19) to
+     terminate the connection immediately.  A CONNECTION_CLOSE frame
+     causes all streams to immediately become closed; open streams can be
+     assumed to be implicitly reset.
+"fixed": |-
+  An endpoint sends a CONNECTION_CLOSE frame (Section 19.19) to terminate the connection immediately.  A CONNECTION_CLOSE frame causes all streams to immediately become closed; open streams can be assumed to be implicitly reset.
+"ko": |-
+  끝점은 연결을 즉시 종료하기 위해 CONNECTION_CLOSE 프레임(19.19절)을 보냅니다. CONNECTION_CLOSE 프레임으로 인해 모든 스트림이 즉시 닫힙니다. 오픈 스트림은 암시적으로 재설정되는 것으로 가정할 수 있습니다.

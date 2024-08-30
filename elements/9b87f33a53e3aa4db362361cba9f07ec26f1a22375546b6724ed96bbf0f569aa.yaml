@@ -1,0 +1,25 @@
+"hash": |-
+  9b87f33a53e3aa4db362361cba9f07ec26f1a22375546b6724ed96bbf0f569aa
+"type": |-
+  Table
+"comment": !!null |-
+  null
+"original": |2-
+          Var.   Size
+          Name  (bits)            Meaning
+          ----  ------  ---------------------------
+          W       32    Size of window
+          T       64    Highest sequence number authenticated so far,
+                        upper bound of window
+            Tl      32    Lower 32 bits of T
+            Th      32    Upper 32 bits of T
+          B       64    Lower bound of window
+            Bl      32    Lower 32 bits of B
+            Bh      32    Upper 32 bits of B
+          Seq     64    Sequence Number of received packet
+            Seql    32    Lower 32 bits of Seq
+            Seqh    32    Upper 32 bits of Seq
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

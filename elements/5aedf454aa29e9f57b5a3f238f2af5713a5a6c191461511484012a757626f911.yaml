@@ -1,0 +1,23 @@
+"hash": |-
+  5aedf454aa29e9f57b5a3f238f2af5713a5a6c191461511484012a757626f911
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     X25519 and X448 are designed so that fast, constant-time
+     implementations are easier to produce.  The procedure above ensures
+     that the same sequence of field operations is performed for all
+     values of the secret key, thus eliminating a common source of side-
+     channel leakage.  However, this alone does not prevent all side-
+     channels by itself.  It is important that the pattern of memory
+     accesses and jumps not depend on the values of any of the bits of k.
+     It is also important that the arithmetic used not leak information
+     about the integers modulo p, for example by having b*c be
+     distinguishable from c*c.  On some architectures, even primitive
+     machine instructions, such as single-word division, can have variable
+     timing based on their inputs.
+"fixed": |-
+  X25519 and X448 are designed so that fast, constant-time implementations are easier to produce.  The procedure above ensures that the same sequence of field operations is performed for all values of the secret key, thus eliminating a common source of side- channel leakage.  However, this alone does not prevent all side- channels by itself.  It is important that the pattern of memory accesses and jumps not depend on the values of any of the bits of k. It is also important that the arithmetic used not leak information about the integers modulo p, for example by having b*c be distinguishable from c*c.  On some architectures, even primitive machine instructions, such as single-word division, can have variable timing based on their inputs.
+"ko": |-
+  X25519 및 X448은 빠르고 일정한 시간 구현을 더 쉽게 생성할 수 있도록 설계되었습니다. 위의 절차는 비밀 키의 모든 값에 대해 동일한 필드 작업 순서가 수행되도록 보장하여 공통적인 부채널 누출 원인을 제거합니다. 그러나 이것만으로는 모든 부채널을 자체적으로 방지할 수는 없습니다. 메모리 액세스 및 점프 패턴이 k 비트의 값에 의존하지 않는 것이 중요합니다. 예를 들어 b*c를 c*c와 구별할 수 있도록 함으로써, 사용된 산술이 정수 모듈로 p에 대한 정보를 누출하지 않는 것도 중요합니다. 일부 아키텍처에서는 단일 단어 분할과 같은 기본 기계 명령어도 입력에 따라 가변 타이밍을 가질 수 있습니다.

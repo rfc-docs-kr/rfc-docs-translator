@@ -1,0 +1,15 @@
+"hash": |-
+  eb9cd56163a23758ef212170b43cd858cbe5e717f165eae2f4c340fd296d070a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        a) Remove from consideration all routes that are not tied for
+           having the smallest number of AS numbers present in their
+           AS_PATH attributes.  Note that when counting this number, an
+           AS_SET counts as 1, no matter how many ASes are in the set.
+"fixed": |-
+  - a) Remove from consideration all routes that are not tied for having the smallest number of AS numbers present in their AS_PATH attributes.  Note that when counting this number, an AS_SET counts as 1, no matter how many ASes are in the set.
+"ko": |-
+  - a) AS_PATH 속성에 존재하는 AS 번호 수가 가장 적기 때문에 연결되지 않은 모든 경로를 고려 대상에서 제거합니다. 이 숫자를 계산할 때 AS_SET은 세트에 AS가 몇 개 있든 상관없이 1로 계산됩니다.

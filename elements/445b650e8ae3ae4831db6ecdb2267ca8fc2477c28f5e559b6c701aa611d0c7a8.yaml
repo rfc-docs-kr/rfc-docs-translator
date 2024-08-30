@@ -1,0 +1,16 @@
+"hash": |-
+  445b650e8ae3ae4831db6ecdb2267ca8fc2477c28f5e559b6c701aa611d0c7a8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Streams are identified within a connection by a numeric value,
+     referred to as the stream ID.  A stream ID is a 62-bit integer (0 to
+     2^62-1) that is unique for all streams on a connection.  Stream IDs
+     are encoded as variable-length integers; see Section 16.  A QUIC
+     endpoint MUST NOT reuse a stream ID within a connection.
+"fixed": |-
+  Streams are identified within a connection by a numeric value, referred to as the stream ID.  A stream ID is a 62-bit integer (0 to 2^62-1) that is unique for all streams on a connection.  Stream IDs are encoded as variable-length integers; see Section 16.  A QUIC endpoint MUST NOT reuse a stream ID within a connection.
+"ko": |-
+  스트림은 스트림 ID라고 하는 숫자 값으로 연결 내에서 식별됩니다. 스트림 ID는 연결의 모든 스트림에 대해 고유한 62비트 정수(0 ~ 2^62-1)입니다. 스트림 ID는 가변 길이 정수로 인코딩됩니다. 섹션 16을 참조하십시오. QUIC 엔드포인트는 연결 내에서 스트림 ID를 재사용해서는 안 됩니다.

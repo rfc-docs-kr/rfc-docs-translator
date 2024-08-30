@@ -1,0 +1,21 @@
+"hash": |-
+  7759302580f0d92d847c01592db773a2d06b8601cb4bb034ac4868236f5383d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender can minimize per-packet bandwidth and computational costs by
+     including as many frames as possible in each QUIC packet.  A sender
+     MAY wait for a short period of time to collect multiple frames before
+     sending a packet that is not maximally packed, to avoid sending out
+     large numbers of small packets.  An implementation MAY use knowledge
+     about application sending behavior or heuristics to determine whether
+     and for how long to wait.  This waiting period is an implementation
+     decision, and an implementation should be careful to delay
+     conservatively, since any delay is likely to increase application-
+     visible latency.
+"fixed": |-
+  A sender can minimize per-packet bandwidth and computational costs by including as many frames as possible in each QUIC packet.  A sender MAY wait for a short period of time to collect multiple frames before sending a packet that is not maximally packed, to avoid sending out large numbers of small packets.  An implementation MAY use knowledge about application sending behavior or heuristics to determine whether and for how long to wait.  This waiting period is an implementation decision, and an implementation should be careful to delay conservatively, since any delay is likely to increase application- visible latency.
+"ko": |-
+  발신자는 각 QUIC 패킷에 가능한 한 많은 프레임을 포함시켜 패킷당 대역폭과 계산 비용을 최소화할 수 있습니다. 발신자는 대량의 작은 패킷을 보내는 것을 피하기 위해 최대로 압축되지 않은 패킷을 보내기 전에 여러 프레임을 수집하기 위해 짧은 시간 동안 기다릴 수 있습니다. 구현은 애플리케이션 전송 동작 또는 경험적 방법에 대한 지식을 사용하여 대기 여부와 대기 시간을 결정할 수 있습니다. 이 대기 기간은 구현 결정이며 구현 시 보수적으로 지연하도록 주의해야 합니다. 지연이 발생하면 애플리케이션에 표시되는 대기 시간이 늘어날 가능성이 높기 때문입니다.

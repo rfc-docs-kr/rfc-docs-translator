@@ -1,0 +1,15 @@
+"hash": |-
+  0ea8c44582f368fbb6fda670aab77a1a4df170e6238c15274360122bff59c87e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1. Attackers could try to modify the server's list of security
+        mechanisms in the first response.  This would be revealed to the
+        server when the client returns the received list using the
+        security.
+"fixed": |-
+  1. Attackers could try to modify the server's list of security mechanisms in the first response.  This would be revealed to the server when the client returns the received list using the security.
+"ko": |-
+  1. 공격자는 첫 번째 응답에서 서버의 보안 메커니즘 목록을 수정하려고 시도할 수 있습니다. 이는 클라이언트가 보안을 사용하여 수신된 목록을 반환할 때 서버에 공개됩니다.

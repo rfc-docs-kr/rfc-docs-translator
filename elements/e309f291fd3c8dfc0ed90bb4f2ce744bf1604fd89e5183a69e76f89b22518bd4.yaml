@@ -1,0 +1,24 @@
+"hash": |-
+  e309f291fd3c8dfc0ed90bb4f2ce744bf1604fd89e5183a69e76f89b22518bd4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are a variety of strong validators used in practice.  The best
+     are based on strict revision control, wherein each change to a
+     representation always results in a unique node name and revision
+     identifier being assigned before the representation is made
+     accessible to GET.  A collision-resistant hash function applied to
+     the representation data is also sufficient if the data is available
+     prior to the response header fields being sent and the digest does
+     not need to be recalculated every time a validation request is
+     received.  However, if a resource has distinct representations that
+     differ only in their metadata, such as might occur with content
+     negotiation over media types that happen to share the same data
+     format, then the origin server needs to incorporate additional
+     information in the validator to distinguish those representations.
+"fixed": |-
+  There are a variety of strong validators used in practice.  The best are based on strict revision control, wherein each change to a representation always results in a unique node name and revision identifier being assigned before the representation is made accessible to GET.  A collision-resistant hash function applied to the representation data is also sufficient if the data is available prior to the response header fields being sent and the digest does not need to be recalculated every time a validation request is received.  However, if a resource has distinct representations that differ only in their metadata, such as might occur with content negotiation over media types that happen to share the same data format, then the origin server needs to incorporate additional information in the validator to distinguish those representations.
+"ko": |-
+  실제로 사용되는 다양한 강력한 유효성 검사기가 있습니다. 가장 좋은 방법은 엄격한 개정 제어를 기반으로 하며, 표현에 대한 각 변경으로 인해 해당 표현이 GET에 액세스 가능해지기 전에 항상 고유한 노드 이름과 개정 식별자가 할당됩니다. 응답 헤더 필드가 전송되기 전에 데이터를 사용할 수 있고 유효성 검사 요청이 수신될 때마다 다이제스트를 다시 계산할 필요가 없는 경우 표현 데이터에 적용되는 충돌 방지 해시 함수로도 충분합니다. 그러나 리소스에 메타데이터만 다른 고유한 표현이 있는 경우(예: 동일한 데이터 형식을 공유하는 미디어 유형에 대한 콘텐츠 협상에서 발생할 수 있음) 원서버는 해당 표현을 구별하기 위해 유효성 검사기에 추가 정보를 통합해야 합니다. .

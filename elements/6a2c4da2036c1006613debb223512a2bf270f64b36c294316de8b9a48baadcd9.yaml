@@ -1,0 +1,16 @@
+"hash": |-
+  6a2c4da2036c1006613debb223512a2bf270f64b36c294316de8b9a48baadcd9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           3. Search the SAD for a match on only {SPI} if the receiver has
+              chosen to maintain a single SPI space for AH and ESP, or on
+              {SPI, protocol} otherwise.  If an SAD entry matches, then
+              process the inbound ESP packet with that matching SAD entry.
+              Otherwise, discard the packet and log an auditable event.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

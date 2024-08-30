@@ -1,0 +1,13 @@
+"hash": |-
+  6e496fa02fce2bcfe9cb98f8329dfe52f2815e8029dc7a1bdd04ac119e00169c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For i = 1, ... , m
+         Q[i] = LSB(8, MSB(8*i, P))
+"fixed": |-
+  - For i = 1, ... , m Q[i] = LSB(8, MSB(8*i, P))
+"ko": |-
+  - i = 1, ... , m Q[i] = LSB(8, MSB(8*i, P))

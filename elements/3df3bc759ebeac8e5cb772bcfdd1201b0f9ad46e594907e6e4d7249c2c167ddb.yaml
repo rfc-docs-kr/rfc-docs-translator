@@ -1,0 +1,19 @@
+"hash": |-
+  3df3bc759ebeac8e5cb772bcfdd1201b0f9ad46e594907e6e4d7249c2c167ddb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an endpoint issues a connection ID, it MUST accept packets that
+     carry this connection ID for the duration of the connection or until
+     its peer invalidates the connection ID via a RETIRE_CONNECTION_ID
+     frame (Section 19.16).  Connection IDs that are issued and not
+     retired are considered active; any active connection ID is valid for
+     use with the current connection at any time, in any packet type.
+     This includes the connection ID issued by the server via the
+     preferred_address transport parameter.
+"fixed": |-
+  When an endpoint issues a connection ID, it MUST accept packets that carry this connection ID for the duration of the connection or until its peer invalidates the connection ID via a RETIRE_CONNECTION_ID frame (Section 19.16).  Connection IDs that are issued and not retired are considered active; any active connection ID is valid for use with the current connection at any time, in any packet type. This includes the connection ID issued by the server via the preferred_address transport parameter.
+"ko": |-
+  엔드포인트가 연결 ID를 발행하면 연결 기간 동안 또는 피어가 RETIRE_CONNECTION_ID 프레임(19.16절)을 통해 연결 ID를 무효화할 때까지 이 연결 ID를 전달하는 패킷을 수락해야 합니다. 발급되었지만 폐기되지 않은 연결 ID는 활성 상태로 간주됩니다. 모든 활성 연결 ID는 언제든지 모든 패킷 유형에서 현재 연결에 사용할 수 있습니다. 여기에는 Preferred_address 전송 매개변수를 통해 서버에서 발급한 연결 ID가 포함됩니다.

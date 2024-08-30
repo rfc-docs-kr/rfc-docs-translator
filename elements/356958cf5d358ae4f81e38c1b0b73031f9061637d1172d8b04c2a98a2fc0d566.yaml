@@ -1,0 +1,18 @@
+"hash": |-
+  356958cf5d358ae4f81e38c1b0b73031f9061637d1172d8b04c2a98a2fc0d566
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The value of this header field is used to provide a pointer to the
+     text for which a natural language interpretation is desired.  The
+     value is either a URI or text.  If the value is a URI, it MUST be a
+     Content-ID that refers to an entity of type 'text/plain' in the body
+     of the message.  Otherwise, the server MUST treat the value as the
+     text to be interpreted.  This header field MUST be used when invoking
+     the INTERPRET method.
+"fixed": |-
+  The value of this header field is used to provide a pointer to the text for which a natural language interpretation is desired.  The value is either a URI or text.  If the value is a URI, it MUST be a Content-ID that refers to an entity of type 'text/plain' in the body of the message.  Otherwise, the server MUST treat the value as the text to be interpreted.  This header field MUST be used when invoking the INTERPRET method.
+"ko": |-
+  이 헤더 필드의 값은 자연어 해석이 필요한 텍스트에 대한 포인터를 제공하는 데 사용됩니다. 값은 URI 또는 텍스트입니다. 값이 URI인 경우 메시지 본문의 'text/plain' 유형의 엔터티를 참조하는 Content-ID여야 합니다. 그렇지 않은 경우 서버는 값을 해석할 텍스트로 처리해야 합니다. 이 헤더 필드는 INTERPRET 메서드를 호출할 때 사용해야 합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  90aa6271a7f94d94c8d2bc460e95e6a5933ae89b1bab17c645630dbd44aca2de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For TLS 1.2, the "Hash" function is the one defined in Section 7.4.9
+     of [RFC5246] for the Finished message computation.  For all previous
+     versions of TLS, the "Hash" function computes the concatenation of
+     MD5 and SHA1.
+"fixed": |-
+  For TLS 1.2, the "Hash" function is the one defined in Section 7.4.9 of [RFC5246] for the Finished message computation.  For all previous versions of TLS, the "Hash" function computes the concatenation of MD5 and SHA1.
+"ko": |-
+  TLS 1.2의 경우 "해시" 함수는 Finished 메시지 계산을 위해 [RFC5246]의 섹션 7.4.9에 정의된 함수입니다. 이전 버전의 모든 TLS의 경우 "해시" 함수는 MD5와 SHA1의 연결을 계산합니다.

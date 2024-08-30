@@ -1,0 +1,43 @@
+"hash": |-
+  20f7458ac810b957c3abbc995a72e8754328e335e740d1ed781e34f89060eabb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        +===================+=======================+=================+
+        | Sending Part      | Receiving Part        | Composite State |
+        +===================+=======================+=================+
+        | No Stream / Ready | No Stream / Recv (*1) | idle            |
+        +-------------------+-----------------------+-----------------+
+        | Ready / Send /    | Recv / Size Known     | open            |
+        | Data Sent         |                       |                 |
+        +-------------------+-----------------------+-----------------+
+        | Ready / Send /    | Data Recvd / Data     | half-closed     |
+        | Data Sent         | Read                  | (remote)        |
+        +-------------------+-----------------------+-----------------+
+        | Ready / Send /    | Reset Recvd / Reset   | half-closed     |
+        | Data Sent         | Read                  | (remote)        |
+        +-------------------+-----------------------+-----------------+
+        | Data Recvd        | Recv / Size Known     | half-closed     |
+        |                   |                       | (local)         |
+        +-------------------+-----------------------+-----------------+
+        | Reset Sent /      | Recv / Size Known     | half-closed     |
+        | Reset Recvd       |                       | (local)         |
+        +-------------------+-----------------------+-----------------+
+        | Reset Sent /      | Data Recvd / Data     | closed          |
+        | Reset Recvd       | Read                  |                 |
+        +-------------------+-----------------------+-----------------+
+        | Reset Sent /      | Reset Recvd / Reset   | closed          |
+        | Reset Recvd       | Read                  |                 |
+        +-------------------+-----------------------+-----------------+
+        | Data Recvd        | Data Recvd / Data     | closed          |
+        |                   | Read                  |                 |
+        +-------------------+-----------------------+-----------------+
+        | Data Recvd        | Reset Recvd / Reset   | closed          |
+        |                   | Read                  |                 |
+        +-------------------+-----------------------+-----------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

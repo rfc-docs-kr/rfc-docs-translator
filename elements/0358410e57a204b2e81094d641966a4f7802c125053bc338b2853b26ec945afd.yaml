@@ -1,0 +1,23 @@
+"hash": |-
+  0358410e57a204b2e81094d641966a4f7802c125053bc338b2853b26ec945afd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        MSB(j, W)   Return the most significant j bits of W
+        LSB(j, W)   Return the least significant j bits of W
+        ENC(K, B)   AES Encrypt the 128-bit block B using key K
+        DEC(K, B)   AES Decrypt the 128-bit block B using key K
+        V1 | V2     Concatenate V1 and V2
+        K           The key-encryption key
+        m           The number of octets in the key data
+        n           The number of 64-bit blocks in the padded key data
+        Q[i]        The ith plaintext octet in the key data
+        P[i]        The ith 64-bit plaintext block in the padded key data
+        C[i]        The ith 64-bit ciphertext data block
+        A           The 64-bit integrity check register
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

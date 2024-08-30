@@ -1,0 +1,19 @@
+"hash": |-
+  488f88c6beb94041a996cf64c7ab2923f44d0c9f0c8c4ab943993c8c8532caad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.  Assume that the last send operation received was in fact the last
+         Document and close the Job, but move it to the 'pending-held'
+         state and add the 'submission-interrupted' value to the Job's
+         "job-state-reasons" attribute (see Section 5.3.8).  This action
+         allows the user or an Operator to determine whether to continue
+         processing the Job by moving it back to the 'pending' state using
+         the Release-Job operation (see Section 4.3.6) or to cancel the
+         Job using the Cancel-Job operation (see Section 4.3.3).
+"fixed": |-
+  1.  Assume that the last send operation received was in fact the last Document and close the Job, but move it to the 'pending-held' state and add the 'submission-interrupted' value to the Job's "job-state-reasons" attribute (see Section 5.3.8).  This action allows the user or an Operator to determine whether to continue processing the Job by moving it back to the 'pending' state using the Release-Job operation (see Section 4.3.6) or to cancel the Job using the Cancel-Job operation (see Section 4.3.3).
+"ko": |-
+  1. 수신된 마지막 전송 작업이 실제로는 마지막 문서라고 가정하고 작업을 닫지만 이를 '보류 중' 상태로 이동하고 작업의 "job-state-reasons"에 'submission-interrupted' 값을 추가합니다. 속성(섹션 5.3.8 참조). 이 작업을 통해 사용자 또는 운영자는 작업 해제 작업(섹션 4.3.6 참조)을 사용하여 작업을 '보류 중' 상태로 다시 이동하여 작업 처리를 계속할지 아니면 작업 취소 작업을 사용하여 작업을 취소할지 결정할 수 있습니다. (섹션 4.3.3 참조)

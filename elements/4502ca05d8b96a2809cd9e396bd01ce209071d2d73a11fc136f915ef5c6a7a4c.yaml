@@ -1,0 +1,18 @@
+"hash": |-
+  4502ca05d8b96a2809cd9e396bd01ce209071d2d73a11fc136f915ef5c6a7a4c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Validating the JWS Signature is a bit different from the previous
+     examples.  We need to split the 64 member octet sequence of the JWS
+     Signature (which is base64url decoded from the value encoded in the
+     JWS representation) into two 32 octet sequences, the first
+     representing R and the second S.  We then pass the public key (x, y),
+     the signature (R, S), and the JWS Signing Input (which is the initial
+     substring of the JWS Compact Serialization representation up until
+"fixed": |-
+  Validating the JWS Signature is a bit different from the previous examples.  We need to split the 64 member octet sequence of the JWS Signature (which is base64url decoded from the value encoded in the JWS representation) into two 32 octet sequences, the first representing R and the second S.  We then pass the public key (x, y), the signature (R, S), and the JWS Signing Input (which is the initial substring of the JWS Compact Serialization representation up until
+"ko": |-
+  JWS 서명을 검증하는 것은 이전 예제와 약간 다릅니다. JWS 서명의 64개 멤버 옥텟 시퀀스(JWS 표현에서 인코딩된 값에서 base64url로 디코딩됨)를 두 개의 32옥텟 시퀀스로 분할해야 합니다. 첫 번째는 R을 나타내고 두 번째는 S를 나타냅니다. 그런 다음 공개 키(x, y), 서명(R, S) 및 JWS 서명 입력(JWS Compact Serialization 표현의 초기 하위 문자열)을 전달합니다.

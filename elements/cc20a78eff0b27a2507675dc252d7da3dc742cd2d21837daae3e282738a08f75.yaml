@@ -1,0 +1,23 @@
+"hash": |-
+  cc20a78eff0b27a2507675dc252d7da3dc742cd2d21837daae3e282738a08f75
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In bin addressing, the smallest binary interval is a single chunk
+     (e.g., a block of bytes that may be of variable size), the largest
+     interval is a complete range of 2**63 chunks.  In a novel addition to
+     the classical scheme, these intervals are numbered in a way that lays
+     them out into a vector nicely, which is called bin numbering, as
+     follows.  Consider a chunk interval of width W.  To derive the bin
+     numbers of the complete interval and the subintervals, a minimal
+     balanced binary tree is built that is at least W chunks wide at the
+     base.  The leaves from left-to-right correspond to the chunks 0..W-1
+     in the interval, and have bin number I*2 where I is the index of the
+     chunk (counting beyond W-1 to balance the tree).  The bin number of
+     higher-level node P in the tree is calculated as follows:
+"fixed": |-
+  In bin addressing, the smallest binary interval is a single chunk (e.g., a block of bytes that may be of variable size), the largest interval is a complete range of 2**63 chunks.  In a novel addition to the classical scheme, these intervals are numbered in a way that lays them out into a vector nicely, which is called bin numbering, as follows.  Consider a chunk interval of width W.  To derive the bin numbers of the complete interval and the subintervals, a minimal balanced binary tree is built that is at least W chunks wide at the base.  The leaves from left-to-right correspond to the chunks 0..W-1 in the interval, and have bin number I*2 where I is the index of the chunk (counting beyond W-1 to balance the tree).  The bin number of higher-level node P in the tree is calculated as follows:
+"ko": |-
+  Bin 주소 지정에서 가장 작은 바이너리 간격은 단일 청크(예: 가변 크기일 수 있는 바이트 블록)이고, 가장 큰 간격은 2**63 청크의 전체 범위입니다. 고전적인 방식에 새로운 추가 기능을 추가하면 이러한 간격은 다음과 같이 빈 번호 매기기라고 불리는 벡터로 멋지게 배치되는 방식으로 번호가 매겨집니다. 너비 W의 청크 간격을 고려하십시오. 전체 간격과 하위 간격의 Bin 번호를 도출하기 위해 기본에서 최소 W 청크 너비의 최소 균형 이진 트리가 구축됩니다. 왼쪽에서 오른쪽으로의 잎은 간격의 청크 0..W-1에 해당하며, I는 청크의 인덱스인 bin 번호 I*2를 갖습니다(트리 균형을 맞추기 위해 W-1 이상으로 계산). 트리에서 상위 노드 P의 Bin 번호는 다음과 같이 계산됩니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  b52ef291b88a2e035aa95d38b89b4e9111bfbd86fefbd15615fa51b3b7d80690
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The server MUST include a "renegotiation_info" extension
+        containing the saved client_verify_data and server_verify_data in
+        the ServerHello.
+"fixed": |-
+  -  The server MUST include a "renegotiation_info" extension containing the saved client_verify_data and server_verify_data in the ServerHello.
+"ko": |-
+  - 서버는 ServerHello에 저장된 client_verify_data 및 server_verify_data를 포함하는 "renegotiation_info" 확장을 포함해야 합니다.

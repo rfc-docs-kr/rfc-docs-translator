@@ -1,0 +1,14 @@
+"hash": |-
+  11334fa4e6f2ee1cb7e3fab0a1e14c9c0925f7967186fd987f08dac674e45e1c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A compatible client that accepts FFDHE cipher suites using custom
+     groups from non-compatible servers MUST reject any group with |dh_p|
+     < 768 bits and SHOULD reject any group with |dh_p| < 1024 bits.
+"fixed": |-
+  A compatible client that accepts FFDHE cipher suites using custom groups from non-compatible servers MUST reject any group with |dh_p| < 768 bits and SHOULD reject any group with |dh_p| < 1024 bits.
+"ko": |-
+  비호환 서버의 사용자 정의 그룹을 사용하여 FFDHE 암호 그룹을 허용하는 호환 클라이언트는 |dh_p|가 있는 모든 그룹을 거부해야 합니다. < 768비트이고 |dh_p|가 포함된 모든 그룹을 거부해야 합니다(SHOULD). < 1024비트.

@@ -1,0 +1,19 @@
+"hash": |-
+  235e8cfc77e7ebd0221267e32db1aa268806ea8d3e18ce2775e3453bbc970e8c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CONTROL method from the client to the server tells a synthesizer
+     that is speaking to modify what it is speaking on the fly.  This
+     method is used to request the synthesizer to jump forward or backward
+     in what it is speaking, change speaker rate, speaker parameters, etc.
+     It affects only the currently IN-PROGRESS SPEAK request.  Depending
+     on the implementation and capability of the synthesizer resource, it
+     may or may not support the various modifications indicated by header
+     fields in the CONTROL request.
+"fixed": |-
+  The CONTROL method from the client to the server tells a synthesizer that is speaking to modify what it is speaking on the fly.  This method is used to request the synthesizer to jump forward or backward in what it is speaking, change speaker rate, speaker parameters, etc. It affects only the currently IN-PROGRESS SPEAK request.  Depending on the implementation and capability of the synthesizer resource, it may or may not support the various modifications indicated by header fields in the CONTROL request.
+"ko": |-
+  클라이언트에서 서버로의 CONTROL 메서드는 말하는 신디사이저에게 말하는 내용을 즉석에서 수정하라고 말합니다. 이 메서드는 말하는 내용에서 앞으로 또는 뒤로 점프하고, 스피커 속도, 스피커 매개변수 등을 변경하도록 신디사이저에 요청하는 데 사용됩니다. 현재 진행 중인 SPEAK 요청에만 영향을 미칩니다. 신디사이저 리소스의 구현 및 기능에 따라 CONTROL 요청의 헤더 필드에서 지정한 다양한 수정 사항을 지원하거나 지원하지 않을 수 있습니다.

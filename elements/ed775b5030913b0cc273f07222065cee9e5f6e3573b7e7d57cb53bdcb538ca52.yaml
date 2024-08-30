@@ -1,0 +1,21 @@
+"hash": |-
+  ed775b5030913b0cc273f07222065cee9e5f6e3573b7e7d57cb53bdcb538ca52
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Field values containing CR, LF, or NUL characters are invalid and
+     dangerous, due to the varying ways that implementations might parse
+     and interpret those characters; a recipient of CR, LF, or NUL within
+     a field value MUST either reject the message or replace each of those
+     characters with SP before further processing or forwarding of that
+     message.  Field values containing other CTL characters are also
+     invalid; however, recipients MAY retain such characters for the sake
+     of robustness when they appear within a safe context (e.g., an
+     application-specific quoted string that will not be processed by any
+     downstream HTTP parser).
+"fixed": |-
+  Field values containing CR, LF, or NUL characters are invalid and dangerous, due to the varying ways that implementations might parse and interpret those characters; a recipient of CR, LF, or NUL within a field value MUST either reject the message or replace each of those characters with SP before further processing or forwarding of that message.  Field values containing other CTL characters are also invalid; however, recipients MAY retain such characters for the sake of robustness when they appear within a safe context (e.g., an application-specific quoted string that will not be processed by any downstream HTTP parser).
+"ko": |-
+  CR, LF 또는 NUL 문자가 포함된 필드 값은 구현 시 해당 문자를 구문 분석하고 해석할 수 있는 다양한 방식으로 인해 유효하지 않고 위험합니다. 필드 값 내의 CR, LF 또는 NUL 수신자는 해당 메시지를 추가로 처리하거나 전달하기 전에 메시지를 거부하거나 해당 문자를 각각 SP로 바꿔야 합니다. 다른 CTL 문자를 포함하는 필드 값도 유효하지 않습니다. 그러나 수신자는 안전한 컨텍스트(예: 다운스트림 HTTP 파서에서 처리되지 않는 애플리케이션별 인용 문자열) 내에 나타날 때 견고성을 위해 이러한 문자를 유지할 수 있습니다.

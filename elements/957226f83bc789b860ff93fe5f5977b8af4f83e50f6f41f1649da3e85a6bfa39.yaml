@@ -1,0 +1,17 @@
+"hash": |-
+  957226f83bc789b860ff93fe5f5977b8af4f83e50f6f41f1649da3e85a6bfa39
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This DEPRECATED operation allows a Client to remove all Jobs from a
+     Printer, regardless of their Job states, including Jobs in the
+     Printer's Job History (see Section 5.3.7.2).  After a Purge-Jobs
+     operation has been performed, a Printer MUST return no Jobs in
+     subsequent Get-Job-Attributes and Get-Jobs responses (until new Jobs
+     are submitted).
+"fixed": |-
+  This DEPRECATED operation allows a Client to remove all Jobs from a Printer, regardless of their Job states, including Jobs in the Printer's Job History (see Section 5.3.7.2).  After a Purge-Jobs operation has been performed, a Printer MUST return no Jobs in subsequent Get-Job-Attributes and Get-Jobs responses (until new Jobs are submitted).
+"ko": |-
+  이 사용 중단된 작업을 사용하면 클라이언트는 프린터 작업 기록의 작업을 포함하여 작업 상태에 관계없이 프린터에서 모든 작업을 제거할 수 있습니다(섹션 5.3.7.2 참조). Purge-Jobs 작업이 수행된 후 프린터는 새 작업이 제출될 때까지 후속 Get-Job-Attributes 및 Get-Jobs 응답에서 작업을 반환하지 않아야 합니다.

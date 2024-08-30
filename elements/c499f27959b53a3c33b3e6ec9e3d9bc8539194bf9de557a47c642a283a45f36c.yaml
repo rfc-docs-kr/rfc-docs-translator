@@ -1,0 +1,20 @@
+"hash": |-
+  c499f27959b53a3c33b3e6ec9e3d9bc8539194bf9de557a47c642a283a45f36c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Connection = [ connection-option *( OWS "," OWS connection-option )
+      ]
+     Content-Encoding = [ content-coding *( OWS "," OWS content-coding )
+      ]
+     Content-Language = [ language-tag *( OWS "," OWS language-tag ) ]
+     Content-Length = 1*DIGIT
+     Content-Location = absolute-URI / partial-URI
+     Content-Range = range-unit SP ( range-resp / unsatisfied-range )
+     Content-Type = media-type
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

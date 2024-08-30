@@ -1,0 +1,17 @@
+"hash": |-
+  ea1a8db405a7eb7c239c2ea7f5f670db75f7116255dc9ebb6b8535f685de3201
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        a) the originating speaker includes its own AS number in a path
+           segment, of type AS_SEQUENCE, in the AS_PATH attribute of all
+           UPDATE messages sent to an external peer.  In this case, the AS
+           number of the originating speaker's autonomous system will be
+           the only entry the path segment, and this path segment will be
+           the only segment in the AS_PATH attribute.
+"fixed": |-
+  - a) the originating speaker includes its own AS number in a path segment, of type AS_SEQUENCE, in the AS_PATH attribute of all UPDATE messages sent to an external peer.  In this case, the AS number of the originating speaker's autonomous system will be the only entry the path segment, and this path segment will be the only segment in the AS_PATH attribute.
+"ko": |-
+  - a) 발신 스피커는 외부 피어로 전송된 모든 UPDATE 메시지의 AS_PATH 속성에 있는 AS_SEQUENCE 유형의 경로 세그먼트에 자체 AS 번호를 포함합니다. 이 경우 발신 스피커의 자율 시스템의 AS 번호는 경로 세그먼트의 유일한 항목이 되며 이 경로 세그먼트는 AS_PATH 속성의 유일한 세그먼트가 됩니다.

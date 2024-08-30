@@ -1,0 +1,16 @@
+"hash": |-
+  66eed19c12366a0da6cb7f9cd61cb64aac3a0c98f11c8072712b66722aa1e8d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        NOTE: It's a mistake to have AH be a RECOMMENDED in this context.
+        Since AH is the only mechanism that protects VRRP against attack
+        from other nodes on the same LAN, it should be a MUST for cases
+        where there are untrusted nodes on the same network.  In any case,
+        AH should be a MUST implement.
+"fixed": |-
+  - NOTE: It's a mistake to have AH be a RECOMMENDED in this context. Since AH is the only mechanism that protects VRRP against attack from other nodes on the same LAN, it should be a MUST for cases where there are untrusted nodes on the same network.  In any case, AH should be a MUST implement.
+"ko": |-
+  - 참고: 이 맥락에서 AH를 RECOMMENDED로 설정하는 것은 실수입니다. AH는 동일한 LAN에 있는 다른 노드의 공격으로부터 VRRP를 보호하는 유일한 메커니즘이므로 동일한 네트워크에 신뢰할 수 없는 노드가 있는 경우 반드시 필요합니다. 어떤 경우든 AH는 반드시 구현되어야 합니다.

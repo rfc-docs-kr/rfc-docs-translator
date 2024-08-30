@@ -1,0 +1,16 @@
+"hash": |-
+  fe095bc8d5eba0eb15f2d4df2c8c7cdaa97109d2f1d055d391d8465c9d01ff5f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     would be mutually recursive routes).  This check ensures that a BGP
+     speaker does not install routes in the Routing Table that will be
+     removed and not used by the speaker.  Therefore, in addition to local
+     Routing Table stability, this check also improves behavior of the
+     protocol in the network.
+"fixed": |-
+  would be mutually recursive routes).  This check ensures that a BGP speaker does not install routes in the Routing Table that will be removed and not used by the speaker.  Therefore, in addition to local Routing Table stability, this check also improves behavior of the protocol in the network.
+"ko": |-
+  상호 재귀 경로가 됩니다). 이 검사를 통해 BGP 스피커는 제거되어 스피커에서 사용되지 않는 라우팅 테이블에 경로를 설치하지 않도록 합니다. 따라서 이 검사는 로컬 라우팅 테이블 안정성 외에도 네트워크의 프로토콜 동작도 개선합니다.

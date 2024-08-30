@@ -1,0 +1,19 @@
+"hash": |-
+  dab24c6b3cb50ad4a3e0441743a6a218956ae4987d1a19d706a145a161dae10c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An Authenticated Encryption algorithm MAY incorporate internal state
+     information that is maintained between invocations of the encrypt
+     operation, e.g., to allow for the construction of distinct values
+     that are used as internal nonces by the algorithm.  An AEAD algorithm
+     of this sort is called stateful.  This method could be used by an
+     algorithm to provide good security even when the application inputs
+     zero-length nonces.  A stateful algorithm MAY have a value of N_MAX
+     that is equal to zero.
+"fixed": |-
+  An Authenticated Encryption algorithm MAY incorporate internal state information that is maintained between invocations of the encrypt operation, e.g., to allow for the construction of distinct values that are used as internal nonces by the algorithm.  An AEAD algorithm of this sort is called stateful.  This method could be used by an algorithm to provide good security even when the application inputs zero-length nonces.  A stateful algorithm MAY have a value of N_MAX that is equal to zero.
+"ko": |-
+  인증된 암호화 알고리즘은 암호화 작업 호출 사이에 유지되는 내부 상태 정보를 통합할 수 있습니다(예: 알고리즘에 의해 내부 nonce로 사용되는 고유한 값의 구성을 허용함). 이러한 종류의 AEAD 알고리즘을 상태 저장이라고 합니다. 이 방법은 애플리케이션이 길이가 0인 nonce를 입력하는 경우에도 우수한 보안을 제공하기 위해 알고리즘에서 사용할 수 있습니다. 상태 저장 알고리즘은 0과 같은 N_MAX 값을 가질 수 있습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  024934263cc4b227c8ac925b4237fb11f514f8e025de7cabb955a5094d690fc1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At Job processing time, since the Printer has already responded with
+     a successful status-code in the response to the Job Creation request,
+     if the Printer detects an error, the Printer is unable to inform the
+     End User of the error with an operation status-code.  In this case,
+     the Printer, depending on the error, can set the Job's "job-state",
+     "job-state-reasons", and/or "job-state-message" attributes to the
+     appropriate value(s) so that later queries can report the correct Job
+     status.
+"fixed": |-
+  At Job processing time, since the Printer has already responded with a successful status-code in the response to the Job Creation request, if the Printer detects an error, the Printer is unable to inform the End User of the error with an operation status-code.  In this case, the Printer, depending on the error, can set the Job's "job-state", "job-state-reasons", and/or "job-state-message" attributes to the appropriate value(s) so that later queries can report the correct Job status.
+"ko": |-
+  작업 처리 시 프린터는 이미 작업 생성 요청에 대한 응답으로 성공적인 상태 코드로 응답했기 때문에 프린터가 오류를 감지하면 프린터는 작업 상태로 오류를 최종 사용자에게 알릴 수 없습니다. 암호. 이 경우 프린터는 오류에 따라 작업의 "job-state", "job-state-reasons" 및/또는 "job-state-message" 속성을 적절한 값으로 설정할 수 있습니다. 이후 쿼리에서는 올바른 작업 상태를 보고할 수 있습니다.

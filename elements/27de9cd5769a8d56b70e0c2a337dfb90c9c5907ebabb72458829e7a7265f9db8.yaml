@@ -1,0 +1,19 @@
+"hash": |-
+  27de9cd5769a8d56b70e0c2a337dfb90c9c5907ebabb72458829e7a7265f9db8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Printer discovers this Document accessibility problem after
+     accepting the request and returning an operation response with one of
+     the successful status-code values, the Printer MUST add the
+     "document-access-error" value to the Job's "job-state-reasons"
+     attribute and MAY populate the Job's "job-document-access-errors" Job
+     Status attribute (see Section 5.3.11).  See the Implementor's Guides
+     [RFC3196] [PWG5100.19] for guidance on processing Job Creation
+     requests.
+"fixed": |-
+  If the Printer discovers this Document accessibility problem after accepting the request and returning an operation response with one of the successful status-code values, the Printer MUST add the "document-access-error" value to the Job's "job-state-reasons" attribute and MAY populate the Job's "job-document-access-errors" Job Status attribute (see Section 5.3.11).  See the Implementor's Guides [RFC3196] [PWG5100.19] for guidance on processing Job Creation requests.
+"ko": |-
+  프린터가 요청을 수락하고 성공적인 상태 코드 값 중 하나로 작업 응답을 반환한 후 이 문서 접근성 문제를 발견하면 프린터는 작업의 "job-state-reasons"에 "document-access-error" 값을 추가해야 합니다. 속성을 사용하고 작업의 "job-document-access-errors" 작업 상태 속성을 채울 수 있습니다(섹션 5.3.11 참조). 작업 생성 요청 처리에 대한 지침은 구현자 가이드 [RFC3196] [PWG5100.19]를 참조하세요.

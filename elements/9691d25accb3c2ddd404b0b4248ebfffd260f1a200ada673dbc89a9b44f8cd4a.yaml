@@ -1,0 +1,19 @@
+"hash": |-
+  9691d25accb3c2ddd404b0b4248ebfffd260f1a200ada673dbc89a9b44f8cd4a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  In a Job Creation request: If the Client supplies a 'text' or
+           'name' attribute (for example, the "job-name" operation
+           attribute) that uses an apparently incompatible combination, it
+           is a Client choice that does not affect the Printer or its
+           correct operation.  Therefore, the Printer simply accepts the
+           Client-supplied value, stores it with the Job, and responds
+           back with the same combination whenever the Client (or any
+           Client) queries for that attribute.
+"fixed": |-
+  - *  In a Job Creation request: If the Client supplies a 'text' or 'name' attribute (for example, the "job-name" operation attribute) that uses an apparently incompatible combination, it is a Client choice that does not affect the Printer or its correct operation.  Therefore, the Printer simply accepts the Client-supplied value, stores it with the Job, and responds back with the same combination whenever the Client (or any Client) queries for that attribute.
+"ko": |-
+  - * 작업 생성 요청에서: 클라이언트가 명백히 호환되지 않는 조합을 사용하는 'text' 또는 'name' 속성(예: "job-name" 작업 속성)을 제공하는 경우 클라이언트 선택은 영향을 미치지 않습니다. 프린터 또는 올바른 작동. 따라서 프린터는 단순히 클라이언트가 제공한 값을 받아들이고 이를 작업과 함께 저장하며 클라이언트(또는 클라이언트)가 해당 속성에 대해 쿼리할 때마다 동일한 조합으로 다시 응답합니다.

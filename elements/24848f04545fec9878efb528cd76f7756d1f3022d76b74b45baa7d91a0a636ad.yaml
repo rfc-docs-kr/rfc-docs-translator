@@ -1,0 +1,19 @@
+"hash": |-
+  24848f04545fec9878efb528cd76f7756d1f3022d76b74b45baa7d91a0a636ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the offerer has sent the offer, it MUST be prepared to receive
+     media for any recvonly streams described by that offer.  It MUST be
+     prepared to send and receive media for any sendrecv streams in the
+     offer, and send media for any sendonly streams in the offer (of
+     course, it cannot actually send until the peer provides an answer
+     with the needed address and port information).  In the case of RTP,
+     even though it may receive media before the answer arrives, it will
+     not be able to send RTCP receiver reports until the answer arrives.
+"fixed": |-
+  Once the offerer has sent the offer, it MUST be prepared to receive media for any recvonly streams described by that offer.  It MUST be prepared to send and receive media for any sendrecv streams in the offer, and send media for any sendonly streams in the offer (of course, it cannot actually send until the peer provides an answer with the needed address and port information).  In the case of RTP, even though it may receive media before the answer arrives, it will not be able to send RTCP receiver reports until the answer arrives.
+"ko": |-
+  오퍼러가 오퍼를 보낸 후에는 해당 오퍼에 설명된 모든 recvonly 스트림에 대한 미디어를 수신할 준비가 되어 있어야 합니다. 오퍼의 모든 sendrecv 스트림에 대한 미디어를 보내고 받을 준비가 되어 있어야 하며, 오퍼의 모든 sendonly 스트림에 대한 미디어를 보낼 준비가 되어 있어야 합니다(물론 피어가 필요한 주소와 포트 정보가 포함된 답변을 제공할 때까지 실제로 보낼 수는 없습니다). RTP의 경우 답변이 도착하기 전에 미디어를 수신할 수 있지만 답변이 도착하기 전까지는 RTCP 수신기 보고서를 보낼 수 없습니다.

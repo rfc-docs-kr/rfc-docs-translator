@@ -1,0 +1,20 @@
+"hash": |-
+  85611be2886068ceb7a3cf74ac7b085698b9fabc51b84c497a0c1deaf73fe9b9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MAY be specified in a GET-PARAMS or SET-PARAMS
+     method and is used to specify the amount of time, in milliseconds, of
+     the type-ahead buffer for the recognizer.  This is the buffer that
+     collects DTMF digits as they are pressed even when there is no
+     RECOGNIZE command active.  When a subsequent RECOGNIZE method is
+     received, it MUST look to this buffer to match the RECOGNIZE request.
+     If the digits in the buffer are not sufficient, then it can continue
+     to listen to more digits to match the grammar.  The default size of
+     this DTMF buffer is platform specific.
+"fixed": |-
+  This header field MAY be specified in a GET-PARAMS or SET-PARAMS method and is used to specify the amount of time, in milliseconds, of the type-ahead buffer for the recognizer.  This is the buffer that collects DTMF digits as they are pressed even when there is no RECOGNIZE command active.  When a subsequent RECOGNIZE method is received, it MUST look to this buffer to match the RECOGNIZE request. If the digits in the buffer are not sufficient, then it can continue to listen to more digits to match the grammar.  The default size of this DTMF buffer is platform specific.
+"ko": |-
+  이 헤더 필드는 GET-PARAMS 또는 SET-PARAMS 메서드에서 지정할 수 있으며 인식기의 유형 사전 버퍼 시간(밀리초)을 지정하는 데 사용됩니다. 이것은 RECOGNIZE 명령이 활성화되지 않은 경우에도 DTMF 숫자가 눌릴 때 이를 수집하는 버퍼입니다. 후속 RECOGNIZE 메서드가 수신되면 RECOGNIZE 요청과 일치하도록 이 버퍼를 확인해야 합니다. 버퍼의 숫자가 충분하지 않으면 문법과 일치하도록 더 많은 숫자를 계속 수신할 수 있습니다. 이 DTMF 버퍼의 기본 크기는 플랫폼에 따라 다릅니다.

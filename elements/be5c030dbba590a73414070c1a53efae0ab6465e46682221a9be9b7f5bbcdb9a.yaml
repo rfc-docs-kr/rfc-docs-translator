@@ -10,7 +10,7 @@
          ciphertext (and hence, the plaintext) size to 2^64 bytes, or
          sixteen thousand petabytes (18,446,744,073,709,551,616 bytes to
          be exact).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  1.  Despite the previous item, the ciphertext length field in the construction of the buffer on which Poly1305 runs limits the ciphertext (and hence, the plaintext) size to 2^64 bytes, or sixteen thousand petabytes (18,446,744,073,709,551,616 bytes to be exact).
+"ko": |-
+  1. 이전 항목에도 불구하고 Poly1305가 실행되는 버퍼 구성의 암호문 길이 필드는 암호문(및 일반 텍스트) 크기를 2^64바이트, 즉 16,000페타바이트(정확히는 18,446,744,073,709,551,616바이트)로 제한합니다.

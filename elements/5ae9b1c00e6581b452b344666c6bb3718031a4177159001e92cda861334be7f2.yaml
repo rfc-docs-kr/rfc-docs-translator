@@ -1,0 +1,15 @@
+"hash": |-
+  5ae9b1c00e6581b452b344666c6bb3718031a4177159001e92cda861334be7f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     kwa-aes192-wrap-pad KEY-WRAP ::= {
+       IDENTIFIER id-aes192-wrap-pad
+       PARAMS ARE absent
+       SMIME-CAPS { IDENTIFIED BY id-aes192-wrap-pad } }
+"fixed": |-
+  kwa-aes192-wrap-pad KEY-WRAP ::= { IDENTIFIER id-aes192-wrap-pad PARAMS ARE absent SMIME-CAPS { IDENTIFIED BY id-aes192-wrap-pad } }
+"ko": |-
+  kwa-aes192-wrap-pad KEY-WRAP ::= { IDENTIFIER id-aes192-wrap-pad 매개변수가 없습니다. SMIME-CAPS { id-aes192-wrap-pad로 식별됨 } }

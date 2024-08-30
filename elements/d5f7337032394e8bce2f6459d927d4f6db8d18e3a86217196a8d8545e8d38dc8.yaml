@@ -1,0 +1,19 @@
+"hash": |-
+  d5f7337032394e8bce2f6459d927d4f6db8d18e3a86217196a8d8545e8d38dc8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     7.  If Peer Q receives any datagram (apparently) from Peer P that
+         does not contain channel ID chanQ, Peer Q MUST discard the
+         datagram but SHOULD continue to process datagrams from Peer P
+         that do meet this requirement.  Once Peer Q receives a datagram
+         from Peer P that does contain the channel ID chanQ, Peer Q knows
+         that Peer P really received its reply datagram, and the three-way
+         handshake and channel establishment is complete.  Peer Q MAY now
+         also start sending messages with heavy payload to Peer P.
+"fixed": |-
+  1.  If Peer Q receives any datagram (apparently) from Peer P that does not contain channel ID chanQ, Peer Q MUST discard the datagram but SHOULD continue to process datagrams from Peer P that do meet this requirement.  Once Peer Q receives a datagram from Peer P that does contain the channel ID chanQ, Peer Q knows that Peer P really received its reply datagram, and the three-way handshake and channel establishment is complete.  Peer Q MAY now also start sending messages with heavy payload to Peer P.
+"ko": |-
+  1. 피어 Q가 채널 ID chanQ를 포함하지 않는 피어 P로부터 (분명히) 데이터그램을 수신하는 경우 피어 Q는 데이터그램을 폐기해야 하지만 이 요구 사항을 충족하는 피어 P의 데이터그램을 계속 처리해야 합니다. 피어 Q가 채널 ID chanQ를 포함하는 피어 P로부터 데이터그램을 수신하면 피어 Q는 피어 P가 실제로 응답 데이터그램을 받았음을 알고 3방향 핸드셰이크 및 채널 설정이 완료됩니다. 피어 Q는 이제 피어 P에 페이로드가 많은 메시지를 보내기 시작할 수도 있습니다.

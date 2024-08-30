@@ -1,0 +1,19 @@
+"hash": |-
+  a006d7fce819e0af9fb988c73cc9dfb1d940d9f3bca516903376a801309af1f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To protect the connection from failing due to such a spurious
+     migration, an endpoint MUST revert to using the last validated peer
+     address when validation of a new peer address fails.  Additionally,
+     receipt of packets with higher packet numbers from the legitimate
+     peer address will trigger another connection migration.  This will
+     cause the validation of the address of the spurious migration to be
+     abandoned, thus containing migrations initiated by the attacker
+     injecting a single packet.
+"fixed": |-
+  To protect the connection from failing due to such a spurious migration, an endpoint MUST revert to using the last validated peer address when validation of a new peer address fails.  Additionally, receipt of packets with higher packet numbers from the legitimate peer address will trigger another connection migration.  This will cause the validation of the address of the spurious migration to be abandoned, thus containing migrations initiated by the attacker injecting a single packet.
+"ko": |-
+  이러한 허위 마이그레이션으로 인해 연결이 실패하는 것을 방지하려면 엔드포인트는 새 피어 주소 검증이 실패할 때 마지막으로 검증된 피어 주소를 사용하도록 되돌려야 합니다. 또한 합법적인 피어 주소에서 더 높은 패킷 번호를 가진 패킷을 수신하면 또 다른 연결 마이그레이션이 트리거됩니다. 이로 인해 가짜 마이그레이션 주소의 유효성 검사가 중단되어 공격자가 단일 패킷을 주입하여 시작한 마이그레이션이 포함됩니다.

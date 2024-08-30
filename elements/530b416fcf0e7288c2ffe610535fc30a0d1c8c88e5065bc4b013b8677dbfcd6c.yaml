@@ -1,0 +1,21 @@
+"hash": |-
+  530b416fcf0e7288c2ffe610535fc30a0d1c8c88e5065bc4b013b8677dbfcd6c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since the Create-Job and the send operations (Send-Document or
+     Send-URI operations) that follow could occur over an arbitrarily long
+     period of time for a particular Job, a Client MUST send another send
+     operation within a minimum time interval, as defined by the IPP
+     Printer, after the receipt of the previous request for the Job.  If a
+     Printer supports the Create-Job and Send-Document operations, the
+     Printer MUST support the "multiple-operation-time-out" attribute (see
+     Section 5.4.31).  This attribute indicates the minimum number of
+     seconds the Printer will wait for the next send operation before
+     taking some recovery action.
+"fixed": |-
+  Since the Create-Job and the send operations (Send-Document or Send-URI operations) that follow could occur over an arbitrarily long period of time for a particular Job, a Client MUST send another send operation within a minimum time interval, as defined by the IPP Printer, after the receipt of the previous request for the Job.  If a Printer supports the Create-Job and Send-Document operations, the Printer MUST support the "multiple-operation-time-out" attribute (see Section 5.4.31).  This attribute indicates the minimum number of seconds the Printer will wait for the next send operation before taking some recovery action.
+"ko": |-
+  Create-Job 및 그에 따른 전송 작업(Send-Document 또는 Send-URI 작업)은 특정 작업에 대해 임의로 오랜 시간 동안 발생할 수 있으므로 클라이언트는 정의된 대로 최소 시간 간격 내에 다른 전송 작업을 보내야 합니다. 작업에 대한 이전 요청을 받은 후 IPP 프린터에 의해. 프린터가 Create-Job 및 Send-Document 작업을 지원하는 경우 프린터는 "다중 작업 시간 제한" 속성을 지원해야 합니다(섹션 5.4.31 참조). 이 속성은 프린터가 복구 작업을 수행하기 전에 다음 전송 작업을 기다리는 최소 시간(초)을 나타냅니다.

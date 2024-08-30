@@ -1,0 +1,18 @@
+"hash": |-
+  f60399616451b5b587c0ba743005d11dce01cd2d05285b35393b73f8c6565a82
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  Other protocols at the same layer as TCP should also  be  respon-
+  sive  to  Source  Quench.  In each case we would suggest that new
+  traffic should be throttled but acknowledges  should  be  treated
+  normally.   The only serious problem comes from the User Datagram
+  Protocol, not normally a major traffic generator.   We  have  not
+  implemented  any  throttling  in  these protocols as yet; all are
+  passed Source Quench messages by ICMP but ignore them.
+"fixed": |-
+  Other protocols at the same layer as TCP should also  be  respon- sive  to  Source  Quench.  In each case we would suggest that new traffic should be throttled but acknowledges  should  be  treated normally.   The only serious problem comes from the User Datagram Protocol, not normally a major traffic generator.   We  have  not implemented  any  throttling  in  these protocols as yet; all are passed Source Quench messages by ICMP but ignore them.
+"ko": |-
+  TCP와 동일한 계층에 있는 다른 프로토콜도 Source Quench에 반응해야 합니다. 각각의 경우에 새로운 트래픽을 제한해야 하지만 승인은 정상적으로 처리되어야 한다고 제안합니다. 유일한 심각한 문제는 일반적으로 주요 트래픽 생성기가 아닌 사용자 데이터그램 프로토콜에서 발생합니다. 우리는 아직 이러한 프로토콜에 제한을 구현하지 않았습니다. 모두 ICMP에 의해 Source Quench 메시지가 전달되지만 무시됩니다.

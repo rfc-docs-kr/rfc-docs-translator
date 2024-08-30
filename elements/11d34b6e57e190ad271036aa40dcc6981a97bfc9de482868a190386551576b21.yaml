@@ -1,0 +1,28 @@
+"hash": |-
+  11d34b6e57e190ad271036aa40dcc6981a97bfc9de482868a190386551576b21
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The GET-PARAMS method, from the client to the server, asks the MRCPv2
+     resource for its current session parameters, such as voice
+     characteristics and prosody on synthesizers, recognition timers on
+     recognizers, etc.  For every header field the client sends in the
+     request without a value, the server MUST include the header field and
+     its corresponding value in the response.  If no parameter header
+     fields are specified by the client, then the server MUST return all
+     the settable parameters and their values in the corresponding header
+     section of the response, including vendor-specific parameters.  Such
+     wildcard parameter requests can be very processing-intensive, since
+     the number of settable parameters can be large depending on the
+     implementation.  Hence, it is RECOMMENDED that the client not use the
+     wildcard GET-PARAMS operation very often.  Note that GET-PARAMS
+     returns header field values that apply to the whole session and not
+     values that have a request-level scope.  For example, Input-Waveform-
+     URI is a request-level header field and thus would not be returned by
+     GET-PARAMS.
+"fixed": |-
+  The GET-PARAMS method, from the client to the server, asks the MRCPv2 resource for its current session parameters, such as voice characteristics and prosody on synthesizers, recognition timers on recognizers, etc.  For every header field the client sends in the request without a value, the server MUST include the header field and its corresponding value in the response.  If no parameter header fields are specified by the client, then the server MUST return all the settable parameters and their values in the corresponding header section of the response, including vendor-specific parameters.  Such wildcard parameter requests can be very processing-intensive, since the number of settable parameters can be large depending on the implementation.  Hence, it is RECOMMENDED that the client not use the wildcard GET-PARAMS operation very often.  Note that GET-PARAMS returns header field values that apply to the whole session and not values that have a request-level scope.  For example, Input-Waveform- URI is a request-level header field and thus would not be returned by GET-PARAMS.
+"ko": |-
+  클라이언트에서 서버로 전송되는 GET-PARAMS 메서드는 MRCPv2 리소스에 현재 세션 매개변수(예: 신시사이저의 음성 특성 및 음조, 인식기의 인식 타이머 등)를 요청합니다. 클라이언트가 값 없이 요청에서 보내는 모든 헤더 필드에 대해 서버는 헤더 필드와 해당 값을 응답에 포함해야 합니다. 클라이언트가 매개변수 헤더 필드를 지정하지 않은 경우 서버는 공급업체별 매개변수를 포함하여 응답의 해당 헤더 섹션에 모든 설정 가능한 매개변수와 해당 값을 반환해야 합니다. 이러한 와일드카드 매개변수 요청은 구현에 따라 설정 가능한 매개변수의 수가 많을 수 있으므로 처리 집약적일 수 있습니다. 따라서 클라이언트가 와일드카드 GET-PARAMS 작업을 자주 사용하지 않는 것이 좋습니다. GET-PARAMS는 요청 수준 범위가 있는 값이 아닌 전체 세션에 적용되는 헤더 필드 값을 반환합니다. 예를 들어, Input-Waveform-URI는 요청 수준 헤더 필드이므로 GET-PARAMS에서 반환되지 않습니다.

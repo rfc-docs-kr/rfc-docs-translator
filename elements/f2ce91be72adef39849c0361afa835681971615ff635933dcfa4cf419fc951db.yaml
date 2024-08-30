@@ -1,0 +1,21 @@
+"hash": |-
+  f2ce91be72adef39849c0361afa835681971615ff635933dcfa4cf419fc951db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the encryption METHOD is AES-128 and the Playlist contains an EXT-
+     X-I-FRAMES-ONLY tag, the entire resource MUST be encrypted using
+     AES-128 CBC with PKCS7 padding [RFC5652].  Encryption MAY be
+     restarted on 16-byte block boundaries, unless the first block
+     contains an I-frame.  The IV used for encryption MUST be either the
+     Media Sequence Number of the Media Segment or the value of the IV
+     attribute of the EXT-X-KEY tag, as described in Section 5.2.  These
+     constraints allow a client to load and decrypt individual I-frames
+     specified as sub-ranges of regular encrypted Media Segments, and
+     their Media Initialization Sections.
+"fixed": |-
+  If the encryption METHOD is AES-128 and the Playlist contains an EXT- X-I-FRAMES-ONLY tag, the entire resource MUST be encrypted using AES-128 CBC with PKCS7 padding [RFC5652].  Encryption MAY be restarted on 16-byte block boundaries, unless the first block contains an I-frame.  The IV used for encryption MUST be either the Media Sequence Number of the Media Segment or the value of the IV attribute of the EXT-X-KEY tag, as described in Section 5.2.  These constraints allow a client to load and decrypt individual I-frames specified as sub-ranges of regular encrypted Media Segments, and their Media Initialization Sections.
+"ko": |-
+  암호화 방법이 AES-128이고 재생 목록에 EXT-X-I-FRAMES-ONLY 태그가 포함된 경우 전체 리소스는 PKCS7 패딩[RFC5652]이 포함된 AES-128 CBC를 사용하여 암호화되어야 합니다. 첫 번째 블록에 I-프레임이 포함되지 않는 한 암호화는 16바이트 블록 경계에서 다시 시작될 수 있습니다. 암호화에 사용되는 IV는 섹션 5.2에 설명된 대로 미디어 세그먼트의 미디어 시퀀스 번호 또는 EXT-X-KEY 태그의 IV 속성 값이어야 합니다. 이러한 제약 조건을 통해 클라이언트는 일반 암호화된 미디어 세그먼트 및 해당 미디어 초기화 섹션의 하위 범위로 지정된 개별 I-프레임을 로드하고 암호 해독할 수 있습니다.

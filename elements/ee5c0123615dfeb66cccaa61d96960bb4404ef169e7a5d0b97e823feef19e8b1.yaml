@@ -1,0 +1,18 @@
+"hash": |-
+  ee5c0123615dfeb66cccaa61d96960bb4404ef169e7a5d0b97e823feef19e8b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that is only sending ACK frames will not receive
+     acknowledgments from its peer unless those acknowledgments are
+     included in packets with ack-eliciting frames.  An endpoint SHOULD
+     send an ACK frame with other frames when there are new ack-eliciting
+     packets to acknowledge.  When only non-ack-eliciting packets need to
+     be acknowledged, an endpoint MAY choose not to send an ACK frame with
+     outgoing frames until an ack-eliciting packet has been received.
+"fixed": |-
+  An endpoint that is only sending ACK frames will not receive acknowledgments from its peer unless those acknowledgments are included in packets with ack-eliciting frames.  An endpoint SHOULD send an ACK frame with other frames when there are new ack-eliciting packets to acknowledge.  When only non-ack-eliciting packets need to be acknowledged, an endpoint MAY choose not to send an ACK frame with outgoing frames until an ack-eliciting packet has been received.
+"ko": |-
+  ACK 프레임만 전송하는 엔드포인트는 해당 승인이 승인을 유도하는 프레임이 있는 패킷에 포함되어 있지 않으면 피어로부터 승인을 받지 않습니다. 엔드포인트는 승인할 새로운 승인 유도 패킷이 있는 경우 다른 프레임과 함께 ACK 프레임을 보내야 합니다(SHOULD). 승인을 유도하지 않은 패킷만 승인되어야 하는 경우 엔드포인트는 승인을 유도하는 패킷이 수신될 때까지 나가는 프레임과 함께 ACK 프레임을 보내지 않도록 선택할 수 있습니다.

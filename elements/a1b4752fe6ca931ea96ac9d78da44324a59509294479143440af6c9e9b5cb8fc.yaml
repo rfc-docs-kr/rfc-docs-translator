@@ -1,0 +1,18 @@
+"hash": |-
+  a1b4752fe6ca931ea96ac9d78da44324a59509294479143440af6c9e9b5cb8fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At a receiver, protection of the packet number is removed prior to
+     recovering the full packet number.  The full packet number is then
+     reconstructed based on the number of significant bits present, the
+     value of those bits, and the largest packet number received in a
+     successfully authenticated packet.  Recovering the full packet number
+     is necessary to successfully complete the removal of packet
+     protection.
+"fixed": |-
+  At a receiver, protection of the packet number is removed prior to recovering the full packet number.  The full packet number is then reconstructed based on the number of significant bits present, the value of those bits, and the largest packet number received in a successfully authenticated packet.  Recovering the full packet number is necessary to successfully complete the removal of packet protection.
+"ko": |-
+  수신기에서는 전체 패킷 번호를 복구하기 전에 패킷 번호 보호가 제거됩니다. 그런 다음 전체 패킷 번호는 존재하는 유효 비트 수, 해당 비트의 값 및 성공적으로 인증된 패킷에서 수신된 가장 큰 패킷 번호를 기반으로 재구성됩니다. 패킷 보호 제거를 성공적으로 완료하려면 전체 패킷 번호를 복구해야 합니다.

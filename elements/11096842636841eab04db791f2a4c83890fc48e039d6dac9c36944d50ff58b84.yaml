@@ -1,0 +1,15 @@
+"hash": |-
+  11096842636841eab04db791f2a4c83890fc48e039d6dac9c36944d50ff58b84
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints MUST NOT exceed the limit set by their peer.  An endpoint
+     that receives a frame with a stream ID exceeding the limit it has
+     sent MUST treat this as a connection error of type
+     STREAM_LIMIT_ERROR; see Section 11 for details on error handling.
+"fixed": |-
+  Endpoints MUST NOT exceed the limit set by their peer.  An endpoint that receives a frame with a stream ID exceeding the limit it has sent MUST treat this as a connection error of type STREAM_LIMIT_ERROR; see Section 11 for details on error handling.
+"ko": |-
+  엔드포인트는 피어가 설정한 제한을 초과해서는 안 됩니다. 전송한 제한을 초과하는 스트림 ID가 있는 프레임을 수신하는 엔드포인트는 이를 STREAM_LIMIT_ERROR 유형의 연결 오류로 처리해야 합니다. 오류 처리에 대한 자세한 내용은 섹션 11을 참조하세요.

@@ -1,0 +1,28 @@
+"hash": |-
+  78776c7341db46ae5c997a59fede367b0d5a9ad44c071f07dc23ab1b0acb4946
+"type": |-
+  Table
+"comment": !!null |-
+  null
+"original": |2-
+                                               What    What    What
+                              # of     Requ'd  Encrypt Integ    is
+                              bytes      [1]   Covers  Covers  Xmtd
+                              ------   ------  ------  ------  ------
+      SPI                        4        M                    plain
+      Seq# (low-order bits)      4        M                    plain    p
+                                                                    --- a
+      IV                      variable    O              Y     plain  | y
+      IP datagram [2]         variable  M or D    Y      Y     cipher |-l
+      TFC padding [3]         variable    O       Y      Y     cipher | o
+                                                                    --- a
+      Padding                  0-255      M       Y      Y     cipher   d
+      Pad Length                 1        M       Y      Y     cipher
+      Next Header                1        M       Y      Y     cipher
+      Seq# (high-order bits)     4     if ESN [4]        Y     [5]
+      ICV Padding             variable if need           Y     [5]
+      ICV                     variable    O [6]                plain
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

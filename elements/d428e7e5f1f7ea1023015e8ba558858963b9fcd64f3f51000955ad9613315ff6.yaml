@@ -1,0 +1,17 @@
+"hash": |-
+  d428e7e5f1f7ea1023015e8ba558858963b9fcd64f3f51000955ad9613315ff6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a new mailbox is created with the same name as a mailbox that was
+     deleted, its unique identifiers MUST be greater than any unique
+     identifiers used in the previous incarnation of the mailbox unless
+     the new incarnation has a different unique identifier validity value.
+     See the description of the UID command in Section 6.4.9 for more
+     detail.
+"fixed": |-
+  If a new mailbox is created with the same name as a mailbox that was deleted, its unique identifiers MUST be greater than any unique identifiers used in the previous incarnation of the mailbox unless the new incarnation has a different unique identifier validity value. See the description of the UID command in Section 6.4.9 for more detail.
+"ko": |-
+  삭제된 사서함과 동일한 이름으로 새 사서함이 생성된 경우 새 사서함의 고유 식별자 유효성 값이 다른 경우를 제외하고 고유 식별자는 사서함의 이전 구현에 사용된 고유 식별자보다 커야 합니다. 자세한 내용은 섹션 6.4.9의 UID 명령 설명을 참조하세요.

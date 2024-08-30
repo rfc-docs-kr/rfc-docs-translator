@@ -1,0 +1,1 @@
+예를 들어, Active-Request-Id-List가 없는 STOP 요청이 PENDING 또는 IN-PROGRESS 상태의 SPEAK 요청이 하나 이상 있는 신디사이저 리소스로 전송되는 경우, IN-PROGRESS를 포함한 모든 SPEAK 요청은 반드시 취소되어야 합니다. STOP 요청에 대한 응답에는 종료된 모든 SPEAK 요청의 요청 ID가 Active-Request-Id-List 값에 포함됩니다. STOP 응답을 보낸 후, 서버는 종료된 요청에 대해 SPEAK-COMPLETE 또는 RECOGNITION-COMPLETE 이벤트를 보내서는 안 됩니다.

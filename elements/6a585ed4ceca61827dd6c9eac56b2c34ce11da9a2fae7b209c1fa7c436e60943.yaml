@@ -1,0 +1,24 @@
+"hash": |-
+  6a585ed4ceca61827dd6c9eac56b2c34ce11da9a2fae7b209c1fa7c436e60943
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that since the audio and the messages are carried over separate
+     communication paths there may be a race condition between the start
+     of the flow of audio and the receipt of the RECOGNIZE method.  For
+     example, if an audio flow is started by the client at the same time
+     as the RECOGNIZE method is sent, either the audio or the RECOGNIZE
+     can arrive at the recognizer first.  As another example, the client
+     may choose to continuously send audio to the server and signal the
+     server to recognize using the RECOGNIZE method.  Mechanisms to
+     resolve this condition are outside the scope of this specification.
+     The recognizer can expect the media to start flowing when it receives
+     the RECOGNIZE request, but it MUST NOT buffer anything it receives
+     beforehand in order to preserve the semantics that application
+     authors expect with respect to the input timers.
+"fixed": |-
+  Note that since the audio and the messages are carried over separate communication paths there may be a race condition between the start of the flow of audio and the receipt of the RECOGNIZE method.  For example, if an audio flow is started by the client at the same time as the RECOGNIZE method is sent, either the audio or the RECOGNIZE can arrive at the recognizer first.  As another example, the client may choose to continuously send audio to the server and signal the server to recognize using the RECOGNIZE method.  Mechanisms to resolve this condition are outside the scope of this specification. The recognizer can expect the media to start flowing when it receives the RECOGNIZE request, but it MUST NOT buffer anything it receives beforehand in order to preserve the semantics that application authors expect with respect to the input timers.
+"ko": |-
+  오디오와 메시지가 별도의 통신 경로를 통해 전달되므로 오디오 흐름의 시작과 RECOGNIZE 메서드 수신 사이에 경쟁 조건이 있을 수 있습니다. 예를 들어, 클라이언트가 RECOGNIZE 메서드를 보내는 것과 동시에 오디오 흐름을 시작하면 오디오나 RECOGNIZE가 먼저 인식기에 도착할 수 있습니다. 또 다른 예로, 클라이언트는 오디오를 서버로 지속적으로 보내고 RECOGNIZE 메서드를 사용하여 인식하도록 서버에 신호를 보낼 수 있습니다. 이 조건을 해결하는 메커니즘은 이 사양의 범위를 벗어납니다. 인식기는 RECOGNIZE 요청을 수신하면 미디어가 흐르기 시작할 것으로 예상할 수 있지만, 애플리케이션 작성자가 입력 타이머와 관련하여 기대하는 의미를 보존하기 위해 미리 수신한 내용을 버퍼링해서는 안 됩니다.

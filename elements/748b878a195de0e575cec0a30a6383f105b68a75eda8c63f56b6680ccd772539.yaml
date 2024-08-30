@@ -1,0 +1,17 @@
+"hash": |-
+  748b878a195de0e575cec0a30a6383f105b68a75eda8c63f56b6680ccd772539
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            select (KeyExchangeAlgorithm) {
+                case rsa: EncryptedPreMasterSecret;
+                case diffie_hellman: ClientDiffieHellmanPublic;
+            } exchange_keys;
+        } ClientKeyExchange;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  8d9eff970e4b510de0af84b735cc052cd73c63934c1245efdea9b273c1b09119
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the specified time period arrives, the Printer MUST remove the
+     "job-hold-until-specified" value from the Job's "job-state-reasons"
+     attribute, if present.  If there are no other Job state reasons that
+     keep the Job in the 'pending-held' state, the Printer MUST consider
+     the Job as a candidate for processing by moving the Job to the
+     'pending' state.
+"fixed": |-
+  When the specified time period arrives, the Printer MUST remove the "job-hold-until-specified" value from the Job's "job-state-reasons" attribute, if present.  If there are no other Job state reasons that keep the Job in the 'pending-held' state, the Printer MUST consider the Job as a candidate for processing by moving the Job to the 'pending' state.
+"ko": |-
+  지정된 기간이 도래하면 프린터는 작업의 "job-state-reasons" 속성에서 "job-hold-until-specified" 값(있는 경우)을 제거해야 합니다. 작업을 '보류 보류' 상태로 유지하는 다른 작업 상태 이유가 없는 경우 프린터는 작업을 '보류' 상태로 이동하여 해당 작업을 처리 후보로 간주해야 합니다.

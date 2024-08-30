@@ -1,0 +1,16 @@
+"hash": |-
+  4d6a8a36c9c86cee2e707ce8f94f5da321f7873c6685e4d6e9965aa102fcbcb9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A recipient MUST ignore If-Unmodified-Since if the request contains
+     an If-Match header field; the condition in If-Match is considered to
+     be a more accurate replacement for the condition in If-Unmodified-
+     Since, and the two are only combined for the sake of interoperating
+     with older intermediaries that might not implement If-Match.
+"fixed": |-
+  A recipient MUST ignore If-Unmodified-Since if the request contains an If-Match header field; the condition in If-Match is considered to be a more accurate replacement for the condition in If-Unmodified- Since, and the two are only combined for the sake of interoperating with older intermediaries that might not implement If-Match.
+"ko": |-
+  요청에 If-Match 헤더 필드가 포함되어 있으면 수신자는 If-Unmodified-Since를 무시해야 합니다. If-Match의 조건은 If-Unmodified-Since의 조건을 보다 정확하게 대체하는 것으로 간주되며 If-Match를 구현하지 않을 수 있는 이전 중개자와의 상호 운용을 위해서만 두 가지가 결합됩니다.

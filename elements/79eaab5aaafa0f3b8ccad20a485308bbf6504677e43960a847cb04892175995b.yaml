@@ -1,0 +1,23 @@
+"hash": |-
+  79eaab5aaafa0f3b8ccad20a485308bbf6504677e43960a847cb04892175995b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since MRCPv2 resources either generate or consume media streams, the
+     client or the server needs to associate media sessions with their
+     corresponding resource or resources.  More than one resource could be
+     associated with a single media session or each resource could be
+     assigned a separate media session.  Also, note that more than one
+     media session can be associated with a single resource if need be,
+     but this scenario is not useful for the current set of resources.
+     For example, a synthesizer and a recognizer could be associated to
+     the same media session (m=audio line), if it is opened in "sendrecv"
+     mode.  Alternatively, the recognizer could have its own "sendonly"
+     audio session, and the synthesizer could have its own "recvonly"
+     audio session.
+"fixed": |-
+  Since MRCPv2 resources either generate or consume media streams, the client or the server needs to associate media sessions with their corresponding resource or resources.  More than one resource could be associated with a single media session or each resource could be assigned a separate media session.  Also, note that more than one media session can be associated with a single resource if need be, but this scenario is not useful for the current set of resources. For example, a synthesizer and a recognizer could be associated to the same media session (m=audio line), if it is opened in "sendrecv" mode.  Alternatively, the recognizer could have its own "sendonly" audio session, and the synthesizer could have its own "recvonly" audio session.
+"ko": |-
+  MRCPv2 리소스는 미디어 스트림을 생성하거나 소비하므로 클라이언트나 서버는 미디어 세션을 해당 리소스 또는 리소스와 연결해야 합니다. 여러 리소스를 하나의 미디어 세션과 연결하거나 각 리소스에 별도의 미디어 세션을 할당할 수 있습니다. 또한 필요한 경우 여러 미디어 세션을 하나의 리소스와 연결할 수 있지만 이 시나리오는 현재 리소스 세트에는 유용하지 않습니다. 예를 들어, 신디사이저와 인식기를 "sendrecv" 모드로 열면 동일한 미디어 세션(m=오디오 라인)에 연결할 수 있습니다. 또는 인식기는 자체 "sendonly" 오디오 세션을 가질 수 있고 신디사이저는 자체 "recvonly" 오디오 세션을 가질 수 있습니다.

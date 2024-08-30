@@ -1,0 +1,15 @@
+"hash": |-
+  44c7e3e380b452f96ea8b8cdf057d61e2df02884330464a483dd3c36e1dd8fac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        3) Otherwise, the local system closes the newly created BGP
+           connection (the one associated with the newly received OPEN
+           message), and continues to use the existing one (the one that
+           is already in the OpenConfirm state).
+"fixed": |-
+  - 3) Otherwise, the local system closes the newly created BGP connection (the one associated with the newly received OPEN message), and continues to use the existing one (the one that is already in the OpenConfirm state).
+"ko": |-
+  - 3) 그렇지 않으면 로컬 시스템은 새로 생성된 BGP 연결(새로 수신된 OPEN 메시지와 관련된 연결)을 닫고 기존 연결(이미 OpenConfirm 상태에 있는 연결)을 계속 사용합니다.

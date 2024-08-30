@@ -1,0 +1,15 @@
+"hash": |-
+  baf1836cb8a68311c06014599c1103f5dda3998e3553482dab670b2efdd68911
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The HDCP-LEVEL attribute is OPTIONAL.  It SHOULD be present if any
+        content in the Variant Stream will fail to play without HDCP.
+        Clients without output copy protection SHOULD NOT load a Variant
+        Stream with an HDCP-LEVEL attribute unless its value is NONE.
+"fixed": |-
+  - The HDCP-LEVEL attribute is OPTIONAL.  It SHOULD be present if any content in the Variant Stream will fail to play without HDCP. Clients without output copy protection SHOULD NOT load a Variant Stream with an HDCP-LEVEL attribute unless its value is NONE.
+"ko": |-
+  - HDCP-LEVEL 속성은 선택사항입니다. 변형 스트림의 콘텐츠가 HDCP 없이 재생되지 않는 경우 존재해야 합니다. 출력 복사 보호 기능이 없는 클라이언트는 해당 값이 NONE이 아닌 이상 HDCP-LEVEL 속성을 사용하여 변형 스트림을 로드해서는 안 됩니다.

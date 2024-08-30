@@ -1,0 +1,19 @@
+"hash": |-
+  19cec8d58d275b65133781846461c4572039c47518bd2669627ee8000065a1ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server uses the NEW_TOKEN frame (Section 19.7) to provide the
+     client with an address validation token that can be used to validate
+     future connections.  In a future connection, the client includes this
+     token in Initial packets to provide address validation.  The client
+     MUST include the token in all Initial packets it sends, unless a
+     Retry replaces the token with a newer one.  The client MUST NOT use
+     the token provided in a Retry for future connections.  Servers MAY
+     discard any Initial packet that does not carry the expected token.
+"fixed": |-
+  The server uses the NEW_TOKEN frame (Section 19.7) to provide the client with an address validation token that can be used to validate future connections.  In a future connection, the client includes this token in Initial packets to provide address validation.  The client MUST include the token in all Initial packets it sends, unless a Retry replaces the token with a newer one.  The client MUST NOT use the token provided in a Retry for future connections.  Servers MAY discard any Initial packet that does not carry the expected token.
+"ko": |-
+  서버는 NEW_TOKEN 프레임(19.7절)을 사용하여 향후 연결을 검증하는 데 사용할 수 있는 주소 검증 토큰을 클라이언트에 제공합니다. 향후 연결에서 클라이언트는 주소 유효성 검사를 제공하기 위해 초기 패킷에 이 토큰을 포함합니다. 클라이언트는 재시도가 토큰을 최신 토큰으로 대체하지 않는 한 전송하는 모든 초기 패킷에 토큰을 포함해야 합니다. 클라이언트는 향후 연결을 위해 재시도에 제공된 토큰을 사용해서는 안 됩니다. 서버는 예상 토큰을 전달하지 않는 초기 패킷을 삭제할 수 있습니다.

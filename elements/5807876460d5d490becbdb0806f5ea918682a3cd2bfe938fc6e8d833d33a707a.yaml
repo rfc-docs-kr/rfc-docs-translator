@@ -1,0 +1,19 @@
+"hash": |-
+  5807876460d5d490becbdb0806f5ea918682a3cd2bfe938fc6e8d833d33a707a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since vendor-specific parameters may be order-dependent, it MUST be
+     possible to combine multiple header fields of the same name into one
+     "name:value" pair without changing the semantics of the message, by
+     appending each subsequent value to the first, each separated by a
+     comma.  The order in which header fields with the same name are
+     received is therefore significant to the interpretation of the
+     combined header field value, and thus an intermediary MUST NOT change
+     the order of these values when a message is forwarded.
+"fixed": |-
+  Since vendor-specific parameters may be order-dependent, it MUST be possible to combine multiple header fields of the same name into one "name:value" pair without changing the semantics of the message, by appending each subsequent value to the first, each separated by a comma.  The order in which header fields with the same name are received is therefore significant to the interpretation of the combined header field value, and thus an intermediary MUST NOT change the order of these values when a message is forwarded.
+"ko": |-
+  공급업체별 매개변수는 순서에 따라 달라질 수 있으므로, 메시지의 의미를 변경하지 않고 동일한 이름의 여러 헤더 필드를 하나의 "이름:값" 쌍으로 결합할 수 있어야 합니다. 각 후속 값을 첫 번째 값에 추가하여 각각을 쉼표로 구분합니다. 따라서 동일한 이름의 헤더 필드가 수신되는 순서는 결합된 헤더 필드 값의 해석에 중요하며, 따라서 중개자는 메시지를 전달할 때 이러한 값의 순서를 변경해서는 안 됩니다.

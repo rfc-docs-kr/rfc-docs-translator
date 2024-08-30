@@ -1,0 +1,17 @@
+"hash": |-
+  6b8687fb330be7e5500c91843f90a7a31ef0f8f8eee290f31e39e6c8ee7cfbb6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        b) In the case of an EBGP, where the sender and receiver are one
+           IP hop away from each other, either the IP address in the
+           NEXT_HOP MUST be the sender's IP address that is used to
+           establish the BGP connection, or the interface associated with
+           the NEXT_HOP IP address MUST share a common subnet with the
+           receiving BGP speaker.
+"fixed": |-
+  - b) In the case of an EBGP, where the sender and receiver are one IP hop away from each other, either the IP address in the NEXT_HOP MUST be the sender's IP address that is used to establish the BGP connection, or the interface associated with the NEXT_HOP IP address MUST share a common subnet with the receiving BGP speaker.
+"ko": |-
+  - b) 발신자와 수신자가 서로 하나의 IP 홉 떨어져 있는 EBGP의 경우 NEXT_HOP의 IP 주소는 BGP 연결을 설정하는 데 사용되는 발신자의 IP 주소이거나 연결된 인터페이스여야 합니다. NEXT_HOP IP 주소를 사용하는 경우 수신 BGP 스피커와 공통 서브넷을 공유해야 합니다.

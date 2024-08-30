@@ -1,0 +1,21 @@
+"hash": |-
+  8ddb8500c6e06cc4a7270d08be824145e42178f33c0ee7d67691bf9edbf5945d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server implemented according to RFC 4507 receiving a ticket
+     extension from a client conforming to this document would interpret
+     the first two bytes of the ticket as the length of this ticket.  This
+     will result in either an inconsistent length field or in the
+     processing of a ticket missing the first two bytes.  In the first
+     case, the server should reject the request based on a malformed
+     length.  In the second case, the server should reject the ticket
+     based on a malformed ticket, incorrect key version, or failed
+     decryption.  A server implementation based on this update receiving
+     an RFC 4507 extension would interpret the first length field as the
+"fixed": |-
+  A server implemented according to RFC 4507 receiving a ticket extension from a client conforming to this document would interpret the first two bytes of the ticket as the length of this ticket.  This will result in either an inconsistent length field or in the processing of a ticket missing the first two bytes.  In the first case, the server should reject the request based on a malformed length.  In the second case, the server should reject the ticket based on a malformed ticket, incorrect key version, or failed decryption.  A server implementation based on this update receiving an RFC 4507 extension would interpret the first length field as the
+"ko": |-
+  RFC 4507에 따라 구현된 서버는 이 문서를 준수하는 클라이언트로부터 티켓 확장을 수신하여 티켓의 처음 2바이트를 이 티켓의 길이로 해석합니다. 이로 인해 길이 필드가 일관되지 않거나 티켓 처리 시 처음 2바이트가 누락되는 결과가 발생합니다. 첫 번째 경우, 서버는 잘못된 길이를 기반으로 요청을 거부해야 합니다. 두 번째 경우, 서버는 잘못된 티켓, 잘못된 키 버전 또는 실패한 암호 해독을 기반으로 티켓을 거부해야 합니다. RFC 4507 확장을 수신하는 이 업데이트를 기반으로 하는 서버 구현은 첫 번째 길이 필드를

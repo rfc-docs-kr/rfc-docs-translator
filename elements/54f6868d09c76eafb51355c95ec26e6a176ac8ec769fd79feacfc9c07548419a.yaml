@@ -1,0 +1,18 @@
+"hash": |-
+  54f6868d09c76eafb51355c95ec26e6a176ac8ec769fd79feacfc9c07548419a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The number of active streams is limited by the
+     initial_max_streams_bidi and initial_max_streams_uni transport
+     parameters as updated by any received MAX_STREAMS frames, as
+     explained in Section 4.6.  If chosen judiciously, these limits
+     mitigate the effect of the stream commitment attack.  However,
+     setting the limit too low could affect performance when applications
+     expect to open a large number of streams.
+"fixed": |-
+  The number of active streams is limited by the initial_max_streams_bidi and initial_max_streams_uni transport parameters as updated by any received MAX_STREAMS frames, as explained in Section 4.6.  If chosen judiciously, these limits mitigate the effect of the stream commitment attack.  However, setting the limit too low could affect performance when applications expect to open a large number of streams.
+"ko": |-
+  활성 스트림의 수는 섹션 4.6에 설명된 대로 수신된 MAX_STREAMS 프레임에 의해 업데이트되는initial_max_streams_bidi 및initial_max_streams_uni 전송 매개변수에 의해 제한됩니다. 신중하게 선택하면 이러한 제한을 통해 스트림 커밋 공격의 효과가 완화됩니다. 그러나 제한을 너무 낮게 설정하면 애플리케이션이 많은 수의 스트림을 열 것으로 예상하는 경우 성능에 영향을 미칠 수 있습니다.

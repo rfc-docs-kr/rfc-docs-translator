@@ -1,0 +1,16 @@
+"hash": |-
+  d001461bd14f15519f3d24013819122c15b6abc792a5f2fea96f0186d36d6e55
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the value of this attribute specifies a time period that is in the
+     future, the Printer SHOULD add the "job-hold-until-specified" value
+     to the Job's "job-state-reasons" attribute, MUST move the Job to the
+     'pending-held' state, and MUST NOT schedule the Job for printing
+     until the specified time period arrives.
+"fixed": |-
+  If the value of this attribute specifies a time period that is in the future, the Printer SHOULD add the "job-hold-until-specified" value to the Job's "job-state-reasons" attribute, MUST move the Job to the 'pending-held' state, and MUST NOT schedule the Job for printing until the specified time period arrives.
+"ko": |-
+  이 속성의 값이 미래의 기간을 지정하는 경우 프린터는 작업의 "job-state-reasons" 속성에 "job-hold-until-specified" 값을 추가해야 하며, 작업을 ' 보류 중' 상태이며 지정된 기간이 도달할 때까지 작업 인쇄를 예약해서는 안 됩니다.

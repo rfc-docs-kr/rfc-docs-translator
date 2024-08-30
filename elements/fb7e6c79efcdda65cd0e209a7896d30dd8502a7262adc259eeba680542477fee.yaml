@@ -1,0 +1,16 @@
+"hash": |-
+  fb7e6c79efcdda65cd0e209a7896d30dd8502a7262adc259eeba680542477fee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MUST treat the absence of the
+     initial_source_connection_id transport parameter from either endpoint
+     or the absence of the original_destination_connection_id transport
+     parameter from the server as a connection error of type
+     TRANSPORT_PARAMETER_ERROR.
+"fixed": |-
+  An endpoint MUST treat the absence of the initial_source_connection_id transport parameter from either endpoint or the absence of the original_destination_connection_id transport parameter from the server as a connection error of type TRANSPORT_PARAMETER_ERROR.
+"ko": |-
+  엔드포인트는 두 엔드포인트 모두에서initial_source_connection_id 전송 매개변수가 없거나 서버에서 Original_destination_connection_id 전송 매개변수가 없는 경우를 TRANSPORT_PARAMETER_ERROR 유형의 연결 오류로 처리해야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  3e97517d95cd6808cb85e4139ce2e5b66d0479971f91d677455b3f4666e89939
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MAY be specified in a RECOGNIZE method and is used
+     to tell the recognizer that it MUST NOT wait for the end of speech
+     before processing the collected speech to match active grammars.  A
+     value of "true" indicates the recognizer MUST do early matching.  The
+     default value for this header field if not specified is "false".  If
+     the recognizer does not support the processing of the collected audio
+     before the end of speech, this header field can be safely ignored.
+"fixed": |-
+  This header field MAY be specified in a RECOGNIZE method and is used to tell the recognizer that it MUST NOT wait for the end of speech before processing the collected speech to match active grammars.  A value of "true" indicates the recognizer MUST do early matching.  The default value for this header field if not specified is "false".  If the recognizer does not support the processing of the collected audio before the end of speech, this header field can be safely ignored.
+"ko": |-
+  이 헤더 필드는 RECOGNIZE 메서드에서 지정할 수 있으며 인식기에 수집된 음성을 처리하여 활성 문법과 일치시키기 전에 음성이 끝날 때까지 기다려서는 안 된다는 것을 알리는 데 사용됩니다. "true" 값은 인식기가 조기에 일치해야 함을 나타냅니다. 지정되지 않은 경우 이 헤더 필드의 기본값은 "false"입니다. 인식기가 음성이 끝나기 전에 수집된 오디오의 처리를 지원하지 않는 경우 이 헤더 필드는 안전하게 무시할 수 있습니다.

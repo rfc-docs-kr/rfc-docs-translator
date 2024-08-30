@@ -1,0 +1,17 @@
+"hash": |-
+  990ff33a479d5124fa0dacb7b0dc3c60dbde9661acd00d2da78cc18e3140cf49
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If neither the original session nor the new ClientHello uses the
+        extension, the server SHOULD abort the handshake.  If it continues
+        with an abbreviated handshake in order to support legacy insecure
+        resumption, the connection is no longer protected by the
+        mechanisms in this document, and the server should follow the
+        guidelines in Section 5.4.
+"fixed": |-
+  -  If neither the original session nor the new ClientHello uses the extension, the server SHOULD abort the handshake.  If it continues with an abbreviated handshake in order to support legacy insecure resumption, the connection is no longer protected by the mechanisms in this document, and the server should follow the guidelines in Section 5.4.
+"ko": |-
+  - 원래 세션이나 새 ClientHello가 확장을 사용하지 않는 경우 서버는 핸드셰이크를 중단해야 합니다. 레거시 불안정 재개를 지원하기 위해 축약된 핸드셰이크로 계속하는 경우 이 문서의 메커니즘으로 연결이 더 이상 보호되지 않으며 서버는 섹션 5.4의 지침을 따라야 합니다.

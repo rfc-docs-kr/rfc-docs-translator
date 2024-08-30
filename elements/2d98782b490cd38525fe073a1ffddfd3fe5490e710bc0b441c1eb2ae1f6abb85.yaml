@@ -1,0 +1,18 @@
+"hash": |-
+  2d98782b490cd38525fe073a1ffddfd3fe5490e710bc0b441c1eb2ae1f6abb85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If (1) the Client supplies either a value that specifies a time
+        period that has already started or the 'no-hold' value (meaning
+        don't hold the Job) and (2) the Printer supports the
+        "job-hold-until" operation attribute and there are no other
+        reasons to hold the Job, the Printer MUST accept the operation and
+        make the Job be a candidate for processing immediately (see
+        Section 5.2.2).
+"fixed": |-
+  - If (1) the Client supplies either a value that specifies a time period that has already started or the 'no-hold' value (meaning don't hold the Job) and (2) the Printer supports the "job-hold-until" operation attribute and there are no other reasons to hold the Job, the Printer MUST accept the operation and make the Job be a candidate for processing immediately (see Section 5.2.2).
+"ko": |-
+  - (1) 클라이언트가 이미 시작된 기간을 지정하는 값 또는 'no-hold' 값(작업을 보류하지 않음을 의미)을 제공하고 (2) 프린터가 "job-hold-"를 지원하는 경우 Until" 작업 속성이 있고 작업을 보류할 다른 이유가 없으면 프린터는 작업을 수락하고 작업을 즉시 처리할 후보로 만들어야 합니다(섹션 5.2.2 참조).

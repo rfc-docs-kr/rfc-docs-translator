@@ -1,0 +1,17 @@
+"hash": |-
+  6bc204977789bb352f5af0965920ec5d530328871d03ee57f491d1b12fa13039
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            opaque key_name[16];
+            opaque iv[16];
+            opaque encrypted_state<0..2^16-1>;
+            opaque mac[32];
+        } ticket;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

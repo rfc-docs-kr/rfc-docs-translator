@@ -1,0 +1,41 @@
+"hash": |-
+  8303d22e398fd60b4aeab278a6e5b3f994d0156947e5b12675dbb67790eec47e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-------------------------------------------------------------------+
+     |                                                                   |
+     |                   +-------------+    +--------------+             |
+     |            +----->| A's Tracker |    |  B's Tracker |<---+        |
+     |            |      +-------------+    +--------------+    |        |
+     |     Tracker|              ^  ^        ^    ^             |        |
+     |    Protocol|       Tracker|  |Tracker |    |Tracker      |Tracker |
+     |            |      Protocol|  |Protocol|    |Protocol     |Protocol|
+     |            |              |  |        |    |             |        |
+     |            |              |  |        |    |             |        |
+     |            v              v  |        |    v             v        |
+     |      +------+ Peer   +------+|        |  +------+Internal+------+ |
+     |      | CDN  |<------>| CDN  ||        |  | CDN  |<-----> | CDN  | |
+     |      | Node1|Protocol| Node2||        |  | Node3|Protocol| Node4| |
+     |      +------+        +------+|        |  +------+        +------+ |
+     |         ^  ^                 |        |        ^         ^        |
+     |         |  |                 |        |        |         |        |
+     |         |  | Peer Protocol   |        |   HTTP |         |        |
+     | Peer    |  +-------------+   |        | +------+         |Peer    |
+     | Protocol|                |   |        | | Protocol       |Protocol|
+     |         |                | +-+        | |                |        |
+     |         |                | |          | |                |        |
+     |         |                | |          | |                |        |
+     |         v                v v          v v                v        |
+     |      +------+ Peer    +------+    +---------+  Peer   +---------+ |
+     |      | A's  |<------> | A's  |    |B's      |<------> |B's      | |
+     |      | User1|Protocol | User2|    | User3   |Protocol | User4   | |
+     |      +------+         +------+    +---------+         +---------+ |
+     |                                                                   |
+     +-------------------------------------------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

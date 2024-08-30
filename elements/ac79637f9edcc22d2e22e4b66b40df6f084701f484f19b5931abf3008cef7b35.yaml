@@ -1,0 +1,19 @@
+"hash": |-
+  ac79637f9edcc22d2e22e4b66b40df6f084701f484f19b5931abf3008cef7b35
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A temporary error such as a buffer-full write error, a memory
+     overflow (i.e., the Document data exceeds the memory of the Printer),
+     or a disk-full condition, occurs while the IPP Printer processes an
+     operation.  The Client MAY try the unmodified request again at some
+     later point in time with an expectation that the temporary internal
+     error condition has been cleared.  Alternatively, as an
+     implementation option, a Printer MAY delay the response until the
+     temporary condition is cleared so that no error is returned.
+"fixed": |-
+  A temporary error such as a buffer-full write error, a memory overflow (i.e., the Document data exceeds the memory of the Printer), or a disk-full condition, occurs while the IPP Printer processes an operation.  The Client MAY try the unmodified request again at some later point in time with an expectation that the temporary internal error condition has been cleared.  Alternatively, as an implementation option, a Printer MAY delay the response until the temporary condition is cleared so that no error is returned.
+"ko": |-
+  IPP 프린터가 작업을 처리하는 동안 버퍼 가득 참 쓰기 오류, 메모리 오버플로(즉, 문서 데이터가 프린터 메모리를 초과함) 또는 디스크 가득 참 상태와 같은 일시적인 오류가 발생합니다. 클라이언트는 일시적인 내부 오류 조건이 해결될 것이라는 기대를 가지고 나중에 수정되지 않은 요청을 다시 시도할 수 있습니다. 또는 구현 옵션으로 프린터는 오류가 반환되지 않도록 임시 조건이 지워질 때까지 응답을 지연할 수 있습니다.

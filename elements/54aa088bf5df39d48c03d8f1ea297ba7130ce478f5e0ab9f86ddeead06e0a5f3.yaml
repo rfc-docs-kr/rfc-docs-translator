@@ -1,0 +1,18 @@
+"hash": |-
+  54aa088bf5df39d48c03d8f1ea297ba7130ce478f5e0ab9f86ddeead06e0a5f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This REQUIRED Printer attribute identifies the set of charsets that
+     the Printer and contained Jobs support in attributes with attribute
+     syntaxes 'text' and 'name'.  At least the value 'utf-8' MUST be
+     present, since IPP objects MUST support the UTF-8 [RFC3629] charset.
+     If a Printer supports a charset, it means that for all attributes of
+     syntaxes 'text' and 'name' the Printer MUST (1) accept the charset in
+     requests and (2) return the charset in responses as needed.
+"fixed": |-
+  This REQUIRED Printer attribute identifies the set of charsets that the Printer and contained Jobs support in attributes with attribute syntaxes 'text' and 'name'.  At least the value 'utf-8' MUST be present, since IPP objects MUST support the UTF-8 [RFC3629] charset. If a Printer supports a charset, it means that for all attributes of syntaxes 'text' and 'name' the Printer MUST (1) accept the charset in requests and (2) return the charset in responses as needed.
+"ko": |-
+  이 필수 프린터 속성은 프린터와 포함된 작업이 속성 구문 'text' 및 'name'을 사용하여 속성에서 지원하는 문자 세트 세트를 식별합니다. IPP 객체는 UTF-8 [RFC3629] 문자 세트를 지원해야 하므로 최소한 'utf-8' 값이 존재해야 합니다. 프린터가 문자 세트를 지원하는 경우 'text' 및 'name' 구문의 모든 속성에 대해 프린터는 (1) 요청의 문자 세트를 수락하고 (2) 필요에 따라 응답의 문자 세트를 반환해야 함을 의미합니다.

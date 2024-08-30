@@ -1,0 +1,19 @@
+"hash": |-
+  c7ca7b39325f14ae76c9da96f0bdf667e14885539e6076e916d4cef1a9d3c4f5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note that the fact that 'multipart/mixed' bodies have a default
+        disposition type of 'render' does not imply that they will be
+        rendered to the user.  The way the body parts within the
+        'multipart/mixed' are handled depends on the disposition types of
+        the individual body parts.  The actual disposition type of the
+        whole 'multipart/mixed' is irrelevant.  The 'render' disposition
+        type has been chosen for 'multipart/mixed' bodies simply because
+        'render' is the default disposition type in SIP.
+"fixed": |-
+  - Note that the fact that 'multipart/mixed' bodies have a default disposition type of 'render' does not imply that they will be rendered to the user.  The way the body parts within the 'multipart/mixed' are handled depends on the disposition types of the individual body parts.  The actual disposition type of the whole 'multipart/mixed' is irrelevant.  The 'render' disposition type has been chosen for 'multipart/mixed' bodies simply because 'render' is the default disposition type in SIP.
+"ko": |-
+  - 'multipart/mixed' 본문에 'render'라는 기본 처리 유형이 있다고 해서 사용자에게 렌더링된다는 것을 의미하지는 않습니다. 'multipart/mixed' 내의 본문 부분이 처리되는 방식은 개별 본문 부분의 처리 유형에 따라 달라집니다. 전체 'multipart/mixed'의 실제 처리 유형은 중요하지 않습니다. 'render' 처리 유형은 'multipart/mixed' 본문에 대해 선택되었는데, SIP에서 'render'가 기본 처리 유형이기 때문입니다.

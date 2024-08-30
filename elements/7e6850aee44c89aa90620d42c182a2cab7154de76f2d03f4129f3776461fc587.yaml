@@ -1,0 +1,20 @@
+"hash": |-
+  7e6850aee44c89aa90620d42c182a2cab7154de76f2d03f4129f3776461fc587
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The entire handshake is cryptographically protected, with the Initial
+     packets being encrypted with per-version keys and the Handshake and
+     later packets being encrypted with keys derived from the TLS key
+     exchange.  Further, parameter negotiation is folded into the TLS
+     transcript and thus provides the same integrity guarantees as
+     ordinary TLS negotiation.  An attacker can observe the client's
+     transport parameters (as long as it knows the version-specific salt)
+     but cannot observe the server's transport parameters and cannot
+     influence parameter negotiation.
+"fixed": |-
+  The entire handshake is cryptographically protected, with the Initial packets being encrypted with per-version keys and the Handshake and later packets being encrypted with keys derived from the TLS key exchange.  Further, parameter negotiation is folded into the TLS transcript and thus provides the same integrity guarantees as ordinary TLS negotiation.  An attacker can observe the client's transport parameters (as long as it knows the version-specific salt) but cannot observe the server's transport parameters and cannot influence parameter negotiation.
+"ko": |-
+  전체 핸드셰이크는 암호화 방식으로 보호됩니다. 초기 패킷은 버전별 키로 암호화되고, 핸드셰이크 및 이후 패킷은 TLS 키 교환에서 파생된 키로 암호화됩니다. 또한 매개변수 협상은 TLS 기록에 포함되므로 일반 TLS 협상과 동일한 무결성 보장을 제공합니다. 공격자는 클라이언트의 전송 매개변수(버전별 솔트를 아는 한)를 관찰할 수 있지만 서버의 전송 매개변수는 관찰할 수 없으며 매개변수 협상에 영향을 미칠 수 없습니다.

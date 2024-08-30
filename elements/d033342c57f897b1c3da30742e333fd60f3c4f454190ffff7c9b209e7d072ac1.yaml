@@ -1,0 +1,22 @@
+"hash": |-
+  d033342c57f897b1c3da30742e333fd60f3c4f454190ffff7c9b209e7d072ac1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the key wrap is used as part of a larger key management protocol
+     or system, the desired scope for data integrity may be more than just
+     the key data or the desired duration for more than just the period
+     that it is wrapped.  Also, if the key data is not just an AES key, it
+     may not always be a multiple of 64 bits.  Alternative definitions of
+     the initial value can be used to address such problems.  NIST will
+     define alternative initial values in future key management
+     publications as needed.  In order to accommodate a set of
+     alternatives that may evolve over time, key wrap implementations that
+     are not application-specific will require some flexibility in the way
+     that the initial value is set and tested.
+"fixed": |-
+  When the key wrap is used as part of a larger key management protocol or system, the desired scope for data integrity may be more than just the key data or the desired duration for more than just the period that it is wrapped.  Also, if the key data is not just an AES key, it may not always be a multiple of 64 bits.  Alternative definitions of the initial value can be used to address such problems.  NIST will define alternative initial values in future key management publications as needed.  In order to accommodate a set of alternatives that may evolve over time, key wrap implementations that are not application-specific will require some flexibility in the way that the initial value is set and tested.
+"ko": |-
+  키 랩이 더 큰 키 관리 프로토콜 또는 시스템의 일부로 사용되는 경우 데이터 무결성에 대해 원하는 범위는 키 데이터 이상이거나 랩핑 기간보다 원하는 기간 이상일 수 있습니다. 또한 키 데이터가 단순한 AES 키가 아닌 경우 항상 64비트의 배수가 아닐 수도 있습니다. 이러한 문제를 해결하기 위해 초기값의 대체 정의를 사용할 수 있습니다. NIST는 필요에 따라 향후 키 관리 출판물에서 대체 초기 값을 정의할 것입니다. 시간이 지남에 따라 발전할 수 있는 일련의 대안을 수용하기 위해 특정 애플리케이션이 아닌 키 랩 구현에는 초기 값을 설정하고 테스트하는 방식에 어느 정도 유연성이 필요합니다.

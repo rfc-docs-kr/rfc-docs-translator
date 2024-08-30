@@ -1,0 +1,18 @@
+"hash": |-
+  fc3b2fe923a1f185d0d0cdfc33948375e03b5e0eb17a90d8939e23637e6b09a3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [RFC6437] suggests deriving values using a pseudorandom function to
+     generate flow labels.  Including the Destination Connection ID field
+     in addition to source and destination addresses when generating flow
+     labels ensures that changes are synchronized with changes in other
+     observable identifiers.  A cryptographic hash function that combines
+     these inputs with a local secret is one way this might be
+     implemented.
+"fixed": |-
+  [RFC6437] suggests deriving values using a pseudorandom function to generate flow labels.  Including the Destination Connection ID field in addition to source and destination addresses when generating flow labels ensures that changes are synchronized with changes in other observable identifiers.  A cryptographic hash function that combines these inputs with a local secret is one way this might be implemented.
+"ko": |-
+  [RFC6437]에서는 흐름 레이블을 생성하기 위해 의사 난수 함수를 사용하여 값을 파생할 것을 제안합니다. 흐름 레이블을 생성할 때 소스 및 대상 주소 외에 대상 연결 ID 필드를 포함하면 변경 사항이 관찰 가능한 다른 식별자의 변경 사항과 동기화됩니다. 이러한 입력을 로컬 비밀과 결합하는 암호화 해시 함수는 이를 구현할 수 있는 한 가지 방법입니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  f584d3b8e8731b341c72aadbbcaca44b505aee05ceda412824a9f4b031e4b3b4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Messaging clients and servers have been notoriously lax in their
+        adherence to the Internet CRLF convention for terminating lines of
+        textual data (text/* media types) in Internet protocols.  When
+        sending data in a BINARY[...] FETCH data item, servers MUST ensure
+        that textual line-oriented sections are always transmitted using
+        the IMAP CRLF line termination syntax, regardless of the
+        underlying storage representation of the data on the server.
+"fixed": |-
+  - Messaging clients and servers have been notoriously lax in their adherence to the Internet CRLF convention for terminating lines of textual data (text/* media types) in Internet protocols.  When sending data in a BINARY[...] FETCH data item, servers MUST ensure that textual line-oriented sections are always transmitted using the IMAP CRLF line termination syntax, regardless of the underlying storage representation of the data on the server.
+"ko": |-
+  - 메시징 클라이언트와 서버는 인터넷 프로토콜에서 텍스트 데이터(텍스트/* 미디어 유형) 줄을 종료하기 위한 인터넷 CRLF 규칙을 준수하는 데 있어서 매우 느슨했습니다.  BINARY[...] FETCH 데이터 항목으로 데이터를 보낼 때 서버는 서버에 있는 데이터의 기본 저장소 표현에 관계없이 텍스트 라인 지향 섹션이 항상 IMAP CRLF 라인 종료 구문을 사용하여 전송되도록 해야 합니다.

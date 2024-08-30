@@ -1,0 +1,21 @@
+"hash": |-
+  65fcbc1fa05e8728b26aa3d36109a1ef2f98e1454168f1929e7f0e14ed7394dc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One approach to solving the large number of keys problem is to use an
+     online "trusted third party" that mediates between the authenticating
+     parties.  The trusted third party (generally called a a KEY
+     DISTRIBUTION CENTER (KDC)) shares a symmetric key or password with
+     each party in the system.  It first contacts the KDC which gives it a
+     TICKET containing a randomly generated symmetric key encrypted under
+     both peer's keys.  Since only the proper peers can decrypt the
+     symmetric key the ticket can be used to establish a trusted
+     association.  By far the most popular KDC system is Kerberos
+     [KERBEROS].
+"fixed": |-
+  One approach to solving the large number of keys problem is to use an online "trusted third party" that mediates between the authenticating parties.  The trusted third party (generally called a a KEY DISTRIBUTION CENTER (KDC)) shares a symmetric key or password with each party in the system.  It first contacts the KDC which gives it a TICKET containing a randomly generated symmetric key encrypted under both peer's keys.  Since only the proper peers can decrypt the symmetric key the ticket can be used to establish a trusted association.  By far the most popular KDC system is Kerberos [KERBEROS].
+"ko": |-
+  많은 수의 키 문제를 해결하는 한 가지 접근 방식은 인증 당사자 사이를 중재하는 온라인 "신뢰할 수 있는 제3자"를 이용하는 것입니다. 신뢰할 수 있는 제3자(일반적으로 KDC(키 배포 센터)라고 함)는 시스템의 각 당사자와 대칭 키 또는 비밀번호를 공유합니다. 먼저 KDC에 연결하여 두 피어의 키로 암호화된 무작위로 생성된 대칭 키가 포함된 TICKET을 제공합니다. 적절한 피어만이 대칭 키를 해독할 수 있으므로 티켓을 사용하여 신뢰할 수 있는 연결을 설정할 수 있습니다. 지금까지 가장 널리 사용되는 KDC 시스템은 Kerberos [KERBEROS]입니다.

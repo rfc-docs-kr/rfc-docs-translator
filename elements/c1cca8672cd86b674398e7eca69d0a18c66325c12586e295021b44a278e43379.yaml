@@ -1,0 +1,18 @@
+"hash": |-
+  c1cca8672cd86b674398e7eca69d0a18c66325c12586e295021b44a278e43379
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server uses a zero-length SessionTicket extension to indicate to
+     the client that it will send a new session ticket using the
+     NewSessionTicket handshake message described in Section 3.3.  The
+     server MUST send this extension in the ServerHello if it wishes to
+     issue a new ticket to the client using the NewSessionTicket handshake
+     message.  The server MUST NOT send this extension if it does not
+     receive one in the ClientHello.
+"fixed": |-
+  The server uses a zero-length SessionTicket extension to indicate to the client that it will send a new session ticket using the NewSessionTicket handshake message described in Section 3.3.  The server MUST send this extension in the ServerHello if it wishes to issue a new ticket to the client using the NewSessionTicket handshake message.  The server MUST NOT send this extension if it does not receive one in the ClientHello.
+"ko": |-
+  서버는 길이가 0인 SessionTicket 확장을 사용하여 섹션 3.3에 설명된 NewSessionTicket 핸드셰이크 메시지를 사용하여 새 세션 티켓을 보낼 것임을 클라이언트에 나타냅니다. 서버는 NewSessionTicket 핸드셰이크 메시지를 사용하여 클라이언트에 새 티켓을 발행하려는 경우 ServerHello에서 이 확장을 보내야 합니다. 서버는 ClientHello에서 확장을 수신하지 못한 경우 이 확장을 보내서는 안 됩니다.

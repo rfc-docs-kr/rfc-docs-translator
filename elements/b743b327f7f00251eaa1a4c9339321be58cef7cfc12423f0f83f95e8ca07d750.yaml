@@ -1,0 +1,19 @@
+"hash": |-
+  b743b327f7f00251eaa1a4c9339321be58cef7cfc12423f0f83f95e8ca07d750
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Suppose it is desired to create a Closed User Group (CUG) which
+     contains a particular set of sites. This can be done by creating a
+     particular Target VPN attribute value to represent the CUG. This
+     value then needs to be associated with the per-site forwarding tables
+     for each site in the CUG, and it needs to be associated with every
+     route learned from a site in the CUG.  Any route which has this
+     Target VPN attribute will need to be redistributed so that it reaches
+     every PE router attached to one of the sites in the CUG.
+"fixed": |-
+  Suppose it is desired to create a Closed User Group (CUG) which contains a particular set of sites. This can be done by creating a particular Target VPN attribute value to represent the CUG. This value then needs to be associated with the per-site forwarding tables for each site in the CUG, and it needs to be associated with every route learned from a site in the CUG.  Any route which has this Target VPN attribute will need to be redistributed so that it reaches every PE router attached to one of the sites in the CUG.
+"ko": |-
+  특정 사이트 집합을 포함하는 폐쇄 사용자 그룹(CUG)을 만들고자 한다고 가정해 보겠습니다. 이는 CUG를 나타내는 특정 대상 VPN 속성 값을 만들어서 수행할 수 있습니다. 그런 다음 이 값을 CUG의 각 사이트에 대한 사이트별 전달 테이블과 연결해야 하며 CUG의 사이트에서 학습한 모든 경로와 연결해야 합니다. 이 대상 VPN 속성이 있는 모든 경로는 CUG의 사이트 중 하나에 연결된 모든 PE 라우터에 도달하도록 재배포해야 합니다.

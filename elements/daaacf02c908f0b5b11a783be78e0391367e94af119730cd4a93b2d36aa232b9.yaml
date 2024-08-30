@@ -1,0 +1,16 @@
+"hash": |-
+  daaacf02c908f0b5b11a783be78e0391367e94af119730cd4a93b2d36aa232b9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If error 403, 404, or 409 is returned, the response MUST include the
+     bad or unsupported header fields and their values exactly as they
+     were sent from the client.  Session parameters modified using
+     SET-PARAMS do not override parameters explicitly specified on
+     individual requests or requests that are IN-PROGRESS.
+"fixed": |-
+  If error 403, 404, or 409 is returned, the response MUST include the bad or unsupported header fields and their values exactly as they were sent from the client.  Session parameters modified using SET-PARAMS do not override parameters explicitly specified on individual requests or requests that are IN-PROGRESS.
+"ko": |-
+  오류 403, 404 또는 409가 반환되면 응답에는 클라이언트에서 보낸 그대로 잘못된 또는 지원되지 않는 헤더 필드와 해당 값이 포함되어야 합니다. SET-PARAMS를 사용하여 수정된 세션 매개변수는 개별 요청이나 진행 중인 요청에 명시적으로 지정된 매개변수를 재정의하지 않습니다.

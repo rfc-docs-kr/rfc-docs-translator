@@ -1,0 +1,21 @@
+"hash": |-
+  a1a2f1b98e498af0a347e359ab2ac8b8fe4d79ba5f49c21cb8cb6460036bcdd0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CLEAR-BUFFER method can be used to clear the verification buffer.
+     This buffer is used to buffer speech during recognition, record, or
+     verification operations that may later be used by VERIFY-FROM-BUFFER.
+     As noted before, the buffer associated with the verifier resource is
+     shared by other input resources like recognizers and recorders.
+     Hence, a CLEAR-BUFFER request fails if the verification buffer is in
+     use.  This can happen when any one of the input resources that share
+     this buffer has an active read or write operation such as RECORD,
+     RECOGNIZE, or VERIFY with the Ver-Buffer-Utterance header field set
+     to "true".
+"fixed": |-
+  The CLEAR-BUFFER method can be used to clear the verification buffer. This buffer is used to buffer speech during recognition, record, or verification operations that may later be used by VERIFY-FROM-BUFFER. As noted before, the buffer associated with the verifier resource is shared by other input resources like recognizers and recorders. Hence, a CLEAR-BUFFER request fails if the verification buffer is in use.  This can happen when any one of the input resources that share this buffer has an active read or write operation such as RECORD, RECOGNIZE, or VERIFY with the Ver-Buffer-Utterance header field set to "true".
+"ko": |-
+  CLEAR-BUFFER 메서드는 검증 버퍼를 지우는 데 사용할 수 있습니다. 이 버퍼는 나중에 VERIFY-FROM-BUFFER에서 사용할 수 있는 인식, 기록 또는 검증 작업 중에 음성을 버퍼링하는 데 사용됩니다. 앞서 언급했듯이 검증자 리소스와 연관된 버퍼는 인식기 및 레코더와 같은 다른 입력 리소스에서 공유합니다. 따라서 검증 버퍼가 사용 중이면 CLEAR-BUFFER 요청이 실패합니다. 이는 이 버퍼를 공유하는 입력 리소스 중 하나에 RECORD, RECOGNIZE 또는 VERIFY와 같은 활성 읽기 또는 쓰기 작업이 있고 Ver-Buffer-Utterance 헤더 필드가 "true"로 설정된 경우 발생할 수 있습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  7c591b775a7cfcbdb8906dc069a02ec941cc12280131b74241c44a2a0a078be2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each JWS Signature value is computed using the parameters of the
+     corresponding JOSE Header value in the same manner as for the JWS
+     Compact Serialization.  This has the desirable property that each JWS
+     Signature value represented in the "signatures" array is identical to
+     the value that would have been computed for the same parameter in the
+     JWS Compact Serialization, provided that the JWS Protected Header
+     value for that signature/MAC computation (which represents the
+     integrity-protected Header Parameter values) matches that used in the
+     JWS Compact Serialization.
+"fixed": |-
+  Each JWS Signature value is computed using the parameters of the corresponding JOSE Header value in the same manner as for the JWS Compact Serialization.  This has the desirable property that each JWS Signature value represented in the "signatures" array is identical to the value that would have been computed for the same parameter in the JWS Compact Serialization, provided that the JWS Protected Header value for that signature/MAC computation (which represents the integrity-protected Header Parameter values) matches that used in the JWS Compact Serialization.
+"ko": |-
+  각 JWS 서명 값은 JWS Compact Serialization과 동일한 방식으로 해당 JOSE 헤더 값의 매개변수를 사용하여 계산됩니다. 이는 "signatures" 배열에 표현된 각 JWS 서명 값이 JWS Compact Serialization에서 동일한 매개변수에 대해 계산된 값과 동일하다는 바람직한 속성을 가지고 있습니다. 단, 해당 서명/MAC 계산에 대한 JWS 보호 헤더 값(무결성 보호 헤더 매개변수 값을 나타냄)이 JWS Compact Serialization에서 사용된 값과 일치해야 합니다.

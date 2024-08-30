@@ -1,0 +1,19 @@
+"hash": |-
+  50376c5d71e08a5d672856417574a7570b52db65f5feabaa2a6962db8de08384
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The sender MAY optimistically skip hashes that were sent out in
+     previous, still-unacknowledged datagrams.  It is an optimization
+     trade-off between redundant hash transmission and the possibility of
+     collateral data loss in the case in which some necessary hashes were
+     lost in the network so some delivered data cannot be verified and
+     thus had to be dropped.  In either case, the receiver builds the
+     Merkle hash tree on-demand, incrementally, starting from the root
+     hash, and uses it for data validation.
+"fixed": |-
+  The sender MAY optimistically skip hashes that were sent out in previous, still-unacknowledged datagrams.  It is an optimization trade-off between redundant hash transmission and the possibility of collateral data loss in the case in which some necessary hashes were lost in the network so some delivered data cannot be verified and thus had to be dropped.  In either case, the receiver builds the Merkle hash tree on-demand, incrementally, starting from the root hash, and uses it for data validation.
+"ko": |-
+  발신자는 아직 승인되지 않은 이전 데이터그램에서 전송된 해시를 낙관적으로 건너뛸 수 있습니다. 이는 일부 필수 해시가 네트워크에서 손실되어 일부 전달된 데이터를 확인할 수 없어 삭제되어야 하는 경우 중복 해시 전송과 부수적 데이터 손실 가능성 간의 최적화 균형입니다. 두 경우 모두 수신자는 루트 해시부터 시작하여 요청에 따라 Merkle 해시 트리를 점진적으로 구축하고 이를 데이터 검증에 사용합니다.

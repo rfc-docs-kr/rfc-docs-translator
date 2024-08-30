@@ -1,0 +1,15 @@
+"hash": |-
+  ee9a4abcf4c56fcdf87bb3d07f48ddaf295e5212e6f3f2cc1fda16da9b40e2e9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Vary = [ ( "*" / field-name ) *( OWS "," OWS ( "*" / field-name ) )
+      ]
+     Via = [ ( received-protocol RWS received-by [ RWS comment ] ) *( OWS
+      "," OWS ( received-protocol RWS received-by [ RWS comment ] ) ) ]
+"fixed": |-
+  Vary = [ ( "*" / field-name ) *( OWS "," OWS ( "*" / field-name ) ) ] Via = [ ( received-protocol RWS received-by [ RWS comment ] ) *( OWS "," OWS ( received-protocol RWS received-by [ RWS comment ] ) ) ]
+"ko": |-
+  Vary = [ ( "*" / 필드 이름 ) *( OWS "," OWS ( "*" / 필드 이름 ) ) ] Via = [ ( received-protocol RWS received-by [ RWS comment ] ) *( OWS " ," OWS ( 수신 프로토콜 RWS 수신자 [ RWS 주석 ] ) ) ]

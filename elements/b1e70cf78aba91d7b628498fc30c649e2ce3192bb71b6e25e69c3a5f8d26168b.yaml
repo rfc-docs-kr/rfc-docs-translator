@@ -1,0 +1,18 @@
+"hash": |-
+  b1e70cf78aba91d7b628498fc30c649e2ce3192bb71b6e25e69c3a5f8d26168b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The primary defense against amplification attacks is verifying that a
+     peer is able to receive packets at the transport address that it
+     claims.  Therefore, after receiving packets from an address that is
+     not yet validated, an endpoint MUST limit the amount of data it sends
+     to the unvalidated address to three times the amount of data received
+     from that address.  This limit on the size of responses is known as
+     the anti-amplification limit.
+"fixed": |-
+  The primary defense against amplification attacks is verifying that a peer is able to receive packets at the transport address that it claims.  Therefore, after receiving packets from an address that is not yet validated, an endpoint MUST limit the amount of data it sends to the unvalidated address to three times the amount of data received from that address.  This limit on the size of responses is known as the anti-amplification limit.
+"ko": |-
+  증폭 공격에 대한 기본 방어는 피어가 요청한 전송 주소에서 패킷을 수신할 수 있는지 확인하는 것입니다. 따라서 아직 검증되지 않은 주소에서 패킷을 수신한 후 엔드포인트는 검증되지 않은 주소로 보내는 데이터 양을 해당 주소에서 수신된 데이터 양의 3배로 제한해야 합니다. 응답 크기에 대한 이러한 제한을 증폭 방지 제한이라고 합니다.

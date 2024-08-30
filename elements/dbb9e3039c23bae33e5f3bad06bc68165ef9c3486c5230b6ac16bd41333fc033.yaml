@@ -1,0 +1,21 @@
+"hash": |-
+  dbb9e3039c23bae33e5f3bad06bc68165ef9c3486c5230b6ac16bd41333fc033
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server might be unwilling to process requests for certain
+     target URIs even when they have the authority to do so.  For example,
+     when a host operates distinct services on different ports (e.g., 443
+     and 8000), checking the target URI at the origin server is necessary
+     (even after the connection has been secured) because a network
+     attacker might cause connections for one port to be received at some
+     other port.  Failing to check the target URI might allow such an
+     attacker to replace a response to one target URI (e.g.,
+     "https://example.com/foo") with a seemingly authoritative response
+     from the other port (e.g., "https://example.com:8000/foo").
+"fixed": |-
+  An origin server might be unwilling to process requests for certain target URIs even when they have the authority to do so.  For example, when a host operates distinct services on different ports (e.g., 443 and 8000), checking the target URI at the origin server is necessary (even after the connection has been secured) because a network attacker might cause connections for one port to be received at some other port.  Failing to check the target URI might allow such an attacker to replace a response to one target URI (e.g., "https://example.com/foo") with a seemingly authoritative response from the other port (e.g., "https://example.com:8000/foo").
+"ko": |-
+  원본 서버는 권한이 있어도 특정 대상 URI에 대한 요청을 처리하지 않을 수 있습니다. 예를 들어, 호스트가 서로 다른 포트(예: 443 및 8000)에서 고유한 서비스를 운영하는 경우 네트워크 공격자가 한 포트에 대한 연결을 유발하여 연결이 보안된 후에도 원본 서버에서 대상 URI를 확인해야 합니다. 다른 항구에서 받을 수 있습니다. 대상 URI를 확인하지 못하면 공격자가 하나의 대상 URI(예: "https://example.com/foo")에 대한 응답을 다른 포트(예: "https:/ /example.com:8000/foo").

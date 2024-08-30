@@ -1,0 +1,18 @@
+"hash": |-
+  5aec6b64c4185f7a93b6589d18ffe98ac7e78a4554e0577cbe8c37e4a9289b3e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A token allows a server to correlate activity between the connection
+     where the token was issued and any connection where it is used.
+     Clients that want to break continuity of identity with a server can
+     discard tokens provided using the NEW_TOKEN frame.  In comparison, a
+     token obtained in a Retry packet MUST be used immediately during the
+     connection attempt and cannot be used in subsequent connection
+     attempts.
+"fixed": |-
+  A token allows a server to correlate activity between the connection where the token was issued and any connection where it is used. Clients that want to break continuity of identity with a server can discard tokens provided using the NEW_TOKEN frame.  In comparison, a token obtained in a Retry packet MUST be used immediately during the connection attempt and cannot be used in subsequent connection attempts.
+"ko": |-
+  토큰을 사용하면 서버는 토큰이 발행된 연결과 토큰이 사용되는 연결 간의 활동을 상호 연관시킬 수 있습니다. 서버와의 ID 연속성을 중단하려는 클라이언트는 NEW_TOKEN 프레임을 사용하여 제공된 토큰을 삭제할 수 있습니다. 이에 비해 재시도 패킷에서 얻은 토큰은 연결 시도 중에 즉시 사용해야 하며 후속 연결 시도에는 사용할 수 없습니다.

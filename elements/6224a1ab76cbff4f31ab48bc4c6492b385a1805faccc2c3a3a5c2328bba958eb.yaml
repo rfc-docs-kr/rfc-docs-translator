@@ -1,0 +1,14 @@
+"hash": |-
+  6224a1ab76cbff4f31ab48bc4c6492b385a1805faccc2c3a3a5c2328bba958eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints SHOULD NOT issue updates of the Retire Prior To field
+     before receiving RETIRE_CONNECTION_ID frames that retire all
+     connection IDs indicated by the previous Retire Prior To value.
+"fixed": |-
+  Endpoints SHOULD NOT issue updates of the Retire Prior To field before receiving RETIRE_CONNECTION_ID frames that retire all connection IDs indicated by the previous Retire Prior To value.
+"ko": |-
+  엔드포인트는 이전 Retire Prior To 값으로 표시된 모든 연결 ID를 폐기하는 RETIRE_CONNECTION_ID 프레임을 수신하기 전에 Retire Prior To 필드 업데이트를 발행해서는 안 됩니다.

@@ -1,0 +1,28 @@
+"hash": |-
+  b05609713ffc9116321d806a990d250499969d98fd36e747a7ab6a3485e3ba9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To allow this flexible mapping of media sessions to MRCPv2 control
+     channels, a single audio "m=" line can be associated with multiple
+     resources, or each resource can have its own audio "m=" line.  For
+     example, if the client wants to allocate a recognizer and a
+     synthesizer and associate them with a single two-way audio stream,
+     the SDP offer would contain two control "m=" lines and a single audio
+     "m=" line with an attribute of "sendrecv".  Each of the control "m="
+     lines would have a "cmid" attribute whose value matches the "mid" of
+     the audio "m=" line.  If, on the other hand, the client wants to
+     allocate a recognizer and a synthesizer each with its own separate
+     audio stream, the SDP offer would carry two control "m=" lines (one
+     for the recognizer and another for the synthesizer) and two audio
+     "m=" lines (one with the attribute "sendonly" and another with
+     attribute "recvonly").  The "cmid" attribute of the recognizer
+     control "m=" line would match the "mid" value of the "sendonly" audio
+     "m=" line, and the "cmid" attribute of the synthesizer control "m="
+     line would match the "mid" attribute of the "recvonly" "m=" line.
+"fixed": |-
+  To allow this flexible mapping of media sessions to MRCPv2 control channels, a single audio "m=" line can be associated with multiple resources, or each resource can have its own audio "m=" line.  For example, if the client wants to allocate a recognizer and a synthesizer and associate them with a single two-way audio stream, the SDP offer would contain two control "m=" lines and a single audio "m=" line with an attribute of "sendrecv".  Each of the control "m=" lines would have a "cmid" attribute whose value matches the "mid" of the audio "m=" line.  If, on the other hand, the client wants to allocate a recognizer and a synthesizer each with its own separate audio stream, the SDP offer would carry two control "m=" lines (one for the recognizer and another for the synthesizer) and two audio "m=" lines (one with the attribute "sendonly" and another with attribute "recvonly").  The "cmid" attribute of the recognizer control "m=" line would match the "mid" value of the "sendonly" audio "m=" line, and the "cmid" attribute of the synthesizer control "m=" line would match the "mid" attribute of the "recvonly" "m=" line.
+"ko": |-
+  미디어 세션을 MRCPv2 제어 채널에 유연하게 매핑하려면 단일 오디오 "m=" 라인을 여러 리소스와 연관시키거나 각 리소스에 자체 오디오 "m=" 라인을 가질 수 있습니다. 예를 들어, 클라이언트가 인식기와 신시사이저를 할당하여 단일 양방향 오디오 스트림과 연관시키려는 경우 SDP 오퍼에는 두 개의 제어 "m=" 라인과 "sendrecv" 속성이 있는 단일 오디오 "m=" 라인이 포함됩니다. 각 제어 "m=" 라인에는 오디오 "m=" 라인의 "mid"와 값이 일치하는 "cmid" 속성이 있습니다. 반면 클라이언트가 인식기와 신시사이저를 각각 자체 별도 오디오 스트림과 함께 할당하려는 경우 SDP 오퍼에는 두 개의 제어 "m=" 라인(하나는 인식기용이고 다른 하나는 신시사이저용)과 두 개의 오디오 "m=" 라인(하나는 속성 "sendonly"이고 다른 하나는 속성 "recvonly"임)이 포함됩니다. 인식기 컨트롤 "m=" 줄의 "cmid" 속성은 "sendonly" 오디오 "m=" 줄의 "mid" 값과 일치하고, 신디사이저 컨트롤 "m=" 줄의 "cmid" 속성은 "recvonly" "m=" 줄의 "mid" 속성과 일치합니다.

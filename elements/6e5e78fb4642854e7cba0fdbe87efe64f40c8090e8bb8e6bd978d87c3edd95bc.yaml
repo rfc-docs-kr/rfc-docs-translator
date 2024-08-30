@@ -1,0 +1,21 @@
+"hash": |-
+  6e5e78fb4642854e7cba0fdbe87efe64f40c8090e8bb8e6bd978d87c3edd95bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A BGP speaker may transmit routes with overlapping Network Layer
+     Reachability Information (NLRI) to another BGP speaker.  NLRI overlap
+     occurs when a set of destinations are identified in non-matching
+     multiple routes.  Because BGP encodes NLRI using IP prefixes, overlap
+     will always exhibit subset relationships.  A route describing a
+     smaller set of destinations (a longer prefix) is said to be more
+     specific than a route describing a larger set of destinations (a
+     shorter prefix); similarly, a route describing a larger set of
+     destinations is said to be less specific than a route describing a
+     smaller set of destinations.
+"fixed": |-
+  A BGP speaker may transmit routes with overlapping Network Layer Reachability Information (NLRI) to another BGP speaker.  NLRI overlap occurs when a set of destinations are identified in non-matching multiple routes.  Because BGP encodes NLRI using IP prefixes, overlap will always exhibit subset relationships.  A route describing a smaller set of destinations (a longer prefix) is said to be more specific than a route describing a larger set of destinations (a shorter prefix); similarly, a route describing a larger set of destinations is said to be less specific than a route describing a smaller set of destinations.
+"ko": |-
+  BGP 스피커는 NLRI(Network Layer Reachability Information)가 겹치는 경로를 다른 BGP 스피커로 전송할 수 있습니다. NLRI 중복은 일치하지 않는 여러 경로에서 일련의 대상이 식별될 때 발생합니다. BGP는 IP 접두사를 사용하여 NLRI를 인코딩하므로 중복은 항상 하위 집합 관계를 나타냅니다. 더 작은 목적지 집합(긴 접두사)을 설명하는 경로는 더 큰 목적지 집합(더 짧은 접두사)을 설명하는 경로보다 더 구체적이라고 합니다. 마찬가지로, 더 큰 목적지 세트를 설명하는 경로는 더 작은 목적지 세트를 설명하는 경로보다 덜 구체적이라고 합니다.

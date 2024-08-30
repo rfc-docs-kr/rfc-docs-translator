@@ -1,0 +1,21 @@
+"hash": |-
+  e9006f653a7d8d08a8cc74518c26f410fc757879b4e4a520c89b36b34d08c6d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint SHOULD supply a new connection ID when the peer retires a
+     connection ID.  If an endpoint provided fewer connection IDs than the
+     peer's active_connection_id_limit, it MAY supply a new connection ID
+     when it receives a packet with a previously unused connection ID.  An
+     endpoint MAY limit the total number of connection IDs issued for each
+     connection to avoid the risk of running out of connection IDs; see
+     Section 10.3.2.  An endpoint MAY also limit the issuance of
+     connection IDs to reduce the amount of per-path state it maintains,
+     such as path validation status, as its peer might interact with it
+     over as many paths as there are issued connection IDs.
+"fixed": |-
+  An endpoint SHOULD supply a new connection ID when the peer retires a connection ID.  If an endpoint provided fewer connection IDs than the peer's active_connection_id_limit, it MAY supply a new connection ID when it receives a packet with a previously unused connection ID.  An endpoint MAY limit the total number of connection IDs issued for each connection to avoid the risk of running out of connection IDs; see Section 10.3.2.  An endpoint MAY also limit the issuance of connection IDs to reduce the amount of per-path state it maintains, such as path validation status, as its peer might interact with it over as many paths as there are issued connection IDs.
+"ko": |-
+  엔드포인트는 피어가 연결 ID를 폐기할 때 새 연결 ID를 제공해야 합니다(SHOULD). 엔드포인트가 피어의 active_connection_id_limit보다 적은 수의 연결 ID를 제공한 경우 이전에 사용되지 않은 연결 ID가 포함된 패킷을 수신할 때 새 연결 ID를 제공할 수 있습니다. 엔드포인트는 연결 ID가 부족해지는 위험을 피하기 위해 각 연결에 대해 발급되는 총 연결 ID 수를 제한할 수 있습니다. 섹션 10.3.2를 참조하세요. 엔드포인트는 또한 피어가 발급된 연결 ID 수만큼 많은 경로를 통해 엔드포인트와 상호 작용할 수 있으므로 경로 유효성 검사 상태와 같이 유지하는 경로별 상태의 양을 줄이기 위해 연결 ID 발급을 제한할 수 있습니다.

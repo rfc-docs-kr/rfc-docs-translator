@@ -1,0 +1,21 @@
+"hash": |-
+  24dc2e8679faac93adab15d3f8a1a631e27ce7686b33f916781e582d0883c0c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     LEDBAT monitors the delay of the packets on the data path.  It uses
+     the one-way delay variations to react early and limit the congestion
+     that the stream may induce in the network [RFC6817].  Using LEDBAT
+     enables PPSPP to serve the content to other interested peers after
+     the playback has finished (seeding), without disrupting the user.
+     After the playback, the user might move to different tasks that use
+     its network link, which are prioritized over PPSPP traffic.  Hence,
+     the user does not notice the background PPSPP traffic, which in turn
+     increases the chances of seeding the content for a longer period of
+     time.
+"fixed": |-
+  LEDBAT monitors the delay of the packets on the data path.  It uses the one-way delay variations to react early and limit the congestion that the stream may induce in the network [RFC6817].  Using LEDBAT enables PPSPP to serve the content to other interested peers after the playback has finished (seeding), without disrupting the user. After the playback, the user might move to different tasks that use its network link, which are prioritized over PPSPP traffic.  Hence, the user does not notice the background PPSPP traffic, which in turn increases the chances of seeding the content for a longer period of time.
+"ko": |-
+  LEDBAT는 데이터 경로의 패킷 지연을 모니터링합니다. 이는 단방향 지연 변화를 사용하여 조기에 반응하고 스트림이 네트워크에서 유발할 수 있는 정체를 제한합니다[RFC6817]. LEDBAT를 사용하면 PPSPP가 재생이 완료된 후(시드) 사용자를 방해하지 않고 관심 있는 다른 피어에게 콘텐츠를 제공할 수 있습니다. 재생 후 사용자는 PPSPP 트래픽보다 우선순위가 높은 네트워크 링크를 사용하는 다른 작업으로 이동할 수 있습니다. 따라서 사용자는 백그라운드 PPSPP 트래픽을 알아차리지 못하며, 이는 결과적으로 더 오랜 기간 동안 콘텐츠를 시드할 가능성을 높입니다.

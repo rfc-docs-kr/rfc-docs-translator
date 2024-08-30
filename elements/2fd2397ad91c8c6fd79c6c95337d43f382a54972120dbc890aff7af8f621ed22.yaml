@@ -1,0 +1,18 @@
+"hash": |-
+  2fd2397ad91c8c6fd79c6c95337d43f382a54972120dbc890aff7af8f621ed22
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        g) If the resulting buffer string still begins with one or more
+           complete path segments of "..", then the reference is
+           considered to be in error.  Implementations may handle this
+           error by retaining these components in the resolved path (i.e.,
+           treating them as part of the final URI), by removing them from
+           the resolved path (i.e., discarding relative levels above the
+           root), or by avoiding traversal of the reference.
+"fixed": |-
+  - g) If the resulting buffer string still begins with one or more complete path segments of "..", then the reference is considered to be in error.  Implementations may handle this error by retaining these components in the resolved path (i.e., treating them as part of the final URI), by removing them from the resolved path (i.e., discarding relative levels above the root), or by avoiding traversal of the reference.
+"ko": |-
+  - g) 결과 버퍼 문자열이 여전히 하나 이상의 ".." 전체 경로 세그먼트로 시작하는 경우 참조에 오류가 있는 것으로 간주됩니다. 구현에서는 이러한 구성 요소를 확인된 경로에 유지하거나(즉, 최종 URI의 일부로 처리), 확인된 경로에서 제거하거나(즉, 루트 위의 상대 수준 삭제), 순회를 피함으로써 이 오류를 처리할 수 있습니다. 참조.

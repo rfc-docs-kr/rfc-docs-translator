@@ -1,0 +1,18 @@
+"hash": |-
+  228b2d99ca99cf2f130dd9f75da2f7111b5e14e0f399e1d16e46639a2f68a841
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: In order to prevent a user from inadvertently restarting a Job
+     in the middle, the Restart-Job request is rejected when the Job is in
+     the 'processing' or 'processing-stopped' state.  If in the future an
+     operation is needed to hold or restart Jobs while in either of these
+     states, it will be added as an additional operation, rather than
+     overloading the Restart-Job operation, so that it is clear that the
+     user intended that the current Job not be completed.
+"fixed": |-
+  Note: In order to prevent a user from inadvertently restarting a Job in the middle, the Restart-Job request is rejected when the Job is in the 'processing' or 'processing-stopped' state.  If in the future an operation is needed to hold or restart Jobs while in either of these states, it will be added as an additional operation, rather than overloading the Restart-Job operation, so that it is clear that the user intended that the current Job not be completed.
+"ko": |-
+  참고: 사용자가 실수로 작업을 중간에 다시 시작하는 것을 방지하기 위해 작업이 '처리 중' 또는 '처리 중지됨' 상태일 때 Restart-Job 요청이 거부됩니다. 나중에 이러한 상태 중 하나에 있는 동안 작업을 유지하거나 다시 시작하는 작업이 필요한 경우 Restart-Job 작업을 오버로드하는 대신 추가 작업으로 추가되므로 사용자가 현재 작업을 의도한 것이 분명합니다. 작업이 완료되지 않습니다.

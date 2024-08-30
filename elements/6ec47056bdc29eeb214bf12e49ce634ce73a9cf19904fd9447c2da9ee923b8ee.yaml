@@ -1,0 +1,25 @@
+"hash": |-
+  6ec47056bdc29eeb214bf12e49ce634ce73a9cf19904fd9447c2da9ee923b8ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a recognizer resource recognizes or matches a spoken phrase with
+     some portion of the grammar, it associates a confidence level with
+     that match.  The Confidence-Threshold header field tells the
+     recognizer resource what confidence level the client considers a
+     successful match.  This is a float value between 0.0-1.0 indicating
+     the recognizer's confidence in the recognition.  If the recognizer
+     determines that there is no candidate match with a confidence that is
+     greater than the confidence threshold, then it MUST return no-match
+     as the recognition result.  This header field MAY occur in RECOGNIZE,
+     SET-PARAMS, or GET-PARAMS.  The default value for this header field
+     is implementation specific, as is the interpretation of any specific
+     value for this header field.  Although values for servers from
+     different vendors are not comparable, it is expected that clients
+     will tune this value over time for a given server.
+"fixed": |-
+  When a recognizer resource recognizes or matches a spoken phrase with some portion of the grammar, it associates a confidence level with that match.  The Confidence-Threshold header field tells the recognizer resource what confidence level the client considers a successful match.  This is a float value between 0.0-1.0 indicating the recognizer's confidence in the recognition.  If the recognizer determines that there is no candidate match with a confidence that is greater than the confidence threshold, then it MUST return no-match as the recognition result.  This header field MAY occur in RECOGNIZE, SET-PARAMS, or GET-PARAMS.  The default value for this header field is implementation specific, as is the interpretation of any specific value for this header field.  Although values for servers from different vendors are not comparable, it is expected that clients will tune this value over time for a given server.
+"ko": |-
+  인식기 리소스가 문법의 일부와 함께 말한 문구를 인식하거나 일치시킬 때 해당 일치와 신뢰 수준을 연관시킵니다.Confidence-Threshold 헤더 필드는 인식기 리소스에 클라이언트가 성공적인 일치로 간주하는 신뢰 수준을 알려줍니다.이것은 인식기의 인식에 대한 신뢰도를 나타내는 0.0-1.0 사이의 float 값입니다.인식기가 신뢰도 임계값보다 큰 신뢰도를 가진 후보 일치가 없다고 판단하는 경우 인식 결과로 no-match를 반환해야 합니다.이 헤더 필드는 RECOGNIZE, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다.이 헤더 필드의 기본값은 구현에 따라 다르며 이 헤더 필드의 특정 값에 대한 해석도 마찬가지입니다.다른 공급업체의 서버에 대한 값은 비교할 수 없지만 클라이언트가 주어진 서버에 대해 시간이 지남에 따라 이 값을 조정할 것으로 예상됩니다.

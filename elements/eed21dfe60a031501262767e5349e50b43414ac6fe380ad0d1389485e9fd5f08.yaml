@@ -1,0 +1,17 @@
+"hash": |-
+  eed21dfe60a031501262767e5349e50b43414ac6fe380ad0d1389485e9fd5f08
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  If the modification affected the server's choice, the server
+           and client would end up choosing different security mechanisms
+           in Step 3 or 4 of Figure 1.  Since they would be unable to
+           communicate to each other, this would be detected as a
+           potential attack.  The client would either retry or give up in
+           this situation.
+"fixed": |-
+  - *  If the modification affected the server's choice, the server and client would end up choosing different security mechanisms in Step 3 or 4 of Figure 1.  Since they would be unable to communicate to each other, this would be detected as a potential attack.  The client would either retry or give up in this situation.
+"ko": |-
+  - * 수정이 서버의 선택에 영향을 미치는 경우 서버와 클라이언트는 그림 1의 3단계 또는 4단계에서 서로 다른 보안 메커니즘을 선택하게 됩니다. 서로 통신할 수 없으므로 잠재적인 공격으로 감지됩니다. 이 상황에서 클라이언트는 다시 시도하거나 포기합니다.

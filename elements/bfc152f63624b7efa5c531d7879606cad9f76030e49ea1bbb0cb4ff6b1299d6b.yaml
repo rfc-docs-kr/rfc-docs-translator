@@ -1,0 +1,21 @@
+"hash": |-
+  bfc152f63624b7efa5c531d7879606cad9f76030e49ea1bbb0cb4ff6b1299d6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After an acknowledgment is received for a packet number space, the
+     sender MUST use a packet number size able to represent more than
+     twice as large a range as the difference between the largest
+     acknowledged packet number and the packet number being sent.  A peer
+     receiving the packet will then correctly decode the packet number,
+     unless the packet is delayed in transit such that it arrives after
+     many higher-numbered packets have been received.  An endpoint SHOULD
+     use a large enough packet number encoding to allow the packet number
+     to be recovered even if the packet arrives after packets that are
+     sent afterwards.
+"fixed": |-
+  After an acknowledgment is received for a packet number space, the sender MUST use a packet number size able to represent more than twice as large a range as the difference between the largest acknowledged packet number and the packet number being sent.  A peer receiving the packet will then correctly decode the packet number, unless the packet is delayed in transit such that it arrives after many higher-numbered packets have been received.  An endpoint SHOULD use a large enough packet number encoding to allow the packet number to be recovered even if the packet arrives after packets that are sent afterwards.
+"ko": |-
+  패킷 번호 공간에 대한 승인이 수신된 후 발신자는 가장 큰 승인된 패킷 번호와 전송되는 패킷 번호 간의 차이보다 두 배 이상 큰 범위를 나타낼 수 있는 패킷 번호 크기를 사용해야 합니다. 패킷을 수신하는 피어는 더 높은 번호의 패킷이 많이 수신된 후에 도착하도록 패킷이 전송 중에 지연되지 않는 한 패킷 번호를 올바르게 디코딩합니다. 엔드포인트는 나중에 전송된 패킷 이후에 패킷이 도착하더라도 패킷 번호가 복구될 수 있도록 충분히 큰 패킷 번호 인코딩을 사용해야 합니다.

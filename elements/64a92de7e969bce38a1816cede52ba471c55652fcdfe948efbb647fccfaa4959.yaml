@@ -1,0 +1,16 @@
+"hash": |-
+  64a92de7e969bce38a1816cede52ba471c55652fcdfe948efbb647fccfaa4959
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server cache is requested to use stale response/data without
+     validation, it MAY do so only if this does not conflict with any
+     "MUST"-level requirements concerning cache validation (e.g., a "must-
+     revalidate" Cache-Control directive in the HTTP 1.1 specification
+     pertaining to the corresponding URI).
+"fixed": |-
+  If the server cache is requested to use stale response/data without validation, it MAY do so only if this does not conflict with any "MUST"-level requirements concerning cache validation (e.g., a "must- revalidate" Cache-Control directive in the HTTP 1.1 specification pertaining to the corresponding URI).
+"ko": |-
+  서버 캐시가 검증 없이 오래된 응답/데이터를 사용하도록 요청받은 경우, 캐시 검증과 관련된 "MUST" 수준 요구 사항(예: 해당 URI에 관한 HTTP 1.1 사양의 "must-revalidate" Cache-Control 지시어)과 충돌하지 않는 경우에만 이를 수행할 수 있습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  c353dd0f29513e815b35c888eda19df18494debe6459ad3c0343f3992526ca99
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients that choose to renegotiate MUST provide either the
+     TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV or "renegotiation_info" in
+     their ClientHello.  In a legitimate renegotiation with an un-upgraded
+     server, that server should ignore both of these signals.  However, if
+     the server (incorrectly) fails to ignore extensions, sending the
+     "renegotiation_info" extension may cause a handshake failure.  Thus,
+     it is permitted, though NOT RECOMMENDED, for the client to simply
+     send the SCSV.  This is the only situation in which clients are
+     permitted to not send the "renegotiation_info" extension in a
+     ClientHello that is used for renegotiation.
+"fixed": |-
+  Clients that choose to renegotiate MUST provide either the TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV or "renegotiation_info" in their ClientHello.  In a legitimate renegotiation with an un-upgraded server, that server should ignore both of these signals.  However, if the server (incorrectly) fails to ignore extensions, sending the "renegotiation_info" extension may cause a handshake failure.  Thus, it is permitted, though NOT RECOMMENDED, for the client to simply send the SCSV.  This is the only situation in which clients are permitted to not send the "renegotiation_info" extension in a ClientHello that is used for renegotiation.
+"ko": |-
+  재협상을 선택한 클라이언트는 ClientHello에 TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV 또는 "renegotiation_info"를 제공해야 합니다. 업그레이드되지 않은 서버와의 합법적인 재협상에서 해당 서버는 이러한 신호를 모두 무시해야 합니다. 그러나 서버가 확장을 (잘못) 무시하지 못하는 경우 "renegotiation_info" 확장을 보내면 핸드셰이크 오류가 발생할 수 있습니다. 따라서 권장되지는 않지만 클라이언트가 단순히 SCSV를 보내는 것이 허용됩니다. 이는 클라이언트가 재협상에 사용되는 ClientHello에서 "renegotiation_info" 확장을 보내지 않도록 허용되는 유일한 상황입니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  0975564c3dd65ebd2c2f0c5d682e9857e96edde60be542288e67c6ea22763b3f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the original session used the "extended_master_secret"
+        extension but the new ClientHello does not contain it, the server
+        MUST abort the abbreviated handshake.
+"fixed": |-
+  -  If the original session used the "extended_master_secret" extension but the new ClientHello does not contain it, the server MUST abort the abbreviated handshake.
+"ko": |-
+  - 원래 세션이 "extended_master_secret" 확장을 사용했지만 새로운 ClientHello에 해당 확장이 포함되어 있지 않은 경우, 서버는 축약 핸드셰이크를 중단해야 합니다.

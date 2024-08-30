@@ -1,0 +1,16 @@
+"hash": |-
+  40d40a057fbb47aef135e6298967a3323b077a91ba5394fdf43766b1b80eb032
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A BGP speaker that receives a route with the ATOMIC_AGGREGATE
+     attribute needs to be aware of the fact that the actual path to
+     destinations, as specified in the NLRI of the route, while having the
+     loop-free property, may not be the path specified in the AS_PATH
+     attribute of the route.
+"fixed": |-
+  A BGP speaker that receives a route with the ATOMIC_AGGREGATE attribute needs to be aware of the fact that the actual path to destinations, as specified in the NLRI of the route, while having the loop-free property, may not be the path specified in the AS_PATH attribute of the route.
+"ko": |-
+  ATOMIC_AGGREGATE 속성이 있는 경로를 수신하는 BGP 스피커는 루프 프리 속성을 가지면서 경로의 NLRI에 지정된 대상에 대한 실제 경로가 NLRI에 지정된 경로가 아닐 수 있다는 사실을 인식해야 합니다. 경로의 AS_PATH 속성입니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  7b5daee5f884d3211f8da901ba8c504b4bd2ee77dbf8ddc35f4234197e1b3685
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After processing, Peer A sends a datagram containing HAVE messages
+     for the chunks it just received to all its peers.  In the datagram to
+     Peers B and C, it includes an ACK message acknowledging the receipt
+     of the chunks and adds REQUEST messages for new chunks.  ACK messages
+     are not used when a reliable transport protocol is used.  When, for
+     example, Peer C finds that Peer A obtained a chunk (from Peer B) that
+     Peer C did not yet have, Peer C's next datagram includes a REQUEST
+     for that chunk.
+"fixed": |-
+  After processing, Peer A sends a datagram containing HAVE messages for the chunks it just received to all its peers.  In the datagram to Peers B and C, it includes an ACK message acknowledging the receipt of the chunks and adds REQUEST messages for new chunks.  ACK messages are not used when a reliable transport protocol is used.  When, for example, Peer C finds that Peer A obtained a chunk (from Peer B) that Peer C did not yet have, Peer C's next datagram includes a REQUEST for that chunk.
+"ko": |-
+  처리 후 피어 A는 방금 수신한 청크에 대한 HAVE 메시지가 포함된 데이터그램을 모든 피어에게 보냅니다. 피어 B와 C에 대한 데이터그램에는 청크 수신을 확인하는 ACK 메시지가 포함되고 새 청크에 대한 REQUEST 메시지가 추가됩니다. 신뢰할 수 있는 전송 프로토콜을 사용하는 경우에는 ACK 메시지가 사용되지 않습니다. 예를 들어, 피어 C가 피어 A가 피어 C가 아직 가지고 있지 않은 청크(피어 B로부터)를 얻었음을 발견하면 피어 C의 다음 데이터그램에는 해당 청크에 대한 REQUEST가 포함됩니다.

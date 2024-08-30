@@ -1,0 +1,20 @@
+"hash": |-
+  10a4aaa6a793865391e9cda9e4064153e376b2a7186834ccdf907eb4297b2cb0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This type of authentication is useful to protect against accidental
+     misconfiguration of routers on a LAN.  It protects against routers
+     inadvertently backing up another router.  A new router must first be
+     configured with the correct password before it can run VRRP with
+     another router.  This type of authentication does not protect against
+     hostile attacks where the password can be learned by a node snooping
+     VRRP packets on the LAN.  The Simple Text Authentication combined
+     with the TTL check makes it difficult for a VRRP packet to be sent
+     from another LAN to disrupt VRRP operation.
+"fixed": |-
+  This type of authentication is useful to protect against accidental misconfiguration of routers on a LAN.  It protects against routers inadvertently backing up another router.  A new router must first be configured with the correct password before it can run VRRP with another router.  This type of authentication does not protect against hostile attacks where the password can be learned by a node snooping VRRP packets on the LAN.  The Simple Text Authentication combined with the TTL check makes it difficult for a VRRP packet to be sent from another LAN to disrupt VRRP operation.
+"ko": |-
+  이러한 유형의 인증은 LAN에서 라우터가 실수로 잘못 구성되는 것을 방지하는 데 유용합니다. 라우터가 실수로 다른 라우터를 백업하는 것을 방지합니다. 다른 라우터와 함께 VRRP를 실행하려면 먼저 새 라우터를 올바른 비밀번호로 구성해야 합니다. 이러한 유형의 인증은 LAN에서 VRRP 패킷을 스누핑하는 노드를 통해 비밀번호를 알아낼 수 있는 적대적인 공격으로부터 보호하지 않습니다. TTL 확인과 결합된 단순 텍스트 인증은 VRRP 패킷이 다른 LAN에서 전송되어 VRRP 작업을 방해하는 것을 어렵게 만듭니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  07b206e74b543090a9d147a0c30f85e710f05c2d4136a01e2187785281f80363
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     MRCPv2 servers and clients MUST NOT depend on header field order.  It
+     is RECOMMENDED to send general-header fields first, followed by
+     request-header or response-header fields, and ending with the entity-
+     header fields.  However, MRCPv2 servers and clients MUST be prepared
+     to process the header fields in any order.  The only exception to
+     this rule is when there are multiple header fields with the same name
+     in a message.
+"fixed": |-
+  MRCPv2 servers and clients MUST NOT depend on header field order.  It is RECOMMENDED to send general-header fields first, followed by request-header or response-header fields, and ending with the entity- header fields.  However, MRCPv2 servers and clients MUST be prepared to process the header fields in any order.  The only exception to this rule is when there are multiple header fields with the same name in a message.
+"ko": |-
+  MRCPv2 서버와 클라이언트는 헤더 필드 순서에 의존해서는 안 됩니다. 일반 헤더 필드를 먼저 보내고, 그 다음에 요청 헤더 또는 응답 헤더 필드를 보내고, 마지막으로 엔티티 헤더 필드로 보내는 것이 좋습니다. 그러나 MRCPv2 서버와 클라이언트는 헤더 필드를 어떤 순서로든 처리할 준비가 되어 있어야 합니다. 이 규칙의 유일한 예외는 메시지에 같은 이름의 헤더 필드가 여러 개 있는 경우입니다.

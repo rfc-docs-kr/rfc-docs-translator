@@ -1,0 +1,20 @@
+"hash": |-
+  18b94787eb3d131a7c8ba9dc044a876351ca947a31c09c0a54bfca318c1fb4ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  ukm is optional.  With some key agreement algorithms, the sender
+        provides a User Keying Material (UKM) to ensure that a different
+        key is generated each time the same two parties generate a
+        pairwise key.  Implementations MUST accept a
+        KeyAgreePSKRecipientInfo SEQUENCE that includes a ukm field.
+        Implementations that do not support key agreement algorithms that
+        make use of UKMs MUST gracefully handle the presence of UKMs.  The
+        UserKeyingMaterial type is described in Section 10.2.6 of
+        [RFC5652].
+"fixed": |-
+  *  ukm is optional.  With some key agreement algorithms, the sender provides a User Keying Material (UKM) to ensure that a different key is generated each time the same two parties generate a pairwise key.  Implementations MUST accept a KeyAgreePSKRecipientInfo SEQUENCE that includes a ukm field. Implementations that do not support key agreement algorithms that make use of UKMs MUST gracefully handle the presence of UKMs.  The UserKeyingMaterial type is described in Section 10.2.6 of [RFC5652].
+"ko": |-
+  * ukm은 선택사항입니다.  일부 키 계약 알고리즘을 사용하면 발신자는 UKM(사용자 키 자료)을 제공하여 동일한 두 당사자가 쌍별 키를 생성할 때마다 다른 키가 생성되도록 합니다.  구현은 ukm 필드를 포함하는 KeyAgreePSKRecipientInfo SEQUENCE를 수락해야 합니다. UKM을 사용하는 주요 계약 알고리즘을 지원하지 않는 구현은 UKM의 존재를 적절하게 처리해야 합니다.  UserKeyingMaterial 유형은 [RFC5652]의 섹션 10.2.6에 설명되어 있습니다.

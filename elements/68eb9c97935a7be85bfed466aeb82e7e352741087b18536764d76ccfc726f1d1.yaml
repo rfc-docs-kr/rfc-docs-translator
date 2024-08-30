@@ -1,0 +1,30 @@
+"hash": |-
+  68eb9c97935a7be85bfed466aeb82e7e352741087b18536764d76ccfc726f1d1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The difference between the above two resources is in their level of
+     support for recognition grammars.  The "dtmfrecog" resource type is
+     capable of recognizing only DTMF digits and hence accepts only DTMF
+     grammars.  It only generates barge-in for DTMF inputs and ignores
+     speech.  The "speechrecog" resource type can recognize regular speech
+     as well as DTMF digits and hence MUST support grammars describing
+     either speech or DTMF.  This resource generates barge-in events for
+     speech and/or DTMF.  By analyzing the grammars that are activated by
+     the RECOGNIZE method, it determines if a barge-in should occur for
+     speech and/or DTMF.  When the recognizer decides it needs to generate
+     a barge-in, it also generates a START-OF-INPUT event to the client.
+     The recognizer resource MAY support recognition in the normal or
+     hotword modes or both (although note that a single "speechrecog"
+     resource does not perform normal and hotword mode recognition
+     simultaneously).  For implementations where a single recognizer
+     resource does not support both modes, or simultaneous normal and
+     hotword recognition is desired, the two modes can be invoked through
+     separate resources allocated to the same SIP dialog (with different
+     MRCP session identifiers) and share the RTP audio feed.
+"fixed": |-
+  The difference between the above two resources is in their level of support for recognition grammars.  The "dtmfrecog" resource type is capable of recognizing only DTMF digits and hence accepts only DTMF grammars.  It only generates barge-in for DTMF inputs and ignores speech.  The "speechrecog" resource type can recognize regular speech as well as DTMF digits and hence MUST support grammars describing either speech or DTMF.  This resource generates barge-in events for speech and/or DTMF.  By analyzing the grammars that are activated by the RECOGNIZE method, it determines if a barge-in should occur for speech and/or DTMF.  When the recognizer decides it needs to generate a barge-in, it also generates a START-OF-INPUT event to the client. The recognizer resource MAY support recognition in the normal or hotword modes or both (although note that a single "speechrecog" resource does not perform normal and hotword mode recognition simultaneously).  For implementations where a single recognizer resource does not support both modes, or simultaneous normal and hotword recognition is desired, the two modes can be invoked through separate resources allocated to the same SIP dialog (with different MRCP session identifiers) and share the RTP audio feed.
+"ko": |-
+  위의 두 리소스의 차이점은 인식 문법에 대한 지원 수준에 있습니다. "dtmfrecog" 리소스 유형은 DTMF 숫자만 인식할 수 있으므로 DTMF 문법만 허용합니다. DTMF 입력에 대해서만 barge-in을 생성하고 음성은 무시합니다. "speechrecog" 리소스 유형은 일반 음성과 DTMF 숫자를 인식할 수 있으므로 음성이나 DTMF를 설명하는 문법을 지원해야 합니다. 이 리소스는 음성 및/또는 DTMF에 대한 barge-in 이벤트를 생성합니다. RECOGNIZE 메서드에 의해 활성화된 문법을 분석하여 음성 및/또는 DTMF에 대한 barge-in이 발생해야 하는지 여부를 판별합니다. 인식기가 barge-in을 생성해야 한다고 결정하면 클라이언트에 START-OF-INPUT 이벤트도 생성합니다. 인식기 리소스는 일반 모드 또는 핫워드 모드 또는 둘 다에서 인식을 지원할 수 있습니다(단, 단일 "speechrecog" 리소스는 일반 모드와 핫워드 모드 인식을 동시에 수행하지 않는다는 점에 유의하세요). 단일 인식기 리소스가 두 모드를 모두 지원하지 않거나 일반 모드와 핫워드 인식을 동시에 수행해야 하는 구현의 경우, 두 모드는 동일한 SIP 대화(다른 MRCP 세션 식별자 사용)에 할당된 별도의 리소스를 통해 호출할 수 있으며 RTP 오디오 피드를 공유할 수 있습니다.

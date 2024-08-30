@@ -1,0 +1,1 @@
+상태 비저장 재설정 토큰은 연결 ID에 따라 다릅니다. 엔드포인트는 NEW_CONNECTION_ID 프레임의 Stateless Reset Token 필드에 값을 포함하여 Stateless 재설정 토큰을 발행합니다. 또한 서버는 핸드셰이크 중에 선택한 연결 ID에 적용되는 stateless_reset_token 전송 매개변수를 발행할 수도 있습니다. 이러한 교환은 암호화로 보호되므로 클라이언트와 서버만 그 가치를 알 수 있습니다. 전송 매개변수에 기밀 보호 기능이 없기 때문에 클라이언트는 stateless_reset_token 전송 매개변수를 사용할 수 없습니다.

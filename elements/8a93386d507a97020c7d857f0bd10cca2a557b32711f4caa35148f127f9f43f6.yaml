@@ -1,0 +1,22 @@
+"hash": |-
+  8a93386d507a97020c7d857f0bd10cca2a557b32711f4caa35148f127f9f43f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The figure above shows three intermediaries (A, B, and C) between the
+     user agent and origin server. A request or response message that
+     travels the whole chain must pass through four separate connections.
+     This distinction is important because some HTTP communication options
+     may apply only to the connection with the nearest, non-tunnel
+     neighbor, only to the end-points of the chain, or to all connections
+     along the chain. Although the diagram is linear, each participant may
+     be engaged in multiple, simultaneous communications. For example, B
+     may be receiving requests from many clients other than A, and/or
+     forwarding requests to servers other than C, at the same time that it
+     is handling A's request.
+"fixed": |-
+  The figure above shows three intermediaries (A, B, and C) between the user agent and origin server. A request or response message that travels the whole chain must pass through four separate connections. This distinction is important because some HTTP communication options may apply only to the connection with the nearest, non-tunnel neighbor, only to the end-points of the chain, or to all connections along the chain. Although the diagram is linear, each participant may be engaged in multiple, simultaneous communications. For example, B may be receiving requests from many clients other than A, and/or forwarding requests to servers other than C, at the same time that it is handling A's request.
+"ko": |-
+  위 그림은 사용자 에이전트와 원본 서버 사이의 세 가지 중개자(A, B, C)를 보여줍니다. 전체 체인을 이동하는 요청 또는 응답 메시지는 4개의 개별 연결을 통과해야 합니다. 일부 HTTP 통신 옵션은 가장 가까운 터널이 아닌 이웃과의 연결에만 적용되거나 체인의 끝점에만 적용되거나 체인을 따른 모든 연결에 적용될 수 있으므로 이러한 구별이 중요합니다. 다이어그램은 선형이지만 각 참가자는 여러 동시 통신에 참여할 수 있습니다. 예를 들어, B는 A 이외의 많은 클라이언트로부터 요청을 수신하거나 A의 요청을 처리하는 동시에 C 이외의 서버로 요청을 전달할 수 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  ed6fa6b2f045060aa96fe03a0d7bf0ce3e3c81d39da3b10899c060d1089f090c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon receiving the client's Initial packet, the server can request
+     address validation by sending a Retry packet (Section 17.2.5)
+     containing a token.  This token MUST be repeated by the client in all
+     Initial packets it sends for that connection after it receives the
+     Retry packet.
+"fixed": |-
+  Upon receiving the client's Initial packet, the server can request address validation by sending a Retry packet (Section 17.2.5) containing a token.  This token MUST be repeated by the client in all Initial packets it sends for that connection after it receives the Retry packet.
+"ko": |-
+  클라이언트의 초기 패킷을 수신하면 서버는 토큰이 포함된 재시도 패킷(17.2.5절)을 전송하여 주소 유효성 검사를 요청할 수 있습니다. 클라이언트는 재시도 패킷을 수신한 후 해당 연결에 대해 전송하는 모든 초기 패킷에서 이 토큰을 반복해야 합니다.

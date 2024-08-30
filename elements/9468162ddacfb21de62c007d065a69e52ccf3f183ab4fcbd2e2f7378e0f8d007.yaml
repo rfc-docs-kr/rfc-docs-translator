@@ -1,0 +1,16 @@
+"hash": |-
+  9468162ddacfb21de62c007d065a69e52ccf3f183ab4fcbd2e2f7378e0f8d007
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server might provide larger initial stream flow control limits for
+     streams than the remembered values that a client applies when sending
+     0-RTT.  Once the handshake completes, the client updates the flow
+     control limits on all sending streams using the updated values of
+     initial_max_stream_data_bidi_remote and initial_max_stream_data_uni.
+"fixed": |-
+  A server might provide larger initial stream flow control limits for streams than the remembered values that a client applies when sending 0-RTT.  Once the handshake completes, the client updates the flow control limits on all sending streams using the updated values of initial_max_stream_data_bidi_remote and initial_max_stream_data_uni.
+"ko": |-
+  서버는 클라이언트가 0-RTT를 보낼 때 적용하는 기억된 값보다 더 큰 스트림에 대한 더 큰 초기 스트림 흐름 제어 제한을 제공할 수 있습니다. 핸드셰이크가 완료되면 클라이언트는itial_max_stream_data_bidi_remote 및initial_max_stream_data_uni의 업데이트된 값을 사용하여 모든 전송 스트림에 대한 흐름 제어 제한을 업데이트합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  6dffc4068a1315ae14f02003bfe4b888c0710861796f2c93d3e2a1fdcfc2d6b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the "record_size_limit" extension is negotiated, an endpoint
+     MUST NOT generate a protected record with plaintext that is larger
+     than the RecordSizeLimit value it receives from its peer.
+     Unprotected messages are not subject to this limit.
+"fixed": |-
+  When the "record_size_limit" extension is negotiated, an endpoint MUST NOT generate a protected record with plaintext that is larger than the RecordSizeLimit value it receives from its peer. Unprotected messages are not subject to this limit.
+"ko": |-
+  "record_size_limit" 확장이 협상되면 엔드포인트는 피어로부터 받은 RecordSizeLimit 값보다 큰 일반 텍스트로 보호된 레코드를 생성해서는 안 됩니다. 보호되지 않은 메시지에는 이 제한이 적용되지 않습니다.

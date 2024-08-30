@@ -1,0 +1,19 @@
+"hash": |-
+  64a7dad1d9a4e5d95d99b4b2e59928e63b17e98e727fdf38546c19cc27b1d4a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint SHOULD limit the number of connection IDs it has retired
+     locally for which RETIRE_CONNECTION_ID frames have not yet been
+     acknowledged.  An endpoint SHOULD allow for sending and tracking a
+     number of RETIRE_CONNECTION_ID frames of at least twice the value of
+     the active_connection_id_limit transport parameter.  An endpoint MUST
+     NOT forget a connection ID without retiring it, though it MAY choose
+     to treat having connection IDs in need of retirement that exceed this
+     limit as a connection error of type CONNECTION_ID_LIMIT_ERROR.
+"fixed": |-
+  An endpoint SHOULD limit the number of connection IDs it has retired locally for which RETIRE_CONNECTION_ID frames have not yet been acknowledged.  An endpoint SHOULD allow for sending and tracking a number of RETIRE_CONNECTION_ID frames of at least twice the value of the active_connection_id_limit transport parameter.  An endpoint MUST NOT forget a connection ID without retiring it, though it MAY choose to treat having connection IDs in need of retirement that exceed this limit as a connection error of type CONNECTION_ID_LIMIT_ERROR.
+"ko": |-
+  엔드포인트는 RETIRE_CONNECTION_ID 프레임이 아직 승인되지 않은 로컬에서 폐기된 연결 ID의 수를 제한해야 합니다(SHOULD). 엔드포인트는 active_connection_id_limit 전송 매개변수 값의 최소 두 배에 해당하는 RETIRE_CONNECTION_ID 프레임 수를 전송하고 추적할 수 있도록 허용해야 합니다(SHOULD). 엔드포인트는 연결 ID를 폐기하지 않고 잊어서는 안 되지만(MUST NOT) 폐기가 필요한 연결 ID가 이 제한을 초과하는 경우 CONNECTION_ID_LIMIT_ERROR 유형의 연결 오류로 처리하도록 선택할 수 있습니다.

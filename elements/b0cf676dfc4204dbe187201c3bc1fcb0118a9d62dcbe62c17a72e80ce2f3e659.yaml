@@ -1,0 +1,35 @@
+"hash": |-
+  b0cf676dfc4204dbe187201c3bc1fcb0118a9d62dcbe62c17a72e80ce2f3e659
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        A                           B
+        |                           |
+        |--------(1) INVITE-------->|
+        |            offer          |
+        |                           |
+        |<--(2) Session Progress----|
+        |       early-offer         |
+        |       answer              |
+        |                           |
+        |---------(3) PRACK-------->|
+        |             early-answer  |
+        |                           |
+        |<--------(4) 200 OK--------|
+        |                           |
+        |  *                     *  |
+        | ************************* |
+        |*       Early Media       *|
+        | ************************* |
+        |  *                     *  |
+        |                           |
+        |<--------(5) 200 OK--------|
+        |                           |
+        |----------(6) ACK--------->|
+        |                           |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  30e1218a1b67d662273428d60e6fb84c82ca4bb6cedae1e73008aba5c8534f2a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  If the Client supplies a value other than
+         'application/octet-stream', the Client is supplying valid
+         information about the format of the Document data and the Printer
+         MUST trust the Client-supplied value more than the outcome of
+         applying an automatic format detection mechanism.  For example,
+         the Client can request the printing of a PostScript file as a
+         'text/plain' Document.  The Printer MUST print a text
+         representation of the PostScript commands rather than interpret
+         the stream of PostScript commands and print the result.
+"fixed": |-
+  1.  If the Client supplies a value other than 'application/octet-stream', the Client is supplying valid information about the format of the Document data and the Printer MUST trust the Client-supplied value more than the outcome of applying an automatic format detection mechanism.  For example, the Client can request the printing of a PostScript file as a 'text/plain' Document.  The Printer MUST print a text representation of the PostScript commands rather than interpret the stream of PostScript commands and print the result.
+"ko": |-
+  1. 클라이언트가 'application/octet-stream' 이외의 값을 제공하는 경우 클라이언트는 문서 데이터의 형식에 대한 유효한 정보를 제공하는 것이며 프린터는 자동 형식을 적용한 결과보다 클라이언트가 제공한 값을 더 신뢰해야 합니다. 탐지 메커니즘. 예를 들어, 클라이언트는 PostScript 파일을 '텍스트/일반' 문서로 인쇄하도록 요청할 수 있습니다. 프린터는 PostScript 명령의 스트림을 해석하고 결과를 인쇄하는 대신 PostScript 명령의 텍스트 표현을 인쇄해야 합니다.

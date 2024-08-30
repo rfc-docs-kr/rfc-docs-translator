@@ -1,0 +1,22 @@
+"hash": |-
+  55beb73ce8861eaece7c1209f354933ecf24903ce0b60844b5c3500985eb7c5d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server, through the SDP exchange, provides the client with a
+     difficult-to-guess, unambiguous channel identifier and a TCP port
+     number (see Section 4.2).  The client MAY then open a new TCP
+     connection with the server on this port number.  Multiple MRCPv2
+     channels can share a TCP connection between the client and the
+     server.  All MRCPv2 messages exchanged between the client and the
+     server carry the specified channel identifier that the server MUST
+     ensure is unambiguous among all MRCPv2 control channels that are
+     active on that server.  The client uses this channel identifier to
+     indicate the media processing resource associated with that channel.
+     For information on message framing, see Section 5.
+"fixed": |-
+  The server, through the SDP exchange, provides the client with a difficult-to-guess, unambiguous channel identifier and a TCP port number (see Section 4.2).  The client MAY then open a new TCP connection with the server on this port number.  Multiple MRCPv2 channels can share a TCP connection between the client and the server.  All MRCPv2 messages exchanged between the client and the server carry the specified channel identifier that the server MUST ensure is unambiguous among all MRCPv2 control channels that are active on that server.  The client uses this channel identifier to indicate the media processing resource associated with that channel. For information on message framing, see Section 5.
+"ko": |-
+  서버는 SDP 교환을 통해 클라이언트에게 추측하기 어려운 모호하지 않은 채널 식별자와 TCP 포트 번호를 제공합니다(4.2절 참조). 그런 다음 클라이언트는 이 포트 번호에서 서버와 새 TCP 연결을 열 수 있습니다. 여러 MRCPv2 채널은 클라이언트와 서버 간에 TCP 연결을 공유할 수 있습니다. 클라이언트와 서버 간에 교환되는 모든 MRCPv2 메시지는 서버가 해당 서버에서 활성화된 모든 MRCPv2 제어 채널 간에 모호하지 않도록 해야 하는 지정된 채널 식별자를 전달합니다. 클라이언트는 이 채널 식별자를 사용하여 해당 채널과 연결된 미디어 처리 리소스를 나타냅니다. 메시지 프레이밍에 대한 정보는 5절을 참조하십시오.

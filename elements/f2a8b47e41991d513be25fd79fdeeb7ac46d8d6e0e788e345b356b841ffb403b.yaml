@@ -1,0 +1,19 @@
+"hash": |-
+  f2a8b47e41991d513be25fd79fdeeb7ac46d8d6e0e788e345b356b841ffb403b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While this extension mitigates the man-in-the-middle attack described
+     in the overview, it does not resolve all possible problems an
+     application may face if it is unaware of renegotiation.  For example,
+     during renegotiation, either the client or the server can present a
+     different certificate than was used earlier.  This may come as a
+     surprise to application developers (who might have expected, for
+     example, that a "getPeerCertificates()" API call returns the same
+     value if called twice), and might be handled in an insecure way.
+"fixed": |-
+  While this extension mitigates the man-in-the-middle attack described in the overview, it does not resolve all possible problems an application may face if it is unaware of renegotiation.  For example, during renegotiation, either the client or the server can present a different certificate than was used earlier.  This may come as a surprise to application developers (who might have expected, for example, that a "getPeerCertificates()" API call returns the same value if called twice), and might be handled in an insecure way.
+"ko": |-
+  이 확장은 개요에 설명된 중간자 공격을 완화하지만 재협상을 인식하지 못하는 경우 애플리케이션이 직면할 수 있는 모든 문제를 해결하지는 않습니다. 예를 들어 재협상 중에 클라이언트나 서버가 이전에 사용한 것과 다른 인증서를 제시할 수 있습니다. 이는 애플리케이션 개발자(예를 들어 "getPeerCertificates()" API 호출이 두 번 호출되면 동일한 값을 반환할 것으로 예상한 사람)에게는 놀라운 일이 될 수 있으며 안전하지 않은 방식으로 처리될 수 있습니다.

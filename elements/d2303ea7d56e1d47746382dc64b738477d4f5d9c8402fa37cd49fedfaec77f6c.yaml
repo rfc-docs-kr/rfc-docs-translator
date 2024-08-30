@@ -1,0 +1,15 @@
+"hash": |-
+  d2303ea7d56e1d47746382dc64b738477d4f5d9c8402fa37cd49fedfaec77f6c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     strictly FIFO: requests are processed serially in order of receipt.
+     If the current SPEAK fails, all SPEAK methods in the pending queue
+     are cancelled and each generates a SPEAK-COMPLETE event with a
+     Completion-Cause of "cancelled".
+"fixed": |-
+  strictly FIFO: requests are processed serially in order of receipt. If the current SPEAK fails, all SPEAK methods in the pending queue are cancelled and each generates a SPEAK-COMPLETE event with a Completion-Cause of "cancelled".
+"ko": |-
+  엄격히 FIFO: 요청은 수신 순서대로 직렬로 처리됩니다. 현재 SPEAK가 실패하면 보류 큐의 모든 SPEAK 메서드가 취소되고 각각 "취소됨"의 Completion-Cause를 갖는 SPEAK-COMPLETE 이벤트를 생성합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  dc58863f1048b7360b54ed89a6ac0aad2229b44f05acd8df46333ffdaf8dc4cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This RECOMMENDED operation is similar to the Print-Job operation
+     (Section 4.2.1), except that in the Create-Job request, a Client does
+     not supply Document data or any reference to Document data.  Also,
+     the Client does not supply any of the "document-name",
+     "document-format", "compression", or "document-natural-language"
+     operation attributes.  This operation is followed by one or more
+     Send-Document or Send-URI operations.  In each of those operation
+     requests, the Client MAY supply the "document-name",
+     "document-format", and "document-natural-language" attributes for
+     each Document in the Job.
+"fixed": |-
+  This RECOMMENDED operation is similar to the Print-Job operation (Section 4.2.1), except that in the Create-Job request, a Client does not supply Document data or any reference to Document data.  Also, the Client does not supply any of the "document-name", "document-format", "compression", or "document-natural-language" operation attributes.  This operation is followed by one or more Send-Document or Send-URI operations.  In each of those operation requests, the Client MAY supply the "document-name", "document-format", and "document-natural-language" attributes for each Document in the Job.
+"ko": |-
+  이 RECOMMENDED 작업은 Create-Job 요청에서 클라이언트가 문서 데이터나 문서 데이터에 대한 참조를 제공하지 않는다는 점을 제외하면 Print-Job 작업(섹션 4.2.1)과 유사합니다. 또한 클라이언트는 "문서 이름", "문서 형식", "압축" 또는 "문서 자연 언어" 작업 속성을 제공하지 않습니다. 이 작업 뒤에는 하나 이상의 문서 보내기 또는 URI 보내기 작업이 이어집니다. 각 작업 요청에서 클라이언트는 작업의 각 문서에 대해 "문서 이름", "문서 형식" 및 "문서 자연 언어" 속성을 제공할 수 있습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  75c7826806aca83afb32d46769cfb75e842df9d102c02e0765805cda664f7f6d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As a result of the immediate decrement rule, message sequence numbers
+     that appear in a set of successive EXPUNGE responses depend upon
+     whether the messages are removed starting from lower numbers to
+     higher numbers, or from higher numbers to lower numbers.  For
+     example, if the last 5 messages in a 9-message mailbox are expunged,
+     a "lower to higher" server will send five untagged EXPUNGE responses
+     for message sequence number 5, whereas a "higher to lower" server
+     will send successive untagged EXPUNGE responses for message sequence
+     numbers 9, 8, 7, 6, and 5.
+"fixed": |-
+  As a result of the immediate decrement rule, message sequence numbers that appear in a set of successive EXPUNGE responses depend upon whether the messages are removed starting from lower numbers to higher numbers, or from higher numbers to lower numbers.  For example, if the last 5 messages in a 9-message mailbox are expunged, a "lower to higher" server will send five untagged EXPUNGE responses for message sequence number 5, whereas a "higher to lower" server will send successive untagged EXPUNGE responses for message sequence numbers 9, 8, 7, 6, and 5.
+"ko": |-
+  즉시 감소 규칙의 결과로, 일련의 연속적인 EXPUNGE 응답에 나타나는 메시지 시퀀스 번호는 메시지가 낮은 숫자에서 높은 숫자로 제거되는지, 아니면 높은 숫자에서 낮은 숫자로 제거되는지에 따라 달라집니다.  예를 들어, 9개 메시지로 구성된 사서함의 마지막 5개 메시지가 삭제되는 경우 "낮은 것에서 높은 것" 서버는 메시지 시퀀스 번호 5에 대해 태그가 지정되지 않은 5개의 EXPUNGE 응답을 보내는 반면, "높은 것에서 낮은 것" 서버는 태그가 없는 연속적인 EXPUNGE 응답을 보냅니다. 메시지 시퀀스 번호 9, 8, 7, 6 및 5의 경우.

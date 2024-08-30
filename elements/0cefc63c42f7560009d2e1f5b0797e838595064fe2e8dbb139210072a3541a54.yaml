@@ -1,0 +1,14 @@
+"hash": |-
+  0cefc63c42f7560009d2e1f5b0797e838595064fe2e8dbb139210072a3541a54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients MUST NOT send NEW_TOKEN frames.  A server MUST treat receipt
+     of a NEW_TOKEN frame as a connection error of type
+     PROTOCOL_VIOLATION.
+"fixed": |-
+  Clients MUST NOT send NEW_TOKEN frames.  A server MUST treat receipt of a NEW_TOKEN frame as a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  클라이언트는 NEW_TOKEN 프레임을 보내면 안 됩니다. 서버는 NEW_TOKEN 프레임 수신을 PROTOCOL_VIOLATION 유형의 연결 오류로 처리해야 합니다.

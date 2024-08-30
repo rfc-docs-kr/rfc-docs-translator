@@ -1,0 +1,1 @@
+JWS 서명을 검증하는 것은 이전 예와 약간 다릅니다. 공개 키(n, e), JWS 서명(JWS 표현에 인코딩된 값에서 base64url로 디코딩됨), JWS 서명 입력(JWS Compact Serialization 표현의 초기 하위 문자열(두 번째 마침표 문자는 포함하지 않음))을 SHA-256 해시 함수를 사용하도록 구성된 RSASSA-PKCS1-v1_5 서명 검증기에 전달합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  082c8048ef61e38028404b4a23033bea6939b07ec8991738cd0a2568aafc1d37
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The largest offset delivered on a stream -- the sum of the offset and
+     data length -- cannot exceed 2^62-1.  Receipt of a frame that exceeds
+     this limit MUST be treated as a connection error of type
+     FRAME_ENCODING_ERROR or CRYPTO_BUFFER_EXCEEDED.
+"fixed": |-
+  The largest offset delivered on a stream -- the sum of the offset and data length -- cannot exceed 2^62-1.  Receipt of a frame that exceeds this limit MUST be treated as a connection error of type FRAME_ENCODING_ERROR or CRYPTO_BUFFER_EXCEEDED.
+"ko": |-
+  스트림에 전달되는 가장 큰 오프셋(오프셋과 데이터 길이의 합)은 2^62-1을 초과할 수 없습니다. 이 제한을 초과하는 프레임 수신은 FRAME_ENCODING_ERROR 또는 CRYPTO_BUFFER_EXCEEDED 유형의 연결 오류로 처리되어야 합니다.

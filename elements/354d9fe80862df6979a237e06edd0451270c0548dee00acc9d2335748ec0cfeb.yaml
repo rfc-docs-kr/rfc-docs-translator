@@ -1,0 +1,20 @@
+"hash": |-
+  354d9fe80862df6979a237e06edd0451270c0548dee00acc9d2335748ec0cfeb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     certificate_list
+        This is a sequence (chain) of X.509v3 certificates.  The sender's
+        certificate must come first in the list.  Each following
+        certificate must directly certify the one preceding it.  Because
+        certificate validation requires that root keys be distributed
+        independently, the self-signed certificate that specifies the root
+        certificate authority may optionally be omitted from the chain,
+        under the assumption that the remote end must already possess it
+        in order to validate it in any case.
+"fixed": |-
+  certificate_list  -  This is a sequence (chain) of X.509v3 certificates.  The sender's certificate must come first in the list.  Each following certificate must directly certify the one preceding it.  Because certificate validation requires that root keys be distributed independently, the self-signed certificate that specifies the root certificate authority may optionally be omitted from the chain, under the assumption that the remote end must already possess it in order to validate it in any case.
+"ko": |-
+  Certificate_list - X.509v3 인증서의 시퀀스(체인)입니다. 보낸 사람의 인증서가 목록에서 가장 먼저 나와야 합니다. 다음 각 인증서는 이전 인증서를 직접 인증해야 합니다. 인증서 유효성 검사에서는 루트 키를 독립적으로 배포해야 하기 때문에 루트 인증 기관을 지정하는 자체 서명된 인증서는 선택적으로 체인에서 생략될 수 있습니다. 단, 어떤 경우든 이를 검증하기 위해 원격 측이 이미 인증서를 소유하고 있어야 한다는 가정하에 가능합니다.

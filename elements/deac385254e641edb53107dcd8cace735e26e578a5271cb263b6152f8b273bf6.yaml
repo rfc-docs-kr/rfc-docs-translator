@@ -1,0 +1,17 @@
+"hash": |-
+  deac385254e641edb53107dcd8cace735e26e578a5271cb263b6152f8b273bf6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  The recognizer MUST support detecting a no-match condition upon
+         detecting end of speech.  The recognizer MAY support detecting a
+         no-match condition before waiting for end-of-speech.  If this is
+         supported, this capability is enabled by setting the Early-No-
+         Match header field to "true".  Upon detecting a no-match
+         condition, the RECOGNIZE MUST return with "no-match".
+"fixed": |-
+  1.  The recognizer MUST support detecting a no-match condition upon detecting end of speech.  The recognizer MAY support detecting a no-match condition before waiting for end-of-speech.  If this is supported, this capability is enabled by setting the Early-No- Match header field to "true".  Upon detecting a no-match condition, the RECOGNIZE MUST return with "no-match".
+"ko": |-
+  1. 인식기는 음성 종료를 감지할 때 불일치 조건 감지를 지원해야 합니다. 인식기는 음성 종료를 기다리기 전에 불일치 조건 감지를 지원할 수 있습니다. 이것이 지원되는 경우 Early-No-Match 헤더 필드를 "true"로 설정하여 이 기능을 활성화합니다. 불일치 조건을 감지하면 RECOGNIZE는 "no-match"를 반환해야 합니다.

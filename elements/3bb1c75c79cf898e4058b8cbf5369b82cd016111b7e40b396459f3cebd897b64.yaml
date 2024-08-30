@@ -1,0 +1,21 @@
+"hash": |-
+  3bb1c75c79cf898e4058b8cbf5369b82cd016111b7e40b396459f3cebd897b64
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case of a supported attribute with one or more unsupported
+     attribute syntaxes or values, the Printer simply returns the
+     Client-supplied attribute with the unsupported attribute syntaxes or
+     values as supplied by the Client.  This indicates support for the
+     attribute but no support for that particular attribute syntax or
+     value.  If the Client supplies a multi-valued attribute with more
+     than one value and the Printer supports the attribute but only
+     supports a subset of the Client-supplied attribute syntaxes or
+     values, the Printer MUST return only those attribute syntaxes or
+     values that are unsupported.
+"fixed": |-
+  In the case of a supported attribute with one or more unsupported attribute syntaxes or values, the Printer simply returns the Client-supplied attribute with the unsupported attribute syntaxes or values as supplied by the Client.  This indicates support for the attribute but no support for that particular attribute syntax or value.  If the Client supplies a multi-valued attribute with more than one value and the Printer supports the attribute but only supports a subset of the Client-supplied attribute syntaxes or values, the Printer MUST return only those attribute syntaxes or values that are unsupported.
+"ko": |-
+  하나 이상의 지원되지 않는 속성 구문 또는 값이 포함된 지원되는 속성의 경우 프린터는 단순히 클라이언트가 제공한 지원되지 않는 속성 구문 또는 값과 함께 클라이언트 제공 속성을 반환합니다. 이는 속성은 지원하지만 특정 속성 구문이나 값은 지원하지 않음을 나타냅니다. 클라이언트가 둘 이상의 값을 가진 다중 값 속성을 제공하고 프린터가 속성을 지원하지만 클라이언트가 제공한 속성 구문 또는 값의 하위 집합만 지원하는 경우 프린터는 지원되지 않는 속성 구문 또는 값만 반환해야 합니다.

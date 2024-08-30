@@ -1,0 +1,1 @@
+def decodeScalar448(k): - k_list = [ord(b) for b in k] k_list[0] &= 252 k_list[55] |= 128 return decodeLittleEndian(k_list, 448) <CODE ENDS>

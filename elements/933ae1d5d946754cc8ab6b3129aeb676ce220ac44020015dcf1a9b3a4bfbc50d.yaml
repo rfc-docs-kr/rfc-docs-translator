@@ -1,0 +1,27 @@
+"hash": |-
+  933ae1d5d946754cc8ab6b3129aeb676ce220ac44020015dcf1a9b3a4bfbc50d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A hint in a PMCE negotiation offer provides information about the
+     client's behavior that the server may either safely ignore or refer
+     to when the server decides its behavior.  For example, suppose that a
+     client sends data compressed with the DEFLATE algorithm to a server.
+     The client must keep the original bytes of data that it recently
+     compressed and sent to the server.  The server must keep the result
+     of decompressing the bytes of data that it recently received from the
+     client.  The LZ77 window size of the server must not be less than the
+     LZ77 window size of the client.  In a PMCE negotiation offer, the
+     client MAY inform the server of the maximum LZ77 window size the
+     client can afford so that the server can choose to use an LZ77 window
+     size that is not greater than the maximum size of the client.  This
+     information is an example of a hint in a PMCE negotiation offer.
+     It's waste of memory to use an LZ77 window size greater than the LZ77
+     window size the client actually uses.  Using the hint, the server can
+     avoid the waste of memory.  Since the hint itself doesn't specify the
+"fixed": |-
+  A hint in a PMCE negotiation offer provides information about the client's behavior that the server may either safely ignore or refer to when the server decides its behavior.  For example, suppose that a client sends data compressed with the DEFLATE algorithm to a server. The client must keep the original bytes of data that it recently compressed and sent to the server.  The server must keep the result of decompressing the bytes of data that it recently received from the client.  The LZ77 window size of the server must not be less than the LZ77 window size of the client.  In a PMCE negotiation offer, the client MAY inform the server of the maximum LZ77 window size the client can afford so that the server can choose to use an LZ77 window size that is not greater than the maximum size of the client.  This information is an example of a hint in a PMCE negotiation offer. It's waste of memory to use an LZ77 window size greater than the LZ77 window size the client actually uses.  Using the hint, the server can avoid the waste of memory.  Since the hint itself doesn't specify the
+"ko": |-
+  PMCE 협상 제안의 힌트는 서버가 동작을 결정할 때 안전하게 무시하거나 참조할 수 있는 클라이언트 동작에 대한 정보를 제공합니다.  예를 들어, 클라이언트가 DEFLATE 알고리즘으로 압축된 데이터를 서버로 보낸다고 가정해 보겠습니다. 클라이언트는 최근에 압축하여 서버로 보낸 데이터의 원본 바이트를 보관해야 합니다.  서버는 클라이언트로부터 최근 수신한 데이터 바이트의 압축을 푼 결과를 유지해야 합니다.  서버의 LZ77 창 크기는 클라이언트의 LZ77 창 크기보다 작을 수 없습니다.  PMCE 협상 제안에서 클라이언트는 서버가 클라이언트의 최대 크기보다 크지 않은 LZ77 창 크기를 사용하도록 선택할 수 있도록 클라이언트가 감당할 수 있는 최대 LZ77 창 크기를 서버에 알릴 수 있습니다.  이 정보는 PMCE 협상 제안에 포함된 힌트의 예입니다. 클라이언트가 실제로 사용하는 LZ77 창 크기보다 큰 LZ77 창 크기를 사용하는 것은 메모리 낭비입니다.  힌트를 사용하면 서버는 메모리 낭비를 피할 수 있습니다.  힌트 자체는

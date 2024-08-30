@@ -1,0 +1,14 @@
+"hash": |-
+  9a37d32f016c94fe9e6f7e7184f06578a0de0d2671dbf47d8cdf22c2aecf2f06
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the same state, sending a packet with a number of 0xace8fe uses
+     the 24-bit encoding, because at least 18 bits are required to
+     represent twice the range (131,222 packets, or 0x020096).
+"fixed": |-
+  In the same state, sending a packet with a number of 0xace8fe uses the 24-bit encoding, because at least 18 bits are required to represent twice the range (131,222 packets, or 0x020096).
+"ko": |-
+  동일한 상태에서 0xace8fe 번호의 패킷을 보내면 24비트 인코딩을 사용합니다. 두 배의 범위(131,222 패킷 또는 0x020096)를 나타내려면 최소 18비트가 필요하기 때문입니다.

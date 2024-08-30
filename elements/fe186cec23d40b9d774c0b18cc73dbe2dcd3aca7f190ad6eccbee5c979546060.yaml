@@ -1,0 +1,15 @@
+"hash": |-
+  fe186cec23d40b9d774c0b18cc73dbe2dcd3aca7f190ad6eccbee5c979546060
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       def TestFeedLine(self, line, warning_count, error_count):
+         self.validator.output_log['WARNING'] = []
+         self.validator.output_log['ERROR'] = []
+         self.validator._ValidateLine(line)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  3b244854641127f82b939f84608a93e1c01db735624082bc683ab79f51d73da7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The group-specific operation for MODP groups takes ske-value, the
+     prime, p, and order, r, from the group's domain parameter set to
+     directly produce a candidate SKE by exponentiating the ske-value to
+     the value ((p-1)/r) modulo the prime.  If the candidate SKE is
+     greater than one (1), the candidate SKE becomes the SKE, and the
+     MODP-specific operation completes successfully.  Otherwise, the MODP-
+     specific operation fails (and the hunting-and-pecking continues).
+"fixed": |-
+  The group-specific operation for MODP groups takes ske-value, the prime, p, and order, r, from the group's domain parameter set to directly produce a candidate SKE by exponentiating the ske-value to the value ((p-1)/r) modulo the prime.  If the candidate SKE is greater than one (1), the candidate SKE becomes the SKE, and the MODP-specific operation completes successfully.  Otherwise, the MODP- specific operation fails (and the hunting-and-pecking continues).
+"ko": |-
+  MODP 그룹에 대한 그룹별 작업은 그룹의 도메인 매개변수 집합에서 ske 값인 소수 p와 차수 r을 가져와 ske 값을 값((p-1)에 지수화하여 후보 SKE를 직접 생성합니다. /r) 소수를 모듈로로 계산합니다.  후보 SKE가 1보다 크면 후보 SKE가 SKE가 되고 MODP 관련 작업이 성공적으로 완료됩니다.  그렇지 않으면 MODP 관련 작업이 실패합니다(그리고 사냥 및 쪼개기가 계속됩니다).

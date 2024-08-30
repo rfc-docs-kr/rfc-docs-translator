@@ -1,0 +1,17 @@
+"hash": |-
+  1a1fc18dd813f3826a72739d03953cdcb0f9ce1d438063271b1c5af756ac0f27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When any of the conditions described here are detected, a
+     NOTIFICATION message, with the indicated Error Code, Error Subcode,
+     and Data fields, is sent, and the BGP connection is closed (unless it
+     is explicitly stated that no NOTIFICATION message is to be sent and
+     the BGP connection is not to be closed).  If no Error Subcode is
+     specified, then a zero MUST be used.
+"fixed": |-
+  When any of the conditions described here are detected, a NOTIFICATION message, with the indicated Error Code, Error Subcode, and Data fields, is sent, and the BGP connection is closed (unless it is explicitly stated that no NOTIFICATION message is to be sent and the BGP connection is not to be closed).  If no Error Subcode is specified, then a zero MUST be used.
+"ko": |-
+  여기에 설명된 조건 중 하나라도 감지되면 표시된 오류 코드, 오류 하위 코드 및 데이터 필드가 포함된 NOTIFICATION 메시지가 전송되고 BGP 연결이 닫힙니다(NOTIFICATION 메시지가 전송되지 않는다고 명시적으로 명시되지 않는 한). BGP 연결은 닫히지 않습니다). 오류 하위 코드가 지정되지 않은 경우 0을 사용해야 합니다.

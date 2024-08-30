@@ -1,0 +1,19 @@
+"hash": |-
+  d096bef08078207314690a4ff856b282d1180589e14278033653ced11e11a2b7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     capability-data = "CAPABILITY" *(SP capability) SP "IMAP4rev2"
+                       *(SP capability)
+                         ; See Section 6.1.1 for information about
+                         ; required security-related capabilities.
+                         ; Servers that offer RFC 1730 compatibility MUST
+                         ; list "IMAP4" as the first capability.
+                         ; Servers that offer RFC 3501 compatibility MUST
+                         ; list "IMAP4rev1" as one of the capabilities.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

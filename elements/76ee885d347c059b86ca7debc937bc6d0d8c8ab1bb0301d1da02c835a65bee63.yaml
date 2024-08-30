@@ -1,0 +1,18 @@
+"hash": |-
+  76ee885d347c059b86ca7debc937bc6d0d8c8ab1bb0301d1da02c835a65bee63
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  Note: Allowing retransmission of a closing packet is an
+        |  exception to the requirement that a new packet number be used
+        |  for each packet; see Section 12.3.  Sending new packet numbers
+        |  is primarily of advantage to loss recovery and congestion
+        |  control, which are not expected to be relevant for a closed
+        |  connection.  Retransmitting the final packet requires less
+        |  state.
+"fixed": |-
+  - |  Note: Allowing retransmission of a closing packet is an |  exception to the requirement that a new packet number be used |  for each packet; see Section 12.3.  Sending new packet numbers |  is primarily of advantage to loss recovery and congestion |  control, which are not expected to be relevant for a closed |  connection.  Retransmitting the final packet requires less |  state.
+"ko": |-
+  - | 참고: 종료 패킷의 재전송을 허용하는 것은 | 새로운 패킷 번호를 사용해야 한다는 요구 사항에 대한 예외 | 각 패킷에 대해; 섹션 12.3을 참조하세요. 새 패킷 번호 보내기 | 주로 손실 복구 및 혼잡에 유리합니다 | 폐쇄형과 관련이 없을 것으로 예상되는 제어 | 연결. 최종 패킷을 재전송하는 데는 더 적은 비용이 필요합니다. | 상태.

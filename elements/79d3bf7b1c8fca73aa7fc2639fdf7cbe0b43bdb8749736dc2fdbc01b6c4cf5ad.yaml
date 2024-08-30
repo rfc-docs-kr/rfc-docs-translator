@@ -17,7 +17,7 @@
      in the multiplication of (acc+block) and r.  An efficient constant-
      time implementation can be found in the public domain library
      poly1305-donna ([Poly1305_Donna]).
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  It is not recommended to use a generic big number library such as the one in OpenSSL for the arithmetic operations in Poly1305.  Such libraries use dynamic allocation to be able to handle an integer of any size, but that flexibility comes at the expense of performance as well as side-channel security.  More efficient implementations that run in constant time are available, one of them in D. J. Bernstein's own library, NaCl ([NaCl]).  A constant-time but not optimal approach would be to naively implement the arithmetic operations for 288-bit integers, because even a naive implementation will not exceed 2^288 in the multiplication of (acc+block) and r.  An efficient constant- time implementation can be found in the public domain library poly1305-donna ([Poly1305_Donna]).
+"ko": |-
+  Poly1305의 산술 연산을 위해 OpenSSL의 라이브러리와 같은 일반적인 큰 숫자 라이브러리를 사용하는 것은 권장되지 않습니다. 이러한 라이브러리는 동적 할당을 사용하여 모든 크기의 정수를 처리할 수 있지만 이러한 유연성에는 성능과 부채널 보안이 희생됩니다. 일정한 시간에 실행되는 보다 효율적인 구현을 사용할 수 있으며 그 중 하나는 DJ Bernstein의 자체 라이브러리인 NaCl([NaCl])에 있습니다. 상수 시간이지만 최적이 아닌 접근 방식은 288비트 정수에 대한 산술 연산을 순진하게 구현하는 것입니다. 순진한 구현이라도 (acc+block)과 r의 곱셈에서 2^288을 초과하지 않기 때문입니다. 효율적인 상수 시간 구현은 공개 도메인 라이브러리 poly1305-donna([Poly1305_Donna])에서 찾을 수 있습니다.

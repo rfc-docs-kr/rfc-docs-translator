@@ -1,0 +1,16 @@
+"hash": |-
+  18e37a580d1f206a0889d988fa839dc518254f7921e7440f0ed6615785096d39
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  Note: This requirement to support a UDP payload of 1200 bytes
+        |  limits the space available for IPv6 extension headers to 32
+        |  bytes or IPv4 options to 52 bytes if the path only supports the
+        |  IPv6 minimum MTU of 1280 bytes.  This affects Initial packets
+        |  and path validation.
+"fixed": |-
+  - |  Note: This requirement to support a UDP payload of 1200 bytes |  limits the space available for IPv6 extension headers to 32 |  bytes or IPv4 options to 52 bytes if the path only supports the |  IPv6 minimum MTU of 1280 bytes.  This affects Initial packets |  and path validation.
+"ko": |-
+  - | 참고: 1200바이트의 UDP 페이로드를 지원하기 위한 이 요구 사항 | IPv6 확장 헤더에 사용할 수 있는 공간을 32개로 제한 | 바이트 또는 IPv4 옵션을 52바이트로 설정(경로가 | IPv6 최소 MTU는 1280바이트입니다. 이는 초기 패킷에 영향을 미칩니다 | 및 경로 유효성 검사.

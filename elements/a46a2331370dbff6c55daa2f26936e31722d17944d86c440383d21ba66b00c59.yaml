@@ -1,0 +1,17 @@
+"hash": |-
+  a46a2331370dbff6c55daa2f26936e31722d17944d86c440383d21ba66b00c59
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     MAC(MAC_write_key, seq_num +
+         TLSCipherText.type +
+         TLSCipherText.version +
+         TLSCipherText.length +
+         IV +
+         ENC(content + padding + padding_length));
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

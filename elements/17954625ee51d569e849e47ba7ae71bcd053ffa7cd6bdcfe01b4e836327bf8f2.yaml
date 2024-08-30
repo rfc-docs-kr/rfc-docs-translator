@@ -1,0 +1,21 @@
+"hash": |-
+  17954625ee51d569e849e47ba7ae71bcd053ffa7cd6bdcfe01b4e836327bf8f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This extension carries a list of supported certificate types the
+     client can use, sorted by client preference.  This extension MUST be
+     omitted if the client only supports X.509 certificates.  The
+     "extension_data" field of this extension contains a
+     CertificateTypeExtension structure.  Note that the
+     CertificateTypeExtension structure is being used both by the client
+     and the server, even though the structure is only specified once in
+     this document.  Reusing a single specification for both client and
+     server is common in other specifications, such as the TLS protocol
+     itself [RFC5246].
+"fixed": |-
+  This extension carries a list of supported certificate types the client can use, sorted by client preference.  This extension MUST be omitted if the client only supports X.509 certificates.  The "extension_data" field of this extension contains a CertificateTypeExtension structure.  Note that the CertificateTypeExtension structure is being used both by the client and the server, even though the structure is only specified once in this document.  Reusing a single specification for both client and server is common in other specifications, such as the TLS protocol itself [RFC5246].
+"ko": |-
+  이 확장은 클라이언트가 사용할 수 있는 지원되는 인증서 유형 목록을 클라이언트 기본 설정에 따라 정렬하여 전달합니다. 클라이언트가 X.509 인증서만 지원하는 경우 이 확장을 생략해야 합니다. 이 확장의 "extension_data" 필드에는 CertificateTypeExtension 구조가 포함되어 있습니다. 이 문서에서 구조가 한 번만 지정되었음에도 불구하고 CertificateTypeExtension 구조는 클라이언트와 서버 모두에서 사용됩니다. 클라이언트와 서버 모두에 대해 단일 사양을 재사용하는 것은 TLS 프로토콜 자체 [RFC5246]와 같은 다른 사양에서 일반적입니다.

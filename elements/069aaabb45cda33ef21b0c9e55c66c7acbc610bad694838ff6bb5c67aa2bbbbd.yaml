@@ -1,0 +1,28 @@
+"hash": |-
+  069aaabb45cda33ef21b0c9e55c66c7acbc610bad694838ff6bb5c67aa2bbbbd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     1.  The STARTTLS command has been negotiated or TLS negotiated on an
+         Implicit TLS port
+         OR
+     2.  Some other mechanism that protects the session from password
+         snooping has been provided
+         OR
+     3.  The following measures are in place:
+         a)  The LOGINDISABLED capability is advertised, and [SASL]
+             mechanisms (such as PLAIN) using plaintext passwords are NOT
+             advertised in the CAPABILITY list.
+             AND
+         b)  The LOGIN command returns an error even if the password is
+             correct
+             AND
+         c)  The AUTHENTICATE command returns an error with all [SASL]
+             mechanisms that use plaintext passwords, even if the password
+             is correct.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

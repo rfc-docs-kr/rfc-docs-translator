@@ -1,0 +1,15 @@
+"hash": |-
+  c3bf205cc5b53f6c03bfa5913e83f3c6706c06f18d092afc20d7ac2f0ea2aff2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the event that an IP address appears in the "ciaddr" field of a
+     DHCPLEASEQUERY message, if that IP address is one managed by the DHCP
+     server, then that IP address MUST be set in the "ciaddr" field of a
+     DHCPLEASEUNASSIGNED message.
+"fixed": |-
+  In the event that an IP address appears in the "ciaddr" field of a DHCPLEASEQUERY message, if that IP address is one managed by the DHCP server, then that IP address MUST be set in the "ciaddr" field of a DHCPLEASEUNASSIGNED message.
+"ko": |-
+  IP 주소가 DHCPLEASEQUERY 메시지의 "ciaddr" 필드에 나타나는 경우 해당 IP 주소가 DHCP 서버에서 관리하는 IP 주소라면 DHCPLEASEUNASSIGNED 메시지의 "ciaddr" 필드에 해당 IP 주소를 설정해야 합니다.

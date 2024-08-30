@@ -1,0 +1,16 @@
+"hash": |-
+  f20545056f290fa8ee912b7691e6113fd3e3799ddd598327170486bed4684e00
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           All linear white spaces in the Security-Server header field
+           MUST be replaced by a single SP before calculating or
+           interpreting the digest-verify parameter.  Method, digest-uri-
+           value, entity-body, and any other HTTP Digest parameter are as
+           specified in [4].
+"fixed": |-
+  - All linear white spaces in the Security-Server header field MUST be replaced by a single SP before calculating or interpreting the digest-verify parameter.  Method, digest-uri- value, entity-body, and any other HTTP Digest parameter are as specified in [4].
+"ko": |-
+  - Security-Server 헤더 필드의 모든 선형 공백은 digest-verify 매개변수를 계산하거나 해석하기 전에 단일 SP로 대체되어야 합니다. 메서드, digest-uri-value, entity-body 및 기타 모든 HTTP Digest 매개변수는 [4]에 지정된 대로입니다.

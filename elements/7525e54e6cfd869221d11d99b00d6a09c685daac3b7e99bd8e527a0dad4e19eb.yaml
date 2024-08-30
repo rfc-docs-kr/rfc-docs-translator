@@ -1,0 +1,24 @@
+"hash": |-
+  7525e54e6cfd869221d11d99b00d6a09c685daac3b7e99bd8e527a0dad4e19eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a combined mode algorithm is employed, both confidentiality and
+     integrity services are provided.  As was the case for encryption
+     algorithms, a combined mode algorithm must make provisions for per-
+     packet cryptographic synchronization, to permit decryption of packets
+     that arrive out of order and to accommodate packet loss.  The means
+     by which a combined mode algorithm provides integrity for the
+     payload, and for the SPI and (Extended) Sequence Number fields, may
+     vary for different algorithm choices.  In order to provide a uniform,
+     algorithm-independent approach to invocation of combined mode
+     algorithms, no payload substructure is defined.  For example, the SPI
+     and Sequence Number fields might be replicated within the ciphertext
+     envelope and an ICV may be appended to the ESP trailer.  None of
+     these details should be observable externally.
+"fixed": |-
+  If a combined mode algorithm is employed, both confidentiality and integrity services are provided.  As was the case for encryption algorithms, a combined mode algorithm must make provisions for per- packet cryptographic synchronization, to permit decryption of packets that arrive out of order and to accommodate packet loss.  The means by which a combined mode algorithm provides integrity for the payload, and for the SPI and (Extended) Sequence Number fields, may vary for different algorithm choices.  In order to provide a uniform, algorithm-independent approach to invocation of combined mode algorithms, no payload substructure is defined.  For example, the SPI and Sequence Number fields might be replicated within the ciphertext envelope and an ICV may be appended to the ESP trailer.  None of these details should be observable externally.
+"ko": |-
+  결합 모드 알고리즘을 사용하면 기밀성 및 무결성 서비스가 모두 제공됩니다.  암호화 알고리즘의 경우와 마찬가지로 결합 모드 알고리즘도 패킷별 암호화 동기화를 제공하여 순서 없이 도착하는 패킷의 암호 해독을 허용하고 패킷 손실을 수용해야 합니다.  결합 모드 알고리즘이 페이로드, SPI 및 (확장) 시퀀스 번호 필드에 대한 무결성을 제공하는 방법은 알고리즘 선택에 따라 달라질 수 있습니다.  결합 모드 알고리즘 호출에 대한 균일하고 알고리즘 독립적인 접근 방식을 제공하기 위해 페이로드 하위 구조가 정의되지 않습니다.  예를 들어, SPI 및 시퀀스 번호 필드는 암호문 봉투 내에서 복제될 수 있으며 ICV가 ESP 트레일러에 추가될 수 있습니다.  이러한 세부 사항 중 어느 것도 외부에서 관찰할 수 없어야 합니다.

@@ -1,0 +1,29 @@
+"hash": |-
+  26dcb6d3a997ddb1c8761bb1c69ea8474168bde4afdbbc74c3bfd7d62ac4c096
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       C: A142 SELECT INBOX
+       S: * 172 EXISTS
+       S: * OK [UIDVALIDITY 3857529045] UIDs valid
+       S: * OK [UIDNEXT 4392] Predicted next UID
+       S: * FLAGS (\Answered \Flagged \Deleted \Seen \Draft)
+       S: * OK [PERMANENTFLAGS (\Deleted \Seen \*)] Limited
+       S: A142 OK [READ-WRITE] SELECT completed
+       [...some time later...]
+       C: A143 SELECT Drafts
+       S: * OK [CLOSED] Previous mailbox is now closed
+       S: * 5 EXISTS
+       S: * OK [UIDVALIDITY 9877410381] UIDs valid
+       S: * OK [UIDNEXT 102] Predicted next UID
+       S: * LIST () "/" Drafts
+       S: * FLAGS (\Answered \Flagged \Deleted \Seen \Draft)
+       S: * OK [PERMANENTFLAGS (\Deleted \Seen \Answered
+           \Flagged \Draft \*)] System flags and keywords allowed
+       S: A143 OK [READ-WRITE] SELECT completed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

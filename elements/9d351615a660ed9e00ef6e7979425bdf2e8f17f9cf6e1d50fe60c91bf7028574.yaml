@@ -1,0 +1,17 @@
+"hash": |-
+  9d351615a660ed9e00ef6e7979425bdf2e8f17f9cf6e1d50fe60c91bf7028574
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     def decodeScalar448(k):
+         k_list = [ord(b) for b in k]
+         k_list[0] &= 252
+         k_list[55] |= 128
+         return decodeLittleEndian(k_list, 448)
+     <CODE ENDS>
+"fixed": |-
+  def decodeScalar448(k):  -   k_list = [ord(b) for b in k] k_list[0] &= 252 k_list[55] |= 128 return decodeLittleEndian(k_list, 448) <CODE ENDS>
+"ko": |-
+  def decodeScalar448(k): - k_list = [ord(b) for b in k] k_list[0] &= 252 k_list[55] |= 128 return decodeLittleEndian(k_list, 448) <CODE ENDS>

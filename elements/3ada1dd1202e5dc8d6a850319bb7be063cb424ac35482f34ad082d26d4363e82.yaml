@@ -1,0 +1,18 @@
+"hash": |-
+  3ada1dd1202e5dc8d6a850319bb7be063cb424ac35482f34ad082d26d4363e82
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If packets received at the server's preferred address have a
+     different source address than observed from the client during the
+     handshake, the server MUST protect against potential attacks as
+     described in Sections 9.3.1 and 9.3.2.  In addition to intentional
+     simultaneous migration, this might also occur because the client's
+     access network used a different NAT binding for the server's
+     preferred address.
+"fixed": |-
+  If packets received at the server's preferred address have a different source address than observed from the client during the handshake, the server MUST protect against potential attacks as described in Sections 9.3.1 and 9.3.2.  In addition to intentional simultaneous migration, this might also occur because the client's access network used a different NAT binding for the server's preferred address.
+"ko": |-
+  서버의 기본 주소에서 수신된 패킷이 핸드셰이크 중에 클라이언트에서 관찰된 것과 다른 소스 주소를 갖는 경우 서버는 섹션 9.3.1 및 9.3.2에 설명된 대로 잠재적인 공격으로부터 보호해야 합니다. 의도적인 동시 마이그레이션 외에도 클라이언트의 액세스 네트워크가 서버의 기본 주소에 대해 다른 NAT 바인딩을 사용했기 때문에 이러한 현상이 발생할 수도 있습니다.

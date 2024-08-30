@@ -1,0 +1,16 @@
+"hash": |-
+  1e1ce69b45a610a45603d74cb54bfbc9edb914959791c358a34d88ca2fa338fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the spin bit is disabled, endpoints MAY set the spin bit to any
+     value and MUST ignore any incoming value.  It is RECOMMENDED that
+     endpoints set the spin bit to a random value either chosen
+     independently for each packet or chosen independently for each
+     connection ID.
+"fixed": |-
+  When the spin bit is disabled, endpoints MAY set the spin bit to any value and MUST ignore any incoming value.  It is RECOMMENDED that endpoints set the spin bit to a random value either chosen independently for each packet or chosen independently for each connection ID.
+"ko": |-
+  스핀 비트가 비활성화되면 엔드포인트는 스핀 비트를 임의의 값으로 설정할 수 있으며 들어오는 모든 값을 무시해야 합니다(MUST). 엔드포인트는 각 패킷에 대해 독립적으로 선택되거나 각 연결 ID에 대해 독립적으로 선택되는 임의의 값으로 스핀 비트를 설정하는 것이 좋습니다.

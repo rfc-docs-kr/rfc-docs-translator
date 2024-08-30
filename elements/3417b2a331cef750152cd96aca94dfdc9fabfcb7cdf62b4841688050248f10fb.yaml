@@ -1,0 +1,21 @@
+"hash": |-
+  3417b2a331cef750152cd96aca94dfdc9fabfcb7cdf62b4841688050248f10fb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Sound cryptographic key hygiene is to use a key for one and only one
+     purpose.  Use of the recipient's public key for both the traditional
+     CMS and the PSK-mixing variation specified in this document would be
+     a violation of this principle; however, there is no known way for an
+     attacker to take advantage of this situation.  That said, an
+     application should enforce separation whenever possible.  For
+     example, a purpose identifier for use in the X.509 extended key usage
+     certificate extension [RFC5280] could be identified in the future to
+     indicate that a public key should only be used in conjunction with or
+     without a PSK.
+"fixed": |-
+  Sound cryptographic key hygiene is to use a key for one and only one purpose.  Use of the recipient's public key for both the traditional CMS and the PSK-mixing variation specified in this document would be a violation of this principle; however, there is no known way for an attacker to take advantage of this situation.  That said, an application should enforce separation whenever possible.  For example, a purpose identifier for use in the X.509 extended key usage certificate extension [RFC5280] could be identified in the future to indicate that a public key should only be used in conjunction with or without a PSK.
+"ko": |-
+  건전한 암호화 키 위생은 하나의 목적으로만 키를 사용하는 것입니다.  이 문서에 명시된 전통적인 CMS와 PSK 혼합 변형 모두에 대해 수신자의 공개 키를 사용하는 것은 이 원칙을 위반하는 것입니다. 그러나 공격자가 이 상황을 이용할 수 있는 알려진 방법은 없습니다.  즉, 애플리케이션은 가능할 때마다 분리를 적용해야 합니다.  예를 들어, X.509 확장 키 사용 인증서 확장 [RFC5280]에 사용하기 위한 목적 식별자는 공개 키가 PSK와 함께 또는 PSK 없이만 사용되어야 함을 나타내기 위해 나중에 식별될 수 있습니다.

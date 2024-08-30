@@ -1,0 +1,16 @@
+"hash": |-
+  4399ae6aabb5ae93717555c4899aa7443dce6e12e4ff014fadd9a81de5e65a21
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MAY send a Max-Forwards header field in an OPTIONS request
+     to target a specific recipient in the request chain (see
+     Section 7.6.2).  A proxy MUST NOT generate a Max-Forwards header
+     field while forwarding a request unless that request was received
+     with a Max-Forwards field.
+"fixed": |-
+  A client MAY send a Max-Forwards header field in an OPTIONS request to target a specific recipient in the request chain (see Section 7.6.2).  A proxy MUST NOT generate a Max-Forwards header field while forwarding a request unless that request was received with a Max-Forwards field.
+"ko": |-
+  클라이언트는 요청 체인의 특정 수신자를 대상으로 OPTIONS 요청에 Max-Forwards 헤더 필드를 보낼 수 있습니다(섹션 7.6.2 참조). 요청이 Max-Forwards 필드와 함께 수신되지 않는 한 프록시는 요청을 전달하는 동안 Max-Forwards 헤더 필드를 생성해서는 안 됩니다.

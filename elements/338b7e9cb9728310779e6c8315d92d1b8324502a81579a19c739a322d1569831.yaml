@@ -1,0 +1,20 @@
+"hash": |-
+  338b7e9cb9728310779e6c8315d92d1b8324502a81579a19c739a322d1569831
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An SCTE-35 splice out/in pair signaled by a pair of splice_insert()
+     commands SHOULD be represented by one or more EXT-X-DATERANGE tags
+     carrying the same ID attribute, which MUST be unique to that splice
+     out/in pair.  The "out" splice_info_section() (with
+     out_of_network_indicator set to 1) MUST be placed in an SCTE35-OUT
+     attribute, with the same formatting as SCTE35-CMD.  The "in"
+     splice_info_section() (with out_of_network_indicator set to 0) MUST
+     be placed in an SCTE35-IN attribute, with the same formatting as
+     SCTE35-CMD.
+"fixed": |-
+  An SCTE-35 splice out/in pair signaled by a pair of splice_insert() commands SHOULD be represented by one or more EXT-X-DATERANGE tags carrying the same ID attribute, which MUST be unique to that splice out/in pair.  The "out" splice_info_section() (with out_of_network_indicator set to 1) MUST be placed in an SCTE35-OUT attribute, with the same formatting as SCTE35-CMD.  The "in" splice_info_section() (with out_of_network_indicator set to 0) MUST be placed in an SCTE35-IN attribute, with the same formatting as SCTE35-CMD.
+"ko": |-
+  한 쌍의 splice_insert() 명령으로 신호를 받은 SCTE-35 스플라이스 출력/인 쌍은 동일한 ID 속성을 전달하는 하나 이상의 EXT-X-DATERANGE 태그로 표시되어야 하며, 이는 해당 스플라이스 출력/인 쌍에 고유해야 합니다. "out" splice_info_section()(out_of_network_indicator가 1로 설정됨)은 SCTE35-CMD와 동일한 형식으로 SCTE35-OUT 특성에 ​​배치되어야 합니다. "in" splice_info_section()(out_of_network_indicator가 0으로 설정됨)은 SCTE35-CMD와 동일한 형식으로 SCTE35-IN 특성에 배치되어야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  76b1139f464f9fea325614e81fe7ffd07dc64ee99a8b94e86683389c3154c771
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each Playlist file MUST be identifiable either by the path component
+     of its URI or by HTTP Content-Type.  In the first case, the path MUST
+     end with either .m3u8 or .m3u.  In the second, the HTTP Content-Type
+     MUST be "application/vnd.apple.mpegurl" or "audio/mpegurl".  Clients
+     SHOULD refuse to parse Playlists that are not so identified.
+"fixed": |-
+  Each Playlist file MUST be identifiable either by the path component of its URI or by HTTP Content-Type.  In the first case, the path MUST end with either .m3u8 or .m3u.  In the second, the HTTP Content-Type MUST be "application/vnd.apple.mpegurl" or "audio/mpegurl".  Clients SHOULD refuse to parse Playlists that are not so identified.
+"ko": |-
+  각 재생 목록 파일은 URI의 경로 구성 요소 또는 HTTP 콘텐츠 유형으로 식별 가능해야 합니다. 첫 번째 경우 경로는 .m3u8 또는 .m3u로 끝나야 합니다. 두 번째에서 HTTP 콘텐츠 유형은 "application/vnd.apple.mpegurl" 또는 "audio/mpegurl"이어야 합니다. 클라이언트는 그렇게 식별되지 않은 재생 목록의 구문 분석을 거부해야 합니다(SHOULD).

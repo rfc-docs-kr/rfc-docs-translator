@@ -1,0 +1,16 @@
+"hash": |-
+  c2def54d4f55093fbe078d95b6330d56a42d3a8ed11da87cc3d2dacec8a8f050
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.  Disrupt service to an individual peer: attackers send bogus,
+         e.g., REQUEST and HAVE messages appearing to come from victim
+         Peer A to the Peers B1..Bn serving that peer.  This causes Peer A
+         to receive chunks it did not request or to not receive the chunks
+         it requested.
+"fixed": |-
+  1.  Disrupt service to an individual peer: attackers send bogus, e.g., REQUEST and HAVE messages appearing to come from victim Peer A to the Peers B1..Bn serving that peer.  This causes Peer A to receive chunks it did not request or to not receive the chunks it requested.
+"ko": |-
+  1. 개별 피어에 대한 서비스 중단: 공격자는 피해자 피어 A에서 해당 피어를 서비스하는 피어 B1..Bn으로 가짜 메시지(예: REQUEST 및 HAVE 메시지)를 보냅니다. 이로 인해 피어 A는 요청하지 않은 청크를 수신하거나 요청한 청크를 수신하지 못하게 됩니다.

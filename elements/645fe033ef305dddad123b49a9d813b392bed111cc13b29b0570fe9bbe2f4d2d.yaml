@@ -1,0 +1,18 @@
+"hash": |-
+  645fe033ef305dddad123b49a9d813b392bed111cc13b29b0570fe9bbe2f4d2d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     disclosure via the communication channel.  For those cases where the
+     client is prevented from observing the contents of the token, token
+     encryption MUST be applied in addition to the usage of TLS
+     protection.  As a further defense against token disclosure, the
+     client MUST validate the TLS certificate chain when making requests
+     to protected resources, including checking the Certificate Revocation
+     List (CRL) [RFC5280].
+"fixed": |-
+  disclosure via the communication channel.  For those cases where the client is prevented from observing the contents of the token, token encryption MUST be applied in addition to the usage of TLS protection.  As a further defense against token disclosure, the client MUST validate the TLS certificate chain when making requests to protected resources, including checking the Certificate Revocation List (CRL) [RFC5280].
+"ko": |-
+  커뮤니케이션 채널을 통해 공개합니다.  클라이언트가 토큰의 내용을 관찰할 수 없는 경우 TLS 보호 사용 외에 토큰 암호화를 적용해야 합니다.  토큰 공개에 대한 추가 방어로서 클라이언트는 CRL(인증서 해지 목록) [RFC5280] 확인을 포함하여 보호된 리소스에 요청할 때 TLS 인증서 체인의 유효성을 검사해야 합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  11498dbec6a1a21035566534a569040013c206065188bbb0c9f93bc4406dc4a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If one or more of the header fields being set is unsupported for
+        the resource, the server MUST reject the request with a 403
+        Unsupported Header Field, except as described in the next
+        paragraph.
+"fixed": |-
+  -  If one or more of the header fields being set is unsupported for the resource, the server MUST reject the request with a 403 Unsupported Header Field, except as described in the next paragraph.
+"ko": |-
+  - 설정된 헤더 필드 중 하나 이상이 리소스에서 지원되지 않는 경우, 서버는 다음 문단에 설명된 경우를 제외하고 403 지원되지 않는 헤더 필드를 통해 요청을 거부해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  a3f6e56f398d5aad6ebc38551d6f212c4230bcf4418ffff2fc98cc1229647636
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As the above table points out, implementations MUST NOT renegotiate a
+     downgrade from encrypt-then-MAC to MAC-then-encrypt.  Note that a
+     client or server that doesn't wish to implement the mechanism-change-
+     during-rehandshake ability can (as a client) not request a mechanism
+     change and (as a server) deny the mechanism change.
+"fixed": |-
+  As the above table points out, implementations MUST NOT renegotiate a downgrade from encrypt-then-MAC to MAC-then-encrypt.  Note that a client or server that doesn't wish to implement the mechanism-change- during-rehandshake ability can (as a client) not request a mechanism change and (as a server) deny the mechanism change.
+"ko": |-
+  위의 표에서 지적한 대로, 구현은 암호화-그 다음 MAC에서 MAC-그 다음 암호화로 다운그레이드를 재협상해서는 안 됩니다. 재핸드셰이크 중 메커니즘 변경 기능을 구현하고 싶지 않은 클라이언트나 서버는 (클라이언트로서) 메커니즘 변경을 요청하지 않고 (서버로서) 메커니즘 변경을 거부할 수 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  ae9ed851b6ed7e61b3012340c1b328b368d75189c908ac82101b34fdb0252701
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that receives a NEW_CONNECTION_ID frame with a sequence
+     number smaller than the Retire Prior To field of a previously
+     received NEW_CONNECTION_ID frame MUST send a corresponding
+     RETIRE_CONNECTION_ID frame that retires the newly received connection
+     ID, unless it has already done so for that sequence number.
+"fixed": |-
+  An endpoint that receives a NEW_CONNECTION_ID frame with a sequence number smaller than the Retire Prior To field of a previously received NEW_CONNECTION_ID frame MUST send a corresponding RETIRE_CONNECTION_ID frame that retires the newly received connection ID, unless it has already done so for that sequence number.
+"ko": |-
+  이전에 수신된 NEW_CONNECTION_ID 프레임의 Retire Prior To 필드보다 작은 시퀀스 번호를 가진 NEW_CONNECTION_ID 프레임을 수신하는 엔드포인트는 해당 시퀀스 번호에 대해 이미 그렇게 하지 않은 한 새로 수신된 연결 ID를 폐기하는 해당 RETIRE_CONNECTION_ID 프레임을 보내야 합니다.

@@ -1,0 +1,30 @@
+"hash": |-
+  3f48628c1df6c9e67292ae6a4a44b7e4685c412a867dc03592f278b1a1be7b60
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------------+----------------------+-------------------------+
+     | Job Attribute    | Printer: Default     | Printer: "Supported     |
+     |                  | Value Attribute      | Values" Attribute       |
+     +------------------+----------------------+-------------------------+
+     | job-priority     | job-priority-default | job-priority-supported  |
+     | (integer 1:100)  | (integer 1:100)      | (integer 1:100)         |
+     +------------------+----------------------+-------------------------+
+     | job-hold-until   | job-hold-until-      | job-hold-until-         |
+     | (type2 keyword | | default (type2       | supported (1setOf       |
+     | name)            | keyword | name)      | (type2 keyword | name)) |
+     +------------------+----------------------+-------------------------+
+     | job-sheets       | job-sheets-default   | job-sheets-supported    |
+     | (type2 keyword | | (type2 keyword |     | (1setOf (type2 keyword  |
+     | name)            | name)                | | name))                |
+     +------------------+----------------------+-------------------------+
+     | multiple-        | multiple-document-   | multiple-document-      |
+     | document-        | handling-default     | handling-supported      |
+     | handling (type2  | (type2 keyword)      | (1setOf type2 keyword)  |
+     | keyword)         |                      |                         |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  cffe368644f8febb396d357250f42c431f07ef2fe41a644d63f0845b0712e01e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Legacy SIP UAs without support for 'multipart' bodies generate a 415
+     (Unsupported Media Type) response when they receive a 'multipart'
+     body in a request.  A UAC sending a 'multipart' body can receive such
+     an error response when communicating with a legacy SIP UA that
+     predates this specification.
+"fixed": |-
+  Legacy SIP UAs without support for 'multipart' bodies generate a 415 (Unsupported Media Type) response when they receive a 'multipart' body in a request.  A UAC sending a 'multipart' body can receive such an error response when communicating with a legacy SIP UA that predates this specification.
+"ko": |-
+  '멀티파트' 본문을 지원하지 않는 레거시 SIP UA는 요청에서 '멀티파트' 본문을 수신하면 415(지원되지 않는 미디어 유형) 응답을 생성합니다. '멀티파트' 본문을 보내는 UAC는 이 사양보다 이전의 레거시 SIP UA와 통신할 때 이러한 오류 응답을 수신할 수 있습니다.

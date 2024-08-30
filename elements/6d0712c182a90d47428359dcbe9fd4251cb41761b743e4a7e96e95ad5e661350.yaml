@@ -1,0 +1,19 @@
+"hash": |-
+  6d0712c182a90d47428359dcbe9fd4251cb41761b743e4a7e96e95ad5e661350
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TRACE method requests a remote, application-level loop-back of
+     the request message.  The final recipient of the request SHOULD
+     reflect the message received, excluding some fields described below,
+     back to the client as the content of a 200 (OK) response.  The
+     "message/http" format (Section 10.1 of [HTTP/1.1]) is one way to do
+     so.  The final recipient is either the origin server or the first
+     server to receive a Max-Forwards value of zero (0) in the request
+     (Section 7.6.2).
+"fixed": |-
+  The TRACE method requests a remote, application-level loop-back of the request message.  The final recipient of the request SHOULD reflect the message received, excluding some fields described below, back to the client as the content of a 200 (OK) response.  The "message/http" format (Section 10.1 of [HTTP/1.1]) is one way to do so.  The final recipient is either the origin server or the first server to receive a Max-Forwards value of zero (0) in the request (Section 7.6.2).
+"ko": |-
+  TRACE 메소드는 요청 메시지의 원격 애플리케이션 수준 루프백을 요청합니다. 요청의 최종 수신자는 아래 설명된 일부 필드를 제외하고 수신된 메시지를 200(OK) 응답의 내용으로 클라이언트에 다시 반영해야 합니다. "message/http" 형식([HTTP/1.1]의 섹션 10.1)은 이를 수행하는 한 가지 방법입니다. 최종 수신자는 원본 서버이거나 요청에서 Max-Forwards 값 0(7.6.2절)을 수신한 첫 번째 서버입니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  bb10de722978ec6e59e68d590a3b5629e7fff7d65db39df8b88add07409d1036
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The server MUST send a certificate whenever the agreed-upon key
+        exchange method is not an anonymous one.  This message will always
+        immediately follow the server hello message.
+"fixed": |-
+  - The server MUST send a certificate whenever the agreed-upon key exchange method is not an anonymous one.  This message will always immediately follow the server hello message.
+"ko": |-
+  - 서버는 합의된 키 교환 방법이 익명이 아닐 때마다 인증서를 보내야 합니다. 이 메시지는 항상 서버 Hello 메시지 바로 뒤에 표시됩니다.

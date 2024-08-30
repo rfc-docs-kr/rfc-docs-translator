@@ -1,0 +1,16 @@
+"hash": |-
+  c453cbff45d836c262c0139d2bd512181a350b5fec46c0154138488043e5ff66
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     We observe that the "Hash" function used in the Finished message
+     computation already needs to be collision resistant for the
+     renegotiation indication extension [RFC5746] to work, because a
+     meaningful collision on the handshake messages (and hence on the
+     "verify_data") may re-enable the renegotiation attack [Ray09].
+"fixed": |-
+  We observe that the "Hash" function used in the Finished message computation already needs to be collision resistant for the renegotiation indication extension [RFC5746] to work, because a meaningful collision on the handshake messages (and hence on the "verify_data") may re-enable the renegotiation attack [Ray09].
+"ko": |-
+  재협상 표시 확장[RFC5746]이 작동하려면 완료 메시지 계산에 사용된 "해시" 함수가 이미 충돌 방지 기능이 있어야 한다는 점을 관찰했습니다. 핸드셰이크 메시지(따라서 "verify_data")에서 의미 있는 충돌이 발생하면 재협상 공격이 다시 활성화될 수 있기 때문입니다[Ray09].

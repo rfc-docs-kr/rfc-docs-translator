@@ -1,0 +1,17 @@
+"hash": |-
+  a1c6a537315af53f5c05bd9024dfbfea45c0b701020bd284bc2d6174ed61f1da
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     CertificationRequestInfo ::= SEQUENCE {
+          version       INTEGER { v1(0) } (v1,...),
+          subject       Name,
+          subjectPKInfo SubjectPublicKeyInfo{{ PKInfoAlgorithms }},
+          attributes    [0] Attributes{{ CRIAttributes }}
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

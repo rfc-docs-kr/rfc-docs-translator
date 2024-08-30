@@ -1,0 +1,17 @@
+"hash": |-
+  2f6cc8ffe5702e2f20ee70547a23a57543db0d4ae444af21a37492cd328f7306
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In this specification, however, all passwords are created from
+     BMPStrings with a NULL terminator.  This means that each character in
+     the original BMPString is encoded in 2 bytes in big-endian format
+     (most-significant byte first).  There are no Unicode byte order
+     marks.  The 2 bytes produced from the last character in the BMPString
+     are followed by 2 additional bytes with the value 0x00.
+"fixed": |-
+  In this specification, however, all passwords are created from BMPStrings with a NULL terminator.  This means that each character in the original BMPString is encoded in 2 bytes in big-endian format (most-significant byte first).  There are no Unicode byte order marks.  The 2 bytes produced from the last character in the BMPString are followed by 2 additional bytes with the value 0x00.
+"ko": |-
+  그러나 이 사양에서 모든 비밀번호는 NULL 종료자가 있는 BMPString에서 생성됩니다. 즉, 원래 BMPString의 각 문자는 빅 엔디언 형식(최상위 바이트 먼저)으로 2바이트로 인코딩됩니다. 유니코드 바이트 순서 표시는 없습니다. BMPString의 마지막 문자에서 생성된 2바이트 뒤에 값이 0x00인 추가 2바이트가 옵니다.

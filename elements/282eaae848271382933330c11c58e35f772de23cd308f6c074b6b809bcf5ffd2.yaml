@@ -1,0 +1,15 @@
+"hash": |-
+  282eaae848271382933330c11c58e35f772de23cd308f6c074b6b809bcf5ffd2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A peer MUST conclude the list of protocol options with the end
+     option.  Subsequent octets should be considered protocol messages.
+     The code for the end option is 255, and unlike others, it has no
+     value octet, so the option's length is 1 octet.
+"fixed": |-
+  A peer MUST conclude the list of protocol options with the end option.  Subsequent octets should be considered protocol messages. The code for the end option is 255, and unlike others, it has no value octet, so the option's length is 1 octet.
+"ko": |-
+  피어는 반드시 end 옵션으로 프로토콜 옵션 목록을 마무리해야 합니다. 후속 옥텟은 프로토콜 메시지로 간주되어야 합니다. end 옵션의 코드는 255이고, 다른 것과 달리 옥텟 값이 없으므로 옵션 길이는 1 옥텟이다.

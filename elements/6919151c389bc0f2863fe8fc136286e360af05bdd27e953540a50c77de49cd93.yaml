@@ -1,0 +1,59 @@
+"hash": |-
+  6919151c389bc0f2863fe8fc136286e360af05bdd27e953540a50c77de49cd93
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+             5.1.3. 'name' .............................................95
+                    5.1.3.1. 'nameWithoutLanguage' .....................96
+                    5.1.3.2. 'nameWithLanguage' ........................96
+                    5.1.3.3. Matching 'name' Attribute Values ..........97
+             5.1.4. 'keyword' ..........................................98
+             5.1.5. 'enum' .............................................99
+             5.1.6. 'uri' .............................................100
+             5.1.7. 'uriScheme' .......................................100
+             5.1.8. 'charset' .........................................101
+             5.1.9. 'naturalLanguage' .................................102
+             5.1.10. 'mimeMediaType' ..................................102
+                    5.1.10.1. 'application/octet-stream' -
+                              Auto-Sensing the Document Format ........103
+             5.1.11. 'octetString' ....................................104
+             5.1.12. 'boolean' ........................................104
+             5.1.13. 'integer' ........................................104
+             5.1.14. 'rangeOfInteger' .................................105
+             5.1.15. 'dateTime' .......................................105
+             5.1.16. 'resolution' .....................................105
+             5.1.17. 'collection' .....................................105
+             5.1.18. '1setOf X' .......................................106
+        5.2. Job Template Attributes ..................................106
+             5.2.1. job-priority (integer(1:100)) .....................109
+             5.2.2. job-hold-until (type2 keyword | name(MAX)) ........111
+             5.2.3. job-sheets (type2 keyword | name(MAX)) ............112
+             5.2.4. multiple-document-handling (type2 keyword) ........113
+             5.2.5. copies (integer(1:MAX)) ...........................115
+             5.2.6. finishings (1setOf type2 enum) ....................115
+             5.2.7. page-ranges (1setOf rangeOfInteger(1:MAX)) ........118
+             5.2.8. sides (type2 keyword) .............................119
+             5.2.9. number-up (integer(1:MAX)) ........................120
+             5.2.10. orientation-requested (type2 enum) ...............120
+             5.2.11. media (type2 keyword | name(MAX)) ................123
+             5.2.12. printer-resolution (resolution) ..................124
+             5.2.13. print-quality (type2 enum) .......................124
+        5.3. Job Description and Status Attributes ....................124
+             5.3.1. job-id (integer(1:MAX)) ...........................126
+             5.3.2. job-uri (uri) .....................................126
+             5.3.3. job-printer-uri (uri) .............................127
+             5.3.4. job-more-info (uri) ...............................127
+             5.3.5. job-name (name(MAX)) ..............................127
+             5.3.6. job-originating-user-name (name(MAX)) .............128
+             5.3.7. job-state (type1 enum) ............................128
+                    5.3.7.1. Forwarding Servers .......................132
+                    5.3.7.2. Partitioning of Job States ...............132
+             5.3.8. job-state-reasons (1setOf type2 keyword) ..........133
+             5.3.9. job-state-message (text(MAX)) .....................138
+             5.3.10. job-detailed-status-messages (1setOf text(MAX)) ..139
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

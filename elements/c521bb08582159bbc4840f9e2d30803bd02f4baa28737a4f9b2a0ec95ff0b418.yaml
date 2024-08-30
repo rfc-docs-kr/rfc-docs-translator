@@ -1,0 +1,19 @@
+"hash": |-
+  c521bb08582159bbc4840f9e2d30803bd02f4baa28737a4f9b2a0ec95ff0b418
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Any HTTP/1.0 message containing an entity body should include a
+     Content-Type header field defining the media type of that body. If
+     and only if the media type is not given by a Content-Type header, as
+     is the case for Simple-Response messages, the recipient may attempt
+     to guess the media type via inspection of its content and/or the name
+     extension(s) of the URL used to identify the resource. If the media
+     type remains unknown, the recipient should treat it as type
+     "application/octet-stream".
+"fixed": |-
+  Any HTTP/1.0 message containing an entity body should include a Content-Type header field defining the media type of that body. If and only if the media type is not given by a Content-Type header, as is the case for Simple-Response messages, the recipient may attempt to guess the media type via inspection of its content and/or the name extension(s) of the URL used to identify the resource. If the media type remains unknown, the recipient should treat it as type "application/octet-stream".
+"ko": |-
+  엔터티 본문을 포함하는 모든 HTTP/1.0 메시지에는 해당 본문의 미디어 유형을 정의하는 Content-Type 헤더 필드가 포함되어야 합니다. Simple-Response 메시지의 경우처럼 미디어 유형이 Content-Type 헤더에 의해 제공되지 않는 경우에만 수신자는 콘텐츠 및/또는 이름 확장자를 검사하여 미디어 유형을 추측하려고 시도할 수 있습니다. 리소스를 식별하는 데 사용되는 URL입니다. 미디어 유형을 알 수 없는 경우 수신자는 이를 "application/octet-stream" 유형으로 처리해야 합니다.

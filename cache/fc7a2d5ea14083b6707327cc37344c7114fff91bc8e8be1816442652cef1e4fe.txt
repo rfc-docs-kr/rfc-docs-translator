@@ -1,0 +1,1 @@
+KeyTransPSKRecipientInfo ::= SEQUENCE { 버전 CMSVersion, -- 항상 0으로 설정 pskid PreSharedKeyIdentifier, kdfAlgorithm KeyDerivationAlgorithmIdentifier, keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier, ktris KeyTransRecipientInfos, cryptoKey EncryptedKey }

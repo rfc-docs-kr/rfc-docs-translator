@@ -1,0 +1,17 @@
+"hash": |-
+  045b60be4d8c1a3f909a6228f30d08ac99042fe20111af03e648f98dcd1cf9b9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that if the server sends a TLS HelloRetryRequest (see
+     Section 4.7 of [QUIC-TLS]), the client will send another series of
+     Initial packets.  These Initial packets will continue the
+     cryptographic handshake and will contain CRYPTO frames starting at an
+     offset matching the size of the CRYPTO frames sent in the first
+     flight of Initial packets.
+"fixed": |-
+  Note that if the server sends a TLS HelloRetryRequest (see Section 4.7 of [QUIC-TLS]), the client will send another series of Initial packets.  These Initial packets will continue the cryptographic handshake and will contain CRYPTO frames starting at an offset matching the size of the CRYPTO frames sent in the first flight of Initial packets.
+"ko": |-
+  서버가 TLS HelloRetryRequest([QUIC-TLS]의 섹션 4.7 참조)를 보내는 경우 클라이언트는 또 다른 일련의 초기 패킷을 보냅니다. 이러한 초기 패킷은 암호화 핸드셰이크를 계속하며 초기 패킷의 첫 번째 비행에서 전송된 CRYPTO 프레임의 크기와 일치하는 오프셋에서 시작하는 CRYPTO 프레임을 포함합니다.

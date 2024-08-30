@@ -9,7 +9,7 @@
      the one-time Poly1305 key and the keystream are identical between the
      messages.  This reveals the XOR of the plaintexts, because the XOR of
      the plaintexts is equal to the XOR of the ciphertexts.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Consequences of repeating a nonce: If a nonce is repeated, then both the one-time Poly1305 key and the keystream are identical between the messages.  This reveals the XOR of the plaintexts, because the XOR of the plaintexts is equal to the XOR of the ciphertexts.
+"ko": |-
+  Nonce 반복의 결과: Nonce가 반복되면 메시지 간에 일회용 Poly1305 키와 키 스트림이 모두 동일합니다. 이는 일반 텍스트의 XOR이 암호문의 XOR과 동일하기 때문에 일반 텍스트의 XOR을 나타냅니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  9b21d2e7aa0a1ca1b7e9132b388154f604aa58679ad0d4430e80f543985d8084
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Following this algorithm ensures that ECN is rarely disabled for
+     paths that properly support ECN.  Any path that incorrectly modifies
+     markings will cause ECN to be disabled.  For those rare cases where
+     marked packets are discarded by the path, the short duration of the
+     testing period limits the number of losses incurred.
+"fixed": |-
+  Following this algorithm ensures that ECN is rarely disabled for paths that properly support ECN.  Any path that incorrectly modifies markings will cause ECN to be disabled.  For those rare cases where marked packets are discarded by the path, the short duration of the testing period limits the number of losses incurred.
+"ko": |-
+  이 알고리즘을 따르면 ECN을 제대로 지원하는 경로에 대해 ECN이 거의 비활성화되지 않습니다. 표시를 잘못 수정하는 경로로 인해 ECN이 비활성화됩니다. 표시된 패킷이 경로에 의해 삭제되는 드문 경우의 경우 짧은 테스트 기간으로 인해 발생하는 손실 수가 제한됩니다.

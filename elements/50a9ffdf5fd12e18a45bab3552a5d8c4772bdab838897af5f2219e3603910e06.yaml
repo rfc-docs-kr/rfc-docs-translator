@@ -1,0 +1,23 @@
+"hash": |-
+  50a9ffdf5fd12e18a45bab3552a5d8c4772bdab838897af5f2219e3603910e06
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients and servers MUST implement TLS 1.2 [TLS-1.2] or newer.  Use
+     of TLS 1.3 [TLS-1.3] is RECOMMENDED.  TLS 1.2 may be used only in
+     cases where the other party has not yet implemented TLS 1.3.
+     Additionally, when using TLS 1.2, IMAP implementations MUST implement
+     the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 cipher suite.  This is
+     important as it ensures that any two compliant implementations can be
+     configured to interoperate.  Other TLS cipher suites recommended in
+     RFC 7525 [RFC7525] are RECOMMENDED:
+     TLS_DHE_RSA_WITH_AES_128_GCM_SHA256,
+     TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, and
+     TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384.  All other cipher suites are
+     OPTIONAL.  Note that this is a change from Section 2.1 of [IMAP-TLS].
+"fixed": |-
+  Clients and servers MUST implement TLS 1.2 [TLS-1.2] or newer.  Use of TLS 1.3 [TLS-1.3] is RECOMMENDED.  TLS 1.2 may be used only in cases where the other party has not yet implemented TLS 1.3. Additionally, when using TLS 1.2, IMAP implementations MUST implement the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 cipher suite.  This is important as it ensures that any two compliant implementations can be configured to interoperate.  Other TLS cipher suites recommended in RFC 7525 [RFC7525] are RECOMMENDED: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, and TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384.  All other cipher suites are OPTIONAL.  Note that this is a change from Section 2.1 of [IMAP-TLS].
+"ko": |-
+  클라이언트와 서버는 TLS 1.2[TLS-1.2] 이상을 구현해야 합니다.  TLS 1.3[TLS-1.3] 사용을 권장합니다.  TLS 1.2는 상대방이 아직 TLS 1.3을 구현하지 않은 경우에만 사용할 수 있습니다. 또한 TLS 1.2를 사용하는 경우 IMAP 구현은 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 암호화 제품군을 구현해야 합니다.  이는 두 개의 호환 구현이 상호 운용되도록 구성할 수 있다는 점에서 중요합니다.  RFC 7525 [RFC7525]에서 권장되는 기타 TLS 암호화 제품군은 권장됩니다: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 및 TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384.  다른 모든 암호 제품군은 선택 사항입니다.  이는 [IMAP-TLS]의 섹션 2.1에서 변경된 사항입니다.

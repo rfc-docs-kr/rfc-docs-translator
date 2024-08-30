@@ -1,0 +1,44 @@
+"hash": |-
+  233c12bb9ea5769303b3f6f3c28b6dea9313824c89550b28f60cf33948ad8b6b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-------------------+--------------------+--------------------------+
+     | Current "job-     | New "job-state"    | Printer's response       |
+     | state"            |                    | status-code and action:  |
+     +-------------------+--------------------+--------------------------+
+     | 'pending'         | 'canceled'         | 'successful-ok'          |
+     +-------------------+--------------------+--------------------------+
+     | 'pending-held'    | 'canceled'         | 'successful-ok'          |
+     +-------------------+--------------------+--------------------------+
+     | 'processing'      | 'canceled'         | 'successful-ok'          |
+     +-------------------+--------------------+--------------------------+
+     | 'processing'      | 'processing'       | 'successful-ok' (note 1) |
+     +-------------------+--------------------+--------------------------+
+     | 'processing'      | 'processing'       | 'client-error-not-       |
+     |                   |                    | possible' (note 2)       |
+     +-------------------+--------------------+--------------------------+
+     | 'processing-      | 'canceled'         | 'successful-ok'          |
+     | stopped'          |                    |                          |
+     +-------------------+--------------------+--------------------------+
+     | 'processing-      | 'processing-       | 'successful-ok' (note 1) |
+     | stopped'          | stopped'           |                          |
+     +-------------------+--------------------+--------------------------+
+     | 'processing-      | 'processing-       | 'client-error-not-       |
+     | stopped'          | stopped'           | possible' (note 2)       |
+     +-------------------+--------------------+--------------------------+
+     | 'completed'       | 'completed'        | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'canceled'        | 'canceled'         | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'aborted'         | 'aborted'          | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

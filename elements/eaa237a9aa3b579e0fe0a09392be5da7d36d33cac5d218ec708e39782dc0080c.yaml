@@ -1,0 +1,22 @@
+"hash": |-
+  eaa237a9aa3b579e0fe0a09392be5da7d36d33cac5d218ec708e39782dc0080c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       struct {
+           uint16 msg_length;
+           uint8 msg_type;
+           Version version;
+           uint16 cipher_spec_length;
+           uint16 session_id_length;
+           uint16 challenge_length;
+           V2CipherSpec cipher_specs[V2ClientHello.cipher_spec_length];
+           opaque session_id[V2ClientHello.session_id_length];
+           opaque challenge[V2ClientHello.challenge_length;
+       } V2ClientHello;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

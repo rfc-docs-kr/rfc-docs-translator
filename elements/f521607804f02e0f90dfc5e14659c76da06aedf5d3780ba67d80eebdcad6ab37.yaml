@@ -1,0 +1,29 @@
+"hash": |-
+  f521607804f02e0f90dfc5e14659c76da06aedf5d3780ba67d80eebdcad6ab37
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: The "ipp-attribute-fidelity" attribute applies to the Printer's
+     ability to either accept or reject other unsupported Job Template
+     attributes.  In other words, if "ipp-attribute-fidelity" is set to
+     'true', a Job is accepted if and only if the Client-supplied Job
+     Template attributes and values are supported by the Printer.  Whether
+     these attributes actually affect the processing of the Job when the
+     Document data contains embedded instructions depends on the ability
+     of the Printer to override the instructions embedded in the Document
+     data with the semantics of the IPP attributes.  If the Document data
+     attributes can be overridden ("pdl-override-supported" set to
+     'attempted'), the Printer makes an attempt to use the IPP attributes
+     when processing the Job.  If the Document data attributes cannot be
+     overridden ("pdl-override-supported" set to 'not-attempted'), the
+     Printer makes no attempt to override the embedded Document data
+     instructions with the IPP attributes when processing the Job, and
+     hence, the IPP attributes can fail to affect the Job processing and
+     output when the corresponding instruction is embedded in the
+     Document data.
+"fixed": |-
+  Note: The "ipp-attribute-fidelity" attribute applies to the Printer's ability to either accept or reject other unsupported Job Template attributes.  In other words, if "ipp-attribute-fidelity" is set to 'true', a Job is accepted if and only if the Client-supplied Job Template attributes and values are supported by the Printer.  Whether these attributes actually affect the processing of the Job when the Document data contains embedded instructions depends on the ability of the Printer to override the instructions embedded in the Document data with the semantics of the IPP attributes.  If the Document data attributes can be overridden ("pdl-override-supported" set to 'attempted'), the Printer makes an attempt to use the IPP attributes when processing the Job.  If the Document data attributes cannot be overridden ("pdl-override-supported" set to 'not-attempted'), the Printer makes no attempt to override the embedded Document data instructions with the IPP attributes when processing the Job, and hence, the IPP attributes can fail to affect the Job processing and output when the corresponding instruction is embedded in the Document data.
+"ko": |-
+  참고: "ipp-attribute-fidelity" 속성은 지원되지 않는 다른 작업 템플릿 속성을 수락하거나 거부하는 프린터 기능에 적용됩니다. 즉, "ipp-attribute-fidelity"가 'true'로 설정된 경우 클라이언트 제공 작업 템플릿 속성 및 값이 프린터에서 지원되는 경우에만 작업이 허용됩니다. 문서 데이터에 포함된 명령이 포함되어 있을 때 이러한 속성이 실제로 작업 처리에 영향을 미치는지 여부는 IPP 속성의 의미로 문서 데이터에 포함된 명령을 재정의하는 프린터의 능력에 따라 달라집니다. 문서 데이터 속성을 재정의할 수 있는 경우("pdl-override-supported"를 '시도'로 설정) 프린터는 작업을 처리할 때 IPP 속성을 사용하려고 시도합니다. 문서 데이터 속성을 재정의할 수 없는 경우("pdl-override-supported"를 '시도하지 않음'으로 설정) 프린터는 작업을 처리할 때 IPP 속성으로 내장된 문서 데이터 명령을 재정의하려고 시도하지 않습니다. IPP 속성은 해당 명령이 문서 데이터에 포함된 경우 작업 처리 및 출력에 영향을 미치지 못할 수 있습니다.

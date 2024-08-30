@@ -1,0 +1,15 @@
+"hash": |-
+  64fb43986412a7863eb2200372eccaa8b3a0389331f53a5e7f3559ac31440d19
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Using the same private key for different algorithms has the potential
+     of allowing an attacker to get extra information about the key.  It
+     is strongly suggested that the same key not be used for both the PKCS
+     #1 v1.5 and RSASSA-PSS signature algorithms.
+"fixed": |-
+  Using the same private key for different algorithms has the potential of allowing an attacker to get extra information about the key.  It is strongly suggested that the same key not be used for both the PKCS #1 v1.5 and RSASSA-PSS signature algorithms.
+"ko": |-
+  서로 다른 알고리즘에 동일한 개인 키를 사용하면 공격자가 키에 대한 추가 정보를 얻을 수 있는 가능성이 있습니다. PKCS #1 v1.5 및 RSASSA-PSS 서명 알고리즘 모두에 동일한 키를 사용하지 않는 것이 좋습니다.

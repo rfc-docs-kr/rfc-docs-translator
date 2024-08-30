@@ -1,0 +1,1 @@
+클라이언트가 해당 서버로 보낸 모든 후속 SIP 요청은 이전 단계에서 시작된 보안 메커니즘을 사용해야 합니다. 이러한 요청에는 이전에 Security-Server 헤더 필드에서 수신한 서버 목록을 반영하는 Security-Verify 헤더 필드가 포함되어야 합니다. 이러한 요청에는 "sec-agree" 값을 가진 Require 및 Proxy-Require 헤더 필드가 모두 있어야 합니다.

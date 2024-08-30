@@ -1,0 +1,25 @@
+"hash": |-
+  640503ecd3ea376de99b659a721554c832b485770644d665d434ad9fc0ca557f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The minimising resolver works perfectly when it knows the zone cut
+     (zone cuts are described in Section 6 of [RFC2181]).  But zone cuts
+     do not necessarily exist at every label boundary.  If we take the
+     name www.foo.bar.example, it is possible that there is a zone cut
+     between "foo" and "bar" but not between "bar" and "example".  So,
+     assuming that the resolver already knows the name servers of
+     .example, when it receives the query "What is the AAAA record of
+     www.foo.bar.example?", it does not always know where the zone cut
+     will be.  To find the zone cut, it will query the .example
+     name servers for the NS records for bar.example.  It will get a
+     NODATA response, indicating that there is no zone cut at that point,
+     so it has to query the .example name servers again with one more
+     label, and so on.  (Appendix A describes this algorithm in deeper
+     detail.)
+"fixed": |-
+  The minimising resolver works perfectly when it knows the zone cut (zone cuts are described in Section 6 of [RFC2181]).  But zone cuts do not necessarily exist at every label boundary.  If we take the name www.foo.bar.example, it is possible that there is a zone cut between "foo" and "bar" but not between "bar" and "example".  So, assuming that the resolver already knows the name servers of .example, when it receives the query "What is the AAAA record of www.foo.bar.example?", it does not always know where the zone cut will be.  To find the zone cut, it will query the .example name servers for the NS records for bar.example.  It will get a NODATA response, indicating that there is no zone cut at that point, so it has to query the .example name servers again with one more label, and so on.  (Appendix A describes this algorithm in deeper detail.)
+"ko": |-
+  최소화 리졸버는 영역 컷을 알고 있을 때 완벽하게 작동합니다(영역 컷은 [RFC2181]의 섹션 6에 설명되어 있음). 그러나 구역 절단이 반드시 모든 레이블 경계에 존재하는 것은 아닙니다. www.foo.bar.example이라는 이름을 사용하면 "foo"와 "bar" 사이에 영역 절단이 있지만 "bar"와 "example" 사이에는 영역 절단이 없을 ​​가능성이 있습니다. 따라서 확인자가 이미 .example의 이름 서버를 알고 있다고 가정하면 "www.foo.bar.example의 AAAA 레코드는 무엇입니까?"라는 쿼리를 수신할 때 영역 컷이 어디에 있는지 항상 알 수는 없습니다. 영역 컷을 찾기 위해 bar.example에 대한 NS 레코드에 대해 .example 이름 서버를 쿼리합니다. NODATA 응답을 받게 되는데, 이는 해당 시점에 영역 분할이 없음을 나타내므로 레이블을 하나 더 추가하여 .example 이름 서버에 다시 쿼리해야 한다는 식입니다. (부록 A에서는 이 알고리즘을 더 자세히 설명합니다.)

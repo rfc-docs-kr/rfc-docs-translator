@@ -1,0 +1,19 @@
+"hash": |-
+  79ca365aa08e8a3c15a04a58bffc99a9410e55eed7c1d327c3e257097897e5d6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This OPTIONAL operation allows a Client to stop the Printer from
+     scheduling Jobs on all its devices.  Depending on implementation, the
+     Pause-Printer operation MAY also stop the Printer from processing the
+     current Job or Jobs.  Any Job that is currently being printed is
+     either (1) stopped as soon as the implementation permits or
+     (2) completed, depending on implementation.  The Printer MUST still
+     accept Job Creation requests to create new Jobs but MUST prevent any
+     Jobs from entering the 'processing' state.
+"fixed": |-
+  This OPTIONAL operation allows a Client to stop the Printer from scheduling Jobs on all its devices.  Depending on implementation, the Pause-Printer operation MAY also stop the Printer from processing the current Job or Jobs.  Any Job that is currently being printed is either (1) stopped as soon as the implementation permits or (2) completed, depending on implementation.  The Printer MUST still accept Job Creation requests to create new Jobs but MUST prevent any Jobs from entering the 'processing' state.
+"ko": |-
+  이 선택적 작업을 통해 클라이언트는 프린터가 모든 장치에서 작업을 예약하는 것을 중지할 수 있습니다. 구현에 따라 Pause-Printer 작업은 프린터가 현재 작업을 처리하는 것을 중지할 수도 있습니다. 현재 인쇄 중인 모든 작업은 구현에 따라 (1) 구현이 허용되는 즉시 중지되거나 (2) 완료됩니다. 프린터는 새 작업을 생성하기 위한 작업 생성 요청을 계속 수락해야 하지만 모든 작업이 '처리 중' 상태로 전환되는 것을 방지해야 합니다.

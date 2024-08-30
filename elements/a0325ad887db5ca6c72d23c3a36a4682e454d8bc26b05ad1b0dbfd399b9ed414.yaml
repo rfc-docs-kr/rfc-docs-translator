@@ -1,0 +1,21 @@
+"hash": |-
+  a0325ad887db5ca6c72d23c3a36a4682e454d8bc26b05ad1b0dbfd399b9ed414
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A BGP speaker may originate BGP routes by injecting routing
+     information acquired by some other means (e.g., via an IGP) into BGP.
+     A BGP speaker that originates BGP routes assigns the degree of
+     preference (e.g., according to local configuration) to these routes
+     by passing them through the Decision Process (see Section 9.1).
+     These routes MAY also be distributed to other BGP speakers within the
+     local AS as part of the update process (see Section 9.2).  The
+     decision of whether to distribute non-BGP acquired routes within an
+     AS via BGP depends on the environment within the AS (e.g., type of
+     IGP) and SHOULD be controlled via configuration.
+"fixed": |-
+  A BGP speaker may originate BGP routes by injecting routing information acquired by some other means (e.g., via an IGP) into BGP. A BGP speaker that originates BGP routes assigns the degree of preference (e.g., according to local configuration) to these routes by passing them through the Decision Process (see Section 9.1). These routes MAY also be distributed to other BGP speakers within the local AS as part of the update process (see Section 9.2).  The decision of whether to distribute non-BGP acquired routes within an AS via BGP depends on the environment within the AS (e.g., type of IGP) and SHOULD be controlled via configuration.
+"ko": |-
+  BGP 스피커는 다른 수단(예: IGP를 통해)으로 획득한 라우팅 정보를 BGP에 주입하여 BGP 경로를 시작할 수 있습니다. BGP 경로를 시작하는 BGP 스피커는 결정 프로세스(섹션 9.1 참조)를 통해 이러한 경로에 선호도(예: 로컬 구성에 따라)를 할당합니다. 이러한 경로는 업데이트 프로세스의 일부로 로컬 AS 내의 다른 BGP 스피커에도 배포될 수 있습니다(섹션 9.2 참조). BGP를 통해 AS 내에서 BGP가 아닌 획득 경로를 배포할지 여부에 대한 결정은 AS 내 환경(예: IGP 유형)에 따라 다르며 구성을 통해 제어되어야 합니다.

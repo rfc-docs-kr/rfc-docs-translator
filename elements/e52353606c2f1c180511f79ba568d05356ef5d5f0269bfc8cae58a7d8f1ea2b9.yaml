@@ -1,0 +1,27 @@
+"hash": |-
+  e52353606c2f1c180511f79ba568d05356ef5d5f0269bfc8cae58a7d8f1ea2b9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Resistance to dictionary attack means that the adversary must launch
+     an active attack to make a single guess at the pre-shared key.  If
+     the size of the pool from which the key was extracted was d and each
+     key in the pool has an equal probability of being chosen, then the
+     probability of success after a single guess is 1/d.  After x guesses,
+     and removal of failed guesses from the pool of possible keys, the
+     probability becomes 1/(d-x).  As x grows, so does the probability of
+     success.  Therefore, it is possible for an adversary to determine the
+     pre-shared key through repeated brute-force, active, guessing
+     attacks.  This authentication method does not presume to be secure
+     against this, and implementations SHOULD ensure the value of d is
+     sufficiently large to prevent this attack.  Implementations SHOULD
+     also take countermeasures, for instance, refusing authentication
+     attempts for a certain amount of time after the number of failed
+     authentication attempts reaches a certain threshold.  No such
+     threshold or amount of time is recommended in this memo.
+"fixed": |-
+  Resistance to dictionary attack means that the adversary must launch an active attack to make a single guess at the pre-shared key.  If the size of the pool from which the key was extracted was d and each key in the pool has an equal probability of being chosen, then the probability of success after a single guess is 1/d.  After x guesses, and removal of failed guesses from the pool of possible keys, the probability becomes 1/(d-x).  As x grows, so does the probability of success.  Therefore, it is possible for an adversary to determine the pre-shared key through repeated brute-force, active, guessing attacks.  This authentication method does not presume to be secure against this, and implementations SHOULD ensure the value of d is sufficiently large to prevent this attack.  Implementations SHOULD also take countermeasures, for instance, refusing authentication attempts for a certain amount of time after the number of failed authentication attempts reaches a certain threshold.  No such threshold or amount of time is recommended in this memo.
+"ko": |-
+  사전 공격에 대한 저항은 공격자가 사전 공유 키에 대해 단일 추측을 하기 위해 적극적인 공격을 시작해야 함을 의미합니다.  키가 추출된 풀의 크기가 d이고 풀의 각 키가 선택될 확률이 동일한 경우 단일 추측 후 성공 확률은 1/d입니다.  x개의 추측을 하고 가능한 키 풀에서 실패한 추측을 제거한 후 확률은 1/(d-x)가 됩니다.  x가 커지면 성공 확률도 커집니다.  따라서 공격자가 반복적인 무차별 대입 공격, 적극적 추측 공격을 통해 사전 공유 키를 알아내는 것이 가능합니다.  이 인증 방법은 이에 대해 안전하다고 가정하지 않으며 구현에서는 d 값이 이 공격을 방지할 만큼 충분히 큰지 확인해야 합니다.  또한 구현에서는 실패한 인증 시도 횟수가 특정 임계값에 도달한 후 일정 시간 동안 인증 시도를 거부하는 등의 대응 조치를 취해야 합니다.  이 메모에서는 그러한 임계값이나 시간을 권장하지 않습니다.

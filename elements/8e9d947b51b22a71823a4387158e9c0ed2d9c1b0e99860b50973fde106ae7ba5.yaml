@@ -1,0 +1,20 @@
+"hash": |-
+  8e9d947b51b22a71823a4387158e9c0ed2d9c1b0e99860b50973fde106ae7ba5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PKCS12BagSet BAG-TYPE ::= {
+         keyBag |
+         pkcs8ShroudedKeyBag |
+         certBag |
+         crlBag |
+         secretBag |
+         safeContentsBag,
+         ... -- For future extensions
+     }
+"fixed": |-
+  PKCS12BagSet BAG-TYPE ::= {  -   keyBag | pkcs8ShroudedKeyBag | certBag | crlBag | secretBag | safeContentsBag, ... -- For future extensions }
+"ko": |-
+  PKCS12BagSet BAG-TYPE ::= { - keyBag | pkcs8ShroudedKeyBag | certBag | crlBag | secretBag | safeContentsBag, ... -- 향후 확장을 위해 }

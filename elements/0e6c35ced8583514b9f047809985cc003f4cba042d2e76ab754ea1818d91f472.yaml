@@ -1,0 +1,14 @@
+"hash": |-
+  0e6c35ced8583514b9f047809985cc003f4cba042d2e76ab754ea1818d91f472
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TLS server MUST NOT select an FFDHE cipher suite if the client did
+     not offer one, even if the client offered an FFDHE group in the
+     Supported Groups extension.
+"fixed": |-
+  A TLS server MUST NOT select an FFDHE cipher suite if the client did not offer one, even if the client offered an FFDHE group in the Supported Groups extension.
+"ko": |-
+  클라이언트가 지원 그룹 확장에서 FFDHE 그룹을 제공했더라도 클라이언트가 FFDHE 암호 그룹을 제공하지 않은 경우 TLS 서버는 FFDHE 암호 그룹을 선택해서는 안 됩니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  17a62b16426e129f7c7ef7b442a611620198c6acc186b3386ad02d90393585f5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Error checking of an UPDATE message begins by examining the path
+     attributes.  If the Withdrawn Routes Length or Total Attribute Length
+     is too large (i.e., if Withdrawn Routes Length + Total Attribute
+     Length + 23 exceeds the message Length), then the Error Subcode MUST
+     be set to Malformed Attribute List.
+"fixed": |-
+  Error checking of an UPDATE message begins by examining the path attributes.  If the Withdrawn Routes Length or Total Attribute Length is too large (i.e., if Withdrawn Routes Length + Total Attribute Length + 23 exceeds the message Length), then the Error Subcode MUST be set to Malformed Attribute List.
+"ko": |-
+  UPDATE 메시지의 오류 검사는 경로 속성을 검사하는 것으로 시작됩니다. 철회된 경로 길이 또는 총 속성 길이가 너무 큰 경우(즉, 철회된 경로 길이 + 총 속성 길이 + 23이 메시지 길이를 초과하는 경우) 오류 하위 코드를 잘못된 속성 목록으로 설정해야 합니다.

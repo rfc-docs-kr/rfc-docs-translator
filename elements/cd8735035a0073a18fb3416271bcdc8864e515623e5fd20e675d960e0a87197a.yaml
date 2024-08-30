@@ -1,0 +1,17 @@
+"hash": |-
+  cd8735035a0073a18fb3416271bcdc8864e515623e5fd20e675d960e0a87197a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the handling of a 'multipart/alternative' body as a whole is
+     required for processing its enclosing body part or message, the UA
+     MUST set the 'handling' parameter of the 'multipart/alternative' body
+     to 'required'.  Otherwise, the UA MUST set it to 'optional'.  The UA
+     SHOULD also set the 'handling' parameter of all the top-level body
+     part within the 'multipart/alternative' to 'optional'.
+"fixed": |-
+  If the handling of a 'multipart/alternative' body as a whole is required for processing its enclosing body part or message, the UA MUST set the 'handling' parameter of the 'multipart/alternative' body to 'required'.  Otherwise, the UA MUST set it to 'optional'.  The UA SHOULD also set the 'handling' parameter of all the top-level body part within the 'multipart/alternative' to 'optional'.
+"ko": |-
+  'multipart/alternative' 본문 전체를 처리하는 것이 포함된 본문 부분 또는 메시지를 처리하는 데 필요한 경우 UA는 'multipart/alternative' 본문의 'handling' 매개변수를 'required'로 설정해야 합니다. 그렇지 않은 경우 UA는 'optional'로 설정해야 합니다. UA는 또한 'multipart/alternative' 내의 모든 최상위 본문 부분의 'handling' 매개변수를 'optional'로 설정해야 합니다.

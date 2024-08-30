@@ -1,0 +1,15 @@
+"hash": |-
+  a64538574f73c6ba0b95b3663a69983a6931f3e7fedf52ecdb8b11717bd658d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In DSS, the 20 bytes of the SHA hash are run directly through the
+     Digital Signing Algorithm with no additional hashing.  This produces
+     two values, r and s.  The DSS signature is an opaque vector, as
+     above, the contents of which are the DER encoding of:
+"fixed": |-
+  In DSS, the 20 bytes of the SHA hash are run directly through the Digital Signing Algorithm with no additional hashing.  This produces two values, r and s.  The DSS signature is an opaque vector, as above, the contents of which are the DER encoding of:
+"ko": |-
+  DSS에서는 SHA 해시의 20바이트가 추가 해싱 없이 디지털 서명 알고리즘을 통해 직접 실행됩니다. 그러면 r과 s라는 두 값이 생성됩니다. DSS 서명은 위와 같이 불투명한 벡터이며 그 내용은 다음의 DER 인코딩입니다.

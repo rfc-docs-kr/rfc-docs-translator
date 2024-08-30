@@ -1,0 +1,70 @@
+"hash": |-
+  daaa84d138b2998f5a20ca0acfff2424a84a41de54920ca5de3579d6f7edb2b4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     S:   * OK [CAPABILITY STARTTLS AUTH=SCRAM-SHA-256 LOGINDISABLED
+           IMAP4rev2] IMAP4rev2 Service Ready
+     C:   a000 starttls
+     S:   a000 OK Proceed with TLS negotiation
+      <TLS negotiation>
+     C:   A001 AUTHENTICATE SCRAM-SHA-256
+           biwsbj11c2VyLHI9ck9wck5HZndFYmVSV2diTkVrcU8=
+     S:   + cj1yT3ByTkdmd0ViZVJXZ2JORWtxTyVodllEcFdVYTJSYVRDQWZ1eEZJbGopaE
+          5sRiRrMCxzPVcyMlphSjBTTlk3c29Fc1VFamI2Z1E9PSxpPTQwOTY=
+     C:   Yz1iaXdzLHI9ck9wck5HZndFYmVSV2diTkVrcU8laHZZRHBXVWEyUmFUQ0FmdXhG
+          SWxqKWhObEYkazAscD1kSHpiWmFwV0lrNGpVaE4rVXRlOXl0YWc5empmTUhnc3Ft
+          bWl6N0FuZFZRPQ==
+     S:   + dj02cnJpVFJCaTIzV3BSUi93dHVwK21NaFVaVW4vZEI1bkxUSlJzamw5NUc0
+          PQ==
+     C:
+     S:   A001 OK SCRAM-SHA-256 authentication successful
+     C:   babc ENABLE IMAP4rev2
+     S:   * ENABLED IMAP4rev2
+     S:   babc OK Some capabilities enabled
+     C:   a002 select inbox
+     S:   * 18 EXISTS
+     S:   * FLAGS (\Answered \Flagged \Deleted \Seen \Draft)
+     S:   * OK [UIDVALIDITY 3857529045] UIDs valid
+     S:   * LIST () "/" INBOX ("OLDNAME" ("inbox"))
+     S:   a002 OK [READ-WRITE] SELECT completed
+     C:   a003 fetch 12 full
+     S:   * 12 FETCH (FLAGS (\Seen) INTERNALDATE
+           "17-Jul-1996 02:44:25 -0700" RFC822.SIZE 4286 ENVELOPE (
+           "Wed, 17 Jul 1996 02:23:25 -0700 (PDT)"
+           "IMAP4rev2 WG mtg summary and minutes"
+           (("Terry Gray" NIL "gray" "cac.washington.edu"))
+           (("Terry Gray" NIL "gray" "cac.washington.edu"))
+           (("Terry Gray" NIL "gray" "cac.washington.edu"))
+           ((NIL NIL "imap" "cac.washington.edu"))
+           ((NIL NIL "minutes" "CNRI.Reston.VA.US")
+           ("John Klensin" NIL "KLENSIN" "MIT.EDU")) NIL NIL
+           "<B27397-0100000@cac.washington.ed>")
+           BODY ("TEXT" "PLAIN" ("CHARSET" "US-ASCII") NIL NIL "7BIT"
+           3028 92))
+     S:    a003 OK FETCH completed
+     C:    a004 fetch 12 body[header]
+     S:    * 12 FETCH (BODY[HEADER] {342}
+     S:    Date: Wed, 17 Jul 1996 02:23:25 -0700 (PDT)
+     S:    From: Terry Gray <gray@cac.washington.edu>
+     S:    Subject: IMAP4rev2 WG mtg summary and minutes
+     S:    To: imap@cac.washington.edu
+     S:    cc: minutes@CNRI.Reston.VA.US, John Klensin <KLENSIN@MIT.EDU>
+     S:    Message-Id: <B27397-0100000@cac.washington.edu>
+     S:    MIME-Version: 1.0
+     S:    Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+     S:
+     S:    )
+     S:    a004 OK FETCH completed
+     C:    a005 store 12 +flags \deleted
+     S:    * 12 FETCH (FLAGS (\Seen \Deleted))
+     S:    a005 OK +FLAGS completed
+     C:    a006 logout
+     S:    * BYE IMAP4rev2 server terminating connection
+     S:    a006 OK LOGOUT completed
+"fixed": |-
+  S:   * OK [CAPABILITY STARTTLS AUTH=SCRAM-SHA-256 LOGINDISABLED IMAP4rev2] IMAP4rev2 Service Ready C:   a000 starttls S:   a000 OK Proceed with TLS negotiation <TLS negotiation> C:   A001 AUTHENTICATE SCRAM-SHA-256 biwsbj11c2VyLHI9ck9wck5HZndFYmVSV2diTkVrcU8= S:   + cj1yT3ByTkdmd0ViZVJXZ2JORWtxTyVodllEcFdVYTJSYVRDQWZ1eEZJbGopaE 5sRiRrMCxzPVcyMlphSjBTTlk3c29Fc1VFamI2Z1E9PSxpPTQwOTY= C:   Yz1iaXdzLHI9ck9wck5HZndFYmVSV2diTkVrcU8laHZZRHBXVWEyUmFUQ0FmdXhG SWxqKWhObEYkazAscD1kSHpiWmFwV0lrNGpVaE4rVXRlOXl0YWc5empmTUhnc3Ft bWl6N0FuZFZRPQ== S:   + dj02cnJpVFJCaTIzV3BSUi93dHVwK21NaFVaVW4vZEI1bkxUSlJzamw5NUc0 PQ== C: S:   A001 OK SCRAM-SHA-256 authentication successful C:   babc ENABLE IMAP4rev2 S:   * ENABLED IMAP4rev2 S:   babc OK Some capabilities enabled C:   a002 select inbox S:   * 18 EXISTS S:   * FLAGS (\Answered \Flagged \Deleted \Seen \Draft) S:   * OK [UIDVALIDITY 3857529045] UIDs valid S:   * LIST () "/" INBOX ("OLDNAME" ("inbox")) S:   a002 OK [READ-WRITE] SELECT completed C:   a003 fetch 12 full S:   * 12 FETCH (FLAGS (\Seen) INTERNALDATE "17-Jul-1996 02:44:25 -0700" RFC822.SIZE 4286 ENVELOPE ( "Wed, 17 Jul 1996 02:23:25 -0700 (PDT)" "IMAP4rev2 WG mtg summary and minutes" (("Terry Gray" NIL "gray" "cac.washington.edu")) (("Terry Gray" NIL "gray" "cac.washington.edu")) (("Terry Gray" NIL "gray" "cac.washington.edu")) ((NIL NIL "imap" "cac.washington.edu")) ((NIL NIL "minutes" "CNRI.Reston.VA.US") ("John Klensin" NIL "KLENSIN" "MIT.EDU")) NIL NIL "<B27397-0100000@cac.washington.ed>") BODY ("TEXT" "PLAIN" ("CHARSET" "US-ASCII") NIL NIL "7BIT" 3028 92)) S:    a003 OK FETCH completed C:    a004 fetch 12 body[header] S:    * 12 FETCH (BODY[HEADER] {342} S:    Date: Wed, 17 Jul 1996 02:23:25 -0700 (PDT) S:    From: Terry Gray <gray@cac.washington.edu> S:    Subject: IMAP4rev2 WG mtg summary and minutes S:    To: imap@cac.washington.edu S:    cc: minutes@CNRI.Reston.VA.US, John Klensin <KLENSIN@MIT.EDU> S:    Message-Id: <B27397-0100000@cac.washington.edu> S:    MIME-Version: 1.0 S:    Content-Type: TEXT/PLAIN; CHARSET=US-ASCII S: S:    ) S:    a004 OK FETCH completed C:    a005 store 12 +flags \deleted S:    * 12 FETCH (FLAGS (\Seen \Deleted)) S:    a005 OK +FLAGS completed C:    a006 logout S:    * BYE IMAP4rev2 server terminating connection S:    a006 OK LOGOUT completed
+"ko": |-
+  S: * OK [CAPABILITY STARTTLS AUTH=SCRAM-SHA-256 LOGINDISABLED IMAP4rev2] IMAP4rev2 서비스 준비됨 C: a000 starttls S: a000 OK TLS 협상 진행 <TLS 협상> C: A001 AUTHENTICATE SCRAM-SHA-256 biwsbj11c2VyLHI9ck9wck5HZndFYmVSV2diT kVrcU8= S: + cj1yT3ByTkdmd0ViZVJXZ2JORWtxTyVodllEcFdVYTJSYVRDQWZ1eEZJbGopaE 5sRiRrMCxzPVcyMlphSjBTTlk3c29Fc1VFamI2Z1E9PSxpPTQwOTY= C: SV2diTkVrcU8laHZZRHBXVWEyUmFUQ0FmdXhG SWxqKWhObEYkazAscD1kSHpiWmFwV0lrNGpVaE4rVXRlOXl0YWc5epmTUhnc3Ft bWl6N0FuZFZRPQ== S: + dj02cnJpVFJCaTIzV3BSUi93dHVw K21NaFVaVW4vZEI1bkxUSlJzamw5NUc0 PQ== C: S: A001 OK SCRAM-SHA-256 인증 성공 C: babc ENABLE IMAP4rev2 S: * ENABLED IMAP4rev2 S: babc OK 일부 기능 활성화됨 C: a002 받은 편지함 선택 S: * 18 존재 S: * FLAGS (\답변 \플래그 \삭제 \본 \초안) S: * 확인 [UIDVALIDITY 3857529045] 유효한 UID S: * LIST () "/" INBOX ("OLDNAME" ("받은 편지함) ")) S: a002 OK [READ-WRITE] SELECT 완료 C: a003 12 전체 가져오기 S: * 12 FETCH (FLAGS (\Seen) INTERNALDATE "17-Jul-1996 02:44:25 -0700" RFC822.SIZE 4286 ENVELOPE ( "1996년 7월 17일 수요일 02:23:25 -0700 (PDT)" "IMAP4rev2 WG mtg 요약 및 분" (("Terry Gray" NIL "gray" "cac.washington.edu")) (("Terry 회색" NIL "회색" "cac.washington.edu")) (("Terry Grey" NIL "회색" "cac.washington.edu")) ((NIL NIL "imap" "cac.washington.edu")) ((NIL NIL "분" "CNRI.Reston.VA.US") ("John Klensin" NIL "KLENSIN" "MIT.EDU")) NIL NIL "<B27397-0100000@cac.washington.ed>") BODY ("TEXT" "PLAIN" ("CHARSET" "US-ASCII") NIL NIL "7BIT" 3028 92)) S: a003 OK FETCH 완료 C: a004 fetch 12 body[header] S: * 12 FETCH (BODY[HEADER ] {342} S: 날짜: 1996년 7월 17일 수요일 02:23:25 -0700(PDT) S: 보낸 사람: Terry Gray <gray@cac.washington.edu> S: 제목: IMAP4rev2 WG mtg 요약 및 회의록 S: 받는 사람: imap@cac.washington.edu S: 참조: Minute@CNRI.Reston.VA.US, John Klensin <KLENSIN@MIT.EDU> S: 메시지 ID: <B27397-0100000@cac.washington.edu> S : MIME 버전: 1.0 S: 콘텐츠 유형: TEXT/PLAIN; CHARSET=US-ASCII S: S: ) S: a004 OK FETCH 완료 C: a005 store 12 +flags \deleted S: * 12 FETCH (FLAGS (\Seen \Deleted)) S: a005 OK +FLAGS 완료 C: a006 로그아웃 S: * BYE IMAP4rev2 서버가 연결을 종료하고 있습니다. S: a006 OK LOGOUT 완료

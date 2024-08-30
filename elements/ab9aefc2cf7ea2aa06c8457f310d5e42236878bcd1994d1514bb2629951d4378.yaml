@@ -1,0 +1,22 @@
+"hash": |-
+  ab9aefc2cf7ea2aa06c8457f310d5e42236878bcd1994d1514bb2629951d4378
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The immediate next-hop address is determined by performing a
+     recursive route lookup operation for the IP address in the NEXT_HOP
+     attribute, using the contents of the Routing Table, selecting one
+     entry if multiple entries of equal cost exist.  The Routing Table
+     entry that resolves the IP address in the NEXT_HOP attribute will
+     always specify the outbound interface.  If the entry specifies an
+     attached subnet, but does not specify a next-hop address, then the
+     address in the NEXT_HOP attribute SHOULD be used as the immediate
+     next-hop address.  If the entry also specifies the next-hop address,
+     this address SHOULD be used as the immediate next-hop address for
+     packet forwarding.
+"fixed": |-
+  The immediate next-hop address is determined by performing a recursive route lookup operation for the IP address in the NEXT_HOP attribute, using the contents of the Routing Table, selecting one entry if multiple entries of equal cost exist.  The Routing Table entry that resolves the IP address in the NEXT_HOP attribute will always specify the outbound interface.  If the entry specifies an attached subnet, but does not specify a next-hop address, then the address in the NEXT_HOP attribute SHOULD be used as the immediate next-hop address.  If the entry also specifies the next-hop address, this address SHOULD be used as the immediate next-hop address for packet forwarding.
+"ko": |-
+  바로 다음 홉 주소는 라우팅 테이블의 내용을 사용하여 NEXT_HOP 속성의 IP 주소에 대해 재귀 경로 조회 작업을 수행하고 동일한 비용의 항목이 여러 개 있는 경우 하나의 항목을 선택하여 결정됩니다. NEXT_HOP 속성에서 IP 주소를 확인하는 라우팅 테이블 항목은 항상 아웃바운드 인터페이스를 지정합니다. 항목이 연결된 서브넷을 지정하지만 다음 홉 주소를 지정하지 않은 경우 NEXT_HOP 속성의 주소를 바로 다음 홉 주소로 사용해야 합니다. 항목이 다음 홉 주소도 지정하는 경우 이 주소는 패킷 전달을 위한 바로 다음 홉 주소로 사용되어야 합니다.

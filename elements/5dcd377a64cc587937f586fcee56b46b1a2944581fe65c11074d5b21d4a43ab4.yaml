@@ -1,0 +1,33 @@
+"hash": |-
+  5dcd377a64cc587937f586fcee56b46b1a2944581fe65c11074d5b21d4a43ab4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For streams marked as recvonly in the answer, the "m=" line MUST
+     contain at least one media format the answerer is willing to receive
+     with from amongst those listed in the offer.  The stream MAY indicate
+     additional media formats, not listed in the corresponding stream in
+     the offer, that the answerer is willing to receive.  For streams
+     marked as sendonly in the answer, the "m=" line MUST contain at least
+     one media format the answerer is willing to send from amongst those
+     listed in the offer.  For streams marked as sendrecv in the answer,
+     the "m=" line MUST contain at least one codec the answerer is willing
+     to both send and receive, from amongst those listed in the offer.
+     The stream MAY indicate additional media formats, not listed in the
+     corresponding stream in the offer, that the answerer is willing to
+     send or receive (of course, it will not be able to send them at this
+     time, since it was not listed in the offer).  For streams marked as
+     inactive in the answer, the list of media formats is constructed
+     based on the offer.  If the offer was sendonly, the list is
+     constructed as if the answer were recvonly.  Similarly, if the offer
+     was recvonly, the list is constructed as if the answer were sendonly,
+     and if the offer was sendrecv, the list is constructed as if the
+     answer were sendrecv.  If the offer was inactive, the list is
+     constructed as if the offer were actually sendrecv and the answer
+     were sendrecv.
+"fixed": |-
+  For streams marked as recvonly in the answer, the "m=" line MUST contain at least one media format the answerer is willing to receive with from amongst those listed in the offer.  The stream MAY indicate additional media formats, not listed in the corresponding stream in the offer, that the answerer is willing to receive.  For streams marked as sendonly in the answer, the "m=" line MUST contain at least one media format the answerer is willing to send from amongst those listed in the offer.  For streams marked as sendrecv in the answer, the "m=" line MUST contain at least one codec the answerer is willing to both send and receive, from amongst those listed in the offer. The stream MAY indicate additional media formats, not listed in the corresponding stream in the offer, that the answerer is willing to send or receive (of course, it will not be able to send them at this time, since it was not listed in the offer).  For streams marked as inactive in the answer, the list of media formats is constructed based on the offer.  If the offer was sendonly, the list is constructed as if the answer were recvonly.  Similarly, if the offer was recvonly, the list is constructed as if the answer were sendonly, and if the offer was sendrecv, the list is constructed as if the answer were sendrecv.  If the offer was inactive, the list is constructed as if the offer were actually sendrecv and the answer were sendrecv.
+"ko": |-
+  답변에서 recvonly로 표시된 스트림의 경우, "m=" 줄에는 답변자가 제공에 나열된 것 중에서 수신할 의향이 있는 미디어 형식이 하나 이상 포함되어야 합니다. 스트림은 제공에 나열되지 않은 추가 미디어 형식을 나타낼 수 있으며, 답변자는 수신할 의향이 있습니다. 답변에서 sendonly로 표시된 스트림의 경우, "m=" 줄에는 답변자가 제공에 나열된 것 중에서 보낼 의향이 있는 미디어 형식이 하나 이상 포함되어야 합니다. 답변에서 sendrecv로 표시된 스트림의 경우, "m=" 줄에는 답변자가 제공에 나열된 것 중에서 보내고 받을 의향이 있는 코덱이 하나 이상 포함되어야 합니다. 스트림은 제공에 나열되지 않은 추가 미디어 형식을 나타낼 수 있으며, 답변자는 보내거나 받을 의향이 있습니다(물론 제공에 나열되지 않았기 때문에 이때는 보낼 수 없습니다). 답변에서 inactive로 표시된 스트림의 경우, 미디어 형식 목록은 제공에 따라 구성됩니다. 오퍼가 sendonly인 경우, 목록은 답변이 recvonly인 것처럼 구성됩니다. 마찬가지로 오퍼가 recvonly인 경우, 목록은 답변이 sendonly인 것처럼 구성되고, 오퍼가 sendrecv인 경우, 목록은 답변이 sendrecv인 것처럼 구성됩니다. 오퍼가 비활성인 경우, 목록은 오퍼가 실제로 sendrecv이고 답변이 sendrecv인 것처럼 구성됩니다.

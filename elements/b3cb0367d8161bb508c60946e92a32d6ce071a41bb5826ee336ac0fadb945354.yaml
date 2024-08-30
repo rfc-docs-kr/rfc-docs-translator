@@ -1,0 +1,16 @@
+"hash": |-
+  b3cb0367d8161bb508c60946e92a32d6ce071a41bb5826ee336ac0fadb945354
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each SCTE-35 splice_info_section() containing a splice_null(),
+     splice_schedule(), bandwidth_reservation(), or private_cmd() SHOULD
+     be represented by an EXT-X-DATERANGE tag with an SCTE35-CMD attribute
+     whose value is the big-endian binary representation of the
+     splice_info_section(), expressed as a hexadecimal-sequence.
+"fixed": |-
+  Each SCTE-35 splice_info_section() containing a splice_null(), splice_schedule(), bandwidth_reservation(), or private_cmd() SHOULD be represented by an EXT-X-DATERANGE tag with an SCTE35-CMD attribute whose value is the big-endian binary representation of the splice_info_section(), expressed as a hexadecimal-sequence.
+"ko": |-
+  splice_null(), splice_schedule(), Bandwidth_reservation() 또는 private_cmd()를 포함하는 각 SCTE-35 splice_info_section()은 값이 빅엔디안 바이너리인 SCTE35-CMD 속성이 있는 EXT-X-DATERANGE 태그로 표시되어야 합니다. 16진수 시퀀스로 표현된 splice_info_section()의 표현입니다.

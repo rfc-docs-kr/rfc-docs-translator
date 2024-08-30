@@ -1,0 +1,19 @@
+"hash": |-
+  2768f4a2129c6c3b37b8dd0e700a1f0d8b93cc3f9e7ddad937d789213e58e192
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As the AEAD for Initial packets does not provide strong
+     authentication, an endpoint MAY discard an invalid Initial packet.
+     Discarding an Initial packet is permitted even where this
+     specification otherwise mandates a connection error.  An endpoint can
+     only discard a packet if it does not process the frames in the packet
+     or reverts the effects of any processing.  Discarding invalid Initial
+     packets might be used to reduce exposure to denial of service; see
+     Section 21.2.
+"fixed": |-
+  As the AEAD for Initial packets does not provide strong authentication, an endpoint MAY discard an invalid Initial packet. Discarding an Initial packet is permitted even where this specification otherwise mandates a connection error.  An endpoint can only discard a packet if it does not process the frames in the packet or reverts the effects of any processing.  Discarding invalid Initial packets might be used to reduce exposure to denial of service; see Section 21.2.
+"ko": |-
+  초기 패킷용 AEAD는 강력한 인증을 제공하지 않으므로 엔드포인트는 유효하지 않은 초기 패킷을 삭제할 수 있습니다. 이 사양이 연결 오류를 요구하는 경우에도 초기 패킷 폐기가 허용됩니다. 엔드포인트는 패킷의 프레임을 처리하지 않거나 처리 결과를 되돌리는 경우에만 패킷을 삭제할 수 있습니다. 유효하지 않은 초기 패킷을 폐기하면 서비스 거부에 대한 노출을 줄이는 데 사용될 수 있습니다. 섹션 21.2를 참조하세요.

@@ -1,0 +1,16 @@
+"hash": |-
+  d194a7c76c84e5ec6623d1229a70880a2fa32812e61a76f5c048ba78aae82f02
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     cswap(swap, x_2, x_3):
+           dummy = mask(swap) AND (x_2 XOR x_3)
+           x_2 = x_2 XOR dummy
+           x_3 = x_3 XOR dummy
+           Return (x_2, x_3)
+"fixed": |-
+  cswap(swap, x_2, x_3):  -     dummy = mask(swap) AND (x_2 XOR x_3) x_2 = x_2 XOR dummy x_3 = x_3 XOR dummy Return (x_2, x_3)
+"ko": |-
+  cswap(swap, x_2, x_3): - 더미 = 마스크(스왑) AND (x_2 XOR x_3) x_2 = x_2 XOR 더미 x_3 = x_3 XOR 더미 반환 (x_2, x_3)

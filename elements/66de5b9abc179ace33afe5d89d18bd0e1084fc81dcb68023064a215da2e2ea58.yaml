@@ -1,0 +1,17 @@
+"hash": |-
+  66de5b9abc179ace33afe5d89d18bd0e1084fc81dcb68023064a215da2e2ea58
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Listen (socket = L, size = 32)
+     [Wait until a user connects]
+     Send (socket = L, data = S)
+     Close (socket = L)
+     Init (local = S, foreign = U+1, size = Bu)
+     Init (local = S+1, foreign = U, size = Bs)
+"fixed": |-
+  Listen (socket = L, size = 32) [Wait until a user connects] Send (socket = L, data = S) Close (socket = L) Init (local = S, foreign = U+1, size = Bu) Init (local = S+1, foreign = U, size = Bs)
+"ko": |-
+  Listen(소켓 = L, 크기 = 32) [사용자가 연결될 때까지 대기] Send(소켓 = L, 데이터 = S) 닫기(소켓 = L) Init(local = S, foreign = U+1, 크기 = Bu) Init (로컬 = S+1, 외국 = U, 크기 = Bs)

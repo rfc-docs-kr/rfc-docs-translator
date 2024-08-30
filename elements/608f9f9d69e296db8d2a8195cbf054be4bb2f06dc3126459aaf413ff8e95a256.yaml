@@ -1,0 +1,16 @@
+"hash": |-
+  608f9f9d69e296db8d2a8195cbf054be4bb2f06dc3126459aaf413ff8e95a256
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     QUIC frames do not use a self-describing encoding.  An endpoint
+     therefore needs to understand the syntax of all frames before it can
+     successfully process a packet.  This allows for efficient encoding of
+     frames, but it means that an endpoint cannot send a frame of a type
+     that is unknown to its peer.
+"fixed": |-
+  QUIC frames do not use a self-describing encoding.  An endpoint therefore needs to understand the syntax of all frames before it can successfully process a packet.  This allows for efficient encoding of frames, but it means that an endpoint cannot send a frame of a type that is unknown to its peer.
+"ko": |-
+  QUIC 프레임은 자기 설명적 인코딩을 사용하지 않습니다. 따라서 엔드포인트는 패킷을 성공적으로 처리하기 전에 모든 프레임의 구문을 이해해야 합니다. 이는 프레임의 효율적인 인코딩을 허용하지만 엔드포인트가 피어에게 알려지지 않은 유형의 프레임을 보낼 수 없음을 의미합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  7a333af07c8cb25c90e3fb435d54cf1e8c43be05ccb35f4a4a57ae93b0de24ce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Other than updating the Destination Connection ID and Token fields,
+     the Initial packet sent by the client is subject to the same
+     restrictions as the first Initial packet.  A client MUST use the same
+     cryptographic handshake message it included in this packet.  A server
+     MAY treat a packet that contains a different cryptographic handshake
+     message as a connection error or discard it.  Note that including a
+     Token field reduces the available space for the cryptographic
+     handshake message, which might result in the client needing to send
+     multiple Initial packets.
+"fixed": |-
+  Other than updating the Destination Connection ID and Token fields, the Initial packet sent by the client is subject to the same restrictions as the first Initial packet.  A client MUST use the same cryptographic handshake message it included in this packet.  A server MAY treat a packet that contains a different cryptographic handshake message as a connection error or discard it.  Note that including a Token field reduces the available space for the cryptographic handshake message, which might result in the client needing to send multiple Initial packets.
+"ko": |-
+  대상 연결 ID 및 토큰 필드를 업데이트하는 것 외에 클라이언트가 보낸 초기 패킷에는 첫 번째 초기 패킷과 동일한 제한 사항이 적용됩니다. 클라이언트는 이 패킷에 포함된 것과 동일한 암호화 핸드셰이크 메시지를 사용해야 합니다. 서버는 다른 암호화 핸드셰이크 메시지가 포함된 패킷을 연결 오류로 처리하거나 폐기할 수 있습니다. 토큰 필드를 포함하면 암호화 핸드셰이크 메시지에 사용할 수 있는 공간이 줄어들어 클라이언트가 여러 개의 초기 패킷을 보내야 할 수도 있습니다.

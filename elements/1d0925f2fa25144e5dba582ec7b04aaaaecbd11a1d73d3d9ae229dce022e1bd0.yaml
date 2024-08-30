@@ -1,0 +1,15 @@
+"hash": |-
+  1d0925f2fa25144e5dba582ec7b04aaaaecbd11a1d73d3d9ae229dce022e1bd0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     kwa-aes128-wrap-pad KEY-WRAP ::= {
+       IDENTIFIER id-aes128-wrap-pad
+       PARAMS ARE absent
+       SMIME-CAPS { IDENTIFIED BY id-aes128-wrap-pad } }
+"fixed": |-
+  kwa-aes128-wrap-pad KEY-WRAP ::= { IDENTIFIER id-aes128-wrap-pad PARAMS ARE absent SMIME-CAPS { IDENTIFIED BY id-aes128-wrap-pad } }
+"ko": |-
+  kwa-aes128-wrap-pad KEY-WRAP ::= { IDENTIFIER id-aes128-wrap-pad 매개변수가 없습니다. SMIME-CAPS { id-aes128-wrap-pad로 식별됨 } }

@@ -1,0 +1,16 @@
+"hash": |-
+  b4b8dc1cb71d3007925af441f91427677e56dd2ca34fba96b28dec8f4201a50d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Being unable to buffer CRYPTO frames during the handshake can lead to
+     a connection failure.  If an endpoint's buffer is exceeded during the
+     handshake, it can expand its buffer temporarily to complete the
+     handshake.  If an endpoint does not expand its buffer, it MUST close
+     the connection with a CRYPTO_BUFFER_EXCEEDED error code.
+"fixed": |-
+  Being unable to buffer CRYPTO frames during the handshake can lead to a connection failure.  If an endpoint's buffer is exceeded during the handshake, it can expand its buffer temporarily to complete the handshake.  If an endpoint does not expand its buffer, it MUST close the connection with a CRYPTO_BUFFER_EXCEEDED error code.
+"ko": |-
+  핸드셰이크 중에 CRYPTO 프레임을 버퍼링할 수 없으면 연결 오류가 발생할 수 있습니다. 핸드셰이크 중에 엔드포인트의 버퍼가 초과되면 일시적으로 버퍼를 확장하여 핸드셰이크를 완료할 수 있습니다. 엔드포인트가 버퍼를 확장하지 않는 경우 CRYPTO_BUFFER_EXCEEDED 오류 코드로 연결을 닫아야 합니다.

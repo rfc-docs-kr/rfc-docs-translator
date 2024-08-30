@@ -1,0 +1,29 @@
+"hash": |-
+  bd4c5bf39ce8f41c3b3cc8cbdc81399069324018f2ecbf2f471436b36b387639
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        AES(K, W)     Encrypt W using the AES codebook with key K
+        AES-1(K, W)   Decrypt W using the AES codebook with key K
+        MSB(j, W)     Return the most significant j bits of W
+        LSB(j, W)     Return the least significant j bits of W
+        B1 ^ B2       The bitwise exclusive or (XOR) of B1 and B2
+        B1 | B2       Concatenate B1 and B2
+        K             The key-encryption key K
+        n             The number of 64-bit key data blocks
+        s             The number of steps in the wrapping process, s = 6n
+        P[i]          The ith plaintext key data block
+        C[i]          The ith ciphertext data block
+        A             The 64-bit integrity check register
+        R[i]          An array of 64-bit registers where
+                         i = 0, 1, 2, ..., n
+        A[t], R[i][t] The contents of registers A and R[i] after encryption
+                         step t.
+        IV            The 64-bit initial value used during the wrapping
+                         process.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

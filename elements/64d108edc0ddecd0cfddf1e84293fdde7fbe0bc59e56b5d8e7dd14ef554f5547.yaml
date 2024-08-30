@@ -1,0 +1,23 @@
+"hash": |-
+  64d108edc0ddecd0cfddf1e84293fdde7fbe0bc59e56b5d8e7dd14ef554f5547
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The (outer) protocol header (IPv4, IPv6, or Extension) that
+     immediately precedes the ESP header SHALL contain the value 50 in its
+     Protocol (IPv4) or Next Header (IPv6, Extension) field (see IANA web
+     page at http://www.iana.org/assignments/protocol-numbers).  Figure 1
+     illustrates the top-level format of an ESP packet.  The packet begins
+     with two 4-byte fields (Security Parameters Index (SPI) and Sequence
+     Number).  Following these fields is the Payload Data, which has
+     substructure that depends on the choice of encryption algorithm and
+     mode, and on the use of TFC padding, which is examined in more detail
+     later.  Following the Payload Data are Padding and Pad Length fields,
+     and the Next Header field.  The optional Integrity Check Value (ICV)
+     field completes the packet.
+"fixed": |-
+  The (outer) protocol header (IPv4, IPv6, or Extension) that immediately precedes the ESP header SHALL contain the value 50 in its Protocol (IPv4) or Next Header (IPv6, Extension) field (see IANA web page at http://www.iana.org/assignments/protocol-numbers).  Figure 1 illustrates the top-level format of an ESP packet.  The packet begins with two 4-byte fields (Security Parameters Index (SPI) and Sequence Number).  Following these fields is the Payload Data, which has substructure that depends on the choice of encryption algorithm and mode, and on the use of TFC padding, which is examined in more detail later.  Following the Payload Data are Padding and Pad Length fields, and the Next Header field.  The optional Integrity Check Value (ICV) field completes the packet.
+"ko": |-
+  ESP 헤더 바로 앞에 있는 (외부) 프로토콜 헤더(IPv4, IPv6 또는 확장)는 프로토콜(IPv4) 또는 다음 헤더(IPv6, 확장) 필드에 값 50을 포함해야 합니다(http://의 IANA 웹 페이지 참조). www.iana.org/locationments/protocol-numbers).  그림 1은 ESP 패킷의 최상위 형식을 보여줍니다.  패킷은 두 개의 4바이트 필드(SPI(보안 매개변수 색인) 및 시퀀스 번호)로 시작됩니다.  이러한 필드 다음에는 암호화 알고리즘 및 모드 선택과 TFC 패딩 사용에 따라 달라지는 하위 구조를 갖는 페이로드 데이터가 있으며 이에 대해서는 나중에 자세히 살펴보겠습니다.  페이로드 데이터 다음에는 패딩 및 패드 길이 필드와 다음 헤더 필드가 있습니다.  선택적 ICV(무결성 검사 값) 필드가 패킷을 완성합니다.

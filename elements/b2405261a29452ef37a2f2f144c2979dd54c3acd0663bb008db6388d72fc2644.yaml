@@ -1,0 +1,15 @@
+"hash": |-
+  b2405261a29452ef37a2f2f144c2979dd54c3acd0663bb008db6388d72fc2644
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  Assume that the last send operation received was in fact the last
+         Document (as if the "last-document" flag had been set to 'true'),
+         close the Job, and proceed to process it (i.e., move the Job's
+         state to 'pending').
+"fixed": |-
+  1.  Assume that the last send operation received was in fact the last Document (as if the "last-document" flag had been set to 'true'), close the Job, and proceed to process it (i.e., move the Job's state to 'pending').
+"ko": |-
+  1. 수신된 마지막 전송 작업이 실제로 마지막 문서라고 가정하고(마치 "마지막 문서" 플래그가 'true'로 설정된 것처럼) 작업을 닫고 처리를 진행합니다(즉, 작업 상태 이동) '보류 중'으로 변경).

@@ -1,0 +1,23 @@
+"hash": |-
+  03c5536cc9b76c05a815716deadf65261c850576a94c73b63498f8fc47b20552
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The OPTIONAL "detailed-status-message" operation attribute provides
+     additional more-detailed technical and implementation-specific
+     information about the operation for Administrators or other
+     experienced technical people.  The "detailed-status-message"
+     attribute's syntax is "text(MAX)", so the maximum length is
+     1023 octets (see Section 5.1.2).  If the Printer supports the
+     "detailed-status-message" operation attribute, the Printer SHOULD
+     localize the message, unless such localization would obscure the
+     technical meaning of the message.  Clients MUST NOT attempt to parse
+     the value of this attribute.  See the "document-access-error"
+     operation attribute (Section 4.1.6.4) for additional errors that a
+     program can process.
+"fixed": |-
+  The OPTIONAL "detailed-status-message" operation attribute provides additional more-detailed technical and implementation-specific information about the operation for Administrators or other experienced technical people.  The "detailed-status-message" attribute's syntax is "text(MAX)", so the maximum length is 1023 octets (see Section 5.1.2).  If the Printer supports the "detailed-status-message" operation attribute, the Printer SHOULD localize the message, unless such localization would obscure the technical meaning of the message.  Clients MUST NOT attempt to parse the value of this attribute.  See the "document-access-error" operation attribute (Section 4.1.6.4) for additional errors that a program can process.
+"ko": |-
+  선택 사항인 "detailed-status-message" 작업 속성은 관리자 또는 기타 숙련된 기술 인력을 위한 작업에 대한 추가로 자세한 기술 및 구현별 정보를 제공합니다. "detailed-status-message" 속성의 구문은 "text(MAX)"이므로 최대 길이는 1023 옥텟입니다(섹션 5.1.2 참조). 프린터가 "detailed-status-message" 작업 속성을 지원하는 경우 프린터는 해당 현지화가 메시지의 기술적 의미를 모호하게 만들지 않는 한 메시지를 현지화해야 합니다. 클라이언트는 이 속성의 값을 구문 분석하려고 시도해서는 안 됩니다. 프로그램이 처리할 수 있는 추가 오류는 "document-access-error" 작업 속성(섹션 4.1.6.4)을 참조하세요.

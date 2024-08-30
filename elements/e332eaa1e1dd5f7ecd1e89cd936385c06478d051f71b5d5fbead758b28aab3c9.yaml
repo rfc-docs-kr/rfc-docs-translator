@@ -1,0 +1,14 @@
+"hash": |-
+  e332eaa1e1dd5f7ecd1e89cd936385c06478d051f71b5d5fbead758b28aab3c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           PreMasterSecret in case of error, rather than generate an
+           alert, in order to avoid variants on the Bleichenbacher attack.
+           [KPR03]
+"fixed": |-
+  - PreMasterSecret in case of error, rather than generate an alert, in order to avoid variants on the Bleichenbacher attack. [KPR03]
+"ko": |-
+  - 오류가 발생한 경우 Bleichenbacher 공격에 대한 변형을 피하기 위해 경고를 생성하는 대신 PreMasterSecret. [KPR03]

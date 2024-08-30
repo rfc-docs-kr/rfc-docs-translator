@@ -1,0 +1,20 @@
+"hash": |-
+  8fee413f7386008b211172ef97cbb3d1d675e9797d13ed7a0baefa3eb2e34b52
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     seq-range       = seq-number ":" seq-number
+                         ; two seq-number values and all values between
+                         ; these two regardless of order.
+                         ; Example: 2:4 and 4:2 are equivalent and
+                         ; indicate values 2, 3, and 4.
+                         ; Example: a unique identifier sequence range of
+                         ; 3291:* includes the UID of the last message in
+                         ; the mailbox, even if that value is less than
+                         ; 3291.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  c95b4264007130fce004c6438bf848e3e6abbc924262327958fd7990b4cca861
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The payload of the HANDSHAKE message contains a sequence of protocol
+     options.  The protocol options encode the swarm metadata just
+     described to enable an end-to-end check to see whether the peers are
+     in the right swarm.  Additionally, the options encode a number of
+     per-peer configuration parameters.  The complete set of protocol
+     options are specified in Section 7.  The HANDSHAKE message also
+     contains a channel ID for multiplexing communication and security
+     (see Sections 3.11 and 12.1).  A HANDSHAKE message MUST always be the
+     first message in a datagram.
+"fixed": |-
+  The payload of the HANDSHAKE message contains a sequence of protocol options.  The protocol options encode the swarm metadata just described to enable an end-to-end check to see whether the peers are in the right swarm.  Additionally, the options encode a number of per-peer configuration parameters.  The complete set of protocol options are specified in Section 7.  The HANDSHAKE message also contains a channel ID for multiplexing communication and security (see Sections 3.11 and 12.1).  A HANDSHAKE message MUST always be the first message in a datagram.
+"ko": |-
+  HANDSHAKE 메시지의 페이로드에는 일련의 프로토콜 옵션이 포함되어 있습니다. 프로토콜 옵션은 방금 설명한 떼 메타데이터를 인코딩하여 피어가 올바른 떼에 있는지 확인하기 위한 엔드투엔드 검사를 활성화합니다. 또한 옵션은 피어별 구성 매개변수의 수를 인코딩합니다. 전체 프로토콜 옵션 세트는 섹션 7에 지정되어 있습니다. HANDSHAKE 메시지에는 다중화 통신 및 보안을 위한 채널 ID도 포함되어 있습니다(섹션 3.11 및 12.1 참조). HANDSHAKE 메시지는 항상 데이터그램의 첫 번째 메시지여야 합니다.

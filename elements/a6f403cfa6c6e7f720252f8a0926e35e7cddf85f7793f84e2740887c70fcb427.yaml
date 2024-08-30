@@ -1,0 +1,18 @@
+"hash": |-
+  a6f403cfa6c6e7f720252f8a0926e35e7cddf85f7793f84e2740887c70fcb427
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When decoding the base64 data in the initial response, decoding
+     errors MUST be treated as in any normal SASL client response, i.e.,
+     with a tagged BAD response.  In particular, the server should check
+     for any characters not explicitly allowed by the base64 alphabet, as
+     well as any sequence of base64 characters that contains the pad
+     character ('=') anywhere other than the end of the string (e.g.,
+     "=AAA" and "AAA=BBB" are not allowed).
+"fixed": |-
+  When decoding the base64 data in the initial response, decoding errors MUST be treated as in any normal SASL client response, i.e., with a tagged BAD response.  In particular, the server should check for any characters not explicitly allowed by the base64 alphabet, as well as any sequence of base64 characters that contains the pad character ('=') anywhere other than the end of the string (e.g., "=AAA" and "AAA=BBB" are not allowed).
+"ko": |-
+  초기 응답에서 base64 데이터를 디코딩할 때 디코딩 오류는 일반 SASL 클라이언트 응답(즉, 태그가 지정된 BAD 응답)에서처럼 처리되어야 합니다.  특히, 서버는 base64 알파벳에서 명시적으로 허용하지 않는 문자는 물론 문자열 끝(예: "=AAA) 이외의 위치에 패드 문자('=')를 포함하는 base64 문자 시퀀스를 확인해야 합니다. " 및 "AAA=BBB"는 허용되지 않습니다.

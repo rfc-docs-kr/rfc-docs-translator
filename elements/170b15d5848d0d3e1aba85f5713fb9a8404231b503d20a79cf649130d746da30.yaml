@@ -1,0 +1,16 @@
+"hash": |-
+  170b15d5848d0d3e1aba85f5713fb9a8404231b503d20a79cf649130d746da30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  The peer's scalar is extracted from the Commit payload according
+         to Section 8.3.1 and checked to ensure it is between one (1) and
+         r, the order of the negotiated group, exclusive.  If it is not,
+         the Commit payload is invalidated; otherwise, processing
+         continues.
+"fixed": |-
+  1.  The peer's scalar is extracted from the Commit payload according to Section 8.3.1 and checked to ensure it is between one (1) and r, the order of the negotiated group, exclusive.  If it is not, the Commit payload is invalidated; otherwise, processing continues.
+"ko": |-
+  1. 피어의 스칼라는 섹션 8.3.1에 따라 커밋 페이로드에서 추출되고 협상된 그룹의 순서인 1과 r 사이에 있는지 확인합니다.  그렇지 않은 경우 커밋 페이로드가 무효화됩니다. 그렇지 않으면 처리가 계속됩니다.

@@ -1,0 +1,1 @@
+Get-Jobs 작업을 사용하고 "which-jobs" 작업 속성에 'not-completed' 값을 제공하면 클라이언트는 작업이 완료되지 않음 단계에서 작업을 요청합니다. Get-Jobs 작업을 사용하고 "which-jobs" 작업 속성에 'completed' 값을 제공하면 클라이언트는 작업 보존 및 작업 기록 단계에서 작업을 요청합니다. Get-Job-Attributes 작업을 사용하여 클라이언트는 작업 제거를 제외한 모든 단계에서 작업을 요청합니다. 작업 제거 후 Get-Job-Attributes 및 Get-Jobs 작업은 더 이상 작업에 대한 정보를 반환할 수 없습니다.

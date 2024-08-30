@@ -1,0 +1,19 @@
+"hash": |-
+  e24380903701afe68586d0a0f4561a0d8f0cf26cacf2e18835afdcb9cb422a24
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         key_block               = PRF(master_secret,
+                                       "key expansion",
+                                       server_random +
+                                       client_random)[0..41]
+         client_write_MAC_secret = key_block[0..15]
+         server_write_MAC_secret = key_block[16..31]
+         client_write_key        = key_block[32..36]
+         server_write_key        = key_block[37..41]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

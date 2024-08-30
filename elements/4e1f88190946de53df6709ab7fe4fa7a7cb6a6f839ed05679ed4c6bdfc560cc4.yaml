@@ -1,0 +1,25 @@
+"hash": |-
+  4e1f88190946de53df6709ab7fe4fa7a7cb6a6f839ed05679ed4c6bdfc560cc4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         struct {
+             ConnectionEnd          entity;
+             BulkCipherAlgorithm    bulk_cipher_algorithm;
+             CipherType             cipher_type;
+             uint8                  key_size;
+             uint8                  key_material_length;
+             IsExportable           is_exportable;
+             MACAlgorithm           mac_algorithm;
+             uint8                  hash_size;
+             CompressionMethod      compression_algorithm;
+             opaque                 master_secret[48];
+             opaque                 client_random[32];
+             opaque                 server_random[32];
+         } SecurityParameters;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,16 @@
+"hash": |-
+  10194380774e63bc2e119f8f04f9e68e845c010154412eeed413e960aab2d73c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If a Client supplies some other value that is not supported by
+           the Printer, the Printer MUST copy the attribute and the
+           unsupported value to the Unsupported Attributes group, reject
+           the request, and return the
+           'client-error-attributes-or-values-not-supported' status-code.
+"fixed": |-
+  - If a Client supplies some other value that is not supported by the Printer, the Printer MUST copy the attribute and the unsupported value to the Unsupported Attributes group, reject the request, and return the 'client-error-attributes-or-values-not-supported' status-code.
+"ko": |-
+  - 클라이언트가 프린터에서 지원하지 않는 다른 값을 제공하는 경우 프린터는 해당 속성과 지원되지 않는 값을 지원되지 않는 속성 그룹에 복사하고 요청을 거부하며 '클라이언트 오류 속성 또는 값'을 반환해야 합니다. 지원되지 않음' 상태 코드입니다.

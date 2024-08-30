@@ -1,0 +1,15 @@
+"hash": |-
+  259d1291e4c79709924fb6e9fd0517937b563f7375fab648551725a9a727caac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a server receives a 1-RTT packet that increases the highest
+     packet number seen by the server from the client on a given network
+     path, it sets the spin value for that path to be equal to the spin
+     bit in the received packet.
+"fixed": |-
+  When a server receives a 1-RTT packet that increases the highest packet number seen by the server from the client on a given network path, it sets the spin value for that path to be equal to the spin bit in the received packet.
+"ko": |-
+  서버가 지정된 네트워크 경로에서 클라이언트로부터 서버에 표시된 가장 높은 패킷 수를 증가시키는 1-RTT 패킷을 수신하면 해당 경로의 스핀 값을 수신된 패킷의 스핀 비트와 동일하게 설정합니다.

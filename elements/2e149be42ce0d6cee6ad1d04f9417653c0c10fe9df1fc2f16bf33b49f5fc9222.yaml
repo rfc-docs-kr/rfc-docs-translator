@@ -1,0 +1,14 @@
+"hash": |-
+  2e149be42ce0d6cee6ad1d04f9417653c0c10fe9df1fc2f16bf33b49f5fc9222
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints MUST NOT send a "record_size_limit" extension with a value
+     smaller than 64.  An endpoint MUST treat receipt of a smaller value
+     as a fatal error and generate an "illegal_parameter" alert.
+"fixed": |-
+  Endpoints MUST NOT send a "record_size_limit" extension with a value smaller than 64.  An endpoint MUST treat receipt of a smaller value as a fatal error and generate an "illegal_parameter" alert.
+"ko": |-
+  엔드포인트는 64보다 작은 값을 가진 "record_size_limit" 확장을 전송해서는 안 됩니다(MUST NOT). 엔드포인트는 더 작은 값의 수신을 치명적인 오류로 처리하고 "illegal_parameter" 경고를 생성해야 합니다(MUST).

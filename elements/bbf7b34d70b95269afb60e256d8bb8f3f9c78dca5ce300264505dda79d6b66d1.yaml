@@ -1,0 +1,17 @@
+"hash": |-
+  bbf7b34d70b95269afb60e256d8bb8f3f9c78dca5ce300264505dda79d6b66d1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the first of the cases above, a retransmission of the
+     DHCPLEASEQUERY would be appropriate, but in the second of the two
+     cases, a retransmission would not be appropriate.  There is no way to
+     tell these two cases apart (other than, perhaps, because of a DHCP
+     server's response to other DHCPLEASEQUERY messages indicating that it
+     does or does not support the DHCPLEASEQUERY message).
+"fixed": |-
+  In the first of the cases above, a retransmission of the DHCPLEASEQUERY would be appropriate, but in the second of the two cases, a retransmission would not be appropriate.  There is no way to tell these two cases apart (other than, perhaps, because of a DHCP server's response to other DHCPLEASEQUERY messages indicating that it does or does not support the DHCPLEASEQUERY message).
+"ko": |-
+  위의 경우 중 첫 번째 경우에는 DHCPLEASEQUERY를 재전송하는 것이 적절하지만, 두 경우 중 두 번째 경우에는 재전송이 적절하지 않습니다. 이 두 가지 경우를 구분할 수 있는 방법은 없습니다(DHCPLEASEQUERY 메시지를 지원하는지 여부를 나타내는 다른 DHCPLEASEQUERY 메시지에 대한 DHCP 서버의 응답 때문인 경우를 제외하고는).

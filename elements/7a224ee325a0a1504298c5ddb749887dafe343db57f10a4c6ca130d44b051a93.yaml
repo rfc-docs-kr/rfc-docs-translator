@@ -1,0 +1,18 @@
+"hash": |-
+  7a224ee325a0a1504298c5ddb749887dafe343db57f10a4c6ca130d44b051a93
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Several IMAP extensions allow the server to return unsolicited
+     responses specific to these extensions in certain circumstances.
+     However, servers cannot send those unsolicited responses (with the
+     exception of response codes (see Section 7.1) included in tagged or
+     untagged OK/NO/BAD responses, which can always be sent) until they
+     know that the clients support such extensions and thus will be able
+     to correctly parse and process the extension response data.
+"fixed": |-
+  Several IMAP extensions allow the server to return unsolicited responses specific to these extensions in certain circumstances. However, servers cannot send those unsolicited responses (with the exception of response codes (see Section 7.1) included in tagged or untagged OK/NO/BAD responses, which can always be sent) until they know that the clients support such extensions and thus will be able to correctly parse and process the extension response data.
+"ko": |-
+  여러 IMAP 확장을 사용하면 서버는 특정 상황에서 이러한 확장과 관련된 원치 않는 응답을 반환할 수 있습니다. 그러나 서버는 클라이언트가 그러한 확장을 지원한다는 것을 알 때까지 원치 않는 응답을 보낼 수 없습니다(항상 전송될 수 있는 태그가 지정되거나 태그가 지정되지 않은 OK/NO/BAD 응답에 포함된 응답 코드(섹션 7.1 참조) 제외). 확장 응답 데이터를 올바르게 구문 분석하고 처리할 수 있어야 합니다.

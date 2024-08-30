@@ -1,0 +1,59 @@
+"hash": |-
+  7d9e80ba48a0e9a7d41cf83172c0bfec7f882895ea9b433b72c2a796d414d20e
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+             5.4.16. multiple-document-jobs-supported (boolean) .......159
+             5.4.17. charset-configured (charset) .....................159
+             5.4.18. charset-supported (1setOf charset) ...............159
+             5.4.19. natural-language-configured (naturalLanguage) ....160
+             5.4.20. generated-natural-language-supported
+                     (1setOf naturalLanguage) .........................160
+             5.4.21. document-format-default (mimeMediaType) ..........160
+             5.4.22. document-format-supported (1setOf
+                     mimeMediaType) ...................................161
+             5.4.23. printer-is-accepting-jobs (boolean) ..............161
+             5.4.24. queued-job-count (integer(0:MAX)) ................161
+             5.4.25. printer-message-from-operator (text(127)) ........161
+             5.4.26. color-supported (boolean) ........................161
+             5.4.27. reference-uri-schemes-supported (1setOf
+                     uriScheme) .......................................162
+             5.4.28. pdl-override-supported (type2 keyword) ...........162
+             5.4.29. printer-up-time (integer(1:MAX)) .................162
+             5.4.30. printer-current-time (dateTime|unknown) ..........163
+             5.4.31. multiple-operation-time-out (integer(1:MAX)) .....164
+             5.4.32. compression-supported (1setOf type2 keyword) .....164
+             5.4.33. job-k-octets-supported (rangeOfInteger(0:MAX)) ...165
+             5.4.34. job-impressions-supported
+                     (rangeOfInteger(0:MAX)) ..........................165
+             5.4.35. job-media-sheets-supported
+                     (rangeOfInteger(1:MAX)) ..........................165
+             5.4.36. pages-per-minute (integer(0:MAX)) ................165
+             5.4.37. pages-per-minute-color (integer(0:MAX)) ..........165
+     6. Conformance ...................................................166
+        6.1. Client Conformance Requirements ..........................166
+        6.2. IPP Object Conformance Requirements ......................168
+             6.2.1. Objects ...........................................168
+             6.2.2. Operations ........................................168
+             6.2.3. IPP Object Attributes .............................170
+             6.2.4. Versions ..........................................170
+             6.2.5. Extensions ........................................171
+             6.2.6. Attribute Syntaxes ................................171
+             6.2.7. Security ..........................................172
+        6.3. Charset and Natural Language Requirements ................172
+     7. IANA Considerations ...........................................173
+        7.1. Object Extensions ........................................174
+        7.2. Attribute Extensibility ..................................174
+        7.3. Keyword Extensibility ....................................175
+        7.4. Enum Extensibility .......................................176
+        7.5. Attribute Group Extensibility ............................176
+        7.6. Out-of-Band Attribute Value Extensibility ................176
+        7.7. Attribute Syntax Extensibility ...........................177
+        7.8. Operation Extensibility ..................................177
+        7.9. Status-Code Extensibility ................................178
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

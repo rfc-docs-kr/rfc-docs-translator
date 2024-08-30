@@ -1,0 +1,39 @@
+"hash": |-
+  39a6cb9d1789aa1c0eb47739e5695fce3e048afa4f8a3511111a5f7ccfcc6799
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       +========+===========+====================+=====================+
+       | Exists | Meets the |  Has a child that  | Returned IMAP4rev2/ |
+       |        | selection |     meets the      |    LIST-EXTENDED    |
+       |        |  criteria | selection criteria |    attributes and   |
+       |        |           |                    |      CHILDINFO      |
+       +========+===========+====================+=====================+
+       |   no   |     no    |         no         |   no LIST response  |
+       |        |           |                    |       returned      |
+       +--------+-----------+--------------------+---------------------+
+       |  yes   |     no    |         no         |   no LIST response  |
+       |        |           |                    |       returned      |
+       +--------+-----------+--------------------+---------------------+
+       |   no   |    yes    |         no         |    (\NonExistent    |
+       |        |           |                    |       <attr>)       |
+       +--------+-----------+--------------------+---------------------+
+       |  yes   |    yes    |         no         |       (<attr>)      |
+       +--------+-----------+--------------------+---------------------+
+       |   no   |     no    |        yes         |   (\NonExistent) +  |
+       |        |           |                    |      CHILDINFO      |
+       +--------+-----------+--------------------+---------------------+
+       |  yes   |     no    |        yes         |    () + CHILDINFO   |
+       +--------+-----------+--------------------+---------------------+
+       |   no   |    yes    |        yes         |    (\NonExistent    |
+       |        |           |                    | <attr>) + CHILDINFO |
+       +--------+-----------+--------------------+---------------------+
+       |  yes   |    yes    |        yes         |      (<attr>) +     |
+       |        |           |                    |      CHILDINFO      |
+       +--------+-----------+--------------------+---------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

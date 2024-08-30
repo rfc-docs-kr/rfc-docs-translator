@@ -1,0 +1,47 @@
+"hash": |-
+  bdbffef640330b59b6972f0900f7afa1a352a301f0ef428fd869833818989d7f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +--------+----------------------------------------------------------+
+     | Values | Symbolic Name and Description                            |
+     +--------+----------------------------------------------------------+
+     | '3'    | 'pending': The Job is a candidate to start processing    |
+     |        | but is not yet processing.                               |
+     +--------+----------------------------------------------------------+
+     | '4'    | 'pending-held': The Job is not a candidate for           |
+     |        | processing for any number of reasons but will return to  |
+     |        | the 'pending' state as soon as the reasons are no longer |
+     |        | present.  The Job's "job-state-reasons" attribute MUST   |
+     |        | indicate why the Job is no longer a candidate for        |
+     |        | processing.                                              |
+     +--------+----------------------------------------------------------+
+     | '5'    | 'processing': One or more of the following: (1) the Job  |
+     |        | is using, or is attempting to use, one or more purely    |
+     |        | software processes that are analyzing, creating, or      |
+     |        | interpreting a PDL, etc.; (2) the Job is using, or is    |
+     |        | attempting to use, one or more hardware devices that are |
+     |        | interpreting a PDL; making marks on a medium; and/or     |
+     |        | performing finishing, such as stapling, etc.; (3) the    |
+     |        | Printer has made the Job ready for printing, but the     |
+     |        | Output Device is not yet printing it, either because the |
+     |        | Job hasn't reached the Output Device or because the Job  |
+     |        | is queued in the Output Device or some other spooler,    |
+     |        | waiting for the Output Device to print it.  When the Job |
+     |        | is in the 'processing' state, the entire Job state       |
+     |        | includes the detailed status represented in the          |
+     |        | Printer's "printer-state", "printer-state-reasons", and  |
+     |        | "printer-state-message" attributes.  Implementations MAY |
+     |        | include additional values in the Job's "job-state-       |
+     |        | reasons" attribute to indicate the progress of the Job,  |
+     |        | such as adding the 'job-printing' value to indicate when |
+     |        | the Output Device is actually making marks on paper      |
+     |        | and/or the 'processing-to-stop-point' value to indicate  |
+     |        | that the Printer is in the process of canceling or       |
+     |        | aborting the Job.                                        |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

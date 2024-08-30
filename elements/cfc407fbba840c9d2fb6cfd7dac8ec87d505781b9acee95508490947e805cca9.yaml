@@ -1,0 +1,15 @@
+"hash": |-
+  cfc407fbba840c9d2fb6cfd7dac8ec87d505781b9acee95508490947e805cca9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There MUST NOT be more than one HeartbeatRequest message in flight at
+     a time.  A HeartbeatRequest message is considered to be in flight
+     until the corresponding HeartbeatResponse message is received, or
+     until the retransmit timer expires.
+"fixed": |-
+  There MUST NOT be more than one HeartbeatRequest message in flight at a time.  A HeartbeatRequest message is considered to be in flight until the corresponding HeartbeatResponse message is received, or until the retransmit timer expires.
+"ko": |-
+  한 번에 전송 중인 HeartbeatRequest 메시지가 두 개 이상 있어서는 안 됩니다.  HeartbeatRequest 메시지는 해당 HeartbeatResponse 메시지가 수신되거나 재전송 타이머가 만료될 때까지 전송 중인 것으로 간주됩니다.

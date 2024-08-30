@@ -1,0 +1,30 @@
+"hash": |-
+  1b8070cce726f5974019655a1d9c4af014c570ad43b68d6f3cba557680107ecd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     list-select-opts =  "(" [
+                        (*(list-select-opt SP) list-select-base-opt
+                        *(SP list-select-opt))
+                       / (list-select-independent-opt
+                        *(SP list-select-independent-opt))
+                          ] ")"
+                 ; Any number of options may be in any order.
+                 ; If a list-select-mod-opt appears, then a
+                 ; list-select-base-opt must also appear.
+                 ; This allows these:
+                 ; ()
+                 ; (REMOTE)
+                 ; (SUBSCRIBED)
+                 ; (SUBSCRIBED REMOTE)
+                 ; (SUBSCRIBED RECURSIVEMATCH)
+                 ; (SUBSCRIBED REMOTE RECURSIVEMATCH)
+                 ; But does NOT allow these:
+                 ; (RECURSIVEMATCH)
+                 ; (REMOTE RECURSIVEMATCH)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  3a00051e83c9f11d5f666788c3c5e1ccb54993ee17d354db7d441cb720718fdd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        There is no need to return the CLOSED response code on completion
+        of the CLOSE or the UNSELECT command (or similar), whose purpose
+        is to close the currently selected mailbox without opening a new
+        one.
+"fixed": |-
+  - There is no need to return the CLOSED response code on completion of the CLOSE or the UNSELECT command (or similar), whose purpose is to close the currently selected mailbox without opening a new one.
+"ko": |-
+  - CLOSE 또는 UNSELECT 명령(또는 이와 유사한 명령) 완료 시 CLOSED 응답 코드를 반환할 필요가 없습니다. 이 명령의 목적은 새 사서함을 열지 않고 현재 선택한 사서함을 닫는 것입니다.

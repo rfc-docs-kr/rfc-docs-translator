@@ -1,0 +1,19 @@
+"hash": |-
+  d7b097969618cd4aec95636d4615dbeeccb3f2e101a421f8040896713d490487
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MUST be part of a RECORD-COMPLETE event from the
+     recorder resource to the client.  This indicates the reason behind
+     the RECORD method completion.  This header field MUST be sent in the
+     RECORD responses if they return with a failure status and a COMPLETE
+     state.  In the ABNF below, the 'cause-code' contains a numerical
+     value selected from the Cause-Code column of the following table.
+     The 'cause-name' contains the corresponding token selected from the
+     Cause-Name column.
+"fixed": |-
+  This header field MUST be part of a RECORD-COMPLETE event from the recorder resource to the client.  This indicates the reason behind the RECORD method completion.  This header field MUST be sent in the RECORD responses if they return with a failure status and a COMPLETE state.  In the ABNF below, the 'cause-code' contains a numerical value selected from the Cause-Code column of the following table. The 'cause-name' contains the corresponding token selected from the Cause-Name column.
+"ko": |-
+  이 헤더 필드는 레코더 리소스에서 클라이언트로 전송되는 RECORD-COMPLETE 이벤트의 일부여야 합니다. 이는 RECORD 메서드 완료의 이유를 나타냅니다. 이 헤더 필드는 실패 상태와 COMPLETE 상태로 반환되는 경우 RECORD 응답에서 보내야 합니다. 아래 ABNF에서 'cause-code'에는 다음 표의 Cause-Code 열에서 선택한 숫자 값이 포함됩니다. 'cause-name'에는 Cause-Name 열에서 선택한 해당 토큰이 포함됩니다.

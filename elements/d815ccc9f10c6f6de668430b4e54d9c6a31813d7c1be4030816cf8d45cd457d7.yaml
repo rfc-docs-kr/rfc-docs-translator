@@ -1,0 +1,18 @@
+"hash": |-
+  d815ccc9f10c6f6de668430b4e54d9c6a31813d7c1be4030816cf8d45cd457d7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  'job-restartable': This Job is retained (see Section 5.3.7.2) and
+        is currently able to be restarted using the Restart-Job (see
+        Section 4.3.7) or Resubmit-Job [PWG5100.11] operation.  If
+        'job-restartable' is a value of the Job's "job-state-reasons"
+        attribute, then the Printer MUST accept a Restart-Job operation
+        for that Job.  This value SHOULD be supported if the Restart-Job
+        operation is supported.
+"fixed": |-
+  -  'job-restartable': This Job is retained (see Section 5.3.7.2) and is currently able to be restarted using the Restart-Job (see Section 4.3.7) or Resubmit-Job [PWG5100.11] operation.  If 'job-restartable' is a value of the Job's "job-state-reasons" attribute, then the Printer MUST accept a Restart-Job operation for that Job.  This value SHOULD be supported if the Restart-Job operation is supported.
+"ko": |-
+  - 'job-restartable': 이 작업은 유지되며(섹션 5.3.7.2 참조) 현재 Restart-Job(섹션 4.3.7 참조) 또는 Resubmit-Job [PWG5100.11] 작업을 사용하여 다시 시작할 수 있습니다. 'job-restartable'이 작업의 "job-state-reasons" 속성 값인 경우 프린터는 해당 작업에 대한 작업 다시 시작 작업을 수락해야 합니다. Restart-Job 작업이 지원되는 경우 이 값을 지원해야 합니다.

@@ -1,0 +1,24 @@
+"hash": |-
+  b657778eb30088c31cda4dcee58fcbc38d9d0084b27d97f8cdc7c7f34513ef8b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            <?xml version="1.0"?>
+            <!-- the default grammar language is US English -->
+            <grammar xmlns="http://www.w3.org/2001/06/grammar"
+                     xml:lang="en-US" version="1.0" root="request">
+            <!-- single language attachment to a rule expansion -->
+              <rule id="request">
+                Can I speak to
+                <one-of xml:lang="fr-CA">
+                  <item>Michel Tremblay</item>
+                  <item>Andre Roy</item>
+                </one-of>
+              </rule>
+            </grammar>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

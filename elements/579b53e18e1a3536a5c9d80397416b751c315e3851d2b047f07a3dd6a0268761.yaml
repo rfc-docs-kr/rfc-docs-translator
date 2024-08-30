@@ -1,0 +1,15 @@
+"hash": |-
+  579b53e18e1a3536a5c9d80397416b751c315e3851d2b047f07a3dd6a0268761
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an FFDHE cipher suite is selected and the client sends a
+     ClientKeyExchange, the server MUST verify that 1 < dh_Yc < dh_p - 1.
+     If dh_Yc is out of range, the server MUST terminate the connection
+     with a fatal handshake_failure(40) alert.
+"fixed": |-
+  When an FFDHE cipher suite is selected and the client sends a ClientKeyExchange, the server MUST verify that 1 < dh_Yc < dh_p - 1. If dh_Yc is out of range, the server MUST terminate the connection with a fatal handshake_failure(40) alert.
+"ko": |-
+  FFDHE 암호 모음이 선택되고 클라이언트가 ClientKeyExchange를 보내는 경우 서버는 1 < dh_Yc < dh_p - 1인지 확인해야 합니다. dh_Yc가 범위를 벗어나면 서버는 fatal handshake_failure(40) 경고와 함께 연결을 종료해야 합니다.

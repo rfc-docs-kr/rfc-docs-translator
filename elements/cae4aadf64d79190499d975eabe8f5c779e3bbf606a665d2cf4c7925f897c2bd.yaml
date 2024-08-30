@@ -1,0 +1,19 @@
+"hash": |-
+  cae4aadf64d79190499d975eabe8f5c779e3bbf606a665d2cf4c7925f897c2bd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+           select(ClientOrServerExtension) {
+              case client:
+                 CertificateType certificate_types<1..2^8-1>;
+              case server:
+                 CertificateType certificate_type;
+           }
+        } CertificateTypeExtension;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

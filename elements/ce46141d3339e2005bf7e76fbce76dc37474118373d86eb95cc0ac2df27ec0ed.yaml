@@ -1,0 +1,18 @@
+"hash": |-
+  ce46141d3339e2005bf7e76fbce76dc37474118373d86eb95cc0ac2df27ec0ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint might need to stop accepting previously issued connection
+     IDs in certain circumstances.  Such an endpoint can cause its peer to
+     retire connection IDs by sending a NEW_CONNECTION_ID frame with an
+     increased Retire Prior To field.  The endpoint SHOULD continue to
+     accept the previously issued connection IDs until they are retired by
+     the peer.  If the endpoint can no longer process the indicated
+     connection IDs, it MAY close the connection.
+"fixed": |-
+  An endpoint might need to stop accepting previously issued connection IDs in certain circumstances.  Such an endpoint can cause its peer to retire connection IDs by sending a NEW_CONNECTION_ID frame with an increased Retire Prior To field.  The endpoint SHOULD continue to accept the previously issued connection IDs until they are retired by the peer.  If the endpoint can no longer process the indicated connection IDs, it MAY close the connection.
+"ko": |-
+  특정 상황에서는 엔드포인트가 이전에 발급된 연결 ID 수락을 중지해야 할 수도 있습니다. 이러한 끝점은 증가된 Retire Prior To 필드와 함께 NEW_CONNECTION_ID 프레임을 전송하여 해당 피어가 연결 ID를 폐기하도록 할 수 있습니다. 엔드포인트는 피어에 의해 폐기될 때까지 이전에 발행된 연결 ID를 계속해서 수락해야 합니다(SHOULD). 엔드포인트가 더 이상 표시된 연결 ID를 처리할 수 없는 경우 연결을 닫을 수 있습니다.

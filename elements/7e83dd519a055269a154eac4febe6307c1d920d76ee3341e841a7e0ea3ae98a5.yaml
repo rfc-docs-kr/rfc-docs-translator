@@ -1,0 +1,17 @@
+"hash": |-
+  7e83dd519a055269a154eac4febe6307c1d920d76ee3341e841a7e0ea3ae98a5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ReadVarint(data):
+       // The length of variable-length integers is encoded in the
+       // first two bits of the first byte.
+       v = data.next_byte()
+       prefix = v >> 6
+       length = 1 << prefix
+"fixed": |-
+  ReadVarint(data): // The length of variable-length integers is encoded in the // first two bits of the first byte. v = data.next_byte() prefix = v >> 6 length = 1 << prefix
+"ko": |-
+  ReadVarint(data): // 가변 길이 정수의 길이는 // 첫 번째 바이트의 처음 두 비트로 인코딩됩니다. v = data.next_byte() 접두사 = v >> 6 길이 = 1 << 접두사

@@ -1,0 +1,28 @@
+"hash": |-
+  cee8fbc405c51d996bd1144550d2c463954f7a182983ef19bbcb409feef944e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For some integrity algorithms, the byte string over which the ICV
+     computation is performed must be a multiple of a block size specified
+     by the algorithm.  If the length of ESP packet (as described above)
+     does not match the block size requirements for the algorithm,
+     implicit padding MUST be appended to the end of the ESP packet.
+     (This padding is added after the Next Header field, or after the
+     high-order 32 bits of the sequence number, if ESN is selected.)  The
+     block size (and hence the length of the padding) is specified by the
+     integrity algorithm specification.  This padding is not transmitted
+     with the packet.  The document that defines an integrity algorithm
+     MUST be consulted to determine if implicit padding is required as
+     described above.  If the document does not specify an answer to this
+     question, then the default is to assume that implicit padding is
+     required (as needed to match the packet length to the algorithm's
+     block size.)  If padding bytes are needed but the algorithm does not
+     specify the padding contents, then the padding octets MUST have a
+     value of zero.
+"fixed": |-
+  For some integrity algorithms, the byte string over which the ICV computation is performed must be a multiple of a block size specified by the algorithm.  If the length of ESP packet (as described above) does not match the block size requirements for the algorithm, implicit padding MUST be appended to the end of the ESP packet. (This padding is added after the Next Header field, or after the high-order 32 bits of the sequence number, if ESN is selected.)  The block size (and hence the length of the padding) is specified by the integrity algorithm specification.  This padding is not transmitted with the packet.  The document that defines an integrity algorithm MUST be consulted to determine if implicit padding is required as described above.  If the document does not specify an answer to this question, then the default is to assume that implicit padding is required (as needed to match the packet length to the algorithm's block size.)  If padding bytes are needed but the algorithm does not specify the padding contents, then the padding octets MUST have a value of zero.
+"ko": |-
+  일부 무결성 알고리즘의 경우 ICV 계산이 수행되는 바이트 문자열은 알고리즘에서 지정한 블록 크기의 배수여야 합니다.  위에서 설명한 대로 ESP 패킷의 길이가 알고리즘의 블록 크기 요구 사항과 일치하지 않는 경우 암시적 패딩을 ESP 패킷 끝에 추가해야 합니다. (이 패딩은 다음 헤더 필드 뒤에 추가되거나 ESN이 선택된 경우 시퀀스 번호의 상위 32비트 뒤에 추가됩니다.) 블록 크기(및 패딩 길이)는 무결성 알고리즘 사양에 의해 지정됩니다.  이 패딩은 패킷과 함께 전송되지 않습니다.  위에서 설명한 대로 암시적 패딩이 필요한지 여부를 결정하려면 무결성 알고리즘을 정의하는 문서를 참조해야 합니다.  문서에서 이 질문에 대한 답변을 지정하지 않은 경우 기본값은 암시적 패딩이 필요하다고 가정하는 것입니다(패킷 길이를 알고리즘의 블록 크기에 일치시키는 데 필요함). 패딩 바이트가 필요하지만 알고리즘이 지정하지 않은 경우 패딩 내용이 있는 경우 패딩 옥텟의 값은 0이어야 합니다.

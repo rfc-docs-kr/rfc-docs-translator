@@ -1,0 +1,15 @@
+"hash": |-
+  e985cda30d1749a93442b906b151bca51662c0917f18c6e47ff7359c0a025562
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The same stateless reset token MUST NOT be used for multiple
+     connection IDs.  Endpoints are not required to compare new values
+     against all previous values, but a duplicate value MAY be treated as
+     a connection error of type PROTOCOL_VIOLATION.
+"fixed": |-
+  The same stateless reset token MUST NOT be used for multiple connection IDs.  Endpoints are not required to compare new values against all previous values, but a duplicate value MAY be treated as a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  동일한 무상태 재설정 토큰을 여러 연결 ID에 사용하면 안 됩니다. 엔드포인트는 모든 이전 값과 새 값을 비교할 필요가 없지만 중복 값은 PROTOCOL_VIOLATION 유형의 연결 오류로 처리될 수 있습니다.

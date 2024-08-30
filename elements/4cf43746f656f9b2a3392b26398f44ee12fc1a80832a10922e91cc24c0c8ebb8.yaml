@@ -1,0 +1,15 @@
+"hash": |-
+  4cf43746f656f9b2a3392b26398f44ee12fc1a80832a10922e91cc24c0c8ebb8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A stateless reset (Section 10.3) is not suitable for any error that
+     can be signaled with a CONNECTION_CLOSE or RESET_STREAM frame.  A
+     stateless reset MUST NOT be used by an endpoint that has the state
+     necessary to send a frame on the connection.
+"fixed": |-
+  A stateless reset (Section 10.3) is not suitable for any error that can be signaled with a CONNECTION_CLOSE or RESET_STREAM frame.  A stateless reset MUST NOT be used by an endpoint that has the state necessary to send a frame on the connection.
+"ko": |-
+  상태 비저장 재설정(10.3절)은 CONNECTION_CLOSE 또는 RESET_STREAM 프레임으로 신호를 보낼 수 있는 오류에는 적합하지 않습니다. 연결에서 프레임을 보내는 데 필요한 상태를 가진 끝점에서는 상태 비저장 재설정을 사용해서는 안 됩니다.

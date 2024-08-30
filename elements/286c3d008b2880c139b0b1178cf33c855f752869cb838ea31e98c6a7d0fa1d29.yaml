@@ -1,0 +1,14 @@
+"hash": |-
+  286c3d008b2880c139b0b1178cf33c855f752869cb838ea31e98c6a7d0fa1d29
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A valid Content-Length is required on all HTTP/1.0 POST requests. An
+     HTTP/1.0 server should respond with a 400 (bad request) message if it
+     cannot determine the length of the request message's content.
+"fixed": |-
+  A valid Content-Length is required on all HTTP/1.0 POST requests. An HTTP/1.0 server should respond with a 400 (bad request) message if it cannot determine the length of the request message's content.
+"ko": |-
+  모든 HTTP/1.0 POST 요청에는 유효한 Content-Length가 필요합니다. HTTP/1.0 서버는 요청 메시지 내용의 길이를 확인할 수 없는 경우 400(잘못된 요청) 메시지로 응답해야 합니다.

@@ -1,0 +1,30 @@
+"hash": |-
+  b5996696ee280cd02ed68ab59890f669e83f3434717c5a23616e14be2591c1cd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     MRCPv2 clients and servers using TCP as a transport protocol MUST use
+     the procedures specified in RFC 4145 [RFC4145] for setting up the TCP
+     connection, with the considerations described hereby.  Similarly,
+     MRCPv2 clients and servers using TCP/TLS as a transport protocol MUST
+     use the procedures specified in RFC 4572 [RFC4572] for setting up the
+     TLS connection, with the considerations described hereby.  The
+     a=setup attribute, as described in RFC 4145 [RFC4145], MUST be
+     "active" for the offer from the client and MUST be "passive" for the
+     answer from the MRCPv2 server.  The a=connection attribute MUST have
+     a value of "new" on the very first control "m=" line offer from the
+     client to an MRCPv2 server.  Subsequent control "m=" line offers from
+     the client to the MRCP server MAY contain "new" or "existing",
+     depending on whether the client wants to set up a new connection or
+     share an existing connection, respectively.  If the client specifies
+     a value of "new", the server MUST respond with a value of "new".  If
+     the client specifies a value of "existing", the server MUST respond.
+     The legal values in the response are "existing" if the server prefers
+     to share an existing connection or "new" if not.  In the latter case,
+     the client MUST initiate a new transport connection.
+"fixed": |-
+  MRCPv2 clients and servers using TCP as a transport protocol MUST use the procedures specified in RFC 4145 [RFC4145] for setting up the TCP connection, with the considerations described hereby.  Similarly, MRCPv2 clients and servers using TCP/TLS as a transport protocol MUST use the procedures specified in RFC 4572 [RFC4572] for setting up the TLS connection, with the considerations described hereby.  The a=setup attribute, as described in RFC 4145 [RFC4145], MUST be "active" for the offer from the client and MUST be "passive" for the answer from the MRCPv2 server.  The a=connection attribute MUST have a value of "new" on the very first control "m=" line offer from the client to an MRCPv2 server.  Subsequent control "m=" line offers from the client to the MRCP server MAY contain "new" or "existing", depending on whether the client wants to set up a new connection or share an existing connection, respectively.  If the client specifies a value of "new", the server MUST respond with a value of "new".  If the client specifies a value of "existing", the server MUST respond. The legal values in the response are "existing" if the server prefers to share an existing connection or "new" if not.  In the latter case, the client MUST initiate a new transport connection.
+"ko": |-
+  TCP를 전송 프로토콜로 사용하는 MRCPv2 클라이언트와 서버는 여기에 설명된 고려 사항과 함께 TCP 연결을 설정하기 위해 RFC 4145 [RFC4145]에 지정된 절차를 사용해야 합니다. 마찬가지로 TCP/TLS를 전송 프로토콜로 사용하는 MRCPv2 클라이언트와 서버는 여기에 설명된 고려 사항과 함께 TLS 연결을 설정하기 위해 RFC 4572 [RFC4572]에 지정된 절차를 사용해야 합니다. RFC 4145 [RFC4145]에 설명된 대로 a=setup 속성은 클라이언트의 제안에 대해 "활성"이어야 하고 MRCPv2 서버의 답변에 대해 "수동"이어야 합니다. a=connection 속성은 클라이언트에서 MRCPv2 서버로의 첫 번째 제어 "m=" 줄 제안에서 "new" 값을 가져야 합니다. 클라이언트에서 MRCP 서버로 보내는 후속 제어 "m=" 라인은 클라이언트가 새 연결을 설정하거나 기존 연결을 공유할지 여부에 따라 "new" 또는 "existing"을 포함할 수 있습니다. 클라이언트가 "new" 값을 지정하는 경우 서버는 "new" 값으로 응답해야 합니다. 클라이언트가 "existing" 값을 지정하는 경우 서버는 응답해야 합니다. 응답의 합법적인 값은 서버가 기존 연결을 공유하는 것을 선호하는 경우 "existing"이고 그렇지 않은 경우 "new"입니다. 후자의 경우 클라이언트는 새 전송 연결을 시작해야 합니다.

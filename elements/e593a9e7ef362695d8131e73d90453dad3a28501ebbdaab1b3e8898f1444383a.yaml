@@ -1,0 +1,20 @@
+"hash": |-
+  e593a9e7ef362695d8131e73d90453dad3a28501ebbdaab1b3e8898f1444383a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AuthenticatedSafe itself consists of a sequence of ContentInfo
+     values, some of which may consist of plaintext (data), and others
+     that may either be enveloped (if public-key privacy mode is used) or
+     encrypted (if password privacy mode is used).  If the contents are
+     enveloped, then they are encrypted with a symmetric cipher under a
+     freshly generated key, which is in turn encrypted with RSA asymmetric
+     encryption.  The RSA public key used to encrypt the symmetric key is
+     called TPDestEncK and corresponds to an RSA private key, VDestEncK,
+     on the destination platform.  TPDestEncK needs to be trusted by the
+"fixed": |-
+  The AuthenticatedSafe itself consists of a sequence of ContentInfo values, some of which may consist of plaintext (data), and others that may either be enveloped (if public-key privacy mode is used) or encrypted (if password privacy mode is used).  If the contents are enveloped, then they are encrypted with a symmetric cipher under a freshly generated key, which is in turn encrypted with RSA asymmetric encryption.  The RSA public key used to encrypt the symmetric key is called TPDestEncK and corresponds to an RSA private key, VDestEncK, on the destination platform.  TPDestEncK needs to be trusted by the
+"ko": |-
+  AuthenticatedSafe 자체는 일련의 ContentInfo 값으로 구성되며, 일부는 일반 텍스트(데이터)로 구성될 수 있고, 다른 일부는 봉투(공개 키 개인 정보 보호 모드가 사용되는 경우) 또는 암호화(암호 개인 정보 보호 모드가 사용되는 경우)될 수 있습니다. 콘텐츠가 봉투된 경우 새로 생성된 키 아래에서 대칭 암호로 암호화되고, 이는 다시 RSA 비대칭 암호화로 암호화됩니다. 대칭 키를 암호화하는 데 사용된 RSA 공개 키는 TPDestEncK라고 하며 대상 플랫폼의 RSA 개인 키인 VDestEncK에 해당합니다. TPDestEncK는 다음에 의해 신뢰되어야 합니다.

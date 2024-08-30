@@ -1,0 +1,18 @@
+"hash": |-
+  8c7237fc126a3123ec1b596dcea088cdc44b5907d6ea80be615147ed88153766
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the next step, the authorization server invalidates the token.
+     The invalidation takes place immediately, and the token cannot be
+     used again after the revocation.  In practice, there could be a
+     propagation delay, for example, in which some servers know about the
+     invalidation while others do not.  Implementations should minimize
+     that window, and clients must not try to use the token after receipt
+     of an HTTP 200 response from the server.
+"fixed": |-
+  In the next step, the authorization server invalidates the token. The invalidation takes place immediately, and the token cannot be used again after the revocation.  In practice, there could be a propagation delay, for example, in which some servers know about the invalidation while others do not.  Implementations should minimize that window, and clients must not try to use the token after receipt of an HTTP 200 response from the server.
+"ko": |-
+  다음 단계에서는 인증 서버가 토큰을 무효화합니다. 무효화는 즉시 이루어지며, 취소 후에는 토큰을 다시 사용할 수 없습니다.  실제로 전파 지연이 있을 수 있습니다. 예를 들어 일부 서버는 무효화에 대해 알고 있지만 다른 서버는 그렇지 않습니다.  구현에서는 해당 창을 최소화해야 하며 클라이언트는 서버에서 HTTP 200 응답을 받은 후 토큰을 사용하려고 시도해서는 안 됩니다.

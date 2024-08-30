@@ -1,0 +1,21 @@
+"hash": |-
+  db3b8c15854d2e177cf68e06a0cd759b1caf4b576470dfb7b3db431e3d23ff6f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a stream is offered as sendonly, the corresponding stream MUST be
+     marked as recvonly or inactive in the answer.  If a media stream is
+     listed as recvonly in the offer, the answer MUST be marked as
+     sendonly or inactive in the answer.  If an offered media stream is
+     listed as sendrecv (or if there is no direction attribute at the
+     media or session level, in which case the stream is sendrecv by
+     default), the corresponding stream in the answer MAY be marked as
+     sendonly, recvonly, sendrecv, or inactive.  If an offered media
+     stream is listed as inactive, it MUST be marked as inactive in the
+     answer.
+"fixed": |-
+  If a stream is offered as sendonly, the corresponding stream MUST be marked as recvonly or inactive in the answer.  If a media stream is listed as recvonly in the offer, the answer MUST be marked as sendonly or inactive in the answer.  If an offered media stream is listed as sendrecv (or if there is no direction attribute at the media or session level, in which case the stream is sendrecv by default), the corresponding stream in the answer MAY be marked as sendonly, recvonly, sendrecv, or inactive.  If an offered media stream is listed as inactive, it MUST be marked as inactive in the answer.
+"ko": |-
+  스트림이 sendonly로 제공된 경우 해당 스트림은 답변에서 recvonly 또는 inactive로 표시되어야 합니다. 미디어 스트림이 offer에서 recvonly로 나열된 경우 해당 답변은 답변에서 sendonly 또는 inactive로 표시되어야 합니다. 제공된 미디어 스트림이 sendrecv로 나열된 경우(또는 미디어 또는 세션 수준에서 direction 속성이 없는 경우 스트림은 기본적으로 sendrecv임), 답변의 해당 스트림은 sendonly, recvonly, sendrecv 또는 inactive로 표시될 수 있습니다. 제공된 미디어 스트림이 inactive로 나열된 경우 해당 답변에서 inactive로 표시되어야 합니다.

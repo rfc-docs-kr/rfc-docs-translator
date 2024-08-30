@@ -1,0 +1,14 @@
+"hash": |-
+  69ddbca643e443a8abcf670c3b9aa579420122e9bcebdbdbbfc3c77c32948ab4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The client MUST include the "renegotiation_info" extension in the
+        ClientHello, containing the saved client_verify_data.  The SCSV
+        MUST NOT be included.
+"fixed": |-
+  -  The client MUST include the "renegotiation_info" extension in the ClientHello, containing the saved client_verify_data.  The SCSV MUST NOT be included.
+"ko": |-
+  - 클라이언트는 저장된 client_verify_data를 포함하는 ClientHello에 "renegotiation_info" 확장을 포함해야 합니다. SCSV는 포함되어서는 안 됩니다.

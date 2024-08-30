@@ -1,0 +1,18 @@
+"hash": |-
+  4cc49bde812bcad148f73ec1b9da943868e62ba64777978514ba3753da4bf3c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Allowing an origin server to send a success response when a change
+     request appears to have already been applied is more efficient for
+     many authoring use cases, but comes with some risk if multiple user
+     agents are making change requests that are very similar but not
+     cooperative.  In those cases, an origin server is better off being
+     stringent in sending 412 for every failed precondition on an unsafe
+     method.
+"fixed": |-
+  Allowing an origin server to send a success response when a change request appears to have already been applied is more efficient for many authoring use cases, but comes with some risk if multiple user agents are making change requests that are very similar but not cooperative.  In those cases, an origin server is better off being stringent in sending 412 for every failed precondition on an unsafe method.
+"ko": |-
+  변경 요청이 이미 적용된 것으로 나타날 때 원본 서버가 성공 응답을 보내도록 허용하는 것은 많은 저작 사용 사례에서 더 효율적이지만, 여러 사용자 에이전트가 매우 유사하지만 협조적이지 않은 변경 요청을 하는 경우 약간의 위험이 따릅니다. 이러한 경우 원본 서버는 안전하지 않은 메서드에서 실패한 모든 전제 조건에 대해 412를 엄격하게 보내는 것이 더 좋습니다.

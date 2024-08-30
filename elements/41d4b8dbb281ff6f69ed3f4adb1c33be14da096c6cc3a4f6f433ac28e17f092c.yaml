@@ -1,0 +1,19 @@
+"hash": |-
+  41d4b8dbb281ff6f69ed3f4adb1c33be14da096c6cc3a4f6f433ac28e17f092c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This document does not specify how the server stores the keys and
+     identities, or how exactly it finds the key corresponding to the
+     identity it receives.  For instance, if the identity is a domain
+     name, it might be appropriate to do a case-insensitive lookup.  It is
+     RECOMMENDED that before looking up the key, the server processes the
+     PSK identity with a stringprep profile [STRINGPREP] appropriate for
+     the identity in question (such as Nameprep [NAMEPREP] for components
+     of domain names or SASLprep for usernames [SASLPREP]).
+"fixed": |-
+  This document does not specify how the server stores the keys and identities, or how exactly it finds the key corresponding to the identity it receives.  For instance, if the identity is a domain name, it might be appropriate to do a case-insensitive lookup.  It is RECOMMENDED that before looking up the key, the server processes the PSK identity with a stringprep profile [STRINGPREP] appropriate for the identity in question (such as Nameprep [NAMEPREP] for components of domain names or SASLprep for usernames [SASLPREP]).
+"ko": |-
+  이 문서에서는 서버가 키와 ID를 저장하는 방법이나 수신한 ID에 해당하는 키를 정확히 찾는 방법을 지정하지 않습니다. 예를 들어, ID가 도메인 이름인 경우 대소문자를 구분하지 않고 조회하는 것이 적절할 수 있습니다. 키를 찾기 전에 서버가 문제의 ID에 적합한 stringprep 프로필 [STRINGPREP]을 사용하여 PSK ID를 처리하는 것이 좋습니다(예: 도메인 이름 구성 요소의 경우 Nameprep [NAMEPREP] 또는 사용자 이름 [SASLPREP]의 경우 SASLprep).

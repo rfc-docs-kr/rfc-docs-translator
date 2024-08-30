@@ -1,0 +1,22 @@
+"hash": |-
+  40a6e29ffbb337d9250d7e2539319e59e61185362598982ae44a1294d4df89d6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A User Agent Client receiving a P-Early-Media header field MAY use
+     the parameter(s) of the header field to gate or cut-through early
+     media, and to decide whether to render early media from the UAS to
+     the UAC in preference to any locally generated ringback triggered by
+     a 180 Ringing response.  If a proxy is providing the early media
+     gating function for the User Agent Client, then the gateway model of
+     RFC 3960 [4] for rendering of early media is applicable.  A User
+     Agent Client without a proxy in the network performing early media
+     gating that receives a P-Early-Media header field SHOULD perform
+     gating or cut-through of early media according to the parameter(s) of
+     the header field.
+"fixed": |-
+  A User Agent Client receiving a P-Early-Media header field MAY use the parameter(s) of the header field to gate or cut-through early media, and to decide whether to render early media from the UAS to the UAC in preference to any locally generated ringback triggered by a 180 Ringing response.  If a proxy is providing the early media gating function for the User Agent Client, then the gateway model of RFC 3960 [4] for rendering of early media is applicable.  A User Agent Client without a proxy in the network performing early media gating that receives a P-Early-Media header field SHOULD perform gating or cut-through of early media according to the parameter(s) of the header field.
+"ko": |-
+  P-Early-Media 헤더 필드를 수신하는 사용자 에이전트 클라이언트는 헤더 필드의 매개변수를 사용하여 조기 미디어를 게이팅하거나 컷스루하고 180 Ringing 응답에서 트리거된 로컬 생성 링백보다 UAS에서 UAC로 조기 미디어를 렌더링할지 여부를 결정할 수 있습니다. 프록시가 사용자 에이전트 클라이언트에 대한 조기 미디어 게이팅 기능을 제공하는 경우 조기 미디어 렌더링을 위한 RFC 3960[4]의 게이트웨이 모델이 적용됩니다. 네트워크에 조기 미디어 게이팅을 수행하는 프록시가 없는 사용자 에이전트 클라이언트가 P-Early-Media 헤더 필드를 수신하는 경우 헤더 필드의 매개변수에 따라 조기 미디어의 게이팅 또는 컷스루를 수행해야 합니다.

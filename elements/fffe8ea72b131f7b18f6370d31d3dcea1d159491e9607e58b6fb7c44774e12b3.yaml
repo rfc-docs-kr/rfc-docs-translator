@@ -1,0 +1,39 @@
+"hash": |-
+  fffe8ea72b131f7b18f6370d31d3dcea1d159491e9607e58b6fb7c44774e12b3
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1. Introduction ....................................................2
+     2. Terminology .....................................................5
+     3. Background ......................................................7
+     4. Design Goals ....................................................7
+        4.1. Broadcast ARP Is Undesirable ...............................7
+        4.2. SNMP and LDAP Are Not Appropriate ..........................8
+        4.3. DHCP Relay Agent Functionality Is Common ...................8
+        4.4. DHCP Servers Are a Reliable Source of Location
+             Information ................................................9
+        4.5. Minimal Additional Configuration Is Required ...............9
+     5. Protocol Overview ...............................................9
+     6. Protocol Details ...............................................12
+        6.1. Definitions Required for DHCPLEASEQUERY Processing ........12
+        6.2. Sending the DHCPLEASEQUERY Message ........................14
+        6.3. Receiving the DHCPLEASEQUERY Message ......................15
+        6.4. Responding to the DHCPLEASEQUERY Message ..................16
+        6.5. Receiving a DHCPLEASEUNASSIGNED, DHCPLEASEACTIVE, or
+             DHCPLEASEUNKNOWN Message ..................................20
+        6.6. Receiving No Response to the DHCPLEASEQUERY Message .......21
+        6.7. Lease Binding Data Storage Requirements ...................22
+        6.8. Using the DHCPLEASEQUERY Message with Multiple
+             DHCP Servers ..............................................23
+     7. Security Considerations ........................................23
+     8. IANA Considerations ............................................24
+     9. Acknowledgements ...............................................24
+     10. References ....................................................25
+        10.1. Normative References .....................................25
+        10.2. Informative References ...................................25
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

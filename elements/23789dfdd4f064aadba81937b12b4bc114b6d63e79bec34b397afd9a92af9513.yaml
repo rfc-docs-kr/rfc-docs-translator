@@ -1,0 +1,18 @@
+"hash": |-
+  23789dfdd4f064aadba81937b12b4bc114b6d63e79bec34b397afd9a92af9513
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a RECOGNIZE method has been received, the recognition is
+     initiated on the stream.  The No-Input-Timer MUST be started at this
+     time if the Start-Input-Timers header field is specified as "true".
+     If this header field is set to "false", the No-Input-Timer MUST be
+     started when it receives the START-INPUT-TIMERS method from the
+     client.  The Recognition-Timeout MUST be started when the recognition
+     resource detects speech or a DTMF digit in the media stream.
+"fixed": |-
+  When a RECOGNIZE method has been received, the recognition is initiated on the stream.  The No-Input-Timer MUST be started at this time if the Start-Input-Timers header field is specified as "true". If this header field is set to "false", the No-Input-Timer MUST be started when it receives the START-INPUT-TIMERS method from the client.  The Recognition-Timeout MUST be started when the recognition resource detects speech or a DTMF digit in the media stream.
+"ko": |-
+  RECOGNIZE 메서드가 수신되면 스트림에서 인식이 시작됩니다. Start-Input-Timers 헤더 필드가 "true"로 지정된 경우 이때 No-Input-Timer가 시작되어야 합니다. 이 헤더 필드가 "false"로 설정된 경우 클라이언트에서 START-INPUT-TIMERS 메서드를 수신하면 No-Input-Timer가 시작되어야 합니다. 인식 리소스가 미디어 스트림에서 음성이나 DTMF 숫자를 감지하면 Recognition-Timeout이 시작되어야 합니다.

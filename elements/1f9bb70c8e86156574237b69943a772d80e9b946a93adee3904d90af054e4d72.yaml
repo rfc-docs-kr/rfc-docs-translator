@@ -1,0 +1,19 @@
+"hash": |-
+  1f9bb70c8e86156574237b69943a772d80e9b946a93adee3904d90af054e4d72
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that does not understand a transport parameter can discard
+     it and attempt 0-RTT on subsequent connections.  However, if the
+     client adds support for a discarded transport parameter, it risks
+     violating the constraints that the transport parameter establishes if
+     it attempts 0-RTT.  New transport parameters can avoid this problem
+     by setting a default of the most conservative value.  Clients can
+     avoid this problem by remembering all parameters, even those not
+     currently supported.
+"fixed": |-
+  A client that does not understand a transport parameter can discard it and attempt 0-RTT on subsequent connections.  However, if the client adds support for a discarded transport parameter, it risks violating the constraints that the transport parameter establishes if it attempts 0-RTT.  New transport parameters can avoid this problem by setting a default of the most conservative value.  Clients can avoid this problem by remembering all parameters, even those not currently supported.
+"ko": |-
+  전송 매개변수를 이해하지 못하는 클라이언트는 이를 무시하고 후속 연결에서 0-RTT를 시도할 수 있습니다. 그러나 클라이언트가 폐기된 전송 매개변수에 대한 지원을 추가하면 0-RTT를 시도할 때 전송 매개변수가 설정하는 제약 조건을 위반할 위험이 있습니다. 새로운 전송 매개변수는 가장 보수적인 값의 기본값을 설정하여 이 문제를 방지할 수 있습니다. 클라이언트는 현재 지원되지 않는 매개변수도 포함하여 모든 매개변수를 기억함으로써 이 문제를 피할 수 있습니다.

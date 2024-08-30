@@ -1,0 +1,25 @@
+"hash": |-
+  1eed09699ad730e01108a48231375f4523fa42d46bdb333284f8cce42074c309
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-----------------+-----------------+-------------------------------+
+     | Current         | New "printer-   | IPP Printer's response        |
+     | "printer-state" | state"          | status-code and action:       |
+     +-----------------+-----------------+-------------------------------+
+     | 'idle'          | 'idle'          | 'successful-ok'               |
+     +-----------------+-----------------+-------------------------------+
+     | 'processing'    | 'processing'    | 'successful-ok'               |
+     +-----------------+-----------------+-------------------------------+
+     | 'stopped'       | 'processing'    | 'successful-ok', when there   |
+     |                 |                 | are Jobs to be processed      |
+     +-----------------+-----------------+-------------------------------+
+     | 'stopped'       | 'idle'          | 'successful-ok', when there   |
+     |                 |                 | are no Jobs to be processed   |
+     +-----------------+-----------------+-------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

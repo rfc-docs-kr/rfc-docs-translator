@@ -1,0 +1,18 @@
+"hash": |-
+  8e57fc1cee364a016ea10730d04aae5accb7b86dd45f39e379ad52a4cb3f4003
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server in a deployment that does not implement a solution to
+     maintain connection continuity when the client address changes SHOULD
+     indicate that migration is not supported by using the
+     disable_active_migration transport parameter.  The
+     disable_active_migration transport parameter does not prohibit
+     connection migration after a client has acted on a preferred_address
+     transport parameter.
+"fixed": |-
+  A server in a deployment that does not implement a solution to maintain connection continuity when the client address changes SHOULD indicate that migration is not supported by using the disable_active_migration transport parameter.  The disable_active_migration transport parameter does not prohibit connection migration after a client has acted on a preferred_address transport parameter.
+"ko": |-
+  클라이언트 주소가 변경될 때 연결 연속성을 유지하기 위한 솔루션을 구현하지 않는 배포의 서버는 비활성화_active_migration 전송 매개변수를 사용하여 마이그레이션이 지원되지 않음을 나타내야 합니다. 비활성화_active_migration 전송 매개변수는 클라이언트가 Preferred_address 전송 매개변수에 대해 작업을 수행한 후 연결 마이그레이션을 금지하지 않습니다.

@@ -1,0 +1,1 @@
+각 JWS 서명 값은 JWS Compact Serialization과 동일한 방식으로 해당 JOSE 헤더 값의 매개변수를 사용하여 계산됩니다. 이는 "signatures" 배열에 표현된 각 JWS 서명 값이 JWS Compact Serialization에서 동일한 매개변수에 대해 계산된 값과 동일하다는 바람직한 속성을 가지고 있습니다. 단, 해당 서명/MAC 계산에 대한 JWS 보호 헤더 값(무결성 보호 헤더 매개변수 값을 나타냄)이 JWS Compact Serialization에서 사용된 값과 일치해야 합니다.

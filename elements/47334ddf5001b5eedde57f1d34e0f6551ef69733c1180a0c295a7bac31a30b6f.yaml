@@ -1,0 +1,14 @@
+"hash": |-
+  47334ddf5001b5eedde57f1d34e0f6551ef69733c1180a0c295a7bac31a30b6f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     x509CRL BAG-TYPE ::=
+         {OCTET STRING IDENTIFIED BY {crlTypes 1}}
+         -- DER-encoded X.509 CRL stored in OCTET STRING
+"fixed": |-
+  x509CRL BAG-TYPE ::=  -   {OCTET STRING IDENTIFIED BY {crlTypes 1}} -- DER-encoded X.509 CRL stored in OCTET STRING
+"ko": |-
+  x509CRL BAG-TYPE ::= - {crlTypes 1로 식별된 옥텟 문자열} -- 옥텟 문자열에 저장된 DER 인코딩된 X.509 CRL

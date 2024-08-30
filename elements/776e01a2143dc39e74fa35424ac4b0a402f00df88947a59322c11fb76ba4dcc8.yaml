@@ -1,0 +1,16 @@
+"hash": |-
+  776e01a2143dc39e74fa35424ac4b0a402f00df88947a59322c11fb76ba4dcc8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Range header field is evaluated after evaluating the precondition
+     header fields defined in Section 13.1, and only if the result in
+     absence of the Range header field would be a 200 (OK) response.  In
+     other words, Range is ignored when a conditional GET would result in
+     a 304 (Not Modified) response.
+"fixed": |-
+  The Range header field is evaluated after evaluating the precondition header fields defined in Section 13.1, and only if the result in absence of the Range header field would be a 200 (OK) response.  In other words, Range is ignored when a conditional GET would result in a 304 (Not Modified) response.
+"ko": |-
+  Range 헤더 필드는 섹션 13.1에 정의된 전제조건 헤더 필드를 평가한 후 Range 헤더 필드가 없는 결과가 200(OK) 응답인 경우에만 평가됩니다. 즉, 조건부 GET으로 인해 304(수정되지 않음) 응답이 발생하면 Range가 무시됩니다.

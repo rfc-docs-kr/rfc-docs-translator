@@ -1,0 +1,13 @@
+"hash": |-
+  0f19bc6c84cf730e832b42cc6eebf04fd82d56c05a969eebc87f4fd64addb586
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  absence of the retry_source_connection_id transport parameter from
+        the server after receiving a Retry packet,
+"fixed": |-
+  *  absence of the retry_source_connection_id transport parameter from the server after receiving a Retry packet,
+"ko": |-
+  * 재시도 패킷을 수신한 후 서버에서 retry_source_connection_id 전송 매개변수가 없는 경우,

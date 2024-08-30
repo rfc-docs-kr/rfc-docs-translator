@@ -1,0 +1,25 @@
+"hash": |-
+  56c266e2f26b1a8f912b5dc06a18504485b26725ee40fff9f60578b433d8f0b7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Implementation Note: Canvel et al. [CBCTIME] have demonstrated a
+                          timing attack on CBC padding based on the time
+                          required to compute the MAC.  In order to defend
+                          against this attack, implementations MUST ensure
+                          that record processing time is essentially the
+                          same whether or not the padding is correct.  In
+                          general, the best way to do this is to compute
+                          the MAC even if the padding is incorrect, and
+                          only then reject the packet.  For instance, if
+                          the pad appears to be incorrect, the
+                          implementation might assume a zero-length pad
+                          and then compute the MAC.  This leaves a small
+                          timing channel, since MAC performance depends to
+                          some extent on the size of the data fragment,
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

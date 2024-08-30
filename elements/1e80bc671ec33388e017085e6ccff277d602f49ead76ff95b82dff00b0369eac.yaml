@@ -1,0 +1,18 @@
+"hash": |-
+  1e80bc671ec33388e017085e6ccff277d602f49ead76ff95b82dff00b0369eac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because the percent "%" character always has the reserved purpose of
+     being the escape indicator, it must be escaped as "%25" in order to
+     be used as data within a URI.  Implementers should be careful not to
+     escape or unescape the same string more than once, since unescaping
+     an already unescaped string might lead to misinterpreting a percent
+     data character as another escaped character, or vice versa in the
+     case of escaping an already escaped string.
+"fixed": |-
+  Because the percent "%" character always has the reserved purpose of being the escape indicator, it must be escaped as "%25" in order to be used as data within a URI.  Implementers should be careful not to escape or unescape the same string more than once, since unescaping an already unescaped string might lead to misinterpreting a percent data character as another escaped character, or vice versa in the case of escaping an already escaped string.
+"ko": |-
+  퍼센트 "%" 문자는 항상 이스케이프 표시기라는 예약된 목적을 갖고 있으므로 URI 내에서 데이터로 사용하려면 "%25"로 이스케이프해야 합니다. 구현자는 동일한 문자열을 두 번 이상 이스케이프하거나 이스케이프 해제하지 않도록 주의해야 합니다. 이미 이스케이프 해제된 문자열을 이스케이프 해제하면 백분율 데이터 문자를 다른 이스케이프 문자로 잘못 해석할 수 있고, 이미 이스케이프된 문자열을 이스케이프하는 경우 그 반대가 될 수 있기 때문입니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  651d4f0fef71ab5453762b36ae7ba8636fd5578fe7a779c2af125fb4972e0726
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender MUST NOT send a connection option corresponding to a field
+     that is intended for all recipients of the content.  For example,
+     Cache-Control is never appropriate as a connection option
+     (Section 5.2 of [CACHING]).
+"fixed": |-
+  A sender MUST NOT send a connection option corresponding to a field that is intended for all recipients of the content.  For example, Cache-Control is never appropriate as a connection option (Section 5.2 of [CACHING]).
+"ko": |-
+  발신자는 콘텐츠의 모든 수신자를 대상으로 하는 필드에 해당하는 연결 옵션을 보내서는 안 됩니다. 예를 들어 Cache-Control은 연결 옵션으로 적합하지 않습니다([CACHING]의 섹션 5.2).

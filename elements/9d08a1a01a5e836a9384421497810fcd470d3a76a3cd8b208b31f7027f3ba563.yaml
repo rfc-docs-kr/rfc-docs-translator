@@ -1,0 +1,24 @@
+"hash": |-
+  9d08a1a01a5e836a9384421497810fcd470d3a76a3cd8b208b31f7027f3ba563
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     MRCPv2 requires a connection-oriented transport-layer protocol such
+     as TCP to guarantee reliable sequencing and delivery of MRCPv2
+     control messages between the client and the server.  In order to meet
+     the requirements for security enumerated in SPEECHSC requirements
+     [RFC4313], clients and servers MUST implement TLS as well.  One or
+     more connections between the client and the server can be shared
+     among different MRCPv2 channels to the server.  The individual
+     messages carry the channel identifier to differentiate messages on
+     different channels.  MRCPv2 encoding is text based with mechanisms to
+     carry embedded binary data.  This allows arbitrary data like
+     recognition grammars, recognition results, synthesizer speech markup,
+     etc., to be carried in MRCPv2 messages.  For information on message
+     framing, see Section 5.
+"fixed": |-
+  MRCPv2 requires a connection-oriented transport-layer protocol such as TCP to guarantee reliable sequencing and delivery of MRCPv2 control messages between the client and the server.  In order to meet the requirements for security enumerated in SPEECHSC requirements [RFC4313], clients and servers MUST implement TLS as well.  One or more connections between the client and the server can be shared among different MRCPv2 channels to the server.  The individual messages carry the channel identifier to differentiate messages on different channels.  MRCPv2 encoding is text based with mechanisms to carry embedded binary data.  This allows arbitrary data like recognition grammars, recognition results, synthesizer speech markup, etc., to be carried in MRCPv2 messages.  For information on message framing, see Section 5.
+"ko": |-
+  MRCPv2는 클라이언트와 서버 간의 MRCPv2 제어 메시지의 안정적인 시퀀싱 및 전달을 보장하기 위해 TCP와 같은 연결 지향 전송 계층 프로토콜이 필요합니다. SPEECHSC 요구 사항[RFC4313]에 열거된 보안 요구 사항을 충족하기 위해 클라이언트와 서버는 TLS도 구현해야 합니다. 클라이언트와 서버 간의 하나 이상의 연결은 서버에 대한 여러 MRCPv2 채널에서 공유될 수 있습니다. 개별 메시지는 다른 채널의 메시지를 구별하기 위해 채널 식별자를 전달합니다. MRCPv2 인코딩은 내장된 바이너리 데이터를 전달하는 메커니즘이 있는 텍스트 기반입니다. 이를 통해 인식 문법, 인식 결과, 합성기 음성 마크업 등과 같은 임의의 데이터를 MRCPv2 메시지로 전달할 수 있습니다. 메시지 프레이밍에 대한 정보는 섹션 5를 참조하십시오.

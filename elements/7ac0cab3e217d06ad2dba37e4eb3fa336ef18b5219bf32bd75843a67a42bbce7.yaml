@@ -1,0 +1,17 @@
+"hash": |-
+  7ac0cab3e217d06ad2dba37e4eb3fa336ef18b5219bf32bd75843a67a42bbce7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Token Length:  A variable-length integer specifying the length of the
+        Token field, in bytes.  This value is 0 if no token is present.
+        Initial packets sent by the server MUST set the Token Length field
+        to 0; clients that receive an Initial packet with a non-zero Token
+        Length field MUST either discard the packet or generate a
+        connection error of type PROTOCOL_VIOLATION.
+"fixed": |-
+  Token Length:  A variable-length integer specifying the length of the Token field, in bytes.  This value is 0 if no token is present. Initial packets sent by the server MUST set the Token Length field to 0; clients that receive an Initial packet with a non-zero Token Length field MUST either discard the packet or generate a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  토큰 길이: 토큰 필드의 길이를 바이트 단위로 지정하는 가변 길이 정수입니다. 토큰이 없으면 이 값은 0입니다. 서버가 보낸 초기 패킷은 토큰 길이 필드를 0으로 설정해야 합니다. 0이 아닌 토큰 길이 필드가 있는 초기 패킷을 수신하는 클라이언트는 패킷을 삭제하거나 PROTOCOL_VIOLATION 유형의 연결 오류를 생성해야 합니다.

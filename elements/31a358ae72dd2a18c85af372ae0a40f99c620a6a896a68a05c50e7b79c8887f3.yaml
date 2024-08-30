@@ -1,0 +1,17 @@
+"hash": |-
+  31a358ae72dd2a18c85af372ae0a40f99c620a6a896a68a05c50e7b79c8887f3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that if the original ClientHello size was between 505 and 507
+     bytes, then, with the handshake protocol overhead, the record payload
+     would be between 509 and 511 bytes long.  Since it's not possible for
+     an extension to take less than four bytes of space, the additional
+     padding would have to expand the ClientHello record payload beyond
+     512 bytes in these cases.
+"fixed": |-
+  Note that if the original ClientHello size was between 505 and 507 bytes, then, with the handshake protocol overhead, the record payload would be between 509 and 511 bytes long.  Since it's not possible for an extension to take less than four bytes of space, the additional padding would have to expand the ClientHello record payload beyond 512 bytes in these cases.
+"ko": |-
+  원래 ClientHello 크기가 505에서 507 바이트 사이 인 경우 핸드 셰이크 프로토콜 오버 헤드로 레코드 페이로드는 509에서 511 바이트 길이입니다.  확장이 4 바이트 미만의 공간을 차지할 수 없으므로 추가 패딩은이 경우 512 바이트를 넘어 ClientHello 레코드 페이로드를 확장해야합니다.

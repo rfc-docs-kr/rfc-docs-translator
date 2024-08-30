@@ -1,0 +1,26 @@
+"hash": |-
+  2816bc7f845e0736db251358c1c54a4c6c429b293faaff469953d11fdd26e397
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            v=0
+            o=- 3000000001 3000000002 IN IP4 192.0.2.11
+            s=Set up MRCPv2 control and audio
+            i=Add TCP channel, synthesizer and one-way audio
+            c=IN IP4 192.0.2.11
+            t=0 0
+            m=application 32416  TCP/MRCPv2 1
+            a=setup:passive
+            a=connection:new
+            a=channel:32AECB23433801@speechsynth
+            a=cmid:1
+            m=audio 48260 RTP/AVP 0
+            a=rtpmap:0 pcmu/8000
+            a=sendonly
+            a=mid:1
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

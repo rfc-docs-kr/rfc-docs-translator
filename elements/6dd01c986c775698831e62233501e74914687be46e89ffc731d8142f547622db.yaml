@@ -1,0 +1,18 @@
+"hash": |-
+  6dd01c986c775698831e62233501e74914687be46e89ffc731d8142f547622db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note that, following the rules in [RFC3204], if a UA does not
+        understand a body part whose handling is optional, the UA ignores
+        it.  Also note that the content indirection mechanism in SIP
+        [RFC4483] allows UAs to point to external bodies.  Therefore, a UA
+        receiving a SIP message that uses content indirection could need
+        to fetch a body part (e.g., using HTTP [RFC2616]) in order to
+        process it.
+"fixed": |-
+  - Note that, following the rules in [RFC3204], if a UA does not understand a body part whose handling is optional, the UA ignores it.  Also note that the content indirection mechanism in SIP [RFC4483] allows UAs to point to external bodies.  Therefore, a UA receiving a SIP message that uses content indirection could need to fetch a body part (e.g., using HTTP [RFC2616]) in order to process it.
+"ko": |-
+  - [RFC3204]의 규칙에 따라 UA가 처리가 선택 사항인 본문 부분을 이해하지 못하는 경우 UA는 이를 무시합니다. 또한 SIP [RFC4483]의 콘텐츠 간접 메커니즘을 통해 UA가 외부 본문을 가리킬 수 있습니다. 따라서 콘텐츠 간접을 사용하는 SIP 메시지를 수신하는 UA는 이를 처리하기 위해 본문 부분(예: HTTP [RFC2616] 사용)을 가져와야 할 수 있습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  d956a9b4c5658c58573efb08773a79a861abc2ded553b67e7581f573921ace5d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the most recent response is a 206 (Partial Content) response and
+     at least one of the matching stored responses is a 200 (OK), then the
+     combined response header fields consist of the most recent 200
+     response's header fields.  If all of the matching stored responses
+     are 206 responses, then the stored response with the most recent
+     header fields is used as the source of header fields for the combined
+     response, except that the client MUST use other header fields
+     provided in the new response, aside from Content-Range, to replace
+     all instances of the corresponding header fields in the stored
+     response.
+"fixed": |-
+  If the most recent response is a 206 (Partial Content) response and at least one of the matching stored responses is a 200 (OK), then the combined response header fields consist of the most recent 200 response's header fields.  If all of the matching stored responses are 206 responses, then the stored response with the most recent header fields is used as the source of header fields for the combined response, except that the client MUST use other header fields provided in the new response, aside from Content-Range, to replace all instances of the corresponding header fields in the stored response.
+"ko": |-
+  가장 최근 응답이 206(부분 콘텐츠) 응답이고 일치하는 저장된 응답 중 하나 이상이 200(OK)인 경우 결합된 응답 헤더 필드는 가장 최근 200개 응답의 헤더 필드로 구성됩니다. 일치하는 저장된 응답이 모두 206 응답인 경우 가장 최근 헤더 필드가 있는 저장된 응답은 결합된 응답에 대한 헤더 필드의 소스로 사용됩니다. 단, 클라이언트는 반드시 새 응답에 제공된 다른 헤더 필드를 사용해야 합니다. Content-Range에서 저장된 응답에 있는 해당 헤더 필드의 모든 인스턴스를 바꿉니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  a2e36c52d21ff3b3028b55fceffc6d0188cad47a3c3196c7d037e9c74693093d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because Content-Length is used for message delimitation in HTTP/1.1,
+     its field value can impact how the message is parsed by downstream
+     recipients even when the immediate connection is not using HTTP/1.1.
+     If the message is forwarded by a downstream intermediary, a Content-
+     Length field value that is inconsistent with the received message
+     framing might cause a security failure due to request smuggling or
+     response splitting.
+"fixed": |-
+  Because Content-Length is used for message delimitation in HTTP/1.1, its field value can impact how the message is parsed by downstream recipients even when the immediate connection is not using HTTP/1.1. If the message is forwarded by a downstream intermediary, a Content- Length field value that is inconsistent with the received message framing might cause a security failure due to request smuggling or response splitting.
+"ko": |-
+  Content-Length는 HTTP/1.1에서 메시지 구분에 사용되므로 해당 필드 값은 직접 연결이 HTTP/1.1을 사용하지 않는 경우에도 다운스트림 수신자가 메시지를 구문 분석하는 방식에 영향을 미칠 수 있습니다. 메시지가 다운스트림 중개자에 의해 전달되는 경우 수신된 메시지 프레이밍과 일치하지 않는 Content-Length 필드 값으로 인해 요청 밀수 또는 응답 분할로 인해 보안 오류가 발생할 수 있습니다.

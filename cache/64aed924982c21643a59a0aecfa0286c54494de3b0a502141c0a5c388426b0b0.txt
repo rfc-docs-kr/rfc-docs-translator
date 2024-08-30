@@ -1,0 +1,1 @@
+- c) 덜 선호되는 MULTI_EXIT_DISC 속성이 있는 고려 경로에서 제거합니다. MULTI_EXIT_DISC는 동일한 인접 AS에서 학습된 경로 간에만 비교할 수 있습니다(인접 AS는 AS_PATH 속성에서 결정됨). MULTI_EXIT_DISC 속성이 없는 경로는 가능한 가장 낮은 MULTI_EXIT_DISC 값을 갖는 것으로 간주됩니다.

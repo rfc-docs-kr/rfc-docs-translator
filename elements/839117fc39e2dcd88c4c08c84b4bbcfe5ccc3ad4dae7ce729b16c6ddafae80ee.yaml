@@ -1,0 +1,18 @@
+"hash": |-
+  839117fc39e2dcd88c4c08c84b4bbcfe5ccc3ad4dae7ce729b16c6ddafae80ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Due to a loophole in prior specifications [RFC1630], some parsers
+        allow the scheme name to be present in a relative URI if it is the
+        same as the base URI scheme.  Unfortunately, this can conflict
+        with the correct parsing of non-hierarchical URI.  For backwards
+        compatibility, an implementation may work around such references
+        by removing the scheme if it matches that of the base URI and the
+        scheme is known to always use the <hier_part> syntax.  The parser
+"fixed": |-
+  - Due to a loophole in prior specifications [RFC1630], some parsers allow the scheme name to be present in a relative URI if it is the same as the base URI scheme.  Unfortunately, this can conflict with the correct parsing of non-hierarchical URI.  For backwards compatibility, an implementation may work around such references by removing the scheme if it matches that of the base URI and the scheme is known to always use the <hier_part> syntax.  The parser
+"ko": |-
+  - 이전 사양 [RFC1630]의 허점으로 인해 일부 파서는 스키마 이름이 기본 URI 스키마와 동일한 경우 상대 URI에 존재할 수 있도록 허용합니다. 불행하게도 이는 비계층적 URI의 올바른 구문 분석과 충돌할 수 있습니다. 이전 버전과의 호환성을 위해 구현은 기본 URI의 구성표와 일치하고 구성표가 항상 <hier_part> 구문을 사용하는 것으로 알려진 경우 구성표를 제거하여 이러한 참조를 해결할 수 있습니다. 파서

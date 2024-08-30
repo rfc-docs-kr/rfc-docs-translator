@@ -1,0 +1,24 @@
+"hash": |-
+  cf31400938d8bf7b5a7fc9f65a6e4d0e3d1aa10651b05941f9b662d4160a67db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  Finally, let us look at a file transfer over the  5-second  round
+  trip  time connection.  Again, only one packet will be sent until
+  the first ACK comes back; the window will then be filled and kept
+  full.   Since the round-trip time is 5 seconds, only 512 bytes of
+  data are transmitted in the first 5 seconds.  Assuming a 2K  win-
+  dow,  once  the first ACK comes in, 2K of data will be sent and a
+  steady rate of 2K per 5 seconds will  be  maintained  thereafter.
+  Only  for  this  case is our scheme inferior to the timer scheme,
+  and the difference is only in the startup transient; steady-state
+  throughput  is  identical.  The naive scheme and the timer scheme
+  would both take 250 seconds to transmit a 100K  byte  file  under
+  the  above  conditions  and  our scheme would take 254 seconds, a
+  difference of 1.6%.
+"fixed": |-
+  Finally, let us look at a file transfer over the  5-second  round trip  time connection.  Again, only one packet will be sent until the first ACK comes back; the window will then be filled and kept full.   Since the round-trip time is 5 seconds, only 512 bytes of data are transmitted in the first 5 seconds.  Assuming a 2K  win- dow,  once  the first ACK comes in, 2K of data will be sent and a steady rate of 2K per 5 seconds will  be  maintained  thereafter. Only  for  this  case is our scheme inferior to the timer scheme, and the difference is only in the startup transient; steady-state throughput  is  identical.  The naive scheme and the timer scheme would both take 250 seconds to transmit a 100K  byte  file  under the  above  conditions  and  our scheme would take 254 seconds, a difference of 1.6%.
+"ko": |-
+  마지막으로 왕복 5초 연결을 통한 파일 전송을 살펴보겠습니다. 다시 말하지만, 첫 번째 ACK가 돌아올 때까지 하나의 패킷만 전송됩니다. 그러면 창이 채워지고 가득 찬 상태로 유지됩니다. 왕복 시간이 5초이므로 처음 5초 동안 512바이트의 데이터만 전송됩니다. 2K 윈도우를 가정하면 첫 번째 ACK가 들어오면 2K의 데이터가 전송되고 이후에는 5초당 2K의 안정적인 속도가 유지됩니다. 이 경우에만 우리의 체계가 타이머 체계보다 열등하며 차이점은 시작 과도에만 있습니다. 정상 상태 처리량은 동일합니다. 위의 조건에서 순진한 방식과 타이머 방식은 모두 100K 바이트 파일을 전송하는 데 250초가 걸리며, 우리의 방식은 254초가 소요되어 1.6%의 차이가 납니다.

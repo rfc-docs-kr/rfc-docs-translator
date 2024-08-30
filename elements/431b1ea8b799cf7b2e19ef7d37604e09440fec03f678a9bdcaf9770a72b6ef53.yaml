@@ -1,0 +1,21 @@
+"hash": |-
+  431b1ea8b799cf7b2e19ef7d37604e09440fec03f678a9bdcaf9770a72b6ef53
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The largest message in a PPSPP datagram is the DATA message carrying
+     a chunk of content.  So the (maximum) size of a chunk to choose for a
+     particular swarm depends primarily on the expected MTU.  The chunk
+     size should be chosen such that a chunk and its required INTEGRITY
+     messages can generally be carried inside a single datagram, following
+     the Atomic Datagram Principle (Section 5.3).  Other considerations
+     are the hardware capabilities of the peers.  Having large chunks and
+     therefore less chunks per megabyte of content reduces processing
+     costs.  The chunk addressing schemes can all work with different
+     chunk sizes, see Section 4.
+"fixed": |-
+  The largest message in a PPSPP datagram is the DATA message carrying a chunk of content.  So the (maximum) size of a chunk to choose for a particular swarm depends primarily on the expected MTU.  The chunk size should be chosen such that a chunk and its required INTEGRITY messages can generally be carried inside a single datagram, following the Atomic Datagram Principle (Section 5.3).  Other considerations are the hardware capabilities of the peers.  Having large chunks and therefore less chunks per megabyte of content reduces processing costs.  The chunk addressing schemes can all work with different chunk sizes, see Section 4.
+"ko": |-
+  PPSPP 데이터그램에서 가장 큰 메시지는 콘텐츠 덩어리를 전달하는 DATA 메시지입니다. 따라서 특정 떼에 대해 선택할 청크의 (최대) 크기는 주로 예상 MTU에 따라 달라집니다. 청크 크기는 원자 데이터그램 원칙(섹션 5.3)에 따라 청크와 필요한 INTEGRITY 메시지가 일반적으로 단일 데이터그램 내에서 전달될 수 있도록 선택해야 합니다. 다른 고려 사항은 피어의 하드웨어 기능입니다. 청크가 크므로 콘텐츠 메가바이트당 청크 수가 적으므로 처리 비용이 절감됩니다. 청크 주소 지정 체계는 모두 서로 다른 청크 크기에서 작동할 수 있습니다. 섹션 4를 참조하세요.

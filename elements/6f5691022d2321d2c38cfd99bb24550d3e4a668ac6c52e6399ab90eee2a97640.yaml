@@ -1,0 +1,20 @@
+"hash": |-
+  6f5691022d2321d2c38cfd99bb24550d3e4a668ac6c52e6399ab90eee2a97640
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is possible, though unlikely, that an external PSK identity may
+     clash with a resumption PSK identity.  The TLS stack implementation
+     and sequencing of PSK callbacks influences the application's behavior
+     when identity collisions occur.  When a server receives a PSK
+     identity in a TLS 1.3 ClientHello, some TLS stacks execute the
+     application's registered callback function before checking the
+     stack's internal session resumption cache.  This means that if a PSK
+     identity collision occurs, the application's external PSK usage will
+     typically take precedence over the internal session resumption path.
+"fixed": |-
+  It is possible, though unlikely, that an external PSK identity may clash with a resumption PSK identity.  The TLS stack implementation and sequencing of PSK callbacks influences the application's behavior when identity collisions occur.  When a server receives a PSK identity in a TLS 1.3 ClientHello, some TLS stacks execute the application's registered callback function before checking the stack's internal session resumption cache.  This means that if a PSK identity collision occurs, the application's external PSK usage will typically take precedence over the internal session resumption path.
+"ko": |-
+  가능성은 낮지만 외부 PSK ID가 재개 PSK ID와 충돌할 가능성이 있습니다.  TLS 스택 구현과 PSK 콜백 순서는 ID 충돌이 발생할 때 애플리케이션의 동작에 영향을 미칩니다.  서버가 TLS 1.3 ClientHello에서 PSK ID를 수신하면 일부 TLS 스택은 스택의 내부 세션 재개 캐시를 확인하기 전에 애플리케이션의 등록된 콜백 기능을 실행합니다.  이는 PSK ID 충돌이 발생하는 경우 일반적으로 애플리케이션의 외부 PSK 사용이 내부 세션 재개 경로보다 우선한다는 것을 의미합니다.

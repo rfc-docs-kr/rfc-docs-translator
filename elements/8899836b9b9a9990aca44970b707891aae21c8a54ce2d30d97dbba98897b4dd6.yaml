@@ -1,0 +1,24 @@
+"hash": |-
+  8899836b9b9a9990aca44970b707891aae21c8a54ce2d30d97dbba98897b4dd6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  *Note:* In HTTP/1.0, the status codes 301 (Moved Permanently)
+        |  and 302 (Found) were originally defined as method-preserving
+        |  ([HTTP/1.0], Section 9.3) to match their implementation at
+        |  CERN; 303 (See Other) was defined for a redirection that
+        |  changed its method to GET.  However, early user agents split on
+        |  whether to redirect POST requests as POST (according to then-
+        |  current specification) or as GET (the safer alternative when
+        |  redirected to a different site).  Prevailing practice
+        |  eventually converged on changing the method to GET.  307
+        |  (Temporary Redirect) and 308 (Permanent Redirect) [RFC7538]
+        |  were later added to unambiguously indicate method-preserving
+        |  redirects, and status codes 301 and 302 have been adjusted to
+        |  allow a POST request to be redirected as GET.
+"fixed": |-
+  - |  *Note:* In HTTP/1.0, the status codes 301 (Moved Permanently) |  and 302 (Found) were originally defined as method-preserving |  ([HTTP/1.0], Section 9.3) to match their implementation at |  CERN; 303 (See Other) was defined for a redirection that |  changed its method to GET.  However, early user agents split on |  whether to redirect POST requests as POST (according to then- |  current specification) or as GET (the safer alternative when |  redirected to a different site).  Prevailing practice |  eventually converged on changing the method to GET.  307 |  (Temporary Redirect) and 308 (Permanent Redirect) [RFC7538] |  were later added to unambiguously indicate method-preserving |  redirects, and status codes 301 and 302 have been adjusted to |  allow a POST request to be redirected as GET.
+"ko": |-
+  - | *참고:* HTTP/1.0에서는 상태 코드 301(영구적으로 이동됨) | 및 302(Found)는 원래 메서드 보존 | ([HTTP/1.0], 섹션 9.3)의 구현과 일치하도록 | CERN; 303(기타 참조)이 | 메소드를 GET으로 변경했습니다. 그러나 초기 사용자 에이전트는 | POST 요청을 POST(현재 사양에 따라)로 리디렉션할지 | GET(다른 사이트로 리디렉션할 때 더 안전한 대안)으로 리디렉션할지 여부입니다. 일반적인 관행 | 결국 메소드를 GET으로 변경하는 것으로 수렴되었습니다. 307 | (임시 리디렉션) 및 308(영구 리디렉션) [RFC7538] | 나중에 방법 보존을 명확하게 나타내기 위해 추가되었습니다 | 리디렉션 및 상태 코드 301 및 302가 | POST 요청이 GET으로 리디렉션되도록 허용합니다.

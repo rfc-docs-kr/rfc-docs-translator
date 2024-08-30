@@ -1,0 +1,23 @@
+"hash": |-
+  b88ad9d3c1555b36eca3dbc73a8a53aaba42d3a45a87e50b22edfdb301a71995
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When Peer B requests a chunk C from Peer A (either the injector or
+     another peer), and Peer A decides to reply, it must do so as follows.
+     First, Peer A MUST send an INTEGRITY message with the chunk
+     specification for the munro of chunk C and the munro's hash, followed
+     by a SIGNED_INTEGRITY message with the chunk specification for the
+     munro, timestamp, and its signature in a single datagram, unless Peer
+     B indicated earlier in the exchange that it already possess a chunk
+     with the same corresponding munro (by means of HAVE or ACK messages).
+     Following these two messages (if any), Peer A MUST send the necessary
+     missing uncles hashes needed for verifying the chunk against its
+     munro hash, and the chunk itself, as described in Section 5.4,
+     sharing datagrams if possible.
+"fixed": |-
+  When Peer B requests a chunk C from Peer A (either the injector or another peer), and Peer A decides to reply, it must do so as follows. First, Peer A MUST send an INTEGRITY message with the chunk specification for the munro of chunk C and the munro's hash, followed by a SIGNED_INTEGRITY message with the chunk specification for the munro, timestamp, and its signature in a single datagram, unless Peer B indicated earlier in the exchange that it already possess a chunk with the same corresponding munro (by means of HAVE or ACK messages). Following these two messages (if any), Peer A MUST send the necessary missing uncles hashes needed for verifying the chunk against its munro hash, and the chunk itself, as described in Section 5.4, sharing datagrams if possible.
+"ko": |-
+  피어 B가 피어 A(인젝터 또는 다른 피어)로부터 청크 C를 요청하고 피어 A가 응답하기로 결정한 경우 다음과 같이 해야 합니다. 먼저, 피어 A는 청크 C의 먼로에 대한 청크 사양과 먼로의 해시가 포함된 INTEGRITY 메시지를 전송해야 하며, 피어 B가 그렇지 않은 경우 단일 데이터그램의 문로, 타임스탬프 및 서명에 대한 청크 사양이 포함된 SIGNED_INTEGRITY 메시지를 보내야 합니다. (HAVE 또는 ACK 메시지를 통해) 동일한 해당 먼로가 있는 청크를 이미 소유하고 있음을 교환 초기에 표시했습니다. 이 두 메시지(있는 경우)에 이어 피어 A는 먼로 해시에 대해 청크를 확인하는 데 필요한 누락된 삼촌 해시를 전송해야 하며, 가능하다면 섹션 5.4에 설명된 대로 청크 자체를 공유해야 합니다.

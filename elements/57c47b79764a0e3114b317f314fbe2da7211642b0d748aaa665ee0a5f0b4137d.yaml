@@ -1,0 +1,20 @@
+"hash": |-
+  57c47b79764a0e3114b317f314fbe2da7211642b0d748aaa665ee0a5f0b4137d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The PAUSE method from the client to the server tells the synthesizer
+     resource to pause speech output if it is speaking something.  If a
+     PAUSE method is issued on a session when a SPEAK is not active, the
+     server MUST respond with a status-code of 402 "Method not valid in
+     this state".  If a PAUSE method is issued on a session when a SPEAK
+     is active and paused, the server MUST respond with a status-code of
+     200 "Success".  If a SPEAK request was active, the server MUST return
+     an Active-Request-Id-List header field whose value contains the
+     request-id of the SPEAK request that was paused.
+"fixed": |-
+  The PAUSE method from the client to the server tells the synthesizer resource to pause speech output if it is speaking something.  If a PAUSE method is issued on a session when a SPEAK is not active, the server MUST respond with a status-code of 402 "Method not valid in this state".  If a PAUSE method is issued on a session when a SPEAK is active and paused, the server MUST respond with a status-code of 200 "Success".  If a SPEAK request was active, the server MUST return an Active-Request-Id-List header field whose value contains the request-id of the SPEAK request that was paused.
+"ko": |-
+  클라이언트에서 서버로의 PAUSE 메서드는 신디사이저 리소스에 무언가를 말하고 있는 경우 음성 출력을 일시 중지하라고 알립니다. SPEAK가 활성화되지 않은 세션에서 PAUSE 메서드가 발행되면 서버는 상태 코드 402 "이 상태에서는 메서드가 유효하지 않음"으로 응답해야 합니다. SPEAK가 활성화되고 일시 중지된 세션에서 PAUSE 메서드가 발행되면 서버는 상태 코드 200 "성공"으로 응답해야 합니다. SPEAK 요청이 활성화된 경우 서버는 일시 중지된 SPEAK 요청의 요청 ID가 포함된 값을 갖는 Active-Request-Id-List 헤더 필드를 반환해야 합니다.

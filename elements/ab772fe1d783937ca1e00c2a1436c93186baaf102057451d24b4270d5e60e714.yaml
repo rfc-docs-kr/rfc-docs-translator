@@ -1,0 +1,20 @@
+"hash": |-
+  ab772fe1d783937ca1e00c2a1436c93186baaf102057451d24b4270d5e60e714
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unlike the COPY command, MOVE of a set of messages might fail partway
+     through the set.  Regardless of whether the command is successful in
+     moving the entire set, each individual message MUST be either moved
+     or unaffected.  The server MUST leave each message in a state where
+     it is in at least one of the source or target mailboxes (no message
+     can be lost or orphaned).  The server SHOULD NOT leave any message in
+     both mailboxes (it would be bad for a partial failure to result in a
+     bunch of duplicate messages).  This is true even if the server
+     returns a tagged NO response to the command.
+"fixed": |-
+  Unlike the COPY command, MOVE of a set of messages might fail partway through the set.  Regardless of whether the command is successful in moving the entire set, each individual message MUST be either moved or unaffected.  The server MUST leave each message in a state where it is in at least one of the source or target mailboxes (no message can be lost or orphaned).  The server SHOULD NOT leave any message in both mailboxes (it would be bad for a partial failure to result in a bunch of duplicate messages).  This is true even if the server returns a tagged NO response to the command.
+"ko": |-
+  COPY 명령과 달리 메시지 세트의 MOVE는 세트 도중에 실패할 수 있습니다.  명령이 전체 세트를 이동하는 데 성공했는지 여부에 관계없이 각 개별 메시지는 이동되거나 영향을 받지 않아야 합니다.  서버는 각 메시지를 원본 또는 대상 사서함 중 하나 이상에 있는 상태로 두어야 합니다(메시지가 손실되거나 고아가 될 수 없음).  서버는 두 사서함 모두에 메시지를 남겨서는 안 됩니다. 부분적인 실패로 인해 여러 개의 중복 메시지가 발생하는 것은 좋지 않습니다.  이는 서버가 명령에 대해 태그된 NO 응답을 반환하는 경우에도 마찬가지입니다.

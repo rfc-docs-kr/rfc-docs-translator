@@ -1,0 +1,16 @@
+"hash": |-
+  8ae29d86fe41e71e01017e7609b760ef1d55440f47703dae8e42904ca2e4821b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        A finished message is always sent immediately after a change
+        cipher spec message to verify that the key exchange and
+        authentication processes were successful.  It is essential that a
+        change cipher spec message be received between the other handshake
+        messages and the Finished message.
+"fixed": |-
+  - A finished message is always sent immediately after a change cipher spec message to verify that the key exchange and authentication processes were successful.  It is essential that a change cipher spec message be received between the other handshake messages and the Finished message.
+"ko": |-
+  - 키 교환 및 인증 프로세스가 성공했는지 확인하기 위해 암호 사양 변경 메시지 직후에는 항상 완료 메시지가 전송됩니다. 다른 핸드셰이크 메시지와 완료 메시지 사이에 암호 사양 변경 메시지를 수신하는 것이 중요합니다.

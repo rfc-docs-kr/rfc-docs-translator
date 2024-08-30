@@ -1,0 +1,20 @@
+"hash": |-
+  0ddaac332a4f00af36b2877a43d6f101566c046b39a19c77cc9eb4b29eb6c1eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An SMTP connection run over IPSEC can provide confidentiality for the
+     message between the sender and the first hop SMTP gateway, or between
+     any pair of connected SMTP gateways.  That is to say, it provides
+     channel security for the SMTP connections.  In a situation where the
+     message goes directly from the client to the receiver's gateway, this
+     may provide substantial security (though the receiver must still
+     trust the gateway).  Protection is provided against replay attacks,
+     since the data itself is protected and the packets cannot be
+     replayed.
+"fixed": |-
+  An SMTP connection run over IPSEC can provide confidentiality for the message between the sender and the first hop SMTP gateway, or between any pair of connected SMTP gateways.  That is to say, it provides channel security for the SMTP connections.  In a situation where the message goes directly from the client to the receiver's gateway, this may provide substantial security (though the receiver must still trust the gateway).  Protection is provided against replay attacks, since the data itself is protected and the packets cannot be replayed.
+"ko": |-
+  IPSEC를 통해 실행되는 SMTP 연결은 보낸 사람과 첫 번째 홉 SMTP 게이트웨이 사이 또는 연결된 SMTP 게이트웨이 쌍 사이의 메시지에 대한 기밀성을 제공할 수 있습니다. 즉, SMTP 연결에 대한 채널 보안을 제공합니다. 메시지가 클라이언트에서 수신자의 게이트웨이로 직접 이동하는 상황에서는 이는 상당한 보안을 제공할 수 있습니다(수신자는 여전히 게이트웨이를 신뢰해야 함). 데이터 자체는 보호되고 패킷은 재생할 수 없으므로 재생 공격에 대한 보호가 제공됩니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  191347371f4a23385c216d3f5c18721f20f1c9e117e66aae60ebb60bee71b5d6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the packet is not destined for a CE device attached to this same
+     PE, the packet's "BGP Next Hop" is found, as well as the label which
+     that BGP next hop assigned for the packet's destination address. This
+     label is pushed onto the packet's label stack, and becomes the bottom
+     label.  Then the PE looks up the IGP route to the BGP Next Hop, and
+     thus determines the IGP next hop, as well as the label assigned to
+     the address of the BGP next hop by the IGP next hop.  This label gets
+     pushed on as the packet's top label, and the packet is then forwarded
+     to the IGP next hop.  (If the BGP next hop is the same as the IGP
+     next hop, the second label may not need to be pushed on, however.)
+"fixed": |-
+  If the packet is not destined for a CE device attached to this same PE, the packet's "BGP Next Hop" is found, as well as the label which that BGP next hop assigned for the packet's destination address. This label is pushed onto the packet's label stack, and becomes the bottom label.  Then the PE looks up the IGP route to the BGP Next Hop, and thus determines the IGP next hop, as well as the label assigned to the address of the BGP next hop by the IGP next hop.  This label gets pushed on as the packet's top label, and the packet is then forwarded to the IGP next hop.  (If the BGP next hop is the same as the IGP next hop, the second label may not need to be pushed on, however.)
+"ko": |-
+  패킷이 이 동일한 PE에 연결된 CE 장치로 전송되지 않는 경우, 패킷의 "BGP Next Hop"과 패킷의 대상 주소에 할당된 BGP Next Hop 레이블이 발견됩니다. 이 레이블은 패킷의 레이블 스택에 푸시되어 최하위 레이블이 됩니다. 그런 다음 PE는 BGP Next Hop으로 가는 IGP 경로를 조회하여 IGP Next Hop과 IGP Next Hop이 BGP Next Hop의 주소에 할당한 레이블을 확인합니다. 이 레이블은 패킷의 최상위 레이블로 푸시되고 패킷은 IGP Next Hop으로 전달됩니다. (BGP Next Hop이 IGP Next Hop과 동일한 경우 두 번째 레이블을 푸시할 필요가 없을 수 있습니다.)

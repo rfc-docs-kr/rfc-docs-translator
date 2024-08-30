@@ -1,0 +1,18 @@
+"hash": |-
+  886fef080bea93d68765dd03e1f98bcd5c4a8036e67498aa7cd64c87c19e7b9f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In general, resource implementations ought to avoid use of request
+     data in contexts that are processed or interpreted as instructions.
+     Parameters ought to be compared to fixed strings and acted upon as a
+     result of that comparison, rather than passed through an interface
+     that is not prepared for untrusted data.  Received data that isn't
+     based on fixed parameters ought to be carefully filtered or encoded
+     to avoid being misinterpreted.
+"fixed": |-
+  In general, resource implementations ought to avoid use of request data in contexts that are processed or interpreted as instructions. Parameters ought to be compared to fixed strings and acted upon as a result of that comparison, rather than passed through an interface that is not prepared for untrusted data.  Received data that isn't based on fixed parameters ought to be carefully filtered or encoded to avoid being misinterpreted.
+"ko": |-
+  일반적으로 리소스 구현은 명령으로 처리되거나 해석되는 컨텍스트에서 요청 데이터의 사용을 피해야 합니다. 매개변수는 신뢰할 수 없는 데이터에 대해 준비되지 않은 인터페이스를 통해 전달되기보다는 고정 문자열과 비교되어 해당 비교 결과에 따라 작동되어야 합니다. 고정된 매개변수를 기반으로 하지 않은 수신된 데이터는 잘못 해석되는 것을 방지하기 위해 신중하게 필터링하거나 인코딩해야 합니다.

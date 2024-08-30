@@ -1,0 +1,28 @@
+"hash": |-
+  0d20385fb4bff5f0e59964e3bf7586bf3145f6dc31905f52cbc03b9239db97c2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The MRCPv2 messages defined in this document are transported over a
+     TCP or TLS connection between the client and the server.  The method
+     for setting up this transport connection and the resource control
+     channel is discussed in Sections 4.1 and 4.2.  Multiple resource
+     control channels between a client and a server that belong to
+     different SIP dialogs can share one or more TLS or TCP connections
+     between them; the server and client MUST support this mode of
+     operation.  Clients and servers MUST use the MRCPv2 channel
+     identifier, carried in the Channel-Identifier header field in
+     individual MRCPv2 messages, to differentiate MRCPv2 messages from
+     different resource channels (see Section 6.2.1 for details).  All
+     MRCPv2 servers MUST support TLS.  Servers MAY use TCP without TLS in
+     controlled environments (e.g., not in the public Internet) where both
+     nodes are inside a protected perimeter, for example, preventing
+     access to the MRCP server from remote nodes outside the controlled
+     perimeter.  It is up to the client to choose which mode of transport
+     it wants to use for an MRCPv2 session.
+"fixed": |-
+  The MRCPv2 messages defined in this document are transported over a TCP or TLS connection between the client and the server.  The method for setting up this transport connection and the resource control channel is discussed in Sections 4.1 and 4.2.  Multiple resource control channels between a client and a server that belong to different SIP dialogs can share one or more TLS or TCP connections between them; the server and client MUST support this mode of operation.  Clients and servers MUST use the MRCPv2 channel identifier, carried in the Channel-Identifier header field in individual MRCPv2 messages, to differentiate MRCPv2 messages from different resource channels (see Section 6.2.1 for details).  All MRCPv2 servers MUST support TLS.  Servers MAY use TCP without TLS in controlled environments (e.g., not in the public Internet) where both nodes are inside a protected perimeter, for example, preventing access to the MRCP server from remote nodes outside the controlled perimeter.  It is up to the client to choose which mode of transport it wants to use for an MRCPv2 session.
+"ko": |-
+  이 문서에서 정의한 MRCPv2 메시지는 클라이언트와 서버 간의 TCP 또는 TLS 연결을 통해 전송됩니다. 이 전송 연결과 리소스 제어 채널을 설정하는 방법은 섹션 4.1 및 4.2에서 설명합니다. 다른 SIP 대화에 속하는 클라이언트와 서버 간의 여러 리소스 제어 채널은 하나 이상의 TLS 또는 TCP 연결을 공유할 수 있습니다. 서버와 클라이언트는 이 작동 모드를 지원해야 합니다. 클라이언트와 서버는 개별 MRCPv2 메시지의 Channel-Identifier 헤더 필드에 포함된 MRCPv2 채널 식별자를 사용하여 MRCPv2 메시지를 다른 리소스 채널과 구별해야 합니다(자세한 내용은 섹션 6.2.1 참조). 모든 MRCPv2 서버는 TLS를 지원해야 합니다. 서버는 제어된 환경(예: 공개 인터넷이 아닌)에서 TLS 없이 TCP를 사용할 수 있습니다. 이 환경에서는 두 노드가 모두 보호된 경계 내에 있으므로 제어된 경계 외부의 원격 노드에서 MRCP 서버에 액세스할 수 없습니다. MRCPv2 세션에 어떤 전송 모드를 사용할지는 클라이언트가 선택해야 합니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  98b97dc508b24c8ee7492229a08026f769e73de74d5eb4a6df2ea89d9caf5022
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            select (KeyExchangeAlgorithm) {
+                /* other cases for rsa, diffie_hellman, etc. */
+                case diffie_hellman_psk:   /* NEW */
+                    opaque psk_identity<0..2^16-1>;
+                    ClientDiffieHellmanPublic public;
+            } exchange_keys;
+        } ClientKeyExchange;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

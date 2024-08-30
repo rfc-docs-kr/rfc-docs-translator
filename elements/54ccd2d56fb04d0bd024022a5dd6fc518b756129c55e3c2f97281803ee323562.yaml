@@ -1,0 +1,18 @@
+"hash": |-
+  54ccd2d56fb04d0bd024022a5dd6fc518b756129c55e3c2f97281803ee323562
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A DATA message (type 0x01) consists of a chunk specification, a
+     timestamp, and the actual chunk.  In case a datagram contains one
+     DATA message, a sender MUST always put the DATA message in the tail
+     of the datagram.  A datagram MAY contain multiple DATA messages when
+     the chunk size is fixed and when none of the DATA messages carry the
+     last chunk, if that is smaller than the chunk size.  As LEDBAT
+     congestion control is used, a sender MUST include a timestamp, in
+"fixed": |-
+  A DATA message (type 0x01) consists of a chunk specification, a timestamp, and the actual chunk.  In case a datagram contains one DATA message, a sender MUST always put the DATA message in the tail of the datagram.  A datagram MAY contain multiple DATA messages when the chunk size is fixed and when none of the DATA messages carry the last chunk, if that is smaller than the chunk size.  As LEDBAT congestion control is used, a sender MUST include a timestamp, in
+"ko": |-
+  DATA 메시지(유형 0x01)는 청크 사양, 타임스탬프 및 실제 청크로 구성됩니다. 데이터그램에 하나의 DATA 메시지가 포함된 경우 송신자는 항상 데이터그램의 꼬리에 DATA 메시지를 넣어야 합니다. 데이터그램은 청크 크기가 고정되어 있고 마지막 청크가 청크 크기보다 작은 경우 DATA 메시지 중 어느 것도 전달하지 않는 경우 여러 DATA 메시지를 포함할 수 있습니다. LEDBAT 혼잡 제어가 사용되므로 발신자는 반드시 타임스탬프를 포함해야 합니다.

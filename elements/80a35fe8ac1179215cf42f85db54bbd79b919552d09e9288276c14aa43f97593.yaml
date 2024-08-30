@@ -1,0 +1,22 @@
+"hash": |-
+  80a35fe8ac1179215cf42f85db54bbd79b919552d09e9288276c14aa43f97593
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The second feature allows a sender to send a payload that is an
+     arbitrary string of bytes that do not necessarily constitute a well-
+     formed IP packet, inside of a tunnel, for TFC purposes.  It is an
+     open question as to what an ESP v2 receiver will do when the Next
+     Header field in an ESP packet contains the value "59".  It might
+     discard the packet when it finds an ill-formed IP header, and log
+     this event, but it certainly ought not to crash, because such
+     behavior would constitute a DoS vulnerability relative to traffic
+     received from authenticated peers.  Thus this feature is an
+     optimization that an ESP v3 sender can make use of irrespective of
+     whether a receiver implements ESP v2 or ESP v3.
+"fixed": |-
+  The second feature allows a sender to send a payload that is an arbitrary string of bytes that do not necessarily constitute a well- formed IP packet, inside of a tunnel, for TFC purposes.  It is an open question as to what an ESP v2 receiver will do when the Next Header field in an ESP packet contains the value "59".  It might discard the packet when it finds an ill-formed IP header, and log this event, but it certainly ought not to crash, because such behavior would constitute a DoS vulnerability relative to traffic received from authenticated peers.  Thus this feature is an optimization that an ESP v3 sender can make use of irrespective of whether a receiver implements ESP v2 or ESP v3.
+"ko": |-
+  두 번째 기능을 사용하면 발신자가 TFC 목적으로 터널 내부에서 반드시 올바른 형식의 IP 패킷을 구성할 필요는 없는 임의의 바이트 문자열인 페이로드를 보낼 수 있습니다.  ESP 패킷의 다음 헤더 필드에 "59" 값이 포함되어 있을 때 ESP v2 수신기가 수행할 작업에 대한 공개 질문입니다.  형식이 잘못된 IP 헤더를 발견하면 패킷을 삭제하고 이 이벤트를 기록할 수 있지만 충돌해서는 안 됩니다. 이러한 동작은 인증된 피어로부터 수신된 트래픽과 관련하여 DoS 취약점을 구성할 수 있기 때문입니다.  따라서 이 기능은 수신자가 ESP v2 또는 ESP v3을 구현하는지 여부에 관계없이 ESP v3 발신자가 사용할 수 있는 최적화입니다.

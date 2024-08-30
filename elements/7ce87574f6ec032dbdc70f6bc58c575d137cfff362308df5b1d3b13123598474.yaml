@@ -1,0 +1,21 @@
+"hash": |-
+  7ce87574f6ec032dbdc70f6bc58c575d137cfff362308df5b1d3b13123598474
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that is not the origin server for the target resource and
+     cannot act as a cache for requests on the target resource MUST NOT
+     evaluate the conditional request header fields defined by this
+     specification, and it MUST forward them if the request is forwarded,
+     since the generating client intends that they be evaluated by a
+     server that can provide a current representation.  Likewise, a server
+     MUST ignore the conditional request header fields defined by this
+     specification when received with a request method that does not
+     involve the selection or modification of a selected representation,
+     such as CONNECT, OPTIONS, or TRACE.
+"fixed": |-
+  A server that is not the origin server for the target resource and cannot act as a cache for requests on the target resource MUST NOT evaluate the conditional request header fields defined by this specification, and it MUST forward them if the request is forwarded, since the generating client intends that they be evaluated by a server that can provide a current representation.  Likewise, a server MUST ignore the conditional request header fields defined by this specification when received with a request method that does not involve the selection or modification of a selected representation, such as CONNECT, OPTIONS, or TRACE.
+"ko": |-
+  대상 리소스에 대한 원서버가 아니고 대상 리소스에 대한 요청에 대한 캐시 역할을 할 수 없는 서버는 이 사양에 정의된 조건부 요청 헤더 필드를 평가해서는 안 되며, 요청이 전달되면 이를 전달해야 합니다. 클라이언트를 생성하는 것은 현재 표현을 제공할 수 있는 서버에 의해 평가되도록 의도합니다. 마찬가지로, 서버는 CONNECT, OPTIONS 또는 TRACE와 같은 선택된 표현의 선택이나 수정을 포함하지 않는 요청 방법으로 수신될 때 이 사양에 의해 정의된 조건부 요청 헤더 필드를 무시해야 합니다(MUST).

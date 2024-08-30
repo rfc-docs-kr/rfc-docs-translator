@@ -1,0 +1,25 @@
+"hash": |-
+  180d59a3518097f5e2dd003f0cc775965ef545841695574c3e09d4229c92a0d0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        ClientHello                  -------->
+                                                        ServerHello
+                                                      (Certificate)
+                                                 ServerKeyExchange*
+                                               (CertificateRequest)
+                                     <--------      ServerHelloDone
+        (Certificate)
+        ClientKeyExchange
+        (CertificateVerify)
+        ChangeCipherSpec
+        Finished                     -------->
+                                                   ChangeCipherSpec
+                                     <--------             Finished
+        Application Data             <------->     Application Data
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

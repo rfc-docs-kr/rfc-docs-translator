@@ -1,0 +1,19 @@
+"hash": |-
+  f496e773e6178c8bad86f6e9f93aff321fbbcab84651dbab1738cb10bd516b4b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For a JWS, the members of the JSON object(s) representing the JOSE
+     Header describe the digital signature or MAC applied to the JWS
+     Protected Header and the JWS Payload and optionally additional
+     properties of the JWS.  The Header Parameter names within the JOSE
+     Header MUST be unique; JWS parsers MUST either reject JWSs with
+     duplicate Header Parameter names or use a JSON parser that returns
+     only the lexically last duplicate member name, as specified in
+     Section 15.12 ("The JSON Object") of ECMAScript 5.1 [ECMAScript].
+"fixed": |-
+  For a JWS, the members of the JSON object(s) representing the JOSE Header describe the digital signature or MAC applied to the JWS Protected Header and the JWS Payload and optionally additional properties of the JWS.  The Header Parameter names within the JOSE Header MUST be unique; JWS parsers MUST either reject JWSs with duplicate Header Parameter names or use a JSON parser that returns only the lexically last duplicate member name, as specified in Section 15.12 ("The JSON Object") of ECMAScript 5.1 [ECMAScript].
+"ko": |-
+  JWS의 경우 JOSE 헤더를 나타내는 JSON 객체의 멤버는 JWS 보호 헤더와 JWS 페이로드에 적용된 디지털 서명 또는 MAC과 선택적으로 JWS의 추가 속성을 설명합니다. JOSE 헤더 내의 헤더 매개변수 이름은 고유해야 합니다. JWS 파서는 중복된 헤더 매개변수 이름이 있는 JWS를 거부하거나 ECMAScript 5.1 [ECMAScript]의 섹션 15.12("JSON 객체")에 지정된 대로 어휘적으로 마지막 중복된 멤버 이름만 반환하는 JSON 파서를 사용해야 합니다.

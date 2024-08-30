@@ -1,0 +1,19 @@
+"hash": |-
+  c9a8d99c0496f10a0da38650ed1ca0f8d2b63211e84d9ff440484ecec5bdee15
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The set of methods allowed by a target resource can be listed in an
+     Allow header field (Section 10.2.1).  However, the set of allowed
+     methods can change dynamically.  An origin server that receives a
+     request method that is unrecognized or not implemented SHOULD respond
+     with the 501 (Not Implemented) status code.  An origin server that
+     receives a request method that is recognized and implemented, but not
+     allowed for the target resource, SHOULD respond with the 405 (Method
+     Not Allowed) status code.
+"fixed": |-
+  The set of methods allowed by a target resource can be listed in an Allow header field (Section 10.2.1).  However, the set of allowed methods can change dynamically.  An origin server that receives a request method that is unrecognized or not implemented SHOULD respond with the 501 (Not Implemented) status code.  An origin server that receives a request method that is recognized and implemented, but not allowed for the target resource, SHOULD respond with the 405 (Method Not Allowed) status code.
+"ko": |-
+  대상 리소스에서 허용하는 메서드 집합은 Allow 헤더 필드(섹션 10.2.1)에 나열될 수 있습니다. 그러나 허용되는 메서드 집합은 동적으로 변경될 수 있습니다. 인식되지 않거나 구현되지 않은 요청 방법을 수신한 원서버는 501(구현되지 않음) 상태 코드로 응답해야 합니다. 인식되고 구현되었지만 대상 리소스에 대해 허용되지 않는 요청 방법을 수신하는 원서버는 405(허용되지 않는 방법) 상태 코드로 응답해야 합니다(SHOULD).

@@ -1,0 +1,18 @@
+"hash": |-
+  8efaeb0ff2bfb3ba9a48ac0976220d59b049fee57febb69530a98f0c76313f65
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A blocked sender is not required to send STREAM_DATA_BLOCKED or
+     DATA_BLOCKED frames.  Therefore, a receiver MUST NOT wait for a
+     STREAM_DATA_BLOCKED or DATA_BLOCKED frame before sending a
+     MAX_STREAM_DATA or MAX_DATA frame; doing so could result in the
+     sender being blocked for the rest of the connection.  Even if the
+     sender sends these frames, waiting for them will result in the sender
+     being blocked for at least an entire round trip.
+"fixed": |-
+  A blocked sender is not required to send STREAM_DATA_BLOCKED or DATA_BLOCKED frames.  Therefore, a receiver MUST NOT wait for a STREAM_DATA_BLOCKED or DATA_BLOCKED frame before sending a MAX_STREAM_DATA or MAX_DATA frame; doing so could result in the sender being blocked for the rest of the connection.  Even if the sender sends these frames, waiting for them will result in the sender being blocked for at least an entire round trip.
+"ko": |-
+  차단된 발신자는 STREAM_DATA_BLOCKED 또는 DATA_BLOCKED 프레임을 보낼 필요가 없습니다. 따라서 수신자는 MAX_STREAM_DATA 또는 MAX_DATA 프레임을 보내기 전에 STREAM_DATA_BLOCKED 또는 DATA_BLOCKED 프레임을 기다려야 합니다. 그렇게 하면 나머지 연결 동안 발신자가 차단될 수 있습니다. 발신자가 이러한 프레임을 보내더라도 이를 기다리면 적어도 전체 왕복 동안 발신자가 차단됩니다.

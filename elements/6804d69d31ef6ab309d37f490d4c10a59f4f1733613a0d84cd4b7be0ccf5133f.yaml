@@ -1,0 +1,21 @@
+"hash": |-
+  6804d69d31ef6ab309d37f490d4c10a59f4f1733613a0d84cd4b7be0ccf5133f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  'separate-documents-uncollated-copies': If a Job has multiple
+        Documents, say, the Document data is called "a" and "b", then the
+        result of processing the data in each Document instance MUST be
+        treated as a single sequence of Media Sheets for finishing
+        processes; that is, the sets a(*) and b(*) would each be finished
+        separately.  The Printer MUST force each copy of the result of
+        processing the data in a single Document to start on a new Media
+        Sheet.  If more than one copy is made, the ordering of the sets of
+        Media Sheets resulting from processing the Document data MUST be
+        a(*), a(*), ..., b(*), b(*), ... .
+"fixed": |-
+  -  'separate-documents-uncollated-copies': If a Job has multiple Documents, say, the Document data is called "a" and "b", then the result of processing the data in each Document instance MUST be treated as a single sequence of Media Sheets for finishing processes; that is, the sets a(*) and b(*) would each be finished separately.  The Printer MUST force each copy of the result of processing the data in a single Document to start on a new Media Sheet.  If more than one copy is made, the ordering of the sets of Media Sheets resulting from processing the Document data MUST be a(*), a(*), ..., b(*), b(*), ... .
+"ko": |-
+  - 'separate-documents-uncollated-copies': Job에 여러 문서가 있는 경우(예: 문서 데이터를 "a" 및 "b"라고 함) 각 문서 인스턴스의 데이터 처리 결과는 단일로 처리되어야 합니다. 마무리 공정을 위한 미디어 시트의 순서; 즉, 세트 a(*)와 b(*)는 각각 별도로 완료됩니다. 프린터는 단일 문서의 데이터 처리 결과에 대한 각 복사본이 새 미디어 시트에서 시작되도록 해야 합니다. 복사본이 두 개 이상 생성된 경우 문서 데이터 처리로 인한 미디어 시트 세트의 순서는 반드시 a(*), a(*), ..., b(*), b(*), ..이어야 합니다. ...

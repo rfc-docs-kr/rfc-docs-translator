@@ -1,0 +1,21 @@
+"hash": |-
+  725f271f67600e4fb513c052e3ee38d851ba59bc151d0aa723170c81bc4e7af2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field specifies the claimed identity for verification
+     applications.  The claimed identity MAY be used to specify an
+     existing voiceprint or to establish a new voiceprint.  This header
+     field MUST be present in the QUERY-VOICEPRINT and DELETE-VOICEPRINT
+     methods.  The Voiceprint-Identifier MUST be present in the START-
+     SESSION method for verification operations.  For identification or
+     multi-verification operations, this header field MAY contain a list
+     of voiceprint identifiers separated by semicolons.  For
+     identification operations, the client MAY also specify a voiceprint
+     group identifier instead of a list of voiceprint identifiers.
+"fixed": |-
+  This header field specifies the claimed identity for verification applications.  The claimed identity MAY be used to specify an existing voiceprint or to establish a new voiceprint.  This header field MUST be present in the QUERY-VOICEPRINT and DELETE-VOICEPRINT methods.  The Voiceprint-Identifier MUST be present in the START- SESSION method for verification operations.  For identification or multi-verification operations, this header field MAY contain a list of voiceprint identifiers separated by semicolons.  For identification operations, the client MAY also specify a voiceprint group identifier instead of a list of voiceprint identifiers.
+"ko": |-
+  이 헤더 필드는 검증 애플리케이션에 대한 클레임된 ID를 지정합니다. 클레임된 ID는 기존 음성 지문을 지정하거나 새 음성 지문을 설정하는 데 사용될 수 있습니다. 이 헤더 필드는 QUERY-VOICEPRINT 및 DELETE-VOICEPRINT 메서드에 반드시 있어야 합니다. Voiceprint-Identifier는 검증 작업을 위해 START-SESSION 메서드에 반드시 있어야 합니다. 식별 또는 다중 검증 작업의 경우 이 헤더 필드에는 세미콜론으로 구분된 음성 지문 식별자 목록이 포함될 수 있습니다. 식별 작업의 경우 클라이언트는 음성 지문 식별자 목록 대신 음성 지문 그룹 식별자를 지정할 수도 있습니다.

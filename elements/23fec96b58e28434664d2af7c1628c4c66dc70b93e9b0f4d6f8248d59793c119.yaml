@@ -1,0 +1,28 @@
+"hash": |-
+  23fec96b58e28434664d2af7c1628c4c66dc70b93e9b0f4d6f8248d59793c119
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Initial Packet {
+       Header Form (1) = 1,
+       Fixed Bit (1) = 1,
+       Long Packet Type (2) = 0,
+       Reserved Bits (2),
+       Packet Number Length (2),
+       Version (32),
+       Destination Connection ID Length (8),
+       Destination Connection ID (0..160),
+       Source Connection ID Length (8),
+       Source Connection ID (0..160),
+       Token Length (i),
+       Token (..),
+       Length (i),
+       Packet Number (8..32),
+       Packet Payload (8..),
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

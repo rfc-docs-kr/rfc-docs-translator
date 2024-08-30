@@ -1,0 +1,15 @@
+"hash": |-
+  0c029eb8ec366c1cc6bde4ae895d73a72dac8585870f0e41c94818ced95aeeda
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          the LIST responses for mailboxes "foo2", "baz2", and "eps2"
+          still have the CHILDINFO extended data item, even though this
+          information is redundant and the client can determine it by
+          itself.
+"fixed": |-
+  - the LIST responses for mailboxes "foo2", "baz2", and "eps2" still have the CHILDINFO extended data item, even though this information is redundant and the client can determine it by itself.
+"ko": |-
+  - 사서함 "foo2", "baz2" 및 "eps2"에 대한 LIST 응답에는 여전히 CHILDINFO 확장 데이터 항목이 있습니다. 이 정보가 중복되고 클라이언트가 자체적으로 결정할 수 있더라도 마찬가지입니다.

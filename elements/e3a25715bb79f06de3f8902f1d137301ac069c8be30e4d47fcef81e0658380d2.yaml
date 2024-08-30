@@ -1,0 +1,15 @@
+"hash": |-
+  e3a25715bb79f06de3f8902f1d137301ac069c8be30e4d47fcef81e0658380d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The design of QUIC relies on endpoints retaining a stable address for
+     the duration of the handshake.  An endpoint MUST NOT initiate
+     connection migration before the handshake is confirmed, as defined in
+     Section 4.1.2 of [QUIC-TLS].
+"fixed": |-
+  The design of QUIC relies on endpoints retaining a stable address for the duration of the handshake.  An endpoint MUST NOT initiate connection migration before the handshake is confirmed, as defined in Section 4.1.2 of [QUIC-TLS].
+"ko": |-
+  QUIC의 설계는 핸드셰이크 기간 동안 안정적인 주소를 유지하는 엔드포인트에 의존합니다. 엔드포인트는 [QUIC-TLS]의 섹션 4.1.2에 정의된 대로 핸드셰이크가 확인되기 전에 연결 마이그레이션을 시작해서는 안 됩니다.

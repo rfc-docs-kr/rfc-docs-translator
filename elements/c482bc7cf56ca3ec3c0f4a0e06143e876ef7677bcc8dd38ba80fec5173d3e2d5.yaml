@@ -1,0 +1,16 @@
+"hash": |-
+  c482bc7cf56ca3ec3c0f4a0e06143e876ef7677bcc8dd38ba80fec5173d3e2d5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There is one FSM per BGP connection.  When the connection collision
+     occurs prior to determining what peer a connection is associated
+     with, there may be two connections for one peer.  After the
+     connection collision is resolved (see Section 6.8), the FSM for the
+     connection that is closed SHOULD be disposed.
+"fixed": |-
+  There is one FSM per BGP connection.  When the connection collision occurs prior to determining what peer a connection is associated with, there may be two connections for one peer.  After the connection collision is resolved (see Section 6.8), the FSM for the connection that is closed SHOULD be disposed.
+"ko": |-
+  BGP 연결당 하나의 FSM이 있습니다. 연결이 어떤 피어와 연관되어 있는지 결정하기 전에 연결 충돌이 발생하면 하나의 피어에 대해 두 개의 연결이 있을 수 있습니다. 연결 충돌이 해결된 후(섹션 6.8 참조) 닫힌 연결에 대한 FSM은 삭제되어야 합니다.

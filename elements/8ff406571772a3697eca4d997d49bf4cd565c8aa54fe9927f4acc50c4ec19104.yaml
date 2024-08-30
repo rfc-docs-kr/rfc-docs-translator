@@ -1,0 +1,19 @@
+"hash": |-
+  8ff406571772a3697eca4d997d49bf4cd565c8aa54fe9927f4acc50c4ec19104
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the basic syntax only, an empty ("" string) mailbox name argument
+     is a special request to return the hierarchy delimiter and the root
+     name of the name given in the reference.  The value returned as the
+     root MAY be the empty string if the reference is non-rooted or is an
+     empty string.  In all cases, a hierarchy delimiter (or NIL if there
+     is no hierarchy) is returned.  This permits a client to get the
+     hierarchy delimiter (or find out that the mailbox names are flat)
+     even when no mailboxes by that name currently exist.
+"fixed": |-
+  In the basic syntax only, an empty ("" string) mailbox name argument is a special request to return the hierarchy delimiter and the root name of the name given in the reference.  The value returned as the root MAY be the empty string if the reference is non-rooted or is an empty string.  In all cases, a hierarchy delimiter (or NIL if there is no hierarchy) is returned.  This permits a client to get the hierarchy delimiter (or find out that the mailbox names are flat) even when no mailboxes by that name currently exist.
+"ko": |-
+  기본 구문에서만 빈("" 문자열) 사서함 이름 인수는 참조에 제공된 이름의 루트 이름과 계층 구분 기호를 반환하기 위한 특수 요청입니다.  참조가 루트가 아니거나 빈 문자열인 경우 루트로 반환된 값은 빈 문자열일 수 있습니다.  모든 경우에 계층 구분 기호(또는 계층이 없는 경우 NIL)가 반환됩니다.  이를 통해 클라이언트는 해당 이름의 사서함이 현재 존재하지 않는 경우에도 계층 구분 기호를 얻을 수 있습니다(또는 사서함 이름이 단순하다는 것을 알 수 있습니다).

@@ -1,0 +1,16 @@
+"hash": |-
+  69941c5a9c4f4868eb0253ce7df979d6747a909360641689e95ef92fcc56145d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The client MUST then verify that the first half of the
+        "renegotiated_connection" field is equal to the saved
+        client_verify_data value, and the second half is equal to the
+        saved server_verify_data value.  If they are not, the client MUST
+        abort the handshake.
+"fixed": |-
+  -  The client MUST then verify that the first half of the "renegotiated_connection" field is equal to the saved client_verify_data value, and the second half is equal to the saved server_verify_data value.  If they are not, the client MUST abort the handshake.
+"ko": |-
+  - 그런 다음 클라이언트는 "renegotiated_connection" 필드의 첫 번째 절반이 저장된 client_verify_data 값과 같고 두 번째 절반이 저장된 server_verify_data 값과 동일한지 확인해야 합니다. 그렇지 않은 경우 클라이언트는 핸드셰이크를 중단해야 합니다.

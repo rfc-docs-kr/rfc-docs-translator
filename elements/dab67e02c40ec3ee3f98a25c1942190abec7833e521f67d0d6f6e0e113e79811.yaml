@@ -1,0 +1,17 @@
+"hash": |-
+  dab67e02c40ec3ee3f98a25c1942190abec7833e521f67d0d6f6e0e113e79811
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     (For DTLS, the sequence number is replaced by the combined epoch and
+     sequence number as per DTLS [4].)  The final MAC value is then
+     appended to the encrypted data and padding.  This calculation is
+     identical to the existing one, with the exception that the MAC
+     calculation is run over the payload ciphertext (the TLSCipherText
+     PDU) rather than the plaintext (the TLSCompressed PDU).
+"fixed": |-
+  (For DTLS, the sequence number is replaced by the combined epoch and sequence number as per DTLS [4].)  The final MAC value is then appended to the encrypted data and padding.  This calculation is identical to the existing one, with the exception that the MAC calculation is run over the payload ciphertext (the TLSCipherText PDU) rather than the plaintext (the TLSCompressed PDU).
+"ko": |-
+  (DTLS의 경우 시퀀스 번호는 DTLS [4]에 따라 결합된 에포크와 시퀀스 번호로 대체됩니다.) 그런 다음 최종 MAC 값이 암호화된 데이터와 패딩에 추가됩니다. 이 계산은 기존 계산과 동일하지만 MAC 계산은 평문(TLSCompressed PDU)이 아닌 페이로드 암호문(TLSCipherText PDU)에 대해 실행됩니다.

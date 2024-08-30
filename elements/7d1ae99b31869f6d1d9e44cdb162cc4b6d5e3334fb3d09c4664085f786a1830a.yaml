@@ -1,0 +1,16 @@
+"hash": |-
+  7d1ae99b31869f6d1d9e44cdb162cc4b6d5e3334fb3d09c4664085f786a1830a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As discussed in Section 9.5, endpoints limit the use of a connection
+     ID to packets sent from a single local address to a single
+     destination address.  Endpoints SHOULD retire connection IDs when
+     they are no longer actively using either the local or destination
+     address for which the connection ID was used.
+"fixed": |-
+  As discussed in Section 9.5, endpoints limit the use of a connection ID to packets sent from a single local address to a single destination address.  Endpoints SHOULD retire connection IDs when they are no longer actively using either the local or destination address for which the connection ID was used.
+"ko": |-
+  섹션 9.5에서 설명한 대로 엔드포인트는 단일 로컬 주소에서 단일 대상 주소로 전송된 패킷에 대한 연결 ID 사용을 제한합니다. 엔드포인트는 연결 ID가 사용된 로컬 주소나 대상 주소를 더 이상 적극적으로 사용하지 않을 때 연결 ID를 폐기해야 합니다(SHOULD).

@@ -1,0 +1,18 @@
+"hash": |-
+  f33ef35fc1e9b708f9d58d7e089e24cc4173a0683f159608cf8cfac2520f91f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the UPDATE message contains a feasible route, the Adj-RIB-In will
+     be updated with this route as follows: if the NLRI of the new route
+     is identical to the one the route currently has stored in the Adj-
+     RIB-In, then the new route SHALL replace the older route in the Adj-
+     RIB-In, thus implicitly withdrawing the older route from service.
+     Otherwise, if the Adj-RIB-In has no route with NLRI identical to the
+     new route, the new route SHALL be placed in the Adj-RIB-In.
+"fixed": |-
+  If the UPDATE message contains a feasible route, the Adj-RIB-In will be updated with this route as follows: if the NLRI of the new route is identical to the one the route currently has stored in the Adj- RIB-In, then the new route SHALL replace the older route in the Adj- RIB-In, thus implicitly withdrawing the older route from service. Otherwise, if the Adj-RIB-In has no route with NLRI identical to the new route, the new route SHALL be placed in the Adj-RIB-In.
+"ko": |-
+  UPDATE 메시지에 실행 가능한 경로가 포함되어 있으면 Adj-RIB-In은 다음과 같이 이 경로로 업데이트됩니다. 새 경로의 NLRI가 경로가 현재 Adj-RIB-In에 저장된 것과 동일하면 새로운 경로는 Adj-RIB-In의 이전 경로를 대체해야 하며, 따라서 서비스에서 이전 경로를 암시적으로 철회해야 합니다. 그렇지 않고 Adj-RIB-In에 새 경로와 동일한 NLRI가 있는 경로가 없으면 새 경로는 Adj-RIB-In에 배치되어야 합니다.

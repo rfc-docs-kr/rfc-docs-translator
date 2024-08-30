@@ -1,0 +1,26 @@
+"hash": |-
+  dd82782181e9a497e08082ac17f644f2ab191b042d20cbf183ec6c479a4070ee
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       C: A82 LIST "" *
+       S: * LIST () "." blurdybloop
+       S: * LIST () "." foo
+       S: * LIST () "." foo.bar
+       S: A82 OK LIST completed
+       C: A83 DELETE blurdybloop
+       S: A83 OK DELETE completed
+       C: A84 DELETE foo
+       S: A84 OK DELETE Completed
+       C: A85 LIST "" *
+       S: * LIST () "." foo.bar
+       S: A85 OK LIST completed
+       C: A86 LIST "" %
+       S: * LIST (\Noselect) "." foo
+       S: A86 OK LIST completed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

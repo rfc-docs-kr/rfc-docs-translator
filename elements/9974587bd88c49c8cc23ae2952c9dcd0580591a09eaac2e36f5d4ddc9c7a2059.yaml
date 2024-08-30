@@ -1,0 +1,16 @@
+"hash": |-
+  9974587bd88c49c8cc23ae2952c9dcd0580591a09eaac2e36f5d4ddc9c7a2059
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a peer receives a SIGNED_INTEGRITY message with a signed munro
+     hash but the timestamp is too old, the peer MUST discard the message.
+     Otherwise, it SHOULD use the signed munro to update its hash tree and
+     pick a tune-in in the live stream.  A peer may use the information
+     from multiple peers to pick the tune-in point.
+"fixed": |-
+  When a peer receives a SIGNED_INTEGRITY message with a signed munro hash but the timestamp is too old, the peer MUST discard the message. Otherwise, it SHOULD use the signed munro to update its hash tree and pick a tune-in in the live stream.  A peer may use the information from multiple peers to pick the tune-in point.
+"ko": |-
+  피어가 서명된 munro 해시가 포함된 SIGNED_INTEGRITY 메시지를 수신했지만 타임스탬프가 너무 오래된 경우 피어는 메시지를 삭제해야 합니다. 그렇지 않으면 서명된 먼로를 사용하여 해시 트리를 업데이트하고 라이브 스트림에서 튜닝을 선택해야 합니다. 피어는 튜닝 포인트를 선택하기 위해 여러 피어의 정보를 사용할 수 있습니다.

@@ -1,0 +1,33 @@
+"hash": |-
+  07cc29ccbdb7c79880dae8c464d7a8cca0d0fd84b1a5fd244bc76bf853bd1abc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Idle                   Recognizing               Recognized
+     State                  State                     State
+      |                       |                          |
+      |---------RECOGNIZE---->|---RECOGNITION-COMPLETE-->|
+      |<------STOP------------|<-----RECOGNIZE-----------|
+      |                       |                          |
+      |              |--------|              |-----------|
+      |       START-OF-INPUT  |       GET-RESULT         |
+      |              |------->|              |---------->|
+      |------------|          |                          |
+      |      DEFINE-GRAMMAR   |----------|               |
+      |<-----------|          | START-INPUT-TIMERS       |
+      |                       |<---------|               |
+      |------|                |                          |
+      |  INTERPRET            |                          |
+      |<-----|                |------|                   |
+      |                       |   RECOGNIZE              |
+      |-------|               |<-----|                   |
+      |      STOP                                        |
+      |<------|                                          |
+      |<-------------------STOP--------------------------|
+      |<-------------------DEFINE-GRAMMAR----------------|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

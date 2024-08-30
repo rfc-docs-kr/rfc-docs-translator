@@ -1,0 +1,15 @@
+"hash": |-
+  dc17ba9cc862166c9e5e683eabec39da55da61a72b41a024d8766bf50f2a991c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An edge-case requirement on If-Match and If-Unmodified-Since has been
+     removed that required a validator not to be sent in a 2xx response if
+     validation fails because the change request has already been applied.
+     (Sections 13.1.1 and 13.1.4)
+"fixed": |-
+  An edge-case requirement on If-Match and If-Unmodified-Since has been removed that required a validator not to be sent in a 2xx response if validation fails because the change request has already been applied. (Sections 13.1.1 and 13.1.4)
+"ko": |-
+  변경 요청이 이미 적용되었기 때문에 유효성 검사가 실패하는 경우 유효성 검사기가 2xx 응답으로 전송되지 않도록 요구하는 If-Match 및 If-Unmodified-Since에 대한 극단적인 경우 요구 사항이 제거되었습니다. (섹션 13.1.1 및 13.1.4)

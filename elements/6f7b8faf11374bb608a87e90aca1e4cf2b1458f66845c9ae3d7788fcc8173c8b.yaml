@@ -1,0 +1,14 @@
+"hash": |-
+  6f7b8faf11374bb608a87e90aca1e4cf2b1458f66845c9ae3d7788fcc8173c8b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If one or more of the header fields being set has an unsupported
+        value, the server MUST reject the request with a 409 Unsupported
+        Header Field Value, except as described in the next paragraph.
+"fixed": |-
+  -  If one or more of the header fields being set has an unsupported value, the server MUST reject the request with a 409 Unsupported Header Field Value, except as described in the next paragraph.
+"ko": |-
+  - 설정되는 헤더 필드 중 하나 이상에 지원되지 않는 값이 있는 경우, 서버는 다음 문단에 설명된 경우를 제외하고 409 지원되지 않는 헤더 필드 값으로 요청을 거부해야 합니다.

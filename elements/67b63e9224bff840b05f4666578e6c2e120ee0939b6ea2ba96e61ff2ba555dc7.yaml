@@ -1,0 +1,16 @@
+"hash": |-
+  67b63e9224bff840b05f4666578e6c2e120ee0939b6ea2ba96e61ff2ba555dc7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  mbedTLS: Client applications configure PSKs before creating a
+        connection by providing the PSK identity and value inline.
+        Servers must implement callbacks similar to that of OpenSSL.  Both
+        PSK identity and key lengths may be between 1-16 bytes long
+        (inclusive).
+"fixed": |-
+  *  mbedTLS: Client applications configure PSKs before creating a connection by providing the PSK identity and value inline. Servers must implement callbacks similar to that of OpenSSL.  Both PSK identity and key lengths may be between 1-16 bytes long (inclusive).
+"ko": |-
+  * mbedTLS: 클라이언트 애플리케이션은 PSK ID와 값을 인라인으로 제공하여 연결을 생성하기 전에 PSK를 구성합니다. 서버는 OpenSSL과 유사한 콜백을 구현해야 합니다.  PSK ID와 키 길이는 모두 1~16바이트(포함)일 수 있습니다.

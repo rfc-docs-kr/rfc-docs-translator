@@ -1,0 +1,1 @@
+입력에 대한 인식을 수행하는 것 외에도 인식기는 Enroll-Utterance 헤더 필드가 true로 설정되고 Enrollment가 활성화된 경우(START-PHRASE-ENROLLMENT 메서드의 이전 실행을 통해) 수집된 발화를 개인 문법에 등록해야 합니다. 그렇다면 RECOGNIZE 요청에 Content-ID 헤더 필드가 포함된 경우 결과 문법(개인 문법을 하위 문법으로 포함)을 'session' URI 체계를 통해 참조할 수 있습니다(섹션 13.6 참조).

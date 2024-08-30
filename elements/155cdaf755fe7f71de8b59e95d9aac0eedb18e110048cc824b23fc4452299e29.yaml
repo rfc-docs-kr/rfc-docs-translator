@@ -1,0 +1,19 @@
+"hash": |-
+  155cdaf755fe7f71de8b59e95d9aac0eedb18e110048cc824b23fc4452299e29
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       static string base64urlencode(byte [] arg)
+       {
+         string s = Convert.ToBase64String(arg); // Regular base64 encoder
+         s = s.Split('=')[0]; // Remove any trailing '='s
+         s = s.Replace('+', '-'); // 62nd char of encoding
+         s = s.Replace('/', '_'); // 63rd char of encoding
+         return s;
+       }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

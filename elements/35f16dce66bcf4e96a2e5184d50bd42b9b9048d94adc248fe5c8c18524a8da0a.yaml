@@ -1,0 +1,18 @@
+"hash": |-
+  35f16dce66bcf4e96a2e5184d50bd42b9b9048d94adc248fe5c8c18524a8da0a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A 0-RTT packet uses long headers with a type value of 0x01, followed
+     by the Length and Packet Number fields; see Section 17.2.  The first
+     byte contains the Reserved and Packet Number Length bits; see
+     Section 17.2.  A 0-RTT packet is used to carry "early" data from the
+     client to the server as part of the first flight, prior to handshake
+     completion.  As part of the TLS handshake, the server can accept or
+     reject this early data.
+"fixed": |-
+  A 0-RTT packet uses long headers with a type value of 0x01, followed by the Length and Packet Number fields; see Section 17.2.  The first byte contains the Reserved and Packet Number Length bits; see Section 17.2.  A 0-RTT packet is used to carry "early" data from the client to the server as part of the first flight, prior to handshake completion.  As part of the TLS handshake, the server can accept or reject this early data.
+"ko": |-
+  0-RTT 패킷은 유형 값이 0x01인 긴 헤더와 길이 및 패킷 번호 필드를 사용합니다. 섹션 17.2를 참조하세요. 첫 번째 바이트에는 예약된 비트와 패킷 번호 길이 비트가 포함됩니다. 섹션 17.2를 참조하세요. 0-RTT 패킷은 핸드셰이크가 완료되기 전에 첫 번째 비행의 일부로 클라이언트에서 서버로 "초기" 데이터를 전달하는 데 사용됩니다. TLS 핸드셰이크의 일부로 서버는 이 초기 데이터를 수락하거나 거부할 수 있습니다.

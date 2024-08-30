@@ -1,0 +1,29 @@
+"hash": |-
+  800cd3c234834f1e84d981495bcb75b0464755108d50216dcd71b6416d4e9a98
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Payload Data is a variable-length field containing data (from the
+     original IP packet) described by the Next Header field.  The Payload
+     Data field is mandatory and is an integral number of bytes in length.
+     If the algorithm used to encrypt the payload requires cryptographic
+     synchronization data, e.g., an Initialization Vector (IV), then this
+     data is carried explicitly in the Payload field, but it is not called
+     out as a separate field in ESP, i.e., the transmission of an explicit
+     IV is invisible to ESP.  (See Figure 2.)  Any encryption algorithm
+     that requires such explicit, per-packet synchronization data MUST
+     indicate the length, any structure for such data, and the location of
+     this data as part of an RFC specifying how the algorithm is used with
+     ESP.  (Typically, the IV immediately precedes the ciphertext.  See
+     Figure 2.)  If such synchronization data is implicit, the algorithm
+     for deriving the data MUST be part of the algorithm definition RFC.
+     (If included in the Payload field, cryptographic synchronization
+     data, e.g., an Initialization Vector (IV), usually is not encrypted
+     per se (see Tables 1 and 2), although it sometimes is referred to as
+     being part of the ciphertext.)
+"fixed": |-
+  Payload Data is a variable-length field containing data (from the original IP packet) described by the Next Header field.  The Payload Data field is mandatory and is an integral number of bytes in length. If the algorithm used to encrypt the payload requires cryptographic synchronization data, e.g., an Initialization Vector (IV), then this data is carried explicitly in the Payload field, but it is not called out as a separate field in ESP, i.e., the transmission of an explicit IV is invisible to ESP.  (See Figure 2.)  Any encryption algorithm that requires such explicit, per-packet synchronization data MUST indicate the length, any structure for such data, and the location of this data as part of an RFC specifying how the algorithm is used with ESP.  (Typically, the IV immediately precedes the ciphertext.  See Figure 2.)  If such synchronization data is implicit, the algorithm for deriving the data MUST be part of the algorithm definition RFC. (If included in the Payload field, cryptographic synchronization data, e.g., an Initialization Vector (IV), usually is not encrypted per se (see Tables 1 and 2), although it sometimes is referred to as being part of the ciphertext.)
+"ko": |-
+  페이로드 데이터는 다음 헤더 필드에서 설명하는 데이터(원래 IP 패킷의)를 포함하는 가변 길이 필드입니다.  페이로드 데이터 필드는 필수이며 길이는 정수 바이트입니다. 페이로드를 암호화하는 데 사용되는 알고리즘에 초기화 벡터(IV)와 같은 암호화 동기화 데이터가 필요한 경우 이 데이터는 페이로드 필드에 명시적으로 전달되지만 ESP에서 별도의 필드로 호출되지는 않습니다. 명시적인 IV는 ESP에 표시되지 않습니다.  (그림 2 참조) 이러한 명시적인 패킷별 동기화 데이터가 필요한 모든 암호화 알고리즘은 알고리즘이 ESP와 함께 사용되는 방법을 지정하는 RFC의 일부로 해당 데이터의 길이, 구조 및 이 데이터의 위치를 ​​나타내야 합니다.  (일반적으로 IV는 암호문 바로 앞에 옵니다. 그림 2를 참조하십시오.) 이러한 동기화 데이터가 암시적인 경우 데이터를 파생하는 알고리즘은 알고리즘 정의 RFC의 일부여야 합니다. (페이로드 필드에 포함된 경우 IV(초기화 벡터)와 같은 암호화 동기화 데이터는 일반적으로 그 자체로 암호화되지 않지만(표 1 및 2 참조) 암호문의 일부로 참조되기도 합니다.

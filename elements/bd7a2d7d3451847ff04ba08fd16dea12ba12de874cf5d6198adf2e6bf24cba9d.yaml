@@ -1,0 +1,20 @@
+"hash": |-
+  bd7a2d7d3451847ff04ba08fd16dea12ba12de874cf5d6198adf2e6bf24cba9d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The size of the first packet sent by a client will determine whether
+     a server sends a Version Negotiation packet.  Clients that support
+     multiple QUIC versions SHOULD ensure that the first UDP datagram they
+     send is sized to the largest of the minimum datagram sizes from all
+     versions they support, using PADDING frames (Section 19.1) as
+     necessary.  This ensures that the server responds if there is a
+     mutually supported version.  A server might not send a Version
+     Negotiation packet if the datagram it receives is smaller than the
+     minimum size specified in a different version; see Section 14.1.
+"fixed": |-
+  The size of the first packet sent by a client will determine whether a server sends a Version Negotiation packet.  Clients that support multiple QUIC versions SHOULD ensure that the first UDP datagram they send is sized to the largest of the minimum datagram sizes from all versions they support, using PADDING frames (Section 19.1) as necessary.  This ensures that the server responds if there is a mutually supported version.  A server might not send a Version Negotiation packet if the datagram it receives is smaller than the minimum size specified in a different version; see Section 14.1.
+"ko": |-
+  클라이언트가 보낸 첫 번째 패킷의 크기에 따라 서버가 버전 협상 패킷을 보낼지 여부가 결정됩니다. 여러 QUIC 버전을 지원하는 클라이언트는 필요에 따라 PADDING 프레임(19.1절)을 사용하여 자신이 보내는 첫 번째 UDP 데이터그램의 크기가 지원하는 모든 버전의 최소 데이터그램 크기 중 가장 큰 크기인지 확인해야 합니다. 이렇게 하면 상호 지원되는 버전이 있는 경우 서버가 응답합니다. 서버는 수신하는 데이터그램이 다른 버전에 지정된 최소 크기보다 작은 경우 버전 협상 패킷을 보내지 않을 수 있습니다. 섹션 14.1을 참조하세요.

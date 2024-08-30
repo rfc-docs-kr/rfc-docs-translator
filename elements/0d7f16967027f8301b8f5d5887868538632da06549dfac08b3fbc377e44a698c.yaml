@@ -1,0 +1,18 @@
+"hash": |-
+  0d7f16967027f8301b8f5d5887868538632da06549dfac08b3fbc377e44a698c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       // The number of bits must be at least one more
+       // than the base-2 logarithm of the number of contiguous
+       // unacknowledged packet numbers, including the new packet.
+       if largest_acked is None:
+         num_unacked = full_pn + 1
+       else:
+         num_unacked = full_pn - largest_acked
+"fixed": |-
+  // The number of bits must be at least one more // than the base-2 logarithm of the number of contiguous // unacknowledged packet numbers, including the new packet. if largest_acked is None: num_unacked = full_pn + 1 else: num_unacked = full_pn - largest_acked
+"ko": |-
+  // 비트 수는 새 패킷을 포함하여 // 연속된 승인되지 않은 패킷 번호 수의 밑이 2인 로그보다 적어도 하나 더 많아야 합니다. maximum_acked가 None인 경우: num_unacked = full_pn + 1 else: num_unacked = full_pn - maximum_acked

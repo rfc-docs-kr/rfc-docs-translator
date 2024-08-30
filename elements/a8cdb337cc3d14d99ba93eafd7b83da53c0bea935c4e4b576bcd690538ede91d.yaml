@@ -1,0 +1,14 @@
+"hash": |-
+  a8cdb337cc3d14d99ba93eafd7b83da53c0bea935c4e4b576bcd690538ede91d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note that if the server sends OVERQUOTA but doesn't support the
+        IMAP QUOTA extension defined by [RFC2087], then there is a quota,
+        but the client cannot find out what the quota is.
+"fixed": |-
+  - Note that if the server sends OVERQUOTA but doesn't support the IMAP QUOTA extension defined by [RFC2087], then there is a quota, but the client cannot find out what the quota is.
+"ko": |-
+  - 서버가 OVERQUOTA를 전송하지만 [RFC2087]에 정의된 IMAP QUOTA 확장을 지원하지 않는 경우 할당량이 있지만 클라이언트는 할당량이 무엇인지 알 수 없습니다.

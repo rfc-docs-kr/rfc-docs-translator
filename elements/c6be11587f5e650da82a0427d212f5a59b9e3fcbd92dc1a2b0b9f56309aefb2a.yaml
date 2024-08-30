@@ -1,0 +1,21 @@
+"hash": |-
+  c6be11587f5e650da82a0427d212f5a59b9e3fcbd92dc1a2b0b9f56309aefb2a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <define name="verification-contents">
+         <element name="voiceprint">
+           <ref name="firstVoiceprintContent"/>
+         </element>
+         <zeroOrMore>
+           <element name="voiceprint">
+             <ref name="restVoiceprintContent"/>
+           </element>
+         </zeroOrMore>
+       </define>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

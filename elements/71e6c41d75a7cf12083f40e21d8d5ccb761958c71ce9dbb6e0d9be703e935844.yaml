@@ -1,0 +1,20 @@
+"hash": |-
+  71e6c41d75a7cf12083f40e21d8d5ccb761958c71ce9dbb6e0d9be703e935844
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If an attempted STATUS for a listed mailbox fails because the
+        mailbox can't be selected (e.g., if the "l" Access Control List
+        (ACL) right [RFC4314] is granted to the mailbox and the "r" right
+        is not granted, or is due to a race condition between LIST and
+        STATUS changing the mailbox to \NoSelect), the STATUS response
+        MUST NOT be returned, and the LIST response MUST include the
+        \NoSelect attribute.  This means the server may have to buffer the
+        LIST reply until it has successfully looked up the necessary
+        STATUS information.
+"fixed": |-
+  - If an attempted STATUS for a listed mailbox fails because the mailbox can't be selected (e.g., if the "l" Access Control List (ACL) right [RFC4314] is granted to the mailbox and the "r" right is not granted, or is due to a race condition between LIST and STATUS changing the mailbox to \NoSelect), the STATUS response MUST NOT be returned, and the LIST response MUST include the \NoSelect attribute.  This means the server may have to buffer the LIST reply until it has successfully looked up the necessary STATUS information.
+"ko": |-
+  - 사서함을 선택할 수 없기 때문에 나열된 사서함에 대한 상태 시도가 실패한 경우(예: "l" 액세스 제어 목록(ACL) 권한 [RFC4314]이 사서함에 부여되고 "r" 권한이 부여되지 않은 경우) 또는 사서함을 \NoSelect로 변경하는 LIST와 STATUS 사이의 경합 조건으로 인해) STATUS 응답은 반환되어서는 안 되며 LIST 응답에는 \NoSelect 속성이 포함되어야 합니다.  이는 서버가 필요한 STATUS 정보를 성공적으로 조회할 때까지 LIST 응답을 버퍼링해야 할 수도 있음을 의미합니다.

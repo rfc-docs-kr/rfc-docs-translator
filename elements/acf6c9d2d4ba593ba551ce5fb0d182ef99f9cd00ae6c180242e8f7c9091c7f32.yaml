@@ -1,0 +1,18 @@
+"hash": |-
+  acf6c9d2d4ba593ba551ce5fb0d182ef99f9cd00ae6c180242e8f7c9091c7f32
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The current connection maximum data is sent in MAX_DATA frames.
+        An updated value is sent in a MAX_DATA frame if the packet
+        containing the most recently sent MAX_DATA frame is declared lost
+        or when the endpoint decides to update the limit.  Care is
+        necessary to avoid sending this frame too often, as the limit can
+        increase frequently and cause an unnecessarily large number of
+        MAX_DATA frames to be sent; see Section 4.2.
+"fixed": |-
+  *  The current connection maximum data is sent in MAX_DATA frames. An updated value is sent in a MAX_DATA frame if the packet containing the most recently sent MAX_DATA frame is declared lost or when the endpoint decides to update the limit.  Care is necessary to avoid sending this frame too often, as the limit can increase frequently and cause an unnecessarily large number of MAX_DATA frames to be sent; see Section 4.2.
+"ko": |-
+  * 현재 연결 최대 데이터는 MAX_DATA 프레임 단위로 전송됩니다. 가장 최근에 전송된 MAX_DATA 프레임을 포함하는 패킷이 손실된 것으로 선언되거나 엔드포인트가 제한을 업데이트하기로 결정한 경우 업데이트된 값이 MAX_DATA 프레임에 전송됩니다. 제한이 자주 증가하여 불필요하게 많은 수의 MAX_DATA 프레임이 전송될 수 있으므로 이 프레임을 너무 자주 전송하지 않도록 주의해야 합니다. 섹션 4.2를 참조하세요.

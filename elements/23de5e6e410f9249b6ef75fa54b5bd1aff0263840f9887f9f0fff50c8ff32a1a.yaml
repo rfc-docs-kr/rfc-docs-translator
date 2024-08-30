@@ -1,0 +1,20 @@
+"hash": |-
+  23de5e6e410f9249b6ef75fa54b5bd1aff0263840f9887f9f0fff50c8ff32a1a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  Filter the set of collected keys.  For instance, some
+         applications will use only keys referenced by "kid" (key ID) or
+         "x5t" (X.509 certificate SHA-1 thumbprint) parameters.  If the
+         application uses the JWK "alg" (algorithm), "use" (public key
+         use), or "key_ops" (key operations) parameters, keys with
+         inappropriate values of those parameters would be excluded.
+         Additionally, keys might be filtered to include or exclude keys
+         with certain other member values in an application-specific
+         manner.  For some applications, no filtering will be applied.
+"fixed": |-
+  1.  Filter the set of collected keys.  For instance, some applications will use only keys referenced by "kid" (key ID) or "x5t" (X.509 certificate SHA-1 thumbprint) parameters.  If the application uses the JWK "alg" (algorithm), "use" (public key use), or "key_ops" (key operations) parameters, keys with inappropriate values of those parameters would be excluded. Additionally, keys might be filtered to include or exclude keys with certain other member values in an application-specific manner.  For some applications, no filtering will be applied.
+"ko": |-
+  1. 수집된 키 집합을 필터링합니다. 예를 들어, 일부 애플리케이션은 "kid"(키 ID) 또는 "x5t"(X.509 인증서 SHA-1 지문) 매개변수에서 참조하는 키만 사용합니다. 애플리케이션이 JWK "alg"(알고리즘), "use"(공개 키 사용) 또는 "key_ops"(키 작업) 매개변수를 사용하는 경우 해당 매개변수의 부적절한 값을 가진 키는 제외됩니다. 또한 애플리케이션별 방식으로 특정 다른 멤버 값을 가진 키를 포함하거나 제외하도록 키를 필터링할 수 있습니다. 일부 애플리케이션의 경우 필터링이 적용되지 않습니다.

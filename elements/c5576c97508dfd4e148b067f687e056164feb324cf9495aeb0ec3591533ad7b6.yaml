@@ -1,0 +1,16 @@
+"hash": |-
+  c5576c97508dfd4e148b067f687e056164feb324cf9495aeb0ec3591533ad7b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        It is important to note that authentication techniques which do
+        not use the Finished message do not usually provide protection
+        from this attack.  For example, the client could authenticate to
+        the server with a password, but it would still be vulnerable to
+        man-in-the-middle attacks.
+"fixed": |-
+  - It is important to note that authentication techniques which do not use the Finished message do not usually provide protection from this attack.  For example, the client could authenticate to the server with a password, but it would still be vulnerable to man-in-the-middle attacks.
+"ko": |-
+  - 완료 메시지를 사용하지 않는 인증 기술은 일반적으로 이 공격으로부터 보호를 제공하지 않는다는 점에 유의하는 것이 중요합니다. 예를 들어, 클라이언트는 비밀번호를 사용하여 서버에 인증할 수 있지만 여전히 중간자 공격에 취약합니다.

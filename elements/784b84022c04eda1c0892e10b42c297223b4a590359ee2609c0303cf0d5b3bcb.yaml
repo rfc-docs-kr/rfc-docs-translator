@@ -1,0 +1,26 @@
+"hash": |-
+  784b84022c04eda1c0892e10b42c297223b4a590359ee2609c0303cf0d5b3bcb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One special type is 'application/octet-stream'.  If the Printer
+     supports this value, the Printer MUST be capable of auto-sensing the
+     format of the Document data using an implementation-dependent method
+     that examines some number of octets of the Document data, either as
+     part of the Job Creation request and/or at Document processing time.
+     During auto-sensing, a Printer can determine that the Document data
+     has a format that the Printer doesn't recognize.  If the Printer
+     determines this problem before returning an operation response, it
+     rejects the request and returns the
+     'client-error-document-format-not-supported' status-code.  If the
+     Printer determines this problem after accepting the request and
+     returning an operation response with one of the successful
+     status-code values, the Printer adds the
+     'unsupported-document-format' value to the Job's "job-state-reasons"
+     attribute.
+"fixed": |-
+  One special type is 'application/octet-stream'.  If the Printer supports this value, the Printer MUST be capable of auto-sensing the format of the Document data using an implementation-dependent method that examines some number of octets of the Document data, either as part of the Job Creation request and/or at Document processing time. During auto-sensing, a Printer can determine that the Document data has a format that the Printer doesn't recognize.  If the Printer determines this problem before returning an operation response, it rejects the request and returns the 'client-error-document-format-not-supported' status-code.  If the Printer determines this problem after accepting the request and returning an operation response with one of the successful status-code values, the Printer adds the 'unsupported-document-format' value to the Job's "job-state-reasons" attribute.
+"ko": |-
+  특별한 유형 중 하나는 'application/octet-stream'입니다. 프린터가 이 값을 지원하는 경우 프린터는 작업 생성 요청 및/또는 작업 생성 요청의 일부로 문서 데이터의 옥텟 수를 검사하는 구현 종속 방법을 사용하여 문서 데이터의 형식을 자동 감지할 수 있어야 합니다(MUST). 문서 처리 시간에. 자동 감지 중에 프린터는 문서 데이터에 프린터가 인식하지 못하는 형식이 있는지 확인할 수 있습니다. 프린터가 작업 응답을 반환하기 전에 이 문제를 판단하면 요청을 거부하고 'client-error-document-format-not-supported' 상태 코드를 반환합니다. 프린터가 요청을 수락하고 성공적인 상태 코드 값 중 하나와 함께 작업 응답을 반환한 후 이 문제를 판단하면 프린터는 '지원되지 않는 문서 형식' 값을 작업의 "job-state-reasons" 속성에 추가합니다.

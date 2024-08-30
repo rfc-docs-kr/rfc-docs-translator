@@ -1,0 +1,14 @@
+"hash": |-
+  6a025a29041b5cd6b046371e979aa9c73c2e4e301003d12fd5b456ade7ebe1cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the original session used the extension but the new ServerHello
+        does not contain the extension, the client MUST abort the
+        handshake.
+"fixed": |-
+  -  If the original session used the extension but the new ServerHello does not contain the extension, the client MUST abort the handshake.
+"ko": |-
+  - 원래 세션이 확장을 사용했지만 새로운 ServerHello에 확장이 포함되지 않은 경우 클라이언트는 핸드셰이크를 중단해야 합니다.

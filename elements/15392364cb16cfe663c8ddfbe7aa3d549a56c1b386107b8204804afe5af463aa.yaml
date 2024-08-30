@@ -1,0 +1,17 @@
+"hash": |-
+  15392364cb16cfe663c8ddfbe7aa3d549a56c1b386107b8204804afe5af463aa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Maximum Streams:  A count of the cumulative number of streams of the
+        corresponding type that can be opened over the lifetime of the
+        connection.  This value cannot exceed 2^60, as it is not possible
+        to encode stream IDs larger than 2^62-1.  Receipt of a frame that
+        permits opening of a stream larger than this limit MUST be treated
+        as a connection error of type FRAME_ENCODING_ERROR.
+"fixed": |-
+  Maximum Streams:  A count of the cumulative number of streams of the corresponding type that can be opened over the lifetime of the connection.  This value cannot exceed 2^60, as it is not possible to encode stream IDs larger than 2^62-1.  Receipt of a frame that permits opening of a stream larger than this limit MUST be treated as a connection error of type FRAME_ENCODING_ERROR.
+"ko": |-
+  최대 스트림 수: 연결 수명 동안 열 수 있는 해당 유형의 누적 스트림 수입니다. 2^62-1보다 큰 스트림 ID는 인코딩할 수 없으므로 이 값은 2^60을 초과할 수 없습니다. 이 제한보다 큰 스트림 열기를 허용하는 프레임 수신은 FRAME_ENCODING_ERROR 유형의 연결 오류로 처리되어야 합니다.

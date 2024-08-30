@@ -1,0 +1,18 @@
+"hash": |-
+  a3e264acf604dd22b8d2beb88efbf2803dcdffa9032937fd0fa2c9dfab7b08f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An attacker acting as a server can choose the IP address and port on
+     which it advertises its availability, so Initial packets from clients
+     are assumed to be available for use in this sort of attack.  The
+     address validation implicit in the handshake ensures that -- for a
+     new connection -- a client will not send other types of packets to a
+     destination that does not understand QUIC or is not willing to accept
+     a QUIC connection.
+"fixed": |-
+  An attacker acting as a server can choose the IP address and port on which it advertises its availability, so Initial packets from clients are assumed to be available for use in this sort of attack.  The address validation implicit in the handshake ensures that -- for a new connection -- a client will not send other types of packets to a destination that does not understand QUIC or is not willing to accept a QUIC connection.
+"ko": |-
+  서버 역할을 하는 공격자는 가용성을 알리는 IP 주소와 포트를 선택할 수 있으므로 클라이언트의 초기 패킷은 이러한 종류의 공격에 사용할 수 있는 것으로 가정됩니다. 핸드셰이크에 내재된 주소 유효성 검사는 새로운 연결의 경우 클라이언트가 QUIC를 이해하지 못하거나 QUIC 연결을 수락할 의사가 없는 대상에 다른 유형의 패킷을 보내지 않도록 보장합니다.

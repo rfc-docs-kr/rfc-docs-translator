@@ -1,0 +1,21 @@
+"hash": |-
+  f274b4021d4f2e7750a13d1edd9517516b7f988fa478eeee1b9d1f712ecb136f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Attackers could replay tokens to use servers as amplifiers in DDoS
+     attacks.  To protect against such attacks, servers MUST ensure that
+     replay of tokens is prevented or limited.  Servers SHOULD ensure that
+     tokens sent in Retry packets are only accepted for a short time, as
+     they are returned immediately by clients.  Tokens that are provided
+     in NEW_TOKEN frames (Section 19.7) need to be valid for longer but
+     SHOULD NOT be accepted multiple times.  Servers are encouraged to
+     allow tokens to be used only once, if possible; tokens MAY include
+     additional information about clients to further narrow applicability
+     or reuse.
+"fixed": |-
+  Attackers could replay tokens to use servers as amplifiers in DDoS attacks.  To protect against such attacks, servers MUST ensure that replay of tokens is prevented or limited.  Servers SHOULD ensure that tokens sent in Retry packets are only accepted for a short time, as they are returned immediately by clients.  Tokens that are provided in NEW_TOKEN frames (Section 19.7) need to be valid for longer but SHOULD NOT be accepted multiple times.  Servers are encouraged to allow tokens to be used only once, if possible; tokens MAY include additional information about clients to further narrow applicability or reuse.
+"ko": |-
+  공격자는 토큰을 재생하여 서버를 DDoS 공격의 증폭기로 사용할 수 있습니다. 이러한 공격으로부터 보호하려면 서버는 토큰 재생이 방지되거나 제한되도록 해야 합니다. 서버는 재시도 패킷으로 전송된 토큰이 클라이언트에 의해 즉시 반환되므로 짧은 시간 동안만 허용되도록 해야 합니다. NEW_TOKEN 프레임(섹션 19.7)에 제공되는 토큰은 더 오랫동안 유효해야 하지만 여러 번 허용되어서는 안 됩니다. 가능하다면 서버에서는 토큰을 한 번만 사용하도록 허용하는 것이 좋습니다. 토큰에는 적용 범위나 재사용 범위를 더욱 좁히기 위해 클라이언트에 대한 추가 정보가 포함될 수 있습니다.

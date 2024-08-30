@@ -1,0 +1,15 @@
+"hash": |-
+  23de83b6318680d4edb024920d2f5d3b8099eb45ec461377a25192cf3e2acc54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver MUST retain an ACK Range unless it can ensure that it will
+     not subsequently accept packets with numbers in that range.
+     Maintaining a minimum packet number that increases as ranges are
+     discarded is one way to achieve this with minimal state.
+"fixed": |-
+  A receiver MUST retain an ACK Range unless it can ensure that it will not subsequently accept packets with numbers in that range. Maintaining a minimum packet number that increases as ranges are discarded is one way to achieve this with minimal state.
+"ko": |-
+  수신기는 이후에 해당 범위에 있는 숫자가 포함된 패킷을 수락하지 않는다는 것을 보장할 수 없는 한 ACK 범위를 유지해야 합니다. 범위가 삭제됨에 따라 증가하는 최소 패킷 수를 유지하는 것은 최소한의 상태로 이를 달성하는 한 가지 방법입니다.

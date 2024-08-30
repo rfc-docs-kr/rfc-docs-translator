@@ -1,0 +1,16 @@
+"hash": |-
+  acc10c1fc76296d5c95ec63e5682d0e04a1c4a0494ea10337478e5636e6ff0c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an origin server receives a request that selects a
+     representation and that request includes an If-Unmodified-Since
+     header field without an If-Match header field, the origin server MUST
+     evaluate the If-Unmodified-Since condition per Section 13.2 prior to
+     performing the method.
+"fixed": |-
+  When an origin server receives a request that selects a representation and that request includes an If-Unmodified-Since header field without an If-Match header field, the origin server MUST evaluate the If-Unmodified-Since condition per Section 13.2 prior to performing the method.
+"ko": |-
+  원서버가 표현을 선택하는 요청을 수신하고 그 요청이 If-Match 헤더 필드 없이 If-Unmodified-Since 헤더 필드를 포함하는 경우, 원서버는 다음을 수행하기 전에 섹션 13.2에 따라 If-Unmodified-Since 조건을 평가해야 합니다. 방법.

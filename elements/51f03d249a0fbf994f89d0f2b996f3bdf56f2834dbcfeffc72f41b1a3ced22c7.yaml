@@ -1,0 +1,15 @@
+"hash": |-
+  51f03d249a0fbf994f89d0f2b996f3bdf56f2834dbcfeffc72f41b1a3ced22c7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint SHOULD NOT probe a new path with packets containing a
+     PATH_CHALLENGE frame more frequently than it would send an Initial
+     packet.  This ensures that connection migration is no more load on a
+     new path than establishing a new connection.
+"fixed": |-
+  An endpoint SHOULD NOT probe a new path with packets containing a PATH_CHALLENGE frame more frequently than it would send an Initial packet.  This ensures that connection migration is no more load on a new path than establishing a new connection.
+"ko": |-
+  엔드포인트는 초기 패킷을 보내는 것보다 더 자주 PATH_CHALLENGE 프레임을 포함하는 패킷으로 새 경로를 검색해서는 안 됩니다. 이렇게 하면 연결 마이그레이션이 새 연결을 설정하는 것보다 새 경로에 더 이상 부담을 주지 않게 됩니다.

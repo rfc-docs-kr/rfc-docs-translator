@@ -1,0 +1,20 @@
+"hash": |-
+  2abbf4bb609d7a477ab4c7671881b85dbe144a205a4b1d954f021528c4c471b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Around the AuthenticatedSafe is the integrity-mode wrapper, which
+     protects the entire contents of the AuthenticatedSafe (including
+     unencrypted parts, if they are present).  This is the reverse of the
+     wrapping order in many protocols, in which privacy is the outermost
+     protection.  This latter, more-common wrapping order avoids
+     signatures on encrypted data, which are undesirable under certain
+     circumstances; however, these circumstances do not apply to this
+     document, and it is therefore preferable to protect the integrity of
+     as much information as possible.
+"fixed": |-
+  Around the AuthenticatedSafe is the integrity-mode wrapper, which protects the entire contents of the AuthenticatedSafe (including unencrypted parts, if they are present).  This is the reverse of the wrapping order in many protocols, in which privacy is the outermost protection.  This latter, more-common wrapping order avoids signatures on encrypted data, which are undesirable under certain circumstances; however, these circumstances do not apply to this document, and it is therefore preferable to protect the integrity of as much information as possible.
+"ko": |-
+  AuthenticatedSafe 주변에는 무결성 모드 래퍼가 있는데, 이는 AuthenticatedSafe의 전체 내용(존재하는 경우 암호화되지 않은 부분 포함)을 보호합니다. 이는 프라이버시가 가장 바깥쪽 보호인 많은 프로토콜의 래핑 순서와 반대입니다. 후자의 보다 일반적인 래핑 순서는 특정 상황에서 바람직하지 않은 암호화된 데이터의 서명을 피합니다. 그러나 이러한 상황은 이 문서에는 적용되지 않으므로 가능한 한 많은 정보의 무결성을 보호하는 것이 좋습니다.

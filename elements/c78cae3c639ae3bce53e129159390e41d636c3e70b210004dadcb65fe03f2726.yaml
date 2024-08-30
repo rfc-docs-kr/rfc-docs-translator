@@ -1,0 +1,22 @@
+"hash": |-
+  c78cae3c639ae3bce53e129159390e41d636c3e70b210004dadcb65fe03f2726
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           An AS_SET implies that the destinations listed in the NLRI can
+           be reached through paths that traverse at least some of the
+           constituent autonomous systems.  AS_SETs provide sufficient
+           information to avoid routing information looping; however,
+           their use may prune potentially feasible paths because such
+           paths are no longer listed individually in the form of
+           AS_SEQUENCEs.  In practice, this is not likely to be a problem
+           because once an IP packet arrives at the edge of a group of
+           autonomous systems, the BGP speaker is likely to have more
+           detailed path information and can distinguish individual paths
+           from destinations.
+"fixed": |-
+  - An AS_SET implies that the destinations listed in the NLRI can be reached through paths that traverse at least some of the constituent autonomous systems.  AS_SETs provide sufficient information to avoid routing information looping; however, their use may prune potentially feasible paths because such paths are no longer listed individually in the form of AS_SEQUENCEs.  In practice, this is not likely to be a problem because once an IP packet arrives at the edge of a group of autonomous systems, the BGP speaker is likely to have more detailed path information and can distinguish individual paths from destinations.
+"ko": |-
+  - AS_SET은 NLRI에 나열된 목적지가 구성 자율 시스템 중 적어도 일부를 통과하는 경로를 통해 도달할 수 있음을 의미합니다. AS_SET은 라우팅 정보 루프를 방지하는 데 충분한 정보를 제공합니다. 그러나 이러한 경로는 더 이상 AS_SEQUENCE 형식으로 개별적으로 나열되지 않으므로 이를 사용하면 잠재적으로 실행 가능한 경로가 정리될 수 있습니다. 실제로 IP 패킷이 자율 시스템 그룹의 가장자리에 도착하면 BGP 스피커가 더 자세한 경로 정보를 갖고 개별 경로를 대상과 구별할 수 있기 때문에 이는 문제가 될 가능성이 없습니다.

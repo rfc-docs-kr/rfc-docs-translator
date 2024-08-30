@@ -1,0 +1,17 @@
+"hash": |-
+  0cb46c83e735f7731453d686adaffcc87c04c30f517c3a4a24bc01793494db8b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the key used to compute an ICV is manually distributed, a
+     compliant implementation SHOULD NOT provide anti-replay service.  If
+     a user chooses to employ anti-replay in conjunction with SAs that are
+     manually keyed, the sequence number counter at the sender MUST be
+     correctly maintained across local reboots, etc., until the key is
+     replaced.  (See Section 5.)
+"fixed": |-
+  If the key used to compute an ICV is manually distributed, a compliant implementation SHOULD NOT provide anti-replay service.  If a user chooses to employ anti-replay in conjunction with SAs that are manually keyed, the sequence number counter at the sender MUST be correctly maintained across local reboots, etc., until the key is replaced.  (See Section 5.)
+"ko": |-
+  ICV를 계산하는 데 사용되는 키가 수동으로 배포되는 경우 호환 구현은 재생 방지 서비스를 제공해서는 안 됩니다.  사용자가 수동으로 키가 입력된 SA와 함께 재생 방지를 사용하기로 선택한 경우 키가 교체될 때까지 로컬 재부팅 등을 통해 발신자의 시퀀스 번호 카운터가 올바르게 유지되어야 합니다.  (섹션 5 참조)

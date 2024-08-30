@@ -1,0 +1,19 @@
+"hash": |-
+  b603c936524427aa57b76359024bb14d06159e095d3a68fc46c6309edbcb32ab
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     voice-gender        =   "Voice-Gender:" voice-gender-value CRLF
+     voice-gender-value  =   "male"
+                         /   "female"
+                         /   "neutral"
+     voice-age           =   "Voice-Age:" 1*3DIGIT CRLF
+     voice-variant       =   "Voice-Variant:" 1*19DIGIT CRLF
+     voice-name          =   "Voice-Name:"
+                             1*UTFCHAR *(1*WSP 1*UTFCHAR) CRLF
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

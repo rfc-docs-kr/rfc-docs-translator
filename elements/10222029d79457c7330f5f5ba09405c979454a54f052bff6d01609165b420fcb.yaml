@@ -1,0 +1,14 @@
+"hash": |-
+  10222029d79457c7330f5f5ba09405c979454a54f052bff6d01609165b420fcb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a SPEAK request was active when the CONTROL method was received,
+     the server MUST return an Active-Request-Id-List header field
+     containing the request-id of the SPEAK request that was active.
+"fixed": |-
+  If a SPEAK request was active when the CONTROL method was received, the server MUST return an Active-Request-Id-List header field containing the request-id of the SPEAK request that was active.
+"ko": |-
+  CONTROL 메서드를 수신했을 때 SPEAK 요청이 활성화되어 있으면, 서버는 활성화되어 있던 SPEAK 요청의 요청 ID를 포함하는 Active-Request-Id-List 헤더 필드를 반환해야 합니다.

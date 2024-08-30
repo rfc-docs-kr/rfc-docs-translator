@@ -1,0 +1,17 @@
+"hash": |-
+  e9e23499acd3dcc402ea400b7b6704740aa2a8f6b20234a38a2f82bf2275c3a5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender that generates a message containing content SHOULD generate
+     a Content-Type header field in that message unless the intended media
+     type of the enclosed representation is unknown to the sender.  If a
+     Content-Type header field is not present, the recipient MAY either
+     assume a media type of "application/octet-stream" ([RFC2046],
+     Section 4.5.1) or examine the data to determine its type.
+"fixed": |-
+  A sender that generates a message containing content SHOULD generate a Content-Type header field in that message unless the intended media type of the enclosed representation is unknown to the sender.  If a Content-Type header field is not present, the recipient MAY either assume a media type of "application/octet-stream" ([RFC2046], Section 4.5.1) or examine the data to determine its type.
+"ko": |-
+  콘텐츠가 포함된 메시지를 생성하는 발신자는 포함된 표현의 의도된 미디어 유형을 발신자에게 알 수 없는 경우를 제외하고 해당 메시지에 Content-Type 헤더 필드를 생성해야 합니다. Content-Type 헤더 필드가 없으면 수신자는 "application/octet-stream"([RFC2046], 섹션 4.5.1)의 미디어 유형을 가정하거나 데이터를 검사하여 해당 유형을 결정할 수 있습니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  708c969952e2c2ee973d003f60f07dbc2ffc83b09697f29a9b1281b426dd94b2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  If the resulting data does not end with an empty DEFLATE block
+         with no compression (the "BTYPE" bits are set to 00), append an
+         empty DEFLATE block with no compression to the tail end.
+"fixed": |-
+  1.  If the resulting data does not end with an empty DEFLATE block with no compression (the "BTYPE" bits are set to 00), append an empty DEFLATE block with no compression to the tail end.
+"ko": |-
+  1. 결과 데이터가 압축되지 않은 빈 DEFLATE 블록("BTYPE" 비트가 00으로 설정됨)으로 끝나지 않는 경우 압축되지 않은 빈 DEFLATE 블록을 끝 부분에 추가합니다.

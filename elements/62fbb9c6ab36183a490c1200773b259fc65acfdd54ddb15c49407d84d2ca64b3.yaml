@@ -1,0 +1,17 @@
+"hash": |-
+  62fbb9c6ab36183a490c1200773b259fc65acfdd54ddb15c49407d84d2ca64b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A compatible TLS server that receives the Supported Groups extension
+     with FFDHE codepoints in it and that selects an FFDHE cipher suite
+     MUST select one of the client's offered groups.  The server indicates
+     the choice of group to the client by sending the group's parameters
+     as usual in the ServerKeyExchange as described in Section 7.4.3 of
+     [RFC5246].
+"fixed": |-
+  A compatible TLS server that receives the Supported Groups extension with FFDHE codepoints in it and that selects an FFDHE cipher suite MUST select one of the client's offered groups.  The server indicates the choice of group to the client by sending the group's parameters as usual in the ServerKeyExchange as described in Section 7.4.3 of [RFC5246].
+"ko": |-
+  FFDHE 코드 포인트가 포함된 지원 그룹 확장을 수신하고 FFDHE 암호화 제품군을 선택하는 호환 TLS 서버는 클라이언트가 제공하는 그룹 중 하나를 선택해야 합니다.  서버는 [RFC5246]의 섹션 7.4.3에 설명된 대로 ServerKeyExchange에서 평소와 같이 그룹의 매개변수를 전송하여 클라이언트에 그룹 선택을 나타냅니다.

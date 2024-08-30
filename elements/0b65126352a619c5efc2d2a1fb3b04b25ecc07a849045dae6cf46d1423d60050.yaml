@@ -1,0 +1,15 @@
+"hash": |-
+  0b65126352a619c5efc2d2a1fb3b04b25ecc07a849045dae6cf46d1423d60050
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Vary might be elided when an origin server considers variance in
+     content selection to be less significant than Vary's performance
+     impact on caching, particularly when reuse is already limited by
+     cache response directives (Section 5.2 of [CACHING]).
+"fixed": |-
+  Vary might be elided when an origin server considers variance in content selection to be less significant than Vary's performance impact on caching, particularly when reuse is already limited by cache response directives (Section 5.2 of [CACHING]).
+"ko": |-
+  Vary는 원본 서버가 캐싱에 대한 Vary의 성능 영향보다 콘텐츠 선택의 변화가 덜 중요하다고 간주하는 경우, 특히 캐시 응답 지시문([CACHING]의 섹션 5.2)에 의해 재사용이 이미 제한되어 있는 경우 생략될 수 있습니다.

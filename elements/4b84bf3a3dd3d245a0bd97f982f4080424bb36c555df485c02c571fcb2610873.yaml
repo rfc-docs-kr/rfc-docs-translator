@@ -1,0 +1,17 @@
+"hash": |-
+  4b84bf3a3dd3d245a0bd97f982f4080424bb36c555df485c02c571fcb2610873
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For example, the Content-Type field value only allows commas inside
+     quoted strings, which can be reliably parsed even when multiple
+     values are present.  The Location field value provides a counter-
+     example that should not be emulated: because URIs can include commas,
+     it is not possible to reliably distinguish between a single value
+     that includes a comma from two values.
+"fixed": |-
+  For example, the Content-Type field value only allows commas inside quoted strings, which can be reliably parsed even when multiple values are present.  The Location field value provides a counter- example that should not be emulated: because URIs can include commas, it is not possible to reliably distinguish between a single value that includes a comma from two values.
+"ko": |-
+  예를 들어, Content-Type 필드 값은 따옴표로 묶인 문자열 내의 쉼표만 허용하므로 여러 값이 있는 경우에도 안정적으로 구문 분석할 수 있습니다. Location 필드 값은 에뮬레이션해서는 안되는 반례를 제공합니다. URI에는 쉼표가 포함될 수 있으므로 두 값에서 쉼표가 포함된 단일 값을 확실하게 구별하는 것이 불가능합니다.

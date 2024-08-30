@@ -1,0 +1,16 @@
+"hash": |-
+  8e96b531f2d26f2a73bb75ae4bc5b1652b219abb25b274302c252dedccbe3614
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that has no constraints preventing it from accepting a large
+     record cannot use "max_fragment_length" without risking a reduction
+     in the size of records.  The maximum value that the extension permits
+     is 2^12, much smaller than the maximum record size of 2^14 that the
+     protocol permits.
+"fixed": |-
+  A client that has no constraints preventing it from accepting a large record cannot use "max_fragment_length" without risking a reduction in the size of records.  The maximum value that the extension permits is 2^12, much smaller than the maximum record size of 2^14 that the protocol permits.
+"ko": |-
+  큰 레코드를 허용하지 못하게 하는 제약 조건이 없는 클라이언트는 레코드 크기가 줄어들 위험 없이 "max_fragment_length"를 사용할 수 없습니다.  확장이 허용하는 최대값은 2^12이며, 이는 프로토콜이 허용하는 최대 레코드 크기인 2^14보다 훨씬 작습니다.

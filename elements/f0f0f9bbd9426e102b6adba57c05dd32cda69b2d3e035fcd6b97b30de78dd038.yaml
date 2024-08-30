@@ -1,0 +1,22 @@
+"hash": |-
+  f0f0f9bbd9426e102b6adba57c05dd32cda69b2d3e035fcd6b97b30de78dd038
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a client changes servers while operating on the behalf of the
+     same incoming communication session, this header field allows the
+     client to collect a block of opaque data from one server and provide
+     it to another server.  This capability is desirable if the client
+     needs different language support or because the server issued a
+     redirect.  Here, the first recognizer resource may have collected
+     acoustic and other data during its execution of recognition methods.
+     After a server switch, communicating this data may allow the
+     recognizer resource on the new server to provide better recognition.
+     This block of data is implementation specific and MUST be carried as
+     media type 'application/octets' in the body of the message.
+"fixed": |-
+  When a client changes servers while operating on the behalf of the same incoming communication session, this header field allows the client to collect a block of opaque data from one server and provide it to another server.  This capability is desirable if the client needs different language support or because the server issued a redirect.  Here, the first recognizer resource may have collected acoustic and other data during its execution of recognition methods. After a server switch, communicating this data may allow the recognizer resource on the new server to provide better recognition. This block of data is implementation specific and MUST be carried as media type 'application/octets' in the body of the message.
+"ko": |-
+  클라이언트가 동일한 수신 통신 세션을 대신하여 작동하는 동안 서버를 변경하면 이 헤더 필드를 통해 클라이언트가 한 서버에서 불투명한 데이터 블록을 수집하여 다른 서버에 제공할 수 있습니다. 이 기능은 클라이언트가 다른 언어 지원이 필요하거나 서버에서 리디렉션을 발행했기 때문에 바람직합니다. 여기서 첫 번째 인식기 리소스는 인식 방법을 실행하는 동안 음향 및 기타 데이터를 수집했을 수 있습니다. 서버 전환 후 이 데이터를 전달하면 새 서버의 인식기 리소스가 더 나은 인식을 제공할 수 있습니다. 이 데이터 블록은 구현에 따라 다르며 메시지 본문에서 미디어 유형 'application/octets'으로 전달되어야 합니다.

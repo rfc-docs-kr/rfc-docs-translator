@@ -1,0 +1,23 @@
+"hash": |-
+  8cc207d68adcc14560ce240f17135676ebf83938fe6e17a06d2cba2e527244c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Outgoing data is protected with a MAC before transmission. To prevent
+     message replay or modification attacks, the MAC is computed from the
+     MAC secret, the sequence number, the message length, the message
+     contents, and two fixed character strings. The message type field is
+     necessary to ensure that messages intended for one TLS Record Layer
+     client are not redirected to another. The sequence number ensures
+     that attempts to delete or reorder messages will be detected. Since
+     sequence numbers are 64-bits long, they should never overflow.
+     Messages from one party cannot be inserted into the other's output,
+     since they use independent MAC secrets. Similarly, the server-write
+     and client-write keys are independent so stream cipher keys are used
+     only once.
+"fixed": |-
+  Outgoing data is protected with a MAC before transmission. To prevent message replay or modification attacks, the MAC is computed from the MAC secret, the sequence number, the message length, the message contents, and two fixed character strings. The message type field is necessary to ensure that messages intended for one TLS Record Layer client are not redirected to another. The sequence number ensures that attempts to delete or reorder messages will be detected. Since sequence numbers are 64-bits long, they should never overflow. Messages from one party cannot be inserted into the other's output, since they use independent MAC secrets. Similarly, the server-write and client-write keys are independent so stream cipher keys are used only once.
+"ko": |-
+  나가는 데이터는 전송 전에 MAC으로 보호됩니다. 메시지 재생 또는 수정 공격을 방지하기 위해 MAC는 MAC 비밀, 시퀀스 번호, 메시지 길이, 메시지 내용 및 두 개의 고정 문자열로부터 계산됩니다. 하나의 TLS Record Layer 클라이언트를 대상으로 하는 메시지가 다른 클라이언트로 리디렉션되지 않도록 하려면 메시지 유형 필드가 필요합니다. 시퀀스 번호는 메시지를 삭제하거나 재정렬하려는 시도가 감지되도록 보장합니다. 시퀀스 번호는 64비트 길이이므로 오버플로되어서는 안 됩니다. 한 당사자의 메시지는 독립적인 MAC 비밀을 사용하므로 다른 당사자의 출력에 삽입될 수 없습니다. 마찬가지로 서버 쓰기 키와 클라이언트 쓰기 키는 독립적이므로 스트림 암호화 키는 한 번만 사용됩니다.

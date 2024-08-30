@@ -1,0 +1,22 @@
+"hash": |-
+  8558216e0f4ed7288b500d63ec3403035ba8f0dd9917ccd0e71b52191fc74de1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       C: Z432 LIST "" *
+       S: * LIST () "." INBOX
+       S: * LIST () "." INBOX.bar
+       S: Z432 OK LIST completed
+       C: Z433 RENAME INBOX old-mail
+       S: Z433 OK RENAME completed
+       C: Z434 LIST "" *
+       S: * LIST () "." INBOX
+       S: * LIST () "." INBOX.bar
+       S: * LIST () "." old-mail
+       S: Z434 OK LIST completed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

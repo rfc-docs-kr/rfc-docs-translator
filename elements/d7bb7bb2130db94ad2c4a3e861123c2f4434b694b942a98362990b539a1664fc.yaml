@@ -1,0 +1,23 @@
+"hash": |-
+  d7bb7bb2130db94ad2c4a3e861123c2f4434b694b942a98362990b539a1664fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     MCRPv2 employs content indirection extensively.  Content may be
+     fetched and/or stored based on URI addressing on systems other than
+     the MRCPv2 client or server.  Not all of the stored content is
+     necessarily sensitive (e.g., XML schemas), but the majority generally
+     needs protection, and some indirect content, such as voice recordings
+     and voiceprints, is extremely sensitive and must always be protected.
+     MRCPv2 clients and servers MUST implement HTTPS for indirect content
+     access and SHOULD employ secure access for all sensitive indirect
+     content.  Other secure URI schemes such as Secure FTP (FTPS)
+     [RFC4217] MAY also be used.  See Section 6.2.15 for the header fields
+     used to transfer cookie information between the MRCPv2 client and
+     server if needed for authentication.
+"fixed": |-
+  MCRPv2 employs content indirection extensively.  Content may be fetched and/or stored based on URI addressing on systems other than the MRCPv2 client or server.  Not all of the stored content is necessarily sensitive (e.g., XML schemas), but the majority generally needs protection, and some indirect content, such as voice recordings and voiceprints, is extremely sensitive and must always be protected. MRCPv2 clients and servers MUST implement HTTPS for indirect content access and SHOULD employ secure access for all sensitive indirect content.  Other secure URI schemes such as Secure FTP (FTPS) [RFC4217] MAY also be used.  See Section 6.2.15 for the header fields used to transfer cookie information between the MRCPv2 client and server if needed for authentication.
+"ko": |-
+  MCRPv2는 콘텐츠 간접화를 광범위하게 사용합니다. 콘텐츠는 MRCPv2 클라이언트나 서버 이외의 시스템에서 URI 주소 지정을 기반으로 페치되거나 저장될 수 있습니다. 저장된 콘텐츠가 모두 반드시 민감한 것은 아니지만(예: XML 스키마) 대부분은 일반적으로 보호가 필요하고 음성 녹음 및 음성 지문과 같은 일부 간접 콘텐츠는 매우 민감하므로 항상 보호해야 합니다. MRCPv2 클라이언트와 서버는 간접 콘텐츠 액세스를 위해 HTTPS를 구현해야 하며 모든 민감한 간접 콘텐츠에 대해 보안 액세스를 사용해야 합니다. 보안 FTP(FTPS) [RFC4217]와 같은 다른 보안 URI 체계도 사용할 수 있습니다. 인증에 필요한 경우 MRCPv2 클라이언트와 서버 간에 쿠키 정보를 전송하는 데 사용되는 헤더 필드에 대해서는 섹션 6.2.15를 참조하십시오.

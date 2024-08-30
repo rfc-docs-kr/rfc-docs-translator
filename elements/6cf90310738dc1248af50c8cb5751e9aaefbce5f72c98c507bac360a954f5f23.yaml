@@ -11,7 +11,7 @@
      originally obtained by encrypting a nonce), while "r" MAY be
      constant, but needs to be modified as follows before being used: ("r"
      is treated as a 16-octet little-endian number):
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Regardless of how the key is generated, the key is partitioned into two parts, called "r" and "s".  The pair (r,s) should be unique, and MUST be unpredictable for each invocation (that is why it was originally obtained by encrypting a nonce), while "r" MAY be constant, but needs to be modified as follows before being used: ("r" is treated as a 16-octet little-endian number):
+"ko": |-
+  키 생성 방법에 관계없이 키는 "r"과 "s"라는 두 부분으로 분할됩니다. (r,s) 쌍은 고유해야 하며 각 호출에 대해 예측할 수 없어야 합니다(이것이 원래 nonce를 암호화하여 얻은 이유입니다). 반면 "r"은 상수일 수 있지만 사용하기 전에 다음과 같이 수정해야 합니다. : ("r"은 16옥텟 리틀 엔디안 숫자로 처리됩니다):

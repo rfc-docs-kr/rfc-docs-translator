@@ -1,0 +1,19 @@
+"hash": |-
+  b7b690ab5819ff44c65c9f19ce0238a22fc77e1c44cb2812054778b6e61fcac3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     LOCAL_PREF is a well-known attribute that SHALL be included in all
+     UPDATE messages that a given BGP speaker sends to other internal
+     peers.  A BGP speaker SHALL calculate the degree of preference for
+     each external route based on the locally-configured policy, and
+     include the degree of preference when advertising a route to its
+     internal peers.  The higher degree of preference MUST be preferred.
+     A BGP speaker uses the degree of preference learned via LOCAL_PREF in
+     its Decision Process (see Section 9.1.1).
+"fixed": |-
+  LOCAL_PREF is a well-known attribute that SHALL be included in all UPDATE messages that a given BGP speaker sends to other internal peers.  A BGP speaker SHALL calculate the degree of preference for each external route based on the locally-configured policy, and include the degree of preference when advertising a route to its internal peers.  The higher degree of preference MUST be preferred. A BGP speaker uses the degree of preference learned via LOCAL_PREF in its Decision Process (see Section 9.1.1).
+"ko": |-
+  LOCAL_PREF는 특정 BGP 스피커가 다른 내부 피어에게 보내는 모든 업데이트 메시지에 포함되어야 하는 잘 알려진 속성입니다. BGP 스피커는 로컬로 구성된 정책을 기반으로 각 외부 경로에 대한 선호도를 계산해야 하며 내부 피어에게 경로를 광고할 때 선호도를 포함해야 합니다. 선호도가 높을수록 선호되어야 합니다. BGP 스피커는 결정 프로세스에서 LOCAL_PREF를 통해 학습된 선호도를 사용합니다(섹션 9.1.1 참조).

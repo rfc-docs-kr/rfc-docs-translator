@@ -1,0 +1,18 @@
+"hash": |-
+  4137bbd24f5ca1df9d766cc59452b2d4f9be0854ff4da4a8f30f57ea7af6f312
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the event that two servers are cooperating to provide a high-
+     availability DHCP server, as supported by [RFC2131], they would have
+     to communicate some information about IP address bindings to each
+     other.  In order to properly support the DHCPLEASEQUERY message,
+     these servers MUST ensure that they communicate the Relay Agent
+     Information option information to each other in addition to any other
+     IP address binding information.
+"fixed": |-
+  In the event that two servers are cooperating to provide a high- availability DHCP server, as supported by [RFC2131], they would have to communicate some information about IP address bindings to each other.  In order to properly support the DHCPLEASEQUERY message, these servers MUST ensure that they communicate the Relay Agent Information option information to each other in addition to any other IP address binding information.
+"ko": |-
+  [RFC2131]에서 지원하는 것처럼 두 서버가 고가용성 DHCP 서버를 제공하기 위해 협력하는 경우 IP 주소 바인딩에 대한 일부 정보를 서로 전달해야 합니다. DHCPLEASEQUERY 메시지를 적절하게 지원하기 위해 이러한 서버는 다른 IP 주소 바인딩 정보 외에도 릴레이 에이전트 정보 옵션 정보를 서로 통신하는지 확인해야 합니다.

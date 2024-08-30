@@ -1,0 +1,16 @@
+"hash": |-
+  d08d5c7788514cbe103d017ac7267dd234dfec49e184e9678d62d6324927cef4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CAPABILITY command requests a listing of capabilities (e.g.,
+     extensions and/or modifications of server behavior) that the server
+     supports.  The server MUST send a single untagged CAPABILITY response
+     with "IMAP4rev2" as one of the listed capabilities before the
+     (tagged) OK response.
+"fixed": |-
+  The CAPABILITY command requests a listing of capabilities (e.g., extensions and/or modifications of server behavior) that the server supports.  The server MUST send a single untagged CAPABILITY response with "IMAP4rev2" as one of the listed capabilities before the (tagged) OK response.
+"ko": |-
+  CAPABILITY 명령은 서버가 지원하는 기능(예: 서버 동작의 확장 및/또는 수정) 목록을 요청합니다.  서버는 (태그가 지정된) OK 응답 전에 나열된 기능 중 하나로 "IMAP4rev2"와 함께 태그가 지정되지 않은 단일 CAPABILITY 응답을 보내야 합니다.

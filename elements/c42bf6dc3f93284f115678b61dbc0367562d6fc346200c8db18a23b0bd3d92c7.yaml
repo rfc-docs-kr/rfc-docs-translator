@@ -1,0 +1,15 @@
+"hash": |-
+  c42bf6dc3f93284f115678b61dbc0367562d6fc346200c8db18a23b0bd3d92c7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the 301 status code is received in response to a request using
+     the POST method, the user agent must not automatically redirect the
+     request unless it can be confirmed by the user, since this might
+     change the conditions under which the request was issued.
+"fixed": |-
+  If the 301 status code is received in response to a request using the POST method, the user agent must not automatically redirect the request unless it can be confirmed by the user, since this might change the conditions under which the request was issued.
+"ko": |-
+  POST 메서드를 사용하는 요청에 대한 응답으로 301 상태 코드가 수신되면 사용자 에이전트는 사용자가 확인할 수 없는 한 요청을 자동으로 리디렉션해서는 안 됩니다. 이로 인해 요청이 발행된 조건이 변경될 수 있기 때문입니다.

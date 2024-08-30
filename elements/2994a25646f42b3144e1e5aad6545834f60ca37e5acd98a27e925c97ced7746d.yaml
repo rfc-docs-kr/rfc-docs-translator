@@ -1,0 +1,26 @@
+"hash": |-
+  2994a25646f42b3144e1e5aad6545834f60ca37e5acd98a27e925c97ced7746d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         enum { apple, orange } VariantTag;
+         struct {
+             uint16 number;
+             opaque string<0..10>; /* variable length */
+         } V1;
+         struct {
+             uint32 number;
+             opaque string[10];    /* fixed length */
+         } V2;
+         struct {
+             select (VariantTag) { /* value of selector is implicit */
+                 case apple: V1;   /* VariantBody, tag = apple */
+                 case orange: V2;  /* VariantBody, tag = orange */
+             } variant_body;       /* optional label on variant */
+         } VariantRecord;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  2da1cc43322e18b15e247c26abc5b1d901ae724e404e3dea5edddc107a63b744
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An access concentrator that utilizes the DHCPLEASEQUERY message
+     SHOULD attempt to resend DHCPLEASEQUERY messages to servers that do
+     not respond to them using a backoff algorithm for the retry time that
+     approximates an exponential backoff.  The access concentrator SHOULD
+     adjust the backoff approach such that DHCPLEASEQUERY messages do not
+     arrive at a server that is not otherwise known to support the
+     DHCPLEASEQUERY message at a rate of more than approximately one
+     packet every 10 seconds, and yet (if the access concentrator needs to
+     send DHCPLEASEQUERY messages) not less than one DHCPLEASEQUERY per 70
+     seconds.
+"fixed": |-
+  An access concentrator that utilizes the DHCPLEASEQUERY message SHOULD attempt to resend DHCPLEASEQUERY messages to servers that do not respond to them using a backoff algorithm for the retry time that approximates an exponential backoff.  The access concentrator SHOULD adjust the backoff approach such that DHCPLEASEQUERY messages do not arrive at a server that is not otherwise known to support the DHCPLEASEQUERY message at a rate of more than approximately one packet every 10 seconds, and yet (if the access concentrator needs to send DHCPLEASEQUERY messages) not less than one DHCPLEASEQUERY per 70 seconds.
+"ko": |-
+  DHCPLEASEQUERY 메시지를 활용하는 액세스 집중 장치는 지수 백오프에 가까운 재시도 시간 동안 백오프 알고리즘을 사용하여 응답하지 않는 서버에 DHCPLEASEQUERY 메시지를 다시 보내려고 시도해야 합니다. 액세스 집중 장치는 DHCPLEASEQUERY 메시지가 10초마다 약 1개 이상의 패킷 속도로 DHCPLEASEQUERY 메시지를 지원하는 것으로 알려지지 않은 서버에 도착하지 않도록 백오프 접근 방식을 조정해야 합니다. DHCPLEASEQUERY 메시지를 보냅니다) 70초당 하나 이상의 DHCPLEASEQUERY를 보냅니다.

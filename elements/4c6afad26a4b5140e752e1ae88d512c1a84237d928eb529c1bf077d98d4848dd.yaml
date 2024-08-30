@@ -1,0 +1,17 @@
+"hash": |-
+  4c6afad26a4b5140e752e1ae88d512c1a84237d928eb529c1bf077d98d4848dd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint sends a CONNECTION_CLOSE frame (type=0x1c or 0x1d) to
+     notify its peer that the connection is being closed.  The
+     CONNECTION_CLOSE frame with a type of 0x1c is used to signal errors
+     at only the QUIC layer, or the absence of errors (with the NO_ERROR
+     code).  The CONNECTION_CLOSE frame with a type of 0x1d is used to
+     signal an error with the application that uses QUIC.
+"fixed": |-
+  An endpoint sends a CONNECTION_CLOSE frame (type=0x1c or 0x1d) to notify its peer that the connection is being closed.  The CONNECTION_CLOSE frame with a type of 0x1c is used to signal errors at only the QUIC layer, or the absence of errors (with the NO_ERROR code).  The CONNECTION_CLOSE frame with a type of 0x1d is used to signal an error with the application that uses QUIC.
+"ko": |-
+  끝점은 연결이 닫히고 있음을 피어에게 알리기 위해 CONNECTION_CLOSE 프레임(유형=0x1c 또는 0x1d)을 보냅니다. 0x1c 유형의 CONNECTION_CLOSE 프레임은 QUIC 계층에서만 오류를 알리거나 오류가 없음(NO_ERROR 코드 사용)을 알리는 데 사용됩니다. 0x1d 유형의 CONNECTION_CLOSE 프레임은 QUIC를 사용하는 애플리케이션에 오류를 알리는 데 사용됩니다.

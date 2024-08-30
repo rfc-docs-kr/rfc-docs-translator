@@ -1,0 +1,27 @@
+"hash": |-
+  4d35d036d138f002eb8e8efc4b8a484f2411d509d6d7594f23affd57acaec819
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       C: A682 LIST "" *
+       S: * LIST () "/" blurdybloop
+       S: * LIST (\Noselect) "/" foo
+       S: * LIST () "/" foo/bar
+       S: A682 OK LIST completed
+       C: A683 DELETE blurdybloop
+       S: A683 OK DELETE completed
+       C: A684 DELETE foo
+       S: A684 NO Name "foo" has inferior hierarchical names
+       C: A685 DELETE foo/bar
+       S: A685 OK DELETE Completed
+       C: A686 LIST "" *
+       S: * LIST (\Noselect) "/" foo
+       S: A686 OK LIST completed
+       C: A687 DELETE foo
+       S: A687 OK DELETE Completed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

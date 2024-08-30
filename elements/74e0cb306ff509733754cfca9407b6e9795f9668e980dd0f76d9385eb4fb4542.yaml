@@ -1,0 +1,16 @@
+"hash": |-
+  74e0cb306ff509733754cfca9407b6e9795f9668e980dd0f76d9385eb4fb4542
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  If servers can use a dedicated server IP address or port, other
+        than the one that the client initially connects to, they could use
+        the preferred_address transport parameter to request that clients
+        move connections to that dedicated address.  Note that clients
+        could choose not to use the preferred address.
+"fixed": |-
+  *  If servers can use a dedicated server IP address or port, other than the one that the client initially connects to, they could use the preferred_address transport parameter to request that clients move connections to that dedicated address.  Note that clients could choose not to use the preferred address.
+"ko": |-
+  * 서버가 클라이언트가 처음에 연결한 IP 주소나 포트가 아닌 전용 서버 IP 주소나 포트를 사용할 수 있는 경우 Preferred_address 전송 매개변수를 사용하여 클라이언트가 해당 전용 주소로 연결을 이동하도록 요청할 수 있습니다. 클라이언트는 기본 주소를 사용하지 않도록 선택할 수도 있습니다.

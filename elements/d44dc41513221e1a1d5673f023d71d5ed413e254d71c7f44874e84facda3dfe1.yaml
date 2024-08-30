@@ -1,0 +1,46 @@
+"hash": |-
+  d44dc41513221e1a1d5673f023d71d5ed413e254d71c7f44874e84facda3dfe1
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1. Introduction ....................................................3
+        1.1. Keyword Definitions ........................................3
+     2. Usage Scenarios .................................................3
+     3. Terms and Notation ..............................................4
+     4. Discrete Logarithm Cryptography .................................5
+        4.1. Elliptic Curve Cryptography (ECP) Groups ...................5
+        4.2. Finite Field Cryptography (MODP) Groups ....................7
+     5. Random Numbers ..................................................8
+     6. Using Passwords and Raw Keys For Authentication .................8
+     7. Assumptions .....................................................9
+     8. Secure PSK Authentication Message Exchange ......................9
+        8.1. Negotiation of Secure PSK Authentication ..................10
+        8.2. Fixing the Secret Element, SKE ............................11
+             8.2.1. ECP Operation to Select SKE ........................12
+             8.2.2. MODP Operation to Select SKE .......................13
+        8.3. Encoding and Decoding of Group Elements and Scalars .......14
+             8.3.1. Encoding and Decoding of Scalars ...................14
+             8.3.2. Encoding and Decoding of ECP Elements ..............15
+             8.3.3. Encoding and Decoding of MODP Elements .............15
+        8.4. Message Generation and Processing .........................16
+             8.4.1. Generation of a Commit .............................16
+             8.4.2. Processing of a Commit .............................16
+                    8.4.2.1. Validation of an ECP Element ..............16
+                    8.4.2.2. Validation of a MODP Element ..............16
+                    8.4.2.3. Commit Processing Steps ...................17
+             8.4.3. Authentication of the Exchange .....................17
+        8.5. Payload Format ............................................18
+             8.5.1. Commit Payload .....................................18
+        8.6. IKEv2 Messaging ...........................................19
+     9. IANA Considerations ............................................20
+     10. Security Considerations .......................................20
+     11. Acknowledgements ..............................................22
+     12. References ....................................................22
+        12.1. Normative References .....................................22
+        12.2. Informative References ...................................23
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

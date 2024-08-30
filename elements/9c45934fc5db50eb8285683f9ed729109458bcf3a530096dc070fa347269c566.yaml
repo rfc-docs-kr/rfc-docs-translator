@@ -1,0 +1,15 @@
+"hash": |-
+  9c45934fc5db50eb8285683f9ed729109458bcf3a530096dc070fa347269c566
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An MRCPv2 server MUST reject a DELETE-VOICEPRINT request with a 401
+     status code unless the MRCPv2 client has been authenticated and
+     authorized.  Note that MRCPv2 does not have a standard mechanism for
+     this.  See Section 12.8.
+"fixed": |-
+  An MRCPv2 server MUST reject a DELETE-VOICEPRINT request with a 401 status code unless the MRCPv2 client has been authenticated and authorized.  Note that MRCPv2 does not have a standard mechanism for this.  See Section 12.8.
+"ko": |-
+  MRCPv2 서버는 MRCPv2 클라이언트가 인증 및 허가되지 않은 한 401 상태 코드와 함께 DELETE-VOICEPRINT 요청을 거부해야 합니다. MRCPv2에는 이에 대한 표준 메커니즘이 없습니다. 섹션 12.8을 참조하세요.

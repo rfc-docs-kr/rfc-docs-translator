@@ -1,0 +1,25 @@
+"hash": |-
+  4569fab400988ec0d1b5782eaafdf16ac564da933b229d752e45624ffa9dabd6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When presenting a ticket, the client MAY generate and include a
+     Session ID in the TLS ClientHello.  If the server accepts the ticket
+     and the Session ID is not empty, then it MUST respond with the same
+     Session ID present in the ClientHello.  This allows the client to
+     easily differentiate when the server is resuming a session from when
+     it is falling back to a full handshake.  Since the client generates a
+     Session ID, the server MUST NOT rely upon the Session ID having a
+     particular value when validating the ticket.  If a ticket is
+     presented by the client, the server MUST NOT attempt to use the
+     Session ID in the ClientHello for stateful session resumption.
+     Alternatively, the client MAY include an empty Session ID in the
+     ClientHello.  In this case, the client ignores the Session ID sent in
+     the ServerHello and determines if the server is resuming a session by
+     the subsequent handshake messages.
+"fixed": |-
+  When presenting a ticket, the client MAY generate and include a Session ID in the TLS ClientHello.  If the server accepts the ticket and the Session ID is not empty, then it MUST respond with the same Session ID present in the ClientHello.  This allows the client to easily differentiate when the server is resuming a session from when it is falling back to a full handshake.  Since the client generates a Session ID, the server MUST NOT rely upon the Session ID having a particular value when validating the ticket.  If a ticket is presented by the client, the server MUST NOT attempt to use the Session ID in the ClientHello for stateful session resumption. Alternatively, the client MAY include an empty Session ID in the ClientHello.  In this case, the client ignores the Session ID sent in the ServerHello and determines if the server is resuming a session by the subsequent handshake messages.
+"ko": |-
+  티켓을 제시할 때 클라이언트는 TLS ClientHello에 세션 ID를 생성하고 포함할 수 있습니다. 서버가 티켓을 수락하고 세션 ID가 비어 있지 않으면 ClientHello에 있는 동일한 세션 ID로 응답해야 합니다. 이를 통해 클라이언트는 서버가 세션을 재개하는 시기와 전체 핸드셰이크로 폴백하는 시기를 쉽게 구별할 수 있습니다. 클라이언트가 세션 ID를 생성하므로 서버는 티켓을 확인할 때 특정 값을 갖는 세션 ID에 의존해서는 안 됩니다. 클라이언트가 티켓을 제시하는 경우 서버는 상태 저장 세션 재개를 위해 ClientHello의 세션 ID를 사용하려고 시도해서는 안 됩니다. 또는 클라이언트는 ClientHello에 빈 세션 ID를 포함할 수 있습니다. 이 경우 클라이언트는 ServerHello에 전송된 세션 ID를 무시하고 서버가 후속 핸드셰이크 메시지를 통해 세션을 재개하는지 확인합니다.

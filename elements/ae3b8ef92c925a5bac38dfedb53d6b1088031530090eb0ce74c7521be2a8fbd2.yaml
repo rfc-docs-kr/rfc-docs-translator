@@ -1,0 +1,23 @@
+"hash": |-
+  ae3b8ef92c925a5bac38dfedb53d6b1088031530090eb0ce74c7521be2a8fbd2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that the MPLS label that is distributed in this way is only
+     usable if there is a label switched path between the router that
+     installs a route and the BGP next hop of that route.  We do not make
+     any assumption about the procedure used to set up that label switched
+     path.  It may be set up on a pre-established basis, or it may be set
+     up when a route which would need it is installed.  It may be a "best
+     effort" route, or it may be a traffic engineered route.  Between a
+     particular PE router and its BGP next hop for a particular route
+     there may be one LSP, or there may be several, perhaps with different
+     QoS characteristics.  All that matters for the VPN architecture is
+     that some label switched path between the router and its BGP next hop
+     exists.
+"fixed": |-
+  Note that the MPLS label that is distributed in this way is only usable if there is a label switched path between the router that installs a route and the BGP next hop of that route.  We do not make any assumption about the procedure used to set up that label switched path.  It may be set up on a pre-established basis, or it may be set up when a route which would need it is installed.  It may be a "best effort" route, or it may be a traffic engineered route.  Between a particular PE router and its BGP next hop for a particular route there may be one LSP, or there may be several, perhaps with different QoS characteristics.  All that matters for the VPN architecture is that some label switched path between the router and its BGP next hop exists.
+"ko": |-
+  이런 방식으로 배포되는 MPLS 레이블은 경로를 설치하는 라우터와 해당 경로의 BGP 다음 홉 사이에 레이블이 전환된 경로가 있는 경우에만 사용할 수 있습니다. 해당 레이블이 전환된 경로를 설정하는 데 사용된 절차에 대해서는 어떠한 가정도 하지 않습니다. 사전 설정된 기준에 따라 설정되거나 해당 경로가 필요한 경로가 설치될 때 설정될 수 있습니다. "최선의 노력" 경로일 수도 있고 트래픽 엔지니어링 경로일 수도 있습니다. 특정 PE 라우터와 특정 경로의 BGP 다음 홉 사이에는 하나의 LSP가 있거나 여러 개가 있을 수 있으며, QoS 특성이 다를 수 있습니다. VPN 아키텍처에 중요한 것은 라우터와 BGP 다음 홉 사이에 레이블이 전환된 경로가 존재한다는 것입니다.

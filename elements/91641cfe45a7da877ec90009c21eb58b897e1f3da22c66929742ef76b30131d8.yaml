@@ -1,0 +1,21 @@
+"hash": |-
+  91641cfe45a7da877ec90009c21eb58b897e1f3da22c66929742ef76b30131d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Every packet SHOULD be acknowledged at least once, and ack-eliciting
+     packets MUST be acknowledged at least once within the maximum delay
+     an endpoint communicated using the max_ack_delay transport parameter;
+     see Section 18.2.  max_ack_delay declares an explicit contract: an
+     endpoint promises to never intentionally delay acknowledgments of an
+     ack-eliciting packet by more than the indicated value.  If it does,
+     any excess accrues to the RTT estimate and could result in spurious
+     or delayed retransmissions from the peer.  A sender uses the
+     receiver's max_ack_delay value in determining timeouts for timer-
+     based retransmission, as detailed in Section 6.2 of [QUIC-RECOVERY].
+"fixed": |-
+  Every packet SHOULD be acknowledged at least once, and ack-eliciting packets MUST be acknowledged at least once within the maximum delay an endpoint communicated using the max_ack_delay transport parameter; see Section 18.2.  max_ack_delay declares an explicit contract: an endpoint promises to never intentionally delay acknowledgments of an ack-eliciting packet by more than the indicated value.  If it does, any excess accrues to the RTT estimate and could result in spurious or delayed retransmissions from the peer.  A sender uses the receiver's max_ack_delay value in determining timeouts for timer- based retransmission, as detailed in Section 6.2 of [QUIC-RECOVERY].
+"ko": |-
+  모든 패킷은 적어도 한 번은 승인되어야 하며, 승인을 유도하는 패킷은 max_ack_delay 전송 매개변수를 사용하여 엔드포인트가 통신한 최대 지연 내에 적어도 한 번 승인되어야 합니다. 섹션 18.2를 참조하세요. max_ack_delay는 명시적인 계약을 선언합니다. 엔드포인트는 지정된 값 이상으로 승인을 유도하는 패킷의 승인을 의도적으로 지연하지 않겠다고 약속합니다. 그렇다면 RTT 추정치에 초과분이 발생하여 피어로부터의 재전송이 허위로 발생하거나 지연될 수 있습니다. 발신자는 [QUIC-RECOVERY]의 섹션 6.2에 자세히 설명된 대로 타이머 기반 재전송에 대한 시간 초과를 결정하는 데 수신자의 max_ack_delay 값을 사용합니다.

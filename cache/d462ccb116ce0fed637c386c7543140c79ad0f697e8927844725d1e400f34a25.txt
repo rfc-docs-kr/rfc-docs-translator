@@ -1,0 +1,1 @@
+끝점은 연결이 닫히고 있음을 피어에게 알리기 위해 CONNECTION_CLOSE 프레임(유형=0x1c 또는 0x1d)을 보냅니다. 0x1c 유형의 CONNECTION_CLOSE 프레임은 QUIC 계층에서만 오류를 알리거나 오류가 없음(NO_ERROR 코드 사용)을 알리는 데 사용됩니다. 0x1d 유형의 CONNECTION_CLOSE 프레임은 QUIC를 사용하는 애플리케이션에 오류를 알리는 데 사용됩니다.

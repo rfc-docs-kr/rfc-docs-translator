@@ -1,0 +1,19 @@
+"hash": |-
+  ce95bc1b197b9388cfda7dfcfa5d3ff9b0deb72fb9e740dc59a1ce19418a0f58
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Client MAY request this attribute in a Get-Job-Attributes or
+     Get-Jobs request and use the value returned in combination with other
+     requested Event Time Job Status attributes in order to display time
+     attributes to a user.  The difference between this attribute and the
+     'integer' value of a "time-at-xxx" attribute is the number of seconds
+     ago that the "time-at-xxx" event occurred.  A Client can compute the
+     wall-clock time at which the "time-at-xxx" event occurred by
+     subtracting this difference from the Client's wall-clock time.
+"fixed": |-
+  A Client MAY request this attribute in a Get-Job-Attributes or Get-Jobs request and use the value returned in combination with other requested Event Time Job Status attributes in order to display time attributes to a user.  The difference between this attribute and the 'integer' value of a "time-at-xxx" attribute is the number of seconds ago that the "time-at-xxx" event occurred.  A Client can compute the wall-clock time at which the "time-at-xxx" event occurred by subtracting this difference from the Client's wall-clock time.
+"ko": |-
+  클라이언트는 Get-Job-Attributes 또는 Get-Jobs 요청에서 이 속성을 요청할 수 있으며 사용자에게 시간 속성을 표시하기 위해 요청된 다른 이벤트 시간 작업 상태 속성과 함께 반환된 값을 사용할 수 있습니다. 이 속성과 "time-at-xxx" 속성의 '정수' 값 사이의 차이는 "time-at-xxx" 이벤트가 발생한 시간(초)입니다. 클라이언트는 클라이언트의 벽시계 시간에서 이 차이를 빼서 "time-at-xxx" 이벤트가 발생한 벽시계 시간을 계산할 수 있습니다.

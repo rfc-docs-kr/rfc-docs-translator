@@ -1,0 +1,24 @@
+"hash": |-
+  6f6a8eadb1febb4daa23513d1561c83b27d5cf58811c8062c4c0255ce95d961e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        All Clients and IPP objects MUST support the 'utf-8' charset
+        [RFC3629] and MAY support additional charsets, provided that they
+        are registered with IANA [RFC2978] [IANA-CS].  If the Printer
+        object does not support the Client-supplied charset value, the
+        Printer object MUST reject the request, set the
+        "attributes-charset" to 'utf-8' in the response, and return the
+        'client-error-charset-not-supported' status-code and any 'text' or
+        'name' attributes using the 'utf-8' charset.  The Printer MAY
+        return any attributes in the Unsupported Attributes group (see
+        Sections 4.1.7 and 4.2.1.2).  The Printer object MUST indicate the
+        charset(s) supported as the values of the "charset-supported"
+        Printer attribute (see Section 5.4.18), so that the Client can
+        query to determine which charset(s) is supported.
+"fixed": |-
+  - All Clients and IPP objects MUST support the 'utf-8' charset [RFC3629] and MAY support additional charsets, provided that they are registered with IANA [RFC2978] [IANA-CS].  If the Printer object does not support the Client-supplied charset value, the Printer object MUST reject the request, set the "attributes-charset" to 'utf-8' in the response, and return the 'client-error-charset-not-supported' status-code and any 'text' or 'name' attributes using the 'utf-8' charset.  The Printer MAY return any attributes in the Unsupported Attributes group (see Sections 4.1.7 and 4.2.1.2).  The Printer object MUST indicate the charset(s) supported as the values of the "charset-supported" Printer attribute (see Section 5.4.18), so that the Client can query to determine which charset(s) is supported.
+"ko": |-
+  - 모든 클라이언트 및 IPP 개체는 'utf-8' 문자 집합 [RFC3629]을 지원해야 하며 IANA [RFC2978] [IANA-CS]에 등록된 경우 추가 문자 집합을 지원할 수 있습니다. 프린터 객체가 클라이언트 제공 charset 값을 지원하지 않는 경우 프린터 객체는 요청을 거부하고 응답에서 "attributes-charset"을 'utf-8'로 설정하고 'client-error-charset-not'을 반환해야 합니다. -'utf-8' 문자 세트를 사용하는 '상태 코드' 및 '텍스트' 또는 '이름' 속성을 지원합니다. 프린터는 지원되지 않는 속성 그룹의 모든 속성을 반환할 수 있습니다(섹션 4.1.7 및 4.2.1.2 참조). Printer 객체는 "charset-supported" 프린터 속성(섹션 5.4.18 참조)의 값으로 지원되는 문자 세트를 나타내야 합니다. 그래야 클라이언트가 지원되는 문자 세트를 결정하기 위해 쿼리할 수 있습니다.

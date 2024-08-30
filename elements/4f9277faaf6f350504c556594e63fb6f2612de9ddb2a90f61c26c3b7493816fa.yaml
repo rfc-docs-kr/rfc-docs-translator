@@ -1,0 +1,14 @@
+"hash": |-
+  4f9277faaf6f350504c556594e63fb6f2612de9ddb2a90f61c26c3b7493816fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  For cipher suites ending with _SHA256, the PRF is the TLS PRF
+        [RFC5246] with SHA-256 as the hash function.  The MAC is HMAC
+        [RFC2104] with SHA-256 as the hash function.
+"fixed": |-
+  -  For cipher suites ending with _SHA256, the PRF is the TLS PRF [RFC5246] with SHA-256 as the hash function.  The MAC is HMAC [RFC2104] with SHA-256 as the hash function.
+"ko": |-
+  - _SHA256으로 끝나는 암호화 제품군의 경우 PRF는 SHA-256을 해시 함수로 사용하는 TLS PRF [RFC5246]입니다. MAC는 해시 함수로 SHA-256을 사용하는 HMAC [RFC2104]입니다.

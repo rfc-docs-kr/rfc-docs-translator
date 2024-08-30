@@ -1,0 +1,22 @@
+"hash": |-
+  ead0abb586a821be865446ea527aec4af1caa2e2e97fdf29db8c564685c4d710
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   Warning: The seeding functions in RSAREF and versions of BSAFE prior to
+            3.0 are order-independent. For example, if 1000 seed bits are
+            supplied, one at a time, in 1000 separate calls to the seed
+            function, the PRNG will end up in a state which depends only
+            on the number of 0 or 1 seed bits in the seed data (i.e.,
+            there are 1001 possible final states). Applications using
+            BSAFE or RSAREF must take extra care to ensure proper seeding.
+            This may be accomplished by accumulating seed bits into a
+            buffer and processing them all at once or by processing an
+            incrementing counter with every seed bit; either method will
+            reintroduce order dependence into the seeding process.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

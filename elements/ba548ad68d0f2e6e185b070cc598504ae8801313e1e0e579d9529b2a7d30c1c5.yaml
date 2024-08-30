@@ -1,0 +1,27 @@
+"hash": |-
+  ba548ad68d0f2e6e185b070cc598504ae8801313e1e0e579d9529b2a7d30c1c5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While SSLv3 is not a protocol under IETF change control (see
+     [SSLv3]), it was the original basis for TLS and most TLS
+     implementations also support SSLv3.  The IETF encourages SSLv3
+     implementations to adopt the "renegotiation_info" extension and SCSV
+     as defined in this document.  The semantics of the SCSV and extension
+     are identical to TLS stacks except for the size of the verify_data
+     values, which are 36 bytes long each.  Note that this will require
+     adding at least minimal extension processing to such stacks.  Clients
+     that support SSLv3 and offer secure renegotiation (either via SCSV or
+     "renegotiation_info") MUST accept the "renegotiation_info" extension
+     from the server, even if the server version is {0x03, 0x00}, and
+     behave as described in this specification.  TLS servers that support
+     secure renegotiation and support SSLv3 MUST accept SCSV or the
+     "renegotiation_info" extension and respond as described in this
+     specification even if the offered client version is {0x03, 0x00}.
+     SSLv3 does not define the "no_renegotiation" alert (and does
+"fixed": |-
+  While SSLv3 is not a protocol under IETF change control (see [SSLv3]), it was the original basis for TLS and most TLS implementations also support SSLv3.  The IETF encourages SSLv3 implementations to adopt the "renegotiation_info" extension and SCSV as defined in this document.  The semantics of the SCSV and extension are identical to TLS stacks except for the size of the verify_data values, which are 36 bytes long each.  Note that this will require adding at least minimal extension processing to such stacks.  Clients that support SSLv3 and offer secure renegotiation (either via SCSV or "renegotiation_info") MUST accept the "renegotiation_info" extension from the server, even if the server version is {0x03, 0x00}, and behave as described in this specification.  TLS servers that support secure renegotiation and support SSLv3 MUST accept SCSV or the "renegotiation_info" extension and respond as described in this specification even if the offered client version is {0x03, 0x00}. SSLv3 does not define the "no_renegotiation" alert (and does
+"ko": |-
+  SSLv3은 IETF 변경 제어([SSLv3] 참조) 하의 프로토콜은 아니지만 TLS의 원래 기반이었으며 대부분의 TLS 구현은 SSLv3도 지원합니다. IETF는 SSLv3 구현이 이 문서에 정의된 대로 "renegotiation_info" 확장 및 SCSV를 채택하도록 권장합니다. SCSV 및 확장의 의미 체계는 각각 길이가 36바이트인 verify_data 값의 크기를 제외하고 TLS 스택과 동일합니다. 이를 위해서는 그러한 스택에 최소한의 확장 처리를 추가해야 합니다. SSLv3를 지원하고 보안 재협상(SCSV 또는 "renegotiation_info"를 통해)을 제공하는 클라이언트는 서버 버전이 {0x03, 0x00}인 경우에도 서버에서 "renegotiation_info" 확장을 수락해야 하며 이 사양에 설명된 대로 동작해야 합니다. 보안 재협상 및 SSLv3을 지원하는 TLS 서버는 SCSV 또는 "renegotiation_info" 확장을 허용하고 제공된 클라이언트 버전이 {0x03, 0x00}인 경우에도 이 사양에 설명된 대로 응답해야 합니다. SSLv3은 "no_renegotiation" 경고를 정의하지 않습니다.

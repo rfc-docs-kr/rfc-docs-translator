@@ -1,0 +1,22 @@
+"hash": |-
+  64b7e19305e5dee8e63d3c79db54c3d38a6170d5977a82c1cbae1474efa7e45f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An implementation of QUIC might provide applications with an option
+     to defer an idle timeout.  This facility could be used when the
+     application wishes to avoid losing state that has been associated
+     with an open connection but does not expect to exchange application
+     data for some time.  With this option, an endpoint could send a PING
+     frame (Section 19.2) periodically, which will cause the peer to
+     restart its idle timeout period.  Sending a packet containing a PING
+     frame restarts the idle timeout for this endpoint also if this is the
+     first ack-eliciting packet sent since receiving a packet.  Sending a
+     PING frame causes the peer to respond with an acknowledgment, which
+     also restarts the idle timeout for the endpoint.
+"fixed": |-
+  An implementation of QUIC might provide applications with an option to defer an idle timeout.  This facility could be used when the application wishes to avoid losing state that has been associated with an open connection but does not expect to exchange application data for some time.  With this option, an endpoint could send a PING frame (Section 19.2) periodically, which will cause the peer to restart its idle timeout period.  Sending a packet containing a PING frame restarts the idle timeout for this endpoint also if this is the first ack-eliciting packet sent since receiving a packet.  Sending a PING frame causes the peer to respond with an acknowledgment, which also restarts the idle timeout for the endpoint.
+"ko": |-
+  QUIC 구현은 애플리케이션에 유휴 시간 초과를 연기하는 옵션을 제공할 수 있습니다. 이 기능은 응용 프로그램이 열린 연결과 관련된 상태 손실을 피하고 싶지만 한동안 응용 프로그램 데이터를 교환할 것으로 예상하지 않을 때 사용할 수 있습니다. 이 옵션을 사용하면 엔드포인트가 주기적으로 PING 프레임(섹션 19.2)을 보낼 수 있으며, 이로 인해 피어는 유휴 시간 초과 기간을 다시 시작하게 됩니다. PING 프레임이 포함된 패킷을 보내면 이 끝점에 대한 유휴 시간 제한이 다시 시작됩니다. 이는 패킷 수신 이후 보낸 첫 번째 승인 유도 패킷인 경우에도 마찬가지입니다. PING 프레임을 보내면 피어가 승인으로 응답하고 엔드포인트에 대한 유휴 시간 제한도 다시 시작됩니다.

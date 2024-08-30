@@ -1,0 +1,18 @@
+"hash": |-
+  495ea1edd44c3b6156526cefd59fc0ecfd799311f93d75d8ddbbbca4151303b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The algorithms presented here were designed to be easy to implement
+     in constant time to avoid side-channel vulnerabilities.  The
+     operations used in ChaCha20 are all additions, XORs, and fixed rolls.
+     All of these can and should be implemented in constant time.  Access
+     to offsets into the ChaCha state and the number of operations do not
+     depend on any property of the key, eliminating the chance of
+     information about the key leaking through the timing of cache misses.
+"fixed": |-
+  The algorithms presented here were designed to be easy to implement in constant time to avoid side-channel vulnerabilities.  The operations used in ChaCha20 are all additions, XORs, and fixed rolls. All of these can and should be implemented in constant time.  Access to offsets into the ChaCha state and the number of operations do not depend on any property of the key, eliminating the chance of information about the key leaking through the timing of cache misses.
+"ko": |-
+  여기에 제시된 알고리즘은 부채널 취약점을 방지하기 위해 일정한 시간에 쉽게 구현할 수 있도록 설계되었습니다. ChaCha20에서 사용되는 연산은 모두 덧셈, XOR, 고정롤입니다. 이 모든 것은 일정한 시간 내에 구현될 수 있고 구현되어야 합니다. ChaCha 상태에 대한 오프셋에 대한 액세스 및 작업 수는 키의 속성에 의존하지 않으므로 캐시 누락 타이밍을 통해 키에 대한 정보가 유출될 가능성을 제거합니다.

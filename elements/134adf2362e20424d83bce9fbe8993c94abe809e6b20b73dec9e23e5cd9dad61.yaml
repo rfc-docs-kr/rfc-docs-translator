@@ -1,0 +1,13 @@
+"hash": |-
+  134adf2362e20424d83bce9fbe8993c94abe809e6b20b73dec9e23e5cd9dad61
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     url-fetch-ext    =  "(" url-full *(SP url-fetch-param) ")"
+        ; If no url-fetch-param present, as unextended.
+"fixed": |-
+  url-fetch-ext    =  "(" url-full *(SP url-fetch-param) ")" ; If no url-fetch-param present, as unextended.
+"ko": |-
+  url-fetch-ext = "(" url-full *(SP url-fetch-param) ")" ; url-fetch-param이 없으면 확장되지 않은 것입니다.

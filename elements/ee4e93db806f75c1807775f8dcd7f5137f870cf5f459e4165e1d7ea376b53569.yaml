@@ -1,0 +1,20 @@
+"hash": |-
+  ee4e93db806f75c1807775f8dcd7f5137f870cf5f459e4165e1d7ea376b53569
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     struct {
+            ContentType type;
+            ProtocolVersion version;
+            uint16 epoch;
+            uint48 sequence_number;
+            uint16 length;
+            GenericBlockCipher fragment;
+            opaque MAC;
+            } TLSCiphertext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

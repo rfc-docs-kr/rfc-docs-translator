@@ -1,0 +1,16 @@
+"hash": |-
+  f3421e425bf1a0abfb93354f2798a3d3e65cde712e78827fc12df216d3151c21
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MUST be sent in a STOP request to indicate whether
+     or not to abort a VERIFY method in progress.  A value of "true"
+     requests the server to discard the results.  A value of "false"
+     requests the server to return in the STOP response the verification
+     results obtained up to the point it received the STOP request.
+"fixed": |-
+  This header field MUST be sent in a STOP request to indicate whether or not to abort a VERIFY method in progress.  A value of "true" requests the server to discard the results.  A value of "false" requests the server to return in the STOP response the verification results obtained up to the point it received the STOP request.
+"ko": |-
+  이 헤더 필드는 진행 중인 VERIFY 메서드를 중단할지 여부를 나타내기 위해 STOP 요청에서 반드시 전송해야 합니다. "true" 값은 서버에 결과를 삭제하도록 요청합니다. "false" 값은 서버에 STOP 요청을 수신한 시점까지 얻은 검증 결과를 STOP 응답으로 반환하도록 요청합니다.

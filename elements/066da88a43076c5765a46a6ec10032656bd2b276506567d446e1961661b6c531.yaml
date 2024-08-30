@@ -1,0 +1,20 @@
+"hash": |-
+  066da88a43076c5765a46a6ec10032656bd2b276506567d446e1961661b6c531
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unless noted otherwise, a recipient MAY attempt to recover a usable
+     protocol element from an invalid construct.  HTTP does not define
+     specific error handling mechanisms except when they have a direct
+     impact on security, since different applications of the protocol
+     require different error handling strategies.  For example, a Web
+     browser might wish to transparently recover from a response where the
+     Location header field doesn't parse according to the ABNF, whereas a
+     systems control client might consider any form of error recovery to
+     be dangerous.
+"fixed": |-
+  Unless noted otherwise, a recipient MAY attempt to recover a usable protocol element from an invalid construct.  HTTP does not define specific error handling mechanisms except when they have a direct impact on security, since different applications of the protocol require different error handling strategies.  For example, a Web browser might wish to transparently recover from a response where the Location header field doesn't parse according to the ABNF, whereas a systems control client might consider any form of error recovery to be dangerous.
+"ko": |-
+  달리 명시하지 않는 한, 수신자는 유효하지 않은 구성으로부터 사용 가능한 프로토콜 요소를 복구하려고 시도할 수 있습니다. HTTP는 보안에 직접적인 영향을 미치는 경우를 제외하고 특정 오류 처리 메커니즘을 정의하지 않습니다. 프로토콜의 다양한 응용 프로그램에는 서로 다른 오류 처리 전략이 필요하기 때문입니다. 예를 들어, 웹 브라우저는 Location 헤더 필드가 ABNF에 따라 구문 분석되지 않는 응답에서 투명하게 복구하기를 원하는 반면, 시스템 제어 클라이언트는 모든 형태의 오류 복구를 위험하다고 간주할 수 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  87333d837844ac82a5639ce37dfaa6708d885b4cad1a4b7c1aa9b574ba7cbc86
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Content-Range field value is invalid if it contains a range-resp
+     that has a last-pos value less than its first-pos value, or a
+     complete-length value less than or equal to its last-pos value.  The
+     recipient of an invalid Content-Range MUST NOT attempt to recombine
+     the received content with a stored representation.
+"fixed": |-
+  A Content-Range field value is invalid if it contains a range-resp that has a last-pos value less than its first-pos value, or a complete-length value less than or equal to its last-pos value.  The recipient of an invalid Content-Range MUST NOT attempt to recombine the received content with a stored representation.
+"ko": |-
+  Content-Range 필드 값은 last-pos 값이 first-pos 값보다 작거나 전체 길이 값이 last-pos 값보다 작거나 같은 range-resp를 포함하는 경우 유효하지 않습니다. 유효하지 않은 Content-Range의 수신자는 수신된 콘텐츠를 저장된 표현과 재결합하려고 시도해서는 안 됩니다.

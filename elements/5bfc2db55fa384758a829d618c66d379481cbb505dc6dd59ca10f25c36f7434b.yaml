@@ -1,0 +1,18 @@
+"hash": |-
+  5bfc2db55fa384758a829d618c66d379481cbb505dc6dd59ca10f25c36f7434b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In both of the above cases, if the server automatically subscribes a
+     mailbox when it is renamed, then the unsolicited LIST response for
+     each affected subscribed mailbox name MUST include the \Subscribed
+     attribute.  No unsolicited LIST responses need to be sent for child
+     mailboxes.  When INBOX is successfully renamed, it is assumed that a
+     new INBOX is created.  No unsolicited LIST responses need to be sent
+     for INBOX in this case.
+"fixed": |-
+  In both of the above cases, if the server automatically subscribes a mailbox when it is renamed, then the unsolicited LIST response for each affected subscribed mailbox name MUST include the \Subscribed attribute.  No unsolicited LIST responses need to be sent for child mailboxes.  When INBOX is successfully renamed, it is assumed that a new INBOX is created.  No unsolicited LIST responses need to be sent for INBOX in this case.
+"ko": |-
+  위의 두 경우 모두, 이름이 바뀔 때 서버가 자동으로 사서함을 구독하는 경우 영향을 받는 각 구독 사서함 이름에 대한 원치 않는 LIST 응답에는 \Subscribed 특성이 포함되어야 합니다.  하위 사서함에는 원치 않는 LIST 응답을 보낼 필요가 없습니다.  INBOX 이름 변경에 성공하면 새로운 INBOX가 생성된 것으로 간주됩니다.  이 경우 INBOX에 대해 원치 않는 LIST 응답을 보낼 필요가 없습니다.

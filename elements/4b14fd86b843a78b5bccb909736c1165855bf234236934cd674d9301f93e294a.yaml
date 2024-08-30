@@ -1,0 +1,15 @@
+"hash": |-
+  4b14fd86b843a78b5bccb909736c1165855bf234236934cd674d9301f93e294a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a RECOGNIZE, RECORD, or another INTERPRET operation is already in
+     progress for the resource, the server MUST reject the request with a
+     response having a status-code of 402 "Method not valid in this
+     state", and a COMPLETE request state.
+"fixed": |-
+  If a RECOGNIZE, RECORD, or another INTERPRET operation is already in progress for the resource, the server MUST reject the request with a response having a status-code of 402 "Method not valid in this state", and a COMPLETE request state.
+"ko": |-
+  리소스에 대해 RECOGNIZE, RECORD 또는 다른 INTERPRET 작업이 이미 진행 중인 경우 서버는 402 "이 상태에서는 메서드가 유효하지 않음" 상태 코드와 COMPLETE 요청 상태를 갖는 응답으로 요청을 거부해야 합니다.

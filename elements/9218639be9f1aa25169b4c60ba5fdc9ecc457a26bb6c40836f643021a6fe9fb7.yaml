@@ -1,0 +1,18 @@
+"hash": |-
+  9218639be9f1aa25169b4c60ba5fdc9ecc457a26bb6c40836f643021a6fe9fb7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PPSPP provides a simple solution for peers to stay up to date with
+     the chunk availability of a discarding peer.  A discarding peer in a
+     live stream MUST enable the Live Discard Window protocol option,
+     specifying how many chunks/bytes it caches before the last chunk/byte
+     it advertised as being available (see Section 7.9).  Its peers SHOULD
+     apply this number as a sliding window filter over the peer's chunk
+     availability as conveyed via its HAVE messages.
+"fixed": |-
+  PPSPP provides a simple solution for peers to stay up to date with the chunk availability of a discarding peer.  A discarding peer in a live stream MUST enable the Live Discard Window protocol option, specifying how many chunks/bytes it caches before the last chunk/byte it advertised as being available (see Section 7.9).  Its peers SHOULD apply this number as a sliding window filter over the peer's chunk availability as conveyed via its HAVE messages.
+"ko": |-
+  PPSPP는 피어가 폐기 피어의 청크 가용성을 최신 상태로 유지할 수 있는 간단한 솔루션을 제공합니다. 라이브 스트림의 폐기 피어는 사용 가능하다고 광고한 마지막 청크/바이트 이전에 캐시하는 청크/바이트 수를 지정하여 Live Discard Window 프로토콜 옵션을 활성화해야 합니다(섹션 7.9 참조). 피어는 HAVE 메시지를 통해 전달되는 피어의 청크 가용성에 대해 슬라이딩 창 필터로 이 숫자를 적용해야 합니다.

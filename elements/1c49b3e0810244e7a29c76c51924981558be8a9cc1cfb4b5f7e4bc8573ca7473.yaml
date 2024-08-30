@@ -1,0 +1,16 @@
+"hash": |-
+  1c49b3e0810244e7a29c76c51924981558be8a9cc1cfb4b5f7e4bc8573ca7473
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An UPDATE message might advertise only routes that are to be
+     withdrawn from service, in which case the message will not include
+     path attributes or Network Layer Reachability Information.
+     Conversely, it may advertise only a feasible route, in which case the
+     WITHDRAWN ROUTES field need not be present.
+"fixed": |-
+  An UPDATE message might advertise only routes that are to be withdrawn from service, in which case the message will not include path attributes or Network Layer Reachability Information. Conversely, it may advertise only a feasible route, in which case the WITHDRAWN ROUTES field need not be present.
+"ko": |-
+  UPDATE 메시지는 서비스에서 철회될 경로만 광고할 수 있으며, 이 경우 메시지에는 경로 속성이나 네트워크 계층 연결 가능성 정보가 포함되지 않습니다. 반대로, 가능한 경로만 광고할 수 있으며, 이 경우 WITHDRAWN ROUTES 필드가 존재할 필요가 없습니다.

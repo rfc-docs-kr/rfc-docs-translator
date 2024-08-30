@@ -1,0 +1,17 @@
+"hash": |-
+  143b1169ce55945e9e5cc53c10001a16d33d975aeb713432730804e077b0fec0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server receives a client hello that contains the "cert_type"
+     extension and chooses a cipher suite that requires a certificate,
+     then two outcomes are possible.  The server MUST either select a
+     certificate type from the certificate_types field in the extended
+     client hello or terminate the session with a fatal alert of type
+     "unsupported_certificate".
+"fixed": |-
+  If the server receives a client hello that contains the "cert_type" extension and chooses a cipher suite that requires a certificate, then two outcomes are possible.  The server MUST either select a certificate type from the certificate_types field in the extended client hello or terminate the session with a fatal alert of type "unsupported_certificate".
+"ko": |-
+  서버가 "cert_type" 확장이 포함된 클라이언트 hello를 수신하고 인증서가 필요한 암호화 제품군을 선택하는 경우 두 가지 결과가 가능합니다. 서버는 확장 클라이언트 hello의 Certificate_types 필드에서 인증서 유형을 선택하거나 "unsupported_certificate" 유형의 치명적인 경고와 함께 세션을 종료해야 합니다.

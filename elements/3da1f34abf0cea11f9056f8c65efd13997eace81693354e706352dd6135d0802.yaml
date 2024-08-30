@@ -1,0 +1,20 @@
+"hash": |-
+  3da1f34abf0cea11f9056f8c65efd13997eace81693354e706352dd6135d0802
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Client did not produce a request within the time that the IPP
+     object was prepared to wait.  For example, a Client issued a
+     Create-Job operation and then, after a long period of time, issued a
+     Send-Document operation; this error status-code was returned in
+     response to the Send-Document request (see Section 4.3.1).  The IPP
+     object might have been forced to clean up resources that had been
+     held for the waiting additional Documents.  The IPP object was forced
+     to close the Job, since the Client took too long.  The Client
+     SHOULD NOT repeat the request without modifications.
+"fixed": |-
+  The Client did not produce a request within the time that the IPP object was prepared to wait.  For example, a Client issued a Create-Job operation and then, after a long period of time, issued a Send-Document operation; this error status-code was returned in response to the Send-Document request (see Section 4.3.1).  The IPP object might have been forced to clean up resources that had been held for the waiting additional Documents.  The IPP object was forced to close the Job, since the Client took too long.  The Client SHOULD NOT repeat the request without modifications.
+"ko": |-
+  클라이언트가 IPP 개체가 대기할 준비가 된 시간 내에 요청을 생성하지 않았습니다. 예를 들어, 클라이언트가 Create-Job 작업을 실행한 다음 오랜 시간이 지난 후 Send-Document 작업을 실행했습니다. 이 오류 상태 코드는 Send-Document 요청에 대한 응답으로 반환되었습니다(섹션 4.3.1 참조). IPP 개체는 대기 중인 추가 문서를 위해 보류된 리소스를 강제로 정리해야 할 수 있습니다. 클라이언트가 너무 오래 걸리기 때문에 IPP 개체가 작업을 강제로 닫았습니다. 클라이언트는 수정 없이 요청을 반복해서는 안 됩니다.

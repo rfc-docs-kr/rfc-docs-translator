@@ -1,0 +1,13 @@
+"hash": |-
+  df996df5fda45e93780c5e66c27c6c6cf238c5e03f1afe9b6c9dbd520b295532
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The server MUST respond with a DHCPLEASEACTIVE message when the
+          IP address returned in the "ciaddr" field is currently leased.
+"fixed": |-
+  - The server MUST respond with a DHCPLEASEACTIVE message when the IP address returned in the "ciaddr" field is currently leased.
+"ko": |-
+  - "ciaddr" 필드에 반환된 IP 주소가 현재 임대된 경우 서버는 DHCPLEASEACTIVE 메시지로 응답해야 합니다.

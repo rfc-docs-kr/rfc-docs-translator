@@ -1,0 +1,19 @@
+"hash": |-
+  dfc765ed3c4f73424f56efd40ac6f18ea7974d635cdd2228669a5a24b389bd63
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As described in [TRIPLE-HS], in both the RSA and DHE key exchanges,
+     an active attacker can synchronize two TLS sessions so that they
+     share the same "master_secret".  For an RSA key exchange where the
+     client is unauthenticated, this is achieved as follows.  Suppose a
+     client C connects to a server A.  C does not realize that A is
+     malicious and that A connects in the background to an honest server S
+     and completes both handshakes.  For simplicity, assume that C and S
+     only use RSA ciphersuites.
+"fixed": |-
+  As described in [TRIPLE-HS], in both the RSA and DHE key exchanges, an active attacker can synchronize two TLS sessions so that they share the same "master_secret".  For an RSA key exchange where the client is unauthenticated, this is achieved as follows.  Suppose a client C connects to a server A.  C does not realize that A is malicious and that A connects in the background to an honest server S and completes both handshakes.  For simplicity, assume that C and S only use RSA ciphersuites.
+"ko": |-
+  [TRIPLE-HS]에서 설명한 대로 RSA와 DHE 키 교환에서 활성 공격자는 두 개의 TLS 세션을 동기화하여 동일한 "master_secret"을 공유할 수 있습니다. 클라이언트가 인증되지 않은 RSA 키 교환의 경우 다음과 같이 달성됩니다. 클라이언트 C가 서버 A에 연결한다고 가정합니다. C는 A가 악의적이며 A가 백그라운드에서 정직한 서버 S에 연결하여 두 핸드셰이크를 모두 완료한다는 것을 알지 못합니다. 단순화를 위해 C와 S가 RSA 암호 모음만 사용한다고 가정합니다.

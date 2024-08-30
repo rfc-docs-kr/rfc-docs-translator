@@ -1,0 +1,20 @@
+"hash": |-
+  099f4c172dfad4d9df33726919ebc60f9853012e907c53eea10ef0b90d6849d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Printer supports the "status-message" operation attribute, it
+     SHOULD use the REQUIRED 'utf-8' charset to return a status message
+     for the following error status-code values (see Appendix B):
+     'client-error-bad-request', 'client-error-charset-not-supported',
+     'server-error-internal-error',
+     'server-error-operation-not-supported', and
+     'server-error-version-not-supported'.  In this case, it MUST set the
+     value of the "attributes-charset" operation attribute to 'utf-8' in
+     the error response.
+"fixed": |-
+  If the Printer supports the "status-message" operation attribute, it SHOULD use the REQUIRED 'utf-8' charset to return a status message for the following error status-code values (see Appendix B): 'client-error-bad-request', 'client-error-charset-not-supported', 'server-error-internal-error', 'server-error-operation-not-supported', and 'server-error-version-not-supported'.  In this case, it MUST set the value of the "attributes-charset" operation attribute to 'utf-8' in the error response.
+"ko": |-
+  프린터가 "status-message" 작업 속성을 지원하는 경우 필수 'utf-8' 문자 집합을 사용하여 다음 오류 상태 코드 값(부록 B 참조)에 대한 상태 메시지를 반환해야 합니다. 'client-error-bad- 요청', '클라이언트-오류-문자 세트-지원되지 않음', '서버-오류-내부-오류', '서버-오류-작동-지원되지 않음' 및 '서버-오류-버전-지원되지 않음'. 이 경우 오류 응답에서 "attributes-charset" 작업 속성의 값을 'utf-8'로 설정해야 합니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  8b2abe72239c92e1ec914d96a4392516e35159a1a050e396dd0934422f2cdd4b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         This reply datagram MUST be prefixed with the channel ID chanP
+         sent by Peer P in the first HANDSHAKE message (see Section 3.11).
+         This reply datagram MAY also contain some minor additional
+         payload, e.g., HAVE messages to indicate Peer Q's current
+         progress, or REQUEST messages (see Section 3.7), but it MUST NOT
+         include any heavy payload.
+"fixed": |-
+  - This reply datagram MUST be prefixed with the channel ID chanP sent by Peer P in the first HANDSHAKE message (see Section 3.11). This reply datagram MAY also contain some minor additional payload, e.g., HAVE messages to indicate Peer Q's current progress, or REQUEST messages (see Section 3.7), but it MUST NOT include any heavy payload.
+"ko": |-
+  - 이 응답 데이터그램에는 첫 번째 HANDSHAKE 메시지에서 피어 P가 전송한 채널 ID chanP가 앞에 붙어야 합니다(섹션 3.11 참조). 이 응답 데이터그램에는 피어 Q의 현재 진행 상황을 나타내는 메시지가 있거나 REQUEST 메시지(섹션 3.7 참조)와 같은 일부 사소한 추가 페이로드가 포함될 수도 있지만 과도한 페이로드는 포함되어서는 안 됩니다.

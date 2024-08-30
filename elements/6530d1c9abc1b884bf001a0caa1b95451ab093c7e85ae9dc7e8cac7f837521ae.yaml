@@ -1,0 +1,16 @@
+"hash": |-
+  6530d1c9abc1b884bf001a0caa1b95451ab093c7e85ae9dc7e8cac7f837521ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The use of ECN requires the receiving endpoint to read the ECN field
+     from an IP packet, which is not possible on all platforms.  If an
+     endpoint does not implement ECN support or does not have access to
+     received ECN fields, it does not report ECN counts for packets it
+     receives.
+"fixed": |-
+  The use of ECN requires the receiving endpoint to read the ECN field from an IP packet, which is not possible on all platforms.  If an endpoint does not implement ECN support or does not have access to received ECN fields, it does not report ECN counts for packets it receives.
+"ko": |-
+  ECN을 사용하려면 수신 엔드포인트가 IP 패킷에서 ECN 필드를 읽어야 하는데, 이는 모든 플랫폼에서 가능하지 않습니다. 엔드포인트가 ECN 지원을 구현하지 않거나 수신된 ECN 필드에 액세스할 수 없는 경우 수신하는 패킷에 대한 ECN 수를 보고하지 않습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  5671ecbcfc39c54b122c8ae67a9e2187cbf5214eafd01eb47fdc4c3ff2b2bc4c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     msg-att-static  = "ENVELOPE" SP envelope /
+                       "INTERNALDATE" SP date-time /
+                       "RFC822.SIZE" SP number64 /
+                       "BODY" ["STRUCTURE"] SP body /
+                       "BODY" section ["<" number ">"] SP nstring /
+                       "BINARY" section-binary SP (nstring / literal8) /
+                       "BINARY.SIZE" section-binary SP number /
+                       "UID" SP uniqueid
+                         ; MUST NOT change for a message
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,21 @@
+"hash": |-
+  a452073991e3d5c615066abce5d6b9ec6ff78117321ca46efb4a120fb7d62fa4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MUST also be returned in responses to STOP,
+     CONTROL, and BARGE-IN-OCCURRED methods, in the SPEAK-COMPLETE event,
+     and in an IN-PROGRESS SPEAK response.  In these messages, if any
+     markers have been encountered for the current SPEAK, the marker tag
+     value MUST be the last embedded marker encountered.  If no markers
+     have yet been encountered for the current SPEAK, only the timestamp
+     is REQUIRED.  Note that in these events, the purpose of this header
+     field is to provide timestamp information associated with important
+     events within the lifecycle of a request (start of SPEAK processing,
+     end of SPEAK processing, receipt of CONTROL/STOP/BARGE-IN-OCCURRED).
+"fixed": |-
+  This header field MUST also be returned in responses to STOP, CONTROL, and BARGE-IN-OCCURRED methods, in the SPEAK-COMPLETE event, and in an IN-PROGRESS SPEAK response.  In these messages, if any markers have been encountered for the current SPEAK, the marker tag value MUST be the last embedded marker encountered.  If no markers have yet been encountered for the current SPEAK, only the timestamp is REQUIRED.  Note that in these events, the purpose of this header field is to provide timestamp information associated with important events within the lifecycle of a request (start of SPEAK processing, end of SPEAK processing, receipt of CONTROL/STOP/BARGE-IN-OCCURRED).
+"ko": |-
+  이 헤더 필드는 STOP, CONTROL 및 BARGE-IN-OCCURRED 메서드에 대한 응답, SPEAK-COMPLETE 이벤트 및 IN-PROGRESS SPEAK 응답에서도 반환되어야 합니다. 이러한 메시지에서 현재 SPEAK에 대한 마커가 발견된 경우 마커 태그 값은 발견된 마지막 임베디드 마커여야 합니다. 현재 SPEAK에 대한 마커가 아직 발견되지 않은 경우 타임스탬프만 필요합니다. 이러한 이벤트에서 이 헤더 필드의 목적은 요청 수명 주기 내의 중요한 이벤트(SPEAK 처리 시작, SPEAK 처리 종료, CONTROL/STOP/BARGE-IN-OCCURRED 수신)와 관련된 타임스탬프 정보를 제공하는 것입니다.

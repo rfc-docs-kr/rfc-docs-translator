@@ -1,0 +1,14 @@
+"hash": |-
+  429d10d9a21d2b4d17fed2f791f71f5b5e5b65ff76b826f7ce6031afedcb9b87
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For i = 1, ..., n
+           j = 8*(i-1)
+           P[i] = Q[j+1] | Q[j+2] | ... | Q[j+8].
+"fixed": |-
+  - For i = 1, ..., n j = 8*(i-1) P[i] = Q[j+1] | Q[j+2] | ... | Q[j+8].
+"ko": |-
+  - i = 1, ..., n j = 8*(i-1) P[i] = Q[j+1] | Q[j+2] | ... | 질문[j+8].

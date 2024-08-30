@@ -1,0 +1,1 @@
+<해석>은 <nomatch>에 대한 것입니다. 따라서 <noinput>은 "전혀 입력이 없음"을 의미하고 <nomatch>는 "음성 모달리티에서 일치하지 않음" 또는 "DTMF 모달리티에서 일치하지 않음"을 의미합니다. 예를 들어, DTMF "1 2 3 4"와 결합된 왜곡된 음성을 표현하려면 마크업이 다음과 같습니다. <input> <input mode="speech"><nomatch/></input> <input mode="dtmf">1 2 3 4</input> </input>

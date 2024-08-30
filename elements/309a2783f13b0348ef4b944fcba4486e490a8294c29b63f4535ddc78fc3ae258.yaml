@@ -1,0 +1,35 @@
+"hash": |-
+  309a2783f13b0348ef4b944fcba4486e490a8294c29b63f4535ddc78fc3ae258
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     <?xml version="1.0"?>
+     <result xmlns="urn:ietf:params:xml:ns:mrcpv2"
+             xmlns:xmpl="http://www.example.org/2003/12/mrcpv2"
+             grammar="What-Grammar-URI">
+       <verification-result>
+         <voiceprint id="johnsmith">
+           <incremental>
+             <utterance-length> 500 </utterance-length>
+             <device> cellular-phone </device>
+             <gender> male </gender>
+             <verification-score> 0.88514 </verification-score>
+             <xmpl:raspiness> high </xmpl:raspiness>
+             <xmpl:emotion> sadness </xmpl:emotion>
+           </incremental>
+           <cumulative>
+             <utterance-length> 10000 </utterance-length>
+             <device> cellular-phone </device>
+             <gender> male </gender>
+             <decision> rejected </decision>
+             <verification-score> 0.9345 </verification-score>
+           </cumulative>
+         </voiceprint>
+       </verification-result>
+     </result>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

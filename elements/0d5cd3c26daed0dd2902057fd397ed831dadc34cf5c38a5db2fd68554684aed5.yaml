@@ -1,0 +1,42 @@
+"hash": |-
+  0d5cd3c26daed0dd2902057fd397ed831dadc34cf5c38a5db2fd68554684aed5
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            o
+            | Recv STREAM / STREAM_DATA_BLOCKED / RESET_STREAM
+            | Create Bidirectional Stream (Sending)
+            | Recv MAX_STREAM_DATA / STOP_SENDING (Bidirectional)
+            | Create Higher-Numbered Stream
+            v
+        +-------+
+        | Recv  | Recv RESET_STREAM
+        |       |-----------------------.
+        +-------+                       |
+            |                           |
+            | Recv STREAM + FIN         |
+            v                           |
+        +-------+                       |
+        | Size  | Recv RESET_STREAM     |
+        | Known |---------------------->|
+        +-------+                       |
+            |                           |
+            | Recv All Data             |
+            v                           v
+        +-------+ Recv RESET_STREAM +-------+
+        | Data  |--- (optional) --->| Reset |
+        | Recvd |  Recv All Data    | Recvd |
+        +-------+<-- (optional) ----+-------+
+            |                           |
+            | App Read All Data         | App Read Reset
+            v                           v
+        +-------+                   +-------+
+        | Data  |                   | Reset |
+        | Read  |                   | Read  |
+        +-------+                   +-------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

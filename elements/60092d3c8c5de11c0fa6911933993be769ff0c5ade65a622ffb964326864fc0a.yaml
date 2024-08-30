@@ -1,0 +1,19 @@
+"hash": |-
+  60092d3c8c5de11c0fa6911933993be769ff0c5ade65a622ffb964326864fc0a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     sequence number
+         Each connection state contains a sequence number, which is
+         maintained separately for read and write states. The sequence
+         number must be set to zero whenever a connection state is made
+         the active state. Sequence numbers are of type uint64 and may not
+         exceed 2^64-1. A sequence number is incremented after each
+         record: specifically, the first record which is transmitted under
+         a particular connection state should use sequence number 0.
+"fixed": |-
+  sequence number  -   Each connection state contains a sequence number, which is maintained separately for read and write states. The sequence number must be set to zero whenever a connection state is made the active state. Sequence numbers are of type uint64 and may not exceed 2^64-1. A sequence number is incremented after each record: specifically, the first record which is transmitted under a particular connection state should use sequence number 0.
+"ko": |-
+  시퀀스 번호 - 각 연결 상태에는 읽기 및 쓰기 상태에 대해 별도로 유지되는 시퀀스 번호가 포함됩니다. 연결 상태가 활성 상태가 될 때마다 시퀀스 번호는 0으로 설정되어야 합니다. 시퀀스 번호는 uint64 유형이며 2^64-1을 초과할 수 없습니다. 시퀀스 번호는 각 레코드 다음에 증가합니다. 특히 특정 연결 상태에서 전송되는 첫 번째 레코드는 시퀀스 번호 0을 사용해야 합니다.

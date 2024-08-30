@@ -1,0 +1,18 @@
+"hash": |-
+  34f607563eb1121aea2ca833b457b7f6da91b342fde1be45cbd92d8d18e8724a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a Printer controls more than one Output Device, each value of this
+     attribute MAY apply to one or more of the Output Devices.  An error
+     on one Output Device that does not stop the Printer as a whole MAY
+     appear as a warning in the Printer's "printer-state-reasons"
+     attribute.  If "printer-state" for such a Printer has a value of
+     'stopped', then there MUST be an error reason among the values in the
+     "printer-state-reasons" attribute.
+"fixed": |-
+  If a Printer controls more than one Output Device, each value of this attribute MAY apply to one or more of the Output Devices.  An error on one Output Device that does not stop the Printer as a whole MAY appear as a warning in the Printer's "printer-state-reasons" attribute.  If "printer-state" for such a Printer has a value of 'stopped', then there MUST be an error reason among the values in the "printer-state-reasons" attribute.
+"ko": |-
+  프린터가 하나 이상의 출력 장치를 제어하는 ​​경우 이 속성의 각 값은 하나 이상의 출력 장치에 적용될 수 있습니다. 프린터 전체를 중지하지 않는 하나의 출력 장치에 대한 오류는 프린터의 "printer-state-reasons" 속성에 경고로 나타날 수 있습니다. 그러한 프린터에 대한 "printer-state"의 값이 'stopped'인 경우 "printer-state-reasons" 속성의 값 사이에 오류 이유가 있어야 합니다.

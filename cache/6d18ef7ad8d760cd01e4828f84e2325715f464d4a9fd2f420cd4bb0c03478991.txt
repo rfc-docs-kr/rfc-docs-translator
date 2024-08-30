@@ -1,0 +1,1 @@
+SCTP(스트림 제어 전송 프로토콜) 또는 TCP와 같은 안정적인 전송 프로토콜을 사용하는 경우 HeartbeatRequest 메시지는 한 번만 전송하면 됩니다.  전송 계층은 재전송을 처리합니다.  일정 시간이 지난 후에도 해당 HeartbeatResponse 메시지가 수신되지 않으면 HeartbeatRequest 메시지 전송을 시작한 애플리케이션에 의해 DTLS/TLS 연결이 종료될 수 있습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  43512efc54ba1c75e70f7a4bad27560334039816658c4b1822d0fcdd1c71cc75
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     status-att-val  = ("MESSAGES" SP number) /
+                       ("UIDNEXT" SP nz-number) /
+                       ("UIDVALIDITY" SP nz-number) /
+                       ("UNSEEN" SP number) /
+                       ("DELETED" SP number) /
+                       ("SIZE" SP number64)
+                         ; Extensions to the STATUS responses
+                         ; should extend this production.
+                         ; Extensions should use the generic
+                         ; syntax defined by tagged-ext.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

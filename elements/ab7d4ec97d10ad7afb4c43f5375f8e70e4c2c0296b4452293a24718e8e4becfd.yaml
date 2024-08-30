@@ -1,0 +1,22 @@
+"hash": |-
+  ab7d4ec97d10ad7afb4c43f5375f8e70e4c2c0296b4452293a24718e8e4becfd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS supports three authentication modes: authentication of both
+     parties, server authentication with an unauthenticated client, and
+     total anonymity. Whenever the server is authenticated, the channel is
+     secure against man-in-the-middle attacks, but completely anonymous
+     sessions are inherently vulnerable to such attacks.  Anonymous
+     servers cannot authenticate clients. If the server is authenticated,
+     its certificate message must provide a valid certificate chain
+     leading to an acceptable certificate authority.  Similarly,
+     authenticated clients must supply an acceptable certificate to the
+     server. Each party is responsible for verifying that the other's
+     certificate is valid and has not expired or been revoked.
+"fixed": |-
+  TLS supports three authentication modes: authentication of both parties, server authentication with an unauthenticated client, and total anonymity. Whenever the server is authenticated, the channel is secure against man-in-the-middle attacks, but completely anonymous sessions are inherently vulnerable to such attacks.  Anonymous servers cannot authenticate clients. If the server is authenticated, its certificate message must provide a valid certificate chain leading to an acceptable certificate authority.  Similarly, authenticated clients must supply an acceptable certificate to the server. Each party is responsible for verifying that the other's certificate is valid and has not expired or been revoked.
+"ko": |-
+  TLS는 양 당사자 인증, 인증되지 않은 클라이언트를 사용한 서버 인증, 전체 익명성이라는 세 가지 인증 모드를 지원합니다. 서버가 인증될 때마다 채널은 중간자 공격으로부터 안전하지만 완전히 익명인 세션은 본질적으로 이러한 공격에 취약합니다. 익명 서버는 클라이언트를 인증할 수 없습니다. 서버가 인증되면 해당 인증서 메시지는 허용되는 인증 기관으로 연결되는 유효한 인증서 체인을 제공해야 합니다. 마찬가지로 인증된 클라이언트는 서버에 허용 가능한 인증서를 제공해야 합니다. 각 당사자는 상대방의 인증서가 유효하고 만료되거나 취소되지 않았는지 확인할 책임이 있습니다.

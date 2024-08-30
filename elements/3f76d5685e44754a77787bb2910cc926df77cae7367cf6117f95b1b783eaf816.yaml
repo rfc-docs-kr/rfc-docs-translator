@@ -1,0 +1,17 @@
+"hash": |-
+  3f76d5685e44754a77787bb2910cc926df77cae7367cf6117f95b1b783eaf816
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A PATH_RESPONSE frame MUST be sent on the network path where the
+     PATH_CHALLENGE frame was received.  This ensures that path validation
+     by a peer only succeeds if the path is functional in both directions.
+     This requirement MUST NOT be enforced by the endpoint that initiates
+     path validation, as that would enable an attack on migration; see
+     Section 9.3.3.
+"fixed": |-
+  A PATH_RESPONSE frame MUST be sent on the network path where the PATH_CHALLENGE frame was received.  This ensures that path validation by a peer only succeeds if the path is functional in both directions. This requirement MUST NOT be enforced by the endpoint that initiates path validation, as that would enable an attack on migration; see Section 9.3.3.
+"ko": |-
+  PATH_RESPONSE 프레임은 PATH_CHALLENGE 프레임이 수신된 네트워크 경로에서 전송되어야 합니다. 이렇게 하면 경로가 양방향으로 작동하는 경우에만 피어의 경로 유효성 검사가 성공합니다. 이 요구 사항은 경로 검증을 시작하는 엔드포인트에 의해 시행되어서는 안 됩니다. 그렇게 하면 마이그레이션에 대한 공격이 가능해지기 때문입니다. 섹션 9.3.3을 참조하세요.

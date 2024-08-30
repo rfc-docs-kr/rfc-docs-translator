@@ -1,0 +1,18 @@
+"hash": |-
+  8335869f1939c26ddb483a885ea5d6b2c7eeeb88171ca5e65eadd68033261b2e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint uses a new connection ID for probes sent from a new local
+     address; see Section 9.5.  When probing a new path, an endpoint can
+     ensure that its peer has an unused connection ID available for
+     responses.  Sending NEW_CONNECTION_ID and PATH_CHALLENGE frames in
+     the same packet, if the peer's active_connection_id_limit permits,
+     ensures that an unused connection ID will be available to the peer
+     when sending a response.
+"fixed": |-
+  An endpoint uses a new connection ID for probes sent from a new local address; see Section 9.5.  When probing a new path, an endpoint can ensure that its peer has an unused connection ID available for responses.  Sending NEW_CONNECTION_ID and PATH_CHALLENGE frames in the same packet, if the peer's active_connection_id_limit permits, ensures that an unused connection ID will be available to the peer when sending a response.
+"ko": |-
+  엔드포인트는 새 로컬 주소에서 전송된 프로브에 대해 새 연결 ID를 사용합니다. 섹션 9.5를 참조하세요. 새 경로를 탐색할 때 엔드포인트는 해당 피어에 응답에 사용할 수 있는 사용되지 않은 연결 ID가 있는지 확인할 수 있습니다. 피어의 active_connection_id_limit가 허용하는 경우 동일한 패킷에서 NEW_CONNECTION_ID 및 PATH_CHALLENGE 프레임을 보내면 응답을 보낼 때 사용되지 않은 연결 ID를 피어에서 사용할 수 있습니다.

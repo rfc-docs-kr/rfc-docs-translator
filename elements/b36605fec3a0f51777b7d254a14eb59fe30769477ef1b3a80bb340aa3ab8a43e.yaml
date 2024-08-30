@@ -1,0 +1,16 @@
+"hash": |-
+  b36605fec3a0f51777b7d254a14eb59fe30769477ef1b3a80bb340aa3ab8a43e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients requesting an OCSP response and receiving an OCSP response in
+     a "CertificateStatus" message MUST check the OCSP response and abort
+     the handshake if the response is not satisfactory with
+     bad_certificate_status_response(113) alert.  This alert is always
+     fatal.
+"fixed": |-
+  Clients requesting an OCSP response and receiving an OCSP response in a "CertificateStatus" message MUST check the OCSP response and abort the handshake if the response is not satisfactory with bad_certificate_status_response(113) alert.  This alert is always fatal.
+"ko": |-
+  OCSP 응답을 요청하고 "CertificateStatus" 메시지에서 OCSP 응답을 수신하는 클라이언트는 반드시 OCSP 응답을 확인하고 bad_certificate_status_response(113) 경고로 응답이 만족스럽지 않은 경우 핸드셰이크를 중단해야 합니다. 이 경고는 항상 치명적입니다.

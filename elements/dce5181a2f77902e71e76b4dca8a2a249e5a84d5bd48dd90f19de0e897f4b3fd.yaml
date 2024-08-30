@@ -1,0 +1,15 @@
+"hash": |-
+  dce5181a2f77902e71e76b4dca8a2a249e5a84d5bd48dd90f19de0e897f4b3fd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     modulus, the result will sometimes be under 2^256 and sometimes be
+     above 2^256.  Implementers should be careful about timing side-
+     channels for Poly1305 by using the appropriate implementation of
+     these operations.
+"fixed": |-
+  modulus, the result will sometimes be under 2^256 and sometimes be above 2^256.  Implementers should be careful about timing side- channels for Poly1305 by using the appropriate implementation of these operations.
+"ko": |-
+  모듈러스의 경우 결과는 때때로 2^256 미만일 수도 있고 때로는 2^256 이상일 수도 있습니다. 구현자는 이러한 작업의 적절한 구현을 사용하여 Poly1305의 부채널 타이밍에 주의해야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  96f356c6165f22a105d4ba3d04e1b37544d253b5422d22484f478cbd1899918d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The first feature is one that should not cause problems for a
+     receiver, since the IP total length field indicates where the IP
+     packet ends.  Thus, any TFC padding bytes after the end of the packet
+     should be removed at some point during IP packet processing, after
+     ESP processing, even if the IPsec software does not remove such
+     padding.  Thus, this is an ESP v3 feature that a sender can employ
+     irrespective of whether a receiver implements ESP v2 or ESP v3.
+"fixed": |-
+  The first feature is one that should not cause problems for a receiver, since the IP total length field indicates where the IP packet ends.  Thus, any TFC padding bytes after the end of the packet should be removed at some point during IP packet processing, after ESP processing, even if the IPsec software does not remove such padding.  Thus, this is an ESP v3 feature that a sender can employ irrespective of whether a receiver implements ESP v2 or ESP v3.
+"ko": |-
+  첫 번째 기능은 IP 전체 길이 필드가 IP 패킷이 끝나는 위치를 나타내기 때문에 수신기에 문제를 일으키지 않아야 하는 기능입니다.  따라서 패킷 끝 이후의 모든 TFC 패딩 바이트는 IPsec 소프트웨어가 해당 패딩을 제거하지 않더라도 ESP 처리 후 IP 패킷 처리 중 특정 지점에서 제거되어야 합니다.  따라서 이는 수신자가 ESP v2 또는 ESP v3을 구현하는지 여부에 관계없이 송신자가 사용할 수 있는 ESP v3 기능입니다.

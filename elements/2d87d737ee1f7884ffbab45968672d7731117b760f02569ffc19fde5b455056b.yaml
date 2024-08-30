@@ -1,0 +1,16 @@
+"hash": |-
+  2d87d737ee1f7884ffbab45968672d7731117b760f02569ffc19fde5b455056b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The sender assumes anti-replay is enabled as a default, unless
+     otherwise notified by the receiver (see Section 3.4.3).  Thus,
+     typical behavior of an ESP implementation calls for the sender to
+     establish a new SA when the Sequence Number (or ESN) cycles, or in
+     anticipation of this value cycling.
+"fixed": |-
+  The sender assumes anti-replay is enabled as a default, unless otherwise notified by the receiver (see Section 3.4.3).  Thus, typical behavior of an ESP implementation calls for the sender to establish a new SA when the Sequence Number (or ESN) cycles, or in anticipation of this value cycling.
+"ko": |-
+  발신자는 수신자가 별도로 통지하지 않는 한 재생 방지가 기본값으로 활성화되어 있다고 가정합니다(섹션 3.4.3 참조).  따라서 ESP 구현의 일반적인 동작에서는 시퀀스 번호(또는 ESN)가 순환할 때 또는 이 값 순환을 예상할 때 송신자가 새로운 SA를 설정해야 합니다.

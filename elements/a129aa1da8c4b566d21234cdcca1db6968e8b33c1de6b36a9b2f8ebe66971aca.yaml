@@ -1,0 +1,16 @@
+"hash": |-
+  a129aa1da8c4b566d21234cdcca1db6968e8b33c1de6b36a9b2f8ebe66971aca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This procedure does not limit the rate of route selection, but only
+     the rate of route advertisement.  If new routes are selected multiple
+     times while awaiting the expiration of
+     MinRouteAdvertisementIntervalTimer, the last route selected SHALL be
+     advertised at the end of MinRouteAdvertisementIntervalTimer.
+"fixed": |-
+  This procedure does not limit the rate of route selection, but only the rate of route advertisement.  If new routes are selected multiple times while awaiting the expiration of MinRouteAdvertisementIntervalTimer, the last route selected SHALL be advertised at the end of MinRouteAdvertisementIntervalTimer.
+"ko": |-
+  이 절차는 경로 선택 속도를 제한하지 않고 경로 알림 속도만 제한합니다. MinRouteAdvertisementIntervalTimer의 만료를 기다리는 동안 새 경로가 여러 번 선택되면 마지막으로 선택한 경로가 MinRouteAdvertisementIntervalTimer 끝에 광고됩니다.

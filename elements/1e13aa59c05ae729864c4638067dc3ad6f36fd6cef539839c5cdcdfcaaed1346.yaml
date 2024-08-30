@@ -1,0 +1,13 @@
+"hash": |-
+  1e13aa59c05ae729864c4638067dc3ad6f36fd6cef539839c5cdcdfcaaed1346
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         if self.output_stream is not None:
+           self.output_stream.write(output_line)
+"fixed": |-
+  - if self.output_stream is not None: self.output_stream.write(output_line)
+"ko": |-
+  - self.output_stream이 None이 아닌 경우: self.output_stream.write(output_line)

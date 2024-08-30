@@ -1,0 +1,18 @@
+"hash": |-
+  ca4eec03130a5b69e7a70f6f84fc091f0b6edbbac6ce8cbfdcc326e43d9fd100
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server might receive a packet addressed to its preferred IP address
+     at any time after it accepts a connection.  If this packet contains a
+     PATH_CHALLENGE frame, the server sends a packet containing a
+     PATH_RESPONSE frame as per Section 8.2.  The server MUST send non-
+     probing packets from its original address until it receives a non-
+     probing packet from the client at its preferred address and until the
+     server has validated the new path.
+"fixed": |-
+  A server might receive a packet addressed to its preferred IP address at any time after it accepts a connection.  If this packet contains a PATH_CHALLENGE frame, the server sends a packet containing a PATH_RESPONSE frame as per Section 8.2.  The server MUST send non- probing packets from its original address until it receives a non- probing packet from the client at its preferred address and until the server has validated the new path.
+"ko": |-
+  서버는 연결을 수락한 후 언제든지 기본 IP 주소로 주소가 지정된 패킷을 수신할 수 있습니다. 이 패킷에 PATH_CHALLENGE 프레임이 포함되어 있으면 서버는 섹션 8.2에 따라 PATH_RESPONSE 프레임이 포함된 패킷을 보냅니다. 서버는 기본 주소에서 클라이언트로부터 비프로빙 패킷을 수신하고 서버가 새 경로를 확인할 때까지 원래 주소에서 비프로빙 패킷을 보내야 합니다.

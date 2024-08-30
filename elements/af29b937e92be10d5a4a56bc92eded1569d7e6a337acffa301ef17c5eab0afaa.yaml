@@ -1,0 +1,16 @@
+"hash": |-
+  af29b937e92be10d5a4a56bc92eded1569d7e6a337acffa301ef17c5eab0afaa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each endpoint SHOULD know the identifier of the other endpoint with
+     which it wants to connect and SHOULD compare it with the other
+     endpoint's identifier used in ImportedIdentity.context.  However, it
+     is important to remember that endpoints sharing the same group PSK
+     can always impersonate each other.
+"fixed": |-
+  Each endpoint SHOULD know the identifier of the other endpoint with which it wants to connect and SHOULD compare it with the other endpoint's identifier used in ImportedIdentity.context.  However, it is important to remember that endpoints sharing the same group PSK can always impersonate each other.
+"ko": |-
+  각 엔드포인트는 연결하려는 다른 엔드포인트의 식별자를 알아야 하며 이를 ImportedIdentity.context에 사용된 다른 엔드포인트의 식별자와 비교해야 합니다(SHOULD).  그러나 동일한 그룹 PSK를 공유하는 엔드포인트는 항상 서로를 가장할 수 있다는 점을 기억하는 것이 중요합니다.

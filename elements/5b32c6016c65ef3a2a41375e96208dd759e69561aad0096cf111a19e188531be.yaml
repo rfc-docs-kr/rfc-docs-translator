@@ -1,0 +1,19 @@
+"hash": |-
+  5b32c6016c65ef3a2a41375e96208dd759e69561aad0096cf111a19e188531be
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Another problem is that it's not always obvious how the various
+     security features in the framework interact with the application
+     layer protocol.  For instance, SASL can be used merely as an
+     authentication framework -- in which case the SASL exchange occurs
+     but the rest of the connection is unprotected, but can also negotiate
+     traffic protection, such as via GSS, as a mechanism.  Knowing under
+     what circumstances traffic protection is optional and which it is
+     required requires thinking about the threat model.
+"fixed": |-
+  Another problem is that it's not always obvious how the various security features in the framework interact with the application layer protocol.  For instance, SASL can be used merely as an authentication framework -- in which case the SASL exchange occurs but the rest of the connection is unprotected, but can also negotiate traffic protection, such as via GSS, as a mechanism.  Knowing under what circumstances traffic protection is optional and which it is required requires thinking about the threat model.
+"ko": |-
+  또 다른 문제는 프레임워크의 다양한 보안 기능이 애플리케이션 계층 프로토콜과 상호 작용하는 방식이 항상 명확하지 않다는 것입니다. 예를 들어, SASL은 인증 프레임워크로만 사용될 수 있습니다. 이 경우 SASL 교환이 발생하지만 연결의 나머지 부분은 보호되지 않지만 메커니즘으로 GSS 등을 통해 트래픽 보호를 협상할 수도 있습니다. 어떤 상황에서 트래픽 보호가 선택 사항이고 어떤 상황이 필요한지 파악하려면 위협 모델에 대해 생각해 볼 필요가 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  6a9c0f7f3871965b1505e033ae5fce8bbd8265894e29ec200187ee54d67cd6a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The list of methods acceptable by a specific resource can change
+     dynamically; the client is notified through the return code of the
+     response if a method is not allowed on a resource. Servers should
+     return the status code 501 (not implemented) if the method is
+     unrecognized or not implemented.
+"fixed": |-
+  The list of methods acceptable by a specific resource can change dynamically; the client is notified through the return code of the response if a method is not allowed on a resource. Servers should return the status code 501 (not implemented) if the method is unrecognized or not implemented.
+"ko": |-
+  특정 리소스에서 허용되는 메서드 목록은 동적으로 변경될 수 있습니다. 리소스에 메소드가 허용되지 않는 경우 클라이언트는 응답의 반환 코드를 통해 알림을 받습니다. 메서드가 인식되지 않거나 구현되지 않은 경우 서버는 상태 코드 501(구현되지 않음)을 반환해야 합니다.

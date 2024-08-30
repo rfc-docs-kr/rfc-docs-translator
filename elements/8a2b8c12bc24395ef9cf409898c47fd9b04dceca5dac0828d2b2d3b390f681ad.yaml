@@ -1,0 +1,17 @@
+"hash": |-
+  8a2b8c12bc24395ef9cf409898c47fd9b04dceca5dac0828d2b2d3b390f681ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At this point, a change cipher spec message is sent by the client,
+     and the client copies the pending Cipher Spec into the current Cipher
+     Spec. The client then immediately sends the finished message under
+     the new algorithms, keys, and secrets. In response, the server will
+     send its own change cipher spec message, transfer the pending to the
+     current Cipher Spec, and send its finished message under the new
+"fixed": |-
+  At this point, a change cipher spec message is sent by the client, and the client copies the pending Cipher Spec into the current Cipher Spec. The client then immediately sends the finished message under the new algorithms, keys, and secrets. In response, the server will send its own change cipher spec message, transfer the pending to the current Cipher Spec, and send its finished message under the new
+"ko": |-
+  이때 클라이언트는 Change cipher Spec 메시지를 전송하고 클라이언트는 보류 중인 Cipher Spec을 현재 Cipher Spec에 복사합니다. 그런 다음 클라이언트는 즉시 새로운 알고리즘, 키 및 비밀에 따라 완성된 메시지를 보냅니다. 이에 대한 응답으로 서버는 자체 암호 사양 변경 메시지를 보내고 보류 중인 암호 사양을 현재 암호 사양으로 전송한 다음 완료된 메시지를 새 암호 사양으로 보냅니다.

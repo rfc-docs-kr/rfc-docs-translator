@@ -1,0 +1,16 @@
+"hash": |-
+  4f492a3b2e13ac2049b2bbbf47ea6b3bced0336e7b6ba2129c183133fcc95366
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        e) All occurrences of "<segment>/../", where <segment> is a
+           complete path segment not equal to "..", are removed from the
+           buffer string.  Removal of these path segments is performed
+           iteratively, removing the leftmost matching pattern on each
+           iteration, until no matching pattern remains.
+"fixed": |-
+  - e) All occurrences of "<segment>/../", where <segment> is a complete path segment not equal to "..", are removed from the buffer string.  Removal of these path segments is performed iteratively, removing the leftmost matching pattern on each iteration, until no matching pattern remains.
+"ko": |-
+  - e) <세그먼트>가 ".."와 같지 않은 완전한 경로 세그먼트인 경우 "<세그먼트>/../"가 모두 발생하면 버퍼 문자열에서 제거됩니다. 이러한 경로 세그먼트 제거는 반복적으로 수행되어 일치하는 패턴이 남지 않을 때까지 각 반복에서 가장 왼쪽에 일치하는 패턴을 제거합니다.

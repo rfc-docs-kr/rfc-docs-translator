@@ -1,0 +1,20 @@
+"hash": |-
+  341de3968c7a77cb85a0ca3aa21a0a6516780779d8541d57624c5ffad95f4b3d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The presence of the keyword "trailers" in the TE header field
+     (Section 10.1.4) of a request indicates that the client is willing to
+     accept trailer fields, on behalf of itself and any downstream
+     clients.  For requests from an intermediary, this implies that all
+     downstream clients are willing to accept trailer fields in the
+     forwarded response.  Note that the presence of "trailers" does not
+     mean that the client(s) will process any particular trailer field in
+     the response; only that the trailer section(s) will not be dropped by
+     any of the clients.
+"fixed": |-
+  The presence of the keyword "trailers" in the TE header field (Section 10.1.4) of a request indicates that the client is willing to accept trailer fields, on behalf of itself and any downstream clients.  For requests from an intermediary, this implies that all downstream clients are willing to accept trailer fields in the forwarded response.  Note that the presence of "trailers" does not mean that the client(s) will process any particular trailer field in the response; only that the trailer section(s) will not be dropped by any of the clients.
+"ko": |-
+  요청의 TE 헤더 필드(10.1.4절)에 키워드 "트레일러"가 있다는 것은 클라이언트가 자신과 모든 다운스트림 클라이언트를 대신하여 트레일러 필드를 기꺼이 수락한다는 것을 나타냅니다. 중개자로부터의 요청의 경우 이는 모든 다운스트림 클라이언트가 전달된 응답의 트레일러 필드를 기꺼이 받아들인다는 것을 의미합니다. "트레일러"가 있다고 해서 클라이언트가 응답의 특정 트레일러 필드를 처리한다는 의미는 아닙니다. 단, 어떤 클라이언트도 예고편 섹션을 삭제하지 않을 것입니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  0e7d51cc2464a379f09f3c76bd61ba616be33b0a598cddcfbafc777c1d808307
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a server plans to remove a Media Segment after it is delivered to
+     clients over HTTP, it SHOULD ensure that the HTTP response contains
+     an Expires header that reflects the planned time-to-live.
+"fixed": |-
+  If a server plans to remove a Media Segment after it is delivered to clients over HTTP, it SHOULD ensure that the HTTP response contains an Expires header that reflects the planned time-to-live.
+"ko": |-
+  서버가 HTTP를 통해 클라이언트에 미디어 세그먼트를 전달한 후 미디어 세그먼트를 제거하려는 경우, HTTP 응답에 계획된 TTL(time-to-live)을 반영하는 Expires 헤더가 포함되어 있는지 확인해야 합니다(SHOULD).

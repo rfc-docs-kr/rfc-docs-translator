@@ -1,0 +1,17 @@
+"hash": |-
+  d529794ec10b3f69d7b23fb4d75473fe25ae3e698e04e7d0ffa6d1f479872576
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         for uInt in range(1, 1e3):
+           u = F(uInt)
+           v2 = u^3 + A*u^2 + u
+           if not v2.is_square():
+             continue
+           v = v2.sqrt()
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  7c45b3142ab5f941c803449dbb01fd3afb3cff2cb8f2ed75a7fa535a6e5dc9d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Server implementations are permitted to send an untagged response
+     (except for EXPUNGE) while there is no command in progress.  Server
+     implementations that send such responses MUST deal with flow control
+     considerations.  Specifically, they MUST either (1) verify that the
+     size of the data does not exceed the underlying transport's available
+     window size or (2) use non-blocking writes.
+"fixed": |-
+  Server implementations are permitted to send an untagged response (except for EXPUNGE) while there is no command in progress.  Server implementations that send such responses MUST deal with flow control considerations.  Specifically, they MUST either (1) verify that the size of the data does not exceed the underlying transport's available window size or (2) use non-blocking writes.
+"ko": |-
+  서버 구현에서는 진행 중인 명령이 없는 동안 태그가 지정되지 않은 응답(EXUNGE 제외)을 보내는 것이 허용됩니다.  그러한 응답을 보내는 서버 구현은 흐름 제어 고려 사항을 처리해야 합니다.  특히 (1) 데이터 크기가 기본 전송의 사용 가능한 창 크기를 초과하지 않는지 확인하거나 (2) 비차단 쓰기를 사용해야 합니다.

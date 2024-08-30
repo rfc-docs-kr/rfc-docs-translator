@@ -1,0 +1,19 @@
+"hash": |-
+  03a3e512b64cef401b67f56ab718e66b0aac7f9e5ac26047fca512428f022ced
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This document sets the "session_hash" to cover all handshake messages
+     up to and including the ClientKeyExchange.  For existing TLS
+     ciphersuites, these messages include all the significant contents of
+     the new session -- CertificateVerify does not change the session
+     content.  At the same time, this allows the extended master secret to
+     be computed immediately after the pre-master secret, so that
+     implementations can shred the temporary pre-master secret from memory
+     as early as possible.
+"fixed": |-
+  This document sets the "session_hash" to cover all handshake messages up to and including the ClientKeyExchange.  For existing TLS ciphersuites, these messages include all the significant contents of the new session -- CertificateVerify does not change the session content.  At the same time, this allows the extended master secret to be computed immediately after the pre-master secret, so that implementations can shred the temporary pre-master secret from memory as early as possible.
+"ko": |-
+  이 문서는 ClientKeyExchange를 포함한 모든 핸드셰이크 메시지를 포함하도록 "session_hash"를 설정합니다. 기존 TLS 암호 모음의 경우 이러한 메시지에는 새 세션의 모든 중요한 내용이 포함됩니다. CertificateVerify는 세션 내용을 변경하지 않습니다. 동시에 이를 통해 확장된 마스터 비밀을 사전 마스터 비밀 바로 다음에 계산할 수 있으므로 구현에서 가능한 한 빨리 임시 사전 마스터 비밀을 메모리에서 파기할 수 있습니다.

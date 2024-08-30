@@ -1,0 +1,17 @@
+"hash": |-
+  9e8b40480b8ac5507a096358b200b3551484ab6641c39f2869caa9d1c384fd66
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For implementations where multiple copies are produced by the
+     interpreter with only a single pass over the data, the final value
+     MUST be equal to the value of the "job-k-octets" attribute.  For
+     implementations where multiple copies are produced by the interpreter
+     by processing the data for each copy, the final value MUST be a
+     multiple of the value of the "job-k-octets" attribute.
+"fixed": |-
+  For implementations where multiple copies are produced by the interpreter with only a single pass over the data, the final value MUST be equal to the value of the "job-k-octets" attribute.  For implementations where multiple copies are produced by the interpreter by processing the data for each copy, the final value MUST be a multiple of the value of the "job-k-octets" attribute.
+"ko": |-
+  데이터에 대한 단일 전달만으로 해석기에 의해 여러 복사본이 생성되는 구현의 경우 최종 값은 "job-k-octets" 속성의 값과 같아야 합니다. 각 사본에 대한 데이터를 처리하여 해석기에 의해 여러 사본이 생성되는 구현의 경우 최종 값은 "job-k-octets" 속성 값의 배수여야 합니다.

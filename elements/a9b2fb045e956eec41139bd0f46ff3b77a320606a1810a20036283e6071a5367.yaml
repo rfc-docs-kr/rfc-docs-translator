@@ -1,0 +1,17 @@
+"hash": |-
+  a9b2fb045e956eec41139bd0f46ff3b77a320606a1810a20036283e6071a5367
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     "&" is used to shift to modified base64 and "-" to shift back to US-
+     ASCII.  There is no implicit shift from base64 to US-ASCII, and null
+     shifts ("-&" while in base64; note that "&-" while in US-ASCII means
+     "&") are not permitted.  However, all names start in US-ASCII and
+     MUST end in US-ASCII; that is, a name that ends with a non-ASCII
+     ISO-10646 character MUST end with a "-".
+"fixed": |-
+  "&" is used to shift to modified base64 and "-" to shift back to US- ASCII.  There is no implicit shift from base64 to US-ASCII, and null shifts ("-&" while in base64; note that "&-" while in US-ASCII means "&") are not permitted.  However, all names start in US-ASCII and MUST end in US-ASCII; that is, a name that ends with a non-ASCII ISO-10646 character MUST end with a "-".
+"ko": |-
+  "&"는 수정된 base64로 이동하는 데 사용되며 "-"는 US-ASCII로 다시 이동하는 데 사용됩니다.  base64에서 US-ASCII로의 암시적 이동은 없으며 null 이동(base64에서는 "-&", US-ASCII에서 "&-"는 "&"를 의미함)은 허용되지 않습니다.  그러나 모든 이름은 US-ASCII로 시작하고 US-ASCII로 끝나야 합니다. 즉, ASCII가 아닌 ISO-10646 문자로 끝나는 이름은 반드시 "-"로 끝나야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  f4e350566ab0a4a5b73f70be4ab2b350fc9eb45574f1af404c4a72fbfcba59c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the server has completed its path validation and has received a
+     non-probing packet with a new largest packet number on its preferred
+     address, the server begins sending non-probing packets to the client
+     exclusively from its preferred IP address.  The server SHOULD drop
+     newer packets for this connection that are received on the old IP
+     address.  The server MAY continue to process delayed packets that are
+     received on the old IP address.
+"fixed": |-
+  Once the server has completed its path validation and has received a non-probing packet with a new largest packet number on its preferred address, the server begins sending non-probing packets to the client exclusively from its preferred IP address.  The server SHOULD drop newer packets for this connection that are received on the old IP address.  The server MAY continue to process delayed packets that are received on the old IP address.
+"ko": |-
+  서버가 경로 유효성 검사를 완료하고 기본 주소에서 새로운 가장 큰 패킷 번호가 포함된 비프로빙 패킷을 수신하면 서버는 기본 IP 주소에서만 비프로빙 패킷을 클라이언트로 보내기 시작합니다. 서버는 이전 IP 주소에서 수신된 이 연결에 대한 최신 패킷을 삭제해야 합니다. 서버는 이전 IP 주소에서 수신된 지연된 패킷을 계속해서 처리할 수 있습니다.

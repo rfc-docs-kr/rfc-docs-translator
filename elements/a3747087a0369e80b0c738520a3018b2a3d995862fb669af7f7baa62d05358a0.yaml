@@ -1,0 +1,17 @@
+"hash": |-
+  a3747087a0369e80b0c738520a3018b2a3d995862fb669af7f7baa62d05358a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MUST NOT send 0-RTT packets once it starts processing 1-RTT
+     packets from the server.  This means that 0-RTT packets cannot
+     contain any response to frames from 1-RTT packets.  For instance, a
+     client cannot send an ACK frame in a 0-RTT packet, because that can
+     only acknowledge a 1-RTT packet.  An acknowledgment for a 1-RTT
+     packet MUST be carried in a 1-RTT packet.
+"fixed": |-
+  A client MUST NOT send 0-RTT packets once it starts processing 1-RTT packets from the server.  This means that 0-RTT packets cannot contain any response to frames from 1-RTT packets.  For instance, a client cannot send an ACK frame in a 0-RTT packet, because that can only acknowledge a 1-RTT packet.  An acknowledgment for a 1-RTT packet MUST be carried in a 1-RTT packet.
+"ko": |-
+  클라이언트는 서버에서 1-RTT 패킷 처리를 시작한 후에는 0-RTT 패킷을 보내면 안 됩니다. 이는 0-RTT 패킷이 1-RTT 패킷의 프레임에 대한 응답을 포함할 수 없음을 의미합니다. 예를 들어, 클라이언트는 1-RTT 패킷만 승인할 수 있기 때문에 0-RTT 패킷으로 ACK 프레임을 보낼 수 없습니다. 1-RTT 패킷에 대한 승인은 1-RTT 패킷으로 전달되어야 합니다.

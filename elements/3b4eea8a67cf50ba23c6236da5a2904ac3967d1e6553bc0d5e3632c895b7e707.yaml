@@ -1,0 +1,17 @@
+"hash": |-
+  3b4eea8a67cf50ba23c6236da5a2904ac3967d1e6553bc0d5e3632c895b7e707
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since the "rel" parameter only serves to filter the link relations
+     returned by the resource, other name/value pairs in the response,
+     including any aliases or properties, would be returned.  Also, since
+     support for the "rel" parameter is not guaranteed, the client must
+     not assume the "links" array will contain only the requested link
+     relation.
+"fixed": |-
+  Since the "rel" parameter only serves to filter the link relations returned by the resource, other name/value pairs in the response, including any aliases or properties, would be returned.  Also, since support for the "rel" parameter is not guaranteed, the client must not assume the "links" array will contain only the requested link relation.
+"ko": |-
+  "rel" 매개변수는 리소스에서 반환된 링크 관계를 필터링하는 역할만 하기 때문에 별칭이나 속성을 포함하여 응답의 다른 이름/값 쌍이 반환됩니다. 또한 "rel" 매개변수에 대한 지원이 보장되지 않으므로 클라이언트는 "links" 배열에 요청된 링크 관계만 포함될 것이라고 가정해서는 안 됩니다.

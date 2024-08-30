@@ -1,0 +1,15 @@
+"hash": |-
+  12541871e7f15024dec5679b778220bef7800465779224fd7df3f5b3824481de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case of a mailbox that has permissions set so that the client
+     can APPEND to the mailbox, but not SELECT or EXAMINE it, the server
+     MUST NOT send an APPENDUID response code as it would disclose
+     information about the mailbox.
+"fixed": |-
+  In the case of a mailbox that has permissions set so that the client can APPEND to the mailbox, but not SELECT or EXAMINE it, the server MUST NOT send an APPENDUID response code as it would disclose information about the mailbox.
+"ko": |-
+  클라이언트가 메일함에 APPEND할 수 있지만 SELECT 또는 EXAMINE할 수 없도록 설정된 권한이 있는 메일함의 경우 서버는 메일함에 대한 정보를 공개하므로 APPENDUID 응답 코드를 보내서는 안 됩니다.

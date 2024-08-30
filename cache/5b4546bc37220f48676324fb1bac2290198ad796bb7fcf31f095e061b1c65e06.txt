@@ -1,0 +1,1 @@
+평면화된 JWS JSON 직렬화 구문은 일반 구문을 기반으로 하지만, 단일 디지털 서명/MAC 케이스에 최적화하여 평면화합니다. "signatures" 멤버를 제거하고 대신 "signatures" 배열에서 사용하도록 정의된 멤버("protected", "header" 및 "signature" 멤버)를 최상위 JSON 객체("payload" 멤버와 동일한 수준)에 배치하여 평면화합니다.

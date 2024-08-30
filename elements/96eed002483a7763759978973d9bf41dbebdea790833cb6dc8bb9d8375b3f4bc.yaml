@@ -1,0 +1,15 @@
+"hash": |-
+  96eed002483a7763759978973d9bf41dbebdea790833cb6dc8bb9d8375b3f4bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A DHCPLEASEQUERY message MUST have a non-zero giaddr.  The
+     DHCPLEASEQUERY message MUST have exactly one of the following: a
+     non-zero ciaddr, a non-zero htype/hlen/chaddr, or a Client-identifier
+     option.
+"fixed": |-
+  A DHCPLEASEQUERY message MUST have a non-zero giaddr.  The DHCPLEASEQUERY message MUST have exactly one of the following: a non-zero ciaddr, a non-zero htype/hlen/chaddr, or a Client-identifier option.
+"ko": |-
+  DHCPLEASEQUERY 메시지에는 0이 아닌 giaddr이 있어야 합니다. DHCPLEASEQUERY 메시지에는 0이 아닌 ciaddr, 0이 아닌 htype/hlen/chaddr 또는 클라이언트 식별자 옵션 중 정확히 하나가 있어야 합니다.

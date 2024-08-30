@@ -1,0 +1,14 @@
+"hash": |-
+  173bc93475038c12d53f35500e0ca4cdb42cc9e4546a006884e701c40649e892
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  When a ClientHello is received, the server MUST verify that it
+        does not contain the TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV.  If
+        the SCSV is present, the server MUST abort the handshake.
+"fixed": |-
+  -  When a ClientHello is received, the server MUST verify that it does not contain the TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV.  If the SCSV is present, the server MUST abort the handshake.
+"ko": |-
+  - ClientHello가 수신되면 서버는 TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV를 포함하지 않는지 확인해야 합니다. SCSV가 존재하는 경우 서버는 핸드셰이크를 중단해야 합니다.

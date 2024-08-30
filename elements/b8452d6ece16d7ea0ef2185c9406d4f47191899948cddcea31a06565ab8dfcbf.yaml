@@ -1,0 +1,16 @@
+"hash": |-
+  b8452d6ece16d7ea0ef2185c9406d4f47191899948cddcea31a06565ab8dfcbf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           During reception it may happen that a user program is not ready
+           to accept a new message.  In that case, to avoid clogging up
+           the system, the Network stores momentarily the incoming message
+           in one of the buffer of the emergency ring.  (If this ring is
+           full a help routine will be invoked.)
+"fixed": |-
+  - During reception it may happen that a user program is not ready to accept a new message.  In that case, to avoid clogging up the system, the Network stores momentarily the incoming message in one of the buffer of the emergency ring.  (If this ring is full a help routine will be invoked.)
+"ko": |-
+  - 수신 중에 사용자 프로그램이 새 메시지를 수락할 준비가 되지 않은 경우가 발생할 수 있습니다. 이 경우 시스템의 정체를 방지하기 위해 네트워크는 들어오는 메시지를 비상 링의 버퍼 중 하나에 일시적으로 저장합니다. (이 링이 가득 차면 도움말 루틴이 호출됩니다.)

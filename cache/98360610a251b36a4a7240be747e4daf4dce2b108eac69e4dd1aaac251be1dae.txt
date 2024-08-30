@@ -1,0 +1,1 @@
+STOP 메서드는 레코더를 레코딩 상태에서 유휴 상태로 다시 옮깁니다. RECORD 요청이 활성화되어 있고 STOP 요청이 성공적으로 종료하는 경우 STOP 응답에는 종료된 RECORD 요청 ID가 포함된 Active-Request-Id-List 헤더 필드가 포함되어야 합니다. 이 경우 RECORD-COMPLETE 이벤트가 전송되지 않습니다.

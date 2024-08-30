@@ -1,0 +1,15 @@
+"hash": |-
+  d220dd9e73e1137408df8e5bcaf8410d9cc6d673c4cdaa8c0f329a332cd95f21
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.  Remove 4 octets (that are 0x00 0x00 0xff 0xff) from the tail end.
+         After this step, the last octet of the compressed data contains
+         (possibly part of) the DEFLATE header bits with the "BTYPE" bits
+         set to 00.
+"fixed": |-
+  1.  Remove 4 octets (that are 0x00 0x00 0xff 0xff) from the tail end. After this step, the last octet of the compressed data contains (possibly part of) the DEFLATE header bits with the "BTYPE" bits set to 00.
+"ko": |-
+  1. 끝 부분에서 4옥텟(0x00 0x00 0xff 0xff)을 제거합니다. 이 단계 이후 압축된 데이터의 마지막 옥텟에는 "BTYPE" 비트가 00으로 설정된 DEFLATE 헤더 비트(아마도 그 일부)가 포함됩니다.

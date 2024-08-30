@@ -1,0 +1,24 @@
+"hash": |-
+  1723d60e747be0b9d9142741b42ae8aed3d2f8eedbf18e80c82c35a8917dcbce
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     parameter = parameter-name "=" parameter-value
+     parameter-name = token
+     parameter-value = ( token / quoted-string )
+     parameters = *( OWS ";" OWS [ parameter ] )
+     partial-URI = relative-part [ "?" query ]
+     path-abempty = <path-abempty, see [URI], Section 3.3>
+     port = <port, see [URI], Section 3.2.3>
+     product = token [ "/" product-version ]
+     product-version = token
+     protocol = protocol-name [ "/" protocol-version ]
+     protocol-name = token
+     protocol-version = token
+     pseudonym = token
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

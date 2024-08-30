@@ -1,0 +1,17 @@
+"hash": |-
+  ecf40f7b47c0b2d4218a1d568065021058292963846976b859ffdcd4b594f48a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     QUIC connections are not strictly bound to a single network path.
+     Connection migration uses connection identifiers to allow connections
+     to transfer to a new network path.  Only clients are able to migrate
+     in this version of QUIC.  This design also allows connections to
+     continue after changes in network topology or address mappings, such
+     as might be caused by NAT rebinding.
+"fixed": |-
+  QUIC connections are not strictly bound to a single network path. Connection migration uses connection identifiers to allow connections to transfer to a new network path.  Only clients are able to migrate in this version of QUIC.  This design also allows connections to continue after changes in network topology or address mappings, such as might be caused by NAT rebinding.
+"ko": |-
+  QUIC 연결은 단일 네트워크 경로에 엄격하게 바인딩되지 않습니다. 연결 마이그레이션은 연결 식별자를 사용하여 연결이 새 네트워크 경로로 전송되도록 허용합니다. 이 버전의 QUIC에서는 클라이언트만 마이그레이션할 수 있습니다. 또한 이 설계를 사용하면 NAT 리바인딩으로 인해 발생할 수 있는 네트워크 토폴로지 또는 주소 매핑이 변경된 후에도 연결을 계속할 수 있습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  258fd3d873f4368d1d7c8028ea7837afece21f13bccbfd40ba25eceb989ae488
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After the application indicates that all stream data has been sent
+     and a STREAM frame containing the FIN bit is sent, the sending part
+     of the stream enters the "Data Sent" state.  From this state, the
+     endpoint only retransmits stream data as necessary.  The endpoint
+     does not need to check flow control limits or send
+     STREAM_DATA_BLOCKED frames for a stream in this state.
+     MAX_STREAM_DATA frames might be received until the peer receives the
+     final stream offset.  The endpoint can safely ignore any
+     MAX_STREAM_DATA frames it receives from its peer for a stream in this
+     state.
+"fixed": |-
+  After the application indicates that all stream data has been sent and a STREAM frame containing the FIN bit is sent, the sending part of the stream enters the "Data Sent" state.  From this state, the endpoint only retransmits stream data as necessary.  The endpoint does not need to check flow control limits or send STREAM_DATA_BLOCKED frames for a stream in this state. MAX_STREAM_DATA frames might be received until the peer receives the final stream offset.  The endpoint can safely ignore any MAX_STREAM_DATA frames it receives from its peer for a stream in this state.
+"ko": |-
+  애플리케이션이 모든 스트림 데이터가 전송되었음을 표시하고 FIN 비트가 포함된 STREAM 프레임이 전송되면 스트림의 전송 부분이 "데이터 전송됨" 상태에 들어갑니다. 이 상태에서 엔드포인트는 필요한 경우에만 스트림 데이터를 재전송합니다. 엔드포인트는 흐름 제어 제한을 확인하거나 이 상태의 스트림에 대해 STREAM_DATA_BLOCKED 프레임을 보낼 필요가 없습니다. 피어가 최종 스트림 오프셋을 수신할 때까지 MAX_STREAM_DATA 프레임을 수신할 수 있습니다. 엔드포인트는 이 상태의 스트림에 대해 피어로부터 수신하는 MAX_STREAM_DATA 프레임을 안전하게 무시할 수 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  ee7dfca3e3f8d429524a92423e320af63d39ec69f7d7d8a4dcc282f36017768f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     RESET_STREAM terminates one direction of a stream abruptly.  For a
+     bidirectional stream, RESET_STREAM has no effect on data flow in the
+     opposite direction.  Both endpoints MUST maintain flow control state
+     for the stream in the unterminated direction until that direction
+     enters a terminal state.
+"fixed": |-
+  RESET_STREAM terminates one direction of a stream abruptly.  For a bidirectional stream, RESET_STREAM has no effect on data flow in the opposite direction.  Both endpoints MUST maintain flow control state for the stream in the unterminated direction until that direction enters a terminal state.
+"ko": |-
+  RESET_STREAM은 스트림의 한 방향을 갑자기 종료합니다. 양방향 스트림의 경우 RESET_STREAM은 반대 방향의 데이터 흐름에 영향을 주지 않습니다. 두 끝점 모두 해당 방향이 터미널 상태에 들어갈 때까지 종료되지 않은 방향의 스트림에 대한 흐름 제어 상태를 유지해야 합니다(MUST).

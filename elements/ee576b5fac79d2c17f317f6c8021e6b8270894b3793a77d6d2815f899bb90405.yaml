@@ -1,0 +1,20 @@
+"hash": |-
+  ee576b5fac79d2c17f317f6c8021e6b8270894b3793a77d6d2815f899bb90405
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Field values are usually constrained to the range of US-ASCII
+     characters [USASCII].  Fields needing a greater range of characters
+     can use an encoding, such as the one defined in [RFC8187].
+     Historically, HTTP allowed field content with text in the ISO-8859-1
+     charset [ISO-8859-1], supporting other charsets only through use of
+     [RFC2047] encoding.  Specifications for newly defined fields SHOULD
+     limit their values to visible US-ASCII octets (VCHAR), SP, and HTAB.
+     A recipient SHOULD treat other allowed octets in field content (i.e.,
+     obs-text) as opaque data.
+"fixed": |-
+  Field values are usually constrained to the range of US-ASCII characters [USASCII].  Fields needing a greater range of characters can use an encoding, such as the one defined in [RFC8187]. Historically, HTTP allowed field content with text in the ISO-8859-1 charset [ISO-8859-1], supporting other charsets only through use of [RFC2047] encoding.  Specifications for newly defined fields SHOULD limit their values to visible US-ASCII octets (VCHAR), SP, and HTAB. A recipient SHOULD treat other allowed octets in field content (i.e., obs-text) as opaque data.
+"ko": |-
+  필드 값은 일반적으로 US-ASCII 문자 범위[USASCII]로 제한됩니다. 더 넓은 범위의 문자가 필요한 필드는 [RFC8187]에 정의된 것과 같은 인코딩을 사용할 수 있습니다. 역사적으로 HTTP는 ISO-8859-1 문자 집합 [ISO-8859-1]의 텍스트가 포함된 필드 콘텐츠를 허용했으며 [RFC2047] 인코딩을 통해서만 다른 문자 집합을 지원했습니다. 새로 정의된 필드에 대한 사양은 해당 값을 표시 가능한 US-ASCII 옥텟(VCHAR), SP 및 HTAB로 제한해야 합니다(SHOULD). 수신자는 필드 콘텐츠(예: obs-text)의 다른 허용된 옥텟을 불투명 데이터로 처리해야 합니다(SHOULD).

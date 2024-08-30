@@ -1,0 +1,19 @@
+"hash": |-
+  70328e01e9756a9a6e18a7dc97aa4fe4afc3da386f3f433e8945da302c691d2b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Forward compatibility note:
+         In the interests of forward compatibility, it is permitted for a
+         client hello message to include extra data after the compression
+         methods. This data must be included in the handshake hashes, but
+         must otherwise be ignored. This is the only handshake message for
+         which this is legal; for all other messages, the amount of data
+         in the message must match the description of the message
+         precisely.
+"fixed": |-
+  Forward compatibility note:  -   In the interests of forward compatibility, it is permitted for a client hello message to include extra data after the compression methods. This data must be included in the handshake hashes, but must otherwise be ignored. This is the only handshake message for which this is legal; for all other messages, the amount of data in the message must match the description of the message precisely.
+"ko": |-
+  상위 호환성 참고 사항: - 상위 호환성을 위해 클라이언트 안녕하세요 메시지에 압축 방법 이후에 추가 데이터를 포함하는 것이 허용됩니다. 이 데이터는 핸드셰이크 해시에 포함되어야 하지만 그렇지 않으면 무시되어야 합니다. 이것은 이것이 합법적인 유일한 핸드셰이크 메시지입니다. 다른 모든 메시지의 경우 메시지의 데이터 양이 메시지 설명과 정확히 일치해야 합니다.

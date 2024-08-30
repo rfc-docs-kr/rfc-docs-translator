@@ -1,0 +1,18 @@
+"hash": |-
+  974d8cc46b5db2758653ae7c19e7d386060fe08f475863286d8ec1c000bb5b69
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     9.   When Key Wrapping, Key Encryption, or Key Agreement with Key
+          Wrapping are employed, decrypt the JWE Encrypted Key to produce
+          the CEK.  The CEK MUST have a length equal to that required for
+          the content encryption algorithm.  Note that when there are
+          multiple recipients, each recipient will only be able to decrypt
+          JWE Encrypted Key values that were encrypted to a key in that
+          recipient's possession.  It is therefore normal to only be able
+"fixed": |-
+  1.   When Key Wrapping, Key Encryption, or Key Agreement with Key Wrapping are employed, decrypt the JWE Encrypted Key to produce the CEK.  The CEK MUST have a length equal to that required for the content encryption algorithm.  Note that when there are multiple recipients, each recipient will only be able to decrypt JWE Encrypted Key values that were encrypted to a key in that recipient's possession.  It is therefore normal to only be able
+"ko": |-
+  1. 키 래핑, 키 암호화 또는 키 래핑을 사용한 키 계약이 사용되는 경우 JWE 암호화 키를 해독하여 CEK를 생성합니다. CEK는 콘텐츠 암호화 알고리즘에 필요한 길이와 동일해야 합니다. 수신자가 여러 명인 경우 각 수신자는 해당 수신자가 소유한 키로 암호화된 JWE 암호화 키 값만 해독할 수 있습니다. 따라서 정상입니다.

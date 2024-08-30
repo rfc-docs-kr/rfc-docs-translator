@@ -1,0 +1,22 @@
+"hash": |-
+  9e2f5e02f49ed266af963a3cdec69cc8836afc6fdb283c645a30cda3ef67f3c0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Access concentrators SHOULD minimize potential denial of service
+     attacks on the DHCP servers by minimizing the generation of
+     DHCPLEASEQUERY messages.  In particular, the access concentrator
+     SHOULD employ negative caching (i.e., cache DHCPLEASEUNASSIGNED,
+     DHCPLEASEACTIVE, and DHCPLEASEUNKNOWN responses to DHCPLEASEQUERY
+     messages) and ciaddr restriction (i.e., don't send a DHCPLEASEQUERY
+     message with a ciaddr outside of the range of the attached broadband
+     access networks).  Together, these mechanisms limit the access
+     concentrator to transmitting one DHCPLEASEQUERY message (excluding
+     message retries) per legitimate broadband access network IP address
+     after a reboot event.
+"fixed": |-
+  Access concentrators SHOULD minimize potential denial of service attacks on the DHCP servers by minimizing the generation of DHCPLEASEQUERY messages.  In particular, the access concentrator SHOULD employ negative caching (i.e., cache DHCPLEASEUNASSIGNED, DHCPLEASEACTIVE, and DHCPLEASEUNKNOWN responses to DHCPLEASEQUERY messages) and ciaddr restriction (i.e., don't send a DHCPLEASEQUERY message with a ciaddr outside of the range of the attached broadband access networks).  Together, these mechanisms limit the access concentrator to transmitting one DHCPLEASEQUERY message (excluding message retries) per legitimate broadband access network IP address after a reboot event.
+"ko": |-
+  액세스 집중 장치는 DHCPLEASEQUERY 메시지 생성을 최소화하여 DHCP 서버에 대한 잠재적인 서비스 거부 공격을 최소화해야 합니다. 특히, 액세스 집중기는 네거티브 캐싱(즉, DHCPLEASEUNASSIGNED, DHCPLEASEACTIVE 및 DHCPLEASEQUERY 메시지에 대한 DHCPLEASEUNKNOWN 응답 캐시) 및 ciaddr 제한(즉, 연결된 광대역 액세스 범위 밖의 ciaddr과 함께 DHCPLEASEUNKNOWN 메시지를 보내지 않음)을 사용해야 합니다. 네트워크). 이러한 메커니즘은 함께 액세스 집중 장치가 재부팅 이벤트 후 합법적인 광대역 액세스 네트워크 IP 주소당 하나의 DHCPLEASEQUERY 메시지(메시지 재시도 제외)를 전송하도록 제한합니다.

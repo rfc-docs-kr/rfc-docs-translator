@@ -1,0 +1,16 @@
+"hash": |-
+  e89db14eab37a462984543803ce38d98088110616921be152f7457ed102e4d1c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        - If the local AS appears in the AS path of the new route being
+          considered, then that new route cannot be viewed as better than
+          any other route (provided that the speaker is configured to
+          accept such routes).  If such a route were ever used, a routing
+          loop could result.
+"fixed": |-
+  - If the local AS appears in the AS path of the new route being considered, then that new route cannot be viewed as better than any other route (provided that the speaker is configured to accept such routes).  If such a route were ever used, a routing loop could result.
+"ko": |-
+  - 고려 중인 새 경로의 AS 경로에 로컬 AS가 나타나면 해당 새 경로는 다른 경로보다 더 나은 것으로 볼 수 없습니다(스피커가 이러한 경로를 허용하도록 구성되어 있는 경우). 이러한 경로가 사용된 경우 라우팅 루프가 발생할 수 있습니다.

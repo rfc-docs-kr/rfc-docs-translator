@@ -1,0 +1,21 @@
+"hash": |-
+  41f29995b3a5dbf67ebac370d926aa58b533f09e64547d974b12e7ef9e85f129
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This document also specifies one specific PMCE based on the DEFLATE
+     [RFC1951] algorithm.  The DEFLATE algorithm is widely available on
+     various platforms, and its overhead is small.  The extension name of
+     this PMCE is "permessage-deflate".  To align the end of compressed
+     data to an octet boundary, this extension uses the algorithm
+     described in Section 2.1 of [RFC1979].  Endpoints can take over the
+     LZ77 sliding window [LZ77] used to build frames for previous messages
+     to achieve a better compression ratio.  For resource-limited devices,
+     this extension provides parameters to limit memory usage for
+     compression context.
+"fixed": |-
+  This document also specifies one specific PMCE based on the DEFLATE [RFC1951] algorithm.  The DEFLATE algorithm is widely available on various platforms, and its overhead is small.  The extension name of this PMCE is "permessage-deflate".  To align the end of compressed data to an octet boundary, this extension uses the algorithm described in Section 2.1 of [RFC1979].  Endpoints can take over the LZ77 sliding window [LZ77] used to build frames for previous messages to achieve a better compression ratio.  For resource-limited devices, this extension provides parameters to limit memory usage for compression context.
+"ko": |-
+  또한 이 문서에서는 DEFLATE [RFC1951] 알고리즘을 기반으로 특정 PMCE 하나를 지정합니다.  DEFLATE 알고리즘은 다양한 플랫폼에서 널리 사용 가능하며 오버헤드가 적습니다.  이 PMCE의 확장명은 "permessage-deflate"입니다.  압축된 데이터의 끝을 옥텟 경계에 정렬하기 위해 이 확장은 [RFC1979]의 섹션 2.1에 설명된 알고리즘을 사용합니다.  엔드포인트는 이전 메시지에 대한 프레임을 구축하는 데 사용된 LZ77 슬라이딩 창[LZ77]을 대신하여 더 나은 압축 비율을 달성할 수 있습니다.  리소스가 제한된 장치의 경우 이 확장은 압축 컨텍스트에 대한 메모리 사용량을 제한하는 매개변수를 제공합니다.

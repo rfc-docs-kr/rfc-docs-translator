@@ -1,0 +1,21 @@
+"hash": |-
+  bd7a0ab4258d8f21e22d4eaba8cfd11cbbd580d67b2a6f983ef151831d3632eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The set of messages supported can be derived from the compressed
+     bitmap by padding it with bytes of value 0 until it is 256 bits in
+     length.  Then, a 1 bit in the resulting bitmap at position X
+     (numbering left to right) corresponds to support for message type X,
+     see Table 7.  In other words, to construct the compressed bitmap,
+     create a bitmap with a 1 for each message type supported and a 0 for
+     a message type that is not, store it as an array of bytes, and
+     truncate it to the last non-zero byte.  An example of the first 16
+     bits of the compressed bitmap for a peer supporting every message
+     except ACKs and PEXs is 11011001 11110000.
+"fixed": |-
+  The set of messages supported can be derived from the compressed bitmap by padding it with bytes of value 0 until it is 256 bits in length.  Then, a 1 bit in the resulting bitmap at position X (numbering left to right) corresponds to support for message type X, see Table 7.  In other words, to construct the compressed bitmap, create a bitmap with a 1 for each message type supported and a 0 for a message type that is not, store it as an array of bytes, and truncate it to the last non-zero byte.  An example of the first 16 bits of the compressed bitmap for a peer supporting every message except ACKs and PEXs is 11011001 11110000.
+"ko": |-
+  지원되는 메시지 세트는 길이가 256비트가 될 때까지 값 0의 바이트를 채워서 압축된 비트맵에서 파생될 수 있습니다. 그런 다음 위치 X(왼쪽에서 오른쪽으로 번호 지정)에 있는 결과 비트맵의 1비트는 메시지 유형 X에 대한 지원에 해당합니다(표 7 참조). 즉, 압축된 비트맵을 구성하려면 각 메시지 유형에 대해 1을 사용하여 비트맵을 생성합니다. 지원되지 않는 메시지 유형의 경우 0을 바이트 배열로 저장하고 0이 아닌 마지막 바이트까지 자릅니다. ACK 및 PEX를 제외한 모든 메시지를 지원하는 피어에 대한 압축된 비트맵의 처음 16비트의 예는 11011001 11110000입니다.

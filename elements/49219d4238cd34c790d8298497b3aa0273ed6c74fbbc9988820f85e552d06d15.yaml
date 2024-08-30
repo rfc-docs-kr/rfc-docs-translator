@@ -1,0 +1,17 @@
+"hash": |-
+  49219d4238cd34c790d8298497b3aa0273ed6c74fbbc9988820f85e552d06d15
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     aad
+        The "aad" member MUST be present and contain the value
+        BASE64URL(JWE AAD)) when the JWE AAD value is non-empty;
+        otherwise, it MUST be absent.  A JWE AAD value can be included to
+        supply a base64url-encoded value to be integrity protected but not
+        encrypted.
+"fixed": |-
+  aad  -  The "aad" member MUST be present and contain the value BASE64URL(JWE AAD)) when the JWE AAD value is non-empty; otherwise, it MUST be absent.  A JWE AAD value can be included to supply a base64url-encoded value to be integrity protected but not encrypted.
+"ko": |-
+  aad - "aad" 멤버는 반드시 존재해야 하며 JWE AAD 값이 비어 있지 않으면 BASE64URL(JWE AAD)) 값을 포함해야 합니다. 그렇지 않으면 반드시 없어야 합니다. JWE AAD 값을 포함하면 무결성 보호되지만 암호화되지 않은 base64url 인코딩 값을 제공할 수 있습니다.

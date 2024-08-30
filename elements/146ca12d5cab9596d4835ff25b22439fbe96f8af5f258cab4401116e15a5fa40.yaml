@@ -1,0 +1,44 @@
+"hash": |-
+  146ca12d5cab9596d4835ff25b22439fbe96f8af5f258cab4401116e15a5fa40
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   4
+       1.1.  Changes from PKCS #12 Version 1 . . . . . . . . . . . . .   4
+     2.  Definitions and Notation  . . . . . . . . . . . . . . . . . .   5
+     3.  Overview  . . . . . . . . . . . . . . . . . . . . . . . . . .   7
+       3.1.  Exchange Modes  . . . . . . . . . . . . . . . . . . . . .   7
+       3.2.  Mode Choice Policies  . . . . . . . . . . . . . . . . . .   8
+       3.3.  Trusted Public Keys . . . . . . . . . . . . . . . . . . .   8
+       3.4.  The AuthenticatedSafe . . . . . . . . . . . . . . . . . .   9
+     4.  PFX PDU Syntax  . . . . . . . . . . . . . . . . . . . . . . .  10
+       4.1.  The AuthenticatedSafe Type  . . . . . . . . . . . . . . .  11
+       4.2.  The SafeBag Type  . . . . . . . . . . . . . . . . . . . .  12
+         4.2.1.  The KeyBag Type . . . . . . . . . . . . . . . . . . .  13
+         4.2.2.  The PKCS8ShroudedKeyBag Type  . . . . . . . . . . . .  13
+         4.2.3.  The CertBag Type  . . . . . . . . . . . . . . . . . .  13
+         4.2.4.  The CRLBag Type . . . . . . . . . . . . . . . . . . .  14
+         4.2.5.  The SecretBag Type  . . . . . . . . . . . . . . . . .  14
+         4.2.6.  The SafeContents Type . . . . . . . . . . . . . . . .  14
+     5.  Using PFX PDUs  . . . . . . . . . . . . . . . . . . . . . . .  15
+       5.1.  Creating PFX PDUs . . . . . . . . . . . . . . . . . . . .  15
+       5.2.  Importing Keys, etc., from a PFX PDU  . . . . . . . . . .  16
+     6.  Security Considerations . . . . . . . . . . . . . . . . . . .  16
+     7.  Normative References  . . . . . . . . . . . . . . . . . . . .  17
+     Appendix A.  Message Authentication Codes (MACs)  . . . . . . . .  19
+     Appendix B.  Deriving Keys and IVs from Passwords and Salt  . . .  19
+       B.1.  Password Formatting . . . . . . . . . . . . . . . . . . .  19
+       B.2.  General Method  . . . . . . . . . . . . . . . . . . . . .  20
+       B.3.  More on the ID Byte . . . . . . . . . . . . . . . . . . .  22
+       B.4.  Keys for Password Integrity Mode  . . . . . . . . . . . .  22
+     Appendix C.  Keys and IVs for Password Privacy Mode . . . . . . .  22
+     Appendix D.  ASN.1 Module . . . . . . . . . . . . . . . . . . . .  24
+     Appendix E.  Intellectual Property Considerations . . . . . . . .  28
+     Appendix F.  Acknowledgments  . . . . . . . . . . . . . . . . . .  28
+     Appendix G.  About PKCS . . . . . . . . . . . . . . . . . . . . .  28
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

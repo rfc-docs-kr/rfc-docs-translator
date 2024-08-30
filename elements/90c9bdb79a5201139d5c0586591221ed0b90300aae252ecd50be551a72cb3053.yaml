@@ -1,0 +1,18 @@
+"hash": |-
+  90c9bdb79a5201139d5c0586591221ed0b90300aae252ecd50be551a72cb3053
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In short, the sender MUST put into the datagram the hashes he
+     believes are necessary for the receiver to verify the chunk.  The
+     receiver MUST remember all the hashes it needs to verify missing
+     chunks that it still wants to download.  Note that the latter implies
+     that a hardware-limited receiver MAY forget some hashes if it does
+     not plan to announce possession of these chunks to others (i.e., does
+     not plan to send HAVE messages.)
+"fixed": |-
+  In short, the sender MUST put into the datagram the hashes he believes are necessary for the receiver to verify the chunk.  The receiver MUST remember all the hashes it needs to verify missing chunks that it still wants to download.  Note that the latter implies that a hardware-limited receiver MAY forget some hashes if it does not plan to announce possession of these chunks to others (i.e., does not plan to send HAVE messages.)
+"ko": |-
+  간단히 말해서, 발신자는 수신자가 청크를 확인하는 데 필요하다고 생각하는 해시를 데이터그램에 넣어야 합니다. 수신자는 여전히 다운로드하려는 누락된 청크를 확인하는 데 필요한 모든 해시를 기억해야 합니다. 후자는 하드웨어 제한이 있는 수신자가 이러한 청크의 소유를 다른 사람에게 알리지 않을 경우(즉, HAVE 메시지를 보낼 계획이 없는 경우) 일부 해시를 잊어버릴 수 있음을 의미합니다.

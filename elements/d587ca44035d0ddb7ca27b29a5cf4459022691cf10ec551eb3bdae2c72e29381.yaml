@@ -1,0 +1,21 @@
+"hash": |-
+  d587ca44035d0ddb7ca27b29a5cf4459022691cf10ec551eb3bdae2c72e29381
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     6.  Certificate "modification" does not refer to making a change to
+         an existing certificate, since this would prevent the
+         verification of any digital signatures on the certificate and
+         cause the certificate to be invalid.  Rather, the concept of
+         "modification" refers to a situation where the information
+         referred to in the certificate has changed or should be changed,
+         and the CA issues a new certificate containing the modified
+         information.  One example is a subscriber that changes his or her
+         name, which would necessitate the issuance of a new certificate
+         containing the new name.
+"fixed": |-
+  1.  Certificate "modification" does not refer to making a change to an existing certificate, since this would prevent the verification of any digital signatures on the certificate and cause the certificate to be invalid.  Rather, the concept of "modification" refers to a situation where the information referred to in the certificate has changed or should be changed, and the CA issues a new certificate containing the modified information.  One example is a subscriber that changes his or her name, which would necessitate the issuance of a new certificate containing the new name.
+"ko": |-
+  1. 인증서 "수정"은 기존 인증서를 변경하는 것을 의미하지 않습니다. 이는 인증서의 디지털 서명 확인을 방해하고 인증서가 무효화되기 때문입니다. 오히려 "수정"이라는 개념은 인증서에 언급된 정보가 변경되었거나 변경되어야 하는 상황을 의미하며, CA는 수정된 정보를 포함하는 새로운 인증서를 발급합니다. 한 가지 예는 가입자가 자신의 이름을 변경하여 새 이름이 포함된 새 인증서를 발급해야 하는 경우입니다.

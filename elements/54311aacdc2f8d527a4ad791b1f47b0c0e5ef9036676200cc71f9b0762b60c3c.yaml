@@ -1,0 +1,21 @@
+"hash": |-
+  54311aacdc2f8d527a4ad791b1f47b0c0e5ef9036676200cc71f9b0762b60c3c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     'server-error-version-not-supported' along with the closest version
+     number that is supported (see Appendix B.1.5.4).  If the major
+     version number is supported but the minor version number is not, the
+     IPP object SHOULD accept the request and attempt to perform it (or
+     reject the request if the operation is not supported); otherwise, it
+     rejects the request and returns the
+     'server-error-version-not-supported' status-code.  In all cases, the
+     IPP object MUST return the "version-number" value that it supports
+     that is closest to the version number supplied by the Client in the
+     request.
+"fixed": |-
+  'server-error-version-not-supported' along with the closest version number that is supported (see Appendix B.1.5.4).  If the major version number is supported but the minor version number is not, the IPP object SHOULD accept the request and attempt to perform it (or reject the request if the operation is not supported); otherwise, it rejects the request and returns the 'server-error-version-not-supported' status-code.  In all cases, the IPP object MUST return the "version-number" value that it supports that is closest to the version number supplied by the Client in the request.
+"ko": |-
+  지원되는 가장 가까운 버전 번호와 함께 'server-error-version-not-supported'를 표시합니다(부록 B.1.5.4 참조). 주 버전 번호는 지원되지만 부 버전 번호는 지원되지 않는 경우 IPP 객체는 요청을 수락하고 이를 수행하려고 시도해야 합니다(또는 작업이 지원되지 않으면 요청을 거부해야 합니다). 그렇지 않으면 요청을 거부하고 'server-error-version-not-supported' 상태 코드를 반환합니다. 모든 경우에 IPP 객체는 요청에서 클라이언트가 제공한 버전 번호에 가장 가까운 지원하는 "버전 번호" 값을 반환해야 합니다.

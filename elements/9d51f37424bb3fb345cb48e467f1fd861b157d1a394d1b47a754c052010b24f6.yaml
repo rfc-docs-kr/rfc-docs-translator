@@ -1,0 +1,15 @@
+"hash": |-
+  9d51f37424bb3fb345cb48e467f1fd861b157d1a394d1b47a754c052010b24f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The sender of an UPDATE message SHOULD order path attributes within
+     the UPDATE message in ascending order of attribute type.  The
+     receiver of an UPDATE message MUST be prepared to handle path
+     attributes within UPDATE messages that are out of order.
+"fixed": |-
+  The sender of an UPDATE message SHOULD order path attributes within the UPDATE message in ascending order of attribute type.  The receiver of an UPDATE message MUST be prepared to handle path attributes within UPDATE messages that are out of order.
+"ko": |-
+  UPDATE 메시지의 송신자는 속성 유형의 오름차순으로 UPDATE 메시지 내의 경로 속성을 정렬해야 합니다. UPDATE 메시지의 수신자는 순서가 잘못된 UPDATE 메시지 내의 경로 속성을 처리할 준비를 해야 합니다.

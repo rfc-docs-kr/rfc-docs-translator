@@ -1,0 +1,18 @@
+"hash": |-
+  3578074a130a0f7b0c463f65022d4ee80e4df70b5dd333e8a7bab59d512a07e9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                        AFTER APPLYING ESP
+               ---------------------------------------------------------
+         IPv6  | orig |hop-by-hop,dest*,|   |dest|   |    | ESP   | ESP|
+               |IP hdr|routing,fragment.|ESP|opt*|TCP|Data|Trailer| ICV|
+               ---------------------------------------------------------
+                                            |<--- encryption ---->|
+                                        |<------ integrity ------>|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

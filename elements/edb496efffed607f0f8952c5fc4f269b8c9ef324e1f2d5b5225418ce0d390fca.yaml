@@ -1,0 +1,24 @@
+"hash": |-
+  edb496efffed607f0f8952c5fc4f269b8c9ef324e1f2d5b5225418ce0d390fca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If there is no solution to the equation of the elliptic curve, then
+     the operation fails, the counter is incremented, a new ske-value and
+     ske-seed are selected, and the hunting-and-pecking continues.  If
+     there is a solution then, y is calculated as the square root of (x^3
+     + ax + b) using the equation of the elliptic curve.  In this case, an
+     ambiguity exists as there are technically two solutions to the
+     equation, and ske-seed is used to unambiguously select one of them.
+     If the low-order bit of ske-seed is equal to the low-order bit of y,
+     then a candidate SKE is defined as the point (x,y); if the low-order
+     bit of ske-seed differs from the low-order bit of y then a candidate
+     SKE is defined as the point (x, p-y) where p is the prime from the
+     negotiated group's domain parameter set.  The candidate SKE becomes
+     the SKE, and the ECP-specific operation completes successfully.
+"fixed": |-
+  If there is no solution to the equation of the elliptic curve, then the operation fails, the counter is incremented, a new ske-value and ske-seed are selected, and the hunting-and-pecking continues.  If there is a solution then, y is calculated as the square root of (x^3 + ax + b) using the equation of the elliptic curve.  In this case, an ambiguity exists as there are technically two solutions to the equation, and ske-seed is used to unambiguously select one of them. If the low-order bit of ske-seed is equal to the low-order bit of y, then a candidate SKE is defined as the point (x,y); if the low-order bit of ske-seed differs from the low-order bit of y then a candidate SKE is defined as the point (x, p-y) where p is the prime from the negotiated group's domain parameter set.  The candidate SKE becomes the SKE, and the ECP-specific operation completes successfully.
+"ko": |-
+  타원 곡선의 방정식에 대한 해가 없으면 작업이 실패하고 카운터가 증가하며 새 스케 값과 스케 시드가 선택되고 헌팅 앤 펙킹이 계속됩니다.  해가 있는 경우 y는 타원 곡선 방정식을 사용하여 (x^3 + ax + b)의 제곱근으로 계산됩니다.  이 경우 방정식에 기술적으로 두 가지 해가 존재하므로 모호성이 존재하며, ske-seed를 사용하여 그 중 하나를 명확하게 선택합니다. ske-seed의 하위 비트가 y의 하위 비트와 같으면 후보 SKE는 점 (x,y)로 정의됩니다. ske-seed의 하위 비트가 y의 하위 비트와 다른 경우 후보 SKE는 점 (x, p-y)로 정의됩니다. 여기서 p는 협상된 그룹의 도메인 매개변수 집합의 소수입니다.  후보 SKE가 SKE가 되고 ECP 관련 작업이 성공적으로 완료됩니다.

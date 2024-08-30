@@ -1,0 +1,26 @@
+"hash": |-
+  9f07ea8d9d8e00779b86b16a33f6bd5e0e23129d250ff5657eb08c6a4f1a1cf6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     We define a new disposition type for the Content-Disposition header
+     field: early-session.  User agents MUST use early-session bodies to
+     establish early media sessions in the same way as they use session
+     bodies to establish regular sessions, as described in RFCs 3261 [2]
+     and 3264 [3].  Particularly, early-session bodies MUST follow the
+     offer/answer model and MAY appear in the same messages as session
+     bodies do with the exceptions of 2xx responses for an INVITE and
+     ACKs.  Nevertheless, it is NOT RECOMMENDED that early offers in
+     INVITEs be included because they can fork, and the UAC could receive
+     multiple early answers establishing early media streams at roughly
+     the same time.  Also, the use of the same transport address (IP
+     address plus port) in a session body and in an early-session body is
+     NOT RECOMMENDED.  Using different transport addresses (e.g.,
+     different ports) to receive early and regular media makes it easy to
+     detect the start of the regular media.
+"fixed": |-
+  We define a new disposition type for the Content-Disposition header field: early-session.  User agents MUST use early-session bodies to establish early media sessions in the same way as they use session bodies to establish regular sessions, as described in RFCs 3261 [2] and 3264 [3].  Particularly, early-session bodies MUST follow the offer/answer model and MAY appear in the same messages as session bodies do with the exceptions of 2xx responses for an INVITE and ACKs.  Nevertheless, it is NOT RECOMMENDED that early offers in INVITEs be included because they can fork, and the UAC could receive multiple early answers establishing early media streams at roughly the same time.  Also, the use of the same transport address (IP address plus port) in a session body and in an early-session body is NOT RECOMMENDED.  Using different transport addresses (e.g., different ports) to receive early and regular media makes it easy to detect the start of the regular media.
+"ko": |-
+  Content-Disposition 헤더 필드에 대해 새로운 처리 유형인 early-session을 정의합니다. 사용자 에이전트는 RFC 3261 [2] 및 3264 [3]에 설명된 대로 세션 본문을 사용하여 일반 세션을 설정하는 것과 같은 방식으로 early-session 본문을 사용하여 early media 세션을 설정해야 합니다. 특히 early-session 본문은 offer/answer 모델을 따라야 하며 INVITE 및 ACK에 대한 2xx 응답을 제외하고 세션 본문과 동일한 메시지에 나타날 수 있습니다. 그럼에도 불구하고 INVITE의 early offer는 포크될 수 있고 UAC가 거의 동시에 early media 스트림을 설정하는 여러 early answers를 수신할 수 있으므로 포함하지 않는 것이 좋습니다. 또한 세션 본문과 early-session 본문에서 동일한 전송 주소(IP 주소와 포트)를 사용하는 것도 포함하지 않는 것이 좋습니다. early 및 regular media를 수신하기 위해 다른 전송 주소(예: 다른 포트)를 사용하면 regular media의 시작을 쉽게 감지할 수 있습니다.

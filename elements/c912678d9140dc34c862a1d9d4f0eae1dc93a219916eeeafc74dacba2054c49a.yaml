@@ -1,0 +1,25 @@
+"hash": |-
+  c912678d9140dc34c862a1d9d4f0eae1dc93a219916eeeafc74dacba2054c49a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The list of media formats used in the session MAY be changed.  To do
+     this, the offerer creates a new media description, with the list of
+     media formats in the "m=" line different from the corresponding media
+     stream in the previous SDP.  This list MAY include new formats, and
+     MAY remove formats present from the previous SDP.  However, in the
+     case of RTP, the mapping from a particular dynamic payload type
+     number to a particular codec within that media stream MUST NOT change
+     for the duration of a session.  For example, if A generates an offer
+     with G.711 assigned to dynamic payload type number 46, payload type
+     number 46 MUST refer to G.711 from that point forward in any offers
+     or answers for that media stream within the session.  However, it is
+     acceptable for multiple payload type numbers to be mapped to the same
+     codec, so that an updated offer could also use payload type number 72
+     for G.711.
+"fixed": |-
+  The list of media formats used in the session MAY be changed.  To do this, the offerer creates a new media description, with the list of media formats in the "m=" line different from the corresponding media stream in the previous SDP.  This list MAY include new formats, and MAY remove formats present from the previous SDP.  However, in the case of RTP, the mapping from a particular dynamic payload type number to a particular codec within that media stream MUST NOT change for the duration of a session.  For example, if A generates an offer with G.711 assigned to dynamic payload type number 46, payload type number 46 MUST refer to G.711 from that point forward in any offers or answers for that media stream within the session.  However, it is acceptable for multiple payload type numbers to be mapped to the same codec, so that an updated offer could also use payload type number 72 for G.711.
+"ko": |-
+  세션에서 사용된 미디어 형식 목록은 변경될 수 있습니다. 이를 위해 제공자는 "m=" 줄에 있는 미디어 형식 목록이 이전 SDP의 해당 미디어 스트림과 다른 새 미디어 설명을 만듭니다. 이 목록에는 새 형식이 포함될 수 있으며 이전 SDP에 있는 형식을 제거할 수 있습니다. 그러나 RTP의 경우 특정 동적 페이로드 유형 번호에서 해당 미디어 스트림 내의 특정 코덱으로의 매핑은 세션 기간 동안 변경되어서는 안 됩니다. 예를 들어 A가 동적 페이로드 유형 번호 46에 G.711이 할당된 오퍼를 생성하는 경우, 페이로드 유형 번호 46은 세션 내의 해당 미디어 스트림에 대한 모든 오퍼 또는 답변에서 그 지점부터 G.711을 참조해야 합니다. 그러나 여러 페이로드 유형 번호가 동일한 코덱에 매핑되어 업데이트된 오퍼도 G.711에 대해 페이로드 유형 번호 72를 사용할 수 있도록 하는 것은 허용됩니다.

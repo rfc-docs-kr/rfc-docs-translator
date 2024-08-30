@@ -1,0 +1,26 @@
+"hash": |-
+  f7a15cdbc00d81dc4ceefb78f2f2fe7af5431d4d1a35ba75ba80bcca533d465f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": "When a user process writes to a TCP connection, TCP receives some\ndata.\
+  \   It  may  hold  that data for future sending or may send a\npacket immediately.\
+  \  If it refrains from  sending  now,  it  will\ntypically send the data later when\
+  \ an incoming packet arrives and\nchanges the state of the system.  The state changes\
+  \ in one of two\nways;  the incoming packet acknowledges old data the distant host\n\
+  has received, or announces the availability of  buffer  space  in\nthe  distant\
+  \  host  for  new  data.  (This last is referred to as\n\"updating the window\"\
+  ).    Each time data arrives  on  a  connec-\ntion,  TCP must reexamine its current\
+  \ state and perhaps send some\npackets out.  Thus, when we omit sending data on\
+  \ arrival from the\nuser,  we  are  simply  deferring its transmission until the\
+  \ next\nmessage arrives from the distant host.   A  message  must  always\narrive\
+  \ soon unless the connection was previously idle or communi-\ncations with the other\
+  \ end have been lost.  In  the  first  case,\nthe  idle  connection,  our  scheme\
+  \ will result in a packet being\nsent whenever the user writes to the TCP connection.\
+  \  Thus we  do\nnot  deadlock  in  the idle condition.  In the second case, where\n\
+  \f\nRFC 896    Congestion Control in IP/TCP Internetworks      1/6/84"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

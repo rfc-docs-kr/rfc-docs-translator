@@ -1,0 +1,24 @@
+"hash": |-
+  ea1012a0f023cd14c5ba7d46c81b0ca572c43605cba10f2a992e153753eab31a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a message is a reply to another message, the mailboxes of the
+     authors of the original message (the mailboxes in the "From:" field)
+     or mailboxes specified in the "Reply-To:" field (if it exists) MAY
+     appear in the "To:" field of the reply since these would normally be
+     the primary recipients of the reply.  If a reply is sent to a message
+     that has destination fields, it is often desirable to send a copy of
+     the reply to all of the recipients of the message, in addition to the
+     author.  When such a reply is formed, addresses in the "To:" and
+     "Cc:" fields of the original message MAY appear in the "Cc:" field of
+     the reply, since these are normally secondary recipients of the
+     reply.  If a "Bcc:" field is present in the original message,
+     addresses in that field MAY appear in the "Bcc:" field of the reply,
+     but SHOULD NOT appear in the "To:" or "Cc:" fields.
+"fixed": |-
+  When a message is a reply to another message, the mailboxes of the authors of the original message (the mailboxes in the "From:" field) or mailboxes specified in the "Reply-To:" field (if it exists) MAY appear in the "To:" field of the reply since these would normally be the primary recipients of the reply.  If a reply is sent to a message that has destination fields, it is often desirable to send a copy of the reply to all of the recipients of the message, in addition to the author.  When such a reply is formed, addresses in the "To:" and "Cc:" fields of the original message MAY appear in the "Cc:" field of the reply, since these are normally secondary recipients of the reply.  If a "Bcc:" field is present in the original message, addresses in that field MAY appear in the "Bcc:" field of the reply, but SHOULD NOT appear in the "To:" or "Cc:" fields.
+"ko": |-
+  메시지가 다른 메시지에 대한 응답인 경우 원본 메시지 작성자의 사서함("보낸 사람:" 필드의 사서함) 또는 "답장:" 필드(존재하는 경우)에 지정된 사서함이 나타날 수 있습니다. 일반적으로 회신의 기본 수신자가 되기 때문에 회신의 "받는 사람:" 필드입니다.  대상 필드가 있는 메시지에 회신을 보내는 경우 작성자 외에 메시지 수신자 모두에게 회신 사본을 보내는 것이 바람직한 경우가 많습니다.  이러한 회신이 작성되면 원본 메시지의 "받는 사람:" 및 "참조:" 필드에 있는 주소가 회신의 "참조:" 필드에 나타날 수 있습니다. 이는 일반적으로 회신의 2차 수신자이기 때문입니다.  원본 메시지에 "숨은 참조:" 필드가 있는 경우 해당 필드의 주소는 답장의 "숨은 참조:" 필드에 나타날 수 있지만 "받는 사람:" 또는 "참조:" 필드에는 나타나지 않아야 합니다.

@@ -1,0 +1,59 @@
+"hash": |-
+  c6cff8c8f879e5d32261ebfa41da80024dc69566f35898a7dfa9821cf0a07b04
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+       11.4.  Adaptive Chosen-Ciphertext Attacks . . . . . . . . . . .  28
+       11.5.  Timing Attacks . . . . . . . . . . . . . . . . . . . . .  28
+     12. References  . . . . . . . . . . . . . . . . . . . . . . . . .  29
+       12.1.  Normative References . . . . . . . . . . . . . . . . . .  29
+       12.2.  Informative References . . . . . . . . . . . . . . . . .  30
+     Appendix A.  JWE Examples . . . . . . . . . . . . . . . . . . . .  32
+       A.1.  Example JWE using RSAES-OAEP and AES GCM  . . . . . . . .  32
+         A.1.1.  JOSE Header . . . . . . . . . . . . . . . . . . . . .  32
+         A.1.2.  Content Encryption Key (CEK)  . . . . . . . . . . . .  32
+         A.1.3.  Key Encryption  . . . . . . . . . . . . . . . . . . .  33
+         A.1.4.  Initialization Vector . . . . . . . . . . . . . . . .  34
+         A.1.5.  Additional Authenticated Data . . . . . . . . . . . .  35
+         A.1.6.  Content Encryption  . . . . . . . . . . . . . . . . .  35
+         A.1.7.  Complete Representation . . . . . . . . . . . . . . .  36
+         A.1.8.  Validation  . . . . . . . . . . . . . . . . . . . . .  36
+       A.2.  Example JWE using RSAES-PKCS1-v1_5 and
+             AES_128_CBC_HMAC_SHA_256  . . . . . . . . . . . . . . . .  36
+         A.2.1.  JOSE Header . . . . . . . . . . . . . . . . . . . . .  37
+         A.2.2.  Content Encryption Key (CEK)  . . . . . . . . . . . .  37
+         A.2.3.  Key Encryption  . . . . . . . . . . . . . . . . . . .  38
+         A.2.4.  Initialization Vector . . . . . . . . . . . . . . . .  39
+         A.2.5.  Additional Authenticated Data . . . . . . . . . . . .  40
+         A.2.6.  Content Encryption  . . . . . . . . . . . . . . . . .  40
+         A.2.7.  Complete Representation . . . . . . . . . . . . . . .  40
+         A.2.8.  Validation  . . . . . . . . . . . . . . . . . . . . .  41
+       A.3.  Example JWE Using AES Key Wrap and
+             AES_128_CBC_HMAC_SHA_256  . . . . . . . . . . . . . . . .  41
+         A.3.1.  JOSE Header . . . . . . . . . . . . . . . . . . . . .  41
+         A.3.2.  Content Encryption Key (CEK)  . . . . . . . . . . . .  42
+         A.3.3.  Key Encryption  . . . . . . . . . . . . . . . . . . .  42
+         A.3.4.  Initialization Vector . . . . . . . . . . . . . . . .  42
+         A.3.5.  Additional Authenticated Data . . . . . . . . . . . .  43
+         A.3.6.  Content Encryption  . . . . . . . . . . . . . . . . .  43
+         A.3.7.  Complete Representation . . . . . . . . . . . . . . .  43
+         A.3.8.  Validation  . . . . . . . . . . . . . . . . . . . . .  44
+       A.4.  Example JWE Using General JWE JSON Serialization  . . . .  44
+         A.4.1.  JWE Per-Recipient Unprotected Headers . . . . . . . .  45
+         A.4.2.  JWE Protected Header  . . . . . . . . . . . . . . . .  45
+         A.4.3.  JWE Shared Unprotected Header . . . . . . . . . . . .  45
+         A.4.4.  Complete JOSE Header Values . . . . . . . . . . . . .  45
+         A.4.5.  Additional Authenticated Data . . . . . . . . . . . .  46
+         A.4.6.  Content Encryption  . . . . . . . . . . . . . . . . .  46
+         A.4.7.  Complete JWE JSON Serialization Representation  . . .  47
+       A.5.  Example JWE Using Flattened JWE JSON Serialization  . . .  47
+     Appendix B.  Example AES_128_CBC_HMAC_SHA_256 Computation . . . .  48
+       B.1.  Extract MAC_KEY and ENC_KEY from Key  . . . . . . . . . .  48
+       B.2.  Encrypt Plaintext to Create Ciphertext  . . . . . . . . .  49
+       B.3.  64-Bit Big-Endian Representation of AAD Length  . . . . .  49
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

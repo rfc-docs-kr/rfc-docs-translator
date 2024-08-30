@@ -1,0 +1,1 @@
+"record_size_limit" 확장은 "max_fragment_length" 확장 [RFC6066]을 대체합니다.  "record_size_limit" 확장을 지원하는 서버는 두 확장이 모두 나타나는 경우 ClientHello에 나타나는 "max_fragment_length"를 무시해야 합니다.  클라이언트는 "max_fragment_length" 및 "record_size_limit" 수신을 치명적인 오류로 처리해야 하며(MUST) "illegal_parameter" 경고를 생성해야 합니다(SHOULD).

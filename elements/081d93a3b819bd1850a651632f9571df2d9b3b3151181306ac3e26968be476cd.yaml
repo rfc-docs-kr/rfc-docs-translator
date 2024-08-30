@@ -1,0 +1,57 @@
+"hash": |-
+  081d93a3b819bd1850a651632f9571df2d9b3b3151181306ac3e26968be476cd
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+             5.3.11. job-document-access-errors (1setOf text(MAX)) ....139
+             5.3.12. number-of-documents (integer(0:MAX)) .............139
+             5.3.13. output-device-assigned (name(127)) ...............139
+             5.3.14. Event Time Job Status Attributes .................140
+                    5.3.14.1. time-at-creation (integer(MIN:MAX)) .....140
+                    5.3.14.2. time-at-processing (integer(MIN:MAX)) ...141
+                    5.3.14.3. time-at-completed (integer(MIN:MAX)) ....141
+                    5.3.14.4. job-printer-up-time (integer(1:MAX)) ....141
+                    5.3.14.5. date-time-at-creation
+                              (dateTime|unknown) ......................141
+                    5.3.14.6. date-time-at-processing
+                              (dateTime|unknown|no-value) .............141
+                    5.3.14.7. date-time-at-completed
+                              (dateTime|unknown|no-value) .............141
+             5.3.15. number-of-intervening-jobs (integer(0:MAX)) ......142
+             5.3.16. job-message-from-operator (text(127)) ............142
+             5.3.17. Job Size Attributes ..............................142
+                    5.3.17.1. job-k-octets (integer(0:MAX)) ...........142
+                    5.3.17.2. job-impressions (integer(0:MAX)) ........143
+                    5.3.17.3. job-media-sheets (integer(1:MAX)) .......143
+             5.3.18. Job Progress Attributes ..........................144
+                    5.3.18.1. job-k-octets-processed
+                              (integer(0:MAX)) ........................144
+                    5.3.18.2. job-impressions-completed
+                              (integer(0:MAX)) ........................144
+                    5.3.18.3. job-media-sheets-completed
+                              (integer(0:MAX)) ........................144
+             5.3.19. attributes-charset (charset) .....................144
+             5.3.20. attributes-natural-language (naturalLanguage) ....145
+        5.4. Printer Description and Status Attributes ................145
+             5.4.1. printer-uri-supported (1setOf uri) ................147
+             5.4.2. uri-authentication-supported (1setOf type2
+                    keyword) ..........................................148
+             5.4.3. uri-security-supported (1setOf type2 keyword) .....149
+             5.4.4. printer-name (name(127)) ..........................150
+             5.4.5. printer-location (text(127)) ......................150
+             5.4.6. printer-info (text(127)) ..........................151
+             5.4.7. printer-more-info (uri) ...........................151
+             5.4.8. printer-driver-installer (uri) ....................151
+             5.4.9. printer-make-and-model (text(127)) ................151
+             5.4.10. printer-more-info-manufacturer (uri) .............151
+             5.4.11. printer-state (type1 enum) .......................152
+             5.4.12. printer-state-reasons (1setOf type2 keyword) .....152
+             5.4.13. printer-state-message (text(MAX)) ................157
+             5.4.14. ipp-versions-supported (1setOf type2 keyword) ....157
+             5.4.15. operations-supported (1setOf type2 enum) .........157
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  7a500f46c8ef2aee84ff4081e2ddb72b4c2c7a23511bd76cf6ddb28a647a9e01
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     BGP makes use of TCP for reliable transport of its traffic between
+     peer routers.  To provide connection-oriented integrity and data
+     origin authentication on a point-to-point basis, BGP specifies use of
+     the mechanism defined in RFC 2385.  These services are intended to
+     detect and reject active wiretapping attacks against the inter-router
+     TCP connections.  Absent the use of mechanisms that effect these
+     security services, attackers can disrupt these TCP connections and/or
+     masquerade as a legitimate peer router.  Because the mechanism
+     defined in the RFC does not provide peer-entity authentication, these
+     connections may be subject to some forms of replay attacks that will
+     not be detected at the TCP layer.  Such attacks might result in
+     delivery (from TCP) of "broken" or "spoofed" BGP messages.
+"fixed": |-
+  BGP makes use of TCP for reliable transport of its traffic between peer routers.  To provide connection-oriented integrity and data origin authentication on a point-to-point basis, BGP specifies use of the mechanism defined in RFC 2385.  These services are intended to detect and reject active wiretapping attacks against the inter-router TCP connections.  Absent the use of mechanisms that effect these security services, attackers can disrupt these TCP connections and/or masquerade as a legitimate peer router.  Because the mechanism defined in the RFC does not provide peer-entity authentication, these connections may be subject to some forms of replay attacks that will not be detected at the TCP layer.  Such attacks might result in delivery (from TCP) of "broken" or "spoofed" BGP messages.
+"ko": |-
+  BGP는 피어 라우터 간의 트래픽을 안정적으로 전송하기 위해 TCP를 사용합니다. 연결 지향 무결성 및 데이터 원본 인증을 지점 간 기반으로 제공하기 위해 BGP는 RFC 2385에 정의된 메커니즘의 사용을 지정합니다. 이러한 서비스는 라우터 간 TCP 연결에 대한 활성 도청 공격을 탐지하고 거부하기 위한 것입니다. 이러한 보안 서비스에 영향을 미치는 메커니즘을 사용하지 않으면 공격자는 이러한 TCP 연결을 중단하거나 합법적인 피어 라우터로 가장할 수 있습니다. RFC에 정의된 메커니즘은 피어 엔터티 인증을 제공하지 않기 때문에 이러한 연결은 TCP 계층에서 감지되지 않는 일부 형태의 재생 공격을 받을 수 있습니다. 이러한 공격으로 인해 TCP에서 "깨진" 또는 "스푸핑된" BGP 메시지가 전달될 수 있습니다.

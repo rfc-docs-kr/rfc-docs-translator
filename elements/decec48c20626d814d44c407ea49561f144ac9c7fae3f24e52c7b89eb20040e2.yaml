@@ -1,0 +1,20 @@
+"hash": |-
+  decec48c20626d814d44c407ea49561f144ac9c7fae3f24e52c7b89eb20040e2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     padding
+        Padding that is added to force the length of the plaintext to be
+        an integral multiple of the block cipher's block length.  The
+        padding MAY be any length up to 255 bytes, as long as it results
+        in the TLSCiphertext.length being an integral multiple of the
+        block length.  Lengths longer than necessary might be desirable to
+        frustrate attacks on a protocol that are based on analysis of the
+        lengths of exchanged messages.  Each uint8 in the padding data
+        vector MUST be filled with the padding length value.  The receiver
+"fixed": |-
+  padding  -  Padding that is added to force the length of the plaintext to be an integral multiple of the block cipher's block length.  The padding MAY be any length up to 255 bytes, as long as it results in the TLSCiphertext.length being an integral multiple of the block length.  Lengths longer than necessary might be desirable to frustrate attacks on a protocol that are based on analysis of the lengths of exchanged messages.  Each uint8 in the padding data vector MUST be filled with the padding length value.  The receiver
+"ko": |-
+  패딩(padding) - 일반 텍스트의 길이가 블록 암호 블록 길이의 정수배가 되도록 추가되는 패딩입니다. 패딩의 길이는 TLSCiphertext.length가 블록 길이의 정수배가 되는 한 최대 255바이트일 수 있습니다. 교환된 메시지의 길이 분석을 기반으로 하는 프로토콜에 대한 공격을 좌절시키려면 필요한 것보다 긴 길이가 바람직할 수 있습니다. 패딩 데이터 벡터의 각 uint8은 반드시 패딩 길이 값으로 채워져야 합니다. 수신자

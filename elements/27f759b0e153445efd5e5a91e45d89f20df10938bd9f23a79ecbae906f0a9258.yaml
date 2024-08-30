@@ -1,0 +1,21 @@
+"hash": |-
+  27f759b0e153445efd5e5a91e45d89f20df10938bd9f23a79ecbae906f0a9258
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Resistance to dictionary attack is achieved when an adversary gets
+     one, and only one, guess at the secret per active attack (see, for
+     example, [BM92], [BMP00], and [BPR00]).  Another way of putting this
+     is that any advantage the adversary can realize is through
+     interaction and not through computation.  This is demonstrably
+     different than the technique from [RFC5996] of using a large, random
+     number as the pre-shared key.  That can only make a dictionary attack
+     less likely to succeed; it does not prevent a dictionary attack.
+     Furthermore, as [RFC5996] notes, it is completely insecure when used
+     with weak keys like user-generated passwords.
+"fixed": |-
+  Resistance to dictionary attack is achieved when an adversary gets one, and only one, guess at the secret per active attack (see, for example, [BM92], [BMP00], and [BPR00]).  Another way of putting this is that any advantage the adversary can realize is through interaction and not through computation.  This is demonstrably different than the technique from [RFC5996] of using a large, random number as the pre-shared key.  That can only make a dictionary attack less likely to succeed; it does not prevent a dictionary attack. Furthermore, as [RFC5996] notes, it is completely insecure when used with weak keys like user-generated passwords.
+"ko": |-
+  사전 공격에 대한 저항은 적이 활성 공격당 하나의 비밀을 추측할 때 달성됩니다(예: [BM92], [BMP00] 및 [BPR00] 참조).  이를 달리 표현하면, 적이 실현할 수 있는 모든 이점은 계산을 통해서가 아니라 상호 작용을 통해서라는 것입니다.  이는 사전 공유 키로 큰 난수를 사용하는 [RFC5996]의 기술과 명백히 다릅니다.  이는 사전 공격의 성공 가능성을 낮출 뿐입니다. 사전 공격을 방지하지는 않습니다. 또한 [RFC5996]에서 언급했듯이 사용자 생성 비밀번호와 같은 취약한 키와 함께 사용하면 완전히 안전하지 않습니다.

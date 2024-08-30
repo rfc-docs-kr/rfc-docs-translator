@@ -1,0 +1,17 @@
+"hash": |-
+  7c8ce02e0da0168490aac77ce93e414b40653c0b9188a59119098216e709a45a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MAY probe for peer reachability from a new local address
+     using path validation (Section 8.2) prior to migrating the connection
+     to the new local address.  Failure of path validation simply means
+     that the new path is not usable for this connection.  Failure to
+     validate a path does not cause the connection to end unless there are
+     no valid alternative paths available.
+"fixed": |-
+  An endpoint MAY probe for peer reachability from a new local address using path validation (Section 8.2) prior to migrating the connection to the new local address.  Failure of path validation simply means that the new path is not usable for this connection.  Failure to validate a path does not cause the connection to end unless there are no valid alternative paths available.
+"ko": |-
+  엔드포인트는 연결을 새 로컬 주소로 마이그레이션하기 전에 경로 유효성 검사(섹션 8.2)를 사용하여 새 로컬 주소에서 피어 연결 가능성을 조사할 수 있습니다. 경로 유효성 검사에 실패하면 단순히 이 연결에 새 경로를 사용할 수 없다는 의미입니다. 사용 가능한 유효한 대체 경로가 없으면 경로 유효성 검사에 실패해도 연결이 종료되지 않습니다.

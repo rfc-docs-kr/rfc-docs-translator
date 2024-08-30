@@ -1,0 +1,15 @@
+"hash": |-
+  5403c2157d044d06396eac0cef67323db700cd82b6fd595f2fd9d3901e00666b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint cannot send this frame if it was provided with a zero-
+     length connection ID by its peer.  An endpoint that provides a zero-
+     length connection ID MUST treat receipt of a RETIRE_CONNECTION_ID
+     frame as a connection error of type PROTOCOL_VIOLATION.
+"fixed": |-
+  An endpoint cannot send this frame if it was provided with a zero- length connection ID by its peer.  An endpoint that provides a zero- length connection ID MUST treat receipt of a RETIRE_CONNECTION_ID frame as a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  피어가 길이가 0인 연결 ID를 제공한 경우 엔드포인트는 이 프레임을 보낼 수 없습니다. 길이가 0인 연결 ID를 제공하는 엔드포인트는 RETIRE_CONNECTION_ID 프레임 수신을 PROTOCOL_VIOLATION 유형의 연결 오류로 처리해야 합니다.

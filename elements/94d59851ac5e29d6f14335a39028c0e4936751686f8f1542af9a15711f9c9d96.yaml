@@ -1,0 +1,20 @@
+"hash": |-
+  94d59851ac5e29d6f14335a39028c0e4936751686f8f1542af9a15711f9c9d96
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MAY be sent in a hotword mode RECOGNIZE request.
+     It specifies the maximum length of an utterance (in seconds) that
+     will be considered for hotword recognition.  This header field, along
+     with Hotword-Min-Duration, can be used to tune performance by
+     preventing the recognizer from evaluating utterances that are too
+     short or too long to be one of the hotwords in the grammar(s).  The
+     value is in milliseconds.  The default is implementation dependent.
+     If present in a RECOGNIZE request specifying a mode other than
+     "hotword", the header field is ignored.
+"fixed": |-
+  This header field MAY be sent in a hotword mode RECOGNIZE request. It specifies the maximum length of an utterance (in seconds) that will be considered for hotword recognition.  This header field, along with Hotword-Min-Duration, can be used to tune performance by preventing the recognizer from evaluating utterances that are too short or too long to be one of the hotwords in the grammar(s).  The value is in milliseconds.  The default is implementation dependent. If present in a RECOGNIZE request specifying a mode other than "hotword", the header field is ignored.
+"ko": |-
+  이 헤더 필드는 핫워드 모드 RECOGNIZE 요청에서 보낼 수 있습니다. 핫워드 인식을 위해 고려될 발화의 최대 길이(초)를 지정합니다. 이 헤더 필드는 Hotword-Min-Duration과 함께 사용하여 인식기가 문법의 핫워드 중 하나가 될 수 없을 만큼 짧거나 긴 발화를 평가하지 못하도록 하여 성능을 조정할 수 있습니다. 값은 밀리초입니다. 기본값은 구현에 따라 달라집니다. "핫워드"가 아닌 다른 모드를 지정하는 RECOGNIZE 요청에 존재하는 경우 헤더 필드는 무시됩니다.

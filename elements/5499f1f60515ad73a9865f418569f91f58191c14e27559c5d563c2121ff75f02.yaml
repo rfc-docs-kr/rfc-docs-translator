@@ -1,0 +1,18 @@
+"hash": |-
+  5499f1f60515ad73a9865f418569f91f58191c14e27559c5d563c2121ff75f02
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since requests to the token revocation endpoint result in the
+     transmission of plaintext credentials in the HTTP request, URLs for
+     token revocation endpoints MUST be HTTPS URLs.  The authorization
+     server MUST use Transport Layer Security (TLS) [RFC5246] in a version
+     compliant with [RFC6749], Section 1.6.  Implementations MAY also
+     support additional transport-layer security mechanisms that meet
+     their security requirements.
+"fixed": |-
+  Since requests to the token revocation endpoint result in the transmission of plaintext credentials in the HTTP request, URLs for token revocation endpoints MUST be HTTPS URLs.  The authorization server MUST use Transport Layer Security (TLS) [RFC5246] in a version compliant with [RFC6749], Section 1.6.  Implementations MAY also support additional transport-layer security mechanisms that meet their security requirements.
+"ko": |-
+  토큰 취소 끝점에 대한 요청으로 인해 HTTP 요청에 일반 텍스트 자격 증명이 전송되므로 토큰 취소 끝점의 URL은 HTTPS URL이어야 합니다.  인증 서버는 [RFC6749], 섹션 1.6을 준수하는 버전에서 TLS(Transport Layer Security) [RFC5246]를 사용해야 합니다.  구현은 보안 요구 사항을 충족하는 추가 전송 계층 보안 메커니즘을 지원할 수도 있습니다.

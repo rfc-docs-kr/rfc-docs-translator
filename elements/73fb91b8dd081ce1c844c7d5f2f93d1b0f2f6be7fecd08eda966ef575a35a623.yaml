@@ -1,0 +1,17 @@
+"hash": |-
+  73fb91b8dd081ce1c844c7d5f2f93d1b0f2f6be7fecd08eda966ef575a35a623
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an AUTHENTICATE command fails with a NO response, the client MAY
+     try another authentication mechanism by issuing another AUTHENTICATE
+     command.  It MAY also attempt to authenticate by using the LOGIN
+     command (see Section 6.2.3 for more detail).  In other words, the
+     client MAY request authentication types in decreasing order of
+     preference, with the LOGIN command as a last resort.
+"fixed": |-
+  If an AUTHENTICATE command fails with a NO response, the client MAY try another authentication mechanism by issuing another AUTHENTICATE command.  It MAY also attempt to authenticate by using the LOGIN command (see Section 6.2.3 for more detail).  In other words, the client MAY request authentication types in decreasing order of preference, with the LOGIN command as a last resort.
+"ko": |-
+  AUTHENTICATE 명령이 NO 응답으로 실패하면 클라이언트는 다른 AUTHENTICATE 명령을 발행하여 다른 인증 메커니즘을 시도할 수 있습니다.  또한 LOGIN 명령을 사용하여 인증을 시도할 수도 있습니다(자세한 내용은 섹션 6.2.3 참조).  즉, 클라이언트는 최후의 수단으로 LOGIN 명령을 사용하여 선호도가 감소하는 순서로 인증 유형을 요청할 수 있습니다.

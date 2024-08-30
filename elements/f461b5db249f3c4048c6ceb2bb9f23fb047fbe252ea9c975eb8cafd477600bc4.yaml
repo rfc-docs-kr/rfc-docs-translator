@@ -1,0 +1,22 @@
+"hash": |-
+  f461b5db249f3c4048c6ceb2bb9f23fb047fbe252ea9c975eb8cafd477600bc4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [RFC5280] defines the AKI (Authority Key Identifier) and SKI (Subject
+     Key Identifier) certificate extensions.  [RFC5280] describes two
+     example mechanisms for generating AKI and SKI values: a 160-bit SHA-1
+     (Secure Hash Algorithm) hash of the public key and a four-bit type
+     field with the value 0100 followed by the least significant 60 bits
+     of the SHA-1 hash.  Both of these mechanisms were designed to not be
+     critical to security.  This document defines three additional
+     mechanisms for generating Key Identifier values using SHA-256,
+     SHA-384, and SHA-512 [SHS] that are similar to those examples defined
+     in [RFC5280] as well as one based on hashing the certificate's
+     Subject Public Key Info field.
+"fixed": |-
+  [RFC5280] defines the AKI (Authority Key Identifier) and SKI (Subject Key Identifier) certificate extensions.  [RFC5280] describes two example mechanisms for generating AKI and SKI values: a 160-bit SHA-1 (Secure Hash Algorithm) hash of the public key and a four-bit type field with the value 0100 followed by the least significant 60 bits of the SHA-1 hash.  Both of these mechanisms were designed to not be critical to security.  This document defines three additional mechanisms for generating Key Identifier values using SHA-256, SHA-384, and SHA-512 [SHS] that are similar to those examples defined in [RFC5280] as well as one based on hashing the certificate's Subject Public Key Info field.
+"ko": |-
+  [RFC5280]은 AKI(Authority Key Identifier) ​​및 SKI(Subject Key Identifier) ​​인증서 확장을 정의합니다.  [RFC5280]은 AKI 및 SKI 값을 생성하는 두 가지 예제 메커니즘을 설명합니다. 공개 키의 160비트 SHA-1(보안 해시 알고리즘) 해시와 값이 0100이고 그 뒤에 최하위 60비트가 오는 4비트 유형 필드가 있습니다. SHA-1 해시.  이 두 메커니즘은 모두 보안에 중요하지 않도록 설계되었습니다.  이 문서는 [RFC5280]에 정의된 예와 유사한 SHA-256, SHA-384 및 SHA-512 [SHS]를 사용하여 키 식별자 값을 생성하는 세 가지 추가 메커니즘과 인증서의 주체 공개 키 해싱을 기반으로 하는 메커니즘을 정의합니다. 정보 필드.

@@ -1,0 +1,18 @@
+"hash": |-
+  41661be5a1622023cdea8a4493bfc1047e546c9b33e5c5b928f0fbc8fa728b34
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An Accept-Encoding header field with a field value that is empty
+     implies that the user agent does not want any content coding in
+     response.  If a non-empty Accept-Encoding header field is present in
+     a request and none of the available representations for the response
+     have a content coding that is listed as acceptable, the origin server
+     SHOULD send a response without any content coding unless the identity
+     coding is indicated as unacceptable.
+"fixed": |-
+  An Accept-Encoding header field with a field value that is empty implies that the user agent does not want any content coding in response.  If a non-empty Accept-Encoding header field is present in a request and none of the available representations for the response have a content coding that is listed as acceptable, the origin server SHOULD send a response without any content coding unless the identity coding is indicated as unacceptable.
+"ko": |-
+  필드 값이 비어 있는 Accept-Encoding 헤더 필드는 사용자 에이전트가 응답으로 콘텐츠 코딩을 원하지 않음을 의미합니다. 비어 있지 않은 Accept-Encoding 헤더 필드가 요청에 존재하고 응답에 대해 사용 가능한 표현 중 어느 것도 허용 가능한 것으로 나열된 콘텐츠 코딩을 갖지 않는 경우, 원서버는 신원 코딩이 그렇지 않은 한 콘텐츠 코딩 없이 응답을 보내야 합니다(SHOULD). 받아들일 수 없는 것으로 표시됩니다.

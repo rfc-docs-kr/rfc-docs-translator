@@ -1,0 +1,28 @@
+"hash": |-
+  6fad00d67467de2c755acbb96d0d909cac67d8d631b11a9e41142260ed2c8c9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Service Providers may want to enforce policies in order to limit the
+     usage of the AFTR resources on a per-subscriber basis for fairness of
+     resource usage (see REQ-4 of [RFC6888]).  These policies are used for
+     dimensioning purposes and also to ensure that AFTR resources are not
+     exhausted.  If the derived B4's IPv6 address can change, resource
+     tracking using that address will give incomplete results.  Also,
+     whenever the B4's IPv6 address changes, enforcing policies based on
+     that address doesn't resolve stale mappings hanging around in the
+     system, consuming not only system resources, but also reducing the
+     available quota of resources per subscriber.  Clearing those mappings
+     can be envisaged, but that will cause a lot of churn in the AFTR and
+     could be disruptive to existing connections; this is not desirable.
+     More concretely, if stale mappings have not been migrated to the new
+     B4's IPv6 address so that packets can be forwarded to the appropriate
+     B4, all incoming packets that are associated with those mappings will
+     be rejected by the AFTR.  Such behavior is not desirable because it's
+     detrimental to quality of experience.
+"fixed": |-
+  Service Providers may want to enforce policies in order to limit the usage of the AFTR resources on a per-subscriber basis for fairness of resource usage (see REQ-4 of [RFC6888]).  These policies are used for dimensioning purposes and also to ensure that AFTR resources are not exhausted.  If the derived B4's IPv6 address can change, resource tracking using that address will give incomplete results.  Also, whenever the B4's IPv6 address changes, enforcing policies based on that address doesn't resolve stale mappings hanging around in the system, consuming not only system resources, but also reducing the available quota of resources per subscriber.  Clearing those mappings can be envisaged, but that will cause a lot of churn in the AFTR and could be disruptive to existing connections; this is not desirable. More concretely, if stale mappings have not been migrated to the new B4's IPv6 address so that packets can be forwarded to the appropriate B4, all incoming packets that are associated with those mappings will be rejected by the AFTR.  Such behavior is not desirable because it's detrimental to quality of experience.
+"ko": |-
+  서비스 제공자는 리소스 사용의 공정성을 위해 가입자별로 AFTR 리소스의 사용을 제한하기 위해 정책을 시행하기를 원할 수 있습니다([RFC6888]의 REQ-4 참조).  이러한 정책은 크기 측정 목적으로 사용되며 AFTR 리소스가 고갈되지 않도록 보장합니다.  파생된 B4의 IPv6 주소가 변경될 수 있는 경우 해당 주소를 사용한 리소스 추적은 불완전한 결과를 제공합니다.  또한 B4의 IPv6 주소가 변경될 때마다 해당 주소를 기반으로 정책을 시행해도 시스템에 남아 있는 오래된 매핑을 해결하지 못하여 시스템 리소스를 소비할 뿐만 아니라 가입자당 사용 가능한 리소스 할당량이 줄어듭니다.  이러한 매핑을 지우는 것이 예상될 수 있지만 이로 인해 AFTR에 많은 이탈이 발생하고 기존 연결이 중단될 수 있습니다. 이는 바람직하지 않습니다. 보다 구체적으로 말하면, 패킷이 적절한 B4로 전달될 수 있도록 오래된 매핑이 새 B4의 IPv6 주소로 마이그레이션되지 않은 경우 해당 매핑과 연결된 모든 수신 패킷은 AFTR에 의해 거부됩니다.  이러한 동작은 경험의 질을 저하시키므로 바람직하지 않습니다.

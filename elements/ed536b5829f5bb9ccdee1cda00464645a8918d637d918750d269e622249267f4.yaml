@@ -1,0 +1,19 @@
+"hash": |-
+  ed536b5829f5bb9ccdee1cda00464645a8918d637d918750d269e622249267f4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            ProtocolVersion protocol_version;
+            CipherSuite cipher_suite;
+            CompressionMethod compression_method;
+            opaque master_secret[48];
+            ClientIdentity client_identity;
+            uint32 timestamp;
+        } StatePlaintext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

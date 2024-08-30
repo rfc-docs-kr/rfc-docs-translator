@@ -1,0 +1,20 @@
+"hash": |-
+  d8d5a58a4aecb863fad9e86f9de08bc2cfae30ac4f2ed42c62d0893d2d09bbf2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Likewise, a validator is weak if it is shared by two or more
+     representations of a given resource at the same time, unless those
+     representations have identical representation data.  For example, if
+     the origin server sends the same validator for a representation with
+     a gzip content coding applied as it does for a representation with no
+     content coding, then that validator is weak.  However, two
+     simultaneous representations might share the same strong validator if
+     they differ only in the representation metadata, such as when two
+     different media types are available for the same representation data.
+"fixed": |-
+  Likewise, a validator is weak if it is shared by two or more representations of a given resource at the same time, unless those representations have identical representation data.  For example, if the origin server sends the same validator for a representation with a gzip content coding applied as it does for a representation with no content coding, then that validator is weak.  However, two simultaneous representations might share the same strong validator if they differ only in the representation metadata, such as when two different media types are available for the same representation data.
+"ko": |-
+  마찬가지로, 해당 표현이 동일한 표현 데이터를 갖지 않는 한, 주어진 리소스에 대한 두 개 이상의 표현이 동시에 공유되는 경우 유효성 검사기는 약합니다. 예를 들어 원본 서버가 콘텐츠 코딩이 없는 표현과 마찬가지로 gzip 콘텐츠 코딩이 적용된 표현에 대해 동일한 유효성 검사기를 보내는 경우 해당 유효성 검사기는 약합니다. 그러나 두 개의 동시 표현은 동일한 표현 데이터에 대해 두 개의 다른 미디어 유형을 사용할 수 있는 경우와 같이 표현 메타데이터만 다른 경우 동일한 강력한 유효성 검사기를 공유할 수 있습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  beda3d87c1a6372256850145a4be882c9b4e6835541d9c2b8d0c94db7dc25247
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  *Note:* In practice, using wildcards in content negotiation has
+        |  limited practical value because it is seldom useful to say, for
+        |  example, "I prefer image/* more or less than (some other
+        |  specific value)".  By sending Accept: */*;q=0, clients can
+        |  explicitly request a 406 (Not Acceptable) response if a more
+        |  preferred format is not available, but they still need to be
+        |  able to handle a different response since the server is allowed
+        |  to ignore their preference.
+"fixed": |-
+  - |  *Note:* In practice, using wildcards in content negotiation has |  limited practical value because it is seldom useful to say, for |  example, "I prefer image/* more or less than (some other |  specific value)".  By sending Accept: */*;q=0, clients can |  explicitly request a 406 (Not Acceptable) response if a more |  preferred format is not available, but they still need to be |  able to handle a different response since the server is allowed |  to ignore their preference.
+"ko": |-
+  - | *참고:* 실제로 콘텐츠 협상에 와일드카드를 사용하면 | 에 대해 말하는 것이 거의 유용하지 않기 때문에 실용적인 가치가 제한되어 있습니다. 예를 들어, "나는 (다른 | 특정 값)보다 image/*를 더 선호합니다." Accept: */*;q=0을 보내 클라이언트는 | 더 많은 경우 명시적으로 406(허용되지 않음) 응답을 요청합니다. 선호하는 형식은 사용할 수 없지만 여전히 | 서버가 허용되므로 다른 응답을 처리할 수 있습니다 | 자신의 취향을 무시합니다.

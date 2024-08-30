@@ -1,0 +1,36 @@
+"hash": |-
+  5e0a05ee4e024a085d00016735a5b57fbd4003a8a3031f65364c596dc36b96ca
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     | 005        | buffer-empty             | VERIFY-FROM-BUFFER        |
+     |            |                          | request completed with no |
+     |            |                          | result due to empty       |
+     |            |                          | buffer.                   |
+     | 006        | out-of-sequence          | Verification operation    |
+     |            |                          | failed due to             |
+     |            |                          | out-of-sequence method    |
+     |            |                          | invocations, for example, |
+     |            |                          | calling VERIFY before     |
+     |            |                          | QUERY-VOICEPRINT.         |
+     | 007        | repository-uri-failure   | Failure accessing         |
+     |            |                          | Repository URI.           |
+     | 008        | repository-uri-missing   | Repository-URI is not     |
+     |            |                          | specified.                |
+     | 009        | voiceprint-id-missing    | Voiceprint-Identifier is  |
+     |            |                          | not specified.            |
+     | 010        | voiceprint-id-not-exist  | Voiceprint-Identifier     |
+     |            |                          | does not exist in the     |
+     |            |                          | voiceprint repository.    |
+     | 011        | speech-not-usable        | VERIFY request completed  |
+     |            |                          | with no result because    |
+     |            |                          | the speech was not usable |
+     |            |                          | (too noisy, too short,    |
+     |            |                          | etc.)                     |
+     +------------+--------------------------+---------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

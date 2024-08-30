@@ -1,0 +1,18 @@
+"hash": |-
+  464ff035d33954705dc82f86a250640284ba8977dfbbe162f5df5c1fb05bdb6f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         if msg_count != expected_msg_count:
+           print ('TEST FAILED: %s\nexpected %d %s[s], observed %d\n%s\n'
+              % (self.validator.line, expected_msg_count, severity,
+                msg_count,
+               str(self.validator.output_log[severity])))
+           return False
+         return True
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

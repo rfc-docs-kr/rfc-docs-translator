@@ -1,0 +1,19 @@
+"hash": |-
+  63536d776c6a88ba9adb1aea4d09e85a026286bef3312b356586b616a24c5af2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Sending a CONNECTION_CLOSE of type 0x1d in an Initial or Handshake
+     packet could expose application state or be used to alter application
+     state.  A CONNECTION_CLOSE of type 0x1d MUST be replaced by a
+     CONNECTION_CLOSE of type 0x1c when sending the frame in Initial or
+     Handshake packets.  Otherwise, information about the application
+     state might be revealed.  Endpoints MUST clear the value of the
+     Reason Phrase field and SHOULD use the APPLICATION_ERROR code when
+     converting to a CONNECTION_CLOSE of type 0x1c.
+"fixed": |-
+  Sending a CONNECTION_CLOSE of type 0x1d in an Initial or Handshake packet could expose application state or be used to alter application state.  A CONNECTION_CLOSE of type 0x1d MUST be replaced by a CONNECTION_CLOSE of type 0x1c when sending the frame in Initial or Handshake packets.  Otherwise, information about the application state might be revealed.  Endpoints MUST clear the value of the Reason Phrase field and SHOULD use the APPLICATION_ERROR code when converting to a CONNECTION_CLOSE of type 0x1c.
+"ko": |-
+  초기 또는 핸드셰이크 패킷에서 0x1d 유형의 CONNECTION_CLOSE를 보내면 애플리케이션 상태가 노출되거나 애플리케이션 상태를 변경하는 데 사용될 수 있습니다. 초기 또는 핸드셰이크 패킷으로 프레임을 보낼 때 0x1d 유형의 CONNECTION_CLOSE는 0x1c 유형의 CONNECTION_CLOSE로 대체되어야 합니다. 그렇지 않으면 애플리케이션 상태에 대한 정보가 공개될 수 있습니다. 엔드포인트는 이유 구문 필드의 값을 지워야 하며(MUST) 0x1c 유형의 CONNECTION_CLOSE로 변환할 때 APPLICATION_ERROR 코드를 사용해야 합니다.

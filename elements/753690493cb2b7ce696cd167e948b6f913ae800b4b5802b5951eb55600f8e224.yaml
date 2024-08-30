@@ -1,0 +1,21 @@
+"hash": |-
+  753690493cb2b7ce696cd167e948b6f913ae800b4b5802b5951eb55600f8e224
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              [1] M = mandatory; O = optional; D = dummy
+              [2] If tunnel mode -> IP datagram
+                  If transport mode -> next header and data
+              [3] Can be used only if payload specifies its "real" length
+              [4] See Section 2.2.1
+              [5] The algorithm choices determines whether these are
+                  transmitted, but in either case, the result is invisible
+                  to ESP
+              [6] The algorithm spec determines whether this field is
+                  present
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

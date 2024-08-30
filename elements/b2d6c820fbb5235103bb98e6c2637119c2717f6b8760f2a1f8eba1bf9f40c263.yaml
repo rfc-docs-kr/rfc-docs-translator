@@ -1,0 +1,14 @@
+"hash": |-
+  b2d6c820fbb5235103bb98e6c2637119c2717f6b8760f2a1f8eba1bf9f40c263
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the SEARCH results in no matches, the server MUST NOT include
+        the MIN result option in the ESEARCH response; however, it still
+        MUST send the ESEARCH response.
+"fixed": |-
+  - If the SEARCH results in no matches, the server MUST NOT include the MIN result option in the ESEARCH response; however, it still MUST send the ESEARCH response.
+"ko": |-
+  - 검색 결과 일치 항목이 없으면 서버는 ESEARCH 응답에 MIN 결과 옵션을 포함해서는 안 됩니다. 그러나 여전히 ESEARCH 응답을 보내야 합니다.

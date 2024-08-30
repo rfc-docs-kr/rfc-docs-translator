@@ -1,0 +1,15 @@
+"hash": |-
+  d93c590d1663780973ff5190d688033f94e1206978517ba44d580f89d5689d6f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CRLTypes BAG-TYPE ::= {
+         x509CRL,
+         ... -- For future extensions
+     }
+"fixed": |-
+  CRLTypes BAG-TYPE ::= {  -   x509CRL, ... -- For future extensions }
+"ko": |-
+  CRLTypes BAG-TYPE ::= { - x509CRL, ... -- 향후 확장을 위해 }

@@ -1,0 +1,19 @@
+"hash": |-
+  bb07b5278578a7fc95b463f4ae2728dd223b75bed2a895dbe86bb61cb7139b22
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Accept header field follows the syntax defined in [H14.1].  The
+     semantics are also identical, with the exception that if no Accept
+     header field is present, the server MUST assume a default value that
+     is specific to the resource type that is being controlled.  This
+     default value can be changed for a resource on a session by sending
+     this header field in a SET-PARAMS method.  The current default value
+     of this header field for a resource in a session can be found through
+     a GET-PARAMS method.  This header field MAY occur on any request.
+"fixed": |-
+  The Accept header field follows the syntax defined in [H14.1].  The semantics are also identical, with the exception that if no Accept header field is present, the server MUST assume a default value that is specific to the resource type that is being controlled.  This default value can be changed for a resource on a session by sending this header field in a SET-PARAMS method.  The current default value of this header field for a resource in a session can be found through a GET-PARAMS method.  This header field MAY occur on any request.
+"ko": |-
+  Accept 헤더 필드는 [H14.1]에 정의된 구문을 따릅니다. 의미도 동일하지만 Accept 헤더 필드가 없는 경우 서버는 제어되는 리소스 유형에 특정한 기본값을 가정해야 합니다. 이 기본값은 SET-PARAMS 메서드에서 이 헤더 필드를 보내 세션의 리소스에 대해 변경할 수 있습니다. 세션의 리소스에 대한 이 헤더 필드의 현재 기본값은 GET-PARAMS 메서드를 통해 찾을 수 있습니다. 이 헤더 필드는 모든 요청에서 발생할 수 있습니다.

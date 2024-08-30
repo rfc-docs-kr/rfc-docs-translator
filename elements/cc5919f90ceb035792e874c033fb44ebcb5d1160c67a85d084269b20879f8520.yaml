@@ -1,0 +1,17 @@
+"hash": |-
+  cc5919f90ceb035792e874c033fb44ebcb5d1160c67a85d084269b20879f8520
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This operation removes the "job-hold-until" Job attribute, if
+     present, from the Job that had been supplied in the Create-Job or
+     most recent Hold-Job or Restart-Job operation and removes its effect
+     on the Job.  The Printer MUST remove the "job-hold-until-specified"
+     value from the Job's "job-state-reasons" attribute, if present.  See
+     Section 5.3.8.
+"fixed": |-
+  This operation removes the "job-hold-until" Job attribute, if present, from the Job that had been supplied in the Create-Job or most recent Hold-Job or Restart-Job operation and removes its effect on the Job.  The Printer MUST remove the "job-hold-until-specified" value from the Job's "job-state-reasons" attribute, if present.  See Section 5.3.8.
+"ko": |-
+  이 작업은 Create-Job이나 가장 최근의 Hold-Job 또는 Restart-Job 작업에서 제공된 작업에서 "job-hold-until" 작업 속성(있는 경우)을 제거하고 작업에 미치는 영향을 제거합니다. 프린터는 작업의 "job-state-reasons" 속성에서 "job-hold-until-specified" 값(있는 경우)을 제거해야 합니다. 섹션 5.3.8을 참조하십시오.

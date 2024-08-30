@@ -1,0 +1,15 @@
+"hash": |-
+  54e9a5a3ae82fbb02ef6adfcfd6f2bc3a6f63c0ebf15efc048556227b6870c28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Include a field containing the algorithm in the application
+        payload, and require that it be matched with the "alg" Header
+        Parameter during verification.  (This is the approach taken by
+        PKIX [RFC5280].)
+"fixed": |-
+  -  Include a field containing the algorithm in the application payload, and require that it be matched with the "alg" Header Parameter during verification.  (This is the approach taken by PKIX [RFC5280].)
+"ko": |-
+  - 애플리케이션 페이로드에 알고리즘을 포함하는 필드를 포함하고 검증 중에 "alg" 헤더 매개변수와 일치하도록 요구합니다. (이것은 PKIX [RFC5280]에서 취한 접근 방식입니다.)

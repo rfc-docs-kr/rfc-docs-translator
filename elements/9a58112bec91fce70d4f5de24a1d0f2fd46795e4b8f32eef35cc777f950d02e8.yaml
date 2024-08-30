@@ -1,0 +1,15 @@
+"hash": |-
+  9a58112bec91fce70d4f5de24a1d0f2fd46795e4b8f32eef35cc777f950d02e8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The expected value of the Marker field of the message header is all
+     ones.  If the Marker field of the message header is not as expected,
+     then a synchronization error has occurred and the Error Subcode MUST
+     be set to Connection Not Synchronized.
+"fixed": |-
+  The expected value of the Marker field of the message header is all ones.  If the Marker field of the message header is not as expected, then a synchronization error has occurred and the Error Subcode MUST be set to Connection Not Synchronized.
+"ko": |-
+  메시지 헤더의 Marker 필드의 예상 값은 모두 1입니다. 메시지 헤더의 마커 필드가 예상과 다른 경우 동기화 오류가 발생한 것이며 오류 하위 코드를 연결이 동기화되지 않음으로 설정해야 합니다.

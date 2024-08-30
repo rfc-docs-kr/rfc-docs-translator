@@ -1,0 +1,24 @@
+"hash": |-
+  ad217e2c942820b3f81dad170e5ac714a31fb6f4b238e5d04d53fbd8a4de5cc2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server MAY include the "client_no_context_takeover" extension
+     parameter in an extension negotiation response.  If the received
+     extension negotiation offer includes the "client_no_context_takeover"
+     extension parameter, the server may either ignore the parameter or
+     use the parameter to avoid taking over the LZ77 sliding window
+     unnecessarily by including the "client_no_context_takeover" extension
+     parameter in the corresponding extension negotiation response to the
+     offer.  The "client_no_context_takeover" extension parameter in an
+     extension negotiation response has no value.  By including the
+     "client_no_context_takeover" extension parameter in an extension
+     negotiation response, a server prevents the peer client from using
+     context takeover.  This reduces the amount of memory that the server
+     has to reserve for the connection.
+"fixed": |-
+  A server MAY include the "client_no_context_takeover" extension parameter in an extension negotiation response.  If the received extension negotiation offer includes the "client_no_context_takeover" extension parameter, the server may either ignore the parameter or use the parameter to avoid taking over the LZ77 sliding window unnecessarily by including the "client_no_context_takeover" extension parameter in the corresponding extension negotiation response to the offer.  The "client_no_context_takeover" extension parameter in an extension negotiation response has no value.  By including the "client_no_context_takeover" extension parameter in an extension negotiation response, a server prevents the peer client from using context takeover.  This reduces the amount of memory that the server has to reserve for the connection.
+"ko": |-
+  서버는 확장 협상 응답에 "client_no_context_takeover" 확장 매개변수를 포함할 수 있습니다.  수신된 확장 협상 제안에 "client_no_context_takeover" 확장 매개변수가 포함된 경우 서버는 매개변수를 무시하거나 해당 확장 협상 응답에 "client_no_context_takeover" 확장 매개변수를 포함하여 LZ77 슬라이딩 윈도우를 불필요하게 인수하는 것을 피하기 위해 매개변수를 사용할 수 있습니다. 권하다.  확장 협상 응답의 "client_no_context_takeover" 확장 매개변수에는 값이 없습니다.  확장 협상 응답에 "client_no_context_takeover" 확장 매개변수를 포함함으로써 서버는 피어 클라이언트가 컨텍스트 인계를 사용하는 것을 방지합니다.  이렇게 하면 서버가 연결을 위해 예약해야 하는 메모리 양이 줄어듭니다.

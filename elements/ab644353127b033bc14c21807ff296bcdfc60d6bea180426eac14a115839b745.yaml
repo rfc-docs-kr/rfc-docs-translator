@@ -1,0 +1,18 @@
+"hash": |-
+  ab644353127b033bc14c21807ff296bcdfc60d6bea180426eac14a115839b745
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     WebFinger resources might not be accessible from a web browser due to
+     "Same-Origin" policies.  The current best practice is to make
+     resources available to browsers through Cross-Origin Resource Sharing
+     (CORS) [7], and servers MUST include the Access-Control-Allow-Origin
+     HTTP header in responses.  Servers SHOULD support the least
+     restrictive setting by allowing any domain access to the WebFinger
+     resource:
+"fixed": |-
+  WebFinger resources might not be accessible from a web browser due to "Same-Origin" policies.  The current best practice is to make resources available to browsers through Cross-Origin Resource Sharing (CORS) [7], and servers MUST include the Access-Control-Allow-Origin HTTP header in responses.  Servers SHOULD support the least restrictive setting by allowing any domain access to the WebFinger resource:
+"ko": |-
+  WebFinger 리소스는 "Same-Origin" 정책으로 인해 웹 브라우저에서 액세스하지 못할 수도 있습니다. 현재 모범 사례는 CORS(Cross-Origin Resource Sharing)[7]를 통해 브라우저에서 리소스를 사용할 수 있도록 하는 것이며, 서버는 응답에 Access-Control-Allow-Origin HTTP 헤더를 포함해야 합니다. 서버는 WebFinger 리소스에 대한 모든 도메인 액세스를 허용하여 최소한의 제한 설정을 지원해야 합니다.

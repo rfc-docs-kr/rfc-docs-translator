@@ -1,0 +1,19 @@
+"hash": |-
+  c07c71b9daafbf4a65010e1246b22ea87e8d674f7495a50d800ed54ea5836dca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Coalescing packets in order of increasing encryption levels (Initial,
+     0-RTT, Handshake, 1-RTT; see Section 4.1.4 of [QUIC-TLS]) makes it
+     more likely that the receiver will be able to process all the packets
+     in a single pass.  A packet with a short header does not include a
+     length, so it can only be the last packet included in a UDP datagram.
+     An endpoint SHOULD include multiple frames in a single packet if they
+     are to be sent at the same encryption level, instead of coalescing
+     multiple packets at the same encryption level.
+"fixed": |-
+  Coalescing packets in order of increasing encryption levels (Initial, 0-RTT, Handshake, 1-RTT; see Section 4.1.4 of [QUIC-TLS]) makes it more likely that the receiver will be able to process all the packets in a single pass.  A packet with a short header does not include a length, so it can only be the last packet included in a UDP datagram. An endpoint SHOULD include multiple frames in a single packet if they are to be sent at the same encryption level, instead of coalescing multiple packets at the same encryption level.
+"ko": |-
+  암호화 수준이 높아지는 순서(초기, 0-RTT, 핸드셰이크, 1-RTT; [QUIC-TLS]의 섹션 4.1.4 참조)로 패킷을 병합하면 수신자가 모든 패킷을 한 번에 처리할 수 있는 가능성이 높아집니다. 싱글 패스. 짧은 헤더를 가진 패킷은 길이를 포함하지 않으므로 UDP 데이터그램에 포함된 마지막 패킷만 될 수 있습니다. 엔드포인트는 동일한 암호화 수준에서 여러 패킷을 통합하는 대신 동일한 암호화 수준에서 전송되어야 하는 경우 단일 패킷에 여러 프레임을 포함해야 합니다.

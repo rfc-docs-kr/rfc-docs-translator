@@ -1,0 +1,17 @@
+"hash": |-
+  ebb0cc7b909f258aa65b394f5057802006a60e9fe01ff27453ef853e1db882e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the recipient permits the migration, it MUST send subsequent
+     packets to the new peer address and MUST initiate path validation
+     (Section 8.2) to verify the peer's ownership of the address if
+     validation is not already underway.  If the recipient has no unused
+     connection IDs from the peer, it will not be able to send anything on
+     the new path until the peer provides one; see Section 9.5.
+"fixed": |-
+  If the recipient permits the migration, it MUST send subsequent packets to the new peer address and MUST initiate path validation (Section 8.2) to verify the peer's ownership of the address if validation is not already underway.  If the recipient has no unused connection IDs from the peer, it will not be able to send anything on the new path until the peer provides one; see Section 9.5.
+"ko": |-
+  수신자가 마이그레이션을 허용하는 경우 후속 패킷을 새로운 피어 주소로 보내야 하며 검증이 아직 진행되지 않은 경우 피어의 주소 소유권을 확인하기 위해 경로 검증(8.2절)을 시작해야 합니다. 수신자에게 피어로부터 사용되지 않은 연결 ID가 없으면 피어가 이를 제공할 때까지 새 경로에서 아무 것도 보낼 수 없습니다. 섹션 9.5를 참조하세요.

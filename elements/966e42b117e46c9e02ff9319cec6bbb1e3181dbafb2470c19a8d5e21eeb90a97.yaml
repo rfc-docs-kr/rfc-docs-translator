@@ -1,0 +1,16 @@
+"hash": |-
+  966e42b117e46c9e02ff9319cec6bbb1e3181dbafb2470c19a8d5e21eeb90a97
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An UPDATE message can list multiple routes that are to be withdrawn
+     from service.  Each such route is identified by its destination
+     (expressed as an IP prefix), which unambiguously identifies the route
+     in the context of the BGP speaker - BGP speaker connection to which
+     it has been previously advertised.
+"fixed": |-
+  An UPDATE message can list multiple routes that are to be withdrawn from service.  Each such route is identified by its destination (expressed as an IP prefix), which unambiguously identifies the route in the context of the BGP speaker - BGP speaker connection to which it has been previously advertised.
+"ko": |-
+  UPDATE 메시지는 서비스에서 철회될 여러 경로를 나열할 수 있습니다. 이러한 각 경로는 대상(IP 접두사로 표시)으로 식별되며, 이는 이전에 알려진 BGP 스피커 연결인 BGP 스피커의 컨텍스트에서 경로를 명확하게 식별합니다.

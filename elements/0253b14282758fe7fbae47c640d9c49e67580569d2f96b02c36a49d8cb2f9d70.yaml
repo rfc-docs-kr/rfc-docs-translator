@@ -1,0 +1,19 @@
+"hash": |-
+  0253b14282758fe7fbae47c640d9c49e67580569d2f96b02c36a49d8cb2f9d70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server accepts an extension negotiation offer with this parameter
+     by including the "server_max_window_bits" extension parameter in the
+     extension negotiation response to send back to the client with the
+     same or smaller value as the offer.  The "server_max_window_bits"
+     extension parameter in an extension negotiation response has a
+     decimal integer value without leading zeroes between 8 to 15,
+     inclusive, indicating the base-2 logarithm of the LZ77 sliding window
+     size, and MUST conform to the ABNF below.
+"fixed": |-
+  A server accepts an extension negotiation offer with this parameter by including the "server_max_window_bits" extension parameter in the extension negotiation response to send back to the client with the same or smaller value as the offer.  The "server_max_window_bits" extension parameter in an extension negotiation response has a decimal integer value without leading zeroes between 8 to 15, inclusive, indicating the base-2 logarithm of the LZ77 sliding window size, and MUST conform to the ABNF below.
+"ko": |-
+  서버는 제안과 동일하거나 더 작은 값으로 클라이언트에 다시 보내기 위해 확장 협상 응답에 "server_max_window_bits" 확장 매개변수를 포함하여 이 매개변수가 있는 확장 협상 제안을 수락합니다.  확장 협상 응답의 "server_max_window_bits" 확장 매개변수는 LZ77 슬라이딩 윈도우 크기의 밑이 2인 로그를 나타내는 8에서 15 사이의 앞에 0이 없는 십진수 정수 값을 가지며 아래 ABNF를 준수해야 합니다.

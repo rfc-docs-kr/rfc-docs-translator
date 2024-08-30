@@ -1,0 +1,18 @@
+"hash": |-
+  b03f7465b0829c2803ad9893025b9eb7ffc36ea17400ca55b85d50972fd4be79
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Additionally, a malicious non-member can reroute handshakes between
+     honest group members to connect them in unintended ways, as described
+     below.  Note that a partial mitigation for this class of attack is
+     available: each group member includes the Server Name Indication
+     (SNI) extension [RFC6066] and terminates the connection on mismatch
+     between the presented SNI value and the receiving member's known
+     identity.  See [Selfie] for details.
+"fixed": |-
+  Additionally, a malicious non-member can reroute handshakes between honest group members to connect them in unintended ways, as described below.  Note that a partial mitigation for this class of attack is available: each group member includes the Server Name Indication (SNI) extension [RFC6066] and terminates the connection on mismatch between the presented SNI value and the receiving member's known identity.  See [Selfie] for details.
+"ko": |-
+  또한 악의적인 비회원은 아래 설명된 것처럼 정직한 그룹 구성원 간의 핸드셰이크 경로를 재설정하여 의도하지 않은 방식으로 연결할 수 있습니다.  이 공격 클래스에 대한 부분 완화가 가능합니다. 각 그룹 구성원은 SNI(서버 이름 표시) 확장 [RFC6066]을 포함하고 제시된 SNI 값과 수신 구성원의 알려진 ID가 일치하지 않으면 연결을 종료합니다.  자세한 내용은 [셀카]를 참조하세요.

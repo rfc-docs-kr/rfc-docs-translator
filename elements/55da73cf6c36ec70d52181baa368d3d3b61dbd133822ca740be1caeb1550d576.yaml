@@ -1,0 +1,17 @@
+"hash": |-
+  55da73cf6c36ec70d52181baa368d3d3b61dbd133822ca740be1caeb1550d576
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        c) Remove from consideration routes with less-preferred
+           MULTI_EXIT_DISC attributes.  MULTI_EXIT_DISC is only comparable
+           between routes learned from the same neighboring AS (the
+           neighboring AS is determined from the AS_PATH attribute).
+           Routes that do not have the MULTI_EXIT_DISC attribute are
+           considered to have the lowest possible MULTI_EXIT_DISC value.
+"fixed": |-
+  - c) Remove from consideration routes with less-preferred MULTI_EXIT_DISC attributes.  MULTI_EXIT_DISC is only comparable between routes learned from the same neighboring AS (the neighboring AS is determined from the AS_PATH attribute). Routes that do not have the MULTI_EXIT_DISC attribute are considered to have the lowest possible MULTI_EXIT_DISC value.
+"ko": |-
+  - c) 덜 선호되는 MULTI_EXIT_DISC 속성이 있는 고려 경로에서 제거합니다. MULTI_EXIT_DISC는 동일한 인접 AS에서 학습된 경로 간에만 비교할 수 있습니다(인접 AS는 AS_PATH 속성에서 결정됨). MULTI_EXIT_DISC 속성이 없는 경로는 가능한 가장 낮은 MULTI_EXIT_DISC 값을 갖는 것으로 간주됩니다.

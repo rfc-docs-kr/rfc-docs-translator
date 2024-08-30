@@ -1,0 +1,26 @@
+"hash": |-
+  c79690ee8a6063fcfad001d76eed20b2d2679fa2bce6da4fe427d91ae4fec74c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since the associated HTTP client on an MRCPv2 server fetches
+     documents for processing on behalf of the MRCPv2 client, the cookie
+     store in the HTTP client of the MRCPv2 server is treated as an
+     extension of the cookie store in the HTTP client of the MRCPv2
+     client.  This requires that the MRCPv2 client and server be able to
+     synchronize their common cookie store as needed.  To enable the
+     MRCPv2 client to push its stored cookies to the MRCPv2 server and get
+     new cookies from the MRCPv2 server stored back to the MRCPv2 client,
+     the Set-Cookie entity-header field MAY be included in MRCPv2 requests
+     to update the cookie store on a server and be returned in final
+     MRCPv2 responses or events to subsequently update the client's own
+     cookie store.  The stored cookies on the server persist for the
+     duration of the MRCPv2 session and MUST be destroyed at the end of
+     the session.  To ensure support for cookies, MRCPv2 clients and
+     servers MUST support the Set-Cookie entity-header field.
+"fixed": |-
+  Since the associated HTTP client on an MRCPv2 server fetches documents for processing on behalf of the MRCPv2 client, the cookie store in the HTTP client of the MRCPv2 server is treated as an extension of the cookie store in the HTTP client of the MRCPv2 client.  This requires that the MRCPv2 client and server be able to synchronize their common cookie store as needed.  To enable the MRCPv2 client to push its stored cookies to the MRCPv2 server and get new cookies from the MRCPv2 server stored back to the MRCPv2 client, the Set-Cookie entity-header field MAY be included in MRCPv2 requests to update the cookie store on a server and be returned in final MRCPv2 responses or events to subsequently update the client's own cookie store.  The stored cookies on the server persist for the duration of the MRCPv2 session and MUST be destroyed at the end of the session.  To ensure support for cookies, MRCPv2 clients and servers MUST support the Set-Cookie entity-header field.
+"ko": |-
+  MRCPv2 서버의 연관된 HTTP 클라이언트가 MRCPv2 클라이언트를 대신하여 처리할 문서를 가져오기 때문에 MRCPv2 서버의 HTTP 클라이언트에 있는 쿠키 저장소는 MRCPv2 클라이언트의 HTTP 클라이언트에 있는 쿠키 저장소의 확장으로 처리됩니다. 이를 위해서는 MRCPv2 클라이언트와 서버가 필요에 따라 공통 쿠키 저장소를 동기화할 수 있어야 합니다. MRCPv2 클라이언트가 저장된 쿠키를 MRCPv2 서버로 푸시하고 MRCPv2 서버에서 MRCPv2 클라이언트로 다시 저장된 새 쿠키를 가져올 수 있도록 하려면 Set-Cookie 엔티티 헤더 필드를 MRCPv2 요청에 포함하여 서버의 쿠키 저장소를 업데이트하고 최종 MRCPv2 응답 또는 이벤트에서 반환하여 나중에 클라이언트의 자체 쿠키 저장소를 업데이트할 수 있습니다. 서버에 저장된 쿠키는 MRCPv2 세션 동안 지속되며 세션이 끝나면 반드시 파기해야 합니다. 쿠키에 대한 지원을 보장하려면 MRCPv2 클라이언트와 서버는 Set-Cookie 엔티티 헤더 필드를 지원해야 합니다.

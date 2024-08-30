@@ -1,0 +1,18 @@
+"hash": |-
+  19ebc6efd6c15a81f24ca694fb071b9cefd86801eacdee7fb9b93d13f6a8e911
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  For the first URI, 'ipp://printer.example.com/ipp/print/
+        open-use-printer', the value 'none' in "uri-security-supported"
+        indicates that there is no secure channel protocol configured to
+        run under HTTP.  The value of 'none' in
+        "uri-authentication-supported" indicates that all users are
+        'anonymous'.  There will be no challenge, and the Printer will
+        ignore "requesting-user-name".
+"fixed": |-
+  -  For the first URI, 'ipp://printer.example.com/ipp/print/ open-use-printer', the value 'none' in "uri-security-supported" indicates that there is no secure channel protocol configured to run under HTTP.  The value of 'none' in "uri-authentication-supported" indicates that all users are 'anonymous'.  There will be no challenge, and the Printer will ignore "requesting-user-name".
+"ko": |-
+  - 첫 번째 URI 'ipp://printer.example.com/ipp/print/ open-use-printer'의 경우 "uri-security-supported"의 'none' 값은 구성된 보안 채널 프로토콜이 없음을 나타냅니다. HTTP에서 실행합니다. "uri-authentication-supported"의 'none' 값은 모든 사용자가 '익명'임을 나타냅니다. 질문이 없으며 프린터는 "요청하는 사용자 이름"을 무시합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  7ba42e96e612881d71ebcb7f735391e7127abd8b57c93f09eff992b49b103e89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     the packet is discarded, thus avoiding the need for any cryptographic
+     operations by the receiver.  If the preliminary check is successful,
+     the receiver cannot yet modify its local counter, because the
+     integrity of the Sequence Number has not been verified at this point.
+"fixed": |-
+  the packet is discarded, thus avoiding the need for any cryptographic operations by the receiver.  If the preliminary check is successful, the receiver cannot yet modify its local counter, because the integrity of the Sequence Number has not been verified at this point.
+"ko": |-
+  패킷은 폐기되므로 수신자의 암호화 작업이 필요하지 않습니다.  예비 검사가 성공하면 이 시점에서 시퀀스 번호의 무결성이 확인되지 않았기 때문에 수신자는 아직 로컬 카운터를 수정할 수 없습니다.

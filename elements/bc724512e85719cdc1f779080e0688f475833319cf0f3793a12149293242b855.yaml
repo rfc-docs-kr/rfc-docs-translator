@@ -1,0 +1,16 @@
+"hash": |-
+  bc724512e85719cdc1f779080e0688f475833319cf0f3793a12149293242b855
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     def encodeUCoordinate(u, bits):
+         u = u % p
+         return ''.join([chr((u >> 8*i) & 0xff)
+                         for i in range((bits+7)/8)])
+     <CODE ENDS>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

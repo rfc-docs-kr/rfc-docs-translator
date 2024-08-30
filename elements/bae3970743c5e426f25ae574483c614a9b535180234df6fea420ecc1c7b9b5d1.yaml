@@ -1,0 +1,14 @@
+"hash": |-
+  bae3970743c5e426f25ae574483c614a9b535180234df6fea420ecc1c7b9b5d1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the BGP FSM receives a Tcp_CR_Invalid event (Event 15), the
+        local system rejects the TCP connection, and the connection
+        remains in the Connect state.
+"fixed": |-
+  - If the BGP FSM receives a Tcp_CR_Invalid event (Event 15), the local system rejects the TCP connection, and the connection remains in the Connect state.
+"ko": |-
+  - BGP FSM이 Tcp_CR_Invalid 이벤트(이벤트 15)를 수신하면 로컬 시스템은 TCP 연결을 거부하고 연결은 Connect 상태로 유지됩니다.

@@ -1,0 +1,1 @@
+인증서 또는 인증서 체인을 검색하는 데 사용되는 프로토콜이 MIME 형식의 응답(HTTP와 마찬가지로)을 반환하는 경우 다음 MIME 콘텐츠 유형을 사용해야 합니다. 단일 X.509v3 인증서가 반환되면 콘텐츠 유형은 "application"입니다. /pkix-cert" [RFC2585], X.509v3 인증서 체인이 반환되면 Content-Type은 "application/pkix-pkipath"(섹션 10.1)입니다.

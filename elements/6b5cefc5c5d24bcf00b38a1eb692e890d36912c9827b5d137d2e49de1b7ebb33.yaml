@@ -1,0 +1,25 @@
+"hash": |-
+  6b5cefc5c5d24bcf00b38a1eb692e890d36912c9827b5d137d2e49de1b7ebb33
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Compound objects in MIME are represented using the 'multipart/
+     related' content type [RFC2387].  The body parts within a particular
+     'multipart/related' body are all part of a compound object and are
+     processed as such.  The body part within a 'multipart/related' body
+     that needs to be processed first is referred to as the 'root' body
+     part.  The root body part of a 'multipart/related' body is identified
+     by the 'start' parameter, which is a Content-Type header field
+     parameter and contains a Content-ID URL pointing to the root body
+     part.  If the start parameter is not present, the root body part is,
+     by default, the first body part of the 'multipart/related'.  An
+     example of a compound object is a web page that contains images.  The
+     html body part would be the root.  The remaining body parts would
+     contain the images.  An example of a SIP extension using 'multipart/
+     related' is specified in [RFC4662].
+"fixed": |-
+  Compound objects in MIME are represented using the 'multipart/ related' content type [RFC2387].  The body parts within a particular 'multipart/related' body are all part of a compound object and are processed as such.  The body part within a 'multipart/related' body that needs to be processed first is referred to as the 'root' body part.  The root body part of a 'multipart/related' body is identified by the 'start' parameter, which is a Content-Type header field parameter and contains a Content-ID URL pointing to the root body part.  If the start parameter is not present, the root body part is, by default, the first body part of the 'multipart/related'.  An example of a compound object is a web page that contains images.  The html body part would be the root.  The remaining body parts would contain the images.  An example of a SIP extension using 'multipart/ related' is specified in [RFC4662].
+"ko": |-
+  MIME의 복합 객체는 'multipart/related' 콘텐츠 유형[RFC2387]을 사용하여 표현됩니다. 특정 'multipart/related' 본문 내의 본문 부분은 모두 복합 객체의 일부이며 그에 따라 처리됩니다. 먼저 처리해야 하는 'multipart/related' 본문 내의 본문 부분을 '루트' 본문 부분이라고 합니다. 'multipart/related' 본문의 루트 본문 부분은 'start' 매개변수로 식별되며, 이는 Content-Type 헤더 필드 매개변수이고 루트 본문 부분을 가리키는 Content-ID URL을 포함합니다. 시작 매개변수가 없으면 루트 본문 부분은 기본적으로 'multipart/related'의 첫 번째 본문 부분입니다. 복합 객체의 예로는 이미지가 포함된 웹 페이지가 있습니다. html 본문 부분은 루트가 됩니다. 나머지 본문 부분에는 이미지가 포함됩니다. 'multipart/related'를 사용하는 SIP 확장의 예는 [RFC4662]에 지정되어 있습니다.

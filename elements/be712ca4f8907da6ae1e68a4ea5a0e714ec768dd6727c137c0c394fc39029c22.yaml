@@ -1,0 +1,19 @@
+"hash": |-
+  be712ca4f8907da6ae1e68a4ea5a0e714ec768dd6727c137c0c394fc39029c22
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server completion result response indicates the success or
+     failure of the operation.  It is tagged with the same tag as the
+     client command that began the operation.  Thus, if more than one
+     command is in progress, the tag in a server completion response
+     identifies the command to which the response applies.  There are
+     three possible server completion responses: OK (indicating success),
+     NO (indicating failure), or BAD (indicating a protocol error such as
+     unrecognized command or command syntax error).
+"fixed": |-
+  The server completion result response indicates the success or failure of the operation.  It is tagged with the same tag as the client command that began the operation.  Thus, if more than one command is in progress, the tag in a server completion response identifies the command to which the response applies.  There are three possible server completion responses: OK (indicating success), NO (indicating failure), or BAD (indicating a protocol error such as unrecognized command or command syntax error).
+"ko": |-
+  서버 완료 결과 응답은 작업의 성공 또는 실패를 나타냅니다.  작업을 시작한 클라이언트 명령과 동일한 태그가 지정됩니다.  따라서 둘 이상의 명령이 진행 중인 경우 서버 완료 응답의 태그는 응답이 적용되는 명령을 식별합니다.  가능한 서버 완료 응답에는 OK(성공을 나타냄), NO(실패를 나타냄) 또는 BAD(인식할 수 없는 명령 또는 명령 구문 오류와 같은 프로토콜 오류를 나타냄)의 세 가지 응답이 있습니다.

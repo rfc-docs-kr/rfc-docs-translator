@@ -1,0 +1,23 @@
+"hash": |-
+  7bd318a5c5e72b2ebe85b3fb4760334429eb8773dafc3c9e6522121ceb10456c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server SHOULD send the same header fields in response to a HEAD
+     request as it would have sent if the request method had been GET.
+     However, a server MAY omit header fields for which a value is
+     determined only while generating the content.  For example, some
+     servers buffer a dynamic response to GET until a minimum amount of
+     data is generated so that they can more efficiently delimit small
+     responses or make late decisions with regard to content selection.
+     Such a response to GET might contain Content-Length and Vary fields,
+     for example, that are not generated within a HEAD response.  These
+     minor inconsistencies are considered preferable to generating and
+     discarding the content for a HEAD request, since HEAD is usually
+     requested for the sake of efficiency.
+"fixed": |-
+  The server SHOULD send the same header fields in response to a HEAD request as it would have sent if the request method had been GET. However, a server MAY omit header fields for which a value is determined only while generating the content.  For example, some servers buffer a dynamic response to GET until a minimum amount of data is generated so that they can more efficiently delimit small responses or make late decisions with regard to content selection. Such a response to GET might contain Content-Length and Vary fields, for example, that are not generated within a HEAD response.  These minor inconsistencies are considered preferable to generating and discarding the content for a HEAD request, since HEAD is usually requested for the sake of efficiency.
+"ko": |-
+  서버는 HEAD 요청에 대한 응답으로 요청 메소드가 GET인 경우 전송했을 것과 동일한 헤더 필드를 전송해야 합니다(SHOULD). 그러나 서버는 콘텐츠를 생성하는 동안에만 값이 결정되는 헤더 필드를 생략할 수 있습니다. 예를 들어, 일부 서버는 작은 응답을 보다 효율적으로 구분하거나 콘텐츠 선택과 관련하여 늦은 결정을 내릴 수 있도록 최소량의 데이터가 생성될 때까지 GET에 대한 동적 응답을 버퍼링합니다. GET에 대한 이러한 응답에는 HEAD 응답 내에서 생성되지 않는 Content-Length 및 Vary 필드가 포함될 수 있습니다. HEAD는 일반적으로 효율성을 위해 요청되므로 이러한 사소한 불일치는 HEAD 요청에 대한 콘텐츠를 생성하고 삭제하는 것보다 선호되는 것으로 간주됩니다.

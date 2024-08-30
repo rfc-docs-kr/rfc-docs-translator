@@ -1,0 +1,16 @@
+"hash": |-
+  ce17e041485a245aad2dced6268fdd248a52960ee30a4623036d8e80e92762a3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  An on-path attacker can prevent the use of a path for a
+         connection, causing the connection to fail if it cannot use a
+         different path that does not contain the attacker.  This can be
+         achieved by dropping all packets, modifying them so that they
+         fail to decrypt, or other methods.
+"fixed": |-
+  1.  An on-path attacker can prevent the use of a path for a connection, causing the connection to fail if it cannot use a different path that does not contain the attacker.  This can be achieved by dropping all packets, modifying them so that they fail to decrypt, or other methods.
+"ko": |-
+  1. 경로상 공격자는 연결 경로 사용을 방해할 수 있으며, 공격자가 포함되지 않은 다른 경로를 사용할 수 없으면 연결이 실패하게 됩니다. 이는 모든 패킷을 삭제하거나, 암호 해독에 실패하도록 수정하거나, 기타 방법을 통해 수행할 수 있습니다.

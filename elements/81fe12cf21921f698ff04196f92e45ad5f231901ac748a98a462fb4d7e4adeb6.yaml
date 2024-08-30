@@ -1,0 +1,19 @@
+"hash": |-
+  81fe12cf21921f698ff04196f92e45ad5f231901ac748a98a462fb4d7e4adeb6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The length of the digital signature can be derived from the Live
+     Signature Algorithm protocol option and the swarm ID as follows.  The
+     first mandatory algorithms are RSASHA1 and RSASHA256.  For those
+     algorithms, the swarm ID consists of a 1-byte Algorithm field
+     followed by an RSA public key stored as a tuple (exponent length,
+     exponent, modulus) [RFC3110].  Given the exponent length and the
+     length of the public key tuple in the swarm ID, the length of the
+     modulus in bytes can be calculated.  This yields the length of the
+"fixed": |-
+  The length of the digital signature can be derived from the Live Signature Algorithm protocol option and the swarm ID as follows.  The first mandatory algorithms are RSASHA1 and RSASHA256.  For those algorithms, the swarm ID consists of a 1-byte Algorithm field followed by an RSA public key stored as a tuple (exponent length, exponent, modulus) [RFC3110].  Given the exponent length and the length of the public key tuple in the swarm ID, the length of the modulus in bytes can be calculated.  This yields the length of the
+"ko": |-
+  디지털 서명의 길이는 Live Signature Algorithm 프로토콜 옵션과 Swarm ID를 통해 다음과 같이 도출할 수 있습니다. 첫 번째 필수 알고리즘은 RSASHA1 및 RSASHA256입니다. 이러한 알고리즘의 경우 떼 ID는 1바이트 알고리즘 필드와 튜플(지수 길이, 지수, 모듈러스) [RFC3110]로 저장된 RSA 공개 키로 구성됩니다. Swarm ID의 공개 키 튜플 길이와 지수 길이가 주어지면 모듈러스 길이(바이트)를 계산할 수 있습니다. 이는 다음의 길이를 산출합니다.

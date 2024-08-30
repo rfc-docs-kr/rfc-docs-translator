@@ -1,0 +1,16 @@
+"hash": |-
+  dc2d06543bbebba7ad8d4783ca3262e7b54a53cd39fa694d46ce6798ebfbc8e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     protected
+        The "protected" member MUST be present and contain the value
+        BASE64URL(UTF8(JWE Protected Header)) when the JWE Protected
+        Header value is non-empty; otherwise, it MUST be absent.  These
+        Header Parameter values are integrity protected.
+"fixed": |-
+  protected  -  The "protected" member MUST be present and contain the value BASE64URL(UTF8(JWE Protected Header)) when the JWE Protected Header value is non-empty; otherwise, it MUST be absent.  These Header Parameter values are integrity protected.
+"ko": |-
+  protected - "protected" 멤버는 반드시 존재해야 하며 JWE Protected Header 값이 비어 있지 않으면 BASE64URL(UTF8(JWE Protected Header)) 값을 포함해야 합니다. 그렇지 않으면 반드시 없어야 합니다. 이러한 헤더 매개변수 값은 무결성 보호됩니다.

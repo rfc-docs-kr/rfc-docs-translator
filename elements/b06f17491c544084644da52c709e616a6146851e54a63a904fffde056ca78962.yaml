@@ -1,0 +1,20 @@
+"hash": |-
+  b06f17491c544084644da52c709e616a6146851e54a63a904fffde056ca78962
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In principle, existing IPsec implementations could have made use of
+     this capability previously, in a transparent fashion.  However,
+     because receivers may not have been prepared to deal with this
+     padding, the SA management protocol MUST negotiate this service prior
+     to a transmitter employing it, to ensure backward compatibility.
+     Combined with the convention described in Section 2.6 above, about
+     the use of protocol ID 59, an ESP implementation is capable of
+     generating dummy and real packets that exhibit much greater length
+     variability, in support of TFC.
+"fixed": |-
+  In principle, existing IPsec implementations could have made use of this capability previously, in a transparent fashion.  However, because receivers may not have been prepared to deal with this padding, the SA management protocol MUST negotiate this service prior to a transmitter employing it, to ensure backward compatibility. Combined with the convention described in Section 2.6 above, about the use of protocol ID 59, an ESP implementation is capable of generating dummy and real packets that exhibit much greater length variability, in support of TFC.
+"ko": |-
+  원칙적으로 기존 IPsec 구현에서는 이전에 투명한 방식으로 이 기능을 사용할 수 있었습니다.  그러나 수신기가 이 패딩을 처리할 준비가 되어 있지 않을 수 있으므로 SA 관리 프로토콜은 이전 버전과의 호환성을 보장하기 위해 송신기가 이를 사용하기 전에 이 서비스를 협상해야 합니다. 프로토콜 ID 59의 사용에 관해 위의 섹션 2.6에 설명된 규칙과 결합하여 ESP 구현은 TFC를 지원하여 훨씬 더 큰 길이 가변성을 나타내는 더미 및 실제 패킷을 생성할 수 있습니다.

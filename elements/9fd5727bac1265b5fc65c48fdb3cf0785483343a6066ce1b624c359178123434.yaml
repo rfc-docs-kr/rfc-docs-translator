@@ -1,0 +1,17 @@
+"hash": |-
+  9fd5727bac1265b5fc65c48fdb3cf0785483343a6066ce1b624c359178123434
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |-
+  generic-field    =    field-name ":" [ field-value ]
+  field-name       =    token
+  field-value      =    *LWS field-content *( CRLF 1*LWS field-content)
+  field-content    =    <the OCTETs making up the field-value
+                        and consisting of either *TEXT or combinations
+                        of token, separators, and quoted-string>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

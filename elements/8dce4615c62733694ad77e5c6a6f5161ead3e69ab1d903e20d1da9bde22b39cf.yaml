@@ -1,0 +1,15 @@
+"hash": |-
+  8dce4615c62733694ad77e5c6a6f5161ead3e69ab1d903e20d1da9bde22b39cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each packet number space maintains separate acknowledgment state and
+     separate ECN counts.  Coalesced QUIC packets (see Section 12.2) share
+     the same IP header so the ECN counts are incremented once for each
+     coalesced QUIC packet.
+"fixed": |-
+  Each packet number space maintains separate acknowledgment state and separate ECN counts.  Coalesced QUIC packets (see Section 12.2) share the same IP header so the ECN counts are incremented once for each coalesced QUIC packet.
+"ko": |-
+  각 패킷 번호 공간은 별도의 승인 상태와 별도의 ECN 카운트를 유지합니다. 병합된 QUIC 패킷(섹션 12.2 참조)은 동일한 IP 헤더를 공유하므로 ECN 개수는 병합된 QUIC 패킷마다 한 번씩 증가합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  7e6ff8bd9a690f97457c95b6a9bc0a6c40547dcc8c54b6609c5dc77c40c6cd05
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If a connection in the OpenSent state is determined to be the
+        connection that must be closed, an OpenCollisionDump (Event 23) is
+        signaled to the state machine.  If such an event is received in
+        the OpenSent state, the local system:
+"fixed": |-
+  - If a connection in the OpenSent state is determined to be the connection that must be closed, an OpenCollisionDump (Event 23) is signaled to the state machine.  If such an event is received in the OpenSent state, the local system:
+"ko": |-
+  - OpenSent 상태의 연결이 닫혀야 하는 연결로 판단되면 OpenCollisionDump(이벤트 23)가 상태 머신에 신호를 보냅니다. OpenSent 상태에서 이러한 이벤트가 수신되면 로컬 시스템은 다음을 수행합니다.

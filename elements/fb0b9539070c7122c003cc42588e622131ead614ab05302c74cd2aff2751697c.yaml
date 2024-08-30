@@ -1,0 +1,18 @@
+"hash": |-
+  fb0b9539070c7122c003cc42588e622131ead614ab05302c74cd2aff2751697c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Control frames contribute to connection overhead.  Therefore,
+     frequently sending MAX_STREAM_DATA and MAX_DATA frames with small
+     changes is undesirable.  On the other hand, if updates are less
+     frequent, larger increments to limits are necessary to avoid blocking
+     a sender, requiring larger resource commitments at the receiver.
+     There is a trade-off between resource commitment and overhead when
+     determining how large a limit is advertised.
+"fixed": |-
+  Control frames contribute to connection overhead.  Therefore, frequently sending MAX_STREAM_DATA and MAX_DATA frames with small changes is undesirable.  On the other hand, if updates are less frequent, larger increments to limits are necessary to avoid blocking a sender, requiring larger resource commitments at the receiver. There is a trade-off between resource commitment and overhead when determining how large a limit is advertised.
+"ko": |-
+  제어 프레임은 연결 오버헤드에 영향을 미칩니다. 따라서 작은 변화만으로 MAX_STREAM_DATA 및 MAX_DATA 프레임을 자주 보내는 것은 바람직하지 않습니다. 반면, 업데이트 빈도가 낮을 ​​경우 발신자를 차단하지 않으려면 제한을 더 크게 늘려야 하므로 수신자에게 더 많은 리소스를 할당해야 합니다. 한도가 얼마나 크게 공지되는지 결정할 때 리소스 약정과 오버헤드 사이에는 상충 관계가 있습니다.

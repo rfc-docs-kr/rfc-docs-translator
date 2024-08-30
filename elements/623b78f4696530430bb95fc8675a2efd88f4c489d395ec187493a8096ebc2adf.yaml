@@ -1,0 +1,17 @@
+"hash": |-
+  623b78f4696530430bb95fc8675a2efd88f4c489d395ec187493a8096ebc2adf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   -- Secret Bag
+   SecretBag ::= SEQUENCE {
+       secretTypeId  BAG-TYPE.&id ({SecretTypes}),
+       secretValue   [0] EXPLICIT BAG-TYPE.&Type ({SecretTypes}
+                                                  {@secretTypeId})
+   }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

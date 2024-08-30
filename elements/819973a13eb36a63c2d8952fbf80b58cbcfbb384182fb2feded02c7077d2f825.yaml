@@ -1,0 +1,17 @@
+"hash": |-
+  819973a13eb36a63c2d8952fbf80b58cbcfbb384182fb2feded02c7077d2f825
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     struct {
+        HeartbeatMessageType type;
+        uint16 payload_length;
+        opaque payload[HeartbeatMessage.payload_length];
+        opaque padding[padding_length];
+     } HeartbeatMessage;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

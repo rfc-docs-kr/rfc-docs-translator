@@ -1,0 +1,23 @@
+"hash": |-
+  93fc50069837510d2522ac3b95d06cda58671f56a55ca70808bcba0da0323996
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The Create-Job Request: A Client that wants to submit a Print Job
+        with zero or more Documents uses the Create-Job operation.  This
+        operation is followed by an arbitrary number of Send-Document
+        and/or Send-URI operations, each creating another Document for the
+        newly created Job.  The Send-Document operation includes the
+        Document data in the request (the Client "pushes" the Document
+        data to the Printer), and the Send-URI operation includes only a
+        URI reference to the Document data in the request (the Printer
+        "pulls" the Document data from the referenced location).  The last
+        Send-Document or Send-URI request for a given Job includes a
+        "last-document" operation attribute set to 'true' indicating that
+        this is the last request.
+"fixed": |-
+  -  The Create-Job Request: A Client that wants to submit a Print Job with zero or more Documents uses the Create-Job operation.  This operation is followed by an arbitrary number of Send-Document and/or Send-URI operations, each creating another Document for the newly created Job.  The Send-Document operation includes the Document data in the request (the Client "pushes" the Document data to the Printer), and the Send-URI operation includes only a URI reference to the Document data in the request (the Printer "pulls" the Document data from the referenced location).  The last Send-Document or Send-URI request for a given Job includes a "last-document" operation attribute set to 'true' indicating that this is the last request.
+"ko": |-
+  - Create-Job 요청: 0개 이상의 문서가 포함된 인쇄 작업을 제출하려는 클라이언트는 Create-Job 작업을 사용합니다. 이 작업 뒤에는 임의 개수의 Send-Document 및/또는 Send-URI 작업이 이어지며, 각각 새로 생성된 작업에 대해 다른 문서를 생성합니다. Send-Document 작업에는 요청의 문서 데이터가 포함되고(클라이언트는 문서 데이터를 프린터로 "푸시"), Send-URI 작업에는 요청의 문서 데이터에 대한 URI 참조만 포함됩니다(프린터가 "풀"). 참조된 위치의 문서 데이터). 지정된 작업에 대한 마지막 Send-Document 또는 Send-URI 요청에는 이것이 마지막 요청임을 나타내는 'true'로 설정된 "last-document" 작업 속성이 포함됩니다.

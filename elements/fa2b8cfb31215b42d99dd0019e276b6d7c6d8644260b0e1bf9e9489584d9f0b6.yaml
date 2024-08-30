@@ -1,0 +1,20 @@
+"hash": |-
+  fa2b8cfb31215b42d99dd0019e276b6d7c6d8644260b0e1bf9e9489584d9f0b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At this point, MPLS will carry the packet across the backbone and
+     into the appropriate CE device.  That is, all forwarding decisions by
+     P routers and PE routers are now made by means of MPLS, and the
+     packet's IP header is not looked at again until the packet reaches
+     the CE device.  The final PE router will pop the last label from the
+     MPLS label stack before sending the packet to the CE device, thus the
+     CE device will just see an ordinary IP packet.  (Though see section 8
+     for some discussion of the case where the CE desires to received
+     labeled packets.)
+"fixed": |-
+  At this point, MPLS will carry the packet across the backbone and into the appropriate CE device.  That is, all forwarding decisions by P routers and PE routers are now made by means of MPLS, and the packet's IP header is not looked at again until the packet reaches the CE device.  The final PE router will pop the last label from the MPLS label stack before sending the packet to the CE device, thus the CE device will just see an ordinary IP packet.  (Though see section 8 for some discussion of the case where the CE desires to received labeled packets.)
+"ko": |-
+  이 시점에서 MPLS는 패킷을 백본을 거쳐 적절한 CE 장치로 전달합니다. 즉, P 라우터와 PE 라우터의 모든 전달 결정은 이제 MPLS를 통해 이루어지며 패킷의 IP 헤더는 패킷이 CE 장치에 도달할 때까지 다시 확인되지 않습니다. 최종 PE 라우터는 패킷을 CE 장치로 보내기 전에 MPLS 레이블 스택에서 마지막 레이블을 팝하므로 CE 장치는 일반 IP 패킷만 보게 됩니다. (하지만 CE가 레이블이 지정된 패킷을 수신하려는 경우에 대한 논의는 섹션 8을 참조하세요.)

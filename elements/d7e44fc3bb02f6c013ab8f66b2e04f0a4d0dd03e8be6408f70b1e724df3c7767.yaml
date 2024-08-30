@@ -1,0 +1,25 @@
+"hash": |-
+  d7e44fc3bb02f6c013ab8f66b2e04f0a4d0dd03e8be6408f70b1e724df3c7767
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       C: A682 LIST "" *
+       S: * LIST () "/" blurdybloop
+       S: * LIST (\Noselect) "/" foo
+       S: * LIST () "/" foo/bar
+       S: A682 OK LIST completed
+       C: A683 RENAME blurdybloop sarasoop
+       S: A683 OK RENAME completed
+       C: A684 RENAME foo zowie
+       S: A684 OK RENAME Completed
+       C: A685 LIST "" *
+       S: * LIST () "/" sarasoop
+       S: * LIST (\Noselect) "/" zowie
+       S: * LIST () "/" zowie/bar
+       S: A685 OK LIST completed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

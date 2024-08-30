@@ -1,0 +1,16 @@
+"hash": |-
+  2ac13189e624c9f12dd19ed7ad591c4889bf2f23656f69df9aaafec2795a3d79
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the ServerHello is received, the client MUST verify that it does
+     not contain the "renegotiation_info" extension.  If it does, the
+     client MUST abort the handshake.  (Because the server has already
+     indicated it does not support secure renegotiation, the only way that
+     this can happen is if the server is broken or there is an attack.)
+"fixed": |-
+  When the ServerHello is received, the client MUST verify that it does not contain the "renegotiation_info" extension.  If it does, the client MUST abort the handshake.  (Because the server has already indicated it does not support secure renegotiation, the only way that this can happen is if the server is broken or there is an attack.)
+"ko": |-
+  ServerHello가 수신되면 클라이언트는 "renegotiation_info" 확장이 포함되어 있지 않은지 확인해야 합니다. 그렇다면 클라이언트는 핸드셰이크를 중단해야 합니다. (서버가 이미 보안 재협상을 지원하지 않는다고 표시했기 때문에 이러한 일이 발생할 수 있는 유일한 방법은 서버가 손상되거나 공격이 있는 경우입니다.)

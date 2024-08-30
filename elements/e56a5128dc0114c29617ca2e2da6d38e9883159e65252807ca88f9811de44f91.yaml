@@ -1,0 +1,16 @@
+"hash": |-
+  e56a5128dc0114c29617ca2e2da6d38e9883159e65252807ca88f9811de44f91
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server MAY send Retry packets in response to Initial and 0-RTT
+     packets.  A server can either discard or buffer 0-RTT packets that it
+     receives.  A server can send multiple Retry packets as it receives
+     Initial or 0-RTT packets.  A server MUST NOT send more than one Retry
+     packet in response to a single UDP datagram.
+"fixed": |-
+  A server MAY send Retry packets in response to Initial and 0-RTT packets.  A server can either discard or buffer 0-RTT packets that it receives.  A server can send multiple Retry packets as it receives Initial or 0-RTT packets.  A server MUST NOT send more than one Retry packet in response to a single UDP datagram.
+"ko": |-
+  서버는 초기 및 0-RTT 패킷에 대한 응답으로 재시도 패킷을 보낼 수 있습니다. 서버는 수신한 0-RTT 패킷을 삭제하거나 버퍼링할 수 있습니다. 서버는 초기 또는 0-RTT 패킷을 수신할 때 여러 재시도 패킷을 보낼 수 있습니다. 서버는 단일 UDP 데이터그램에 대한 응답으로 두 개 이상의 재시도 패킷을 보내서는 안 됩니다.

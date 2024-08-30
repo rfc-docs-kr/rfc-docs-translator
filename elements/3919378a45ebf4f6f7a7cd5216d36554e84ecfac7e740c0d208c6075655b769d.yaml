@@ -1,0 +1,21 @@
+"hash": |-
+  3919378a45ebf4f6f7a7cd5216d36554e84ecfac7e740c0d208c6075655b769d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The JOSE Header for a JWS can be distinguished from the JOSE
+        Header for a JWE by examining the "alg" (algorithm) Header
+        Parameter value.  If the value represents a digital signature or
+        MAC algorithm, or is the value "none", it is for a JWS; if it
+        represents a Key Encryption, Key Wrapping, Direct Key Agreement,
+        Key Agreement with Key Wrapping, or Direct Encryption algorithm,
+        it is for a JWE.  (Extracting the "alg" value to examine is
+        straightforward when using the JWS Compact Serialization or the
+        JWE Compact Serialization and may be more difficult when using the
+        JWS JSON Serialization or the JWE JSON Serialization.)
+"fixed": |-
+  -  The JOSE Header for a JWS can be distinguished from the JOSE Header for a JWE by examining the "alg" (algorithm) Header Parameter value.  If the value represents a digital signature or MAC algorithm, or is the value "none", it is for a JWS; if it represents a Key Encryption, Key Wrapping, Direct Key Agreement, Key Agreement with Key Wrapping, or Direct Encryption algorithm, it is for a JWE.  (Extracting the "alg" value to examine is straightforward when using the JWS Compact Serialization or the JWE Compact Serialization and may be more difficult when using the JWS JSON Serialization or the JWE JSON Serialization.)
+"ko": |-
+  - JWS의 JOSE 헤더는 "alg"(알고리즘) 헤더 매개변수 값을 검사하여 JWE의 JOSE 헤더와 구별할 수 있습니다. 값이 디지털 서명 또는 MAC 알고리즘을 나타내거나 값이 "none"이면 JWS를 위한 것입니다. 키 암호화, 키 래핑, 직접 키 계약, 키 래핑이 있는 키 계약 또는 직접 암호화 알고리즘을 나타내면 JWE를 위한 것입니다. (JWS Compact Serialization 또는 JWE Compact Serialization을 사용하면 검사할 "alg" 값을 추출하는 것이 간단하지만 JWS JSON Serialization 또는 JWE JSON Serialization을 사용하면 더 어려울 수 있습니다.)

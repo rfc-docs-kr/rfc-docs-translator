@@ -1,0 +1,17 @@
+"hash": |-
+  67d7a805fe6382e33bf5227e7884809cbad53bb58f55cdf80a493c2cbd3140fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AES Key Wrap and the AES Key Wrap with Padding algorithms use
+     different constants in the initial value.  The use of different
+     values ensures that the recipient of padded key data cannot
+     successfully unwrap it as unpadded key data, or vice versa.  This
+     remains true when the key data is wrapped using the AES Key Wrap with
+     Padding algorithm but no padding is needed.
+"fixed": |-
+  The AES Key Wrap and the AES Key Wrap with Padding algorithms use different constants in the initial value.  The use of different values ensures that the recipient of padded key data cannot successfully unwrap it as unpadded key data, or vice versa.  This remains true when the key data is wrapped using the AES Key Wrap with Padding algorithm but no padding is needed.
+"ko": |-
+  AES Key Wrap 및 AES Key Wrap with Padding 알고리즘은 초기 값에 서로 다른 상수를 사용합니다. 다른 값을 사용하면 패딩된 키 데이터의 수신자가 이를 패딩되지 않은 키 데이터로 성공적으로 언래핑할 수 없으며 그 반대의 경우도 마찬가지입니다. 이는 AES Key Wrap with Padding 알고리즘을 사용하여 키 데이터를 래핑했지만 패딩이 필요하지 않은 경우에도 마찬가지입니다.

@@ -1,0 +1,1 @@
+* ktris에는 각 수신자에 대해 하나의 KeyTransRecipientInfo 유형이 포함되어 있습니다. 키 파생 키를 설정하기 위해 키 전송 알고리즘을 사용합니다.  즉, KeyTransRecipientInfo의 암호화된 키 필드에는 콘텐츠 암호화 키 대신 키 파생 키가 포함됩니다.  KeyTransRecipientInfo는 [RFC5652]의 섹션 6.2.1에 설명되어 있습니다.

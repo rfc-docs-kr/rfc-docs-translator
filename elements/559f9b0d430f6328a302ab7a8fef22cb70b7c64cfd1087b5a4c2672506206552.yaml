@@ -1,0 +1,15 @@
+"hash": |-
+  559f9b0d430f6328a302ab7a8fef22cb70b7c64cfd1087b5a4c2672506206552
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       parameters      = *( OWS ";" OWS [ parameter ] )
+       parameter       = parameter-name "=" parameter-value
+       parameter-name  = token
+       parameter-value = ( token / quoted-string )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

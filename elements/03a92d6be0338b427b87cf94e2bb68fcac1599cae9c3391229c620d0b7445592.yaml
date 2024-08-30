@@ -1,0 +1,17 @@
+"hash": |-
+  03a92d6be0338b427b87cf94e2bb68fcac1599cae9c3391229c620d0b7445592
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The record layer fragments information blocks into TLSPlaintext
+     records carrying data in chunks of 2^14 bytes or less. Client message
+     boundaries are not preserved in the record layer (i.e., multiple
+     client messages of the same ContentType may be coalesced into a
+     single TLSPlaintext record, or a single message may be fragmented
+     across several records).
+"fixed": |-
+  The record layer fragments information blocks into TLSPlaintext records carrying data in chunks of 2^14 bytes or less. Client message boundaries are not preserved in the record layer (i.e., multiple client messages of the same ContentType may be coalesced into a single TLSPlaintext record, or a single message may be fragmented across several records).
+"ko": |-
+  레코드 계층은 정보 블록을 2^14바이트 이하의 청크로 데이터를 전달하는 TLSPlaintext 레코드로 조각화합니다. 클라이언트 메시지 경계는 레코드 계층에서 유지되지 않습니다. 즉, 동일한 ContentType의 여러 클라이언트 메시지가 단일 TLSPlaintext 레코드로 통합될 수 있거나 단일 메시지가 여러 레코드에 걸쳐 조각화될 수 있습니다.

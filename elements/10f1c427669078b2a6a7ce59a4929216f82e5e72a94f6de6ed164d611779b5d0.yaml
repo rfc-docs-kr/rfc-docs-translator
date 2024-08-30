@@ -1,0 +1,14 @@
+"hash": |-
+  10f1c427669078b2a6a7ce59a4929216f82e5e72a94f6de6ed164d611779b5d0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the SEARCH results in no matches, the server MUST NOT include
+        the MAX result option in the ESEARCH response; however, it still
+        MUST send the ESEARCH response.
+"fixed": |-
+  - If the SEARCH results in no matches, the server MUST NOT include the MAX result option in the ESEARCH response; however, it still MUST send the ESEARCH response.
+"ko": |-
+  - SEARCH 결과가 일치하지 않으면 서버는 ESEARCH 응답에 MAX 결과 옵션을 포함해서는 안 됩니다. 그러나 여전히 ESEARCH 응답을 보내야 합니다.

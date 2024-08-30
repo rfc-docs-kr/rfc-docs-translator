@@ -1,0 +1,23 @@
+"hash": |-
+  fcf92ba39c0a3f3a7ba10c9ee6579b9d250f33fa33b82ddea630dcb366882a1f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Peer A can send a CHOKE message to Peer B to signal it will no longer
+     be responding to REQUEST messages from Peer B, for example, because
+     Peer A's upload capacity is exhausted.  Peer A MAY send a subsequent
+     UNCHOKE message to signal that it will respond to new REQUESTs from
+     Peer B again (Peer A SHOULD discard old requests).  When Peer B
+     receives a CHOKE message from Peer A, it MUST NOT send new REQUEST
+     messages and it cannot expect answers to any outstanding ones, as the
+     transfer of chunks is choked.  When Peer B is choked but receives a
+     HAVE message from Peer A, it is not automatically unchoked and MUST
+     NOT send any new REQUEST messages.  The CHOKE and UNCHOKE messages
+     are informational as responding to REQUESTs is OPTIONAL, see
+     Section 3.7.
+"fixed": |-
+  Peer A can send a CHOKE message to Peer B to signal it will no longer be responding to REQUEST messages from Peer B, for example, because Peer A's upload capacity is exhausted.  Peer A MAY send a subsequent UNCHOKE message to signal that it will respond to new REQUESTs from Peer B again (Peer A SHOULD discard old requests).  When Peer B receives a CHOKE message from Peer A, it MUST NOT send new REQUEST messages and it cannot expect answers to any outstanding ones, as the transfer of chunks is choked.  When Peer B is choked but receives a HAVE message from Peer A, it is not automatically unchoked and MUST NOT send any new REQUEST messages.  The CHOKE and UNCHOKE messages are informational as responding to REQUESTs is OPTIONAL, see Section 3.7.
+"ko": |-
+  피어 A는 피어 B에 CHOKE 메시지를 보내 피어 B가 더 이상 REQUEST 메시지에 응답하지 않는다는 신호를 보낼 수 있습니다. 예를 들어 피어 A의 업로드 용량이 소진되었기 때문입니다. 피어 A는 피어 B의 새로운 요청에 다시 응답할 것이라는 신호를 보내기 위해 후속 UNCHOKE 메시지를 보낼 수 있습니다(피어 A는 이전 요청을 폐기해야 합니다). 피어 B가 피어 A로부터 CHOKE 메시지를 수신하면 새로운 REQUEST 메시지를 보내서는 안 되며 청크 전송이 차단되므로 미해결 메시지에 대한 응답을 기대할 수 없습니다. 피어 B가 차단되었지만 피어 A로부터 HAVE 메시지를 수신하면 자동으로 초크가 해제되지 않으며 새로운 REQUEST 메시지를 보내면 안 됩니다. CHOKE 및 UNCHOKE 메시지는 REQUEST에 대한 응답이 선택 사항이므로 정보 제공용입니다(섹션 3.7 참조).

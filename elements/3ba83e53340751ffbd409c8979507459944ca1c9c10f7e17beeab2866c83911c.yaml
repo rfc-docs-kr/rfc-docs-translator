@@ -1,0 +1,21 @@
+"hash": |-
+  3ba83e53340751ffbd409c8979507459944ca1c9c10f7e17beeab2866c83911c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "cty" (content type) Header Parameter is used by JWS applications
+     to declare the media type [IANA.MediaTypes] of the secured content
+     (the payload).  This is intended for use by the application when more
+     than one kind of object could be present in the JWS Payload; the
+     application can use this value to disambiguate among the different
+     kinds of objects that might be present.  It will typically not be
+     used by applications when the kind of object is already known.  This
+     parameter is ignored by JWS implementations; any processing of this
+     parameter is performed by the JWS application.  Use of this Header
+     Parameter is OPTIONAL.
+"fixed": |-
+  The "cty" (content type) Header Parameter is used by JWS applications to declare the media type [IANA.MediaTypes] of the secured content (the payload).  This is intended for use by the application when more than one kind of object could be present in the JWS Payload; the application can use this value to disambiguate among the different kinds of objects that might be present.  It will typically not be used by applications when the kind of object is already known.  This parameter is ignored by JWS implementations; any processing of this parameter is performed by the JWS application.  Use of this Header Parameter is OPTIONAL.
+"ko": |-
+  "cty"(콘텐츠 유형) 헤더 매개변수는 JWS 애플리케이션에서 보안 콘텐츠(페이로드)의 미디어 유형[IANA.MediaTypes]을 선언하는 데 사용됩니다. 이는 JWS 페이로드에 두 가지 이상의 개체가 존재할 수 있는 경우 애플리케이션에서 사용하도록 의도된 것입니다. 애플리케이션은 이 값을 사용하여 존재할 수 있는 다양한 종류의 개체를 구별할 수 있습니다. 개체 종류가 이미 알려져 있는 경우 애플리케이션에서 일반적으로 사용되지 않습니다. 이 매개변수는 JWS 구현에서 무시됩니다. 이 매개변수의 모든 처리가 JWS 애플리케이션에서 수행됩니다. 이 헤더 매개변수의 사용은 선택 사항입니다.

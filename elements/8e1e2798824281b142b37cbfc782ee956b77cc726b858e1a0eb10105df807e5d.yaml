@@ -1,0 +1,53 @@
+"hash": |-
+  8e1e2798824281b142b37cbfc782ee956b77cc726b858e1a0eb10105df807e5d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     | 011        | cancelled             | A new RECOGNIZE cancelled    |
+     |            |                       | this one, or a prior         |
+     |            |                       | RECOGNIZE failed while this  |
+     |            |                       | one was still in the queue.  |
+     |            |                       |                              |
+     | 012        | semantics-failure     | Recognition succeeded, but   |
+     |            |                       | semantic interpretation of   |
+     |            |                       | the recognized input failed. |
+     |            |                       | The RECOGNITION-COMPLETE     |
+     |            |                       | event MUST contain the       |
+     |            |                       | Recognition result with only |
+     |            |                       | input text and no            |
+     |            |                       | interpretation.              |
+     |            |                       |                              |
+     | 013        | partial-match         | Speech Incomplete Timeout    |
+     |            |                       | expired before there was a   |
+     |            |                       | full match. But whatever was |
+     |            |                       | spoken till that point was a |
+     |            |                       | partial match to one or more |
+     |            |                       | grammars.                    |
+     |            |                       |                              |
+     | 014        | partial-match-maxtime | The Recognition-Timeout      |
+     |            |                       | expired before full match    |
+     |            |                       | was achieved. But whatever   |
+     |            |                       | was spoken till that point   |
+     |            |                       | was a partial match to one   |
+     |            |                       | or more grammars.            |
+     |            |                       |                              |
+     | 015        | no-match-maxtime      | The Recognition-Timeout      |
+     |            |                       | expired. Whatever was spoken |
+     |            |                       | till that point did not      |
+     |            |                       | match any of the grammars.   |
+     |            |                       | This cause could also be     |
+     |            |                       | returned if the recognizer   |
+     |            |                       | does not support detecting   |
+     |            |                       | partial grammar matches.     |
+     |            |                       |                              |
+     | 016        | grammar-definition-   | Any DEFINE-GRAMMAR error     |
+     |            | failure               | other than                   |
+     |            |                       | grammar-load-failure and     |
+     |            |                       | grammar-compilation-failure. |
+     +------------+-----------------------+------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

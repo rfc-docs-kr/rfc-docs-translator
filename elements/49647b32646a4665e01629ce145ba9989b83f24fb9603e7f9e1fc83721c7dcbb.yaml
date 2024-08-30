@@ -1,0 +1,18 @@
+"hash": |-
+  49647b32646a4665e01629ce145ba9989b83f24fb9603e7f9e1fc83721c7dcbb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The MRCPv2 client or server MUST supply defaults for the "Domain" and
+     "Path" attributes, as specified in RFC 6265, if they are omitted by
+     the HTTP origin server.  Note that there is no leading dot present in
+     the "Domain" attribute value in this case.  Although an explicitly
+     specified "Domain" value received via the HTTP protocol may be
+     modified to include a leading dot, an MRCPv2 client or server MUST
+     NOT modify the "Domain" value when received via the MRCPv2 protocol.
+"fixed": |-
+  The MRCPv2 client or server MUST supply defaults for the "Domain" and "Path" attributes, as specified in RFC 6265, if they are omitted by the HTTP origin server.  Note that there is no leading dot present in the "Domain" attribute value in this case.  Although an explicitly specified "Domain" value received via the HTTP protocol may be modified to include a leading dot, an MRCPv2 client or server MUST NOT modify the "Domain" value when received via the MRCPv2 protocol.
+"ko": |-
+  MRCPv2 클라이언트 또는 서버는 HTTP 원본 서버에서 생략된 경우 RFC 6265에 지정된 대로 "도메인" 및 "경로" 속성에 대한 기본값을 제공해야 합니다. 이 경우 "도메인" 속성 값에 선행 점이 없다는 점에 유의하세요. HTTP 프로토콜을 통해 수신된 명시적으로 지정된 "도메인" 값은 선행 점을 포함하도록 수정될 수 있지만 MRCPv2 클라이언트 또는 서버는 MRCPv2 프로토콜을 통해 수신될 때 "도메인" 값을 수정해서는 안 됩니다.

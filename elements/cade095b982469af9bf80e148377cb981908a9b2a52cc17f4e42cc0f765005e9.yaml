@@ -1,0 +1,15 @@
+"hash": |-
+  cade095b982469af9bf80e148377cb981908a9b2a52cc17f4e42cc0f765005e9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS's PRF is created by splitting the secret into two halves and
+     using one half to generate data with P_MD5 and the other half to
+     generate data with P_SHA-1, then exclusive-ORing the outputs of these
+     two expansion functions together.
+"fixed": |-
+  TLS's PRF is created by splitting the secret into two halves and using one half to generate data with P_MD5 and the other half to generate data with P_SHA-1, then exclusive-ORing the outputs of these two expansion functions together.
+"ko": |-
+  TLS의 PRF는 비밀을 두 부분으로 분할하고 절반을 사용하여 P_MD5로 데이터를 생성하고 나머지 절반을 사용하여 P_SHA-1로 데이터를 생성한 다음 이 두 확장 기능의 출력을 함께 배타적 OR로 연결하여 생성됩니다.

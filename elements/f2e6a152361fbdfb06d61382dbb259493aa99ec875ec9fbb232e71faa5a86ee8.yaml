@@ -1,0 +1,24 @@
+"hash": |-
+  f2e6a152361fbdfb06d61382dbb259493aa99ec875ec9fbb232e71faa5a86ee8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       def _IsCIDRCorrect(self, cidr):
+         try:
+           ipprefix = ipaddr.IPNetwork(cidr)
+           if ipprefix.network._ip != ipprefix._ip:
+             self._ReportError('Incorrect IP Network.')
+             return False
+           if ipprefix.is_private:
+             self._ReportError('IP Address must not be private.')
+             return False
+         except:
+           self._ReportError('Incorrect IP Network.')
+           return False
+         return True
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

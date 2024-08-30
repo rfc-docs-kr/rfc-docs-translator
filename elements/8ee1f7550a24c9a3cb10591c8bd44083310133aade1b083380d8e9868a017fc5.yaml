@@ -1,0 +1,21 @@
+"hash": |-
+  8ee1f7550a24c9a3cb10591c8bd44083310133aade1b083380d8e9868a017fc5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Conversely, when a TLS server receives a suggestion for a DHE cipher
+     suite from a client, it has no way of knowing what kinds of DH groups
+     the client is capable of handling or what the client's security
+     requirements are for this key exchange session.  For example, some
+     widely distributed TLS clients are not capable of DH groups where p >
+     1024 bits.  Other TLS clients may, by policy, wish to use DHE only if
+     the server can offer a stronger group (and are willing to use a non-
+     PFS (Perfect Forward Secrecy) key exchange mechanism otherwise).  The
+     server has no way of knowing which type of client is connecting but
+     must select DH parameters with insufficient knowledge.
+"fixed": |-
+  Conversely, when a TLS server receives a suggestion for a DHE cipher suite from a client, it has no way of knowing what kinds of DH groups the client is capable of handling or what the client's security requirements are for this key exchange session.  For example, some widely distributed TLS clients are not capable of DH groups where p > 1024 bits.  Other TLS clients may, by policy, wish to use DHE only if the server can offer a stronger group (and are willing to use a non- PFS (Perfect Forward Secrecy) key exchange mechanism otherwise).  The server has no way of knowing which type of client is connecting but must select DH parameters with insufficient knowledge.
+"ko": |-
+  반대로, TLS 서버가 클라이언트로부터 DHE 암호화 제품군에 대한 제안을 받으면 클라이언트가 처리할 수 있는 DH 그룹의 종류나 이 키 교환 세션에 대한 클라이언트의 보안 요구 사항이 무엇인지 알 수 없습니다.  예를 들어, 널리 분산된 일부 TLS 클라이언트는 p > 1024비트인 DH 그룹을 지원하지 않습니다.  다른 TLS 클라이언트는 정책에 따라 서버가 더 강력한 그룹을 제공할 수 있는 경우에만 DHE를 사용하기를 원할 수 있습니다(그렇지 않은 경우 비 PFS(Perfect Forward Secrecy) 키 교환 메커니즘을 사용할 의향이 있음).  서버는 어떤 유형의 클라이언트가 연결되어 있는지 알 수 없지만 지식이 부족한 상태에서 DH 매개변수를 선택해야 합니다.

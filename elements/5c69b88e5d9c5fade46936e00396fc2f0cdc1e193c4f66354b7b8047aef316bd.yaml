@@ -1,0 +1,17 @@
+"hash": |-
+  5c69b88e5d9c5fade46936e00396fc2f0cdc1e193c4f66354b7b8047aef316bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Solution: In theory, by decreasing the timestamp, Peer T could
+        fake that there is no congestion when in fact there is, causing
+        Peer A to send more data than it should.  [RFC6817] does not list
+        this as a security consideration.  Possibly, this attack can be
+        detected by the large resulting asymmetry between round-trip time
+        and measured one-way delay.
+"fixed": |-
+  - Solution: In theory, by decreasing the timestamp, Peer T could fake that there is no congestion when in fact there is, causing Peer A to send more data than it should.  [RFC6817] does not list this as a security consideration.  Possibly, this attack can be detected by the large resulting asymmetry between round-trip time and measured one-way delay.
+"ko": |-
+  - 해결 방법: 이론적으로 타임스탬프를 줄이면 피어 T는 실제로 정체가 있는데도 정체가 없는 것처럼 위장하여 피어 A가 필요한 것보다 더 많은 데이터를 보낼 수 있습니다. [RFC6817]에는 이를 보안 고려 사항으로 나열하지 않습니다. 아마도 이 공격은 왕복 시간과 측정된 단방향 지연 사이의 큰 비대칭성에 의해 탐지될 수 있습니다.

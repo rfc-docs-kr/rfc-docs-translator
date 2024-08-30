@@ -1,0 +1,22 @@
+"hash": |-
+  660c19cc172cd81262acc857ca4fda837ae20b224be2006a86cb9d17d0ce96c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For any operation where a Client requests attributes (such as a
+     Get-Jobs, Get-Printer-Attributes, or Get-Job-Attributes operation),
+     if the IPP object does not support one or more of the requested
+     attributes, the IPP object simply ignores the unsupported requested
+     attributes and processes the request as if they had not been
+     supplied, rather than returning this status-code.  In this case,
+     the IPP object MUST return the
+     'successful-ok-ignored-or-substituted-attributes' status-code and
+     SHOULD return the unsupported attributes as values of the
+     "requested-attributes" operation attribute in the Unsupported
+     Attributes group (see Appendix B.1.2.2).
+"fixed": |-
+  For any operation where a Client requests attributes (such as a Get-Jobs, Get-Printer-Attributes, or Get-Job-Attributes operation), if the IPP object does not support one or more of the requested attributes, the IPP object simply ignores the unsupported requested attributes and processes the request as if they had not been supplied, rather than returning this status-code.  In this case, the IPP object MUST return the 'successful-ok-ignored-or-substituted-attributes' status-code and SHOULD return the unsupported attributes as values of the "requested-attributes" operation attribute in the Unsupported Attributes group (see Appendix B.1.2.2).
+"ko": |-
+  클라이언트가 속성을 요청하는 작업(예: Get-Jobs, Get-Printer-Attributes 또는 Get-Job-Attributes 작업)에서 IPP 객체가 요청된 속성 중 하나 이상을 지원하지 않으면 IPP 객체는 단순히 지원되지 않는 요청 속성을 무시하고 이 상태 코드를 반환하는 대신 마치 제공되지 않은 것처럼 요청을 처리합니다. 이 경우, IPP 객체는 '성공적-확인-무시 또는 대체 속성' 상태 코드를 반환해야 하며 지원되지 않는 속성 그룹의 "요청 속성" 작업 속성의 값으로 지원되지 않는 속성을 반환해야 합니다(참조). 부록 B.1.2.2).

@@ -1,0 +1,16 @@
+"hash": |-
+  8b817bed37cc3a5f74f6945bb7b7983debecf8b681ace2cdfabdbf78327a98fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a recognizer needs to fetch or access a URI and the access
+     fails, the server SHOULD provide the failed URI in this header field
+     in the method response, unless there are multiple URI failures, in
+     which case one of the failed URIs MUST be provided in this header
+     field in the method response.
+"fixed": |-
+  When a recognizer needs to fetch or access a URI and the access fails, the server SHOULD provide the failed URI in this header field in the method response, unless there are multiple URI failures, in which case one of the failed URIs MUST be provided in this header field in the method response.
+"ko": |-
+  인식기가 URI를 가져오거나 액세스해야 하고 액세스가 실패하면 서버는 반드시 메서드 응답의 이 헤더 필드에 실패한 URI를 제공해야 합니다. 단, URI 실패가 여러 개 있는 경우에는 실패한 URI 중 하나를 메서드 응답의 이 헤더 필드에 제공해야 합니다.

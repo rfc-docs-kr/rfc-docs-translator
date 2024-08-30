@@ -1,0 +1,19 @@
+"hash": |-
+  6b6727cb69d9a89b31d7848ad94b0ffd07f4f828880cf2879393f91a17cc9f30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field indicates the desired behavior of the verifier
+     resource after a successful verification operation.  If the value of
+     this header field is "true", the server SHOULD use audio collected
+     during the verification session to update the voiceprint to account
+     for ongoing changes in a speaker's incoming speech characteristics,
+     unless local policy prohibits updating the voiceprint.  If the value
+     is "false" (the default), the server MUST NOT update the voiceprint.
+     This header field MAY occur in the START-SESSION method.
+"fixed": |-
+  This header field indicates the desired behavior of the verifier resource after a successful verification operation.  If the value of this header field is "true", the server SHOULD use audio collected during the verification session to update the voiceprint to account for ongoing changes in a speaker's incoming speech characteristics, unless local policy prohibits updating the voiceprint.  If the value is "false" (the default), the server MUST NOT update the voiceprint. This header field MAY occur in the START-SESSION method.
+"ko": |-
+  이 헤더 필드는 성공적인 검증 작업 후 검증자 리소스의 원하는 동작을 나타냅니다. 이 헤더 필드의 값이 "true"인 경우 서버는 검증 세션 동안 수집된 오디오를 사용하여 화자의 수신 음성 특성의 지속적인 변화를 고려하여 음성 지문을 업데이트해야 합니다. 단, 로컬 정책에서 음성 지문 업데이트를 금지하는 경우는 예외입니다. 값이 "false"(기본값)인 경우 서버는 음성 지문을 업데이트해서는 안 됩니다. 이 헤더 필드는 START-SESSION 메서드에서 발생할 수 있습니다.

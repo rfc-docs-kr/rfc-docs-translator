@@ -1,0 +1,22 @@
+"hash": |-
+  bb830f4d5e69aea46dd20cb5375915f233d9da87e178da506be890b84521b457
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When application servers are hosted behind a B4 element, and when
+     there is a change of the B4's IPv6 address that results in a change
+     of the external IPv4 address and/or the external port number at the
+     AFTR side, these servers have to advertise their change (see
+     Section 1.1 of [RFC7393]).  Some means to discover the change of B4's
+     IPv6 address, the external IPv4 address, and/or the external port are
+     therefore required.  Latency issues are likely to be experienced when
+     an application server has to advertise its newly assigned external
+     IPv4 address and port, and the application clients have to discover
+     that newly assigned address and/or port and re-initiate connections
+     with the application server.
+"fixed": |-
+  When application servers are hosted behind a B4 element, and when there is a change of the B4's IPv6 address that results in a change of the external IPv4 address and/or the external port number at the AFTR side, these servers have to advertise their change (see Section 1.1 of [RFC7393]).  Some means to discover the change of B4's IPv6 address, the external IPv4 address, and/or the external port are therefore required.  Latency issues are likely to be experienced when an application server has to advertise its newly assigned external IPv4 address and port, and the application clients have to discover that newly assigned address and/or port and re-initiate connections with the application server.
+"ko": |-
+  애플리케이션 서버가 B4 요소 뒤에서 호스팅되고 B4의 IPv6 주소가 변경되어 외부 IPv4 주소 및/또는 AFTR 측의 외부 포트 번호가 변경되는 경우 이러한 서버는 변경 사항을 알려야 합니다. ([RFC7393]의 섹션 1.1 참조)  따라서 B4의 IPv6 주소, 외부 IPv4 주소 및/또는 외부 포트의 변경을 검색하는 방법이 필요합니다.  애플리케이션 서버가 새로 할당된 외부 IPv4 주소 및 포트를 광고해야 하고 애플리케이션 클라이언트가 새로 할당된 주소 및/또는 포트를 검색하고 애플리케이션 서버와의 연결을 다시 시작해야 할 때 지연 문제가 발생할 수 있습니다.

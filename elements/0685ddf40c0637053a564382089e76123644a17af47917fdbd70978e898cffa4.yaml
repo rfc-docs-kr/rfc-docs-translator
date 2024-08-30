@@ -1,0 +1,24 @@
+"hash": |-
+  0685ddf40c0637053a564382089e76123644a17af47917fdbd70978e898cffa4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     active_connection_id_limit (0x0e):  This is an integer value
+        specifying the maximum number of connection IDs from the peer that
+        an endpoint is willing to store.  This value includes the
+        connection ID received during the handshake, that received in the
+        preferred_address transport parameter, and those received in
+        NEW_CONNECTION_ID frames.  The value of the
+        active_connection_id_limit parameter MUST be at least 2.  An
+        endpoint that receives a value less than 2 MUST close the
+        connection with an error of type TRANSPORT_PARAMETER_ERROR.  If
+        this transport parameter is absent, a default of 2 is assumed.  If
+        an endpoint issues a zero-length connection ID, it will never send
+        a NEW_CONNECTION_ID frame and therefore ignores the
+        active_connection_id_limit value received from its peer.
+"fixed": |-
+  active_connection_id_limit (0x0e):  This is an integer value specifying the maximum number of connection IDs from the peer that an endpoint is willing to store.  This value includes the connection ID received during the handshake, that received in the preferred_address transport parameter, and those received in NEW_CONNECTION_ID frames.  The value of the active_connection_id_limit parameter MUST be at least 2.  An endpoint that receives a value less than 2 MUST close the connection with an error of type TRANSPORT_PARAMETER_ERROR.  If this transport parameter is absent, a default of 2 is assumed.  If an endpoint issues a zero-length connection ID, it will never send a NEW_CONNECTION_ID frame and therefore ignores the active_connection_id_limit value received from its peer.
+"ko": |-
+  active_connection_id_limit (0x0e): 엔드포인트가 저장하려는 피어의 최대 연결 ID 수를 지정하는 정수 값입니다. 이 값에는 핸드셰이크 중에 수신된 연결 ID, Preferred_address 전송 매개변수에서 수신된 연결 ID, NEW_CONNECTION_ID 프레임에서 수신된 연결 ID가 포함됩니다. active_connection_id_limit 매개변수의 값은 2 이상이어야 합니다. 2보다 작은 값을 수신하는 엔드포인트는 TRANSPORT_PARAMETER_ERROR 유형의 오류로 연결을 종료해야 합니다. 이 전송 매개변수가 없으면 기본값은 2로 가정됩니다. 엔드포인트가 길이가 0인 연결 ID를 발급하면 NEW_CONNECTION_ID 프레임을 보내지 않으므로 피어로부터 받은 active_connection_id_limit 값을 무시합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  ddeec065b46842e22c437e5a799a98e7b0b848aa35717a796583d19a342bf5bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.  The peer's element is extracted from the Commit payload according
+         to Section 8.3.2 and checked in a manner that depends on the type
+         of group negotiated.  If the group is ECP, the element is
+         validated according to Section 8.4.2.1.  If the group is MODP,
+         the element is validated according to Section 8.4.2.2.  If the
+         element is not valid, then the Commit payload is invalidated;
+         otherwise, the Commit payload is validated.
+"fixed": |-
+  1.  The peer's element is extracted from the Commit payload according to Section 8.3.2 and checked in a manner that depends on the type of group negotiated.  If the group is ECP, the element is validated according to Section 8.4.2.1.  If the group is MODP, the element is validated according to Section 8.4.2.2.  If the element is not valid, then the Commit payload is invalidated; otherwise, the Commit payload is validated.
+"ko": |-
+  1. 피어의 요소는 섹션 8.3.2에 따라 커밋 페이로드에서 추출되고 협상된 그룹 유형에 따라 달라지는 방식으로 확인됩니다.  그룹이 ECP인 경우 요소는 섹션 8.4.2.1에 따라 검증됩니다.  그룹이 MODP인 경우 요소는 섹션 8.4.2.2에 따라 검증됩니다.  요소가 유효하지 않으면 커밋 페이로드가 무효화됩니다. 그렇지 않으면 커밋 페이로드가 검증됩니다.

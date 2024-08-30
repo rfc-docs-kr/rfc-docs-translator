@@ -1,0 +1,22 @@
+"hash": |-
+  8a7b0ee3c3fb2618815d9018717d3759b4611728e0a41a3e0af2424fce0e4928
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     OTHER-RECIPIENT, OtherRecipientInfo, CMSVersion,
+     KeyTransRecipientInfo, OriginatorIdentifierOrKey,
+     UserKeyingMaterial, RecipientEncryptedKeys, EncryptedKey,
+     KeyDerivationAlgorithmIdentifier, KeyEncryptionAlgorithmIdentifier
+       FROM CryptographicMessageSyntax-2010  -- [RFC6268]
+         { iso(1) member-body(2) us(840) rsadsi(113549)
+           pkcs(1) pkcs-9(9) smime(16) modules(0)
+           id-mod-cms-2009(58) } ;
+     --
+     -- OtherRecipientInfo Types (ori-)
+     --
+"fixed": |-
+  OTHER-RECIPIENT, OtherRecipientInfo, CMSVersion, KeyTransRecipientInfo, OriginatorIdentifierOrKey, UserKeyingMaterial, RecipientEncryptedKeys, EncryptedKey, KeyDerivationAlgorithmIdentifier, KeyEncryptionAlgorithmIdentifier FROM CryptographicMessageSyntax-2010  -- [RFC6268] { iso(1) member-body(2) us(840) rsadsi(113549) pkcs(1) pkcs-9(9) smime(16) modules(0) id-mod-cms-2009(58) } ; -- -- OtherRecipientInfo Types (ori-) --
+"ko": |-
+  OTHER-RECIPIENT, OtherRecipientInfo, CMSVersion, KeyTransRecipientInfo, OriginatorIdentifierOrKey, UserKeyingMaterial, RecipientEncryptedKeys, EncryptedKey, KeyDerivationAlgorithmIdentifier, KeyEncryptionAlgorithmIdentifier FROM CryptographicMessageSyntax-2010 -- [RFC6268] { iso(1) member-body(2) us(840) (113549) pkcs (1) pkcs-9(9) smime(16) 모듈(0) id-mod-cms-2009(58) } ; -- -- OtherRecipientInfo 유형(ori-) --

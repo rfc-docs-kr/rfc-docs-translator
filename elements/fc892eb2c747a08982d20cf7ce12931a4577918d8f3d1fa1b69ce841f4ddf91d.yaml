@@ -1,0 +1,16 @@
+"hash": |-
+  fc892eb2c747a08982d20cf7ce12931a4577918d8f3d1fa1b69ce841f4ddf91d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The START-OF-INPUT event is returned from the server to the client
+     once the server has detected speech.  This event is always returned
+     by the recorder resource when speech has been detected.  The recorder
+     resource also MUST send a Proxy-Sync-Id header field with a unique
+     value for this event.
+"fixed": |-
+  The START-OF-INPUT event is returned from the server to the client once the server has detected speech.  This event is always returned by the recorder resource when speech has been detected.  The recorder resource also MUST send a Proxy-Sync-Id header field with a unique value for this event.
+"ko": |-
+  START-OF-INPUT 이벤트는 서버에서 음성을 감지하면 클라이언트로 반환됩니다. 이 이벤트는 음성이 감지되면 항상 레코더 리소스에서 반환됩니다. 레코더 리소스는 또한 이 이벤트에 대한 고유한 값이 있는 Proxy-Sync-Id 헤더 필드를 보내야 합니다.

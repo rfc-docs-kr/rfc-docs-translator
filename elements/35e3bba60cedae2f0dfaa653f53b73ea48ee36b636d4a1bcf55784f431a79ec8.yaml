@@ -1,0 +1,19 @@
+"hash": |-
+  35e3bba60cedae2f0dfaa653f53b73ea48ee36b636d4a1bcf55784f431a79ec8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The load generated on the tracker depends on churn and the lifetime
+     of a certificate.  Certificates can be fairly long lived, given that
+     the main goal of the membership certificates is to prevent that
+     malicious Peer T can cause good Peer A to contact *random* hosts.
+     The freshness of the timestamp just adds extra protection in addition
+     to achieving that goal.  It protects against malicious hosts causing
+     a good Peer A to contact hosts that previously participated in the
+     swarm.
+"fixed": |-
+  The load generated on the tracker depends on churn and the lifetime of a certificate.  Certificates can be fairly long lived, given that the main goal of the membership certificates is to prevent that malicious Peer T can cause good Peer A to contact *random* hosts. The freshness of the timestamp just adds extra protection in addition to achieving that goal.  It protects against malicious hosts causing a good Peer A to contact hosts that previously participated in the swarm.
+"ko": |-
+  추적기에서 생성된 부하는 이탈 및 인증서 수명에 따라 달라집니다. 멤버십 인증서의 주요 목표가 악의적인 피어 T가 좋은 피어 A가 *무작위* 호스트에 접속하도록 유도하는 것을 방지하는 것이라는 점을 고려하면 인증서는 상당히 오래 지속될 수 있습니다. 타임스탬프의 최신성은 해당 목표를 달성하는 것 외에도 추가 보호를 추가합니다. 이는 좋은 피어 A가 이전에 떼에 참여한 호스트에 연락하도록 하는 악의적인 호스트로부터 보호합니다.

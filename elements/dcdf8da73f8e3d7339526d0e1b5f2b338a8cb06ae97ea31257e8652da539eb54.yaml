@@ -1,0 +1,19 @@
+"hash": |-
+  dcdf8da73f8e3d7339526d0e1b5f2b338a8cb06ae97ea31257e8652da539eb54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are a number of request header fields that might reveal
+     information to servers that is sufficiently unique to enable
+     fingerprinting.  The From header field is the most obvious, though it
+     is expected that From will only be sent when self-identification is
+     desired by the user.  Likewise, Cookie header fields are deliberately
+     designed to enable re-identification, so fingerprinting concerns only
+     apply to situations where cookies are disabled or restricted by the
+     user agent's configuration.
+"fixed": |-
+  There are a number of request header fields that might reveal information to servers that is sufficiently unique to enable fingerprinting.  The From header field is the most obvious, though it is expected that From will only be sent when self-identification is desired by the user.  Likewise, Cookie header fields are deliberately designed to enable re-identification, so fingerprinting concerns only apply to situations where cookies are disabled or restricted by the user agent's configuration.
+"ko": |-
+  지문 채취를 활성화할 만큼 충분히 고유한 정보를 서버에 공개할 수 있는 요청 헤더 필드가 많이 있습니다. From 헤더 필드가 가장 명확하지만 From은 사용자가 자체 식별을 원하는 경우에만 전송될 것으로 예상됩니다. 마찬가지로 쿠키 헤더 필드는 재식별이 가능하도록 의도적으로 설계되었으므로 지문 인식 문제는 사용자 에이전트 구성에 의해 쿠키가 비활성화되거나 제한되는 상황에만 적용됩니다.

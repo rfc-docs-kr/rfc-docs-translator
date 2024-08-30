@@ -1,0 +1,19 @@
+"hash": |-
+  7dc77dd0f01f8550438bd9388cf75aac9d867cbd142a7eb1fd289487733c0baa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Likewise, a sender MUST NOT forward a message with a Content-Length
+     header field value that does not match the ABNF above, with one
+     exception: a recipient of a Content-Length header field value
+     consisting of the same decimal value repeated as a comma-separated
+     list (e.g, "Content-Length: 42, 42") MAY either reject the message as
+     invalid or replace that invalid field value with a single instance of
+     the decimal value, since this likely indicates that a duplicate was
+     generated or combined by an upstream message processor.
+"fixed": |-
+  Likewise, a sender MUST NOT forward a message with a Content-Length header field value that does not match the ABNF above, with one exception: a recipient of a Content-Length header field value consisting of the same decimal value repeated as a comma-separated list (e.g, "Content-Length: 42, 42") MAY either reject the message as invalid or replace that invalid field value with a single instance of the decimal value, since this likely indicates that a duplicate was generated or combined by an upstream message processor.
+"ko": |-
+  마찬가지로 발신자는 위의 ABNF와 일치하지 않는 Content-Length 헤더 필드 값이 있는 메시지를 전달해서는 안 됩니다. 단, 한 가지 예외는 쉼표로 반복되는 동일한 십진수 값으로 구성된 Content-Length 헤더 필드 값의 수신자입니다. 분리된 목록(예: "Content-Length: 42, 42")은 메시지를 유효하지 않은 것으로 거부하거나 해당 유효하지 않은 필드 값을 소수 값의 단일 인스턴스로 대체할 수 있습니다. 이는 중복이 생성되었거나 다음에 의해 결합되었음을 나타낼 가능성이 높기 때문입니다. 업스트림 메시지 프로세서.

@@ -1,0 +1,22 @@
+"hash": |-
+  d16c9bd14950534b0a8993bbbb825c993c93540411e3f6488906bdb2178b5a5c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field allows the client to request the recognizer
+     resource to save the audio input to the recognizer.  The recognizer
+     resource MUST then attempt to record the recognized audio, without
+     endpointing, and make it available to the client in the form of a URI
+     returned in the Waveform-URI header field in the RECOGNITION-COMPLETE
+     event.  If there was an error in recording the stream or the audio
+     content is otherwise not available, the recognizer MUST return an
+     empty Waveform-URI header field.  The default value for this field is
+     "false".  This header field MAY occur in RECOGNIZE, SET-PARAMS, or
+     GET-PARAMS.  See the discussion on the sensitivity of saved waveforms
+     in Section 12.
+"fixed": |-
+  This header field allows the client to request the recognizer resource to save the audio input to the recognizer.  The recognizer resource MUST then attempt to record the recognized audio, without endpointing, and make it available to the client in the form of a URI returned in the Waveform-URI header field in the RECOGNITION-COMPLETE event.  If there was an error in recording the stream or the audio content is otherwise not available, the recognizer MUST return an empty Waveform-URI header field.  The default value for this field is "false".  This header field MAY occur in RECOGNIZE, SET-PARAMS, or GET-PARAMS.  See the discussion on the sensitivity of saved waveforms in Section 12.
+"ko": |-
+  이 헤더 필드를 사용하면 클라이언트가 인식기 리소스에 오디오 입력을 인식기에 저장하도록 요청할 수 있습니다. 그런 다음 인식기 리소스는 엔드포인트 없이 인식된 오디오를 녹음하고 RECOGNITION-COMPLETE 이벤트의 Waveform-URI 헤더 필드에 반환된 URI 형태로 클라이언트에서 사용할 수 있도록 해야 합니다. 스트림을 녹음하는 데 오류가 있거나 오디오 콘텐츠를 사용할 수 없는 경우 인식기는 빈 Waveform-URI 헤더 필드를 반환해야 합니다. 이 필드의 기본값은 "false"입니다. 이 헤더 필드는 RECOGNIZE, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다. 섹션 12에서 저장된 파형의 민감도에 대한 논의를 참조하세요.

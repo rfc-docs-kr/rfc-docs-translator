@@ -1,0 +1,17 @@
+"hash": |-
+  dee7fde202cc4902d7ed704c0fd861555dde8d7e4a86a985d9eccd8b57d52100
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Within the header area of each body part in the multipart content,
+     the server MUST generate a Content-Range header field corresponding
+     to the range being enclosed in that body part.  If the selected
+     representation would have had a Content-Type header field in a 200
+     (OK) response, the server SHOULD generate that same Content-Type
+     header field in the header area of each body part.  For example:
+"fixed": |-
+  Within the header area of each body part in the multipart content, the server MUST generate a Content-Range header field corresponding to the range being enclosed in that body part.  If the selected representation would have had a Content-Type header field in a 200 (OK) response, the server SHOULD generate that same Content-Type header field in the header area of each body part.  For example:
+"ko": |-
+  멀티파트 콘텐츠의 각 본문 부분 헤더 영역 내에서 서버는 해당 본문 부분에 포함된 범위에 해당하는 Content-Range 헤더 필드를 생성해야 합니다. 선택된 표현이 200(OK) 응답에 Content-Type 헤더 필드를 갖고 있다면 서버는 각 본문 부분의 헤더 영역에 동일한 Content-Type 헤더 필드를 생성해야 합니다. 예를 들어:

@@ -1,0 +1,19 @@
+"hash": |-
+  e09f3fe3e7c3c4103c4d643fef6c79d245949e1e1ddea3335aa13fee78acd401
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If there is an undetected packet loss of 2^32 or more consecutive
+     packets on a single SA, then the transmitter and receiver will lose
+     synchronization of the high-order bits, i.e., the equations in
+     Section A2.2. will fail to yield the correct value.  Unless this
+     problem is detected and addressed, subsequent packets on this SA will
+     fail authentication checks and be discarded.  The following procedure
+     SHOULD be implemented by any IPsec (ESP or AH) implementation that
+     supports the ESN option.
+"fixed": |-
+  If there is an undetected packet loss of 2^32 or more consecutive packets on a single SA, then the transmitter and receiver will lose synchronization of the high-order bits, i.e., the equations in Section A2.2. will fail to yield the correct value.  Unless this problem is detected and addressed, subsequent packets on this SA will fail authentication checks and be discarded.  The following procedure SHOULD be implemented by any IPsec (ESP or AH) implementation that supports the ESN option.
+"ko": |-
+  단일 SA에서 2^32개 이상의 연속 패킷의 감지되지 않은 패킷 손실이 있는 경우 송신기와 수신기는 상위 비트의 동기화를 잃게 됩니다(예: 섹션 A2.2의 방정식). 올바른 값을 산출하지 못할 것입니다.  이 문제가 감지되어 해결되지 않으면 이 SA의 후속 패킷은 인증 확인에 실패하고 삭제됩니다.  다음 절차는 ESN 옵션을 지원하는 IPsec(ESP 또는 AH) 구현으로 구현되어야 합니다.

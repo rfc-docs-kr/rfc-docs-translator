@@ -1,0 +1,21 @@
+"hash": |-
+  ecff496108d299ebeb0b22a3f92edf49ae401bfe66c26cdacd867cbb982fbb7c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a recorder method contains this header field, the server MUST
+     capture the audio and store it.  If the header field is present but
+     specified with no value, the server MUST store the content locally
+     and generate a URI that points to it.  This URI is then returned in
+     either the STOP response or the RECORD-COMPLETE event.  If the header
+     field in the RECORD method specifies a URI, the server MUST attempt
+     to capture and store the audio at that location.  If this header
+     field is not specified in the RECORD request, the server MUST capture
+     the audio, MUST encode it, and MUST send it in the STOP response or
+     the RECORD-COMPLETE event as a message body.  In this case, the
+"fixed": |-
+  When a recorder method contains this header field, the server MUST capture the audio and store it.  If the header field is present but specified with no value, the server MUST store the content locally and generate a URI that points to it.  This URI is then returned in either the STOP response or the RECORD-COMPLETE event.  If the header field in the RECORD method specifies a URI, the server MUST attempt to capture and store the audio at that location.  If this header field is not specified in the RECORD request, the server MUST capture the audio, MUST encode it, and MUST send it in the STOP response or the RECORD-COMPLETE event as a message body.  In this case, the
+"ko": |-
+  레코더 메서드에 이 헤더 필드가 포함된 경우 서버는 오디오를 캡처하여 저장해야 합니다. 헤더 필드가 있지만 값 없이 지정된 경우 서버는 콘텐츠를 로컬에 저장하고 이를 가리키는 URI를 생성해야 합니다. 그런 다음 이 URI는 STOP 응답 또는 RECORD-COMPLETE 이벤트에서 반환됩니다. RECORD 메서드의 헤더 필드가 URI를 지정하는 경우 서버는 해당 위치에서 오디오를 캡처하여 저장하려고 시도해야 합니다. RECORD 요청에서 이 헤더 필드가 지정되지 않은 경우 서버는 오디오를 캡처하고 인코딩하고 STOP 응답 또는 RECORD-COMPLETE 이벤트에서 메시지 본문으로 보내야 합니다. 이 경우

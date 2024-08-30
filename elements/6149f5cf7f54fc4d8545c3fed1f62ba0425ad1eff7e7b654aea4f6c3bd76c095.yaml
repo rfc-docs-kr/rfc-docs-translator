@@ -1,0 +1,16 @@
+"hash": |-
+  6149f5cf7f54fc4d8545c3fed1f62ba0425ad1eff7e7b654aea4f6c3bd76c095
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A proxy MUST NOT transform the content (Section 6.4) of a response
+     message that contains a no-transform cache directive (Section 5.2.2.6
+     of [CACHING]).  Note that this does not apply to message
+     transformations that do not change the content, such as the addition
+     or removal of transfer codings (Section 7 of [HTTP/1.1]).
+"fixed": |-
+  A proxy MUST NOT transform the content (Section 6.4) of a response message that contains a no-transform cache directive (Section 5.2.2.6 of [CACHING]).  Note that this does not apply to message transformations that do not change the content, such as the addition or removal of transfer codings (Section 7 of [HTTP/1.1]).
+"ko": |-
+  프록시는 변환 불가 캐시 지시문([CACHING]의 섹션 5.2.2.6)을 포함하는 응답 메시지의 콘텐츠(섹션 6.4)를 변환해서는 안 됩니다. 이는 전송 코딩의 추가 또는 제거와 같이 내용을 변경하지 않는 메시지 변환에는 적용되지 않습니다([HTTP/1.1]의 섹션 7).

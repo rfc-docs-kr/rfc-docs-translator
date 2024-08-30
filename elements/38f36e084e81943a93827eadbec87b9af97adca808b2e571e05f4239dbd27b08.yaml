@@ -1,0 +1,28 @@
+"hash": |-
+  38f36e084e81943a93827eadbec87b9af97adca808b2e571e05f4239dbd27b08
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     IANA has created a new name space of "MRCPv2 Vendor-Specific
+     Parameters".  All maintenance within and additions to the contents of
+     this name space MUST be according to the "Hierarchical Allocation"
+     registration policy as follows.  Each name (corresponding to the
+     "vendor-av-pair-name" ABNF production) MUST satisfy the syntax
+     requirements of Internet Domain Names as described in Section 2.3.1
+     of RFC 1035 [RFC1035] (and as updated or obsoleted by successive
+     RFCs), with one exception, the order of the domain names is reversed.
+     For example, a vendor-specific parameter "foo" by example.com would
+     have the form "com.example.foo".  The first, or top-level domain, is
+     restricted to exactly the set of Top-Level Internet Domains defined
+     by IANA and will be updated by IANA when and only when that set
+     changes.  The second-level and all subdomains within the parameter
+     name MUST be allocated according to the "First Come First Served"
+     policy.  It is RECOMMENDED that assignment requests adhere to the
+     existing allocations of Internet domain names to organizations,
+     institutions, corporations, etc.
+"fixed": |-
+  IANA has created a new name space of "MRCPv2 Vendor-Specific Parameters".  All maintenance within and additions to the contents of this name space MUST be according to the "Hierarchical Allocation" registration policy as follows.  Each name (corresponding to the "vendor-av-pair-name" ABNF production) MUST satisfy the syntax requirements of Internet Domain Names as described in Section 2.3.1 of RFC 1035 [RFC1035] (and as updated or obsoleted by successive RFCs), with one exception, the order of the domain names is reversed. For example, a vendor-specific parameter "foo" by example.com would have the form "com.example.foo".  The first, or top-level domain, is restricted to exactly the set of Top-Level Internet Domains defined by IANA and will be updated by IANA when and only when that set changes.  The second-level and all subdomains within the parameter name MUST be allocated according to the "First Come First Served" policy.  It is RECOMMENDED that assignment requests adhere to the existing allocations of Internet domain names to organizations, institutions, corporations, etc.
+"ko": |-
+  IANA는 "MRCPv2 공급업체별 매개변수"의 새로운 이름 공간을 만들었습니다. 이 이름 공간 내의 모든 유지 관리 및 내용 추가는 다음과 같이 "계층적 할당" 등록 정책에 따라야 합니다. 각 이름("vendor-av-pair-name" ABNF 프로덕션에 해당)은 RFC 1035 [RFC1035]의 섹션 2.3.1에 설명된 대로 인터넷 도메인 이름의 구문 요구 사항을 충족해야 하며(연속된 RFC에서 업데이트되거나 폐기됨) 한 가지 예외로 도메인 이름의 순서가 반전됩니다. 예를 들어, example.com의 공급업체별 매개변수 "foo"는 "com.example.foo" 형식이 됩니다. 첫 번째 또는 최상위 도메인은 IANA에서 정의한 최상위 인터넷 도메인 세트로 정확히 제한되며 해당 세트가 변경될 때에만 IANA에서 업데이트됩니다. 매개변수 이름 내의 2차 및 모든 하위 도메인은 "선착순" 정책에 따라 할당되어야 합니다. 할당 요청은 조직, 기관, 법인 등에 대한 기존 인터넷 도메인 이름 할당을 준수하는 것이 좋습니다.

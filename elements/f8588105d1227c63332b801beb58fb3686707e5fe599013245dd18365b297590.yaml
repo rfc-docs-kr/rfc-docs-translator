@@ -1,0 +1,26 @@
+"hash": |-
+  f8588105d1227c63332b801beb58fb3686707e5fe599013245dd18365b297590
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An IPsec implementation SHOULD be capable of padding traffic by
+     adding bytes after the end of the Payload Data, prior to the
+     beginning of the Padding field.  However, this padding (hereafter
+     referred to as TFC padding) can be added only if the Payload Data
+     field contains a specification of the length of the IP datagram.
+     This is always true in tunnel mode, and may be true in transport mode
+     depending on whether the next layer protocol (e.g., IP, UDP, ICMP)
+     contains explicit length information.  This length information will
+     enable the receiver to discard the TFC padding, because the true
+     length of the Payload Data will be known.  (ESP trailer fields are
+     located by counting back from the end of the ESP packet.)
+     Accordingly, if TFC padding is added, the field containing the
+     specification of the length of the IP datagram MUST NOT be modified
+     to reflect this padding.  No requirements for the value of this
+     padding are established by this standard.
+"fixed": |-
+  An IPsec implementation SHOULD be capable of padding traffic by adding bytes after the end of the Payload Data, prior to the beginning of the Padding field.  However, this padding (hereafter referred to as TFC padding) can be added only if the Payload Data field contains a specification of the length of the IP datagram. This is always true in tunnel mode, and may be true in transport mode depending on whether the next layer protocol (e.g., IP, UDP, ICMP) contains explicit length information.  This length information will enable the receiver to discard the TFC padding, because the true length of the Payload Data will be known.  (ESP trailer fields are located by counting back from the end of the ESP packet.) Accordingly, if TFC padding is added, the field containing the specification of the length of the IP datagram MUST NOT be modified to reflect this padding.  No requirements for the value of this padding are established by this standard.
+"ko": |-
+  IPsec 구현은 페이로드 데이터 끝 뒤, 패딩 필드 시작 전 바이트를 추가하여 트래픽을 패딩할 수 있어야 합니다.  그러나 이 패딩(이하 TFC 패딩)은 페이로드 데이터 필드에 IP 데이터그램 길이에 대한 사양이 포함된 경우에만 추가할 수 있습니다. 이는 터널 모드에서는 항상 true이고, 다음 계층 프로토콜(예: IP, UDP, ICMP)에 명시적인 길이 정보가 포함되어 있는지 여부에 따라 전송 모드에서도 true일 수 있습니다.  이 길이 정보를 사용하면 페이로드 데이터의 실제 길이가 알려지기 때문에 수신기가 TFC 패딩을 삭제할 수 있습니다.  (ESP 트레일러 필드는 ESP 패킷의 끝에서부터 역으로 계산하여 위치합니다.) 따라서 TFC 패딩이 추가되는 경우 IP 데이터그램의 길이 사양을 포함하는 필드는 이 패딩을 반영하도록 수정되어서는 안 됩니다.  이 패딩 값에 대한 요구 사항은 이 표준에 의해 설정되지 않습니다.

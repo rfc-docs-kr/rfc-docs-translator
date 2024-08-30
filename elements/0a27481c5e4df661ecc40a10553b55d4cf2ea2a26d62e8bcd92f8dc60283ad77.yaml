@@ -1,0 +1,16 @@
+"hash": |-
+  0a27481c5e4df661ecc40a10553b55d4cf2ea2a26d62e8bcd92f8dc60283ad77
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       def _ShouldIgnoreLine(self, line):
+         line = line.strip()
+         if line.startswith('#'):
+           return True
+         return len(line) == 0
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

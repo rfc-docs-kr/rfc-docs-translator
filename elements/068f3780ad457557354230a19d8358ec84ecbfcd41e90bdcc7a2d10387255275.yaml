@@ -1,0 +1,17 @@
+"hash": |-
+  068f3780ad457557354230a19d8358ec84ecbfcd41e90bdcc7a2d10387255275
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that this use of the giaddr is consistent with the definition of
+     giaddr in [RFC2131], where the giaddr is always used as the return
+     address of the DHCP response message.  In some (but not all) contexts
+     in RFC 2131, the giaddr is used as the "key" to access the
+     appropriate address pool.  The DHCPLEASEQUERY message is one of those
+     cases where the giaddr MUST NOT be used as such a "key".
+"fixed": |-
+  Note that this use of the giaddr is consistent with the definition of giaddr in [RFC2131], where the giaddr is always used as the return address of the DHCP response message.  In some (but not all) contexts in RFC 2131, the giaddr is used as the "key" to access the appropriate address pool.  The DHCPLEASEQUERY message is one of those cases where the giaddr MUST NOT be used as such a "key".
+"ko": |-
+  giaddr의 이러한 사용은 giaddr이 항상 DHCP 응답 메시지의 반환 주소로 사용되는 [RFC2131]의 giaddr 정의와 일치합니다. RFC 2131의 일부(전부는 아님) 컨텍스트에서 giaddr은 적절한 주소 풀에 액세스하기 위한 "키"로 사용됩니다. DHCPLEASEQUERY 메시지는 giaddr이 "키"로 사용되어서는 안 되는 경우 중 하나입니다.

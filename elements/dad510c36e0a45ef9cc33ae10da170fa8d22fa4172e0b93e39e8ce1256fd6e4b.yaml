@@ -1,0 +1,24 @@
+"hash": |-
+  dad510c36e0a45ef9cc33ae10da170fa8d22fa4172e0b93e39e8ce1256fd6e4b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For any particular value of the key, either 1) each nonce provided
+        to distinct invocations of the Authenticated Encryption operation
+        MUST be distinct, or 2) each and every nonce MUST be zero-length.
+        If zero-length nonces are used with a particular key, then each
+        and every nonce used with that key MUST have a length of zero.
+        Otherwise, the number of octets in the nonce SHOULD be twelve
+        (12).  Nonces with different lengths MAY be used with a particular
+        key.  Some algorithms cannot be used with zero-length nonces, but
+        others can; see Section 4.  Applications that conform to the
+        recommended nonce length will avoid having to construct nonces
+        with different lengths, depending on the algorithm that is in use.
+        This guidance helps to keep algorithm-specific logic out of
+        applications.
+"fixed": |-
+  - For any particular value of the key, either 1) each nonce provided to distinct invocations of the Authenticated Encryption operation MUST be distinct, or 2) each and every nonce MUST be zero-length. If zero-length nonces are used with a particular key, then each and every nonce used with that key MUST have a length of zero. Otherwise, the number of octets in the nonce SHOULD be twelve (12).  Nonces with different lengths MAY be used with a particular key.  Some algorithms cannot be used with zero-length nonces, but others can; see Section 4.  Applications that conform to the recommended nonce length will avoid having to construct nonces with different lengths, depending on the algorithm that is in use. This guidance helps to keep algorithm-specific logic out of applications.
+"ko": |-
+  - 키의 특정 값에 대해 1) 인증된 암호화 작업의 개별 호출에 제공되는 각 nonce는 고유해야 하거나 2) 각각의 모든 nonce는 길이가 0이어야 합니다. 길이가 0인 nonce가 특정 키와 함께 사용되는 경우 해당 키와 함께 사용되는 모든 nonce의 길이는 0이어야 합니다. 그렇지 않은 경우 nonce의 옥텟 수는 12개여야 합니다. 길이가 다른 Nonce를 특정 키와 함께 사용할 수 있습니다. 일부 알고리즘은 길이가 0인 nonce와 함께 사용할 수 없지만 다른 알고리즘은 사용할 수 있습니다. 섹션 4를 참조하세요. 권장 nonce 길이를 준수하는 애플리케이션은 사용 중인 알고리즘에 따라 다른 길이로 nonce를 구성할 필요가 없습니다. 이 지침은 알고리즘별 논리를 애플리케이션에서 제외하는 데 도움이 됩니다.

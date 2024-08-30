@@ -1,0 +1,18 @@
+"hash": |-
+  056b122b4b4bd7d5d8084c16d9ec377133e9e2adb7f07839f66c92bb0c825cf5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To minimize the likelihood that the distribution of BGP messages by a
+     given BGP speaker will contain peaks, jitter SHOULD be applied to the
+     timers associated with MinASOriginationIntervalTimer, KeepaliveTimer,
+     MinRouteAdvertisementIntervalTimer, and ConnectRetryTimer.  A given
+     BGP speaker MAY apply the same jitter to each of these quantities,
+     regardless of the destinations to which the updates are being sent;
+     that is, jitter need not be configured on a per-peer basis.
+"fixed": |-
+  To minimize the likelihood that the distribution of BGP messages by a given BGP speaker will contain peaks, jitter SHOULD be applied to the timers associated with MinASOriginationIntervalTimer, KeepaliveTimer, MinRouteAdvertisementIntervalTimer, and ConnectRetryTimer.  A given BGP speaker MAY apply the same jitter to each of these quantities, regardless of the destinations to which the updates are being sent; that is, jitter need not be configured on a per-peer basis.
+"ko": |-
+  지정된 BGP 스피커에 의한 BGP 메시지 배포에 피크가 포함될 가능성을 최소화하려면 MinASOriginationIntervalTimer, KeepaliveTimer, MinRouteAdvertisementIntervalTimer 및 ConnectRetryTimer와 관련된 타이머에 지터를 적용해야 합니다. 특정 BGP 스피커는 업데이트가 전송되는 대상에 관계없이 이러한 수량 각각에 동일한 지터를 적용할 수 있습니다. 즉, 피어별로 지터를 구성할 필요가 없습니다.

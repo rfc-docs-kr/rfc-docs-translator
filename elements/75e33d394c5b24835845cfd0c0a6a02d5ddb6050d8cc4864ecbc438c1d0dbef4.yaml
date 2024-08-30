@@ -1,0 +1,25 @@
+"hash": |-
+  75e33d394c5b24835845cfd0c0a6a02d5ddb6050d8cc4864ecbc438c1d0dbef4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                        +---------+
+                                       _|   SIP   |
+                                     _/ |  Server |
+                  +-----------+  SIP/   +---------+
+                  |           |  _/
+      +-------+   |   VoIP    |_/
+      | POTS  |___| Gateway   |   RTP   +---------+
+      | Phone |   | (SIP UA)  |=========|         |
+      +-------+   |           |\_       | SPEECHSC|
+                  +-----------+  \      |   TTS   |
+                                  \__   |  Server |
+                               SPEECHSC |         |
+                                      \_|         |
+                                        +---------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

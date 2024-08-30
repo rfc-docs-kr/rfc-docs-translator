@@ -1,0 +1,20 @@
+"hash": |-
+  41cf6ab1dd49fd813e891eacaad8cf1f315c0a48fdc8b27f84622047941d2bee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This block of data is communicated in the SET-PARAMS and GET-PARAMS
+     method/response messages.  In the GET-PARAMS method, if an empty
+     Recognizer-Context-Block header field is present, then the recognizer
+     SHOULD return its vendor-specific context block, if any, in the
+     message body as an entity of media type 'application/octets' with a
+     specific Content-ID.  The Content-ID value MUST also be specified in
+     the Recognizer-Context-Block header field in the GET-PARAMS response.
+     The SET-PARAMS request wishing to provide this vendor-specific data
+     MUST send it in the message body as a typed entity with the same
+"fixed": |-
+  This block of data is communicated in the SET-PARAMS and GET-PARAMS method/response messages.  In the GET-PARAMS method, if an empty Recognizer-Context-Block header field is present, then the recognizer SHOULD return its vendor-specific context block, if any, in the message body as an entity of media type 'application/octets' with a specific Content-ID.  The Content-ID value MUST also be specified in the Recognizer-Context-Block header field in the GET-PARAMS response. The SET-PARAMS request wishing to provide this vendor-specific data MUST send it in the message body as a typed entity with the same
+"ko": |-
+  이 데이터 블록은 SET-PARAMS 및 GET-PARAMS 메서드/응답 메시지에서 전달됩니다. GET-PARAMS 메서드에서 빈 Recognizer-Context-Block 헤더 필드가 있는 경우 인식기는 메시지 본문에 특정 Content-ID가 있는 미디어 유형 'application/octets'의 엔터티로 공급업체별 컨텍스트 블록(있는 경우)을 반환해야 합니다. Content-ID 값은 GET-PARAMS 응답의 Recognizer-Context-Block 헤더 필드에서도 지정해야 합니다. 이 공급업체별 데이터를 제공하려는 SET-PARAMS 요청은 동일한 유형이 지정된 엔터티로 메시지 본문에 보내야 합니다.

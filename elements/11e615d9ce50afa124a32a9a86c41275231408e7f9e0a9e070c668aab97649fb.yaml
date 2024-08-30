@@ -1,0 +1,14 @@
+"hash": |-
+  11e615d9ce50afa124a32a9a86c41275231408e7f9e0a9e070c668aab97649fb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since packets containing only ACK frames are not congestion
+     controlled, an endpoint MUST NOT send more than one such packet in
+     response to receiving an ack-eliciting packet.
+"fixed": |-
+  Since packets containing only ACK frames are not congestion controlled, an endpoint MUST NOT send more than one such packet in response to receiving an ack-eliciting packet.
+"ko": |-
+  ACK 프레임만 포함하는 패킷은 혼잡이 제어되지 않으므로 엔드포인트는 ack 유도 패킷 수신에 대한 응답으로 그러한 패킷을 두 개 이상 보내서는 안 됩니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  3a65108f1e81f4623b500bc036037f7bd522f5b0b09482c5e36a321e2e9a626b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Expires entity-header field gives the date/time after which the
+     entity should be considered stale. This allows information providers
+     to suggest the volatility of the resource, or a date after which the
+     information may no longer be valid. Applications must not cache this
+     entity beyond the date given. The presence of an Expires field does
+     not imply that the original resource will change or cease to exist
+     at, before, or after that time. However, information providers that
+     know or even suspect that a resource will change by a certain date
+     should include an Expires header with that date. The format is an
+     absolute date and time as defined by HTTP-date in Section 3.3.
+"fixed": |-
+  The Expires entity-header field gives the date/time after which the entity should be considered stale. This allows information providers to suggest the volatility of the resource, or a date after which the information may no longer be valid. Applications must not cache this entity beyond the date given. The presence of an Expires field does not imply that the original resource will change or cease to exist at, before, or after that time. However, information providers that know or even suspect that a resource will change by a certain date should include an Expires header with that date. The format is an absolute date and time as defined by HTTP-date in Section 3.3.
+"ko": |-
+  Expires 엔터티 헤더 필드는 엔터티가 오래된 것으로 간주되어야 하는 날짜/시간을 제공합니다. 이를 통해 정보 제공자는 리소스의 변동성 또는 정보가 더 이상 유효하지 않을 수 있는 날짜를 제안할 수 있습니다. 애플리케이션은 지정된 날짜 이후에 이 엔터티를 캐시하면 안 됩니다. Expires 필드가 있다고 해서 원래 리소스가 해당 시점, 이전 또는 이후에 변경되거나 존재하지 않게 된다는 의미는 아닙니다. 그러나 리소스가 특정 날짜까지 변경될 것이라고 알고 있거나 심지어 의심하는 정보 제공자는 해당 날짜가 포함된 Expires 헤더를 포함해야 합니다. 형식은 섹션 3.3의 HTTP-date에 정의된 절대 날짜 및 시간입니다.

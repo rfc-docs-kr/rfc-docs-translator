@@ -1,0 +1,16 @@
+"hash": |-
+  098c73c7cb6a25c01c0304dddc2ee03b8266f499edeb97a9553c26b638b86546
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Fixed Bit:  The next bit (0x40) of byte 0 is set to 1, unless the
+        packet is a Version Negotiation packet.  Packets containing a zero
+        value for this bit are not valid packets in this version and MUST
+        be discarded.  A value of 1 for this bit allows QUIC to coexist
+        with other protocols; see [RFC7983].
+"fixed": |-
+  Fixed Bit:  The next bit (0x40) of byte 0 is set to 1, unless the packet is a Version Negotiation packet.  Packets containing a zero value for this bit are not valid packets in this version and MUST be discarded.  A value of 1 for this bit allows QUIC to coexist with other protocols; see [RFC7983].
+"ko": |-
+  고정 비트: 패킷이 버전 협상 패킷이 아닌 경우 바이트 0의 다음 비트(0x40)는 1로 설정됩니다. 이 비트에 대해 0 값을 포함하는 패킷은 이 버전에서 유효한 패킷이 아니므로 폐기해야 합니다. 이 비트의 값이 1이면 QUIC가 다른 프로토콜과 공존할 수 있습니다. [RFC7983]을 참조하세요.

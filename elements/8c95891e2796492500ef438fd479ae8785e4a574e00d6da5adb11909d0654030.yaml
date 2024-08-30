@@ -1,0 +1,24 @@
+"hash": |-
+  8c95891e2796492500ef438fd479ae8785e4a574e00d6da5adb11909d0654030
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As with all other IPP attributes, if the implementation cannot
+     determine the correct value for this attribute, it SHOULD respond
+     with the out-of-band 'unknown' value (see Section 5.1) rather than
+     try to guess at some possibly incorrect value and confuse the
+     End User about the state of the Job.  For example, if the
+     implementation is just a gateway into some printing system from which
+     it can normally get status, but temporarily is unable, then the
+     implementation should return the 'unknown' value.  However, if the
+     implementation is a gateway to a printing system that never provides
+     detailed status about the Print Job, the implementation MAY set the
+     IPP Job's state to 'completed', provided that it also sets the
+     'queued-in-device' value in the Job's "job-state-reasons" attribute
+     (see Section 5.3.8).
+"fixed": |-
+  As with all other IPP attributes, if the implementation cannot determine the correct value for this attribute, it SHOULD respond with the out-of-band 'unknown' value (see Section 5.1) rather than try to guess at some possibly incorrect value and confuse the End User about the state of the Job.  For example, if the implementation is just a gateway into some printing system from which it can normally get status, but temporarily is unable, then the implementation should return the 'unknown' value.  However, if the implementation is a gateway to a printing system that never provides detailed status about the Print Job, the implementation MAY set the IPP Job's state to 'completed', provided that it also sets the 'queued-in-device' value in the Job's "job-state-reasons" attribute (see Section 5.3.8).
+"ko": |-
+  다른 모든 IPP 속성과 마찬가지로 구현 시 이 속성에 대한 올바른 값을 결정할 수 없는 경우 잘못된 값을 추측하고 혼동하기보다는 대역 외 '알 수 없는' 값(섹션 5.1 참조)으로 응답해야 합니다(SHOULD). 작업 상태에 대한 최종 사용자. 예를 들어, 구현이 일반적으로 상태를 얻을 수 있지만 일시적으로 상태를 얻을 수 없는 일부 인쇄 시스템에 대한 게이트웨이인 경우 구현은 '알 수 없음' 값을 반환해야 합니다. 그러나 구현이 인쇄 작업에 대한 자세한 상태를 제공하지 않는 인쇄 시스템에 대한 게이트웨이인 경우 구현은 'queued-in-device' 값도 설정하는 경우 IPP 작업의 상태를 '완료'로 설정할 수 있습니다. 작업의 "job-state-reasons" 속성(섹션 5.3.8 참조)

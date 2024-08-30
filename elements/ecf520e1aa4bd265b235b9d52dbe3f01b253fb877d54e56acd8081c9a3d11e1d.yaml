@@ -1,0 +1,19 @@
+"hash": |-
+  ecf520e1aa4bd265b235b9d52dbe3f01b253fb877d54e56acd8081c9a3d11e1d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client wishing to use the security agreement of this specification
+     MUST add a Security-Client header field to a request addressed to its
+     first-hop proxy (i.e., the destination of the request is the first-
+     hop proxy).  This header field contains a list of all the security
+     mechanisms that the client supports.  The client SHOULD NOT add
+     preference parameters to this list.  The client MUST add both a
+     Require and Proxy-Require header field with the value "sec-agree" to
+     its request.
+"fixed": |-
+  A client wishing to use the security agreement of this specification MUST add a Security-Client header field to a request addressed to its first-hop proxy (i.e., the destination of the request is the first- hop proxy).  This header field contains a list of all the security mechanisms that the client supports.  The client SHOULD NOT add preference parameters to this list.  The client MUST add both a Require and Proxy-Require header field with the value "sec-agree" to its request.
+"ko": |-
+  이 사양의 보안 계약을 사용하고자 하는 클라이언트는 첫 번째 홉 프록시로 보내는 요청에 Security-Client 헤더 필드를 추가해야 합니다(즉, 요청의 목적지가 첫 번째 홉 프록시입니다). 이 헤더 필드에는 클라이언트가 지원하는 모든 보안 메커니즘 목록이 들어 있습니다. 클라이언트는 이 목록에 환경 설정 매개변수를 추가해서는 안 됩니다. 클라이언트는 "sec-agree" 값을 가진 Require 및 Proxy-Require 헤더 필드를 모두 요청에 추가해야 합니다.

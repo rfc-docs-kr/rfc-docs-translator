@@ -1,0 +1,1 @@
+- 유효한 OPEN 메시지(BGPOpen(이벤트 19))가 수신되고 CollisionDetectUsedState 선택적 속성이 TRUE인 경우 OPEN 메시지가 다른 연결과 충돌하는지(6.8절) 확인합니다. BGP 구현에서 이 연결을 종료해야 한다고 판단하면 OpenCollisionDump 이벤트(이벤트 23)를 처리합니다. 이 연결을 종료해야 하는 경우 로컬 시스템은 다음을 수행합니다.

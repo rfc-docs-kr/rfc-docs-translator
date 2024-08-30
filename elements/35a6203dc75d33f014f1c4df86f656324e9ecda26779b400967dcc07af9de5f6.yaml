@@ -1,0 +1,17 @@
+"hash": |-
+  35a6203dc75d33f014f1c4df86f656324e9ecda26779b400967dcc07af9de5f6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        path          = [ abs_path | opaque_part ]
+        path_segments = segment *( "/" segment )
+        segment       = *pchar *( ";" param )
+        param         = *pchar
+        pchar         = unreserved | escaped |
+                        ":" | "@" | "&" | "=" | "+" | "$" | ","
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

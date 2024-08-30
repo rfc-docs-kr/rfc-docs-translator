@@ -1,0 +1,14 @@
+"hash": |-
+  8fa190307dce5e757d3f70a51251703bd356b04e2a1f4f8474a7309d67f011a2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Extra data from the TCP buffer is interpreted as the beginning of
+         the TLS handshake.  (If the data is in cleartext, this will
+         result in the TLS handshake failing.)
+"fixed": |-
+  1.  Extra data from the TCP buffer is interpreted as the beginning of the TLS handshake.  (If the data is in cleartext, this will result in the TLS handshake failing.)
+"ko": |-
+  1. TCP 버퍼의 추가 데이터는 TLS 핸드셰이크의 시작으로 해석됩니다.  (데이터가 일반 텍스트로 되어 있으면 TLS 핸드셰이크가 실패하게 됩니다.)

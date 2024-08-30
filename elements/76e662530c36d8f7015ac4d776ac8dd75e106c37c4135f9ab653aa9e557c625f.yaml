@@ -1,0 +1,18 @@
+"hash": |-
+  76e662530c36d8f7015ac4d776ac8dd75e106c37c4135f9ab653aa9e557c625f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A NEW_CONNECTION_ID frame might cause an endpoint to add some active
+     connection IDs and retire others based on the value of the Retire
+     Prior To field.  After processing a NEW_CONNECTION_ID frame and
+     adding and retiring active connection IDs, if the number of active
+     connection IDs exceeds the value advertised in its
+     active_connection_id_limit transport parameter, an endpoint MUST
+     close the connection with an error of type CONNECTION_ID_LIMIT_ERROR.
+"fixed": |-
+  A NEW_CONNECTION_ID frame might cause an endpoint to add some active connection IDs and retire others based on the value of the Retire Prior To field.  After processing a NEW_CONNECTION_ID frame and adding and retiring active connection IDs, if the number of active connection IDs exceeds the value advertised in its active_connection_id_limit transport parameter, an endpoint MUST close the connection with an error of type CONNECTION_ID_LIMIT_ERROR.
+"ko": |-
+  NEW_CONNECTION_ID 프레임으로 인해 엔드포인트는 이전 종료 필드 값에 따라 일부 활성 연결 ID를 추가하고 다른 연결 ID를 종료할 수 있습니다. NEW_CONNECTION_ID 프레임을 처리하고 활성 연결 ID를 추가 및 폐기한 후 활성 연결 ID 수가 active_connection_id_limit 전송 매개변수에 광고된 값을 초과하는 경우 엔드포인트는 CONNECTION_ID_LIMIT_ERROR 유형의 오류와 함께 연결을 닫아야 합니다.

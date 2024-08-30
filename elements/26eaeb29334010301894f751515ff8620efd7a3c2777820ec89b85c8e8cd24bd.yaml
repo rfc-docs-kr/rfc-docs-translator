@@ -1,0 +1,21 @@
+"hash": |-
+  26eaeb29334010301894f751515ff8620efd7a3c2777820ec89b85c8e8cd24bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The IPP object has not found anything matching the request URI.  No
+     indication is given of whether the condition is temporary or
+     permanent.  For example, a Client with an old reference to a Job
+     (a URI) tries to cancel the Job; however, in the meantime the Job
+     might have been completed and all record of it at the Printer has
+     been deleted.  This status-code, 'client-error-not-found', is
+     returned indicating that the referenced Job cannot be found.  This
+     error status-code is also used when a Client supplies a URI as a
+     reference to the Document data in either a Print-URI or Send-URI
+     operation but the Document cannot be found.
+"fixed": |-
+  The IPP object has not found anything matching the request URI.  No indication is given of whether the condition is temporary or permanent.  For example, a Client with an old reference to a Job (a URI) tries to cancel the Job; however, in the meantime the Job might have been completed and all record of it at the Printer has been deleted.  This status-code, 'client-error-not-found', is returned indicating that the referenced Job cannot be found.  This error status-code is also used when a Client supplies a URI as a reference to the Document data in either a Print-URI or Send-URI operation but the Document cannot be found.
+"ko": |-
+  IPP 개체가 요청 URI와 일치하는 항목을 찾지 못했습니다. 상태가 일시적인지 영구적인지에 대한 표시는 없습니다. 예를 들어 작업에 대한 이전 참조(URI)가 있는 클라이언트는 작업을 취소하려고 시도합니다. 그러나 그 동안 작업이 완료되어 프린터의 모든 기록이 삭제되었을 수 있습니다. 이 상태 코드 'client-error-not-found'는 참조된 작업을 찾을 수 없음을 나타내는 반환됩니다. 이 오류 상태 코드는 클라이언트가 Print-URI 또는 ​​Send-URI 작업에서 문서 데이터에 대한 참조로 URI를 제공했지만 문서를 찾을 수 없는 경우에도 사용됩니다.

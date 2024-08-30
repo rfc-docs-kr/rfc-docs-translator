@@ -1,0 +1,36 @@
+"hash": |-
+  132c7cce5f860ff0be482a38342ad56767415ab00810065f7ed85dce960f527d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     embedded Printer:
+                                               Output Device
+                                             +---------------+
+      O   +--------+                         |  ###########  |
+     /|\  | Client |------------IPP------------># Printer #  |
+     / \  +--------+                         |  # Object  #  |
+                                             |  ###########  |
+                                             +---------------+
+     hosted Printer:
+                                             +---------------+
+      O   +--------+        ###########      |               |
+     /|\  | Client |--IPP--># Printer #-any->| Output Device |
+     / \  +--------+        # Object  #      |               |
+                            ###########      +---------------+
+                                              +---------------+
+     fan out:                                 |               |
+                                          +-->| Output Device |
+                                      any/    |               |
+      O   +--------+      ###########   /     +---------------+
+     /|\  | Client |-IPP-># Printer #--*
+     / \  +--------+      # Object  #   \     +---------------+
+                          ########### any\    |               |
+                                          +-->| Output Device |
+                                              |               |
+                                              +---------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

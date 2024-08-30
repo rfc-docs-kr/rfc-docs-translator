@@ -1,0 +1,17 @@
+"hash": |-
+  e25dbbdf6fd7543ac58ce8375552f40c6c950f01d6272489c3a4524b4497d0fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the "Recv" state, the endpoint receives STREAM and
+     STREAM_DATA_BLOCKED frames.  Incoming data is buffered and can be
+     reassembled into the correct order for delivery to the application.
+     As data is consumed by the application and buffer space becomes
+     available, the endpoint sends MAX_STREAM_DATA frames to allow the
+     peer to send more data.
+"fixed": |-
+  In the "Recv" state, the endpoint receives STREAM and STREAM_DATA_BLOCKED frames.  Incoming data is buffered and can be reassembled into the correct order for delivery to the application. As data is consumed by the application and buffer space becomes available, the endpoint sends MAX_STREAM_DATA frames to allow the peer to send more data.
+"ko": |-
+  "Recv" 상태에서 엔드포인트는 STREAM 및 STREAM_DATA_BLOCKED 프레임을 수신합니다. 들어오는 데이터는 버퍼링되며 애플리케이션에 전달하기 위해 올바른 순서로 재조립될 수 있습니다. 애플리케이션이 데이터를 소비하고 버퍼 공간을 사용할 수 있게 되면 엔드포인트는 MAX_STREAM_DATA 프레임을 보내 피어가 더 많은 데이터를 보낼 수 있도록 합니다.

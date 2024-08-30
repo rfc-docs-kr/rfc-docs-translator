@@ -1,0 +1,14 @@
+"hash": |-
+  b561b0a69d458f3fcff88a5d8f4e7d1a9d60c4f6db095ca84a35807f1d68f0ff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     <CODE BEGINS>
+     def decodeLittleEndian(b, bits):
+         return sum([b[i] << 8*i for i in range((bits+7)/8)])
+"fixed": |-
+  <CODE BEGINS> def decodeLittleEndian(b, bits): return sum([b[i] << 8*i for i in range((bits+7)/8)])
+"ko": |-
+  <코드 시작> def decodeLittleEndian(b, 비트): return sum([b[i] << 8*i for i in range((bits+7)/8)])

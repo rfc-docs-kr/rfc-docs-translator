@@ -1,0 +1,21 @@
+"hash": |-
+  f2a206842c66f13f2107e58b4f2bfd3fe5efc98d50a2eef70ce759f38c691b1f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  'job-canceled-by-operator': The Job was canceled by the Operator
+        using the Cancel-Job request, i.e., by a user who has been
+        authenticated as having Operator privileges (whether local or
+        remote).  If the security policy is to allow anyone to cancel
+        anyone's Job, then this value can be used when the Job is canceled
+        by other than the owner of the Job.  For such a security policy,
+        in effect, everyone is an Operator as far as canceling Jobs with
+        IPP is concerned.  This value SHOULD be supported if the
+        implementation permits canceling by other than the owner of
+        the Job.
+"fixed": |-
+  -  'job-canceled-by-operator': The Job was canceled by the Operator using the Cancel-Job request, i.e., by a user who has been authenticated as having Operator privileges (whether local or remote).  If the security policy is to allow anyone to cancel anyone's Job, then this value can be used when the Job is canceled by other than the owner of the Job.  For such a security policy, in effect, everyone is an Operator as far as canceling Jobs with IPP is concerned.  This value SHOULD be supported if the implementation permits canceling by other than the owner of the Job.
+"ko": |-
+  - 'job-canceled-by-operator': 작업 취소 요청을 사용하여 운영자, 즉 운영자 권한(로컬 또는 원격)이 있는 것으로 인증된 사용자에 의해 작업이 취소되었습니다. 보안 정책이 누구든지 누구의 Job을 취소할 수 있도록 허용하는 것이라면 Job 소유자가 아닌 다른 사람이 Job을 취소할 때 이 값을 사용할 수 있습니다. 이러한 보안 정책의 경우 사실상 IPP로 작업을 취소하는 한 모든 사람이 운영자입니다. 구현이 작업 소유자 이외의 사람에 의한 취소를 허용하는 경우 이 값을 지원해야 합니다(SHOULD).

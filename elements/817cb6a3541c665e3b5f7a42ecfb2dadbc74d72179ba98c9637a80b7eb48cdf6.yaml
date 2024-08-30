@@ -1,0 +1,18 @@
+"hash": |-
+  817cb6a3541c665e3b5f7a42ecfb2dadbc74d72179ba98c9637a80b7eb48cdf6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Error handling in the TLS Handshake protocol is very simple.  When an
+     error is detected, the detecting party sends a message to the other
+     party.  Upon transmission or receipt of a fatal alert message, both
+     parties immediately close the connection.  Servers and clients MUST
+     forget any session-identifiers, keys, and secrets associated with a
+     failed connection.  Thus, any connection terminated with a fatal
+     alert MUST NOT be resumed.  The following error alerts are defined:
+"fixed": |-
+  Error handling in the TLS Handshake protocol is very simple.  When an error is detected, the detecting party sends a message to the other party.  Upon transmission or receipt of a fatal alert message, both parties immediately close the connection.  Servers and clients MUST forget any session-identifiers, keys, and secrets associated with a failed connection.  Thus, any connection terminated with a fatal alert MUST NOT be resumed.  The following error alerts are defined:
+"ko": |-
+  TLS 핸드셰이크 프로토콜의 오류 처리는 매우 간단합니다. 오류가 감지되면 감지 당사자는 상대방에게 메시지를 보냅니다. 치명적인 경고 메시지를 전송하거나 수신하면 양측은 즉시 연결을 종료합니다. 서버와 클라이언트는 실패한 연결과 관련된 모든 세션 식별자, 키 및 비밀을 잊어야 합니다. 따라서 치명적인 경고로 종료된 연결은 재개되어서는 안 됩니다. 다음 오류 경고가 정의됩니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  8e8f46a52072bbc85128fad5c5c6350a1ea096d09aa29fe9480a777802bd8b04
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It may be desirable to define an AEAD algorithm that uses the generic
+     composition with the encrypt-then-MAC method [BN00], combining a
+     common encryption algorithm, such as CBC [MODES], with a common
+     message authentication code, such as HMAC-SHA1 [RFC2104] or AES CMAC
+     [CMAC].  An AEAD algorithm of this sort would reflect the best
+     current practice, and might be more easily supported by crypto
+     modules that lack support for other AEAD algorithms.
+"fixed": |-
+  It may be desirable to define an AEAD algorithm that uses the generic composition with the encrypt-then-MAC method [BN00], combining a common encryption algorithm, such as CBC [MODES], with a common message authentication code, such as HMAC-SHA1 [RFC2104] or AES CMAC [CMAC].  An AEAD algorithm of this sort would reflect the best current practice, and might be more easily supported by crypto modules that lack support for other AEAD algorithms.
+"ko": |-
+  CBC [MODES]와 같은 공통 암호화 알고리즘을 HMAC와 같은 공통 메시지 인증 코드와 결합하여 암호화 후 MAC 방법 [BN00]의 일반 구성을 사용하는 AEAD 알고리즘을 정의하는 것이 바람직할 수 있습니다. SHA1 [RFC2104] 또는 AES CMAC [CMAC]. 이러한 종류의 AEAD 알고리즘은 현재의 모범 사례를 반영하며 다른 AEAD 알고리즘에 대한 지원이 부족한 암호화 모듈에 의해 더 쉽게 지원될 수 있습니다.

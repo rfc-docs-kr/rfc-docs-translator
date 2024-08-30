@@ -1,0 +1,15 @@
+"hash": |-
+  356976e685a374dd35c60755c6da687cbad4ee4f1012cb7f916b779a7552c4b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  ignore any tag containing an attribute/value pair of type
+        enumerated-string whose AttributeName is recognized but whose
+        AttributeValue is not recognized, unless the definition of the
+        attribute says otherwise.
+"fixed": |-
+  -  ignore any tag containing an attribute/value pair of type enumerated-string whose AttributeName is recognized but whose AttributeValue is not recognized, unless the definition of the attribute says otherwise.
+"ko": |-
+  - 속성 정의에서 달리 언급하지 않는 한, AttributeName은 인식되지만 AttributeValue는 인식되지 않는 열거 문자열 유형의 속성/값 쌍을 포함하는 태그를 무시합니다.

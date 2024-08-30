@@ -1,0 +1,17 @@
+"hash": |-
+  19d9cb85f4085149127d39b1563ecfa2d5aaa9d601e1c2d1425cf4fa8a96da3f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     def decodeUCoordinate(u, bits):
+         u_list = [ord(b) for b in u]
+         # Ignore any unused bits.
+         if bits % 8:
+             u_list[-1] &= (1<<(bits%8))-1
+         return decodeLittleEndian(u_list, bits)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

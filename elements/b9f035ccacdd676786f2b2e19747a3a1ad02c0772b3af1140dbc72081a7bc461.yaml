@@ -1,0 +1,15 @@
+"hash": |-
+  b9f035ccacdd676786f2b2e19747a3a1ad02c0772b3af1140dbc72081a7bc461
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           A Printer MUST support both values.  However, if the
+           implementation does not keep Jobs in the 'completed',
+           'canceled', and 'aborted' states, then it returns no Jobs when
+           the 'completed' value is supplied.
+"fixed": |-
+  - A Printer MUST support both values.  However, if the implementation does not keep Jobs in the 'completed', 'canceled', and 'aborted' states, then it returns no Jobs when the 'completed' value is supplied.
+"ko": |-
+  - 프린터는 두 값을 모두 지원해야 합니다. 그러나 구현이 작업을 '완료', '취소' 및 '중단' 상태로 유지하지 않는 경우 '완료' 값이 제공되면 작업을 반환하지 않습니다.

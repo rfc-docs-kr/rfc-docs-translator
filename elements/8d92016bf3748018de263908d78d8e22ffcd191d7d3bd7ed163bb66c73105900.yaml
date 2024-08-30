@@ -1,0 +1,16 @@
+"hash": |-
+  8d92016bf3748018de263908d78d8e22ffcd191d7d3bd7ed163bb66c73105900
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Location value provided in a 3xx (Redirection) response does
+     not have a fragment component, a user agent MUST process the
+     redirection as if the value inherits the fragment component of the
+     URI reference used to generate the target URI (i.e., the redirection
+     inherits the original reference's fragment, if any).
+"fixed": |-
+  If the Location value provided in a 3xx (Redirection) response does not have a fragment component, a user agent MUST process the redirection as if the value inherits the fragment component of the URI reference used to generate the target URI (i.e., the redirection inherits the original reference's fragment, if any).
+"ko": |-
+  3xx(리디렉션) 응답에 제공된 위치 값에 조각 구성 요소가 없는 경우 사용자 에이전트는 값이 대상 URI를 생성하는 데 사용된 URI 참조의 조각 구성 요소를 상속하는 것처럼 리디렉션을 처리해야 합니다(즉, 리디렉션은 다음을 상속합니다). 원본 참조의 조각(있는 경우).

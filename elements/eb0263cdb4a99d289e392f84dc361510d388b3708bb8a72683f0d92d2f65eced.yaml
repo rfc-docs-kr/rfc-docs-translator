@@ -1,0 +1,25 @@
+"hash": |-
+  eb0263cdb4a99d289e392f84dc361510d388b3708bb8a72683f0d92d2f65eced
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Another interesting example of a cut-and-paste attack is provided by
+     [IPSPPROB].  If IPsec ESP is used without any MAC then it is possible
+     for the attacker to read traffic encrypted for a victim on the same
+     machine.  The attacker attaches an IP header corresponding to a port
+     he controls onto the encrypted IP packet.  When the packet is
+     received by the host it will automatically be decrypted and forwarded
+     to the attacker's port.  Similar techniques can be used to mount a
+     session hijacking attack.  Both of these attacks can be avoided by
+     always using message authentication when you use encryption.  Note
+     that this attack only works if (1) no MAC check is being used, since
+     this attack generates damaged packets (2) a host-to-host SA is being
+     used, since a user-to-user SA will result in an inconsistency between
+     the port associated with the SA and the target port.  If the
+     receiving machine is single-user than this attack is infeasible.
+"fixed": |-
+  Another interesting example of a cut-and-paste attack is provided by [IPSPPROB].  If IPsec ESP is used without any MAC then it is possible for the attacker to read traffic encrypted for a victim on the same machine.  The attacker attaches an IP header corresponding to a port he controls onto the encrypted IP packet.  When the packet is received by the host it will automatically be decrypted and forwarded to the attacker's port.  Similar techniques can be used to mount a session hijacking attack.  Both of these attacks can be avoided by always using message authentication when you use encryption.  Note that this attack only works if (1) no MAC check is being used, since this attack generates damaged packets (2) a host-to-host SA is being used, since a user-to-user SA will result in an inconsistency between the port associated with the SA and the target port.  If the receiving machine is single-user than this attack is infeasible.
+"ko": |-
+  잘라내기 및 붙여넣기 공격의 또 다른 흥미로운 예는 [IPSPPROB]에서 제공됩니다. MAC 없이 IPsec ESP를 사용하면 공격자가 동일한 시스템에서 피해자를 위해 암호화된 트래픽을 읽을 수 있습니다. 공격자는 암호화된 IP 패킷에 자신이 제어하는 ​​포트에 해당하는 IP 헤더를 첨부한다. 호스트가 패킷을 수신하면 자동으로 암호가 해독되어 공격자의 포트로 전달됩니다. 유사한 기술을 사용하여 세션 하이재킹 공격을 수행할 수 있습니다. 암호화를 사용할 때 항상 메시지 인증을 사용하면 이러한 공격을 모두 피할 수 있습니다. 이 공격은 (1) 이 공격이 손상된 패킷을 생성하므로 MAC 검사가 사용되지 않는 경우에만 작동합니다. (2) 사용자 간 SA가 불일치를 초래하므로 호스트 간 SA가 사용되는 경우에만 작동합니다. SA와 연결된 포트와 대상 포트 사이. 수신 시스템이 단일 사용자인 경우 이 공격은 불가능합니다.

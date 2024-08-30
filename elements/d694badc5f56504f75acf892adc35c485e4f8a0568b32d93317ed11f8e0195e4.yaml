@@ -1,0 +1,15 @@
+"hash": |-
+  d694badc5f56504f75acf892adc35c485e4f8a0568b32d93317ed11f8e0195e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender of Upgrade MUST also send an "Upgrade" connection option in
+     the Connection header field (Section 7.6.1) to inform intermediaries
+     not to forward this field.  A server that receives an Upgrade header
+     field in an HTTP/1.0 request MUST ignore that Upgrade field.
+"fixed": |-
+  A sender of Upgrade MUST also send an "Upgrade" connection option in the Connection header field (Section 7.6.1) to inform intermediaries not to forward this field.  A server that receives an Upgrade header field in an HTTP/1.0 request MUST ignore that Upgrade field.
+"ko": |-
+  업그레이드 발신자는 또한 연결 헤더 필드(섹션 7.6.1)에 "업그레이드" 연결 옵션을 보내 중개자에게 이 필드를 전달하지 말 것을 알려야 합니다. HTTP/1.0 요청에서 업그레이드 헤더 필드를 수신하는 서버는 해당 업그레이드 필드를 무시해야 합니다.

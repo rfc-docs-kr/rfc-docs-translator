@@ -1,0 +1,14 @@
+"hash": |-
+  06fa345173c2b36b4d9709f00963fc5a59842950ba4d5a591db48d69e8327e0e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The IV is XOR'd with the first plaintext block before it is
+     encrypted.  Then for successive blocks, the previous ciphertext block
+     is XOR'd with the current plaintext, before it is encrypted.
+"fixed": |-
+  The IV is XOR'd with the first plaintext block before it is encrypted.  Then for successive blocks, the previous ciphertext block is XOR'd with the current plaintext, before it is encrypted.
+"ko": |-
+  IV는 암호화되기 전에 첫 번째 일반 텍스트 블록과 XOR됩니다. 그런 다음 연속 블록의 경우 이전 암호문 블록이 암호화되기 전에 현재 일반 텍스트와 XOR됩니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  282afa9bf04ced50d90edbc6fb1717317cedec702f26ba82d089cdf81093d611
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Considerations for external PSK usage extend beyond proper
+     identification.  When early data is used with an external PSK, the
+     random value in the ClientHello is the only source of entropy that
+     contributes to key diversity between sessions.  As a result, when an
+     external PSK is used more than one time, the random number source on
+     the client has a significant role in the protection of the early
+     data.
+"fixed": |-
+  Considerations for external PSK usage extend beyond proper identification.  When early data is used with an external PSK, the random value in the ClientHello is the only source of entropy that contributes to key diversity between sessions.  As a result, when an external PSK is used more than one time, the random number source on the client has a significant role in the protection of the early data.
+"ko": |-
+  외부 PSK 사용에 대한 고려 사항은 적절한 식별 이상의 것입니다.  초기 데이터가 외부 PSK와 함께 사용되는 경우 ClientHello의 임의 값은 세션 간의 주요 다양성에 기여하는 유일한 엔트로피 소스입니다.  결과적으로 외부 PSK가 두 번 이상 사용되는 경우 클라이언트의 난수 소스는 초기 데이터 보호에 중요한 역할을 합니다.

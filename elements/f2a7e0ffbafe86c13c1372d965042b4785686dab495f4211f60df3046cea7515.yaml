@@ -1,0 +1,20 @@
+"hash": |-
+  f2a7e0ffbafe86c13c1372d965042b4785686dab495f4211f60df3046cea7515
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The Client MAY supply and the Printer MUST support this
+           attribute.  It is a set of Job attribute names and/or attribute
+           group names in whose values the requester is interested.  This
+           set of attributes is returned for each Job that is returned.
+           The allowed attribute group names are the same as those defined
+           in the Get-Job-Attributes operation in Section 4.3.4.  If the
+           Client does not supply this attribute, the Printer MUST respond
+           as if the Client had supplied this attribute with two values:
+           "job-uri" and "job-id".
+"fixed": |-
+  - The Client MAY supply and the Printer MUST support this attribute.  It is a set of Job attribute names and/or attribute group names in whose values the requester is interested.  This set of attributes is returned for each Job that is returned. The allowed attribute group names are the same as those defined in the Get-Job-Attributes operation in Section 4.3.4.  If the Client does not supply this attribute, the Printer MUST respond as if the Client had supplied this attribute with two values: "job-uri" and "job-id".
+"ko": |-
+  - 클라이언트는 이 속성을 제공할 수 있고 프린터는 이 속성을 지원해야 합니다. 이는 요청자가 관심을 갖는 값을 갖는 작업 속성 이름 및/또는 속성 그룹 이름의 집합입니다. 이 속성 세트는 반환되는 각 작업에 대해 반환됩니다. 허용되는 속성 그룹 이름은 섹션 4.3.4의 Get-Job-Attributes 작업에 정의된 것과 동일합니다. 클라이언트가 이 속성을 제공하지 않는 경우 프린터는 클라이언트가 이 속성에 "job-uri" 및 "job-id"라는 두 값을 제공한 것처럼 응답해야 합니다.

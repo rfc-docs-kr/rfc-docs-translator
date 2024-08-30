@@ -1,0 +1,25 @@
+"hash": |-
+  193083c834af5194aa609c20ff2f61c0794edcab366bda00a8fc7070dc357559
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a received extension negotiation offer has the
+     "client_max_window_bits" extension parameter, the server MAY include
+     the "client_max_window_bits" extension parameter in the corresponding
+     extension negotiation response to the offer.  If the
+     "client_max_window_bits" extension parameter in a received extension
+     negotiation offer has a value, the server may either ignore this
+     value or use this value to avoid allocating an unnecessarily big LZ77
+     sliding window by including the "client_max_window_bits" extension
+     parameter in the corresponding extension negotiation response to the
+     offer with a value equal to or smaller than the received value.  The
+     "client_max_window_bits" extension parameter in an extension
+     negotiation response has a decimal integer value without leading
+     zeroes between 8 to 15 inclusive indicating the base-2 logarithm of
+     the LZ77 sliding window size and MUST conform to the ABNF below.
+"fixed": |-
+  If a received extension negotiation offer has the "client_max_window_bits" extension parameter, the server MAY include the "client_max_window_bits" extension parameter in the corresponding extension negotiation response to the offer.  If the "client_max_window_bits" extension parameter in a received extension negotiation offer has a value, the server may either ignore this value or use this value to avoid allocating an unnecessarily big LZ77 sliding window by including the "client_max_window_bits" extension parameter in the corresponding extension negotiation response to the offer with a value equal to or smaller than the received value.  The "client_max_window_bits" extension parameter in an extension negotiation response has a decimal integer value without leading zeroes between 8 to 15 inclusive indicating the base-2 logarithm of the LZ77 sliding window size and MUST conform to the ABNF below.
+"ko": |-
+  수신된 확장 협상 제안에 "client_max_window_bits" 확장 매개변수가 있는 경우 서버는 제안에 대한 해당 확장 협상 응답에 "client_max_window_bits" 확장 매개변수를 포함할 수 있습니다.  수신된 확장 협상 제안의 "client_max_window_bits" 확장 매개변수에 값이 있는 경우 서버는 이 값을 무시하거나 해당 확장 협상에 "client_max_window_bits" 확장 매개변수를 포함시켜 불필요하게 큰 LZ77 슬라이딩 윈도우 할당을 피하기 위해 이 값을 사용할 수 있습니다. 받은 값과 같거나 작은 값으로 제안에 응답합니다.  확장 협상 응답의 "client_max_window_bits" 확장 매개변수는 LZ77 슬라이딩 윈도우 크기의 밑수 2 로그를 나타내는 8~15 사이의 앞에 0이 없는 십진수 정수 값을 가지며 아래 ABNF를 준수해야 합니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  87af4935ebf76c9a658507c9f89264259bfd0d81c4519f4324ff882e8340073a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Retry packets (Section 17.2.5), Version Negotiation packets
+     (Section 17.2.1), and packets with a short header (Section 17.3) do
+     not contain a Length field and so cannot be followed by other packets
+     in the same UDP datagram.  Note also that there is no situation where
+     a Retry or Version Negotiation packet is coalesced with another
+     packet.
+"fixed": |-
+  Retry packets (Section 17.2.5), Version Negotiation packets (Section 17.2.1), and packets with a short header (Section 17.3) do not contain a Length field and so cannot be followed by other packets in the same UDP datagram.  Note also that there is no situation where a Retry or Version Negotiation packet is coalesced with another packet.
+"ko": |-
+  재시도 패킷(17.2.5절), 버전 협상 패킷(17.2.1절) 및 짧은 헤더가 있는 패킷(17.3절)에는 길이 필드가 포함되어 있지 않으므로 동일한 UDP 데이터그램에서 다른 패킷이 뒤에 올 수 없습니다. 또한 재시도 또는 버전 협상 패킷이 다른 패킷과 통합되는 상황은 없습니다.

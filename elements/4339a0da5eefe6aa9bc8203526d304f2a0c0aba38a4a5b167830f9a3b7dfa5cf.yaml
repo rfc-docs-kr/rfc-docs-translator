@@ -1,0 +1,16 @@
+"hash": |-
+  4339a0da5eefe6aa9bc8203526d304f2a0c0aba38a4a5b167830f9a3b7dfa5cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To support this process, an endpoint issues a stateless reset token,
+     which is a 16-byte value that is hard to guess.  If the peer
+     subsequently receives a Stateless Reset, which is a UDP datagram that
+     ends in that stateless reset token, the peer will immediately end the
+     connection.
+"fixed": |-
+  To support this process, an endpoint issues a stateless reset token, which is a 16-byte value that is hard to guess.  If the peer subsequently receives a Stateless Reset, which is a UDP datagram that ends in that stateless reset token, the peer will immediately end the connection.
+"ko": |-
+  이 프로세스를 지원하기 위해 엔드포인트는 추측하기 어려운 16바이트 값인 상태 비저장 재설정 토큰을 발행합니다. 이후에 피어가 해당 무상태 재설정 토큰으로 끝나는 UDP 데이터그램인 무상태 재설정을 수신하면 피어는 즉시 연결을 종료합니다.

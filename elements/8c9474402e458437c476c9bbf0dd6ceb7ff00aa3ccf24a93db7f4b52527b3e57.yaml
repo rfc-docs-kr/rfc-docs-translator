@@ -1,0 +1,22 @@
+"hash": |-
+  8c9474402e458437c476c9bbf0dd6ceb7ff00aa3ccf24a93db7f4b52527b3e57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The BODYSTRUCTURE FETCH data item can contain the MD5 digest of the
+     message body in the "body MD5" field (body-fld-md5 ABNF production).
+     While MD5 is no longer considered a secure cryptographic hash
+     [RFC6151], this field is used solely to expose the value of the
+     Content-MD5 header field (if present in the original message), which
+     is just a message integrity check and is not used for cryptographic
+     purposes.  Also note that other mechanisms that provide message
+     integrity checks were defined since RFC 1864 [MD5] was published and
+     are now more commonly used than Content-MD5.  Two such mechanisms are
+     the DKIM-Signature header field [RFC6376] and S/MIME signing
+     [RFC8550] [RFC8551].
+"fixed": |-
+  The BODYSTRUCTURE FETCH data item can contain the MD5 digest of the message body in the "body MD5" field (body-fld-md5 ABNF production). While MD5 is no longer considered a secure cryptographic hash [RFC6151], this field is used solely to expose the value of the Content-MD5 header field (if present in the original message), which is just a message integrity check and is not used for cryptographic purposes.  Also note that other mechanisms that provide message integrity checks were defined since RFC 1864 [MD5] was published and are now more commonly used than Content-MD5.  Two such mechanisms are the DKIM-Signature header field [RFC6376] and S/MIME signing [RFC8550] [RFC8551].
+"ko": |-
+  BODYSTRUCTURE FETCH 데이터 항목은 "body MD5" 필드에 메시지 본문의 MD5 다이제스트를 포함할 수 있습니다(body-fld-md5 ABNF 생성). MD5는 더 이상 보안 암호화 해시[RFC6151]로 간주되지 않지만 이 필드는 Content-MD5 헤더 필드(원본 메시지에 있는 경우)의 값을 노출하는 데만 사용됩니다. 이는 메시지 무결성 검사일 뿐이며 사용되지 않습니다. 암호화 목적으로.  또한 메시지 무결성 검사를 제공하는 다른 메커니즘은 RFC 1864 [MD5]가 게시된 이후 정의되었으며 현재 Content-MD5보다 더 일반적으로 사용됩니다.  이러한 두 가지 메커니즘은 DKIM 서명 헤더 필드[RFC6376]와 S/MIME 서명[RFC8550][RFC8551]입니다.

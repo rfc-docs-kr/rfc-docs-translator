@@ -1,0 +1,20 @@
+"hash": |-
+  73ae3614f667ab0d829d3371facd56b5d6b5a9ef0d756ca89ab3e2ca5ecc9536
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ChaCha state does not have four integer numbers: it has 16.  So
+     the quarter-round operation works on only four of them -- hence the
+     name.  Each quarter round operates on four predetermined numbers in
+     the ChaCha state.  We will denote by QUARTERROUND(x, y, z, w) a
+     quarter-round operation on the numbers at indices x, y, z, and w of
+     the ChaCha state when viewed as a vector.  For example, if we apply
+     QUARTERROUND(1, 5, 9, 13) to a state, this means running the quarter-
+     round operation on the elements marked with an asterisk, while
+     leaving the others alone:
+"fixed": |-
+  The ChaCha state does not have four integer numbers: it has 16.  So the quarter-round operation works on only four of them -- hence the name.  Each quarter round operates on four predetermined numbers in the ChaCha state.  We will denote by QUARTERROUND(x, y, z, w) a quarter-round operation on the numbers at indices x, y, z, and w of the ChaCha state when viewed as a vector.  For example, if we apply QUARTERROUND(1, 5, 9, 13) to a state, this means running the quarter- round operation on the elements marked with an asterisk, while leaving the others alone:
+"ko": |-
+  ChaCha 상태에는 4개의 정수가 없습니다. 즉 16개가 있습니다. 따라서 1/4 반올림 연산은 그 중 4개에서만 작동합니다. 따라서 이름이 붙여졌습니다. 각 분기 라운드는 ChaCha 상태에서 미리 결정된 4개의 숫자에 대해 작동됩니다. 벡터로 볼 때 ChaCha 상태의 인덱스 x, y, z 및 w에 있는 숫자에 대한 1/4 반올림 연산을 QUARTERROUND(x, y, z, w)로 표시합니다. 예를 들어, QUARTERROUND(1, 5, 9, 13)을 상태에 적용하면 별표가 표시된 요소에 대해 1/4 라운드 연산을 실행하고 다른 요소는 그대로 두는 것을 의미합니다.

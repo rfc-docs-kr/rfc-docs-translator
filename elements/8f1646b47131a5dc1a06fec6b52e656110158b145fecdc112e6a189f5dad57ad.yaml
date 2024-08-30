@@ -1,0 +1,13 @@
+"hash": |-
+  8f1646b47131a5dc1a06fec6b52e656110158b145fecdc112e6a189f5dad57ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     <key> ::= 1*( <keychar> ) | "OID." <oid> | "oid." <oid>
+     <keychar> ::= letters, numbers, and space
+"fixed": |-
+  <key> ::= 1*( <keychar> ) | "OID." <oid> | "oid." <oid> <keychar> ::= letters, numbers, and space
+"ko": |-
+  <키> ::= 1*( <키문자> ) | "OID." <로이드> | "오이드." <oid> <keychar> ::= 문자, 숫자, 공백

@@ -1,0 +1,25 @@
+"hash": |-
+  9078e169e74b3f28466d1397508275ed489073051517daa9bc5a32c2d0293920
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         A construct "#" is defined, similar to "*", for defining lists
+         of elements. The full form is "<n>#<m>element" indicating at
+         least <n> and at most <m> elements, each separated by one or
+         more commas (",") and optional linear whitespace (LWS). This
+         makes the usual form of lists very easy; a rule such as
+         "( *LWS element *( *LWS "," *LWS element ))" can be shown as
+         "1#element". Wherever this construct is used, null elements are
+         allowed, but do not contribute to the count of elements present.
+         That is, "(element), , (element)" is permitted, but counts as
+         only two elements. Therefore, where at least one element is
+         required, at least one non-null element must be present. Default
+         values are 0 and infinity so that "#(element)" allows any
+         number, including zero; "1#element" requires at least one; and
+         "1#2element" allows one or two.
+"fixed": |-
+  - A construct "#" is defined, similar to "*", for defining lists of elements. The full form is "<n>#<m>element" indicating at least <n> and at most <m> elements, each separated by one or more commas (",") and optional linear whitespace (LWS). This makes the usual form of lists very easy; a rule such as "( *LWS element *( *LWS "," *LWS element ))" can be shown as "1#element". Wherever this construct is used, null elements are allowed, but do not contribute to the count of elements present. That is, "(element), , (element)" is permitted, but counts as only two elements. Therefore, where at least one element is required, at least one non-null element must be present. Default values are 0 and infinity so that "#(element)" allows any number, including zero; "1#element" requires at least one; and "1#2element" allows one or two.
+"ko": |-
+  - 요소 목록을 정의하기 위해 "*"와 유사한 구성 "#"이 정의됩니다. 전체 형식은 "<n>#<m>element"이며, 각각 하나 이상의 쉼표(",")와 선택적 선형 공백(LWS)으로 구분된 <n>개 이상, <m>개 이하의 요소를 나타냅니다. 이는 일반적인 목록 형식을 매우 쉽게 만듭니다. "( *LWS 요소 *( *LWS "," *LWS 요소 ))"와 같은 규칙은 "1#element"로 표시될 수 있습니다. 이 구성이 사용될 때마다 null 요소가 허용되지만 존재하는 요소 수에 영향을 주지는 않습니다. 즉, "(요소), , (요소)"는 허용되지만 두 요소로만 계산됩니다. 따라서 하나 이상의 요소가 필요한 경우 null이 아닌 요소가 하나 이상 있어야 합니다. 기본값은 0과 무한대이므로 "#(element)"는 0을 포함한 모든 숫자를 허용합니다. "1#element"에는 하나 이상이 필요합니다. "1#2element"는 1개 또는 2개를 허용합니다.

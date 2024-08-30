@@ -1,0 +1,16 @@
+"hash": |-
+  533b2d001bdca33b69024a92127e48c0b26125c9501cffd3145aa495dd3aaf0b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is not an error for the Printer to return 0 Jobs.  If the response
+     returns 0 Jobs because there are no Jobs matching the criteria, and
+     the request would have returned one or more Jobs with a status-code
+     of 'successful-ok' if there had been Jobs matching the criteria, then
+     the status-code for 0 Jobs MUST be 'successful-ok'.
+"fixed": |-
+  It is not an error for the Printer to return 0 Jobs.  If the response returns 0 Jobs because there are no Jobs matching the criteria, and the request would have returned one or more Jobs with a status-code of 'successful-ok' if there had been Jobs matching the criteria, then the status-code for 0 Jobs MUST be 'successful-ok'.
+"ko": |-
+  프린터가 0개의 작업을 반환하는 것은 오류가 아닙니다. 기준과 일치하는 Job이 없기 때문에 응답이 0개의 Job을 반환하고, 기준과 일치하는 Job이 있었다면 요청이 상태 코드 'successful-ok'와 함께 하나 이상의 Job을 반환한 경우 상태 코드는 다음과 같습니다. 0개 작업의 경우 '성공-확인'이어야 합니다.

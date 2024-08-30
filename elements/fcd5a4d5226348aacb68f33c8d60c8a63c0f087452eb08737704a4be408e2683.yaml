@@ -1,0 +1,19 @@
+"hash": |-
+  fcd5a4d5226348aacb68f33c8d60c8a63c0f087452eb08737704a4be408e2683
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Playlist files MUST be encoded in UTF-8 [RFC3629].  They MUST NOT
+     contain any Byte Order Mark (BOM); clients SHOULD fail to parse
+     Playlists that contain a BOM or do not parse as UTF-8.  Playlist
+     files MUST NOT contain UTF-8 control characters (U+0000 to U+001F and
+     U+007F to U+009F), with the exceptions of CR (U+000D) and LF
+     (U+000A).  All character sequences MUST be normalized according to
+     Unicode normalization form "NFC" [UNICODE].  Note that US-ASCII
+     [US_ASCII] conforms to these rules.
+"fixed": |-
+  Playlist files MUST be encoded in UTF-8 [RFC3629].  They MUST NOT contain any Byte Order Mark (BOM); clients SHOULD fail to parse Playlists that contain a BOM or do not parse as UTF-8.  Playlist files MUST NOT contain UTF-8 control characters (U+0000 to U+001F and U+007F to U+009F), with the exceptions of CR (U+000D) and LF (U+000A).  All character sequences MUST be normalized according to Unicode normalization form "NFC" [UNICODE].  Note that US-ASCII [US_ASCII] conforms to these rules.
+"ko": |-
+  재생 목록 파일은 UTF-8[RFC3629]로 인코딩되어야 합니다. BOM(바이트 순서 표시)을 포함하면 안 됩니다. 클라이언트는 BOM을 포함하거나 UTF-8로 구문 분석하지 않는 재생 목록을 구문 분석하는 데 실패해야 합니다(SHOULD). 재생 목록 파일에는 CR(U+000D) 및 LF(U+000A)를 제외하고 UTF-8 제어 문자(U+0000~U+001F 및 U+007F~U+009F)가 포함되어서는 안 됩니다. 모든 문자 시퀀스는 유니코드 정규화 형식 "NFC" [UNICODE]에 따라 정규화되어야 합니다. US-ASCII [US_ASCII]는 이러한 규칙을 따릅니다.

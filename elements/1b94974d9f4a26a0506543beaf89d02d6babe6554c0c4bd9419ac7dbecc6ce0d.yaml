@@ -1,0 +1,33 @@
+"hash": |-
+  1b94974d9f4a26a0506543beaf89d02d6babe6554c0c4bd9419ac7dbecc6ce0d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        g:h           =  g:h
+        g             =  http://a/b/c/g
+        ./g           =  http://a/b/c/g
+        g/            =  http://a/b/c/g/
+        /g            =  http://a/g
+        //g           =  http://g
+        ?y            =  http://a/b/c/?y
+        g?y           =  http://a/b/c/g?y
+        #s            =  (current document)#s
+        g#s           =  http://a/b/c/g#s
+        g?y#s         =  http://a/b/c/g?y#s
+        ;x            =  http://a/b/c/;x
+        g;x           =  http://a/b/c/g;x
+        g;x?y#s       =  http://a/b/c/g;x?y#s
+        .             =  http://a/b/c/
+        ./            =  http://a/b/c/
+        ..            =  http://a/b/
+        ../           =  http://a/b/
+        ../g          =  http://a/b/g
+        ../..         =  http://a/
+        ../../        =  http://a/
+        ../../g       =  http://a/g
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

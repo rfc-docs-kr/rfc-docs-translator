@@ -1,0 +1,18 @@
+"hash": |-
+  94bb92ceb686617fc034bb95ede9e6a9c840a355f20305834292ff56f1a89a68
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A list containing the member "*" signals that other aspects of the
+     request might have played a role in selecting the response
+     representation, possibly including aspects outside the message syntax
+     (e.g., the client's network address).  A recipient will not be able
+     to determine whether this response is appropriate for a later request
+     without forwarding the request to the origin server.  A proxy MUST
+     NOT generate "*" in a Vary field value.
+"fixed": |-
+  A list containing the member "*" signals that other aspects of the request might have played a role in selecting the response representation, possibly including aspects outside the message syntax (e.g., the client's network address).  A recipient will not be able to determine whether this response is appropriate for a later request without forwarding the request to the origin server.  A proxy MUST NOT generate "*" in a Vary field value.
+"ko": |-
+  멤버 "*"를 포함하는 목록은 메시지 구문 외부의 측면(예: 클라이언트의 네트워크 주소)을 포함하여 요청의 다른 측면이 응답 표현을 선택하는 데 역할을 했을 수 있음을 나타냅니다. 수신자는 요청을 원본 서버로 전달하지 않고는 이 응답이 이후 요청에 적합한지 여부를 결정할 수 없습니다. 프록시는 Vary 필드 값에 "*"를 생성해서는 안 됩니다.

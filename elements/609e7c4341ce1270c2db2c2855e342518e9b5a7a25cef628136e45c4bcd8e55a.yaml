@@ -1,0 +1,15 @@
+"hash": |-
+  609e7c4341ce1270c2db2c2855e342518e9b5a7a25cef628136e45c4bcd8e55a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Length:  An 8-bit unsigned integer containing the length of the
+        connection ID.  Values less than 1 and greater than 20 are invalid
+        and MUST be treated as a connection error of type
+        FRAME_ENCODING_ERROR.
+"fixed": |-
+  Length:  An 8-bit unsigned integer containing the length of the connection ID.  Values less than 1 and greater than 20 are invalid and MUST be treated as a connection error of type FRAME_ENCODING_ERROR.
+"ko": |-
+  길이: 연결 ID의 길이를 포함하는 8비트 부호 없는 정수입니다. 1보다 작고 20보다 큰 값은 유효하지 않으며 FRAME_ENCODING_ERROR 유형의 연결 오류로 처리되어야 합니다.

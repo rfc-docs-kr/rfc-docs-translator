@@ -1,0 +1,21 @@
+"hash": |-
+  44e4fda831140b89b5cf36cc68b8da30da46834bf2596acf4497012aab1798d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When sending frames in 0-RTT packets, a client MUST only use
+     remembered transport parameters; importantly, it MUST NOT use updated
+     values that it learns from the server's updated transport parameters
+     or from frames received in 1-RTT packets.  Updated values of
+     transport parameters from the handshake apply only to 1-RTT packets.
+     For instance, flow control limits from remembered transport
+     parameters apply to all 0-RTT packets even if those values are
+     increased by the handshake or by frames sent in 1-RTT packets.  A
+     server MAY treat the use of updated transport parameters in 0-RTT as
+     a connection error of type PROTOCOL_VIOLATION.
+"fixed": |-
+  When sending frames in 0-RTT packets, a client MUST only use remembered transport parameters; importantly, it MUST NOT use updated values that it learns from the server's updated transport parameters or from frames received in 1-RTT packets.  Updated values of transport parameters from the handshake apply only to 1-RTT packets. For instance, flow control limits from remembered transport parameters apply to all 0-RTT packets even if those values are increased by the handshake or by frames sent in 1-RTT packets.  A server MAY treat the use of updated transport parameters in 0-RTT as a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  0-RTT 패킷으로 프레임을 보낼 때 클라이언트는 기억된 전송 매개변수만 사용해야 합니다. 중요한 것은 서버의 업데이트된 전송 매개변수 또는 1-RTT 패킷에서 수신된 프레임에서 학습한 업데이트된 값을 사용해서는 안 된다는 것입니다. 핸드셰이크에서 업데이트된 전송 매개변수 값은 1-RTT 패킷에만 적용됩니다. 예를 들어, 기억된 전송 매개변수의 흐름 제어 제한은 핸드셰이크나 1-RTT 패킷으로 전송된 프레임에 의해 해당 값이 증가하더라도 모든 0-RTT 패킷에 적용됩니다. 서버는 0-RTT에서 업데이트된 전송 매개변수의 사용을 PROTOCOL_VIOLATION 유형의 연결 오류로 처리할 수 있습니다.

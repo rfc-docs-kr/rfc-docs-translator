@@ -1,0 +1,18 @@
+"hash": |-
+  a6c761d158eb3feeedb469f0d8fafdc6b0db3cac82bc1b9450a0ece523f392f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unfortunately, mapping field names to different interface names can
+     lead to security vulnerabilities if the mapping is incomplete or
+     ambiguous.  For example, if an attacker were to send a field named
+     "Transfer_Encoding", a naive interface might map that to the same
+     variable name as the "Transfer-Encoding" field, resulting in a
+     potential request smuggling vulnerability (Section 11.2 of
+     [HTTP/1.1]).
+"fixed": |-
+  Unfortunately, mapping field names to different interface names can lead to security vulnerabilities if the mapping is incomplete or ambiguous.  For example, if an attacker were to send a field named "Transfer_Encoding", a naive interface might map that to the same variable name as the "Transfer-Encoding" field, resulting in a potential request smuggling vulnerability (Section 11.2 of [HTTP/1.1]).
+"ko": |-
+  불행하게도 필드 이름을 다른 인터페이스 이름으로 매핑하면 매핑이 불완전하거나 모호할 경우 보안 취약점이 발생할 수 있습니다. 예를 들어, 공격자가 "Transfer_Encoding"이라는 필드를 보내면 순진한 인터페이스는 이를 "Transfer-Encoding" 필드와 동일한 변수 이름에 매핑하여 잠재적인 요청 밀수 취약점을 초래할 수 있습니다([HTTP/의 섹션 11.2). 1.1]).

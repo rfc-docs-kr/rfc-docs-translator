@@ -1,0 +1,21 @@
+"hash": |-
+  2cdba1f0a983b23bbb9477a89ddd957394c9b940c61f2a2996808b69d1a90b30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When decrypting, particular care must be taken not to allow the JWE
+     recipient to be used as an oracle for decrypting messages.  RFC 3218
+     [RFC3218] should be consulted for specific countermeasures to attacks
+     on RSAES-PKCS1-v1_5.  An attacker might modify the contents of the
+     "alg" Header Parameter from "RSA-OAEP" to "RSA1_5" in order to
+     generate a formatting error that can be detected and used to recover
+     the CEK even if RSAES-OAEP was used to encrypt the CEK.  It is
+     therefore particularly important to report all formatting errors to
+     the CEK, Additional Authenticated Data, or ciphertext as a single
+     error when the encrypted content is rejected.
+"fixed": |-
+  When decrypting, particular care must be taken not to allow the JWE recipient to be used as an oracle for decrypting messages.  RFC 3218 [RFC3218] should be consulted for specific countermeasures to attacks on RSAES-PKCS1-v1_5.  An attacker might modify the contents of the "alg" Header Parameter from "RSA-OAEP" to "RSA1_5" in order to generate a formatting error that can be detected and used to recover the CEK even if RSAES-OAEP was used to encrypt the CEK.  It is therefore particularly important to report all formatting errors to the CEK, Additional Authenticated Data, or ciphertext as a single error when the encrypted content is rejected.
+"ko": |-
+  복호화할 때 JWE 수신자가 메시지 복호화를 위한 오라클로 사용되지 않도록 특별히 주의해야 합니다. RSAES-PKCS1-v1_5에 대한 공격에 대한 구체적인 대책은 RFC 3218 [RFC3218]을 참조해야 합니다. 공격자는 "alg" 헤더 매개변수의 내용을 "RSA-OAEP"에서 "RSA1_5"로 수정하여 RSAES-OAEP가 CEK를 암호화하는 데 사용되었더라도 감지하여 CEK를 복구하는 데 사용할 수 있는 포맷 오류를 생성할 수 있습니다. 따라서 암호화된 내용이 거부될 때 모든 포맷 오류를 CEK, 추가 인증 데이터 또는 암호문에 단일 오류로 보고하는 것이 특히 중요합니다.

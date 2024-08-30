@@ -1,0 +1,15 @@
+"hash": |-
+  873a2f78af88d582754d02db038d5823b19b3d8cc1d69afab476fd2b2a839f91
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MAY discard or truncate received field lines that are larger
+     than the client wishes to process if the field semantics are such
+     that the dropped value(s) can be safely ignored without changing the
+     message framing or response semantics.
+"fixed": |-
+  A client MAY discard or truncate received field lines that are larger than the client wishes to process if the field semantics are such that the dropped value(s) can be safely ignored without changing the message framing or response semantics.
+"ko": |-
+  필드 의미 체계가 메시지 프레임이나 응답 의미 체계를 변경하지 않고 삭제된 값을 안전하게 무시할 수 있는 경우 클라이언트는 클라이언트가 처리하기를 원하는 것보다 큰 수신 필드 행을 삭제하거나 잘라낼 수 있습니다.

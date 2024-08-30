@@ -1,0 +1,18 @@
+"hash": |-
+  61d4bc208ac87129bfe360ec1e0f94848bd9d297dc979e6e088d2e8f69ac8eda
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint measures the delays intentionally introduced between the
+     time the packet with the largest packet number is received and the
+     time an acknowledgment is sent.  The endpoint encodes this
+     acknowledgment delay in the ACK Delay field of an ACK frame; see
+     Section 19.3.  This allows the receiver of the ACK frame to adjust
+     for any intentional delays, which is important for getting a better
+     estimate of the path RTT when acknowledgments are delayed.
+"fixed": |-
+  An endpoint measures the delays intentionally introduced between the time the packet with the largest packet number is received and the time an acknowledgment is sent.  The endpoint encodes this acknowledgment delay in the ACK Delay field of an ACK frame; see Section 19.3.  This allows the receiver of the ACK frame to adjust for any intentional delays, which is important for getting a better estimate of the path RTT when acknowledgments are delayed.
+"ko": |-
+  엔드포인트는 가장 큰 패킷 번호를 가진 패킷이 수신되는 시간과 승인이 전송되는 시간 사이에 의도적으로 도입된 지연을 측정합니다. 엔드포인트는 ACK 프레임의 ACK 지연 필드에 이 승인 지연을 인코딩합니다. 섹션 19.3을 참조하세요. 이를 통해 ACK 프레임의 수신자는 의도적인 지연을 조정할 수 있으며, 이는 승인이 지연될 때 경로 RTT를 더 잘 추정하는 데 중요합니다.

@@ -1,0 +1,29 @@
+"hash": |-
+  1cfed22ff9d7925aec3114511bab8d102c4507bcb5c2ee32e4c9c5c587664a75
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If there is a conflict between the value of an IPP Job Template
+     attribute and a corresponding instruction in the Document data, the
+     value of the IPP attribute SHOULD take precedence over the Document
+     instruction.  Consider the case where a previously formatted file of
+     Document data is sent to an IPP Printer.  In this case, if the Client
+     supplies any attributes at Job submission time, the Client desires
+     that those attributes override the embedded instructions.  Consider
+     the case where a previously formatted Document has embedded in it
+     commands to load 'iso-a4' media.  However, the Document is passed to
+     an End User that only has access to a Printer with 'na-letter' media
+     loaded.  That End User most likely wants to submit that Document to
+     an IPP Printer with the "media" Job Template attribute set to
+     'na-letter'.  Attributes supplied at Job submission time should take
+     precedence over the embedded PDL instructions.  However, until
+     companies that supply Document data interpreters allow a way for
+     external IPP attributes to take precedence over embedded Job
+     production instructions, a Printer might not be able to support the
+     semantics that IPP attributes override the embedded instructions.
+"fixed": |-
+  If there is a conflict between the value of an IPP Job Template attribute and a corresponding instruction in the Document data, the value of the IPP attribute SHOULD take precedence over the Document instruction.  Consider the case where a previously formatted file of Document data is sent to an IPP Printer.  In this case, if the Client supplies any attributes at Job submission time, the Client desires that those attributes override the embedded instructions.  Consider the case where a previously formatted Document has embedded in it commands to load 'iso-a4' media.  However, the Document is passed to an End User that only has access to a Printer with 'na-letter' media loaded.  That End User most likely wants to submit that Document to an IPP Printer with the "media" Job Template attribute set to 'na-letter'.  Attributes supplied at Job submission time should take precedence over the embedded PDL instructions.  However, until companies that supply Document data interpreters allow a way for external IPP attributes to take precedence over embedded Job production instructions, a Printer might not be able to support the semantics that IPP attributes override the embedded instructions.
+"ko": |-
+  IPP 작업 템플릿 속성 값과 문서 데이터의 해당 명령 사이에 충돌이 있는 경우 IPP 속성 값이 문서 명령보다 우선해야 합니다. 이전에 포맷된 문서 데이터 파일이 IPP 프린터로 전송되는 경우를 생각해 보십시오. 이 경우 클라이언트가 작업 제출 시 속성을 제공하는 경우 클라이언트는 해당 속성이 포함된 명령을 재정의하기를 원합니다. 이전에 포맷된 문서에 'iso-a4' 미디어를 로드하라는 명령이 포함된 경우를 생각해 보세요. 그러나 문서는 'na-letter' 미디어가 로드된 프린터에만 액세스할 수 있는 최종 사용자에게 전달됩니다. 해당 최종 사용자는 "미디어" 작업 템플릿 속성이 'na-letter'로 설정된 IPP 프린터에 해당 문서를 제출하기를 원할 가능성이 높습니다. 작업 제출 시 제공된 속성은 포함된 PDL 지침보다 우선해야 합니다. 그러나 문서 데이터 해석기를 공급하는 회사가 외부 IPP 속성이 내장된 작업 생산 지침보다 우선하는 방법을 허용할 때까지 프린터는 IPP 속성이 내장된 지침을 재정의하는 의미를 지원하지 못할 수도 있습니다.

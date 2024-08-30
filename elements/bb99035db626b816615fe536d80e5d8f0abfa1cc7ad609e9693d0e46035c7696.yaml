@@ -1,0 +1,16 @@
+"hash": |-
+  bb99035db626b816615fe536d80e5d8f0abfa1cc7ad609e9693d0e46035c7696
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Sending the first STREAM or STREAM_DATA_BLOCKED frame causes a
+     sending part of a stream to enter the "Send" state.  An
+     implementation might choose to defer allocating a stream ID to a
+     stream until it sends the first STREAM frame and enters this state,
+     which can allow for better stream prioritization.
+"fixed": |-
+  Sending the first STREAM or STREAM_DATA_BLOCKED frame causes a sending part of a stream to enter the "Send" state.  An implementation might choose to defer allocating a stream ID to a stream until it sends the first STREAM frame and enters this state, which can allow for better stream prioritization.
+"ko": |-
+  첫 번째 STREAM 또는 STREAM_DATA_BLOCKED 프레임을 전송하면 스트림의 전송 부분이 "전송" 상태로 전환됩니다. 구현에서는 첫 번째 STREAM 프레임을 전송하고 이 상태에 들어갈 때까지 스트림에 스트림 ID 할당을 연기하도록 선택할 수 있으며, 이는 더 나은 스트림 우선순위 지정을 허용할 수 있습니다.

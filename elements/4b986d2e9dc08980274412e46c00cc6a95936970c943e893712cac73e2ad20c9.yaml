@@ -1,0 +1,24 @@
+"hash": |-
+  4b986d2e9dc08980274412e46c00cc6a95936970c943e893712cac73e2ad20c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Plain Old Telephone Service (POTS) phone on the left attempts to
+     make a phone call.  The VoIP gateway, acting as a SIP UA, tries to
+     establish a SIP session to complete the call, but gets an error, such
+     as a SIP "486 Busy Here" response.  Without SPEECHSC, the gateway
+     would most likely just output a busy signal to the POTS phone.
+     However, with SPEECHSC access to a TTS server, it can provide a
+     spoken error message.  The VoIP gateway therefore constructs a text
+     error string using information from the SIP messages, such as "Your
+     call to 978-555-1212 did not go through because the called party was
+     busy".  It then can use SPEECHSC to establish an association with a
+     SPEECHSC server, open an RTP stream between itself and the server,
+     and issue a TTS request for the error message, which will be played
+     to the user on the POTS phone.
+"fixed": |-
+  The Plain Old Telephone Service (POTS) phone on the left attempts to make a phone call.  The VoIP gateway, acting as a SIP UA, tries to establish a SIP session to complete the call, but gets an error, such as a SIP "486 Busy Here" response.  Without SPEECHSC, the gateway would most likely just output a busy signal to the POTS phone. However, with SPEECHSC access to a TTS server, it can provide a spoken error message.  The VoIP gateway therefore constructs a text error string using information from the SIP messages, such as "Your call to 978-555-1212 did not go through because the called party was busy".  It then can use SPEECHSC to establish an association with a SPEECHSC server, open an RTP stream between itself and the server, and issue a TTS request for the error message, which will be played to the user on the POTS phone.
+"ko": |-
+  왼쪽의 일반 전화 서비스(POTS) 전화는 전화를 걸려고 시도합니다. SIP UA 역할을 하는 VoIP 게이트웨이는 SIP 세션을 설정하여 전화를 완료하려고 시도하지만 SIP "486 Busy Here" 응답과 같은 오류가 발생합니다. SPEECHSC가 없다면 게이트웨이는 POTS 전화에 통화 중 신호만 출력할 가능성이 큽니다. 그러나 SPEECHSC가 TTS 서버에 액세스하면 음성 오류 메시지를 제공할 수 있습니다. 따라서 VoIP 게이트웨이는 "978-555-1212로 걸려온 전화가 통화 상대방이 통화 중이어서 연결되지 않았습니다"와 같은 SIP 메시지의 정보를 사용하여 텍스트 오류 문자열을 구성합니다. 그런 다음 SPEECHSC를 사용하여 SPEECHSC 서버와 연결을 설정하고 자체와 서버 간에 RTP 스트림을 열고 오류 메시지에 대한 TTS 요청을 발행하여 POTS 전화에서 사용자에게 재생합니다.

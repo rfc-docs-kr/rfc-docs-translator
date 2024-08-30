@@ -1,0 +1,21 @@
+"hash": |-
+  a378380272d96ff5871be1c925af47f4d0e9b0b0befef2c4bd85479600e8b1a8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The full security analysis for PEX messages can be found in
+     Section 12.2.  Physically, a PEX_REScert message carries a swarm-
+     membership certificate rather than an IP address and port.  A
+     membership certificate for Peer C states that Peer C at address
+     (ipC,portC) is part of Swarm S at Time T and is cryptographically
+     signed by an issuer.  The receiver Peer A can check the certificate
+     for a valid signature by a trusted issuer, the right swarm, and
+     liveliness and only then consider contacting C.  These swarm-
+     membership certificates correspond to signed node descriptors in
+     secure decentralized peer sampling services [SPS].
+"fixed": |-
+  The full security analysis for PEX messages can be found in Section 12.2.  Physically, a PEX_REScert message carries a swarm- membership certificate rather than an IP address and port.  A membership certificate for Peer C states that Peer C at address (ipC,portC) is part of Swarm S at Time T and is cryptographically signed by an issuer.  The receiver Peer A can check the certificate for a valid signature by a trusted issuer, the right swarm, and liveliness and only then consider contacting C.  These swarm- membership certificates correspond to signed node descriptors in secure decentralized peer sampling services [SPS].
+"ko": |-
+  PEX 메시지에 대한 전체 보안 분석은 섹션 12.2에서 확인할 수 있습니다. 물리적으로 PEX_REScert 메시지는 IP 주소와 포트가 아닌 스웜 멤버십 인증서를 전달합니다. 피어 C의 멤버십 인증서에는 주소(ipC,portC)의 피어 C가 시간 T에 Swarm S의 일부이며 발급자에 의해 암호화된 서명이 있음이 명시되어 있습니다. 수신자 피어 A는 인증서에서 신뢰할 수 있는 발급자의 유효한 서명, 올바른 스웜 및 활성 여부를 확인한 후 C에 문의하는 것을 고려할 수 있습니다. 이러한 스웜 멤버쉽 인증서는 보안 분산 피어 샘플링 서비스(SPS)의 서명된 노드 설명자에 해당합니다.

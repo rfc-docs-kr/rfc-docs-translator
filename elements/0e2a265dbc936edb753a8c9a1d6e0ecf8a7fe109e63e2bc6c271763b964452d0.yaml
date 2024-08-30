@@ -1,0 +1,21 @@
+"hash": |-
+  0e2a265dbc936edb753a8c9a1d6e0ecf8a7fe109e63e2bc6c271763b964452d0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If necessary, fragmentation is performed after ESP processing within
+     an IPsec implementation.  Thus, transport mode ESP is applied only to
+     whole IP datagrams (not to IP fragments).  An IP packet to which ESP
+     has been applied may itself be fragmented by routers en route, and
+     such fragments must be reassembled prior to ESP processing at a
+     receiver.  In tunnel mode, ESP is applied to an IP packet, which may
+     be a fragment of an IP datagram.  For example, a security gateway or
+     a "bump-in-the-stack" or "bump-in-the-wire" IPsec implementation (as
+     defined in the Security Architecture document) may apply tunnel mode
+     ESP to such fragments.
+"fixed": |-
+  If necessary, fragmentation is performed after ESP processing within an IPsec implementation.  Thus, transport mode ESP is applied only to whole IP datagrams (not to IP fragments).  An IP packet to which ESP has been applied may itself be fragmented by routers en route, and such fragments must be reassembled prior to ESP processing at a receiver.  In tunnel mode, ESP is applied to an IP packet, which may be a fragment of an IP datagram.  For example, a security gateway or a "bump-in-the-stack" or "bump-in-the-wire" IPsec implementation (as defined in the Security Architecture document) may apply tunnel mode ESP to such fragments.
+"ko": |-
+  필요한 경우 IPsec 구현 내에서 ESP 처리 후에 조각화가 수행됩니다.  따라서 전송 모드 ESP는 IP 조각이 아닌 전체 IP 데이터그램에만 적용됩니다.  ESP가 적용된 IP 패킷은 도중에 라우터에 의해 그 자체로 조각화될 수 있으며, 이러한 조각은 수신기에서 ESP 처리에 앞서 재조립되어야 합니다.  터널 모드에서는 ESP가 IP 데이터그램의 일부일 수 있는 IP 패킷에 적용됩니다.  예를 들어, 보안 게이트웨이 또는 "bump-in-the-stack" 또는 "bump-in-the-wire" IPsec 구현(보안 아키텍처 문서에 정의됨)은 이러한 조각에 터널 모드 ESP를 적용할 수 있습니다.

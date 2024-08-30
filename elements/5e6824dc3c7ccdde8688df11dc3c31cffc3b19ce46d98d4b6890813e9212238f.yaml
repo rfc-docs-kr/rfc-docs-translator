@@ -1,0 +1,14 @@
+"hash": |-
+  5e6824dc3c7ccdde8688df11dc3c31cffc3b19ce46d98d4b6890813e9212238f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Receipt of a RETIRE_CONNECTION_ID frame containing a sequence number
+     greater than any previously sent to the peer MUST be treated as a
+     connection error of type PROTOCOL_VIOLATION.
+"fixed": |-
+  Receipt of a RETIRE_CONNECTION_ID frame containing a sequence number greater than any previously sent to the peer MUST be treated as a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  이전에 피어에 전송된 것보다 더 큰 시퀀스 번호를 포함하는 RETIRE_CONNECTION_ID 프레임의 수신은 PROTOCOL_VIOLATION 유형의 연결 오류로 처리되어야 합니다.

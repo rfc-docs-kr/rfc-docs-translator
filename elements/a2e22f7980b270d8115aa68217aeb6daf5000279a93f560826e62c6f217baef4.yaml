@@ -1,0 +1,18 @@
+"hash": |-
+  a2e22f7980b270d8115aa68217aeb6daf5000279a93f560826e62c6f217baef4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Simple-Response should only be sent in response to an HTTP/0.9
+     Simple-Request or if the server only supports the more limited
+     HTTP/0.9 protocol. If a client sends an HTTP/1.0 Full-Request and
+     receives a response that does not begin with a Status-Line, it should
+     assume that the response is a Simple-Response and parse it
+     accordingly. Note that the Simple-Response consists only of the
+     entity body and is terminated by the server closing the connection.
+"fixed": |-
+  A Simple-Response should only be sent in response to an HTTP/0.9 Simple-Request or if the server only supports the more limited HTTP/0.9 protocol. If a client sends an HTTP/1.0 Full-Request and receives a response that does not begin with a Status-Line, it should assume that the response is a Simple-Response and parse it accordingly. Note that the Simple-Response consists only of the entity body and is terminated by the server closing the connection.
+"ko": |-
+  Simple-Response는 HTTP/0.9 Simple-Request에 대한 응답으로 또는 서버가 더 제한된 HTTP/0.9 프로토콜만 지원하는 경우에만 전송되어야 합니다. 클라이언트가 HTTP/1.0 전체 요청을 보내고 상태 줄로 시작하지 않는 응답을 받으면 해당 응답이 단순 응답이라고 가정하고 이에 따라 구문 분석해야 합니다. Simple-Response는 엔터티 본문으로만 구성되며 서버가 연결을 닫으면 종료됩니다.

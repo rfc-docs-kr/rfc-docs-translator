@@ -1,0 +1,19 @@
+"hash": |-
+  4bae8818c056b6de32489fc932088bd4aa6d45af59f1fc3a7eca73a51e127357
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is permitted to delete a name that has inferior hierarchical names
+     and does not have the \Noselect mailbox name attribute.  If the
+     server implementation does not permit deleting the name while
+     inferior hierarchical names exist, then it SHOULD disallow the DELETE
+     command by returning a tagged NO response.  The NO response SHOULD
+     include the HASCHILDREN response code.  Alternatively, the server MAY
+     allow the DELETE command, but it sets the \Noselect mailbox name
+     attribute for that name.
+"fixed": |-
+  It is permitted to delete a name that has inferior hierarchical names and does not have the \Noselect mailbox name attribute.  If the server implementation does not permit deleting the name while inferior hierarchical names exist, then it SHOULD disallow the DELETE command by returning a tagged NO response.  The NO response SHOULD include the HASCHILDREN response code.  Alternatively, the server MAY allow the DELETE command, but it sets the \Noselect mailbox name attribute for that name.
+"ko": |-
+  하위 계층 이름이 있고 \Noselect 사서함 이름 특성이 없는 이름을 삭제할 수 있습니다.  서버 구현이 하위 계층 이름이 존재하는 동안 이름 삭제를 허용하지 않는 경우 태그가 지정된 NO 응답을 반환하여 DELETE 명령을 허용하지 않아야 합니다.  NO 응답에는 HASCHILDREN 응답 코드가 포함되어야 합니다.  또는 서버는 DELETE 명령을 허용할 수 있지만 해당 이름에 대해 \Noselect 사서함 이름 속성을 설정합니다.

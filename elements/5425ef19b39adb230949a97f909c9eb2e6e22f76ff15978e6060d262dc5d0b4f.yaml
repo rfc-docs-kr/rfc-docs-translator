@@ -1,0 +1,16 @@
+"hash": |-
+  5425ef19b39adb230949a97f909c9eb2e6e22f76ff15978e6060d262dc5d0b4f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The salt is the "implicit" part of the nonce and is not sent in the
+     packet.  Instead, the salt is generated as part of the handshake
+     process: it is either the client_write_IV (when the client is
+     sending) or the server_write_IV (when the server is sending).  The
+     salt length (SecurityParameters.fixed_iv_length) is 4 octets.
+"fixed": |-
+  The salt is the "implicit" part of the nonce and is not sent in the packet.  Instead, the salt is generated as part of the handshake process: it is either the client_write_IV (when the client is sending) or the server_write_IV (when the server is sending).  The salt length (SecurityParameters.fixed_iv_length) is 4 octets.
+"ko": |-
+  솔트는 nonce의 "암시적" 부분이며 패킷으로 전송되지 않습니다. 대신 솔트가 핸드셰이크 프로세스의 일부로 생성됩니다. 즉, client_write_IV(클라이언트가 보내는 경우) 또는 server_write_IV(서버가 보내는 경우)입니다. 솔트 길이(SecurityParameters.fixed_iv_length)는 4옥텟입니다.

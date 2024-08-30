@@ -1,0 +1,26 @@
+"hash": |-
+  c1a3f1183f5e03fc4f66a951d924e796e3cc6ceccae6cdde80d135123466bc41
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The verifier resource has a verification buffer associated with it
+     (see Section 11.4.14).  This allows the storage of speech utterances
+     for the purposes of verification, identification, or training from
+     the buffered speech.  This buffer is owned by the verifier resource,
+     but other input resources (such as the recognizer resource or
+     recorder resource) may write to it.  This allows the speech received
+     as part of a recognition or recording operation to be later used for
+     verification, identification, or training.  Access to the buffer is
+     limited to one operation at time.  Hence, when the resource is doing
+     read, write, or delete operations, such as a RECOGNIZE with
+     ver-buffer-utterance turned on, another operation involving the
+     buffer fails with a status-code of 402.  The verification buffer can
+     be cleared by a CLEAR-BUFFER request from the client and is freed
+     when the verifier resource is deallocated or the session with the
+     server terminates.
+"fixed": |-
+  The verifier resource has a verification buffer associated with it (see Section 11.4.14).  This allows the storage of speech utterances for the purposes of verification, identification, or training from the buffered speech.  This buffer is owned by the verifier resource, but other input resources (such as the recognizer resource or recorder resource) may write to it.  This allows the speech received as part of a recognition or recording operation to be later used for verification, identification, or training.  Access to the buffer is limited to one operation at time.  Hence, when the resource is doing read, write, or delete operations, such as a RECOGNIZE with ver-buffer-utterance turned on, another operation involving the buffer fails with a status-code of 402.  The verification buffer can be cleared by a CLEAR-BUFFER request from the client and is freed when the verifier resource is deallocated or the session with the server terminates.
+"ko": |-
+  검증자 리소스에는 연관된 검증 버퍼가 있습니다(섹션 11.4.14 참조). 이를 통해 버퍼링된 음성에서 검증, 식별 또는 학습을 목적으로 음성 발화를 저장할 수 있습니다. 이 버퍼는 검증자 리소스가 소유하지만 다른 입력 리소스(예: 인식자 리소스 또는 레코더 리소스)가 여기에 쓸 수 있습니다. 이를 통해 인식 또는 녹음 작업의 일부로 수신된 음성을 나중에 검증, 식별 또는 학습에 사용할 수 있습니다. 버퍼에 대한 액세스는 한 번에 하나의 작업으로 제한됩니다. 따라서 리소스가 ver-buffer-utterance가 켜진 RECOGNIZE와 같이 읽기, 쓰기 또는 삭제 작업을 수행하는 경우 버퍼와 관련된 다른 작업이 상태 코드 402로 실패합니다. 검증 버퍼는 클라이언트의 CLEAR-BUFFER 요청으로 지울 수 있으며 검증자 리소스가 할당 해제되거나 서버와의 세션이 종료되면 해제됩니다.

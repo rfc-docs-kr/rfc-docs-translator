@@ -1,0 +1,17 @@
+"hash": |-
+  4061e93acbf20385c8d88cbb6f12f2048304e7b51575595e5df1ee36f38dd796
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The actual state information in encrypted_state is encrypted using
+     128-bit AES in CBC mode with the given IV.  The Message
+     Authentication Code (MAC) is calculated using HMAC-SHA-256 over
+     key_name (16 octets) and IV (16 octets), followed by the length of
+     the encrypted_state field (2 octets) and its contents (variable
+     length).
+"fixed": |-
+  The actual state information in encrypted_state is encrypted using 128-bit AES in CBC mode with the given IV.  The Message Authentication Code (MAC) is calculated using HMAC-SHA-256 over key_name (16 octets) and IV (16 octets), followed by the length of the encrypted_state field (2 octets) and its contents (variable length).
+"ko": |-
+  Encrypted_state의 실제 상태 정보는 지정된 IV를 사용하여 CBC 모드에서 128비트 AES를 사용하여 암호화됩니다. MAC(메시지 인증 코드)는 key_name(16옥텟) 및 IV(16옥텟)에 대한 HMAC-SHA-256을 사용하여 계산되며, 그 뒤에 암호화된_상태 필드의 길이(2옥텟)와 해당 내용(가변 길이)이 옵니다.

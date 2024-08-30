@@ -1,0 +1,19 @@
+"hash": |-
+  6aa992709f703ab7e7d2b55bec6a1729a32568c88f2dccd15105e6404133e5cb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Server implementations SHOULD verify that any mailbox name with an
+     embedded "&" character, used as an argument to CREATE, is: in the
+     correctly modified UTF-7 syntax; has no superfluous shifts; and has
+     no encoding in modified base64 of any printing US-ASCII character
+     that can represent itself.  However, client implementations MUST NOT
+     depend upon the server doing this and SHOULD NOT attempt to create a
+     mailbox name with an embedded "&" character unless it complies with
+     the modified UTF-7 syntax.
+"fixed": |-
+  Server implementations SHOULD verify that any mailbox name with an embedded "&" character, used as an argument to CREATE, is: in the correctly modified UTF-7 syntax; has no superfluous shifts; and has no encoding in modified base64 of any printing US-ASCII character that can represent itself.  However, client implementations MUST NOT depend upon the server doing this and SHOULD NOT attempt to create a mailbox name with an embedded "&" character unless it complies with the modified UTF-7 syntax.
+"ko": |-
+  서버 구현은 CREATE의 인수로 사용되는 "&" 문자가 포함된 모든 사서함 이름이 다음과 같은지 확인해야 합니다. 올바르게 수정된 UTF-7 구문인지; 불필요한 교대가 없습니다. 자신을 나타낼 수 있는 인쇄 US-ASCII 문자의 수정된 base64에는 인코딩이 없습니다.  그러나 클라이언트 구현은 이를 수행하는 서버에 의존해서는 안 되며 수정된 UTF-7 구문을 준수하지 않는 한 "&" 문자가 포함된 메일함 이름을 생성하려고 시도해서는 안 됩니다.

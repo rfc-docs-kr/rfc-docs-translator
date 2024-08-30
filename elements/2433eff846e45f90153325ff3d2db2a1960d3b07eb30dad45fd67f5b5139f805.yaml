@@ -1,0 +1,16 @@
+"hash": |-
+  2433eff846e45f90153325ff3d2db2a1960d3b07eb30dad45fd67f5b5139f805
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A number of operations in the TLS record and handshake layer required
+     a keyed MAC; this is a secure digest of some data protected by a
+     secret. Forging the MAC is infeasible without knowledge of the MAC
+     secret. The construction we use for this operation is known as HMAC,
+     described in [HMAC].
+"fixed": |-
+  A number of operations in the TLS record and handshake layer required a keyed MAC; this is a secure digest of some data protected by a secret. Forging the MAC is infeasible without knowledge of the MAC secret. The construction we use for this operation is known as HMAC, described in [HMAC].
+"ko": |-
+  TLS 레코드 및 핸드셰이크 계층의 여러 작업에는 키가 있는 MAC이 필요했습니다. 이는 비밀로 보호되는 일부 데이터의 보안 다이제스트입니다. MAC 비밀을 알지 못하면 MAC 위조가 불가능합니다. 이 작업에 사용하는 구성은 [HMAC]에 설명된 HMAC로 알려져 있습니다.

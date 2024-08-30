@@ -1,0 +1,20 @@
+"hash": |-
+  f79545d33f79150bfc0b4b4a4ee30d1648ad2b97e8e868b4ff7ef1070f8791a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each member in a Group of Renditions MAY have a different sample
+     format.  For example, an English Rendition can be encoded with AC-3
+     5.1 while a Spanish Rendition is encoded with AAC stereo.  However,
+     any EXT-X-STREAM-INF tag (Section 4.3.4.2) or EXT-X-I-FRAME-STREAM-
+     INF tag (Section 4.3.4.3) that references such a Group MUST have a
+     CODECS attribute that lists every sample format present in any
+     Rendition in the Group, or client playback failures can occur.  In
+     the example above, the CODECS attribute would include
+     "ac-3,mp4a.40.2".
+"fixed": |-
+  Each member in a Group of Renditions MAY have a different sample format.  For example, an English Rendition can be encoded with AC-3 5.1 while a Spanish Rendition is encoded with AAC stereo.  However, any EXT-X-STREAM-INF tag (Section 4.3.4.2) or EXT-X-I-FRAME-STREAM- INF tag (Section 4.3.4.3) that references such a Group MUST have a CODECS attribute that lists every sample format present in any Rendition in the Group, or client playback failures can occur.  In the example above, the CODECS attribute would include "ac-3,mp4a.40.2".
+"ko": |-
+  변환 그룹의 각 구성원은 서로 다른 샘플 형식을 가질 수 있습니다. 예를 들어, 영어 변환은 AC-3 5.1로 인코딩되고 스페인어 변환은 AAC 스테레오로 인코딩될 수 있습니다. 그러나 이러한 그룹을 참조하는 모든 EXT-X-STREAM-INF 태그(섹션 4.3.4.2) 또는 EXT-X-I-FRAME-STREAM-INF 태그(섹션 4.3.4.3)에는 존재하는 모든 샘플 형식을 나열하는 CODECS 속성이 있어야 합니다. 그룹의 모든 변환에서 오류가 발생하거나 클라이언트 재생 오류가 발생할 수 있습니다. 위의 예에서 CODECS 속성에는 "ac-3,mp4a.40.2"가 포함됩니다.

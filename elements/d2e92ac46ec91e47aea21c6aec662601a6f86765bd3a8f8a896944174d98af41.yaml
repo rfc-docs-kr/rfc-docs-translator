@@ -1,0 +1,15 @@
+"hash": |-
+  d2e92ac46ec91e47aea21c6aec662601a6f86765bd3a8f8a896944174d98af41
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients, however, are not obligated to use the NEW_TOKEN frame.
+     Request forgery attacks that rely on the Token field can be avoided
+     if clients send an empty Token field when the server address has
+     changed from when the NEW_TOKEN frame was received.
+"fixed": |-
+  Clients, however, are not obligated to use the NEW_TOKEN frame. Request forgery attacks that rely on the Token field can be avoided if clients send an empty Token field when the server address has changed from when the NEW_TOKEN frame was received.
+"ko": |-
+  그러나 클라이언트는 NEW_TOKEN 프레임을 사용할 의무가 없습니다. NEW_TOKEN 프레임을 수신한 시점에서 서버 주소가 변경된 경우 클라이언트가 빈 토큰 필드를 보내면 토큰 필드에 의존하는 요청 위조 공격을 피할 수 있습니다.

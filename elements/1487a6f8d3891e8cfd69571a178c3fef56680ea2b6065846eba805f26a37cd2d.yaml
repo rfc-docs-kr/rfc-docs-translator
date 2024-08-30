@@ -1,0 +1,16 @@
+"hash": |-
+  1487a6f8d3891e8cfd69571a178c3fef56680ea2b6065846eba805f26a37cd2d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If "tls" is chosen, the client uses the procedures of Section 8.1.2
+     of [1] to determine the URI to be used as an input to the DNS
+     procedures of [5].  However, if the URI is a SIP URI, it MUST treat
+     the scheme as if it were sips, not sip.  If the URI scheme is not
+     sip, the request MUST be sent using TLS.
+"fixed": |-
+  If "tls" is chosen, the client uses the procedures of Section 8.1.2 of [1] to determine the URI to be used as an input to the DNS procedures of [5].  However, if the URI is a SIP URI, it MUST treat the scheme as if it were sips, not sip.  If the URI scheme is not sip, the request MUST be sent using TLS.
+"ko": |-
+  "tls"를 선택하면 클라이언트는 [1]의 섹션 8.1.2 절차를 사용하여 [5]의 DNS 절차에 대한 입력으로 사용할 URI를 결정합니다. 그러나 URI가 SIP URI인 경우 해당 스키마를 sip가 아닌 sips인 것처럼 처리해야 합니다. URI 스키마가 sip이 아닌 경우 요청은 TLS를 사용하여 보내야 합니다.

@@ -1,0 +1,33 @@
+"hash": |-
+  8f1daf3fe6c918d03332e3793050812eaefa5ae77d7aba2e87ce49f46c4e00d3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": "The second case to examine is the same Telnet  test  but  over  a\nlong-haul\
+  \  link  with  a  5-second  round trip time.  Without any\nmechanism to prevent\
+  \  small-packet  congestion,  25  new  packets\nwould be sent in 5 seconds.* Overhead\
+  \ here is  4000%.   With  the\nclassic timer scheme, and the same limit of 2 packets\
+  \ per second,\nthere would still be 10 packets outstanding and  contributing  to\n\
+  congestion.  Round-trip time will not be improved by sending many\npackets, of course;\
+  \ in general it will be worse since the packets\nwill  contend  for line time. \
+  \ Overhead now drops to 1500%.  With\nour scheme, however, the first character from\
+  \ the user would find\nan  idle  TCP connection and would be sent immediately. \
+  \ The next\n24 characters, arriving from the user at 200ms  intervals,  would\n\
+  be  held  pending  a  message from the distant host.  When an ACK\narrived for the\
+  \ first packet at the end of 5  seconds,  a  single\npacket  with  the 24 queued\
+  \ characters would be sent.  Our scheme\nthus results in an overhead reduction to\
+  \ 320% with no penalty  in\nresponse  time.   Response time will usually be improved\
+  \ with our\nscheme because packet overhead is reduced, here by  a  factor  of\n\
+  4.7 over the classic timer scheme.  Congestion will be reduced by\nthis factor and\
+  \ round-trip delay will decrease sharply.  For this\n________\n  * This problem\
+  \ is not seen in the pure ARPANET case because the\n    IMPs will block the host\
+  \ when the count of packets\n    outstanding becomes excessive, but in the case\
+  \ where a pure\n    datagram local net (such as an Ethernet) or a pure datagram\n\
+  \    gateway (such as an ARPANET / MILNET gateway) is involved, it\n    is possible\
+  \ to have large numbers of tiny packets\n    outstanding.\n\f\nRFC 896    Congestion\
+  \ Control in IP/TCP Internetworks      1/6/84"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

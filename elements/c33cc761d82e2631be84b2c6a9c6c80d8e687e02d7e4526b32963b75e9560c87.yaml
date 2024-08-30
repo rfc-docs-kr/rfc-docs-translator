@@ -1,0 +1,18 @@
+"hash": |-
+  c33cc761d82e2631be84b2c6a9c6c80d8e687e02d7e4526b32963b75e9560c87
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Num-Min-Verification-Phrases header field is used to specify the
+     minimum number of valid utterances before a positive decision is
+     given for verification.  The value for this header field is an
+     integer and the default value is 1.  The verifier resource MUST NOT
+     declare a verification 'accepted' unless Num-Min-Verification-Phrases
+     valid utterances have been received.  The minimum value is 1.  This
+     header field MAY occur in START-SESSION, SET-PARAMS, or GET-PARAMS.
+"fixed": |-
+  The Num-Min-Verification-Phrases header field is used to specify the minimum number of valid utterances before a positive decision is given for verification.  The value for this header field is an integer and the default value is 1.  The verifier resource MUST NOT declare a verification 'accepted' unless Num-Min-Verification-Phrases valid utterances have been received.  The minimum value is 1.  This header field MAY occur in START-SESSION, SET-PARAMS, or GET-PARAMS.
+"ko": |-
+  Num-Min-Verification-Phrases 헤더 필드는 검증을 위해 긍정적인 결정이 내려지기 전에 유효한 발화의 최소 개수를 지정하는 데 사용됩니다. 이 헤더 필드의 값은 정수이고 기본값은 1입니다. 검증자 리소스는 Num-Min-Verification-Phrases 유효한 발화를 수신하지 않는 한 검증을 '허용됨'으로 선언해서는 안 됩니다. 최소값은 1입니다. 이 헤더 필드는 START-SESSION, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다.

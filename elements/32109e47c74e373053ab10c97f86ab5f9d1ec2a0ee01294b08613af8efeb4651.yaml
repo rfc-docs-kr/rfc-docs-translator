@@ -1,0 +1,22 @@
+"hash": |-
+  32109e47c74e373053ab10c97f86ab5f9d1ec2a0ee01294b08613af8efeb4651
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     These attacks can be prevented by cryptographically binding
+     renegotiation handshakes to the enclosing TLS cryptographic
+     parameters, thus allowing the server to differentiate renegotiation
+     from initial negotiation, as well as preventing renegotiations from
+     being spliced in between connections.  An attempt by an attacker to
+     inject himself as described above will result in a mismatch of the
+     cryptographic binding and can thus be detected.  The data used in the
+     extension is similar to, but not the same as, the data used in the
+     tls-unique and/or tls-unique-for-telnet channel bindings described in
+     [TLS-CHANNEL-BINDINGS]; however, this extension is not a general-
+     purpose RFC 5056 [RFC5056] channel binding facility.
+"fixed": |-
+  These attacks can be prevented by cryptographically binding renegotiation handshakes to the enclosing TLS cryptographic parameters, thus allowing the server to differentiate renegotiation from initial negotiation, as well as preventing renegotiations from being spliced in between connections.  An attempt by an attacker to inject himself as described above will result in a mismatch of the cryptographic binding and can thus be detected.  The data used in the extension is similar to, but not the same as, the data used in the tls-unique and/or tls-unique-for-telnet channel bindings described in [TLS-CHANNEL-BINDINGS]; however, this extension is not a general- purpose RFC 5056 [RFC5056] channel binding facility.
+"ko": |-
+  재협상 핸드셰이크를 포함하는 TLS 암호화 매개변수에 암호화 방식으로 바인딩하여 이러한 공격을 방지할 수 있습니다. 이를 통해 서버는 재협상을 초기 협상과 구별할 수 있을 뿐만 아니라 재협상이 연결 간에 연결되는 것을 방지할 수 있습니다. 위에서 설명한 대로 공격자가 자신을 주입하려는 시도는 암호화 바인딩의 불일치를 초래하므로 감지될 수 있습니다. 확장에 사용된 데이터는 [TLS-CHANNEL-BINDINGS]에 설명된 tls-unique 및/또는 tls-unique-for-telnet 채널 바인딩에 사용된 데이터와 유사하지만 동일하지는 않습니다. 그러나 이 확장은 범용 RFC 5056 [RFC5056] 채널 바인딩 기능이 아닙니다.

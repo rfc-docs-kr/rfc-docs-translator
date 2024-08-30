@@ -1,0 +1,21 @@
+"hash": |-
+  a88a2622e1945790deb9f7ba51fece85628122bb326cd34a575b99167fd8527d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Authors of SIP extensions making use of 'multipart/related' bodies
+     have to explicitly address the handling of the disposition types of
+     the body parts within the 'multipart/related' body.  Authors wishing
+     to make use of 'multipart/related' bodies should keep in mind that
+     UAs that do not understand 'multipart/related' will treat it as
+     'multipart/mixed'.  If such treatment by a recipient is not
+     acceptable for a particular extension, the authors of such extension
+     would need to make sure (e.g., by using an option-tag or by other
+     means) that entities receiving the 'multipart/related' body were able
+     to correctly process them.
+"fixed": |-
+  Authors of SIP extensions making use of 'multipart/related' bodies have to explicitly address the handling of the disposition types of the body parts within the 'multipart/related' body.  Authors wishing to make use of 'multipart/related' bodies should keep in mind that UAs that do not understand 'multipart/related' will treat it as 'multipart/mixed'.  If such treatment by a recipient is not acceptable for a particular extension, the authors of such extension would need to make sure (e.g., by using an option-tag or by other means) that entities receiving the 'multipart/related' body were able to correctly process them.
+"ko": |-
+  'multipart/related' 본문을 사용하는 SIP 확장 작성자는 'multipart/related' 본문 내의 본문 부분의 처리 유형 처리를 명시적으로 언급해야 합니다. 'multipart/related' 본문을 사용하려는 작성자는 'multipart/related'를 이해하지 못하는 UA가 이를 'multipart/mixed'로 처리한다는 점을 명심해야 합니다. 수신자가 특정 확장에 대해 이러한 처리를 허용하지 않는 경우, 해당 확장 작성자는 (예: 옵션 태그 사용 또는 기타 수단을 통해) 'multipart/related' 본문을 수신하는 엔터티가 이를 올바르게 처리할 수 있도록 해야 합니다.

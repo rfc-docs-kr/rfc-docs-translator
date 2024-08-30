@@ -1,0 +1,14 @@
+"hash": |-
+  9b3aebded39d62aa4f9cd9a42951f478e710fad791f9b7e5946cbedc06108620
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CertificationRequest ::= SIGNED { EncodedCertificationRequestInfo }
+          (CONSTRAINED BY { -- Verify or sign encoded
+           -- CertificationRequestInfo -- })
+"fixed": |-
+  CertificationRequest ::= SIGNED { EncodedCertificationRequestInfo }  -    (CONSTRAINED BY { -- Verify or sign encoded -- CertificationRequestInfo -- })
+"ko": |-
+  CertificationRequest ::= SIGNED { EncodedCertificationRequestInfo } - (CONSTRAINED BY { -- 인코딩된 확인 또는 서명 -- CertificationRequestInfo -- })

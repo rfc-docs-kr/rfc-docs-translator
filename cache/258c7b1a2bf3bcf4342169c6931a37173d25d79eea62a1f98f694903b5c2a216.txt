@@ -1,0 +1,1 @@
+이 예에서는 부록 A.3의 예에서 값을 사용하여 AES_128_CBC_HMAC_SHA_256 인증 암호화 계산의 단계를 보여줍니다. 이 알고리즘이 JWA의 섹션 5.2 및 5.2.3에서 정의된 대로, AES_CBC_HMAC_SHA2 알고리즘 패밀리는 암호화를 수행하기 위해 공개 키 암호화 표준(PKCS) #7 패딩을 사용하는 CBC(Cipher Block Chaining) 모드에서 AES(Advanced Encryption Standard)를 사용하여 구현되고, 무결성 계산을 수행하기 위해 HMAC SHA-2 함수(이 경우 HMAC SHA-256)를 사용합니다.

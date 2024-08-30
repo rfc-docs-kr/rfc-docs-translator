@@ -1,0 +1,28 @@
+"hash": |-
+  9d0809bf8edf14d6506f0656fcba727121c30903c3586b9d73586d76bca8d128
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------+-----------------------+------------------------------+
+     | Cause-Code | Cause-Name            | Description                  |
+     +------------+-----------------------+------------------------------+
+     | 000        | success-silence       | RECORD completed with a      |
+     |            |                       | silence at the end.          |
+     | 001        | success-maxtime       | RECORD completed after       |
+     |            |                       | reaching maximum recording   |
+     |            |                       | time specified in record     |
+     |            |                       | method.                      |
+     | 002        | no-input-timeout      | RECORD failed due to no      |
+     |            |                       | input.                       |
+     | 003        | uri-failure           | Failure accessing the record |
+     |            |                       | URI.                         |
+     | 004        | error                 | RECORD request terminated    |
+     |            |                       | prematurely due to a         |
+     |            |                       | recorder error.              |
+     +------------+-----------------------+------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

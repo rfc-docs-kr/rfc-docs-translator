@@ -1,0 +1,19 @@
+"hash": |-
+  4da3518758cf3e0d6fab588001e2068cc8b2c1bad5ca3158994d39e6f430a155
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The anti-replay window can be thought of as a string of bits where
+     `W' defines the length of the string.  W = T - B + 1 and cannot
+     exceed 2^32 - 1 in value.  The bottom-most bit corresponds to B and
+     the top-most bit corresponds to T, and each sequence number from Bl
+     through Tl is represented by a corresponding bit.  The value of the
+     bit indicates whether or not a packet with that sequence number has
+     been received and authenticated, so that replays can be detected and
+     rejected.
+"fixed": |-
+  The anti-replay window can be thought of as a string of bits where `W' defines the length of the string.  W = T - B + 1 and cannot exceed 2^32 - 1 in value.  The bottom-most bit corresponds to B and the top-most bit corresponds to T, and each sequence number from Bl through Tl is represented by a corresponding bit.  The value of the bit indicates whether or not a packet with that sequence number has been received and authenticated, so that replays can be detected and rejected.
+"ko": |-
+  재생 방지 창은 'W'가 문자열의 길이를 정의하는 비트 문자열로 생각될 수 있습니다.  W = T - B + 1이며 값이 2^32 - 1을 초과할 수 없습니다.  최하위 비트는 B에 대응하고, 최상위 비트는 T에 대응하며, B1부터 T1까지의 각 시퀀스 번호는 대응되는 비트로 표현된다.  비트 값은 해당 시퀀스 번호가 있는 패킷이 수신 및 인증되었는지 여부를 나타내므로 재생을 감지하고 거부할 수 있습니다.

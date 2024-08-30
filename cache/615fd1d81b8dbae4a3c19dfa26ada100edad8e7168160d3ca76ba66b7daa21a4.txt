@@ -1,0 +1,1 @@
+서버는 CONNECT에 대한 2xx(성공) 응답으로 Transfer-Encoding 또는 Content-Length 헤더 필드를 전송해서는 안 됩니다. 클라이언트는 CONNECT에 대한 성공적인 응답으로 수신된 모든 Content-Length 또는 Transfer-Encoding 헤더 필드를 무시해야 합니다.

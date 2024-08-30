@@ -1,0 +1,18 @@
+"hash": |-
+  8d95ee8887b75a650247cb979af981768de2fc256c87693e308c18989c3a3222
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the handshake completes, if an endpoint is unable to buffer all
+     data in a CRYPTO frame, it MAY discard that CRYPTO frame and all
+     CRYPTO frames received in the future, or it MAY close the connection
+     with a CRYPTO_BUFFER_EXCEEDED error code.  Packets containing
+     discarded CRYPTO frames MUST be acknowledged because the packet has
+     been received and processed by the transport even though the CRYPTO
+     frame was discarded.
+"fixed": |-
+  Once the handshake completes, if an endpoint is unable to buffer all data in a CRYPTO frame, it MAY discard that CRYPTO frame and all CRYPTO frames received in the future, or it MAY close the connection with a CRYPTO_BUFFER_EXCEEDED error code.  Packets containing discarded CRYPTO frames MUST be acknowledged because the packet has been received and processed by the transport even though the CRYPTO frame was discarded.
+"ko": |-
+  핸드셰이크가 완료되면 엔드포인트가 CRYPTO 프레임의 모든 데이터를 버퍼링할 수 없는 경우 해당 CRYPTO 프레임과 향후 수신되는 모든 CRYPTO 프레임을 삭제하거나 CRYPTO_BUFFER_EXCEEDED 오류 코드로 연결을 닫을 수 있습니다. 폐기된 CRYPTO 프레임을 포함하는 패킷은 CRYPTO 프레임이 폐기되었더라도 전송에 의해 패킷이 수신되고 처리되었기 때문에 반드시 승인되어야 합니다.

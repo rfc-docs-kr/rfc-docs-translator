@@ -1,0 +1,17 @@
+"hash": |-
+  d2eb70c8992901bdb54b363f002f4c2a19a8b6310e082e125dc150c91d9d9938
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since the "client_max_window_bits" extension parameter is not
+     included in this extension negotiation offer, the server must not
+     accept the offer with an extension negotiation response that includes
+     the "client_max_window_bits" extension parameter.  The simplest "Sec-
+     WebSocket-Extensions" header in a server's opening handshake to
+     accept use of the "permessage-deflate" extension is the same:
+"fixed": |-
+  Since the "client_max_window_bits" extension parameter is not included in this extension negotiation offer, the server must not accept the offer with an extension negotiation response that includes the "client_max_window_bits" extension parameter.  The simplest "Sec- WebSocket-Extensions" header in a server's opening handshake to accept use of the "permessage-deflate" extension is the same:
+"ko": |-
+  이 확장 협상 제안에는 "client_max_window_bits" 확장 매개변수가 포함되어 있지 않으므로 서버는 "client_max_window_bits" 확장 매개변수가 포함된 확장 협상 응답으로 제안을 수락하면 안 됩니다.  "permessage-deflate" 확장의 사용을 허용하기 위한 서버의 오프닝 핸드셰이크에서 가장 간단한 "Sec-WebSocket-Extensions" 헤더는 동일합니다.

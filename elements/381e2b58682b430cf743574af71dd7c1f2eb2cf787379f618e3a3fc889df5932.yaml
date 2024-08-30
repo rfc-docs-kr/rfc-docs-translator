@@ -1,0 +1,16 @@
+"hash": |-
+  381e2b58682b430cf743574af71dd7c1f2eb2cf787379f618e3a3fc889df5932
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server that evaluates an If-None-Match condition MUST NOT
+     perform the requested method if the condition evaluates to false;
+     instead, the origin server MUST respond with either a) the 304 (Not
+     Modified) status code if the request method is GET or HEAD or b) the
+     412 (Precondition Failed) status code for all other request methods.
+"fixed": |-
+  An origin server that evaluates an If-None-Match condition MUST NOT perform the requested method if the condition evaluates to false; instead, the origin server MUST respond with either a) the 304 (Not Modified) status code if the request method is GET or HEAD or b) the 412 (Precondition Failed) status code for all other request methods.
+"ko": |-
+  If-None-Match 조건을 평가하는 원서버는 조건이 false로 평가되는 경우 요청된 메서드를 수행해서는 안 됩니다. 대신 원서버는 a) 요청 방법이 GET 또는 HEAD인 경우 304(수정되지 않음) 상태 코드 또는 b) 다른 모든 요청 방법에 대해 412(전제 조건 실패) 상태 코드로 응답해야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  ef2841fc3be53af845a0f9124f34a8234fb9ed00dfb3f7fc1ececddf40a72a4e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         struct {
+             ContentType type;
+             ProtocolVersion version;
+             uint16 length;
+             select (CipherSpec.cipher_type) {
+                 case stream: GenericStreamCipher;
+                 case block: GenericBlockCipher;
+             } fragment;
+         } TLSCiphertext;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

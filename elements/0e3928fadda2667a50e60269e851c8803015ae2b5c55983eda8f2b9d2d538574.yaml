@@ -1,0 +1,19 @@
+"hash": |-
+  0e3928fadda2667a50e60269e851c8803015ae2b5c55983eda8f2b9d2d538574
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints could limit the content of PMTU probes to PING and PADDING
+     frames, since packets that are larger than the current maximum
+     datagram size are more likely to be dropped by the network.  Loss of
+     a QUIC packet that is carried in a PMTU probe is therefore not a
+     reliable indication of congestion and SHOULD NOT trigger a congestion
+     control reaction; see Item 7 in Section 3 of [DPLPMTUD].  However,
+     PMTU probes consume congestion window, which could delay subsequent
+     transmission by an application.
+"fixed": |-
+  Endpoints could limit the content of PMTU probes to PING and PADDING frames, since packets that are larger than the current maximum datagram size are more likely to be dropped by the network.  Loss of a QUIC packet that is carried in a PMTU probe is therefore not a reliable indication of congestion and SHOULD NOT trigger a congestion control reaction; see Item 7 in Section 3 of [DPLPMTUD].  However, PMTU probes consume congestion window, which could delay subsequent transmission by an application.
+"ko": |-
+  현재 최대 데이터그램 크기보다 큰 패킷은 네트워크에서 삭제될 가능성이 높기 때문에 엔드포인트는 PMTU 프로브의 내용을 PING 및 PADDING 프레임으로 제한할 수 있습니다. 따라서 PMTU 프로브에 전달되는 QUIC 패킷의 손실은 정체에 대한 신뢰할 수 있는 표시가 아니며 정체 제어 반응을 트리거해서는 안 됩니다. [DPLPMTUD] 섹션 3의 항목 7을 참조하세요. 그러나 PMTU 프로브는 혼잡 창을 사용하므로 애플리케이션의 후속 전송이 지연될 수 있습니다.

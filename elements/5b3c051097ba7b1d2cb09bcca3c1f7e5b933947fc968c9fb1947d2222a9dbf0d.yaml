@@ -1,0 +1,15 @@
+"hash": |-
+  5b3c051097ba7b1d2cb09bcca3c1f7e5b933947fc968c9fb1947d2222a9dbf0d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Sending HeartbeatRequest messages allows the sender to make sure that
+     it can reach the peer and the peer is alive.  Even in the case of
+     TLS/TCP, this allows a check at a much higher rate than the TCP keep-
+     alive feature would allow.
+"fixed": |-
+  Sending HeartbeatRequest messages allows the sender to make sure that it can reach the peer and the peer is alive.  Even in the case of TLS/TCP, this allows a check at a much higher rate than the TCP keep- alive feature would allow.
+"ko": |-
+  HeartbeatRequest 메시지를 보내면 발신자는 피어에 도달할 수 있고 피어가 활성 상태인지 확인할 수 있습니다.  TLS/TCP의 경우에도 이는 TCP 연결 유지 기능이 허용하는 것보다 훨씬 더 빠른 속도로 검사를 허용합니다.

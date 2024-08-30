@@ -1,0 +1,19 @@
+"hash": |-
+  f5f3591927a4e82d868a5358add0f2a32dc3cc4c25f38c143c473ab86638b067
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In MRCPv2, there are some tasks, such as URI resource fetches, that
+     the server does on behalf of the client.  To control this behavior,
+     MRCPv2 has a number of server parameters that a client can configure.
+     With one such parameter, Fetch-Timeout (Section 6.2.12), a malicious
+     client could set a very large value and then request the server to
+     fetch a non-existent document.  It is RECOMMENDED that servers be
+     cautious about accepting long timeout values or abnormally large
+     values for other client-set parameters.
+"fixed": |-
+  In MRCPv2, there are some tasks, such as URI resource fetches, that the server does on behalf of the client.  To control this behavior, MRCPv2 has a number of server parameters that a client can configure. With one such parameter, Fetch-Timeout (Section 6.2.12), a malicious client could set a very large value and then request the server to fetch a non-existent document.  It is RECOMMENDED that servers be cautious about accepting long timeout values or abnormally large values for other client-set parameters.
+"ko": |-
+  MRCPv2에는 URI 리소스 페치와 같이 서버가 클라이언트를 대신하여 수행하는 몇 가지 작업이 있습니다. 이 동작을 제어하기 위해 MRCPv2에는 클라이언트가 구성할 수 있는 여러 서버 매개변수가 있습니다. 이러한 매개변수 중 하나인 Fetch-Timeout(섹션 6.2.12)을 사용하면 악의적인 클라이언트가 매우 큰 값을 설정한 다음 서버에 존재하지 않는 문서를 페치하도록 요청할 수 있습니다. 서버는 다른 클라이언트 설정 매개변수에 대해 긴 시간 초과 값이나 비정상적으로 큰 값을 허용하는 데 신중해야 합니다.

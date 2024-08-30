@@ -1,0 +1,24 @@
+"hash": |-
+  5a34f98ce41ad79946b52d384844181cfdb5ed058658504eaca36f56e4ee7ea1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In IMAP4rev2, mailbox names are encoded in Net-Unicode [NET-UNICODE]
+     (this differs from IMAP4rev1).  Client implementations MAY attempt to
+     create Net-Unicode mailbox names and MUST interpret any 8-bit mailbox
+     names returned by LIST as [NET-UNICODE].  Server implementations MUST
+     prohibit the creation of 8-bit mailbox names that do not comply with
+     Net-Unicode.  However, servers MAY accept a denormalized UTF-8
+     mailbox name and convert it to Unicode Normalization Form C (NFC) (as
+     per Net-Unicode requirements) prior to mailbox creation.  Servers
+     that choose to accept such denormalized UTF-8 mailbox names MUST
+     accept them in all IMAP commands that have a mailbox name parameter.
+     In particular, SELECT <name> must open the same mailbox that was
+     successfully created with CREATE <name>, even if <name> is a
+     denormalized UTF-8 mailbox name.
+"fixed": |-
+  In IMAP4rev2, mailbox names are encoded in Net-Unicode [NET-UNICODE] (this differs from IMAP4rev1).  Client implementations MAY attempt to create Net-Unicode mailbox names and MUST interpret any 8-bit mailbox names returned by LIST as [NET-UNICODE].  Server implementations MUST prohibit the creation of 8-bit mailbox names that do not comply with Net-Unicode.  However, servers MAY accept a denormalized UTF-8 mailbox name and convert it to Unicode Normalization Form C (NFC) (as per Net-Unicode requirements) prior to mailbox creation.  Servers that choose to accept such denormalized UTF-8 mailbox names MUST accept them in all IMAP commands that have a mailbox name parameter. In particular, SELECT <name> must open the same mailbox that was successfully created with CREATE <name>, even if <name> is a denormalized UTF-8 mailbox name.
+"ko": |-
+  IMAP4rev2에서는 사서함 이름이 Net-Unicode[NET-UNICODE]로 인코딩됩니다(IMAP4rev1과 다름).  클라이언트 구현은 Net-Unicode 사서함 이름을 생성하려고 시도할 수 있으며 LIST에서 반환된 8비트 사서함 이름을 [NET-UNICODE]로 해석해야 합니다(MUST).  서버 구현에서는 Net-Unicode를 준수하지 않는 8비트 사서함 이름 생성을 금지해야 합니다(MUST).  그러나 서버는 사서함 생성 전에 비정규화된 UTF-8 사서함 이름을 허용하고 이를 Net-Unicode 요구 사항에 따라 NFC(Unicode Normalization Form C)로 변환할 수 있습니다.  이러한 비정규화된 UTF-8 메일함 이름을 허용하도록 선택한 서버는 메일함 이름 매개변수가 있는 모든 IMAP 명령에서 이를 수락해야 합니다. 특히 SELECT <name>은 <name>이 비정규화된 UTF-8 사서함 이름인 경우에도 CREATE <name>을 사용하여 성공적으로 생성된 동일한 사서함을 열어야 합니다.

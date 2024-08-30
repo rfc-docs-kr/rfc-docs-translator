@@ -1,0 +1,18 @@
+"hash": |-
+  d06d5c75cbec4a39fd7a6b8ca3a784a85cb73e2516d5561a25e5bab1cf7a8971
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "X25519" and "X448" functions perform scalar multiplication on
+     the Montgomery form of the above curves.  (This is used when
+     implementing Diffie-Hellman.)  The functions take a scalar and a
+     u-coordinate as inputs and produce a u-coordinate as output.
+     Although the functions work internally with integers, the inputs and
+     outputs are 32-byte strings (for X25519) or 56-byte strings (for
+     X448) and this specification defines their encoding.
+"fixed": |-
+  The "X25519" and "X448" functions perform scalar multiplication on the Montgomery form of the above curves.  (This is used when implementing Diffie-Hellman.)  The functions take a scalar and a u-coordinate as inputs and produce a u-coordinate as output. Although the functions work internally with integers, the inputs and outputs are 32-byte strings (for X25519) or 56-byte strings (for X448) and this specification defines their encoding.
+"ko": |-
+  "X25519" 및 "X448" 함수는 위 곡선의 몽고메리 형식에서 스칼라 곱셈을 수행합니다. (이것은 Diffie-Hellman을 구현할 때 사용됩니다.) 함수는 스칼라와 u 좌표를 입력으로 사용하고 u 좌표를 출력으로 생성합니다. 함수는 내부적으로 정수로 작동하지만 입력 및 출력은 32바이트 문자열(X25519의 경우) 또는 56바이트 문자열(X448의 경우)이며 이 사양에서는 해당 인코딩을 정의합니다.

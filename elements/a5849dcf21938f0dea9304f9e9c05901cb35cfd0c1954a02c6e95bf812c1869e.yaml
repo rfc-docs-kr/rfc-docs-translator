@@ -1,0 +1,21 @@
+"hash": |-
+  a5849dcf21938f0dea9304f9e9c05901cb35cfd0c1954a02c6e95bf812c1869e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case of RTP, if a particular codec was referenced with a
+     specific payload type number in the offer, that same payload type
+     number SHOULD be used for that codec in the answer.  Even if the same
+     payload type number is used, the answer MUST contain rtpmap
+     attributes to define the payload type mappings for dynamic payload
+     types, and SHOULD contain mappings for static payload types.  The
+     media formats in the "m=" line MUST be listed in order of preference,
+     with the first format listed being preferred.  In this case,
+     preferred means that the offerer SHOULD use the format with the
+     highest preference from the answer.
+"fixed": |-
+  In the case of RTP, if a particular codec was referenced with a specific payload type number in the offer, that same payload type number SHOULD be used for that codec in the answer.  Even if the same payload type number is used, the answer MUST contain rtpmap attributes to define the payload type mappings for dynamic payload types, and SHOULD contain mappings for static payload types.  The media formats in the "m=" line MUST be listed in order of preference, with the first format listed being preferred.  In this case, preferred means that the offerer SHOULD use the format with the highest preference from the answer.
+"ko": |-
+  RTP의 경우, 특정 코덱이 오퍼에서 특정 페이로드 유형 번호로 참조된 경우, 답변에서 해당 코덱에 대해 동일한 페이로드 유형 번호를 사용해야 합니다. 동일한 페이로드 유형 번호가 사용되더라도, 답변에는 동적 페이로드 유형에 대한 페이로드 유형 매핑을 정의하는 rtpmap 속성이 포함되어야 하며, 정적 페이로드 유형에 대한 매핑이 포함되어야 합니다. "m=" 줄의 미디어 형식은 선호도 순서대로 나열되어야 하며, 나열된 첫 번째 형식이 선호됩니다. 이 경우 선호됨은 오퍼러가 답변에서 가장 높은 선호도를 가진 형식을 사용해야 함을 의미합니다.

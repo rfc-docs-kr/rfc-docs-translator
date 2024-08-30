@@ -1,0 +1,23 @@
+"hash": |-
+  8261b00a0dd1df5ea5e12669c792b947f347b6ac1905d51f71dd5da1a4493cc2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MAY be specified in a CONTROL method to control the
+     maximum length of speech to speak, relative to the current speaking
+     point in the currently active SPEAK request.  If numeric, the value
+     MUST be a positive integer.  If a header field with a Tag unit is
+     specified, then the speech output continues until the tag is reached
+     or the SPEAK request is completed, whichever comes first.  This
+     header field MAY be specified in a SPEAK request to indicate the
+     length to speak from the speech data and is relative to the point in
+     speech that the SPEAK request starts.  The different speech length
+     units supported are synthesizer implementation dependent.  If a
+     server does not support the specified unit, the server MUST respond
+     with a status-code of 409 "Unsupported Header Field Value".
+"fixed": |-
+  This header field MAY be specified in a CONTROL method to control the maximum length of speech to speak, relative to the current speaking point in the currently active SPEAK request.  If numeric, the value MUST be a positive integer.  If a header field with a Tag unit is specified, then the speech output continues until the tag is reached or the SPEAK request is completed, whichever comes first.  This header field MAY be specified in a SPEAK request to indicate the length to speak from the speech data and is relative to the point in speech that the SPEAK request starts.  The different speech length units supported are synthesizer implementation dependent.  If a server does not support the specified unit, the server MUST respond with a status-code of 409 "Unsupported Header Field Value".
+"ko": |-
+  이 헤더 필드는 현재 활성화된 SPEAK 요청의 현재 말하기 지점을 기준으로 말할 수 있는 최대 음성 길이를 제어하기 위해 CONTROL 메서드에서 지정할 수 있습니다. 숫자인 경우 값은 양의 정수여야 합니다. 태그 단위가 있는 헤더 필드가 지정된 경우 태그에 도달하거나 SPEAK 요청이 완료될 때까지 음성 출력이 계속됩니다. 이 헤더 필드는 음성 데이터에서 말할 길이를 나타내기 위해 SPEAK 요청에서 지정할 수 있으며 SPEAK 요청이 시작되는 음성 지점을 기준으로 합니다. 지원되는 다양한 음성 길이 단위는 신시사이저 구현에 따라 다릅니다. 서버가 지정된 단위를 지원하지 않는 경우 서버는 409 "지원되지 않는 헤더 필드 값" 상태 코드로 응답해야 합니다.

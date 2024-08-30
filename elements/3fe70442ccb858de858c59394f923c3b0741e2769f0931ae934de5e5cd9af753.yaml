@@ -1,0 +1,30 @@
+"hash": |-
+  3fe70442ccb858de858c59394f923c3b0741e2769f0931ae934de5e5cd9af753
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "Bcc:" field (where the "Bcc" means "Blind Carbon Copy") contains
+     addresses of recipients of the message whose addresses are not to be
+     revealed to other recipients of the message.  There are three ways in
+     which the "Bcc:" field is used.  In the first case, when a message
+     containing a "Bcc:" field is prepared to be sent, the "Bcc:" line is
+     removed even though all of the recipients (including those specified
+     in the "Bcc:" field) are sent a copy of the message.  In the second
+     case, recipients specified in the "To:" and "Cc:" lines each are sent
+     a copy of the message with the "Bcc:" line removed as above, but the
+     recipients on the "Bcc:" line get a separate copy of the message
+     containing a "Bcc:" line.  (When there are multiple recipient
+     addresses in the "Bcc:" field, some implementations actually send a
+     separate copy of the message to each recipient with a "Bcc:"
+     containing only the address of that particular recipient.) Finally,
+     since a "Bcc:" field may contain no addresses, a "Bcc:" field can be
+     sent without any addresses indicating to the recipients that blind
+     copies were sent to someone.  Which method to use with "Bcc:" fields
+     is implementation dependent, but refer to the "Security
+     Considerations" section of this document for a discussion of each.
+"fixed": |-
+  The "Bcc:" field (where the "Bcc" means "Blind Carbon Copy") contains addresses of recipients of the message whose addresses are not to be revealed to other recipients of the message.  There are three ways in which the "Bcc:" field is used.  In the first case, when a message containing a "Bcc:" field is prepared to be sent, the "Bcc:" line is removed even though all of the recipients (including those specified in the "Bcc:" field) are sent a copy of the message.  In the second case, recipients specified in the "To:" and "Cc:" lines each are sent a copy of the message with the "Bcc:" line removed as above, but the recipients on the "Bcc:" line get a separate copy of the message containing a "Bcc:" line.  (When there are multiple recipient addresses in the "Bcc:" field, some implementations actually send a separate copy of the message to each recipient with a "Bcc:" containing only the address of that particular recipient.) Finally, since a "Bcc:" field may contain no addresses, a "Bcc:" field can be sent without any addresses indicating to the recipients that blind copies were sent to someone.  Which method to use with "Bcc:" fields is implementation dependent, but refer to the "Security Considerations" section of this document for a discussion of each.
+"ko": |-
+  "숨은 참조:" 필드(여기서 "숨은 참조"는 "숨은 참조"를 의미)에는 다른 메시지 수신자에게 주소가 공개되지 않는 메시지 수신자의 주소가 포함됩니다.  '숨은참조:' 필드는 세 가지 방법으로 사용됩니다.  첫 번째 경우, "숨은 참조:" 필드가 포함된 메시지를 보낼 준비가 되면 모든 수신자("숨은 참조:" 필드에 지정된 사람 포함)에게 메시지가 전송되더라도 "숨은 참조:" 줄은 제거됩니다. 메시지 사본.  두 번째 경우, "받는 사람:" 및 "참조:" 줄에 지정된 수신자에게는 위와 같이 "숨은 참조:" 줄이 제거된 메시지 사본이 각각 전송되지만, "숨은 참조:" 줄에 있는 수신자는 "Bcc:" 줄이 포함된 별도의 메시지 복사본.  ("Bcc:" 필드에 여러 수신자 주소가 있는 경우 일부 구현에서는 실제로 해당 특정 수신자의 주소만 포함하는 "Bcc:"를 사용하여 각 수신자에게 별도의 메시지 복사본을 보냅니다.) 마지막으로 "Bcc"는 :" 필드에 주소가 없을 수 있는 경우 "숨은 참조:" 필드는 주소 없이 전송되어 숨은 참조가 누군가에게 전송되었음을 수신자에게 알릴 수 있습니다.  "Bcc:" 필드에 사용할 방법은 구현에 따라 다르지만 각각에 대한 설명은 이 문서의 "보안 고려 사항" 섹션을 참조하세요.

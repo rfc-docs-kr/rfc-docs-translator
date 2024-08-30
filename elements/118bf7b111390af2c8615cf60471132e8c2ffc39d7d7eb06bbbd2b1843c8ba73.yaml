@@ -1,0 +1,27 @@
+"hash": |-
+  118bf7b111390af2c8615cf60471132e8c2ffc39d7d7eb06bbbd2b1843c8ba73
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  For the third URI, 'ipps://printer.example.com/ipp/print/
+        private-printer', the value 'tls' in "uri-security-supported"
+        indicates that TLS is being used to secure the channel.  The
+        Client SHOULD be prepared to use TLS framing to negotiate an
+        acceptable ciphersuite to use while communicating with the
+        Printer.  In this case, the name implies the use of a secure
+        communications channel, but the fact is made explicit by the
+        presence of the 'tls' value in "uri-security-supported".  The
+        Client does not need to resort to understanding which security
+        mechanisms it must use by following naming conventions or by
+        parsing the URI to determine which security mechanisms are
+        implied.  The value of 'basic' in "uri-authentication-supported"
+        indicates that the Printer will issue a challenge and that the
+        Printer will use the name supplied by the Basic mechanism to
+        determine the authenticated user (see Section 9.3).  Because this
+        challenge occurs in a TLS session, the channel is secure.
+"fixed": |-
+  -  For the third URI, 'ipps://printer.example.com/ipp/print/ private-printer', the value 'tls' in "uri-security-supported" indicates that TLS is being used to secure the channel.  The Client SHOULD be prepared to use TLS framing to negotiate an acceptable ciphersuite to use while communicating with the Printer.  In this case, the name implies the use of a secure communications channel, but the fact is made explicit by the presence of the 'tls' value in "uri-security-supported".  The Client does not need to resort to understanding which security mechanisms it must use by following naming conventions or by parsing the URI to determine which security mechanisms are implied.  The value of 'basic' in "uri-authentication-supported" indicates that the Printer will issue a challenge and that the Printer will use the name supplied by the Basic mechanism to determine the authenticated user (see Section 9.3).  Because this challenge occurs in a TLS session, the channel is secure.
+"ko": |-
+  - 세 번째 URI 'ipps://printer.example.com/ipp/print/private-printer'의 경우 "uri-security-supported"의 'tls' 값은 TLS가 채널 보안에 사용되고 있음을 나타냅니다. 클라이언트는 프린터와 통신하는 동안 사용할 수 있는 암호화 모음을 협상하기 위해 TLS 프레이밍을 사용할 준비를 해야 합니다. 이 경우 이름은 보안 통신 채널의 사용을 암시하지만 "uri-security-supported"에 'tls' 값이 존재함으로써 사실이 명백해집니다. 클라이언트는 어떤 보안 메커니즘이 암시되어 있는지 결정하기 위해 명명 규칙을 따르거나 URI를 구문 분석하여 사용해야 하는 보안 메커니즘을 이해하는 데 의존할 필요가 없습니다. "uri-authentication-supported"의 'basic' 값은 프린터가 챌린지를 발행하고 프린터가 인증된 사용자를 결정하기 위해 Basic 메커니즘에서 제공한 이름을 사용할 것임을 나타냅니다(섹션 9.3 참조). 이 인증 확인은 TLS 세션에서 발생하므로 채널은 안전합니다.

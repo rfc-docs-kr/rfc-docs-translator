@@ -1,0 +1,17 @@
+"hash": |-
+  ea40a007a0a574eed821b870950a62e0bac9c098e510564d51e60debc35aa81f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+      struct {
+          ProtocolVersion client_version;
+          Random random;
+          SessionID session_id;
+          CipherSuite cipher_suites<2..2^16-1>;
+          CompressionMethod compression_methods<1..2^8-1>;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

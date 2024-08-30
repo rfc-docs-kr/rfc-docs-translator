@@ -1,0 +1,16 @@
+"hash": |-
+  1de2474f0914c7be4620c7efd36df0f4e676fba5a89fe31e9dea0b4215602f7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the original session did not use the "extended_master_secret"
+        extension but the new ClientHello contains the extension, then the
+        server MUST NOT perform the abbreviated handshake.  Instead, it
+        SHOULD continue with a full handshake (as described in
+        Section 5.2) to negotiate a new session.
+"fixed": |-
+  -  If the original session did not use the "extended_master_secret" extension but the new ClientHello contains the extension, then the server MUST NOT perform the abbreviated handshake.  Instead, it SHOULD continue with a full handshake (as described in Section 5.2) to negotiate a new session.
+"ko": |-
+  - 원래 세션이 "extended_master_secret" 확장을 사용하지 않았지만 새로운 ClientHello에 확장이 포함된 경우 서버는 축약 핸드셰이크를 수행해서는 안 됩니다. 대신 전체 핸드셰이크(섹션 5.2에서 설명한 대로)를 계속하여 새 세션을 협상해야 합니다.

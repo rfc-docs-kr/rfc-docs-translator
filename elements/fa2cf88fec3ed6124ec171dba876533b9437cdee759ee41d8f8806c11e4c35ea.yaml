@@ -1,0 +1,17 @@
+"hash": |-
+  fa2cf88fec3ed6124ec171dba876533b9437cdee759ee41d8f8806c11e4c35ea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3. Attackers could try to modify the client's list of security
+        mechanisms in the first message.  The client selects the security
+        mechanism based on its own knowledge of its own capabilities and
+        the server's list, hence the client's choice would be unaffected
+        by any such modification.  However, the server's choice could
+        still be affected as described below:
+"fixed": |-
+  1. Attackers could try to modify the client's list of security mechanisms in the first message.  The client selects the security mechanism based on its own knowledge of its own capabilities and the server's list, hence the client's choice would be unaffected by any such modification.  However, the server's choice could still be affected as described below:
+"ko": |-
+  1. 공격자는 첫 번째 메시지에서 클라이언트의 보안 메커니즘 목록을 수정하려고 시도할 수 있습니다. 클라이언트는 자체 역량과 서버 목록에 대한 자체 지식에 따라 보안 메커니즘을 선택하므로 클라이언트의 선택은 그러한 수정에 영향을 받지 않습니다. 그러나 서버의 선택은 아래에 설명된 대로 여전히 영향을 받을 수 있습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  2bbe37701a046de83149e846de833abd7599a412d5e645d5791ff22af5948089
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A WebSocket client may offer multiple PMCEs during the WebSocket
+     opening handshake.  A peer WebSocket server receiving the offer may
+     choose to accept the preferred PMCE or decline all of them.  PMCEs
+     use the RSV1 bit of the WebSocket frame header to indicate whether a
+     message is compressed or not so that an endpoint can choose not to
+     compress messages with incompressible contents.
+"fixed": |-
+  A WebSocket client may offer multiple PMCEs during the WebSocket opening handshake.  A peer WebSocket server receiving the offer may choose to accept the preferred PMCE or decline all of them.  PMCEs use the RSV1 bit of the WebSocket frame header to indicate whether a message is compressed or not so that an endpoint can choose not to compress messages with incompressible contents.
+"ko": |-
+  WebSocket 클라이언트는 WebSocket 열기 핸드셰이크 중에 여러 PMCE를 제공할 수 있습니다.  제안을 받은 피어 WebSocket 서버는 기본 PMCE를 수락하거나 모두 거부하도록 선택할 수 있습니다.  PMCE는 WebSocket 프레임 헤더의 RSV1 비트를 사용하여 메시지가 압축되었는지 여부를 나타내므로 엔드포인트는 압축할 수 없는 내용이 포함된 메시지를 압축하지 않도록 선택할 수 있습니다.

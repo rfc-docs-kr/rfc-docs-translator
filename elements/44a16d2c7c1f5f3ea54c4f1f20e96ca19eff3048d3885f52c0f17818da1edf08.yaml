@@ -1,0 +1,14 @@
+"hash": |-
+  44a16d2c7c1f5f3ea54c4f1f20e96ca19eff3048d3885f52c0f17818da1edf08
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server SHOULD respond with a 400 (Bad Request) status code
+     if it receives Content-Range on a PUT for a target resource that does
+     not support partial PUT requests.
+"fixed": |-
+  An origin server SHOULD respond with a 400 (Bad Request) status code if it receives Content-Range on a PUT for a target resource that does not support partial PUT requests.
+"ko": |-
+  원본 서버는 부분 PUT 요청을 지원하지 않는 대상 리소스에 대해 PUT에서 Content-Range를 수신하는 경우 400(잘못된 요청) 상태 코드로 응답해야 합니다.

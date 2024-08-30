@@ -1,0 +1,15 @@
+"hash": |-
+  0bdf882e860691caef3218f3523e4936c916a513bf2f775ad4721c2d049cbaf0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that a BGP route is considered unresolvable in a situation where
+     the BGP speaker's Routing Table contains no route matching the BGP
+     route's NEXT_HOP.  Mutually recursive routes (routes resolving each
+     other or themselves) also fail the resolvability check.
+"fixed": |-
+  Note that a BGP route is considered unresolvable in a situation where the BGP speaker's Routing Table contains no route matching the BGP route's NEXT_HOP.  Mutually recursive routes (routes resolving each other or themselves) also fail the resolvability check.
+"ko": |-
+  BGP 스피커의 라우팅 테이블에 BGP 경로의 NEXT_HOP과 일치하는 경로가 없는 상황에서는 BGP 경로를 확인할 수 없는 것으로 간주됩니다. 상호 재귀 경로(서로 또는 자체적으로 확인되는 경로)도 확인 가능성 검사에 실패합니다.

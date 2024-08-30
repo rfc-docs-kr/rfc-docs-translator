@@ -1,0 +1,19 @@
+"hash": |-
+  64b36589c091dac6d8dc0c5f1f0d941481a2c0f364a95d22d55d213f1ee6150b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MAY be sent as part of the START-PHRASE-ENROLLMENT,
+     SET-PARAMS, or GET-PARAMS method.  Used during voice enrollment, this
+     header field specifies how similar the pronunciations of two
+     different phrases can be before they are considered to be clashing.
+     For example, pronunciations of phrases such as "John Smith" and "Jon
+     Smits" may be so similar that they are difficult to distinguish
+     correctly.  A smaller threshold reduces the number of clashes
+     detected.  The range for this threshold is a float value between 0.0
+"fixed": |-
+  This header field MAY be sent as part of the START-PHRASE-ENROLLMENT, SET-PARAMS, or GET-PARAMS method.  Used during voice enrollment, this header field specifies how similar the pronunciations of two different phrases can be before they are considered to be clashing. For example, pronunciations of phrases such as "John Smith" and "Jon Smits" may be so similar that they are difficult to distinguish correctly.  A smaller threshold reduces the number of clashes detected.  The range for this threshold is a float value between 0.0
+"ko": |-
+  이 헤더 필드는 START-PHRASE-ENROLLMENT, SET-PARAMS 또는 GET-PARAMS 메서드의 일부로 전송될 수 있습니다. 음성 등록 중에 사용되는 이 헤더 필드는 두 개의 다른 구문의 발음이 충돌하는 것으로 간주되기 전에 얼마나 유사할 수 있는지 지정합니다. 예를 들어, "John Smith" 및 "Jon Smits"와 같은 구문의 발음은 너무 유사하여 올바르게 구별하기 어려울 수 있습니다. 더 작은 임계값은 감지된 충돌 수를 줄입니다. 이 임계값의 범위는 0.0 사이의 부동 소수점 값입니다.

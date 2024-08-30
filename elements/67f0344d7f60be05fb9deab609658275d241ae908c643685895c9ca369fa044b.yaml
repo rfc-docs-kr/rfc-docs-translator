@@ -1,0 +1,16 @@
+"hash": |-
+  67f0344d7f60be05fb9deab609658275d241ae908c643685895c9ca369fa044b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server MUST discard an Initial packet that is carried in a UDP
+     datagram with a payload that is smaller than the smallest allowed
+     maximum datagram size of 1200 bytes.  A server MAY also immediately
+     close the connection by sending a CONNECTION_CLOSE frame with an
+     error code of PROTOCOL_VIOLATION; see Section 10.2.3.
+"fixed": |-
+  A server MUST discard an Initial packet that is carried in a UDP datagram with a payload that is smaller than the smallest allowed maximum datagram size of 1200 bytes.  A server MAY also immediately close the connection by sending a CONNECTION_CLOSE frame with an error code of PROTOCOL_VIOLATION; see Section 10.2.3.
+"ko": |-
+  서버는 허용되는 가장 작은 최대 데이터그램 크기인 1200바이트보다 작은 페이로드를 포함하는 UDP 데이터그램으로 전달되는 초기 패킷을 폐기해야 합니다. 서버는 오류 코드 PROTOCOL_VIOLATION과 함께 CONNECTION_CLOSE 프레임을 전송하여 즉시 연결을 닫을 수도 있습니다. 섹션 10.2.3을 참조하세요.

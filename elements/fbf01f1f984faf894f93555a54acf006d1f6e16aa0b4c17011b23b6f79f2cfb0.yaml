@@ -1,0 +1,38 @@
+"hash": |-
+  fbf01f1f984faf894f93555a54acf006d1f6e16aa0b4c17011b23b6f79f2cfb0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       C: A003 APPEND saved-messages (\Seen) {297+}
+       C: Date: Mon, 7 Feb 1994 21:52:25 -0800 (PST)
+       C: From: Fred Foobar <foobar@example.com>
+       C: Subject: afternoon meeting
+       C: To: mooch@example.com
+       C: Message-Id: <B27397-0100000@example.com>
+       C: MIME-Version: 1.0
+       C: Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+       C:
+       C: Hello Joe, do you think we can meet at 3:30 tomorrow?
+       C:
+       S: A003 OK [APPENDUID 38505 3955] APPEND completed
+       C: A004 COPY 2:4 meeting
+       S: A004 OK [COPYUID 38505 304,319:320 3956:3958] Done
+       C: A005 UID COPY 305:310 meeting
+       S: A005 OK No matching messages, so nothing copied
+       C: A006 COPY 2 funny
+       S: A006 OK Done
+       C: A007 SELECT funny
+       S: * 1 EXISTS
+       S: * OK [UIDVALIDITY 3857529045] Validity session-only
+       S: * OK [UIDNEXT 2] Predicted next UID
+       S: * NO [UIDNOTSTICKY] Non-persistent UIDs
+       S: * FLAGS (\Answered \Flagged \Deleted \Seen \Draft)
+       S: * OK [PERMANENTFLAGS (\Deleted \Seen)] Limited
+       S: * LIST () "." funny
+       S: A007 OK [READ-WRITE] SELECT completed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

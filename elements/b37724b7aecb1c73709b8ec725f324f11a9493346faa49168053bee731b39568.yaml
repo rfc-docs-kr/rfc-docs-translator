@@ -1,0 +1,14 @@
+"hash": |-
+  b37724b7aecb1c73709b8ec725f324f11a9493346faa49168053bee731b39568
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Pretend that a compatible server is actually non-compatible by
+        negotiating a non-FFDHE cipher suite.  This is no different than
+        MITM cipher suite filtering.
+"fixed": |-
+  -  Pretend that a compatible server is actually non-compatible by negotiating a non-FFDHE cipher suite.  This is no different than MITM cipher suite filtering.
+"ko": |-
+  - FFDHE가 아닌 암호화 제품군을 협상하여 호환되는 서버가 실제로 호환되지 않는 것처럼 가장합니다.  이는 MITM 암호 그룹 필터링과 다르지 않습니다.

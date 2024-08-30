@@ -1,0 +1,17 @@
+"hash": |-
+  14ef92d8867d636391ae61789dfbba4cb95c1a3aa337854eacbf4cf7460a84f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The spin bit is only present in 1-RTT packets, since it is possible
+     to measure the initial RTT of a connection by observing the
+     handshake.  Therefore, the spin bit is available after version
+     negotiation and connection establishment are completed.  On-path
+     measurement and use of the latency spin bit are further discussed in
+     [QUIC-MANAGEABILITY].
+"fixed": |-
+  The spin bit is only present in 1-RTT packets, since it is possible to measure the initial RTT of a connection by observing the handshake.  Therefore, the spin bit is available after version negotiation and connection establishment are completed.  On-path measurement and use of the latency spin bit are further discussed in [QUIC-MANAGEABILITY].
+"ko": |-
+  스핀 비트는 1-RTT 패킷에만 존재합니다. 핸드셰이크를 관찰하여 연결의 초기 RTT를 측정할 수 있기 때문입니다. 따라서 버전 협상 및 연결 설정이 완료된 후에 스핀 비트를 사용할 수 있습니다. 경로상의 측정과 대기 시간 스핀 비트의 사용은 [QUIC-MANAGEABILITY]에서 자세히 설명합니다.

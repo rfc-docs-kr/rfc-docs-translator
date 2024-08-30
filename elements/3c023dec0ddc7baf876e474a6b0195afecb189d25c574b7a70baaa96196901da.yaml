@@ -1,0 +1,20 @@
+"hash": |-
+  3c023dec0ddc7baf876e474a6b0195afecb189d25c574b7a70baaa96196901da
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Cache entries might persist for arbitrarily long periods, regardless
+     of expiration times.  Thus, a cache might attempt to validate an
+     entry using a validator that it obtained in the distant past.  A
+     strong validator is unique across all versions of all representations
+     associated with a particular resource over time.  However, there is
+     no implication of uniqueness across representations of different
+     resources (i.e., the same strong validator might be in use for
+     representations of multiple resources at the same time and does not
+     imply that those representations are equivalent).
+"fixed": |-
+  Cache entries might persist for arbitrarily long periods, regardless of expiration times.  Thus, a cache might attempt to validate an entry using a validator that it obtained in the distant past.  A strong validator is unique across all versions of all representations associated with a particular resource over time.  However, there is no implication of uniqueness across representations of different resources (i.e., the same strong validator might be in use for representations of multiple resources at the same time and does not imply that those representations are equivalent).
+"ko": |-
+  캐시 항목은 만료 시간에 관계없이 임의로 장기간 지속될 수 있습니다. 따라서 캐시는 먼 과거에 얻은 유효성 검사기를 사용하여 항목의 유효성을 검사하려고 시도할 수 있습니다. 강력한 유효성 검사기는 시간이 지남에 따라 특정 리소스와 관련된 모든 표현의 모든 버전에서 고유합니다. 그러나 서로 다른 리소스의 표현에 걸쳐 고유성을 암시하는 것은 없습니다(즉, 동일한 강력한 유효성 검사기가 여러 리소스의 표현에 동시에 사용될 수 있으며 해당 표현이 동일하다는 것을 의미하지 않습니다).

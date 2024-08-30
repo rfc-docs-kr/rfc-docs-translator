@@ -1,0 +1,20 @@
+"hash": |-
+  c18097f06eaf0a23ed995a590a1c1a8adef2699447005c10a34a2101a5f080b4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Suppose a packet is received by a PE router from a particular
+     directly attached site, but the packet's destination address does not
+     match any entry in the forwarding table associated with that site.
+     If the SP is not providing Internet access for that site, then the
+     packet is discarded as undeliverable.  If the SP is providing
+     Internet access for that site, then the PE's Internet forwarding
+     table will be consulted.  This means that in general, only one
+     forwarding table per PE need ever contain routes from the Internet,
+     even if Internet access is provided.
+"fixed": |-
+  Suppose a packet is received by a PE router from a particular directly attached site, but the packet's destination address does not match any entry in the forwarding table associated with that site. If the SP is not providing Internet access for that site, then the packet is discarded as undeliverable.  If the SP is providing Internet access for that site, then the PE's Internet forwarding table will be consulted.  This means that in general, only one forwarding table per PE need ever contain routes from the Internet, even if Internet access is provided.
+"ko": |-
+  패킷이 특정 직접 연결된 사이트에서 PE 라우터에 수신되었지만 패킷의 대상 주소가 해당 사이트와 관련된 전달 테이블의 어떤 항목과도 일치하지 않는다고 가정합니다. SP가 해당 사이트에 인터넷 액세스를 제공하지 않는 경우 패킷은 전달 불가로 삭제됩니다. SP가 해당 사이트에 인터넷 액세스를 제공하는 경우 PE의 인터넷 전달 테이블이 참조됩니다. 즉, 일반적으로 인터넷 액세스가 제공되더라도 PE당 하나의 전달 테이블만 인터넷 경로를 포함하면 됩니다.

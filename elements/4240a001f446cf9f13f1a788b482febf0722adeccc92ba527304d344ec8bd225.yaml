@@ -1,0 +1,16 @@
+"hash": |-
+  4240a001f446cf9f13f1a788b482febf0722adeccc92ba527304d344ec8bd225
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       field-value    = *field-content
+       field-content  = field-vchar
+                        [ 1*( SP / HTAB / field-vchar ) field-vchar ]
+       field-vchar    = VCHAR / obs-text
+       obs-text       = %x80-FF
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

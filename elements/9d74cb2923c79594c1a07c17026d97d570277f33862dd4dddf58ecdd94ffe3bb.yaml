@@ -1,0 +1,24 @@
+"hash": |-
+  9d74cb2923c79594c1a07c17026d97d570277f33862dd4dddf58ecdd94ffe3bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Each PSK SHOULD be derived from at least 128 bits of entropy,
+         MUST be at least 128 bits long, and SHOULD be combined with an
+         ephemeral key exchange, e.g., by using the "psk_dhe_ke" Pre-
+         Shared Key Exchange Mode in TLS 1.3 for forward secrecy.  As
+         discussed in Section 4, low-entropy PSKs (i.e., those derived
+         from less than 128 bits of entropy) are subject to attack and
+         SHOULD be avoided.  If only low-entropy keys are available, then
+         key establishment mechanisms such as PAKE that mitigate the risk
+         of offline dictionary attacks SHOULD be employed.  Note that no
+         such mechanisms have yet been standardized, and further that
+         these mechanisms will not necessarily follow the same
+         architecture as the process for incorporating external PSKs
+         described in [RFC9258].
+"fixed": |-
+  1.  Each PSK SHOULD be derived from at least 128 bits of entropy, MUST be at least 128 bits long, and SHOULD be combined with an ephemeral key exchange, e.g., by using the "psk_dhe_ke" Pre- Shared Key Exchange Mode in TLS 1.3 for forward secrecy.  As discussed in Section 4, low-entropy PSKs (i.e., those derived from less than 128 bits of entropy) are subject to attack and SHOULD be avoided.  If only low-entropy keys are available, then key establishment mechanisms such as PAKE that mitigate the risk of offline dictionary attacks SHOULD be employed.  Note that no such mechanisms have yet been standardized, and further that these mechanisms will not necessarily follow the same architecture as the process for incorporating external PSKs described in [RFC9258].
+"ko": |-
+  1. 각 PSK는 최소 128비트의 엔트로피에서 파생되어야 하고, 길이가 최소 128비트여야 하며, 임시 키 교환(예: TLS 1.3의 "psk_dhe_ke" 사전 공유 키 교환 모드 사용)과 결합되어야 합니다. 순방향 비밀을 위해.  섹션 4에서 설명한 것처럼 낮은 엔트로피 PSK(즉, 128비트 미만의 엔트로피에서 파생된 PSK)는 공격을 받기 쉬우므로 피해야 합니다.  낮은 엔트로피 키만 사용할 수 있는 경우 오프라인 사전 공격의 위험을 완화하는 PAKE와 같은 키 설정 메커니즘을 사용해야 합니다.  이러한 메커니즘은 아직 표준화되지 않았으며, 또한 이러한 메커니즘은 [RFC9258]에 설명된 외부 PSK를 통합하는 프로세스와 동일한 아키텍처를 반드시 따르지는 않습니다.

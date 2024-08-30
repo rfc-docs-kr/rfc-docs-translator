@@ -1,0 +1,24 @@
+"hash": |-
+  39241252e07a2872f77434316c57b68c8b129ed7c17f9a8e0117ce010dedaece
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The request has succeeded, but some supplied (1) attributes were
+     ignored or (2) unsupported values were substituted with supported
+     values or were ignored in order to perform the operation without
+     rejecting it.  Unsupported attributes, attribute syntaxes, or values
+     MUST be returned in the Unsupported Attributes group of the response
+     for all operations.  There is an exception to this rule for the query
+     operations Get-Printer-Attributes, Get-Jobs, and Get-Job-Attributes
+     for the "requested-attributes" operation attribute only.  When the
+     supplied values of the "requested-attributes" operation attribute are
+     requesting attributes that are not supported, the IPP object SHOULD
+     return the "requested-attributes" operation attribute in the
+     Unsupported Attributes group of the response (with the unsupported
+     values only).  See Sections 4.1.7 and 4.2.1.2.
+"fixed": |-
+  The request has succeeded, but some supplied (1) attributes were ignored or (2) unsupported values were substituted with supported values or were ignored in order to perform the operation without rejecting it.  Unsupported attributes, attribute syntaxes, or values MUST be returned in the Unsupported Attributes group of the response for all operations.  There is an exception to this rule for the query operations Get-Printer-Attributes, Get-Jobs, and Get-Job-Attributes for the "requested-attributes" operation attribute only.  When the supplied values of the "requested-attributes" operation attribute are requesting attributes that are not supported, the IPP object SHOULD return the "requested-attributes" operation attribute in the Unsupported Attributes group of the response (with the unsupported values only).  See Sections 4.1.7 and 4.2.1.2.
+"ko": |-
+  요청이 성공했지만 거부하지 않고 작업을 수행하기 위해 제공된 일부 속성이 무시되었거나 (2) 지원되지 않는 값이 지원되는 값으로 대체되었거나 무시되었습니다. 지원되지 않는 속성, 속성 구문 또는 값은 모든 작업에 대한 응답의 지원되지 않는 속성 그룹에서 반환되어야 합니다. "요청된 속성" 작업 속성에 대해서만 쿼리 작업 Get-Printer-Attributes, Get-Jobs 및 Get-Job-Attributes에 대해 이 규칙에 대한 예외가 있습니다. "requested-attributes" 작업 속성의 제공된 값이 지원되지 않는 요청 속성인 경우, IPP 객체는 응답의 Unsupported Attributes 그룹에 있는 "requested-attributes" 작업 속성을 반환해야 합니다(지원되지 않는 값만 포함). 섹션 4.1.7 및 4.2.1.2를 참조하십시오.

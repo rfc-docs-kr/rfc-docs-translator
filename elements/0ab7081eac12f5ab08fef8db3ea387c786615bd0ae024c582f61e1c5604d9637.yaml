@@ -1,0 +1,14 @@
+"hash": |-
+  0ab7081eac12f5ab08fef8db3ea387c786615bd0ae024c582f61e1c5604d9637
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Note: some servers may return a NIL envelope member in the
+           "present but empty" case.  Clients SHOULD treat NIL and the
+           empty string as identical.
+"fixed": |-
+  - Note: some servers may return a NIL envelope member in the "present but empty" case.  Clients SHOULD treat NIL and the empty string as identical.
+"ko": |-
+  - 참고: 일부 서버는 "현재는 있지만 비어 있는" 경우 NIL 봉투 구성원을 반환할 수 있습니다.  클라이언트는 NIL과 빈 문자열을 동일하게 처리해야 합니다(SHOULD).

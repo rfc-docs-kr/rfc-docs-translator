@@ -1,0 +1,19 @@
+"hash": |-
+  b82be2b9358a17a603a1dc9451a7f74f0ae83e40e81b07c130a6152747a4b81d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MAY be sent as part of the SET-PARAMS or GET-PARAMS
+     request.  If the GET-PARAMS method contains this header field with no
+     value, then it is a request to the recognizer to return the
+     recognizer context block.  The response to such a message MAY contain
+     a recognizer context block as a typed media message body.  If the
+     server returns a recognizer context block, the response MUST contain
+     this header field and its value MUST match the Content-ID of the
+     corresponding media block.
+"fixed": |-
+  This header field MAY be sent as part of the SET-PARAMS or GET-PARAMS request.  If the GET-PARAMS method contains this header field with no value, then it is a request to the recognizer to return the recognizer context block.  The response to such a message MAY contain a recognizer context block as a typed media message body.  If the server returns a recognizer context block, the response MUST contain this header field and its value MUST match the Content-ID of the corresponding media block.
+"ko": |-
+  이 헤더 필드는 SET-PARAMS 또는 GET-PARAMS 요청의 일부로 전송될 수 있습니다. GET-PARAMS 메서드에 값이 없는 이 헤더 필드가 포함되어 있는 경우 인식기에 인식기 컨텍스트 블록을 반환하라는 요청입니다. 이러한 메시지에 대한 응답에는 인식기 컨텍스트 블록이 입력된 미디어 메시지 본문으로 포함될 수 있습니다. 서버가 인식기 컨텍스트 블록을 반환하는 경우 응답에는 이 헤더 필드가 포함되어야 하며 해당 값은 해당 미디어 블록의 Content-ID와 일치해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  5aeb3aba92cd1cd51978e7c508ca35dba3bd7aa3e22acc18c6bb2bc1604fd34b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The limit on streams of a given type is sent in MAX_STREAMS
+        frames.  Like MAX_DATA, an updated value is sent when a packet
+        containing the most recent MAX_STREAMS for a stream type frame is
+        declared lost or when the limit is updated, with care taken to
+        prevent the frame from being sent too often.
+"fixed": |-
+  *  The limit on streams of a given type is sent in MAX_STREAMS frames.  Like MAX_DATA, an updated value is sent when a packet containing the most recent MAX_STREAMS for a stream type frame is declared lost or when the limit is updated, with care taken to prevent the frame from being sent too often.
+"ko": |-
+  * 특정 유형의 스트림에 대한 제한은 MAX_STREAMS 프레임으로 전송됩니다. MAX_DATA와 마찬가지로 스트림 유형 프레임에 대한 최신 MAX_STREAMS를 포함하는 패킷이 손실된 것으로 선언되거나 제한이 업데이트될 때 업데이트된 값이 전송되며, 프레임이 너무 자주 전송되지 않도록 주의해야 합니다.

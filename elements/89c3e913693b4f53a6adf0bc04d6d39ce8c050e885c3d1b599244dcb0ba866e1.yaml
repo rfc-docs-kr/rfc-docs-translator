@@ -1,0 +1,16 @@
+"hash": |-
+  89c3e913693b4f53a6adf0bc04d6d39ce8c050e885c3d1b599244dcb0ba866e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Stateless Reset uses an entire UDP datagram, starting with the
+     first two bits of the packet header.  The remainder of the first byte
+     and an arbitrary number of bytes following it are set to values that
+     SHOULD be indistinguishable from random.  The last 16 bytes of the
+     datagram contain a stateless reset token.
+"fixed": |-
+  A Stateless Reset uses an entire UDP datagram, starting with the first two bits of the packet header.  The remainder of the first byte and an arbitrary number of bytes following it are set to values that SHOULD be indistinguishable from random.  The last 16 bytes of the datagram contain a stateless reset token.
+"ko": |-
+  상태 비저장 재설정은 패킷 헤더의 처음 두 비트부터 시작하여 전체 UDP 데이터그램을 사용합니다. 첫 번째 바이트의 나머지 부분과 그 뒤의 임의 바이트 수는 무작위와 구별할 수 없는 값으로 설정되어야 합니다. 데이터그램의 마지막 16바이트에는 상태 비저장 재설정 토큰이 포함되어 있습니다.

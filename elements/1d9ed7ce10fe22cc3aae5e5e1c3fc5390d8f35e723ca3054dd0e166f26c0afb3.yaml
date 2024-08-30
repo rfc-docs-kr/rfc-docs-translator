@@ -1,0 +1,15 @@
+"hash": |-
+  1d9ed7ce10fe22cc3aae5e5e1c3fc5390d8f35e723ca3054dd0e166f26c0afb3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server receives a ClientHello without the extension, it SHOULD
+     abort the handshake if it does not wish to interoperate with legacy
+     clients.  If it chooses to continue the handshake, then it MUST NOT
+     include the extension in the ServerHello.
+"fixed": |-
+  If the server receives a ClientHello without the extension, it SHOULD abort the handshake if it does not wish to interoperate with legacy clients.  If it chooses to continue the handshake, then it MUST NOT include the extension in the ServerHello.
+"ko": |-
+  서버가 확장자 없이 ClientHello를 수신하는 경우 레거시 클라이언트와 상호 운용하고 싶지 않으면 핸드셰이크를 중단해야 합니다. 핸드셰이크를 계속하기로 선택한 경우 ServerHello에 확장자를 포함해서는 안 됩니다.

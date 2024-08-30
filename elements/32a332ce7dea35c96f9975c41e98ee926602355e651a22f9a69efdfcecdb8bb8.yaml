@@ -1,0 +1,19 @@
+"hash": |-
+  32a332ce7dea35c96f9975c41e98ee926602355e651a22f9a69efdfcecdb8bb8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This subsection defines Job attributes that describe the progress of
+     the Job.  These attributes are intended to be counters.  That is, the
+     values for a Job that has not started processing MUST be 0.  When the
+     Job's "job-state" is 'processing' or 'processing-stopped', this value
+     is intended to contain the amount of the Job that has been processed
+     to the time at which the attributes are requested.  When the Job
+     enters the 'completed', 'canceled', or 'aborted' states, these values
+     are the final values for the Job.
+"fixed": |-
+  This subsection defines Job attributes that describe the progress of the Job.  These attributes are intended to be counters.  That is, the values for a Job that has not started processing MUST be 0.  When the Job's "job-state" is 'processing' or 'processing-stopped', this value is intended to contain the amount of the Job that has been processed to the time at which the attributes are requested.  When the Job enters the 'completed', 'canceled', or 'aborted' states, these values are the final values for the Job.
+"ko": |-
+  이 하위 섹션에서는 작업 진행 상황을 설명하는 작업 속성을 정의합니다. 이러한 속성은 카운터로 사용됩니다. 즉, 처리를 시작하지 않은 Job의 값은 0이어야 합니다. Job의 "job-state"가 'processing' 또는 'processing-stopped'인 경우 이 값은 처리된 Job의 양을 포함하기 위한 것입니다. 속성이 요청되는 시점까지 처리됩니다. 작업이 '완료됨', '취소됨' 또는 '중단됨' 상태로 전환되면 이 값이 작업의 최종 값이 됩니다.

@@ -1,0 +1,53 @@
+"hash": |-
+  11a7737606f4c637a9a4e8432b10dcf492d4036dcb87f36a3a3fc6fdc2a54e17
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          If (Tl >= W - 1)                            Case A
+              If (Seql >= Tl - W + 1)
+                  Seqh = Th
+                  If (Seql <= Tl)
+                      If (pass replay check)
+                          If (pass integrity check)
+                              Set bit corresponding to Seql
+                              Pass the packet on
+                          Else reject packet
+                      Else reject packet
+                  Else
+                      If (pass integrity check)
+                          Tl = Seql (shift bits)
+                          Set bit corresponding to Seql
+                          Pass the packet on
+                      Else reject packet
+              Else
+                  Seqh = Th + 1
+                  If (pass integrity check)
+                      Tl = Seql (shift bits)
+                      Th = Th + 1
+                      Set bit corresponding to Seql
+                      Pass the packet on
+                  Else reject packet
+          Else                                    Case B
+              If (Seql >= Tl - W + 1)
+                  Seqh = Th - 1
+                  If (pass replay check)
+                      If (pass integrity check)
+                          Set the bit corresponding to Seql
+                          Pass packet on
+                      Else reject packet
+                  Else reject packet
+              Else
+                  Seqh = Th
+                  If (Seql <= Tl)
+                      If (pass replay check)
+                          If (pass integrity check)
+                              Set the bit corresponding to Seql
+                              Pass packet on
+                          Else reject packet
+                      Else reject packet
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

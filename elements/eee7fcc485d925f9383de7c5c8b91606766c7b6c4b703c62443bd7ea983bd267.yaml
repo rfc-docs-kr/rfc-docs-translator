@@ -1,0 +1,14 @@
+"hash": |-
+  eee7fcc485d925f9383de7c5c8b91606766c7b6c4b703c62443bd7ea983bd267
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the SEARCH results in no matches, the server MUST NOT include
+        the ALL return item in the ESEARCH response; however, it still
+        MUST send the ESEARCH response.
+"fixed": |-
+  - If the SEARCH results in no matches, the server MUST NOT include the ALL return item in the ESEARCH response; however, it still MUST send the ESEARCH response.
+"ko": |-
+  - 검색 결과 일치 항목이 없으면 서버는 ESEARCH 응답에 ALL 반환 항목을 포함해서는 안 됩니다. 그러나 여전히 ESEARCH 응답을 보내야 합니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  30de852d841d1c1517f777a10adbf7622dbf6478de33fd33a67e9e0db7d3f21a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A proxy must not modify the Allow header field even if it does not
+     understand all the methods specified, since the user agent may have
+     other means of communicating with the origin server.
+"fixed": |-
+  A proxy must not modify the Allow header field even if it does not understand all the methods specified, since the user agent may have other means of communicating with the origin server.
+"ko": |-
+  프록시는 지정된 모든 방법을 이해하지 못하더라도 Allow 헤더 필드를 수정해서는 안 됩니다. 사용자 에이전트가 원본 서버와 통신하는 다른 수단을 가질 수 있기 때문입니다.

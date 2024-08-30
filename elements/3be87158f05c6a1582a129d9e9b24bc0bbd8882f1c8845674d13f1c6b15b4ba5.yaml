@@ -1,0 +1,17 @@
+"hash": |-
+  3be87158f05c6a1582a129d9e9b24bc0bbd8882f1c8845674d13f1c6b15b4ba5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All the subsequent SIP requests sent by the client to that server
+     SHOULD make use of the security mechanism initiated in the previous
+     step.  These requests MUST contain a Security-Verify header field
+     that mirrors the server's list received previously in the Security-
+     Server header field.  These requests MUST also have both a Require
+     and Proxy-Require header fields with the value "sec-agree".
+"fixed": |-
+  All the subsequent SIP requests sent by the client to that server SHOULD make use of the security mechanism initiated in the previous step.  These requests MUST contain a Security-Verify header field that mirrors the server's list received previously in the Security- Server header field.  These requests MUST also have both a Require and Proxy-Require header fields with the value "sec-agree".
+"ko": |-
+  클라이언트가 해당 서버로 보낸 모든 후속 SIP 요청은 이전 단계에서 시작된 보안 메커니즘을 사용해야 합니다. 이러한 요청에는 이전에 Security-Server 헤더 필드에서 수신한 서버 목록을 반영하는 Security-Verify 헤더 필드가 포함되어야 합니다. 이러한 요청에는 "sec-agree" 값을 가진 Require 및 Proxy-Require 헤더 필드가 모두 있어야 합니다.

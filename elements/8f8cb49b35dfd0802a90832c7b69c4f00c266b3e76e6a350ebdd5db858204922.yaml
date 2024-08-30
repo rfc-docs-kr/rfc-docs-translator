@@ -1,0 +1,16 @@
+"hash": |-
+  8f8cb49b35dfd0802a90832c7b69c4f00c266b3e76e6a350ebdd5db858204922
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that initiates migration and requires non-zero-length
+     connection IDs SHOULD ensure that the pool of connection IDs
+     available to its peer allows the peer to use a new connection ID on
+     migration, as the peer will be unable to respond if the pool is
+     exhausted.
+"fixed": |-
+  An endpoint that initiates migration and requires non-zero-length connection IDs SHOULD ensure that the pool of connection IDs available to its peer allows the peer to use a new connection ID on migration, as the peer will be unable to respond if the pool is exhausted.
+"ko": |-
+  마이그레이션을 시작하고 길이가 0이 아닌 연결 ID를 요구하는 엔드포인트는 피어가 사용할 수 있는 연결 ID 풀이 피어가 마이그레이션 시 새 연결 ID를 사용할 수 있도록 허용해야 합니다. 탈진한.

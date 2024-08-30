@@ -1,0 +1,17 @@
+"hash": |-
+  89767561d1008d24c9ed2703990a1cbea58ec0c0b7ce67aba797267c700b24dc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The size limit expressed in the "record_size_limit" extension doesn't
+     account for expansion due to compression or record protection.  It is
+     expected that a constrained device will disable compression to avoid
+     unpredictable increases in record size.  Stream ciphers and existing
+     AEAD ciphers don't permit variable amounts of expansion, but block
+     ciphers do permit variable expansion.
+"fixed": |-
+  The size limit expressed in the "record_size_limit" extension doesn't account for expansion due to compression or record protection.  It is expected that a constrained device will disable compression to avoid unpredictable increases in record size.  Stream ciphers and existing AEAD ciphers don't permit variable amounts of expansion, but block ciphers do permit variable expansion.
+"ko": |-
+  "record_size_limit" 확장에 표시된 크기 제한은 압축이나 레코드 보호로 인한 확장을 고려하지 않습니다.  제한된 장치는 예측할 수 없는 레코드 크기 증가를 방지하기 위해 압축을 비활성화할 것으로 예상됩니다.  스트림 암호와 기존 AEAD 암호는 가변적인 확장을 허용하지 않지만 블록 암호는 가변적인 확장을 허용합니다.

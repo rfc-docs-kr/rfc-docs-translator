@@ -1,0 +1,15 @@
+"hash": |-
+  abca1836595f1c8a7bdf2feb4fbeb23617c5afc648564f83ca870a38fa07ceec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ECN counts are only incremented when QUIC packets from the received
+     IP packet are processed.  As such, duplicate QUIC packets are not
+     processed and do not increase ECN counts; see Section 21.10 for
+     relevant security concerns.
+"fixed": |-
+  ECN counts are only incremented when QUIC packets from the received IP packet are processed.  As such, duplicate QUIC packets are not processed and do not increase ECN counts; see Section 21.10 for relevant security concerns.
+"ko": |-
+  ECN 수는 수신된 IP 패킷의 QUIC 패킷이 처리될 때만 증가됩니다. 따라서 중복된 QUIC 패킷은 처리되지 않으며 ECN 수를 늘리지 않습니다. 관련 보안 문제는 섹션 21.10을 참조하세요.

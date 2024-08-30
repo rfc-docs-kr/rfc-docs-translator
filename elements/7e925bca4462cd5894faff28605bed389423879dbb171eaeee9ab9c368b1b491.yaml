@@ -1,0 +1,16 @@
+"hash": |-
+  7e925bca4462cd5894faff28605bed389423879dbb171eaeee9ab9c368b1b491
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     specified in the OpenPGPKeyID field.  The key ID must be specified
+     even if the certificate has only a primary key.  The peer, upon
+     receiving this type, has to either use the specified subkey or
+     terminate the session with a fatal alert of
+     "unsupported_certificate".
+"fixed": |-
+  specified in the OpenPGPKeyID field.  The key ID must be specified even if the certificate has only a primary key.  The peer, upon receiving this type, has to either use the specified subkey or terminate the session with a fatal alert of "unsupported_certificate".
+"ko": |-
+  OpenPGPKeyID 필드에 지정됩니다. 인증서에 기본 키만 있는 경우에도 키 ID를 지정해야 합니다. 이 유형을 수신한 피어는 지정된 하위 키를 사용하거나 "unsupported_certificate"라는 치명적인 경고와 함께 세션을 종료해야 합니다.

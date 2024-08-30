@@ -1,0 +1,14 @@
+"hash": |-
+  737478a0282cffaa29a89fe3fbec9f2ca664b39a84c8cb5615634c1f7dce4813
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A() is defined as:
+         A(0) = seed
+         A(i) = HMAC_hash(secret, A(i-1))
+"fixed": |-
+  A() is defined as:  -   A(0) = seed A(i) = HMAC_hash(secret, A(i-1))
+"ko": |-
+  A()는 다음과 같이 정의됩니다: - A(0) = 시드 A(i) = HMAC_hash(비밀, A(i-1))

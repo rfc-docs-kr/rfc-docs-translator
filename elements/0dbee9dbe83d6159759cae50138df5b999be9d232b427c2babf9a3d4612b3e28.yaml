@@ -1,0 +1,16 @@
+"hash": |-
+  0dbee9dbe83d6159759cae50138df5b999be9d232b427c2babf9a3d4612b3e28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the Client does not supply a "job-hold-until" operation
+        attribute in the request, the Printer MUST populate the Job with a
+        "job-hold-until" attribute with the 'indefinite' value (if the
+        Printer supports the "job-hold-until" attribute) and hold the Job
+        indefinitely, until a Client performs a Release-Job operation.
+"fixed": |-
+  - If the Client does not supply a "job-hold-until" operation attribute in the request, the Printer MUST populate the Job with a "job-hold-until" attribute with the 'indefinite' value (if the Printer supports the "job-hold-until" attribute) and hold the Job indefinitely, until a Client performs a Release-Job operation.
+"ko": |-
+  - 클라이언트가 요청에 "job-hold-until" 작업 속성을 제공하지 않는 경우 프린터는 '무한' 값이 있는 "job-hold-until" 속성으로 작업을 채워야 합니다(프린터가 " job-hold-until" 속성) 클라이언트가 작업 해제 작업을 수행할 때까지 작업을 무기한 보류합니다.

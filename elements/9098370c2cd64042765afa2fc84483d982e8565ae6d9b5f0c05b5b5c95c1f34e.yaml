@@ -1,0 +1,16 @@
+"hash": |-
+  9098370c2cd64042765afa2fc84483d982e8565ae6d9b5f0c05b5b5c95c1f34e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is an error for the server to return both a \HasChildren and a
+     \HasNoChildren attribute in the same LIST response.  A client that
+     encounters a LIST response with both \HasChildren and \HasNoChildren
+     attributes present should act as if both are absent in the LIST
+     response.
+"fixed": |-
+  It is an error for the server to return both a \HasChildren and a \HasNoChildren attribute in the same LIST response.  A client that encounters a LIST response with both \HasChildren and \HasNoChildren attributes present should act as if both are absent in the LIST response.
+"ko": |-
+  서버가 동일한 LIST 응답에서 \HasChildren 및 \HasNoChildren 속성을 모두 반환하는 것은 오류입니다.  \HasChildren 및 \HasNoChildren 특성이 모두 있는 LIST 응답을 받은 클라이언트는 LIST 응답에 두 특성이 모두 없는 것처럼 작동해야 합니다.

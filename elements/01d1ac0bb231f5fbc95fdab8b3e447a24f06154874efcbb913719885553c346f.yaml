@@ -1,0 +1,14 @@
+"hash": |-
+  01d1ac0bb231f5fbc95fdab8b3e447a24f06154874efcbb913719885553c346f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.  The saltLength in the signatureAlgorithm parameters MUST be
+         greater or equal to the saltLength in the certificate
+         subjectPublicKey.algorithm parameters.
+"fixed": |-
+  1.  The saltLength in the signatureAlgorithm parameters MUST be greater or equal to the saltLength in the certificate subjectPublicKey.algorithm parameters.
+"ko": |-
+  1. SignatureAlgorithm 매개변수의 saltLength는 인증서 subjectPublicKey.algorithm 매개변수의 saltLength보다 크거나 같아야 합니다.

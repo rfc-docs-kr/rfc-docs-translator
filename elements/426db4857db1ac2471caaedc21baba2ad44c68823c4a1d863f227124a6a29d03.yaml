@@ -1,0 +1,41 @@
+"hash": |-
+  426db4857db1ac2471caaedc21baba2ad44c68823c4a1d863f227124a6a29d03
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-------------------------+-----------------------+-----------------+
+     | Name                    | Default               | Definition      |
+     +-------------------------+-----------------------+-----------------+
+     | Chunk Size              | var, 1024 bytes       | Section 8.1     |
+     |                         | recommended           |                 |
+     |                         |                       |                 |
+     | Static Content          | 1 (Merkle Hash Tree)  | Section 7.5     |
+     | Integrity Protection    |                       |                 |
+     | Method                  |                       |                 |
+     |                         |                       |                 |
+     | Live Content Integrity  | 3 (Unified Merkle     | Section 7.5     |
+     | Protection Method       | Tree)                 |                 |
+     |                         |                       |                 |
+     | Merkle Hash Tree        | 2 (SHA-256)           | Section 7.6     |
+     | Function                |                       |                 |
+     |                         |                       |                 |
+     | Live Signature          | 13 (ECDSAP256SHA256)  | Section 7.7     |
+     | Algorithm               |                       |                 |
+     |                         |                       |                 |
+     | Chunk Addressing Method | 2 (32-bit chunk       | Section 7.8     |
+     |                         | ranges)               |                 |
+     |                         |                       |                 |
+     | Live Discard Window     | var                   | Section 6.2,    |
+     |                         |                       | Section 7.9     |
+     |                         |                       |                 |
+     | NCHUNKS_PER_SIG         | var                   | Section 6.1.2.1 |
+     |                         |                       |                 |
+     | Dead peer detection     | No reply in 3 minutes | Section 3.12    |
+     |                         | + 3 datagrams         |                 |
+     +-------------------------+-----------------------+-----------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

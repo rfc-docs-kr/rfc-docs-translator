@@ -1,0 +1,18 @@
+"hash": |-
+  5c41824793e5068966a6ff8331eb9962409b389c6302665b43c3db8517db609a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the above specification, the original QTYPE is replaced by NS (or
+     may be A, if too many servers react incorrectly to NS requests); this
+     is the best approach to preserve privacy.  But this erases
+     information about the relative use of the various QTYPEs, which may
+     be interesting for researchers (for instance, if they try to follow
+     IPv6 deployment by counting the percentage of AAAA vs. A queries).  A
+     variant of QNAME minimisation would be to keep the original QTYPE.
+"fixed": |-
+  In the above specification, the original QTYPE is replaced by NS (or may be A, if too many servers react incorrectly to NS requests); this is the best approach to preserve privacy.  But this erases information about the relative use of the various QTYPEs, which may be interesting for researchers (for instance, if they try to follow IPv6 deployment by counting the percentage of AAAA vs. A queries).  A variant of QNAME minimisation would be to keep the original QTYPE.
+"ko": |-
+  위 사양에서 원래 QTYPE은 NS로 대체됩니다(또는 너무 많은 서버가 NS 요청에 잘못 반응하는 경우 A가 될 수 있음). 이것이 개인 정보를 보호하는 가장 좋은 방법입니다. 그러나 이렇게 하면 다양한 QTYPE의 상대적 사용에 대한 정보가 지워져 연구자에게 흥미로울 수 있습니다(예를 들어 AAAA 쿼리와 A 쿼리의 비율을 계산하여 IPv6 배포를 따르려고 하는 경우). QNAME 최소화의 변형은 원래 QTYPE을 유지하는 것입니다.

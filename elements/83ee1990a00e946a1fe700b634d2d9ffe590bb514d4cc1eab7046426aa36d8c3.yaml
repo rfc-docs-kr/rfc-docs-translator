@@ -1,0 +1,25 @@
+"hash": |-
+  83ee1990a00e946a1fe700b634d2d9ffe590bb514d4cc1eab7046426aa36d8c3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     From an end-user's perspective, OAuth is often used to log into a
+     certain site or application.  This revocation mechanism allows a
+     client to invalidate its tokens if the end-user logs out, changes
+     identity, or uninstalls the respective application.  Notifying the
+     authorization server that the token is no longer needed allows the
+     authorization server to clean up data associated with that token
+     (e.g., session data) and the underlying authorization grant.  This
+     behavior prevents a situation in which there is still a valid
+     authorization grant for a particular client of which the end-user is
+     not aware.  This way, token revocation prevents abuse of abandoned
+     tokens and facilitates a better end-user experience since invalidated
+     authorization grants will no longer turn up in a list of
+     authorization grants the authorization server might present to the
+     end-user.
+"fixed": |-
+  From an end-user's perspective, OAuth is often used to log into a certain site or application.  This revocation mechanism allows a client to invalidate its tokens if the end-user logs out, changes identity, or uninstalls the respective application.  Notifying the authorization server that the token is no longer needed allows the authorization server to clean up data associated with that token (e.g., session data) and the underlying authorization grant.  This behavior prevents a situation in which there is still a valid authorization grant for a particular client of which the end-user is not aware.  This way, token revocation prevents abuse of abandoned tokens and facilitates a better end-user experience since invalidated authorization grants will no longer turn up in a list of authorization grants the authorization server might present to the end-user.
+"ko": |-
+  최종 사용자의 관점에서 볼 때 OAuth는 특정 사이트나 애플리케이션에 로그인하는 데 사용되는 경우가 많습니다.  이 해지 메커니즘을 사용하면 최종 사용자가 로그아웃하거나 ID를 변경하거나 해당 애플리케이션을 제거하는 경우 클라이언트가 해당 토큰을 무효화할 수 있습니다.  토큰이 더 이상 필요하지 않음을 인증 서버에 알리면 인증 서버가 해당 토큰과 관련된 데이터(예: 세션 데이터) 및 기본 인증 부여를 정리할 수 있습니다.  이 동작은 최종 사용자가 인식하지 못하는 특정 클라이언트에 대한 유효한 권한 부여가 여전히 존재하는 상황을 방지합니다.  이러한 방식으로 토큰 취소는 버려진 토큰의 남용을 방지하고 더 나은 최종 사용자 경험을 촉진합니다. 무효화된 권한 부여는 권한 서버가 최종 사용자에게 제공할 수 있는 권한 부여 목록에 더 이상 표시되지 않기 때문입니다.

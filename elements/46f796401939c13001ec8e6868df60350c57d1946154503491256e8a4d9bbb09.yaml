@@ -1,0 +1,25 @@
+"hash": |-
+  46f796401939c13001ec8e6868df60350c57d1946154503491256e8a4d9bbb09
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the near term, this document describes a mechanism to protect
+     today's communication from the future invention of a large-scale
+     quantum computer by mixing the output of existing key transport and
+     key agreement algorithms with a pre-shared key (PSK).  Secure
+     communication can be achieved today by mixing a strong PSK with the
+     output of an existing key transport algorithm, like RSA [RFC8017], or
+     an existing key agreement algorithm, like Diffie-Hellman [RFC2631] or
+     Elliptic Curve Diffie-Hellman (ECDH) [RFC5753].  A security solution
+     that is believed to be quantum resistant can be achieved by using a
+     PSK with sufficient entropy along with a quantum-resistant key
+     derivation function (KDF), like an HMAC-based key derivation function
+     (HKDF) [RFC5869], and a quantum-resistant encryption algorithm, like
+     256-bit AES [AES].  In this way, today's CMS-protected communication
+     can be resistant to an attacker with a large-scale quantum computer.
+"fixed": |-
+  In the near term, this document describes a mechanism to protect today's communication from the future invention of a large-scale quantum computer by mixing the output of existing key transport and key agreement algorithms with a pre-shared key (PSK).  Secure communication can be achieved today by mixing a strong PSK with the output of an existing key transport algorithm, like RSA [RFC8017], or an existing key agreement algorithm, like Diffie-Hellman [RFC2631] or Elliptic Curve Diffie-Hellman (ECDH) [RFC5753].  A security solution that is believed to be quantum resistant can be achieved by using a PSK with sufficient entropy along with a quantum-resistant key derivation function (KDF), like an HMAC-based key derivation function (HKDF) [RFC5869], and a quantum-resistant encryption algorithm, like 256-bit AES [AES].  In this way, today's CMS-protected communication can be resistant to an attacker with a large-scale quantum computer.
+"ko": |-
+  단기적으로 이 문서에서는 기존 키 전송 및 키 합의 알고리즘의 출력을 사전 공유 키(PSK)와 혼합하여 미래의 대규모 양자 컴퓨터 발명으로부터 오늘날의 통신을 보호하는 메커니즘을 설명합니다.  강력한 PSK를 RSA [RFC8017]와 같은 기존 키 전송 알고리즘이나 Diffie-Hellman [RFC2631] 또는 ECDH(Elliptic Curve Diffie-Hellman)와 같은 기존 키 합의 알고리즘의 출력과 혼합하여 오늘날 보안 통신을 달성할 수 있습니다. [RFC5753].  HMAC 기반 키 유도 함수(HKDF)[RFC5869]와 같은 양자 저항 키 유도 함수(KDF)와 함께 엔트로피가 충분한 PSK를 사용하면 양자 저항성이 있다고 여겨지는 보안 솔루션을 구현할 수 있습니다. 256비트 AES [AES]와 같은 양자 저항 암호화 알고리즘.  이러한 방식으로 오늘날의 CMS로 보호되는 통신은 대규모 양자 컴퓨터를 갖춘 공격자에 저항할 수 있습니다.

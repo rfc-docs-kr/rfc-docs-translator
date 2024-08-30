@@ -1,0 +1,15 @@
+"hash": |-
+  b91d60fdb3799afc5286ecf2fa9489a39c9882511337e0719ef10dddfb447ace
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the NEXT_HOP attribute of a BGP route depicts an address that is
+     not resolvable, or if it would become unresolvable if the route was
+     installed in the routing table, the BGP route MUST be excluded from
+     the Phase 2 decision function.
+"fixed": |-
+  If the NEXT_HOP attribute of a BGP route depicts an address that is not resolvable, or if it would become unresolvable if the route was installed in the routing table, the BGP route MUST be excluded from the Phase 2 decision function.
+"ko": |-
+  BGP 경로의 NEXT_HOP 속성이 확인할 수 없는 주소를 나타내는 경우 또는 경로가 라우팅 테이블에 설치된 경우 확인할 수 없게 되는 경우 BGP 경로는 2단계 결정 기능에서 제외되어야 합니다.

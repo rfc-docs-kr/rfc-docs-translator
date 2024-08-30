@@ -1,0 +1,23 @@
+"hash": |-
+  20e17e4d2eaf288b7f294c6fb7e15612c5bd26d5ab3444f09a05076e3e5f04ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     SUBSCRIBED
+        Causes the LIST command to return subscription state for all
+        matching mailbox names.  The "\Subscribed" attribute MUST be
+        supported and MUST be accurately computed when the SUBSCRIBED
+        return option is specified.  Furthermore, all other mailbox
+        attributes MUST be accurately computed (this differs from the
+        behavior of the obsolete LSUB command from [RFC3501]).  Note that
+        the above requirements don't override the requirement for the LIST
+        command to return results quickly (see Section 6.3.9), i.e.,
+        server implementations need to compute results quickly and
+        accurately.  For example, server implementors might need to create
+        quick access indices.
+"fixed": |-
+  SUBSCRIBED  -  Causes the LIST command to return subscription state for all matching mailbox names.  The "\Subscribed" attribute MUST be supported and MUST be accurately computed when the SUBSCRIBED return option is specified.  Furthermore, all other mailbox attributes MUST be accurately computed (this differs from the behavior of the obsolete LSUB command from [RFC3501]).  Note that the above requirements don't override the requirement for the LIST command to return results quickly (see Section 6.3.9), i.e., server implementations need to compute results quickly and accurately.  For example, server implementors might need to create quick access indices.
+"ko": |-
+  SUBSCRIBED - LIST 명령이 일치하는 모든 사서함 이름에 대한 구독 상태를 반환하도록 합니다.  "\Subscribed" 속성은 지원되어야 하며 SUBSCRIBED 반환 옵션이 지정된 경우 정확하게 계산되어야 합니다.  또한 다른 모든 메일함 속성은 정확하게 계산되어야 합니다(이는 [RFC3501]에서 사용되지 않는 LSUB 명령의 동작과 다릅니다).  위의 요구 사항은 결과를 신속하게 반환하기 위한 LIST 명령의 요구 사항(6.3.9절 참조)을 무시하지 않는다는 점에 유의하십시오. 즉, 서버 구현은 결과를 빠르고 정확하게 계산해야 합니다.  예를 들어, 서버 구현자는 빠른 액세스 색인을 생성해야 할 수 있습니다.

@@ -1,0 +1,30 @@
+"hash": |-
+  4cedf187f97ec8b683ac3d3ecd1b89052f127f157c3d7f5f35b07633af5d33e3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The message identifier (msg-id) itself MUST be a globally unique
+     identifier for a message.  The generator of the message identifier
+     MUST guarantee that the msg-id is unique.  There are several
+     algorithms that can be used to accomplish this.  Since the msg-id has
+     a similar syntax to angle-addr (identical except that comments and
+     folding white space are not allowed), a good method is to put the
+     domain name (or a domain literal IP address) of the host on which the
+     message identifier was created on the right hand side of the "@", and
+     put a combination of the current absolute date and time along with
+     some other currently unique (perhaps sequential) identifier available
+     on the system (for example, a process id number) on the left hand
+     side.  Using a date on the left hand side and a domain name or domain
+     literal on the right hand side makes it possible to guarantee
+     uniqueness since no two hosts use the same domain name or IP address
+     at the same time.  Though other algorithms will work, it is
+     RECOMMENDED that the right hand side contain some domain identifier
+     (either of the host itself or otherwise) such that the generator of
+     the message identifier can guarantee the uniqueness of the left hand
+     side within the scope of that domain.
+"fixed": |-
+  The message identifier (msg-id) itself MUST be a globally unique identifier for a message.  The generator of the message identifier MUST guarantee that the msg-id is unique.  There are several algorithms that can be used to accomplish this.  Since the msg-id has a similar syntax to angle-addr (identical except that comments and folding white space are not allowed), a good method is to put the domain name (or a domain literal IP address) of the host on which the message identifier was created on the right hand side of the "@", and put a combination of the current absolute date and time along with some other currently unique (perhaps sequential) identifier available on the system (for example, a process id number) on the left hand side.  Using a date on the left hand side and a domain name or domain literal on the right hand side makes it possible to guarantee uniqueness since no two hosts use the same domain name or IP address at the same time.  Though other algorithms will work, it is RECOMMENDED that the right hand side contain some domain identifier (either of the host itself or otherwise) such that the generator of the message identifier can guarantee the uniqueness of the left hand side within the scope of that domain.
+"ko": |-
+  메시지 식별자(msg-id) 자체는 메시지에 대한 전역적으로 고유한 식별자여야 합니다.  메시지 식별자 생성자는 msg-id가 고유함을 보장해야 합니다.  이를 달성하는 데 사용할 수 있는 몇 가지 알고리즘이 있습니다.  msg-id는 angle-addr과 유사한 구문을 갖기 때문에(주석과 접는 공백이 허용되지 않는다는 점을 제외하면 동일함) 좋은 방법은 메시지가 있는 호스트의 도메인 이름(또는 도메인 리터럴 IP 주소)을 입력하는 것입니다. 메시지 식별자는 "@" 오른쪽에 생성되었으며 현재 절대 날짜 및 시간과 시스템에서 사용할 수 있는 현재 고유한(순차적) 다른 식별자(예: 프로세스 ID 번호)의 조합을 입력합니다. 왼쪽에.  왼쪽에 날짜를, 오른쪽에 도메인 이름이나 도메인 리터럴을 사용하면 두 호스트가 동시에 동일한 도메인 이름이나 IP 주소를 사용하지 않으므로 고유성을 보장할 수 있습니다.  다른 알고리즘이 작동하더라도 메시지 식별자 생성기가 해당 도메인 범위 내에서 왼쪽의 고유성을 보장할 수 있도록 오른쪽에 일부 도메인 식별자(호스트 자체 또는 기타)를 포함하는 것이 좋습니다. .

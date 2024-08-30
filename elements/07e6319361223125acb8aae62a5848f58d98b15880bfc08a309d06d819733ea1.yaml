@@ -1,0 +1,15 @@
+"hash": |-
+  07e6319361223125acb8aae62a5848f58d98b15880bfc08a309d06d819733ea1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If m is not a multiple of 8, pad the plaintext octet string on the
+        right with octets {Q[m+1], ..., Q[r]} of zeros, where r is the
+        smallest multiple of 8 that is greater than m.  If m is a multiple
+        of 8, then there is no padding, and r = m.
+"fixed": |-
+  - If m is not a multiple of 8, pad the plaintext octet string on the right with octets {Q[m+1], ..., Q[r]} of zeros, where r is the smallest multiple of 8 that is greater than m.  If m is a multiple of 8, then there is no padding, and r = m.
+"ko": |-
+  - m이 8의 배수가 아닌 경우 오른쪽의 일반 텍스트 옥텟 문자열을 0의 옥텟 {Q[m+1], ..., Q[r]}로 채웁니다. 여기서 r은 8의 가장 작은 배수입니다. m보다 크다. m이 8의 배수이면 패딩이 없고 r = m입니다.

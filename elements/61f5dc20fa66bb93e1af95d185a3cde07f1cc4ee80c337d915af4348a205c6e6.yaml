@@ -1,0 +1,16 @@
+"hash": |-
+  61f5dc20fa66bb93e1af95d185a3cde07f1cc4ee80c337d915af4348a205c6e6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MUST NOT increase the PMTU based on ICMP messages; see
+     Item 6 in Section 3 of [DPLPMTUD].  Any reduction in QUIC's maximum
+     datagram size in response to ICMP messages MAY be provisional until
+     QUIC's loss detection algorithm determines that the quoted packet has
+     actually been lost.
+"fixed": |-
+  An endpoint MUST NOT increase the PMTU based on ICMP messages; see Item 6 in Section 3 of [DPLPMTUD].  Any reduction in QUIC's maximum datagram size in response to ICMP messages MAY be provisional until QUIC's loss detection algorithm determines that the quoted packet has actually been lost.
+"ko": |-
+  엔드포인트는 ICMP 메시지를 기반으로 PMTU를 늘려서는 안 됩니다. [DPLPMTUD] 섹션 3의 항목 6을 참조하세요. ICMP 메시지에 대한 응답으로 QUIC의 최대 데이터그램 크기를 줄이는 것은 QUIC의 손실 감지 알고리즘이 인용된 패킷이 실제로 손실되었다고 결정할 때까지 잠정적일 수 있습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  5483b7345efccbee2d85f854291326d7024c68db4ef03ca43bccd7ddab5f468b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In response to a LIST command containing an argument of the Other
+     Users' Namespace prefix, a server MUST NOT list users that have not
+     granted list access to their personal mailboxes to the currently
+     authenticated user.  Providing such a list could compromise security
+     by potentially disclosing confidential information of who is located
+     on the server or providing a starting point for a list of user
+     accounts to attack.
+"fixed": |-
+  In response to a LIST command containing an argument of the Other Users' Namespace prefix, a server MUST NOT list users that have not granted list access to their personal mailboxes to the currently authenticated user.  Providing such a list could compromise security by potentially disclosing confidential information of who is located on the server or providing a starting point for a list of user accounts to attack.
+"ko": |-
+  다른 사용자의 네임스페이스 접두사의 인수가 포함된 LIST 명령에 대한 응답으로 서버는 현재 인증된 사용자에게 개인 사서함에 대한 목록 액세스 권한을 부여하지 않은 사용자를 나열해서는 안 됩니다.  이러한 목록을 제공하면 서버에 있는 사람의 기밀 정보가 공개되거나 공격할 사용자 계정 목록의 시작점이 제공되어 보안이 손상될 수 있습니다.

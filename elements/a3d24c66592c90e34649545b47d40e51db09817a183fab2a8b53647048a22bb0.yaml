@@ -1,0 +1,16 @@
+"hash": |-
+  a3d24c66592c90e34649545b47d40e51db09817a183fab2a8b53647048a22bb0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     On receiving a PATH_CHALLENGE frame, an endpoint MUST respond by
+     echoing the data contained in the PATH_CHALLENGE frame in a
+     PATH_RESPONSE frame.  An endpoint MUST NOT delay transmission of a
+     packet containing a PATH_RESPONSE frame unless constrained by
+     congestion control.
+"fixed": |-
+  On receiving a PATH_CHALLENGE frame, an endpoint MUST respond by echoing the data contained in the PATH_CHALLENGE frame in a PATH_RESPONSE frame.  An endpoint MUST NOT delay transmission of a packet containing a PATH_RESPONSE frame unless constrained by congestion control.
+"ko": |-
+  PATH_CHALLENGE 프레임을 수신하면 엔드포인트는 PATH_RESPONSE 프레임의 PATH_CHALLENGE 프레임에 포함된 데이터를 에코하여 응답해야 합니다. 엔드포인트는 혼잡 제어에 의해 제한되지 않는 한 PATH_RESPONSE 프레임을 포함하는 패킷의 전송을 지연해서는 안 됩니다.

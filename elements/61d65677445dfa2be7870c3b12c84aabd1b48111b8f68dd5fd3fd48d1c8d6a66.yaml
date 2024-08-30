@@ -1,0 +1,17 @@
+"hash": |-
+  61d65677445dfa2be7870c3b12c84aabd1b48111b8f68dd5fd3fd48d1c8d6a66
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       def _IsRegionCodeCorrect(self, region_code):
+         if len(region_code) == 0:
+           return True
+         if '-' not in region_code:
+           self._ReportError('Region code must be in ISO 3166-2 format.')
+           return False
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

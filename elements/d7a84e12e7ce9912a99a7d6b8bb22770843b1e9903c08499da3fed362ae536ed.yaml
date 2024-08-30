@@ -1,0 +1,21 @@
+"hash": |-
+  d7a84e12e7ce9912a99a7d6b8bb22770843b1e9903c08499da3fed362ae536ed
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   set-cookie      =       "Set-Cookie:" cookies CRLF
+   cookies         =       cookie *("," *LWS cookie)
+   cookie          =       attribute "=" value *(";" cookie-av)
+   cookie-av       =       "Comment" "=" value
+                   /       "Domain" "=" value
+                   /       "Max-Age" "=" value
+                   /       "Path" "=" value
+                   /       "Secure"
+                   /       "Version" "=" 1*19DIGIT
+                   /       "Age" "=" delta-seconds
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

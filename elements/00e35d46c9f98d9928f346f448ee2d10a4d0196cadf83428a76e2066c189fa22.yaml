@@ -1,0 +1,42 @@
+"hash": |-
+  00e35d46c9f98d9928f346f448ee2d10a4d0196cadf83428a76e2066c189fa22
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +--------------+--------------+-----------------+-------------------+
+     | Current      | New          | "printer-state- | IPP Printer's     |
+     | "printer-    | "printer-    | reasons"        | response status-  |
+     | state"       | state"       |                 | code and action:  |
+     +--------------+--------------+-----------------+-------------------+
+     | 'idle'       | 'stopped'    | 'paused'        | 'successful-ok'   |
+     +--------------+--------------+-----------------+-------------------+
+     | 'processing' | 'processing' | 'moving-to-     | Option 1:         |
+     |              |              | paused'         | 'successful-ok';  |
+     |              |              |                 | Later, when all   |
+     |              |              |                 | output has        |
+     |              |              |                 | stopped, the      |
+     |              |              |                 | "printer-state"   |
+     |              |              |                 | becomes           |
+     |              |              |                 | 'stopped', and    |
+     |              |              |                 | the 'paused'      |
+     |              |              |                 | value replaces    |
+     |              |              |                 | the 'moving-to-   |
+     |              |              |                 | paused' value in  |
+     |              |              |                 | the "printer-     |
+     |              |              |                 | state-reasons"    |
+     |              |              |                 | attribute         |
+     +--------------+--------------+-----------------+-------------------+
+     | 'processing' | 'stopped'    | 'paused'        | Option 2:         |
+     |              |              |                 | 'successful-ok';  |
+     |              |              |                 | all device output |
+     |              |              |                 | stopped           |
+     |              |              |                 | immediately       |
+     +--------------+--------------+-----------------+-------------------+
+     | 'stopped'    | 'stopped'    | 'paused'        | 'successful-ok'   |
+     +--------------+--------------+-----------------+-------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

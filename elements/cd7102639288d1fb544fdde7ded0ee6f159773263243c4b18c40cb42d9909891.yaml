@@ -1,0 +1,18 @@
+"hash": |-
+  cd7102639288d1fb544fdde7ded0ee6f159773263243c4b18c40cb42d9909891
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To leave a swarm in a graceful way, Peer A sends a specific HANDSHAKE
+     message to all its peers (see Section 8.4) and deregisters from the
+     tracker following the tracker specification [PPSP-TP].  Peers
+     receiving the datagram should remove Peer A from their current peer
+     list.  If Peer A crashes ungracefully, peers should remove Peer A
+     from their peer list when they detect it no longer sends messages
+     (see Section 3.12).
+"fixed": |-
+  To leave a swarm in a graceful way, Peer A sends a specific HANDSHAKE message to all its peers (see Section 8.4) and deregisters from the tracker following the tracker specification [PPSP-TP].  Peers receiving the datagram should remove Peer A from their current peer list.  If Peer A crashes ungracefully, peers should remove Peer A from their peer list when they detect it no longer sends messages (see Section 3.12).
+"ko": |-
+  무리를 우아하게 떠나기 위해 피어 A는 모든 피어에게 특정 HANDSHAKE 메시지를 보내고(섹션 8.4 참조) 추적기 사양 [PPSP-TP]에 따라 추적기에서 등록을 취소합니다. 데이터그램을 수신하는 피어는 현재 피어 목록에서 피어 A를 제거해야 합니다. 피어 A가 비정상적으로 충돌하는 경우 피어는 더 이상 메시지를 보내지 않는다는 것을 감지하면 피어 목록에서 피어 A를 제거해야 합니다(섹션 3.12 참조).

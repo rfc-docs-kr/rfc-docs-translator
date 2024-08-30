@@ -1,0 +1,28 @@
+"hash": |-
+  ebf6c0e79ddaa356fc2990157899e0f6b87f3753de55807ef3c4bdabcfb84e4e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            HandshakeType msg_type;
+            uint24 length;
+            select (HandshakeType) {
+                case hello_request:       HelloRequest;
+                case client_hello:        ClientHello;
+                case server_hello:        ServerHello;
+                case certificate:         Certificate;
+                case server_key_exchange: ServerKeyExchange;
+                case certificate_request: CertificateRequest;
+                case server_hello_done:   ServerHelloDone;
+                case certificate_verify:  CertificateVerify;
+                case client_key_exchange: ClientKeyExchange;
+                case finished:            Finished;
+                case session_ticket:      NewSessionTicket; /* NEW */
+            } body;
+        } Handshake;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

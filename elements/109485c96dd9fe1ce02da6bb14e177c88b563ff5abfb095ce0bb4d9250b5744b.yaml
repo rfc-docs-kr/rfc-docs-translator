@@ -1,0 +1,15 @@
+"hash": |-
+  109485c96dd9fe1ce02da6bb14e177c88b563ff5abfb095ce0bb4d9250b5744b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     9.   Generate a random JWE Initialization Vector of the correct size
+          for the content encryption algorithm (if required for the
+          algorithm); otherwise, let the JWE Initialization Vector be the
+          empty octet sequence.
+"fixed": |-
+  1.   Generate a random JWE Initialization Vector of the correct size for the content encryption algorithm (if required for the algorithm); otherwise, let the JWE Initialization Vector be the empty octet sequence.
+"ko": |-
+  1. 콘텐츠 암호화 알고리즘에 맞는 올바른 크기의 무작위 JWE 초기화 벡터를 생성합니다(알고리즘에 필요한 경우). 그렇지 않으면 JWE 초기화 벡터를 빈 옥텟 시퀀스로 둡니다.

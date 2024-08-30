@@ -1,0 +1,20 @@
+"hash": |-
+  7f580c31cc07362f9fa754ec14e88683e5195b92c1474be85714d28b083dbf5b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The output of the ECDSA algorithm consists of a pair of integers
+     usually referred to as the pair (r, s).  The signature value consists
+     of the base64 encoding of the concatenation of two octet streams that
+     respectively result from the octet encoding of the values r and s in
+     that order.  Conversion from integer to octet stream must be done
+     according to the I2OSP operation defined in the [RFC8017]
+     specification with the l parameter equal to the size of the base
+     point order of the curve in octets (e.g., 32 for the P-256 curve and
+     66 for the P-521 curve [FIPS186-4]).
+"fixed": |-
+  The output of the ECDSA algorithm consists of a pair of integers usually referred to as the pair (r, s).  The signature value consists of the base64 encoding of the concatenation of two octet streams that respectively result from the octet encoding of the values r and s in that order.  Conversion from integer to octet stream must be done according to the I2OSP operation defined in the [RFC8017] specification with the l parameter equal to the size of the base point order of the curve in octets (e.g., 32 for the P-256 curve and 66 for the P-521 curve [FIPS186-4]).
+"ko": |-
+  ECDSA 알고리즘의 출력은 일반적으로 쌍 (r, s)라고 하는 정수 쌍으로 구성됩니다. 서명 값은 r과 s 값을 순서대로 옥텟 인코딩한 결과로 각각 발생하는 두 개의 옥텟 스트림을 연결한 base64 인코딩으로 구성됩니다. 정수에서 옥텟 스트림으로의 변환은 [RFC8017] 사양에 정의된 I2OSP 작업에 따라 수행되어야 하며 l 매개변수는 옥텟 단위 곡선의 기준점 순서 크기와 동일합니다(예: P-256 곡선의 경우 32, P-521 곡선의 경우 66[FIPS186-4]).

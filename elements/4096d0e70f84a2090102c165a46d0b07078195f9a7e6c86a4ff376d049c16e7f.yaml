@@ -1,0 +1,18 @@
+"hash": |-
+  4096d0e70f84a2090102c165a46d0b07078195f9a7e6c86a4ff376d049c16e7f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the signature over ServerDHParams is valid, compare the
+        selected dh_p and dh_g with the FFDHE groups offered by the
+        client.  If none of the offered groups match, the server is not
+        compatible with this document.  The client MAY decide to continue
+        the connection if the selected group is acceptable under local
+        policy, or it MAY decide to terminate the connection with a fatal
+        insufficient_security(71) alert.
+"fixed": |-
+  -  If the signature over ServerDHParams is valid, compare the selected dh_p and dh_g with the FFDHE groups offered by the client.  If none of the offered groups match, the server is not compatible with this document.  The client MAY decide to continue the connection if the selected group is acceptable under local policy, or it MAY decide to terminate the connection with a fatal insufficient_security(71) alert.
+"ko": |-
+  - ServerDHParams에 대한 서명이 유효한 경우 선택한 dh_p 및 dh_g를 클라이언트가 제공하는 FFDHE 그룹과 비교합니다.  제공된 그룹 중 일치하는 그룹이 없으면 서버가 이 문서와 호환되지 않는 것입니다.  클라이언트는 선택한 그룹이 로컬 정책에 따라 허용되는 경우 연결을 계속하기로 결정할 수도 있고, 치명적인 불충분_보안(71) 경고와 함께 연결을 종료하기로 결정할 수도 있습니다.

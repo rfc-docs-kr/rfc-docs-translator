@@ -1,0 +1,22 @@
+"hash": |-
+  992415817d980905d4d423a5cc54eeecdcf0a1651f81c916660e3e380be0fd6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An administrative event is an event in which the operator interface
+     and BGP Policy engine signal the BGP-finite state machine to start or
+     stop the BGP state machine.  The basic start and stop indications are
+     augmented by optional connection attributes that signal a certain
+     type of start or stop mechanism to the BGP FSM.  An example of this
+     combination is Event 5, AutomaticStart_with_PassiveTcpEstablishment.
+     With this event, the BGP implementation signals to the BGP FSM that
+     the implementation is using an Automatic Start with the option to use
+     a Passive TCP Establishment.  The Passive TCP establishment signals
+     that this BGP FSM will wait for the remote side to start the TCP
+     establishment.
+"fixed": |-
+  An administrative event is an event in which the operator interface and BGP Policy engine signal the BGP-finite state machine to start or stop the BGP state machine.  The basic start and stop indications are augmented by optional connection attributes that signal a certain type of start or stop mechanism to the BGP FSM.  An example of this combination is Event 5, AutomaticStart_with_PassiveTcpEstablishment. With this event, the BGP implementation signals to the BGP FSM that the implementation is using an Automatic Start with the option to use a Passive TCP Establishment.  The Passive TCP establishment signals that this BGP FSM will wait for the remote side to start the TCP establishment.
+"ko": |-
+  관리 이벤트는 운영자 인터페이스와 BGP 정책 엔진이 BGP 유한 상태 머신에 신호를 보내 BGP 상태 머신을 시작하거나 중지하는 이벤트입니다. 기본 시작 및 중지 표시는 BGP FSM에 특정 유형의 시작 또는 중지 메커니즘을 알리는 선택적 연결 속성으로 보강됩니다. 이 조합의 예로는 이벤트 5, AutomatingStart_with_PassiveTcpSetupment가 있습니다. 이 이벤트를 통해 BGP 구현은 수동 TCP 설정을 사용하는 옵션과 함께 자동 시작을 사용하고 있음을 BGP FSM에 알립니다. 수동 TCP 설정은 이 BGP FSM이 원격 측에서 TCP 설정을 시작할 때까지 기다릴 것이라는 신호를 보냅니다.

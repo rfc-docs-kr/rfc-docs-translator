@@ -1,0 +1,18 @@
+"hash": |-
+  ea9b9d69a8c490373d55f14e28b34af29b86ea5a1335591bb82926a37704ebcf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The Printer object that created the Job object using the Printer
+        object's URI and the Job's numeric identifier (Job ID).  Since the
+        Printer object that created the Job object generated the Job ID,
+        it MUST be able to correctly associate the Client-supplied Job ID
+        with the correct Job object.  The Client supplies the Printer's
+        URI in the "printer-uri" operation attribute and the Job ID in the
+        "job-id" operation attribute.
+"fixed": |-
+  -  The Printer object that created the Job object using the Printer object's URI and the Job's numeric identifier (Job ID).  Since the Printer object that created the Job object generated the Job ID, it MUST be able to correctly associate the Client-supplied Job ID with the correct Job object.  The Client supplies the Printer's URI in the "printer-uri" operation attribute and the Job ID in the "job-id" operation attribute.
+"ko": |-
+  - Printer 개체의 URI와 Job의 숫자 식별자(Job ID)를 사용하여 Job 개체를 생성한 Printer 개체입니다. Job 개체를 생성한 Printer 개체는 Job ID를 생성했으므로 클라이언트가 제공한 Job ID를 올바른 Job 개체와 올바르게 연결할 수 있어야 합니다. 클라이언트는 "printer-uri" 작업 속성에 프린터의 URI를 제공하고 "job-id" 작업 속성에 작업 ID를 제공합니다.

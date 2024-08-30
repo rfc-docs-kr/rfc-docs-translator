@@ -1,0 +1,21 @@
+"hash": |-
+  c18a3bd9b03e049a5034b48c17093fc70a613bec42683f11f1f4a2fafbce8f5d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            This MUST NOT be an absolute time.  This MUST NOT be an
+            absolute number of seconds since Jan. 1, 1970.  Instead, this
+            MUST be an integer number of seconds in the past from the time
+            the DHCPLEASEACTIVE message is sent that the client last dealt
+            with this server about this IP address.  In the same way that
+            the IP Address Lease Time option (option 51) encodes a lease
+            time that is a number of seconds into the future from the time
+            the message was sent, this option encodes a value that is a
+            number of seconds into the past from when the message was
+            sent.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

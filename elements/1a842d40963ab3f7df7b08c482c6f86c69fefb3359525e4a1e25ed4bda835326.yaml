@@ -1,0 +1,14 @@
+"hash": |-
+  1a842d40963ab3f7df7b08c482c6f86c69fefb3359525e4a1e25ed4bda835326
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  When a ServerHello is received, the client MUST verify that the
+        "renegotiation_info" extension is present; if it is not, the
+        client MUST abort the handshake.
+"fixed": |-
+  -  When a ServerHello is received, the client MUST verify that the "renegotiation_info" extension is present; if it is not, the client MUST abort the handshake.
+"ko": |-
+  - ServerHello가 수신되면 클라이언트는 "renegotiation_info" 확장이 존재하는지 확인해야 합니다. 그렇지 않은 경우 클라이언트는 핸드셰이크를 중단해야 합니다.

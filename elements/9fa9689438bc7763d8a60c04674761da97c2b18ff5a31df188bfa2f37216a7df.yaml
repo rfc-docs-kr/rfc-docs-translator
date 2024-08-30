@@ -1,0 +1,20 @@
+"hash": |-
+  9fa9689438bc7763d8a60c04674761da97c2b18ff5a31df188bfa2f37216a7df
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The function performed by the Target VPN attribute is similar to that
+     performed by the BGP Communities Attribute.  However, the format of
+     the latter is inadequate, since it allows only a two-byte numbering
+     space.  It would be fairly straightforward to extend the BGP
+     Communities Attribute to provide a larger numbering space.  It should
+     also be possible to structure the format, similar to what we have
+     described for RDs (see section 4.1), so that a type field defines the
+     length of an administrator field, and the remainder of the attribute
+     is a number from the specified administrator's numbering space.
+"fixed": |-
+  The function performed by the Target VPN attribute is similar to that performed by the BGP Communities Attribute.  However, the format of the latter is inadequate, since it allows only a two-byte numbering space.  It would be fairly straightforward to extend the BGP Communities Attribute to provide a larger numbering space.  It should also be possible to structure the format, similar to what we have described for RDs (see section 4.1), so that a type field defines the length of an administrator field, and the remainder of the attribute is a number from the specified administrator's numbering space.
+"ko": |-
+  Target VPN 속성이 수행하는 기능은 BGP 커뮤니티 속성이 수행하는 기능과 유사합니다. 그러나 후자의 형식은 2바이트 번호 매기기 공간만 허용하기 때문에 부적절합니다. BGP 커뮤니티 속성을 확장하여 더 큰 번호 매기기 공간을 제공하는 것은 상당히 간단할 것입니다. RD에 대해 설명한 것과 유사하게 형식을 구조화하여 유형 필드가 관리자 필드의 길이를 정의하고 속성의 나머지는 지정된 관리자의 번호 매기기 공간의 숫자가 되도록 할 수도 있어야 합니다(섹션 4.1 참조).

@@ -1,0 +1,18 @@
+"hash": |-
+  d99488e147674369e96d6a65253c8831f793afcb05965bdfe6d8f72fa012027e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An active attacker can impersonate the Responder of the exchange and
+     send a forged Commit payload after receiving the Initiator's Commit
+     payload.  The attacker then waits until it receives the
+     authentication payload from the Responder.  Now the attacker can
+     attempt to run through all possible values of the pre-shared key,
+     computing SKE (see Section 8.2), computing "ss" (see Section 8.4.3),
+     and attempting to recreate the Confirm payload from the Responder.
+"fixed": |-
+  An active attacker can impersonate the Responder of the exchange and send a forged Commit payload after receiving the Initiator's Commit payload.  The attacker then waits until it receives the authentication payload from the Responder.  Now the attacker can attempt to run through all possible values of the pre-shared key, computing SKE (see Section 8.2), computing "ss" (see Section 8.4.3), and attempting to recreate the Confirm payload from the Responder.
+"ko": |-
+  활성 공격자는 교환의 응답자를 가장하고 개시자의 커밋 페이로드를 수신한 후 위조된 커밋 페이로드를 보낼 수 있습니다.  그런 다음 공격자는 응답자로부터 인증 페이로드를 받을 때까지 기다립니다.  이제 공격자는 사전 공유 키의 가능한 모든 값을 실행하여 SKE를 계산하고(8.2절 참조) "ss"를 계산하고(8.4.3절 참조) 응답자로부터 확인 페이로드를 다시 생성하려고 시도할 수 있습니다.

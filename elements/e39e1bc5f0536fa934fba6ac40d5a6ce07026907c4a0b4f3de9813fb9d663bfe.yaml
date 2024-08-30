@@ -1,0 +1,18 @@
+"hash": |-
+  e39e1bc5f0536fa934fba6ac40d5a6ce07026907c4a0b4f3de9813fb9d663bfe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although Content-Type is defined as a singleton field, it is
+     sometimes incorrectly generated multiple times, resulting in a
+     combined field value that appears to be a list.  Recipients often
+     attempt to handle this error by using the last syntactically valid
+     member of the list, leading to potential interoperability and
+     security issues if different implementations have different error
+     handling behaviors.
+"fixed": |-
+  Although Content-Type is defined as a singleton field, it is sometimes incorrectly generated multiple times, resulting in a combined field value that appears to be a list.  Recipients often attempt to handle this error by using the last syntactically valid member of the list, leading to potential interoperability and security issues if different implementations have different error handling behaviors.
+"ko": |-
+  Content-Type은 단일 필드로 정의되어 있지만 여러 번 잘못 생성되어 결합된 필드 값이 목록처럼 나타나는 경우가 있습니다. 수신자는 구문적으로 유효한 목록의 마지막 멤버를 사용하여 이 오류를 처리하려고 시도하는 경우가 많으며, 이로 인해 구현마다 오류 처리 동작이 다를 경우 잠재적인 상호 운용성 및 보안 문제가 발생할 수 있습니다.

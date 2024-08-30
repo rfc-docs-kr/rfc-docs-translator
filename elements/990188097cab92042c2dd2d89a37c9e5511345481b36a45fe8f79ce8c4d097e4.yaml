@@ -1,0 +1,23 @@
+"hash": |-
+  990188097cab92042c2dd2d89a37c9e5511345481b36a45fe8f79ce8c4d097e4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: The version number in the PreMasterSecret MUST be the version
+           offered by the client in the ClientHello, not the version
+           negotiated for the connection.  This feature is designed to
+           prevent rollback attacks.  Unfortunately, many implementations
+           use the negotiated version instead, and therefore checking the
+           version number may lead to failure to interoperate with such
+           incorrect client implementations.  Client implementations, MUST
+           and Server implementations MAY, check the version number.  In
+           practice, since the TLS handshake MACs prevent downgrade and no
+           good attacks are known on those MACs, ambiguity is not
+           considered a serious security risk.  Note that if servers
+           choose to check the version number, they should randomize the
+"fixed": |-
+  Note: The version number in the PreMasterSecret MUST be the version  -     offered by the client in the ClientHello, not the version negotiated for the connection.  This feature is designed to prevent rollback attacks.  Unfortunately, many implementations use the negotiated version instead, and therefore checking the version number may lead to failure to interoperate with such incorrect client implementations.  Client implementations, MUST and Server implementations MAY, check the version number.  In practice, since the TLS handshake MACs prevent downgrade and no good attacks are known on those MACs, ambiguity is not considered a serious security risk.  Note that if servers choose to check the version number, they should randomize the
+"ko": |-
+  참고: PreMasterSecret의 버전 번호는 연결을 위해 협상된 버전이 아니라 ClientHello에서 클라이언트가 제공하는 버전이어야 합니다. 이 기능은 롤백 공격을 방지하도록 설계되었습니다. 불행하게도 많은 구현에서는 협상된 버전을 대신 사용하므로 버전 번호를 확인하면 잘못된 클라이언트 구현과 상호 운용되지 않을 수 있습니다. 클라이언트 구현(MUST)과 서버 구현(MAY)은 버전 번호를 확인할 수 있습니다. 실제로 TLS 핸드셰이크 MAC은 다운그레이드를 방지하고 해당 MAC에 대한 적절한 공격이 알려져 있지 않으므로 모호성은 심각한 보안 위험으로 간주되지 않습니다. 서버가 버전 번호를 확인하기로 선택한 경우 버전 번호를 무작위로 선택해야 합니다.

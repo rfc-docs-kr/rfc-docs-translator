@@ -1,0 +1,15 @@
+"hash": |-
+  45ffd3940155e50bf89aa829287be21732c0a0c797c34defd873a4eca9513fd4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Solution: Peer A will detect the inconsistency of the messages and
+        ignore them.  Note that CANCEL messages may be received
+        unexpectedly when a transport is used where REQUEST messages may
+        be lost or reordered with respect to the subsequent CANCELs.
+"fixed": |-
+  - Solution: Peer A will detect the inconsistency of the messages and ignore them.  Note that CANCEL messages may be received unexpectedly when a transport is used where REQUEST messages may be lost or reordered with respect to the subsequent CANCELs.
+"ko": |-
+  - 해결 방법: 피어 A는 메시지의 불일치를 감지하고 무시합니다. REQUEST 메시지가 손실되거나 후속 CANCEL과 관련하여 재정렬될 수 있는 전송이 사용될 때 CANCEL 메시지가 예기치 않게 수신될 수 있습니다.

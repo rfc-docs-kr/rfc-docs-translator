@@ -1,0 +1,20 @@
+"hash": |-
+  89e650998218532cd82f5ba684aebb94d38aad8421df46386af07910fcf26e1e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the following example, mandatory is a vector that must contain
+     between 300 and 400 bytes of type opaque. It can never be empty. The
+     actual length field consumes two bytes, a uint16, sufficient to
+     represent the value 400 (see Section 4.4). On the other hand, longer
+     can represent up to 800 bytes of data, or 400 uint16 elements, and it
+     may be empty. Its encoding will include a two byte actual length
+     field prepended to the vector. The length of an encoded vector must
+     be an even multiple of the length of a single element (for example, a
+     17 byte vector of uint16 would be illegal).
+"fixed": |-
+  In the following example, mandatory is a vector that must contain between 300 and 400 bytes of type opaque. It can never be empty. The actual length field consumes two bytes, a uint16, sufficient to represent the value 400 (see Section 4.4). On the other hand, longer can represent up to 800 bytes of data, or 400 uint16 elements, and it may be empty. Its encoding will include a two byte actual length field prepended to the vector. The length of an encoded vector must be an even multiple of the length of a single element (for example, a 17 byte vector of uint16 would be illegal).
+"ko": |-
+  다음 예에서 필수는 불투명 유형의 300~400바이트를 포함해야 하는 벡터입니다. 결코 비워둘 수 없습니다. 실제 길이 필드는 값 400을 나타내는 데 충분한 uint16이라는 2바이트를 사용합니다(섹션 4.4 참조). 반면에 Long은 최대 800바이트의 데이터 또는 400개의 uint16 요소를 나타낼 수 있으며 비어 있을 수 있습니다. 해당 인코딩에는 벡터 앞에 추가된 2바이트 실제 길이 필드가 포함됩니다. 인코딩된 벡터의 길이는 단일 요소 길이의 짝수 배수여야 합니다. 예를 들어 uint16의 17바이트 벡터는 불법입니다.

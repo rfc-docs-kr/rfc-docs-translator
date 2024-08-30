@@ -1,0 +1,21 @@
+"hash": |-
+  919af351e0e8407a77ad63cf3b0a3b2c4a6ed1c375db2fc907bb23046ee1f8eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SELECT command selects a mailbox so that messages in the mailbox
+     can be accessed.  Before returning an OK to the client, the server
+     MUST send the following untagged data to the client.  (The order of
+     individual responses is not important.)  Note that earlier versions
+     of this protocol, such as the IMAP4rev1 version specified in
+     [RFC2060], only required the FLAGS and EXISTS untagged responses and
+     UIDVALIDITY response code.  Client implementations that need to
+     remain compatible with such older IMAP versions have to implement
+     default behavior for missing data, as discussed with the individual
+     items.
+"fixed": |-
+  The SELECT command selects a mailbox so that messages in the mailbox can be accessed.  Before returning an OK to the client, the server MUST send the following untagged data to the client.  (The order of individual responses is not important.)  Note that earlier versions of this protocol, such as the IMAP4rev1 version specified in [RFC2060], only required the FLAGS and EXISTS untagged responses and UIDVALIDITY response code.  Client implementations that need to remain compatible with such older IMAP versions have to implement default behavior for missing data, as discussed with the individual items.
+"ko": |-
+  SELECT 명령은 사서함의 메시지에 액세스할 수 있도록 사서함을 선택합니다.  클라이언트에 OK를 반환하기 전에 서버는 태그가 지정되지 않은 다음 데이터를 클라이언트에 보내야 합니다.  (개별 응답의 순서는 중요하지 않습니다.) [RFC2060]에 지정된 IMAP4rev1 버전과 같은 이 프로토콜의 이전 버전에는 태그가 지정되지 않은 FLAGS 및 EXISTS 응답과 UIDVALIDITY 응답 코드만 필요했습니다.  이러한 이전 IMAP 버전과의 호환성을 유지해야 하는 클라이언트 구현은 개별 항목에서 설명한 대로 누락된 데이터에 대한 기본 동작을 구현해야 합니다.

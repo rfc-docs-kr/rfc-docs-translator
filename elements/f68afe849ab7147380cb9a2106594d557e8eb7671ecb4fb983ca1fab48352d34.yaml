@@ -1,0 +1,23 @@
+"hash": |-
+  f68afe849ab7147380cb9a2106594d557e8eb7671ecb4fb983ca1fab48352d34
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although request message framing is independent of the method used,
+     content received in a DELETE request has no generally defined
+     semantics, cannot alter the meaning or target of the request, and
+     might lead some implementations to reject the request and close the
+     connection because of its potential as a request smuggling attack
+     (Section 11.2 of [HTTP/1.1]).  A client SHOULD NOT generate content
+     in a DELETE request unless it is made directly to an origin server
+     that has previously indicated, in or out of band, that such a request
+     has a purpose and will be adequately supported.  An origin server
+     SHOULD NOT rely on private agreements to receive content, since
+     participants in HTTP communication are often unaware of
+     intermediaries along the request chain.
+"fixed": |-
+  Although request message framing is independent of the method used, content received in a DELETE request has no generally defined semantics, cannot alter the meaning or target of the request, and might lead some implementations to reject the request and close the connection because of its potential as a request smuggling attack (Section 11.2 of [HTTP/1.1]).  A client SHOULD NOT generate content in a DELETE request unless it is made directly to an origin server that has previously indicated, in or out of band, that such a request has a purpose and will be adequately supported.  An origin server SHOULD NOT rely on private agreements to receive content, since participants in HTTP communication are often unaware of intermediaries along the request chain.
+"ko": |-
+  요청 메시지 프레이밍은 사용된 방법과 무관하지만 DELETE 요청에서 수신된 콘텐츠에는 일반적으로 정의된 의미 체계가 없으며 요청의 의미나 대상을 변경할 수 없으며 일부 구현에서 요청을 거부하고 연결을 닫을 수 있습니다. 요청 밀수 공격([HTTP/1.1]의 섹션 11.2). 클라이언트는 DELETE 요청에 목적이 있고 적절하게 지원될 것임을 대역 내 또는 대역 외에서 이전에 표시한 원서버에 직접 요청하지 않는 한 DELETE 요청에서 콘텐츠를 생성해서는 안 됩니다. 원본 서버는 콘텐츠 수신을 위해 개인 계약에 의존해서는 안 됩니다. HTTP 통신 참가자는 종종 요청 체인에 있는 중개자를 인식하지 못하기 때문입니다.

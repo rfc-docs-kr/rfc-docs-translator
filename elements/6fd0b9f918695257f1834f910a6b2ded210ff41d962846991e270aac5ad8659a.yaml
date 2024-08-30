@@ -1,0 +1,19 @@
+"hash": |-
+  6fd0b9f918695257f1834f910a6b2ded210ff41d962846991e270aac5ad8659a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a client or server chooses to continue an abbreviated handshake to
+     resume a session that does not use the extended master secret, then
+     the current connection becomes vulnerable to a man-in-the-middle
+     handshake log synchronization attack as described in Section 1.
+     Hence, the client or server MUST NOT use the current handshake's
+     "verify_data" for application-level authentication.  In particular,
+     the client MUST disable renegotiation and any use of the "tls-unique"
+     channel binding [RFC5929] on the current connection.
+"fixed": |-
+  If a client or server chooses to continue an abbreviated handshake to resume a session that does not use the extended master secret, then the current connection becomes vulnerable to a man-in-the-middle handshake log synchronization attack as described in Section 1. Hence, the client or server MUST NOT use the current handshake's "verify_data" for application-level authentication.  In particular, the client MUST disable renegotiation and any use of the "tls-unique" channel binding [RFC5929] on the current connection.
+"ko": |-
+  클라이언트 또는 서버가 확장된 마스터 비밀을 사용하지 않는 세션을 재개하기 위해 축약된 핸드셰이크를 계속하기로 선택하는 경우 현재 연결은 섹션 1에 설명된 대로 중간자 핸드셰이크 로그 동기화 공격에 취약해집니다. 따라서 클라이언트 또는 서버는 애플리케이션 수준 인증에 현재 핸드셰이크의 "verify_data"를 사용해서는 안 됩니다. 특히 클라이언트는 현재 연결에서 재협상 및 "tls-unique" 채널 바인딩 [RFC5929]의 모든 사용을 비활성화해야 합니다.

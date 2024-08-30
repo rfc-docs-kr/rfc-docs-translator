@@ -1,0 +1,1 @@
+각 재생 목록 파일은 URI의 경로 구성 요소 또는 HTTP 콘텐츠 유형으로 식별 가능해야 합니다. 첫 번째 경우 경로는 .m3u8 또는 .m3u로 끝나야 합니다. 두 번째에서 HTTP 콘텐츠 유형은 "application/vnd.apple.mpegurl" 또는 "audio/mpegurl"이어야 합니다. 클라이언트는 그렇게 식별되지 않은 재생 목록의 구문 분석을 거부해야 합니다(SHOULD).

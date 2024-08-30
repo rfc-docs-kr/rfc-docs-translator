@@ -1,0 +1,15 @@
+"hash": |-
+  131e6ca3fc4e5b1bc64d537a85b1ed6afc8103028ec710da57e2aeef00387fe7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender SHOULD send a DATA_BLOCKED frame (type=0x14) when it wishes
+     to send data but is unable to do so due to connection-level flow
+     control; see Section 4.  DATA_BLOCKED frames can be used as input to
+     tuning of flow control algorithms; see Section 4.2.
+"fixed": |-
+  A sender SHOULD send a DATA_BLOCKED frame (type=0x14) when it wishes to send data but is unable to do so due to connection-level flow control; see Section 4.  DATA_BLOCKED frames can be used as input to tuning of flow control algorithms; see Section 4.2.
+"ko": |-
+  송신자는 데이터를 전송하고 싶지만 연결 수준 흐름 제어로 인해 그렇게 할 수 없는 경우 DATA_BLOCKED 프레임(유형=0x14)을 전송해야 합니다. 섹션 4를 참조하십시오. DATA_BLOCKED 프레임은 흐름 제어 알고리즘 조정에 대한 입력으로 사용될 수 있습니다. 섹션 4.2를 참조하세요.

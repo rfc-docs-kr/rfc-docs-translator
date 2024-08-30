@@ -1,0 +1,18 @@
+"hash": |-
+  be1fb0afcf1c8ae7938d70d0ae8de09ea54c3adc87aa970e6fb694fce19abe38
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Figure 3 shows the states for the part of a stream that receives data
+     from a peer.  The states for a receiving part of a stream mirror only
+     some of the states of the sending part of the stream at the peer.
+     The receiving part of a stream does not track states on the sending
+     part that cannot be observed, such as the "Ready" state.  Instead,
+     the receiving part of a stream tracks the delivery of data to the
+     application, some of which cannot be observed by the sender.
+"fixed": |-
+  Figure 3 shows the states for the part of a stream that receives data from a peer.  The states for a receiving part of a stream mirror only some of the states of the sending part of the stream at the peer. The receiving part of a stream does not track states on the sending part that cannot be observed, such as the "Ready" state.  Instead, the receiving part of a stream tracks the delivery of data to the application, some of which cannot be observed by the sender.
+"ko": |-
+  그림 3은 피어로부터 데이터를 수신하는 스트림 부분의 상태를 보여줍니다. 스트림의 수신 부분에 대한 상태는 피어에서 스트림의 전송 부분 상태 중 일부만 미러링합니다. 스트림의 수신 부분은 "준비" 상태와 같이 관찰할 수 없는 전송 부분의 상태를 추적하지 않습니다. 대신, 스트림의 수신 부분은 애플리케이션으로의 데이터 전달을 추적하며, 그 중 일부는 발신자가 관찰할 수 없습니다.

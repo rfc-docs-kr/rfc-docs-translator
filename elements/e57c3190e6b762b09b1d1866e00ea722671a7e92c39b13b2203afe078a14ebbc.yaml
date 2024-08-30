@@ -1,0 +1,17 @@
+"hash": |-
+  e57c3190e6b762b09b1d1866e00ea722671a7e92c39b13b2203afe078a14ebbc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because of the security weaknesses associated with the URI method
+     (see Section 5), including the high likelihood that the URL
+     containing the access token will be logged, it SHOULD NOT be used
+     unless it is impossible to transport the access token in the
+     "Authorization" request header field or the HTTP request entity-body.
+     Resource servers MAY support this method.
+"fixed": |-
+  Because of the security weaknesses associated with the URI method (see Section 5), including the high likelihood that the URL containing the access token will be logged, it SHOULD NOT be used unless it is impossible to transport the access token in the "Authorization" request header field or the HTTP request entity-body. Resource servers MAY support this method.
+"ko": |-
+  액세스 토큰이 포함된 URL이 기록될 가능성이 높다는 점을 포함하여 URI 방법(섹션 5 참조)과 관련된 보안 취약점으로 인해 "인증"에서 액세스 토큰을 전송하는 것이 불가능하지 않는 한 이를 사용해서는 안 됩니다. 요청 헤더 필드 또는 HTTP 요청 엔터티 본문. 리소스 서버는 이 방법을 지원할 수 있습니다.

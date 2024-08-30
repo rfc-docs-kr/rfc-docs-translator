@@ -1,0 +1,22 @@
+"hash": |-
+  6049fbb1c91effd5b04f11ba3fabad0f03aa3ea346faab2cefa8ff8ee16b3dba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the protected resource request included an access token and failed
+     authentication, the resource server SHOULD include the "error"
+     attribute to provide the client with the reason why the access
+     request was declined.  The parameter value is described in
+     Section 3.1.  In addition, the resource server MAY include the
+     "error_description" attribute to provide developers a human-readable
+     explanation that is not meant to be displayed to end-users.  It also
+     MAY include the "error_uri" attribute with an absolute URI
+     identifying a human-readable web page explaining the error.  The
+     "error", "error_description", and "error_uri" attributes MUST NOT
+     appear more than once.
+"fixed": |-
+  If the protected resource request included an access token and failed authentication, the resource server SHOULD include the "error" attribute to provide the client with the reason why the access request was declined.  The parameter value is described in Section 3.1.  In addition, the resource server MAY include the "error_description" attribute to provide developers a human-readable explanation that is not meant to be displayed to end-users.  It also MAY include the "error_uri" attribute with an absolute URI identifying a human-readable web page explaining the error.  The "error", "error_description", and "error_uri" attributes MUST NOT appear more than once.
+"ko": |-
+  보호된 리소스 요청에 액세스 토큰이 포함되어 있고 인증이 실패한 경우 리소스 서버는 액세스 요청이 거부된 이유를 클라이언트에 제공하기 위해 "error" 속성을 포함해야 합니다.  매개변수 값은 섹션 3.1에 설명되어 있습니다.  또한 리소스 서버는 최종 사용자에게 표시되지 않는 사람이 읽을 수 있는 설명을 개발자에게 제공하기 위해 "error_description" 속성을 포함할 수 있습니다.  또한 오류를 설명하는 사람이 읽을 수 있는 웹 페이지를 식별하는 절대 URI와 함께 "error_uri" 속성을 포함할 수도 있습니다.  "error", "error_description" 및 "error_uri" 속성은 두 번 이상 나타나서는 안 됩니다.

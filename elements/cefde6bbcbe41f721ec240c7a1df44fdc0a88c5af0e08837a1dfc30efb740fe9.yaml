@@ -1,0 +1,18 @@
+"hash": |-
+  cefde6bbcbe41f721ec240c7a1df44fdc0a88c5af0e08837a1dfc30efb740fe9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     literal         = "{" number64 ["+"] "}" CRLF *CHAR8
+                         ; <number64> represents the number of CHAR8s.
+                         ; A non-synchronizing literal is distinguished
+                         ; from a synchronizing literal by the presence of
+                         ; "+" before the closing "}".
+                         ; Non-synchronizing literals are not allowed when
+                         ; sent from server to the client.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

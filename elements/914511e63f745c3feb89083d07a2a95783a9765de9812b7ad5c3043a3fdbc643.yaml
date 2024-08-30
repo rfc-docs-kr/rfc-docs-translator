@@ -1,0 +1,22 @@
+"hash": |-
+  914511e63f745c3feb89083d07a2a95783a9765de9812b7ad5c3043a3fdbc643
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     tagged-ext-comp     = astring /
+                           tagged-ext-comp *(SP tagged-ext-comp) /
+                           "(" tagged-ext-comp ")"
+                           ; Extensions that follow this general
+                           ; syntax should use nstring instead of
+                           ; astring when appropriate in the context
+                           ; of the extension.
+                           ; Note that a message set or a "number"
+                           ; can always be represented as an "atom".
+                           ; A URL should be represented as
+                           ; a "quoted" string.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

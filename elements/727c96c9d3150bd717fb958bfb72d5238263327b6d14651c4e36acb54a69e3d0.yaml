@@ -1,0 +1,16 @@
+"hash": |-
+  727c96c9d3150bd717fb958bfb72d5238263327b6d14651c4e36acb54a69e3d0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the host of the token revocation endpoint can also be reached over
+     HTTP, then the server SHOULD also offer a revocation service at the
+     corresponding HTTP URI, but it MUST NOT publish this URI as a token
+     revocation endpoint.  This ensures that tokens accidentally sent over
+     HTTP will be revoked.
+"fixed": |-
+  If the host of the token revocation endpoint can also be reached over HTTP, then the server SHOULD also offer a revocation service at the corresponding HTTP URI, but it MUST NOT publish this URI as a token revocation endpoint.  This ensures that tokens accidentally sent over HTTP will be revoked.
+"ko": |-
+  토큰 취소 끝점의 호스트가 HTTP를 통해서도 도달할 수 있는 경우 서버는 해당 HTTP URI에서 취소 서비스도 제공해야 하지만 이 URI를 토큰 취소 끝점으로 게시해서는 안 됩니다.  이렇게 하면 실수로 HTTP를 통해 전송된 토큰이 취소됩니다.

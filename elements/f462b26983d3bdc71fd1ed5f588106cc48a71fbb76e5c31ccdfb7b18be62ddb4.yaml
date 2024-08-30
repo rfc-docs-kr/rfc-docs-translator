@@ -1,0 +1,21 @@
+"hash": |-
+  f462b26983d3bdc71fd1ed5f588106cc48a71fbb76e5c31ccdfb7b18be62ddb4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the server is deciding whether or not to accept a request to
+     resume a session, the contents of a server_name extension MAY be used
+     in the lookup of the session in the session cache.  The client SHOULD
+     include the same server_name extension in the session resumption
+     request as it did in the full handshake that established the session.
+     A server that implements this extension MUST NOT accept the request
+     to resume the session if the server_name extension contains a
+     different name.  Instead, it proceeds with a full handshake to
+     establish a new session.  When resuming a session, the server MUST
+     NOT include a server_name extension in the server hello.
+"fixed": |-
+  When the server is deciding whether or not to accept a request to resume a session, the contents of a server_name extension MAY be used in the lookup of the session in the session cache.  The client SHOULD include the same server_name extension in the session resumption request as it did in the full handshake that established the session. A server that implements this extension MUST NOT accept the request to resume the session if the server_name extension contains a different name.  Instead, it proceeds with a full handshake to establish a new session.  When resuming a session, the server MUST NOT include a server_name extension in the server hello.
+"ko": |-
+  서버가 세션 재개 요청을 수락할지 여부를 결정할 때, server_name 확장의 내용은 세션 캐시에서 세션을 조회하는 데 사용될 수 있습니다. 클라이언트는 세션을 설정한 전체 핸드셰이크에서와 마찬가지로 세션 재개 요청에 동일한 server_name 확장을 포함해야 합니다. 이 확장을 구현하는 서버는 server_name 확장에 다른 이름이 포함된 경우 세션을 재개하라는 요청을 수락해서는 안 됩니다. 대신 전체 핸드셰이크를 진행하여 새 세션을 설정합니다. 세션을 재개할 때 서버는 서버 hello에 server_name 확장을 포함해서는 안 됩니다.

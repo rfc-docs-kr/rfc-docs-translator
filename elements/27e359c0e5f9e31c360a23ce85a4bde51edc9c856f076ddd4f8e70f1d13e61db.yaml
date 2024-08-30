@@ -1,0 +1,27 @@
+"hash": |-
+  27e359c0e5f9e31c360a23ce85a4bde51edc9c856f076ddd4f8e70f1d13e61db
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SIP INVITE or re-INVITE transaction and the SDP offer/answer
+     exchange it carries contain "m=" lines describing the resource
+     control channel to be allocated.  There MUST be one SDP "m=" line for
+     each MRCPv2 resource to be used in the session.  This "m=" line MUST
+     have a media type field of "application" and a transport type field
+     of either "TCP/MRCPv2" or "TCP/TLS/MRCPv2".  The port number field of
+     the "m=" line MUST contain the "discard" port of the transport
+     protocol (port 9 for TCP) in the SDP offer from the client and MUST
+     contain the TCP listen port on the server in the SDP answer.  The
+     client may then either set up a TCP or TLS connection to that server
+     port or share an already established connection to that port.  Since
+     MRCPv2 allows multiple sessions to share the same TCP connection,
+     multiple "m=" lines in a single SDP document MAY share the same port
+     field value; MRCPv2 servers MUST NOT assume any relationship between
+     resources using the same port other than the sharing of the
+     communication channel.
+"fixed": |-
+  The SIP INVITE or re-INVITE transaction and the SDP offer/answer exchange it carries contain "m=" lines describing the resource control channel to be allocated.  There MUST be one SDP "m=" line for each MRCPv2 resource to be used in the session.  This "m=" line MUST have a media type field of "application" and a transport type field of either "TCP/MRCPv2" or "TCP/TLS/MRCPv2".  The port number field of the "m=" line MUST contain the "discard" port of the transport protocol (port 9 for TCP) in the SDP offer from the client and MUST contain the TCP listen port on the server in the SDP answer.  The client may then either set up a TCP or TLS connection to that server port or share an already established connection to that port.  Since MRCPv2 allows multiple sessions to share the same TCP connection, multiple "m=" lines in a single SDP document MAY share the same port field value; MRCPv2 servers MUST NOT assume any relationship between resources using the same port other than the sharing of the communication channel.
+"ko": |-
+  SIP INVITE 또는 re-INVITE 트랜잭션과 이것이 전달하는 SDP 제공/응답 교환에는 할당할 리소스 제어 채널을 설명하는 "m=" 줄이 포함됩니다. 세션에서 사용할 각 MRCPv2 리소스에 대해 하나의 SDP "m=" 줄이 있어야 합니다. 이 "m=" 줄에는 "application"이라는 미디어 유형 필드와 "TCP/MRCPv2" 또는 "TCP/TLS/MRCPv2"라는 전송 유형 필드가 있어야 합니다. "m=" 줄의 포트 번호 필드에는 클라이언트의 SDP 제공에서 전송 프로토콜의 "discard" 포트(TCP의 경우 포트 9)가 포함되어야 하고 SDP 응답에서 서버의 TCP 수신 포트가 포함되어야 합니다. 그런 다음 클라이언트는 해당 서버 포트에 TCP 또는 TLS 연결을 설정하거나 해당 포트에 이미 설정된 연결을 공유할 수 있습니다. MRCPv2에서는 여러 세션이 동일한 TCP 연결을 공유할 수 있으므로 단일 SDP 문서의 여러 "m=" 줄이 동일한 포트 필드 값을 공유할 수 있습니다. MRCPv2 서버는 통신 채널 공유 외에는 동일한 포트를 사용하는 리소스 간에 어떠한 관계도 가정해서는 안 됩니다.

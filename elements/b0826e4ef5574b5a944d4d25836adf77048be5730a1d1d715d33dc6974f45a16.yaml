@@ -1,0 +1,29 @@
+"hash": |-
+  b0826e4ef5574b5a944d4d25836adf77048be5730a1d1d715d33dc6974f45a16
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A peer SHOULD send a "keep alive" message periodically to each peer
+     it is interested in, but has no other messages to send to them at
+     present.  The goal of the keep alives is to keep a signaling channel
+     open to peers that are of interest.  Which peers those are is
+     determined by a policy that decides which peers are of interest now
+     and in the near future.  This document does not prescribe a policy,
+     but examples of interesting peers are (a) peers that have chunks on
+     offer that this client needs or (b) peers that currently do not have
+     interesting chunks on offer (because they are still downloading
+     themselves, or in live streaming) but gave good performance in the
+     past.  When these peers have new chunks to offer, the peer that kept
+     a signaling channel open can use them again.  Periodically sending
+     "keep alive" messages prevents other peers declaring the peer dead.
+     A guideline for declaring a peer dead when using UDP consists of a
+     three minute delay since that last packet has been received from that
+     peer and at least three datagrams having been sent to that peer
+     during the same period.  When a peer is declared dead, the channel to
+     it is closed, no more messages will be sent to that peer and the
+"fixed": |-
+  A peer SHOULD send a "keep alive" message periodically to each peer it is interested in, but has no other messages to send to them at present.  The goal of the keep alives is to keep a signaling channel open to peers that are of interest.  Which peers those are is determined by a policy that decides which peers are of interest now and in the near future.  This document does not prescribe a policy, but examples of interesting peers are (a) peers that have chunks on offer that this client needs or (b) peers that currently do not have interesting chunks on offer (because they are still downloading themselves, or in live streaming) but gave good performance in the past.  When these peers have new chunks to offer, the peer that kept a signaling channel open can use them again.  Periodically sending "keep alive" messages prevents other peers declaring the peer dead. A guideline for declaring a peer dead when using UDP consists of a three minute delay since that last packet has been received from that peer and at least three datagrams having been sent to that peer during the same period.  When a peer is declared dead, the channel to it is closed, no more messages will be sent to that peer and the
+"ko": |-
+  피어는 관심 있는 각 피어에게 주기적으로 "연결 유지" 메시지를 보내야 하지만 현재는 보낼 다른 메시지가 없습니다. 연결 유지의 목표는 관심 있는 피어에게 신호 채널을 열어 두는 것입니다. 어떤 피어가 현재와 가까운 미래에 관심이 있는지 결정하는 정책에 따라 결정됩니다. 이 문서는 정책을 규정하지는 않지만 흥미로운 피어의 예로는 (a) 이 클라이언트에 필요한 청크가 제공되는 피어 또는 (b) 현재 제공되는 흥미로운 청크가 없는 피어(아직 스스로 다운로드 중이기 때문에 또는 라이브 스트리밍)이지만 과거에는 좋은 성적을 냈습니다. 이러한 피어에 제공할 새 청크가 있으면 신호 채널을 열어 둔 피어가 이를 다시 사용할 수 있습니다. "연결 유지" 메시지를 주기적으로 보내면 다른 피어가 해당 피어를 종료했다고 선언하는 것을 방지할 수 있습니다. UDP를 사용할 때 피어를 비활성 상태로 선언하는 지침은 마지막 패킷이 해당 피어로부터 수신된 후 3분의 지연과 동일한 기간 동안 해당 피어로 최소 3개의 데이터그램이 전송된 것으로 구성됩니다. 피어가 죽은 것으로 선언되면 해당 피어에 대한 채널이 닫히고 더 이상 해당 피어로 메시지가 전송되지 않으며

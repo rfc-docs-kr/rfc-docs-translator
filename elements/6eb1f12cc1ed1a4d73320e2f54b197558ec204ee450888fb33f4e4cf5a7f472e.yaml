@@ -1,0 +1,15 @@
+"hash": |-
+  6eb1f12cc1ed1a4d73320e2f54b197558ec204ee450888fb33f4e4cf5a7f472e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the Date, Subject, In-Reply-To, and Message-ID header fields
+        are absent in the [RFC5322] header, the corresponding member of
+        the envelope is NIL; if these header fields are present but empty,
+        the corresponding member of the envelope is the empty string.
+"fixed": |-
+  - If the Date, Subject, In-Reply-To, and Message-ID header fields are absent in the [RFC5322] header, the corresponding member of the envelope is NIL; if these header fields are present but empty, the corresponding member of the envelope is the empty string.
+"ko": |-
+  - [RFC5322] 헤더에 날짜, 제목, In-Reply-To 및 Message-ID 헤더 필드가 없으면 봉투의 해당 구성원은 NIL입니다. 이러한 헤더 필드가 있지만 비어 있는 경우 봉투의 해당 멤버는 빈 문자열입니다.

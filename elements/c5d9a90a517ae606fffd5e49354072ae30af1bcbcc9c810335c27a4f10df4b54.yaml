@@ -1,0 +1,16 @@
+"hash": |-
+  c5d9a90a517ae606fffd5e49354072ae30af1bcbcc9c810335c27a4f10df4b54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     the two sessions and will be associated both at C and S with the same
+     session ID, even though the server identities on the two connections
+     are different.  Recall that C only sees A's certificate and is
+     unaware of A's connection with S.  Moreover, the record keys on the
+     two connections will also be the same.
+"fixed": |-
+  the two sessions and will be associated both at C and S with the same session ID, even though the server identities on the two connections are different.  Recall that C only sees A's certificate and is unaware of A's connection with S.  Moreover, the record keys on the two connections will also be the same.
+"ko": |-
+  두 세션은 C와 S에서 모두 동일한 세션 ID로 연결되지만 두 연결의 서버 ID는 다릅니다. C는 A의 인증서만 보고 A와 S의 연결은 알지 못한다는 점을 기억하세요. 게다가 두 연결의 레코드 키도 동일합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  75775bdeb7be01fb0ef9af2f40e90b493548aae402093861a6cc0d7e918ffc3a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Header Parameter names within the JOSE Header MUST be unique;
+        JWS parsers MUST either reject JWSs with duplicate Header
+        Parameter names or use a JSON parser that returns only the
+        lexically last duplicate member name, as specified in
+        Section 15.12 ("The JSON Object") of ECMAScript 5.1 [ECMAScript].
+"fixed": |-
+  - The Header Parameter names within the JOSE Header MUST be unique; JWS parsers MUST either reject JWSs with duplicate Header Parameter names or use a JSON parser that returns only the lexically last duplicate member name, as specified in Section 15.12 ("The JSON Object") of ECMAScript 5.1 [ECMAScript].
+"ko": |-
+  - JOSE 헤더 내의 헤더 매개변수 이름은 고유해야 합니다. JWS 파서는 중복된 헤더 매개변수 이름이 있는 JWS를 거부하거나 ECMAScript 5.1 [ECMAScript]의 섹션 15.12("JSON 객체")에 지정된 대로 어휘적으로 마지막으로 중복된 멤버 이름만 반환하는 JSON 파서를 사용해야 합니다.

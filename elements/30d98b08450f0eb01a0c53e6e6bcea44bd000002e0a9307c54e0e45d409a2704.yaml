@@ -1,0 +1,26 @@
+"hash": |-
+  30d98b08450f0eb01a0c53e6e6bcea44bd000002e0a9307c54e0e45d409a2704
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Following the hello messages, the server will send its certificate,
+     if it is to be authenticated. Additionally, a server key exchange
+     message may be sent, if it is required (e.g. if their server has no
+     certificate, or if its certificate is for signing only). If the
+     server is authenticated, it may request a certificate from the
+     client, if that is appropriate to the cipher suite selected. Now the
+     server will send the server hello done message, indicating that the
+     hello-message phase of the handshake is complete. The server will
+     then wait for a client response. If the server has sent a certificate
+     request message, the client must send the certificate message. The
+     client key exchange message is now sent, and the content of that
+     message will depend on the public key algorithm selected between the
+     client hello and the server hello. If the client has sent a
+     certificate with signing ability, a digitally-signed certificate
+     verify message is sent to explicitly verify the certificate.
+"fixed": |-
+  Following the hello messages, the server will send its certificate, if it is to be authenticated. Additionally, a server key exchange message may be sent, if it is required (e.g. if their server has no certificate, or if its certificate is for signing only). If the server is authenticated, it may request a certificate from the client, if that is appropriate to the cipher suite selected. Now the server will send the server hello done message, indicating that the hello-message phase of the handshake is complete. The server will then wait for a client response. If the server has sent a certificate request message, the client must send the certificate message. The client key exchange message is now sent, and the content of that message will depend on the public key algorithm selected between the client hello and the server hello. If the client has sent a certificate with signing ability, a digitally-signed certificate verify message is sent to explicitly verify the certificate.
+"ko": |-
+  hello 메시지에 이어 서버는 인증을 받아야 하는 경우 인증서를 보냅니다. 또한 필요한 경우(예: 서버에 인증서가 없거나 해당 인증서가 서명 전용인 경우) 서버 키 교환 메시지가 전송될 수 있습니다. 서버가 인증되면 선택한 암호 제품군에 적합한 경우 클라이언트로부터 인증서를 요청할 수 있습니다. 이제 서버는 핸드셰이크의 hello-message 단계가 완료되었음을 나타내는 서버 hello done 메시지를 보냅니다. 그러면 서버는 클라이언트 응답을 기다립니다. 서버가 인증서 요청 메시지를 보낸 경우 클라이언트는 인증서 메시지를 보내야 합니다. 이제 클라이언트 키 교환 메시지가 전송되고 해당 메시지의 내용은 클라이언트 hello와 서버 hello 사이에서 선택된 공개 키 알고리즘에 따라 달라집니다. 클라이언트가 서명 기능이 있는 인증서를 보낸 경우 인증서를 명시적으로 확인하기 위해 디지털 서명된 인증서 확인 메시지가 전송됩니다.

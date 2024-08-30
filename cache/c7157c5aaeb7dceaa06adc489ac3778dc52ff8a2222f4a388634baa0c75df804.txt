@@ -1,0 +1,1 @@
+이 패킷의 페이로드에는 CRYPTO 프레임이 포함되어 있으며 PING, PADDING 또는 ACK 프레임이 포함될 수 있습니다. 핸드셰이크 패킷에는 0x1c 유형의 CONNECTION_CLOSE 프레임이 포함될 수 있습니다. 엔드포인트는 다른 프레임과의 핸드셰이크 패킷 수신을 PROTOCOL_VIOLATION 유형의 연결 오류로 처리해야 합니다.

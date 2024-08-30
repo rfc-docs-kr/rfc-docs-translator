@@ -1,0 +1,21 @@
+"hash": |-
+  63d08f128389112fff38d59455851be45ffab64efa12dcfa2bb52daaea21ba99
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For the three Printer operations Pause-Printer, Resume-Printer, and
+     Purge-Jobs (see Sections 4.2.7, 4.2.8, and 4.2.9), the requesting
+     user is intended to be an Operator or Administrator of the Printer
+     (see Section 1).  Otherwise, the IPP Printer MUST reject the
+     operation and return 'client-error-forbidden',
+     'client-error-not-authenticated', or 'client-error-not-authorized'
+     as appropriate.  For operations on Jobs, the requesting user is
+     intended to be the Job owner or can be an Operator or Administrator
+     of the Printer.  The means for authorizing an Operator or
+     Administrator of the Printer are not specified in this document.
+"fixed": |-
+  For the three Printer operations Pause-Printer, Resume-Printer, and Purge-Jobs (see Sections 4.2.7, 4.2.8, and 4.2.9), the requesting user is intended to be an Operator or Administrator of the Printer (see Section 1).  Otherwise, the IPP Printer MUST reject the operation and return 'client-error-forbidden', 'client-error-not-authenticated', or 'client-error-not-authorized' as appropriate.  For operations on Jobs, the requesting user is intended to be the Job owner or can be an Operator or Administrator of the Printer.  The means for authorizing an Operator or Administrator of the Printer are not specified in this document.
+"ko": |-
+  세 가지 프린터 작업인 일시 중지-프린터, 재개-프린터 및 제거-작업(섹션 4.2.7, 4.2.8 및 4.2.9 참조)의 경우 요청 사용자는 프린터의 운영자 또는 관리자가 되어야 합니다(참조 섹션 1). 그렇지 않으면 IPP 프린터는 작업을 거부하고 'client-error-forbidden', 'client-error-not-authenticated' 또는 'client-error-not-authorized'를 적절하게 반환해야 합니다. 작업에 대한 작업의 경우 요청 사용자는 작업 소유자이거나 프린터의 운영자 또는 관리자가 될 수 있습니다. 프린터의 운영자 또는 관리자를 인증하는 방법은 이 문서에 명시되어 있지 않습니다.

@@ -1,0 +1,25 @@
+"hash": |-
+  e45e7381252d8c59eed556c52821dcd10debd461059d1f8ca710d74c0695291c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The receiver will maintain an anti-replay window of size W.  This
+     window will limit how far out of order a packet can be, relative to
+     the packet with the highest sequence number that has been
+     authenticated so far.  (No requirement is established for minimum or
+     recommended sizes for this window, beyond the 32- and 64-packet
+     values already established for 32-bit sequence number windows.
+     However, it is suggested that an implementer scale these values
+     consistent with the interface speed supported by an implementation
+     that makes use of the ESN option.  Also, the algorithm described
+     below assumes that the window is no greater than 2^31 packets in
+     width.)  All 2^32 sequence numbers associated with any fixed value
+     for the high-order 32 bits (Seqh) will hereafter be called a sequence
+     number subspace.  The following table lists pertinent variables and
+     their definitions.
+"fixed": |-
+  The receiver will maintain an anti-replay window of size W.  This window will limit how far out of order a packet can be, relative to the packet with the highest sequence number that has been authenticated so far.  (No requirement is established for minimum or recommended sizes for this window, beyond the 32- and 64-packet values already established for 32-bit sequence number windows. However, it is suggested that an implementer scale these values consistent with the interface speed supported by an implementation that makes use of the ESN option.  Also, the algorithm described below assumes that the window is no greater than 2^31 packets in width.)  All 2^32 sequence numbers associated with any fixed value for the high-order 32 bits (Seqh) will hereafter be called a sequence number subspace.  The following table lists pertinent variables and their definitions.
+"ko": |-
+  수신자는 W 크기의 재생 방지 창을 유지합니다. 이 창은 지금까지 인증된 시퀀스 번호가 가장 높은 패킷과 관련하여 패킷의 순서가 어긋날 수 있는 정도를 제한합니다.  (32비트 시퀀스 번호 창에 대해 이미 설정된 32패킷 및 64패킷 값을 넘어서 이 창에 대한 최소 또는 권장 크기에 대한 요구 사항은 설정되어 있지 않습니다. 그러나 구현자는 지원되는 인터페이스 속도에 맞게 이러한 값을 조정하는 것이 좋습니다. 또한 아래에 설명된 알고리즘은 창 너비가 2^31 패킷보다 크지 않다고 가정합니다.) 모든 2^32 시퀀스 번호는 상위 32에 대한 고정 값과 연결됩니다. 비트(Seqh)는 이후 시퀀스 번호 부분공간으로 불립니다.  다음 표에는 관련 변수와 해당 정의가 나열되어 있습니다.

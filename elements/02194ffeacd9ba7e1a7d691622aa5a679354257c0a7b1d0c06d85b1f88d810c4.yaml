@@ -1,0 +1,17 @@
+"hash": |-
+  02194ffeacd9ba7e1a7d691622aa5a679354257c0a7b1d0c06d85b1f88d810c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each AEAD algorithm MUST accept any nonce with a length between N_MIN
+     and N_MAX octets, inclusive, where the values of N_MIN and N_MAX are
+     specific to that algorithm.  The values of N_MAX and N_MIN MAY be
+     equal.  Each algorithm SHOULD accept a nonce with a length of twelve
+     (12) octets.  Randomized or stateful algorithms, which are described
+     below, MAY have an N_MAX value of zero.
+"fixed": |-
+  Each AEAD algorithm MUST accept any nonce with a length between N_MIN and N_MAX octets, inclusive, where the values of N_MIN and N_MAX are specific to that algorithm.  The values of N_MAX and N_MIN MAY be equal.  Each algorithm SHOULD accept a nonce with a length of twelve (12) octets.  Randomized or stateful algorithms, which are described below, MAY have an N_MAX value of zero.
+"ko": |-
+  각 AEAD 알고리즘은 길이가 N_MIN에서 N_MAX 옥텟 사이인 모든 nonce를 허용해야 합니다. 여기서 N_MIN 및 N_MAX 값은 해당 알고리즘에 따라 다릅니다. N_MAX와 N_MIN의 값은 동일할 수 있습니다. 각 알고리즘은 12옥텟 길이의 nonce를 허용해야 합니다. 아래에 설명된 무작위 또는 상태 저장 알고리즘은 N_MAX 값이 0일 수 있습니다.

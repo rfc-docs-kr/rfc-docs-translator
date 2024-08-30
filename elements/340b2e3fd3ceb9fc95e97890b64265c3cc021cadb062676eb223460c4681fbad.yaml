@@ -1,0 +1,24 @@
+"hash": |-
+  340b2e3fd3ceb9fc95e97890b64265c3cc021cadb062676eb223460c4681fbad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     By including this parameter in an offer, a client informs the peer
+     server that the client supports the "client_max_window_bits"
+     extension parameter in an extension negotiation response and,
+     optionally, a hint by attaching a value to the parameter.  If the
+     "client_max_window_bits" extension parameter in an extension
+     negotiation offer has a value, the parameter also informs the peer
+     server of a hint that even if the server doesn't include the
+     "client_max_window_bits" extension parameter in the corresponding
+     extension negotiation response with a value greater than the one in
+     the extension negotiation offer or if the server doesn't include the
+     extension parameter at all, the client is not going to use an LZ77
+     sliding window size greater than the size specified by the value in
+     the extension negotiation offer to compress messages.
+"fixed": |-
+  By including this parameter in an offer, a client informs the peer server that the client supports the "client_max_window_bits" extension parameter in an extension negotiation response and, optionally, a hint by attaching a value to the parameter.  If the "client_max_window_bits" extension parameter in an extension negotiation offer has a value, the parameter also informs the peer server of a hint that even if the server doesn't include the "client_max_window_bits" extension parameter in the corresponding extension negotiation response with a value greater than the one in the extension negotiation offer or if the server doesn't include the extension parameter at all, the client is not going to use an LZ77 sliding window size greater than the size specified by the value in the extension negotiation offer to compress messages.
+"ko": |-
+  제안에 이 매개변수를 포함함으로써 클라이언트는 클라이언트가 확장 협상 응답에서 "client_max_window_bits" 확장 매개변수를 지원하고 선택적으로 매개변수에 값을 첨부하여 힌트를 지원한다는 것을 피어 서버에 알립니다.  확장 협상 제안의 "client_max_window_bits" 확장 매개변수에 값이 있는 경우, 이 매개변수는 서버가 값이 있는 해당 확장 협상 응답에 "client_max_window_bits" 확장 매개변수를 포함하지 않더라도 힌트를 피어 서버에 알립니다. 확장 협상 제안의 값보다 크거나 서버가 확장 매개변수를 전혀 포함하지 않는 경우 클라이언트는 압축을 위해 확장 협상 제안의 값으로 지정된 크기보다 큰 LZ77 슬라이딩 윈도우 크기를 사용하지 않습니다. 메시지.

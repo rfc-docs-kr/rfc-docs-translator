@@ -1,0 +1,19 @@
+"hash": |-
+  50fd4bbc8e22b2c980f85104ce0f966e355120d37ff9156871fe194588730e3f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All recipients use the same JWE Protected Header, JWE Initialization
+     Vector, JWE Ciphertext, and JWE Authentication Tag values, when
+     present, resulting in potentially significant space savings if the
+     message is large.  Therefore, all Header Parameters that specify the
+     treatment of the plaintext value MUST be the same for all recipients.
+     This primarily means that the "enc" (encryption algorithm) Header
+     Parameter value in the JOSE Header for each recipient and any
+     parameters of that algorithm MUST be the same.
+"fixed": |-
+  All recipients use the same JWE Protected Header, JWE Initialization Vector, JWE Ciphertext, and JWE Authentication Tag values, when present, resulting in potentially significant space savings if the message is large.  Therefore, all Header Parameters that specify the treatment of the plaintext value MUST be the same for all recipients. This primarily means that the "enc" (encryption algorithm) Header Parameter value in the JOSE Header for each recipient and any parameters of that algorithm MUST be the same.
+"ko": |-
+  모든 수신자는 동일한 JWE 보호 헤더, JWE 초기화 벡터, JWE 암호문 및 JWE 인증 태그 값을 사용하며, 메시지가 큰 경우 잠재적으로 상당한 공간 절약이 가능합니다. 따라서 일반 텍스트 값의 처리를 지정하는 모든 헤더 매개변수는 모든 수신자에게 동일해야 합니다. 이는 주로 각 수신자의 JOSE 헤더에 있는 "enc"(암호화 알고리즘) 헤더 매개변수 값과 해당 알고리즘의 모든 매개변수가 동일해야 함을 의미합니다.

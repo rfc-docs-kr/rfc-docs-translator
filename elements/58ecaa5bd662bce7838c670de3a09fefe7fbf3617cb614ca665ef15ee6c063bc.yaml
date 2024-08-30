@@ -1,0 +1,19 @@
+"hash": |-
+  58ecaa5bd662bce7838c670de3a09fefe7fbf3617cb614ca665ef15ee6c063bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server with a clock (as defined in Section 5.6.7) MUST NOT
+     generate a Last-Modified date that is later than the server's time of
+     message origination (Date, Section 6.6.1).  If the last modification
+     time is derived from implementation-specific metadata that evaluates
+     to some time in the future, according to the origin server's clock,
+     then the origin server MUST replace that value with the message
+     origination date.  This prevents a future modification date from
+     having an adverse impact on cache validation.
+"fixed": |-
+  An origin server with a clock (as defined in Section 5.6.7) MUST NOT generate a Last-Modified date that is later than the server's time of message origination (Date, Section 6.6.1).  If the last modification time is derived from implementation-specific metadata that evaluates to some time in the future, according to the origin server's clock, then the origin server MUST replace that value with the message origination date.  This prevents a future modification date from having an adverse impact on cache validation.
+"ko": |-
+  시계가 있는 원서버(섹션 5.6.7에 정의됨)는 서버의 메시지 발생 시간(날짜, 섹션 6.6.1)보다 이후의 최종 수정 날짜를 생성해서는 안 됩니다. 마지막 수정 시간이 원서버의 시계에 따라 미래의 특정 시간으로 평가되는 구현별 메타데이터에서 파생된 경우 원서버는 해당 값을 메시지 발생 날짜로 바꿔야 합니다. 이렇게 하면 향후 수정 날짜가 캐시 유효성 검사에 부정적인 영향을 미치는 것을 방지할 수 있습니다.

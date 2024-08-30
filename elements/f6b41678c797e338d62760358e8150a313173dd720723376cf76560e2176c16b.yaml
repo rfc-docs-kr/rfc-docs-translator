@@ -1,0 +1,18 @@
+"hash": |-
+  f6b41678c797e338d62760358e8150a313173dd720723376cf76560e2176c16b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A user agent SHOULD send Content-Length in a request when the method
+     defines a meaning for enclosed content and it is not sending
+     Transfer-Encoding.  For example, a user agent normally sends Content-
+     Length in a POST request even when the value is 0 (indicating empty
+     content).  A user agent SHOULD NOT send a Content-Length header field
+     when the request message does not contain content and the method
+     semantics do not anticipate such data.
+"fixed": |-
+  A user agent SHOULD send Content-Length in a request when the method defines a meaning for enclosed content and it is not sending Transfer-Encoding.  For example, a user agent normally sends Content- Length in a POST request even when the value is 0 (indicating empty content).  A user agent SHOULD NOT send a Content-Length header field when the request message does not contain content and the method semantics do not anticipate such data.
+"ko": |-
+  사용자 에이전트는 메서드가 포함된 콘텐츠에 대한 의미를 정의하고 Transfer-Encoding을 전송하지 않는 경우 요청에 Content-Length를 보내야 합니다. 예를 들어, 사용자 에이전트는 일반적으로 값이 0(빈 콘텐츠를 나타냄)인 경우에도 POST 요청에서 Content-Length를 보냅니다. 사용자 에이전트는 요청 메시지에 콘텐츠가 포함되어 있지 않고 메소드 의미론이 그러한 데이터를 예상하지 않는 경우 Content-Length 헤더 필드를 전송해서는 안 됩니다.

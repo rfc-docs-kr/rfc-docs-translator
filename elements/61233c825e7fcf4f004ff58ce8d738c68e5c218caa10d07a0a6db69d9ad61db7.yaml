@@ -1,0 +1,17 @@
+"hash": |-
+  61233c825e7fcf4f004ff58ce8d738c68e5c218caa10d07a0a6db69d9ad61db7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     However, a HeartbeatRequest message SHOULD NOT be sent during
+     handshakes.  If a handshake is initiated while a HeartbeatRequest is
+     still in flight, the sending peer MUST stop the DTLS retransmission
+     timer for it.  The receiving peer SHOULD discard the message
+     silently, if it arrives during the handshake.  In case of DTLS,
+     HeartbeatRequest messages from older epochs SHOULD be discarded.
+"fixed": |-
+  However, a HeartbeatRequest message SHOULD NOT be sent during handshakes.  If a handshake is initiated while a HeartbeatRequest is still in flight, the sending peer MUST stop the DTLS retransmission timer for it.  The receiving peer SHOULD discard the message silently, if it arrives during the handshake.  In case of DTLS, HeartbeatRequest messages from older epochs SHOULD be discarded.
+"ko": |-
+  그러나 HeartbeatRequest 메시지는 핸드셰이크 중에 전송되어서는 안 됩니다.  HeartbeatRequest가 아직 진행 중인 동안 핸드셰이크가 시작되면 송신 피어는 이에 대한 DTLS 재전송 타이머를 중지해야 합니다.  수신 피어는 핸드셰이크 중에 메시지가 도착하면 메시지를 자동으로 삭제해야 합니다.  DTLS의 경우 이전 시대의 HeartbeatRequest 메시지는 삭제되어야 합니다.

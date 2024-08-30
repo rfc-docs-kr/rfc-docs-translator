@@ -1,0 +1,20 @@
+"hash": |-
+  8f721760173eff272941a847736f296a33a5657486e126c7682555deb158e901
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MAY be sent as part of the START-PHRASE-ENROLLMENT,
+     SET-PARAMS, or GET-PARAMS method.  Used during voice enrollment, this
+     header field specifies how similar to a previously enrolled
+     pronunciation of the same phrase an utterance needs to be in order to
+     be considered "consistent".  The higher the threshold, the closer the
+     match between an utterance and previous pronunciations must be for
+     the pronunciation to be considered consistent.  The range for this
+     threshold is a float value between 0.0 and 1.0.  The default value
+     for this header field is implementation specific.
+"fixed": |-
+  This header field MAY be sent as part of the START-PHRASE-ENROLLMENT, SET-PARAMS, or GET-PARAMS method.  Used during voice enrollment, this header field specifies how similar to a previously enrolled pronunciation of the same phrase an utterance needs to be in order to be considered "consistent".  The higher the threshold, the closer the match between an utterance and previous pronunciations must be for the pronunciation to be considered consistent.  The range for this threshold is a float value between 0.0 and 1.0.  The default value for this header field is implementation specific.
+"ko": |-
+  이 헤더 필드는 START-PHRASE-ENROLLMENT, SET-PARAMS 또는 GET-PARAMS 메서드의 일부로 전송될 수 있습니다. 음성 등록 중에 사용되는 이 헤더 필드는 발화가 "일관성"으로 간주되기 위해 이전에 등록된 동일한 구문의 발음과 얼마나 유사해야 하는지 지정합니다. 임계값이 높을수록 발음이 일관적이라고 간주되기 위해 발화와 이전 발음 간의 일치가 더 가까워야 합니다. 이 임계값의 범위는 0.0과 1.0 사이의 부동 소수점 값입니다. 이 헤더 필드의 기본값은 구현에 따라 다릅니다.

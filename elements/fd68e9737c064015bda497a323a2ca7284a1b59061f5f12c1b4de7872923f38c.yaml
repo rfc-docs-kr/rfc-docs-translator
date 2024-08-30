@@ -1,0 +1,15 @@
+"hash": |-
+  fd68e9737c064015bda497a323a2ca7284a1b59061f5f12c1b4de7872923f38c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        a += b; d ^= a; d <<<= 16;
+        c += d; b ^= c; b <<<= 12;
+        a += b; d ^= a; d <<<= 8;
+        c += d; b ^= c; b <<<= 7;
+"fixed": |-
+  - a += b; d ^= a; d <<<= 16; c += d; b ^= c; b <<<= 12; a += b; d ^= a; d <<<= 8; c += d; b ^= c; b <<<= 7;
+"ko": |-
+  - a += b; d ^= a; d <<<= 16; c += d; b ^= c; b <<<= 12; a += b; d ^= a; d <<<= 8; c += d; b ^= c; b <<<= 7;

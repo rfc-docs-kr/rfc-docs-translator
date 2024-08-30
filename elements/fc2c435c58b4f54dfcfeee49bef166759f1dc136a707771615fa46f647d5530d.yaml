@@ -1,0 +1,17 @@
+"hash": |-
+  fc2c435c58b4f54dfcfeee49bef166759f1dc136a707771615fa46f647d5530d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Printer MUST include an Unsupported Attributes group in a response
+     if the status-code is one of the following:
+     'successful-ok-ignored-or-substituted-attributes',
+     'successful-ok-conflicting-attributes',
+     'client-error-attributes-or-values-not-supported', or
+     'client-error-conflicting-attributes'.
+"fixed": |-
+  A Printer MUST include an Unsupported Attributes group in a response if the status-code is one of the following: 'successful-ok-ignored-or-substituted-attributes', 'successful-ok-conflicting-attributes', 'client-error-attributes-or-values-not-supported', or 'client-error-conflicting-attributes'.
+"ko": |-
+  상태 코드가 '성공-확인-무시 또는 대체 속성', '성공-확인-충돌 속성', '클라이언트 오류' 중 하나인 경우 프린터는 응답에 지원되지 않는 속성 그룹을 포함해야 합니다. -속성 또는 값이 지원되지 않음' 또는 '클라이언트 오류 충돌 속성'.

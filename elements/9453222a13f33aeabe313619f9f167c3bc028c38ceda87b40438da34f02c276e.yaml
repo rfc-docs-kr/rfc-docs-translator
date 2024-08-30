@@ -1,0 +1,14 @@
+"hash": |-
+  9453222a13f33aeabe313619f9f167c3bc028c38ceda87b40438da34f02c276e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the server does not know how to decode the section's Content-
+        Transfer-Encoding, it MUST fail the request and issue a "NO"
+        response that contains the "UNKNOWN-CTE" response code.
+"fixed": |-
+  - If the server does not know how to decode the section's Content- Transfer-Encoding, it MUST fail the request and issue a "NO" response that contains the "UNKNOWN-CTE" response code.
+"ko": |-
+  - 서버가 섹션의 Content-Transfer-Encoding을 디코딩하는 방법을 모르는 경우 요청을 실패하고 "UNKNOWN-CTE" 응답 코드가 포함된 "NO" 응답을 발행해야 합니다.

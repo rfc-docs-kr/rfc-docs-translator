@@ -1,0 +1,32 @@
+"hash": |-
+  25935c1232f96aa19f05bedbf011c2568bd122495b11866b077df3d438bb044f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A terminating SIP User Agent (UA) outside of the SIP network, on the
+     other hand, may provide any user data in a backward early media
+     stream.  Thus, if the network implements the usual early media
+     policy, the network equipment gating the backward early media flow
+     for the originating UA must distinguish between authorized early
+     media from a terminating SIP endpoint and unauthorized early media
+     from another SIP device outside of the network.  Given the assumption
+     of a transitive trust relationship between SIP servers in the
+     network, this can be accomplished by including some information in a
+     backward SIP message that identifies the presence of authorized
+     backward early media.  Since it is necessary to verify that this
+     indication comes from a trusted source, it is necessary for each
+     server on the path back to the originating UA to be able to verify
+     the trust relationship with the previous server and to remove such an
+     indication when it cannot do so.  A server on the boundary to an
+     untrusted SIP network can assure that no indication of authorized
+     backward early media passes from an external UAS to a UAC within the
+     network.  Thus, the use of a private header field that can be
+     modified by SIP proxies is to be preferred over the use of a
+     Multipurpose Internet Mail Extensions (MIME) attachment that cannot
+     be modified in this way.
+"fixed": |-
+  A terminating SIP User Agent (UA) outside of the SIP network, on the other hand, may provide any user data in a backward early media stream.  Thus, if the network implements the usual early media policy, the network equipment gating the backward early media flow for the originating UA must distinguish between authorized early media from a terminating SIP endpoint and unauthorized early media from another SIP device outside of the network.  Given the assumption of a transitive trust relationship between SIP servers in the network, this can be accomplished by including some information in a backward SIP message that identifies the presence of authorized backward early media.  Since it is necessary to verify that this indication comes from a trusted source, it is necessary for each server on the path back to the originating UA to be able to verify the trust relationship with the previous server and to remove such an indication when it cannot do so.  A server on the boundary to an untrusted SIP network can assure that no indication of authorized backward early media passes from an external UAS to a UAC within the network.  Thus, the use of a private header field that can be modified by SIP proxies is to be preferred over the use of a Multipurpose Internet Mail Extensions (MIME) attachment that cannot be modified in this way.
+"ko": |-
+  반면, SIP 네트워크 외부의 종료 SIP 사용자 에이전트(UA)는 역방향 조기 미디어 스트림에서 모든 사용자 데이터를 제공할 수 있습니다. 따라서 네트워크가 일반적인 조기 미디어 정책을 구현하는 경우, 원래 UA에 대한 역방향 조기 미디어 흐름을 게이팅하는 네트워크 장비는 종료 SIP 엔드포인트의 허가된 조기 미디어와 네트워크 외부의 다른 SIP 장치의 허가되지 않은 조기 미디어를 구별해야 합니다. 네트워크의 SIP 서버 간에 전이적 신뢰 관계가 있다고 가정하면 허가된 역방향 조기 미디어의 존재를 식별하는 역방향 SIP 메시지에 일부 정보를 포함시켜 이를 달성할 수 있습니다. 이 표시가 신뢰할 수 있는 소스에서 왔는지 확인해야 하므로 원래 UA로 돌아가는 경로에 있는 각 서버는 이전 서버와의 신뢰 관계를 확인하고 그렇게 할 수 없는 경우 이러한 표시를 제거할 수 있어야 합니다. 신뢰할 수 없는 SIP 네트워크의 경계에 있는 서버는 허가된 역방향 조기 미디어의 표시가 외부 UAS에서 네트워크 내부의 UAC로 전달되지 않도록 보장할 수 있습니다. 따라서 SIP 프록시로 수정될 수 있는 개인 헤더 필드를 사용하는 것은 이런 방식으로 수정될 수 없는 MIME(Multipurpose Internet Mail Extensions) 첨부 파일을 사용하는 것보다 더 선호됩니다.

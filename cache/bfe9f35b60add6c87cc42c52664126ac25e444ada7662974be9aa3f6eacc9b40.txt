@@ -1,0 +1,1 @@
+이 헤더 필드는 반드시 인식기 리소스에서 클라이언트로 오는 RECOGNITION-COMPLETE 이벤트의 일부여야 합니다. RECOGNIZE 메서드 완료의 이유를 나타냅니다. 이 헤더 필드는 실패 상태와 COMPLETE 상태로 반환되는 경우 DEFINE-GRAMMAR 및 RECOGNIZE 응답에서 반드시 전송해야 합니다. 아래 ABNF에서 cause-code는 다음 표의 Cause-Code 열에서 선택한 숫자 값을 포함합니다. cause-name은 Cause-Name 열에서 선택한 해당 토큰을 포함합니다.

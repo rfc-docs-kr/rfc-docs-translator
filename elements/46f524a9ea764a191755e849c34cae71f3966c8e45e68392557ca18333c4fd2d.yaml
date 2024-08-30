@@ -1,0 +1,25 @@
+"hash": |-
+  46f524a9ea764a191755e849c34cae71f3966c8e45e68392557ca18333c4fd2d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        mechanism-name   = ( "ipsec-3gpp" )
+        mech-parameters    = ( algorithm / protocol /mode /
+                               encrypt-algorithm / spi /
+                               port1 / port2 )
+        algorithm          = "alg" EQUAL ( "hmac-md5-96" /
+                                           "hmac-sha-1-96" )
+        protocol           = "prot" EQUAL ( "ah" / "esp" )
+        mode               = "mod" EQUAL ( "trans" / "tun" )
+        encrypt-algorithm  = "ealg" EQUAL ( "des-ede3-cbc" / "null" )
+        spi                = "spi" EQUAL spivalue
+        spivalue           = 10DIGIT; 0 to 4294967295
+        port1              = "port1" EQUAL port
+        port2              = "port2" EQUAL port
+        port               = 1*DIGIT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

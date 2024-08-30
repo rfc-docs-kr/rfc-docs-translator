@@ -1,0 +1,17 @@
+"hash": |-
+  27671b0c3fbdcadd7e0f0f7b0954bc2f79f60e068a1588b96244edd5e014b5ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a client invokes a CONTROL method to jump backward and the
+     operation jumps to the beginning or beyond the beginning of the
+     speech data of the active SPEAK method, the CONTROL request still
+     succeeds.  The response to the CONTROL request contains the speak-
+     restart header field, and the active SPEAK request restarts from the
+     beginning of its speech data.
+"fixed": |-
+  When a client invokes a CONTROL method to jump backward and the operation jumps to the beginning or beyond the beginning of the speech data of the active SPEAK method, the CONTROL request still succeeds.  The response to the CONTROL request contains the speak- restart header field, and the active SPEAK request restarts from the beginning of its speech data.
+"ko": |-
+  클라이언트가 뒤로 점프하기 위해 CONTROL 메서드를 호출하고 작업이 활성 SPEAK 메서드의 음성 데이터 시작 또는 시작을 넘어 점프하는 경우 CONTROL 요청은 여전히 성공합니다. CONTROL 요청에 대한 응답에는 speak-restart 헤더 필드가 포함되고 활성 SPEAK 요청은 음성 데이터 시작부터 다시 시작합니다.

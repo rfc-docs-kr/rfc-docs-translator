@@ -1,0 +1,16 @@
+"hash": |-
+  b23188ea7cf0236f6f591e779a1728e35b46c5fea134bd38465ec64824121c97
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The key wrap algorithm includes a strong integrity check on the key
+     data.  If unwrapping produces the expected check value in A[0], then
+     the chance that the key data is corrupt is 2^-64.  If unwrapping
+     produces an unexpected value, then the algorithm implementation MUST
+     return an error, and it MUST NOT return any key data.
+"fixed": |-
+  The key wrap algorithm includes a strong integrity check on the key data.  If unwrapping produces the expected check value in A[0], then the chance that the key data is corrupt is 2^-64.  If unwrapping produces an unexpected value, then the algorithm implementation MUST return an error, and it MUST NOT return any key data.
+"ko": |-
+  키 래핑 알고리즘에는 키 데이터에 대한 강력한 무결성 검사가 포함됩니다. 래핑 해제로 인해 A[0]에 예상 검사 값이 생성되면 키 데이터가 손상될 확률은 2^-64입니다. 언래핑으로 인해 예상치 못한 값이 생성되면 알고리즘 구현은 오류를 반환해야 하며(MUST) 키 데이터를 반환해서는 안 됩니다(MUST NOT).

@@ -1,0 +1,20 @@
+"hash": |-
+  5d27aa1349d95b2a1cb67c9b6b25cc563920e78d51e99e8f6cf623602983721c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The number of chunks per signature NCHUNKS_PER_SIG MUST be a fixed
+     power of 2 for simplicity.  NCHUNKS_PER_SIG MUST be larger than 1 for
+     performance reasons.  There are two related factors to consider when
+     choosing a value for NCHUNKS_PER_SIG.  First, the allowed CPU load on
+     clients due to signature verifications, given the expected bitrate of
+     the stream.  To achieve a low CPU load in a high bitrate stream,
+     NCHUNKS_PER_SIG should be high.  Second, the effect on latency, which
+     increases when NCHUNKS_PER_SIG gets higher, as just discussed.  Note
+     how the procedure does not preclude the use of variable-size chunks.
+"fixed": |-
+  The number of chunks per signature NCHUNKS_PER_SIG MUST be a fixed power of 2 for simplicity.  NCHUNKS_PER_SIG MUST be larger than 1 for performance reasons.  There are two related factors to consider when choosing a value for NCHUNKS_PER_SIG.  First, the allowed CPU load on clients due to signature verifications, given the expected bitrate of the stream.  To achieve a low CPU load in a high bitrate stream, NCHUNKS_PER_SIG should be high.  Second, the effect on latency, which increases when NCHUNKS_PER_SIG gets higher, as just discussed.  Note how the procedure does not preclude the use of variable-size chunks.
+"ko": |-
+  서명당 청크 수 NCHUNKS_PER_SIG는 단순화를 위해 고정된 2의 거듭제곱이어야 합니다. NCHUNKS_PER_SIG는 성능상의 이유로 1보다 커야 합니다. NCHUNKS_PER_SIG 값을 선택할 때 고려해야 할 두 가지 관련 요소가 있습니다. 첫째, 스트림의 예상 비트 전송률을 고려하여 서명 확인으로 인해 클라이언트에 허용되는 CPU 로드입니다. 높은 비트 전송률 스트림에서 낮은 CPU 로드를 달성하려면 NCHUNKS_PER_SIG가 높아야 합니다. 둘째, 방금 논의한 것처럼 NCHUNKS_PER_SIG가 높아질수록 지연 시간이 증가하는 효과입니다. 이 절차에서 가변 크기 청크의 사용이 어떻게 배제되지 않는지 확인하세요.

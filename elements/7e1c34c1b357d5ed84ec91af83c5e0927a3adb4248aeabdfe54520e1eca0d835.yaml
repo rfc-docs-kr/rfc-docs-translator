@@ -1,0 +1,14 @@
+"hash": |-
+  7e1c34c1b357d5ed84ec91af83c5e0927a3adb4248aeabdfe54520e1eca0d835
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     On platforms on which the flush method using an empty DEFLATE block
+     with no compression is not available, implementors can choose to
+     flush data using DEFLATE blocks with "BFINAL" set to 1.
+"fixed": |-
+  On platforms on which the flush method using an empty DEFLATE block with no compression is not available, implementors can choose to flush data using DEFLATE blocks with "BFINAL" set to 1.
+"ko": |-
+  압축 없이 빈 DEFLATE 블록을 사용하는 플러시 방법을 사용할 수 없는 플랫폼에서 구현자는 "BFINAL"이 1로 설정된 DEFLATE 블록을 사용하여 데이터를 플러시하도록 선택할 수 있습니다.

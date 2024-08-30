@@ -1,0 +1,17 @@
+"hash": |-
+  3b91c70ab547fe883d12eecbb348f2da4219bc6fa0f914cbfe375e8c03a6e685
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the current Job or Jobs complete that were in the 'processing'
+     state, the IPP Printer transitions them to the 'completed' state.
+     When the current Job or Jobs stop in mid-processing that were in the
+     'processing' state, the IPP Printer transitions them to the
+     'processing-stopped' state and adds the 'printer-stopped' value to
+     the Jobs' "job-state-reasons" attribute.
+"fixed": |-
+  When the current Job or Jobs complete that were in the 'processing' state, the IPP Printer transitions them to the 'completed' state. When the current Job or Jobs stop in mid-processing that were in the 'processing' state, the IPP Printer transitions them to the 'processing-stopped' state and adds the 'printer-stopped' value to the Jobs' "job-state-reasons" attribute.
+"ko": |-
+  현재 작업 또는 '처리 중' 상태였던 작업이 완료되면 IPP 프린터는 해당 작업을 '완료' 상태로 전환합니다. 현재 작업이 '처리' 상태인 처리 도중에 중지되면 IPP 프린터는 해당 작업을 '처리 중지됨' 상태로 전환하고 '프린터 중지됨' 값을 작업의 "job-state"에 추가합니다. -이유' 속성.

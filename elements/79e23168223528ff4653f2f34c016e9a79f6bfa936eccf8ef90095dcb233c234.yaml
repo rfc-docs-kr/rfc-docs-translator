@@ -1,0 +1,18 @@
+"hash": |-
+  79e23168223528ff4653f2f34c016e9a79f6bfa936eccf8ef90095dcb233c234
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Source and Destination Connection ID fields are the primary means
+     of protection against an off-path attack during the handshake; see
+     Section 8.1.  These are required to match those set by a peer.
+     Except for Initial and Stateless Resets, an endpoint only accepts
+     packets that include a Destination Connection ID field that matches a
+     value the endpoint previously chose.  This is the only protection
+     offered for Version Negotiation packets.
+"fixed": |-
+  The Source and Destination Connection ID fields are the primary means of protection against an off-path attack during the handshake; see Section 8.1.  These are required to match those set by a peer. Except for Initial and Stateless Resets, an endpoint only accepts packets that include a Destination Connection ID field that matches a value the endpoint previously chose.  This is the only protection offered for Version Negotiation packets.
+"ko": |-
+  소스 및 대상 연결 ID 필드는 핸드셰이크 중 경로를 벗어난 공격으로부터 보호하는 기본 수단입니다. 섹션 8.1을 참조하세요. 이는 피어가 설정한 것과 일치해야 합니다. 초기 및 상태 비저장 재설정을 제외하고 엔드포인트는 엔드포인트가 이전에 선택한 값과 일치하는 대상 연결 ID 필드를 포함하는 패킷만 허용합니다. 이는 버전 협상 패킷에 대해 제공되는 유일한 보호입니다.

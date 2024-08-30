@@ -1,0 +1,24 @@
+"hash": |-
+  17cabaf82d42ae9994750fb89b468c8c097350cbce09a296017a39957b44880d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Data origin authentication and connectionless integrity are joint
+     services, hereafter referred to jointly as "integrity".  (This term
+     is employed because, on a per-packet basis, the computation being
+     performed provides connectionless integrity directly; data origin
+     authentication is provided indirectly as a result of binding the key
+     used to verify the integrity to the identity of the IPsec peer.
+     Typically, this binding is effected through the use of a shared,
+     symmetric key.)  Integrity-only ESP MUST be offered as a service
+     selection option, e.g., it must be negotiable in SA management
+     protocols and MUST be configurable via management interfaces.
+     Integrity-only ESP is an attractive alternative to AH in many
+     contexts, e.g., because it is faster to process and more amenable to
+     pipelining in many implementations.
+"fixed": |-
+  Data origin authentication and connectionless integrity are joint services, hereafter referred to jointly as "integrity".  (This term is employed because, on a per-packet basis, the computation being performed provides connectionless integrity directly; data origin authentication is provided indirectly as a result of binding the key used to verify the integrity to the identity of the IPsec peer. Typically, this binding is effected through the use of a shared, symmetric key.)  Integrity-only ESP MUST be offered as a service selection option, e.g., it must be negotiable in SA management protocols and MUST be configurable via management interfaces. Integrity-only ESP is an attractive alternative to AH in many contexts, e.g., because it is faster to process and more amenable to pipelining in many implementations.
+"ko": |-
+  데이터 출처 인증과 비연결 무결성은 공동 서비스이며, 이하 "무결성"으로 통칭합니다.  (이 용어는 패킷 단위로 수행되는 계산이 연결 없는 무결성을 직접 제공하기 때문에 사용됩니다. 무결성을 확인하는 데 사용되는 키를 IPsec 피어의 ID에 바인딩한 결과 데이터 원본 인증이 간접적으로 제공됩니다. 일반적으로 , 이 바인딩은 공유된 대칭 키를 사용하여 적용됩니다.) 무결성 전용 ESP는 서비스 선택 옵션으로 제공되어야 합니다. 예를 들어 SA 관리 프로토콜에서 협상 가능해야 하며 관리 인터페이스를 통해 구성 가능해야 합니다. 무결성 전용 ESP는 처리 속도가 더 빠르고 많은 구현에서 파이프라인에 더 적합하기 때문에 여러 상황에서 AH에 대한 매력적인 대안입니다.

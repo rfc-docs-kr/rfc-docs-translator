@@ -1,0 +1,20 @@
+"hash": |-
+  a84a7990f0a74c4e4906392485c15947a2c9bb718515db8926313896d9a1e720
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     for the terminated request.  If there was no recording active, then
+     the response MUST NOT contain an Active-Request-Id-List header field.
+     If the recording was a success, the STOP response MUST contain a
+     Record-URI header field pointing to the recorded audio content or to
+     a typed entity in the body of the STOP response containing the
+     recorded audio.  The STOP method MAY have a Trim-Length header field,
+     in which case the specified length of audio is trimmed from the end
+     of the recording after the stop.  In any case, the response MUST
+     contain a status-code of 200 "Success".
+"fixed": |-
+  for the terminated request.  If there was no recording active, then the response MUST NOT contain an Active-Request-Id-List header field. If the recording was a success, the STOP response MUST contain a Record-URI header field pointing to the recorded audio content or to a typed entity in the body of the STOP response containing the recorded audio.  The STOP method MAY have a Trim-Length header field, in which case the specified length of audio is trimmed from the end of the recording after the stop.  In any case, the response MUST contain a status-code of 200 "Success".
+"ko": |-
+  종료된 요청의 경우. 활성화된 녹음이 없는 경우 응답에는 Active-Request-Id-List 헤더 필드가 포함되어서는 안 됩니다. 녹음이 성공한 경우 STOP 응답에는 녹음된 오디오 콘텐츠나 녹음된 오디오가 포함된 STOP 응답 본문의 입력된 엔터티를 가리키는 Record-URI 헤더 필드가 포함되어야 합니다. STOP 메서드에는 Trim-Length 헤더 필드가 있을 수 있으며, 이 경우 지정된 길이의 오디오가 중지 후 녹음 끝에서 트리밍됩니다. 어떤 경우든 응답에는 200 "성공" 상태 코드가 포함되어야 합니다.

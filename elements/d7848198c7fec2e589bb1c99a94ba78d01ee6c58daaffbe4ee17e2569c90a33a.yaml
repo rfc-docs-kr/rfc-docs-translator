@@ -1,0 +1,19 @@
+"hash": |-
+  d7848198c7fec2e589bb1c99a94ba78d01ee6c58daaffbe4ee17e2569c90a33a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     (1)  connection without pre-authentication (OK greeting)
+     (2)  pre-authenticated connection (PREAUTH greeting)
+     (3)  rejected connection (BYE greeting)
+     (4)  successful LOGIN or AUTHENTICATE command
+     (5)  successful SELECT or EXAMINE command
+     (6)  CLOSE or UNSELECT command, unsolicited CLOSED response code, or
+          failed SELECT or EXAMINE command
+     (7)  LOGOUT command, server shutdown, or connection closed
+"fixed": |-
+  (1)  connection without pre-authentication (OK greeting) (2)  pre-authenticated connection (PREAUTH greeting) (3)  rejected connection (BYE greeting) (4)  successful LOGIN or AUTHENTICATE command (5)  successful SELECT or EXAMINE command (6)  CLOSE or UNSELECT command, unsolicited CLOSED response code, or failed SELECT or EXAMINE command (7)  LOGOUT command, server shutdown, or connection closed
+"ko": |-
+  (1) 사전 인증 없이 연결(OK 인사말) (2) 사전 인증된 연결(PREAUTH 인사말) (3) 거부된 연결(BYE 인사말) (4) 성공적인 LOGIN 또는 AUTHENTICATE 명령 (5) 성공적인 SELECT 또는 EXAMINE 명령 (6) ) CLOSE 또는 UNSELECT 명령, 원치 않는 CLOSED 응답 코드 또는 실패한 SELECT 또는 EXAMINE 명령 (7) LOGOUT 명령, 서버 종료 또는 연결 종료

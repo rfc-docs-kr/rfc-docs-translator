@@ -1,0 +1,16 @@
+"hash": |-
+  b142b2cb14577926a8b4d8eed9c062ad0f3b0812e139017f78e70205ef47f186
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Migrating a connection to a new server address mid-connection is not
+     supported by the version of QUIC specified in this document.  If a
+     client receives packets from a new server address when the client has
+     not initiated a migration to that address, the client SHOULD discard
+     these packets.
+"fixed": |-
+  Migrating a connection to a new server address mid-connection is not supported by the version of QUIC specified in this document.  If a client receives packets from a new server address when the client has not initiated a migration to that address, the client SHOULD discard these packets.
+"ko": |-
+  연결 중에 새 서버 주소로 연결을 마이그레이션하는 것은 이 문서에 지정된 QUIC 버전에서 지원되지 않습니다. 클라이언트가 해당 주소로의 마이그레이션을 시작하지 않았을 때 새 서버 주소로부터 패킷을 수신하는 경우 클라이언트는 이러한 패킷을 폐기해야 합니다(SHOULD).

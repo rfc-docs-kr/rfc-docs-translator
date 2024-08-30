@@ -1,0 +1,24 @@
+"hash": |-
+  4a5c1edef240600f6181591c2ebd896a0824e5911766717ff204694bb3826708
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A recognizer message can carry additional data associated with the
+     request, response, or event.  The client MAY provide the grammar to
+     be recognized in DEFINE-GRAMMAR or RECOGNIZE requests.  When one or
+     more grammars are specified using the DEFINE-GRAMMAR method, the
+     server MUST attempt to fetch, compile, and optimize the grammar
+     before returning a response to the DEFINE-GRAMMAR method.  A
+     RECOGNIZE request MUST completely specify the grammars to be active
+     during the recognition operation, except when the RECOGNIZE method is
+     being used to enroll a grammar.  During grammar enrollment, such
+     grammars are OPTIONAL.  The server resource sends the recognition
+     results in the RECOGNITION-COMPLETE event and the GET-RESULT
+     response.  Grammars and recognition results are carried in the
+     message body of the corresponding MRCPv2 messages.
+"fixed": |-
+  A recognizer message can carry additional data associated with the request, response, or event.  The client MAY provide the grammar to be recognized in DEFINE-GRAMMAR or RECOGNIZE requests.  When one or more grammars are specified using the DEFINE-GRAMMAR method, the server MUST attempt to fetch, compile, and optimize the grammar before returning a response to the DEFINE-GRAMMAR method.  A RECOGNIZE request MUST completely specify the grammars to be active during the recognition operation, except when the RECOGNIZE method is being used to enroll a grammar.  During grammar enrollment, such grammars are OPTIONAL.  The server resource sends the recognition results in the RECOGNITION-COMPLETE event and the GET-RESULT response.  Grammars and recognition results are carried in the message body of the corresponding MRCPv2 messages.
+"ko": |-
+  인식기 메시지는 요청, 응답 또는 이벤트와 관련된 추가 데이터를 전달할 수 있습니다. 클라이언트는 DEFINE-GRAMMAR 또는 RECOGNIZE 요청에서 인식할 문법을 제공할 수 있습니다. DEFINE-GRAMMAR 메서드를 사용하여 하나 이상의 문법이 지정된 경우 서버는 DEFINE-GRAMMAR 메서드에 대한 응답을 반환하기 전에 문법을 페치, 컴파일 및 최적화하려고 시도해야 합니다. RECOGNIZE 요청은 RECOGNIZE 메서드가 문법을 등록하는 데 사용되는 경우를 제외하고 인식 작업 중에 활성화할 문법을 완전히 지정해야 합니다. 문법 등록 중에 이러한 문법은 선택 사항입니다. 서버 리소스는 RECOGNITION-COMPLETE 이벤트와 GET-RESULT 응답에서 인식 결과를 보냅니다. 문법 및 인식 결과는 해당 MRCPv2 메시지의 메시지 본문에 전달됩니다.

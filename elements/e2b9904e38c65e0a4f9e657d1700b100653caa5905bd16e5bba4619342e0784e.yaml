@@ -1,0 +1,16 @@
+"hash": |-
+  e2b9904e38c65e0a4f9e657d1700b100653caa5905bd16e5bba4619342e0784e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As additional CipherSuites are defined for TLS that include new key
+     exchange algorithms, the server key exchange message will be sent if
+     and only if the certificate type associated with the key exchange
+     algorithm does not provide enough information for the client to
+     exchange a premaster secret.
+"fixed": |-
+  As additional CipherSuites are defined for TLS that include new key exchange algorithms, the server key exchange message will be sent if and only if the certificate type associated with the key exchange algorithm does not provide enough information for the client to exchange a premaster secret.
+"ko": |-
+  새로운 키 교환 알고리즘을 포함하는 TLS에 대해 추가 CipherSuite가 정의되어 있으므로 키 교환 알고리즘과 연관된 인증서 유형이 클라이언트가 프리마스터 비밀을 교환하는 데 충분한 정보를 제공하지 않는 경우에만 서버 키 교환 메시지가 전송됩니다.

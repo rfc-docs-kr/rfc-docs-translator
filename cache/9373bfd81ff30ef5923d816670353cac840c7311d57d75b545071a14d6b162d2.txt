@@ -1,0 +1,1 @@
+"id-pkix-ocsp-nonce" OCSP 확장의 경우 [RFC2560]은 해당 인코딩에 대해 명확하지 않습니다. 명확히 하기 위해 nonce는 다른 OCTET STRING으로 캡슐화되는 DER로 인코딩된 OCTET STRING이어야 합니다(기존 OCSP 클라이언트를 기반으로 한 구현은 이 요구 사항을 준수하는지 확인해야 함).

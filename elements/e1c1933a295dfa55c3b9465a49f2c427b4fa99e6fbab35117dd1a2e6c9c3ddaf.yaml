@@ -1,0 +1,21 @@
+"hash": |-
+  e1c1933a295dfa55c3b9465a49f2c427b4fa99e6fbab35117dd1a2e6c9c3ddaf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        chacha20_aead_encrypt(aad, key, iv, constant, plaintext):
+           nonce = constant | iv
+           otk = poly1305_key_gen(key, nonce)
+           ciphertext = chacha20_encrypt(key, 1, nonce, plaintext)
+           mac_data = aad | pad16(aad)
+           mac_data |= ciphertext | pad16(ciphertext)
+           mac_data |= num_to_8_le_bytes(aad.length)
+           mac_data |= num_to_8_le_bytes(ciphertext.length)
+           tag = poly1305_mac(mac_data, otk)
+           return (ciphertext, tag)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

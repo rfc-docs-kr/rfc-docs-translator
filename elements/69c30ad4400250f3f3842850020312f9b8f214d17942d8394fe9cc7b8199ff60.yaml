@@ -1,0 +1,18 @@
+"hash": |-
+  69c30ad4400250f3f3842850020312f9b8f214d17942d8394fe9cc7b8199ff60
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  'queued-in-device': The Job has been forwarded to a device or
+        print system that is unable to send back status.  The Printer sets
+        the Job's "job-state" attribute to 'completed' and adds the
+        'queued-in-device' value to the Job's "job-state-reasons"
+        attribute to indicate that the Printer has no additional
+        information about the Job and never will have any better
+        information.  See Section 5.3.7.1.
+"fixed": |-
+  -  'queued-in-device': The Job has been forwarded to a device or print system that is unable to send back status.  The Printer sets the Job's "job-state" attribute to 'completed' and adds the 'queued-in-device' value to the Job's "job-state-reasons" attribute to indicate that the Printer has no additional information about the Job and never will have any better information.  See Section 5.3.7.1.
+"ko": |-
+  - 'queued-in-device': 작업이 상태를 다시 보낼 수 없는 장치 또는 인쇄 시스템으로 전달되었습니다. 프린터는 작업의 "job-state" 속성을 '완료'로 설정하고 작업의 "job-state-reasons" 속성에 'queued-in-device' 값을 추가하여 프린터에 작업에 대한 추가 정보가 없음을 나타냅니다. 더 나은 정보는 결코 없을 것입니다. 섹션 5.3.7.1을 참조하십시오.

@@ -1,0 +1,20 @@
+"hash": |-
+  17e43b7bbe710da0def5bda9a3b08d952543c00cebb16d54df7f770a2ea5a742
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that in the case of a downgrade attack, if this is an initial
+     handshake from the server's perspective, then use of the SCSV from
+     the client precludes detection of this attack by the server (if this
+     is a renegotiation from the server's perspective, then it will detect
+     the attack).  However, the attack will be detected by the client when
+     the server sends an empty "renegotiation_info" extension and the
+     client is expecting one containing the previous verify_data.  By
+     contrast, if the client sends the "renegotiation_info" extension,
+     then the server will immediately detect the attack.
+"fixed": |-
+  Note that in the case of a downgrade attack, if this is an initial handshake from the server's perspective, then use of the SCSV from the client precludes detection of this attack by the server (if this is a renegotiation from the server's perspective, then it will detect the attack).  However, the attack will be detected by the client when the server sends an empty "renegotiation_info" extension and the client is expecting one containing the previous verify_data.  By contrast, if the client sends the "renegotiation_info" extension, then the server will immediately detect the attack.
+"ko": |-
+  다운그레이드 공격의 경우 이것이 서버 관점에서 볼 때 초기 핸드셰이크인 경우 클라이언트에서 SCSV를 사용하면 서버에서 이 공격을 감지할 수 없습니다(서버 관점에서 재협상인 경우). 공격을 감지합니다). 그러나 서버가 빈 "renegotiation_info" 확장을 보내고 클라이언트가 이전 verify_data가 포함된 확장을 기대하는 경우 클라이언트는 공격을 감지합니다. 대조적으로, 클라이언트가 "renegotiation_info" 확장을 전송하면 서버는 즉시 공격을 감지합니다.

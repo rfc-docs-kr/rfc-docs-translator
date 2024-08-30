@@ -1,0 +1,19 @@
+"hash": |-
+  34f915964255f6848a0a7aff7ff1868fb6ba0cf1896d304cb2b97a09b9d3d147
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server includes a connection ID of its choice in the Source
+     Connection ID field.  This value MUST NOT be equal to the Destination
+     Connection ID field of the packet sent by the client.  A client MUST
+     discard a Retry packet that contains a Source Connection ID field
+     that is identical to the Destination Connection ID field of its
+     Initial packet.  The client MUST use the value from the Source
+     Connection ID field of the Retry packet in the Destination Connection
+     ID field of subsequent packets that it sends.
+"fixed": |-
+  The server includes a connection ID of its choice in the Source Connection ID field.  This value MUST NOT be equal to the Destination Connection ID field of the packet sent by the client.  A client MUST discard a Retry packet that contains a Source Connection ID field that is identical to the Destination Connection ID field of its Initial packet.  The client MUST use the value from the Source Connection ID field of the Retry packet in the Destination Connection ID field of subsequent packets that it sends.
+"ko": |-
+  서버는 소스 연결 ID 필드에 선택한 연결 ID를 포함합니다. 이 값은 클라이언트가 보낸 패킷의 대상 연결 ID 필드와 같아서는 안 됩니다. 클라이언트는 초기 패킷의 대상 연결 ID 필드와 동일한 소스 연결 ID 필드를 포함하는 재시도 패킷을 폐기해야 합니다. 클라이언트는 전송하는 후속 패킷의 대상 연결 ID 필드에 있는 재시도 패킷의 소스 연결 ID 필드 값을 사용해야 합니다.

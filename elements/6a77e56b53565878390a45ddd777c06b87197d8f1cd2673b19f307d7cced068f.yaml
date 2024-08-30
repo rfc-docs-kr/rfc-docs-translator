@@ -1,0 +1,16 @@
+"hash": |-
+  6a77e56b53565878390a45ddd777c06b87197d8f1cd2673b19f307d7cced068f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the "agreed parameters" contain the "server_max_window_bits"
+     extension parameter with a value of w, the client MAY reduce the size
+     of its LZ77 sliding window to decompress received messages down to
+     the w-th power of 2 bytes.  Otherwise, the client MUST use a
+     32,768-byte LZ77 sliding window to decompress received messages.
+"fixed": |-
+  If the "agreed parameters" contain the "server_max_window_bits" extension parameter with a value of w, the client MAY reduce the size of its LZ77 sliding window to decompress received messages down to the w-th power of 2 bytes.  Otherwise, the client MUST use a 32,768-byte LZ77 sliding window to decompress received messages.
+"ko": |-
+  "합의된 매개변수"에 w 값의 "server_max_window_bits" 확장 매개변수가 포함된 경우 클라이언트는 LZ77 슬라이딩 창의 크기를 줄여 수신된 메시지를 2바이트의 w승으로 압축 해제할 수 있습니다.  그렇지 않은 경우 클라이언트는 수신된 메시지의 압축을 풀기 위해 32,768바이트 LZ77 슬라이딩 창을 사용해야 합니다.

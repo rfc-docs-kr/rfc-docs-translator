@@ -1,0 +1,23 @@
+"hash": |-
+  b7859f71c90e0ea066625744c962f77e1fcf145c440030c70e3d6effafc3dd80
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When recording is started, this specifies the maximum length of the
+     recording in milliseconds, calculated from the time the actual
+     capture and store begins and is not necessarily the time the RECORD
+     method is received.  It specifies the duration before silence
+     suppression, if any, has been applied by the recorder resource.
+     After this time, the recording stops and the server MUST return a
+     RECORD-COMPLETE event to the client having a request-state of
+     COMPLETE.  This header field MAY occur in RECORD, SET-PARAMS, or GET-
+     PARAMS.  The value for this header field ranges from 0 to an
+     implementation-specific maximum value.  A value of 0 means infinity,
+     and hence the recording continues until one or more of the other stop
+     conditions are met.  The default value for this header field is 0.
+"fixed": |-
+  When recording is started, this specifies the maximum length of the recording in milliseconds, calculated from the time the actual capture and store begins and is not necessarily the time the RECORD method is received.  It specifies the duration before silence suppression, if any, has been applied by the recorder resource. After this time, the recording stops and the server MUST return a RECORD-COMPLETE event to the client having a request-state of COMPLETE.  This header field MAY occur in RECORD, SET-PARAMS, or GET- PARAMS.  The value for this header field ranges from 0 to an implementation-specific maximum value.  A value of 0 means infinity, and hence the recording continues until one or more of the other stop conditions are met.  The default value for this header field is 0.
+"ko": |-
+  녹음이 시작되면 실제 캡처 및 저장이 시작되는 시간부터 계산된 최대 녹음 길이(밀리초)를 지정하며 반드시 RECORD 메서드가 수신되는 시간은 아닙니다. 레코더 리소스에서 무음 억제(있는 경우)가 적용되기 전의 기간을 지정합니다. 이 시간 이후에는 녹음이 중지되고 서버는 RECORD-COMPLETE 이벤트를 클라이언트에 반환해야 하며 요청 상태가 COMPLETE여야 합니다. 이 헤더 필드는 RECORD, SET-PARAMS 또는 GET-PARAMS에서 발생할 수 있습니다. 이 헤더 필드의 값은 0에서 구현별 최대값까지입니다. 값 0은 무한대를 의미하므로 다른 중지 조건 중 하나 이상이 충족될 때까지 녹음이 계속됩니다. 이 헤더 필드의 기본값은 0입니다.

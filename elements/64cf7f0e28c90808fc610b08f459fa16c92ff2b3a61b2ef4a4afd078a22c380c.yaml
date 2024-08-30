@@ -1,0 +1,17 @@
+"hash": |-
+  64cf7f0e28c90808fc610b08f459fa16c92ff2b3a61b2ef4a4afd078a22c380c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Connection ID field and the Stateless Reset Token field
+        contain an alternative connection ID that has a sequence number of
+        1; see Section 5.1.1.  Having these values sent alongside the
+        preferred address ensures that there will be at least one unused
+        active connection ID when the client initiates migration to the
+        preferred address.
+"fixed": |-
+  - The Connection ID field and the Stateless Reset Token field contain an alternative connection ID that has a sequence number of 1; see Section 5.1.1.  Having these values sent alongside the preferred address ensures that there will be at least one unused active connection ID when the client initiates migration to the preferred address.
+"ko": |-
+  - 연결 ID 필드와 Stateless Reset Token 필드에는 시퀀스 번호가 1인 대체 연결 ID가 포함되어 있습니다. 섹션 5.1.1을 참조하세요. 이러한 값을 기본 주소와 함께 전송하면 클라이언트가 기본 주소로 마이그레이션을 시작할 때 사용되지 않은 활성 연결 ID가 하나 이상 존재하게 됩니다.

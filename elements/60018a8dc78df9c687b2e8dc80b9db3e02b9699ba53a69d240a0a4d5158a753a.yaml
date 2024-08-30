@@ -1,0 +1,17 @@
+"hash": |-
+  60018a8dc78df9c687b2e8dc80b9db3e02b9699ba53a69d240a0a4d5158a753a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An aborted VERIFY request does an automatic rollback and hence does
+     not affect the cumulative score.  A VERIFY request that was stopped
+     with no Abort-Verification header field or with the Abort-
+     Verification header field set to "false" does affect cumulative
+     scores and would need to be explicitly rolled back if the client does
+     not want the verification result considered in the cumulative scores.
+"fixed": |-
+  An aborted VERIFY request does an automatic rollback and hence does not affect the cumulative score.  A VERIFY request that was stopped with no Abort-Verification header field or with the Abort- Verification header field set to "false" does affect cumulative scores and would need to be explicitly rolled back if the client does not want the verification result considered in the cumulative scores.
+"ko": |-
+  중단된 VERIFY 요청은 자동 롤백을 수행하므로 누적 점수에 영향을 미치지 않습니다. Abort-Verification 헤더 필드가 없거나 Abort-Verification 헤더 필드가 "false"로 설정된 상태에서 중단된 VERIFY 요청은 누적 점수에 영향을 미치며 클라이언트가 누적 점수에서 검증 결과를 고려하지 않으려는 경우 명시적으로 롤백해야 합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  3c969c4d86c4679719218c604d38e1f91716fd57f02d44e485d04b8b76fc1278
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the client continues (either because the server offered a
+        matching group or because local policy permits the offered custom
+        group), the client MUST verify that dh_Ys is in the range 1 <
+        dh_Ys < dh_p - 1.  If dh_Ys is not in this range, the client MUST
+        terminate the connection with a fatal handshake_failure(40) alert.
+"fixed": |-
+  -  If the client continues (either because the server offered a matching group or because local policy permits the offered custom group), the client MUST verify that dh_Ys is in the range 1 < dh_Ys < dh_p - 1.  If dh_Ys is not in this range, the client MUST terminate the connection with a fatal handshake_failure(40) alert.
+"ko": |-
+  - 클라이언트가 계속하는 경우(서버가 일치하는 그룹을 제공했거나 로컬 정책이 제공된 사용자 지정 그룹을 허용하기 때문에) 클라이언트는 dh_Ys가 1 < dh_Ys < dh_p - 1 범위에 있는지 확인해야 합니다. dh_Ys가 이 범위에 있지 않은 경우 , 클라이언트는 치명적인 handshake_failure(40) 경고로 연결을 종료해야 합니다.

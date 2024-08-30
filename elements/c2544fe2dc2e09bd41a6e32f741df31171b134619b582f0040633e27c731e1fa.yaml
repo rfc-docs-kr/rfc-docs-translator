@@ -1,0 +1,16 @@
+"hash": |-
+  c2544fe2dc2e09bd41a6e32f741df31171b134619b582f0040633e27c731e1fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Prior to confirming the handshake, a peer might be unable to
+        process 1-RTT packets, so an endpoint SHOULD send a
+        CONNECTION_CLOSE frame in both Handshake and 1-RTT packets.  A
+        server SHOULD also send a CONNECTION_CLOSE frame in an Initial
+        packet.
+"fixed": |-
+  *  Prior to confirming the handshake, a peer might be unable to process 1-RTT packets, so an endpoint SHOULD send a CONNECTION_CLOSE frame in both Handshake and 1-RTT packets.  A server SHOULD also send a CONNECTION_CLOSE frame in an Initial packet.
+"ko": |-
+  * 핸드셰이크를 확인하기 전에 피어는 1-RTT 패킷을 처리하지 못할 수 있으므로 엔드포인트는 핸드셰이크와 1-RTT 패킷 모두에서 CONNECTION_CLOSE 프레임을 보내야 합니다. 서버는 또한 초기 패킷에서 CONNECTION_CLOSE 프레임을 보내야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  1dd511b4031fa6e3dfb8886f2abd2f0346795617af9a60ad48b74ec85fa7e7bc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The value of "ipp-attribute-fidelity" supplied by the Client does
+        not affect what attributes the Printer returns in this group.  The
+        value of "ipp-attribute-fidelity" only affects whether the
+        Print-Job operation is accepted or rejected.  If the Job is
+        accepted, the Client can query the Job using the
+        Get-Job-Attributes operation, requesting the unsupported
+        attributes that were returned in the Print-Job response to see
+        which attributes were ignored (not stored in the Job) and which
+        attributes were stored with other (substituted) values.
+"fixed": |-
+  - The value of "ipp-attribute-fidelity" supplied by the Client does not affect what attributes the Printer returns in this group.  The value of "ipp-attribute-fidelity" only affects whether the Print-Job operation is accepted or rejected.  If the Job is accepted, the Client can query the Job using the Get-Job-Attributes operation, requesting the unsupported attributes that were returned in the Print-Job response to see which attributes were ignored (not stored in the Job) and which attributes were stored with other (substituted) values.
+"ko": |-
+  - 클라이언트가 제공한 "ipp-attribute-fidelity" 값은 프린터가 이 그룹에서 반환하는 속성에 영향을 주지 않습니다. "ipp-attribute-fidelity" 값은 Print-Job 작업의 승인 여부에만 영향을 미칩니다. Job이 수락되면 클라이언트는 Get-Job-Attributes 작업을 사용하여 Job을 쿼리하고 Print-Job 응답에서 반환된 지원되지 않는 속성을 요청하여 무시된(Job에 저장되지 않은) 속성과 어떤 속성을 확인할 수 있습니다. 다른(대체) 값으로 저장되었습니다.

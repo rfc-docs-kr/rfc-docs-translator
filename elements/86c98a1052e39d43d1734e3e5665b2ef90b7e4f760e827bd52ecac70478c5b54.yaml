@@ -1,0 +1,23 @@
+"hash": |-
+  86c98a1052e39d43d1734e3e5665b2ef90b7e4f760e827bd52ecac70478c5b54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The IPP object MUST accept any natural language and any Natural
+        Language Override, whether the IPP object supports that natural
+        language or not (and independent of the value of the
+        "ipp-attribute-fidelity" operation attribute).  That is, the IPP
+        object accepts all Client-supplied values no matter what the
+        values are in the Printer's "generated-natural-language-supported"
+        attribute.  That attribute,
+        "generated-natural-language-supported", only applies to generated
+        messages, not Client-supplied messages.  The IPP object MUST
+        remember that natural language for all Client-supplied attributes,
+        and when returning those attributes in response to a query, the
+        IPP object MUST indicate that natural language.
+"fixed": |-
+  - The IPP object MUST accept any natural language and any Natural Language Override, whether the IPP object supports that natural language or not (and independent of the value of the "ipp-attribute-fidelity" operation attribute).  That is, the IPP object accepts all Client-supplied values no matter what the values are in the Printer's "generated-natural-language-supported" attribute.  That attribute, "generated-natural-language-supported", only applies to generated messages, not Client-supplied messages.  The IPP object MUST remember that natural language for all Client-supplied attributes, and when returning those attributes in response to a query, the IPP object MUST indicate that natural language.
+"ko": |-
+  - IPP 객체는 IPP 객체가 자연어를 지원하는지 여부에 관계없이("ipp-attribute-fidelity" 작업 속성의 값과 무관하게) 모든 자연어 및 자연어 재정의를 허용해야 합니다. 즉, IPP 개체는 프린터의 "생성된 자연 언어 지원" 속성에 있는 값에 관계없이 모든 클라이언트 제공 값을 받아들입니다. "생성된 자연어 지원" 속성은 생성된 메시지에만 적용되며 클라이언트 제공 메시지에는 적용되지 않습니다. IPP 객체는 모든 클라이언트 제공 속성에 대한 자연어를 기억해야 하며, 쿼리에 대한 응답으로 해당 속성을 반환할 때 IPP 객체는 해당 자연어를 나타내야 합니다.

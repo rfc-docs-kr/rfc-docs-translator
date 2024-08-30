@@ -1,0 +1,20 @@
+"hash": |-
+  f0db4689d1c00930ba46bcc942c97099d040b27ceb57d9a9786611859e4c3bb5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field contains the length of the content of the message
+     body (i.e., after the double CRLF following the last header field).
+     Unlike in HTTP, it MUST be included in all messages that carry
+     content beyond the header section.  If it is missing, a default value
+     of zero is assumed.  Otherwise, it is interpreted according to
+     [H14.13].  When a message having no use for a message body contains
+     one, i.e., the Content-Length is non-zero, the receiver MUST ignore
+     the content of the message body.  This header field MAY occur on all
+     messages.
+"fixed": |-
+  This header field contains the length of the content of the message body (i.e., after the double CRLF following the last header field). Unlike in HTTP, it MUST be included in all messages that carry content beyond the header section.  If it is missing, a default value of zero is assumed.  Otherwise, it is interpreted according to [H14.13].  When a message having no use for a message body contains one, i.e., the Content-Length is non-zero, the receiver MUST ignore the content of the message body.  This header field MAY occur on all messages.
+"ko": |-
+  이 헤더 필드에는 메시지 본문 내용의 길이(즉, 마지막 헤더 필드 뒤에 오는 이중 CRLF 뒤)가 포함됩니다. HTTP와 달리 헤더 섹션을 넘어 내용을 전달하는 모든 메시지에 포함되어야 합니다. 누락된 경우 기본값인 0이 가정됩니다. 그렇지 않으면 [H14.13]에 따라 해석됩니다. 메시지 본문이 필요 없는 메시지에 본문이 포함되어 있는 경우(즉, Content-Length가 0이 아닌 경우) 수신자는 메시지 본문의 내용을 무시해야 합니다. 이 헤더 필드는 모든 메시지에 발생할 수 있습니다.

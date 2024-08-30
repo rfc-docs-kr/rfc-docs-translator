@@ -1,0 +1,18 @@
+"hash": |-
+  48d5a32065c002e3f12f517acdea3d2253cb306a4d54fbcc607afda46c2405a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In a response, this header field returns the list of request-ids that
+     the method modified or affected.  There could be one or more requests
+     in a request-state of PENDING or IN-PROGRESS.  When a method
+     affecting one or more PENDING or IN-PROGRESS requests is sent from
+     the client to the server, the response MUST contain the list of
+     request-ids that were affected or modified by this command in its
+     header section.
+"fixed": |-
+  In a response, this header field returns the list of request-ids that the method modified or affected.  There could be one or more requests in a request-state of PENDING or IN-PROGRESS.  When a method affecting one or more PENDING or IN-PROGRESS requests is sent from the client to the server, the response MUST contain the list of request-ids that were affected or modified by this command in its header section.
+"ko": |-
+  응답에서 이 헤더 필드는 메서드가 수정하거나 영향을 준 요청 ID 목록을 반환합니다. PENDING 또는 IN-PROGRESS의 요청 상태에 있는 요청이 하나 이상 있을 수 있습니다. PENDING 또는 IN-PROGRESS 요청 중 하나 이상에 영향을 미치는 메서드가 클라이언트에서 서버로 전송되는 경우 응답은 헤더 섹션에 이 명령에 의해 영향을 받거나 수정된 요청 ID 목록을 포함해야 합니다.

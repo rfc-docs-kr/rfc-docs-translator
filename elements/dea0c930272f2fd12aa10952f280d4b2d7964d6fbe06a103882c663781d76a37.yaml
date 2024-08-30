@@ -1,0 +1,17 @@
+"hash": |-
+  dea0c930272f2fd12aa10952f280d4b2d7964d6fbe06a103882c663781d76a37
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     IMF-fixdate = day-name "," SP date1 SP time-of-day SP GMT
+     If-Match = "*" / [ entity-tag *( OWS "," OWS entity-tag ) ]
+     If-Modified-Since = HTTP-date
+     If-None-Match = "*" / [ entity-tag *( OWS "," OWS entity-tag ) ]
+     If-Range = entity-tag / HTTP-date
+     If-Unmodified-Since = HTTP-date
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

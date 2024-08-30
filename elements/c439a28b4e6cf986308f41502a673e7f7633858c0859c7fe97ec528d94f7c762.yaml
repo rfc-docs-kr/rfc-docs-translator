@@ -1,0 +1,49 @@
+"hash": |-
+  c439a28b4e6cf986308f41502a673e7f7633858c0859c7fe97ec528d94f7c762
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   4
+       1.1.  Requirements Language . . . . . . . . . . . . . . . . . .   5
+       1.2.  Vocabulary  . . . . . . . . . . . . . . . . . . . . . . .   5
+     2.  Named Group Overview  . . . . . . . . . . . . . . . . . . . .   5
+     3.  Client Behavior . . . . . . . . . . . . . . . . . . . . . . .   6
+       3.1.  Client Local Policy on Custom Groups  . . . . . . . . . .   7
+     4.  Server Behavior . . . . . . . . . . . . . . . . . . . . . . .   8
+     5.  Optimizations . . . . . . . . . . . . . . . . . . . . . . . .   9
+       5.1.  Checking the Peer's Public Key  . . . . . . . . . . . . .   9
+       5.2.  Short Exponents . . . . . . . . . . . . . . . . . . . . .   9
+       5.3.  Table Acceleration  . . . . . . . . . . . . . . . . . . .  10
+     6.  Operational Considerations  . . . . . . . . . . . . . . . . .  10
+       6.1.  Preference Ordering . . . . . . . . . . . . . . . . . . .  10
+     7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  11
+     8.  Security Considerations . . . . . . . . . . . . . . . . . . .  12
+       8.1.  Negotiation Resistance to Active Attacks  . . . . . . . .  12
+       8.2.  Group Strength Considerations . . . . . . . . . . . . . .  13
+       8.3.  Finite Field DHE Only . . . . . . . . . . . . . . . . . .  13
+       8.4.  Deprecating Weak Groups . . . . . . . . . . . . . . . . .  14
+       8.5.  Choice of Groups  . . . . . . . . . . . . . . . . . . . .  14
+       8.6.  Timing Attacks  . . . . . . . . . . . . . . . . . . . . .  14
+       8.7.  Replay Attacks from Non-negotiated FFDHE  . . . . . . . .  15
+       8.8.  Forward Secrecy . . . . . . . . . . . . . . . . . . . . .  15
+       8.9.  False Start . . . . . . . . . . . . . . . . . . . . . . .  15
+     9.  Privacy Considerations  . . . . . . . . . . . . . . . . . . .  16
+       9.1.  Client Fingerprinting . . . . . . . . . . . . . . . . . .  16
+     10. References  . . . . . . . . . . . . . . . . . . . . . . . . .  16
+       10.1.  Normative References . . . . . . . . . . . . . . . . . .  16
+       10.2.  Informative References . . . . . . . . . . . . . . . . .  17
+     Appendix A.  Supported Groups Registry (Formerly "EC Named Curve
+                  Registry") . . . . . . . . . . . . . . . . . . . . .  19
+       A.1.  ffdhe2048 . . . . . . . . . . . . . . . . . . . . . . . .  19
+       A.2.  ffdhe3072 . . . . . . . . . . . . . . . . . . . . . . . .  20
+       A.3.  ffdhe4096 . . . . . . . . . . . . . . . . . . . . . . . .  22
+       A.4.  ffdhe6144 . . . . . . . . . . . . . . . . . . . . . . . .  23
+       A.5.  ffdhe8192 . . . . . . . . . . . . . . . . . . . . . . . .  26
+     Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .  29
+     Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  29
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

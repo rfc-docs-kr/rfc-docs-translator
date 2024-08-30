@@ -1,0 +1,17 @@
+"hash": |-
+  63deb21cce339ecd23ff0c7f38afdaeaef64f77e4b06049e92e0b242c449f88c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The first byte in the stream has an offset of 0.  The largest offset
+     delivered on a stream -- the sum of the offset and data length --
+     cannot exceed 2^62-1, as it is not possible to provide flow control
+     credit for that data.  Receipt of a frame that exceeds this limit
+     MUST be treated as a connection error of type FRAME_ENCODING_ERROR or
+     FLOW_CONTROL_ERROR.
+"fixed": |-
+  The first byte in the stream has an offset of 0.  The largest offset delivered on a stream -- the sum of the offset and data length -- cannot exceed 2^62-1, as it is not possible to provide flow control credit for that data.  Receipt of a frame that exceeds this limit MUST be treated as a connection error of type FRAME_ENCODING_ERROR or FLOW_CONTROL_ERROR.
+"ko": |-
+  스트림의 첫 번째 바이트의 오프셋은 0입니다. 스트림에 전달된 가장 큰 오프셋(오프셋과 데이터 길이의 합)은 2^62-1을 초과할 수 없습니다. 그 데이터. 이 제한을 초과하는 프레임 수신은 FRAME_ENCODING_ERROR 또는 FLOW_Control_ERROR 유형의 연결 오류로 처리되어야 합니다.

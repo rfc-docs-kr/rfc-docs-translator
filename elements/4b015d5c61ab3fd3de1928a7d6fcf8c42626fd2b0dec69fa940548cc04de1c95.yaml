@@ -1,0 +1,13 @@
+"hash": |-
+  4b015d5c61ab3fd3de1928a7d6fcf8c42626fd2b0dec69fa940548cc04de1c95
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The server MUST verify that the "renegotiation_info" extension is
+        present; if it is not, the server MUST abort the handshake.
+"fixed": |-
+  -  The server MUST verify that the "renegotiation_info" extension is present; if it is not, the server MUST abort the handshake.
+"ko": |-
+  - 서버는 "renegotiation_info" 확장이 존재하는지 확인해야 합니다. 그렇지 않은 경우 서버는 핸드셰이크를 중단해야 합니다.

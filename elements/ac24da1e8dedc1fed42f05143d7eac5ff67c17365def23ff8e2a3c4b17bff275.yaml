@@ -1,0 +1,15 @@
+"hash": |-
+  ac24da1e8dedc1fed42f05143d7eac5ff67c17365def23ff8e2a3c4b17bff275
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints MUST discard packets that are too small to be valid QUIC
+     packets.  To give an example, with the set of AEAD functions defined
+     in [QUIC-TLS], short header packets that are smaller than 21 bytes
+     are never valid.
+"fixed": |-
+  Endpoints MUST discard packets that are too small to be valid QUIC packets.  To give an example, with the set of AEAD functions defined in [QUIC-TLS], short header packets that are smaller than 21 bytes are never valid.
+"ko": |-
+  엔드포인트는 유효한 QUIC 패킷이 되기에는 너무 작은 패킷을 폐기해야 합니다. 예를 들어, [QUIC-TLS]에 정의된 AEAD 기능 세트를 사용하면 21바이트보다 작은 짧은 헤더 패킷은 절대 유효하지 않습니다.

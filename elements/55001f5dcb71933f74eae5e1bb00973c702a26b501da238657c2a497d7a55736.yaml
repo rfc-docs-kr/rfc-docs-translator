@@ -1,0 +1,16 @@
+"hash": |-
+  55001f5dcb71933f74eae5e1bb00973c702a26b501da238657c2a497d7a55736
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The RENAME command changes the name of a mailbox.  A tagged OK
+     response is returned only if the mailbox has been renamed.  It is an
+     error to attempt to rename from a mailbox name that does not exist or
+     to a mailbox name that already exists.  Any error in renaming will
+     return a tagged NO response.
+"fixed": |-
+  The RENAME command changes the name of a mailbox.  A tagged OK response is returned only if the mailbox has been renamed.  It is an error to attempt to rename from a mailbox name that does not exist or to a mailbox name that already exists.  Any error in renaming will return a tagged NO response.
+"ko": |-
+  RENAME 명령은 메일함의 이름을 변경합니다.  태그가 지정된 OK 응답은 사서함 이름이 변경된 경우에만 반환됩니다.  존재하지 않는 편지함 이름에서 또는 이미 존재하는 편지함 이름으로 이름을 바꾸려고 하면 오류입니다.  이름을 바꾸는 동안 오류가 발생하면 태그된 NO 응답이 반환됩니다.

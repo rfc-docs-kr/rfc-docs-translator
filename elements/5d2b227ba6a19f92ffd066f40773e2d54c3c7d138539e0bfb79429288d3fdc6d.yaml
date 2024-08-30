@@ -1,0 +1,18 @@
+"hash": |-
+  5d2b227ba6a19f92ffd066f40773e2d54c3c7d138539e0bfb79429288d3fdc6d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a peer sends a NOTIFICATION message, and the receiver of the
+     message detects an error in that message, the receiver cannot use a
+     NOTIFICATION message to report this error back to the peer.  Any such
+     error (e.g., an unrecognized Error Code or Error Subcode) SHOULD be
+     noticed, logged locally, and brought to the attention of the
+     administration of the peer.  The means to do this, however, lies
+     outside the scope of this document.
+"fixed": |-
+  If a peer sends a NOTIFICATION message, and the receiver of the message detects an error in that message, the receiver cannot use a NOTIFICATION message to report this error back to the peer.  Any such error (e.g., an unrecognized Error Code or Error Subcode) SHOULD be noticed, logged locally, and brought to the attention of the administration of the peer.  The means to do this, however, lies outside the scope of this document.
+"ko": |-
+  피어가 NOTIFICATION 메시지를 보내고 메시지 수신자가 해당 메시지에서 오류를 감지한 경우 수신자는 NOTIFICATION 메시지를 사용하여 이 오류를 피어에게 다시 보고할 수 없습니다. 이러한 오류(예: 인식할 수 없는 오류 코드 또는 오류 하위 코드)는 모두 인지하고, 로컬로 기록하고, 피어 관리팀에 알려야 합니다. 그러나 이를 수행하는 방법은 이 문서의 범위를 벗어납니다.

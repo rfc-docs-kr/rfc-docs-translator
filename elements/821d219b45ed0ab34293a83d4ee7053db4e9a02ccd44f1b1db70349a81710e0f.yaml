@@ -1,0 +1,18 @@
+"hash": |-
+  821d219b45ed0ab34293a83d4ee7053db4e9a02ccd44f1b1db70349a81710e0f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint cannot determine the Source Connection ID from a packet
+     with a short header; therefore, it cannot set the Destination
+     Connection ID in the Stateless Reset.  The Destination Connection ID
+     will therefore differ from the value used in previous packets.  A
+     random Destination Connection ID makes the connection ID appear to be
+     the result of moving to a new connection ID that was provided using a
+     NEW_CONNECTION_ID frame; see Section 19.15.
+"fixed": |-
+  An endpoint cannot determine the Source Connection ID from a packet with a short header; therefore, it cannot set the Destination Connection ID in the Stateless Reset.  The Destination Connection ID will therefore differ from the value used in previous packets.  A random Destination Connection ID makes the connection ID appear to be the result of moving to a new connection ID that was provided using a NEW_CONNECTION_ID frame; see Section 19.15.
+"ko": |-
+  엔드포인트는 짧은 헤더가 있는 패킷에서 소스 연결 ID를 확인할 수 없습니다. 따라서 Stateless Reset에서는 대상 연결 ID를 설정할 수 없습니다. 따라서 대상 연결 ID는 이전 패킷에 사용된 값과 다릅니다. 임의의 대상 연결 ID는 연결 ID가 NEW_CONNECTION_ID 프레임을 사용하여 제공된 새 연결 ID로 이동한 결과인 것처럼 보이게 합니다. 섹션 19.15를 참조하세요.

@@ -1,0 +1,16 @@
+"hash": |-
+  a445c9e196a7c9b245a2eddaea694841fef004766ed1e66ac83f23fe65a6f0af
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If a TcpConnection_Valid (Event 14), Tcp_CR_Acked (Event 16), or a
+        TcpConnectionConfirmed event (Event 17) is received, a second TCP
+        connection may be in progress.  This second TCP connection is
+        tracked per Connection Collision processing (Section 6.8) until an
+        OPEN message is received.
+"fixed": |-
+  - If a TcpConnection_Valid (Event 14), Tcp_CR_Acked (Event 16), or a TcpConnectionConfirmed event (Event 17) is received, a second TCP connection may be in progress.  This second TCP connection is tracked per Connection Collision processing (Section 6.8) until an OPEN message is received.
+"ko": |-
+  - TcpConnection_Valid(이벤트 14), Tcp_CR_Acked(이벤트 16) 또는 TcpConnectionConfirmed 이벤트(이벤트 17)가 수신되면 두 번째 TCP 연결이 진행 중일 수 있습니다. 이 두 번째 TCP 연결은 OPEN 메시지가 수신될 때까지 연결 충돌 처리(6.8절)별로 추적됩니다.

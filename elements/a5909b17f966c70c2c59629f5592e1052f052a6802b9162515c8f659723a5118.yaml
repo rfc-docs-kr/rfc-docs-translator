@@ -1,0 +1,21 @@
+"hash": |-
+  a5909b17f966c70c2c59629f5592e1052f052a6802b9162515c8f659723a5118
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The OPTIONAL [CHARSET] specification consists of the word "CHARSET"
+     followed by the name of a character set from the registry
+     [CHARSET-REG].  It indicates the [CHARSET] of the strings that appear
+     in the search criteria.  [MIME-IMB] content transfer encodings and
+     [MIME-HDRS] strings in [RFC5322]/[MIME-IMB] headers MUST be decoded
+     before comparing text.  Servers MUST support US-ASCII and UTF-8
+     charsets; other CHARSETs MAY be supported.  Clients SHOULD use UTF-8.
+     Note that if CHARSET is not provided, IMAP4rev2 servers MUST assume
+     UTF-8, so selecting CHARSET UTF-8 is redundant.  It is permitted for
+     improved compatibility with existing IMAP4rev1 clients.
+"fixed": |-
+  The OPTIONAL [CHARSET] specification consists of the word "CHARSET" followed by the name of a character set from the registry [CHARSET-REG].  It indicates the [CHARSET] of the strings that appear in the search criteria.  [MIME-IMB] content transfer encodings and [MIME-HDRS] strings in [RFC5322]/[MIME-IMB] headers MUST be decoded before comparing text.  Servers MUST support US-ASCII and UTF-8 charsets; other CHARSETs MAY be supported.  Clients SHOULD use UTF-8. Note that if CHARSET is not provided, IMAP4rev2 servers MUST assume UTF-8, so selecting CHARSET UTF-8 is redundant.  It is permitted for improved compatibility with existing IMAP4rev1 clients.
+"ko": |-
+  OPTIONAL [CHARSET] 사양은 "CHARSET"이라는 단어와 그 뒤에 나오는 레지스트리 [CHARSET-REG]의 문자 집합 이름으로 구성됩니다.  검색기준에 나타나는 문자열의 [CHARSET]을 나타냅니다.  [MIME-IMB] 콘텐츠 전송 인코딩과 [RFC5322]/[MIME-IMB] 헤더의 [MIME-HDRS] 문자열은 텍스트를 비교하기 전에 디코딩되어야 합니다.  서버는 US-ASCII 및 UTF-8 문자 세트를 지원해야 합니다. 다른 CHARSET도 지원될 수 있습니다.  클라이언트는 UTF-8을 사용해야 합니다. CHARSET이 제공되지 않으면 IMAP4rev2 서버는 UTF-8을 가정해야 하므로 CHARSET UTF-8을 선택하는 것은 중복됩니다.  기존 IMAP4rev1 클라이언트와의 향상된 호환성을 위해 허용됩니다.

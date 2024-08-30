@@ -1,0 +1,1 @@
+OCSP 응답을 요청하고 "CertificateStatus" 메시지에서 OCSP 응답을 수신하는 클라이언트는 반드시 OCSP 응답을 확인하고 bad_certificate_status_response(113) 경고로 응답이 만족스럽지 않은 경우 핸드셰이크를 중단해야 합니다. 이 경고는 항상 치명적입니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  038d0590e56deb47208045e6bfba2a9291a317842d7413cc1a7f3bdbc0bf9d62
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The order in which field lines with differing field names are
+     received in a section is not significant.  However, it is good
+     practice to send header fields that contain additional control data
+     first, such as Host on requests and Date on responses, so that
+     implementations can decide when not to handle a message as early as
+     possible.
+"fixed": |-
+  The order in which field lines with differing field names are received in a section is not significant.  However, it is good practice to send header fields that contain additional control data first, such as Host on requests and Date on responses, so that implementations can decide when not to handle a message as early as possible.
+"ko": |-
+  서로 다른 필드 이름을 가진 필드 줄이 섹션에 수신되는 순서는 중요하지 않습니다. 그러나 구현 시 가능한 한 빨리 메시지를 처리하지 않을 시기를 결정할 수 있도록 요청 시 호스트, 응답 시 날짜 등 추가 제어 데이터가 포함된 헤더 필드를 먼저 보내는 것이 좋습니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  b26518be577cfebbff62d20955b6060502e9545ef10c3b082b82470e91d123b8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     body parameter parenthesized list
+        A parenthesized list of attribute/value pairs (e.g., ("foo" "bar"
+        "baz" "rag") where "bar" is the value of "foo", and "rag" is the
+        value of "baz") as defined in [MIME-IMB].  Servers SHOULD decode
+        parameter-value continuations and parameter-value character sets
+        as described in [RFC2231], for example, if the message contains
+        parameters "baz*0", "baz*1", and "baz*2", the server should decode
+        them per [RFC2231], concatenate, and return the resulting value as
+        a parameter "baz".  Similarly, if the message contains parameters
+        "foo*0*" and "foo*1*", the server should decode them per
+        [RFC2231], convert to UTF-8, concatenate, and return the resulting
+        value as a parameter "foo*".
+"fixed": |-
+  body parameter parenthesized list  -  A parenthesized list of attribute/value pairs (e.g., ("foo" "bar" "baz" "rag") where "bar" is the value of "foo", and "rag" is the value of "baz") as defined in [MIME-IMB].  Servers SHOULD decode parameter-value continuations and parameter-value character sets as described in [RFC2231], for example, if the message contains parameters "baz*0", "baz*1", and "baz*2", the server should decode them per [RFC2231], concatenate, and return the resulting value as a parameter "baz".  Similarly, if the message contains parameters "foo*0*" and "foo*1*", the server should decode them per [RFC2231], convert to UTF-8, concatenate, and return the resulting value as a parameter "foo*".
+"ko": |-
+  본문 매개변수 괄호로 묶인 목록 - 속성/값 쌍의 괄호로 묶인 목록(예: ("foo" "bar" "baz" "rag") 여기서 "bar"는 "foo"의 값이고 "rag"는 다음의 값입니다. "baz")는 [MIME-IMB]에 정의되어 있습니다.  서버는 [RFC2231]에 설명된 대로 매개변수-값 연속 및 매개변수-값 문자 집합을 디코딩해야 합니다. 예를 들어 메시지에 매개변수 "baz*0", "baz*1" 및 "baz*2"가 포함된 경우 서버는 다음을 수행해야 합니다. [RFC2231]에 따라 디코딩하고 연결한 후 결과 값을 "baz" 매개변수로 반환합니다.  마찬가지로, 메시지에 "foo*0*" 및 "foo*1*" 매개변수가 포함된 경우 서버는 [RFC2231]에 따라 이를 디코딩하고 UTF-8로 변환한 후 연결하고 결과 값을 "foo* 매개변수로 반환해야 합니다. ".

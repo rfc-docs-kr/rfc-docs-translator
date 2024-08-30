@@ -1,0 +1,1 @@
+1. 암호 무결성에만 존재하는 MacData의 선택적 인스턴스. 이 객체가 있는 경우 MAC 값, macSalt 및 iterationCount를 보유하는 PKCS #7 DigestInfo가 포함됩니다. 부록 B에 설명된 대로 MAC 키는 암호, macSalt 및 iterationCount에서 파생됩니다. 섹션 5에 설명된 대로 MAC은 HMAC [11] [20]를 통해 authSafe 값과 MAC 키에서 계산됩니다. 암호와 MAC 키는 실제로 PFX 어디에도 존재하지 않습니다. salt와 (어느 정도) 반복 횟수는 무결성 암호에 대한 사전 공격을 방해합니다. 반복 횟수에 대한 적절한 값을 선택하는 방법에 대한 내용은 NIST 특별 간행물 800-132 [12]를 참조하십시오.

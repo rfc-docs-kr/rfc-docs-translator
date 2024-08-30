@@ -1,0 +1,16 @@
+"hash": |-
+  9baf462210bbc9e9f8cccc1c146bca36af615b674dd6582e423d4355cbf62509
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Regardless of what implementation decisions a client makes on
+     remembering data from the server, a client implementation MUST
+     remember mailbox size updates.  It MUST NOT assume that any command
+     after the initial mailbox selection will return the size of the
+     mailbox.
+"fixed": |-
+  Regardless of what implementation decisions a client makes on remembering data from the server, a client implementation MUST remember mailbox size updates.  It MUST NOT assume that any command after the initial mailbox selection will return the size of the mailbox.
+"ko": |-
+  클라이언트가 서버의 데이터 기억에 관해 어떤 구현 결정을 내리든 관계없이 클라이언트 구현은 메일함 크기 업데이트를 기억해야 합니다.  초기 메일박스 선택 이후의 모든 명령이 메일박스의 크기를 반환한다고 가정해서는 안 됩니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  1310db6afd939c36d45317520af2c9a8b496da8d68e812b3d5af417659677761
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To allow interoperability with legacy clients and servers, a TLS peer
+     may decide to accept full handshakes that use the legacy master
+     secret computation.  If so, they need to differentiate between
+     sessions that use legacy and extended master secrets by adding a flag
+     to the session state.
+"fixed": |-
+  To allow interoperability with legacy clients and servers, a TLS peer may decide to accept full handshakes that use the legacy master secret computation.  If so, they need to differentiate between sessions that use legacy and extended master secrets by adding a flag to the session state.
+"ko": |-
+  레거시 클라이언트 및 서버와의 상호 운용성을 허용하기 위해 TLS 피어는 레거시 마스터 비밀 계산을 사용하는 전체 핸드셰이크를 수락하기로 결정할 수 있습니다. 그렇다면 세션 상태에 플래그를 추가하여 레거시 및 확장 마스터 비밀을 사용하는 세션을 구별해야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  a3e4106f6d741d499b15a9470327093e72ea538aabfb095c2a30b587b9da804a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The most important security consideration in implementing this
+     document is the uniqueness of the nonce used in ChaCha20.  Counters
+     and LFSRs are both acceptable ways of generating unique nonces, as is
+     encrypting a counter using a block cipher with a 64-bit block size
+     such as DES.  Note that it is not acceptable to use a truncation of a
+     counter encrypted with block ciphers with 128-bit or 256-bit blocks,
+     because such a truncation may repeat after a short time.
+"fixed": |-
+  The most important security consideration in implementing this document is the uniqueness of the nonce used in ChaCha20.  Counters and LFSRs are both acceptable ways of generating unique nonces, as is encrypting a counter using a block cipher with a 64-bit block size such as DES.  Note that it is not acceptable to use a truncation of a counter encrypted with block ciphers with 128-bit or 256-bit blocks, because such a truncation may repeat after a short time.
+"ko": |-
+  이 문서를 구현할 때 가장 중요한 보안 고려 사항은 ChaCha20에서 사용되는 nonce의 고유성입니다. 카운터와 LFSR은 모두 DES와 같은 64비트 블록 크기의 블록 암호를 사용하여 카운터를 암호화하는 것처럼 고유 nonce를 생성하는 데 허용되는 방법입니다. 128비트 또는 256비트 블록의 블록 암호로 암호화된 카운터의 절단을 사용하는 것은 허용되지 않습니다. 이러한 절단은 짧은 시간 후에 반복될 수 있기 때문입니다.

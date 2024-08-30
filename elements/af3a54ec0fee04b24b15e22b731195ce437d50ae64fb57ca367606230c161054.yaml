@@ -1,0 +1,22 @@
+"hash": |-
+  af3a54ec0fee04b24b15e22b731195ce437d50ae64fb57ca367606230c161054
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AEAD approach benefits the implementer of the crypto algorithms
+     by making available optimizations that are otherwise not possible to
+     reduce the amount of computation, the implementation cost, and/or the
+     storage requirements.  The simpler interface makes testing easier;
+     this is a considerable benefit for a crypto algorithm implementation.
+     By providing a uniform interface to access cryptographic services,
+     the AEAD approach allows a single crypto implementation to more
+     easily support multiple applications.  For example, a hardware module
+     that supports the AEAD interface can easily provide crypto
+     acceleration to any application using that interface, even to
+     applications that had not been designed when the module was built.
+"fixed": |-
+  The AEAD approach benefits the implementer of the crypto algorithms by making available optimizations that are otherwise not possible to reduce the amount of computation, the implementation cost, and/or the storage requirements.  The simpler interface makes testing easier; this is a considerable benefit for a crypto algorithm implementation. By providing a uniform interface to access cryptographic services, the AEAD approach allows a single crypto implementation to more easily support multiple applications.  For example, a hardware module that supports the AEAD interface can easily provide crypto acceleration to any application using that interface, even to applications that had not been designed when the module was built.
+"ko": |-
+  AEAD 접근 방식은 계산량, 구현 비용 및/또는 스토리지 요구 사항을 줄이기 위해 불가능했던 최적화를 가능하게 함으로써 암호화 알고리즘 구현자에게 이점을 제공합니다. 인터페이스가 단순할수록 테스트가 더 쉬워집니다. 이는 암호화 알고리즘 구현에 있어 상당한 이점입니다. AEAD 접근 방식은 암호화 서비스에 액세스하기 위한 통일된 인터페이스를 제공함으로써 단일 암호화 구현을 통해 여러 애플리케이션을 보다 쉽게 ​​지원할 수 있습니다. 예를 들어, AEAD 인터페이스를 지원하는 하드웨어 모듈은 해당 인터페이스를 사용하는 모든 애플리케이션에 암호화 가속을 쉽게 제공할 수 있으며, 심지어 모듈 구축 시 설계되지 않은 애플리케이션에도 암호화 가속을 제공할 수 있습니다.

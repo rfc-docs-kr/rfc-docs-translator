@@ -1,0 +1,21 @@
+"hash": |-
+  28a54a920672fd36c05145090a38f692e751f15189be35662309d10445d3fc19
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The purpose of the "rel" parameter is to return a subset of "link
+     relation objects" (see Section 4.4.4) that would otherwise be
+     returned in the resource descriptor.  Use of the parameter might
+     reduce processing requirements on either the client or server, and it
+     might also reduce the bandwidth required to convey the partial
+     resource descriptor, especially if there are numerous link relation
+     values to convey for a given "resource" value.  Note that if a client
+     requests a particular link relation type for which the server has no
+     information, the server MAY return a JRD with an empty "links" array
+     or no "links" array.
+"fixed": |-
+  The purpose of the "rel" parameter is to return a subset of "link relation objects" (see Section 4.4.4) that would otherwise be returned in the resource descriptor.  Use of the parameter might reduce processing requirements on either the client or server, and it might also reduce the bandwidth required to convey the partial resource descriptor, especially if there are numerous link relation values to convey for a given "resource" value.  Note that if a client requests a particular link relation type for which the server has no information, the server MAY return a JRD with an empty "links" array or no "links" array.
+"ko": |-
+  "rel" 매개변수의 목적은 자원 설명자에서 반환되는 "링크 관계 개체"(섹션 4.4.4 참조)의 하위 집합을 반환하는 것입니다. 매개변수를 사용하면 클라이언트나 서버의 처리 요구 사항이 줄어들 수 있으며, 특히 주어진 "리소스" 값에 대해 전달할 링크 관계 값이 많은 경우 부분 리소스 설명자를 전달하는 데 필요한 대역폭도 줄어들 수 있습니다. 클라이언트가 서버에 정보가 없는 특정 링크 관계 유형을 요청하는 경우 서버는 빈 "링크" 배열 또는 "링크" 배열이 없는 JRD를 반환할 수 있습니다.

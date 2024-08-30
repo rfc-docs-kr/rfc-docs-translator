@@ -1,0 +1,17 @@
+"hash": |-
+  8da3a34d357b6a9be467a49bb876b485e1b8b78a1e86a68dca298c6c53298d11
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To prevent this attack (barring the session hash fix documented in
+     [RFC7627]), a client would need not only to implement this document,
+     but also to reject non-negotiated FFDHE cipher suites whose group
+     structure it cannot afford to verify.  Such a client would need to
+     abort the initial handshake and reconnect to the server in question
+     without listing any FFDHE cipher suites on the subsequent connection.
+"fixed": |-
+  To prevent this attack (barring the session hash fix documented in [RFC7627]), a client would need not only to implement this document, but also to reject non-negotiated FFDHE cipher suites whose group structure it cannot afford to verify.  Such a client would need to abort the initial handshake and reconnect to the server in question without listing any FFDHE cipher suites on the subsequent connection.
+"ko": |-
+  이 공격을 방지하려면([RFC7627]에 문서화된 세션 해시 수정을 제외하고) 클라이언트는 이 문서를 구현해야 할 뿐만 아니라 그룹 구조를 확인할 수 없는 협상되지 않은 FFDHE 암호 그룹을 거부해야 합니다.  이러한 클라이언트는 초기 핸드셰이크를 중단하고 후속 연결에서 FFDHE 암호화 제품군을 나열하지 않고 문제의 서버에 다시 연결해야 합니다.

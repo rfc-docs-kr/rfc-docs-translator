@@ -1,0 +1,21 @@
+"hash": |-
+  ea5a1b190a5a3a29c742fc203142c61bbcfb2230708a8d8f0a266e2684fc4b76
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                           * Prepares transmission of outgoing messages.
+                             It picks up text messages from shared pages
+                             (the messages are stored there by users),
+                             formats them (adds leader, marking,
+                             checksum..), and passes them along to the
+                             Handler for transmission.
+                           * Insures delivery of incoming messages.  It is
+                             the opposite of the above operation.  The
+                             users to which the messages should be
+                             delivered are identified through the leaders.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

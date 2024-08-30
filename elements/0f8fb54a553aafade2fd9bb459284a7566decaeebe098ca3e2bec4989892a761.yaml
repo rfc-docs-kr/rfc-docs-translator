@@ -1,0 +1,18 @@
+"hash": |-
+  0f8fb54a553aafade2fd9bb459284a7566decaeebe098ca3e2bec4989892a761
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some cipher algorithms have weak keys or keys that MUST not be used
+     due to their interaction with some aspect of the cipher's definition.
+     If weak keys are discovered for the AES, then weak keys SHOULD be
+     checked for and discarded when using manual key management.  When
+     using dynamic key management, such as [IKE], weak key checks SHOULD
+     NOT be performed as they are seen as an unnecessary added code
+     complexity that could weaken the intended security [EVALUATION].
+"fixed": |-
+  Some cipher algorithms have weak keys or keys that MUST not be used due to their interaction with some aspect of the cipher's definition. If weak keys are discovered for the AES, then weak keys SHOULD be checked for and discarded when using manual key management.  When using dynamic key management, such as [IKE], weak key checks SHOULD NOT be performed as they are seen as an unnecessary added code complexity that could weaken the intended security [EVALUATION].
+"ko": |-
+  일부 암호 알고리즘에는 암호 정의의 일부 측면과의 상호 작용으로 인해 사용해서는 안 되는 약한 키 또는 키가 있습니다. AES에 대해 취약한 키가 발견되면 수동 키 관리를 사용할 때 취약한 키를 확인하고 폐기해야 합니다. [IKE]와 같은 동적 키 관리를 사용할 때 약한 키 검사는 의도된 보안을 약화시킬 수 있는 불필요하게 추가된 코드 복잡성으로 간주되므로 수행해서는 안 됩니다. [EVALUATION]

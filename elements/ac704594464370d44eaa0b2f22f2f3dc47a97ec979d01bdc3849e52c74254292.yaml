@@ -1,0 +1,21 @@
+"hash": |-
+  ac704594464370d44eaa0b2f22f2f3dc47a97ec979d01bdc3849e52c74254292
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         final_client_write_key =
+         PRF(SecurityParameters.client_write_key,
+                                    "client write key",
+                                    SecurityParameters.client_random +
+                                    SecurityParameters.server_random);
+         final_server_write_key =
+         PRF(SecurityParameters.server_write_key,
+                                    "server write key",
+                                    SecurityParameters.client_random +
+                                    SecurityParameters.server_random);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  d2aa335b435db1c34fdd94aff1a00f82c32cc0b4bb8c97fb05094bb1c18e7cb9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint only changes the address to which it sends packets in
+     response to the highest-numbered non-probing packet.  This ensures
+     that an endpoint does not send packets to an old peer address in the
+     case that it receives reordered packets.
+"fixed": |-
+  An endpoint only changes the address to which it sends packets in response to the highest-numbered non-probing packet.  This ensures that an endpoint does not send packets to an old peer address in the case that it receives reordered packets.
+"ko": |-
+  엔드포인트는 가장 높은 번호의 비프로빙 패킷에 대한 응답으로 패킷을 보내는 주소만 변경합니다. 이렇게 하면 엔드포인트가 재정렬된 패킷을 수신하는 경우 이전 피어 주소로 패킷을 보내지 않습니다.

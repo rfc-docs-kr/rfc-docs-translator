@@ -1,0 +1,23 @@
+"hash": |-
+  cce2920f192eccd91fe9c8cfd88950a3cd6b762269f2539670e71d8660d313cf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All MRCPv2 requests, responses, and events MUST contain the Channel-
+     Identifier header field.  The value is allocated by the server when a
+     control channel is added to the session and communicated to the
+     client by the "a=channel" attribute in the SDP answer from the
+     server.  The header field value consists of 2 parts separated by the
+     '@' symbol.  The first part is an unambiguous string identifying the
+     MRCPv2 session.  The second part is a string token that specifies one
+     of the media processing resource types listed in Section 3.1.  The
+     unambiguous string (first part) MUST be difficult to guess, unique
+     among the resource instances managed by the server, and common to all
+     resource channels with that server established through a single SIP
+     dialog.
+"fixed": |-
+  All MRCPv2 requests, responses, and events MUST contain the Channel- Identifier header field.  The value is allocated by the server when a control channel is added to the session and communicated to the client by the "a=channel" attribute in the SDP answer from the server.  The header field value consists of 2 parts separated by the '@' symbol.  The first part is an unambiguous string identifying the MRCPv2 session.  The second part is a string token that specifies one of the media processing resource types listed in Section 3.1.  The unambiguous string (first part) MUST be difficult to guess, unique among the resource instances managed by the server, and common to all resource channels with that server established through a single SIP dialog.
+"ko": |-
+  모든 MRCPv2 요청, 응답 및 이벤트에는 Channel-Identifier 헤더 필드가 포함되어야 합니다. 이 값은 제어 채널이 세션에 추가되고 서버의 SDP 답변에 있는 "a=channel" 속성을 통해 클라이언트에 전달될 때 서버에서 할당합니다. 헤더 필드 값은 '@' 기호로 구분된 두 부분으로 구성됩니다. 첫 번째 부분은 MRCPv2 세션을 식별하는 명확한 문자열입니다. 두 번째 부분은 섹션 3.1에 나열된 미디어 처리 리소스 유형 중 하나를 지정하는 문자열 토큰입니다. 명확한 문자열(첫 번째 부분)은 추측하기 어렵고, 서버에서 관리하는 리소스 인스턴스 중에서 고유해야 하며, 단일 SIP 대화를 통해 해당 서버가 설정된 모든 리소스 채널에 공통적이어야 합니다.

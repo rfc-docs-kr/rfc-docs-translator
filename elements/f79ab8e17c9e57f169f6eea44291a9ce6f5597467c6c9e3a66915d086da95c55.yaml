@@ -1,0 +1,17 @@
+"hash": |-
+  f79ab8e17c9e57f169f6eea44291a9ce6f5597467c6c9e3a66915d086da95c55
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Forward secrecy also depends on the strength of the Diffie-Hellman
+     group; using a very strong symmetric cipher like AES256 with a
+     forward-secret cipher suite but generating the keys with a much
+     weaker group like dhe2048 simply moves the adversary's cost from
+     attacking the symmetric cipher to attacking the dh_Ys or dh_Yc
+     ephemeral key shares.
+"fixed": |-
+  Forward secrecy also depends on the strength of the Diffie-Hellman group; using a very strong symmetric cipher like AES256 with a forward-secret cipher suite but generating the keys with a much weaker group like dhe2048 simply moves the adversary's cost from attacking the symmetric cipher to attacking the dh_Ys or dh_Yc ephemeral key shares.
+"ko": |-
+  순방향 비밀성은 Diffie-Hellman 그룹의 강점에도 달려 있습니다. 순방향 비밀 암호 제품군과 함께 AES256과 같은 매우 강력한 대칭 암호를 사용하지만 dhe2048과 같은 훨씬 약한 그룹으로 키를 생성하면 상대의 비용이 대칭 암호 공격에서 dh_Ys 또는 dh_Yc 임시 키 공유 공격으로 이동됩니다.

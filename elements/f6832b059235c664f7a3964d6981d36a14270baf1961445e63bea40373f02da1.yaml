@@ -9,7 +9,7 @@
            the total length so far to an integral multiple of 16.  If the
            length of the ciphertext was already an integral multiple of 16
            bytes, this field is zero-length.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  - *  padding2 -- the padding is up to 15 zero bytes, and it brings the total length so far to an integral multiple of 16.  If the length of the ciphertext was already an integral multiple of 16 bytes, this field is zero-length.
+"ko": |-
+  - * padding2 -- 패딩은 최대 15개의 0바이트이며 총 길이는 16의 정수배가 됩니다. 암호문의 길이가 이미 16바이트의 정수배인 경우 이 필드는 길이가 0입니다. .

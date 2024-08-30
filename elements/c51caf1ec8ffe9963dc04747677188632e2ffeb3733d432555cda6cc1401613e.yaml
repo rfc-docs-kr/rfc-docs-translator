@@ -1,0 +1,18 @@
+"hash": |-
+  c51caf1ec8ffe9963dc04747677188632e2ffeb3733d432555cda6cc1401613e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The status of encrypt-then-MAC vs. MAC-then-encrypt can potentially
+     change during one or more rehandshakes.  Implementations SHOULD
+     retain the current session state across all rehandshakes for that
+     session.  (In other words, if the mechanism for the current session
+     is X, then the renegotiated session should also use X.)  Although
+     implementations SHOULD NOT change the state during a rehandshake, if
+     they wish to be more flexible, then the following rules apply:
+"fixed": |-
+  The status of encrypt-then-MAC vs. MAC-then-encrypt can potentially change during one or more rehandshakes.  Implementations SHOULD retain the current session state across all rehandshakes for that session.  (In other words, if the mechanism for the current session is X, then the renegotiated session should also use X.)  Although implementations SHOULD NOT change the state during a rehandshake, if they wish to be more flexible, then the following rules apply:
+"ko": |-
+  encrypt-then-MAC 대 MAC-then-encrypt의 상태는 하나 이상의 재핸드셰이크 중에 잠재적으로 변경될 수 있습니다. 구현은 해당 세션의 모든 재핸드셰이크에서 현재 세션 상태를 유지해야 합니다. (즉, 현재 세션의 메커니즘이 X인 경우 재협상된 세션도 X를 사용해야 합니다.) 구현은 재핸드셰이크 중에 상태를 변경해서는 안 되지만, 더 유연하게 하려는 경우 다음 규칙이 적용됩니다.

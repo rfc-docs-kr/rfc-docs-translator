@@ -1,0 +1,16 @@
+"hash": |-
+  2316af322d076333ddb1dd35e5c2d7003343396aae0d549c645879adb9d17aba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The change cipher spec message is sent by both the client and the
+     server to notify the receiving party that subsequent records will be
+     protected under the newly negotiated CipherSpec and keys.  Reception
+     of this message causes the receiver to instruct the Record Layer to
+     immediately copy the read pending state into the read current state.
+"fixed": |-
+  The change cipher spec message is sent by both the client and the server to notify the receiving party that subsequent records will be protected under the newly negotiated CipherSpec and keys.  Reception of this message causes the receiver to instruct the Record Layer to immediately copy the read pending state into the read current state.
+"ko": |-
+  암호 사양 변경 메시지는 클라이언트와 서버 모두에서 전송되어 후속 레코드가 새로 협상된 CipherSpec 및 키에 따라 보호될 것임을 수신자에게 알립니다. 이 메시지를 수신하면 수신자는 읽기 보류 상태를 읽기 현재 상태로 즉시 복사하도록 레코드 계층에 지시하게 됩니다.

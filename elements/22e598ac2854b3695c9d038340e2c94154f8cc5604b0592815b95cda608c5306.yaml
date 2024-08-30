@@ -1,0 +1,16 @@
+"hash": |-
+  22e598ac2854b3695c9d038340e2c94154f8cc5604b0592815b95cda608c5306
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        + Under Case B: If Seql >= Bl (where Bl = Tl - W + 1) OR Seql <=
+          Tl, then check the corresponding bit in the window to see if
+          this Seql has already been seen.  If yes, reject the packet.  If
+          no, perform integrity check (see Appendix A2.2. below for
+          determination of Seqh).
+"fixed": |-
+  - + Under Case B: If Seql >= Bl (where Bl = Tl - W + 1) OR Seql <= Tl, then check the corresponding bit in the window to see if this Seql has already been seen.  If yes, reject the packet.  If no, perform integrity check (see Appendix A2.2. below for determination of Seqh).
+"ko": |-
+  - + 사례 B의 경우: Seql >= Bl(Bl = Tl - W + 1) 또는 Seql <= Tl이면 창에서 해당 비트를 확인하여 이 Seql이 이미 표시되었는지 확인합니다.  그렇다면 패킷을 거부하십시오.  그렇지 않은 경우 무결성 검사를 수행합니다(Seqh 결정은 아래 부록 A2.2 참조).

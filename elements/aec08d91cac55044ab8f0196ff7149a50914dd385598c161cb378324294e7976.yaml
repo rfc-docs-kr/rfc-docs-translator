@@ -1,0 +1,22 @@
+"hash": |-
+  aec08d91cac55044ab8f0196ff7149a50914dd385598c161cb378324294e7976
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When using a PSK with a key transport or a key agreement algorithm, a
+     key-encryption key is produced to encrypt the content-encryption key
+     or content-authenticated-encryption key.  If the key-encryption
+     algorithm is different than the algorithm used to protect the
+     content, then the effective security is determined by the weaker of
+     the two algorithms.  If, for example, content is encrypted with
+     256-bit AES and the key is wrapped with 128-bit AES, then, at most,
+     128 bits of protection are provided.  Implementers must ensure that
+     the key-encryption algorithm is as strong or stronger than the
+     content-encryption algorithm or content-authenticated-encryption
+     algorithm.
+"fixed": |-
+  When using a PSK with a key transport or a key agreement algorithm, a key-encryption key is produced to encrypt the content-encryption key or content-authenticated-encryption key.  If the key-encryption algorithm is different than the algorithm used to protect the content, then the effective security is determined by the weaker of the two algorithms.  If, for example, content is encrypted with 256-bit AES and the key is wrapped with 128-bit AES, then, at most, 128 bits of protection are provided.  Implementers must ensure that the key-encryption algorithm is as strong or stronger than the content-encryption algorithm or content-authenticated-encryption algorithm.
+"ko": |-
+  키 전송 또는 키 계약 알고리즘과 함께 PSK를 사용하는 경우 콘텐츠 암호화 키 또는 콘텐츠 인증 암호화 키를 암호화하기 위해 키 암호화 키가 생성됩니다.  키 암호화 알고리즘이 콘텐츠를 보호하는 데 사용되는 알고리즘과 다른 경우 효과적인 보안은 두 알고리즘 중 약한 알고리즘에 따라 결정됩니다.  예를 들어 콘텐츠가 256비트 AES로 암호화되고 키가 128비트 AES로 래핑된 경우 최대 128비트의 보호가 제공됩니다.  구현자는 키 암호화 알고리즘이 콘텐츠 암호화 알고리즘이나 콘텐츠 인증 암호화 알고리즘보다 강력하거나 더 강력한지 확인해야 합니다.

@@ -1,0 +1,13 @@
+"hash": |-
+  0b76f6114bdb0db35a4f84ddf5176fa67781ce475c3fb084dfd7d6e39457acff
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     <pair> ::= "\" ( <special> | "\" | '"')
+     <stringchar> ::= any character except <special> or "\" or '"'
+"fixed": |-
+  <pair> ::= "\" ( <special> | "\" | '"') <stringchar> ::= any character except <special> or "\" or '"'
+"ko": |-
+  <pair> ::= "\" ( <special> | "\" | '"') <stringchar> ::= <special>, "\" 또는 '"'를 제외한 모든 문자

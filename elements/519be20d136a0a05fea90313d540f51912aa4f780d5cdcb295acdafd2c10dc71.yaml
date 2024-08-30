@@ -1,0 +1,20 @@
+"hash": |-
+  519be20d136a0a05fea90313d540f51912aa4f780d5cdcb295acdafd2c10dc71
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Optional Session Attributes specify either attributes that act as
+     flags (TRUE or FALSE) or optional timers.  For optional attributes
+     that act as flags, if the optional session attribute can be set to
+     TRUE on the system, the corresponding BGP FSM actions must be
+     supported.  For example, if the following options can be set in a BGP
+     implementation: AutoStart and PassiveTcpEstablishment, then Events 3,
+     4 and 5 must be supported.  If an Optional Session attribute cannot
+     be set to TRUE, the events supporting that set of options do not have
+     to be supported.
+"fixed": |-
+  Optional Session Attributes specify either attributes that act as flags (TRUE or FALSE) or optional timers.  For optional attributes that act as flags, if the optional session attribute can be set to TRUE on the system, the corresponding BGP FSM actions must be supported.  For example, if the following options can be set in a BGP implementation: AutoStart and PassiveTcpEstablishment, then Events 3, 4 and 5 must be supported.  If an Optional Session attribute cannot be set to TRUE, the events supporting that set of options do not have to be supported.
+"ko": |-
+  선택적 세션 속성은 플래그(TRUE 또는 FALSE) 또는 선택적 타이머 역할을 하는 속성을 지정합니다. 플래그 역할을 하는 선택적 속성의 경우 선택적 세션 속성이 시스템에서 TRUE로 설정될 수 있으면 해당 BGP FSM 작업이 지원되어야 합니다. 예를 들어, BGP 구현에서 AutoStart 및 PassiveTcpSetupment 옵션을 설정할 수 있는 경우 이벤트 3, 4 및 5가 지원되어야 합니다. 선택적 세션 속성을 TRUE로 설정할 수 없는 경우 해당 옵션 세트를 지원하는 이벤트는 지원될 필요가 없습니다.

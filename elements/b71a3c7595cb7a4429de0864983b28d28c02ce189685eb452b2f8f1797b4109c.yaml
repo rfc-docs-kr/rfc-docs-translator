@@ -1,0 +1,23 @@
+"hash": |-
+  b71a3c7595cb7a4429de0864983b28d28c02ce189685eb452b2f8f1797b4109c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Before an agent sends an offer, it is helpful to know if the media
+     formats in that offer would be acceptable to the answerer.  Certain
+     protocols, like SIP, provide a means to query for such capabilities.
+     SDP can be used in responses to such queries to indicate
+     capabilities.  This section describes how such an SDP message is
+     formatted.  Since SDP has no way to indicate that the message is for
+     the purpose of capability indication, this is determined from the
+     context of the higher layer protocol.  The ability of baseline SDP to
+     indicate capabilities is very limited.  It cannot express allowed
+     parameter ranges or values, and can not be done in parallel with an
+     offer/answer itself.  Extensions might address such limitations in
+     the future.
+"fixed": |-
+  Before an agent sends an offer, it is helpful to know if the media formats in that offer would be acceptable to the answerer.  Certain protocols, like SIP, provide a means to query for such capabilities. SDP can be used in responses to such queries to indicate capabilities.  This section describes how such an SDP message is formatted.  Since SDP has no way to indicate that the message is for the purpose of capability indication, this is determined from the context of the higher layer protocol.  The ability of baseline SDP to indicate capabilities is very limited.  It cannot express allowed parameter ranges or values, and can not be done in parallel with an offer/answer itself.  Extensions might address such limitations in the future.
+"ko": |-
+  에이전트가 오퍼를 보내기 전에 해당 오퍼의 미디어 형식이 응답자에게 허용되는지 아는 것이 도움이 됩니다. SIP와 같은 특정 프로토콜은 이러한 기능을 쿼리하는 수단을 제공합니다. SDP는 이러한 쿼리에 대한 응답에서 기능을 나타내는 데 사용할 수 있습니다. 이 섹션에서는 이러한 SDP 메시지가 어떻게 포맷되는지 설명합니다. SDP는 메시지가 기능 표시를 위한 것이라는 것을 나타낼 방법이 없으므로 이는 상위 계층 프로토콜의 컨텍스트에서 결정됩니다. 기준 SDP가 기능을 나타내는 기능은 매우 제한적입니다. 허용되는 매개변수 범위 또는 값을 표현할 수 없으며 오퍼/답변 자체와 병렬로 수행할 수 없습니다. 확장을 통해 향후 이러한 제한 사항을 해결할 수 있습니다.

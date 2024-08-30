@@ -1,0 +1,16 @@
+"hash": |-
+  2716b55c0297a0df792ceb9a315f52e14efda3eed15aae49fa55720b1b5bf5fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     CANCEL message contains the specification of the chunks Peer P no
+     longer wants to request.  In addition, when Peer Q receives a HAVE
+     message for the urgent data from Peer P, Peer Q MUST also cancel the
+     previous REQUEST(s) from Peer P.  In other words, the HAVE message
+     acts as an implicit CANCEL.
+"fixed": |-
+  CANCEL message contains the specification of the chunks Peer P no longer wants to request.  In addition, when Peer Q receives a HAVE message for the urgent data from Peer P, Peer Q MUST also cancel the previous REQUEST(s) from Peer P.  In other words, the HAVE message acts as an implicit CANCEL.
+"ko": |-
+  CANCEL 메시지에는 피어 P가 더 이상 요청하지 않으려는 청크의 사양이 포함되어 있습니다. 또한 Peer Q가 Peer P로부터 긴급 데이터에 대한 HAVE 메시지를 수신하면 Peer Q는 Peer P의 이전 REQUEST도 취소해야 합니다. 즉, HAVE 메시지는 암시적인 CANCEL 역할을 합니다.

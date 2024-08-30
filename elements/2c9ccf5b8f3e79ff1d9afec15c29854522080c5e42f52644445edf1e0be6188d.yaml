@@ -1,0 +1,18 @@
+"hash": |-
+  2c9ccf5b8f3e79ff1d9afec15c29854522080c5e42f52644445edf1e0be6188d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A Stateless Reset that is smaller than 41 bytes might be identifiable
+     as a Stateless Reset by an observer, depending upon the length of the
+     peer's connection IDs.  Conversely, not sending a Stateless Reset in
+     response to a small packet might result in Stateless Resets not being
+     useful in detecting cases of broken connections where only very small
+     packets are sent; such failures might only be detected by other
+     means, such as timers.
+"fixed": |-
+  A Stateless Reset that is smaller than 41 bytes might be identifiable as a Stateless Reset by an observer, depending upon the length of the peer's connection IDs.  Conversely, not sending a Stateless Reset in response to a small packet might result in Stateless Resets not being useful in detecting cases of broken connections where only very small packets are sent; such failures might only be detected by other means, such as timers.
+"ko": |-
+  41바이트보다 작은 무상태 재설정은 피어의 연결 ID 길이에 따라 관찰자가 무상태 재설정으로 식별할 수 있습니다. 반대로 작은 패킷에 대한 응답으로 상태 비저장 재설정을 보내지 않으면 매우 작은 패킷만 전송되는 연결 끊김 사례를 감지하는 데 상태 비저장 재설정이 유용하지 않을 수 있습니다. 이러한 실패는 타이머와 같은 다른 수단을 통해서만 감지될 수 있습니다.

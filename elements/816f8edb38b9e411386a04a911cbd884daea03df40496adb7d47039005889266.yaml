@@ -1,0 +1,30 @@
+"hash": |-
+  816f8edb38b9e411386a04a911cbd884daea03df40496adb7d47039005889266
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Concretely, a peer that wants to send a chunk of content creates a
+     datagram that MUST consist of a list of INTEGRITY messages followed
+     by a DATA message.  If the INTEGRITY messages and DATA message cannot
+     be put into a single datagram because of a limitation on datagram
+     size, the INTEGRITY messages MUST be sent first in one or more
+     datagrams.  The list of INTEGRITY messages sent MUST contain an
+     INTEGRITY message for each hash the receiver misses for integrity
+     checking.  An INTEGRITY message for a hash MUST contain the chunk
+     specification corresponding to the node ID of the hash and the hash
+     data itself.  The chunk specification corresponding to a node ID is
+     defined as the range of chunks formed by the leaves of the subtree
+     rooted at the node.  For example, node 3 in Figure 3 denotes chunks
+     0, 2, 4, and 6, so the chunk specification should denote that
+     interval.  The list of INTEGRITY messages MUST be sorted in order of
+     the tree height of the nodes, descending (the leaves are at height
+     0).  The DATA message MUST contain the chunk specification of the
+     chunk and the chunk itself.  A peer MAY send the required messages
+     for multiple chunks in the same datagram, depending on the
+     encapsulation.
+"fixed": |-
+  Concretely, a peer that wants to send a chunk of content creates a datagram that MUST consist of a list of INTEGRITY messages followed by a DATA message.  If the INTEGRITY messages and DATA message cannot be put into a single datagram because of a limitation on datagram size, the INTEGRITY messages MUST be sent first in one or more datagrams.  The list of INTEGRITY messages sent MUST contain an INTEGRITY message for each hash the receiver misses for integrity checking.  An INTEGRITY message for a hash MUST contain the chunk specification corresponding to the node ID of the hash and the hash data itself.  The chunk specification corresponding to a node ID is defined as the range of chunks formed by the leaves of the subtree rooted at the node.  For example, node 3 in Figure 3 denotes chunks 0, 2, 4, and 6, so the chunk specification should denote that interval.  The list of INTEGRITY messages MUST be sorted in order of the tree height of the nodes, descending (the leaves are at height 0).  The DATA message MUST contain the chunk specification of the chunk and the chunk itself.  A peer MAY send the required messages for multiple chunks in the same datagram, depending on the encapsulation.
+"ko": |-
+  구체적으로, 콘텐츠 덩어리를 전송하려는 피어는 INTEGRITY 메시지 목록과 DATA 메시지로 구성되어야 하는 데이터그램을 생성합니다. 데이터그램 크기 제한으로 인해 INTEGRITY 메시지와 DATA 메시지를 단일 데이터그램에 넣을 수 없는 경우 INTEGRITY 메시지를 하나 이상의 데이터그램에서 먼저 전송해야 합니다. 전송된 INTEGRITY 메시지 목록에는 수신자가 무결성 검사를 위해 놓친 각 해시에 대한 INTEGRITY 메시지가 포함되어야 합니다. 해시에 대한 INTEGRITY 메시지에는 해시의 노드 ID와 해시 데이터 자체에 해당하는 청크 사양이 포함되어야 합니다. 노드 ID에 해당하는 청크 사양은 해당 노드를 루트로 하는 하위 트리의 리프에 의해 형성된 청크의 범위로 정의됩니다. 예를 들어 그림 3의 노드 3은 청크 0, 2, 4, 6을 나타내므로 청크 사양은 해당 간격을 나타내야 합니다. INTEGRITY 메시지 목록은 노드의 트리 높이 순서대로 내림차순으로 정렬되어야 합니다(리프는 높이 0에 있음). DATA 메시지에는 청크의 청크 사양과 청크 자체가 포함되어야 합니다. 피어는 캡슐화에 따라 동일한 데이터그램의 여러 청크에 필요한 메시지를 보낼 수 있습니다.

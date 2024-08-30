@@ -1,0 +1,15 @@
+"hash": |-
+  af5095ee2b146c8fc8ecc77dc2bfedff8d8d2acf23f4036ad48de82f213d0e8a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     encrypted_key
+        The "encrypted_key" member MUST be present and contain the value
+        BASE64URL(JWE Encrypted Key) when the JWE Encrypted Key value is
+        non-empty; otherwise, it MUST be absent.
+"fixed": |-
+  encrypted_key  -  The "encrypted_key" member MUST be present and contain the value BASE64URL(JWE Encrypted Key) when the JWE Encrypted Key value is non-empty; otherwise, it MUST be absent.
+"ko": |-
+  encrypted_key - JWE 암호화 키 값이 비어 있지 않으면 "encrypted_key" 멤버가 있어야 하며 BASE64URL(JWE 암호화 키) 값을 포함해야 합니다. 그렇지 않은 경우에는 없어야 합니다.

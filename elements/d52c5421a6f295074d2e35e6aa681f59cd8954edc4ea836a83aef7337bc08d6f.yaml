@@ -1,0 +1,16 @@
+"hash": |-
+  d52c5421a6f295074d2e35e6aa681f59cd8954edc4ea836a83aef7337bc08d6f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For Poly1305, the operations are addition, multiplication. and
+     modulus, all on numbers with greater than 128 bits.  This can be done
+     in constant time, but a naive implementation (such as using some
+     generic big number library) will not be constant time.  For example,
+     if the multiplication is performed as a separate operation from the
+"fixed": |-
+  For Poly1305, the operations are addition, multiplication. and modulus, all on numbers with greater than 128 bits.  This can be done in constant time, but a naive implementation (such as using some generic big number library) will not be constant time.  For example, if the multiplication is performed as a separate operation from the
+"ko": |-
+  Poly1305의 경우 연산은 덧셈, 곱셈입니다. 모듈러스는 모두 128비트보다 큰 숫자에 적용됩니다. 이는 상수 시간에 수행될 수 있지만 단순한 구현(예: 일반적인 큰 숫자 라이브러리 사용)은 상수 시간이 아닙니다. 예를 들어, 곱셈이 연산과 별도의 연산으로 수행되는 경우

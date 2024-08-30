@@ -1,0 +1,16 @@
+"hash": |-
+  6aed920ab4f727d5da3d37e4dab2066b304e0b3ce6299a6f756125f31b4ab762
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  A liveness or path validation check using PATH_CHALLENGE frames is
+        sent periodically until a matching PATH_RESPONSE frame is received
+        or until there is no remaining need for liveness or path
+        validation checking.  PATH_CHALLENGE frames include a different
+        payload each time they are sent.
+"fixed": |-
+  *  A liveness or path validation check using PATH_CHALLENGE frames is sent periodically until a matching PATH_RESPONSE frame is received or until there is no remaining need for liveness or path validation checking.  PATH_CHALLENGE frames include a different payload each time they are sent.
+"ko": |-
+  * PATH_CHALLENGE 프레임을 사용하는 활성 또는 경로 유효성 검사는 일치하는 PATH_RESPONSE 프레임이 수신되거나 활성 또는 경로 유효성 검사가 더 이상 필요하지 않을 때까지 주기적으로 전송됩니다. PATH_CHALLENGE 프레임에는 전송될 때마다 다른 페이로드가 포함됩니다.

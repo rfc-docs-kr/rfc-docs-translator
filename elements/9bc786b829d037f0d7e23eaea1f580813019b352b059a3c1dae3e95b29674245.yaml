@@ -1,0 +1,16 @@
+"hash": |-
+  9bc786b829d037f0d7e23eaea1f580813019b352b059a3c1dae3e95b29674245
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an origin server receives a request that selects a
+     representation and that request includes an If-Modified-Since header
+     field without an If-None-Match header field, the origin server SHOULD
+     evaluate the If-Modified-Since condition per Section 13.2 prior to
+     performing the method.
+"fixed": |-
+  When an origin server receives a request that selects a representation and that request includes an If-Modified-Since header field without an If-None-Match header field, the origin server SHOULD evaluate the If-Modified-Since condition per Section 13.2 prior to performing the method.
+"ko": |-
+  원서버가 표현을 선택하는 요청을 수신하고 그 요청이 If-None-Match 헤더 필드 없이 If-Modified-Since 헤더 필드를 포함하는 경우, 원서버는 이전에 섹션 13.2에 따라 If-Modified-Since 조건을 평가해야 합니다. 방법을 수행합니다.

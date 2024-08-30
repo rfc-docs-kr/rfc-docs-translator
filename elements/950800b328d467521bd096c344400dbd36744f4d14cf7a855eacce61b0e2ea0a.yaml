@@ -1,0 +1,17 @@
+"hash": |-
+  950800b328d467521bd096c344400dbd36744f4d14cf7a855eacce61b0e2ea0a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     From any state that is one of "Ready", "Send", or "Data Sent", an
+     application can signal that it wishes to abandon transmission of
+     stream data.  Alternatively, an endpoint might receive a STOP_SENDING
+     frame from its peer.  In either case, the endpoint sends a
+     RESET_STREAM frame, which causes the stream to enter the "Reset Sent"
+     state.
+"fixed": |-
+  From any state that is one of "Ready", "Send", or "Data Sent", an application can signal that it wishes to abandon transmission of stream data.  Alternatively, an endpoint might receive a STOP_SENDING frame from its peer.  In either case, the endpoint sends a RESET_STREAM frame, which causes the stream to enter the "Reset Sent" state.
+"ko": |-
+  "Ready", "Send" 또는 "Data Sent" 중 하나의 상태에서 애플리케이션은 스트림 데이터 전송을 포기하고 싶다는 신호를 보낼 수 있습니다. 또는 엔드포인트가 피어로부터 STOP_SENDING 프레임을 수신할 수도 있습니다. 두 경우 모두 엔드포인트는 RESET_STREAM 프레임을 전송하며 이로 인해 스트림이 "Reset Sent" 상태로 전환됩니다.

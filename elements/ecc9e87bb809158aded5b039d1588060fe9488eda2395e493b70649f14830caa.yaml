@@ -1,0 +1,18 @@
+"hash": |-
+  ecc9e87bb809158aded5b039d1588060fe9488eda2395e493b70649f14830caa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS session resumption also relies on the uniqueness of the master
+     secret to authenticate the resuming peers.  Hence, if a synchronized
+     session is resumed, the peers cannot be sure about each other's
+     identities, and the attacker knows the connection keys.  Clearly, a
+     precondition to this step of the attack is that both client and
+     server support session resumption (either via session identifier or
+     session tickets [RFC5077]).
+"fixed": |-
+  TLS session resumption also relies on the uniqueness of the master secret to authenticate the resuming peers.  Hence, if a synchronized session is resumed, the peers cannot be sure about each other's identities, and the attacker knows the connection keys.  Clearly, a precondition to this step of the attack is that both client and server support session resumption (either via session identifier or session tickets [RFC5077]).
+"ko": |-
+  TLS 세션 재개는 재개하는 피어를 인증하기 위해 마스터 비밀의 고유성에 의존합니다. 따라서 동기화된 세션이 재개되면 피어는 서로의 신원을 확신할 수 없고 공격자는 연결 키를 알고 있습니다. 분명히 이 공격 단계의 전제 조건은 클라이언트와 서버 모두가 세션 재개를 지원해야 한다는 것입니다(세션 식별자 또는 세션 티켓[RFC5077]을 통해).

@@ -1,0 +1,16 @@
+"hash": |-
+  7316aa106c39febaa04820e1af9266b4750757c4fc0206b5b7dabe9b3dbf0bfb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a STREAM frame with a FIN bit is received, the final size of the
+     stream is known; see Section 4.5.  The receiving part of the stream
+     then enters the "Size Known" state.  In this state, the endpoint no
+     longer needs to send MAX_STREAM_DATA frames; it only receives any
+     retransmissions of stream data.
+"fixed": |-
+  When a STREAM frame with a FIN bit is received, the final size of the stream is known; see Section 4.5.  The receiving part of the stream then enters the "Size Known" state.  In this state, the endpoint no longer needs to send MAX_STREAM_DATA frames; it only receives any retransmissions of stream data.
+"ko": |-
+  FIN 비트가 있는 STREAM 프레임이 수신되면 스트림의 최종 크기가 알려집니다. 섹션 4.5를 참조하세요. 그런 다음 스트림의 수신 부분은 "알려진 크기" 상태로 들어갑니다. 이 상태에서는 엔드포인트가 더 이상 MAX_STREAM_DATA 프레임을 보낼 필요가 없습니다. 스트림 데이터의 재전송만 수신합니다.

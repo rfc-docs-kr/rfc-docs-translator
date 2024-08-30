@@ -1,0 +1,19 @@
+"hash": |-
+  7778bfbcb28529ea0cb4e0c963b2afb9129515f175fc801917305d4cfb84a023
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This extension negotiation offer might be rejected by the server
+     because the server doesn't support the "server_max_window_bits"
+     extension parameter in an extension negotiation offer.  This is fine
+     if the client cannot receive messages compressed using a larger
+     sliding window size, but if the client just prefers using a small
+     window but wants to fall back to the "permessage-deflate" without the
+     "server_max_window_bits" extension parameter, the client can make an
+     offer with the fallback option like this:
+"fixed": |-
+  This extension negotiation offer might be rejected by the server because the server doesn't support the "server_max_window_bits" extension parameter in an extension negotiation offer.  This is fine if the client cannot receive messages compressed using a larger sliding window size, but if the client just prefers using a small window but wants to fall back to the "permessage-deflate" without the "server_max_window_bits" extension parameter, the client can make an offer with the fallback option like this:
+"ko": |-
+  서버가 확장 협상 제안에서 "server_max_window_bits" 확장 매개변수를 지원하지 않기 때문에 이 확장 협상 제안이 서버에 의해 거부될 수 있습니다.  클라이언트가 더 큰 슬라이딩 창 크기를 사용하여 압축된 메시지를 받을 수 없는 경우에는 괜찮지만 클라이언트가 작은 창 사용을 ​​선호하지만 "server_max_window_bits" 확장 매개변수 없이 "permessage-deflate"로 대체하려는 경우 클라이언트는 다음을 수행할 수 있습니다. 다음과 같이 대체 옵션을 제안하세요.

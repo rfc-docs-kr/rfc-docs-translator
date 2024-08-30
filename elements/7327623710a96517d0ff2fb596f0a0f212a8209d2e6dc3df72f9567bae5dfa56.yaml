@@ -1,0 +1,37 @@
+"hash": |-
+  7327623710a96517d0ff2fb596f0a0f212a8209d2e6dc3df72f9567bae5dfa56
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-------------------+--------------------+--------------------------+
+     | Current "job-     | New "job-state"    | Printer's response       |
+     | state"            |                    | status-code and action:  |
+     +-------------------+--------------------+--------------------------+
+     | 'pending'         | 'pending'          | 'successful-ok'.  No     |
+     |                   |                    | effect on the Job.       |
+     +-------------------+--------------------+--------------------------+
+     | 'pending-held'    | 'pending-held'     | 'successful-ok' (note 1) |
+     +-------------------+--------------------+--------------------------+
+     | 'pending-held'    | 'pending'          | 'successful-ok'          |
+     +-------------------+--------------------+--------------------------+
+     | 'processing'      | 'processing'       | 'successful-ok'.  No     |
+     |                   |                    | effect on the Job.       |
+     +-------------------+--------------------+--------------------------+
+     | 'processing-      | 'processing-       | 'successful-ok'.  No     |
+     | stopped'          | stopped'           | effect on the Job.       |
+     +-------------------+--------------------+--------------------------+
+     | 'completed'       | 'completed'        | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'canceled'        | 'canceled'         | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'aborted'         | 'aborted'          | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

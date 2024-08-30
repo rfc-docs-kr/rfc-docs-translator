@@ -1,0 +1,14 @@
+"hash": |-
+  f66295237289159569902b3bcf6c89a8d2cabcbf1ea452ff7fe2b9ef9dcccfa0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A BGP speaker that receives a route with the ATOMIC_AGGREGATE
+     attribute SHOULD NOT remove the attribute when propagating the route
+     to other speakers.
+"fixed": |-
+  A BGP speaker that receives a route with the ATOMIC_AGGREGATE attribute SHOULD NOT remove the attribute when propagating the route to other speakers.
+"ko": |-
+  ATOMIC_AGGREGATE 속성이 있는 경로를 수신하는 BGP 스피커는 경로를 다른 스피커에 전파할 때 속성을 제거해서는 안 됩니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  322b72d296219dd681bc24b4d123e5dbd68dcf601cf0741b9d8bad4135684382
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   set-cookie        = "Set-Cookie:" SP set-cookie-string
+   set-cookie-string = cookie-pair *( ";" SP cookie-av )
+   cookie-pair       = cookie-name "=" cookie-value
+   cookie-name       = token
+   cookie-value      = *cookie-octet / ( DQUOTE *cookie-octet DQUOTE )
+   cookie-octet      = %x21 / %x23-2B / %x2D-3A / %x3C-5B / %x5D-7E
+   token             = <token, defined in [RFC2616], Section 2.2>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,15 @@
+"hash": |-
+  114e097d44c16596386993b0663bae6c19057de9ec9b7e85426dae0180f932f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Version Negotiation and Retry packets cannot be acknowledged because
+     they do not contain a packet number.  Rather than relying on ACK
+     frames, these packets are implicitly acknowledged by the next Initial
+     packet sent by the client.
+"fixed": |-
+  Version Negotiation and Retry packets cannot be acknowledged because they do not contain a packet number.  Rather than relying on ACK frames, these packets are implicitly acknowledged by the next Initial packet sent by the client.
+"ko": |-
+  버전 협상 및 재시도 패킷에는 패킷 번호가 포함되어 있지 않기 때문에 승인할 수 없습니다. ACK 프레임에 의존하는 대신 이러한 패킷은 클라이언트가 보낸 다음 초기 패킷에 의해 암시적으로 승인됩니다.

@@ -1,0 +1,26 @@
+"hash": |-
+  0ef0e042e7c2f4d3beb61876c62f5e897852fd40bf3adce2ef37b85c45b3612d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The structure StatePlaintext stores the TLS session state including
+     the master_secret.  The timestamp within this structure allows the
+     TLS server to expire tickets.  To cover the authentication and key
+     exchange protocols provided by TLS, the ClientIdentity structure
+     contains the authentication type of the client used in the initial
+     exchange (see ClientAuthenticationType).  To offer the TLS server
+     with the same capabilities for authentication and authorization, a
+     certificate list is included in case of public-key-based
+     authentication.  The TLS server is therefore able to inspect a number
+     of different attributes within these certificates.  A specific
+     implementation might choose to store a subset of this information or
+     additional information.  Other authentication mechanisms, such as
+     Kerberos [RFC2712], would require different client identity data.
+     Other TLS extensions may require the inclusion of additional data in
+     the StatePlaintext structure.
+"fixed": |-
+  The structure StatePlaintext stores the TLS session state including the master_secret.  The timestamp within this structure allows the TLS server to expire tickets.  To cover the authentication and key exchange protocols provided by TLS, the ClientIdentity structure contains the authentication type of the client used in the initial exchange (see ClientAuthenticationType).  To offer the TLS server with the same capabilities for authentication and authorization, a certificate list is included in case of public-key-based authentication.  The TLS server is therefore able to inspect a number of different attributes within these certificates.  A specific implementation might choose to store a subset of this information or additional information.  Other authentication mechanisms, such as Kerberos [RFC2712], would require different client identity data. Other TLS extensions may require the inclusion of additional data in the StatePlaintext structure.
+"ko": |-
+  StatePlaintext 구조는 master_secret을 포함한 TLS 세션 상태를 저장합니다. 이 구조 내의 타임스탬프를 사용하면 TLS 서버가 티켓을 만료할 수 있습니다. TLS에서 제공하는 인증 및 키 교환 프로토콜을 다루기 위해 ClientIdentity 구조에는 초기 교환에 사용된 클라이언트의 인증 유형이 포함됩니다(ClientAuthenticationType 참조). 인증 및 권한 부여에 대해 동일한 기능을 TLS 서버에 제공하기 위해 공개 키 기반 인증의 경우 인증서 목록이 포함됩니다. 따라서 TLS 서버는 이러한 인증서 내의 다양한 속성을 검사할 수 있습니다. 특정 구현에서는 이 정보 또는 추가 정보의 하위 집합을 저장하도록 선택할 수 있습니다. Kerberos [RFC2712]와 같은 다른 인증 메커니즘에는 다른 클라이언트 ID 데이터가 필요합니다. 다른 TLS 확장은 StatePlaintext 구조에 추가 데이터를 포함해야 할 수도 있습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  208349c30ca3f6ecdd6c3addf6c8d02ea7b9980339c2954eaf6d0acce7398418
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although conditional request header fields are defined as being
+     usable with the HEAD method (to keep HEAD's semantics consistent with
+     those of GET), there is no point in sending a conditional HEAD
+     because a successful response is around the same size as a 304 (Not
+     Modified) response and more useful than a 412 (Precondition Failed)
+     response.
+"fixed": |-
+  Although conditional request header fields are defined as being usable with the HEAD method (to keep HEAD's semantics consistent with those of GET), there is no point in sending a conditional HEAD because a successful response is around the same size as a 304 (Not Modified) response and more useful than a 412 (Precondition Failed) response.
+"ko": |-
+  조건부 요청 헤더 필드는 HEAD 메서드와 함께 사용할 수 있도록 정의되어 있지만(HEAD의 의미를 GET의 의미와 일관되게 유지하기 위해) 성공적인 응답의 크기는 304(수정되지 않음)와 거의 같기 때문에 조건부 HEAD를 보내는 것은 의미가 없습니다. ) 응답이며 412(전제 조건 실패) 응답보다 더 유용합니다.

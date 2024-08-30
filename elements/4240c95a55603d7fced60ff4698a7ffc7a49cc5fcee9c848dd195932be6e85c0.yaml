@@ -1,0 +1,12 @@
+"hash": |-
+  4240c95a55603d7fced60ff4698a7ffc7a49cc5fcee9c848dd195932be6e85c0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         *  if false for GET/HEAD, respond 304 (Not Modified)
+"fixed": |-
+  - *  if false for GET/HEAD, respond 304 (Not Modified)
+"ko": |-
+  - * GET/HEAD가 false인 경우 304(수정되지 않음)를 응답합니다.

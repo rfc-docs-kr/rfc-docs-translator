@@ -1,0 +1,17 @@
+"hash": |-
+  38fda6c02955e5a7ad6eebe78941b5fdb6c71d0dc249be1bb09ffc236e843709
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations MUST support buffering at least 4096 bytes of data
+     received in out-of-order CRYPTO frames.  Endpoints MAY choose to
+     allow more data to be buffered during the handshake.  A larger limit
+     during the handshake could allow for larger keys or credentials to be
+     exchanged.  An endpoint's buffer size does not need to remain
+     constant during the life of the connection.
+"fixed": |-
+  Implementations MUST support buffering at least 4096 bytes of data received in out-of-order CRYPTO frames.  Endpoints MAY choose to allow more data to be buffered during the handshake.  A larger limit during the handshake could allow for larger keys or credentials to be exchanged.  An endpoint's buffer size does not need to remain constant during the life of the connection.
+"ko": |-
+  구현은 순서가 잘못된 CRYPTO 프레임에서 수신된 데이터의 최소 4096바이트 버퍼링을 지원해야 합니다(MUST). 엔드포인트는 핸드셰이크 중에 더 많은 데이터가 버퍼링되도록 선택할 수 있습니다. 핸드셰이크 중 제한이 크면 더 큰 키나 자격 증명을 교환할 수 있습니다. 엔드포인트의 버퍼 크기는 연결이 지속되는 동안 일정하게 유지될 필요가 없습니다.

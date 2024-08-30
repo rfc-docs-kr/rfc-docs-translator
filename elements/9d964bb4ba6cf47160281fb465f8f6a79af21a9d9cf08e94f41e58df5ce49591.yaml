@@ -1,0 +1,27 @@
+"hash": |-
+  9d964bb4ba6cf47160281fb465f8f6a79af21a9d9cf08e94f41e58df5ce49591
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           3. Encrypt and integrity protect the result using the key
+              and combined mode algorithm specified for the SA and using
+              any required cryptographic synchronization data.
+                   - If explicit cryptographic synchronization data,
+                     e.g., an IV, is indicated, it is input to the
+                     combined mode algorithm per the algorithm
+                     specification and placed in the Payload field.
+                   - If implicit cryptographic synchronization data is
+                     employed, it is constructed and input to the
+                     encryption algorithm as per the algorithm
+                     specification.
+                   - The Sequence Number (or Extended Sequence Number, as
+                     appropriate) and the SPI are inputs to the
+                     algorithm, as they must be included in the integrity
+                     check computation.  The means by which these values
+                     are included in this computation are a function of
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

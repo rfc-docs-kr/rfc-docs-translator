@@ -1,0 +1,19 @@
+"hash": |-
+  55d011b6a3358cb37a4aae9cef0df971194a1c2766117eb13e8b2eeccd0322fb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Receivers need to limit the amount of data that they are required to
+     buffer, in order to prevent a fast sender from overwhelming them or a
+     malicious sender from consuming a large amount of memory.  To enable
+     a receiver to limit memory commitments for a connection, streams are
+     flow controlled both individually and across a connection as a whole.
+     A QUIC receiver controls the maximum amount of data the sender can
+     send on a stream as well as across all streams at any time, as
+     described in Sections 4.1 and 4.2.
+"fixed": |-
+  Receivers need to limit the amount of data that they are required to buffer, in order to prevent a fast sender from overwhelming them or a malicious sender from consuming a large amount of memory.  To enable a receiver to limit memory commitments for a connection, streams are flow controlled both individually and across a connection as a whole. A QUIC receiver controls the maximum amount of data the sender can send on a stream as well as across all streams at any time, as described in Sections 4.1 and 4.2.
+"ko": |-
+  수신자는 빠른 발신자가 수신자를 압도하거나 악의적인 발신자가 많은 양의 메모리를 소비하는 것을 방지하기 위해 버퍼링하는 데 필요한 데이터 양을 제한해야 합니다. 수신기가 연결에 대한 메모리 할당을 제한할 수 있도록 스트림은 개별적으로 그리고 연결 전체에서 흐름을 제어합니다. QUIC 수신기는 섹션 4.1 및 4.2에 설명된 대로 발신자가 언제든지 스트림뿐만 아니라 모든 스트림에 걸쳐 전송할 수 있는 최대 데이터 양을 제어합니다.

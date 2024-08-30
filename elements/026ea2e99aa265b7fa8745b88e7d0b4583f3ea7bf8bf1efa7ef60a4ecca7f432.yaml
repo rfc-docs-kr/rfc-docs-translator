@@ -1,0 +1,14 @@
+"hash": |-
+  026ea2e99aa265b7fa8745b88e7d0b4583f3ea7bf8bf1efa7ef60a4ecca7f432
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If the secure_renegotiation flag is set to TRUE, the server MUST
+        include an empty "renegotiation_info" extension in the ServerHello
+        message.
+"fixed": |-
+  -  If the secure_renegotiation flag is set to TRUE, the server MUST include an empty "renegotiation_info" extension in the ServerHello message.
+"ko": |-
+  - secure_renegotiation 플래그가 TRUE로 설정된 경우 서버는 ServerHello 메시지에 빈 "renegotiation_info" 확장을 포함해야 합니다.

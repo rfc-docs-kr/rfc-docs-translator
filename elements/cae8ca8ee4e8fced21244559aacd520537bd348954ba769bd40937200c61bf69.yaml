@@ -1,0 +1,14 @@
+"hash": |-
+  cae8ca8ee4e8fced21244559aacd520537bd348954ba769bd40937200c61bf69
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender SHOULD send a STREAM_DATA_BLOCKED frame (type=0x15) when it
+     wishes to send data but is unable to do so due to stream-level flow
+     control.  This frame is analogous to DATA_BLOCKED (Section 19.12).
+"fixed": |-
+  A sender SHOULD send a STREAM_DATA_BLOCKED frame (type=0x15) when it wishes to send data but is unable to do so due to stream-level flow control.  This frame is analogous to DATA_BLOCKED (Section 19.12).
+"ko": |-
+  송신자는 데이터를 전송하고 싶지만 스트림 수준 흐름 제어로 인해 그렇게 할 수 없는 경우 STREAM_DATA_BLOCKED 프레임(유형=0x15)을 전송해야 합니다. 이 프레임은 DATA_BLOCKED(19.12절)와 유사합니다.

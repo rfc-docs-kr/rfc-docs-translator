@@ -1,0 +1,23 @@
+"hash": |-
+  8361ae96d8cf2c9cc3771c66cf90f2ab8575b7e1589c4018696be17adc7a023c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     IPP Printers SHOULD also generate "job-id" and "job-uri" values for
+     such foreign Jobs, if possible, so that they can be targets of other
+     IPP operations, such as Get-Job-Attributes and Cancel-Job.  Such an
+     implementation also needs to deal with the problem of authentication
+     of such foreign Jobs.  One approach would be to treat all such
+     foreign Jobs as belonging to users other than the user of the IPP
+     Client.  Another approach would be for the foreign Job to belong to
+     'anonymous' -- then only authenticated Operators or Administrators of
+     the IPP Printer could query the foreign Jobs with an IPP request.
+     Alternatively, if the security policy is to allow users to query
+     other users' Jobs, then the foreign Jobs would also be visible to an
+     End User IPP Client using Get-Jobs and Get-Job-Attributes.
+"fixed": |-
+  IPP Printers SHOULD also generate "job-id" and "job-uri" values for such foreign Jobs, if possible, so that they can be targets of other IPP operations, such as Get-Job-Attributes and Cancel-Job.  Such an implementation also needs to deal with the problem of authentication of such foreign Jobs.  One approach would be to treat all such foreign Jobs as belonging to users other than the user of the IPP Client.  Another approach would be for the foreign Job to belong to 'anonymous' -- then only authenticated Operators or Administrators of the IPP Printer could query the foreign Jobs with an IPP request. Alternatively, if the security policy is to allow users to query other users' Jobs, then the foreign Jobs would also be visible to an End User IPP Client using Get-Jobs and Get-Job-Attributes.
+"ko": |-
+  IPP 프린터는 가능하다면 그러한 외부 작업에 대해 "job-id" 및 "job-uri" 값도 생성해야 합니다. 그래야 이들이 Get-Job-Attributes 및 Cancel-Job과 같은 다른 IPP 작업의 대상이 될 수 있습니다. 이러한 구현에서는 해당 외국 채용 정보의 인증 문제도 처리해야 합니다. 한 가지 접근 방식은 이러한 모든 외부 작업을 IPP 클라이언트 사용자가 아닌 사용자에게 속한 것으로 처리하는 것입니다. 또 다른 접근 방식은 외부 작업이 '익명'에 속하도록 하는 것입니다. 그러면 IPP 프린터의 인증된 운영자 또는 관리자만 IPP 요청으로 외부 작업을 쿼리할 수 있습니다. 또는 보안 정책이 사용자가 다른 사용자의 작업을 쿼리하도록 허용하는 것이라면 외부 작업은 Get-Jobs 및 Get-Job-Attributes를 사용하여 최종 사용자 IPP 클라이언트에도 표시됩니다.

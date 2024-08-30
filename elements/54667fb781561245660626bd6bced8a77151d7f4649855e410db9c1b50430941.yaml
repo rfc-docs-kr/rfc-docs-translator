@@ -1,0 +1,20 @@
+"hash": |-
+  54667fb781561245660626bd6bced8a77151d7f4649855e410db9c1b50430941
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          C: G282 SEARCH RETURN (SAVE) KEYWORD $Junk
+          C: G283 SEARCH RETURN (ALL) SINCE 28-Oct-2006
+              FROM "Eric"
+         // The server can execute the two SEARCH commands
+         // in any order, as they don't have any dependency.
+         // For example, it may return:
+          S: * ESEARCH (TAG "G283") ALL 3:15,27,29:103
+          S: G283 OK SEARCH completed
+          S: G282 OK SEARCH completed
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

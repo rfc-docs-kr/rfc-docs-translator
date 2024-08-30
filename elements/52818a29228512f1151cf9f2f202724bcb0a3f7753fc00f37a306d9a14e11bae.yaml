@@ -1,0 +1,17 @@
+"hash": |-
+  52818a29228512f1151cf9f2f202724bcb0a3f7753fc00f37a306d9a14e11bae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The requirement for both $Phishing and $Junk to be set before a
+        user agent displays a warning is for better backwards
+        compatibility with existing clients that understand the $Junk flag
+        but not the $Phishing flag.  This is so that when an unextended
+        client removes the $Junk flag, an extended client will also show
+        the correct state.  See [IMAP-KEYWORDS-REG] for more information.
+"fixed": |-
+  - The requirement for both $Phishing and $Junk to be set before a user agent displays a warning is for better backwards compatibility with existing clients that understand the $Junk flag but not the $Phishing flag.  This is so that when an unextended client removes the $Junk flag, an extended client will also show the correct state.  See [IMAP-KEYWORDS-REG] for more information.
+"ko": |-
+  - 사용자 에이전트가 경고를 표시하기 전에 $Phishing 및 $Junk를 모두 설정해야 하는 요구 사항은 $Junk 플래그는 이해하지만 $Phishing 플래그는 이해하지 못하는 기존 클라이언트와의 하위 호환성을 높이기 위한 것입니다.  이는 확장되지 않은 클라이언트가 $Junk 플래그를 제거할 때 확장 클라이언트도 올바른 상태를 표시하기 위한 것입니다.  자세한 내용은 [IMAP-KEYWORDS-REG]를 참조하세요.

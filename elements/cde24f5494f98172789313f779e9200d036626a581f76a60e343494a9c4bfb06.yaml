@@ -1,0 +1,16 @@
+"hash": |-
+  cde24f5494f98172789313f779e9200d036626a581f76a60e343494a9c4bfb06
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         For t = 1 to s, where s = 6n
+             A[t] = MSB(64, AES(K, A[t-1] | R[t-1][1])) ^ t
+             For i = 1 to n-1
+                 R[t][i] = R[t-1][i+1]
+             R[t][n] = LSB(64, AES(K, A[t-1] | R[t-1][1]))
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

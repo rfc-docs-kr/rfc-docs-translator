@@ -1,0 +1,20 @@
+"hash": |-
+  5f8f31f8b8d679258c44b2282f1d6a37e18c078705f53e16ea866ff35c91fda9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Man-in-the-middle attacks are possible whenever a protocol lacks PEER
+     ENTITY AUTHENTICATION.  For instance, if an attacker can hijack the
+     client TCP connection during the TCP handshake (perhaps by responding
+     to the client's SYN before the server does), then the attacker can
+     open another connection to the server and begin a man-in-the-middle
+     attack.  It is also trivial to mount man-in-the-middle attacks on
+     local networks via ARP spoofing -- the attacker forges an ARP with
+     the victim's IP address and his own MAC address.  Tools to mount this
+     sort of attack are readily available.
+"fixed": |-
+  Man-in-the-middle attacks are possible whenever a protocol lacks PEER ENTITY AUTHENTICATION.  For instance, if an attacker can hijack the client TCP connection during the TCP handshake (perhaps by responding to the client's SYN before the server does), then the attacker can open another connection to the server and begin a man-in-the-middle attack.  It is also trivial to mount man-in-the-middle attacks on local networks via ARP spoofing -- the attacker forges an ARP with the victim's IP address and his own MAC address.  Tools to mount this sort of attack are readily available.
+"ko": |-
+  프로토콜에 피어 엔터티 인증이 없을 때마다 중간자 공격이 가능합니다. 예를 들어 공격자가 TCP 핸드셰이크 중에 클라이언트 TCP 연결을 하이재킹할 수 있는 경우(아마도 서버보다 먼저 클라이언트의 SYN에 응답하여) 공격자는 서버에 대한 다른 연결을 열고 중간자 공격을 시작할 수 있습니다. 공격. ARP 스푸핑을 통해 로컬 네트워크에 중간자 공격을 가하는 것도 쉽지 않습니다. 공격자는 피해자의 IP 주소와 자신의 MAC 주소를 사용하여 ARP를 위조합니다. 이러한 종류의 공격을 수행하는 도구는 쉽게 사용할 수 있습니다.

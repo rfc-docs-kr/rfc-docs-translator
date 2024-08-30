@@ -1,0 +1,16 @@
+"hash": |-
+  079d896208d1eb0e73fb78b9127681f39419440651045d32d938f6338fea84ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server declining all offered PMCEs MUST NOT include any element
+     with PMCE names.  If a server responds with no PMCE element in the
+     "Sec-WebSocket-Extensions" header, both endpoints proceed without
+     per-message compression once _the WebSocket Connection is
+     established_.
+"fixed": |-
+  A server declining all offered PMCEs MUST NOT include any element with PMCE names.  If a server responds with no PMCE element in the "Sec-WebSocket-Extensions" header, both endpoints proceed without per-message compression once _the WebSocket Connection is established_.
+"ko": |-
+  제공된 모든 PMCE를 거부하는 서버는 PMCE 이름이 있는 요소를 포함해서는 안 됩니다.  서버가 "Sec-WebSocket-Extensions" 헤더에 PMCE 요소 없이 응답하는 경우 _WebSocket 연결이 설정되면_ 두 끝점 모두 메시지별 압축 없이 진행됩니다.

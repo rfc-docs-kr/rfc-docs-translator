@@ -1,0 +1,18 @@
+"hash": |-
+  56d9ce3bb5067552e0027b4a28e4c47b193cbc64242570de93bc9177b6ec4f55
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     server, other attacks may be possible in which the renegotiation is
+     seen only by the client.  If servers wish to ensure that such attacks
+     are impossible, they need to terminate the connection immediately
+     upon failure to negotiate the use of secure renegotiation.  Servers
+     that do choose to allow connections from unpatched clients can still
+     prevent the attack described in Section 1 by refusing to renegotiate
+     over those connections.
+"fixed": |-
+  server, other attacks may be possible in which the renegotiation is seen only by the client.  If servers wish to ensure that such attacks are impossible, they need to terminate the connection immediately upon failure to negotiate the use of secure renegotiation.  Servers that do choose to allow connections from unpatched clients can still prevent the attack described in Section 1 by refusing to renegotiate over those connections.
+"ko": |-
+  서버의 경우 클라이언트에서만 재협상을 볼 수 있는 다른 공격이 가능할 수 있습니다. 서버가 그러한 공격이 불가능함을 보장하려는 경우 보안 재협상 사용 협상에 실패하면 즉시 연결을 종료해야 합니다. 패치가 적용되지 않은 클라이언트의 연결을 허용하도록 선택한 서버는 해당 연결에 대한 재협상을 거부하여 섹션 1에 설명된 공격을 계속 방지할 수 있습니다.

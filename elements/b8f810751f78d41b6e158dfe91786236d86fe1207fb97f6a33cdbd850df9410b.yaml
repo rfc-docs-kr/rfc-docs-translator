@@ -1,0 +1,15 @@
+"hash": |-
+  b8f810751f78d41b6e158dfe91786236d86fe1207fb97f6a33cdbd850df9410b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client SHOULD NOT automatically retry a request with a non-
+     idempotent method unless it has some means to know that the request
+     semantics are actually idempotent, regardless of the method, or some
+     means to detect that the original request was never applied.
+"fixed": |-
+  A client SHOULD NOT automatically retry a request with a non- idempotent method unless it has some means to know that the request semantics are actually idempotent, regardless of the method, or some means to detect that the original request was never applied.
+"ko": |-
+  클라이언트는 메소드에 관계없이 요청 의미론이 실제로 멱등성을 갖는다는 것을 알 수 있는 수단이 없거나 원래 요청이 전혀 적용되지 않았음을 감지할 수 있는 수단이 없는 한 비멱등성 메소드로 요청을 자동으로 재시도해서는 안 됩니다.

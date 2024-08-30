@@ -1,0 +1,15 @@
+"hash": |-
+  6428635a17e7572ef7b7f202e46b406ff2c6519417aa1e3e2b8569f3d788f4a5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A BGP implementation will have, at most, one FSM for each configured
+     peering, plus one FSM for each incoming TCP connection for which the
+     peer has not yet been identified.  Each FSM corresponds to exactly
+     one TCP connection.
+"fixed": |-
+  A BGP implementation will have, at most, one FSM for each configured peering, plus one FSM for each incoming TCP connection for which the peer has not yet been identified.  Each FSM corresponds to exactly one TCP connection.
+"ko": |-
+  BGP 구현에는 구성된 각 피어링에 대해 최대 하나의 FSM과 피어가 아직 식별되지 않은 각 수신 TCP 연결에 대해 하나의 FSM이 있습니다. 각 FSM은 정확히 하나의 TCP 연결에 해당합니다.

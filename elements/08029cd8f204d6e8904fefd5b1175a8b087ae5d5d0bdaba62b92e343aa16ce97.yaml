@@ -1,0 +1,22 @@
+"hash": |-
+  08029cd8f204d6e8904fefd5b1175a8b087ae5d5d0bdaba62b92e343aa16ce97
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "printer-uri-supported" attribute contains the Printer's URI(s).
+     Its companion attribute, "uri-security-supported", identifies the
+     security mechanism used for each URI listed in the
+     "printer-uri-supported" attribute.  For each Printer operation
+     request, a Client MUST supply only one URI in the "printer-uri"
+     operation attribute.  In other words, even though the Printer
+     supports more than one URI, the Client only interacts with the
+     Printer using one of its URIs.  This duality is not needed for Job
+     objects, since Printers will act as the "factory" for Job objects and
+     a given Printer will, depending on the Printer's security
+     configuration, generate the correct URI for new Job objects.
+"fixed": |-
+  The "printer-uri-supported" attribute contains the Printer's URI(s). Its companion attribute, "uri-security-supported", identifies the security mechanism used for each URI listed in the "printer-uri-supported" attribute.  For each Printer operation request, a Client MUST supply only one URI in the "printer-uri" operation attribute.  In other words, even though the Printer supports more than one URI, the Client only interacts with the Printer using one of its URIs.  This duality is not needed for Job objects, since Printers will act as the "factory" for Job objects and a given Printer will, depending on the Printer's security configuration, generate the correct URI for new Job objects.
+"ko": |-
+  "printer-uri-supported" 속성에는 프린터의 URI가 포함됩니다. 동반 속성인 "uri-security-supported"는 "printer-uri-supported" 속성에 나열된 각 URI에 사용되는 보안 메커니즘을 식별합니다. 각 프린터 작업 요청에 대해 클라이언트는 "printer-uri" 작업 속성에 하나의 URI만 제공해야 합니다. 즉, 프린터가 둘 이상의 URI를 지원하더라도 클라이언트는 해당 URI 중 하나를 사용하여 프린터와만 상호 작용합니다. 프린터는 작업 개체의 "공장" 역할을 하고 지정된 프린터는 프린터의 보안 구성에 따라 새 작업 개체에 대한 올바른 URI를 생성하므로 작업 개체에는 이러한 이중성이 필요하지 않습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  0f28e1115f5208d8716ca1851579f254f0e7c227ea1c72b95e34d84a6a6f5136
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The credentials carried in an Authorization header field are
+        specific to the user agent and, therefore, have the same effect on
+        HTTP caches as the "private" Cache-Control response directive
+        (Section 5.2.2.6 of [RFC7234]), within the scope of the request in
+        which they appear.
+"fixed": |-
+  -  The credentials carried in an Authorization header field are specific to the user agent and, therefore, have the same effect on HTTP caches as the "private" Cache-Control response directive (Section 5.2.2.6 of [RFC7234]), within the scope of the request in which they appear.
+"ko": |-
+  - Authorization 헤더 필드에 전달된 자격 증명은 사용자 에이전트에 따라 다르므로 범위 내에서 "private" Cache-Control 응답 지시어([RFC7234]의 섹션 5.2.2.6)와 마찬가지로 HTTP 캐시에 동일한 효과를 갖습니다. 표시되는 요청의 내용입니다.

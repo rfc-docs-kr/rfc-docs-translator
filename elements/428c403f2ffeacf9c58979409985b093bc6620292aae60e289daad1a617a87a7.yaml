@@ -1,0 +1,17 @@
+"hash": |-
+  428c403f2ffeacf9c58979409985b093bc6620292aae60e289daad1a617a87a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An on-path or off-path attacker can force a handshake to fail by
+     replacing or racing Initial packets.  Once valid Initial packets have
+     been exchanged, subsequent Handshake packets are protected with the
+     Handshake keys, and an on-path attacker cannot force handshake
+     failure other than by dropping packets to cause endpoints to abandon
+     the attempt.
+"fixed": |-
+  An on-path or off-path attacker can force a handshake to fail by replacing or racing Initial packets.  Once valid Initial packets have been exchanged, subsequent Handshake packets are protected with the Handshake keys, and an on-path attacker cannot force handshake failure other than by dropping packets to cause endpoints to abandon the attempt.
+"ko": |-
+  온패스 또는 오프패스 공격자는 초기 패킷을 교체하거나 레이싱하여 핸드셰이크를 강제로 실패시킬 수 있습니다. 유효한 초기 패킷이 교환되면 후속 핸드셰이크 패킷은 핸드셰이크 키로 보호되며 경로상의 공격자는 패킷을 삭제하여 엔드포인트가 시도를 포기하도록 하는 것 외에는 핸드셰이크 실패를 강제할 수 없습니다.

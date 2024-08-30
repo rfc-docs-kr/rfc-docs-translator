@@ -1,0 +1,20 @@
+"hash": |-
+  f00c46b5c984e5251b8e1416a23e8628897b54fadc6996c23726ef552b53e831
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The 998 character limit is due to limitations in many implementations
+     which send, receive, or store Internet Message Format messages that
+     simply cannot handle more than 998 characters on a line. Receiving
+     implementations would do well to handle an arbitrarily large number
+     of characters in a line for robustness sake. However, there are so
+     many implementations which (in compliance with the transport
+     requirements of [RFC2821]) do not accept messages containing more
+     than 1000 character including the CR and LF per line, it is important
+     for implementations not to create such messages.
+"fixed": |-
+  The 998 character limit is due to limitations in many implementations which send, receive, or store Internet Message Format messages that simply cannot handle more than 998 characters on a line. Receiving implementations would do well to handle an arbitrarily large number of characters in a line for robustness sake. However, there are so many implementations which (in compliance with the transport requirements of [RFC2821]) do not accept messages containing more than 1000 character including the CR and LF per line, it is important for implementations not to create such messages.
+"ko": |-
+  998자 제한은 한 줄에서 998자 이상을 처리할 수 없는 인터넷 메시지 형식 메시지를 전송, 수신 또는 저장하는 많은 구현의 제한으로 인해 발생합니다. 수신 구현은 견고성을 위해 한 줄에 임의로 많은 수의 문자를 처리하는 것이 좋습니다. 그러나 ([RFC2821]의 전송 요구 사항을 준수하여) 한 줄에 CR 및 LF를 포함하여 1000자 이상의 문자가 포함된 메시지를 허용하지 않는 구현이 너무 많기 때문에 구현에서는 그러한 메시지를 생성하지 않는 것이 중요합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  844498f873ed53abf7f4ef2c47f3f31b4d5fec793104366a29cdeeacf0877d27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint can choose to simultaneously probe multiple paths.  The
+     number of simultaneous paths used for probes is limited by the number
+     of extra connection IDs its peer has previously supplied, since each
+     new local address used for a probe requires a previously unused
+     connection ID.
+"fixed": |-
+  An endpoint can choose to simultaneously probe multiple paths.  The number of simultaneous paths used for probes is limited by the number of extra connection IDs its peer has previously supplied, since each new local address used for a probe requires a previously unused connection ID.
+"ko": |-
+  엔드포인트는 여러 경로를 동시에 탐색하도록 선택할 수 있습니다. 프로브에 사용되는 동시 경로 수는 피어가 이전에 제공한 추가 연결 ID 수에 따라 제한됩니다. 프로브에 사용되는 각각의 새 로컬 주소에는 이전에 사용되지 않은 연결 ID가 필요하기 때문입니다.

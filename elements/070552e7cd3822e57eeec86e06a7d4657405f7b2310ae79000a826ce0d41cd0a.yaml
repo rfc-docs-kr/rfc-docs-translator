@@ -1,0 +1,14 @@
+"hash": |-
+  070552e7cd3822e57eeec86e06a7d4657405f7b2310ae79000a826ce0d41cd0a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server may send EXPUNGE responses before the tagged response, so
+     the client cannot safely send more commands with message sequence
+     number arguments while the server is processing MOVE.
+"fixed": |-
+  The server may send EXPUNGE responses before the tagged response, so the client cannot safely send more commands with message sequence number arguments while the server is processing MOVE.
+"ko": |-
+  서버는 태그가 지정된 응답 전에 EXPUNGE 응답을 보낼 수 있으므로 클라이언트는 서버가 MOVE를 처리하는 동안 메시지 시퀀스 번호 인수가 포함된 추가 명령을 안전하게 보낼 수 없습니다.

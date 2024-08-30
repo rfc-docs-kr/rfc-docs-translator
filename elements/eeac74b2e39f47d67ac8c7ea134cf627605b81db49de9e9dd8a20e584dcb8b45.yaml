@@ -1,0 +1,18 @@
+"hash": |-
+  eeac74b2e39f47d67ac8c7ea134cf627605b81db49de9e9dd8a20e584dcb8b45
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In general, channel IDs serve to authenticate a peer.  Hence, to
+     attack, a malicious Peer T would need to be able to eavesdrop on
+     conversations between victim A and a benign Peer B to obtain the
+     channel ID Peer B assigned to Peer A, chanB.  Furthermore, attacker
+     Peer T would need to be able to spoof, e.g., REQUEST and HAVE
+     messages from Peer A to cause Peer B to send heavy DATA messages to
+     Peer A, or prevent Peer B from sending them, respectively.
+"fixed": |-
+  In general, channel IDs serve to authenticate a peer.  Hence, to attack, a malicious Peer T would need to be able to eavesdrop on conversations between victim A and a benign Peer B to obtain the channel ID Peer B assigned to Peer A, chanB.  Furthermore, attacker Peer T would need to be able to spoof, e.g., REQUEST and HAVE messages from Peer A to cause Peer B to send heavy DATA messages to Peer A, or prevent Peer B from sending them, respectively.
+"ko": |-
+  일반적으로 채널 ID는 피어를 인증하는 데 사용됩니다. 따라서 공격하려면 악의적인 피어 T가 피해자 A와 양성 피어 B 사이의 대화를 도청하여 피어 A에 할당된 채널 ID 피어 B, chanB를 얻을 수 있어야 합니다. 또한 공격자 피어 T는 피어 A로부터 REQUEST 및 HAVE 메시지를 스푸핑하여 피어 B가 피어 A에 무거운 DATA 메시지를 보내도록 하거나 피어 B가 해당 메시지를 보내는 것을 방지할 수 있어야 합니다.

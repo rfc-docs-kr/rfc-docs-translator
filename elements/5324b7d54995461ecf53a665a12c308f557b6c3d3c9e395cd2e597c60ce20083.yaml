@@ -1,0 +1,15 @@
+"hash": |-
+  5324b7d54995461ecf53a665a12c308f557b6c3d3c9e395cd2e597c60ce20083
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that receives a 421 (Misdirected Request) response MAY retry
+     the request, whether or not the request method is idempotent, over a
+     different connection, such as a fresh connection specific to the
+     target resource's origin, or via an alternative service [ALTSVC].
+"fixed": |-
+  A client that receives a 421 (Misdirected Request) response MAY retry the request, whether or not the request method is idempotent, over a different connection, such as a fresh connection specific to the target resource's origin, or via an alternative service [ALTSVC].
+"ko": |-
+  421(잘못된 요청) 응답을 수신한 클라이언트는 요청 방법이 멱등성인지 여부에 관계없이 대상 리소스의 출처에 특정한 새로운 연결과 같은 다른 연결을 통해 또는 대체 서비스[ALTSVC]를 통해 요청을 재시도할 수 있습니다. .

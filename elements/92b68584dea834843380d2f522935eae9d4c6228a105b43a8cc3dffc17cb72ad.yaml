@@ -1,0 +1,19 @@
+"hash": |-
+  92b68584dea834843380d2f522935eae9d4c6228a105b43a8cc3dffc17cb72ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Assume that the Job is an invalid Job, start the process of
+         changing the Job state to 'aborted', add the 'aborted-by-system'
+         value to the Job's "job-state-reasons" attribute (see
+         Section 5.3.8), and clean up all resources associated with the
+         Job.  In this case, if another send operation is finally
+         received, the Printer responds with a 'client-error-not-possible'
+         or 'client-error-not-found' status-code, depending on whether the
+         Job is still around when the send operation finally arrives.
+"fixed": |-
+  1.  Assume that the Job is an invalid Job, start the process of changing the Job state to 'aborted', add the 'aborted-by-system' value to the Job's "job-state-reasons" attribute (see Section 5.3.8), and clean up all resources associated with the Job.  In this case, if another send operation is finally received, the Printer responds with a 'client-error-not-possible' or 'client-error-not-found' status-code, depending on whether the Job is still around when the send operation finally arrives.
+"ko": |-
+  1. Job이 유효하지 않은 Job이라고 가정하고 Job 상태를 'aborted'로 변경하는 프로세스를 시작하고 Job의 "job-state-reasons" 속성에 'aborted-by-system' 값을 추가합니다(섹션 5.3.1 참조). 8) 작업과 관련된 모든 리소스를 정리합니다. 이 경우, 또 다른 전송 작업이 최종적으로 수신되면 프린터는 작업이 아직 남아 있는지 여부에 따라 '클라이언트 오류-불가능' 또는 '클라이언트 오류-찾을 수 없음' 상태 코드로 응답합니다. 드디어 보내기 작업이 도착했습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  b730704ef6331784810cab661bbba921199073f1faa2adb1bf35ac373a50e848
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In cases without ACK frame loss, this algorithm allows for a minimum
+     of 1 RTT of reordering.  In cases with ACK frame loss and reordering,
+     this approach does not guarantee that every acknowledgment is seen by
+     the sender before it is no longer included in the ACK frame.  Packets
+     could be received out of order, and all subsequent ACK frames
+     containing them could be lost.  In this case, the loss recovery
+     algorithm could cause spurious retransmissions, but the sender will
+     continue making forward progress.
+"fixed": |-
+  In cases without ACK frame loss, this algorithm allows for a minimum of 1 RTT of reordering.  In cases with ACK frame loss and reordering, this approach does not guarantee that every acknowledgment is seen by the sender before it is no longer included in the ACK frame.  Packets could be received out of order, and all subsequent ACK frames containing them could be lost.  In this case, the loss recovery algorithm could cause spurious retransmissions, but the sender will continue making forward progress.
+"ko": |-
+  ACK 프레임 손실이 없는 경우 이 알고리즘은 최소 1 RTT의 재정렬을 허용합니다. ACK 프레임 손실 및 재정렬이 있는 경우 이 접근 방식은 ACK 프레임에 더 이상 포함되지 않기 전에 모든 확인이 보낸 사람에게 표시되는 것을 보장하지 않습니다. 패킷이 순서 없이 수신될 수 있으며 이를 포함하는 모든 후속 ACK 프레임이 손실될 수 있습니다. 이 경우 손실 복구 알고리즘으로 인해 허위 재전송이 발생할 수 있지만 보낸 사람은 계속 진행합니다.

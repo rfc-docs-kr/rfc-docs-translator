@@ -1,0 +1,19 @@
+"hash": |-
+  ff8adfbb308fba407d45e127744536dae0152a522c13cbf60b33610b9372f5d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The Print-Job Request: A Client that wants to submit a Print Job
+        with only a single Document can use the Print-Job operation.  The
+        operation allows for the Client to "push" the Document data to the
+        Printer by including the Document data in the request itself.
+        Note that Clients SHOULD instead use the Create-Job and
+        Send-Document requests, if supported by the Printer, since they
+        allow for Job monitoring and control during submission of the
+        Document data.
+"fixed": |-
+  -  The Print-Job Request: A Client that wants to submit a Print Job with only a single Document can use the Print-Job operation.  The operation allows for the Client to "push" the Document data to the Printer by including the Document data in the request itself. Note that Clients SHOULD instead use the Create-Job and Send-Document requests, if supported by the Printer, since they allow for Job monitoring and control during submission of the Document data.
+"ko": |-
+  - 인쇄 작업 요청: 단일 문서만으로 인쇄 작업을 제출하려는 클라이언트는 인쇄 작업 작업을 사용할 수 있습니다. 이 작업을 통해 클라이언트는 요청 자체에 문서 데이터를 포함시켜 문서 데이터를 프린터로 "푸시"할 수 있습니다. 프린터에서 지원하는 경우 클라이언트는 문서 데이터를 제출하는 동안 작업 모니터링 및 제어를 허용하므로 대신 Create-Job 및 Send-Document 요청을 사용해야 합니다.

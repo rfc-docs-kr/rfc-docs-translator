@@ -1,0 +1,16 @@
+"hash": |-
+  9744334a11173491ff05ab3a4d45eeb278da089eea168657b97ae8dc89227a65
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is possible for faulty network devices to corrupt or erroneously
+     drop packets that carry a non-zero ECN codepoint.  To ensure
+     connectivity in the presence of such devices, an endpoint validates
+     the ECN counts for each network path and disables the use of ECN on
+     that path if errors are detected.
+"fixed": |-
+  It is possible for faulty network devices to corrupt or erroneously drop packets that carry a non-zero ECN codepoint.  To ensure connectivity in the presence of such devices, an endpoint validates the ECN counts for each network path and disables the use of ECN on that path if errors are detected.
+"ko": |-
+  결함이 있는 네트워크 장치로 인해 0이 아닌 ECN 코드 포인트를 전달하는 패킷이 손상되거나 잘못 삭제될 수 있습니다. 이러한 장치가 있는 경우 연결을 보장하기 위해 엔드포인트는 각 네트워크 경로에 대한 ECN 수를 검증하고 오류가 감지되면 해당 경로에서 ECN 사용을 비활성화합니다.

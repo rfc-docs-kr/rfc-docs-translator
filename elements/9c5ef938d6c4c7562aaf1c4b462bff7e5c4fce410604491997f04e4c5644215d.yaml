@@ -1,0 +1,22 @@
+"hash": |-
+  9c5ef938d6c4c7562aaf1c4b462bff7e5c4fce410604491997f04e4c5644215d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The TLS specification requires that TLS sessions be invalidated when
+     errors occur.  [CSSC] discusses the security implications of this in
+     detail.  In the analysis within this paper, failure to invalidate
+     sessions does not pose a security risk.  This is because the TLS
+     handshake uses a non-reversible function to derive keys for a session
+     so information about one session does not provide an advantage to
+     attack the master secret or a different session.  If a session
+     invalidation scheme is used, the implementation should verify the
+     integrity of the ticket before using the contents to invalidate a
+     session to ensure that an attacker cannot invalidate a chosen
+     session.
+"fixed": |-
+  The TLS specification requires that TLS sessions be invalidated when errors occur.  [CSSC] discusses the security implications of this in detail.  In the analysis within this paper, failure to invalidate sessions does not pose a security risk.  This is because the TLS handshake uses a non-reversible function to derive keys for a session so information about one session does not provide an advantage to attack the master secret or a different session.  If a session invalidation scheme is used, the implementation should verify the integrity of the ticket before using the contents to invalidate a session to ensure that an attacker cannot invalidate a chosen session.
+"ko": |-
+  TLS 사양에서는 오류 발생 시 TLS 세션이 무효화되도록 요구합니다. [CSSC]는 이것이 보안에 미치는 영향을 자세히 논의합니다. 본 문서의 분석에서는 세션 무효화에 실패해도 보안 위험이 발생하지 않습니다. 이는 TLS 핸드셰이크가 되돌릴 수 없는 기능을 사용하여 세션에 대한 키를 파생시키기 때문에 한 세션에 대한 정보가 마스터 시크릿이나 다른 세션을 공격할 이점을 제공하지 않기 때문입니다. 세션 무효화 체계가 사용되는 경우 구현에서는 공격자가 선택한 세션을 무효화할 수 없도록 내용을 사용하여 세션을 무효화하기 전에 티켓의 무결성을 확인해야 합니다.

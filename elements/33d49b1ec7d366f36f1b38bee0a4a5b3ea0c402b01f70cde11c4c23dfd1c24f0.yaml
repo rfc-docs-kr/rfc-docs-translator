@@ -1,0 +1,23 @@
+"hash": |-
+  33d49b1ec7d366f36f1b38bee0a4a5b3ea0c402b01f70cde11c4c23dfd1c24f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Informally, the process now proceeds as follows.  The injector signs
+     only the munro hash of the new subtree using its private key.  Next,
+     the injector announces the existence of the new subtree to its peers
+     using HAVE messages.  When a peer, in response to the HAVE messages,
+     requests a chunk from the new subtree, the injector first sends the
+     signed munro hash corresponding to the requested chunk.  Afterwards,
+     similar to static content, the injector sends the uncle hashes
+     necessary to verify that chunk, as in Section 5.1.  In particular,
+     the injector sends the uncle hashes necessary to verify the requested
+     chunk against the munro hash.  This differs from static content,
+     where the verification takes places against the root hash.  Finally,
+     the injector sends the actual chunk.
+"fixed": |-
+  Informally, the process now proceeds as follows.  The injector signs only the munro hash of the new subtree using its private key.  Next, the injector announces the existence of the new subtree to its peers using HAVE messages.  When a peer, in response to the HAVE messages, requests a chunk from the new subtree, the injector first sends the signed munro hash corresponding to the requested chunk.  Afterwards, similar to static content, the injector sends the uncle hashes necessary to verify that chunk, as in Section 5.1.  In particular, the injector sends the uncle hashes necessary to verify the requested chunk against the munro hash.  This differs from static content, where the verification takes places against the root hash.  Finally, the injector sends the actual chunk.
+"ko": |-
+  비공식적으로 프로세스는 이제 다음과 같이 진행됩니다. 인젝터는 개인 키를 사용하여 새 하위 트리의 먼로 해시에만 서명합니다. 다음으로 인젝터는 HAVE 메시지를 사용하여 피어에게 새 하위 트리의 존재를 알립니다. 피어가 HAVE 메시지에 대한 응답으로 새 하위 트리에서 청크를 요청하면 인젝터는 먼저 요청된 청크에 해당하는 서명된 munro 해시를 보냅니다. 그 후, 정적 콘텐츠와 유사하게 인젝터는 섹션 5.1에서와 같이 해당 청크를 확인하는 데 필요한 삼촌 해시를 보냅니다. 특히, 인젝터는 먼로 해시에 대해 요청된 청크를 확인하는 데 필요한 삼촌 해시를 보냅니다. 이는 루트 해시에 대해 확인이 이루어지는 정적 콘텐츠와 다릅니다. 마지막으로 인젝터는 실제 청크를 보냅니다.

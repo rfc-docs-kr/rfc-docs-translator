@@ -1,0 +1,21 @@
+"hash": |-
+  81094c75a8ad69585ab2afab8373f5da54a715a983c2962e3435ae0f92afe0b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some broken name servers do not react properly to QTYPE=NS requests.
+     For instance, some authoritative name servers embedded in load
+     balancers reply properly to A queries but send REFUSED to NS queries.
+     This behaviour is a protocol violation, and there is no need to stop
+     improving the DNS because of such behaviour.  However, QNAME
+     minimisation may still work with such domains, since they are only
+     leaf domains (no need to send them NS requests).  Such a setup breaks
+     more than just QNAME minimisation.  It breaks negative answers, since
+     the servers don't return the correct SOA, and it also breaks anything
+     dependent upon NS and SOA records existing at the top of the zone.
+"fixed": |-
+  Some broken name servers do not react properly to QTYPE=NS requests. For instance, some authoritative name servers embedded in load balancers reply properly to A queries but send REFUSED to NS queries. This behaviour is a protocol violation, and there is no need to stop improving the DNS because of such behaviour.  However, QNAME minimisation may still work with such domains, since they are only leaf domains (no need to send them NS requests).  Such a setup breaks more than just QNAME minimisation.  It breaks negative answers, since the servers don't return the correct SOA, and it also breaks anything dependent upon NS and SOA records existing at the top of the zone.
+"ko": |-
+  일부 손상된 이름 서버는 QTYPE=NS 요청에 제대로 반응하지 않습니다. 예를 들어 로드 밸런서에 내장된 일부 권한 있는 이름 서버는 A 쿼리에 올바르게 응답하지만 NS 쿼리에는 REFUSED를 보냅니다. 이 동작은 프로토콜 위반이므로 이러한 동작으로 인해 DNS 개선을 중단할 필요가 없습니다. 그러나 이러한 도메인은 리프 도메인일 뿐이므로(NS 요청을 보낼 필요가 없음) QNAME 최소화는 이러한 도메인에서 계속 작동할 수 있습니다. 이러한 설정은 QNAME 최소화 이상의 기능을 중단합니다. 서버가 올바른 SOA를 반환하지 않기 때문에 부정적인 대답이 깨지고 영역 상단에 존재하는 NS 및 SOA 레코드에 의존하는 모든 것도 깨집니다.

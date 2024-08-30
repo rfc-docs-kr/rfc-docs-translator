@@ -1,0 +1,1 @@
+START-SESSION은 세션이 train을 위한 것인지 음성 지문을 검증하기 위한 것인지도 결정합니다. 따라서 Verification-Mode 헤더 필드는 모든 START-SESSION 요청에서 반드시 전송되어야 합니다. Verification-Mode 헤더 필드의 값은 "train" 또는 "verify" 중 하나여야 합니다.

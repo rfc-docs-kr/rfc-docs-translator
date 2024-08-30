@@ -1,0 +1,24 @@
+"hash": |-
+  2f4717a6b7bc4f6c31a76b03a1e6e99b543a2a1236faffae8e9c94c181ddfb2e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     groups will require more than one "n" loop with a probability of
+     roughly (1-(r/2p))^n.  Therefore, a security parameter, k, is defined
+     that will ensure that at least k loops will always be executed
+     regardless of whether SKE is found in less than k loops.  There is
+     still a probability that a password would require more than k loops,
+     and a side-channel attacker could use that information to his
+     advantage, so selection of the value of k should be based on a trade-
+     off between the additional workload to always perform k iterations
+     and the potential of providing information to a side-channel
+     attacker.  It is important to note that the possibility of a
+     successful side-channel attack is greater against ECP groups than
+     MODP groups, and it might be appropriate to have separate values of k
+     for the two.
+"fixed": |-
+  groups will require more than one "n" loop with a probability of roughly (1-(r/2p))^n.  Therefore, a security parameter, k, is defined that will ensure that at least k loops will always be executed regardless of whether SKE is found in less than k loops.  There is still a probability that a password would require more than k loops, and a side-channel attacker could use that information to his advantage, so selection of the value of k should be based on a trade- off between the additional workload to always perform k iterations and the potential of providing information to a side-channel attacker.  It is important to note that the possibility of a successful side-channel attack is greater against ECP groups than MODP groups, and it might be appropriate to have separate values of k for the two.
+"ko": |-
+  그룹에는 대략 (1-(r/2p))^n 확률로 두 개 이상의 "n" 루프가 필요합니다.  따라서 SKE가 k개 미만의 루프에서 발견되는지 여부에 관계없이 항상 k개 이상의 루프가 실행되도록 보장하는 보안 매개변수 k가 정의됩니다.  암호에는 k개 이상의 루프가 필요할 가능성이 여전히 있으며 부채널 공격자가 해당 정보를 유리하게 사용할 수 있으므로 k 값의 선택은 항상 추가 작업 부하 간의 균형을 기반으로 해야 합니다. k 반복을 수행하고 부채널 공격자에게 정보를 제공할 가능성이 있습니다.  성공적인 부채널 공격 가능성은 MODP 그룹보다 ECP 그룹에 대해 더 높으며 두 그룹에 대해 별도의 k 값을 갖는 것이 적절할 수 있다는 점에 유의하는 것이 중요합니다.

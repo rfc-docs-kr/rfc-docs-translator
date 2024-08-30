@@ -1,0 +1,18 @@
+"hash": |-
+  41bbb6c49f1918438b8dda310c73d75fbb06e8bc1283653ce7c0f7f8286dfcbd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     BODY <string>
+        Messages that contain the specified string in the body of the
+        message.  Unlike TEXT (see below), this doesn't match any header
+        fields.  Servers are allowed to implement flexible matching for
+        this search key, for example, by matching "swim" to both "swam"
+        and "swum" in English language text or only performing full word
+        matching (where "swim" will not match "swimming").
+"fixed": |-
+  BODY <string>  -  Messages that contain the specified string in the body of the message.  Unlike TEXT (see below), this doesn't match any header fields.  Servers are allowed to implement flexible matching for this search key, for example, by matching "swim" to both "swam" and "swum" in English language text or only performing full word matching (where "swim" will not match "swimming").
+"ko": |-
+  BODY <string> - 메시지 본문에 지정된 문자열이 포함된 메시지입니다.  TEXT(아래 참조)와 달리 헤더 필드와 일치하지 않습니다.  서버는 이 검색 키에 대해 유연한 일치를 구현할 수 있습니다. 예를 들어 "swim"을 영어 텍스트의 "swam" 및 "swum" 모두에 일치시키거나 전체 단어 일치만 수행하여(여기서 "swim"은 "swimming"과 일치하지 않음) ).

@@ -1,0 +1,17 @@
+"hash": |-
+  5ca539b9d54fcfb553a692245a01e9461242a52b8d76400e88e7e1e815d6aebd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MUST NOT use remembered values for the following parameters:
+     ack_delay_exponent, max_ack_delay, initial_source_connection_id,
+     original_destination_connection_id, preferred_address,
+     retry_source_connection_id, and stateless_reset_token.  The client
+     MUST use the server's new values in the handshake instead; if the
+     server does not provide new values, the default values are used.
+"fixed": |-
+  A client MUST NOT use remembered values for the following parameters: ack_delay_exponent, max_ack_delay, initial_source_connection_id, original_destination_connection_id, preferred_address, retry_source_connection_id, and stateless_reset_token.  The client MUST use the server's new values in the handshake instead; if the server does not provide new values, the default values are used.
+"ko": |-
+  클라이언트는 ack_delay_exComponent, max_ack_delay,initial_source_connection_id,origin_destination_connection_id,preferred_address, retry_source_connection_id 및 stateless_reset_token 매개변수에 대해 기억된 값을 사용해서는 안 됩니다. 클라이언트는 대신 핸드셰이크에서 서버의 새 값을 사용해야 합니다. 서버가 새 값을 제공하지 않으면 기본값이 사용됩니다.

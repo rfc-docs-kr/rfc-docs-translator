@@ -1,0 +1,18 @@
+"hash": |-
+  937315d2c8391e07bb74887bedbdadac4ca835d3ade41b53ed05c7065c0d3a5f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each AEAD algorithm MUST provide a description relating the length of
+     the plaintext to that of the ciphertext.  This relation MUST NOT
+     depend on external parameters, such as an authentication strength
+     parameter (e.g., authentication tag length).  That sort of dependence
+     would complicate the use of the algorithm by creating a situation in
+     which the information from the AEAD registry was not sufficient to
+     ensure interoperability.
+"fixed": |-
+  Each AEAD algorithm MUST provide a description relating the length of the plaintext to that of the ciphertext.  This relation MUST NOT depend on external parameters, such as an authentication strength parameter (e.g., authentication tag length).  That sort of dependence would complicate the use of the algorithm by creating a situation in which the information from the AEAD registry was not sufficient to ensure interoperability.
+"ko": |-
+  각 AEAD 알고리즘은 일반 텍스트의 길이와 암호문의 길이에 관한 설명을 제공해야 합니다. 이 관계는 인증 강도 매개변수(예: 인증 태그 길이)와 같은 외부 매개변수에 의존해서는 안 됩니다. 이러한 종류의 의존성은 AEAD 레지스트리의 정보가 상호 운용성을 보장하기에 충분하지 않은 상황을 만들어 알고리즘 사용을 복잡하게 만듭니다.

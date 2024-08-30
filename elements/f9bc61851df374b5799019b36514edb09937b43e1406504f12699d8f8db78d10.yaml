@@ -1,0 +1,15 @@
+"hash": |-
+  f9bc61851df374b5799019b36514edb09937b43e1406504f12699d8f8db78d10
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The session hashes of two different sessions need to be distinct;
+     hence, the "Hash" function used to compute the "session_hash" needs
+     to be collision resistant.  As such, hash functions such as MD5 or
+     SHA1 are NOT RECOMMENDED.
+"fixed": |-
+  The session hashes of two different sessions need to be distinct; hence, the "Hash" function used to compute the "session_hash" needs to be collision resistant.  As such, hash functions such as MD5 or SHA1 are NOT RECOMMENDED.
+"ko": |-
+  두 개의 다른 세션의 세션 해시는 서로 달라야 합니다. 따라서 "session_hash"를 계산하는 데 사용되는 "Hash" 함수는 충돌 방지 기능이 있어야 합니다. 따라서 MD5 또는 SHA1과 같은 해시 함수는 권장되지 않습니다.

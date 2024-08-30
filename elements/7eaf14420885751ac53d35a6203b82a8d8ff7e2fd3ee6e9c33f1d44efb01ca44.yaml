@@ -1,0 +1,21 @@
+"hash": |-
+  7eaf14420885751ac53d35a6203b82a8d8ff7e2fd3ee6e9c33f1d44efb01ca44
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                          This specification requires correct encoding of
+                          the EncryptedPreMasterSecret complete with
+                          length bytes.  The resulting PDU is incompatible
+                          with many SSLv3 implementations.  Implementors
+                          upgrading from SSLv3 must modify their
+                          implementations to generate and accept the
+                          correct encoding.  Implementors who wish to be
+                          compatible with both SSLv3 and TLS should make
+                          their implementation's behavior dependent on the
+                          protocol version.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

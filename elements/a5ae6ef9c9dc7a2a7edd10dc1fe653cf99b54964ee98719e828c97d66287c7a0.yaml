@@ -1,0 +1,18 @@
+"hash": |-
+  a5ae6ef9c9dc7a2a7edd10dc1fe653cf99b54964ee98719e828c97d66287c7a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In particular, the swarm ID consists of a 1-byte Algorithm field that
+     identifies the public key's cryptographic algorithm and determines
+     the format of the Public Key field that follows.  The value of this
+     Algorithm field is one of the values in the "Domain Name System
+     Security (DNSSEC) Algorithm Numbers" registry [IANADNSSECALGNUM].
+     The RSASHA1 [RFC4034], RSASHA256 [RFC5702], ECDSAP256SHA256 and
+     ECDSAP384SHA384 [RFC6605] algorithms are mandatory to implement.
+"fixed": |-
+  In particular, the swarm ID consists of a 1-byte Algorithm field that identifies the public key's cryptographic algorithm and determines the format of the Public Key field that follows.  The value of this Algorithm field is one of the values in the "Domain Name System Security (DNSSEC) Algorithm Numbers" registry [IANADNSSECALGNUM]. The RSASHA1 [RFC4034], RSASHA256 [RFC5702], ECDSAP256SHA256 and ECDSAP384SHA384 [RFC6605] algorithms are mandatory to implement.
+"ko": |-
+  특히 Swarm ID는 공개 키의 암호화 알고리즘을 식별하고 뒤따르는 공개 키 필드의 형식을 결정하는 1바이트 알고리즘 필드로 구성됩니다. 이 알고리즘 필드의 값은 "DNSSEC(도메인 이름 시스템 보안) 알고리즘 번호" 레지스트리 [IANADNSSECALGNUM]의 값 중 하나입니다. RSASHA1 [RFC4034], RSASHA256 [RFC5702], ECDSAP256SHA256 및 ECDSAP384SHA384 [RFC6605] 알고리즘은 필수로 구현되어야 합니다.

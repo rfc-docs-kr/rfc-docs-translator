@@ -1,0 +1,21 @@
+"hash": |-
+  6b75894c6a9bf8a3fdfc6f8acb1e2b5e7cfc2af02ac24e773b371528504728eb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     struct {
+         select (KeyExchangeAlgorithm) {
+             case diffie_hellman:
+                 ServerDHParams params;
+                 Signature signed_params;
+             case rsa:
+                 ServerRSAParams params;
+                 Signature signed_params;
+         };
+     } ServerKeyExchange;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

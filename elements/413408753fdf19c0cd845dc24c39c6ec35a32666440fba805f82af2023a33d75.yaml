@@ -1,0 +1,32 @@
+"hash": |-
+  413408753fdf19c0cd845dc24c39c6ec35a32666440fba805f82af2023a33d75
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Merkle hash tree of a content file that is divided into N chunks
+     is constructed as follows.  Note the construction does not assume
+     chunks of content to be of a fixed size.  Given a cryptographic hash
+     function, more specifically an MDC [HAC01], such as SHA-256, the
+     hashes of all the chunks of the content are calculated.  Next, a
+     binary tree of sufficient height is created.  Sufficient height means
+     that the lowest level in the tree has enough nodes to hold all chunk
+     hashes in the set, as with bin numbering.  The figure below shows the
+     tree for a content file consisting of 7 chunks.  As with the content
+     addressing scheme, the leaves of the tree correspond to a chunk and,
+     in this case, are assigned the hash of that chunk, starting at the
+     leftmost leaf.  As the base of the tree may be wider than the number
+     of chunks, any remaining leaves in the tree are assigned an empty
+     hash value of all zeros.  Finally, the hash values of the higher
+     levels in the tree are calculated, by concatenating the hash values
+     of the two children (again left to right) and computing the hash of
+     that aggregate.  If the two children are empty hashes, the parent is
+     an empty all-zeros hash as well (to save computation).  This process
+     ends in a hash value for the root node, which is called the "root
+     hash".  Note the root hash only depends on the content and any
+     modification of the content will result in a different root hash.
+"fixed": |-
+  The Merkle hash tree of a content file that is divided into N chunks is constructed as follows.  Note the construction does not assume chunks of content to be of a fixed size.  Given a cryptographic hash function, more specifically an MDC [HAC01], such as SHA-256, the hashes of all the chunks of the content are calculated.  Next, a binary tree of sufficient height is created.  Sufficient height means that the lowest level in the tree has enough nodes to hold all chunk hashes in the set, as with bin numbering.  The figure below shows the tree for a content file consisting of 7 chunks.  As with the content addressing scheme, the leaves of the tree correspond to a chunk and, in this case, are assigned the hash of that chunk, starting at the leftmost leaf.  As the base of the tree may be wider than the number of chunks, any remaining leaves in the tree are assigned an empty hash value of all zeros.  Finally, the hash values of the higher levels in the tree are calculated, by concatenating the hash values of the two children (again left to right) and computing the hash of that aggregate.  If the two children are empty hashes, the parent is an empty all-zeros hash as well (to save computation).  This process ends in a hash value for the root node, which is called the "root hash".  Note the root hash only depends on the content and any modification of the content will result in a different root hash.
+"ko": |-
+  N개의 청크로 나누어진 콘텐츠 파일의 머클 해시 트리는 다음과 같이 구성된다. 구성에서는 콘텐츠 덩어리가 고정된 크기라고 가정하지 않습니다. 암호화 해시 함수, 보다 구체적으로 SHA-256과 같은 MDC [HAC01]가 주어지면 모든 콘텐츠 청크의 해시가 계산됩니다. 다음으로, 충분한 높이의 이진 트리가 생성됩니다. 충분한 높이란 빈 번호 매기기와 마찬가지로 트리의 가장 낮은 수준에 세트의 모든 청크 해시를 보유할 만큼 충분한 노드가 있음을 의미합니다. 아래 그림은 7개의 청크로 구성된 콘텐츠 파일의 트리를 보여줍니다. 콘텐츠 주소 지정 체계와 마찬가지로 트리의 잎은 청크에 해당하며 이 경우 가장 왼쪽 잎에서 시작하여 해당 청크의 해시가 할당됩니다. 트리의 베이스가 청크 수보다 넓을 수 있으므로 트리에 남아 있는 모든 리프에는 모두 0인 빈 해시 값이 할당됩니다. 마지막으로 두 하위 항목의 해시 값을 연결하고(다시 왼쪽에서 오른쪽으로) 해당 집계의 해시를 계산하여 트리에서 더 높은 수준의 해시 값이 계산됩니다. 두 하위 항목이 빈 해시이면 상위 항목도 모두 0으로 구성된 빈 해시입니다(계산을 저장하기 위해). 이 프로세스는 "루트 해시"라고 하는 루트 노드의 해시 값으로 끝납니다. 루트 해시는 콘텐츠에만 의존하며 콘텐츠를 수정하면 루트 해시가 달라집니다.

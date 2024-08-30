@@ -1,0 +1,16 @@
+"hash": |-
+  ea62d41d4579d9232096fb962018c454cc17c2a699300a90270587579aec5f47
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The receiver will process the body parts based on the handling
+        parameter of the 'multipart/alternative' body.  The receiver will
+        ignore the handling parameters of the body parts.  That is why
+        setting them to 'optional' is at the "SHOULD" level and not at the
+        "MUST" level -- their value is irrelevant.
+"fixed": |-
+  - The receiver will process the body parts based on the handling parameter of the 'multipart/alternative' body.  The receiver will ignore the handling parameters of the body parts.  That is why setting them to 'optional' is at the "SHOULD" level and not at the "MUST" level -- their value is irrelevant.
+"ko": |-
+  - 수신자는 'multipart/alternative' 본문의 처리 매개변수에 따라 본문 부분을 처리합니다. 수신자는 본문 부분의 처리 매개변수를 무시합니다. 그래서 'optional'로 설정하는 것은 "SHOULD" 수준이지 "MUST" 수준이 아닙니다. 값은 중요하지 않습니다.

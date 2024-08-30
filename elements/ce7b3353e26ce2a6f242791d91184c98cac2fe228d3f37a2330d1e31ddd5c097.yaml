@@ -1,0 +1,17 @@
+"hash": |-
+  ce7b3353e26ce2a6f242791d91184c98cac2fe228d3f37a2330d1e31ddd5c097
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In response to an apparent migration, endpoints MUST validate the
+     previously active path using a PATH_CHALLENGE frame.  This induces
+     the sending of new packets on that path.  If the path is no longer
+     viable, the validation attempt will time out and fail; if the path is
+     viable but no longer desired, the validation will succeed but only
+     results in probing packets being sent on the path.
+"fixed": |-
+  In response to an apparent migration, endpoints MUST validate the previously active path using a PATH_CHALLENGE frame.  This induces the sending of new packets on that path.  If the path is no longer viable, the validation attempt will time out and fail; if the path is viable but no longer desired, the validation will succeed but only results in probing packets being sent on the path.
+"ko": |-
+  명백한 마이그레이션에 대한 응답으로 엔드포인트는 PATH_CHALLENGE 프레임을 사용하여 이전 활성 경로의 유효성을 검사해야 합니다. 그러면 해당 경로에서 새 패킷이 전송됩니다. 경로가 더 이상 실행 가능하지 않으면 유효성 검사 시도가 시간 초과되어 실패합니다. 경로가 실행 가능하지만 더 이상 필요하지 않은 경우 유효성 검사는 성공하지만 검색 패킷만 경로에서 전송됩니다.

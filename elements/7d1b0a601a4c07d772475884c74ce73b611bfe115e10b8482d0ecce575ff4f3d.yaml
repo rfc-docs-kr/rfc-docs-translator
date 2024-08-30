@@ -1,0 +1,20 @@
+"hash": |-
+  7d1b0a601a4c07d772475884c74ce73b611bfe115e10b8482d0ecce575ff4f3d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To keep messages compact in common situations, it is RECOMMENDED that
+     producers omit an "application/" prefix of a media type value in a
+     "cty" Header Parameter when no other '/' appears in the media type
+     value.  A recipient using the media type value MUST treat it as if
+     "application/" were prepended to any "cty" value not containing a
+     '/'.  For instance, a "cty" value of "example" SHOULD be used to
+     represent the "application/example" media type, whereas the media
+     type "application/example;part="1/2"" cannot be shortened to
+     "example;part="1/2"".
+"fixed": |-
+  To keep messages compact in common situations, it is RECOMMENDED that producers omit an "application/" prefix of a media type value in a "cty" Header Parameter when no other '/' appears in the media type value.  A recipient using the media type value MUST treat it as if "application/" were prepended to any "cty" value not containing a '/'.  For instance, a "cty" value of "example" SHOULD be used to represent the "application/example" media type, whereas the media type "application/example;part="1/2"" cannot be shortened to "example;part="1/2"".
+"ko": |-
+  일반적인 상황에서 메시지를 간결하게 유지하기 위해, 미디어 유형 값에 다른 '/'가 나타나지 않을 경우, 제작자가 "cty" 헤더 매개변수에서 미디어 유형 값의 "application/" 접두사를 생략하는 것이 좋습니다. 미디어 유형 값을 사용하는 수신자는 "application/"이 '/'를 포함하지 않는 모든 "cty" 값에 접두사로 붙은 것처럼 처리해야 합니다. 예를 들어, "application/example" 미디어 유형을 나타내기 위해 "cty" 값인 "example"을 사용해야 하지만, 미디어 유형 "application/example;part="1/2""는 "example;part="1/2""로 줄일 수 없습니다.

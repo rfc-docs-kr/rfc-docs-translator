@@ -1,0 +1,18 @@
+"hash": |-
+  395cdf53e4fe835ae77baaff8ecde9234bfdbbb8f5112ab2978b96bc7bc68dc6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Validating the JWS Signature is a bit different from the previous
+     example.  We pass the public key (n, e), the JWS Signature (which is
+     base64url decoded from the value encoded in the JWS representation),
+     and the JWS Signing Input (which is the initial substring of the JWS
+     Compact Serialization representation up until but not including the
+     second period character) to an RSASSA-PKCS1-v1_5 signature verifier
+     that has been configured to use the SHA-256 hash function.
+"fixed": |-
+  Validating the JWS Signature is a bit different from the previous example.  We pass the public key (n, e), the JWS Signature (which is base64url decoded from the value encoded in the JWS representation), and the JWS Signing Input (which is the initial substring of the JWS Compact Serialization representation up until but not including the second period character) to an RSASSA-PKCS1-v1_5 signature verifier that has been configured to use the SHA-256 hash function.
+"ko": |-
+  JWS 서명을 검증하는 것은 이전 예와 약간 다릅니다. 공개 키(n, e), JWS 서명(JWS 표현에 인코딩된 값에서 base64url로 디코딩됨), JWS 서명 입력(JWS Compact Serialization 표현의 초기 하위 문자열(두 번째 마침표 문자는 포함하지 않음))을 SHA-256 해시 함수를 사용하도록 구성된 RSASSA-PKCS1-v1_5 서명 검증기에 전달합니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  9de84240d73821ae99b182d7aaa59efc651b7a4ae1116a3c3163c393797d9ed1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The DEFINE-GRAMMAR method, from the client to the server, provides
+     one or more grammars and requests the server to access, fetch, and
+     compile the grammars as needed.  The DEFINE-GRAMMAR method
+     implementation MUST do a fetch of all external URIs that are part of
+     that operation.  If caching is implemented, this URI fetching MUST
+     conform to the cache control hints and parameter header fields
+     associated with the method in deciding whether the URIs should be
+     fetched from cache or from the external server.  If these hints/
+     parameters are not specified in the method, the values set for the
+     session using SET-PARAMS/GET-PARAMS apply.  If it was not set for the
+     session, their default values apply.
+"fixed": |-
+  The DEFINE-GRAMMAR method, from the client to the server, provides one or more grammars and requests the server to access, fetch, and compile the grammars as needed.  The DEFINE-GRAMMAR method implementation MUST do a fetch of all external URIs that are part of that operation.  If caching is implemented, this URI fetching MUST conform to the cache control hints and parameter header fields associated with the method in deciding whether the URIs should be fetched from cache or from the external server.  If these hints/ parameters are not specified in the method, the values set for the session using SET-PARAMS/GET-PARAMS apply.  If it was not set for the session, their default values apply.
+"ko": |-
+  DEFINE-GRAMMAR 메서드는 클라이언트에서 서버로 하나 이상의 문법을 제공하고 서버에 필요에 따라 문법에 액세스하고, 가져오고, 컴파일하도록 요청합니다. DEFINE-GRAMMAR 메서드 구현은 해당 작업의 일부인 모든 외부 URI를 가져와야 합니다. 캐싱이 구현된 경우 이 URI 페칭은 URI를 캐시에서 페치할지 외부 서버에서 페치할지 결정할 때 메서드와 연관된 캐시 제어 힌트 및 매개변수 헤더 필드를 따라야 합니다. 이러한 힌트/매개변수가 메서드에 지정되지 않은 경우 SET-PARAMS/GET-PARAMS를 사용하여 세션에 설정된 값이 적용됩니다. 세션에 설정되지 않은 경우 기본값이 적용됩니다.

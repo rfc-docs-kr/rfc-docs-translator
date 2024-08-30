@@ -1,0 +1,30 @@
+"hash": |-
+  ced3d8a8172483d69efb069369b0f18bce5232f7d2f2531ce25486283b2d7533
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     resp-text-code  = "ALERT" /
+                       "BADCHARSET" [SP "(" charset *(SP charset) ")" ] /
+                       capability-data / "PARSE" /
+                       "PERMANENTFLAGS" SP
+                           "(" [flag-perm *(SP flag-perm)] ")" /
+                       "READ-ONLY" / "READ-WRITE" / "TRYCREATE" /
+                       "UIDNEXT" SP nz-number /
+                       "UIDVALIDITY" SP nz-number /
+                       resp-code-apnd / resp-code-copy / "UIDNOTSTICKY" /
+                       "UNAVAILABLE" / "AUTHENTICATIONFAILED" /
+                       "AUTHORIZATIONFAILED" / "EXPIRED" /
+                       "PRIVACYREQUIRED" / "CONTACTADMIN" / "NOPERM" /
+                       "INUSE" / "EXPUNGEISSUED" / "CORRUPTION" /
+                       "SERVERBUG" / "CLIENTBUG" / "CANNOT" /
+                       "LIMIT" / "OVERQUOTA" / "ALREADYEXISTS" /
+                       "NONEXISTENT" / "NOTSAVED" / "HASCHILDREN" /
+                       "CLOSED" /
+                       "UNKNOWN-CTE" /
+                       atom [SP 1*<any TEXT-CHAR except "]">]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

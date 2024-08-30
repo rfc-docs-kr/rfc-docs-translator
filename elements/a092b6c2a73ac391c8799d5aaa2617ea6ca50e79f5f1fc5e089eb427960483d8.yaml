@@ -1,0 +1,19 @@
+"hash": |-
+  a092b6c2a73ac391c8799d5aaa2617ea6ca50e79f5f1fc5e089eb427960483d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     padding:  The padding is random content that MUST be ignored by the
+        receiver.  The length of a HeartbeatMessage is TLSPlaintext.length
+        for TLS and DTLSPlaintext.length for DTLS.  Furthermore, the
+        length of the type field is 1 byte, and the length of the
+        payload_length is 2.  Therefore, the padding_length is
+        TLSPlaintext.length - payload_length - 3 for TLS and
+        DTLSPlaintext.length - payload_length - 3 for DTLS.  The
+        padding_length MUST be at least 16.
+"fixed": |-
+  padding:  The padding is random content that MUST be ignored by the receiver.  The length of a HeartbeatMessage is TLSPlaintext.length for TLS and DTLSPlaintext.length for DTLS.  Furthermore, the length of the type field is 1 byte, and the length of the payload_length is 2.  Therefore, the padding_length is TLSPlaintext.length - payload_length - 3 for TLS and DTLSPlaintext.length - payload_length - 3 for DTLS.  The padding_length MUST be at least 16.
+"ko": |-
+  패딩: 패딩은 수신자가 무시해야 하는 임의의 콘텐츠입니다.  HeartbeatMessage의 길이는 TLS의 경우 TLSPlaintext.length이고 DTLS의 경우 DTLSPlaintext.length입니다.  또한, type 필드의 길이는 1byte이고, payload_length의 길이는 2이다. 따라서 padding_length는 TLS의 경우 TLSPlaintext.length - payload_length - 3, DTLS의 경우 DTLSPlaintext.length - payload_length - 3이다.  padding_length는 16 이상이어야 합니다.

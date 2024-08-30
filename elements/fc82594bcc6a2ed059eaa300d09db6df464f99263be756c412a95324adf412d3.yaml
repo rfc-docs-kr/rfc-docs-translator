@@ -1,0 +1,19 @@
+"hash": |-
+  fc82594bcc6a2ed059eaa300d09db6df464f99263be756c412a95324adf412d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since the host and port information acts as an application-level
+     routing mechanism, it is a frequent target for malware seeking to
+     poison a shared cache or redirect a request to an unintended server.
+     An interception proxy is particularly vulnerable if it relies on the
+     host and port information for redirecting requests to internal
+     servers, or for use as a cache key in a shared cache, without first
+     verifying that the intercepted connection is targeting a valid IP
+     address for that host.
+"fixed": |-
+  Since the host and port information acts as an application-level routing mechanism, it is a frequent target for malware seeking to poison a shared cache or redirect a request to an unintended server. An interception proxy is particularly vulnerable if it relies on the host and port information for redirecting requests to internal servers, or for use as a cache key in a shared cache, without first verifying that the intercepted connection is targeting a valid IP address for that host.
+"ko": |-
+  호스트 및 포트 정보는 애플리케이션 수준 라우팅 메커니즘으로 작동하므로 공유 캐시를 손상시키거나 요청을 의도하지 않은 서버로 리디렉션하려는 악성 프로그램의 빈번한 대상이 됩니다. 차단 프록시는 차단된 연결이 해당 호스트의 유효한 IP 주소를 대상으로 하는지 먼저 확인하지 않고 내부 서버로 요청을 리디렉션하거나 공유 캐시에서 캐시 키로 사용하기 위해 호스트 및 포트 정보에 의존하는 경우 특히 취약합니다. .

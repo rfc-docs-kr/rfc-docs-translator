@@ -1,0 +1,15 @@
+"hash": |-
+  77f653757d047decf1166e92fb6c1c01181d9b9f9b6a2a7c084f24309a08f22c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations need to maintain a buffer of CRYPTO data received out
+     of order.  Because there is no flow control of CRYPTO frames, an
+     endpoint could potentially force its peer to buffer an unbounded
+     amount of data.
+"fixed": |-
+  Implementations need to maintain a buffer of CRYPTO data received out of order.  Because there is no flow control of CRYPTO frames, an endpoint could potentially force its peer to buffer an unbounded amount of data.
+"ko": |-
+  구현에서는 순서 없이 수신된 CRYPTO 데이터의 버퍼를 유지해야 합니다. CRYPTO 프레임에는 흐름 제어가 없기 때문에 엔드포인트는 잠재적으로 피어가 무제한의 데이터를 버퍼링하도록 강제할 수 있습니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  a079caf52c9de2a44fea51542ccc1c6087111713c1d9b18761d1c310fbcf0fa4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If HMAC truncation has been successfully negotiated during a TLS
+     handshake, and the negotiated cipher suite uses HMAC, both the client
+     and the server pass this fact to the TLS record layer along with the
+     other negotiated security parameters.  Subsequently during the
+     session, clients and servers MUST use truncated HMACs, calculated as
+     specified in [RFC2104].  That is, SecurityParameters.mac_length is 10
+     bytes, and only the first 10 bytes of the HMAC output are transmitted
+     and checked.  Note that this extension does not affect the
+     calculation of the pseudo-random function (PRF) as part of
+     handshaking or key derivation.
+"fixed": |-
+  If HMAC truncation has been successfully negotiated during a TLS handshake, and the negotiated cipher suite uses HMAC, both the client and the server pass this fact to the TLS record layer along with the other negotiated security parameters.  Subsequently during the session, clients and servers MUST use truncated HMACs, calculated as specified in [RFC2104].  That is, SecurityParameters.mac_length is 10 bytes, and only the first 10 bytes of the HMAC output are transmitted and checked.  Note that this extension does not affect the calculation of the pseudo-random function (PRF) as part of handshaking or key derivation.
+"ko": |-
+  TLS 핸드셰이크 중에 HMAC 잘림이 성공적으로 협상되고 협상된 암호 그룹이 HMAC를 사용하는 경우 클라이언트와 서버 모두 이 사실을 다른 협상된 보안 매개변수와 함께 TLS 레코드 계층에 전달합니다. 이후 세션 중에 클라이언트와 서버는 [RFC2104]에 지정된 대로 계산된 잘린 HMAC를 사용해야 합니다. 즉, SecurityParameters.mac_length는 10바이트이고, HMAC 출력의 처음 10바이트만 전송하여 확인합니다. 이 확장은 핸드쉐이킹이나 키 파생의 일부인 의사 난수 함수(PRF) 계산에 영향을 주지 않습니다.

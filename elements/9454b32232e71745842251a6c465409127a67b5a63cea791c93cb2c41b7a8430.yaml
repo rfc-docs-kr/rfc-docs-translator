@@ -1,0 +1,17 @@
+"hash": |-
+  9454b32232e71745842251a6c465409127a67b5a63cea791c93cb2c41b7a8430
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The payload of an Initial packet includes a CRYPTO frame (or frames)
+     containing a cryptographic handshake message, ACK frames, or both.
+     PING, PADDING, and CONNECTION_CLOSE frames of type 0x1c are also
+     permitted.  An endpoint that receives an Initial packet containing
+     other frames can either discard the packet as spurious or treat it as
+     a connection error.
+"fixed": |-
+  The payload of an Initial packet includes a CRYPTO frame (or frames) containing a cryptographic handshake message, ACK frames, or both. PING, PADDING, and CONNECTION_CLOSE frames of type 0x1c are also permitted.  An endpoint that receives an Initial packet containing other frames can either discard the packet as spurious or treat it as a connection error.
+"ko": |-
+  초기 패킷의 페이로드에는 암호화 핸드셰이크 메시지, ACK 프레임 또는 둘 다를 포함하는 CRYPTO 프레임(또는 프레임)이 포함됩니다. 0x1c 유형의 PING, PADDING 및 CONNECTION_CLOSE 프레임도 허용됩니다. 다른 프레임이 포함된 초기 패킷을 수신하는 엔드포인트는 해당 패킷을 가짜로 삭제하거나 연결 오류로 처리할 수 있습니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  fe7ce26204a1736fdc5c6f42a1acddf0ddc31406f0dba19d3ee4fa77d507ccb6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     BGP speakers MAY negotiate the version of the protocol by making
+     multiple attempts at opening a BGP connection, starting with the
+     highest version number each BGP speaker supports.  If an open attempt
+     fails with an Error Code, OPEN Message Error, and an Error Subcode,
+     Unsupported Version Number, then the BGP speaker has available the
+     version number it tried, the version number its peer tried, the
+     version number passed by its peer in the NOTIFICATION message, and
+     the version numbers it supports.  If the two peers do support one or
+     more common versions, then this will allow them to rapidly determine
+     the highest common version.  In order to support BGP version
+     negotiation, future versions of BGP MUST retain the format of the
+     OPEN and NOTIFICATION messages.
+"fixed": |-
+  BGP speakers MAY negotiate the version of the protocol by making multiple attempts at opening a BGP connection, starting with the highest version number each BGP speaker supports.  If an open attempt fails with an Error Code, OPEN Message Error, and an Error Subcode, Unsupported Version Number, then the BGP speaker has available the version number it tried, the version number its peer tried, the version number passed by its peer in the NOTIFICATION message, and the version numbers it supports.  If the two peers do support one or more common versions, then this will allow them to rapidly determine the highest common version.  In order to support BGP version negotiation, future versions of BGP MUST retain the format of the OPEN and NOTIFICATION messages.
+"ko": |-
+  BGP 스피커는 각 BGP 스피커가 지원하는 가장 높은 버전 번호부터 시작하여 BGP 연결을 열려고 여러 번 시도하여 프로토콜 버전을 협상할 수 있습니다. 오류 코드, OPEN 메시지 오류 및 오류 하위 코드, 지원되지 않는 버전 번호와 함께 열기 시도가 실패하는 경우 BGP 스피커는 시도한 버전 번호, 피어가 시도한 버전 번호, 피어가 전달한 버전 번호를 사용할 수 있습니다. NOTIFICATION 메시지 및 지원하는 버전 번호. 두 피어가 하나 이상의 공통 버전을 지원하는 경우 이를 통해 가장 높은 공통 버전을 신속하게 결정할 수 있습니다. BGP 버전 협상을 지원하려면 향후 BGP 버전에서는 OPEN 및 NOTIFICATION 메시지 형식을 유지해야 합니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  ecf54b0981d8a8487d603568644da674455d5a40edd1b49183ec748179e9ef31
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A token received in a NEW_TOKEN frame is applicable to any server
+     that the connection is considered authoritative for (e.g., server
+     names included in the certificate).  When connecting to a server for
+     which the client retains an applicable and unused token, it SHOULD
+     include that token in the Token field of its Initial packet.
+     Including a token might allow the server to validate the client
+     address without an additional round trip.  A client MUST NOT include
+     a token that is not applicable to the server that it is connecting
+     to, unless the client has the knowledge that the server that issued
+     the token and the server the client is connecting to are jointly
+     managing the tokens.  A client MAY use a token from any previous
+     connection to that server.
+"fixed": |-
+  A token received in a NEW_TOKEN frame is applicable to any server that the connection is considered authoritative for (e.g., server names included in the certificate).  When connecting to a server for which the client retains an applicable and unused token, it SHOULD include that token in the Token field of its Initial packet. Including a token might allow the server to validate the client address without an additional round trip.  A client MUST NOT include a token that is not applicable to the server that it is connecting to, unless the client has the knowledge that the server that issued the token and the server the client is connecting to are jointly managing the tokens.  A client MAY use a token from any previous connection to that server.
+"ko": |-
+  NEW_TOKEN 프레임에서 수신된 토큰은 연결이 신뢰할 수 있는 것으로 간주되는 모든 서버(예: 인증서에 포함된 서버 이름)에 적용 가능합니다. 클라이언트가 적용 가능하고 사용되지 않은 토큰을 유지하는 서버에 연결할 때 클라이언트는 초기 패킷의 토큰 필드에 해당 토큰을 포함해야 합니다. 토큰을 포함하면 서버가 추가 왕복 없이 클라이언트 주소의 유효성을 검사할 수 있습니다. 클라이언트는 토큰을 발행한 서버와 클라이언트가 연결 중인 서버가 토큰을 공동으로 관리하고 있다는 사실을 클라이언트가 알지 않는 한 연결 중인 서버에 적용할 수 없는 토큰을 포함해서는 안 됩니다. 클라이언트는 해당 서버에 대한 이전 연결의 토큰을 사용할 수 있습니다.

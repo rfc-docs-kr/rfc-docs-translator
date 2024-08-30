@@ -1,0 +1,17 @@
+"hash": |-
+  83c1a5d2d95bd44c91d56001f74e40af6fdcd594dd7dee8a27b9d5feade7a2c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All messages are idempotent or recognizable as duplicates.
+     Idempotent means that processing a message more than once does not
+     lead to a different state from if it was processed just once.  In
+     particular, a peer MAY resend DATA, ACK, HAVE, INTEGRITY, PEX_*,
+     SIGNED_INTEGRITY, REQUEST, CANCEL, CHOKE, and UNCHOKE messages
+     without problems when loss is suspected.  When a peer resends a
+"fixed": |-
+  All messages are idempotent or recognizable as duplicates. Idempotent means that processing a message more than once does not lead to a different state from if it was processed just once.  In particular, a peer MAY resend DATA, ACK, HAVE, INTEGRITY, PEX_*, SIGNED_INTEGRITY, REQUEST, CANCEL, CHOKE, and UNCHOKE messages without problems when loss is suspected.  When a peer resends a
+"ko": |-
+  모든 메시지는 멱등성이 있거나 중복 메시지로 인식될 수 있습니다. 멱등성은 메시지를 두 번 이상 처리해도 메시지가 한 번만 처리된 경우와 다른 상태로 이어지지 않음을 의미합니다. 특히, 피어는 손실이 의심되는 경우 문제 없이 DATA, ACK, HAVE, INTEGRITY, PEX_*, SIGNED_INTEGRITY, REQUEST, CANCEL, CHOKE 및 UNCHOKE 메시지를 다시 보낼 수 있습니다. 동료가 재전송할 때

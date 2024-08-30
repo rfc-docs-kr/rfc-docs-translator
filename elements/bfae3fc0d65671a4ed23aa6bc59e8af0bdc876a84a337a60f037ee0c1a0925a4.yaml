@@ -1,0 +1,18 @@
+"hash": |-
+  bfae3fc0d65671a4ed23aa6bc59e8af0bdc876a84a337a60f037ee0c1a0925a4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field specifies the terminating timeout to use when
+     recognizing DTMF input.  The DTMF-Term-Timeout applies only when no
+     additional input is allowed by the grammar; otherwise, the
+     DTMF-Interdigit-Timeout applies.  The value is in milliseconds.  The
+     value for this header field ranges from 0 to an implementation-
+     specific maximum value.  The default value is 10 seconds.  This
+     header field MAY occur in RECOGNIZE, SET-PARAMS, or GET-PARAMS.
+"fixed": |-
+  This header field specifies the terminating timeout to use when recognizing DTMF input.  The DTMF-Term-Timeout applies only when no additional input is allowed by the grammar; otherwise, the DTMF-Interdigit-Timeout applies.  The value is in milliseconds.  The value for this header field ranges from 0 to an implementation- specific maximum value.  The default value is 10 seconds.  This header field MAY occur in RECOGNIZE, SET-PARAMS, or GET-PARAMS.
+"ko": |-
+  이 헤더 필드는 DTMF 입력을 인식할 때 사용할 종료 타임아웃을 지정합니다. DTMF-Term-Timeout은 문법에서 추가 입력이 허용되지 않을 때만 적용됩니다. 그렇지 않으면 DTMF-Interdigit-Timeout이 적용됩니다. 값은 밀리초 단위입니다. 이 헤더 필드의 값은 0에서 구현별 최대값까지입니다. 기본값은 10초입니다. 이 헤더 필드는 RECOGNIZE, SET-PARAMS 또는 GET-PARAMS에서 발생할 수 있습니다.

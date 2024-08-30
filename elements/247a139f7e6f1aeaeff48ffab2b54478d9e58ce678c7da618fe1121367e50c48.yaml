@@ -1,0 +1,15 @@
+"hash": |-
+  247a139f7e6f1aeaeff48ffab2b54478d9e58ce678c7da618fe1121367e50c48
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note in addition that a server MUST NOT send the "CertificateStatus"
+     message unless it received a "status_request" extension in the client
+     hello message and sent a "status_request" extension in the server
+     hello message.
+"fixed": |-
+  Note in addition that a server MUST NOT send the "CertificateStatus" message unless it received a "status_request" extension in the client hello message and sent a "status_request" extension in the server hello message.
+"ko": |-
+  또한 서버는 클라이언트 hello 메시지에서 "status_request" 확장을 수신하고 서버 hello 메시지에서 "status_request" 확장을 전송하지 않는 한 "CertificateStatus" 메시지를 전송해서는 안 됩니다.

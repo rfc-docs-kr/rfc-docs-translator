@@ -1,0 +1,1 @@
+- KeyAgreePSKRecipientInfo ::= SEQUENCE { version CMSVersion, -- 항상 0으로 설정됨 pskid PreSharedKeyIdentifier, Originator [0] EXPLICIT OriginatorIdentifierOrKey, ukm [1] EXPLICIT UserKeyingMaterial OPTIONAL, kdfAlgorithm KeyDerivationAlgorithmIdentifier, keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier, receiveEncryptedKeys 암호화된 키 }

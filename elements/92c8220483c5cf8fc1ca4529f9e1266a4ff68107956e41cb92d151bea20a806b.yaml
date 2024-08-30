@@ -1,0 +1,23 @@
+"hash": |-
+  92c8220483c5cf8fc1ca4529f9e1266a4ff68107956e41cb92d151bea20a806b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are no measures in this version of QUIC to prevent indirect
+     control over the encrypted portions of packets.  It is necessary to
+     assume that endpoints are able to control the contents of frames that
+     a peer sends, especially those frames that convey application data,
+     such as STREAM frames.  Though this depends to some degree on details
+     of the application protocol, some control is possible in many
+     protocol usage contexts.  As the attacker has access to packet
+     protection keys, they are likely to be capable of predicting how a
+     peer will encrypt future packets.  Successful control over datagram
+     content then only requires that the attacker be able to predict the
+     packet number and placement of frames in packets with some amount of
+     reliability.
+"fixed": |-
+  There are no measures in this version of QUIC to prevent indirect control over the encrypted portions of packets.  It is necessary to assume that endpoints are able to control the contents of frames that a peer sends, especially those frames that convey application data, such as STREAM frames.  Though this depends to some degree on details of the application protocol, some control is possible in many protocol usage contexts.  As the attacker has access to packet protection keys, they are likely to be capable of predicting how a peer will encrypt future packets.  Successful control over datagram content then only requires that the attacker be able to predict the packet number and placement of frames in packets with some amount of reliability.
+"ko": |-
+  이 버전의 QUIC에는 패킷의 암호화된 부분에 대한 간접적인 제어를 방지하는 조치가 없습니다. 엔드포인트는 피어가 보내는 프레임, 특히 STREAM 프레임과 같이 애플리케이션 데이터를 전달하는 프레임의 내용을 제어할 수 있다고 가정해야 합니다. 이는 애플리케이션 프로토콜의 세부사항에 따라 어느 정도 달라지지만 많은 프로토콜 사용 상황에서 일부 제어가 가능합니다. 공격자가 패킷 보호 키에 액세스할 수 있으므로 피어가 향후 패킷을 암호화하는 방법을 예측할 수 있을 가능성이 높습니다. 데이터그램 콘텐츠를 성공적으로 제어하려면 공격자가 어느 정도의 신뢰성을 가지고 패킷 번호와 패킷 내 프레임 배치를 예측할 수 있어야 합니다.

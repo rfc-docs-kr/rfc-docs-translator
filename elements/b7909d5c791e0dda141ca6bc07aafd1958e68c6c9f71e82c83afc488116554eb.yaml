@@ -1,0 +1,20 @@
+"hash": |-
+  b7909d5c791e0dda141ca6bc07aafd1958e68c6c9f71e82c83afc488116554eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  'job-data-insufficient': The Create-Job operation has been
+        accepted by the Printer, but the Printer is expecting additional
+        Document data before it can move the Job into the 'processing'
+        state.  If a Printer starts processing before it has received all
+        data, the Printer removes the 'job-data-insufficient' reason, but
+        the 'job-incoming' reason remains.  If a Printer starts processing
+        after it has received all data, the Printer removes the
+        'job-data-insufficient' reason and the 'job-incoming' reason at
+        the same time.
+"fixed": |-
+  -  'job-data-insufficient': The Create-Job operation has been accepted by the Printer, but the Printer is expecting additional Document data before it can move the Job into the 'processing' state.  If a Printer starts processing before it has received all data, the Printer removes the 'job-data-insufficient' reason, but the 'job-incoming' reason remains.  If a Printer starts processing after it has received all data, the Printer removes the 'job-data-insufficient' reason and the 'job-incoming' reason at the same time.
+"ko": |-
+  - 'job-data-insufficient': Create-Job 작업이 프린터에서 승인되었지만 프린터는 작업을 '처리 중' 상태로 이동하기 전에 추가 문서 데이터를 기대하고 있습니다. 프린터가 모든 데이터를 수신하기 전에 처리를 시작하면 프린터는 '작업 데이터 부족' 이유를 제거하지만 '작업 수신' 이유는 그대로 유지됩니다. 프린터가 모든 데이터를 수신한 후 처리를 시작하면 프린터는 '작업 데이터 부족' 사유와 '작업 수신' 사유를 동시에 제거합니다.

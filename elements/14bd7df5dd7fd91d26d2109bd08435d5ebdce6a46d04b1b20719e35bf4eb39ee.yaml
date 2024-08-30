@@ -1,0 +1,16 @@
+"hash": |-
+  14bd7df5dd7fd91d26d2109bd08435d5ebdce6a46d04b1b20719e35bf4eb39ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Conversely, a client MUST NOT assume that receiving an Accept-Ranges
+     field means that future range requests will return partial responses.
+     The content might change, the server might only support range
+     requests at certain times or under certain conditions, or a different
+     intermediary might process the next request.
+"fixed": |-
+  Conversely, a client MUST NOT assume that receiving an Accept-Ranges field means that future range requests will return partial responses. The content might change, the server might only support range requests at certain times or under certain conditions, or a different intermediary might process the next request.
+"ko": |-
+  반대로 클라이언트는 Accept-Ranges 필드를 수신하면 향후 범위 요청이 부분 응답을 반환한다는 의미라고 가정해서는 안 됩니다. 콘텐츠가 변경될 수 있고, 서버가 특정 시간이나 특정 조건에서만 범위 요청을 지원할 수도 있고, 다른 중개자가 다음 요청을 처리할 수도 있습니다.

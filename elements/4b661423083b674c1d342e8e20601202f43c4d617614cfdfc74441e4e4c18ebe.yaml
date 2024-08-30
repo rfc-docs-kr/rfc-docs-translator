@@ -1,0 +1,33 @@
+"hash": |-
+  4b661423083b674c1d342e8e20601202f43c4d617614cfdfc74441e4e4c18ebe
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            v=0
+            o=- 3000000001 3000000003 IN IP4 192.0.2.11
+            s=Set up MRCPv2 control and audio
+            i=Add recognizer and duplex the audio
+            c=IN IP4 192.0.2.11
+            t=0 0
+            m=application 32416  TCP/MRCPv2 1
+            a=channel:32AECB23433801@speechsynth
+            a=cmid:1
+            m=audio 48260 RTP/AVP 0
+            a=rtpmap:0 pcmu/8000
+            a=sendonly
+            a=mid:1
+            m=application 32416  TCP/MRCPv2 1
+            a=channel:32AECB23433801@speechrecog
+            a=cmid:2
+            m=audio 48260 RTP/AVP 0
+            a=rtpmap:0 pcmu/8000
+            a=rtpmap:96 telephone-event/8000
+            a=fmtp:96 0-15
+            a=recvonly
+            a=mid:2
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  070d7118c02bfb64d581bf228fffbe1d9dc34a791cf2018faa9ab59135a016d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Special rules exist for server notification of a client about the
+     removal of messages to prevent synchronization errors; see the
+     description of the EXPUNGE response (Section 7.5.1) for more detail.
+     In particular, it is NOT permitted to send an EXISTS response that
+     would reduce the number of messages in the mailbox; only the EXPUNGE
+     response can do this.
+"fixed": |-
+  Special rules exist for server notification of a client about the removal of messages to prevent synchronization errors; see the description of the EXPUNGE response (Section 7.5.1) for more detail. In particular, it is NOT permitted to send an EXISTS response that would reduce the number of messages in the mailbox; only the EXPUNGE response can do this.
+"ko": |-
+  동기화 오류를 방지하기 위해 메시지 제거에 대한 클라이언트의 서버 알림에 대한 특별한 규칙이 있습니다. 자세한 내용은 말소 대응 설명(섹션 7.5.1)을 참조하세요. 특히 사서함의 메시지 수를 줄이는 EXISTS 응답을 보내는 것은 허용되지 않습니다. EXPUNGE 응답만이 이를 수행할 수 있습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  235d9d8663cc151b86472c48ae500df7351915644fb4ad16a839fa5db139865e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         final_client_write_key  = PRF(client_write_key,
+                                       "client write key",
+                                       client_random +
+                                       server_random)[0..15]
+         final_server_write_key  = PRF(server_write_key,
+                                       "server write key",
+                                       client_random +
+                                       server_random)[0..15]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

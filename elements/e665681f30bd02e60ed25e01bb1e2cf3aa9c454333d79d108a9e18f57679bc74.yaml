@@ -1,0 +1,17 @@
+"hash": |-
+  e665681f30bd02e60ed25e01bb1e2cf3aa9c454333d79d108a9e18f57679bc74
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PPSPP peers MUST use ACK messages to acknowledge received chunks if
+     an unreliable transport protocol is used.  When a receiving peer has
+     successfully checked the integrity of a chunk or interval of chunks
+     C, it MUST send an ACK message containing the chunk specification of
+     its biggest, complete interval covering C to the sending peer (see
+     HAVE).
+"fixed": |-
+  PPSPP peers MUST use ACK messages to acknowledge received chunks if an unreliable transport protocol is used.  When a receiving peer has successfully checked the integrity of a chunk or interval of chunks C, it MUST send an ACK message containing the chunk specification of its biggest, complete interval covering C to the sending peer (see HAVE).
+"ko": |-
+  PPSPP 피어는 신뢰할 수 없는 전송 프로토콜이 사용되는 경우 수신된 청크를 확인하기 위해 ACK 메시지를 사용해야 합니다. 수신 피어가 청크 또는 청크 C의 간격의 무결성을 성공적으로 확인한 경우 C를 포함하는 가장 크고 완전한 간격의 청크 사양이 포함된 ACK 메시지를 송신 피어에게 보내야 합니다(HAVE 참조).

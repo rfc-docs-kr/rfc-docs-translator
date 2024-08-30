@@ -1,0 +1,17 @@
+"hash": |-
+  63516475394d145170b9c905f676151d773e9b0d41c5cab9de193393baf63341
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Pretend that a non-compatible client is compatible (e.g., by
+        adding the Supported Groups extension or by adding FFDHE groups to
+        the extension).  This could cause the server to select a
+        particular named group in the ServerKeyExchange or to avoid
+        selecting an FFDHE cipher suite.  The peers would fail to compute
+        the final check of the Finished message.
+"fixed": |-
+  -  Pretend that a non-compatible client is compatible (e.g., by adding the Supported Groups extension or by adding FFDHE groups to the extension).  This could cause the server to select a particular named group in the ServerKeyExchange or to avoid selecting an FFDHE cipher suite.  The peers would fail to compute the final check of the Finished message.
+"ko": |-
+  - 호환되지 않는 클라이언트가 호환되는 것처럼 가장합니다(예: 지원 그룹 확장을 추가하거나 확장에 FFDHE 그룹을 추가하여).  이로 인해 서버가 ServerKeyExchange에서 명명된 특정 그룹을 선택하거나 FFDHE 암호 제품군을 선택하지 않게 될 수 있습니다.  피어는 완료 메시지의 최종 확인을 계산하지 못합니다.

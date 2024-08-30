@@ -1,0 +1,15 @@
+"hash": |-
+  bed8e016fe5b0e4ba3353f11b130e2b66dec48530b15e388a5c7d9ee006b8b0f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     FFDHE group than it should, and this will not be detected until
+     receipt of the server's Finished message.  This could cause a client
+     using the False Start protocol modification to send data encrypted
+     under a weak key agreement.
+"fixed": |-
+  FFDHE group than it should, and this will not be detected until receipt of the server's Finished message.  This could cause a client using the False Start protocol modification to send data encrypted under a weak key agreement.
+"ko": |-
+  FFDHE 그룹이 있어야 하며 이는 서버의 완료 메시지를 수신할 때까지 감지되지 않습니다.  이로 인해 False Start 프로토콜 수정을 사용하는 클라이언트가 약한 키 계약에 따라 암호화된 데이터를 보낼 수 있습니다.

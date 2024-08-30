@@ -1,0 +1,18 @@
+"hash": |-
+  51f29040eca216187abfb9a5f242ea290a416616e105958150cb8ba4ebc908f4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Responses to POST requests are only cacheable when they include
+     explicit freshness information (see Section 4.2.1 of [CACHING]) and a
+     Content-Location header field that has the same value as the POST's
+     target URI (Section 8.7).  A cached POST response can be reused to
+     satisfy a later GET or HEAD request.  In contrast, a POST request
+     cannot be satisfied by a cached POST response because POST is
+     potentially unsafe; see Section 4 of [CACHING].
+"fixed": |-
+  Responses to POST requests are only cacheable when they include explicit freshness information (see Section 4.2.1 of [CACHING]) and a Content-Location header field that has the same value as the POST's target URI (Section 8.7).  A cached POST response can be reused to satisfy a later GET or HEAD request.  In contrast, a POST request cannot be satisfied by a cached POST response because POST is potentially unsafe; see Section 4 of [CACHING].
+"ko": |-
+  POST 요청에 대한 응답은 명시적인 신선도 정보([CACHING]의 섹션 4.2.1 참조) 및 POST의 대상 URI(섹션 8.7)와 동일한 값을 갖는 Content-Location 헤더 필드를 포함하는 경우에만 캐시할 수 있습니다. 캐시된 POST 응답은 나중에 GET 또는 HEAD 요청을 충족하기 위해 재사용될 수 있습니다. 대조적으로, POST는 잠재적으로 안전하지 않기 때문에 POST 요청은 캐시된 POST 응답으로 충족될 수 없습니다. [캐싱]의 섹션 4를 참조하세요.

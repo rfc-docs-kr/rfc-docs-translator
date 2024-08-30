@@ -1,0 +1,17 @@
+"hash": |-
+  5902eefa730466bac74461cf1900c3818082972f2fa184dbacca0e55a78f409d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            (a) The cipher may use a fixed mask such as zero.
+            (b) The CBC residue from the previous record may be used as
+                the mask.  This preserves maximum code compatibility with
+                TLS 1.0 and SSL 3.  It also has the advantage that it does
+                not require the ability to quickly reset the IV, which is
+                known to be a problem on some systems.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,18 @@
+"hash": |-
+  c717be62cd033bce1d6e149115c9e26e40d66f65c8e2befa8e9b529dc6bcc0d6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        that require human intervention to release Jobs using the
+        Release-Job operation put the Job into the 'pending-held' Job
+        state.  Systems that automatically select a Job to use the marker
+        put the Job into the 'pending' Job state or keep the Job in the
+        'processing' Job state while waiting for the marker, depending on
+        implementation.  All implementations put the Job into the
+        'processing' state when marking does begin.
+"fixed": |-
+  - that require human intervention to release Jobs using the Release-Job operation put the Job into the 'pending-held' Job state.  Systems that automatically select a Job to use the marker put the Job into the 'pending' Job state or keep the Job in the 'processing' Job state while waiting for the marker, depending on implementation.  All implementations put the Job into the 'processing' state when marking does begin.
+"ko": |-
+  - Release-Job 작업을 사용하여 Job을 릴리스하려면 사람의 개입이 필요하며 Job을 '보류 중' Job 상태로 설정합니다. 마커를 사용하기 위해 Job을 자동으로 선택하는 시스템은 구현에 따라 Job을 '보류 중' Job 상태로 설정하거나 마커를 기다리는 동안 Job을 '처리 중' Job 상태로 유지합니다. 모든 구현에서는 표시가 시작되면 작업을 '처리' 상태로 설정합니다.

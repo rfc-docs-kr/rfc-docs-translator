@@ -1,0 +1,22 @@
+"hash": |-
+  d3182d5424dc5fe23ea9824e400e9b628307189cb5f7b158d94d3787cc67e130
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Set-Cookie header field is specified in RFC 6265 [RFC6265].  The
+     "Age" attribute is introduced in this specification to indicate the
+     age of the cookie and is OPTIONAL.  An MRCPv2 client or server MUST
+     calculate the age of the cookie according to the age calculation
+     rules in the HTTP/1.1 specification [RFC2616] and append the "Age"
+     attribute accordingly.  This attribute is provided because time may
+     have passed since the client received the cookie from an HTTP server.
+     Rather than having the client reduce Max-Age by the actual age, it
+     passes Max-Age verbatim and appends the "Age" attribute, thus
+     maintaining the cookie as received while still accounting for the
+     fact that time has passed.
+"fixed": |-
+  The Set-Cookie header field is specified in RFC 6265 [RFC6265].  The "Age" attribute is introduced in this specification to indicate the age of the cookie and is OPTIONAL.  An MRCPv2 client or server MUST calculate the age of the cookie according to the age calculation rules in the HTTP/1.1 specification [RFC2616] and append the "Age" attribute accordingly.  This attribute is provided because time may have passed since the client received the cookie from an HTTP server. Rather than having the client reduce Max-Age by the actual age, it passes Max-Age verbatim and appends the "Age" attribute, thus maintaining the cookie as received while still accounting for the fact that time has passed.
+"ko": |-
+  Set-Cookie 헤더 필드는 RFC 6265 [RFC6265]에 지정되어 있습니다. "Age" 속성은 쿠키의 수명을 나타내기 위해 이 사양에 도입되었으며 선택 사항입니다. MRCPv2 클라이언트 또는 서버는 HTTP/1.1 사양 [RFC2616]의 수명 계산 규칙에 따라 쿠키의 수명을 계산하고 그에 따라 "Age" 속성을 추가해야 합니다. 이 속성은 클라이언트가 HTTP 서버로부터 쿠키를 수신한 후 시간이 지났을 수 있기 때문에 제공됩니다. 클라이언트가 실제 수명만큼 Max-Age를 줄이는 대신 Max-Age를 그대로 전달하고 "Age" 속성을 추가하여 시간이 지났다는 사실을 고려하면서도 수신된 쿠키를 유지합니다.

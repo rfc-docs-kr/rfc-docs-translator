@@ -1,0 +1,17 @@
+"hash": |-
+  330f5d3e796286679ff8de474a8b0e8d7ac5ba7411ae038a3736621d1edfcf7e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint's selected connection ID and the QUIC version are
+     sufficient information to identify packets for a closing connection;
+     the endpoint MAY discard all other connection state.  An endpoint
+     that is closing is not required to process any received frame.  An
+     endpoint MAY retain packet protection keys for incoming packets to
+     allow it to read and process a CONNECTION_CLOSE frame.
+"fixed": |-
+  An endpoint's selected connection ID and the QUIC version are sufficient information to identify packets for a closing connection; the endpoint MAY discard all other connection state.  An endpoint that is closing is not required to process any received frame.  An endpoint MAY retain packet protection keys for incoming packets to allow it to read and process a CONNECTION_CLOSE frame.
+"ko": |-
+  엔드포인트가 선택한 연결 ID와 QUIC 버전은 연결 종료에 대한 패킷을 식별하는 데 충분한 정보입니다. 엔드포인트는 다른 모든 연결 상태를 삭제할 수 있습니다. 닫히는 엔드포인트는 수신된 프레임을 처리하는 데 필요하지 않습니다. 엔드포인트는 CONNECTION_CLOSE 프레임을 읽고 처리할 수 있도록 수신 패킷에 대한 패킷 보호 키를 보유할 수 있습니다.

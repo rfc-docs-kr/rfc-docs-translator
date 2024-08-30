@@ -1,0 +1,1 @@
+No-Input-Timeout 헤더 필드는 검증 타이머의 시작(START-INPUT-TIMERS 참조)부터 VERIFICATION-COMPLETE 서버 이벤트 메시지가 입력을 받지 못했다고 선언할 때까지의 시간 길이를 설정합니다(즉, Completion-Cause가 no-input-timeout임). 값은 밀리초 단위입니다. 이 헤더 필드는 VERIFY, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다. 이 헤더 필드의 값은 0에서 구현별 최대값까지입니다. 이 헤더 필드의 기본값은 구현별입니다.

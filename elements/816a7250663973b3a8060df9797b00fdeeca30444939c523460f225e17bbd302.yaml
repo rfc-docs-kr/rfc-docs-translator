@@ -1,0 +1,16 @@
+"hash": |-
+  816a7250663973b3a8060df9797b00fdeeca30444939c523460f225e17bbd302
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An Authentication Encryption with Additional Data (AEAD) cipher (see
+     [RFC5116]) API requires that an entire record be present to decrypt
+     and authenticate it.  Similarly, other ciphers cannot produce
+     authenticated data until the entire record is present.  Incremental
+     processing of records exposes endpoints to the risk of forged data.
+"fixed": |-
+  An Authentication Encryption with Additional Data (AEAD) cipher (see [RFC5116]) API requires that an entire record be present to decrypt and authenticate it.  Similarly, other ciphers cannot produce authenticated data until the entire record is present.  Incremental processing of records exposes endpoints to the risk of forged data.
+"ko": |-
+  AEAD(추가 데이터를 사용한 인증 암호화) 암호([RFC5116] 참조) API에서는 이를 해독하고 인증하기 위해 전체 레코드가 있어야 합니다.  마찬가지로, 다른 암호는 전체 레코드가 나타날 때까지 인증된 데이터를 생성할 수 없습니다.  레코드의 증분 처리로 인해 엔드포인트가 위조된 데이터의 위험에 노출됩니다.

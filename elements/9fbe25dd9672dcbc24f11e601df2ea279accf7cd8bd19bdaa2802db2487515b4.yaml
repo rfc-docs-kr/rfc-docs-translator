@@ -1,0 +1,17 @@
+"hash": |-
+  9fbe25dd9672dcbc24f11e601df2ea279accf7cd8bd19bdaa2802db2487515b4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender MUST NOT send any of these frames from a terminal state
+     ("Data Recvd" or "Reset Recvd").  A sender MUST NOT send a STREAM or
+     STREAM_DATA_BLOCKED frame for a stream in the "Reset Sent" state or
+     any terminal state -- that is, after sending a RESET_STREAM frame.  A
+     receiver could receive any of these three frames in any state, due to
+     the possibility of delayed delivery of packets carrying them.
+"fixed": |-
+  A sender MUST NOT send any of these frames from a terminal state ("Data Recvd" or "Reset Recvd").  A sender MUST NOT send a STREAM or STREAM_DATA_BLOCKED frame for a stream in the "Reset Sent" state or any terminal state -- that is, after sending a RESET_STREAM frame.  A receiver could receive any of these three frames in any state, due to the possibility of delayed delivery of packets carrying them.
+"ko": |-
+  발신자는 터미널 상태("Data Recvd" 또는 "Reset Recvd")에서 이러한 프레임을 보내면 안 됩니다. 발신자는 RESET_STREAM 프레임을 보낸 후 "Reset Sent" 상태 또는 터미널 상태의 스트림에 대해 STREAM 또는 STREAM_DATA_BLOCKED 프레임을 보내면 안 됩니다. 수신기는 이 세 프레임 중 하나를 어떤 상태에서든 수신할 수 있습니다. 이 세 프레임을 전달하는 패킷의 전달이 지연될 가능성이 있기 때문입니다.

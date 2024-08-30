@@ -1,0 +1,1 @@
+어떤 경우에는 들어오는 DHCPREQUEST 패킷의 릴레이 에이전트 정보 옵션을 사용하여 DHCPREQUEST를 보낸 DHCP 클라이언트에 반환된 옵션을 결정하는 데 도움을 줍니다. DHCPLEASEQUERY 메시지에 응답할 때 DHCP 서버는 DHCPLEASEQUERY 메시지에서 요청한 옵션 값을 결정하기 위해 DHCP 클라이언트에 응답할 때와 마찬가지로 저장된 릴레이 에이전트 정보 옵션을 사용해야 합니다. 목표는 DHCP 클라이언트에서 DHCPDISCOVER 또는 DHCPREQUEST로 반환된 것과 동일한 옵션 값을 DHCPLEASEQUERY로 반환하는 것입니다(위에서 달리 지정하지 않는 한).

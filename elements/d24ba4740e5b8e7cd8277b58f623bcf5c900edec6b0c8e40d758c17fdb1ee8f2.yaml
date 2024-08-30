@@ -1,0 +1,15 @@
+"hash": |-
+  d24ba4740e5b8e7cd8277b58f623bcf5c900edec6b0c8e40d758c17fdb1ee8f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  "client_verify_data":  the verify_data from the Finished message
+        sent by the client on the immediately previous handshake.  For
+        currently defined TLS versions and cipher suites, this will be a
+        12-byte value; for SSLv3, this will be a 36-byte value.
+"fixed": |-
+  -  "client_verify_data":  the verify_data from the Finished message sent by the client on the immediately previous handshake.  For currently defined TLS versions and cipher suites, this will be a 12-byte value; for SSLv3, this will be a 36-byte value.
+"ko": |-
+  - "client_verify_data": 직전 핸드셰이크에서 클라이언트가 보낸 완료 메시지의 verify_data입니다. 현재 정의된 TLS 버전 및 암호화 제품군의 경우 이는 12바이트 값입니다. SSLv3의 경우 이는 36바이트 값입니다.

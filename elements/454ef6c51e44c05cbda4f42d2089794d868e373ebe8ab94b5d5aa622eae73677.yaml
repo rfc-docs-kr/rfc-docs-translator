@@ -1,0 +1,17 @@
+"hash": |-
+  454ef6c51e44c05cbda4f42d2089794d868e373ebe8ab94b5d5aa622eae73677
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     field-content = field-vchar [ 1*( SP / HTAB / field-vchar )
+      field-vchar ]
+     field-name = token
+     field-value = *field-content
+     field-vchar = VCHAR / obs-text
+     first-pos = 1*DIGIT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  edb58974649cbd055ee61fa048e45260968eec7f38547eb7ec98f2e0d3cf6c4e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Depending on the authorization server's revocation policy, the
+     revocation of a particular token may cause the revocation of related
+     tokens and the underlying authorization grant.  If the particular
+     token is a refresh token and the authorization server supports the
+     revocation of access tokens, then the authorization server SHOULD
+     also invalidate all access tokens based on the same authorization
+     grant (see Implementation Note).  If the token passed to the request
+     is an access token, the server MAY revoke the respective refresh
+     token as well.
+"fixed": |-
+  Depending on the authorization server's revocation policy, the revocation of a particular token may cause the revocation of related tokens and the underlying authorization grant.  If the particular token is a refresh token and the authorization server supports the revocation of access tokens, then the authorization server SHOULD also invalidate all access tokens based on the same authorization grant (see Implementation Note).  If the token passed to the request is an access token, the server MAY revoke the respective refresh token as well.
+"ko": |-
+  권한 부여 서버의 취소 정책에 따라 특정 토큰을 취소하면 관련 토큰 및 기본 권한 부여가 취소될 수 있습니다.  특정 토큰이 새로 고침 토큰이고 승인 서버가 액세스 토큰의 취소를 지원하는 경우 승인 서버는 동일한 승인 부여를 기반으로 모든 액세스 토큰도 무효화해야 합니다(구현 참고 사항 참조).  요청에 전달된 토큰이 액세스 토큰인 경우 서버는 해당 새로 고침 토큰도 취소할 수 있습니다.

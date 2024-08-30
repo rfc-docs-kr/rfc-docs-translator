@@ -1,0 +1,20 @@
+"hash": |-
+  31747abedb542dbad029bba58126e2f1611384cbec15dc1abccc5aacdb54ca32
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A peer in a live swarm MUST include the discard window it uses.  The
+     code for this option is 7.  The unit of the discard window depends on
+     the chunk addressing method used, see Table 6.  For bins and chunk
+     ranges, it is a number of chunks; for byte ranges, it is a number of
+     bytes.  Its data type is the same as for a bin, or one value in a
+     range specification.  In other words, its value is a 32-bit or 64-bit
+     integer in big-endian format.  If this option is used, the Chunk
+     Addressing Method MUST appear before it in the list.  This option has
+     the following structure:
+"fixed": |-
+  A peer in a live swarm MUST include the discard window it uses.  The code for this option is 7.  The unit of the discard window depends on the chunk addressing method used, see Table 6.  For bins and chunk ranges, it is a number of chunks; for byte ranges, it is a number of bytes.  Its data type is the same as for a bin, or one value in a range specification.  In other words, its value is a 32-bit or 64-bit integer in big-endian format.  If this option is used, the Chunk Addressing Method MUST appear before it in the list.  This option has the following structure:
+"ko": |-
+  라이브 스웜의 피어는 반드시 사용하는 폐기 창을 포함해야 합니다. 이 옵션의 코드는 7입니다. 폐기 창의 단위는 사용된 청크 주소 지정 방법에 따라 다릅니다. 표 6을 참조하십시오. 빈 및 청크 범위의 경우 청크 수입니다. 바이트 범위의 경우 바이트 수입니다. 해당 데이터 유형은 빈 또는 범위 지정의 한 값과 동일합니다. 즉, 해당 값은 빅엔디안 형식의 32비트 또는 64비트 정수입니다. 이 옵션을 사용하는 경우 청크 주소 지정 방법은 목록에서 그 앞에 나타나야 합니다. 이 옵션의 구조는 다음과 같습니다.

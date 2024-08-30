@@ -1,0 +1,16 @@
+"hash": |-
+  a4cc8c5ca5c955f7e302061b397b85418c9995ca6a60e74261ff152bc880b8d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An UPDATE message SHOULD NOT include the same address prefix in the
+     WITHDRAWN ROUTES and Network Layer Reachability Information fields.
+     However, a BGP speaker MUST be able to process UPDATE messages in
+     this form.  A BGP speaker SHOULD treat an UPDATE message of this form
+     as though the WITHDRAWN ROUTES do not contain the address prefix.
+"fixed": |-
+  An UPDATE message SHOULD NOT include the same address prefix in the WITHDRAWN ROUTES and Network Layer Reachability Information fields. However, a BGP speaker MUST be able to process UPDATE messages in this form.  A BGP speaker SHOULD treat an UPDATE message of this form as though the WITHDRAWN ROUTES do not contain the address prefix.
+"ko": |-
+  업데이트 메시지는 WITHDRAWN ROUTES 및 네트워크 계층 연결 가능성 정보 필드에 동일한 주소 접두사를 포함해서는 안 됩니다. 그러나 BGP 스피커는 이 형식의 UPDATE 메시지를 처리할 수 있어야 합니다. BGP 스피커는 마치 WITHDRAWN ROUTES가 주소 접두어를 포함하지 않는 것처럼 이 형식의 업데이트 메시지를 처리해야 합니다.

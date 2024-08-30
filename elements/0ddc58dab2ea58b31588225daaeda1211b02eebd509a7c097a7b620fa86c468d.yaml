@@ -1,0 +1,18 @@
+"hash": |-
+  0ddc58dab2ea58b31588225daaeda1211b02eebd509a7c097a7b620fa86c468d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Validating this JWS Signature is very similar to the previous
+     example.  We need to split the 132-member octet sequence of the JWS
+     Signature into two 66-octet sequences, the first representing R and
+     the second S.  We then pass the public key (x, y), the signature (R,
+     S), and the JWS Signing Input to an ECDSA signature verifier that has
+     been configured to use the P-521 curve with the SHA-512 hash
+     function.
+"fixed": |-
+  Validating this JWS Signature is very similar to the previous example.  We need to split the 132-member octet sequence of the JWS Signature into two 66-octet sequences, the first representing R and the second S.  We then pass the public key (x, y), the signature (R, S), and the JWS Signing Input to an ECDSA signature verifier that has been configured to use the P-521 curve with the SHA-512 hash function.
+"ko": |-
+  이 JWS 서명을 검증하는 것은 이전 예와 매우 유사합니다. JWS 서명의 132개 멤버 옥텟 시퀀스를 두 개의 66옥텟 시퀀스로 분할해야 합니다. 첫 번째는 R을 나타내고 두 번째는 S를 나타냅니다. 그런 다음 공개 키(x, y), 서명(R, S), JWS 서명 입력을 SHA-512 해시 함수와 함께 P-521 곡선을 사용하도록 구성된 ECDSA 서명 검증기에 전달합니다.

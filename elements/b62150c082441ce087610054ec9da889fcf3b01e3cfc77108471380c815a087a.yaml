@@ -1,0 +1,17 @@
+"hash": |-
+  b62150c082441ce087610054ec9da889fcf3b01e3cfc77108471380c815a087a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case where the CE supports MPLS, AND is willing to import the
+     complete set of routes from its VPNs, the PE can distribute to it a
+     label for each such route.  When the PE receives a packet from the CE
+     with such a label, it (a) replaces that label with the corresponding
+     label that it learned via BGP, and (b) pushes on a label
+     corresponding to the BGP next hop for the corresponding route.
+"fixed": |-
+  In the case where the CE supports MPLS, AND is willing to import the complete set of routes from its VPNs, the PE can distribute to it a label for each such route.  When the PE receives a packet from the CE with such a label, it (a) replaces that label with the corresponding label that it learned via BGP, and (b) pushes on a label corresponding to the BGP next hop for the corresponding route.
+"ko": |-
+  CE가 MPLS를 지원하고 VPN에서 전체 경로 세트를 가져오려는 경우 PE는 이러한 각 경로에 대한 레이블을 배포할 수 있습니다. PE가 이러한 레이블이 있는 CE로부터 패킷을 수신하면 (a) 해당 레이블을 BGP를 통해 학습한 해당 레이블로 대체하고 (b) 해당 경로에 대한 BGP 다음 홉에 해당하는 레이블을 푸시합니다.

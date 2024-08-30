@@ -1,0 +1,24 @@
+"hash": |-
+  e01b75a0b8701317c26dde9638e8ca90ad754b6286a0659f416e0503641ffdf3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The name might be followed by an OPTIONAL series of extended fields,
+     a parenthesized list of tagged data (also referred to as an "extended
+     data item").  The first element of an extended field is a string,
+     which identifies the type of data.  [RFC5258] specifies requirements
+     on string registration (which are called "tags"; such tags are not to
+     be confused with IMAP command tags); in particular, it states that
+     "Tags MUST be registered with IANA".  This document doesn't change
+     that.  See Section 9.5 of [RFC5258] for the registration template.
+     The server MAY return data in the extended fields that was not
+     directly solicited by the client in the corresponding LIST command.
+     For example, the client can enable extra extended fields by using
+     another IMAP extension that makes use of the extended LIST responses.
+     The client MUST ignore all extended fields it doesn't recognize.
+"fixed": |-
+  The name might be followed by an OPTIONAL series of extended fields, a parenthesized list of tagged data (also referred to as an "extended data item").  The first element of an extended field is a string, which identifies the type of data.  [RFC5258] specifies requirements on string registration (which are called "tags"; such tags are not to be confused with IMAP command tags); in particular, it states that "Tags MUST be registered with IANA".  This document doesn't change that.  See Section 9.5 of [RFC5258] for the registration template. The server MAY return data in the extended fields that was not directly solicited by the client in the corresponding LIST command. For example, the client can enable extra extended fields by using another IMAP extension that makes use of the extended LIST responses. The client MUST ignore all extended fields it doesn't recognize.
+"ko": |-
+  이름 뒤에는 태그가 지정된 데이터("확장 데이터 항목"이라고도 함)의 괄호로 묶인 목록인 선택적 확장 필드 시리즈가 올 수 있습니다.  확장 필드의 첫 번째 요소는 데이터 유형을 식별하는 문자열입니다.  [RFC5258]은 문자열 등록("태그"라고 함. 이러한 태그를 IMAP 명령 태그와 혼동하지 말 것)에 대한 요구 사항을 지정합니다. 특히, "태그는 IANA에 등록되어야 합니다"라고 명시되어 있습니다.  이 문서는 이를 변경하지 않습니다.  등록 템플릿은 [RFC5258]의 섹션 9.5를 참조하세요. 서버는 해당 LIST 명령에서 클라이언트가 직접 요청하지 않은 확장 필드의 데이터를 반환할 수 있습니다. 예를 들어 클라이언트는 확장된 LIST 응답을 활용하는 다른 IMAP 확장을 사용하여 추가 확장 필드를 활성화할 수 있습니다. 클라이언트는 인식하지 못하는 모든 확장 필드를 무시해야 합니다.

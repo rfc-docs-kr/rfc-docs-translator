@@ -1,0 +1,1 @@
+MAC은 암호화 전에 계산됩니다. 스트림 암호는 MAC을 포함한 전체 블록을 암호화합니다. 동기화 벡터(예: RC4)를 사용하지 않는 스트림 암호의 경우 한 레코드 끝의 스트림 암호 상태가 후속 패킷에서 단순히 사용됩니다. CipherSuite가 TLS_NULL_WITH_NULL_NULL인 경우 암호화는 ID 작업으로 구성됩니다(즉, 데이터가 암호화되지 않고 MAC 크기가 0이므로 MAC가 사용되지 않음을 의미합니다). TLSCiphertext.length는 TLSCompressed.length에 CipherSpec.hash_size를 더한 것입니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  8c131d45d8d4f4b9c624b600a4432d5c82fe967ff3744379efdc9ce70b92f21b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  If the Client requests all 'not-completed' Jobs (Jobs in the
+           'pending', 'processing', 'pending-held', and
+           'processing-stopped' states), then Jobs are returned in
+           relative chronological order of expected time to complete
+           (based on whatever scheduling algorithm is configured for the
+           Printer).
+"fixed": |-
+  - *  If the Client requests all 'not-completed' Jobs (Jobs in the 'pending', 'processing', 'pending-held', and 'processing-stopped' states), then Jobs are returned in relative chronological order of expected time to complete (based on whatever scheduling algorithm is configured for the Printer).
+"ko": |-
+  - * 클라이언트가 모든 '완료되지 않은' 작업('보류 중', '처리 중', '보류-보류' 및 '처리 중지됨' 상태의 작업)을 요청하는 경우 예상되는 시간순으로 작업이 반환됩니다. 완료 시간(프린터에 대해 구성된 예약 알고리즘에 따라 다름)

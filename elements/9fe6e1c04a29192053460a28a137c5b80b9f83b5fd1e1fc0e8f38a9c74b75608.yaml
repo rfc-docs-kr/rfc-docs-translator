@@ -1,0 +1,18 @@
+"hash": |-
+  9fe6e1c04a29192053460a28a137c5b80b9f83b5fd1e1fc0e8f38a9c74b75608
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The check for the all-zero value results from the fact that the
+     X25519 function produces that value if it operates on an input
+     corresponding to a point with small order, where the order divides
+     the cofactor of the curve (see Section 7).  The check may be
+     performed by ORing all the bytes together and checking whether the
+     result is zero, as this eliminates standard side-channels in software
+     implementations.
+"fixed": |-
+  The check for the all-zero value results from the fact that the X25519 function produces that value if it operates on an input corresponding to a point with small order, where the order divides the cofactor of the curve (see Section 7).  The check may be performed by ORing all the bytes together and checking whether the result is zero, as this eliminates standard side-channels in software implementations.
+"ko": |-
+  모두 0인 값을 확인하는 것은 X25519 함수가 차수가 곡선의 보조 인자를 나누는 작은 차수의 점에 해당하는 입력에서 작동하는 경우 해당 값을 생성한다는 사실에서 비롯됩니다(섹션 7 참조). 검사는 모든 바이트를 함께 OR하고 결과가 0인지 확인함으로써 수행될 수 있습니다. 이는 소프트웨어 구현에서 표준 부채널을 제거하기 때문입니다.

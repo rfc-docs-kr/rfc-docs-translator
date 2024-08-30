@@ -1,0 +1,30 @@
+"hash": |-
+  b53be30068a6742e176e2ee38de135cc7aa4146f452d53161354312c2c90e7a6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This section defines a generic schema for an entry in a directory
+     service.  Implementations of this schema are defined by "Lightweight
+     Directory Access Protocol (LDAP): Schema for Printer Services"
+     [RFC7612] and "IPP Everywhere" [PWG5100.14].  A directory service is
+     a means by which service users can locate service providers.  In IPP
+     environments, this means that IPP Printers can be registered (either
+     automatically or with the help of an Administrator) as entries of
+     type Printer in the directory using an implementation-specific
+     mechanism such as entry attributes, entry type fields, specific
+     branches, etc.  Directory Clients can search or browse for entries of
+     type Printer.  Clients use the directory service to find entries
+     based on naming, organizational contexts, or filtered searches on
+     attribute values of entries.  For example, a Client can find all
+     Printers in the "Local Department" context.  Authentication and
+     authorization are also often part of a directory service so that an
+     Administrator can place limits on End Users so that they are only
+     allowed to find entries to which they have certain access rights.
+     IPP itself does not require any specific directory service protocol
+     or provider.
+"fixed": |-
+  This section defines a generic schema for an entry in a directory service.  Implementations of this schema are defined by "Lightweight Directory Access Protocol (LDAP): Schema for Printer Services" [RFC7612] and "IPP Everywhere" [PWG5100.14].  A directory service is a means by which service users can locate service providers.  In IPP environments, this means that IPP Printers can be registered (either automatically or with the help of an Administrator) as entries of type Printer in the directory using an implementation-specific mechanism such as entry attributes, entry type fields, specific branches, etc.  Directory Clients can search or browse for entries of type Printer.  Clients use the directory service to find entries based on naming, organizational contexts, or filtered searches on attribute values of entries.  For example, a Client can find all Printers in the "Local Department" context.  Authentication and authorization are also often part of a directory service so that an Administrator can place limits on End Users so that they are only allowed to find entries to which they have certain access rights. IPP itself does not require any specific directory service protocol or provider.
+"ko": |-
+  이 섹션에서는 디렉터리 서비스 항목에 대한 일반 스키마를 정의합니다. 이 스키마의 구현은 "LDAP(Lightweight Directory Access Protocol): 프린터 서비스용 스키마" [RFC7612] 및 "IPP Everywhere" [PWG5100.14]에 의해 정의됩니다. 디렉토리 서비스는 서비스 사용자가 서비스 공급자를 찾을 수 있는 수단입니다. IPP 환경에서 이는 IPP 프린터가 항목 속성, 항목 유형 필드, 특정 분기 등과 같은 구현별 메커니즘을 사용하여 디렉토리에 프린터 유형 항목으로 등록될 수 있음을 의미합니다(자동으로 또는 관리자의 도움을 받아). . 디렉토리 클라이언트는 프린터 유형의 항목을 검색하거나 찾아볼 수 있습니다. 클라이언트는 디렉터리 서비스를 사용하여 이름 지정, 조직 컨텍스트 또는 항목의 속성 값에 대한 필터링된 검색을 기반으로 항목을 찾습니다. 예를 들어, 클라이언트는 "로컬 부서" 컨텍스트에서 모든 프린터를 찾을 수 있습니다. 인증 및 승인은 종종 디렉토리 서비스의 일부이므로 관리자는 최종 사용자에게 특정 액세스 권한이 있는 항목만 찾을 수 있도록 제한할 수 있습니다. IPP 자체에는 특정 디렉터리 서비스 프로토콜이나 공급자가 필요하지 않습니다.

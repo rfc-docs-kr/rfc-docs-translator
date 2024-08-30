@@ -1,0 +1,19 @@
+"hash": |-
+  9288d8ad93d9d71ccc4dc92df70405d8535f6b4aaf1e14faa5fefb9fefad8efe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     <interpretation> for <nomatch>.  So, <noinput> means "no input at
+     all" and <nomatch> means "no match in speech modality" or "no match
+     in DTMF modality".  For example, to represent garbled speech combined
+     with DTMF "1 2 3 4", the markup would be:
+     <input>
+        <input mode="speech"><nomatch/></input>
+        <input mode="dtmf">1 2 3 4</input>
+     </input>
+"fixed": |-
+  <interpretation> for <nomatch>.  So, <noinput> means "no input at all" and <nomatch> means "no match in speech modality" or "no match in DTMF modality".  For example, to represent garbled speech combined with DTMF "1 2 3 4", the markup would be: <input> <input mode="speech"><nomatch/></input> <input mode="dtmf">1 2 3 4</input> </input>
+"ko": |-
+  <해석>은 <nomatch>에 대한 것입니다. 따라서 <noinput>은 "전혀 입력이 없음"을 의미하고 <nomatch>는 "음성 모달리티에서 일치하지 않음" 또는 "DTMF 모달리티에서 일치하지 않음"을 의미합니다. 예를 들어, DTMF "1 2 3 4"와 결합된 왜곡된 음성을 표현하려면 마크업이 다음과 같습니다. <input> <input mode="speech"><nomatch/></input> <input mode="dtmf">1 2 3 4</input> </input>

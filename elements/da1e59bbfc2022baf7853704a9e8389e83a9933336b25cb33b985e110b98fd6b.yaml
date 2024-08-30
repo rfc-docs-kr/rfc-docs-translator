@@ -1,0 +1,21 @@
+"hash": |-
+  da1e59bbfc2022baf7853704a9e8389e83a9933336b25cb33b985e110b98fd6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A body part whose disposition type is 'by-reference' needs to be
+     handled according to a reference to the body part that is located in
+     the same SIP message as the body part (given that SIP only allows
+     forward references, the reference will appear in the same SIP message
+     before the body part).  A recipient of a body part whose disposition
+     type is 'by-reference' that cannot find any reference to the body
+     part (e.g., the reference was in a header field the recipient does
+     not support and, thus, did not process) MUST NOT process the body
+     part.  Consequently, if the handling of the body part was required,
+     the UA needs to report an error.
+"fixed": |-
+  A body part whose disposition type is 'by-reference' needs to be handled according to a reference to the body part that is located in the same SIP message as the body part (given that SIP only allows forward references, the reference will appear in the same SIP message before the body part).  A recipient of a body part whose disposition type is 'by-reference' that cannot find any reference to the body part (e.g., the reference was in a header field the recipient does not support and, thus, did not process) MUST NOT process the body part.  Consequently, if the handling of the body part was required, the UA needs to report an error.
+"ko": |-
+  처리 유형이 '참조에 의한'인 본문 부분은 본문 부분과 동일한 SIP 메시지에 있는 본문 부분에 대한 참조에 따라 처리해야 합니다(SIP가 전달 참조만 허용하므로 참조는 본문 부분보다 먼저 동일한 SIP 메시지에 나타납니다). 처리 유형이 '참조에 의한'인 본문 부분의 수신자가 본문 부분에 대한 참조를 찾을 수 없는 경우(예: 수신자가 지원하지 않는 헤더 필드에 참조가 있어 처리하지 않은 경우) 본문 부분을 처리해서는 안 됩니다. 따라서 본문 부분 처리가 필요한 경우 UA는 오류를 보고해야 합니다.

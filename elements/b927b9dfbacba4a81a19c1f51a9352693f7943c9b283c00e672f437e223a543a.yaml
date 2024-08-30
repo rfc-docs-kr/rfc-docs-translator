@@ -1,0 +1,53 @@
+"hash": |-
+  b927b9dfbacba4a81a19c1f51a9352693f7943c9b283c00e672f437e223a543a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-----------------------------+-----------------------+-------------+
+     | generated-natural-language- | 1setOf                | REQUIRED    |
+     | supported                   | naturalLanguage       |             |
+     +-----------------------------+-----------------------+-------------+
+     | ipp-versions-supported      | 1setOf type2 keyword  | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | job-impressions-supported   | rangeOfInteger(0:MAX) | RECOMMENDED |
+     +-----------------------------+-----------------------+-------------+
+     | job-k-octets-supported      | rangeOfInteger(0:MAX) |             |
+     +-----------------------------+-----------------------+-------------+
+     | job-media-sheets-supported  | rangeOfInteger(1:MAX) |             |
+     +-----------------------------+-----------------------+-------------+
+     | multiple-document-jobs-     | boolean               | RECOMMENDED |
+     | supported                   |                       |             |
+     +-----------------------------+-----------------------+-------------+
+     | multiple-operation-time-out | integer(1:MAX)        | RECOMMENDED |
+     +-----------------------------+-----------------------+-------------+
+     | natural-language-configured | naturalLanguage       | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | operations-supported        | 1setOf type2 enum     | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | pdl-override-supported      | type2 keyword         | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | printer-driver-installer    | uri                   |             |
+     +-----------------------------+-----------------------+-------------+
+     | printer-info                | text(127)             | RECOMMENDED |
+     +-----------------------------+-----------------------+-------------+
+     | printer-location            | text(127)             | RECOMMENDED |
+     +-----------------------------+-----------------------+-------------+
+     | printer-make-and-model      | text(127)             | RECOMMENDED |
+     +-----------------------------+-----------------------+-------------+
+     | printer-message-from-       | text(127)             |             |
+     | operator                    |                       |             |
+     +-----------------------------+-----------------------+-------------+
+     | printer-more-info-          | uri                   |             |
+     | manufacturer                |                       |             |
+     +-----------------------------+-----------------------+-------------+
+     | printer-name                | name(127)             | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | reference-uri-schemes-      | 1setOf uriScheme      |             |
+     | supported                   |                       |             |
+     +-----------------------------+-----------------------+-------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

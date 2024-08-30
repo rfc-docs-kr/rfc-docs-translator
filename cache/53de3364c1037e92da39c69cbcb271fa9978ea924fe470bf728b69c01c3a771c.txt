@@ -1,0 +1,1 @@
+<코드 시작> def decodeLittleEndian(b, 비트): return sum([b[i] << 8*i for i in range((bits+7)/8)])

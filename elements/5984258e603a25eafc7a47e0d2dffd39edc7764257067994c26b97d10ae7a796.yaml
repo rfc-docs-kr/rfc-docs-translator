@@ -1,0 +1,15 @@
+"hash": |-
+  5984258e603a25eafc7a47e0d2dffd39edc7764257067994c26b97d10ae7a796
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PSK authentication security implicitly assumes one fundamental
+     property: each PSK is known to exactly one client and one server and
+     they never switch roles.  If this assumption is violated, then the
+     security properties of TLS are severely weakened as discussed below.
+"fixed": |-
+  PSK authentication security implicitly assumes one fundamental property: each PSK is known to exactly one client and one server and they never switch roles.  If this assumption is violated, then the security properties of TLS are severely weakened as discussed below.
+"ko": |-
+  PSK 인증 보안은 암묵적으로 하나의 기본 속성을 가정합니다. 각 PSK는 정확히 하나의 클라이언트와 하나의 서버에 알려져 있으며 역할을 전환하지 않습니다.  이 가정이 위반되면 아래에서 설명하는 것처럼 TLS의 보안 속성이 심각하게 약화됩니다.

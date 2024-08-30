@@ -1,0 +1,24 @@
+"hash": |-
+  ca9c0ed2cfcf960ee85be12e665c91eee6965bf2264bd2bc56367ed10c52c8a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: There are many instances when messages are "changed", but those
+     changes do not constitute a new instantiation of that message, and
+     therefore the message would not get a new message identifier.  For
+     example, when messages are introduced into the transport system, they
+     are often prepended with additional header fields such as trace
+     fields (described in section 3.6.7) and resent fields (described in
+     section 3.6.6).  The addition of such header fields does not change
+     the identity of the message and therefore the original "Message-ID:"
+     field is retained.  In all cases, it is the meaning that the sender
+     of the message wishes to convey (i.e., whether this is the same
+     message or a different message) that determines whether or not the
+     "Message-ID:" field changes, not any particular syntactic difference
+     that appears (or does not appear) in the message.
+"fixed": |-
+  Note: There are many instances when messages are "changed", but those changes do not constitute a new instantiation of that message, and therefore the message would not get a new message identifier.  For example, when messages are introduced into the transport system, they are often prepended with additional header fields such as trace fields (described in section 3.6.7) and resent fields (described in section 3.6.6).  The addition of such header fields does not change the identity of the message and therefore the original "Message-ID:" field is retained.  In all cases, it is the meaning that the sender of the message wishes to convey (i.e., whether this is the same message or a different message) that determines whether or not the "Message-ID:" field changes, not any particular syntactic difference that appears (or does not appear) in the message.
+"ko": |-
+  참고: 메시지가 "변경"되는 경우가 많지만 이러한 변경 사항은 해당 메시지의 새로운 인스턴스화를 구성하지 않으므로 메시지는 새 메시지 식별자를 얻지 못합니다.  예를 들어 메시지가 전송 시스템에 도입되면 추적 필드(섹션 3.6.7에서 설명) 및 재전송 필드(섹션 3.6.6에서 설명)와 같은 추가 헤더 필드가 앞에 추가되는 경우가 많습니다.  이러한 헤더 필드를 추가해도 메시지의 ID는 변경되지 않으므로 원래 "Message-ID:" 필드가 유지됩니다.  모든 경우에 "Message-ID:" 필드가 변경되는지 여부를 결정하는 것은 특정 구문이 아니라 메시지 발신자가 전달하고자 하는 의미(즉, 동일한 메시지인지 다른 메시지인지)에 따라 결정됩니다. 메시지에 나타나는(또는 나타나지 않는) 차이점.

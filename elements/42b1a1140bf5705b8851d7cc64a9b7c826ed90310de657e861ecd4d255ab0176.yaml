@@ -1,0 +1,16 @@
+"hash": |-
+  42b1a1140bf5705b8851d7cc64a9b7c826ed90310de657e861ecd4d255ab0176
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the padded plaintext contains exactly eight octets, then
+        prepend the AIV as defined in Section 3 above to P[1] and encrypt
+        the resulting 128-bit block using AES in ECB mode [Modes] with key
+        K (the KEK).  In this case, the output is two 64-bit blocks C[0]
+        and C[1]:
+"fixed": |-
+  - If the padded plaintext contains exactly eight octets, then prepend the AIV as defined in Section 3 above to P[1] and encrypt the resulting 128-bit block using AES in ECB mode [Modes] with key K (the KEK).  In this case, the output is two 64-bit blocks C[0] and C[1]:
+"ko": |-
+  - 패딩된 일반 텍스트에 정확히 8개의 옥텟이 포함된 경우 위의 섹션 3에 정의된 대로 AIV를 P[1]에 추가하고 키 K(KEK)를 사용하여 ECB 모드[모드]에서 AES를 사용하여 결과 128비트 블록을 암호화합니다. 이 경우 출력은 두 개의 64비트 블록 C[0] 및 C[1]입니다.

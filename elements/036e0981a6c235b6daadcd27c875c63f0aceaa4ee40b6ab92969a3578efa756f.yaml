@@ -1,0 +1,16 @@
+"hash": |-
+  036e0981a6c235b6daadcd27c875c63f0aceaa4ee40b6ab92969a3578efa756f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  Note: In some cases, a single event or action can cause a
+        |  transition through multiple states.  For instance, sending
+        |  STREAM with a FIN bit set can cause two state transitions for a
+        |  sending stream: from the "Ready" state to the "Send" state, and
+        |  from the "Send" state to the "Data Sent" state.
+"fixed": |-
+  - |  Note: In some cases, a single event or action can cause a |  transition through multiple states.  For instance, sending |  STREAM with a FIN bit set can cause two state transitions for a |  sending stream: from the "Ready" state to the "Send" state, and |  from the "Send" state to the "Data Sent" state.
+"ko": |-
+  - | 참고: 어떤 경우에는 단일 이벤트나 작업으로 인해 | 여러 상태를 통한 전환. 예를 들어 | FIN 비트가 설정된 STREAM은 | 스트림 전송: "준비" 상태에서 "보내기" 상태로 | "보내기" 상태에서 "데이터 보내기" 상태로.

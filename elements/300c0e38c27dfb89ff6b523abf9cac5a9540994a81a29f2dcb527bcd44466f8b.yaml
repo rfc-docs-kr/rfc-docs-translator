@@ -1,0 +1,16 @@
+"hash": |-
+  300c0e38c27dfb89ff6b523abf9cac5a9540994a81a29f2dcb527bcd44466f8b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     NOTE: For packet reassembly, the current IPv4 spec does NOT require
+     either the zeroing of the OFFSET field or the clearing of the MORE
+     FRAGMENTS flag.  In order for a reassembled packet to be processed by
+     IPsec (as opposed to discarded as an apparent fragment), the IP code
+     must do these two things after it reassembles a packet.
+"fixed": |-
+  NOTE: For packet reassembly, the current IPv4 spec does NOT require either the zeroing of the OFFSET field or the clearing of the MORE FRAGMENTS flag.  In order for a reassembled packet to be processed by IPsec (as opposed to discarded as an apparent fragment), the IP code must do these two things after it reassembles a packet.
+"ko": |-
+  참고: 패킷 재조립의 경우 현재 IPv4 사양에서는 OFFSET 필드를 0으로 설정하거나 MORE FRAGMENTS 플래그를 지울 필요가 없습니다.  재조립된 패킷을 IPsec에서 처리하려면(명백한 조각으로 폐기되는 것이 아니라) IP 코드가 패킷을 재조립한 후 이 두 가지 작업을 수행해야 합니다.

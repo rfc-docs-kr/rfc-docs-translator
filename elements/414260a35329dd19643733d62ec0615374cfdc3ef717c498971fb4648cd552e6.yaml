@@ -1,0 +1,20 @@
+"hash": |-
+  414260a35329dd19643733d62ec0615374cfdc3ef717c498971fb4648cd552e6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The port number for a stream MAY be changed.  To do this, the offerer
+     creates a new media description, with the port number in the m line
+     different from the corresponding stream in the previous SDP.  If only
+     the port number is to be changed, the rest of the media stream
+     description SHOULD remain unchanged.  The offerer MUST be prepared to
+     receive media on both the old and new ports as soon as the offer is
+     sent.  The offerer SHOULD NOT cease listening for media on the old
+     port until the answer is received and media arrives on the new port.
+     Doing so could result in loss of media during the transition.
+"fixed": |-
+  The port number for a stream MAY be changed.  To do this, the offerer creates a new media description, with the port number in the m line different from the corresponding stream in the previous SDP.  If only the port number is to be changed, the rest of the media stream description SHOULD remain unchanged.  The offerer MUST be prepared to receive media on both the old and new ports as soon as the offer is sent.  The offerer SHOULD NOT cease listening for media on the old port until the answer is received and media arrives on the new port. Doing so could result in loss of media during the transition.
+"ko": |-
+  스트림의 포트 번호는 변경될 수 있습니다. 이를 위해 제공자는 m 줄의 포트 번호가 이전 SDP의 해당 스트림과 다른 새 미디어 설명을 만듭니다. 포트 번호만 변경하려는 경우 나머지 미디어 스트림 설명은 변경되지 않아야 합니다. 제공자는 제공이 전송되는 즉시 이전 및 새 포트에서 미디어를 수신할 준비를 해야 합니다. 제공자는 답변을 받고 미디어가 새 포트에 도착할 때까지 이전 포트에서 미디어 수신을 중단해서는 안 됩니다. 그렇게 하면 전환 중에 미디어가 손실될 수 있습니다.

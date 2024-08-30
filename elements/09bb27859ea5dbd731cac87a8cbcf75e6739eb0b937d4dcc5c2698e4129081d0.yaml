@@ -1,0 +1,20 @@
+"hash": |-
+  09bb27859ea5dbd731cac87a8cbcf75e6739eb0b937d4dcc5c2698e4129081d0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+             OpenPGPCertDescriptorType descriptorType;
+             select (descriptorType) {
+                  case empty_cert: OpenPGPEmptyCert;
+                  case subkey_cert: OpenPGPSubKeyCert;
+                  case subkey_cert_fingerprint:
+                      OpenPGPSubKeyCertFingerprint;
+             }
+        } Certificate;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

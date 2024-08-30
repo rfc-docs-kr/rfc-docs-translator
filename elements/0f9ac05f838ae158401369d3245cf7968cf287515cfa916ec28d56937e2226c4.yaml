@@ -1,0 +1,18 @@
+"hash": |-
+  0f9ac05f838ae158401369d3245cf7968cf287515cfa916ec28d56937e2226c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Servers send the "Retry-After" header field to indicate how long the
+     user agent ought to wait before making a follow-up request.  When
+     sent with a 503 (Service Unavailable) response, Retry-After indicates
+     how long the service is expected to be unavailable to the client.
+     When sent with any 3xx (Redirection) response, Retry-After indicates
+     the minimum time that the user agent is asked to wait before issuing
+     the redirected request.
+"fixed": |-
+  Servers send the "Retry-After" header field to indicate how long the user agent ought to wait before making a follow-up request.  When sent with a 503 (Service Unavailable) response, Retry-After indicates how long the service is expected to be unavailable to the client. When sent with any 3xx (Redirection) response, Retry-After indicates the minimum time that the user agent is asked to wait before issuing the redirected request.
+"ko": |-
+  서버는 후속 요청을 하기 전에 사용자 에이전트가 기다려야 하는 시간을 나타내기 위해 "Retry-After" 헤더 필드를 보냅니다. 503(서비스 사용 불가) 응답과 함께 전송된 경우 Retry-After는 클라이언트가 서비스를 사용할 수 없을 것으로 예상되는 기간을 나타냅니다. 3xx(리디렉션) 응답과 함께 전송되는 경우 Retry-After는 리디렉션된 요청을 발행하기 전에 사용자 에이전트가 기다려야 하는 최소 시간을 나타냅니다.

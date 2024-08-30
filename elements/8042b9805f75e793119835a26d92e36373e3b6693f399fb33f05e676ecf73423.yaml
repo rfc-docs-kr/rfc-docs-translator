@@ -1,0 +1,19 @@
+"hash": |-
+  8042b9805f75e793119835a26d92e36373e3b6693f399fb33f05e676ecf73423
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MAY be specified in a RECOGNIZE method and is used
+     to tell the recognizer to clear the DTMF type-ahead buffer before
+     starting the RECOGNIZE.  The default value of this header field is
+     "false", which does not clear the type-ahead buffer before starting
+     the RECOGNIZE method.  If this header field is specified to be
+     "true", then the RECOGNIZE will clear the DTMF buffer before starting
+     recognition.  This means digits pressed by the caller before the
+     RECOGNIZE command was issued are discarded.
+"fixed": |-
+  This header field MAY be specified in a RECOGNIZE method and is used to tell the recognizer to clear the DTMF type-ahead buffer before starting the RECOGNIZE.  The default value of this header field is "false", which does not clear the type-ahead buffer before starting the RECOGNIZE method.  If this header field is specified to be "true", then the RECOGNIZE will clear the DTMF buffer before starting recognition.  This means digits pressed by the caller before the RECOGNIZE command was issued are discarded.
+"ko": |-
+  이 헤더 필드는 RECOGNIZE 메서드에서 지정할 수 있으며 인식기에 RECOGNIZE를 시작하기 전에 DTMF 타입 어헤드 버퍼를 지우라고 알리는 데 사용됩니다. 이 헤더 필드의 기본값은 "false"이며, RECOGNIZE 메서드를 시작하기 전에 타입 어헤드 버퍼를 지우지 않습니다. 이 헤더 필드가 "true"로 지정되면 RECOGNIZE는 인식을 시작하기 전에 DTMF 버퍼를 지웁니다. 즉, RECOGNIZE 명령이 실행되기 전에 호출자가 누른 숫자는 삭제됩니다.

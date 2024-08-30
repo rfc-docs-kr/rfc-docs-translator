@@ -1,0 +1,18 @@
+"hash": |-
+  9abf1473ad45c527f6ed2fa2c4c937e33140307944de743c21ac8eb21b3bdb3b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            select (KeyExchangeAlgorithm) {
+                /* other cases for rsa, diffie_hellman, etc. */
+                case psk:  /* NEW */
+                    opaque psk_identity_hint<0..2^16-1>;
+            };
+        } ServerKeyExchange;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

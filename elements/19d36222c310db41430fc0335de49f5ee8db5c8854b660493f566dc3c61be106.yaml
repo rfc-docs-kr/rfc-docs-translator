@@ -1,0 +1,16 @@
+"hash": |-
+  19d36222c310db41430fc0335de49f5ee8db5c8854b660493f566dc3c61be106
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the "Sign All" method, the live injector signs each chunk of
+     content using a private key and peers, upon receiving the chunk,
+     check the signature using the corresponding public key obtained from
+     a trusted source.  In particular, in PPSPP, the swarm ID of the live
+     stream is that public key.
+"fixed": |-
+  In the "Sign All" method, the live injector signs each chunk of content using a private key and peers, upon receiving the chunk, check the signature using the corresponding public key obtained from a trusted source.  In particular, in PPSPP, the swarm ID of the live stream is that public key.
+"ko": |-
+  "Sign All" 방법에서 라이브 인젝터는 개인 키를 사용하여 각 콘텐츠 청크에 서명하고 피어는 청크를 수신하면 신뢰할 수 있는 소스에서 얻은 해당 공개 키를 사용하여 서명을 확인합니다. 특히 PPSPP에서는 라이브 스트림의 떼 ID가 해당 공개 키입니다.

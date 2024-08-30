@@ -1,0 +1,24 @@
+"hash": |-
+  69e87dd789cb7563ddf5c10828e6cbd949c9f1960963037be0bf7b4e11059f57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Parse the JWS representation to extract the serialized values for
+         the components of the JWS.  When using the JWS Compact
+         Serialization, these components are the base64url-encoded
+         representations of the JWS Protected Header, the JWS Payload, and
+         the JWS Signature, and when using the JWS JSON Serialization,
+         these components also include the unencoded JWS Unprotected
+         Header value.  When using the JWS Compact Serialization, the JWS
+         Protected Header, the JWS Payload, and the JWS Signature are
+         represented as base64url-encoded values in that order, with each
+         value being separated from the next by a single period ('.')
+         character, resulting in exactly two delimiting period characters
+         being used.  The JWS JSON Serialization is described in
+         Section 7.2.
+"fixed": |-
+  1.  Parse the JWS representation to extract the serialized values for the components of the JWS.  When using the JWS Compact Serialization, these components are the base64url-encoded representations of the JWS Protected Header, the JWS Payload, and the JWS Signature, and when using the JWS JSON Serialization, these components also include the unencoded JWS Unprotected Header value.  When using the JWS Compact Serialization, the JWS Protected Header, the JWS Payload, and the JWS Signature are represented as base64url-encoded values in that order, with each value being separated from the next by a single period ('.') character, resulting in exactly two delimiting period characters being used.  The JWS JSON Serialization is described in Section 7.2.
+"ko": |-
+  1. JWS 표현을 구문 분석하여 JWS 구성 요소에 대한 직렬화된 값을 추출합니다. JWS Compact Serialization을 사용할 때 이러한 구성 요소는 JWS 보호 헤더, JWS 페이로드 및 JWS 서명의 base64url 인코딩 표현이며, JWS JSON Serialization을 사용할 때 이러한 구성 요소에는 인코딩되지 않은 JWS 보호되지 않은 헤더 값도 포함됩니다. JWS Compact Serialization을 사용할 때 JWS 보호 헤더, JWS 페이로드 및 JWS 서명은 해당 순서로 base64url 인코딩된 값으로 표현되며 각 값은 단일 마침표('.') 문자로 다음 값과 구분되어 정확히 두 개의 구분 마침표 문자가 사용됩니다. JWS JSON Serialization은 섹션 7.2에서 설명합니다.

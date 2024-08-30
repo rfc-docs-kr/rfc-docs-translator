@@ -1,0 +1,17 @@
+"hash": |-
+  3ec84287f3d5919bdfc9cde12e6f56763517d5882f7a1457921a56e4e1b968a2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that a route can only have one RD, but it can have multiple
+     Target VPNs.  In BGP, scalability is improved if one has a single
+     route with multiple attributes, as opposed to multiple routes.  One
+     could eliminate the Target VPN attribute by creating more routes
+     (i.e., using more RDs), but the scaling properties would be less
+     favorable.
+"fixed": |-
+  Note that a route can only have one RD, but it can have multiple Target VPNs.  In BGP, scalability is improved if one has a single route with multiple attributes, as opposed to multiple routes.  One could eliminate the Target VPN attribute by creating more routes (i.e., using more RDs), but the scaling properties would be less favorable.
+"ko": |-
+  경로에는 RD가 하나만 있을 수 있지만 여러 개의 대상 VPN이 있을 수 있습니다. BGP에서 여러 경로가 있는 단일 경로가 있는 경우 확장성이 향상되는 반면 여러 경로가 있는 경우 확장성이 향상됩니다. 더 많은 경로를 생성하여(즉, 더 많은 RD 사용) 대상 VPN 속성을 제거할 수 있지만 확장 속성은 덜 유리할 것입니다.

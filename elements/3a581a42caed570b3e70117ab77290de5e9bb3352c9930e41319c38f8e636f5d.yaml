@@ -1,0 +1,15 @@
+"hash": |-
+  3a581a42caed570b3e70117ab77290de5e9bb3352c9930e41319c38f8e636f5d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the server runs into unexpected problems while trying to look
+        up the STATUS information, it MAY drop the corresponding STATUS
+        reply.  In such a situation, the LIST command would still return a
+        tagged OK reply.
+"fixed": |-
+  - If the server runs into unexpected problems while trying to look up the STATUS information, it MAY drop the corresponding STATUS reply.  In such a situation, the LIST command would still return a tagged OK reply.
+"ko": |-
+  - 서버가 STATUS 정보를 조회하는 동안 예상치 못한 문제가 발생하는 경우 해당 STATUS 응답을 삭제할 수 있습니다.  이러한 상황에서도 LIST 명령은 여전히 ​​태그가 지정된 OK 응답을 반환합니다.

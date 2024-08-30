@@ -1,0 +1,23 @@
+"hash": |-
+  1e37de5c13afd7a9ac031988453b67b77912682dfb5cf3fbb6b86bdfddbcc918
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A new method definition needs to indicate whether it is safe
+     (Section 9.2.1), idempotent (Section 9.2.2), cacheable
+     (Section 9.2.3), what semantics are to be associated with the request
+     content (if any), and what refinements the method makes to header
+     field or status code semantics.  If the new method is cacheable, its
+     definition ought to describe how, and under what conditions, a cache
+     can store a response and use it to satisfy a subsequent request.  The
+     new method ought to describe whether it can be made conditional
+     (Section 13.1) and, if so, how a server responds when the condition
+     is false.  Likewise, if the new method might have some use for
+     partial response semantics (Section 14.2), it ought to document this,
+     too.
+"fixed": |-
+  A new method definition needs to indicate whether it is safe (Section 9.2.1), idempotent (Section 9.2.2), cacheable (Section 9.2.3), what semantics are to be associated with the request content (if any), and what refinements the method makes to header field or status code semantics.  If the new method is cacheable, its definition ought to describe how, and under what conditions, a cache can store a response and use it to satisfy a subsequent request.  The new method ought to describe whether it can be made conditional (Section 13.1) and, if so, how a server responds when the condition is false.  Likewise, if the new method might have some use for partial response semantics (Section 14.2), it ought to document this, too.
+"ko": |-
+  새로운 메서드 정의는 안전한지(섹션 9.2.1), 멱등성(섹션 9.2.2), 캐시 가능한지(섹션 9.2.3), 요청 콘텐츠와 연결되는 의미(있는 경우)를 나타내야 합니다. 메소드가 헤더 필드 또는 상태 코드 의미를 어떻게 개선하는지. 새로운 메소드가 캐시 가능하다면 그 정의는 캐시가 응답을 저장하고 이를 사용하여 후속 요청을 충족할 수 있는 방법과 조건을 설명해야 합니다. 새로운 메서드는 조건부로 만들 수 있는지(13.1절), 그렇다면 조건이 false일 때 서버가 어떻게 응답하는지 설명해야 합니다. 마찬가지로, 새로운 방법이 부분 응답 의미론(14.2절)에 어느 정도 사용될 수 있다면 이 방법도 문서화해야 합니다.

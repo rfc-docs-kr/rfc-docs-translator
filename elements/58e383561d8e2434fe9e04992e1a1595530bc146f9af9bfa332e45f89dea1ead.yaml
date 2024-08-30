@@ -1,0 +1,22 @@
+"hash": |-
+  58e383561d8e2434fe9e04992e1a1595530bc146f9af9bfa332e45f89dea1ead
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An Internal Date message attribute is the internal date and time of
+     the message on the server.  This is not the date and time in the
+     [RFC5322] header but rather a date and time that reflects when the
+     message was received.  In the case of messages delivered via [SMTP],
+     this is the date and time of final delivery of the message as defined
+     by [SMTP].  In the case of messages created by the IMAP4rev2 COPY or
+     MOVE command, this SHOULD be the same as the Internal Date attribute
+     of the source message.  In the case of messages created by the
+     IMAP4rev2 APPEND command, this SHOULD be the date and time as
+     specified in the APPEND command description.  All other cases are
+     implementation defined.
+"fixed": |-
+  An Internal Date message attribute is the internal date and time of the message on the server.  This is not the date and time in the [RFC5322] header but rather a date and time that reflects when the message was received.  In the case of messages delivered via [SMTP], this is the date and time of final delivery of the message as defined by [SMTP].  In the case of messages created by the IMAP4rev2 COPY or MOVE command, this SHOULD be the same as the Internal Date attribute of the source message.  In the case of messages created by the IMAP4rev2 APPEND command, this SHOULD be the date and time as specified in the APPEND command description.  All other cases are implementation defined.
+"ko": |-
+  내부 날짜 메시지 속성은 서버에 있는 메시지의 내부 날짜 및 시간입니다.  이는 [RFC5322] 헤더의 날짜 및 시간이 아니라 메시지가 수신된 시간을 반영하는 날짜 및 시간입니다.  [SMTP]를 통해 전달된 메시지의 경우 [SMTP]에서 정의한 메시지의 최종 전달 날짜 및 시간입니다.  IMAP4rev2 COPY 또는 MOVE 명령으로 생성된 메시지의 경우 이는 소스 메시지의 내부 날짜 속성과 동일해야 합니다.  IMAP4rev2 APPEND 명령으로 생성된 메시지의 경우 이는 APPEND 명령 설명에 지정된 날짜 및 시간이어야 합니다.  다른 모든 경우는 구현이 정의됩니다.

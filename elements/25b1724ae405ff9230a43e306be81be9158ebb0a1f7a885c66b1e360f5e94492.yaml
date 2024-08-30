@@ -1,0 +1,16 @@
+"hash": |-
+  25b1724ae405ff9230a43e306be81be9158ebb0a1f7a885c66b1e360f5e94492
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If no valid Security Association exists for this packet, the receiver
+     MUST discard the packet; this is an auditable event.  The audit log
+     entry for this event SHOULD include the SPI value, date/time
+     received, Source Address, Destination Address, Sequence Number, and
+     (in IPv6) the cleartext Flow ID.
+"fixed": |-
+  If no valid Security Association exists for this packet, the receiver MUST discard the packet; this is an auditable event.  The audit log entry for this event SHOULD include the SPI value, date/time received, Source Address, Destination Address, Sequence Number, and (in IPv6) the cleartext Flow ID.
+"ko": |-
+  이 패킷에 대해 유효한 보안 연결이 존재하지 않으면 수신자는 패킷을 폐기해야 합니다. 이는 감사 가능한 이벤트입니다.  이 이벤트에 대한 감사 로그 항목에는 SPI 값, 수신된 날짜/시간, 소스 주소, 대상 주소, 시퀀스 번호 및 (IPv6의 경우) 일반 텍스트 흐름 ID가 포함되어야 합니다.

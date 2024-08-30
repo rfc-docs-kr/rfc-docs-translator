@@ -1,0 +1,18 @@
+"hash": |-
+  8586a7aba40b50644ee1a92e54689f2a355daf6e94c9d98077c31c297c419906
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the server's hierarchy separator character appears in the new
+     mailbox name, the server SHOULD create any superior hierarchical
+     names that are needed for the RENAME command to complete
+     successfully.  In other words, an attempt to rename "foo/bar/zap" to
+     "baz/rag/zowie" on a server in which "/" is the hierarchy separator
+     character in the corresponding namespace SHOULD create "baz/" and
+     "baz/rag/" if they do not already exist.
+"fixed": |-
+  If the server's hierarchy separator character appears in the new mailbox name, the server SHOULD create any superior hierarchical names that are needed for the RENAME command to complete successfully.  In other words, an attempt to rename "foo/bar/zap" to "baz/rag/zowie" on a server in which "/" is the hierarchy separator character in the corresponding namespace SHOULD create "baz/" and "baz/rag/" if they do not already exist.
+"ko": |-
+  서버의 계층 구분 문자가 새 사서함 이름에 나타나면 서버는 RENAME 명령을 성공적으로 완료하는 데 필요한 상위 계층 이름을 만들어야 합니다.  즉, "/"가 해당 네임스페이스의 계층 구분 문자인 서버에서 "foo/bar/zap"의 이름을 "baz/rag/zowie"로 바꾸려는 시도는 "baz/" 및 "baz/"를 생성해야 합니다. rag/"가 아직 존재하지 않는 경우.

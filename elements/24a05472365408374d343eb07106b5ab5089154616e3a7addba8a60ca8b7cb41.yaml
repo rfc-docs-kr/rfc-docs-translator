@@ -1,0 +1,15 @@
+"hash": |-
+  24a05472365408374d343eb07106b5ab5089154616e3a7addba8a60ca8b7cb41
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note: Differentiating between bad_record_mac and decryption_failed
+           alerts may permit certain attacks against CBC mode as used in
+           TLS [CBCATT].  It is preferable to uniformly use the
+           bad_record_mac alert to hide the specific type of the error.
+"fixed": |-
+  Note: Differentiating between bad_record_mac and decryption_failed  -     alerts may permit certain attacks against CBC mode as used in TLS [CBCATT].  It is preferable to uniformly use the bad_record_mac alert to hide the specific type of the error.
+"ko": |-
+  참고: bad_record_mac과 decryption_failed를 구별 - 경고는 TLS [CBCATT]에서 사용되는 CBC 모드에 대한 특정 공격을 허용할 수 있습니다. 특정 유형의 오류를 숨기려면 bad_record_mac 경고를 일률적으로 사용하는 것이 좋습니다.

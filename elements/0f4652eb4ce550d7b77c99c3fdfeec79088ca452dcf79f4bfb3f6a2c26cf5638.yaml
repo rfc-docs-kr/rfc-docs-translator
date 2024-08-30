@@ -1,0 +1,18 @@
+"hash": |-
+  0f4652eb4ce550d7b77c99c3fdfeec79088ca452dcf79f4bfb3f6a2c26cf5638
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If present, transport parameters that set initial per-stream flow
+     control limits (initial_max_stream_data_bidi_local,
+     initial_max_stream_data_bidi_remote, and initial_max_stream_data_uni)
+     are equivalent to sending a MAX_STREAM_DATA frame (Section 19.10) on
+     every stream of the corresponding type immediately after opening.  If
+     the transport parameter is absent, streams of that type start with a
+     flow control limit of 0.
+"fixed": |-
+  If present, transport parameters that set initial per-stream flow control limits (initial_max_stream_data_bidi_local, initial_max_stream_data_bidi_remote, and initial_max_stream_data_uni) are equivalent to sending a MAX_STREAM_DATA frame (Section 19.10) on every stream of the corresponding type immediately after opening.  If the transport parameter is absent, streams of that type start with a flow control limit of 0.
+"ko": |-
+  존재하는 경우 초기 스트림별 흐름 제어 제한(initial_max_stream_data_bidi_local,initial_max_stream_data_bidi_remote 및initial_max_stream_data_uni)을 설정하는 전송 매개변수는 열린 직후 해당 유형의 모든 스트림에서 MAX_STREAM_DATA 프레임(19.10절)을 보내는 것과 동일합니다. 전송 매개변수가 없으면 해당 유형의 스트림은 흐름 제어 제한 0으로 시작됩니다.

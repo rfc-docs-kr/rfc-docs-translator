@@ -1,0 +1,22 @@
+"hash": |-
+  88b3bc326a68e34d8d4bc43e28f12e34a69867e0ece2c419ee3f395e9bd75f13
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The digital signature representations for some algorithms include
+     information about the algorithm used inside the signature value.  For
+     instance, signatures produced with RSASSA-PKCS1-v1_5 [RFC3447] encode
+     the hash function used, and many libraries actually use the hash
+     algorithm specified inside the signature when validating the
+     signature.  When using such libraries, as part of the algorithm
+     validation performed, implementations MUST ensure that the algorithm
+     information encoded in the signature corresponds to that specified
+     with the "alg" Header Parameter.  If this is not done, an attacker
+     could claim to have used a strong hash algorithm while actually using
+     a weak one represented in the signature value.
+"fixed": |-
+  The digital signature representations for some algorithms include information about the algorithm used inside the signature value.  For instance, signatures produced with RSASSA-PKCS1-v1_5 [RFC3447] encode the hash function used, and many libraries actually use the hash algorithm specified inside the signature when validating the signature.  When using such libraries, as part of the algorithm validation performed, implementations MUST ensure that the algorithm information encoded in the signature corresponds to that specified with the "alg" Header Parameter.  If this is not done, an attacker could claim to have used a strong hash algorithm while actually using a weak one represented in the signature value.
+"ko": |-
+  일부 알고리즘의 디지털 서명 표현에는 서명 값 내부에 사용된 알고리즘에 대한 정보가 포함됩니다. 예를 들어, RSASSA-PKCS1-v1_5 [RFC3447]로 생성된 서명은 사용된 해시 함수를 인코딩하고, 많은 라이브러리는 실제로 서명을 검증할 때 서명 내부에 지정된 해시 알고리즘을 사용합니다. 이러한 라이브러리를 사용할 때 알고리즘 검증의 일부로 구현은 서명에 인코딩된 알고리즘 정보가 "alg" 헤더 매개변수로 지정된 정보와 일치하는지 확인해야 합니다. 이렇게 하지 않으면 공격자는 실제로 서명 값에 표현된 약한 알고리즘을 사용하면서 강력한 해시 알고리즘을 사용했다고 주장할 수 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  f3fa7f4999345651687a74f3d41d5a83b8bf9a2bd83151fc7fe44c1f2256c2b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some JSON parsers might not reject input that contains extra
+     significant characters after a valid input.  For instance, the input
+     "{"tag":"value"}ABCD" contains a valid JSON-text object followed by
+     the extra characters "ABCD".  Implementations MUST consider JWSs
+     containing such input to be invalid.
+"fixed": |-
+  Some JSON parsers might not reject input that contains extra significant characters after a valid input.  For instance, the input "{"tag":"value"}ABCD" contains a valid JSON-text object followed by the extra characters "ABCD".  Implementations MUST consider JWSs containing such input to be invalid.
+"ko": |-
+  일부 JSON 파서는 유효한 입력 뒤에 추가적으로 중요한 문자가 포함된 입력을 거부하지 않을 수 있습니다. 예를 들어, 입력 "{"tag":"value"}ABCD"에는 유효한 JSON 텍스트 객체와 추가 문자 "ABCD"가 포함됩니다. 구현은 이러한 입력이 포함된 JWS를 무효로 간주해야 합니다.

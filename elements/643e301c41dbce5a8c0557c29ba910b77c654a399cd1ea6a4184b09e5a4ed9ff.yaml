@@ -9,7 +9,7 @@
      generate both "r" and "s" uniquely each time.  Because each of them
      is 128 bits, pseudorandomly generating them (see Section 2.6) is also
      acceptable.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  The "s" should be unpredictable, but it is perfectly acceptable to generate both "r" and "s" uniquely each time.  Because each of them is 128 bits, pseudorandomly generating them (see Section 2.6) is also acceptable.
+"ko": |-
+  "s"는 예측할 수 없어야 하지만 매번 "r"과 "s"를 모두 고유하게 생성하는 것은 완벽하게 허용됩니다. 각각은 128비트이므로 의사 무작위로 생성하는 것(섹션 2.6 참조)도 허용됩니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  ab486ace5673bf0d70f59e2e7509f0cfe2811f7df65dc1f31b1ba8d3cfbaedef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Returning a 250 reply code with the address listed in the VRFY
+     command after having checked it only for syntax violates this rule.
+     Of course, an implementation that "supports" VRFY by always returning
+     550 whether or not the address is valid is equally not in
+     conformance.
+"fixed": |-
+  Returning a 250 reply code with the address listed in the VRFY command after having checked it only for syntax violates this rule. Of course, an implementation that "supports" VRFY by always returning 550 whether or not the address is valid is equally not in conformance.
+"ko": |-
+  구문만 확인한 후 VRFY 명령에 나열된 주소와 함께 250 응답 코드를 반환하는 것은 이 규칙을 위반합니다. 물론 주소가 유효한지 여부에 관계없이 항상 550을 반환하여 VRFY를 "지원"하는 구현은 똑같이 적합하지 않습니다.

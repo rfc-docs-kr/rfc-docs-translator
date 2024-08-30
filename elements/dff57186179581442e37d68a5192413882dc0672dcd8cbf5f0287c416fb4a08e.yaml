@@ -1,0 +1,22 @@
+"hash": |-
+  dff57186179581442e37d68a5192413882dc0672dcd8cbf5f0287c416fb4a08e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                        +------------+
+                                        |    IVR     |
+                                       _|Application |
+                                 VXML_/ +------------+
+                  +-----------+  __/
+                  |           |_/       +------------+
+      PSTN Trunk  |   VoIP    | SPEECHSC|            |
+     =============| Gateway   |---------| SPEECHSC   |
+                  |(VXML voice|         |   ASR      |
+                  | browser)  |=========|  Server    |
+                  +-----------+   RTP   +------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

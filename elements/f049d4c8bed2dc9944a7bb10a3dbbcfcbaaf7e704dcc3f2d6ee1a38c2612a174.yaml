@@ -1,0 +1,18 @@
+"hash": |-
+  f049d4c8bed2dc9944a7bb10a3dbbcfcbaaf7e704dcc3f2d6ee1a38c2612a174
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The per-site forwarding tables in a PE are ONLY used for packets
+     which arrive from a site which is directly attached to the PE.  They
+     are not used for routing packets which arrive from other routers that
+     belong to the SP backbone.  As a result, there may be multiple
+     different routes to the same system, where the route followed by a
+     given packet is determined by the site from which the packet enters
+     the backbone.  E.g., one may have one route to a given system for
+"fixed": |-
+  The per-site forwarding tables in a PE are ONLY used for packets which arrive from a site which is directly attached to the PE.  They are not used for routing packets which arrive from other routers that belong to the SP backbone.  As a result, there may be multiple different routes to the same system, where the route followed by a given packet is determined by the site from which the packet enters the backbone.  E.g., one may have one route to a given system for
+"ko": |-
+  PE의 사이트별 전달 테이블은 PE에 직접 연결된 사이트에서 도착하는 패킷에만 사용됩니다. SP 백본에 속하는 다른 라우터에서 도착하는 패킷을 라우팅하는 데는 사용되지 않습니다. 결과적으로 동일한 시스템에 대한 여러 개의 다른 경로가 있을 수 있으며, 주어진 패킷이 따르는 경로는 패킷이 백본에 들어오는 사이트에 따라 결정됩니다. 예를 들어, 주어진 시스템에 대한 경로가 하나 있을 수 있습니다.

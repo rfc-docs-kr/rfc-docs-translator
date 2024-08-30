@@ -1,0 +1,18 @@
+"hash": |-
+  baa99078d33f4625ab7e098bd8c279778b49e507c6fefd38db44959298fe20a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     LIST
+        The server MUST return a LIST response with the mailbox name.  The
+        list of mailbox attributes MUST be accurate.  If the server allows
+        denormalized UTF-8 mailbox names (see Section 5.1) and the
+        supplied mailbox name differs from the normalized version, the
+        server MUST return LIST with the OLDNAME extended data item.  See
+        Section 6.3.9.7 for more details.
+"fixed": |-
+  LIST  -  The server MUST return a LIST response with the mailbox name.  The list of mailbox attributes MUST be accurate.  If the server allows denormalized UTF-8 mailbox names (see Section 5.1) and the supplied mailbox name differs from the normalized version, the server MUST return LIST with the OLDNAME extended data item.  See Section 6.3.9.7 for more details.
+"ko": |-
+  LIST - 서버는 사서함 이름과 함께 LIST 응답을 반환해야 합니다.  사서함 속성 목록은 정확해야 합니다.  서버가 비정규화된 UTF-8 사서함 이름(섹션 5.1 참조)을 허용하고 제공된 사서함 이름이 정규화된 버전과 다른 경우 서버는 OLDNAME 확장 데이터 항목과 함께 LIST를 반환해야 합니다.  자세한 내용은 섹션 6.3.9.7을 참조하세요.

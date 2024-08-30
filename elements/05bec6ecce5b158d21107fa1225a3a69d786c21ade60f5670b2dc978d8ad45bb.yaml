@@ -1,0 +1,19 @@
+"hash": |-
+  05bec6ecce5b158d21107fa1225a3a69d786c21ade60f5670b2dc978d8ad45bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The sender's counter and the receiver's counter are initialized to 0
+     when an SA is established.  (The first packet sent using a given SA
+     will have a sequence number of 1; see Section 3.3.3 for more details
+     on how the sequence number is generated.)  If anti-replay is enabled
+     (the default), the transmitted sequence number must never be allowed
+     to cycle.  Thus, the sender's counter and the receiver's counter MUST
+     be reset (by establishing a new SA and thus a new key) prior to the
+     transmission of the 2^32nd packet on an SA.
+"fixed": |-
+  The sender's counter and the receiver's counter are initialized to 0 when an SA is established.  (The first packet sent using a given SA will have a sequence number of 1; see Section 3.3.3 for more details on how the sequence number is generated.)  If anti-replay is enabled (the default), the transmitted sequence number must never be allowed to cycle.  Thus, the sender's counter and the receiver's counter MUST be reset (by establishing a new SA and thus a new key) prior to the transmission of the 2^32nd packet on an SA.
+"ko": |-
+  SA가 설정되면 송신측 카운터와 수신측 카운터는 0으로 초기화됩니다.  (주어진 SA를 사용하여 전송된 첫 번째 패킷은 시퀀스 번호 1을 갖습니다. 시퀀스 번호 생성 방법에 대한 자세한 내용은 섹션 3.3.3을 참조하십시오.) 재생 방지가 활성화된 경우(기본값) 전송된 시퀀스 번호는 다음과 같아야 합니다. 절대로 자전거를 타면 안 됩니다.  따라서 발신자의 카운터와 수신자의 카운터는 SA에서 2^32번째 패킷을 전송하기 전에 반드시 재설정되어야 합니다(새 SA 및 새 키를 설정하여).

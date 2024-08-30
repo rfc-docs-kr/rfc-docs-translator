@@ -1,0 +1,20 @@
+"hash": |-
+  5f7d79b9eed621d567e96406fc75cefc06ae337a3702a01aac47af08c2a042ce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SignatureValue content for an RSA-MD5 signature is the base64
+     [RFC4648] encoding of the octet string computed as per Section 8.2.1
+     of [RFC8017], signature generation for the RSASSA-PKCS1-v1_5
+     signature scheme.  As specified in the EMSA-PKCS1-V1_5-ENCODE
+     function in Section 9.2 of [RFC8017], the value input to the
+     signature function MUST contain a prepended algorithm object
+     identifier for the hash function, but the availability of an ASN.1
+     parser and recognition of OIDs is not required of a signature
+     verifier.  The PKCS #1 v1.5 representation appears as:
+"fixed": |-
+  The SignatureValue content for an RSA-MD5 signature is the base64 [RFC4648] encoding of the octet string computed as per Section 8.2.1 of [RFC8017], signature generation for the RSASSA-PKCS1-v1_5 signature scheme.  As specified in the EMSA-PKCS1-V1_5-ENCODE function in Section 9.2 of [RFC8017], the value input to the signature function MUST contain a prepended algorithm object identifier for the hash function, but the availability of an ASN.1 parser and recognition of OIDs is not required of a signature verifier.  The PKCS #1 v1.5 representation appears as:
+"ko": |-
+  RSA-MD5 서명에 대한 SignatureValue 콘텐츠는 RSASSA-PKCS1-v1_5 서명 체계에 대한 서명 생성인 [RFC8017]의 섹션 8.2.1에 따라 계산된 옥텟 문자열의 base64 [RFC4648] 인코딩입니다. [RFC8017] 9.2절의 EMSA-PKCS1-V1_5-ENCODE 함수에 지정된 대로 서명 함수에 입력된 값은 해시 함수에 대한 앞에 추가된 알고리즘 객체 식별자를 포함해야 하지만 ASN.1 파서 및 인식의 가용성은 서명 검증자에게는 OID가 필요하지 않습니다. PKCS #1 v1.5 표현은 다음과 같이 나타납니다.

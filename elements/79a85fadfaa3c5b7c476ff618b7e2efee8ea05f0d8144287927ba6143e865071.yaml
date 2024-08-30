@@ -1,0 +1,20 @@
+"hash": |-
+  79a85fadfaa3c5b7c476ff618b7e2efee8ea05f0d8144287927ba6143e865071
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           4. Compute the ICV over the ESP packet minus the ICV field.
+              Thus, the ICV computation encompasses the SPI, Sequence
+              Number, Payload Data, Padding (if present), Pad Length, and
+              Next Header.  (Note that the last 4 fields will be in
+              ciphertext form, because encryption is performed first.)  If
+              the ESN option is enabled for the SA, the high-order 32
+              bits of the sequence number are appended after the Next
+              Header field for purposes of this computation, but are not
+              transmitted.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

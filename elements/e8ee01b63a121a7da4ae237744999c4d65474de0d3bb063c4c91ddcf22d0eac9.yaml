@@ -1,0 +1,18 @@
+"hash": |-
+  e8ee01b63a121a7da4ae237744999c4d65474de0d3bb063c4c91ddcf22d0eac9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server MUST compare the list received in the Security-Client
+     header field with the list to be sent in the Security-Server header
+     field.  When the client receives this response, it will choose the
+     common security mechanism with the highest "q" value.  Therefore, the
+     server MUST add the necessary information so that the client can
+     initiate that mechanism (e.g., a Proxy-Authenticate header field for
+     HTTP Digest).
+"fixed": |-
+  The server MUST compare the list received in the Security-Client header field with the list to be sent in the Security-Server header field.  When the client receives this response, it will choose the common security mechanism with the highest "q" value.  Therefore, the server MUST add the necessary information so that the client can initiate that mechanism (e.g., a Proxy-Authenticate header field for HTTP Digest).
+"ko": |-
+  서버는 Security-Client 헤더 필드에서 수신한 목록을 Security-Server 헤더 필드에서 보낼 목록과 비교해야 합니다. 클라이언트가 이 응답을 받으면 가장 높은 "q" 값을 가진 공통 보안 메커니즘을 선택합니다. 따라서 서버는 클라이언트가 해당 메커니즘을 시작할 수 있도록 필요한 정보를 추가해야 합니다(예: HTTP Digest의 Proxy-Authenticate 헤더 필드).

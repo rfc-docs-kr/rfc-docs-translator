@@ -1,0 +1,1 @@
+Num-Max-Verification-Phrases 헤더 필드는 검증을 위해 결정을 강제하기 전에 필요한 유효한 발화의 수를 지정하는 데 사용됩니다. 검증자 리소스는 Num-Max-Verification-Phrases가 수집되어 검증 점수를 결정하는 데 사용된 후에는 'undecided' 결정을 반환해서는 안 됩니다. 이 헤더 필드의 값은 정수이고 최소값은 1입니다. 기본값은 구현에 따라 다릅니다. 이 헤더 필드는 START-SESSION, SET-PARAMS 또는 GET-PARAMS에서 발생할 수 있습니다.

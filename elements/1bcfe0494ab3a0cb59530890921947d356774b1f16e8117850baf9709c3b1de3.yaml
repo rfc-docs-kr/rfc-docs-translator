@@ -1,0 +1,19 @@
+"hash": |-
+  1bcfe0494ab3a0cb59530890921947d356774b1f16e8117850baf9709c3b1de3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As IMAP4rev1 didn't support 63-bit-long body part / message sizes,
+     there is an interoperability issue exposed by 63-bit-capable servers/
+     mailboxes that are accessible by both IMAP4rev1 and IMAP4rev2 email
+     clients.  As IMAP4rev1 would be unable to retrieve the full content
+     of messages bigger than 4 Gb, such servers either need to replace
+     messages bigger that 4 Gb with messages under 4 Gb or hide them from
+     IMAP4rev1 clients.  This document doesn't prescribe any
+     implementation strategy to address this issue.
+"fixed": |-
+  As IMAP4rev1 didn't support 63-bit-long body part / message sizes, there is an interoperability issue exposed by 63-bit-capable servers/ mailboxes that are accessible by both IMAP4rev1 and IMAP4rev2 email clients.  As IMAP4rev1 would be unable to retrieve the full content of messages bigger than 4 Gb, such servers either need to replace messages bigger that 4 Gb with messages under 4 Gb or hide them from IMAP4rev1 clients.  This document doesn't prescribe any implementation strategy to address this issue.
+"ko": |-
+  IMAP4rev1은 63비트 길이의 본문 부분/메시지 크기를 지원하지 않았으므로 IMAP4rev1 및 IMAP4rev2 이메일 클라이언트 모두에서 액세스할 수 있는 63비트 지원 서버/사서함에서 노출되는 상호 운용성 문제가 있습니다.  IMAP4rev1은 4Gb보다 큰 메시지의 전체 내용을 검색할 수 없으므로 이러한 서버는 4Gb보다 큰 메시지를 4Gb 미만의 메시지로 바꾸거나 IMAP4rev1 클라이언트에서 숨겨야 합니다.  이 문서에서는 이 문제를 해결하기 위한 구현 전략을 규정하지 않습니다.

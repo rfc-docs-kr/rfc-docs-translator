@@ -1,0 +1,18 @@
+"hash": |-
+  d1f71bf1ad8c0cd0176eedd6066aa11ca29356968c283103bda674b3a5971e70
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     QUIC assumes a minimum IP packet size of at least 1280 bytes.  This
+     is the IPv6 minimum size [IPv6] and is also supported by most modern
+     IPv4 networks.  Assuming the minimum IP header size of 40 bytes for
+     IPv6 and 20 bytes for IPv4 and a UDP header size of 8 bytes, this
+     results in a maximum datagram size of 1232 bytes for IPv6 and 1252
+     bytes for IPv4.  Thus, modern IPv4 and all IPv6 network paths are
+     expected to be able to support QUIC.
+"fixed": |-
+  QUIC assumes a minimum IP packet size of at least 1280 bytes.  This is the IPv6 minimum size [IPv6] and is also supported by most modern IPv4 networks.  Assuming the minimum IP header size of 40 bytes for IPv6 and 20 bytes for IPv4 and a UDP header size of 8 bytes, this results in a maximum datagram size of 1232 bytes for IPv6 and 1252 bytes for IPv4.  Thus, modern IPv4 and all IPv6 network paths are expected to be able to support QUIC.
+"ko": |-
+  QUIC는 최소 1280바이트의 최소 IP 패킷 크기를 가정합니다. 이는 IPv6 최소 크기[IPv6]이며 대부분의 최신 IPv4 네트워크에서도 지원됩니다. IPv6의 경우 최소 IP 헤더 크기가 40바이트, IPv4의 경우 20바이트, UDP 헤더 크기가 8바이트라고 가정하면 최대 데이터그램 크기는 IPv6의 경우 1232바이트, IPv4의 경우 1252바이트가 됩니다. 따라서 최신 IPv4 및 모든 IPv6 네트워크 경로는 QUIC를 지원할 수 있을 것으로 예상됩니다.

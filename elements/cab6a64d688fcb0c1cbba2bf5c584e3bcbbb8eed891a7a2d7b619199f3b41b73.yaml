@@ -1,0 +1,19 @@
+"hash": |-
+  cab6a64d688fcb0c1cbba2bf5c584e3bcbbb8eed891a7a2d7b619199f3b41b73
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The response MAY contain the "requested-attributes" operation
+        attribute with any supplied values (attribute keywords) that were
+        requested by the Client but are not supported by the Printer.  If
+        the Printer does return unsupported attributes referenced in the
+        "requested-attributes" operation attribute and that attribute
+        included group names, such as 'all', the unsupported attributes
+        MUST NOT include attributes described in this document but not
+        supported by the implementation.
+"fixed": |-
+  - The response MAY contain the "requested-attributes" operation attribute with any supplied values (attribute keywords) that were requested by the Client but are not supported by the Printer.  If the Printer does return unsupported attributes referenced in the "requested-attributes" operation attribute and that attribute included group names, such as 'all', the unsupported attributes MUST NOT include attributes described in this document but not supported by the implementation.
+"ko": |-
+  - 응답에는 클라이언트가 요청했지만 프린터가 지원하지 않는 제공된 값(속성 키워드)과 함께 "요청된 속성" 작업 속성이 포함될 수 있습니다. 프린터가 "requested-attributes" 작업 속성에서 참조된 지원되지 않는 속성을 반환하고 해당 속성에 'all'과 같은 그룹 이름이 포함된 경우 지원되지 않는 속성은 이 문서에 설명되어 있지만 구현에서 지원되지 않는 속성을 포함해서는 안 됩니다.

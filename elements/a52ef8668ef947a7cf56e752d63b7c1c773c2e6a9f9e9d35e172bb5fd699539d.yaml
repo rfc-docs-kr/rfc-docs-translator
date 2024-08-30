@@ -1,0 +1,22 @@
+"hash": |-
+  a52ef8668ef947a7cf56e752d63b7c1c773c2e6a9f9e9d35e172bb5fd699539d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "enc" (encryption algorithm) Header Parameter identifies the
+     content encryption algorithm used to perform authenticated encryption
+     on the plaintext to produce the ciphertext and the Authentication
+     Tag.  This algorithm MUST be an AEAD algorithm with a specified key
+     length.  The encrypted content is not usable if the "enc" value does
+     not represent a supported algorithm.  "enc" values should either be
+     registered in the IANA "JSON Web Signature and Encryption Algorithms"
+     registry established by [JWA] or be a value that contains a
+     Collision-Resistant Name.  The "enc" value is a case-sensitive ASCII
+     string containing a StringOrURI value.  This Header Parameter MUST be
+     present and MUST be understood and processed by implementations.
+"fixed": |-
+  The "enc" (encryption algorithm) Header Parameter identifies the content encryption algorithm used to perform authenticated encryption on the plaintext to produce the ciphertext and the Authentication Tag.  This algorithm MUST be an AEAD algorithm with a specified key length.  The encrypted content is not usable if the "enc" value does not represent a supported algorithm.  "enc" values should either be registered in the IANA "JSON Web Signature and Encryption Algorithms" registry established by [JWA] or be a value that contains a Collision-Resistant Name.  The "enc" value is a case-sensitive ASCII string containing a StringOrURI value.  This Header Parameter MUST be present and MUST be understood and processed by implementations.
+"ko": |-
+  "enc"(암호화 알고리즘) 헤더 매개변수는 암호문과 인증 태그를 생성하기 위해 일반 텍스트에 인증된 암호화를 수행하는 데 사용되는 콘텐츠 암호화 알고리즘을 식별합니다. 이 알고리즘은 지정된 키 길이를 가진 AEAD 알고리즘이어야 합니다. "enc" 값이 지원되는 알고리즘을 나타내지 않으면 암호화된 콘텐츠를 사용할 수 없습니다. "enc" 값은 [JWA]에서 설정한 IANA "JSON 웹 서명 및 암호화 알고리즘" 레지스트리에 등록되거나 충돌 방지 이름이 포함된 값이어야 합니다. "enc" 값은 StringOrURI 값이 포함된 대소문자 구분 ASCII 문자열입니다. 이 헤더 매개변수는 반드시 존재해야 하며 구현에서 이해하고 처리해야 합니다.

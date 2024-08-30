@@ -1,0 +1,37 @@
+"hash": |-
+  5d9cead3864a5488d81e0ba57c05b1edd1c9f49482b9f13eb91f36434b891ad6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For example, suppose that for purposes of facilitating
+     interoperability, the ACE Corporation establishes an agreement with
+     the ABC Corporation to cross-certify the public keys of each others'
+     certification authorities for the purposes of mutually securing their
+     respective business-to-business exchanges.  Further, suppose that
+     both companies have pre-existing financial transaction protection
+     policies called ace-e-commerce and abc-e-commerce, respectively.  One
+     can see that simply generating cross-certificates between the two
+     domains will not provide the necessary interoperability, as the two
+     companies' applications are configured with, and employee
+     certificates are populated with, their respective certificate
+     policies.  One possible solution is to reconfigure all of the
+     financial applications to require either policy and to reissue all
+     the certificates with both policies appearing in their Certificate
+     Policies extensions.  Another solution, which may be easier to
+     administer, uses the Policy Mapping field.  If this field is included
+     in a cross-certificate for the ABC Corporation certification
+     authority issued by the ACE Corporation certification authority, it
+     can provide a statement that the ABC's financial transaction
+     protection policy (i.e., abc-e-commerce) can be considered equivalent
+     to that of the ACE Corporation (i.e., ace-e-commerce).  With such a
+     statement included in the cross-certificate issued to ABC, relying
+     party applications in the ACE domain requiring the presence of the
+     object identifier for the ace-e-commerce CP can also accept, process,
+     and rely upon certificates issued within the ABC domain containing
+     the object identifier for the abc-e-commerce CP.
+"fixed": |-
+  For example, suppose that for purposes of facilitating interoperability, the ACE Corporation establishes an agreement with the ABC Corporation to cross-certify the public keys of each others' certification authorities for the purposes of mutually securing their respective business-to-business exchanges.  Further, suppose that both companies have pre-existing financial transaction protection policies called ace-e-commerce and abc-e-commerce, respectively.  One can see that simply generating cross-certificates between the two domains will not provide the necessary interoperability, as the two companies' applications are configured with, and employee certificates are populated with, their respective certificate policies.  One possible solution is to reconfigure all of the financial applications to require either policy and to reissue all the certificates with both policies appearing in their Certificate Policies extensions.  Another solution, which may be easier to administer, uses the Policy Mapping field.  If this field is included in a cross-certificate for the ABC Corporation certification authority issued by the ACE Corporation certification authority, it can provide a statement that the ABC's financial transaction protection policy (i.e., abc-e-commerce) can be considered equivalent to that of the ACE Corporation (i.e., ace-e-commerce).  With such a statement included in the cross-certificate issued to ABC, relying party applications in the ACE domain requiring the presence of the object identifier for the ace-e-commerce CP can also accept, process, and rely upon certificates issued within the ABC domain containing the object identifier for the abc-e-commerce CP.
+"ko": |-
+  예를 들어, 상호 운용성을 촉진하기 위해 ACE Corporation이 ABC Corporation과 각자의 B2B 교환을 상호 보호하기 위해 서로의 인증 기관의 공개 키를 교차 인증하는 계약을 체결했다고 가정합니다. 또한, 두 회사가 각각 ace-e-Commerce와 abc-e-Commerce라는 금융거래 보호 정책을 기존에 보유하고 있다고 가정해 보겠습니다. 두 회사의 응용 프로그램이 해당 인증서 정책으로 구성되고 직원 인증서가 채워지기 때문에 단순히 두 도메인 간에 교차 인증서를 생성하는 것만으로는 필요한 상호 운용성이 제공되지 않는다는 것을 알 수 있습니다. 한 가지 가능한 해결책은 두 정책 중 하나를 요구하도록 모든 금융 애플리케이션을 재구성하고 인증서 정책 확장에 두 정책이 모두 표시되는 모든 인증서를 재발급하는 것입니다. 관리하기 더 쉬운 또 다른 솔루션은 정책 매핑 필드를 사용합니다. ACE Corporation 인증기관이 발급한 ABC Corporation 인증기관에 대한 교차 인증서에 이 필드가 포함되어 있다면 ABC의 금융거래 보호 정책(즉, abc-e-Commerce)이 다음과 동일하다고 간주될 수 있다는 진술을 제공할 수 있다. ACE Corporation(즉, ace-e-Commerce)의 것입니다. ABC에 발행된 교차 인증서에 포함된 이러한 설명을 사용하면 ace-전자 상거래 CP에 대한 객체 식별자의 존재를 요구하는 ACE 도메인의 신뢰 당사자 애플리케이션도 ABC 내에서 발행된 인증서를 수락, 처리 및 의존할 수 있습니다. abc-e-commerce CP에 대한 개체 식별자가 포함된 도메인입니다.

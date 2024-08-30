@@ -1,0 +1,18 @@
+"hash": |-
+  5ded89d3eb7fa780905c40c0f812b3f2a4753309d0e809b8bb96739b5d1273d7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The contents of hash are used as input for the signing algorithm,
+     then the entire structure is encrypted with a stream cipher. The
+     length of this structure, in bytes would be equal to 2 bytes for
+     field1 and field2, plus two bytes for the length of the signature,
+     plus the length of the output of the signing algorithm. This is known
+     due to the fact that the algorithm and key used for the signing are
+     known prior to encoding or decoding this structure.
+"fixed": |-
+  The contents of hash are used as input for the signing algorithm, then the entire structure is encrypted with a stream cipher. The length of this structure, in bytes would be equal to 2 bytes for field1 and field2, plus two bytes for the length of the signature, plus the length of the output of the signing algorithm. This is known due to the fact that the algorithm and key used for the signing are known prior to encoding or decoding this structure.
+"ko": |-
+  해시의 내용은 서명 알고리즘의 입력으로 사용되며 전체 구조는 스트림 암호로 암호화됩니다. 이 구조의 길이(바이트)는 field1 및 field2의 2바이트, 서명 길이의 2바이트, 서명 알고리즘의 출력 길이를 더한 것과 같습니다. 이는 서명에 사용된 알고리즘과 키가 이 구조를 인코딩하거나 디코딩하기 전에 알려져 있다는 사실로 인해 알려져 있습니다.

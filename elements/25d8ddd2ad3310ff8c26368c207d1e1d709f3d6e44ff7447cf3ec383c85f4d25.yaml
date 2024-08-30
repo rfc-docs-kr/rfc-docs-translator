@@ -1,0 +1,18 @@
+"hash": |-
+  25d8ddd2ad3310ff8c26368c207d1e1d709f3d6e44ff7447cf3ec383c85f4d25
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver can advertise a larger limit for a connection by sending a
+     MAX_DATA frame, which indicates the maximum of the sum of the
+     absolute byte offsets of all streams.  A receiver maintains a
+     cumulative sum of bytes received on all streams, which is used to
+     check for violations of the advertised connection or stream data
+     limits.  A receiver could determine the maximum data limit to be
+     advertised based on the sum of bytes consumed on all streams.
+"fixed": |-
+  A receiver can advertise a larger limit for a connection by sending a MAX_DATA frame, which indicates the maximum of the sum of the absolute byte offsets of all streams.  A receiver maintains a cumulative sum of bytes received on all streams, which is used to check for violations of the advertised connection or stream data limits.  A receiver could determine the maximum data limit to be advertised based on the sum of bytes consumed on all streams.
+"ko": |-
+  수신자는 모든 스트림의 절대 바이트 오프셋의 최대 합계를 나타내는 MAX_DATA 프레임을 전송하여 연결에 대한 더 큰 제한을 알릴 수 있습니다. 수신자는 모든 스트림에서 수신된 바이트의 누적 합계를 유지 관리하며, 이는 알려진 연결 또는 스트림 데이터 제한 위반을 확인하는 데 사용됩니다. 수신자는 모든 스트림에서 소비된 바이트의 합계를 기반으로 광고할 최대 데이터 제한을 결정할 수 있습니다.

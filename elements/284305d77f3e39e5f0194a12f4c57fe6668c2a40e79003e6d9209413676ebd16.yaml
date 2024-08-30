@@ -1,0 +1,19 @@
+"hash": |-
+  284305d77f3e39e5f0194a12f4c57fe6668c2a40e79003e6d9209413676ebd16
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  *Note:* In practice, the "Set-Cookie" header field ([COOKIE])
+        |  often appears in a response message across multiple field lines
+        |  and does not use the list syntax, violating the above
+        |  requirements on multiple field lines with the same field name.
+        |  Since it cannot be combined into a single field value,
+        |  recipients ought to handle "Set-Cookie" as a special case while
+        |  processing fields.  (See Appendix A.2.3 of [Kri2001] for
+        |  details.)
+"fixed": |-
+  - |  *Note:* In practice, the "Set-Cookie" header field ([COOKIE]) |  often appears in a response message across multiple field lines |  and does not use the list syntax, violating the above |  requirements on multiple field lines with the same field name. |  Since it cannot be combined into a single field value, |  recipients ought to handle "Set-Cookie" as a special case while |  processing fields.  (See Appendix A.2.3 of [Kri2001] for |  details.)
+"ko": |-
+  - | *참고:* 실제로는 "Set-Cookie" 헤더 필드([COOKIE]) | 여러 필드 줄에 걸쳐 응답 메시지에 자주 나타남 | 위의 사항을 위반하여 목록 구문을 사용하지 않습니다 | 동일한 필드 이름을 가진 여러 필드 줄에 대한 요구 사항입니다. | 단일 필드 값으로 결합할 수 없으므로 | 수신자는 "Set-Cookie"를 특별한 경우로 처리해야 하며 | 처리 분야. (자세한 내용은 [Kri2001]의 부록 A.2.3을 참조하세요.)

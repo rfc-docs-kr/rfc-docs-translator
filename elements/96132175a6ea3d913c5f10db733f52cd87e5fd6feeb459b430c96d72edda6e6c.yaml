@@ -1,0 +1,15 @@
+"hash": |-
+  96132175a6ea3d913c5f10db733f52cd87e5fd6feeb459b430c96d72edda6e6c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Attribute { ATTRIBUTE:IOSet } ::= SEQUENCE {
+          type   ATTRIBUTE.&id({IOSet}),
+          values SET SIZE(1..MAX) OF ATTRIBUTE.&Type({IOSet}{@type})
+     }
+"fixed": |-
+  Attribute { ATTRIBUTE:IOSet } ::= SEQUENCE {  -    type   ATTRIBUTE.&id({IOSet}), values SET SIZE(1..MAX) OF ATTRIBUTE.&Type({IOSet}{@type}) }
+"ko": |-
+  속성 { ATTRIBUTE:IOSet } ::= SEQUENCE { - 유형 ATTRIBUTE.&id({IOSet}), 값 SET SIZE(1..MAX) OF ATTRIBUTE.&Type({IOSet}{@type}) }

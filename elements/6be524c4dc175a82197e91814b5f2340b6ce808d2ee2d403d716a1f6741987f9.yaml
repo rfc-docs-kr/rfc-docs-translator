@@ -1,0 +1,26 @@
+"hash": |-
+  6be524c4dc175a82197e91814b5f2340b6ce808d2ee2d403d716a1f6741987f9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The value of this header field represents the occurrence likelihood
+     of a phrase in an enrolled grammar.  When using grammar enrollment,
+     the system is essentially constructing a grammar segment consisting
+     of a list of possible match phrases.  This can be thought of to be
+     similar to the dynamic construction of a <one-of> tag in the W3C
+     grammar specification.  Each enrolled-phrase becomes an item in the
+     list that can be matched against spoken input similar to the <item>
+     within a <one-of> list.  This header field allows you to assign a
+     weight to the phrase (i.e., <item> entry) in the <one-of> list that
+     is enrolled.  Grammar weights are normalized to a sum of one at
+     grammar compilation time, so a weight value of 1 for each phrase in
+     an enrolled grammar list indicates all items in that list have the
+     same weight.  This header field MAY occur in START-PHRASE-ENROLLMENT
+     and MODIFY-PHRASE requests.  The default value for this header field
+     is implementation specific.
+"fixed": |-
+  The value of this header field represents the occurrence likelihood of a phrase in an enrolled grammar.  When using grammar enrollment, the system is essentially constructing a grammar segment consisting of a list of possible match phrases.  This can be thought of to be similar to the dynamic construction of a <one-of> tag in the W3C grammar specification.  Each enrolled-phrase becomes an item in the list that can be matched against spoken input similar to the <item> within a <one-of> list.  This header field allows you to assign a weight to the phrase (i.e., <item> entry) in the <one-of> list that is enrolled.  Grammar weights are normalized to a sum of one at grammar compilation time, so a weight value of 1 for each phrase in an enrolled grammar list indicates all items in that list have the same weight.  This header field MAY occur in START-PHRASE-ENROLLMENT and MODIFY-PHRASE requests.  The default value for this header field is implementation specific.
+"ko": |-
+  이 헤더 필드의 값은 등록된 문법에서 구문의 발생 가능성을 나타냅니다. 문법 등록을 사용할 때 시스템은 본질적으로 가능한 일치 구문 목록으로 구성된 문법 세그먼트를 구성합니다. 이는 W3C 문법 사양의 <one-of> 태그의 동적 구성과 유사하다고 생각할 수 있습니다. 각 enrolled-phrase는 <one-of> 목록 내의 <item>과 유사한 음성 입력과 일치할 수 있는 목록의 항목이 됩니다. 이 헤더 필드를 사용하면 등록된 <one-of> 목록의 구문(즉, <item> 항목)에 가중치를 지정할 수 있습니다. 문법 가중치는 문법 컴파일 시 합산 1로 정규화되므로 등록된 문법 목록의 각 구문에 대한 가중치 값 1은 해당 목록의 모든 항목에 동일한 가중치가 있음을 나타냅니다. 이 헤더 필드는 START-PHRASE-ENROLLMENT 및 MODIFY-PHRASE 요청에서 발생할 수 있습니다. 이 헤더 필드의 기본값은 구현에 따라 다릅니다.

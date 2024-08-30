@@ -1,0 +1,22 @@
+"hash": |-
+  abc2e6ffe3a52b3425f63cff590f2580fe81e581c356b1d51ce949335dd11025
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           Client                                                Server
+           ClientHello
+           (SessionTicket extension)      -------->
+                                                            ServerHello
+                                        (empty SessionTicket extension)
+                                                       NewSessionTicket
+                                                     [ChangeCipherSpec]
+                                         <--------             Finished
+           [ChangeCipherSpec]
+           Finished                      -------->
+           Application Data              <------->     Application Data
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

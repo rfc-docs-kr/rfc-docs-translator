@@ -1,0 +1,17 @@
+"hash": |-
+  c157bfe65f066449dc59f9cd7dd53c51a5035e39ca606b6b7c882e6ee07c4f93
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If "false", the recorder MUST start capturing immediately when
+     started.  If "true", the recorder MUST wait for the endpointing
+     functionality to detect speech before it starts capturing.  This
+     header field MAY occur in the RECORD, SET-PARAMS, or GET-PARAMS.  The
+     value for this header field is a Boolean.  The default value for this
+     header field is "false".
+"fixed": |-
+  If "false", the recorder MUST start capturing immediately when started.  If "true", the recorder MUST wait for the endpointing functionality to detect speech before it starts capturing.  This header field MAY occur in the RECORD, SET-PARAMS, or GET-PARAMS.  The value for this header field is a Boolean.  The default value for this header field is "false".
+"ko": |-
+  "false"이면 레코더는 시작하자마자 즉시 캡처를 시작해야 합니다. "true"이면 레코더는 캡처를 시작하기 전에 엔드포인트 기능이 음성을 감지할 때까지 기다려야 합니다. 이 헤더 필드는 RECORD, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다. 이 헤더 필드의 값은 부울입니다. 이 헤더 필드의 기본값은 "false"입니다.

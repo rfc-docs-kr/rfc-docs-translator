@@ -1,0 +1,18 @@
+"hash": |-
+  50c19794db7c8934f383458d217057412376bfcff37a2b68cd297b93ede977b4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The difference between a BYE that occurs as part of a normal LOGOUT
+     sequence (the first case) and a BYE that occurs because of a failure
+     (the other three cases) is that the connection closes immediately in
+     the failure case.  In all cases, the client SHOULD continue to read
+     response data from the server until the connection is closed; this
+     will ensure that any pending untagged or completion responses are
+     read and processed.
+"fixed": |-
+  The difference between a BYE that occurs as part of a normal LOGOUT sequence (the first case) and a BYE that occurs because of a failure (the other three cases) is that the connection closes immediately in the failure case.  In all cases, the client SHOULD continue to read response data from the server until the connection is closed; this will ensure that any pending untagged or completion responses are read and processed.
+"ko": |-
+  일반적인 LOGOUT 시퀀스의 일부로 발생하는 BYE(첫 번째 경우)와 오류로 인해 발생하는 BYE(나머지 세 가지 경우)의 차이점은 오류가 발생한 경우 연결이 즉시 닫힌다는 것입니다.  모든 경우에 클라이언트는 연결이 닫힐 때까지 서버에서 응답 데이터를 계속 읽어야 합니다. 이렇게 하면 보류 중인 태그가 지정되지 않았거나 완료 응답을 읽고 처리할 수 있습니다.

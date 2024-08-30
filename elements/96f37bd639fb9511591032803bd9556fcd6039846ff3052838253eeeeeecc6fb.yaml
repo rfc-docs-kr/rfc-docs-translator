@@ -1,0 +1,19 @@
+"hash": |-
+  96f37bd639fb9511591032803bd9556fcd6039846ff3052838253eeeeeecc6fb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Responder does not include a Notify payload of type
+     SECURE_PASSWORD_METHODS in its IKE_SA_INIT response, the Initiator
+     MUST terminate the exchange, and it MUST NOT fall back to the PSK
+     authentication method of [RFC5996].  If the Initiator only indicated
+     its support for Secure PSK Authentication (i.e., if the Notify data
+     field only contained 3) and the Responder replies with a Notify
+     payload of type SECURE_PASSWORD_METHODS and a different value in the
+     Notify data field, the Initiator MUST terminate the exchange.
+"fixed": |-
+  If the Responder does not include a Notify payload of type SECURE_PASSWORD_METHODS in its IKE_SA_INIT response, the Initiator MUST terminate the exchange, and it MUST NOT fall back to the PSK authentication method of [RFC5996].  If the Initiator only indicated its support for Secure PSK Authentication (i.e., if the Notify data field only contained 3) and the Responder replies with a Notify payload of type SECURE_PASSWORD_METHODS and a different value in the Notify data field, the Initiator MUST terminate the exchange.
+"ko": |-
+  응답자가 IKE_SA_INIT 응답에 SECURE_PASSWORD_METHODS 유형의 알림 페이로드를 포함하지 않는 경우 개시자는 교환을 종료해야 하며 [RFC5996]의 PSK 인증 방법으로 대체되어서는 안 됩니다.  개시자가 보안 PSK 인증에 대한 지원만 표시하고(즉, 알림 데이터 필드에 3개만 포함된 경우) 응답자가 SECURE_PASSWORD_METHODS 유형의 알림 페이로드와 알림 데이터 필드의 다른 값으로 응답하는 경우, 개시자는 교환을 종료해야 합니다. .

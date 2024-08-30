@@ -1,0 +1,22 @@
+"hash": |-
+  377a10e9962fc3de21d81b0c50353f3899ac7f375acfa9f0d503313a57283159
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As an example, let PE1, PE2, and PE3 be three PE routers, and let
+     CE1, CE2, and CE3 be three CE routers. Suppose that PE1 learns, from
+     CE1, the routes which are reachable at CE1's site.  If PE2 and PE3
+     are attached respectively to CE2 and CE3, and there is some VPN V
+     containing CE1, CE2, and CE3, then PE1 uses BGP to distribute to PE2
+     and PE3 the routes which it has learned from CE1.  PE2 and PE3 use
+     these routes to populate the forwarding tables which they associate
+     respectively with the sites of CE2 and CE3.  Routes from sites which
+     are not in VPN V do not appear in these forwarding tables, which
+     means that packets from CE2 or CE3 cannot be sent to sites which are
+     not in VPN V.
+"fixed": |-
+  As an example, let PE1, PE2, and PE3 be three PE routers, and let CE1, CE2, and CE3 be three CE routers. Suppose that PE1 learns, from CE1, the routes which are reachable at CE1's site.  If PE2 and PE3 are attached respectively to CE2 and CE3, and there is some VPN V containing CE1, CE2, and CE3, then PE1 uses BGP to distribute to PE2 and PE3 the routes which it has learned from CE1.  PE2 and PE3 use these routes to populate the forwarding tables which they associate respectively with the sites of CE2 and CE3.  Routes from sites which are not in VPN V do not appear in these forwarding tables, which means that packets from CE2 or CE3 cannot be sent to sites which are not in VPN V.
+"ko": |-
+  예를 들어, PE1, PE2, PE3가 세 개의 PE 라우터이고 CE1, CE2, CE3가 세 개의 CE 라우터라고 합시다. PE1이 CE1에서 CE1의 사이트에서 도달할 수 있는 경로를 학습한다고 가정합니다. PE2와 PE3가 각각 CE2와 CE3에 연결되어 있고 CE1, CE2, CE3을 포함하는 VPN V가 있는 경우 PE1은 BGP를 사용하여 CE1에서 학습한 경로를 PE2와 PE3에 배포합니다. PE2와 PE3는 이러한 경로를 사용하여 각각 CE2와 CE3의 사이트와 연결하는 전달 테이블을 채웁니다. VPN V에 없는 사이트의 경로는 이러한 전달 테이블에 나타나지 않으므로 CE2 또는 CE3의 패킷은 VPN V에 없는 사이트로 보낼 수 없습니다.

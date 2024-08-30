@@ -1,0 +1,19 @@
+"hash": |-
+  1a00f4e9a5bd69a7c9f15d7334e38c6969f4cc787982b2b6a9f81a7d38c66572
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the receiver has enabled the anti-replay service for this SA, the
+     receive packet counter for the SA MUST be initialized to zero when
+     the SA is established.  For each received packet, the receiver MUST
+     verify that the packet contains a Sequence Number that does not
+     duplicate the Sequence Number of any other packets received during
+     the life of this SA.  This SHOULD be the first ESP check applied to a
+     packet after it has been matched to an SA, to speed rejection of
+     duplicate packets.
+"fixed": |-
+  If the receiver has enabled the anti-replay service for this SA, the receive packet counter for the SA MUST be initialized to zero when the SA is established.  For each received packet, the receiver MUST verify that the packet contains a Sequence Number that does not duplicate the Sequence Number of any other packets received during the life of this SA.  This SHOULD be the first ESP check applied to a packet after it has been matched to an SA, to speed rejection of duplicate packets.
+"ko": |-
+  수신기가 이 SA에 대한 재생 방지 서비스를 활성화한 경우 SA가 설정될 때 SA에 대한 수신 패킷 카운터는 0으로 초기화되어야 합니다.  수신된 각 패킷에 대해 수신자는 패킷에 이 SA 수명 동안 수신된 다른 패킷의 시퀀스 번호와 중복되지 않는 시퀀스 번호가 포함되어 있는지 확인해야 합니다.  이는 중복 패킷 거부 속도를 높이기 위해 패킷이 SA에 일치된 후 패킷에 적용되는 첫 번째 ESP 검사여야 합니다.

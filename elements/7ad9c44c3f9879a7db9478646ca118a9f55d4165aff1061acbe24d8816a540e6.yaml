@@ -1,0 +1,15 @@
+"hash": |-
+  7ad9c44c3f9879a7db9478646ca118a9f55d4165aff1061acbe24d8816a540e6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       TE                 = #t-codings
+       t-codings          = "trailers" / ( transfer-coding [ weight ] )
+       transfer-coding    = token *( OWS ";" OWS transfer-parameter )
+       transfer-parameter = token BWS "=" BWS ( token / quoted-string )
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

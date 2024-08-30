@@ -1,0 +1,16 @@
+"hash": |-
+  276876eb0499fd30d004582660a752be7015a2804d9ba60048aa949c31598fb2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Receivers MAY route based on the information in the first packet
+     contained in a UDP datagram.  Senders MUST NOT coalesce QUIC packets
+     with different connection IDs into a single UDP datagram.  Receivers
+     SHOULD ignore any subsequent packets with a different Destination
+     Connection ID than the first packet in the datagram.
+"fixed": |-
+  Receivers MAY route based on the information in the first packet contained in a UDP datagram.  Senders MUST NOT coalesce QUIC packets with different connection IDs into a single UDP datagram.  Receivers SHOULD ignore any subsequent packets with a different Destination Connection ID than the first packet in the datagram.
+"ko": |-
+  수신자는 UDP 데이터그램에 포함된 첫 번째 패킷의 정보를 기반으로 라우팅할 수 있습니다. 발신자는 연결 ID가 서로 다른 QUIC 패킷을 단일 UDP 데이터그램으로 통합해서는 안 됩니다. 수신기는 데이터그램의 첫 번째 패킷과 다른 대상 연결 ID를 가진 모든 후속 패킷을 무시해야 합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  a58e37bbb252f2d4f3d66c3077ed18588824a242b8c757282bab04a558d36fdf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     control channel protection is used.  When TLS is used, the client
+     MUST verify the identity of the server to which it connects,
+     following the rules and guidelines defined in [RFC4572].  If there
+     are multiple TLS-protected channels between the client and the
+     server, the server MUST NOT send a response to the client over a
+     channel for which the TLS identities of the server or client differ
+     from the channel over which the server received the corresponding
+     request.  Alternative control-channel protection MAY be used if
+     desired (e.g., Security Architecture for the Internet Protocol
+     (IPsec) [RFC4301]).
+"fixed": |-
+  control channel protection is used.  When TLS is used, the client MUST verify the identity of the server to which it connects, following the rules and guidelines defined in [RFC4572].  If there are multiple TLS-protected channels between the client and the server, the server MUST NOT send a response to the client over a channel for which the TLS identities of the server or client differ from the channel over which the server received the corresponding request.  Alternative control-channel protection MAY be used if desired (e.g., Security Architecture for the Internet Protocol (IPsec) [RFC4301]).
+"ko": |-
+  제어 채널 보호가 사용됩니다. TLS가 사용되는 경우 클라이언트는 [RFC4572]에 정의된 규칙 및 지침에 따라 연결하는 서버의 ID를 확인해야 합니다. 클라이언트와 서버 간에 여러 개의 TLS 보호 채널이 있는 경우 서버는 서버 또는 클라이언트의 TLS ID가 서버가 해당 요청을 수신한 채널과 다른 채널을 통해 클라이언트에 응답을 보내서는 안 됩니다. 원하는 경우 대체 제어 채널 보호를 사용할 수 있습니다(예: 인터넷 프로토콜(IPsec) 보안 아키텍처[RFC4301]).

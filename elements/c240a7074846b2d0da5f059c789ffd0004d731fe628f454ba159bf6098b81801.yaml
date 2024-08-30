@@ -1,0 +1,18 @@
+"hash": |-
+  c240a7074846b2d0da5f059c789ffd0004d731fe628f454ba159bf6098b81801
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client cannot begin using an upgraded protocol on the connection
+     until it has completely sent the request message (i.e., the client
+     can't change the protocol it is sending in the middle of a message).
+     If a server receives both an Upgrade and an Expect header field with
+     the "100-continue" expectation (Section 10.1.1), the server MUST send
+     a 100 (Continue) response before sending a 101 (Switching Protocols)
+     response.
+"fixed": |-
+  A client cannot begin using an upgraded protocol on the connection until it has completely sent the request message (i.e., the client can't change the protocol it is sending in the middle of a message). If a server receives both an Upgrade and an Expect header field with the "100-continue" expectation (Section 10.1.1), the server MUST send a 100 (Continue) response before sending a 101 (Switching Protocols) response.
+"ko": |-
+  클라이언트는 요청 메시지를 완전히 보낼 때까지 연결에서 업그레이드된 프로토콜을 사용하기 시작할 수 없습니다. 즉, 클라이언트는 메시지 중간에 보내는 프로토콜을 변경할 수 없습니다. 서버가 "100-continue" 예상(섹션 10.1.1)과 함께 Upgrade 및 Expect 헤더 필드를 모두 수신하는 경우 서버는 101(스위칭 프로토콜) 응답을 보내기 전에 100(계속) 응답을 보내야 합니다.

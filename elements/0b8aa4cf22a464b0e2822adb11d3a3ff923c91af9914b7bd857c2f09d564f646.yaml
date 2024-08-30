@@ -1,0 +1,24 @@
+"hash": |-
+  0b8aa4cf22a464b0e2822adb11d3a3ff923c91af9914b7bd857c2f09d564f646
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For another example of how supported attributes function, consider an
+     Administrator who desires to control all Print Jobs so that no Job
+     sheets are printed in order to conserve paper.  To force no Job
+     sheets, the Administrator sets the only supported value for the
+     "job-sheets-supported" attribute to 'none'.  In this case, if a
+     Client requests anything except 'none', the Job Creation request is
+     rejected or the "job-sheets" value is ignored (depending on the value
+     of "ipp-attribute-fidelity").  To force the use of Job start/end
+     sheets on all Jobs, the Administrator does not include the value
+     'none' in the "job-sheets-supported" attribute.  In this case, if a
+     Client requests 'none', the Job Creation request is rejected or the
+     "job-sheets" value is ignored (again depending on the value of
+     "ipp-attribute-fidelity").
+"fixed": |-
+  For another example of how supported attributes function, consider an Administrator who desires to control all Print Jobs so that no Job sheets are printed in order to conserve paper.  To force no Job sheets, the Administrator sets the only supported value for the "job-sheets-supported" attribute to 'none'.  In this case, if a Client requests anything except 'none', the Job Creation request is rejected or the "job-sheets" value is ignored (depending on the value of "ipp-attribute-fidelity").  To force the use of Job start/end sheets on all Jobs, the Administrator does not include the value 'none' in the "job-sheets-supported" attribute.  In this case, if a Client requests 'none', the Job Creation request is rejected or the "job-sheets" value is ignored (again depending on the value of "ipp-attribute-fidelity").
+"ko": |-
+  지원되는 속성이 어떻게 작동하는지에 대한 또 다른 예로, 용지를 절약하기 위해 작업 시트가 인쇄되지 않도록 모든 인쇄 작업을 제어하려는 관리자를 생각해 보십시오. 작업 시트를 강제로 사용하지 않으려면 관리자는 "job-sheets-supported" 속성에 대해 지원되는 유일한 값을 'none'으로 설정합니다. 이 경우 클라이언트가 '없음' 이외의 항목을 요청하면 작업 생성 요청이 거부되거나 "job-sheets" 값이 무시됩니다("ipp-attribute-fidelity" 값에 따라 다름). 모든 작업에서 작업 시작/종료 시트를 강제로 사용하기 위해 관리자는 "job-sheets-supported" 속성에 'none' 값을 포함하지 않습니다. 이 경우 클라이언트가 '없음'을 요청하면 작업 생성 요청이 거부되거나 "job-sheets" 값이 무시됩니다(역시 "ipp-attribute-fidelity" 값에 따라 다름).

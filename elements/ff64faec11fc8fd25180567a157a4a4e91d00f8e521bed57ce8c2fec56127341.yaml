@@ -1,0 +1,15 @@
+"hash": |-
+  ff64faec11fc8fd25180567a157a4a4e91d00f8e521bed57ce8c2fec56127341
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The last 16 bits of every message sent by a HOST is a checksum.
+        This checksum is computed on the whole message including any
+        marking, but excluding the 32 bit leader and any padding.  To
+        compute the checksum:
+"fixed": |-
+  - The last 16 bits of every message sent by a HOST is a checksum. This checksum is computed on the whole message including any marking, but excluding the 32 bit leader and any padding.  To compute the checksum:
+"ko": |-
+  - HOST가 보낸 모든 메시지의 마지막 16비트는 체크섬입니다. 이 체크섬은 표시를 포함하여 전체 메시지에 대해 계산되지만 32비트 리더와 패딩은 제외됩니다. 체크섬을 계산하려면 다음을 수행하십시오.

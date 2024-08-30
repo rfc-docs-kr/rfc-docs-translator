@@ -1,0 +1,19 @@
+"hash": |-
+  0b307cb372a4227e2c6ce8b0525b4af9fb03b5ef2c1291cf1cb4eed5db45be1c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When recognition is started and there is no match for a certain
+     period of time, the recognizer can send a RECOGNITION-COMPLETE event
+     to the client and terminate the recognition operation.  The
+     Recognition-Timeout header field allows the client to set this
+     timeout value.  The value is in milliseconds.  The value for this
+     header field ranges from 0 to an implementation-specific maximum
+     value.  The default value is 10 seconds.  This header field MAY occur
+     in RECOGNIZE, SET-PARAMS, or GET-PARAMS.
+"fixed": |-
+  When recognition is started and there is no match for a certain period of time, the recognizer can send a RECOGNITION-COMPLETE event to the client and terminate the recognition operation.  The Recognition-Timeout header field allows the client to set this timeout value.  The value is in milliseconds.  The value for this header field ranges from 0 to an implementation-specific maximum value.  The default value is 10 seconds.  This header field MAY occur in RECOGNIZE, SET-PARAMS, or GET-PARAMS.
+"ko": |-
+  인식이 시작되고 일정 기간 동안 일치하는 것이 없으면 인식기는 클라이언트에 RECOGNITION-COMPLETE 이벤트를 보내고 인식 작업을 종료할 수 있습니다. Recognition-Timeout 헤더 필드를 사용하면 클라이언트가 이 시간 초과 값을 설정할 수 있습니다. 값은 밀리초 단위입니다. 이 헤더 필드의 값은 0에서 구현별 최대값까지입니다. 기본값은 10초입니다. 이 헤더 필드는 RECOGNIZE, SET-PARAMS 또는 GET-PARAMS에서 발생할 수 있습니다.

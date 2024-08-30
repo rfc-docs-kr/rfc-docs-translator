@@ -1,0 +1,15 @@
+"hash": |-
+  a1ee552e52f29a4c47b84f344447924dd92b8884e1dc4fa1ff397e7015e4b156
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Peers MUST validate each other's public key Y (dh_Ys offered by the
+     server or dh_Yc offered by the client) by ensuring that 1 < Y < p-1.
+     This simple check ensures that the remote peer is properly behaved
+     and isn't forcing the local system into the 2-element subgroup.
+"fixed": |-
+  Peers MUST validate each other's public key Y (dh_Ys offered by the server or dh_Yc offered by the client) by ensuring that 1 < Y < p-1. This simple check ensures that the remote peer is properly behaved and isn't forcing the local system into the 2-element subgroup.
+"ko": |-
+  피어는 1 < Y ​​< p-1을 보장하여 서로의 공개 키 Y(서버에서 제공하는 dh_Y 또는 클라이언트에서 제공하는 dh_Yc)를 검증해야 합니다. 이 간단한 검사를 통해 원격 피어가 올바르게 작동하고 로컬 시스템을 2개 요소 하위 그룹에 강제로 포함하지 않는지 확인합니다.

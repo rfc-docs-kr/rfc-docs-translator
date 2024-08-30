@@ -1,0 +1,14 @@
+"hash": |-
+  d699bbe08b17a944ca000e56d3907d3a84b0200ec6abb0b2aa94ceb06f35f23c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  A server that sends a 100 (Continue) response MUST ultimately send
+        a final status code, once it receives and processes the request
+        content, unless the connection is closed prematurely.
+"fixed": |-
+  *  A server that sends a 100 (Continue) response MUST ultimately send a final status code, once it receives and processes the request content, unless the connection is closed prematurely.
+"ko": |-
+  * 100(계속) 응답을 보내는 서버는 연결이 조기에 종료되지 않는 한 요청 콘텐츠를 수신하고 처리한 후 궁극적으로 최종 상태 코드를 보내야 합니다.

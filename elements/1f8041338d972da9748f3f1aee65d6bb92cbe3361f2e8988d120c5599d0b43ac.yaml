@@ -1,0 +1,20 @@
+"hash": |-
+  1f8041338d972da9748f3f1aee65d6bb92cbe3361f2e8988d120c5599d0b43ac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The indication of whether source and destination address matching is
+     required to map inbound IPsec traffic to SAs MUST be set either as a
+     side effect of manual SA configuration or via negotiation using an SA
+     management protocol, e.g., IKE or Group Domain of Interpretation
+     (GDOI) [RFC3547].  Typically, Source-Specific Multicast (SSM) [HC03]
+     groups use a 3-tuple SA identifier composed of an SPI, a destination
+     multicast address, and source address.  An Any-Source Multicast group
+     SA requires only an SPI and a destination multicast address as an
+     identifier.
+"fixed": |-
+  The indication of whether source and destination address matching is required to map inbound IPsec traffic to SAs MUST be set either as a side effect of manual SA configuration or via negotiation using an SA management protocol, e.g., IKE or Group Domain of Interpretation (GDOI) [RFC3547].  Typically, Source-Specific Multicast (SSM) [HC03] groups use a 3-tuple SA identifier composed of an SPI, a destination multicast address, and source address.  An Any-Source Multicast group SA requires only an SPI and a destination multicast address as an identifier.
+"ko": |-
+  인바운드 IPsec 트래픽을 SA에 매핑하기 위해 원본 및 대상 주소 일치가 필요한지 여부에 대한 표시는 수동 SA 구성의 부작용으로 또는 IKE 또는 GDOI(그룹 해석 도메인)와 같은 SA 관리 프로토콜을 사용하는 협상을 통해 설정되어야 합니다. [RFC3547].  일반적으로 소스별 멀티캐스트(SSM) [HC03] 그룹은 SPI, 대상 멀티캐스트 주소 및 소스 주소로 구성된 3튜플 SA 식별자를 사용합니다.  모든 소스 멀티캐스트 그룹 SA에는 식별자로 SPI와 대상 멀티캐스트 주소만 필요합니다.

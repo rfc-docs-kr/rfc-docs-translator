@@ -1,0 +1,20 @@
+"hash": |-
+  babba0b9aa373973be1de6dd23354e6735788d7530a2fd24aa317cb46112342c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This appendix describes an extended sequence number (ESN) scheme for
+     use with IPsec (ESP and AH) that employs a 64-bit sequence number,
+     but in which only the low-order 32 bits are transmitted as part of
+     each packet.  It covers both the window scheme used to detect
+     replayed packets and the determination of the high-order bits of the
+     sequence number that are used both for replay rejection and for
+     computation of the ICV.  It also discusses a mechanism for handling
+     loss of synchronization relative to the (not transmitted) high-order
+     bits.
+"fixed": |-
+  This appendix describes an extended sequence number (ESN) scheme for use with IPsec (ESP and AH) that employs a 64-bit sequence number, but in which only the low-order 32 bits are transmitted as part of each packet.  It covers both the window scheme used to detect replayed packets and the determination of the high-order bits of the sequence number that are used both for replay rejection and for computation of the ICV.  It also discusses a mechanism for handling loss of synchronization relative to the (not transmitted) high-order bits.
+"ko": |-
+  이 부록에서는 64비트 시퀀스 번호를 사용하지만 하위 32비트만 각 패킷의 일부로 전송되는 IPsec(ESP 및 AH)에 사용되는 확장 시퀀스 번호(ESN) 방식에 대해 설명합니다.  이는 재생된 패킷을 감지하는 데 사용되는 창 방식과 재생 거부 및 ICV 계산에 사용되는 시퀀스 번호의 상위 비트 결정을 모두 다룹니다.  또한 (전송되지 않은) 상위 비트와 관련된 동기화 손실을 처리하는 메커니즘에 대해서도 설명합니다.

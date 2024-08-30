@@ -1,0 +1,15 @@
+"hash": |-
+  a028b17ec00f432aae0582a3e2c58e68104986724801b89402acff6cebea99c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because HTTP uses mostly textual, character-delimited fields, parsers
+     are often vulnerable to attacks based on sending very long (or very
+     slow) streams of data, particularly where an implementation is
+     expecting a protocol element with no predefined length (Section 2.3).
+"fixed": |-
+  Because HTTP uses mostly textual, character-delimited fields, parsers are often vulnerable to attacks based on sending very long (or very slow) streams of data, particularly where an implementation is expecting a protocol element with no predefined length (Section 2.3).
+"ko": |-
+  HTTP는 대부분 문자로 구분된 텍스트 필드를 사용하기 때문에 파서는 매우 긴(또는 매우 느린) 데이터 스트림 전송을 기반으로 하는 공격에 취약한 경우가 많습니다. 특히 구현이 미리 정의된 길이가 없는 프로토콜 요소를 기대하는 경우(섹션 2.3).

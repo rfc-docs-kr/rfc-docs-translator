@@ -1,0 +1,13 @@
+"hash": |-
+  ccc671aad025df5c2b33fa6adbaaa9a6f87540bbe21d7756ebb0674f56aa5ec8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        if feed_validator.CountErrors('ERROR'):
+          sys.exit(1)
+"fixed": |-
+  - if feed_validator.CountErrors('ERROR'): sys.exit(1)
+"ko": |-
+  - feed_validator.CountErrors('ERROR'): sys.exit(1)

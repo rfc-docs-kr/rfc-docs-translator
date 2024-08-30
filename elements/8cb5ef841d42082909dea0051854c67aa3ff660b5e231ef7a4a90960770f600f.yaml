@@ -1,0 +1,19 @@
+"hash": |-
+  8cb5ef841d42082909dea0051854c67aa3ff660b5e231ef7a4a90960770f600f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           CMSORIforPSKOtherInfo ::= SEQUENCE {
+             psk                    OCTET STRING,
+             keyMgmtAlgType         ENUMERATED {
+               keyTrans               (5),
+               keyAgree               (10) },
+             keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier,
+             pskLength              INTEGER (1..MAX),
+             kdkLength              INTEGER (1..MAX) }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

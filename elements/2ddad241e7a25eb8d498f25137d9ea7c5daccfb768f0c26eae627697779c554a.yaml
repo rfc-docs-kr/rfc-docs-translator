@@ -1,0 +1,24 @@
+"hash": |-
+  2ddad241e7a25eb8d498f25137d9ea7c5daccfb768f0c26eae627697779c554a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that TLS depends upon a reliable protocol such as TCP or SCTP.
+     This produces two notable difficulties.  First, it cannot be used to
+     secure datagram protocols that use UDP.  Second, TLS is susceptible
+     to IP layer attacks that IPsec is not.  Typically, these attacks take
+     some form of denial of service or connection assassination.  For
+     instance, an attacker might forge a TCP RST to shut down SSL
+     connections.  TLS has mechanisms to detect truncation attacks but
+     these merely allow the victim to know he is being attacked and do not
+     provide connection survivability in the face of such attacks.  By
+     contrast, if IPsec were being used, such a forged RST could be
+     rejected without affecting the TCP connection.  If forged RSTs or
+     other such attacks on the TCP connection are a concern, then AH/ESP
+     or the TCP MD5 option [TCPMD5] are the preferred choices.
+"fixed": |-
+  Note that TLS depends upon a reliable protocol such as TCP or SCTP. This produces two notable difficulties.  First, it cannot be used to secure datagram protocols that use UDP.  Second, TLS is susceptible to IP layer attacks that IPsec is not.  Typically, these attacks take some form of denial of service or connection assassination.  For instance, an attacker might forge a TCP RST to shut down SSL connections.  TLS has mechanisms to detect truncation attacks but these merely allow the victim to know he is being attacked and do not provide connection survivability in the face of such attacks.  By contrast, if IPsec were being used, such a forged RST could be rejected without affecting the TCP connection.  If forged RSTs or other such attacks on the TCP connection are a concern, then AH/ESP or the TCP MD5 option [TCPMD5] are the preferred choices.
+"ko": |-
+  TLS는 TCP 또는 SCTP와 같은 신뢰할 수 있는 프로토콜에 의존합니다. 이로 인해 두 가지 주목할만한 어려움이 발생합니다. 첫째, UDP를 사용하는 데이터그램 프로토콜을 보호하는 데 사용할 수 없습니다. 둘째, TLS는 IPsec이 아닌 IP 계층 공격에 취약합니다. 일반적으로 이러한 공격은 서비스 거부 또는 연결 암살의 형태를 취합니다. 예를 들어 공격자는 SSL 연결을 종료하기 위해 TCP RST를 위조할 수 있습니다. TLS에는 잘림 공격을 탐지하는 메커니즘이 있지만 이는 단지 피해자가 자신이 공격을 받고 있다는 사실을 알 수 있도록 허용할 뿐이며 그러한 공격에 직면했을 때 연결 생존성을 제공하지 않습니다. 이와 대조적으로 IPsec을 사용하는 경우 이러한 위조된 RST는 TCP 연결에 영향을 주지 않고 거부될 수 있습니다. 위조된 RST 또는 TCP 연결에 대한 기타 공격이 우려되는 경우 AH/ESP 또는 TCP MD5 옵션 [TCPMD5]이 선호되는 선택입니다.

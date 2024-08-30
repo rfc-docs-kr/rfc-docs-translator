@@ -1,0 +1,20 @@
+"hash": |-
+  a3551800c66acf76c9c70c2f273f22a4ad9b0789bd89eb25816b8c1bc26c6c36
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     range-resp = incl-range "/" ( complete-length / "*" )
+     range-set = range-spec *( OWS "," OWS range-spec )
+     range-spec = int-range / suffix-range / other-range
+     range-unit = token
+     ranges-specifier = range-unit "=" range-set
+     received-by = pseudonym [ ":" port ]
+     received-protocol = [ protocol-name "/" ] protocol-version
+     relative-part = <relative-part, see [URI], Section 4.2>
+     rfc850-date = day-name-l "," SP date2 SP time-of-day SP GMT
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

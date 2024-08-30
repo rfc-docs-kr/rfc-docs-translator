@@ -1,0 +1,18 @@
+"hash": |-
+  526b2c0eb80ea68df244e2ba6d4ade5a2f22277b501d7f835c8b017bb7ab4fd4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     First, if none of the new features available in ESP v3 are employed,
+     then the format of an ESP packet is identical in ESP v2 and v3.  If a
+     combined mode encryption algorithm is employed, a feature supported
+     only in ESP v3, then the resulting packet format may differ from the
+     ESP v2 spec.  However, a peer who implements only ESP v2 would never
+     negotiate such an algorithm, as they are defined for use only in the
+     ESP v3 context.
+"fixed": |-
+  First, if none of the new features available in ESP v3 are employed, then the format of an ESP packet is identical in ESP v2 and v3.  If a combined mode encryption algorithm is employed, a feature supported only in ESP v3, then the resulting packet format may differ from the ESP v2 spec.  However, a peer who implements only ESP v2 would never negotiate such an algorithm, as they are defined for use only in the ESP v3 context.
+"ko": |-
+  첫째, ESP v3에서 사용할 수 있는 새로운 기능 중 어느 것도 사용되지 않으면 ESP 패킷의 형식은 ESP v2와 v3에서 동일합니다.  ESP v3에서만 지원되는 기능인 결합 모드 암호화 알고리즘을 사용하는 경우 결과 패킷 형식은 ESP v2 사양과 다를 수 있습니다.  그러나 ESP v2만 구현하는 피어는 ESP v3 컨텍스트에서만 사용하도록 정의된 알고리즘을 협상하지 않습니다.

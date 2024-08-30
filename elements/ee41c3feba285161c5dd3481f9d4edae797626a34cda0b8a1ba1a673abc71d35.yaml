@@ -1,0 +1,14 @@
+"hash": |-
+  ee41c3feba285161c5dd3481f9d4edae797626a34cda0b8a1ba1a673abc71d35
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Alice generates 32 random bytes in a[0] to a[31] and transmits K_A =
+     X25519(a, 9) to Bob, where 9 is the u-coordinate of the base point
+     and is encoded as a byte with value 9, followed by 31 zero bytes.
+"fixed": |-
+  Alice generates 32 random bytes in a[0] to a[31] and transmits K_A = X25519(a, 9) to Bob, where 9 is the u-coordinate of the base point and is encoded as a byte with value 9, followed by 31 zero bytes.
+"ko": |-
+  Alice는 a[0]에서 a[31]까지 32개의 임의 바이트를 생성하고 K_A = X25519(a, 9)를 Bob에게 전송합니다. 여기서 9는 기준점의 u 좌표이고 값이 9인 바이트로 인코딩됩니다. 31개의 0바이트로.

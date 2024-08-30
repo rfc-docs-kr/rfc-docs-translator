@@ -1,0 +1,18 @@
+"hash": |-
+  49ffef2cbe21e47faca3fb22a4b989db63a65f6761c6873b1a818e2c9c3f1240
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       ... client connects to server and negotiates a TLS
+           protection layer ...
+       C: C01 CAPABILITY
+       S: * CAPABILITY IMAP4rev2 AUTH=PLAIN AUTH=EXTERNAL
+       S: C01 OK Completed
+       C: A01 AUTHENTICATE EXTERNAL =
+       S: A01 OK Success (tls protection)
+"fixed": |-
+  ... client connects to server and negotiates a TLS protection layer ... C: C01 CAPABILITY S: * CAPABILITY IMAP4rev2 AUTH=PLAIN AUTH=EXTERNAL S: C01 OK Completed C: A01 AUTHENTICATE EXTERNAL = S: A01 OK Success (tls protection)
+"ko": |-
+  ... 클라이언트가 서버에 연결하고 TLS 보호 계층을 협상합니다 ... C: C01 CAPABILITY S: * CAPABILITY IMAP4rev2 AUTH=PLAIN AUTH=EXTERNAL S: C01 OK 완료됨 C: A01 AUTHENTICATE EXTERNAL = S: A01 OK 성공(tls 보호 )

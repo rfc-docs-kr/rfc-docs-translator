@@ -1,0 +1,16 @@
+"hash": |-
+  a0f1651d2bd1e06a364845d1c59d497135a4df0707a8ef5c70959822f2e84e2a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The sender's counter is initialized to 0 when an SA is established.
+     The sender increments the sequence number (or ESN) counter for this
+     SA and inserts the low-order 32 bits of the value into the Sequence
+     Number field.  Thus, the first packet sent using a given SA will
+     contain a sequence number of 1.
+"fixed": |-
+  The sender's counter is initialized to 0 when an SA is established. The sender increments the sequence number (or ESN) counter for this SA and inserts the low-order 32 bits of the value into the Sequence Number field.  Thus, the first packet sent using a given SA will contain a sequence number of 1.
+"ko": |-
+  SA가 설정되면 보낸 사람의 카운터가 0으로 초기화됩니다. 송신자는 이 SA에 대한 시퀀스 번호(또는 ESN) 카운터를 증가시키고 해당 값의 하위 32비트를 시퀀스 번호 필드에 삽입합니다.  따라서 주어진 SA를 사용하여 전송된 첫 번째 패킷에는 시퀀스 번호 1이 포함됩니다.

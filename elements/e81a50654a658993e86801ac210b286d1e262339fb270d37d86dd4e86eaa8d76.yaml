@@ -1,0 +1,17 @@
+"hash": |-
+  e81a50654a658993e86801ac210b286d1e262339fb270d37d86dd4e86eaa8d76
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  A client that sends a 100-continue expectation is not required to
+        wait for any specific length of time; such a client MAY proceed to
+        send the content even if it has not yet received a response.
+        Furthermore, since 100 (Continue) responses cannot be sent through
+        an HTTP/1.0 intermediary, such a client SHOULD NOT wait for an
+        indefinite period before sending the content.
+"fixed": |-
+  *  A client that sends a 100-continue expectation is not required to wait for any specific length of time; such a client MAY proceed to send the content even if it has not yet received a response. Furthermore, since 100 (Continue) responses cannot be sent through an HTTP/1.0 intermediary, such a client SHOULD NOT wait for an indefinite period before sending the content.
+"ko": |-
+  * 100 연속 기대치를 보내는 클라이언트는 특정 시간 동안 기다릴 필요가 없습니다. 그러한 클라이언트는 아직 응답을 받지 못한 경우에도 콘텐츠 전송을 계속할 수 있습니다. 또한 100(계속) 응답은 HTTP/1.0 중개자를 통해 전송할 수 없으므로 이러한 클라이언트는 콘텐츠를 전송하기 전에 무기한 대기해서는 안 됩니다.

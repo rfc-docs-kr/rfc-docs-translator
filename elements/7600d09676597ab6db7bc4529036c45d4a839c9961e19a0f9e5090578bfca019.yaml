@@ -1,0 +1,36 @@
+"hash": |-
+  7600d09676597ab6db7bc4529036c45d4a839c9961e19a0f9e5090578bfca019
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <define name="firstVoiceprintContent">
+         <attribute name="id">
+           <data type="string"/>
+         </attribute>
+         <interleave>
+           <optional>
+             <element name="adapted">
+               <data type="boolean"/>
+             </element>
+           </optional>
+           <optional>
+             <element name="needmoredata">
+               <ref name="needmoredataContent"/>
+             </element>
+           </optional>
+           <optional>
+             <element name="incremental">
+               <ref name="firstCommonContent"/>
+             </element>
+           </optional>
+           <element name="cumulative">
+             <ref name="firstCommonContent"/>
+           </element>
+         </interleave>
+       </define>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,34 @@
+"hash": |-
+  5db052d8322c2dc322460733edef231ad63412941f5f7abe628e0c65bba575e8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       MRCPv2 client                   MRCPv2 Media Resource Server
+  |--------------------|            |------------------------------------|
+  ||------------------||            ||----------------------------------||
+  || Application Layer||            ||Synthesis|Recognition|Verification||
+  ||------------------||            || Engine  |  Engine   |   Engine   ||
+  ||Media Resource API||            ||    ||   |    ||     |    ||      ||
+  ||------------------||            ||Synthesis|Recognizer |  Verifier  ||
+  || SIP  |  MRCPv2   ||            ||Resource | Resource  |  Resource  ||
+  ||Stack |           ||            ||     Media Resource Management    ||
+  ||      |           ||            ||----------------------------------||
+  ||------------------||            ||   SIP  |        MRCPv2           ||
+  ||   TCP/IP Stack   ||---MRCPv2---||  Stack |                         ||
+  ||                  ||            ||----------------------------------||
+  ||------------------||----SIP-----||           TCP/IP Stack           ||
+  |--------------------|            ||                                  ||
+           |                        ||----------------------------------||
+          SIP                       |------------------------------------|
+           |                          /
+  |-------------------|             RTP
+  |                   |             /
+  | Media Source/Sink |------------/
+  |                   |
+  |-------------------|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

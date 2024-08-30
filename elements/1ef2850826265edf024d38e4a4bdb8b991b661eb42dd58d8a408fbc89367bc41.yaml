@@ -1,0 +1,16 @@
+"hash": |-
+  1ef2850826265edf024d38e4a4bdb8b991b661eb42dd58d8a408fbc89367bc41
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After verifying the server's certificate, the client encrypts a
+     pre_master_secret with the server's public key. By successfully
+     decoding the pre_master_secret and producing a correct finished
+     message, the server demonstrates that it knows the private key
+     corresponding to the server certificate.
+"fixed": |-
+  After verifying the server's certificate, the client encrypts a pre_master_secret with the server's public key. By successfully decoding the pre_master_secret and producing a correct finished message, the server demonstrates that it knows the private key corresponding to the server certificate.
+"ko": |-
+  클라이언트는 서버의 인증서를 확인한 후 서버의 공개 키를 사용하여 pre_master_secret을 암호화합니다. pre_master_secret을 성공적으로 디코딩하고 올바르게 완료된 메시지를 생성함으로써 서버는 서버 인증서에 해당하는 개인 키를 알고 있음을 보여줍니다.

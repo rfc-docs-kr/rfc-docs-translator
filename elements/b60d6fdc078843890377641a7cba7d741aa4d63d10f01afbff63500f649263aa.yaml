@@ -1,0 +1,19 @@
+"hash": |-
+  b60d6fdc078843890377641a7cba7d741aa4d63d10f01afbff63500f649263aa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Computing the server's first flight for a full handshake is
+     potentially expensive, requiring both a signature and a key exchange
+     computation.  In order to prevent computational DoS attacks, the
+     Retry packet provides a cheap token exchange mechanism that allows
+     servers to validate a client's IP address prior to doing any
+     expensive computations at the cost of a single round trip.  After a
+     successful handshake, servers can issue new tokens to a client, which
+     will allow new connection establishment without incurring this cost.
+"fixed": |-
+  Computing the server's first flight for a full handshake is potentially expensive, requiring both a signature and a key exchange computation.  In order to prevent computational DoS attacks, the Retry packet provides a cheap token exchange mechanism that allows servers to validate a client's IP address prior to doing any expensive computations at the cost of a single round trip.  After a successful handshake, servers can issue new tokens to a client, which will allow new connection establishment without incurring this cost.
+"ko": |-
+  전체 핸드셰이크를 위한 서버의 첫 번째 비행을 계산하는 것은 잠재적으로 비용이 많이 들고 서명과 키 교환 계산이 모두 필요합니다. 전산 DoS 공격을 방지하기 위해 재시도 패킷은 단일 왕복 비용으로 값비싼 계산을 수행하기 전에 서버가 클라이언트의 IP 주소를 검증할 수 있는 저렴한 토큰 교환 메커니즘을 제공합니다. 핸드셰이크가 성공한 후 서버는 클라이언트에 새 토큰을 발행할 수 있으며, 이를 통해 비용을 들이지 않고도 새 연결을 설정할 수 있습니다.

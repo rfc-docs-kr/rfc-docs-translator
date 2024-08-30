@@ -1,0 +1,15 @@
+"hash": |-
+  d7deaf9de8e2081c025ea40935aeabc1ef8ecbc0cbfd7e9878c3f588acce8036
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Note: [RFC5322] requires that all messages have a valid Date
+           header field.  Therefore, for a well-formed message, the date
+           member in the envelope cannot be NIL or the empty string.
+           However, it can be NIL for a malformed or draft message.
+"fixed": |-
+  - Note: [RFC5322] requires that all messages have a valid Date header field.  Therefore, for a well-formed message, the date member in the envelope cannot be NIL or the empty string. However, it can be NIL for a malformed or draft message.
+"ko": |-
+  - 참고: [RFC5322]에서는 모든 메시지에 유효한 날짜 헤더 필드가 있어야 합니다.  따라서 올바른 형식의 메시지의 경우 봉투의 날짜 멤버는 NIL이거나 빈 문자열일 수 없습니다. 그러나 형식이 잘못된 메시지나 초안 메시지의 경우 NIL이 될 수 있습니다.

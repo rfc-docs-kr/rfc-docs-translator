@@ -1,0 +1,16 @@
+"hash": |-
+  a96b74b7d39be7ffa7e4b75e73bb82f14df85ceb181b3a5fc71334cd55824ddc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4.  The Initiator of the IKE exchange has an added requirement to
+         verify that the received element and scalar from the Commit
+         payload differ from the element and scalar sent to the Responder.
+         If they are identical, it signifies a reflection attack, and the
+         Commit payload is invalidated.
+"fixed": |-
+  1.  The Initiator of the IKE exchange has an added requirement to verify that the received element and scalar from the Commit payload differ from the element and scalar sent to the Responder. If they are identical, it signifies a reflection attack, and the Commit payload is invalidated.
+"ko": |-
+  1. IKE 교환 개시자에게는 커밋 페이로드에서 수신된 요소 및 스칼라가 응답자에게 전송된 요소 및 스칼라와 다른지 확인하기 위한 추가 요구 사항이 있습니다. 동일하면 반사 공격을 의미하며 커밋 페이로드가 무효화됩니다.

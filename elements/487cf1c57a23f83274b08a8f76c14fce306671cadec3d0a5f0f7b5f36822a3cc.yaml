@@ -1,0 +1,14 @@
+"hash": |-
+  487cf1c57a23f83274b08a8f76c14fce306671cadec3d0a5f0f7b5f36822a3cc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Connection close signals, including packets that contain
+        CONNECTION_CLOSE frames, are not sent again when packet loss is
+        detected.  Resending these signals is described in Section 10.
+"fixed": |-
+  *  Connection close signals, including packets that contain CONNECTION_CLOSE frames, are not sent again when packet loss is detected.  Resending these signals is described in Section 10.
+"ko": |-
+  * CONNECTION_CLOSE 프레임이 포함된 패킷을 포함한 연결 종료 신호는 패킷 손실이 감지되면 다시 전송되지 않습니다. 이러한 신호를 다시 보내는 방법은 섹션 10에 설명되어 있습니다.

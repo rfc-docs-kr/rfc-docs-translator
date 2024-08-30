@@ -1,0 +1,17 @@
+"hash": |-
+  45813d6dc776ad5255edccd2ea20cebed4af0435dc839a63e7bd2db0801ba803
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The two primary approaches used have a separate well-known port for
+     TLS connections (e.g., the HTTP over TLS port is 443) [HTTPTLS] or to
+     have a mechanism for negotiating upward from the base protocol to TLS
+     as in [UPGRADE] or [STARTTLS].  When an upward negotiation strategy
+     is used, care must be taken to ensure that an attacker can not force
+     a clear connection when both parties wish to use TLS.
+"fixed": |-
+  The two primary approaches used have a separate well-known port for TLS connections (e.g., the HTTP over TLS port is 443) [HTTPTLS] or to have a mechanism for negotiating upward from the base protocol to TLS as in [UPGRADE] or [STARTTLS].  When an upward negotiation strategy is used, care must be taken to ensure that an attacker can not force a clear connection when both parties wish to use TLS.
+"ko": |-
+  사용되는 두 가지 기본 접근 방식에는 TLS 연결을 위한 별도의 잘 알려진 포트가 있거나(예: TLS 포트를 통한 HTTP는 443입니다) [HTTPTLS] 또는 [UPGRADE] 또는 [ 시작TLS]. 상향 협상 전략을 사용하는 경우 양측이 TLS를 사용하려고 할 때 공격자가 명확한 연결을 강요할 수 없도록 주의해야 합니다.

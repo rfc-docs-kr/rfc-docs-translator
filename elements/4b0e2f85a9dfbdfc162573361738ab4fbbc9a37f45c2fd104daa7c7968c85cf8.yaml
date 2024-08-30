@@ -1,0 +1,53 @@
+"hash": |-
+  4b0e2f85a9dfbdfc162573361738ab4fbbc9a37f45c2fd104daa7c7968c85cf8
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       Idle              Session Opened       Verifying/Training
+       State             State                State
+        |                   |                         |
+        |--START-SESSION--->|                         |
+        |                   |                         |
+        |                   |----------|              |
+        |                   |     START-SESSION       |
+        |                   |<---------|              |
+        |                   |                         |
+        |<--END-SESSION-----|                         |
+        |                   |                         |
+        |                   |---------VERIFY--------->|
+        |                   |                         |
+        |                   |---VERIFY-FROM-BUFFER--->|
+        |                   |                         |
+        |                   |----------|              |
+        |                   |  VERIFY-ROLLBACK        |
+        |                   |<---------|              |
+        |                   |                         |
+        |                   |                |--------|
+        |                   | GET-INTERMEDIATE-RESULT |
+        |                   |                |------->|
+        |                   |                         |
+        |                   |                |--------|
+        |                   |     START-INPUT-TIMERS  |
+        |                   |                |------->|
+        |                   |                         |
+        |                   |                |--------|
+        |                   |         START-OF-INPUT  |
+        |                   |                |------->|
+        |                   |                         |
+        |                   |<-VERIFICATION-COMPLETE--|
+        |                   |                         |
+        |                   |<--------STOP------------|
+        |                   |                         |
+        |                   |----------|              |
+        |                   |         STOP            |
+        |                   |<---------|              |
+        |                   |                         |
+        |----------|        |                         |
+        |         STOP      |                         |
+        |<---------|        |                         |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

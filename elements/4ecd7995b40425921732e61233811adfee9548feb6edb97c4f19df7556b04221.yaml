@@ -1,0 +1,15 @@
+"hash": |-
+  4ecd7995b40425921732e61233811adfee9548feb6edb97c4f19df7556b04221
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  If the Client requests all 'completed' Jobs (Jobs in the
+           'completed', 'aborted', or 'canceled' states), then the Jobs
+           are returned newest to oldest (with respect to actual
+           completion time).
+"fixed": |-
+  - *  If the Client requests all 'completed' Jobs (Jobs in the 'completed', 'aborted', or 'canceled' states), then the Jobs are returned newest to oldest (with respect to actual completion time).
+"ko": |-
+  - * 클라이언트가 모든 '완료된' 작업('완료', '중단' 또는 '취소됨' 상태의 작업)을 요청하는 경우 작업은 실제 완료 시간을 기준으로 최신 작업부터 가장 오래된 작업 순으로 반환됩니다.

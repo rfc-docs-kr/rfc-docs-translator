@@ -1,0 +1,17 @@
+"hash": |-
+  fe884192a408f8c32690a4d4cab949a6def3bbc6b7cf85b33a8f56cff2cc62e9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server SHOULD send a response version equal to the highest version
+     to which the server is conformant that has a major version less than
+     or equal to the one received in the request.  A server MUST NOT send
+     a version to which it is not conformant.  A server can send a 505
+     (HTTP Version Not Supported) response if it wishes, for any reason,
+     to refuse service of the client's major protocol version.
+"fixed": |-
+  A server SHOULD send a response version equal to the highest version to which the server is conformant that has a major version less than or equal to the one received in the request.  A server MUST NOT send a version to which it is not conformant.  A server can send a 505 (HTTP Version Not Supported) response if it wishes, for any reason, to refuse service of the client's major protocol version.
+"ko": |-
+  서버는 요청에서 수신된 버전보다 작거나 같은 주요 버전을 포함하는 서버가 준수하는 가장 높은 버전과 동일한 응답 버전을 보내야 합니다(SHOULD). 서버는 자신이 준수하지 않는 버전을 보내서는 안 됩니다. 서버는 어떤 이유로든 클라이언트의 주요 프로토콜 버전 서비스를 거부하려는 경우 505(HTTP 버전은 지원되지 않음) 응답을 보낼 수 있습니다.

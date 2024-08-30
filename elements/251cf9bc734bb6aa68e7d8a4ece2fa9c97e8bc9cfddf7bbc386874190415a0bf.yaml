@@ -1,0 +1,21 @@
+"hash": |-
+  251cf9bc734bb6aa68e7d8a4ece2fa9c97e8bc9cfddf7bbc386874190415a0bf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ChaCha20+Poly1305 is an Authenticated Encryption with Associated Data
+     (AEAD) algorithm.  In addition to a 256-bit key and plain text to be
+     encrypted and authenticated, ChaCha20+Poly1305 takes a 96-bit Nonce
+     and variable-length Additional Authenticated Data (AAD).  The Nonce
+     is represented as a child element of the EncryptionMethod element
+     with a hex value.  The AAD is a string, which may be null.  The AAD
+     element may be absent, in which case the AAD is null.  The
+     CipherData, either present in the CipherValue or by reference, is the
+     concatenation of the encrypted ChaCha20 output and the Poly1305
+     128-bit tag.
+"fixed": |-
+  ChaCha20+Poly1305 is an Authenticated Encryption with Associated Data (AEAD) algorithm.  In addition to a 256-bit key and plain text to be encrypted and authenticated, ChaCha20+Poly1305 takes a 96-bit Nonce and variable-length Additional Authenticated Data (AAD).  The Nonce is represented as a child element of the EncryptionMethod element with a hex value.  The AAD is a string, which may be null.  The AAD element may be absent, in which case the AAD is null.  The CipherData, either present in the CipherValue or by reference, is the concatenation of the encrypted ChaCha20 output and the Poly1305 128-bit tag.
+"ko": |-
+  ChaCha20+Poly1305는 AEAD(Authenticated Encryption with Associated Data) 알고리즘입니다. ChaCha20+Poly1305는 암호화 및 인증할 256비트 키와 일반 텍스트 외에도 96비트 Nonce와 가변 길이 AAD(추가 인증 데이터)를 사용합니다. Nonce는 16진수 값을 사용하여 EncryptionMethod 요소의 하위 요소로 표시됩니다. AAD는 문자열이며 null일 수 있습니다. AAD 요소가 없을 수 있으며, 이 경우 AAD는 null입니다. CipherValue에 있거나 참조로 존재하는 CipherData는 암호화된 ChaCha20 출력과 Poly1305 128비트 태그를 연결한 것입니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  2d7fa23891bf9f4c2318d1a1fcc8e206010ec5795f73aaa01b4d53bc42e34521
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ACK messages MUST be sent to acknowledge received chunks if PPSPP is
+     run over an unreliable transport protocol.  ACK messages MAY be sent
+     if a reliable transport protocol is used.  In the former case, a
+     receiving peer that has successfully checked the integrity of a
+     chunk, or interval of chunks C, MUST send an ACK message containing a
+     chunk specification for C.  As LEDBAT is used, an ACK message MUST
+     contain the one-way delay, computed from the peer's current system
+     time received in the DATA message.  A peer MAY delay sending ACK
+     messages as defined in the LEDBAT specification [RFC6817].
+"fixed": |-
+  ACK messages MUST be sent to acknowledge received chunks if PPSPP is run over an unreliable transport protocol.  ACK messages MAY be sent if a reliable transport protocol is used.  In the former case, a receiving peer that has successfully checked the integrity of a chunk, or interval of chunks C, MUST send an ACK message containing a chunk specification for C.  As LEDBAT is used, an ACK message MUST contain the one-way delay, computed from the peer's current system time received in the DATA message.  A peer MAY delay sending ACK messages as defined in the LEDBAT specification [RFC6817].
+"ko": |-
+  PPSPP가 신뢰할 수 없는 전송 프로토콜을 통해 실행되는 경우 수신된 청크를 확인하기 위해 ACK 메시지를 보내야 합니다. 신뢰할 수 있는 전송 프로토콜이 사용되는 경우 ACK 메시지가 전송될 수 있습니다. 전자의 경우 청크의 무결성이나 청크 C의 간격을 성공적으로 확인한 수신 피어는 C에 대한 청크 사양이 포함된 ACK 메시지를 보내야 합니다. LEDBAT가 사용되므로 ACK 메시지에는 단방향 정보가 포함되어야 합니다. 지연은 DATA 메시지에서 수신된 피어의 현재 시스템 시간에서 계산됩니다. 피어는 LEDBAT 사양 [RFC6817]에 정의된 대로 ACK 메시지 전송을 지연할 수 있습니다.

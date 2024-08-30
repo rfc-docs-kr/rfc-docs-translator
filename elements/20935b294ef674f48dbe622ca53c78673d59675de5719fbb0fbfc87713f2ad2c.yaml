@@ -1,0 +1,17 @@
+"hash": |-
+  20935b294ef674f48dbe622ca53c78673d59675de5719fbb0fbfc87713f2ad2c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The flattened JWE JSON Serialization syntax is based upon the general
+     syntax, but flattens it, optimizing it for the single-recipient case.
+     It flattens it by removing the "recipients" member and instead
+     placing those members defined for use in the "recipients" array (the
+     "header" and "encrypted_key" members) in the top-level JSON object
+     (at the same level as the "ciphertext" member).
+"fixed": |-
+  The flattened JWE JSON Serialization syntax is based upon the general syntax, but flattens it, optimizing it for the single-recipient case. It flattens it by removing the "recipients" member and instead placing those members defined for use in the "recipients" array (the "header" and "encrypted_key" members) in the top-level JSON object (at the same level as the "ciphertext" member).
+"ko": |-
+  평면화된 JWE JSON 직렬화 구문은 일반 구문을 기반으로 하지만, 단일 수신자 케이스에 최적화하여 평면화합니다. "수신자" 멤버를 제거하고 대신 "수신자" 배열에서 사용하도록 정의된 멤버("헤더" 및 "encrypted_key" 멤버)를 최상위 JSON 객체("암호문" 멤버와 동일한 수준)에 배치하여 평면화합니다.

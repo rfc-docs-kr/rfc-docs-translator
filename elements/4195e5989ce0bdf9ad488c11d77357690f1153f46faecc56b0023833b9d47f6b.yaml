@@ -1,0 +1,23 @@
+"hash": |-
+  4195e5989ce0bdf9ad488c11d77357690f1153f46faecc56b0023833b9d47f6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     are used to specify the PMCE offer in detail.  For example, a client
+     lists its preferred configuration parameter values for the
+     compression algorithm of the PMCE.  A client may also offer multiple
+     PMCE choices to the server by including multiple elements in the
+     "Sec-WebSocket-Extensions" header, one for each PMCE offered.  This
+     set of elements MAY include multiple PMCEs with the same extension
+     name to offer the possibility to use the same algorithm with
+     different configuration parameters.  The order of elements is
+     important as it specifies the client's preference.  An element
+     preceding another element has higher preference.  It is recommended
+     that a server accepts PMCEs with higher preference if the server
+     supports them.
+"fixed": |-
+  are used to specify the PMCE offer in detail.  For example, a client lists its preferred configuration parameter values for the compression algorithm of the PMCE.  A client may also offer multiple PMCE choices to the server by including multiple elements in the "Sec-WebSocket-Extensions" header, one for each PMCE offered.  This set of elements MAY include multiple PMCEs with the same extension name to offer the possibility to use the same algorithm with different configuration parameters.  The order of elements is important as it specifies the client's preference.  An element preceding another element has higher preference.  It is recommended that a server accepts PMCEs with higher preference if the server supports them.
+"ko": |-
+  PMCE 제안을 자세히 지정하는 데 사용됩니다.  예를 들어 클라이언트는 PMCE의 압축 알고리즘에 대한 기본 구성 매개변수 값을 나열합니다.  클라이언트는 "Sec-WebSocket-Extensions" 헤더에 제공된 각 PMCE에 대해 하나씩 여러 요소를 포함하여 서버에 여러 PMCE 선택 사항을 제공할 수도 있습니다.  이 요소 세트에는 동일한 확장 이름을 가진 여러 PMCE가 포함되어 서로 다른 구성 매개변수와 함께 동일한 알고리즘을 사용할 수 있는 가능성을 제공할 수 있습니다.  요소의 순서는 클라이언트의 선호도를 지정하므로 중요합니다.  다른 요소보다 앞에 있는 요소가 더 높은 우선순위를 갖습니다.  서버가 PMCE를 지원할 경우 더 높은 우선순위로 PMCE를 허용하는 것이 좋습니다.

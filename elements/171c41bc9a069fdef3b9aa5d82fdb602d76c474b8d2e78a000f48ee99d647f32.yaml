@@ -1,0 +1,22 @@
+"hash": |-
+  171c41bc9a069fdef3b9aa5d82fdb602d76c474b8d2e78a000f48ee99d647f32
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              Implementations can use any set of steps that results in the
+              same result as the following set of steps.  Begin by
+              removing and saving the ICV field.  Next check the overall
+              length of the ESP packet minus the ICV field.  If implicit
+              padding is required, based on the block size of the
+              integrity algorithm, append zero-filled bytes to the end of
+              the ESP packet directly after the Next Header field, or
+              after the high-order 32 bits of the sequence number if ESN
+              is selected.  Perform the ICV computation and compare the
+              result with the saved value, using the comparison rules
+              defined by the algorithm specification.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

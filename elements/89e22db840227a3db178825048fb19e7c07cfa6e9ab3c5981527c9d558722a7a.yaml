@@ -1,0 +1,17 @@
+"hash": |-
+  89e22db840227a3db178825048fb19e7c07cfa6e9ab3c5981527c9d558722a7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Therefore, new authentication schemes that choose not to carry
+        credentials in the Authorization header field (e.g., using a newly
+        defined header field) will need to explicitly disallow caching, by
+        mandating the use of either Cache-Control request directives
+        (e.g., "no-store", Section 5.2.1.5 of [RFC7234]) or response
+        directives (e.g., "private").
+"fixed": |-
+  - Therefore, new authentication schemes that choose not to carry credentials in the Authorization header field (e.g., using a newly defined header field) will need to explicitly disallow caching, by mandating the use of either Cache-Control request directives (e.g., "no-store", Section 5.2.1.5 of [RFC7234]) or response directives (e.g., "private").
+"ko": |-
+  - 따라서 Authorization 헤더 필드에 자격 증명을 전달하지 않기로 선택한 새로운 인증 방식(예: 새로 정의된 헤더 필드 사용)은 Cache-Control 요청 지시문(예: "no")의 사용을 의무화하여 명시적으로 캐싱을 허용하지 않아야 합니다. -store", [RFC7234]의 섹션 5.2.1.5) 또는 응답 지시문(예: "private").

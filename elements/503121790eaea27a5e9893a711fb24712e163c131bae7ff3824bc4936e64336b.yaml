@@ -1,0 +1,24 @@
+"hash": |-
+  503121790eaea27a5e9893a711fb24712e163c131bae7ff3824bc4936e64336b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the answerer has sent the answer, it MUST be prepared to receive
+     media for any recvonly streams described by that answer.  It MUST be
+     prepared to send and receive media for any sendrecv streams in the
+     answer, and it MAY send media immediately.  The answerer MUST be
+     prepared to receive media for recvonly or sendrecv streams using any
+     media formats listed for those streams in the answer, and it MAY send
+     media immediately.  When sending media, it SHOULD use a packetization
+     interval equal to the value of the ptime attribute in the offer, if
+     any was present.  It SHOULD send media using a bandwidth no higher
+     than the value of the bandwidth attribute in the offer, if any was
+     present.  The answerer MUST send using a media format in the offer
+     that is also listed in the answer, and SHOULD send using the most
+     preferred media format in the offer that is also listed in the
+"fixed": |-
+  Once the answerer has sent the answer, it MUST be prepared to receive media for any recvonly streams described by that answer.  It MUST be prepared to send and receive media for any sendrecv streams in the answer, and it MAY send media immediately.  The answerer MUST be prepared to receive media for recvonly or sendrecv streams using any media formats listed for those streams in the answer, and it MAY send media immediately.  When sending media, it SHOULD use a packetization interval equal to the value of the ptime attribute in the offer, if any was present.  It SHOULD send media using a bandwidth no higher than the value of the bandwidth attribute in the offer, if any was present.  The answerer MUST send using a media format in the offer that is also listed in the answer, and SHOULD send using the most preferred media format in the offer that is also listed in the
+"ko": |-
+  답변자가 답변을 보낸 후에는 해당 답변에서 설명하는 모든 recvonly 스트림에 대한 미디어를 수신할 준비가 되어 있어야 합니다. 답변의 모든 sendrecv 스트림에 대한 미디어를 보내고 받을 준비가 되어 있어야 하며, 즉시 미디어를 보낼 수 있습니다. 답변자는 답변에서 해당 스트림에 대해 나열된 모든 미디어 형식을 사용하여 recvonly 또는 sendrecv 스트림에 대한 미디어를 수신할 준비가 되어 있어야 하며, 즉시 미디어를 보낼 수 있습니다. 미디어를 보낼 때는 오퍼의 ptime 속성 값과 같은 패킷화 간격을 사용해야 합니다(있는 경우). 오퍼의 대역폭 속성 값보다 높지 않은 대역폭을 사용하여 미디어를 보내야 합니다(있는 경우). 답변자는 답변에 나열된 오퍼의 미디어 형식을 사용하여 보내야 하며, 오퍼에서 가장 선호하는 미디어 형식을 사용하여 보내야 합니다(있는 경우).

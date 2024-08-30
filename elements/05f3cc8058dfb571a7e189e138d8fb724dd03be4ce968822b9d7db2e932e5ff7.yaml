@@ -1,0 +1,15 @@
+"hash": |-
+  05f3cc8058dfb571a7e189e138d8fb724dd03be4ce968822b9d7db2e932e5ff7
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        (1) Generate a cryptographically strong random string R of length
+            CipherSpec.block_length.  Place R in the IV field.  Set the
+            mask to R.  Thus, the first cipher block will be encrypted as
+            E(R XOR Data).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

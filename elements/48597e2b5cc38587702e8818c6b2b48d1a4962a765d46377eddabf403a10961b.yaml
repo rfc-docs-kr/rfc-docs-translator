@@ -1,0 +1,17 @@
+"hash": |-
+  48597e2b5cc38587702e8818c6b2b48d1a4962a765d46377eddabf403a10961b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each AEAD algorithm MUST accept any associated data with a length
+     between zero and A_MAX octets, inclusive, where the value A_MAX is
+     specific to that algorithm.  The value of A_MAX MUST be larger than
+     zero, and SHOULD be at least 65,536 (2^16) octets.  Other
+     applications may use even larger values of A_MAX, so it is desirable
+     for general-purpose algorithms to support higher values.
+"fixed": |-
+  Each AEAD algorithm MUST accept any associated data with a length between zero and A_MAX octets, inclusive, where the value A_MAX is specific to that algorithm.  The value of A_MAX MUST be larger than zero, and SHOULD be at least 65,536 (2^16) octets.  Other applications may use even larger values of A_MAX, so it is desirable for general-purpose algorithms to support higher values.
+"ko": |-
+  각 AEAD 알고리즘은 길이가 0에서 A_MAX 옥텟 사이인 모든 관련 데이터를 수용해야 합니다. 여기서 A_MAX 값은 해당 알고리즘에 따라 다릅니다. A_MAX의 값은 0보다 커야 하며 최소 65,536(2^16) 옥텟이어야 합니다. 다른 애플리케이션에서는 훨씬 더 큰 A_MAX 값을 사용할 수 있으므로 범용 알고리즘에서는 더 높은 값을 지원하는 것이 바람직합니다.

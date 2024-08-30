@@ -1,0 +1,22 @@
+"hash": |-
+  7374fbde7b7952e5acb65fbc6c10beb5bdff365459d0aa983d0ee83919a010ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the KEK and wrapped key are associated with different
+     cryptographic algorithms, the effective security provided to data
+     protected with the wrapped key is determined by the weaker of the two
+     algorithms.  If, for example, data is encrypted with 128-bit AES and
+     that AES key is wrapped with a 256-bit AES key, then at most 128 bits
+     of protection is provided to the data.  If, for another example, a
+     128-bit AES key is used to wrap a 4096-bit RSA private key, then at
+     most 128 bits of protection is provided to any data that depends on
+     that private key.  Thus, implementers must ensure that key-encryption
+     algorithms are at least as strong as other cryptographic algorithms
+     employed in an overall system.
+"fixed": |-
+  If the KEK and wrapped key are associated with different cryptographic algorithms, the effective security provided to data protected with the wrapped key is determined by the weaker of the two algorithms.  If, for example, data is encrypted with 128-bit AES and that AES key is wrapped with a 256-bit AES key, then at most 128 bits of protection is provided to the data.  If, for another example, a 128-bit AES key is used to wrap a 4096-bit RSA private key, then at most 128 bits of protection is provided to any data that depends on that private key.  Thus, implementers must ensure that key-encryption algorithms are at least as strong as other cryptographic algorithms employed in an overall system.
+"ko": |-
+  KEK와 래핑된 키가 서로 다른 암호화 알고리즘과 연결된 경우 래핑된 키로 보호되는 데이터에 제공되는 효과적인 보안은 두 알고리즘 중 약한 알고리즘에 따라 결정됩니다. 예를 들어 데이터가 128비트 AES로 암호화되고 해당 AES 키가 256비트 AES 키로 래핑된 경우 최대 128비트의 보호가 데이터에 제공됩니다. 또 다른 예를 들어 128비트 AES 키를 사용하여 4096비트 RSA 개인 키를 래핑하는 경우 해당 개인 키에 의존하는 모든 데이터에 최대 128비트의 보호가 제공됩니다. 따라서 구현자는 키 암호화 알고리즘이 최소한 전체 시스템에 사용되는 다른 암호화 알고리즘만큼 강력하도록 보장해야 합니다.

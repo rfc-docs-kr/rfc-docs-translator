@@ -1,0 +1,19 @@
+"hash": |-
+  2ef9fe1d298279d0746d0fd503ee83f65ecefd1fc4f112b4572f005f07e771ea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since the response to a DHCPLEASEQUERY request can only contain full
+     information about one IP address -- the one that appears in the
+     "ciaddr" field -- determination of which IP address about which to
+     respond is a key issue.  Of course, the values of additional IP
+     addresses for which a client has a lease must also be returned in the
+     associated-ip option (Section 6.1, #3).  This is the only information
+     returned not directly associated with the IP address in the "ciaddr"
+     field.
+"fixed": |-
+  Since the response to a DHCPLEASEQUERY request can only contain full information about one IP address -- the one that appears in the "ciaddr" field -- determination of which IP address about which to respond is a key issue.  Of course, the values of additional IP addresses for which a client has a lease must also be returned in the associated-ip option (Section 6.1, #3).  This is the only information returned not directly associated with the IP address in the "ciaddr" field.
+"ko": |-
+  DHCPLEASEQUERY 요청에 대한 응답에는 하나의 IP 주소("ciaddr" 필드에 나타나는 주소)에 대한 전체 정보만 포함될 수 있으므로 응답할 IP 주소를 결정하는 것이 핵심 문제입니다. 물론 클라이언트가 임대한 추가 IP 주소의 값도 Associated-ip 옵션(6.1절, #3)에서 반환되어야 합니다. 이는 "ciaddr" 필드의 IP 주소와 직접적으로 연관되지 않고 반환된 유일한 정보입니다.

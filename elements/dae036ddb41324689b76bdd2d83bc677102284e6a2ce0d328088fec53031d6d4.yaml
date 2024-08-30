@@ -1,0 +1,16 @@
+"hash": |-
+  dae036ddb41324689b76bdd2d83bc677102284e6a2ce0d328088fec53031d6d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        2) If the value of the local BGP Identifier is less than the
+           remote one, the local system closes the BGP connection that
+           already exists (the one that is already in the OpenConfirm
+           state), and accepts the BGP connection initiated by the remote
+           system.
+"fixed": |-
+  - 2) If the value of the local BGP Identifier is less than the remote one, the local system closes the BGP connection that already exists (the one that is already in the OpenConfirm state), and accepts the BGP connection initiated by the remote system.
+"ko": |-
+  - 2) 로컬 BGP 식별자 값이 원격 시스템의 값보다 작을 경우 로컬 시스템은 이미 존재하는 BGP 연결(이미 OpenConfirm 상태인 연결)을 종료하고 원격 시스템이 시작한 BGP 연결을 수락합니다. .

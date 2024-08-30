@@ -1,0 +1,15 @@
+"hash": |-
+  f9218209e76d6d8f5fc458b364e128f101074b932770d00c4656137ccd524fa0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Validating ECN counts from reordered ACK frames can result in
+     failure.  An endpoint MUST NOT fail ECN validation as a result of
+     processing an ACK frame that does not increase the largest
+     acknowledged packet number.
+"fixed": |-
+  Validating ECN counts from reordered ACK frames can result in failure.  An endpoint MUST NOT fail ECN validation as a result of processing an ACK frame that does not increase the largest acknowledged packet number.
+"ko": |-
+  재정렬된 ACK 프레임에서 ECN 수를 검증하면 오류가 발생할 수 있습니다. 엔드포인트는 승인된 최대 패킷 수를 증가시키지 않는 ACK 프레임을 처리한 결과 ECN 검증에 실패해서는 안 됩니다.

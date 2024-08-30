@@ -1,0 +1,18 @@
+"hash": |-
+  2e450fd0bcb2dae04542e394834c7600e589f9cbd076c181bceb3e46a8fb95e7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The record size limit only applies to records sent toward the
+     endpoint that advertises the limit.  An endpoint can send records
+     that are larger than the limit it advertises as its own limit.  A TLS
+     endpoint that receives a record larger than its advertised limit MUST
+     generate a fatal "record_overflow" alert; a DTLS endpoint that
+     receives a record larger than its advertised limit MAY either
+     generate a fatal "record_overflow" alert or discard the record.
+"fixed": |-
+  The record size limit only applies to records sent toward the endpoint that advertises the limit.  An endpoint can send records that are larger than the limit it advertises as its own limit.  A TLS endpoint that receives a record larger than its advertised limit MUST generate a fatal "record_overflow" alert; a DTLS endpoint that receives a record larger than its advertised limit MAY either generate a fatal "record_overflow" alert or discard the record.
+"ko": |-
+  레코드 크기 제한은 제한을 알리는 엔드포인트로 전송된 레코드에만 적용됩니다.  엔드포인트는 자체 제한으로 알리는 제한보다 큰 레코드를 보낼 수 있습니다.  광고된 제한보다 큰 레코드를 수신하는 TLS 엔드포인트는 치명적인 "record_overflow" 경고를 생성해야 합니다. 광고된 제한보다 큰 레코드를 수신하는 DTLS 엔드포인트는 치명적인 "record_overflow" 경고를 생성하거나 레코드를 삭제할 수 있습니다.

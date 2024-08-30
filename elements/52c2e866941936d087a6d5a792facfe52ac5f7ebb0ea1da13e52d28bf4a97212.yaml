@@ -1,0 +1,16 @@
+"hash": |-
+  52c2e866941936d087a6d5a792facfe52ac5f7ebb0ea1da13e52d28bf4a97212
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Both DPLPMTUD and PMTUD send datagrams that are larger than the
+     current maximum datagram size, referred to as PMTU probes.  All QUIC
+     packets that are not sent in a PMTU probe SHOULD be sized to fit
+     within the maximum datagram size to avoid the datagram being
+     fragmented or dropped [RFC8085].
+"fixed": |-
+  Both DPLPMTUD and PMTUD send datagrams that are larger than the current maximum datagram size, referred to as PMTU probes.  All QUIC packets that are not sent in a PMTU probe SHOULD be sized to fit within the maximum datagram size to avoid the datagram being fragmented or dropped [RFC8085].
+"ko": |-
+  DPLPMTUD와 PMTUD는 모두 PMTU 프로브라고 하는 현재 최대 데이터그램 크기보다 큰 데이터그램을 보냅니다. PMTU 프로브에서 전송되지 않는 모든 QUIC 패킷은 데이터그램이 조각화되거나 삭제되는 것을 방지하기 위해 최대 데이터그램 크기에 맞게 크기를 조정해야 합니다[RFC8085].

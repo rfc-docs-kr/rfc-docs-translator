@@ -1,0 +1,23 @@
+"hash": |-
+  b62d2d17546ca8d07e4aa9726d26e5619861c8b248b9a0ee378803ead3634883
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The request-id field is a unique identifier representable as an
+     unsigned 32-bit integer created by the client and sent to the server.
+     Clients MUST utilize monotonically increasing request-ids for
+     consecutive requests within an MRCP session.  The request-id space is
+     linear (i.e., not mod(32)), so the space does not wrap, and validity
+     can be checked with a simple unsigned comparison operation.  The
+     client may choose any initial value for its first request, but a
+     small integer is RECOMMENDED to avoid exhausting the space in long
+     sessions.  If the server receives duplicate or out-of-order requests,
+     the server MUST reject the request with a response code of 410.
+     Since request-ids are scoped to the MRCP session, they are unique
+     across all TCP connections and all resource channels in the session.
+"fixed": |-
+  The request-id field is a unique identifier representable as an unsigned 32-bit integer created by the client and sent to the server. Clients MUST utilize monotonically increasing request-ids for consecutive requests within an MRCP session.  The request-id space is linear (i.e., not mod(32)), so the space does not wrap, and validity can be checked with a simple unsigned comparison operation.  The client may choose any initial value for its first request, but a small integer is RECOMMENDED to avoid exhausting the space in long sessions.  If the server receives duplicate or out-of-order requests, the server MUST reject the request with a response code of 410. Since request-ids are scoped to the MRCP session, they are unique across all TCP connections and all resource channels in the session.
+"ko": |-
+  요청 ID 필드는 클라이언트가 생성하여 서버로 전송하는 부호 없는 32비트 정수로 표현할 수 있는 고유 식별자입니다. 클라이언트는 MRCP 세션 내에서 연속적인 요청에 대해 단조롭게 증가하는 요청 ID를 사용해야 합니다. 요청 ID 공간은 선형적(즉, mod(32)가 아님)이므로 공간이 래핑되지 않으며 유효성은 간단한 부호 없는 비교 연산으로 확인할 수 있습니다. 클라이언트는 첫 번째 요청에 대해 초기 값을 선택할 수 있지만 긴 세션에서 공간이 고갈되는 것을 방지하기 위해 작은 정수를 사용하는 것이 좋습니다. 서버가 중복 또는 순서가 잘못된 요청을 수신하는 경우 서버는 응답 코드 410으로 요청을 거부해야 합니다. 요청 ID는 MRCP 세션으로 범위가 지정되므로 세션의 모든 TCP 연결과 모든 리소스 채널에서 고유합니다.

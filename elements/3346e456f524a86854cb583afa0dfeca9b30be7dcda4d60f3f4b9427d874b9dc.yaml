@@ -1,0 +1,16 @@
+"hash": |-
+  3346e456f524a86854cb583afa0dfeca9b30be7dcda4d60f3f4b9427d874b9dc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Note: [RFC5322] requires that the In-Reply-To and Message-ID
+           header fields, if present, have non-empty content.  Therefore,
+           for a well-formed message, the in-reply-to and message-id
+           members in the envelope cannot be the empty string.  However,
+           they can still be the empty string for a malformed message.
+"fixed": |-
+  - Note: [RFC5322] requires that the In-Reply-To and Message-ID header fields, if present, have non-empty content.  Therefore, for a well-formed message, the in-reply-to and message-id members in the envelope cannot be the empty string.  However, they can still be the empty string for a malformed message.
+"ko": |-
+  - 참고: [RFC5322]에서는 In-Reply-To 및 Message-ID 헤더 필드(있는 경우)에 비어 있지 않은 콘텐츠가 있어야 합니다.  따라서 올바른 형식의 메시지의 경우 봉투의 in-reply-to 및 message-id 멤버는 빈 문자열일 수 없습니다.  그러나 잘못된 형식의 메시지에 대해서는 여전히 빈 문자열일 수 있습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  948abedfa5b584d1052a9bd838bbc822148dc238f0fa7af91b05925d258f53e2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     HTTP is defined as a stateless protocol, meaning that each request
+     message's semantics can be understood in isolation, and that the
+     relationship between connections and messages on them has no impact
+     on the interpretation of those messages.  For example, a CONNECT
+     request (Section 9.3.6) or a request with the Upgrade header field
+     (Section 7.8) can occur at any time, not just in the first message on
+     a connection.  Many implementations depend on HTTP's stateless design
+     in order to reuse proxied connections or dynamically load balance
+     requests across multiple servers.
+"fixed": |-
+  HTTP is defined as a stateless protocol, meaning that each request message's semantics can be understood in isolation, and that the relationship between connections and messages on them has no impact on the interpretation of those messages.  For example, a CONNECT request (Section 9.3.6) or a request with the Upgrade header field (Section 7.8) can occur at any time, not just in the first message on a connection.  Many implementations depend on HTTP's stateless design in order to reuse proxied connections or dynamically load balance requests across multiple servers.
+"ko": |-
+  HTTP는 상태 비저장 프로토콜로 정의됩니다. 즉, 각 요청 메시지의 의미를 개별적으로 이해할 수 있으며 연결과 메시지 간의 관계가 해당 메시지 해석에 영향을 미치지 않는다는 의미입니다. 예를 들어 CONNECT 요청(섹션 9.3.6) 또는 업그레이드 헤더 필드가 있는 요청(섹션 7.8)은 연결의 첫 번째 메시지뿐만 아니라 언제든지 발생할 수 있습니다. 많은 구현은 프록시 연결을 재사용하거나 여러 서버에 걸쳐 요청을 동적으로 로드 밸런싱하기 위해 HTTP의 상태 비저장 설계에 의존합니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  6e4e00e69fc75810b6873740f2a109eeecc47939309673ee71702baf37e0a03f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If supplied but the value is not supported, the Printer accepts
+        the request, returns the unsupported attribute or value in the
+        Unsupported Attributes group according to Section 4.1.7, returns
+        the 'successful-ok-ignored-or-substituted-attributes' status-code,
+        and holds the Job indefinitely until a Client performs a
+        subsequent Release-Job operation.
+"fixed": |-
+  - If supplied but the value is not supported, the Printer accepts the request, returns the unsupported attribute or value in the Unsupported Attributes group according to Section 4.1.7, returns the 'successful-ok-ignored-or-substituted-attributes' status-code, and holds the Job indefinitely until a Client performs a subsequent Release-Job operation.
+"ko": |-
+  - 제공되었지만 값이 지원되지 않는 경우 프린터는 요청을 수락하고 섹션 4.1.7에 따라 지원되지 않는 속성 또는 지원되지 않는 속성 그룹의 값을 반환하고 '성공-확인-무시 또는 대체 속성' 상태를 반환합니다. -code이며 클라이언트가 후속 작업 해제 작업을 수행할 때까지 작업을 무기한 보유합니다.

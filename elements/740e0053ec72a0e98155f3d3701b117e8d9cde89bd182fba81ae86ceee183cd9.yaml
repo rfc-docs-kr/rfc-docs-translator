@@ -1,0 +1,20 @@
+"hash": |-
+  740e0053ec72a0e98155f3d3701b117e8d9cde89bd182fba81ae86ceee183cd9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The following alternative procedure MAY be used; however, it has
+        not been demonstrated to be as cryptographically strong as the
+        above procedures.  The sender prepends a fixed block F to the
+        plaintext (or, alternatively, a block generated with a weak PRNG).
+        He then encrypts as in (2), above, using the CBC residue from the
+        previous block as the mask for the prepended block.  Note that in
+        this case the mask for the first record transmitted by the
+        application (the Finished) MUST be generated using a
+        cryptographically strong PRNG.
+"fixed": |-
+  - The following alternative procedure MAY be used; however, it has not been demonstrated to be as cryptographically strong as the above procedures.  The sender prepends a fixed block F to the plaintext (or, alternatively, a block generated with a weak PRNG). He then encrypts as in (2), above, using the CBC residue from the previous block as the mask for the prepended block.  Note that in this case the mask for the first record transmitted by the application (the Finished) MUST be generated using a cryptographically strong PRNG.
+"ko": |-
+  - 다음 대체 절차를 사용할 수 있습니다. 그러나 위의 절차만큼 암호학적으로 강력한 것으로 입증되지는 않았습니다. 송신자는 고정된 블록 F를 일반 텍스트(또는 약한 PRNG로 생성된 블록) 앞에 추가합니다. 그런 다음 위의 (2)와 같이 이전 블록의 CBC 잔여물을 앞에 추가된 블록의 마스크로 사용하여 암호화합니다. 이 경우 애플리케이션(완료됨)에 의해 전송된 첫 번째 레코드에 대한 마스크는 강력한 암호화 PRNG를 사용하여 생성되어야 합니다.

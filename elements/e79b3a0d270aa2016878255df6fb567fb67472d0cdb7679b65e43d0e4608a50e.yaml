@@ -1,0 +1,15 @@
+"hash": |-
+  e79b3a0d270aa2016878255df6fb567fb67472d0cdb7679b65e43d0e4608a50e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A non-existent unique identifier is ignored without any error message
+     generated.  Thus, it is possible for a UID FETCH command to return an
+     OK without any data or a UID COPY, UID MOVE, or UID STORE to return
+     an OK without performing any operations.
+"fixed": |-
+  A non-existent unique identifier is ignored without any error message generated.  Thus, it is possible for a UID FETCH command to return an OK without any data or a UID COPY, UID MOVE, or UID STORE to return an OK without performing any operations.
+"ko": |-
+  존재하지 않는 고유 식별자는 오류 메시지가 생성되지 않고 무시됩니다.  따라서 UID FETCH 명령이 데이터 없이 OK를 반환하거나 UID COPY, UID MOVE 또는 UID STORE가 어떤 작업도 수행하지 않고 OK를 반환하는 것이 가능합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  a7ebd38f187bf1b4678095504d9e308681e83b03fe6df582ce52014b5f47020d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        struct {
+            ClientAuthenticationType client_authentication_type;
+            select (ClientAuthenticationType) {
+                case anonymous: struct {};
+                case certificate_based:
+                    ASN.1Cert certificate_list<0..2^24-1>;
+                case psk:
+                    opaque psk_identity<0..2^16-1>;   /* from [RFC4279] */
+            };
+         } ClientIdentity;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  08f0b9e6ce765d09dfb1b1607123b788e9e7a1ab794f4602b21c6e319d994d80
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If two sites of VPN are in different Autonomous Systems (e.g.,
+     because they are connected to different SPs), then a PE router will
+     need to use IBGP to redistribute VPN-IPv4 routes either to an
+     Autonomous System Border Router (ASBR), or to a route reflector of
+     which an ASBR is a client.  The ASBR will then need to use EBGP to
+     redistribute those routes to an ASBR in another AS.  This allows one
+     to connect different VPN sites to different Service Providers.
+     However, VPN-IPv4 routes should only be accepted on EBGP connections
+     at private peering points, as part of a trusted arrangement between
+     SPs.  VPN-IPv4 routes should neither be distributed to nor accepted
+     from the public Internet.
+"fixed": |-
+  If two sites of VPN are in different Autonomous Systems (e.g., because they are connected to different SPs), then a PE router will need to use IBGP to redistribute VPN-IPv4 routes either to an Autonomous System Border Router (ASBR), or to a route reflector of which an ASBR is a client.  The ASBR will then need to use EBGP to redistribute those routes to an ASBR in another AS.  This allows one to connect different VPN sites to different Service Providers. However, VPN-IPv4 routes should only be accepted on EBGP connections at private peering points, as part of a trusted arrangement between SPs.  VPN-IPv4 routes should neither be distributed to nor accepted from the public Internet.
+"ko": |-
+  두 개의 VPN 사이트가 서로 다른 자율 시스템에 있는 경우(예: 서로 다른 SP에 연결되어 있기 때문), PE 라우터는 IBGP를 사용하여 VPN-IPv4 경로를 자율 시스템 경계 라우터(ASBR) 또는 ASBR이 클라이언트인 경로 리플렉터로 재배포해야 합니다. 그런 다음 ASBR은 EBGP를 사용하여 해당 경로를 다른 AS의 ASBR로 재배포해야 합니다. 이를 통해 서로 다른 VPN 사이트를 서로 다른 서비스 공급자에 연결할 수 있습니다. 그러나 VPN-IPv4 경로는 SP 간의 신뢰할 수 있는 계약의 일부로 개인 피어링 지점에서 EBGP 연결에서만 허용해야 합니다. VPN-IPv4 경로는 공개 인터넷에 배포되거나 공개 인터넷에서 허용되어서는 안 됩니다.

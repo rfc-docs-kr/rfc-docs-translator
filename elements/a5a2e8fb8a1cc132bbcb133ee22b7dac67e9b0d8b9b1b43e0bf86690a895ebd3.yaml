@@ -1,0 +1,16 @@
+"hash": |-
+  a5a2e8fb8a1cc132bbcb133ee22b7dac67e9b0d8b9b1b43e0bf86690a895ebd3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2. ADH is vulnerable to man-in-the-middle attacks, as a consequence
+        of the lack of authentication.  The parties must have a way of
+        determining whether they are participating in the same TLS
+        connection.  If they are not, they can deduce that they are under
+        attack, and presumably abort the connection.
+"fixed": |-
+  1. ADH is vulnerable to man-in-the-middle attacks, as a consequence of the lack of authentication.  The parties must have a way of determining whether they are participating in the same TLS connection.  If they are not, they can deduce that they are under attack, and presumably abort the connection.
+"ko": |-
+  1. ADH는 인증 부족으로 인해 중간자 공격에 취약합니다. 당사자들은 동일한 TLS 연결에 참여하고 있는지 여부를 확인할 수 있는 방법을 가지고 있어야 합니다. 그렇지 않은 경우 공격을 받고 있다고 추론하고 아마도 연결을 중단할 수 있습니다.

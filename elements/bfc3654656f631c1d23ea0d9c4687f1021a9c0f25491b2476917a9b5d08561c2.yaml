@@ -1,0 +1,20 @@
+"hash": |-
+  bfc3654656f631c1d23ea0d9c4687f1021a9c0f25491b2476917a9b5d08561c2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the IPv6 context, ESP is viewed as an end-to-end payload, and thus
+     should appear after hop-by-hop, routing, and fragmentation extension
+     headers.  Destination options extension header(s) could appear
+     before, after, or both before and after the ESP header depending on
+     the semantics desired.  However, because ESP protects only fields
+     after the ESP header, it generally will be desirable to place the
+     destination options header(s) after the ESP header.  The following
+     diagram illustrates ESP transport mode positioning for a typical IPv6
+     packet.
+"fixed": |-
+  In the IPv6 context, ESP is viewed as an end-to-end payload, and thus should appear after hop-by-hop, routing, and fragmentation extension headers.  Destination options extension header(s) could appear before, after, or both before and after the ESP header depending on the semantics desired.  However, because ESP protects only fields after the ESP header, it generally will be desirable to place the destination options header(s) after the ESP header.  The following diagram illustrates ESP transport mode positioning for a typical IPv6 packet.
+"ko": |-
+  IPv6 컨텍스트에서 ESP는 엔드투엔드 페이로드로 간주되므로 홉별, 라우팅 및 조각화 확장 헤더 뒤에 나타나야 합니다.  대상 옵션 확장 헤더는 원하는 의미에 따라 ESP 헤더 앞, 뒤 또는 앞과 뒤에 모두 나타날 수 있습니다.  그러나 ESP는 ESP 헤더 뒤의 필드만 보호하므로 일반적으로 ESP 헤더 뒤에 대상 옵션 헤더를 배치하는 것이 바람직합니다.  다음 다이어그램은 일반적인 IPv6 패킷에 대한 ESP 전송 모드 위치 지정을 보여줍니다.

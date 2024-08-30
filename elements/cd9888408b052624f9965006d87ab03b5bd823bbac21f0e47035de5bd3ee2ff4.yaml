@@ -1,0 +1,34 @@
+"hash": |-
+  cd9888408b052624f9965006d87ab03b5bd823bbac21f0e47035de5bd3ee2ff4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     <?xml version="1.0"?>
+     <result xmlns="urn:ietf:params:xml:ns:mrcpv2"
+             xmlns:ex="http://www.example.com/example"
+             grammar="http://www.example.com/flight">
+       <interpretation confidence="0.6">
+          <instance>
+             <ex:airline>
+                <ex:to_city>Pittsburgh</ex:to_city>
+             <ex:airline>
+          <instance>
+          <input mode="speech">
+             I want to go to Pittsburgh
+          </input>
+       </interpretation>
+       <interpretation confidence="0.4"
+          <instance>
+             <ex:airline>
+                <ex:to_city>Stockholm</ex:to_city>
+             </ex:airline>
+          </instance>
+          <input>I want to go to Stockholm</input>
+       </interpretation>
+     </result>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

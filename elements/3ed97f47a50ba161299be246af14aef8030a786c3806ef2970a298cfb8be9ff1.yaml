@@ -1,0 +1,20 @@
+"hash": |-
+  3ed97f47a50ba161299be246af14aef8030a786c3806ef2970a298cfb8be9ff1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An immediate close can be used after an application protocol has
+     arranged to close a connection.  This might be after the application
+     protocol negotiates a graceful shutdown.  The application protocol
+     can exchange messages that are needed for both application endpoints
+     to agree that the connection can be closed, after which the
+     application requests that QUIC close the connection.  When QUIC
+     consequently closes the connection, a CONNECTION_CLOSE frame with an
+     application-supplied error code will be used to signal closure to the
+     peer.
+"fixed": |-
+  An immediate close can be used after an application protocol has arranged to close a connection.  This might be after the application protocol negotiates a graceful shutdown.  The application protocol can exchange messages that are needed for both application endpoints to agree that the connection can be closed, after which the application requests that QUIC close the connection.  When QUIC consequently closes the connection, a CONNECTION_CLOSE frame with an application-supplied error code will be used to signal closure to the peer.
+"ko": |-
+  즉시 닫기는 애플리케이션 프로토콜이 연결을 닫도록 배열한 후에 사용할 수 있습니다. 이는 애플리케이션 프로토콜이 정상적인 종료를 협상한 이후일 수 있습니다. 애플리케이션 프로토콜은 두 애플리케이션 엔드포인트가 연결을 닫을 수 있다는 데 동의하는 데 필요한 메시지를 교환할 수 있으며, 그 후 애플리케이션은 QUIC로 연결을 닫도록 요청합니다. 결과적으로 QUIC가 연결을 닫으면 애플리케이션이 제공한 오류 코드가 있는 CONNECTION_CLOSE 프레임이 피어에게 닫힘을 알리는 데 사용됩니다.

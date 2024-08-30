@@ -1,0 +1,16 @@
+"hash": |-
+  dbd57d05cdbb69b4e0938720a43fd9c08c3bc1929d9fa26e208fa91ed2beb170
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some clients take a riskier approach and attempt to guess when an
+     automatic retry is possible.  For example, a client might
+     automatically retry a POST request if the underlying transport
+     connection closed before any part of a response is received,
+     particularly if an idle persistent connection was used.
+"fixed": |-
+  Some clients take a riskier approach and attempt to guess when an automatic retry is possible.  For example, a client might automatically retry a POST request if the underlying transport connection closed before any part of a response is received, particularly if an idle persistent connection was used.
+"ko": |-
+  일부 클라이언트는 더 위험한 접근 방식을 취하고 자동 재시도가 가능한 시기를 추측하려고 시도합니다. 예를 들어, 응답의 일부가 수신되기 전에 기본 전송 연결이 닫힌 경우, 특히 유휴 영구 연결이 사용된 경우 클라이언트는 자동으로 POST 요청을 재시도할 수 있습니다.

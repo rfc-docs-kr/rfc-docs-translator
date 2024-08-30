@@ -1,0 +1,19 @@
+"hash": |-
+  31c1b8b9bcf6dbb69804ad0c1155c76acc78876055e0c61f864c10b5334f894c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a Media Playlist does not contain the EXT-X-ENDLIST tag, the
+     server MUST make a new version of the Playlist file available that
+     contains at least one new Media Segment.  It MUST be made available
+     relative to the time that the previous version of the Playlist file
+     was made available: no earlier than one-half the target duration
+     after that time, and no later than 1.5 times the target duration
+     after that time.  This allows clients to utilize the network
+     efficiently.
+"fixed": |-
+  If a Media Playlist does not contain the EXT-X-ENDLIST tag, the server MUST make a new version of the Playlist file available that contains at least one new Media Segment.  It MUST be made available relative to the time that the previous version of the Playlist file was made available: no earlier than one-half the target duration after that time, and no later than 1.5 times the target duration after that time.  This allows clients to utilize the network efficiently.
+"ko": |-
+  미디어 재생 목록에 EXT-X-ENDLIST 태그가 포함되어 있지 않은 경우 서버는 최소한 하나의 새로운 미디어 세그먼트를 포함하는 새로운 버전의 재생 목록 파일을 사용 가능하게 만들어야 합니다. 이전 버전의 재생 목록 파일이 사용 가능하게 된 시간을 기준으로 사용 가능해야 합니다(MUST). 해당 시간 이후 목표 지속 시간의 1/2보다 빠르지 않고 해당 시간 이후 목표 지속 시간의 1.5배보다 늦어서는 안 됩니다. 이를 통해 클라이언트는 네트워크를 효율적으로 활용할 수 있습니다.

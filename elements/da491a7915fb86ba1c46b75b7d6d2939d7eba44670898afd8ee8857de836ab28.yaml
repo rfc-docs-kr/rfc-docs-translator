@@ -1,0 +1,20 @@
+"hash": |-
+  da491a7915fb86ba1c46b75b7d6d2939d7eba44670898afd8ee8857de836ab28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If every router in an SP's backbone had to maintain routing
+     information for all the VPNs supported by the SP, this model would
+     have severe scalability problems; the number of sites that could be
+     supported would be limited by the amount of routing information that
+     could be held in a single router.  It is important to require
+     therefore that the routing information about a particular VPN be
+     present ONLY in those PE routers which attach to that VPN.  In
+     particular, the P routers should not need to have ANY per-VPN routing
+     information whatsoever.
+"fixed": |-
+  If every router in an SP's backbone had to maintain routing information for all the VPNs supported by the SP, this model would have severe scalability problems; the number of sites that could be supported would be limited by the amount of routing information that could be held in a single router.  It is important to require therefore that the routing information about a particular VPN be present ONLY in those PE routers which attach to that VPN.  In particular, the P routers should not need to have ANY per-VPN routing information whatsoever.
+"ko": |-
+  SP의 백본에 있는 모든 라우터가 SP에서 지원하는 모든 VPN에 대한 라우팅 정보를 유지해야 한다면, 이 모델은 심각한 확장성 문제가 있을 것입니다. 지원할 수 있는 사이트 수는 단일 라우터에 보관할 수 있는 라우팅 정보의 양에 따라 제한될 것입니다. 따라서 특정 VPN에 대한 라우팅 정보가 해당 VPN에 연결된 PE 라우터에만 존재하도록 요구하는 것이 중요합니다. 특히, P 라우터는 VPN당 라우팅 정보가 전혀 없어야 합니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  e245a0f3ae9e348e415cdaf0aefaf6ef523a62b192b9ae8ebc39be3af0778007
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Even though a sender is encouraged to assemble frames containing up-
+     to-date information every time it sends a packet, it is not forbidden
+     to retransmit copies of frames from lost packets.  A sender that
+     retransmits copies of frames needs to handle decreases in available
+     payload size due to changes in packet number length, connection ID
+     length, and path MTU.  A receiver MUST accept packets containing an
+     outdated frame, such as a MAX_DATA frame carrying a smaller maximum
+     data value than one found in an older packet.
+"fixed": |-
+  Even though a sender is encouraged to assemble frames containing up- to-date information every time it sends a packet, it is not forbidden to retransmit copies of frames from lost packets.  A sender that retransmits copies of frames needs to handle decreases in available payload size due to changes in packet number length, connection ID length, and path MTU.  A receiver MUST accept packets containing an outdated frame, such as a MAX_DATA frame carrying a smaller maximum data value than one found in an older packet.
+"ko": |-
+  발신자는 패킷을 보낼 때마다 최신 정보가 포함된 프레임을 조립하도록 권장되지만 손실된 패킷의 프레임 복사본을 재전송하는 것은 금지되지 않습니다. 프레임 복사본을 재전송하는 발신자는 패킷 번호 길이, 연결 ID 길이 및 경로 MTU의 변경으로 인해 사용 가능한 페이로드 크기 감소를 처리해야 합니다. 수신기는 오래된 패킷에서 발견된 것보다 더 작은 최대 데이터 값을 전달하는 MAX_DATA 프레임과 같은 오래된 프레임을 포함하는 패킷을 수락해야 합니다.

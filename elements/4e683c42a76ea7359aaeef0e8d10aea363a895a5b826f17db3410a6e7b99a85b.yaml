@@ -1,0 +1,17 @@
+"hash": |-
+  4e683c42a76ea7359aaeef0e8d10aea363a895a5b826f17db3410a6e7b99a85b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The server MUST respond with a DHCPLEASEUNASSIGNED message if
+          this server has information about the IP address, but there is
+          no active lease for the IP address.  The DHCPLEASEUNASSIGNED
+          message is only returned for a query by IP address, and
+          indicates that the server manages this IP address, but there is
+          no currently active lease on this IP address.
+"fixed": |-
+  - The server MUST respond with a DHCPLEASEUNASSIGNED message if this server has information about the IP address, but there is no active lease for the IP address.  The DHCPLEASEUNASSIGNED message is only returned for a query by IP address, and indicates that the server manages this IP address, but there is no currently active lease on this IP address.
+"ko": |-
+  - 이 서버가 IP 주소에 대한 정보를 가지고 있지만 IP 주소에 대한 활성 임대가 없는 경우 서버는 DHCPLEASEUNASSIGNED 메시지로 응답해야 합니다. DHCPLEASEUNASSIGNED 메시지는 IP 주소별 쿼리에 대해서만 반환되며 서버가 이 IP 주소를 관리하지만 현재 이 IP 주소에 대한 활성 임대가 없음을 나타냅니다.

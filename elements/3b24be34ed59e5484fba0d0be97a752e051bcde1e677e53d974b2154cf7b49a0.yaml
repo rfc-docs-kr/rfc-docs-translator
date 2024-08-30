@@ -1,0 +1,25 @@
+"hash": |-
+  3b24be34ed59e5484fba0d0be97a752e051bcde1e677e53d974b2154cf7b49a0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-----------------------------+-----------------------+-------------+
+     | Attribute                   | Syntax                | REQUIRED?   |
+     +-----------------------------+-----------------------+-------------+
+     | charset-configured          | charset               | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | charset-supported           | 1setOf charset        | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | color-supported             | boolean               | RECOMMENDED |
+     +-----------------------------+-----------------------+-------------+
+     | compression-supported       | 1setOf type2 keyword  | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | document-format-default     | mimeMediaType         | REQUIRED    |
+     +-----------------------------+-----------------------+-------------+
+     | document-format-supported   | 1setOf mimeMediaType  | REQUIRED    |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

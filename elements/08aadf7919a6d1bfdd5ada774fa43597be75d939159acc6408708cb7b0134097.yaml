@@ -1,0 +1,16 @@
+"hash": |-
+  08aadf7919a6d1bfdd5ada774fa43597be75d939159acc6408708cb7b0134097
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4.  Compute the encoded header value BASE64URL(UTF8(JWS Protected
+         Header)).  If the JWS Protected Header is not present (which can
+         only happen when using the JWS JSON Serialization and no
+         "protected" member is present), let this value be the empty
+         string.
+"fixed": |-
+  1.  Compute the encoded header value BASE64URL(UTF8(JWS Protected Header)).  If the JWS Protected Header is not present (which can only happen when using the JWS JSON Serialization and no "protected" member is present), let this value be the empty string.
+"ko": |-
+  1. 인코딩된 헤더 값 BASE64URL(UTF8(JWS 보호 헤더))을 계산합니다. JWS 보호 헤더가 없는 경우(JWS JSON 직렬화를 사용하고 "보호된" 멤버가 없는 경우에만 발생할 수 있음) 이 값을 빈 문자열로 둡니다.

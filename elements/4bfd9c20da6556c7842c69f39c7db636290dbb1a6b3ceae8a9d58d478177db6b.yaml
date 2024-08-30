@@ -1,0 +1,16 @@
+"hash": |-
+  4bfd9c20da6556c7842c69f39c7db636290dbb1a6b3ceae8a9d58d478177db6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For the purpose of aggregating AS_PATH attributes of two routes,
+        we model each AS as a tuple <type, value>, where "type" identifies
+        a type of the path segment the AS belongs to (e.g., AS_SEQUENCE,
+        AS_SET), and "value" is the AS number.  Two ASes are said to be
+        the same if their corresponding <type, value> tuples are the same.
+"fixed": |-
+  - For the purpose of aggregating AS_PATH attributes of two routes, we model each AS as a tuple <type, value>, where "type" identifies a type of the path segment the AS belongs to (e.g., AS_SEQUENCE, AS_SET), and "value" is the AS number.  Two ASes are said to be the same if their corresponding <type, value> tuples are the same.
+"ko": |-
+  - 두 경로의 AS_PATH 속성을 집계하기 위해 각 AS를 튜플 <type, value>로 모델링합니다. 여기서 "type"은 AS가 속한 경로 세그먼트의 유형(예: AS_SEQUENCE, AS_SET)을 식별하고 " 값"은 AS 번호입니다. 해당 <type, value> 튜플이 동일한 경우 두 AS는 동일하다고 합니다.

@@ -1,0 +1,45 @@
+"hash": |-
+  6d00781b02913422c6b4c1ea136449cf7e80b3c322dd895b388b8d791396b80c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                   <xs:complexType mixed="true">
+                     <xs:choice>
+                       <xs:element name="noinput" minOccurs="0"/>
+                       <xs:element name="nomatch" minOccurs="0"/>
+                       <xs:element name="input" minOccurs="0"/>
+                     </xs:choice>
+                     <xs:attribute name="mode"
+                                   type="xs:string"
+                                   default="speech"/>
+                     <xs:attribute name="confidence"
+                                   type="confidenceinfo"
+                                   default="1.0"/>
+                     <xs:attribute name="timestamp-start"
+                                   type="xs:string"/>
+                     <xs:attribute name="timestamp-end"
+                                   type="xs:string"/>
+                   </xs:complexType>
+                 </xs:element>
+               </xs:sequence>
+               <xs:attribute name="confidence" type="confidenceinfo"
+                             default="1.0"/>
+               <xs:attribute name="grammar" type="xs:anyURI"
+                             use="optional"/>
+             </xs:complexType>
+           </xs:element>
+           <xs:element name="enrollment-result"
+                       type="enrollment-contents"/>
+           <xs:element name="verification-result"
+                       type="verification-contents"/>
+         </xs:sequence>
+         <xs:attribute name="grammar" type="xs:anyURI"
+                       use="optional"/>
+       </xs:complexType>
+     </xs:element>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

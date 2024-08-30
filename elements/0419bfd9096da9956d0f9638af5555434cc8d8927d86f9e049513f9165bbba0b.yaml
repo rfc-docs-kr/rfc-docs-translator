@@ -1,0 +1,27 @@
+"hash": |-
+  0419bfd9096da9956d0f9638af5555434cc8d8927d86f9e049513f9165bbba0b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           b) The aggregated AS_PATH attribute consists of ASes identified
+              in (a), in exactly the same order as they appear in the
+              AS_PATH attributes to be aggregated.  If two consecutive
+              ASes identified in (a) do not immediately follow each other
+              in both of the AS_PATH attributes to be aggregated, then the
+              intervening ASes (ASes that are between the two consecutive
+              ASes that are the same) in both attributes are combined into
+              an AS_SET path segment that consists of the intervening ASes
+              from both AS_PATH attributes.  This segment is then placed
+              between the two consecutive ASes identified in (a) of the
+              aggregated attribute.  If two consecutive ASes identified in
+              (a) immediately follow each other in one attribute, but do
+              not follow in another, then the intervening ASes of the
+              latter are combined into an AS_SET path segment.  This
+              segment is then placed between the two consecutive ASes
+              identified in (a) of the aggregated attribute.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

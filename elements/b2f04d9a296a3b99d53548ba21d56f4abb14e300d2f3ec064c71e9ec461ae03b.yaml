@@ -1,0 +1,17 @@
+"hash": |-
+  b2f04d9a296a3b99d53548ba21d56f4abb14e300d2f3ec064c71e9ec461ae03b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The LOGINDISABLED capability indicates that the LOGIN command is
+     disabled, and that the server will respond with a tagged NO response
+     to any attempt to use the LOGIN command even if the user name and
+     password are valid (their validity will not be checked).  An IMAP
+     client MUST NOT issue the LOGIN command if the server advertises the
+     LOGINDISABLED capability.
+"fixed": |-
+  The LOGINDISABLED capability indicates that the LOGIN command is disabled, and that the server will respond with a tagged NO response to any attempt to use the LOGIN command even if the user name and password are valid (their validity will not be checked).  An IMAP client MUST NOT issue the LOGIN command if the server advertises the LOGINDISABLED capability.
+"ko": |-
+  LOGINDISABLED 기능은 LOGIN 명령이 비활성화되어 있으며 사용자 이름과 암호가 유효한 경우에도 서버가 LOGIN 명령을 사용하려는 시도에 대해 태그된 NO 응답으로 응답함을 나타냅니다(유효성은 확인되지 않음).  서버가 LOGINDISABLED 기능을 광고하는 경우 IMAP 클라이언트는 LOGIN 명령을 발행해서는 안 됩니다.

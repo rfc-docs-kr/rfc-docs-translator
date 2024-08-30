@@ -1,0 +1,22 @@
+"hash": |-
+  2dcb672f71998c927f501ecf883c65771752ca9711fe7b8108d95a739593f0fe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a message is received via direct connection with the user agent
+     (in the case of requests) or the origin server (in the case of
+     responses), then the date can be assumed to be the current date at
+     the receiving end. However, since the date--as it is believed by the
+     origin--is important for evaluating cached responses, origin servers
+     should always include a Date header. Clients should only send a Date
+     header field in messages that include an entity body, as in the case
+     of the POST request, and even then it is optional. A received message
+     which does not have a Date header field should be assigned one by the
+     recipient if the message will be cached by that recipient or
+     gatewayed via a protocol which requires a Date.
+"fixed": |-
+  If a message is received via direct connection with the user agent (in the case of requests) or the origin server (in the case of responses), then the date can be assumed to be the current date at the receiving end. However, since the date--as it is believed by the origin--is important for evaluating cached responses, origin servers should always include a Date header. Clients should only send a Date header field in messages that include an entity body, as in the case of the POST request, and even then it is optional. A received message which does not have a Date header field should be assigned one by the recipient if the message will be cached by that recipient or gatewayed via a protocol which requires a Date.
+"ko": |-
+  사용자 에이전트(요청의 경우) 또는 원본 서버(응답의 경우)와의 직접 연결을 통해 메시지가 수신된 경우 날짜는 수신 측의 현재 날짜로 가정할 수 있습니다. 그러나 원본에서 믿는 날짜는 캐시된 응답을 평가하는 데 중요하므로 원본 서버는 항상 Date 헤더를 포함해야 합니다. 클라이언트는 POST 요청의 경우처럼 엔터티 본문을 포함하는 메시지에 날짜 헤더 필드만 보내야 하며, 이 경우에도 선택 사항입니다. 날짜 헤더 필드가 없는 수신 메시지는 메시지가 수신자에 의해 캐시되거나 날짜가 필요한 프로토콜을 통해 게이트웨이되는 경우 수신자에 의해 할당되어야 합니다.

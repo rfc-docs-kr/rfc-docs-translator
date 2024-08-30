@@ -1,0 +1,16 @@
+"hash": |-
+  757b0c13fe1e3a09a052dcfcc3b4d42b0ac8be22d5456d9247997ee37869c630
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver MUST discard a newly unprotected packet unless it is
+     certain that it has not processed another packet with the same packet
+     number from the same packet number space.  Duplicate suppression MUST
+     happen after removing packet protection for the reasons described in
+     Section 9.5 of [QUIC-TLS].
+"fixed": |-
+  A receiver MUST discard a newly unprotected packet unless it is certain that it has not processed another packet with the same packet number from the same packet number space.  Duplicate suppression MUST happen after removing packet protection for the reasons described in Section 9.5 of [QUIC-TLS].
+"ko": |-
+  수신기는 동일한 패킷 번호 공간에서 동일한 패킷 번호를 가진 다른 패킷을 처리하지 않았다는 것이 확실하지 않은 한 새로 보호되지 않은 패킷을 폐기해야 합니다. [QUIC-TLS]의 섹션 9.5에 설명된 이유로 패킷 보호를 제거한 후에 중복 억제가 발생해야 합니다.

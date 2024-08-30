@@ -1,0 +1,1 @@
+RSA 키의 경우, 구현은 SubjectPublicKeyInfo가 인증서의 일부가 아니고 대신 인증서로 전송되는 경우에도 PKIX용 RSA 암호화에 대한 추가 알고리즘 및 식별자([RFC4055]) 섹션 1.2의 공개 키 처리 규칙을 따라야 합니다. 데이터 필드.  이는 적용 가능한 경우 SubjectPublicKeyInfo 구조 내부의 RSASSA-PSS 및 RSASSA-PSS-params를 전송해야 함을 의미합니다.

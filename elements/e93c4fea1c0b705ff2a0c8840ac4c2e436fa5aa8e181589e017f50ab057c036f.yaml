@@ -1,0 +1,16 @@
+"hash": |-
+  e93c4fea1c0b705ff2a0c8840ac4c2e436fa5aa8e181589e017f50ab057c036f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Values outside the range 100..599 are invalid.  Implementations often
+     use three-digit integer values outside of that range (i.e., 600..999)
+     for internal communication of non-HTTP status (e.g., library errors).
+     A client that receives a response with an invalid status code SHOULD
+     process the response as if it had a 5xx (Server Error) status code.
+"fixed": |-
+  Values outside the range 100..599 are invalid.  Implementations often use three-digit integer values outside of that range (i.e., 600..999) for internal communication of non-HTTP status (e.g., library errors). A client that receives a response with an invalid status code SHOULD process the response as if it had a 5xx (Server Error) status code.
+"ko": |-
+  100..599 범위 밖의 값은 유효하지 않습니다. 구현에서는 HTTP가 아닌 상태(예: 라이브러리 오류)의 내부 통신을 위해 해당 범위(예: 600..999)를 벗어난 세 자리 정수 값을 사용하는 경우가 많습니다. 유효하지 않은 상태 코드가 포함된 응답을 수신한 클라이언트는 마치 5xx(서버 오류) 상태 코드가 있는 것처럼 응답을 처리해야 합니다.

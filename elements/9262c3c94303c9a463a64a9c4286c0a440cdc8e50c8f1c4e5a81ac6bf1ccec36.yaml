@@ -1,0 +1,14 @@
+"hash": |-
+  9262c3c94303c9a463a64a9c4286c0a440cdc8e50c8f1c4e5a81ac6bf1ccec36
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     STREAM frames received after sending a STOP_SENDING frame are still
+     counted toward connection and stream flow control, even though these
+     frames can be discarded upon receipt.
+"fixed": |-
+  STREAM frames received after sending a STOP_SENDING frame are still counted toward connection and stream flow control, even though these frames can be discarded upon receipt.
+"ko": |-
+  STOP_SENDING 프레임을 보낸 후 수신된 STREAM 프레임은 수신 시 삭제될 수 있더라도 여전히 연결 및 스트림 흐름 제어에 계산됩니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  c5b606b485de3ad4f8a9a970daed18f0141466b4f5a95e349445f7f3c7a61ada
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an upgrade from MAC-then-encrypt to encrypt-then-MAC is negotiated
+     as per the second line in the table above, then the change will take
+     place in the first message that follows the Change Cipher Spec (CCS)
+     message.  In other words, all messages up to and including the CCS
+     will use MAC-then-encrypt, and then the message that follows will
+     continue with encrypt-then-MAC.
+"fixed": |-
+  If an upgrade from MAC-then-encrypt to encrypt-then-MAC is negotiated as per the second line in the table above, then the change will take place in the first message that follows the Change Cipher Spec (CCS) message.  In other words, all messages up to and including the CCS will use MAC-then-encrypt, and then the message that follows will continue with encrypt-then-MAC.
+"ko": |-
+  위 표의 두 번째 줄에 따라 MAC-then-encrypt에서 encrypt-then-MAC으로 업그레이드가 협상되면 변경은 Change Cipher Spec(CCS) 메시지 다음에 오는 첫 번째 메시지에서 이루어집니다. 즉, CCS를 포함한 모든 메시지는 MAC-then-encrypt를 사용하고, 그 다음에 오는 메시지는 encrypt-then-MAC을 계속 사용합니다.

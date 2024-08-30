@@ -1,0 +1,15 @@
+"hash": |-
+  ed42ee1a29a3c14db8785274a9e21c609d95b1fcec92227c7ad81d4a73a84db6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Otherwise, apply the wrapping process specified in Section 2.2.1
+        of [AES-KW2] to the padded plaintext {P[1], ..., P[n]} with K (the
+        KEK) and the AIV as defined in Section 3 above as the initial
+        value.  The result is n+1 64-bit blocks {C[0], C[1], ..., C[n]}.
+"fixed": |-
+  - Otherwise, apply the wrapping process specified in Section 2.2.1 of [AES-KW2] to the padded plaintext {P[1], ..., P[n]} with K (the KEK) and the AIV as defined in Section 3 above as the initial value.  The result is n+1 64-bit blocks {C[0], C[1], ..., C[n]}.
+"ko": |-
+  - 그렇지 않은 경우에는 [AES-KW2]의 2.2.1절에 지정된 래핑 프로세스를 K(KEK) 및 AIV가 정의된 패딩된 일반 텍스트 {P[1], ..., P[n]}에 적용합니다. 위의 섹션 3을 초기값으로 사용합니다. 결과는 n+1 64비트 블록 {C[0], C[1], ..., C[n]}입니다.

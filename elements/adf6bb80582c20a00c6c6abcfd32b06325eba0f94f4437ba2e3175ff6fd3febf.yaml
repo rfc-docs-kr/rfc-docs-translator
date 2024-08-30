@@ -1,0 +1,18 @@
+"hash": |-
+  adf6bb80582c20a00c6c6abcfd32b06325eba0f94f4437ba2e3175ff6fd3febf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Omitting or setting a zero value for certain transport parameters can
+     result in 0-RTT data being enabled but not usable.  The applicable
+     subset of transport parameters that permit the sending of application
+     data SHOULD be set to non-zero values for 0-RTT.  This includes
+     initial_max_data and either (1) initial_max_streams_bidi and
+     initial_max_stream_data_bidi_remote or (2) initial_max_streams_uni
+     and initial_max_stream_data_uni.
+"fixed": |-
+  Omitting or setting a zero value for certain transport parameters can result in 0-RTT data being enabled but not usable.  The applicable subset of transport parameters that permit the sending of application data SHOULD be set to non-zero values for 0-RTT.  This includes initial_max_data and either (1) initial_max_streams_bidi and initial_max_stream_data_bidi_remote or (2) initial_max_streams_uni and initial_max_stream_data_uni.
+"ko": |-
+  특정 전송 매개변수에 대해 0 값을 생략하거나 설정하면 0-RTT 데이터가 활성화되지만 사용할 수 없게 될 수 있습니다. 애플리케이션 데이터 전송을 허용하는 전송 매개변수의 적용 가능한 하위 집합은 0-RTT에 대해 0이 아닌 값으로 설정되어야 합니다. 여기에는initial_max_data와 (1)initial_max_streams_bidi및initial_max_stream_data_bidi_remote또는(2)initial_max_streams_uni및initial_max_stream_data_uni가 포함됩니다.

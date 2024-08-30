@@ -1,0 +1,17 @@
+"hash": |-
+  357dde45f1406ff6a95a937da1b36f2c18a70f17f9a6b9aaf15a0150e46e8e81
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver can advertise a larger limit for a stream by sending a
+     MAX_STREAM_DATA frame with the corresponding stream ID.  A
+     MAX_STREAM_DATA frame indicates the maximum absolute byte offset of a
+     stream.  A receiver could determine the flow control offset to be
+     advertised based on the current offset of data consumed on that
+     stream.
+"fixed": |-
+  A receiver can advertise a larger limit for a stream by sending a MAX_STREAM_DATA frame with the corresponding stream ID.  A MAX_STREAM_DATA frame indicates the maximum absolute byte offset of a stream.  A receiver could determine the flow control offset to be advertised based on the current offset of data consumed on that stream.
+"ko": |-
+  수신자는 해당 스트림 ID와 함께 MAX_STREAM_DATA 프레임을 전송하여 스트림에 대한 더 큰 제한을 알릴 수 있습니다. MAX_STREAM_DATA 프레임은 스트림의 최대 절대 바이트 오프셋을 나타냅니다. 수신기는 해당 스트림에서 소비되는 데이터의 현재 오프셋을 기반으로 광고할 흐름 제어 오프셋을 결정할 수 있습니다.

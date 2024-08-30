@@ -1,0 +1,19 @@
+"hash": |-
+  cc3cab005a25dab054439f2151f61d39c2e21c5dfb69a8e6f80c9ec82e50e21a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When there are multiple recipients, it is an application decision
+     which of the recipients' encrypted content must successfully validate
+     for the JWE to be accepted.  In some cases, encrypted content for all
+     recipients must successfully validate or the JWE will be considered
+     invalid.  In other cases, only the encrypted content for a single
+     recipient needs to be successfully validated.  However, in all cases,
+     the encrypted content for at least one recipient MUST successfully
+     validate or the JWE MUST be considered invalid.
+"fixed": |-
+  When there are multiple recipients, it is an application decision which of the recipients' encrypted content must successfully validate for the JWE to be accepted.  In some cases, encrypted content for all recipients must successfully validate or the JWE will be considered invalid.  In other cases, only the encrypted content for a single recipient needs to be successfully validated.  However, in all cases, the encrypted content for at least one recipient MUST successfully validate or the JWE MUST be considered invalid.
+"ko": |-
+  수신자가 여러 명인 경우, JWE가 수락되기 위해 수신자의 암호화된 콘텐츠 중 어느 것이 성공적으로 검증되어야 하는지는 애플리케이션에서 결정합니다. 어떤 경우에는 모든 수신자의 암호화된 콘텐츠가 성공적으로 검증되어야 하며 그렇지 않으면 JWE가 무효로 간주됩니다. 다른 경우에는 단일 수신자의 암호화된 콘텐츠만 성공적으로 검증되면 됩니다. 그러나 모든 경우에 최소한 한 명의 수신자의 암호화된 콘텐츠가 성공적으로 검증되어야 하며 그렇지 않으면 JWE가 무효로 간주되어야 합니다.

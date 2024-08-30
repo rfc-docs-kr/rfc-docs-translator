@@ -1,0 +1,45 @@
+"hash": |-
+  f76262bca8c07fb1cc95ce39e4bfbb66211cf003a136bffe938637762143f222
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-------------------+--------------------+--------------------------+
+     | Current "job-     | New "job-state"    | Printer's response       |
+     | state"            |                    | status-code and action:  |
+     +-------------------+--------------------+--------------------------+
+     | 'pending'         | 'pending'          | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'pending-held'    | 'pending-held'     | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'processing'      | 'processing'       | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'processing-      | 'processing-       | 'client-error-not-       |
+     | stopped'          | stopped'           | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'completed'       | 'pending' or       | 'successful-ok' - Job is |
+     |                   | 'pending-held'     | started over.            |
+     +-------------------+--------------------+--------------------------+
+     | 'completed'       | 'completed'        | 'client-error-not-       |
+     |                   |                    | possible' - see Rule 1.  |
+     +-------------------+--------------------+--------------------------+
+     | 'canceled'        | 'pending' or       | 'successful-ok' - Job is |
+     |                   | 'pending-held'     | started over.            |
+     +-------------------+--------------------+--------------------------+
+     | 'canceled'        | 'canceled'         | 'client-error-not-       |
+     |                   |                    | possible' - see Rule 1.  |
+     +-------------------+--------------------+--------------------------+
+     | 'aborted'         | 'pending' or       | 'successful-ok' - Job is |
+     |                   | 'pending-held'     | started over.            |
+     +-------------------+--------------------+--------------------------+
+     | 'aborted'         | 'aborted'          | 'client-error-not-       |
+     |                   |                    | possible' - see Rule 1.  |
+     +-------------------+--------------------+--------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  7778ee7fa0b6fa2924060f06b3a20b609e90c1b90a7d32202e228ae8e9ff374e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Traditional TLS [RFC5246] offers a Diffie-Hellman Ephemeral (DHE) key
+     exchange mode that provides forward secrecy for the connection.  The
+     client offers a cipher suite in the ClientHello that includes DHE,
+     and the server offers the client group parameters generator g and
+     modulus p.  If the client does not consider the group strong enough
+     (e.g., p is too small, p is not prime, or there are small subgroups
+     that cannot be easily avoided) or if it is unable to process the
+     group for other reasons, the client has no recourse but to terminate
+     the connection.
+"fixed": |-
+  Traditional TLS [RFC5246] offers a Diffie-Hellman Ephemeral (DHE) key exchange mode that provides forward secrecy for the connection.  The client offers a cipher suite in the ClientHello that includes DHE, and the server offers the client group parameters generator g and modulus p.  If the client does not consider the group strong enough (e.g., p is too small, p is not prime, or there are small subgroups that cannot be easily avoided) or if it is unable to process the group for other reasons, the client has no recourse but to terminate the connection.
+"ko": |-
+  기존 TLS [RFC5246]는 연결에 대한 순방향 보안을 제공하는 DHE(Diffie-Hellman Ephemeral) 키 교환 모드를 제공합니다.  클라이언트는 DHE를 포함하는 ClientHello에서 암호 제품군을 제공하고 서버는 클라이언트 그룹 매개변수 생성기 g 및 모듈러스 p를 제공합니다.  클라이언트가 그룹이 충분히 강력하다고 생각하지 않거나(예: p가 너무 작거나, p가 소수가 아니거나, 쉽게 피할 수 없는 작은 하위 그룹이 있는 경우) 또는 다른 이유로 그룹을 처리할 수 없는 경우 클라이언트는 다음을 수행해야 합니다. 의지할 곳은 없지만 연결을 종료하는 것뿐입니다.

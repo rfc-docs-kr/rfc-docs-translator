@@ -1,0 +1,18 @@
+"hash": |-
+  56ee2a181d7bfa8f10a60c4750b120053a26718ab0ecdbc59fdf84188f3df86a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For RSA keys, the implementations MUST follow the public-key
+     processing rules of Section 1.2 of the Additional Algorithms and
+     Identifiers for RSA Cryptography for PKIX ([RFC4055]) even when the
+     SubjectPublicKeyInfo is not part of a certificate but is instead sent
+     as a Certificate Data field.  This means that RSASSA-PSS and
+     RSASSA-PSS-params inside the SubjectPublicKeyInfo structure MUST be
+     sent when applicable.
+"fixed": |-
+  For RSA keys, the implementations MUST follow the public-key processing rules of Section 1.2 of the Additional Algorithms and Identifiers for RSA Cryptography for PKIX ([RFC4055]) even when the SubjectPublicKeyInfo is not part of a certificate but is instead sent as a Certificate Data field.  This means that RSASSA-PSS and RSASSA-PSS-params inside the SubjectPublicKeyInfo structure MUST be sent when applicable.
+"ko": |-
+  RSA 키의 경우, 구현은 SubjectPublicKeyInfo가 인증서의 일부가 아니고 대신 인증서로 전송되는 경우에도 PKIX용 RSA 암호화에 대한 추가 알고리즘 및 식별자([RFC4055]) 섹션 1.2의 공개 키 처리 규칙을 따라야 합니다. 데이터 필드.  이는 적용 가능한 경우 SubjectPublicKeyInfo 구조 내부의 RSASSA-PSS 및 RSASSA-PSS-params를 전송해야 함을 의미합니다.

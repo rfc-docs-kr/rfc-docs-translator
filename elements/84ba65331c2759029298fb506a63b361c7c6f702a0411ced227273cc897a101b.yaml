@@ -1,0 +1,23 @@
+"hash": |-
+  84ba65331c2759029298fb506a63b361c7c6f702a0411ced227273cc897a101b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The message-length field specifies the length of the message in
+     octets, including the start-line, and MUST be the second token from
+     the beginning of the message.  This is to make the framing and
+     parsing of the message simpler to do.  This field specifies the
+     length of the message including data that may be encoded into the
+     body of the message.  Note that this value MAY be given as a fixed-
+     length integer that is zero-padded (with leading zeros) in order to
+     eliminate or reduce inefficiency in cases where the message-length
+     value would change as a result of the length of the message-length
+     token itself.  This value, as with all lengths in MRCP, is to be
+     interpreted as a base-10 number.  In particular, leading zeros do not
+     indicate that the value is to be interpreted as a base-8 number.
+"fixed": |-
+  The message-length field specifies the length of the message in octets, including the start-line, and MUST be the second token from the beginning of the message.  This is to make the framing and parsing of the message simpler to do.  This field specifies the length of the message including data that may be encoded into the body of the message.  Note that this value MAY be given as a fixed- length integer that is zero-padded (with leading zeros) in order to eliminate or reduce inefficiency in cases where the message-length value would change as a result of the length of the message-length token itself.  This value, as with all lengths in MRCP, is to be interpreted as a base-10 number.  In particular, leading zeros do not indicate that the value is to be interpreted as a base-8 number.
+"ko": |-
+  메시지 길이 필드는 시작 줄을 포함한 옥텟 단위의 메시지 길이를 지정하며, 메시지 시작 부분에서 두 번째 토큰이어야 합니다.이는 메시지의 프레이밍 및 구문 분석을 보다 간단하게 하기 위한 것입니다.이 필드는 메시지 본문에 인코딩될 수 있는 데이터를 포함한 메시지의 길이를 지정합니다.이 값은 메시지 길이 토큰 자체의 길이로 인해 메시지 길이 값이 변경되는 경우 비효율성을 제거하거나 줄이기 위해 앞에 0이 있는 고정 길이 정수로 지정될 수 있습니다.MRCP의 모든 길이와 마찬가지로 이 값은 10진수 숫자로 해석해야 합니다.특히 앞에 0이 있다고 해서 값이 8진수 숫자로 해석되어야 한다는 것을 나타내지 않습니다.

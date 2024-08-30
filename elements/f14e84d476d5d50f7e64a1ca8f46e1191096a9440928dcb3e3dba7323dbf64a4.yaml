@@ -1,0 +1,17 @@
+"hash": |-
+  f14e84d476d5d50f7e64a1ca8f46e1191096a9440928dcb3e3dba7323dbf64a4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The 'handling' parameter is a Content-Disposition parameter.
+     Therefore, in order to set this parameter, it is necessary to provide
+     the 'multipart/mixed' body with a disposition type.  Per [RFC3261],
+     the default disposition type for 'application/sdp' is 'session' and
+     for other bodies is 'render'.  UAs SHOULD assign 'multipart/mixed'
+     bodies a disposition type of 'render'.
+"fixed": |-
+  The 'handling' parameter is a Content-Disposition parameter. Therefore, in order to set this parameter, it is necessary to provide the 'multipart/mixed' body with a disposition type.  Per [RFC3261], the default disposition type for 'application/sdp' is 'session' and for other bodies is 'render'.  UAs SHOULD assign 'multipart/mixed' bodies a disposition type of 'render'.
+"ko": |-
+  'handling' 매개변수는 Content-Disposition 매개변수입니다. 따라서 이 매개변수를 설정하려면 'multipart/mixed' 본문에 처리 유형을 제공해야 합니다. [RFC3261]에 따르면 'application/sdp'의 기본 처리 유형은 'session'이고 다른 본문의 경우 'render'입니다. UA는 'multipart/mixed' 본문에 'render' 처리 유형을 지정해야 합니다.

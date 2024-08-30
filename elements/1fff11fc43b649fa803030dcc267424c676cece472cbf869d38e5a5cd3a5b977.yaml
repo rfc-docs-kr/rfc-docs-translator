@@ -1,0 +1,28 @@
+"hash": |-
+  1fff11fc43b649fa803030dcc267424c676cece472cbf869d38e5a5cd3a5b977
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Many server responses and response codes are only meaningful in
+        authenticated or even selected state.  However, nothing prevents a
+        server (or an on-path attacker) from sending such invalid
+        responses in cleartext before STARTTLS/AUTHENTICATE commands are
+        issued.  Before authentication, clients SHOULD ignore any
+        responses other than CAPABILITY and server status responses
+        (Section 7.1), as well as any response codes other than
+        CAPABILITY.  (In particular, some email clients are known to
+        incorrectly process LIST responses received before authentication,
+        or FETCH responses when no mailbox is selected.)  Clients SHOULD
+        ignore the ALERT response code until after TLS (whether using
+        STARTTLS or TLS negotiation on an Implicit TLS port) or a SASL
+        security layer with confidentiality protection has been
+        successfully negotiated.  Unless explicitly allowed by an IMAP
+        extension, when not in selected state, clients MUST ignore
+        responses / response codes related to message and mailbox status
+        such as FLAGS, EXIST, EXPUNGE, and FETCH.
+"fixed": |-
+  *  Many server responses and response codes are only meaningful in authenticated or even selected state.  However, nothing prevents a server (or an on-path attacker) from sending such invalid responses in cleartext before STARTTLS/AUTHENTICATE commands are issued.  Before authentication, clients SHOULD ignore any responses other than CAPABILITY and server status responses (Section 7.1), as well as any response codes other than CAPABILITY.  (In particular, some email clients are known to incorrectly process LIST responses received before authentication, or FETCH responses when no mailbox is selected.)  Clients SHOULD ignore the ALERT response code until after TLS (whether using STARTTLS or TLS negotiation on an Implicit TLS port) or a SASL security layer with confidentiality protection has been successfully negotiated.  Unless explicitly allowed by an IMAP extension, when not in selected state, clients MUST ignore responses / response codes related to message and mailbox status such as FLAGS, EXIST, EXPUNGE, and FETCH.
+"ko": |-
+  * 많은 서버 응답 및 응답 코드는 인증된 상태 또는 선택된 상태에서만 의미가 있습니다.  그러나 STARTTLS/AUTHENTICATE 명령이 실행되기 전에 서버(또는 경로상의 공격자)가 일반 텍스트로 잘못된 응답을 보내는 것을 막을 수 있는 방법은 없습니다.  인증 전에 클라이언트는 CAPABILITY 및 서버 상태 응답(7.1절) 이외의 모든 응답과 CAPABILITY 이외의 모든 응답 코드를 무시해야 합니다.  (특히 일부 이메일 클라이언트는 인증 전에 수신된 LIST 응답을 잘못 처리하거나 사서함이 선택되지 않은 경우 FETCH 응답을 잘못 처리하는 것으로 알려져 있습니다.) 클라이언트는 TLS 이후까지 ALERT 응답 코드를 무시해야 합니다(암시적 TLS 포트에서 STARTTLS 또는 TLS 협상을 사용하는지 여부). ) 또는 기밀 보호 기능이 있는 SASL 보안 계층이 성공적으로 협상되었습니다.  IMAP 확장에서 명시적으로 허용하지 않는 한, 선택 상태가 아닌 경우 클라이언트는 FLAGS, EXIST, EXPUNGE 및 FETCH와 같은 메시지 및 메일함 상태와 관련된 응답/응답 코드를 무시해야 합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  273c228ddf00c92d40b25de76d070760fe311bcfd2dbe16b2d2cc30f6d7f9341
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Instead of setting up a security tunnel between each pair of CE
+     routers, it may be advantageous to set up a single, multiparty
+     security association. In such a security association, all the CE
+     routers which are in a particular VPN would share the same security
+     parameters (.e.g., same secret, same algorithm, etc.). Then the
+     ingress CE wouldn't have to know which CE is the next one to receive
+     the data, it would only have to know which VPN the data is going to.
+     A CE which is in multiple VPNs could use different security
+     parameters for each one, thus protecting, e.g., intranet packets from
+     being exposed to the extranet.
+"fixed": |-
+  Instead of setting up a security tunnel between each pair of CE routers, it may be advantageous to set up a single, multiparty security association. In such a security association, all the CE routers which are in a particular VPN would share the same security parameters (.e.g., same secret, same algorithm, etc.). Then the ingress CE wouldn't have to know which CE is the next one to receive the data, it would only have to know which VPN the data is going to. A CE which is in multiple VPNs could use different security parameters for each one, thus protecting, e.g., intranet packets from being exposed to the extranet.
+"ko": |-
+  각 CE 라우터 쌍 사이에 보안 터널을 설정하는 대신, 단일의 다중 당사자 보안 연결을 설정하는 것이 유리할 수 있습니다. 이러한 보안 연결에서 특정 VPN에 있는 모든 CE 라우터는 동일한 보안 매개변수(예: 동일한 비밀, 동일한 알고리즘 등)를 공유합니다. 그러면 인그레스 CE는 다음에 데이터를 수신할 CE가 누구인지 알 필요가 없고, 데이터가 어느 VPN으로 가는지만 알면 됩니다. 여러 VPN에 있는 CE는 각각에 대해 다른 보안 매개변수를 사용하여, 예를 들어 인트라넷 패킷이 엑스트라넷에 노출되는 것을 방지할 수 있습니다.

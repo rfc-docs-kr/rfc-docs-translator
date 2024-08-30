@@ -1,0 +1,20 @@
+"hash": |-
+  f793d713b0409b00743e6df2bc1de750d0f78dd3998d201d47366a5510446e77
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations must randomly generate public/private key pairs, MAC
+     keys, and padding values.  The use of inadequate pseudorandom number
+     generators (PRNGs) to generate cryptographic keys can result in
+     little or no security.  An attacker may find it much easier to
+     reproduce the PRNG environment that produced the keys, searching the
+     resulting small set of possibilities rather than brute-force
+     searching the whole key space.  The generation of quality random
+     numbers is difficult.  RFC 4086 [RFC4086] offers important guidance
+     in this area.
+"fixed": |-
+  Implementations must randomly generate public/private key pairs, MAC keys, and padding values.  The use of inadequate pseudorandom number generators (PRNGs) to generate cryptographic keys can result in little or no security.  An attacker may find it much easier to reproduce the PRNG environment that produced the keys, searching the resulting small set of possibilities rather than brute-force searching the whole key space.  The generation of quality random numbers is difficult.  RFC 4086 [RFC4086] offers important guidance in this area.
+"ko": |-
+  구현은 공개/개인 키 쌍, MAC 키 및 패딩 값을 무작위로 생성해야 합니다. 암호화 키를 생성하는 데 부적절한 의사 난수 생성기(PRNG)를 사용하면 보안이 거의 또는 전혀 보장되지 않을 수 있습니다. 공격자는 키를 생성한 PRNG 환경을 재생성하여 전체 키 공간을 무차별 대입하여 검색하는 것보다 결과적으로 발생하는 작은 가능성 집합을 검색하는 것이 훨씬 더 쉽다고 생각할 수 있습니다. 양질의 난수를 생성하는 것은 어렵습니다. RFC 4086[RFC4086]은 이 분야에서 중요한 지침을 제공합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  a220d503afef45a480ee7332acd8233ab2b807c4890f22d5776ce23ddcbea08c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client is configured to save a copy of all mail sent by the user
+     into a mailbox with the \Sent attribute (see Section 7.3.1).
+     Furthermore, after a message is deleted from a mailbox, the client is
+     configured to move that message to a mailbox with the \Trash
+     attribute.  The server signals with the \NonExistent mailbox
+     attribute that the corresponding mailboxes don't exist yet and that
+     it is possible to create them.  Once created, they could be used for
+     \Sent or \Trash purposes, and the server will no longer include the
+     \NonExistent mailbox attribute for them.
+"fixed": |-
+  The client is configured to save a copy of all mail sent by the user into a mailbox with the \Sent attribute (see Section 7.3.1). Furthermore, after a message is deleted from a mailbox, the client is configured to move that message to a mailbox with the \Trash attribute.  The server signals with the \NonExistent mailbox attribute that the corresponding mailboxes don't exist yet and that it is possible to create them.  Once created, they could be used for \Sent or \Trash purposes, and the server will no longer include the \NonExistent mailbox attribute for them.
+"ko": |-
+  클라이언트는 사용자가 보낸 모든 메일의 복사본을 \Sent 속성이 있는 사서함에 저장하도록 구성됩니다(섹션 7.3.1 참조). 또한 메시지가 사서함에서 삭제된 후 클라이언트는 해당 메시지를 \Trash 특성이 있는 사서함으로 이동하도록 구성됩니다.  서버는 \NonExistent 사서함 특성을 사용하여 해당 사서함이 아직 존재하지 않으며 사서함을 만들 수 있다는 신호를 보냅니다.  일단 생성되면 \Sent 또는 \Trash 목적으로 사용될 수 있으며 서버에는 더 이상 \NonExistent 사서함 특성이 포함되지 않습니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  f4df6ce399f9520ea338f2a4e490ee3bc73b0bbff12c28777583ef2cbdaa73b3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An application protocol can use the connection during the handshake
+     phase with some limitations.  0-RTT allows application data to be
+     sent by a client before receiving a response from the server.
+     However, 0-RTT provides no protection against replay attacks; see
+     Section 9.2 of [QUIC-TLS].  A server can also send application data
+     to a client before it receives the final cryptographic handshake
+     messages that allow it to confirm the identity and liveness of the
+     client.  These capabilities allow an application protocol to offer
+     the option of trading some security guarantees for reduced latency.
+"fixed": |-
+  An application protocol can use the connection during the handshake phase with some limitations.  0-RTT allows application data to be sent by a client before receiving a response from the server. However, 0-RTT provides no protection against replay attacks; see Section 9.2 of [QUIC-TLS].  A server can also send application data to a client before it receives the final cryptographic handshake messages that allow it to confirm the identity and liveness of the client.  These capabilities allow an application protocol to offer the option of trading some security guarantees for reduced latency.
+"ko": |-
+  애플리케이션 프로토콜은 몇 가지 제한 사항이 있지만 핸드셰이크 단계 중에 연결을 사용할 수 있습니다. 0-RTT를 사용하면 서버로부터 응답을 받기 전에 클라이언트가 애플리케이션 데이터를 보낼 수 있습니다. 그러나 0-RTT는 재생 공격에 대한 보호 기능을 제공하지 않습니다. [QUIC-TLS]의 섹션 9.2를 참조하세요. 또한 서버는 클라이언트의 신원과 활성 상태를 확인할 수 있는 최종 암호화 핸드셰이크 메시지를 받기 전에 클라이언트에 애플리케이션 데이터를 보낼 수도 있습니다. 이러한 기능을 통해 애플리케이션 프로토콜은 대기 시간 단축을 위해 일부 보안 보장을 거래하는 옵션을 제공할 수 있습니다.

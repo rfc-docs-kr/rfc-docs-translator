@@ -1,0 +1,30 @@
+"hash": |-
+  01ec269b5dac2faa5cbf87870ee95badeb1436f3c7f40fc0e54ed3cf8edd45b3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            v=0
+            o=sarvi 2614933546 2614933548 IN IP4 192.0.2.12
+            s=Set up MRCPv2 control and audio
+            i=Add recognizer and duplex the audio
+            c=IN IP4 192.0.2.12
+            t=0 0
+            m=application 9  TCP/MRCPv2 1
+            a=setup:active
+            a=connection:existing
+            a=resource:speechsynth
+            a=cmid:1
+            m=audio 49170 RTP/AVP 0 96
+            a=rtpmap:0 pcmu/8000
+            a=rtpmap:96 telephone-event/8000
+            a=fmtp:96 0-15
+            a=recvonly
+            a=mid:1
+            m=application 9  TCP/MRCPv2 1
+            a=setup:active
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

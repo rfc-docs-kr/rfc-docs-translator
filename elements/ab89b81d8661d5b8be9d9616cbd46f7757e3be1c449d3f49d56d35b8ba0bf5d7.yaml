@@ -1,0 +1,18 @@
+"hash": |-
+  ab89b81d8661d5b8be9d9616cbd46f7757e3be1c449d3f49d56d35b8ba0bf5d7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     8.  Validate the JWS Signature against the JWS Signing Input
+         ASCII(BASE64URL(UTF8(JWS Protected Header)) || '.' ||
+         BASE64URL(JWS Payload)) in the manner defined for the algorithm
+         being used, which MUST be accurately represented by the value of
+         the "alg" (algorithm) Header Parameter, which MUST be present.
+         See Section 10.6 for security considerations on algorithm
+         validation.  Record whether the validation succeeded or not.
+"fixed": |-
+  1.  Validate the JWS Signature against the JWS Signing Input ASCII(BASE64URL(UTF8(JWS Protected Header)) || '.' || BASE64URL(JWS Payload)) in the manner defined for the algorithm being used, which MUST be accurately represented by the value of the "alg" (algorithm) Header Parameter, which MUST be present. See Section 10.6 for security considerations on algorithm validation.  Record whether the validation succeeded or not.
+"ko": |-
+  1. JWS 서명을 JWS 서명 입력 ASCII(BASE64URL(UTF8(JWS 보호 헤더)) || '.' || BASE64URL(JWS 페이로드))에 대해 알고리즘에 정의된 방식으로 검증합니다. 이는 반드시 존재해야 하는 "alg"(알고리즘) 헤더 매개변수의 값으로 정확하게 표현되어야 합니다. 알고리즘 검증에 대한 보안 고려 사항은 섹션 10.6을 참조하세요. 검증이 성공했는지 여부를 기록합니다.

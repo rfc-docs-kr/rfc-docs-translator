@@ -1,0 +1,20 @@
+"hash": |-
+  35664595ee5d62f117e43e02f550afe68954d80c5b61ae151ed3b18d957c117f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server can also use a Retry packet to defer the state and
+     processing costs of connection establishment.  Requiring the server
+     to provide a different connection ID, along with the
+     original_destination_connection_id transport parameter defined in
+     Section 18.2, forces the server to demonstrate that it, or an entity
+     it cooperates with, received the original Initial packet from the
+     client.  Providing a different connection ID also grants a server
+     some control over how subsequent packets are routed.  This can be
+     used to direct connections to a different server instance.
+"fixed": |-
+  A server can also use a Retry packet to defer the state and processing costs of connection establishment.  Requiring the server to provide a different connection ID, along with the original_destination_connection_id transport parameter defined in Section 18.2, forces the server to demonstrate that it, or an entity it cooperates with, received the original Initial packet from the client.  Providing a different connection ID also grants a server some control over how subsequent packets are routed.  This can be used to direct connections to a different server instance.
+"ko": |-
+  서버는 재시도 패킷을 사용하여 연결 설정의 상태 및 처리 비용을 연기할 수도 있습니다. 섹션 18.2에 정의된 original_destination_connection_id 전송 매개변수와 함께 서버에 다른 연결 ID를 제공하도록 요구하면 서버는 서버 또는 서버와 협력하는 엔터티가 클라이언트로부터 원본 초기 패킷을 수신했음을 입증해야 합니다. 다른 연결 ID를 제공하면 후속 패킷이 라우팅되는 방식에 대한 일부 제어 권한이 서버에 부여됩니다. 이는 다른 서버 인스턴스에 직접 연결하는 데 사용될 수 있습니다.

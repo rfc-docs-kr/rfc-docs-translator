@@ -1,0 +1,14 @@
+"hash": |-
+  59f4051f9904cc3ff76732e5f64d1901873e45866758c312e4fe701df5b9c989
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Sessions can be easily terminated.  A man-in-the-middle can easily
+        insert a TCP FIN to close the session, and the peer is unable to
+        determine whether or not it was a legitimate end of the session.
+"fixed": |-
+  -  Sessions can be easily terminated.  A man-in-the-middle can easily insert a TCP FIN to close the session, and the peer is unable to determine whether or not it was a legitimate end of the session.
+"ko": |-
+  - 세션을 쉽게 종료할 수 있습니다. 중간자(man-in-the-middle)는 쉽게 TCP FIN을 삽입하여 세션을 닫을 수 있으며, 피어는 그것이 합법적인 세션 종료인지 여부를 확인할 수 없습니다.

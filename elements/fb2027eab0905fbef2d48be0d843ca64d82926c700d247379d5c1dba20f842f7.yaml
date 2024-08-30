@@ -1,0 +1,18 @@
+"hash": |-
+  fb2027eab0905fbef2d48be0d843ca64d82926c700d247379d5c1dba20f842f7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server MAY consider a client inactive if it has an IDLE command
+     running, and if such a server has an inactivity timeout, it MAY log
+     the client off implicitly at the end of its timeout period.  Because
+     of that, clients using IDLE are advised to terminate IDLE and reissue
+     it at least every 29 minutes to avoid being logged off.  This still
+     allows a client to receive immediate mailbox updates even though it
+     need only "poll" at half hour intervals.
+"fixed": |-
+  The server MAY consider a client inactive if it has an IDLE command running, and if such a server has an inactivity timeout, it MAY log the client off implicitly at the end of its timeout period.  Because of that, clients using IDLE are advised to terminate IDLE and reissue it at least every 29 minutes to avoid being logged off.  This still allows a client to receive immediate mailbox updates even though it need only "poll" at half hour intervals.
+"ko": |-
+  서버는 IDLE 명령이 실행 중인 경우 클라이언트를 비활성 상태로 간주할 수 있으며, 해당 서버에 비활성 시간 초과가 있는 경우 시간 초과 기간이 끝나면 암묵적으로 클라이언트를 로그오프할 수 있습니다.  따라서 IDLE을 사용하는 클라이언트는 로그오프를 방지하기 위해 IDLE을 종료하고 최소한 29분마다 다시 실행하는 것이 좋습니다.  이를 통해 클라이언트는 30분 간격으로 "폴링"만 필요하더라도 즉시 사서함 업데이트를 받을 수 있습니다.

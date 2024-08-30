@@ -1,0 +1,18 @@
+"hash": |-
+  643eea6ebd91a16167a4837e7fea39d4d2cda71209d7351a4abc330b6ead0f88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As described in Section 3.10, Peer A can send Peer-Exchange messages
+     PEX_RES to Peer B, which contain the IP address and port of other
+     peers that are supposedly also in the current swarm.  The strength of
+     this mechanism is that it allows decentralized tracking: after an
+     initial bootstrap, no central tracker is needed.  The vulnerability
+     of this mechanism (and DHTs) is that malicious peers can use it for
+     an Amplification attack.
+"fixed": |-
+  As described in Section 3.10, Peer A can send Peer-Exchange messages PEX_RES to Peer B, which contain the IP address and port of other peers that are supposedly also in the current swarm.  The strength of this mechanism is that it allows decentralized tracking: after an initial bootstrap, no central tracker is needed.  The vulnerability of this mechanism (and DHTs) is that malicious peers can use it for an Amplification attack.
+"ko": |-
+  섹션 3.10에 설명된 대로 피어 A는 피어 B에 Peer-Exchange 메시지 PEX_RES를 보낼 수 있습니다. 여기에는 현재 스웜에도 있는 것으로 추정되는 다른 피어의 IP 주소와 포트가 포함되어 있습니다. 이 메커니즘의 장점은 분산 추적이 가능하다는 것입니다. 즉, 초기 부트스트랩 후에는 중앙 추적기가 필요하지 않습니다. 이 메커니즘(및 DHT)의 취약점은 악의적인 피어가 증폭 공격에 이를 사용할 수 있다는 것입니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  d976215c25489f1c0cec8fd690a281ba12f8276998530dc7d8690a30ca2f8387
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If multiple parts are being transferred, the server generating the
+     206 response MUST generate "multipart/byteranges" content, as defined
+     in Section 14.6, and a Content-Type header field containing the
+     "multipart/byteranges" media type and its required boundary
+     parameter.  To avoid confusion with single-part responses, a server
+     MUST NOT generate a Content-Range header field in the HTTP header
+     section of a multiple part response (this field will be sent in each
+     part instead).
+"fixed": |-
+  If multiple parts are being transferred, the server generating the 206 response MUST generate "multipart/byteranges" content, as defined in Section 14.6, and a Content-Type header field containing the "multipart/byteranges" media type and its required boundary parameter.  To avoid confusion with single-part responses, a server MUST NOT generate a Content-Range header field in the HTTP header section of a multiple part response (this field will be sent in each part instead).
+"ko": |-
+  여러 부분이 전송되는 경우 206 응답을 생성하는 서버는 섹션 14.6에 정의된 대로 "multipart/byteranges" 콘텐츠와 "multipart/byteranges" 미디어 유형 및 필수 경계 매개변수를 포함하는 Content-Type 헤더 필드를 생성해야 합니다. 단일 부분 응답과의 혼동을 피하기 위해 서버는 다중 부분 응답의 HTTP 헤더 섹션에 Content-Range 헤더 필드를 생성해서는 안 됩니다(이 필드는 대신 각 부분에서 전송됩니다).

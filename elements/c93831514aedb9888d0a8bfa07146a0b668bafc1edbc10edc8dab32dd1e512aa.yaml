@@ -1,0 +1,18 @@
+"hash": |-
+  c93831514aedb9888d0a8bfa07146a0b668bafc1edbc10edc8dab32dd1e512aa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that sending a "renegotiation_info" extension in response to a
+     ClientHello containing only the SCSV is an explicit exception to the
+     prohibition in RFC 5246, Section 7.4.1.4, on the server sending
+     unsolicited extensions and is only allowed because the client is
+     signaling its willingness to receive the extension via the
+     TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV.  TLS implementations MUST
+     continue to comply with Section 7.4.1.4 for all other extensions.
+"fixed": |-
+  Note that sending a "renegotiation_info" extension in response to a ClientHello containing only the SCSV is an explicit exception to the prohibition in RFC 5246, Section 7.4.1.4, on the server sending unsolicited extensions and is only allowed because the client is signaling its willingness to receive the extension via the TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV.  TLS implementations MUST continue to comply with Section 7.4.1.4 for all other extensions.
+"ko": |-
+  SCSV만 포함된 ClientHello에 대한 응답으로 "renegotiation_info" 확장을 보내는 것은 원치 않는 확장을 보내는 서버에 대한 RFC 5246, 섹션 7.4.1.4의 금지 사항에 대한 명시적인 예외이며 클라이언트가 해당 의지를 신호하기 때문에 허용됩니다. TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV를 통해 확장을 수신합니다. TLS 구현은 다른 모든 확장에 대해 섹션 7.4.1.4를 계속 준수해야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  9fae1111840cee49f6b984b9b41b345bb9de2dfeb4ea91e0450b564149673794
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If ESN (see Appendix) is selected, only the low-order 32 bits of the
+     sequence number are transmitted in the Sequence Number field,
+     although both sender and receiver maintain full 64-bit ESN counters.
+     The high order 32 bits are included in the integrity check in an
+     algorithm/mode-specific fashion, e.g., the high-order 32 bits may be
+     appended after the Next Header field when a separate integrity
+     algorithm is employed.
+"fixed": |-
+  If ESN (see Appendix) is selected, only the low-order 32 bits of the sequence number are transmitted in the Sequence Number field, although both sender and receiver maintain full 64-bit ESN counters. The high order 32 bits are included in the integrity check in an algorithm/mode-specific fashion, e.g., the high-order 32 bits may be appended after the Next Header field when a separate integrity algorithm is employed.
+"ko": |-
+  ESN(부록 참조)을 선택한 경우 송신자와 수신자 모두 전체 64비트 ESN 카운터를 유지하더라도 시퀀스 번호의 하위 32비트만 시퀀스 번호 필드에 전송됩니다. 상위 32비트는 알고리즘/모드별 방식으로 무결성 검사에 포함됩니다. 예를 들어 별도의 무결성 알고리즘이 사용되는 경우 상위 32비트는 다음 헤더 필드 뒤에 추가될 수 있습니다.

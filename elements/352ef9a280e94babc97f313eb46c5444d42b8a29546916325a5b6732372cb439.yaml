@@ -1,0 +1,17 @@
+"hash": |-
+  352ef9a280e94babc97f313eb46c5444d42b8a29546916325a5b6732372cb439
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Hold Time field of the OPEN message is unacceptable, then the
+     Error Subcode MUST be set to Unacceptable Hold Time.  An
+     implementation MUST reject Hold Time values of one or two seconds.
+     An implementation MAY reject any proposed Hold Time.  An
+     implementation that accepts a Hold Time MUST use the negotiated value
+     for the Hold Time.
+"fixed": |-
+  If the Hold Time field of the OPEN message is unacceptable, then the Error Subcode MUST be set to Unacceptable Hold Time.  An implementation MUST reject Hold Time values of one or two seconds. An implementation MAY reject any proposed Hold Time.  An implementation that accepts a Hold Time MUST use the negotiated value for the Hold Time.
+"ko": |-
+  OPEN 메시지의 보류 시간 필드가 허용되지 않는 경우 오류 하위 코드는 허용되지 않는 보류 시간으로 설정되어야 합니다. 구현에서는 1초 또는 2초의 유지 시간 값을 거부해야 합니다(MUST). 구현에서는 제안된 보류 시간을 거부할 수 있습니다. 보류 시간을 허용하는 구현은 보류 시간에 대해 협상된 값을 사용해야 합니다.

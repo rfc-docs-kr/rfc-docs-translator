@@ -1,0 +1,33 @@
+"hash": |-
+  56e5c48d40da7d21b6eb2859b03aefcfb87e6812cba30ef60e365b35e0927239
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------+-----------------------+------------------------------+
+     | Cause-Code | Cause-Name            | Description                  |
+     +------------+-----------------------+------------------------------+
+     | 000        | normal                | SPEAK completed normally.    |
+     | 001        | barge-in              | SPEAK request was terminated |
+     |            |                       | because of barge-in.         |
+     | 002        | parse-failure         | SPEAK request terminated     |
+     |            |                       | because of a failure to      |
+     |            |                       | parse the speech markup      |
+     |            |                       | text.                        |
+     | 003        | uri-failure           | SPEAK request terminated     |
+     |            |                       | because access to one of the |
+     |            |                       | URIs failed.                 |
+     | 004        | error                 | SPEAK request terminated     |
+     |            |                       | prematurely due to           |
+     |            |                       | synthesizer error.           |
+     | 005        | language-unsupported  | Language not supported.      |
+     | 006        | lexicon-load-failure  | Lexicon loading failed.      |
+     | 007        | cancelled             | A prior SPEAK request failed |
+     |            |                       | while this one was still in  |
+     |            |                       | the queue.                   |
+     +------------+-----------------------+------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

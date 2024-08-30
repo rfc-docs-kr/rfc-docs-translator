@@ -1,0 +1,17 @@
+"hash": |-
+  b2bc4367d12d8d8232fec3551dd6d4fdf439ca29b9fb9c6b85f886b1707f0e54
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint restarts its idle timer when a packet from its peer is
+     received and processed successfully.  An endpoint also restarts its
+     idle timer when sending an ack-eliciting packet if no other ack-
+     eliciting packets have been sent since last receiving and processing
+     a packet.  Restarting this timer when sending a packet ensures that
+     connections are not closed after new activity is initiated.
+"fixed": |-
+  An endpoint restarts its idle timer when a packet from its peer is received and processed successfully.  An endpoint also restarts its idle timer when sending an ack-eliciting packet if no other ack- eliciting packets have been sent since last receiving and processing a packet.  Restarting this timer when sending a packet ensures that connections are not closed after new activity is initiated.
+"ko": |-
+  엔드포인트는 피어로부터 패킷이 수신되어 성공적으로 처리되면 유휴 타이머를 다시 시작합니다. 또한 엔드포인트는 패킷을 마지막으로 수신하고 처리한 이후 다른 확인 패킷이 전송되지 않은 경우 확인 패킷을 보낼 때 유휴 타이머를 다시 시작합니다. 패킷을 보낼 때 이 타이머를 다시 시작하면 새 활동이 시작된 후에도 연결이 닫히지 않습니다.

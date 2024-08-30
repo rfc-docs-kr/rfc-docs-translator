@@ -1,0 +1,20 @@
+"hash": |-
+  bd9af9f6fbb9cea5401607d4a3a7aae88fa8f1f38e7288e4621475f37563bac1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that sends a 101 (Switching Protocols) response MUST send an
+     Upgrade header field to indicate the new protocol(s) to which the
+     connection is being switched; if multiple protocol layers are being
+     switched, the sender MUST list the protocols in layer-ascending
+     order.  A server MUST NOT switch to a protocol that was not indicated
+     by the client in the corresponding request's Upgrade header field.  A
+     server MAY choose to ignore the order of preference indicated by the
+     client and select the new protocol(s) based on other factors, such as
+     the nature of the request or the current load on the server.
+"fixed": |-
+  A server that sends a 101 (Switching Protocols) response MUST send an Upgrade header field to indicate the new protocol(s) to which the connection is being switched; if multiple protocol layers are being switched, the sender MUST list the protocols in layer-ascending order.  A server MUST NOT switch to a protocol that was not indicated by the client in the corresponding request's Upgrade header field.  A server MAY choose to ignore the order of preference indicated by the client and select the new protocol(s) based on other factors, such as the nature of the request or the current load on the server.
+"ko": |-
+  101(Switching Protocols) 응답을 보내는 서버는 연결이 전환되는 새로운 프로토콜을 나타내기 위해 업그레이드 헤더 필드를 보내야 합니다. 여러 프로토콜 계층이 전환되는 경우 발신자는 프로토콜을 계층 오름차순으로 나열해야 합니다. 서버는 해당 요청의 업그레이드 헤더 필드에 클라이언트가 표시하지 않은 프로토콜로 전환해서는 안 됩니다. 서버는 클라이언트가 지정한 우선 순위를 무시하고 요청의 성격이나 서버의 현재 로드와 같은 다른 요소를 기반으로 새 프로토콜을 선택할 수 있습니다.

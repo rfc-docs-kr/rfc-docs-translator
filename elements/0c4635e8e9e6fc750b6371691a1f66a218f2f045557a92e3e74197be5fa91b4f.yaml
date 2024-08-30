@@ -1,0 +1,17 @@
+"hash": |-
+  0c4635e8e9e6fc750b6371691a1f66a218f2f045557a92e3e74197be5fa91b4f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the RECORD request did not have a Record-URI header field, the
+     STOP response or the RECORD-COMPLETE event MUST contain a message
+     body carrying the captured audio.  In this case, the message carrying
+     the audio content has a Record-URI header field with a Content ID
+     value pointing to the message body entity that contains the recorded
+     audio.  See Section 10.4.7 for details.
+"fixed": |-
+  If the RECORD request did not have a Record-URI header field, the STOP response or the RECORD-COMPLETE event MUST contain a message body carrying the captured audio.  In this case, the message carrying the audio content has a Record-URI header field with a Content ID value pointing to the message body entity that contains the recorded audio.  See Section 10.4.7 for details.
+"ko": |-
+  RECORD 요청에 Record-URI 헤더 필드가 없는 경우 STOP 응답 또는 RECORD-COMPLETE 이벤트에는 캡처된 오디오를 전달하는 메시지 본문이 포함되어야 합니다. 이 경우 오디오 콘텐츠를 전달하는 메시지에는 녹음된 오디오를 포함하는 메시지 본문 엔터티를 가리키는 콘텐츠 ID 값이 있는 Record-URI 헤더 필드가 있습니다. 자세한 내용은 섹션 10.4.7을 참조하십시오.

@@ -1,0 +1,1 @@
+이 데이터 블록은 SET-PARAMS 및 GET-PARAMS 메서드/응답 메시지에서 전달됩니다. GET-PARAMS 메서드에서 빈 Recognizer-Context-Block 헤더 필드가 있는 경우 인식기는 메시지 본문에 특정 Content-ID가 있는 미디어 유형 'application/octets'의 엔터티로 공급업체별 컨텍스트 블록(있는 경우)을 반환해야 합니다. Content-ID 값은 GET-PARAMS 응답의 Recognizer-Context-Block 헤더 필드에서도 지정해야 합니다. 이 공급업체별 데이터를 제공하려는 SET-PARAMS 요청은 동일한 유형이 지정된 엔터티로 메시지 본문에 보내야 합니다.

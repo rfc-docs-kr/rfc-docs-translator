@@ -1,0 +1,16 @@
+"hash": |-
+  161d02ca66754a04b440dafbc12a282ced70888f04827614e65ea15935657d9a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is possible that all stream data has already been received when a
+     RESET_STREAM is received (that is, in the "Data Recvd" state).
+     Similarly, it is possible for remaining stream data to arrive after
+     receiving a RESET_STREAM frame (the "Reset Recvd" state).  An
+     implementation is free to manage this situation as it chooses.
+"fixed": |-
+  It is possible that all stream data has already been received when a RESET_STREAM is received (that is, in the "Data Recvd" state). Similarly, it is possible for remaining stream data to arrive after receiving a RESET_STREAM frame (the "Reset Recvd" state).  An implementation is free to manage this situation as it chooses.
+"ko": |-
+  RESET_STREAM이 수신될 때(즉, "Data Recvd" 상태) 모든 스트림 데이터가 이미 수신되었을 가능성이 있습니다. 마찬가지로, RESET_STREAM 프레임("Reset Recvd" 상태)을 수신한 후에 나머지 스트림 데이터가 도착할 수 있습니다. 구현은 원하는 대로 이 상황을 자유롭게 관리할 수 있습니다.

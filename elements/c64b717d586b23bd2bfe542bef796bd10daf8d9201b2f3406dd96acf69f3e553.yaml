@@ -1,0 +1,18 @@
+"hash": |-
+  c64b717d586b23bd2bfe542bef796bd10daf8d9201b2f3406dd96acf69f3e553
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.  In the event a new IPv6 address is assigned to the B4 element,
+         the AFTR SHOULD migrate existing state to be bound to the new
+         IPv6 address.  This operation ensures that traffic destined to
+         the previous B4's IPv6 address will be redirected to the newer
+         B4's IPv6 address.  The destination IPv6 address for tunneling
+         return traffic from the AFTR SHOULD be the last seen as the B4's
+         IPv6 source address from the CPE.
+"fixed": |-
+  1.  In the event a new IPv6 address is assigned to the B4 element, the AFTR SHOULD migrate existing state to be bound to the new IPv6 address.  This operation ensures that traffic destined to the previous B4's IPv6 address will be redirected to the newer B4's IPv6 address.  The destination IPv6 address for tunneling return traffic from the AFTR SHOULD be the last seen as the B4's IPv6 source address from the CPE.
+"ko": |-
+  1. 새 IPv6 주소가 B4 요소에 할당되는 경우 AFTR은 기존 상태를 새 IPv6 주소에 바인딩하도록 마이그레이션해야 합니다.  이 작업을 통해 이전 B4의 IPv6 주소로 향하는 트래픽이 최신 B4의 IPv6 주소로 리디렉션됩니다.  AFTR의 터널링 반환 트래픽을 위한 대상 IPv6 주소는 CPE에서 B4의 IPv6 소스 주소로 마지막으로 표시되어야 합니다.

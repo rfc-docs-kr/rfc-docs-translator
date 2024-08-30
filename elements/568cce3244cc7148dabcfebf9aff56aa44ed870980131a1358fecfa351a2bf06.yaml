@@ -1,0 +1,18 @@
+"hash": |-
+  568cce3244cc7148dabcfebf9aff56aa44ed870980131a1358fecfa351a2bf06
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver that sends only non-ack-eliciting packets, such as ACK
+     frames, might not receive an acknowledgment for a long period of
+     time.  This could cause the receiver to maintain state for a large
+     number of ACK frames for a long period of time, and ACK frames it
+     sends could be unnecessarily large.  In such a case, a receiver could
+     send a PING or other small ack-eliciting frame occasionally, such as
+     once per round trip, to elicit an ACK from the peer.
+"fixed": |-
+  A receiver that sends only non-ack-eliciting packets, such as ACK frames, might not receive an acknowledgment for a long period of time.  This could cause the receiver to maintain state for a large number of ACK frames for a long period of time, and ACK frames it sends could be unnecessarily large.  In such a case, a receiver could send a PING or other small ack-eliciting frame occasionally, such as once per round trip, to elicit an ACK from the peer.
+"ko": |-
+  ACK 프레임과 같이 승인을 유도하지 않는 패킷만 전송하는 수신자는 오랫동안 승인을 받지 못할 수 있습니다. 이로 인해 수신자가 오랜 기간 동안 많은 수의 ACK 프레임에 대한 상태를 유지할 수 있으며, 수신자가 보내는 ACK 프레임이 불필요하게 커질 수 있습니다. 이러한 경우 수신기는 피어로부터 ACK를 유도하기 위해 왕복당 한 번과 같이 때때로 PING 또는 기타 작은 승인 유도 프레임을 보낼 수 있습니다.

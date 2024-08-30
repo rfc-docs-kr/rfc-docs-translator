@@ -1,0 +1,23 @@
+"hash": |-
+  053a2fd2e6e8253946a71a67b66e10e29b6ce6684e23a12810ea63d2f251870d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Counter fields of successive nonces form a monotonically
+     increasing sequence, when those fields are regarded as unsigned
+     integers in network byte order.  The length of the Counter field MUST
+     remain constant for all nonces that are generated for a given
+     encryption device.  The Counter part SHOULD be equal to zero for the
+     first nonce, and increment by one for each successive nonce that is
+     generated.  However, any particular Counter value MAY be skipped
+     over, and left out of the sequence of values that are used, if it is
+     convenient.  For example, an application could choose to skip the
+     initial Counter=0 value, and set the Counter field of the initial
+     nonce to 1.  Thus, at most 2^(8*C) nonces can be generated when the
+     Counter field is C octets in length.
+"fixed": |-
+  The Counter fields of successive nonces form a monotonically increasing sequence, when those fields are regarded as unsigned integers in network byte order.  The length of the Counter field MUST remain constant for all nonces that are generated for a given encryption device.  The Counter part SHOULD be equal to zero for the first nonce, and increment by one for each successive nonce that is generated.  However, any particular Counter value MAY be skipped over, and left out of the sequence of values that are used, if it is convenient.  For example, an application could choose to skip the initial Counter=0 value, and set the Counter field of the initial nonce to 1.  Thus, at most 2^(8*C) nonces can be generated when the Counter field is C octets in length.
+"ko": |-
+  연속적인 nonce의 Counter 필드는 해당 필드가 네트워크 바이트 순서에서 부호 없는 정수로 간주될 때 단조롭게 증가하는 시퀀스를 형성합니다. 카운터 필드의 길이는 특정 암호화 장치에 대해 생성된 모든 nonce에 대해 일정하게 유지되어야 합니다. Counter 부분은 첫 번째 nonce에 대해 0과 같아야 하며, 생성된 각 연속 nonce에 대해 1씩 증가해야 합니다. 그러나 편리한 경우 특정 카운터 값을 건너뛰고 사용되는 값 시퀀스에서 제외할 수 있습니다. 예를 들어 애플리케이션은 초기 Counter=0 값을 건너뛰고 초기 nonce의 Counter 필드를 1로 설정하도록 선택할 수 있습니다. 따라서 Counter 필드가 C 옥텟일 때 최대 2^(8*C) nonce가 생성될 수 있습니다. 길이.

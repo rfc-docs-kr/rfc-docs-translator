@@ -1,0 +1,18 @@
+"hash": |-
+  d3e43c393ed6833064df5c6e5ac0376085d51daa9cf80a5c1eff8579c7d69bfe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The current maximum stream data offset is sent in MAX_STREAM_DATA
+        frames.  Like MAX_DATA, an updated value is sent when the packet
+        containing the most recent MAX_STREAM_DATA frame for a stream is
+        lost or when the limit is updated, with care taken to prevent the
+        frame from being sent too often.  An endpoint SHOULD stop sending
+        MAX_STREAM_DATA frames when the receiving part of the stream
+        enters a "Size Known" or "Reset Recvd" state.
+"fixed": |-
+  *  The current maximum stream data offset is sent in MAX_STREAM_DATA frames.  Like MAX_DATA, an updated value is sent when the packet containing the most recent MAX_STREAM_DATA frame for a stream is lost or when the limit is updated, with care taken to prevent the frame from being sent too often.  An endpoint SHOULD stop sending MAX_STREAM_DATA frames when the receiving part of the stream enters a "Size Known" or "Reset Recvd" state.
+"ko": |-
+  * 현재 최대 스트림 데이터 오프셋은 MAX_STREAM_DATA 프레임으로 전송됩니다. MAX_DATA와 마찬가지로 스트림에 대한 최신 MAX_STREAM_DATA 프레임이 포함된 패킷이 손실되거나 제한이 업데이트되면 업데이트된 값이 전송됩니다. 프레임이 너무 자주 전송되지 않도록 주의해야 합니다. 엔드포인트는 스트림의 수신 부분이 "Size Known" 또는 "Reset Recvd" 상태에 들어갈 때 MAX_STREAM_DATA 프레임 전송을 중지해야 합니다.

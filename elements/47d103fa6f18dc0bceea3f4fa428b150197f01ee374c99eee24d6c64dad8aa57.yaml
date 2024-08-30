@@ -1,0 +1,59 @@
+"hash": |-
+  47d103fa6f18dc0bceea3f4fa428b150197f01ee374c99eee24d6c64dad8aa57
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     7. Serializations .................................................19
+        7.1. JWS Compact Serialization .................................19
+        7.2. JWS JSON Serialization ....................................19
+             7.2.1. General JWS JSON Serialization Syntax ..............20
+             7.2.2. Flattened JWS JSON Serialization Syntax ............21
+     8. TLS Requirements ...............................................22
+     9. IANA Considerations ............................................22
+        9.1. JSON Web Signature and Encryption Header
+             Parameters Registry .......................................23
+             9.1.1. Registration Template ..............................23
+             9.1.2. Initial Registry Contents ..........................24
+        9.2. Media Type Registration ...................................26
+             9.2.1. Registry Contents ..................................26
+     10. Security Considerations .......................................27
+        10.1. Key Entropy and Random Values ............................27
+        10.2. Key Protection ...........................................28
+        10.3. Key Origin Authentication ................................28
+        10.4. Cryptographic Agility ....................................28
+        10.5. Differences between Digital Signatures and MACs ..........28
+        10.6. Algorithm Validation .....................................29
+        10.7. Algorithm Protection .....................................29
+        10.8. Chosen Plaintext Attacks .................................30
+        10.9. Timing Attacks ...........................................30
+        10.10. Replay Protection .......................................30
+        10.11. SHA-1 Certificate Thumbprints ...........................30
+        10.12. JSON Security Considerations ............................31
+        10.13. Unicode Comparison Security Considerations ..............31
+     11. References ....................................................32
+        11.1. Normative References .....................................32
+        11.2. Informative References ...................................34
+     Appendix A.  JWS Examples .........................................36
+       A.1.  Example JWS Using HMAC SHA-256 ............................36
+         A.1.1.  Encoding ..............................................36
+         A.1.2.  Validating ............................................38
+       A.2.  Example JWS Using RSASSA-PKCS1-v1_5 SHA-256 ...............38
+         A.2.1.  Encoding ..............................................38
+         A.2.2.  Validating ............................................42
+       A.3.  Example JWS Using ECDSA P-256 SHA-256 .....................42
+         A.3.1.  Encoding ..............................................42
+         A.3.2.  Validating ............................................44
+       A.4.  Example JWS Using ECDSA P-521 SHA-512 .....................45
+         A.4.1.  Encoding ..............................................45
+         A.4.2.  Validating ............................................47
+       A.5.  Example Unsecured JWS .....................................47
+       A.6.  Example JWS Using General JWS JSON Serialization ..........48
+         A.6.1.  JWS Per-Signature Protected Headers ...................48
+         A.6.2.  JWS Per-Signature Unprotected Headers .................49
+         A.6.3.  Complete JOSE Header Values ...........................49
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

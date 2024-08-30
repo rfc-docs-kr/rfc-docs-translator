@@ -1,0 +1,15 @@
+"hash": |-
+  b0465ff6f1adfbafd6b0f4682b7754a2986d9a9e0de609e274015fa55b7e6a30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client that receives a response while it is still sending the
+     associated request SHOULD continue sending that request unless it
+     receives an explicit indication to the contrary (see, e.g.,
+     Section 9.5 of [HTTP/1.1] and Section 6.4 of [HTTP/2]).
+"fixed": |-
+  A client that receives a response while it is still sending the associated request SHOULD continue sending that request unless it receives an explicit indication to the contrary (see, e.g., Section 9.5 of [HTTP/1.1] and Section 6.4 of [HTTP/2]).
+"ko": |-
+  연관된 요청을 보내는 동안 응답을 수신하는 클라이언트는 명시적인 반대 표시를 수신하지 않는 한 해당 요청을 계속 보내야 합니다(예: [HTTP/1.1]의 섹션 9.5 및 [HTTP/2]의 섹션 6.4 참조). ).

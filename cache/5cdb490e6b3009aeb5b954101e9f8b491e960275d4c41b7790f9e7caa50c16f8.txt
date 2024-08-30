@@ -1,0 +1,1 @@
+1. 원하는 직렬화된 출력을 만듭니다. 이 결과의 Compact Serialization은 문자열 BASE64URL(UTF8(JWE 보호 헤더)) || '.' || BASE64URL(JWE 암호화 키) || '.' || BASE64URL(JWE 초기화 벡터) || '.' || BASE64URL(JWE 암호문) || '.' || BASE64URL(JWE 인증 태그)입니다. JWE JSON 직렬화는 섹션 7.2에 설명되어 있습니다.

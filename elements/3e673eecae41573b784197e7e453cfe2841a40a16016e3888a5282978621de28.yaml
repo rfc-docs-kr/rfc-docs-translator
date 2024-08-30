@@ -1,0 +1,20 @@
+"hash": |-
+  3e673eecae41573b784197e7e453cfe2841a40a16016e3888a5282978621de28
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The IPP Printer stops the current Job(s) on its device or devices
+     that were in the 'processing' or 'processing-stopped' state as soon
+     as the implementation permits.  If the implementation will take
+     appreciable time to stop, the IPP Printer adds the 'moving-to-paused'
+     value to the Printer's "printer-state-reasons" attribute (see
+     Section 5.4.12).  When the device or devices have all stopped, the
+     IPP Printer transitions the Printer to the 'stopped' state; removes
+     the 'moving-to-paused' value, if present; and adds the 'paused' value
+     to the Printer's "printer-state-reasons" attribute.
+"fixed": |-
+  The IPP Printer stops the current Job(s) on its device or devices that were in the 'processing' or 'processing-stopped' state as soon as the implementation permits.  If the implementation will take appreciable time to stop, the IPP Printer adds the 'moving-to-paused' value to the Printer's "printer-state-reasons" attribute (see Section 5.4.12).  When the device or devices have all stopped, the IPP Printer transitions the Printer to the 'stopped' state; removes the 'moving-to-paused' value, if present; and adds the 'paused' value to the Printer's "printer-state-reasons" attribute.
+"ko": |-
+  IPP 프린터는 구현이 허용되는 즉시 '처리 중' 또는 '처리 중지됨' 상태에 있던 장치에서 현재 작업을 중지합니다. 구현을 중지하는 데 상당한 시간이 걸릴 경우 IPP 프린터는 'moving-to-paused' 값을 프린터의 "printer-state-reasons" 속성에 추가합니다(섹션 5.4.12 참조). 장치가 모두 중지되면 IPP 프린터는 프린터를 '중지' 상태로 전환합니다. 'moving-to-paused' 값이 있으면 제거합니다. 프린터의 "printer-state-reasons" 속성에 'paused' 값을 추가합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  6cc7f2ad0a60f61c676f0f8729e55ffadd644842dea211af13ca86a75325b61f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An EXPUNGE response MUST NOT be sent when no command is in progress,
+     nor while responding to a FETCH, STORE, or SEARCH command.  This rule
+     is necessary to prevent a loss of synchronization of message sequence
+     numbers between client and server.  A command is not "in progress"
+     until the complete command has been received; in particular, a
+     command is not "in progress" during the negotiation of command
+     continuation.
+"fixed": |-
+  An EXPUNGE response MUST NOT be sent when no command is in progress, nor while responding to a FETCH, STORE, or SEARCH command.  This rule is necessary to prevent a loss of synchronization of message sequence numbers between client and server.  A command is not "in progress" until the complete command has been received; in particular, a command is not "in progress" during the negotiation of command continuation.
+"ko": |-
+  EXPUNGE 응답은 진행 중인 명령이 없거나 FETCH, STORE 또는 SEARCH 명령에 응답하는 동안 전송되어서는 안 됩니다.  이 규칙은 클라이언트와 서버 간의 메시지 시퀀스 번호 동기화 손실을 방지하는 데 필요합니다.  완전한 명령이 수신될 때까지 명령은 "진행 중"이 아닙니다. 특히 명령 지속 협상 중에는 명령이 "진행 중"이 아닙니다.

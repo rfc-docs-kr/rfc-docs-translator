@@ -1,0 +1,17 @@
+"hash": |-
+  c39c6001ce597bb5f36a5850deeae2c34799bb3c0c5f757bcb23019a9725202a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A message is considered "complete" when all of the octets indicated
+     by its framing are available.  Note that, when no explicit framing is
+     used, a response message that is ended by the underlying connection's
+     close is considered complete even though it might be
+     indistinguishable from an incomplete response, unless a transport-
+     level error indicates that it is not complete.
+"fixed": |-
+  A message is considered "complete" when all of the octets indicated by its framing are available.  Note that, when no explicit framing is used, a response message that is ended by the underlying connection's close is considered complete even though it might be indistinguishable from an incomplete response, unless a transport- level error indicates that it is not complete.
+"ko": |-
+  프레임에 표시된 모든 옥텟을 사용할 수 있는 경우 메시지는 "완료"된 것으로 간주됩니다. 명시적인 프레이밍이 사용되지 않으면 기본 연결이 닫혀 종료되는 응답 메시지는 전송 수준 오류가 완료되지 않았음을 나타내지 않는 한 불완전한 응답과 구별할 수 없더라도 완료된 것으로 간주됩니다.

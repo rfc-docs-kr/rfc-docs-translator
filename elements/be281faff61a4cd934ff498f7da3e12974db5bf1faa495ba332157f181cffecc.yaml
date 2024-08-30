@@ -1,0 +1,15 @@
+"hash": |-
+  be281faff61a4cd934ff498f7da3e12974db5bf1faa495ba332157f181cffecc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The decryption operation for all three alternatives is the same.
+        The receiver decrypts the entire GenericBlockCipher structure and
+        then discards the first cipher block, corresponding to the IV
+        component.
+"fixed": |-
+  - The decryption operation for all three alternatives is the same. The receiver decrypts the entire GenericBlockCipher structure and then discards the first cipher block, corresponding to the IV component.
+"ko": |-
+  - 세 가지 대안 모두의 암호 해독 작업은 동일합니다. 수신기는 전체 GenericBlockCipher 구조를 해독한 다음 IV 구성 요소에 해당하는 첫 번째 암호 블록을 삭제합니다.

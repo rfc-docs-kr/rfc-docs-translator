@@ -1,0 +1,16 @@
+"hash": |-
+  3624e94741b9b13ec2a3282eabc6c6f5f50e067fdad0a3f1e213f7615be9eb29
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After building a ClientHello as normal, the client can add four bytes
+     to the length (to account for the "msg_type" and "length" fields of
+     the handshake protocol) and test whether the resulting length falls
+     into that range.  If it does, a padding extension can be added in
+     order to push the length to (at least) 512 bytes.
+"fixed": |-
+  After building a ClientHello as normal, the client can add four bytes to the length (to account for the "msg_type" and "length" fields of the handshake protocol) and test whether the resulting length falls into that range.  If it does, a padding extension can be added in order to push the length to (at least) 512 bytes.
+"ko": |-
+  정상적으로 ClientHello를 구축한 후 클라이언트는 길이에 4바이트를 추가하고(핸드셰이크 프로토콜의 "msg_type" 및 "length" 필드를 설명하기 위해) 결과 길이가 해당 범위에 속하는지 여부를 테스트할 수 있습니다.  그렇다면 길이를 (최소) 512바이트로 늘리기 위해 패딩 확장을 추가할 수 있습니다.

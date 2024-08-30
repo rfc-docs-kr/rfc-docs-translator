@@ -1,0 +1,19 @@
+"hash": |-
+  60ecfab7f6896e9099287e33871e56f999aa838b268385e2b9d0c9317d18eb46
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         self.TestFeedLine('asdf', 1, 1)
+         self.TestFeedLine('asdf,US,,,', 1, 0)
+         self.TestFeedLine('aaaa::,US,,,', 0, 0)
+         self.TestFeedLine('zzzz::,US', 1, 1)
+         self.TestFeedLine(',US,,,', 1, 0)
+         self.TestFeedLine('55.66.77', 1, 1)
+         self.TestFeedLine('55.66.77.888', 1, 1)
+         self.TestFeedLine('55.66.77.asdf', 1, 1)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,19 @@
+"hash": |-
+  0527625c6f81de53cc1614b27899f3e5e307f858e810933c680d631ae113396d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The outbound proxy responds to the UAC with its own list of security
+     mechanisms - IPsec and TLS (2).  The only common security mechanism
+     is TLS, so they establish a TLS connection between them.  When the
+     connection is successfully established, the UAC sends an INVITE
+     request over the TLS connection just established (3).  This INVITE
+     contains the server's security list.  The server verifies it, and
+     since it matches its static list, it processes the INVITE and
+     forwards it to the next hop.
+"fixed": |-
+  The outbound proxy responds to the UAC with its own list of security mechanisms - IPsec and TLS (2).  The only common security mechanism is TLS, so they establish a TLS connection between them.  When the connection is successfully established, the UAC sends an INVITE request over the TLS connection just established (3).  This INVITE contains the server's security list.  The server verifies it, and since it matches its static list, it processes the INVITE and forwards it to the next hop.
+"ko": |-
+  아웃바운드 프록시는 자체 보안 메커니즘 목록인 IPsec 및 TLS(2)로 UAC에 응답합니다. 유일하게 공통적인 보안 메커니즘은 TLS이므로 TLS 연결을 설정합니다. 연결이 성공적으로 설정되면 UAC는 방금 설정된 TLS 연결을 통해 INVITE 요청을 보냅니다(3). 이 INVITE에는 서버의 보안 목록이 들어 있습니다. 서버는 이를 확인하고 정적 목록과 일치하므로 INVITE를 처리하여 다음 홉으로 전달합니다.

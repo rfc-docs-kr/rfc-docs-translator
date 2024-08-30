@@ -1,0 +1,26 @@
+"hash": |-
+  9f5812c2188fe6feeb49f25a0bb56454acda738b879f2349980094535d34dc54
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Handshake Packet {
+       Header Form (1) = 1,
+       Fixed Bit (1) = 1,
+       Long Packet Type (2) = 2,
+       Reserved Bits (2),
+       Packet Number Length (2),
+       Version (32),
+       Destination Connection ID Length (8),
+       Destination Connection ID (0..160),
+       Source Connection ID Length (8),
+       Source Connection ID (0..160),
+       Length (i),
+       Packet Number (8..32),
+       Packet Payload (8..),
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

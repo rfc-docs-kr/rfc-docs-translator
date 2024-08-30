@@ -1,0 +1,17 @@
+"hash": |-
+  0d5681bb04556c42ce88197a4f2d1fa1d149f6b2134592633eb159654f0bf4a3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint could also use heuristics to improve detection of this
+     style of attack.  For instance, NAT rebinding is improbable if
+     packets were recently received on the old path; similarly, rebinding
+     is rare on IPv6 paths.  Endpoints can also look for duplicated
+     packets.  Conversely, a change in connection ID is more likely to
+     indicate an intentional migration rather than an attack.
+"fixed": |-
+  An endpoint could also use heuristics to improve detection of this style of attack.  For instance, NAT rebinding is improbable if packets were recently received on the old path; similarly, rebinding is rare on IPv6 paths.  Endpoints can also look for duplicated packets.  Conversely, a change in connection ID is more likely to indicate an intentional migration rather than an attack.
+"ko": |-
+  엔드포인트는 경험적 접근 방식을 사용하여 이러한 공격 스타일에 대한 탐지를 향상할 수도 있습니다. 예를 들어, 패킷이 최근에 이전 경로에서 수신된 경우 NAT 리바인딩이 불가능합니다. 마찬가지로 IPv6 경로에서는 리바인딩이 거의 발생하지 않습니다. 엔드포인트는 중복된 패킷을 찾을 수도 있습니다. 반대로, 연결 ID의 변경은 공격보다는 의도적인 마이그레이션을 나타낼 가능성이 더 높습니다.

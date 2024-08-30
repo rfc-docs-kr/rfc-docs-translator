@@ -1,0 +1,18 @@
+"hash": |-
+  341507494c2a3aff8a6d11045eeea33806919787fc2f0331e2a6960a02dda811
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Packet Number Length:  The least significant two bits (those with a
+        mask of 0x03) of byte 0 contain the length of the Packet Number
+        field, encoded as an unsigned two-bit integer that is one less
+        than the length of the Packet Number field in bytes.  That is, the
+        length of the Packet Number field is the value of this field plus
+        one.  These bits are protected using header protection; see
+        Section 5.4 of [QUIC-TLS].
+"fixed": |-
+  Packet Number Length:  The least significant two bits (those with a mask of 0x03) of byte 0 contain the length of the Packet Number field, encoded as an unsigned two-bit integer that is one less than the length of the Packet Number field in bytes.  That is, the length of the Packet Number field is the value of this field plus one.  These bits are protected using header protection; see Section 5.4 of [QUIC-TLS].
+"ko": |-
+  패킷 번호 길이: 바이트 0의 최하위 2비트(마스크가 0x03인 비트)에는 패킷 번호 필드의 길이가 포함되며, 패킷 번호 필드의 길이보다 1 작은 부호 없는 2비트 정수로 인코딩됩니다. 바이트. 즉, 패킷 번호 필드의 길이는 이 필드의 값에 1을 더한 값입니다. 이러한 비트는 헤더 보호를 사용하여 보호됩니다. [QUIC-TLS]의 섹션 5.4를 참조하세요.

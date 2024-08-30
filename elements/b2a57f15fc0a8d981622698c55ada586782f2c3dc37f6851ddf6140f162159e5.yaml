@@ -1,0 +1,23 @@
+"hash": |-
+  b2a57f15fc0a8d981622698c55ada586782f2c3dc37f6851ddf6140f162159e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an application wishes to present an End User with a list of
+     supported values from which to choose, the application SHOULD query
+     the Printer for its supported value attributes.  The application
+     SHOULD also query the default value attributes.  If the application
+     then limits selectable values to only those values that are
+     supported, the application can guarantee that the values supplied by
+     the Client in the Job Creation request all fall within the set of
+     supported values at the Printer.  When querying the Printer, the
+     Client MAY enumerate each attribute by name in the
+     Get-Printer-Attributes request, or the Client MAY just name the
+     "job-template" group in order to get the complete set of supported
+     attributes (both supported and default attributes).
+"fixed": |-
+  If an application wishes to present an End User with a list of supported values from which to choose, the application SHOULD query the Printer for its supported value attributes.  The application SHOULD also query the default value attributes.  If the application then limits selectable values to only those values that are supported, the application can guarantee that the values supplied by the Client in the Job Creation request all fall within the set of supported values at the Printer.  When querying the Printer, the Client MAY enumerate each attribute by name in the Get-Printer-Attributes request, or the Client MAY just name the "job-template" group in order to get the complete set of supported attributes (both supported and default attributes).
+"ko": |-
+  애플리케이션이 선택할 수 있는 지원 값 목록을 최종 사용자에게 제공하려는 경우 애플리케이션은 지원되는 값 속성에 대해 프린터를 쿼리해야 합니다. 애플리케이션은 또한 기본값 속성을 쿼리해야 합니다(SHOULD). 그런 다음 응용 프로그램이 선택 가능한 값을 지원되는 값으로 제한하는 경우 응용 프로그램은 작업 생성 요청에서 클라이언트가 제공한 값이 모두 프린터에서 지원되는 값 집합에 포함되도록 보장할 수 있습니다. 프린터를 쿼리할 때 클라이언트는 Get-Printer-Attributes 요청에서 이름별로 각 속성을 열거할 수도 있고, 지원되는 속성(지원 속성과 기본 속성 모두)의 전체 세트를 가져오기 위해 클라이언트는 "작업 템플릿" 그룹의 이름을 지정할 수도 있습니다. 속성).

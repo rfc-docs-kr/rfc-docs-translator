@@ -1,0 +1,19 @@
+"hash": |-
+  7d6634b07d4ef7d1a9f2fd2b42127c2983b5c0672b564b62abdffda838611672
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        KeyAgreePSKRecipientInfo ::= SEQUENCE {
+          version CMSVersion,  -- always set to 0
+          pskid PreSharedKeyIdentifier,
+          originator [0] EXPLICIT OriginatorIdentifierOrKey,
+          ukm [1] EXPLICIT UserKeyingMaterial OPTIONAL,
+          kdfAlgorithm KeyDerivationAlgorithmIdentifier,
+          keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier,
+          recipientEncryptedKeys RecipientEncryptedKeys }
+"fixed": |-
+  - KeyAgreePSKRecipientInfo ::= SEQUENCE { version CMSVersion,  -- always set to 0 pskid PreSharedKeyIdentifier, originator [0] EXPLICIT OriginatorIdentifierOrKey, ukm [1] EXPLICIT UserKeyingMaterial OPTIONAL, kdfAlgorithm KeyDerivationAlgorithmIdentifier, keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier, recipientEncryptedKeys RecipientEncryptedKeys }
+"ko": |-
+  - KeyAgreePSKRecipientInfo ::= SEQUENCE { version CMSVersion, -- 항상 0으로 설정됨 pskid PreSharedKeyIdentifier, Originator [0] EXPLICIT OriginatorIdentifierOrKey, ukm [1] EXPLICIT UserKeyingMaterial OPTIONAL, kdfAlgorithm KeyDerivationAlgorithmIdentifier, keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier, receiveEncryptedKeys 암호화된 키 }

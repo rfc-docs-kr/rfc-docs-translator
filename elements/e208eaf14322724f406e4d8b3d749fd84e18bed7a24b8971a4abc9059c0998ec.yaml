@@ -1,0 +1,20 @@
+"hash": |-
+  e208eaf14322724f406e4d8b3d749fd84e18bed7a24b8971a4abc9059c0998ec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints are not expected to have specific information about the
+     location of servers that could be vulnerable targets of a request
+     forgery attack.  However, it might be possible over time to identify
+     specific UDP ports that are common targets of attacks or particular
+     patterns in datagrams that are used for attacks.  Endpoints MAY
+     choose to avoid sending datagrams to these ports or not send
+     datagrams that match these patterns prior to validating the
+     destination address.  Endpoints MAY retire connection IDs containing
+     patterns known to be problematic without using them.
+"fixed": |-
+  Endpoints are not expected to have specific information about the location of servers that could be vulnerable targets of a request forgery attack.  However, it might be possible over time to identify specific UDP ports that are common targets of attacks or particular patterns in datagrams that are used for attacks.  Endpoints MAY choose to avoid sending datagrams to these ports or not send datagrams that match these patterns prior to validating the destination address.  Endpoints MAY retire connection IDs containing patterns known to be problematic without using them.
+"ko": |-
+  엔드포인트에는 요청 위조 공격의 취약한 대상이 될 수 있는 서버의 위치에 대한 특정 정보가 없을 것으로 예상됩니다. 그러나 시간이 지남에 따라 일반적인 공격 대상인 특정 UDP 포트나 공격에 사용되는 데이터그램의 특정 패턴을 식별하는 것이 가능할 수도 있습니다. 엔드포인트는 대상 주소를 검증하기 전에 이러한 포트에 데이터그램을 보내지 않거나 이러한 패턴과 일치하는 데이터그램을 보내지 않도록 선택할 수 있습니다. 엔드포인트는 문제가 있는 것으로 알려진 패턴이 포함된 연결 ID를 사용하지 않고 폐기할 수 있습니다.

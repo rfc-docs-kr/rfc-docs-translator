@@ -1,0 +1,24 @@
+"hash": |-
+  51f80915ff3fd92d7528a22e9a8158e03e977dc47cf77145ae09825f80e33ca4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If Content-Location is included in a 2xx (Successful) response
+     message and its value refers (after conversion to absolute form) to a
+     URI that is the same as the target URI, then the recipient MAY
+     consider the content to be a current representation of that resource
+     at the time indicated by the message origination date.  For a GET
+     (Section 9.3.1) or HEAD (Section 9.3.2) request, this is the same as
+     the default semantics when no Content-Location is provided by the
+     server.  For a state-changing request like PUT (Section 9.3.4) or
+     POST (Section 9.3.3), it implies that the server's response contains
+     the new representation of that resource, thereby distinguishing it
+     from representations that might only report about the action (e.g.,
+     "It worked!").  This allows authoring applications to update their
+     local copies without the need for a subsequent GET request.
+"fixed": |-
+  If Content-Location is included in a 2xx (Successful) response message and its value refers (after conversion to absolute form) to a URI that is the same as the target URI, then the recipient MAY consider the content to be a current representation of that resource at the time indicated by the message origination date.  For a GET (Section 9.3.1) or HEAD (Section 9.3.2) request, this is the same as the default semantics when no Content-Location is provided by the server.  For a state-changing request like PUT (Section 9.3.4) or POST (Section 9.3.3), it implies that the server's response contains the new representation of that resource, thereby distinguishing it from representations that might only report about the action (e.g., "It worked!").  This allows authoring applications to update their local copies without the need for a subsequent GET request.
+"ko": |-
+  Content-Location이 2xx(성공) 응답 메시지에 포함되어 있고 해당 값이 (절대 형식으로 변환된 후) 대상 URI와 동일한 URI를 참조하는 경우 수신자는 해당 콘텐츠를 다음의 현재 표현으로 간주할 수 있습니다. 메시지 발생 날짜로 표시된 시간에 해당 리소스를 사용합니다. GET(섹션 9.3.1) 또는 HEAD(섹션 9.3.2) 요청의 경우 이는 서버에서 Content-Location을 제공하지 않을 때의 기본 의미 체계와 동일합니다. PUT(섹션 9.3.4) 또는 POST(섹션 9.3.3)와 같은 상태 변경 요청의 경우 서버의 응답에 해당 리소스의 새로운 표현이 포함되어 있음을 의미하므로 작업에 대해서만 보고할 수 있는 표현과 구별됩니다( 예를 들어 "효과가 있었습니다!"). 이를 통해 저작 애플리케이션은 후속 GET 요청 없이도 로컬 복사본을 업데이트할 수 있습니다.

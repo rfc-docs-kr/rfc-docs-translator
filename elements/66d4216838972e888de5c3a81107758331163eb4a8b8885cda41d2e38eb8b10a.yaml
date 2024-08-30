@@ -1,0 +1,139 @@
+"hash": |-
+  66d4216838972e888de5c3a81107758331163eb4a8b8885cda41d2e38eb8b10a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     1.  How to Read This Document
+       1.1.  Organization of This Document
+       1.2.  Conventions Used in This Document
+       1.3.  Special Notes to Implementors
+     2.  Protocol Overview
+       2.1.  Link Level
+       2.2.  Commands and Responses
+         2.2.1.  Client Protocol Sender and Server Protocol Receiver
+         2.2.2.  Server Protocol Sender and Client Protocol Receiver
+       2.3.  Message Attributes
+         2.3.1.  Message Numbers
+         2.3.2.  Flags Message Attribute
+         2.3.3.  Internal Date Message Attribute
+         2.3.4.  RFC822.SIZE Message Attribute
+         2.3.5.  Envelope Structure Message Attribute
+         2.3.6.  Body Structure Message Attribute
+       2.4.  Message Texts
+     3.  State and Flow Diagram
+       3.1.  Not Authenticated State
+       3.2.  Authenticated State
+       3.3.  Selected State
+       3.4.  Logout State
+     4.  Data Formats
+       4.1.  Atom
+         4.1.1.  Sequence Set and UID Set
+       4.2.  Number
+       4.3.  String
+         4.3.1.  8-Bit and Binary Strings
+       4.4.  Parenthesized List
+       4.5.  NIL
+     5.  Operational Considerations
+       5.1.  Mailbox Naming
+         5.1.1.  Mailbox Hierarchy Naming
+         5.1.2.  Namespaces
+       5.2.  Mailbox Size and Message Status Updates
+       5.3.  Response When No Command in Progress
+       5.4.  Autologout Timer
+       5.5.  Multiple Commands in Progress (Command Pipelining)
+     6.  Client Commands
+       6.1.  Client Commands - Any State
+         6.1.1.  CAPABILITY Command
+         6.1.2.  NOOP Command
+         6.1.3.  LOGOUT Command
+       6.2.  Client Commands - Not Authenticated State
+         6.2.1.  STARTTLS Command
+         6.2.2.  AUTHENTICATE Command
+         6.2.3.  LOGIN Command
+       6.3.  Client Commands - Authenticated State
+         6.3.1.  ENABLE Command
+         6.3.2.  SELECT Command
+         6.3.3.  EXAMINE Command
+         6.3.4.  CREATE Command
+         6.3.5.  DELETE Command
+         6.3.6.  RENAME Command
+         6.3.7.  SUBSCRIBE Command
+         6.3.8.  UNSUBSCRIBE Command
+         6.3.9.  LIST Command
+         6.3.10. NAMESPACE Command
+         6.3.11. STATUS Command
+         6.3.12. APPEND Command
+         6.3.13. IDLE Command
+       6.4.  Client Commands - Selected State
+         6.4.1.  CLOSE Command
+         6.4.2.  UNSELECT Command
+         6.4.3.  EXPUNGE Command
+         6.4.4.  SEARCH Command
+         6.4.5.  FETCH Command
+         6.4.6.  STORE Command
+         6.4.7.  COPY Command
+         6.4.8.  MOVE Command
+         6.4.9.  UID Command
+       6.5.  Client Commands - Experimental/Expansion
+     7.  Server Responses
+       7.1.  Server Responses - Generic Status Responses
+         7.1.1.  OK Response
+         7.1.2.  NO Response
+         7.1.3.  BAD Response
+         7.1.4.  PREAUTH Response
+         7.1.5.  BYE Response
+       7.2.  Server Responses - Server Status
+         7.2.1.  ENABLED Response
+         7.2.2.  CAPABILITY Response
+       7.3.  Server Responses - Mailbox Status
+         7.3.1.  LIST Response
+         7.3.2.  NAMESPACE Response
+         7.3.3.  STATUS Response
+         7.3.4.  ESEARCH Response
+         7.3.5.  FLAGS Response
+       7.4.  Server Responses - Mailbox Size
+         7.4.1.  EXISTS Response
+       7.5.  Server Responses - Message Status
+         7.5.1.  EXPUNGE Response
+         7.5.2.  FETCH Response
+       7.6.  Server Responses - Command Continuation Request
+     8.  Sample IMAP4rev2 Connection
+     9.  Formal Syntax
+     10. Author's Note
+     11. Security Considerations
+       11.1.  TLS-Related Security Considerations
+       11.2.  STARTTLS Command versus Use of Implicit TLS Port
+       11.3.  Client Handling of Unsolicited Responses Not Suitable for
+              the Current Connection State
+       11.4.  COPYUID and APPENDUID Response Codes
+       11.5.  LIST Command and Other Users' Namespace
+       11.6.  Use of MD5
+       11.7.  Other Security Considerations
+     12. IANA Considerations
+       12.1.  Updates to IMAP Capabilities Registry
+       12.2.  GSSAPI/SASL Service Name
+       12.3.  LIST Selection Options, LIST Return Options, and LIST
+              Extended Data Items
+       12.4.  IMAP Mailbox Name Attributes and IMAP Response Codes
+     13. References
+       13.1.  Normative References
+       13.2.  Informative References
+         13.2.1.  Related Protocols
+         13.2.2.  Historical Aspects of IMAP and Related Protocols
+     Appendix A.  Backward Compatibility with IMAP4rev1
+       A.1.  Mailbox International Naming Convention for Compatibility
+             with IMAP4rev1
+     Appendix B.  Backward Compatibility with BINARY Extension
+     Appendix C.  Backward Compatibility with LIST-EXTENDED Extension
+     Appendix D.  63-Bit Body Part and Message Sizes
+     Appendix E.  Changes from RFC 3501 / IMAP4rev1
+     Appendix F.  Other Recommended IMAP Extensions
+     Acknowledgements
+     Index
+     Authors' Addresses
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

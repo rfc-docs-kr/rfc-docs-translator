@@ -1,0 +1,16 @@
+"hash": |-
+  ae9f1619efc1916a75be231ee9b8965eb8688b24fd5beea298be239aa3e7dd7a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     mailbox-list    = "(" [mbx-list-flags] ")" SP
+                        (DQUOTE QUOTED-CHAR DQUOTE / nil) SP mailbox
+                        [SP mbox-list-extended]
+                 ; This is the list information pointed to by the ABNF
+                 ; item "mailbox-data", which is defined above
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

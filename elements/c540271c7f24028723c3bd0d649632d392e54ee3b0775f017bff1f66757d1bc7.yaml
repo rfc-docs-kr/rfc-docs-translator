@@ -1,0 +1,15 @@
+"hash": |-
+  c540271c7f24028723c3bd0d649632d392e54ee3b0775f017bff1f66757d1bc7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  A server that responds with a final status code before reading the
+        entire request content SHOULD indicate whether it intends to close
+        the connection (e.g., see Section 9.6 of [HTTP/1.1]) or continue
+        reading the request content.
+"fixed": |-
+  *  A server that responds with a final status code before reading the entire request content SHOULD indicate whether it intends to close the connection (e.g., see Section 9.6 of [HTTP/1.1]) or continue reading the request content.
+"ko": |-
+  * 전체 요청 콘텐츠를 읽기 전에 최종 상태 코드로 응답하는 서버는 연결을 닫을 것인지(예: [HTTP/1.1]의 섹션 9.6 참조) 요청 콘텐츠를 계속 읽을 것인지 여부를 나타내야 합니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  fa18f34734f41cca15a52b79081c112ea90559af6365e4f01269842c5011c21f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an MRCP client notices that the underlying connection has been
+     closed for one of its MRCP channels, and it has not previously
+     initiated a re-INVITE to close that channel, it MUST send a BYE to
+     close down the SIP dialog and all other MRCP channels.  If an MRCP
+     server notices that the underlying connection has been closed for one
+     of its MRCP channels, and it has not previously received and accepted
+     a re-INVITE closing that channel, then it MUST send a BYE to close
+     down the SIP dialog and all other MRCP channels.
+"fixed": |-
+  If an MRCP client notices that the underlying connection has been closed for one of its MRCP channels, and it has not previously initiated a re-INVITE to close that channel, it MUST send a BYE to close down the SIP dialog and all other MRCP channels.  If an MRCP server notices that the underlying connection has been closed for one of its MRCP channels, and it has not previously received and accepted a re-INVITE closing that channel, then it MUST send a BYE to close down the SIP dialog and all other MRCP channels.
+"ko": |-
+  MRCP 클라이언트가 MRCP 채널 중 하나에 대한 기본 연결이 닫혔음을 알아차리고 이전에 해당 채널을 닫는 re-INVITE를 시작하지 않은 경우, SIP 대화 상자와 다른 모든 MRCP 채널을 닫기 위해 BYE를 보내야 합니다. MRCP 서버가 MRCP 채널 중 하나에 대한 기본 연결이 닫혔음을 알아차리고 이전에 해당 채널을 닫는 re-INVITE를 수신하여 수락하지 않은 경우, SIP 대화 상자와 다른 모든 MRCP 채널을 닫기 위해 BYE를 보내야 합니다.

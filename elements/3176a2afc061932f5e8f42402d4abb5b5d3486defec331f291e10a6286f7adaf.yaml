@@ -1,0 +1,19 @@
+"hash": |-
+  3176a2afc061932f5e8f42402d4abb5b5d3486defec331f291e10a6286f7adaf
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client MAY send another command without waiting for the
+     completion result response of a command, subject to ambiguity rules
+     (see below) and flow control constraints on the underlying data
+     stream.  Similarly, a server MAY begin processing another command
+     before processing the current command to completion, subject to
+     ambiguity rules.  However, any command continuation request responses
+     and command continuations MUST be negotiated before any subsequent
+     command is initiated.
+"fixed": |-
+  The client MAY send another command without waiting for the completion result response of a command, subject to ambiguity rules (see below) and flow control constraints on the underlying data stream.  Similarly, a server MAY begin processing another command before processing the current command to completion, subject to ambiguity rules.  However, any command continuation request responses and command continuations MUST be negotiated before any subsequent command is initiated.
+"ko": |-
+  클라이언트는 기본 데이터 스트림에 대한 모호성 규칙(아래 참조) 및 흐름 제어 제약 조건에 따라 명령의 완료 결과 응답을 기다리지 않고 다른 명령을 보낼 수 있습니다.  마찬가지로, 서버는 모호성 규칙에 따라 현재 명령을 완료하기 전에 다른 명령 처리를 시작할 수 있습니다.  그러나 모든 명령 연속 요청 응답과 명령 연속은 후속 명령이 시작되기 전에 협상되어야 합니다.

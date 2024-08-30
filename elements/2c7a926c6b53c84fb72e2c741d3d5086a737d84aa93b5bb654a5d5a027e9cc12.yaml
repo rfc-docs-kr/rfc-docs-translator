@@ -1,0 +1,17 @@
+"hash": |-
+  2c7a926c6b53c84fb72e2c741d3d5086a737d84aa93b5bb654a5d5a027e9cc12
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     These requirements regarding connection ID reuse apply only to the
+     sending of packets, as unintentional changes in path without a change
+     in connection ID are possible.  For example, after a period of
+     network inactivity, NAT rebinding might cause packets to be sent on a
+     new path when the client resumes sending.  An endpoint responds to
+     such an event as described in Section 9.3.
+"fixed": |-
+  These requirements regarding connection ID reuse apply only to the sending of packets, as unintentional changes in path without a change in connection ID are possible.  For example, after a period of network inactivity, NAT rebinding might cause packets to be sent on a new path when the client resumes sending.  An endpoint responds to such an event as described in Section 9.3.
+"ko": |-
+  연결 ID 재사용에 관한 이러한 요구 사항은 패킷 전송에만 적용됩니다. 연결 ID를 변경하지 않고도 경로를 의도치 않게 변경할 수 있기 때문입니다. 예를 들어, 일정 기간 동안 네트워크가 비활성화된 후 NAT 리바인딩으로 인해 클라이언트가 전송을 재개하면 패킷이 새 경로로 전송될 수 있습니다. 엔드포인트는 섹션 9.3에 설명된 대로 이러한 이벤트에 응답합니다.

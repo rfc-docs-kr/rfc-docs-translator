@@ -1,0 +1,18 @@
+"hash": |-
+  396a89d2c1b6f3772574f11ed1ac340f402f5ac537f8fd4b79fafa10435e62a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     3.  The initiating Peer P checks the reply datagram from Peer Q.  If
+         the reply datagram is not prefixed with (destination) channel ID
+         chanP, Peer P MUST discard the datagram.  Peer P SHOULD continue
+         to process datagrams from Peer Q that do meet this requirement.
+         This check prevents interference by spoofing, see Section 12.1.
+         If Peer P's channel ID is echoed correctly, the initiator Peer P
+         knows that the addressed Peer Q really responds.
+"fixed": |-
+  1.  The initiating Peer P checks the reply datagram from Peer Q.  If the reply datagram is not prefixed with (destination) channel ID chanP, Peer P MUST discard the datagram.  Peer P SHOULD continue to process datagrams from Peer Q that do meet this requirement. This check prevents interference by spoofing, see Section 12.1. If Peer P's channel ID is echoed correctly, the initiator Peer P knows that the addressed Peer Q really responds.
+"ko": |-
+  1. 시작 피어 P는 피어 Q의 응답 데이터그램을 확인합니다. 응답 데이터그램에 (대상) 채널 ID chanP가 앞에 붙지 않은 경우 피어 P는 데이터그램을 폐기해야 합니다. 피어 P는 이 요구 사항을 충족하는 피어 Q의 데이터그램을 계속 처리해야 합니다. 이 검사는 스푸핑에 의한 간섭을 방지합니다. 섹션 12.1을 참조하세요. 피어 P의 채널 ID가 올바르게 에코되면 개시자 피어 P는 주소가 지정된 피어 Q가 실제로 응답한다는 것을 알게 됩니다.

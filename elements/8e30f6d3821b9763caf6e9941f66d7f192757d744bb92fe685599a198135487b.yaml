@@ -1,0 +1,18 @@
+"hash": |-
+  8e30f6d3821b9763caf6e9941f66d7f192757d744bb92fe685599a198135487b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Any attack on the TLS handshake that compromises the secrecy or
+     uniqueness of session keys, or the authentication of the
+     participating peers, affects other security guarantees provided by
+     QUIC that depend on those keys.  For instance, migration (Section 9)
+     depends on the efficacy of confidentiality protections, both for the
+     negotiation of keys using the TLS handshake and for QUIC packet
+     protection, to avoid linkability across network paths.
+"fixed": |-
+  Any attack on the TLS handshake that compromises the secrecy or uniqueness of session keys, or the authentication of the participating peers, affects other security guarantees provided by QUIC that depend on those keys.  For instance, migration (Section 9) depends on the efficacy of confidentiality protections, both for the negotiation of keys using the TLS handshake and for QUIC packet protection, to avoid linkability across network paths.
+"ko": |-
+  세션 키의 비밀성이나 고유성 또는 참여 피어의 인증을 손상시키는 TLS 핸드셰이크에 대한 모든 공격은 해당 키에 의존하는 QUIC에서 제공하는 다른 보안 보장에 영향을 미칩니다. 예를 들어 마이그레이션(섹션 9)은 TLS 핸드셰이크를 사용한 키 협상과 QUIC 패킷 보호를 위한 기밀성 보호의 효율성에 따라 네트워크 경로 전반에 걸친 연결성을 방지합니다.

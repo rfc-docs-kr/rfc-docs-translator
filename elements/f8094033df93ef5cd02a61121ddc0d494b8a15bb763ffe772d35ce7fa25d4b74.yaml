@@ -1,0 +1,24 @@
+"hash": |-
+  f8094033df93ef5cd02a61121ddc0d494b8a15bb763ffe772d35ce7fa25d4b74
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Example: If the block length is 8 bytes, the content length
+              (TLSCompressed.length) is 61 bytes, and the MAC length is 20
+              bytes, then the length before padding is 82 bytes (this does
+              not include the IV, which may or may not be encrypted, as
+              discussed above).  Thus, the padding length modulo 8 must be
+              equal to 6 in order to make the total length an even
+              multiple of 8 bytes (the block length).  The padding length
+              can be 6, 14, 22, and so on, through 254.  If the padding
+              length were the minimum necessary, 6, the padding would be 6
+              bytes, each containing the value 6.  Thus, the last 8 octets
+              of the GenericBlockCipher before block encryption would be
+              xx 06 06 06 06 06 06 06, where xx is the last octet of the
+              MAC.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

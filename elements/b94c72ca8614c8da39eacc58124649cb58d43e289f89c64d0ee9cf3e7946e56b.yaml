@@ -1,0 +1,16 @@
+"hash": |-
+  b94c72ca8614c8da39eacc58124649cb58d43e289f89c64d0ee9cf3e7946e56b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The authorization server first validates the client credentials (in
+     case of a confidential client) and then verifies whether the token
+     was issued to the client making the revocation request.  If this
+     validation fails, the request is refused and the client is informed
+     of the error by the authorization server as described below.
+"fixed": |-
+  The authorization server first validates the client credentials (in case of a confidential client) and then verifies whether the token was issued to the client making the revocation request.  If this validation fails, the request is refused and the client is informed of the error by the authorization server as described below.
+"ko": |-
+  권한 부여 서버는 먼저 클라이언트 자격 증명(기밀 클라이언트의 경우)을 확인한 다음 취소 요청을 하는 클라이언트에 토큰이 발급되었는지 여부를 확인합니다.  이 유효성 검사가 실패하면 요청이 거부되고 아래 설명된 대로 권한 부여 서버가 클라이언트에 오류를 알립니다.

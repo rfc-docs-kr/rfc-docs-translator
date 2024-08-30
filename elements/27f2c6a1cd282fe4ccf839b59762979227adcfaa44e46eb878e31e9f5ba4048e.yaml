@@ -1,0 +1,22 @@
+"hash": |-
+  27f2c6a1cd282fe4ccf839b59762979227adcfaa44e46eb878e31e9f5ba4048e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     No error codes or responses are used in the protocol; absence of any
+     response indicates an error.  Invalid messages are discarded, and
+     further communication with the peer SHOULD be stopped.  The rationale
+     is that it is sufficient to classify peers as either good or bad and
+     only use the good ones.  A good peer is a peer that responds with
+     chunks; a peer that does not respond, or does not respond in time is
+     classified as bad.  The idea is that, in PPSPP, the content is
+     available from multiple sources (unlike HTTP), so a peer should not
+     invest too much effort in trying to obtain it from a particular
+     source.  This classification in good or bad allows a peer to deal
+     with slow, crashed, and (silent) malicious peers.
+"fixed": |-
+  No error codes or responses are used in the protocol; absence of any response indicates an error.  Invalid messages are discarded, and further communication with the peer SHOULD be stopped.  The rationale is that it is sufficient to classify peers as either good or bad and only use the good ones.  A good peer is a peer that responds with chunks; a peer that does not respond, or does not respond in time is classified as bad.  The idea is that, in PPSPP, the content is available from multiple sources (unlike HTTP), so a peer should not invest too much effort in trying to obtain it from a particular source.  This classification in good or bad allows a peer to deal with slow, crashed, and (silent) malicious peers.
+"ko": |-
+  프로토콜에는 오류 코드나 응답이 사용되지 않습니다. 응답이 없으면 오류가 있음을 나타냅니다. 유효하지 않은 메시지는 폐기되며 피어와의 추가 통신은 중지되어야 합니다. 그 근거는 동료를 좋은지 나쁜지 분류하고 좋은 동료만 사용하는 것으로 충분하다는 것입니다. 좋은 피어는 덩어리로 응답하는 피어입니다. 응답하지 않거나 시간 내에 응답하지 않는 피어는 불량으로 분류됩니다. PPSPP에서는 콘텐츠가 HTTP와 달리 여러 소스에서 제공되므로 피어가 특정 소스에서 콘텐츠를 얻으려고 너무 많은 노력을 투자해서는 안 된다는 아이디어입니다. 좋음 또는 나쁨의 분류를 통해 피어는 느리고, 충돌하고, (자동) 악의적인 피어를 처리할 수 있습니다.

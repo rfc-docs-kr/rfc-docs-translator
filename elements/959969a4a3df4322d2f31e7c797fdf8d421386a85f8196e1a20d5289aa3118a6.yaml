@@ -1,0 +1,20 @@
+"hash": |-
+  959969a4a3df4322d2f31e7c797fdf8d421386a85f8196e1a20d5289aa3118a6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the client wants to deallocate the resource from this session,
+     it issues a new SDP offer, according to RFC 3264 [RFC3264], where the
+     control "m=" line port MUST be set to 0.  This SDP offer is sent in a
+     SIP re-INVITE request.  This deallocates the associated MRCPv2
+     identifier and resource.  The server MUST NOT close the TCP or TLS
+     connection if it is currently being shared among multiple MRCP
+     channels.  When all MRCP channels that may be sharing the connection
+     are released and/or the associated SIP dialog is terminated, the
+     client or server terminates the connection.
+"fixed": |-
+  When the client wants to deallocate the resource from this session, it issues a new SDP offer, according to RFC 3264 [RFC3264], where the control "m=" line port MUST be set to 0.  This SDP offer is sent in a SIP re-INVITE request.  This deallocates the associated MRCPv2 identifier and resource.  The server MUST NOT close the TCP or TLS connection if it is currently being shared among multiple MRCP channels.  When all MRCP channels that may be sharing the connection are released and/or the associated SIP dialog is terminated, the client or server terminates the connection.
+"ko": |-
+  클라이언트가 이 세션에서 리소스를 할당 해제하려고 할 때 RFC 3264 [RFC3264]에 따라 새로운 SDP 오퍼를 발행합니다. 여기서 제어 "m=" 라인 포트는 0으로 설정해야 합니다. 이 SDP 오퍼는 SIP re-INVITE 요청에서 전송됩니다. 이렇게 하면 연관된 MRCPv2 식별자와 리소스가 할당 해제됩니다. 서버는 현재 여러 MRCP 채널에서 공유되고 있는 TCP 또는 TLS 연결을 닫아서는 안 됩니다. 연결을 공유할 수 있는 모든 MRCP 채널이 해제되거나 연관된 SIP 대화가 종료되면 클라이언트 또는 서버가 연결을 종료합니다.

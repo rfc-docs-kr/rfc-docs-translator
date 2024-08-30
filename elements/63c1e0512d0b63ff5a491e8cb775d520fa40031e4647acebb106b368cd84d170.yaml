@@ -1,0 +1,26 @@
+"hash": |-
+  63c1e0512d0b63ff5a491e8cb775d520fa40031e4647acebb106b368cd84d170
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Unsupported Attributes: In a Job Creation request, the Client
+        supplies a set of operation and Job Template attributes.  If any
+        of these attributes or their values are unsupported by the Printer
+        object, the Printer object SHOULD return the set of unsupported
+        attributes in the response.  Section 4.1.7, Section 4.2.1.2, and
+        Appendix C give a full description of how Job Template attributes
+        supplied by the Client in a Job Creation request are processed by
+        the Printer object and how unsupported attributes are returned to
+        the Client.  Because of extensibility, any IPP object might
+        receive a request that contains new or unknown attributes or
+        values for which it has no support.  In such cases, the IPP object
+        processes what it can and returns the unsupported attributes in
+        the response.  The Unsupported Attributes group is defined for all
+        operation responses for returning unsupported attributes that the
+        Client supplied in the request.
+"fixed": |-
+  -  Unsupported Attributes: In a Job Creation request, the Client supplies a set of operation and Job Template attributes.  If any of these attributes or their values are unsupported by the Printer object, the Printer object SHOULD return the set of unsupported attributes in the response.  Section 4.1.7, Section 4.2.1.2, and Appendix C give a full description of how Job Template attributes supplied by the Client in a Job Creation request are processed by the Printer object and how unsupported attributes are returned to the Client.  Because of extensibility, any IPP object might receive a request that contains new or unknown attributes or values for which it has no support.  In such cases, the IPP object processes what it can and returns the unsupported attributes in the response.  The Unsupported Attributes group is defined for all operation responses for returning unsupported attributes that the Client supplied in the request.
+"ko": |-
+  - 지원되지 않는 속성: 작업 생성 요청에서 클라이언트는 일련의 작업 및 작업 템플릿 속성을 제공합니다. 이러한 속성이나 그 값 중 하나라도 Printer 객체가 지원하지 않는 경우, Printer 객체는 응답에서 지원되지 않는 속성 세트를 반환해야 합니다. 섹션 4.1.7, 섹션 4.2.1.2 및 부록 C에서는 작업 생성 요청에서 클라이언트가 제공한 작업 템플릿 속성이 프린터 개체에 의해 처리되는 방식과 지원되지 않는 속성이 클라이언트에 반환되는 방식에 대한 전체 설명을 제공합니다. 확장성으로 인해 모든 IPP 객체는 지원하지 않는 새롭거나 알려지지 않은 속성이나 값이 포함된 요청을 받을 수 있습니다. 이러한 경우 IPP 개체는 처리할 수 있는 작업을 처리하고 지원되지 않는 속성을 응답으로 반환합니다. 지원되지 않는 속성 그룹은 클라이언트가 요청에 제공한 지원되지 않는 속성을 반환하기 위한 모든 작업 응답에 대해 정의됩니다.

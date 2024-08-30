@@ -1,0 +1,18 @@
+"hash": |-
+  a2b50f6a159842d399534a154b55597805d89360cfb85b5036bcc854f5d11c51
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Attackers may attempt to make a UA send media to a victim as part of
+     a DoS attack.  This can be done by sending a session description with
+     the victim's transport address to the UA.  To prevent this attack,
+     the UA SHOULD engage in a handshake with the owner of the transport
+     address received in a session description (just verifying willingness
+     to receive media) before sending a large amount of data to the
+     transport address.  This check can be performed by using a connection
+"fixed": |-
+  Attackers may attempt to make a UA send media to a victim as part of a DoS attack.  This can be done by sending a session description with the victim's transport address to the UA.  To prevent this attack, the UA SHOULD engage in a handshake with the owner of the transport address received in a session description (just verifying willingness to receive media) before sending a large amount of data to the transport address.  This check can be performed by using a connection
+"ko": |-
+  공격자는 DoS 공격의 일환으로 UA가 피해자에게 미디어를 보내도록 시도할 수 있습니다. 이는 피해자의 전송 주소가 포함된 세션 설명을 UA로 보내면 됩니다. 이 공격을 방지하려면 UA가 세션 설명에서 수신한 전송 주소 소유자와 핸드셰이크를 해야 합니다(미디어 수신 의사를 확인하는 것뿐). 그런 다음 대량의 데이터를 전송 주소로 보내야 합니다. 이 확인은 연결을 사용하여 수행할 수 있습니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  d068973ec94feaaf3f2d89b909b28d7e674df1007597aae154cbeb52959e1e79
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a synthesizer method needs a synthesizer to fetch or access a
+     URI and the access fails, the server SHOULD provide the failed URI in
+     this header field in the method response, unless there are multiple
+     URI failures, in which case the server MUST provide one of the failed
+     URIs in this header field in the method response.
+"fixed": |-
+  When a synthesizer method needs a synthesizer to fetch or access a URI and the access fails, the server SHOULD provide the failed URI in this header field in the method response, unless there are multiple URI failures, in which case the server MUST provide one of the failed URIs in this header field in the method response.
+"ko": |-
+  합성기 메서드가 합성기가 URI를 가져오거나 액세스해야 하고 액세스가 실패하는 경우, 서버는 메서드 응답의 이 헤더 필드에 실패한 URI를 제공해야 합니다. 단, URI 실패가 여러 개 있는 경우, 서버는 메서드 응답의 이 헤더 필드에 실패한 URI 중 하나를 제공해야 합니다.

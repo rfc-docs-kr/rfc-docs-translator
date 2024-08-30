@@ -1,0 +1,25 @@
+"hash": |-
+  a9322ff40bf658a960007a3de5e1b9ea9d358bb42a31779f8f38ab0e7717c57b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A request in a PMCE negotiation offer indicates constraints on the
+     server's behavior that must be satisfied if the server accepts the
+     offer.  For example, suppose that a server sends data compressed with
+     the DEFLATE algorithm to a client.  The server must keep the original
+     bytes of data that it recently compressed and sent to the client.
+     The client must keep the result of decompressing the bytes of data
+     that it recently received from the server.  The amount of bytes of
+     data kept is called the LZ77 window size.  The LZ77 window size of
+     the client must not be less than the LZ77 window size of the server.
+     In a PMCE negotiation offer, the client MUST inform the server of its
+     LZ77 window size so that the server uses an LZ77 window size that is
+     not greater than the LZ77 window size of the client.  This
+     restriction on the LZ77 window size is an example of a request in a
+     PMCE negotiation offer.
+"fixed": |-
+  A request in a PMCE negotiation offer indicates constraints on the server's behavior that must be satisfied if the server accepts the offer.  For example, suppose that a server sends data compressed with the DEFLATE algorithm to a client.  The server must keep the original bytes of data that it recently compressed and sent to the client. The client must keep the result of decompressing the bytes of data that it recently received from the server.  The amount of bytes of data kept is called the LZ77 window size.  The LZ77 window size of the client must not be less than the LZ77 window size of the server. In a PMCE negotiation offer, the client MUST inform the server of its LZ77 window size so that the server uses an LZ77 window size that is not greater than the LZ77 window size of the client.  This restriction on the LZ77 window size is an example of a request in a PMCE negotiation offer.
+"ko": |-
+  PMCE 협상 제안의 요청은 서버가 제안을 수락하는 경우 충족되어야 하는 서버 동작에 대한 제약 조건을 나타냅니다.  예를 들어 서버가 DEFLATE 알고리즘으로 압축된 데이터를 클라이언트에 보낸다고 가정해 보겠습니다.  서버는 최근에 압축하여 클라이언트에 보낸 데이터의 원본 바이트를 보관해야 합니다. 클라이언트는 최근에 서버로부터 받은 데이터 바이트의 압축을 푼 결과를 유지해야 합니다.  보관되는 데이터의 바이트 양을 LZ77 창 크기라고 합니다.  클라이언트의 LZ77 창 크기는 서버의 LZ77 창 크기보다 작을 수 없습니다. PMCE 협상 제안에서 클라이언트는 서버가 클라이언트의 LZ77 창 크기보다 크지 않은 LZ77 창 크기를 사용하도록 서버에 LZ77 창 크기를 알려야 합니다.  LZ77 창 크기에 대한 이러한 제한은 PMCE 협상 제안의 요청 예입니다.

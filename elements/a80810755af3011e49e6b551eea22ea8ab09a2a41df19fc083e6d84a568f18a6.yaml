@@ -1,0 +1,17 @@
+"hash": |-
+  a80810755af3011e49e6b551eea22ea8ab09a2a41df19fc083e6d84a568f18a6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the mobile node receives a Registration Reply message with a Code
+     set to SERVICE_AUTHORIZATION_FAILED and the mobile node has an
+     existing binding with the Home Address used in the failed
+     Registration Request message, the mobile node MUST delete the
+     existing binding.  If there is no existing binding, the mobile node
+     proceeds as with any failed initial registration.
+"fixed": |-
+  If the mobile node receives a Registration Reply message with a Code set to SERVICE_AUTHORIZATION_FAILED and the mobile node has an existing binding with the Home Address used in the failed Registration Request message, the mobile node MUST delete the existing binding.  If there is no existing binding, the mobile node proceeds as with any failed initial registration.
+"ko": |-
+  모바일 노드가 SERVICE_AUTHORIZATION_FAILED로 설정된 코드가 포함된 등록 응답 메시지를 수신하고 모바일 노드가 실패한 등록 요청 메시지에 사용된 홈 주소와의 기존 바인딩을 갖고 있는 경우 모바일 노드는 기존 바인딩을 삭제해야 합니다.  기존 바인딩이 없으면 모바일 노드는 실패한 초기 등록과 동일하게 진행됩니다.

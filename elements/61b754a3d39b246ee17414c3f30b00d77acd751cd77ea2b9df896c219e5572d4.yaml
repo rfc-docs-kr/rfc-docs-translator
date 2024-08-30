@@ -1,0 +1,20 @@
+"hash": |-
+  61b754a3d39b246ee17414c3f30b00d77acd751cd77ea2b9df896c219e5572d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The live injector generates a number of chunks, denoted
+     NCHUNKS_PER_SIG, corresponding to fixed power of 2
+     (NCHUNKS_PER_SIG>=2), which are added as new leaves to the existing
+     hash tree.  As a result of this expansion, the hash tree contains a
+     new subtree that is NCHUNKS_PER_SIG chunks wide at the base.  The
+     root of this new subtree is referred to as the munro of that subtree,
+     and its hash as the munro hash of the subtree, illustrated in
+     Figure 5.  In this figure, node 5 is the new munro, labeled with a $
+     sign.
+"fixed": |-
+  The live injector generates a number of chunks, denoted NCHUNKS_PER_SIG, corresponding to fixed power of 2 (NCHUNKS_PER_SIG>=2), which are added as new leaves to the existing hash tree.  As a result of this expansion, the hash tree contains a new subtree that is NCHUNKS_PER_SIG chunks wide at the base.  The root of this new subtree is referred to as the munro of that subtree, and its hash as the munro hash of the subtree, illustrated in Figure 5.  In this figure, node 5 is the new munro, labeled with a $ sign.
+"ko": |-
+  라이브 인젝터는 고정 전력 2(NCHUNKS_PER_SIG>=2)에 해당하는 NCHUNKS_PER_SIG로 표시된 여러 청크를 생성하며, 이는 기존 해시 트리에 새 리프로 추가됩니다. 이 확장의 결과로 해시 트리에는 기본에서 NCHUNKS_PER_SIG 청크 너비의 새로운 하위 트리가 포함됩니다. 이 새 하위 트리의 루트는 해당 하위 트리의 먼로라고 하며 해당 해시는 그림 5에 설명된 하위 트리의 먼로 해시라고 합니다. 이 그림에서 노드 5는 $ 기호로 레이블이 지정된 새 먼로입니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  231bcd1e3da399388eb1041f71d06d648975beaffdc4088a93730be3e1a549ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A network entity MAY request the authorization of early media or
+     change a request for authorization of early media by including the
+     P-Early-Media header field in any message allowed by Table 1 within
+     the dialog towards the sender of the INVITE request.  The P-Early-
+     Media header field includes one or more direction parameters where
+     each has one of the values: "sendrecv", "sendonly", "recvonly", or
+     "inactive", following the convention used for Session Description
+     Protocol (SDP) [7][8] stream directionality.  Each parameter applies,
+     in order, to the media lines in the corresponding SDP messages
+     establishing session media.  Unrecognized parameters SHALL be
+"fixed": |-
+  A network entity MAY request the authorization of early media or change a request for authorization of early media by including the P-Early-Media header field in any message allowed by Table 1 within the dialog towards the sender of the INVITE request.  The P-Early- Media header field includes one or more direction parameters where each has one of the values: "sendrecv", "sendonly", "recvonly", or "inactive", following the convention used for Session Description Protocol (SDP) [7][8] stream directionality.  Each parameter applies, in order, to the media lines in the corresponding SDP messages establishing session media.  Unrecognized parameters SHALL be
+"ko": |-
+  네트워크 엔터티는 INVITE 요청 발신자에게 대화에서 표 1에 허용된 모든 메시지에 P-Early-Media 헤더 필드를 포함하여 조기 미디어의 승인을 요청하거나 조기 미디어의 승인 요청을 변경할 수 있습니다. P-Early-Media 헤더 필드에는 하나 이상의 방향 매개변수가 포함되며 각각은 "sendrecv", "sendonly", "recvonly" 또는 "inactive" 중 하나의 값을 가지며 세션 설명 프로토콜(SDP) [7][8] 스트림 방향성에 사용되는 규칙을 따릅니다. 각 매개변수는 세션 미디어를 설정하는 해당 SDP 메시지의 미디어 라인에 순서대로 적용됩니다. 인식되지 않은 매개변수는

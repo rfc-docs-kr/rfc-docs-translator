@@ -1,0 +1,18 @@
+"hash": |-
+  d01899ce09033dc440d752fa6b6496bb6e182e1818eddb8dd514498872dbb631
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an endpoint sends a PATH_CHALLENGE frame in a datagram that is not
+     expanded to at least 1200 bytes and if the response to it validates
+     the peer address, the path is validated but not the path MTU.  As a
+     result, the endpoint can now send more than three times the amount of
+     data that has been received.  However, the endpoint MUST initiate
+     another path validation with an expanded datagram to verify that the
+     path supports the required MTU.
+"fixed": |-
+  If an endpoint sends a PATH_CHALLENGE frame in a datagram that is not expanded to at least 1200 bytes and if the response to it validates the peer address, the path is validated but not the path MTU.  As a result, the endpoint can now send more than three times the amount of data that has been received.  However, the endpoint MUST initiate another path validation with an expanded datagram to verify that the path supports the required MTU.
+"ko": |-
+  엔드포인트가 최소 1200바이트로 확장되지 않은 데이터그램으로 PATH_CHALLENGE 프레임을 보내고 이에 대한 응답이 피어 주소의 유효성을 검사하는 경우 경로는 유효성이 검사되지만 경로 MTU는 유효성이 검사되지 않습니다. 결과적으로 엔드포인트는 이제 수신된 데이터 양의 3배 이상을 보낼 수 있습니다. 그러나 엔드포인트는 경로가 필수 MTU를 지원하는지 확인하기 위해 확장된 데이터그램을 사용하여 또 다른 경로 유효성 검사를 시작해야 합니다.

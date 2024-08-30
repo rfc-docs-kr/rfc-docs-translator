@@ -1,0 +1,16 @@
+"hash": |-
+  a69da7debd57422bbd7e3afebdca1196ffcff3be892ddc572dc824d1cff5519f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Responder indicates its acceptance to perform Secure PSK
+     Authentication by adding a Notify payload of type
+     SECURE_PASSWORD_METHODS to its response in the IKE_SA_INIT exchange
+     and by adding the sole value of 3 to the notification data field of
+     the Notify payload.
+"fixed": |-
+  The Responder indicates its acceptance to perform Secure PSK Authentication by adding a Notify payload of type SECURE_PASSWORD_METHODS to its response in the IKE_SA_INIT exchange and by adding the sole value of 3 to the notification data field of the Notify payload.
+"ko": |-
+  응답자는 IKE_SA_INIT 교환의 응답에 SECURE_PASSWORD_METHODS 유형의 알림 페이로드를 추가하고 알림 페이로드의 알림 데이터 필드에 유일한 값 3을 추가하여 보안 PSK 인증 수행에 대한 수락을 나타냅니다.

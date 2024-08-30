@@ -1,0 +1,15 @@
+"hash": |-
+  f8a7beb9cc20a337d34be25aab487faed25a4e3fa174ed2067fd157c9b7ed221
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case of a mailbox that has permissions set so that the client
+     can COPY to the mailbox, but not SELECT or EXAMINE it, the server
+     MUST NOT send a COPYUID response code as it would disclose
+     information about the mailbox.
+"fixed": |-
+  In the case of a mailbox that has permissions set so that the client can COPY to the mailbox, but not SELECT or EXAMINE it, the server MUST NOT send a COPYUID response code as it would disclose information about the mailbox.
+"ko": |-
+  클라이언트가 사서함에 COPY할 수 있지만 SELECT 또는 EXAMINE은 할 수 없도록 권한이 설정된 사서함의 경우 서버는 사서함에 대한 정보를 공개하므로 COPYUID 응답 코드를 보내서는 안 됩니다.

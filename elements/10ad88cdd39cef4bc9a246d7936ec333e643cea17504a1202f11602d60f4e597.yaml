@@ -1,0 +1,16 @@
+"hash": |-
+  10ad88cdd39cef4bc9a246d7936ec333e643cea17504a1202f11602d60f4e597
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint is expected to send another STOP_SENDING frame if a
+     packet containing a previous STOP_SENDING is lost.  However, once
+     either all stream data or a RESET_STREAM frame has been received for
+     the stream -- that is, the stream is in any state other than "Recv"
+     or "Size Known" -- sending a STOP_SENDING frame is unnecessary.
+"fixed": |-
+  An endpoint is expected to send another STOP_SENDING frame if a packet containing a previous STOP_SENDING is lost.  However, once either all stream data or a RESET_STREAM frame has been received for the stream -- that is, the stream is in any state other than "Recv" or "Size Known" -- sending a STOP_SENDING frame is unnecessary.
+"ko": |-
+  이전 STOP_SENDING을 포함하는 패킷이 손실되면 엔드포인트는 또 다른 STOP_SENDING 프레임을 보낼 것으로 예상됩니다. 그러나 스트림에 대해 모든 스트림 데이터 또는 RESET_STREAM 프레임이 수신되면(즉, 스트림이 "Recv" 또는 "알려진 크기" 이외의 상태인 경우) STOP_SENDING 프레임을 보내는 것은 필요하지 않습니다.

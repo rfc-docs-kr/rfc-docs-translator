@@ -1,0 +1,19 @@
+"hash": |-
+  7ca89d15638e16fdc51f15f63c315872b02dc819492fd123c57478db8f117db7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An ACK message (type 0x02) acknowledges data that was received from
+     its addressee; to comply with the LEDBAT delay-based congestion
+     control, an ACK message consists of a chunk specification and a
+     timestamp representing a one-way delay sample.  The one-way delay
+     sample is a 64-bit integer with microsecond accuracy, and it is
+     computed from the timestamp received from the previous DATA message
+     containing the chunk being acknowledged following the LEDBAT
+     specification.
+"fixed": |-
+  An ACK message (type 0x02) acknowledges data that was received from its addressee; to comply with the LEDBAT delay-based congestion control, an ACK message consists of a chunk specification and a timestamp representing a one-way delay sample.  The one-way delay sample is a 64-bit integer with microsecond accuracy, and it is computed from the timestamp received from the previous DATA message containing the chunk being acknowledged following the LEDBAT specification.
+"ko": |-
+  ACK 메시지(유형 0x02)는 수신자로부터 수신된 데이터를 확인합니다. LEDBAT 지연 기반 혼잡 제어를 준수하기 위해 ACK 메시지는 청크 사양과 단방향 지연 샘플을 나타내는 타임스탬프로 구성됩니다. 단방향 지연 샘플은 마이크로초 정확도의 64비트 정수이며 LEDBAT 사양에 따라 승인되는 청크가 포함된 이전 DATA 메시지에서 수신된 타임스탬프에서 계산됩니다.

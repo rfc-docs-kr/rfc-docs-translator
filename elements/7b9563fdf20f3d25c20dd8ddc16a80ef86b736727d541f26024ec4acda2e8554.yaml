@@ -1,0 +1,15 @@
+"hash": |-
+  7b9563fdf20f3d25c20dd8ddc16a80ef86b736727d541f26024ec4acda2e8554
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender MAY send the ETag field in a trailer section (see
+     Section 6.5).  However, since trailers are often ignored, it is
+     preferable to send ETag as a header field unless the entity tag is
+     generated while sending the content.
+"fixed": |-
+  A sender MAY send the ETag field in a trailer section (see Section 6.5).  However, since trailers are often ignored, it is preferable to send ETag as a header field unless the entity tag is generated while sending the content.
+"ko": |-
+  발신자는 트레일러 섹션의 ETag 필드를 보낼 수 있습니다(섹션 6.5 참조). 다만, 트레일러는 무시되는 경우가 많기 때문에 콘텐츠 전송 시 엔터티 태그가 생성되지 않는 이상 ETag를 헤더 필드로 전송하는 것이 바람직하다.

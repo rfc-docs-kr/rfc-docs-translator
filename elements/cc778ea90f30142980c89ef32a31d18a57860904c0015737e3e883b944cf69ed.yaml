@@ -1,0 +1,19 @@
+"hash": |-
+  cc778ea90f30142980c89ef32a31d18a57860904c0015737e3e883b944cf69ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are two cases in which a line from the client does not
+     represent a complete command.  In one case, a command argument is
+     quoted with an octet count (see the description of literal in
+     Section 4.3); in the other case, the command arguments require server
+     feedback (see the AUTHENTICATE command in Section 6.2.2).  In either
+     case, the server sends a command continuation request response if it
+     is ready for the octets (if appropriate) and the remainder of the
+     command.  This response is prefixed with the token "+".
+"fixed": |-
+  There are two cases in which a line from the client does not represent a complete command.  In one case, a command argument is quoted with an octet count (see the description of literal in Section 4.3); in the other case, the command arguments require server feedback (see the AUTHENTICATE command in Section 6.2.2).  In either case, the server sends a command continuation request response if it is ready for the octets (if appropriate) and the remainder of the command.  This response is prefixed with the token "+".
+"ko": |-
+  클라이언트의 줄이 완전한 명령을 나타내지 않는 두 가지 경우가 있습니다.  어떤 경우에는 명령 인수가 옥텟 수로 인용됩니다(섹션 4.3의 리터럴에 대한 설명 참조). 다른 경우에는 명령 인수에 서버 피드백이 필요합니다(섹션 6.2.2의 AUTHENTICATE 명령 참조).  두 경우 모두 서버는 옥텟(해당하는 경우)과 나머지 명령에 대한 준비가 되면 명령 연속 요청 응답을 보냅니다.  이 응답에는 토큰 "+"가 접두어로 붙습니다.

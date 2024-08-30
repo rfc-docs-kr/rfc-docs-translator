@@ -1,0 +1,18 @@
+"hash": |-
+  3f307e7616d75a80fc13ad245dc7183f6d60f8cd42cc7358079a79302f9ac733
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ENROLLMENT-ROLLBACK method discards the last live utterance from
+     the RECOGNIZE operation.  The client can invoke this method when the
+     caller provides undesirable input such as non-speech noises, side-
+     speech, commands, utterance from the RECOGNIZE grammar, etc.  Note
+     that this method does not provide a stack of rollback states.
+     Executing ENROLLMENT-ROLLBACK twice in succession without an
+     intervening recognition operation has no effect the second time.
+"fixed": |-
+  The ENROLLMENT-ROLLBACK method discards the last live utterance from the RECOGNIZE operation.  The client can invoke this method when the caller provides undesirable input such as non-speech noises, side- speech, commands, utterance from the RECOGNIZE grammar, etc.  Note that this method does not provide a stack of rollback states. Executing ENROLLMENT-ROLLBACK twice in succession without an intervening recognition operation has no effect the second time.
+"ko": |-
+  ENROLLMENT-ROLLBACK 메서드는 RECOGNIZE 작업에서 마지막 라이브 발화를 삭제합니다. 클라이언트는 호출자가 비음성 잡음, 부사어, 명령, RECOGNIZE 문법의 발화 등과 같은 바람직하지 않은 입력을 제공할 때 이 메서드를 호출할 수 있습니다. 이 메서드는 롤백 상태 스택을 제공하지 않는다는 점에 유의하세요. 개입 인식 작업 없이 ENROLLMENT-ROLLBACK을 연속으로 두 번 실행해도 두 번째에는 효과가 없습니다.

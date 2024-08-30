@@ -1,0 +1,19 @@
+"hash": |-
+  26e082b8f8905b446c1d6c2bfc7c56d8d686d61cf6874f6983ada81819fde73d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As per the example code above, the number of '=' padding characters
+     that needs to be added to the end of a base64url-encoded string
+     without padding to turn it into one with padding is a deterministic
+     function of the length of the encoded string.  Specifically, if the
+     length mod 4 is 0, no padding is added; if the length mod 4 is 2, two
+     '=' padding characters are added; if the length mod 4 is 3, one '='
+     padding character is added; if the length mod 4 is 1, the input is
+     malformed.
+"fixed": |-
+  As per the example code above, the number of '=' padding characters that needs to be added to the end of a base64url-encoded string without padding to turn it into one with padding is a deterministic function of the length of the encoded string.  Specifically, if the length mod 4 is 0, no padding is added; if the length mod 4 is 2, two '=' padding characters are added; if the length mod 4 is 3, one '=' padding character is added; if the length mod 4 is 1, the input is malformed.
+"ko": |-
+  위의 예제 코드에 따르면 패딩이 없는 base64url 인코딩된 문자열을 패딩이 있는 문자열로 바꾸기 위해 패딩 없이 base64url로 인코딩된 문자열 끝에 추가해야 하는 '=' 패딩 문자의 수는 인코딩된 문자열의 길이에 대한 결정적 함수입니다. 구체적으로, 길이 mod 4가 0이면 패딩이 추가되지 않습니다. 길이 mod 4가 2이면 두 개의 '=' 패딩 문자가 추가됩니다. 길이 mod 4가 3이면 하나의 '=' 패딩 문자가 추가됩니다. 길이 mod 4가 1이면 입력이 잘못되었습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  8c902aa2934a1128f10a80189fec2cc89739173f3c1842f8c2fc823c80513d51
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Strict JSON [RFC7159] validation is a security requirement.  If
+     malformed JSON is received, then the intent of the producer is
+     impossible to reliably discern.  Ambiguous and potentially
+     exploitable situations could arise if the JSON parser used does not
+     reject malformed JSON syntax.  In particular, any JSON inputs not
+     conforming to the JSON-text syntax defined in RFC 7159 MUST be
+     rejected in their entirety by JSON parsers.
+"fixed": |-
+  Strict JSON [RFC7159] validation is a security requirement.  If malformed JSON is received, then the intent of the producer is impossible to reliably discern.  Ambiguous and potentially exploitable situations could arise if the JSON parser used does not reject malformed JSON syntax.  In particular, any JSON inputs not conforming to the JSON-text syntax defined in RFC 7159 MUST be rejected in their entirety by JSON parsers.
+"ko": |-
+  엄격한 JSON [RFC7159] 검증은 보안 요구 사항입니다. 잘못된 JSON이 수신되면 제작자의 의도를 확실하게 식별할 수 없습니다. 사용된 JSON 파서가 잘못된 JSON 구문을 거부하지 않으면 모호하고 잠재적으로 악용될 수 있는 상황이 발생할 수 있습니다. 특히 RFC 7159에 정의된 JSON-text 구문을 따르지 않는 JSON 입력은 JSON 파서에서 전체적으로 거부해야 합니다.

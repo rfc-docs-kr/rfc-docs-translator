@@ -1,0 +1,19 @@
+"hash": |-
+  f829e957d3a24ccb64c5b94c4ef0f27c635c9ae3bd8e37f3cc55b6c08a5cd878
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When recognition is started and there is no speech detected for a
+     certain period of time, the recognizer can send a RECOGNITION-
+     COMPLETE event to the client with a Completion-Cause of "no-input-
+     timeout" and terminate the recognition operation.  The client can use
+     the No-Input-Timeout header field to set this timeout.  The value is
+     in milliseconds and can range from 0 to an implementation-specific
+     maximum value.  This header field MAY occur in RECOGNIZE, SET-PARAMS,
+     or GET-PARAMS.  The default value is implementation specific.
+"fixed": |-
+  When recognition is started and there is no speech detected for a certain period of time, the recognizer can send a RECOGNITION- COMPLETE event to the client with a Completion-Cause of "no-input- timeout" and terminate the recognition operation.  The client can use the No-Input-Timeout header field to set this timeout.  The value is in milliseconds and can range from 0 to an implementation-specific maximum value.  This header field MAY occur in RECOGNIZE, SET-PARAMS, or GET-PARAMS.  The default value is implementation specific.
+"ko": |-
+  인식이 시작되고 일정 시간 동안 음성이 감지되지 않으면 인식기는 "no-input-timeout"의 완료 원인과 함께 RECOGNITION-COMPLETE 이벤트를 클라이언트에 보내고 인식 작업을 종료할 수 있습니다. 클라이언트는 No-Input-Timeout 헤더 필드를 사용하여 이 시간 초과를 설정할 수 있습니다. 값은 밀리초 단위이며 0에서 구현별 최대값까지 범위가 될 수 있습니다. 이 헤더 필드는 RECOGNIZE, SET-PARAMS 또는 GET-PARAMS에서 발생할 수 있습니다. 기본값은 구현별입니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  836d9a13d57f743ee1d1eb91f7c2a292c407b318419d58d81b57b648ce347400
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While attacks on integrity must generally happen while the session is
+     in progress, attacks against session confidentiality can happen
+     significantly later if the entire TLS session is stored for offline
+     analysis.  Therefore, FFDHE groups should be selected by clients and
+     servers based on confidentiality guarantees they need.  Sessions that
+     need extremely long-term confidentiality should prefer stronger
+     groups.
+"fixed": |-
+  While attacks on integrity must generally happen while the session is in progress, attacks against session confidentiality can happen significantly later if the entire TLS session is stored for offline analysis.  Therefore, FFDHE groups should be selected by clients and servers based on confidentiality guarantees they need.  Sessions that need extremely long-term confidentiality should prefer stronger groups.
+"ko": |-
+  무결성에 대한 공격은 일반적으로 세션이 진행되는 동안 발생해야 하지만, 세션 기밀성에 대한 공격은 전체 TLS 세션이 오프라인 분석을 위해 저장되는 경우 상당히 나중에 발생할 수 있습니다.  따라서 클라이언트와 서버는 필요한 기밀 보장을 기반으로 FFDHE 그룹을 선택해야 합니다.  극도로 장기적인 기밀 유지가 필요한 세션은 더 강력한 그룹을 선호해야 합니다.

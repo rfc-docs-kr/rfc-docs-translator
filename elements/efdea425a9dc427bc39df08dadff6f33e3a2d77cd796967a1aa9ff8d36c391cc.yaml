@@ -1,0 +1,23 @@
+"hash": |-
+  efdea425a9dc427bc39df08dadff6f33e3a2d77cd796967a1aa9ff8d36c391cc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Client MUST supply the Document data if the "last-document"
+        flag is set to 'false'.  However, since a Client might not know
+        that the previous Document sent with a Send-Document (or Send-URI)
+        operation was the last Document (i.e., the "last-document"
+        attribute was set to 'false'), it is legal to send a Send-Document
+        request with no Document data where the "last-document" flag is
+        set to 'true'.  Such a request MUST NOT increment the value of the
+        Job's "number-of-documents" attribute, since no real Document was
+        added to the Job.  It is not an error for a Client to submit a Job
+        with no actual Document data, i.e., only a single Create-Job and
+        Send-Document request with a "last-document" operation attribute
+        set to 'true' with no Document data.
+"fixed": |-
+  - The Client MUST supply the Document data if the "last-document" flag is set to 'false'.  However, since a Client might not know that the previous Document sent with a Send-Document (or Send-URI) operation was the last Document (i.e., the "last-document" attribute was set to 'false'), it is legal to send a Send-Document request with no Document data where the "last-document" flag is set to 'true'.  Such a request MUST NOT increment the value of the Job's "number-of-documents" attribute, since no real Document was added to the Job.  It is not an error for a Client to submit a Job with no actual Document data, i.e., only a single Create-Job and Send-Document request with a "last-document" operation attribute set to 'true' with no Document data.
+"ko": |-
+  - "last-document" 플래그가 'false'로 설정된 경우 클라이언트는 문서 데이터를 제공해야 합니다. 그러나 클라이언트는 Send-Document(또는 Send-URI) 작업으로 전송된 이전 문서가 마지막 문서(즉, "last-document" 속성이 'false'로 설정됨)인지 알지 못할 수 있으므로 이는 합법적입니다. "last-document" 플래그가 'true'로 설정된 문서 데이터 없이 Send-Document 요청을 보냅니다. 이러한 요청은 작업에 실제 문서가 추가되지 않았기 때문에 작업의 "문서 수" 속성 값을 증가시켜서는 안 됩니다. 클라이언트가 실제 문서 데이터 없이 작업을 제출하는 것은 오류가 아닙니다. 즉, 문서 데이터 없이 "마지막 문서" 작업 속성이 'true'로 설정된 단일 Create-Job 및 Send-Document 요청만 제출하는 것은 오류가 아닙니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  853cbf0eaa81eac1e5c4bfd5afd552519092a5d9b44e1413e46c412425d80818
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     url-meta-binary       =  "BINARY" SP ( nstring / literal8 )
+        ; If content contains a NUL octet, literal8 MUST be used.
+        ; Otherwise, content SHOULD use nstring.
+        ; On decoding error, NIL should be used.
+"fixed": |-
+  url-meta-binary       =  "BINARY" SP ( nstring / literal8 ) ; If content contains a NUL octet, literal8 MUST be used. ; Otherwise, content SHOULD use nstring. ; On decoding error, NIL should be used.
+"ko": |-
+  url-meta-binary = "BINARY" SP ( nstring / literal8 ) ; 콘텐츠에 NUL 옥텟이 포함되어 있으면 literal8을 사용해야 합니다. ; 그렇지 않으면 콘텐츠는 nstring을 사용해야 합니다. ; 디코딩 오류가 발생하면 NIL을 사용해야 합니다.

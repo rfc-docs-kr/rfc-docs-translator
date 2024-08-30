@@ -1,0 +1,18 @@
+"hash": |-
+  42ce1da5736d1a4b7300c826ca943a2b9d21fb9c8b78840870a2c41842cee0b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Similarly, an endpoint MUST NOT reuse a connection ID when sending to
+     more than one destination address.  Due to network changes outside
+     the control of its peer, an endpoint might receive packets from a new
+     source address with the same Destination Connection ID field value,
+     in which case it MAY continue to use the current connection ID with
+     the new remote address while still sending from the same local
+     address.
+"fixed": |-
+  Similarly, an endpoint MUST NOT reuse a connection ID when sending to more than one destination address.  Due to network changes outside the control of its peer, an endpoint might receive packets from a new source address with the same Destination Connection ID field value, in which case it MAY continue to use the current connection ID with the new remote address while still sending from the same local address.
+"ko": |-
+  마찬가지로 엔드포인트는 둘 이상의 대상 주소로 전송할 때 연결 ID를 재사용해서는 안 됩니다. 피어의 제어를 벗어난 네트워크 변경으로 인해 엔드포인트는 동일한 대상 연결 ID 필드 값을 사용하여 새 소스 주소에서 패킷을 수신할 수 있으며, 이 경우 전송을 계속하면서 새 원격 주소와 함께 현재 연결 ID를 계속 사용할 수 있습니다. 동일한 지역 주소에서.

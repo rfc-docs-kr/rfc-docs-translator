@@ -1,0 +1,18 @@
+"hash": |-
+  aa49ead2fd89cfed22b3264b3e9cb8cca12451df86b3e1e3941349cd5cf10e96
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The stateless reset token MUST be difficult to guess.  In order to
+     create a stateless reset token, an endpoint could randomly generate
+     [RANDOM] a secret for every connection that it creates.  However,
+     this presents a coordination problem when there are multiple
+     instances in a cluster or a storage problem for an endpoint that
+     might lose state.  Stateless reset specifically exists to handle the
+     case where state is lost, so this approach is suboptimal.
+"fixed": |-
+  The stateless reset token MUST be difficult to guess.  In order to create a stateless reset token, an endpoint could randomly generate [RANDOM] a secret for every connection that it creates.  However, this presents a coordination problem when there are multiple instances in a cluster or a storage problem for an endpoint that might lose state.  Stateless reset specifically exists to handle the case where state is lost, so this approach is suboptimal.
+"ko": |-
+  상태 비저장 재설정 토큰은 추측하기 어려워야 합니다. 상태 비저장 재설정 토큰을 생성하기 위해 엔드포인트는 자신이 생성하는 모든 연결에 대해 무작위로 [RANDOM] 비밀을 생성할 수 있습니다. 그러나 클러스터에 여러 인스턴스가 있는 경우 조정 문제가 발생하거나 상태가 손실될 수 있는 엔드포인트에 대한 스토리지 문제가 발생합니다. 상태 비저장 재설정은 상태가 손실된 경우를 처리하기 위해 특별히 존재하므로 이 접근 방식은 차선책입니다.

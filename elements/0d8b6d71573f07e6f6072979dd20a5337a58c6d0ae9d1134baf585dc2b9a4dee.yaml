@@ -9,7 +9,7 @@
         usually be zero or one.  It makes sense to use one if we use the
         zero block for something else, such as generating a one-time
         authenticator key as part of an AEAD algorithm.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  -  A 32-bit initial counter.  This can be set to any number, but will usually be zero or one.  It makes sense to use one if we use the zero block for something else, such as generating a one-time authenticator key as part of an AEAD algorithm.
+"ko": |-
+  - 32비트 초기 카운터. 임의의 숫자로 설정할 수 있지만 일반적으로 0 또는 1입니다. AEAD 알고리즘의 일부로 일회용 인증 키를 생성하는 등 다른 용도로 제로 블록을 사용하는 경우 하나를 사용하는 것이 합리적입니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  9e4e4230d3820faf6f5c55cad1aa43ccd93e1c37beaacee67b6a52b9c2461b7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MUST NOT set the "Per-Message Compressed" bit of control
+     frames and non-first fragments of a data message.  An endpoint
+     receiving such a frame MUST _Fail the WebSocket Connection_.
+"fixed": |-
+  An endpoint MUST NOT set the "Per-Message Compressed" bit of control frames and non-first fragments of a data message.  An endpoint receiving such a frame MUST _Fail the WebSocket Connection_.
+"ko": |-
+  엔드포인트는 제어 프레임의 "메시지별 압축" 비트와 데이터 메시지의 첫 번째가 아닌 조각을 설정해서는 안 됩니다.  그러한 프레임을 수신하는 엔드포인트는 반드시 _WebSocket 연결 실패_를 해야 합니다.

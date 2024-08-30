@@ -1,0 +1,16 @@
+"hash": |-
+  567be63e7046adcffbeab59a11642cbeb6687c8b25bc18cda103b64b9560bb25
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are no dedicated methods for collecting buffered audio data.
+     This is accomplished by calling VERIFY, RECOGNIZE, or RECORD as
+     appropriate for the resource, with the header field
+     Ver-Buffer-Utterance.  Then, when the following method is called,
+     verification is performed using the set of buffered audio.
+"fixed": |-
+  There are no dedicated methods for collecting buffered audio data. This is accomplished by calling VERIFY, RECOGNIZE, or RECORD as appropriate for the resource, with the header field Ver-Buffer-Utterance.  Then, when the following method is called, verification is performed using the set of buffered audio.
+"ko": |-
+  버퍼링된 오디오 데이터를 수집하기 위한 전용 방법은 없습니다. 이는 리소스에 적합한 VERIFY, RECOGNIZE 또는 RECORD를 호출하여 헤더 필드 Ver-Buffer-Utterance로 수행합니다. 그런 다음 다음 메서드가 호출되면 버퍼링된 오디오 세트를 사용하여 검증이 수행됩니다.

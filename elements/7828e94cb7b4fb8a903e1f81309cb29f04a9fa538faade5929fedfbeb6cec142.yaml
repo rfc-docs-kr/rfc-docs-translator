@@ -1,0 +1,17 @@
+"hash": |-
+  7828e94cb7b4fb8a903e1f81309cb29f04a9fa538faade5929fedfbeb6cec142
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Additional connection IDs are communicated to the peer using
+     NEW_CONNECTION_ID frames (Section 19.15).  The sequence number on
+     each newly issued connection ID MUST increase by 1.  The connection
+     ID that a client selects for the first Destination Connection ID
+     field it sends and any connection ID provided by a Retry packet are
+     not assigned sequence numbers.
+"fixed": |-
+  Additional connection IDs are communicated to the peer using NEW_CONNECTION_ID frames (Section 19.15).  The sequence number on each newly issued connection ID MUST increase by 1.  The connection ID that a client selects for the first Destination Connection ID field it sends and any connection ID provided by a Retry packet are not assigned sequence numbers.
+"ko": |-
+  추가 연결 ID는 NEW_CONNECTION_ID 프레임(19.15절)을 사용하여 피어에 전달됩니다. 새로 발급된 각 연결 ID의 시퀀스 번호는 1씩 증가해야 합니다. 클라이언트가 보내는 첫 번째 대상 연결 ID 필드에 대해 선택하는 연결 ID와 재시도 패킷에서 제공하는 연결 ID에는 시퀀스 번호가 할당되지 않습니다.

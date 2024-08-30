@@ -1,0 +1,17 @@
+"hash": |-
+  ed274b45de05bbc053bb2797a6eb42899182046e7c19ca14d18b9b6b827e0003
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender that generates a 206 response to a request with an If-Range
+     header field SHOULD NOT generate other representation header fields
+     beyond those required because the client already has a prior response
+     containing those header fields.  Otherwise, a sender MUST generate
+     all of the representation header fields that would have been sent in
+     a 200 (OK) response to the same request.
+"fixed": |-
+  A sender that generates a 206 response to a request with an If-Range header field SHOULD NOT generate other representation header fields beyond those required because the client already has a prior response containing those header fields.  Otherwise, a sender MUST generate all of the representation header fields that would have been sent in a 200 (OK) response to the same request.
+"ko": |-
+  If-Range 헤더 필드가 있는 요청에 대한 206 응답을 생성하는 발신자는 필요한 것 이상의 다른 표현 헤더 필드를 생성해서는 안 됩니다. 왜냐하면 클라이언트가 이미 해당 헤더 필드를 포함하는 이전 응답을 가지고 있기 때문입니다. 그렇지 않으면 발신자는 동일한 요청에 대한 200(OK) 응답으로 전송되었을 모든 표현 헤더 필드를 생성해야 합니다.

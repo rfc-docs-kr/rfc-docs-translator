@@ -1,0 +1,20 @@
+"hash": |-
+  39de9d4d43140ad767d5772759a6bdb7ebd7e651ccf8b70b247b71be4b04c869
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The Client MAY supply and the Printer MUST support this
+           attribute.  It is an integer value that determines the maximum
+           number of Jobs that a Client will receive from the Printer even
+           if "which-jobs" or "my-jobs" (described below) constrain which
+           Jobs are returned.  The limit is a "stateless limit" in that if
+           the value supplied by the Client is 'N', then only the first
+           'N' Jobs are returned in the Get-Jobs response.  If the Client
+           does not supply this attribute, the Printer responds with all
+           applicable Jobs.
+"fixed": |-
+  - The Client MAY supply and the Printer MUST support this attribute.  It is an integer value that determines the maximum number of Jobs that a Client will receive from the Printer even if "which-jobs" or "my-jobs" (described below) constrain which Jobs are returned.  The limit is a "stateless limit" in that if the value supplied by the Client is 'N', then only the first 'N' Jobs are returned in the Get-Jobs response.  If the Client does not supply this attribute, the Printer responds with all applicable Jobs.
+"ko": |-
+  - 클라이언트는 이 속성을 제공할 수 있고 프린터는 이 속성을 지원해야 합니다. 이는 "which-jobs" 또는 "my-jobs"(아래 설명)가 반환되는 작업을 제한하더라도 클라이언트가 프린터에서 수신할 최대 작업 수를 결정하는 정수 값입니다. 클라이언트가 제공한 값이 'N'인 경우 첫 번째 'N'개의 작업만 Get-Jobs 응답으로 반환된다는 점에서 이 제한은 "상태 비저장 제한"입니다. 클라이언트가 이 속성을 제공하지 않으면 프린터는 적용 가능한 모든 작업으로 응답합니다.

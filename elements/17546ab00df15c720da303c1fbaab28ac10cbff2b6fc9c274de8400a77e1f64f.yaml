@@ -1,0 +1,20 @@
+"hash": |-
+  17546ab00df15c720da303c1fbaab28ac10cbff2b6fc9c274de8400a77e1f64f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The Client MAY supply and the Printer MUST support this operation
+        attribute in a Hold-Job request if it supports the
+        "job-hold-until" Job Template attribute in Job Creation requests.
+        See Section 5.2.2.  The Printer SHOULD support the
+        "job-hold-until" Job Template attribute for use in Job Creation
+        requests with at least the 'indefinite' value, if it supports the
+        Hold-Job operation.  Otherwise, a Client cannot create a Job and
+        hold it immediately (without picking some supported time period in
+        the future).
+"fixed": |-
+  - The Client MAY supply and the Printer MUST support this operation attribute in a Hold-Job request if it supports the "job-hold-until" Job Template attribute in Job Creation requests. See Section 5.2.2.  The Printer SHOULD support the "job-hold-until" Job Template attribute for use in Job Creation requests with at least the 'indefinite' value, if it supports the Hold-Job operation.  Otherwise, a Client cannot create a Job and hold it immediately (without picking some supported time period in the future).
+"ko": |-
+  - 클라이언트는 작업 생성 요청에서 "job-hold-until" 작업 템플릿 속성을 지원하는 경우 작업 보류 요청에서 이 작업 속성을 제공할 수 있고 프린터는 반드시 지원해야 합니다. 섹션 5.2.2를 참조하세요. 프린터는 작업 보류 작업을 지원하는 경우 최소한 '무한' 값을 사용하여 작업 생성 요청에 사용할 "job-hold-until" 작업 템플릿 속성을 지원해야 합니다. 그렇지 않으면 클라이언트는 작업을 생성하고 즉시 보유할 수 없습니다(향후 지원되는 기간을 선택하지 않고).

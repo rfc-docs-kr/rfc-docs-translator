@@ -1,0 +1,20 @@
+"hash": |-
+  e74cbdafcb41e3c02bc7e397ae8a3cd8a225ee668c6c896212fb331a0f4f1ec4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When multiple ranges are requested, a server MAY coalesce any of the
+     ranges that overlap, or that are separated by a gap that is smaller
+     than the overhead of sending multiple parts, regardless of the order
+     in which the corresponding range-spec appeared in the received Range
+     header field.  Since the typical overhead between each part of a
+     "multipart/byteranges" is around 80 bytes, depending on the selected
+     representation's media type and the chosen boundary parameter length,
+     it can be less efficient to transfer many small disjoint parts than
+     it is to transfer the entire selected representation.
+"fixed": |-
+  When multiple ranges are requested, a server MAY coalesce any of the ranges that overlap, or that are separated by a gap that is smaller than the overhead of sending multiple parts, regardless of the order in which the corresponding range-spec appeared in the received Range header field.  Since the typical overhead between each part of a "multipart/byteranges" is around 80 bytes, depending on the selected representation's media type and the chosen boundary parameter length, it can be less efficient to transfer many small disjoint parts than it is to transfer the entire selected representation.
+"ko": |-
+  여러 범위가 요청되면 서버는 해당 범위 사양이 수신된 순서에 관계없이 겹치거나 여러 부분을 보내는 오버헤드보다 작은 간격으로 분리된 범위를 통합할 수 있습니다. 범위 헤더 필드. "multipart/byteranges"의 각 부분 사이의 일반적인 오버헤드는 약 80바이트이므로 선택한 표현의 미디어 유형과 선택한 경계 매개변수 길이에 따라 여러 작은 분리된 부분을 전송하는 것보다 비효율적일 수 있습니다. 전체 선택된 표현.

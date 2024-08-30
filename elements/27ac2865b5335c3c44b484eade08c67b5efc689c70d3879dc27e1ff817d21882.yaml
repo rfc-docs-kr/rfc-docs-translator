@@ -1,0 +1,17 @@
+"hash": |-
+  27ac2865b5335c3c44b484eade08c67b5efc689c70d3879dc27e1ff817d21882
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The reason for not having such a mechanism is that disposition types
+     are typically supported within a context.  Outside that context, a UA
+     need not support the disposition type.  For example, a UA can support
+     the 'session' disposition type for body parts in INVITE and UPDATE
+     requests and their responses.  However, the same UA would not support
+     the 'session' disposition type in MESSAGE requests.
+"fixed": |-
+  The reason for not having such a mechanism is that disposition types are typically supported within a context.  Outside that context, a UA need not support the disposition type.  For example, a UA can support the 'session' disposition type for body parts in INVITE and UPDATE requests and their responses.  However, the same UA would not support the 'session' disposition type in MESSAGE requests.
+"ko": |-
+  이러한 메커니즘이 없는 이유는 처리 유형이 일반적으로 컨텍스트 내에서 지원되기 때문입니다. 해당 컨텍스트 외부에서 UA는 처리 유형을 지원할 필요가 없습니다. 예를 들어, UA는 INVITE 및 UPDATE 요청과 해당 응답에서 본문 부분에 대한 '세션' 처리 유형을 지원할 수 있습니다. 그러나 동일한 UA는 MESSAGE 요청에서 '세션' 처리 유형을 지원하지 않습니다.

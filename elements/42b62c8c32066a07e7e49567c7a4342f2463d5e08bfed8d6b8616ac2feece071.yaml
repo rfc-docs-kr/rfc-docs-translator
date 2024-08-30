@@ -1,0 +1,19 @@
+"hash": |-
+  42b62c8c32066a07e7e49567c7a4342f2463d5e08bfed8d6b8616ac2feece071
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The 'session' and 'early-session' [RFC3959] disposition types require
+     that all the body parts of a 'multipart/alternative' body have
+     different content types.  Consequently, for the 'session' and 'early-
+     session' disposition types, UAs MUST NOT place more than one body
+     part with a given content type in a 'multipart/alternative' body.
+     That is, for 'session' and 'early-session', no body part within a
+     'multipart/alternative' can have the same content type as another
+     body part within the same 'multipart/alternative'.
+"fixed": |-
+  The 'session' and 'early-session' [RFC3959] disposition types require that all the body parts of a 'multipart/alternative' body have different content types.  Consequently, for the 'session' and 'early- session' disposition types, UAs MUST NOT place more than one body part with a given content type in a 'multipart/alternative' body. That is, for 'session' and 'early-session', no body part within a 'multipart/alternative' can have the same content type as another body part within the same 'multipart/alternative'.
+"ko": |-
+  'session' 및 'early-session' [RFC3959] 처리 유형은 'multipart/alternative' 본문의 모든 본문 부분이 서로 다른 콘텐츠 유형을 가져야 함을 요구합니다. 따라서 'session' 및 'early-session' 처리 유형의 경우 UA는 'multipart/alternative' 본문에 주어진 콘텐츠 유형이 있는 본문 부분을 두 개 이상 배치해서는 안 됩니다. 즉, 'session' 및 'early-session'의 경우 'multipart/alternative' 내의 본문 부분은 동일한 'multipart/alternative' 내의 다른 본문 부분과 동일한 콘텐츠 유형을 가질 수 없습니다.

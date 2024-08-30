@@ -1,0 +1,18 @@
+"hash": |-
+  e722c2c6299c011ddf0e4fbfe5db797f2538379f13ac3aef2ada97c59f607d65
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          C: A01 LIST "" % RETURN (STATUS (MESSAGES UNSEEN))
+          S: * LIST () "."  "INBOX"
+          S: * STATUS "INBOX" (MESSAGES 17 UNSEEN 16)
+          S: * LIST () "." "foo"
+          S: * STATUS "foo" (MESSAGES 30 UNSEEN 29)
+          S: * LIST (\NoSelect) "." "bar"
+          S: A01 OK List completed.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

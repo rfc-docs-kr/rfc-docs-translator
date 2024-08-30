@@ -1,0 +1,16 @@
+"hash": |-
+  d08753502bdc88f3f75e77202e11dbd736ee12ff68b383cbd9ecd92e48d1e133
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Initial packet protection (Section 5.2 of [QUIC-TLS]) makes it
+     difficult for servers to control the content of Initial packets sent
+     by clients.  A client choosing an unpredictable Destination
+     Connection ID ensures that servers are unable to control any of the
+     encrypted portion of Initial packets from clients.
+"fixed": |-
+  Initial packet protection (Section 5.2 of [QUIC-TLS]) makes it difficult for servers to control the content of Initial packets sent by clients.  A client choosing an unpredictable Destination Connection ID ensures that servers are unable to control any of the encrypted portion of Initial packets from clients.
+"ko": |-
+  초기 패킷 보호([QUIC-TLS]의 섹션 5.2)는 서버가 클라이언트가 보낸 초기 패킷의 내용을 제어하기 어렵게 만듭니다. 예측할 수 없는 대상 연결 ID를 선택하는 클라이언트는 서버가 클라이언트의 초기 패킷 중 암호화된 부분을 제어할 수 없도록 합니다.

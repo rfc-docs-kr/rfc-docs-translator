@@ -1,0 +1,23 @@
+"hash": |-
+  840b4ab8251bffa3f24d07834af307a31a9b2fbc53b8873950d086503d5342e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a DHCPLEASEUNASSIGNED message is received in response to the
+     DHCPLEASEQUERY message, that means that there is no currently active
+     lease for the IP address present in the DHCP server, but that this
+     server does in fact manage that IP address.  In this case, the access
+     concentrator SHOULD cache this information in order to prevent
+     unacceptable loads on the access concentrator and the DHCP server in
+     the face of a malicious or seriously compromised device downstream of
+     the access concentrator.  This caching could be as simple as simply
+     setting a bit saying that a response was received from a server that
+     knew about this IP address but that there was no current lease.  This
+     would, of course, need to be cleared when the access concentrator
+     next "gleaned" that a lease for this IP address came into existence.
+"fixed": |-
+  When a DHCPLEASEUNASSIGNED message is received in response to the DHCPLEASEQUERY message, that means that there is no currently active lease for the IP address present in the DHCP server, but that this server does in fact manage that IP address.  In this case, the access concentrator SHOULD cache this information in order to prevent unacceptable loads on the access concentrator and the DHCP server in the face of a malicious or seriously compromised device downstream of the access concentrator.  This caching could be as simple as simply setting a bit saying that a response was received from a server that knew about this IP address but that there was no current lease.  This would, of course, need to be cleared when the access concentrator next "gleaned" that a lease for this IP address came into existence.
+"ko": |-
+  DHCPLEASEUNASSIGNED 메시지가 DHCPLEASEQUERY 메시지에 대한 응답으로 수신되면 이는 DHCP 서버에 있는 IP 주소에 대해 현재 활성 임대가 없지만 이 서버가 실제로 해당 IP 주소를 관리한다는 것을 의미합니다. 이 경우 액세스 집중 장치는 액세스 집중 장치 다운스트림의 악의적이거나 심각하게 손상된 장치에 직면하여 액세스 집중 장치 및 DHCP 서버에 허용할 수 없는 부하를 방지하기 위해 이 정보를 캐시해야 합니다. 이 캐싱은 이 IP 주소를 알고 있지만 현재 임대가 없는 서버로부터 응답을 받았다는 비트를 설정하는 것만큼 간단할 수 있습니다. 물론 이는 액세스 집중 장치가 이 IP 주소에 대한 임대가 존재했다는 것을 "수집"했을 때 지워져야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  8782a8f797534fc3797e2a33fb38fe011edd6482a9a644b60234ecb5071da61e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The ENABLE command can be issued multiple times in a session.  It is
+     additive; that is, "ENABLE a b", followed by "ENABLE c", is the same
+     as a single command "ENABLE a b c".  When multiple ENABLE commands
+     are issued, each corresponding ENABLED response SHOULD only contain
+     extensions enabled by the corresponding ENABLE command, i.e., for the
+     above example, the ENABLED response to "ENABLE c" should not contain
+     "a" or "b".
+"fixed": |-
+  The ENABLE command can be issued multiple times in a session.  It is additive; that is, "ENABLE a b", followed by "ENABLE c", is the same as a single command "ENABLE a b c".  When multiple ENABLE commands are issued, each corresponding ENABLED response SHOULD only contain extensions enabled by the corresponding ENABLE command, i.e., for the above example, the ENABLED response to "ENABLE c" should not contain "a" or "b".
+"ko": |-
+  ENABLE 명령은 한 세션에서 여러 번 실행될 수 있습니다.  그것은 부가적이다. 즉, "ENABLE a b" 뒤에 "ENABLE c"가 오는 것은 단일 명령 "ENABLE a b c"와 동일합니다.  여러 개의 ENABLE 명령이 실행되면 각 해당 ENABLED 응답에는 해당 ENABLE 명령에 의해 활성화된 확장만 포함되어야 합니다. 즉, 위 예의 경우 "ENABLE c"에 대한 ENABLED 응답에는 "a" 또는 "b"가 포함되어서는 안 됩니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  cfbcb5640bb3696b76a7c0a635eec8726fb9807666341e5fad7a1bd2ec53f924
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note that the MAC is computed before encryption. The stream cipher
+     encrypts the entire block, including the MAC. For stream ciphers that
+     do not use a synchronization vector (such as RC4), the stream cipher
+     state from the end of one record is simply used on the subsequent
+     packet. If the CipherSuite is TLS_NULL_WITH_NULL_NULL, encryption
+     consists of the identity operation (i.e., the data is not encrypted
+     and the MAC size is zero implying that no MAC is used).
+     TLSCiphertext.length is TLSCompressed.length plus
+     CipherSpec.hash_size.
+"fixed": |-
+  Note that the MAC is computed before encryption. The stream cipher encrypts the entire block, including the MAC. For stream ciphers that do not use a synchronization vector (such as RC4), the stream cipher state from the end of one record is simply used on the subsequent packet. If the CipherSuite is TLS_NULL_WITH_NULL_NULL, encryption consists of the identity operation (i.e., the data is not encrypted and the MAC size is zero implying that no MAC is used). TLSCiphertext.length is TLSCompressed.length plus CipherSpec.hash_size.
+"ko": |-
+  MAC은 암호화 전에 계산됩니다. 스트림 암호는 MAC을 포함한 전체 블록을 암호화합니다. 동기화 벡터(예: RC4)를 사용하지 않는 스트림 암호의 경우 한 레코드 끝의 스트림 암호 상태가 후속 패킷에서 단순히 사용됩니다. CipherSuite가 TLS_NULL_WITH_NULL_NULL인 경우 암호화는 ID 작업으로 구성됩니다(즉, 데이터가 암호화되지 않고 MAC 크기가 0이므로 MAC가 사용되지 않음을 의미합니다). TLSCiphertext.length는 TLSCompressed.length에 CipherSpec.hash_size를 더한 것입니다.

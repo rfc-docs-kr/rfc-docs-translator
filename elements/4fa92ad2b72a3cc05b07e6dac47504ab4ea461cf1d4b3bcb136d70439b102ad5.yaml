@@ -1,0 +1,17 @@
+"hash": |-
+  4fa92ad2b72a3cc05b07e6dac47504ab4ea461cf1d4b3bcb136d70439b102ad5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o If an encryption algorithm is employed that requires the
+          plaintext to be a multiple of some number of bytes, e.g.,
+          the block size of a block cipher, the Padding field is used
+          to fill the plaintext (consisting of the Payload Data,
+          Padding, Pad Length, and Next Header fields) to the size
+          required by the algorithm.
+"fixed": |-
+  - If an encryption algorithm is employed that requires the plaintext to be a multiple of some number of bytes, e.g., the block size of a block cipher, the Padding field is used to fill the plaintext (consisting of the Payload Data, Padding, Pad Length, and Next Header fields) to the size required by the algorithm.
+"ko": |-
+  - 평문이 특정 바이트의 배수가 되도록 요구하는 암호화 알고리즘(예: 블록 암호의 블록 크기)을 사용하는 경우 Padding 필드는 평문을 채우는 데 사용됩니다(페이로드 데이터, 패딩, 패드로 구성됨). 길이 및 다음 헤더 필드)를 알고리즘에 필요한 크기로 조정합니다.

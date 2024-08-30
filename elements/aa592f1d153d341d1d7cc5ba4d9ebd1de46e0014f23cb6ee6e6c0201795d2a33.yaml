@@ -1,0 +1,18 @@
+"hash": |-
+  aa592f1d153d341d1d7cc5ba4d9ebd1de46e0014f23cb6ee6e6c0201795d2a33
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Re-use of transport connections across sessions
+     o  Piggybacking of responses on requests in the reverse direction
+     o  Caching of state across requests
+"fixed": |-
+  -  Re-use of transport connections across sessions
+  -  Piggybacking of responses on requests in the reverse direction
+  -  Caching of state across requests
+"ko": |-
+  - 세션 간 전송 연결 재사용
+  - 역방향 요청에 대한 응답 피기백
+  - 요청 간 상태 캐싱

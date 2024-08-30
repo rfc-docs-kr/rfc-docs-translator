@@ -1,0 +1,17 @@
+"hash": |-
+  99732cf93f787065a9f7fc61332f3027366b51aedaa5911b02b9d00b18673a88
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each endpoint advertises a max_idle_timeout, but the effective value
+     at an endpoint is computed as the minimum of the two advertised
+     values (or the sole advertised value, if only one endpoint advertises
+     a non-zero value).  By announcing a max_idle_timeout, an endpoint
+     commits to initiating an immediate close (Section 10.2) if it
+     abandons the connection prior to the effective value.
+"fixed": |-
+  Each endpoint advertises a max_idle_timeout, but the effective value at an endpoint is computed as the minimum of the two advertised values (or the sole advertised value, if only one endpoint advertises a non-zero value).  By announcing a max_idle_timeout, an endpoint commits to initiating an immediate close (Section 10.2) if it abandons the connection prior to the effective value.
+"ko": |-
+  각 엔드포인트는 max_idle_timeout을 광고하지만 엔드포인트의 유효 값은 광고된 두 값 중 최소값(또는 하나의 엔드포인트만 0이 아닌 값을 광고하는 경우 유일한 광고 값)으로 계산됩니다. max_idle_timeout을 발표함으로써 엔드포인트는 유효 값 이전에 연결을 포기하는 경우 즉시 닫기(10.2절)를 시작하겠다고 약속합니다.

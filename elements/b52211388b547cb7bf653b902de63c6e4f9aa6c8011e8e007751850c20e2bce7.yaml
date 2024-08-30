@@ -1,0 +1,19 @@
+"hash": |-
+  b52211388b547cb7bf653b902de63c6e4f9aa6c8011e8e007751850c20e2bce7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Job History: After the Job Retention phase expires for a Job, the
+     Printer deletes the Document data for the Job and the Job becomes
+     part of the Job History.  The Printer MAY also delete any number of
+     the Job attributes.  Since the Job is no longer restartable, the
+     Printer MUST remove the 'job-restartable' value from the Job's
+     "job-state-reasons" attribute, if present.  Printers SHOULD keep the
+     Job in the Job History phase for at least 60 seconds to allow Clients
+     to discover the final disposition of the Job.
+"fixed": |-
+  Job History: After the Job Retention phase expires for a Job, the Printer deletes the Document data for the Job and the Job becomes part of the Job History.  The Printer MAY also delete any number of the Job attributes.  Since the Job is no longer restartable, the Printer MUST remove the 'job-restartable' value from the Job's "job-state-reasons" attribute, if present.  Printers SHOULD keep the Job in the Job History phase for at least 60 seconds to allow Clients to discover the final disposition of the Job.
+"ko": |-
+  작업 기록: 작업에 대한 작업 보존 단계가 만료된 후 프린터는 해당 작업에 대한 문서 데이터를 삭제하고 해당 작업은 작업 기록의 일부가 됩니다. 프린터는 또한 작업 속성을 원하는 만큼 삭제할 수도 있습니다. 작업을 더 이상 다시 시작할 수 없으므로 프린터는 작업의 "job-state-reasons" 속성에서 'job-restartable' 값을 제거해야 합니다(있는 경우). 프린터는 클라이언트가 작업의 최종 처리를 발견할 수 있도록 작업 기록 단계에서 작업을 최소 60초 동안 유지해야 합니다.

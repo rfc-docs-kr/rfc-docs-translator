@@ -1,0 +1,24 @@
+"hash": |-
+  ce0917937c61710181a96f11068b05f8b7d1575758ce09a99cc0564664f0c073
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This request is sent from the client to the recognizer resource when
+     it knows that a kill-on-barge-in prompt has finished playing (see
+     Section 8.4.2).  This is useful in the scenario when the recognition
+     and synthesizer engines are not in the same session.  When a kill-on-
+     barge-in prompt is being played, the client may want a RECOGNIZE
+     request to be simultaneously active so that it can detect and
+     implement kill-on-barge-in.  But at the same time the client doesn't
+     want the recognizer to start the no-input timers until the prompt is
+     finished.  The Start-Input-Timers header field in the RECOGNIZE
+     request allows the client to say whether or not the timers should be
+     started immediately.  If not, the recognizer resource MUST NOT start
+     the timers until the client sends a START-INPUT-TIMERS method to the
+     recognizer.
+"fixed": |-
+  This request is sent from the client to the recognizer resource when it knows that a kill-on-barge-in prompt has finished playing (see Section 8.4.2).  This is useful in the scenario when the recognition and synthesizer engines are not in the same session.  When a kill-on- barge-in prompt is being played, the client may want a RECOGNIZE request to be simultaneously active so that it can detect and implement kill-on-barge-in.  But at the same time the client doesn't want the recognizer to start the no-input timers until the prompt is finished.  The Start-Input-Timers header field in the RECOGNIZE request allows the client to say whether or not the timers should be started immediately.  If not, the recognizer resource MUST NOT start the timers until the client sends a START-INPUT-TIMERS method to the recognizer.
+"ko": |-
+  이 요청은 kill-on-barge-in 프롬프트가 재생을 마쳤음을 알 때 클라이언트에서 인식기 리소스로 전송됩니다(섹션 8.4.2 참조). 이는 인식 및 신시사이저 엔진이 동일한 세션에 있지 않은 시나리오에서 유용합니다. kill-on-barge-in 프롬프트가 재생 중일 때 클라이언트는 kill-on-barge-in을 감지하고 구현할 수 있도록 RECOGNIZE 요청이 동시에 활성화되기를 원할 수 있습니다. 하지만 동시에 클라이언트는 프롬프트가 완료될 때까지 인식기가 무입력 타이머를 시작하지 않기를 원합니다. RECOGNIZE 요청의 Start-Input-Timers 헤더 필드를 통해 클라이언트는 타이머를 즉시 시작해야 하는지 여부를 말할 수 있습니다. 그렇지 않은 경우 인식기 리소스는 클라이언트가 인식기에 START-INPUT-TIMERS 메서드를 보낼 때까지 타이머를 시작해서는 안 됩니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  dd1ea656d8071f6708c19353d8a4f61671c247dcabeedbeacc9ed85f2458ebe3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The data sent on a stream MUST NOT exceed the largest maximum stream
+     data value advertised by the receiver.  An endpoint MUST terminate a
+     connection with an error of type FLOW_CONTROL_ERROR if it receives
+     more data than the largest maximum stream data that it has sent for
+     the affected stream.  This includes violations of remembered limits
+     in Early Data; see Section 7.4.1.
+"fixed": |-
+  The data sent on a stream MUST NOT exceed the largest maximum stream data value advertised by the receiver.  An endpoint MUST terminate a connection with an error of type FLOW_CONTROL_ERROR if it receives more data than the largest maximum stream data that it has sent for the affected stream.  This includes violations of remembered limits in Early Data; see Section 7.4.1.
+"ko": |-
+  스트림을 통해 전송된 데이터는 수신자가 광고한 최대 스트림 데이터 값을 초과해서는 안 됩니다. 엔드포인트는 영향을 받은 스트림에 대해 보낸 가장 큰 최대 스트림 데이터보다 더 많은 데이터를 수신하는 경우 FLOW_CONTROL_ERROR 유형의 오류로 연결을 종료해야 합니다. 여기에는 초기 데이터의 기억된 한계 위반이 포함됩니다. 섹션 7.4.1을 참조하세요.

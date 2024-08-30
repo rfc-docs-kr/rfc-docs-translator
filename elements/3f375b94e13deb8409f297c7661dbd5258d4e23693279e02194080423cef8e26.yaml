@@ -1,0 +1,15 @@
+"hash": |-
+  3f375b94e13deb8409f297c7661dbd5258d4e23693279e02194080423cef8e26
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Use of a SEARCH RETURN (SAVE) command followed by a command using the
+     "$" marker creates direct dependency between the two commands.  As
+     directed by Section 5.5, a server MUST execute the two commands in
+     the order they were received.
+"fixed": |-
+  Use of a SEARCH RETURN (SAVE) command followed by a command using the "$" marker creates direct dependency between the two commands.  As directed by Section 5.5, a server MUST execute the two commands in the order they were received.
+"ko": |-
+  SEARCH RETURN(SAVE) 명령을 사용하고 "$" 표시를 사용하는 명령을 사용하면 두 명령 사이에 직접적인 종속성이 생성됩니다.  섹션 5.5의 지시에 따라 서버는 수신된 순서대로 두 명령을 실행해야 합니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  a2bf4b72ad3ef8e0d43b5dc165d84eaa90116d80daed0dc2c74250caf1835d13
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The authentication protocol exchange consists of a series of server
+     challenges and client responses that are specific to the
+     authentication mechanism.  A server challenge consists of a command
+     continuation request response with the "+" token followed by a
+     base64-encoded (see Section 4 of [RFC4648]) string.  The client
+     response consists of a single line consisting of a base64-encoded
+     string.  If the client wishes to cancel an authentication exchange,
+     it issues a line consisting of a single "*".  If the server receives
+     such a response, or if it receives an invalid base64 string (e.g.,
+     characters outside the base64 alphabet or non-terminal "="), it MUST
+     reject the AUTHENTICATE command by sending a tagged BAD response.
+"fixed": |-
+  The authentication protocol exchange consists of a series of server challenges and client responses that are specific to the authentication mechanism.  A server challenge consists of a command continuation request response with the "+" token followed by a base64-encoded (see Section 4 of [RFC4648]) string.  The client response consists of a single line consisting of a base64-encoded string.  If the client wishes to cancel an authentication exchange, it issues a line consisting of a single "*".  If the server receives such a response, or if it receives an invalid base64 string (e.g., characters outside the base64 alphabet or non-terminal "="), it MUST reject the AUTHENTICATE command by sending a tagged BAD response.
+"ko": |-
+  인증 프로토콜 교환은 인증 메커니즘과 관련된 일련의 서버 챌린지 및 클라이언트 응답으로 구성됩니다.  서버 챌린지는 "+" 토큰과 그 뒤에 base64로 인코딩된([RFC4648]의 섹션 4 참조) 문자열이 포함된 명령 연속 요청 응답으로 구성됩니다.  클라이언트 응답은 base64로 인코딩된 문자열로 구성된 한 줄로 구성됩니다.  클라이언트가 인증 교환을 취소하려는 경우 단일 "*"로 구성된 줄을 발행합니다.  서버가 그러한 응답을 수신하거나 유효하지 않은 base64 문자열(예: base64 알파벳 외부 문자 또는 비터미널 "=")을 수신하는 경우 태그가 지정된 BAD 응답을 전송하여 AUTHENTICATE 명령을 거부해야 합니다.

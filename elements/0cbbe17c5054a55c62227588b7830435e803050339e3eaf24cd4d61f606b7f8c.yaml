@@ -1,0 +1,18 @@
+"hash": |-
+  0cbbe17c5054a55c62227588b7830435e803050339e3eaf24cd4d61f606b7f8c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         The best way to avoid vulnerability to this attack is to treat
+         incorrectly formatted messages in a manner indistinguishable from
+         correctly formatted RSA blocks. Thus, when it receives an
+         incorrectly formatted RSA block, a server should generate a
+         random 48-byte value and proceed using it as the premaster
+         secret. Thus, the server will act identically whether the
+         received RSA block is correctly encoded or not.
+"fixed": |-
+  - The best way to avoid vulnerability to this attack is to treat incorrectly formatted messages in a manner indistinguishable from correctly formatted RSA blocks. Thus, when it receives an incorrectly formatted RSA block, a server should generate a random 48-byte value and proceed using it as the premaster secret. Thus, the server will act identically whether the received RSA block is correctly encoded or not.
+"ko": |-
+  - 이 공격에 대한 취약성을 피하는 가장 좋은 방법은 형식이 잘못된 메시지를 올바른 형식의 RSA 블록과 구별할 수 없는 방식으로 처리하는 것입니다. 따라서 잘못된 형식의 RSA 블록을 수신하면 서버는 임의의 48바이트 값을 생성하고 이를 프리마스터 비밀로 사용하여 진행해야 합니다. 따라서 서버는 수신된 RSA 블록이 올바르게 인코딩되었는지 여부에 관계없이 동일하게 작동합니다.

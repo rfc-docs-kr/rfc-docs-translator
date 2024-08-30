@@ -1,0 +1,36 @@
+"hash": |-
+  616db607ab9fe411f74d07b09744b2dac5b31f04b659f97a1c2278cbbe04d6f0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------+--------------------------+---------------------------+
+     | Cause-Code | Cause-Name               | Description               |
+     +------------+--------------------------+---------------------------+
+     | 000        | success                  | VERIFY or                 |
+     |            |                          | VERIFY-FROM-BUFFER        |
+     |            |                          | request completed         |
+     |            |                          | successfully. The verify  |
+     |            |                          | decision can be           |
+     |            |                          | "accepted", "rejected",   |
+     |            |                          | or "undecided".           |
+     | 001        | error                    | VERIFY or                 |
+     |            |                          | VERIFY-FROM-BUFFER        |
+     |            |                          | request terminated        |
+     |            |                          | prematurely due to a      |
+     |            |                          | verifier resource or      |
+     |            |                          | system error.             |
+     | 002        | no-input-timeout         | VERIFY request completed  |
+     |            |                          | with no result due to a   |
+     |            |                          | no-input-timeout.         |
+     | 003        | too-much-speech-timeout  | VERIFY request completed  |
+     |            |                          | with no result due to too |
+     |            |                          | much speech.              |
+     | 004        | speech-too-early         | VERIFY request completed  |
+     |            |                          | with no result due to     |
+     |            |                          | speech too soon.          |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

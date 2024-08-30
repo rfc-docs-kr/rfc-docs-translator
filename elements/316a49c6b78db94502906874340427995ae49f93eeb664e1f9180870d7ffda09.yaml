@@ -1,0 +1,15 @@
+"hash": |-
+  316a49c6b78db94502906874340427995ae49f93eeb664e1f9180870d7ffda09
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unlike STREAM frames, which include a stream ID indicating to which
+     stream the data belongs, the CRYPTO frame carries data for a single
+     stream per encryption level.  The stream does not have an explicit
+     end, so CRYPTO frames do not have a FIN bit.
+"fixed": |-
+  Unlike STREAM frames, which include a stream ID indicating to which stream the data belongs, the CRYPTO frame carries data for a single stream per encryption level.  The stream does not have an explicit end, so CRYPTO frames do not have a FIN bit.
+"ko": |-
+  데이터가 속한 스트림을 나타내는 스트림 ID를 포함하는 STREAM 프레임과 달리 CRYPTO 프레임은 암호화 수준별로 단일 스트림에 대한 데이터를 전달합니다. 스트림에는 명시적인 끝이 없으므로 CRYPTO 프레임에는 FIN 비트가 없습니다.

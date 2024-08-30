@@ -1,0 +1,21 @@
+"hash": |-
+  87482b84a99d89234c7bf7d7c2d1dc649fa291e89472ed1499422f4a5543353b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                case server_hello:        ServerHello;
+                case certificate:         Certificate;
+                case server_key_exchange: ServerKeyExchange;
+                case certificate_request: CertificateRequest;
+                case server_hello_done:   ServerHelloDone;
+                case certificate_verify:  CertificateVerify;
+                case client_key_exchange: ClientKeyExchange;
+                case finished:            Finished;
+            } body;
+        } Handshake;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

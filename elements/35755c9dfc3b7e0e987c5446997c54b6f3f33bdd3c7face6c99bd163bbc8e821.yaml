@@ -1,0 +1,16 @@
+"hash": |-
+  35755c9dfc3b7e0e987c5446997c54b6f3f33bdd3c7face6c99bd163bbc8e821
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After reloading a Media Playlist, the client SHOULD verify that each
+     Media Segment in it has the same URI (and byte range, if specified)
+     as the Media Segment with the same Media Sequence Number in the
+     previous Media Playlist.  It SHOULD halt playback if it does not, as
+     this normally indicates a server error.
+"fixed": |-
+  After reloading a Media Playlist, the client SHOULD verify that each Media Segment in it has the same URI (and byte range, if specified) as the Media Segment with the same Media Sequence Number in the previous Media Playlist.  It SHOULD halt playback if it does not, as this normally indicates a server error.
+"ko": |-
+  미디어 재생 목록을 다시 로드한 후 클라이언트는 그 안에 있는 각 미디어 세그먼트가 이전 미디어 재생 목록의 미디어 시퀀스 번호와 동일한 미디어 세그먼트와 동일한 URI(지정된 경우 바이트 범위)를 가지고 있는지 확인해야 합니다. 그렇지 않은 경우 재생을 중단해야 합니다. 이는 일반적으로 서버 오류를 나타냅니다.

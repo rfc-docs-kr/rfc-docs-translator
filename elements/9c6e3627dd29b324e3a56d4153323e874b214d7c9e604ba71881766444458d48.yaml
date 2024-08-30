@@ -1,0 +1,16 @@
+"hash": |-
+  9c6e3627dd29b324e3a56d4153323e874b214d7c9e604ba71881766444458d48
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the mailbox is currently selected, normal new message actions
+     SHOULD occur.  Specifically, the server SHOULD notify the client
+     immediately via an untagged EXISTS response.  If the server does not
+     do so, the client MAY issue a NOOP command after one or more APPEND
+     commands.
+"fixed": |-
+  If the mailbox is currently selected, normal new message actions SHOULD occur.  Specifically, the server SHOULD notify the client immediately via an untagged EXISTS response.  If the server does not do so, the client MAY issue a NOOP command after one or more APPEND commands.
+"ko": |-
+  현재 사서함이 선택되어 있으면 일반적인 새 메시지 작업이 발생해야 합니다.  특히 서버는 태그가 지정되지 않은 EXISTS 응답을 통해 즉시 클라이언트에 알려야 합니다.  서버가 그렇게 하지 않으면 클라이언트는 하나 이상의 APPEND 명령 후에 NOOP 명령을 발행할 수 있습니다.

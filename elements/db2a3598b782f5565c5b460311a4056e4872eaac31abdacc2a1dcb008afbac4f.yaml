@@ -1,0 +1,20 @@
+"hash": |-
+  db2a3598b782f5565c5b460311a4056e4872eaac31abdacc2a1dcb008afbac4f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To keep messages compact in common situations, it is RECOMMENDED that
+     producers omit an "application/" prefix of a media type value in a
+     "typ" Header Parameter when no other '/' appears in the media type
+     value.  A recipient using the media type value MUST treat it as if
+     "application/" were prepended to any "typ" value not containing a
+     '/'.  For instance, a "typ" value of "example" SHOULD be used to
+     represent the "application/example" media type, whereas the media
+     type "application/example;part="1/2"" cannot be shortened to
+     "example;part="1/2"".
+"fixed": |-
+  To keep messages compact in common situations, it is RECOMMENDED that producers omit an "application/" prefix of a media type value in a "typ" Header Parameter when no other '/' appears in the media type value.  A recipient using the media type value MUST treat it as if "application/" were prepended to any "typ" value not containing a '/'.  For instance, a "typ" value of "example" SHOULD be used to represent the "application/example" media type, whereas the media type "application/example;part="1/2"" cannot be shortened to "example;part="1/2"".
+"ko": |-
+  일반적인 상황에서 메시지를 간결하게 유지하기 위해, 미디어 유형 값에 다른 '/'가 나타나지 않을 경우, 제작자가 "typ" 헤더 매개변수에서 미디어 유형 값의 "application/" 접두사를 생략하는 것이 좋습니다. 미디어 유형 값을 사용하는 수신자는 "application/"이 '/'를 포함하지 않는 모든 "typ" 값에 접두사로 붙은 것처럼 처리해야 합니다. 예를 들어, "type" 값 "example"은 "application/example" 미디어 유형을 나타내는 데 사용해야 하지만, 미디어 유형 "application/example;part="1/2""는 "example;part="1/2""로 줄일 수 없습니다.

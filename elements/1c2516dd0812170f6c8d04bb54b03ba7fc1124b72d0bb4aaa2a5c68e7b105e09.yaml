@@ -1,0 +1,20 @@
+"hash": |-
+  1c2516dd0812170f6c8d04bb54b03ba7fc1124b72d0bb4aaa2a5c68e7b105e09
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  *Note:* Because servers are free to ignore Range, many
+        |  implementations will respond with the entire selected
+        |  representation in a 200 (OK) response.  That is partly because
+        |  most clients are prepared to receive a 200 (OK) to complete the
+        |  task (albeit less efficiently) and partly because clients might
+        |  not stop making an invalid range request until they have
+        |  received a complete representation.  Thus, clients cannot
+        |  depend on receiving a 416 (Range Not Satisfiable) response even
+        |  when it is most appropriate.
+"fixed": |-
+  - |  *Note:* Because servers are free to ignore Range, many |  implementations will respond with the entire selected |  representation in a 200 (OK) response.  That is partly because |  most clients are prepared to receive a 200 (OK) to complete the |  task (albeit less efficiently) and partly because clients might |  not stop making an invalid range request until they have |  received a complete representation.  Thus, clients cannot |  depend on receiving a 416 (Range Not Satisfiable) response even |  when it is most appropriate.
+"ko": |-
+  - | *참고:* 서버는 Range를 자유롭게 무시할 수 있으므로 많은 | 구현은 선택된 전체 | 200(OK) 응답으로 표현됩니다. 그 이유는 부분적으로 | 대부분의 클라이언트는 | 작업을 완료하기 위해 200(OK)을 받을 준비가 되어 있습니다. (비록 효율성은 떨어지지만) 클라이언트가 | 유효하지 않은 범위 요청을 중단하지 마세요 | 완전한 표현을 받았습니다. 따라서 클라이언트는 | 416(범위가 만족스럽지 않음) 응답을 수신하더라도 | 가장 적절할 때.

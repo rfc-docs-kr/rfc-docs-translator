@@ -1,0 +1,21 @@
+"hash": |-
+  62c8932236f18d923e11e4cdc5b7a24650673bf4706f0db387ef1387a9f0fb27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a sender has sent data up to the limit, it will be unable to send
+     new data and is considered blocked.  A sender SHOULD send a
+     STREAM_DATA_BLOCKED or DATA_BLOCKED frame to indicate to the receiver
+     that it has data to write but is blocked by flow control limits.  If
+     a sender is blocked for a period longer than the idle timeout
+     (Section 10.1), the receiver might close the connection even when the
+     sender has data that is available for transmission.  To keep the
+     connection from closing, a sender that is flow control limited SHOULD
+     periodically send a STREAM_DATA_BLOCKED or DATA_BLOCKED frame when it
+     has no ack-eliciting packets in flight.
+"fixed": |-
+  If a sender has sent data up to the limit, it will be unable to send new data and is considered blocked.  A sender SHOULD send a STREAM_DATA_BLOCKED or DATA_BLOCKED frame to indicate to the receiver that it has data to write but is blocked by flow control limits.  If a sender is blocked for a period longer than the idle timeout (Section 10.1), the receiver might close the connection even when the sender has data that is available for transmission.  To keep the connection from closing, a sender that is flow control limited SHOULD periodically send a STREAM_DATA_BLOCKED or DATA_BLOCKED frame when it has no ack-eliciting packets in flight.
+"ko": |-
+  발신자가 한도까지 데이터를 보낸 경우 새 데이터를 보낼 수 없으며 차단된 것으로 간주됩니다. 송신자는 쓸 데이터가 있지만 흐름 제어 제한에 의해 차단되었음을 수신자에게 나타내기 위해 STREAM_DATA_BLOCKED 또는 DATA_BLOCKED 프레임을 보내야 합니다. 발신자가 유휴 제한 시간(섹션 10.1)보다 긴 기간 동안 차단되면 발신자에게 전송 가능한 데이터가 있더라도 수신자는 연결을 닫을 수 있습니다. 연결이 닫히는 것을 방지하려면 흐름 제어가 제한된 송신자는 전송 중에 응답을 유도하는 패킷이 없을 때 STREAM_DATA_BLOCKED 또는 DATA_BLOCKED 프레임을 주기적으로 보내야 합니다.

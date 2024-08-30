@@ -1,0 +1,15 @@
+"hash": |-
+  b9b455b11962af7575306bcdf1462560ca67211287c1f4f00c3df2b0b1a2479f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     cea-aes192-wrap-pad CONTENT-ENCRYPTION ::= {
+       IDENTIFIER id-aes192-wrap-pad
+       PARAMS ARE absent
+       SMIME-CAPS { IDENTIFIED BY id-aes192-wrap-pad } }
+"fixed": |-
+  cea-aes192-wrap-pad CONTENT-ENCRYPTION ::= { IDENTIFIER id-aes192-wrap-pad PARAMS ARE absent SMIME-CAPS { IDENTIFIED BY id-aes192-wrap-pad } }
+"ko": |-
+  cea-aes192-wrap-pad 콘텐츠 암호화 ::= { IDENTIFIER id-aes192-wrap-pad 매개변수가 없습니다. SMIME-CAPS { id-aes192-wrap-pad로 식별됨 } }

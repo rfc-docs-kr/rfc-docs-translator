@@ -1,0 +1,22 @@
+"hash": |-
+  def6bea4659b66eabd47ab523ae75e19773f03f0a686caa959154e727df89aa7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  There is a special problem associated with small  packets.   When
+  TCP  is  used  for  the transmission of single-character messages
+  originating at a keyboard, the typical result  is  that  41  byte
+  packets  (one  byte  of data, 40 bytes of header) are transmitted
+  for each byte of useful data.  This 4000%  overhead  is  annoying
+  but tolerable on lightly loaded networks.  On heavily loaded net-
+  works, however, the congestion resulting from this  overhead  can
+  result  in  lost datagrams and retransmissions, as well as exces-
+  sive propagation time caused by congestion in switching nodes and
+  gateways.   In practice, throughput may drop so low that TCP con-
+  nections are aborted.
+"fixed": |-
+  There is a special problem associated with small  packets.   When TCP  is  used  for  the transmission of single-character messages originating at a keyboard, the typical result  is  that  41  byte packets  (one  byte  of data, 40 bytes of header) are transmitted for each byte of useful data.  This 4000%  overhead  is  annoying but tolerable on lightly loaded networks.  On heavily loaded net- works, however, the congestion resulting from this  overhead  can result  in  lost datagrams and retransmissions, as well as exces- sive propagation time caused by congestion in switching nodes and gateways.   In practice, throughput may drop so low that TCP con- nections are aborted.
+"ko": |-
+  작은 패킷과 관련된 특별한 문제가 있습니다. 키보드에서 시작되는 단일 문자 메시지의 전송에 TCP가 사용되는 경우 일반적인 결과는 유용한 데이터의 각 바이트에 대해 41바이트 패킷(데이터 1바이트, 헤더 40바이트)이 전송되는 것입니다. 이 4000% 오버헤드는 짜증나지만 부하가 적은 네트워크에서는 견딜 수 있습니다. 그러나 로드가 많은 네트워크에서는 이러한 오버헤드로 인한 정체로 인해 데이터그램 손실과 재전송이 발생할 수 있을 뿐만 아니라 스위칭 노드와 게이트웨이의 정체로 인한 과도한 전파 시간이 발생할 수 있습니다. 실제로는 처리량이 너무 낮아서 TCP 연결이 중단될 수 있습니다.

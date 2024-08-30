@@ -1,0 +1,18 @@
+"hash": |-
+  ce49ac1d5a89d68b10385af68f6e402e83c0d33fc7fb12eb2f00443fe53d3203
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     All client applications remove the query component from the base URI
+     before resolving relative URI.  However, some applications fail to
+     separate the reference's query and/or fragment components from a
+     relative path before merging it with the base path.  This error is
+     rarely noticed, since typical usage of a fragment never includes the
+     hierarchy ("/") character, and the query component is not normally
+     used within relative references.
+"fixed": |-
+  All client applications remove the query component from the base URI before resolving relative URI.  However, some applications fail to separate the reference's query and/or fragment components from a relative path before merging it with the base path.  This error is rarely noticed, since typical usage of a fragment never includes the hierarchy ("/") character, and the query component is not normally used within relative references.
+"ko": |-
+  모든 클라이언트 애플리케이션은 상대 URI를 확인하기 전에 기본 URI에서 쿼리 구성 요소를 제거합니다. 그러나 일부 애플리케이션은 참조의 쿼리 및/또는 조각 구성 요소를 기본 경로와 병합하기 전에 상대 경로에서 분리하지 못합니다. 일반적인 조각 사용에는 계층 구조("/") 문자가 포함되지 않고 쿼리 구성 요소가 일반적으로 상대 참조 내에서 사용되지 않기 때문에 이 오류는 거의 발견되지 않습니다.

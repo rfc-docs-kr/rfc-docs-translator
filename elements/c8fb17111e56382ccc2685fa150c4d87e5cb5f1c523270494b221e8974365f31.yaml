@@ -1,0 +1,21 @@
+"hash": |-
+  c8fb17111e56382ccc2685fa150c4d87e5cb5f1c523270494b221e8974365f31
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Directly testing a randomized AEAD encryption algorithm using test
+     cases with fixed inputs and outputs is not possible, since the
+     encryption process is non-deterministic.  However, it is possible to
+     test a randomized AEAD algorithm using the following technique.  The
+     authenticated decryption algorithm is deterministic, and it can be
+     directly tested.  The authenticated encryption algorithm can be
+     tested by encrypting a plaintext, decrypting the resulting
+     ciphertext, and comparing the original plaintext to the post-
+     decryption plaintext.  Combining both of these tests covers both the
+     encryption and decryption algorithms.
+"fixed": |-
+  Directly testing a randomized AEAD encryption algorithm using test cases with fixed inputs and outputs is not possible, since the encryption process is non-deterministic.  However, it is possible to test a randomized AEAD algorithm using the following technique.  The authenticated decryption algorithm is deterministic, and it can be directly tested.  The authenticated encryption algorithm can be tested by encrypting a plaintext, decrypting the resulting ciphertext, and comparing the original plaintext to the post- decryption plaintext.  Combining both of these tests covers both the encryption and decryption algorithms.
+"ko": |-
+  암호화 프로세스가 비결정적이기 때문에 고정된 입력 및 출력이 있는 테스트 사례를 사용하여 무작위 AEAD 암호화 알고리즘을 직접 테스트하는 것은 불가능합니다. 그러나 다음 기술을 사용하여 무작위 AEAD 알고리즘을 테스트하는 것이 가능합니다. 인증된 암호 해독 알고리즘은 결정적이며 직접 테스트할 수 있습니다. 인증된 암호화 알고리즘은 일반 텍스트를 암호화하고, 결과 암호문을 해독하고, 원본 일반 텍스트를 해독 후 일반 텍스트와 비교하여 테스트할 수 있습니다. 이 두 가지 테스트를 결합하면 암호화 및 암호 해독 알고리즘이 모두 포함됩니다.

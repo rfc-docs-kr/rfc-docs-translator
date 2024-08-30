@@ -1,0 +1,15 @@
+"hash": |-
+  13528cea05ec05860418602bbfe8ed1677128e4b451bd4ac5f4a378f7f41d2b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  For ServerHellos that are renegotiating, this field contains the
+        concatenation of client_verify_data and server_verify_data.  For
+        current versions of TLS, this will be a 24-byte value (for SSLv3,
+        it will be a 72-byte value).
+"fixed": |-
+  -  For ServerHellos that are renegotiating, this field contains the concatenation of client_verify_data and server_verify_data.  For current versions of TLS, this will be a 24-byte value (for SSLv3, it will be a 72-byte value).
+"ko": |-
+  - 재협상 중인 ServerHello의 경우 이 필드에는 client_verify_data와 server_verify_data의 연결이 포함됩니다. 현재 TLS 버전의 경우 이는 24바이트 값입니다(SSLv3의 경우 72바이트 값).

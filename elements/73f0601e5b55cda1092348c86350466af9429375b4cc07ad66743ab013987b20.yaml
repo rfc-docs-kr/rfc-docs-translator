@@ -1,0 +1,15 @@
+"hash": |-
+  73f0601e5b55cda1092348c86350466af9429375b4cc07ad66743ab013987b20
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If an OPEN message is received, all fields are checked for
+        correctness.  If the BGP message header checking (BGPHeaderErr
+        (Event 21)) or OPEN message checking detects an error (see Section
+        6.2) (BGPOpenMsgErr (Event 22)), the local system:
+"fixed": |-
+  - If an OPEN message is received, all fields are checked for correctness.  If the BGP message header checking (BGPHeaderErr (Event 21)) or OPEN message checking detects an error (see Section 6.2) (BGPOpenMsgErr (Event 22)), the local system:
+"ko": |-
+  - OPEN 메시지가 수신되면 모든 필드의 정확성을 확인합니다. BGP 메시지 헤더 검사(BGPHeaderErr(이벤트 21)) 또는 OPEN 메시지 검사에서 오류(섹션 6.2 참조)(BGPOpenMsgErr(이벤트 22))를 감지하면 로컬 시스템은 다음을 수행합니다.

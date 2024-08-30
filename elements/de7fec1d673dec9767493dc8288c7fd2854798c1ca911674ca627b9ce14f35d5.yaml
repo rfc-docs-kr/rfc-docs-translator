@@ -1,0 +1,19 @@
+"hash": |-
+  de7fec1d673dec9767493dc8288c7fd2854798c1ca911674ca627b9ce14f35d5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client MAY call the END-PHRASE-ENROLLMENT method ONLY during an
+     active phrase enrollment session.  It MUST NOT be called during an
+     ongoing RECOGNIZE operation.  To commit the new phrase in the
+     grammar, the client MAY call this method once successive calls to
+     RECOGNIZE have succeeded and Num-Repetitions-Still-Needed has been
+     returned as 0 in the RECOGNITION-COMPLETE event.  Alternatively, the
+     client MAY abort the phrase enrollment session by calling this method
+     with the Abort-Phrase-Enrollment header field.
+"fixed": |-
+  The client MAY call the END-PHRASE-ENROLLMENT method ONLY during an active phrase enrollment session.  It MUST NOT be called during an ongoing RECOGNIZE operation.  To commit the new phrase in the grammar, the client MAY call this method once successive calls to RECOGNIZE have succeeded and Num-Repetitions-Still-Needed has been returned as 0 in the RECOGNITION-COMPLETE event.  Alternatively, the client MAY abort the phrase enrollment session by calling this method with the Abort-Phrase-Enrollment header field.
+"ko": |-
+  클라이언트는 활성 구문 등록 세션 중에만 END-PHRASE-ENROLLMENT 메서드를 호출할 수 있습니다. 진행 중인 RECOGNIZE 작업 중에는 호출해서는 안 됩니다. 문법에서 새 구문을 커밋하기 위해 클라이언트는 RECOGNIZE에 대한 연속적인 호출이 성공하고 RECOGNITION-COMPLETE 이벤트에서 Num-Repetitions-Still-Needed가 0으로 반환되면 이 메서드를 호출할 수 있습니다. 또는 클라이언트는 Abort-Phrase-Enrollment 헤더 필드와 함께 이 메서드를 호출하여 구문 등록 세션을 중단할 수 있습니다.

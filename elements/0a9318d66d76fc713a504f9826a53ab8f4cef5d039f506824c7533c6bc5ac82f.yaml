@@ -1,0 +1,13 @@
+"hash": |-
+  0a9318d66d76fc713a504f9826a53ab8f4cef5d039f506824c7533c6bc5ac82f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         for line in feed:
+           self._ValidateLine(line)
+"fixed": |-
+  - for line in feed: self._ValidateLine(line)
+"ko": |-
+  - 피드 라인의 경우: self._ValidateLine(line)

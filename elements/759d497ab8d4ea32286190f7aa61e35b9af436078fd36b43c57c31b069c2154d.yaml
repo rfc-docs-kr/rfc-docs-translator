@@ -1,0 +1,19 @@
+"hash": |-
+  759d497ab8d4ea32286190f7aa61e35b9af436078fd36b43c57c31b069c2154d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When any combined mode algorithm is employed, the algorithm itself is
+     expected to return both decrypted plaintext and a pass/fail
+     indication for the integrity check.  For combined mode algorithms,
+     the ICV that would normally appear at the end of the ESP packet (when
+     integrity is selected) may be omitted.  When the ICV is omitted and
+     integrity is selected, it is the responsibility of the combined mode
+     algorithm to encode within the Payload Data an ICV-equivalent means
+     of verifying the integrity of the packet.
+"fixed": |-
+  When any combined mode algorithm is employed, the algorithm itself is expected to return both decrypted plaintext and a pass/fail indication for the integrity check.  For combined mode algorithms, the ICV that would normally appear at the end of the ESP packet (when integrity is selected) may be omitted.  When the ICV is omitted and integrity is selected, it is the responsibility of the combined mode algorithm to encode within the Payload Data an ICV-equivalent means of verifying the integrity of the packet.
+"ko": |-
+  결합 모드 알고리즘을 사용하는 경우 알고리즘 자체는 해독된 일반 텍스트와 무결성 검사에 대한 통과/실패 표시를 모두 반환할 것으로 예상됩니다.  결합 모드 알고리즘의 경우 일반적으로 ESP 패킷 끝에 나타나는 ICV(무결성이 선택된 경우)가 생략될 수 있습니다.  ICV가 생략되고 무결성이 선택된 경우 페이로드 데이터 내에서 패킷의 무결성을 확인하는 ICV와 동등한 수단을 인코딩하는 것은 결합 모드 알고리즘의 책임입니다.

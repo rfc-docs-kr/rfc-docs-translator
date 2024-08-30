@@ -1,0 +1,19 @@
+"hash": |-
+  91d769764e1b00c7513cacdddcdea2427370176b41eb67b063dff99253911054
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each ACK Range acknowledges a contiguous range of packets by
+     indicating the number of acknowledged packets that precede the
+     largest packet number in that range.  A value of 0 indicates that
+     only the largest packet number is acknowledged.  Larger ACK Range
+     values indicate a larger range, with corresponding lower values for
+     the smallest packet number in the range.  Thus, given a largest
+     packet number for the range, the smallest value is determined by the
+     following formula:
+"fixed": |-
+  Each ACK Range acknowledges a contiguous range of packets by indicating the number of acknowledged packets that precede the largest packet number in that range.  A value of 0 indicates that only the largest packet number is acknowledged.  Larger ACK Range values indicate a larger range, with corresponding lower values for the smallest packet number in the range.  Thus, given a largest packet number for the range, the smallest value is determined by the following formula:
+"ko": |-
+  각 ACK 범위는 해당 범위에서 가장 큰 패킷 번호 앞에 오는 확인된 패킷 수를 표시하여 연속된 패킷 범위를 확인합니다. 값 0은 가장 큰 패킷 번호만 승인됨을 나타냅니다. ACK 범위 값이 클수록 범위가 더 크다는 뜻이며, 범위 내에서 가장 작은 패킷 번호에 해당하는 값이 더 낮습니다. 따라서 범위에 대해 가장 큰 패킷 번호가 주어지면 가장 작은 값은 다음 공식에 의해 결정됩니다.

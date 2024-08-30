@@ -1,0 +1,15 @@
+"hash": |-
+  4dfe3d43a27d880aa212d34a7566c7f58d4a89297518f82fdd5f3773869817e1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     CertBag ::= SEQUENCE {
+         certId      BAG-TYPE.&id   ({CertTypes}),
+         certValue   [0] EXPLICIT BAG-TYPE.&Type ({CertTypes}{@certId})
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

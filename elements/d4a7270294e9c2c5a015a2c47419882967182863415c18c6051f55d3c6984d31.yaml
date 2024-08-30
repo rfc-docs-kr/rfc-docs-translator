@@ -1,0 +1,22 @@
+"hash": |-
+  d4a7270294e9c2c5a015a2c47419882967182863415c18c6051f55d3c6984d31
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Data Encryption Standard
+        DES is a very widely used symmetric encryption algorithm.  DES is
+        a block cipher with a 56 bit key and an 8 byte block size.  Note
+        that in TLS, for key generation purposes, DES is treated as having
+        an 8 byte key length (64 bits), but it still only provides 56 bits
+        of protection.  (The low bit of each key byte is presumed to be
+        set to produce odd parity in that key byte.)  DES can also be
+        operated in a mode where three independent keys and three
+        encryptions are used for each block of data; this uses 168 bits of
+        key (24 bytes in the TLS key generation method) and provides the
+        equivalent of 112 bits of security.  [DES], [3DES]
+"fixed": |-
+  Data Encryption Standard  -  DES is a very widely used symmetric encryption algorithm.  DES is a block cipher with a 56 bit key and an 8 byte block size.  Note that in TLS, for key generation purposes, DES is treated as having an 8 byte key length (64 bits), but it still only provides 56 bits of protection.  (The low bit of each key byte is presumed to be set to produce odd parity in that key byte.)  DES can also be operated in a mode where three independent keys and three encryptions are used for each block of data; this uses 168 bits of key (24 bytes in the TLS key generation method) and provides the equivalent of 112 bits of security.  [DES], [3DES]
+"ko": |-
+  데이터 암호화 표준 - DES는 매우 널리 사용되는 대칭 암호화 알고리즘입니다. DES는 56비트 키와 8바이트 블록 크기를 갖는 블록 암호입니다. TLS에서 키 생성 목적으로 DES는 8바이트 키 길이(64비트)를 갖는 것으로 처리되지만 여전히 56비트 보호만 제공합니다. (각 키 바이트의 낮은 비트는 해당 키 바이트에서 홀수 패리티를 생성하도록 설정되는 것으로 추정됩니다.) DES는 각 데이터 블록에 대해 3개의 독립 키와 3개의 암호화가 사용되는 모드에서도 작동할 수 있습니다. 이는 168비트 키(TLS 키 생성 방법에서는 24바이트)를 사용하며 112비트 보안에 해당합니다. [DES], [3DES]

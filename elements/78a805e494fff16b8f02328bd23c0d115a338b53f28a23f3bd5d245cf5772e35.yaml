@@ -1,0 +1,14 @@
+"hash": |-
+  78a805e494fff16b8f02328bd23c0d115a338b53f28a23f3bd5d245cf5772e35
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a RECORD operation is already in progress, invoking this method
+     causes the server to issue a response having a status-code of 402
+     "Method not valid in this state" and a request-state of COMPLETE.
+"fixed": |-
+  If a RECORD operation is already in progress, invoking this method causes the server to issue a response having a status-code of 402 "Method not valid in this state" and a request-state of COMPLETE.
+"ko": |-
+  RECORD 작업이 이미 진행 중이면 이 메서드를 호출하면 서버는 상태 코드 402 "이 상태에서는 메서드가 유효하지 않음"과 요청 상태 COMPLETE를 갖는 응답을 발행합니다.

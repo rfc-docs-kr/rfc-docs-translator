@@ -1,0 +1,17 @@
+"hash": |-
+  5adaaf89e72eec5e0049817a5c9f2ef1714687a62795ff02d46e67c324ab31c0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Path validation does not validate that a peer can send in the return
+     direction.  Acknowledgments cannot be used for return path validation
+     because they contain insufficient entropy and might be spoofed.
+     Endpoints independently determine reachability on each direction of a
+     path, and therefore return reachability can only be established by
+     the peer.
+"fixed": |-
+  Path validation does not validate that a peer can send in the return direction.  Acknowledgments cannot be used for return path validation because they contain insufficient entropy and might be spoofed. Endpoints independently determine reachability on each direction of a path, and therefore return reachability can only be established by the peer.
+"ko": |-
+  경로 유효성 검사는 피어가 반환 방향으로 보낼 수 있는지 유효성을 검사하지 않습니다. 승인은 엔트로피가 부족하고 스푸핑될 수 있으므로 반환 경로 유효성 검사에 사용할 수 없습니다. 끝점은 경로의 각 방향에 대한 연결 가능성을 독립적으로 결정하므로 반환 연결 가능성은 피어에 의해서만 설정될 수 있습니다.

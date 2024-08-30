@@ -1,0 +1,27 @@
+"hash": |-
+  390df3dfa0059ef9f2b74b903bdf97f7d413ca3798632778642e0e384d05edcd
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          subjectPublicKeyInfo contains information about the public key
+            being certified.  The information identifies the entity's
+            public-key algorithm (and any associated parameters); examples
+            of public-key algorithms include the rsaEncryption object
+            identifier from PKCS #1 [1].  The information also includes a
+            bit-string representation of the entity's public key.  For the
+            public-key algorithm just mentioned, the bit string contains
+            the DER encoding of a value of PKCS #1 type RSAPublicKey.  The
+            values of type SubjectPublicKeyInfo{} allowed for
+            subjectPKInfo are constrained to the values specified by the
+            information object set PKInfoAlgorithms, which includes the
+            extension marker (...).  Definitions of specific algorithm
+            objects are left to specifications that reference this
+            document.  Such specifications will be interoperable with
+            their future versions if any additional algorithm objects are
+            added after the extension marker.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

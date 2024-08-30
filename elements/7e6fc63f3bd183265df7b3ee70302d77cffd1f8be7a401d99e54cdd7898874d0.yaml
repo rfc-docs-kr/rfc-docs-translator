@@ -1,0 +1,27 @@
+"hash": |-
+  7e6fc63f3bd183265df7b3ee70302d77cffd1f8be7a401d99e54cdd7898874d0
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        *  Location:  Disc resident.  More precisely it is on disc when
+                      asleep and called in core when awakened by a
+                      program.
+        *  Initiation:  It is initiated through 'WAKE' service calls
+                        issued either by a user process or by the Handler.
+        *  Main functions: * Establishes/deletes outgoing connections upon
+                             users' requests.  For so doing it sends
+                             control messages (see 2.4.2) to remote
+                             HOST[s] in order to get links
+                             established/released; it then notifies back
+                             the users.
+                           * Insures the processing of incoming control
+                             messages (transmitted over control links),
+                             e.g., for contributing to
+                             establishments/deletions of connections
+                             (those requested by remote HOSTS).
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

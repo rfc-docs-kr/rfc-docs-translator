@@ -1,0 +1,1 @@
+제공된 모든 PMCE를 거부하는 서버는 PMCE 이름이 있는 요소를 포함해서는 안 됩니다.  서버가 "Sec-WebSocket-Extensions" 헤더에 PMCE 요소 없이 응답하는 경우 _WebSocket 연결이 설정되면_ 두 끝점 모두 메시지별 압축 없이 진행됩니다.

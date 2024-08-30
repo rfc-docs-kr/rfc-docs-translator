@@ -1,0 +1,28 @@
+"hash": |-
+  7f0549c579668c154e4d96cbced690ad3bca40c1190fee9bfc33944ef60220e2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           ClientHello
+           (SessionTicket extension) -------->
+                                                           ServerHello
+                                       (empty SessionTicket extension)
+                                                          Certificate*
+                                                    ServerKeyExchange*
+                                                   CertificateRequest*
+                                    <--------          ServerHelloDone
+           Certificate*
+           ClientKeyExchange
+           CertificateVerify*
+           [ChangeCipherSpec]
+           Finished                 -------->
+                                                      NewSessionTicket
+                                                    [ChangeCipherSpec]
+                                    <--------                 Finished
+           Application Data         <------->         Application Data
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,1 @@
+부록 A.1에 지정된 키와 base64url 인코딩 결과를 사용하여 HMAC SHA-256 알고리즘을 사용하여 JWS 서명 입력 ASCII(BASE64URL(UTF8(JWS Protected Header)) || '.' || BASE64URL(JWS Payload))의 HMAC을 계산하면 이 BASE64URL(JWS Signature) 값이 생성됩니다.

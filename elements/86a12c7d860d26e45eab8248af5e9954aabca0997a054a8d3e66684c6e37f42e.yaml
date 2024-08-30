@@ -1,0 +1,21 @@
+"hash": |-
+  86a12c7d860d26e45eab8248af5e9954aabca0997a054a8d3e66684c6e37f42e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the synthesizer needs to fetch documents or other resources like
+     speech audio files, this header field controls the corresponding URI
+     access properties.  This provides client policy whether or not the
+     synthesizer is permitted to attempt to optimize speech by pre-
+     fetching audio.  The value is either "safe" to say that audio is only
+     fetched when it is referenced, never before; "prefetch" to permit,
+     but not require the implementation to pre-fetch the audio; or
+     "stream" to allow it to stream the audio fetches.  The default value
+     is "prefetch".  This header field MAY occur in SPEAK, SET-PARAMS, or
+     GET-PARAMS requests.
+"fixed": |-
+  When the synthesizer needs to fetch documents or other resources like speech audio files, this header field controls the corresponding URI access properties.  This provides client policy whether or not the synthesizer is permitted to attempt to optimize speech by pre- fetching audio.  The value is either "safe" to say that audio is only fetched when it is referenced, never before; "prefetch" to permit, but not require the implementation to pre-fetch the audio; or "stream" to allow it to stream the audio fetches.  The default value is "prefetch".  This header field MAY occur in SPEAK, SET-PARAMS, or GET-PARAMS requests.
+"ko": |-
+  합성기가 문서나 음성 오디오 파일과 같은 다른 리소스를 페치해야 할 때 이 헤더 필드는 해당 URI 액세스 속성을 제어합니다. 이는 합성기가 오디오를 미리 페치하여 음성을 최적화할 수 있는지 여부에 대한 클라이언트 정책을 제공합니다. 값은 "safe"로 지정하여 오디오가 참조될 때만 페치되고, 그 전에는 페치되지 않음을 나타냅니다. "prefetch"로 지정하여 구현에서 오디오를 미리 페치하도록 허용하지만 요구하지는 않음을 나타냅니다. "stream"으로 지정하여 오디오 페치를 스트리밍할 수 있습니다. 기본값은 "prefetch"입니다. 이 헤더 필드는 SPEAK, SET-PARAMS 또는 GET-PARAMS 요청에서 발생할 수 있습니다.

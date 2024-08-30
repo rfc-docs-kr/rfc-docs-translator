@@ -1,0 +1,23 @@
+"hash": |-
+  b46ff2571c35090cf459e59861ddf26a9aaec31545ec3322cfaa2f60babfcaba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  'single-document': If a Job has multiple Documents, say, the
+        Document data is called "a" and "b", then the result of processing
+        all the Document data (a and then b) MUST be treated as a single
+        sequence of Media Sheets for finishing processes; that is,
+        finishing is performed on the concatenation of the sequences
+        a(*),b(*).  The Printer MUST NOT force the data in each Document
+        instance to be formatted onto a new Impression, nor to start a new
+        Impression on a new Media Sheet.  If more than one copy is made,
+        the ordering of the sets of Media Sheets resulting from processing
+        the Document data MUST be a(*), b(*), a(*), b(*), ..., and the
+        Printer MUST force each copy (a(*),b(*)) to start on a new Media
+        Sheet.
+"fixed": |-
+  -  'single-document': If a Job has multiple Documents, say, the Document data is called "a" and "b", then the result of processing all the Document data (a and then b) MUST be treated as a single sequence of Media Sheets for finishing processes; that is, finishing is performed on the concatenation of the sequences a(*),b(*).  The Printer MUST NOT force the data in each Document instance to be formatted onto a new Impression, nor to start a new Impression on a new Media Sheet.  If more than one copy is made, the ordering of the sets of Media Sheets resulting from processing the Document data MUST be a(*), b(*), a(*), b(*), ..., and the Printer MUST force each copy (a(*),b(*)) to start on a new Media Sheet.
+"ko": |-
+  - '단일 문서': Job에 여러 문서가 있는 경우, 예를 들어 문서 데이터를 "a"와 "b"라고 하면 모든 문서 데이터(a와 b)를 처리한 결과는 단일 문서로 처리되어야 합니다. 마무리 공정을 위한 미디어 시트의 순서; 즉, 시퀀스 a(*),b(*)의 연결에 대해 마무리가 수행됩니다. 프린터는 각 문서 인스턴스의 데이터를 새 임프레션으로 강제로 포맷하거나 새 미디어 시트에서 새 임프레션을 시작해서는 안 됩니다. 복사본이 두 개 이상 만들어진 경우 문서 데이터 처리로 인한 미디어 시트 세트의 순서는 반드시 a(*), b(*), a(*), b(*), ...이어야 하며 프린터는 각 복사본(a(*),b(*))이 새 미디어 시트에서 시작되도록 해야 합니다.

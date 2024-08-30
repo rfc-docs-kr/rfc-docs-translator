@@ -1,0 +1,22 @@
+"hash": |-
+  c592e9c43b689c86f723e141e281584df3cc13cc6686e54570982728fff26c43
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Some operations are REQUIRED for IPP objects to support; the others
+     are OPTIONAL (see Section 6.2.2).  Therefore, before using an
+     OPTIONAL operation, a Client SHOULD first use the REQUIRED
+     Get-Printer-Attributes operation to query the Printer's
+     "operations-supported" attribute in order to determine which OPTIONAL
+     operations are actually supported.  The Client SHOULD NOT use an
+     OPTIONAL operation that is not supported.  When an IPP object
+     receives a request to perform an operation it does not support, it
+     MUST return the 'server-error-operation-not-supported' status-code
+     (see Appendix B.1.5.2).  An IPP object is non-conformant if it does
+     not support a REQUIRED operation.
+"fixed": |-
+  Some operations are REQUIRED for IPP objects to support; the others are OPTIONAL (see Section 6.2.2).  Therefore, before using an OPTIONAL operation, a Client SHOULD first use the REQUIRED Get-Printer-Attributes operation to query the Printer's "operations-supported" attribute in order to determine which OPTIONAL operations are actually supported.  The Client SHOULD NOT use an OPTIONAL operation that is not supported.  When an IPP object receives a request to perform an operation it does not support, it MUST return the 'server-error-operation-not-supported' status-code (see Appendix B.1.5.2).  An IPP object is non-conformant if it does not support a REQUIRED operation.
+"ko": |-
+  IPP 객체를 지원하려면 일부 작업이 필수입니다. 나머지는 선택사항입니다(섹션 6.2.2 참조). 따라서 OPTIONAL 작업을 사용하기 전에 클라이언트는 실제로 어떤 OPTIONAL 작업이 지원되는지 확인하기 위해 먼저 REQUIRED Get-Printer-Attributes 작업을 사용하여 프린터의 "작업 지원" 속성을 쿼리해야 합니다. 클라이언트는 지원되지 않는 OPTIONAL 작업을 사용해서는 안 됩니다. IPP 객체가 자신이 지원하지 않는 작업을 수행하라는 요청을 받으면 '서버 오류 작업-비지원' 상태 코드를 반환해야 합니다(부록 B.1.5.2 참조). IPP 객체는 REQUIRED 작업을 지원하지 않는 경우 비준수입니다.

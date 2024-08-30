@@ -1,0 +1,17 @@
+"hash": |-
+  288232111585ca0c9c2fc18e5cdedcf2f21c2962126edde6a292881dc1d4da5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  The solution is to inhibit the sending of new TCP  segments  when
+  new  outgoing  data  arrives  from  the  user  if  any previously
+  transmitted data on the connection remains unacknowledged.   This
+  inhibition  is  to be unconditional; no timers, tests for size of
+  data received, or other conditions are required.   Implementation
+  typically requires one or two lines inside a TCP program.
+"fixed": |-
+  The solution is to inhibit the sending of new TCP  segments  when new  outgoing  data  arrives  from  the  user  if  any previously transmitted data on the connection remains unacknowledged.   This inhibition  is  to be unconditional; no timers, tests for size of data received, or other conditions are required.   Implementation typically requires one or two lines inside a TCP program.
+"ko": |-
+  해결 방법은 연결을 통해 이전에 전송된 데이터가 승인되지 않은 상태로 남아 있는 경우 사용자로부터 새 나가는 데이터가 도착할 때 새 TCP 세그먼트의 전송을 금지하는 것입니다. 이 억제는 무조건적이어야 합니다. 타이머, 수신된 데이터 크기 테스트 또는 기타 조건이 필요하지 않습니다. 구현에는 일반적으로 TCP 프로그램 내에 한두 줄이 필요합니다.

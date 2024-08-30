@@ -1,0 +1,15 @@
+"hash": |-
+  a18815330630b6cfd0b169340f09c43ec25e6c3591ca8582b79fe2424471c22c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The client MUST include either an empty "renegotiation_info"
+        extension, or the TLS_EMPTY_RENEGOTIATION_INFO_SCSV signaling
+        cipher suite value in the ClientHello.  Including both is NOT
+        RECOMMENDED.
+"fixed": |-
+  -  The client MUST include either an empty "renegotiation_info" extension, or the TLS_EMPTY_RENEGOTIATION_INFO_SCSV signaling cipher suite value in the ClientHello.  Including both is NOT RECOMMENDED.
+"ko": |-
+  - 클라이언트는 빈 "renegotiation_info" 확장 또는 ClientHello의 TLS_EMPTY_RENEGOTIATION_INFO_SCSV 신호 암호화 제품군 값을 포함해야 합니다. 둘 다 포함하는 것은 권장되지 않습니다.

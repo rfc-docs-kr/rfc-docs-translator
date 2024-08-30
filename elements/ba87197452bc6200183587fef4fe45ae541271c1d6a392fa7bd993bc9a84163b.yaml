@@ -1,0 +1,17 @@
+"hash": |-
+  ba87197452bc6200183587fef4fe45ae541271c1d6a392fa7bd993bc9a84163b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server SHOULD NOT unilaterally close the connection without first
+     sending an untagged BYE response that contains the reason for doing
+     so.  A client SHOULD NOT unilaterally close the connection; instead,
+     it SHOULD issue a LOGOUT command.  If the server detects that the
+     client has unilaterally closed the connection, the server MAY omit
+     the untagged BYE response and simply close its connection.
+"fixed": |-
+  A server SHOULD NOT unilaterally close the connection without first sending an untagged BYE response that contains the reason for doing so.  A client SHOULD NOT unilaterally close the connection; instead, it SHOULD issue a LOGOUT command.  If the server detects that the client has unilaterally closed the connection, the server MAY omit the untagged BYE response and simply close its connection.
+"ko": |-
+  서버는 그렇게 하는 이유가 포함된 태그가 지정되지 않은 BYE 응답을 먼저 보내지 않고 일방적으로 연결을 닫아서는 안 됩니다.  클라이언트는 연결을 일방적으로 종료해서는 안 됩니다. 대신 LOGOUT 명령을 실행해야 합니다.  클라이언트가 일방적으로 연결을 닫은 것을 서버가 감지하면 서버는 태그가 지정되지 않은 BYE 응답을 생략하고 연결을 닫을 수도 있습니다.

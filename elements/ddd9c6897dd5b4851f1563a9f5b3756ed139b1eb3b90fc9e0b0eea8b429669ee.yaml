@@ -1,0 +1,14 @@
+"hash": |-
+  ddd9c6897dd5b4851f1563a9f5b3756ed139b1eb3b90fc9e0b0eea8b429669ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         payload minimizes the number of initialization round trips, thus
+         improving time-till-playback.  Forbidding heavy payload prevents
+         an amplification attack (see Section 12.1).
+"fixed": |-
+  - payload minimizes the number of initialization round trips, thus improving time-till-playback.  Forbidding heavy payload prevents an amplification attack (see Section 12.1).
+"ko": |-
+  - 페이로드는 초기화 왕복 횟수를 최소화하여 재생 시간을 향상시킵니다. 무거운 페이로드를 금지하면 증폭 공격이 방지됩니다(섹션 12.1 참조).

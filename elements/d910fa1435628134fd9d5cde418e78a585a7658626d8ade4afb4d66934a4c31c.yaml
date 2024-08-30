@@ -1,0 +1,16 @@
+"hash": |-
+  d910fa1435628134fd9d5cde418e78a585a7658626d8ade4afb4d66934a4c31c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [SECURE-RESUMPTION], [CROSS-PROTOCOL], and [SSL3-ANALYSIS] all show a
+     malicious peer using a bad FFDHE group to maneuver a client into
+     selecting a premaster secret of the peer's choice, which can be
+     replayed to another server using a non-FFDHE key exchange and can
+     then be bootstrapped to replay client authentication.
+"fixed": |-
+  [SECURE-RESUMPTION], [CROSS-PROTOCOL], and [SSL3-ANALYSIS] all show a malicious peer using a bad FFDHE group to maneuver a client into selecting a premaster secret of the peer's choice, which can be replayed to another server using a non-FFDHE key exchange and can then be bootstrapped to replay client authentication.
+"ko": |-
+  [SECURE-RESUMPTION], [CROSS-PROTOCOL] 및 [SSL3-ANALYSIS]는 모두 잘못된 FFDHE 그룹을 사용하여 클라이언트가 피어가 선택한 사전 마스터 비밀을 선택하도록 조작하는 악의적인 피어를 보여줍니다. 이는 다음을 사용하여 다른 서버에서 재생할 수 있습니다. FFDHE가 아닌 키 교환을 수행한 다음 부트스트랩하여 클라이언트 인증을 재생할 수 있습니다.

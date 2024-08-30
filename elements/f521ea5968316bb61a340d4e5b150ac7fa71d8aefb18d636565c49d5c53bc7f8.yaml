@@ -1,0 +1,19 @@
+"hash": |-
+  f521ea5968316bb61a340d4e5b150ac7fa71d8aefb18d636565c49d5c53bc7f8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AUTHENTICATE command indicates a [SASL] authentication mechanism
+     to the server.  If the server supports the requested authentication
+     mechanism, it performs an authentication protocol exchange to
+     authenticate and identify the client.  It MAY also negotiate an
+     OPTIONAL security layer for subsequent protocol interactions.  If the
+     requested authentication mechanism is not supported, the server
+     SHOULD reject the AUTHENTICATE command by sending a tagged NO
+     response.
+"fixed": |-
+  The AUTHENTICATE command indicates a [SASL] authentication mechanism to the server.  If the server supports the requested authentication mechanism, it performs an authentication protocol exchange to authenticate and identify the client.  It MAY also negotiate an OPTIONAL security layer for subsequent protocol interactions.  If the requested authentication mechanism is not supported, the server SHOULD reject the AUTHENTICATE command by sending a tagged NO response.
+"ko": |-
+  AUTHENTICATE 명령은 서버에 대한 [SASL] 인증 메커니즘을 나타냅니다.  서버가 요청된 인증 메커니즘을 지원하는 경우 클라이언트를 인증하고 식별하기 위해 인증 프로토콜 교환을 수행합니다.  또한 후속 프로토콜 상호 작용을 위해 선택적 보안 계층을 협상할 수도 있습니다.  요청된 인증 메커니즘이 지원되지 않는 경우 서버는 태그가 지정된 NO 응답을 전송하여 AUTHENTICATE 명령을 거부해야 합니다.

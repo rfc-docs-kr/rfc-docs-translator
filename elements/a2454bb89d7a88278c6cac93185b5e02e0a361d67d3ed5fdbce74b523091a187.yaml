@@ -1,0 +1,19 @@
+"hash": |-
+  a2454bb89d7a88278c6cac93185b5e02e0a361d67d3ed5fdbce74b523091a187
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SPEAK method implementation MUST do a fetch of all external URIs
+     that are part of that operation.  If caching is implemented, this URI
+     fetching MUST conform to the cache-control hints and parameter header
+     fields associated with the method in deciding whether it is to be
+     fetched from cache or from the external server.  If these hints/
+     parameters are not specified in the method, the values set for the
+     session using SET-PARAMS/GET-PARAMS apply.  If it was not set for the
+     session, their default values apply.
+"fixed": |-
+  The SPEAK method implementation MUST do a fetch of all external URIs that are part of that operation.  If caching is implemented, this URI fetching MUST conform to the cache-control hints and parameter header fields associated with the method in deciding whether it is to be fetched from cache or from the external server.  If these hints/ parameters are not specified in the method, the values set for the session using SET-PARAMS/GET-PARAMS apply.  If it was not set for the session, their default values apply.
+"ko": |-
+  SPEAK 메서드 구현은 해당 작업의 일부인 모든 외부 URI를 페치해야 합니다. 캐싱이 구현된 경우 이 URI 페치는 캐시에서 페치할지 외부 서버에서 페치할지 결정할 때 메서드와 관련된 캐시 제어 힌트 및 매개변수 헤더 필드를 따라야 합니다. 메서드에 이러한 힌트/매개변수가 지정되지 않은 경우 SET-PARAMS/GET-PARAMS를 사용하여 세션에 설정된 값이 적용됩니다. 세션에 설정되지 않은 경우 기본값이 적용됩니다.

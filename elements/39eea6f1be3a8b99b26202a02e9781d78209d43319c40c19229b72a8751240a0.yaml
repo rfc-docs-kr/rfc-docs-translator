@@ -1,0 +1,21 @@
+"hash": |-
+  39eea6f1be3a8b99b26202a02e9781d78209d43319c40c19229b72a8751240a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An SDP constructed to indicate media capabilities is structured as
+     follows.  It MUST be a valid SDP, except that it MAY omit both "e="
+     and "p=" lines.  The "t=" line MUST be equal to "0 0".  For each
+     media type supported by the agent, there MUST be a corresponding
+     media description of that type.  The session ID in the origin field
+     MUST be unique for each SDP constructed to indicate media
+     capabilities.  The port MUST be set to zero, but the connection
+     address is arbitrary.  The usage of port zero makes sure that an SDP
+     formatted for capabilities does not cause media streams to be
+     established if it is interpreted as an offer or answer.
+"fixed": |-
+  An SDP constructed to indicate media capabilities is structured as follows.  It MUST be a valid SDP, except that it MAY omit both "e=" and "p=" lines.  The "t=" line MUST be equal to "0 0".  For each media type supported by the agent, there MUST be a corresponding media description of that type.  The session ID in the origin field MUST be unique for each SDP constructed to indicate media capabilities.  The port MUST be set to zero, but the connection address is arbitrary.  The usage of port zero makes sure that an SDP formatted for capabilities does not cause media streams to be established if it is interpreted as an offer or answer.
+"ko": |-
+  미디어 기능을 나타내기 위해 구성된 SDP는 다음과 같이 구성됩니다. 반드시 유효한 SDP여야 하지만, "e=" 및 "p=" 행을 모두 생략할 수 있습니다. "t=" 행은 "0 0"과 같아야 합니다. 에이전트에서 지원하는 각 미디어 유형에 대해 해당 유형의 해당 미디어 설명이 있어야 합니다. 원본 필드의 세션 ID는 미디어 기능을 나타내기 위해 구성된 각 SDP에 대해 고유해야 합니다. 포트는 0으로 설정해야 하지만 연결 주소는 임의적입니다. 포트 0을 사용하면 기능에 맞게 포맷된 SDP가 제안이나 답변으로 해석될 경우 미디어 스트림이 설정되지 않습니다.

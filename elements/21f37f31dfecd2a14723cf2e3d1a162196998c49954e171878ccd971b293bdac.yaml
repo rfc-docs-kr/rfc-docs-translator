@@ -1,0 +1,15 @@
+"hash": |-
+  21f37f31dfecd2a14723cf2e3d1a162196998c49954e171878ccd971b293bdac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        This is the same as not sending any response code, except that
+        when a client sees AUTHENTICATIONFAILED, it knows that the problem
+        wasn't, e.g., UNAVAILABLE, so there's no point in trying the same
+        login/password again later.
+"fixed": |-
+  - This is the same as not sending any response code, except that when a client sees AUTHENTICATIONFAILED, it knows that the problem wasn't, e.g., UNAVAILABLE, so there's no point in trying the same login/password again later.
+"ko": |-
+  - 이는 클라이언트가 AUTHENTICATIONFAILED를 볼 때 문제가 아니었음(예: UNAVAILABLE)을 알기 때문에 나중에 동일한 로그인/비밀번호를 다시 시도할 필요가 없다는 점을 제외하면 응답 코드를 보내지 않는 것과 같습니다.

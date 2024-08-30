@@ -1,0 +1,14 @@
+"hash": |-
+  b39f9c4cd8d1e55b65866055eed692ef308b99c1eddb968ce5456274292c88fc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  For non-anonymous cipher suites where the offered certificate is
+        valid and appropriate for the peer, validate the signature over
+        the ServerDHParams.  If not valid, terminate the connection.
+"fixed": |-
+  -  For non-anonymous cipher suites where the offered certificate is valid and appropriate for the peer, validate the signature over the ServerDHParams.  If not valid, terminate the connection.
+"ko": |-
+  - 제공된 인증서가 유효하고 피어에 적합한 비익명 암호화 제품군의 경우 ServerDHParams를 통해 서명의 유효성을 검사합니다.  유효하지 않은 경우 연결을 종료합니다.

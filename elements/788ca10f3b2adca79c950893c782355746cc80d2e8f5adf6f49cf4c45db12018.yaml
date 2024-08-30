@@ -1,0 +1,16 @@
+"hash": |-
+  788ca10f3b2adca79c950893c782355746cc80d2e8f5adf6f49cf4c45db12018
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the absence of any fatal errors (that are indicated in this
+     section), a BGP peer MAY choose, at any given time, to close its BGP
+     connection by sending the NOTIFICATION message with the Error Code
+     Cease.  However, the Cease NOTIFICATION message MUST NOT be used when
+     a fatal error indicated by this section does exist.
+"fixed": |-
+  In the absence of any fatal errors (that are indicated in this section), a BGP peer MAY choose, at any given time, to close its BGP connection by sending the NOTIFICATION message with the Error Code Cease.  However, the Cease NOTIFICATION message MUST NOT be used when a fatal error indicated by this section does exist.
+"ko": |-
+  (이 섹션에 표시된) 치명적인 오류가 없는 경우 BGP 피어는 언제든지 오류 코드 중지와 함께 NOTIFICATION 메시지를 전송하여 BGP 연결을 닫을 수 있습니다. 그러나 이 섹션에 표시된 치명적인 오류가 존재할 때는 Cease NOTIFICATION 메시지를 사용해서는 안 됩니다.

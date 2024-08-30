@@ -1,0 +1,16 @@
+"hash": |-
+  fce0c3ee1aea6ac9d2b1d50bdc37705af20d4aa185cf9bc2e2fd0e7967a642c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     where the first octet is the HAVE message (0x03) followed by the
+     start chunk and the end chunk describing the chunk range.  Note this
+     diagram shows a message and not a datagram, so it is not prefixed by
+     the destination Channel ID.  This holds for all subsequent message
+     diagrams.
+"fixed": |-
+  where the first octet is the HAVE message (0x03) followed by the start chunk and the end chunk describing the chunk range.  Note this diagram shows a message and not a datagram, so it is not prefixed by the destination Channel ID.  This holds for all subsequent message diagrams.
+"ko": |-
+  여기서 첫 번째 옥텟은 HAVE 메시지(0x03)이고 그 뒤에 시작 청크와 청크 범위를 설명하는 끝 청크가 옵니다. 이 다이어그램은 데이터그램이 아닌 메시지를 표시하므로 대상 채널 ID가 앞에 붙지 않습니다. 이는 모든 후속 메시지 다이어그램에 적용됩니다.

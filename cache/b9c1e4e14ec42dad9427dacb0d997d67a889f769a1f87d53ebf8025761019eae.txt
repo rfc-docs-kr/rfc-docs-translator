@@ -1,0 +1,1 @@
+최종 표현을 조립합니다. 이 결과의 컴팩트 직렬화는 문자열 BASE64URL(UTF8(JWE 보호 헤더)) || '.' || BASE64URL(JWE 암호화 키) || '.' || BASE64URL(JWE 초기화 벡터) || '.' || BASE64URL(JWE 암호문) || '.' || BASE64URL(JWE 인증 태그)입니다.

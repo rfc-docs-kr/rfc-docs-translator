@@ -1,0 +1,14 @@
+"hash": |-
+  45d8f97b241a4ddcc9691f47951e3ccaafb2ead9affe2217aa331fd279a25852
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server MUST reject a CONNECT request that targets an empty or
+     invalid port number, typically by responding with a 400 (Bad Request)
+     status code.
+"fixed": |-
+  A server MUST reject a CONNECT request that targets an empty or invalid port number, typically by responding with a 400 (Bad Request) status code.
+"ko": |-
+  서버는 일반적으로 400(잘못된 요청) 상태 코드로 응답하여 비어 있거나 유효하지 않은 포트 번호를 대상으로 하는 CONNECT 요청을 거부해야 합니다.

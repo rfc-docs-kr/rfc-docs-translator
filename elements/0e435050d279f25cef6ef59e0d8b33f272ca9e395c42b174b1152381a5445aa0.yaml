@@ -1,0 +1,20 @@
+"hash": |-
+  0e435050d279f25cef6ef59e0d8b33f272ca9e395c42b174b1152381a5445aa0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Response status codes beginning with the digit "5" indicate cases in
+     which the server is aware that it has erred or is incapable of
+     performing the request. If the client has not completed the request
+     when a 5xx code is received, it should immediately cease sending data
+     to the server. Except when responding to a HEAD request, the server
+     should include an entity containing an explanation of the error
+     situation, and whether it is a temporary or permanent condition.
+     These response codes are applicable to any request method and there
+     are no required header fields.
+"fixed": |-
+  Response status codes beginning with the digit "5" indicate cases in which the server is aware that it has erred or is incapable of performing the request. If the client has not completed the request when a 5xx code is received, it should immediately cease sending data to the server. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. These response codes are applicable to any request method and there are no required header fields.
+"ko": |-
+  숫자 "5"로 시작하는 응답 상태 코드는 서버가 오류가 발생했거나 요청을 수행할 수 없음을 인식하는 경우를 나타냅니다. 5xx 코드가 수신되었을 때 클라이언트가 요청을 완료하지 않은 경우 서버로의 데이터 전송을 즉시 중단해야 합니다. HEAD 요청에 응답할 때를 제외하고 서버는 오류 상황에 대한 설명과 그것이 일시적인지 영구적인지 여부를 포함하는 엔터티를 포함해야 합니다. 이러한 응답 코드는 모든 요청 방법에 적용 가능하며 필수 헤더 필드가 없습니다.

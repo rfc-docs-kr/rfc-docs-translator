@@ -1,0 +1,17 @@
+"hash": |-
+  695db0be5ef5b6941d8acc51952db1b5ca6df7216ebbb4d519fc659b5eae8e63
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a server receives a packet that indicates an unsupported version
+     and if the packet is large enough to initiate a new connection for
+     any supported version, the server SHOULD send a Version Negotiation
+     packet as described in Section 6.1.  A server MAY limit the number of
+     packets to which it responds with a Version Negotiation packet.
+     Servers MUST drop smaller packets that specify unsupported versions.
+"fixed": |-
+  If a server receives a packet that indicates an unsupported version and if the packet is large enough to initiate a new connection for any supported version, the server SHOULD send a Version Negotiation packet as described in Section 6.1.  A server MAY limit the number of packets to which it responds with a Version Negotiation packet. Servers MUST drop smaller packets that specify unsupported versions.
+"ko": |-
+  서버가 지원되지 않는 버전을 나타내는 패킷을 수신하고 패킷이 지원되는 버전에 대한 새 연결을 시작할 만큼 충분히 큰 경우 서버는 섹션 6.1에 설명된 대로 버전 협상 패킷을 보내야 합니다. 서버는 버전 협상 패킷으로 응답하는 패킷 수를 제한할 수 있습니다. 서버는 지원되지 않는 버전을 지정하는 더 작은 패킷을 삭제해야 합니다.

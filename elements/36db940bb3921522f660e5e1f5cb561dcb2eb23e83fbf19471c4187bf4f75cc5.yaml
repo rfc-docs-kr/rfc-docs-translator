@@ -1,0 +1,17 @@
+"hash": |-
+  36db940bb3921522f660e5e1f5cb561dcb2eb23e83fbf19471c4187bf4f75cc5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     BGP routes do not refer to interfaces, but can be resolved through
+     the routes in the Routing Table that can be of both types (those that
+     specify interfaces or those that do not).  IGP routes and routes to
+     directly connected networks are expected to specify the outbound
+     interface.  Static routes can specify the outbound interface, the
+     intermediate address, or both.
+"fixed": |-
+  BGP routes do not refer to interfaces, but can be resolved through the routes in the Routing Table that can be of both types (those that specify interfaces or those that do not).  IGP routes and routes to directly connected networks are expected to specify the outbound interface.  Static routes can specify the outbound interface, the intermediate address, or both.
+"ko": |-
+  BGP 경로는 인터페이스를 참조하지 않지만 두 가지 유형(인터페이스를 지정하는 유형 또는 지정하지 않는 유형)일 수 있는 라우팅 테이블의 경로를 통해 확인할 수 있습니다. IGP 경로와 직접 연결된 네트워크에 대한 경로는 아웃바운드 인터페이스를 지정해야 합니다. 정적 경로는 아웃바운드 인터페이스, 중간 주소 또는 둘 다를 지정할 수 있습니다.

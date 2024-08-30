@@ -1,0 +1,22 @@
+"hash": |-
+  4b801483920a39d521c0bdd226d1af57fec48997bbc4f15f28b3f07b0cbb6e9c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This OPTIONAL operation is identical to the Print-Job operation
+     (Section 4.2.1), except that a Client supplies a URI reference to the
+     Document data using the "document-uri" (uri) operation attribute (in
+     Group 1) rather than including the Document data itself.  Before
+     returning the response, the Printer MUST validate that the Printer
+     supports the retrieval method (e.g., 'http', 'ftp', etc.) implied by
+     the URI and MUST check for valid URI syntax.  If the Client-supplied
+     URI scheme is not supported, i.e., the value is not in the Printer's
+     "referenced-uri-scheme-supported" attribute, the Printer MUST reject
+     the request and return the 'client-error-uri-scheme-not-supported'
+     status-code.
+"fixed": |-
+  This OPTIONAL operation is identical to the Print-Job operation (Section 4.2.1), except that a Client supplies a URI reference to the Document data using the "document-uri" (uri) operation attribute (in Group 1) rather than including the Document data itself.  Before returning the response, the Printer MUST validate that the Printer supports the retrieval method (e.g., 'http', 'ftp', etc.) implied by the URI and MUST check for valid URI syntax.  If the Client-supplied URI scheme is not supported, i.e., the value is not in the Printer's "referenced-uri-scheme-supported" attribute, the Printer MUST reject the request and return the 'client-error-uri-scheme-not-supported' status-code.
+"ko": |-
+  이 OPTIONAL 작업은 클라이언트가 포함하는 대신 그룹 1의 "document-uri"(uri) 작업 속성을 사용하여 문서 데이터에 대한 URI 참조를 제공한다는 점을 제외하면 Print-Job 작업(섹션 4.2.1)과 동일합니다. 문서 데이터 자체. 응답을 반환하기 전에 프린터는 프린터가 URI에 의해 암시된 검색 방법(예: 'http', 'ftp' 등)을 지원하는지 확인하고 유효한 URI 구문을 확인해야 합니다. 클라이언트 제공 URI 체계가 지원되지 않는 경우, 즉 값이 프린터의 "referenced-uri-scheme-supported" 속성에 없으면 프린터는 요청을 거부하고 'client-error-uri-scheme-not'을 반환해야 합니다. -지원' 상태 코드.

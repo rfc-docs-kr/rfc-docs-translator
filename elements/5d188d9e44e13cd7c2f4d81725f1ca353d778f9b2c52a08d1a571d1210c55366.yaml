@@ -1,0 +1,18 @@
+"hash": |-
+  5d188d9e44e13cd7c2f4d81725f1ca353d778f9b2c52a08d1a571d1210c55366
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     <CODE BEGINS>
+     def decodeScalar25519(k):
+         k_list = [ord(b) for b in k]
+         k_list[0] &= 248
+         k_list[31] &= 127
+         k_list[31] |= 64
+         return decodeLittleEndian(k_list, 255)
+"fixed": |-
+  <CODE BEGINS> def decodeScalar25519(k): k_list = [ord(b) for b in k] k_list[0] &= 248 k_list[31] &= 127 k_list[31] |= 64 return decodeLittleEndian(k_list, 255)
+"ko": |-
+  <코드 시작> def decodeScalar25519(k): k_list = [ord(b) for b in k] k_list[0] &= 248 k_list[31] &= 127 k_list[31] |= 64 return decodeLittleEndian(k_list, 255)

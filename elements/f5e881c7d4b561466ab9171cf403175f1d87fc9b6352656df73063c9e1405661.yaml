@@ -1,0 +1,22 @@
+"hash": |-
+  f5e881c7d4b561466ab9171cf403175f1d87fc9b6352656df73063c9e1405661
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a compatible TLS server receives a Supported Groups extension from
+     a client that includes any FFDHE group (i.e., any codepoint between
+     256 and 511, inclusive, even if unknown to the server), and if none
+     of the client-proposed FFDHE groups are known and acceptable to the
+     server, then the server MUST NOT select an FFDHE cipher suite.  In
+     this case, the server SHOULD select an acceptable non-FFDHE cipher
+     suite from the client's offered list.  If the extension is present
+     with FFDHE groups, none of the client's offered groups are acceptable
+     by the server, and none of the client's proposed non-FFDHE cipher
+     suites are acceptable to the server, the server MUST end the
+     connection with a fatal TLS alert of type insufficient_security(71).
+"fixed": |-
+  If a compatible TLS server receives a Supported Groups extension from a client that includes any FFDHE group (i.e., any codepoint between 256 and 511, inclusive, even if unknown to the server), and if none of the client-proposed FFDHE groups are known and acceptable to the server, then the server MUST NOT select an FFDHE cipher suite.  In this case, the server SHOULD select an acceptable non-FFDHE cipher suite from the client's offered list.  If the extension is present with FFDHE groups, none of the client's offered groups are acceptable by the server, and none of the client's proposed non-FFDHE cipher suites are acceptable to the server, the server MUST end the connection with a fatal TLS alert of type insufficient_security(71).
+"ko": |-
+  호환 가능한 TLS 서버가 클라이언트로부터 FFDHE 그룹(즉, 서버에 알려지지 않은 경우에도 256에서 511 사이의 모든 코드 포인트)을 포함하는 지원 그룹 확장을 수신하고 클라이언트가 제안한 FFDHE 그룹 중 알려진 것이 없는 경우 서버가 수락할 수 있는 경우 서버는 FFDHE 암호 모음을 선택해서는 안 됩니다.  이 경우 서버는 클라이언트가 제공한 목록에서 허용 가능한 FFDHE가 아닌 암호화 제품군을 선택해야 합니다.  확장이 FFDHE 그룹과 함께 존재하고 클라이언트가 제공한 그룹 중 어느 것도 서버에서 허용되지 않으며 클라이언트가 제안한 비 FFDHE 암호화 제품군 중 어느 것도 서버에서 허용되지 않는 경우 서버는 치명적인 TLS 경고로 연결을 종료해야 합니다. 불충분한_보안(71)을 입력합니다.

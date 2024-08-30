@@ -1,0 +1,18 @@
+"hash": |-
+  3f4a6a131cefcecf38c7898b3258cab430c6cb95649a5701315e921d5d365604
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a client invokes a CONTROL method to jump forward and the
+     operation goes beyond the end of the active SPEAK method's text, the
+     CONTROL request still succeeds.  The active SPEAK request completes
+     and returns a SPEAK-COMPLETE event following the response to the
+     CONTROL method.  If there are more SPEAK requests in the queue, the
+     synthesizer resource starts at the beginning of the next SPEAK
+     request in the queue.
+"fixed": |-
+  When a client invokes a CONTROL method to jump forward and the operation goes beyond the end of the active SPEAK method's text, the CONTROL request still succeeds.  The active SPEAK request completes and returns a SPEAK-COMPLETE event following the response to the CONTROL method.  If there are more SPEAK requests in the queue, the synthesizer resource starts at the beginning of the next SPEAK request in the queue.
+"ko": |-
+  클라이언트가 CONTROL 메서드를 호출하여 앞으로 점프하고 작업이 활성 SPEAK 메서드 텍스트의 끝을 넘어갈 때에도 CONTROL 요청은 여전히 성공합니다. 활성 SPEAK 요청이 완료되고 CONTROL 메서드에 대한 응답에 따라 SPEAK-COMPLETE 이벤트를 반환합니다. 대기열에 SPEAK 요청이 더 있으면 신디사이저 리소스는 대기열의 다음 SPEAK 요청 시작 부분에서 시작합니다.

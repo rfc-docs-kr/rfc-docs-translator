@@ -1,0 +1,24 @@
+"hash": |-
+  c84d0ed96b554f8577a89a8bb8c68841eb466837b6b1a04f0d2ebfebc4641260
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SEARCH command may contain result options.  Result options
+     control what kind of information is returned about messages matching
+     the search criteria in an untagged ESEARCH response.  If no result
+     option is specified or empty list of options is specified as "()",
+     ALL is assumed (see below).  The order of individual options is
+     arbitrary.  Individual options may contain parameters enclosed in
+     parentheses.  (However, if an option has a mandatory parameter, which
+     can always be represented as a number or a sequence-set, the option
+     parameter does not need the enclosing parentheses.  See "Formal
+     Syntax" (Section 9) for more details.)  If an option has parameters,
+     they consist of atoms and/or strings and/or lists in a specific
+     order.  Any options not defined by extensions that the server
+     supports MUST be rejected with a BAD response.
+"fixed": |-
+  The SEARCH command may contain result options.  Result options control what kind of information is returned about messages matching the search criteria in an untagged ESEARCH response.  If no result option is specified or empty list of options is specified as "()", ALL is assumed (see below).  The order of individual options is arbitrary.  Individual options may contain parameters enclosed in parentheses.  (However, if an option has a mandatory parameter, which can always be represented as a number or a sequence-set, the option parameter does not need the enclosing parentheses.  See "Formal Syntax" (Section 9) for more details.)  If an option has parameters, they consist of atoms and/or strings and/or lists in a specific order.  Any options not defined by extensions that the server supports MUST be rejected with a BAD response.
+"ko": |-
+  SEARCH 명령에는 결과 옵션이 포함될 수 있습니다.  결과 옵션은 태그가 지정되지 않은 ESEARCH 응답에서 검색 기준과 일치하는 메시지에 대해 어떤 종류의 정보가 반환되는지 제어합니다.  결과 옵션이 지정되지 않거나 빈 옵션 목록이 "()"로 지정된 경우 ALL이 가정됩니다(아래 참조).  개별 옵션의 순서는 임의적입니다.  개별 옵션에는 괄호 안에 매개변수가 포함될 수 있습니다.  (그러나 옵션에 항상 숫자나 시퀀스 세트로 표시될 수 있는 필수 매개변수가 있는 경우 옵션 매개변수에는 괄호가 필요하지 않습니다. 자세한 내용은 "형식 구문"(섹션 9)을 참조하세요.) 옵션에는 매개변수가 있으며, 이는 특정 순서의 원자 및/또는 문자열 및/또는 목록으로 구성됩니다.  서버가 지원하는 확장으로 정의되지 않은 모든 옵션은 BAD 응답으로 거부되어야 합니다.

@@ -1,0 +1,12 @@
+"hash": |-
+  0cf63b3a16ab67e0664163b3a79746b18df1dcbaca636f398f6adf65f28d64d2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         *  otherwise, ignore the Range header field and respond 200 (OK)
+"fixed": |-
+  - *  otherwise, ignore the Range header field and respond 200 (OK)
+"ko": |-
+  - * 그렇지 않으면 Range 헤더 필드를 무시하고 200(OK)을 응답합니다.

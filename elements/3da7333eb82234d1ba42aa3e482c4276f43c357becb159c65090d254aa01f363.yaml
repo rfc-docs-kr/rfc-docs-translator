@@ -1,0 +1,19 @@
+"hash": |-
+  3da7333eb82234d1ba42aa3e482c4276f43c357becb159c65090d254aa01f363
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Suppose C tries to resume its session on a new connection with A.  A
+     can then resume its session with S on a new connection and forward
+     the abbreviated handshake messages unchanged between C and S.  Since
+     the abbreviated handshake only relies on the master secret for
+     authentication and does not mention client or server identities, both
+     handshakes complete successfully, resulting in the same session keys
+     and the same handshake log.  A still knows the connection keys and
+     can send messages to both C and S.
+"fixed": |-
+  Suppose C tries to resume its session on a new connection with A.  A can then resume its session with S on a new connection and forward the abbreviated handshake messages unchanged between C and S.  Since the abbreviated handshake only relies on the master secret for authentication and does not mention client or server identities, both handshakes complete successfully, resulting in the same session keys and the same handshake log.  A still knows the connection keys and can send messages to both C and S.
+"ko": |-
+  C가 A와의 새로운 연결에서 세션을 재개하려고 한다고 가정합니다. 그러면 A는 새로운 연결에서 S와의 세션을 재개하고 C와 S 간에 축약된 핸드셰이크 메시지를 변경하지 않고 전달할 수 있습니다. 축약된 핸드셰이크는 인증을 위해 마스터 비밀에만 의존하고 클라이언트 또는 서버 ID를 언급하지 않으므로 두 핸드셰이크 모두 성공적으로 완료되어 동일한 세션 키와 동일한 핸드셰이크 로그가 생성됩니다. A는 여전히 연결 키를 알고 있으며 C와 S 모두에 메시지를 보낼 수 있습니다.

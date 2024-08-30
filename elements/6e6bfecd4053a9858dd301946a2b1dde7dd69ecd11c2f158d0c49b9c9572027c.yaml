@@ -1,0 +1,18 @@
+"hash": |-
+  6e6bfecd4053a9858dd301946a2b1dde7dd69ecd11c2f158d0c49b9c9572027c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Header Parameter names and algorithm names are Unicode strings.  For
+     security reasons, the representations of these names must be compared
+     verbatim after performing any escape processing (as per Section 8.3
+     of RFC 7159 [RFC7159]).  This means, for instance, that these JSON
+     strings must compare as being equal ("sig", "\u0073ig"), whereas
+     these must all compare as being not equal to the first set or to each
+     other ("SIG", "Sig", "si\u0047").
+"fixed": |-
+  Header Parameter names and algorithm names are Unicode strings.  For security reasons, the representations of these names must be compared verbatim after performing any escape processing (as per Section 8.3 of RFC 7159 [RFC7159]).  This means, for instance, that these JSON strings must compare as being equal ("sig", "\u0073ig"), whereas these must all compare as being not equal to the first set or to each other ("SIG", "Sig", "si\u0047").
+"ko": |-
+  헤더 매개변수 이름과 알고리즘 이름은 유니코드 문자열입니다. 보안상의 이유로 이러한 이름의 표현은 이스케이프 처리를 수행한 후 그대로 비교해야 합니다(RFC 7159 [RFC7159]의 섹션 8.3에 따름). 즉, 예를 들어 이러한 JSON 문자열은 동일하다고 비교해야 하지만("sig", "\u0073ig"), 이러한 문자열은 모두 첫 번째 세트 또는 서로 같지 않다고 비교해야 합니다("SIG", "Sig", "si\u0047").

@@ -1,0 +1,16 @@
+"hash": |-
+  97e333d763197963368872d11775277f692c9c0e354f1379aa4cf6dfe64d48c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The DHCP server replies with a DHCPLEASEACTIVE message if the
+          Client-identifier in the DHCPLEASEQUERY message currently has an
+          active lease on an IP address in this DHCP server.  The server
+          replies with a DHCPLEASEUNKNOWN message if the server does not
+          have an active lease by a client with this Client-identifier.
+"fixed": |-
+  - The DHCP server replies with a DHCPLEASEACTIVE message if the Client-identifier in the DHCPLEASEQUERY message currently has an active lease on an IP address in this DHCP server.  The server replies with a DHCPLEASEUNKNOWN message if the server does not have an active lease by a client with this Client-identifier.
+"ko": |-
+  - DHCPLEASEQUERY 메시지의 클라이언트 식별자에 현재 이 DHCP 서버의 IP 주소에 대한 활성 임대가 있는 경우 DHCP 서버는 DHCPLEASEACTIVE 메시지로 응답합니다. 서버가 이 클라이언트 식별자를 사용하여 클라이언트에 의한 활성 임대를 갖고 있지 않은 경우 서버는 DHCPLEASEUNKNOWN 메시지로 응답합니다.

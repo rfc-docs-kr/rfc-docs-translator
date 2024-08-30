@@ -1,0 +1,22 @@
+"hash": |-
+  c0274598fab0872febe7dd453f8093170149d0081f6a2a7ab34201063ae0040d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When parallel forking occurs, there is no reliable way to correlate
+     early media authorization in a dialog with the media from the
+     corresponding endpoint unless one can assume the use of symmetric
+     RTP, since the SDP messages do not identify the RTP source address of
+     any media stream.  When a UAC or proxy receives multiple early
+     dialogs and cannot accurately identify the source of each media
+     stream, it SHOULD use the most restrictive early media authorization
+     it receives on any of the dialogs to decide the policy to apply
+     towards all received media.  When early media usage is desired for
+     any reason and one cannot assume the use of symmetric RTP, it is
+     advisable to disable parallel forking using callerprefs [9].
+"fixed": |-
+  When parallel forking occurs, there is no reliable way to correlate early media authorization in a dialog with the media from the corresponding endpoint unless one can assume the use of symmetric RTP, since the SDP messages do not identify the RTP source address of any media stream.  When a UAC or proxy receives multiple early dialogs and cannot accurately identify the source of each media stream, it SHOULD use the most restrictive early media authorization it receives on any of the dialogs to decide the policy to apply towards all received media.  When early media usage is desired for any reason and one cannot assume the use of symmetric RTP, it is advisable to disable parallel forking using callerprefs [9].
+"ko": |-
+  병렬 포킹이 발생하는 경우 SDP 메시지가 어떤 미디어 스트림의 RTP 소스 주소를 식별하지 않기 때문에 대칭 RTP 사용을 가정하지 않는 한 대화에서 조기 미디어 권한 부여를 해당 엔드포인트의 미디어와 연관시킬 수 있는 신뢰할 수 있는 방법이 없습니다. UAC 또는 프록시가 여러 조기 대화를 수신하고 각 미디어 스트림의 소스를 정확하게 식별할 수 없는 경우 모든 수신 미디어에 적용할 정책을 결정하기 위해 대화에서 수신한 가장 제한적인 조기 미디어 권한을 사용해야 합니다. 어떤 이유로든 조기 미디어 사용이 필요하고 대칭 RTP 사용을 가정할 수 없는 경우 callerprefs[9]를 사용하여 병렬 포킹을 비활성화하는 것이 좋습니다.

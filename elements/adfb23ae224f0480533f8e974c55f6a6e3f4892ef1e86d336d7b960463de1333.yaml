@@ -1,0 +1,18 @@
+"hash": |-
+  adfb23ae224f0480533f8e974c55f6a6e3f4892ef1e86d336d7b960463de1333
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The value is an enumerated-string; valid strings are YES and NO.
+        If the value is YES, clients SHOULD start playback at the Media
+        Segment containing the TIME-OFFSET, but SHOULD NOT render media
+        samples in that segment whose presentation times are prior to the
+        TIME-OFFSET.  If the value is NO, clients SHOULD attempt to render
+        every media sample in that segment.  This attribute is OPTIONAL.
+        If it is missing, its value should be treated as NO.
+"fixed": |-
+  - The value is an enumerated-string; valid strings are YES and NO. If the value is YES, clients SHOULD start playback at the Media Segment containing the TIME-OFFSET, but SHOULD NOT render media samples in that segment whose presentation times are prior to the TIME-OFFSET.  If the value is NO, clients SHOULD attempt to render every media sample in that segment.  This attribute is OPTIONAL. If it is missing, its value should be treated as NO.
+"ko": |-
+  - 값은 열거된 문자열입니다. 유효한 문자열은 YES와 NO입니다. 값이 YES이면 클라이언트는 TIME-OFFSET을 포함하는 미디어 세그먼트에서 재생을 시작해야 하지만, 프레젠테이션 시간이 TIME-OFFSET 이전인 해당 세그먼트에서 미디어 샘플을 렌더링해서는 안 됩니다. 값이 NO이면 클라이언트는 해당 세그먼트의 모든 미디어 샘플을 렌더링하려고 시도해야 합니다. 이 속성은 선택사항입니다. 누락된 경우 해당 값은 NO로 처리되어야 합니다.

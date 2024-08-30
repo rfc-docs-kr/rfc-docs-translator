@@ -1,0 +1,1 @@
+RECOGNIZE 메서드가 수신되면 스트림에서 인식이 시작됩니다. Start-Input-Timers 헤더 필드가 "true"로 지정된 경우 이때 No-Input-Timer가 시작되어야 합니다. 이 헤더 필드가 "false"로 설정된 경우 클라이언트에서 START-INPUT-TIMERS 메서드를 수신하면 No-Input-Timer가 시작되어야 합니다. 인식 리소스가 미디어 스트림에서 음성이나 DTMF 숫자를 감지하면 Recognition-Timeout이 시작되어야 합니다.

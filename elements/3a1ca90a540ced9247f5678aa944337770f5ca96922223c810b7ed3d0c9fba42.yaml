@@ -1,0 +1,16 @@
+"hash": |-
+  3a1ca90a540ced9247f5678aa944337770f5ca96922223c810b7ed3d0c9fba42
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  If neither the TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV nor the
+        "renegotiation_info" extension was included, set the
+        secure_renegotiation flag to FALSE.  In this case, some servers
+        may want to terminate the handshake instead of continuing; see
+        Section 4.3 for discussion.
+"fixed": |-
+  -  If neither the TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV nor the "renegotiation_info" extension was included, set the secure_renegotiation flag to FALSE.  In this case, some servers may want to terminate the handshake instead of continuing; see Section 4.3 for discussion.
+"ko": |-
+  - TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV와 "renegotiation_info" 확장이 모두 포함되지 않은 경우 secure_renegotiation 플래그를 FALSE로 설정합니다. 이 경우 일부 서버에서는 핸드셰이크를 계속하는 대신 종료하려고 할 수 있습니다. 논의는 섹션 4.3을 참조하십시오.

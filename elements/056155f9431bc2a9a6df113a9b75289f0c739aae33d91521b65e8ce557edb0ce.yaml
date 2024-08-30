@@ -1,0 +1,16 @@
+"hash": |-
+  056155f9431bc2a9a6df113a9b75289f0c739aae33d91521b65e8ce557edb0ce
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A peer SHOULD explicitly close a channel by sending a HANDSHAKE
+     message that MUST contain an all zeros Source Channel ID and a list
+     of protocol options.  The list MUST either be empty or contain the
+     maximum version number the sender supports, following the min/max
+     versioning scheme defined in [RFC6709], Section 4.1.
+"fixed": |-
+  A peer SHOULD explicitly close a channel by sending a HANDSHAKE message that MUST contain an all zeros Source Channel ID and a list of protocol options.  The list MUST either be empty or contain the maximum version number the sender supports, following the min/max versioning scheme defined in [RFC6709], Section 4.1.
+"ko": |-
+  피어는 모두 0인 소스 채널 ID와 프로토콜 옵션 목록을 포함해야 하는 HANDSHAKE 메시지를 전송하여 명시적으로 채널을 닫아야 합니다. 목록은 비어 있거나 [RFC6709], 섹션 4.1에 정의된 최소/최대 버전 관리 방식에 따라 발신자가 지원하는 최대 버전 번호를 포함해야 합니다.

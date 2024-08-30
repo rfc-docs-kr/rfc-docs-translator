@@ -1,0 +1,16 @@
+"hash": |-
+  92e8cd8b64b6ef386ba141ffbac41402b5c6d23975434598bfee0457f47b236c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case of the "id-pkix-ocsp-nonce" OCSP extension, [RFC2560] is
+     unclear about its encoding; for clarification, the nonce MUST be a
+     DER-encoded OCTET STRING, which is encapsulated as another OCTET
+     STRING (note that implementations based on an existing OCSP client
+     will need to be checked for conformance to this requirement).
+"fixed": |-
+  In the case of the "id-pkix-ocsp-nonce" OCSP extension, [RFC2560] is unclear about its encoding; for clarification, the nonce MUST be a DER-encoded OCTET STRING, which is encapsulated as another OCTET STRING (note that implementations based on an existing OCSP client will need to be checked for conformance to this requirement).
+"ko": |-
+  "id-pkix-ocsp-nonce" OCSP 확장의 경우 [RFC2560]은 해당 인코딩에 대해 명확하지 않습니다. 명확히 하기 위해 nonce는 다른 OCTET STRING으로 캡슐화되는 DER로 인코딩된 OCTET STRING이어야 합니다(기존 OCSP 클라이언트를 기반으로 한 구현은 이 요구 사항을 준수하는지 확인해야 함).

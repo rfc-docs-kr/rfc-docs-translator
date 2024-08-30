@@ -1,0 +1,23 @@
+"hash": |-
+  ac9f9cfbac0e052459cfa05a026a1e0fa6c881c0b07e6e4486e372be6d2974f8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The combined response content consists of the union of partial
+     content ranges within the new response and all of the matching stored
+     responses.  If the union consists of the entire range of the
+     representation, then the client MUST process the combined response as
+     if it were a complete 200 (OK) response, including a Content-Length
+     header field that reflects the complete length.  Otherwise, the
+     client MUST process the set of continuous ranges as one of the
+     following: an incomplete 200 (OK) response if the combined response
+     is a prefix of the representation, a single 206 (Partial Content)
+     response containing "multipart/byteranges" content, or multiple 206
+     (Partial Content) responses, each with one continuous range that is
+     indicated by a Content-Range header field.
+"fixed": |-
+  The combined response content consists of the union of partial content ranges within the new response and all of the matching stored responses.  If the union consists of the entire range of the representation, then the client MUST process the combined response as if it were a complete 200 (OK) response, including a Content-Length header field that reflects the complete length.  Otherwise, the client MUST process the set of continuous ranges as one of the following: an incomplete 200 (OK) response if the combined response is a prefix of the representation, a single 206 (Partial Content) response containing "multipart/byteranges" content, or multiple 206 (Partial Content) responses, each with one continuous range that is indicated by a Content-Range header field.
+"ko": |-
+  결합된 응답 콘텐츠는 새 응답 내의 부분 콘텐츠 범위와 일치하는 모든 저장된 응답의 합집합으로 구성됩니다. 통합이 표현의 전체 범위로 구성된 경우 클라이언트는 전체 길이를 반영하는 Content-Length 헤더 필드를 포함하여 완전한 200(OK) 응답인 것처럼 결합된 응답을 처리해야 합니다. 그렇지 않은 경우 클라이언트는 연속 범위 집합을 다음 중 하나로 처리해야 합니다. 결합된 응답이 표현의 접두사인 경우 불완전한 200(OK) 응답, "multipart/byteranges" 콘텐츠를 포함하는 단일 206(부분 콘텐츠) 응답 또는 여러 206(부분 콘텐츠) 응답으로, 각각은 Content-Range 헤더 필드로 표시되는 하나의 연속 범위를 갖습니다.

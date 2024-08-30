@@ -1,0 +1,17 @@
+"hash": |-
+  5511d71a65079b7179165b438736eadf195ef45e7a1255f3b6e32292c08700c6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Maximum Streams:  A variable-length integer indicating the maximum
+        number of streams allowed at the time the frame was sent.  This
+        value cannot exceed 2^60, as it is not possible to encode stream
+        IDs larger than 2^62-1.  Receipt of a frame that encodes a larger
+        stream ID MUST be treated as a connection error of type
+        STREAM_LIMIT_ERROR or FRAME_ENCODING_ERROR.
+"fixed": |-
+  Maximum Streams:  A variable-length integer indicating the maximum number of streams allowed at the time the frame was sent.  This value cannot exceed 2^60, as it is not possible to encode stream IDs larger than 2^62-1.  Receipt of a frame that encodes a larger stream ID MUST be treated as a connection error of type STREAM_LIMIT_ERROR or FRAME_ENCODING_ERROR.
+"ko": |-
+  최대 스트림: 프레임이 전송될 때 허용되는 최대 스트림 수를 나타내는 가변 길이 정수입니다. 2^62-1보다 큰 스트림 ID를 인코딩할 수 없으므로 이 값은 2^60을 초과할 수 없습니다. 더 큰 스트림 ID를 인코딩하는 프레임의 수신은 STREAM_LIMIT_ERROR 또는 FRAME_ENCODING_ERROR 유형의 연결 오류로 처리되어야 합니다.

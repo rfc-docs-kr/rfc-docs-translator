@@ -1,0 +1,23 @@
+"hash": |-
+  960f19e8fba30a73b22caa6f717909cb5c1d317801020ebea4116eb6daa72768
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the "agreed parameters" contain the "client_no_context_takeover"
+     extension parameter, the server MAY decompress each new message with
+     an empty LZ77 sliding window.  Otherwise, the server MUST decompress
+     each new message using the LZ77 sliding window used to process the
+     last compressed message.  Note that even if the client has included
+     the "client_no_context_takeover" extension parameter in its offer,
+     the server MUST decompress each new message using the LZ77 sliding
+     window used to process the last compressed message if the "agreed
+     parameters" don't contain the "client_no_context_takeover" extension
+     parameter.  The client-to-server "client_no_context_takeover"
+     extension parameter is just a hint for the server to build an
+     extension negotiation response.
+"fixed": |-
+  If the "agreed parameters" contain the "client_no_context_takeover" extension parameter, the server MAY decompress each new message with an empty LZ77 sliding window.  Otherwise, the server MUST decompress each new message using the LZ77 sliding window used to process the last compressed message.  Note that even if the client has included the "client_no_context_takeover" extension parameter in its offer, the server MUST decompress each new message using the LZ77 sliding window used to process the last compressed message if the "agreed parameters" don't contain the "client_no_context_takeover" extension parameter.  The client-to-server "client_no_context_takeover" extension parameter is just a hint for the server to build an extension negotiation response.
+"ko": |-
+  "합의된 매개변수"에 "client_no_context_takeover" 확장 매개변수가 포함된 경우 서버는 빈 LZ77 슬라이딩 창을 사용하여 각각의 새 메시지의 압축을 풀 수 있습니다.  그렇지 않으면 서버는 마지막 압축 메시지를 처리하는 데 사용되는 LZ77 슬라이딩 창을 사용하여 각각의 새 메시지의 압축을 풀어야 합니다.  클라이언트가 제안에 "client_no_context_takeover" 확장 매개변수를 포함했더라도 서버는 "합의된 매개변수"에 "client_no_context_takeover"가 포함되지 않은 경우 마지막 압축 메시지를 처리하는 데 사용되는 LZ77 슬라이딩 창을 사용하여 각각의 새 메시지의 압축을 풀어야 합니다. " 확장 매개변수입니다.  클라이언트-서버 "client_no_context_takeover" 확장 매개변수는 서버가 확장 협상 응답을 작성하기 위한 힌트일 뿐입니다.

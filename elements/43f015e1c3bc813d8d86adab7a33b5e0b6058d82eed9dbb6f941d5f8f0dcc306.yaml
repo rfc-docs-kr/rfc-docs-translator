@@ -1,0 +1,17 @@
+"hash": |-
+  43f015e1c3bc813d8d86adab7a33b5e0b6058d82eed9dbb6f941d5f8f0dcc306
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  TLS clients MUST NOT send the SSL version 2.0 compatible CLIENT-
+        HELLO message format.  Clients MUST NOT send any ClientHello
+        message that specifies a protocol version less than
+        { 0x03, 0x00 }.  As previously stated by the definitions of all
+        previous versions of TLS, the client SHOULD specify the highest
+        protocol version it supports.
+"fixed": |-
+  -  TLS clients MUST NOT send the SSL version 2.0 compatible CLIENT- HELLO message format.  Clients MUST NOT send any ClientHello message that specifies a protocol version less than { 0x03, 0x00 }.  As previously stated by the definitions of all previous versions of TLS, the client SHOULD specify the highest protocol version it supports.
+"ko": |-
+  - TLS 클라이언트는 SSL 버전 2.0 호환 CLIENT-HELLO 메시지 형식을 보내서는 안 됩니다. 클라이언트는 { 0x03, 0x00 } 미만의 프로토콜 버전을 지정하는 ClientHello 메시지를 전송해서는 안 됩니다. 모든 이전 버전의 TLS 정의에서 앞서 설명한 것처럼 클라이언트는 지원하는 가장 높은 프로토콜 버전을 지정해야 합니다.

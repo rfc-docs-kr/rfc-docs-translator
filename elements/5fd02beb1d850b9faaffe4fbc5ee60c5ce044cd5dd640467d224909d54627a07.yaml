@@ -1,0 +1,17 @@
+"hash": |-
+  5fd02beb1d850b9faaffe4fbc5ee60c5ce044cd5dd640467d224909d54627a07
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The INTEGRITY message carries information required by the receiver to
+     verify the integrity of a chunk.  Its payload depends on the content
+     integrity protection scheme used.  When the Merkle Hash Tree scheme
+     is used, an INTEGRITY message MUST contain a cryptographic hash of a
+     subtree of the Merkle hash tree and the chunk specification that
+     identifies the subtree.
+"fixed": |-
+  The INTEGRITY message carries information required by the receiver to verify the integrity of a chunk.  Its payload depends on the content integrity protection scheme used.  When the Merkle Hash Tree scheme is used, an INTEGRITY message MUST contain a cryptographic hash of a subtree of the Merkle hash tree and the chunk specification that identifies the subtree.
+"ko": |-
+  INTEGRITY 메시지는 수신자가 청크의 무결성을 확인하는 데 필요한 정보를 전달합니다. 페이로드는 사용되는 콘텐츠 무결성 보호 체계에 따라 다릅니다. Merkle Hash Tree 체계가 사용되는 경우 INTEGRITY 메시지에는 Merkle 해시 트리의 하위 트리에 대한 암호화 해시와 하위 트리를 식별하는 청크 사양이 포함되어야 합니다.

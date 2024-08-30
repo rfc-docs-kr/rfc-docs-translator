@@ -1,0 +1,20 @@
+"hash": |-
+  ef008e3afb37fcf0271e4fcbb79eb0e62929233f2b09a7287e13f3724bc77835
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client is not permitted to modify the mailbox but is permitted
+     read access, the mailbox is selected as read-only, and the server
+     MUST prefix the text of the tagged OK response to SELECT with the
+     "[READ-ONLY]" response code.  Read-only access through SELECT differs
+     from the EXAMINE command in that certain read-only mailboxes MAY
+     permit the change of permanent state on a per-user (as opposed to
+     global) basis.  Netnews messages marked in a server-based .newsrc
+     file are an example of such per-user permanent state that can be
+     modified with read-only mailboxes.
+"fixed": |-
+  If the client is not permitted to modify the mailbox but is permitted read access, the mailbox is selected as read-only, and the server MUST prefix the text of the tagged OK response to SELECT with the "[READ-ONLY]" response code.  Read-only access through SELECT differs from the EXAMINE command in that certain read-only mailboxes MAY permit the change of permanent state on a per-user (as opposed to global) basis.  Netnews messages marked in a server-based .newsrc file are an example of such per-user permanent state that can be modified with read-only mailboxes.
+"ko": |-
+  클라이언트가 메일함을 수정하는 것은 허용되지 않지만 읽기 액세스는 허용된 경우 메일함은 읽기 전용으로 선택되고 서버는 태그가 지정된 OK 응답의 텍스트 앞에 "[READ-ONLY]" 응답 코드를 SELECT 앞에 붙여야 합니다. .  SELECT를 통한 읽기 전용 액세스는 특정 읽기 전용 사서함이 사용자별(전역이 아닌) 영구 상태 변경을 허용할 수 있다는 점에서 EXAMINE 명령과 다릅니다.  서버 기반 .newsrc 파일에 표시된 Netnews 메시지는 읽기 전용 메일함으로 수정될 수 있는 사용자별 영구 상태의 예입니다.

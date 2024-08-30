@@ -1,0 +1,19 @@
+"hash": |-
+  9ea67c7a37c6bd0891515922cade37100eec1cfe5fc8b2252892c55548ff8409
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS version 1.0 and SSL 3.0 are very similar; thus, supporting both
+     is easy. TLS clients who wish to negotiate with SSL 3.0 servers
+     should send client hello messages using the SSL 3.0 record format and
+     client hello structure, sending {3, 1} for the version field to note
+     that they support TLS 1.0. If the server supports only SSL 3.0, it
+     will respond with an SSL 3.0 server hello; if it supports TLS, with a
+     TLS server hello. The negotiation then proceeds as appropriate for
+     the negotiated protocol.
+"fixed": |-
+  TLS version 1.0 and SSL 3.0 are very similar; thus, supporting both is easy. TLS clients who wish to negotiate with SSL 3.0 servers should send client hello messages using the SSL 3.0 record format and client hello structure, sending {3, 1} for the version field to note that they support TLS 1.0. If the server supports only SSL 3.0, it will respond with an SSL 3.0 server hello; if it supports TLS, with a TLS server hello. The negotiation then proceeds as appropriate for the negotiated protocol.
+"ko": |-
+  TLS 버전 1.0과 SSL 3.0은 매우 유사합니다. 따라서 둘 다 지원하는 것은 쉽습니다. SSL 3.0 서버와 협상하려는 TLS 클라이언트는 SSL 3.0 레코드 형식과 클라이언트 Hello 구조를 사용하여 클라이언트 Hello 메시지를 보내야 하며, TLS 1.0을 지원한다는 점을 알리기 위해 버전 필드에 대해 {3, 1}을 보내야 합니다. 서버가 SSL 3.0만 지원하는 경우 SSL 3.0 server hello로 응답합니다. TLS를 지원하는 경우 TLS 서버 안녕하세요. 그런 다음 협상은 협상된 프로토콜에 따라 적절하게 진행됩니다.

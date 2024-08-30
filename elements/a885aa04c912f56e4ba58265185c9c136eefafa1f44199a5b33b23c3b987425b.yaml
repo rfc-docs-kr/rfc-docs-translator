@@ -1,0 +1,18 @@
+"hash": |-
+  a885aa04c912f56e4ba58265185c9c136eefafa1f44199a5b33b23c3b987425b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        2. PE and CE routers may be RIP peers, and the CE may use RIP to
+           tell the PE router the set of address prefixes which are
+           reachable at the CE router's site.  When RIP is configured in
+           the CE, care must be taken to ensure that address prefixes from
+           other sites (i.e., address prefixes learned by the CE router
+           from the PE router) are never advertised to the PE.  More
+           precisely: if a PE router, say PE1, receives a VPN-IPv4 route
+"fixed": |-
+  1. PE and CE routers may be RIP peers, and the CE may use RIP to tell the PE router the set of address prefixes which are reachable at the CE router's site.  When RIP is configured in the CE, care must be taken to ensure that address prefixes from other sites (i.e., address prefixes learned by the CE router from the PE router) are never advertised to the PE.  More precisely: if a PE router, say PE1, receives a VPN-IPv4 route
+"ko": |-
+  1. PE 및 CE 라우터는 RIP 피어일 수 있으며, CE는 RIP를 사용하여 PE 라우터에 CE 라우터 사이트에서 도달할 수 있는 주소 접두사 세트를 알릴 수 있습니다. RIP가 CE에서 구성된 경우 다른 사이트의 주소 접두사(즉, CE 라우터가 PE 라우터에서 학습한 주소 접두사)가 PE에 광고되지 않도록 주의해야 합니다. 보다 정확하게 말해서 PE 라우터(예: PE1)가 VPN-IPv4 경로를 수신하는 경우

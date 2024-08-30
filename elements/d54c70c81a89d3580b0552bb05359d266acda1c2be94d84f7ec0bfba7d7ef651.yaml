@@ -1,0 +1,20 @@
+"hash": |-
+  d54c70c81a89d3580b0552bb05359d266acda1c2be94d84f7ec0bfba7d7ef651
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In many secure multicast architectures (e.g., [RFC3740]), a central
+     Group Controller/Key Server unilaterally assigns the group security
+     association's SPI.  This SPI assignment is not negotiated or
+     coordinated with the key management (e.g., IKE) subsystems that
+     reside in the individual end systems that comprise the group.
+     Consequently, it is possible that a group security association and a
+     unicast security association can simultaneously use the same SPI.  A
+     multicast-capable IPsec implementation MUST correctly de-multiplex
+     inbound traffic even in the context of SPI collisions.
+"fixed": |-
+  In many secure multicast architectures (e.g., [RFC3740]), a central Group Controller/Key Server unilaterally assigns the group security association's SPI.  This SPI assignment is not negotiated or coordinated with the key management (e.g., IKE) subsystems that reside in the individual end systems that comprise the group. Consequently, it is possible that a group security association and a unicast security association can simultaneously use the same SPI.  A multicast-capable IPsec implementation MUST correctly de-multiplex inbound traffic even in the context of SPI collisions.
+"ko": |-
+  많은 보안 멀티캐스트 아키텍처(예: [RFC3740])에서 중앙 그룹 컨트롤러/키 서버는 그룹 보안 연결의 SPI를 일방적으로 할당합니다.  이 SPI 할당은 그룹을 구성하는 개별 최종 시스템에 있는 키 관리(예: IKE) 하위 시스템과 협상되거나 조정되지 않습니다. 결과적으로 그룹 보안 연결과 유니캐스트 보안 연결이 동일한 SPI를 동시에 사용할 수 있습니다.  멀티캐스트 가능 IPsec 구현은 SPI 충돌 상황에서도 인바운드 트래픽을 올바르게 역다중화해야 합니다.

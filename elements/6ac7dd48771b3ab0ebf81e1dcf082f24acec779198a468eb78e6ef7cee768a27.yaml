@@ -1,0 +1,17 @@
+"hash": |-
+  6ac7dd48771b3ab0ebf81e1dcf082f24acec779198a468eb78e6ef7cee768a27
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although [URLAUTH] provides a URLFETCH command that can be used to
+     dereference a URL and return the body-part data, it does so by
+     returning the encoded form, without sufficient metadata to decode.
+     This is suitable for use in mail applications such as [BURL], where
+     the encoded form is suitable, but not where access to the actual
+     content is required, such as in [STREAMING].
+"fixed": |-
+  Although [URLAUTH] provides a URLFETCH command that can be used to dereference a URL and return the body-part data, it does so by returning the encoded form, without sufficient metadata to decode. This is suitable for use in mail applications such as [BURL], where the encoded form is suitable, but not where access to the actual content is required, such as in [STREAMING].
+"ko": |-
+  [URLAUTH]는 URL을 역참조하고 본문 부분 데이터를 반환하는 데 사용할 수 있는 URLFETCH 명령을 제공하지만 디코딩할 충분한 메타데이터 없이 인코딩된 형식을 반환하여 이를 수행합니다. 이는 인코딩된 형식이 적합하지만 [STREAMING]과 같이 실제 콘텐츠에 대한 액세스가 필요한 경우에는 적합하지 않은 [BURL]과 같은 메일 애플리케이션에 사용하기에 적합합니다.

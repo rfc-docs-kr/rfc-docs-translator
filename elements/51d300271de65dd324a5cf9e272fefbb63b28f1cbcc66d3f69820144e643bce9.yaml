@@ -1,0 +1,20 @@
+"hash": |-
+  51d300271de65dd324a5cf9e272fefbb63b28f1cbcc66d3f69820144e643bce9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Peer A now registers with the tracker following the peer-to-peer
+     streaming protocol tracker specification [PPSP-TP] and receives the
+     IP address and port of peers already in the swarm, say, Peers B, C,
+     and D.  At this point, the PPSPP starts operating.  Peer A now sends
+     a datagram containing a PPSPP HANDSHAKE message to Peers B, C, and D.
+     This message conveys protocol options.  In particular, Peer A
+     includes the ID of the swarm (part of the swarm metadata) as a
+     protocol option because the destination peers can listen for multiple
+     swarms on the same transport address.
+"fixed": |-
+  Peer A now registers with the tracker following the peer-to-peer streaming protocol tracker specification [PPSP-TP] and receives the IP address and port of peers already in the swarm, say, Peers B, C, and D.  At this point, the PPSPP starts operating.  Peer A now sends a datagram containing a PPSPP HANDSHAKE message to Peers B, C, and D. This message conveys protocol options.  In particular, Peer A includes the ID of the swarm (part of the swarm metadata) as a protocol option because the destination peers can listen for multiple swarms on the same transport address.
+"ko": |-
+  이제 피어 A는 P2P 스트리밍 프로토콜 추적기 사양[PPSP-TP]에 따라 추적기에 등록하고 이미 떼에 있는 피어(예: 피어 B, C, D)의 IP 주소와 포트를 수신합니다. , PPSPP가 작동을 시작합니다. 이제 피어 A는 PPSPP HANDSHAKE 메시지가 포함된 데이터그램을 피어 B, C 및 D에 보냅니다. 이 메시지는 프로토콜 옵션을 전달합니다. 특히, 피어 A는 대상 피어가 동일한 전송 주소에서 여러 떼를 수신할 수 있기 때문에 떼의 ID(군집 메타데이터의 일부)를 프로토콜 옵션으로 포함합니다.

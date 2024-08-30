@@ -1,0 +1,15 @@
+"hash": |-
+  0add24a53c152c5494e593a1639374a68480541ce6f8ce94cdaf9c91d94544e8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server MUST implement TLS negotiation on an Implicit TLS port.
+     The server SHOULD also implement IMAP on a cleartext port.  If the
+     server listens on a cleartext port, it MUST allow the STARTTLS
+     command on it.
+"fixed": |-
+  The server MUST implement TLS negotiation on an Implicit TLS port. The server SHOULD also implement IMAP on a cleartext port.  If the server listens on a cleartext port, it MUST allow the STARTTLS command on it.
+"ko": |-
+  서버는 암시적 TLS 포트에서 TLS 협상을 구현해야 합니다. 서버는 또한 일반 텍스트 포트에서 IMAP을 구현해야 합니다.  서버가 일반 텍스트 포트에서 수신 대기하는 경우 해당 포트에서 STARTTLS 명령을 허용해야 합니다.

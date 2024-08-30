@@ -1,0 +1,14 @@
+"hash": |-
+  b2719bdadb67ec73f4caeae24fa00fb4f798d4da80a1d0997fcce39640897437
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This timeout allows for multiple PTOs to expire prior to failing path
+     validation, so that loss of a single PATH_CHALLENGE or PATH_RESPONSE
+     frame does not cause path validation failure.
+"fixed": |-
+  This timeout allows for multiple PTOs to expire prior to failing path validation, so that loss of a single PATH_CHALLENGE or PATH_RESPONSE frame does not cause path validation failure.
+"ko": |-
+  이 시간 초과를 사용하면 경로 검증이 실패하기 전에 여러 PTO가 만료될 수 있으므로 단일 PATH_CHALLENGE 또는 PATH_RESPONSE 프레임이 손실되어도 경로 검증 실패가 발생하지 않습니다.

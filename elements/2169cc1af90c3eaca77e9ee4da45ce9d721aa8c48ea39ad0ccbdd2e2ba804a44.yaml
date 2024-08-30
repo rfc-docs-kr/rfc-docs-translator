@@ -1,0 +1,23 @@
+"hash": |-
+  2169cc1af90c3eaca77e9ee4da45ce9d721aa8c48ea39ad0ccbdd2e2ba804a44
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In practice, resource owners do not always properly configure their
+     origin server to provide the correct Content-Type for a given
+     representation.  Some user agents examine the content and, in certain
+     cases, override the received type (for example, see [Sniffing]).
+     This "MIME sniffing" risks drawing incorrect conclusions about the
+     data, which might expose the user to additional security risks (e.g.,
+     "privilege escalation").  Furthermore, distinct media types often
+     share a common data format, differing only in how the data is
+     intended to be processed, which is impossible to distinguish by
+     inspecting the data alone.  When sniffing is implemented,
+     implementers are encouraged to provide a means for the user to
+     disable it.
+"fixed": |-
+  In practice, resource owners do not always properly configure their origin server to provide the correct Content-Type for a given representation.  Some user agents examine the content and, in certain cases, override the received type (for example, see [Sniffing]). This "MIME sniffing" risks drawing incorrect conclusions about the data, which might expose the user to additional security risks (e.g., "privilege escalation").  Furthermore, distinct media types often share a common data format, differing only in how the data is intended to be processed, which is impossible to distinguish by inspecting the data alone.  When sniffing is implemented, implementers are encouraged to provide a means for the user to disable it.
+"ko": |-
+  실제로 리소스 소유자는 주어진 표현에 대해 올바른 Content-Type을 제공하기 위해 원본 서버를 항상 적절하게 구성하지 않습니다. 일부 사용자 에이전트는 콘텐츠를 검사하고 어떤 경우에는 수신된 유형을 재정의합니다(예: [스니핑] 참조). 이러한 "MIME 스니핑"은 데이터에 대해 잘못된 결론을 도출할 위험이 있으며, 이로 인해 사용자가 추가적인 보안 위험(예: "권한 상승")에 노출될 수 있습니다. 더욱이, 서로 다른 미디어 유형은 공통 데이터 형식을 공유하는 경우가 많으며, 데이터 처리 방법만 다르며, 이는 데이터만 검사하여 구별하는 것이 불가능합니다. 스니핑이 구현되면 구현자는 사용자가 이를 비활성화할 수 있는 수단을 제공하는 것이 좋습니다.

@@ -1,0 +1,25 @@
+"hash": |-
+  62693ededf6c7b3adf870254772e5a929494ebe88b421546ea77dd9d100935f9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+            If a set of sites constitute a transit VPN, it is convenient
+            to represent them as a BGP Confederation, so that the internal
+            structure of the VPN is hidden from any router which is not
+            within the VPN.  In this case, each site in the VPN would need
+            two BGP connections to the backbone, one which is internal to
+            the confederation and one which is external to it.  The usual
+            intra-confederation procedures would have to be slightly
+            modified in order to take account for the fact that the
+            backbone and the sites may have different policies.  The
+            backbone is a member of the confederation on one of the
+            connections, but is not a member on the other.  These
+            techniques may be useful if the customer for the VPN service
+            is an ISP.  This technique allows a customer that is an ISP to
+            obtain VPN backbone service from one of its ISP peers.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

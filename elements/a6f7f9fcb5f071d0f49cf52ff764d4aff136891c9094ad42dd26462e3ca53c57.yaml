@@ -1,0 +1,18 @@
+"hash": |-
+  a6f7f9fcb5f071d0f49cf52ff764d4aff136891c9094ad42dd26462e3ca53c57
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an Initial packet is sent by a client that has not previously
+     received an Initial or Retry packet from the server, the client
+     populates the Destination Connection ID field with an unpredictable
+     value.  This Destination Connection ID MUST be at least 8 bytes in
+     length.  Until a packet is received from the server, the client MUST
+     use the same Destination Connection ID value on all packets in this
+     connection.
+"fixed": |-
+  When an Initial packet is sent by a client that has not previously received an Initial or Retry packet from the server, the client populates the Destination Connection ID field with an unpredictable value.  This Destination Connection ID MUST be at least 8 bytes in length.  Until a packet is received from the server, the client MUST use the same Destination Connection ID value on all packets in this connection.
+"ko": |-
+  이전에 서버로부터 초기 또는 재시도 패킷을 받지 않은 클라이언트가 초기 패킷을 보내는 경우 클라이언트는 대상 연결 ID 필드를 예측할 수 없는 값으로 채웁니다. 이 대상 연결 ID의 길이는 최소 8바이트여야 합니다. 서버로부터 패킷이 수신될 때까지 클라이언트는 이 연결의 모든 패킷에 대해 동일한 대상 연결 ID 값을 사용해야 합니다.

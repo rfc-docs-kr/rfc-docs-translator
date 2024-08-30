@@ -1,0 +1,18 @@
+"hash": |-
+  32882838b6c5f6c31180d394b473292f8835e0520f01de17ccdb19d55b6c34a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     QUIC sometimes requires datagrams to be no smaller than a certain
+     size; see Section 8.1 as an example.  However, the size of a datagram
+     is not authenticated.  That is, if an endpoint receives a datagram of
+     a certain size, it cannot know that the sender sent the datagram at
+     the same size.  Therefore, an endpoint MUST NOT close a connection
+     when it receives a datagram that does not meet size constraints; the
+     endpoint MAY discard such datagrams.
+"fixed": |-
+  QUIC sometimes requires datagrams to be no smaller than a certain size; see Section 8.1 as an example.  However, the size of a datagram is not authenticated.  That is, if an endpoint receives a datagram of a certain size, it cannot know that the sender sent the datagram at the same size.  Therefore, an endpoint MUST NOT close a connection when it receives a datagram that does not meet size constraints; the endpoint MAY discard such datagrams.
+"ko": |-
+  QUIC에서는 때때로 데이터그램이 특정 크기보다 작지 않아야 합니다. 예제로 섹션 8.1을 참조하세요. 그러나 데이터그램의 크기는 인증되지 않습니다. 즉, 엔드포인트가 특정 크기의 데이터그램을 수신하는 경우 보낸 사람이 동일한 크기의 데이터그램을 보냈다는 것을 알 수 없습니다. 그러므로 엔드포인트는 크기 제약 조건을 충족하지 않는 데이터그램을 수신할 때 연결을 닫아서는 안 됩니다. 엔드포인트는 그러한 데이터그램을 삭제할 수 있습니다.

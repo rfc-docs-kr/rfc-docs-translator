@@ -1,0 +1,22 @@
+"hash": |-
+  1974fe0438c760ca30c848298313f791eb0a763c73556cd1cf0b358ee7d3ee89
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each endpoint unilaterally decides if the spin bit is enabled or
+     disabled for a connection.  Implementations MUST allow administrators
+     of clients and servers to disable the spin bit either globally or on
+     a per-connection basis.  Even when the spin bit is not disabled by
+     the administrator, endpoints MUST disable their use of the spin bit
+     for a random selection of at least one in every 16 network paths, or
+     for one in every 16 connection IDs, in order to ensure that QUIC
+     connections that disable the spin bit are commonly observed on the
+     network.  As each endpoint disables the spin bit independently, this
+     ensures that the spin bit signal is disabled on approximately one in
+     eight network paths.
+"fixed": |-
+  Each endpoint unilaterally decides if the spin bit is enabled or disabled for a connection.  Implementations MUST allow administrators of clients and servers to disable the spin bit either globally or on a per-connection basis.  Even when the spin bit is not disabled by the administrator, endpoints MUST disable their use of the spin bit for a random selection of at least one in every 16 network paths, or for one in every 16 connection IDs, in order to ensure that QUIC connections that disable the spin bit are commonly observed on the network.  As each endpoint disables the spin bit independently, this ensures that the spin bit signal is disabled on approximately one in eight network paths.
+"ko": |-
+  각 끝점은 연결에 대해 스핀 비트를 활성화할지 비활성화할지 일방적으로 결정합니다. 구현에서는 클라이언트 및 서버 관리자가 전체적으로 또는 연결별로 스핀 비트를 비활성화할 수 있도록 허용해야 합니다(MUST). 관리자가 스핀 비트를 비활성화하지 않은 경우에도 엔드포인트는 QUIC를 보장하기 위해 16개의 네트워크 경로 중 적어도 하나 또는 16개의 연결 ID 중 하나를 무작위로 선택하기 위해 스핀 비트 사용을 비활성화해야 합니다. 스핀 비트를 비활성화하는 연결은 일반적으로 네트워크에서 관찰됩니다. 각 엔드포인트가 독립적으로 스핀 비트를 비활성화하므로 네트워크 경로 8개 중 약 1개에서 스핀 비트 신호가 비활성화됩니다.

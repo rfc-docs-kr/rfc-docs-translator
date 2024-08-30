@@ -1,0 +1,19 @@
+"hash": |-
+  817fb29fb869c11fef1aafa863d5bc8a069f514a4ef3a9786d3ea95bac2c3c74
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A BGP implementation MUST connect to and listen on TCP port 179 for
+     incoming connections in addition to trying to connect to peers.  For
+     each incoming connection, a state machine MUST be instantiated.
+     There exists a period in which the identity of the peer on the other
+     end of an incoming connection is known, but the BGP identifier is not
+     known.  During this time, both an incoming and outgoing connection
+     may exist for the same configured peering.  This is referred to as a
+     connection collision (see Section 6.8).
+"fixed": |-
+  A BGP implementation MUST connect to and listen on TCP port 179 for incoming connections in addition to trying to connect to peers.  For each incoming connection, a state machine MUST be instantiated. There exists a period in which the identity of the peer on the other end of an incoming connection is known, but the BGP identifier is not known.  During this time, both an incoming and outgoing connection may exist for the same configured peering.  This is referred to as a connection collision (see Section 6.8).
+"ko": |-
+  BGP 구현은 피어에 연결을 시도하는 것 외에도 TCP 포트 179에 연결하고 수신 연결을 수신해야 합니다. 들어오는 각 연결에 대해 상태 머신을 인스턴스화해야 합니다. 들어오는 연결의 다른 쪽 끝에 있는 피어의 ID는 알려져 있지만 BGP 식별자는 알려지지 않는 기간이 있습니다. 이 시간 동안 동일한 구성된 피어링에 대해 들어오고 나가는 연결이 모두 존재할 수 있습니다. 이를 연결 충돌이라고 합니다(6.8절 참조).

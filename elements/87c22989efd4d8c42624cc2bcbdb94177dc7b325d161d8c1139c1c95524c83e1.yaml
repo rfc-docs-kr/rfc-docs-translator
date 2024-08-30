@@ -1,0 +1,21 @@
+"hash": |-
+  87c22989efd4d8c42624cc2bcbdb94177dc7b325d161d8c1139c1c95524c83e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The request-state field indicates if the action initiated by the
+     Request is PENDING, IN-PROGRESS, or COMPLETE.  The COMPLETE status
+     means that the request was processed to completion and that there
+     will be no more events or other messages from that resource to the
+     client with that request-id.  The PENDING status means that the
+     request has been placed in a queue and will be processed in first-in-
+     first-out order.  The IN-PROGRESS status means that the request is
+     being processed and is not yet complete.  A PENDING or IN-PROGRESS
+     status indicates that further Event messages may be delivered with
+     that request-id.
+"fixed": |-
+  The request-state field indicates if the action initiated by the Request is PENDING, IN-PROGRESS, or COMPLETE.  The COMPLETE status means that the request was processed to completion and that there will be no more events or other messages from that resource to the client with that request-id.  The PENDING status means that the request has been placed in a queue and will be processed in first-in- first-out order.  The IN-PROGRESS status means that the request is being processed and is not yet complete.  A PENDING or IN-PROGRESS status indicates that further Event messages may be delivered with that request-id.
+"ko": |-
+  요청 상태 필드는 요청에서 시작된 작업이 PENDING, IN-PROGRESS 또는 COMPLETE인지 여부를 나타냅니다. COMPLETE 상태는 요청이 완료될 때까지 처리되었으며 해당 리소스에서 해당 요청 ID를 가진 클라이언트로 더 이상 이벤트나 다른 메시지가 전송되지 않음을 의미합니다. PENDING 상태는 요청이 대기열에 배치되었으며 선입선출 순서로 처리됨을 의미합니다. IN-PROGRESS 상태는 요청이 처리 중이며 아직 완료되지 않았음을 의미합니다. PENDING 또는 IN-PROGRESS 상태는 해당 요청 ID를 가진 추가 이벤트 메시지가 전달될 수 있음을 나타냅니다.

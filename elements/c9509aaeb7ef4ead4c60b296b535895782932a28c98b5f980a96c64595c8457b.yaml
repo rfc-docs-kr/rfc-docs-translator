@@ -1,0 +1,18 @@
+"hash": |-
+  c9509aaeb7ef4ead4c60b296b535895782932a28c98b5f980a96c64595c8457b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The hash function used to compute the session hash depends on the TLS
+     protocol version.  All current ciphersuites defined for TLS 1.2 use
+     SHA256 or better, and so does the session hash.  For earlier versions
+     of the protocol, only MD5 and SHA1 can be assumed to be supported,
+     and this document does not require legacy implementations to add
+     support for new hash functions.  In these versions, the session hash
+     uses the concatenation of MD5 and SHA1, as in the Finished message.
+"fixed": |-
+  The hash function used to compute the session hash depends on the TLS protocol version.  All current ciphersuites defined for TLS 1.2 use SHA256 or better, and so does the session hash.  For earlier versions of the protocol, only MD5 and SHA1 can be assumed to be supported, and this document does not require legacy implementations to add support for new hash functions.  In these versions, the session hash uses the concatenation of MD5 and SHA1, as in the Finished message.
+"ko": |-
+  세션 해시를 계산하는 데 사용되는 해시 함수는 TLS 프로토콜 버전에 따라 달라집니다. TLS 1.2에 대해 정의된 모든 현재 암호 그룹은 SHA256 이상을 사용하고 세션 해시도 마찬가지입니다. 이전 버전의 프로토콜에서는 MD5와 SHA1만 지원되는 것으로 가정할 수 있으며, 이 문서에서는 레거시 구현에서 새 해시 함수에 대한 지원을 추가할 필요가 없습니다. 이러한 버전에서 세션 해시는 Finished 메시지에서처럼 MD5와 SHA1의 연결을 사용합니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  5ae6f3e333896e40436d0275938ddc116ce3705e741b94545cc358f85fa0bf4b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              The exact steps for reconstructing the original datagram
+              depend on the mode (transport or tunnel) and are described
+              in the Security Architecture document.  At a minimum, in an
+              IPv6 context, the receiver SHOULD ensure that the decrypted
+              data is 8-byte aligned, to facilitate processing by the
+              protocol identified in the Next Header field.  This
+              processing "discards" any (optional) TFC padding that has
+              been added for traffic flow confidentiality.  (If present,
+              this will have been inserted after the IP datagram (or
+              transport-layer frame) and before the Padding field (see
+              Section 2.4).)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

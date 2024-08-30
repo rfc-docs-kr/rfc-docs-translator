@@ -1,0 +1,19 @@
+"hash": |-
+  a5f1fd3f2b716a9ee580d54c8a901859b5526442c630daf8e024681910c772a7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For large data transfers, small record sizes can materially affect
+     performance.  Every record incurs additional costs, both in the
+     additional octets for record headers and for expansion due to
+     encryption.  Processing more records also adds computational
+     overheads that can be amortized more effectively for larger record
+     sizes.  Consequently, clients that are capable of receiving large
+     records could be unwilling to risk reducing performance by offering
+     the extension, especially if the extension is rarely needed.
+"fixed": |-
+  For large data transfers, small record sizes can materially affect performance.  Every record incurs additional costs, both in the additional octets for record headers and for expansion due to encryption.  Processing more records also adds computational overheads that can be amortized more effectively for larger record sizes.  Consequently, clients that are capable of receiving large records could be unwilling to risk reducing performance by offering the extension, especially if the extension is rarely needed.
+"ko": |-
+  대규모 데이터 전송의 경우 작은 레코드 크기가 성능에 실질적인 영향을 미칠 수 있습니다.  모든 레코드에는 레코드 헤더에 대한 추가 옥텟과 암호화로 인한 확장에 대한 추가 비용이 발생합니다.  더 많은 레코드를 처리하면 더 큰 레코드 크기에 대해 더 효과적으로 상각할 수 있는 계산 오버헤드도 추가됩니다.  결과적으로 대용량 레코드를 수신할 수 있는 클라이언트는 특히 확장이 거의 필요하지 않은 경우 확장을 제공하여 성능을 저하시키는 위험을 감수하지 않을 수 있습니다.

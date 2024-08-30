@@ -1,0 +1,19 @@
+"hash": |-
+  fa5cb0fabb290a3ae4d57181cf7b3b741a9e7cbcca5feec80d52f22f2f2fceef
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         This first datagram MUST be prefixed with the (destination)
+         channel ID 0; see Section 3.11.  Hence, the datagram contains two
+         channel IDs: the destination channel ID prefixed to the datagram
+         and the channel ID chanP included in the HANDSHAKE message inside
+         the datagram.  This datagram MAY also contain some minor
+         additional payload, e.g., HAVE messages to indicate Peer P's
+         current progress, but it MUST NOT include any heavy payload
+         (defined in Section 1.3), such as a DATA message.  Allowing minor
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,14 @@
+"hash": |-
+  e12c7289260e923d6c1d0f8fa7161ff6705964a3c969951db935c40a21185594
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a received HeartbeatResponse message does not contain the expected
+     payload, the message MUST be discarded silently.  If it does contain
+     the expected payload, the retransmission timer MUST be stopped.
+"fixed": |-
+  If a received HeartbeatResponse message does not contain the expected payload, the message MUST be discarded silently.  If it does contain the expected payload, the retransmission timer MUST be stopped.
+"ko": |-
+  수신된 HeartbeatResponse 메시지에 예상되는 페이로드가 포함되어 있지 않으면 메시지를 자동으로 삭제해야 합니다.  예상되는 페이로드가 포함되어 있으면 재전송 타이머를 중지해야 합니다.

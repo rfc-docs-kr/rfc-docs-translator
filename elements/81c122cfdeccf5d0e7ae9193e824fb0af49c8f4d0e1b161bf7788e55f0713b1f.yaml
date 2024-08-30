@@ -1,0 +1,17 @@
+"hash": |-
+  81c122cfdeccf5d0e7ae9193e824fb0af49c8f4d0e1b161bf7788e55f0713b1f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the mailbox name is suffixed with the server's hierarchy separator
+     character (as returned from the server by a LIST command), this is a
+     declaration that the client intends to create mailbox names under
+     this name in the hierarchy.  Server implementations that do not
+     require this declaration MUST ignore the declaration.  In any case,
+     the name created is without the trailing hierarchy delimiter.
+"fixed": |-
+  If the mailbox name is suffixed with the server's hierarchy separator character (as returned from the server by a LIST command), this is a declaration that the client intends to create mailbox names under this name in the hierarchy.  Server implementations that do not require this declaration MUST ignore the declaration.  In any case, the name created is without the trailing hierarchy delimiter.
+"ko": |-
+  사서함 이름에 서버의 계층 구분 문자(LIST 명령에 의해 서버에서 반환됨)가 접미사로 붙은 경우 이는 클라이언트가 계층에서 이 이름 아래에 사서함 이름을 만들려는 선언입니다.  이 선언이 필요하지 않은 서버 구현은 선언을 무시해야 합니다(MUST).  어떤 경우든 생성된 이름에는 후행 계층 구분 기호가 없습니다.

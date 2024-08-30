@@ -1,0 +1,15 @@
+"hash": |-
+  6ca016bbc18adba0c4aa38720e0737580faa3d55cc605c0fbefa40928f132b40
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Since it is possible for a client to present a different server_name
+     in the application protocol, application server implementations that
+     rely upon these names being the same MUST check to make sure the
+     client did not present a different name in the application protocol.
+"fixed": |-
+  Since it is possible for a client to present a different server_name in the application protocol, application server implementations that rely upon these names being the same MUST check to make sure the client did not present a different name in the application protocol.
+"ko": |-
+  클라이언트가 애플리케이션 프로토콜에 다른 server_name을 제공할 수 있으므로 이러한 이름이 동일해야 하는 애플리케이션 서버 구현은 클라이언트가 애플리케이션 프로토콜에 다른 이름을 제공하지 않았는지 확인해야 합니다.

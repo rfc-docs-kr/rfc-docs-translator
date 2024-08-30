@@ -1,0 +1,18 @@
+"hash": |-
+  01acfdefe4889f8536206727021bc19ad0eb953b49a33d0c5bc019199e655a5c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver limits the number of ACK Ranges (Section 19.3.1) it
+     remembers and sends in ACK frames, both to limit the size of ACK
+     frames and to avoid resource exhaustion.  After receiving
+     acknowledgments for an ACK frame, the receiver SHOULD stop tracking
+     those acknowledged ACK Ranges.  Senders can expect acknowledgments
+     for most packets, but QUIC does not guarantee receipt of an
+     acknowledgment for every packet that the receiver processes.
+"fixed": |-
+  A receiver limits the number of ACK Ranges (Section 19.3.1) it remembers and sends in ACK frames, both to limit the size of ACK frames and to avoid resource exhaustion.  After receiving acknowledgments for an ACK frame, the receiver SHOULD stop tracking those acknowledged ACK Ranges.  Senders can expect acknowledgments for most packets, but QUIC does not guarantee receipt of an acknowledgment for every packet that the receiver processes.
+"ko": |-
+  수신기는 ACK 프레임의 크기를 제한하고 리소스 소진을 방지하기 위해 ACK 프레임을 기억하고 전송하는 ACK 범위(19.3.1절)의 수를 제한합니다. ACK 프레임에 대한 승인을 받은 후 수신기는 승인된 ACK 범위 추적을 중지해야 합니다. 발신자는 대부분의 패킷에 대한 승인을 기대할 수 있지만 QUIC는 수신자가 처리하는 모든 패킷에 대한 승인 수신을 보장하지 않습니다.

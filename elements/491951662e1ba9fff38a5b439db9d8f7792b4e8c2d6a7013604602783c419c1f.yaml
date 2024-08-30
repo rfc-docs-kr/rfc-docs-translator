@@ -1,0 +1,25 @@
+"hash": |-
+  491951662e1ba9fff38a5b439db9d8f7792b4e8c2d6a7013604602783c419c1f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "finishings" attribute is an example of a Job Template attribute.
+     It can take on a set of values such as '4' ('staple'), '5' ('punch'),
+     and/or '6' ('cover'); see Table 10 in Section 5.2.6.  A Client can
+     query the Printer for the "finishings-supported" attribute and the
+     "finishings-default" attribute.  The supported attribute contains a
+     set of supported values.  The default value attribute contains the
+     finishing value(s) that will be used for a new Job if the Client does
+     not supply a "finishings" attribute in the Job Creation request and
+     the Document data does not contain any corresponding finishing
+     instructions.  If the Client does supply the "finishings" attribute
+     in the Job Creation request, the Printer validates the value or
+     values to make sure that they are a subset of the supported values
+     identified in the Printer's "finishings-supported" attribute.  See
+     Section 4.1.7.
+"fixed": |-
+  The "finishings" attribute is an example of a Job Template attribute. It can take on a set of values such as '4' ('staple'), '5' ('punch'), and/or '6' ('cover'); see Table 10 in Section 5.2.6.  A Client can query the Printer for the "finishings-supported" attribute and the "finishings-default" attribute.  The supported attribute contains a set of supported values.  The default value attribute contains the finishing value(s) that will be used for a new Job if the Client does not supply a "finishings" attribute in the Job Creation request and the Document data does not contain any corresponding finishing instructions.  If the Client does supply the "finishings" attribute in the Job Creation request, the Printer validates the value or values to make sure that they are a subset of the supported values identified in the Printer's "finishings-supported" attribute.  See Section 4.1.7.
+"ko": |-
+  "finishings" 속성은 작업 템플릿 속성의 예입니다. '4'('스테이플'), '5'('펀치') 및/또는 '6'('커버')과 같은 값 세트를 사용할 수 있습니다. 섹션 5.2.6의 표 10을 참조하십시오. 클라이언트는 프린터에 "finishings-supported" 속성과 "finishings-default" 속성을 쿼리할 수 있습니다. 지원되는 속성에는 지원되는 값 세트가 포함되어 있습니다. 기본값 속성에는 클라이언트가 작업 생성 요청에 "finishings" 속성을 제공하지 않고 문서 데이터에 해당 마무리 지침이 포함되어 있지 않은 경우 새 작업에 사용될 마무리 값이 포함됩니다. 클라이언트가 작업 생성 요청에 "finishings" 속성을 제공하는 경우 프린터는 해당 값이 프린터의 "finishings-supported" 속성에서 식별된 지원 값의 하위 집합인지 확인하기 위해 해당 값을 검증합니다. 섹션 4.1.7을 참조하세요.

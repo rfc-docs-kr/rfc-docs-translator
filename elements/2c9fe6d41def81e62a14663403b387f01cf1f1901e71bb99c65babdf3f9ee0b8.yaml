@@ -1,0 +1,20 @@
+"hash": |-
+  2c9fe6d41def81e62a14663403b387f01cf1f1901e71bb99c65babdf3f9ee0b8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Similarly, endpoints could regard a change in address to a link-local
+     address [RFC4291] or an address in a private-use range [RFC1918] from
+     a global, unique-local [RFC4193], or non-private address as a
+     potential attempt at request forgery.  Endpoints could refuse to use
+     these addresses entirely, but that carries a significant risk of
+     interfering with legitimate uses.  Endpoints SHOULD NOT refuse to use
+     an address unless they have specific knowledge about the network
+     indicating that sending datagrams to unvalidated addresses in a given
+     range is not safe.
+"fixed": |-
+  Similarly, endpoints could regard a change in address to a link-local address [RFC4291] or an address in a private-use range [RFC1918] from a global, unique-local [RFC4193], or non-private address as a potential attempt at request forgery.  Endpoints could refuse to use these addresses entirely, but that carries a significant risk of interfering with legitimate uses.  Endpoints SHOULD NOT refuse to use an address unless they have specific knowledge about the network indicating that sending datagrams to unvalidated addresses in a given range is not safe.
+"ko": |-
+  마찬가지로 엔드포인트는 전역, 고유 로컬 [RFC4193] 또는 비공개 주소에서 링크 로컬 주소 [RFC4291] 또는 개인 사용 범위의 주소 [RFC1918]로의 주소 변경을 잠재적인 시도로 간주할 수 있습니다. 요청시 위조. 엔드포인트는 이러한 주소의 사용을 완전히 거부할 수 있지만 이는 합법적인 사용을 방해할 상당한 위험을 수반합니다. 엔드포인트는 주어진 범위의 검증되지 않은 주소로 데이터그램을 보내는 것이 안전하지 않다는 것을 나타내는 네트워크에 대한 구체적인 지식이 없는 한 주소 사용을 거부해서는 안 됩니다.

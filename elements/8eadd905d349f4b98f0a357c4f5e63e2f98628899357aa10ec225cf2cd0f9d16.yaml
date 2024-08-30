@@ -1,0 +1,15 @@
+"hash": |-
+  8eadd905d349f4b98f0a357c4f5e63e2f98628899357aa10ec225cf2cd0f9d16
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        2) Routes referencing interfaces (with or without intermediate
+           addresses) are considered resolvable if the state of the
+           referenced interface is up and if IP processing is enabled on
+           this interface.
+"fixed": |-
+  - 2) Routes referencing interfaces (with or without intermediate addresses) are considered resolvable if the state of the referenced interface is up and if IP processing is enabled on this interface.
+"ko": |-
+  - 2) 인터페이스(중간 주소 유무에 관계없이)를 참조하는 경로는 참조된 인터페이스의 상태가 작동 중이고 이 인터페이스에서 IP 처리가 활성화된 경우 확인 가능한 것으로 간주됩니다.

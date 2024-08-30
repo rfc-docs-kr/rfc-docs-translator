@@ -1,0 +1,20 @@
+"hash": |-
+  fd364035b01216758d01371e30d92adff67b6d70829a758e44c75ac910029778
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [RFC3204] and [RFC3459] define the 'handling' parameter for the
+     Content-Disposition header field.  This parameter describes how a UAS
+     reacts if it receives a message body whose content type or
+     disposition type it does not understand.  If the parameter has the
+     value 'optional', the UAS ignores the message body; if the parameter
+     has the value 'required', the UAS returns a 415 (Unsupported Media
+     Type) response.  The default value for the 'handling' parameter is
+     'required'.  The following is an example of a Content-Disposition
+     header field:
+"fixed": |-
+  [RFC3204] and [RFC3459] define the 'handling' parameter for the Content-Disposition header field.  This parameter describes how a UAS reacts if it receives a message body whose content type or disposition type it does not understand.  If the parameter has the value 'optional', the UAS ignores the message body; if the parameter has the value 'required', the UAS returns a 415 (Unsupported Media Type) response.  The default value for the 'handling' parameter is 'required'.  The following is an example of a Content-Disposition header field:
+"ko": |-
+  [RFC3204] 및 [RFC3459]는 Content-Disposition 헤더 필드에 대한 'handling' 매개변수를 정의합니다. 이 매개변수는 UAS가 이해하지 못하는 콘텐츠 유형 또는 처리 유형의 메시지 본문을 수신한 경우 어떻게 반응하는지 설명합니다. 매개변수 값이 'optional'이면 UAS는 메시지 본문을 무시하고, 매개변수 값이 'required'이면 UAS는 415(지원되지 않는 미디어 유형) 응답을 반환합니다. 'handling' 매개변수의 기본값은 'required'입니다. 다음은 Content-Disposition 헤더 필드의 예입니다.

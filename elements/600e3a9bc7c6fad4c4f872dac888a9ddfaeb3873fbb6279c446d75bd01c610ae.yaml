@@ -1,0 +1,15 @@
+"hash": |-
+  600e3a9bc7c6fad4c4f872dac888a9ddfaeb3873fbb6279c446d75bd01c610ae
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This property depends on both sides of the connection discarding
+     their ephemeral keys promptly.  Implementations should wipe their
+     FFDHE secret key material from memory as soon as it is no longer
+     needed and should never store it in persistent storage.
+"fixed": |-
+  This property depends on both sides of the connection discarding their ephemeral keys promptly.  Implementations should wipe their FFDHE secret key material from memory as soon as it is no longer needed and should never store it in persistent storage.
+"ko": |-
+  이 속성은 임시 키를 즉시 삭제하는 연결 양쪽에 따라 다릅니다.  구현에서는 더 이상 필요하지 않은 즉시 FFDHE 비밀 키 자료를 메모리에서 지워야 하며 영구 저장소에 저장해서는 안 됩니다.

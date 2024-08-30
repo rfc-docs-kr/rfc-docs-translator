@@ -1,0 +1,17 @@
+"hash": |-
+  74030159af4c93315166c0652eb6a0f9261fc3bc109739215666cb094c5c4229
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        3. The PE and CE routers may be OSPF peers.  In this case, the
+           site should be a single OSPF area, the CE should be an ABR in
+           that area, and the PE should be an ABR which is not in that
+           area.  Also, the PE should report no router links other than
+           those to the CEs which are at the same site. (This technique
+           should be used only in stub VPNs.)
+"fixed": |-
+  1. The PE and CE routers may be OSPF peers.  In this case, the site should be a single OSPF area, the CE should be an ABR in that area, and the PE should be an ABR which is not in that area.  Also, the PE should report no router links other than those to the CEs which are at the same site. (This technique should be used only in stub VPNs.)
+"ko": |-
+  1. PE 및 CE 라우터는 OSPF 피어일 수 있습니다. 이 경우 사이트는 단일 OSPF 영역이어야 하고, CE는 해당 영역의 ABR이어야 하며, PE는 해당 영역에 없는 ABR이어야 합니다. 또한 PE는 동일한 사이트에 있는 CE에 대한 라우터 링크 외에는 라우터 링크를 보고하지 않아야 합니다. (이 기술은 스텁 VPN에서만 사용해야 합니다.)

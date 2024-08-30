@@ -1,0 +1,15 @@
+"hash": |-
+  a2ff395e7763095aa969522bb7c685f3ab9018b6d1d18494ff5bd584fc18eb5d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MUST NOT send a parameter more than once in a given
+     transport parameters extension.  An endpoint SHOULD treat receipt of
+     duplicate transport parameters as a connection error of type
+     TRANSPORT_PARAMETER_ERROR.
+"fixed": |-
+  An endpoint MUST NOT send a parameter more than once in a given transport parameters extension.  An endpoint SHOULD treat receipt of duplicate transport parameters as a connection error of type TRANSPORT_PARAMETER_ERROR.
+"ko": |-
+  엔드포인트는 주어진 전송 매개변수 확장에서 매개변수를 두 번 이상 전송해서는 안 됩니다. 엔드포인트는 중복된 전송 매개변수의 수신을 TRANSPORT_PARAMETER_ERROR 유형의 연결 오류로 처리해야 합니다(SHOULD).

@@ -1,0 +1,16 @@
+"hash": |-
+  fb52de7098e00797cc78a6689146b537e548e263357b15731586d433242ae663
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MUST NOT include any server-only transport parameter:
+     original_destination_connection_id, preferred_address,
+     retry_source_connection_id, or stateless_reset_token.  A server MUST
+     treat receipt of any of these transport parameters as a connection
+     error of type TRANSPORT_PARAMETER_ERROR.
+"fixed": |-
+  A client MUST NOT include any server-only transport parameter: original_destination_connection_id, preferred_address, retry_source_connection_id, or stateless_reset_token.  A server MUST treat receipt of any of these transport parameters as a connection error of type TRANSPORT_PARAMETER_ERROR.
+"ko": |-
+  클라이언트는 서버 전용 전송 매개변수(original_destination_connection_id, Preferred_address, retry_source_connection_id 또는 stateless_reset_token)를 포함해서는 안 됩니다. 서버는 이러한 전송 매개변수의 수신을 TRANSPORT_PARAMETER_ERROR 유형의 연결 오류로 처리해야 합니다.

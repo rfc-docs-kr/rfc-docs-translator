@@ -1,0 +1,26 @@
+"hash": |-
+  c31e94636af419d94837abf633d010158fcfec6cd2bfe7566bfef82163513254
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Job Template Attributes: These attributes affect the processing of
+        a Job.  A Client MAY supply Job Template attributes in a Job
+        Creation request, and the receiving object MUST be prepared to
+        receive all supported attributes.  The Job object can later be
+        queried to find out what Job Template attributes were originally
+        requested in the Job Creation request, and such attributes are
+        returned in the response as Job object attributes.  The Printer
+        object can be queried about its Job Template attributes to find
+        out what type of Job processing capabilities are supported and/or
+        what the default Job processing behaviors are, though such
+        attributes are returned in the response as Printer object
+        attributes.  The "ipp-attribute-fidelity" operation attribute
+        affects processing of all Client-supplied Job Template attributes
+        -- see Section 4.2.1.1 and Appendix C for a full description of
+        "ipp-attribute-fidelity" and its relationship to other attributes.
+"fixed": |-
+  -  Job Template Attributes: These attributes affect the processing of a Job.  A Client MAY supply Job Template attributes in a Job Creation request, and the receiving object MUST be prepared to receive all supported attributes.  The Job object can later be queried to find out what Job Template attributes were originally requested in the Job Creation request, and such attributes are returned in the response as Job object attributes.  The Printer object can be queried about its Job Template attributes to find out what type of Job processing capabilities are supported and/or what the default Job processing behaviors are, though such attributes are returned in the response as Printer object attributes.  The "ipp-attribute-fidelity" operation attribute affects processing of all Client-supplied Job Template attributes -- see Section 4.2.1.1 and Appendix C for a full description of "ipp-attribute-fidelity" and its relationship to other attributes.
+"ko": |-
+  - 작업 템플릿 속성: 이 속성은 작업 처리에 영향을 미칩니다. 클라이언트는 작업 생성 요청에 작업 템플릿 속성을 제공할 수 있으며, 수신 객체는 지원되는 모든 속성을 수신하도록 준비되어야 합니다. 나중에 작업 객체를 쿼리하여 작업 생성 요청에서 원래 요청된 작업 템플릿 속성이 무엇인지 알아낼 수 있으며, 이러한 속성은 응답에 작업 객체 속성으로 반환됩니다. 프린터 개체는 해당 작업 템플릿 속성에 대해 쿼리하여 어떤 유형의 작업 처리 기능이 지원되는지 및/또는 기본 작업 처리 동작이 무엇인지 알아낼 수 있습니다. 단, 이러한 속성은 프린터 개체 속성으로 응답으로 반환됩니다. "ipp-attribute-fidelity" 작업 속성은 모든 클라이언트 제공 작업 템플릿 속성의 처리에 영향을 미칩니다. "ipp-attribute-fidelity" 및 다른 속성과의 관계에 대한 전체 설명은 섹션 4.2.1.1 및 부록 C를 참조하십시오.

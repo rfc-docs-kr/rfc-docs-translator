@@ -1,0 +1,17 @@
+"hash": |-
+  eae5153221317efe914ac582532261bb80abc028c45bc8dfc6331e0b5e973178
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint using DPLPMTUD requires the validation of any received
+     ICMP PTB message before using the PTB information, as defined in
+     Section 4.6 of [DPLPMTUD].  In addition to UDP port validation, QUIC
+     validates an ICMP message by using other PL information (e.g.,
+     validation of connection IDs in the quoted packet of any received
+     ICMP message).
+"fixed": |-
+  An endpoint using DPLPMTUD requires the validation of any received ICMP PTB message before using the PTB information, as defined in Section 4.6 of [DPLPMTUD].  In addition to UDP port validation, QUIC validates an ICMP message by using other PL information (e.g., validation of connection IDs in the quoted packet of any received ICMP message).
+"ko": |-
+  DPLPMTUD를 사용하는 엔드포인트는 [DPLPMTUD]의 섹션 4.6에 정의된 대로 PTB 정보를 사용하기 전에 수신된 ICMP PTB 메시지의 유효성을 검사해야 합니다. UDP 포트 유효성 검사 외에도 QUIC는 다른 PL 정보(예: 수신된 ICMP 메시지의 인용된 패킷에 있는 연결 ID 유효성 검사)를 사용하여 ICMP 메시지의 유효성을 검사합니다.

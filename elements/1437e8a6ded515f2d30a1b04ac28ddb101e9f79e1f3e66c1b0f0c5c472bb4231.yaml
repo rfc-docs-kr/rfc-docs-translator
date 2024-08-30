@@ -1,0 +1,14 @@
+"hash": |-
+  1437e8a6ded515f2d30a1b04ac28ddb101e9f79e1f3e66c1b0f0c5c472bb4231
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  When negotiated in a version of TLS prior to 1.2, the Pseudo-
+        Random Function (PRF) from that version is used; otherwise, the
+        PRF is the TLS PRF [RFC5246] with SHA-256 as the hash function.
+"fixed": |-
+  -  When negotiated in a version of TLS prior to 1.2, the Pseudo- Random Function (PRF) from that version is used; otherwise, the PRF is the TLS PRF [RFC5246] with SHA-256 as the hash function.
+"ko": |-
+  - TLS 1.2 이전 버전에서 협상된 경우 해당 버전의 PRF(Pseudo-Random Function)가 사용됩니다. 그렇지 않은 경우 PRF는 해시 함수로 SHA-256을 사용한 TLS PRF[RFC5246]입니다.

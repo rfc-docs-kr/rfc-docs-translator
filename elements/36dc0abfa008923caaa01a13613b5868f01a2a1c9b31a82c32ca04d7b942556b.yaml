@@ -1,0 +1,20 @@
+"hash": |-
+  36dc0abfa008923caaa01a13613b5868f01a2a1c9b31a82c32ca04d7b942556b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     id-ori-keyAgreePSK OBJECT IDENTIFIER ::= { id-ori 2 }
+     KeyAgreePSKRecipientInfo ::= SEQUENCE {
+       version CMSVersion,  -- always set to 0
+       pskid PreSharedKeyIdentifier,
+       originator [0] EXPLICIT OriginatorIdentifierOrKey,
+       ukm [1] EXPLICIT UserKeyingMaterial OPTIONAL,
+       kdfAlgorithm KeyDerivationAlgorithmIdentifier,
+       keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier,
+       recipientEncryptedKeys RecipientEncryptedKeys }
+"fixed": |-
+  id-ori-keyAgreePSK OBJECT IDENTIFIER ::= { id-ori 2 } KeyAgreePSKRecipientInfo ::= SEQUENCE { version CMSVersion,  -- always set to 0 pskid PreSharedKeyIdentifier, originator [0] EXPLICIT OriginatorIdentifierOrKey, ukm [1] EXPLICIT UserKeyingMaterial OPTIONAL, kdfAlgorithm KeyDerivationAlgorithmIdentifier, keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier, recipientEncryptedKeys RecipientEncryptedKeys }
+"ko": |-
+  id-ori-keyAgreePSK 개체 IDENTIFIER ::= { id-ori 2 } KeyAgreePSKRecipientInfo ::= SEQUENCE { version CMSVersion, -- 항상 0으로 설정 pskid PreSharedKeyIdentifier, Originator [0] EXPLICIT OriginatorIdentifierOrKey, ukm [1] EXPLICIT UserKeyingMaterial OPTIONAL, kdfAlgorithm KeyDerivationAlgorithmIdentifier, keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier, receiveEncryptedKeys RecipientEncryptedKeys }

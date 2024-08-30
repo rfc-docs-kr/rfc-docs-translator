@@ -1,0 +1,35 @@
+"hash": |-
+  1eb11727cbf68d2dbf724bd3e9568e082904ed6b57d55d397f1e3b61b2e1d690
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <define name="restCommonContent">
+         <interleave>
+           <optional>
+             <element name="decision">
+               <ref name="decisionContent"/>
+             </element>
+           </optional>
+           <optional>
+             <element name="device">
+               <ref name="deviceContent"/>
+             </element>
+           </optional>
+           <optional>
+             <element name="gender">
+               <ref name="genderContent"/>
+             </element>
+           </optional>
+          <zeroOrMore>
+             <element name="verification-score">
+               <ref name="verification-scoreContent"/>
+             </element>
+          </zeroOrMore>
+          </interleave>
+       </define>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

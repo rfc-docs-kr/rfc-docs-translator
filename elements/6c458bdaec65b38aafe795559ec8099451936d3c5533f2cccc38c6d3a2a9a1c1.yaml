@@ -1,0 +1,20 @@
+"hash": |-
+  6c458bdaec65b38aafe795559ec8099451936d3c5533f2cccc38c6d3a2a9a1c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     challenge The client challenge to the server for the server to
+        identify itself is a (nearly) arbitrary-length random.  The TLS
+        server will right-justify the challenge data to become the
+        ClientHello.random data (padded with leading zeroes, if
+        necessary), as specified in this protocol specification.  If the
+        length of the challenge is greater than 32 bytes, only the last 32
+        bytes are used.  It is legitimate (but not necessary) for a V3
+        server to reject a V2 ClientHello that has fewer than 16 bytes of
+        challenge data.
+"fixed": |-
+  challenge The client challenge to the server for the server to  -  identify itself is a (nearly) arbitrary-length random.  The TLS server will right-justify the challenge data to become the ClientHello.random data (padded with leading zeroes, if necessary), as specified in this protocol specification.  If the length of the challenge is greater than 32 bytes, only the last 32 bytes are used.  It is legitimate (but not necessary) for a V3 server to reject a V2 ClientHello that has fewer than 16 bytes of challenge data.
+"ko": |-
+  챌린지 서버가 자신을 식별하기 위한 서버에 대한 클라이언트 챌린지는 (거의) 임의 길이의 무작위입니다. TLS 서버는 이 프로토콜 사양에 지정된 대로 챌린지 데이터를 ClientHello.random 데이터(필요한 경우 앞에 0으로 채워짐)가 되도록 오른쪽 정렬합니다. 챌린지 길이가 32바이트보다 길면 마지막 32바이트만 사용됩니다. V3 서버가 챌린지 데이터가 16바이트 미만인 V2 ClientHello를 거부하는 것은 합법적이지만 필수는 아닙니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  a75b326166b5c8b3418806e2d4ba044acb330871b261357a5ef09cac3dcbfb4a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Unless the connection is from a trusted gateway, an origin server
+     MUST reject a request if any scheme-specific requirements for the
+     target URI are not met.  In particular, a request for an "https"
+     resource MUST be rejected unless it has been received over a
+     connection that has been secured via a certificate valid for that
+     target URI's origin, as defined by Section 4.2.2.
+"fixed": |-
+  Unless the connection is from a trusted gateway, an origin server MUST reject a request if any scheme-specific requirements for the target URI are not met.  In particular, a request for an "https" resource MUST be rejected unless it has been received over a connection that has been secured via a certificate valid for that target URI's origin, as defined by Section 4.2.2.
+"ko": |-
+  연결이 신뢰할 수 있는 게이트웨이에서 나온 것이 아닌 이상, 대상 URI에 대한 체계별 요구 사항이 충족되지 않으면 원서버는 요청을 거부해야 합니다. 특히, "https" 리소스에 대한 요청은 섹션 4.2.2에 정의된 대로 해당 대상 URI의 출처에 유효한 인증서를 통해 보안된 연결을 통해 수신되지 않은 한 반드시 거부되어야 합니다.

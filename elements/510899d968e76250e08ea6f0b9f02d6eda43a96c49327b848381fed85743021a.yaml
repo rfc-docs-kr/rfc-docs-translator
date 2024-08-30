@@ -1,0 +1,28 @@
+"hash": |-
+  510899d968e76250e08ea6f0b9f02d6eda43a96c49327b848381fed85743021a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.   Parse the JWE representation to extract the serialized values
+          for the components of the JWE.  When using the JWE Compact
+          Serialization, these components are the base64url-encoded
+          representations of the JWE Protected Header, the JWE Encrypted
+          Key, the JWE Initialization Vector, the JWE Ciphertext, and the
+          JWE Authentication Tag, and when using the JWE JSON
+          Serialization, these components also include the base64url-
+          encoded representation of the JWE AAD and the unencoded JWE
+          Shared Unprotected Header and JWE Per-Recipient Unprotected
+          Header values.  When using the JWE Compact Serialization, the
+          JWE Protected Header, the JWE Encrypted Key, the JWE
+          Initialization Vector, the JWE Ciphertext, and the JWE
+          Authentication Tag are represented as base64url-encoded values
+          in that order, with each value being separated from the next by
+          a single period ('.') character, resulting in exactly four
+          delimiting period characters being used.  The JWE JSON
+          Serialization is described in Section 7.2.
+"fixed": |-
+  1.   Parse the JWE representation to extract the serialized values for the components of the JWE.  When using the JWE Compact Serialization, these components are the base64url-encoded representations of the JWE Protected Header, the JWE Encrypted Key, the JWE Initialization Vector, the JWE Ciphertext, and the JWE Authentication Tag, and when using the JWE JSON Serialization, these components also include the base64url- encoded representation of the JWE AAD and the unencoded JWE Shared Unprotected Header and JWE Per-Recipient Unprotected Header values.  When using the JWE Compact Serialization, the JWE Protected Header, the JWE Encrypted Key, the JWE Initialization Vector, the JWE Ciphertext, and the JWE Authentication Tag are represented as base64url-encoded values in that order, with each value being separated from the next by a single period ('.') character, resulting in exactly four delimiting period characters being used.  The JWE JSON Serialization is described in Section 7.2.
+"ko": |-
+  1. JWE 표현을 구문 분석하여 JWE 구성 요소에 대한 직렬화된 값을 추출합니다. JWE Compact Serialization을 사용할 때 이러한 구성 요소는 JWE 보호 헤더, JWE 암호화 키, JWE 초기화 벡터, JWE 암호문 및 JWE 인증 태그의 base64url 인코딩 표현이며, JWE JSON Serialization을 사용할 때 이러한 구성 요소에는 JWE AAD의 base64url 인코딩 표현과 인코딩되지 않은 JWE 공유 비보호 헤더 및 JWE 수신자별 비보호 헤더 값도 포함됩니다. JWE Compact Serialization을 사용할 때 JWE 보호 헤더, JWE 암호화 키, JWE 초기화 벡터, JWE 암호문, JWE 인증 태그는 base64url로 인코딩된 값으로 순서대로 표현되며, 각 값은 마침표('.') 문자 하나로 구분되어 정확히 4개의 구분 마침표 문자가 사용됩니다. JWE JSON Serialization은 섹션 7.2에서 설명합니다.

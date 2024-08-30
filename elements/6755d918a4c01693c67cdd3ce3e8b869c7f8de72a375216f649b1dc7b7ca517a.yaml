@@ -1,0 +1,24 @@
+"hash": |-
+  6755d918a4c01693c67cdd3ce3e8b869c7f8de72a375216f649b1dc7b7ca517a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------------+---------------------+--------------------------+
+     | Current Session  |     Renegotiated    |      Action to take      |
+     |                  |       Session       |                          |
+     +------------------+---------------------+--------------------------+
+     | MAC-then-encrypt |   MAC-then-encrypt  |        No change         |
+     |                  |                     |                          |
+     | MAC-then-encrypt |   Encrypt-then-MAC  |        Upgrade to        |
+     |                  |                     |     Encrypt-then-MAC     |
+     |                  |                     |                          |
+     | Encrypt-then-MAC |   MAC-then-encrypt  |          Error           |
+     |                  |                     |                          |
+     | Encrypt-then-MAC |   Encrypt-then-MAC  |        No change         |
+     +------------------+---------------------+--------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

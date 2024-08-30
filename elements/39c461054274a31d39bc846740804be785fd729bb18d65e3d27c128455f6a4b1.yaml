@@ -1,0 +1,15 @@
+"hash": |-
+  39c461054274a31d39bc846740804be785fd729bb18d65e3d27c128455f6a4b1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note: If, instead, the server detected an error in the command, it
+        sends a BAD completion response with a tag matching the command
+        (as described below) to reject the command and prevent the client
+        from sending any more of the command.
+"fixed": |-
+  - Note: If, instead, the server detected an error in the command, it sends a BAD completion response with a tag matching the command (as described below) to reject the command and prevent the client from sending any more of the command.
+"ko": |-
+  - 참고: 대신 서버가 명령에서 오류를 감지한 경우 명령과 일치하는 태그(아래 설명 참조)와 함께 BAD 완료 응답을 보내 명령을 거부하고 클라이언트가 더 이상 명령을 보내지 못하도록 합니다.

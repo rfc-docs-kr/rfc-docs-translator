@@ -1,0 +1,41 @@
+"hash": |-
+  05d3f4adc9f175f43f450db8f67250b30f6d7e5c4f8e22893fae1948eb0fbb0c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       <define name="enrollment-content">
+         <interleave>
+           <element name="num-clashes">
+             <data type="nonNegativeInteger"/>
+           </element>
+           <element name="num-good-repetitions">
+             <data type="nonNegativeInteger"/>
+           </element>
+           <element name="num-repetitions-still-needed">
+             <data type="nonNegativeInteger"/>
+           </element>
+           <element name="consistency-status">
+             <choice>
+               <value>consistent</value>
+               <value>inconsistent</value>
+               <value>undecided</value>
+             </choice>
+           </element>
+           <optional>
+             <element name="clash-phrase-ids">
+               <oneOrMore>
+                 <element name="item">
+                   <data type="token"/>
+                 </element>
+               </oneOrMore>
+             </element>
+           </optional>
+           <optional>
+             <element name="transcriptions">
+               <oneOrMore>
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

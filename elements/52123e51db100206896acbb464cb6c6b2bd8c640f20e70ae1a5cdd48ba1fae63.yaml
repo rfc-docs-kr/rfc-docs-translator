@@ -1,0 +1,19 @@
+"hash": |-
+  52123e51db100206896acbb464cb6c6b2bd8c640f20e70ae1a5cdd48ba1fae63
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  Another strategy is to discard a  newly  arrived  packet  if  the
+  packet  duplicates  a  packet already in the queue.  The computa-
+  tional load for this check is not a problem if hashing techniques
+  are  used.   This  check will not protect against malicious hosts
+  but will provide some protection against TCP implementations with
+  poor  retransmission  control.   Gateways between fast local net-
+  works and slower long-haul networks may find this check  valuable
+  if the local hosts are tuned to work well with the local network.
+"fixed": |-
+  Another strategy is to discard a  newly  arrived  packet  if  the packet  duplicates  a  packet already in the queue.  The computa- tional load for this check is not a problem if hashing techniques are  used.   This  check will not protect against malicious hosts but will provide some protection against TCP implementations with poor  retransmission  control.   Gateways between fast local net- works and slower long-haul networks may find this check  valuable if the local hosts are tuned to work well with the local network.
+"ko": |-
+  또 다른 전략은 패킷이 이미 대기열에 있는 패킷과 중복되는 경우 새로 도착한 패킷을 삭제하는 것입니다. 해싱 기술을 사용하는 경우 이 검사에 대한 계산 부하는 문제가 되지 않습니다. 이 검사는 악의적인 호스트로부터 보호하지는 않지만 재전송 제어가 불량한 TCP 구현에 대한 일부 보호를 제공합니다. 빠른 로컬 네트워크와 느린 장거리 네트워크 사이의 게이트웨이는 로컬 호스트가 로컬 네트워크와 잘 작동하도록 조정된 경우 이 검사가 유용할 수 있습니다.

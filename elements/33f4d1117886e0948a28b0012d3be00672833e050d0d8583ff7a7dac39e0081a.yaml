@@ -1,0 +1,18 @@
+"hash": |-
+  33f4d1117886e0948a28b0012d3be00672833e050d0d8583ff7a7dac39e0081a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     MacData ::= SEQUENCE {
+         mac         DigestInfo,
+         macSalt     OCTET STRING,
+         iterations  INTEGER DEFAULT 1
+         -- Note: The default is for historical reasons and its
+         --       use is deprecated.
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

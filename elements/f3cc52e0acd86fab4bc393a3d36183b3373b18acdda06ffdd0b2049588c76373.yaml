@@ -1,0 +1,18 @@
+"hash": |-
+  f3cc52e0acd86fab4bc393a3d36183b3373b18acdda06ffdd0b2049588c76373
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This design relies on the peer always sending a connection ID in its
+     packets so that the endpoint can use the connection ID from a packet
+     to reset the connection.  An endpoint that uses this design MUST
+     either use the same connection ID length for all connections or
+     encode the length of the connection ID such that it can be recovered
+     without state.  In addition, it cannot provide a zero-length
+     connection ID.
+"fixed": |-
+  This design relies on the peer always sending a connection ID in its packets so that the endpoint can use the connection ID from a packet to reset the connection.  An endpoint that uses this design MUST either use the same connection ID length for all connections or encode the length of the connection ID such that it can be recovered without state.  In addition, it cannot provide a zero-length connection ID.
+"ko": |-
+  이 디자인은 엔드포인트가 패킷의 연결 ID를 사용하여 연결을 재설정할 수 있도록 항상 패킷에 연결 ID를 보내는 피어에 의존합니다. 이 설계를 사용하는 엔드포인트는 모든 연결에 대해 동일한 연결 ID 길이를 사용하거나 상태 없이 복구될 수 있도록 연결 ID 길이를 인코딩해야 합니다. 또한 길이가 0인 연결 ID를 제공할 수 없습니다.

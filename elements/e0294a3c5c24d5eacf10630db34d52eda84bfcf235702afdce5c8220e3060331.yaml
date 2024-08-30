@@ -1,0 +1,14 @@
+"hash": |-
+  e0294a3c5c24d5eacf10630db34d52eda84bfcf235702afdce5c8220e3060331
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  When negotiated in a version of TLS prior to 1.2, the PRF from
+           that version is used; otherwise the PRF is the TLS PRF
+           [RFC5246] with SHA-384 as the hash function.
+"fixed": |-
+  - *  When negotiated in a version of TLS prior to 1.2, the PRF from that version is used; otherwise the PRF is the TLS PRF [RFC5246] with SHA-384 as the hash function.
+"ko": |-
+  - * TLS 1.2 이전 버전에서 협상된 경우 해당 버전의 PRF가 사용됩니다. 그렇지 않은 경우 PRF는 SHA-384를 해시 함수로 사용한 TLS PRF[RFC5246]입니다.

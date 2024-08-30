@@ -1,0 +1,19 @@
+"hash": |-
+  80969a36d059a617515e401ba8cc9ffc1845d0e9a573c63da4e000809644d995
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The VERIFY-ROLLBACK method discards the last buffered utterance or
+     discards the last live utterances (when the mode is "train" or
+     "verify").  The client will likely want to invoke this method when
+     the user provides undesirable input such as non-speech noises, side-
+     speech, out-of-grammar utterances, commands, etc.  Note that this
+     method does not provide a stack of rollback states.  Executing
+     VERIFY-ROLLBACK twice in succession without an intervening
+     recognition operation has no effect on the second attempt.
+"fixed": |-
+  The VERIFY-ROLLBACK method discards the last buffered utterance or discards the last live utterances (when the mode is "train" or "verify").  The client will likely want to invoke this method when the user provides undesirable input such as non-speech noises, side- speech, out-of-grammar utterances, commands, etc.  Note that this method does not provide a stack of rollback states.  Executing VERIFY-ROLLBACK twice in succession without an intervening recognition operation has no effect on the second attempt.
+"ko": |-
+  VERIFY-ROLLBACK 방법은 버퍼링된 마지막 발화를 삭제하거나 마지막 라이브 발화를 삭제합니다(모드가 "train" 또는 "verify"일 때). 클라이언트는 사용자가 비음성 잡음, 횡설수설, 문법에 어긋나는 발화, 명령 등과 같은 바람직하지 않은 입력을 제공할 때 이 방법을 호출하고자 할 것입니다. 이 방법은 롤백 상태 스택을 제공하지 않는다는 점에 유의하십시오. 개입 인식 작업 없이 VERIFY-ROLLBACK을 연속으로 두 번 실행해도 두 번째 시도에는 영향을 미치지 않습니다.

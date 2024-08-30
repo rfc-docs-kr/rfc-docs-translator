@@ -1,0 +1,23 @@
+"hash": |-
+  f1714c4f51d1259b127ab991d7e4474fd47b23df605aa2a34d4925c0e8be4f5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A 'text' attribute is an attribute whose value is a sequence of zero
+     or more characters encoded in a maximum of 1023 ('MAX') octets.  MAX
+     is the maximum length for each value of any 'text' attribute.
+     However, if an attribute will always contain values whose maximum
+     length is much less than MAX, the definition of that attribute will
+     include a qualifier that defines the maximum length for values of
+     that attribute.  For example, the "printer-location" attribute is
+     specified as "printer-location (text(127))".  In this case, text
+     values for "printer-location" MUST NOT exceed 127 octets; if supplied
+     with a longer text string via some external interface (other than the
+     protocol), implementations are free to truncate to this shorter
+     length limitation.
+"fixed": |-
+  A 'text' attribute is an attribute whose value is a sequence of zero or more characters encoded in a maximum of 1023 ('MAX') octets.  MAX is the maximum length for each value of any 'text' attribute. However, if an attribute will always contain values whose maximum length is much less than MAX, the definition of that attribute will include a qualifier that defines the maximum length for values of that attribute.  For example, the "printer-location" attribute is specified as "printer-location (text(127))".  In this case, text values for "printer-location" MUST NOT exceed 127 octets; if supplied with a longer text string via some external interface (other than the protocol), implementations are free to truncate to this shorter length limitation.
+"ko": |-
+  '텍스트' 속성은 값이 최대 1023('MAX') 옥텟으로 인코딩된 0개 이상의 문자 시퀀스인 속성입니다. MAX는 '텍스트' 속성의 각 값에 대한 최대 길이입니다. 그러나 속성에 항상 최대 길이가 MAX보다 훨씬 작은 값이 포함되는 경우 해당 속성의 정의에는 해당 속성 값의 최대 길이를 정의하는 한정자가 포함됩니다. 예를 들어, "프린터 위치" 속성은 "프린터 위치(텍스트(127))"로 지정됩니다. 이 경우 "printer-location"에 대한 텍스트 값은 127옥텟을 초과해서는 안 됩니다. 일부 외부 인터페이스(프로토콜 이외의)를 통해 더 긴 텍스트 문자열이 제공되는 경우 구현에서는 이 더 짧은 길이 제한으로 자유롭게 자를 수 있습니다.

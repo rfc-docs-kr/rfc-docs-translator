@@ -1,0 +1,17 @@
+"hash": |-
+  90ece2624684338dce21682e1707bfb66eccc6d97fb88d64af70ad1497f764ec
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A BGP speaker MUST NOT include this attribute in UPDATE messages it
+     sends to external peers, except in the case of BGP Confederations
+     [RFC3065].  If it is contained in an UPDATE message that is received
+     from an external peer, then this attribute MUST be ignored by the
+     receiving speaker, except in the case of BGP Confederations
+     [RFC3065].
+"fixed": |-
+  A BGP speaker MUST NOT include this attribute in UPDATE messages it sends to external peers, except in the case of BGP Confederations [RFC3065].  If it is contained in an UPDATE message that is received from an external peer, then this attribute MUST be ignored by the receiving speaker, except in the case of BGP Confederations [RFC3065].
+"ko": |-
+  BGP 스피커는 BGP Confederations [RFC3065]의 경우를 제외하고 외부 피어에게 보내는 업데이트 메시지에 이 속성을 포함해서는 안 됩니다. 외부 피어로부터 수신된 업데이트 메시지에 포함된 경우 BGP Confederations [RFC3065]의 경우를 제외하고 수신 스피커는 이 속성을 무시해야 합니다.

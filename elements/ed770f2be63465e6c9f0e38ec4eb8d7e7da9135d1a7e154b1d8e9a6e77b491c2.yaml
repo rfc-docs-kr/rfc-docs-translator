@@ -1,0 +1,15 @@
+"hash": |-
+  ed770f2be63465e6c9f0e38ec4eb8d7e7da9135d1a7e154b1d8e9a6e77b491c2
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     CRLBag ::= SEQUENCE {
+         crlId      BAG-TYPE.&id  ({CRLTypes}),
+         crlValue  [0] EXPLICIT BAG-TYPE.&Type ({CRLTypes}{@crlId})
+     }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

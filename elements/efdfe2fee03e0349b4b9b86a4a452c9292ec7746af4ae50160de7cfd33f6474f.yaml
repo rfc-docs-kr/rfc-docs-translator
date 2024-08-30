@@ -1,0 +1,14 @@
+"hash": |-
+  efdfe2fee03e0349b4b9b86a4a452c9292ec7746af4ae50160de7cfd33f6474f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Each time the local system sends a KEEPALIVE or UPDATE message, it
+        restarts its KeepaliveTimer, unless the negotiated HoldTime value
+        is zero.
+"fixed": |-
+  - Each time the local system sends a KEEPALIVE or UPDATE message, it restarts its KeepaliveTimer, unless the negotiated HoldTime value is zero.
+"ko": |-
+  - 로컬 시스템이 KEEPALIVE 또는 UPDATE 메시지를 보낼 때마다 협상된 HoldTime 값이 0이 아닌 한 KeepaliveTimer를 다시 시작합니다.

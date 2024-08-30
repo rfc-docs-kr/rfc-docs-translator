@@ -1,0 +1,17 @@
+"hash": |-
+  d84e9f1176bf2eb4a7dc6781582cda8f8f7053c3a99fdff9a542b7c15a694ae8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The LOGIN command identifies the client to the server and carries the
+     plaintext password authenticating this user.  The LOGIN command
+     SHOULD NOT be used except as a last resort (after attempting and
+     failing to authenticate using the AUTHENTICATE command one or more
+     times), and it is recommended that client implementations have a
+     means to disable any automatic use of the LOGIN command.
+"fixed": |-
+  The LOGIN command identifies the client to the server and carries the plaintext password authenticating this user.  The LOGIN command SHOULD NOT be used except as a last resort (after attempting and failing to authenticate using the AUTHENTICATE command one or more times), and it is recommended that client implementations have a means to disable any automatic use of the LOGIN command.
+"ko": |-
+  LOGIN 명령은 서버에 대해 클라이언트를 식별하고 이 사용자를 인증하는 일반 텍스트 비밀번호를 전달합니다.  LOGIN 명령은 최후의 수단(AUTHENTICATE 명령을 사용하여 한 번 이상 인증을 시도하고 실패한 후)을 제외하고는 사용되어서는 안 되며, 클라이언트 구현에는 LOGIN 명령의 자동 사용을 비활성화하는 수단이 있는 것이 좋습니다.

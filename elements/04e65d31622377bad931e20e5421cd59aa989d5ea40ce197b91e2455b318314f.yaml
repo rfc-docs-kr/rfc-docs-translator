@@ -1,0 +1,20 @@
+"hash": |-
+  04e65d31622377bad931e20e5421cd59aa989d5ea40ce197b91e2455b318314f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As stated earlier, SIP extensions can also include 'multipart' MIME
+     bodies in responses.  Hence, a response can be extremely complex and
+     the UAC receiving the response might not be able to process it
+     correctly.  Because UACs receiving a response cannot report errors to
+     the UAS that generated the response (i.e., error responses can only
+     be generated for requests), authors of SIP extensions need to make
+     sure that requests clearly indicate (e.g., by using an option-tag or
+     by other means) the capabilities of the UAC so that UASs can decide
+     what to include in their responses.
+"fixed": |-
+  As stated earlier, SIP extensions can also include 'multipart' MIME bodies in responses.  Hence, a response can be extremely complex and the UAC receiving the response might not be able to process it correctly.  Because UACs receiving a response cannot report errors to the UAS that generated the response (i.e., error responses can only be generated for requests), authors of SIP extensions need to make sure that requests clearly indicate (e.g., by using an option-tag or by other means) the capabilities of the UAC so that UASs can decide what to include in their responses.
+"ko": |-
+  앞서 언급했듯이 SIP 확장은 응답에 'multipart' MIME 본문을 포함할 수도 있습니다. 따라서 응답은 매우 복잡할 수 있으며 응답을 수신하는 UAC가 올바르게 처리하지 못할 수 있습니다. 응답을 수신하는 UAC는 응답을 생성한 UAS에 오류를 보고할 수 없기 때문에(즉, 오류 응답은 요청에 대해서만 생성될 수 있음) SIP 확장 작성자는 요청이 UAC의 기능을 명확하게 표시하도록 해야 합니다(예: 옵션 태그 사용 또는 기타 수단 사용). 그래야 UAS가 응답에 포함할 내용을 결정할 수 있습니다.

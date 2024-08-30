@@ -1,0 +1,21 @@
+"hash": |-
+  cf2413b0d00c8df7a19936e145faeb97b6bf2748e94c8216ff24f3ce3de03929
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     At any time, a server can send data that the client did not request.
+     Sometimes, such behavior is required by this specification and/or
+     extensions.  For example, agents other than the server may add
+     messages to the mailbox (e.g., new message delivery); change the
+     flags of the messages in the mailbox (e.g., simultaneous access to
+     the same mailbox by multiple agents); or even remove messages from
+     the mailbox.  A server MUST send mailbox size updates automatically
+     if a mailbox size change is observed during the processing of a
+     command.  A server SHOULD send message flag updates automatically,
+     without requiring the client to request such updates explicitly.
+"fixed": |-
+  At any time, a server can send data that the client did not request. Sometimes, such behavior is required by this specification and/or extensions.  For example, agents other than the server may add messages to the mailbox (e.g., new message delivery); change the flags of the messages in the mailbox (e.g., simultaneous access to the same mailbox by multiple agents); or even remove messages from the mailbox.  A server MUST send mailbox size updates automatically if a mailbox size change is observed during the processing of a command.  A server SHOULD send message flag updates automatically, without requiring the client to request such updates explicitly.
+"ko": |-
+  언제든지 서버는 클라이언트가 요청하지 않은 데이터를 보낼 수 있습니다. 때때로 이 사양 및/또는 확장에서는 이러한 동작이 필요합니다.  예를 들어, 서버 이외의 에이전트는 사서함에 메시지를 추가할 수 있습니다(예: 새 메시지 전달). 사서함에 있는 메시지의 플래그를 변경합니다(예: 여러 에이전트가 동일한 사서함에 동시에 액세스). 또는 사서함에서 메시지를 제거할 수도 있습니다.  명령을 처리하는 동안 메일함 크기 변경이 관찰되면 서버는 메일함 크기 업데이트를 자동으로 보내야 합니다.  서버는 클라이언트가 그러한 업데이트를 명시적으로 요청할 필요 없이 자동으로 메시지 플래그 업데이트를 보내야 합니다.

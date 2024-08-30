@@ -1,0 +1,17 @@
+"hash": |-
+  3299dbd58ae446a4bcc8ae9f1a1fd503df855691ac0a80e05a7c495bf8e188de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The draining state is entered once an endpoint receives a
+     CONNECTION_CLOSE frame, which indicates that its peer is closing or
+     draining.  While otherwise identical to the closing state, an
+     endpoint in the draining state MUST NOT send any packets.  Retaining
+     packet protection keys is unnecessary once a connection is in the
+     draining state.
+"fixed": |-
+  The draining state is entered once an endpoint receives a CONNECTION_CLOSE frame, which indicates that its peer is closing or draining.  While otherwise identical to the closing state, an endpoint in the draining state MUST NOT send any packets.  Retaining packet protection keys is unnecessary once a connection is in the draining state.
+"ko": |-
+  엔드포인트가 CONNECTION_CLOSE 프레임을 받으면 피어가 닫히거나 배수 중임을 나타내는 CONNECTION_CLOSE 프레임을 수신하면 배수 상태로 들어갑니다. 그 외에는 Closing 상태와 동일하지만, Draining 상태의 엔드포인트는 어떠한 패킷도 보내서는 안 됩니다. 연결이 드레이닝 상태가 되면 패킷 보호 키를 보유할 필요가 없습니다.

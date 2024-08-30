@@ -1,0 +1,17 @@
+"hash": |-
+  e63e7343abe4dfc80fd244333023affbf429465bd2357148ebcf2a3c36c6c8c9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The value in the Unused field is set to an arbitrary value by the
+     server.  Clients MUST ignore the value of this field.  Where QUIC
+     might be multiplexed with other protocols (see [RFC7983]), servers
+     SHOULD set the most significant bit of this field (0x40) to 1 so that
+     Version Negotiation packets appear to have the Fixed Bit field.  Note
+     that other versions of QUIC might not make a similar recommendation.
+"fixed": |-
+  The value in the Unused field is set to an arbitrary value by the server.  Clients MUST ignore the value of this field.  Where QUIC might be multiplexed with other protocols (see [RFC7983]), servers SHOULD set the most significant bit of this field (0x40) to 1 so that Version Negotiation packets appear to have the Fixed Bit field.  Note that other versions of QUIC might not make a similar recommendation.
+"ko": |-
+  사용되지 않음 필드의 값은 서버에 의해 임의의 값으로 설정됩니다. 클라이언트는 이 필드의 값을 무시해야 합니다. QUIC가 다른 프로토콜과 다중화될 수 있는 경우([RFC7983] 참조), 서버는 버전 협상 패킷이 고정 비트 필드를 갖는 것으로 나타나도록 이 필드의 최상위 비트(0x40)를 1로 설정해야 합니다. 다른 버전의 QUIC에서는 유사한 권장 사항을 제공하지 않을 수 있습니다.

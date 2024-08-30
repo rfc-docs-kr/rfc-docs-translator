@@ -1,0 +1,20 @@
+"hash": |-
+  3c94b552320129dffb7c12c2455eb2701553c06b1643ed552e070f7cfb0c3e06
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the recorder is started and the actual capture begins, this
+     header field specifies the length of silence in the audio that is to
+     be interpreted as the end of the recording.  This header field MAY
+     occur in RECORD, SET-PARAMS, or GET-PARAMS.  The value for this
+     header field ranges from 0 to an implementation-specific maximum
+     value and is interpreted to be in milliseconds.  A value of 0 means
+     infinity, and hence the recording will continue until one of the
+     other stop conditions are met.  The default value for this header
+     field is implementation specific.
+"fixed": |-
+  When the recorder is started and the actual capture begins, this header field specifies the length of silence in the audio that is to be interpreted as the end of the recording.  This header field MAY occur in RECORD, SET-PARAMS, or GET-PARAMS.  The value for this header field ranges from 0 to an implementation-specific maximum value and is interpreted to be in milliseconds.  A value of 0 means infinity, and hence the recording will continue until one of the other stop conditions are met.  The default value for this header field is implementation specific.
+"ko": |-
+  레코더가 시작되고 실제 캡처가 시작되면 이 헤더 필드는 녹음의 끝으로 해석될 오디오의 무음 길이를 지정합니다. 이 헤더 필드는 RECORD, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다. 이 헤더 필드의 값은 0에서 구현에 따라 달라지는 최대값까지이며 밀리초로 해석됩니다. 값 0은 무한대를 의미하므로 다른 중지 조건 중 하나가 충족될 때까지 녹음이 계속됩니다. 이 헤더 필드의 기본값은 구현에 따라 달라집니다.

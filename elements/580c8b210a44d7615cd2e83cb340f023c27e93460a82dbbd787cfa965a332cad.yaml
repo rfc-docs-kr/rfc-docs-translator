@@ -1,0 +1,16 @@
+"hash": |-
+  580c8b210a44d7615cd2e83cb340f023c27e93460a82dbbd787cfa965a332cad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Erroneous encoding in RFC 4507 resulted in two length fields; one for
+     the extension contents and one for the ticket itself.  Hence, for a
+     ticket that is 256 bytes long and begins with the hex value FF FF,
+     the encoding of the extension would be as follows according to RFC
+     4507:
+"fixed": |-
+  Erroneous encoding in RFC 4507 resulted in two length fields; one for the extension contents and one for the ticket itself.  Hence, for a ticket that is 256 bytes long and begins with the hex value FF FF, the encoding of the extension would be as follows according to RFC 4507:
+"ko": |-
+  RFC 4507의 잘못된 인코딩으로 인해 두 개의 길이 필드가 발생했습니다. 하나는 확장 콘텐츠용이고 다른 하나는 티켓 자체용입니다. 따라서 길이가 256바이트이고 16진수 값 FF FF로 시작하는 티켓의 경우 확장의 인코딩은 RFC 4507에 따라 다음과 같습니다.

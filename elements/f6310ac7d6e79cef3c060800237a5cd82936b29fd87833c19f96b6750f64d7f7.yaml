@@ -1,0 +1,23 @@
+"hash": |-
+  f6310ac7d6e79cef3c060800237a5cd82936b29fd87833c19f96b6750f64d7f7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When the recognizer matches an incoming stream with the grammar, it
+     may come up with more than one alternative match because of
+     confidence levels in certain words or conversation paths.  If this
+     header field is not specified, by default, the recognizer resource
+     returns only the best match above the confidence threshold.  The
+     client, by setting this header field, can ask the recognition
+     resource to send it more than one alternative.  All alternatives must
+     still be above the Confidence-Threshold.  A value greater than one
+     does not guarantee that the recognizer will provide the requested
+     number of alternatives.  This header field MAY occur in RECOGNIZE,
+     SET-PARAMS, or GET-PARAMS.  The minimum value for this header field
+     is 1.  The default value for this header field is 1.
+"fixed": |-
+  When the recognizer matches an incoming stream with the grammar, it may come up with more than one alternative match because of confidence levels in certain words or conversation paths.  If this header field is not specified, by default, the recognizer resource returns only the best match above the confidence threshold.  The client, by setting this header field, can ask the recognition resource to send it more than one alternative.  All alternatives must still be above the Confidence-Threshold.  A value greater than one does not guarantee that the recognizer will provide the requested number of alternatives.  This header field MAY occur in RECOGNIZE, SET-PARAMS, or GET-PARAMS.  The minimum value for this header field is 1.  The default value for this header field is 1.
+"ko": |-
+  인식기가 들어오는 스트림을 문법과 일치시킬 때 특정 단어나 대화 경로의 신뢰 수준 때문에 두 개 이상의 대체 일치 항목을 찾을 수 있습니다. 이 헤더 필드가 지정되지 않으면 기본적으로 인식기 리소스는 신뢰 임계값 위의 최상의 일치 항목만 반환합니다. 클라이언트는 이 헤더 필드를 설정하여 인식 리소스에 두 개 이상의 대체 항목을 보내도록 요청할 수 있습니다. 모든 대체 항목은 여전히 신뢰 임계값 위에 있어야 합니다. 1보다 큰 값은 인식기가 요청한 수의 대체 항목을 제공할 것이라는 보장이 없습니다. 이 헤더 필드는 RECOGNIZE, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다. 이 헤더 필드의 최소값은 1입니다. 이 헤더 필드의 기본값은 1입니다.

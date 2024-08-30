@@ -1,0 +1,17 @@
+"hash": |-
+  762207baebd7831e467792cdc80738ab70cdcda87701d193fbc7cc7ad674adc8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MUST query the WebFinger resource using HTTPS only.  If the
+     client determines that the resource has an invalid certificate, the
+     resource returns a 4xx or 5xx status code, or if the HTTPS connection
+     cannot be established for any reason, then the client MUST accept
+     that the WebFinger query has failed and MUST NOT attempt to reissue
+     the WebFinger request using HTTP over a non-secure connection.
+"fixed": |-
+  A client MUST query the WebFinger resource using HTTPS only.  If the client determines that the resource has an invalid certificate, the resource returns a 4xx or 5xx status code, or if the HTTPS connection cannot be established for any reason, then the client MUST accept that the WebFinger query has failed and MUST NOT attempt to reissue the WebFinger request using HTTP over a non-secure connection.
+"ko": |-
+  클라이언트는 반드시 HTTPS만을 사용하여 WebFinger 리소스를 쿼리해야 합니다. 클라이언트가 리소스에 유효하지 않은 인증서가 있다고 판단하면 리소스는 4xx 또는 5xx 상태 코드를 반환하거나 어떤 이유로든 HTTPS 연결을 설정할 수 없는 경우 클라이언트는 WebFinger 쿼리가 실패했음을 수락해야 하며 시도해서는 안 됩니다. 비보안 연결을 통해 HTTP를 사용하여 WebFinger 요청을 다시 발행하십시오.

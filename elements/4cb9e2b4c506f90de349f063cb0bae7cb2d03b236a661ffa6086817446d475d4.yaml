@@ -1,0 +1,21 @@
+"hash": |-
+  4cb9e2b4c506f90de349f063cb0bae7cb2d03b236a661ffa6086817446d475d4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     mailbox-data    =  "FLAGS" SP flag-list / "LIST" SP mailbox-list /
+                        esearch-response /
+                        "STATUS" SP mailbox SP "(" [status-att-list] ")" /
+                        number SP "EXISTS" / namespace-response /
+                        obsolete-search-response /
+                        obsolete-recent-response
+                         ; obsolete-search-response and
+                         ; obsolete-recent-response can only be returned
+                         ; by servers that support both IMAPrev1
+                         ; and IMAPrev2.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

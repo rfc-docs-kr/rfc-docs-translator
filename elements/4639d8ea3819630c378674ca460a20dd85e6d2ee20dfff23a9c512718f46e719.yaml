@@ -1,0 +1,21 @@
+"hash": |-
+  4639d8ea3819630c378674ca460a20dd85e6d2ee20dfff23a9c512718f46e719
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS [2] and DTLS [4] use a MAC-then-encrypt construction that was
+     regarded as secure at the time the original Secure Socket Layer (SSL)
+     protocol was specified in the mid-1990s, but that is no longer
+     regarded as secure [5] [6].  This construction, as used in TLS and
+     later DTLS, has been the subject of numerous security vulnerabilities
+     and attacks stretching over a period of many years.  This document
+     specifies a means of switching to the more secure encrypt-then-MAC
+     construction as part of the TLS/DTLS handshake, replacing the current
+     MAC-then-encrypt construction.  (In this document, "MAC" refers to
+     "Message Authentication Code".)
+"fixed": |-
+  TLS [2] and DTLS [4] use a MAC-then-encrypt construction that was regarded as secure at the time the original Secure Socket Layer (SSL) protocol was specified in the mid-1990s, but that is no longer regarded as secure [5] [6].  This construction, as used in TLS and later DTLS, has been the subject of numerous security vulnerabilities and attacks stretching over a period of many years.  This document specifies a means of switching to the more secure encrypt-then-MAC construction as part of the TLS/DTLS handshake, replacing the current MAC-then-encrypt construction.  (In this document, "MAC" refers to "Message Authentication Code".)
+"ko": |-
+  TLS [2] 및 DTLS [4]는 1990년대 중반에 원래의 SSL(Secure Socket Layer) 프로토콜이 지정되었을 당시에는 안전한 것으로 간주되었지만 더 이상 안전한 것으로 간주되지 않는 MAC-then-encrypt 구조를 사용합니다 [5] [6]. TLS 및 이후 DTLS에서 사용되는 이 구조는 수년에 걸쳐 수많은 보안 취약점과 공격의 대상이 되었습니다. 이 문서에서는 TLS/DTLS 핸드셰이크의 일부로 보다 안전한 암호화-then-MAC 구조로 전환하여 현재의 MAC-then-encrypt 구조를 대체하는 방법을 지정합니다. (이 문서에서 "MAC"은 "Message Authentication Code"를 의미합니다.)

@@ -1,0 +1,24 @@
+"hash": |-
+  c4886fc3be9838c32587fff3abc7d7390840403156f2b10506d63c8ddbb92304
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If certificate-based client authentication is used, the server will
+     see a stream of bytes where the initial bytes are protected but
+     unauthenticated by TLS and subsequent bytes are authenticated by TLS
+     and bound to the client's certificate.  In some protocols (notably
+     HTTPS), no distinction is made between pre- and post-authentication
+     stages and the bytes are handled uniformly, resulting in the server
+     believing that the initial traffic corresponds to the authenticated
+     client identity.  Even without certificate-based authentication, a
+     variety of attacks may be possible in which the attacker convinces
+     the server to accept data from it as data from the client.  For
+     instance, if HTTPS [RFC2818] is in use with HTTP cookies [RFC2965],
+     the attacker may be able to generate a request of his choice
+     validated by the client's cookie.
+"fixed": |-
+  If certificate-based client authentication is used, the server will see a stream of bytes where the initial bytes are protected but unauthenticated by TLS and subsequent bytes are authenticated by TLS and bound to the client's certificate.  In some protocols (notably HTTPS), no distinction is made between pre- and post-authentication stages and the bytes are handled uniformly, resulting in the server believing that the initial traffic corresponds to the authenticated client identity.  Even without certificate-based authentication, a variety of attacks may be possible in which the attacker convinces the server to accept data from it as data from the client.  For instance, if HTTPS [RFC2818] is in use with HTTP cookies [RFC2965], the attacker may be able to generate a request of his choice validated by the client's cookie.
+"ko": |-
+  인증서 기반 클라이언트 인증이 사용되는 경우 서버는 초기 바이트가 보호되지만 TLS에 의해 인증되지 않고 후속 바이트가 TLS에 의해 인증되어 클라이언트 인증서에 바인딩되는 바이트 스트림을 보게 됩니다. 일부 프로토콜(특히 HTTPS)에서는 사전 인증 단계와 사후 인증 단계를 구분하지 않고 바이트가 균일하게 처리되므로 서버는 초기 트래픽이 인증된 클라이언트 ID에 해당한다고 믿게 됩니다. 인증서 기반 인증이 없더라도 공격자가 서버의 데이터를 클라이언트의 데이터로 받아들이도록 서버를 설득하는 다양한 공격이 가능할 수 있습니다. 예를 들어, HTTPS [RFC2818]가 HTTP 쿠키 [RFC2965]와 함께 사용되는 경우 공격자는 클라이언트 쿠키에 의해 검증된 자신이 선택한 요청을 생성할 수 있습니다.

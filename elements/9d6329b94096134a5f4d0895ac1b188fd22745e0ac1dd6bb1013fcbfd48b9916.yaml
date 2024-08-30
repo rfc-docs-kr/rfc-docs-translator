@@ -1,0 +1,38 @@
+"hash": |-
+  9d6329b94096134a5f4d0895ac1b188fd22745e0ac1dd6bb1013fcbfd48b9916
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-------------------+--------------------+--------------------------+
+     | Current "job-     | New "job-state"    | Printer's response       |
+     | state"            |                    | status-code and action:  |
+     +-------------------+--------------------+--------------------------+
+     | 'pending'         | 'pending-held'     | 'successful-ok' (note 1) |
+     +-------------------+--------------------+--------------------------+
+     | 'pending'         | 'pending'          | 'successful-ok' (note 2) |
+     +-------------------+--------------------+--------------------------+
+     | 'pending-held'    | 'pending-held'     | 'successful-ok' (note 1) |
+     +-------------------+--------------------+--------------------------+
+     | 'pending-held'    | 'pending'          | 'successful-ok' (note 2) |
+     +-------------------+--------------------+--------------------------+
+     | 'processing'      | 'processing'       | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'processing-      | 'processing-       | 'client-error-not-       |
+     | stopped'          | stopped'           | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'completed'       | 'completed'        | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'canceled'        | 'canceled'         | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+     | 'aborted'         | 'aborted'          | 'client-error-not-       |
+     |                   |                    | possible'                |
+     +-------------------+--------------------+--------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

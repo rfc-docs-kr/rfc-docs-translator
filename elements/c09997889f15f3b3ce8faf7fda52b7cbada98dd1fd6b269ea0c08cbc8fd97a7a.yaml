@@ -1,0 +1,20 @@
+"hash": |-
+  c09997889f15f3b3ce8faf7fda52b7cbada98dd1fd6b269ea0c08cbc8fd97a7a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client has a certificate containing fixed Diffie-Hellman
+     parameters, its certificate contains the information required to
+     complete the key exchange. Note that in this case the client and
+     server will generate the same Diffie-Hellman result (i.e.,
+     pre_master_secret) every time they communicate. To prevent the
+     pre_master_secret from staying in memory any longer than necessary,
+     it should be converted into the master_secret as soon as possible.
+     Client Diffie-Hellman parameters must be compatible with those
+     supplied by the server for the key exchange to work.
+"fixed": |-
+  If the client has a certificate containing fixed Diffie-Hellman parameters, its certificate contains the information required to complete the key exchange. Note that in this case the client and server will generate the same Diffie-Hellman result (i.e., pre_master_secret) every time they communicate. To prevent the pre_master_secret from staying in memory any longer than necessary, it should be converted into the master_secret as soon as possible. Client Diffie-Hellman parameters must be compatible with those supplied by the server for the key exchange to work.
+"ko": |-
+  클라이언트에 고정된 Diffie-Hellman 매개변수가 포함된 인증서가 있는 경우 해당 인증서에는 키 교환을 완료하는 데 필요한 정보가 포함됩니다. 이 경우 클라이언트와 서버는 통신할 때마다 동일한 Diffie-Hellman 결과(예: pre_master_secret)를 생성합니다. pre_master_secret이 필요 이상으로 메모리에 오래 머무르는 것을 방지하려면 최대한 빨리 master_secret으로 변환해야 합니다. 키 교환이 작동하려면 클라이언트 Diffie-Hellman 매개변수가 서버에서 제공하는 매개변수와 호환되어야 합니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  67bb2fd92c9aa083e1dd23ff04624e3ac4e5ec88faf2dd0abbd899c852065aa4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint can send a CONNECTION_CLOSE frame in an Initial packet.
+     This might be in response to unauthenticated information received in
+     Initial or Handshake packets.  Such an immediate close might expose
+     legitimate connections to a denial of service.  QUIC does not include
+     defensive measures for on-path attacks during the handshake; see
+     Section 21.2.  However, at the cost of reducing feedback about errors
+     for legitimate peers, some forms of denial of service can be made
+     more difficult for an attacker if endpoints discard illegal packets
+     rather than terminating a connection with CONNECTION_CLOSE.  For this
+     reason, endpoints MAY discard packets rather than immediately close
+     if errors are detected in packets that lack authentication.
+"fixed": |-
+  An endpoint can send a CONNECTION_CLOSE frame in an Initial packet. This might be in response to unauthenticated information received in Initial or Handshake packets.  Such an immediate close might expose legitimate connections to a denial of service.  QUIC does not include defensive measures for on-path attacks during the handshake; see Section 21.2.  However, at the cost of reducing feedback about errors for legitimate peers, some forms of denial of service can be made more difficult for an attacker if endpoints discard illegal packets rather than terminating a connection with CONNECTION_CLOSE.  For this reason, endpoints MAY discard packets rather than immediately close if errors are detected in packets that lack authentication.
+"ko": |-
+  끝점은 초기 패킷에서 CONNECTION_CLOSE 프레임을 보낼 수 있습니다. 이는 초기 또는 핸드셰이크 패킷에서 수신된 인증되지 않은 정보에 대한 응답일 수 있습니다. 이러한 즉각적인 종료로 인해 합법적인 연결이 서비스 거부에 노출될 수 있습니다. QUIC에는 핸드셰이크 중 경로 공격에 대한 방어 조치가 포함되어 있지 않습니다. 섹션 21.2를 참조하세요. 그러나 합법적인 피어에 대한 오류에 대한 피드백을 줄이는 대신 엔드포인트가 CONNECTION_CLOSE로 연결을 종료하는 대신 불법 패킷을 삭제하는 경우 공격자가 일부 형태의 서비스 거부를 더 어렵게 만들 수 있습니다. 이러한 이유로 엔드포인트는 인증이 부족한 패킷에서 오류가 감지되면 즉시 닫는 대신 패킷을 삭제할 수 있습니다.

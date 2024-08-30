@@ -1,0 +1,23 @@
+"hash": |-
+  d84fce915443d0fb78453aac991e502c55557ae400d82fe633b3b887b33d3581
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     no_renegotiation
+         Sent by the client in response to a hello request or by the
+         server in response to a client hello after initial handshaking.
+         Either of these would normally lead to renegotiation; when that
+         is not appropriate, the recipient should respond with this alert;
+         at that point, the original requester can decide whether to
+         proceed with the connection. One case where this would be
+         appropriate would be where a server has spawned a process to
+         satisfy a request; the process might receive security parameters
+         (key length, authentication, etc.) at startup and it might be
+         difficult to communicate changes to these parameters after that
+         point. This message is always a warning.
+"fixed": |-
+  no_renegotiation  -   Sent by the client in response to a hello request or by the server in response to a client hello after initial handshaking. Either of these would normally lead to renegotiation; when that is not appropriate, the recipient should respond with this alert; at that point, the original requester can decide whether to proceed with the connection. One case where this would be appropriate would be where a server has spawned a process to satisfy a request; the process might receive security parameters (key length, authentication, etc.) at startup and it might be difficult to communicate changes to these parameters after that point. This message is always a warning.
+"ko": |-
+  no_renegotiation - hello 요청에 대한 응답으로 클라이언트가 전송하거나 초기 핸드셰이크 이후 클라이언트 hello에 대한 응답으로 서버가 전송합니다. 둘 중 하나는 일반적으로 재협상으로 이어집니다. 그것이 적절하지 않은 경우 수신자는 이 경고로 응답해야 합니다. 이 시점에서 원래 요청자는 연결을 계속할지 여부를 결정할 수 있습니다. 이것이 적절한 경우 중 하나는 서버가 요청을 충족하기 위해 프로세스를 생성한 경우입니다. 프로세스는 시작 시 보안 매개변수(키 길이, 인증 등)를 수신할 수 있으며 그 이후에는 이러한 매개변수에 대한 변경 사항을 전달하기 어려울 수 있습니다. 이 메시지는 항상 경고입니다.

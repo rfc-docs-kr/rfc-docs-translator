@@ -1,0 +1,17 @@
+"hash": |-
+  ebedd38c69d99ede5ae4b887766f4963aff726c26741455a0bbb0fc683ee08ba
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Any route associated with Target VPN T must be distributed to every
+     PE router that has a forwarding table associated with Target VPN T.
+     When such a route is received by a PE router, it is eligible to be
+     installed in each of the PE's per-site forwarding tables that is
+     associated with Target VPN T. (Whether it actually gets installed
+     depends on the outcome of the BGP decision process.)
+"fixed": |-
+  Any route associated with Target VPN T must be distributed to every PE router that has a forwarding table associated with Target VPN T. When such a route is received by a PE router, it is eligible to be installed in each of the PE's per-site forwarding tables that is associated with Target VPN T. (Whether it actually gets installed depends on the outcome of the BGP decision process.)
+"ko": |-
+  Target VPN T와 연관된 모든 경로는 Target VPN T와 연관된 포워딩 테이블이 있는 모든 PE 라우터에 배포되어야 합니다. 이러한 경로가 PE 라우터에 수신되면 Target VPN T와 연관된 각 PE의 사이트별 포워딩 테이블에 설치될 수 있습니다. (실제로 설치되는지 여부는 BGP 결정 프로세스의 결과에 따라 달라집니다.)

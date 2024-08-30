@@ -1,0 +1,22 @@
+"hash": |-
+  c7f05ead12bac594212b6bab4fe83895fa8906801f90045cbcf5a0cdc28abefc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To filter out background noise and not mistake it for speech, the
+     recognizer resource supports a variable level of sound sensitivity.
+     The Sensitivity-Level header field is a float value between 0.0 and
+     1.0 and allows the client to set the sensitivity level for the
+     recognizer.  This header field MAY occur in RECOGNIZE, SET-PARAMS, or
+     GET-PARAMS.  A higher value for this header field means higher
+     sensitivity.  The default value for this header field is
+     implementation specific, as is the interpretation of any specific
+     value for this header field.  Although values for servers from
+     different vendors are not comparable, it is expected that clients
+     will tune this value over time for a given server.
+"fixed": |-
+  To filter out background noise and not mistake it for speech, the recognizer resource supports a variable level of sound sensitivity. The Sensitivity-Level header field is a float value between 0.0 and 1.0 and allows the client to set the sensitivity level for the recognizer.  This header field MAY occur in RECOGNIZE, SET-PARAMS, or GET-PARAMS.  A higher value for this header field means higher sensitivity.  The default value for this header field is implementation specific, as is the interpretation of any specific value for this header field.  Although values for servers from different vendors are not comparable, it is expected that clients will tune this value over time for a given server.
+"ko": |-
+  배경 소음을 걸러내고 음성으로 착각하지 않기 위해 인식기 리소스는 가변적인 수준의 사운드 감도를 지원합니다. Sensitivity-Level 헤더 필드는 0.0과 1.0 사이의 float 값이며 클라이언트가 인식기의 감도 수준을 설정할 수 있도록 합니다. 이 헤더 필드는 RECOGNIZE, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다. 이 헤더 필드의 값이 높을수록 감도가 높아집니다. 이 헤더 필드의 기본값은 구현에 따라 다르며 이 헤더 필드의 특정 값에 대한 해석도 마찬가지입니다. 다른 공급업체의 서버에 대한 값은 비교할 수 없지만 클라이언트가 주어진 서버에 대해 시간이 지남에 따라 이 값을 조정할 것으로 예상됩니다.

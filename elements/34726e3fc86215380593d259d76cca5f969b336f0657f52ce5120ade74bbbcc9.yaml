@@ -1,0 +1,17 @@
+"hash": |-
+  34726e3fc86215380593d259d76cca5f969b336f0657f52ce5120ade74bbbcc9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If path validation of the server's preferred address succeeds, the
+     client MUST abandon validation of the original address and migrate to
+     using the server's preferred address.  If path validation of the
+     server's preferred address fails but validation of the server's
+     original address succeeds, the client MAY migrate to its new address
+     and continue sending to the server's original address.
+"fixed": |-
+  If path validation of the server's preferred address succeeds, the client MUST abandon validation of the original address and migrate to using the server's preferred address.  If path validation of the server's preferred address fails but validation of the server's original address succeeds, the client MAY migrate to its new address and continue sending to the server's original address.
+"ko": |-
+  서버의 기본 주소에 대한 경로 유효성 검사가 성공하면 클라이언트는 원래 주소의 유효성 검사를 포기하고 서버의 기본 주소를 사용하도록 마이그레이션해야 합니다. 서버의 기본 주소에 대한 경로 유효성 검사가 실패했지만 서버의 원래 주소 유효성 검사에 성공한 경우 클라이언트는 새 주소로 마이그레이션하고 서버의 원래 주소로 계속 보낼 수 있습니다.

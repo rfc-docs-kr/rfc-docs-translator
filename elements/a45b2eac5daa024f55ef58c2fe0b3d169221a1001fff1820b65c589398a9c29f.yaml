@@ -1,0 +1,16 @@
+"hash": |-
+  a45b2eac5daa024f55ef58c2fe0b3d169221a1001fff1820b65c589398a9c29f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In practice, some implementations strip leading relative symbolic
+     elements (".", "..") after applying a relative URI calculation, based
+     on the theory that compensating for obvious author errors is better
+     than allowing the request to fail.  Thus, the above two references
+     will be interpreted as "http://a/g" by some implementations.
+"fixed": |-
+  In practice, some implementations strip leading relative symbolic elements (".", "..") after applying a relative URI calculation, based on the theory that compensating for obvious author errors is better than allowing the request to fail.  Thus, the above two references will be interpreted as "http://a/g" by some implementations.
+"ko": |-
+  실제로 일부 구현에서는 명백한 작성자 오류를 보상하는 것이 요청 실패를 허용하는 것보다 낫다는 이론에 기초하여 상대 URI 계산을 적용한 후 선행 상대 기호 요소(".", "..")를 제거합니다. 따라서 위의 두 참조는 일부 구현에서 "http://a/g"로 해석됩니다.

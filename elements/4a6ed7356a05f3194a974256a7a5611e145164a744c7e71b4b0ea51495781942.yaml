@@ -1,0 +1,16 @@
+"hash": |-
+  4a6ed7356a05f3194a974256a7a5611e145164a744c7e71b4b0ea51495781942
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a 206 (Partial Content) response contains a Content-Range header
+     field with a range unit (Section 14.1) that the recipient does not
+     understand, the recipient MUST NOT attempt to recombine it with a
+     stored representation.  A proxy that receives such a message SHOULD
+     forward it downstream.
+"fixed": |-
+  If a 206 (Partial Content) response contains a Content-Range header field with a range unit (Section 14.1) that the recipient does not understand, the recipient MUST NOT attempt to recombine it with a stored representation.  A proxy that receives such a message SHOULD forward it downstream.
+"ko": |-
+  206(부분 콘텐츠) 응답에 수신자가 이해할 수 없는 범위 단위(섹션 14.1)가 있는 Content-Range 헤더 필드가 포함되어 있는 경우 수신자는 이를 저장된 표현과 재결합하려고 시도해서는 안 됩니다. 그러한 메시지를 수신한 프록시는 이를 다운스트림으로 전달해야 합니다.

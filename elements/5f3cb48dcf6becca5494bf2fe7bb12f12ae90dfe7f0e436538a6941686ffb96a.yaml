@@ -1,0 +1,15 @@
+"hash": |-
+  5f3cb48dcf6becca5494bf2fe7bb12f12ae90dfe7f0e436538a6941686ffb96a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     allow some limited number of connections in this "half-open" state
+     and when this limit is reached, no more connections can be initiated,
+     even from legitimate hosts.  Note that this attack is a blind attack,
+     since the attacker does not need to process the victim's SYNs.
+"fixed": |-
+  allow some limited number of connections in this "half-open" state and when this limit is reached, no more connections can be initiated, even from legitimate hosts.  Note that this attack is a blind attack, since the attacker does not need to process the victim's SYNs.
+"ko": |-
+  이 "반 개방" 상태에서는 제한된 수의 연결을 허용하고 이 제한에 도달하면 합법적인 호스트에서도 더 이상 연결을 시작할 수 없습니다. 공격자가 피해자의 SYN을 처리할 필요가 없기 때문에 이 공격은 맹목적인 공격입니다.

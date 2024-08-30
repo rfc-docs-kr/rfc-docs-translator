@@ -1,0 +1,19 @@
+"hash": |-
+  a6d127ca712f00abec6ea44347b2c377ee607d1b1538fbf1472027a9b12f4666
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Idempotent methods are distinguished because the request can be
+     repeated automatically if a communication failure occurs before the
+     client is able to read the server's response.  For example, if a
+     client sends a PUT request and the underlying connection is closed
+     before any response is received, then the client can establish a new
+     connection and retry the idempotent request.  It knows that repeating
+     the request will have the same intended effect, even if the original
+     request succeeded, though the response might differ.
+"fixed": |-
+  Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.  For example, if a client sends a PUT request and the underlying connection is closed before any response is received, then the client can establish a new connection and retry the idempotent request.  It knows that repeating the request will have the same intended effect, even if the original request succeeded, though the response might differ.
+"ko": |-
+  멱등성 메서드는 클라이언트가 서버의 응답을 읽을 수 있기 전에 통신 오류가 발생하는 경우 요청이 자동으로 반복될 수 있다는 점에서 구별됩니다. 예를 들어 클라이언트가 PUT 요청을 보내고 응답이 수신되기 전에 기본 연결이 닫히면 클라이언트는 새 연결을 설정하고 멱등성 요청을 다시 시도할 수 있습니다. 요청을 반복하면 원래 요청이 성공하더라도 응답이 다를 수 있지만 의도한 것과 동일한 효과가 있다는 것을 알고 있습니다.

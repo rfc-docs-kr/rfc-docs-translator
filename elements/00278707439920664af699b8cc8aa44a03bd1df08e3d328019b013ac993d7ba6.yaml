@@ -1,0 +1,16 @@
+"hash": |-
+  00278707439920664af699b8cc8aa44a03bd1df08e3d328019b013ac993d7ba6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Per the previous rules, a 'multipart/mixed' body whose handling is
+        optional can contain body parts whose handling is required.  In
+        such case, the receiver is required to process the body parts
+        whose handling is required if and only if the receiver decides to
+        process the optional 'multipart/mixed' body.
+"fixed": |-
+  - Per the previous rules, a 'multipart/mixed' body whose handling is optional can contain body parts whose handling is required.  In such case, the receiver is required to process the body parts whose handling is required if and only if the receiver decides to process the optional 'multipart/mixed' body.
+"ko": |-
+  - 이전 규칙에 따라, 처리가 선택 사항인 '다중 부분/혼합' 본문에는 처리가 필요한 본문 부분이 포함될 수 있습니다. 그런 경우, 수신자는 수신자가 선택 사항인 '다중 부분/혼합' 본문을 처리하기로 결정한 경우에만 처리가 필요한 본문 부분을 처리해야 합니다.

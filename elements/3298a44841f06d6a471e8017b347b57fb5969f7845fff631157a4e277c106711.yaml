@@ -1,0 +1,15 @@
+"hash": |-
+  3298a44841f06d6a471e8017b347b57fb5969f7845fff631157a4e277c106711
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server SHOULD NOT use the From header field for access control or
+     authentication, since its value is expected to be visible to anyone
+     receiving or observing the request and is often recorded within
+     logfiles and error reports without any expectation of privacy.
+"fixed": |-
+  A server SHOULD NOT use the From header field for access control or authentication, since its value is expected to be visible to anyone receiving or observing the request and is often recorded within logfiles and error reports without any expectation of privacy.
+"ko": |-
+  서버는 액세스 제어 또는 인증을 위해 From 헤더 필드를 사용해서는 안 됩니다. 그 값은 요청을 수신하거나 관찰하는 모든 사람에게 표시될 것으로 예상되고 개인 정보 보호를 기대하지 않고 로그 파일 및 오류 보고서 내에 기록되는 경우가 많기 때문입니다.

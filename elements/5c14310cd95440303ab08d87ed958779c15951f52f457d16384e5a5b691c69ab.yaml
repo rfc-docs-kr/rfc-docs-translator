@@ -1,0 +1,18 @@
+"hash": |-
+  5c14310cd95440303ab08d87ed958779c15951f52f457d16384e5a5b691c69ab
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When using a reliable transport protocol like the Stream Control
+     Transmission Protocol (SCTP) or TCP, HeartbeatRequest messages only
+     need to be sent once.  The transport layer will handle
+     retransmissions.  If no corresponding HeartbeatResponse message has
+     been received after some amount of time, the DTLS/TLS connection MAY
+     be terminated by the application that initiated the sending of the
+     HeartbeatRequest message.
+"fixed": |-
+  When using a reliable transport protocol like the Stream Control Transmission Protocol (SCTP) or TCP, HeartbeatRequest messages only need to be sent once.  The transport layer will handle retransmissions.  If no corresponding HeartbeatResponse message has been received after some amount of time, the DTLS/TLS connection MAY be terminated by the application that initiated the sending of the HeartbeatRequest message.
+"ko": |-
+  SCTP(스트림 제어 전송 프로토콜) 또는 TCP와 같은 안정적인 전송 프로토콜을 사용하는 경우 HeartbeatRequest 메시지는 한 번만 전송하면 됩니다.  전송 계층은 재전송을 처리합니다.  일정 시간이 지난 후에도 해당 HeartbeatResponse 메시지가 수신되지 않으면 HeartbeatRequest 메시지 전송을 시작한 애플리케이션에 의해 DTLS/TLS 연결이 종료될 수 있습니다.

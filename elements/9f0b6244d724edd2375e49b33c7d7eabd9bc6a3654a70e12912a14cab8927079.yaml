@@ -1,0 +1,19 @@
+"hash": |-
+  9f0b6244d724edd2375e49b33c7d7eabd9bc6a3654a70e12912a14cab8927079
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each connection ID has an associated sequence number to assist in
+     detecting when NEW_CONNECTION_ID or RETIRE_CONNECTION_ID frames refer
+     to the same value.  The initial connection ID issued by an endpoint
+     is sent in the Source Connection ID field of the long packet header
+     (Section 17.2) during the handshake.  The sequence number of the
+     initial connection ID is 0.  If the preferred_address transport
+     parameter is sent, the sequence number of the supplied connection ID
+     is 1.
+"fixed": |-
+  Each connection ID has an associated sequence number to assist in detecting when NEW_CONNECTION_ID or RETIRE_CONNECTION_ID frames refer to the same value.  The initial connection ID issued by an endpoint is sent in the Source Connection ID field of the long packet header (Section 17.2) during the handshake.  The sequence number of the initial connection ID is 0.  If the preferred_address transport parameter is sent, the sequence number of the supplied connection ID is 1.
+"ko": |-
+  각 연결 ID에는 NEW_CONNECTION_ID 또는 RETIRE_CONNECTION_ID 프레임이 동일한 값을 참조하는 경우를 감지하는 데 도움이 되는 관련 시퀀스 번호가 있습니다. 끝점에서 발급한 초기 연결 ID는 핸드셰이크 중에 긴 패킷 헤더(17.2절)의 원본 연결 ID 필드로 전송됩니다. 초기 연결 ID의 시퀀스 번호는 0입니다. Preferred_address 전송 매개변수가 전송되면 제공된 연결 ID의 시퀀스 번호는 1입니다.

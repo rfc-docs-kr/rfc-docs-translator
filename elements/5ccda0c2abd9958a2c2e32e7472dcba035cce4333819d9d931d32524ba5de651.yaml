@@ -1,0 +1,16 @@
+"hash": |-
+  5ccda0c2abd9958a2c2e32e7472dcba035cce4333819d9d931d32524ba5de651
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  The server MUST check if the "renegotiation_info" extension is
+        included in the ClientHello.  If the extension is present, set
+        secure_renegotiation flag to TRUE.  The server MUST then verify
+        that the length of the "renegotiated_connection" field is zero,
+        and if it is not, MUST abort the handshake.
+"fixed": |-
+  -  The server MUST check if the "renegotiation_info" extension is included in the ClientHello.  If the extension is present, set secure_renegotiation flag to TRUE.  The server MUST then verify that the length of the "renegotiated_connection" field is zero, and if it is not, MUST abort the handshake.
+"ko": |-
+  - 서버는 "renegotiation_info" 확장이 ClientHello에 포함되어 있는지 확인해야 합니다. 확장이 있는 경우 secure_renegotiation 플래그를 TRUE로 설정합니다. 그런 다음 서버는 "renegotiated_connection" 필드의 길이가 0인지 확인해야 하며, 그렇지 않은 경우 핸드셰이크를 중단해야 합니다.

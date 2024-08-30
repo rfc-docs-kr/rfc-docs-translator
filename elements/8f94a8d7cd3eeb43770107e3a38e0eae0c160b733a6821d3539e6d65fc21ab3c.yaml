@@ -1,0 +1,17 @@
+"hash": |-
+  8f94a8d7cd3eeb43770107e3a38e0eae0c160b733a6821d3539e6d65fc21ab3c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When RSA is used for key exchange, clients are authenticated using
+     the certificate verify message (see Section 7.4.8). The client signs
+     a value derived from the master_secret and all preceding handshake
+     messages. These handshake messages include the server certificate,
+     which binds the signature to the server, and ServerHello.random,
+     which binds the signature to the current handshake process.
+"fixed": |-
+  When RSA is used for key exchange, clients are authenticated using the certificate verify message (see Section 7.4.8). The client signs a value derived from the master_secret and all preceding handshake messages. These handshake messages include the server certificate, which binds the signature to the server, and ServerHello.random, which binds the signature to the current handshake process.
+"ko": |-
+  RSA가 키 교환에 사용될 때 클라이언트는 인증서 확인 메시지를 사용하여 인증됩니다(섹션 7.4.8 참조). 클라이언트는 master_secret 및 이전의 모든 핸드셰이크 메시지에서 파생된 값에 서명합니다. 이러한 핸드셰이크 메시지에는 서명을 서버에 바인딩하는 서버 인증서와 서명을 현재 핸드셰이크 프로세스에 바인딩하는 ServerHello.random이 포함됩니다.

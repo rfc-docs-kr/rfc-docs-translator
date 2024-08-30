@@ -1,0 +1,16 @@
+"hash": |-
+  f8ce90648f60db9ca65198fd7a0fbc24eb42378f0c2dd82644643f41a5dd8062
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint can send a PING or another ack-eliciting frame to test
+     the connection for liveness if the peer could time out soon, such as
+     within a PTO; see Section 6.2 of [QUIC-RECOVERY].  This is especially
+     useful if any available application data cannot be safely retried.
+     Note that the application determines what data is safe to retry.
+"fixed": |-
+  An endpoint can send a PING or another ack-eliciting frame to test the connection for liveness if the peer could time out soon, such as within a PTO; see Section 6.2 of [QUIC-RECOVERY].  This is especially useful if any available application data cannot be safely retried. Note that the application determines what data is safe to retry.
+"ko": |-
+  PTO 내에서와 같이 피어가 곧 시간 초과될 수 있는 경우 엔드포인트는 PING 또는 다른 승인 유도 프레임을 보내 연결의 활성 상태를 테스트할 수 있습니다. [QUIC-RECOVERY]의 섹션 6.2를 참조하세요. 이는 사용 가능한 애플리케이션 데이터를 안전하게 재시도할 수 없는 경우 특히 유용합니다. 애플리케이션은 재시도해도 안전한 데이터를 결정합니다.

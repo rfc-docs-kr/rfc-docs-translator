@@ -1,0 +1,28 @@
+"hash": |-
+  6ee97620015fad791d45ff62bda8cd705ea6bd20b773a255d8d2935edf249d6a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The non-synchronizing literal is an alternative form of synchronizing
+     literal and may be used from client to server anywhere a
+     synchronizing literal is permitted.  The non-synchronizing literal
+     form MUST NOT be sent from server to client.  The non-synchronizing
+     literal is distinguished from the synchronizing literal by having a
+     plus ("+") between the octet count and the closing brace ("}").  The
+     server does not generate a command continuation request in response
+     to a non-synchronizing literal, and clients are not required to wait
+     before sending the octets of a non-synchronizing literal.  Unless
+     otherwise specified in an IMAP extension, non-synchronizing literals
+     MUST NOT be larger than 4096 octets.  Any literal larger than 4096
+     bytes MUST be sent as a synchronizing literal.  (Non-synchronizing
+     literals defined in this document are the same as non-synchronizing
+     literals defined by the LITERAL- extension from [RFC7888].  See that
+     document for details on how to handle invalid non-synchronizing
+     literals longer than 4096 octets and for interaction with other IMAP
+     extensions.)
+"fixed": |-
+  The non-synchronizing literal is an alternative form of synchronizing literal and may be used from client to server anywhere a synchronizing literal is permitted.  The non-synchronizing literal form MUST NOT be sent from server to client.  The non-synchronizing literal is distinguished from the synchronizing literal by having a plus ("+") between the octet count and the closing brace ("}").  The server does not generate a command continuation request in response to a non-synchronizing literal, and clients are not required to wait before sending the octets of a non-synchronizing literal.  Unless otherwise specified in an IMAP extension, non-synchronizing literals MUST NOT be larger than 4096 octets.  Any literal larger than 4096 bytes MUST be sent as a synchronizing literal.  (Non-synchronizing literals defined in this document are the same as non-synchronizing literals defined by the LITERAL- extension from [RFC7888].  See that document for details on how to handle invalid non-synchronizing literals longer than 4096 octets and for interaction with other IMAP extensions.)
+"ko": |-
+  비동기화 리터럴은 동기화 리터럴의 대체 형식이며 동기화 리터럴이 허용되는 모든 곳에서 클라이언트에서 서버로 사용될 수 있습니다.  비동기화 리터럴 형식은 서버에서 클라이언트로 전송되어서는 안 됩니다.  비동기화 리터럴은 옥텟 수와 닫는 중괄호("}") 사이에 더하기("+")를 사용하여 동기화 리터럴과 구별됩니다.  서버는 비동기화 리터럴에 대한 응답으로 명령 연속 요청을 생성하지 않으며 클라이언트는 비동기화 리터럴의 옥텟을 보내기 전에 기다릴 필요가 없습니다.  IMAP 확장에 달리 지정되지 않는 한, 비동기화 리터럴은 4096 옥텟보다 커서는 안 됩니다.  4096바이트보다 큰 리터럴은 반드시 동기화 리터럴로 전송되어야 합니다.  (이 문서에 정의된 비동기화 리터럴은 [RFC7888]의 LITERAL- 확장에 의해 정의된 비동기화 리터럴과 동일합니다. 4096 옥텟보다 긴 유효하지 않은 비동기화 리터럴을 처리하는 방법과 다음과의 상호 작용에 대한 자세한 내용은 해당 문서를 참조하세요. 다른 IMAP 확장자.)

@@ -1,0 +1,18 @@
+"hash": |-
+  9360ab58a2de73a3097e10e8d4554c3246808c0f9992bf46a23441196786b45a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The grammar definition for the Via field's "received-by" was expanded
+     in RFC 7230 due to changes in the URI grammar for host [URI] that are
+     not desirable for Via. For simplicity, we have removed uri-host from
+     the received-by production because it can be encompassed by the
+     existing grammar for pseudonym.  In particular, this change removed
+     comma from the allowed set of characters for a host name in received-
+     by.  (Section 7.6.3)
+"fixed": |-
+  The grammar definition for the Via field's "received-by" was expanded in RFC 7230 due to changes in the URI grammar for host [URI] that are not desirable for Via. For simplicity, we have removed uri-host from the received-by production because it can be encompassed by the existing grammar for pseudonym.  In particular, this change removed comma from the allowed set of characters for a host name in received- by.  (Section 7.6.3)
+"ko": |-
+  Via 필드의 "received-by"에 대한 문법 정의는 Via에 바람직하지 않은 호스트 [URI]에 대한 URI 문법의 변경으로 인해 RFC 7230에서 확장되었습니다. 단순화를 위해 uri-host는 가명에 대한 기존 문법에 포함될 수 있으므로 수신자 프로덕션에서 제거했습니다. 특히 이번 변경으로 received-by의 호스트 이름에 허용되는 문자 집합에서 쉼표가 제거되었습니다. (섹션 7.6.3)

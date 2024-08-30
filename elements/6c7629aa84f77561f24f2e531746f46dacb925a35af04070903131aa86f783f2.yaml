@@ -1,0 +1,17 @@
+"hash": |-
+  6c7629aa84f77561f24f2e531746f46dacb925a35af04070903131aa86f783f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint could miss acknowledgments for a packet when ACK frames
+     are lost.  It is therefore possible for the total increase in ECT(0),
+     ECT(1), and ECN-CE counts to be greater than the number of packets
+     that are newly acknowledged by an ACK frame.  This is why ECN counts
+     are permitted to be larger than the total number of packets that are
+     acknowledged.
+"fixed": |-
+  An endpoint could miss acknowledgments for a packet when ACK frames are lost.  It is therefore possible for the total increase in ECT(0), ECT(1), and ECN-CE counts to be greater than the number of packets that are newly acknowledged by an ACK frame.  This is why ECN counts are permitted to be larger than the total number of packets that are acknowledged.
+"ko": |-
+  ACK 프레임이 손실되면 엔드포인트에서 패킷에 대한 승인이 누락될 수 있습니다. 따라서 ECT(0), ECT(1) 및 ECN-CE 수의 총 증가가 ACK 프레임에서 새로 승인된 패킷 수보다 클 수 있습니다. 이것이 바로 ECN 수가 승인된 총 패킷 수보다 큰 것이 허용되는 이유입니다.

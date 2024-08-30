@@ -1,0 +1,16 @@
+"hash": |-
+  21a29d34301990220a6a9274fe43134ef9bcf02524841790da788beb8f42d227
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "session_hash" depends upon a handshake log that includes
+     "ClientHello.random" and "ServerHello.random", in addition to
+     ciphersuites, key exchange information, and certificates (if any)
+     from the client and server.  Consequently, the extended master secret
+     depends upon the choice of all these session parameters.
+"fixed": |-
+  The "session_hash" depends upon a handshake log that includes "ClientHello.random" and "ServerHello.random", in addition to ciphersuites, key exchange information, and certificates (if any) from the client and server.  Consequently, the extended master secret depends upon the choice of all these session parameters.
+"ko": |-
+  "session_hash"는 클라이언트와 서버의 암호 모음, 키 교환 정보, 인증서(있는 경우) 외에도 "ClientHello.random"과 "ServerHello.random"을 포함하는 핸드셰이크 로그에 따라 달라집니다. 결과적으로 확장된 마스터 비밀은 이러한 모든 세션 매개변수의 선택에 따라 달라집니다.

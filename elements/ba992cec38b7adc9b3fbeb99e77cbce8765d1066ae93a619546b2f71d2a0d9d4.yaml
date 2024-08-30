@@ -1,0 +1,29 @@
+"hash": |-
+  ba992cec38b7adc9b3fbeb99e77cbce8765d1066ae93a619546b2f71d2a0d9d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           If a MULTI_EXIT_DISC attribute is removed before re-advertising
+           a route into IBGP, then comparison based on the received EBGP
+           MULTI_EXIT_DISC attribute MAY still be performed.  If an
+           implementation chooses to remove MULTI_EXIT_DISC, then the
+           optional comparison on MULTI_EXIT_DISC, if performed, MUST be
+           performed only among EBGP-learned routes.  The best EBGP-
+           learned route may then be compared with IBGP-learned routes
+           after the removal of the MULTI_EXIT_DISC attribute.  If
+           MULTI_EXIT_DISC is removed from a subset of EBGP-learned
+           routes, and the selected "best" EBGP-learned route will not
+           have MULTI_EXIT_DISC removed, then the MULTI_EXIT_DISC must be
+           used in the comparison with IBGP-learned routes.  For IBGP-
+           learned routes, the MULTI_EXIT_DISC MUST be used in route
+           comparisons that reach this step in the Decision Process.
+           Including the MULTI_EXIT_DISC of an EBGP-learned route in the
+           comparison with an IBGP-learned route, then removing the
+           MULTI_EXIT_DISC attribute, and advertising the route has been
+           proven to cause route loops.
+"fixed": |-
+  - If a MULTI_EXIT_DISC attribute is removed before re-advertising a route into IBGP, then comparison based on the received EBGP MULTI_EXIT_DISC attribute MAY still be performed.  If an implementation chooses to remove MULTI_EXIT_DISC, then the optional comparison on MULTI_EXIT_DISC, if performed, MUST be performed only among EBGP-learned routes.  The best EBGP- learned route may then be compared with IBGP-learned routes after the removal of the MULTI_EXIT_DISC attribute.  If MULTI_EXIT_DISC is removed from a subset of EBGP-learned routes, and the selected "best" EBGP-learned route will not have MULTI_EXIT_DISC removed, then the MULTI_EXIT_DISC must be used in the comparison with IBGP-learned routes.  For IBGP- learned routes, the MULTI_EXIT_DISC MUST be used in route comparisons that reach this step in the Decision Process. Including the MULTI_EXIT_DISC of an EBGP-learned route in the comparison with an IBGP-learned route, then removing the MULTI_EXIT_DISC attribute, and advertising the route has been proven to cause route loops.
+"ko": |-
+  - 경로를 IBGP로 다시 광고하기 전에 MULTI_EXIT_DISC 속성이 제거된 경우 수신된 EBGP MULTI_EXIT_DISC 속성을 기반으로 한 비교가 계속 수행될 수 있습니다. 구현이 MULTI_EXIT_DISC를 제거하기로 선택한 경우 MULTI_EXIT_DISC에 대한 선택적 비교가 수행되는 경우 EBGP 학습 경로 중에서만 수행되어야 합니다. MULTI_EXIT_DISC 속성을 제거한 후 최상의 EBGP 학습 경로를 IBGP 학습 경로와 비교할 수 있습니다. MULTI_EXIT_DISC가 EBGP 학습 경로의 하위 집합에서 제거되고 선택된 "최상의" EBGP 학습 경로에서 MULTI_EXIT_DISC가 제거되지 않는 경우 IBGP 학습 경로와 비교할 때 MULTI_EXIT_DISC를 사용해야 합니다. IBGP 학습 경로의 경우 결정 프로세스의 이 단계에 도달하는 경로 비교에 MULTI_EXIT_DISC를 사용해야 합니다. IBGP에서 학습한 경로와 비교할 때 EBGP에서 학습한 경로의 MULTI_EXIT_DISC를 포함시킨 다음 MULTI_EXIT_DISC 속성을 제거하고 경로를 광고하면 경로 루프가 발생하는 것으로 입증되었습니다.

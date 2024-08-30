@@ -1,0 +1,16 @@
+"hash": |-
+  53e8845cb4490eaba6dc90a686d1f0db349d77e0e1d67a319a96af52bf7a4185
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Packets that are matched to an existing connection are discarded if
+     the packets are inconsistent with the state of that connection.  For
+     example, packets are discarded if they indicate a different protocol
+     version than that of the connection or if the removal of packet
+     protection is unsuccessful once the expected keys are available.
+"fixed": |-
+  Packets that are matched to an existing connection are discarded if the packets are inconsistent with the state of that connection.  For example, packets are discarded if they indicate a different protocol version than that of the connection or if the removal of packet protection is unsuccessful once the expected keys are available.
+"ko": |-
+  기존 연결과 일치하는 패킷이 해당 연결 상태와 일치하지 않으면 삭제됩니다. 예를 들어, 연결 프로토콜 버전과 다른 프로토콜 버전을 나타내는 경우 또는 예상 키를 사용할 수 있는 경우 패킷 보호 제거에 실패하는 경우 패킷이 삭제됩니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  cc11ecf381206a8f41a799bb96638ac7fb2b51733d9b21f94d2837716d7f6bde
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a BGP speaker receives an UPDATE message from an internal peer,
+     the receiving BGP speaker SHALL NOT re-distribute the routing
+     information contained in that UPDATE message to other internal peers
+     (unless the speaker acts as a BGP Route Reflector [RFC2796]).
+"fixed": |-
+  When a BGP speaker receives an UPDATE message from an internal peer, the receiving BGP speaker SHALL NOT re-distribute the routing information contained in that UPDATE message to other internal peers (unless the speaker acts as a BGP Route Reflector [RFC2796]).
+"ko": |-
+  BGP 스피커가 내부 피어로부터 UPDATE 메시지를 수신하면 수신 BGP 스피커는 해당 UPDATE 메시지에 포함된 라우팅 정보를 다른 내부 피어에게 재배포해서는 안 됩니다(스피커가 BGP 경로 반사기[RFC2796]로 작동하지 않는 한).

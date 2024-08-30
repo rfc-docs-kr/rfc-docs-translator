@@ -1,0 +1,1 @@
+1. 원하는 직렬화된 출력을 만듭니다. 이 결과의 JWS Compact Serialization은 BASE64URL(UTF8(JWS Protected Header)) || '.' || BASE64URL(JWS Payload) || '.' || BASE64URL(JWS Signature)입니다. JWS JSON Serialization은 섹션 7.2에 설명되어 있습니다.

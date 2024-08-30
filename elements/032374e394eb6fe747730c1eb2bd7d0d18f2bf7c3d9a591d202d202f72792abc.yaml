@@ -1,0 +1,20 @@
+"hash": |-
+  032374e394eb6fe747730c1eb2bd7d0d18f2bf7c3d9a591d202d202f72792abc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When an endpoint is unable to expand the datagram size to 1200 bytes
+     due to the anti-amplification limit, the path MTU will not be
+     validated.  To ensure that the path MTU is large enough, the endpoint
+     MUST perform a second path validation by sending a PATH_CHALLENGE
+     frame in a datagram of at least 1200 bytes.  This additional
+     validation can be performed after a PATH_RESPONSE is successfully
+     received or when enough bytes have been received on the path that
+     sending the larger datagram will not result in exceeding the anti-
+     amplification limit.
+"fixed": |-
+  When an endpoint is unable to expand the datagram size to 1200 bytes due to the anti-amplification limit, the path MTU will not be validated.  To ensure that the path MTU is large enough, the endpoint MUST perform a second path validation by sending a PATH_CHALLENGE frame in a datagram of at least 1200 bytes.  This additional validation can be performed after a PATH_RESPONSE is successfully received or when enough bytes have been received on the path that sending the larger datagram will not result in exceeding the anti- amplification limit.
+"ko": |-
+  증폭 방지 제한으로 인해 엔드포인트에서 데이터그램 크기를 1200바이트로 확장할 수 없는 경우 경로 MTU가 검증되지 않습니다. 경로 MTU가 충분히 큰지 확인하려면 엔드포인트는 최소 1200바이트의 데이터그램으로 PATH_CHALLENGE 프레임을 전송하여 두 번째 경로 유효성 검사를 수행해야 합니다. 이 추가 검증은 PATH_RESPONSE가 성공적으로 수신된 후 또는 더 큰 데이터그램을 보내도 증폭 방지 제한을 초과하지 않을 만큼 경로에서 충분한 바이트가 수신된 후에 수행될 수 있습니다.

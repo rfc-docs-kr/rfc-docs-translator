@@ -1,0 +1,15 @@
+"hash": |-
+  89f707f8ad61e9c4412e8521510b76b59624cda72aaf56e641fe0ca1482a8c5d
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         iv_block                = PRF("", "IV block", client_random +
+                                       server_random)[0..15]
+         client_write_IV = iv_block[0..7]
+         server_write_IV = iv_block[8..15]
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

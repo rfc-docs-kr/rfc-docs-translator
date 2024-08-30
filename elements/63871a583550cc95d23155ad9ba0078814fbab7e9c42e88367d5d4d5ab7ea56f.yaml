@@ -1,0 +1,13 @@
+"hash": |-
+  63871a583550cc95d23155ad9ba0078814fbab7e9c42e88367d5d4d5ab7ea56f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  When the handshake has completed, the server needs to save the
+        client_verify_data and server_verify_data values for future use.
+"fixed": |-
+  -  When the handshake has completed, the server needs to save the client_verify_data and server_verify_data values for future use.
+"ko": |-
+  - 핸드셰이크가 완료되면 서버는 나중에 사용할 수 있도록 client_verify_data 및 server_verify_data 값을 저장해야 합니다.

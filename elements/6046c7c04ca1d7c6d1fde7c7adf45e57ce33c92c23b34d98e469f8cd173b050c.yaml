@@ -1,0 +1,15 @@
+"hash": |-
+  6046c7c04ca1d7c6d1fde7c7adf45e57ce33c92c23b34d98e469f8cd173b050c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  NEW_TOKEN frames are retransmitted if the packet containing them
+        is lost.  No special support is made for detecting reordered and
+        duplicated NEW_TOKEN frames other than a direct comparison of the
+        frame contents.
+"fixed": |-
+  *  NEW_TOKEN frames are retransmitted if the packet containing them is lost.  No special support is made for detecting reordered and duplicated NEW_TOKEN frames other than a direct comparison of the frame contents.
+"ko": |-
+  * NEW_TOKEN 프레임은 해당 프레임이 포함된 패킷이 손실된 경우 재전송됩니다. 프레임 내용을 직접 비교하는 것 외에 재정렬 및 ​​중복된 NEW_TOKEN 프레임을 감지하기 위한 특별한 지원은 제공되지 않습니다.

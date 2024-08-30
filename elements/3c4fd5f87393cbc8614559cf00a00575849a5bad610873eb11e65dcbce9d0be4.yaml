@@ -1,0 +1,20 @@
+"hash": |-
+  3c4fd5f87393cbc8614559cf00a00575849a5bad610873eb11e65dcbce9d0be4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The phrase "the BGP connection is closed" means the TCP connection
+     has been closed, the associated Adj-RIB-In has been cleared, and all
+     resources for that BGP connection have been deallocated.  Entries in
+     the Loc-RIB associated with the remote peer are marked as invalid.
+     The local system recalculates its best routes for the destinations of
+     the routes marked as invalid.  Before the invalid routes are deleted
+     from the system, it advertises, to its peers, either withdraws for
+     the routes marked as invalid, or the new best routes before the
+     invalid routes are deleted from the system.
+"fixed": |-
+  The phrase "the BGP connection is closed" means the TCP connection has been closed, the associated Adj-RIB-In has been cleared, and all resources for that BGP connection have been deallocated.  Entries in the Loc-RIB associated with the remote peer are marked as invalid. The local system recalculates its best routes for the destinations of the routes marked as invalid.  Before the invalid routes are deleted from the system, it advertises, to its peers, either withdraws for the routes marked as invalid, or the new best routes before the invalid routes are deleted from the system.
+"ko": |-
+  "BGP 연결이 닫혔습니다"라는 문구는 TCP 연결이 닫혔고, 연결된 Adj-RIB-In이 지워졌으며, 해당 BGP 연결에 대한 모든 리소스가 할당 취소되었음을 의미합니다. 원격 피어와 연결된 Loc-RIB의 항목은 유효하지 않은 것으로 표시됩니다. 로컬 시스템은 유효하지 않은 것으로 표시된 경로의 목적지에 대한 최적의 경로를 다시 계산합니다. 유효하지 않은 경로가 시스템에서 삭제되기 전에 유효하지 않은 것으로 표시된 경로에 대해 철회하거나 유효하지 않은 경로가 시스템에서 삭제되기 전에 새로운 최상의 경로를 동료에게 알립니다.

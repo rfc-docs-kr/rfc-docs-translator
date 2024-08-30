@@ -1,0 +1,15 @@
+"hash": |-
+  233667752be95565362709b39eeec071b00ef2235e9593e3fd4839fb7ca4f74f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Use of the LOGIN command sends passwords in the clear.  This can be
+     avoided by using the AUTHENTICATE command with a [SASL] mechanism
+     that does not use plaintext passwords, by first negotiating
+     encryption via STARTTLS or some other protection mechanism.
+"fixed": |-
+  Use of the LOGIN command sends passwords in the clear.  This can be avoided by using the AUTHENTICATE command with a [SASL] mechanism that does not use plaintext passwords, by first negotiating encryption via STARTTLS or some other protection mechanism.
+"ko": |-
+  LOGIN 명령을 사용하면 비밀번호가 암호화되지 않은 상태로 전송됩니다.  이는 일반 텍스트 비밀번호를 사용하지 않는 [SASL] 메커니즘과 함께 AUTHENTICATE 명령을 사용하고 먼저 STARTTLS 또는 기타 보호 메커니즘을 통해 암호화를 협상함으로써 방지할 수 있습니다.

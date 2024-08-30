@@ -1,0 +1,19 @@
+"hash": |-
+  503d1371b0d1292bd3384222ecd514061aede9b1fb60855c307ffed0e4a45023
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PMTUD [RFC1191] [RFC8201] relies on reception of ICMP messages (that
+     is, IPv6 Packet Too Big (PTB) messages) that indicate when an IP
+     packet is dropped because it is larger than the local router MTU.
+     DPLPMTUD can also optionally use these messages.  This use of ICMP
+     messages is potentially vulnerable to attacks by entities that cannot
+     observe packets but might successfully guess the addresses used on
+     the path.  These attacks could reduce the PMTU to a bandwidth-
+     inefficient value.
+"fixed": |-
+  PMTUD [RFC1191] [RFC8201] relies on reception of ICMP messages (that is, IPv6 Packet Too Big (PTB) messages) that indicate when an IP packet is dropped because it is larger than the local router MTU. DPLPMTUD can also optionally use these messages.  This use of ICMP messages is potentially vulnerable to attacks by entities that cannot observe packets but might successfully guess the addresses used on the path.  These attacks could reduce the PMTU to a bandwidth- inefficient value.
+"ko": |-
+  PMTUD [RFC1191] [RFC8201]은 IP 패킷이 로컬 라우터 MTU보다 크기 때문에 삭제되는 시기를 나타내는 ICMP 메시지(즉, IPv6 PTB(Packet Too Big) 메시지) 수신에 의존합니다. DPLPMTUD는 선택적으로 이러한 메시지를 사용할 수도 있습니다. 이러한 ICMP 메시지 사용은 패킷을 관찰할 수 없지만 경로에 사용된 주소를 성공적으로 추측할 수 있는 엔터티의 공격에 잠재적으로 취약합니다. 이러한 공격은 PMTU를 대역폭이 비효율적인 값으로 줄일 수 있습니다.

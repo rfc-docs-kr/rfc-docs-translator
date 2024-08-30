@@ -1,0 +1,18 @@
+"hash": |-
+  b5dd47b65d67058830a359eaa4108ef744dc4e2224da2c8fcff4cd3242e5ba85
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For the ~128-bit security level, the prime 2^255 - 19 is recommended
+     for performance on a wide range of architectures.  Few primes of the
+     form 2^c-s with s small exist between 2^250 and 2^521, and other
+     choices of coefficient are not as competitive in performance.  This
+     prime is congruent to 1 mod 4, and the derivation procedure in
+     Appendix A results in the following Montgomery curve
+     v^2 = u^3 + A*u^2 + u, called "curve25519":
+"fixed": |-
+  For the ~128-bit security level, the prime 2^255 - 19 is recommended for performance on a wide range of architectures.  Few primes of the form 2^c-s with s small exist between 2^250 and 2^521, and other choices of coefficient are not as competitive in performance.  This prime is congruent to 1 mod 4, and the derivation procedure in Appendix A results in the following Montgomery curve v^2 = u^3 + A*u^2 + u, called "curve25519":
+"ko": |-
+  ~128비트 보안 수준의 경우 광범위한 아키텍처의 성능을 위해 소수 2^255 - 19가 권장됩니다. s가 작은 2^c-s 형식의 소수는 2^250과 2^521 사이에 존재하며 다른 계수 선택은 성능 면에서 그다지 경쟁력이 없습니다. 이 소수는 1 mod 4와 합동이며 부록 A의 유도 절차에 따라 "curve25519"라고 하는 다음과 같은 몽고메리 곡선 v^2 = u^3 + A*u^2 + u가 생성됩니다.

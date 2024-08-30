@@ -1,0 +1,22 @@
+"hash": |-
+  c2a2e2436927369012889d89c030b9f4fa112471cb1574fdb33b4076b60e0f30
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Routing information that the BGP speaker uses to forward packets (or
+     to construct the forwarding table used for packet forwarding) is
+     maintained in the Routing Table.  The Routing Table accumulates
+     routes to directly connected networks, static routes, routes learned
+     from the IGP protocols, and routes learned from BGP.  Whether a
+     specific BGP route should be installed in the Routing Table, and
+     whether a BGP route should override a route to the same destination
+     installed by another source, is a local policy decision, and is not
+     specified in this document.  In addition to actual packet forwarding,
+     the Routing Table is used for resolution of the next-hop addresses
+     specified in BGP updates (see Section 5.1.3).
+"fixed": |-
+  Routing information that the BGP speaker uses to forward packets (or to construct the forwarding table used for packet forwarding) is maintained in the Routing Table.  The Routing Table accumulates routes to directly connected networks, static routes, routes learned from the IGP protocols, and routes learned from BGP.  Whether a specific BGP route should be installed in the Routing Table, and whether a BGP route should override a route to the same destination installed by another source, is a local policy decision, and is not specified in this document.  In addition to actual packet forwarding, the Routing Table is used for resolution of the next-hop addresses specified in BGP updates (see Section 5.1.3).
+"ko": |-
+  BGP 스피커가 패킷을 전달하기 위해(또는 패킷 전달에 사용되는 전달 테이블을 구성하기 위해) 사용하는 라우팅 정보는 라우팅 테이블에 유지됩니다. 라우팅 테이블에는 직접 연결된 네트워크에 대한 경로, 정적 경로, IGP 프로토콜에서 학습된 경로 및 BGP에서 학습된 경로가 누적됩니다. 라우팅 테이블에 특정 BGP 경로를 설치해야 하는지 여부와 BGP 경로가 다른 소스에 의해 설치된 동일한 대상에 대한 경로를 재정의해야 하는지 여부는 로컬 정책 결정이며 이 문서에서는 지정되지 않습니다. 실제 패킷 전달 외에도 라우팅 테이블은 BGP 업데이트에 지정된 다음 홉 주소를 확인하는 데 사용됩니다(섹션 5.1.3 참조).

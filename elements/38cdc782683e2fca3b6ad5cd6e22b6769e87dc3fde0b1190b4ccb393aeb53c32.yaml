@@ -1,0 +1,16 @@
+"hash": |-
+  38cdc782683e2fca3b6ad5cd6e22b6769e87dc3fde0b1190b4ccb393aeb53c32
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TRYCREATE
+        An APPEND, COPY, or MOVE attempt is failing because the target
+        mailbox does not exist (as opposed to some other reason).  This is
+        a hint to the client that the operation can succeed if the mailbox
+        is first created by the CREATE command.
+"fixed": |-
+  TRYCREATE  -  An APPEND, COPY, or MOVE attempt is failing because the target mailbox does not exist (as opposed to some other reason).  This is a hint to the client that the operation can succeed if the mailbox is first created by the CREATE command.
+"ko": |-
+  TRYCREATE - 다른 이유와는 반대로 대상 사서함이 존재하지 않기 때문에 APPEND, COPY 또는 MOVE 시도가 실패합니다.  이는 CREATE 명령으로 사서함을 처음 생성한 경우 작업이 성공할 수 있다는 것을 클라이언트에게 알려주는 힌트입니다.

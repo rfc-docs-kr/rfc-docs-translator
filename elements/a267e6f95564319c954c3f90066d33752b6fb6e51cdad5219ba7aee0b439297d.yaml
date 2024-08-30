@@ -1,0 +1,15 @@
+"hash": |-
+  a267e6f95564319c954c3f90066d33752b6fb6e51cdad5219ba7aee0b439297d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     AuthenticatedSafe ::= SEQUENCE OF ContentInfo
+         -- Data if unencrypted
+         -- EncryptedData if password-encrypted
+         -- EnvelopedData if public key-encrypted
+"fixed": |-
+  AuthenticatedSafe ::= SEQUENCE OF ContentInfo  -   -- Data if unencrypted -- EncryptedData if password-encrypted -- EnvelopedData if public key-encrypted
+"ko": |-
+  AuthenticatedSafe ::= ContentInfo의 SEQUENCE - -- 암호화되지 않은 경우 Data -- 암호로 암호화된 경우 EncryptedData -- 공개 키로 암호화된 경우 EnvelopedData

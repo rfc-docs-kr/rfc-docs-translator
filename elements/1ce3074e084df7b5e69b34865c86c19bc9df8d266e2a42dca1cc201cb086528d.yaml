@@ -1,0 +1,21 @@
+"hash": |-
+  1ce3074e084df7b5e69b34865c86c19bc9df8d266e2a42dca1cc201cb086528d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The AES Key Wrap with Padding algorithm can be used to wrap a key of
+     any practical size with an AES key.  The AES key-encryption key (KEK)
+     must be 128, 192, or 256 bits.  The input key data may be as short as
+     one octet, which will result in an output of two 64-bit blocks (or 16
+     octets).  Although the AES Key Wrap algorithm does not place a
+     maximum bound on the size of the key data that can be wrapped, this
+     extension does so.  The use of a 32-bit fixed field to carry the
+     octet length of the key data bounds the size of the input at 2^32
+     octets.  Most systems will have other factors that limit the
+     practical size of key data to much less than 2^32 octets.
+"fixed": |-
+  The AES Key Wrap with Padding algorithm can be used to wrap a key of any practical size with an AES key.  The AES key-encryption key (KEK) must be 128, 192, or 256 bits.  The input key data may be as short as one octet, which will result in an output of two 64-bit blocks (or 16 octets).  Although the AES Key Wrap algorithm does not place a maximum bound on the size of the key data that can be wrapped, this extension does so.  The use of a 32-bit fixed field to carry the octet length of the key data bounds the size of the input at 2^32 octets.  Most systems will have other factors that limit the practical size of key data to much less than 2^32 octets.
+"ko": |-
+  패딩을 사용한 AES 키 래핑 알고리즘을 사용하면 실제 크기의 키를 AES 키로 래핑할 수 있습니다. AES 키 암호화 키(KEK)는 128, 192 또는 256비트여야 합니다. 입력 키 데이터는 1옥텟만큼 짧을 수 있으며, 이로 인해 두 개의 64비트 블록(또는 16옥텟)이 출력됩니다. AES 키 래핑 알고리즘은 래핑할 수 있는 키 데이터의 크기에 대한 최대 한계를 지정하지 않지만 이 확장은 그렇게 합니다. 키 데이터의 옥텟 길이를 전달하기 위해 32비트 고정 필드를 사용하면 입력 크기가 2^32 옥텟으로 제한됩니다. 대부분의 시스템에는 주요 데이터의 실제 크기를 2^32 옥텟보다 훨씬 작게 제한하는 다른 요소가 있습니다.

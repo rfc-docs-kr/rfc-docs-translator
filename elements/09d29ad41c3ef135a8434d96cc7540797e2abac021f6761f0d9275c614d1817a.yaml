@@ -1,0 +1,14 @@
+"hash": |-
+  09d29ad41c3ef135a8434d96cc7540797e2abac021f6761f0d9275c614d1817a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  When a ClientHello is received, the server MUST check if it
+        includes the TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV.  If it does,
+        set the secure_renegotiation flag to TRUE.
+"fixed": |-
+  -  When a ClientHello is received, the server MUST check if it includes the TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV.  If it does, set the secure_renegotiation flag to TRUE.
+"ko": |-
+  - ClientHello가 수신되면 서버는 TLS_EMPTY_RENEGOTIATION_INFO_SCSV SCSV를 포함하는지 확인해야 합니다. 그렇다면 secure_renegotiation 플래그를 TRUE로 설정하십시오.

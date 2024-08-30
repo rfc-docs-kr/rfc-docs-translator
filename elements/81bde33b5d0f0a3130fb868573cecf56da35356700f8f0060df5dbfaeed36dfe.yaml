@@ -1,0 +1,18 @@
+"hash": |-
+  81bde33b5d0f0a3130fb868573cecf56da35356700f8f0060df5dbfaeed36dfe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server MAY limit the availability of Media Segments by removing
+     Media Segments from the Playlist file (Section 6.2.1).  If Media
+     Segments are to be removed, the Playlist file MUST contain an EXT-X-
+     MEDIA-SEQUENCE tag.  Its value MUST be incremented by 1 for every
+     Media Segment that is removed from the Playlist file; it MUST NOT
+     decrease or wrap.  Clients can malfunction if each Media Segment does
+     not have a consistent, unique Media Sequence Number.
+"fixed": |-
+  The server MAY limit the availability of Media Segments by removing Media Segments from the Playlist file (Section 6.2.1).  If Media Segments are to be removed, the Playlist file MUST contain an EXT-X- MEDIA-SEQUENCE tag.  Its value MUST be incremented by 1 for every Media Segment that is removed from the Playlist file; it MUST NOT decrease or wrap.  Clients can malfunction if each Media Segment does not have a consistent, unique Media Sequence Number.
+"ko": |-
+  서버는 재생 목록 파일에서 미디어 세그먼트를 제거하여 미디어 세그먼트의 가용성을 제한할 수 있습니다(섹션 6.2.1). 미디어 세그먼트를 제거하려면 재생 목록 파일에 EXT-X-MEDIA-SEQUENCE 태그가 포함되어야 합니다. 해당 값은 재생 목록 파일에서 제거되는 모든 미디어 세그먼트에 대해 1씩 증가해야 합니다. 줄어들거나 포장되어서는 안 됩니다. 각 미디어 세그먼트에 일관되고 고유한 미디어 시퀀스 번호가 없으면 클라이언트가 오작동할 수 있습니다.

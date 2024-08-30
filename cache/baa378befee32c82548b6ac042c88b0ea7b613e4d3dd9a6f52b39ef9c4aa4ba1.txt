@@ -1,0 +1,1 @@
+WebFinger 리소스는 "Same-Origin" 정책으로 인해 웹 브라우저에서 액세스하지 못할 수도 있습니다. 현재 모범 사례는 CORS(Cross-Origin Resource Sharing)[7]를 통해 브라우저에서 리소스를 사용할 수 있도록 하는 것이며, 서버는 응답에 Access-Control-Allow-Origin HTTP 헤더를 포함해야 합니다. 서버는 WebFinger 리소스에 대한 모든 도메인 액세스를 허용하여 최소한의 제한 설정을 지원해야 합니다.

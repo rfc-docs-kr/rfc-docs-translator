@@ -1,0 +1,16 @@
+"hash": |-
+  ff37913274f770ed6ddeaaa2d529a7a5e819c107179e2f736e8520ae4e6cb1be
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Content-Range might also be sent as a request modifier to request a
+     partial PUT, as described in Section 14.5, based on private
+     agreements between client and origin server.  A server MUST ignore a
+     Content-Range header field received in a request with a method for
+     which Content-Range support is not defined.
+"fixed": |-
+  Content-Range might also be sent as a request modifier to request a partial PUT, as described in Section 14.5, based on private agreements between client and origin server.  A server MUST ignore a Content-Range header field received in a request with a method for which Content-Range support is not defined.
+"ko": |-
+  Content-Range는 클라이언트와 원본 서버 간의 비공개 계약을 기반으로 섹션 14.5에 설명된 대로 부분 PUT를 요청하기 위한 요청 수정자로 전송될 수도 있습니다. 서버는 Content-Range 지원이 정의되지 않은 메소드를 사용하여 요청에서 수신된 Content-Range 헤더 필드를 무시해야 합니다(MUST).

@@ -1,0 +1,27 @@
+"hash": |-
+  bd0c07c4cfd58f60829f1f1f3a420cda7b59c7e7f139789aa918859060b14470
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A TLS connection state is the operating environment of the TLS Record
+     Protocol.  It specifies a compression algorithm, and encryption
+     algorithm, and a MAC algorithm.  In addition, the parameters for
+     these algorithms are known: the MAC secret and the bulk encryption
+     keys for the connection in both the read and the write directions.
+     Logically, there are always four connection states outstanding: the
+     current read and write states, and the pending read and write states.
+     All records are processed under the current read and write states.
+     The security parameters for the pending states can be set by the TLS
+     Handshake Protocol, and the Change Cipher Spec can selectively make
+     either of the pending states current, in which case the appropriate
+     current state is disposed of and replaced with the pending state; the
+     pending state is then reinitialized to an empty state.  It is illegal
+     to make a state that has not been initialized with security
+     parameters a current state.  The initial current state always
+     specifies that no encryption, compression, or MAC will be used.
+"fixed": |-
+  A TLS connection state is the operating environment of the TLS Record Protocol.  It specifies a compression algorithm, and encryption algorithm, and a MAC algorithm.  In addition, the parameters for these algorithms are known: the MAC secret and the bulk encryption keys for the connection in both the read and the write directions. Logically, there are always four connection states outstanding: the current read and write states, and the pending read and write states. All records are processed under the current read and write states. The security parameters for the pending states can be set by the TLS Handshake Protocol, and the Change Cipher Spec can selectively make either of the pending states current, in which case the appropriate current state is disposed of and replaced with the pending state; the pending state is then reinitialized to an empty state.  It is illegal to make a state that has not been initialized with security parameters a current state.  The initial current state always specifies that no encryption, compression, or MAC will be used.
+"ko": |-
+  TLS 연결 상태는 TLS 레코드 프로토콜의 운영 환경입니다. 압축 알고리즘, 암호화 알고리즘, MAC 알고리즘을 지정합니다. 또한 이러한 알고리즘의 매개변수는 읽기 및 쓰기 방향의 연결을 위한 MAC 비밀 및 대량 암호화 키로 알려져 있습니다. 논리적으로 항상 4가지 연결 상태, 즉 현재 읽기 및 쓰기 상태와 보류 중인 읽기 및 쓰기 상태가 있습니다. 모든 레코드는 현재 읽기 및 쓰기 상태에서 처리됩니다. 보류 상태에 대한 보안 매개변수는 TLS 핸드셰이크 프로토콜에 의해 설정될 수 있으며, 암호화 사양 변경은 보류 상태 중 하나를 선택적으로 현재 상태로 만들 수 있습니다. 이 경우 적절한 현재 상태는 삭제되고 보류 상태로 대체됩니다. 그런 다음 보류 상태는 빈 상태로 다시 초기화됩니다. 보안 매개변수로 초기화되지 않은 상태를 현재 상태로 만드는 것은 불법입니다. 초기 현재 상태에서는 항상 암호화, 압축 또는 MAC가 사용되지 않음을 지정합니다.

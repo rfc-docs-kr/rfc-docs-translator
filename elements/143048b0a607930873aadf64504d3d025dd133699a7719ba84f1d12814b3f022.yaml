@@ -1,0 +1,28 @@
+"hash": |-
+  143048b0a607930873aadf64504d3d025dd133699a7719ba84f1d12814b3f022
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       +--------+                               +---------------+
+       |        |--(A)- Authorization Request ->|   Resource    |
+       |        |                               |     Owner     |
+       |        |<-(B)-- Authorization Grant ---|               |
+       |        |                               +---------------+
+       |        |
+       |        |                               +---------------+
+       |        |--(C)-- Authorization Grant -->| Authorization |
+       | Client |                               |     Server    |
+       |        |<-(D)----- Access Token -------|               |
+       |        |                               +---------------+
+       |        |
+       |        |                               +---------------+
+       |        |--(E)----- Access Token ------>|    Resource   |
+       |        |                               |     Server    |
+       |        |<-(F)--- Protected Resource ---|               |
+       +--------+                               +---------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,17 @@
+"hash": |-
+  c83d6a525aae954b73d537a46d0b6443ab321aa7039ec69081e00f87a295032b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For this attack, an attacker must actively change one or more
+     handshake messages. If this occurs, the client and server will
+     compute different values for the handshake message hashes. As a
+     result, the parties will not accept each others' finished messages.
+     Without the master_secret, the attacker cannot repair the finished
+     messages, so the attack will be discovered.
+"fixed": |-
+  For this attack, an attacker must actively change one or more handshake messages. If this occurs, the client and server will compute different values for the handshake message hashes. As a result, the parties will not accept each others' finished messages. Without the master_secret, the attacker cannot repair the finished messages, so the attack will be discovered.
+"ko": |-
+  이 공격의 경우 공격자는 하나 이상의 핸드셰이크 메시지를 적극적으로 변경해야 합니다. 이런 일이 발생하면 클라이언트와 서버는 핸드셰이크 메시지 해시에 대해 서로 다른 값을 계산합니다. 결과적으로 당사자들은 서로의 완료된 메시지를 수락하지 않습니다. master_secret이 없으면 공격자는 완료된 메시지를 복구할 수 없으므로 공격이 발견됩니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  535b7c8603fa163c652be6fa295f83306160734ef9b99573e3a44484bb5e5bc4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  'job-hold-until-specified': The value of the Job's
+        "job-hold-until" attribute was specified with a time period that
+        is still in the future.  The Job MUST NOT be a candidate for
+        processing until this reason is removed and there are no other
+        reasons to hold the Job.  This value SHOULD be supported if the
+        "job-hold-until" Job Template attribute is supported.
+"fixed": |-
+  -  'job-hold-until-specified': The value of the Job's "job-hold-until" attribute was specified with a time period that is still in the future.  The Job MUST NOT be a candidate for processing until this reason is removed and there are no other reasons to hold the Job.  This value SHOULD be supported if the "job-hold-until" Job Template attribute is supported.
+"ko": |-
+  - 'job-hold-until-specified': 작업의 "job-hold-until" 속성 값이 아직 미래의 기간으로 지정되었습니다. Job은 이 이유가 제거되고 Job을 보류할 다른 이유가 없을 때까지 처리 후보가 되어서는 안 됩니다. "job-hold-until" 작업 템플릿 속성이 지원되는 경우 이 값을 지원해야 합니다.

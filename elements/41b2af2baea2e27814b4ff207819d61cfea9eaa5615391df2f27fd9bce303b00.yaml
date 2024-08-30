@@ -1,0 +1,17 @@
+"hash": |-
+  41b2af2baea2e27814b4ff207819d61cfea9eaa5615391df2f27fd9bce303b00
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+              -----------------------------------------------------------
+        IPv4  | new IP hdr* |     | orig IP hdr*  |   |    | ESP   | ESP|
+              |(any options)| ESP | (any options) |TCP|Data|Trailer| ICV|
+              -----------------------------------------------------------
+                                  |<--------- encryption --------->|
+                            |<------------- integrity ------------>|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

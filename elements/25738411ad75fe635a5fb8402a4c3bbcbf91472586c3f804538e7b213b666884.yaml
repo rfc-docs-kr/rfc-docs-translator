@@ -1,0 +1,19 @@
+"hash": |-
+  25738411ad75fe635a5fb8402a4c3bbcbf91472586c3f804538e7b213b666884
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  Resource contexts created and maintained by the AFTR SHOULD be
+         based on the delegated IPv6 prefix instead of the B4's IPv6
+         address.  The AFTR derives the delegated prefix from the B4's
+         IPv6 address by means of a configured subscriber-mask
+         (Section 3).  Administrators SHOULD configure per-prefix limits
+         of resource usage, instead of per-tunnel limits.  These resources
+         include the maximum number of active flows, the maximum number of
+         PCP-created mappings, NAT pool resources, etc.
+"fixed": |-
+  1.  Resource contexts created and maintained by the AFTR SHOULD be based on the delegated IPv6 prefix instead of the B4's IPv6 address.  The AFTR derives the delegated prefix from the B4's IPv6 address by means of a configured subscriber-mask (Section 3).  Administrators SHOULD configure per-prefix limits of resource usage, instead of per-tunnel limits.  These resources include the maximum number of active flows, the maximum number of PCP-created mappings, NAT pool resources, etc.
+"ko": |-
+  1. AFTR이 생성하고 유지하는 리소스 컨텍스트는 B4의 IPv6 주소 대신 위임된 IPv6 접두사를 기반으로 해야 합니다.  AFTR은 구성된 가입자 마스크(섹션 3)를 통해 B4의 IPv6 주소에서 위임된 접두사를 파생합니다.  관리자는 터널당 제한 대신 리소스 사용량의 접두사당 제한을 구성해야 합니다.  이러한 리소스에는 최대 활성 흐름 수, PCP 생성 매핑의 최대 수, NAT 풀 리소스 등이 포함됩니다.

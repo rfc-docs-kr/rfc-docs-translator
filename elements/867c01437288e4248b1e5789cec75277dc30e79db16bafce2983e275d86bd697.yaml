@@ -1,0 +1,17 @@
+"hash": |-
+  867c01437288e4248b1e5789cec75277dc30e79db16bafce2983e275d86bd697
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Cancellation of stream transmission, as carried in a RESET_STREAM
+        frame, is sent until acknowledged or until all stream data is
+        acknowledged by the peer (that is, either the "Reset Recvd" or
+        "Data Recvd" state is reached on the sending part of the stream).
+        The content of a RESET_STREAM frame MUST NOT change when it is
+        sent again.
+"fixed": |-
+  *  Cancellation of stream transmission, as carried in a RESET_STREAM frame, is sent until acknowledged or until all stream data is acknowledged by the peer (that is, either the "Reset Recvd" or "Data Recvd" state is reached on the sending part of the stream). The content of a RESET_STREAM frame MUST NOT change when it is sent again.
+"ko": |-
+  * RESET_STREAM 프레임에 포함된 스트림 전송 취소는 승인될 때까지 또는 모든 스트림 데이터가 피어에 의해 승인될 때까지(즉, 송신 측에서 "Reset Recvd" 또는 "Data Recvd" 상태에 도달할 때까지) 전송됩니다. 스트림). RESET_STREAM 프레임의 내용은 다시 전송될 때 변경되어서는 안 됩니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  18daa106eaac465302daadff8a7ec2fd832082f3cb5ef4f2a6d68167d30fbb65
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This attribute identifies the Output Device to which the Printer has
+     assigned this Job.  If an Output Device implements an embedded
+     Printer, the Printer SHOULD set this attribute.  If a print server
+     implements a Printer, the value MAY be empty (zero-length string) or
+     not returned until the Printer assigns an Output Device to the Job.
+     This attribute is particularly useful when a single Printer supports
+     multiple devices (so-called "fan-out" -- see Section 3.1).
+"fixed": |-
+  This attribute identifies the Output Device to which the Printer has assigned this Job.  If an Output Device implements an embedded Printer, the Printer SHOULD set this attribute.  If a print server implements a Printer, the value MAY be empty (zero-length string) or not returned until the Printer assigns an Output Device to the Job. This attribute is particularly useful when a single Printer supports multiple devices (so-called "fan-out" -- see Section 3.1).
+"ko": |-
+  이 속성은 프린터가 이 작업을 할당한 출력 장치를 식별합니다. 출력 장치가 내장된 프린터를 구현하는 경우 프린터는 이 속성을 설정해야 합니다. 인쇄 서버가 프린터를 구현하는 경우 값은 비어 있거나(길이가 0인 문자열) 프린터가 출력 장치를 작업에 할당할 때까지 반환되지 않을 수 있습니다. 이 속성은 단일 프린터가 여러 장치(소위 "팬아웃" - 섹션 3.1 참조)를 지원할 때 특히 유용합니다.

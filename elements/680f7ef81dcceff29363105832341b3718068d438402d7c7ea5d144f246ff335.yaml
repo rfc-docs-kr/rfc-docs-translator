@@ -1,0 +1,22 @@
+"hash": |-
+  680f7ef81dcceff29363105832341b3718068d438402d7c7ea5d144f246ff335
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        C: a001 CAPABILITY
+        S: * CAPABILITY IMAP4rev2 STARTTLS LOGINDISABLED
+        S: a001 OK CAPABILITY completed
+        C: a002 STARTTLS
+        S: a002 OK Begin TLS negotiation now
+        <TLS negotiation, further commands are under TLS layer>
+        C: a003 CAPABILITY
+        S: * CAPABILITY IMAP4rev2 AUTH=PLAIN
+        S: a003 OK CAPABILITY completed
+        C: a004 AUTHENTICATE PLAIN dGVzdAB0ZXN0AHRlc3Q=
+        S: a004 OK Success (tls protection)
+"fixed": |-
+  - C: a001 CAPABILITY S: * CAPABILITY IMAP4rev2 STARTTLS LOGINDISABLED S: a001 OK CAPABILITY completed C: a002 STARTTLS S: a002 OK Begin TLS negotiation now <TLS negotiation, further commands are under TLS layer> C: a003 CAPABILITY S: * CAPABILITY IMAP4rev2 AUTH=PLAIN S: a003 OK CAPABILITY completed C: a004 AUTHENTICATE PLAIN dGVzdAB0ZXN0AHRlc3Q= S: a004 OK Success (tls protection)
+"ko": |-
+  - C: a001 CAPABILITY S: * CAPABILITY IMAP4rev2 STARTTLS LOGINDISABLED S: a001 OK CAPABILITY Complete C: a002 STARTTLS S: a002 OK 지금 TLS 협상 시작 <TLS 협상, 추가 명령은 TLS 레이어에 있음> C: a003 CAPABILITY S: * CAPABILITY IMAP4rev2 AUTH=PLAIN S: a003 OK 기능 완료 C: a004 AUTHENTICATE PLAIN dGVzdAB0ZXN0AHRlc3Q= S: a004 OK 성공(tls 보호)

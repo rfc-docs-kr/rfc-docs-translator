@@ -1,0 +1,18 @@
+"hash": |-
+  eb316400f88f9e2f56ec2cc6a25d72910497865d3225456cfd39b423598fe4c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Packets containing PADDING frames are considered to be in flight for
+     congestion control purposes [QUIC-RECOVERY].  Packets containing only
+     PADDING frames therefore consume congestion window but do not
+     generate acknowledgments that will open the congestion window.  To
+     avoid a deadlock, a sender SHOULD ensure that other frames are sent
+     periodically in addition to PADDING frames to elicit acknowledgments
+     from the receiver.
+"fixed": |-
+  Packets containing PADDING frames are considered to be in flight for congestion control purposes [QUIC-RECOVERY].  Packets containing only PADDING frames therefore consume congestion window but do not generate acknowledgments that will open the congestion window.  To avoid a deadlock, a sender SHOULD ensure that other frames are sent periodically in addition to PADDING frames to elicit acknowledgments from the receiver.
+"ko": |-
+  PADDING 프레임을 포함하는 패킷은 혼잡 제어 목적 [QUIC-RECOVERY]을 위해 비행 중인 것으로 간주됩니다. 따라서 PADDING 프레임만 포함하는 패킷은 혼잡 창을 사용하지만 혼잡 창을 여는 승인을 생성하지 않습니다. 교착 상태를 피하기 위해 발신자는 수신자로부터 승인을 유도하기 위해 PADDING 프레임 외에 다른 프레임도 주기적으로 전송되도록 해야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  e00053197a78cae4f410b8913c09f1e9822ef5ff6b088e9870c743e53ee11cb1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For any of the attributes for which the Printer object generates
+        text, i.e., for the "job-state-message", "printer-state-message",
+        and status messages (see Section 4.1.6), the Printer object MUST
+        be able to generate these text strings in any of its supported
+        natural languages.  If the Client requests a natural language that
+        is not supported, the Printer object MUST return these generated
+        messages in the Printer's configured natural language as specified
+        by the Printer's "natural-language-configured" attribute (see
+        Section 5.4.19).
+"fixed": |-
+  - For any of the attributes for which the Printer object generates text, i.e., for the "job-state-message", "printer-state-message", and status messages (see Section 4.1.6), the Printer object MUST be able to generate these text strings in any of its supported natural languages.  If the Client requests a natural language that is not supported, the Printer object MUST return these generated messages in the Printer's configured natural language as specified by the Printer's "natural-language-configured" attribute (see Section 5.4.19).
+"ko": |-
+  - Printer 객체가 텍스트를 생성하는 모든 속성, 즉 "job-state-message", "printer-state-message" 및 상태 메시지(섹션 4.1.6 참조)에 대해 Printer 객체는 다음과 같아야 합니다. 지원되는 자연 언어로 이러한 텍스트 문자열을 생성할 수 있습니다. 클라이언트가 지원되지 않는 자연 언어를 요청하는 경우 프린터 개체는 프린터의 "natural-lang-configured" 속성(섹션 5.4.19 참조)에 지정된 대로 프린터의 구성된 자연 언어로 생성된 메시지를 반환해야 합니다.

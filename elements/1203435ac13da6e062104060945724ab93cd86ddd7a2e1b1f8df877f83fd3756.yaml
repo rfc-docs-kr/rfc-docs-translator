@@ -1,0 +1,15 @@
+"hash": |-
+  1203435ac13da6e062104060945724ab93cd86ddd7a2e1b1f8df877f83fd3756
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A proxy forwarding a request MUST NOT modify any Authorization header
+     fields in that request.  See Section 3.5 of [CACHING] for details of
+     and requirements pertaining to handling of the Authorization header
+     field by HTTP caches.
+"fixed": |-
+  A proxy forwarding a request MUST NOT modify any Authorization header fields in that request.  See Section 3.5 of [CACHING] for details of and requirements pertaining to handling of the Authorization header field by HTTP caches.
+"ko": |-
+  요청을 전달하는 프록시는 해당 요청의 Authorization 헤더 필드를 수정해서는 안 됩니다. HTTP 캐시에 의한 Authorization 헤더 필드 처리에 관한 세부 사항 및 요구 사항은 [CACHING]의 섹션 3.5를 참조하세요.

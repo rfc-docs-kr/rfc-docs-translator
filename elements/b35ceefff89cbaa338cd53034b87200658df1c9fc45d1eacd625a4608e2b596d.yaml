@@ -1,0 +1,19 @@
+"hash": |-
+  b35ceefff89cbaa338cd53034b87200658df1c9fc45d1eacd625a4608e2b596d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Num-Max-Verification-Phrases header field is used to specify the
+     number of valid utterances required before a decision is forced for
+     verification.  The verifier resource MUST NOT return a decision of
+     'undecided' once Num-Max-Verification-Phrases have been collected and
+     used to determine a verification score.  The value for this header
+     field is an integer and the minimum value is 1.  The default value is
+     implementation specific.  This header field MAY occur in START-
+     SESSION, SET-PARAMS, or GET-PARAMS.
+"fixed": |-
+  The Num-Max-Verification-Phrases header field is used to specify the number of valid utterances required before a decision is forced for verification.  The verifier resource MUST NOT return a decision of 'undecided' once Num-Max-Verification-Phrases have been collected and used to determine a verification score.  The value for this header field is an integer and the minimum value is 1.  The default value is implementation specific.  This header field MAY occur in START- SESSION, SET-PARAMS, or GET-PARAMS.
+"ko": |-
+  Num-Max-Verification-Phrases 헤더 필드는 검증을 위해 결정을 강제하기 전에 필요한 유효한 발화의 수를 지정하는 데 사용됩니다. 검증자 리소스는 Num-Max-Verification-Phrases가 수집되어 검증 점수를 결정하는 데 사용된 후에는 'undecided' 결정을 반환해서는 안 됩니다. 이 헤더 필드의 값은 정수이고 최소값은 1입니다. 기본값은 구현에 따라 다릅니다. 이 헤더 필드는 START-SESSION, SET-PARAMS 또는 GET-PARAMS에서 발생할 수 있습니다.

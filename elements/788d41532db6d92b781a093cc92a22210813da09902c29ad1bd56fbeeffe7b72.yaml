@@ -1,0 +1,19 @@
+"hash": |-
+  788d41532db6d92b781a093cc92a22210813da09902c29ad1bd56fbeeffe7b72
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The EncryptedPreMasterSecret field sent from the client to the server
+     contains a 2-byte version number and a 46-byte random value,
+     encrypted using the server's RSA public key as described in Section
+     7.4.7.1 of [TLS].  The actual premaster secret is formed by both
+     parties as follows: concatenate a uint16 with the value 48, the
+     2-byte version number and the 46-byte random value, a uint16
+     containing the length of the PSK (in octets), and the PSK itself.
+     (The premaster secret is thus 52 octets longer than the PSK.)
+"fixed": |-
+  The EncryptedPreMasterSecret field sent from the client to the server contains a 2-byte version number and a 46-byte random value, encrypted using the server's RSA public key as described in Section 7.4.7.1 of [TLS].  The actual premaster secret is formed by both parties as follows: concatenate a uint16 with the value 48, the 2-byte version number and the 46-byte random value, a uint16 containing the length of the PSK (in octets), and the PSK itself. (The premaster secret is thus 52 octets longer than the PSK.)
+"ko": |-
+  클라이언트에서 서버로 전송된 EncryptedPreMasterSecret 필드에는 [TLS] 섹션 7.4.7.1에 설명된 대로 서버의 RSA 공개 키를 사용하여 암호화된 2바이트 버전 번호와 46바이트 임의 값이 포함되어 있습니다. 실제 프리마스터 비밀은 다음과 같이 양 당사자에 의해 구성됩니다. uint16을 값 48, 2바이트 버전 번호 및 46바이트 임의 값, PSK 길이(옥텟 단위)를 포함하는 uint16 및 PSK와 연결합니다. 그 자체. (따라서 프리마스터 비밀은 PSK보다 52옥텟 더 깁니다.)

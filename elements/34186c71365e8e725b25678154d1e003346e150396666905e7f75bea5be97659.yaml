@@ -1,0 +1,16 @@
+"hash": |-
+  34186c71365e8e725b25678154d1e003346e150396666905e7f75bea5be97659
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        AGGREGATOR:
+           Any AGGREGATOR attributes from the routes to be aggregated MUST
+           NOT be included in the aggregated route.  The BGP speaker
+           performing the route aggregation MAY attach a new AGGREGATOR
+           attribute (see Section 5.1.7).
+"fixed": |-
+  - AGGREGATOR: Any AGGREGATOR attributes from the routes to be aggregated MUST NOT be included in the aggregated route.  The BGP speaker performing the route aggregation MAY attach a new AGGREGATOR attribute (see Section 5.1.7).
+"ko": |-
+  - AGGREGATOR: 집계될 경로의 모든 AGGREGATOR 속성은 집계된 경로에 포함되어서는 안 됩니다. 경로 집계를 수행하는 BGP 스피커는 새로운 AGGREGATOR 속성을 첨부할 수 있습니다(섹션 5.1.7 참조).

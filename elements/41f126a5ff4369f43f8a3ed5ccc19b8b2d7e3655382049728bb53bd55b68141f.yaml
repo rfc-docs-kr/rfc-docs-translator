@@ -1,0 +1,17 @@
+"hash": |-
+  41f126a5ff4369f43f8a3ed5ccc19b8b2d7e3655382049728bb53bd55b68141f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "record_size_limit" extension replaces the "max_fragment_length"
+     extension [RFC6066].  A server that supports the "record_size_limit"
+     extension MUST ignore a "max_fragment_length" that appears in a
+     ClientHello if both extensions appear.  A client MUST treat receipt
+     of both "max_fragment_length" and "record_size_limit" as a fatal
+     error, and it SHOULD generate an "illegal_parameter" alert.
+"fixed": |-
+  The "record_size_limit" extension replaces the "max_fragment_length" extension [RFC6066].  A server that supports the "record_size_limit" extension MUST ignore a "max_fragment_length" that appears in a ClientHello if both extensions appear.  A client MUST treat receipt of both "max_fragment_length" and "record_size_limit" as a fatal error, and it SHOULD generate an "illegal_parameter" alert.
+"ko": |-
+  "record_size_limit" 확장은 "max_fragment_length" 확장 [RFC6066]을 대체합니다.  "record_size_limit" 확장을 지원하는 서버는 두 확장이 모두 나타나는 경우 ClientHello에 나타나는 "max_fragment_length"를 무시해야 합니다.  클라이언트는 "max_fragment_length" 및 "record_size_limit" 수신을 치명적인 오류로 처리해야 하며(MUST) "illegal_parameter" 경고를 생성해야 합니다(SHOULD).

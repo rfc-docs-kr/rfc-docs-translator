@@ -1,0 +1,18 @@
+"hash": |-
+  db2c36e84dd0cb64ac6750545f5636546edb18054eda10e20442e4d9bb57c2c1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        o Padding also may be required, irrespective of encryption
+          algorithm requirements, to ensure that the resulting
+          ciphertext terminates on a 4-byte boundary.  Specifically,
+          the Pad Length and Next Header fields must be right aligned
+          within a 4-byte word, as illustrated in the ESP packet
+          format figures above, to ensure that the ICV field (if
+          present) is aligned on a 4-byte boundary.
+"fixed": |-
+  - Padding also may be required, irrespective of encryption algorithm requirements, to ensure that the resulting ciphertext terminates on a 4-byte boundary.  Specifically, the Pad Length and Next Header fields must be right aligned within a 4-byte word, as illustrated in the ESP packet format figures above, to ensure that the ICV field (if present) is aligned on a 4-byte boundary.
+"ko": |-
+  - 결과 암호문이 4바이트 경계에서 종료되도록 하기 위해 암호화 알고리즘 요구 사항에 관계없이 패딩이 필요할 수도 있습니다.  특히 ICV 필드(있는 경우)가 4바이트 경계에 정렬되도록 하려면 위의 ESP 패킷 형식 그림에 표시된 대로 Pad Length 및 Next Header 필드를 4바이트 단어 내에서 오른쪽으로 정렬해야 합니다.

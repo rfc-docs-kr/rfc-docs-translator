@@ -1,0 +1,18 @@
+"hash": |-
+  a11a8c5475ca5aa2808b05f997844d541cf0882dd4b789149b2d3bb835b5b507
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     On receiving the first datagram Peer B will record some state about
+     Peer A.  At present, this state consists of the chanA channel ID, and
+     the results of processing the other messages in the first datagram.
+     In particular, if Peer A included some HAVE messages, Peer B may add
+     a chunk availability map to Peer A's state.  In addition, Peer B may
+     request some chunks from Peer A in the second datagram, and Peer B
+     will maintain state about these outgoing requests.
+"fixed": |-
+  On receiving the first datagram Peer B will record some state about Peer A.  At present, this state consists of the chanA channel ID, and the results of processing the other messages in the first datagram. In particular, if Peer A included some HAVE messages, Peer B may add a chunk availability map to Peer A's state.  In addition, Peer B may request some chunks from Peer A in the second datagram, and Peer B will maintain state about these outgoing requests.
+"ko": |-
+  첫 번째 데이터그램을 수신하면 피어 B는 피어 A에 대한 일부 상태를 기록합니다. 현재 이 상태는 chanA 채널 ID와 첫 번째 데이터그램의 다른 메시지 처리 결과로 구성됩니다. 특히 피어 A에 일부 HAVE 메시지가 포함된 경우 피어 B는 피어 A의 상태에 청크 가용성 맵을 추가할 수 있습니다. 또한 피어 B는 두 번째 데이터그램에서 피어 A로부터 일부 청크를 요청할 수 있으며 피어 B는 이러한 나가는 요청에 대한 상태를 유지합니다.

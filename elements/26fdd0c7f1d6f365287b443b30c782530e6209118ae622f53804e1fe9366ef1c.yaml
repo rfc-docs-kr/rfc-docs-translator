@@ -1,0 +1,20 @@
+"hash": |-
+  26fdd0c7f1d6f365287b443b30c782530e6209118ae622f53804e1fe9366ef1c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A token issued with NEW_TOKEN MUST NOT include information that would
+     allow values to be linked by an observer to the connection on which
+     it was issued.  For example, it cannot include the previous
+     connection ID or addressing information, unless the values are
+     encrypted.  A server MUST ensure that every NEW_TOKEN frame it sends
+     is unique across all clients, with the exception of those sent to
+     repair losses of previously sent NEW_TOKEN frames.  Information that
+     allows the server to distinguish between tokens from Retry and
+     NEW_TOKEN MAY be accessible to entities other than the server.
+"fixed": |-
+  A token issued with NEW_TOKEN MUST NOT include information that would allow values to be linked by an observer to the connection on which it was issued.  For example, it cannot include the previous connection ID or addressing information, unless the values are encrypted.  A server MUST ensure that every NEW_TOKEN frame it sends is unique across all clients, with the exception of those sent to repair losses of previously sent NEW_TOKEN frames.  Information that allows the server to distinguish between tokens from Retry and NEW_TOKEN MAY be accessible to entities other than the server.
+"ko": |-
+  NEW_TOKEN으로 발행된 토큰은 관찰자가 값이 발행된 연결에 연결되도록 허용하는 정보를 포함해서는 안 됩니다. 예를 들어 값이 암호화되지 않으면 이전 연결 ID나 주소 지정 정보를 포함할 수 없습니다. 서버는 이전에 전송된 NEW_TOKEN 프레임의 손실을 복구하기 위해 전송된 프레임을 제외하고 전송하는 모든 NEW_TOKEN 프레임이 모든 클라이언트에서 고유한지 확인해야 합니다. 서버가 Retry와 NEW_TOKEN의 토큰을 구별할 수 있도록 하는 정보는 서버가 아닌 엔터티에 액세스할 수 있습니다.

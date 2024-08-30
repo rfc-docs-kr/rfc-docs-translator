@@ -1,0 +1,19 @@
+"hash": |-
+  dbfd00e2e4002f8324069cbeceae2c11547a9815fcd6dd3ee0ac60fd4379f1d8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To validate the HMAC value, we repeat the previous process of using
+     the correct key and the JWS Signing Input (which is the initial
+     substring of the JWS Compact Serialization representation up until
+     but not including the second period character) as input to the HMAC
+     SHA-256 function and then taking the output and determining if it
+     matches the JWS Signature (which is base64url decoded from the value
+     encoded in the JWS representation).  If it matches exactly, the HMAC
+     has been validated.
+"fixed": |-
+  To validate the HMAC value, we repeat the previous process of using the correct key and the JWS Signing Input (which is the initial substring of the JWS Compact Serialization representation up until but not including the second period character) as input to the HMAC SHA-256 function and then taking the output and determining if it matches the JWS Signature (which is base64url decoded from the value encoded in the JWS representation).  If it matches exactly, the HMAC has been validated.
+"ko": |-
+  HMAC 값을 검증하기 위해 올바른 키와 JWS 서명 입력(JWS Compact Serialization 표현의 초기 하위 문자열(두 번째 마침표 문자는 포함하지 않음)까지)을 HMAC SHA-256 함수의 입력으로 사용하는 이전 프로세스를 반복한 다음 출력을 가져와 JWS 서명(JWS 표현에 인코딩된 값에서 base64url로 디코딩됨)과 일치하는지 확인합니다. 정확히 일치하면 HMAC가 검증된 것입니다.

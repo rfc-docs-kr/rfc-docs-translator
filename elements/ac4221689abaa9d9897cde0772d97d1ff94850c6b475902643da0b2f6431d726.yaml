@@ -1,0 +1,18 @@
+"hash": |-
+  ac4221689abaa9d9897cde0772d97d1ff94850c6b475902643da0b2f6431d726
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.  The recognizer resource and the synthesizer resource are in
+         different servers.  In this case, the client acts as an
+         intermediary for the two servers.  It receives an event from the
+         recognition resource and sends a BARGE-IN-OCCURRED request to the
+         synthesizer.  In such cases, the BARGE-IN-OCCURRED method would
+         also have a Proxy-Sync-Id header field received from the resource
+         generating the original event.
+"fixed": |-
+  1.  The recognizer resource and the synthesizer resource are in different servers.  In this case, the client acts as an intermediary for the two servers.  It receives an event from the recognition resource and sends a BARGE-IN-OCCURRED request to the synthesizer.  In such cases, the BARGE-IN-OCCURRED method would also have a Proxy-Sync-Id header field received from the resource generating the original event.
+"ko": |-
+  1. 인식기 리소스와 합성기 리소스는 다른 서버에 있습니다. 이 경우 클라이언트는 두 서버의 중개자 역할을 합니다. 클라이언트는 인식 리소스에서 이벤트를 수신하고 합성기에 BARGE-IN-OCCURRED 요청을 보냅니다. 이러한 경우 BARGE-IN-OCCURRED 메서드는 원래 이벤트를 생성하는 리소스에서 수신한 Proxy-Sync-Id 헤더 필드도 갖습니다.

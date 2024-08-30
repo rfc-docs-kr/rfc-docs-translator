@@ -1,0 +1,14 @@
+"hash": |-
+  d23c79c6091d13ad76ea6dbc8a9ea5ee67e0ccbafb460c4a59ada4e9929ef864
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     STOP_SENDING SHOULD only be sent for a stream that has not been reset
+     by the peer.  STOP_SENDING is most useful for streams in the "Recv"
+     or "Size Known" state.
+"fixed": |-
+  STOP_SENDING SHOULD only be sent for a stream that has not been reset by the peer.  STOP_SENDING is most useful for streams in the "Recv" or "Size Known" state.
+"ko": |-
+  STOP_SENDING은 피어에 의해 재설정되지 않은 스트림에 대해서만 전송되어야 합니다. STOP_SENDING은 "Recv" 또는 "Size Known" 상태의 스트림에 가장 유용합니다.

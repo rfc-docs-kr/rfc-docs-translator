@@ -1,0 +1,14 @@
+"hash": |-
+  11b7d5c19a3f88ab57a5335efd16edefa39667f8fa94be16126c0e8c1d258f20
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Connection flow control, which prevents senders from exceeding a
+        receiver's buffer capacity for the connection by limiting the
+        total bytes of stream data sent in STREAM frames on all streams.
+"fixed": |-
+  *  Connection flow control, which prevents senders from exceeding a receiver's buffer capacity for the connection by limiting the total bytes of stream data sent in STREAM frames on all streams.
+"ko": |-
+  * 연결 흐름 제어는 모든 스트림의 STREAM 프레임에서 전송되는 스트림 데이터의 총 바이트 수를 제한하여 발신자가 연결에 대한 수신자의 버퍼 용량을 초과하는 것을 방지합니다.

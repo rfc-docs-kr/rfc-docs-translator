@@ -1,0 +1,15 @@
+"hash": |-
+  8d168558e69403703c87c7f639b8e2f053e4b11ee45ad438b7d9caa6bcbfd1f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Responses to the PUT method are not cacheable.  If a successful PUT
+     request passes through a cache that has one or more stored responses
+     for the target URI, those stored responses will be invalidated (see
+     Section 4.4 of [CACHING]).
+"fixed": |-
+  Responses to the PUT method are not cacheable.  If a successful PUT request passes through a cache that has one or more stored responses for the target URI, those stored responses will be invalidated (see Section 4.4 of [CACHING]).
+"ko": |-
+  PUT 메서드에 대한 응답은 캐시할 수 없습니다. 성공적인 PUT 요청이 대상 URI에 대해 하나 이상의 저장된 응답이 있는 캐시를 통과하는 경우 해당 저장된 응답은 무효화됩니다([CACHING]의 섹션 4.4 참조).

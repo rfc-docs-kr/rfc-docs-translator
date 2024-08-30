@@ -1,0 +1,17 @@
+"hash": |-
+  5ff3c290e6eac7de58d4321b75ac9c706d2378862336789e8935b4331104b17c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         date1          = 2DIGIT SP month SP 4DIGIT
+                          ; day month year (e.g., 02 Jun 1982)
+         date2          = 2DIGIT "-" month "-" 2DIGIT
+                          ; day-month-year (e.g., 02-Jun-82)
+         date3          = month SP ( 2DIGIT | ( SP 1DIGIT ))
+                          ; month day (e.g., Jun  2)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

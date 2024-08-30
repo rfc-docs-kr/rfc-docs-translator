@@ -1,0 +1,19 @@
+"hash": |-
+  dd92b0dfaf9788625528dec4f066daad911bc4628a3f3a156ea91fd458a7d9e6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Endpoints that track all individual packets for the purposes of
+     detecting duplicates are at risk of accumulating excessive state.
+     The data required for detecting duplicates can be limited by
+     maintaining a minimum packet number below which all packets are
+     immediately dropped.  Any minimum needs to account for large
+     variations in round-trip time, which includes the possibility that a
+     peer might probe network paths with much larger round-trip times; see
+     Section 9.
+"fixed": |-
+  Endpoints that track all individual packets for the purposes of detecting duplicates are at risk of accumulating excessive state. The data required for detecting duplicates can be limited by maintaining a minimum packet number below which all packets are immediately dropped.  Any minimum needs to account for large variations in round-trip time, which includes the possibility that a peer might probe network paths with much larger round-trip times; see Section 9.
+"ko": |-
+  중복을 탐지하기 위해 모든 개별 패킷을 추적하는 엔드포인트는 과도한 상태가 누적될 위험이 있습니다. 중복 감지에 필요한 데이터는 모든 패킷이 즉시 삭제되는 최소 패킷 수를 유지하여 제한할 수 있습니다. 최소 왕복 시간의 큰 변화를 고려해야 합니다. 여기에는 피어가 훨씬 더 긴 왕복 시간으로 네트워크 경로를 검색할 가능성이 포함됩니다. 섹션 9를 참조하세요.

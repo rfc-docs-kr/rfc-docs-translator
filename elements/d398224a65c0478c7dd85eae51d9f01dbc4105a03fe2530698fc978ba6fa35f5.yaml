@@ -1,0 +1,17 @@
+"hash": |-
+  d398224a65c0478c7dd85eae51d9f01dbc4105a03fe2530698fc978ba6fa35f5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1)  Simply prepend the Document data with the PDL instruction that
+         corresponds to the Client-supplied PDL attribute, such that if
+         the Document data also has the same PDL instruction it will
+         override what the Printer prepended.  In other words, this
+         implementation is using the same implementation semantics for the
+         Client-supplied IPP attributes as for the Printer defaults.
+"fixed": |-
+  1)  Simply prepend the Document data with the PDL instruction that corresponds to the Client-supplied PDL attribute, such that if the Document data also has the same PDL instruction it will override what the Printer prepended.  In other words, this implementation is using the same implementation semantics for the Client-supplied IPP attributes as for the Printer defaults.
+"ko": |-
+  1) 클라이언트 제공 PDL 속성에 해당하는 PDL 명령을 문서 데이터 앞에 추가하기만 하면 됩니다. 그러면 문서 데이터에도 동일한 PDL 명령이 있는 경우 프린터가 추가한 내용이 무시됩니다. 즉, 이 구현은 클라이언트 제공 IPP 속성에 대해 프린터 기본값과 동일한 구현 의미를 사용합니다.

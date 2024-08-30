@@ -1,0 +1,17 @@
+"hash": |-
+  bd48c56c48608d459d460a16a8eff674f590c5cf8e25e055fec9e8794d128676
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The state of a connection is only changed by successful commands that
+     are documented as changing state.  A rejected command (BAD response)
+     never changes the state of the connection or of the selected mailbox.
+     A failed command (NO response) generally does not change the state of
+     the connection or of the selected mailbox, with the exception of the
+     SELECT and EXAMINE commands.
+"fixed": |-
+  The state of a connection is only changed by successful commands that are documented as changing state.  A rejected command (BAD response) never changes the state of the connection or of the selected mailbox. A failed command (NO response) generally does not change the state of the connection or of the selected mailbox, with the exception of the SELECT and EXAMINE commands.
+"ko": |-
+  연결 상태는 상태 변경으로 문서화된 성공적인 명령에 의해서만 변경됩니다.  거부된 명령(BAD 응답)은 연결 상태나 선택한 사서함의 상태를 변경하지 않습니다. 실패한 명령(NO 응답)은 일반적으로 SELECT 및 EXAMINE 명령을 제외하고 연결 상태나 선택한 사서함 상태를 변경하지 않습니다.

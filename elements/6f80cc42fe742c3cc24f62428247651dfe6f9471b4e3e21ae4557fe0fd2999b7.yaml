@@ -1,0 +1,16 @@
+"hash": |-
+  6f80cc42fe742c3cc24f62428247651dfe6f9471b4e3e21ae4557fe0fd2999b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Note 1: If the implementation requires some measurable time to cancel
+     the Job in the 'processing' or 'processing-stopped' Job state, the
+     Printer MUST add the 'processing-to-stop-point' value to the Job's
+     "job-state-reasons" attribute and then transition the Job to the
+     'canceled' state when the processing ceases (see Section 5.3.8).
+"fixed": |-
+  Note 1: If the implementation requires some measurable time to cancel the Job in the 'processing' or 'processing-stopped' Job state, the Printer MUST add the 'processing-to-stop-point' value to the Job's "job-state-reasons" attribute and then transition the Job to the 'canceled' state when the processing ceases (see Section 5.3.8).
+"ko": |-
+  참고 1: 구현이 '처리 중' 또는 '처리 중지됨' 작업 상태에서 작업을 취소하는 데 측정 가능한 시간이 필요한 경우 프린터는 '처리 중 중지 지점' 값을 작업의 "job-state"에 추가해야 합니다. -reasons" 속성을 지정한 다음 처리가 중단되면 작업을 '취소됨' 상태로 전환합니다(섹션 5.3.8 참조).

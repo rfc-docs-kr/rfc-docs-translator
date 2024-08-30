@@ -1,0 +1,18 @@
+"hash": |-
+  61117953a38c13b2b3871e773210fe13b0a1bce66ad6d5a4408c570df9282561
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server SHOULD generate a Vary header field on a cacheable
+     response when it wishes that response to be selectively reused for
+     subsequent requests.  Generally, that is the case when the response
+     content has been tailored to better fit the preferences expressed by
+     those selecting header fields, such as when an origin server has
+     selected the response's language based on the request's
+     Accept-Language header field.
+"fixed": |-
+  An origin server SHOULD generate a Vary header field on a cacheable response when it wishes that response to be selectively reused for subsequent requests.  Generally, that is the case when the response content has been tailored to better fit the preferences expressed by those selecting header fields, such as when an origin server has selected the response's language based on the request's Accept-Language header field.
+"ko": |-
+  원서버는 해당 응답이 후속 요청에 대해 선택적으로 재사용되기를 원할 때 캐시 가능한 응답에 Vary 헤더 필드를 생성해야 합니다(SHOULD). 일반적으로 이는 원본 서버가 요청의 Accept-Language 헤더 필드를 기반으로 응답 언어를 선택한 경우와 같이 헤더 필드를 선택하여 표현된 기본 설정에 더 잘 맞도록 응답 콘텐츠를 맞춤화한 경우입니다.

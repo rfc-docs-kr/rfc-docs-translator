@@ -1,0 +1,28 @@
+"hash": |-
+  84eb58d7a3e9354674e95e074408ae49f9737d276a3f8417b299e8fa70a826cc
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          C: B282 SEARCH RETURN (SAVE) SINCE 1-Feb-1994
+              NOT FROM "Smith"
+          S: B282 OK SEARCH completed
+          C: B283 SEARCH RETURN (SAVE) CHARSET KOI8-R
+              (OR $ 1,3000:3021) TEXT {4}
+          C: XXXX
+          S: B283 NO [BADCHARSET UTF-8] KOI8-R is not supported
+         //After this command, the saved result variable contains
+         //no messages.  A client that wants to reissue the B283
+         //SEARCH command with another CHARSET would have to reissue
+         //the B282 command as well.  One possible workaround for
+         //this is to include the desired CHARSET parameter
+         //in the earliest SEARCH RETURN (SAVE) command in a
+         //sequence of related SEARCH commands, to cause
+         //the earliest SEARCH in the sequence to fail.
+         //A better approach might be to always use CHARSET UTF-8
+         //instead.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

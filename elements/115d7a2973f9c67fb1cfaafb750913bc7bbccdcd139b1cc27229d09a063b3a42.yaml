@@ -1,0 +1,19 @@
+"hash": |-
+  115d7a2973f9c67fb1cfaafb750913bc7bbccdcd139b1cc27229d09a063b3a42
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For each SA, the receiver records the number of consecutive packets
+     that fail authentication.  This count is used to trigger the re-
+     synchronization process, which should be performed in the background
+     or using a separate processor.  Receipt of a valid packet on the SA
+     resets the counter to zero.  The value used to trigger the re-
+     synchronization process is a local parameter.  There is no
+     requirement to support distinct trigger values for different SAs,
+     although an implementer may choose to do so.
+"fixed": |-
+  For each SA, the receiver records the number of consecutive packets that fail authentication.  This count is used to trigger the re- synchronization process, which should be performed in the background or using a separate processor.  Receipt of a valid packet on the SA resets the counter to zero.  The value used to trigger the re- synchronization process is a local parameter.  There is no requirement to support distinct trigger values for different SAs, although an implementer may choose to do so.
+"ko": |-
+  각 SA에 대해 수신자는 인증에 실패한 연속 패킷 수를 기록합니다.  이 카운트는 백그라운드에서 또는 별도의 프로세서를 사용하여 수행되어야 하는 재동기화 프로세스를 트리거하는 데 사용됩니다.  SA에서 유효한 패킷을 수신하면 카운터가 0으로 재설정됩니다.  재동기화 프로세스를 트리거하는 데 사용되는 값은 로컬 매개변수입니다.  구현자가 그렇게 하도록 선택할 수도 있지만 서로 다른 SA에 대해 고유한 트리거 값을 지원해야 한다는 요구 사항은 없습니다.

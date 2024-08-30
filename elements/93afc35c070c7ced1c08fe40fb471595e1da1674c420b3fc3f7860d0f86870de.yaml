@@ -1,0 +1,14 @@
+"hash": |-
+  93afc35c070c7ced1c08fe40fb471595e1da1674c420b3fc3f7860d0f86870de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the aggregated route has an AS_SET as the first element in its
+     AS_PATH attribute, then the router that originates the route SHOULD
+     NOT advertise the MULTI_EXIT_DISC attribute with this route.
+"fixed": |-
+  If the aggregated route has an AS_SET as the first element in its AS_PATH attribute, then the router that originates the route SHOULD NOT advertise the MULTI_EXIT_DISC attribute with this route.
+"ko": |-
+  집계된 경로에 AS_PATH 속성의 첫 번째 요소로 AS_SET이 있는 경우 경로를 시작하는 라우터는 이 경로로 MULTI_EXIT_DISC 속성을 광고해서는 안 됩니다.

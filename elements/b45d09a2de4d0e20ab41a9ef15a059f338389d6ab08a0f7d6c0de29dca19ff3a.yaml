@@ -1,0 +1,16 @@
+"hash": |-
+  b45d09a2de4d0e20ab41a9ef15a059f338389d6ab08a0f7d6c0de29dca19ff3a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When Peer B receives this datagram, it creates some state for Peer A,
+     that at least contains the channel ID chanA.  Next, Peer B sends a
+     response to Peer A, consisting of a datagram containing a HANDSHAKE
+     message prefixed with the chanA channel ID.  Peer B's HANDSHAKE
+     contains a randomly chosen channel ID, chanB.
+"fixed": |-
+  When Peer B receives this datagram, it creates some state for Peer A, that at least contains the channel ID chanA.  Next, Peer B sends a response to Peer A, consisting of a datagram containing a HANDSHAKE message prefixed with the chanA channel ID.  Peer B's HANDSHAKE contains a randomly chosen channel ID, chanB.
+"ko": |-
+  피어 B가 이 데이터그램을 수신하면 최소한 채널 ID chanA를 포함하는 피어 A에 대한 일부 상태를 생성합니다. 다음으로 피어 B는 chanA 채널 ID가 앞에 붙은 HANDSHAKE 메시지를 포함하는 데이터그램으로 구성된 응답을 피어 A에 보냅니다. 피어 B의 HANDSHAKE에는 무작위로 선택된 채널 ID인 chanB가 포함됩니다.

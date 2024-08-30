@@ -1,0 +1,18 @@
+"hash": |-
+  3bdcb20cbe12189a4fbff1089e4fb097034a86fccb5bdc2a343c3c1f99df0512
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server MAY store and recover the previously sent values of the
+     max_idle_timeout, max_udp_payload_size, and disable_active_migration
+     parameters and reject 0-RTT if it selects smaller values.  Lowering
+     the values of these parameters while also accepting 0-RTT data could
+     degrade the performance of the connection.  Specifically, lowering
+     the max_udp_payload_size could result in dropped packets, leading to
+     worse performance compared to rejecting 0-RTT data outright.
+"fixed": |-
+  A server MAY store and recover the previously sent values of the max_idle_timeout, max_udp_payload_size, and disable_active_migration parameters and reject 0-RTT if it selects smaller values.  Lowering the values of these parameters while also accepting 0-RTT data could degrade the performance of the connection.  Specifically, lowering the max_udp_payload_size could result in dropped packets, leading to worse performance compared to rejecting 0-RTT data outright.
+"ko": |-
+  서버는 이전에 전송된 max_idle_timeout, max_udp_payload_size 및 비활성화_active_migration 매개변수 값을 저장하고 복구할 수 있으며 더 작은 값을 선택하는 경우 0-RTT를 거부할 수 있습니다. 0-RTT 데이터를 허용하면서 이러한 매개변수의 값을 낮추면 연결 성능이 저하될 수 있습니다. 특히 max_udp_payload_size를 낮추면 패킷이 삭제되어 0-RTT 데이터를 완전히 거부하는 것에 비해 성능이 저하될 수 있습니다.

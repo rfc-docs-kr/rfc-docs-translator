@@ -1,0 +1,16 @@
+"hash": |-
+  fc854f49b850cb71b1ece53141f9a03c496154680be1c5c78d69e8a3600493e6
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         For j = 5 to 0
+             For i = n to 1
+                 B = AES-1(K, (A ^ t) | R[i]) where t = n*j+i
+                 A = MSB(64, B)
+                 R[i] = LSB(64, B)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

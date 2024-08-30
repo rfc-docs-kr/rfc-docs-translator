@@ -1,0 +1,16 @@
+"hash": |-
+  d16bd4e5b339d84601d7387bccafe42ce24b0a0d6ac570491cf8539ac1d2f1e0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that receives a request header field line, field value, or
+     set of fields larger than it wishes to process MUST respond with an
+     appropriate 4xx (Client Error) status code.  Ignoring such header
+     fields would increase the server's vulnerability to request smuggling
+     attacks (Section 11.2 of [HTTP/1.1]).
+"fixed": |-
+  A server that receives a request header field line, field value, or set of fields larger than it wishes to process MUST respond with an appropriate 4xx (Client Error) status code.  Ignoring such header fields would increase the server's vulnerability to request smuggling attacks (Section 11.2 of [HTTP/1.1]).
+"ko": |-
+  처리하려는 것보다 더 큰 요청 헤더 필드 라인, 필드 값 또는 필드 세트를 수신하는 서버는 적절한 4xx(클라이언트 오류) 상태 코드로 응답해야 합니다. 이러한 헤더 필드를 무시하면 밀수 공격을 요청하는 서버의 취약성이 증가합니다([HTTP/1.1]의 섹션 11.2).

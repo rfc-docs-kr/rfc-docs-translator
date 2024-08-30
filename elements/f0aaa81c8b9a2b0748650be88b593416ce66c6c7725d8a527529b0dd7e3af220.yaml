@@ -1,0 +1,18 @@
+"hash": |-
+  f0aaa81c8b9a2b0748650be88b593416ce66c6c7725d8a527529b0dd7e3af220
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The flattened JWS JSON Serialization syntax is based upon the general
+     syntax but flattens it, optimizing it for the single digital
+     signature/MAC case.  It flattens it by removing the "signatures"
+     member and instead placing those members defined for use in the
+     "signatures" array (the "protected", "header", and "signature"
+     members) in the top-level JSON object (at the same level as the
+     "payload" member).
+"fixed": |-
+  The flattened JWS JSON Serialization syntax is based upon the general syntax but flattens it, optimizing it for the single digital signature/MAC case.  It flattens it by removing the "signatures" member and instead placing those members defined for use in the "signatures" array (the "protected", "header", and "signature" members) in the top-level JSON object (at the same level as the "payload" member).
+"ko": |-
+  평면화된 JWS JSON 직렬화 구문은 일반 구문을 기반으로 하지만, 단일 디지털 서명/MAC 케이스에 최적화하여 평면화합니다. "signatures" 멤버를 제거하고 대신 "signatures" 배열에서 사용하도록 정의된 멤버("protected", "header" 및 "signature" 멤버)를 최상위 JSON 객체("payload" 멤버와 동일한 수준)에 배치하여 평면화합니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  de55b0d85db798756cb5d4571ada15986db82e2b3fcceda1de089391b98da87b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the case a foreign agent added the Service Selection extension to
+     the Registration Request on behalf of the mobile node, it MUST verify
+     whether the corresponding Registration Reply message from a home
+     agent also contains an echoed Service Selection extension.  If the
+     received Registration Reply message contains the echoed Service
+     Selection extension, the foreign agent MUST NOT include the extension
+     to the Registration Reply message that gets forwarded to the mobile
+     node.
+"fixed": |-
+  In the case a foreign agent added the Service Selection extension to the Registration Request on behalf of the mobile node, it MUST verify whether the corresponding Registration Reply message from a home agent also contains an echoed Service Selection extension.  If the received Registration Reply message contains the echoed Service Selection extension, the foreign agent MUST NOT include the extension to the Registration Reply message that gets forwarded to the mobile node.
+"ko": |-
+  외부 에이전트가 모바일 노드를 대신하여 등록 요청에 서비스 선택 확장을 추가한 경우 홈 에이전트의 해당 등록 응답 메시지에도 에코된 서비스 선택 확장이 포함되어 있는지 확인해야 합니다.  수신된 등록 응답 메시지에 에코된 서비스 선택 확장이 포함된 경우 외부 에이전트는 모바일 노드로 전달되는 등록 응답 메시지에 대한 확장을 포함해서는 안 됩니다.

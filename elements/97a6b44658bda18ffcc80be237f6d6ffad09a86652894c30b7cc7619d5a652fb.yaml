@@ -1,0 +1,18 @@
+"hash": |-
+  97a6b44658bda18ffcc80be237f6d6ffad09a86652894c30b7cc7619d5a652fb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client indicates that it supports this mechanism by including a
+     SessionTicket TLS extension in the ClientHello message.  The
+     extension will be empty if the client does not already possess a
+     ticket for the server.  The server sends an empty SessionTicket
+     extension to indicate that it will send a new session ticket using
+     the NewSessionTicket handshake message.  The extension is described
+     in Section 3.2.
+"fixed": |-
+  The client indicates that it supports this mechanism by including a SessionTicket TLS extension in the ClientHello message.  The extension will be empty if the client does not already possess a ticket for the server.  The server sends an empty SessionTicket extension to indicate that it will send a new session ticket using the NewSessionTicket handshake message.  The extension is described in Section 3.2.
+"ko": |-
+  클라이언트는 ClientHello 메시지에 SessionTicket TLS 확장을 포함하여 이 메커니즘을 지원함을 나타냅니다. 클라이언트가 서버에 대한 티켓을 아직 보유하지 않은 경우 확장은 비어 있습니다. 서버는 NewSessionTicket 핸드셰이크 메시지를 사용하여 새 세션 티켓을 보낼 것임을 나타내기 위해 빈 SessionTicket 확장을 보냅니다. 확장은 섹션 3.2에 설명되어 있습니다.

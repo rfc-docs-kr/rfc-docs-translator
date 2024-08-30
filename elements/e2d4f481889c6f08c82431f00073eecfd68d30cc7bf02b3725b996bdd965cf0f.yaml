@@ -1,0 +1,17 @@
+"hash": |-
+  e2d4f481889c6f08c82431f00073eecfd68d30cc7bf02b3725b996bdd965cf0f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Packets that a client sends with 0-RTT packet protection MUST be
+     acknowledged by the server in packets protected by 1-RTT keys.  This
+     can mean that the client is unable to use these acknowledgments if
+     the server cryptographic handshake messages are delayed or lost.
+     Note that the same limitation applies to other data sent by the
+     server protected by the 1-RTT keys.
+"fixed": |-
+  Packets that a client sends with 0-RTT packet protection MUST be acknowledged by the server in packets protected by 1-RTT keys.  This can mean that the client is unable to use these acknowledgments if the server cryptographic handshake messages are delayed or lost. Note that the same limitation applies to other data sent by the server protected by the 1-RTT keys.
+"ko": |-
+  클라이언트가 0-RTT 패킷 보호로 전송하는 패킷은 1-RTT 키로 보호되는 패킷으로 서버에서 승인되어야 합니다. 이는 서버 암호화 핸드셰이크 메시지가 지연되거나 손실되는 경우 클라이언트가 이러한 승인을 사용할 수 없음을 의미할 수 있습니다. 1-RTT 키로 보호되는 서버에서 전송된 다른 데이터에도 동일한 제한이 적용됩니다.

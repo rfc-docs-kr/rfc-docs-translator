@@ -1,0 +1,18 @@
+"hash": |-
+  3812cb9724b4c51ffa32664490e78dd9c51a921352896b75356555bc3650e0eb
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        hostport      = host [ ":" port ]
+        host          = hostname | IPv4address
+        hostname      = *( domainlabel "." ) toplabel [ "." ]
+        domainlabel   = alphanum | alphanum *( alphanum | "-" ) alphanum
+        toplabel      = alpha | alpha *( alphanum | "-" ) alphanum
+        IPv4address   = 1*digit "." 1*digit "." 1*digit "." 1*digit
+        port          = *digit
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

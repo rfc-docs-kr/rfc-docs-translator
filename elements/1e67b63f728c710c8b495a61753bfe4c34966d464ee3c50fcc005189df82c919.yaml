@@ -1,0 +1,18 @@
+"hash": |-
+  1e67b63f728c710c8b495a61753bfe4c34966d464ee3c50fcc005189df82c919
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the second form, the UID command takes an EXPUNGE command with an
+     extra parameter that specifies a sequence set of UIDs to operate on.
+     The UID EXPUNGE command permanently removes all messages that have
+     both the \Deleted flag set and a UID that is included in the
+     specified sequence set from the currently selected mailbox.  If a
+     message either does not have the \Deleted flag set or has a UID that
+     is not included in the specified sequence set, it is not affected.
+"fixed": |-
+  In the second form, the UID command takes an EXPUNGE command with an extra parameter that specifies a sequence set of UIDs to operate on. The UID EXPUNGE command permanently removes all messages that have both the \Deleted flag set and a UID that is included in the specified sequence set from the currently selected mailbox.  If a message either does not have the \Deleted flag set or has a UID that is not included in the specified sequence set, it is not affected.
+"ko": |-
+  두 번째 형식에서 UID 명령은 작동할 UID 시퀀스 세트를 지정하는 추가 매개변수와 함께 EXPUNGE 명령을 사용합니다. UID EXPUNGE 명령은 \Deleted 플래그 세트와 현재 선택된 사서함의 지정된 시퀀스 세트에 포함된 UID가 모두 있는 모든 메시지를 영구적으로 제거합니다.  메시지에 \Deleted 플래그가 설정되어 있지 않거나 지정된 시퀀스 세트에 포함되지 않은 UID가 있는 경우 영향을 받지 않습니다.

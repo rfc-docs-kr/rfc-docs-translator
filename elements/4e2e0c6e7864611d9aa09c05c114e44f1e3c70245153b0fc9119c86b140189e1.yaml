@@ -1,0 +1,16 @@
+"hash": |-
+  4e2e0c6e7864611d9aa09c05c114e44f1e3c70245153b0fc9119c86b140189e1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If there were no SPEAK requests terminated by the synthesizer
+     resource as a result of the BARGE-IN-OCCURRED method, the server MUST
+     respond to the BARGE-IN-OCCURRED with a status-code of 200 "Success",
+     and the response MUST NOT contain an Active-Request-Id-List header
+     field.
+"fixed": |-
+  If there were no SPEAK requests terminated by the synthesizer resource as a result of the BARGE-IN-OCCURRED method, the server MUST respond to the BARGE-IN-OCCURRED with a status-code of 200 "Success", and the response MUST NOT contain an Active-Request-Id-List header field.
+"ko": |-
+  BARGE-IN-OCCURRED 메서드의 결과로 합성기 리소스에 의해 종료된 SPEAK 요청이 없는 경우, 서버는 BARGE-IN-OCCURRED에 200 "성공" 상태 코드로 응답해야 하며, 응답에는 Active-Request-Id-List 헤더 필드가 포함되어서는 안 됩니다.

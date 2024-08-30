@@ -1,0 +1,22 @@
+"hash": |-
+  95a6ec52f6361cc42e38bed629a8998c5911e05586778b3ba530bdf7cfd18a5c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A BGP speaker MAY support the ability to impose a locally-configured,
+     upper bound on the number of address prefixes the speaker is willing
+     to accept from a neighbor.  When the upper bound is reached, the
+     speaker, under control of local configuration, either (a) discards
+     new address prefixes from the neighbor (while maintaining the BGP
+     connection with the neighbor), or (b) terminates the BGP connection
+     with the neighbor.  If the BGP speaker decides to terminate its BGP
+     connection with a neighbor because the number of address prefixes
+     received from the neighbor exceeds the locally-configured, upper
+     bound, then the speaker MUST send the neighbor a NOTIFICATION message
+     with the Error Code Cease.  The speaker MAY also log this locally.
+"fixed": |-
+  A BGP speaker MAY support the ability to impose a locally-configured, upper bound on the number of address prefixes the speaker is willing to accept from a neighbor.  When the upper bound is reached, the speaker, under control of local configuration, either (a) discards new address prefixes from the neighbor (while maintaining the BGP connection with the neighbor), or (b) terminates the BGP connection with the neighbor.  If the BGP speaker decides to terminate its BGP connection with a neighbor because the number of address prefixes received from the neighbor exceeds the locally-configured, upper bound, then the speaker MUST send the neighbor a NOTIFICATION message with the Error Code Cease.  The speaker MAY also log this locally.
+"ko": |-
+  BGP 스피커는 스피커가 이웃으로부터 기꺼이 받아들이는 주소 접두사의 수에 대해 로컬로 구성된 상한을 적용하는 기능을 지원할 수 있습니다. 상한에 도달하면 스피커는 로컬 구성의 제어를 받아 (a) 이웃과의 BGP 연결을 유지하면서 이웃의 새 주소 접두사를 삭제하거나 (b) 이웃과의 BGP 연결을 종료합니다. 이웃으로부터 수신된 주소 접두사의 수가 로컬로 구성된 상한을 초과하여 BGP 스피커가 이웃과의 BGP 연결을 종료하기로 결정한 경우 스피커는 오류 코드 중지와 함께 알림 메시지를 이웃에 보내야 합니다. 발표자는 이를 로컬로 기록할 수도 있습니다.

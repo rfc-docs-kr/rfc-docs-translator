@@ -1,0 +1,20 @@
+"hash": |-
+  1d0d67c87354c5276024710c7e1e3906cc0d4f2922a6264d1ef0659decdaf753
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The RESUME method from the client to the server tells a paused
+     synthesizer resource to resume speaking.  If a RESUME request is
+     issued on a session with no active SPEAK request, the server MUST
+     respond with a status-code of 402 "Method not valid in this state".
+     If a RESUME request is issued on a session with an active SPEAK
+     request that is speaking (i.e., not paused), the server MUST respond
+     with a status-code of 200 "Success".  If a SPEAK request was paused,
+     the server MUST return an Active-Request-Id-List header field whose
+     value contains the request-id of the SPEAK request that was resumed.
+"fixed": |-
+  The RESUME method from the client to the server tells a paused synthesizer resource to resume speaking.  If a RESUME request is issued on a session with no active SPEAK request, the server MUST respond with a status-code of 402 "Method not valid in this state". If a RESUME request is issued on a session with an active SPEAK request that is speaking (i.e., not paused), the server MUST respond with a status-code of 200 "Success".  If a SPEAK request was paused, the server MUST return an Active-Request-Id-List header field whose value contains the request-id of the SPEAK request that was resumed.
+"ko": |-
+  클라이언트에서 서버로의 RESUME 메서드는 일시 중지된 신시사이저 리소스에 말하기를 재개하라고 알립니다. 활성 SPEAK 요청이 없는 세션에서 RESUME 요청이 발행되면 서버는 상태 코드 402 "이 상태에서는 메서드가 유효하지 않음"으로 응답해야 합니다. 말하기 중인 활성 SPEAK 요청(즉, 일시 중지되지 않음)이 있는 세션에서 RESUME 요청이 발행되면 서버는 상태 코드 200 "성공"으로 응답해야 합니다. SPEAK 요청이 일시 중지된 경우 서버는 재개된 SPEAK 요청의 요청 ID가 포함된 값을 갖는 Active-Request-Id-List 헤더 필드를 반환해야 합니다.

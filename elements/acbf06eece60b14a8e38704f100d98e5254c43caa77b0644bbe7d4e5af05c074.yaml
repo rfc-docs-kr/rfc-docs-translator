@@ -1,0 +1,18 @@
+"hash": |-
+  acbf06eece60b14a8e38704f100d98e5254c43caa77b0644bbe7d4e5af05c074
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a server is planning on issuing a session ticket to a client that
+     does not present one, it SHOULD include an empty Session ID in the
+     ServerHello.  If the server rejects the ticket and falls back to the
+     full handshake then it may include a non-empty Session ID to indicate
+     its support for stateful session resumption.  If the client receives
+     a session ticket from the server, then it discards any Session ID
+     that was sent in the ServerHello.
+"fixed": |-
+  If a server is planning on issuing a session ticket to a client that does not present one, it SHOULD include an empty Session ID in the ServerHello.  If the server rejects the ticket and falls back to the full handshake then it may include a non-empty Session ID to indicate its support for stateful session resumption.  If the client receives a session ticket from the server, then it discards any Session ID that was sent in the ServerHello.
+"ko": |-
+  서버가 세션 티켓을 제시하지 않는 클라이언트에 세션 티켓을 발행할 계획이라면 ServerHello에 빈 세션 ID를 포함해야 합니다. 서버가 티켓을 거부하고 전체 핸드셰이크로 대체하는 경우 상태 저장 세션 재개에 대한 지원을 나타내기 위해 비어 있지 않은 세션 ID를 포함할 수 있습니다. 클라이언트가 서버로부터 세션 티켓을 받으면 ServerHello에서 전송된 모든 세션 ID를 삭제합니다.

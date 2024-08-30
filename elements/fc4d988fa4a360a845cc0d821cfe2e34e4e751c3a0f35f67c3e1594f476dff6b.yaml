@@ -1,0 +1,21 @@
+"hash": |-
+  fc4d988fa4a360a845cc0d821cfe2e34e4e751c3a0f35f67c3e1594f476dff6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When issuing a request to a WebFinger resource, the client MAY
+     utilize the "rel" parameter to request only a subset of the
+     information that would otherwise be returned without the "rel"
+     parameter.  When the "rel" parameter is used and accepted, only the
+     link relation types that match the link relation type provided via
+     the "rel" parameter are included in the array of links returned in
+     the JRD.  If there are no matching link relation types defined for
+     the resource, the "links" array in the JRD will be either absent or
+     empty.  All other information present in a resource descriptor
+     remains present, even when "rel" is employed.
+"fixed": |-
+  When issuing a request to a WebFinger resource, the client MAY utilize the "rel" parameter to request only a subset of the information that would otherwise be returned without the "rel" parameter.  When the "rel" parameter is used and accepted, only the link relation types that match the link relation type provided via the "rel" parameter are included in the array of links returned in the JRD.  If there are no matching link relation types defined for the resource, the "links" array in the JRD will be either absent or empty.  All other information present in a resource descriptor remains present, even when "rel" is employed.
+"ko": |-
+  WebFinger 리소스에 대한 요청을 발행할 때 클라이언트는 "rel" 매개변수 없이 반환될 정보의 하위 집합만 요청하기 위해 "rel" 매개변수를 활용할 수 있습니다. "rel" 매개변수가 사용되고 허용되면 "rel" 매개변수를 통해 제공된 링크 관계 유형과 일치하는 링크 관계 유형만 JRD에서 반환되는 링크 배열에 포함됩니다. 리소스에 대해 정의된 일치하는 링크 관계 유형이 없으면 JRD의 "링크" 배열이 없거나 비어 있습니다. "rel"이 사용되는 경우에도 리소스 설명자에 있는 다른 모든 정보는 그대로 유지됩니다.

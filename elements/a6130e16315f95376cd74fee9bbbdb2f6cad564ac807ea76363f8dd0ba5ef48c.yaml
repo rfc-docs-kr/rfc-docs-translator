@@ -1,0 +1,20 @@
+"hash": |-
+  a6130e16315f95376cd74fee9bbbdb2f6cad564ac807ea76363f8dd0ba5ef48c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Once a successful response has been sent, the implementation
+        guarantees that the Job will eventually end up in the 'canceled'
+        state.  Between the time that the Cancel-Job operation is accepted
+        and when the Job enters the 'canceled' job-state (see
+        Section 5.3.7), the "job-state-reasons" attribute SHOULD contain
+        the 'processing-to-stop-point' value, which indicates to later
+        queries that although the Job might still be 'processing' it will
+        eventually end up in the 'canceled' state, not the 'completed'
+        state.
+"fixed": |-
+  - Once a successful response has been sent, the implementation guarantees that the Job will eventually end up in the 'canceled' state.  Between the time that the Cancel-Job operation is accepted and when the Job enters the 'canceled' job-state (see Section 5.3.7), the "job-state-reasons" attribute SHOULD contain the 'processing-to-stop-point' value, which indicates to later queries that although the Job might still be 'processing' it will eventually end up in the 'canceled' state, not the 'completed' state.
+"ko": |-
+  - 성공적인 응답이 전송되면 구현은 작업이 결국 '취소됨' 상태가 되도록 보장합니다. Cancel-Job 작업이 수락된 시간과 Job이 '취소된' 작업 상태(섹션 5.3.7 참조)에 들어갈 때 사이에 "job-state-reasons" 속성은 'processing-to-stop-'을 포함해야 합니다. point' 값은 작업이 여전히 '처리 중'일 수 있지만 결국 '완료' 상태가 아닌 '취소' 상태가 됨을 나중에 쿼리에 나타냅니다.

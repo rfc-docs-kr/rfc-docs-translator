@@ -1,0 +1,21 @@
+"hash": |-
+  ec37ff7ab3ae7f283d22692e23bfdb10cfb062afdfafe582d03cfee4d997fa56
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Notice that for a given number of 64-bit plaintext blocks, there are
+     only eight values of MLI that can have that outcome.  For example,
+     the only MLI values that are valid with four 64-bit plaintext blocks
+     are 32 (with no padding octets), 31 (with one padding octet), 30, 29,
+     28, 27, 26, and 25 (with seven padding octets).  When the unwrapping
+     process specified below yields n 64-bit blocks of output data and an
+     AIV, the eight valid values for the MLI are 8*n, (8*n)-1, ..., and
+     (8*n)-7.  Therefore, integrity checking of the AIV, which is
+     contained in a 64-bit register called A, requires the following
+     steps:
+"fixed": |-
+  Notice that for a given number of 64-bit plaintext blocks, there are only eight values of MLI that can have that outcome.  For example, the only MLI values that are valid with four 64-bit plaintext blocks are 32 (with no padding octets), 31 (with one padding octet), 30, 29, 28, 27, 26, and 25 (with seven padding octets).  When the unwrapping process specified below yields n 64-bit blocks of output data and an AIV, the eight valid values for the MLI are 8*n, (8*n)-1, ..., and (8*n)-7.  Therefore, integrity checking of the AIV, which is contained in a 64-bit register called A, requires the following steps:
+"ko": |-
+  주어진 수의 64비트 일반 텍스트 블록에 대해 해당 결과를 가질 수 있는 MLI 값은 8개뿐입니다. 예를 들어 4개의 64비트 일반 텍스트 블록에 유효한 MLI 값은 32(패딩 옥텟 없음), 31(패딩 옥텟 1개 포함), 30, 29, 28, 27, 26 및 25(패딩 옥텟 7개 포함)뿐입니다. 옥텟). 아래에 지정된 언래핑 프로세스가 n개의 64비트 출력 데이터 블록과 AIV를 생성하는 경우 MLI에 대한 8개의 유효한 값은 8*n, (8*n)-1, ... 및 (8*n)-입니다. 7. 따라서 A라는 64비트 레지스터에 포함된 AIV의 무결성 검사에는 다음 단계가 필요합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  12dbc6a4745f960b16df27249458f5caa23ff03b38aa242ce61ed7fb2f7530e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client requests the logout state, the server MUST send an
+     untagged BYE response and a tagged OK response to the LOGOUT command
+     before the server closes the connection; and the client MUST read the
+     tagged OK response to the LOGOUT command before the client closes the
+     connection.
+"fixed": |-
+  If the client requests the logout state, the server MUST send an untagged BYE response and a tagged OK response to the LOGOUT command before the server closes the connection; and the client MUST read the tagged OK response to the LOGOUT command before the client closes the connection.
+"ko": |-
+  클라이언트가 로그아웃 상태를 요청하는 경우 서버는 연결을 닫기 전에 태그가 지정되지 않은 BYE 응답과 태그가 지정된 OK 응답을 LOGOUT 명령에 보내야 합니다. 클라이언트는 연결을 닫기 전에 LOGOUT 명령에 대한 태그된 OK 응답을 읽어야 합니다.

@@ -1,0 +1,21 @@
+"hash": |-
+  c3cce9c108f850c661fcbaa2bed802741d235f4d958ff5d61c2aab4880dfc287
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the "agreed parameters" contain the "client_max_window_bits"
+     extension parameter with a value of w, the client MUST NOT use an
+     LZ77 sliding window longer than the w-th power of 2 bytes to compress
+     messages to send.  Note that even if the client has included in its
+     offer the "client_max_window_bits" extension parameter with a value
+     smaller than one in the "agreed parameters", the client MAY use an
+     LZ77 sliding window with any size to compress messages to send as
+     long as the size conforms to the "agreed parameters".  The client-to-
+     server "client_max_window_bits" extension parameter is just a hint
+     for the server to build an extension negotiation response.
+"fixed": |-
+  If the "agreed parameters" contain the "client_max_window_bits" extension parameter with a value of w, the client MUST NOT use an LZ77 sliding window longer than the w-th power of 2 bytes to compress messages to send.  Note that even if the client has included in its offer the "client_max_window_bits" extension parameter with a value smaller than one in the "agreed parameters", the client MAY use an LZ77 sliding window with any size to compress messages to send as long as the size conforms to the "agreed parameters".  The client-to- server "client_max_window_bits" extension parameter is just a hint for the server to build an extension negotiation response.
+"ko": |-
+  "합의된 매개변수"에 w 값의 "client_max_window_bits" 확장 매개변수가 포함된 경우 클라이언트는 보낼 메시지를 압축하기 위해 2바이트의 w승보다 긴 LZ77 슬라이딩 창을 사용해서는 안 됩니다.  클라이언트가 "합의된 매개변수"의 1보다 작은 값을 가진 "client_max_window_bits" 확장 매개변수를 제안에 포함했더라도 클라이언트는 보낼 메시지를 압축하기 위해 모든 크기의 LZ77 슬라이딩 창을 사용할 수 있습니다. 크기는 "합의된 매개변수"를 따릅니다.  클라이언트-서버 "client_max_window_bits" 확장 매개변수는 서버가 확장 협상 응답을 작성하기 위한 힌트일 뿐입니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  207f15d69aef4df08516270043336d6ac02eb740c277b0c1ab85e2b64df42bb2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the application protocol using TLS provides that any data may be
+     carried over the underlying transport after the TLS connection is
+     closed, the TLS implementation must receive the responding
+     close_notify alert before indicating to the application layer that
+     the TLS connection has ended.  If the application protocol will not
+     transfer any additional data, but will only close the underlying
+     transport connection, then the implementation MAY choose to close the
+"fixed": |-
+  If the application protocol using TLS provides that any data may be carried over the underlying transport after the TLS connection is closed, the TLS implementation must receive the responding close_notify alert before indicating to the application layer that the TLS connection has ended.  If the application protocol will not transfer any additional data, but will only close the underlying transport connection, then the implementation MAY choose to close the
+"ko": |-
+  TLS를 사용하는 애플리케이션 프로토콜이 TLS 연결이 닫힌 후 기본 전송을 통해 모든 데이터가 전달될 수 있도록 제공하는 경우 TLS 구현은 TLS 연결이 종료되었음을 애플리케이션 계층에 알리기 전에 응답하는 close_notify 경고를 수신해야 합니다. 애플리케이션 프로토콜이 추가 ​​데이터를 전송하지 않고 기본 전송 연결만 닫는 경우 구현은 해당 연결을 닫도록 선택할 수 있습니다.

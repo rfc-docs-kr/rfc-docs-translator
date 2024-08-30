@@ -1,0 +1,20 @@
+"hash": |-
+  6b2c2430e96dccfccc2b4b37b3a25d27f7df23b94397b2e7eb51b46e1612c80a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     HTTP depends on the security properties of the underlying transport-
+     or session-level connection to provide confidential transmission of
+     header fields.  In other words, if a server limits access to
+     authenticated users using this framework, the server needs to ensure
+     that the connection is properly secured in accordance with the nature
+     of the authentication scheme used.  For example, services that depend
+     on individual user authentication often require a connection to be
+     secured with TLS ("Transport Layer Security", [RFC5246]) prior to
+     exchanging any credentials.
+"fixed": |-
+  HTTP depends on the security properties of the underlying transport- or session-level connection to provide confidential transmission of header fields.  In other words, if a server limits access to authenticated users using this framework, the server needs to ensure that the connection is properly secured in accordance with the nature of the authentication scheme used.  For example, services that depend on individual user authentication often require a connection to be secured with TLS ("Transport Layer Security", [RFC5246]) prior to exchanging any credentials.
+"ko": |-
+  HTTP는 기본 전송 또는 세션 수준 연결의 보안 속성에 따라 헤더 필드의 기밀 전송을 제공합니다.  즉, 서버가 이 프레임워크를 사용하여 인증된 사용자에 대한 액세스를 제한하는 경우 서버는 사용된 인증 체계의 특성에 따라 연결이 적절하게 보호되는지 확인해야 합니다.  예를 들어, 개별 사용자 인증에 의존하는 서비스에서는 자격 증명을 교환하기 전에 TLS("전송 계층 보안", [RFC5246])로 연결을 보호해야 하는 경우가 많습니다.

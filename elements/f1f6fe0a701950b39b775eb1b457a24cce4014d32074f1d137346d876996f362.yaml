@@ -1,0 +1,14 @@
+"hash": |-
+  f1f6fe0a701950b39b775eb1b457a24cce4014d32074f1d137346d876996f362
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     NOT send the signed munro hash in the first datagram of the HANDSHAKE
+     procedure and Peer B MUST NOT send it in the second datagram as it is
+     considered heavy payload.
+"fixed": |-
+  NOT send the signed munro hash in the first datagram of the HANDSHAKE procedure and Peer B MUST NOT send it in the second datagram as it is considered heavy payload.
+"ko": |-
+  HANDSHAKE 절차의 첫 번째 데이터그램에서 서명된 먼로 해시를 보내면 안 되며 피어 B는 무거운 페이로드로 간주되므로 두 번째 데이터그램에서 이를 보내면 안 됩니다.

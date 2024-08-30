@@ -1,0 +1,22 @@
+"hash": |-
+  8e8fbeeb67115dc2202549e4ae723174124d584869640f967ce5365ab7580c7d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the ske-seed is greater than or equal to the prime, p, the counter
+     is incremented, a new ske-seed is generated, and the hunting-and-
+     pecking continues.  If ske-seed is less than the prime, p, it is
+     passed to the group-specific operation to select the SKE or fail.  If
+     the group-specific operation fails, the counter is incremented, a new
+     ske-seed is generated, and the hunting-and-pecking continues.  This
+     process continues until the group-specific operation returns the
+     password element.  After the password element has been chosen, a
+     random number is used in place of the password in the ske-seed
+     calculation, and the hunting-and-pecking continues until the counter
+     is greater than the security parameter, k.
+"fixed": |-
+  If the ske-seed is greater than or equal to the prime, p, the counter is incremented, a new ske-seed is generated, and the hunting-and- pecking continues.  If ske-seed is less than the prime, p, it is passed to the group-specific operation to select the SKE or fail.  If the group-specific operation fails, the counter is incremented, a new ske-seed is generated, and the hunting-and-pecking continues.  This process continues until the group-specific operation returns the password element.  After the password element has been chosen, a random number is used in place of the password in the ske-seed calculation, and the hunting-and-pecking continues until the counter is greater than the security parameter, k.
+"ko": |-
+  스케시드가 소수 p보다 크거나 같으면 카운터가 증가하고 새로운 스케시드가 생성되며 사냥과 쪼기가 계속됩니다.  ske-seed가 소수 p보다 작으면 SKE를 선택하거나 실패하기 위해 그룹별 작업으로 전달됩니다.  그룹별 작업이 실패하면 카운터가 증가하고 새로운 스케시드가 생성되며 사냥과 쪼기가 계속됩니다.  이 프로세스는 그룹별 작업이 비밀번호 요소를 반환할 때까지 계속됩니다.  비밀번호 요소를 선택한 후 스케시드 계산에서 비밀번호 대신 난수를 사용하고 카운터가 보안 매개변수 k보다 커질 때까지 사냥과 쪼개기가 계속됩니다.

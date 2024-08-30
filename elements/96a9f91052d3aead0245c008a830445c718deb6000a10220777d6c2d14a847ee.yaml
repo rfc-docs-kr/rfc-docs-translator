@@ -1,0 +1,18 @@
+"hash": |-
+  96a9f91052d3aead0245c008a830445c718deb6000a10220777d6c2d14a847ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The unique identifier of a message MUST NOT change during the session
+     and SHOULD NOT change between sessions.  Any change of unique
+     identifiers between sessions MUST be detectable using the UIDVALIDITY
+     mechanism discussed below.  Persistent unique identifiers are
+     required for a client to resynchronize its state from a previous
+     session with the server (e.g., disconnected or offline access clients
+     [IMAP-MODEL]); this is discussed further in [IMAP-DISC].
+"fixed": |-
+  The unique identifier of a message MUST NOT change during the session and SHOULD NOT change between sessions.  Any change of unique identifiers between sessions MUST be detectable using the UIDVALIDITY mechanism discussed below.  Persistent unique identifiers are required for a client to resynchronize its state from a previous session with the server (e.g., disconnected or offline access clients [IMAP-MODEL]); this is discussed further in [IMAP-DISC].
+"ko": |-
+  메시지의 고유 식별자는 세션 중에 변경되어서는 안 되며 세션 간에도 변경되어서는 안 됩니다.  세션 간의 고유 식별자 변경은 아래에 설명된 UIDVALIDITY 메커니즘을 사용하여 감지할 수 있어야 합니다.  클라이언트가 이전 세션의 상태를 서버와 다시 동기화하려면 지속적인 고유 식별자가 필요합니다(예: 연결이 끊어졌거나 오프라인 액세스 클라이언트[IMAP-MODEL]). 이에 대해서는 [IMAP-DISC]에서 자세히 설명합니다.

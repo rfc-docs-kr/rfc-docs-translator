@@ -1,0 +1,21 @@
+"hash": |-
+  edf54790194a8d98ef2ac20e527ffba225818e52f0262c0d7b4623a61b45d947
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       def _IsIPAddressCorrect(self, ipaddress):
+         try:
+           ip = ipaddr.IPAddress(ipaddress)
+         except:
+           self._ReportError('Incorrect IP Address.')
+           return False
+         if ip.is_private:
+           self._ReportError('IP Address must not be private.')
+           return False
+         return True
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

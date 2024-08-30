@@ -1,0 +1,18 @@
+"hash": |-
+  01d57a7520f130df834be14f47a1e6d159d080a9f34797ec348937f836d69ff7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The master secret is hashed into a sequence of secure bytes, which
+     are assigned to the MAC secrets, keys, and non-export IVs required by
+     the current connection state (see Appendix A.6). CipherSpecs require
+     a client write MAC secret, a server write MAC secret, a client write
+     key, a server write key, a client write IV, and a server write IV,
+     which are generated from the master secret in that order. Unused
+     values are empty.
+"fixed": |-
+  The master secret is hashed into a sequence of secure bytes, which are assigned to the MAC secrets, keys, and non-export IVs required by the current connection state (see Appendix A.6). CipherSpecs require a client write MAC secret, a server write MAC secret, a client write key, a server write key, a client write IV, and a server write IV, which are generated from the master secret in that order. Unused values are empty.
+"ko": |-
+  마스터 비밀은 현재 연결 상태에 필요한 MAC 비밀, 키 및 비수출 IV에 할당되는 일련의 보안 바이트로 해시됩니다(부록 A.6 참조). CipherSpecs에는 클라이언트 쓰기 MAC 비밀, 서버 쓰기 MAC 비밀, 클라이언트 쓰기 키, 서버 쓰기 키, 클라이언트 쓰기 IV, 서버 쓰기 IV가 필요하며, 이는 마스터 비밀에서 순서대로 생성됩니다. 사용되지 않은 값은 비어 있습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  d3ac7bf8e0709ec4657be8b16356c89906c60b4363de641aa3cc25693950ca80
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  New connection IDs are sent in NEW_CONNECTION_ID frames and
+        retransmitted if the packet containing them is lost.
+        Retransmissions of this frame carry the same sequence number
+        value.  Likewise, retired connection IDs are sent in
+        RETIRE_CONNECTION_ID frames and retransmitted if the packet
+        containing them is lost.
+"fixed": |-
+  *  New connection IDs are sent in NEW_CONNECTION_ID frames and retransmitted if the packet containing them is lost. Retransmissions of this frame carry the same sequence number value.  Likewise, retired connection IDs are sent in RETIRE_CONNECTION_ID frames and retransmitted if the packet containing them is lost.
+"ko": |-
+  * 새로운 연결 ID는 NEW_CONNECTION_ID 프레임으로 전송되며 이를 포함하는 패킷이 손실되면 재전송됩니다. 이 프레임의 재전송은 동일한 시퀀스 번호 값을 전달합니다. 마찬가지로 폐기된 연결 ID는 RETIRE_CONNECTION_ID 프레임으로 전송되며 이를 포함하는 패킷이 손실되면 재전송됩니다.

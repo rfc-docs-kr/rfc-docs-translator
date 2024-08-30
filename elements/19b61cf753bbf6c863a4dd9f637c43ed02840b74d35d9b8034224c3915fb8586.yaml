@@ -1,0 +1,22 @@
+"hash": |-
+  19b61cf753bbf6c863a4dd9f637c43ed02840b74d35d9b8034224c3915fb8586
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The IPP object is refusing to service the request because one or more
+     of the Client-supplied attributes have a variable-length value that
+     is longer than the maximum length specified for that attribute.  The
+     IPP object might not have sufficient resources (memory, buffers,
+     etc.) to process (even temporarily), interpret, and/or ignore a value
+     larger than the maximum length.  Another use of this error code is
+     when the IPP object supports the processing of a large value that is
+     less than the maximum length, but during the processing of the
+     request as a whole, the object can pass the value onto some other
+     system component that is not able to accept the large value.  For
+     more details, see the Implementor's Guides [RFC3196] [PWG5100.19].
+"fixed": |-
+  The IPP object is refusing to service the request because one or more of the Client-supplied attributes have a variable-length value that is longer than the maximum length specified for that attribute.  The IPP object might not have sufficient resources (memory, buffers, etc.) to process (even temporarily), interpret, and/or ignore a value larger than the maximum length.  Another use of this error code is when the IPP object supports the processing of a large value that is less than the maximum length, but during the processing of the request as a whole, the object can pass the value onto some other system component that is not able to accept the large value.  For more details, see the Implementor's Guides [RFC3196] [PWG5100.19].
+"ko": |-
+  클라이언트 제공 속성 중 하나 이상이 해당 속성에 지정된 최대 길이보다 긴 가변 길이 값을 갖고 있기 때문에 IPP 객체가 요청 서비스를 거부하고 있습니다. IPP 개체에는 최대 길이보다 큰 값을 처리(일시적으로라도), 해석 및/또는 무시할 만큼 충분한 리소스(메모리, 버퍼 등)가 없을 수 있습니다. 이 오류 코드의 또 다른 용도는 IPP 개체가 최대 길이보다 작은 큰 값의 처리를 지원하지만 요청을 전체적으로 처리하는 동안 개체가 다른 시스템 구성 요소에 값을 전달할 수 있는 경우입니다. 큰 값을 받아들일 수 없습니다. 자세한 내용은 구현자 가이드 [RFC3196] [PWG5100.19]를 참조하세요.

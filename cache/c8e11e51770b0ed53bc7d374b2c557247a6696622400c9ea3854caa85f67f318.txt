@@ -1,0 +1,1 @@
+이 필수 프린터 속성은 "printer-uri-supported" 속성과 동일한 카디널리티(동일한 수의 값 포함)를 가져야 합니다. 이 속성은 "printer-uri-supported" 속성에 나열된 각 URI와 연관된 클라이언트 인증 메커니즘을 식별합니다. 프린터는 지정된 메커니즘을 사용하여 인증된 사용자를 식별합니다(섹션 9.3 참조). "uri-authentication-supported"의 "i-th" 값은 "printer-uri-supported"의 "i-th" 값에 해당하며 해당 URI를 통해 액세스할 때 프린터가 사용하는 인증 메커니즘을 설명합니다. 클라이언트 인증에 대한 자세한 내용은 [RFC8010]을 참조하세요.

@@ -1,0 +1,16 @@
+"hash": |-
+  4b86db4716f907661e3941bc2715aa66d461ac8786874957e7d2b5ca6c599fd0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that receives a PATH_CHALLENGE on an active path SHOULD
+     send a non-probing packet in response.  If the non-probing packet
+     arrives before any copy made by an attacker, this results in the
+     connection being migrated back to the original path.  Any subsequent
+     migration to another path restarts this entire process.
+"fixed": |-
+  An endpoint that receives a PATH_CHALLENGE on an active path SHOULD send a non-probing packet in response.  If the non-probing packet arrives before any copy made by an attacker, this results in the connection being migrated back to the original path.  Any subsequent migration to another path restarts this entire process.
+"ko": |-
+  활성 경로에서 PATH_CHALLENGE를 수신하는 엔드포인트는 응답으로 비프로빙 패킷을 보내야 합니다. 비프로빙 패킷이 공격자가 만든 복사본보다 먼저 도착하면 연결이 원래 경로로 다시 마이그레이션됩니다. 이후에 다른 경로로 마이그레이션하면 전체 프로세스가 다시 시작됩니다.

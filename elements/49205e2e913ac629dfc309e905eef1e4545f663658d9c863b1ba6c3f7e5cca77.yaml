@@ -1,0 +1,23 @@
+"hash": |-
+  49205e2e913ac629dfc309e905eef1e4545f663658d9c863b1ba6c3f7e5cca77
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     [RFC5996] allows for authentication of the IKE peers using a pre-
+     shared key.  This exchange, though, is susceptible to dictionary
+     attack and is therefore insecure when used with weak pre-shared keys,
+     such as human-memorizable passwords.  To address the security issue,
+     [RFC5996] recommends that the pre-shared key used for authentication
+     "contain as much unpredictability as the strongest key being
+     negotiated".  That means any non-hexadecimal key would require over
+     100 characters to provide enough strength to generate a 128-bit key
+     suitable for AES.  This is an unrealistic requirement because humans
+     have a hard time entering a string over 20 characters without error.
+     Consequently, pre-shared key authentication in [RFC5996] is used
+     insecurely today.
+"fixed": |-
+  [RFC5996] allows for authentication of the IKE peers using a pre- shared key.  This exchange, though, is susceptible to dictionary attack and is therefore insecure when used with weak pre-shared keys, such as human-memorizable passwords.  To address the security issue, [RFC5996] recommends that the pre-shared key used for authentication "contain as much unpredictability as the strongest key being negotiated".  That means any non-hexadecimal key would require over 100 characters to provide enough strength to generate a 128-bit key suitable for AES.  This is an unrealistic requirement because humans have a hard time entering a string over 20 characters without error. Consequently, pre-shared key authentication in [RFC5996] is used insecurely today.
+"ko": |-
+  [RFC5996]은 사전 공유 키를 사용하여 IKE 피어의 인증을 허용합니다.  하지만 이 교환은 사전 공격에 취약하므로 사람이 기억할 수 있는 비밀번호와 같은 취약한 사전 공유 키와 함께 사용하면 안전하지 않습니다.  보안 문제를 해결하기 위해 [RFC5996]에서는 인증에 사용되는 사전 공유 키에 "협상되는 가장 강력한 키만큼 예측 불가능성을 포함"할 것을 권장합니다.  이는 16진수가 아닌 키가 AES에 적합한 128비트 키를 생성하는 데 충분한 강도를 제공하려면 100자 이상이 필요하다는 것을 의미합니다.  인간은 20자가 넘는 문자열을 오류 없이 입력하기 어렵기 때문에 이는 비현실적인 요구 사항입니다. 결과적으로 [RFC5996]의 사전 공유 키 인증은 오늘날 안전하지 않게 사용됩니다.

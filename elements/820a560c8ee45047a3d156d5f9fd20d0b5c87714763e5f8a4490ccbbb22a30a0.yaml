@@ -1,0 +1,18 @@
+"hash": |-
+  820a560c8ee45047a3d156d5f9fd20d0b5c87714763e5f8a4490ccbbb22a30a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint MUST NOT send this frame if it currently requires that
+     its peer send packets with a zero-length Destination Connection ID.
+     Changing the length of a connection ID to or from zero length makes
+     it difficult to identify when the value of the connection ID changed.
+     An endpoint that is sending packets with a zero-length Destination
+     Connection ID MUST treat receipt of a NEW_CONNECTION_ID frame as a
+     connection error of type PROTOCOL_VIOLATION.
+"fixed": |-
+  An endpoint MUST NOT send this frame if it currently requires that its peer send packets with a zero-length Destination Connection ID. Changing the length of a connection ID to or from zero length makes it difficult to identify when the value of the connection ID changed. An endpoint that is sending packets with a zero-length Destination Connection ID MUST treat receipt of a NEW_CONNECTION_ID frame as a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  엔드포인트는 현재 피어가 길이가 0인 대상 연결 ID로 패킷을 보내도록 요구하는 경우 이 프레임을 보내서는 안 됩니다. 연결 ID 길이를 0 길이로 변경하면 연결 ID 값이 언제 변경되었는지 식별하기가 어렵습니다. 길이가 0인 대상 연결 ID로 패킷을 보내는 엔드포인트는 NEW_CONNECTION_ID 프레임 수신을 PROTOCOL_VIOLATION 유형의 연결 오류로 처리해야 합니다.

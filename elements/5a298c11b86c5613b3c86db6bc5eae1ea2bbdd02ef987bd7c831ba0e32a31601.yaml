@@ -11,7 +11,7 @@
      content of the text.  Fortunately, all the proposed methods of
      generating r are such that getting this particular weak key is very
      unlikely.
-"fixed": !!null |-
-  null
-"ko": !!null |-
-  null
+"fixed": |-
+  Notice how, in test vector #2, r is equal to zero.  The part of the Poly1305 algorithm where the accumulator is multiplied by r means that with r equal zero, the tag will be equal to s regardless of the content of the text.  Fortunately, all the proposed methods of generating r are such that getting this particular weak key is very unlikely.
+"ko": |-
+  테스트 벡터 #2에서 r이 0과 같음을 주목하세요. 누산기에 r을 곱하는 Poly1305 알고리즘 부분은 r이 0인 경우 텍스트 내용에 관계없이 태그가 s와 동일하다는 것을 의미합니다. 다행스럽게도 r을 생성하는 제안된 모든 방법에서는 이 특정한 취약한 키를 얻을 가능성이 거의 없습니다.

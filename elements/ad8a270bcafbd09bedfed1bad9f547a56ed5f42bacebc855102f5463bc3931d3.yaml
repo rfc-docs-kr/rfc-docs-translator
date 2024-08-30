@@ -1,0 +1,18 @@
+"hash": |-
+  ad8a270bcafbd09bedfed1bad9f547a56ed5f42bacebc855102f5463bc3931d3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each Packed Audio Segment MUST signal the timestamp of its first
+     sample with an ID3 Private frame (PRIV) tag [ID3] at the beginning of
+     the segment.  The ID3 PRIV owner identifier MUST be
+     "com.apple.streaming.transportStreamTimestamp".  The ID3 payload MUST
+     be a 33-bit MPEG-2 Program Elementary Stream timestamp expressed as a
+     big-endian eight-octet number, with the upper 31 bits set to zero.
+     Clients SHOULD NOT play Packed Audio Segments without this ID3 tag.
+"fixed": |-
+  Each Packed Audio Segment MUST signal the timestamp of its first sample with an ID3 Private frame (PRIV) tag [ID3] at the beginning of the segment.  The ID3 PRIV owner identifier MUST be "com.apple.streaming.transportStreamTimestamp".  The ID3 payload MUST be a 33-bit MPEG-2 Program Elementary Stream timestamp expressed as a big-endian eight-octet number, with the upper 31 bits set to zero. Clients SHOULD NOT play Packed Audio Segments without this ID3 tag.
+"ko": |-
+  각 패킹된 오디오 세그먼트는 세그먼트 시작 부분에 ID3 프라이빗 프레임(PRIV) 태그 [ID3]를 사용하여 첫 번째 샘플의 타임스탬프를 신호해야 합니다. ID3 PRIV 소유자 식별자는 "com.apple.streaming.transportStreamTimestamp"여야 합니다. ID3 페이로드는 빅엔디안 8옥텟 숫자로 표현된 33비트 MPEG-2 프로그램 기본 스트림 타임스탬프여야 하며 상위 31비트는 0으로 설정되어야 합니다. 클라이언트는 이 ID3 태그 없이 압축된 오디오 세그먼트를 재생해서는 안 됩니다.

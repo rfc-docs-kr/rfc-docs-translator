@@ -1,0 +1,29 @@
+"hash": |-
+  066c79b80d0054871c7911c53d707284f00f62825a6f009bfcd55c794d84fa5b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The "right" edge of the window represents the highest, validated
+     Sequence Number value received on this SA.  Packets that contain
+     sequence numbers lower than the "left" edge of the window are
+     rejected.  Packets falling within the window are checked against a
+     list of received packets within the window.  If the ESN option is
+     selected for an SA, only the low-order 32 bits of the sequence number
+     are explicitly transmitted, but the receiver employs the full
+     sequence number computed using the high-order 32 bits for the
+     indicated SA (from his local counter) when checking the received
+     Sequence Number against the receive window.  In constructing the full
+     sequence number, if the low-order 32 bits carried in the packet are
+     lower in value than the low-order 32 bits of the receiver's sequence
+     number, the receiver assumes that the high-order 32 bits have been
+     incremented, moving to a new sequence number subspace.  (This
+     algorithm accommodates gaps in reception for a single SA as large as
+     2**32-1 packets.  If a larger gap occurs, additional, heuristic
+     checks for re-synchronization of the receiver sequence number counter
+     MAY be employed, as described in the Appendix.)
+"fixed": |-
+  The "right" edge of the window represents the highest, validated Sequence Number value received on this SA.  Packets that contain sequence numbers lower than the "left" edge of the window are rejected.  Packets falling within the window are checked against a list of received packets within the window.  If the ESN option is selected for an SA, only the low-order 32 bits of the sequence number are explicitly transmitted, but the receiver employs the full sequence number computed using the high-order 32 bits for the indicated SA (from his local counter) when checking the received Sequence Number against the receive window.  In constructing the full sequence number, if the low-order 32 bits carried in the packet are lower in value than the low-order 32 bits of the receiver's sequence number, the receiver assumes that the high-order 32 bits have been incremented, moving to a new sequence number subspace.  (This algorithm accommodates gaps in reception for a single SA as large as 2**32-1 packets.  If a larger gap occurs, additional, heuristic checks for re-synchronization of the receiver sequence number counter MAY be employed, as described in the Appendix.)
+"ko": |-
+  창의 "오른쪽" 가장자리는 이 SA에서 수신된 검증된 가장 높은 시퀀스 번호 값을 나타냅니다.  창의 "왼쪽" 가장자리보다 낮은 시퀀스 번호를 포함하는 패킷은 거부됩니다.  창 내에 있는 패킷은 창 내에서 수신된 패킷 목록과 비교하여 확인됩니다.  SA에 대해 ESN 옵션이 선택된 경우 시퀀스 번호의 하위 32비트만 명시적으로 전송되지만 수신기는 표시된 SA에 대해 상위 32비트를 사용하여 계산된 전체 시퀀스 번호를 사용합니다(자신의 로컬 카운터에서). ) 수신 창에서 수신된 Sequence Number를 확인할 때.  전체 시퀀스 번호를 구성할 때 패킷에 포함된 하위 32비트의 값이 수신자 시퀀스 번호의 하위 32비트보다 낮으면 수신자는 상위 32비트가 증가한 것으로 가정하여 이동합니다. 새로운 시퀀스 번호 부분 공간으로.  (이 알고리즘은 2**32-1 패킷만큼 큰 단일 SA에 대한 수신 간격을 수용합니다. 더 큰 간격이 발생하는 경우 수신기 시퀀스 번호 카운터의 재동기화에 대한 추가 경험적 검사를 사용할 수 있습니다. 부록.)

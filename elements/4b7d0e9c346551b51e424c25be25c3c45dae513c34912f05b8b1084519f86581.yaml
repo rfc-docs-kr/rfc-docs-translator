@@ -1,0 +1,28 @@
+"hash": |-
+  4b7d0e9c346551b51e424c25be25c3c45dae513c34912f05b8b1084519f86581
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     MRCPv2 makes no inherent assumptions about the lifetime and access
+     controls associated with a URI.  For example, if neither
+     authentication nor scheme-specific access controls are used, a leak
+     of the URI is equivalent to a leak of the content.  Moreover, MRCPv2
+     makes no specific demands on the lifetime of a URI.  If a server
+     offers a URI and the client takes a long, long time to access that
+     URI, the server may have removed the resource in the interim time
+     period.  MRCPv2 deals with this case by using the URI access scheme's
+     'resource not found' error, such as 404 for HTTPS.  How long a server
+     should keep a dynamic resource available is highly application and
+     context dependent.  However, the server SHOULD keep the resource
+     available for a reasonable amount of time to make it likely the
+     client will have the resource available when the client needs the
+     resource.  Conversely, to mitigate state exhaustion attacks, MRCPv2
+     servers are not obligated to keep resources and resource state in
+     perpetuity.  The server SHOULD delete dynamically generated resources
+     associated with an MRCPv2 session when the session ends.
+"fixed": |-
+  MRCPv2 makes no inherent assumptions about the lifetime and access controls associated with a URI.  For example, if neither authentication nor scheme-specific access controls are used, a leak of the URI is equivalent to a leak of the content.  Moreover, MRCPv2 makes no specific demands on the lifetime of a URI.  If a server offers a URI and the client takes a long, long time to access that URI, the server may have removed the resource in the interim time period.  MRCPv2 deals with this case by using the URI access scheme's 'resource not found' error, such as 404 for HTTPS.  How long a server should keep a dynamic resource available is highly application and context dependent.  However, the server SHOULD keep the resource available for a reasonable amount of time to make it likely the client will have the resource available when the client needs the resource.  Conversely, to mitigate state exhaustion attacks, MRCPv2 servers are not obligated to keep resources and resource state in perpetuity.  The server SHOULD delete dynamically generated resources associated with an MRCPv2 session when the session ends.
+"ko": |-
+  MRCPv2는 URI와 관련된 수명 및 액세스 제어에 대한 본질적인 가정을 하지 않습니다. 예를 들어, 인증이나 체계별 액세스 제어를 사용하지 않는 경우 URI의 누출은 콘텐츠의 누출과 동일합니다. 게다가 MRCPv2는 URI의 수명에 대한 구체적인 요구 사항을 하지 않습니다. 서버가 URI를 제공하고 클라이언트가 해당 URI에 액세스하는 데 오랜 시간이 걸리는 경우 서버는 중간 기간에 리소스를 제거했을 수 있습니다. MRCPv2는 HTTPS의 경우 404와 같은 URI 액세스 체계의 '리소스를 찾을 수 없음' 오류를 사용하여 이 사례를 처리합니다. 서버가 동적 리소스를 사용 가능한 상태로 유지해야 하는 기간은 애플리케이션과 컨텍스트에 따라 크게 달라집니다. 그러나 서버는 클라이언트가 리소스를 필요로 할 때 리소스를 사용할 수 있도록 합리적인 시간 동안 리소스를 사용 가능한 상태로 유지해야 합니다. 반대로 상태 소진 공격을 완화하기 위해 MRCPv2 서버는 리소스와 리소스 상태를 영구적으로 유지할 의무가 없습니다. 서버는 세션이 종료되면 MRCPv2 세션과 연관된 동적으로 생성된 리소스를 삭제해야 합니다.

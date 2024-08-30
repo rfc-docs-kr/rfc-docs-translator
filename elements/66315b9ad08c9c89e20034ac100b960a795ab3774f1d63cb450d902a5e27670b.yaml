@@ -1,0 +1,18 @@
+"hash": |-
+  66315b9ad08c9c89e20034ac100b960a795ab3774f1d63cb450d902a5e27670b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because TLS runs over TCP, it is also susceptible to a number of
+     denial of service attacks on individual connections.  In particular,
+     attackers can forge RSTs, thereby terminating connections, or forge
+     partial TLS records, thereby causing the connection to stall.  These
+     attacks cannot in general be defended against by a TCP-using
+     protocol.  Implementors or users who are concerned with this class of
+     attack should use IPsec AH [AH-ESP] or ESP [AH-ESP].
+"fixed": |-
+  Because TLS runs over TCP, it is also susceptible to a number of denial of service attacks on individual connections.  In particular, attackers can forge RSTs, thereby terminating connections, or forge partial TLS records, thereby causing the connection to stall.  These attacks cannot in general be defended against by a TCP-using protocol.  Implementors or users who are concerned with this class of attack should use IPsec AH [AH-ESP] or ESP [AH-ESP].
+"ko": |-
+  TLS는 TCP를 통해 실행되기 때문에 개별 연결에 대한 다양한 서비스 거부 공격에도 취약합니다. 특히 공격자는 RST를 위조하여 연결을 종료하거나 부분 TLS 레코드를 위조하여 연결을 중단시킬 수 있습니다. 이러한 공격은 일반적으로 TCP 사용 프로토콜로 방어할 수 없습니다. 이 유형의 공격에 관심이 있는 구현자 또는 사용자는 IPsec AH [AH-ESP] 또는 ESP [AH-ESP]를 사용해야 합니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  10bcb8e8671e9e7eb6af0505dbc0a25f3b598c526d83a2b83018d05597354516
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once a maximum fragment length other than 2^14 has been successfully
+     negotiated, the client and server MUST immediately begin fragmenting
+     messages (including handshake messages) to ensure that no fragment
+     larger than the negotiated length is sent.  Note that TLS already
+     requires clients and servers to support fragmentation of handshake
+     messages.
+"fixed": |-
+  Once a maximum fragment length other than 2^14 has been successfully negotiated, the client and server MUST immediately begin fragmenting messages (including handshake messages) to ensure that no fragment larger than the negotiated length is sent.  Note that TLS already requires clients and servers to support fragmentation of handshake messages.
+"ko": |-
+  2^14 이외의 최대 조각 길이가 성공적으로 협상되면 클라이언트와 서버는 협상된 길이보다 큰 조각이 전송되지 않도록 즉시 메시지 조각화(핸드셰이크 메시지 포함)를 시작해야 합니다. TLS에서는 이미 클라이언트와 서버가 핸드셰이크 메시지 조각화를 지원해야 합니다.

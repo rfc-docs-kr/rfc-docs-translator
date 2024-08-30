@@ -1,0 +1,15 @@
+"hash": |-
+  d6cbf6eb2f67be5f876bc0cc2f0ef8eb37b47771472c4da502c9e5e1095d2010
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client might need to perform a connection migration before it has
+     migrated to the server's preferred address.  In this case, the client
+     SHOULD perform path validation to both the original and preferred
+     server address from the client's new address concurrently.
+"fixed": |-
+  A client might need to perform a connection migration before it has migrated to the server's preferred address.  In this case, the client SHOULD perform path validation to both the original and preferred server address from the client's new address concurrently.
+"ko": |-
+  클라이언트는 서버의 기본 주소로 마이그레이션하기 전에 연결 마이그레이션을 수행해야 할 수도 있습니다. 이 경우 클라이언트는 클라이언트의 새 주소에서 원래 서버 주소와 기본 서버 주소 모두에 대한 경로 유효성 검사를 동시에 수행해야 합니다.

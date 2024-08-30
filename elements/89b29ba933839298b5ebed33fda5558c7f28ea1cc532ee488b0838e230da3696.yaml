@@ -1,0 +1,21 @@
+"hash": |-
+  89b29ba933839298b5ebed33fda5558c7f28ea1cc532ee488b0838e230da3696
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In some cases, the Relay Agent Information option in an incoming
+     DHCPREQUEST packet is used to help determine the options returned to
+     the DHCP client that sent the DHCPREQUEST.  When responding to a
+     DHCPLEASEQUERY message, the DHCP server MUST use the saved Relay
+     Agent Information option just like it did when responding to the DHCP
+     client in order to determine the values of any options requested by
+     the DHCPLEASEQUERY message.  The goal is to return the same option
+     values to the DHCPLEASEQUERY as those that were returned to the
+     DHCPDISCOVER or DHCPREQUEST from the DHCP client (unless otherwise
+     specified, above).
+"fixed": |-
+  In some cases, the Relay Agent Information option in an incoming DHCPREQUEST packet is used to help determine the options returned to the DHCP client that sent the DHCPREQUEST.  When responding to a DHCPLEASEQUERY message, the DHCP server MUST use the saved Relay Agent Information option just like it did when responding to the DHCP client in order to determine the values of any options requested by the DHCPLEASEQUERY message.  The goal is to return the same option values to the DHCPLEASEQUERY as those that were returned to the DHCPDISCOVER or DHCPREQUEST from the DHCP client (unless otherwise specified, above).
+"ko": |-
+  어떤 경우에는 들어오는 DHCPREQUEST 패킷의 릴레이 에이전트 정보 옵션을 사용하여 DHCPREQUEST를 보낸 DHCP 클라이언트에 반환된 옵션을 결정하는 데 도움을 줍니다. DHCPLEASEQUERY 메시지에 응답할 때 DHCP 서버는 DHCPLEASEQUERY 메시지에서 요청한 옵션 값을 결정하기 위해 DHCP 클라이언트에 응답할 때와 마찬가지로 저장된 릴레이 에이전트 정보 옵션을 사용해야 합니다. 목표는 DHCP 클라이언트에서 DHCPDISCOVER 또는 DHCPREQUEST로 반환된 것과 동일한 옵션 값을 DHCPLEASEQUERY로 반환하는 것입니다(위에서 달리 지정하지 않는 한).

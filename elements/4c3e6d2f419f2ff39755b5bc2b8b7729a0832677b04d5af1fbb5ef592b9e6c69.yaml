@@ -1,0 +1,21 @@
+"hash": |-
+  4c3e6d2f419f2ff39755b5bc2b8b7729a0832677b04d5af1fbb5ef592b9e6c69
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Media Initialization Section for an fMP4 Segment MUST contain a
+     File Type Box ('ftyp') containing a brand that is compatible with
+     'iso6' or higher.  The File Type Box MUST be followed by a Movie Box.
+     The Movie Box MUST contain a Track Box ('trak') for every Track
+     Fragment Box ('traf') in the fMP4 Segment, with matching track_ID.
+     Each Track Box SHOULD contain a sample table, but its sample count
+     MUST be zero.  Movie Header Boxes ('mvhd') and Track Header Boxes
+     ('tkhd') MUST have durations of zero.  A Movie Extends Box ('mvex')
+     MUST follow the last Track Box.  Note that a Common Media Application
+     Format (CMAF) Header [CMAF] meets all these requirements.
+"fixed": |-
+  The Media Initialization Section for an fMP4 Segment MUST contain a File Type Box ('ftyp') containing a brand that is compatible with 'iso6' or higher.  The File Type Box MUST be followed by a Movie Box. The Movie Box MUST contain a Track Box ('trak') for every Track Fragment Box ('traf') in the fMP4 Segment, with matching track_ID. Each Track Box SHOULD contain a sample table, but its sample count MUST be zero.  Movie Header Boxes ('mvhd') and Track Header Boxes ('tkhd') MUST have durations of zero.  A Movie Extends Box ('mvex') MUST follow the last Track Box.  Note that a Common Media Application Format (CMAF) Header [CMAF] meets all these requirements.
+"ko": |-
+  fMP4 세그먼트의 미디어 초기화 섹션에는 'iso6' 이상과 호환되는 브랜드가 포함된 파일 형식 상자('ftyp')가 포함되어야 합니다. 파일 유형 상자 뒤에는 영화 상자가 와야 합니다. Movie Box에는 fMP4 세그먼트의 모든 트랙 조각 상자('traf')에 대해 track_ID가 일치하는 트랙 상자('trak')가 포함되어야 합니다. 각 트랙 박스는 샘플 테이블을 포함해야 하지만 샘플 개수는 0이어야 합니다. 영화 헤더 상자('mvhd') 및 트랙 헤더 상자('tkhd')의 지속 시간은 0이어야 합니다. Movie Extends Box('mvex')는 마지막 트랙 상자를 따라야 합니다. CMAF(Common Media Application Format) 헤더[CMAF]는 이러한 요구 사항을 모두 충족합니다.

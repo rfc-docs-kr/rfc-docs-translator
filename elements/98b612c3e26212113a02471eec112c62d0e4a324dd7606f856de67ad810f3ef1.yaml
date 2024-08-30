@@ -1,0 +1,18 @@
+"hash": |-
+  98b612c3e26212113a02471eec112c62d0e4a324dd7606f856de67ad810f3ef1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+             [1] M = mandatory; O = optional; D = dummy
+             [2] If tunnel mode -> IP datagram
+                 If transport mode -> next header and data
+             [3] ciphertext if encryption has been selected
+             [4] Can be used only if payload specifies its "real" length
+             [5] See section 2.2.1
+             [6] mandatory if a separate integrity algorithm is used
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

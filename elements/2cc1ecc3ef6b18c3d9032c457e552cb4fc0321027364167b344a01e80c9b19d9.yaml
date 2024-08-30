@@ -1,0 +1,17 @@
+"hash": |-
+  2cc1ecc3ef6b18c3d9032c457e552cb4fc0321027364167b344a01e80c9b19d9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If all of the preconditions are true, the server supports the Range
+     header field for the target resource, the received Range field-value
+     contains a valid ranges-specifier, and either the range-unit is not
+     supported for that target resource or the ranges-specifier is
+     unsatisfiable with respect to the selected representation, the server
+     SHOULD send a 416 (Range Not Satisfiable) response.
+"fixed": |-
+  If all of the preconditions are true, the server supports the Range header field for the target resource, the received Range field-value contains a valid ranges-specifier, and either the range-unit is not supported for that target resource or the ranges-specifier is unsatisfiable with respect to the selected representation, the server SHOULD send a 416 (Range Not Satisfiable) response.
+"ko": |-
+  모든 전제 조건이 true인 경우 서버는 대상 리소스에 대한 Range 헤더 필드를 지원하고, 수신된 Range 필드 값에는 유효한 ranges-specifier가 포함되며, range-unit은 해당 대상 리소스 또는 범위에 대해 지원되지 않습니다. 지정자가 선택한 표현과 관련하여 만족스럽지 않으면 서버는 416(Range Not Satisfiable) 응답을 보내야 합니다.

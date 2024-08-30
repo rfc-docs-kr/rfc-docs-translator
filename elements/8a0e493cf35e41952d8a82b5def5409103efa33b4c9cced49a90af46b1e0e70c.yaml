@@ -1,0 +1,23 @@
+"hash": |-
+  8a0e493cf35e41952d8a82b5def5409103efa33b4c9cced49a90af46b1e0e70c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Allowing an origin server to send a success response when a change
+     request appears to have already been applied is more efficient for
+     many authoring use cases, but comes with some risk if multiple user
+     agents are making change requests that are very similar but not
+     cooperative.  For example, multiple user agents writing to a common
+     resource as a semaphore (e.g., a nonatomic increment) are likely to
+     collide and potentially lose important state transitions.  For those
+     kinds of resources, an origin server is better off being stringent in
+     sending 412 for every failed precondition on an unsafe method.  In
+     other cases, excluding the ETag field from a success response might
+     encourage the user agent to perform a GET as its next request to
+     eliminate confusion about the resource's current state.
+"fixed": |-
+  Allowing an origin server to send a success response when a change request appears to have already been applied is more efficient for many authoring use cases, but comes with some risk if multiple user agents are making change requests that are very similar but not cooperative.  For example, multiple user agents writing to a common resource as a semaphore (e.g., a nonatomic increment) are likely to collide and potentially lose important state transitions.  For those kinds of resources, an origin server is better off being stringent in sending 412 for every failed precondition on an unsafe method.  In other cases, excluding the ETag field from a success response might encourage the user agent to perform a GET as its next request to eliminate confusion about the resource's current state.
+"ko": |-
+  변경 요청이 이미 적용된 것으로 보일 때 원본 서버가 성공 응답을 보내도록 허용하는 것은 많은 저작 사용 사례에 더 효율적이지만, 여러 사용자 에이전트가 매우 유사하지만 협조적이지 않은 변경 요청을 하는 경우 약간의 위험이 따릅니다. 예를 들어, 공통 리소스에 세마포어(예: 비원자적 증분)로 쓰는 여러 사용자 에이전트는 충돌할 가능성이 높으며 잠재적으로 중요한 상태 전환이 손실될 수 있습니다. 이러한 종류의 리소스의 경우 원본 서버는 안전하지 않은 메서드에서 실패한 모든 전제 조건에 대해 412를 엄격하게 보내는 것이 더 좋습니다. 다른 경우에는 성공 응답에서 ETag 필드를 제외하면 사용자 에이전트가 리소스의 현재 상태에 대한 혼란을 없애기 위해 다음 요청으로 GET을 수행하도록 권장할 수 있습니다.

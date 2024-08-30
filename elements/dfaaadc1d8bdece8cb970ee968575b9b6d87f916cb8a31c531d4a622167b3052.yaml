@@ -1,0 +1,16 @@
+"hash": |-
+  dfaaadc1d8bdece8cb970ee968575b9b6d87f916cb8a31c531d4a622167b3052
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The size of each of these buffers should at least be equal to that
+        of a message, i.e., 8095 bits.  We have chosen a buffer size of
+        253 words (8096 bits) so that both of the buffers are included
+        within one page (512 words).  The 6 remaining words of the page
+        are generally used for control.
+"fixed": |-
+  - The size of each of these buffers should at least be equal to that of a message, i.e., 8095 bits.  We have chosen a buffer size of 253 words (8096 bits) so that both of the buffers are included within one page (512 words).  The 6 remaining words of the page are generally used for control.
+"ko": |-
+  - 각 버퍼의 크기는 적어도 메시지의 크기와 같아야 합니다(예: 8095비트). 우리는 두 버퍼가 모두 한 페이지(512워드) 내에 포함되도록 253워드(8096비트)의 버퍼 크기를 선택했습니다. 페이지의 나머지 6개 단어는 일반적으로 제어에 사용됩니다.

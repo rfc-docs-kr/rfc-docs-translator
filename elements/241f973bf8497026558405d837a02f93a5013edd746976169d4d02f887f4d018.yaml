@@ -1,0 +1,16 @@
+"hash": |-
+  241f973bf8497026558405d837a02f93a5013edd746976169d4d02f887f4d018
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     that we need to allow BGP to install and distribute multiple routes
+     to a single IP address prefix.  Further, we must ensure that POLICY
+     is used to determine which sites can be use which routes; given that
+     several such routes are installed by BGP, only one such must appear
+     in any particular per-site forwarding table.
+"fixed": |-
+  that we need to allow BGP to install and distribute multiple routes to a single IP address prefix.  Further, we must ensure that POLICY is used to determine which sites can be use which routes; given that several such routes are installed by BGP, only one such must appear in any particular per-site forwarding table.
+"ko": |-
+  BGP가 단일 IP 주소 접두사에 여러 경로를 설치하고 배포할 수 있도록 허용해야 합니다. 또한 POLICY를 사용하여 어떤 사이트가 어떤 경로를 사용할 수 있는지 확인해야 합니다. 이러한 경로가 여러 개 BGP에 의해 설치되므로 특정 사이트별 전달 테이블에는 하나만 나타나야 합니다.

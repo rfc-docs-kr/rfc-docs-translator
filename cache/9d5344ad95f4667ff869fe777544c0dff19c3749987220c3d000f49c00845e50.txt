@@ -1,0 +1,1 @@
+DHCPLEASEQUERY 기능을 구현하는 DHCP 서버 구현은 두 가지 이유로 가장 최근의 DHCPREQUEST 패킷에서 가장 최근의 릴레이 에이전트 정보 옵션을 저장해야 합니다. 첫째, 모든 DHCPLEASEQUERY 요청의 dhcp-parameter-request-list 옵션에서 요청되는 것이 거의 확실합니다. 둘째, 저장된 릴레이 에이전트 정보 옵션은 DHCPLEASEQUERY 요청의 dhcp-parameter-request 목록에서 요청하는 경우 DHCP 클라이언트에 제공되는 다른 옵션의 값을 결정하는 데 필요할 수 있습니다.

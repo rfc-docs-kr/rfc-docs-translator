@@ -1,0 +1,17 @@
+"hash": |-
+  b5f7ddb9b6de87ed0dbf9fdde8ef8529fea99397ae2aec3c2ef5dd34650c7f06
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a UAS receives a request with a body part whose disposition type
+     is not compatible with the way the body part is supposed to be
+     handled according to other parts of the SIP message (e.g., a Refer-To
+     header field with a Content-ID URL pointing to a body part whose
+     disposition type is 'session'), the UAS SHOULD return a 415
+     (Unsupported Media Type) response.
+"fixed": |-
+  If a UAS receives a request with a body part whose disposition type is not compatible with the way the body part is supposed to be handled according to other parts of the SIP message (e.g., a Refer-To header field with a Content-ID URL pointing to a body part whose disposition type is 'session'), the UAS SHOULD return a 415 (Unsupported Media Type) response.
+"ko": |-
+  UAS가 SIP 메시지의 다른 부분(예: '세션' 처리 유형인 본문 부분을 가리키는 Content-ID URL이 있는 Refer-To 헤더 필드)에 따라 본문 부분을 처리하는 방식과 호환되지 않는 처리 유형이 포함된 요청을 수신한 경우, UAS는 415(지원되지 않는 미디어 유형) 응답을 반환해야 합니다.

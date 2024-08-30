@@ -1,0 +1,25 @@
+"hash": |-
+  19cea2a5dcb3e9693bbb5e3b7f731f822484cb8e232d0278f0373595f4c3c9f5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ChaCha20 successively calls the ChaCha20 block function, with the
+     same key and nonce, and with successively increasing block counter
+     parameters.  ChaCha20 then serializes the resulting state by writing
+     the numbers in little-endian order, creating a keystream block.
+     Concatenating the keystream blocks from the successive blocks forms a
+     keystream.  The ChaCha20 function then performs an XOR of this
+     keystream with the plaintext.  Alternatively, each keystream block
+     can be XORed with a plaintext block before proceeding to create the
+     next block, saving some memory.  There is no requirement for the
+     plaintext to be an integral multiple of 512 bits.  If there is extra
+     keystream from the last block, it is discarded.  Specific protocols
+     MAY require that the plaintext and ciphertext have certain length.
+     Such protocols need to specify how the plaintext is padded and how
+     much padding it receives.
+"fixed": |-
+  ChaCha20 successively calls the ChaCha20 block function, with the same key and nonce, and with successively increasing block counter parameters.  ChaCha20 then serializes the resulting state by writing the numbers in little-endian order, creating a keystream block. Concatenating the keystream blocks from the successive blocks forms a keystream.  The ChaCha20 function then performs an XOR of this keystream with the plaintext.  Alternatively, each keystream block can be XORed with a plaintext block before proceeding to create the next block, saving some memory.  There is no requirement for the plaintext to be an integral multiple of 512 bits.  If there is extra keystream from the last block, it is discarded.  Specific protocols MAY require that the plaintext and ciphertext have certain length. Such protocols need to specify how the plaintext is padded and how much padding it receives.
+"ko": |-
+  ChaCha20은 동일한 키와 nonce를 사용하고 연속적으로 증가하는 블록 카운터 매개변수를 사용하여 ChaCha20 블록 함수를 연속적으로 호출합니다. 그런 다음 ChaCha20은 리틀 엔디안 순서로 숫자를 작성하여 결과 상태를 직렬화하고 키스트림 블록을 생성합니다. 연속 블록의 키스트림 블록을 연결하면 키스트림이 형성됩니다. 그런 다음 ChaCha20 함수는 이 키스트림을 일반 텍스트와 XOR합니다. 또는 다음 블록 생성을 진행하기 전에 각 키스트림 블록을 일반 텍스트 블록과 XOR하여 일부 메모리를 절약할 수 있습니다. 일반 텍스트가 512비트의 정수배가 되어야 한다는 요구 사항은 없습니다. 마지막 블록에 추가 키스트림이 있으면 폐기됩니다. 특정 프로토콜에서는 일반 텍스트와 암호문의 특정 길이를 요구할 수 있습니다. 이러한 프로토콜은 일반 텍스트가 채워지는 방식과 받는 패딩의 양을 지정해야 합니다.

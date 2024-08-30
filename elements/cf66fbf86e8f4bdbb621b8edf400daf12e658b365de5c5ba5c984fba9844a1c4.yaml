@@ -1,0 +1,15 @@
+"hash": |-
+  cf66fbf86e8f4bdbb621b8edf400daf12e658b365de5c5ba5c984fba9844a1c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Resetting a stream without the involvement of the application
+     protocol could cause the application protocol to enter an
+     unrecoverable state.  RESET_STREAM MUST only be instigated by the
+     application protocol that uses QUIC.
+"fixed": |-
+  Resetting a stream without the involvement of the application protocol could cause the application protocol to enter an unrecoverable state.  RESET_STREAM MUST only be instigated by the application protocol that uses QUIC.
+"ko": |-
+  애플리케이션 프로토콜을 사용하지 않고 스트림을 재설정하면 애플리케이션 프로토콜이 복구할 수 없는 상태가 될 수 있습니다. RESET_STREAM은 QUIC를 사용하는 애플리케이션 프로토콜에 의해서만 시작되어야 합니다.

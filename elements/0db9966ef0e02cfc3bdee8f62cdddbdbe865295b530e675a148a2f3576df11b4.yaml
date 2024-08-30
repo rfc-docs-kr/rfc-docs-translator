@@ -1,0 +1,18 @@
+"hash": |-
+  0db9966ef0e02cfc3bdee8f62cdddbdbe865295b530e675a148a2f3576df11b4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server that receives a Content-Location field in a request
+     message MUST treat the information as transitory request context
+     rather than as metadata to be saved verbatim as part of the
+     representation.  An origin server MAY use that context to guide in
+     processing the request or to save it for other uses, such as within
+     source links or versioning metadata.  However, an origin server MUST
+     NOT use such context information to alter the request semantics.
+"fixed": |-
+  An origin server that receives a Content-Location field in a request message MUST treat the information as transitory request context rather than as metadata to be saved verbatim as part of the representation.  An origin server MAY use that context to guide in processing the request or to save it for other uses, such as within source links or versioning metadata.  However, an origin server MUST NOT use such context information to alter the request semantics.
+"ko": |-
+  요청 메시지에서 Content-Location 필드를 수신하는 원서버는 해당 정보를 표현의 일부로 축어적으로 저장할 메타데이터가 아닌 임시 요청 컨텍스트로 처리해야 합니다. 원본 서버는 해당 컨텍스트를 사용하여 요청 처리를 안내하거나 소스 링크 또는 버전 관리 메타데이터 내에서와 같은 다른 용도로 저장할 수 있습니다. 그러나 원서버는 요청 의미를 변경하기 위해 그러한 컨텍스트 정보를 사용해서는 안 됩니다.

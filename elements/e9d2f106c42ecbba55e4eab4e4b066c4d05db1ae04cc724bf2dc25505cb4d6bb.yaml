@@ -1,0 +1,20 @@
+"hash": |-
+  e9d2f106c42ecbba55e4eab4e4b066c4d05db1ae04cc724bf2dc25505cb4d6bb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     SIP messages can carry binary message bodies such as legacy
+     signalling objects [RFC3204].  SIP proxy servers are 8-bit safe.
+     That is, they are able to handle binary bodies.  Therefore, there is
+     no need to use encodings such as base64 to transport binary bodies in
+     SIP messages.  Consequently, UAs SHOULD use the binary transfer
+     encoding [RFC4289] for all payloads in SIP, including binary
+     payloads.  The only case where a UA MAY use a different encoding is
+     when transferring application data between applications that only
+     handle a different encoding (e.g., base64).
+"fixed": |-
+  SIP messages can carry binary message bodies such as legacy signalling objects [RFC3204].  SIP proxy servers are 8-bit safe. That is, they are able to handle binary bodies.  Therefore, there is no need to use encodings such as base64 to transport binary bodies in SIP messages.  Consequently, UAs SHOULD use the binary transfer encoding [RFC4289] for all payloads in SIP, including binary payloads.  The only case where a UA MAY use a different encoding is when transferring application data between applications that only handle a different encoding (e.g., base64).
+"ko": |-
+  SIP 메시지는 레거시 신호 객체[RFC3204]와 같은 바이너리 메시지 본문을 전송할 수 있습니다. SIP 프록시 서버는 8비트 안전합니다. 즉, 바이너리 본문을 처리할 수 있습니다. 따라서 SIP 메시지에서 바이너리 본문을 전송하기 위해 base64와 같은 인코딩을 사용할 필요가 없습니다. 결과적으로 UA는 바이너리 페이로드를 포함하여 SIP의 모든 페이로드에 대해 바이너리 전송 인코딩[RFC4289]을 사용해야 합니다. UA가 다른 인코딩을 사용할 수 있는 유일한 경우는 다른 인코딩(예: base64)만 처리하는 애플리케이션 간에 애플리케이션 데이터를 전송할 때입니다.

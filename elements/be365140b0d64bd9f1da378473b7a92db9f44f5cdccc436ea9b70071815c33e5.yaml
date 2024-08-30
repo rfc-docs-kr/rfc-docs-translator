@@ -1,0 +1,20 @@
+"hash": |-
+  be365140b0d64bd9f1da378473b7a92db9f44f5cdccc436ea9b70071815c33e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The STOP method from the client to the server tells the resource to
+     stop recognition if a request is active.  If a RECOGNIZE request is
+     active and the STOP request successfully terminated it, then the
+     response header section contains an Active-Request-Id-List header
+     field containing the request-id of the RECOGNIZE request that was
+     terminated.  In this case, no RECOGNITION-COMPLETE event is sent for
+     the terminated request.  If there was no recognition active, then the
+     response MUST NOT contain an Active-Request-Id-List header field.
+     Either way, the response MUST contain a status-code of 200 "Success".
+"fixed": |-
+  The STOP method from the client to the server tells the resource to stop recognition if a request is active.  If a RECOGNIZE request is active and the STOP request successfully terminated it, then the response header section contains an Active-Request-Id-List header field containing the request-id of the RECOGNIZE request that was terminated.  In this case, no RECOGNITION-COMPLETE event is sent for the terminated request.  If there was no recognition active, then the response MUST NOT contain an Active-Request-Id-List header field. Either way, the response MUST contain a status-code of 200 "Success".
+"ko": |-
+  클라이언트에서 서버로의 STOP 메서드는 요청이 활성화된 경우 리소스에 인식을 중지하라고 알립니다. RECOGNIZE 요청이 활성화되어 있고 STOP 요청이 성공적으로 종료된 경우 응답 헤더 섹션에는 종료된 RECOGNIZE 요청의 요청 ID가 포함된 Active-Request-Id-List 헤더 필드가 포함됩니다. 이 경우 종료된 요청에 대해 RECOGNITION-COMPLETE 이벤트가 전송되지 않습니다. 활성화된 인식이 없는 경우 응답에는 Active-Request-Id-List 헤더 필드가 포함되어서는 안 됩니다. 어느 쪽이든 응답에는 200 "성공" 상태 코드가 포함되어야 합니다.

@@ -1,0 +1,20 @@
+"hash": |-
+  65b027b797c1d87e15c28008beeccc099d2d6a89175a13560b9a25b14bb26253
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note: The STATUS command is intended to access the status of
+        mailboxes other than the currently selected mailbox.  Because the
+        STATUS command can cause the mailbox to be opened internally, and
+        because this information is available by other means on the
+        selected mailbox, the STATUS command SHOULD NOT be used on the
+        currently selected mailbox.  However, servers MUST be able to
+        execute the STATUS command on the selected mailbox.  (This might
+        also implicitly happen when the STATUS return option is used in a
+        LIST command.)
+"fixed": |-
+  - Note: The STATUS command is intended to access the status of mailboxes other than the currently selected mailbox.  Because the STATUS command can cause the mailbox to be opened internally, and because this information is available by other means on the selected mailbox, the STATUS command SHOULD NOT be used on the currently selected mailbox.  However, servers MUST be able to execute the STATUS command on the selected mailbox.  (This might also implicitly happen when the STATUS return option is used in a LIST command.)
+"ko": |-
+  - 참고: STATUS 명령은 현재 선택된 사서함이 아닌 사서함의 상태에 액세스하기 위한 것입니다.  STATUS 명령으로 인해 사서함이 내부적으로 열릴 수 있고 이 정보는 선택한 사서함에서 다른 방법으로 사용할 수 있으므로 현재 선택한 사서함에서 STATUS 명령을 사용하면 안 됩니다.  그러나 서버는 선택한 사서함에서 STATUS 명령을 실행할 수 있어야 합니다.  (이는 STATUS 반환 옵션이 LIST 명령에서 사용될 때 암시적으로 발생할 수도 있습니다.)

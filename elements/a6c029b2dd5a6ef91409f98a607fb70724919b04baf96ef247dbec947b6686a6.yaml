@@ -1,0 +1,54 @@
+"hash": |-
+  a6c029b2dd5a6ef91409f98a607fb70724919b04baf96ef247dbec947b6686a6
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+        3.2. Algorithms ................................................20
+             3.2.1. Encryption Algorithms ..............................21
+             3.2.2. Integrity Algorithms ...............................21
+             3.2.3. Combined Mode Algorithms ...........................22
+        3.3. Outbound Packet Processing ................................22
+             3.3.1. Security Association Lookup ........................22
+             3.3.2. Packet Encryption and Integrity Check Value
+                    (ICV) Calculation ..................................22
+                    3.3.2.1. Separate Confidentiality and
+                             Integrity Algorithms ......................23
+                    3.3.2.2. Combined Confidentiality and
+                             Integrity Algorithms ......................24
+             3.3.3. Sequence Number Generation .........................25
+             3.3.4. Fragmentation ......................................26
+        3.4. Inbound Packet Processing .................................27
+             3.4.1. Reassembly .........................................27
+             3.4.2. Security Association Lookup ........................27
+             3.4.3. Sequence Number Verification .......................28
+             3.4.4. Integrity Check Value Verification .................30
+                    3.4.4.1. Separate Confidentiality and
+                             Integrity Algorithms ......................30
+                    3.4.4.2. Combined Confidentiality and
+                             Integrity Algorithms ......................32
+     4. Auditing .......................................................33
+     5. Conformance Requirements .......................................34
+     6. Security Considerations ........................................34
+     7. Differences from RFC 2406 ......................................34
+     8. Backward-Compatibility Considerations ..........................35
+     9. Acknowledgements ...............................................36
+     10. References ....................................................36
+        10.1. Normative References .....................................36
+        10.2. Informative References ...................................37
+     Appendix A: Extended (64-bit) Sequence Numbers ....................38
+        A1. Overview ...................................................38
+        A2. Anti-Replay Window .........................................38
+            A2.1. Managing and Using the Anti-Replay Window ............39
+            A2.2. Determining the Higher-Order Bits (Seqh) of the
+                  Sequence Number ......................................40
+            A2.3. Pseudo-Code Example ..................................41
+        A3. Handling Loss of Synchronization due to Significant
+            Packet Loss ................................................42
+            A3.1. Triggering Re-synchronization ........................43
+            A3.2. Re-synchronization Process ...........................43
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

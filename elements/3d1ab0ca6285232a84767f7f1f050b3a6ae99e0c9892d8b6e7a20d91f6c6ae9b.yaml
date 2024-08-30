@@ -1,0 +1,94 @@
+"hash": |-
+  3d1ab0ca6285232a84767f7f1f050b3a6ae99e0c9892d8b6e7a20d91f6c6ae9b
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          0  650: SEQUENCE {
+          4   11:  OBJECT IDENTIFIER
+                :   authEnvelopedData (1 2 840 113549 1 9 16 1 23)
+         17  633:  [0] {
+         21  629:   SEQUENCE {
+         25    1:    INTEGER 0
+         28  551:    SET {
+         32  547:     [4] {
+         36   11:      OBJECT IDENTIFIER
+                :       keyTransPSK (1 2 840 113549 1 9 16 13 1)
+         49  530:      SEQUENCE {
+         53    1:       INTEGER 0
+         56   19:       OCTET STRING 'ptf-kmc:13614122112'
+         77   13:       SEQUENCE {
+         79   11:        OBJECT IDENTIFIER
+                :         hkdf-with-sha384 (1 2 840 113549 1 9 16 3 29)
+                :         }
+         92   11:       SEQUENCE {
+         94    9:        OBJECT IDENTIFIER
+                :         aes256-wrap (2 16 840 1 101 3 4 1 45)
+                :         }
+        105  432:       SEQUENCE {
+        109  428:        SEQUENCE {
+        113    1:         INTEGER 2
+        116   20:         [0]
+                :          9E EB 67 C9 B9 5A 74 D4 4D 2F 16 39 66 80 E8 01
+                :          B5 CB A4 9C
+        138   13:         SEQUENCE {
+        140    9:          OBJECT IDENTIFIER
+                :           rsaEncryption (1 2 840 113549 1 1 1)
+        151    0:          NULL
+                :          }
+        153  384:         OCTET STRING
+                :          52 69 3F 12 14 0C 91 DE A2 B4 4C 0B 79 36 F6 BE
+                :          46 DE 8A 7B FA B0 72 BC B6 EC FD 56 B0 6A 9F 65
+                :          1B D4 66 9D 33 6A EF 7B 44 9E 5C D9 B1 51 89 3B
+                :          7C 7A 3B 8E 36 43 94 84 0B 0A 54 34 CB F1 0E 1B
+                :          56 70 AE FD 07 4F AF 38 06 65 D2 04 FB 95 15 35
+                :          43 34 6F 36 C2 12 5D BA 6F 4D 23 D2 BC 61 43 4B
+                :          5E 36 FF 72 B3 EA FE 57 C6 CF 7F 74 92 4C 30 9F
+                :          17 4B 0B 87 53 55 4B 58 ED 33 A8 84 8D 70 7A 98
+                :          C0 C2 B1 DD CF D0 9E 31 FE 21 3C A0 A4 8D D1 57
+                :          BD 7D 84 2E 85 CC 76 F7 77 10 D5 8E FE AA 05 25
+                :          C6 51 BC D1 41 0F B4 75 34 EC AB AF 5A B7 DA AB
+                :          ED 80 9D 4B 97 22 0C AF 6D 49 29 C5 FB 68 4F 7B
+                :          B8 69 2E 6E 70 33 2F F9 B3 F7 C1 1D 6C AC 51 D4
+                :          A3 55 93 17 3D 48 F8 0C A8 43 B8 97 89 D6 25 E7
+                :          99 7A D7 D6 74 D2 5A 2A 7D 16 5A 5F 39 B3 CB 63
+                :          58 E9 37 BD B0 2A C8 A5 24 AC 93 11 3C ED D9 AD
+                :          C6 82 63 02 5C 0B B0 99 7D 71 6E 58 D4 D7 B6 97
+                :          39 BF 59 1F 3E 71 C7 67 8D C0 DF 96 F3 DF 9E 8A
+                :          A5 73 8F 4F 9C E2 14 89 F3 00 E0 40 89 1B 20 B2
+                :          AB 6D 90 51 B3 C2 E6 8E FA 2F A9 79 9A 70 68 78
+                :          D5 F4 62 01 8C 02 1D 66 69 ED 64 9F 9A CD F7 84
+                :          76 81 01 98 BF B8 BD 41 FF ED C5 85 EA FA 95 7E
+                :          EA 1D 36 25 E4 BE D3 76 E7 AE 49 71 8A EE 2F 57
+                :          5C 40 1A 26 A2 99 41 D8 DA 5B 7E E9 AC A3 64 71
+                :          }
+                :         }
+        541   40:       OCTET STRING
+                :        EA 09 47 25 0F A6 6C D5 25 59 5E 52 A6 9A AA DE
+                :        88 EF CF 1B 0F 10 8A BE 29 10 60 39 1B 1C DF 59
+                :        07 F3 6B 40 67 E4 53 42
+                :        }
+                :       }
+                :      }
+        583   55:    SEQUENCE {
+        585    9:     OBJECT IDENTIFIER data (1 2 840 113549 1 7 1)
+        596   27:     SEQUENCE {
+        598    9:      OBJECT IDENTIFIER
+                :       aes256-GCM (2 16 840 1 101 3 4 1 46)
+        609   14:      SEQUENCE {
+        611   12:       OCTET STRING
+                :        CA FE BA BE FA CE DB AD DE CA F8 88
+                :        }
+                :       }
+        625   13:     [0]
+                :      9A F2 D1 6F 21 54 7F CE FE D9 B3 EF 2D
+                :      }
+        640   12:    OCTET STRING A0 E5 92 5C C1 84 E0 17 24 63 C4 4C
+                :    }
+                :   }
+                :  }
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

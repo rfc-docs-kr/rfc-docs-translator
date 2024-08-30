@@ -1,0 +1,22 @@
+"hash": |-
+  ada1be52adb5b916e52a04af78a954f15c8dceee008fe84c848f47f9897f04f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In environments where IPsec is sure to be available, it represents a
+     viable option for protecting application communications traffic.  If
+     the traffic to be protected is UDP, IPsec and application-specific
+     object security are the only options.  However, designers MUST NOT
+     assume that IPsec will be available.  A security policy for a generic
+     application layer protocol SHOULD NOT simply state that IPsec must be
+     used, unless there is some reason to believe that IPsec will be
+     available in the intended deployment environment.  In environments
+     where IPsec may not be available and the traffic is solely TCP, TLS
+     is the method of choice, since the application developer can easily
+     ensure its presence by including a TLS implementation in his package.
+"fixed": |-
+  In environments where IPsec is sure to be available, it represents a viable option for protecting application communications traffic.  If the traffic to be protected is UDP, IPsec and application-specific object security are the only options.  However, designers MUST NOT assume that IPsec will be available.  A security policy for a generic application layer protocol SHOULD NOT simply state that IPsec must be used, unless there is some reason to believe that IPsec will be available in the intended deployment environment.  In environments where IPsec may not be available and the traffic is solely TCP, TLS is the method of choice, since the application developer can easily ensure its presence by including a TLS implementation in his package.
+"ko": |-
+  IPsec을 확실히 사용할 수 있는 환경에서는 애플리케이션 통신 트래픽을 보호하기 위한 실행 가능한 옵션을 나타냅니다. 보호할 트래픽이 UDP인 경우 IPsec 및 애플리케이션별 개체 보안이 유일한 옵션입니다. 그러나 설계자는 IPsec을 사용할 수 있다고 가정해서는 안 됩니다. 일반 애플리케이션 계층 프로토콜에 대한 보안 정책은 의도한 배포 환경에서 IPsec을 사용할 수 있다고 믿을만한 이유가 없는 한 단순히 IPsec을 사용해야 한다고 명시해서는 안 됩니다. IPsec을 사용할 수 없고 트래픽이 TCP로만 이루어지는 환경에서는 애플리케이션 개발자가 패키지에 TLS 구현을 포함하여 IPsec의 존재를 쉽게 확인할 수 있으므로 TLS를 선택하는 방법입니다.

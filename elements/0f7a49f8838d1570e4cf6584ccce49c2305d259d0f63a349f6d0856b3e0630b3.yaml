@@ -1,0 +1,51 @@
+"hash": |-
+  0f7a49f8838d1570e4cf6584ccce49c2305d259d0f63a349f6d0856b3e0630b3
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     | job-sheets (keyword | name)       | Client matches Administrator- |
+     |                                   | configured                    |
+     | job-sheets-default (keyword |     | Client matches Administrator- |
+     | name)                             | configured                    |
+     | job-sheets-supported (keyword |   | Client matches Administrator- |
+     | name)                             | configured                    |
+     | media (keyword | name)            | Client matches Administrator- |
+     |                                   | configured                    |
+     | media-default (keyword | name)    | Client matches Administrator- |
+     |                                   | configured                    |
+     | media-supported (keyword | name)  | Client matches Administrator- |
+     |                                   | configured                    |
+     | media-ready (keyword | name)      | Client matches Administrator- |
+     |                                   | configured                    |
+     |                                   |                               |
+     | Job Description Attributes:       |                               |
+     |                                   |                               |
+     | job-name (name)                   | Client or Printer             |
+     | job-originating-user-name (name)  | Printer                       |
+     | job-state-message (text)          | Job or Printer                |
+     | output-device-assigned            | Administrator                 |
+     | (name(127))                       |                               |
+     | job-message-from-operator         | Operator                      |
+     | (text(127))                       |                               |
+     | job-detailed-status-messages      | Job or Printer (note 1)       |
+     | (1setOf text)                     |                               |
+     | job-document-access-errors        | Job or Printer (note 1)       |
+     | (1setOf text)                     |                               |
+     |                                   |                               |
+     | Printer Description Attributes:   |                               |
+     |                                   |                               |
+     | printer-name (name(127))          | Administrator                 |
+     | printer-location (text(127))      | Administrator                 |
+     | printer-info (text(127))          | Administrator                 |
+     | printer-make-and-model            | Administrator or manufacturer |
+     | (text(127))                       |                               |
+     | printer-state-message (text)      | Printer                       |
+     | printer-message-from-operator     | Operator                      |
+     | (text(127))                       |                               |
+     +-----------------------------------+-------------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

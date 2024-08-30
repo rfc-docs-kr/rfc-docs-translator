@@ -1,0 +1,15 @@
+"hash": |-
+  b36e4d3425d1164ae298a2b971142223e04ce4c31649db51e2ec7e7906802155
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Note: [RFC5322] requires that all messages have a valid From
+           header field.  Therefore, for a well-formed message, the from,
+           sender, and reply-to members in the envelope cannot be NIL.
+           However, they can be NIL for a malformed or draft message.
+"fixed": |-
+  - Note: [RFC5322] requires that all messages have a valid From header field.  Therefore, for a well-formed message, the from, sender, and reply-to members in the envelope cannot be NIL. However, they can be NIL for a malformed or draft message.
+"ko": |-
+  - 참고: [RFC5322]에서는 모든 메시지에 유효한 From 헤더 필드가 있어야 합니다.  따라서 올바른 형식의 메시지의 경우 봉투의 보낸 사람, 보낸 사람 및 회신 구성원은 NIL일 수 없습니다. 그러나 형식이 잘못된 메시지나 초안 메시지의 경우에는 NIL이 될 수 있습니다.

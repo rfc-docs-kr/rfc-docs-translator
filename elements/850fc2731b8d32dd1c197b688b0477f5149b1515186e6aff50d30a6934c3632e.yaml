@@ -1,0 +1,20 @@
+"hash": |-
+  850fc2731b8d32dd1c197b688b0477f5149b1515186e6aff50d30a6934c3632e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     search-return-data = "MIN" SP nz-number /
+                         "MAX" SP nz-number /
+                         "ALL" SP sequence-set /
+                         "COUNT" SP number /
+                         search-ret-data-ext
+                         ; All return data items conform to
+                         ; search-ret-data-ext syntax.
+                         ; Note that "$" marker is not allowed
+                         ; after the ALL return data item.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

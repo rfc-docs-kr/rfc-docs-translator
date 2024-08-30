@@ -1,0 +1,21 @@
+"hash": |-
+  7ea39d2f812f2c28aaf407a613504cb2b9cc84d7beca933737e1981d5066a3de
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each endpoint includes the value of the Source Connection ID field
+     from the first Initial packet it sent in the
+     initial_source_connection_id transport parameter; see Section 18.2.
+     A server includes the Destination Connection ID field from the first
+     Initial packet it received from the client in the
+     original_destination_connection_id transport parameter; if the server
+     sent a Retry packet, this refers to the first Initial packet received
+     before sending the Retry packet.  If it sends a Retry packet, a
+     server also includes the Source Connection ID field from the Retry
+     packet in the retry_source_connection_id transport parameter.
+"fixed": |-
+  Each endpoint includes the value of the Source Connection ID field from the first Initial packet it sent in the initial_source_connection_id transport parameter; see Section 18.2. A server includes the Destination Connection ID field from the first Initial packet it received from the client in the original_destination_connection_id transport parameter; if the server sent a Retry packet, this refers to the first Initial packet received before sending the Retry packet.  If it sends a Retry packet, a server also includes the Source Connection ID field from the Retry packet in the retry_source_connection_id transport parameter.
+"ko": |-
+  각 엔드포인트에는initial_source_connection_id 전송 매개변수로 보낸 첫 번째 초기 패킷의 소스 연결 ID 필드 값이 포함됩니다. 섹션 18.2를 참조하세요. 서버는 클라이언트로부터 수신한 첫 번째 초기 패킷의 대상 연결 ID 필드를 원본_destination_connection_id 전송 매개변수에 포함합니다. 서버가 재시도 패킷을 보낸 경우 재시도 패킷을 보내기 전에 수신한 첫 번째 초기 패킷을 의미합니다. 재시도 패킷을 보내는 경우 서버는 retry_source_connection_id 전송 매개변수에 재시도 패킷의 원본 연결 ID 필드도 포함합니다.

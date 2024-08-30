@@ -1,0 +1,20 @@
+"hash": |-
+  2beeafcad83556fdfea8aab32ea8c8558215d32fb22af67e3514ea639b499f15
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Any part of the reference argument that is included in the
+     interpreted form SHOULD prefix the interpreted form.  It SHOULD also
+     be in the same form as the reference name argument.  This rule
+     permits the client to determine if the returned mailbox name is in
+     the context of the reference argument or if something about the
+     mailbox argument overrode the reference argument.  Without this rule,
+     the client would have to have knowledge of the server's naming
+     semantics including what characters are "breakouts" that override a
+     naming context.
+"fixed": |-
+  Any part of the reference argument that is included in the interpreted form SHOULD prefix the interpreted form.  It SHOULD also be in the same form as the reference name argument.  This rule permits the client to determine if the returned mailbox name is in the context of the reference argument or if something about the mailbox argument overrode the reference argument.  Without this rule, the client would have to have knowledge of the server's naming semantics including what characters are "breakouts" that override a naming context.
+"ko": |-
+  해석된 형식에 포함된 참조 인수의 모든 부분은 해석된 형식의 접두사여야 합니다.  또한 참조 이름 인수와 동일한 형식이어야 합니다.  이 규칙을 사용하면 클라이언트는 반환된 사서함 이름이 참조 인수의 컨텍스트에 있는지 또는 사서함 인수에 대한 내용이 참조 인수를 재정의하는지 확인할 수 있습니다.  이 규칙이 없으면 클라이언트는 명명 컨텍스트를 재정의하는 "돌출" 문자를 포함하여 서버의 명명 의미 체계에 대한 지식을 가지고 있어야 합니다.

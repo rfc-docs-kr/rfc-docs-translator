@@ -1,0 +1,15 @@
+"hash": |-
+  39aa895386f19819b20588e3caff04fe70c3dc35553aaf83dc570464089093a0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that receives an Expect field value containing a member
+     other than 100-continue MAY respond with a 417 (Expectation Failed)
+     status code to indicate that the unexpected expectation cannot be
+     met.
+"fixed": |-
+  A server that receives an Expect field value containing a member other than 100-continue MAY respond with a 417 (Expectation Failed) status code to indicate that the unexpected expectation cannot be met.
+"ko": |-
+  100-continue 이외의 멤버가 포함된 Expect 필드 값을 수신한 서버는 417(Expectation Failed) 상태 코드로 응답하여 예상치 못한 기대치를 충족할 수 없음을 나타낼 수 있습니다.

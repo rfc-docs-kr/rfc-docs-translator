@@ -1,0 +1,17 @@
+"hash": |-
+  2068d395a056859110947f02445d3f21fefb3fef4c6e93650900c0c4ec437570
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once TLS has been started, the client MUST discard cached information
+     about server capabilities and SHOULD reissue the CAPABILITY command.
+     This is necessary to protect against active attacks that alter the
+     capabilities list prior to STARTTLS.  The server MAY advertise
+     different capabilities and, in particular, SHOULD NOT advertise the
+     STARTTLS capability, after a successful STARTTLS command.
+"fixed": |-
+  Once TLS has been started, the client MUST discard cached information about server capabilities and SHOULD reissue the CAPABILITY command. This is necessary to protect against active attacks that alter the capabilities list prior to STARTTLS.  The server MAY advertise different capabilities and, in particular, SHOULD NOT advertise the STARTTLS capability, after a successful STARTTLS command.
+"ko": |-
+  TLS가 시작되면 클라이언트는 서버 기능에 대해 캐시된 정보를 폐기해야 하며 CAPABILITY 명령을 다시 실행해야 합니다. 이는 STARTTLS 이전에 기능 목록을 변경하는 활성 공격으로부터 보호하는 데 필요합니다.  서버는 다양한 기능을 광고할 수 있으며, 특히 STARTTLS 명령이 성공한 후에는 STARTTLS 기능을 광고해서는 안 됩니다.

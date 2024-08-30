@@ -1,0 +1,18 @@
+"hash": |-
+  f2f55bf075434ed0df266f0fc7988bb22e7974d1e730b82abc8d0dbd242cd82a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Large grammars can take a long time for the server to compile.  For
+     grammars that are used repeatedly, the client can improve server
+     performance by issuing a DEFINE-GRAMMAR request with the grammar
+     ahead of time.  In such a case, the client can issue the RECOGNIZE
+     request and reference the grammar through the 'session' URI scheme
+     (see Section 13.6).  This also applies in general if the client wants
+     to repeat recognition with a previous inline grammar.
+"fixed": |-
+  Large grammars can take a long time for the server to compile.  For grammars that are used repeatedly, the client can improve server performance by issuing a DEFINE-GRAMMAR request with the grammar ahead of time.  In such a case, the client can issue the RECOGNIZE request and reference the grammar through the 'session' URI scheme (see Section 13.6).  This also applies in general if the client wants to repeat recognition with a previous inline grammar.
+"ko": |-
+  큰 문법은 서버에서 컴파일하는 데 오랜 시간이 걸릴 수 있습니다. 반복적으로 사용되는 문법의 경우 클라이언트는 문법을 미리 DEFINE-GRAMMAR 요청으로 발행하여 서버 성능을 개선할 수 있습니다. 그런 경우 클라이언트는 RECOGNIZE 요청을 발행하고 '세션' URI 체계를 통해 문법을 참조할 수 있습니다(섹션 13.6 참조). 이는 클라이언트가 이전 인라인 문법으로 인식을 반복하려는 경우에도 일반적으로 적용됩니다.

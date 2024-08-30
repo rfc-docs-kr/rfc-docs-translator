@@ -1,0 +1,20 @@
+"hash": |-
+  295d34d79cac7278fb5561534f4e86847c5878003290e9ff48d4411ba158076d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that supports all record sizes can include any limit up
+     to the protocol-defined limit for maximum record size.  For TLS 1.2
+     and earlier, that limit is 2^14 octets.  TLS 1.3 uses a limit of
+     2^14+1 octets.  Higher values are currently reserved for future
+     versions of the protocol that may allow larger records; an endpoint
+     MUST NOT send a value higher than the protocol-defined maximum record
+     size unless explicitly allowed by such a future version or extension.
+     A server MUST NOT enforce this restriction; a client might advertise
+     a higher limit that is enabled by an extension or version the server
+"fixed": |-
+  An endpoint that supports all record sizes can include any limit up to the protocol-defined limit for maximum record size.  For TLS 1.2 and earlier, that limit is 2^14 octets.  TLS 1.3 uses a limit of 2^14+1 octets.  Higher values are currently reserved for future versions of the protocol that may allow larger records; an endpoint MUST NOT send a value higher than the protocol-defined maximum record size unless explicitly allowed by such a future version or extension. A server MUST NOT enforce this restriction; a client might advertise a higher limit that is enabled by an extension or version the server
+"ko": |-
+  모든 레코드 크기를 지원하는 엔드포인트에는 최대 레코드 크기에 대한 프로토콜 정의 제한까지 모든 제한이 포함될 수 있습니다.  TLS 1.2 이하의 경우 해당 제한은 2^14 옥텟입니다.  TLS 1.3은 2^14+1 옥텟의 제한을 사용합니다.  더 높은 값은 현재 더 큰 기록을 허용할 수 있는 프로토콜의 향후 버전을 위해 예약되어 있습니다. 엔드포인트는 향후 버전이나 확장에서 명시적으로 허용하지 않는 한 프로토콜에 정의된 최대 레코드 크기보다 큰 값을 전송해서는 안 됩니다. 서버는 이 제한을 시행해서는 안 됩니다. 클라이언트는 확장이나 서버 버전에 의해 활성화되는 더 높은 제한을 광고할 수 있습니다.

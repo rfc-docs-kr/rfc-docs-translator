@@ -1,0 +1,1 @@
+STOP_SENDING 프레임은 "Recv" 또는 "Size Known" 상태의 스트림에 대해 전송될 수 있습니다. 섹션 3.2를 참조하세요. 아직 생성되지 않은 로컬로 시작된 스트림에 대한 STOP_SENDING 프레임을 수신하는 것은 STREAM_STATE_ERROR 유형의 연결 오류로 처리되어야 합니다. 수신 전용 스트림에 대한 STOP_SENDING 프레임을 수신하는 엔드포인트는 STREAM_STATE_ERROR 오류와 함께 연결을 종료해야 합니다.

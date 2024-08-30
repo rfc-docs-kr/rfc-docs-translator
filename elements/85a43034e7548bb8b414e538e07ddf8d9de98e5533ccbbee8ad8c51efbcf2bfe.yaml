@@ -1,0 +1,18 @@
+"hash": |-
+  85a43034e7548bb8b414e538e07ddf8d9de98e5533ccbbee8ad8c51efbcf2bfe
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Printer MAY validate the accessibility of the Document as part of
+     the operation, or subsequently.  If the Printer discovers an
+     accessibility problem before returning an operation response, it MUST
+     reject the request and return the
+     'client-error-document-access-error' status-code.  The Printer MAY
+     also return a specific Document access error code using the
+     "document-access-error" operation attribute (see Section 4.1.6.4).
+"fixed": |-
+  The Printer MAY validate the accessibility of the Document as part of the operation, or subsequently.  If the Printer discovers an accessibility problem before returning an operation response, it MUST reject the request and return the 'client-error-document-access-error' status-code.  The Printer MAY also return a specific Document access error code using the "document-access-error" operation attribute (see Section 4.1.6.4).
+"ko": |-
+  프린터는 작업의 일부로 또는 그 이후에 문서의 접근성을 확인할 수 있습니다. 프린터가 작업 응답을 반환하기 전에 접근성 문제를 발견하면 요청을 거부하고 '클라이언트 오류-문서-액세스-오류' 상태 코드를 반환해야 합니다. 프린터는 "document-access-error" 작업 속성을 사용하여 특정 문서 액세스 오류 코드를 반환할 수도 있습니다(섹션 4.1.6.4 참조).

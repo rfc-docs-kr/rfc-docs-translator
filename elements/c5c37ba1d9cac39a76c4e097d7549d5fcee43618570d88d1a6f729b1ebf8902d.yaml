@@ -1,0 +1,22 @@
+"hash": |-
+  c5c37ba1d9cac39a76c4e097d7549d5fcee43618570d88d1a6f729b1ebf8902d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that by policy requires the use of this specification and
+     receives a request that does not have the sec-agree option tag in a
+     Require, Proxy-Require or Supported header field MUST return a 421
+     (Extension Required) response.  If the request had the sec-agree
+     option tag in a Supported header field, it MUST return a 494
+     (Security Agreement Required) response.  In both situation the server
+     MUST also include in the response a Security-Server header field
+     listing its capabilities and a Require header field with an option-
+     tag "sec-agree" in it.  The server MUST also add necessary
+     information so that the client can initiate the preferred security
+     mechanism (e.g., a Proxy-Authenticate header field for HTTP Digest).
+"fixed": |-
+  A server that by policy requires the use of this specification and receives a request that does not have the sec-agree option tag in a Require, Proxy-Require or Supported header field MUST return a 421 (Extension Required) response.  If the request had the sec-agree option tag in a Supported header field, it MUST return a 494 (Security Agreement Required) response.  In both situation the server MUST also include in the response a Security-Server header field listing its capabilities and a Require header field with an option- tag "sec-agree" in it.  The server MUST also add necessary information so that the client can initiate the preferred security mechanism (e.g., a Proxy-Authenticate header field for HTTP Digest).
+"ko": |-
+  정책상 이 사양의 사용이 필요하고 Require, Proxy-Require 또는 Supported 헤더 필드에 sec-agree 옵션 태그가 없는 요청을 수신하는 서버는 421(확장 필요) 응답을 반환해야 합니다. 요청에 Supported 헤더 필드에 sec-agree 옵션 태그가 있는 경우 494(보안 계약 필요) 응답을 반환해야 합니다. 두 가지 상황에서 서버는 응답에 기능을 나열하는 Security-Server 헤더 필드와 옵션 태그 "sec-agree"가 있는 Require 헤더 필드를 포함해야 합니다. 서버는 또한 클라이언트가 선호하는 보안 메커니즘(예: HTTP Digest의 Proxy-Authenticate 헤더 필드)을 시작할 수 있도록 필요한 정보를 추가해야 합니다.

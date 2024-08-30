@@ -1,0 +1,19 @@
+"hash": |-
+  a13f3a6dc918f05204c99ca7a3987db8f9c06d4e7920b917b55d56e5a897f858
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Successive TLS [RFC5246] versions have added support for more cipher
+     suites and, over time, more TLS extensions have been defined.  This
+     has caused the size of the TLS ClientHello to grow, and the
+     additional size has caused some implementation bugs to come to light.
+     At least one of these implementation bugs can be ameliorated by
+     making the ClientHello even larger.  This is desirable given that
+     fully comprehensive patching of affected implementations is difficult
+     to achieve.
+"fixed": |-
+  Successive TLS [RFC5246] versions have added support for more cipher suites and, over time, more TLS extensions have been defined.  This has caused the size of the TLS ClientHello to grow, and the additional size has caused some implementation bugs to come to light. At least one of these implementation bugs can be ameliorated by making the ClientHello even larger.  This is desirable given that fully comprehensive patching of affected implementations is difficult to achieve.
+"ko": |-
+  후속 TLS [RFC5246] 버전에는 더 많은 암호화 제품군에 대한 지원이 추가되었으며 시간이 지남에 따라 더 많은 TLS 확장이 정의되었습니다.  이로 인해 TLS ClientHello의 크기가 커지고 추가 크기로 인해 일부 구현 버그가 드러났습니다. ClientHello를 더 크게 만들어 이러한 구현 버그 중 하나 이상을 개선할 수 있습니다.  영향을 받는 구현을 완전히 포괄적으로 패치하는 것이 어렵다는 점을 고려하면 이는 바람직합니다.

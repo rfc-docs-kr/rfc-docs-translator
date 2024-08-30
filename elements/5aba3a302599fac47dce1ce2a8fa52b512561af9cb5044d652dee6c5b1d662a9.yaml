@@ -1,0 +1,17 @@
+"hash": |-
+  5aba3a302599fac47dce1ce2a8fa52b512561af9cb5044d652dee6c5b1d662a9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To mitigate the attacks described in RFC 3218 [RFC3218], the
+     recipient MUST NOT distinguish between format, padding, and length
+     errors of encrypted keys.  It is strongly recommended, in the event
+     of receiving an improperly formatted key, that the recipient
+     substitute a randomly generated CEK and proceed to the next step, to
+     mitigate timing attacks.
+"fixed": |-
+  To mitigate the attacks described in RFC 3218 [RFC3218], the recipient MUST NOT distinguish between format, padding, and length errors of encrypted keys.  It is strongly recommended, in the event of receiving an improperly formatted key, that the recipient substitute a randomly generated CEK and proceed to the next step, to mitigate timing attacks.
+"ko": |-
+  RFC 3218 [RFC3218]에 설명된 공격을 완화하기 위해 수신자는 암호화된 키의 형식, 패딩 및 길이 오류를 구별해서는 안 됩니다. 부적절하게 형식화된 키를 수신한 경우 수신자는 임의로 생성된 CEK를 대체하고 다음 단계로 진행하여 타이밍 공격을 완화하는 것이 좋습니다.

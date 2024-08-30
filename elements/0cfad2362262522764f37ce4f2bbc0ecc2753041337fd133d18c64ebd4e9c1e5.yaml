@@ -1,0 +1,23 @@
+"hash": |-
+  0cfad2362262522764f37ce4f2bbc0ecc2753041337fd133d18c64ebd4e9c1e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     By definition, a Printer supports an attribute only if that Printer
+     accepts it in a request or responds with the corresponding attribute
+     populated with some value(s) in a response to a query for that
+     attribute.  A Printer supports an attribute value if the value is one
+     of the Printer's "supported values" attributes.  The device behind a
+     Printer can exhibit a behavior that corresponds to some IPP
+     attribute, but if the Printer, when queried for that attribute,
+     doesn't respond with the attribute, then as far as IPP is concerned,
+     that implementation does not support that feature.  If the Printer's
+     "xxx-supported" attribute is not populated with a particular value
+     (even if that value is a legal value for that attribute), then that
+     Printer does not support that particular value.
+"fixed": |-
+  By definition, a Printer supports an attribute only if that Printer accepts it in a request or responds with the corresponding attribute populated with some value(s) in a response to a query for that attribute.  A Printer supports an attribute value if the value is one of the Printer's "supported values" attributes.  The device behind a Printer can exhibit a behavior that corresponds to some IPP attribute, but if the Printer, when queried for that attribute, doesn't respond with the attribute, then as far as IPP is concerned, that implementation does not support that feature.  If the Printer's "xxx-supported" attribute is not populated with a particular value (even if that value is a legal value for that attribute), then that Printer does not support that particular value.
+"ko": |-
+  정의에 따르면 프린터는 해당 프린터가 요청에서 속성을 수락하거나 해당 속성에 대한 쿼리에 대한 응답에서 일부 값으로 채워진 해당 속성으로 응답하는 경우에만 속성을 지원합니다. 값이 프린터의 "지원되는 값" 속성 중 하나인 경우 프린터는 속성 값을 지원합니다. 프린터 뒤에 있는 장치는 일부 IPP 속성에 해당하는 동작을 나타낼 수 있지만 프린터가 해당 속성에 대해 쿼리할 때 해당 속성으로 응답하지 않으면 IPP에 관한 한 해당 구현은 해당 기능을 지원하지 않습니다. . 프린터의 "xxx-supported" 속성이 특정 값으로 채워지지 않은 경우(해당 값이 해당 속성에 대한 합법적인 값인 경우에도) 해당 프린터는 해당 특정 값을 지원하지 않습니다.

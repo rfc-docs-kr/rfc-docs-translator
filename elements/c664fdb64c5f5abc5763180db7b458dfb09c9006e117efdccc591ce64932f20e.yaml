@@ -1,0 +1,24 @@
+"hash": |-
+  c664fdb64c5f5abc5763180db7b458dfb09c9006e117efdccc591ce64932f20e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The HEADER, HEADER.FIELDS, and HEADER.FIELDS.NOT part specifiers
+     refer to the [RFC5322] header of the message or of an encapsulated
+     [MIME-IMT] MESSAGE/RFC822 or MESSAGE/GLOBAL message.  HEADER.FIELDS
+     and HEADER.FIELDS.NOT are followed by a list of field-names (as
+     defined in [RFC5322]) and return a subset of the header.  The subset
+     returned by HEADER.FIELDS contains only those header fields with a
+     field-name that matches one of the names in the list; similarly, the
+     subset returned by HEADER.FIELDS.NOT contains only the header fields
+     with a non-matching field-name.  The field-matching is ASCII-range
+     case insensitive but is otherwise exact.  Subsetting does not exclude
+     the [RFC5322] delimiting blank line between the header and the body;
+     the blank line is included in all header fetches, except in the case
+     of a message that has no body and no blank line.
+"fixed": |-
+  The HEADER, HEADER.FIELDS, and HEADER.FIELDS.NOT part specifiers refer to the [RFC5322] header of the message or of an encapsulated [MIME-IMT] MESSAGE/RFC822 or MESSAGE/GLOBAL message.  HEADER.FIELDS and HEADER.FIELDS.NOT are followed by a list of field-names (as defined in [RFC5322]) and return a subset of the header.  The subset returned by HEADER.FIELDS contains only those header fields with a field-name that matches one of the names in the list; similarly, the subset returned by HEADER.FIELDS.NOT contains only the header fields with a non-matching field-name.  The field-matching is ASCII-range case insensitive but is otherwise exact.  Subsetting does not exclude the [RFC5322] delimiting blank line between the header and the body; the blank line is included in all header fetches, except in the case of a message that has no body and no blank line.
+"ko": |-
+  HEADER, HEADER.FIELDS 및 HEADER.FIELDS.NOT 부분 지정자는 메시지 또는 캡슐화된 [MIME-IMT] MESSAGE/RFC822 또는 MESSAGE/GLOBAL 메시지의 [RFC5322] 헤더를 참조합니다.  HEADER.FIELDS 및 HEADER.FIELDS.NOT 뒤에는 필드 이름 목록([RFC5322]에 정의됨)이 오고 헤더의 하위 집합을 반환합니다.  HEADER.FIELDS에 의해 반환된 하위 집합에는 목록의 이름 중 하나와 일치하는 field-name이 있는 헤더 필드만 포함됩니다. 마찬가지로 HEADER.FIELDS.NOT에서 반환된 하위 집합에는 일치하지 않는 field-name이 있는 헤더 필드만 포함됩니다.  필드 일치는 ASCII 범위에서 대소문자를 구분하지 않지만 그 외에는 정확합니다.  하위 설정은 헤더와 본문 사이의 빈 줄을 구분하는 [RFC5322]를 제외하지 않습니다. 본문이나 빈 줄이 없는 메시지의 경우를 제외하고 빈 줄은 모든 헤더 페치에 포함됩니다.

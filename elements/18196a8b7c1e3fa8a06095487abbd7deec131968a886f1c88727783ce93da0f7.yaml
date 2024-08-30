@@ -1,0 +1,59 @@
+"hash": |-
+  18196a8b7c1e3fa8a06095487abbd7deec131968a886f1c88727783ce93da0f7
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+       11.9.  DELETE-VOICEPRINT  . . . . . . . . . . . . . . . . . . . 160
+       11.10. VERIFY . . . . . . . . . . . . . . . . . . . . . . . . . 160
+       11.11. VERIFY-FROM-BUFFER . . . . . . . . . . . . . . . . . . . 160
+       11.12. VERIFY-ROLLBACK  . . . . . . . . . . . . . . . . . . . . 164
+       11.13. STOP . . . . . . . . . . . . . . . . . . . . . . . . . . 164
+       11.14. START-INPUT-TIMERS . . . . . . . . . . . . . . . . . . . 165
+       11.15. VERIFICATION-COMPLETE  . . . . . . . . . . . . . . . . . 165
+       11.16. START-OF-INPUT . . . . . . . . . . . . . . . . . . . . . 166
+       11.17. CLEAR-BUFFER . . . . . . . . . . . . . . . . . . . . . . 166
+       11.18. GET-INTERMEDIATE-RESULT  . . . . . . . . . . . . . . . . 167
+     12. Security Considerations . . . . . . . . . . . . . . . . . . . 168
+       12.1.  Rendezvous and Session Establishment . . . . . . . . . . 168
+       12.2.  Control Channel Protection . . . . . . . . . . . . . . . 168
+       12.3.  Media Session Protection . . . . . . . . . . . . . . . . 169
+       12.4.  Indirect Content Access  . . . . . . . . . . . . . . . . 169
+       12.5.  Protection of Stored Media . . . . . . . . . . . . . . . 170
+       12.6.  DTMF and Recognition Buffers . . . . . . . . . . . . . . 171
+       12.7.  Client-Set Server Parameters . . . . . . . . . . . . . . 171
+       12.8.  DELETE-VOICEPRINT and Authorization  . . . . . . . . . . 171
+     13. IANA Considerations . . . . . . . . . . . . . . . . . . . . . 171
+       13.1.  New Registries . . . . . . . . . . . . . . . . . . . . . 171
+         13.1.1.  MRCPv2 Resource Types  . . . . . . . . . . . . . . . 171
+         13.1.2.  MRCPv2 Methods and Events  . . . . . . . . . . . . . 172
+         13.1.3.  MRCPv2 Header Fields . . . . . . . . . . . . . . . . 173
+         13.1.4.  MRCPv2 Status Codes  . . . . . . . . . . . . . . . . 176
+         13.1.5.  Grammar Reference List Parameters  . . . . . . . . . 176
+         13.1.6.  MRCPv2 Vendor-Specific Parameters  . . . . . . . . . 176
+       13.2.  NLSML-Related Registrations  . . . . . . . . . . . . . . 177
+         13.2.1.  'application/nlsml+xml' Media Type Registration  . . 177
+       13.3.  NLSML XML Schema Registration  . . . . . . . . . . . . . 178
+       13.4.  MRCPv2 XML Namespace Registration  . . . . . . . . . . . 178
+       13.5.  Text Media Type Registrations  . . . . . . . . . . . . . 178
+         13.5.1.  text/grammar-ref-list  . . . . . . . . . . . . . . . 178
+       13.6.  'session' URI Scheme Registration  . . . . . . . . . . . 180
+       13.7.  SDP Parameter Registrations  . . . . . . . . . . . . . . 181
+         13.7.1.  Sub-Registry "proto" . . . . . . . . . . . . . . . . 181
+         13.7.2.  Sub-Registry "att-field (media-level)" . . . . . . . 182
+     14. Examples  . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+       14.1.  Message Flow . . . . . . . . . . . . . . . . . . . . . . 183
+       14.2.  Recognition Result Examples  . . . . . . . . . . . . . . 192
+         14.2.1.  Simple ASR Ambiguity . . . . . . . . . . . . . . . . 192
+         14.2.2.  Mixed Initiative . . . . . . . . . . . . . . . . . . 192
+         14.2.3.  DTMF Input . . . . . . . . . . . . . . . . . . . . . 193
+         14.2.4.  Interpreting Meta-Dialog and Meta-Task Utterances  . 194
+         14.2.5.  Anaphora and Deixis  . . . . . . . . . . . . . . . . 195
+         14.2.6.  Distinguishing Individual Items from Sets with
+                  One Member . . . . . . . . . . . . . . . . . . . . . 195
+         14.2.7.  Extensibility  . . . . . . . . . . . . . . . . . . . 196
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,22 @@
+"hash": |-
+  7fd1e2eb971d72a182a30e3d6033e3ccd97949884a88ddb150f6121f5f8eddb9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This RECOMMENDED attribute identifies the range(s) of Input Pages
+     that the Printer uses for each Set to be printed prior to imposition
+     of those pages onto Impressions.  Nothing is printed for any pages
+     identified that do not exist in the Set/Document(s).  Ranges MUST be
+     in ascending order (1-3, 5-7, 15-19, etc.) and MUST NOT overlap so
+     that a non-spooling Printer can process the Job in a single pass.  If
+     the ranges are not ascending or are overlapping, the Printer MUST
+     reject the request and return the 'client-error-bad-request'
+     status-code.  The attribute is associated with Input Pages and not
+     application-numbered pages such as the page numbers found in the
+     headers and/or footers for certain word processing applications.
+"fixed": |-
+  This RECOMMENDED attribute identifies the range(s) of Input Pages that the Printer uses for each Set to be printed prior to imposition of those pages onto Impressions.  Nothing is printed for any pages identified that do not exist in the Set/Document(s).  Ranges MUST be in ascending order (1-3, 5-7, 15-19, etc.) and MUST NOT overlap so that a non-spooling Printer can process the Job in a single pass.  If the ranges are not ascending or are overlapping, the Printer MUST reject the request and return the 'client-error-bad-request' status-code.  The attribute is associated with Input Pages and not application-numbered pages such as the page numbers found in the headers and/or footers for certain word processing applications.
+"ko": |-
+  이 RECOMMENDED 속성은 해당 페이지를 노출수에 임포지션하기 전에 인쇄할 각 세트에 대해 프린터가 사용하는 입력 페이지의 범위를 식별합니다. 세트/문서에 존재하지 않는 것으로 식별된 페이지에 대해서는 아무것도 인쇄되지 않습니다. 범위는 오름차순(1-3, 5-7, 15-19 등)이어야 하며 비스풀링 프린터가 단일 패스로 작업을 처리할 수 있도록 겹쳐서는 안 됩니다. 범위가 오름차순이 아니거나 겹치는 경우 프린터는 요청을 거부하고 '클라이언트 오류-불량-요청' 상태 코드를 반환해야 합니다. 이 속성은 특정 워드 프로세싱 응용 프로그램의 머리글 및/또는 바닥글에 있는 페이지 번호와 같이 응용 프로그램 번호가 지정된 페이지가 아닌 입력 페이지와 연결됩니다.

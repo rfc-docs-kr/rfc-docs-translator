@@ -1,0 +1,19 @@
+"hash": |-
+  dd937ed2d4d084e45b68330852a98af11d084be26e93c8e4ee99f7365d07a5ca
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For example, TLS_RSA_WITH_AES_128_CBC_SHA has 16-octet blocks and a
+     20-octet MAC.  Given a record size limit of 256, a record of that
+     length would require a minimum of 11 octets of padding (for
+     [RFC5246], where the MAC is covered by encryption); or 15 octets if
+     the "encrypt_then_mac" extension [RFC7366] is negotiated.  With this
+     limit, a record with 250 octets of plaintext could be padded to the
+     same length by including at most 17 octets of padding, or 21 octets
+     with "encrypt_then_mac".
+"fixed": |-
+  For example, TLS_RSA_WITH_AES_128_CBC_SHA has 16-octet blocks and a 20-octet MAC.  Given a record size limit of 256, a record of that length would require a minimum of 11 octets of padding (for [RFC5246], where the MAC is covered by encryption); or 15 octets if the "encrypt_then_mac" extension [RFC7366] is negotiated.  With this limit, a record with 250 octets of plaintext could be padded to the same length by including at most 17 octets of padding, or 21 octets with "encrypt_then_mac".
+"ko": |-
+  예를 들어 TLS_RSA_WITH_AES_128_CBC_SHA에는 16옥텟 블록과 20옥텟 MAC이 있습니다.  레코드 크기 제한이 256인 경우 해당 길이의 레코드에는 최소 11옥텟의 패딩이 필요합니다(MAC가 암호화로 처리되는 [RFC5246]의 경우). 또는 "encrypt_then_mac" 확장자 [RFC7366]가 협상된 경우 15옥텟입니다.  이 제한을 사용하면 250옥텟의 일반 텍스트가 있는 레코드는 최대 17옥텟의 패딩을 포함하거나 "encrypt_then_mac"을 사용하여 21옥텟을 포함하여 동일한 길이로 패딩될 수 있습니다.

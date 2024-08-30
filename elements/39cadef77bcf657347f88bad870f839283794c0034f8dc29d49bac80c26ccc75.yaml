@@ -1,0 +1,23 @@
+"hash": |-
+  39cadef77bcf657347f88bad870f839283794c0034f8dc29d49bac80c26ccc75
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Per [RFC2387], a UA processing a 'multipart/related' body processes
+     the body as a compound object ignoring the disposition types of the
+     body parts within it.  Ignoring the disposition types of the
+     individual body parts makes sense in the context in which 'multipart/
+     related' was originally specified.  For instance, in the example of
+     the web page, the implicit disposition type for the images would be
+     'inline', since the images are displayed as indicated by the root
+     html file.  However, in SIP, the disposition types of the individual
+     body parts within a 'multipart/related' play an important role and,
+     thus, need to be considered by the UA processing the 'multipart/
+     related'.  Different SIP extensions that use the same disposition
+     type for the 'multipart/related' body can be distinguished by the
+"fixed": |-
+  Per [RFC2387], a UA processing a 'multipart/related' body processes the body as a compound object ignoring the disposition types of the body parts within it.  Ignoring the disposition types of the individual body parts makes sense in the context in which 'multipart/ related' was originally specified.  For instance, in the example of the web page, the implicit disposition type for the images would be 'inline', since the images are displayed as indicated by the root html file.  However, in SIP, the disposition types of the individual body parts within a 'multipart/related' play an important role and, thus, need to be considered by the UA processing the 'multipart/ related'.  Different SIP extensions that use the same disposition type for the 'multipart/related' body can be distinguished by the
+"ko": |-
+  [RFC2387]에 따르면 'multipart/related' 본문을 처리하는 UA는 본문을 복합 객체로 처리하며 본문 내의 본문 부분의 처리 유형을 무시합니다. 개별 본문 부분의 처리 유형을 무시하는 것은 'multipart/related'가 원래 지정된 맥락에서 의미가 있습니다. 예를 들어, 웹 페이지의 예에서 이미지의 암묵적 처리 유형은 루트 html 파일에서 지정한 대로 이미지가 표시되므로 'inline'이 됩니다. 그러나 SIP에서 'multipart/related' 내의 개별 본문 부분의 처리 유형은 중요한 역할을 하므로 'multipart/related'를 처리하는 UA가 이를 고려해야 합니다. 'multipart/related' 본문에 대해 동일한 처리 유형을 사용하는 다른 SIP 확장은 다음을 통해 구별할 수 있습니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  1f6591174b2705d3a4dbacc478bb7db17fa8741e3d2b9f97663bb9afeb8b8184
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A UAS receiving an INVITE request can use the presence of the P-
+     Early-Media header field in the request to decide whether to request
+     early media authorization in subsequent messages towards the UAC.
+     After receiving an incoming INVITE request, the UAS requesting
+     backward and/or forward early media will include the P-Early-Media
+     header field in a message towards the UAC within the dialog,
+     including direction parameter(s) that identify for each media line in
+     the session whether the early media request is for backward media,
+     forward media, both, or neither.  The UAS can change its request for
+     early media by including a modified P-Early-Media header field in a
+     subsequent message towards the UAC within the dialog.
+"fixed": |-
+  A UAS receiving an INVITE request can use the presence of the P- Early-Media header field in the request to decide whether to request early media authorization in subsequent messages towards the UAC. After receiving an incoming INVITE request, the UAS requesting backward and/or forward early media will include the P-Early-Media header field in a message towards the UAC within the dialog, including direction parameter(s) that identify for each media line in the session whether the early media request is for backward media, forward media, both, or neither.  The UAS can change its request for early media by including a modified P-Early-Media header field in a subsequent message towards the UAC within the dialog.
+"ko": |-
+  INVITE 요청을 수신한 UAS는 요청에 P-Early-Media 헤더 필드가 있는지 여부를 사용하여 UAC에 대한 후속 메시지에서 조기 미디어 승인을 요청할지 여부를 결정할 수 있습니다. 들어오는 INVITE 요청을 수신한 후, 역방향 및/또는 정방향 조기 미디어를 요청하는 UAS는 대화 내에서 UAC에 대한 메시지에 P-Early-Media 헤더 필드를 포함합니다. 여기에는 세션의 각 미디어 줄에 대해 조기 미디어 요청이 역방향 미디어, 정방향 미디어, 둘 다 또는 둘 다 아닌지 식별하는 방향 매개변수가 포함됩니다. UAS는 대화 내에서 UAC에 대한 후속 메시지에 수정된 P-Early-Media 헤더 필드를 포함하여 조기 미디어에 대한 요청을 변경할 수 있습니다.

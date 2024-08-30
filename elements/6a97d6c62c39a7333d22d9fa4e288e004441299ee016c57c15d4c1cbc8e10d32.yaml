@@ -1,0 +1,16 @@
+"hash": |-
+  6a97d6c62c39a7333d22d9fa4e288e004441299ee016c57c15d4c1cbc8e10d32
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  A client that sends a CONNECTION_CLOSE frame in a 0-RTT packet
+        cannot be assured that the server has accepted 0-RTT.  Sending a
+        CONNECTION_CLOSE frame in an Initial packet makes it more likely
+        that the server can receive the close signal, even if the
+        application error code might not be received.
+"fixed": |-
+  *  A client that sends a CONNECTION_CLOSE frame in a 0-RTT packet cannot be assured that the server has accepted 0-RTT.  Sending a CONNECTION_CLOSE frame in an Initial packet makes it more likely that the server can receive the close signal, even if the application error code might not be received.
+"ko": |-
+  * 0-RTT 패킷으로 CONNECTION_CLOSE 프레임을 보내는 클라이언트는 서버가 0-RTT를 수락했다고 확신할 수 없습니다. 초기 패킷에서 CONNECTION_CLOSE 프레임을 전송하면 애플리케이션 오류 코드를 수신하지 못하더라도 서버가 닫기 신호를 수신할 가능성이 높아집니다.

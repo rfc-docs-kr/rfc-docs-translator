@@ -1,0 +1,18 @@
+"hash": |-
+  0fa7d70ef1dc33888d9fcb6d7d67ead58bc5482e840258e1ecfea7cf9bef2a9e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the connection between client and server is established, an
+     IMAP4rev2 connection is in one of four states.  The initial state is
+     identified in the server greeting.  Most commands are only valid in
+     certain states.  It is a protocol error for the client to attempt a
+     command while the connection is in an inappropriate state, and the
+     server will respond with a BAD or NO (depending upon server
+     implementation) command completion result.
+"fixed": |-
+  Once the connection between client and server is established, an IMAP4rev2 connection is in one of four states.  The initial state is identified in the server greeting.  Most commands are only valid in certain states.  It is a protocol error for the client to attempt a command while the connection is in an inappropriate state, and the server will respond with a BAD or NO (depending upon server implementation) command completion result.
+"ko": |-
+  클라이언트와 서버 간의 연결이 설정되면 IMAP4rev2 연결은 네 가지 상태 중 하나가 됩니다.  초기 상태는 서버 인사말에서 식별됩니다.  대부분의 명령은 특정 상태에서만 유효합니다.  연결이 부적절한 상태에 있는 동안 클라이언트가 명령을 시도하는 것은 프로토콜 오류이며, 서버는 BAD 또는 NO(서버 구현에 따라 다름) 명령 완료 결과로 응답합니다.

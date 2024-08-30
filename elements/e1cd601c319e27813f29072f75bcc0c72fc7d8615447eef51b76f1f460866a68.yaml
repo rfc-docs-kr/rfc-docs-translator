@@ -1,0 +1,24 @@
+"hash": |-
+  e1cd601c319e27813f29072f75bcc0c72fc7d8615447eef51b76f1f460866a68
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is NOT RECOMMENDED to share the same PSK between more than one
+     client and server.  However, as discussed in Section 5.1, there are
+     application scenarios that may rely on sharing the same PSK among
+     multiple nodes.  [RFC9258] helps in mitigating rerouting and Selfie-
+     style reflection attacks when the PSK is shared among multiple nodes.
+     This is achieved by correctly using the node identifiers in the
+     ImportedIdentity.context construct specified in [RFC9258].  One
+     solution would be for each endpoint to select one globally unique
+     identifier to use in all PSK handshakes.  The unique identifier can,
+     for example, be one of its Media Access Control (MAC) addresses, a
+     32-byte random number, or its Universally Unique IDentifier (UUID)
+     [RFC4122].  Note that such persistent, global identifiers have
+     privacy implications; see Section 7.
+"fixed": |-
+  It is NOT RECOMMENDED to share the same PSK between more than one client and server.  However, as discussed in Section 5.1, there are application scenarios that may rely on sharing the same PSK among multiple nodes.  [RFC9258] helps in mitigating rerouting and Selfie- style reflection attacks when the PSK is shared among multiple nodes. This is achieved by correctly using the node identifiers in the ImportedIdentity.context construct specified in [RFC9258].  One solution would be for each endpoint to select one globally unique identifier to use in all PSK handshakes.  The unique identifier can, for example, be one of its Media Access Control (MAC) addresses, a 32-byte random number, or its Universally Unique IDentifier (UUID) [RFC4122].  Note that such persistent, global identifiers have privacy implications; see Section 7.
+"ko": |-
+  둘 이상의 클라이언트와 서버 간에 동일한 PSK를 공유하는 것은 권장되지 않습니다.  그러나 섹션 5.1에서 설명한 것처럼 여러 노드 간에 동일한 PSK를 공유하는 데 의존할 수 있는 애플리케이션 시나리오가 있습니다.  [RFC9258]은 PSK가 여러 노드 간에 공유될 때 재라우팅 및 셀카 스타일 반사 공격을 완화하는 데 도움이 됩니다. 이는 [RFC9258]에 지정된 ImportedIdentity.context 구성의 노드 식별자를 올바르게 사용함으로써 달성됩니다.  한 가지 솔루션은 각 엔드포인트가 모든 PSK 핸드셰이크에 사용할 전역적으로 고유한 식별자 하나를 선택하는 것입니다.  고유 식별자는 예를 들어 MAC(미디어 액세스 제어) 주소, 32바이트 난수 또는 UUID(Universally Unique IDentifier) ​​[RFC4122] 중 하나일 수 있습니다.  이러한 지속적이고 전역적인 식별자는 개인 정보 보호에 영향을 미칩니다. 섹션 7을 참조하세요.

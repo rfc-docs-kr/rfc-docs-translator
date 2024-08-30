@@ -1,0 +1,17 @@
+"hash": |-
+  fa2a8bc057d7938379c13a8ab88c164aec748c9eb64558e6aaa035df05c2a14c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients could avoid using NEW_TOKEN if the server address changes.
+     However, not including a Token field could adversely affect
+     performance.  Servers could rely on NEW_TOKEN to enable the sending
+     of data in excess of the three-times limit on sending data; see
+     Section 8.1.  In particular, this affects cases where clients use
+     0-RTT to request data from servers.
+"fixed": |-
+  Clients could avoid using NEW_TOKEN if the server address changes. However, not including a Token field could adversely affect performance.  Servers could rely on NEW_TOKEN to enable the sending of data in excess of the three-times limit on sending data; see Section 8.1.  In particular, this affects cases where clients use 0-RTT to request data from servers.
+"ko": |-
+  서버 주소가 변경되면 클라이언트는 NEW_TOKEN 사용을 피할 수 있습니다. 그러나 토큰 필드를 포함하지 않으면 성능에 부정적인 영향을 미칠 수 있습니다. 서버는 NEW_TOKEN을 사용하여 데이터 전송 제한의 3배를 초과하는 데이터 전송을 활성화할 수 있습니다. 섹션 8.1을 참조하세요. 특히 이는 클라이언트가 0-RTT를 사용하여 서버에 데이터를 요청하는 경우에 영향을 미칩니다.

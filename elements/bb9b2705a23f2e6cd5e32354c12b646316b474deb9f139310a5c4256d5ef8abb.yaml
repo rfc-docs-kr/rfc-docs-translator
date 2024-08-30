@@ -1,0 +1,15 @@
+"hash": |-
+  bb9b2705a23f2e6cd5e32354c12b646316b474deb9f139310a5c4256d5ef8abb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an aggregate excludes at least some of the AS numbers present in
+     the AS_PATH of the routes that are aggregated as a result of dropping
+     the AS_SET, the aggregated route, when advertised to the peer, SHOULD
+     include the ATOMIC_AGGREGATE attribute.
+"fixed": |-
+  If an aggregate excludes at least some of the AS numbers present in the AS_PATH of the routes that are aggregated as a result of dropping the AS_SET, the aggregated route, when advertised to the peer, SHOULD include the ATOMIC_AGGREGATE attribute.
+"ko": |-
+  AS_SET 삭제의 결과로 집계된 경로의 AS_PATH에 있는 AS 번호 중 적어도 일부를 집계에서 제외하는 경우 집계된 경로는 피어에 광고될 때 ATOMIC_AGGREGATE 속성을 포함해야 합니다.

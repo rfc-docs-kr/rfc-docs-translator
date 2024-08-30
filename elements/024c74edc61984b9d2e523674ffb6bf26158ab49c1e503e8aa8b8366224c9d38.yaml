@@ -1,0 +1,19 @@
+"hash": |-
+  024c74edc61984b9d2e523674ffb6bf26158ab49c1e503e8aa8b8366224c9d38
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A zero-length connection ID can be used when a connection ID is not
+     needed to route to the correct endpoint.  However, multiplexing
+     connections on the same local IP address and port while using zero-
+     length connection IDs will cause failures in the presence of peer
+     connection migration, NAT rebinding, and client port reuse.  An
+     endpoint MUST NOT use the same IP address and port for multiple
+     concurrent connections with zero-length connection IDs, unless it is
+     certain that those protocol features are not in use.
+"fixed": |-
+  A zero-length connection ID can be used when a connection ID is not needed to route to the correct endpoint.  However, multiplexing connections on the same local IP address and port while using zero- length connection IDs will cause failures in the presence of peer connection migration, NAT rebinding, and client port reuse.  An endpoint MUST NOT use the same IP address and port for multiple concurrent connections with zero-length connection IDs, unless it is certain that those protocol features are not in use.
+"ko": |-
+  올바른 끝점으로 라우팅하는 데 연결 ID가 필요하지 않은 경우 길이가 0인 연결 ID를 사용할 수 있습니다. 그러나 길이가 0인 연결 ID를 사용하면서 동일한 로컬 IP 주소 및 포트에서 연결을 멀티플렉싱하면 피어 연결 마이그레이션, NAT 리바인딩 및 클라이언트 포트 재사용이 있는 경우 오류가 발생합니다. 끝점은 길이가 0인 연결 ID를 사용하는 여러 동시 연결에 대해 동일한 IP 주소와 포트를 사용해서는 안 됩니다(MUST NOT). 단, 해당 프로토콜 기능이 사용 중이 아니라는 것이 확실하지 않은 경우는 제외됩니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  e840eb62d5592796c6d73625712de1c95bfc31e790962c26495f3751ada7d174
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Deployments should limit the ability of an attacker to target a new
+     connection to a particular server instance.  Ideally, routing
+     decisions are made independently of client-selected values, including
+     addresses.  Once an instance is selected, a connection ID can be
+     selected so that later packets are routed to the same instance.
+"fixed": |-
+  Deployments should limit the ability of an attacker to target a new connection to a particular server instance.  Ideally, routing decisions are made independently of client-selected values, including addresses.  Once an instance is selected, a connection ID can be selected so that later packets are routed to the same instance.
+"ko": |-
+  배포는 공격자가 특정 서버 인스턴스에 대한 새로운 연결을 목표로 삼는 능력을 제한해야 합니다. 이상적으로 라우팅 결정은 주소를 포함하여 클라이언트가 선택한 값과 독립적으로 이루어집니다. 인스턴스가 선택되면 이후 패킷이 동일한 인스턴스로 라우팅되도록 연결 ID를 선택할 수 있습니다.

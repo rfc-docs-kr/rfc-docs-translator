@@ -1,0 +1,20 @@
+"hash": |-
+  197add28efffcd677a470dc310eb2462f91bda9821886e416194825b33f9a37f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     While a Client is sending data to a Printer, it SHOULD do its best to
+     prevent a channel from being closed by a lower layer when the channel
+     is blocked (i.e., flow-controlled off) for whatever reason, e.g.,
+     'out of paper' or 'Job ahead hasn't freed up enough memory'.
+     However, the layer that launched the print submission (e.g., an
+     End User) MAY close the channel in order to cancel the Job.  When a
+     Client closes a channel, a Printer MAY print all or part of the
+     received portion of the Document.  See the Encoding and Transport
+     document [RFC8010] for more details.
+"fixed": |-
+  While a Client is sending data to a Printer, it SHOULD do its best to prevent a channel from being closed by a lower layer when the channel is blocked (i.e., flow-controlled off) for whatever reason, e.g., 'out of paper' or 'Job ahead hasn't freed up enough memory'. However, the layer that launched the print submission (e.g., an End User) MAY close the channel in order to cancel the Job.  When a Client closes a channel, a Printer MAY print all or part of the received portion of the Document.  See the Encoding and Transport document [RFC8010] for more details.
+"ko": |-
+  클라이언트가 프린터로 데이터를 전송하는 동안, 어떤 이유로든(예: '용지 부족') 채널이 차단될 때(즉, 흐름 제어 꺼짐) 하위 계층에 의해 채널이 닫히는 것을 방지하기 위해 최선을 다해야 합니다. 또는 '앞으로 작업이 충분한 메모리를 확보하지 못했습니다'. 그러나 인쇄 제출을 시작한 레이어(예: 최종 사용자)는 작업을 취소하기 위해 채널을 닫을 수 있습니다. 클라이언트가 채널을 닫으면 프린터는 문서의 수신된 부분 전체 또는 일부를 인쇄할 수 있습니다. 자세한 내용은 인코딩 및 전송 문서 [RFC8010]를 참조하세요.

@@ -1,0 +1,19 @@
+"hash": |-
+  3e8cdadda2e3f59df61305913b55acf09f0c48b51a06c204483ad023baf52ba7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ACK Delay:  A variable-length integer encoding the acknowledgment
+        delay in microseconds; see Section 13.2.5.  It is decoded by
+        multiplying the value in the field by 2 to the power of the
+        ack_delay_exponent transport parameter sent by the sender of the
+        ACK frame; see Section 18.2.  Compared to simply expressing the
+        delay as an integer, this encoding allows for a larger range of
+        values within the same number of bytes, at the cost of lower
+        resolution.
+"fixed": |-
+  ACK Delay:  A variable-length integer encoding the acknowledgment delay in microseconds; see Section 13.2.5.  It is decoded by multiplying the value in the field by 2 to the power of the ack_delay_exponent transport parameter sent by the sender of the ACK frame; see Section 18.2.  Compared to simply expressing the delay as an integer, this encoding allows for a larger range of values within the same number of bytes, at the cost of lower resolution.
+"ko": |-
+  ACK 지연: 승인 지연을 마이크로초 단위로 인코딩하는 가변 길이 정수입니다. 섹션 13.2.5를 참조하세요. 이는 필드의 값에 ACK 프레임의 송신자가 전송한 ack_delay_expont 전송 매개변수의 거듭제곱에 2를 곱하여 디코딩됩니다. 섹션 18.2를 참조하세요. 단순히 지연을 정수로 표현하는 것과 비교할 때 이 인코딩은 더 낮은 해상도를 희생하면서 동일한 바이트 수 내에서 더 넓은 범위의 값을 허용합니다.

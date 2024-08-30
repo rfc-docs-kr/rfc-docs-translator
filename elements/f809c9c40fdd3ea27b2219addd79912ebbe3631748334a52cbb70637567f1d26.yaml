@@ -1,0 +1,21 @@
+"hash": |-
+  f809c9c40fdd3ea27b2219addd79912ebbe3631748334a52cbb70637567f1d26
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     6.  If the reply datagram by Peer Q does pass the checks by Peer P,
+         and Peer P wants to continue interacting with Peer Q, Peer P can
+         now send REQUEST, PEX_REQ, and other messages to Peer Q.
+         Datagrams carrying these messages MUST be prefixed with the
+         channel ID chanQ sent by Peer Q.  More specifically, because Peer
+         P knows that Peer Q really responds, Peer P MAY start sending
+         Peer Q messages with heavy payload.  That means that Peer P MAY
+         start responding to any REQUEST messages that Peer Q may have
+         sent in this first reply datagram with DATA messages.  Hence,
+         transfer of chunks can start soon in PPSPP.
+"fixed": |-
+  1.  If the reply datagram by Peer Q does pass the checks by Peer P, and Peer P wants to continue interacting with Peer Q, Peer P can now send REQUEST, PEX_REQ, and other messages to Peer Q. Datagrams carrying these messages MUST be prefixed with the channel ID chanQ sent by Peer Q.  More specifically, because Peer P knows that Peer Q really responds, Peer P MAY start sending Peer Q messages with heavy payload.  That means that Peer P MAY start responding to any REQUEST messages that Peer Q may have sent in this first reply datagram with DATA messages.  Hence, transfer of chunks can start soon in PPSPP.
+"ko": |-
+  1. 피어 Q의 응답 데이터그램이 피어 P의 검사를 통과하고 피어 P가 피어 Q와 계속 상호 작용하기를 원하는 경우 피어 P는 이제 REQUEST, PEX_REQ 및 기타 메시지를 피어 Q에 보낼 수 있습니다. 이러한 메시지를 전달하는 데이터그램은 반드시 피어 Q가 보낸 채널 ID chanQ가 앞에 붙습니다. 보다 구체적으로 피어 P는 피어 Q가 실제로 응답한다는 것을 알고 있기 때문에 피어 P는 무거운 페이로드로 피어 Q 메시지를 보내기 시작할 수 있습니다. 이는 피어 P가 피어 Q가 DATA 메시지와 함께 첫 번째 응답 데이터그램에서 보낸 REQUEST 메시지에 응답하기 시작할 수 있음을 의미합니다. 따라서 PPSPP에서는 청크 전송이 곧 시작될 수 있습니다.

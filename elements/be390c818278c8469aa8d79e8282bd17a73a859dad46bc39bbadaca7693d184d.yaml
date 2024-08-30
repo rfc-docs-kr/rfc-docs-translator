@@ -1,0 +1,17 @@
+"hash": |-
+  be390c818278c8469aa8d79e8282bd17a73a859dad46bc39bbadaca7693d184d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Access Rights: The authenticated user (see Section 9.3) performing
+     this operation must be either the Job owner or an Operator or
+     Administrator of the Printer (see Sections 1 and 9.5).  Otherwise,
+     the Printer MUST reject the operation and return
+     'client-error-forbidden', 'client-error-not-authenticated', or
+     'client-error-not-authorized' as appropriate.
+"fixed": |-
+  Access Rights: The authenticated user (see Section 9.3) performing this operation must be either the Job owner or an Operator or Administrator of the Printer (see Sections 1 and 9.5).  Otherwise, the Printer MUST reject the operation and return 'client-error-forbidden', 'client-error-not-authenticated', or 'client-error-not-authorized' as appropriate.
+"ko": |-
+  액세스 권한: 이 작업을 수행하는 인증된 사용자(섹션 9.3 참조)는 작업 소유자이거나 프린터의 운영자 또는 관리자(섹션 1 및 9.5 참조)여야 합니다. 그렇지 않으면 프린터는 작업을 거부하고 'client-error-forbidden', 'client-error-not-authenticated' 또는 'client-error-not-authorized'를 적절하게 반환해야 합니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  6e0f6dd2e461ace770ecc44ba15533e7efec4e16aaf1a94c736b1a67a9a4513e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The CREATE command creates a mailbox with the given name.  An OK
+     response is returned only if a new mailbox with that name has been
+     created.  It is an error to attempt to create INBOX or a mailbox with
+     a name that refers to an extant mailbox.  Any error in creation will
+     return a tagged NO response.  If a client attempts to create a UTF-8
+     mailbox name that is not a valid Net-Unicode name, the server MUST
+     reject the creation or convert the name to Net-Unicode prior to
+     creating the mailbox.  If the server decides to convert (normalize)
+     the name, it SHOULD return an untagged LIST with an OLDNAME extended
+     data item, with the OLDNAME value being the supplied mailbox name and
+     the name parameter being the normalized mailbox name.  (See
+     Section 6.3.9.7 for more details.)
+"fixed": |-
+  The CREATE command creates a mailbox with the given name.  An OK response is returned only if a new mailbox with that name has been created.  It is an error to attempt to create INBOX or a mailbox with a name that refers to an extant mailbox.  Any error in creation will return a tagged NO response.  If a client attempts to create a UTF-8 mailbox name that is not a valid Net-Unicode name, the server MUST reject the creation or convert the name to Net-Unicode prior to creating the mailbox.  If the server decides to convert (normalize) the name, it SHOULD return an untagged LIST with an OLDNAME extended data item, with the OLDNAME value being the supplied mailbox name and the name parameter being the normalized mailbox name.  (See Section 6.3.9.7 for more details.)
+"ko": |-
+  CREATE 명령은 주어진 이름으로 사서함을 만듭니다.  해당 이름의 새 사서함이 생성된 경우에만 OK 응답이 반환됩니다.  기존 메일함을 참조하는 이름으로 INBOX 또는 메일함을 생성하려고 하면 오류가 발생합니다.  생성 중 오류가 발생하면 태그가 지정된 NO 응답이 반환됩니다.  클라이언트가 유효한 Net-Unicode 이름이 아닌 UTF-8 사서함 이름을 만들려고 시도하는 경우 서버는 사서함을 만들기 전에 생성을 거부하거나 이름을 Net-Unicode로 변환해야 합니다.  서버가 이름을 변환(정규화)하기로 결정한 경우, OLDNAME 확장 데이터 항목이 포함된 태그 없는 LIST를 반환해야 하며, OLDNAME 값은 제공된 메일박스 이름이고 name 매개변수는 정규화된 메일박스 이름입니다.  (자세한 내용은 섹션 6.3.9.7을 참조하세요.)

@@ -1,0 +1,23 @@
+"hash": |-
+  f538ca383fa91839b3499fcf05ff1d0804e24f0d990a796aef6e12ffd63770b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field allows the client to request that the verifier
+     resource save the audio stream that was used for verification/
+     identification.  The verifier resource MUST attempt to record the
+     audio and make it available to the client in the form of a URI
+     returned in the Waveform-URI header field in the VERIFICATION-
+     COMPLETE event.  If there was an error in recording the stream, or
+     the audio content is otherwise not available, the verifier resource
+     MUST return an empty Waveform-URI header field.  The default value
+     for this header field is "false".  This header field MAY appear in
+     the VERIFY method.  Note that this header field does not appear in
+     the VERIFY-FROM-BUFFER method since it only controls whether or not
+     to save the waveform for live verification/identification operations.
+"fixed": |-
+  This header field allows the client to request that the verifier resource save the audio stream that was used for verification/ identification.  The verifier resource MUST attempt to record the audio and make it available to the client in the form of a URI returned in the Waveform-URI header field in the VERIFICATION- COMPLETE event.  If there was an error in recording the stream, or the audio content is otherwise not available, the verifier resource MUST return an empty Waveform-URI header field.  The default value for this header field is "false".  This header field MAY appear in the VERIFY method.  Note that this header field does not appear in the VERIFY-FROM-BUFFER method since it only controls whether or not to save the waveform for live verification/identification operations.
+"ko": |-
+  이 헤더 필드를 사용하면 클라이언트가 검증자 리소스에 검증/식별에 사용된 오디오 스트림을 저장하도록 요청할 수 있습니다. 검증자 리소스는 오디오를 녹음하고 VERIFICATION-COMPLETE 이벤트의 Waveform-URI 헤더 필드에 반환된 URI 형태로 클라이언트에서 사용할 수 있도록 해야 합니다. 스트림을 녹음하는 데 오류가 있거나 오디오 콘텐츠를 사용할 수 없는 경우 검증자 리소스는 빈 Waveform-URI 헤더 필드를 반환해야 합니다. 이 헤더 필드의 기본값은 "false"입니다. 이 헤더 필드는 VERIFY 메서드에 나타날 수 있습니다. 이 헤더 필드는 라이브 검증/식별 작업을 위해 파형을 저장할지 여부만 제어하기 때문에 VERIFY-FROM-BUFFER 메서드에 나타나지 않습니다.

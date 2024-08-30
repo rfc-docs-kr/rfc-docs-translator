@@ -1,0 +1,19 @@
+"hash": |-
+  344fa6515c35d458473a3b890e2925af0f4c202465215e59f76d67a36984446e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     There are significant risks in establishing a tunnel to arbitrary
+     servers, particularly when the destination is a well-known or
+     reserved TCP port that is not intended for Web traffic.  For example,
+     a CONNECT to "example.com:25" would suggest that the proxy connect to
+     the reserved port for SMTP traffic; if allowed, that could trick the
+     proxy into relaying spam email.  Proxies that support CONNECT SHOULD
+     restrict its use to a limited set of known ports or a configurable
+     list of safe request targets.
+"fixed": |-
+  There are significant risks in establishing a tunnel to arbitrary servers, particularly when the destination is a well-known or reserved TCP port that is not intended for Web traffic.  For example, a CONNECT to "example.com:25" would suggest that the proxy connect to the reserved port for SMTP traffic; if allowed, that could trick the proxy into relaying spam email.  Proxies that support CONNECT SHOULD restrict its use to a limited set of known ports or a configurable list of safe request targets.
+"ko": |-
+  임의의 서버에 대한 터널을 설정하는 데에는 상당한 위험이 있습니다. 특히 대상이 웹 트래픽용이 아닌 잘 알려져 있거나 예약된 TCP 포트인 경우 더욱 그렇습니다. 예를 들어 "example.com:25"에 대한 CONNECT는 프록시가 SMTP 트래픽용으로 예약된 포트에 연결하도록 제안합니다. 허용되는 경우 프록시를 속여 스팸 이메일을 전달하도록 할 수 있습니다. CONNECT를 지원하는 프록시는 알려진 포트의 제한된 집합이나 구성 가능한 안전한 요청 대상 목록으로 사용을 제한해야 합니다.

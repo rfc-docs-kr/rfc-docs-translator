@@ -1,0 +1,19 @@
+"hash": |-
+  51334f1e1a56218cea80c7dac2d8f8dc697906507ab1e67690fc7cd8b9dd17e9
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The major data structures include a version number as the first item
+     in the data structure.  The version number is intended to avoid ASN.1
+     decode errors.  Some implementations do not check the version number
+     prior to attempting a decode; then, if a decode error occurs, the
+     version number is checked as part of the error-handling routine.
+     This is a reasonable approach; it places error processing outside of
+     the fast path.  This approach is also forgiving when an incorrect
+     version number is used by the sender.
+"fixed": |-
+  The major data structures include a version number as the first item in the data structure.  The version number is intended to avoid ASN.1 decode errors.  Some implementations do not check the version number prior to attempting a decode; then, if a decode error occurs, the version number is checked as part of the error-handling routine. This is a reasonable approach; it places error processing outside of the fast path.  This approach is also forgiving when an incorrect version number is used by the sender.
+"ko": |-
+  주요 데이터 구조에는 데이터 구조의 첫 번째 항목으로 버전 번호가 포함됩니다.  버전 번호는 ASN.1 디코드 오류를 방지하기 위한 것입니다.  일부 구현에서는 디코딩을 시도하기 전에 버전 번호를 확인하지 않습니다. 그런 다음 디코드 오류가 발생하면 오류 처리 루틴의 일부로 버전 번호가 확인됩니다. 이는 합리적인 접근 방식입니다. 빠른 경로 외부에 오류 처리를 배치합니다.  이 접근 방식은 보낸 사람이 잘못된 버전 번호를 사용한 경우에도 용서됩니다.

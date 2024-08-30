@@ -1,0 +1,17 @@
+"hash": |-
+  ea415ac980db3da4d78635fec115219c3ca2c4199fd30a6e0804f80798fd84a8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     invalid_token
+           The access token provided is expired, revoked, malformed, or
+           invalid for other reasons.  The resource SHOULD respond with
+           the HTTP 401 (Unauthorized) status code.  The client MAY
+           request a new access token and retry the protected resource
+           request.
+"fixed": |-
+  invalid_token  -     The access token provided is expired, revoked, malformed, or invalid for other reasons.  The resource SHOULD respond with the HTTP 401 (Unauthorized) status code.  The client MAY request a new access token and retry the protected resource request.
+"ko": |-
+  valid_token - 제공된 액세스 토큰이 만료, 취소, 형식이 잘못되었거나 기타 이유로 유효하지 않습니다.  리소스는 HTTP 401(승인되지 않음) 상태 코드로 응답해야 합니다.  클라이언트는 새로운 액세스 토큰을 요청하고 보호된 리소스 요청을 재시도할 수 있습니다.

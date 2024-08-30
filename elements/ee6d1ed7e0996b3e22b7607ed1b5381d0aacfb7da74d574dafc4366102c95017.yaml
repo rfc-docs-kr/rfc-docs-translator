@@ -1,0 +1,14 @@
+"hash": |-
+  ee6d1ed7e0996b3e22b7607ed1b5381d0aacfb7da74d574dafc4366102c95017
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        d) If at least one of the candidate routes was received via EBGP,
+           remove from consideration all routes that were received via
+           IBGP.
+"fixed": |-
+  - d) If at least one of the candidate routes was received via EBGP, remove from consideration all routes that were received via IBGP.
+"ko": |-
+  - d) 후보 경로 중 하나 이상이 EBGP를 통해 수신된 경우 IBGP를 통해 수신된 모든 경로를 고려 대상에서 제거합니다.

@@ -1,0 +1,44 @@
+"hash": |-
+  44e16854d114d77266cae7f6de67bf2a12405a63caa6e234d49601f84ffd52d4
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +-----------------------------+-------------------------+-----------+
+     | Attribute                   | Syntax                  | REQUIRED? |
+     +-----------------------------+-------------------------+-----------+
+     | attributes-charset          | charset                 | REQUIRED  |
+     +-----------------------------+-------------------------+-----------+
+     | attributes-natural-language | naturalLanguage         | REQUIRED  |
+     +-----------------------------+-------------------------+-----------+
+     | date-time-at-completed      | dateTime|unknown|no-    |           |
+     |                             | value                   |           |
+     +-----------------------------+-------------------------+-----------+
+     | date-time-at-creation       | dateTime|unknown        |           |
+     +-----------------------------+-------------------------+-----------+
+     | date-time-at-processing     | dateTime|unknown|no-    |           |
+     |                             | value                   |           |
+     +-----------------------------+-------------------------+-----------+
+     | job-detailed-status-        | 1setOf text(MAX)        |           |
+     | messages                    |                         |           |
+     +-----------------------------+-------------------------+-----------+
+     | job-document-access-errors  | 1setOf text(MAX)        |           |
+     +-----------------------------+-------------------------+-----------+
+     | job-id                      | integer(1:MAX)          | REQUIRED  |
+     +-----------------------------+-------------------------+-----------+
+     | job-impressions-completed   | integer(0:MAX)          |           |
+     +-----------------------------+-------------------------+-----------+
+     | job-k-octets-processed      | integer(0:MAX)          |           |
+     +-----------------------------+-------------------------+-----------+
+     | job-media-sheets-completed  | integer(0:MAX)          |           |
+     +-----------------------------+-------------------------+-----------+
+     | job-message-from-operator   | text(127)               |           |
+     +-----------------------------+-------------------------+-----------+
+     | job-more-info               | uri                     |           |
+     +-----------------------------+-------------------------+-----------+
+     | job-originating-user-name   | name(MAX)               | REQUIRED  |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

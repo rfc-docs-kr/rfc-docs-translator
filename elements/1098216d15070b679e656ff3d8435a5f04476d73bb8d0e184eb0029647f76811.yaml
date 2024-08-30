@@ -1,0 +1,19 @@
+"hash": |-
+  1098216d15070b679e656ff3d8435a5f04476d73bb8d0e184eb0029647f76811
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If at least one FFDHE cipher suite is present in the client cipher
+     suite list and the Supported Groups extension is either absent from
+     the ClientHello entirely or contains no FFDHE groups (i.e., no
+     codepoints between 256 and 511, inclusive), then the server knows
+     that the client is not compatible with this document.  In this
+     scenario, a server MAY select a non-FFDHE cipher suite, or it MAY
+     select an FFDHE cipher suite and offer an FFDHE group of its choice
+     to the client as part of a traditional ServerKeyExchange.
+"fixed": |-
+  If at least one FFDHE cipher suite is present in the client cipher suite list and the Supported Groups extension is either absent from the ClientHello entirely or contains no FFDHE groups (i.e., no codepoints between 256 and 511, inclusive), then the server knows that the client is not compatible with this document.  In this scenario, a server MAY select a non-FFDHE cipher suite, or it MAY select an FFDHE cipher suite and offer an FFDHE group of its choice to the client as part of a traditional ServerKeyExchange.
+"ko": |-
+  클라이언트 암호 모음 목록에 하나 이상의 FFDHE 암호 모음이 있고 지원 그룹 확장이 ClientHello에 완전히 없거나 FFDHE 그룹이 포함되어 있지 않은 경우(즉, 256에서 511 사이에 코드 포인트가 없음) 서버는 다음을 알고 있습니다. 클라이언트가 이 문서와 호환되지 않습니다.  이 시나리오에서 서버는 FFDHE가 아닌 암호 모음을 선택하거나 FFDHE 암호 모음을 선택하고 선택한 FFDHE 그룹을 전통적인 ServerKeyExchange의 일부로 클라이언트에 제공할 수 있습니다.

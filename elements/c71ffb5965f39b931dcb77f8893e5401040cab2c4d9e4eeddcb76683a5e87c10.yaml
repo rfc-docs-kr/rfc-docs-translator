@@ -1,0 +1,18 @@
+"hash": |-
+  c71ffb5965f39b931dcb77f8893e5401040cab2c4d9e4eeddcb76683a5e87c10
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This extension continues to use SHA-1 (as in RFC 4366) and does not
+     provide algorithm agility.  The property required of SHA-1 in this
+     case is second pre-image resistance, not collision resistance.
+     Furthermore, even if second pre-image attacks against SHA-1 are found
+     in the future, an attack against client_certificate_url would require
+     a second pre-image that is accepted as a valid certificate by the
+     server and contains the same public key.
+"fixed": |-
+  This extension continues to use SHA-1 (as in RFC 4366) and does not provide algorithm agility.  The property required of SHA-1 in this case is second pre-image resistance, not collision resistance. Furthermore, even if second pre-image attacks against SHA-1 are found in the future, an attack against client_certificate_url would require a second pre-image that is accepted as a valid certificate by the server and contains the same public key.
+"ko": |-
+  이 확장은 RFC 4366에서와 같이 SHA-1을 계속 사용하며 알고리즘 민첩성을 제공하지 않습니다. 이 경우 SHA-1에 필요한 속성은 충돌 저항이 아닌 두 번째 사전 이미지 저항입니다. 또한 향후 SHA-1에 대한 두 번째 사전 이미지 공격이 발견되더라도 client_certificate_url에 대한 공격에는 서버에서 유효한 인증서로 승인되고 동일한 공개 키를 포함하는 두 번째 사전 이미지가 필요합니다.

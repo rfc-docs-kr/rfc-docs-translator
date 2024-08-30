@@ -1,0 +1,22 @@
+"hash": |-
+  17c7aaf98f4eaa09801ca6f4847aecdca2ca2d7071abb1a434813065bf9eb98c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     4.   If using the JWE Compact Serialization, let the JOSE Header be
+          the JWE Protected Header.  Otherwise, when using the JWE JSON
+          Serialization, let the JOSE Header be the union of the members
+          of the JWE Protected Header, the JWE Shared Unprotected Header
+          and the corresponding JWE Per-Recipient Unprotected Header, all
+          of which must be completely valid JSON objects.  During this
+          step, verify that the resulting JOSE Header does not contain
+          duplicate Header Parameter names.  When using the JWE JSON
+          Serialization, this restriction includes that the same Header
+          Parameter name also MUST NOT occur in distinct JSON object
+          values that together comprise the JOSE Header.
+"fixed": |-
+  1.   If using the JWE Compact Serialization, let the JOSE Header be the JWE Protected Header.  Otherwise, when using the JWE JSON Serialization, let the JOSE Header be the union of the members of the JWE Protected Header, the JWE Shared Unprotected Header and the corresponding JWE Per-Recipient Unprotected Header, all of which must be completely valid JSON objects.  During this step, verify that the resulting JOSE Header does not contain duplicate Header Parameter names.  When using the JWE JSON Serialization, this restriction includes that the same Header Parameter name also MUST NOT occur in distinct JSON object values that together comprise the JOSE Header.
+"ko": |-
+  1. JWE Compact Serialization을 사용하는 경우 JOSE 헤더를 JWE 보호 헤더로 설정합니다. 그렇지 않은 경우 JWE JSON Serialization을 사용하는 경우 JOSE 헤더를 JWE 보호 헤더, JWE 공유 비보호 헤더 및 해당 JWE 수신자별 비보호 헤더의 멤버의 합집합으로 설정합니다. 이 모든 멤버는 완전히 유효한 JSON 객체여야 합니다. 이 단계에서 결과 JOSE 헤더에 중복된 헤더 매개변수 이름이 포함되지 않았는지 확인합니다. JWE JSON Serialization을 사용하는 경우 이 제한에는 동일한 헤더 매개변수 이름이 JOSE 헤더를 구성하는 고유한 JSON 객체 값에도 나타나서는 안 된다는 것이 포함됩니다.

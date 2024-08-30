@@ -1,0 +1,1 @@
+이 문서에서는 JWE에 대한 두 가지 직렬화를 정의합니다. JWE Compact Serialization이라는 컴팩트하고 URL에 안전한 직렬화와 JWE JSON Serialization이라는 JSON 직렬화입니다. 두 직렬화 모두에서 JWE Protected Header, JWE Encrypted Key, JWE Initialization Vector, JWE Ciphertext, JWE Authentication Tag는 base64url로 인코딩됩니다. JSON은 임의의 옥텟 시퀀스를 직접 표현할 방법이 없기 때문입니다. JWE AAD가 있는 경우, 이 역시 base64url로 인코딩됩니다.

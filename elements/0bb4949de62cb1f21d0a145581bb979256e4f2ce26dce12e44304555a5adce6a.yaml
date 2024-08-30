@@ -1,0 +1,18 @@
+"hash": |-
+  0bb4949de62cb1f21d0a145581bb979256e4f2ce26dce12e44304555a5adce6a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a DHCPLEASEACTIVE message is received in response to the
+     DHCPLEASEQUERY message, it means that there is a currently active
+     lease for this IP address in this DHCP server.  The access
+     concentrator SHOULD use the information in the "htype", "hlen", and
+     "chaddr" fields of the DHCPLEASEACTIVE as well as any Relay Agent
+     Information option information included in the packet to refresh its
+     location information for this IP address.
+"fixed": |-
+  When a DHCPLEASEACTIVE message is received in response to the DHCPLEASEQUERY message, it means that there is a currently active lease for this IP address in this DHCP server.  The access concentrator SHOULD use the information in the "htype", "hlen", and "chaddr" fields of the DHCPLEASEACTIVE as well as any Relay Agent Information option information included in the packet to refresh its location information for this IP address.
+"ko": |-
+  DHCPLEASEQUERY 메시지에 대한 응답으로 DHCPLEASEACTIVE 메시지가 수신되면 이는 이 DHCP 서버에 해당 IP 주소에 대한 현재 활성 임대가 있음을 의미합니다. 액세스 집중 장치는 DHCPLEASEACTIVE의 "htype", "hlen" 및 "chaddr" 필드의 정보와 패킷에 포함된 릴레이 에이전트 정보 옵션 정보를 사용하여 이 IP 주소에 대한 위치 정보를 새로 고쳐야 합니다.

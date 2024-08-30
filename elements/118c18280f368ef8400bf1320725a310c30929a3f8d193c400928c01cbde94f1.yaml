@@ -1,0 +1,44 @@
+"hash": |-
+  118c18280f368ef8400bf1320725a310c30929a3f8d193c400928c01cbde94f1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       C: A001 SELECT INBOX
+       S: * FLAGS (\Deleted \Seen \Flagged)
+       S: * OK [PERMANENTFLAGS (\Deleted \Seen \Flagged)] Limited
+       S: * 3 EXISTS
+       S: * OK [UIDVALIDITY 1]
+       S: * OK [UIDNEXT 1]
+       S: * LIST () "/" INBOX
+       S: A001 OK [READ-WRITE] SELECT completed
+       C: A002 IDLE
+       S: + idling
+       ...time passes; new mail arrives...
+       S: * 4 EXISTS
+       C: DONE
+       S: A002 OK IDLE terminated
+       ...another client expunges message 2 now...
+       C: A003 FETCH 4 ALL
+       S: * 4 FETCH (...)
+       S: A003 OK FETCH completed
+       C: A004 IDLE
+       S: * 2 EXPUNGE
+       S: * 3 EXISTS
+       S: + idling
+       ...time passes; another client expunges message 3...
+       S: * 3 EXPUNGE
+       S: * 2 EXISTS
+       ...time passes; new mail arrives...
+       S: * 3 EXISTS
+       C: DONE
+       S: A004 OK IDLE terminated
+       C: A005 FETCH 3 ALL
+       S: * 3 FETCH (...)
+       S: A005 OK FETCH completed
+       C: A006 IDLE
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

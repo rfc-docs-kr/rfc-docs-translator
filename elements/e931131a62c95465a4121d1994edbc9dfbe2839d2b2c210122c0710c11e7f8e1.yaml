@@ -1,0 +1,51 @@
+"hash": |-
+  e931131a62c95465a4121d1994edbc9dfbe2839d2b2c210122c0710c11e7f8e1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +--------+----------------------------------------------------------+
+     | '6'    | 'processing-stopped': The Job has stopped while          |
+     |        | processing for any number of reasons and will return to  |
+     |        | the 'processing' state as soon as the reasons are no     |
+     |        | longer present.  The Job's "job-state-reasons" attribute |
+     |        | MAY indicate why the Job has stopped processing.  For    |
+     |        | example, if the Output Device is stopped, the 'printer-  |
+     |        | stopped' value MAY be included in the Job's "job-state-  |
+     |        | reasons" attribute.  Note: When an Output Device is      |
+     |        | stopped, the device usually indicates its condition in   |
+     |        | human-readable form locally at the device.  A Client can |
+     |        | obtain more complete device status remotely by querying  |
+     |        | the Printer's "printer-state", "printer-state-reasons",  |
+     |        | and "printer-state-message" attributes.                  |
+     +--------+----------------------------------------------------------+
+     | '7'    | 'canceled':  The Job has been canceled by a Cancel-Job   |
+     |        | operation, and the Printer has completed canceling the   |
+     |        | Job.  All Job Status attributes have reached their final |
+     |        | values for the Job.  While the Printer is canceling the  |
+     |        | Job, the Job remains in its current state, but the Job's |
+     |        | "job-state-reasons" attribute SHOULD contain the         |
+     |        | 'processing-to-stop-point' value and one of the          |
+     |        | 'canceled-by-user', 'canceled-by-operator', or           |
+     |        | 'canceled-at-device' values.  When the Job moves to the  |
+     |        | 'canceled' state, the 'processing-to-stop-point' value,  |
+     |        | if present, MUST be removed, but 'canceled-by-xxx', if   |
+     |        | present, MUST remain.                                    |
+     +--------+----------------------------------------------------------+
+     | '8'    | 'aborted': The Job has been aborted by the system,       |
+     |        | usually while the Job was in the 'processing' or         |
+     |        | 'processing-stopped' state, and the Printer has          |
+     |        | completed aborting the Job; all Job Status attributes    |
+     |        | have reached their final values for the Job.  While the  |
+     |        | Printer is aborting the Job, the Job remains in its      |
+     |        | current state, but the Job's "job-state-reasons"         |
+     |        | attribute SHOULD contain the 'processing-to-stop-point'  |
+     |        | and 'aborted-by-system' values.  When the Job moves to   |
+     |        | the 'aborted' state, the 'processing-to-stop-point'      |
+     |        | value, if present, MUST be removed, but the 'aborted-by- |
+     |        | system' value, if present, MUST remain.                  |
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

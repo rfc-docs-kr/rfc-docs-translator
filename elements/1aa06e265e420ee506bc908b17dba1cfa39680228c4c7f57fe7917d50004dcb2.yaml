@@ -1,0 +1,15 @@
+"hash": |-
+  1aa06e265e420ee506bc908b17dba1cfa39680228c4c7f57fe7917d50004dcb2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server that negotiates "max_fragment_length" is required to echo
+     the value selected by the client.  The server cannot request a lower
+     limit than the one the client offered.  This is a significant problem
+     if a server is more constrained than the clients it serves.
+"fixed": |-
+  A server that negotiates "max_fragment_length" is required to echo the value selected by the client.  The server cannot request a lower limit than the one the client offered.  This is a significant problem if a server is more constrained than the clients it serves.
+"ko": |-
+  클라이언트가 선택한 값을 반영하려면 "max_fragment_length"를 협상하는 서버가 필요합니다.  서버는 클라이언트가 제공한 것보다 낮은 한도를 요청할 수 없습니다.  서버가 서비스를 제공하는 클라이언트보다 더 제한적인 경우 이는 심각한 문제입니다.

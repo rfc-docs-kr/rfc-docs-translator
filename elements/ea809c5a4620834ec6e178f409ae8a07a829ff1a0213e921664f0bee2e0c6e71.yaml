@@ -1,0 +1,23 @@
+"hash": |-
+  ea809c5a4620834ec6e178f409ae8a07a829ff1a0213e921664f0bee2e0c6e71
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+        sec-mechanism    = mechanism-name *(SEMI mech-parameters)
+        mechanism-name   = ( "digest" / "tls" / "ipsec-ike" /
+                            "ipsec-man" / token )
+        mech-parameters  = ( preference / digest-algorithm /
+                             digest-qop / digest-verify / extension )
+        preference       = "q" EQUAL qvalue
+        qvalue           = ( "0" [ "." 0*3DIGIT ] )
+                            / ( "1" [ "." 0*3("0") ] )
+        digest-algorithm = "d-alg" EQUAL token
+        digest-qop       = "d-qop" EQUAL token
+        digest-verify    = "d-ver" EQUAL LDQUOT 32LHEX RDQUOT
+        extension        = generic-param
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

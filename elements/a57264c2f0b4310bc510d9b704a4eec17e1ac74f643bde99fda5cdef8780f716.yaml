@@ -1,0 +1,19 @@
+"hash": |-
+  a57264c2f0b4310bc510d9b704a4eec17e1ac74f643bde99fda5cdef8780f716
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A STOP_SENDING frame requests that the receiving endpoint send a
+     RESET_STREAM frame.  An endpoint that receives a STOP_SENDING frame
+     MUST send a RESET_STREAM frame if the stream is in the "Ready" or
+     "Send" state.  If the stream is in the "Data Sent" state, the
+     endpoint MAY defer sending the RESET_STREAM frame until the packets
+     containing outstanding data are acknowledged or declared lost.  If
+     any outstanding data is declared lost, the endpoint SHOULD send a
+     RESET_STREAM frame instead of retransmitting the data.
+"fixed": |-
+  A STOP_SENDING frame requests that the receiving endpoint send a RESET_STREAM frame.  An endpoint that receives a STOP_SENDING frame MUST send a RESET_STREAM frame if the stream is in the "Ready" or "Send" state.  If the stream is in the "Data Sent" state, the endpoint MAY defer sending the RESET_STREAM frame until the packets containing outstanding data are acknowledged or declared lost.  If any outstanding data is declared lost, the endpoint SHOULD send a RESET_STREAM frame instead of retransmitting the data.
+"ko": |-
+  STOP_SENDING 프레임은 수신 끝점이 RESET_STREAM 프레임을 보내도록 요청합니다. STOP_SENDING 프레임을 수신한 엔드포인트는 스트림이 "Ready" 또는 "Send" 상태인 경우 RESET_STREAM 프레임을 보내야 합니다. 스트림이 "Data Sent" 상태에 있는 경우 엔드포인트는 미해결 데이터가 포함된 패킷이 확인되거나 손실되었다고 선언될 때까지 RESET_STREAM 프레임 전송을 연기할 수 있습니다. 미해결 데이터가 손실되었다고 선언된 경우 엔드포인트는 데이터를 재전송하는 대신 RESET_STREAM 프레임을 보내야 합니다(SHOULD).

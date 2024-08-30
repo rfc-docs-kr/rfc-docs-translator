@@ -1,0 +1,18 @@
+"hash": |-
+  d7a7dff290969f687934fdf58faf855d1d90c2dad61e01469299ca97b0baf5ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the implementation requires some measurable time to cancel the
+        Job in the 'processing' or 'processing-stopped' Job state, the
+        Printer MUST use this value to indicate that the Printer is still
+        performing some actions on the Job while the Job remains in the
+        'processing' or 'processing-stopped' state.  Once at the stop
+        point, the Printer moves the Job from the 'processing' state to
+        the 'canceled' or 'aborted' Job state.
+"fixed": |-
+  - If the implementation requires some measurable time to cancel the Job in the 'processing' or 'processing-stopped' Job state, the Printer MUST use this value to indicate that the Printer is still performing some actions on the Job while the Job remains in the 'processing' or 'processing-stopped' state.  Once at the stop point, the Printer moves the Job from the 'processing' state to the 'canceled' or 'aborted' Job state.
+"ko": |-
+  - 구현이 '처리 중' 또는 '처리 중지됨' 작업 상태에서 작업을 취소하는 데 측정 가능한 시간이 필요한 경우, 프린터는 이 값을 사용하여 작업이 남아 있는 동안 프린터가 작업에 대해 일부 작업을 계속 수행하고 있음을 나타내야 합니다. '처리 중' 또는 '처리 중지됨' 상태입니다. 중지 지점에 도달하면 프린터는 작업을 '처리 중' 상태에서 '취소' 또는 '중단' 작업 상태로 이동합니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  07bc737e1e22798e3045d9fc468779cd00305c5132865832218a2495361c629b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Before a verification/identification session is started, the client
+     may only request that VERIFY-ROLLBACK and generic SET-PARAMS and
+     GET-PARAMS operations be performed on the verifier resource.  The
+     server MUST return status-code 402 "Method not valid in this state"
+     for all other verification operations.
+"fixed": |-
+  Before a verification/identification session is started, the client may only request that VERIFY-ROLLBACK and generic SET-PARAMS and GET-PARAMS operations be performed on the verifier resource.  The server MUST return status-code 402 "Method not valid in this state" for all other verification operations.
+"ko": |-
+  검증/식별 세션이 시작되기 전에 클라이언트는 검증자 리소스에서 VERIFY-ROLLBACK 및 일반 SET-PARAMS 및 GET-PARAMS 작업이 수행되도록 요청할 수 있습니다. 서버는 다른 모든 검증 작업에 대해 상태 코드 402 "이 상태에서는 메서드가 유효하지 않음"을 반환해야 합니다.

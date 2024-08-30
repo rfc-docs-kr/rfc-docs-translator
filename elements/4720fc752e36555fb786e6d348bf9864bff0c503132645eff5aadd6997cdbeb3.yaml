@@ -1,0 +1,19 @@
+"hash": |-
+  4720fc752e36555fb786e6d348bf9864bff0c503132645eff5aadd6997cdbeb3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The local speaker SHALL then install that route in the Loc-RIB,
+     replacing any route to the same destination that is currently being
+     held in the Loc-RIB.  When the new BGP route is installed in the
+     Routing Table, care must be taken to ensure that existing routes to
+     the same destination that are now considered invalid are removed from
+     the Routing Table.  Whether the new BGP route replaces an existing
+     non-BGP route in the Routing Table depends on the policy configured
+     on the BGP speaker.
+"fixed": |-
+  The local speaker SHALL then install that route in the Loc-RIB, replacing any route to the same destination that is currently being held in the Loc-RIB.  When the new BGP route is installed in the Routing Table, care must be taken to ensure that existing routes to the same destination that are now considered invalid are removed from the Routing Table.  Whether the new BGP route replaces an existing non-BGP route in the Routing Table depends on the policy configured on the BGP speaker.
+"ko": |-
+  그러면 로컬 스피커는 Loc-RIB에 해당 경로를 설치해야 하며, 현재 Loc-RIB에 보관되어 있는 동일한 대상으로의 모든 경로를 대체해야 합니다. 새 BGP 경로가 라우팅 테이블에 설치되면 현재 유효하지 않은 것으로 간주되는 동일한 대상에 대한 기존 경로가 라우팅 테이블에서 제거되도록 주의해야 합니다. 새 BGP 경로가 라우팅 테이블의 기존 비BGP 경로를 대체하는지 여부는 BGP 스피커에 구성된 정책에 따라 다릅니다.

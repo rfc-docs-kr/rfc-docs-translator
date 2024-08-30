@@ -1,0 +1,17 @@
+"hash": |-
+  73910985cd9f1f0453758f64ae602a2bb68f5177a8977372242e4013a2429aa3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     padding_length
+         The padding length should be such that the total size of the
+         GenericBlockCipher structure is a multiple of the cipher's block
+         length. Legal values range from zero to 255, inclusive. This
+         length specifies the length of the padding field exclusive of the
+         padding_length field itself.
+"fixed": |-
+  padding_length  -   The padding length should be such that the total size of the GenericBlockCipher structure is a multiple of the cipher's block length. Legal values range from zero to 255, inclusive. This length specifies the length of the padding field exclusive of the padding_length field itself.
+"ko": |-
+  padding_length - 패딩 길이는 GenericBlockCipher 구조의 전체 크기가 암호 블록 길이의 배수가 되도록 해야 합니다. 유효한 값의 범위는 0부터 255까지입니다. 이 길이는 padding_length 필드 자체를 제외한 패딩 필드의 길이를 지정합니다.

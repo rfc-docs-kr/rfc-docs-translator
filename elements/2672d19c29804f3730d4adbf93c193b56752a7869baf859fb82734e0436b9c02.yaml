@@ -1,0 +1,20 @@
+"hash": |-
+  2672d19c29804f3730d4adbf93c193b56752a7869baf859fb82734e0436b9c02
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a connection is established by resuming a session, new
+     ClientHello.random and ServerHello.random values are hashed with the
+     session's master_secret.  Provided that the master_secret has not
+     been compromised and that the secure hash operations used to produce
+     the encryption keys and MAC secrets are secure, the connection should
+     be secure and effectively independent from previous connections.
+     Attackers cannot use known encryption keys or MAC secrets to
+     compromise the master_secret without breaking the secure hash
+     operations (which use both SHA and MD5).
+"fixed": |-
+  When a connection is established by resuming a session, new ClientHello.random and ServerHello.random values are hashed with the session's master_secret.  Provided that the master_secret has not been compromised and that the secure hash operations used to produce the encryption keys and MAC secrets are secure, the connection should be secure and effectively independent from previous connections. Attackers cannot use known encryption keys or MAC secrets to compromise the master_secret without breaking the secure hash operations (which use both SHA and MD5).
+"ko": |-
+  세션을 재개하여 연결이 설정되면 새 ClientHello.random 및 ServerHello.random 값이 세션의 master_secret으로 해시됩니다. master_secret이 손상되지 않았고 암호화 키와 MAC 비밀을 생성하는 데 사용된 보안 해시 작업이 안전하다면 연결은 안전해야 하며 이전 연결과 효과적으로 독립적이어야 합니다. 공격자는 알려진 암호화 키나 MAC 비밀을 사용하여 보안 해시 작업(SHA 및 MD5를 모두 사용)을 중단하지 않고 master_secret을 손상시킬 수 없습니다.

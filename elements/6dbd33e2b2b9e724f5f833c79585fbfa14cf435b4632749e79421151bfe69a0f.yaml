@@ -1,0 +1,19 @@
+"hash": |-
+  6dbd33e2b2b9e724f5f833c79585fbfa14cf435b4632749e79421151bfe69a0f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client stops both sending and processing Initial packets when it
+     sends its first Handshake packet.  A server stops sending and
+     processing Initial packets when it receives its first Handshake
+     packet.  Though packets might still be in flight or awaiting
+     acknowledgment, no further Initial packets need to be exchanged
+     beyond this point.  Initial packet protection keys are discarded (see
+     Section 4.9.1 of [QUIC-TLS]) along with any loss recovery and
+     congestion control state; see Section 6.4 of [QUIC-RECOVERY].
+"fixed": |-
+  A client stops both sending and processing Initial packets when it sends its first Handshake packet.  A server stops sending and processing Initial packets when it receives its first Handshake packet.  Though packets might still be in flight or awaiting acknowledgment, no further Initial packets need to be exchanged beyond this point.  Initial packet protection keys are discarded (see Section 4.9.1 of [QUIC-TLS]) along with any loss recovery and congestion control state; see Section 6.4 of [QUIC-RECOVERY].
+"ko": |-
+  클라이언트는 첫 번째 핸드셰이크 패킷을 보낼 때 초기 패킷 보내기와 처리를 모두 중지합니다. 서버는 첫 번째 핸드셰이크 패킷을 수신하면 초기 패킷 전송 및 처리를 중지합니다. 패킷이 여전히 전송 중이거나 승인 대기 중일 수 있지만 이 시점 이후에는 더 이상 초기 패킷을 교환할 필요가 없습니다. 초기 패킷 보호 키는 손실 복구 및 혼잡 제어 상태와 함께 폐기됩니다([QUIC-TLS]의 섹션 4.9.1 참조). [QUIC-RECOVERY]의 섹션 6.4를 참조하세요.

@@ -1,0 +1,19 @@
+"hash": |-
+  4a41bb2d0d6ff23dc543a169cecab4ef02ece7345ffcbdc6566ba396ef5cf8fa
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The STOP method can carry an Abort-Verification header field, which
+     specifies if the verification result until that point should be
+     discarded or returned.  If this header field is not present or if the
+     value is "true", the verification result is discarded and the STOP
+     response does not contain any result data.  If the header field is
+     present and its value is "false", the STOP response MUST contain a
+     Completion-Cause header field and carry the Verification result data
+     in its body.
+"fixed": |-
+  The STOP method can carry an Abort-Verification header field, which specifies if the verification result until that point should be discarded or returned.  If this header field is not present or if the value is "true", the verification result is discarded and the STOP response does not contain any result data.  If the header field is present and its value is "false", the STOP response MUST contain a Completion-Cause header field and carry the Verification result data in its body.
+"ko": |-
+  STOP 메서드는 Abort-Verification 헤더 필드를 포함할 수 있으며, 이 헤더 필드는 해당 지점까지의 검증 결과를 삭제하거나 반환해야 하는지 여부를 지정합니다. 이 헤더 필드가 없거나 값이 "true"인 경우 검증 결과는 삭제되고 STOP 응답에는 결과 데이터가 포함되지 않습니다. 헤더 필드가 있고 값이 "false"인 경우 STOP 응답에는 Completion-Cause 헤더 필드가 포함되어야 하며 본문에 Verification 결과 데이터가 포함되어야 합니다.

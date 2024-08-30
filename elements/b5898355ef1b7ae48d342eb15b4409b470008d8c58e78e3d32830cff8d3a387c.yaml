@@ -1,0 +1,41 @@
+"hash": |-
+  b5898355ef1b7ae48d342eb15b4409b470008d8c58e78e3d32830cff8d3a387c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+          o SPI -- modified to specify a uniform algorithm for SAD lookup
+            for unicast and multicast SAs, covering a wider range of
+            multicast technologies.  For unicast, the SPI may be used
+            alone to select an SA, or may be combined with the protocol,
+            at the option of the receiver.  For multicast SAs, the SPI is
+            combined with the destination address, and optionally the
+            source address, to select an SA.
+          o Extended Sequence Number -- added a new option for a 64-bit
+            sequence number for very high-speed communications.  Clarified
+            sender and receiver processing requirements for multicast SAs
+            and multi-sender SAs.
+          o Payload data -- broadened model to accommodate combined mode
+            algorithms.
+          o Padding for improved traffic flow confidentiality -- added
+            requirement to be able to add bytes after the end of the IP
+            Payload, prior to the beginning of the Padding field.
+          o Next Header -- added requirement to be able to generate and
+            discard dummy padding packets (Next Header = 59)
+          o ICV -- broadened model to accommodate combined mode
+            algorithms.
+          o Algorithms -- Added combined confidentiality mode algorithms.
+          o Moved references to mandatory algorithms to a separate
+            document.
+          o Inbound and Outbound packet processing -- there are now two
+            paths: (1) separate confidentiality and integrity
+            algorithms and (2) combined confidentiality mode
+            algorithms.  Because of the addition of combined mode
+            algorithms, the encryption/decryption and integrity sections
+            have been combined for both inbound and outbound packet
+            processing.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

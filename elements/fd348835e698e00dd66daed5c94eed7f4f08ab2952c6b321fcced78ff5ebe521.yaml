@@ -1,0 +1,15 @@
+"hash": |-
+  fd348835e698e00dd66daed5c94eed7f4f08ab2952c6b321fcced78ff5ebe521
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        All audio EXT-X-MEDIA tags SHOULD have a CHANNELS attribute.  If a
+        Master Playlist contains two Renditions encoded with the same
+        codec but a different number of channels, then the CHANNELS
+        attribute is REQUIRED; otherwise, it is OPTIONAL.
+"fixed": |-
+  - All audio EXT-X-MEDIA tags SHOULD have a CHANNELS attribute.  If a Master Playlist contains two Renditions encoded with the same codec but a different number of channels, then the CHANNELS attribute is REQUIRED; otherwise, it is OPTIONAL.
+"ko": |-
+  - 모든 오디오 EXT-X-MEDIA 태그에는 CHANNELS 속성이 있어야 합니다. 마스터 재생 목록에 코덱은 동일하지만 채널 수가 다른 두 개의 변환이 포함된 경우 CHANNELS 속성이 필수입니다. 그렇지 않으면 선택 사항입니다.

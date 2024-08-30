@@ -1,0 +1,16 @@
+"hash": |-
+  8183d7140e49654f9da1c24330a6e9f53a825dc29d8d8097a32fbcbb6488d8f6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Requirements on a cache that receives a 304 response are defined in
+     Section 4.3.4 of [CACHING].  If the conditional request originated
+     with an outbound client, such as a user agent with its own cache
+     sending a conditional GET to a shared proxy, then the proxy SHOULD
+     forward the 304 response to that client.
+"fixed": |-
+  Requirements on a cache that receives a 304 response are defined in Section 4.3.4 of [CACHING].  If the conditional request originated with an outbound client, such as a user agent with its own cache sending a conditional GET to a shared proxy, then the proxy SHOULD forward the 304 response to that client.
+"ko": |-
+  304 응답을 수신하는 캐시에 대한 요구 사항은 [CACHING]의 섹션 4.3.4에 정의되어 있습니다. 조건부 요청이 아웃바운드 클라이언트에서 시작된 경우(예: 자체 캐시가 있는 사용자 에이전트가 공유 프록시에 조건부 GET을 보내는 경우) 프록시는 304 응답을 해당 클라이언트에 전달해야 합니다.

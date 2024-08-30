@@ -1,0 +1,18 @@
+"hash": |-
+  1a339c8825268c50e4d11b84409c1e84c2d11426b5e97c8c7e41c2212811d1d4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the Destination Connection ID is zero length and the addressing
+     information in the packet matches the addressing information the
+     endpoint uses to identify a connection with a zero-length connection
+     ID, QUIC processes the packet as part of that connection.  An
+     endpoint can use just destination IP and port or both source and
+     destination addresses for identification, though this makes
+     connections fragile as described in Section 5.1.
+"fixed": |-
+  If the Destination Connection ID is zero length and the addressing information in the packet matches the addressing information the endpoint uses to identify a connection with a zero-length connection ID, QUIC processes the packet as part of that connection.  An endpoint can use just destination IP and port or both source and destination addresses for identification, though this makes connections fragile as described in Section 5.1.
+"ko": |-
+  대상 연결 ID의 길이가 0이고 패킷의 주소 지정 정보가 엔드포인트가 길이가 0인 연결 ID의 연결을 식별하는 데 사용하는 주소 지정 정보와 일치하는 경우 QUIC는 패킷을 해당 연결의 일부로 처리합니다. 엔드포인트는 식별을 위해 대상 IP와 포트만 사용하거나 소스와 대상 주소를 모두 사용할 수 있지만 이로 인해 섹션 5.1에 설명된 대로 연결이 취약해집니다.

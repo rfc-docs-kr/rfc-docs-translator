@@ -1,0 +1,24 @@
+"hash": |-
+  f4cb0c3b782aec545cf96fcb325c718b6f0fff26c6bb6f5d187bc9bfd0885793
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         A = x_2 + z_2
+         AA = A^2
+         B = x_2 - z_2
+         BB = B^2
+         E = AA - BB
+         C = x_3 + z_3
+         D = x_3 - z_3
+         DA = D * A
+         CB = C * B
+         x_3 = (DA + CB)^2
+         z_3 = x_1 * (DA - CB)^2
+         x_2 = AA * BB
+         z_2 = E * (AA + a24 * E)
+"fixed": |-
+  - A = x_2 + z_2 AA = A^2 B = x_2 - z_2 BB = B^2 E = AA - BB C = x_3 + z_3 D = x_3 - z_3 DA = D * A CB = C * B x_3 = (DA + CB)^2 z_3 = x_1 * (DA - CB)^2 x_2 = AA * BB z_2 = E * (AA + a24 * E)
+"ko": |-
+  - A = x_2 + z_2 AA = A^2 B = x_2 - z_2 BB = B^2 E = AA - BB C = x_3 + z_3 D = x_3 - z_3 DA = D * A CB = C * B x_3 = (DA + CB)^2 z_3 = x_1 * (DA - CB)^2 x_2 = AA * BB z_2 = E * (AA + a24 * E)

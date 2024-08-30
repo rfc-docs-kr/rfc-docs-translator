@@ -1,0 +1,17 @@
+"hash": |-
+  70683c6baf051d9fa74c780565407c9c67a5be54a4a64faf63e6cf2aebe2f242
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     x509Certificate BAG-TYPE ::=
+         {OCTET STRING IDENTIFIED BY {certTypes 1}}
+         -- DER-encoded X.509 certificate stored in OCTET STRING
+     sdsiCertificate BAG-TYPE ::=
+         {IA5String IDENTIFIED BY {certTypes 2}}
+         -- Base64-encoded SDSI certificate stored in IA5String
+"fixed": |-
+  x509Certificate BAG-TYPE ::=  -   {OCTET STRING IDENTIFIED BY {certTypes 1}} -- DER-encoded X.509 certificate stored in OCTET STRING sdsiCertificate BAG-TYPE ::= {IA5String IDENTIFIED BY {certTypes 2}} -- Base64-encoded SDSI certificate stored in IA5String
+"ko": |-
+  x509Certificate BAG-TYPE ::= - {{certTypes 1}로 식별된 OCTET 문자열} -- OCTET 문자열에 저장된 DER 인코딩된 X.509 인증서 sdsiCertificate BAG-TYPE ::= {{certTypes 2}로 식별된 IA5String} -- IA5String에 저장된 Base64 인코딩된 SDSI 인증서

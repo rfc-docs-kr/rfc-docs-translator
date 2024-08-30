@@ -1,0 +1,16 @@
+"hash": |-
+  c21b907608a143e23196913a31ad53dc6ca540968e6386dc9d4ac5d1a69142b8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     QUIC deployments SHOULD provide mitigations for stream fragmentation
+     attacks.  Mitigations could consist of avoiding overcommitting
+     memory, limiting the size of tracking data structures, delaying
+     reassembly of STREAM frames, implementing heuristics based on the age
+     and duration of reassembly holes, or some combination of these.
+"fixed": |-
+  QUIC deployments SHOULD provide mitigations for stream fragmentation attacks.  Mitigations could consist of avoiding overcommitting memory, limiting the size of tracking data structures, delaying reassembly of STREAM frames, implementing heuristics based on the age and duration of reassembly holes, or some combination of these.
+"ko": |-
+  QUIC 배포는 스트림 조각화 공격에 대한 완화 기능을 제공해야 합니다(SHOULD). 완화 방법은 메모리 오버커밋 방지, 데이터 구조 추적 크기 제한, STREAM 프레임 재조립 지연, 재조립 구멍의 수명과 기간을 기반으로 휴리스틱 구현 또는 이들의 일부 조합으로 구성될 수 있습니다.

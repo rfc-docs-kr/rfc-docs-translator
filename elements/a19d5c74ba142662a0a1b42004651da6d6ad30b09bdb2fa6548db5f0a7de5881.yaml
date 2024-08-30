@@ -1,0 +1,23 @@
+"hash": |-
+  a19d5c74ba142662a0a1b42004651da6d6ad30b09bdb2fa6548db5f0a7de5881
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The first step of pre-processing is to remove ambiguities that may
+     arise due to internationalization.  Each character-based password or
+     passphrase MUST be pre-processed to remove that ambiguity by
+     processing the character-based password or passphrase according to
+     the rules of the SASLprep [RFC4013] profile of [RFC3454].  The
+     password or passphrase SHALL be considered a "stored string" per
+     [RFC3454], and unassigned code points are therefore prohibited.  The
+     output SHALL be the binary representation of the processed UTF-8
+     character string.  Prohibited output and unassigned codepoints
+     encountered in SASLprep pre-processing SHALL cause a failure of pre-
+     processing, and the output SHALL NOT be used with Secure PSK
+     Authentication.
+"fixed": |-
+  The first step of pre-processing is to remove ambiguities that may arise due to internationalization.  Each character-based password or passphrase MUST be pre-processed to remove that ambiguity by processing the character-based password or passphrase according to the rules of the SASLprep [RFC4013] profile of [RFC3454].  The password or passphrase SHALL be considered a "stored string" per [RFC3454], and unassigned code points are therefore prohibited.  The output SHALL be the binary representation of the processed UTF-8 character string.  Prohibited output and unassigned codepoints encountered in SASLprep pre-processing SHALL cause a failure of pre- processing, and the output SHALL NOT be used with Secure PSK Authentication.
+"ko": |-
+  전처리의 첫 번째 단계는 국제화로 인해 발생할 수 있는 모호성을 제거하는 것입니다.  각 문자 기반 비밀번호 또는 비밀번호 문구는 [RFC3454]의 SASLprep [RFC4013] 프로필 규칙에 따라 문자 기반 비밀번호 또는 비밀번호 문구를 처리하여 모호성을 제거하기 위해 사전 처리되어야 합니다.  비밀번호 또는 패스프레이즈는 [RFC3454]에 따라 "저장된 문자열"로 간주되므로 할당되지 않은 코드 포인트는 금지됩니다.  출력은 처리된 UTF-8 문자열의 이진 표현이어야 합니다.  SASLprep 사전 처리에서 발견된 금지된 출력 및 할당되지 않은 코드 포인트는 사전 처리 실패를 야기해야 하며 출력은 보안 PSK 인증과 함께 사용되어서는 안 됩니다.

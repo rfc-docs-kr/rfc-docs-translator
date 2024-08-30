@@ -1,0 +1,19 @@
+"hash": |-
+  7bb7c482903dc23a4439b460debf07bac96cbc91811a0c9cfc808c26a53c41b6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The raison d'etre for the unencrypted option is that some governments
+     restrict certain uses of cryptography.  Having several parts in an
+     AuthenticatedSafe keeps implementers' options open.  For example, it
+     may be the case that strong cryptography can be used to make PKCS
+     #8-shrouded keys, but then these shrouded keys should not be further
+     encrypted, because super-encryption can limit a product's
+     exportability.  The multi-part AuthenticatedSafe design permits this
+     possibility.
+"fixed": |-
+  The raison d'etre for the unencrypted option is that some governments restrict certain uses of cryptography.  Having several parts in an AuthenticatedSafe keeps implementers' options open.  For example, it may be the case that strong cryptography can be used to make PKCS #8-shrouded keys, but then these shrouded keys should not be further encrypted, because super-encryption can limit a product's exportability.  The multi-part AuthenticatedSafe design permits this possibility.
+"ko": |-
+  암호화되지 않은 옵션의 존재 이유는 일부 정부가 암호화의 특정 사용을 제한하기 때문입니다. AuthenticatedSafe에 여러 부분이 있으면 구현자의 옵션이 열려 있습니다. 예를 들어, 강력한 암호화를 사용하여 PKCS #8-shrouded 키를 만들 수 있지만 이러한 shrouded 키는 더 이상 암호화되어서는 안 됩니다. 슈퍼 암호화가 제품의 수출 가능성을 제한할 수 있기 때문입니다. 다중 부분 AuthenticatedSafe 설계는 이러한 가능성을 허용합니다.

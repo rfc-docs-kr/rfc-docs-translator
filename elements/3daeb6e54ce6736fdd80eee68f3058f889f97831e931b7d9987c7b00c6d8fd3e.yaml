@@ -1,0 +1,19 @@
+"hash": |-
+  3daeb6e54ce6736fdd80eee68f3058f889f97831e931b7d9987c7b00c6d8fd3e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Aside from responses to CONNECT, a 200 response is expected to
+     contain message content unless the message framing explicitly
+     indicates that the content has zero length.  If some aspect of the
+     request indicates a preference for no content upon success, the
+     origin server ought to send a 204 (No Content) response instead.  For
+     CONNECT, there is no content because the successful result is a
+     tunnel, which begins immediately after the 200 response header
+     section.
+"fixed": |-
+  Aside from responses to CONNECT, a 200 response is expected to contain message content unless the message framing explicitly indicates that the content has zero length.  If some aspect of the request indicates a preference for no content upon success, the origin server ought to send a 204 (No Content) response instead.  For CONNECT, there is no content because the successful result is a tunnel, which begins immediately after the 200 response header section.
+"ko": |-
+  CONNECT에 대한 응답 외에도 메시지 프레이밍에서 내용의 길이가 0임을 명시적으로 나타내지 않는 한 200 응답에는 메시지 내용이 포함될 것으로 예상됩니다. 요청의 일부 측면에서 성공 시 콘텐츠 없음을 선호하는 것으로 나타나면 원본 서버는 대신 204(No Content) 응답을 보내야 합니다. CONNECT의 경우 성공적인 결과는 200 응답 헤더 섹션 바로 다음에 시작되는 터널이므로 콘텐츠가 없습니다.

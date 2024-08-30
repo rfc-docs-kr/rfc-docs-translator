@@ -1,0 +1,15 @@
+"hash": |-
+  6f860688b1416cf30fdccb1d311efc2b7e171496ddc74f531889fa730857bb3d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  The LEN bit (0x02) in the frame type is set to indicate that there
+        is a Length field present.  If this bit is set to 0, the Length
+        field is absent and the Stream Data field extends to the end of
+        the packet.  If this bit is set to 1, the Length field is present.
+"fixed": |-
+  *  The LEN bit (0x02) in the frame type is set to indicate that there is a Length field present.  If this bit is set to 0, the Length field is absent and the Stream Data field extends to the end of the packet.  If this bit is set to 1, the Length field is present.
+"ko": |-
+  * 프레임 타입의 LEN 비트(0x02)는 길이 필드가 있음을 나타내기 위해 설정됩니다. 이 비트가 0으로 설정되면 길이 필드가 없고 스트림 데이터 필드가 패킷 끝까지 확장됩니다. 이 비트가 1로 설정되면 길이 필드가 존재합니다.

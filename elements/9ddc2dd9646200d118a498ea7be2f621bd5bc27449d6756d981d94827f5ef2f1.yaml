@@ -1,0 +1,16 @@
+"hash": |-
+  9ddc2dd9646200d118a498ea7be2f621bd5bc27449d6756d981d94827f5ef2f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the SET-PARAMS method contains this header field, it MUST also
+     contain a message body containing the recognizer context data and a
+     Content-ID matching this header field value.  This Content-ID MUST
+     match the Content-ID that came with the context data during the
+     GET-PARAMS operation.
+"fixed": |-
+  If the SET-PARAMS method contains this header field, it MUST also contain a message body containing the recognizer context data and a Content-ID matching this header field value.  This Content-ID MUST match the Content-ID that came with the context data during the GET-PARAMS operation.
+"ko": |-
+  SET-PARAMS 메서드에 이 헤더 필드가 포함된 경우, 인식기 컨텍스트 데이터와 이 헤더 필드 값과 일치하는 Content-ID를 포함하는 메시지 본문도 포함해야 합니다. 이 Content-ID는 GET-PARAMS 작업 중에 컨텍스트 데이터와 함께 제공된 Content-ID와 일치해야 합니다.

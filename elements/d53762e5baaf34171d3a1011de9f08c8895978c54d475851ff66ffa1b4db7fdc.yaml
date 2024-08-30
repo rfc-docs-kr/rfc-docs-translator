@@ -1,0 +1,23 @@
+"hash": |-
+  d53762e5baaf34171d3a1011de9f08c8895978c54d475851ff66ffa1b4db7fdc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     UASs using the offer/answer exchange that will carry regular media
+     for sending and receiving early media can cause media clipping, as
+     described in Section 2.1.1 of [8].  Some UACs cannot receive early
+     media from different UASs at the same time.  So, when an INVITE forks
+     and several UASs start sending early media, the UAC mutes all the
+     UASs but one (which is usually chosen at random).  If the UAS that
+     accepts the INVITE (i.e., sends a 200 OK) was muted, a new
+     offer/answer exchange is needed to unmute it.  This usually causes
+     media clipping.  Therefore, UASs need a means of performing an
+     offer/answer exchange with the UAC to exchange early media that is
+     independent from the offer/answer exchanged used to exchange regular
+     media.
+"fixed": |-
+  UASs using the offer/answer exchange that will carry regular media for sending and receiving early media can cause media clipping, as described in Section 2.1.1 of [8].  Some UACs cannot receive early media from different UASs at the same time.  So, when an INVITE forks and several UASs start sending early media, the UAC mutes all the UASs but one (which is usually chosen at random).  If the UAS that accepts the INVITE (i.e., sends a 200 OK) was muted, a new offer/answer exchange is needed to unmute it.  This usually causes media clipping.  Therefore, UASs need a means of performing an offer/answer exchange with the UAC to exchange early media that is independent from the offer/answer exchanged used to exchange regular media.
+"ko": |-
+  [8]의 섹션 2.1.1에 설명된 대로 조기 미디어를 전송하고 수신하기 위해 일반 미디어를 전달하는 제공/답변 교환을 사용하는 UAS는 미디어 클리핑을 일으킬 수 있습니다.일부 UAC는 동시에 다른 UAS에서 조기 미디어를 수신할 수 없습니다.따라서 INVITE가 포크되고 여러 UAS가 조기 미디어를 보내기 시작하면 UAC는 일반적으로 무작위로 선택되는 하나를 제외한 모든 UAS를 음소거합니다.INVITE를 수락하는 UAS(즉, 200 OK를 보내는 UAS)가 음소거된 경우 음소거를 해제하기 위해 새로운 제공/답변 교환이 필요합니다.이로 인해 일반적으로 미디어 클리핑이 발생합니다.따라서 UAS는 일반 미디어를 교환하는 데 사용되는 제공/답변 교환과 독립적인 조기 미디어를 교환하기 위해 UAC와 제공/답변 교환을 수행하는 수단이 필요합니다.

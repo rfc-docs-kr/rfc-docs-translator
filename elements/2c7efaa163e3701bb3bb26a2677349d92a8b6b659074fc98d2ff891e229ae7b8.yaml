@@ -1,0 +1,15 @@
+"hash": |-
+  2c7efaa163e3701bb3bb26a2677349d92a8b6b659074fc98d2ff891e229ae7b8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server MUST NOT remove a Media Segment from a Playlist file
+     without an EXT-X-ENDLIST tag if that would produce a Playlist whose
+     duration is less than three times the target duration.  Doing so can
+     trigger playback stalls.
+"fixed": |-
+  The server MUST NOT remove a Media Segment from a Playlist file without an EXT-X-ENDLIST tag if that would produce a Playlist whose duration is less than three times the target duration.  Doing so can trigger playback stalls.
+"ko": |-
+  지속 시간이 목표 지속 시간의 3배 미만인 재생 목록을 생성하는 경우 서버는 EXT-X-ENDLIST 태그 없이 재생 목록 파일에서 미디어 세그먼트를 제거해서는 안 됩니다. 그렇게 하면 재생이 중단될 수 있습니다.

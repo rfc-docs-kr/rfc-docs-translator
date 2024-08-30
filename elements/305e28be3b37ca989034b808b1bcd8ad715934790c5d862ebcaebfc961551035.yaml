@@ -1,0 +1,26 @@
+"hash": |-
+  305e28be3b37ca989034b808b1bcd8ad715934790c5d862ebcaebfc961551035
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For recvonly and sendrecv streams, the port number and address in the
+     offer indicate where the offerer would like to receive the media
+     stream.  For sendonly RTP streams, the address and port number
+     indirectly indicate where the offerer wants to receive RTCP reports.
+     Unless there is an explicit indication otherwise, reports are sent to
+     the port number one higher than the number indicated.  The IP address
+     and port present in the offer indicate nothing about the source IP
+     address and source port of RTP and RTCP packets that will be sent by
+     the offerer.  A port number of zero in the offer indicates that the
+     stream is offered but MUST NOT be used.  This has no useful semantics
+     in an initial offer, but is allowed for reasons of completeness,
+     since the answer can contain a zero port indicating a rejected stream
+     (Section 6).  Furthermore, existing streams can be terminated by
+     setting the port to zero (Section 8).  In general, a port number of
+     zero indicates that the media stream is not wanted.
+"fixed": |-
+  For recvonly and sendrecv streams, the port number and address in the offer indicate where the offerer would like to receive the media stream.  For sendonly RTP streams, the address and port number indirectly indicate where the offerer wants to receive RTCP reports. Unless there is an explicit indication otherwise, reports are sent to the port number one higher than the number indicated.  The IP address and port present in the offer indicate nothing about the source IP address and source port of RTP and RTCP packets that will be sent by the offerer.  A port number of zero in the offer indicates that the stream is offered but MUST NOT be used.  This has no useful semantics in an initial offer, but is allowed for reasons of completeness, since the answer can contain a zero port indicating a rejected stream (Section 6).  Furthermore, existing streams can be terminated by setting the port to zero (Section 8).  In general, a port number of zero indicates that the media stream is not wanted.
+"ko": |-
+  recvonly 및 sendrecv 스트림의 경우, 제공자의 포트 번호와 주소는 제공자가 미디어 스트림을 수신하고자 하는 위치를 나타냅니다. sendonly RTP 스트림의 경우, 주소와 포트 번호는 제공자가 RTCP 보고서를 수신하고자 하는 위치를 간접적으로 나타냅니다. 달리 명시적으로 표시되지 않는 한, 보고서는 표시된 번호보다 하나 높은 포트 번호로 전송됩니다. 제공자에 있는 IP 주소와 포트는 제공자가 보낼 RTP 및 RTCP 패킷의 소스 IP 주소와 소스 포트에 대해 아무것도 나타내지 않습니다. 제공자의 포트 번호가 0이면 스트림이 제공되지만 사용되어서는 안 됨을 나타냅니다. 이는 초기 제공에서 유용한 의미가 없지만, 답변에 거부된 스트림을 나타내는 0 포트가 포함될 수 있기 때문에 완전성을 위해 허용됩니다(섹션 6). 또한 포트를 0으로 설정하여 기존 스트림을 종료할 수 있습니다(섹션 8). 일반적으로 포트 번호가 0이면 미디어 스트림이 필요하지 않음을 나타냅니다.

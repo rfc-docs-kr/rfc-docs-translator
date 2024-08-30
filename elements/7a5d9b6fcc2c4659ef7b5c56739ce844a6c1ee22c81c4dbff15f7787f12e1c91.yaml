@@ -1,0 +1,26 @@
+"hash": |-
+  7a5d9b6fcc2c4659ef7b5c56739ce844a6c1ee22c81c4dbff15f7787f12e1c91
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |-
+  As before, we first consider the Ethernet case.  The user is  now
+  writing data to TCP in 512 byte blocks as fast as TCP will accept
+  them.  The user's first write to TCP will start things going; our
+  first  datagram  will  be  512+40  bytes  or 552 bytes long.  The
+  user's second write to TCP will not cause a send but  will  cause
+  the  block  to  be buffered.  Assume that the user fills up TCP's
+  outgoing buffer area before the first ACK comes back.  Then  when
+  the  ACK  comes in, all queued data up to the window size will be
+  sent.  From then on, the window will be kept full,  as  each  ACK
+  initiates  a  sending  cycle  and queued data is sent out.  Thus,
+  after a one round-trip time initial period when only one block is
+  sent,  our  scheme  settles down into a maximum-throughput condi-
+  tion.  The delay in startup is only 50ms on the Ethernet, so  the
+  startup  transient  is  insignificant.  All three schemes provide
+  equivalent performance for this case.
+"fixed": |-
+  As before, we first consider the Ethernet case.  The user is  now writing data to TCP in 512 byte blocks as fast as TCP will accept them.  The user's first write to TCP will start things going; our first  datagram  will  be  512+40  bytes  or 552 bytes long.  The user's second write to TCP will not cause a send but  will  cause the  block  to  be buffered.  Assume that the user fills up TCP's outgoing buffer area before the first ACK comes back.  Then  when the  ACK  comes in, all queued data up to the window size will be sent.  From then on, the window will be kept full,  as  each  ACK initiates  a  sending  cycle  and queued data is sent out.  Thus, after a one round-trip time initial period when only one block is sent,  our  scheme  settles down into a maximum-throughput condi- tion.  The delay in startup is only 50ms on the Ethernet, so  the startup  transient  is  insignificant.  All three schemes provide equivalent performance for this case.
+"ko": |-
+  이전과 마찬가지로 먼저 이더넷 사례를 고려합니다. 이제 사용자는 TCP가 허용하는 속도만큼 빠르게 512바이트 블록으로 TCP에 데이터를 쓰고 있습니다. 사용자가 TCP에 처음으로 쓰기 시작하면 작업이 시작됩니다. 첫 번째 데이터그램의 길이는 512+40바이트 또는 552바이트입니다. 사용자가 TCP에 두 번째로 쓰면 전송이 발생하지 않지만 블록이 버퍼링됩니다. 첫 번째 ACK가 돌아오기 전에 사용자가 TCP의 나가는 버퍼 영역을 가득 채운다고 가정합니다. 그런 다음 ACK가 들어오면 대기 중인 모든 데이터를 창 크기까지 전송합니다. 그때부터 각 ACK가 전송 주기를 시작하고 대기 중인 데이터가 전송되므로 창이 가득 찬 상태로 유지됩니다. 따라서 하나의 블록만 전송되는 1회 왕복 시간 초기 기간 후에 우리의 방식은 최대 처리량 조건으로 정착됩니다. 시작 지연은 이더넷에서 50ms에 불과하므로 시작 과도 현상은 미미합니다. 이 경우 세 가지 방식 모두 동일한 성능을 제공합니다.

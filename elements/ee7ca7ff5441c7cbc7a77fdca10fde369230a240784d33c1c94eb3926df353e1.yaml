@@ -1,0 +1,35 @@
+"hash": |-
+  ee7ca7ff5441c7cbc7a77fdca10fde369230a240784d33c1c94eb3926df353e1
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           3. Encrypt the result using the key, encryption algorithm,
+              and algorithm mode specified for the SA and using any
+              required cryptographic synchronization data.
+                   - If explicit cryptographic synchronization data,
+                     e.g., an IV, is indicated, it is input to the
+                     encryption algorithm per the algorithm specification
+                     and placed in the Payload field.
+                   - If implicit cryptographic synchronization data is
+                     employed, it is constructed and input to the
+                     encryption algorithm as per the algorithm
+                     specification.
+                   - If integrity is selected, encryption is performed
+                     first, before the integrity algorithm is applied, and
+                     the encryption does not encompass the ICV field.
+                     This order of processing facilitates rapid detection
+                     and rejection of replayed or bogus packets by the
+                     receiver, prior to decrypting the packet, hence
+                     potentially reducing the impact of denial of service
+                     (DoS) attacks.  It also allows for the possibility of
+                     parallel processing of packets at the receiver, i.e.,
+                     decryption can take place in parallel with integrity
+                     checking.  Note that because the ICV is not protected
+                     by encryption, a keyed integrity algorithm must be
+                     employed to compute the ICV.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

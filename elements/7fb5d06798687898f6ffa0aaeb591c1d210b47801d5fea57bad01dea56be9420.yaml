@@ -1,0 +1,16 @@
+"hash": |-
+  7fb5d06798687898f6ffa0aaeb591c1d210b47801d5fea57bad01dea56be9420
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server generating a 401 (Unauthorized) response MUST send a
+     WWW-Authenticate header field containing at least one challenge.  A
+     server MAY generate a WWW-Authenticate header field in other response
+     messages to indicate that supplying credentials (or different
+     credentials) might affect the response.
+"fixed": |-
+  A server generating a 401 (Unauthorized) response MUST send a WWW-Authenticate header field containing at least one challenge.  A server MAY generate a WWW-Authenticate header field in other response messages to indicate that supplying credentials (or different credentials) might affect the response.
+"ko": |-
+  401(Unauthorized) 응답을 생성하는 서버는 최소한 하나의 챌린지를 포함하는 WWW-Authenticate 헤더 필드를 보내야 합니다.  서버는 자격 증명(또는 다른 자격 증명)을 제공하면 응답에 영향을 미칠 수 있음을 나타내기 위해 다른 응답 메시지에 WWW-Authenticate 헤더 필드를 생성할 수 있습니다.

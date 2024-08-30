@@ -1,0 +1,22 @@
+"hash": |-
+  4ffab9f0f568e869d29b8b3c29694714d3735b87042b5e6792223ec50460eb39
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  recipientEncryptedKeys includes a recipient identifier and
+        encrypted key for one or more recipients.  The
+        KeyAgreeRecipientIdentifier is a CHOICE with two alternatives
+        specifying the recipient's certificate, and thereby the
+        recipient's public key, that was used by the sender to generate a
+        pairwise key-encryption key.  The encryptedKey is the result of
+        encrypting the content-encryption key or the content-
+        authenticated-encryption key with the second pairwise key-
+        encryption key.  EncryptedKey is an OCTET STRING.  The
+        RecipientEncryptedKeys type is defined in Section 6.2.2 of
+        [RFC5652].
+"fixed": |-
+  *  recipientEncryptedKeys includes a recipient identifier and encrypted key for one or more recipients.  The KeyAgreeRecipientIdentifier is a CHOICE with two alternatives specifying the recipient's certificate, and thereby the recipient's public key, that was used by the sender to generate a pairwise key-encryption key.  The encryptedKey is the result of encrypting the content-encryption key or the content- authenticated-encryption key with the second pairwise key- encryption key.  EncryptedKey is an OCTET STRING.  The RecipientEncryptedKeys type is defined in Section 6.2.2 of [RFC5652].
+"ko": |-
+  * receiveEncryptedKeys에는 수신자 식별자와 한 명 이상의 수신자에 대한 암호화된 키가 포함됩니다.  KeyAgreeRecipientIdentifier는 수신자의 인증서와 수신자의 공개 키를 지정하는 두 가지 대안이 있는 CHOICE입니다. 이는 발신자가 쌍별 키 암호화 키를 생성하는 데 사용했습니다.  암호화된 키는 콘텐츠 암호화 키 또는 콘텐츠 인증 암호화 키를 두 번째 쌍별 키 암호화 키로 암호화한 결과입니다.  EncryptedKey는 OCTET 문자열입니다.  RecipientEncryptedKeys 유형은 [RFC5652]의 섹션 6.2.2에 정의되어 있습니다.

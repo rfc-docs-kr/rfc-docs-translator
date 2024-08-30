@@ -1,0 +1,25 @@
+"hash": |-
+  e828c9fe8caf052031f55c1e82be3d824406aee19b4f1f7d2c8526be271f0836
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Thus, in the initial state, the per-server timer is expired, and a
+     single DHCPLEASEQUERY message is queued for each server.  After the
+     first response to a DHCPLEASEQUERY message, the per-server timer is
+     started.  At that time, multiple DHCPLEASEQUERY messages can be sent
+     in parallel to the DHCP server, though the total number SHOULD be
+     limited to 100 or 200, to avoid swamping the DHCP server.  Each of
+     these messages uses the [RFC2131] exponential backoff algorithm.
+     Every time a response to any of these messages is received, the per-
+     server timer is reset and starts counting again up to one minute.  In
+     the event the per-server timer goes off, then all outstanding
+     messages SHOULD be dropped except for a single DHCPLEASEQUERY message
+     that is used to poll the server at approximately 64-second intervals
+     until such time as another (or the first) response to the
+     DHCPLEASEQUERY is received.
+"fixed": |-
+  Thus, in the initial state, the per-server timer is expired, and a single DHCPLEASEQUERY message is queued for each server.  After the first response to a DHCPLEASEQUERY message, the per-server timer is started.  At that time, multiple DHCPLEASEQUERY messages can be sent in parallel to the DHCP server, though the total number SHOULD be limited to 100 or 200, to avoid swamping the DHCP server.  Each of these messages uses the [RFC2131] exponential backoff algorithm. Every time a response to any of these messages is received, the per- server timer is reset and starts counting again up to one minute.  In the event the per-server timer goes off, then all outstanding messages SHOULD be dropped except for a single DHCPLEASEQUERY message that is used to poll the server at approximately 64-second intervals until such time as another (or the first) response to the DHCPLEASEQUERY is received.
+"ko": |-
+  따라서 초기 상태에서는 서버별 타이머가 만료되고 단일 DHCPLEASEQUERY 메시지가 각 서버에 대해 대기열에 추가됩니다. DHCPLEASEQUERY 메시지에 대한 첫 번째 응답 후 서버별 타이머가 시작됩니다. 이때 여러 개의 DHCPLEASEQUERY 메시지가 DHCP 서버에 병렬로 전송될 수 있지만 DHCP 서버가 쇄도하는 것을 방지하려면 총 개수를 100 또는 200으로 제한해야 합니다. 이러한 각 메시지는 [RFC2131] 지수 백오프 알고리즘을 사용합니다. 이러한 메시지에 대한 응답이 수신될 때마다 서버별 타이머가 재설정되고 최대 1분까지 다시 계산되기 시작합니다. 서버별 타이머가 꺼지는 경우 다른(또는 첫 번째) 응답이 나올 때까지 약 64초 간격으로 서버를 폴링하는 데 사용되는 단일 DHCPLEASEQUERY 메시지를 제외하고 모든 미해결 메시지는 삭제되어야 합니다. DHCPLEASEQUERY가 수신되었습니다.

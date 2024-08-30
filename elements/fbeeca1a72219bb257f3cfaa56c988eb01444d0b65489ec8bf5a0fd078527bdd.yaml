@@ -1,0 +1,18 @@
+"hash": |-
+  fbeeca1a72219bb257f3cfaa56c988eb01444d0b65489ec8bf5a0fd078527bdd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Whether an implementation that supports more than one charset
+        stores the data in the charset supplied by the Client or performs
+        code conversion to one of the other supported charsets depends on
+        implementation.  The strategy should try to minimize loss of
+        information during code conversion.  On each response, such an
+        implementation converts from its internal charset to that
+        requested.
+"fixed": |-
+  - Whether an implementation that supports more than one charset stores the data in the charset supplied by the Client or performs code conversion to one of the other supported charsets depends on implementation.  The strategy should try to minimize loss of information during code conversion.  On each response, such an implementation converts from its internal charset to that requested.
+"ko": |-
+  - 둘 이상의 문자 세트를 지원하는 구현이 클라이언트가 제공한 문자 세트에 데이터를 저장하는지 또는 지원되는 다른 문자 세트 중 하나로 코드 변환을 수행하는지 여부는 구현에 따라 다릅니다. 전략은 코드 변환 중 정보 손실을 최소화하도록 노력해야 합니다. 각 응답에서 이러한 구현은 내부 문자 세트에서 요청된 문자 세트로 변환됩니다.

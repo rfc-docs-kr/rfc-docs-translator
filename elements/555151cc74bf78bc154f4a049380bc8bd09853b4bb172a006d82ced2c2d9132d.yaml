@@ -1,0 +1,18 @@
+"hash": |-
+  555151cc74bf78bc154f4a049380bc8bd09853b4bb172a006d82ced2c2d9132d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The SET-PARAMS method, from the client to the server, tells the
+     MRCPv2 resource to define parameters for the session, such as voice
+     characteristics and prosody on synthesizers, recognition timers on
+     recognizers, etc.  If the server accepts and sets all parameters, it
+     MUST return a response status-code of 200.  If it chooses to ignore
+     some optional header fields that can be safely ignored without
+     affecting operation of the server, it MUST return 201.
+"fixed": |-
+  The SET-PARAMS method, from the client to the server, tells the MRCPv2 resource to define parameters for the session, such as voice characteristics and prosody on synthesizers, recognition timers on recognizers, etc.  If the server accepts and sets all parameters, it MUST return a response status-code of 200.  If it chooses to ignore some optional header fields that can be safely ignored without affecting operation of the server, it MUST return 201.
+"ko": |-
+  클라이언트에서 서버로의 SET-PARAMS 메서드는 MRCPv2 리소스에 세션에 대한 매개변수를 정의하도록 지시합니다. 여기에는 신디사이저의 음성 특성 및 음조, 인식기의 인식 타이머 등이 포함됩니다. 서버가 모든 매개변수를 수락하고 설정하는 경우 응답 상태 코드 200을 반환해야 합니다. 서버 작동에 영향을 미치지 않고 안전하게 무시할 수 있는 일부 선택적 헤더 필드를 무시하도록 선택하는 경우 201을 반환해야 합니다.

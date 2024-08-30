@@ -1,0 +1,31 @@
+"hash": |-
+  a8a517ca98aab1c2e571d9d76981f5124ef5185b5d55c34b65777765a3d12775
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           *  Location:  Disc resident
+           *  Coupling:  Coupled to both a user process virtual space and
+              the
+                            network process virtual space.
+           *  Content: - Input buffer (253 words) for incoming messages
+                        - Output buffer (253 words) for outgoing messages
+                        - Input control zone (6 half words)
+                        - Output control zone (6 half words)
+           *  Structure:  See figure 10.
+           *  Specific feature 1: - The input buffer is filled by the
+                                    Network and emptied by the user.
+                                  - Vice versa for the output buffer.
+           *  Specific feature 2:  The control zone corresponding to a
+                                    primary connection shared page differs
+                                    from that of an auxiliary connection.
+                                    This because it is via a "primary
+                                    connection control zone" that
+                                    auxiliary connection establishment
+                                    requests are transmitted to the
+                                    Network process.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

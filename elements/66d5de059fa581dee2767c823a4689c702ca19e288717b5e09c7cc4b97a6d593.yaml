@@ -1,0 +1,25 @@
+"hash": |-
+  66d5de059fa581dee2767c823a4689c702ca19e288717b5e09c7cc4b97a6d593
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In response to Peers B and C, Peer A sends new datagrams to Peers B
+     and C containing REQUEST messages.  A REQUEST message indicates the
+     chunks that a peer wants to download; thus, it contains a chunk
+     specification.  The REQUEST messages to Peers B and C refer to
+     disjoint sets of chunks.  Peers B and C respond with datagrams
+     containing HAVE, DATA, and, in this example, INTEGRITY messages.  In
+     the Merkle hash tree content protection scheme (see Section 5.1), the
+     INTEGRITY messages contain all cryptographic hashes that Peer A needs
+     to verify the integrity of the content chunk sent in the DATA
+     message.  Using these hashes, Peer A verifies that the chunks
+     received from Peers B and C are correct against the trusted swarm ID.
+     Peer A also updates the chunk availability of Peers B and C using the
+     information in the received HAVE messages.  In addition, it passes
+     the chunks of video to the user's browser for rendering.
+"fixed": |-
+  In response to Peers B and C, Peer A sends new datagrams to Peers B and C containing REQUEST messages.  A REQUEST message indicates the chunks that a peer wants to download; thus, it contains a chunk specification.  The REQUEST messages to Peers B and C refer to disjoint sets of chunks.  Peers B and C respond with datagrams containing HAVE, DATA, and, in this example, INTEGRITY messages.  In the Merkle hash tree content protection scheme (see Section 5.1), the INTEGRITY messages contain all cryptographic hashes that Peer A needs to verify the integrity of the content chunk sent in the DATA message.  Using these hashes, Peer A verifies that the chunks received from Peers B and C are correct against the trusted swarm ID. Peer A also updates the chunk availability of Peers B and C using the information in the received HAVE messages.  In addition, it passes the chunks of video to the user's browser for rendering.
+"ko": |-
+  피어 B와 C에 대한 응답으로 피어 A는 REQUEST 메시지가 포함된 새 데이터그램을 피어 B와 C에 보냅니다. REQUEST 메시지는 피어가 다운로드하려는 청크를 나타냅니다. 따라서 여기에는 청크 사양이 포함됩니다. 피어 B와 C에 대한 REQUEST 메시지는 분리된 청크 세트를 참조합니다. 피어 B와 C는 HAVE, DATA 및 이 예에서는 INTEGRITY 메시지를 포함하는 데이터그램으로 응답합니다. Merkle 해시 트리 콘텐츠 보호 체계(섹션 5.1 참조)에서 INTEGRITY 메시지에는 피어 A가 DATA 메시지로 전송된 콘텐츠 청크의 무결성을 확인하는 데 필요한 모든 암호화 해시가 포함되어 있습니다. 이러한 해시를 사용하여 피어 A는 피어 B와 C로부터 수신된 청크가 신뢰할 수 있는 떼 ID에 대해 올바른지 확인합니다. 또한 피어 A는 수신된 HAVE 메시지의 정보를 사용하여 피어 B와 C의 청크 가용성을 업데이트합니다. 또한 렌더링을 위해 비디오 청크를 사용자 브라우저에 전달합니다.

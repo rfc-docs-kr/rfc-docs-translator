@@ -1,0 +1,27 @@
+"hash": |-
+  81f502bb8631f58096e46e33651a904ff174a82334f0762376555b11041e91f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        For example, the "job-name" attribute MAY be supplied by the
+        Client in a Job Creation request.  The text value for this
+        attribute will be in the natural language identified by the
+        "attribute-natural-language" attribute, or if different, as
+        identified by the Natural Language Override mechanism.  If
+        supplied, the IPP object will use the value of the "job-name"
+        attribute to populate the Job's "job-name" attribute.  Whenever
+        any Client queries the Job's "job-name" attribute, the IPP object
+        returns the attribute as stored and uses the Natural Language
+        Override mechanism to specify the natural language, if it is
+        different from that reported in the "attributes-natural-language"
+        operation attribute of the response.  The IPP object MAY use the
+        Natural Language Override mechanism redundantly, i.e., use it even
+        when the value is in the same natural language as the value
+        supplied in the "attributes-natural-language" operation attribute
+        of the response.
+"fixed": |-
+  - For example, the "job-name" attribute MAY be supplied by the Client in a Job Creation request.  The text value for this attribute will be in the natural language identified by the "attribute-natural-language" attribute, or if different, as identified by the Natural Language Override mechanism.  If supplied, the IPP object will use the value of the "job-name" attribute to populate the Job's "job-name" attribute.  Whenever any Client queries the Job's "job-name" attribute, the IPP object returns the attribute as stored and uses the Natural Language Override mechanism to specify the natural language, if it is different from that reported in the "attributes-natural-language" operation attribute of the response.  The IPP object MAY use the Natural Language Override mechanism redundantly, i.e., use it even when the value is in the same natural language as the value supplied in the "attributes-natural-language" operation attribute of the response.
+"ko": |-
+  - 예를 들어 "job-name" 속성은 작업 생성 요청에서 클라이언트에 의해 제공될 수 있습니다. 이 속성의 텍스트 값은 "속성-자연어" 속성으로 식별되는 자연 언어로 표시되거나, 다른 경우 자연 언어 재정의 메커니즘으로 식별됩니다. 제공된 경우 IPP 개체는 "작업 이름" 속성 값을 사용하여 작업의 "작업 이름" 속성을 채웁니다. 클라이언트가 작업의 "작업 이름" 속성을 쿼리할 때마다 IPP 객체는 저장된 속성을 반환하고 "속성 자연 언어"에 보고된 것과 다른 경우 자연어 재정의 메커니즘을 사용하여 자연어를 지정합니다. 응답의 작업 속성입니다. IPP 객체는 자연어 재정의 메커니즘을 중복적으로 사용할 수 있습니다. 즉, 값이 응답의 "속성-자연어" 작업 속성에 제공된 값과 동일한 자연어인 경우에도 이를 사용할 수 있습니다.

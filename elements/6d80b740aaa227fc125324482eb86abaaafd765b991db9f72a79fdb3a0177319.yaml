@@ -1,0 +1,17 @@
+"hash": |-
+  6d80b740aaa227fc125324482eb86abaaafd765b991db9f72a79fdb3a0177319
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If all of the header fields requested are supported, the server MUST
+     return a response status-code of 200.  If some of the header fields
+     being retrieved are unsupported for the resource, the server MUST
+     reject the request with a 403 Unsupported Header Field.  Such a
+     response MUST include the unsupported header fields exactly as they
+     were sent from the client, without values.
+"fixed": |-
+  If all of the header fields requested are supported, the server MUST return a response status-code of 200.  If some of the header fields being retrieved are unsupported for the resource, the server MUST reject the request with a 403 Unsupported Header Field.  Such a response MUST include the unsupported header fields exactly as they were sent from the client, without values.
+"ko": |-
+  요청된 모든 헤더 필드가 지원되는 경우 서버는 반드시 응답 상태 코드 200을 반환해야 합니다. 검색되는 헤더 필드 중 일부가 리소스에 지원되지 않는 경우 서버는 반드시 403 지원되지 않는 헤더 필드로 요청을 거부해야 합니다. 이러한 응답에는 클라이언트에서 보낸 그대로 값이 없는 지원되지 않는 헤더 필드가 포함되어야 합니다.

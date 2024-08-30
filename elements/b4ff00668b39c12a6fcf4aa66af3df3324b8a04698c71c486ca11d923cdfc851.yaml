@@ -1,0 +1,20 @@
+"hash": |-
+  b4ff00668b39c12a6fcf4aa66af3df3324b8a04698c71c486ca11d923cdfc851
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A synchronizing literal is a sequence of zero or more octets
+     (including CR and LF), prefix-quoted with an octet count in the form
+     of an open brace ("{"), the number of octets, a close brace ("}"),
+     and a CRLF.  In the case of synchronizing literals transmitted from
+     server to client, the CRLF is immediately followed by the octet data.
+     In the case of synchronizing literals transmitted from client to
+     server, the client MUST wait to receive a command continuation
+     request (described later in this document) before sending the octet
+     data (and the remainder of the command).
+"fixed": |-
+  A synchronizing literal is a sequence of zero or more octets (including CR and LF), prefix-quoted with an octet count in the form of an open brace ("{"), the number of octets, a close brace ("}"), and a CRLF.  In the case of synchronizing literals transmitted from server to client, the CRLF is immediately followed by the octet data. In the case of synchronizing literals transmitted from client to server, the client MUST wait to receive a command continuation request (described later in this document) before sending the octet data (and the remainder of the command).
+"ko": |-
+  동기화 리터럴은 여는 중괄호("{"), 옥텟 수, 닫는 중괄호("}" 형식의 옥텟 수로 접두사로 묶인 0개 이상의 옥텟(CR 및 LF 포함) 시퀀스입니다. ) 및 CRLF.  서버에서 클라이언트로 전송되는 리터럴을 동기화하는 경우 CRLF 바로 뒤에 옥텟 데이터가 옵니다. 클라이언트에서 서버로 전송된 리터럴을 동기화하는 경우 클라이언트는 옥텟 데이터(및 명령의 나머지 부분)를 보내기 전에 명령 연속 요청(이 문서의 뒷부분에 설명됨)을 수신할 때까지 기다려야 합니다.

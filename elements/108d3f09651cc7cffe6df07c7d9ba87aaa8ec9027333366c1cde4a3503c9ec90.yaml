@@ -1,0 +1,19 @@
+"hash": |-
+  108d3f09651cc7cffe6df07c7d9ba87aaa8ec9027333366c1cde4a3503c9ec90
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A peer that wants to send a chunk of content creates a datagram that
+     MUST contain a SIGNED_INTEGRITY message with the chunk's signature,
+     followed by a DATA message with the actual chunk.  If the
+     SIGNED_INTEGRITY message and DATA message cannot be contained into a
+     single datagram, because of a limitation on datagram size, the
+     SIGNED_INTEGRITY message MUST be sent first in a separate datagram.
+     The SIGNED_INTEGRITY message consists of the chunk specification, the
+     timestamp, and the digital signature.
+"fixed": |-
+  A peer that wants to send a chunk of content creates a datagram that MUST contain a SIGNED_INTEGRITY message with the chunk's signature, followed by a DATA message with the actual chunk.  If the SIGNED_INTEGRITY message and DATA message cannot be contained into a single datagram, because of a limitation on datagram size, the SIGNED_INTEGRITY message MUST be sent first in a separate datagram. The SIGNED_INTEGRITY message consists of the chunk specification, the timestamp, and the digital signature.
+"ko": |-
+  콘텐츠 청크를 전송하려는 피어는 청크의 서명이 포함된 SIGNED_INTEGRITY 메시지와 실제 청크가 포함된 DATA 메시지를 포함해야 하는 데이터그램을 생성합니다. SIGNED_INTEGRITY 메시지와 DATA 메시지가 데이터그램 크기 제한으로 인해 단일 데이터그램에 포함될 수 없는 경우 SIGNED_INTEGRITY 메시지는 먼저 별도의 데이터그램으로 전송되어야 합니다. SIGNED_INTEGRITY 메시지는 청크 사양, 타임스탬프, 디지털 서명으로 구성됩니다.

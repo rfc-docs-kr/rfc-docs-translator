@@ -1,0 +1,17 @@
+"hash": |-
+  4cd28796ca6ee5dea5efd906f3f284956f026988755a07e313ce3bec6be376a3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the stream is in the "Recv" or "Size Known" state, the transport
+     SHOULD signal this by sending a STOP_SENDING frame to prompt closure
+     of the stream in the opposite direction.  This typically indicates
+     that the receiving application is no longer reading data it receives
+     from the stream, but it is not a guarantee that incoming data will be
+     ignored.
+"fixed": |-
+  If the stream is in the "Recv" or "Size Known" state, the transport SHOULD signal this by sending a STOP_SENDING frame to prompt closure of the stream in the opposite direction.  This typically indicates that the receiving application is no longer reading data it receives from the stream, but it is not a guarantee that incoming data will be ignored.
+"ko": |-
+  스트림이 "Recv" 또는 "Size Known" 상태인 경우 전송은 STOP_SENDING 프레임을 전송하여 반대 방향의 스트림 폐쇄를 프롬프트함으로써 이를 신호해야 합니다. 이는 일반적으로 수신 애플리케이션이 더 이상 스트림에서 수신하는 데이터를 읽지 않음을 나타내지만, 수신 데이터가 무시된다는 보장은 없습니다.

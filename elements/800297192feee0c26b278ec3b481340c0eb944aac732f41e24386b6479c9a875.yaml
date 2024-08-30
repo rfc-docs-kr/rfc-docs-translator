@@ -1,0 +1,16 @@
+"hash": |-
+  800297192feee0c26b278ec3b481340c0eb944aac732f41e24386b6479c9a875
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the UPDATE message contains a non-empty WITHDRAWN ROUTES field,
+     the previously advertised routes, whose destinations (expressed as IP
+     prefixes) are contained in this field, SHALL be removed from the
+     Adj-RIB-In.  This BGP speaker SHALL run its Decision Process because
+     the previously advertised route is no longer available for use.
+"fixed": |-
+  If the UPDATE message contains a non-empty WITHDRAWN ROUTES field, the previously advertised routes, whose destinations (expressed as IP prefixes) are contained in this field, SHALL be removed from the Adj-RIB-In.  This BGP speaker SHALL run its Decision Process because the previously advertised route is no longer available for use.
+"ko": |-
+  UPDATE 메시지가 비어 있지 않은 WITHDRAWN ROUTES 필드를 포함하는 경우, 목적지(IP 접두사로 표현됨)가 이 필드에 포함되어 있는 이전에 광고된 경로는 Adj-RIB-In에서 제거되어야 합니다. 이전에 광고된 경로를 더 이상 사용할 수 없기 때문에 이 BGP 스피커는 결정 프로세스를 실행해야 합니다.

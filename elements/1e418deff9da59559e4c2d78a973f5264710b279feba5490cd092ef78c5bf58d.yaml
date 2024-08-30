@@ -1,0 +1,23 @@
+"hash": |-
+  1e418deff9da59559e4c2d78a973f5264710b279feba5490cd092ef78c5bf58d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An origin server MUST NOT send a validator field (Section 8.8), such
+     as an ETag or Last-Modified field, in a successful response to PUT
+     unless the request's representation data was saved without any
+     transformation applied to the content (i.e., the resource's new
+     representation data is identical to the content received in the PUT
+     request) and the validator field value reflects the new
+     representation.  This requirement allows a user agent to know when
+     the representation it sent (and retains in memory) is the result of
+     the PUT, and thus it doesn't need to be retrieved again from the
+     origin server.  The new validator(s) received in the response can be
+     used for future conditional requests in order to prevent accidental
+     overwrites (Section 13.1).
+"fixed": |-
+  An origin server MUST NOT send a validator field (Section 8.8), such as an ETag or Last-Modified field, in a successful response to PUT unless the request's representation data was saved without any transformation applied to the content (i.e., the resource's new representation data is identical to the content received in the PUT request) and the validator field value reflects the new representation.  This requirement allows a user agent to know when the representation it sent (and retains in memory) is the result of the PUT, and thus it doesn't need to be retrieved again from the origin server.  The new validator(s) received in the response can be used for future conditional requests in order to prevent accidental overwrites (Section 13.1).
+"ko": |-
+  요청의 표현 데이터가 콘텐츠(즉, 리소스의 새로운 표현 데이터는 PUT 요청에서 수신된 콘텐츠와 동일하며 유효성 검사기 필드 값은 새로운 표현을 반영합니다. 이 요구 사항을 통해 사용자 에이전트는 보낸 표현(및 메모리에 유지하는)이 언제 PUT의 결과인지 알 수 있으므로 원본 서버에서 다시 검색할 필요가 없습니다. 실수로 덮어쓰는 것을 방지하기 위해 응답으로 수신된 새 유효성 검사기를 향후 조건부 요청에 사용할 수 있습니다(13.1절).

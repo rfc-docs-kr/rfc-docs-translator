@@ -1,0 +1,22 @@
+"hash": |-
+  d74173b394c106bfa141c74f308b49e73bdf8071b08fa7283470b86716652f9b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The DHCPLEASEUNASSIGNED or DHCPLEASEACTIVE message reply must always
+     contain the IP address in the "ciaddr" field.  The DHCPLEASEACTIVE
+     message SHOULD contain the physical address of the IP address lease
+     owner in the "htype", "hlen", and "chaddr" fields.  The Parameter
+     Request List (option 55) can be used to request specific options to
+     be returned about the IP address in the ciaddr.  The reply often
+     contains the time until expiration of the lease, and the original
+     contents of the Relay Agent Information option [RFC3046].  The access
+     concentrator uses the "chaddr" field and Relay Agent Information
+     option to construct location information, which can be cached on the
+     access concentrator until lease expiration.
+"fixed": |-
+  The DHCPLEASEUNASSIGNED or DHCPLEASEACTIVE message reply must always contain the IP address in the "ciaddr" field.  The DHCPLEASEACTIVE message SHOULD contain the physical address of the IP address lease owner in the "htype", "hlen", and "chaddr" fields.  The Parameter Request List (option 55) can be used to request specific options to be returned about the IP address in the ciaddr.  The reply often contains the time until expiration of the lease, and the original contents of the Relay Agent Information option [RFC3046].  The access concentrator uses the "chaddr" field and Relay Agent Information option to construct location information, which can be cached on the access concentrator until lease expiration.
+"ko": |-
+  DHCPLEASEUNASSIGNED 또는 DHCPLEASEACTIVE 메시지 응답에는 항상 "ciaddr" 필드에 IP 주소가 포함되어야 합니다. DHCPLEASEACTIVE 메시지는 "htype", "hlen" 및 "chaddr" 필드에 IP 주소 임대 소유자의 물리적 주소를 포함해야 합니다. 매개변수 요청 목록(옵션 55)은 ciaddr의 IP 주소에 대해 반환될 특정 옵션을 요청하는 데 사용될 수 있습니다. 응답에는 임대 만료까지의 시간과 Relay Agent Information 옵션 [RFC3046]의 원래 내용이 포함되는 경우가 많습니다. 액세스 집중 장치는 "chaddr" 필드와 릴레이 에이전트 정보 옵션을 사용하여 임대가 만료될 때까지 액세스 집중 장치에 캐시될 수 있는 위치 정보를 구성합니다.

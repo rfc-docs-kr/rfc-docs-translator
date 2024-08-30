@@ -1,0 +1,15 @@
+"hash": |-
+  e5185eede810835443e613f1909276ef5807b187d69ad94516ddab82544abfdd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  TLS servers MAY continue to accept ClientHello messages in the
+        version 2 CLIENT-HELLO format as specified in RFC 5246 [TLS1.2],
+        Appendix E.2.  Note that this does not contradict the prohibition
+        against actually negotiating the use of SSL 2.0.
+"fixed": |-
+  -  TLS servers MAY continue to accept ClientHello messages in the version 2 CLIENT-HELLO format as specified in RFC 5246 [TLS1.2], Appendix E.2.  Note that this does not contradict the prohibition against actually negotiating the use of SSL 2.0.
+"ko": |-
+  - TLS 서버는 RFC 5246 [TLS1.2], 부록 E.2에 지정된 대로 버전 2 CLIENT-HELLO 형식의 ClientHello 메시지를 계속해서 받아들일 수 있습니다. 이는 실제로 SSL 2.0 사용을 협상하는 것을 금지하는 것과 모순되지 않습니다.

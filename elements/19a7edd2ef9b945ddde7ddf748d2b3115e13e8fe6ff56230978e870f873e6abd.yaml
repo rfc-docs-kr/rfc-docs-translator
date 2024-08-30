@@ -1,0 +1,21 @@
+"hash": |-
+  19a7edd2ef9b945ddde7ddf748d2b3115e13e8fe6ff56230978e870f873e6abd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        |  *Note:* The original proposal for the 300 status code defined
+        |  the URI header field as providing a list of alternative
+        |  representations, such that it would be usable for 200, 300, and
+        |  406 responses and be transferred in responses to the HEAD
+        |  method.  However, lack of deployment and disagreement over
+        |  syntax led to both URI and Alternates (a subsequent proposal)
+        |  being dropped from this specification.  It is possible to
+        |  communicate the list as a Link header field value [RFC8288]
+        |  whose members have a relationship of "alternate", though
+        |  deployment is a chicken-and-egg problem.
+"fixed": |-
+  - |  *Note:* The original proposal for the 300 status code defined |  the URI header field as providing a list of alternative |  representations, such that it would be usable for 200, 300, and |  406 responses and be transferred in responses to the HEAD |  method.  However, lack of deployment and disagreement over |  syntax led to both URI and Alternates (a subsequent proposal) |  being dropped from this specification.  It is possible to |  communicate the list as a Link header field value [RFC8288] |  whose members have a relationship of "alternate", though |  deployment is a chicken-and-egg problem.
+"ko": |-
+  - | *참고:* 정의된 300 상태 코드에 대한 원래 제안 | 대체 목록을 제공하는 URI 헤더 필드 | 200, 300 및 | 406 응답을 수신하고 HEAD | 방법. 그러나 배포 부족 및 의견 불일치 | 구문이 URI와 대체 항목 모두로 이어졌습니다(후속 제안) | 이 사양에서 삭제되었습니다. | 목록을 링크 헤더 필드 값으로 전달합니다. [RFC8288] | 하지만 그 구성원은 "대체" 관계를 가지고 있습니다 | 배포는 닭과 달걀의 문제입니다.

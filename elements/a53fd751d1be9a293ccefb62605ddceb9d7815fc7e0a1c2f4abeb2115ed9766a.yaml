@@ -1,0 +1,20 @@
+"hash": |-
+  a53fd751d1be9a293ccefb62605ddceb9d7815fc7e0a1c2f4abeb2115ed9766a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Prior to validating the client address, servers MUST NOT send more
+     than three times as many bytes as the number of bytes they have
+     received.  This limits the magnitude of any amplification attack that
+     can be mounted using spoofed source addresses.  For the purposes of
+     avoiding amplification prior to address validation, servers MUST
+     count all of the payload bytes received in datagrams that are
+     uniquely attributed to a single connection.  This includes datagrams
+     that contain packets that are successfully processed and datagrams
+     that contain packets that are all discarded.
+"fixed": |-
+  Prior to validating the client address, servers MUST NOT send more than three times as many bytes as the number of bytes they have received.  This limits the magnitude of any amplification attack that can be mounted using spoofed source addresses.  For the purposes of avoiding amplification prior to address validation, servers MUST count all of the payload bytes received in datagrams that are uniquely attributed to a single connection.  This includes datagrams that contain packets that are successfully processed and datagrams that contain packets that are all discarded.
+"ko": |-
+  클라이언트 주소를 검증하기 전에 서버는 수신한 바이트 수의 3배를 초과하는 바이트를 보내서는 안 됩니다. 이는 스푸핑된 소스 주소를 사용하여 탑재될 수 있는 증폭 공격의 규모를 제한합니다. 주소 검증 전에 증폭을 방지하기 위해 서버는 단일 연결에 고유하게 할당된 데이터그램으로 수신된 모든 페이로드 바이트를 계산해야 합니다. 여기에는 성공적으로 처리된 패킷이 포함된 데이터그램과 모두 삭제된 패킷이 포함된 데이터그램이 포함됩니다.

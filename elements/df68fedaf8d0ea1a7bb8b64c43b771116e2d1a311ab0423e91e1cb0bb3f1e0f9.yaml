@@ -1,0 +1,48 @@
+"hash": |-
+  df68fedaf8d0ea1a7bb8b64c43b771116e2d1a311ab0423e91e1cb0bb3f1e0f9
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------------+----------------------+-------------------------+
+     | copies           | copies-default       | copies-supported        |
+     | (integer(1:MAX)) | (integer(1:MAX))     | (rangeOfInteger(1:MAX)) |
+     +------------------+----------------------+-------------------------+
+     | finishings       | finishings-default   | finishings-supported    |
+     | (1setOf type2    | (1setOf type2 enum)  | (1setOf type2 enum)     |
+     | enum)            |                      |                         |
+     +------------------+----------------------+-------------------------+
+     | page-ranges      | No                   | page-ranges-supported   |
+     | (1setOf          |                      | (boolean)               |
+     | rangeOfInteger   |                      |                         |
+     | (1:MAX))         |                      |                         |
+     +------------------+----------------------+-------------------------+
+     | sides (type2     | sides-default (type2 | sides-supported (1setOf |
+     | keyword)         | keyword)             | type2 keyword)          |
+     +------------------+----------------------+-------------------------+
+     | number-up        | number-up-default    | number-up-supported     |
+     | (integer(1:MAX)) | (integer(1:MAX))     | (1setOf                 |
+     |                  |                      | (integer(1:MAX) |       |
+     |                  |                      | rangeOfInteger(1:MAX))) |
+     +------------------+----------------------+-------------------------+
+     | orientation-     | orientation-         | orientation-requested-  |
+     | requested (type2 | requested-default    | supported (1setOf type2 |
+     | enum)            | (type2 enum)         | enum)                   |
+     +------------------+----------------------+-------------------------+
+     | media (type2     | media-default (type2 | media-supported (1setOf |
+     | keyword | name)  | keyword | name)      | (type2 keyword | name)) |
+     |                  |                      | media-ready (1setOf     |
+     |                  |                      | (type2 keyword | name)) |
+     +------------------+----------------------+-------------------------+
+     | printer-         | printer-resolution-  | printer-resolution-     |
+     | resolution       | default (resolution) | supported (1setOf       |
+     | (resolution)     |                      | resolution)             |
+     +------------------+----------------------+-------------------------+
+     | print-quality    | print-quality-       | print-quality-supported |
+     | (type2 enum)     | default (type2 enum) | (1setOf type2 enum)     |
+     +------------------+----------------------+-------------------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

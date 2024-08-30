@@ -1,0 +1,18 @@
+"hash": |-
+  d68c9a25c36e963b3685e595624ce799a5f9aebacf2b14fb8aa9d316084ba94b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A token-based scheme allows the server to offload any state
+     associated with validation to the client.  For this design to work,
+     the token MUST be covered by integrity protection against
+     modification or falsification by clients.  Without integrity
+     protection, malicious clients could generate or guess values for
+     tokens that would be accepted by the server.  Only the server
+     requires access to the integrity protection key for tokens.
+"fixed": |-
+  A token-based scheme allows the server to offload any state associated with validation to the client.  For this design to work, the token MUST be covered by integrity protection against modification or falsification by clients.  Without integrity protection, malicious clients could generate or guess values for tokens that would be accepted by the server.  Only the server requires access to the integrity protection key for tokens.
+"ko": |-
+  토큰 기반 체계를 사용하면 서버가 유효성 검사와 관련된 모든 상태를 클라이언트로 오프로드할 수 있습니다. 이 설계가 작동하려면 토큰이 클라이언트의 수정 또는 위조에 대한 무결성 보호로 보호되어야 합니다. 무결성 보호가 없으면 악의적인 클라이언트가 서버에서 허용할 토큰 값을 생성하거나 추측할 수 있습니다. 서버에서만 토큰의 무결성 보호 키에 액세스해야 합니다.

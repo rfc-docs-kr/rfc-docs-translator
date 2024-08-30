@@ -1,0 +1,20 @@
+"hash": |-
+  4740c7cca7ace996c3207ea60b6474b624c23bc5cbabc9c24fb47ee43f43a6cc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     PPSPP uses a method of naming content based on self-certification.
+     In particular, content in PPSPP is identified by a single
+     cryptographic hash that is the root hash in a Merkle hash tree
+     calculated recursively from the content [ABMRKL].  This self-
+     certifying hash tree allows every peer to directly detect when a
+     malicious peer tries to distribute fake content.  It also ensures
+     only a small the amount of information is needed to start a download
+     (the root hash and some peer addresses).  For live streaming, a
+     dynamic tree and a public key are used, see below.
+"fixed": |-
+  PPSPP uses a method of naming content based on self-certification. In particular, content in PPSPP is identified by a single cryptographic hash that is the root hash in a Merkle hash tree calculated recursively from the content [ABMRKL].  This self- certifying hash tree allows every peer to directly detect when a malicious peer tries to distribute fake content.  It also ensures only a small the amount of information is needed to start a download (the root hash and some peer addresses).  For live streaming, a dynamic tree and a public key are used, see below.
+"ko": |-
+  PPSPP는 자체 인증을 기반으로 콘텐츠에 이름을 지정하는 방법을 사용합니다. 특히 PPSPP의 콘텐츠는 콘텐츠 [ABMRKL]에서 재귀적으로 계산된 Merkle 해시 트리의 루트 해시인 단일 암호화 해시로 식별됩니다. 이 자체 인증 해시 트리를 통해 모든 피어는 악의적인 피어가 가짜 콘텐츠를 배포하려고 시도할 때 직접 감지할 수 있습니다. 또한 다운로드를 시작하는 데 필요한 정보의 양(루트 해시 및 일부 피어 주소)이 최소화됩니다. 라이브 스트리밍의 경우 동적 트리와 공개 키가 사용됩니다. 아래를 참조하세요.

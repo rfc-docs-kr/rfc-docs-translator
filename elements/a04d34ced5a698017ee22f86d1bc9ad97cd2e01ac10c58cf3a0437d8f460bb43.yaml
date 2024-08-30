@@ -1,0 +1,17 @@
+"hash": |-
+  a04d34ced5a698017ee22f86d1bc9ad97cd2e01ac10c58cf3a0437d8f460bb43
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     19.  Create the desired serialized output.  The Compact Serialization
+          of this result is the string BASE64URL(UTF8(JWE Protected
+          Header)) || '.' || BASE64URL(JWE Encrypted Key) || '.' ||
+          BASE64URL(JWE Initialization Vector) || '.' || BASE64URL(JWE
+          Ciphertext) || '.' || BASE64URL(JWE Authentication Tag).  The
+          JWE JSON Serialization is described in Section 7.2.
+"fixed": |-
+  1.  Create the desired serialized output.  The Compact Serialization of this result is the string BASE64URL(UTF8(JWE Protected Header)) || '.' || BASE64URL(JWE Encrypted Key) || '.' || BASE64URL(JWE Initialization Vector) || '.' || BASE64URL(JWE Ciphertext) || '.' || BASE64URL(JWE Authentication Tag).  The JWE JSON Serialization is described in Section 7.2.
+"ko": |-
+  1. 원하는 직렬화된 출력을 만듭니다. 이 결과의 Compact Serialization은 문자열 BASE64URL(UTF8(JWE 보호 헤더)) || '.' || BASE64URL(JWE 암호화 키) || '.' || BASE64URL(JWE 초기화 벡터) || '.' || BASE64URL(JWE 암호문) || '.' || BASE64URL(JWE 인증 태그)입니다. JWE JSON 직렬화는 섹션 7.2에 설명되어 있습니다.

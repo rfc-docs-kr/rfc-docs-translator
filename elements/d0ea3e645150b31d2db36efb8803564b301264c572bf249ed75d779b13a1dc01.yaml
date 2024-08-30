@@ -1,0 +1,21 @@
+"hash": |-
+  d0ea3e645150b31d2db36efb8803564b301264c572bf249ed75d779b13a1dc01
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Example: suppose the 2001:db8:100:100::/56 prefix is assigned to a
+     CPE that is DS-Lite enabled.  Suppose also that the
+     2001:db8:100:100::1 address is the IPv6 address used by the B4
+     element that resides in that CPE.  When the AFTR receives a packet
+     from this B4 element (i.e., the source address of the IPv4-in-IPv6
+     packet is 2001:db8:100:100::1), the AFTR applies the subscriber-mask
+     (e.g., 56) on the source IPv6 address to compute the associated
+     prefix for this B4 element (that is, 2001:db8:100:100::/56).  Then,
+     the AFTR enforces policies based on that prefix
+     (2001:db8:100:100::/56), not on the exact source IPv6 address.
+"fixed": |-
+  Example: suppose the 2001:db8:100:100::/56 prefix is assigned to a CPE that is DS-Lite enabled.  Suppose also that the 2001:db8:100:100::1 address is the IPv6 address used by the B4 element that resides in that CPE.  When the AFTR receives a packet from this B4 element (i.e., the source address of the IPv4-in-IPv6 packet is 2001:db8:100:100::1), the AFTR applies the subscriber-mask (e.g., 56) on the source IPv6 address to compute the associated prefix for this B4 element (that is, 2001:db8:100:100::/56).  Then, the AFTR enforces policies based on that prefix (2001:db8:100:100::/56), not on the exact source IPv6 address.
+"ko": |-
+  예: 2001:db8:100:100::/56 접두사가 DS-Lite가 활성화된 CPE에 할당되었다고 가정합니다.  또한 2001:db8:100:100::1 주소가 해당 CPE에 있는 B4 요소에서 사용하는 IPv6 주소라고 가정합니다.  AFTR이 이 B4 요소(즉, IPv4-in-IPv6 패킷의 소스 주소가 2001:db8:100:100::1)로부터 패킷을 수신하면 AFTR은 가입자 마스크(예: 56)를 적용합니다. 이 B4 요소에 대한 연관된 ​​접두사(즉, 2001:db8:100:100::/56)를 계산하기 위한 소스 IPv6 주소입니다.  그런 다음 AFTR은 정확한 소스 IPv6 주소가 아닌 해당 접두사(2001:db8:100:100::/56)를 기반으로 정책을 시행합니다.

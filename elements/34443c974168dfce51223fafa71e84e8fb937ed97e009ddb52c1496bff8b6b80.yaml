@@ -1,0 +1,18 @@
+"hash": |-
+  34443c974168dfce51223fafa71e84e8fb937ed97e009ddb52c1496bff8b6b80
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Trailer fields ought to be processed and stored separately from the
+     fields in the header section to avoid contradicting message semantics
+     known at the time the header section was complete.  The presence or
+     absence of certain header fields might impact choices made for the
+     routing or processing of the message as a whole before the trailers
+     are received; those choices cannot be unmade by the later discovery
+     of trailer fields.
+"fixed": |-
+  Trailer fields ought to be processed and stored separately from the fields in the header section to avoid contradicting message semantics known at the time the header section was complete.  The presence or absence of certain header fields might impact choices made for the routing or processing of the message as a whole before the trailers are received; those choices cannot be unmade by the later discovery of trailer fields.
+"ko": |-
+  헤더 섹션이 완료될 때 알려진 메시지 의미 체계와 모순되는 것을 방지하려면 트레일러 필드를 헤더 섹션의 필드와 별도로 처리하고 저장해야 합니다. 특정 헤더 필드의 존재 여부는 트레일러가 수신되기 전에 메시지 전체의 라우팅 또는 처리에 대한 선택에 영향을 미칠 수 있습니다. 이러한 선택은 나중에 트레일러 필드가 발견되어 취소될 수 없습니다.

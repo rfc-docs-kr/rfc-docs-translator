@@ -1,0 +1,22 @@
+"hash": |-
+  9e96c44f12ccb72f363e29b5c0dfc1ffeeb0aade85d16277a017d1b10db039ac
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     NIST has defined 5 modes of operation for AES and other FIPS-approved
+     ciphers [MODES]: CBC (Cipher Block Chaining), ECB (Electronic
+     CodeBook), CFB (Cipher FeedBack), OFB (Output FeedBack) and CTR
+     (Counter).  The CBC mode is well-defined and well-understood for
+     symmetric ciphers, and is currently required for all other ESP
+     ciphers.  This document specifies the use of the AES cipher in CBC
+     mode within ESP.  This mode requires an Initialization Vector (IV)
+     that is the same size as the block size.  Use of a randomly generated
+     IV prevents generation of identical ciphertext from packets which
+     have identical data that spans the first block of the cipher
+     algorithm's block size.
+"fixed": |-
+  NIST has defined 5 modes of operation for AES and other FIPS-approved ciphers [MODES]: CBC (Cipher Block Chaining), ECB (Electronic CodeBook), CFB (Cipher FeedBack), OFB (Output FeedBack) and CTR (Counter).  The CBC mode is well-defined and well-understood for symmetric ciphers, and is currently required for all other ESP ciphers.  This document specifies the use of the AES cipher in CBC mode within ESP.  This mode requires an Initialization Vector (IV) that is the same size as the block size.  Use of a randomly generated IV prevents generation of identical ciphertext from packets which have identical data that spans the first block of the cipher algorithm's block size.
+"ko": |-
+  NIST는 AES 및 기타 FIPS 승인 암호에 대해 CBC(Cipher Block Chaining), ECB(Electronic CodeBook), CFB(Cipher FeedBack), OFB(Output FeedBack) 및 CTR(Counter)의 5가지 작동 모드를 정의했습니다. CBC 모드는 대칭 암호에 대해 잘 정의되고 잘 이해되며 현재 다른 모든 ESP 암호에 필요합니다. 이 문서에서는 ESP 내의 CBC 모드에서 AES 암호 사용을 지정합니다. 이 모드에는 블록 크기와 동일한 크기의 IV(초기화 벡터)가 필요합니다. 임의로 생성된 IV를 사용하면 암호 알고리즘 블록 크기의 첫 번째 블록에 걸쳐 동일한 데이터가 있는 패킷에서 동일한 암호문이 생성되는 것을 방지할 수 있습니다.

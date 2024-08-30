@@ -1,0 +1,18 @@
+"hash": |-
+  7d9da8685a1682bdfb32a94fe67ca5d42bf02a3fa5feaa2b6de87bd4763c349a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     HKDF takes as inputs a hash function, an optional non-secret "salt",
+     initial keying material (IKM), optional context and application-
+     specific "info", and the required output keying size.  Note that
+     these strictly determine the output so, for example, invoking HKDF at
+     different times but with the same salt, info, initial keying
+     material, and output key size will produce identical output keying
+     material.
+"fixed": |-
+  HKDF takes as inputs a hash function, an optional non-secret "salt", initial keying material (IKM), optional context and application- specific "info", and the required output keying size.  Note that these strictly determine the output so, for example, invoking HKDF at different times but with the same salt, info, initial keying material, and output key size will produce identical output keying material.
+"ko": |-
+  HKDF는 해시 함수, 선택적 비비밀 "salt", 초기 키 입력 자료(IKM), 선택적 컨텍스트 및 애플리케이션별 "정보" 및 필수 출력 키 입력 크기를 입력으로 사용합니다. 이는 출력을 엄격하게 결정하므로 예를 들어 HKDF를 서로 다른 시점에 호출하지만 솔트, 정보, 초기 키 자료 및 출력 키 크기가 동일하면 동일한 출력 키 자료가 생성됩니다.

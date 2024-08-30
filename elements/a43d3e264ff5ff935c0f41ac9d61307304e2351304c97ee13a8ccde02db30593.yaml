@@ -1,0 +1,16 @@
+"hash": |-
+  a43d3e264ff5ff935c0f41ac9d61307304e2351304c97ee13a8ccde02db30593
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       entity-tag = [ weak ] opaque-tag
+       weak       = %s"W/"
+       opaque-tag = DQUOTE *etagc DQUOTE
+       etagc      = %x21 / %x23-7E / obs-text
+                  ; VCHAR except double quotes, plus obs-text
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

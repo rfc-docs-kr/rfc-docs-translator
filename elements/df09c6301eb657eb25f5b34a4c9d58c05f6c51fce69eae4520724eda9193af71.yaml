@@ -1,0 +1,20 @@
+"hash": |-
+  df09c6301eb657eb25f5b34a4c9d58c05f6c51fce69eae4520724eda9193af71
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although a BINARY content transfer encoding is defined, unencoded
+     binary strings are not permitted, unless returned in a <literal8> in
+     response to a BINARY.PEEK[<section-binary>]<<partial>> or
+     BINARY[<section-binary>]<<partial>> FETCH data item.  A "binary
+     string" is any string with NUL characters.  A string with an
+     excessive amount of CTL characters MAY also be considered to be
+     binary.  Unless returned in response to BINARY.PEEK[...]/BINARY[...]
+     FETCH, client and server implementations MUST encode binary data into
+     a textual form, such as base64, before transmitting the data.
+"fixed": |-
+  Although a BINARY content transfer encoding is defined, unencoded binary strings are not permitted, unless returned in a <literal8> in response to a BINARY.PEEK[<section-binary>]<<partial>> or BINARY[<section-binary>]<<partial>> FETCH data item.  A "binary string" is any string with NUL characters.  A string with an excessive amount of CTL characters MAY also be considered to be binary.  Unless returned in response to BINARY.PEEK[...]/BINARY[...] FETCH, client and server implementations MUST encode binary data into a textual form, such as base64, before transmitting the data.
+"ko": |-
+  BINARY 콘텐츠 전송 인코딩이 정의되었더라도 BINARY.PEEK[<section-binary>]<<partial>> 또는 BINARY[<section-binary>에 대한 응답으로 <literal8>에서 반환되지 않는 한 인코딩되지 않은 바이너리 문자열은 허용되지 않습니다. ]<<부분>> FETCH 데이터 항목.  "이진 문자열"은 NUL 문자가 포함된 문자열입니다.  CTL 문자 수가 너무 많은 문자열도 바이너리로 간주될 수 있습니다.  BINARY.PEEK[...]/BINARY[...] FETCH에 대한 응답으로 반환되지 않는 한, 클라이언트 및 서버 구현은 데이터를 전송하기 전에 바이너리 데이터를 base64와 같은 텍스트 형식으로 인코딩해야 합니다.

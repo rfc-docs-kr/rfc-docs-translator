@@ -1,0 +1,16 @@
+"hash": |-
+  b420ef64585a8948db0127a50d1b2067b5df75989d3c70beffedea45b0f89c47
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To do the handshake, the initiating peer sends a datagram that MUST
+     start with an all-zeros channel ID (0x00000000); followed by a
+     HANDSHAKE message, whose payload is a locally unused; a random
+     channel ID (in this case 0x00000001); and a list of protocol options.
+     Channel IDs MUST be randomly chosen, as described in Section 12.1.
+"fixed": |-
+  To do the handshake, the initiating peer sends a datagram that MUST start with an all-zeros channel ID (0x00000000); followed by a HANDSHAKE message, whose payload is a locally unused; a random channel ID (in this case 0x00000001); and a list of protocol options. Channel IDs MUST be randomly chosen, as described in Section 12.1.
+"ko": |-
+  핸드셰이크를 수행하기 위해 시작 피어는 모두 0인 채널 ID(0x00000000)로 시작해야 하는 데이터그램을 보냅니다. 페이로드가 로컬에서 사용되지 않는 HANDSHAKE 메시지가 뒤따릅니다. 임의의 채널 ID(이 경우 0x00000001) 그리고 프로토콜 옵션 목록입니다. 채널 ID는 섹션 12.1에 설명된 대로 무작위로 선택되어야 합니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  828e15c456c794a7ce9a0a600054441204c22e373369d4ed8bf95f5d36f06a53
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a client has a partial copy of a representation and wishes to have
+     an up-to-date copy of the entire representation, it could use the
+     Range header field with a conditional GET (using either or both of
+     If-Unmodified-Since and If-Match.)  However, if the precondition
+     fails because the representation has been modified, the client would
+     then have to make a second request to obtain the entire current
+     representation.
+"fixed": |-
+  If a client has a partial copy of a representation and wishes to have an up-to-date copy of the entire representation, it could use the Range header field with a conditional GET (using either or both of If-Unmodified-Since and If-Match.)  However, if the precondition fails because the representation has been modified, the client would then have to make a second request to obtain the entire current representation.
+"ko": |-
+  클라이언트가 표현의 부분 복사본을 가지고 있고 전체 표현의 최신 복사본을 갖고자 하는 경우 조건부 GET(If-Unmodified-Since 및 If 중 하나 또는 둘 다를 사용)과 함께 Range 헤더 필드를 사용할 수 있습니다. -Match.) 그러나 표현이 수정되어 전제 조건이 실패하면 클라이언트는 전체 현재 표현을 얻기 위해 두 번째 요청을 해야 합니다.

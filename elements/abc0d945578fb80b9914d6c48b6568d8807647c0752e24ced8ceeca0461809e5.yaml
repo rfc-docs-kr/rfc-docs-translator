@@ -1,0 +1,20 @@
+"hash": |-
+  abc0d945578fb80b9914d6c48b6568d8807647c0752e24ced8ceeca0461809e5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The client needs a separate MRCPv2 resource control channel to
+     control each media processing resource under the SIP dialog.  A
+     unique channel identifier string identifies these resource control
+     channels.  The channel identifier is a difficult-to-guess,
+     unambiguous string followed by an "@", then by a string token
+     specifying the type of resource.  The server generates the channel
+     identifier and MUST make sure it does not clash with the identifier
+     of any other MRCP channel currently allocated by that server.  MRCPv2
+     defines the following IANA-registered types of media processing
+"fixed": |-
+  The client needs a separate MRCPv2 resource control channel to control each media processing resource under the SIP dialog.  A unique channel identifier string identifies these resource control channels.  The channel identifier is a difficult-to-guess, unambiguous string followed by an "@", then by a string token specifying the type of resource.  The server generates the channel identifier and MUST make sure it does not clash with the identifier of any other MRCP channel currently allocated by that server.  MRCPv2 defines the following IANA-registered types of media processing
+"ko": |-
+  클라이언트는 SIP 대화 상자 아래의 각 미디어 처리 리소스를 제어하기 위해 별도의 MRCPv2 리소스 제어 채널이 필요합니다. 고유한 채널 식별자 문자열은 이러한 리소스 제어 채널을 식별합니다. 채널 식별자는 추측하기 어려운 명확한 문자열이며, 그 뒤에 "@"가 오고, 그 다음에 리소스 유형을 지정하는 문자열 토큰이 옵니다. 서버는 채널 식별자를 생성하고 현재 해당 서버에서 할당한 다른 MRCP 채널의 식별자와 충돌하지 않도록 해야 합니다. MRCPv2는 다음과 같은 IANA 등록 미디어 처리 유형을 정의합니다.

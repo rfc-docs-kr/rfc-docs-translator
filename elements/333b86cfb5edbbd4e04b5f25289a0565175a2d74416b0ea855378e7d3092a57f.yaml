@@ -1,0 +1,18 @@
+"hash": |-
+  333b86cfb5edbbd4e04b5f25289a0565175a2d74416b0ea855378e7d3092a57f
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                                                        +----> canceled
+                                                       /
+         +----> pending  -------> processing ---------+------> completed
+         |         ^                   ^               \
+     --->+         |                   |                +----> aborted
+         |         v                   v               /
+         +----> pending-held    processing-stopped ---+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

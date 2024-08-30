@@ -1,0 +1,40 @@
+"hash": |-
+  75807be78f4eefa80fc8ee91aba597593a13bdf86d4c6be434f64afe594bd8cf
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     +------------------------------+----------------------+-------------+
+     | Attribute                    | Syntax               | REQUIRED?   |
+     +------------------------------+----------------------+-------------+
+     | pages-per-minute-color       | integer(0:MAX)       | RECOMMENDED |
+     +------------------------------+----------------------+-------------+
+     | pages-per-minute             | integer(0:MAX)       | RECOMMENDED |
+     +------------------------------+----------------------+-------------+
+     | printer-current-time         | dateTime|unknown     | RECOMMENDED |
+     +------------------------------+----------------------+-------------+
+     | printer-is-accepting-jobs    | boolean              | REQUIRED    |
+     +------------------------------+----------------------+-------------+
+     | printer-more-info            | uri                  | RECOMMENDED |
+     +------------------------------+----------------------+-------------+
+     | printer-state                | type1 enum           | REQUIRED    |
+     +------------------------------+----------------------+-------------+
+     | printer-state-message        | text(MAX)            | RECOMMENDED |
+     +------------------------------+----------------------+-------------+
+     | printer-state-reasons        | 1setOf type2 keyword | REQUIRED    |
+     +------------------------------+----------------------+-------------+
+     | printer-up-time              | integer(1:MAX)       | REQUIRED    |
+     +------------------------------+----------------------+-------------+
+     | printer-uri-supported        | 1setOf uri           | REQUIRED    |
+     +------------------------------+----------------------+-------------+
+     | queued-job-count             | integer(0:MAX)       | REQUIRED    |
+     +------------------------------+----------------------+-------------+
+     | uri-authentication-supported | 1setOf type2 keyword | REQUIRED    |
+     +------------------------------+----------------------+-------------+
+     | uri-security-supported       | 1setOf type2 keyword | REQUIRED    |
+     +------------------------------+----------------------+-------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

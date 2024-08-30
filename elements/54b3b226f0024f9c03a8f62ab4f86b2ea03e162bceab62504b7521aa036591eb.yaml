@@ -1,0 +1,19 @@
+"hash": |-
+  54b3b226f0024f9c03a8f62ab4f86b2ea03e162bceab62504b7521aa036591eb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The DATA message is used to transfer chunks of content.  The DATA
+     message MUST contain the chunk ID of the chunk and chunk itself.  A
+     peer MAY send the DATA messages for multiple chunks in the same
+     datagram.  The DATA message MAY contain additional information if
+     needed by the specific congestion control mechanism used.  At
+     present, PPSPP uses LEDBAT [RFC6817] for congestion control, which
+     requires the current system time to be sent along with the DATA
+     message, so the current system time MUST be included.
+"fixed": |-
+  The DATA message is used to transfer chunks of content.  The DATA message MUST contain the chunk ID of the chunk and chunk itself.  A peer MAY send the DATA messages for multiple chunks in the same datagram.  The DATA message MAY contain additional information if needed by the specific congestion control mechanism used.  At present, PPSPP uses LEDBAT [RFC6817] for congestion control, which requires the current system time to be sent along with the DATA message, so the current system time MUST be included.
+"ko": |-
+  DATA 메시지는 콘텐츠 청크를 전송하는 데 사용됩니다. DATA 메시지에는 청크의 청크 ID와 청크 자체가 포함되어야 합니다. 피어는 동일한 데이터그램의 여러 청크에 대한 DATA 메시지를 보낼 수 있습니다. DATA 메시지에는 사용된 특정 혼잡 제어 메커니즘에 필요한 경우 추가 정보가 포함될 수 있습니다. 현재 PPSPP는 혼잡 제어를 위해 LEDBAT [RFC6817]을 사용하는데, 이를 위해서는 현재 시스템 시간이 DATA 메시지와 함께 전송되어야 하므로 현재 시스템 시간이 포함되어야 합니다.

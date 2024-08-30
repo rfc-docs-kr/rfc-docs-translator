@@ -1,0 +1,13 @@
+"hash": |-
+  279b0befd94373d959ee95a5acc7606449e50c7dd6c18ed579e4b7ecd01cb87e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Append 4 octets of 0x00 0x00 0xff 0xff to the tail end of the
+         payload of the message.
+"fixed": |-
+  1.  Append 4 octets of 0x00 0x00 0xff 0xff to the tail end of the payload of the message.
+"ko": |-
+  1. 메시지 페이로드의 끝 부분에 0x00 0x00 0xff 0xff의 4옥텟을 추가합니다.

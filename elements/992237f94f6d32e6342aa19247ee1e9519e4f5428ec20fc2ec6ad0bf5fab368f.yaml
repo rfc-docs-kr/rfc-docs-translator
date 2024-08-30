@@ -1,0 +1,20 @@
+"hash": |-
+  992237f94f6d32e6342aa19247ee1e9519e4f5428ec20fc2ec6ad0bf5fab368f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This header field MUST be part of a VERIFICATION-COMPLETE event from
+     the verifier resource to the client.  This indicates the cause of
+     VERIFY or VERIFY-FROM-BUFFER method completion.  This header field
+     MUST be sent in the VERIFY, VERIFY-FROM-BUFFER, and QUERY-VOICEPRINT
+     responses, if they return with a failure status and a COMPLETE state.
+     In the ABNF below, the 'cause-code' contains a numerical value
+     selected from the Cause-Code column of the following table.  The
+     'cause-name' contains the corresponding token selected from the
+     Cause-Name column.
+"fixed": |-
+  This header field MUST be part of a VERIFICATION-COMPLETE event from the verifier resource to the client.  This indicates the cause of VERIFY or VERIFY-FROM-BUFFER method completion.  This header field MUST be sent in the VERIFY, VERIFY-FROM-BUFFER, and QUERY-VOICEPRINT responses, if they return with a failure status and a COMPLETE state. In the ABNF below, the 'cause-code' contains a numerical value selected from the Cause-Code column of the following table.  The 'cause-name' contains the corresponding token selected from the Cause-Name column.
+"ko": |-
+  이 헤더 필드는 verifier 리소스에서 클라이언트로 전송되는 VERIFICATION-COMPLETE 이벤트의 일부여야 합니다. 이는 VERIFY 또는 VERIFY-FROM-BUFFER 메서드 완료의 원인을 나타냅니다. 이 헤더 필드는 실패 상태와 COMPLETE 상태로 반환되는 경우 VERIFY, VERIFY-FROM-BUFFER 및 QUERY-VOICEPRINT 응답에서 반드시 전송되어야 합니다. 아래 ABNF에서 'cause-code'에는 다음 표의 Cause-Code 열에서 선택한 숫자 값이 포함됩니다. 'cause-name'에는 Cause-Name 열에서 선택한 해당 토큰이 포함됩니다.

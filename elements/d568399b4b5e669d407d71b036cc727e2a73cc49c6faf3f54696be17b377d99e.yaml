@@ -1,0 +1,18 @@
+"hash": |-
+  d568399b4b5e669d407d71b036cc727e2a73cc49c6faf3f54696be17b377d99e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note: EXPUNGE responses are permitted while UID FETCH, UID STORE,
+        and UID SEARCH are in progress.  If the client sends a UID
+        command, it MUST wait for a completion result response before
+        sending a command that uses message sequence numbers (this may
+        include UID SEARCH).  Any message sequence numbers in an argument
+        to UID SEARCH are associated with messages prior to the effect of
+        any untagged EXPUNGE responses returned by the UID SEARCH.
+"fixed": |-
+  - Note: EXPUNGE responses are permitted while UID FETCH, UID STORE, and UID SEARCH are in progress.  If the client sends a UID command, it MUST wait for a completion result response before sending a command that uses message sequence numbers (this may include UID SEARCH).  Any message sequence numbers in an argument to UID SEARCH are associated with messages prior to the effect of any untagged EXPUNGE responses returned by the UID SEARCH.
+"ko": |-
+  - 참고: UID FETCH, UID STORE 및 UID SEARCH가 진행되는 동안 EXPUNGE 응답이 허용됩니다.  클라이언트가 UID 명령을 보내는 경우 메시지 시퀀스 번호(UID 검색이 포함될 수 있음)를 사용하는 명령을 보내기 전에 완료 결과 응답을 기다려야 합니다.  UID SEARCH에 대한 인수의 모든 메시지 시퀀스 번호는 UID SEARCH에서 반환된 태그가 지정되지 않은 EXPUNGE 응답이 적용되기 전의 메시지와 연결됩니다.

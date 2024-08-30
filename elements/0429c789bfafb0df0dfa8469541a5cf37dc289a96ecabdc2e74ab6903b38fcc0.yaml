@@ -1,0 +1,17 @@
+"hash": |-
+  0429c789bfafb0df0dfa8469541a5cf37dc289a96ecabdc2e74ab6903b38fcc0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an endpoint receives a NEW_CONNECTION_ID frame that repeats a
+     previously issued connection ID with a different Stateless Reset
+     Token field value or a different Sequence Number field value, or if a
+     sequence number is used for different connection IDs, the endpoint
+     MAY treat that receipt as a connection error of type
+     PROTOCOL_VIOLATION.
+"fixed": |-
+  If an endpoint receives a NEW_CONNECTION_ID frame that repeats a previously issued connection ID with a different Stateless Reset Token field value or a different Sequence Number field value, or if a sequence number is used for different connection IDs, the endpoint MAY treat that receipt as a connection error of type PROTOCOL_VIOLATION.
+"ko": |-
+  엔드포인트가 다른 Stateless Reset Token 필드 값 또는 다른 Sequence Number 필드 값을 사용하여 이전에 발행된 연결 ID를 반복하는 NEW_CONNECTION_ID 프레임을 수신하거나 시퀀스 번호가 다른 연결 ID에 사용되는 경우 엔드포인트는 해당 수신을 다음과 같이 처리할 수 있습니다. PROTOCOL_VIOLATION 유형의 연결 오류입니다.

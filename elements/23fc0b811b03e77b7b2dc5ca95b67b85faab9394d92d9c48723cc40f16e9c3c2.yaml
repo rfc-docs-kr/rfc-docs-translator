@@ -1,0 +1,16 @@
+"hash": |-
+  23fc0b811b03e77b7b2dc5ca95b67b85faab9394d92d9c48723cc40f16e9c3c2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After successful TLS negotiation, the server remains in the non-
+     authenticated state, even if client credentials are supplied during
+     the TLS negotiation.  This does not preclude an authentication
+     mechanism such as EXTERNAL (defined in [SASL]) from using client
+     identity determined by the TLS negotiation.
+"fixed": |-
+  After successful TLS negotiation, the server remains in the non- authenticated state, even if client credentials are supplied during the TLS negotiation.  This does not preclude an authentication mechanism such as EXTERNAL (defined in [SASL]) from using client identity determined by the TLS negotiation.
+"ko": |-
+  TLS 협상이 성공한 후에는 TLS 협상 중에 클라이언트 자격 증명이 제공되더라도 서버는 인증되지 않은 상태로 유지됩니다.  이는 EXTERNAL([SASL]에 정의됨)과 같은 인증 메커니즘이 TLS 협상에 의해 결정된 클라이언트 ID를 사용하는 것을 배제하지 않습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  fbcf25e8be60f76c02b77aa763615a819a4664cac96caca484a0cfd2763f037d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     6.  If the response has a Content-Location header field and its field
+         value is a reference to a URI different from the target URI, then
+         the sender asserts that the content is a representation of the
+         resource identified by the Content-Location field value.
+         However, such an assertion cannot be trusted unless it can be
+         verified by other means (not defined by this specification).
+"fixed": |-
+  1.  If the response has a Content-Location header field and its field value is a reference to a URI different from the target URI, then the sender asserts that the content is a representation of the resource identified by the Content-Location field value. However, such an assertion cannot be trusted unless it can be verified by other means (not defined by this specification).
+"ko": |-
+  1. 응답에 Content-Location 헤더 필드가 있고 해당 필드 값이 대상 URI와 다른 URI에 대한 참조인 경우 보낸 사람은 콘텐츠가 Content-Location 필드 값으로 식별되는 리소스의 표현임을 주장합니다. 그러나 그러한 주장은 다른 수단(이 사양에서 정의되지 않음)으로 확인할 수 없으면 신뢰할 수 없습니다.

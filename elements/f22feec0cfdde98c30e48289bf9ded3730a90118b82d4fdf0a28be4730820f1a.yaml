@@ -1,0 +1,15 @@
+"hash": |-
+  f22feec0cfdde98c30e48289bf9ded3730a90118b82d4fdf0a28be4730820f1a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Once the master secret is synchronized on two sessions, any security
+     property that relies on the uniqueness of the master secret is
+     compromised.  For example, a TLS exporter [RFC5705] no longer
+     provides a unique key bound to the current session.
+"fixed": |-
+  Once the master secret is synchronized on two sessions, any security property that relies on the uniqueness of the master secret is compromised.  For example, a TLS exporter [RFC5705] no longer provides a unique key bound to the current session.
+"ko": |-
+  마스터 비밀이 두 세션에서 동기화되면 마스터 비밀의 고유성에 의존하는 모든 보안 속성이 손상됩니다. 예를 들어 TLS 익스포터[RFC5705]는 더 이상 현재 세션에 바인딩된 고유 키를 제공하지 않습니다.

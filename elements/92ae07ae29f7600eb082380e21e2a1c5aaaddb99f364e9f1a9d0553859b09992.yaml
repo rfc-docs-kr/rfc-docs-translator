@@ -1,0 +1,16 @@
+"hash": |-
+  92ae07ae29f7600eb082380e21e2a1c5aaaddb99f364e9f1a9d0553859b09992
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The <partial> argument, if present, requests that a subset of the
+        data be returned.  The semantics of a partial FETCH BINARY command
+        are the same as for a partial FETCH BODY command, with the
+        exception that the <partial> arguments refer to the DECODED
+        section data.
+"fixed": |-
+  - The <partial> argument, if present, requests that a subset of the data be returned.  The semantics of a partial FETCH BINARY command are the same as for a partial FETCH BODY command, with the exception that the <partial> arguments refer to the DECODED section data.
+"ko": |-
+  - <partial> 인수가 있는 경우 데이터의 하위 집합이 반환되도록 요청합니다.  부분 FETCH BINARY 명령의 의미는 <partial> 인수가 DECODED 섹션 데이터를 참조한다는 점을 제외하면 부분 FETCH BODY 명령과 동일합니다.

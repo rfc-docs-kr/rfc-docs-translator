@@ -1,0 +1,14 @@
+"hash": |-
+  9e3174134cfa5a497356620ddf830e8c23c96d579d644db732055d44184ee9f1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the BGP FSM receives a TcpConnection_Valid event (Event 14),
+        the TCP connection is processed, and the connection remains in the
+        Connect state.
+"fixed": |-
+  - If the BGP FSM receives a TcpConnection_Valid event (Event 14), the TCP connection is processed, and the connection remains in the Connect state.
+"ko": |-
+  - BGP FSM이 TcpConnection_Valid 이벤트(이벤트 14)를 수신하면 TCP 연결이 처리되고 연결은 Connect 상태로 유지됩니다.

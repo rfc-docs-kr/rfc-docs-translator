@@ -1,0 +1,15 @@
+"hash": |-
+  78ed7aa8da3827249b784080721864b6ca874d05a91ea8a3316978829df62dc8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The server MUST NOT remove an EXT-X-KEY tag from the Playlist file if
+     it applies to any Media Segment in the Playlist file, or clients who
+     subsequently load that Playlist will be unable to decrypt those Media
+     Segments.
+"fixed": |-
+  The server MUST NOT remove an EXT-X-KEY tag from the Playlist file if it applies to any Media Segment in the Playlist file, or clients who subsequently load that Playlist will be unable to decrypt those Media Segments.
+"ko": |-
+  서버는 재생 목록 파일의 미디어 세그먼트에 태그가 적용되는 경우 재생 목록 파일에서 EXT-X-KEY 태그를 제거해서는 안 됩니다. 그렇지 않으면 해당 재생 목록을 나중에 로드하는 클라이언트가 해당 미디어 세그먼트를 해독할 수 없습니다.

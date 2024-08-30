@@ -1,0 +1,15 @@
+"hash": |-
+  4ec53553cb471cc3a76e0504910f6073e78b2e089233e4182c2210d4e1bc54a5
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  When any DEFLATE block with the "BFINAL" bit set to 1 doesn't end
+        at a byte boundary, an endpoint MUST add minimal padding bits of 0
+        to make it end at a byte boundary.  The next DEFLATE block follows
+        the padded data if any.
+"fixed": |-
+  -  When any DEFLATE block with the "BFINAL" bit set to 1 doesn't end at a byte boundary, an endpoint MUST add minimal padding bits of 0 to make it end at a byte boundary.  The next DEFLATE block follows the padded data if any.
+"ko": |-
+  - "BFINAL" 비트가 1로 설정된 DEFLATE 블록이 바이트 경계에서 끝나지 않는 경우 엔드포인트는 바이트 경계에서 끝나도록 최소 패딩 비트 0을 추가해야 합니다.  다음 DEFLATE 블록은 패딩된 데이터(있는 경우) 뒤에 옵니다.

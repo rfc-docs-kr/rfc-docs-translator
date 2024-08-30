@@ -1,0 +1,16 @@
+"hash": |-
+  7ab08f0914340c3a6dd0819efe5613f13aefd7317f192c1c7266c9374bdd2f76
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     side using a different secret element in the computation of "ss" and
+     therefore the authentication payload could not be verified as
+     correct, even if a subsequent guess, while running through all
+     possible values, was correct.  The attacker gets one guess, and one
+     guess only, per active attack.
+"fixed": |-
+  side using a different secret element in the computation of "ss" and therefore the authentication payload could not be verified as correct, even if a subsequent guess, while running through all possible values, was correct.  The attacker gets one guess, and one guess only, per active attack.
+"ko": |-
+  "ss" 계산에서 다른 비밀 요소를 사용하므로 가능한 모든 값을 실행하는 동안 후속 추측이 정확하더라도 인증 페이로드가 올바른지 확인할 수 없습니다.  공격자는 활성 공격당 하나의 추측만 얻습니다.

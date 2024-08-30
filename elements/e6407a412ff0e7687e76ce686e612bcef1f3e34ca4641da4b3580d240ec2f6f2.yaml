@@ -1,0 +1,15 @@
+"hash": |-
+  e6407a412ff0e7687e76ce686e612bcef1f3e34ca4641da4b3580d240ec2f6f2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The closing and draining connection states exist to ensure that
+     connections close cleanly and that delayed or reordered packets are
+     properly discarded.  These states SHOULD persist for at least three
+     times the current PTO interval as defined in [QUIC-RECOVERY].
+"fixed": |-
+  The closing and draining connection states exist to ensure that connections close cleanly and that delayed or reordered packets are properly discarded.  These states SHOULD persist for at least three times the current PTO interval as defined in [QUIC-RECOVERY].
+"ko": |-
+  연결 종료 및 배수 연결 상태는 연결이 완전히 닫히고 지연되거나 순서가 변경된 패킷이 적절하게 삭제되도록 하기 위해 존재합니다. 이러한 상태는 [QUIC-RECOVERY]에 정의된 대로 현재 PTO 간격의 최소 3배 동안 지속되어야 합니다.

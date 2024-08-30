@@ -1,0 +1,18 @@
+"hash": |-
+  ad4163f38d5e1335afe840deb5f9739f278b6f02a0edb37eaf403e0be45c9849
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In TLS 1.2, block ciphers allow from 1 to 256 octets of padding.
+     When a limit lower than the protocol-defined limit is advertised, a
+     second limit applies to the length of records that use block ciphers.
+     An endpoint MUST NOT add padding to records that would cause the
+     protected record to exceed the size of a protected record that
+     contains the maximum amount of plaintext and the minimum permitted
+     amount of padding.
+"fixed": |-
+  In TLS 1.2, block ciphers allow from 1 to 256 octets of padding. When a limit lower than the protocol-defined limit is advertised, a second limit applies to the length of records that use block ciphers. An endpoint MUST NOT add padding to records that would cause the protected record to exceed the size of a protected record that contains the maximum amount of plaintext and the minimum permitted amount of padding.
+"ko": |-
+  TLS 1.2에서 블록 암호는 1~256옥텟의 패딩을 허용합니다. 프로토콜에 정의된 제한보다 낮은 제한이 광고되면 블록 암호화를 사용하는 레코드 길이에 두 번째 제한이 적용됩니다. 엔드포인트는 보호 레코드가 일반 텍스트의 최대량과 허용되는 최소 패딩 양을 포함하는 보호 레코드의 크기를 초과하게 만드는 레코드에 패딩을 추가해서는 안 됩니다.

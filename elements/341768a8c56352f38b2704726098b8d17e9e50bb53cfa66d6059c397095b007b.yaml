@@ -1,0 +1,15 @@
+"hash": |-
+  341768a8c56352f38b2704726098b8d17e9e50bb53cfa66d6059c397095b007b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If an application-level error affects a single stream but otherwise
+     leaves the connection in a recoverable state, the endpoint can send a
+     RESET_STREAM frame (Section 19.4) with an appropriate error code to
+     terminate just the affected stream.
+"fixed": |-
+  If an application-level error affects a single stream but otherwise leaves the connection in a recoverable state, the endpoint can send a RESET_STREAM frame (Section 19.4) with an appropriate error code to terminate just the affected stream.
+"ko": |-
+  애플리케이션 수준 오류가 단일 스트림에 영향을 미치지만 연결을 복구 가능한 상태로 유지하는 경우 엔드포인트는 영향을 받은 스트림만 종료하기 위해 적절한 오류 코드와 함께 RESET_STREAM 프레임(19.4절)을 보낼 수 있습니다.

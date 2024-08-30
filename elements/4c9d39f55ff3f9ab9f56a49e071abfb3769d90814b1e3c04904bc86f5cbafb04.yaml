@@ -1,0 +1,21 @@
+"hash": |-
+  4c9d39f55ff3f9ab9f56a49e071abfb3769d90814b1e3c04904bc86f5cbafb04
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     One specialized case of on-path is being on the same link.  In some
+     situations, it's desirable to distinguish between hosts who are on
+     the local network and those who are not.  The standard technique for
+     this is verifying the IP TTL value [IP].  Since the TTL must be
+     decremented by each forwarder, a protocol can demand that TTL be set
+     to 255 and that all receivers verify the TTL.  A receiver then has
+     some reason to believe that conforming packets are from the same
+     link.  Note that this technique must be used with care in the
+     presence of tunneling systems, since such systems may pass packets
+     without decrementing TTL.
+"fixed": |-
+  One specialized case of on-path is being on the same link.  In some situations, it's desirable to distinguish between hosts who are on the local network and those who are not.  The standard technique for this is verifying the IP TTL value [IP].  Since the TTL must be decremented by each forwarder, a protocol can demand that TTL be set to 255 and that all receivers verify the TTL.  A receiver then has some reason to believe that conforming packets are from the same link.  Note that this technique must be used with care in the presence of tunneling systems, since such systems may pass packets without decrementing TTL.
+"ko": |-
+  on-path의 특별한 경우 중 하나는 동일한 링크에 있는 것입니다. 어떤 상황에서는 로컬 네트워크에 있는 호스트와 그렇지 않은 호스트를 구별하는 것이 바람직합니다. 이에 대한 표준 기술은 IP TTL 값[IP]을 확인하는 것입니다. TTL은 각 전달자에 의해 감소되어야 하므로 프로토콜은 TTL을 255로 설정하고 모든 수신자가 TTL을 확인하도록 요구할 수 있습니다. 그러면 수신자는 적합한 패킷이 동일한 링크에서 왔다고 믿을 만한 몇 가지 이유가 있습니다. 터널링 시스템이 있는 경우 이 기술을 주의해서 사용해야 합니다. 이러한 시스템은 TTL을 줄이지 않고 패킷을 전달할 수 있기 때문입니다.

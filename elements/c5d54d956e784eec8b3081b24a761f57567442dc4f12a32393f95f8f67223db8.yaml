@@ -1,0 +1,16 @@
+"hash": |-
+  c5d54d956e784eec8b3081b24a761f57567442dc4f12a32393f95f8f67223db8
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the packet is a 0-RTT packet, the server MAY buffer a limited
+     number of these packets in anticipation of a late-arriving Initial
+     packet.  Clients are not able to send Handshake packets prior to
+     receiving a server response, so servers SHOULD ignore any such
+     packets.
+"fixed": |-
+  If the packet is a 0-RTT packet, the server MAY buffer a limited number of these packets in anticipation of a late-arriving Initial packet.  Clients are not able to send Handshake packets prior to receiving a server response, so servers SHOULD ignore any such packets.
+"ko": |-
+  패킷이 0-RTT 패킷인 경우 서버는 늦게 도착하는 초기 패킷을 예상하여 제한된 수의 이러한 패킷을 버퍼링할 수 있습니다. 클라이언트는 서버 응답을 받기 전에 핸드셰이크 패킷을 보낼 수 없으므로 서버는 이러한 패킷을 무시해야 합니다.

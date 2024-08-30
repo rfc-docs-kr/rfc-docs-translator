@@ -1,0 +1,22 @@
+"hash": |-
+  d348f4c4039886f297a80500d49854d9fb03fb399adba4f2e45614eddc0a4cb0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An example of unilateral untagged server data occurs when the IMAP
+     connection is in the selected state.  In the selected state, the
+     server checks the mailbox for new messages as part of command
+     execution.  Normally, this is part of the execution of every command;
+     hence, a NOOP command suffices to check for new messages.  If new
+     messages are found, the server sends an untagged EXISTS response
+     reflecting the new size of the mailbox.  Server implementations that
+     offer multiple simultaneous access to the same mailbox SHOULD also
+     send appropriate unilateral untagged FETCH and EXPUNGE responses if
+     another agent changes the state of any message flags or expunges any
+     messages.
+"fixed": |-
+  An example of unilateral untagged server data occurs when the IMAP connection is in the selected state.  In the selected state, the server checks the mailbox for new messages as part of command execution.  Normally, this is part of the execution of every command; hence, a NOOP command suffices to check for new messages.  If new messages are found, the server sends an untagged EXISTS response reflecting the new size of the mailbox.  Server implementations that offer multiple simultaneous access to the same mailbox SHOULD also send appropriate unilateral untagged FETCH and EXPUNGE responses if another agent changes the state of any message flags or expunges any messages.
+"ko": |-
+  일방적으로 태그가 지정되지 않은 서버 데이터의 예는 IMAP 연결이 선택된 상태일 때 발생합니다.  선택된 상태에서 서버는 명령 실행의 일부로 사서함에서 새 메시지를 확인합니다.  일반적으로 이는 모든 명령 실행의 일부입니다. 따라서 새 메시지를 확인하는 데는 NOOP 명령으로 충분합니다.  새 메시지가 발견되면 서버는 사서함의 새 크기를 반영하는 태그가 지정되지 않은 EXISTS 응답을 보냅니다.  동일한 사서함에 대한 다중 동시 액세스를 제공하는 서버 구현은 다른 에이전트가 메시지 플래그의 상태를 변경하거나 메시지를 삭제하는 경우 태그가 지정되지 않은 적절한 일방적 FETCH 및 EXPUNGE 응답도 보내야 합니다(SHOULD).

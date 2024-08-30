@@ -1,0 +1,18 @@
+"hash": |-
+  adef027a63d15ccbb74ac3a5aed3ea303063160ba57175d8bb6db9cb02537d0c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  Pretend that a compatible client is not compatible (e.g., by not
+        offering the Supported Groups extension or by replacing the
+        Supported Groups extension with one that includes no FFDHE
+        groups).  This could cause the server to negotiate a weaker DHE
+        group during the handshake or to select a non-FFDHE cipher suite,
+        but it would fail to complete during the final check of the
+        Finished message.
+"fixed": |-
+  -  Pretend that a compatible client is not compatible (e.g., by not offering the Supported Groups extension or by replacing the Supported Groups extension with one that includes no FFDHE groups).  This could cause the server to negotiate a weaker DHE group during the handshake or to select a non-FFDHE cipher suite, but it would fail to complete during the final check of the Finished message.
+"ko": |-
+  - 호환되는 클라이언트가 호환되지 않는 것처럼 가장합니다(예: 지원 그룹 확장을 제공하지 않거나 지원 그룹 확장을 FFDHE 그룹이 포함되지 않은 확장으로 교체).  이로 인해 서버는 핸드셰이크 중에 더 약한 DHE 그룹을 협상하거나 FFDHE가 아닌 암호화 제품군을 선택할 수 있지만 완료 메시지의 최종 확인 중에는 완료되지 않습니다.

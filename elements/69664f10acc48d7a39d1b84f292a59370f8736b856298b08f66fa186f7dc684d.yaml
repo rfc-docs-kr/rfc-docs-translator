@@ -1,0 +1,18 @@
+"hash": |-
+  69664f10acc48d7a39d1b84f292a59370f8736b856298b08f66fa186f7dc684d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        KeyTransPSKRecipientInfo ::= SEQUENCE {
+          version CMSVersion,  -- always set to 0
+          pskid PreSharedKeyIdentifier,
+          kdfAlgorithm KeyDerivationAlgorithmIdentifier,
+          keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier,
+          ktris KeyTransRecipientInfos,
+          encryptedKey EncryptedKey }
+"fixed": |-
+  - KeyTransPSKRecipientInfo ::= SEQUENCE { version CMSVersion,  -- always set to 0 pskid PreSharedKeyIdentifier, kdfAlgorithm KeyDerivationAlgorithmIdentifier, keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier, ktris KeyTransRecipientInfos, encryptedKey EncryptedKey }
+"ko": |-
+  - KeyTransPSKRecipientInfo ::= SEQUENCE { 버전 CMSVersion, -- 항상 0으로 설정 pskid PreSharedKeyIdentifier, kdfAlgorithm KeyDerivationAlgorithmIdentifier, keyEncryptionAlgorithm KeyEncryptionAlgorithmIdentifier, ktris KeyTransRecipientInfos, cryptoKey EncryptedKey }

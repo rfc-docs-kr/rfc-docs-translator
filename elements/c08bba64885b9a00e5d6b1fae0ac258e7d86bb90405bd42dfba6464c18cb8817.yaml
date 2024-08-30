@@ -1,0 +1,21 @@
+"hash": |-
+  c08bba64885b9a00e5d6b1fae0ac258e7d86bb90405bd42dfba6464c18cb8817
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The STOP method from the client to the server tells the verifier
+     resource to stop the VERIFY or VERIFY-FROM-BUFFER request if one is
+     active.  If such a request is active and the STOP request
+     successfully terminated it, then the response header section contains
+     an Active-Request-Id-List header field containing the request-id of
+     the VERIFY or VERIFY-FROM-BUFFER request that was terminated.  In
+     this case, no VERIFICATION-COMPLETE event is sent for the terminated
+     request.  If there was no verify request active, then the response
+     MUST NOT contain an Active-Request-Id-List header field.  Either way,
+     the response MUST contain a status-code of 200 "Success".
+"fixed": |-
+  The STOP method from the client to the server tells the verifier resource to stop the VERIFY or VERIFY-FROM-BUFFER request if one is active.  If such a request is active and the STOP request successfully terminated it, then the response header section contains an Active-Request-Id-List header field containing the request-id of the VERIFY or VERIFY-FROM-BUFFER request that was terminated.  In this case, no VERIFICATION-COMPLETE event is sent for the terminated request.  If there was no verify request active, then the response MUST NOT contain an Active-Request-Id-List header field.  Either way, the response MUST contain a status-code of 200 "Success".
+"ko": |-
+  클라이언트에서 서버로의 STOP 메서드는 VERIFY 또는 VERIFY-FROM-BUFFER 요청이 활성화되어 있으면 해당 요청을 중지하도록 검증자 리소스에 지시합니다. 해당 요청이 활성화되어 있고 STOP 요청이 성공적으로 종료한 경우 응답 헤더 섹션에는 종료된 VERIFY 또는 VERIFY-FROM-BUFFER 요청의 요청 ID를 포함하는 Active-Request-Id-List 헤더 필드가 포함됩니다. 이 경우 종료된 요청에 대해 VERIFICATION-COMPLETE 이벤트가 전송되지 않습니다. 활성화된 검증 요청이 없는 경우 응답에는 Active-Request-Id-List 헤더 필드가 포함되어서는 안 됩니다. 어느 쪽이든 응답에는 200 "성공" 상태 코드가 포함되어야 합니다.

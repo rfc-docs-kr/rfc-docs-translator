@@ -1,0 +1,16 @@
+"hash": |-
+  b9cd1ce9bf777d3b2b1bcb394e5753f2a9dd2a60825d1d377a5c861675cd698c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When any server resource generates a "barge-in-able" event, it also
+     generates a unique tag.  The tag is sent as this header field's value
+     in an event to the client.  The client then acts as an intermediary
+     among the server resources and sends a BARGE-IN-OCCURRED method to
+     the synthesizer server resource with the Proxy-Sync-Id it received
+"fixed": |-
+  When any server resource generates a "barge-in-able" event, it also generates a unique tag.  The tag is sent as this header field's value in an event to the client.  The client then acts as an intermediary among the server resources and sends a BARGE-IN-OCCURRED method to the synthesizer server resource with the Proxy-Sync-Id it received
+"ko": |-
+  모든 서버 리소스가 "barge-in-able" 이벤트를 생성하면 고유한 태그도 생성됩니다. 태그는 이벤트에서 이 헤더 필드의 값으로 클라이언트로 전송됩니다. 그런 다음 클라이언트는 서버 리소스 간의 중개자 역할을 하며 수신한 Proxy-Sync-Id와 함께 BARGE-IN-OCCURRED 메서드를 신디사이저 서버 리소스로 전송합니다.

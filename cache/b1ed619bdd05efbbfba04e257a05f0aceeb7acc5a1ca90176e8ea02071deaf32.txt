@@ -1,0 +1,1 @@
+Num-Min-Verification-Phrases 헤더 필드는 검증을 위해 긍정적인 결정이 내려지기 전에 유효한 발화의 최소 개수를 지정하는 데 사용됩니다. 이 헤더 필드의 값은 정수이고 기본값은 1입니다. 검증자 리소스는 Num-Min-Verification-Phrases 유효한 발화를 수신하지 않는 한 검증을 '허용됨'으로 선언해서는 안 됩니다. 최소값은 1입니다. 이 헤더 필드는 START-SESSION, SET-PARAMS 또는 GET-PARAMS에 나타날 수 있습니다.

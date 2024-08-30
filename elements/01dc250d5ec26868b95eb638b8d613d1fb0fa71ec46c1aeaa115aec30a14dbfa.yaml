@@ -1,0 +1,18 @@
+"hash": |-
+  01dc250d5ec26868b95eb638b8d613d1fb0fa71ec46c1aeaa115aec30a14dbfa
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         self.TestFeedLine('55.66.77.88,PL', 0, 1)
+         self.TestFeedLine('55.66.77.88,PL,,,', 0, 0)
+         self.TestFeedLine('55.66.77.88,,,,', 0, 0)
+         self.TestFeedLine('55.66.77.88,ZZ,,,', 0, 0)
+         self.TestFeedLine('55.66.77.88,US,,,', 0, 0)
+         self.TestFeedLine('55.66.77.88,USA,,,', 1, 0)
+         self.TestFeedLine('55.66.77.88,99,,,', 1, 0)
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

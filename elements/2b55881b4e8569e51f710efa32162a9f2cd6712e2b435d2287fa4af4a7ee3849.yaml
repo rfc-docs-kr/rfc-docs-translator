@@ -1,0 +1,20 @@
+"hash": |-
+  2b55881b4e8569e51f710efa32162a9f2cd6712e2b435d2287fa4af4a7ee3849
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Header Parameter values used when creating or validating per-
+     recipient ciphertext and Authentication Tag values are the union of
+     the three sets of Header Parameter values that may be present: (1)
+     the JWE Protected Header represented in the "protected" member, (2)
+     the JWE Shared Unprotected Header represented in the "unprotected"
+     member, and (3) the JWE Per-Recipient Unprotected Header represented
+     in the "header" member of the recipient's array element.  The union
+     of these sets of Header Parameters comprises the JOSE Header.  The
+     Header Parameter names in the three locations MUST be disjoint.
+"fixed": |-
+  The Header Parameter values used when creating or validating per- recipient ciphertext and Authentication Tag values are the union of the three sets of Header Parameter values that may be present: (1) the JWE Protected Header represented in the "protected" member, (2) the JWE Shared Unprotected Header represented in the "unprotected" member, and (3) the JWE Per-Recipient Unprotected Header represented in the "header" member of the recipient's array element.  The union of these sets of Header Parameters comprises the JOSE Header.  The Header Parameter names in the three locations MUST be disjoint.
+"ko": |-
+  수신자별 암호문 및 인증 태그 값을 생성 또는 검증할 때 사용되는 헤더 매개변수 값은 존재할 수 있는 세 가지 헤더 매개변수 값 집합의 합집합입니다. (1) "보호된" 멤버에 표현된 JWE 보호 헤더, (2) "보호되지 않은" 멤버에 표현된 JWE 공유 비보호 헤더, (3) 수신자 배열 요소의 "헤더" 멤버에 표현된 JWE 수신자별 비보호 헤더. 이러한 헤더 매개변수 집합의 합집합은 JOSE 헤더를 구성합니다. 세 위치의 헤더 매개변수 이름은 분리되어야 합니다.

@@ -1,0 +1,28 @@
+"hash": |-
+  5a54ff49cba9a5427cc78e3f46bb34ea7983909abb69af16d1a5d8f84d3a9639
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Assuming a peer receives the root hash of the content it wants to
+     download from a trusted source, it can check the integrity of any
+     chunk of that content it receives as follows.  It first calculates
+     the hash of the chunk it received, for example, chunk C4 in the
+     previous figure.  Along with this chunk, it MUST receive the hashes
+     required to check the integrity of that chunk.  In principle, these
+     are the hash of the chunk's sibling (C5) and that of its "uncles".  A
+     chunk's uncles are the sibling Y of its parent X, and the uncle of
+     that Y, recursively until the root is reached.  For chunk C4, the
+     uncles are nodes 13 and 3 and the sibling is 10; all marked with a *
+     in the figure.  Using this information, the peer recalculates the
+     root hash of the tree and compares it to the root hash it received
+     from the trusted source.  If they match, the chunk of content has
+     been positively verified to be the requested part of the content.
+     Otherwise, the sending peer sent either the wrong content or the
+     wrong sibling or uncle hashes.  For simplicity, the set of sibling
+     and uncle hashes is collectively referred to as the "uncle hashes".
+"fixed": |-
+  Assuming a peer receives the root hash of the content it wants to download from a trusted source, it can check the integrity of any chunk of that content it receives as follows.  It first calculates the hash of the chunk it received, for example, chunk C4 in the previous figure.  Along with this chunk, it MUST receive the hashes required to check the integrity of that chunk.  In principle, these are the hash of the chunk's sibling (C5) and that of its "uncles".  A chunk's uncles are the sibling Y of its parent X, and the uncle of that Y, recursively until the root is reached.  For chunk C4, the uncles are nodes 13 and 3 and the sibling is 10; all marked with a * in the figure.  Using this information, the peer recalculates the root hash of the tree and compares it to the root hash it received from the trusted source.  If they match, the chunk of content has been positively verified to be the requested part of the content. Otherwise, the sending peer sent either the wrong content or the wrong sibling or uncle hashes.  For simplicity, the set of sibling and uncle hashes is collectively referred to as the "uncle hashes".
+"ko": |-
+  피어가 신뢰할 수 있는 소스로부터 다운로드하려는 콘텐츠의 루트 해시를 수신한다고 가정하면 다음과 같이 수신하는 해당 콘텐츠 청크의 무결성을 확인할 수 있습니다. 먼저 수신한 청크의 해시를 계산합니다(예: 이전 그림의 청크 C4). 이 청크와 함께 해당 청크의 무결성을 확인하는 데 필요한 해시를 수신해야 합니다. 원칙적으로 이는 청크 형제(C5)의 해시와 해당 "삼촌"의 해시입니다. 청크의 삼촌은 루트에 도달할 때까지 재귀적으로 부모 X의 형제 Y이자 해당 Y의 삼촌입니다. 청크 C4의 경우 삼촌은 노드 13과 3이고 형제는 10입니다. 모두 그림에 *로 표시되어 있습니다. 이 정보를 사용하여 피어는 트리의 루트 해시를 다시 계산하고 이를 신뢰할 수 있는 소스로부터 받은 루트 해시와 비교합니다. 일치하는 경우 콘텐츠 덩어리가 콘텐츠의 요청된 부분인 것으로 확실하게 확인된 것입니다. 그렇지 않으면 보내는 피어가 잘못된 콘텐츠나 잘못된 형제 또는 삼촌 해시를 보냈습니다. 단순화를 위해 형제 및 삼촌 해시 세트를 집합적으로 "삼촌 해시"라고 합니다.

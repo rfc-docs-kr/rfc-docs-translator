@@ -1,0 +1,16 @@
+"hash": |-
+  d9bea41e424376cc26331cc33c6b8a557cf27cc22ad4e5f8e410d3402e479729
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+       ############################################################
+       def _IsIPAddressOrPrefixCorrect(self, field):
+         if '/' in field:
+           return self._IsCIDRCorrect(field)
+         return self._IsIPAddressCorrect(field)
+"fixed": |-
+  ############################################################ def _IsIPAddressOrPrefixCorrect(self, field): if '/' in field: return self._IsCIDRCorrect(field) return self._IsIPAddressCorrect(field)
+"ko": |-
+  #################################################################### def _IsIPAddressOrPrefixCorrect(self, field): 필드에 '/'가 있는 경우: self._IsCIDRCorrect(field)를 반환합니다. self._IsIPAddressCorrect(field)를 반환합니다.

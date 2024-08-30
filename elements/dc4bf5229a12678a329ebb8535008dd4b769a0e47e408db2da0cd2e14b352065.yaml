@@ -1,0 +1,21 @@
+"hash": |-
+  dc4bf5229a12678a329ebb8535008dd4b769a0e47e408db2da0cd2e14b352065
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     To illustrate this procedure, lets consider the next iteration in the
+     process.  The injector has generated the current tree shown in
+     Figure 5, and it is connected to several peers that currently have
+     the same tree and all posses chunks 0, 2, 4, and 6.  When the
+     injector generates two new chunks, NCHUNKS_PER_SIG=2, the hash tree
+     expands as shown in Figure 6.  The two new chunks, 8 and 10, extend
+     the tree on the right side, and to accommodate them, a new root is
+     created: node 7.  As this tree is wider at the base than the actual
+     number of chunks, there are currently two empty leaves.  The munro
+     node for the new subtree is 9, labeled with a $ sign.
+"fixed": |-
+  To illustrate this procedure, lets consider the next iteration in the process.  The injector has generated the current tree shown in Figure 5, and it is connected to several peers that currently have the same tree and all posses chunks 0, 2, 4, and 6.  When the injector generates two new chunks, NCHUNKS_PER_SIG=2, the hash tree expands as shown in Figure 6.  The two new chunks, 8 and 10, extend the tree on the right side, and to accommodate them, a new root is created: node 7.  As this tree is wider at the base than the actual number of chunks, there are currently two empty leaves.  The munro node for the new subtree is 9, labeled with a $ sign.
+"ko": |-
+  이 절차를 설명하기 위해 프로세스의 다음 반복을 고려해 보겠습니다. 인젝터는 그림 5에 표시된 현재 트리를 생성했으며 현재 동일한 트리와 모든 소유 청크 0, 2, 4 및 6을 갖는 여러 피어에 연결됩니다. 인젝터가 두 개의 새로운 청크를 생성하면 NCHUNKS_PER_SIG=2, 해시 트리는 그림 6과 같이 확장됩니다. 두 개의 새로운 청크 8과 10은 오른쪽의 트리를 확장하고 이를 수용하기 위해 새로운 루트(노드 7)가 생성됩니다. 실제 청크 수에는 현재 두 개의 빈 리프가 있습니다. 새 하위 트리의 munro 노드는 9이며 $ 기호로 표시됩니다.

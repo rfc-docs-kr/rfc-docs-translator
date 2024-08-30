@@ -1,0 +1,31 @@
+"hash": |-
+  90330176d54722b3b974cbed6d3e8d240a07d0cffd790aeadbba75beb76cf8d7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Many IMAP clients present the user with a hierarchical view of the
+     mailboxes that a user has access to.  Rather than initially
+     presenting the entire mailbox hierarchy to the user, it is often
+     preferable to show the user a collapsed outline list of the mailbox
+     hierarchy (particularly if there is a large number of mailboxes).
+     The user can then expand the collapsed outline hierarchy as needed.
+     It is common to include a visual clue (such as a ''+'') within the
+     collapsed hierarchy to indicate that there are child mailboxes under
+     a particular mailbox.  When the visual clue is clicked, the hierarchy
+     list is expanded to show the child mailboxes.  The CHILDREN return
+     option provides a mechanism for a client to efficiently determine
+     whether a particular mailbox has children, without issuing a LIST ""
+     * or a LIST "" % for each mailbox name.  The CHILDREN return option
+     defines two new attributes that MUST be returned within a LIST
+     response: \HasChildren and \HasNoChildren.  Although these attributes
+     MAY be returned in response to any LIST command, the CHILDREN return
+     option is provided to indicate that the client particularly wants
+     this information.  If the CHILDREN return option is present, the
+     server MUST return these attributes even if their computation is
+     expensive.
+"fixed": |-
+  Many IMAP clients present the user with a hierarchical view of the mailboxes that a user has access to.  Rather than initially presenting the entire mailbox hierarchy to the user, it is often preferable to show the user a collapsed outline list of the mailbox hierarchy (particularly if there is a large number of mailboxes). The user can then expand the collapsed outline hierarchy as needed. It is common to include a visual clue (such as a ''+'') within the collapsed hierarchy to indicate that there are child mailboxes under a particular mailbox.  When the visual clue is clicked, the hierarchy list is expanded to show the child mailboxes.  The CHILDREN return option provides a mechanism for a client to efficiently determine whether a particular mailbox has children, without issuing a LIST "" * or a LIST "" % for each mailbox name.  The CHILDREN return option defines two new attributes that MUST be returned within a LIST response: \HasChildren and \HasNoChildren.  Although these attributes MAY be returned in response to any LIST command, the CHILDREN return option is provided to indicate that the client particularly wants this information.  If the CHILDREN return option is present, the server MUST return these attributes even if their computation is expensive.
+"ko": |-
+  많은 IMAP 클라이언트는 사용자가 액세스할 수 있는 사서함의 계층적 보기를 사용자에게 제공합니다.  처음에 전체 사서함 계층 구조를 사용자에게 표시하는 것보다 사서함 계층 구조의 축소된 개요 목록을 사용자에게 표시하는 것이 더 나은 경우가 많습니다(특히 사서함 수가 많은 경우). 그런 다음 사용자는 필요에 따라 축소된 개요 계층 구조를 확장할 수 있습니다. 특정 사서함 아래에 하위 사서함이 있음을 나타내기 위해 축소된 계층 구조 내에 시각적 단서(예: '+'')를 포함하는 것이 일반적입니다.  시각적 단서를 클릭하면 계층 목록이 확장되어 하위 사서함이 표시됩니다.  CHILDREN 반환 옵션은 클라이언트가 각 사서함 이름에 대해 LIST "" * 또는 LIST "" %를 실행하지 않고 특정 사서함에 하위 항목이 있는지 여부를 효율적으로 확인할 수 있는 메커니즘을 제공합니다.  CHILDREN 반환 옵션은 LIST 응답 내에서 반드시 반환되어야 하는 두 가지 새로운 속성인 \HasChildren 및 \HasNoChildren을 정의합니다.  이러한 속성은 LIST 명령에 대한 응답으로 반환될 수 있지만 클라이언트가 특히 이 정보를 원한다는 것을 나타내기 위해 CHILDREN 반환 옵션이 제공됩니다.  CHILDREN 반환 옵션이 있는 경우 서버는 계산 비용이 많이 들더라도 이러한 속성을 반환해야 합니다.

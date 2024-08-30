@@ -1,0 +1,14 @@
+"hash": |-
+  5665908fe2194ed618f2212cdcb93a25141b923eba986db84fd76de75795ebd0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+          The LIST reply for "foo" is returned because it has matching
+          children, but no STATUS reply is returned because "foo" itself
+          doesn't match the selection criteria.
+"fixed": |-
+  - The LIST reply for "foo" is returned because it has matching children, but no STATUS reply is returned because "foo" itself doesn't match the selection criteria.
+"ko": |-
+  - "foo"에 대한 LIST 응답은 일치하는 하위 항목이 있기 때문에 반환되지만 "foo" 자체는 선택 기준과 일치하지 않기 때문에 STATUS 응답이 반환되지 않습니다.

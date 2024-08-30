@@ -1,0 +1,19 @@
+"hash": |-
+  a48467f6dd9b4fc2b30eb656a011cb4c1fadf4efbe08cce86b859540f4491488
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This means that, aside from the well-known exception noted below, a
+     sender MUST NOT generate multiple field lines with the same name in a
+     message (whether in the headers or trailers) or append a field line
+     when a field line of the same name already exists in the message,
+     unless that field's definition allows multiple field line values to
+     be recombined as a comma-separated list (i.e., at least one
+     alternative of the field's definition allows a comma-separated list,
+     such as an ABNF rule of #(values) defined in Section 5.6.1).
+"fixed": |-
+  This means that, aside from the well-known exception noted below, a sender MUST NOT generate multiple field lines with the same name in a message (whether in the headers or trailers) or append a field line when a field line of the same name already exists in the message, unless that field's definition allows multiple field line values to be recombined as a comma-separated list (i.e., at least one alternative of the field's definition allows a comma-separated list, such as an ABNF rule of #(values) defined in Section 5.6.1).
+"ko": |-
+  이는 아래에 언급된 잘 알려진 예외를 제외하고 발신자는 메시지(헤더 또는 트레일러에 관계없이)에서 동일한 이름을 가진 여러 필드 행을 생성하거나 동일한 이름의 필드 행이 있을 때 필드 행을 추가해서는 안 된다는 것을 의미합니다. 해당 필드의 정의가 여러 필드 줄 값을 쉼표로 구분된 목록으로 재결합하는 것을 허용하지 않는 한 메시지에 이미 존재합니다. 즉, 필드 정의의 적어도 하나의 대안이 #(의 ABNF 규칙과 같이 쉼표로 구분된 목록을 허용합니다. 값) 섹션 5.6.1)에 정의되어 있습니다.

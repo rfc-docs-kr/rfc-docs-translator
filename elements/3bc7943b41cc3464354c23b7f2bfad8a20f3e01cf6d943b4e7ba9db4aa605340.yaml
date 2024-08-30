@@ -1,0 +1,20 @@
+"hash": |-
+  3bc7943b41cc3464354c23b7f2bfad8a20f3e01cf6d943b4e7ba9db4aa605340
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       ############################################################
+       def _IsAlpha2CodeCorrect(self, alpha2code):
+         if len(alpha2code) == 0:
+           return True
+         if len(alpha2code) != 2 or not alpha2code.isalpha():
+           self._ReportError(
+               'Alpha 2 code must be in the ISO 3166-1 alpha 2 format.')
+           return False
+         return True
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

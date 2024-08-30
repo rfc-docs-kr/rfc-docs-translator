@@ -1,0 +1,15 @@
+"hash": |-
+  d619d23a091c875f04bb0799e467932a324d1314a31be5af654746ba87cf7c2c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Implementations MUST accept non-canonical values and process them as
+     if they had been reduced modulo the field prime.  The non-canonical
+     values are 2^255 - 19 through 2^255 - 1 for X25519 and 2^448 - 2^224
+     - 1 through 2^448 - 1 for X448.
+"fixed": |-
+  Implementations MUST accept non-canonical values and process them as if they had been reduced modulo the field prime.  The non-canonical values are 2^255 - 19 through 2^255 - 1 for X25519 and 2^448 - 2^224 - 1 through 2^448 - 1 for X448.
+"ko": |-
+  구현은 반드시 비정규 값을 수용하고 필드 소수의 모듈로 축소된 것처럼 처리해야 합니다. 비표준 값은 X25519의 경우 2^255 - 19부터 2^255 - 1까지이고 X448의 경우 2^448 - 2^224 - 1부터 2^448 - 1까지입니다.

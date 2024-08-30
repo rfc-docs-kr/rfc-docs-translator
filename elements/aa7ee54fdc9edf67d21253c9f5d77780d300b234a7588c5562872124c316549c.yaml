@@ -1,0 +1,20 @@
+"hash": |-
+  aa7ee54fdc9edf67d21253c9f5d77780d300b234a7588c5562872124c316549c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A sender SHOULD avoid retransmitting information from packets once
+     they are acknowledged.  This includes packets that are acknowledged
+     after being declared lost, which can happen in the presence of
+     network reordering.  Doing so requires senders to retain information
+     about packets after they are declared lost.  A sender can discard
+     this information after a period of time elapses that adequately
+     allows for reordering, such as a PTO (Section 6.2 of
+     [QUIC-RECOVERY]), or based on other events, such as reaching a memory
+     limit.
+"fixed": |-
+  A sender SHOULD avoid retransmitting information from packets once they are acknowledged.  This includes packets that are acknowledged after being declared lost, which can happen in the presence of network reordering.  Doing so requires senders to retain information about packets after they are declared lost.  A sender can discard this information after a period of time elapses that adequately allows for reordering, such as a PTO (Section 6.2 of [QUIC-RECOVERY]), or based on other events, such as reaching a memory limit.
+"ko": |-
+  발신자는 패킷이 확인되면 패킷에서 정보를 재전송하는 것을 피해야 합니다. 여기에는 네트워크 재정렬이 있을 때 발생할 수 있는 손실 선언 후 승인된 패킷이 포함됩니다. 이렇게 하려면 패킷이 손실되었다고 선언된 후 발신자가 패킷에 대한 정보를 보관해야 합니다. 발신자는 PTO([QUIC-RECOVERY]의 섹션 6.2)와 같이 재정렬을 적절하게 허용하는 일정 기간이 경과한 후 또는 메모리 제한에 도달하는 것과 같은 기타 이벤트를 기반으로 이 정보를 삭제할 수 있습니다.

@@ -1,0 +1,22 @@
+"hash": |-
+  1366c6242554d36dfae8f1edab2f4d53bfe0524d27898e9e864389ec534fe6da
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     a session attribute.  If the offerer wishes to only receive media
+     from its peer, it MUST mark the stream as recvonly.  If the offerer
+     wishes to communicate, but wishes to neither send nor receive media
+     at this time, it MUST mark the stream with an "a=inactive" attribute.
+     The inactive direction attribute is specified in RFC 3108 [3].  Note
+     that in the case of the Real Time Transport Protocol (RTP) [4], RTCP
+     is still sent and received for sendonly, recvonly, and inactive
+     streams.  That is, the directionality of the media stream has no
+     impact on the RTCP usage.  If the offerer wishes to both send and
+     receive media with its peer, it MAY include an "a=sendrecv"
+     attribute, or it MAY omit it, since sendrecv is the default.
+"fixed": |-
+  a session attribute.  If the offerer wishes to only receive media from its peer, it MUST mark the stream as recvonly.  If the offerer wishes to communicate, but wishes to neither send nor receive media at this time, it MUST mark the stream with an "a=inactive" attribute. The inactive direction attribute is specified in RFC 3108 [3].  Note that in the case of the Real Time Transport Protocol (RTP) [4], RTCP is still sent and received for sendonly, recvonly, and inactive streams.  That is, the directionality of the media stream has no impact on the RTCP usage.  If the offerer wishes to both send and receive media with its peer, it MAY include an "a=sendrecv" attribute, or it MAY omit it, since sendrecv is the default.
+"ko": |-
+  세션 속성. 제공자가 피어로부터 미디어만 수신하고자 하는 경우 스트림을 recvonly로 표시해야 합니다. 제공자가 통신을 원하지만 현재 미디어를 보내거나 받지 않으려는 경우 스트림을 "a=inactive" 속성으로 표시해야 합니다. 비활성 방향 속성은 RFC 3108 [3]에 지정되어 있습니다. 실시간 전송 프로토콜(RTP) [4]의 경우 RTCP는 여전히 sendonly, recvonly 및 inactive 스트림에 대해 송수신됩니다. 즉, 미디어 스트림의 방향성은 RTCP 사용에 영향을 미치지 않습니다. 제공자가 피어와 미디어를 보내고 받으려는 경우 "a=sendrecv" 속성을 포함하거나 sendrecv가 기본값이므로 이를 생략할 수 있습니다.

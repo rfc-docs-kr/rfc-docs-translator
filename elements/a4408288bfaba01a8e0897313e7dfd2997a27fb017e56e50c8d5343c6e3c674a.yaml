@@ -1,0 +1,17 @@
+"hash": |-
+  a4408288bfaba01a8e0897313e7dfd2997a27fb017e56e50c8d5343c6e3c674a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  A client will always know whether the server has Handshake keys
+        (see Section 17.2.2.1), but it is possible that a server does not
+        know whether the client has Handshake keys.  Under these
+        circumstances, a server SHOULD send a CONNECTION_CLOSE frame in
+        both Handshake and Initial packets to ensure that at least one of
+        them is processable by the client.
+"fixed": |-
+  *  A client will always know whether the server has Handshake keys (see Section 17.2.2.1), but it is possible that a server does not know whether the client has Handshake keys.  Under these circumstances, a server SHOULD send a CONNECTION_CLOSE frame in both Handshake and Initial packets to ensure that at least one of them is processable by the client.
+"ko": |-
+  * 클라이언트는 서버가 핸드셰이크 키를 가지고 있는지 항상 알지만(섹션 17.2.2.1 참조), 서버는 클라이언트가 핸드셰이크 키를 가지고 있는지 알지 못할 수도 있습니다. 이러한 상황에서 서버는 핸드셰이크 및 초기 패킷 모두에서 CONNECTION_CLOSE 프레임을 보내 클라이언트가 그 중 적어도 하나를 처리할 수 있는지 확인해야 합니다.

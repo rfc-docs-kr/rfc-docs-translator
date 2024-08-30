@@ -1,0 +1,17 @@
+"hash": |-
+  fc0387d11b92fa2af016c7c6aca03bb4f4ea8a37dc75c25f3f8f03673a3884f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Path validation is not designed as a NAT traversal mechanism.  Though
+     the mechanism described here might be effective for the creation of
+     NAT bindings that support NAT traversal, the expectation is that one
+     endpoint is able to receive packets without first having sent a
+     packet on that path.  Effective NAT traversal needs additional
+     synchronization mechanisms that are not provided here.
+"fixed": |-
+  Path validation is not designed as a NAT traversal mechanism.  Though the mechanism described here might be effective for the creation of NAT bindings that support NAT traversal, the expectation is that one endpoint is able to receive packets without first having sent a packet on that path.  Effective NAT traversal needs additional synchronization mechanisms that are not provided here.
+"ko": |-
+  경로 검증은 NAT 통과 메커니즘으로 설계되지 않았습니다. 여기에 설명된 메커니즘은 NAT 통과를 지원하는 NAT 바인딩을 만드는 데 효과적일 수 있지만 한 끝점은 먼저 해당 경로에서 패킷을 보내지 않고도 패킷을 수신할 수 있을 것으로 예상됩니다. 효과적인 NAT 통과에는 여기에 제공되지 않은 추가 동기화 메커니즘이 필요합니다.

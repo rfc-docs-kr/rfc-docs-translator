@@ -1,0 +1,14 @@
+"hash": |-
+  70227591e881283b43500843aea9ed43bc057eab7ea850c481e6944b67067717
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A receiver MUST close the connection with an error of type
+     FLOW_CONTROL_ERROR if the sender violates the advertised connection
+     or stream data limits; see Section 11 for details on error handling.
+"fixed": |-
+  A receiver MUST close the connection with an error of type FLOW_CONTROL_ERROR if the sender violates the advertised connection or stream data limits; see Section 11 for details on error handling.
+"ko": |-
+  발신자가 광고된 연결 또는 스트림 데이터 제한을 위반하는 경우 수신자는 FLOW_Control_ERROR 유형의 오류와 함께 연결을 닫아야 합니다. 오류 처리에 대한 자세한 내용은 섹션 11을 참조하세요.

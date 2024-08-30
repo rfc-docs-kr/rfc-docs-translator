@@ -1,0 +1,15 @@
+"hash": |-
+  3650b8d26eb67a3661349a38fdbd2957be5e921a840d5f2358de60c821cc50ee
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The BWS rule is used where the grammar allows optional whitespace
+     only for historical reasons.  A sender MUST NOT generate BWS in
+     messages.  A recipient MUST parse for such bad whitespace and remove
+     it before interpreting the protocol element.
+"fixed": |-
+  The BWS rule is used where the grammar allows optional whitespace only for historical reasons.  A sender MUST NOT generate BWS in messages.  A recipient MUST parse for such bad whitespace and remove it before interpreting the protocol element.
+"ko": |-
+  BWS 규칙은 문법이 역사적인 이유로 선택적 공백을 허용하는 경우에만 사용됩니다. 발신자는 메시지에서 BWS를 생성해서는 안 됩니다. 수신자는 프로토콜 요소를 해석하기 전에 잘못된 공백을 구문 분석하고 제거해야 합니다.

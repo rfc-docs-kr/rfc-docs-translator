@@ -1,0 +1,17 @@
+"hash": |-
+  51ad8c1e93ff9a524af6d01791c41b5d8e302123b3c3b74e27ac9b10f17b3ed7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that is only sending non-ack-eliciting packets might
+     choose to occasionally add an ack-eliciting frame to those packets to
+     ensure that it receives an acknowledgment; see Section 13.2.4.  In
+     that case, an endpoint MUST NOT send an ack-eliciting frame in all
+     packets that would otherwise be non-ack-eliciting, to avoid an
+     infinite feedback loop of acknowledgments.
+"fixed": |-
+  An endpoint that is only sending non-ack-eliciting packets might choose to occasionally add an ack-eliciting frame to those packets to ensure that it receives an acknowledgment; see Section 13.2.4.  In that case, an endpoint MUST NOT send an ack-eliciting frame in all packets that would otherwise be non-ack-eliciting, to avoid an infinite feedback loop of acknowledgments.
+"ko": |-
+  승인을 받지 않은 패킷만 전송하는 엔드포인트는 승인을 받을 수 있도록 때때로 해당 패킷에 승인을 유도하는 프레임을 추가하도록 선택할 수 있습니다. 섹션 13.2.4를 참조하세요. 이 경우 엔드포인트는 승인의 무한 피드백 루프를 피하기 위해 승인을 유도하지 않는 모든 패킷에서 승인을 유도하는 프레임을 전송해서는 안 됩니다.

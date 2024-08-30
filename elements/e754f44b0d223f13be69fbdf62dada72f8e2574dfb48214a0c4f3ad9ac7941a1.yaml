@@ -1,0 +1,20 @@
+"hash": |-
+  e754f44b0d223f13be69fbdf62dada72f8e2574dfb48214a0c4f3ad9ac7941a1
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because commas (",") are used as the delimiter between members, they
+     need to be treated with care if they are allowed as data within a
+     member.  This is true for both list-based and singleton fields, since
+     a singleton field might be erroneously sent with multiple members and
+     detecting such errors improves interoperability.  Fields that expect
+     to contain a comma within a member, such as within an HTTP-date or
+     URI-reference element, ought to be defined with delimiters around
+     that element to distinguish any comma within that data from potential
+     list separators.
+"fixed": |-
+  Because commas (",") are used as the delimiter between members, they need to be treated with care if they are allowed as data within a member.  This is true for both list-based and singleton fields, since a singleton field might be erroneously sent with multiple members and detecting such errors improves interoperability.  Fields that expect to contain a comma within a member, such as within an HTTP-date or URI-reference element, ought to be defined with delimiters around that element to distinguish any comma within that data from potential list separators.
+"ko": |-
+  쉼표(",")는 멤버 간의 구분 기호로 사용되므로 멤버 내에서 데이터로 허용되는 경우 주의해서 처리해야 합니다. 이는 목록 기반 필드와 싱글톤 필드 모두에 해당됩니다. 싱글톤 필드가 여러 멤버와 함께 잘못 전송될 수 있고 이러한 오류를 감지하면 상호 운용성이 향상되기 때문입니다. HTTP 날짜 또는 URI 참조 요소와 같이 구성원 내에 쉼표가 포함될 것으로 예상되는 필드는 해당 데이터 내의 쉼표를 잠재적인 목록 구분 기호와 구별하기 위해 해당 요소 주위에 구분 기호를 사용하여 정의해야 합니다.

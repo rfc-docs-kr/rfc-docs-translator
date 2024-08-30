@@ -1,0 +1,20 @@
+"hash": |-
+  8f82980ebb4adfca7cba2299d9ffe68611602306e4a5d31d46b284c3982b7218
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The hash functions used in the XMSS signature schemes above are SHA2
+     [RFC6234] or one of the two SHAKE extensible output functions
+     [FIPS202] as indicated by the second token of the URI extension
+     (SHAKE means SHAKE128).  The tree height for XMSS is 10, 16, or 20 as
+     indicated by the third token of the URI extension.  The SHA2 or SHAKE
+     output size is 192, 256, or 512 bits as indicated by the final token
+     of the URI extension.  SHA2 with 192 bits of output means
+     SHA2-256/192, that is, the most significant 192 bits of the SHA-256
+     hash as specified in [NIST800-208].
+"fixed": |-
+  The hash functions used in the XMSS signature schemes above are SHA2 [RFC6234] or one of the two SHAKE extensible output functions [FIPS202] as indicated by the second token of the URI extension (SHAKE means SHAKE128).  The tree height for XMSS is 10, 16, or 20 as indicated by the third token of the URI extension.  The SHA2 or SHAKE output size is 192, 256, or 512 bits as indicated by the final token of the URI extension.  SHA2 with 192 bits of output means SHA2-256/192, that is, the most significant 192 bits of the SHA-256 hash as specified in [NIST800-208].
+"ko": |-
+  위의 XMSS 서명 체계에 사용되는 해시 함수는 SHA2 [RFC6234] 또는 URI 확장의 두 번째 토큰(SHAKE는 SHAKE128을 의미)으로 표시되는 두 개의 SHAKE 확장 가능 출력 함수[FIPS202] 중 하나입니다. XMSS의 트리 높이는 URI 확장의 세 번째 토큰에 표시된 대로 10, 16 또는 20입니다. SHA2 또는 SHAKE 출력 크기는 URI 확장의 최종 토큰에 표시된 대로 192, 256 또는 512비트입니다. 192비트 출력의 SHA2는 SHA2-256/192, 즉 [NIST800-208]에 지정된 SHA-256 해시의 최상위 192비트를 의미합니다.

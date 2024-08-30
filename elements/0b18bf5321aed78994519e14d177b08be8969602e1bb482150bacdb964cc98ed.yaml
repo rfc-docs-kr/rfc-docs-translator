@@ -1,0 +1,16 @@
+"hash": |-
+  0b18bf5321aed78994519e14d177b08be8969602e1bb482150bacdb964cc98ed
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Clients MUST discard Retry packets that have a Retry Integrity Tag
+     that cannot be validated; see Section 5.8 of [QUIC-TLS].  This
+     diminishes an attacker's ability to inject a Retry packet and
+     protects against accidental corruption of Retry packets.  A client
+     MUST discard a Retry packet with a zero-length Retry Token field.
+"fixed": |-
+  Clients MUST discard Retry packets that have a Retry Integrity Tag that cannot be validated; see Section 5.8 of [QUIC-TLS].  This diminishes an attacker's ability to inject a Retry packet and protects against accidental corruption of Retry packets.  A client MUST discard a Retry packet with a zero-length Retry Token field.
+"ko": |-
+  클라이언트는 검증할 수 없는 재시도 무결성 태그가 있는 재시도 패킷을 폐기해야 합니다. [QUIC-TLS]의 섹션 5.8을 참조하세요. 이로 인해 재시도 패킷을 삽입하는 공격자의 능력이 감소하고 재시도 패킷이 우발적으로 손상되는 것을 방지할 수 있습니다. 클라이언트는 길이가 0인 재시도 토큰 필드가 있는 재시도 패킷을 폐기해야 합니다.

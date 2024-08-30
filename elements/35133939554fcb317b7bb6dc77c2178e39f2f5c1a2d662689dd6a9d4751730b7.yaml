@@ -1,0 +1,18 @@
+"hash": |-
+  35133939554fcb317b7bb6dc77c2178e39f2f5c1a2d662689dd6a9d4751730b7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The START-SESSION method starts a speaker verification or speaker
+     identification session.  Execution of this method places the verifier
+     resource into its initial state.  If this method is called during an
+     ongoing verification session, the previous session is implicitly
+     aborted.  If this method is invoked when VERIFY or VERIFY-FROM-BUFFER
+     is active, the method fails and the server returns a status-code of
+     402.
+"fixed": |-
+  The START-SESSION method starts a speaker verification or speaker identification session.  Execution of this method places the verifier resource into its initial state.  If this method is called during an ongoing verification session, the previous session is implicitly aborted.  If this method is invoked when VERIFY or VERIFY-FROM-BUFFER is active, the method fails and the server returns a status-code of 402.
+"ko": |-
+  START-SESSION 메서드는 화자 검증 또는 화자 식별 세션을 시작합니다. 이 메서드를 실행하면 검증자 리소스가 초기 상태로 돌아갑니다. 진행 중인 검증 세션 중에 이 메서드를 호출하면 이전 세션이 암묵적으로 중단됩니다. VERIFY 또는 VERIFY-FROM-BUFFER가 활성화되어 있을 때 이 메서드를 호출하면 메서드가 실패하고 서버는 상태 코드 402를 반환합니다.

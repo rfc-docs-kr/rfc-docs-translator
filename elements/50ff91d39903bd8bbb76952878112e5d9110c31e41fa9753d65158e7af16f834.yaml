@@ -1,0 +1,19 @@
+"hash": |-
+  50ff91d39903bd8bbb76952878112e5d9110c31e41fa9753d65158e7af16f834
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The reason for using this slightly vulnerable three-way handshake
+     instead of the safer handshake procedure of Stream Control
+     Transmission Protocol (SCTP) [RFC4960] (Section 5.1) is quicker
+     response time for the user.  In the SCTP procedure, Peers A and B
+     cannot request chunks until datagrams 3 and 4 respectively, as
+     opposed to 2 and 1 in the proposed procedure.  This means that the
+     user has to wait less time in PPSPP between starting the video stream
+     and seeing the first images.
+"fixed": |-
+  The reason for using this slightly vulnerable three-way handshake instead of the safer handshake procedure of Stream Control Transmission Protocol (SCTP) [RFC4960] (Section 5.1) is quicker response time for the user.  In the SCTP procedure, Peers A and B cannot request chunks until datagrams 3 and 4 respectively, as opposed to 2 and 1 in the proposed procedure.  This means that the user has to wait less time in PPSPP between starting the video stream and seeing the first images.
+"ko": |-
+  SCTP(Stream Control Transmission Protocol) [RFC4960](섹션 5.1)의 안전한 핸드셰이크 절차 대신 약간 취약한 이 3방향 핸드셰이크를 사용하는 이유는 사용자의 응답 시간이 더 빠르기 때문입니다. SCTP 절차에서 피어 A와 B는 제안된 절차의 데이터그램 2와 1과 달리 각각 데이터그램 3과 4까지 청크를 요청할 수 없습니다. 이는 사용자가 비디오 스트림을 시작하고 첫 번째 이미지를 보는 사이에 PPSPP에서 더 적은 시간을 기다려야 함을 의미합니다.

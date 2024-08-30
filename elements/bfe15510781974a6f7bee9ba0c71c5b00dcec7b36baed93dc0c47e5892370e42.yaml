@@ -1,0 +1,23 @@
+"hash": |-
+  bfe15510781974a6f7bee9ba0c71c5b00dcec7b36baed93dc0c47e5892370e42
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+         select (SignatureAlgorithm)
+         {   case anonymous: struct { };
+             case rsa:
+                 digitally-signed struct {
+                     opaque md5_hash[16];
+                     opaque sha_hash[20];
+                 };
+             case dsa:
+                 digitally-signed struct {
+                     opaque sha_hash[20];
+                 };
+         } Signature;
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

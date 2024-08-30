@@ -1,0 +1,17 @@
+"hash": |-
+  97e825ba540930d66941e2bf1740f9d5b071cee0970dc28e902fb4216c887929
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A compatible client that rejects a non-compatible server's custom
+     group may decide to retry the connection while omitting all FFDHE
+     cipher suites from the ClientHello.  A client SHOULD only use this
+     approach if it successfully verified the server's expected signature
+     over the ServerDHParams, to avoid being forced by an active attacker
+     into a non-preferred cipher suite.
+"fixed": |-
+  A compatible client that rejects a non-compatible server's custom group may decide to retry the connection while omitting all FFDHE cipher suites from the ClientHello.  A client SHOULD only use this approach if it successfully verified the server's expected signature over the ServerDHParams, to avoid being forced by an active attacker into a non-preferred cipher suite.
+"ko": |-
+  호환되지 않는 서버의 사용자 정의 그룹을 거부하는 호환 가능한 클라이언트는 ClientHello에서 모든 FFDHE 암호화 제품군을 생략하면서 연결을 재시도하기로 결정할 수 있습니다.  클라이언트는 활성 공격자가 선호하지 않는 암호 제품군에 강제로 들어가지 않도록 ServerDHParams를 통해 서버의 예상 서명을 성공적으로 확인한 경우에만 이 접근 방식을 사용해야 합니다.

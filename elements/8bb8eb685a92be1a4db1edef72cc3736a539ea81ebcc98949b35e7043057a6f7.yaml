@@ -1,0 +1,22 @@
+"hash": |-
+  8bb8eb685a92be1a4db1edef72cc3736a539ea81ebcc98949b35e7043057a6f7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Synchronization of the "verify_data" in abbreviated handshakes also
+     undermines the security guarantees of the renegotiation indication
+     extension [RFC5746], re-enabling a prefix-injection flaw similar to
+     the renegotiation attack [Ray09].  However, in a triple handshake
+     attack, the client sees the server certificate changing across
+     different full handshakes.  Hence, a precondition to mount this stage
+     of the attack is that the client accepts different certificates at
+     each handshake, even if their common names do not match.  Before the
+     triple handshake attack was discovered, this used to be widespread
+     behavior, at least among some web browsers; such browsers were hence
+     vulnerable to the attack.
+"fixed": |-
+  Synchronization of the "verify_data" in abbreviated handshakes also undermines the security guarantees of the renegotiation indication extension [RFC5746], re-enabling a prefix-injection flaw similar to the renegotiation attack [Ray09].  However, in a triple handshake attack, the client sees the server certificate changing across different full handshakes.  Hence, a precondition to mount this stage of the attack is that the client accepts different certificates at each handshake, even if their common names do not match.  Before the triple handshake attack was discovered, this used to be widespread behavior, at least among some web browsers; such browsers were hence vulnerable to the attack.
+"ko": |-
+  축약된 핸드셰이크에서 "verify_data"를 동기화하면 재협상 표시 확장 [RFC5746]의 보안 보장도 약화되어 재협상 공격 [Ray09]과 유사한 접두사 주입 결함이 다시 활성화됩니다. 그러나 트리플 핸드셰이크 공격에서 클라이언트는 서버 인증서가 여러 전체 핸드셰이크에서 변경되는 것을 봅니다. 따라서 이 공격 단계를 마운트하기 위한 전제 조건은 클라이언트가 일반 이름이 일치하지 않더라도 각 핸드셰이크에서 다른 인증서를 수락한다는 것입니다. 트리플 핸드셰이크 공격이 발견되기 전에는 적어도 일부 웹 브라우저에서 이러한 동작이 널리 퍼졌습니다. 따라서 이러한 브라우저는 공격에 취약했습니다.

@@ -1,0 +1,17 @@
+"hash": |-
+  cf13b27be72df93d43702e4f8ab1c44beb1ae4bbebde5b86fd16f8e0013c63fa
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+   x509Certificate BAG-TYPE ::=
+       {OCTET STRING IDENTIFIED BY {certTypes 1}}
+       -- DER-encoded X.509 certificate stored in OCTET STRING
+   sdsiCertificate BAG-TYPE ::=
+       {IA5String IDENTIFIED BY {certTypes 2}}
+       -- Base64-encoded SDSI certificate stored in IA5String
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

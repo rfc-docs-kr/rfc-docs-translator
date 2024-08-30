@@ -1,0 +1,17 @@
+"hash": |-
+  b91c4a57cda4252a3c287281762ef90330ced9e3744f9c4043aa57df9e3c5bef
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     It is important to note that in both cases these attacks are possible
+     because the client sends unsolicited authentication information
+     without requiring any specific data from the server over the TLS
+     connection.  Protocols that require a round trip to the server over
+     TLS before the client sends sensitive information are likely to be
+     less vulnerable.
+"fixed": |-
+  It is important to note that in both cases these attacks are possible because the client sends unsolicited authentication information without requiring any specific data from the server over the TLS connection.  Protocols that require a round trip to the server over TLS before the client sends sensitive information are likely to be less vulnerable.
+"ko": |-
+  두 경우 모두 클라이언트가 TLS 연결을 통해 서버의 특정 데이터를 요구하지 않고 원치 않는 인증 정보를 보내기 때문에 이러한 공격이 가능하다는 점에 유의하는 것이 중요합니다. 클라이언트가 중요한 정보를 보내기 전에 TLS를 통해 서버로 왕복해야 하는 프로토콜은 덜 취약할 가능성이 높습니다.

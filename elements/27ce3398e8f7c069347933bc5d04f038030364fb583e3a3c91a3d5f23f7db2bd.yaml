@@ -1,0 +1,20 @@
+"hash": |-
+  27ce3398e8f7c069347933bc5d04f038030364fb583e3a3c91a3d5f23f7db2bd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Access to URIs provided by servers introduces risks that need to be
+     considered.  Although RFC 6454 [RFC6454] discusses and focuses on a
+     same-origin policy, which MRCPv2 does not restrict URIs to, it still
+     provides an excellent description of the pitfalls of blindly
+     following server-provided URIs in Section 3 of the RFC.  Servers also
+     need to be aware that clients could provide URIs to sites designed to
+     tie up the server in long or otherwise problematic document fetches.
+     MRCPv2 servers, and the services they access, MUST always be prepared
+     for the possibility of such a denial-of-service attack.
+"fixed": |-
+  Access to URIs provided by servers introduces risks that need to be considered.  Although RFC 6454 [RFC6454] discusses and focuses on a same-origin policy, which MRCPv2 does not restrict URIs to, it still provides an excellent description of the pitfalls of blindly following server-provided URIs in Section 3 of the RFC.  Servers also need to be aware that clients could provide URIs to sites designed to tie up the server in long or otherwise problematic document fetches. MRCPv2 servers, and the services they access, MUST always be prepared for the possibility of such a denial-of-service attack.
+"ko": |-
+  서버에서 제공하는 URI에 대한 액세스는 고려해야 할 위험을 초래합니다. RFC 6454[RFC6454]는 MRCPv2가 URI를 제한하지 않는 동일 출처 정책을 논의하고 집중하지만 RFC의 섹션 3에서 서버가 제공하는 URI를 맹목적으로 따르는 것의 함정에 대한 훌륭한 설명을 제공합니다. 서버는 또한 클라이언트가 서버를 긴 또는 문제가 있는 문서 페치에 묶어두도록 설계된 사이트에 URI를 제공할 수 있다는 사실을 알고 있어야 합니다. MRCPv2 서버와 액세스하는 서비스는 항상 이러한 서비스 거부 공격 가능성에 대비해야 합니다.

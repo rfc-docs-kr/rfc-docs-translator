@@ -1,0 +1,19 @@
+"hash": |-
+  3da6f862365f314194b4917df5fcdf884e7ff32cc589bed78172fe7b469806ad
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     TLS 1.3 [RFC8446] follows the same practice of specifying the PSK
+     identity as a sequence of opaque bytes (shown as opaque
+     identity<1..2^16-1> in the specification) that thus is compared on a
+     byte-by-byte basis.  [RFC8446] also requires that the PSK identities
+     are at least 1 byte and at the most 65535 bytes in length.  Although
+     [RFC8446] does not place strict requirements on the format of PSK
+     identities, note that the format of PSK identities can vary depending
+     on the deployment:
+"fixed": |-
+  TLS 1.3 [RFC8446] follows the same practice of specifying the PSK identity as a sequence of opaque bytes (shown as opaque identity<1..2^16-1> in the specification) that thus is compared on a byte-by-byte basis.  [RFC8446] also requires that the PSK identities are at least 1 byte and at the most 65535 bytes in length.  Although [RFC8446] does not place strict requirements on the format of PSK identities, note that the format of PSK identities can vary depending on the deployment:
+"ko": |-
+  TLS 1.3 [RFC8446]은 PSK ID를 바이트 단위로 비교되는 불투명 바이트 시퀀스(사양에서 불투명 ID<1..2^16-1>로 표시됨)로 지정하는 것과 동일한 방식을 따릅니다. 기초.  [RFC8446]에서는 PSK ID의 길이가 최소 1바이트, 최대 65535바이트여야 합니다.  [RFC8446]은 PSK ID 형식에 대해 엄격한 요구 사항을 제시하지 않지만 PSK ID 형식은 배포에 따라 달라질 수 있습니다.

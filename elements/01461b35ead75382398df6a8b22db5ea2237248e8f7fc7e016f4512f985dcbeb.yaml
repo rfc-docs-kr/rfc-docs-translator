@@ -1,0 +1,16 @@
+"hash": |-
+  01461b35ead75382398df6a8b22db5ea2237248e8f7fc7e016f4512f985dcbeb
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This comparison can be performed for every inbound datagram.
+     Endpoints MAY skip this check if any packet from a datagram is
+     successfully processed.  However, the comparison MUST be performed
+     when the first packet in an incoming datagram either cannot be
+     associated with a connection or cannot be decrypted.
+"fixed": |-
+  This comparison can be performed for every inbound datagram. Endpoints MAY skip this check if any packet from a datagram is successfully processed.  However, the comparison MUST be performed when the first packet in an incoming datagram either cannot be associated with a connection or cannot be decrypted.
+"ko": |-
+  이 비교는 모든 인바운드 데이터그램에 대해 수행될 수 있습니다. 데이터그램의 패킷이 성공적으로 처리되면 엔드포인트는 이 검사를 건너뛸 수 있습니다. 그러나 들어오는 데이터그램의 첫 번째 패킷이 연결과 연결될 수 없거나 해독될 수 없는 경우 비교가 수행되어야 합니다.

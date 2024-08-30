@@ -1,0 +1,1 @@
+STOP 요청은 Active-Request-Id-List 헤더 필드와 함께 보내어 대기열에 있을 수 있는 0개 이상의 특정 SPEAK 요청을 중지하고 응답 상태 코드 200 "Success"를 반환할 수 있습니다. STOP 요청에서 Active-Request-Id-List 헤더 필드가 전송되지 않으면 서버는 모든 미처리 SPEAK 요청을 종료합니다.

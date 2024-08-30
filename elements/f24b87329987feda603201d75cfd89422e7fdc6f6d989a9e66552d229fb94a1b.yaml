@@ -1,0 +1,15 @@
+"hash": |-
+  f24b87329987feda603201d75cfd89422e7fdc6f6d989a9e66552d229fb94a1b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     record_overflow
+         A TLSCiphertext record was received which had a length more than
+         2^14+2048 bytes, or a record decrypted to a TLSCompressed record
+         with more than 2^14+1024 bytes. This message is always fatal.
+"fixed": |-
+  record_overflow  -   A TLSCiphertext record was received which had a length more than 2^14+2048 bytes, or a record decrypted to a TLSCompressed record with more than 2^14+1024 bytes. This message is always fatal.
+"ko": |-
+  Record_overflow - 길이가 2^14+2048바이트를 초과하는 TLSCiphertext 레코드가 수신되었거나 2^14+1024바이트를 초과하는 TLSCompressed 레코드로 암호 해독된 레코드가 수신되었습니다. 이 메시지는 항상 치명적입니다.

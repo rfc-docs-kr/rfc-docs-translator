@@ -1,0 +1,19 @@
+"hash": |-
+  770999bc2823bbedb78a96461ddf013cfe1155ef4741a630697d114e5bf6c6f0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     UAs MUST only include forward references in the SIP messages they
+     generate.  That is, an element in a SIP message can reference a body
+     part only if the body part appears after the element.  Consequently,
+     a given body part can only be referenced by another body part that
+     appears before it or by a header field.  Having only forward
+     references allows recipients to process body parts as they parse
+     them.  They do not need to parse the remainder of the message in
+     order to process a body part.
+"fixed": |-
+  UAs MUST only include forward references in the SIP messages they generate.  That is, an element in a SIP message can reference a body part only if the body part appears after the element.  Consequently, a given body part can only be referenced by another body part that appears before it or by a header field.  Having only forward references allows recipients to process body parts as they parse them.  They do not need to parse the remainder of the message in order to process a body part.
+"ko": |-
+  UA는 생성하는 SIP 메시지에 전달 참조만 포함해야 합니다. 즉, SIP 메시지의 요소는 본문 부분이 요소 뒤에 나타나는 경우에만 본문 부분을 참조할 수 있습니다. 결과적으로 주어진 본문 부분은 앞에 나타나는 다른 본문 부분이나 헤더 필드에서만 참조할 수 있습니다. 전달 참조만 있으면 수신자는 본문 부분을 구문 분석하면서 처리할 수 있습니다. 본문 부분을 처리하기 위해 메시지의 나머지 부분을 구문 분석할 필요가 없습니다.

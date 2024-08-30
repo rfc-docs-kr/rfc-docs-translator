@@ -1,0 +1,21 @@
+"hash": |-
+  f51d37641d1cbdfa99e11638d966e86be1074417cf26d96606f09712eda66362
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Each PE router needs to maintain a number of separate forwarding
+     tables.  Every site to which the PE is attached must be mapped to one
+     of those forwarding tables.  When a packet is received from a
+     particular site, the forwarding table associated with that site is
+     consulted in order to determine how to route the packet.  The
+     forwarding table associated with a particular site S is populated
+     only with routes that lead to other sites which have at least one VPN
+     in common with S. This prevents communication between sites which
+     have no VPN in common, and it allows two VPNs with no site in common
+     to use address spaces that overlap with each other.
+"fixed": |-
+  Each PE router needs to maintain a number of separate forwarding tables.  Every site to which the PE is attached must be mapped to one of those forwarding tables.  When a packet is received from a particular site, the forwarding table associated with that site is consulted in order to determine how to route the packet.  The forwarding table associated with a particular site S is populated only with routes that lead to other sites which have at least one VPN in common with S. This prevents communication between sites which have no VPN in common, and it allows two VPNs with no site in common to use address spaces that overlap with each other.
+"ko": |-
+  각 PE 라우터는 여러 개의 별도 포워딩 테이블을 유지 관리해야 합니다. PE가 연결된 모든 사이트는 해당 포워딩 테이블 중 하나에 매핑되어야 합니다. 특정 사이트에서 패킷을 수신하면 해당 사이트와 연관된 포워딩 테이블을 참조하여 패킷을 라우팅하는 방법을 결정합니다. 특정 사이트 S와 연관된 포워딩 테이블은 S와 공통된 VPN이 하나 이상 있는 다른 사이트로 이어지는 경로로만 채워집니다. 이렇게 하면 공통된 VPN이 없는 사이트 간의 통신이 방지되고 공통된 사이트가 없는 두 VPN이 서로 겹치는 주소 공간을 사용할 수 있습니다.

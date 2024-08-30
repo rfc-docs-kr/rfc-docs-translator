@@ -1,0 +1,17 @@
+"hash": |-
+  1fcb8b99f395dd31e6e1d0d6f3f1773747004f9e7115ebe09d1aef5030467ba3
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The actual set of allowed methods is defined by the origin server at
+     the time of each request.  An origin server MUST generate an Allow
+     header field in a 405 (Method Not Allowed) response and MAY do so in
+     any other response.  An empty Allow field value indicates that the
+     resource allows no methods, which might occur in a 405 response if
+     the resource has been temporarily disabled by configuration.
+"fixed": |-
+  The actual set of allowed methods is defined by the origin server at the time of each request.  An origin server MUST generate an Allow header field in a 405 (Method Not Allowed) response and MAY do so in any other response.  An empty Allow field value indicates that the resource allows no methods, which might occur in a 405 response if the resource has been temporarily disabled by configuration.
+"ko": |-
+  허용되는 실제 메소드 세트는 각 요청 시 원본 서버에 의해 정의됩니다. 원본 서버는 405(허용되지 않는 메서드) 응답에서 Allow 헤더 필드를 생성해야 하며 다른 응답에서도 그렇게 할 수 있습니다. 비어 있는 허용 필드 값은 리소스가 메서드를 허용하지 않음을 나타냅니다. 이는 리소스가 구성에 의해 일시적으로 비활성화된 경우 405 응답에서 발생할 수 있습니다.

@@ -1,0 +1,19 @@
+"hash": |-
+  cff13b3588020d72f026bcb0b94b600fc9ad522db11057f4eb9cf1423305220f
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The REMOTE selection option has no interaction with other options.
+        Its effect is to tell the server to apply the other options, if
+        any, to remote mailboxes, in addition to local ones.  In
+        particular, it has no interaction with RECURSIVEMATCH (see below).
+        A request for (REMOTE RECURSIVEMATCH) is invalid, because a
+        request for (RECURSIVEMATCH) is also invalid.  A request for
+        (REMOTE RECURSIVEMATCH SUBSCRIBED) is asking for all subscribed
+        mailboxes, both local and remote.
+"fixed": |-
+  - The REMOTE selection option has no interaction with other options. Its effect is to tell the server to apply the other options, if any, to remote mailboxes, in addition to local ones.  In particular, it has no interaction with RECURSIVEMATCH (see below). A request for (REMOTE RECURSIVEMATCH) is invalid, because a request for (RECURSIVEMATCH) is also invalid.  A request for (REMOTE RECURSIVEMATCH SUBSCRIBED) is asking for all subscribed mailboxes, both local and remote.
+"ko": |-
+  - REMOTE 선택 옵션은 다른 옵션과 상호 작용이 없습니다. 그 효과는 로컬 사서함 외에 원격 사서함에 다른 옵션(있는 경우)을 적용하도록 서버에 지시하는 것입니다.  특히 RECURSIVEMATCH와 상호 작용이 없습니다(아래 참조). (RECURSIVEMATCH)에 대한 요청도 유효하지 않기 때문에 (REMOTE RECURSIVEMATCH)에 대한 요청도 유효하지 않습니다.  (REMOTE RECURSIVEMATCH SUBSCRIBED)에 대한 요청은 로컬 및 원격 모두에서 구독된 모든 사서함을 요청합니다.

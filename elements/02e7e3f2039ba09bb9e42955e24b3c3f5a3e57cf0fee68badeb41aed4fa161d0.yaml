@@ -1,0 +1,15 @@
+"hash": |-
+  02e7e3f2039ba09bb9e42955e24b3c3f5a3e57cf0fee68badeb41aed4fa161d0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     After running the block function, we have a 512-bit state.  We take
+     the first 256 bits of the serialized state, and use those as the one-
+     time Poly1305 key: the first 128 bits are clamped and form "r", while
+     the next 128 bits become "s".  The other 256 bits are discarded.
+"fixed": |-
+  After running the block function, we have a 512-bit state.  We take the first 256 bits of the serialized state, and use those as the one- time Poly1305 key: the first 128 bits are clamped and form "r", while the next 128 bits become "s".  The other 256 bits are discarded.
+"ko": |-
+  블록 기능을 실행하면 512비트 상태가 됩니다. 직렬화된 상태의 처음 256비트를 가져와 이를 일회용 Poly1305 키로 사용합니다. 처음 128비트는 고정되어 "r"을 형성하고 다음 128비트는 "s"가 됩니다. 나머지 256비트는 버려집니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  d511669f28489d80b599bddef91ae313e56469ef11ff58787a5f7bad70777547
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     ECN validation also fails if the sum of the increase in ECT(0) and
+     ECN-CE counts is less than the number of newly acknowledged packets
+     that were originally sent with an ECT(0) marking.  Similarly, ECN
+     validation fails if the sum of the increases to ECT(1) and ECN-CE
+     counts is less than the number of newly acknowledged packets sent
+     with an ECT(1) marking.  These checks can detect remarking of ECN-CE
+     markings by the network.
+"fixed": |-
+  ECN validation also fails if the sum of the increase in ECT(0) and ECN-CE counts is less than the number of newly acknowledged packets that were originally sent with an ECT(0) marking.  Similarly, ECN validation fails if the sum of the increases to ECT(1) and ECN-CE counts is less than the number of newly acknowledged packets sent with an ECT(1) marking.  These checks can detect remarking of ECN-CE markings by the network.
+"ko": |-
+  ECT(0) 및 ECN-CE 수의 증가 합계가 원래 ECT(0) 표시와 함께 전송된 새로 승인된 패킷 수보다 작은 경우에도 ECN 검증이 실패합니다. 마찬가지로, ECT(1) 및 ECN-CE 수의 증가 합계가 ECT(1) 표시와 함께 전송된 새로 승인된 패킷 수보다 적으면 ECN 검증이 실패합니다. 이러한 검사를 통해 네트워크의 ECN-CE 표시 표시를 감지할 수 있습니다.

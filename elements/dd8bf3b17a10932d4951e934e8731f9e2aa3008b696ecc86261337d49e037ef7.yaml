@@ -1,0 +1,24 @@
+"hash": |-
+  dd8bf3b17a10932d4951e934e8731f9e2aa3008b696ecc86261337d49e037ef7
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     o  'document-access-error': After accepting a Print-URI or Send-URI
+        request, the Printer could not access one or more Documents passed
+        by reference.  This reason is intended to cover any file access
+        problem, including 'file does not exist' and 'access denied'
+        because of an access control problem.  The Printer MAY also
+        indicate the Document access error using the
+        "job-document-access-errors" Job Status attribute (see
+        Section 5.3.11).  The Printer can (1) abort the Job and move the
+        Job to the 'aborted' Job state or (2) print all Documents that are
+        accessible and move the Job to the 'completed' Job state with the
+        'completed-with-errors' value in the Job's "job-state-reasons"
+        attribute.  This value SHOULD be supported if the Print-URI or
+        Send-URI operations are supported.
+"fixed": |-
+  -  'document-access-error': After accepting a Print-URI or Send-URI request, the Printer could not access one or more Documents passed by reference.  This reason is intended to cover any file access problem, including 'file does not exist' and 'access denied' because of an access control problem.  The Printer MAY also indicate the Document access error using the "job-document-access-errors" Job Status attribute (see Section 5.3.11).  The Printer can (1) abort the Job and move the Job to the 'aborted' Job state or (2) print all Documents that are accessible and move the Job to the 'completed' Job state with the 'completed-with-errors' value in the Job's "job-state-reasons" attribute.  This value SHOULD be supported if the Print-URI or Send-URI operations are supported.
+"ko": |-
+  - 'document-access-error': Print-URI 또는 ​​Send-URI 요청을 수락한 후 프린터가 참조로 전달된 하나 이상의 문서에 액세스할 수 없습니다. 이 이유는 액세스 제어 문제로 인해 '파일이 존재하지 않음' 및 '액세스가 거부됨'을 포함한 모든 파일 액세스 문제를 다루기 위한 것입니다. 프린터는 "job-document-access-errors" 작업 상태 속성을 사용하여 문서 액세스 오류를 나타낼 수도 있습니다(섹션 5.3.11 참조). 프린터는 (1) 작업을 중단하고 작업을 '중단된' 작업 상태로 이동하거나 (2) 액세스 가능한 모든 문서를 인쇄하고 '오류가 있으면 완료'된 작업을 '완료된' 작업 상태로 이동할 수 있습니다. 작업의 "job-state-reasons" 속성 값입니다. Print-URI 또는 ​​Send-URI 작업이 지원되는 경우 이 값을 지원해야 합니다.

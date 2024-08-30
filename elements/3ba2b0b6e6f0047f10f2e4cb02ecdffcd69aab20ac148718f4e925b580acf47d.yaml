@@ -1,0 +1,15 @@
+"hash": |-
+  3ba2b0b6e6f0047f10f2e4cb02ecdffcd69aab20ac148718f4e925b580acf47d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The Printer MUST return the Job's REQUIRED "job-state"
+           attribute.  The value of this attribute along with the value of
+           the "job-state-reasons" attribute is a "snapshot" of the new
+           Job's state when the Printer returns the response.
+"fixed": |-
+  - The Printer MUST return the Job's REQUIRED "job-state" attribute.  The value of this attribute along with the value of the "job-state-reasons" attribute is a "snapshot" of the new Job's state when the Printer returns the response.
+"ko": |-
+  - 프린터는 작업의 필수 "job-state" 속성을 반환해야 합니다. "job-state-reasons" 속성 값과 함께 이 속성 값은 프린터가 응답을 반환할 때 새 작업 상태의 "스냅샷"입니다.

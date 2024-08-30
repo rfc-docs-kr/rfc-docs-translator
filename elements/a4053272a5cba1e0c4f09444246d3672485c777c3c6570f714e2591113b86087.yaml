@@ -1,0 +1,50 @@
+"hash": |-
+  a4053272a5cba1e0c4f09444246d3672485c777c3c6570f714e2591113b86087
+"type": |-
+  TableOfContent
+"comment": !!null |-
+  null
+"original": |2-
+     1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   4
+       1.1.  Conventions Used in This Document . . . . . . . . . . . .   5
+     2.  The Algorithms  . . . . . . . . . . . . . . . . . . . . . . .   5
+       2.1.  The ChaCha Quarter Round  . . . . . . . . . . . . . . . .   5
+         2.1.1.  Test Vector for the ChaCha Quarter Round  . . . . . .   6
+       2.2.  A Quarter Round on the ChaCha State . . . . . . . . . . .   6
+         2.2.1.  Test Vector for the Quarter Round on the ChaCha State   7
+       2.3.  The ChaCha20 Block Function . . . . . . . . . . . . . . .   7
+         2.3.1.  The ChaCha20 Block Function in Pseudocode . . . . . .   9
+         2.3.2.  Test Vector for the ChaCha20 Block Function . . . . .  10
+       2.4.  The ChaCha20 Encryption Algorithm . . . . . . . . . . . .  11
+         2.4.1.  The ChaCha20 Encryption Algorithm in Pseudocode . . .  12
+         2.4.2.  Example and Test Vector for the ChaCha20 Cipher . . .  12
+       2.5.  The Poly1305 Algorithm  . . . . . . . . . . . . . . . . .  14
+         2.5.1.  The Poly1305 Algorithms in Pseudocode . . . . . . . .  16
+         2.5.2.  Poly1305 Example and Test Vector  . . . . . . . . . .  17
+       2.6.  Generating the Poly1305 Key Using ChaCha20  . . . . . . .  18
+         2.6.1.  Poly1305 Key Generation in Pseudocode . . . . . . . .  19
+         2.6.2.  Poly1305 Key Generation Test Vector . . . . . . . . .  19
+       2.7.  A Pseudorandom Function for Crypto Suites Based on
+             ChaCha/Poly1305 . . . . . . . . . . . . . . . . . . . . .  20
+       2.8.  AEAD Construction . . . . . . . . . . . . . . . . . . . .  20
+         2.8.1.  Pseudocode for the AEAD Construction  . . . . . . . .  23
+         2.8.2.  Example and Test Vector for AEAD_CHACHA20_POLY1305  .  23
+     3.  Implementation Advice . . . . . . . . . . . . . . . . . . . .  25
+     4.  Security Considerations . . . . . . . . . . . . . . . . . . .  26
+     5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  27
+     6.  References  . . . . . . . . . . . . . . . . . . . . . . . . .  27
+       6.1.  Normative References  . . . . . . . . . . . . . . . . . .  27
+       6.2.  Informative References  . . . . . . . . . . . . . . . . .  28
+     Appendix A.  Additional Test Vectors  . . . . . . . . . . . . . .  30
+       A.1.  The ChaCha20 Block Functions  . . . . . . . . . . . . . .  30
+       A.2.  ChaCha20 Encryption . . . . . . . . . . . . . . . . . . .  33
+       A.3.  Poly1305 Message Authentication Code  . . . . . . . . . .  36
+       A.4.  Poly1305 Key Generation Using ChaCha20  . . . . . . . . .  41
+       A.5.  ChaCha20-Poly1305 AEAD Decryption . . . . . . . . . . . .  42
+     Appendix B.  Performance Measurements of ChaCha20 . . . . . . . .  45
+     Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .  46
+     Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  46
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

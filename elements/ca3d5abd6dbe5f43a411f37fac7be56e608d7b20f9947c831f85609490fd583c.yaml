@@ -1,0 +1,18 @@
+"hash": |-
+  ca3d5abd6dbe5f43a411f37fac7be56e608d7b20f9947c831f85609490fd583c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A client MAY send an If-Match header field in a GET request to
+     indicate that it would prefer a 412 (Precondition Failed) response if
+     the selected representation does not match.  However, this is only
+     useful in range requests (Section 14) for completing a previously
+     received partial representation when there is no desire for a new
+     representation.  If-Range (Section 13.1.5) is better suited for range
+     requests when the client prefers to receive a new representation.
+"fixed": |-
+  A client MAY send an If-Match header field in a GET request to indicate that it would prefer a 412 (Precondition Failed) response if the selected representation does not match.  However, this is only useful in range requests (Section 14) for completing a previously received partial representation when there is no desire for a new representation.  If-Range (Section 13.1.5) is better suited for range requests when the client prefers to receive a new representation.
+"ko": |-
+  클라이언트는 선택한 표현이 일치하지 않는 경우 412(전제 조건 실패) 응답을 선호함을 나타내기 위해 GET 요청에 If-Match 헤더 필드를 보낼 수 있습니다. 그러나 이는 새로운 표현을 원하지 않을 때 이전에 수신된 부분 표현을 완성하기 위한 범위 요청(섹션 14)에만 유용합니다. If-Range(13.1.5절)는 클라이언트가 새로운 표현 수신을 선호할 때 범위 요청에 더 적합합니다.

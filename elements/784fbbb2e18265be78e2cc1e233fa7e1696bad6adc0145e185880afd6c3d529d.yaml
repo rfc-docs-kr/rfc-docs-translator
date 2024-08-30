@@ -1,0 +1,17 @@
+"hash": |-
+  784fbbb2e18265be78e2cc1e233fa7e1696bad6adc0145e185880afd6c3d529d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a STOP request successfully terminated one or more PENDING or
+     IN-PROGRESS SPEAK requests, then the response MUST contain an Active-
+     Request-Id-List header field enumerating the SPEAK request-ids that
+     were terminated.  Otherwise, there is no Active-Request-Id-List
+     header field in the response.  No SPEAK-COMPLETE events are sent for
+     such terminated requests.
+"fixed": |-
+  If a STOP request successfully terminated one or more PENDING or IN-PROGRESS SPEAK requests, then the response MUST contain an Active- Request-Id-List header field enumerating the SPEAK request-ids that were terminated.  Otherwise, there is no Active-Request-Id-List header field in the response.  No SPEAK-COMPLETE events are sent for such terminated requests.
+"ko": |-
+  STOP 요청이 하나 이상의 PENDING 또는 IN-PROGRESS SPEAK 요청을 성공적으로 종료한 경우 응답에는 종료된 SPEAK 요청 ID를 열거하는 Active-Request-Id-List 헤더 필드가 포함되어야 합니다. 그렇지 않은 경우 응답에 Active-Request-Id-List 헤더 필드가 없습니다. 이러한 종료된 요청에 대해 SPEAK-COMPLETE 이벤트가 전송되지 않습니다.

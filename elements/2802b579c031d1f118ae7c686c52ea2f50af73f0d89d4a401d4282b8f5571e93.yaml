@@ -1,0 +1,16 @@
+"hash": |-
+  2802b579c031d1f118ae7c686c52ea2f50af73f0d89d4a401d4282b8f5571e93
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a max_idle_timeout is specified by either endpoint in its
+     transport parameters (Section 18.2), the connection is silently
+     closed and its state is discarded when it remains idle for longer
+     than the minimum of the max_idle_timeout value advertised by both
+     endpoints.
+"fixed": |-
+  If a max_idle_timeout is specified by either endpoint in its transport parameters (Section 18.2), the connection is silently closed and its state is discarded when it remains idle for longer than the minimum of the max_idle_timeout value advertised by both endpoints.
+"ko": |-
+  max_idle_timeout이 전송 매개변수(섹션 18.2)의 어느 한 끝점에 의해 지정된 경우 연결이 자동으로 닫히고 두 끝점이 광고한 max_idle_timeout 값의 최소값보다 오랫동안 유휴 상태로 유지되면 해당 상태가 삭제됩니다.

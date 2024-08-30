@@ -1,0 +1,21 @@
+"hash": |-
+  73d538b54b516faaaa8d068c51b23e4ace58a4fcc0f011d1c3494581fd010520
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The use of encrypt-then-MAC is negotiated via TLS/DTLS extensions as
+     defined in TLS [2].  On connecting, the client includes the
+     encrypt_then_mac extension in its client_hello if it wishes to use
+     encrypt-then-MAC rather than the default MAC-then-encrypt.  If the
+     server is capable of meeting this requirement, it responds with an
+     encrypt_then_mac in its server_hello.  The "extension_type" value for
+     this extension SHALL be 22 (0x16), and the "extension_data" field of
+     this extension SHALL be empty.  The client and server MUST NOT use
+     encrypt-then-MAC unless both sides have successfully exchanged
+     encrypt_then_mac extensions.
+"fixed": |-
+  The use of encrypt-then-MAC is negotiated via TLS/DTLS extensions as defined in TLS [2].  On connecting, the client includes the encrypt_then_mac extension in its client_hello if it wishes to use encrypt-then-MAC rather than the default MAC-then-encrypt.  If the server is capable of meeting this requirement, it responds with an encrypt_then_mac in its server_hello.  The "extension_type" value for this extension SHALL be 22 (0x16), and the "extension_data" field of this extension SHALL be empty.  The client and server MUST NOT use encrypt-then-MAC unless both sides have successfully exchanged encrypt_then_mac extensions.
+"ko": |-
+  encrypt-then-MAC의 사용은 TLS [2]에 정의된 TLS/DTLS 확장을 통해 협상됩니다. 연결 시 클라이언트는 기본 MAC-then-encrypt 대신 encrypt-then-MAC을 사용하려는 경우 client_hello에 encrypt_then_mac 확장을 포함합니다. 서버가 이 요구 사항을 충족할 수 있는 경우 server_hello에 encrypt_then_mac으로 응답합니다. 이 확장의 "extension_type" 값은 22(0x16)여야 하며 이 확장의 "extension_data" 필드는 비어 있어야 합니다. 클라이언트와 서버는 양측이 encrypt_then_mac 확장을 성공적으로 교환하지 않는 한 encrypt-then-MAC을 사용해서는 안 됩니다.

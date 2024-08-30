@@ -1,0 +1,17 @@
+"hash": |-
+  0b8bcf8f7a8319770f9fdd8f3d4af67a826c24ce1823a8043bf04209326a2673
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+       ############################################################
+       def _ValidateLine(self, line):
+         line = line.rstrip('\r\n')
+         self.line_number += 1
+         self.line = line.split('#')[0]
+         self.is_correct_line = True
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

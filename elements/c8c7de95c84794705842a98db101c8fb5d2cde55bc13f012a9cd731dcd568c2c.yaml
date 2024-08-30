@@ -1,0 +1,16 @@
+"hash": |-
+  c8c7de95c84794705842a98db101c8fb5d2cde55bc13f012a9cd731dcd568c2c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     As an example, consider a client that wishes to avoid sending a
+     ClientHello with a TLSCiphertext.length between 256 and 511 bytes
+     (inclusive).  This case is considered because at least one TLS
+     implementation is known to hang the connection when such a
+     ClientHello record is received.
+"fixed": |-
+  As an example, consider a client that wishes to avoid sending a ClientHello with a TLSCiphertext.length between 256 and 511 bytes (inclusive).  This case is considered because at least one TLS implementation is known to hang the connection when such a ClientHello record is received.
+"ko": |-
+  예를 들어, 256~511바이트(포함) 사이의 TLSCiphertext.length를 사용하여 ClientHello 전송을 피하려는 클라이언트를 생각해 보세요.  이러한 경우는 ClientHello 레코드가 수신될 때 연결을 끊는 것으로 알려진 TLS 구현이 하나 이상 있기 때문에 고려됩니다.

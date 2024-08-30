@@ -1,0 +1,22 @@
+"hash": |-
+  c85c896cdcd32b4b468434ce4b0f6ca21d1bd3da9895021638f390e61b98682b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Although a site may be in multiple VPNs, it is not necessarily the
+     case that the route to a given system at that site should be the same
+     in all the VPNs.  Suppose, for example, we have an intranet
+     consisting of sites A, B, and C, and an extranet consisting of A, B,
+     C, and the "foreign" site D.  Suppose that at site A there is a
+     server, and we want clients from B, C, or D to be able to use that
+     server.  Suppose also that at site B there is a firewall.  We want
+     all the traffic from site D to the server to pass through the
+     firewall, so that traffic from the extranet can be access controlled.
+     However, we don't want traffic from C to pass through the firewall on
+     the way to the server, since this is intranet traffic.
+"fixed": |-
+  Although a site may be in multiple VPNs, it is not necessarily the case that the route to a given system at that site should be the same in all the VPNs.  Suppose, for example, we have an intranet consisting of sites A, B, and C, and an extranet consisting of A, B, C, and the "foreign" site D.  Suppose that at site A there is a server, and we want clients from B, C, or D to be able to use that server.  Suppose also that at site B there is a firewall.  We want all the traffic from site D to the server to pass through the firewall, so that traffic from the extranet can be access controlled. However, we don't want traffic from C to pass through the firewall on the way to the server, since this is intranet traffic.
+"ko": |-
+  사이트가 여러 VPN에 있을 수 있지만 해당 사이트의 주어진 시스템으로 가는 경로가 모든 VPN에서 동일해야 하는 것은 아닙니다. 예를 들어, 사이트 A, B, C로 구성된 인트라넷과 A, B, C, "외부" 사이트 D로 구성된 엑스트라넷이 있다고 가정해 보겠습니다. 사이트 A에 서버가 있고 B, C 또는 D의 클라이언트가 해당 서버를 사용할 수 있기를 원한다고 가정해 보겠습니다. 또한 사이트 B에 방화벽이 있다고 가정해 보겠습니다. 사이트 D에서 서버로 가는 모든 트래픽이 방화벽을 통과하도록 하여 엑스트라넷의 트래픽을 액세스 제어할 수 있도록 하려고 합니다. 그러나 C에서 서버로 가는 트래픽이 방화벽을 통과하도록 하려고 하지 않습니다. 이는 인트라넷 트래픽이기 때문입니다.

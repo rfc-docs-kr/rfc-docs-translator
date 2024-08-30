@@ -1,0 +1,17 @@
+"hash": |-
+  e4aea374c3c38248c65c420902e5cc05631a7667adc757dc27c941d3ce104dbc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Fixed field MUST remain constant for all nonces that are
+     generated for a given encryption device.  If different devices are
+     performing encryption with a single key, then each distinct device
+     MUST use a distinct Fixed field, to ensure the uniqueness of the
+     nonces.  Thus, at most 2^(8*F) distinct encrypters can share a key
+     when the Fixed field is F octets in length.
+"fixed": |-
+  The Fixed field MUST remain constant for all nonces that are generated for a given encryption device.  If different devices are performing encryption with a single key, then each distinct device MUST use a distinct Fixed field, to ensure the uniqueness of the nonces.  Thus, at most 2^(8*F) distinct encrypters can share a key when the Fixed field is F octets in length.
+"ko": |-
+  고정 필드는 특정 암호화 장치에 대해 생성된 모든 nonce에 대해 일정하게 유지되어야 합니다. 서로 다른 장치가 단일 키로 암호화를 수행하는 경우 각각의 고유한 장치는 nonce의 고유성을 보장하기 위해 고유한 고정 필드를 사용해야 합니다. 따라서 고정 필드의 길이가 F 옥텟인 경우 최대 2^(8*F)개의 개별 암호화기가 키를 공유할 수 있습니다.

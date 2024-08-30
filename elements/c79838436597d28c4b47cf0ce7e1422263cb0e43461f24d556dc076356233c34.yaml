@@ -1,0 +1,18 @@
+"hash": |-
+  c79838436597d28c4b47cf0ce7e1422263cb0e43461f24d556dc076356233c34
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                    AFTER APPLYING ESP
+               -------------------------------------------------
+         IPv4  |orig IP hdr  | ESP |     |      |   ESP   | ESP|
+               |(any options)| Hdr | TCP | Data | Trailer | ICV|
+               -------------------------------------------------
+                                   |<---- encryption ---->|
+                             |<-------- integrity ------->|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

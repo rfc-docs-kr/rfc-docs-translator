@@ -1,0 +1,1 @@
+- 두 경로의 AS_PATH 속성을 집계하기 위해 각 AS를 튜플 <type, value>로 모델링합니다. 여기서 "type"은 AS가 속한 경로 세그먼트의 유형(예: AS_SEQUENCE, AS_SET)을 식별하고 " 값"은 AS 번호입니다. 해당 <type, value> 튜플이 동일한 경우 두 AS는 동일하다고 합니다.

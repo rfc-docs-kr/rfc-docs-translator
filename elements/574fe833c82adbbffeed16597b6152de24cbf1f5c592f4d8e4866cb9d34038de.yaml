@@ -1,0 +1,19 @@
+"hash": |-
+  574fe833c82adbbffeed16597b6152de24cbf1f5c592f4d8e4866cb9d34038de
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                *  it retrieves the connection # previously stored in the
+                   INPUT LINK table upon re-hashing the same key value
+                   (See above).  Also it deletes this entry;
+                *  it creates an entry in the INPUT LINK table for the
+                   incoming link.  For so doing it hashes the key value:
+                   "incoming link # (beta]) + remote HOST # (i) +
+                   "incoming flag".  In this entry it stores the HOST #
+                   (i), the incoming link # (beta), and connection # (k);
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,20 @@
+"hash": |-
+  4cbff5ae9f52dbd93a56e9fa05550ba40dc3ea712ee447518218bd95c92a2173
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     For each intermediary, the received-protocol indicates the protocol
+     and protocol version used by the upstream sender of the message.
+     Hence, the Via field value records the advertised protocol
+     capabilities of the request/response chain such that they remain
+     visible to downstream recipients; this can be useful for determining
+     what backwards-incompatible features might be safe to use in
+     response, or within a later request, as described in Section 2.5.
+     For brevity, the protocol-name is omitted when the received protocol
+     is HTTP.
+"fixed": |-
+  For each intermediary, the received-protocol indicates the protocol and protocol version used by the upstream sender of the message. Hence, the Via field value records the advertised protocol capabilities of the request/response chain such that they remain visible to downstream recipients; this can be useful for determining what backwards-incompatible features might be safe to use in response, or within a later request, as described in Section 2.5. For brevity, the protocol-name is omitted when the received protocol is HTTP.
+"ko": |-
+  각 중개자에 대해 received-protocol은 메시지의 업스트림 발신자가 사용하는 프로토콜 및 프로토콜 버전을 나타냅니다. 따라서 Via 필드 값은 요청/응답 체인의 광고된 프로토콜 기능을 기록하여 다운스트림 수신자에게 계속 표시됩니다. 이는 섹션 2.5에 설명된 대로 응답 또는 이후 요청 내에서 사용하기에 안전한 이전 버전과 호환되지 않는 기능을 결정하는 데 유용할 수 있습니다. 간결하게 하기 위해 수신된 프로토콜이 HTTP인 경우 프로토콜 이름은 생략됩니다.

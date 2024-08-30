@@ -1,0 +1,17 @@
+"hash": |-
+  93ca0b898a9dbb52fb474dacbe13a74cac608331e4523b3e5fc2fffe81c11446
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        Note that UAs that do not understand 'multipart/related' will
+        treat 'multipart/related' bodies as 'multipart/mixed' bodies.
+        These UAs will not be able to process a given body as a compound
+        object.  Instead, they will process the body parts according to
+        their disposition type as if each body part was independent from
+        each other.
+"fixed": |-
+  - Note that UAs that do not understand 'multipart/related' will treat 'multipart/related' bodies as 'multipart/mixed' bodies. These UAs will not be able to process a given body as a compound object.  Instead, they will process the body parts according to their disposition type as if each body part was independent from each other.
+"ko": |-
+  - 'multipart/related'를 이해하지 못하는 UA는 'multipart/related' 본문을 'multipart/mixed' 본문으로 취급합니다. 이러한 UA는 주어진 본문을 복합 객체로 처리할 수 없습니다. 대신 각 본문 부분이 서로 독립적인 것처럼 처분 유형에 따라 본문 부분을 처리합니다.

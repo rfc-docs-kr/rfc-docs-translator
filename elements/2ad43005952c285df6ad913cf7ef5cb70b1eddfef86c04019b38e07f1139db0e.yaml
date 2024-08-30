@@ -1,0 +1,23 @@
+"hash": |-
+  2ad43005952c285df6ad913cf7ef5cb70b1eddfef86c04019b38e07f1139db0e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The nonce MAY be stored or transported with the ciphertext, or it MAY
+     be reconstructed immediately prior to the authenticated decryption
+     operation.  It is sufficient to provide the decryption module with
+     enough information to allow it to construct the nonce.  (For example,
+     a system could use a nonce consisting of a sequence number in a
+     particular format, in which case it could be inferred from the order
+     of the ciphertexts.)  Because the authenticated decryption process
+     detects incorrect nonce values, no security failure will result if a
+     nonce is incorrectly reconstructed and fed into an authenticated
+     decryption operation.  Any nonce reconstruction method will need to
+     take into account the possibility of loss or reorder of ciphertexts
+     between the encryption and decryption processes.
+"fixed": |-
+  The nonce MAY be stored or transported with the ciphertext, or it MAY be reconstructed immediately prior to the authenticated decryption operation.  It is sufficient to provide the decryption module with enough information to allow it to construct the nonce.  (For example, a system could use a nonce consisting of a sequence number in a particular format, in which case it could be inferred from the order of the ciphertexts.)  Because the authenticated decryption process detects incorrect nonce values, no security failure will result if a nonce is incorrectly reconstructed and fed into an authenticated decryption operation.  Any nonce reconstruction method will need to take into account the possibility of loss or reorder of ciphertexts between the encryption and decryption processes.
+"ko": |-
+  nonce는 암호문과 함께 저장 또는 전송될 수 있으며, 인증된 암호 해독 작업 직전에 재구성될 수도 있습니다. nonce를 구성할 수 있도록 충분한 정보를 암호 해독 모듈에 제공하는 것으로 충분합니다. (예를 들어 시스템은 특정 형식의 시퀀스 번호로 구성된 nonce를 사용할 수 있으며 이 경우 암호문의 순서에서 유추할 수 있습니다.) 인증된 암호 해독 프로세스는 잘못된 nonce 값을 감지하므로 보안 오류가 발생하지 않습니다. nonce가 잘못 재구성되어 인증된 암호 해독 작업에 공급되는 경우. 모든 nonce 재구성 방법은 암호화 및 복호화 프로세스 사이의 암호문 손실 또는 재정렬 가능성을 고려해야 합니다.

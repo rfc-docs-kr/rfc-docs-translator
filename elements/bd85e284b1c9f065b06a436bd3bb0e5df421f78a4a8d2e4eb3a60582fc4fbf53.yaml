@@ -1,0 +1,16 @@
+"hash": |-
+  bd85e284b1c9f065b06a436bd3bb0e5df421f78a4a8d2e4eb3a60582fc4fbf53
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        *  In a query-type operation, like Get-Printer-Attributes: If the
+           Client requests an apparently incompatible combination, the
+           Printer responds (as described in Section 4.1.4.2) using the
+           Printer's configured natural language rather than the natural
+           language requested by the Client.
+"fixed": |-
+  - *  In a query-type operation, like Get-Printer-Attributes: If the Client requests an apparently incompatible combination, the Printer responds (as described in Section 4.1.4.2) using the Printer's configured natural language rather than the natural language requested by the Client.
+"ko": |-
+  - * Get-Printer-Attributes와 같은 쿼리 유형 작업에서: 클라이언트가 분명히 호환되지 않는 조합을 요청하는 경우 프린터는 요청한 자연 언어가 아닌 프린터의 구성된 자연 언어를 사용하여(섹션 4.1.4.2에 설명된 대로) 응답합니다. 클라이언트.

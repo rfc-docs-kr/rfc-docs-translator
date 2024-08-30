@@ -1,0 +1,24 @@
+"hash": |-
+  8b9e680e56207fa5fe786435d6e165c05f88802b3e9c7b8a72dfb5b630b863b2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A content provider wishing to use PPSPP to distribute content should
+     set up at least one PPSPP server.  PPSPP servers need to have access
+     to either some static content or some live audio/video sources.  To
+     provide flexibility for implementors, this configuration process is
+     not standardized.  The output of this process will be a list of
+     metadata records, one for each swarm.  A metadata record consists of
+     the swarm ID, the chunk size used, the chunk addressing method used,
+     the content integrity protection method used, and the Merkle hash
+     tree function used (if applicable).  If automatic content size
+     detection (see Section 5.6) is not used, the content length is also
+     part of the metadata record for static content.  Note the swarm ID
+     already contains the Live Signature Algorithm used, in case of a live
+     stream.
+"fixed": |-
+  A content provider wishing to use PPSPP to distribute content should set up at least one PPSPP server.  PPSPP servers need to have access to either some static content or some live audio/video sources.  To provide flexibility for implementors, this configuration process is not standardized.  The output of this process will be a list of metadata records, one for each swarm.  A metadata record consists of the swarm ID, the chunk size used, the chunk addressing method used, the content integrity protection method used, and the Merkle hash tree function used (if applicable).  If automatic content size detection (see Section 5.6) is not used, the content length is also part of the metadata record for static content.  Note the swarm ID already contains the Live Signature Algorithm used, in case of a live stream.
+"ko": |-
+  PPSPP를 사용하여 콘텐츠를 배포하려는 콘텐츠 제공자는 최소한 하나의 PPSPP 서버를 설정해야 합니다. PPSPP 서버는 일부 정적 콘텐츠나 일부 라이브 오디오/비디오 소스에 액세스할 수 있어야 합니다. 구현자에게 유연성을 제공하기 위해 이 구성 프로세스는 표준화되지 않았습니다. 이 프로세스의 출력은 각 떼에 대해 하나씩 메타데이터 레코드 목록이 됩니다. 메타데이터 레코드는 Swarm ID, 사용된 청크 크기, 사용된 청크 주소 지정 방법, 사용된 콘텐츠 무결성 보호 방법 및 사용된 Merkle 해시 트리 기능(해당되는 경우)으로 구성됩니다. 자동 콘텐츠 크기 감지(섹션 5.6 참조)가 사용되지 않으면 콘텐츠 길이도 정적 콘텐츠에 대한 메타데이터 레코드의 일부입니다. Swarm ID에는 라이브 스트림의 경우 사용되는 라이브 서명 알고리즘이 이미 포함되어 있습니다.

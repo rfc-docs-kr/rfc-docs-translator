@@ -1,0 +1,16 @@
+"hash": |-
+  7d676b20ead42f94caf94fb4d9400446b2f3ebf7db74dfc79687402f984f4a42
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that has not established state, such as a server that
+     detects an error in an Initial packet, does not enter the closing
+     state.  An endpoint that has no state for the connection does not
+     enter a closing or draining period on sending a CONNECTION_CLOSE
+     frame.
+"fixed": |-
+  An endpoint that has not established state, such as a server that detects an error in an Initial packet, does not enter the closing state.  An endpoint that has no state for the connection does not enter a closing or draining period on sending a CONNECTION_CLOSE frame.
+"ko": |-
+  초기 패킷에서 오류를 감지한 서버 등 상태가 확립되지 않은 엔드포인트는 Closing 상태로 진입하지 않습니다. 연결 상태가 없는 끝점은 CONNECTION_CLOSE 프레임을 보낼 때 종료 또는 배수 기간을 입력하지 않습니다.

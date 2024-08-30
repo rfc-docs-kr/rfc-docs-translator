@@ -1,0 +1,23 @@
+"hash": |-
+  bd5dab84d4e7cdd244f6d56b08f834d6726ccc180faec4d5294df9d9d45de994
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This procedure requires just one signing operation for every
+     NCHUNKS_PER_SIG chunks created, and one verification operation for
+     every NCHUNKS_PER_SIG received, making it much cheaper than "Sign
+     All".  A receiving peer does additionally need to check one or more
+     hashes per chunk via the Merkle Hash Tree scheme, but this has less
+     hardware requirements than a signature verification for every chunk.
+     This approach is similar to signature amortization via Merkle Tree
+     Chaining [SIGMCAST].  The downside of this scheme is in an increased
+     latency.  A peer cannot download the new chunks until the injector
+     has computed the signature and announced the subtree.  A peer MUST
+     check the signature before forwarding the chunks to other peers
+     [POLLIVE].
+"fixed": |-
+  This procedure requires just one signing operation for every NCHUNKS_PER_SIG chunks created, and one verification operation for every NCHUNKS_PER_SIG received, making it much cheaper than "Sign All".  A receiving peer does additionally need to check one or more hashes per chunk via the Merkle Hash Tree scheme, but this has less hardware requirements than a signature verification for every chunk. This approach is similar to signature amortization via Merkle Tree Chaining [SIGMCAST].  The downside of this scheme is in an increased latency.  A peer cannot download the new chunks until the injector has computed the signature and announced the subtree.  A peer MUST check the signature before forwarding the chunks to other peers [POLLIVE].
+"ko": |-
+  이 절차에서는 생성된 모든 NCHUNKS_PER_SIG 청크에 대해 한 번의 서명 작업과 수신된 모든 NCHUNKS_PER_SIG에 대해 한 번의 확인 작업만 필요하므로 "모두 서명"보다 훨씬 저렴합니다. 수신 피어는 Merkle Hash Tree 체계를 통해 청크당 하나 이상의 해시를 추가로 확인해야 하지만 이는 모든 청크에 대한 서명 확인보다 하드웨어 요구 사항이 적습니다. 이 접근 방식은 Merkle Tree Chaining [SIGMCAST]을 통한 서명 상각과 유사합니다. 이 방식의 단점은 대기 시간이 길어진다는 것입니다. 피어는 인젝터가 서명을 계산하고 하위 트리를 발표할 때까지 새 청크를 다운로드할 수 없습니다. 피어는 청크를 다른 피어에게 전달하기 전에 서명을 확인해야 합니다[POLLIVE].

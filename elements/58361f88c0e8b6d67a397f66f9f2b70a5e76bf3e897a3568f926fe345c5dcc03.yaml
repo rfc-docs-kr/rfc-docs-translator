@@ -1,0 +1,28 @@
+"hash": |-
+  58361f88c0e8b6d67a397f66f9f2b70a5e76bf3e897a3568f926fe345c5dcc03
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     search-key      = "ALL" / "ANSWERED" / "BCC" SP astring /
+                       "BEFORE" SP date / "BODY" SP astring /
+                       "CC" SP astring / "DELETED" / "FLAGGED" /
+                       "FROM" SP astring / "KEYWORD" SP flag-keyword /
+                       "ON" SP date / "SEEN" /
+                       "SINCE" SP date / "SUBJECT" SP astring /
+                       "TEXT" SP astring / "TO" SP astring /
+                       "UNANSWERED" / "UNDELETED" / "UNFLAGGED" /
+                       "UNKEYWORD" SP flag-keyword / "UNSEEN" /
+                         ; Above this line were in [IMAP2]
+                       "DRAFT" / "HEADER" SP header-fld-name SP astring /
+                       "LARGER" SP number64 / "NOT" SP search-key /
+                       "OR" SP search-key SP search-key /
+                       "SENTBEFORE" SP date / "SENTON" SP date /
+                       "SENTSINCE" SP date / "SMALLER" SP number64 /
+                       "UID" SP sequence-set / "UNDRAFT" / sequence-set /
+                       "(" search-key *(SP search-key) ")"
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

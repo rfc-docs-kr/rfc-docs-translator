@@ -1,0 +1,18 @@
+"hash": |-
+  d56d2a6f276ea5bbbe94869dcae834e185e4b9ca29072f979961b214c26ce851
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     With such a scheme, standard Tunnel Mode IPSEC could not be used,
+     because there is no way to fill in the IP destination address field
+     of the "outer header".  However, when MPLS is used for forwarding,
+     there is no real need for this outer header anyway; the PE router can
+     use MPLS to get a packet to a tunnel endpoint without even knowing
+     the IP address of that endpoint; it only needs to see the IP
+     destination address of the "inner header".
+"fixed": |-
+  With such a scheme, standard Tunnel Mode IPSEC could not be used, because there is no way to fill in the IP destination address field of the "outer header".  However, when MPLS is used for forwarding, there is no real need for this outer header anyway; the PE router can use MPLS to get a packet to a tunnel endpoint without even knowing the IP address of that endpoint; it only needs to see the IP destination address of the "inner header".
+"ko": |-
+  이러한 방식을 사용하면 표준 터널 모드 IPSEC을 사용할 수 없습니다. "외부 헤더"의 IP 대상 주소 필드를 채울 방법이 없기 때문입니다. 그러나 MPLS를 포워딩에 사용하는 경우 이 외부 헤더가 실제로 필요하지 않습니다. PE 라우터는 MPLS를 사용하여 해당 엔드포인트의 IP 주소를 알지 않고도 패킷을 터널 엔드포인트로 가져올 수 있습니다. "내부 헤더"의 IP 대상 주소만 보면 됩니다.

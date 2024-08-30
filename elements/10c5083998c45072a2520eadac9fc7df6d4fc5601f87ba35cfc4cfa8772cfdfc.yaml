@@ -1,0 +1,21 @@
+"hash": |-
+  10c5083998c45072a2520eadac9fc7df6d4fc5601f87ba35cfc4cfa8772cfdfc
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Upon first receiving an Initial or Retry packet from the server, the
+     client uses the Source Connection ID supplied by the server as the
+     Destination Connection ID for subsequent packets, including any 0-RTT
+     packets.  This means that a client might have to change the
+     connection ID it sets in the Destination Connection ID field twice
+     during connection establishment: once in response to a Retry packet
+     and once in response to an Initial packet from the server.  Once a
+     client has received a valid Initial packet from the server, it MUST
+     discard any subsequent packet it receives on that connection with a
+     different Source Connection ID.
+"fixed": |-
+  Upon first receiving an Initial or Retry packet from the server, the client uses the Source Connection ID supplied by the server as the Destination Connection ID for subsequent packets, including any 0-RTT packets.  This means that a client might have to change the connection ID it sets in the Destination Connection ID field twice during connection establishment: once in response to a Retry packet and once in response to an Initial packet from the server.  Once a client has received a valid Initial packet from the server, it MUST discard any subsequent packet it receives on that connection with a different Source Connection ID.
+"ko": |-
+  서버로부터 초기 또는 재시도 패킷을 처음 수신하면 클라이언트는 서버에서 제공한 원본 연결 ID를 0-RTT 패킷을 포함한 후속 패킷의 대상 연결 ID로 사용합니다. 이는 클라이언트가 연결 설정 중에 대상 연결 ID 필드에 설정한 연결 ID를 두 번 변경해야 할 수도 있음을 의미합니다. 한 번은 재시도 패킷에 대한 응답으로, 한 번은 서버의 초기 패킷에 대한 응답으로 변경해야 합니다. 클라이언트가 서버로부터 유효한 초기 패킷을 수신하면 다른 소스 연결 ID를 사용하여 해당 연결에서 수신한 모든 후속 패킷을 폐기해야 합니다.

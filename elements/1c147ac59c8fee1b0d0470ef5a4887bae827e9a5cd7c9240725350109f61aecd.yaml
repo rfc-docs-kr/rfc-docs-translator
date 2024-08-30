@@ -1,0 +1,23 @@
+"hash": |-
+  1c147ac59c8fee1b0d0470ef5a4887bae827e9a5cd7c9240725350109f61aecd
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The Transport Layer Security (TLS) master secret is not
+     cryptographically bound to important session parameters such as the
+     server certificate.  Consequently, it is possible for an active
+     attacker to set up two sessions, one with a client and another with a
+     server, such that the master secrets on the two sessions are the
+     same.  Thereafter, any mechanism that relies on the master secret for
+     authentication, including session resumption, becomes vulnerable to a
+     man-in-the-middle attack, where the attacker can simply forward
+     messages back and forth between the client and server.  This
+     specification defines a TLS extension that contextually binds the
+     master secret to a log of the full handshake that computes it, thus
+     preventing such attacks.
+"fixed": |-
+  The Transport Layer Security (TLS) master secret is not cryptographically bound to important session parameters such as the server certificate.  Consequently, it is possible for an active attacker to set up two sessions, one with a client and another with a server, such that the master secrets on the two sessions are the same.  Thereafter, any mechanism that relies on the master secret for authentication, including session resumption, becomes vulnerable to a man-in-the-middle attack, where the attacker can simply forward messages back and forth between the client and server.  This specification defines a TLS extension that contextually binds the master secret to a log of the full handshake that computes it, thus preventing such attacks.
+"ko": |-
+  TLS(전송 계층 보안) 마스터 비밀은 서버 인증서와 같은 중요한 세션 매개변수에 암호화적으로 바인딩되지 않습니다. 따라서 활성 공격자가 클라이언트와 서버 간의 두 세션을 설정하여 두 세션의 마스터 비밀이 동일하도록 할 수 있습니다. 그 후 세션 재개를 포함하여 인증을 위해 마스터 비밀에 의존하는 모든 메커니즘은 중간자 공격에 취약해지고, 공격자는 클라이언트와 서버 간에 메시지를 간단히 전달할 수 있습니다. 이 사양은 마스터 비밀을 계산하는 전체 핸드셰이크의 로그에 컨텍스트적으로 바인딩하여 이러한 공격을 방지하는 TLS 확장을 정의합니다.

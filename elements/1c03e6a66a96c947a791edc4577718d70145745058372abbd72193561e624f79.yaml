@@ -1,0 +1,19 @@
+"hash": |-
+  1c03e6a66a96c947a791edc4577718d70145745058372abbd72193561e624f79
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     DTLS is designed to secure traffic running on top of unreliable
+     transport protocols.  Usually, such protocols have no session
+     management.  The only mechanism available at the DTLS layer to figure
+     out if a peer is still alive is a costly renegotiation, particularly
+     when the application uses unidirectional traffic.  Furthermore, DTLS
+     needs to perform path MTU (PMTU) discovery but has no specific
+     message type to realize it without affecting the transfer of user
+     messages.
+"fixed": |-
+  DTLS is designed to secure traffic running on top of unreliable transport protocols.  Usually, such protocols have no session management.  The only mechanism available at the DTLS layer to figure out if a peer is still alive is a costly renegotiation, particularly when the application uses unidirectional traffic.  Furthermore, DTLS needs to perform path MTU (PMTU) discovery but has no specific message type to realize it without affecting the transfer of user messages.
+"ko": |-
+  DTLS는 신뢰할 수 없는 전송 프로토콜 위에서 실행되는 트래픽을 보호하도록 설계되었습니다.  일반적으로 이러한 프로토콜에는 세션 관리가 없습니다.  피어가 아직 살아 있는지 확인하기 위해 DTLS 계층에서 사용할 수 있는 유일한 메커니즘은 특히 애플리케이션이 단방향 트래픽을 사용할 때 비용이 많이 드는 재협상입니다.  또한 DTLS는 PMTU(경로 MTU) 검색을 수행해야 하지만 사용자 메시지 전송에 영향을 주지 않고 이를 실현할 수 있는 특정 메시지 유형이 없습니다.

@@ -1,0 +1,18 @@
+"hash": |-
+  0a742fb0fc2a1a1310f6bcd64e265829fe60dfce3c74b9108661401cdc15f367
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The enumerated types "cert_fingerprint" and "cert" of
+     OpenPGPCertDescriptorType that were defined in [RFC5081] are not used
+     and are marked as obsolete by this document.  The "empty_cert" type
+     has replaced "cert" and is a backward-compatible way to specify an
+     empty certificate; "cert_fingerprint" MUST NOT be used with this
+     updated specification, and hence that old alternative has been
+     removed from the Certificate struct description.
+"fixed": |-
+  The enumerated types "cert_fingerprint" and "cert" of OpenPGPCertDescriptorType that were defined in [RFC5081] are not used and are marked as obsolete by this document.  The "empty_cert" type has replaced "cert" and is a backward-compatible way to specify an empty certificate; "cert_fingerprint" MUST NOT be used with this updated specification, and hence that old alternative has been removed from the Certificate struct description.
+"ko": |-
+  [RFC5081]에 정의된 OpenPGPCertDescriptorType의 열거 유형 "cert_fingerprint" 및 "cert"는 사용되지 않으며 이 문서에서는 더 이상 사용되지 않는 것으로 표시됩니다. "empty_cert" 유형은 "cert"를 대체했으며 빈 인증서를 지정하는 이전 버전과 호환되는 방법입니다. "cert_fingerprint"는 이 업데이트된 사양과 함께 사용되어서는 안 되며, 따라서 이전 대안은 인증서 구조 설명에서 제거되었습니다.

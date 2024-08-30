@@ -1,0 +1,19 @@
+"hash": |-
+  65210975c8f32b9f9dadff0c1ea4edebdd4984ec11ddc63fbb02339d0c341c03
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In a stateless design, a server can use encrypted and authenticated
+     tokens to pass information to clients that the server can later
+     recover and use to validate a client address.  Tokens are not
+     integrated into the cryptographic handshake, and so they are not
+     authenticated.  For instance, a client might be able to reuse a
+     token.  To avoid attacks that exploit this property, a server can
+     limit its use of tokens to only the information needed to validate
+     client addresses.
+"fixed": |-
+  In a stateless design, a server can use encrypted and authenticated tokens to pass information to clients that the server can later recover and use to validate a client address.  Tokens are not integrated into the cryptographic handshake, and so they are not authenticated.  For instance, a client might be able to reuse a token.  To avoid attacks that exploit this property, a server can limit its use of tokens to only the information needed to validate client addresses.
+"ko": |-
+  상태 비저장 설계에서 서버는 암호화되고 인증된 토큰을 사용하여 서버가 나중에 복구하고 클라이언트 주소의 유효성을 검사하는 데 사용할 수 있는 정보를 클라이언트에 전달할 수 있습니다. 토큰은 암호화 핸드셰이크에 통합되지 않으므로 인증되지 않습니다. 예를 들어 클라이언트는 토큰을 재사용할 수 있습니다. 이 속성을 악용하는 공격을 방지하기 위해 서버는 토큰 사용을 클라이언트 주소의 유효성을 검사하는 데 필요한 정보로만 제한할 수 있습니다.

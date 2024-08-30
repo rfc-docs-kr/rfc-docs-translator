@@ -1,0 +1,37 @@
+"hash": |-
+  e53214144bc61bed5de1f9558c747e35c464f895b47ade4f04a2a77b0f6f4586
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     Idle                    Speaking                  Paused
+     State                   State                     State
+       |                        |                          |
+       |----------SPEAK-------->|                 |--------|
+       |<------STOP-------------|             CONTROL      |
+       |<----SPEAK-COMPLETE-----|                 |------->|
+       |<----BARGE-IN-OCCURRED--|                          |
+       |              |---------|                          |
+       |          CONTROL       |-----------PAUSE--------->|
+       |              |-------->|<----------RESUME---------|
+       |                        |               |----------|
+       |----------|             |              PAUSE       |
+       |    BARGE-IN-OCCURRED   |               |--------->|
+       |<---------|             |----------|               |
+       |                        |      SPEECH-MARKER       |
+       |                        |<---------|               |
+       |----------|             |----------|               |
+       |         STOP           |       RESUME             |
+       |          |             |<---------|               |
+       |<---------|             |                          |
+       |<---------------------STOP-------------------------|
+       |----------|             |                          |
+       |     DEFINE-LEXICON     |                          |
+       |          |             |                          |
+       |<---------|             |                          |
+       |<---------------BARGE-IN-OCCURRED------------------|
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

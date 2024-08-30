@@ -1,0 +1,15 @@
+"hash": |-
+  be0b8f5b378661c27e9694a1b5279f0168e65554e2a285e20feef34b75b5c69d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     and choosing the block type appropriately so that the end of the
+     resulting compressed data is aligned at a byte boundary.  Note that
+     for non-final fragments, the removal of 0x00 0x00 0xff 0xff MUST NOT
+     be done.
+"fixed": |-
+  and choosing the block type appropriately so that the end of the resulting compressed data is aligned at a byte boundary.  Note that for non-final fragments, the removal of 0x00 0x00 0xff 0xff MUST NOT be done.
+"ko": |-
+  및 압축된 결과 데이터의 끝이 바이트 경계에 정렬되도록 블록 유형을 적절하게 선택하는 단계를 포함합니다.  최종이 아닌 조각의 경우 0x00 0x00 0xff 0xff 제거를 수행하면 안 됩니다.

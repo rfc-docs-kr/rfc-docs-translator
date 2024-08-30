@@ -1,0 +1,21 @@
+"hash": |-
+  56dc4bab77422d7b2462274b9a691ffa9e08079520f58d0ae36a33b9c7648214
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     t-codings = "trailers" / ( transfer-coding [ weight ] )
+     tchar = "!" / "#" / "$" / "%" / "&" / "'" / "*" / "+" / "-" / "." /
+      "^" / "_" / "`" / "|" / "~" / DIGIT / ALPHA
+     time-of-day = hour ":" minute ":" second
+     token = 1*tchar
+     token68 = 1*( ALPHA / DIGIT / "-" / "." / "_" / "~" / "+" / "/" )
+      *"="
+     transfer-coding = token *( OWS ";" OWS transfer-parameter )
+     transfer-parameter = token BWS "=" BWS ( token / quoted-string )
+     type = token
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

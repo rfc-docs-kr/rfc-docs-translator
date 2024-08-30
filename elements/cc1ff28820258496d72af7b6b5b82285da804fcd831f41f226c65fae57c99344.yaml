@@ -1,0 +1,20 @@
+"hash": |-
+  cc1ff28820258496d72af7b6b5b82285da804fcd831f41f226c65fae57c99344
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           The Client MAY supply and the Printer MUST support this
+           attribute.  It indicates whether Jobs from all users or just
+           the Jobs submitted by the requesting user of this request MUST
+           be considered as candidate Jobs to be returned by the Printer.
+           If the Client does not supply this attribute, the Printer MUST
+           respond as if the Client had supplied the attribute with a
+           value of 'false', i.e., Jobs from all users.  The means for
+           authenticating the requesting user and matching the Jobs is
+           described in Section 9.
+"fixed": |-
+  - The Client MAY supply and the Printer MUST support this attribute.  It indicates whether Jobs from all users or just the Jobs submitted by the requesting user of this request MUST be considered as candidate Jobs to be returned by the Printer. If the Client does not supply this attribute, the Printer MUST respond as if the Client had supplied the attribute with a value of 'false', i.e., Jobs from all users.  The means for authenticating the requesting user and matching the Jobs is described in Section 9.
+"ko": |-
+  - 클라이언트는 이 속성을 제공할 수 있고 프린터는 이 속성을 지원해야 합니다. 이는 모든 사용자의 작업 또는 이 요청을 요청한 사용자가 제출한 작업만이 프린터에서 반환될 후보 작업으로 간주되어야 하는지 여부를 나타냅니다. 클라이언트가 이 속성을 제공하지 않으면 프린터는 클라이언트가 'false' 값, 즉 모든 사용자의 작업과 같은 속성을 제공한 것처럼 응답해야 합니다. 요청한 사용자를 인증하고 작업을 일치시키는 방법은 섹션 9에 설명되어 있습니다.

@@ -1,0 +1,23 @@
+"hash": |-
+  bf477f1e94ee2f2c7f91ca489d5747bd8573f6f1902a46b6a289f4937dfc8c2c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     exchange carried by this SIP transaction contains one or more
+     additional control "m=" lines for the new resources to be allocated
+     to the session.  The server, on seeing the new "m=" line, allocates
+     the resources (if they are available) and responds with a
+     corresponding control "m=" line in the SDP answer carried in the SIP
+     response.  If the new resources are not available, the re-INVITE
+     receives an error message, and existing media processing going on
+     before the re-INVITE will continue as it was before.  It is not
+     possible to allocate more than one resource of each type.  If a
+     client requests more than one resource of any type, the server MUST
+     behave as if the resources of that type (beyond the first one) are
+     not available.
+"fixed": |-
+  exchange carried by this SIP transaction contains one or more additional control "m=" lines for the new resources to be allocated to the session.  The server, on seeing the new "m=" line, allocates the resources (if they are available) and responds with a corresponding control "m=" line in the SDP answer carried in the SIP response.  If the new resources are not available, the re-INVITE receives an error message, and existing media processing going on before the re-INVITE will continue as it was before.  It is not possible to allocate more than one resource of each type.  If a client requests more than one resource of any type, the server MUST behave as if the resources of that type (beyond the first one) are not available.
+"ko": |-
+  이 SIP 트랜잭션에서 수행되는 교환에는 세션에 할당할 새 리소스에 대한 하나 이상의 추가 제어 "m=" 라인이 포함됩니다. 서버는 새 "m=" 라인을 보고 리소스를 할당하고(사용 가능한 경우) SIP 응답에 포함된 SDP 답변에서 해당 제어 "m=" 라인으로 응답합니다. 새 리소스를 사용할 수 없는 경우 re-INVITE는 오류 메시지를 수신하고 re-INVITE 전에 진행 중인 기존 미디어 처리가 이전과 동일하게 계속됩니다. 각 유형의 리소스를 두 개 이상 할당하는 것은 불가능합니다. 클라이언트가 모든 유형의 리소스를 두 개 이상 요청하는 경우 서버는 해당 유형의 리소스(첫 번째 리소스 외)를 사용할 수 없는 것처럼 동작해야 합니다.

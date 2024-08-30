@@ -1,0 +1,15 @@
+"hash": |-
+  cccd2b851659f36a36f4e43bfe929fbbe94c7d54a73f959a3b5bad73bfd0c1c2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This enforces cryptographic separation between the data sent in the
+     different packet number spaces.  Packet numbers in each space start
+     at packet number 0.  Subsequent packets sent in the same packet
+     number space MUST increase the packet number by at least one.
+"fixed": |-
+  This enforces cryptographic separation between the data sent in the different packet number spaces.  Packet numbers in each space start at packet number 0.  Subsequent packets sent in the same packet number space MUST increase the packet number by at least one.
+"ko": |-
+  이는 서로 다른 패킷 번호 공간으로 전송된 데이터 간의 암호화 분리를 시행합니다. 각 공간의 패킷 번호는 패킷 번호 0에서 시작합니다. 동일한 패킷 번호 공간에서 전송되는 후속 패킷은 패킷 번호를 최소한 1만큼 늘려야 합니다.

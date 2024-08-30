@@ -1,0 +1,23 @@
+"hash": |-
+  9933a2049a2c0749ad227f29b3bfb7b68c3c3baa232359b85f9c0b1cf7f85919
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This memo specifies two elliptic curves ("curve25519" and "curve448")
+     that lend themselves to constant-time implementation and an
+     exception-free scalar multiplication that is resistant to a wide
+     range of side-channel attacks, including timing and cache attacks.
+     They are Montgomery curves (where v^2 = u^3 + A*u^2 + u) and thus
+     have birationally equivalent Edwards versions.  Edwards curves
+     support the fastest (currently known) complete formulas for the
+     elliptic-curve group operations, specifically the Edwards curve
+     x^2 + y^2 = 1 + d*x^2*y^2 for primes p when p = 3 mod 4, and the
+     twisted Edwards curve -x^2 + y^2 = 1 + d*x^2*y^2 when p = 1 mod 4.
+     The maps to/from the Montgomery curves to their (twisted) Edwards
+     equivalents are also given.
+"fixed": |-
+  This memo specifies two elliptic curves ("curve25519" and "curve448") that lend themselves to constant-time implementation and an exception-free scalar multiplication that is resistant to a wide range of side-channel attacks, including timing and cache attacks. They are Montgomery curves (where v^2 = u^3 + A*u^2 + u) and thus have birationally equivalent Edwards versions.  Edwards curves support the fastest (currently known) complete formulas for the elliptic-curve group operations, specifically the Edwards curve x^2 + y^2 = 1 + d*x^2*y^2 for primes p when p = 3 mod 4, and the twisted Edwards curve -x^2 + y^2 = 1 + d*x^2*y^2 when p = 1 mod 4. The maps to/from the Montgomery curves to their (twisted) Edwards equivalents are also given.
+"ko": |-
+  이 메모는 상수 시간 구현에 적합한 두 개의 타원 곡선("curve25519" 및 "curve448")과 타이밍 및 캐시 공격을 포함한 광범위한 부채널 공격에 저항하는 예외 없는 스칼라 곱셈을 지정합니다. 이는 몽고메리 곡선(여기서 v^2 = u^3 + A*u^2 + u)이므로 쌍합적으로 동등한 Edwards 버전을 갖습니다. Edwards 곡선은 타원 곡선 그룹 연산에 대해 가장 빠른(현재 알려진) 완전 공식을 지원합니다. 특히 p = 3 mod인 경우 소수 p에 대한 Edwards 곡선 x^2 + y^2 = 1 + d*x^2*y^2를 지원합니다. 4, 그리고 p = 1 mod 4일 때 꼬인 Edwards 곡선 -x^2 + y^2 = 1 + d*x^2*y^2. 몽고메리 곡선과 (뒤틀린) Edwards 등가물 간의 맵은 다음과 같습니다. 또한 주어진다.

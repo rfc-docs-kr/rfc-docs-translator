@@ -1,0 +1,15 @@
+"hash": |-
+  5de4fac58be3e7f1aa1d5fd9ff59154438edc9c91a4ef67d6eaa241bf546894e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A server MUST NOT send a Content-Length header field in any response
+     with a status code of 1xx (Informational) or 204 (No Content).  A
+     server MUST NOT send a Content-Length header field in any 2xx
+     (Successful) response to a CONNECT request (Section 9.3.6).
+"fixed": |-
+  A server MUST NOT send a Content-Length header field in any response with a status code of 1xx (Informational) or 204 (No Content).  A server MUST NOT send a Content-Length header field in any 2xx (Successful) response to a CONNECT request (Section 9.3.6).
+"ko": |-
+  서버는 상태 코드가 1xx(정보) 또는 204(콘텐츠 없음)인 응답으로 Content-Length 헤더 필드를 전송해서는 안 됩니다. 서버는 CONNECT 요청(섹션 9.3.6)에 대한 2xx(성공) 응답에서 Content-Length 헤더 필드를 전송해서는 안 됩니다.

@@ -1,0 +1,16 @@
+"hash": |-
+  319dc8c0c9d4bd9f65aece7f6f3fad2fa2252f5c4662618c78a588a70d6a9b83
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        a) If the request would normally result in anything other than
+           a 200 (ok) status, or if the passed If-Modified-Since date
+           is invalid, the response is exactly the same as for a
+           normal GET. A date which is later than the server's current
+           time is invalid.
+"fixed": |-
+  - a) If the request would normally result in anything other than a 200 (ok) status, or if the passed If-Modified-Since date is invalid, the response is exactly the same as for a normal GET. A date which is later than the server's current time is invalid.
+"ko": |-
+  - a) 요청이 일반적으로 200(ok) 상태 이외의 결과를 초래하거나 전달된 If-Modified-Since 날짜가 유효하지 않은 경우 응답은 일반 GET의 경우와 정확히 동일합니다. 서버의 현재 시간보다 이후의 날짜는 유효하지 않습니다.

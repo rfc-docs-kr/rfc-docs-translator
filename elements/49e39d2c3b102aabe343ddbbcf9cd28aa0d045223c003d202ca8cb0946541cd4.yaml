@@ -1,0 +1,19 @@
+"hash": |-
+  49e39d2c3b102aabe343ddbbcf9cd28aa0d045223c003d202ca8cb0946541cd4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     *  Blocked signals are carried in DATA_BLOCKED, STREAM_DATA_BLOCKED,
+        and STREAMS_BLOCKED frames.  DATA_BLOCKED frames have connection
+        scope, STREAM_DATA_BLOCKED frames have stream scope, and
+        STREAMS_BLOCKED frames are scoped to a specific stream type.  A
+        new frame is sent if a packet containing the most recent frame for
+        a scope is lost, but only while the endpoint is blocked on the
+        corresponding limit.  These frames always include the limit that
+        is causing blocking at the time that they are transmitted.
+"fixed": |-
+  *  Blocked signals are carried in DATA_BLOCKED, STREAM_DATA_BLOCKED, and STREAMS_BLOCKED frames.  DATA_BLOCKED frames have connection scope, STREAM_DATA_BLOCKED frames have stream scope, and STREAMS_BLOCKED frames are scoped to a specific stream type.  A new frame is sent if a packet containing the most recent frame for a scope is lost, but only while the endpoint is blocked on the corresponding limit.  These frames always include the limit that is causing blocking at the time that they are transmitted.
+"ko": |-
+  * 차단된 신호는 DATA_BLOCKED, STREAM_DATA_BLOCKED 및 STREAMS_BLOCKED 프레임으로 전달됩니다. DATA_BLOCKED 프레임에는 연결 범위가 있고, STREAM_DATA_BLOCKED 프레임에는 스트림 범위가 있으며, STREAMS_BLOCKED 프레임에는 특정 스트림 유형으로 범위가 지정됩니다. 범위에 대한 최신 프레임을 포함하는 패킷이 손실되면 새 프레임이 전송되지만 엔드포인트가 해당 제한에 따라 차단되는 동안에만 전송됩니다. 이러한 프레임에는 전송 시 차단을 일으키는 제한이 항상 포함됩니다.

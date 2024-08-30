@@ -1,0 +1,14 @@
+"hash": |-
+  ba4c6b44c42b41bfb2ce31bc97dc7159766d844942d455c79c508e35aeb34664
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+         if severity not in self.output_log:
+           self.output_log[severity] = []
+         self.output_log[severity].append(output_line)
+"fixed": |-
+  - if severity not in self.output_log: self.output_log[severity] = [] self.output_log[severity].append(output_line)
+"ko": |-
+  - 심각도가 self.output_log에 없는 경우: self.output_log[심각도] = [] self.output_log[심각도].append(output_line)

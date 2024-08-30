@@ -1,0 +1,17 @@
+"hash": |-
+  136b2ca12db4cdd0df0477efe11e209374eb8b571716fb7cf9b3a6c760866df6
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     In the "Send" state, an endpoint transmits -- and retransmits as
+     necessary -- stream data in STREAM frames.  The endpoint respects the
+     flow control limits set by its peer and continues to accept and
+     process MAX_STREAM_DATA frames.  An endpoint in the "Send" state
+     generates STREAM_DATA_BLOCKED frames if it is blocked from sending by
+     stream flow control limits (Section 4.1).
+"fixed": |-
+  In the "Send" state, an endpoint transmits -- and retransmits as necessary -- stream data in STREAM frames.  The endpoint respects the flow control limits set by its peer and continues to accept and process MAX_STREAM_DATA frames.  An endpoint in the "Send" state generates STREAM_DATA_BLOCKED frames if it is blocked from sending by stream flow control limits (Section 4.1).
+"ko": |-
+  "보내기" 상태에서 엔드포인트는 STREAM 프레임의 스트림 데이터를 전송하고 필요에 따라 재전송합니다. 엔드포인트는 피어가 설정한 흐름 제어 제한을 준수하고 계속해서 MAX_STREAM_DATA 프레임을 수락하고 처리합니다. "Send" 상태의 엔드포인트는 스트림 흐름 제어 제한(섹션 4.1)에 의해 전송이 차단된 경우 STREAM_DATA_BLOCKED 프레임을 생성합니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  3b472bb28d45ee4d6d5e4a42bfb350bb8a71d3eea231d70a5b743f3a940c212c
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        If the Sender or Reply-To header fields are absent in the
+        [RFC5322] header, or are present but empty, the server sets the
+        corresponding member of the envelope to be the same value as the
+        from member (the client is not expected to know how to do this).
+"fixed": |-
+  - If the Sender or Reply-To header fields are absent in the [RFC5322] header, or are present but empty, the server sets the corresponding member of the envelope to be the same value as the from member (the client is not expected to know how to do this).
+"ko": |-
+  - Sender 또는 Reply-To 헤더 필드가 [RFC5322] 헤더에 없거나 존재하지만 비어 있는 경우 서버는 봉투의 해당 멤버를 from 멤버와 동일한 값으로 설정합니다(클라이언트는 이를 수행하는 방법을 알고 있습니다).

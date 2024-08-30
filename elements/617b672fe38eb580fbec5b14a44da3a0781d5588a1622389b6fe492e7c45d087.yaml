@@ -1,0 +1,14 @@
+"hash": |-
+  617b672fe38eb580fbec5b14a44da3a0781d5588a1622389b6fe492e7c45d087
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Servers SHOULD only return a non-matching mailbox name along with
+     CHILDINFO if at least one matching child is not also being returned.
+     That is, servers SHOULD suppress redundant CHILDINFO responses.
+"fixed": |-
+  Servers SHOULD only return a non-matching mailbox name along with CHILDINFO if at least one matching child is not also being returned. That is, servers SHOULD suppress redundant CHILDINFO responses.
+"ko": |-
+  서버는 하나 이상의 일치하는 하위 항목도 반환되지 않는 경우 CHILDINFO와 함께 일치하지 않는 사서함 이름만 반환해야 합니다. 즉, 서버는 중복된 CHILDINFO 응답을 억제해야 합니다.

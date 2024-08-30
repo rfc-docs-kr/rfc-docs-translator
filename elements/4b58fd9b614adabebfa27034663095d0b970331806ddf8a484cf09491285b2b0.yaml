@@ -1,0 +1,20 @@
+"hash": |-
+  4b58fd9b614adabebfa27034663095d0b970331806ddf8a484cf09491285b2b0
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If the client possesses a ticket that it wants to use to resume a
+     session, then it includes the ticket in the SessionTicket extension
+     in the ClientHello.  If the client does not have a ticket and is
+     prepared to receive one in the NewSessionTicket handshake message,
+     then it MUST include a zero-length ticket in the SessionTicket
+     extension.  If the client is not prepared to receive a ticket in the
+     NewSessionTicket handshake message, then it MUST NOT include a
+     SessionTicket extension unless it is sending a non-empty ticket it
+     received through some other means from the server.
+"fixed": |-
+  If the client possesses a ticket that it wants to use to resume a session, then it includes the ticket in the SessionTicket extension in the ClientHello.  If the client does not have a ticket and is prepared to receive one in the NewSessionTicket handshake message, then it MUST include a zero-length ticket in the SessionTicket extension.  If the client is not prepared to receive a ticket in the NewSessionTicket handshake message, then it MUST NOT include a SessionTicket extension unless it is sending a non-empty ticket it received through some other means from the server.
+"ko": |-
+  클라이언트가 세션을 재개하는 데 사용하려는 티켓을 소유한 경우 ClientHello의 SessionTicket 확장에 티켓이 포함됩니다. 클라이언트가 티켓이 없고 NewSessionTicket 핸드셰이크 메시지에서 티켓을 받을 준비가 되어 있는 경우 SessionTicket 확장에 길이가 0인 티켓을 포함해야 합니다. 클라이언트가 NewSessionTicket 핸드셰이크 메시지에서 티켓을 수신할 준비가 되지 않은 경우, 서버에서 다른 수단을 통해 수신한 비어 있지 않은 티켓을 전송하지 않는 한 SessionTicket 확장을 포함해서는 안 됩니다.

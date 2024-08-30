@@ -1,0 +1,16 @@
+"hash": |-
+  cc70a79cc65280fd661abc6d4af4e5265fbb4ef964c29ed6def70794720f458d
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If a system does not receive successive KEEPALIVE, UPDATE, and/or
+     NOTIFICATION messages within the period specified in the Hold Time
+     field of the OPEN message, then the NOTIFICATION message with the
+     Hold Timer Expired Error Code is sent and the BGP connection is
+     closed.
+"fixed": |-
+  If a system does not receive successive KEEPALIVE, UPDATE, and/or NOTIFICATION messages within the period specified in the Hold Time field of the OPEN message, then the NOTIFICATION message with the Hold Timer Expired Error Code is sent and the BGP connection is closed.
+"ko": |-
+  시스템이 OPEN 메시지의 Hold Time 필드에 지정된 기간 내에 연속적인 KEEPALIVE, UPDATE 및/또는 NOTIFICATION 메시지를 수신하지 못하는 경우 Hold Timer Expired 오류 코드가 포함된 NOTIFICATION 메시지가 전송되고 BGP 연결이 닫힙니다.

@@ -1,0 +1,15 @@
+"hash": |-
+  ca269da62986b4e35fe721acb69f5674d51a5be82543633402c8bacfda1c8629
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+        The RECURSIVEMATCH option MUST NOT occur as the only selection
+        option (or only with REMOTE), as it only makes sense when other
+        selection options are also used.  The server MUST return a BAD
+        tagged response in such case.
+"fixed": |-
+  - The RECURSIVEMATCH option MUST NOT occur as the only selection option (or only with REMOTE), as it only makes sense when other selection options are also used.  The server MUST return a BAD tagged response in such case.
+"ko": |-
+  - RECURSIVEMATCH 옵션은 유일한 선택 옵션으로(또는 REMOTE로만) 발생해서는 안 됩니다. 이는 다른 선택 옵션도 사용될 때만 의미가 있기 때문입니다.  이러한 경우 서버는 BAD 태그가 지정된 응답을 반환해야 합니다.

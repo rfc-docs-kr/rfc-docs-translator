@@ -1,0 +1,13 @@
+"hash": |-
+  3dfaac078aa81b489dbffaa261c1e6141eb53d6ff300b9d086d581c8f3ece6ea
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+           Note: This means that BODY[]<0.2048> of a 1500-octet message
+           will return BODY[]<0> with a literal of size 1500, not BODY[].
+"fixed": |-
+  - Note: This means that BODY[]<0.2048> of a 1500-octet message will return BODY[]<0> with a literal of size 1500, not BODY[].
+"ko": |-
+  - 참고: 이는 1500옥텟 메시지의 BODY[]<0.2048>가 BODY[]가 아닌 리터럴 크기 1500의 BODY[]<0>을 반환한다는 의미입니다.

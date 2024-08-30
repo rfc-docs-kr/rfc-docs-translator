@@ -1,0 +1,18 @@
+"hash": |-
+  507d4dd3ba2b685a0f26fc00544330475c00800a9ba89d9225dad8afae809c08
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The primary function of a connection ID is to ensure that changes in
+     addressing at lower protocol layers (UDP, IP) do not cause packets
+     for a QUIC connection to be delivered to the wrong endpoint.  Each
+     endpoint selects connection IDs using an implementation-specific (and
+     perhaps deployment-specific) method that will allow packets with that
+     connection ID to be routed back to the endpoint and to be identified
+     by the endpoint upon receipt.
+"fixed": |-
+  The primary function of a connection ID is to ensure that changes in addressing at lower protocol layers (UDP, IP) do not cause packets for a QUIC connection to be delivered to the wrong endpoint.  Each endpoint selects connection IDs using an implementation-specific (and perhaps deployment-specific) method that will allow packets with that connection ID to be routed back to the endpoint and to be identified by the endpoint upon receipt.
+"ko": |-
+  연결 ID의 주요 기능은 하위 프로토콜 계층(UDP, IP)의 주소 지정 변경으로 인해 QUIC 연결용 패킷이 잘못된 끝점으로 전달되지 않도록 하는 것입니다. 각 끝점은 해당 연결 ID가 있는 패킷이 끝점으로 다시 라우팅되고 수신 시 끝점에서 식별될 수 있도록 하는 구현별(및 아마도 배포별) 방법을 사용하여 연결 ID를 선택합니다.

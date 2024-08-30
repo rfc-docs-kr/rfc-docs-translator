@@ -1,0 +1,1 @@
+IMAP4rev2는 BINARY 확장 [RFC3516]에서 제공하는 기능의 하위 집합을 통합합니다. 특히 여기에는 추가 FETCH 항목(BINARY, BINARY.PEEK 및 BINARY.SIZE)이 포함되지만 APPEND 명령에 대한 확장은 포함되지 않습니다.  전체 [RFC3516] 기능을 지원하는 IMAP4rev2 구현은 CAPABILITY 응답/응답 코드에서 BINARY 기능도 광고해야 합니다.

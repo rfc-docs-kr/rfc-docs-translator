@@ -1,0 +1,18 @@
+"hash": |-
+  47d79fdaf6dbdbefc81929724a3bc1d8663418af7cd690a11a0f5aa98ca7aad4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     This value is the length of the plaintext of a protected record.  The
+     value includes the content type and padding added in TLS 1.3 (that
+     is, the complete length of TLSInnerPlaintext).  In TLS 1.2 and
+     earlier, the limit covers all input to compression and encryption
+     (that is, the data that ultimately produces TLSCiphertext.fragment).
+     Padding added as part of encryption, such as that added by a block
+     cipher, is not included in this count (see Section 4.1).
+"fixed": |-
+  This value is the length of the plaintext of a protected record.  The value includes the content type and padding added in TLS 1.3 (that is, the complete length of TLSInnerPlaintext).  In TLS 1.2 and earlier, the limit covers all input to compression and encryption (that is, the data that ultimately produces TLSCiphertext.fragment). Padding added as part of encryption, such as that added by a block cipher, is not included in this count (see Section 4.1).
+"ko": |-
+  이 값은 보호된 레코드의 일반 텍스트 길이입니다.  값에는 TLS 1.3에 추가된 콘텐츠 유형 및 패딩(즉, TLSInnerPlaintext의 전체 길이)이 포함됩니다.  TLS 1.2 이하에서는 압축 및 암호화에 대한 모든 입력(즉, 최종적으로 TLSCiphertext.fragment를 생성하는 데이터)에 제한이 적용됩니다. 블록 암호에 의해 추가된 것과 같이 암호화의 일부로 추가된 패딩은 이 개수에 포함되지 않습니다(섹션 4.1 참조).

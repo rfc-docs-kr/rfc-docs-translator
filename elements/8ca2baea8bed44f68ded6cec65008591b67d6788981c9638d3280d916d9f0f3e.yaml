@@ -1,0 +1,22 @@
+"hash": |-
+  8ca2baea8bed44f68ded6cec65008591b67d6788981c9638d3280d916d9f0f3e
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+           *  Location:  Resident in core: Locked page
+           *  Coupling:  Coupled to the Network process virtual space
+           *  Content: * Input buffer (253 words) for incoming messages
+                         Output buffer (253 words) for outgoing messages
+                       * Input control zone (6 half words)
+                       * Output control zone (6 half words)
+           *  Structure:  See figure 9.
+           *  Specific feature: * The input buffer is filled by the
+                                  Handler (read from hardware) and emptied
+                                  by the Network program
+                                * Vice versa for the output buffer
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

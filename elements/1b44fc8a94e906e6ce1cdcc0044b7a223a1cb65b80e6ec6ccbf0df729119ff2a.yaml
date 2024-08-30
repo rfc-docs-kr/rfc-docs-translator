@@ -1,0 +1,27 @@
+"hash": |-
+  1b44fc8a94e906e6ce1cdcc0044b7a223a1cb65b80e6ec6ccbf0df729119ff2a
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+     seq-number      = nz-number / "*"
+                         ; message sequence number (COPY, FETCH, STORE
+                         ; commands) or unique identifier (UID COPY,
+                         ; UID FETCH, UID STORE commands).
+                         ; * represents the largest number in use.  In
+                         ; the case of message sequence numbers, it is
+                         ; the number of messages in a non-empty mailbox.
+                         ; In the case of unique identifiers, it is the
+                         ; unique identifier of the last message in the
+                         ; mailbox or, if the mailbox is empty, the
+                         ; mailbox's current UIDNEXT value.
+                         ; The server should respond with a tagged BAD
+                         ; response to a command that uses a message
+                         ; sequence number greater than the number of
+                         ; messages in the selected mailbox.  This
+                         ; includes "*" if the selected mailbox is empty.
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

@@ -1,0 +1,23 @@
+"hash": |-
+  4473a233b042edd16891ecfafb3c32e442a3e08d98e7f95be7b0e3c23d47af2c
+"type": |-
+  RawContent
+"comment": !!null |-
+  null
+"original": |2-
+                            +-------------+
+                            | Application |
+                            |   Server    |\
+                            +-------------+ \ SPEECHSC
+              SIP, VoiceXML,  /              \
+               etc.          /                \
+             +------------+ /                  \    +-------------+
+             |   Media    |/       SPEECHSC     \---| ASR, SI/SV, |
+             | Processing |-------------------------| and/or TTS  |
+         RTP |   Entity   |           RTP           |    Server   |
+        =====|            |=========================|             |
+             +------------+                         +-------------+
+"fixed": !!null |-
+  null
+"ko": !!null |-
+  null

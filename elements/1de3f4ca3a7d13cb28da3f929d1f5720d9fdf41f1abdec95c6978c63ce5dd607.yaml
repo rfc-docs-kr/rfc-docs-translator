@@ -1,0 +1,20 @@
+"hash": |-
+  1de3f4ca3a7d13cb28da3f929d1f5720d9fdf41f1abdec95c6978c63ce5dd607
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     VPNs may span multiple service providers. We assume though that when
+     the path between PE routers crosses a boundary between SP networks,
+     it does so via a private peering arrangement, at which there exists
+     mutual trust between the two providers. In particular, each provider
+     must trust the other to pass it only correct routing information, and
+     to pass it labeled (in the sense of MPLS [9]) packets only if those
+     packets have been labeled by trusted sources. We also assume that it
+     is possible for label switched paths to cross the boundary between
+     service providers.
+"fixed": |-
+  VPNs may span multiple service providers. We assume though that when the path between PE routers crosses a boundary between SP networks, it does so via a private peering arrangement, at which there exists mutual trust between the two providers. In particular, each provider must trust the other to pass it only correct routing information, and to pass it labeled (in the sense of MPLS [9]) packets only if those packets have been labeled by trusted sources. We also assume that it is possible for label switched paths to cross the boundary between service providers.
+"ko": |-
+  VPN은 여러 서비스 제공자를 포함할 수 있습니다. 그러나 PE 라우터 간 경로가 SP 네트워크 간 경계를 교차할 때는 두 제공자 간에 상호 신뢰가 존재하는 개인 피어링 배열을 통해 교차한다고 가정합니다. 특히 각 제공자는 다른 제공자가 올바른 라우팅 정보만 전달하고 신뢰할 수 있는 소스에서 레이블이 지정된 패킷만 레이블이 지정된(MPLS [9]의 의미에서) 패킷을 전달하도록 신뢰해야 합니다. 또한 레이블이 전환된 경로가 서비스 제공자 간 경계를 교차할 수 있다고 가정합니다.

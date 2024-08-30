@@ -1,0 +1,18 @@
+"hash": |-
+  7063a404869b389010bd8e98c4f0a6bddb084809f533274dd7da2becf627542e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint sends a RETIRE_CONNECTION_ID frame (type=0x19) to
+     indicate that it will no longer use a connection ID that was issued
+     by its peer.  This includes the connection ID provided during the
+     handshake.  Sending a RETIRE_CONNECTION_ID frame also serves as a
+     request to the peer to send additional connection IDs for future use;
+     see Section 5.1.  New connection IDs can be delivered to a peer using
+     the NEW_CONNECTION_ID frame (Section 19.15).
+"fixed": |-
+  An endpoint sends a RETIRE_CONNECTION_ID frame (type=0x19) to indicate that it will no longer use a connection ID that was issued by its peer.  This includes the connection ID provided during the handshake.  Sending a RETIRE_CONNECTION_ID frame also serves as a request to the peer to send additional connection IDs for future use; see Section 5.1.  New connection IDs can be delivered to a peer using the NEW_CONNECTION_ID frame (Section 19.15).
+"ko": |-
+  끝점은 RETIRE_CONNECTION_ID 프레임(유형=0x19)을 보내 피어가 발급한 연결 ID를 더 이상 사용하지 않음을 나타냅니다. 여기에는 핸드셰이크 중에 제공된 연결 ID가 포함됩니다. RETIRE_CONNECTION_ID 프레임을 보내는 것은 나중에 사용할 수 있도록 추가 연결 ID를 보내라는 피어에 대한 요청 역할도 합니다. 섹션 5.1을 참조하세요. NEW_CONNECTION_ID 프레임(19.15절)을 사용하여 새로운 연결 ID를 피어에 전달할 수 있습니다.

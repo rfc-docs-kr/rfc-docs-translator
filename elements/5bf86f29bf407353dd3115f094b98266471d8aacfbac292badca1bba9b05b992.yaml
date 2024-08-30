@@ -1,0 +1,18 @@
+"hash": |-
+  5bf86f29bf407353dd3115f094b98266471d8aacfbac292badca1bba9b05b992
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     A message with the "Per-Message Compressed" bit unset on the first
+     fragment of the message is called an "uncompressed message".  Frames
+     of an uncompressed message have uncompressed original data as is in
+     the payload data portion.  An endpoint receiving an uncompressed
+     message uses the concatenation of the application data portion of the
+     frames of the message as is for the _A WebSocket Message Has Been
+     Received_ event.
+"fixed": |-
+  A message with the "Per-Message Compressed" bit unset on the first fragment of the message is called an "uncompressed message".  Frames of an uncompressed message have uncompressed original data as is in the payload data portion.  An endpoint receiving an uncompressed message uses the concatenation of the application data portion of the frames of the message as is for the _A WebSocket Message Has Been Received_ event.
+"ko": |-
+  메시지의 첫 번째 조각에서 "메시지별 압축" 비트가 설정되지 않은 메시지를 "압축되지 않은 메시지"라고 합니다.  압축되지 않은 메시지의 프레임에는 페이로드 데이터 부분과 마찬가지로 압축되지 않은 원본 데이터가 있습니다.  압축되지 않은 메시지를 수신하는 엔드포인트는 _A WebSocket 메시지가 수신되었습니다_ 이벤트와 마찬가지로 메시지 프레임의 애플리케이션 데이터 부분 연결을 사용합니다.

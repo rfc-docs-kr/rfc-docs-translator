@@ -1,0 +1,18 @@
+"hash": |-
+  c3887e041ae8f318e82c96ba03f814be57e6279986e2dfcb26159c60f14be22a
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When a synthesizer method needs a synthesizer to fetch or access a
+     URI and the access fails, the server MUST provide the URI-specific or
+     protocol-specific response code for the URI in the Failed-URI header
+     field in the method response through this header field.  The value
+     encoding is UTF-8 (RFC 3629 [RFC3629]) to accommodate any access
+     protocol -- some access protocols might have a response string
+     instead of a numeric response code.
+"fixed": |-
+  When a synthesizer method needs a synthesizer to fetch or access a URI and the access fails, the server MUST provide the URI-specific or protocol-specific response code for the URI in the Failed-URI header field in the method response through this header field.  The value encoding is UTF-8 (RFC 3629 [RFC3629]) to accommodate any access protocol -- some access protocols might have a response string instead of a numeric response code.
+"ko": |-
+  합성기 메서드가 합성기가 URI를 가져오거나 액세스해야 하고 액세스가 실패하면 서버는 이 헤더 필드를 통해 메서드 응답의 Failed-URI 헤더 필드에 URI에 대한 URI 특정 또는 프로토콜 특정 응답 코드를 제공해야 합니다. 값 인코딩은 모든 액세스 프로토콜을 수용하기 위해 UTF-8(RFC 3629 [RFC3629])입니다. 일부 액세스 프로토콜은 숫자 응답 코드 대신 응답 문자열을 가질 수 있습니다.

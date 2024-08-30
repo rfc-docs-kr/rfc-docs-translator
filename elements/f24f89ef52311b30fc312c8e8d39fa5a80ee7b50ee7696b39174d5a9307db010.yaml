@@ -1,0 +1,19 @@
+"hash": |-
+  f24f89ef52311b30fc312c8e8d39fa5a80ee7b50ee7696b39174d5a9307db010
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     If anti-replay is enabled (the default), the sender checks to ensure
+     that the counter has not cycled before inserting the new value in the
+     Sequence Number field.  In other words, the sender MUST NOT send a
+     packet on an SA if doing so would cause the sequence number to cycle.
+     An attempt to transmit a packet that would result in sequence number
+     overflow is an auditable event.  The audit log entry for this event
+     SHOULD include the SPI value, current date/time, Source Address,
+     Destination Address, and (in IPv6) the cleartext Flow ID.
+"fixed": |-
+  If anti-replay is enabled (the default), the sender checks to ensure that the counter has not cycled before inserting the new value in the Sequence Number field.  In other words, the sender MUST NOT send a packet on an SA if doing so would cause the sequence number to cycle. An attempt to transmit a packet that would result in sequence number overflow is an auditable event.  The audit log entry for this event SHOULD include the SPI value, current date/time, Source Address, Destination Address, and (in IPv6) the cleartext Flow ID.
+"ko": |-
+  재생 방지가 활성화된 경우(기본값) 송신자는 시퀀스 번호 필드에 새 값을 삽입하기 전에 카운터가 순환되지 않았는지 확인합니다.  즉, 발신자는 SA에서 패킷을 보내면 시퀀스 번호가 순환하게 되어서는 안 됩니다. 시퀀스 번호 오버플로를 초래하는 패킷 전송 시도는 감사 가능한 이벤트입니다.  이 이벤트에 대한 감사 로그 항목에는 SPI 값, 현재 날짜/시간, 소스 주소, 대상 주소 및 (IPv6의 경우) 일반 텍스트 흐름 ID가 포함되어야 합니다.

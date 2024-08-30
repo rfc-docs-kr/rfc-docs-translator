@@ -1,0 +1,13 @@
+"hash": |-
+  02910eafb367883715552531bf01e8deaee0951eb02e8e5839fbe95b9d63b181
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     An endpoint that receives a STREAM_DATA_BLOCKED frame for a send-only
+     stream MUST terminate the connection with error STREAM_STATE_ERROR.
+"fixed": |-
+  An endpoint that receives a STREAM_DATA_BLOCKED frame for a send-only stream MUST terminate the connection with error STREAM_STATE_ERROR.
+"ko": |-
+  전송 전용 스트림에 대한 STREAM_DATA_BLOCKED 프레임을 수신하는 엔드포인트는 STREAM_STATE_ERROR 오류와 함께 연결을 종료해야 합니다.

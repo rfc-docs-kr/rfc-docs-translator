@@ -1,0 +1,17 @@
+"hash": |-
+  6eb28c714b83129bc8bbac712e53f52c48c6b31c3a1895348fb694529921eb71
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     Because of the algorithm specific padding requirement, no additional
+     padding is required to ensure that the ciphertext terminates on a 4-
+     octet boundary (i.e., maintaining a 16-octet blocksize guarantees
+     that the ESP Pad Length and Next Header fields will be right aligned
+     within a 4-octet word).  Additional padding MAY be included, as
+     specified in [ESP], as long as the 16-octet blocksize is maintained.
+"fixed": |-
+  Because of the algorithm specific padding requirement, no additional padding is required to ensure that the ciphertext terminates on a 4- octet boundary (i.e., maintaining a 16-octet blocksize guarantees that the ESP Pad Length and Next Header fields will be right aligned within a 4-octet word).  Additional padding MAY be included, as specified in [ESP], as long as the 16-octet blocksize is maintained.
+"ko": |-
+  알고리즘 특정 패딩 요구 사항으로 인해 암호 텍스트가 4옥텟 경계에서 종료되도록 보장하기 위해 추가 패딩이 필요하지 않습니다. 4옥텟 워드). 16옥텟 블록 크기가 유지되는 한 [ESP]에 지정된 대로 추가 패딩이 포함될 수 있습니다.

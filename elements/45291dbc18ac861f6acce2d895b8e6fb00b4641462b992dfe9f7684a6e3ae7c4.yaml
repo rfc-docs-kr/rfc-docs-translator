@@ -1,0 +1,21 @@
+"hash": |-
+  45291dbc18ac861f6acce2d895b8e6fb00b4641462b992dfe9f7684a6e3ae7c4
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     When sending a CONNECTION_CLOSE frame, the goal is to ensure that the
+     peer will process the frame.  Generally, this means sending the frame
+     in a packet with the highest level of packet protection to avoid the
+     packet being discarded.  After the handshake is confirmed (see
+     Section 4.1.2 of [QUIC-TLS]), an endpoint MUST send any
+     CONNECTION_CLOSE frames in a 1-RTT packet.  However, prior to
+     confirming the handshake, it is possible that more advanced packet
+     protection keys are not available to the peer, so another
+     CONNECTION_CLOSE frame MAY be sent in a packet that uses a lower
+     packet protection level.  More specifically:
+"fixed": |-
+  When sending a CONNECTION_CLOSE frame, the goal is to ensure that the peer will process the frame.  Generally, this means sending the frame in a packet with the highest level of packet protection to avoid the packet being discarded.  After the handshake is confirmed (see Section 4.1.2 of [QUIC-TLS]), an endpoint MUST send any CONNECTION_CLOSE frames in a 1-RTT packet.  However, prior to confirming the handshake, it is possible that more advanced packet protection keys are not available to the peer, so another CONNECTION_CLOSE frame MAY be sent in a packet that uses a lower packet protection level.  More specifically:
+"ko": |-
+  CONNECTION_CLOSE 프레임을 보낼 때 목표는 피어가 프레임을 처리하는지 확인하는 것입니다. 일반적으로 이는 패킷이 폐기되는 것을 방지하기 위해 최고 수준의 패킷 보호 기능을 갖춘 패킷으로 프레임을 보내는 것을 의미합니다. 핸드셰이크가 확인된 후([QUIC-TLS]의 섹션 4.1.2 참조) 엔드포인트는 1-RTT 패킷의 CONNECTION_CLOSE 프레임을 전송해야 합니다. 그러나 핸드셰이크를 확인하기 전에 피어에서 고급 패킷 보호 키를 사용할 수 없으므로 다른 CONNECTION_CLOSE 프레임이 낮은 패킷 보호 수준을 사용하는 패킷으로 전송될 수 있습니다. 더 구체적으로:

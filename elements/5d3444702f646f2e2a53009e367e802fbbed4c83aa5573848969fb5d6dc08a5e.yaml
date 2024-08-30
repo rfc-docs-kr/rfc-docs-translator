@@ -1,0 +1,17 @@
+"hash": |-
+  5d3444702f646f2e2a53009e367e802fbbed4c83aa5573848969fb5d6dc08a5e
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The number after the "*" in an untagged FETCH or EXPUNGE response is
+     always a message sequence number, not a unique identifier, even for a
+     UID command response.  However, server implementations MUST
+     implicitly include the UID message data item as part of any FETCH
+     response caused by a UID command, regardless of whether a UID was
+     specified as a message data item to the FETCH.
+"fixed": |-
+  The number after the "*" in an untagged FETCH or EXPUNGE response is always a message sequence number, not a unique identifier, even for a UID command response.  However, server implementations MUST implicitly include the UID message data item as part of any FETCH response caused by a UID command, regardless of whether a UID was specified as a message data item to the FETCH.
+"ko": |-
+  태그가 지정되지 않은 FETCH 또는 EXPUNGE 응답에서 "*" 뒤의 숫자는 UID 명령 응답의 경우에도 고유 식별자가 아니라 항상 메시지 시퀀스 번호입니다.  그러나 서버 구현은 UID가 FETCH에 대한 메시지 데이터 항목으로 지정되었는지 여부에 관계없이 UID 명령으로 인한 FETCH 응답의 일부로 UID 메시지 데이터 항목을 암시적으로 포함해야 합니다.

@@ -1,0 +1,14 @@
+"hash": |-
+  4139fc7b848cb9c86223358a48ade3a184b23f5438fdf249476ebaa50f43a6b2
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The LOGOUT command informs the server that the client is done with
+     the connection.  The server MUST send a BYE untagged response before
+     the (tagged) OK response, and then close the network connection.
+"fixed": |-
+  The LOGOUT command informs the server that the client is done with the connection.  The server MUST send a BYE untagged response before the (tagged) OK response, and then close the network connection.
+"ko": |-
+  LOGOUT 명령은 클라이언트의 연결이 완료되었음을 서버에 알립니다.  서버는 (태그된) OK 응답 전에 BYE 태그 없는 응답을 보낸 다음 네트워크 연결을 닫아야 합니다.

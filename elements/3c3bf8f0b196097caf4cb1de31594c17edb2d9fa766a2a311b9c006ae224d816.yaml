@@ -1,0 +1,22 @@
+"hash": |-
+  3c3bf8f0b196097caf4cb1de31594c17edb2d9fa766a2a311b9c006ae224d816
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     The error response MUST identify in the "version-number" operation
+     parameter the closest version number that the IPP object does
+     support.  For example, if a Client supplies version '1.0' and an
+     IPP/1.1 object supports version '1.0', then it responds with
+     version '1.0' in all responses to such a request.  If the IPP/1.1
+     object does not support version '1.0', then it should accept the
+     request and respond with version '1.1' or can reject the request and
+     respond with this error code and version '1.1'.  If a Client supplies
+     version '1.2', the IPP/1.1 object should accept the request and
+     return version '1.1' or can reject the request and respond with this
+     error code and version '1.1'.  See Sections 4.1.8 and 5.3.14.
+"fixed": |-
+  The error response MUST identify in the "version-number" operation parameter the closest version number that the IPP object does support.  For example, if a Client supplies version '1.0' and an IPP/1.1 object supports version '1.0', then it responds with version '1.0' in all responses to such a request.  If the IPP/1.1 object does not support version '1.0', then it should accept the request and respond with version '1.1' or can reject the request and respond with this error code and version '1.1'.  If a Client supplies version '1.2', the IPP/1.1 object should accept the request and return version '1.1' or can reject the request and respond with this error code and version '1.1'.  See Sections 4.1.8 and 5.3.14.
+"ko": |-
+  오류 응답은 "버전 번호" 작업 매개변수에서 IPP 객체가 지원하는 가장 가까운 버전 번호를 식별해야 합니다. 예를 들어, 클라이언트가 버전 '1.0'을 제공하고 IPP/1.1 객체가 버전 '1.0'을 지원하는 경우 해당 요청에 대한 모든 응답에서 버전 '1.0'으로 응답합니다. IPP/1.1 개체가 '1.0' 버전을 지원하지 않는 경우 요청을 수락하고 버전 '1.1'로 응답해야 하거나 요청을 거부하고 이 오류 코드와 버전 '1.1'로 응답할 수 있습니다. 클라이언트가 버전 '1.2'를 제공하는 경우 IPP/1.1 개체는 요청을 수락하고 버전 '1.1'을 반환하거나 요청을 거부하고 이 오류 코드와 버전 '1.1'로 응답할 수 있습니다. 섹션 4.1.8 및 5.3.14를 참조하십시오.

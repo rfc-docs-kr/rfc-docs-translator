@@ -1,0 +1,16 @@
+"hash": |-
+  c1d27a8da92efb3ae5d3da27221d76bdabd9c987be3221ac8cddef0dee19cf6b
+"type": |-
+  Content
+"comment": !!null |-
+  null
+"original": |2-
+     2.   Base64url decode the encoded representations of the JWE
+          Protected Header, the JWE Encrypted Key, the JWE Initialization
+          Vector, the JWE Ciphertext, the JWE Authentication Tag, and the
+          JWE AAD, following the restriction that no line breaks,
+          whitespace, or other additional characters have been used.
+"fixed": |-
+  1.   Base64url decode the encoded representations of the JWE Protected Header, the JWE Encrypted Key, the JWE Initialization Vector, the JWE Ciphertext, the JWE Authentication Tag, and the JWE AAD, following the restriction that no line breaks, whitespace, or other additional characters have been used.
+"ko": |-
+  1. Base64url은 줄 바꿈, 공백 또는 기타 추가 문자가 사용되지 않았다는 제한 사항에 따라 JWE 보호 헤더, JWE 암호화 키, JWE 초기화 벡터, JWE 암호문, JWE 인증 태그 및 JWE AAD의 인코딩된 표현을 디코딩합니다.
