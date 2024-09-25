@@ -31,21 +31,26 @@ def rfc_page (id=None):
     except :
         abort(404)
     content = f'# rfc {id} file not found ... '
-    if os.path.isfile(f'./mds/ko/rfc{id}.md'):
-        rfcMdFile = open(f'./mds/ko/rfc{id}.md','r')
-        content = rfcMdFile.read()
-        rfcMdFile.close()
-    elif os.path.isfile(f'./mds/ko/rfc{id}.txt.md'): # reuse legacy files
-        rfcMdFile = open(f'./mds/ko/rfc{id}.txt.md','r')
-        content = rfcMdFile.read()
-        rfcMdFile.close()
-    else :
-        # make page
-        getRFC(id)
-        rfcMdFile = open(f'./mds/ko/rfc{id}.md','r')
-        content = rfcMdFile.read()
-        rfcMdFile.close()
-        pass
+    try:
+        if os.path.isfile(f'./mds/ko/rfc{id}.md'):
+            rfcMdFile = open(f'./mds/ko/rfc{id}.md','r')
+            content = rfcMdFile.read()
+            rfcMdFile.close()
+        elif os.path.isfile(f'./mds/ko/rfc{id}.txt.md'): # reuse legacy files
+            rfcMdFile = open(f'./mds/ko/rfc{id}.txt.md','r')
+            content = rfcMdFile.read()
+            rfcMdFile.close()
+        else :
+            # make page
+            getRFC(id)
+            rfcMdFile = open(f'./mds/ko/rfc{id}.md','r')
+            content = rfcMdFile.read()
+            rfcMdFile.close()
+            pass
+    except :
+        os.remove(f'./mds/ko/rfc{id}.md')
+        abort(404)
+
 
 
     return render_template('rfc.html', id=id, content=content)

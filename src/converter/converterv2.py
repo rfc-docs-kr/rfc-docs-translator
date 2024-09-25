@@ -54,6 +54,7 @@ class Converter :
                     markdownFile.write(element.data['original'])
                 
             markdownFile.write(lastBlock.getCloser())
+            markdownFile.flush()
 
 
     def convert(self, id) :
